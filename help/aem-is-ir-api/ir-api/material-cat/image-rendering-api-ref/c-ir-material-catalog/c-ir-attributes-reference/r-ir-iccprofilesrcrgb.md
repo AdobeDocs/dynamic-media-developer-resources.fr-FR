@@ -1,0 +1,29 @@
+---
+description: de couleur d’entrée RVB par défaut. Indique le nom du de couleurs ICC à utiliser pour les images de matériau et les vignettes RVB qui n’incorporent pas de de couleurs et pour les valeurs de couleur RVB spécifiées avec diverses commandes de rendu d’image, telles que bgc= et color=.
+seo-description: de couleur d’entrée RVB par défaut. Indique le nom du de couleurs ICC à utiliser pour les images de matériau et les vignettes RVB qui n’incorporent pas de de couleurs et pour les valeurs de couleur RVB spécifiées avec diverses commandes de rendu d’image, telles que bgc= et color=.
+seo-title: IccProfileSrcRgb
+solution: Experience Manager
+title: IccProfileSrcRgb
+topic: Scene7 Image Serving - Image Rendering API
+uuid: 9657e296-0d2a-4b05-9be7-5a54d3277f90
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# IccProfileSrcRgb{#iccprofilesrcrgb}
+
+de couleur d’entrée RVB par défaut. Indique le nom du de couleurs ICC à utiliser pour les images de matériau et les vignettes RVB qui n’incorporent pas de de couleurs et pour les valeurs de couleur RVB spécifiées avec diverses commandes de rendu d’image, telles que bgc= et color=.
+
+## Propriétés {#section-c22966bba03e43c08e9d3fb91bfdd465}
+
+Chaîne de texte. Le cas échéant, doit correspondre à une `icc::Name` valeur valide de la carte de  ICC de ce catalogue d’images ou du catalogue par défaut, ou à un chemin d’accès de fichier relatif à `attribute::RootPath`. Le ICC référencé doit être un RVB .
+
+## Par défaut {#section-0171cd6680284bfa9844b9cc3644ca61}
+
+Héritée de `default::IccProfileSrcRgb` si non définie ou si vide. Si `attribute::IccProfileSrcRgb` la résolution ne correspond pas à un  valide, `attribute::IccProfileRgb` est utilisé à la place.
+
+## Voir aussi {#section-1ba91666830f4c209c39260ea29f938e}
+
+[icc::Name](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/r-ir-name-icc.md#reference-7a293ede360e433782575f8f6a562ac2) , [attribut::IccRenderIntent](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccrenderintent.md#reference-3b80b7a4c25545a593c5076f318b5c40), [attribut::IccProfileRgb](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilergb.md#reference-cdaad25b155646ffa382d722fd324b30), [attribut::RootPath](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md#reference-a4d7c96b62e14fcbad1740c702f160f3)
