@@ -1,0 +1,173 @@
+---
+description: Certains contenus affichés par la visionneuse de vidéos interactives sont soumis à des  de. Cela inclut des info-bulles sur les éléments de l’interface utilisateur et un message d’erreur qui s’affiche lorsque la lecture de la vidéo est impossible.
+seo-description: Certains contenus affichés par la visionneuse de vidéos interactives sont soumis à des  de. Cela inclut des info-bulles sur les éléments de l’interface utilisateur et un message d’erreur qui s’affiche lorsque la lecture de la vidéo est impossible.
+seo-title: ' des éléments de l’interface utilisateur'
+solution: Experience Manager
+title: ' des éléments de l’interface utilisateur'
+topic: Dynamic media
+uuid: 7c880e25-76dc-43d3-83fc-12de92afd35f
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+#  des éléments de l’interface utilisateur{#localization-of-user-interface-elements}
+
+Certains contenus affichés par la visionneuse de vidéos interactives sont soumis à des  de. Cela inclut des info-bulles sur les éléments de l’interface utilisateur et un message d’erreur qui s’affiche lorsque la lecture de la vidéo est impossible.
+
+Chaque contenu textuel du lecteur pouvant être localisé est représenté par l’identifiant spécial du kit de développement de visionneuse appelé SYMBOL. Tout SYMBOL est associé par défaut à une valeur de texte pour un paramètre régional en anglais ( `"en"`) fourni avec le lecteur prêt à l’emploi et peut également avoir des valeurs définies par l’utilisateur pour autant de paramètres régionaux que nécessaire.
+
+Lorsque le du lecteur , il vérifie les paramètres régionaux actuels pour voir s’il existe une valeur définie par l’utilisateur pour chaque SYMBOL pris en charge pour ces paramètres régionaux. Dans le cas contraire, elle utilise la valeur définie par l’utilisateur ; dans le cas contraire, il revient au texte par défaut prêt à l’emploi.
+
+Les données de  définies par l’utilisateur peuvent être transmises au lecteur sous la forme d’un objet JSON de . Cet objet contient le  des paramètres régionaux pris en charge, les valeurs de texte SYMBOL pour chaque paramètre régional et les paramètres régionaux par défaut.
+
+Voici un exemple de cet objet  :
+
+```
+{ 
+"en":{ 
+"VideoPlayer.ERROR":"Your Browser does not support HTML5 Video tag or the video cannot be played.", 
+"PlayPauseButton.TOOLTIP_SELECTED":"Play" 
+ }, 
+ "fr":{ 
+"VideoPlayer.ERROR":"Votre navigateur ne prend pas en charge la vidéo HTML5 tag ou la vidéo ne peuvent pas être lus.", 
+"PlayPauseButton.TOOLTIP_SELECTED":"Jouer" 
+}, 
+defaultLocale:"en" 
+}
+```
+
+Dans l’exemple ci-dessus, l’objet  de définit deux paramètres régionaux ( `"en"` et `"fr"`) et fournit un  pour deux éléments d’interface utilisateur dans chaque paramètre régional.
+
+Le code de la page Web doit transmettre l’objet  du au constructeur de la visionneuse, sous la forme d’une valeur de `localizedTexts` champ de l’objet de configuration. Une autre option consiste à transmettre l’objet  en appelant `setLocalizedTexts(localizationInfo)` la méthode.
+
+Les SYMBOLES suivants sont pris en charge :
+
+<table id="table_58C40353B7244335872350C98DF2CFB3"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> <p>SYMBOLE </p> </th> 
+   <th colname="col2" class="entry"> <p>Info-bulle pour... </p> </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> .ÉTIQUETTE </span> </p> </td> 
+   <td colname="col2"> <p>Libellé ARIA pour l’élément de lecteur de niveau supérieur. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELECTED </span> </p> </td> 
+   <td colname="col2"> <p> Etat du bouton Lecture en pause sélectionné. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_UNSELECTED </span> </p> </td> 
+   <td colname="col2"> <p>Désélectionnez l’état du bouton Lecture en pause. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_REPLAY </span> </p> </td> 
+   <td colname="col2"> <p> Réexécuter l’état du bouton de mise en pause de la lecture. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> VideoScrubber.TOOLTIP </span> </p> </td> 
+   <td colname="col2"> <p>Nettoyage vidéo. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> VideoTime.TOOLTIP </span> </p> </td> 
+   <td colname="col2"> <p>Temps passé sur la barre de contrôle. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_SELECTED </span> </p> </td> 
+   <td colname="col2"> <p> Volume muable sélectionné. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_UNSELECTED </span> </p> </td> 
+   <td colname="col2"> <p>Volume muable désélectionné. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_VOLUME </span> </p> </td> 
+   <td colname="col2"> <p> Étiquette du bouton du curseur de volume exposée au moyen de l'attribut ARIA <span class="codeph"> aria-valuetext </span> . </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
+   <td colname="col2"> <p>Bouton plein écran en état normal. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED </span> </p> </td> 
+   <td colname="col2"> <p>Bouton plein écran en mode plein écran. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> ClosedCaptionButton.TOOLTIP_SELECTED </span> </p> </td> 
+   <td colname="col2"> <p> Etat du bouton de sous-titrage sélectionné. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> ClosedCaptionButton.TOOLTIP_UNSELECTED </span> </p> </td> 
+   <td colname="col2"> <p> Etat du bouton de sous-titrage codé non sélectionné. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> InteractiveSwatches.BANNER </span> </p> </td> 
+   <td colname="col2"> <p>Légende de la bannière. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> ScrollUpButton.TOOLTIP </span> </p> </td> 
+   <td colname="col2"> <p>Bouton de défilement vers le haut. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> ScrollDownButton.TOOLTIP </span> </p> </td> 
+   <td colname="col2"> <p>Bouton de défilement vers le bas. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> SocialShare.TOOLTIP </span> </p> </td> 
+   <td colname="col2"> <p>Outil de partage sur les réseaux sociaux. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP </span> </p> </td> 
+   <td colname="col2"> <p>Bouton Partage de liens. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.HEADER </span> </p> </td> 
+   <td colname="col2"> <p>En-tête de la boîte de dialogue Lien. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_HEADER_CLOSE </span> </p> </td> 
+   <td colname="col2"> <p>Bouton de fermeture en haut à droite de la boîte de dialogue Lien. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.DESCRIPTION </span> </p> </td> 
+   <td colname="col2"> <p>Description du lien de partage. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.CANCEL </span> </p> </td> 
+   <td colname="col2"> <p>Légende du bouton Annuler. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_CANCEL </span> </p> </td> 
+   <td colname="col2"> <p>Bouton Annuler. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.ACTION </span> </p> </td> 
+   <td colname="col2"> <p>Légende du bouton Sélectionner tout. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_ACTION </span> </p> </td> 
+   <td colname="col2"> <p> Cliquez sur Tout. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP </span> </p> </td> 
+   <td colname="col2"> <p>Bouton de partage Facebook. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP </span> </p> </td> 
+   <td colname="col2"> <p>Bouton de partage Twitter. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP </span> </p> </td> 
+   <td colname="col2"> <p>Bouton de fermeture du panneau d’appel à l’action. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> VideoPlayer.ERROR </span> </p> </td> 
+   <td colname="col2"> <p>Message d’erreur qui s’affiche lorsqu’aucune lecture vidéo n’est possible. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
