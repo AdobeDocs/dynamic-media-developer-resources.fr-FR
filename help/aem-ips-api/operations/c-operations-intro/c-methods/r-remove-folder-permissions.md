@@ -1,0 +1,88 @@
+---
+description: Supprime les autorisations de dossier.
+seo-description: Supprime les autorisations de dossier.
+seo-title: removeFolderPermissions
+solution: Experience Manager
+title: removeFolderPermissions
+topic: Scene7 Image Production System API
+uuid: cd9f7a42-e314-4ec9-abe2-a27581c7cd23
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# removeFolderPermissions{#removefolderpermissions}
+
+Supprime les autorisations de dossier.
+
+Syntaxe
+
+## Types d’utilisateurs autorisés {#section-bfa745624f9b43aaba6c226ac6700fe7}
+
+* `IpsAdmin`
+* `IpsCompanyAdmin`
+* `ImagePortalAdmin`
+
+## Paramètres {#section-7efa68377fd846219b906d354ae64ed3}
+
+**Entrée (removeFolderPermissionsParam)**
+
+<table id="table_15223256C63C4F008BDB1DF6F0AFE6A8"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> Nom </th> 
+   <th colname="col2" class="entry"> Type </th> 
+   <th colname="col3" class="entry"> Obligatoire </th> 
+   <th colname="col4" class="entry"> Description </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> sociétéHandle</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> Oui </td> 
+   <td colname="col4"> Le nom d’utilisateur du  avec des dossiers avec des autorisations à supprimer. </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> dossierHandle</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> Oui </td> 
+   <td colname="col4"> Accédez au dossier. </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> updateChildren</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col3"> Oui </td> 
+   <td colname="col4"> <p>Lorsque <span class="codeph"> true</span>: 
+     <ul id="ul_1305D060E0F34A61AA3C827E43F296E6"> 
+      <li id="li_AB8705F3CEAD4B8A8F1C28291A6F7EC8">La suppression des autorisations se propage à travers toutes les opérations d’autorisation de dossier. </li> 
+     </ul> </p> <p>Lorsque <span class="codeph"> false</span>: 
+     <ul id="ul_19AEE80F1FC84B64AD623E050C12A0CD"> 
+      <li id="li_B8B78851004C43DB8CB7958E380AF510">L’opération affecte uniquement le dossier spécifié. </li> 
+     </ul> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+**Output (removeFolderPermissionsReturn)**
+
+L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+
+## Exemples {#section-04390f0ec7cc460cb5d34d518e33e7a5}
+
+Cet exemple de code supprime les autorisations d’un dossier et de ses sous-dossiers. Définissez cette variable sur `updateChildren` `false` si vous devez supprimer des autorisations du dossier parent uniquement.
+
+**Request**
+
+```java
+<removeFolderPermissionsParam xmlns="http://www.scene7.com/IpsApi/xsd">
+   <companyHandle>64</companyHandle>
+   <folderHandle>blackmesa/Awatermark/</folderHandle>
+   <updateChildren>true</updateChildren>
+</removeFolderPermissionsParam>
+```
+
+**Réponse**
+
+Aucune
