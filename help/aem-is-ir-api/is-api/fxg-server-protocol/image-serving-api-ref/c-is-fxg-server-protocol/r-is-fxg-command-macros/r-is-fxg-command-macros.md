@@ -1,0 +1,49 @@
+---
+description: Les macros de commande fournissent des raccourcis nommés pour les ensembles de commandes.
+seo-description: Les macros de commande fournissent des raccourcis nommés pour les ensembles de commandes.
+seo-title: Macros de commande
+solution: Experience Manager
+title: Macros de commande
+topic: Scene7 Image Serving - Image Rendering API
+uuid: f90d5132-aa5b-424f-a123-838723ed891a
+translation-type: tm+mt
+source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
+
+---
+
+
+# Macros de commande{#command-macros}
+
+Les macros de commande fournissent des raccourcis nommés pour les ensembles de commandes.
+
+Les macros sont définies dans des fichiers de définition de macro distincts, qui peuvent être joints aux catalogues d’images ou au catalogue par défaut.
+
+Les macros peuvent être appelées n’importe où dans une requête après le signe &quot;?&quot;, ainsi qu’à n’importe quel endroit dans un `catalog::Modifier` champ. Les macros ne peuvent représenter qu’une ou plusieurs commandes de diffusion d’images complètes. Elles doivent donc être entourées de séparateurs &quot;&amp;&quot; (sauf au début ou à la fin de la chaîne de modificateur).
+
+Les appels de macro sont remplacés par leurs chaînes de substitution tôt au cours de l’analyse. Les commandes des macros remplacent les mêmes commandes dans la requête si elles surviennent avant l’appel de macro dans la requête. Cela diffère de `catalog::Modifier`, où les commandes de la chaîne de requête remplacent toujours les commandes de la `catalog::Modifier` chaîne, quelle que soit la position dans la requête.
+
+Les macros peuvent être imbriquées avec la restriction suivante : une macro ne peut être appelée que si elle est déjà définie au moment de l&#39;analyse de la définition de macro, soit en apparaissant plus tôt dans le même fichier de définition de macro, soit en plaçant la définition d&#39;une telle macro incorporée dans le fichier de définition de macro par défaut.
+
+Les macros peuvent s’avérer utiles si les mêmes attributs doivent être appliqués à des images différentes.
+
+[!DNL http://server/cat/1345?wid=240&fmt=pdf&imageRes=300]
+
+[!DNL http://server/cat/1435?wid=240&fmt=pdf&imageRes=300]
+
+[!DNL http://server/cat/8243?wid=480&fmt=pdf&imageRes=300]
+
+Nous pouvons définir une macro pour les attributs communs :
+
+`view wid=240&fmt=pdf&imageRes=300`
+
+La macro serait utilisée comme suit :
+
+[!DNL http://server/cat/1345?$view$]
+
+[!DNL http://server/cat/1435?$view$]
+
+[!DNL http://server/cat/8243?$view$&wid=480]
+
+Etant donné que `wid=` est différent pour la troisième requête, nous remplaçons simplement la valeur *après* l’appel de la macro (la spécification `wid=`*avant *`$view$`n’aurait aucun effet).
+
++ [nom](r-name.md)
