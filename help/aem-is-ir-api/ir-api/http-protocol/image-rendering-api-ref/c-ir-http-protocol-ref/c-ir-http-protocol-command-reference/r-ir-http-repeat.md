@@ -1,0 +1,116 @@
+---
+description: Mode de répétition de la texture. Spécifie le mode de répétition pour les matériaux de texture répétables.
+seo-description: Mode de répétition de la texture. Spécifie le mode de répétition pour les matériaux de texture répétables.
+seo-title: répéter
+solution: Experience Manager
+title: répéter
+topic: Scene7 Image Serving - Image Rendering API
+uuid: 6508fdff-27cd-4038-b506-39b927f3526a
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# répéter{#repeat}
+
+Mode de répétition de la texture. Spécifie le mode de répétition pour les matériaux de texture répétables.
+
+`repeat=0...19`
+
+<table id="simpletable_0D54E62EAF50482A95EDE166D0645D9E"> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>01 </p> </td> 
+  <td class="stentry"> <p>Répétez. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>1 </p> </td> 
+  <td class="stentry"> <p>Carrelage aléatoire à 4 voies. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>2 </p> </td> 
+  <td class="stentry"> <p>Mosaïque aléatoire à 8 voies. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>3 </p> </td> 
+  <td class="stentry"> <p>Carrelage en losange. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>4 </p> </td> 
+  <td class="stentry"> <p>Le papier peint à un quart de goutte est accroché. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>5 </p> </td> 
+  <td class="stentry"> <p>Le papier peint à la troisième goutte est suspendu. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>6 </p> </td> 
+  <td class="stentry"> <p>Le papier peint à demi-goutte est suspendu. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>7 </p> </td> 
+  <td class="stentry"> <p>Le papier peint à la cinquième goutte est suspendu. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>8 </p> </td> 
+  <td class="stentry"> <p>Le papier peint est suspendu. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>9 </p> </td> 
+  <td class="stentry"> <p>Du papier peint aléatoire. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>10 </p> </td> 
+  <td class="stentry"> <p>Une goutte aléatoire. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>11 </p> </td> 
+  <td class="stentry"> <p>Au hasard. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>12 </p> </td> 
+  <td class="stentry"> <p>À moitié. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>13 </p> </td> 
+  <td class="stentry"> <p>Miroir (correspondance de bibliothèque). </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>14 </p> </td> 
+  <td class="stentry"> <p>Générateur aléatoire standard. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>15 </p> </td> 
+  <td class="stentry"> <p>Optimisateur de fréquence élevée. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>16 </p> </td> 
+  <td class="stentry"> <p>Optimiseur aléatoire basse fréquence. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>17 </p> </td> 
+  <td class="stentry"> <p>Caractère aléatoire horizontal. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>18 </p> </td> 
+  <td class="stentry"> <p>Caractère aléatoire vertical. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>19 </p> </td> 
+  <td class="stentry"> <p>Séparateur de bord. </p> </td> 
+ </tr> 
+</table>
+
+Les modes d&#39;inclinaison aléatoire (14...18) peuvent être utilisés pour synthétiser les textures à partir d&#39;images qui ne sont pas facilement répétables; l’algorithme crée des textures totalement aléatoires ou partiellement aléatoires basées sur l’image d’origine.
+
+## Propriétés {#section-262bf540930d4890b678ea00cefe1909}
+
+Attribut de matière. Ignoré par les matériaux de couleur unie, d’étoffe et d’armoire.
+
+## Par défaut {#section-e5bbd7d9fbb74852849e605d20f550bb}
+
+`catalog::Repeat`, si le matériau est basé sur une entrée de catalogue, sinon `0` (répétition directe).
+
+## Voir aussi {#section-ac99113b64654d75a3a86e41db546269}
+
+[catalogue : Répéter](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-repeat.md#reference-20e149211e1f4e8285db5ecb83c1902e)
