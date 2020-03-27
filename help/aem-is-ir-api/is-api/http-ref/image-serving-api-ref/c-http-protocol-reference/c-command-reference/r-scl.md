@@ -1,0 +1,50 @@
+---
+description: Mise à l'échelle . Met à l’échelle l’image composite selon l’inverse de la valeur de la variable "Factor".
+seo-description: Mise à l'échelle . Met à l’échelle l’image composite selon l’inverse de la valeur de la variable "Factor".
+seo-title: scl
+solution: Experience Manager
+title: scl
+topic: Scene7 Image Serving - Image Rendering API
+uuid: 10a365dc-9fc1-4236-9528-4aca04a4ca19
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# scl{#scl}
+
+Mise à l&#39;échelle . Met à l’échelle l’image composite selon l’inverse de la valeur de la variable &quot;Factor&quot;.
+
+`scl= *`FacteurIndemnité`*`
+
+<table id="simpletable_A09F5EECAC2B4E0F8633D71C6AD36D8D"> 
+ <tr class="strow"> 
+  <td class="stentry"> <p><span class="varname"> FacteurIndemnité</span> </p> </td> 
+  <td class="stentry"> <p>Facteur d’échelle inverse (réel supérieur à 0,0). </p></td> 
+ </tr> 
+</table>
+
+Aucune mise à l’échelle n’est appliquée lorsque `scl=1`. *`invFactor`* plus grande que 1,0, plus petite que 1,0 agrandit l’image composite.
+
+Si `scl=` est spécifié, `wid=` et/ou `hei=` sont également présents, l’image est recadrée `wid=` et/ou `hei=` après la mise à l’échelle.
+
+>[!NOTE]
+>
+>Une erreur est renvoyée si la taille de l’image de réponse calculée ou par défaut est supérieure à `attribute::MaxPix`.
+
+## Propriétés {#section-60af012719db477db4a4703e9a6da5f5}
+
+Attribut . S’applique indépendamment du paramètre de calque actif.
+
+## Par défaut {#section-32502fa218a24e1f9c65f41c0260b56a}
+
+Si aucune `wid=`, `hei=`ou `scl=` n’est spécifiée, l’image de réponse aura la taille de l’image composite ou `attribute::DefaultPix`, selon la valeur la plus petite.
+
+## Exemple {#section-a33f6239476a4b438d939656ad99aa76}
+
+Voir l’exemple de [rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096) pour une application commune de `scl=`rotation.
+
+## Voir aussi {#section-ccefd5de59924059903d66d4974ce317}
+
+[wid=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47) , [hei=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96), [attribute::DefaultPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultpix.md#reference-996b2c22b30f4fd9b970c84063306df1)
