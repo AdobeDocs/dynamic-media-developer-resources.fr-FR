@@ -1,0 +1,75 @@
+---
+description: Supprime les fichiers de la corbeille IPS.
+seo-description: Supprime les fichiers de la corbeille IPS.
+seo-title: emptyAssetsFromTrash
+solution: Experience Manager
+title: emptyAssetsFromTrash
+topic: Scene7 Image Production System API
+uuid: de11a7b0-cd4b-4717-8596-d39afbcf7e9c
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# emptyAssetsFromTrash{#emptyassetsfromtrash}
+
+Supprime les fichiers de la corbeille IPS.
+
+Les fichiers vivent dans la corbeille jusqu’à ce qu’ils soient vidés manuellement ou jusqu’à ce qu’ils sortent de la corbeille. S&#39;ils sont vidés manuellement, ils vivent dans la Corbeille jusqu&#39;à la prochaine tâche de nettoyage (normalement tous les soirs), lorsqu&#39;ils sont finalement purgés du système. S&#39;ils sortent de la corbeille, les actifs sont nettoyés dans le cadre de ce même nettoyage  le même . Le délai d’expiration est configurable (7 jours par défaut).
+
+## Types d’utilisateurs autorisés {#section-24dee2bf5f9f4714a64955c80f2803b4}
+
+* `IpsUser`
+* `IpsAdmin`
+* `IpsCompanyAdmin`
+* `ImagePortalAdmin`
+* `ImagePortalContrib`
+* `ImagePortalContribUser`
+* ``
+
+## Paramètres {#section-8e1fb0ee3aae453581e99ef76e298569}
+
+**Entrée (emptyAssetsFromTrashParam)**
+
+| Nom | Type | Obligatoire | Description |
+|---|---|---|---|
+| ` *`companyHandle`*` | `xsd:string` | Oui | Identifiant du propriétaire des ressources. |
+| ` *`assetHandleArray`*` | `types:HandleArray` | Oui | Tableau de poignées représentant les éléments à vider de la corbeille. |
+
+**Sortie (emptyAssetsFromTrashParam)**
+
+| Nom | Type | Obligatoire | Description |
+|---|---|---|---|
+| ` *`successCount`*` | `xsd:Int` | Oui | Nombre de fichiers vidés de la corbeille. |
+| ` *`warningCount`*` | `xsd:Int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de vider des fichiers de la corbeille. |
+| ` *`errorCount`*` | `xsd:Int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de vider des fichiers de la corbeille. |
+| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des avertissements lorsque l’opération tentait de les vider de la corbeille. |
+| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des erreurs lorsque l’opération tentait de les vider de la corbeille. |
+
+## Exemples {#section-6154a873b6c342bf92e2036280cafdcf}
+
+Cet exemple de code utilise le nom d’ du et un tableau de descripteurs de ressources qui contient des poignées vers les ressources à vider de la corbeille.
+
+**Request**
+
+```java
+<emptyAssetsFromTrashParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
+   <companyHandle>c|6</companyHandle>
+   <assetHandleArray>
+      <items>a|942|1|579</items>
+      <items>a|943|1|580</items>
+   </assetHandleArray>
+</emptyAssetsFromTrashParam>
+```
+
+**Réponse**
+
+```java
+<emptyAssetsFromTrashReturn xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
+   <successCount>2</successCount>
+   <warningCount>0</warningCount>
+   <errorCount>0</errorCount>
+</emptyAssetsFromTrashReturn>
+```
+
