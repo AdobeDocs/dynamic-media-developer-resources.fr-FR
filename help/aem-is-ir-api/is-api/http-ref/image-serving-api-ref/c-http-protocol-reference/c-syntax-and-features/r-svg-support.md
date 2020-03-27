@@ -1,0 +1,77 @@
+---
+description: Image Serving prend en charge les fichiers SVG (Scalable Vector Graphics) en tant que données source. La conformité avec SVG 1.1 est requise.
+seo-description: Image Serving prend en charge les fichiers SVG (Scalable Vector Graphics) en tant que données source. La conformité avec SVG 1.1 est requise.
+seo-title: Prise en charge de SVG
+solution: Experience Manager
+title: Prise en charge de SVG
+topic: Scene7 Image Serving - Image Rendering API
+uuid: 30d7b37d-fdef-4518-a4b3-4baee56fa634
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# Prise en charge de SVG{#svg-support}
+
+Image Serving prend en charge les fichiers SVG (Scalable Vector Graphics) en tant que données source. La conformité avec SVG 1.1 est requise.
+
+Image Serving reconnaît uniquement le contenu statique du fichier SVG ; les animations, les scripts et autres contenus interactifs ne sont pas pris en charge.
+
+Le format SVG peut être spécifié partout où les fichiers image sont autorisés (chemin d’accès à l’URL, `src=`et `mask=`). Une fois le contenu du fichier SVG pixellisé, il est géré comme une image.
+
+Comme pour les images, les fichiers SVG peuvent être spécifiés sous forme d’entrées de catalogue d’images ou de chemins d’accès relatifs aux fichiers.
+
+## Variables de substitution {#section-83b149f13f244193901df39b204c975b}
+
+` $ *[!DNL var]*$` les variables de substitution peuvent être incluses dans le fichier SVG dans les `<text>` éléments des chaînes de valeur et dans tout attribut d’élément.
+
+Les variables importantes de la partie  du des demandes de diffusion d’images incorporées ne sont pas directement remplacées. En revanche, toutes les définitions de variable disponibles sont ajoutées à la requête, ce qui permet au serveur d’images de substituer des variables lors de l’analyse de la requête.
+
+Voir Variables [de](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a) substitution pour en savoir plus.
+
+## Références image {#section-a7680f9e6aca4b1a83560637cc9fac66}
+
+Les images peuvent être insérées dans SVG à l’aide de l’ `<image>` élément. Les images référencées par l’ `xlink::href` attribut de l’ `<image>` élément doivent être des demandes de diffusion d’images valides. Les URL étrangères ne sont pas autorisées.
+
+Spécifiez soit une requête de diffusion d’images complète, commençant par `http://`, soit une URL relative, commençant par `/is/image`. Si un chemin HTTP complet est spécifié, le nom de domaine est supprimé du chemin d’accès pour être converti au format relatif. L’utilisation d’un chemin HTTP complet peut s’avérer utile, car elle permet de prévisualiser le fichier avec un rendu SVG tiers.
+
+>[!NOTE] {class=&quot;- rubrique/note &quot;}
+>
+>La prise en charge du rendu des images dans cette version de Image Serving est limitée. Le référencement d’images à partir de SVG ne doit être utilisé que dans les cas où les mécanismes traditionnels de calquage et de modélisation de la diffusion d’images sont insuffisants pour obtenir le résultat souhaité. En aucun cas, SVG ne doit être utilisé pour générer des composites à plusieurs images.
+
+>[!NOTE] {class=&quot;- rubrique/note &quot;}
+>
+>Les images incorporées dans SVG ne sont pas automatiquement redimensionnées pour le moment. Assurez-vous que toutes les références d’image incluent les commandes de diffusion d’images nécessaires pour définir la taille d’image souhaitée (ex. `wid=`). Si la taille de l’image n’est pas définie explicitement, `attribute::DefaultPix` est appliquée.
+
+## Color management {#section-ea76e2bc4e1842638aa97a2d470c8a68}
+
+Toutes les valeurs de couleur incorporées dans les fichiers SVG et transmises aux modèles SVG par le biais de variables de substitution sont supposées exister dans l’espace `sRgb` colorimétrique.
+
+Aucune conversion de couleur n’est effectuée lorsque les images sont incorporées au fichier SVG. Pour garantir la fidélité des couleurs, veillez à spécifier `icc=sRgb` pour toutes les demandes d’image incorporées.
+
+Après la pixellisation, l’image SVG participe à la gestion des couleurs comme toute autre image.
+
+## Exemple {#section-036cdd45abd449849ee00a8f21788c28}
+
+Le modèle SVG suivant illustre les références d’image et l’utilisation de variables.
+
+`<?xml version="1.0" standalone="no"?> <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"> <svg width="500" height="500"> <image x="50" y="50" width="400" height="400" xlink:href="/is/image?src=$img$&wid=300&hei=400"/> <text x="150" y="400" style="font-size:$pts$; fill:$color$"> Title: $txt$ </text> </svg>`
+
+Ce modèle SVG peut être utilisé comme suit :
+
+`http://server/is/image/mySvgTemplate.svg?$txt=Svg%20Template%20Test&$img=myImage.tif&$color=red&$pts=40&qlt=95`
+
+## Restrictions {#section-daa5eccd07204aaf993be41e87822d54}
+
+Les fichiers SVG doivent être autonomes et ne doivent faire référence à aucun fichier ou ressource secondaire, à l’exception des images externes référencées avec des demandes de diffusion d’images ou de rendu d’images (voir ci-dessus).
+
+Seul le contenu statique est rendu. Animation, fonctions interactives, telles que des boutons, etc. peut être présent mais ne pas être rendu comme prévu.
+
+Les spécifications de couleurs basées sur  ICC ne sont pas prises en charge pour le moment.
+
+`<script>` peuvent être présents mais sont toujours ignorés.
+
+## Voir aussi {#section-901dd1775fd24154a766dcfbe5032b67}
+
+[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [SVG 1.1 Spécification](http://www.w3.org/TR/SVG11/)
