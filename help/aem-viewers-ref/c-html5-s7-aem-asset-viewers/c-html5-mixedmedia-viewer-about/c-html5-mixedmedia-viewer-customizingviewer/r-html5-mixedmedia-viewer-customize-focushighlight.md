@@ -1,0 +1,51 @@
+---
+description: La mise en surbrillance de la cible d’action affichée autour de l’élément d’interface utilisateur de la visionneuse ciblé est contrôlée par le sélecteur de classe CSS.
+seo-description: La mise en surbrillance de la cible d’action affichée autour de l’élément d’interface utilisateur de la visionneuse ciblé est contrôlée par le sélecteur de classe CSS.
+seo-title: Mise en valeur
+solution: Experience Manager
+title: Mise en valeur
+topic: Dynamic media
+uuid: e7be5ad0-f27b-4e00-a3cc-e053d924b69d
+translation-type: tm+mt
+source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+
+---
+
+
+# Mise en valeur{#focus-highlight}
+
+La mise en surbrillance de la cible d’action affichée autour de l’élément d’interface utilisateur de la visionneuse ciblé est contrôlée par le sélecteur de classe CSS.
+
+<!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
+
+**Propriétés CSS**
+
+L’aspect est contrôlé à l’aide du sélecteur de classe CSS suivant :
+
+```
+.s7mixedmediaviewer *:focus
+```
+
+<table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> <p> Propriété CSS </p> </th> 
+   <th colname="col2" class="entry"> <p>Description </p> </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> outline </span> </p> </td> 
+   <td colname="col2"> <p>Mise au point du style de mise en surbrillance. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Exemple : pour désactiver la mise en surbrillance par défaut du navigateur pour tous les éléments de l’interface utilisateur de la visionneuse, ajoutez le sélecteur CSS suivant à la feuille de style de la visionneuse :
+
+```
+.s7mixedmediaviewer *:focus { 
+ outline: none; 
+}
+```
+
