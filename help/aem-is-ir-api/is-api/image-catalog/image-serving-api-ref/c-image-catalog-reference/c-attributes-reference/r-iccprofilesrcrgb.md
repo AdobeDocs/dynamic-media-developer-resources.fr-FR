@@ -1,0 +1,29 @@
+---
+description: de couleur d’entrée RVB par défaut. Indique le nom du de couleurs ICC à utiliser pour les images source RVB qui n’incorporent pas de de couleurs et pour certaines valeurs de couleurs RVB spécifiées avec diverses commandes de diffusion d’images, telles que color=.
+seo-description: de couleur d’entrée RVB par défaut. Indique le nom du de couleurs ICC à utiliser pour les images source RVB qui n’incorporent pas de de couleurs et pour certaines valeurs de couleurs RVB spécifiées avec diverses commandes de diffusion d’images, telles que color=.
+seo-title: IccProfileSrcRgb
+solution: Experience Manager
+title: IccProfileSrcRgb
+topic: Scene7 Image Serving - Image Rendering API
+uuid: 4f6f19ec-3524-403e-9c79-1e2b25cd74ce
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# IccProfileSrcRgb{#iccprofilesrcrgb}
+
+de couleur d’entrée RVB par défaut. Indique le nom du de couleurs ICC à utiliser pour les images source RVB qui n’incorporent pas de de couleurs et pour certaines valeurs de couleurs RVB spécifiées avec diverses commandes de diffusion d’images, telles que color=.
+
+## Propriétés {#section-3cd753196959462e9e674dab0b033d08}
+
+Chaîne de texte. Le cas échéant, doit correspondre à une `icc::Name` valeur valide de la carte de  ICC de ce catalogue d’images ou du catalogue par défaut, ou à un chemin d’accès de fichier relatif à `attribute::RootPath`. Le ICC référencé doit être un RVB .
+
+## Par défaut {#section-2c3cb2d9c9bf4aa7896e51b5d444ddee}
+
+Héritée de `default::IccProfileSrcRgb` si non définie ou si vide. Si `attribute::IccProfileSrcRgb` la résolution ne correspond pas à un  valide, `attribute::IccProfileRgb` est utilisé à la place.
+
+## Voir aussi {#section-d6e5c6eeaea4445ba7fb5737cd193a48}
+
+[icc::Name](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/r-name-icc.md#reference-9e7d3c8e35434981a3dfac66b8946cbe) , [attribut::IccRenderIntent](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f), [attribut::IccProfileRgb](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilergb.md#reference-3479e7daac54404f84b06b98ca07b9df), [attribut::RootPath](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md#reference-17d57e5967be403b8408fa7214017494)
