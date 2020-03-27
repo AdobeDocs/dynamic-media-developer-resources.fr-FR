@@ -1,0 +1,58 @@
+---
+description: Définit l’appartenance d’un utilisateur dans un ou plusieurs  de.
+seo-description: Définit l’appartenance d’un utilisateur dans un ou plusieurs  de.
+seo-title: setCompanyMember
+solution: Experience Manager
+title: setCompanyMember
+topic: Scene7 Image Production System API
+uuid: 34c9d457-bc2e-4186-8a8f-50388410640a
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# setCompanyMember{#setcompanymembership}
+
+Définit l’appartenance d’un utilisateur dans un ou plusieurs  de.
+
+Syntaxe
+
+## Types d’utilisateurs autorisés {#section-0cbcc78cfee64c2baf66f29cce6d0a65}
+
+* `IpsAdmin`
+* `IpsCompanyAdmin`
+* `TrialSiteAdmin`
+* `ImagePortalAdmin`
+
+## Paramètres {#section-3930dc6a016140178631083563598104}
+
+**Input (setCompanyMembshipParam)**
+
+| Nom | Type | Obligatoire | Description |
+|---|---|---|---|
+| ` *`userHandle`*` | `xsd:sting` | Non | Identifiant utilisateur. |
+| ` *`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Oui | Tableau de . |
+
+**Output (setCompanyMembshipParam)**
+
+L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+
+## Exemples {#section-862c0cc32ce0407ab248028e690a8386}
+
+Cet exemple de code ajoute un utilisateur à un  de. Spécifiez plusieurs  de dans le tableau de poignée  du si nécessaire.
+
+**Request**
+
+```java
+<ns1:setCompanyMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">
+   <ns1:userHandle>3341|juser@scene7.com</ns1:userHandle>
+   <ns1:companyHandleArray>
+      <ns1:items>137</ns1:items>
+   </ns1:companyHandleArray>
+</ns1:setCompanyMembershipParam>
+```
+
+**Réponse**
+
+Aucune
