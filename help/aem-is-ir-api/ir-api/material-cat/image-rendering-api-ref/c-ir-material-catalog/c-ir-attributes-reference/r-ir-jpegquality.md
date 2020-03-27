@@ -1,0 +1,29 @@
+---
+description: Qualité de codage JPEG par défaut. Indique le paramètre de qualité par défaut pour les images de réponse codées au format JPEG.
+seo-description: Qualité de codage JPEG par défaut. Indique le paramètre de qualité par défaut pour les images de réponse codées au format JPEG.
+seo-title: JpegQuality
+solution: Experience Manager
+title: JpegQuality
+topic: Scene7 Image Serving - Image Rendering API
+uuid: 82dabdae-a1f3-484a-a520-ae765914d0f7
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# JpegQuality{#jpegquality}
+
+Qualité de codage JPEG par défaut. Indique le paramètre de qualité par défaut pour les images de réponse codées au format JPEG.
+
+## Propriétés {#section-8b1ed3e0acaa4fbfa050b74c00b9d4dc}
+
+Nombre entier et indicateur, séparés par une virgule. La première valeur se trouve dans la plage 1.100 et définit la qualité. La seconde valeur peut être 0 pour le comportement normal, ou 1 pour désactiver le sous-échantillonnage chromatique généralement utilisé par les encodeurs JPEG.
+
+## Par défaut {#section-60900c0fb8c54444b2361513232514db}
+
+Héritée de `default::JpegQuality` si non définie ou si vide.
+
+## Voir aussi {#section-8928a28fcbfe401cad4d4021a7a1c268}
+
+[qlt=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-qlt.md#reference-27b91c226eb241d0a14a29af3b3afdbd)
