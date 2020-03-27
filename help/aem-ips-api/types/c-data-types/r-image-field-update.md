@@ -1,0 +1,30 @@
+---
+description: Met à jour le champ d’image associé à un fichier d’image.
+seo-description: Met à jour le champ d’image associé à un fichier d’image.
+seo-title: ImageFieldUpdate
+solution: Experience Manager
+title: ImageFieldUpdate
+topic: Scene7 Image Production System API
+uuid: 0262be3e-f840-41cd-bedc-cc37d9982235
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# ImageFieldUpdate{#imagefieldupdate}
+
+Met à jour le champ d’image associé à un fichier d’image.
+
+Syntaxe
+
+## Paramètres {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
+
+| Nom | Type | Description |
+|---|---|---|
+| ` *`assetHandle`*` | `xsd:string` | Poignée de ressource. |
+| ` *`résolution`*` | `xsd:double` | Résolution de l’image en pixels par pouce. |
+| ` *`anchorX`*` | `xsd:int` | Ancre d’image de l’axe X. |
+| ` *`anchorY`*` | `xsd:int` | Ancre d’image de l’axe Y. |
+| ` *`Données utilisateur`*` | `xsd:string` | Valeur du champ de `userData` métadonnées, qui est publié dans le champ du catalogue de données utilisateur de diffusion d’images. |
+
