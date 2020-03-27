@@ -1,0 +1,33 @@
+---
+description: Taille de miniature par défaut. Utilisé à la place de l’attribut DefaultPix pour les requêtes de miniature (req=tmb).
+seo-description: Taille de miniature par défaut. Utilisé à la place de l’attribut DefaultPix pour les requêtes de miniature (req=tmb).
+seo-title: DefaultThumbPix
+solution: Experience Manager
+title: DefaultThumbPix
+topic: Scene7 Image Serving - Image Rendering API
+uuid: 7b310aab-6d38-45f3-a3e7-b074a8e7a795
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# DefaultThumbPix{#defaultthumbpix}
+
+Taille de miniature par défaut. Utilisé à la place d’attribut ::DefaultPix pour les requêtes de miniature (req=tmb).
+
+Le serveur oblige les images de réponse à ne pas dépasser cette largeur et cette hauteur si une requête de miniature ( `req=tmb`) ne spécifie pas explicitement la taille de  du à l’aide `wid=`, `hei=`ou `scl=`.
+
+## Propriétés {#section-650d9b1194fb4c47a03c6809e6b4af0e}
+
+Deux nombres entiers, 0 ou plus, séparés par une virgule. Largeur et hauteur en pixels. L’une ou l’autre des valeurs peut être définie sur 0 pour ne pas être contrainte.
+
+Ne s’applique pas aux requêtes imbriquées/incorporées.
+
+## Par défaut {#section-2c4a4f14540449638822913513170ff1}
+
+Héritée de `default::DefaultThumbPix` si non définie ou si vide.
+
+## Voir aussi {#section-4ad00963ffa049fcb17ad63e6bbe7ac4}
+
+[wid=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47) , [hei=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96), [scl=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-scl.md#reference-b2a74e493d0d407e98fe350551ba3fcc), [attribut::DefaultPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultpix.md#reference-996b2c22b30f4fd9b970c84063306df1)
