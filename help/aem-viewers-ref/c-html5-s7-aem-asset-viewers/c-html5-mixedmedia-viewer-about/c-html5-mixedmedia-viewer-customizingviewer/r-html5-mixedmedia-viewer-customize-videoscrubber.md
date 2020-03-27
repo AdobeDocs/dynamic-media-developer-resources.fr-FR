@@ -1,0 +1,185 @@
+---
+description: La barre de défilement de la vidéo est le curseur horizontal qui permet à un utilisateur de rechercher dynamiquement n’importe quelle position temporelle dans la vidéo en cours de lecture.
+seo-description: La barre de défilement de la vidéo est le curseur horizontal qui permet à un utilisateur de rechercher dynamiquement n’importe quelle position temporelle dans la vidéo en cours de lecture.
+seo-title: Nettoyage vidéo
+solution: Experience Manager
+title: Nettoyage vidéo
+topic: Dynamic media
+uuid: b5574de1-7fb1-4fda-bfe7-a58ea2a8389d
+translation-type: tm+mt
+source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+
+---
+
+
+# Video scrubber{#video-scrubber}
+
+La barre de défilement de la vidéo est le curseur horizontal qui permet à un utilisateur de rechercher dynamiquement n’importe quelle position temporelle dans la vidéo en cours de lecture.
+
+<!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
+
+Le bouton de défilement se déplace également pendant la lecture de la vidéo pour indiquer la position temporelle actuelle de la vidéo pendant la lecture. La barre de défilement vidéo occupe toujours toute la largeur de la barre de contrôle. Il est possible d’habiller la barre de défilement vidéo. modifier sa hauteur et sa position verticale, par CSS.
+
+L’aspect général de la barre de défilement vidéo est contrôlé par le sélecteur de classe CSS suivant :
+
+```
+.s7mixedmediaviewer .s7videoscrubber 
+.s7mixedmediaviewer .s7videoscrubber .s7videotime 
+.s7mixedmediaviewer .s7videoscrubber .s7knob
+```
+
+**Propriétés CSS de la barre de défilement vidéo**
+
+<table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> haut </span> </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure supérieure, y compris le remplissage. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> bas </span> </p> </td> 
+   <td colname="col2"> <p> Position à partir de la bordure inférieure, y compris le remplissage. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>Hauteur de la barre de défilement vidéo. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col2"> <p>Couleur de la barre de défilement vidéo. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Les sélecteurs de classe CSS suivants effectuent le suivi des indicateurs d’arrière-plan, de lecture et de chargement :
+
+```
+.s7mixedmediaviewer .s7videoscrubber .s7track 
+.s7mixedmediaviewer .s7videoscrubber .s7trackloaded 
+.s7mixedmediaviewer .s7videoscrubber .s7trackplayed
+```
+
+**Propriétés CSS du suivi**
+
+<table id="table_46903DCACF314426B67783167ADF7715"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>Hauteur de la piste correspondante. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col2"> <p>Couleur de la piste correspondante. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Le sélecteur de classe CSS suivant contrôle le bouton :
+
+```
+.s7mixedmediaviewer .s7videoscrubber .s7knob
+```
+
+**Propriétés CSS du bouton**
+
+<table id="table_966826FB81114362A8D81D1EED38D512"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> haut </span> </p> </td> 
+   <td colname="col2"> <p>Décalage vertical des boutons. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col2"> <p>Largeur du bouton. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-image </span> </p> </td> 
+   <td colname="col2"> <p>Touchez l’illustration. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col2"> <p> Positionnez-vous à l’intérieur de l’image-objet d’illustration, si des images-objets CSS sont utilisées. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Le sélecteur de classe CSS suivant contrôle la bulle de temps de lecture :
+
+```
+.s7mixedmediaviewer .s7videoscrubber .s7videotime
+```
+
+**Propriétés CSS de la bulle de temps de lecture**
+
+<table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col2"> <p> Famille de polices à utiliser pour l’affichage du texte temporel. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col2"> <p> Taille de police à utiliser pour le texte d’affichage temporel. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col2"> <p> Couleur de police à utiliser pour le texte d’affichage temporel. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col2"> <p>Largeur de la zone de bulle. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col2"> <p>Hauteur de la zone de bulle. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col2"> <p>Marge intérieure de la zone de bulle. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-image </span> </p> </td> 
+   <td colname="col2"> <p>Des illustrations à bulles. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col2"> <p> Positionnez-vous à l’intérieur de l’image-objet d’illustration, si des images-objets CSS sont utilisées. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
+   <td colname="col2"> <p>Alignement du texte sur la zone de bulle. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+L’info-bulle de la barre de défilement vidéo peut être localisée. Pour plus d’informations, voir [des éléments](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) de l’interface utilisateur.
+
+## Exemple {#section-e8caea0a303c425a8a637c2a47c06355}
+
+Configuration d’une visionneuse de supports variés avec défilement vidéo avec des couleurs de suivi personnalisées de 10 pixels de haut et positionnées de 10 pixels et 35 pixels à partir des bords supérieur et gauche de la barre de contrôle.
+
+```
+.s7mixedmediaviewer .s7videoscrubber  { 
+top:10px; 
+left:35px; 
+height:10px; 
+background-color:#AAAAAA; 
+} 
+.s7mixedmediaviewer .s7videoscrubber .s7track { 
+height:10px; 
+background-color:#444444; 
+} 
+.s7mixedmediaviewer .s7videoscrubber .s7trackloaded { 
+height:10px; 
+background-color:#666666; 
+} 
+.s7mixedmediaviewer .s7videoscrubber .s7trackplayed { 
+height:10px; 
+background-color:#888888; 
+}
+```
+
