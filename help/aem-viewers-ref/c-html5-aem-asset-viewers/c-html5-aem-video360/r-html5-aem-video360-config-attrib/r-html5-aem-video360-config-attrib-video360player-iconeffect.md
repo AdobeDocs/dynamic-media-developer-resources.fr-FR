@@ -1,0 +1,52 @@
+---
+description: Attribut de configuration pour le lecteur vidéo360.
+seo-description: Attribut de configuration pour le lecteur vidéo360.
+seo-title: Video360Player.iconeffect
+solution: Experience Manager
+title: Video360Player.iconeffect
+topic: Dynamic media
+uuid: a0a2f840-e330-4636-8daf-1cd3f2eddf01
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# Video360Player.iconeffect{#video-player-iconeffect}
+
+Attribut de configuration pour le lecteur vidéo360.
+
+` [Video360Player.|<containerId>_video360Player.]iconeffect=0|1[, *``*][, *``*][, *`countfadeautoHide`*]`
+
+<table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
+   <td colname="col2"> <p> Permet à IconEffect d’être affiché au-dessus de la vidéo lorsque celle-ci est en pause. Sur certains périphériques, des commandes natives sont utilisées. Dans ce cas, le modificateur <span class="codeph"> iconeffect</span> est ignoré. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> nombre</span></span> </p> </td> 
+   <td colname="col2"> <p> Indique le nombre maximal de fois que l’effet IconEffect apparaît et réapparaît. La valeur <span class="codeph"> -1</span> indique que l’icône réapparaît indéfiniment. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> fondre</span></span> </p> </td> 
+   <td colname="col2"> <p> Spécifie la durée d’affichage ou de masquage de l’animation, en secondes. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
+   <td colname="col2"> <p> Définit le nombre de secondes pendant lesquelles IconEffect reste entièrement visible avant d’être masqué automatiquement. C’est-à-dire le temps qui suit la fin du fondu dans l’animation et avant la  du fondu dans l’animation. Définissez cette variable sur <span class="codeph"> 0</span> pour désactiver le comportement de masquage automatique. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Propriétés {#section-1e637b22e8a44d759d588e47576891e6}
+
+Facultatif.
+
+## Par défaut {#section-71fb773f814649b2885aefee68073641}
+
+`1,-1,0.3,0`
+
+## Exemple {#section-bce98c31f08a4a0ab262fab7f95ba020}
+
+`iconeffect=0`
