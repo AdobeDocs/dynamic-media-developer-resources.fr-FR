@@ -1,0 +1,38 @@
+---
+description: 'null'
+seo-description: 'null'
+seo-title: FlyoutZoomView.overlay
+solution: Experience Manager
+title: FlyoutZoomView.overlay
+topic: Dynamic media
+uuid: e6e9e97c-5d9b-47ca-bae3-ed3371c5ff9b
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# FlyoutZoomView.overlay{#flyoutzoomview-overlay}
+
+`[FlyoutZoomView.|<containerId>_flyout.]overlay=0|1`
+
+<table id="table_D052090D052D4273B37872C0C7E09E4B"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
+   <td colname="col2"> <p> Contrôle l’aspect de mise en surbrillance du principal lorsque la fenêtre déroulante est active. Lorsqu’elle est définie sur <span class="codeph"> 0</span>, la zone actuellement visible dans la fenêtre déroulante est mise en surbrillance à l’aide des styles fournis par les noms de classe CSS <span class="codeph"> .s7highlight</span> ou <span class="codeph"> .s7cursor</span> (selon la valeur du modificateur <span class="codeph"> highlightmode). </span> Lorsqu’il est défini sur <span class="codeph"> 1</span> , le composant passe en mode "inverse" où la zone actuellement affichée est entièrement transparente (au cas où le <span class="codeph"> mode</span> surlignage est défini sur surlignage <span class="codeph"> ) ou avec le nom de classe CSS</span><span class="codeph"> .s7cursor (au cas où  surlignageMode est défini sur Curseur), mais la zone environnante est remplie à l’aide des styles fournis par le nom de classe CSS.s7overlay.</span><span class="codeph"></span><span class="codeph"></span><span class="codeph"></span> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Propriétés {#section-5526a5d19e7e4ee2a35b1c4816ed4202}
+
+Facultatif.
+
+## Par défaut {#section-a08032f0fcf041c09e63c0238a339fc9}
+
+`0`
+
+## Exemple {#section-0338be21edd04ff1a3bed5c8319b61a4}
+
+`overlay=1`
