@@ -1,0 +1,112 @@
+---
+description: Type de matériau. Type de surface du matériau. Utilisé conjointement avec l’éclat du catalogue et la rugosité du catalogue pour contrôler les effets de rendu de reflet 3D.
+seo-description: Type de matériau. Type de surface du matériau. Utilisé conjointement avec l’éclat du catalogue et la rugosité du catalogue pour contrôler les effets de rendu de reflet 3D.
+seo-title: Type
+solution: Experience Manager
+title: Type
+topic: Scene7 Image Serving - Image Rendering API
+uuid: 8e367013-ed4c-4504-baf7-26ea27d96469
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# Type{#type}
+
+Type de matériau. Type de surface du matériau. Utilisé conjointement avec catalog::Gloss et catalog::Roghness pour contrôler les effets de rendu de reflet 3D.
+
+## Propriétés {#section-86e8bc194f764c848e0ee55630a5ac1b}
+
+Enum. Facultatif pour tous les matériaux. Ignoré si la vignette ne dispose d’aucune fonctionnalité de rendu de reflet 3D.
+
+<table id="simpletable_85BF61871CAA420B92B855AAB8FACA2C"> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>01 </p> </td> 
+  <td class="stentry"> <p>Inconnu, le serveur utilise la valeur par défaut. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>1 </p> </td> 
+  <td class="stentry"> <p>Autres. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>2 </p> </td> 
+  <td class="stentry"> <p>Le bois naturel. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>3 </p> </td> 
+  <td class="stentry"> <p>Métal poli. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>4 </p> </td> 
+  <td class="stentry"> <p>Métal brossé. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>5 </p> </td> 
+  <td class="stentry"> <p>Métal ancien. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>6 </p> </td> 
+  <td class="stentry"> <p>Peinture. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>7 </p> </td> 
+  <td class="stentry"> <p>Émail/laque. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>8 </p> </td> 
+  <td class="stentry"> <p>Papier peint. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>9 </p> </td> 
+  <td class="stentry"> <p>Plastique. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>10 </p> </td> 
+  <td class="stentry"> <p>Surface solide. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>11 </p> </td> 
+  <td class="stentry"> <p>Stratifié. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>12 </p> </td> 
+  <td class="stentry"> <p>Vinyle. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>13 </p> </td> 
+  <td class="stentry"> <p>Céramique. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>14 </p> </td> 
+  <td class="stentry"> <p>Pierre naturelle. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>15 </p> </td> 
+  <td class="stentry"> <p>Verre. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>16 </p> </td> 
+  <td class="stentry"> <p>Miroir. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>17 </p> </td> 
+  <td class="stentry"> <p>Tissu. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>18 </p> </td> 
+  <td class="stentry"> <p>Un tissu simple. </p> </td> 
+ </tr> 
+ <tr class="strow"> 
+  <td class="stentry"> <p>19 </p> </td> 
+  <td class="stentry"> <p>Tapis. </p> </td> 
+ </tr> 
+</table>
+
+## Par défaut {#section-247f73b22cb846b7b7d7cc6e8af949ca}
+
+0; le serveur détermine une valeur par défaut appropriée en fonction d&#39;autres attributs matériels.
+
+## Voir aussi {#section-a51850093b7140e683a0f8b07845843c}
+
+[catalogue::Gloss](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-gloss.md#reference-5277f62a67e2408ab94699aa712f1eeb) , [catalogue::Roughness](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-roughness.md#reference-79f748ac642745e3b81795a99f61fa99), [type=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md#reference-128c7de89e2d46838019b560f3f84a35)
