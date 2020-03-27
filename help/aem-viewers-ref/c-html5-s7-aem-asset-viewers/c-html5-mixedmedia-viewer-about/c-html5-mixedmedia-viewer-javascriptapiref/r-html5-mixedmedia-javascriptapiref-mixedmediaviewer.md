@@ -1,0 +1,70 @@
+---
+description: Référence de l’API JavaScript pour la visionneuse de supports variés.
+seo-description: Référence de l’API JavaScript pour la visionneuse de supports variés.
+seo-title: MixedMediaViewer
+solution: Experience Manager
+title: MixedMediaViewer
+topic: Dynamic media
+uuid: ccaabc04-a9d0-4f58-96bd-ba76e977bfac
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# MixedMediaViewer{#mixedmediaviewer}
+
+Référence de l’API JavaScript pour la visionneuse de supports variés.
+
+`MixedMediaViewer([config])`
+
+Constructeur, crée une nouvelle instance de visionneuse de supports variés.
+
+## Paramètres {#section-8bc3d1424c8444f193716fc8d9975765}
+
+<table id="table_896DFF34A68A403DB93A6D597461A573"> 
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> config </span></span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {Object} </span> , objet de configuration JSON facultatif, permet à tous les paramètres de la visionneuse de transmettre au constructeur et d’éviter d’appeler des méthodes de définition individuelles. Contient les propriétés suivantes : </p> <p> 
+     <ul id="ul_266C711E8E75471E90C15F39A96A142F"> 
+      <li id="li_71857BBD652243A094E936C2C8EA9702"> <span class="codeph"> containerId </span> - <span class="codeph"> {String} </span> ID du DOM (normalement un <span class="codeph"> DIV </span>) dans lequel le lecteur est inséré. Il n’est pas nécessaire que l’élément  soit créé au moment de l’appel de cette méthode. Cependant, le  doit exister lorsque <span class="codeph"> init() </span> est exécuté. Obligatoire. </li> 
+      <li id="li_3D28979F04274AC9B507B33D4275FC3A"> <span class="codeph"> params </span> - Objet <span class="codeph"> {Object} </span> JSON avec paramètres de configuration de la visionneuse, où le nom de propriété est soit une option de configuration spécifique à la visionneuse, soit un modificateur SDK, et où la valeur de cette propriété est une valeur de paramètres correspondante. Obligatoire. </li> 
+      <li id="li_A40AC2167575415FB3383D070E27B9AB"> <span class="codeph"> gestionnaires </span> - Objet <span class="codeph"> {Object} </span> JSON avec rappels de de visionneuse, où le nom de propriété est le nom du de visionneuse pris en charge  et où la valeur de propriété est une référence de fonction JavaScript à un rappel approprié. Facultatif. <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-event-callbacks.md#concept-273d2cddbb7144e284b618ffaf3deabc" format="dita" scope="local"> Rappels de  </a> pour plus d’informations sur l’ du lecteur de contenu. </p> </li> 
+      <li id="li_C592026403804A4FAE12863944A10EE4"> <p> <span class="codeph"> localizedTexts </span> - { <span class="codeph"> Object </span>} objet JSON avec des données . Facultatif. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1" format="dita" scope="local"> des éléments de l’interface utilisateur </a> pour plus d’informations. </p> <p>Voir également le Guide <i>de l’utilisateur du kit de développement</i> de visionneuse et l’exemple pour plus d’informations sur le contenu de l’objet. </p> </li> 
+     </ul> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Returns {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+
+Aucune
+
+## Exemple {#section-9e9332aa86b74a5fb321375c03fdc5b3}
+
+```
+var mixedMediaViewer = new s7viewers.MixedMediaViewer({ 
+ "containerId":"s7viewer", 
+"params":{ 
+ "asset":"Scene7SharedAssets/Mixed_Media_Set_Sample", 
+ "serverurl":"http://s7d1.scene7.com/is/image/", 
+ "videoserverurl":"http://s7d1.scene7.com/is/content/" 
+}, 
+"handlers":{ 
+ "initComplete":function() { 
+  console.log("init complete"); 
+} 
+}, 
+"localizedTexts":{ 
+"en":{ 
+"CloseButton.TOOLTIP":"Close" 
+}, 
+"fr":{ 
+"CloseButton.TOOLTIP":"Fermer" 
+}, 
+defaultLocale:"en" 
+} 
+});
+```
+
