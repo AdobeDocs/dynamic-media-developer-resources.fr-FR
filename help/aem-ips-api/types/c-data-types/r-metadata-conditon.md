@@ -1,0 +1,104 @@
+---
+description: Ajoute un terme de recherche à utiliser avec searchAssets.
+seo-description: Ajoute un terme de recherche à utiliser avec searchAssets.
+seo-title: MetadataCondition
+solution: Experience Manager
+title: MetadataCondition
+topic: Scene7 Image Production System API
+uuid: 9d65b8ce-86a5-4730-af84-a87134fd7db6
+translation-type: tm+mt
+source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+
+---
+
+
+# MetadataCondition{#metadatacondition}
+
+Ajoute un terme de recherche à utiliser avec searchAssets.
+
+Syntaxe
+
+## Paramètres {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
+
+<table id="table_04100BB8ABD84EF68B0A7CE3AD946414"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> Nom </th> 
+   <th colname="col2" class="entry"> Type </th> 
+   <th colname="col3" class="entry"> Description </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> Poignée de champ. </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> op</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> Choix des opérateurs de comparaison de chaînes. </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> valeur</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> Valeur à tester. </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> boolVal</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col3"> Valeur de comparaison booléenne (pour les champs de type booléen uniquement). </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> longVal</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
+   <td colname="col3"> Valeur de comparaison longue (pour les champs de type entier uniquement). </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> minLong</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
+   <td colname="col3"> Valeur longue minimale dans la comparaison de plage (pour les champs à saisie unique uniquement). </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> maxLong</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
+   <td colname="col3"> Valeur maximale longue dans la comparaison de plage (pour les champs de type entier uniquement). </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> doubleVal</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:</span> </td> 
+   <td colname="col3"> Valeur de comparaison  (pour les champs de type flottant uniquement). </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> minDouble</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:</span> </td> 
+   <td colname="col3"> Valeur de  minimale dans la comparaison de plage (pour les champs à virgule flottante uniquement). </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> maxDouble</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:</span> </td> 
+   <td colname="col3"> Valeur maximale de  dans la comparaison de plage (pour les champs à virgule flottante uniquement). </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> dateVale</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
+   <td colname="col3"> Valeur de comparaison de date (pour les champs de type date uniquement). </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> minDate</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
+   <td colname="col3"> Valeur de date minimale dans la comparaison de plage (pour les champs de type date uniquement). </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> maxDate</span></span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
+   <td colname="col3"> Valeur de date maximale dans la comparaison de plage (pour les champs de type date uniquement). </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> sensible à la casse</span></span> </td> 
+   <td colname="col2"> </td> 
+   <td colname="col3"> <p> Définit le respect de la casse pour le serveur de métadonnées. Utilisé dans l’appel <span class="codeph"> searchAssetsByMetadata</span> . </p> <p>Voir <a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"> searchAssetsByMetadata</a>. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
