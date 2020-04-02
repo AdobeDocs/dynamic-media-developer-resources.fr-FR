@@ -1,5 +1,5 @@
 ---
-source-git-commit: 4570f1ca946a2ecff1969043ab64a164139ef03e
+source-git-commit: 70fe30f1fc89a52be8984832a4ba184fda8e7380
 translation-type: tm+mt
 
 ---
@@ -45,4 +45,4 @@ Les responsables du projet qui ne respectent pas ou n&#39;appliquent pas de bonn
 
 ## Attribution
 
-Ce code de conduite est adapté du Pacte [des](https://contributor-covenant.org)contributeurs, version 1.4, disponible à l&#39;adresse [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
+Ce code de conduite est adapté du Pacte [des](https://contributor-covenant.org)contributeurs, version 1.4, disponible à l&#39;adresse [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/).
