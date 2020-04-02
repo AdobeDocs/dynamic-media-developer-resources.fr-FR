@@ -1,11 +1,11 @@
 ---
-source-git-commit: 4570f1ca946a2ecff1969043ab64a164139ef03e
+source-git-commit: 70fe30f1fc89a52be8984832a4ba184fda8e7380
 translation-type: tm+mt
 
 ---
 # Instructions relatives à la contribution à la documentation des ressources du développeur Adobe Dynamic Media
 
-## Philosophie de documentation des ressources du développeur Adobe Dynamic Media
+## Philosophie de la documentation
 
 Nous savons que les utilisateurs d’Adobe Dynamic Media travaillent dans des  de  hautement compétitifs, en s’efforçant de créer des expériences numériques qui les distingueront de leur. Par conséquent, il est essentiel que, lorsque Adobe fournit de nouveaux outils avancés, ces outils soient complétés par une documentation précise et claire afin de permettre au client de tirer immédiatement parti de son investissement dans les médias dynamiques et d’optimiser son retour sur investissement.
 
@@ -35,9 +35,9 @@ Les exceptions à cette règle s’appliquent aux notes de mise à jour où les 
 
 Toutes les idées que vous pourriez avoir à améliorer la documentation sont les bienvenues à titre de contribution. Toutefois, les commentaires, les problèmes et les demandes d’extraction ne sont destinés qu’aux *contributions* . Elles ne sont pas destinées à être utilisées pour répondre à vos questions sur l’utilisation de Contenu multimédia dynamique, la mise en oeuvre de votre projet ou la résolution de problèmes techniques.
 
-Toute question concernant l’utilisation de Contenu multimédia dynamique ou les erreurs techniques que vous avez pu rencontrer doit être signalée via le processus de prise en charge normal.
+Toute question concernant l’utilisation de Contenu multimédia dynamique ou les erreurs techniques que vous pourriez rencontrer doit être signalée via le portail [d’assistance aux entreprises](https://helpx.adobe.com/contact/enterprise-support.ec.html) Experience Cloud ou traitée dans la communauté [Experience Manager.](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager)
 
-***Les contributions à la documentation ne remplacent pas l’assistance*** Adobe et toute contribution de ce type demandant des réponses à des questions d’assistance sera rejetée.
+***Les contributions à la documentation ne remplacent pas celles du service d’assistance*** clientèle d’Adobe et toute contribution de ce type demandant des réponses à des questions d’assistance sera rejetée.
 
 ### Les contributions doivent clairement faire référence aux pages de documentation affectées.
 
