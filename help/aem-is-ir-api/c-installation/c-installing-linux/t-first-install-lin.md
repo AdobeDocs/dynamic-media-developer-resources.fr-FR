@@ -7,7 +7,7 @@ title: Première installation
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 6a9a6dd2-2c69-447a-9628-eba08dc4f6c8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: c5b68038fa5980c7051fae916520b40e17890a7f
 
 ---
 
@@ -22,6 +22,7 @@ Cette procédure explique comment installer Image Serving pour la première fois
    Si le fichier de clé de licence Image Serving et/ou Image Rendering (avec suffixe de [!DNL .sc8] fichier) est disponible, copiez-le dans ce dossier. Sinon, passez à l’installation et installez la clé de licence ultérieurement.
 1. Décompressez et décompressez le fichier tar de distribution Image Serving.
 1. Exécutez [!DNL ./install-is], situé dans le [!DNL Setup] dossier, pour lancer l’assistant d’installation.
+
    Si aucune clé de licence n’est trouvée, des instructions s’affichent pour décrire comment obtenir un fichier de licence. Faites-le à ce stade ou poursuivez l’installation de la diffusion d’images et installez la clé de licence ultérieurement.
 1. Lorsque le contrat de licence de l’utilisateur final (CLUF) s’affiche, lisez le contrat de licence, puis saisissez `y` pour continuer.
 
