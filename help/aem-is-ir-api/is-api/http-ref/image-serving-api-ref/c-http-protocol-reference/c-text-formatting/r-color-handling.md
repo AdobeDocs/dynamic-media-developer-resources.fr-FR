@@ -7,14 +7,14 @@ title: Gestion des couleurs
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 6c51d204-27ca-4fbd-a297-bf1d04b63a3f
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 341693d69fc414dacf984d66e2eaeba2418e663b
 
 ---
 
 
 # Gestion des couleurs{#color-handling}
 
-La spécification RTF autorise les valeurs de couleur RVB spécifiées avec \colortbl. Chaque composant est fourni séparément avec les commandes \red, \green et \blue.
+La spécification RTF autorise les valeurs de couleur RVB spécifiées avec `\colortbl`. Chaque composant est fourni séparément avec les commandes `\red`, `\green`et `\blue` .
 
 La commande d’extension RTF propriétaire `\cmykcolortbl` permet de spécifier les couleurs CMJN, chaque composante de couleur étant fournie avec les commandes `\cyan`, `\magenta`, `\yellow`et `\black` .
 
