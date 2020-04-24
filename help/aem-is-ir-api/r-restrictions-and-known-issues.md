@@ -7,7 +7,7 @@ title: Restrictions et problèmes connus
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
 
 ---
 
@@ -80,7 +80,7 @@ La bibliothèque Digimarc refuse d’appliquer un filigrane Digimarc à une imag
 
 * Les requêtes Tiff ou vignette non pyramidales génèrent un message d’erreur similaire à
 
-   *&quot;Image C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt n&#39;a pas de DSF valide, et la surface de 2.25MPixel dépasse le maximum de 2MPixel&quot;* .
+   *&quot;L&#39;image`C:\Program Files\Scene7\ImageRendering\resources\MyVignette.vnt`n&#39;a pas de DSF valide, et la surface de 2.25MPixel dépasse le maximum de 2MPixel&quot;* .
 
    Il est recommandé d’utiliser des vignettes pyramidales et des vignettes. Si vous devez utiliser des vignettes ou des vignettes non pyramidales, suivez les instructions ci-dessous pour augmenter la taille limite.
 
