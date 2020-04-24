@@ -7,7 +7,7 @@ title: Présentation de l’administration du serveur
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 83aa83b7-bb7a-4bbd-923c-dd69763fe9c9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
 
 ---
 
@@ -25,6 +25,6 @@ Les deux composants sont collectivement appelés *Render Server*.
 
 Image Rendering partage de nombreuses fonctionnalités de serveur avec Image Serving, et toutes les options sont configurées en modifiant un fichier de configuration. D’autres attributs de configuration sont fournis par le catalogue par défaut ( [!DNL default.ini]) ou des catalogues de matières spécifiques. Voir Catalogues de matières pour plus d’informations.
 
-Le dossier d’installation du rendu d’image ( *[!DNL install_folder]*) est [!DNL *[!DNL install_root]*/ImageRendering]. Sous Windows, la valeur par défaut *[!DNL install_root]* est [!DNL C:\Program Files\Scene7]. Un dossier différent peut être spécifié lors de l’installation. Sous Linux, *[!DNL install_root]* doit toujours être [!DNL /usr/local/scene7]. Des liens symboliques peuvent être utilisés.
+Le dossier d’installation du rendu d’image ( *[!DNL install_folder]*) est [!DNL *[!DNL install_root]*/ImageRendering]. Sous Windows, la valeur par défaut *[!DNL install_root]* est `C:\Program Files\Scene7`. Un dossier différent peut être spécifié lors de l’installation. Sous Linux, *[!DNL install_root]* doit toujours être [!DNL /usr/local/scene7]. Des liens symboliques peuvent être utilisés.
 
 Tous les chemins d’accès aux fichiers sont sensibles à la casse sous UNIX et non à la casse sous Windows.
