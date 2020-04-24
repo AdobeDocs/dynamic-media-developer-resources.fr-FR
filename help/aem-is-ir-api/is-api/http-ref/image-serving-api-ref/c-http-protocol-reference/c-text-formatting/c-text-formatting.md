@@ -7,7 +7,7 @@ title: Formatage du texte
 topic: Scene7 Image Serving - Image Rendering API
 uuid: e67b6dd2-2a78-4014-9525-816d91c9e783
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
 
 ---
 
@@ -58,19 +58,19 @@ Le tableau suivant  les principales fonctionnalités disponibles pour chaque com
    <td> <p>Copier-ajuster </p> </td> 
    <td> <p>non </p> </td> 
    <td> <p>oui </p> </td> 
-   <td> Copie-ajustement <p>, \copyfit, \copyfitlines, \copyfitmaxlines </p> </td> 
+   <td> Copie-ajustement <p>, <pre>\copyfit</pre>, <pre>\copyfitlines</pre>, <pre>\copyfitmaxlines</pre> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Marges de zone de texte </p> </td> 
    <td> <p>non </p> </td> 
    <td> <p>oui </p> </td> 
-   <td> <p>\margl, \margr, \margt, \margb </p> </td> 
+   <td> <p><pre>\margl</pre>, <pre>\margr</pre>, <pre>\margt</pre>, <pre>\margb</pre> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Justification complète du paragraphe </p> </td> 
    <td> <p>non </p> </td> 
    <td> <p>oui </p> </td> 
-   <td> <p>\qj </p> </td> 
+   <td> <p><pre>\qj</pre> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>justification de la dernière ligne </p> </td> 
