@@ -7,7 +7,7 @@ title: Propriétés
 topic: Scene7 Image Serving - Image Rendering API
 uuid: b4e1de52-db0a-43dc-aefe-26e8f5020e79
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
 
 ---
 
@@ -28,7 +28,7 @@ Les données de réponse sont formatées pour être lisibles en tant que propri�
 
 ` *[!DNL propertyValue]*` peut être vide. L’espace blanc est facultatif au début et à la fin de chaque ligne et avant et après le séparateur &quot;=&quot;. Les valeurs de chaîne peuvent être entourées de guillemets simples ou, mais ils ne sont pas obligatoires.
 
-Les valeurs de chaîne peuvent contenir des caractères d’échappement de style JAVA, tels que \n, \t, \:. ou \\.
+Les valeurs de chaîne peuvent contenir des caractères d’échappement de style JAVA, tels que `\n`, `\t`, `\:`. ou `\\`.
 
 **Voir aussi**
 
