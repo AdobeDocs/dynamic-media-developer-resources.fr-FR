@@ -7,22 +7,25 @@ title: createFolder
 topic: Scene7 Image Production System API
 uuid: e3a4eed3-966d-4435-bfeb-3ead4bf523cd
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: d64337d3ed7bd78c681c3022cda20012726d7ccc
+workflow-type: tm+mt
+source-wordcount: '122'
+ht-degree: 20%
 
 ---
 
 
-# createFolder{#createfolder}
+# [!DNL createFolder]{#createfolder}
 
 Crée un dossier.
 
 >[!NOTE]
 >
->Le nouveau dossier est subordonné au dossier Images, même si vous spécifiez un `/` pour indiquer la racine du .
+>Le nouveau dossier est subordonné au dossier Images, même si vous spécifiez un dossier `/` pour indiquer la racine de la société.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-14ef6368056b4e8f96198c20b6d93b9b}
+## Types d’utilisateur autorisés {#section-14ef6368056b4e8f96198c20b6d93b9b}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -41,18 +44,18 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | La poignée du |
-| ` *`folderPath`*` | `xsd:string` | Oui | Dossier racine utilisé pour récupérer les dossiers et tous les sous-dossiers au niveau de la feuille. Si elle est exclue, la racine du  est utilisée. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Le Handle à la société |
+| ` *`folderPath`*` | `xsd:string` | Oui | Dossier racine utilisé pour récupérer les dossiers et tous les sous-dossiers au niveau feuille. Si elle est exclue, la racine de la société est utilisée. |
 
 **Output (createFolderParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`folderHandle`*` | `xsd:string` | Oui | Gestion du nouveau dossier. |
+| ` *`folderHandle`*` | `xsd:string` | Oui | Gestionnaire du nouveau dossier. |
 
 ## Exemples {#section-e596fbdb44fd43c8b30005cb2a2fdf26}
 
-Cet exemple de code crée un dossier à la racine d’un  de. La réponse renvoie le nom d’utilisateur du dossier nouvellement créé.
+Cet exemple de code crée un dossier à la racine d&#39;une société. La réponse renvoie le nom d&#39;utilisateur du dossier que vous venez de créer.
 
 **Request**
 
