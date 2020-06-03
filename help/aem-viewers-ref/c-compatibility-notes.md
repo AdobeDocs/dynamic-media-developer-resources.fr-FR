@@ -7,12 +7,17 @@ title: Notes de compatibilité
 topic: Dynamic media
 uuid: cf732a03-bfaa-4838-862f-73343cefbd67
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+workflow-type: tm+mt
+source-wordcount: '433'
+ht-degree: 0%
 
 ---
 
 
 # Notes de compatibilité{#compatibility-notes}
+
+<!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
 Notes de compatibilité pour les systèmes d’exploitation, les navigateurs et les périphériques mobiles.
 
@@ -22,15 +27,15 @@ Notes de compatibilité pour les systèmes d’exploitation, les navigateurs et 
 
 ## Généraux {#section-7b9a9fcba85148d1802b7b3016b48e02}
 
-* La mise à l’échelle côté navigateur peut rendre l’interface utilisateur et les images floues lorsque l’utilisateur effectue un zoom sur la page. Le formatage de l’interface utilisateur peut également s’afficher incorrectement selon le zoom. Cela sera reporté en plein écran.
-* En raison de la taille limitée sur les périphériques mobiles, la visionneuse de supports variés utilise le mouvement des diapositives pour permuter des images dans des visionneuses d’images incorporées au lieu d’appuyer sur le composant de nuances incorporées. Le composant est là comme indicateur visuel.
-* Dans les navigateurs Internet Explorer et sur certains périphériques tactiles, le mode plein écran n’occupe pas l’intégralité de l’écran du périphérique. Il redimensionne l’application à la taille de la fenêtre du navigateur.
-* Le bouton Fermer ne fonctionne pas sous iOS 8.0 et iOS 8.1, mais sous iOS 8.2.
+* La mise à l’échelle côté navigateur peut rendre l’interface utilisateur et les images floues lorsque l’utilisateur effectue un zoom sur la page. La mise en forme de l’interface utilisateur peut également s’afficher incorrectement en fonction du zoom. Cette opération sera reportée en plein écran.
+* En raison de la limitation de taille sur les périphériques mobiles, la visionneuse de supports variés utilise le mouvement des diapositives pour permuter des images dans des visionneuses d’images incorporées au lieu d’appuyer sur le composant de nuances incorporées. Le composant est présent en tant qu&#39;indicateur visuel.
+* Dans les navigateurs Internet Explorer et certains périphériques tactiles, le mode plein écran n’occupe pas l’ensemble de l’écran du périphérique. Il redimensionne l’application à la taille de la fenêtre du navigateur.
+* Le bouton Fermer ne fonctionne pas sous iOS 8.0 et iOS 8.1 mais fonctionne sous iOS 8.2.
 
 ## Galaxy SIII {#section-dfd5f46f39834223b544b1e2f7a770c1}
 
-* Fuite de mémoire visible avec les visionneuses de zoom et de catalogue électronique. Une navigation répétée dans les cadres peut entraîner le blocage du navigateur.
-* Si l’utilisateur appuie sur un  sur une visionneuse, il se peut que la page entière fasse l’objet d’un zoom au lieu de la seule visionneuse dont la mise à l’échelle côté navigateur est activée.
+* Fuite de mémoire visible avec les visionneuses de zoom et de catalogue électronique. Une navigation répétée dans les cadres peut provoquer un blocage du navigateur.
+* Si l’utilisateur appuie sur un Doublon sur une visionneuse, il se peut que la page entière fasse l’objet d’un zoom plutôt que simplement sur la visionneuse avec la mise à l’échelle côté navigateur activée.
 
 ## Galaxy S4 {#section-7effabfea75b488399e0f71cab4ce76b}
 
@@ -38,28 +43,28 @@ Notes de compatibilité pour les systèmes d’exploitation, les navigateurs et 
 
 ## Galaxy Nexus {#section-9340b0b026bd48e8a8a6b837b59c6dc5}
 
-* Si l’utilisateur appuie  sur une visionneuse, il se peut que la page entière fasse l’objet d’un zoom au lieu de la seule visionneuse, la mise à l’échelle côté navigateur étant activée.
+* Si l’utilisateur appuie sur un Doublon sur une visionneuse, il se peut que la page entière fasse l’objet d’un zoom au lieu de la seule visionneuse, la mise à l’échelle côté navigateur étant activée.
 
 ## Galaxy Nexus 10 et tablette Galaxy {#section-ef52bd1249fe4f358c11838f7a557a00}
 
-* Le catalogue électronique affiche une planche de page incorrecte avec des orientations portrait et paysage.
+* Le catalogue électronique affiche des planches incorrectes avec des orientations portrait et paysage.
 
 ## Périphériques mobiles HTC {#section-dc42c80414c842e488738fc157c55b01}
 
-* L’impossibilité de désactiver le zoom par pincement natif est une &quot;fonctionnalité&quot; de l’enveloppe HTC UI wrapper (HTC Sense). Cette fonctionnalité peut entraîner un zoom sur toute une page lors de l’utilisation du mouvement &quot;Pincer pour zoomer&quot; sur le lecteur. Utilisez plutôt un mouvement de -pression.
-* Les icônes de zone cliquable peuvent se chevaucher si les zones cliquables sont petites et rapprochées.
+* L&#39;impossibilité de désactiver le zoom par pincement natif est une &quot;fonctionnalité&quot; de HTC UI wrapper (HTC Sense). Cette fonction peut entraîner un zoom sur une page entière lors de l’utilisation du mouvement &quot;pincer pour zoomer&quot; sur la visionneuse. Utilisez plutôt un mouvement doublon-appui.
+* Les icônes de zone cliquable peuvent se chevaucher si les zones cliquables sont petites et rapprochées les unes des autres.
 
 ## HTML5 Video Viewer {#section-3c2dd1220dea4093b17ca2dd0a688307}
 
-* `IntialBitRate` est uniquement pris en charge avec la lecture HLS du logiciel et HDS Flash. Cela ne fonctionne pas lorsque la lecture utilise le lecteur natif.
+* `IntialBitRate` est uniquement pris en charge avec la lecture HLS du logiciel et HDS Flash. Il ne fonctionne pas lorsque la lecture utilise le lecteur natif.
 * La lecture progressive OGG et WebM n’est pas prise en charge.
-* La mise à l’échelle du navigateur peut entraîner l’affichage du lecteur vidéo à une taille incorrecte (inclure les paramètres d’affichage du panneau de configuration Windows OS).
+* La mise à l’échelle du navigateur peut entraîner l’affichage d’une taille incorrecte du lecteur vidéo (y compris les paramètres d’affichage du panneau de configuration Windows).
 * La recherche de vidéos en flux continu HLS sur Safari peut être incohérente.
 
 ## Internet Explorer {#section-a18e8df396954f0b807017787c00aac7}
 
-* Le mode Quirks n’est pas pris en charge.
-* Le mode de compatibilité n’est pas pris en charge.
+* Le mode Quirks n&#39;est pas pris en charge.
+* Le mode de compatibilité n&#39;est pas pris en charge.
 * Internet Explorer sur mobile n’est pas pris en charge.
 
 ## iOS {#section-70161cba8c2044838d916d0b69c12247}
