@@ -7,7 +7,10 @@ title: setAssetSetDefinition
 topic: Scene7 Image Production System API
 uuid: 2a2dce5d-7a01-49af-ac8b-33ae0b234ecc
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 6%
 
 ---
 
@@ -18,7 +21,7 @@ Met à jour la définition d’ensemble pour une visionneuse de fichiers existan
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-9d4ca3a8cfe74934b89971de01a2143c}
+## Types d’utilisateur autorisés {#section-9d4ca3a8cfe74934b89971de01a2143c}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,11 +32,11 @@ Syntaxe
 
 ## Paramètres {#section-c2057a5a13d042c684a3da1b49bc5dc6}
 
-**Input (setAssetDefinitionParam)**
+**Entrée (setAssetDefinitionParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | La poignée du avec le jeu de ressources. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée vers la société avec le jeu de ressources. |
 | ` *`assetHandle`*` | `xsd:string` | Oui | Poignée de jeu de ressources |
 | ` *`setDefinition`*` | `xsd:string` | Oui | Chaîne de définition. Voir ci-dessous. |
 
@@ -41,15 +44,15 @@ Syntaxe
 
 L&#39;API IPS ne renvoie pas de réponse pour cette opération.
 
-## Paramètre setDefinition : À propos de {#section-f88e066bf5294b4f8c12d5d652a5c94c}
+## Paramètre setDefinition : A propos {#section-f88e066bf5294b4f8c12d5d652a5c94c}
 
-**Fonctions setDefinition**
+**Fonction setDefinition**
 
-Spécifiez les fonctions `setDefinition` de substitution en ligne. Ces problèmes sont résolus lors d’une recherche de catalogue ou lors d’une publication. Les chaînes de substitution ont le format `${<substitution_func>}`et comprennent ce qui suit :
+Spécifiez les fonctions de `setDefinition` substitution en ligne. Ces problèmes sont résolus lors d’une recherche de catalogue ou lors d’une publication. Les chaînes de substitution ont le format `${<substitution_func>}`et comprennent les éléments suivants :
 
 >[!NOTE]
 >
->Les littéraux de gestion dans le de paramètres doivent être entourés de crochets `([])`. Le texte en dehors d’une chaîne de substitution est copié dans la chaîne de sortie pendant la résolution.
+>Les littéraux de gestion dans les listes de paramètres doivent être entourés de crochets `([])`. Le texte en dehors d’une chaîne de substitution est copié dans la chaîne de sortie lors de la résolution.
 
 <table id="table_A93D2C273B694C289208AA926B2597CD"> 
  <thead> 
@@ -61,7 +64,7 @@ Spécifiez les fonctions `setDefinition` de substitution en ligne. Ces problème
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getFilePath([ <span class="varname"> asset_handle </span>]) </span> </td> 
-   <td colname="col2"> Chemin du fichier maître. </td> 
+   <td colname="col2"> Chemin du fichier de Principal. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getCatalogd([ <span class="varname"> asset_handle </span>]) </span> </td> 
@@ -73,14 +76,14 @@ Spécifiez les fonctions `setDefinition` de substitution en ligne. Ces problème
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getThumbCatalogId([ <span class="varname"> asset_handle </span>]) </span> </td> 
-   <td colname="col2"> ID de catalogue. S’applique aux fichiers basés sur les images (Image,  ajusté, de calques). <p>Pour d’autres ressources, renvoie l’ID de catalogue de la ressource miniature (le cas échéant). Si aucune ressource de pouce n’est associée à la ressource, la fonction renvoie une chaîne vide. </p> </td> 
+   <td colname="col2"> ID de catalogue. S’applique aux fichiers basés sur les images (Image, Vue ajustée, Vue de calque). <p>Pour les autres ressources, renvoie l’identifiant de catalogue de la ressource miniature (le cas échéant). Si aucune ressource de miniature n’est associée à la ressource, la fonction renvoie une chaîne vide. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Exemples de setDefinition**
 
-Cette chaîne de définition de jeu de médias :
+Chaîne de définition de jeu de médias :
 
 ```java
 ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])}; 
@@ -88,7 +91,7 @@ ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])};
 ${getMetadata([a|1036|19|144], [m|1|ASSET|SharedDateField])}
 ```
 
-Résout les problèmes suivants au moment de la recherche ou de la publication :
+Résout les éléments suivants au moment de la recherche ou de la publication :
 
 ```java
 jcompany/myRenderSet;jcompany/myRenderSet; 
