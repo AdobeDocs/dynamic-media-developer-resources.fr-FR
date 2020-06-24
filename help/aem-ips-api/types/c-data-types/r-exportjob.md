@@ -7,7 +7,10 @@ title: ExportJob
 topic: Scene7 Image Production System API
 uuid: 439e3dd8-85b8-4f5b-abf8-8cc5a3f59fe6
 translation-type: tm+mt
-source-git-commit: 26fb6212c3106deb7b088020d9f2993e40dec20b
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '219'
+ht-degree: 15%
 
 ---
 
@@ -37,33 +40,33 @@ ExportJob ne prend pas en charge les types de ressource suivants :
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> assetHandleArray</span></span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> type:HandleArray</span> </p> </td> 
-   <td colname="col3" valign="top"> <p> de <span class="codeph"> fichierHandle</span> qui doivent être exportés. Voir <a href="../../types/c-data-types/r-handle-array.md#reference-1b93fefb5477459faf9253b54349b5f9" type="reference" format="dita" scope="local"> HandleArray</a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> types:HandleArray</span> </p> </td> 
+   <td colname="col3" valign="top"> <p>Liste du <span class="codeph"> gestionnaire</span> de ressources qui doit être exporté. Voir <a href="../../types/c-data-types/r-handle-array.md#reference-1b93fefb5477459faf9253b54349b5f9" type="reference" format="dita" scope="local"> HandleArray</a>. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fmt</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fmt</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
-   <td colname="col3"> <p>Spécifie le type <span class="codeph"> export.Valeurs</span>possibles : [orig, convert] </p> <p> 
+   <td colname="col3"> <p>Spécifie le type d'exportation <span class="codeph"> .Valeurs</span>possibles : [orientation, conversion] </p> <p> 
      <ul id="ul_16EF4B14100C4C7AA464CA9CF7F11D1C"> 
-      <li id="li_DAB2844CC55145C88A18A1F8EC4527F9">Si <span class="codeph"> fmt=orig</span>, les actifs sont exportés en tant qu’éléments d’origine. </li> 
-      <li id="li_07F2F8D159934D889FDC1022AB12B564">Si <span class="codeph"> fmt=convert</span>, les ressources sont converties au format spécifié dans les paramètres d’entrée <span class="codeph"> is_modifer</span> ou <span class="codeph"> macro</span> . </li> 
+      <li id="li_DAB2844CC55145C88A18A1F8EC4527F9">Si <span class="codeph"> fmt=orig</span>, les actifs sont exportés en tant qu’éléments d’origine </li> 
+      <li id="li_07F2F8D159934D889FDC1022AB12B564">Si <span class="codeph"> fmt=convert</span>, les actifs sont convertis au format spécifié dans les paramètres d’entrée <span class="codeph"> is_modifer</span> ou <span class="codeph"> macro</span> . </li> 
      </ul> </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> is_modifier</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> is_modifier</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
-   <td colname="col3"> <p>Indique la chaîne URL de rendu <span class="codeph"> ImageServer</span> , qui est ajoutée à la demande de conversion <span class="codeph"> ExportJob</span> Convertir. </p> <p>Pour plus d’informations sur l’envoi des modificateurs IS, reportez-vous à la documentation <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/" scope="external" format="html"></a> IS. </p> </td> 
+   <td colname="col3"> <p>Indique la chaîne URL de rendu <span class="codeph"> ImageServer</span> , annexée à la demande de <span class="codeph"> conversion</span> ExportJob. </p> <p>Pour plus d’informations sur l’envoi des modificateurs IS, reportez-vous à la documentation <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/home.html" scope="external" format="html"></a> IS. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> macro</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> macro</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
    <td colname="col3"> <p></p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> paramètre</span> de courrier électronique </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> emailSetting</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
-   <td colname="col3"> <p>Choix du paramètre de courrier électronique. Valeurs possibles : </p> <p> 
+   <td colname="col3"> <p>Choix du paramètre d’adresse électronique. Valeurs possibles : </p> <p> 
      <ul id="ul_0EEDAE11B7CD4C53A6E4B2B8CB2CF730"> 
       <li id="li_F235F93828594ED78C6D464440F953FF"> <span class="codeph"> Tout</span> </li> 
       <li id="li_59E14E7EBFA64432A5FAC15DA21A0521"> <span class="codeph"> Erreur</span> </li> 
@@ -73,14 +76,14 @@ ExportJob ne prend pas en charge les types de ressource suivants :
      </ul> </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> clientId</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> clientId</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
-   <td colname="col3"> <p>Indique l’adresse IP du client ou du client qui a initié la demande d’exportation. </p> <p> <p>Remarque :  ce paramètre n’est pas renseigné activement actuellement et est strictement réservé à une utilisation ultérieure uniquement. </p> </p> </td> 
+   <td colname="col3"> <p>Indique l’adresse IP du client ou du client qui a initié la demande d’exportation. </p> <p> <p>Remarque :  ce paramètre n’est pas activement renseigné actuellement et est strictement réservé à une utilisation ultérieure uniquement. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Dans le cas des demandes ExportJob, où `fmt=convert` et à la fois `is_modifier` et `macro` sont fournies, le fichier de destination respecte le format fourni par `macro`. Par exemple :
+Pour les demandes ExportJob lorsque `fmt=convert` et à la fois `is_modifier` et `macro` sont fournies, le fichier de destination respecte le format fourni par `macro`. Par exemple :
 
 ```
 input_file = fileToExport.jpg
