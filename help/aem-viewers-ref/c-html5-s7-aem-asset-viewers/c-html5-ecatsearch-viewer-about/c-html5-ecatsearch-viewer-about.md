@@ -1,51 +1,54 @@
 ---
-description: Visionneuse de recherche de catalogue électronique est une visionneuse de catalogue qui affiche les brochures électroniques dans une planche par planche ou page par page. Le catalogue électronique permet aux utilisateurs de naviguer dans le catalogue à l’aide d’éléments d’interface utilisateur supplémentaires ou d’un mode de vignettes dédié. Les utilisateurs peuvent également effectuer un zoom avant sur chaque page pour obtenir plus de détails.
+description: Visionneuse de recherche de catalogue électronique est une visionneuse de catalogue qui affiche des brochures électroniques dans une planche par planche ou page par page. Le catalogue électronique permet aux utilisateurs de parcourir le catalogue à l’aide d’éléments d’interface utilisateur supplémentaires ou d’un mode de miniatures dédié. Les utilisateurs peuvent également effectuer un zoom avant sur chaque page pour plus de détails.
 keywords: responsive
-seo-description: Visionneuse de recherche de catalogue électronique est une visionneuse de catalogue qui affiche les brochures électroniques dans une planche par planche ou page par page. Le catalogue électronique permet aux utilisateurs de naviguer dans le catalogue à l’aide d’éléments d’interface utilisateur supplémentaires ou d’un mode de vignettes dédié. Les utilisateurs peuvent également effectuer un zoom avant sur chaque page pour obtenir plus de détails.
+seo-description: Visionneuse de recherche de catalogue électronique est une visionneuse de catalogue qui affiche des brochures électroniques dans une planche par planche ou page par page. Le catalogue électronique permet aux utilisateurs de parcourir le catalogue à l’aide d’éléments d’interface utilisateur supplémentaires ou d’un mode de miniatures dédié. Les utilisateurs peuvent également effectuer un zoom avant sur chaque page pour plus de détails.
 seo-title: Recherche dans un catalogue électronique
 solution: Experience Manager
 title: Recherche dans un catalogue électronique
 topic: Dynamic media
 uuid: f5ec33bf-e827-4709-9780-6f17096bf306
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+workflow-type: tm+mt
+source-wordcount: '2228'
+ht-degree: 0%
 
 ---
 
 
 # Recherche dans un catalogue électronique{#ecatalog-search}
 
-Visionneuse de recherche de catalogue électronique est une visionneuse de catalogue qui affiche les brochures électroniques dans une planche par planche ou page par page. Le catalogue électronique permet aux utilisateurs de naviguer dans le catalogue à l’aide d’éléments d’interface utilisateur supplémentaires ou d’un mode de vignettes dédié. Les utilisateurs peuvent également effectuer un zoom avant sur chaque page pour obtenir plus de détails.
+Visionneuse de recherche de catalogue électronique est une visionneuse de catalogue qui affiche des brochures électroniques dans une planche par planche ou page par page. Le catalogue électronique permet aux utilisateurs de parcourir le catalogue à l’aide d’éléments d’interface utilisateur supplémentaires ou d’un mode de miniatures dédié. Les utilisateurs peuvent également effectuer un zoom avant sur chaque page pour plus de détails.
 
-Cette visionneuse fonctionne avec les catalogues électroniques et prend en charge les cartes graphiques et les outils de partage sur les réseaux sociaux en option. Il comporte des outils de zoom, des outils de navigation de catalogue, la prise en charge du mode plein écran, des vignettes et un bouton de fermeture en option. Le lecteur prend également en charge les outils de partage sur les réseaux sociaux, l’impression, le téléchargement et les favoris. Il est conçu pour fonctionner sur les ordinateurs de bureau et les périphériques mobiles.
+Cette visionneuse fonctionne avec des catalogues électroniques et prend en charge les zones cliquables et les outils de partage sur les réseaux sociaux en option. Il comprend des outils de zoom, des outils de navigation catalogue, une prise en charge en plein écran, des miniatures et un bouton de fermeture en option. Le lecteur prend également en charge les outils de partage sur les réseaux sociaux, l’impression, le téléchargement et les favoris. Il est conçu pour fonctionner sur les ordinateurs de bureau et les périphériques mobiles.
 
 L’utilisateur peut également effectuer une recherche basée sur des mots-clés ou des expressions sur le contenu du catalogue.
 
 >[!NOTE]
 >
->Les images qui utilisent la fonction IR (Image Rendering) ou UGC (User-Generated Content) ne sont pas prises en charge par cette visionneuse.
+>Cette visionneuse ne prend pas en charge les images qui utilisent la fonction IR (Image Rendering) ou UGC (User-Generated Content).
 
-Type de lecteur 513.
+Type de visionneuse 513.
 
-Voir Configuration [système requise et configuration requise](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
+Voir Configuration [requise et configuration requise](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
 ## URL de démonstration {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
-[https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d9.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&amp;contenturl=https://s7d9.scene7.com/skins/&amp;asset=Viewers/Pluralist&amp;searchserverurl=https://s7search1.scene7.com/s7search/](https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&serverUrl=https://s7d9.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&contenturl=https://s7d9.scene7.com/skins/&asset=Viewers/Pluralist&searchserverurl=https://s7search1.scene7.com/s7search/)
+[https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d9.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&amp;contenturl=https://s7d9.scene7.com/skins/&amp;asset=Viewers/Pluralist&amp;searchserverurl=https://s7search1.scene7.com/s7search/](https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d9.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&amp;contenturl=https://s7d9.scene7.com/skins/&amp;asset=Viewers/Pluralist&amp;searchserverurl=https://s7search1.scene7.com/s7search/)
 
 ## Utilisation de la visionneuse de catalogue électronique {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-La visionneuse de recherche de catalogue électronique représente un fichier JavaScript principal et un ensemble de fichiers d’aide (un seul code JavaScript inclut tous les composants du SDK de la visionneuse utilisés par cette visionneuse, ressources, CSS) téléchargés par la visionneuse au moment de l’exécution.
+La visionneuse de recherche de catalogue électronique représente un fichier JavaScript principal et un ensemble de fichiers d’aide (un seul fichier JavaScript est inclus avec tous les composants du SDK de la visionneuse utilisés par cette visionneuse, ressources et CSS) téléchargés par la visionneuse au moment de l’exécution.
 
-Vous pouvez utiliser la visionneuse de recherche de catalogue électronique en mode contextuel à l’aide d’une page HTML prête à l’emploi fournie avec les visionneuses IS ou en mode intégré, où elle est intégrée dans la page Web  à l’aide d’une API documentée.
+Vous pouvez utiliser la visionneuse de recherche de catalogue électronique en mode contextuel à l’aide d’une page HTML prête à l’emploi fournie avec des visionneuses IS ou en mode intégré, où elle est intégrée à la page Web de cible à l’aide d’une API documentée.
 
 La configuration et l’habillage sont similaires à ceux des autres visionneuses. L’habillage est effectué au moyen d’une page CSS personnalisée.
 
-Voir Référence [de commande commune à toutes les visionneuses - Attributs](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) de configuration et référence de [commande commune à toutes les visionneuses - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+Voir Référence de [commande commune à toutes les visionneuses - Attributs](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) de configuration et référence de [commande commune à toutes les visionneuses - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 ## Interaction avec le lecteur de recherche de catalogue électronique {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
-Le lecteur de recherche de catalogue électronique prend en charge les mouvements tactiles suivants, qui sont courants dans d’autres applications mobiles.
+Le lecteur de recherche de catalogue électronique prend en charge les mouvements tactiles suivants, courants dans d’autres applications mobiles.
 
 <table id="table_ED747CC7178448919C34A4FCD18922D0"> 
  <thead> 
@@ -60,8 +63,8 @@ Le lecteur de recherche de catalogue électronique prend en charge les mouvement
    <td colname="col2"> <p> Sélectionne une nouvelle miniature dans les échantillons. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Touche  </p> </td> 
-   <td colname="col2"> <p> Applique un zoom à un niveau jusqu’à ce que le facteur de zoom maximal soit atteint. Le mouvement de  du clic suivant réinitialise la visionneuse à l’état d’affichage initial. </p> </td> 
+   <td colname="col1"> <p>Doublon </p> </td> 
+   <td colname="col2"> <p> Applique un zoom à un niveau jusqu’à ce que le zoom maximal soit atteint. Le mouvement de pression du doublon suivant réinitialise l’affichage initial de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pincer </p> </td> 
@@ -69,36 +72,36 @@ Le lecteur de recherche de catalogue électronique prend en charge les mouvement
   </tr> 
   <tr> 
    <td colname="col1"> <p>Glissement ou clic horizontal </p> </td> 
-   <td colname="col2"> <p>Fait défiler le  des pages de catalogue si un de cadre de diapositive est utilisé. </p> </td> 
+   <td colname="col2"> <p>Fait défiler la liste des pages de catalogue si une transition de blocs de diapositives est utilisée. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Glissement ou clic vertical </p> </td> 
-   <td colname="col2"> <p>Lorsque l’image est à l’état Réinitialiser, elle effectue un défilement de page natif. </p> <p>Lorsque les miniatures sont actives, elles font défiler le  des miniatures. </p> </td> 
+   <td colname="col2"> <p>Lorsque l’image est en état de réinitialisation, elle effectue un défilement de page natif. </p> <p>Lorsque les miniatures sont actives, elles font défiler la liste des miniatures. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 Il est possible d’activer un effet d’animation de retournement de page réaliste pour naviguer entre les pages du catalogue. Dans ce cas, l’utilisateur peut maintenir enfoncé un coin de page et le faire glisser pour retourner la page.
 
-Ce lecteur prend également en charge les entrées tactiles et de souris sur les périphériques Windows avec un écran tactile et une souris. Cette prise en charge est toutefois limitée aux navigateurs Web Chrome, Internet Explorer 11 et Edge.
+Ce lecteur prend également en charge les entrées tactiles et de souris sur les périphériques Windows dotés d’un écran tactile et d’une souris. Toutefois, cette prise en charge est limitée aux navigateurs Web Chrome, Internet Explorer 11 et Edge uniquement.
 
 ## Outils de partage sur les médias sociaux avec le lecteur de recherche de catalogue électronique {#section-eb575084a99647c3a9591f439f40b412}
 
-Le lecteur de recherche de catalogue électronique prend en charge les outils de partage sur les réseaux sociaux. Il est disponible sous forme de bouton dans la barre de contrôle principale, qui s’étend dans une barre d’outils de partage lorsqu’un utilisateur clique ou appuie dessus.
+Le lecteur de recherche de catalogue électronique prend en charge les outils de partage sur les réseaux sociaux. Il est disponible sous la forme d’un bouton dans la barre de contrôle principale qui se développe en une barre d’outils de partage lorsqu’un utilisateur clique ou appuie dessus.
 
-La barre d’outils de partage contient des icônes pour chaque type de de partage pris en charge, notamment Facebook, Twitter, le partage de courrier électronique, le partage de code incorporé et le partage de liens. Lorsque des outils de partage de courrier électronique, de partage incorporé ou de partage de liens sont activés, le lecteur affiche une boîte de dialogue modale avec un formulaire de saisie de données correspondant. Lorsque Facebook ou Twitter est appelé, le lecteur redirige l’utilisateur vers une boîte de dialogue de partage standard à partir d’un service social. Les outils de partage ne sont pas disponibles en mode plein écran en raison des restrictions de sécurité du navigateur Web.
+La barre d’outils de partage contient des icônes pour chaque type de canal de partage pris en charge, notamment Facebook, Twitter, partage de courrier électronique, partage de code incorporé et partage de liens. Lorsque des outils de partage de courrier électronique, de partage incorporé ou de partage de liens sont activés, le lecteur affiche une boîte de dialogue modale avec un formulaire de saisie de données correspondant. Lorsque Facebook ou Twitter est appelé, le lecteur redirige l’utilisateur vers une boîte de dialogue de partage standard à partir d’un service social. Les outils de partage ne sont pas disponibles en mode plein écran en raison des restrictions de sécurité du navigateur Web.
 
-La fonction de recherche du lecteur de contenu est disponible sous forme d’icône en forme de vitre dans la barre d’outils principale. Un clic ou un appui sur l’icône active le panneau de recherche avec un champ de saisie. Après avoir saisi un mot-clé ou une expression et appuyé sur Entrée, le lecteur affiche les résultats de la recherche dans le panneau et met en surbrillance les mots trouvés dans le  principal.
+La fonction de recherche du lecteur de contenu est disponible sous la forme d’une icône en forme de vitre dans la barre d’outils principale. Cliquez ou appuyez sur l’icône pour activer le panneau Rechercher avec un champ de saisie. Après avoir saisi un mot-clé ou une expression et appuyé sur Entrée, le lecteur affiche les résultats de la recherche dans le panneau et met en surbrillance les mots trouvés dans la vue principale.
 
 ## Incorporation de la visionneuse de recherche de catalogue électronique {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Le comportement des visiteurs varie selon les pages Web. Il arrive qu’une page Web fournisse un lien qui, lorsqu’un utilisateur clique dessus, ouvre le lecteur dans une fenêtre de navigateur distincte. Dans d’autres cas, il est nécessaire d’incorporer le lecteur de contenu directement dans la page d’hébergement. Dans ce dernier cas, la page Web peut avoir une mise en page statique, ou utiliser une conception adaptée qui s’affiche différemment sur différents périphériques ou pour différentes tailles de fenêtre de navigateur. Pour répondre à ces besoins, le lecteur prend en charge trois modes de fonctionnement principaux : fenêtre contextuelle, incorporation de taille fixe et incorporation de conception adaptée.
+Différentes pages Web ont des besoins différents en ce qui concerne le comportement des visiteurs. Il arrive qu’une page Web fournisse un lien qui, lorsqu’un utilisateur clique dessus, ouvre le lecteur dans une fenêtre de navigateur distincte. Dans d’autres cas, il est nécessaire d’incorporer le droit du lecteur dans la page d’hébergement. Dans ce dernier cas, la page Web peut avoir une mise en page statique, ou utiliser une conception adaptée qui s’affiche différemment sur différents périphériques ou pour différentes tailles de fenêtre de navigateur. Pour répondre à ces besoins, le lecteur prend en charge trois modes de fonctionnement principaux : fenêtre contextuelle, incorporation de tailles fixes et incorporation de conceptions réactives.
 
 **A propos du mode contextuel**
 
-En mode contextuel, le lecteur s’ouvre dans une fenêtre ou un onglet distinct du navigateur Web. Il prend toute la zone de la fenêtre du navigateur et s’ajuste au cas où le navigateur serait redimensionné ou où l’orientation d’un périphérique mobile serait modifiée.
+En mode contextuel, le lecteur s’ouvre dans une fenêtre ou un onglet distinct du navigateur Web. Elle prend toute la zone de la fenêtre du navigateur et s’ajuste au cas où le navigateur serait redimensionné ou où l’orientation d’un périphérique mobile serait modifiée.
 
-Le mode contextuel est le plus courant pour les périphériques mobiles. La page Web charge le lecteur à l’aide d’un appel `window.open()` JavaScript, d’un élément `A` HTML correctement configuré ou de toute autre méthode appropriée.
+Le mode contextuel est le plus courant pour les périphériques mobiles. La page Web charge la visionneuse à l’aide d’un appel `window.open()` JavaScript, d’un élément `A` HTML correctement configuré ou de toute autre méthode appropriée.
 
 Il est recommandé d’utiliser une page HTML prête à l’emploi pour le mode d’opération contextuel. Dans ce cas, il est appelé [!DNL eCatalogSearchViewer.html] et se trouve dans le [!DNL html5/] sous-dossier du déploiement des visionneuses IS standard :
 
@@ -112,36 +115,36 @@ Voici un exemple de code HTML qui ouvre la visionneuse dans une nouvelle fenêtr
 <a href="https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&serverUrl=https://s7d9.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&contenturl=https://s7d9.scene7.com/skins/&asset=Viewers/Pluralist&searchserverurl=https://s7search1.scene7.com/s7search/" target="_blank">Open pop-up viewer</a>
 ```
 
-**A propos du mode d’incorporation de taille fixe et du mode d’incorporation de conception réactif**
+**A propos du mode d&#39;incorporation de taille fixe et du mode d&#39;incorporation de conception réactif**
 
-En mode intégré, le lecteur est ajouté à la page Web existante, qui peut déjà comporter du contenu client qui n’est pas lié au lecteur. En règle générale, le lecteur n’occupe qu’une partie de l’espace d’une page Web.
+En mode incorporé, le lecteur est ajouté à la page Web existante, qui peut déjà contenir du contenu client qui n’est pas lié au lecteur. En règle générale, le lecteur occupe uniquement une partie de l’espace d’une page Web.
 
-Les principales utilisations sont les pages Web orientées vers les ordinateurs de bureau ou les tablettes, ainsi que les pages adaptées qui ajustent automatiquement la disposition en fonction du type de périphérique.
+Les principales utilisations sont les pages Web orientées vers les ordinateurs de bureau ou les tablettes, ainsi que les pages adaptées qui ajustent automatiquement la mise en page en fonction du type de périphérique.
 
-L’incorporation de taille fixe est utilisée lorsque la visionneuse ne modifie pas sa taille après le chargement initial. Il s’agit du meilleur choix pour les pages Web avec une disposition statique.
+L’incorporation de taille fixe est utilisée lorsque la visionneuse ne change pas de taille après le chargement initial. Il s’agit du meilleur choix pour les pages Web présentant une disposition statique.
 
-L’incorporation de la conception réactive suppose que le lecteur doit peut-être être redimensionné au moment de l’exécution en réponse au changement de taille de sa  de `DIV`. Le cas d’utilisation le plus courant consiste à ajouter une visionneuse à une page Web qui utilise une disposition de page souple.
+L’incorporation de la conception réactive suppose que la visionneuse doit peut-être être redimensionnée au moment de l’exécution en raison du changement de taille de son conteneur `DIV`. Le cas d’utilisation le plus courant consiste à ajouter une visionneuse à une page Web qui utilise une disposition de page souple.
 
-En mode d’incorporation de conception réactif, le lecteur se comporte différemment selon la manière dont la page Web redimensionne son  `DIV`. Si la page Web définit uniquement la largeur du  du `DIV`et que sa hauteur reste illimitée, le lecteur choisit automatiquement sa hauteur en fonction des proportions du fichier utilisé. Cette fonctionnalité permet de s’assurer que la ressource s’intègre parfaitement dans le  du sans remplissage sur les côtés. Ce cas d’utilisation est le plus courant pour les pages Web utilisant des structures de mise en page réactives telles que Bootstrap, Foundation, etc.
+En mode d’incorporation de conceptions réactives, le lecteur se comporte différemment selon la manière dont la page Web dimensionne son conteneur `DIV`. Si la page Web définit uniquement la largeur du conteneur `DIV`et que sa hauteur n’est pas restreinte, le lecteur sélectionne automatiquement sa hauteur en fonction des proportions du fichier utilisé. Cette fonctionnalité permet de s’assurer que la ressource s’intègre parfaitement à la vue sans remplissage sur les côtés. Ce cas d’utilisation est le plus courant pour les pages Web utilisant des structures de mise en page réactives telles que Bootstrap, Foundation, etc.
 
-Sinon, si la page Web définit à la fois la largeur et la hauteur du  du lecteur `DIV`, celui-ci remplit cette zone et suit la taille fournie par la mise en page Web. Un bon exemple est l’incorporation de la visionneuse dans une incrustation modale, où l’incrustation est dimensionnée en fonction de la taille de la fenêtre du navigateur Web.
+Sinon, si la page Web définit à la fois la largeur et la hauteur du conteneur du lecteur de contenu `DIV`, celui-ci remplit cette zone et suit la taille indiquée par la mise en page Web. Un bon exemple est l’incorporation de la visionneuse dans une incrustation modale, où l’incrustation est dimensionnée en fonction de la taille de la fenêtre du navigateur Web.
 
 **Incorporation de taille fixe**
 
-Vous ajoutez le lecteur à une page Web en procédant comme suit :
+Pour ajouter la visionneuse à une page Web, procédez comme suit :
 
-1. Ajout du fichier JavaScript de la visionneuse à votre page Web.
-1. Définition de la  DIV du.
+1. Ajouter le fichier JavaScript de la visionneuse sur votre page Web.
+1. Définition de la balise DIV de conteneur.
 1. Définition de la taille de la visionneuse.
 1. Création et initialisation de la visionneuse.
 
-1. Ajout du fichier JavaScript de la visionneuse à votre page Web.
+1. Ajouter le fichier JavaScript de la visionneuse sur votre page Web.
 
-   Pour créer une visionneuse, vous devez ajouter une balise de script dans l’en-tête HTML. Avant d’utiliser l’API du lecteur de contenu, veillez à inclure [!DNL eCatalogSearchViewer.js]. Le [!DNL eCatalogSearchViewer.js] fichier se trouve sous le [!DNL html5/js/] sous-dossier du déploiement des visionneuses IS standard :
+   Pour créer une visionneuse, vous devez ajouter une balise de script dans l’en-tête HTML. Avant d’utiliser l’API du lecteur de contenu, veillez à inclure [!DNL eCatalogSearchViewer.js]. Le [!DNL eCatalogSearchViewer.js] fichier se trouve sous le [!DNL html5/js/] sous-dossier de votre déploiement des visionneuses IS standard :
 
 [!DNL <s7viewers_root>/html5/js/eCatalogSearchViewer.js]
 
-Vous pouvez utiliser un chemin relatif si la visionneuse est déployée sur l’un des serveurs Adobe Scene7 et qu’elle est diffusée à partir du même domaine. Dans le cas contraire, vous spécifiez un chemin d’accès complet à l’un des serveurs Adobe Scene7 sur lesquels les visionneuses IS sont installées.
+Vous pouvez utiliser un chemin relatif si la visionneuse est déployée sur l’un des serveurs Adobe Scene7 et qu’elle est diffusée à partir du même domaine. Sinon, vous spécifiez un chemin d’accès complet à l’un des serveurs Adobe Scene7 sur lesquels les visionneuses IS sont installées.
 
 Le chemin relatif ressemble à ce qui suit :
 
@@ -149,9 +152,9 @@ Le chemin relatif ressemble à ce qui suit :
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/eCatalogSearchViewer.js"></script>
 ```
 
-1. Définition de la  DIV du.
+1. Définition de la balise DIV de conteneur.
 
-   Ajouter un élément DIV vide sur la page où le lecteur doit apparaître. L’ID de l’élément DIV doit être défini, car cet ID est transmis ultérieurement à l’API du lecteur de contenu.
+   Ajoutez un élément DIV vide sur la page où doit apparaître le lecteur de contenu. L’identifiant de l’élément DIV doit être défini, car il est transmis ultérieurement à l’API du lecteur de contenu.
 
    L’espace réservé DIV est un élément positionné, ce qui signifie que la propriété `position` CSS est définie sur `relative` ou `absolute`.
 
@@ -163,11 +166,11 @@ Le chemin relatif ressemble à ce qui suit :
 
 1. Définition de la taille de la visionneuse
 
-   Vous pouvez définir la taille statique de la visionneuse en la déclarant pour la classe CSS de `.s7ecatalogsearchviewer` niveau supérieur en unités absolues ou en utilisant le modificateur `stagesize` .
+   Vous pouvez définir la taille statique de la visionneuse en la déclarant pour la classe CSS de `.s7ecatalogsearchviewer` niveau supérieur en unités absolues ou en utilisant `stagesize` des modificateurs.
 
    Vous pouvez placer le dimensionnement en CSS directement sur la page HTML ou dans un fichier CSS de visionneuse personnalisée, qui est ensuite affecté à un enregistrement de paramètre prédéfini de visionneuse dans Scene7 Publishing System ou transmis explicitement à l’aide d’une commande de style.
 
-   Voir [Personnalisation de la visionneuse](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) de catalogue électronique pour plus d’informations sur le style de la visionneuse avec CSS.
+   Voir [Personnalisation de la visionneuse](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) de catalogue électronique pour plus d’informations sur la mise en forme de la visionneuse au moyen de CSS.
 
    Voici un exemple de définition de la taille d’une visionneuse statique dans une page HTML :
 
@@ -178,22 +181,22 @@ Le chemin relatif ressemble à ce qui suit :
    }
    ```
 
-   Vous pouvez définir le `stagesize` modificateur soit dans l’enregistrement des paramètres prédéfinis de la visionneuse dans Scene7 Publishing System, soit le transmettre explicitement avec le code d’initialisation de la visionneuse avec `params` la collection, soit sous la forme d’un appel d’API, comme décrit dans la section Référence de commande, comme suit :
+   Vous pouvez définir le `stagesize` modificateur soit dans l’enregistrement de paramètre prédéfini de la visionneuse dans Scene7 Publishing System, soit le transmettre explicitement avec le code d’initialisation de la visionneuse avec `params` la collection, soit sous la forme d’un appel d’API, comme décrit dans la section de référence des commandes, comme suit :
 
    ```
    eCatalogSearchViewer.setParam("stagesize", 
    "640,480");
    ```
 
-1. Initialisation du lecteur.
+1. Initialisation de la visionneuse.
 
-   Une fois les étapes ci-dessus terminées, vous créez une instance de `s7viewers.eCatalogSearchViewer` classe, vous transmettez toutes les informations de configuration à son constructeur et vous appelez `init()` la méthode sur une instance de visionneuse. Les informations de configuration sont transmises au constructeur sous forme d’objet JSON. Au minimum, cet objet a le `containerId` champ qui contient le nom de l’ID de de la visionneuse et l’objet `params` JSON imbriqué avec les paramètres de configuration pris en charge par la visionneuse. Dans ce cas, l’ `params` objet doit comporter au moins l’URL de diffusion d’images transmise en tant que `serverUrl` propriété et le fichier initial en tant que `asset` paramètre. L’API d’initialisation basée sur JSON vous permet de créer et de  le lecteur avec une seule ligne de code.
+   Une fois les étapes ci-dessus terminées, vous créez une instance de `s7viewers.eCatalogSearchViewer` classe, vous transmettez toutes les informations de configuration à son constructeur et vous appelez `init()` la méthode sur une instance de lecteur. Les informations de configuration sont transmises au constructeur sous la forme d’un objet JSON. Au minimum, cet objet a le `containerId` champ qui contient le nom de l’ID de conteneur de la visionneuse et l’objet `params` JSON imbriqué avec les paramètres de configuration pris en charge par la visionneuse. Dans ce cas, l’ `params` objet doit comporter au moins l’URL de diffusion d’images transmise en tant que `serverUrl` propriété et la ressource initiale en tant que `asset` paramètre. L’API d’initialisation basée sur JSON vous permet de créer et de début le lecteur avec une seule ligne de code.
 
-   Il est important que le de la visionneuse soit ajouté au modèle DOM afin que le code de la visionneuse puisse trouver l’élément  par son identifiant. Certains navigateurs retardent la création du modèle DOM jusqu’à la fin de la page Web. Pour une compatibilité maximale, toutefois, appelez la `init()` méthode juste avant la `BODY` balise de fermeture ou sur le  de contenu `onload()` .
+   Il est important que le conteneur de la visionneuse soit ajouté au modèle DOM afin que le code de la visionneuse puisse trouver l’élément de conteneur en fonction de son identifiant. Certains navigateurs retardent la création du modèle DOM jusqu’à la fin de la page Web. Pour une compatibilité maximale, toutefois, appelez la `init()` méthode juste avant la balise `BODY` de fermeture, ou sur le `onload()` événement de contenu.
 
-   En même temps, l’élément  du ne doit pas nécessairement faire partie de la mise en page de la page Web pour le moment. Par exemple, il peut être masqué à l’aide du `display:none` style qui lui est affecté. Dans ce cas, le lecteur de contenu retarde son processus d’initialisation jusqu’au moment où la page Web ramène l’élément  du à la mise en page. Dans ce cas, le chargement du lecteur reprend automatiquement.
+   En même temps, l’élément conteneur ne doit pas nécessairement faire partie de la mise en page de la page Web pour le moment. Par exemple, il peut être masqué à l’aide du `display:none` style qui lui est affecté. Dans ce cas, le lecteur retarde son processus d’initialisation jusqu’au moment où la page Web ramène l’élément de conteneur à la mise en page. Dans ce cas, le chargement du lecteur reprend automatiquement.
 
-   Voici un exemple de création d’une instance de visionneuse, de transmission des options de configuration minimales nécessaires au constructeur et d’appel de la `init()` méthode. L’exemple suppose `eCatalogSearchViewer` qu’il s’agit de l’instance de visionneuse ; `s7viewer` est le nom de l’espace réservé `DIV`; `http://s7d1.scene7.com/is/image/` est l’URL de diffusion d’images et `Viewers/Pluralist` est la ressource :
+   Voici un exemple de création d’une instance de visionneuse, de transmission des options de configuration minimales nécessaires au constructeur et d’appel de la `init()` méthode. L’exemple suppose que `eCatalogSearchViewer` il s’agit de l’instance de visionneuse ; `s7viewer` est le nom de l&#39;espace réservé `DIV`; `http://s7d1.scene7.com/is/image/` est l’URL de diffusion d’images et `Viewers/Pluralist` est le fichier :
 
    ```
    <script type="text/javascript"> 
@@ -208,7 +211,7 @@ Le chemin relatif ressemble à ce qui suit :
    </script>
    ```
 
-   Le code suivant est un exemple complet d’une page Web triviale qui incorpore la visionneuse de recherche de catalogue électronique à une taille fixe :
+   Le code suivant est un exemple complet d’une page Web triviale qui incorpore la visionneuse de recherche de catalogue électronique avec une taille fixe :
 
    ```
    <!DOCTYPE html> 
@@ -240,7 +243,7 @@ Le chemin relatif ressemble à ce qui suit :
 
 **Incorporation de conception réactive avec une hauteur libre**
 
-Avec l’incorporation de conceptions réactives, la page Web dispose normalement d’une sorte de disposition souple qui détermine la taille d’exécution du  du lecteur `DIV`. Pour les besoins de cet exemple, supposons que la page Web permette au du lecteur `DIV` de prendre 40 % de la taille de la fenêtre du navigateur Web, en laissant sa hauteur libre. Le code HTML de la page Web résultant ressemble à ce qui suit :
+Avec l’incorporation de conceptions réactives, la page Web dispose normalement d’une sorte de disposition souple qui détermine la taille d’exécution du conteneur du lecteur `DIV`. Pour les besoins de cet exemple, supposons que la page Web permette au conteneur du lecteur `DIV` de prendre 40 % de la taille de la fenêtre du navigateur Web, en laissant sa hauteur libre. Le code HTML de la page Web qui en résulte ressemble à ce qui suit :
 
 ```
 <!DOCTYPE html> 
@@ -258,13 +261,13 @@ Avec l’incorporation de conceptions réactives, la page Web dispose normalemen
 </html>
 ```
 
-L’ajout du lecteur à une telle page est similaire à l’incorporation de taille fixe, à la seule différence près que vous n’avez pas besoin de définir explicitement la taille de la visionneuse.
+Ajouter le lecteur à une telle page est similaire à l’incorporation de tailles fixes, à la seule différence que vous n’avez pas besoin de définir explicitement la taille de la visionneuse.
 
-1. Ajout du fichier JavaScript de la visionneuse à votre page Web.
-1. Définition de la  DIV du.
+1. Ajouter le fichier JavaScript de la visionneuse sur votre page Web.
+1. Définition de la balise DIV de conteneur.
 1. Création et initialisation de la visionneuse.
 
-Toutes les étapes ci-dessus sont identiques à celles de l’incorporation de taille fixe. Ajouter le  `DIV` au titulaire existant `DIV`. Le code suivant est un exemple complet. Vous pouvez voir comment la taille de la visionneuse change lorsque le navigateur est redimensionné et comment les proportions de la visionneuse correspondent à la ressource.
+Toutes les étapes ci-dessus sont identiques à celles de l’incorporation de tailles fixes. Ajouter le conteneur `DIV` au titulaire existant `DIV`. Le code suivant est un exemple complet. Vous pouvez voir comment la taille de la visionneuse change lorsque le navigateur est redimensionné et comment les proportions de la visionneuse correspondent à la ressource.
 
 ```
 <!DOCTYPE html> 
@@ -295,13 +298,13 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
 </html>
 ```
 
-La page d’exemples suivante illustre d’autres cas d’utilisation réelle d’une conception adaptée incorporée avec une hauteur libre :
+La page d’exemples suivante illustre davantage de cas d’utilisation réelle d’incorporation de conceptions réactives avec une hauteur libre :
 
-[https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html)
+[Démonstrations en direct](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-**Incorporation flexible de taille avec définition de la largeur et de la hauteur**
+**Taille flexible incorporée avec définition de la largeur et de la hauteur**
 
-Dans le cas d’une incorporation de taille flexible avec une largeur et une hauteur définies, le style de la page Web est différent. Autrement dit, il fournit les deux tailles au &quot;détenteur&quot; `DIV` et le centre dans la fenêtre du navigateur. En outre, la page Web définit la taille de l’ `HTML` élément et `BODY` de l’élément sur 100 % :
+Dans le cas d’une incorporation de taille flexible avec des valeurs de largeur et de hauteur définies, le style de la page Web est différent. Autrement dit, il fournit les deux tailles au &quot;détenteur&quot; `DIV` et le centre dans la fenêtre du navigateur. En outre, la page Web définit la taille de l’ `HTML` élément et de l’ `BODY` élément sur 100 % :
 
 ```
 <!DOCTYPE html> 
@@ -327,7 +330,7 @@ height: 60%;
 </html>
 ```
 
-Les étapes d’incorporation restantes sont identiques à celles d’incorporation de conception réactive avec une hauteur libre. L’exemple qui en résulte est le suivant :
+Les étapes d’incorporation restantes sont identiques à celles d’incorporation de conception adaptée avec une hauteur libre. L’exemple qui en résulte est le suivant :
 
 ```
 <!DOCTYPE html> 
@@ -368,9 +371,9 @@ var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({
 
 **Incorporation à l’aide d’une API basée sur Setter**
 
-Au lieu d’utiliser l’initialisation basée sur JSON, il est possible d’utiliser une API basée sur un setter et un constructeur sans args. Avec ce constructeur d&#39;API ne prend aucun paramètre et les paramètres de configuration sont spécifiés à l&#39;aide `setContainerId()`, `setParam()`et `setAsset()` des méthodes API avec des appels JavaScript distincts.
+Au lieu d’utiliser une initialisation basée sur JSON, il est possible d’utiliser une API basée sur un setter et un constructeur sans args. Avec ce constructeur d&#39;API ne prend aucun paramètre et les paramètres de configuration sont spécifiés à l&#39;aide des méthodes `setContainerId()`, `setParam()`et `setAsset()` API avec des appels JavaScript distincts.
 
-L’exemple suivant illustre l’incorporation de tailles fixes avec l’API basée sur un setter :
+L’exemple suivant montre l’incorporation de tailles fixes avec l’API basée sur setter :
 
 ```
 <!DOCTYPE html> 
