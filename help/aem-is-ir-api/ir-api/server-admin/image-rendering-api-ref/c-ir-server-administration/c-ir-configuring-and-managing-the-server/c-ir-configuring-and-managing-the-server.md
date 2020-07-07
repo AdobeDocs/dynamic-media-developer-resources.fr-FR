@@ -7,7 +7,10 @@ title: Configuration et gestion du serveur
 topic: Scene7 Image Serving - Image Rendering API
 uuid: cd344495-cb41-440e-b3f8-5b5812e81a9c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 0%
 
 ---
 
@@ -16,8 +19,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Cette section contient des informations sur la configuration et la gestion du serveur de rendu d’images.
 
->[!NOTE] {class=&quot;- rubrique/note &quot;}
+>[!NOTE]
 >
->La diffusion d’images doit être correctement configurée et fonctionnelle pour un bon fonctionnement du rendu d’images.
+>La diffusion d’images doit être correctement configurée et fonctionnelle pour le bon fonctionnement du rendu d’images.
 
-Pour plus d’informations, voir Référence du catalogue de matériaux, Référence du protocole HTTP, Notes de mise à jour, Documentation du serveur d’images.
+Pour plus d’informations, voir Référence du catalogue de matières, Référence du protocole HTTP, Notes de mise à jour, Documentation sur la diffusion d’images.
