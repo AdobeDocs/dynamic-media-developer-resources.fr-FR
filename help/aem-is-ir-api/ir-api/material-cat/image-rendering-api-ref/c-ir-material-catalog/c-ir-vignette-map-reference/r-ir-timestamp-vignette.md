@@ -1,26 +1,29 @@
 ---
-description: Horodatage de modification. Indique la date et l’heure de la dernière modification de cette vignette.
-seo-description: Horodatage de modification. Indique la date et l’heure de la dernière modification de cette vignette.
+description: Horodatage de la modification. Indique la date et l’heure de la dernière modification de cette vignette.
+seo-description: Horodatage de la modification. Indique la date et l’heure de la dernière modification de cette vignette.
 seo-title: TimeStamp
 solution: Experience Manager
 title: TimeStamp
 topic: Scene7 Image Serving - Image Rendering API
 uuid: d2649e86-8a6f-4f63-ab6a-8b2d8c03f8c0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 1%
 
 ---
 
 
 # TimeStamp{#timestamp}
 
-Horodatage de modification. Indique la date et l’heure de la dernière modification de cette vignette.
+Horodatage de la modification. Indique la date et l’heure de la dernière modification de cette vignette.
 
-Si `attribute::UseLastModified` est défini, la valeur la plus récente `vignette::TimeStamp` et la `catalog::TimeStamp`valeur de la vignette et de tous les matériaux impliqués dans la requête sont renvoyés dans la réponse HTTP sous la forme d’un en-tête modifié en dernier.
+Si `attribute::UseLastModified` est défini, la dernière `vignette::TimeStamp` valeur et la `catalog::TimeStamp`valeur de la vignette ainsi que tous les matériaux impliqués dans la requête sont renvoyés dans la réponse HTTP en tant qu’en-tête modifié en dernier.
 
->[!NOTE] {class=&quot;- rubrique/note &quot;}
+>[!NOTE]
 >
->L’heure réelle du fichier de vignette n’est jamais utilisée à cette fin.
+>L’heure réelle du fichier de vignettes n’est jamais utilisée à cette fin.
 
 `catalog::TimeStamp` est également utilisée pour la validation du cache basée sur un catalogue (voir ` [attribute::CacheValidationPolicy](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md#reference-2d71679733474d8aa116db6ceba87fa4)`).
 
@@ -32,16 +35,16 @@ Valeur Date/Heure au format Java. Il peut s’agir du nombre entier de milliseco
 
 *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]*GMT *[!DNL offset]*
 
-* *[!DNL hh]* se trouve dans la plage 0 à 23.
-* *[!DNL zzz]* est un code de fuseau horaire de 3 ou 4 caractères, tel que &quot;GMT&quot; ou &quot;PST&quot;. L’heure d’été doit être prise en compte dans le code de fuseau horaire (par exemple, &quot;PST&quot; pour l’heure d’été du Pacifique, par rapport à &quot;PDT&quot; pour l’heure d’été du Pacifique).
-* *[!DNL offset]* est un décalage de fuseau horaire en heures ou heures:minutes, par rapport à GMT. Par exemple, &quot;PDT&quot; est équivalent à &quot;GMT -7&quot;.
+* *[!DNL hh]* est compris entre 0 et 23.
+* *[!DNL zzz]* est un code de fuseau horaire de 3 ou 4 caractères tel que &quot;GMT&quot; ou &quot;PST&quot;. L’heure d’été doit être prise en compte dans le code de fuseau horaire (par exemple, &quot;PST&quot; pour l’heure du Pacifique, par rapport à &quot;PDT&quot; pour l’heure d’été du Pacifique).
+* *[!DNL offset]* est un décalage de fuseau horaire en heures ou heures:minutes, par rapport à GMT. Par exemple, &#39;PDT&#39; est équivalent à &#39;GMT -7&#39;.
 
-Tous les éléments des valeurs de date/heure formatées de chaîne doivent être présents. Si la valeur date/heure n’est pas correctement formatée, elle est ignorée et l’heure de modification du fichier [!DNL *[!DNL catalog]*.ini] est utilisée à la place.
+Tous les éléments des valeurs de date/heure formatées de chaîne doivent être présents. Si la valeur date/heure n&#39;est pas correctement formatée, elle est ignorée et l&#39;heure de modification du fichier [ !DNL *[!DNL catalog]*.ini] sera utilisée à la place.
 
 ## Par défaut {#section-562c221d2e8b4a97ab5e9a3605f22140}
 
-`attribute::TimeStamp` est le champ est vide ou inexistant.
+`attribute::TimeStamp` est le champ est vide ou absent.
 
 ## Voir aussi {#section-ffa82b202be04dd9b87cba3c61d1ee24}
 
-[attribut::TimeStamp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-timestamp.md#reference-8373ad4ee03d4e4b9a8fc96cf42b3181) , [catalog::TimeStamp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-timestamp-dataref.md#reference-6daf7973dc4f4b4e9e8165756db7c319), [attribut::UseLastModified](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-uselastmodified.md#reference-d2ab628c9e004fedbd38324866dbca1d)
+[attribut ::TimeStamp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-timestamp.md#reference-8373ad4ee03d4e4b9a8fc96cf42b3181) , [catalog::TimeStamp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-timestamp-dataref.md#reference-6daf7973dc4f4b4e9e8165756db7c319), [attribut::UseLastModified](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-uselastmodified.md#reference-d2ab628c9e004fedbd38324866dbca1d)
