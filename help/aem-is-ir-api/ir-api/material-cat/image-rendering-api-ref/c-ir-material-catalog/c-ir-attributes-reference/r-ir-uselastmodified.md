@@ -1,28 +1,31 @@
 ---
-description: Activez les en-têtes de réponse modifiés en dernier. Active ou désactive l’inclusion de l’en-tête Dernière modification dans les réponses HTTP mises en cache émises par le rendu d’image.
-seo-description: Activez les en-têtes de réponse modifiés en dernier. Active ou désactive l’inclusion de l’en-tête Dernière modification dans les réponses HTTP mises en cache émises par le rendu d’image.
+description: Activez les en-têtes de réponse modifiés en dernier. Active ou désactive l’inclusion de l’en-tête Dernière modification dans les réponses HTTP en mémoire cache émises par le rendu d’image.
+seo-description: Activez les en-têtes de réponse modifiés en dernier. Active ou désactive l’inclusion de l’en-tête Dernière modification dans les réponses HTTP en mémoire cache émises par le rendu d’image.
 seo-title: UseLastModified
 solution: Experience Manager
 title: UseLastModified
 topic: Scene7 Image Serving - Image Rendering API
 uuid: f2ce2e04-4133-40af-ac82-cae57b253fe9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 1%
 
 ---
 
 
 # UseLastModified{#uselastmodified}
 
-Activez les en-têtes de réponse modifiés en dernier. Active ou désactive l’inclusion de l’en-tête Dernière modification dans les réponses HTTP mises en cache émises par le rendu d’image.
+Activez les en-têtes de réponse modifiés en dernier. Active ou désactive l’inclusion de l’en-tête Dernière modification dans les réponses HTTP en mémoire cache émises par le rendu d’image.
 
-Le serveur utilise la valeur la plus récente `vignette::TimeStamp` et la `catalog::TimeStamp` valeur de tous les catalogues de vignettes et de matériaux/enregistrements de catalogue impliqués dans une réponse comme valeur d’en-tête Dernière modification.
+Le serveur utilise la valeur la plus récente `vignette::TimeStamp` `catalog::TimeStamp` et la plus récente de tous les catalogues de vignettes et de matières/enregistrements de catalogue impliqués dans une réponse comme valeur d’en-tête Dernière modification.
 
-Doit être activé uniquement si un réseau de mise en cache distribué, tel qu’Akamai, est utilisé, ce qui ne prend pas en charge les en-têtes de balise.
+Ne doit être activé que si un réseau de mise en cache distribué, tel qu’Akamai, est utilisé, ce qui ne prend pas en charge les en-têtes d’balises.
 
->[!NOTE] {class=&quot;- rubrique/note &quot;}
+>[!NOTE]
 >
->Soyez vigilant lorsque vous utilisez des en-têtes Dernière modification dans un à équilibrage de charge  impliquant plusieurs hôtes de diffusion d’images/rendu. La mise en cache du client peut être annulée et la charge du serveur augmenter si, pour une raison quelconque, les serveurs disposent de tampons temporels différents pour les mêmes entrées de catalogue. Une telle situation peut se produire comme suit :
+>Soyez prudent lorsque vous utilisez des en-têtes Dernière modification dans un environnement à charge équilibrée impliquant plusieurs hôtes de diffusion/rendu d’images. La mise en cache du client peut être annulée et la charge du serveur augmenter si, pour une raison quelconque, les serveurs disposent de tampons temporels différents pour les mêmes entrées de catalogue. Cette situation peut se présenter comme suit :
 
 * Ni `catalog::TimeStamp`, `vignette::TimeStamp`, ni `attribute::TimeStamp` n’est défini, de sorte que l’heure de modification du [!DNL catalog.ini] fichier soit utilisée comme valeur par défaut pour `catalog::TimeStamp`.
 
@@ -31,12 +34,12 @@ Doit être activé uniquement si un réseau de mise en cache distribué, tel qu�
 
 ## Propriétés {#section-453952244193452caccfaf7f601007c1}
 
-Drapeau. 0 pour désactiver, 1 pour activer les en-têtes HTTP Dernière modification.
+Indicateur. 0 pour désactiver, 1 pour activer les en-têtes HTTP Dernière modification.
 
 ## Par défaut {#section-ec8fae847ca2421d8cdcde324e5a2d76}
 
-Héritée de `default::UseLastModified` si non définie ou si vide.
+Hérité de `default::UseLastModified` si non définie ou si vide.
 
 ## Voir aussi {#section-1536715169da48b0aecc4ab7326c86db}
 
-[catalogue::TimeStamp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-timestamp-dataref.md#reference-6daf7973dc4f4b4e9e8165756db7c319) , [vignette::TimeStamp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-timestamp-vignette.md#reference-d57cdd40a6a645d199dbb1d56cc85bc1)
+[catalogue ::TimeStamp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-timestamp-dataref.md#reference-6daf7973dc4f4b4e9e8165756db7c319) , [vignette::TimeStamp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-timestamp-vignette.md#reference-d57cdd40a6a645d199dbb1d56cc85bc1)
