@@ -7,9 +7,9 @@ title: Convertisseur de vignettes
 topic: Scene7 Image Serving - Image Rendering API
 uuid: b32a30d6-ae4a-406f-88a9-e8b0eec394c9
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Lors de la génération de vignettes de production, la largeur en pixels de la v
 
 [!DNL vntc] se limite par défaut à 3 Go de mémoire maximum. Lorsque Vntc atteint cette limite, il arrête le traitement et génère une erreur. Cette limite peut être modifiée à l’aide `-maxmem`.
 
->[!NOTE] {class=&quot;- rubrique/note &quot;}
+>[!NOTE]
 >
 >L’outil de mise à jour des vignettes de la création d’images peut également être utilisé pour préparer des vignettes en vue de leur utilisation dans le rendu des images. De même, l’outil de création de contenu permet de générer des fichiers de style d’armoire à utiliser avec le rendu d’image. Utilisez [!DNL vntc] si le traitement doit être automatisé. Les outils de création d’images incluent une interface utilisateur graphique, qui est généralement plus facile à utiliser de manière interactive.
 
