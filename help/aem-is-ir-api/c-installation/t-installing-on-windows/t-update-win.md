@@ -7,7 +7,7 @@ title: Mise à jour depuis IS 4.7.4 ou version ultérieure
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 3d23f13a-a9be-45ff-9765-c71bdeb77c5f
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: edb21832b3e36a6498c6aad27813cd4b3032b48f
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Si vous effectuez une mise à niveau à partir d’une ancienne version de la di
 1. Une fois l&#39;installation terminée, cliquez sur &quot;Terminer&quot; pour quitter l&#39;assistant d&#39;installation.
 
    Dans certains cas, l&#39;assistant d&#39;installation peut demander de redémarrer le système.
->Lors d’une mise à jour, le [!DNL ImageServing/conf/server.xml] fichier est mis à jour avec les derniers paramètres. Si vous avez modifié ou ajouté des valeurs, enregistrez votre fichier existant [!DNL server.xml] et réimplémentez vos modifications après la mise à niveau.
->
->Après une installation de mise à jour, pensez à réchauffer le cache de réponse HTTP avant de mettre le serveur en service. Pour plus d&#39;informations, reportez-vous à la description de l&#39; `playlog` utilitaire.
 
+Lors d’une mise à jour, le [!DNL ImageServing/conf/server.xml] fichier est mis à jour avec les derniers paramètres. Si vous avez modifié ou ajouté des valeurs, enregistrez votre fichier existant [!DNL server.xml] et réimplémentez vos modifications après la mise à niveau.
+
+Après une installation de mise à jour, pensez à réchauffer le cache de réponse HTTP avant de mettre le serveur en service. Pour plus d&#39;informations, reportez-vous à la description de l&#39; `playlog` utilitaire.
