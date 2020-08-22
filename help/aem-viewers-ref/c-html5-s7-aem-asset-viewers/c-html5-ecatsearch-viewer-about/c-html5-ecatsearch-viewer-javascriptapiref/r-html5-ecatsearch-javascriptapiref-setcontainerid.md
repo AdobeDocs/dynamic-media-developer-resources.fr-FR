@@ -7,7 +7,10 @@ title: setContainerId
 topic: Dynamic media
 uuid: 19149e38-b9d2-4ecd-a555-92e2960f7ee3
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 2%
 
 ---
 
@@ -18,15 +21,15 @@ Référence de l’API JavaScript pour la visionneuse de catalogue électronique
 
 [!DNL ` setContainerId( *`containerId`*)`]
 
-Définit l’ID du `DOM` [!DNL (normalement un [!DNL `DIV`]) dans lequel le lecteur est inséré. Il n’est pas nécessaire que l’élément  soit créé au moment de l’appel de cette méthode. Toutefois, le  doit exister lors de [!DNL `init()`] l’exécution. Il doit être appelé avant [!DNL `init()`].
+Définit l’ID du `DOM` conteneur (habituellement un `DIV`) dans lequel la visionneuse est insérée. Il n’est pas nécessaire de créer l’élément de conteneur au moment de l’appel de cette méthode. Cependant, le conteneur doit exister lors de `init()` l’exécution. Il doit être appelé avant `init()`.
 
-Cette méthode est facultative si les informations de configuration de la visionneuse sont transmises avec l’objet [!DNL `config`] JSON au constructeur.
+Cette méthode est facultative si les informations de configuration de la visionneuse sont transmises avec l’objet `config` JSON au constructeur.
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span></span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> ID du . </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> ID du conteneur. </p> </td> 
   </tr> 
  </tbody> 
 </table>
