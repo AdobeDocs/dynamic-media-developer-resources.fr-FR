@@ -7,7 +7,10 @@ title: fmt
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 29151740-3bbc-4c5e-bbc7-4afe9064ff5f
 translation-type: tm+mt
-source-git-commit: f490c0b927679917d5fbf3553e60aa90952735c3
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '856'
+ht-degree: 4%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: f490c0b927679917d5fbf3553e60aa90952735c3
 
 Format d’image de réponse.
 
-`fmt=format[,` `[`*`pixelType`*`]`,`[`*`compression`*]]
+`fmt=format[,` `[`*`pixelType`*`]`,`[`*`compression`*`]]`
 
-*`format`* — jpeg| jpg| pjpeg| png| png8| png-alpha| png8-alpha| tif| tif-alpha| swf| swf-alpha| swf3| swf3-alpha| eps| gif| gif-alpha| m3u8| f4m| web| webp-alpha| jpeg2000| jpeg2000-alpha| jpegxr| jpegxr-alpha
+*`format`* — jpeg | jpg | pjpeg | png | png8 | png-alpha | png8-alpha | tif | tif-alpha | swf | swf-alpha | swf3 | swf3-alpha | eps | gif | gif-alpha | m3u8 | f4m | web | webp-alpha | jpeg2000 | jpeg2000-alpha | jpegxr | jpegxr-alpha
 
 | *`format`* | Description |
 |---|---| 
@@ -27,32 +30,32 @@ Format d’image de réponse.
 | `pjpeg` | JPEG progressif |
 | `png` | PNG 24 bits sans perte |
 | `png8` | PNG 8 bits sans perte |
-| `png-alpha` | PNG 24 bits sans perte avec alpha |
-| `png8-alpha` | PNG 8 bits sans perte avec alpha |
+| `png-alpha` | PNG 24 bits sans perte avec canal alpha |
+| `png8-alpha` | PNG 8 bits sans perte avec canal alpha |
 | `tif` | TIFF |
-| `tif-alpha` | TIFF avec alpha  |
+| `tif-alpha` | TIFF avec canal alpha |
 | `pdf` | Image incorporée dans le PDF |
 | `eps` | PostScript encapsulé binaire non compressé |
 | `gif` | GIF de 2 à 256 couleurs |
 | `gif-alpha` | GIF de 2 à 255 couleurs + transparence de couleur clé |
-| `swf` | JPEG avec perte incorporé dans un fichier SWF Adobe AS2 |
-| `swf-alpha` | JPEG avec perte et masque compressé avec déflation incorporés dans un fichier swf Adobe AS2 |
-| `swf3` | JPEG avec perte incorporé dans un fichier SWF Adobe AS3 |
-| `swf3-alpha` | JPEG avec perte et masque compressé avec déflation incorporés dans un fichier SWF Adobe AS3. **Remarque**: les formats swf et swf-alpha sont mieux utilisés pour les applications ActionScript 2 (Flash Player 8 et versions antérieures). swf3 et swf3-alpha sont recommandés pour les applications ActionScript3 (Flash Player 9 et versions ultérieures) |
-| `m3u8` | Format manifeste du serveur de flux continu Apple |
-| `f4m` | Format du manifeste Flash Streaming Server |
-| `webp` | WebP avec perte et sans perte |
-| `webp-alpha` | WebP sans perte et sans perte avec alpha |
+| `swf` | JPEG avec perte incorporé dans un fichier swf AS2 Adobe |
+| `swf-alpha` | JPEG avec perte et masque compressé avec déflation incorporés dans un fichier swf AS2 Adobe |
+| `swf3` | JPEG avec perte incorporé dans un fichier swf AS3 Adobe |
+| `swf3-alpha` | JPEG avec perte et masque compressé avec déflation incorporés dans un fichier swf AS3 Adobe. **Remarque**: les formats swf et swf-alpha sont mieux utilisés pour les applications ActionScript 2 (Flash Player 8 et versions antérieures). swf3 et swf3-alpha sont recommandés pour les applications ActionScript3 (Flash Player 9 et versions ultérieures) |
+| `m3u8` | Format du manifeste Apple Streaming Server |
+| `f4m` | Format du manifeste du serveur de flux continu Flash |
+| `webp` | WebP sans perte et sans perte |
+| `webp-alpha` | WebP sans perte et sans perte avec canal alpha |
 | `jpeg2000` | JPEG 2000 sans perte |
-| `jpeg2000-alpha` | JPEG 2000 sans perte et avec alpha |
-| `jpegxr` | JPEG XR sans perte et perte |
-| `jpegxr-alpha` | JPEG XR sans perte et avec alpha |
+| `jpeg2000-alpha` | JPEG 2000 sans perte et perte avec canal alpha |
+| `jpegxr` | JPEG XR sans perte |
+| `jpegxr-alpha` | JPEG XR sans perte avec canal alpha |
 
 
 | *`pixelType`* — rvb | gris | cmyk |
 | *`pixelType`* | Description |
 |---|---|
-| `rgb` | Renvoie des données d’image RVB. |
+| `rgb` | Renvoyer les données d’image RVB. |
 | `gray` | Renvoie des données d’image en niveaux de gris. |
 | `cmyk` | Renvoie les données d’image CMJN. |
 
@@ -69,23 +72,23 @@ Format d’image de réponse.
 * *`format`* spécifie le format de codage d’image pour les données d’image envoyées au client et le type MIME de réponse correspondant pour l’en-tête de réponse HTTP.
 * *`pixelType`* peut être utilisé pour effectuer une conversion de l’espace colorimétrique de sortie lorsque `icc=` n’est pas spécifié.
 
-   Le de couleurs par défaut correspondant à *`pixelType`* est appliqué. Si la gestion des couleurs est désactivée, une conversion naïve est appliquée. *`pixelType`* est ignorée lorsque `icc=` est spécifiée, ce qui détermine le type de pixel de sortie.
+   Le profil de couleurs par défaut correspondant à *`pixelType`* est appliqué. Si la gestion des couleurs est désactivée, une conversion naïve est appliquée. *`pixelType`* est ignorée lorsque `icc=` est spécifiée, ce qui détermine le type de pixel de sortie.
 
-* *`compression`* n’est autorisée que si `tif`, `tif-alpha`, `pdf`, `webp`, `webp-alpha`, `jpeg2000`, `jpeg2000-alpha`,  ou  est spécifié en tant qu’. `jpegxr``jpegxr-alpha`*`format`* Reportez-vous au tableau ci-dessous pour connaître les options de compression prises en charge pour ces formats d’image.
+* *`compression`* n’est autorisée que si `tif`, `tif-alpha`, `pdf`, `webp`, `webp-alpha`, `jpeg2000`, `jpeg2000-alpha`,  ou  est spécifié comme étant l’. `jpegxr``jpegxr-alpha`*`format`* Reportez-vous au tableau ci-dessous pour connaître les options de compression prises en charge pour ces formats d’image.
 
-Vous pouvez utiliser `qlt=` pour définir les options de codage JPEG pour ces formats : JPEG, TIFF avec compression JPEG, PDF avec compression JPEG et SWF. WebP, JPEG 2000 et JPEG XR utilisent également `qlt=` mais les valeurs produisent des qualités différentes pour les différents formats. Utilisez `quantize=` if `fmt=gif` ou `fmt=gif-alpha`. Pour plus d&#39;informations, reportez-vous aux descriptions des commandes. Les autres formats n’ont pas d’options définissables.
+Vous pouvez utiliser `qlt=` pour définir les options de codage JPEG pour ces formats : JPEG, TIFF avec compression JPEG, PDF avec compression JPEG et SWF. WebP, JPEG 2000 et JPEG XR utilisent également `qlt=` mais les valeurs produisent des qualités différentes pour les différents formats. Utilisez `quantize=` si `fmt=gif` ou `fmt=gif-alpha`. Consultez les descriptions des commandes pour plus de détails. Les autres formats n’ont pas d’options configurables.
 
-Un composant de 8 bits par pixel est renvoyé pour l’ensemble *`formats`* et *`pixelTypes`* (8 bits par pixel pour le GIF).
+Un composant de 8 bits par pixel est renvoyé pour tous *`formats`* et *`pixelTypes`* (8 bits par pixel pour GIF).
 
-Le tableau suivant  les combinaisons valides de *`format`*et *`pixelType`*, les types MIME de réponse HTTP correspondants, si le ICC peut être incorporé (voir [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e)) et les options propres au format que vous pouvez appliquer.
+Le tableau suivant liste les combinaisons valides de *`format`*et *`pixelType`*, les types MIME de réponse HTTP correspondants, si les profils ICC peuvent être incorporés (voir [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e)) et les options propres au format que vous pouvez appliquer.
 
 <table id="table_12F897A34D1D47F3AA492D4F074F09D5"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> <i> format</i></b> </th> 
-   <th class="entry"> <b> <i> pixelType</i></b> </th> 
+   <th class="entry"> <b> <i> format</i> </b> </th> 
+   <th class="entry"> <b> <i> pixelType</i> </b> </th> 
    <th class="entry"> <b> Type MIME de réponse</b> </th> 
-   <th class="entry"> <b>Incorporer le ICC</b> </th> 
+   <th class="entry"> <b>Incorporer le profil ICC</b> </th> 
    <th class="entry"> <b> Options</b> </th> 
   </tr> 
  </thead>
@@ -95,7 +98,7 @@ Le tableau suivant  les combinaisons valides de *`format`*et *`pixelType`*, les 
    <td colname="col2"> <p>rgb, gray, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/jpeg&gt; </span> </p> </td> 
    <td colname="col4"> <p>Oui </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> pathEmbed= </span>, <span class="codeph"> scan= </span>, <span class="codeph"> qlt= </span><span class="codeph"> , xmpEmbed= </span> </p> <p>Le <span class="codeph"> paramètre pscan= </span> s’applique uniquement au format pjpeg. </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> pathEmbed= </span>, <span class="codeph"> pscan= </span>, <span class="codeph"> qlt= </span>, <span class="codeph"> xmpEmbed= </span> </p> <p>Le paramètre <span class="codeph"> pscan= </span> s’applique uniquement au format pjpeg. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> png, png-alpha </p> </td> 
@@ -116,13 +119,13 @@ Le tableau suivant  les combinaisons valides de *`format`*et *`pixelType`*, les 
    <td colname="col2"> <p>rgb, gray, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/tiff&gt; </span> </p> </td> 
    <td colname="col4"> <p>Oui </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> compression </span></span> <p> ( <span class="codeph"> none|lzw|zip|jpeg </span>) </p> <p>"tiff" uniquement; "tiff-alpha" ne prend pas en charge la compression jpeg. </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> est ignoré, sauf si <span class="varname"> la compression </span> est définie sur <span class="codeph"> jpeg </span>. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> compression </span> </span> <p> ( <span class="codeph"> none|lzw|zip|jpeg </span>) </p> <p>"tiff" uniquement ; 'tiff-alpha' ne prend pas en charge la compression jpeg. </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> est ignoré, sauf si <span class="varname"> la compression </span> est définie sur <span class="codeph"> jpeg </span>. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> swf,swf3, swf-alpha, swf-alpha3 </p> </td> 
+   <td colname="col1"> <p> swf, swf3, swf-alpha, swf-alpha3 </p> </td> 
    <td colname="col2"> <p>rgb, gris </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/x-chokwave-flash&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Non </p> <p> <p>Remarque :  Adobe Flash Player ignore les  ICC incorporées. </p> </p> </td> 
+   <td colname="col4"> <p>Non </p> <p> <p>Remarque :  Le Flash Player d’Adobe ignore les profils ICC incorporés. </p> </p> </td> 
    <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> attribut::TrustedDomains </span> </p> </td> 
   </tr> 
   <tr valign="top"> 
@@ -130,7 +133,7 @@ Le tableau suivant  les combinaisons valides de *`format`*et *`pixelType`*, les 
    <td colname="col2"> <p>rgb, gray, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/pdf&gt; </span> </p> </td> 
    <td colname="col4"> <p>Oui </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> compression </span></span> <p> ( <span class="codeph"> none|zip|jpeg </span>), <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> est ignoré, sauf si <span class="codeph"> la compression <span class="varname"> est définie sur </span> jpeg </span> <span class="codeph"> </span>. </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> compression </span> </span> <p> ( <span class="codeph"> none|zip|jpeg </span>), <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> est ignoré sauf si <span class="codeph"> la compression <span class="varname"></span> est définie sur </span> jpeg <span class="codeph"> </span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> eps </p> </td> 
@@ -174,15 +177,15 @@ Le tableau suivant  les combinaisons valides de *`format`*et *`pixelType`*, les 
 
 Attribut de requête. S’applique indépendamment du paramètre de calque actif si `req=img` (par défaut) ou `req=mask`; ignoré autrement.
 
-*`type`* est ignorée si `iccProfile=` est spécifiée.
+*`type`* est ignoré si `iccProfile=` est spécifié.
 
 ## Par défaut {#section-f885a785b32c44fea347db15fdb2ab1f}
 
-` fmt=jpeg, *`defaultType`*,none`, où *`defaultType`* est géré comme suit : Si `icc=` est spécifié, *`defaultType`* correspond au type de pixel du ICC spécifié. Si `icc=` n’est pas spécifié, *`defaultType`* est `gray` si `req=mask`, sinon il l’est `rgb`.
+` fmt=jpeg, *`defaultType`*,none`, où la *`defaultType`* méthode est gérée comme suit : Si `icc=` est spécifié, *`defaultType`* correspond au type de pixel du profil ICC spécifié. Si `icc=` n&#39;est pas spécifié, *`defaultType`* est `gray` si `req=mask`, sinon il l&#39;est `rgb`.
 
 ## Exemples {#section-b93222e652df404a84c69025247f07df}
 
-**Demandez une petite image de de faible qualité au format JPEG (par défaut) :**
+**Demandez une petite image de prévisualisation de faible qualité au format JPEG (par défaut) :**
 
 ` http:// *`server`*/myRootId/myImageId?qlt=60&wid=200`
 
@@ -190,23 +193,23 @@ Attribut de requête. S’applique indépendamment du paramètre de calque actif
 
 ` http:// *`server`*/myRootId/myImageId?fmt=jpeg,gray&qlt=60&wid=200`
 
-**Demandez la même image dans un format sans perte avec des  alpha et à haute résolution :**
+**Demandez la même image dans un format sans perte avec un canal alpha et à haute résolution :**
 
 ` http:// *`server`*/myRootId/myImageId?fmt=png-alpha&wid=300`
 
-**Demandez à l’alpha la même image qu’une image TIFF en niveaux de gris :**
+**Demandez le canal alpha pour la même image qu’une image TIFF en niveaux de gris :**
 
 ` http:// *`server`*/myRootId/myImageId?req=mask&fmt=tif,gray&wid=300`
 
-**Convertir la même image en cmyk à l’aide du ICC par défaut  :**
+**Convertir la même image en cmyk à l’aide des profils ICC par défaut :**
 
 ` http:// *`server`*/myRootId/myImageId?fmt=tif,cmyk&wid=300`
 
-**Convertissez la même image pour la masquer à l’aide d’un autre ICC et incorporez le  dans l’image TIFF :**
+**Convertissez la même image en cmyk à l’aide d’un autre profil ICC et incorporez le profil dans l’image TIFF :**
 
 ` http:// *`server`*/myRootId/myImageId?fmt=tif&wid=300&icc=myPrinterProfile&iccEmbed=1`
 
-**Diffusez cette image sous forme de fichier TIF avec compression JPEG sans conversion de type de pixel :**
+**Diffusez cette image sous la forme d’un fichier TIF avec compression JPEG sans conversion de type de pixel :**
 
 ` http:// *`server`*/myRootId/myImageId?fmt=tif,,jpeg&qlt=95&wid=300`
 
