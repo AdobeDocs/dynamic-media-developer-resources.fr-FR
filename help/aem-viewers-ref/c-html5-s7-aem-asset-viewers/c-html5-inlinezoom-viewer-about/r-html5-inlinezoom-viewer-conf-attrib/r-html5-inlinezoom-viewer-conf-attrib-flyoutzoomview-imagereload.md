@@ -7,7 +7,10 @@ title: FlyoutZoomView.imagereload
 topic: Dynamic media
 uuid: 98a84ba1-4b89-424a-ac2e-4a59af33cec0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 5%
 
 ---
 
@@ -20,11 +23,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> permet de configurer la manière dont le composant récupère les nouvelles images pour le principal et le  de fenêtre déroulante lors du redimensionnement. </p> <p>Défini sur <span class="codeph"> 0 </span>, le composant ne charge pas les nouvelles images lors du redimensionnement et la résolution de l’image dans le de fenêtre déroulante ne change pas. </p> <p>La valeur <span class="codeph"> 1 </span> permet de spécifier un ou plusieurs points d’arrêt de largeur pour l’image chargée dans le  principal du. </p> </td> 
+   <td colname="col2"> <p> Configure la façon dont le composant récupère de nouvelles images pour la vue principale et la fenêtre déroulante lors du redimensionnement. </p> <p>Défini sur <span class="codeph"> 0 </span>, le composant ne charge pas les nouvelles images lors du redimensionnement et la résolution d’image dans la vue de fenêtre déroulante ne change pas. </p> <p>La valeur <span class="codeph"> 1 </span> permet de spécifier un ou plusieurs points d’arrêt de largeur pour l’image chargée dans la vue principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> point d’arrêt, <span class="varname"> width </span>[; <span class="varname"> largeur </span></span> </p> </td> 
-   <td colname="col2"> <p>Points d’arrêt de largeur de l’image chargée dans le  principal du. </p> <p>Le composant utilise toujours la meilleure taille d’ajustement pour la charge initiale. Une fois redimensionnée, elle permet de s’assurer que l’image du  principal est toujours téléchargée à l’aide de la largeur égale au point d’arrêt le plus grand, puis réduite sur le client. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> point d'arrêt, <span class="varname"> largeur </span>; <span class="varname"> width </span> </span> </p> </td> 
+   <td colname="col2"> <p>Points d’arrêt de largeur pour l’image chargée dans la vue principale. </p> <p>Le composant utilise toujours la meilleure taille d’ajustement pour la charge initiale. Une fois redimensionnée, elle permet de s’assurer que l’image de la vue principale est toujours téléchargée en utilisant la largeur égale au point d’arrêt le plus grand, puis réduite sur le client. </p> </td> 
   </tr> 
  </tbody> 
 </table>
