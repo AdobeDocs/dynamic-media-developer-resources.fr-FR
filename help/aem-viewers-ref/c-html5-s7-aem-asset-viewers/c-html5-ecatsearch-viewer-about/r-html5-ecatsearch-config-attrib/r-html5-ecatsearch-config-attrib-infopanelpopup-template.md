@@ -7,9 +7,9 @@ title: InfoPanelPopup.template
 topic: Dynamic media
 uuid: a7b49f82-9a8b-45f8-b933-9880659770de
 translation-type: tm+mt
-source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+source-git-commit: d90c469201fba228fa838e3538f47d44500ea7f6
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '203'
 ht-degree: 4%
 
 ---
@@ -51,6 +51,6 @@ Aucune
 
 ## Exemple {#section-16d184665c484964af9a22f79ff3f840}
 
-En supposant que la réponse du serveur d&#39;informations renvoie le nom du produit sous la forme de variable [ ! DNL `$1$` et que l&#39;URL de l&#39;image du produit soit renvoyée sous la forme de variable [ ! DNL `$2$`.
+En supposant que la réponse du serveur d’informations renvoie le nom du produit sous forme de variable `$1$` et que l’URL de l’image du produit soit renvoyée sous forme de variable `$2$`.
 
-[!DNL `template=<info><![CDATA[Product description:$1$<br>Product image:<img src="$2$">]]></info>`]
+`template=<info><![CDATA[Product description:$1$<br>Product image:<img src="$2$">]]></info>`
