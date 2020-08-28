@@ -7,7 +7,10 @@ title: Types de données
 topic: Scene7 Image Production System API
 uuid: 49e99f49-5bab-460f-a5f4-c966027b77fe
 translation-type: tm+mt
-source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
+source-git-commit: 88d3a65852365d7fcd7631ff5b5f7215b7c48618
+workflow-type: tm+mt
+source-wordcount: '228'
+ht-degree: 5%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 # Data types{#data-types}
 
 + [AcoInfo](r-aco-info.md)
-+ [ActiveJob](r-active-job.md)
++ [submitActif](r-active-job.md)
 + [ActiveJobArray](r-active-job-array.md)
 + [AnimatedGifInfo](r-animatedgifinfo.md)
 + [Fichier](r-asset.md)
@@ -38,22 +41,22 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 + [AssetSummary](r-asset-summary.md)
 + [AssetSummaryArray](r-asset-summary-array.md)
 + [AudioInfo](r-audio-info.md)
-+ [AutoColorCropOptions](r-auto-color-crop-options.md)
++ [Options de recadrage automatique des couleurs](r-auto-color-crop-options.md)
 + [AutomatedSetGenerationJob](r-automated-set-generation-job.md)
-+ [Options de créationJeuAutomatique](r-auto-set-creation-options.md)
++ [OptionsCréationAutoSet](r-auto-set-creation-options.md)
 + [AutoTransparentCropOptions](r-auto-transparent-crop-options.md)
-+ [BatchMetadataUpdate](r-batch-metadata-update.md)
++ [Mise à jour des métadonnées de lot](r-batch-metadata-update.md)
 + [BatchMetadataUpdateArray](r-batch-metadata-update-array.md)
 + [CabinetInfo](r-cabinet-info.md)
-+ [ColorManagementOptions](r-color-management-options.md)
++ [OptionsGestionCouleur](r-color-management-options.md)
 + [Entreprise](r-company.md)
 + [CompanyArray](r-company-array.md)
 + [CompanyMember](r-company-member.md)
 + [CompanyMemberArray](r-company-member-array.md)
-+ [SociétéAppartenance](r-company-membership.md)
-+ [CompanyMemberArray](r-company-membership-array.md)
-+ [CompanyMemberUpdate](r-company-membership-update.md)
-+ [CompanyMemberUpdateArray](r-company-membership-update-array.md)
++ [Appartenance à une société](r-company-membership.md)
++ [CompanyMembershipArray](r-company-membership-array.md)
++ [CompanyMembershipUpdate](r-company-membership-update.md)
++ [CompanyMembershipUpdateArray](r-company-membership-update-array.md)
 + [CompanyMetadataInfo](r-company-metadata-info.md)
 + [CompanyMetadataInfoArray](r-company-metadata-info-array.md)
 + [CompanySettings](r-company-settings.md)
@@ -69,8 +72,8 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 + [EmailConfirmation](r-email-confirmation.md)
 + [EmailArray](r-email-array.md)
 + [ExclureByproductArray](r-exclude-byproduct-array.md)
-+ [ExcludeByproductCondition](r-exclude-byproduct-condition.md)
-+ [ExcludeMasterVideoFromAVS](r-exclude-master-video-from-avs.md)
++ [ExclureByproductCondition](r-exclude-byproduct-condition.md)
++ [ExclureMasterVideoFromAVS](r-exclude-master-video-from-avs.md)
 + [ExcelInfo](r-excel-info.md)
 + [ExportJob](r-exportjob.md)
 + [FlashInfo](r-flash-info.md)
@@ -118,7 +121,7 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 + [KeywordsArray](r-keywords-array.md)
 + [KnockoutBackgroundOptions](r-knockout-background-options.md)
 + [LayerViewInfo](r-layer-view-info.md)
-+ [ManualCropOptions](r-manual-crop-options.md)
++ [Options de recadrage manuel](r-manual-crop-options.md)
 + [Masque](r-mask.md)
 + [MaskArray](r-mask-array.md)
 + [MaskInfo](r-mask-info.md)
@@ -156,11 +159,11 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 + [PostScriptOptions](r-post-script-options.md)
 + [PowerPointInfo](r-power-point-info.md)
 + [PremierExpressRemixInfo](r-premier-express-remix-info.md)
-+ [Projet](r-project.md)
++ [Propriété](r-project.md)
 + [ProjectArray](r-project-array.md)
 + [Propriété](r-property.md)
 + [PropertyArray](r-property-array.md)
-+ [PropertySet](r-property-set.md)
++ [ProjetPropriété](r-property-set.md)
 + [PropertySetArray](r-property-set-array.md)
 + [PropertySetType](r-property-set-type.md)
 + [PropertySetTypeArray](r-property-set-type-array.md)
@@ -191,7 +194,6 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 + [SystemFieldConditionArray](r-system-field-condition-array.md)
 + [TagCondition](r-tag-condition.md)
 + [TagConditionArray](r-tag-condition-array.md)
-+ [TagConditionArray](r-tag-condition-array.md)
 + [TagFieldValues](r-tag-field-values.md)
 + [TagFieldValuesArray](r-tag-field-values-array.md)
 + [TagValueUpdate](r-tag-value-update.md)
@@ -206,10 +208,10 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 + [ThumbAssetUpdate](r-thumb-asset-update.md)
 + [ThumbAssetUpdateArray](r-thumb-asset-update-array.md)
 + [ThumbnailOptions](r-thumbnail-options.md)
-+ [AnnulerCompresserOptions](r-uncompress-options.md)
++ [AnnulerCompressionOptions](r-uncompress-options.md)
 + [UnsharpMaskOptions](r-unsharp-mask-options.md)
 + [UploadDirectoryJob](r-upload-directory-job.md)
-+ [UploadPostJob](r-upload-post-job.md)
++ [TéléchargerPostJob](r-upload-post-job.md)
 + [UploadUrl](r-upload-url.md)
 + [UploadUrlArray](r-upload-url-array.md)
 + [UploadUrlsJob](r-upload-urls-job.md)
