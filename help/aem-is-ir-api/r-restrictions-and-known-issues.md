@@ -1,15 +1,15 @@
 ---
-description: Certaines restrictions et certains problèmes connus doivent être pris en compte lors de l’utilisation de Scene7 Image Serving.
-seo-description: Certaines restrictions et certains problèmes connus doivent être pris en compte lors de l’utilisation de Scene7 Image Serving.
+description: Certaines restrictions et problèmes connus doivent être pris en compte lors de l’utilisation de la diffusion d’images Scene7.
+seo-description: Certaines restrictions et problèmes connus doivent être pris en compte lors de l’utilisation de la diffusion d’images Scene7.
 seo-title: Restrictions et problèmes connus
 solution: Experience Manager
 title: Restrictions et problèmes connus
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 0e9d6a0ccbb040b27cc89b933442d8530c60d5c8
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1248'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Restrictions et problèmes connus{#restrictions-and-known-issues}
 
-Certaines restrictions et certains problèmes connus doivent être pris en compte lors de l’utilisation de Scene7 Image Serving.
+Certaines restrictions et problèmes connus doivent être pris en compte lors de l’utilisation de la diffusion d’images Scene7.
 
 ## Erreur de documentation {#section-b1579410b11e41e488c7de9ecc7e8d5c}
 
@@ -34,12 +34,12 @@ Certaines restrictions et certains problèmes connus doivent être pris en compt
 
 * `\charscaley` se met à l’échelle différemment que lors de l’utilisation `text=` mais n’affecte pas la hauteur de ligne.
 
-* Si la dernière ligne de texte ne tient pas, la ligne entière est supprimée au lieu d’apparaître comme coupure.
+* Si la dernière ligne de texte ne tient pas, la ligne entière est laissée tomber au lieu d’être coupée.
 * `\slmult` et `\sl` se comportent différemment de MS Word et `text=`, ils prennent simplement effet pour les paragraphes actuels et suivants.
 
-* `\sb` s’applique au premier paragraphe pour MS Word et `text=`Adobe InDesign et Photoshop ne le font pas.
+* `\sb` s&#39;applique au premier paragraphe pour MS Word et `text=`Adobe InDesign et Photoshop ne le font pas.
 
-* `\sa` s’applique au dernier paragraphe pour MS Word et `text=`Adobe InDesign et Photoshop ne le font pas.
+* `\sa` s&#39;applique au dernier paragraphe pour MS Word et `text=`Adobe InDesign et Photoshop ne le font pas.
 
 ## Compatibilité descendante {#section-a76842f751944f4fb664af296d064122}
 
@@ -50,13 +50,13 @@ Certaines restrictions et certains problèmes connus doivent être pris en compt
 * La fonction de redirection d’erreur ne redirige désormais que les requêtes faisant référence à des images, polices, profils de couleur et images corrompus qui sont publiés dans un catalogue, mais qui ne sont pas détectées sur le disque.
 * `posN=`, `anchor=`, `anchorN=`, `origin=`et `originN=` maintenant renvoient une erreur d’analyse si l’une des valeurs de modificateur est supérieure à 2147483648.
 
-* Le codage des requêtes imbriquées n’est pas pris en charge. Transition au nouveau comportement et annulation du codage de toutes les valeurs de requête imbriquées trouvées dans les requêtes d’URL de votre site et dans vos catalogues de sociétés.
+* Le codage des requêtes imbriquées n’est pas pris en charge. Transition au nouveau comportement et annulation du codage de toutes les valeurs de requête imbriquées figurant dans les requêtes d’URL de votre site et dans vos catalogues de sociétés.
 * DefaultImage applique désormais les attributs de miniature lors de l’utilisation `req=tmb`.
 * Dans les versions précédentes utilisant `flip=`, l’image n’a jamais été repositionnée, quel que soit le point d’ancrage.
 
 ## Restrictions applicables aux bibliothèques tierces {#section-79768b96bf634e44ab672c5b893f343d}
 
-La bibliothèque Digimarc refuse d’appliquer un filigrane Digimarc à une image si celle-ci est déjà détectée. Si une modification suffisante est apportée à une image principale, la bibliothèque Digimarc peut tout de même reconnaître que le filigrane a été appliqué. Cependant, il se peut qu&#39;il ne puisse pas lire ces informations. Ceci génère une nouvelle image dans laquelle les informations Digimarc d’origine appliquées à l’image d’origine ne peuvent pas être obtenues. La diffusion d’images peut désormais appliquer le filigrane Digimarc défini dans le catalogue de sociétés.
+La bibliothèque Digimarc refuse d’appliquer un filigrane Digimarc à une image si celle-ci est déjà détectée. Si une modification suffisante est apportée à une image Principale, la bibliothèque Digimarc peut tout de même reconnaître que le filigrane a été appliqué. Cependant, il se peut qu&#39;il ne puisse pas lire ces informations. Ceci génère une nouvelle image dans laquelle les informations Digimarc d’origine appliquées à l’image d’origine ne peuvent pas être obtenues. La diffusion d’images peut désormais appliquer le filigrane Digimarc défini dans le catalogue de sociétés.
 
 ## Restrictions applicables à la diffusion d’images et au rendu des images {#section-f836cb40ae2d4f32a9cf7ebda4d91bae}
 
@@ -73,7 +73,7 @@ La bibliothèque Digimarc refuse d’appliquer un filigrane Digimarc à une imag
 * Le texte et le chemin de texte avec positionnement peuvent présenter un écrêtage.
 * `text=` s&#39;applique uniquement `\sa` et `\sb` à l&#39;ensemble du bloc de texte et non par paragraphe.
 
-* Lors de l’utilisation d’une société définie dans l’URL et d’une autre société définie pour le modificateur `src=` ou `mask=` le, vous devez préfixer une barre oblique vers la société définie pour `src=` ou `mask=` pour cette forme de demande de service.
+* Lors de l’utilisation d’une société définie dans l’URL et d’une autre société définie pour le modificateur `src=` ou `mask=` le, vous devez ajouter un préfixe à une barre oblique à la société définie pour `src=` ou `mask=` pour cette forme de demande de service.
 
    *Exemple*:
 
@@ -89,15 +89,15 @@ La bibliothèque Digimarc refuse d’appliquer un filigrane Digimarc à une imag
 
    *Contourner*:
 
-   Pour les vignettes non pyramidales de rendu d’image, augmentez la valeur de propriété d’IrMaxNonPyrVignetteSize dans le fichier de configuration [ !DNL *[!DNL install_root]*/ImageServing/bin/ ImageServerRegistry.xml].
+   Pour les vignettes non pyramidales de rendu d’image, augmentez la valeur de propriété de IrMaxNonPyrVignetteSize dans le fichier de [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] configuration.
 
-   Pour les fichiers TIFF non pyramidaux de diffusion d’images, augmentez la valeur de la propriété `MaxNonDsfSize` dans le fichier de configuration [ !DNL *[!DNL install_root]* /ImageServing/bin/ ImageServerRegistry.xml].
+   Pour les fichiers TIFF non pyramidaux de diffusion d’images, augmentez la valeur de la propriété `MaxNonDsfSize` dans le fichier de [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] configuration.
 
-* Adobe Photoshop CS3 n’enregistre pas les fichiers PSD superposés par défaut sur une image composite.
+* adobe photoshop CS3 n’enregistre pas les fichiers PSD superposés par défaut sur une image composite.
 
    *Symptômes*:
 
-   Le fichier PSD superposé Adobe Photoshop CS3 s’affiche en noir avec le texte indiquant &quot;Ce fichier Photoshop superposé n’a pas été enregistré avec une image composite.&quot; pour l’image de réponse de diffusion d’images ou dans IPS.
+   Le fichier PSD superposé Adobe Photoshop CS3 s’affiche en noir avec le texte indiquant que &quot;ce fichier Photoshop superposé n’a pas été enregistré avec une image composite&quot;. pour l’image de réponse de diffusion d’images ou dans IPS.
 
    *Solution* :
 
@@ -135,7 +135,7 @@ La bibliothèque Digimarc refuse d’appliquer un filigrane Digimarc à une imag
 
    *Solution*
 
-   Définissez la propriété `svgProvider.fontRoot=` dans [ !DNL *[!DNL install_root]* /ImageServing/conf/PlatformServer.conf] .
+   Définissez la propriété `svgProvider.fontRoot=` dans [!DNL install_root/ImageServing/conf/PlatformServer.conf] .
 
 * La culture est actuellement utilisée `bgColor=` au lieu `color=` de remplir toute zone nouvellement étendue.
 
@@ -145,9 +145,9 @@ La bibliothèque Digimarc refuse d’appliquer un filigrane Digimarc à une imag
 ## Restrictions applicables uniquement au rendu des images {#section-4c6949e797174607a3d1ab4d3d4a725a}
 
 * Les décorations et les matériaux muraux ne sont pas amovibles.
-* La taille des textures est limitée par rapport à la taille de la vue de vignettes. Dans de rares cas, la limite par défaut de 425 % de la taille de la vue peut interférer avec une application utilisant des textures non répétables très grandes. S&#39;il n&#39;est pas possible de modifier l&#39;application ou le contenu pour qu&#39;il fonctionne dans les limites prédéfinies, le pourcentage peut être augmenté comme suit. A l’aide d’un éditeur de texte, ouvrez [ !DNL *[!DNL install_root]*/ImageServing/conf/ImageServerRegistry.xml], recherchez `IrMaxTextureSizeFactor` et entrez une nouvelle valeur de pourcentage. La modification prend effet immédiatement sans redémarrer le serveur Image Server.
+* La taille des textures est limitée par rapport à la taille de la vue de vignettes. Dans de rares cas, la limite par défaut de 425 % de la taille de la vue peut interférer avec une application utilisant des textures non répétables très grandes. S&#39;il n&#39;est pas possible de modifier l&#39;application ou le contenu pour qu&#39;il fonctionne dans les limites prédéfinies, le pourcentage peut être augmenté comme suit. A l’aide d’un éditeur de texte, ouvrez [!DNL install_root/ImageServing/conf/ImageServerRegistry.xml], recherchez `IrMaxTextureSizeFactor` et entrez une nouvelle valeur de pourcentage. La modification prend effet immédiatement sans redémarrer le serveur Image Server.
 
-* Les moteurs JavaScript dans les données de réponse du cache Netscape et Opera même si l’en-tête nocache est défini. Cela interfère avec le bon fonctionnement des demandes d&#39;état.
+* Les moteurs JavaScript dans les données de réponse du cache Netscape et Opera, même si l’en-tête nocache est défini. Cela interfère avec le bon fonctionnement des demandes d&#39;état.
 
    *Solution*
 
