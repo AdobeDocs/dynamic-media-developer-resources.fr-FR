@@ -1,22 +1,29 @@
 ---
-description: Le contenu de la partie entière des modificateurs de la chaîne de requête, y compris le suffixe de verrouillage facultatif, peut être masqué par l’application du codage standard base64.
-seo-description: Le contenu de la partie entière des modificateurs de la chaîne de requête, y compris le suffixe de verrouillage facultatif, peut être masqué par l’application du codage standard base64.
+description: Le contenu de la partie entière des modificateurs de la chaîne de requête, y compris le suffixe de verrouillage facultatif, peut être masqué par l'application d'un codage standard base64.
+seo-description: Le contenu de la partie entière des modificateurs de la chaîne de requête, y compris le suffixe de verrouillage facultatif, peut être masqué par l'application d'un codage standard base64.
 seo-title: Obscurcissement de demande
 solution: Experience Manager
 title: Obscurcissement de demande
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 59b12a78-c4ba-4b6d-97bc-63150298ed73
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 80ae3a549340156bb74faa1793c43d3a8fa3853c
+workflow-type: tm+mt
+source-wordcount: '228'
+ht-degree: 1%
 
 ---
 
 
 # Request obfuscation{#request-obfuscation}
 
-Le contenu de la partie entière des modificateurs de la chaîne de requête, y compris le suffixe de verrouillage facultatif, peut être masqué par l’application du codage standard base64.
+Le contenu de la partie entière des modificateurs de la chaîne de requête, y compris le suffixe de verrouillage facultatif, peut être masqué par l&#39;application d&#39;un codage standard base64.
 
-Le serveur tente de décoder si `attribute::RequestObfuscation` est défini. Si le décodage échoue, la requête est rejetée. Si le verrouillage des requêtes et l’obscurcissement des requêtes sont appliqués, le suffixe de verrouillage doit être généré et ajouté avant le codage base64.
+Le serveur tente de décoder si `attribute::RequestObfuscation` est défini. Si le décodage échoue, la demande est rejetée. Si le verrouillage des requêtes et l’obscurcissement des requêtes sont appliqués, le suffixe de verrouillage doit être généré et ajouté avant le codage base64.
+
+>[!IMPORTANT]
+>
+>Si vous activez cette fonction, sachez que son utilisation présente certaines limites, notamment les suivantes :<br>- L’interface utilisateur Contenu multimédia dynamique peut ne pas afficher les détails corrects du champ **[!UICONTROL Dernière publication]** . Cependant, cela n’a aucune incidence sur la publication.<br>- Actuellement, la diffusion vidéo en flux continu HLS ne fonctionne pas lorsque l’obscurcissement **[!UICONTROL de]** requête et le verrouillage **[!UICONTROL de]** requête sont activés.
 
 ## Exemple {#section-dd4bfab19aa040f8ba3f6e397c6b0941}
 
@@ -26,7 +33,7 @@ code à :
 
 `http://server/myTemplate?dHh0PW15IHRleHQgc3RyaW5nJiRpbWc9bXlJbWFnZQ==`
 
-Les occurrences de &#39;=&#39;, &#39;&amp;&#39; et &#39;%&#39; dans les chaînes de valeur doivent être ignorées à l&#39;aide du codage &#39;%xx&#39;, avant que la requête ne soit obscurcie. Il n’est pas nécessaire d’encoder autrement http-encode la partie *modificateurs* de la requête avant ou après l’obscurcissement, même si le verrouillage de la requête est appliqué, puisque le codage base64 est sûr pour la transmission http.
+Les occurrences de &#39;=&#39;, &#39;&amp;&#39; et &#39;%&#39; dans les chaînes de valeur doivent être ignorées à l&#39;aide de l&#39;encodage &#39;%xx&#39;, avant que la requête ne soit obscurcie. Il n&#39;est pas nécessaire d&#39;encoder autrement http-encode la partie des *modificateurs* de la requête avant ou après l&#39;obscurcissement, même si le verrouillage de la requête est appliqué, puisque l&#39;encodage base64 est sûr pour la transmission http.
 
 ## Voir aussi {#section-7ea59724c97c4ee9a510dbbc1f79e564}
 
