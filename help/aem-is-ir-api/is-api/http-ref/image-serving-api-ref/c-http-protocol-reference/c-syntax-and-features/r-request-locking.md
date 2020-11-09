@@ -7,7 +7,7 @@ title: Demander le verrouillage
 topic: Scene7 Image Serving - Image Rendering API
 uuid: 03239376-1e40-48d2-a396-c276802854ed
 translation-type: tm+mt
-source-git-commit: 80ae3a549340156bb74faa1793c43d3a8fa3853c
+source-git-commit: 6b51248cdc6a6b9d36893545640dbbeb11a0c414
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Si attribut::RequestLock est défini, une valeur de verrouillage doit être ajou
 
 >[!IMPORTANT]
 >
->Si vous activez cette fonction, sachez que son utilisation présente certaines limites, notamment les suivantes :<br>- L’interface utilisateur Contenu multimédia dynamique peut ne pas afficher les détails corrects du champ **[!UICONTROL Dernière publication]** . Cependant, cela n’a aucune incidence sur la publication.<br>- Actuellement, la diffusion en flux continu de la vidéo HLS ne fonctionne pas lorsque l’obscurcissement **[!UICONTROL des]** requêtes et le verrouillage **[!UICONTROL des]** requêtes sont activés.
+>Si vous activez cette fonction, sachez qu’il existe certaines restrictions à son utilisation, notamment les suivantes :<br>- L’interface utilisateur Contenu multimédia dynamique peut ne pas afficher les détails corrects pour le champ **[!UICONTROL Dernière publication]** . Cependant, cela n’a aucune incidence sur la publication.<br>- Actuellement, la diffusion en flux continu de la vidéo HLS ne fonctionne pas lorsque l’obscurcissement **[!UICONTROL des]** requêtes et le verrouillage **[!UICONTROL des]** requêtes sont activés.
 
 Exemple de code C++ pour générer la valeur de verrouillage de la demande :
 
