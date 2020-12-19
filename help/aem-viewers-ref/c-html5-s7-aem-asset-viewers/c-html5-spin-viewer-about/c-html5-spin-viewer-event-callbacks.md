@@ -1,33 +1,36 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 'Rappels de '
+seo-title: Rappels de événement
 solution: Experience Manager
-title: 'Rappels de '
+title: Rappels de événement
 topic: Dynamic media
 uuid: 512f5c08-cf6a-4721-a169-11977cd4c248
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '149'
+ht-degree: 1%
 
 ---
 
 
-# Rappels de{#event-callbacks}
+# Rappels de événement{#event-callbacks}
 
-Le lecteur prend en charge les rappels de JavaScript que la page Web utilise pour suivre le processus d’initialisation ou le comportement d’exécution de la visionneuse.
+Le lecteur prend en charge les rappels de événement JavaScript que la page Web utilise pour suivre le processus d’initialisation ou le comportement d’exécution de la visionneuse.
 
-Les gestionnaires de rappel sont affectés en transmettant des noms de  de et des fonctions de gestionnaire correspondantes avec la `handlers` propriété à l’objet `config` JSON dans le constructeur du lecteur. Vous pouvez également utiliser la méthode `setHandlers()` API.
+Les gestionnaires de rappel sont affectés en transmettant des noms de événement et des fonctions de gestionnaire correspondantes avec la propriété `handlers` à l’objet JSON `config` dans le constructeur de la visionneuse. Vous pouvez également utiliser la méthode API `setHandlers()`.
 
-Les  de lecteur de contenu prises en charge sont les suivantes :
+Les événements de lecteur pris en charge sont les suivants :
 
-* `initComplete` - se déclenche lorsque l’initialisation du lecteur est terminée et que tous les composants internes sont créés, de sorte qu’il est possible d’utiliser `getComponent()` l’API. Le gestionnaire de rappel ne prend aucun argument.
+* `initComplete` - se déclenche lorsque l’initialisation de la visionneuse est terminée et que tous les composants internes sont créés, afin qu’il soit possible d’utiliser  `getComponent()` l’API. Le gestionnaire de rappel ne prend aucun argument.
 
-* `trackEvent` - se déclenche chaque fois qu’un se produit dans la visionneuse, ce qui peut être géré par un système de suivi de  de, tel qu’Adobe Analytics. Le gestionnaire de rappel utilise les arguments suivants :
+* `trackEvent` - se déclenche chaque fois qu’un événement se produit dans la visionneuse et peut être géré par un système de suivi de événement, tel que Adobe Analytics. Le gestionnaire de rappel prend les arguments suivants :
 
-   * `objID {String}` non utilisé actuellement.
-   * `compClass {String}` non utilisé actuellement.
-   * `instName {String}` nom d’instance du composant SDK de la visionneuse qui a déclenché le .
-   * `timeStamp {Number}` Horodatage .
-   * `eventInfo {String}`  charge utile.
+   * `objID {String}` n’est pas actuellement utilisé.
+   * `compClass {String}` n’est pas actuellement utilisé.
+   * `instName {String}` nom d’instance du composant SDK de visionneuse qui a déclenché le événement.
+   * `timeStamp {Number}` Horodatage événement.
+   * `eventInfo {String}` Charge utile du événement.
 
-Voir aussi [Visionneuse à 360°](../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-spinviewer.md#reference-59b70dd7b58c43059bd85e3295441195) et [gestionnaires](../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-sethandlers.md#reference-d2223794fb45440094e9fdb5e9b73bef)de jeux.
+Voir aussi [Visionneuse à 360°](../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-spinviewer.md#reference-59b70dd7b58c43059bd85e3295441195) et [setHandlers](../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-javascriptapiref/r-html5-spin-viewer-javascriptapiref-sethandlers.md#reference-d2223794fb45440094e9fdb5e9b73bef).
