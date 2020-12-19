@@ -1,6 +1,6 @@
 ---
-description: Définit les champs de métadonnées  ICC.
-seo-description: Définit les champs de métadonnées  ICC.
+description: Définit les champs de métadonnées de profil ICC.
+seo-description: Définit les champs de métadonnées de profil ICC.
 seo-title: batchSetIccProfileFields
 solution: Experience Manager
 title: batchSetIccProfileFields
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 163b9b36-85b6-4880-8029-8421b04f4a08
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '143'
+ht-degree: 13%
 
 ---
 
 
 # batchSetIccProfileFields{#batchseticcprofilefields}
 
-Définit les champs de métadonnées  ICC.
+Définit les champs de métadonnées de profil ICC.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-f6f7caf9434b4f469518dab64b76c0f4}
+## Types d’utilisateur autorisés {#section-f6f7caf9434b4f469518dab64b76c0f4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,18 +36,18 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Gérez le  qui contient le ICC . |
-| ` *`tableau de mise à jour`*` | `xsd:string` | Oui | Tableau des mises à jour des  ICC. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Pointez sur la société contenant les profils ICC. |
+| ` *`tableau de mise à jour`*` | `xsd:string` | Oui | Tableau des mises à jour du profil ICC. |
 
-**Output (batchSetIccProfileFields)**
+**Sortie (batchSetIccProfileFields)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Oui | Nombre de champs de ICC définis avec succès. |
-| ` *`warningCount`*` | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de définir les champs de  ICC. |
-| ` *`errorCount`*` | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de définir les champs de  ICC. |
+| ` *`successCount`*` | `xsd:int` | Oui | Nombre de champs de profil ICC correctement définis. |
+| ` *`warningCount`*` | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de définir les champs de profil ICC. |
+| ` *`errorCount`*` | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de définir les champs de profil ICC. |
 | ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des avertissements lorsque l’opération tentait d’appliquer les mises à jour. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des erreurs lorsque l’opération tentait d’appliquer les mises à jour. |
+| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des erreurs lorsque l’opération a tenté d’appliquer les mises à jour. |
 
 ## Exemples {#section-5dc90cfbd9b1411485b44859032f7cb9}
 
