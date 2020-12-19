@@ -8,16 +8,19 @@ topic: Scene7 Image Production System API
 uuid: 2515588d-e2eb-4ea6-ae9c-d6a873c712e8
 translation-type: tm+mt
 source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 1%
 
 ---
 
 
-# Paramètres d’opération{#operation-parameters}
+# Paramètres d&#39;opération {#operation-parameters}
 
 * [addCompany](r-add-company.md)
-* [addCompanyMember](r-add-company-membership.md)
+* [addCompanyMembership](r-add-company-membership.md)
 * [addGroupMembers](r-add-group-members.md)
-* [addGroupMember](r-add-group-membership.md)
+* [addGroupMembership](r-add-group-membership.md)
 * [addProjectAssets](r-add-project-assets.md)
 * [addTagFieldValues](r-add-tag-field-values.md)
 * [addUser](r-add-user.md)
@@ -41,7 +44,7 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 * [createPropertySetType](r-create-property-set-type.md)
 * [createTemplate](r-create-template.md)
 * [createViewerPreset](r-create-viewer-preset.md)
-* [createVideoPublishFormat](r-create-vignette-publish-format.md)
+* [createVignettePublishFormat](r-create-vignette-publish-format.md)
 * [deleteAsset](r-delete-asset.md)
 * [deleteAssets](r-delete-assets.md)
 * [deleteAssetMetadata](r-delete-asset-metadata.md)
@@ -55,7 +58,7 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 * [deletePropertySet](r-delete-property-set.md)
 * [deletePropertySetType](r-delete-property-set-type.md)
 * [deleteTagFieldValues](r-delete-tag-field-values.md)
-* [deleteVideoPublishFormat](r-delete-vignette-publish-format.md)
+* [deleteVignettePublishFormat](r-delete-vignette-publish-format.md)
 * [deleteZoomTarget](r-delete-zoom-target.md)
 * [emptyAssetsFromTrash](r-empty-assets-from-trash.md)
 * [executeJob](r-execute-job.md)
@@ -65,7 +68,7 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 * [getActivePublishContext](r-get-active-publish-contexts.md)
 * [getAllCompanies](r-get-all-companies.md)
 * [getAllUsers](r-get-all-users.md)
-* [getAssetCount](r-get-asset-counts.md)
+* [getAssetCounts](r-get-asset-counts.md)
 * [getAssetJobLogs](r-get-asset-job-logs.md)
 * [getAssetMetadataFields](r-get-asset-metadata-fields.md)
 * [getAssetPublishHistory](r-get-asset-publish-history.md)
@@ -75,7 +78,7 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 * [getAutoCropRect](r-get-auto-crop-rect.md)
 * [getCompanyInfo](r-get-company-info.md)
 * [getCompanyMembers](r-get-company-members.md)
-* [getCompanyMember](r-get-company-membership.md)
+* [getCompanyMembership](r-get-company-membership.md)
 * [getCompanySettings](r-get-company-settings.md)
 * [getDiskUsage](r-get-disk-usage.md)
 * [getDistinctMetadataValues](r-get-distinct-metadata-values.md)
@@ -83,7 +86,7 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 * [getFolderTree](r-get-folder-tree.md)
 * [getGenerationInfo](r-get-generation-info.md)
 * [getGroupMembers](r-get-group-members.md)
-* [getGroupMember](r-get-group-membership.md)
+* [getGroupMembership](r-get-group-membership.md)
 * [getGroups](r-get-groups.md)
 * [getImageFormats](r-get-image-formats.md)
 * [getImageRenderingPublishSettings](r-get-image-rendering-publish-settings.md)
@@ -97,7 +100,7 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 * [getPhotoshopPathNames](r-get-photoshop-path-names.md)
 * [getProjects](r-get-projects.md)
 * [getProperty](r-get-property.md)
-* [getPropertySet](r-get-property-sets.md)
+* [getPropertySets](r-get-property-sets.md)
 * [getPropertySetType](r-get-property-set-type.md)
 * [getPropertySetTypes](r-get-property-set-types.md)
 * [getPublishContextes](r-get-publish-contexts.md)
@@ -110,7 +113,7 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 * [getUserInfo](r-get-user-info.md)
 * [getUsers](r-get-users.md)
 * [getViewerConfigSettings](r-get-viewer-config-settings.md)
-* [getVideoPublishFormats](r-get-vignette-publish-formats.md)
+* [getVignettePublishFormats](r-get-vignette-publish-formats.md)
 * [getXMPPacket](r-get-xmp-packet.md)
 * [getZipEntries](r-get-zip-entries.md)
 * [moveAsset](r-move-asset.md)
@@ -118,10 +121,10 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 * [moveFolder](r-move-folder.md)
 * [pauseJob](r-pause-job.md)
 * [removeAssetPermissions](r-remove-asset-permissions.md)
-* [removeCompanyMember](r-remove-company-membership.md)
+* [removeCompanyMembership](r-remove-company-membership.md)
 * [removeFolderPermissions](r-remove-folder-permissions.md)
 * [removeGroupMembers](r-remove-group-members.md)
-* [removeGroupMember](r-remove-group-membership.md)
+* [removeGroupMembership](r-remove-group-membership.md)
 * [removeProjectAssets](r-remove-project-assets.md)
 * [renameAsset](r-rename-asset.md)
 * [renameFolder](r-rename-folder.md)
@@ -142,11 +145,11 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 * [setAssetPublishState](r-set-asset-publish-state.md)
 * [setAssetsPublishState](r-set-assets-publish-state.md)
 * [setAssetSetDefinition](r-set-asset-set-definition.md)
-* [setCompanyMember](r-set-company-membership.md)
+* [setCompanyMembership](r-set-company-membership.md)
 * [setCompanySettings](r-set-company-settings.md)
 * [setFolderPermissions](r-set-folder-permissions.md)
 * [setGroupMembers](r-set-group-members.md)
-* [setGroupMember](r-set-group-membership.md)
+* [setGroupMembership](r-set-group-membership.md)
 * [setImageMaps](r-set-image-maps.md)
 * [setImageSetMembers](r-set-image-set-members.md)
 * [setImageRenderingPublishSettings](r-set-image-rendering-publish-settings.md)
@@ -168,5 +171,5 @@ source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
 * [updatePropertySet](r-update-property-set.md)
 * [updateTagFieldValues](r-update-tag-field-values.md)
 * [updateViewerConfigSettings](r-update-viewer-config-settings.md)
-* [updateVideoPublishFormat](r-update-vignette-publish-format.md)
+* [updateVignettePublishFormat](r-update-vignette-publish-format.md)
 * [updateXMPPacket](r-update-xmp-packet.md)
