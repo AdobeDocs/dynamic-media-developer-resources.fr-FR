@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 688f3954-bc8f-4687-8d66-e064561cd4a0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 14%
 
 ---
 
@@ -18,7 +21,7 @@ Crée une visionneuse d’images.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-58bf5027e6d24ab5a9fcba59776d15dc}
+## Types d’utilisateur autorisés {#section-58bf5027e6d24ab5a9fcba59776d15dc}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,15 +36,15 @@ Syntaxe
 
 ## Paramètres {#section-03d22ba7d290477e91c25ca1d4439200}
 
-**Input (createImageSetParam)**
+**Entrée (createImageSetParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée du auquel appartient la visionneuse d’images. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de la société à laquelle appartient la visionneuse d’images. |
 | ` *`folderHandle`*` | `xsd:string` | Oui | Identifiant du dossier. |
-| ` *`nom`*` | `xsd:string` | Oui | Nom de la visionneuse d’images. |
+| ` *`name`*` | `xsd:string` | Oui | Nom de la visionneuse d’images. |
 | ` *`type`*` | `xsd:string` | Oui | Type de visionneuse d’images. |
-| ` *`thumbAssetHandle`*` | `xsd:string` | Non | Gestionnaire du fichier qui agit comme miniature pour la nouvelle visionneuse d’images. S’il n’est pas spécifié, IPS tente d’utiliser le premier fichier d’image référencé par la visionneuse. |
+| ` *`thumbAssetHandle`*` | `xsd:string` | Non | Gestion du fichier qui agit comme miniature pour la nouvelle visionneuse d’images. S’il n’est pas spécifié, IPS tente d’utiliser le premier fichier d’image référencé par la visionneuse. |
 
 **Sortie**
 
@@ -51,7 +54,7 @@ Syntaxe
 
 ## Exemples {#section-385fe3b0af8044b0a2451336ec137fc5}
 
-Cet exemple de code crée une visionneuse d’images spécifiée par , dossier, nom et type de. La réponse est un gestionnaire de ressources de la nouvelle visionneuse d’images créée.
+Cet exemple de code crée une visionneuse d’images spécifiée par société, dossier, nom et type. La réponse est un gestionnaire de ressources de la visionneuse d’images nouvellement créée.
 
 **Request**
 
