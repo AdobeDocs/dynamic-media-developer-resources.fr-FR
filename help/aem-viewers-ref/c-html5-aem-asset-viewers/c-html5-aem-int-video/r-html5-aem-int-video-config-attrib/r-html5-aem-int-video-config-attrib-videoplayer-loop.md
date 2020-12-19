@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 6cc91f08-fff1-4b93-9807-5435335c8df5
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '37'
+ht-degree: 13%
 
 ---
 
@@ -22,7 +25,7 @@ Attribut de configuration pour la visionneuse de vidéos interactive.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Indique si la lecture de la vidéo doit se reprendre une fois la lecture terminée. </p> </td> 
+   <td colname="col2"> <p> Indique si la lecture de la vidéo doit se répéter une fois la lecture terminée. </p> </td> 
   </tr> 
  </tbody> 
 </table>
