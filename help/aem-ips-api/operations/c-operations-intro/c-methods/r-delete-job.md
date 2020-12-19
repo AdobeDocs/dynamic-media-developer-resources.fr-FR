@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: c1109cae-a3ca-40db-b641-9a6fc116c964
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '97'
+ht-degree: 12%
 
 ---
 
@@ -18,7 +21,7 @@ Supprime une tâche en cours ou planifiée.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-1b959679dc8147c291126ddf7e061742}
+## Types d’utilisateur autorisés {#section-1b959679dc8147c291126ddf7e061742}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -31,12 +34,12 @@ Syntaxe
 
 ## Paramètres {#section-000c42bc93744b1a8e777f3ec3c272b0}
 
-**Input (deleteJobParam)**
+**Entrée (deleteJobParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée du auquel appartient la tâche. |
-| ` *`jobHandle`*` | `xsd:string` | Oui | Identifiant de la tâche à supprimer. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de la société à laquelle appartient la tâche. |
+| ` *`jobHandle`*` | `xsd:string` | Oui | Poignée de la tâche à supprimer. |
 
 **Sortie**
 
@@ -44,7 +47,7 @@ L&#39;API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-732d21d4dad04337b7a5ae1a0cc00eba}
 
-Cet exemple de code supprime une tâche en cours d’exécution ou qui est planifiée pour être exécutée dans IPS. Il nécessite une poignée de tâche, que vous devez obtenir d’une autre opération.
+Cet exemple de code supprime une tâche en cours d&#39;exécution ou dont l&#39;exécution est planifiée dans IPS. Il nécessite une poignée de travail, que vous devez obtenir d&#39;une autre opération.
 
 **Request**
 
