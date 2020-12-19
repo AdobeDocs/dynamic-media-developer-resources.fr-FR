@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: ccd84366-732a-4caf-914d-3bc5fe499e7a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 15%
 
 ---
 
@@ -18,9 +21,9 @@ Créez ou modifiez un champ de métadonnées. Omettez la poignée de champ facul
 
 >[!NOTE]
 >
->Cette méthode est obsolète.
+>Cette méthode est désapprouvée.
 
-## Types d’utilisateurs autorisés {#section-0c1cbde0863346f8a31b32fd06ab2926}
+## Types d’utilisateur autorisés {#section-0c1cbde0863346f8a31b32fd06ab2926}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -42,52 +45,52 @@ Créez ou modifiez un champ de métadonnées. Omettez la poignée de champ facul
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> sociétéHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> La poignée du. </td> 
+   <td colname="col4"> La poignée de la société. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Non </td> 
    <td colname="col4"> Poignée de champ. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetType</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"> Choix des types de fichier à partir desquels enregistrer les métadonnées. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> nom</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"> Nom du champ. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"> Choix des types de champs de métadonnées. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"> Valeur par défaut des champs pour tous les fichiers. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> est Masqué</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> Masquez ou affichez les métadonnées spécifiques au système IPS. </td> 
+   <td colname="col4"> Masquer ou exposer les métadonnées spécifiques au système IPS. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"><span class="varname"> isEnered</span></span> </td> 
+   <td colname="col1"><span class="codeph"><span class="varname"> isEnded</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Indicateur booléen indiquant si le champ de métadonnées est appliqué (validé) lorsque la valeur est définie. </p> <p>Si la valeur est définie sur true, une erreur est générée si une valeur non autorisée est définie dans <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col4"> <p>Indicateur booléen qui indique si le champ de métadonnées est appliqué (validé) lorsque la valeur est définie. </p> <p>Si la valeur est définie sur true, une erreur est générée si une valeur non autorisée est définie dans <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -100,7 +103,7 @@ Créez ou modifiez un champ de métadonnées. Omettez la poignée de champ facul
 
 ## Exemples {#section-4441c26d1f41466ba972b43dd5189e89}
 
-Cet exemple de code crée un nouveau champ de métadonnées limité par les constantes de chaîne Type de fichier et Types de champ de métadonnées. Si l’ `fieldHandle` élément possède une valeur d’identificateur de champ valide, il modifie les valeurs de métadonnées et obtient le même nom d’identificateur de champ que celui spécifié dans la requête.
+Cet exemple de code crée un nouveau champ de métadonnées limité par les constantes de chaîne Type de fichier et Types de champ de métadonnées. Si l’élément `fieldHandle` possède une valeur d’identificateur de champ valide, il modifie les valeurs de métadonnées et obtient le même nom d’identificateur de champ que celui spécifié dans la requête.
 
 **Request**
 
