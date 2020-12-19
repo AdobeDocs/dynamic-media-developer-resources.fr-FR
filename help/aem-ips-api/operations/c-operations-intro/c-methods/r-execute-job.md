@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: e73223c1-9032-4745-92b6-a5840949a824
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 19%
 
 ---
 
@@ -18,7 +21,7 @@ Exécute une tâche spécifique.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-8199e8599ea64e7097a2acb633417b15}
+## Types d’utilisateur autorisés {#section-8199e8599ea64e7097a2acb633417b15}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -31,7 +34,7 @@ Syntaxe
 
 ## Paramètres {#section-2c61b2bffcf9479a9391f2c13fdf7d53}
 
-**Input (executeJobParam)**
+**Entrée (executeJobParam)**
 
 <table id="table_FA410513908F4084A21A5F0A9431006C"> 
  <thead> 
@@ -44,13 +47,13 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> sociétéHandle</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Poignée du auquel appartient la tâche. </p> </td> 
+   <td colname="col4"> <p>Poignée de la société à laquelle appartient la tâche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> tâcheHandle</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> jobHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
    <td colname="col4"> <p>Poignée de la tâche à exécuter. </p> </td> 
