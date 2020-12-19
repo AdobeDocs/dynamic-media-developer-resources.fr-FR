@@ -1,30 +1,33 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 'Kit de développement  du lecteur de contenu '
+seo-title: Espace de nommage SDK du lecteur
 solution: Experience Manager
-title: 'Kit de développement  du lecteur de contenu '
+title: Espace de nommage SDK du lecteur
 topic: Dynamic media
 uuid: e1639806-3052-4913-aae0-ca9a79100d0f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '226'
+ht-degree: 0%
 
 ---
 
 
-# Kit de développement  du lecteur de contenu{#viewer-sdk-namespace}
+# Espace de nommage SDK du lecteur{#viewer-sdk-namespace}
 
-Le lecteur est constitué de nombreux composants SDK de lecteur. Dans la plupart des cas, la page Web n’a pas besoin d’interagir directement avec l’API des composants SDK ; tous les besoins courants sont traités dans l’API du lecteur lui-même.
+Le lecteur est constitué de nombreux composants du kit de développement de visionneuse. Dans la plupart des cas, la page Web n’a pas besoin d’interagir directement avec l’API des composants SDK ; tous les besoins courants sont couverts dans l’API du lecteur lui-même.
 
-Cependant, dans certains cas d’utilisation avancés, la page Web doit obtenir une référence à un composant SDK interne à l’aide de l’API du `getComponent()` lecteur, puis utiliser toute la flexibilité des API du SDK lui-même.
+Cependant, dans certains cas d’utilisation avancés, la page Web doit obtenir une référence à un composant SDK interne à l’aide de l’API de lecteur `getComponent()`, puis utiliser toute la flexibilité des API du SDK lui-même.
 
-Le  de  utilisé pour charger et initialiser les composants du SDK par le lecteur dépend du  dans lequel le lecteur fonctionne. Si le lecteur s’exécute dans AEM (Adobe Experience Manager), il charge les composants du SDK dans   de. `s7viewers.s7sdk` De plus, la visionneuse diffusée à partir de Scene7 Publishing System charge le SDK dans `s7classic.s7sdk`.
+L’espace de nommage utilisé par le lecteur pour charger et initialiser les composants du SDK dépend de l’environnement de fonctionnement du lecteur. Si le lecteur s’exécute dans AEM (Adobe Experience Manager), il charge les composants du SDK dans un espace de nommage `s7viewers.s7sdk`. Le lecteur de contenu de Scene7 Publishing System charge également le SDK dans `s7classic.s7sdk`.
 
-Dans tous les cas, le   utilisé par le kit SDK dans le lecteur de contenu comporte le préfixe `s7viewers` ou `s7classic` . Il est également différent de l’ simple `s7sdk` utilisée dans le Guide de l’utilisateur du SDK ou dans la documentation de l’API du SDK.
+Dans les deux cas, l’espace de nommage utilisé par le kit SDK dans le lecteur contient le préfixe `s7viewers` ou `s7classic`. De plus, il est différent de l’espace de nommage simple `s7sdk` utilisé dans le Guide de l’utilisateur du SDK ou dans la documentation de l’API du SDK.
 
-C’est pourquoi il est important d’utiliser un SDK  complet lorsque vous écrivez un code d’application personnalisé qui communique avec les composants du lecteur interne.
+C’est pourquoi il est important d’utiliser un espace de nommage SDK complet lorsque vous écrivez un code d’application personnalisé qui communique avec les composants du lecteur interne.
 
-Si, par exemple, vous prévoyez d’écouter les  du `StatusEvent.NOTF_VIEW_READY` et que le lecteur est diffusé à partir d’AEM, le  complet du est `s7viewers.s7sdk.event.StatusEvent.NOTF_VIEW_READY`, et le code du module d’écoute de l’ d’écoute de l’ressemble à ce qui suit :
+Par exemple, si vous prévoyez d’écouter le événement `StatusEvent.NOTF_VIEW_READY` et que le lecteur est diffusé à partir d’AEM, le type d&#39;événement complet est `s7viewers.s7sdk.event.StatusEvent.NOTF_VIEW_READY` et le code du module d’écoute de événement ressemble à ce qui suit :
 
 ```
 <instance>.setHandlers({ 
