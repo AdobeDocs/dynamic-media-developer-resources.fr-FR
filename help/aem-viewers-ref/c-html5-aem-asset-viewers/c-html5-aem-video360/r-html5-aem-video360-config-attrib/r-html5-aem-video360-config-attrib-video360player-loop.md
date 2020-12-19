@@ -1,6 +1,6 @@
 ---
-description: Attribut de configuration pour le lecteur vidéo360.
-seo-description: Attribut de configuration pour le lecteur vidéo360.
+description: Attribut de configuration pour la visionneuse Video360.
+seo-description: Attribut de configuration pour la visionneuse Video360.
 seo-title: Video360Player.loop
 solution: Experience Manager
 title: Video360Player.loop
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: 68827542-727a-40b7-b90d-9c8fb3a7e59b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '37'
+ht-degree: 29%
 
 ---
 
 
 # Video360Player.loop{#video-player-loop}
 
-Attribut de configuration pour le lecteur vidéo360.
+Attribut de configuration pour la visionneuse Video360.
 
 `[Video360Player.|<containerId>_video360Player.]loop=0|1`
 
@@ -22,7 +25,7 @@ Attribut de configuration pour le lecteur vidéo360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Indique si la lecture de la vidéo doit se reprendre une fois la lecture terminée. </p> </td> 
+   <td colname="col2"> <p> Indique si la lecture de la vidéo doit se répéter une fois la lecture terminée. </p> </td> 
   </tr> 
  </tbody> 
 </table>
