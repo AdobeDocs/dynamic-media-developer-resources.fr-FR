@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Seuils d’alerte{#alert-thresholds}
+# Seuils d&#39;alerte {#alert-thresholds}
 
 Utilisez ces paramètres de serveur pour configurer des seuils d&#39;alerte.
 
@@ -27,7 +27,7 @@ Une alerte de temps de réponse est émise lorsque la durée moyenne de traiteme
 >
 >Les requêtes qui génèrent un état de réponse 4xx ou 5xx ne sont pas prises en compte pour cette alerte.
 
-## AS::monitorAlertGenerator.maxErrorRate - Error Response Rate ThresholdAS::monitorAlertGenerator.maxErrorRate - Error Response Rate {#section-76ba77fd3102419395e0f86719a1f3ec}
+## AS::monitorAlertGenerator.maxErrorRate - Error Response Rate Threshold::monitorAlertGenerator.maxErrorRate - Error Response Rate {#section-76ba77fd3102419395e0f86719a1f3ec}
 
 Une alerte d’erreur est émise lorsque le rapport entre les réponses d’erreur HTTP et le nombre total de réponses au cours de l’intervalle d’échantillonnage dépasse le seuil spécifié.
 
@@ -37,9 +37,9 @@ Valeur réelle comprise entre 0.0 et 1.0.Généralement définie entre 0.005 et 
 
 Une alerte de trafic minimale est envoyée lorsque le nombre moyen de demandes reçues par seconde au cours de l’intervalle d’échantillonnage actuel est inférieur à ce seuil. Désactivez l&#39;alerte en définissant cette valeur sur 0. Exprimé en requêtes par seconde. Valeur réelle 0 ou supérieure.
 
-## AS::monitorAlertGenerator.minFreeHeapSpace -Seuil d&#39;espace de tas libre {#section-ce6705045f6842769030ccb1894594cc}
+## AS::monitorAlertGenerator.minFreeHeapSpace -Free Heap Space Seuil d&#39;espace de tas libre {#section-ce6705045f6842769030ccb1894594cc}
 
-Indique l’espace de tas Java gratuit minimum. Une alerte de priorité est envoyée immédiatement après un cycle de collecte des déchets Java lorsque l’espace de tas libre est inférieur à ce seuil. 50 Mo est recommandé pour un fonctionnement sûr du Platform Server. Le fait de maintenir l’espace libre de tas au-dessus de cette valeur réduit la fréquence des cycles de collecte des déchets, ce qui peut améliorer les performances globales du serveur. Valeur entière en octets, 0 ou plus.
+Indique l’espace de tas Java gratuit minimum. Une alerte de priorité est envoyée immédiatement après un cycle de collecte des déchets Java lorsque l’espace de tas libre est inférieur à ce seuil. 50 Mo est recommandé pour un fonctionnement sûr de Platform Server. Le fait de maintenir l’espace libre de tas au-dessus de cette valeur réduit la fréquence des cycles de collecte des déchets, ce qui peut améliorer les performances globales du serveur. Valeur entière en octets, 0 ou plus.
 
 ## AS::monitorAlertGenerator.maxOverlap - Nombre maximal de requêtes simultanées {#section-ddc6925bff944758ab19bcc9cf3f2589}
 
