@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 2dc783c6-23da-4a94-8780-3c4ec88ff3f4
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '146'
+ht-degree: 11%
 
 ---
 
@@ -18,7 +21,7 @@ Supprime les valeurs de métadonnées d’un fichier. Fonctionne avec un tableau
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-e913be43b684491daf02bc73211e4290}
+## Types d’utilisateur autorisés {#section-e913be43b684491daf02bc73211e4290}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,7 +36,7 @@ Syntaxe
 
 ## Paramètres {#section-0eed164e278b456fbdfb7a50727a0416}
 
-**Input (deleteAssetMetadataParam)**
+**Entrée (deleteAssetMetadataParam)**
 
 <table id="table_A4438E2FE5F245E5B73F46CD887BE70F"> 
  <thead> 
@@ -49,7 +52,7 @@ Syntaxe
    <td colname="col1"> <p>companyHandle </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Identifiant du auquel appartient le dossier. </p> </td> 
+   <td colname="col4"> <p>Identifiant de la société à laquelle appartient le dossier. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>assetHandle </p> </td> 
@@ -67,7 +70,7 @@ Syntaxe
    <td colname="col1"> <p>deleteArray </p> </td> 
    <td colname="col2"> <p><span class="codeph"> type:MetadataDeleteArray</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Tableau de métadonnées à supprimer du fichier. </p> </td> 
+   <td colname="col4"> <p>Tableau de métadonnées à supprimer de la ressource. </p> </td> 
   </tr> 
  </tbody> 
 </table>
