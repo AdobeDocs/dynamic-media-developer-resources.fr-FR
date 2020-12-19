@@ -1,6 +1,6 @@
 ---
-description: Interrompt une tâche active.
-seo-description: Interrompt une tâche active.
+description: Interrompt un principal travail.
+seo-description: Interrompt un principal travail.
 seo-title: pauseJob
 solution: Experience Manager
 title: pauseJob
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: baad2ad6-46f5-4133-a6d9-8ffadf990a06
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '66'
+ht-degree: 18%
 
 ---
 
 
 # pauseJob{#pausejob}
 
-Interrompt une tâche active.
+Interrompt un principal travail.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-f2bf306ab4574871bd21f9f7dd681033}
+## Types d’utilisateur autorisés {#section-f2bf306ab4574871bd21f9f7dd681033}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,8 +38,8 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Pose le . |
-| ` *`jobHandle`*` | `xsd:string` | Oui | Traitez la tâche à mettre en pause. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Pose la société. |
+| ` *`jobHandle`*` | `xsd:string` | Oui | Traitez la tâche que vous souhaitez mettre en pause. |
 
 **Sortie (PauseJobReturn)**
 
@@ -44,7 +47,7 @@ L&#39;API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-ee4914f9496f4bd88556728a48fb22c1}
 
-Cet exemple de code interrompt une tâche active.
+Cet exemple de code interrompt une tâche principale.
 
 **Request**
 
