@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: d57aa367-27cd-4aa2-b1bb-05a29b0c245a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '37'
+ht-degree: 13%
 
 ---
 
@@ -22,7 +25,7 @@ Attribut de configuration pour la visionneuse de vidéos de supports variés.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Active ou désactive l’affichage de l’animation de mise en mémoire tampon (icône d’attente). </p> </td> 
+   <td colname="col2"> <p> Active ou désactive l'affichage de l'animation de mise en mémoire tampon (icône d'attente). </p> </td> 
   </tr> 
  </tbody> 
 </table>
