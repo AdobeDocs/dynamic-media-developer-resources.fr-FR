@@ -1,6 +1,6 @@
 ---
-description: Type de surface de matériau. Indique le type de surface du matériau.
-seo-description: Type de surface de matériau. Indique le type de surface du matériau.
+description: Type de surface de matériau. Spécifie le type de surface du matériau.
+seo-description: Type de surface de matériau. Spécifie le type de surface du matériau.
 seo-title: type
 solution: Experience Manager
 title: type
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 0f107d50-b363-4670-bb02-873677e7bbea
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '167'
+ht-degree: 22%
 
 ---
 
 
 # type{#type}
 
-Type de surface de matériau. Indique le type de surface du matériau.
+Type de surface de matériau. Spécifie le type de surface du matériau.
 
 `type=0...19`
 
@@ -93,7 +96,7 @@ Type de surface de matériau. Indique le type de surface du matériau.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>18 </p></td> 
-  <td class="stentry"> <p>Tissu simple </p></td> 
+  <td class="stentry"> <p>Structure simple </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>19 </p></td> 
@@ -101,16 +104,16 @@ Type de surface de matériau. Indique le type de surface du matériau.
  </tr> 
 </table>
 
-Utilisé conjointement avec `gloss=` et `rough=` pour contrôler les comportements de reflet et d’effet d’éclat. Des matériaux différents produiront des effets différents, même si `gloss=` et `rough=` sont identiques.
+Utilisé conjointement avec `gloss=` et `rough=` pour contrôler les comportements de réflexion et d&#39;effet de brillance. Des matériaux différents produisent des effets différents, même si `gloss=` et `rough=` sont identiques.
 
 ## Propriétés {#section-2345b2508273426295ce8ac46182ea64}
 
-Attribut de matière. Ignoré si la vignette ne contient pas de données de réflexion 3D ou si les effets d’éclat sont désactivés dans la vignette.
+Attribut de matériau. Ignoré si la vignette n’inclut pas de données de réflexion 3D ou si les effets d’éclat sont désactivés dans la vignette.
 
 ## Par défaut {#section-0989055fb74a41a3b2f2a47fe7d90a42}
 
-`catalog::Type` si le matériau est basé sur une entrée de catalogue. Otherwise `type=0`. Si elle n’est pas spécifiée, ou si `type=0`elle l’est, le serveur sélectionne une valeur par défaut appropriée en fonction de l’objet  du et des autres attributs matériels.
+`catalog::Type` si le matériel est basé sur une entrée de catalogue. Sinon `type=0`. Si elle n&#39;est pas spécifiée ou si `type=0`, le serveur sélectionne un paramètre par défaut approprié en fonction de l&#39;objet de cible et des autres attributs matériels.
 
 ## Voir aussi {#section-7cf808b0bb3d4b4fbb7b9a850d5a038b}
 
-[gloss=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) , [rugueux=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)
+[gloss=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) ,  [brute=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)
