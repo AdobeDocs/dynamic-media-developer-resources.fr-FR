@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 1432b0b0-7084-4eb0-a3cd-0e5bee2a5649
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '51'
+ht-degree: 13%
 
 ---
 
@@ -22,7 +25,7 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| ` *`originalPath`*` | `xsd:string` | Chemin d’accès relatif au fichier SWF de la visionneuse téléchargée d’origine. |
+| ` *`originalPath`*` | `xsd:string` | Chemin d’accès relatif au fichier SWF de la visionneuse initialement téléchargée. |
 | ` *`originalFile`*` | `xsd:string` | Nom de fichier du fichier SWF de la visionneuse d’origine. |
 | ` *`fileSize`*` | `xsd:int` | Taille du fichier. |
 
