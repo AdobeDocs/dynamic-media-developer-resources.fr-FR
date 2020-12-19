@@ -32,11 +32,11 @@ Met à jour les paramètres de format de publication de vignette.
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de Société. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
 | ` *`vignetteFormatHandle`*` | `xsd:string` | Oui | Poignée de format de publication. |
-| ` *`nom`*` | `xsd:string` | Non | Nom du format de publication. |
-| ` *`targetWidth`*` | `xsd:int` | Oui | Indique la largeur de cible de la vue de vignette obtenue en pixels. Utilisez zéro pour que la vignette de sortie ait la même taille que la vignette principale. |
-| ` *`targetHeight`*` | `xsd:int` | Oui | Indique la hauteur de cible de la vue de vignette obtenue en pixels. Utilisez zéro pour que la vignette de sortie ait la même taille que la vignette principale. |
+| ` *`name`*` | `xsd:string` | Non | Nom du format de publication. |
+| ` *`targetWidth`*` | `xsd:int` | Oui | Indique la largeur de cible de la vue de vignette obtenue en pixels. Utilisez zéro pour que la vignette de sortie ait la même taille que la vignette Principale. |
+| ` *`targetHeight`*` | `xsd:int` | Oui | Indique la hauteur de cible de la vue de vignette obtenue en pixels. Utilisez zéro pour que la vignette de sortie ait la même taille que la vignette Principale. |
 | ` *`createPyramid`*` | `xsd:boolean` | Oui | Crée une vignette pyramidale optimisée pour le zoom sur le serveur Image Rendering. En commençant à la taille maximale, comme défini dans les champs Taille de vignette cible, il est possible de créer des vues de taille multiple dans un même fichier cible de vignette. Chaque taille de vue suivante sera diminuée de moitié jusqu&#39;à ce que la largeur et la hauteur soient comprises dans un format 128 x 128 pixels. |
 | ` *`thumbWidth`*` | `xsd:int` | Oui | Indique la largeur de chaque miniature résultante en pixels. Ce paramètre est facultatif. Laissez la valeur zéro pour aucun fichier miniature. |
 | ` *`saveAsVersion`*` | `xsd:int` | Oui | Indique le format de fichier des vignettes publiées. Compte tenu d’une nouvelle version de Image Authoring et d’une ancienne version du serveur de rendu d’images, vous devez spécifier une version de vignette lisible par votre serveur ImageRendering. Si vous spécifiez une version supérieure, le serveur de rendu des images ne peut pas lire les vignettes publiées. Définissez ce paramètre sur zéro pour publier les vignettes à la dernière version. |
