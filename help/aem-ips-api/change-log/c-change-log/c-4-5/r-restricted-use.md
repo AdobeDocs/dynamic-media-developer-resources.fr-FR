@@ -1,6 +1,6 @@
 ---
-description: Ces opérations et types de données nouveaux ou modifiés disponibles dans le fichier WSDL bêta ne doivent pas être utilisés en dehors des applications développées Scene7.
-seo-description: Ces opérations et types de données nouveaux ou modifiés disponibles dans le fichier WSDL bêta ne doivent pas être utilisés en dehors des applications développées Scene7.
+description: Ces opérations et types de données nouveaux ou modifiés disponibles dans la version bêta du WSDL ne doivent pas être utilisés en dehors des applications développées par Scene7.
+seo-description: Ces opérations et types de données nouveaux ou modifiés disponibles dans la version bêta du WSDL ne doivent pas être utilisés en dehors des applications développées par Scene7.
 seo-title: Utilisation restreinte
 solution: Experience Manager
 title: Utilisation restreinte
@@ -8,15 +8,18 @@ topic: Scene7 Image Production System API
 uuid: 76a423e5-ff7d-44a3-aba4-af258ea55256
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '255'
+ht-degree: 0%
 
 ---
 
 
 # Utilisation restreinte{#restricted-use}
 
-Ces opérations et types de données nouveaux ou modifiés disponibles dans le fichier WSDL bêta ne doivent pas être utilisés en dehors des applications développées Scene7.
+Ces opérations et types de données nouveaux ou modifiés disponibles dans la version bêta du WSDL ne doivent pas être utilisés en dehors des applications développées par Scene7.
 
-Ces opérations et types peuvent être désactivés, modifiés ou abandonnés avec les mises à jour système suivantes.
+Ces opérations et types peuvent être désactivés, modifiés ou abandonnés avec les mises à jour suivantes du système.
 
 **Nouveaux types**
 
@@ -52,58 +55,58 @@ Ces opérations et types peuvent être désactivés, modifiés ou abandonnés av
 
 **Types modifiés**
 
-* Modification `ActiveJob` pour inclure un `createVideoSitemapJob` type
+* Modification de `ActiveJob` pour inclure un type `createVideoSitemapJob`
 
-* Modification `ScheduledJob` pour inclure un `createVideoSitemapJob` type
+* Modification de `ScheduledJob` pour inclure un type `createVideoSitemapJob`
 
-* Changement `ImageServingPublishJob` pour inclure une `contextHandle`
+* Modification de `ImageServingPublishJob` pour inclure un `contextHandle` facultatif
 
-* Changement `ImageRenderingPublishJob` pour inclure une `contextHandle`
+* Modification de `ImageRenderingPublishJob` pour inclure un `contextHandle` facultatif
 
-* Changement `MetadataField` pour inclure une `initialTagField`
+* Modification de `MetadataField` pour inclure un `initialTagField` facultatif
 
-* Changement `MetadataCondition` pour inclure et `caseSensitive` paramètre facultatif
+* Modification de `MetadataCondition` en incluant et en optant pour le paramètre `caseSensitive`
 
-* Modification `PropertySet` pour inclure une option `PermissionArray` en tant que `permissions`
+* `PropertySet` a été modifié pour inclure un `PermissionArray` facultatif comme `permissions`
 
-* Modification `UploadDirectoryJob` pour inclure des paramètres facultatifs `xmpKeywords`, `xmpTemplateId` et `xmpTemplateOverride`
+* Modification des paramètres `UploadDirectoryJob` pour inclure les paramètres facultatifs `xmpKeywords`, `xmpTemplateId` et `xmpTemplateOverride`
 
-* Changement `VideoPublishJob` pour inclure une `contextHandle`
+* Modification de `VideoPublishJob` pour inclure un `contextHandle` facultatif
 
 **Opérations modifiées**
 
-* Changement `createAssetSet` pour inclure une `thumbAssetHandle`
+* Modification de `createAssetSet` pour inclure un `thumbAssetHandle` facultatif
 
-* Changement `createImageSet` pour inclure une `thumbAssetHandle`
+* Modification de `createImageSet` pour inclure un `thumbAssetHandle` facultatif
 
-* Modification `createMetadataField` pour inclure un `initialTagValue` paramètre facultatif
+* Modification de `createMetadataField` pour inclure un paramètre facultatif `initialTagValue`
 
-* Modification `createPropertySet` pour inclure une option `PermissionUpdateArray` en tant que `permissionArray`
+* `createPropertySet` a été modifié pour inclure un `PermissionUpdateArray` facultatif comme `permissionArray`
 
-* Modification `getImageServingPublishSettings` pour inclure un `contextHandle` paramètre facultatif
+* Modification de `getImageServingPublishSettings` pour inclure un paramètre facultatif `contextHandle`
 
-* Modification `getImageRenderingPublishSettings` pour inclure un `contextHandle` paramètre facultatif
+* Modification de `getImageRenderingPublishSettings` pour inclure un paramètre facultatif `contextHandle`
 
-* Modification `searchAssetsByFullText` pour inclure une série de paramètres facultatifs :
+* Modification de `searchAssetsByFullText` pour inclure une série de paramètres facultatifs :
 
-   * `SearchFilter` comme `filters` paramètre
+   * `SearchFilter` comme  `filters` paramètre
 
    * `sortBy`
    * `sortDirection`
 
-* Modification `searchAssetsByMetadata` pour inclure une série de paramètres facultatifs :
+* Modification de `searchAssetsByMetadata` pour inclure une série de paramètres facultatifs :
 
-   * `SearchFilter` comme `filters` paramètre
+   * `SearchFilter` comme  `filters` paramètre
 
    * `sortBy`
    * `sortDirection`
    * `haystackSearch` séquence de sept paramètres
 
-* Modification `setAssetPublishState` pour inclure une option `HandleArray` en tant que `contextHandleArray`
+* `setAssetPublishState` a été modifié pour inclure un `HandleArray` facultatif comme `contextHandleArray`
 
-* Modification `setImageServingPublishSettings` pour inclure un `contextHandle` paramètre facultatif
+* Modification de `setImageServingPublishSettings` pour inclure un paramètre facultatif `contextHandle`
 
-* Modification `setImageRenderingPublishSettings` pour inclure un `contextHandle`paramètre facultatif
+* Modification de `setImageRenderingPublishSettings` pour inclure un paramètre `contextHandle`facultatif
 
-* Modification `submitJob` pour inclure un type de `createVideoSitemap` tâche facultatif
+* Modification de `submitJob` pour inclure un type de tâche `createVideoSitemap` facultatif
 
