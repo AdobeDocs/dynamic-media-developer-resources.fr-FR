@@ -1,6 +1,6 @@
 ---
-description: Met à jour l’état du contexte de publication d’un fichier.
-seo-description: Met à jour l’état du contexte de publication d’un fichier.
+description: Met à jour l’état de contexte de publication d’un fichier.
+seo-description: Met à jour l’état de contexte de publication d’un fichier.
 seo-title: ContextStateUpdate
 solution: Experience Manager
 title: ContextStateUpdate
@@ -8,19 +8,22 @@ topic: Scene7 Image Production System API
 uuid: ef579d3c-1899-4088-903e-e6ed5a414ca8
 translation-type: tm+mt
 source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 14%
 
 ---
 
 
 # ContextStateUpdate{#contextstateupdate}
 
-Met à jour l’état du contexte de publication d’un fichier.
+Met à jour l’état de contexte de publication d’un fichier.
 
 Syntaxe
 
 ## Paramètres {#section-9f747df071854c6896fdbb95684ad947}
 
-Définissez l’état du contexte de publication d’un fichier avec `setAssetsContextState`.
+Définissez l’état de contexte de publication d’un fichier avec `setAssetsContextState`.
 
 <table id="table_FD172CEA4EFE44E08ADA22D090DC06CA">
  <thead>
@@ -39,7 +42,7 @@ Définissez l’état du contexte de publication d’un fichier avec `setAssetsC
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> publishState</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:string</span></td>
-   <td colname="col3">État publié mis à jour de la ressource pour le contexte de publication spécifié. Inclut : 
+   <td colname="col3">État publié mis à jour de l’actif pour le contexte de publication spécifié. Comprend : 
     <ul id="ul_CF6019C4CA3648B687C252F1A7C2EAAF">
      <li id="li_4367D7A058F045D98CDF58009E2AC7BC"><span class="codeph"> MarkedForPublish</span></li>
      <li id="li_EEFC6A76C1014C6D9D5E66F271B68606"><span class="codeph"> NotMarkedForPublish</span></li>
