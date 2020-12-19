@@ -1,6 +1,6 @@
 ---
-description: Cette section décrit les commandes du protocole HTTP.
-seo-description: Cette section décrit les commandes du protocole HTTP.
+description: Cette section décrit les commandes de protocole HTTP.
+seo-description: Cette section décrit les commandes de protocole HTTP.
 seo-title: Référence de commande
 solution: Experience Manager
 title: Référence de commande
@@ -8,29 +8,32 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 72c4ed61-3436-4df5-b586-77808fb1903a
 translation-type: tm+mt
 source-git-commit: c5bac2c6e3f3a05bf69924072c4305dbd7ba1f4f
+workflow-type: tm+mt
+source-wordcount: '224'
+ht-degree: 10%
 
 ---
 
 
-# Référence de commande{#command-reference}
+# Référence de commande {#command-reference}
 
-Cette section décrit les commandes du protocole HTTP.
+Cette section décrit les commandes de protocole HTTP.
 
-**Contenu multimédia dynamique dans AEM uniquement**: Outre les paramètres d’image de base disponibles dans l’interface utilisateur, [!DNL Dynamic Media] dans AEM ( [!DNL Adobe Experience Manager]) prend en charge de nombreuses modifications d’image avancées que vous pouvez spécifier dans le champ **Image Modifiers** . Ces paramètres sont définis ci-dessous. Sachez toutefois que les fonctionnalités suivantes ne sont pas prises en charge dans Contenu multimédia dynamique dans AEM.
+**Pour Dynamic Media en AEM seulement** : Outre les paramètres d’image de base disponibles dans l’interface utilisateur,  [!DNL Dynamic Media] AEM (  [!DNL Adobe Experience Manager]) prend en charge de nombreuses modifications d’image avancées que vous pouvez spécifier dans le champ  **Image** Modifiersfield. Ces paramètres sont définis ci-dessous. Sachez toutefois que les fonctionnalités suivantes ne sont pas prises en charge dans Dynamic Media en AEM.
 
 * Commandes de correction des couleurs : `icc=` et `iccEmbed=`.
 * Commandes de base de création de modèles et de rendu de texte : `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` et `textPs=`.
-* Commandes de  : `locale=` et `req=xlate`.
+* Commandes de localisation : `locale=` et `req=xlate`.
 * `req=set` n’est pas disponible pour une utilisation générale.
 * `req=mbrset`
 * `req=saveToFile`
 * `req=targets`
 * `template=`
-* Services de médias dynamiques non principaux : SVG, rendu d’image et impression en ligne.
+* Services Dynamic Media non principaux : SVG, rendu d’image et impression en ligne.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-Reportez-vous également aux Options [de paramètre prédéfini d’](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/managing-image-presets.html#image-preset-options) image de média dynamique dans la documentation AEM 6.5.
+Voir aussi les [Options des paramètres d’image prédéfinis de Dynamic Media](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/managing-image-presets.html#image-preset-options) dans la documentation AEM 6.5.
 
 * [aligner](r-align.md)
 * [ancrage](r-anchor.md)
@@ -49,7 +52,7 @@ Reportez-vous également aux Options [de paramètre prédéfini d’](https://do
 * [effectMask](r-effectmask.md)
 * [étendre](r-extend.md)
 * [ajuster](r-fit.md)
-* [flip](r-flip.md)
+* [retourner](r-flip.md)
 * [fmt](r-is-http-fmt.md)
 * [hei](r-is-http-hei.md)
 * [masquer](r-hide.md)
@@ -61,7 +64,7 @@ Reportez-vous également aux Options [de paramètre prédéfini d’](https://do
 * [calque](r-layer.md)
 * [locale](r-locale.md)
 * [carte](r-map.md)
-* [masquer](r-mask.md)
+* [masque](r-mask.md)
 * [maskUse](r-maskuse.md)
 * [op_blur](r-op-blur.md)
 * [op_brightness](r-op-brightness.md)
@@ -79,7 +82,7 @@ Reportez-vous également aux Options [de paramètre prédéfini d’](https://do
 * [op_usm](r-op-usm.md)
 * [op_usmR](r-op-usmr.md)
 * [opac](r-opac.md)
-* [origin](r-origin.md)
+* [origine](r-origin.md)
 * [pathAttr](r-pathattr.md)
 * [pathEmbed](r-pathembed.md)
 * [perspective](r-perspective.md)
@@ -92,7 +95,7 @@ Reportez-vous également aux Options [de paramètre prédéfini d’](https://do
 * [req](r-req/r-req.md)
 * [res](r-res.md)
 * [resMode](r-is-http-resmode.md)
-* [rgn](r-rgn.md)
+* [rg](r-rgn.md)
 * [rotate](r-rotate.md)
 * [scale](r-is-http-scale.md)
 * [scl](r-scl.md)
