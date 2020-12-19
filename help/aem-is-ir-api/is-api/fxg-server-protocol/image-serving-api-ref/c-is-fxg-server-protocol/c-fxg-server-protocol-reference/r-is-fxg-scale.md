@@ -1,6 +1,6 @@
 ---
-description: Mise à l’échelle de l’image. Met à l’échelle une image par facteur par rapport à l’image en pleine résolution.
-seo-description: Mise à l’échelle de l’image. Met à l’échelle une image par facteur par rapport à l’image en pleine résolution.
+description: Mise à l’échelle de l’image. Met à l’échelle une image par facteur par rapport à l’image en résolution complète.
+seo-description: Mise à l’échelle de l’image. Met à l’échelle une image par facteur par rapport à l’image en résolution complète.
 seo-title: scale
 solution: Experience Manager
 title: scale
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: db5bab94-e5c1-41fe-ab1b-5c62b6a798d0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '55'
+ht-degree: 9%
 
 ---
 
 
 # scale{#scale}
 
-Mise à l’échelle de l’image. Met à l’échelle une image par facteur par rapport à l’image en pleine résolution.
+Mise à l’échelle de l’image. Met à l’échelle une image par facteur par rapport à l’image en résolution complète.
 
 `scale= *`facteur`*`
 
