@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 87b38464-33db-4512-aa16-607b96a40673
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '66'
+ht-degree: 10%
 
 ---
 
@@ -24,6 +27,6 @@ Syntaxe
 |---|---|---|
 | ` *`processus`*` | `xsd:string` | Choix des processus Illustrator. |
 | ` *`résolution`*` | `xsd:string` | Résolution du fichier. |
-| ` *`colorSpace`*` | `xsd:string` | Espace colorimétrique . |
-| ` *`alpha`*` | `xsd:boolean` | Indique si le fichier doit être pixellisé dans une image. Si tel est le cas, créez un arrière-plan transparent si le fichier d’origine est défini de cette manière pour créer des logos superposés. |
+| ` *`colorSpace`*` | `xsd:string` | Espace colorimétrique de la cible. |
+| ` *`alpha`*` | `xsd:boolean` | Indique si le fichier doit être pixellisé dans une image. Si tel est le cas, créez un arrière-plan transparent si le fichier d’origine est défini de cette façon pour créer des logos superposés. |
 
