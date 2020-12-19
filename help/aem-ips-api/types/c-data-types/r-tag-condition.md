@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: c7727267-05b6-4011-9ddf-7f3134e9609b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '167'
+ht-degree: 7%
 
 ---
 
@@ -30,7 +33,7 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Poignée de champ de balise. </td> 
   </tr> 
@@ -39,18 +42,18 @@ Syntaxe
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">Dépend du type de champ de balise et de l’utilisation du champ value ou valueArray. 
     <ul id="ul_CC0926425B094B3BB7D70CB392DBDABD">
-     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5">Si <span class="codeph"> la valeur</span> est transmise, <span class="codeph"> op</span> doit être la constante de chaîne Correspond à. La condition correspond à tout fichier associé à la valeur de balise. </li>
-     <li id="li_70F18494AB6C454EB611F51F16C19FAD">Si <span class="codeph"> valueArray</span> est transmis, le champ op peut être la constante <span class="codeph"> Correspond à Tout</span> pour les champs de balise à une ou à plusieurs valeurs. Une <span class="codeph"> condition Correspond à n’importe quelle</span> condition correspond à tout fichier associé à au moins une des valeurs de balise dans <span class="codeph"> valueArray</span>. </li>
-     <li id="li_0B25542D7E964B26B15591C45D5C66D0">Pour les champs de balise à plusieurs valeurs, le champ op peut être défini sur la constante <span class="codeph"> Correspond à tout</span> avec le champ <span class="codeph"> valueArray</span> . Dans ce cas, la condition ne correspond qu’aux ressources associées à toutes les valeurs de balise dans le <span class="codeph"> tableau</span> de valeurs (éventuellement en plus des autres valeurs de balise). </li>
+     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5">Si <span class="codeph"> valeur</span> est transmise, <span class="codeph"> op</span> doit être la constante de chaîne Correspond à. La condition correspond à tout actif associé à la valeur de balise. </li>
+     <li id="li_70F18494AB6C454EB611F51F16C19FAD">Si <span class="codeph"> valueArray</span> est transmis, le champ op peut être la constante <span class="codeph"> MatchesAny</span> pour les champs de balise à une ou plusieurs valeurs. Une condition <span class="codeph"> Correspond à </span> correspond à toute ressource associée à au moins une des valeurs de balise dans <span class="codeph"> valueArray</span>. </li>
+     <li id="li_0B25542D7E964B26B15591C45D5C66D0">Pour les champs de balise à plusieurs valeurs, le champ op peut être défini sur la constante <span class="codeph"> Correspond à </span> avec le champ <span class="codeph"> valueArray</span>. Dans ce cas, la condition correspond uniquement aux actifs associés à toutes les valeurs de balise dans <span class="codeph"> valueArray</span> (éventuellement en plus des autres valeurs de balise). </li>
     </ul></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> valeur</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> value</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Valeur correspondante. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> valueArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> valueArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> Plusieurs valeurs correspondantes. </td> 
   </tr> 
