@@ -1,6 +1,6 @@
 ---
-description: Indique si la visionneuse commence à charger le contenu vidéo avant le  de lecture.
-seo-description: Indique si la visionneuse commence à charger le contenu vidéo avant le  de lecture.
+description: Indique si la visionneuse commence à charger du contenu vidéo avant les débuts de lecture.
+seo-description: Indique si la visionneuse commence à charger du contenu vidéo avant les débuts de lecture.
 seo-title: Video360Player.preload
 solution: Experience Manager
 title: Video360Player.preload
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: 6e3b95b8-d585-4164-8665-6211000689fe
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 8%
 
 ---
 
 
 # Video360Player.preload{#video-player-preload}
 
-Indique si la visionneuse commence à charger le contenu vidéo avant le  de lecture.
+Indique si la visionneuse commence à charger du contenu vidéo avant les débuts de lecture.
 
 `[Video360Player.|<containerId>_video360Player.]preload=0|1`
 
@@ -22,7 +25,7 @@ Indique si la visionneuse commence à charger le contenu vidéo avant le  de lec
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Si elle est définie sur <span class="codeph"> 1, </span> le téléchargement de la vidéo commence juste après la définition de la ressource ; dans le cas contraire, préchargez le uniquement une fois que la lecture a été initiée par l’utilisateur final ou un appel d’API. </p> <p>Si cette valeur est définie sur <span class="codeph"> 0, </span> certaines fonctionnalités ne fonctionneront pas avant la  de lecture ; plus précisément, l’opération de recherche ne met pas à jour la trame vidéo. Si l’image d’affiche est désactivée, la visionneuse affiche une zone vide au lieu de la première image vidéo. </p> <p>Gardez à l’esprit que la désactivation du préchargement vidéo peut être ignorée sur certaines versions des navigateurs Internet Explorer 11 et Edge. </p> </td> 
+   <td colname="col2"> <p> Si elle est définie sur <span class="codeph"> 1 </span>, la vidéo commence à être téléchargée juste après la définition de la ressource ; sinon, préchargez les débuts uniquement après le début de la lecture par l’utilisateur final ou un appel d’API. </p> <p>Si elle est définie sur <span class="codeph"> 0 </span>, certaines fonctions ne peuvent pas fonctionner avant les débuts de lecture ; plus précisément, l'opération de recherche ne mettra pas à jour la trame vidéo. Si l’image d’affiche est désactivée, la visionneuse s’affiche comme une zone vide au lieu de la première image vidéo. </p> <p>Notez que la désactivation du préchargement vidéo peut être ignorée dans certaines versions des navigateurs Internet Explorer 11 et Edge. </p> </td> 
   </tr> 
  </tbody> 
 </table>
