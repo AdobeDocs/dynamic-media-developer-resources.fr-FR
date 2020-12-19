@@ -1,6 +1,6 @@
 ---
-description: Sélecteur de carte d’éclairage. Indique la carte d’éclairage avec laquelle ce matériau préfère être rendu.
-seo-description: Sélecteur de carte d’éclairage. Indique la carte d’éclairage avec laquelle ce matériau préfère être rendu.
+description: Sélecteur de mappage d’éclairage. Indique la carte d’éclairage avec laquelle ce matériau préfère être rendu.
+seo-description: Sélecteur de mappage d’éclairage. Indique la carte d’éclairage avec laquelle ce matériau préfère être rendu.
 seo-title: illum
 solution: Experience Manager
 title: illum
@@ -8,23 +8,26 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 16c7144f-7f16-47d1-8140-fd679e702660
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '93'
+ht-degree: 4%
 
 ---
 
 
 # illum{#illum}
 
-Sélecteur de carte d’éclairage. Indique la carte d’éclairage avec laquelle ce matériau préfère être rendu.
+Sélecteur de mappage d’éclairage. Indique la carte d’éclairage avec laquelle ce matériau préfère être rendu.
 
 `illum=-1|0|1|2`
 
-Si la carte d’éclairage spécifiée n’est pas disponible dans la vignette , la carte disponible la plus proche est utilisée à la place.
+Si la carte d’éclairage spécifiée n’est pas disponible dans la vignette de cible, la carte disponible la plus proche est utilisée à la place.
 
-`illum=-1` indique que la carte d’éclairage est sélectionnée automatiquement en fonction de la `gloss=` valeur.
+`illum=-1` indique que la carte d’éclairage est sélectionnée automatiquement en fonction de la  `gloss=` valeur.
 
 ## Propriétés {#section-aace8466566e4cf1a0c5a6c0167245c9}
 
-Attribut de matière. Ignoré si la vignette ne définit pas plusieurs cartes d’éclairage.
+Attribut de matériau. Ignoré si la vignette ne définit pas plusieurs cartes d’éclairage.
 
 ## Par défaut {#section-c96ecfb232074e80b6a29076f5199403}
 
