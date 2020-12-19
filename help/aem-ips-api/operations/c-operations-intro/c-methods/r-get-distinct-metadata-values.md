@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 47c1d3a3-9f33-4c36-828a-e858370997d1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '73'
+ht-degree: 21%
 
 ---
 
@@ -18,7 +21,7 @@ Renvoie toutes les valeurs d’un champ de métadonnées.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-f0f44fdcb318490582dd04de8eaf745d}
+## Types d’utilisateur autorisés {#section-f0f44fdcb318490582dd04de8eaf745d}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,12 +33,12 @@ Syntaxe
 
 ## Paramètres {#section-600f36a32ff147cb83149943d37843e2}
 
-**Input (getDistinctMetadataValuesParam)**
+**Entrée (getDistinctMetadataValuesParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Identifiant du pour lequel vous souhaitez obtenir des données. |
-| ` *`metadataKey`*` | `xsd:string` | Oui | Clé de métadonnées en notation point. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de la société pour laquelle vous souhaitez obtenir des données. |
+| ` *`metadataKey`*` | `xsd:string` | Oui | Clé de métadonnées dans la notation des points. |
 
 **Output (getDistinctMetadataValuesReturn)**
 
