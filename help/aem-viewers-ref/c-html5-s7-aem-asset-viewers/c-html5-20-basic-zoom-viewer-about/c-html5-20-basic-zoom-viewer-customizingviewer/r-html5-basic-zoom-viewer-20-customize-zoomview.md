@@ -1,24 +1,27 @@
 ---
-description: Le  principal est constitué de l’image agrandie.
-seo-description: Le  principal est constitué de l’image agrandie.
-seo-title: de zoom
+description: La vue principale est constituée de l’image agrandie.
+seo-description: La vue principale est constituée de l’image agrandie.
+seo-title: Vue de zoom
 solution: Experience Manager
-title: de zoom
+title: Vue de zoom
 topic: Dynamic media
 uuid: 06464e36-8c9c-4d3c-b4e5-5911f002568c
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 3%
 
 ---
 
 
-# Zoom view{#zoom-view}
+# Vue de zoom{#zoom-view}
 
-Le  principal est constitué de l’image agrandie.
+La vue principale est constituée de l’image agrandie.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriétés CSS de la zone de visionneuse principale**
+**Propriétés CSS de la zone de visualisation principale**
 
 L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe CSS suivant :
 
@@ -35,17 +38,17 @@ L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe C
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
-   <td colname="col2"> <p> Couleur d’arrière-plan au format hexadécimal du  principal. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
+   <td colname="col2"> <p> Couleur d’arrière-plan au format hexadécimal de la vue principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> curseur </span> </p> </td> 
-   <td colname="col2"> <p>Le curseur s’affiche sur le  principal. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> curseur  </span> </p> </td> 
+   <td colname="col2"> <p>Le curseur s’affiche sur la vue principale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : pour rendre le principal transparent.
+Exemple - pour rendre la vue principale transparente.
 
 ```
 .s7basiczoomviewer .s7zoomview { 
@@ -53,7 +56,7 @@ Exemple : pour rendre le principal transparent.
 }
 ```
 
-Sur les systèmes de bureau, le composant prend en charge le sélecteur d’ `cursortype` attributs qui peut être appliqué à la `.s7zoomview` classe et contrôle le type de curseur en fonction de l’état du composant et de l’action de l’utilisateur. The following `cursortype` values are supported:
+Sur les systèmes de bureau, le composant prend en charge le sélecteur d&#39;attributs `cursortype` qui peut être appliqué à la classe `.s7zoomview` et contrôle le type de curseur en fonction de l&#39;état du composant et de l&#39;action de l&#39;utilisateur. Les valeurs `cursortype` suivantes sont prises en charge :
 
 <table id="table_BC9FC40DA27B4A85995F4E9431AABF33"> 
  <thead> 
@@ -65,10 +68,10 @@ Sur les systèmes de bureau, le composant prend en charge le sélecteur d’ `cu
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> par défaut </span> </p> </td> 
-   <td colname="col2"> <p>S’affiche lorsque l’image n’est pas zoomable en raison d’une résolution d’image réduite, de paramètres de composant ou des deux paramètres. </p> </td> 
+   <td colname="col2"> <p>S’affiche lorsque l’image ne peut pas faire l’objet d’un zoom en raison d’une résolution d’image réduite, de paramètres de composant ou des deux. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomine </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomine  </span> </p> </td> 
    <td colname="col2"> <p>S’affiche lorsque vous pouvez zoomer sur l’image. </p> </td> 
   </tr> 
   <tr> 
@@ -77,7 +80,7 @@ Sur les systèmes de bureau, le composant prend en charge le sélecteur d’ `cu
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> glisser </span> </p> </td> 
-   <td colname="col2"> <p>S’affiche lorsqu’un utilisateur effectue un panoramique sur l’image qui fait l’objet d’un zoom avant. </p> </td> 
+   <td colname="col2"> <p>S’affiche lorsqu’un utilisateur effectue un panoramique sur l’image dont l’état est zoomé. </p> </td> 
   </tr> 
  </tbody> 
 </table>
