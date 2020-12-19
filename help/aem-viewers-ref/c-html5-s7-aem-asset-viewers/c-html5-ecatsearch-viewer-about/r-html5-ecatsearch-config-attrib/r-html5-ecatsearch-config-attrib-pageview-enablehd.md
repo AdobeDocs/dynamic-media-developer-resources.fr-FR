@@ -23,7 +23,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> always|jamais|limit</span> </p> </td> 
-   <td colname="col2"> <p> Activez, limitez ou désactivez l’optimisation pour les périphériques pour lesquels <span class="codeph"> PixelRatio</span> est supérieur à <span class="codeph"> 1</span>, c’est-à-dire les périphériques avec un affichage haute densité comme l’iPhone4 et les périphériques similaires. Si principal, le composant limite la taille de la demande d’image IS comme si le périphérique n’avait qu’un rapport de pixels de <span class="codeph"> 1</span> et réduisait ainsi la bande passante. </p> <p>Voir l'exemple ci-dessous </p> </td> 
+   <td colname="col2"> <p> Activez, limitez ou désactivez l’optimisation pour les périphériques pour lesquels <span class="codeph"> devicePixelRatio</span> est supérieur à <span class="codeph"> 1</span>, c’est-à-dire les périphériques avec un affichage haute densité comme l’iPhone4 et les périphériques similaires. Si principal, le composant limite alors la taille de la demande d’image IS comme si le périphérique n’avait qu’un rapport de pixels de <span class="codeph"> 1</span> et ainsi réduit la bande passante. </p> <p>Voir l'exemple ci-dessous </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> nombre</span></span> </p> </td> 
@@ -66,12 +66,12 @@ Voici les résultats attendus lorsque vous utilisez cet attribut de configuratio
    <td colname="col2"> <p>Il utilise toujours une densité de pixels de 1 et ignore la capacité HD du périphérique. Par conséquent, l'image demandée est toujours 1000 x 1000. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> limit&lt;number&gt;</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> limiter&lt;number&gt;</span> </p> </td> 
    <td colname="col2"> <p>Une densité de pixels du périphérique est demandée et diffusée uniquement si l’image résultante est inférieure à la limite spécifiée. </p> <p>Le nombre limite s’applique soit à la largeur, soit à la hauteur. </p> <p> 
      <ul id="ul_CEC06B2280164951BA1A0ADED99E8050"> 
       <li id="li_CA7A0980ACC54690A4F212DF53E2DC8A"> <p>Si la limite est de 1600 et que la densité de pixels est de 1,5, l’image de 1500 x 1500 est diffusée. </p> </li> 
       <li id="li_A4AAD7FBFA0347B082789511CA6768A5"> <p>Si la limite est de 1600 et que la densité de pixels est de 2, l’image de 1000 x 1000 est diffusée, car l’image de 2000 x 2000 dépasse la limite. </p> </li> 
-     </ul> </p> <p><b>Meilleure pratique</b>: Le nombre limite doit fonctionner conjointement avec le paramètre de société pour la taille maximale de l’image. Par conséquent, définissez le nombre limite sur égal à la taille maximale d’image de la société. </p> </td> 
+     </ul> </p> <p><b>Meilleure pratique</b> : Le nombre limite doit fonctionner conjointement avec le paramètre de société pour la taille maximale de l’image. Par conséquent, définissez le nombre limite sur égal à la taille maximale d’image de la société. </p> </td> 
   </tr> 
  </tbody> 
 </table>
