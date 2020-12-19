@@ -1,28 +1,31 @@
 ---
-description: Indique la direction de l’animation des diapositives pour le de boutons.
-seo-description: Indique la direction de l’animation des diapositives pour le de boutons.
-seo-title: FavorisMenu.wing
+description: Indique la direction de l'animation des diapositives pour le conteneur des boutons.
+seo-description: Indique la direction de l'animation des diapositives pour le conteneur des boutons.
+seo-title: FavoritesMenu.bearing
 solution: Experience Manager
-title: FavorisMenu.wing
+title: FavoritesMenu.bearing
 topic: Dynamic media
 uuid: c3f415ad-f976-464a-9067-a5d526908352
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '196'
+ht-degree: 2%
 
 ---
 
 
-# FavorisMenu.wing{#favoritesmenu-bearing}
+# FavoritesMenu.bearing{#favoritesmenu-bearing}
 
-Indique la direction de l’animation des diapositives pour le de boutons.
+Indique la direction de l&#39;animation des diapositives pour le conteneur des boutons.
 
 [!DNL `[FavoritesMenu.|<containerId>_favoritesMenu.]bearing=up|down|left|right|fit-vertical|fit-lateral`]
 
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> Haut|Bas|Gauche|Droite|Ajuster-vertical|Ajuster-latéral</span> </p> </td> 
-   <td colname="col2"> <p> Lorsqu’il est défini sur <span class="codeph"> Haut</span>, <span class="codeph"> Bas</span>, <span class="codeph"></span><span class="codeph"> gaucheou droite, le panneau se déploie dans une direction spécifiée sans vérification supplémentaire des limites, ce qui entraîne l’écrêtage du panneau par un  externe.</span> </p> <p>Lorsqu’il est <span class="codeph"> ajusté à la verticale</span>, le composant déplace d’abord la position du panneau de base vers le bas du menu Favoris et tente de déployer le panneau dans l’une des directions suivantes à partir de cet emplacement de base : en bas, à droite, à gauche. A chaque tentative, le composant vérifie si le panneau est coupé par un  externe. Si toutes les tentatives échouent, le composant tente de déplacer la position du panneau de base vers le haut et de répéter les tentatives de déploiement depuis le haut, la droite et la gauche. </p> <p>Lorsqu’il est défini sur <span class="codeph"> ajusté latéral</span>, le composant utilise une logique similaire. La base est déplacée vers la droite en premier, en essayant à droite, en bas et en haut des directions. Ensuite, il déplace la base vers la gauche, en essayant de faire défiler les directions vers la gauche, vers le bas et vers le haut. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> up|down|left|right|fit-vertical|fit-latéral</span> </p> </td> 
+   <td colname="col2"> <p> Lorsqu’il est défini sur <span class="codeph"> up</span>, <span class="codeph"> down</span>, <span class="codeph"> left</span> ou <span class="codeph"> right</span>, le panneau se déploie dans la direction spécifiée sans vérification des limites supplémentaires, ce qui entraîne l’écrêtage du panneau par un conteneur extérieur. </p> <p>Lorsqu'il est défini sur <span class="codeph"> fit-vertical</span>, le composant déplace d'abord la position du panneau de base vers le bas du menu Favoris et tente de déployer le panneau dans l'une des directions suivantes à partir de cet emplacement de base : en bas, à droite, à gauche. A chaque tentative, le composant vérifie si le panneau est coupé par un conteneur extérieur. Si toutes les tentatives échouent, le composant tente de déplacer la position du panneau de base vers le haut et de répéter les tentatives de déploiement depuis le haut, la droite et la gauche. </p> <p>Lorsqu'il est défini sur <span class="codeph"> raccord-latéral</span>, le composant utilise une logique similaire. La base est déplacée vers la droite en premier, essayant à droite, vers le bas et vers le haut. Ensuite, il déplace la base vers la gauche, en essayant de délocaliser les directions vers la gauche, vers le bas et vers le haut. </p> </td> 
   </tr> 
  </tbody> 
 </table>
