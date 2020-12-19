@@ -1,6 +1,6 @@
 ---
-description: Les nuances se composent d’une rangée d’images miniatures avec des boutons de défilement facultatifs à gauche et à droite. Les nuances ne sont visibles sur le bureau que si toutes les miniatures ne peuvent pas tenir dans la largeur du . Sur les périphériques mobiles, ou si les miniatures peuvent s’ajuster à la largeur du  du, les boutons de défilement ne s’affichent pas.
-seo-description: Les nuances se composent d’une rangée d’images miniatures avec des boutons de défilement facultatifs à gauche et à droite. Les nuances ne sont visibles sur le bureau que si toutes les miniatures ne peuvent pas tenir dans la largeur du . Sur les périphériques mobiles, ou si les miniatures peuvent s’ajuster à la largeur du  du, les boutons de défilement ne s’affichent pas.
+description: Les nuances sont composées d’une rangée d’images miniatures avec des boutons de défilement facultatifs à gauche et à droite. Les nuances ne sont visibles sur le bureau que si toutes les miniatures ne peuvent pas tenir dans la largeur du conteneur. Sur les périphériques mobiles ou si les miniatures peuvent s’ajuster à la largeur du conteneur, les boutons de défilement ne s’affichent pas.
+seo-description: Les nuances sont composées d’une rangée d’images miniatures avec des boutons de défilement facultatifs à gauche et à droite. Les nuances ne sont visibles sur le bureau que si toutes les miniatures ne peuvent pas tenir dans la largeur du conteneur. Sur les périphériques mobiles ou si les miniatures peuvent s’ajuster à la largeur du conteneur, les boutons de défilement ne s’affichent pas.
 seo-title: Nuances
 solution: Experience Manager
 title: Nuances
@@ -8,15 +8,18 @@ topic: Dynamic media
 uuid: 868d938f-578a-4ecf-8a71-9569450492fb
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '490'
+ht-degree: 2%
 
 ---
 
 
-# Color swatches{#color-swatches}
+# Nuances {#color-swatches}
 
-Les nuances se composent d’une rangée d’images miniatures avec des boutons de défilement facultatifs à gauche et à droite. Les nuances ne sont visibles sur le bureau que si toutes les miniatures ne peuvent pas tenir dans la largeur du . Sur les périphériques mobiles, ou si les miniatures peuvent s’ajuster à la largeur du  du, les boutons de défilement ne s’affichent pas.
+Les nuances sont composées d’une rangée d’images miniatures avec des boutons de défilement facultatifs à gauche et à droite. Les nuances ne sont visibles sur le bureau que si toutes les miniatures ne peuvent pas tenir dans la largeur du conteneur. Sur les périphériques mobiles ou si les miniatures peuvent s’ajuster à la largeur du conteneur, les boutons de défilement ne s’affichent pas.
 
-L’aspect du de nuances est contrôlé par le sélecteur de classe CSS :
+L’aspect du conteneur des échantillons est contrôlé par le sélecteur de classe CSS :
 
 ```
 .s7mixedmediaviewer .s7colorswatches .s7swatches
@@ -28,7 +31,7 @@ L’aspect du de nuances est contrôlé par le sélecteur de classe CSS :
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Largeur des échantillons. </p> </td> 
+   <td colname="col2"> <p>Largeur des nuances. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
@@ -36,7 +39,7 @@ L’aspect du de nuances est contrôlé par le sélecteur de classe CSS :
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bas </span> </p> </td> 
-   <td colname="col2"> <p>Le décalage vertical par rapport au  de la visionneuse. </p> </td> 
+   <td colname="col2"> <p>Les nuances verticales sont décalées par rapport au conteneur de la visionneuse. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,7 +75,7 @@ L’espacement entre les miniatures d’échantillon est contrôlé à l’aide 
 
 **Exemple**
 
-Pour définir l’espacement sur 10 pixels tant verticalement qu’horizontalement.
+Pour définir l’espacement sur dix pixels, tant verticalement qu’horizontalement.
 
 ```
 .s7mixedmediaviewer .s7colorswatches .s7swatches .s7thumbcell { 
@@ -93,23 +96,23 @@ L’aspect de la miniature individuelle est contrôlé par le sélecteur de clas
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Largeur de la miniature. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> hauteur  </span> </p> </td> 
    <td colname="col2"> <p>Hauteur de la miniature. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bordure </span> </p> </td> 
-   <td colname="col2"> <p>Bordure de la vignette. </p> </td> 
+   <td colname="col2"> <p>Bordure de la miniature. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->La miniature prend en charge le sélecteur d’ `state` attributs, qui peut être utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la miniature de l’image actuellement affichée dans le principal, `state="default"` correspond au reste des miniatures et `state="over"` est utilisée lorsque vous passez la souris dessus.
+>La miniature prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la miniature de l’image actuellement affichée dans la vue principale, `state="default"` correspond au reste des miniatures et `state="over"` est utilisé lorsque vous pointez la souris.
 
 Exemple : pour configurer des miniatures de 56 x 56 pixels, utilisez une bordure par défaut gris clair et une bordure sélectionnée gris foncé.
 
@@ -132,7 +135,7 @@ L’aspect des boutons de défilement gauche et droit est contrôlé par les sé
 
 `.s7mixedmediaviewer .s7colorswatches .s7swatches .s7scrollrightbutton`
 
-Il n’est pas possible de positionner les boutons de défilement à l’aide des propriétés CSS `top`, `left`, `bottom`et `right` . Au lieu de cela, la logique du lecteur les positionne automatiquement.
+Il n’est pas possible de positionner les boutons de défilement à l’aide des propriétés CSS `top`, `left`, `bottom` et `right`. Au lieu de cela, la logique du lecteur les positionne automatiquement.
 
 <table id="table_A5663C4AAC4446168CAD8DBA2894BB9C"> 
  <thead> 
@@ -143,27 +146,27 @@ Il n’est pas possible de positionner les boutons de défilement à l’aide de
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Largeur du bouton de défilement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> hauteur  </span> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton de défilement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan  </span> </p> </td> 
    <td colname="col2"> <p>Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
-   <td colname="col2"> <p> Positionnez-vous à l’intérieur de l’image-objet d’illustration, si des images-objets CSS sont utilisées. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
+   <td colname="col2"> <p> Positionnez l’objet à l’intérieur de l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ce bouton prend en charge le sélecteur d’ `state` attributs, qui peut être utilisé pour appliquer différents habillages à différents états de bouton : `up`, `down`, `over`et `disabled`.
+>Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton : `up`, `down`, `over` et `disabled`.
 
 Exemple : pour configurer des boutons de défilement de 56 x 56 pixels et présentant des illustrations différentes pour chaque état.
 
