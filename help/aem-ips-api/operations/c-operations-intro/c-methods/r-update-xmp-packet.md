@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 97a40261-8f85-4e8c-8aa5-ed4fec297f33
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 22%
 
 ---
 
@@ -18,7 +21,7 @@ Définit ou met à jour un paquet de métadonnées XMP pour un fichier.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-ee88a759f4774482a4734201a971f610}
+## Types d’utilisateur autorisés {#section-ee88a759f4774482a4734201a971f610}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,9 +37,9 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui |  poignée. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
 | ` *`assetHandle`*` | `xsd:string` | Oui | Poignée de ressource. |
-| ` *`compresséPacket`*` | `xsd:Base 64 binary` | Oui | [!DNL zlib-compressed] Paquet XMP que vous souhaitez définir ou mettre à jour. |
+| ` *`compresséPacket`*` | `xsd:Base 64 binary` | Oui | [!DNL zlib-compressed] XMP paquet que vous souhaitez définir ou mettre à jour. |
 
 **Output (updateXMPPacketReturn)**
 
