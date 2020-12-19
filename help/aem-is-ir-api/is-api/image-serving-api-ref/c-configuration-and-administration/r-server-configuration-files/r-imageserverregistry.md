@@ -21,11 +21,11 @@ Contient les paramètres de configuration d’Image Server.
 
 Lors de la modification de ce fichier XML, veillez à conserver une syntaxe XML valide, sans quoi le serveur d’images risque de ne pas se début.
 
-Pour que les modifications prennent effet, redémarrez Image Server après avoir modifié ce fichier. Seules les valeurs d’élément répertoriées ci-dessous sont prises en charge pour modification. Modifiez tout autre contenu de ce fichier uniquement si l’assistance technique de Scene7 vous en informe.
+Pour que les modifications prennent effet, redémarrez Image Server après avoir modifié ce fichier. Seules les valeurs d’élément répertoriées ci-dessous sont prises en charge pour modification. Modifiez tout autre contenu de ce fichier uniquement si le support technique de Scene7 vous en informe.
 
 >[!NOTE]
 >
->Ne modifiez pas la structure de `<imageserverregistry>`, y compris l’ordre des éléments. Soyez prudent lors de la modification de ce fichier, sinon le serveur d’images risque de ne pas se début.
+>Ne modifiez pas la structure de `<imageserverregistry>`, y compris l&#39;ordre des éléments. Soyez prudent lors de la modification de ce fichier, sinon le serveur d’images risque de ne pas se début.
 
 La figure suivante illustre les éléments qui peuvent être modifiés. D&#39;autres éléments sont présents et ne doivent pas être modifiés. L’ordre des éléments ci-dessous ne reflète pas l’ordre dans lequel ils doivent être présents dans le fichier.
 
@@ -55,4 +55,4 @@ La figure suivante illustre les éléments qui peuvent être modifiés. D&#39;au
 
 ## Remarques {#section-7217f011f69f41e7af4f3983d7776d6f}
 
-Plusieurs `<RootPath>` éléments peuvent être présents (un pour chaque dossier de fichiers de données source). Image Server recherche les chemins d’accès racine dans l’ordre spécifié pour trouver un fichier source particulier.
+Plusieurs éléments `<RootPath>` peuvent être présents (un pour chaque dossier de fichier de données source). Image Server recherche les chemins d’accès racine dans l’ordre spécifié pour trouver un fichier source particulier.
