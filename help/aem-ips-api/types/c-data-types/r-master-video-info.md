@@ -1,6 +1,6 @@
 ---
-description: Informations relatives aux fichiers vidéo principaux.
-seo-description: Informations relatives aux fichiers vidéo principaux.
+description: Informations relatives aux fichiers vidéo Principaux.
+seo-description: Informations relatives aux fichiers vidéo Principaux.
 seo-title: MasterVideoInfo
 solution: Experience Manager
 title: MasterVideoInfo
@@ -17,7 +17,7 @@ ht-degree: 20%
 
 # MasterVideoInfo{#mastervideoinfo}
 
-Informations relatives aux fichiers vidéo principaux.
+Informations relatives aux fichiers vidéo Principaux.
 
 Syntaxe
 
