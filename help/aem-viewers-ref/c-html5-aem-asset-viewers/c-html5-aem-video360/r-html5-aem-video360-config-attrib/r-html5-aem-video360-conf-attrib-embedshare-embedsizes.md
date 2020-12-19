@@ -1,30 +1,33 @@
 ---
-description: Attribut de configuration pour le lecteur vidéo360.
-seo-description: Attribut de configuration pour le lecteur vidéo360.
-seo-title: EmbedShare.embedzes
+description: Attribut de configuration pour la visionneuse Video360.
+seo-description: Attribut de configuration pour la visionneuse Video360.
+seo-title: EmbedShare.embedsizes
 solution: Experience Manager
-title: EmbedShare.embedzes
+title: EmbedShare.embedsizes
 topic: Dynamic media
 uuid: d3eea508-fb1e-4147-b853-a16f51725dd7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '63'
+ht-degree: 11%
 
 ---
 
 
-# EmbedShare.embedzes{#embedshare-embedsizes}
+# EmbedShare.embedsizes{#embedshare-embedsizes}
 
-Attribut de configuration pour le lecteur vidéo360.
+Attribut de configuration pour la visionneuse Video360.
 
-` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`largeur/hauteur`*[,0|1]]`
+` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`largeurhauteurLargeurLargeur`*[,0|1]]`
 
-Spécifie un  de tailles incorporées pour la zone combinée de taille dans la boîte de dialogue modale de partage d’intégration.
+Spécifie une liste de tailles incorporées pour la zone combinée de taille dans la boîte de dialogue modale de partage incorporée.
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td> 
-   <td colname="col2"> <p> Largeur de l’incorporation. </p> </td> 
+   <td colname="col2"> <p> Largeur intégrée. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> height </span> </span> </p> </td> 
@@ -32,7 +35,7 @@ Spécifie un  de tailles incorporées pour la zone combinée de taille dans la b
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Indique si cet élément  doit être initialement présélectionné dans la zone combinée. </p> </td> 
+   <td colname="col2"> <p> Indique si cet élément de liste doit être initialement présélectionné dans la zone combinée. </p> </td> 
   </tr> 
  </tbody> 
 </table>
