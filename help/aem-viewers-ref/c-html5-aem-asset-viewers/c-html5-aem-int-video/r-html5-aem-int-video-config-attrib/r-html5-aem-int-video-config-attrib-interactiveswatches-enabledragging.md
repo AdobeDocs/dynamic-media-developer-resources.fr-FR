@@ -1,18 +1,21 @@
 ---
 description: Attribut de configuration pour la visionneuse de vidéos interactive.
 seo-description: Attribut de configuration pour la visionneuse de vidéos interactive.
-seo-title: InteractiveSwatches.activation du glissement
+seo-title: InteractiveSwatches.enabledragging
 solution: Experience Manager
-title: InteractiveSwatches.activation du glissement
+title: InteractiveSwatches.enabledragging
 topic: Dynamic media
 uuid: 9a93e6b3-3441-4987-b9e6-a964dbf2247d
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '90'
+ht-degree: 5%
 
 ---
 
 
-# InteractiveSwatches.activation du glissement{#interactiveswatches-enabledragging}
+# InteractiveSwatches.enabledragging{#interactiveswatches-enabledragging}
 
 Attribut de configuration pour la visionneuse de vidéos interactive.
 
@@ -22,11 +25,11 @@ Attribut de configuration pour la visionneuse de vidéos interactive.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Active ou désactive la possibilité pour un utilisateur de faire défiler les échantillons avec la souris ou à l’aide de mouvements tactiles. </p> </td> 
+   <td colname="col2"> <p> Active ou désactive la possibilité pour un utilisateur de faire défiler les échantillons avec la souris ou en utilisant des mouvements tactiles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> overdragvalue </span></span> </p> </td> 
-   <td colname="col2"> <p> Est dans la plage <span class="codeph"> 0-1 </span> et c'est une valeur de pourcentage pour le mouvement dans la mauvaise direction de la vitesse réelle. </p> <p>Si la valeur est <span class="codeph"> 1, </span> il bouge avec la souris. </p> <p>Si la valeur est <span class="codeph"> 0, </span> cela ne vous permet pas de vous diriger dans la mauvaise direction. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> overdragvalue  </span> </span> </p> </td> 
+   <td colname="col2"> <p> Se trouve dans la plage <span class="codeph"> 0-1 </span> et représente un pourcentage pour le mouvement dans la mauvaise direction de la vitesse réelle. </p> <p>Si elle est définie sur <span class="codeph"> 1 </span>, elle se déplace avec la souris. </p> <p>Si la valeur est <span class="codeph"> 0 </span>, cela ne vous permet pas de vous diriger dans la mauvaise direction. </p> </td> 
   </tr> 
  </tbody> 
 </table>
