@@ -1,6 +1,6 @@
 ---
-description: Application des options de tâche PDF. Un fichier d’options de travail ou un paramètre prédéfini PDF est un fichier généré par Illustrator dans la boîte de dialogue des options Enregistrer sous PDF ou des paramètres prédéfinis PDF dans InDesign.
-seo-description: Application des options de tâche PDF. Un fichier d’options de travail ou un paramètre prédéfini PDF est un fichier généré par Illustrator dans la boîte de dialogue des options Enregistrer sous PDF ou des paramètres prédéfinis PDF dans InDesign.
+description: Appliquez les options de tâche PDF. Un fichier d’options de travail ou un paramètre prédéfini PDF est un fichier généré par Illustrator dans la boîte de dialogue Options Enregistrer en tant que PDF ou des paramètres prédéfinis PDF dans InDesign.
+seo-description: Appliquez les options de tâche PDF. Un fichier d’options de travail ou un paramètre prédéfini PDF est un fichier généré par Illustrator dans la boîte de dialogue Options Enregistrer en tant que PDF ou des paramètres prédéfinis PDF dans InDesign.
 seo-title: joboption
 solution: Experience Manager
 title: joboption
@@ -8,20 +8,23 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 7288cf29-850f-4121-8425-5f995daac22d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 42%
 
 ---
 
 
 # joboption{#joboption}
 
-Application des options de tâche PDF. Un fichier d’options de travail ou un paramètre prédéfini PDF est un fichier généré par Illustrator dans la boîte de dialogue des options Enregistrer sous PDF ou des paramètres prédéfinis PDF dans InDesign.
+Appliquez les options de tâche PDF. Un fichier d’options de travail ou un paramètre prédéfini PDF est un fichier généré par Illustrator dans la boîte de dialogue Options Enregistrer en tant que PDF ou des paramètres prédéfinis PDF dans InDesign.
 
 ` joboption= *`value`*`
 
 <table id="simpletable_BA7B58BE0B0740298D45DDEBE7832D93"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> valeur</span></span> </p> </td> 
-  <td class="stentry"> <p>IPSID du fichier d’options de tâche. </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> value</span></span> </p> </td> 
+  <td class="stentry"> <p>IPSID du fichier d'options de travail. </p></td> 
  </tr> 
 </table>
 
@@ -36,7 +39,7 @@ Les options suivantes sont actuellement prises en charge :
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Images </p></td> 
-  <td class="stentry"> <p> Sous-échantillonnage, Résolution, Seuil et Compression pour les couleurs, les gris et les monochromes </p> </td> 
+  <td class="stentry"> <p> Sous-échantillonnage, Résolution, Seuil et Compression pour la couleur, le gris et le monochrome </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Polices </p></td> 
