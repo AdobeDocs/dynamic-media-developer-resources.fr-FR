@@ -1,26 +1,29 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Bouton Fermer
+seo-title: Fermeture
 solution: Experience Manager
-title: Bouton Fermer
+title: Fermeture
 topic: Dynamic media
 uuid: 018a18fe-4d74-4c68-a072-3aeaf823578d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '43'
+ht-degree: 16%
 
 ---
 
 
-# Bouton Fermer{#closebutton}
+# Bouton de fermeture{#closebutton}
 
 `closebutton=0|1`
 
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>Définissez cette variable sur <span class="codeph"> 1 </span> pour activer l’affichage du bouton de fermeture. Ou, définissez cette variable sur <span class="codeph"> 0 </span> pour masquer le bouton de fermeture. </p> <p>Le bouton de fermeture est pris en charge uniquement sur les périphériques tactiles ; il ne peut pas être affiché sur les systèmes de bureau. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
+   <td colname="col2"> <p>Définissez sur <span class="codeph"> 1 </span> pour activer l'affichage du bouton de fermeture. Ou, définissez sur <span class="codeph"> 0 </span> pour masquer le bouton de fermeture. </p> <p>Le bouton de fermeture est pris en charge uniquement sur les périphériques tactiles ; il ne peut pas être affiché sur les systèmes de bureau. </p> </td> 
   </tr> 
  </tbody> 
 </table>
