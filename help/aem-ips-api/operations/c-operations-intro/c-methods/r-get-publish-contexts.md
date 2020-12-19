@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 7eb90f2c-2bfc-4d61-8a24-831964ed9182
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '87'
+ht-degree: 26%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-1a3a50349b5640dd8e498ff9e9c37340}
+## Types d’utilisateur autorisés {#section-1a3a50349b5640dd8e498ff9e9c37340}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,8 +33,9 @@ Syntaxe
 
 >[!NOTE]
 >
->* L’utilisateur doit disposer d’un accès en lecture pour renvoyer les fichiers.
->* Tous les utilisateurs ont accès au  partagé.
+>* L’utilisateur doit disposer d’un accès en lecture pour renvoyer les ressources.
+>* Tous les utilisateurs ont accès à la société partagée.
+
 >
 
 
@@ -51,16 +55,16 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> sociétéHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Pose le . </td> 
+   <td colname="col4"> Pose la société. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> contextType</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> contextType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4">Type de contexte de publication que vous souhaitez renvoyer. Inclut : 
+   <td colname="col4">Type de contexte de publication que vous souhaitez renvoyer. Comprend : 
     <ul id="ul_21EDF8F0026E402EAE8226A0CADEE652">
      <li id="li_06DB502952D943198F16C06C59816268"><span class="codeph"> ImageServing</span></li>
      <li id="li_E67A42934E8F4689A148CE125F7372AE"><span class="codeph"> ImageRendering</span></li>
@@ -75,7 +79,7 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`publishContextArray`*` | types:PublishContextArray | Oui | Tableau de  de publication pour un  de, filtré par type de contexte, le cas échéant. |
+| ` *`publishContextArray`*` | types:PublishContextArray | Oui | Tableau de contextes de publication pour une société, filtré par type de contexte si nécessaire. |
 
 ## Exemples {#section-23fb7d6a15004b7eb4c3d3bcb37ceb04}
 
