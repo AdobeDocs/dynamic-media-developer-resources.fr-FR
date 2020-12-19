@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 572ad63b-e3b1-478a-b3b3-2cba0b3413d6
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '97'
+ht-degree: 5%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Couleur d’image dominante. Couleur soustractive, utilisée pour la coloration de la texture. Doit être la couleur dominante moyenne dans l’image de texture.
 
-Vous pouvez également utiliser `BaseColor`comme couleur de remplissage si un matériau de texture sans `catalog::Color` texture est appliqué à un objet de vignette non texturable.
+Vous pouvez également utiliser `BaseColor`comme couleur de remplissage si un matériau de texture sans `catalog::Color` est appliqué à un objet de vignette non texturable.
 
 ## Propriétés {#section-d9aec235f28b402581cf2277f5fc6fbb}
 
