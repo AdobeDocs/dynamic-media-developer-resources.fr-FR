@@ -21,11 +21,11 @@ Utilisez ces paramètres de serveur pour déboguer la journalisation du suivi.
 
 >[!NOTE]
 >
->Il est recommandé de configurer tous les fichiers journaux pour qu’ils soient écrits dans le même dossier que `TC::directory`. Cela permet de s’assurer que tous les fichiers journaux de diffusion d’images participent à la rotation automatique des fichiers journaux configurée avec `TC::maxDays`, ce qui évite toute instabilité potentielle du serveur en raison de conditions d’espace disque inexistantes.
+>Il est recommandé de configurer tous les fichiers journaux pour qu’ils soient écrits dans le même dossier que `TC::directory`. Cela permet de s’assurer que tous les fichiers journaux de diffusion d’images participent à la rotation automatique des fichiers journaux configurée avec `TC::maxDays`, ce qui évite toute instabilité potentielle du serveur en raison de conditions d’espace disque.
 
 ## SV::log - Chemin du fichier journal de suivi du superviseur de serveur {#section-3697bc480ff646e79cacc2812c55ef26}
 
-Nom de dossier et de fichier de base pour les fichiers journaux du contrôleur de serveur. Le chemin peut être absolu ou relatif à *[!DNL install_folder]*. Le responsable du serveur ajoute un trait d&#39;union et la date actuelle ( *[!DNL -yyyy-mm-dd]*) au nom du fichier (avant le suffixe du fichier, le cas échéant). Il est recommandé d’envoyer tous les fichiers journaux dans le même dossier que les fichiers journaux Platform Server ( `PS::LogFolder`) afin d’exploiter la gestion des fichiers journaux mise en oeuvre par Platform Server ( `PS::LogDays`). Default is [!DNL logs/Supervisor.log].
+Nom de dossier et de fichier de base pour les fichiers journaux du contrôleur de serveur. Le chemin peut être absolu ou relatif à *[!DNL install_folder]*. Le responsable du serveur ajoute un trait d&#39;union et la date actuelle ( *[!DNL -yyyy-mm-dd]*) au nom du fichier (avant le suffixe du fichier, le cas échéant). Il est recommandé d’envoyer tous les fichiers journaux dans le même dossier que les fichiers journaux de Platform Server ( `PS::LogFolder`) afin d’exploiter la gestion des fichiers journaux mise en oeuvre par Platform Server ( `PS::LogDays`). La valeur par défaut est [!DNL logs/Supervisor.log].
 
 >[!NOTE]
 >
@@ -47,13 +47,13 @@ Nom de dossier et de fichier de base pour les fichiers journaux de suivi Image S
 
 Le niveau de journal peut être 1, 2, 3 ou 4 (par défaut, 2)
 
-Le niveau 1 consigne les événements liés aux connexions au début-up, à l&#39;arrêt et au serveur Platform.
+Le niveau 1 consigne les événements liés aux connexions au début-up, à l&#39;arrêt et au serveur de plateformes.
 
 Le niveau 2 consigne également les connexions aux images source et leur déconnexion.
 
-Le niveau 3 ajoute la journalisation des requêtes de données de pixels et la diffusion de celles-ci au serveur Platform.
+Le niveau 3 ajoute la journalisation des requêtes de données de pixels et la diffusion de celles-ci sur le serveur de plateformes.
 
-Le niveau 4 enregistre tous les messages reçus du Platform Server.
+Le niveau 4 enregistre tous les messages reçus de Platform Server.
 
 Les niveaux 3 et 4 doivent être utilisés uniquement à des fins de débogage, car les fichiers journaux peuvent devenir très volumineux.
 
