@@ -26,9 +26,9 @@ La visionneuse à 360° est une visionneuse d’images qui fournit une vue de l�
 
 Type de visionneuse 503.
 
-Voir Configuration [requise et configuration requise](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
+Voir [Configuration système requise et configuration requise](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
-## URL de démonstration {#section-e1c3106f5b3e445d9b95be337c2f94e2}
+## URL de la démonstration {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
 [https://s7d9.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&amp;stagesize=500,400](https://s7d9.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&amp;stagesize=500,400)
 
@@ -40,7 +40,7 @@ La visionneuse à 360° peut être utilisée à la fois en mode contextuel à l�
 
 La configuration et l’habillage sont similaires à ceux des autres visionneuses. Tous les habillages peuvent être réalisés via une page CSS personnalisée.
 
-Voir Référence de [commande commune à toutes les visionneuses - Attributs](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) de configuration et référence de [commande commune à toutes les visionneuses - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+Voir [Référence de commande commune à toutes les visionneuses - Attributs de configuration](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) et [Référence de commande commune à toutes les visionneuses - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 ## Interaction avec la visionneuse à 360° {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
@@ -79,19 +79,19 @@ Spin Viewer prend en charge les mouvements tactiles suivants, courants dans d’
 
 Cette visionneuse est entièrement accessible au clavier.
 
-(voir la section Accessibilité et navigation [du](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)clavier).
+Voir [Accessibilité du clavier et navigation](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
 ## Incorporation de la visionneuse à 360° {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Différentes pages Web ont des besoins différents en ce qui concerne le comportement des visiteurs. Il arrive qu’une page Web fournisse un lien qui, lorsqu’un utilisateur clique dessus, ouvre le lecteur dans une fenêtre de navigateur distincte. Dans d’autres cas, il est nécessaire d’incorporer le droit du lecteur dans la page d’hébergement. Dans ce dernier cas, la page Web peut avoir une mise en page statique, ou utiliser une conception adaptée qui s’affiche différemment sur différents périphériques ou pour différentes tailles de fenêtre de navigateur. Pour répondre à ces besoins, le lecteur prend en charge trois modes de fonctionnement principaux : fenêtre contextuelle, incorporation de tailles fixes et incorporation de conceptions réactives.
+Différentes pages Web ont des besoins différents en ce qui concerne le comportement des visiteurs. Il arrive qu’une page Web fournisse un lien qui, lorsqu’un utilisateur clique dessus, ouvre le lecteur dans une fenêtre de navigateur distincte. Dans d’autres cas, il est nécessaire d’incorporer le droit du lecteur dans la page d’hébergement. Dans ce dernier cas, la page Web peut avoir une mise en page statique, ou utiliser une conception adaptée qui s’affiche différemment sur différents périphériques ou pour différentes tailles de fenêtre de navigateur. Pour répondre à ces besoins, le lecteur prend en charge trois modes de fonctionnement Principaux : fenêtre contextuelle, incorporation de tailles fixes et incorporation de conceptions réactives.
 
 **A propos du mode contextuel**
 
 En mode contextuel, le lecteur s’ouvre dans une fenêtre ou un onglet distinct du navigateur Web. Elle prend toute la zone de la fenêtre du navigateur et s’ajuste au cas où le navigateur serait redimensionné ou où l’orientation d’un périphérique mobile serait modifiée.
 
-Le mode contextuel est le plus courant pour les périphériques mobiles. La page Web charge la visionneuse à l’aide d’un appel `window.open()` JavaScript, d’un élément `A` HTML correctement configuré ou de toute autre méthode appropriée.
+Le mode contextuel est le plus courant pour les périphériques mobiles. La page Web charge la visionneuse à l’aide de l’appel JavaScript `window.open()`, d’un élément HTML `A` correctement configuré ou de toute autre méthode appropriée.
 
-Il est recommandé d’utiliser une page HTML prête à l’emploi pour le mode d’opération contextuel. Dans ce cas, il est appelé [!DNL SpinViewer.html] et se trouve dans le [!DNL html5/] sous-dossier du déploiement des visionneuses IS standard :
+Il est recommandé d’utiliser une page HTML prête à l’emploi pour le mode d’opération contextuel. Dans ce cas, il s’appelle [!DNL SpinViewer.html] et se trouve dans le sous-dossier [!DNL html5/] de votre déploiement des visionneuses IS standard :
 
 [!DNL <s7viewers_root>/html5/SpinViewer.html]
 
@@ -109,15 +109,15 @@ target="_blank">Open popup viewer</a>
 
 En mode incorporé, le lecteur est ajouté à la page Web existante, qui peut déjà contenir du contenu client qui n’est pas lié au lecteur. En règle générale, le lecteur occupe uniquement une partie de l’espace d’une page Web.
 
-Les principales utilisations sont les pages Web orientées vers les ordinateurs de bureau ou les tablettes, ainsi que les pages de conception réactives qui ajustent automatiquement la mise en page en fonction du type de périphérique.
+Les cas d&#39;utilisation Principaux sont les pages Web orientées vers les ordinateurs de bureau ou les tablettes, ainsi que les pages de conception réactives qui ajustent automatiquement la mise en page en fonction du type de périphérique.
 
 L’incorporation de taille fixe est utilisée lorsque la visionneuse ne change pas de taille après le chargement initial. Il s’agit du meilleur choix pour les pages Web présentant une disposition statique.
 
-L’incorporation de la conception réactive suppose que la visionneuse doit peut-être être redimensionnée au moment de l’exécution en raison du changement de taille de son conteneur `DIV`. Le cas d’utilisation le plus courant consiste à ajouter une visionneuse à une page Web qui utilise une disposition de page souple.
+L’incorporation de la conception réactive suppose que la visionneuse doit peut-être être redimensionnée au moment de l’exécution en réponse au changement de taille de son conteneur `DIV`. Le cas d’utilisation le plus courant consiste à ajouter une visionneuse à une page Web qui utilise une disposition de page souple.
 
-En mode d’incorporation de conceptions réactives, le lecteur se comporte différemment selon la manière dont la page Web dimensionne son conteneur `DIV`. Si la page Web définit uniquement la largeur du conteneur `DIV`et que sa hauteur n’est pas restreinte, le lecteur sélectionne automatiquement sa hauteur en fonction des proportions du fichier utilisé. Cette fonctionnalité permet de s’assurer que la ressource s’intègre parfaitement à la vue sans remplissage sur les côtés. Ce cas d’utilisation est le plus courant pour les pages Web qui utilisent des structures de mise en page réactives telles que Bootstrap, Foundation, etc.
+En mode d’incorporation de conceptions réactives, le lecteur se comporte différemment selon la manière dont la page Web dimensionne son conteneur `DIV`. Si la page Web ne définit que la largeur du conteneur `DIV`, en ne limitant pas sa hauteur, le lecteur sélectionne automatiquement sa hauteur en fonction des proportions du fichier utilisé. Cette fonctionnalité permet de s’assurer que la ressource s’intègre parfaitement à la vue sans remplissage sur les côtés. Ce cas d’utilisation est le plus courant pour les pages Web qui utilisent des structures de mise en page réactives telles que Bootstrap, Foundation, etc.
 
-Sinon, si la page Web définit à la fois la largeur et la hauteur du conteneur du lecteur de contenu `DIV`, celui-ci remplit cette zone et suit la taille indiquée par la mise en page Web. Un bon exemple consiste à incorporer la visionneuse dans une incrustation modale, où l’incrustation est dimensionnée en fonction de la taille de la fenêtre du navigateur Web.
+Sinon, si la page Web définit à la fois la largeur et la hauteur du conteneur `DIV` du lecteur, celui-ci remplit cette zone et suit la taille fournie par la mise en page Web. Un bon exemple consiste à incorporer la visionneuse dans une incrustation modale, où l’incrustation est dimensionnée en fonction de la taille de la fenêtre du navigateur Web.
 
 **Incorporation de taille fixe**
 
@@ -130,7 +130,7 @@ Pour ajouter la visionneuse à 360° à une page Web, procédez comme suit :
 
 1. Ajouter le fichier JavaScript de la visionneuse sur votre page Web.
 
-   Pour créer une visionneuse, vous devez ajouter une balise de script dans l’en-tête HTML. Avant de pouvoir utiliser l’API du lecteur de contenu, veillez à inclure `SpinViewer.js`. `SpinViewer.js` se trouve sous le [!DNL html5/js/] sous-dossier de votre déploiement des visionneuses IS standard :
+   Pour créer une visionneuse, vous devez ajouter une balise de script dans l’en-tête HTML. Avant de pouvoir utiliser l’API du lecteur de contenu, veillez à inclure `SpinViewer.js`. `SpinViewer.js` se trouve sous le  [!DNL html5/js/] sous-dossier de votre déploiement des visionneuses IS standard :
 
    `<s7viewers_root>/html5/js/SpinViewer.js`
 
@@ -144,16 +144,16 @@ Pour ajouter la visionneuse à 360° à une page Web, procédez comme suit :
 
    >[!NOTE]
    >
-   >Vous ne devez référencer que le fichier JavaScript du lecteur principal `include` sur votre page. Vous ne devez pas référencer de fichiers JavaScript supplémentaires dans le code de la page Web qui pourraient être téléchargés selon la logique du lecteur au moment de l’exécution. En particulier, ne référencez pas directement la `Utils.js` bibliothèque de SDK HTML5 chargée par la visionneuse à partir du chemin de `/s7viewers` contexte (appelé SDK consolidé `include`). La raison en est que l’emplacement des bibliothèques du lecteur d’exécution `Utils.js` ou similaires est entièrement géré par la logique du lecteur et que l’emplacement change entre les versions du lecteur. Adobe ne conserve pas les anciennes versions du lecteur secondaire `includes` sur le serveur.
+   >Vous ne devez référencer que le fichier JavaScript du lecteur principal `include` sur votre page. Vous ne devez pas référencer de fichiers JavaScript supplémentaires dans le code de la page Web qui pourraient être téléchargés selon la logique du lecteur au moment de l’exécution. En particulier, ne référencez pas directement la bibliothèque HTML5 SDK `Utils.js` chargée par la visionneuse à partir du chemin de contexte `/s7viewers` (appelé SDK consolidé `include`). La raison en est que l’emplacement des bibliothèques de lecteurs de contenu d’exécution `Utils.js` ou similaires est entièrement géré par la logique du lecteur et que l’emplacement change entre les versions du lecteur. Adobe ne conserve pas les anciennes versions du lecteur secondaire `includes` sur le serveur.
    >
    >
-   >Par conséquent, si vous placez une référence directe à tout code JavaScript secondaire `include` utilisé par la visionneuse sur la page, la fonctionnalité de visionneuse sera rompue à l’avenir lors du déploiement d’une nouvelle version de produit.
+   >Par conséquent, le fait de placer une référence directe à tout script JavaScript secondaire `include` utilisé par le lecteur sur la page rompt la fonctionnalité du lecteur à l’avenir lorsqu’une nouvelle version du produit est déployée.
 
 1. Définition de la balise DIV de conteneur.
 
    Ajoutez un élément DIV vide sur la page où doit apparaître le lecteur de contenu. L’identifiant de l’élément DIV doit être défini, car il est transmis ultérieurement à l’API du lecteur de contenu.
 
-   L’espace réservé DIV est un élément positionné, ce qui signifie que la propriété `position` CSS est définie sur `relative` ou `absolute`.
+   L’espace réservé DIV est un élément positionné, ce qui signifie que la propriété CSS `position` est définie sur `relative` ou `absolute`.
 
    Voici un exemple d’élément DIV d’espace réservé défini :
 
@@ -163,11 +163,11 @@ Pour ajouter la visionneuse à 360° à une page Web, procédez comme suit :
 
 1. Définition de la taille de la visionneuse
 
-   Vous pouvez définir la taille statique de la visionneuse en la déclarant pour la classe CSS de `.s7spinviewer` niveau supérieur en unités absolues ou en utilisant `stagesize` des modificateurs.
+   Vous pouvez définir la taille statique de la visionneuse en la déclarant pour la classe CSS de niveau supérieur `.s7spinviewer` en unités absolues ou en utilisant le modificateur `stagesize`.
 
-   Vous pouvez placer le dimensionnement en CSS directement sur la page HTML ou dans un fichier CSS de visionneuse personnalisée, qui est ensuite affecté à un enregistrement de paramètre prédéfini de visionneuse dans Scene7 Publishing System ou transmis explicitement à l’aide d’une commande de style.
+   Vous pouvez placer le dimensionnement en CSS directement sur la page HTML ou dans un fichier CSS de visionneuse personnalisée, qui est ensuite affecté à un enregistrement de paramètre prédéfini de visionneuse dans Scene7 Publishing System, ou transmis explicitement à l’aide d’une commande de style.
 
-   See [Customizing Spin Viewer](../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#concept-464f3bfa55764bc09c92d8c7480b0b55) for more information about styling the viewer with CSS.
+   Voir [Personnalisation de la visionneuse à 360°](../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#concept-464f3bfa55764bc09c92d8c7480b0b55) pour plus d’informations sur le style de la visionneuse avec CSS.
 
    Voici un exemple de définition de la taille d’une visionneuse statique dans une page HTML :
 
@@ -178,7 +178,7 @@ Pour ajouter la visionneuse à 360° à une page Web, procédez comme suit :
    }
    ```
 
-   Vous pouvez définir le `stagesize` modificateur soit dans l’enregistrement de paramètre prédéfini de la visionneuse dans Scene7 Publishing System, soit le transmettre explicitement avec le code d’initialisation de la visionneuse avec `params` la collection, soit sous la forme d’un appel d’API, comme décrit dans la section de référence des commandes, comme suit :
+   Vous pouvez définir le modificateur `stagesize` soit dans l’enregistrement de paramètre prédéfini de la visionneuse dans Scene7 Publishing System, soit le transmettre explicitement au code d’initialisation de la visionneuse avec la collection `params`, soit en tant qu’appel d’API comme décrit dans la section Référence de commandes, comme suit :
 
    ```
     spinViewer.setParam("stagesize", 
@@ -189,13 +189,13 @@ Pour ajouter la visionneuse à 360° à une page Web, procédez comme suit :
 
 1. Création et initialisation de la visionneuse.
 
-   Une fois les étapes ci-dessus terminées, vous créez une instance de `s7viewers.SpinViewer` classe, vous transmettez toutes les informations de configuration à son constructeur et vous appelez `init()` la méthode sur une instance de visionneuse. Les informations de configuration sont transmises au constructeur sous la forme d’un objet JSON. Au minimum, cet objet comporte `containerId` un champ qui contient le nom de l’ID de conteneur de la visionneuse et l’objet `params` JSON imbriqué avec les paramètres de configuration pris en charge par la visionneuse. In this case of `params` object, it must have at least the Image Serving URL passed as `serverUrl` property and initial asset as `asset` parameter. L’API d’initialisation basée sur JSON vous permet de créer et de début le lecteur avec une seule ligne de code.
+   Une fois les étapes ci-dessus terminées, vous créez une instance de classe `s7viewers.SpinViewer`, vous transmettez toutes les informations de configuration à son constructeur et vous appelez la méthode `init()` sur une instance de lecteur. Les informations de configuration sont transmises au constructeur sous la forme d’un objet JSON. Au minimum, cet objet a un champ `containerId` qui contient le nom de l’ID de conteneur de la visionneuse et un objet JSON `params` imbriqué avec les paramètres de configuration pris en charge par la visionneuse. Dans ce cas d’objet `params`, au moins l’URL de diffusion d’images doit être transmise en tant que propriété `serverUrl` et la ressource initiale en tant que paramètre `asset`. L’API d’initialisation basée sur JSON vous permet de créer et de début le lecteur avec une seule ligne de code.
 
-   Il est important que le conteneur de la visionneuse soit ajouté au modèle DOM afin que le code de la visionneuse puisse trouver l’élément de conteneur en fonction de son identifiant. Certains navigateurs retardent la création du modèle DOM jusqu’à la fin de la page Web. Pour une compatibilité maximale, appelez la `init()` méthode juste avant la balise `BODY` de fermeture, ou sur le `onload()` événement de contenu.
+   Il est important que le conteneur de la visionneuse soit ajouté au modèle DOM afin que le code de la visionneuse puisse trouver l’élément de conteneur en fonction de son identifiant. Certains navigateurs retardent la création du modèle DOM jusqu’à la fin de la page Web. Pour une compatibilité maximale, appelez la méthode `init()` juste avant la balise de fermeture `BODY` ou sur le événement body `onload()`.
 
-   Dans le même temps, l’élément conteneur ne doit pas nécessairement faire partie de la mise en page de la page Web pour le moment. Par exemple, il peut être masqué à l’aide du `display:none` style qui lui est affecté. Dans ce cas, le lecteur retarde son processus d’initialisation jusqu’au moment où la page Web ramène l’élément de conteneur à la mise en page. Lorsque cette action se produit, le chargement de la visionneuse reprend automatiquement.
+   Dans le même temps, l’élément conteneur ne doit pas nécessairement faire partie de la mise en page de la page Web pour le moment. Par exemple, il peut être masqué à l’aide du style `display:none` qui lui est affecté. Dans ce cas, le lecteur retarde son processus d’initialisation jusqu’au moment où la page Web ramène l’élément de conteneur à la mise en page. Lorsque cette action se produit, le chargement de la visionneuse reprend automatiquement.
 
-   Voici un exemple de création d’une instance de visionneuse, en transmettant les options de configuration minimales nécessaires au constructeur et en appelant la `init()` méthode. L’exemple suppose `spinViewer` qu’il s’agit de l’instance de visionneuse, `s7viewer` du nom de l’espace réservé `DIV`, [!DNL http://s7d1.scene7.com/is/image/] de l’URL de diffusion d’images et [!DNL Scene7SharedAssets/SpinSet_Sample] du fichier.
+   Voici un exemple de création d’une instance de visionneuse, de transmission des options de configuration minimales nécessaires au constructeur et d’appel de la méthode `init()`. L’exemple suppose que `spinViewer` correspond à l’instance de visionneuse, `s7viewer` au nom de l’espace réservé `DIV`, [!DNL http://s7d1.scene7.com/is/image/] à l’URL de diffusion d’images et [!DNL Scene7SharedAssets/SpinSet_Sample] à l’actif.
 
    ```
    <script type="text/javascript"> 
@@ -209,7 +209,7 @@ Pour ajouter la visionneuse à 360° à une page Web, procédez comme suit :
    </script>
    ```
 
-   The following code is a complete example of a trivial web page that embeds the Spin Viewer with a fixed size:
+   Le code suivant est un exemple complet d’une page Web triviale qui incorpore la visionneuse à 360° avec une taille fixe :
 
    ```
    <!DOCTYPE html> 
@@ -240,7 +240,7 @@ Pour ajouter la visionneuse à 360° à une page Web, procédez comme suit :
 
 **Incorporation de conception réactive avec une hauteur libre**
 
-Avec l’incorporation de conceptions réactives, la page Web dispose normalement d’une sorte de disposition souple qui détermine la taille d’exécution du conteneur du lecteur `DIV`. Pour les besoins de cet exemple, supposons que la page Web permette au conteneur du lecteur `DIV` de prendre 40 % de la taille de la fenêtre du navigateur Web, en laissant sa hauteur libre. Le code HTML de la page Web qui en résulte ressemble à ce qui suit :
+Avec l’incorporation de conceptions réactives, la page Web dispose normalement d’une sorte de disposition souple qui détermine la taille d’exécution du conteneur `DIV` du lecteur. Pour les besoins de cet exemple, supposons que la page Web permette au conteneur `DIV` du lecteur de prendre 40 % de la taille de la fenêtre du navigateur Web, en laissant sa hauteur libre. Le code HTML de la page Web qui en résulte ressemble à ce qui suit :
 
 ```
 <!DOCTYPE html> 
@@ -258,13 +258,13 @@ Avec l’incorporation de conceptions réactives, la page Web dispose normalemen
 </html>
 ```
 
-Adding the viewer to such a page is similar to fixed size embedding, with the only difference being that you do not need to explicitly define viewer size.
+Ajouter le lecteur à une telle page est similaire à l’incorporation de tailles fixes, à la seule différence que vous n’avez pas besoin de définir explicitement la taille de la visionneuse.
 
 1. Ajouter le fichier JavaScript de la visionneuse sur votre page Web.
 1. Définition de la balise DIV de conteneur.
 1. Création et initialisation de la visionneuse.
 
-Toutes les étapes ci-dessus sont identiques à celles de l’incorporation de tailles fixes. Add the container `DIV` to the existing &quot; holder&quot; `DIV`. Le code suivant est un exemple complet. You can see how the viewer size changes when the browser is resized, and how the viewer aspect ratio matches the asset.
+Toutes les étapes ci-dessus sont identiques à celles de l’incorporation de tailles fixes. Ajoutez le conteneur `DIV` au &quot; détenteur&quot; `DIV` existant. Le code suivant est un exemple complet. Vous pouvez voir comment la taille de la visionneuse change lorsque le navigateur est redimensionné et comment les proportions de la visionneuse correspondent à la ressource.
 
 ```
 <!DOCTYPE html> 
@@ -302,7 +302,7 @@ La page d’exemples suivante illustre davantage de cas d’utilisation réelle 
 
 **Taille flexible incorporée avec définition de la largeur et de la hauteur**
 
-Dans le cas d’une incorporation de taille flexible avec des valeurs de largeur et de hauteur définies, le style de la page Web est différent. Autrement dit, il fournit les deux tailles au &quot;détenteur&quot; `DIV` et le centre dans la fenêtre du navigateur. Also, the web page sets the size of the `HTML` and `BODY` element to 100%:
+Dans le cas d’une incorporation de taille flexible avec des valeurs de largeur et de hauteur définies, le style de la page Web est différent. Autrement dit, il fournit les deux tailles au &quot;détenteur&quot; `DIV` et le centre dans la fenêtre du navigateur. En outre, la page Web définit la taille des éléments `HTML` et `BODY` sur 100 % :
 
 ```
 <!DOCTYPE html> 
@@ -368,7 +368,7 @@ var spinViewer = new s7viewers.SpinViewer({
 
 **Incorporation à l’aide de l’API basée sur Setter**
 
-Instead of using JSON-based initialization it is possible to use setter-based API and no-args constructor. With that API constructor does not take any parameters and configuration parameters is specified using `setContainerId()`, `setParam()`, and `setAsset()` API methods with separate JavaScript calls.
+Au lieu d’utiliser une initialisation basée sur JSON, il est possible d’utiliser une API basée sur un setter et un constructeur sans args. Avec ce constructeur d&#39;API, aucun paramètre n&#39;est utilisé et les paramètres de configuration sont spécifiés à l&#39;aide des méthodes d&#39;API `setContainerId()`, `setParam()` et `setAsset()` avec des appels JavaScript distincts.
 
 L’exemple suivant montre l’incorporation de tailles fixes avec l’API basée sur setter :
 
