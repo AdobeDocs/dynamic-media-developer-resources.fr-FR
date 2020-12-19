@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: c4b40e76-a459-4036-ace2-8df202305bf9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 20%
 
 ---
 
@@ -18,7 +21,7 @@ Récupère un paquet de métadonnées XMP pour la ressource spécifiée.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-7cb9c26045214f01b1d6b6948b6c6a18}
+## Types d’utilisateur autorisés {#section-7cb9c26045214f01b1d6b6948b6c6a18}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,14 +37,14 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Le  à gérer avec le paquet que vous souhaitez renvoyer (par exemple, `c|656`). |
-| ` *`assetHandle`*` | `xsd:string` | Oui | Fichier pour lequel le paquet XMP doit être récupéré. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | La poignée de société avec le paquet que vous souhaitez renvoyer (par exemple, `c|656`). |
+| ` *`assetHandle`*` | `xsd:string` | Oui | Ressource pour laquelle le paquet XMP doit être récupéré. |
 
 **Output (getXMPPacketReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`compresséPacket`*` | `xsd:Base 64 binary` | Oui | [!DNL zlib-compressed] Paquet XMP. |
+| ` *`compresséPacket`*` | `xsd:Base 64 binary` | Oui | [!DNL zlib-compressed] XMP paquet. |
 
 ## Exemples {#section-d681af49122e4ca9bcd04110a2e98e6f}
 
