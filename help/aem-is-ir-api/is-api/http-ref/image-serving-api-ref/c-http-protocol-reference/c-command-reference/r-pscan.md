@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: c8e1d7a9-679c-437f-aa53-67aca3f40b30
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '270'
+ht-degree: 1%
 
 ---
 
@@ -20,13 +23,13 @@ Analyse JPEG progressive. Le format JPEG progressif affiche une image de telle s
 
 La vitesse réelle de chaque analyse dépend de la vitesse de transmission du système de l&#39;utilisateur et de l&#39;ordinateur qui reçoit et décompresse les données.
 
-`Auto` utilise les paramètres d’analyse qui sont calculés par la bibliothèque JPEG indépendante et dépendent du modèle de couleur. Les valeurs de `3`, `4`, correspondent `5` au paramètre d’analyse d’Adobe Photoshop lorsque vous enregistrez un fichier JPEG sous la forme d’un fichier pjpeg (JPEG progressif).
+`Auto` utilise les paramètres d’analyse calculés par la bibliothèque JPEG indépendante et dépendent du modèle de couleur. Les valeurs de `3`, `4`, `5` correspondent au paramètre d’analyse détecté dans Adobe Photoshop lorsque vous enregistrez un fichier JPEG en tant que pjpeg (JPEG progressif).
 
-Si `pscan` n’est pas défini, il est défini par défaut sur `auto`.
+Si `pscan` n&#39;est pas défini, il prend par défaut la valeur `auto`.
 
 ## Propriétés {#section-e36aa3c63a974b969d9e4f43fe5a37ab}
 
-Attribut de requête. S’applique indépendamment du paramètre de calque actif. Ignoré si le format de sortie n’est pas JPEG progressif.
+Attribut de requête. S’applique quel que soit le paramètre de calque actif. Ignoré si le format de sortie n’est pas JPEG progressif.
 
 ## Par défaut {#section-01948f6cd7a2415091004cd7526436c7}
 
