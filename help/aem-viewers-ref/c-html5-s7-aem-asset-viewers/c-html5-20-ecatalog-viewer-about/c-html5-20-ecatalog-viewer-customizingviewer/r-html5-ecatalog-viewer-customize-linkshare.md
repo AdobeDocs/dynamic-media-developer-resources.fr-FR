@@ -1,6 +1,6 @@
 ---
-description: L’outil de partage de liens se compose d’un bouton ajouté au panneau de partage Social et de la boîte de dialogue modale qui s’affiche lorsque l’outil est activé. La position du bouton est entièrement gérée par l’outil de partage Social.
-seo-description: L’outil de partage de liens se compose d’un bouton ajouté au panneau de partage Social et de la boîte de dialogue modale qui s’affiche lorsque l’outil est activé. La position du bouton est entièrement gérée par l’outil de partage Social.
+description: L’outil de partage de liens est constitué d’un bouton ajouté au panneau de partage Social et de la boîte de dialogue modale qui s’affiche lorsque l’outil est activé. La position du bouton est entièrement gérée par l’outil de partage Social.
+seo-description: L’outil de partage de liens est constitué d’un bouton ajouté au panneau de partage Social et de la boîte de dialogue modale qui s’affiche lorsque l’outil est activé. La position du bouton est entièrement gérée par l’outil de partage Social.
 seo-title: Partage de liens
 solution: Experience Manager
 title: Partage de liens
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: 80ecbaca-9092-40b6-bb24-4b233356de3f
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '1424'
+ht-degree: 2%
 
 ---
 
 
-# Partage de liens{#link-share}
+# Partage de lien{#link-share}
 
-L’outil de partage de liens se compose d’un bouton ajouté au panneau de partage Social et de la boîte de dialogue modale qui s’affiche lorsque l’outil est activé. La position du bouton est entièrement gérée par l’outil de partage Social.
+L’outil de partage de liens est constitué d’un bouton ajouté au panneau de partage Social et de la boîte de dialogue modale qui s’affiche lorsque l’outil est activé. La position du bouton est entièrement gérée par l’outil de partage Social.
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 
@@ -24,7 +27,7 @@ L’aspect du bouton de partage de liens est contrôlé par le sélecteur de cla
 .s7ecatalogviewer .s7linkshare
 ```
 
-**Propriétés CSS de l’outil de partage de liens**
+**Propriétés CSS de l&#39;outil de partage de liens**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -37,23 +40,23 @@ L’aspect du bouton de partage de liens est contrôlé par le sélecteur de cla
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan  </span> </p> </td> 
    <td colname="col2"> <p> Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
-   <td colname="col2"> <p> Positionnez-vous à l’intérieur de l’image-objet d’illustration, si des images-objets CSS sont utilisées. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
+   <td colname="col2"> <p> Positionnez l’objet à l’intérieur de l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ce bouton prend en charge le sélecteur d’ `state` attributs, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
 Il est possible de supprimer le bouton du panneau de partage Social en définissant la propriété `display:none` CSS sur sa classe CSS.
 
-L’info-bulle du bouton peut être localisée. Pour plus d’informations, voir [des éléments](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) de l’interface utilisateur.
+L’info-bulle du bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 
 Exemple : pour configurer un bouton de partage de liens de 28 x 28 pixels et afficher une image différente pour chacun des quatre états de bouton différents :
 
@@ -76,7 +79,7 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
 }
 ```
 
-L’incrustation d’arrière-plan qui couvre la page Web lorsque la boîte de dialogue est active est contrôlée par le sélecteur de classe CSS suivant :
+L’incrustation d’arrière-plan qui couvre la page Web lorsque la boîte de dialogue est principale est contrôlée avec le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7backoverlay
@@ -87,17 +90,17 @@ L’incrustation d’arrière-plan qui couvre la page Web lorsque la boîte de d
 <table id="table_DB4183CE8061425084D495A355A941F8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacité </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacité  </span> </p> </td> 
    <td colname="col2"> <p>Opacité de l’incrustation en arrière-plan. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
    <td colname="col2"> <p>Couleur d’incrustation d’arrière-plan. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : pour configurer une incrustation d’arrière-plan de sorte qu’elle soit grise avec une opacité de 70 % :
+Exemple - pour configurer une incrustation d’arrière-plan de manière à ce qu’elle soit grise avec une opacité de 70 % :
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7backoverlay { 
@@ -106,7 +109,7 @@ Exemple : pour configurer une incrustation d’arrière-plan de sorte qu’elle 
 }
 ```
 
-Par défaut, la boîte de dialogue modale s’affiche au centre de l’écran sur les systèmes de bureau et occupe l’intégralité de la zone de page Web sur les périphériques tactiles. Dans tous les cas, le positionnement et le dimensionnement de la boîte de dialogue sont gérés par le composant. La boîte de dialogue est contrôlée à l’aide du sélecteur de classe CSS suivant :
+Par défaut, la boîte de dialogue modale s’affiche au centre de l’écran sur les systèmes de bureau et occupe l’intégralité de la zone de page Web sur les périphériques tactiles. Dans tous les cas, le positionnement et le dimensionnement de la boîte de dialogue sont gérés par le composant. La boîte de dialogue est contrôlée avec le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialog
@@ -117,25 +120,25 @@ Par défaut, la boîte de dialogue modale s’affiche au centre de l’écran su
 <table id="table_E31711ADF4C7446182549244362199A3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p> Rayon de bordure de la boîte de dialogue, au cas où la boîte de dialogue ne prendrait pas l’intégralité du navigateur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
    <td colname="col2"> <p>Couleur d’arrière-plan de la boîte de dialogue. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Doit être désactivée ou définie sur 100 %, auquel cas la boîte de dialogue prend la totalité de la fenêtre du navigateur (ce mode est préférable sur les périphériques tactiles). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col2"> <p>Doit être désactivée ou définie à 100 %, auquel cas la boîte de dialogue prend la totalité de la fenêtre du navigateur (ce mode est préférable sur les périphériques tactiles). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Doit être désactivée ou définie sur 100 %, auquel cas la boîte de dialogue prend la totalité de la fenêtre du navigateur (ce mode est préférable sur les périphériques tactiles). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> hauteur  </span> </p> </td> 
+   <td colname="col2"> <p>Doit être désactivée ou définie à 100 %, auquel cas la boîte de dialogue prend la totalité de la fenêtre du navigateur (ce mode est préférable sur les périphériques tactiles). </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : pour configurer la boîte de dialogue afin d’utiliser l’intégralité de la fenêtre du navigateur et d’avoir un arrière-plan blanc sur les périphériques tactiles :
+Exemple : pour configurer la boîte de dialogue afin d’utiliser la fenêtre entière du navigateur et d’avoir un arrière-plan blanc sur les périphériques tactiles :
 
 ```
 .s7ecatalogviewer .s7touchinput .s7linkdialog .s7dialog { 
@@ -145,7 +148,7 @@ background-color: #ffffff;
 }
 ```
 
-L’en-tête de la boîte de dialogue se compose d’une icône, d’un texte de titre et d’un bouton de fermeture. Le  d’en-tête est contrôlé par
+L&#39;en-tête de la boîte de dialogue se compose d&#39;une icône, d&#39;un texte de titre et d&#39;un bouton de fermeture. Le conteneur d’en-tête est contrôlé avec
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialogheader
@@ -162,7 +165,7 @@ L’en-tête de la boîte de dialogue se compose d’une icône, d’un texte de
  </tbody> 
 </table>
 
-L’icône et le texte du titre sont placés dans un supplémentaire contrôlé par
+L’icône et le texte du titre sont placés dans un conteneur supplémentaire contrôlé par
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialogheader .s7dialogline
@@ -179,7 +182,7 @@ L’icône et le texte du titre sont placés dans un supplémentaire contrôlé 
  </tbody> 
 </table>
 
-L’icône d’en-tête est contrôlée à l’aide du sélecteur de classe CSS suivant :
+L&#39;icône d&#39;en-tête est contrôlée avec le sélecteur de classe CSS suivant
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialogheadericon
@@ -190,20 +193,20 @@ L’icône d’en-tête est contrôlée à l’aide du sélecteur de classe CSS 
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Largeur de l’icône. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> hauteur  </span> </p> </td> 
    <td colname="col2"> <p>Hauteur de l’icône. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-image </span> </p> </td> 
-   <td colname="col2"> <p>Image de l’icône. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan  </span> </p> </td> 
+   <td colname="col2"> <p>Image d’icône. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
-   <td colname="col2"> <p> Positionnez-vous à l’intérieur de l’image-objet d’illustration, si des images-objets CSS sont utilisées. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
+   <td colname="col2"> <p> Positionnez l’objet à l’intérieur de l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -214,20 +217,20 @@ Le titre d’en-tête est contrôlé à l’aide du sélecteur de classe CSS sui
 .s7ecatalogviewer .s7linkdialog .s7dialogheadertext
 ```
 
-**Propriétés CSS du texte de l’en-tête de la boîte de dialogue**
+**Propriétés CSS du texte d’en-tête de la boîte de dialogue**
 
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font- </span> </p> </td> 
-   <td colname="col2"> <p> de police. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-poids  </span> </p> </td> 
+   <td colname="col2"> <p>Poids des polices. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Hauteur de la police. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Famille de polices. </p> </td> 
   </tr> 
   <tr> 
@@ -249,18 +252,18 @@ Le bouton Fermer est contrôlé à l’aide du sélecteur de classe CSS suivant 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> haut </span> </p> </td> 
-   <td colname="col2"> <p> Position verticale du bouton par rapport à la  d’en-tête. </p> </td> 
+   <td colname="col2"> <p> Position verticale du bouton par rapport au conteneur d’en-tête. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> droite </span> </p> </td> 
-   <td colname="col2"> <p> Position horizontale du bouton par rapport aux  d’en-tête. </p> </td> 
+   <td colname="col2"> <p> Position horizontale du bouton par rapport au conteneur d’en-tête. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Largeur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> hauteur  </span> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
@@ -268,23 +271,23 @@ Le bouton Fermer est contrôlé à l’aide du sélecteur de classe CSS suivant 
    <td colname="col2"> <p>Marge intérieure du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan  </span> </p> </td> 
    <td colname="col2"> <p>Image de bouton pour chaque état. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
-   <td colname="col2"> <p> Positionnez-vous à l’intérieur de l’image-objet d’illustration, si des images-objets CSS sont utilisées. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
+   <td colname="col2"> <p> Positionnez l’objet à l’intérieur de l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ce bouton prend en charge le sélecteur d’ `state` attributs, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
-L’info-bulle du bouton Fermer et le titre de la boîte de dialogue peuvent être localisés. Pour plus d’informations, voir [des éléments](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) de l’interface utilisateur.
+L’info-bulle du bouton Fermer et le titre de la boîte de dialogue peuvent être localisés. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 
-Exemple : pour configurer un en-tête de boîte de dialogue avec remplissage, une icône de 22 x 12 pixels, un titre en gras de 16 points et un bouton de fermeture de 28 x 28 pixels placé à deux pixels du haut et à deux pixels de la droite du de la boîte de dialogue  :
+Exemple : pour configurer un en-tête de boîte de dialogue avec remplissage, une icône de 22 x 12 pixels, un titre en gras de 16 points et un bouton de fermeture de 28 x 28 pixels placé deux pixels du haut et deux pixels de droite du conteneur de boîte de dialogue :
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialogheader { 
@@ -324,7 +327,7 @@ Exemple : pour configurer un en-tête de boîte de dialogue avec remplissage, un
 }
 ```
 
-Le pied de page de la boîte de dialogue se compose d’un bouton Annuler. Le  de pied de page est contrôlé à l’aide du sélecteur de classe CSS suivant :
+Le pied de page de la boîte de dialogue se compose d’un bouton Annuler. Le conteneur de pied de page est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialogfooter
@@ -341,13 +344,13 @@ Le pied de page de la boîte de dialogue se compose d’un bouton Annuler. Le  d
  </tbody> 
 </table>
 
-Le pied de page comporte un  interne qui conserve le bouton. Il est contrôlé par le sélecteur de classe CSS suivant :
+Le pied de page comporte un conteneur interne qui conserve le bouton. Il est contrôlé par le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialogbuttoncontainer
 ```
 
-**Propriétés CSS du de boutons de la boîte de dialogue**
+**Propriétés CSS du conteneur de bouton de la boîte de dialogue**
 
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
@@ -364,18 +367,18 @@ Le bouton Sélectionner tout est contrôlé à l’aide du sélecteur de classe 
 .s7ecatalogviewer .s7linkdialog .s7dialogactionbutton
 ```
 
-Ce bouton est disponible uniquement sur les ordinateurs de bureau.
+Le bouton est disponible uniquement sur les systèmes de bureau.
 
 **Propriétés CSS du bouton Sélectionner tout**
 
 <table id="table_021D0467632F49FEBFDF4CF96D2D67C7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Largeur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> hauteur  </span> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
@@ -383,7 +386,7 @@ Ce bouton est disponible uniquement sur les ordinateurs de bureau.
    <td colname="col2"> <p> Couleur du texte des boutons pour chaque état. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan du bouton pour chaque état. </p> </td> 
   </tr> 
  </tbody> 
@@ -391,7 +394,7 @@ Ce bouton est disponible uniquement sur les ordinateurs de bureau.
 
 >[!NOTE]
 >
->Le bouton Sélectionner tout prend en charge le sélecteur d’ `state` attributs, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Le bouton Sélectionner tout prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
 Le bouton Annuler est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
@@ -404,19 +407,19 @@ Le bouton Annuler est contrôlé à l’aide du sélecteur de classe CSS suivant
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Largeur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> hauteur  </span> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
    <td colname="col2"> <p> Couleur du texte des boutons pour chaque état. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan du bouton pour chaque état. </p> </td> 
   </tr> 
  </tbody> 
@@ -424,9 +427,9 @@ Le bouton Annuler est contrôlé à l’aide du sélecteur de classe CSS suivant
 
 >[!NOTE]
 >
->Ce bouton prend en charge le sélecteur d’ `state` attributs, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
-En outre, les deux boutons partagent la même classe CSS commune, qui peut contenir des paramètres CSS identiques pour les autres boutons de la boîte de dialogue :
+En outre, les deux boutons partagent la même classe CSS commune qui peut contenir des paramètres CSS identiques pour les autres boutons de boîte de dialogue :
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialogfooter .s7button
@@ -437,35 +440,35 @@ En outre, les deux boutons partagent la même classe CSS commune, qui peut conte
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font- </span> </p> </td> 
-   <td colname="col2"> <p> de police des boutons. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-poids  </span> </p> </td> 
+   <td colname="col2"> <p>Poids de police de bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Taille de police des boutons. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Famille de polices de bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ligne-hauteur  </span> </p> </td> 
    <td colname="col2"> <p> Hauteur du texte à l’intérieur du bouton. Affecte l’alignement vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-shadow </span> </p> </td> 
-   <td colname="col2"> <p>Ombre portée. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> box-shadow  </span> </p> </td> 
+   <td colname="col2"> <p>Déposez l'ombre. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge-droite </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge droite  </span> </p> </td> 
    <td colname="col2"> <p>Marge du bouton droit. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Les info-bulles des boutons peuvent être localisées. Pour plus d’informations, voir [des éléments](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) de l’interface utilisateur.
+Les info-bulles des boutons peuvent être localisées. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 
-Exemple : pour configurer un pied de page de boîte de dialogue avec un bouton Annuler de 64 x 34, la couleur du texte et la couleur d’arrière-plan varient selon l’état du bouton :
+Exemple : pour configurer un pied de page de boîte de dialogue avec un bouton Annuler de 64 x 34, la couleur du texte et la couleur d’arrière-plan étant différentes pour chaque état de bouton :
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialogfooter { 
@@ -536,11 +539,11 @@ La zone de dialogue principale (entre l’en-tête et le pied de page) contient 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p> Hauteur de la zone de boîte de dialogue principale. Elle ne doit être spécifiée que lorsque la boîte de dialogue fonctionne en mode Bureau. Elle ne s’applique pas lorsque la boîte de dialogue est dimensionnée pour occuper l’intégralité de la fenêtre du navigateur. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> hauteur  </span> </p> </td> 
+   <td colname="col2"> <p> Hauteur de la zone de boîte de dialogue principale. Elle ne doit être spécifiée que lorsque la boîte de dialogue fonctionne en mode Bureau. Il n’est pas applicable lorsque la boîte de dialogue est dimensionnée pour occuper l’intégralité de la fenêtre du navigateur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
    <td colname="col2"> <p>Couleur d’arrière-plan de la zone de boîte de dialogue principale. </p> </td> 
   </tr> 
   <tr> 
@@ -550,7 +553,7 @@ La zone de dialogue principale (entre l’en-tête et le pied de page) contient 
  </tbody> 
 </table>
 
-Exemple : pour définir une zone de boîte de dialogue principale de 300 pixels de hauteur, une marge de 10 pixels et un arrière-plan blanc :
+Exemple : pour définir une zone de boîte de dialogue principale de 300 pixels de hauteur, une marge de dix pixels et un arrière-plan blanc :
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialogviewarea { 
@@ -560,7 +563,7 @@ Exemple : pour définir une zone de boîte de dialogue principale de 300 pixels 
 }
 ```
 
-Tout le contenu du formulaire (comme les libellés et les champs de saisie) se trouve dans un contrôlé par le sélecteur de classe CSS suivant :
+Tout le contenu du formulaire (comme les libellés et les champs de saisie) se trouve dans un conteneur contrôlé par le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialogbody
@@ -577,7 +580,7 @@ Tout le contenu du formulaire (comme les libellés et les champs de saisie) se t
  </tbody> 
 </table>
 
-Exemple : pour configurer le contenu du formulaire de sorte qu’il ait un remplissage de 10 pixels :
+Exemple - pour configurer le contenu du formulaire de sorte qu’il ait un remplissage de dix pixels :
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialogbody { 
@@ -585,38 +588,38 @@ Exemple : pour configurer le contenu du formulaire de sorte qu’il ait un rempl
 }
 ```
 
-Tous les libellés statiques du formulaire de la boîte de dialogue sont contrôlés avec
+Tous les libellés statiques du formulaire de boîte de dialogue sont contrôlés avec
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialoglabel
 ```
 
-Cette classe ne convient pas pour contrôler la taille ou la position du libellé, car vous pouvez l’appliquer à des textes situés à différents endroits de l’interface utilisateur du formulaire.
+Cette classe n’est pas adaptée au contrôle de la taille ou de la position de l’étiquette, car vous pouvez l’appliquer à des textes situés à divers endroits de l’interface utilisateur du formulaire.
 
 **Propriétés CSS du libellé de la boîte de dialogue. **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font- </span> </p> </td> 
-   <td colname="col2"> <p>Etiqueter les  de police. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-poids  </span> </p> </td> 
+   <td colname="col2"> <p>Poids de police d’étiquette. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Taille de police du libellé. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>Famille de polices d’étiquette. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col2"> <p>Libeller la famille de polices. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
    <td colname="col2"> <p>Couleur du texte du libellé. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Les libellés des boîtes de dialogue peuvent être localisés. Pour plus d’informations, voir [des éléments](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) de l’interface utilisateur.
+Les étiquettes de boîte de dialogue peuvent être localisées. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 
 Exemple : pour définir toutes les étiquettes en gris, en gras avec une police de neuf pixels :
 
@@ -634,12 +637,12 @@ La taille de la copie de texte affichée au-dessus du lien est contrôlée par l
 .s7ecatalogviewer .s7linkdialog .s7dialoginputwide
 ```
 
-**Propriétés CSS du champ d’entrée large de la boîte de dialogue**
+**Propriétés CSS du champ large d’entrée de la boîte de dialogue**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Largeur du texte. </p> </td> 
   </tr> 
   <tr> 
@@ -649,7 +652,7 @@ La taille de la copie de texte affichée au-dessus du lien est contrôlée par l
  </tbody> 
 </table>
 
-Exemple : pour définir la copie de texte sur 430 pixels de large et un remplissage de 10 pixels en bas :
+Exemple : pour définir la copie de texte sur 430 pixels de large et disposer d’un remplissage de dix pixels en bas :
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialoginputwide { 
@@ -658,19 +661,19 @@ Exemple : pour définir la copie de texte sur 430 pixels de large et un rempliss
 }
 ```
 
-Le lien de partage est encapsulé dans un  et contrôlé avec le sélecteur de classe CSS suivant :
+Le lien de partage est encapsulé dans un conteneur et contrôlé avec le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7linkdialog .s7dialoginputcontainer
 ```
 
-**Propriétés CSS du d’entrée de la boîte de dialogue**
+**Propriétés CSS du conteneur d’entrée de la boîte de dialogue**
 
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bordure </span> </p> </td> 
-   <td colname="col2"> <p>Bordure autour du de liens de partage. </p> </td> 
+   <td colname="col2"> <p>Bordure autour du conteneur de lien de partage. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
@@ -699,7 +702,7 @@ Le lien de partage lui-même est contrôlé par le sélecteur de classe CSS suiv
 <table id="table_65CF778F5BDA45118208538DCBE203FB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Partager la largeur du lien. </p> </td> 
   </tr> 
  </tbody> 
