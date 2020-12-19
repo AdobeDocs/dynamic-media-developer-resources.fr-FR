@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: FavorisView.maxloadradius
+seo-title: FavoritesView.maxloadradius
 solution: Experience Manager
-title: FavorisView.maxloadradius
+title: FavoritesView.maxloadradius
 topic: Dynamic media
 uuid: 0479c371-487a-4e05-b009-9036ea464abf
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '58'
+ht-degree: 10%
 
 ---
 
 
-# FavorisView.maxloadradius{#favoritesview-maxloadradius}
+# FavoritesView.maxloadradius{#favoritesview-maxloadradius}
 
 [!DNL `[FavoritesView.|<containerId>_favoritesView.]maxloadradius=-1|0| *`preloadnbr`*`]
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> Indique le comportement de préchargement du composant. </p> <p>Lorsque cette propriété est définie sur <span class="codeph"> -1</span>, toutes les miniatures sont chargées simultanément lorsque le composant est initialisé ou que le fichier est modifié. </p> <p>Lorsque la valeur est définie sur <span class="codeph"> 0</span>, seules les miniatures visibles sont chargées. </p> <p> Lorsque cette option est définie sur <span class="codeph"><span class="varname"> preloadnbr</span></span>, vous pouvez spécifier le nombre de lignes invisibles autour de la zone visible qui sont préchargées. </p> </td> 
+   <td colname="col2"> <p> Indique le comportement de préchargement du composant. </p> <p>Lorsqu’elle est définie sur <span class="codeph"> -1</span>, toutes les miniatures sont chargées simultanément lorsque le composant est initialisé ou que la ressource est modifiée. </p> <p>Lorsqu’elle est définie sur <span class="codeph"> 0</span>, seules les vignettes visibles sont chargées. </p> <p> Lorsque vous définissez <span class="codeph"><span class="varname"> preloadnbr</span></span>, vous pouvez spécifier le nombre de lignes invisibles autour de la zone visible qui sont préchargées. </p> </td> 
   </tr> 
  </tbody> 
 </table>
