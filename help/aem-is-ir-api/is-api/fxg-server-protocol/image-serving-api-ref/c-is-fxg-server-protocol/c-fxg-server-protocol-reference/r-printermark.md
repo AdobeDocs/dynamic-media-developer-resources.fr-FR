@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 3e5699ce-3ccd-4f85-91dd-c40c252a758d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '126'
+ht-degree: 30%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Affiche les repères d’impression. Indique comment afficher les repères d’impression.
 
-` printerMark= *`trim`*, *`marqusbleed`*, *`marksenregistrement`*, *`markscolor`*, *`barspage`*, *``*, *`informationstyleline`*, *`pestlayer intégré`*`
+` printerMark= *`trim `*, *`marksbleed `*, *`marksenregistrement `*, *`markscolor `*, *`barspage information `*, *``*, *`styleline `*, *`pestlayer intégré`*`
 
-Les différents repères peuvent être désactivés ou activés. Le style des repères d’impression peut également être contrôlé.
+Les différentes marques peuvent être désactivées ou désactivées. Le style des repères d’impression peut également être contrôlé.
 
 Les valeurs valides sont les suivantes :
 
@@ -51,10 +54,10 @@ Les valeurs valides sont les suivantes :
  <tr class="strow"> 
   <td class="stentry"> <p>style= </p></td> 
   <td class="stentry"> <p>Par défaut </p> <p>InDesignJ1 </p> <p>InDesignJ2 </p> <p>Illustrator </p> <p>IllustratorJ </p> <p>QuarkXPress </p> </td> 
-  <td class="stentry"> <p>La valeur par défaut est Default </p></td> 
+  <td class="stentry"> <p>Par défaut : Par défaut </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>de ligne = </p></td> 
+  <td class="stentry"> <p>poids de ligne= </p></td> 
   <td class="stentry"> <p>Toute valeur comprise entre 0,125 et 2,0. </p></td> 
   <td class="stentry"> <p>Valeur par défaut : 0.25. </p></td> 
  </tr> 
