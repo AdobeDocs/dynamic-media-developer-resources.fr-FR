@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 53e6f61c-ffbd-4795-bff3-7c03af584cec
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '55'
+ht-degree: 3%
 
 ---
 
@@ -32,5 +35,5 @@ Syntaxe
 
 **Fichier**
 
-* Added `ZipInfo`.
+* Ajouté `ZipInfo`.
 
