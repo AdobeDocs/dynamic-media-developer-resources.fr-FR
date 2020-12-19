@@ -1,24 +1,27 @@
 ---
-description: Obtient les adhésions d’un utilisateur dans un tableau de  de.
-seo-description: Obtient les adhésions d’un utilisateur dans un tableau de  de.
-seo-title: getCompanyMember
+description: Récupère les adhésions d’un utilisateur dans un tableau de sociétés.
+seo-description: Récupère les adhésions d’un utilisateur dans un tableau de sociétés.
+seo-title: getCompanyMembership
 solution: Experience Manager
-title: getCompanyMember
+title: getCompanyMembership
 topic: Scene7 Image Production System API
 uuid: fb3dfe29-4292-4ab2-8015-36c4930a9c05
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '90'
+ht-degree: 16%
 
 ---
 
 
-# getCompanyMember{#getcompanymembership}
+# getCompanyMembership{#getcompanymembership}
 
-Obtient les adhésions d’un utilisateur dans un tableau de  de.
+Récupère les adhésions d’un utilisateur dans un tableau de sociétés.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-f8bba547e1f648648be99dc48fd72b5d}
+## Types d’utilisateur autorisés {#section-f8bba547e1f648648be99dc48fd72b5d}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,21 +36,21 @@ Syntaxe
 
 ## Paramètres {#section-8745c360c3e1400a88e9bdb26bcb93de}
 
-**Entrée (getCompanyMembshipParam)**
+**Entrée (getCompanyMembershipParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | ` *`userHandle`*` | `xsd:string` | Non | Identifiant de l’utilisateur dont vous souhaitez obtenir les adhésions. |
 
-**Output (getCompanyMembshipReturn)**
+**Output (getCompanyMembershipReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`membershipArray`*` | `types:CompanyMembershipArray` | Oui | Tableau des adhésions . |
+| ` *`membershipArray`*` | `types:CompanyMembershipArray` | Oui | Tableau des adhésions aux sociétés. |
 
 ## Exemples {#section-e4958d104ea344a4a79f57d07b46eba7}
 
-Cet exemple de code prend un nom d’utilisateur et récupère tous les membres  de l’utilisateur dans un tableau. La réponse a été tronquée pour la brièveté.
+Cet exemple de code prend un nom d&#39;utilisateur et récupère tous les membres de société de l&#39;utilisateur dans un tableau. La réponse a été tronquée pour la brièveté.
 
 **Request**
 
