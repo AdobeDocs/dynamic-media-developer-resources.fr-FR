@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Nuancier.maxloadradius
+seo-title: Swatches.maxloadradius
 solution: Experience Manager
-title: Nuancier.maxloadradius
+title: Swatches.maxloadradius
 topic: Dynamic media
 uuid: eb4a6fca-da18-4291-b7fb-e402156c85a0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '55'
+ht-degree: 10%
 
 ---
 
 
-# Nuancier.maxloadradius{#swatches-maxloadradius}
+# Swatches.maxloadradius{#swatches-maxloadradius}
 
 ` [Swatches.|<containerId>_swatches.]maxloadradius=-1|0| *`preloadnbr`*`
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td> <p>Indique le comportement de préchargement du composant. Lorsque la valeur est définie sur <span class="codeph"> -1</span> , tous les échantillons sont chargés simultanément lorsque le composant est initialisé ou que le fichier est modifié. </p> <p>Lorsque cette valeur est définie sur <span class="codeph"> 0</span> , seules les nuances visibles sont chargées. </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> définit le nombre de lignes/colonnes invisibles autour de la zone visible qui sont préchargées. </p> </td> 
+   <td> <p>Indique le comportement de préchargement du composant. Lorsqu’elle est définie sur <span class="codeph"> -1</span>, toutes les nuances sont chargées simultanément lorsque le composant est initialisé ou que la ressource est modifiée. </p> <p>Lorsqu’elle est définie sur <span class="codeph"> 0</span>, seules les nuances visibles sont chargées. </p> <p><span class="codeph"><span class="varname"> </span></span> preloadnbrdéfinit le nombre de lignes/colonnes invisibles autour de la zone visible qui sont préchargées. </p> </td> 
   </tr> 
  </tbody> 
 </table>
