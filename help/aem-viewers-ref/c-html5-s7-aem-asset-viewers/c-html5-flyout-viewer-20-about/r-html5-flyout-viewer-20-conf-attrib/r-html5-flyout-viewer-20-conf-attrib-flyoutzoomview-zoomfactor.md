@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 58d49de7-4828-46ae-b2e7-eb9398e98a99
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '180'
+ht-degree: 3%
 
 ---
 
@@ -19,16 +22,16 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> principalFacteur</span></span> </p> </td> 
-   <td colname="col2"> <p> Indique le facteur de zoom de l’image pour le  de la fenêtre déroulante, par rapport au principal. Doit être un nombre entier ou une valeur à virgule flottante <span class="codeph"> 1,0</span> ou plus. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> primaryFactor</span> </span> </p> </td> 
+   <td colname="col2"> <p> Indique le facteur de zoom de l’image pour la vue de la fenêtre déroulante, par rapport à la vue principale. Doit être un entier ou une valeur à virgule flottante <span class="codeph"> 1.0</span> ou supérieure. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> secondaireFactor</span></span> </p> </td> 
-   <td colname="col2"> <p> Un facteur secondaire facultatif peut être spécifié, accessible en cliquant ou en appuyant sur le principal lorsque la mise en surbrillance est active. Cliquer ou appuyer une seconde fois revient au facteur de zoom principal. La valeur <span class="codeph"> -1</span> désactive le facteur de zoom secondaire. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> secondaireFactor</span> </span> </p> </td> 
+   <td colname="col2"> <p> Un facteur secondaire facultatif peut être spécifié, accessible en cliquant ou en appuyant sur la vue principale lorsque la mise en surbrillance est principale. Le fait de cliquer ou d’appuyer une seconde fois revient au facteur de zoom Principal. La valeur <span class="codeph"> -1</span> désactive le facteur de zoom secondaire. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> supérieur</span></span> </p> </td> 
-   <td colname="col2"> <p>Indique comment le composant gère les petites images. </p> <p>Si cette valeur est définie sur <span class="codeph"> 1</span> , le composant met à l’échelle l’image principale afin qu’elle s’adapte au  principal du. Il met également à l’échelle l’image de zoom afin qu’elle remplisse complètement la zone de fenêtre déroulante configurée. </p> <p>Si la valeur est définie sur <span class="codeph"> 0</span> petites images, elles s’affichent à leur résolution d’origine et sont centrées dans la zone de  principale et dans la fenêtre déroulante. Vous pouvez configurer un espace blanc supplémentaire qui s’affiche autour de l’image avec une propriété CSS d’arrière-plan ou similaire des classes CSS <span class="codeph"> s7flyoutzoomview</span> et <span class="codeph"> s7flyoutzoom</span> dans la  principale et la fenêtre déroulante, respectivement. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> haut</span></span> </p> </td> 
+   <td colname="col2"> <p>Indique comment le composant gère les petites images. </p> <p>Si ce paramètre est défini sur <span class="codeph"> 1</span>, le composant met à niveau l’image principale afin qu’elle s’adapte à la vue principale. Il met également à l’échelle l’image de zoom de sorte qu’elle remplisse complètement la zone de fenêtre déroulante configurée. </p> <p>Si elle est définie sur <span class="codeph"> 0</span>, les petites images s’affichent à leur résolution d’origine et s’affichent au centre de la zone de vue principale et à l’intérieur de la fenêtre déroulante. Vous pouvez configurer un espace blanc supplémentaire qui s’affiche autour de l’image avec un arrière-plan ou une propriété CSS similaire des classes CSS <span class="codeph"> s7flyoutzoomview</span> et <span class="codeph"> s7flyoutzoom</span> dans la vue principale et la fenêtre déroulante, respectivement. </p> </td> 
   </tr> 
  </tbody> 
 </table>
