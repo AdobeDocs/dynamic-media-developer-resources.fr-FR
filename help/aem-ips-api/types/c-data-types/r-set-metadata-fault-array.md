@@ -1,6 +1,6 @@
 ---
-description: Un tableau des erreurs de métadonnées.
-seo-description: Un tableau des erreurs de métadonnées.
+description: Tableau de défauts de métadonnées.
+seo-description: Tableau de défauts de métadonnées.
 seo-title: SetMetadataFaultArray
 solution: Experience Manager
 title: SetMetadataFaultArray
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 9a56312d-51a3-476c-b0a7-b5117f47b52c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '29'
+ht-degree: 20%
 
 ---
 
 
 # SetMetadataFaultArray{#setmetadatafaultarray}
 
-Un tableau des erreurs de métadonnées.
+Tableau de défauts de métadonnées.
 
 Syntaxe
 
@@ -22,5 +25,5 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| ` *`éléments`*` | `types:SetMetadataFault` | Un tableau des erreurs de métadonnées. |
+| ` *`éléments`*` | `types:SetMetadataFault` | Tableau de défauts de métadonnées. |
 
