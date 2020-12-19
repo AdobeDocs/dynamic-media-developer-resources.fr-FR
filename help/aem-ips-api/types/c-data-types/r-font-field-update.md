@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: f7ac1830-3a69-4278-948c-3a9c265ad520
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '63'
+ht-degree: 12%
 
 ---
 
@@ -25,7 +28,7 @@ Syntaxe
 | ` *`assetHandle`*` | `xsd:string` | Poignée de ressource de police. |
 | ` *`fontName`*` | `xsd:string` | Nom de la police. |
 | ` *`postscriptName`*` | `xsd:string` | Nom de la police PostScript. |
-| ` *`rtfName`*` | `xsd:string` | Nom de la police de texte enrichi. |
+| ` *`rtfName`*` | `xsd:string` | Nom de la police Texte enrichi. |
 | ` *`Famille de polices`*` | `xsd:string` | Nom de famille de polices. |
 | ` *`style`*` | `xsd:string` | Style de police (voir Styles de police pour les valeurs). |
 | ` *`typeName`*` | `xsd:string` | Nom du type de police. |
