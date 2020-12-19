@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: fe182e8f-696d-4515-afdb-49964a374dae
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '83'
+ht-degree: 4%
 
 ---
 
@@ -21,8 +24,8 @@ Attribut de configuration pour la visionneuse de vidéos interactive.
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td colname="col2"> <p> Indique le mode de remplissage des miniatures dans le  du. </p> <p>Définissez cette option sur <span class="codeph"> la gauche </span> pour définir l’ordre de remplissage de gauche à droite. </p> <p>Défini sur la <span class="codeph"> droite </span> inverse l’ordre afin que le  du soit rempli de droite à gauche, de haut en bas. </p> <p>Défini sur <span class="codeph"> auto </span> pour que le composant applique le mode correct lorsque le paramètre régional est défini sur <span class="codeph"> "ja" </span>; sinon, <span class="codeph"> left </span> est utilisé. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> auto|left|right  </span> </p> </td> 
+   <td colname="col2"> <p> Indique la façon dont les miniatures remplissent la vue. </p> <p>Définissez sur <span class="codeph"> left </span> pour définir l’ordre de remplissage de gauche à droite. </p> <p>La valeur <span class="codeph"> droite </span> inverse l’ordre de manière à ce que la vue soit remplie de droite à gauche, de haut en bas. </p> <p>Définissez cette variable sur <span class="codeph"> auto </span> pour que le composant applique le bon mode lorsque le paramètre régional est défini sur <span class="codeph"> "ja" </span>; sinon, <span class="codeph"> left </span> est utilisé. </p> </td> 
   </tr> 
  </tbody> 
 </table>
