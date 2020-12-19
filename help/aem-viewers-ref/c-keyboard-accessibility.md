@@ -15,21 +15,21 @@ ht-degree: 0%
 ---
 
 
-# Accessibilité et navigation du clavier{#keyboard-accessibility-and-navigation}
+# Accessibilité du clavier et navigation{#keyboard-accessibility-and-navigation}
 
 Toutes les fonctionnalités exposées dans l’interface de la visionneuse de zoom de base, catalogue électronique, recherche de catalogue électronique, fenêtre déroulante, zoom en ligne, supports variés, à 360°, vidéo, zoom, carrousel, dimension (3D), image interactive, vidéo interactive et vidéo360 sont accessibles au clavier.
 
 <!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
-## Accessibilité et navigation du clavier {#topic-f5650e9493404e55a3627c8d1366b861}
+## Accessibilité du clavier et navigation {#topic-f5650e9493404e55a3627c8d1366b861}
 
 Toutes les fonctionnalités exposées dans l’interface de la visionneuse de zoom de base, catalogue électronique, recherche de catalogue électronique, fenêtre déroulante, zoom en ligne, supports variés, à 360°, vidéo, zoom, carrousel, dimension (3D), image interactive, vidéo interactive et vidéo360 sont accessibles au clavier.
 
-Un utilisateur final peut naviguer entre les éléments de l’interface utilisateur de la visionneuse à l’aide de touches **[!UICONTROL Tabulation]** et **[!UICONTROL Maj+Tabulation]** . L’utilisation de l’ **[!UICONTROL onglet]** permet d’activer la cible d’action sur l’élément d’interface utilisateur suivant dans l’ordre de tabulation ; l’utilisation de **[!UICONTROL la touche Maj+Tabulation]** rétablit la cible d’action sur l’élément d’interface utilisateur précédent. La traversée de la cible d’action suit l’emplacement de l’élément d’interface utilisateur naturel à l’écran et se déplace de gauche à droite, puis de haut en bas.
+Un utilisateur final peut naviguer entre les éléments de l’interface utilisateur de la visionneuse à l’aide des touches **[!UICONTROL Tabulation]** et **[!UICONTROL Maj+Tabulation]**. L’utilisation de **[!UICONTROL l’onglet]** permet d’activer la cible d’action sur l’élément d’interface utilisateur suivant dans l’ordre de tabulation ; l’utilisation de **[!UICONTROL Maj+Tab]** rétablit la cible d’action sur l’élément d’interface utilisateur précédent. La traversée de la cible d’action suit l’emplacement de l’élément d’interface utilisateur naturel à l’écran et se déplace de gauche à droite, puis de haut en bas.
 
 Selon les paramètres du système d’exploitation et du navigateur Web, l’élément d’interface utilisateur qui a le focus d’entrée peut recevoir une indication de focus visuel. Par exemple, l’indicateur visuel peut être une bordure mince rendue autour de l’élément d’interface utilisateur.
 
-Il est possible de désactiver ou de personnaliser cette mise en surbrillance dans la page CSS de la visionneuse. Dans la table des matières de ce système d’aide, sous un nom de visionneuse spécifique (par exemple, Zoom de base ou Vidéo interactive), cliquez sur ***Personnaliser le nom de la visionneuse ***> Mise en surbrillance****active.
+Il est possible de désactiver ou de personnaliser cette mise en surbrillance dans la page CSS de la visionneuse. Dans la table des matières de ce système d’aide, sous un nom de visionneuse spécifique (par exemple, Zoom de base ou Vidéo interactive), cliquez sur **Personnalisation *nom de la visionneuse*** >** Mise en surbrillance de la mise au point **.
 
 Les touches prises en charge par les éléments de l’interface utilisateur du lecteur individuel sont, dans la plupart des cas, évidentes et faciles à découvrir.
 
@@ -47,7 +47,7 @@ Les touches prises en charge par les éléments de l’interface utilisateur du 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zoom avant ou arrière </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> + </span> ou <span class="uicontrol"> - </span>, respectivement. </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> +  </span> ou  <span class="uicontrol"> -  </span>, respectivement. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Réinitialisation du zoom </p> </td> 
@@ -66,7 +66,7 @@ Les touches prises en charge par les éléments de l’interface utilisateur du 
    <td colname="col2"> <p>Touche flèche vers le haut, le bas, la gauche ou la droite ; Clé d’accueil ou de fin. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>activation d’échantillon de produit </p> </td> 
+   <td colname="col1"> <p>Activation d’échantillon de produit </p> </td> 
    <td colname="col2"> <p>Appuyez sur la touche Espace ou Entrée. </p> </td> 
   </tr> 
   <tr> 
@@ -99,7 +99,7 @@ Les touches prises en charge par les éléments de l’interface utilisateur du 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Carrousel, sélection de zones réactives et activation de zones réactives </p> </td> 
-   <td colname="col2"> <p>Sélection de zones réactives : touche fléchée vers le haut, le bas, la gauche ou la droite </p> <p>activation de zone réactive : Appuyez sur la touche Espace ou Entrée. </p> </td> 
+   <td colname="col2"> <p>Sélection de zones réactives : touche fléchée vers le haut, le bas, la gauche ou la droite </p> <p>Activation de zone réactive : Appuyez sur la touche Espace ou Entrée. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Catalogue électronique, modifier l’image de la page dans la vue principale </p> </td> 
