@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 2752f9dd-ec47-45d6-a465-6d275ec2b2fb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 2%
 
 ---
 
@@ -41,11 +44,11 @@ Syntaxe
 
 ## Types modifiés {#section-6ecdf752cc1a4636a583b4c546a0fccf}
 
-* Le fichier comprend un nouveau `fileName` champ qui renvoie le nom du fichier virtuel.
-* `AssetSummary` renvoie un `type` champ et un `name` champ
+* Le fichier comprend un nouveau champ `fileName` qui renvoie le nom du fichier virtuel.
+* `AssetSummary` renvoie un  `type` champ et  `name` un champ
 
 * `MetadataField` inclut `isHidden`
 
 * `MetadataUpdate`
-* `UploadUrlsJob` nécessite un `urlArray` nombre facultatif `numUrls` et l’ajoute
+* `UploadUrlsJob` nécessite un  `urlArray` et ajoute un  `numUrls` nombre facultatif
 
