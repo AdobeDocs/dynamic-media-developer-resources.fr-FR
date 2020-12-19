@@ -1,25 +1,28 @@
 ---
-description: Obtient les ressources et le nombre de ressources associées à un  spécifique.
-seo-description: Obtient les ressources et le nombre de ressources associées à un  spécifique.
-seo-title: getAssetCount
+description: Obtient les actifs et le nombre de ressources associées à une société spécifique.
+seo-description: Obtient les actifs et le nombre de ressources associées à une société spécifique.
+seo-title: getAssetCounts
 solution: Experience Manager
-title: getAssetCount
+title: getAssetCounts
 topic: Scene7 Image Production System API
 uuid: 92103806-59da-444f-b69c-d045d0ebf42e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '155'
+ht-degree: 9%
 
 ---
 
 
-# getAssetCount{#getassetcounts}
+# getAssetCounts{#getassetcounts}
 
-Obtient les ressources et le nombre de ressources associées à un  spécifique.
+Obtient les actifs et le nombre de ressources associées à une société spécifique.
 
-Le `countArray` renvoyé consiste en un tableau de `assetTypes` (type de données `xsd:string`), chacun avec son propre champ de décompte (type de données `xsd:int`), permettant la représentation de plusieurs types de ressource par élément du tableau.
+Le `countArray` renvoyé est constitué d&#39;un tableau de `assetTypes` (type de données `xsd:string`), chacun avec son propre champ de comptabilisation (type de données `xsd:int`), ce qui permet de représenter plusieurs types de ressource par élément du tableau.
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-6234754722184e828352f10eb18fbce9}
+## Types d’utilisateur autorisés {#section-6234754722184e828352f10eb18fbce9}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,9 +40,9 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée vers le avec les ressources que vous souhaitez compter. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de la société contenant les ressources que vous souhaitez comptabiliser. |
 
-**Output (getAssetCountsReturn)**
+**Sortie (getAssetCountsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -47,7 +50,7 @@ Syntaxe
 
 ## Exemples {#section-6052a503eb3843f6adb99e200fdba280}
 
-Cet exemple de code utilise le nom d&#39; du comme champ dans le champ `getAssetCountsParam` envoyé au serveur de services Web IPS afin d&#39;obtenir le décompte des ressources.
+Cet exemple de code utilise le nom d&#39;utilisateur de la société comme champ dans le `getAssetCountsParam` envoyé au serveur de services Web IPS afin d&#39;obtenir le nombre de ressources.
 
 **Request**
 
