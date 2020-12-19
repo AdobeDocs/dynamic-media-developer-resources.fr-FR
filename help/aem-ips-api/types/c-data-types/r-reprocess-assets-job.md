@@ -1,6 +1,6 @@
 ---
-description: Type de tâche pour permettre le retraitement des fichiers principaux précédemment téléchargés, y compris l’extraction de fichiers PDF et la réoptimisation des images.
-seo-description: Type de tâche pour permettre le retraitement des fichiers principaux précédemment téléchargés, y compris l’extraction de fichiers PDF et la réoptimisation des images.
+description: Type de tâche permettant le retraitement des fichiers Principaux précédemment téléchargés, y compris la réexportation de fichiers PDF et la réoptimisation des images.
+seo-description: Type de tâche permettant le retraitement des fichiers Principaux précédemment téléchargés, y compris la réexportation de fichiers PDF et la réoptimisation des images.
 seo-title: ReprocessAssetsJob
 solution: Experience Manager
 title: ReprocessAssetsJob
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 # ReprocessAssetsJob{#reprocessassetsjob}
 
-Type de tâche pour permettre le retraitement des fichiers principaux précédemment téléchargés, y compris l’extraction de fichiers PDF et la réoptimisation des images.
+Type de tâche permettant le retraitement des fichiers Principaux précédemment téléchargés, y compris la réexportation de fichiers PDF et la réoptimisation des images.
 
 Syntaxe
 
@@ -55,7 +55,7 @@ Syntaxe
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> preserveCrop</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3"> <p>Contrôle la préservation de toute définition de culture existante. Vrai par défaut.</p> <p>Si vous fournissez le paramètre manualCropOptions et les valeurs correspondantes, les nouvelles valeurs (à l’exclusion de 0,0,0,0) sont appliquées à la ressource, quelle que soit la valeur preserveCrop.</p><p>Si vous ne fournissez <i>pas</i> le paramètre manualCropOptions, la valeur de preserveCrop est conservée. Et, dans le cas de true, les valeurs preserveCrop existantes sont conservées ; en cas de false, les valeurs preserveCrop sont supprimées.</p><p>Par exemple :</p><p><p>&lt;preserveCrop&gt;false&lt;/preserveCrop&gt;<br />&lt;manualCropOptions&gt;<br />&lt;left&gt;190&lt;/left&gt;<br />&lt;right&gt;310&lt;/right&gt;<br />&lt;top&gt;160&lt;/top&gt;<br />&lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualCropOptions&gt;</p> </td> 
+   <td colname="col3"> <p>Contrôle la préservation de toute définition de culture existante. Vrai par défaut.</p> <p>Si vous fournissez le paramètre manualCropOptions et les valeurs correspondantes, les nouvelles valeurs (à l’exclusion de 0,0,0,0) sont appliquées à la ressource, quelle que soit la valeur preserveCrop.</p><p>Si <i>ne fournit pas</i> le paramètre manualCropOptions, la valeur de preserveCrop est conservée. Et, dans le cas de true, les valeurs preserveCrop existantes sont conservées ; en cas de false, les valeurs preserveCrop sont supprimées.</p><p>Par exemple :</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />    &lt;left&gt;190&lt;/left&gt;<br />    &lt;right&gt;310&lt;/right&gt;<br />    &lt;top&gt;160&lt;/top&gt;<br />    &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
@@ -95,7 +95,7 @@ Syntaxe
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> illustratorOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> type:IllustratorOptions</span> </p> </td> 
-   <td colname="col3"> <p>Options de téléchargement de fichiers Illustrator vers le serveur d’images. </p> </td> 
+   <td colname="col3"> <p>Options de téléchargement des fichiers Illustrator vers le serveur d’images. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> colorManagementOptions</span> </span> </p> </td> 
@@ -145,7 +145,7 @@ Syntaxe
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> type:InDesignOptions</span> </p> </td> 
-   <td colname="col3"> <p>Options de téléchargement de fichiers InDesign vers le serveur d’images. </p> </td> 
+   <td colname="col3"> <p>Options de téléchargement des fichiers d’InDesign vers le serveur d’images. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </p> </td> 
@@ -162,13 +162,13 @@ Syntaxe
 
 **Remarques**
 
-Les choix `*CropOptions` incluent :
+Les choix pour `*CropOptions` incluent :
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-Les choix `*PublishJob` incluent :
+Les choix pour `*PublishJob` incluent :
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`
