@@ -1,6 +1,6 @@
 ---
-description: Supprime un  de zoom.
-seo-description: Supprime un  de zoom.
+description: Supprime une cible de zoom.
+seo-description: Supprime une cible de zoom.
 seo-title: deleteZoomTarget
 solution: Experience Manager
 title: deleteZoomTarget
@@ -8,15 +8,18 @@ topic: Scene7 Image Production System API
 uuid: 01a9321f-89a9-4263-937b-b0b49fe2fb81
 translation-type: tm+mt
 source-git-commit: d3766bba78cd1051538ff6a94f61ba61e989f1a5
+workflow-type: tm+mt
+source-wordcount: '86'
+ht-degree: 12%
 
 ---
 
 
 # deleteZoomTarget{#deletezoomtarget}
 
-Supprime un  de zoom.
+Supprime une cible de zoom.
 
-## Types d’utilisateurs autorisés {#section-09ca82bc817e49048271c5cba545702e}
+## Types d’utilisateur autorisés {#section-09ca82bc817e49048271c5cba545702e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -27,7 +30,7 @@ Supprime un  de zoom.
 
 >[!NOTE]
 >
->L’utilisateur doit disposer d’un accès en lecture et en écriture au fichier.
+>L’utilisateur doit disposer d’un accès en lecture et en écriture à la ressource.
 
 ## Paramètres {#section-225330a45e7a408f8375e084677d9cb1}
 
@@ -35,8 +38,8 @@ Supprime un  de zoom.
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée du  auquel appartient le de zoom. |
-| ` *`zoomTargetHandle`*` | `xsd:string` | Oui | La poignée du de zoom à supprimer . |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de la société à laquelle appartient la cible de zoom. |
+| ` *`zoomTargetHandle`*` | `xsd:string` | Oui | Poignée de la cible de zoom à supprimer. |
 
 **Output (deleteZoomTargetParam)**
 
@@ -44,7 +47,7 @@ L&#39;API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemple {#section-a35857a5ca884357a879f7ba6cf985fe}
 
-Cet exemple de code supprime un  de zoom d&#39;un  de.
+Cet exemple de code supprime une cible de zoom d’une société.
 
 **Request**
 
