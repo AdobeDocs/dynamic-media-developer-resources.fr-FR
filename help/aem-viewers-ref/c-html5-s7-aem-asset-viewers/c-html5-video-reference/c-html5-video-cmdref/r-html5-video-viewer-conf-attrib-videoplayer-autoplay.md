@@ -1,6 +1,6 @@
 ---
-description: Attribut de configuration pour la visionneuse vidéo.
-seo-description: Attribut de configuration pour la visionneuse vidéo.
+description: Attribut de configuration pour la visionneuse de vidéos.
+seo-description: Attribut de configuration pour la visionneuse de vidéos.
 seo-title: VideoPlayer.autoplay
 solution: Experience Manager
 title: VideoPlayer.autoplay
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: a603590b-5b56-4e67-837c-1ec5b1196b35
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '44'
+ht-degree: 13%
 
 ---
 
 
 # VideoPlayer.autoplay{#videoplayer-autoplay}
 
-Attribut de configuration pour la visionneuse vidéo.
+Attribut de configuration pour la visionneuse de vidéos.
 
 ` [VideoPlayer.|<containerId>_videoPlayer.]autoplay= *`0 | 1`*`
 
@@ -22,7 +25,7 @@ Attribut de configuration pour la visionneuse vidéo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 0|1</span> </span> </p> </td> 
-   <td colname="col2"> <p> Indique si le de la visionneuse  la lecture de la vidéo au chargement. Certains systèmes, comme certains périphériques mobiles, ne prennent pas en charge la lecture automatique. </p> </td> 
+   <td colname="col2"> <p> Indique si la visionneuse est en début de lecture de la vidéo au chargement. Certains systèmes, comme certains périphériques mobiles, ne prennent pas en charge la lecture automatique. </p> </td> 
   </tr> 
  </tbody> 
 </table>
