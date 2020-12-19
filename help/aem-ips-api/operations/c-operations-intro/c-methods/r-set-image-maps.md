@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 1dd7e032-34b4-464d-8ec6-7ad282d12891
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 10%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Définit la zone cliquable d’un fichier.
 
-Vous devez avoir déjà créé les zones cliquables. Les zones cliquables sont appliquées dans l’ordre de récupération à partir du tableau. Cela signifie que la deuxième zone cliquable se superpose à la première, la troisième à la seconde, etc.
+Vous devez avoir déjà créé les zones cliquables. Les zones cliquables sont appliquées dans l&#39;ordre de récupération de la baie. Cela signifie que la deuxième zone cliquable recouvre la première, la troisième, la seconde, etc.
 
-## Types d’utilisateurs autorisés {#section-adb21c5b679249939dd83816e4a0ee97}
+## Types d’utilisateur autorisés {#section-adb21c5b679249939dd83816e4a0ee97}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,11 +32,11 @@ Vous devez avoir déjà créé les zones cliquables. Les zones cliquables sont a
 
 ## Paramètres {#section-2292ec1aead947ef8741dd0653a41f42}
 
-**Input (setImageMapsParam)**
+**Entrée (setImageMapsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui |  poignée. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
 | ` *`assetHandle`*` | `xsd:string` | Oui | Poignée de ressource. |
 | ` *`imageMapArray`*` | `types:ImageMapDefinitionArray` | Oui | Tableau de zones cliquables prédéfinies. |
 
@@ -41,7 +44,7 @@ Vous devez avoir déjà créé les zones cliquables. Les zones cliquables sont a
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`imageMapHandleArray`*` | `types:HandleArray` | Oui | Tableau avec des poignées de zone cliquable appliquées au fichier. |
+| ` *`imageMapHandleArray`*` | `types:HandleArray` | Oui | Tableau avec des poignées de zone cliquable appliquées à la ressource. |
 
 ## Exemples {#section-fe2e35662a6a4ee29cf250c9fd180371}
 
