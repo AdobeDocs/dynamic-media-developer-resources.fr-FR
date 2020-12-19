@@ -1,24 +1,27 @@
 ---
-description: Ajoute un utilisateur à un ou plusieurs .
-seo-description: Ajoute un utilisateur à un ou plusieurs .
-seo-title: addCompanyMember
+description: Ajoute un utilisateur à une ou plusieurs sociétés.
+seo-description: Ajoute un utilisateur à une ou plusieurs sociétés.
+seo-title: addCompanyMembership
 solution: Experience Manager
-title: addCompanyMember
+title: addCompanyMembership
 topic: Scene7 Image Production System API
 uuid: be55041c-fc4e-46e8-bd2c-81b5931406f5
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 13%
 
 ---
 
 
-# addCompanyMember{#addcompanymembership}
+# addCompanyMembership{#addcompanymembership}
 
-Ajoute un utilisateur à un ou plusieurs .
+Ajoute un utilisateur à une ou plusieurs sociétés.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-ae926c7672984be79f6102748accab72}
+## Types d’utilisateur autorisés {#section-ae926c7672984be79f6102748accab72}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -27,20 +30,20 @@ Syntaxe
 
 ## Paramètres {#section-0e925b91d63e48aa91f0b0014e6a0cab}
 
-**Entrée (addCompanyMembshipParam)**
+**Entrée (addCompanyMembershipParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | Non | Identifiant de l’utilisateur dont vous souhaitez ajouter l’adhésion. |
-| ` *`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Oui | Tableau de  auquel vous ajoutez l’utilisateur. |
+| ` *`userHandle`*` | `xsd:string` | Non | Nom d’utilisateur dont vous souhaitez ajouter l’adhésion. |
+| ` *`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Oui | Tableau de sociétés auxquelles vous ajoutez l’utilisateur. |
 
-**Output (addCompanyMembshipReturn)**
+**Output (addCompanyMembershipReturn)**
 
 L&#39;API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-5469f88bac7047cca131faa6b021e437}
 
-Cet exemple utilise ` *`companyHandleArray`*` pour ajouter un utilisateur à un seul  de.
+Cet exemple utilise ` *`companyHandleArray`*` pour ajouter un utilisateur à une seule société.
 
 **Request**
 
