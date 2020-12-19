@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 235cafa9-3d96-464f-9943-9f0addfa05c1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '29'
+ht-degree: 20%
 
 ---
 
@@ -22,5 +25,5 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| ` *`éléments`*` | `types:MetadataCondition` | Tableau des conditions de métadonnées. |
+| ` *`éléments`*` | `types:MetadataCondition` | Tableau de conditions de métadonnées. |
 
