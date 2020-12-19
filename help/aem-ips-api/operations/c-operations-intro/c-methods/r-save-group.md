@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: d1631a55-7f1d-48b4-8b35-fd5a05277219
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '98'
+ht-degree: 19%
 
 ---
 
@@ -18,7 +21,7 @@ Créez ou modifiez un groupe.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-a6c1ce4c69f44ad0bcd41bbf3893bc45}
+## Types d’utilisateur autorisés {#section-a6c1ce4c69f44ad0bcd41bbf3893bc45}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -26,24 +29,24 @@ Syntaxe
 
 ## Paramètres {#section-743610e98dd5494baffcbad6401038eb}
 
-**Input (saveGroupParam)**
+**Entrée (saveGroupParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Le nom d’utilisateur du avec le groupe que vous souhaitez enregistrer. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée vers la société avec le groupe que vous souhaitez enregistrer. |
 | ` *`groupHandle`*` | `xsd:string` | Non | Poignée du groupe. |
-| ` *`nom`*` | `xsd:string` | Oui | Nom du groupe. |
+| ` *`name`*` | `xsd:string` | Oui | Nom du groupe. |
 | ` *`isSystemDefined`*` | `xsd:boolean` | Oui | `false` est définie par défaut. |
 
 **Output (saveGroupReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`groupHandle`*` | `xsd:string` | Oui | Poignée du groupe. |
+| ` *`groupHandle`*` | `xsd:string` | Oui | Poignée de groupe. |
 
 ## Exemples {#section-26eee227ff1f4edabb7fa1240b4d9999}
 
-Cet exemple de code crée un groupe qui appartient à un  de spécifique. Si le groupe existe déjà, il est enregistré avec les valeurs de paramètre que vous spécifiez.
+Cet exemple de code crée un groupe qui appartient à une société spécifique. Si le groupe existe déjà, il est enregistré avec les valeurs de paramètre que vous spécifiez.
 
 **Request**
 
