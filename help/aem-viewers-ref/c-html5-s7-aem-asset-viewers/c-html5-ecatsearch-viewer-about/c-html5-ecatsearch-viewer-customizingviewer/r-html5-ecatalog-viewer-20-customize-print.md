@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 7be047d8-d1be-4bda-90ca-6b55c749cc64
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '1493'
+ht-degree: 2%
 
 ---
 
@@ -29,11 +32,11 @@ L’aspect du bouton d’impression est contrôlé à l’aide du sélecteur de 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge-haut </span> </p> </td> 
-   <td colname="col2"> <p> Décalage à partir du haut de la barre de contrôle. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
+   <td colname="col2"> <p> Décalage par rapport au haut de la barre de contrôle. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge-gauche </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge-gauche  </span> </p> </td> 
    <td colname="col2"> <p> Distance du bouton suivant à gauche ou du côté gauche de la barre de contrôle s’il s’agit du premier bouton d’une rangée. </p> </td> 
   </tr> 
   <tr> 
@@ -45,23 +48,23 @@ L’aspect du bouton d’impression est contrôlé à l’aide du sélecteur de 
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan  </span> </p> </td> 
    <td colname="col2"> <p> Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
-   <td colname="col2"> <p> Positionnez-vous à l’intérieur de l’image-objet d’illustration, si des images-objets CSS sont utilisées. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
+   <td colname="col2"> <p> Positionnez l’objet à l’intérieur de l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ce bouton prend en charge le sélecteur d’ `state` attributs, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
-L’info-bulle du bouton peut être localisée. Pour plus d’informations, voir [des éléments](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) de l’interface utilisateur.
+L’info-bulle du bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 
-Exemple : pour configurer un bouton d’impression de 28 x 28 pixels et afficher une image différente pour chacun des quatre états de bouton.
+Exemple : pour configurer un bouton d&#39;impression de 28 x 28 pixels et afficher une image différente pour chacun des quatre états de bouton différents.
 
 ```
 .s7ecatalogsearchviewer .s7print { 
@@ -84,7 +87,7 @@ background-image:url(images/v2/Print_dark_disabled.png);
 }
 ```
 
-L’incrustation d’arrière-plan qui couvre la page Web lorsque la boîte de dialogue est active est contrôlée par le sélecteur de classe CSS suivant :
+L’incrustation d’arrière-plan qui couvre la page Web lorsque la boîte de dialogue est principale est contrôlée avec le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7backoverlay
@@ -95,17 +98,17 @@ L’incrustation d’arrière-plan qui couvre la page Web lorsque la boîte de d
 <table id="table_1A0C28D8C81D413C83D73DEAC53057C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacité </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacité  </span> </p> </td> 
    <td colname="col2"> <p> Opacité de l’incrustation en arrière-plan. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
    <td colname="col2"> <p>Couleur d’incrustation d’arrière-plan. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : pour configurer l’incrustation d’arrière-plan de sorte qu’elle soit grise avec une opacité de 70 % :
+Exemple - pour configurer l’incrustation d’arrière-plan en gris avec une opacité de 70 % :
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7backoverlay { 
@@ -114,7 +117,7 @@ Exemple : pour configurer l’incrustation d’arrière-plan de sorte qu’elle 
 }
 ```
 
-Par défaut, la boîte de dialogue modale s’affiche au centre de l’écran sur les systèmes de bureau. Le positionnement et le dimensionnement de la boîte de dialogue sont gérés par le composant. La boîte de dialogue est contrôlée avec le sélecteur de classe CSS suivant :
+Par défaut, la boîte de dialogue modale s’affiche centrée sur l’écran sur les systèmes de bureau. Le positionnement et la taille de la boîte de dialogue sont gérés par le composant. La boîte de dialogue est contrôlée avec le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogsearchviewer .s7kprintdialog .s7dialog
@@ -125,17 +128,17 @@ Par défaut, la boîte de dialogue modale s’affiche au centre de l’écran su
 <table id="table_5272BC8EF9124018B4290356B95B5559"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p> Rayon de bordure de la boîte de dialogue. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
    <td colname="col2"> <p> Couleur d'arrière-plan de la boîte de dialogue ; </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : pour configurer une boîte de dialogue avec un arrière-plan gris :
+Exemple - pour configurer une boîte de dialogue avec un arrière-plan gris :
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialog { 
@@ -143,7 +146,7 @@ background-color: #dddddd;
 }
 ```
 
-L’en-tête de la boîte de dialogue se compose d’une icône, d’un texte de titre et d’un bouton de fermeture. Le  d’en-tête est contrôlé à l’aide du sélecteur de classe CSS suivant :
+L’en-tête de la boîte de dialogue se compose d’une icône, d’un texte de titre et d’un bouton de fermeture. Le conteneur d’en-tête est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogheader
@@ -160,7 +163,7 @@ L’en-tête de la boîte de dialogue se compose d’une icône, d’un texte de
  </tbody> 
 </table>
 
-L’icône et le texte du titre sont placés dans un supplémentaire contrôlé par les éléments suivants :
+L’icône et le texte du titre sont placés dans un conteneur supplémentaire contrôlé par les éléments suivants :
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogheader .s7dialogline
@@ -177,7 +180,7 @@ L’icône et le texte du titre sont placés dans un supplémentaire contrôlé 
  </tbody> 
 </table>
 
-L’icône d’en-tête est contrôlée à l’aide du sélecteur de classe CSS suivant :
+L’icône d’en-tête est contrôlée avec le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogheadericon
@@ -188,20 +191,20 @@ L’icône d’en-tête est contrôlée à l’aide du sélecteur de classe CSS 
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Largeur de l’icône. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> hauteur  </span> </p> </td> 
    <td colname="col2"> <p>Hauteur de l’icône. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-image </span> </p> </td> 
-   <td colname="col2"> <p>Image de l’icône. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan  </span> </p> </td> 
+   <td colname="col2"> <p>Image d’icône. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
-   <td colname="col2"> <p> Positionnez-vous à l’intérieur de l’image-objet d’illustration, si des images-objets CSS sont utilisées. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
+   <td colname="col2"> <p> Positionnez l’objet à l’intérieur de l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -212,20 +215,20 @@ Le titre d’en-tête est contrôlé à l’aide du sélecteur de classe CSS sui
 .s7ecatalogsearchviewer .s7printdialog .s7dialogheadertext
 ```
 
-**Propriétés CSS du texte de l’en-tête de la boîte de dialogue**
+**Propriétés CSS du texte d’en-tête de la boîte de dialogue**
 
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font- </span> </p> </td> 
-   <td colname="col2"> <p> de police. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-poids  </span> </p> </td> 
+   <td colname="col2"> <p>Poids des polices. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Hauteur de la police. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Famille de polices. </p> </td> 
   </tr> 
   <tr> 
@@ -247,18 +250,18 @@ Le bouton Fermer est contrôlé à l’aide du sélecteur de classe CSS suivant 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> haut </span> </p> </td> 
-   <td colname="col2"> <p> Position verticale du bouton par rapport à la  d’en-tête. </p> </td> 
+   <td colname="col2"> <p> Position verticale du bouton par rapport au conteneur d’en-tête. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> droite </span> </p> </td> 
-   <td colname="col2"> <p> Position horizontale du bouton par rapport aux  d’en-tête. </p> </td> 
+   <td colname="col2"> <p> Position horizontale du bouton par rapport au conteneur d’en-tête. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Largeur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> hauteur  </span> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
@@ -266,23 +269,23 @@ Le bouton Fermer est contrôlé à l’aide du sélecteur de classe CSS suivant 
    <td colname="col2"> <p>Marge intérieure du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan  </span> </p> </td> 
    <td colname="col2"> <p>Image de bouton pour chaque état. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
-   <td colname="col2"> <p> Positionnez-vous à l’intérieur de l’image-objet d’illustration, si des images-objets CSS sont utilisées. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
+   <td colname="col2"> <p> Positionnez l’objet à l’intérieur de l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ce bouton prend en charge le sélecteur d’ `state` attributs, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
-L’info-bulle du bouton Fermer et le titre de la boîte de dialogue peuvent être localisés. Pour plus d’informations, voir [des éléments](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) de l’interface utilisateur.
+L’info-bulle du bouton Fermer et le titre de la boîte de dialogue peuvent être localisés. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 
-Exemple : pour configurer l’en-tête de la boîte de dialogue avec remplissage, une icône de 22 x 22 pixels, un titre en gras de 16 points et un bouton Fermer de 28 x 28 pixels positionné à deux pixels du haut et à deux pixels de la droite du de la boîte de dialogue :
+Exemple : pour configurer un en-tête de boîte de dialogue avec remplissage, une icône de 22 x 22 pixels, un titre en gras de 16 points et un bouton Fermer de 28 x 28 pixels positionné à deux pixels du haut et à deux pixels de la droite du conteneur de boîte de dialogue :
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogheader { 
@@ -322,7 +325,7 @@ Exemple : pour configurer l’en-tête de la boîte de dialogue avec remplissage
 }
 ```
 
-Le pied de page de la boîte de dialogue se compose des boutons Annuler et Envoyer à l’impression. Le  de pied de page est contrôlé à l’aide du sélecteur de classe CSS suivant :
+Le pied de page de la boîte de dialogue se compose des boutons Annuler et Envoyer à l’impression. Le conteneur de pied de page est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogfooter
@@ -339,13 +342,13 @@ Le pied de page de la boîte de dialogue se compose des boutons Annuler et Envoy
  </tbody> 
 </table>
 
-Le pied de page comporte un  interne qui conserve les deux boutons. Il est contrôlé par le sélecteur de classe CSS suivant :
+Le pied de page comporte un conteneur interne qui conserve les deux boutons. Il est contrôlé par le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogbuttoncontainer
 ```
 
-**Propriétés CSS du de boutons de la boîte de dialogue**
+**Propriétés CSS du conteneur de bouton de la boîte de dialogue**
 
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
@@ -367,11 +370,11 @@ Le bouton Annuler est contrôlé à l’aide du sélecteur de classe CSS suivant
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Largeur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> hauteur  </span> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
@@ -379,7 +382,7 @@ Le bouton Annuler est contrôlé à l’aide du sélecteur de classe CSS suivant
    <td colname="col2"> <p> Couleur du texte des boutons pour chaque état. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan du bouton pour chaque état. </p> </td> 
   </tr> 
  </tbody> 
@@ -387,7 +390,7 @@ Le bouton Annuler est contrôlé à l’aide du sélecteur de classe CSS suivant
 
 >[!NOTE]
 >
->Ce bouton prend en charge le sélecteur d’ `state` attributs, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
 Le bouton Envoyer à l’impression est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
@@ -400,19 +403,19 @@ Le bouton Envoyer à l’impression est contrôlé à l’aide du sélecteur de 
 <table id="table_91C75B2470A24DC2AD3973A91FA8B325"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Largeur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> hauteur  </span> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
    <td colname="col2"> <p> Couleur du texte des boutons pour chaque état. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan du bouton pour chaque état. </p> </td> 
   </tr> 
  </tbody> 
@@ -420,9 +423,9 @@ Le bouton Envoyer à l’impression est contrôlé à l’aide du sélecteur de 
 
 >[!NOTE]
 >
->Ce bouton prend en charge le sélecteur d’ `state` attributs, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
-En outre, les deux boutons partagent la même classe CSS commune, qui peut contenir des paramètres CSS identiques pour les autres boutons de la boîte de dialogue :
+En outre, les deux boutons partagent la même classe CSS commune qui peut contenir des paramètres CSS identiques pour les autres boutons de boîte de dialogue :
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogfooter .s7button
@@ -433,35 +436,35 @@ En outre, les deux boutons partagent la même classe CSS commune, qui peut conte
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font- </span> </p> </td> 
-   <td colname="col2"> <p> de police des boutons. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-poids  </span> </p> </td> 
+   <td colname="col2"> <p>Poids de police de bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Taille de police des boutons. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Famille de polices de bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> line-height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ligne-hauteur  </span> </p> </td> 
    <td colname="col2"> <p> Hauteur du texte à l’intérieur du bouton. Affecte l’alignement vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-shadow </span> </p> </td> 
-   <td colname="col2"> <p>Ombre portée. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> box-shadow  </span> </p> </td> 
+   <td colname="col2"> <p>Déposez l'ombre. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge-droite </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge droite  </span> </p> </td> 
    <td colname="col2"> <p>Marge du bouton droit. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Les info-bulles des boutons peuvent être localisées. Pour plus d’informations, voir [des éléments](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) de l’interface utilisateur.
+Les info-bulles des boutons peuvent être localisées. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 
-Exemple : pour configurer un pied de page de boîte de dialogue avec le bouton Annuler 64 x 34 et le bouton Envoyer à l’impression 96 x 34, avec la couleur du texte et la couleur d’arrière-plan différentes pour chaque état de bouton :
+Exemple : pour configurer un pied de page de boîte de dialogue avec un bouton Annuler de 64 x 34 et un bouton Envoyer à l’impression de 96 x 34, la couleur du texte et la couleur d’arrière-plan étant différentes pour chaque état de bouton :
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogfooter { 
@@ -521,7 +524,7 @@ Exemple : pour configurer un pied de page de boîte de dialogue avec le bouton A
 }
 ```
 
-La zone de dialogue principale (entre l’en-tête et le pied de page) contient le contenu de la boîte de dialogue. Dans tous les cas, le composant gère la largeur de cette zone, il n’est pas possible de la définir dans CSS. La zone de dialogue principale est contrôlée avec le sélecteur de classe CSS suivant :
+La zone de dialogue principale (entre l’en-tête et le pied de page) contient le contenu de la boîte de dialogue. Dans tous les cas, le composant gère la largeur de cette zone, il n&#39;est pas possible de la définir dans CSS. La zone de dialogue principale est contrôlée avec le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogviewarea
@@ -532,11 +535,11 @@ La zone de dialogue principale (entre l’en-tête et le pied de page) contient 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> hauteur  </span> </p> </td> 
    <td colname="col2"> <p> Hauteur de la zone de boîte de dialogue principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
    <td colname="col2"> <p>Couleur d’arrière-plan de la zone de boîte de dialogue principale. </p> </td> 
   </tr> 
   <tr> 
@@ -546,7 +549,7 @@ La zone de dialogue principale (entre l’en-tête et le pied de page) contient 
  </tbody> 
 </table>
 
-Exemple : pour configurer une zone de dialogue principale afin d’obtenir une hauteur calculée automatiquement, une marge de dix pixels et un arrière-plan blanc :
+Exemple : pour configurer une zone de dialogue principale avec une hauteur calculée automatiquement, une marge de dix pixels et un arrière-plan blanc :
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogviewarea { 
@@ -556,7 +559,7 @@ Exemple : pour configurer une zone de dialogue principale afin d’obtenir une h
 }
 ```
 
-Tout le contenu du formulaire (comme les libellés et les champs de saisie) se trouve dans un contrôlé par le sélecteur de classe CSS suivant :
+Tout le contenu du formulaire (comme les libellés et les champs de saisie) se trouve dans un conteneur contrôlé par le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogbody
@@ -573,7 +576,7 @@ Tout le contenu du formulaire (comme les libellés et les champs de saisie) se t
  </tbody> 
 </table>
 
-Exemple : pour configurer le contenu du formulaire de sorte qu’il ait un remplissage de 10 pixels :
+Exemple - pour configurer le contenu du formulaire de sorte qu’il ait un remplissage de dix pixels :
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogbody { 
@@ -581,13 +584,13 @@ Exemple : pour configurer le contenu du formulaire de sorte qu’il ait un rempl
 }
 ```
 
-Le formulaire de la boîte de dialogue est rempli ligne par ligne, où chaque ligne porte une partie du contenu du formulaire (comme un libellé et un champ de saisie de texte). Une seule ligne de formulaire est contrôlée avec le sélecteur de classe CSS suivant :
+Le formulaire de boîte de dialogue est rempli ligne par ligne, où chaque ligne porte une partie du contenu du formulaire (comme un libellé et un champ de saisie de texte). Une seule ligne de formulaire est contrôlée avec le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbody .s7dialogline
 ```
 
-**Propriétés CSS de la ligne de la boîte de dialogue**
+**Propriétés CSS de la ligne de boîte de dialogue**
 
 <table id="table_2CCCC71B45B444A8B9CE2894129C9C02"> 
  <tbody> 
@@ -598,7 +601,7 @@ Le formulaire de la boîte de dialogue est rempli ligne par ligne, où chaque li
  </tbody> 
 </table>
 
-Exemple : pour configurer un formulaire de boîte de dialogue avec un remplissage de 10 pixels pour chaque ligne :
+Exemple - pour configurer un formulaire de boîte de dialogue avec un remplissage de dix pixels pour chaque ligne :
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbody .s7dialogline { 
@@ -606,7 +609,7 @@ Exemple : pour configurer un formulaire de boîte de dialogue avec un remplissag
 }
 ```
 
-La taille du bloc de contenu de la boîte de dialogue est contrôlée à l’aide du sélecteur de classe CSS suivant :
+La taille du bloc de contenu de la boîte de dialogue est contrôlée avec le sélecteur de classe CSS suivant :
 
 ```
  .s7ecatalogsearchviewer .s7printdialog .s7dialoginputwide
@@ -617,7 +620,7 @@ La taille du bloc de contenu de la boîte de dialogue est contrôlée à l’aid
 <table id="table_FFF0B02B564C443CA8713103D723C733"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Largeur du bloc. </p> </td> 
   </tr> 
   <tr> 
@@ -627,7 +630,7 @@ La taille du bloc de contenu de la boîte de dialogue est contrôlée à l’aid
  </tbody> 
 </table>
 
-Exemple : pour définir un bloc de contenu sur 430 pixels de large et un remplissage de 10 pixels en bas :
+Exemple : pour définir un bloc de contenu d’une largeur de 430 pixels et d’un remplissage de 10 pixels en bas :
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialoginputwide { 
@@ -636,38 +639,38 @@ Exemple : pour définir un bloc de contenu sur 430 pixels de large et un remplis
 }
 ```
 
-Tous les libellés statiques du formulaire de la boîte de dialogue sont contrôlés à l’aide du sélecteur de classe CSS suivant :
+Tous les libellés statiques du formulaire de boîte de dialogue sont contrôlés avec le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialoglabel
 ```
 
-Cette classe n’est pas adaptée au contrôle de la taille ou de la position du libellé, car vous pouvez l’appliquer à des textes situés à différents endroits de l’interface utilisateur du formulaire.
+Cette classe n’est pas adaptée au contrôle de la taille ou de la position de l’étiquette, car vous pouvez l’appliquer à des textes situés à divers endroits dans l’interface utilisateur du formulaire.
 
 **Propriétés CSS du libellé de la boîte de dialogue. **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font- </span> </p> </td> 
-   <td colname="col2"> <p>Etiqueter les  de police. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-poids  </span> </p> </td> 
+   <td colname="col2"> <p>Poids de police d’étiquette. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Taille de police du libellé. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
-   <td colname="col2"> <p>Famille de polices d’étiquette. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col2"> <p>Libeller la famille de polices. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
    <td colname="col2"> <p>Couleur du texte du libellé. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Les libellés des boîtes de dialogue peuvent être localisés. Pour plus d’informations, voir [des éléments](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) de l’interface utilisateur.
+Les étiquettes de boîte de dialogue peuvent être localisées. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 
 Exemple : pour définir toutes les étiquettes en gris, en gras, avec une police de neuf pixels :
 
@@ -679,18 +682,18 @@ Exemple : pour définir toutes les étiquettes en gris, en gras, avec une police
 }
 ```
 
-Les contrôles d’entrée sont encapsulés dans le  et contrôlés avec le sélecteur de classe CSS suivant :
+Les contrôles d’entrée sont encapsulés dans le conteneur et contrôlés avec le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialoginputcontainer
 ```
 
-**Propriétés CSS du d’entrée de la boîte de dialogue**
+**Propriétés CSS du conteneur d’entrée de la boîte de dialogue**
 
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage-gauche </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> remplissage-gauche  </span> </p> </td> 
    <td colname="col2"> <p>Marge intérieure. </p> </td> 
   </tr> 
  </tbody> 
@@ -715,11 +718,11 @@ Les boutons radio et le texte de leur légende sont contrôlés à l’aide du s
 <table id="table_3B4D85C5A0254A17A34D57F84F8200F7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p> Largeur totale du bouton radio avec une légende. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
    <td colname="col2"> <p>Couleur du texte de la légende. </p> </td> 
   </tr> 
  </tbody> 
@@ -736,13 +739,13 @@ L’espacement entre le bouton radio et sa légende est contrôlé à l’aide d
 <table id="table_BDD03247E594416D93CDF8604DCE937B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge-droite </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge droite  </span> </p> </td> 
    <td colname="col2"> <p> Espacement entre le bouton radio et sa légende. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Les sélecteurs numériques pour la sélection de la plage d’impression sont contrôlés à l’aide du sélecteur de classe CSS suivant :
+Les sélecteurs de classe CSS suivants contrôlent les sélecteurs numériques pour la sélection de la plage d’impression.
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogrange
@@ -753,17 +756,17 @@ Les sélecteurs numériques pour la sélection de la plage d’impression sont c
 <table id="table_35413C16F6B840EBBEEA17890F2A0490"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p> Largeur du sélecteur numérique. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge  </span> </p> </td> 
    <td colname="col2"> <p> Espacement autour du sélecteur numérique. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : pour configurer tous les boutons radio de sorte qu’ils fassent 150 pixels de large avec du texte noir, un espacement de 10 pixels et des sélecteurs numériques de 42 pixels de large :
+Exemple : pour configurer tous les boutons radio pour une largeur de 150 pixels avec du texte noir, un espacement de dix pixels et des sélecteurs numériques de 42 pixels de large :
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogoption { 
@@ -800,17 +803,17 @@ Le séparateur horizontal entre la sélection de plage de pages et les sections 
    <td colname="col2"> <p>Marge intérieure. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Largeur du séparateur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge  </span> </p> </td> 
    <td colname="col2"> <p>Marge extérieure </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : pour configurer un séparateur gris de 430 pixels de large avec un remplissage vertical de 10 pixels des deux côtés et une marge de 10 pixels en haut :
+Exemple : pour configurer un séparateur gris de 430 pixels de large avec un remplissage vertical de 10 pixels sur les deux côtés et une marge de dix pixels en haut :
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7horizontaldivider { 
