@@ -33,17 +33,17 @@ Les versions 32 et 64 bits d’Image Server sont disponibles pour Linux. Spécif
 
 ## SV::PsHeapSize - Platform Server Heap Size {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
-Taille du tas Java pour le serveur Platform. La valeur par défaut est &quot; `512m`&quot; (512 Mo).
+Taille du tas Java pour le serveur de plateformes. Valeur par défaut : &quot; `512m`&quot; (512 Mo).
 
 ## IS::TcpPort, PS::isConnection.port - Port d’écoute Image Server {#section-5421bfd2ca2a4a979faf812b6fdb2887}
 
-Spécifie le port utilisé pour la communication entre le serveur Platform et le serveur Image Server. Veillez à spécifier un numéro de port qui n&#39;est pas utilisé autrement sur le système hôte.
+Spécifie le port utilisé pour la communication entre le serveur de plateformes et le serveur d’images. Veillez à spécifier un numéro de port qui n&#39;est pas utilisé autrement sur le système hôte.
 
 >[!NOTE]
 >
 >Pour que la diffusion d’images fonctionne correctement, la même valeur doit être définie pour `IS::TcpPort` et `PS::isConnection.port`.
 
-## IS::PhysicalMemory - Limite de mémoire du serveur d’images {#section-85e37aa2ac6e456eb698da716dd3247d}
+## IS::PhysicalMemory - Image Server Memory Limit {#section-85e37aa2ac6e456eb698da716dd3247d}
 
 Limite approximative des données d’image en mémoire, exprimée en pourcentage de la mémoire physique. La plage valide est comprise entre 10 % et 90 %. Si possible, le serveur d’images tente de limiter son utilisation de la mémoire d’image à la quantité spécifiée. La limite peut être dépassée temporairement pendant l&#39;activité de traitement intensif.
 
@@ -55,7 +55,7 @@ Certains systèmes d&#39;exploitation ont des modèles de thread avec une charge
 
 ## IS::NumberOfTextServers - Nombre d’instances de serveur de texte {#section-971e20a90c1a473598fba738ed95671a}
 
-Nombre maximal de rendus de texte à activer simultanément. 0 (par défaut) équivaut à 1,5 fois le nombre de coeurs de processeur disponibles.
+Nombre maximal de rendus de texte à principal simultanément. 0 (par défaut) équivaut à 1,5 fois le nombre de coeurs de processeur disponibles.
 
 ## IS::TextServerTcpPortRange - Ports de communication du serveur de texte {#section-a13465de88ed4df09931e5ba840c1942}
 
