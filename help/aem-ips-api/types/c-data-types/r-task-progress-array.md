@@ -1,6 +1,6 @@
 ---
-description: Un tableau de progression . Contient des informations sur les  de transcodage vidéo.
-seo-description: Un tableau de progression . Contient des informations sur les  de transcodage vidéo.
+description: Tableau de progression de la tâche. Contient des informations sur les tâches de transcodage vidéo.
+seo-description: Tableau de progression de la tâche. Contient des informations sur les tâches de transcodage vidéo.
 seo-title: TaskProgressArray
 solution: Experience Manager
 title: TaskProgressArray
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: e5d9b6ce-f133-47de-beea-b8b395827bb8
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '50'
+ht-degree: 12%
 
 ---
 
 
 # TaskProgressArray{#taskprogressarray}
 
-Un tableau de progression . Contient des informations sur les  de transcodage vidéo.
+Tableau de progression de la tâche. Contient des informations sur les tâches de transcodage vidéo.
 
 Syntaxe
 
@@ -22,5 +25,5 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| ` *`élément`*` | `types:TaskProgress` |  les éléments de progression. L’occurrence minimale est zéro. L’occurrence maximale est illimitée. |
+| ` *`élément`*` | `types:TaskProgress` | Éléments de progression de la tâche. L’occurrence minimale est zéro. L’occurrence maximale est illimitée. |
 
