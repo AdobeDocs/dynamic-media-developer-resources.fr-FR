@@ -1,6 +1,6 @@
 ---
-description: Attribut de configuration pour le lecteur vidéo360.
-seo-description: Attribut de configuration pour le lecteur vidéo360.
+description: Attribut de configuration pour la visionneuse Video360.
+seo-description: Attribut de configuration pour la visionneuse Video360.
 seo-title: Video360Player.iconeffect
 solution: Experience Manager
 title: Video360Player.iconeffect
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: a0a2f840-e330-4636-8daf-1cd3f2eddf01
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '134'
+ht-degree: 8%
 
 ---
 
 
 # Video360Player.iconeffect{#video-player-iconeffect}
 
-Attribut de configuration pour le lecteur vidéo360.
+Attribut de configuration pour la visionneuse Video360.
 
 ` [Video360Player.|<containerId>_video360Player.]iconeffect=0|1[, *``*][, *``*][, *`countfadeautoHide`*]`
 
@@ -26,15 +29,15 @@ Attribut de configuration pour le lecteur vidéo360.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> nombre</span></span> </p> </td> 
-   <td colname="col2"> <p> Indique le nombre maximal de fois que l’effet IconEffect apparaît et réapparaît. La valeur <span class="codeph"> -1</span> indique que l’icône réapparaît indéfiniment. </p> </td> 
+   <td colname="col2"> <p> Indique le nombre maximal de fois où IconEffect apparaît et réapparaît. La valeur <span class="codeph"> -1</span> indique que l’icône réapparaît indéfiniment. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> fondre</span></span> </p> </td> 
-   <td colname="col2"> <p> Spécifie la durée d’affichage ou de masquage de l’animation, en secondes. </p> </td> 
+   <td colname="col2"> <p> Indique la durée d’affichage ou de masquage de l’animation, en secondes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p> Définit le nombre de secondes pendant lesquelles IconEffect reste entièrement visible avant d’être masqué automatiquement. C’est-à-dire le temps qui suit la fin du fondu dans l’animation et avant la  du fondu dans l’animation. Définissez cette variable sur <span class="codeph"> 0</span> pour désactiver le comportement de masquage automatique. </p> </td> 
+   <td colname="col2"> <p> Définit le nombre de secondes pendant lesquelles IconEffect reste entièrement visible avant de se masquer automatiquement. En d’autres termes, le temps après le fondu dans l’animation est terminé et avant le fondu des débuts d’animation. Définissez cette variable sur <span class="codeph"> 0</span> pour désactiver le comportement de masquage automatique. </p> </td> 
   </tr> 
  </tbody> 
 </table>
