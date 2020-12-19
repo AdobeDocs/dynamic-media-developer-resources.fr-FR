@@ -1,6 +1,6 @@
 ---
-description: Définit un  de publication pour un  de.
-seo-description: Définit un  de publication pour un  de.
+description: Définit une cible de publication pour une société.
+seo-description: Définit une cible de publication pour une société.
 seo-title: Contexte de publication
 solution: Experience Manager
 title: Contexte de publication
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 62e2ba15-d966-48c7-86dc-373069c3ea46
 translation-type: tm+mt
 source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 18%
 
 ---
 
 
-# Contexte de publication{#publishcontext}
+# PublishContext{#publishcontext}
 
-Définit un  de publication pour un  de.
+Définit une cible de publication pour une société.
 
 Syntaxe
 
@@ -44,7 +47,7 @@ Les ressources conservent un marqueur distinct pour chaque état et contexte de 
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> contextType</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:string</span></td>
-   <td colname="col3">Type de contexte de publication. Inclut : 
+   <td colname="col3">Type du contexte de publication. Comprend : 
     <ul id="ul_04CA7C755E5441AA8ABBD0BA3F245A78">
      <li id="li_7F578422D38E40D1A590AB21ADD84E90"><span class="codeph"> ImageServing</span></li>
      <li id="li_C112E12028E44ED7914ED0D3D6B3A45E"><span class="codeph"> ImageRendering</span></li>
