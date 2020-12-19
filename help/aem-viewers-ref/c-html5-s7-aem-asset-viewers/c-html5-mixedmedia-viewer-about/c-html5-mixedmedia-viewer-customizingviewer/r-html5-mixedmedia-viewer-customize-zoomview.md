@@ -1,24 +1,27 @@
 ---
-description: En mode de zoom continu, le  principal est constitué de l’image agrandie lorsque le fichier actif est une image unique.
-seo-description: En mode de zoom continu, le  principal est constitué de l’image agrandie lorsque le fichier actif est une image unique.
-seo-title: de zoom
+description: En mode de zoom continu, la vue principale est constituée de l’image agrandie lorsque le fichier actif est une seule image.
+seo-description: En mode de zoom continu, la vue principale est constituée de l’image agrandie lorsque le fichier actif est une seule image.
+seo-title: Vue de zoom
 solution: Experience Manager
-title: de zoom
+title: Vue de zoom
 topic: Dynamic media
 uuid: c9113275-eec6-4014-b7ad-3ae9f2cf01d9
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '215'
+ht-degree: 0%
 
 ---
 
 
-# Zoom view{#zoom-view}
+# Vue de zoom{#zoom-view}
 
-En mode de zoom continu, le  principal est constitué de l’image agrandie lorsque le fichier actif est une image unique.
+En mode de zoom continu, la vue principale est constituée de l’image agrandie lorsque le fichier actif est une seule image.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriétés CSS de la zone de visionneuse principale**
+**Propriétés CSS de la zone de visualisation principale**
 
 L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe CSS suivant :
 
@@ -35,17 +38,17 @@ L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe C
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
-   <td colname="col2"> <p> Couleur d’arrière-plan au format hexadécimal du  principal. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
+   <td colname="col2"> <p> Couleur d’arrière-plan au format hexadécimal de la vue principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> curseur </span> </p> </td> 
-   <td colname="col2"> <p>Curseur affiché sur le  principal du. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> curseur  </span> </p> </td> 
+   <td colname="col2"> <p>Curseur affiché sur la vue principale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : pour rendre le de zoom transparent.
+Exemple : pour rendre la vue de zoom transparente.
 
 ```
 .s7mixedmediaviewer .s7zoomview { 
@@ -53,11 +56,11 @@ Exemple : pour rendre le de zoom transparent.
 }
 ```
 
-Sur les systèmes de bureau, le composant prend en charge le sélecteur d’ `cursortype` attributs qui peut être appliqué à la `.s7zoomview` classe. Il contrôle le type du curseur en fonction de l’état du composant et de l’action de l’utilisateur. The following `cursortype` values are supported:
+Sur les systèmes de bureau, le composant prend en charge le sélecteur d&#39;attributs `cursortype` qui peut être appliqué à la classe `.s7zoomview`. Il contrôle le type du curseur en fonction de l’état du composant et de l’action de l’utilisateur. Les valeurs `cursortype` suivantes sont prises en charge :
 
 * `default`
 
-   S’affiche lorsque l’image n’est pas zoomable en raison d’une résolution d’image réduite, de paramètres de composant ou des deux paramètres.
+   S’affiche lorsque l’image ne peut pas faire l’objet d’un zoom en raison d’une résolution d’image réduite, de paramètres de composant ou des deux.
 
 * `zoomin`
 
@@ -69,9 +72,9 @@ Sur les systèmes de bureau, le composant prend en charge le sélecteur d’ `cu
 
 * `drag`
 
-   S’affiche lorsque l’utilisateur effectue un panoramique sur l’image qui fait l’objet d’un zoom avant.
+   S’affiche lorsque l’utilisateur effectue un panoramique sur l’image dont l’état est zoomé.
 
 * `slide`
 
-   S’affiche lorsque l’utilisateur effectue une permutation d’image en effectuant un glissement ou un mouvement de balayage horizontal.
+   S’affiche lorsque l’utilisateur effectue une permutation d’images en effectuant un balayage horizontal ou un balayage horizontal.
 
