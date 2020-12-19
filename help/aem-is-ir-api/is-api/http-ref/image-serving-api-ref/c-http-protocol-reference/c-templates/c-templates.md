@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 54830d1f-40ad-4bf2-8e3d-d3e4d4ab57b9
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '319'
+ht-degree: 0%
 
 ---
 
@@ -18,15 +21,15 @@ Les modèles peuvent être utilisés pour réduire la longueur et la complexité
 
 Vous pouvez utiliser des variables personnalisées pour simplifier davantage l’utilisation des modèles. Les modèles sont souvent configurés pour faciliter la permutation d’images ou de texte ou la définition d’autres options au moment de l’exécution.
 
-Les modèles sont stockés sous forme d’enregistrements dans les catalogues d’images, avec le corps du modèle dans le `catalog::Modifier` champ et le `catalog::Path` champ vide ou en spécifiant une image d’arrière-plan statique qui ne peut pas être modifiée dynamiquement.
+Les modèles sont stockés en tant qu’enregistrements dans les catalogues d’images, avec le corps du modèle dans le champ `catalog::Modifier` et le champ `catalog::Path` vide ou en spécifiant une image d’arrière-plan statique qui ne peut pas être modifiée dynamiquement.
 
-Les modèles sont spécifiés avec la `template=` commande ou dans le composant de chemin de l’URL de requête. Pour la plupart des applications, il est recommandé d’utiliser la `template=` commande pour spécifier des modèles. La `template=`commande ne doit pas se produire dans le `catalog::PostModifier` champ et ne peut se produire que dans le `catalog::Modifier` champ d’une requête IS imbriquée (c’est-à-dire dans un `src=is{...}` concept). Les enregistrements de modèle ne peuvent pas être référencés dans `src=` ou `mask=`les commandes.
+Les modèles sont spécifiés avec la commande `template=` ou dans le composant path de l&#39;URL de requête. Pour la plupart des applications, il est recommandé d&#39;utiliser la commande `template=` pour spécifier des modèles. La commande `template=`ne doit pas se produire dans le champ `catalog::PostModifier` et ne peut se produire que dans le champ `catalog::Modifier` d&#39;une requête IS imbriquée (c&#39;est-à-dire dans un concept `src=is{...}`). Les enregistrements de modèle ne peuvent pas être référencés dans les commandes `src=` ou `mask=`.
 
-Toute `src=` commande ou `mask=`commande incorporée dans le modèle peut être résolue dans le catalogue principal de la demande ou dans un catalogue d’images différent. Si aucun `rootId` n’est spécifié explicitement, le catalogue principal est pris en compte. Le modèle spécifié avec `template=` peut également se trouver dans le catalogue principal ou dans un autre catalogue d’images.
+Toute commande `src=` ou `mask=`incorporée dans le modèle peut être résolue dans le catalogue principal de la demande ou dans un autre catalogue d’images. Si aucun `rootId` n&#39;est spécifié explicitement, le catalogue principal est supposé. Le modèle spécifié avec `template=` peut également se trouver dans le catalogue principal ou dans un autre catalogue d’images.
 
-Il est vivement recommandé d’inclure toujours des définitions par défaut pour toutes les variables utilisées dans un modèle. De cette façon, la sortie d’image du modèle peut toujours être vue en spécifiant simplement son `attribute::RootId` et `catalog::Id`, sans avoir à connaître les variables utilisées dans le modèle.
+Il est vivement recommandé d’inclure toujours des définitions par défaut pour toutes les variables utilisées dans un modèle. Ainsi, la sortie d’image du modèle peut toujours être vue en spécifiant simplement ses `attribute::RootId` et `catalog::Id`, sans avoir à connaître les variables utilisées dans le modèle.
 
-La variable de substitution de chemin prédéfinie `$object$` peut être utilisée pour appliquer l’objet image spécifié dans le chemin d’URL à n’importe quelle source de calque ou masque ( `src=` ou `mask=`), même dans les requêtes imbriquées ou incorporées.
+La variable de substitution de chemin prédéfinie `$object$` peut être utilisée pour appliquer l’objet image spécifié dans le chemin d’URL à toute source ou masque de calque ( `src=` ou `mask=`), même dans les requêtes imbriquées ou incorporées.
 
 * [Exemple A](r-example-a.md)
 * [Exemple B](r-example-b.md)
