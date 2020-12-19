@@ -1,6 +1,6 @@
 ---
-description: Les fichiers d’attributs de catalogue reconnaissent ces attributs de requête par défaut.
-seo-description: Les fichiers d’attributs de catalogue reconnaissent ces attributs de requête par défaut.
+description: Les fichiers d’attributs du catalogue reconnaissent ces attributs de requête par défaut.
+seo-description: Les fichiers d’attributs du catalogue reconnaissent ces attributs de requête par défaut.
 seo-title: Attributs de requête par défaut
 solution: Experience Manager
 title: Attributs de requête par défaut
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e83db949-67ba-4d70-8f66-41f5415c35ee
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '78'
+ht-degree: 1%
 
 ---
 
 
-# Default request attributes{#default-request-attributes}
+# Attributs de requête par défaut{#default-request-attributes}
 
-Les fichiers d’attributs de catalogue reconnaissent ces attributs de requête par défaut.
+Les fichiers d’attributs du catalogue reconnaissent ces attributs de requête par défaut.
 
 <table id="table_129CE5F9711F44D2A90ADADF5EDC3BE4"> 
  <tbody> 
