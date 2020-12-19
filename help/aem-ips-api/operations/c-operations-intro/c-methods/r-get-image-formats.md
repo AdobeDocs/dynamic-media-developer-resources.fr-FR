@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 0adf989d-9c72-4337-99c0-de6931943e78
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '85'
+ht-degree: 17%
 
 ---
 
@@ -18,7 +21,7 @@ Renvoie des formats d’image, tels que PDF, EPS, SWF, etc.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-6a386ad8641b4aa1a281600fc94fd3f6}
+## Types d’utilisateur autorisés {#section-6a386ad8641b4aa1a281600fc94fd3f6}
 
 * `IpsUser`
 * `IspAdmin`
@@ -30,11 +33,11 @@ Syntaxe
 
 ## Paramètres {#section-eefa36a70b74498f8727ef61d98cfb63}
 
-**Input (getImageFormatsParam)**
+**Entrée (getImageFormatsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée vers le avec les formats d’image que vous souhaitez obtenir. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée vers la société avec les formats d’image que vous souhaitez obtenir. |
 
 **Output (getImageFormatsParam)**
 
@@ -44,7 +47,7 @@ Syntaxe
 
 ## Exemples {#section-73881e12839b4904bf3299b0920bdd0c}
 
-Cet exemple de code renvoie tous les formats d’image pour le  de spécifié.
+Cet exemple de code renvoie tous les formats d’image pour la société spécifiée.
 
 **Request**
 
