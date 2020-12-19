@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 3c163157-cd0d-4887-a1f0-7941d96c36f9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '63'
+ht-degree: 1%
 
 ---
 
@@ -40,15 +43,15 @@ Syntaxe
 
 **searchAsset**
 
-* Suppression `name` du paramètre.
-* Added `excludeFieldArray`.
+* Suppression du paramètre `name`.
+* Ajouté `excludeFieldArray`.
 
 **getFolders**
 
-* Added `excludeFieldArray`.
+* Ajouté `excludeFieldArray`.
 
 **getFolderTree**
 
-* Ajout `excludeFieldArray` et `getUniqueMetadataValues`.
-* Ajout `fieldHandle` d’un paramètre obligatoire.
+* Ajouté `excludeFieldArray` et `getUniqueMetadataValues`.
+* Ajout de `fieldHandle` paramètre obligatoire.
 
