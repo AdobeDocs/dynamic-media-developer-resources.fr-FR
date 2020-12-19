@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 46ec9a5d-4414-4c9c-aaf2-0db654204b61
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 20%
 
 ---
 
@@ -18,7 +21,7 @@ Obtient des projets pour un groupe d’actifs connexes.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-337649866b1f4098844d1974ed7ab5d0}
+## Types d’utilisateur autorisés {#section-337649866b1f4098844d1974ed7ab5d0}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,13 +36,13 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | La poignée du. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | La poignée de la société. |
 
-**Output (getProjectsReturn)**
+**Sortie (getProjectsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`projectArray`*` | `types:ProjectArray` | Oui | Tableau de projets associés au  de. |
+| ` *`projectArray`*` | `types:ProjectArray` | Oui | Tableau de projets associés à la société. |
 
 ## Exemples {#section-8b12d0b948f644f68bf9a16060d3849a}
 
