@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 9304f02c-a1df-4477-ab33-f2491c390c92
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 12%
 
 ---
 
@@ -18,7 +21,7 @@ Ajoute de nouvelles valeurs de balise au dictionnaire d’un champ de balise exi
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-ba1d7040661e48b7a6b035494e065c91}
+## Types d’utilisateur autorisés {#section-ba1d7040661e48b7a6b035494e065c91}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -26,12 +29,12 @@ Syntaxe
 
 ## Paramètres {#section-abe8893038bb4ddfaccc11a8c75e6bd0}
 
-**Input (addTagFieldValuesParam)**
+**Entrée (addTagFieldValuesParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | poignée du contenant le champ de balise. |
-| ` *`fieldHandle`*` | `xsd:string` | Oui | Poignée du champ de balise à modifier. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de la société contenant le champ de balise. |
+| ` *`fieldHandle`*` | `xsd:string` | Oui | Handle du champ de balise à modifier. |
 | ` *`valueArray`*` | `xsd:string` | Oui | Tableau de valeurs de balise à ajouter au dictionnaire existant du champ. |
 
 **Output (addTagFieldValuesParam)**
