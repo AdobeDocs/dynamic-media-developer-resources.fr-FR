@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 9539ede1-08fb-4bfc-8a5a-870c7d84de7f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '93'
+ht-degree: 7%
 
 ---
 
@@ -19,16 +22,16 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_D5992FCFF26046079089652B211BB6C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> none|fade|slide </span> </p> </td> 
-   <td colname="col2"> <p>Indique le type de l’effet appliqué au changement d’image. <span class="codeph"> aucun </span> n'est pour aucun; le changement d’image se produit instantanément. </p> <p> <span class="codeph"> fondu </span> signifie un fondu croisé des  entre les anciennes et les nouvelles images. </p> <p> <span class="codeph"> la diapositive </span> active le où l’ancienne image s’écoule hors du et où la nouvelle image s’écoule. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> none|fade|slide  </span> </p> </td> 
+   <td colname="col2"> <p>Indique le type de l’effet appliqué au changement d’image. <span class="codeph"> aucune  </span> représente l'absence de transition ; un changement d'image se produit instantanément. </p> <p> <span class="codeph"> fade  </span> signifie une transition de fondu enchaîné entre les anciennes et les nouvelles images. </p> <p> <span class="codeph"> La diapositive  </span> active la transition dans laquelle l’ancienne image se retire de la vue et la nouvelle image s’y glisse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> durée </span></span> </p> </td> 
-   <td colname="col2"> <p>Indique la durée (en secondes) de l’ <span class="codeph"> effet de fondu </span> ou de l’effet de <span class="codeph"> de diapositives </span> . </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> durée  </span> </span> </p> </td> 
+   <td colname="col2"> <p>Spécifie la durée (en seconde) de l'effet de transition <span class="codeph"> fondu </span> ou <span class="codeph"> diapositive </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> espacement </span></span> </p> </td> 
-   <td colname="col2"> <p>L’espacement entre les images adjacentes dans les <span class="codeph">  de </span> diapositive <span class="codeph"> , est compris entre </span> 0 <span class="codeph"> et </span> 1 et est relatif à la largeur du composant. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> espacement  </span> </span> </p> </td> 
+   <td colname="col2"> <p>L'espacement entre les trames adjacentes dans la transition de la diapositive <span class="codeph"> a la plage comprise entre </span> 0 <span class="codeph"> et </span> 1 <span class="codeph"> et est relatif à la largeur du composant.</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
