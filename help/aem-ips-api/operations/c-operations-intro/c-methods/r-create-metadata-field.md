@@ -1,6 +1,6 @@
 ---
-description: Permet aux administrateurs de créer de nouveaux champs de métadonnées afin de les coordonner avec les systèmes  ou pour les opérations de modèle. Les champs de métadonnées créés sont, par exemple, des mots-clés, des informations sur l’auteur de l’image ou des informations sur le détenteur du copyright.
-seo-description: Permet aux administrateurs de créer de nouveaux champs de métadonnées afin de les coordonner avec les systèmes  ou pour les opérations de modèle. Les champs de métadonnées créés sont, par exemple, des mots-clés, des informations sur l’auteur de l’image ou des informations sur le détenteur du copyright.
+description: Permet aux administrateurs de créer de nouveaux champs de métadonnées afin de les coordonner avec les systèmes de gestion de contenu ou pour les opérations de modèle. Les champs de métadonnées créés sont, par exemple, des mots-clés, des informations sur l’auteur de l’image ou des informations sur le détenteur du copyright.
+seo-description: Permet aux administrateurs de créer de nouveaux champs de métadonnées afin de les coordonner avec les systèmes de gestion de contenu ou pour les opérations de modèle. Les champs de métadonnées créés sont, par exemple, des mots-clés, des informations sur l’auteur de l’image ou des informations sur le détenteur du copyright.
 seo-title: createMetadataField
 solution: Experience Manager
 title: createMetadataField
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 50ab61fa-df44-4305-ad9f-693c4aea1e69
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '317'
+ht-degree: 12%
 
 ---
 
 
 # createMetadataField{#createmetadatafield}
 
-Permet aux administrateurs de créer de nouveaux champs de métadonnées afin de les coordonner avec les systèmes  ou pour les opérations de modèle. Les champs de métadonnées créés sont, par exemple, des mots-clés, des informations sur l’auteur de l’image ou des informations sur le détenteur du copyright.
+Permet aux administrateurs de créer de nouveaux champs de métadonnées afin de les coordonner avec les systèmes de gestion de contenu ou pour les opérations de modèle. Les champs de métadonnées créés sont, par exemple, des mots-clés, des informations sur l’auteur de l’image ou des informations sur le détenteur du copyright.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-2f61d79f8cac4692bfa53b95035ddd89}
+## Types d’utilisateur autorisés {#section-2f61d79f8cac4692bfa53b95035ddd89}
 
 * `IpsAdmin`
 
@@ -37,52 +40,52 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyName</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Nom du auquel le champ de métadonnées appartient. </td> 
+   <td colname="col4"> Nom de la société à laquelle appartient le champ de métadonnées. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetType</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"> Type de fichier. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> nom</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"> Nom du champ de métadonnées que vous créez. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4">Type de champ de métadonnées. <p>La constante de types de champ de métadonnées définit les types disponibles. </p> </td> 
+   <td colname="col4">Type de champ de métadonnées. <p>La constante types de champ de métadonnées définit les types disponibles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> <p>Valeur par défaut du champ de métadonnées à créer ( <span class="codeph"> Scene 7</span>, par exemple). </p> <p>Les valeurs par défaut ne sont pas prises en charge pour les types de champs de balise et doivent être omises. Si une valeur par défaut non vide est spécifiée pour un type de champ de balise, une erreur est renvoyée. </p> </td> 
+   <td colname="col4"> <p>Valeur par défaut du champ de métadonnées à créer (par exemple, <span class="codeph"> Scene7</span>). </p> <p>Les valeurs par défaut ne sont pas prises en charge pour les types de champs de balise et doivent être omises. Si une valeur par défaut non vide est spécifiée pour un type de champ de balise, une erreur est renvoyée. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> est Masqué</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> Masquez ou affichez les métadonnées spécifiques au système IPS. </td> 
+   <td colname="col4"> Masquer ou exposer les métadonnées spécifiques au système IPS. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"><span class="varname"> isEnered</span></span> </td> 
+   <td colname="col1"><span class="codeph"><span class="varname"> isEnded</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Indicateur booléen indiquant si le champ de métadonnées est appliqué (validé) lorsque la valeur est définie. </p> <p>Si la valeur est définie sur true, une erreur est générée si une valeur non autorisée est définie dans <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col4"> <p>Indicateur booléen qui indique si le champ de métadonnées est appliqué (validé) lorsque la valeur est définie. </p> <p>Si la valeur est définie sur true, une erreur est générée si une valeur non autorisée est définie dans <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> Permet de créer un ensemble de valeurs énumérées partagées auxquelles les balises sélectionnées peuvent pointer. </td> 
+   <td colname="col4"> Permet de créer un ensemble de valeurs énumérées partagées vers lesquelles les balises sélectionnées peuvent pointer. </td> 
   </tr> 
  </tbody> 
 </table>
