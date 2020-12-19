@@ -15,10 +15,10 @@ ht-degree: 5%
 ---
 
 
-# Data types{#data-types}
+# Types de données{#data-types}
 
 + [AcoInfo](r-aco-info.md)
-+ [submitActif](r-active-job.md)
++ [ActiveJob](r-active-job.md)
 + [ActiveJobArray](r-active-job-array.md)
 + [AnimatedGifInfo](r-animatedgifinfo.md)
 + [Fichier](r-asset.md)
@@ -159,11 +159,11 @@ ht-degree: 5%
 + [PostScriptOptions](r-post-script-options.md)
 + [PowerPointInfo](r-power-point-info.md)
 + [PremierExpressRemixInfo](r-premier-express-remix-info.md)
-+ [Propriété](r-project.md)
++ [Projet](r-project.md)
 + [ProjectArray](r-project-array.md)
 + [Propriété](r-property.md)
 + [PropertyArray](r-property-array.md)
-+ [ProjetPropriété](r-property-set.md)
++ [PropertySet](r-property-set.md)
 + [PropertySetArray](r-property-set-array.md)
 + [PropertySetType](r-property-set-type.md)
 + [PropertySetTypeArray](r-property-set-type-array.md)
