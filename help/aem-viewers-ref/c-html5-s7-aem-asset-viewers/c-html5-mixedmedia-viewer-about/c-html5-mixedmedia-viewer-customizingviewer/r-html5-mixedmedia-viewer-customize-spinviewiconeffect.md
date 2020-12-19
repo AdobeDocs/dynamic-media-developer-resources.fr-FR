@@ -1,24 +1,27 @@
 ---
-description: L’indicateur de rotation est superposé sur la zone de  de rotation. Elle s’affiche lorsque l’image est à l’état reset et dépend également du paramètre iconeffect.
-seo-description: L’indicateur de rotation est superposé sur la zone de  de rotation. Elle s’affiche lorsque l’image est à l’état reset et dépend également du paramètre iconeffect.
-seo-title: Effet d’icône de à 360°
+description: L’indicateur de rotation est superposé sur la zone de vue de rotation. Elle s’affiche lorsque l’image est à l’état reset et dépend également du paramètre iconeffect.
+seo-description: L’indicateur de rotation est superposé sur la zone de vue de rotation. Elle s’affiche lorsque l’image est à l’état reset et dépend également du paramètre iconeffect.
+seo-title: Effet d’icône vue à 360°
 solution: Experience Manager
-title: Effet d’icône de à 360°
+title: Effet d’icône vue à 360°
 topic: Dynamic media
 uuid: 33445a3d-51dc-47a4-a8d1-87d25ea001e1
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '181'
+ht-degree: 1%
 
 ---
 
 
-# Effet d’icône de à 360°{#spin-view-icon-effect}
+# Effet d’icône de vue à 360°{#spin-view-icon-effect}
 
-L’indicateur de rotation est superposé sur la zone de  de rotation. Elle s’affiche lorsque l’image est à l’état reset et dépend également du paramètre iconeffect.
+L’indicateur de rotation est superposé sur la zone de vue de rotation. Elle s’affiche lorsque l’image est à l’état reset et dépend également du paramètre iconeffect.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriétés CSS de la zone de visionneuse principale**
+**Propriétés CSS de la zone de visualisation principale**
 
 L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe CSS suivant :
 
@@ -35,12 +38,12 @@ L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe C
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan  </span> </p> </td> 
    <td colname="col2"> <p> Illustration de l’indicateur de rotation. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
-   <td colname="col2"> <p> Positionnez-vous à l’intérieur de l’image-objet d’illustration, si des images-objets CSS sont utilisées. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
+   <td colname="col2"> <p> Positionnez l’objet à l’intérieur de l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -53,7 +56,7 @@ L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe C
  </tbody> 
 </table>
 
-L’indicateur de rotation prend en charge le sélecteur d’ `state` attributs qui est défini sur `spin_1D` en cas de visionneuse à 360° unidimensionnelle et `spin_2D` en cas de visionneuse à 360° multidimensionnelle.
+L’indicateur de rotation prend en charge le sélecteur d’attributs `state` qui est défini sur `spin_1D` dans le cas d’une visionneuse à 360° unidimensionnelle et sur `spin_2D` dans le cas d’une visionneuse à 360° multidimensionnelle.
 
 Exemple : pour configurer un indicateur de zoom de 100 x 100 pixels.
 
