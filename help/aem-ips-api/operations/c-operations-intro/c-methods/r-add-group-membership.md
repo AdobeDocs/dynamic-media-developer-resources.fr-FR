@@ -1,24 +1,27 @@
 ---
 description: Ajoute un utilisateur à un tableau de groupes.
 seo-description: Ajoute un utilisateur à un tableau de groupes.
-seo-title: addGroupMember
+seo-title: addGroupMembership
 solution: Experience Manager
-title: addGroupMember
+title: addGroupMembership
 topic: Scene7 Image Production System API
 uuid: a8e25f27-c300-424d-83ac-e41bb4cb7964
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 13%
 
 ---
 
 
-# addGroupMember{#addgroupmembership}
+# addGroupMembership{#addgroupmembership}
 
 Ajoute un utilisateur à un tableau de groupes.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-fe950150718a474d8df30d0f4453c022}
+## Types d’utilisateur autorisés {#section-fe950150718a474d8df30d0f4453c022}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -26,7 +29,7 @@ Syntaxe
 
 ## Paramètres {#section-e250f6ddb13646808c6a8860b6442bc5}
 
-**Entrée (addGroupMembshipParam)**
+**Entrée (addGroupMembershipParam)**
 
 <table id="table_71AD8902E4854CA5A12379DBA4DF17C7"> 
  <thead> 
@@ -39,27 +42,27 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Non </p> </td> 
    <td colname="col4"> <p>Traitez l’utilisateur dont vous souhaitez ajouter l’appartenance au groupe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> groupHandleArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> groupHandleArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:HandleArray</span> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Tableau de poignées vers les groupes auxquels vous souhaitez que le appartienne. </p> </td> 
+   <td colname="col4"> <p>Tableau de poignées vers les groupes auxquels la société doit appartenir. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (addGroupMembshipParam)**
+**Output (addGroupMembershipParam)**
 
 L&#39;API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-f7a1f40c3d7a40ea964b29056c734d81}
 
-Cet exemple montre comment ajouter un groupe à un  avec ` *`groupHandleArray`*`. Cet exemple utilise un seul groupe.
+Cet exemple montre comment ajouter un groupe à une société avec ` *`groupHandleArray`*`. Cet exemple utilise un seul groupe.
 
 **Request**
 
