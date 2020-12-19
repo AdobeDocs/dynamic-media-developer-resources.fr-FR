@@ -1,24 +1,27 @@
 ---
-description: Cliquez ou appuyez sur ce bouton pour réinitialiser une image dans le  principal. Ce bouton apparaît dans la barre de contrôle principale sur les ordinateurs de bureau et les tablettes. Sur les téléphones mobiles, ce bouton s’affiche au centre inférieur sur l’image. Toutefois, il n’est pas affiché lorsque l’image est à l’état de réinitialisation. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
-seo-description: Cliquez ou appuyez sur ce bouton pour réinitialiser une image dans le  principal. Ce bouton apparaît dans la barre de contrôle principale sur les ordinateurs de bureau et les tablettes. Sur les téléphones mobiles, ce bouton s’affiche au centre inférieur sur l’image. Toutefois, il n’est pas affiché lorsque l’image est à l’état de réinitialisation. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
-seo-title: Bouton de réinitialisation du zoom
+description: Cliquez ou appuyez sur ce bouton pour réinitialiser une image dans la vue principale. Ce bouton apparaît dans la barre de contrôle principale sur les ordinateurs de bureau et tablettes. Sur les téléphones portables, ce bouton s'affiche au centre inférieur sur l'image. Cependant, elle ne s’affiche pas lorsque l’image est à l’état de réinitialisation. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
+seo-description: Cliquez ou appuyez sur ce bouton pour réinitialiser une image dans la vue principale. Ce bouton apparaît dans la barre de contrôle principale sur les ordinateurs de bureau et tablettes. Sur les téléphones portables, ce bouton s'affiche au centre inférieur sur l'image. Cependant, elle ne s’affiche pas lorsque l’image est à l’état de réinitialisation. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
+seo-title: Bouton de réinitialisation de zoom
 solution: Experience Manager
-title: Bouton de réinitialisation du zoom
+title: Bouton de réinitialisation de zoom
 topic: Dynamic media
 uuid: 19ef5c77-8352-4021-a022-adec6ecbf078
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '418'
+ht-degree: 1%
 
 ---
 
 
-# Bouton de réinitialisation du zoom{#zoom-reset-button}
+# Bouton de réinitialisation de zoom{#zoom-reset-button}
 
-Cliquez ou appuyez sur ce bouton pour réinitialiser une image dans le  principal. Ce bouton apparaît dans la barre de contrôle principale sur les ordinateurs de bureau et les tablettes. Sur les téléphones mobiles, ce bouton s’affiche au centre inférieur sur l’image. Toutefois, il n’est pas affiché lorsque l’image est à l’état de réinitialisation. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
+Cliquez ou appuyez sur ce bouton pour réinitialiser une image dans la vue principale. Ce bouton apparaît dans la barre de contrôle principale sur les ordinateurs de bureau et tablettes. Sur les téléphones portables, ce bouton s&#39;affiche au centre inférieur sur l&#39;image. Cependant, elle ne s’affiche pas lorsque l’image est à l’état de réinitialisation. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriétés CSS de la zone de visionneuse principale**
+**Propriétés CSS de la zone de visualisation principale**
 
 L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
@@ -38,7 +41,7 @@ L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suiv
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> droite </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure droite de la barre de contrôle principale (sur les ordinateurs et tablettes) ou du lecteur (sur les téléphones mobiles), y compris le remplissage. </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure droite de la barre de contrôle principale (sur les ordinateurs de bureau et tablettes) ou du lecteur (sur les téléphones portables), y compris le remplissage. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> gauche </span> </p> </td> 
@@ -46,7 +49,7 @@ L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suiv
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bas </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure inférieure de la barre de contrôle principale (sur les ordinateurs et tablettes) ou du lecteur (sur les téléphones mobiles), y compris le remplissage. </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure inférieure de la barre de contrôle principale (sur les ordinateurs de bureau et tablettes) ou du lecteur (sur les téléphones mobiles), y compris le remplissage. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -57,23 +60,23 @@ L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suiv
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan  </span> </p> </td> 
    <td colname="col2"> <p>Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
-   <td colname="col2"> <p> Positionnez-vous à l’intérieur de l’image-objet d’illustration, si des images-objets CSS sont utilisées. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
+   <td colname="col2"> <p> Positionnez l’objet à l’intérieur de l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ce bouton prend en charge le sélecteur d’ `state` attributs, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
-L’info-bulle du bouton peut être localisée. Pour plus d’informations, voir [des éléments](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) de l’interface utilisateur.
+L’info-bulle du bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 
-Exemple : pour configurer un bouton de réinitialisation du zoom de 28 x 28 pixels, positionné (sur le bureau) à 4 pixels du bas et à 47 pixels du bord droit de la barre de contrôle principale, et affiche une image différente pour chacun des quatre états de bouton différents.
+Exemple : pour configurer un bouton de réinitialisation de zoom de 28 x 28 pixels, positionné (sur le bureau) à 4 pixels du bas et à 47 pixels du bord droit de la barre de contrôle principale, et affiche une image différente pour chacun des quatre états de bouton différents.
 
 ```
 .s7ecatalogsearchviewer .s7zoomresetbutton { 
