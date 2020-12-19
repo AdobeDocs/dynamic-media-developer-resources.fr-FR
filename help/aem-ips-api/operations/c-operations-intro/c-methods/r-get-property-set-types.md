@@ -1,6 +1,6 @@
 ---
-description: Obtient les types de jeux de propriétés associés au  de spécifié ou les types de jeux de propriétés globaux si aucun  de n’est spécifié.
-seo-description: Obtient les types de jeux de propriétés associés au  de spécifié ou les types de jeux de propriétés globaux si aucun  de n’est spécifié.
+description: Obtient les types de jeux de propriétés associés à la société spécifiée ou les types de jeux de propriétés globaux si aucune société n'est spécifiée.
+seo-description: Obtient les types de jeux de propriétés associés à la société spécifiée ou les types de jeux de propriétés globaux si aucune société n'est spécifiée.
 seo-title: getPropertySetTypes
 solution: Experience Manager
 title: getPropertySetTypes
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: b707344d-5571-45eb-9e37-cf0894ee81a0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '134'
+ht-degree: 12%
 
 ---
 
 
 # getPropertySetTypes{#getpropertysettypes}
 
-Obtient les types de jeux de propriétés associés au  de spécifié ou les types de jeux de propriétés globaux si aucun  de n’est spécifié.
+Obtient les types de jeux de propriétés associés à la société spécifiée ou les types de jeux de propriétés globaux si aucune société n&#39;est spécifiée.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-9c7c0d2cd2c94dfca3f96774b3a9a2c6}
+## Types d’utilisateur autorisés {#section-9c7c0d2cd2c94dfca3f96774b3a9a2c6}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,7 +35,7 @@ Syntaxe
 
 ## Paramètres {#section-ac3ed9e036b54ea993f544046ff0e15d}
 
-**Input (getPropertySetTypesParam)**
+**Entrée (getPropertySetTypesParam)**
 
 <table id="table_2590368FEEF04AD4B074412CBBA90F88"> 
  <thead> 
@@ -45,10 +48,10 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> sociétéHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4">poignée du auquel sont associés les types de jeux de propriétés. <p>Omettez si vous souhaitez renvoyer des types de jeux de propriétés globaux. </p> </td> 
+   <td colname="col4">poignée de la société à laquelle les types de jeux de propriétés sont associés. <p>Omet si vous souhaitez renvoyer des types de jeux de propriétés globaux. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,7 +60,7 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`typeArray`*` | `types:PropertySetTypeArray` | Oui | Tableau de types de jeux de propriétés associés au  de spécifié ou aux types de jeux de propriétés globaux si aucun  de n’a été spécifié. |
+| ` *`typeArray`*` | `types:PropertySetTypeArray` | Oui | Tableau de types de jeux de propriétés associés à la société spécifiée ou de types de jeux de propriétés globaux si aucune société n&#39;a été spécifiée. |
 
 ## Exemples {#section-280c406a90864409856aee44d4069a52}
 
