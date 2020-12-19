@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: b0cdc9ee-4399-4783-99ec-cd9d03f262b1
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 8%
 
 ---
 
@@ -19,8 +22,8 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
 <table id="table_95890560230C48BBB03A8082F56382CA"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> gauche|centre|droite</span> </p> </td> 
-   <td> <p> Indique l’alignement horizontal interne (ancrage) du de miniatures  dans la zone du composant. Dans ThumbnailGridView, le  de miniature interne est dimensionné de sorte que seul un nombre entier de miniatures s’affiche. Par conséquent, il existe un certain remplissage entre les limites du interne et celles du composant externe. Ce modificateur spécifie le positionnement horizontal du  des miniatures internes dans le composant. </p> </td> 
+   <td> <p> <span class="codeph"> left|center|right</span> </p> </td> 
+   <td> <p> Indique l’alignement horizontal interne (ancrage) du conteneur de miniatures dans la zone du composant. Dans ThumbnailGridView, le conteneur de miniature interne est dimensionné de sorte que seul un nombre entier de miniatures s’affiche. En conséquence, il y a un certain remplissage entre le conteneur interne et les limites du composant externe. Ce modificateur spécifie comment le conteneur des miniatures internes est positionné horizontalement à l’intérieur du composant. </p> </td> 
   </tr> 
  </tbody> 
 </table>
