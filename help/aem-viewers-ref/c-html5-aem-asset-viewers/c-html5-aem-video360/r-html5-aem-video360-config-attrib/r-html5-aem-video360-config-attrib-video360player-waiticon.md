@@ -1,6 +1,6 @@
 ---
-description: Attribut de configuration pour le lecteur vidéo360.
-seo-description: Attribut de configuration pour le lecteur vidéo360.
+description: Attribut de configuration pour la visionneuse Video360.
+seo-description: Attribut de configuration pour la visionneuse Video360.
 seo-title: Video360Player.waiticon
 solution: Experience Manager
 title: Video360Player.waiticon
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: c28cfba4-2bc9-4f02-9f99-7a8fa96ac592
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '34'
+ht-degree: 32%
 
 ---
 
 
 # Video360Player.waiticon{#video-player-waiticon}
 
-Attribut de configuration pour le lecteur vidéo360.
+Attribut de configuration pour la visionneuse Video360.
 
 `[Video360Player.|<containerId>_video360Player.]waiticon=0|1`
 
@@ -22,7 +25,7 @@ Attribut de configuration pour le lecteur vidéo360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Active ou désactive l’affichage de l’animation de mise en mémoire tampon (icône d’attente). </p> </td> 
+   <td colname="col2"> <p> Active ou désactive l'affichage de l'animation de mise en mémoire tampon (icône d'attente). </p> </td> 
   </tr> 
  </tbody> 
 </table>
