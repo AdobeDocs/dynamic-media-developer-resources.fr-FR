@@ -1,26 +1,29 @@
 ---
-description: L’indicateur Set est une série de points rendus par-dessus les échantillons principaux lorsqu’une visionneuse est utilisée sur un périphérique tactile. Les points aident les utilisateurs à parcourir les pages des miniatures lorsque les boutons de défilement ne sont pas disponibles.
-seo-description: L’indicateur Set est une série de points rendus par-dessus les échantillons principaux lorsqu’une visionneuse est utilisée sur un périphérique tactile. Les points aident les utilisateurs à parcourir les pages des miniatures lorsque les boutons de défilement ne sont pas disponibles.
-seo-title: Définir un indicateur
+description: L’indicateur défini est une série de points affichés sur les nuances principales lorsqu’une visionneuse est utilisée sur un périphérique tactile. Les points aident les utilisateurs à parcourir les pages des miniatures lorsque les boutons de défilement ne sont pas disponibles.
+seo-description: L’indicateur défini est une série de points affichés sur les nuances principales lorsqu’une visionneuse est utilisée sur un périphérique tactile. Les points aident les utilisateurs à parcourir les pages des miniatures lorsque les boutons de défilement ne sont pas disponibles.
+seo-title: Définir l’indicateur
 solution: Experience Manager
-title: Définir un indicateur
+title: Définir l’indicateur
 topic: Dynamic media
 uuid: e62fac7c-28b6-40bf-83cc-8bcfbaa0dfa3
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '297'
+ht-degree: 1%
 
 ---
 
 
-# Définir un indicateur{#set-indicator}
+# Définir l&#39;indicateur{#set-indicator}
 
-L’indicateur Set est une série de points rendus par-dessus les échantillons principaux lorsqu’une visionneuse est utilisée sur un périphérique tactile. Les points aident les utilisateurs à parcourir les pages des miniatures lorsque les boutons de défilement ne sont pas disponibles.
+L’indicateur défini est une série de points affichés sur les nuances principales lorsqu’une visionneuse est utilisée sur un périphérique tactile. Les points aident les utilisateurs à parcourir les pages des miniatures lorsque les boutons de défilement ne sont pas disponibles.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriétés CSS de l’indicateur d’ensemble**
+**Propriétés CSS de l’indicateur de définition**
 
-L’aspect du d’indicateur défini est contrôlé à l’aide du sélecteur de classe CSS suivant :
+L’aspect du conteneur d’indicateur de définition est contrôlé par le sélecteur de classe CSS suivant :
 
 ```
 .s7mixedmediaviewer .s7setindicator
@@ -35,13 +38,13 @@ L’aspect du d’indicateur défini est contrôlé à l’aide du sélecteur de
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
    <td colname="col2"> <p>Couleur d’arrière-plan au format hexadécimal de l’indicateur défini. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : pour définir un indicateur avec un arrière-plan blanc :
+Exemple - pour définir un indicateur avec un arrière-plan blanc :
 
 ```
 .s7mixedmediaviewer .s7setindicator { 
@@ -49,7 +52,7 @@ Exemple : pour définir un indicateur avec un arrière-plan blanc :
 }
 ```
 
-L’aspect d’un point d’indicateur de jeu individuel est contrôlé par le sélecteur de classe CSS :
+L’aspect d’un point d’indicateur de paramètre individuel est contrôlé par le sélecteur de classe CSS :
 
 `.s7mixedmediaviewer .s7setindicator .s7dot`
 
@@ -67,30 +70,30 @@ L’aspect d’un point d’indicateur de jeu individuel est contrôlé par le s
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Hauteur du point d’indicateur défini. </p> </td> 
+   <td colname="col2"> <p>Hauteur du point indicateur défini. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge-gauche </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge-gauche  </span> </p> </td> 
    <td colname="col2"> <p>Marge gauche en pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge-haut </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
    <td colname="col2"> <p>Marge supérieure en pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge-droite </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge droite  </span> </p> </td> 
    <td colname="col2"> <p>Marge droite en pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-bottom  </span> </p> </td> 
    <td colname="col2"> <p>Marge inférieure en pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p>Rayon de la bordure en pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
    <td colname="col2"> <p>Couleur d’arrière-plan au format hexadécimal. </p> </td> 
   </tr> 
  </tbody> 
@@ -98,9 +101,9 @@ L’aspect d’un point d’indicateur de jeu individuel est contrôlé par le s
 
 >[!NOTE]
 >
->Le point indicateur de définition prend en charge le sélecteur d’ `state` attributs, qui peut être utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la page active des miniatures, `state="unselected"` correspond à l’état du point par défaut.
+>Le paramètre indicateur dot prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la page actuelle des miniatures, `state="unselected"` correspond à l’état du point par défaut.
 
-Exemple : pour définir le point indicateur sur 15 x 15 pixels, avec une marge horizontale de deux pixels, une marge supérieure de cinq pixels, une marge inférieure d’un pixel, un rayon de douze pixels, la couleur par défaut #D5D3D3 et la couleur active #939393 :
+Exemple : pour définir un point indicateur de 15 x 15 pixels, avec une marge horizontale de deux pixels, une marge supérieure de cinq pixels, une marge inférieure de un pixel, un rayon de douze pixels, la couleur par défaut #D5D3D3 et la couleur principale #939393 :
 
 ```
 .s7mixedmediaviewer .s7setindicator .s7dot { 
