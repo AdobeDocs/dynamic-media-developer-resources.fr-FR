@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: f1a9f2bc-9a13-4980-9241-e835a0aadd2c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '121'
+ht-degree: 4%
 
 ---
 
@@ -19,24 +22,24 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_AB421835D2454ECD8AA40DBFADBAC65F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> aucun|diapositive|fondu </span></span> </p> </td> 
-   <td colname="col2"> <p> Indique le type d’effet appliqué lorsque le de fenêtre déroulante est affiché ou masqué. Avec <span class="codeph"> none </span>, l’image de la fenêtre déroulante s’affiche instantanément lorsqu’elle est activée et prête ; La <span class="codeph"> diapositive </span> fait lire l’animation de la diapositive de gauche à droite ; Le <span class="codeph"> fondu </span> applique un alpha à l’image de la fenêtre déroulante. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|slide|fade  </span> </span> </p> </td> 
+   <td colname="col2"> <p> Indique le type d’effet appliqué lorsque la vue de la fenêtre déroulante est affichée ou masquée. Avec <span class="codeph"> none </span>, l'image de fenêtre déroulante s'affiche instantanément lorsqu'elle est activée et prête ; <span class="codeph"> la diapositive </span> fait jouer l'animation de la diapositive de gauche à droite ; <span class="codeph"> fondu </span> applique une transition alpha à l'image de la fenêtre déroulante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> démonstration </span></span> </p> </td> 
-   <td colname="col2"> <p> Nombre de secondes nécessaires à l’achèvement de l’animation d’affichage. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> démonstration  </span> </span> </p> </td> 
+   <td colname="col2"> <p> Nombre de secondes que l'animation d'affichage prend pour se terminer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showdelay </span></span> </p> </td> 
-   <td colname="col2"> <p> Délai, en secondes, entre l’action de l’utilisateur qui initie l’animation d’affichage et le début de l’animation d’affichage elle-même. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showdelay  </span> </span> </p> </td> 
+   <td colname="col2"> <p> Délai en secondes entre l'action de l'utilisateur qui initie l'animation d'affichage et le début de l'animation d'affichage lui-même. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hivernage </span></span> </p> </td> 
-   <td colname="col2"> <p> Nombre de secondes nécessaires à l’achèvement de l’animation de masquage. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hidetime  </span> </span> </p> </td> 
+   <td colname="col2"> <p> Nombre de secondes pendant lesquelles l'animation de masquage se termine. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hidedelay </span></span> </p> </td> 
-   <td colname="col2"> <p> Délai en secondes entre l’action de l’utilisateur qui initie l’animation de masquage et le début de l’animation de masquage elle-même. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hidedelay  </span> </span> </p> </td> 
+   <td colname="col2"> <p> Délai en secondes entre l'action de l'utilisateur qui initie l'animation de masquage et le début de l'animation de masquage elle-même. </p> </td> 
   </tr> 
  </tbody> 
 </table>
