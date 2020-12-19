@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 16a0ca99-1ed5-4f1d-b068-55adc46fde0b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '98'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> durée</span></span> </p> </td> 
-   <td colname="col2"> <p> Indique le nombre de secondes pendant lesquelles le texte de l’info-bulle s’affiche avant qu’il ne se masque. Lorsqu’il est défini sur <span class="codeph"> -1</span>, le message s’affiche toujours, même si l’utilisateur active la fenêtre déroulante. </p> </td> 
+   <td colname="col2"> <p> Indique le nombre de secondes d’affichage du texte avant sa masquage. Lorsqu’il est défini sur <span class="codeph"> -1</span>, le message s’affiche toujours, même si l’utilisateur active la fenêtre déroulante. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> nombre</span></span> </p> </td> 
@@ -28,7 +31,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> fondre</span></span> </p> </td> 
-   <td colname="col2"> Indique la durée d’une animation en fondu qui se produit lorsque le texte apparaît ou disparaît. La valeur <span class="codeph"> 0</span> indique l’absence de  de fondu. </td> 
+   <td colname="col2"> Indique la durée d’une animation de fondu qui se produit lorsque le texte apparaît ou disparaît. La valeur <span class="codeph"> 0</span> indique qu’il n’y a pas de transition de fondu. </td> 
   </tr> 
  </tbody> 
 </table>
