@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: FavorisView.textpos
+seo-title: FavoritesView.textpos
 solution: Experience Manager
-title: FavorisView.textpos
+title: FavoritesView.textpos
 topic: Dynamic media
 uuid: 851e3631-0fd9-4ed5-bef9-af5dca6e7646
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '66'
+ht-degree: 9%
 
 ---
 
 
-# FavorisView.textpos{#favoritesview-textpos}
+# FavoritesView.textpos{#favoritesview-textpos}
 
 [!DNL `[FavoritesView.|<containerId>_favoritesView.]textpos=bottom|top|left|right|none|tooltip`]
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td colname="col2"> <p> Indique l’endroit où le libellé est tracé par rapport à l’image miniature. Autrement dit, le libellé est centré à l’emplacement spécifié par rapport à la miniature. </p> <p>Lorsque <span class="codeph"> l’info-bulle</span> est spécifiée, le texte du libellé s’affiche sous forme d’info-bulle flottante sur l’image miniature. </p> <p>Lorsqu’elle est définie sur <span class="codeph"> none</span>, l’affichage des étiquettes est désactivé. </p> </td> 
+   <td colname="col2"> <p> Indique où l’étiquette est dessinée par rapport à l’image miniature. En d’autres termes, l’étiquette est centrée à l’emplacement spécifié par rapport à la miniature. </p> <p>Lorsque <span class="codeph"> tooltip</span> est spécifié, le texte de l’étiquette s’affiche sous forme d’info-bulle flottante sur l’image miniature. </p> <p>Lorsqu'elle est définie sur <span class="codeph"> none</span>, l'affichage des étiquettes est désactivé. </p> </td> 
   </tr> 
  </tbody> 
 </table>
