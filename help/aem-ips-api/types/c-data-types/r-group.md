@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 4be4ff41-8ef1-4b56-b2dc-074992fe0d6b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '51'
+ht-degree: 17%
 
 ---
 
@@ -22,8 +25,8 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| ` *`groupHandle`*` | `xsd:string` | Poignée du groupe. |
-| ` *`companyHandle`*` | `xsd:string` |  poignée. |
-| ` *`nom`*` | `xsd:string` | Nom du groupe. |
+| ` *`groupHandle`*` | `xsd:string` | Poignée de groupe. |
+| ` *`companyHandle`*` | `xsd:string` | Poignée de société. |
+| ` *`name`*` | `xsd:string` | Nom du groupe. |
 | ` *`is SystemDefined`*` | `xsd:string` | Indique si le groupe est défini par le système. |
 
