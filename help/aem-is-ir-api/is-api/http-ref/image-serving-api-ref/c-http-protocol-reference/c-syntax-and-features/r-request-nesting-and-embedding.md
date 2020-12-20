@@ -23,13 +23,13 @@ Image Serving prend en charge l’imbrication illimitée de requêtes de diffusi
 >
 >Certains clients de messagerie et serveurs proxy peuvent coder les accolades utilisées pour la syntaxe d’imbrication et d’incorporation. Les applications pour lesquelles il s’agit d’un problème doivent utiliser des parenthèses plutôt que des accolades.
 
-## Demandes de diffusion d’images imbriquées {#section-6954202119e0466f8ff27c79f4f039c8}
+## Requêtes de diffusion d’images imbriquées {#section-6954202119e0466f8ff27c79f4f039c8}
 
-Une requête de diffusion d’images complète peut être utilisée comme source de calques en la spécifiant dans la commande `src=` (ou `mask=`) en utilisant la syntaxe suivante :
+Une requête de diffusion d’images complète peut être utilisée comme source de calque en la spécifiant dans la commande `src=` (ou `mask=`) en utilisant la syntaxe suivante :
 
 `…&src=is( nestedRequest)&…`
 
-Le `is` jeton est sensible à la casse.
+Le jeton `is` est sensible à la casse.
 
 La requête imbriquée ne doit pas inclure le chemin d’accès racine du serveur (généralement ` http:// *[!DNL server]*/is/image/'`).
 
@@ -39,7 +39,7 @@ La requête imbriquée ne doit pas inclure le chemin d’accès racine du serveu
 
 Les règles de prétraitement sont appliquées aux requêtes imbriquées.
 
-Les commandes suivantes sont ignorées lorsqu’elles sont spécifiées dans des requêtes imbriquées (dans l’URL de la requête ou dans `catalog::Modifier` ou `catalog::PostModifier`) :
+Les commandes suivantes sont ignorées lorsqu’elles sont spécifiées dans des requêtes imbriquées (soit dans l’URL de la requête, soit dans `catalog::Modifier` ou `catalog::PostModifier`) :
 
 * `fmt=`
 * `qlt=`
@@ -51,9 +51,9 @@ Les commandes suivantes sont ignorées lorsqu’elles sont spécifiées dans des
 
 Si l’image de résultat des requêtes imbriquées inclut des données de masque (alpha), elle est transmise au calque d’incorporation en tant que masque de calque.
 
-Le catalogue d’images qui s’applique à la demande imbriquée est également ignoré `attribute::MaxPix`et `attribute::DefaultPix` celui-ci.
+`attribute::MaxPix`et `attribute::DefaultPix` du catalogue d’images qui s’applique à la demande imbriquée sont également ignorés.
 
-Le résultat de l&#39;image d&#39;une requête IS imbriquée peut être mis en cache éventuellement en incluant `cache=on`. Par défaut, la mise en cache des données intermédiaires est désactivée. La mise en cache ne doit être activée que lorsque l’image intermédiaire doit être réutilisée dans une autre demande dans un délai raisonnable. La gestion standard du cache côté serveur s’applique. Les données sont mises en cache dans un format sans perte.
+Le résultat d&#39;image d&#39;une requête IS imbriquée peut être mis en cache éventuellement en incluant `cache=on`. Par défaut, la mise en cache des données intermédiaires est désactivée. La mise en cache ne doit être activée que lorsque l’image intermédiaire doit être réutilisée dans une autre demande dans un délai raisonnable. La gestion standard du cache côté serveur s’applique. Les données sont mises en cache dans un format sans perte.
 
 ## Demandes de rendu d’image incorporées {#section-69c5548db930412b9b90d9b2951a6969}
 
@@ -61,9 +61,9 @@ Lorsque le rendu des images Scene7 est activé sur le serveur, les requêtes de 
 
 ` …&src=ir( *[!DNL renderRequest]*)&…`
 
-Le `ir` jeton est sensible à la casse.
+Le jeton `ir` est sensible à la casse.
 
-*[!DNL renderRequest]* est la requête de rendu d’image habituelle, à l’exception du chemin racine HTTP ` http:// *[!DNL server]*/ir/render/`.
+*[!DNL renderRequest]* est la requête de rendu d’image habituelle, à l’exception du chemin racine HTTP  ` http:// *[!DNL server]*/ir/render/`.
 
 >[!NOTE]
 >
@@ -78,23 +78,23 @@ Les commandes de rendu d’image suivantes sont ignorées lorsqu’elles sont sp
 * `printRes=`
 * `req=`
 
-Le catalogue `attribute::MaxPix` `attribute::DefaultPix` de matières qui s’applique à la demande de rendu imbriquée est également ignoré.
+`attribute::MaxPix` et `attribute::DefaultPix` du catalogue de matières qui s’applique à la demande de rendu imbriquée sont également ignorés.
 
-Le résultat de l’image d’une requête IR imbriquée peut être mis en cache éventuellement en incluant `cache=on`. Par défaut, la mise en cache des données intermédiaires est désactivée. La mise en cache ne doit être activée que lorsque l’image intermédiaire doit être réutilisée dans une autre demande dans un délai raisonnable. La gestion standard du cache côté serveur s’applique. Les données sont mises en cache dans un format sans perte.
+Le résultat d&#39;image d&#39;une requête IR imbriquée peut être mis en cache éventuellement en incluant `cache=on`. Par défaut, la mise en cache des données intermédiaires est désactivée. La mise en cache ne doit être activée que lorsque l’image intermédiaire doit être réutilisée dans une autre demande dans un délai raisonnable. La gestion standard du cache côté serveur s’applique. Les données sont mises en cache dans un format sans perte.
 
 ## Demandes de rendu FXG incorporées {#section-c817e4b4f7da414ea5a51252ca7e120a}
 
-Lorsque le rendu graphique FXG (alias [!DNL AGMServer]) est installé et activé avec la fonction Image Serving, les requêtes FXG peuvent être utilisées comme sources de calques en les spécifiant dans `src=` (ou `mask=`) les commandes. Utilisez la syntaxe suivante :
+Lorsque le rendu graphique FXG (alias [!DNL AGMServer]) est installé et activé avec Image Serving, les requêtes FXG peuvent être utilisées comme sources de calques en les spécifiant dans les commandes `src=` (ou `mask=`). Utilisez la syntaxe suivante :
 
 `…&src=fxg( renderRequest)&…`
 
-Le `fxg` jeton est sensible à la casse.
+Le jeton `fxg` est sensible à la casse.
 
 >[!NOTE]
 >
->Le rendu des graphiques FXG est disponible uniquement dans l’environnement hébergé Scene7 et peut nécessiter une licence supplémentaire. Pour plus d’informations, contactez l’assistance de Scene7.
+>Le rendu des graphiques FXG n’est disponible que dans l’environnement hébergé par Scene7 et peut nécessiter une licence supplémentaire. Pour plus d’informations, contactez l’assistance Scene7.
 
-*[!DNL renderRequest]* est la requête de rendu FXG habituelle, à l’exception du chemin d’accès racine HTTP ` http:// *[!DNL server]*/agm/render/`.
+*[!DNL renderRequest]* est la requête de rendu FXG habituelle, à l’exception du chemin d’accès racine HTTP  ` http:// *[!DNL server]*/agm/render/`.
 
 >[!NOTE]
 >
@@ -116,13 +116,13 @@ Image Serving prend en charge l’accès aux images source sur les serveurs HTTP
 >
 >Seul le protocole HTTP est pris en charge pour les URL distantes.
 
-Pour spécifier une URL étrangère pour une commande `src=` ou une `mask=` commande, délimitez l’URL ou le fragment d’URL étranger entre parenthèses :
+Pour spécifier une URL étrangère pour une commande `src=` ou `mask=`, délimitez l’URL étrangère ou le fragment d’URL entre parenthèses :
 
 `…&src=( foreignUrl)&…`
 
 Important Les caractères de délimiteur ( `'(',')'`) et les caractères de délimiteur de commande ( `'?'`, `'&'`, `'='`) dans les requêtes imbriquées ne doivent pas être encodés en HTTP. En effet, les requêtes incorporées doivent être codées de la même manière que la requête externe (incorporation).
 
-Les URL absolues complètes (si `attribute::AllowDirectUrls` elles sont définies) et les URL relatives à `attribute::RootUrl` sont autorisées. Une erreur se produit si une URL absolue est incorporée et que l’attribut : `AllowDirectUrls` est 0 ou si une URL relative est spécifiée et `attribute::RootUrl` est vide.
+Les URL absolues complètes (si `attribute::AllowDirectUrls` est défini) et les URL relatives à `attribute::RootUrl` sont autorisées. Une erreur se produit si une URL absolue est incorporée et que l’attribut : `AllowDirectUrls` est 0 ou si une URL relative est spécifiée et `attribute::RootUrl` est vide.
 
 Bien que les URL étrangères ne puissent pas être spécifiées directement dans le composant de chemin d’accès de l’URL de requête, il est possible de configurer une règle de prétraitement pour permettre la conversion des chemins relatifs en URL absolues (voir l’exemple ci-dessous).
 
@@ -152,7 +152,7 @@ Avec de légères modifications, nous pouvons pré-dimensionner l’image du cal
 
 `layer=0&src=is(?src=$img$&size=300,300&cache=on)&layer=1&text=$txt$`
 
-**Incorporation de requêtes pour le rendu d’image Scene7**
+**Incorporation de requêtes pour le rendu des images Scene7**
 
 Utilisation d&#39;un modèle stocké dans [!DNL myCatalog/myTemplate]; générez l’image pour le calque2 du modèle à l’aide du rendu d’image Scene7 :
 
@@ -162,4 +162,4 @@ Notez les accolades imbriquées. La demande de rendu d’image incorpore un appe
 
 ## Voir aussi {#section-109a0a9a3b144158958351139c8b8e69}
 
-[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [Request PreProcessing](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-preprocessing.md#reference-c27976436bf04194bfbe9adf40ea98e3), Image Rendering Reference, [Templates](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e), Image Serving Utilities[](../../../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f)
+[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) ,  [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e),  [Request PreProcessing](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-preprocessing.md#reference-c27976436bf04194bfbe9adf40ea98e3), Image Rendering Reference,  [Templates](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e), Image Serving Utilities](../../../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f)[
