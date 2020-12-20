@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 21a59c5a-7799-4af6-ab9f-b0311f5f7254
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 13%
 
 ---
 
@@ -18,7 +21,7 @@ Utilise un tableau de propriétés pour mettre à jour un jeu de propriétés.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-116693bbfb5d44219e62bbb1ba19de96}
+## Types d’utilisateur autorisés {#section-116693bbfb5d44219e62bbb1ba19de96}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,12 +35,12 @@ Syntaxe
 
 ## Paramètres {#section-98361b063e9c41e8b2f744fabc0e13ed}
 
-**Input (updatePropertySetParam)**
+**Entrée (updatePropertySetParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | ` *`setHandle`*` | `xsd:string` | Oui | Traitez le jeu de propriétés. |
-| ` *`replaceProperties`*` | `xsd:string` | Non | Définissez cette variable sur `true` pour remplacer les propriétés. |
+| ` *`replaceProperties`*` | `xsd:string` | Non | Définissez sur `true` pour remplacer les propriétés. |
 | ` *`propertyArray`*` | `types:PropertyArray` | Oui | Tableau des propriétés mises à jour pour le jeu de propriétés. |
 
 **Output (updatePropertySetReturn)**
