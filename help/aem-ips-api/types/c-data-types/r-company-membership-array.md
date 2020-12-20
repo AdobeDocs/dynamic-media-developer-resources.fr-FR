@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: CompanyMemberArray
+seo-title: CompanyMembershipArray
 solution: Experience Manager
-title: CompanyMemberArray
+title: CompanyMembershipArray
 topic: Scene7 Image Production System API
 uuid: fa0a9171-d5bc-4a6f-a1c5-7b4f26531901
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '11'
+ht-degree: 72%
 
 ---
 
 
-# CompanyMemberArray{#companymembershiparray}
+# CompanyMembershipArray{#companymembershiparray}
 
 Syntaxe
 
