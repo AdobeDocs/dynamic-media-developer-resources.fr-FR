@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 48abea17-058e-4469-bb16-0abee8ef5214
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 11%
 
 ---
 
@@ -18,7 +21,7 @@ Ajoute une ou plusieurs ressources à un projet.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-c67e7422921047f4ab4d4e9ba5a7aafe}
+## Types d’utilisateur autorisés {#section-c67e7422921047f4ab4d4e9ba5a7aafe}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,23 +36,23 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Traitement du  associé au projet actuel. |
-| ` *`projectHandle`*` | `xsd:string` | Oui | Traitez le projet auquel vous ajoutez des ressources. |
-| ` *`projectHandleArray`*` | `xsd:HandleArray` | Oui | Tableau des ressources que vous ajoutez au projet actuel. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Gérer la société associée au projet en cours. |
+| ` *`projectHandle`*` | `xsd:string` | Oui | Gérer le projet auquel vous ajoutez des ressources. |
+| ` *`projectHandleArray`*` | `xsd:HandleArray` | Oui | Tableau des ressources que vous ajoutez au projet en cours. |
 
 **Output (addProjectAssetsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Oui | Nombre de fichiers ajoutés avec succès. |
+| ` *`successCount`*` | `xsd:int` | Oui | Nombre de ressources ajoutées avec succès. |
 | ` *`warningCount`*` | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait d’ajouter des ressources à un projet. |
 | ` *`errorCount`*` | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait d’ajouter des ressources à un projet. |
 | ` *`warningDetailHandle`*` | `xsd:AssetOperationFaultArray` | Non | Tableau des avertissements générés par les ressources lorsque l’opération tentait de les ajouter à un projet. |
-| ` *`companyHandle`*` | `xsd:AssetOperationFaultArray` | Non | Tableau des erreurs générées par les ressources lorsque l’opération tentait de les ajouter à un projet. |
+| ` *`companyHandle`*` | `xsd:AssetOperationFaultArray` | Non | Tableau des erreurs générées par les ressources lorsque l&#39;opération tentait de les ajouter à un projet. |
 
 ## Exemples {#section-bee5be2402f54cb9a3a02cc07def4135}
 
-Cet exemple montre comment ajouter un seul fichier (référencé par son nom d&#39;utilisateur) dans un tableau de descripteurs de ressources à un projet spécifié dans la requête. L&#39;opération s&#39;est terminée correctement lorsque la réponse `successCount` est renvoyée `1`.
+Cet exemple montre comment ajouter un seul fichier (référencé par son nom d&#39;utilisateur) dans un tableau de descripteurs de ressources à un projet spécifié dans la demande. L&#39;opération s&#39;est terminée correctement lorsque la réponse `successCount` renvoie `1`.
 
 **Request**
 
