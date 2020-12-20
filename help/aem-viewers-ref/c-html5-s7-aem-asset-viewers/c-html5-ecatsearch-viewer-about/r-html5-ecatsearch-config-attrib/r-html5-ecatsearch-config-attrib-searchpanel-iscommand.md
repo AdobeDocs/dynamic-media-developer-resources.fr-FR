@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 7496fea1-8a69-4749-ab4b-ae6d375441b8
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '51'
+ht-degree: 13%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> Chaîne de commande de diffusion d’images appliquée à toutes les miniatures. Si elle est spécifiée dans l'URL, toutes les occurrences de <span class="codeph"> &amp;</span> et <span class="codeph"> =</span> doivent être codées en HTTP comme <span class="codeph"> %26</span> et <span class="codeph"> %3D, respectivement.</span> </p> </td> 
+   <td colname="col2"> <p> Chaîne de commande de diffusion d’images appliquée à toutes les miniatures. Si elle est spécifiée dans l’URL, toutes les occurrences de <span class="codeph"> &amp;</span> et <span class="codeph"> =</span> doivent être codées en HTTP sous la forme <span class="codeph"> %26</span> et <span class="codeph"> %3D</span>, respectivement. </p> </td> 
   </tr> 
  </tbody> 
 </table>
