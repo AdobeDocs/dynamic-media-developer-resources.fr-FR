@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 76af65fb-86ef-43e2-bfec-3682acf0afe6
 translation-type: tm+mt
 source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+workflow-type: tm+mt
+source-wordcount: '100'
+ht-degree: 11%
 
 ---
 
@@ -18,7 +21,7 @@ Supprime un dossier.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-1c15a74c41194744a81f5ca86fe26585}
+## Types d’utilisateur autorisés {#section-1c15a74c41194744a81f5ca86fe26585}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,11 +36,11 @@ Syntaxe
 
 ## Paramètres {#section-a793c98a481a4f26ab50bc69b16b57e7}
 
-**Input (deleteFolderParam)**
+**Entrée (deleteFolderParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Identifiant du auquel appartient le dossier. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Identifiant de la société à laquelle appartient le dossier. |
 | ` *`folderHandle`*` | `xsd:string` | Oui | Identifiant du dossier à supprimer. |
 
 **Output (deleteFolderParam)**
@@ -46,7 +49,7 @@ L&#39;API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-9d4617b322e8442d80e59be0f8714841}
 
-Cet exemple de code supprime un dossier de la racine du  de. Il nécessite un gestionnaire de dossier, que vous devez obtenir d’une autre opération.
+Cet exemple de code supprime un dossier de la racine de la société. Il nécessite un nom d&#39;utilisateur de dossier que vous devez obtenir d&#39;une autre opération.
 
 **Request**
 
