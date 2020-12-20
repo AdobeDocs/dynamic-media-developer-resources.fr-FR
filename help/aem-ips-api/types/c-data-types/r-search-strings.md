@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: aade2741-3e77-44c6-ab3c-0810ff034412
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 10%
 
 ---
 
@@ -22,7 +25,7 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| ` *`searchString`*` | `xsd:string` | Recherchez le texte de chaîne. |
+| ` *`searchString`*` | `xsd:string` | Recherche du texte de chaîne. |
 | ` *`keywordsArray`*` | `types:KeywordsArray` | Tableau de mots-clés dans la chaîne de recherche. |
 | ` *`état`*` | `xsd:boolean` | True si la chaîne de recherche est valide et activée. |
 | ` *`x`*` | `xsd:int` | Position de l’axe X de la chaîne de recherche. |
