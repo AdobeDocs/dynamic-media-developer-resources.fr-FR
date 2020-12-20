@@ -1,6 +1,6 @@
 ---
-description: Paramètre de téléchargement pour traiter les fichiers ZIP et TAR en tant que ressources principales (Aucun) ou pour extraire et télécharger leur contenu (UnCompress).
-seo-description: Paramètre de téléchargement pour traiter les fichiers ZIP et TAR en tant que ressources principales (Aucun) ou pour extraire et télécharger leur contenu (UnCompress).
+description: Paramètre de téléchargement pour traiter les fichiers ZIP et TAR en tant que ressources Principales (Aucun) ou pour extraire et télécharger leur contenu (UnCompress).
+seo-description: Paramètre de téléchargement pour traiter les fichiers ZIP et TAR en tant que ressources Principales (Aucun) ou pour extraire et télécharger leur contenu (UnCompress).
 seo-title: AnnulerCompressionOptions
 solution: Experience Manager
 title: AnnulerCompressionOptions
@@ -15,13 +15,13 @@ ht-degree: 6%
 ---
 
 
-# AnnulerCompressionOptions{#uncompressoptions}
+# UnCompressOptions{#uncompressoptions}
 
-Paramètre de téléchargement pour traiter les fichiers ZIP et TAR en tant que ressources principales (Aucun) ou pour extraire et télécharger leur contenu (UnCompress).
+Paramètre de téléchargement pour traiter les fichiers ZIP et TAR en tant que ressources Principales (Aucun) ou pour extraire et télécharger leur contenu (UnCompress).
 
 >[!NOTE]
 >
->`None` est défini par défaut.
+>`None` est définie par défaut.
 
 ## Paramètres {#section-10e49e27f60743da970a4ff1c4587eab}
 
@@ -39,9 +39,9 @@ Paramètre de téléchargement pour traiter les fichiers ZIP et TAR en tant que 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Contrôle le traitement des fichiers d’archives ZIP et TAR. Propose 2 options : 
      <ul id="ul_F34E2F3B9B74450CA7E76BD9FD7137C2">
-      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> Aucun :</span> Traiter en tant qu’actifs principaux. </li>
-      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> UnCompress :</span> Extraire et traiter le contenu. </li>
-     </ul><p>Remarque : Les constantes de chaîne respectent la casse. Utilisez <span class="codeph"> UnCompress</span>, pas <span class="codeph"> décompresser</span> ou <span class="codeph"> décompresser</span>. </p></p> </td> 
+      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> Aucun : </span> Traiter comme des ressources Principales. </li>
+      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> UnCompress : </span> Extrait et traite le contenu. </li>
+     </ul><p>Remarque : Les constantes de chaîne respectent la casse. Utilisez <span class="codeph"> UnCompress</span>, et non <span class="codeph"> uncompress</span> ou <span class="codeph"> unCompress</span>. </p></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,7 +61,7 @@ Paramètre de téléchargement pour traiter les fichiers ZIP et TAR en tant que 
 
 ## Utilisé par {#section-b2a829cf5511412e968bb2000f85cc31}
 
-Le `unCompressionOptions` type est utilisé par :
+Le type `unCompressionOptions` est utilisé par :
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [TéléchargerPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
