@@ -26,7 +26,7 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | ` *`moteur`*` | `xsd:string` | Moteur de génération utilisé (voir &quot;Informations de génération&quot; pour les valeurs). |
-| ` *`initiateur`*` | `types:Asset` | Enregistrement de l’actif principal utilisé dans la génération. |
+| ` *`initiateur`*` | `types:Asset` | Enregistrement de l’actif Principal utilisé dans la génération. |
 | ` *`généré`*` | `types:Asset` | Enregistrement de l’actif généré. |
 | ` *`attributeArray`*` | `types:GenerationAttributeArray` | Tableau des attributs associés au processus de génération. |
 
