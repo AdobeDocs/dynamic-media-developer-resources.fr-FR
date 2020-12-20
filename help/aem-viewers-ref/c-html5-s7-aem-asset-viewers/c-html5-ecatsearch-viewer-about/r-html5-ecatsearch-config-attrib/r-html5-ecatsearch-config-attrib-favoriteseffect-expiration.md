@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: FavorisEffect.expiration
+seo-title: FavoritesEffect.expiration
 solution: Experience Manager
-title: FavorisEffect.expiration
+title: FavoritesEffect.expiration
 topic: Dynamic media
 uuid: 3b852317-af42-423e-a065-92192f0065db
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '51'
+ht-degree: 15%
 
 ---
 
 
-# FavorisEffect.expiration{#favoriteseffect-expiration}
+# FavoritesEffect.expiration{#favoriteseffect-expiration}
 
 [!DNL ` [FavoritesEffect.|<containerId>_favoritesEffect.]expiration= *`jours`*`]
 
