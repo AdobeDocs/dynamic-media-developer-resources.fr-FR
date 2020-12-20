@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 92cf60c4-3f80-42bc-b135-17bc22ba151e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Il existe deux options pour démarrer ou arrêter Image Serving sous Linux.
 
-* Le script permettant de , d’arrêter et de vérifier l’état de la diffusion d’images se trouve dans le [!DNL ImageServing/bin] dossier :
+* Le script permettant de début, d’arrêter et de vérifier l’état de la diffusion d’images se trouve dans le dossier [!DNL ImageServing/bin] :
 
    `ImageServing.sh {start|stop|restart|status}`
 * Les administrateurs système doivent connaître l’alternative suivante :
