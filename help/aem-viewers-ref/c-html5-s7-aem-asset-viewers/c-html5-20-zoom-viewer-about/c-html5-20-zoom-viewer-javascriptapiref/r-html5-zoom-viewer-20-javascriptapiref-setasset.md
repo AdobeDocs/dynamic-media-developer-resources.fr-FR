@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: f106b3d4-880e-4ba3-ae47-a005af5c0f1b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '132'
+ht-degree: 2%
 
 ---
 
@@ -21,8 +24,8 @@ Référence de l’API JavaScript pour la visionneuse de vidéos.
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fichier </span></span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph"> String </span>} nouvel ID de fichier, jeu d’images explicite ou jeu d’images explicite avec modificateurs de diffusion d’images spécifiques au cadre, avec les modificateurs globaux facultatifs de diffusion d’images ajoutés après "?". </p> <p> Les images qui utilisent la fonction IR (Image Rendering) ou UGC (User-Generated Content) ne sont pas prises en charge par cette visionneuse. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> élément  </span> </span> </p> </td> 
+   <td colname="col2"> <p>{ <span class="codeph"> Chaîne </span>} : nouvel identifiant de fichier, visionneuse d’images explicites ou visionneuse d’images explicites avec modificateurs de diffusion d’images spécifiques au cadre, avec les modificateurs globaux facultatifs de diffusion d’images ajoutés après "?". </p> <p> Cette visionneuse ne prend pas en charge les images qui utilisent la fonction IR (Image Rendering) ou UGC (User-Generated Content). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -31,7 +34,7 @@ Définit la nouvelle ressource. Vous pouvez appeler ce paramètre à tout moment
 
 Voir aussi [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-javascriptapiref/r-html5-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
-## Returns {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Renvoie {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Aucune
 
@@ -55,7 +58,7 @@ Visionneuse d’images explicite :
 <instance>.setAsset("Scene7SharedAssets/Backpack_B,Scene7SharedAssets/Backpack_C")
 ```
 
-Visionneuse d’images explicite avec modificateurs de diffusion d’images spécifiques aux images :
+Visionneuse d’images explicites avec modificateurs de diffusion d’images spécifiques aux images :
 
 ```
  <instance>.setAsset("(Scene7SharedAssets/Backpack_B?op_colorize=255%2C0%2C0,Scene7SharedAssets/Backpack_B?op_colorize=0x00ff00)")
