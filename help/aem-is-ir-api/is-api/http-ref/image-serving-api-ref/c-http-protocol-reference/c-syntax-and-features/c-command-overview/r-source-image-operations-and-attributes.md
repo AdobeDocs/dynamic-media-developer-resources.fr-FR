@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: ad6dbcd8-f4a4-4439-b51a-2aca30d198e0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '130'
+ht-degree: 2%
 
 ---
 
@@ -26,12 +29,12 @@ Ces commandes s’appliquent aux images source utilisées dans des requêtes sim
   <td class="stentry"> <p>Recadre ou étend l’image source. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e" type="reference" format="dita" scope="local"> masquer</a> </p></td> 
-  <td class="stentry"> <p>Spécifie un masque d’image source distinct. </p></td> 
+  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e" type="reference" format="dita" scope="local"> masque</a> </p></td> 
+  <td class="stentry"> <p>Indique un masque d’image source distinct. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-maskuse.md#reference-9bb1fb5eee4a4bd38f33dadc1a752464" type="reference" format="dita" scope="local"> maskUse</a> </p></td> 
-  <td class="stentry"> <p>Indique l’utilisation du masque d’image source ou du alpha . </p></td> 
+  <td class="stentry"> <p>Indique l’utilisation d’un masque d’image source ou d’un canal alpha. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-res.md#reference-3d6fe416801148dea0f786f2b5169e55" type="reference" format="dita" scope="local"> res</a> </p></td> 
