@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: ec423e57-338b-4a32-be5a-a73fa96712ce
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 6%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Définit les commandes du protocole de diffusion d’images ou de rendu d’image pour la ressource spécifiée. Ces commandes modifient la représentation de la ressource sans la détruire.
 
-Pour la diffusion d’images, les commandes du `urlModifier` paramètre sont publiées dans le champ du catalogue des modificateurs et appliquées avant toute commande spécifiée dans l’URL de requête. Les commandes dans `urlPostApplyModifier` seront publiées dans le champ de `PostModifier` catalogue et remplaceront toutes les commandes de l’URL de demande ou `urlModifier`dans. Pour le rendu d’image, les commandes dans `urlModifier` et `urlPostApplyModifier` sont concaténées et publiées dans le champ du catalogue des modificateurs.
+Pour la diffusion d’images, les commandes du paramètre `urlModifier` sont publiées dans le champ du catalogue de modificateurs et appliquées avant toute commande spécifiée dans l’URL de requête. Les commandes de `urlPostApplyModifier` seront publiées dans le champ de catalogue `PostModifier` et remplaceront toutes les commandes de l&#39;URL de demande ou de `urlModifier`. Pour le rendu d’image, les commandes de `urlModifier` et `urlPostApplyModifier` sont concaténées et publiées dans le champ du catalogue de modificateurs.
 
-## Types d’utilisateurs autorisés {#section-fefcd732ccf64c78956606538f96c73d}
+## Types d’utilisateur autorisés {#section-fefcd732ccf64c78956606538f96c73d}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,14 +32,14 @@ Pour la diffusion d’images, les commandes du `urlModifier` paramètre sont pub
 
 ## Paramètres {#section-3304fe49bbe24ea1a886e19aaf41fb7d}
 
-**Input (setUrlModificateurParam)**
+**Entrée (setUrlModificateurParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui |  poignée. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
 | ` *`assetHandle`*` | `xsd:string` | Oui | Poignée de ressource. |
-| ` *`urlModificateur`*` | `xsd:string` | Non | Commandes du protocole de diffusion d’images ou de rendu d’image à appliquer avant la demande ou les `urlPostApplyModifier` commandes. |
-| ` *`urlPostApplyModificateur`*` | `xsd:string` | Non | Commandes du protocole de diffusion d’images ou de rendu d’image à appliquer après `urlModifier` et demander. |
+| ` *`urlModificateur`*` | `xsd:string` | Non | Commandes du protocole Image Serving ou Image Rendering à appliquer avant la commande request ou `urlPostApplyModifier`. |
+| ` *`urlPostApplyModificateur`*` | `xsd:string` | Non | Commandes du protocole Image Serving ou Image Rendering à appliquer après `urlModifier` et les commandes request. |
 
 **Output (setUrlModificateurReturn)**
 
