@@ -1,26 +1,29 @@
 ---
-description: Cliquez ou appuyez sur ce bouton pour faire tourner l’image vers la gauche dans le  principal. Ce bouton n’est pas affiché sur les téléphones mobiles pour enregistrer l’espace sur l’écran. En outre, le bouton est masqué lorsqu’une visionneuse à 360° multidimensionnelle est utilisée. Vous pouvez dimensionner, habiller et positionner le bouton à l’aide de CSS.
-seo-description: Cliquez ou appuyez sur ce bouton pour faire tourner l’image vers la gauche dans le  principal. Ce bouton n’est pas affiché sur les téléphones mobiles pour enregistrer l’espace sur l’écran. En outre, le bouton est masqué lorsqu’une visionneuse à 360° multidimensionnelle est utilisée. Vous pouvez dimensionner, habiller et positionner le bouton à l’aide de CSS.
-seo-title: Bouton tournant à gauche
+description: Cliquez ou appuyez sur ce bouton pour faire tourner l’image vers la gauche dans la vue principale. Ce bouton n'est pas affiché sur les téléphones portables pour enregistrer l'espace sur écran. En outre, le bouton est masqué lorsqu’une visionneuse à 360° multidimensionnelle est utilisée. Vous pouvez dimensionner, habiller et positionner le bouton à l’aide de CSS.
+seo-description: Cliquez ou appuyez sur ce bouton pour faire tourner l’image vers la gauche dans la vue principale. Ce bouton n'est pas affiché sur les téléphones portables pour enregistrer l'espace sur écran. En outre, le bouton est masqué lorsqu’une visionneuse à 360° multidimensionnelle est utilisée. Vous pouvez dimensionner, habiller et positionner le bouton à l’aide de CSS.
+seo-title: Bouton à 360° à gauche
 solution: Experience Manager
-title: Bouton tournant à gauche
+title: Bouton à 360° à gauche
 topic: Dynamic media
 uuid: ef804867-2e84-4117-be56-eefcd44f9ca2
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '384'
+ht-degree: 3%
 
 ---
 
 
-# Spin left button{#spin-left-button}
+# Bouton de rotation gauche{#spin-left-button}
 
-Cliquez ou appuyez sur ce bouton pour faire tourner l’image vers la gauche dans le  principal. Ce bouton n’est pas affiché sur les téléphones mobiles pour enregistrer l’espace sur l’écran. En outre, le bouton est masqué lorsqu’une visionneuse à 360° multidimensionnelle est utilisée. Vous pouvez dimensionner, habiller et positionner le bouton à l’aide de CSS.
+Cliquez ou appuyez sur ce bouton pour faire tourner l’image vers la gauche dans la vue principale. Ce bouton n&#39;est pas affiché sur les téléphones portables pour enregistrer l&#39;espace sur écran. En outre, le bouton est masqué lorsqu’une visionneuse à 360° multidimensionnelle est utilisée. Vous pouvez dimensionner, habiller et positionner le bouton à l’aide de CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **Propriétés CSS des boutons à 360°**
 
-Le bouton est ajouté à un interne  dont la balise DIV est contrôlée par le sélecteur de classe CSS :
+Le bouton est ajouté à un conteneur interne dont le DIV est contrôlé par le sélecteur de classe CSS :
 
 ```
 .s7spinviewer .s7spinbuttons
@@ -61,7 +64,7 @@ Le bouton est ajouté à un interne  dont la balise DIV est contrôlée par le s
  </tbody> 
 </table>
 
-L’aspect de ce bouton à l’intérieur du  est contrôlé par le sélecteur de classe CSS :
+L’aspect de ce bouton à l’intérieur du conteneur est contrôlé par le sélecteur de classe CSS :
 
 ```
 .s7spinviewer .s7spinbuttons .s7panleftbutton
@@ -92,31 +95,31 @@ L’aspect de ce bouton à l’intérieur du  est contrôlé par le sélecteur d
    <td colname="col2"> <p>Position à partir de la bordure inférieure, y compris le remplissage. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Largeur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> hauteur  </span> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan  </span> </p> </td> 
    <td colname="col2"> <p>Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
-   <td colname="col2"> <p>Positionnez-vous à l’intérieur de l’image-objet d’illustration, si des images-objets CSS sont utilisées. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
+   <td colname="col2"> <p>Positionnez l’objet à l’intérieur de l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ce bouton prend en charge le sélecteur d’ `state` attributs, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
-L’info-bulle du bouton peut être localisée. Pour plus d’informations, voir [des éléments](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98) de l’interface utilisateur.
+L’info-bulle du bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98) pour plus d’informations.
 
-Exemple : pour configurer un bouton de rotation gauche de 28 x 28 pixels, positionné sur le bord gauche de l’ interne et affichant une image différente pour chacun des quatre états de bouton différents :
+Exemple : pour configurer un bouton de gauche à 360° de 28 x 28 pixels, positionné sur le bord gauche du conteneur intérieur et affichant une image différente pour chacun des quatre états de bouton différents :
 
 ```
 .s7spinviewer .s7spinbuttons .s7panleftbutton { 
