@@ -1,6 +1,6 @@
 ---
-description: Attribut de configuration pour le lecteur vidéo360.
-seo-description: Attribut de configuration pour le lecteur vidéo360.
+description: Attribut de configuration pour la visionneuse Video360.
+seo-description: Attribut de configuration pour la visionneuse Video360.
 seo-title: Video360Player.playback
 solution: Experience Manager
 title: Video360Player.playback
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: ce814963-5cb8-408e-9d57-e7b7e61e0fab
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '130'
+ht-degree: 7%
 
 ---
 
 
 # Video360Player.playback{#video-player-playback}
 
-Attribut de configuration pour le lecteur vidéo360.
+Attribut de configuration pour la visionneuse Video360.
 
 `[Video360Player.|<containerId>_video360Player.]playback=auto|progressive`
 
@@ -22,7 +25,7 @@ Attribut de configuration pour le lecteur vidéo360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|progressive</span> </p> </td> 
-   <td colname="col2"> <p> Définit le type de lecture utilisé par la visionneuse. </p> <p>Lorsque l’option <span class="codeph"> auto</span> est définie, dans la plupart des navigateurs de bureau et sur tous les périphériques iOS, le lecteur utilise la vidéo en flux continu HTML5 au format HLS et revient à la lecture HTML5 progressive sur certains systèmes tels qu’Internet Explorer et Android plus anciens. </p> <p>Une fois <span class="codeph"> progressive</span> définie, la visionneuse s’appuie uniquement sur la lecture HTML5 en tant que prise en charge native par les navigateurs et lit la vidéo progressivement sur tous les systèmes. </p> <p>Pour plus d’informations sur la sélection de la lecture en mode natif <span class="codeph"> automatique</span> et <span class="codeph"></span> progressif, voir le Guide de l’utilisateur du kit de développement de visionneuses HTML5. </p> </td> 
+   <td colname="col2"> <p> Définit le type de lecture utilisé par la visionneuse. </p> <p>Lorsque <span class="codeph"> auto</span> est défini, dans la plupart des navigateurs de bureau et sur tous les périphériques iOS, la visionneuse utilise la vidéo en flux continu HTML5 au format HLS et revient à la lecture HTML5 progressive sur certains systèmes tels que l’ancien Internet Explorer et Android. </p> <p>Lorsque <span class="codeph"> progressive</span> est défini, la visionneuse ne s’appuie que sur la lecture HTML5, prise en charge en mode natif par les navigateurs, et lit la vidéo progressivement sur tous les systèmes. </p> <p>Pour plus d’informations sur la sélection de lecture en modes natifs <span class="codeph"> auto</span> et <span class="codeph"> progressive</span>, consultez le Guide de l’utilisateur du kit de développement de visionneuses HTML5. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -31,7 +34,7 @@ Attribut de configuration pour le lecteur vidéo360.
 
 Facultatif. Ignoré lorsque la visionneuse fonctionne avec une vidéo externe.
 
-Voir Prise en charge [vidéo](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760) externe pour plus d’informations.
+Voir [Prise en charge des vidéos externes](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760) pour plus d’informations.
 
 ## Par défaut {#section-71fb773f814649b2885aefee68073641}
 
