@@ -1,20 +1,23 @@
 ---
-description: Options spécifiées lors du téléchargement. Affecte la manière dont la couleur est gérée pour le transfert.
-seo-description: Options spécifiées lors du téléchargement. Affecte la manière dont la couleur est gérée pour le transfert.
-seo-title: ColorManagementOptions
+description: Options spécifiées pendant le téléchargement. Affecte la façon dont la couleur est gérée pour le transfert.
+seo-description: Options spécifiées pendant le téléchargement. Affecte la façon dont la couleur est gérée pour le transfert.
+seo-title: OptionsGestionCouleur
 solution: Experience Manager
-title: ColorManagementOptions
+title: OptionsGestionCouleur
 topic: Scene7 Image Production System API
 uuid: ddf50d22-8d7b-4881-8023-bd7f58cbd882
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '57'
+ht-degree: 8%
 
 ---
 
 
 # ColorManagementOptions{#colormanagementoptions}
 
-Options spécifiées lors du téléchargement. Affecte la manière dont la couleur est gérée pour le transfert.
+Options spécifiées pendant le téléchargement. Affecte la façon dont la couleur est gérée pour le transfert.
 
 Syntaxe
 
@@ -23,6 +26,6 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | ` *`colorManagement`*` | `xsd:string` | Choix du mode de gestion des couleurs. |
-| ` *`sourceProfileHandle`*` | `xsd:string` | Poignée  source. |
-| ` *`outputProfileHandle`*` | `xsd:string` |  de sortie. |
+| ` *`sourceProfileHandle`*` | `xsd:string` | Poignée du profil source. |
+| ` *`outputProfileHandle`*` | `xsd:string` | Poignée du profil de sortie. |
 
