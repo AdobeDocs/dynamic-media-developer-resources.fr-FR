@@ -1,6 +1,6 @@
 ---
-description: Un tableau de conditions de champ système.
-seo-description: Un tableau de conditions de champ système.
+description: Tableau de conditions de champ système.
+seo-description: Tableau de conditions de champ système.
 seo-title: SystemFieldConditionArray
 solution: Experience Manager
 title: SystemFieldConditionArray
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 06d7f503-23d2-4bd0-a47b-e6077a8a7547
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '30'
+ht-degree: 20%
 
 ---
 
 
 # SystemFieldConditionArray{#systemfieldconditionarray}
 
-Un tableau de conditions de champ système.
+Tableau de conditions de champ système.
 
 Syntaxe
 
