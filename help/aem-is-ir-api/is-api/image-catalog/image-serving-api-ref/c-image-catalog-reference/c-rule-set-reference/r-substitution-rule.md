@@ -8,15 +8,18 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e5730559-0512-4416-927d-a7faf9180741
 translation-type: tm+mt
 source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+workflow-type: tm+mt
+source-wordcount: '176'
+ht-degree: 1%
 
 ---
 
 
 # substitution{#substitution}
 
-Elément de chaîne de substitution. Facultatif dans `<rule>` les éléments.
+Elément de chaîne de substitution. Facultatif dans les éléments `<rule>`.
 
-## Attributes {#section-a4506fcb765f4f128f7f1f2629b18a6c}
+## Attributs {#section-a4506fcb765f4f128f7f1f2629b18a6c}
 
 Aucune
 
@@ -26,17 +29,17 @@ Chaîne de substitution.
 
 ## Description {#section-4a64a93f5e1a4d04a2db19166578bf76}
 
-Définit une chaîne de remplacement pour la chaîne ou la sous-chaîne correspondante dans le chemin d’accès ou le  de.
+Définit une chaîne de remplacement pour la chaîne ou la sous-chaîne correspondante dans le chemin d’accès ou la requête.
 
-Si le modèle   inclut un de sous- (délimité par des parenthèses), la première sous-chaîne correspondante est remplacée par la chaîne de substitution. Si le modèle   n’inclut pas de sous-, la chaîne correspondante entière est remplacée.
+Si l’expression de modèle inclut des sous-expressions (délimitées par des parenthèses), la première sous-chaîne correspondante est remplacée par la chaîne de substitution. Si l’expression de modèle n’inclut pas de sous-expressions, la chaîne correspondante complète est remplacée.
 
-S’ `<expression>` il est vide ou absent, la chaîne de substitution est ajoutée au chemin d’accès ou au .
+Si `<expression>` est vide ou absent, la chaîne de substitution est ajoutée au chemin d’accès ou à la requête.
 
-Si `<substitution>` est vide, la chaîne ou la sous-chaîne correspondante est supprimée. Si `<substitution>` n’est pas spécifié, le chemin d’accès ou la chaîne de  du ne sont pas modifiés.
+Si `<substitution>` est vide, la chaîne ou la sous-chaîne correspondante est supprimée. Si `<substitution>` n&#39;est pas spécifié, le chemin d&#39;accès ou la chaîne de requête n&#39;est pas modifié.
 
 >[!NOTE]
 >
->Toutes les correspondances dans la chaîne d’entrée sont remplacées lorsque `replace="all"` elles sont spécifiées dans l’ `<rule>`,élément auquel cet `<substitution>` élément appartient. Par défaut, seule la première correspondance est remplacée par la chaîne de substitution.
+>Toutes les correspondances de la chaîne d&#39;entrée sont remplacées lorsque `replace="all"` est spécifié dans l&#39;élément `<rule>`, auquel cet élément `<substitution>` appartient. Par défaut, seule la première correspondance est remplacée par la chaîne de substitution.
 
 ## Note {#section-cedf2adabaaf441c9f598fb0ea180246}
 
