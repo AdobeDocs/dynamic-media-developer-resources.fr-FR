@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 15025c3d-eac3-4cb8-9a2a-fd80bd67478f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '97'
+ht-degree: 16%
 
 ---
 
@@ -18,7 +21,7 @@ Renvoie l’historique de publication d’un fichier.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-3b9d6a129093458fa8890139a2718912}
+## Types d’utilisateur autorisés {#section-3b9d6a129093458fa8890139a2718912}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,8 +39,8 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Le nom d’utilisateur du  avec l’historique de publication des ressources. |
-| ` *`assetHandle`*` | `xsd:string` | Oui | Fichier avec l’historique de publication que vous souhaitez examiner. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée vers la société avec l’historique de publication des ressources. |
+| ` *`assetHandle`*` | `xsd:string` | Oui | Ressource dont vous souhaitez examiner l’historique de publication. |
 
 **Output (getAssetPublishHistoryReturn)**
 
@@ -47,7 +50,7 @@ Syntaxe
 
 ## Exemples {#section-53897c51e5a047c5bd5ea5a6efb2d114}
 
-Cet exemple de code renvoie l’historique de publication d’un fichier. Un fichier n’a jamais été publié si le serveur renvoie un tableau vide.
+Cet exemple de code renvoie l’historique de publication d’un fichier. Un fichier n&#39;a jamais été publié si le serveur renvoie une baie vide.
 
 **Request**
 
