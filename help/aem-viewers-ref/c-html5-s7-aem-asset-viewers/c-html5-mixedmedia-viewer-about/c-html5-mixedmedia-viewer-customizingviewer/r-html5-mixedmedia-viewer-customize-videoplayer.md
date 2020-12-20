@@ -8,17 +8,20 @@ topic: Dynamic media
 uuid: d7431a7b-6078-45d6-a364-434b3b44ecf4
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 1%
 
 ---
 
 
-# Video player{#video-player}
+# Lecteur vidéo{#video-player}
 
 Le lecteur vidéo est la zone rectangulaire dans laquelle le contenu vidéo est affiché dans la visionneuse.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Si les dimensions de la vidéo en cours de lecture ne correspondent pas à celles du lecteur vidéo, le contenu vidéo est centré dans la zone d’affichage du rectangle du lecteur vidéo.
+Si les dimensions de la vidéo en cours de lecture ne correspondent pas à celles du lecteur vidéo, le contenu vidéo est centré dans la zone d’affichage rectangulaire du lecteur vidéo.
 
 Le sélecteur de classe CSS suivant contrôle l’aspect du lecteur vidéo :
 
@@ -31,13 +34,13 @@ Le sélecteur de classe CSS suivant contrôle l’aspect du lecteur vidéo :
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan du lecteur vidéo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Le message d’erreur affiché si le système ne parvient pas à lire la vidéo peut être localisé. Pour plus d’informations, voir [des éléments](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) de l’interface utilisateur.
+Le message d’erreur affiché si le système ne parvient pas à lire la vidéo peut être localisé. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) pour plus d’informations.
 
 Exemple - Pour rendre le lecteur vidéo transparent :
 
@@ -47,7 +50,7 @@ Exemple - Pour rendre le lecteur vidéo transparent :
 }
 ```
 
-Les légendes sont placées dans le interne  dans le lecteur vidéo. La position de cet  est contrôlée par les opérateurs de positionnement WebVTT pris en charge. Le texte de la légende est lui-même à l&#39;intérieur de cet ; son style est contrôlé à l’aide du sélecteur de classe CSS suivant :
+Les légendes sont placées dans le conteneur interne du lecteur vidéo. La position de ce conteneur est contrôlée par les opérateurs de positionnement WebVTT pris en charge. Le texte de la légende se trouve à l’intérieur de ce conteneur ; son style est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 ```
 .s7mixedmediaviewer .s7videoplayer .s7caption
@@ -64,7 +67,7 @@ Les légendes sont placées dans le interne  dans le lecteur vidéo. La position
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
    <td colname="col2"> <p>Arrière-plan du texte de la légende. </p> </td> 
   </tr> 
   <tr> 
@@ -72,21 +75,21 @@ Les légendes sont placées dans le interne  dans le lecteur vidéo. La position
    <td colname="col2"> <p>Couleur du texte de la légende. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font- </span> </p> </td> 
-   <td colname="col2"> <p> de police. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-poids  </span> </p> </td> 
+   <td colname="col2"> <p>Poids des polices. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Taille de police. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Famille de polices. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple - Pour définir le texte de la légende sur un fond noir semi-transparent gris clair de 14 pixels Arial :
+Exemple - Pour définir le texte de la légende sur un fond gris clair de 14 pixels Arial sur un arrière-plan noir semi-transparent :
 
 ```
 .s7mixedmediaviewer .s7videoplayer .s7caption { 
@@ -98,7 +101,7 @@ Exemple - Pour définir le texte de la légende sur un fond noir semi-transparen
 }
 ```
 
-L’aspect de l’animation de mise en mémoire tampon est contrôlé à l’aide du sélecteur de classe CSS suivant :
+L&#39;aspect de l&#39;animation de mise en mémoire tampon est contrôlé par le sélecteur de classe CSS suivant :
 
 ```
 .s7mixedmediaviewer .s7videoplayer .s7waiticon
@@ -123,21 +126,21 @@ L’aspect de l’animation de mise en mémoire tampon est contrôlé à l’aid
    <td colname="col2"> <p> Hauteur de l’icône d’animation. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge-gauche </span> </p> </td> 
-   <td colname="col2"> <p> Marge gauche de l’icône d’animation, normalement moins la moitié de la largeur de l’icône. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge-gauche  </span> </p> </td> 
+   <td colname="col2"> <p> L’icône d’animation a la marge gauche, habituellement moins la moitié de la largeur de l’icône. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge-haut </span> </p> </td> 
-   <td colname="col2"> <p> Marge supérieure de l’icône d’animation, normalement moins la moitié de la hauteur de l’icône. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
+   <td colname="col2"> <p> Marge supérieure de l’icône d’animation, habituellement moins la moitié de la hauteur de l’icône. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan  </span> </p> </td> 
    <td colname="col2"> <p> Touchez l’illustration. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple - Pour configurer une animation de mise en mémoire tampon de 101 pixels de large et 29 pixels de haut :
+Exemple - Pour configurer une animation de mise en mémoire tampon d&#39;une largeur de 101 pixels et d&#39;une hauteur de 29 pixels :
 
 ```
 .s7mixedmediaviewer .s7videoplayer .s7waiticon { 
