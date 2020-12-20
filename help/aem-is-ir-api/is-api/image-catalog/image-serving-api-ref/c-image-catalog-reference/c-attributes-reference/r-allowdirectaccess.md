@@ -1,6 +1,6 @@
 ---
-description: Autoriser un accès direct aux ressources basées sur un chemin d’accès.
-seo-description: Autoriser un accès direct aux ressources basées sur un chemin d’accès.
+description: Autoriser l’accès direct aux ressources basées sur les chemins d’accès.
+seo-description: Autoriser l’accès direct aux ressources basées sur les chemins d’accès.
 seo-title: AllowDirectAccess
 solution: Experience Manager
 title: AllowDirectAccess
@@ -8,24 +8,27 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 6d413fac-6930-4f6d-90ad-62abb419efef
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '168'
+ht-degree: 0%
 
 ---
 
 
 # AllowDirectAccess{#allowdirectaccess}
 
-Autoriser un accès direct aux ressources basées sur un chemin d’accès.
+Autoriser l’accès direct aux ressources basées sur les chemins d’accès.
 
-Lorsque cet attribut est défini, l’accès par chemin d’accès est autorisé ou restreint pour les types d’objet spécifiés, selon que le mot-clé `include` ou `exclude` est utilisé.
+Lorsque cet attribut est défini, l&#39;accès par chemin d&#39;accès est autorisé ou restreint pour les types d&#39;objet spécifiés, selon que le mot-clé `include` ou `exclude` est utilisé ou non.
 
 >[!NOTE]
 >
->Si l’ `AllowDirectAccess` attribut n’est pas spécifié, la valeur par défaut est `exclude`.
+>Si l&#39;attribut `AllowDirectAccess` n&#39;est pas spécifié, la valeur par défaut est `exclude`.
 
-* `include` permet d’accéder aux types d’objets spécifiés et restreint l’accès à tous les autres.
-* `exclude` restreint l’accès aux types d’objet spécifiés et permet l’accès à tous les autres.
+* `include` permet l&#39;accès aux types d&#39;objet spécifiés et restreint l&#39;accès à tous les autres.
+* `exclude` restreint l’accès pour les types d’objets spécifiés et permet l’accès pour tous les autres.
 
-Si ni `include` ni `exclude` n’est spécifié, `include` est supposé.
+Si aucun `include` ou `exclude` n&#39;est spécifié, `include` est supposé.
 
 Les types suivants peuvent être contrôlés :
 
@@ -39,27 +42,27 @@ Les types suivants peuvent être contrôlés :
 
 ## Exemples {#section-4c3765ebaa4245a799b454fc196f9237}
 
-* Autoriser l’accès direct uniquement pour les types `IS` et `STATIC` d’objets
+* Autoriser l&#39;accès direct uniquement pour les types d&#39;objet `IS` et `STATIC`
 
    `AllowDirectAccess=include:IS,STATIC`
 
-* Autoriser l’accès direct à tous les types d’objet, à l’exception `IS` et `STATIC``AllowDirectAccess=exclude:IS,STATIC`
+* Autoriser l’accès direct à tous les types d’objet à l’exception de `IS` et `STATIC``AllowDirectAccess=exclude:IS,STATIC`
 
-* Autoriser l’accès direct pour *aucun* type d’objet (par exemple, inclure aucun)
+* Autoriser l’accès direct aux types d’objet *no* (par exemple, inclure aucun)
 
    `AllowDirectAccess=include:`
 
-* Autoriser l’accès direct pour *tous les* types d’objet (c.-à-d. exclure aucun)
+* Autoriser l’accès direct pour *tous les types d’objet* (c’est-à-dire exclure aucun)
 
    `AllowDirectAccess=exclude:`
 
-* Équivalent à `include:IS,STATIC` (si `include`/ `exclude` n’est pas présent, `include` est supposé)
+* Équivalent à `include:IS,STATIC` (si `include`/ `exclude` n&#39;est pas présent, `include` est supposé)
 
    `AllowDirectAccess=IS,STATIC`
 
-   Notez qu’il s’agit de la valeur par défaut utilisée si l’ `AllowDirectAccess` attribut n’est pas spécifié pour cette  de.
+   Notez qu’il s’agit de la valeur par défaut utilisée si l’attribut `AllowDirectAccess` n’est pas spécifié pour cette société.
 
-* Inclure aucune, l’équivalent `include:` (si `include`/ `exclude` n’est pas présent, `include` est supposé)
+* Inclure aucun, équivalent à `include:` (si `include`/ `exclude` n&#39;est pas présent, `include` est supposé)
 
    `AllowDirectAccess=`
 
