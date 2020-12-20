@@ -1,6 +1,6 @@
 ---
-description: Ces commandes s’appliquent aux calques d’image, de texte et de couleur unie. La plupart ne sont pas significatives pour l’image composite et pour les requêtes simples et non superposées. Elles ne s’appliquent pas aux calques d’effets.
-seo-description: Ces commandes s’appliquent aux calques d’image, de texte et de couleur unie. La plupart ne sont pas significatives pour l’image composite et pour les requêtes simples et non superposées. Elles ne s’appliquent pas aux calques d’effets.
+description: Ces commandes s’appliquent aux calques d’image, de texte et de couleur unie. La plupart ne sont pas significatifs pour l’image composite et pour les requêtes simples et non superposées. Elles ne s’appliquent pas aux couches d’effets.
+seo-description: Ces commandes s’appliquent aux calques d’image, de texte et de couleur unie. La plupart ne sont pas significatifs pour l’image composite et pour les requêtes simples et non superposées. Elles ne s’appliquent pas aux couches d’effets.
 seo-title: Commandes de calques courantes
 solution: Experience Manager
 title: Commandes de calques courantes
@@ -8,26 +8,29 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: f11da6ba-18f2-42d6-8257-cb8ebef8c7d8
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 2%
 
 ---
 
 
-# Commandes de calques courantes{#common-layer-commands}
+# Commandes de calque courantes {#common-layer-commands}
 
-Ces commandes s’appliquent aux calques d’image, de texte et de couleur unie. La plupart ne sont pas significatives pour l’image composite et pour les requêtes simples et non superposées. Elles ne s’appliquent pas aux calques d’effets.
+Ces commandes s’appliquent aux calques d’image, de texte et de couleur unie. La plupart ne sont pas significatifs pour l’image composite et pour les requêtes simples et non superposées. Elles ne s’appliquent pas aux couches d’effets.
 
 <table id="simpletable_8A74E965537D4E8CB91E95AEAE9673E0"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-blendmode.md#reference-8be10dde1d584429966cb61ac8e7d172" type="reference" format="dita" scope="local"> blendMode</a> </p> </td> 
-  <td class="stentry"> <p>Indique le mode de fusion des calques. </p></td> 
+  <td class="stentry"> <p>Indique le mode de fusion de calques. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab" type="reference" format="dita" scope="local"> bgColor</a> </p></td> 
-  <td class="stentry"> <p>Indique la couleur d’arrière-plan et l’opacité du calque. </p></td> 
+  <td class="stentry"> <p>Indique la couleur et l’opacité d’arrière-plan du calque. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac" type="reference" format="dita" scope="local"> étendre</a> </p></td> 
-  <td class="stentry"> <p>Etend (ou recadre) le rectangle du calque. </p></td> 
+  <td class="stentry"> <p>Étend (ou recadre) le rectangle du calque. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md" type="reference" format="dita" scope="local"> color</a> </p></td> 
@@ -46,8 +49,8 @@ Ces commandes s’appliquent aux calques d’image, de texte et de couleur unie.
   <td class="stentry"> <p>Réduit l’opacité du calque. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md#reference-e11c7ac06e2240cc884c3fec98f05138" type="reference" format="dita" scope="local"> </a> </p></td> 
-  <td class="stentry"> <p>Définit le calque  point  du. </p></td> 
+  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-origin.md#reference-e11c7ac06e2240cc884c3fec98f05138" type="reference" format="dita" scope="local"> origine</a> </p></td> 
+  <td class="stentry"> <p>Définit le point d’origine du calque. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pos.md#reference-65de948f4b404f1182b22119ca332143" type="reference" format="dita" scope="local"> pos</a> </p></td> 
@@ -55,7 +58,7 @@ Ces commandes s’appliquent aux calques d’image, de texte et de couleur unie.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-size-reference.md#reference-04d383f32c7b4003bed9978cb854747b" type="reference" format="dita" scope="local"> taille</a> </p></td> 
-  <td class="stentry"> <p>Spécifie la contrainte de taille de calque. </p></td> 
+  <td class="stentry"> <p>Indique la contrainte de taille de calque. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-hide.md#reference-e336facb21a644eea78c2c84c1c4576e" type="reference" format="dita" scope="local"> masquer</a> </p></td> 
