@@ -44,15 +44,15 @@ Syntaxe
 
 L&#39;API IPS ne renvoie pas de réponse pour cette opération.
 
-## Paramètre setDefinition : A propos {#section-f88e066bf5294b4f8c12d5d652a5c94c}
+## Paramètre setDefinition : À propos de {#section-f88e066bf5294b4f8c12d5d652a5c94c}
 
 **Fonction setDefinition**
 
-Spécifiez les fonctions de `setDefinition` substitution en ligne. Ces problèmes sont résolus lors d’une recherche de catalogue ou lors d’une publication. Les chaînes de substitution ont le format `${<substitution_func>}`et comprennent les éléments suivants :
+Spécifiez les fonctions de substitution `setDefinition` en ligne. Ces problèmes sont résolus lors d’une recherche de catalogue ou lors d’une publication. Les chaînes de substitution ont le format `${<substitution_func>}` et comprennent les éléments suivants :
 
 >[!NOTE]
 >
->Les littéraux de gestion dans les listes de paramètres doivent être entourés de crochets `([])`. Le texte en dehors d’une chaîne de substitution est copié dans la chaîne de sortie lors de la résolution.
+>Les littéraux de traitement dans les listes de paramètres doivent être entourés de crochets `([])`. Le texte en dehors d’une chaîne de substitution est copié dans la chaîne de sortie lors de la résolution.
 
 <table id="table_A93D2C273B694C289208AA926B2597CD"> 
  <thead> 
@@ -63,19 +63,19 @@ Spécifiez les fonctions de `setDefinition` substitution en ligne. Ces problème
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getFilePath([ <span class="varname"> asset_handle </span>]) </span> </td> 
-   <td colname="col2"> Chemin du fichier de Principal. </td> 
+   <td colname="col1"> <span class="codeph"> getFilePath([  <span class="varname"> asset_handle  </span>])  </span> </td> 
+   <td colname="col2"> chemin d’accès au fichier Principal. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getCatalogd([ <span class="varname"> asset_handle </span>]) </span> </td> 
+   <td colname="col1"> <span class="codeph"> getCatalogd([  <span class="varname"> asset_handle  </span>])  </span> </td> 
    <td colname="col2"> ID de catalogue. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getMetaData([ <span class="varname"> asset_handle </span>],[ <span class="varname"> metadata_field_handle </span>]) </span> </td> 
+   <td colname="col1"> <span class="codeph"> getMetaData([  <span class="varname"> asset_handle  </span>],[  <span class="varname"> metadata_field_handle  </span>])  </span> </td> 
    <td colname="col2"> Valeur des métadonnées. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> getThumbCatalogId([ <span class="varname"> asset_handle </span>]) </span> </td> 
+   <td colname="col1"> <span class="codeph"> getThumbCatalogId([  <span class="varname"> asset_handle  </span>])  </span> </td> 
    <td colname="col2"> ID de catalogue. S’applique aux fichiers basés sur les images (Image, Vue ajustée, Vue de calque). <p>Pour les autres ressources, renvoie l’identifiant de catalogue de la ressource miniature (le cas échéant). Si aucune ressource de miniature n’est associée à la ressource, la fonction renvoie une chaîne vide. </p> </td> 
   </tr> 
  </tbody> 
