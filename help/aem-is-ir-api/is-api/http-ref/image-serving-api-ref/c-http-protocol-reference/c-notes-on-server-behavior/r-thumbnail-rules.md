@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 7d04b923-e062-4764-9e48-99a7bba72d3f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '94'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Tenez compte de ces règles de miniature.
 
-1. Si `catalog::ThumbType=Crop`cela se produit, l’image (recadrée) est redimensionnée à la taille la plus petite possible tout en couvrant l’ensemble du  rect. Si `catalog::ThumbType=Fit`cela se produit, l’image (recadrée) est redimensionnée à la taille la plus grande possible tout en ajustant l’image entière dans le  rectangle du. Si `catalog::ThumbType=Texture`cela se produit, l’image (recadrée) est mise à l’échelle selon le rapport `catalog::ThumbRes` / `catalog::Resolution`.
-1. Alignez l’image mise à l’échelle avec le  rect du en fonction `attribute::ThumbHorizAlign` et `attribute::ThumbVertAlign`.
-1. Recadrez le résultat au  rect du.
+1. Si `catalog::ThumbType=Crop`, l’image (recadrée) est mise à l’échelle à la taille la plus petite possible tout en recouvrant l’intégralité de la recette de la cible. Si `catalog::ThumbType=Fit`, l’image (recadrée) est redimensionnée à la taille la plus grande possible tout en ajustant l’ensemble de l’image dans la recette de la cible. Si `catalog::ThumbType=Texture`, l’image (recadrée) est mise à l’échelle selon le rapport `catalog::ThumbRes` à `catalog::Resolution`.
+1. Alignez l’image mise à l’échelle avec la recette de la cible en fonction de `attribute::ThumbHorizAlign` et `attribute::ThumbVertAlign`.
+1. Recadrez le résultat jusqu’à la recette de la cible.
 
