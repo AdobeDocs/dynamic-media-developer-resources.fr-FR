@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: ae870d2e-2a09-4551-935a-916d0e657653
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '94'
+ht-degree: 4%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 ## Suivi personnalisé {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Par défaut, le lecteur envoie une requête HTTP de suivi unique au serveur d’images configuré avec le type de lecteur et les informations de version.
+Par défaut, la visionneuse envoie une requête HTTP de suivi unique au serveur Image Server configuré avec le type de visionneuse et les informations de version.
 
-Pour l’intégrer aux systèmes d’analyse tiers, il est nécessaire d’écouter le rappel du `trackEvent` lecteur et de traiter l’ `eventInfo` argument de la fonction de rappel si nécessaire. Le code suivant est un exemple de cette fonction de gestionnaire :
+Pour intégrer des systèmes d’analyse tiers, il est nécessaire d’écouter le rappel de la visionneuse `trackEvent` et de traiter l’argument `eventInfo` de la fonction de rappel si nécessaire. Le code suivant est un exemple de cette fonction de gestionnaire :
 
 ```
 var interactiveImage = new s7viewers.InteractiveImage({ 
@@ -42,19 +45,19 @@ var interactiveImage = new s7viewers.InteractiveImage({
 });
 ```
 
-Le lecteur effectue le suivi du utilisateur du SDK suivant :
+Le lecteur effectue le suivi des événements d’utilisateur SDK suivants :
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>utilisateur SDK  </p> </th> 
+   <th colname="col1" class="entry"> <p>ÉVÉNEMENT utilisateur du SDK </p> </th> 
    <th colname="col2" class="entry"> <p>Envoyé quand... </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CHARGEMENT </span> </p> </td> 
-   <td colname="col2"> <p>est chargé en premier. </p> </td> 
+   <td colname="col2"> <p>le lecteur est chargé en premier. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> HREF </span> </p> </td> 
