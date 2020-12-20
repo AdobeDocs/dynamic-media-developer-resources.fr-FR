@@ -33,10 +33,10 @@ Image Server est installé en tant que démon Linux.
 
 1. Ouvrez un navigateur Internet sur le même hôte ou sur un hôte différent et vérifiez les réponses du serveur par défaut :
 
-[ !DNL http:// *[!DNL server:port]*/is/image]
+[ ! DNL http:// *[!DNL server:port]*/is/image]
 
-[ !DNL http:// *[!DNL server:port]*/ir/render]
+[ ! DNL http:// *[!DNL server:port]*/ir/render]
 
-Dans les réponses, vérifiez la présence d’éléments commençant par &quot; `imageServer.`&quot;, qui indiquent que le serveur Platform a pu communiquer avec le serveur Image Server.
+Dans les réponses, vérifiez la présence d’éléments commençant par &quot; `imageServer.`&quot;, qui indiquent que le serveur de plateformes a pu communiquer avec le serveur d’images.
 >Une vérification supplémentaire peut être effectuée à l’aide des exemples de pages des packages Documentation et Démo, le cas échéant.
 
