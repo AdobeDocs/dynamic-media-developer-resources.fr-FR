@@ -1,20 +1,23 @@
 ---
-description: Mode de répétition de la texture. Indique le mode de mosaïque des images de texture pour remplir la surface  du.
-seo-description: Mode de répétition de la texture. Indique le mode de mosaïque des images de texture pour remplir la surface  du.
+description: Mode de répétition de la texture. Indique le mode de mosaïque des images de texture pour remplir la surface de la cible.
+seo-description: Mode de répétition de la texture. Indique le mode de mosaïque des images de texture pour remplir la surface de la cible.
 seo-title: Repeat
 solution: Experience Manager
-title: Repeat
+title: Répéter
 topic: Scene7 Image Serving - Image Rendering API
 uuid: bd15a573-9902-4672-992d-90d171160a46
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '142'
+ht-degree: 19%
 
 ---
 
 
 # Repeat{#repeat}
 
-Mode de répétition de la texture. Indique le mode de mosaïque des images de texture pour remplir la surface  du.
+Mode de répétition de la texture. Indique le mode de mosaïque des images de texture pour remplir la surface de la cible.
 
 ## Propriétés {#section-cef4109cddf54ce095c3293d85bc412d}
 
@@ -33,15 +36,15 @@ Les valeurs suivantes sont autorisées pour les matériaux de texture répétabl
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>2 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Mosaïque aléatoire à 8 voies. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Carrelage aléatoire à 8 voies. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>3 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Carrelage en losange. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Carrelage en diamant. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>4 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Le papier peint à un quart de goutte est accroché. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Un papier peint à un quart-goutte est accroché. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>5 </p></td> 
@@ -61,11 +64,11 @@ Les valeurs suivantes sont autorisées pour les matériaux de texture répétabl
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>9 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Du papier peint aléatoire. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Des papiers peints aléatoires pendent. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>10 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Une goutte aléatoire. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Une baisse aléatoire. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>11 </p></td> 
@@ -85,23 +88,23 @@ Les valeurs suivantes sont autorisées pour les matériaux de texture répétabl
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>15 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Optimisateur de fréquence élevée. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Optimiseur de fréquence élevée. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>16 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Optimiseur aléatoire basse fréquence. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Organiseur aléatoire à basse fréquence. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>17 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Caractère aléatoire horizontal. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Organiseur aléatoire horizontal. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>18 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Caractère aléatoire vertical. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Organiseur aléatoire vertical. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>19 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Séparateur de bord. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Optimiseur aléatoire. </p></td> 
  </tr> 
 </table>
 
