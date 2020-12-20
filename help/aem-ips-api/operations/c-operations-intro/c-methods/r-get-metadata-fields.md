@@ -1,6 +1,6 @@
 ---
-description: Obtient les champs de métadonnées définis par l’utilisateur associés à un fichier.
-seo-description: Obtient les champs de métadonnées définis par l’utilisateur associés à un fichier.
+description: Récupère les champs de métadonnées définis par l’utilisateur associés à un fichier.
+seo-description: Récupère les champs de métadonnées définis par l’utilisateur associés à un fichier.
 seo-title: getMetadataFields
 solution: Experience Manager
 title: getMetadataFields
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: bf891bae-53c8-4e3d-90df-caca9a7e022b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '105'
+ht-degree: 14%
 
 ---
 
 
 # getMetadataFields{#getmetadatafields}
 
-Obtient les champs de métadonnées définis par l’utilisateur associés à un fichier.
+Récupère les champs de métadonnées définis par l’utilisateur associés à un fichier.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-e32e481a02674b729bfc5454a6c9ff65}
+## Types d’utilisateur autorisés {#section-e32e481a02674b729bfc5454a6c9ff65}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,7 +37,7 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui |  poignée. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
 | ` *`assetType`*` | `xsd:string` | Oui | Types de ressources à partir desquels obtenir des métadonnées. |
 
 **Output (getMetadataFieldsParam)**
@@ -45,7 +48,7 @@ Syntaxe
 
 ## Exemples {#section-dbfde1483d614b5aac2b491cb32115d7}
 
-Cet exemple de code renvoie des fichiers de métadonnées pour le type et le  spécifiés. La réponse contient un tableau de champs de métadonnées dans un tableau de champs. Tous les fichiers n’ont pas les mêmes métadonnées. L’utilisateur IPS définit le champ de métadonnées du fichier.
+Cet exemple de code renvoie des fichiers de métadonnées pour le type et la société spécifiés. La réponse contient un tableau de champs de métadonnées dans un tableau de champs. Tous les fichiers ne possèdent pas les mêmes métadonnées. L’utilisateur IPS définit le champ de métadonnées du fichier.
 
 **Request**
 
