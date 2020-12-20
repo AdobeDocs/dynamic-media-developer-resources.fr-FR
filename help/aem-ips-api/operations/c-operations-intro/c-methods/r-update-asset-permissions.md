@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: feb2faf3-81de-436e-82de-1e41df03508f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '58'
+ht-degree: 22%
 
 ---
 
@@ -18,7 +21,7 @@ Met à jour les autorisations de ressources.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-3928e9badc3842e1859af4ed362df719}
+## Types d’utilisateur autorisés {#section-3928e9badc3842e1859af4ed362df719}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,7 +33,7 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui |  poignée. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
 | ` *`assetHandle`*` | `xsd:string` | Oui | Poignée de ressource. |
 | ` *`updateArray`*` | `types:PermissionUpdateArray` | Oui | Autorisations que vous souhaitez appliquer à la ressource. |
 
