@@ -1,6 +1,6 @@
 ---
-description: Accentuer l’image. Applique un filtre d’accentuation de base au calque ou à l’image finale du, après toute mise à l’échelle, si layer=comp.
-seo-description: Accentuer l’image. Applique un filtre d’accentuation de base au calque ou à l’image finale du, après toute mise à l’échelle, si layer=comp.
+description: Accentuer l’image. Applique un filtre d’accentuation de base au calque ou à l’image de vue finale, après mise à l’échelle, si layer=comp.
+seo-description: Accentuer l’image. Applique un filtre d’accentuation de base au calque ou à l’image de vue finale, après mise à l’échelle, si layer=comp.
 seo-title: op_sharpen
 solution: Experience Manager
 title: op_sharpen
@@ -8,21 +8,24 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 1a00c60a-0d5c-4a99-a649-f29ebd710cf3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '139'
+ht-degree: 7%
 
 ---
 
 
 # op_sharpen{#op-sharpen}
 
-Accentuer l’image. Applique un filtre d’accentuation de base au calque ou à l’image finale du, après toute mise à l’échelle, si layer=comp.
+Accentuer l’image. Applique un filtre d’accentuation de base au calque ou à l’image de vue finale, après mise à l’échelle, si layer=comp.
 
 `op_sharpen=0|1`
 
-Le masque de fusion ou le masque composite est également accentué.
+Le masque de calque ou le masque composite est également accentué.
 
 ## Propriétés {#section-b27f3f6a27c34233b3f76805e18b2aa7}
 
-Attribut de calque ou attribut de  de. S’applique au calque actif ou à l’image de  finale du, le cas échéant `layer=comp`. Ignoré par les calques d’effet.
+Attribut de couche ou attribut de vue. S’applique au calque actif ou à l’image de vue finale si `layer=comp`. Ignoré par les calques d’effet.
 
 ## Par défaut {#section-665709700fff458e9dbbf8a78e8ecf71}
 
@@ -30,10 +33,10 @@ Attribut de calque ou attribut de  de. S’applique au calque actif ou à l’im
 
 ## Exemple {#section-3202122df5db4e14b358ecabfb6d8b85}
 
-Compenser le léger flou provoqué par le rééchantillonnage d’images. Nous augmentons également la qualité JPEG pour éviter des artefacts JPEG supplémentaires le long des bords accentués.
+Compenser le léger flou provoqué par le rééchantillonnage d’images. Nous augmentons également la qualité JPEG pour éviter d’autres artefacts JPEG le long des bords accentués.
 
 `http://server/myRootId/myImageId?qlt=90,1&op_sharpen=1&wid=500`
 
 ## Voir aussi {#section-d659199fde0d4c9dadebf1f09802915d}
 
-[qlt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352) , [op_usm=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-sharpen.md#reference-c32573230c6140f883efdaa201ea8541)
+[qlt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-qlt.md#reference-f69ed0758c784b0385d979820546d352) ,  [op_usm=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-sharpen.md#reference-c32573230c6140f883efdaa201ea8541)
