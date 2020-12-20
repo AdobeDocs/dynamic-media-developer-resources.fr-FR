@@ -1,6 +1,6 @@
 ---
-description: Renvoie les dossiers et les sous-dossiers dans une arborescence hiérarchique. La réponse getFolderTree est limitée à 100 000 dossiers au maximum.
-seo-description: Renvoie les dossiers et les sous-dossiers dans une arborescence hiérarchique. La réponse getFolderTree est limitée à 100 000 dossiers au maximum.
+description: Renvoie des dossiers et des sous-dossiers dans une arborescence hiérarchique. La réponse getFolderTree est limitée à un maximum de 100 000 dossiers.
+seo-description: Renvoie des dossiers et des sous-dossiers dans une arborescence hiérarchique. La réponse getFolderTree est limitée à un maximum de 100 000 dossiers.
 seo-title: getFolderTree
 solution: Experience Manager
 title: getFolderTree
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 93fda0d6-c656-4254-b07b-7a448e164f28
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '278'
+ht-degree: 8%
 
 ---
 
 
 # getFolderTree{#getfoldertree}
 
-Renvoie les dossiers et les sous-dossiers dans une arborescence hiérarchique. La réponse getFolderTree est limitée à 100 000 dossiers au maximum.
+Renvoie des dossiers et des sous-dossiers dans une arborescence hiérarchique. La réponse getFolderTree est limitée à un maximum de 100 000 dossiers.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-66ef19149f4d4123a3a99004b5a2743e}
+## Types d’utilisateur autorisés {#section-66ef19149f4d4123a3a99004b5a2743e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,22 +33,22 @@ Syntaxe
 
 >[!NOTE]
 >
->L’utilisateur doit disposer d’un accès en lecture au dossier pour renvoyer les données le concernant.
+>L’utilisateur doit disposer d’un accès en lecture au dossier pour y renvoyer des données.
 
 ## Paramètres {#section-0c2b30513f1e439cbd840e8cc6465b3a}
 
-**Input (getFolderTreeParam)**
+**Entrée (getFolderTreeParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | La poignée du. |
-| ` *`accessUserHandle`*` | `xsd:string` | Non | Utilisé uniquement par les administrateurs pour incarner un utilisateur spécifique. |
-| ` *`accessGroupHandle`*` | `xsd:string` | Non | Utilisé pour filtrer selon un groupe spécifique, y compris tous ceux auxquels le appartient. |
-| ` *`folderPath`*` | `xsd:string` | Non | Dossier racine dans lequel récupérer les dossiers et tous les sous-dossiers au niveau de la feuille. Si elle est exclue, la racine du  est utilisée. |
-| ` *`profondeur`*` | `xsd:int` | Oui | La valeur zéro obtient le dossier de niveau supérieur. Toute autre valeur spécifie la profondeur à descendre dans l’arborescence. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | La poignée de la société. |
+| ` *`accessUserHandle`*` | `xsd:string` | Non | Utilisé uniquement par les administrateurs pour se faire passer pour un utilisateur spécifique. |
+| ` *`accessGroupHandle`*` | `xsd:string` | Non | Utilisé pour filtrer selon un groupe spécifique, y compris ceux auxquels appartient la société. |
+| ` *`folderPath`*` | `xsd:string` | Non | dossier racine dans lequel récupérer les dossiers et tous les sous-dossiers au niveau feuille. Si elle est exclue, la racine de la société est utilisée. |
+| ` *`profondeur`*` | `xsd:int` | Oui | La valeur zéro obtient le dossier de niveau supérieur. Toute autre valeur spécifie la profondeur à descendre dans l&#39;arborescence. |
 | ` *`assetTypeArray`*` | `types:StringArray` | Non | Renvoie les dossiers qui contiennent uniquement des types de fichier spécifiés. |
-| ` *`responseFieldArray`*` | `types:StringArray` | Non | Contient un  de champs que vous souhaitez inclure dans la réponse. |
-| ` *`excludeFieldArray`*` | `types:StringArray` | Non | Contient un  de champs que vous souhaitez exclure dans la réponse. |
+| ` *`responseFieldArray`*` | `types:StringArray` | Non | Contient une liste de champs que vous souhaitez inclure dans la réponse. |
+| ` *`excludeFieldArray`*` | `types:StringArray` | Non | Contient une liste de champs que vous souhaitez exclure dans la réponse. |
 
 **Output (getFolderTreeReturn)**
 
@@ -56,7 +59,7 @@ Syntaxe
 
 ## Exemples {#section-a9fd2edb56574dd9bf8b0f2fd89367e4}
 
-Cet exemple de code utilise une poignée de  et un paramètre de profondeur pour déterminer le niveau de profondeur que la réponse doit renvoyer. La réponse contient des dossiers et des tableaux de sous-dossiers associés. Définissez la valeur de profondeur sur un nombre plus petit pour effectuer une recherche plus approfondie dans l’arborescence de dossiers.
+Cet exemple de code utilise une poignée de société et un paramètre de profondeur pour déterminer le niveau de profondeur que la réponse doit renvoyer. La réponse contient des dossiers et des tableaux de sous-dossiers associés. Définissez la valeur de profondeur sur un nombre plus petit pour effectuer une recherche plus approfondie dans l’arborescence de dossiers.
 
 **Request**
 
