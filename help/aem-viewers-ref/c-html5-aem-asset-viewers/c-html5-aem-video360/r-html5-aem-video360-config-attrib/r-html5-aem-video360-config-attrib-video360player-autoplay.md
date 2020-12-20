@@ -1,6 +1,6 @@
 ---
-description: Attribut de configuration pour le lecteur vidéo360.
-seo-description: Attribut de configuration pour le lecteur vidéo360.
+description: Attribut de configuration pour la visionneuse Video360.
+seo-description: Attribut de configuration pour la visionneuse Video360.
 seo-title: Video360Player.autoplay
 solution: Experience Manager
 title: Video360Player.autoplay
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: 582d0b34-bbf9-4af0-9f7a-4415d307f5d7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 23%
 
 ---
 
 
 # Video360Player.autoplay{#video-player-autoplay}
 
-Attribut de configuration pour le lecteur vidéo360.
+Attribut de configuration pour la visionneuse Video360.
 
 `[Video360Player.|<containerId>_video360Player.]autoplay=0|1`
 
@@ -22,7 +25,7 @@ Attribut de configuration pour le lecteur vidéo360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Indique si le de la visionneuse  la lecture de la vidéo au chargement. Notez que certains systèmes, tels que certains périphériques mobiles, ne prennent pas en charge la lecture automatique. </p> </td> 
+   <td colname="col2"> <p> Indique si la visionneuse est en début de lecture de la vidéo au chargement. Notez que certains systèmes, tels que certains périphériques mobiles, peuvent ne pas prendre en charge la lecture automatique. </p> </td> 
   </tr> 
  </tbody> 
 </table>
