@@ -1,6 +1,6 @@
 ---
-description: Remplace les données image d’un fichier d’image.
-seo-description: Remplace les données image d’un fichier d’image.
+description: Remplace les données d’image d’un fichier d’image.
+seo-description: Remplace les données d’image d’un fichier d’image.
 seo-title: replaceImage
 solution: Experience Manager
 title: replaceImage
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 46824e33-265c-4425-9ab1-8ad6b7ac154d
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 15%
 
 ---
 
 
 # replaceImage{#replaceimage}
 
-Remplace les données image d’un fichier d’image.
+Remplace les données d’image d’un fichier d’image.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-e2aad71fb2a54612badc7b16f82ed544}
+## Types d’utilisateur autorisés {#section-e2aad71fb2a54612badc7b16f82ed544}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,11 +32,11 @@ Syntaxe
 
 ## Paramètres {#section-0d0ab668fa6d4310a93fb7ef8d8dd1e0}
 
-**Input (replaceImageParam)**
+**Entrée (replaceImageParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyName`*` | `xsd:string` | Oui | Poignée vers le avec l’image à remplacer. |
+| ` *`companyName`*` | `xsd:string` | Oui | Poignée de la société contenant l&#39;image à remplacer. |
 | ` *`assetHandle`*` | `xsd:string` | Oui | Poignée de la ressource à remplacer. |
 | ` *`urlModificateur`*` | `xsd:string` | Oui | Commandes du serveur d’images qui génèrent de nouvelles données d’image. |
 
@@ -41,11 +44,11 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | Oui | Traitement de la nouvelle ressource. |
+| ` *`assetHandle`*` | `xsd:string` | Oui | Gérer vers la nouvelle ressource. |
 
 ## Exemples {#section-cebb93576bde4cb98cb27356ca66783b}
 
-Cet exemple de code remplace une image et applique une commande `urlModifier` avec laquelle le serveur d’images ne prendra aucune action lors du remplacement.
+Cet exemple de code remplace une image et applique une commande `urlModifier` avec une commande qui spécifie que le serveur d’images n’agira pas lors du remplacement.
 
 **Request**
 
