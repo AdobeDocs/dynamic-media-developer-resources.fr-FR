@@ -1,26 +1,29 @@
 ---
-description: L'API Service Web IPS (Image Production System) permet aux applications externes et aux développeurs tiers d'accéder par programmation aux ressources et fonctionnalités IPS.
-seo-description: L'API Service Web IPS (Image Production System) permet aux applications externes et aux développeurs tiers d'accéder par programmation aux ressources et fonctionnalités IPS.
-seo-title: A propos de l’API Image Production System
+description: L'API Service Web IPS (Image Production System) permet aux applications externes et aux développeurs tiers d'accéder par programmation aux ressources et fonctionnalités d'IPS.
+seo-description: L'API Service Web IPS (Image Production System) permet aux applications externes et aux développeurs tiers d'accéder par programmation aux ressources et fonctionnalités d'IPS.
+seo-title: A propos de l’API du système de production d’images
 solution: Experience Manager
-title: A propos de l’API Image Production System
+title: A propos de l’API du système de production d’images
 topic: Image Production System API
 uuid: 22f5a601-165a-4dc2-b545-2aa1d6f5a370
 translation-type: tm+mt
 source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+workflow-type: tm+mt
+source-wordcount: '172'
+ht-degree: 1%
 
 ---
 
 
 # A propos de l’API Image Production System{#about-scene-image-production-system-api}
 
-L&#39;API Service Web IPS (Image Production System) permet aux applications externes et aux développeurs tiers d&#39;accéder par programmation aux ressources et fonctionnalités IPS.
+L&#39;API Service Web IPS (Image Production System) permet aux applications externes et aux développeurs tiers d&#39;accéder par programmation aux ressources et fonctionnalités d&#39;IPS.
 
-Ce guide de référence contient et définit tous les services, méthodes et types de données utilisés par l&#39;API Service Web IPS. Il a été spécifiquement testé pour la compatibilité avec Java (à l’aide de la bibliothèque Apache Axis2), Adobe Flex et Microsoft .NET.
+Ce guide de référence contient et définit tous les services, méthodes et types de données utilisés par l&#39;API Service Web IPS. Il a été spécifiquement testé pour la compatibilité avec Java (à l&#39;aide de la bibliothèque Apache Axis2), Adobe Flex et Microsoft .NET.
 
 ## Normes et protocoles {#section-d85e71e44b7f432b9c65ce6ca45b7157}
 
-L&#39;API IPS utilise les protocoles SOAP et HTTP standard et est compatible avec tout client qui respecte ces normes. Des tests supplémentaires permettent de s’assurer que l’API est compatible avec Java (à l’aide de la bibliothèque Apache Axis2), Adobe Flex et Microsoft .NET.
+L&#39;API IPS utilise les protocoles SOAP et HTTP standard et est compatible avec tout client conforme à ces normes. D’autres tests permettent de s’assurer que l’API est compatible avec Java (à l’aide de la bibliothèque Apache Axis2), Adobe Flex et Microsoft .NET.
 
 >[!MORELIKETHIS]
 >
