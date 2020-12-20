@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 31526bfe-b651-47a8-98c0-2750a3d9cabf
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '71'
+ht-degree: 11%
 
 ---
 
@@ -25,6 +28,6 @@ Syntaxe
 | ` *`processus`*` | `xsd:string` | Choix du processus PostScript. |
 | ` *`résolution`*` | `xsd:double` | Résolution du fichier. |
 | ` *`Espace colorimétrique`*` | `xsd:string` | Mode d’espace colorimétrique PostScript. |
-| ` *`alpha`*` | `xsd:boolean` | Indique si le fichier doit être pixellisé dans une image. Si c&#39;est le cas, cela créera un arrière-plan transparent si le fichier d&#39;origine est défini de cette manière. Généralement utilisé pour créer des logos superposés. |
-| ` *`extractSearchWords`*` | `xsd:boolean` | Extraction ou non de mots de recherche à partir du fichier PostScript. |
+| ` *`alpha`*` | `xsd:boolean` | Indique si le fichier doit être pixellisé dans une image. Si tel est le cas, il crée un arrière-plan transparent si le fichier d’origine est défini de cette manière. Généralement utilisé pour créer des logos superposés. |
+| ` *`extractSearchWords`*` | `xsd:boolean` | Extrait ou non des mots recherchés dans le fichier PostScript. |
 
