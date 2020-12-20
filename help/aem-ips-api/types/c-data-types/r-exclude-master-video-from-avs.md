@@ -1,6 +1,6 @@
 ---
-description: Exclut la vidéo principale de la visionneuse de vidéos adaptative.
-seo-description: Exclut la vidéo principale de la visionneuse de vidéos adaptative.
+description: Exclut la vidéo Principale de la visionneuse de vidéos adaptative.
+seo-description: Exclut la vidéo Principale de la visionneuse de vidéos adaptative.
 seo-title: ExclureMasterVideoFromAVS
 title: ExclureMasterVideoFromAVS
 uuid: 883c6ab0-314d-4257-82bc-0447031e68a4
@@ -15,7 +15,7 @@ ht-degree: 13%
 
 # ExclureMasterVideoFromAVS{#excludemastervideofromavs}
 
-Exclut la vidéo principale de la visionneuse de vidéos adaptative.
+Exclut la vidéo Principale de la visionneuse de vidéos adaptative.
 
 Syntaxe
 
