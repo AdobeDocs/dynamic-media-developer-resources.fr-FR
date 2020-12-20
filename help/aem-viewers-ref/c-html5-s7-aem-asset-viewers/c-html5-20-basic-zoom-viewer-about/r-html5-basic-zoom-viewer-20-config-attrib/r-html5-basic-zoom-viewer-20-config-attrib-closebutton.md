@@ -8,11 +8,14 @@ topic: Dynamic media
 uuid: 2e3d3a50-6990-4ab1-831a-195465aea392
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '24'
+ht-degree: 29%
 
 ---
 
 
-# close{#closebutton}
+# closebutton{#closebutton}
 
 `closebutton=0|1`
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Définissez cette variable sur <span class="codeph"> 1</span> pour activer l’affichage du bouton de fermeture ou sur <span class="codeph"> 0</span> pour masquer le bouton de fermeture. </p> </td> 
+   <td colname="col2"> <p> Définissez sur <span class="codeph"> 1</span> pour activer l’affichage du bouton de fermeture ou sur <span class="codeph"> 0</span> pour masquer le bouton de fermeture. </p> </td> 
   </tr> 
  </tbody> 
 </table>
