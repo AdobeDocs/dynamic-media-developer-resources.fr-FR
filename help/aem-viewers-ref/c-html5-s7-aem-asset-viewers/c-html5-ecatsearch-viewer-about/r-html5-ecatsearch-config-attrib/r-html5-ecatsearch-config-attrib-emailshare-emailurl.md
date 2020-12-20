@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 27e3b0fb-0503-4993-a858-3f29d8d3bfb0
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '20'
+ht-degree: 30%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> emailurl</span></span> </p> </td> 
-   <td colname="col2"> <p> Indique l’URL de base du service de messagerie à la demande Scene7. </p> </td> 
+   <td colname="col2"> <p> Indique l’URL de base du service de messagerie du Scene7 OnDemand. </p> </td> 
   </tr> 
  </tbody> 
 </table>
