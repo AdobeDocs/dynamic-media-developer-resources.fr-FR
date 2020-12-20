@@ -1,6 +1,6 @@
 ---
-description: Définit l’appartenance au groupe des utilisateurs appartenant à un  de spécifique.
-seo-description: Définit l’appartenance au groupe des utilisateurs appartenant à un  de spécifique.
+description: Définit l’appartenance au groupe des utilisateurs appartenant à une société spécifique.
+seo-description: Définit l’appartenance au groupe des utilisateurs appartenant à une société spécifique.
 seo-title: setGroupMembers
 solution: Experience Manager
 title: setGroupMembers
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: fe6585ef-a4b3-4b3c-95d0-624017650497
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '139'
+ht-degree: 8%
 
 ---
 
 
 # setGroupMembers{#setgroupmembers}
 
-Définit l’appartenance au groupe des utilisateurs appartenant à un  de spécifique.
+Définit l’appartenance au groupe des utilisateurs appartenant à une société spécifique.
 
-L’opération renvoie une erreur d’authentification si vous ne disposez pas des privilèges nécessaires pour effectuer cette opération. Cela est également vrai si l’un des utilisateurs du tableau des pseudo-utilisateurs n’appartient pas au  de spécifié dans le  de poignée du,
+L&#39;opération déclenche une erreur d&#39;authentification si vous ne disposez pas de privilèges pour effectuer cette opération. Cela est également vrai si l&#39;un des utilisateurs du tableau de pseudo n&#39;appartient pas à la société spécifiée dans le descripteur de société,
 
-## Types d’utilisateurs autorisés {#section-4523594039c24aa29c8d0d5c9c415391}
+## Types d’utilisateur autorisés {#section-4523594039c24aa29c8d0d5c9c415391}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -26,12 +29,12 @@ L’opération renvoie une erreur d’authentification si vous ne disposez pas d
 
 ## Paramètres {#section-6a18562fc8e942af94be10bbb8c51151}
 
-**Input (setGroupMembersParam)**
+**Entrée (setGroupMembersParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui |  poignée. |
-| ` *`groupHandle`*` | `xsd:string` | Oui | Poignée du groupe. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
+| ` *`groupHandle`*` | `xsd:string` | Oui | Poignée de groupe. |
 | ` *`userHandleArray`*` | `types:HandleArray` | Oui | Tableau de poignées pour les utilisateurs dont vous souhaitez définir l’appartenance au groupe. |
 
 **Output (setGroupMembesReturn)**
@@ -40,7 +43,7 @@ L&#39;API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-9c528c3f44a141ce9eaddf634f26c487}
 
-Cet exemple de code définit l’appartenance à un groupe pour un utilisateur unique.
+Cet exemple de code définit l&#39;appartenance à un groupe pour un seul utilisateur.
 
 **Request**
 
