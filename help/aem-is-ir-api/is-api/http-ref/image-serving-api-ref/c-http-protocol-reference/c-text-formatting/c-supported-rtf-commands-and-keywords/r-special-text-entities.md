@@ -39,34 +39,34 @@ Utilisez les entités spéciales suivantes lors du formatage du texte.
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \\ </span> </td> 
+   <td> <span class="codeph"> \\  </span> </td> 
    <td> <p>Barre oblique. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;amp ; accolade ; </span> </td> 
+   <td> <span class="codeph"> &amp;lacet ;  </span> </td> 
    <td> <p>Accolade ouverte. </p> </td> 
    <td> <p>L’accolade doit être encodée en HTTP. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;amp ; accolade ; </span> </td> 
+   <td> <span class="codeph"> &amp;accolade ;  </span> </td> 
    <td> <p>Fermez l'accolade. </p> </td> 
    <td> <p>L’accolade doit être encodée en HTTP. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \~ </span> </td> 
+   <td> <span class="codeph"> \~  </span> </td> 
    <td> <p>Espace insécable. </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> uniquement. </p> </td> 
+   <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \_</span> </td> 
    <td> <p>Tiret insécable. </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> uniquement. </p> </td> 
+   <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \- </span> </td> 
+   <td> <span class="codeph"> \-  </span> </td> 
    <td> <p>Tiret facultatif. </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> uniquement. </p> </td> 
+   <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
   </tr> 
  </tbody> 
 </table>
