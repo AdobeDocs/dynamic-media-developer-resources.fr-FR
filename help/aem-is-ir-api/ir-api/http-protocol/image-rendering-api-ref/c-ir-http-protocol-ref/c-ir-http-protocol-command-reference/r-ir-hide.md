@@ -1,6 +1,6 @@
 ---
-description: Masquer l’objet de chevauchement. Masque tous les objets de chevauchement ou les recouvrements de fenêtre appliqués aux cadres de recouvrement de fenêtre dans la sélection actuelle.
-seo-description: Masquer l’objet de chevauchement. Masque tous les objets de chevauchement ou les recouvrements de fenêtre appliqués aux cadres de recouvrement de fenêtre dans la sélection actuelle.
+description: Masquer l’objet de chevauchement. Masque tous les objets de recouvrement ou les garnitures de fenêtre appliqués aux cadres de recouvrement de fenêtre dans la sélection actuelle.
+seo-description: Masquer l’objet de chevauchement. Masque tous les objets de recouvrement ou les garnitures de fenêtre appliqués aux cadres de recouvrement de fenêtre dans la sélection actuelle.
 seo-title: masquer
 solution: Experience Manager
 title: masquer
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 15c01750-958a-497d-a999-cacf359bb985
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 7%
 
 ---
 
 
 # masquer{#hide}
 
-Masquer l’objet de chevauchement. Masque tous les objets de chevauchement ou les recouvrements de fenêtre appliqués aux cadres de recouvrement de fenêtre dans la sélection actuelle.
+Masquer l’objet de chevauchement. Masque tous les objets de recouvrement ou les garnitures de fenêtre appliqués aux cadres de recouvrement de fenêtre dans la sélection actuelle.
 
 `hide[= *`val`*]`
 
@@ -27,7 +30,7 @@ Masquer l’objet de chevauchement. Masque tous les objets de chevauchement ou l
 
 ## Propriétés {#section-2952fa43df0547b187b834c819c517ca}
 
-S’applique au groupe ou à la sélection d’objets en cours. Ignoré si la sélection actuelle n’inclut aucun objet de chevauchement ou bloc de recouvrement de fenêtre ou si aucun objet de chevauchement n’est visible.
+S’applique au groupe ou à la sélection d’objets en cours. Ignoré si la sélection actuelle n’inclut pas d’objets de chevauchement ou de garnitures de fenêtre ou si aucun objet de chevauchement n’est visible.
 
 ## Par défaut {#section-9da202944d3a49b7ae81c78370b2b5e7}
 
