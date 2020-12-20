@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 9714fc99-2259-4766-96d7-fe2f9fd2f341
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '264'
+ht-degree: 15%
 
 ---
 
@@ -18,7 +21,7 @@ Créez une zone cliquable ou modifiez une zone cliquable existante.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-9ef194a67b3546fb82ed7bb294bc2714}
+## Types d’utilisateur autorisés {#section-9ef194a67b3546fb82ed7bb294bc2714}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,11 +32,11 @@ Syntaxe
 
 >[!NOTE]
 >
->L’utilisateur doit disposer d’un accès en lecture et en écriture au fichier.
+>L’utilisateur doit disposer d’un accès en lecture et en écriture à la ressource.
 
 ## Paramètres {#section-64f7f5fd8f954fba9fa30eeee556863a}
 
-**Input (saveImageMapParam)**
+**Entrée (saveImageMapParam)**
 
 <table id="table_49649036F46941D2B1F28515674E533B"> 
  <thead> 
@@ -46,55 +49,55 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> sociétéHandle </span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Poignée vers le avec la zone cliquable à enregistrer. </td> 
+   <td colname="col4"> Poignée vers la société avec la zone cliquable à enregistrer. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fichierHandle </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"> Poignée du fichier d’image auquel appartient la zone cliquable. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> imageMapHandle </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> imageMapHandle  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Non </td> 
    <td colname="col4"> Poignée de la zone cliquable. Crée une zone cliquable si NULL. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> nom </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"> Nom de la zone cliquable créée ou enregistrée. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> shapeType </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> shapeType  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Forme de choix de région. </td> 
+   <td colname="col4"> Choix de la forme de la région. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> région </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> region  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> de points délimités par des virgules qui définissent la région. </td> 
+   <td colname="col4"> Liste de points délimités par des virgules qui définissent la région. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> action </span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> action  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> <p>Valeur <span class="codeph"> href </span> associée à la zone cliquable, spécifiée dans l'interface IPS. </p> <p>Pour obtenir la <span class="codeph"> valeur href </span> , cliquez sur l'image dans l'interface IPS, copiez et collez l'URL dans cet élément, puis formatez l'URL IPS en tant qu'URL appropriée. Par exemple, <span class="codeph"> &amp; </span> devient <span class="codeph"> &amp;amp; </span>. </p> </td> 
+   <td colname="col4"> <p>Valeur <span class="codeph"> href </span> associée à la zone cliquable, comme indiqué dans l'interface IPS. </p> <p>Pour obtenir la valeur <span class="codeph"> href </span>, cliquez sur l'image dans l'interface IPS, copiez et collez l'URL dans cet élément, puis formatez l'URL IPS en tant qu'URL appropriée. Par exemple, <span class="codeph"> &amp; </span> devient <span class="codeph"> &amp;amp; </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> position </span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> position  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int </span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Ordre dans le  des zones cliquables (axe Z). </td> 
+   <td colname="col4"> Ordre dans la liste des zones cliquables (axe Z). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> activé </span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> enabled  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean </span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"></td> 
@@ -106,7 +109,7 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`imageMapHandle`*` | `xsd:string` | Oui | Identifiant de la zone cliquable nouvelle ou modifiée. |
+| ` *`imageMapHandle`*` | `xsd:string` | Oui | Poignée de la nouvelle zone cliquable ou de la zone cliquable modifiée. |
 
 ## Exemples {#section-fdac488b640f427c8aa3d549c5032851}
 
