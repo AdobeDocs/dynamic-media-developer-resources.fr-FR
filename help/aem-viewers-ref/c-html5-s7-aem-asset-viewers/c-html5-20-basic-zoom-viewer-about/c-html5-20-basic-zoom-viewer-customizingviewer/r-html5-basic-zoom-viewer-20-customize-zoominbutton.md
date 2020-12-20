@@ -1,6 +1,6 @@
 ---
-description: Cliquez ou appuyez sur ce bouton pour effectuer un zoom avant sur une image du principal. Ce bouton ne s’affiche pas sur les téléphones mobiles pour enregistrer l’espace sur l’écran. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
-seo-description: Cliquez ou appuyez sur ce bouton pour effectuer un zoom avant sur une image du principal. Ce bouton ne s’affiche pas sur les téléphones mobiles pour enregistrer l’espace sur l’écran. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
+description: Cliquez ou appuyez sur ce bouton pour effectuer un zoom avant sur une image de la vue principale. Ce bouton ne s'affiche pas sur les téléphones portables pour enregistrer l'espace sur écran. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
+seo-description: Cliquez ou appuyez sur ce bouton pour effectuer un zoom avant sur une image de la vue principale. Ce bouton ne s'affiche pas sur les téléphones portables pour enregistrer l'espace sur écran. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
 seo-title: Bouton Zoom avant
 solution: Experience Manager
 title: Bouton Zoom avant
@@ -8,17 +8,20 @@ topic: Dynamic media
 uuid: 61a4f008-1d95-48dd-9e06-7d30be44a893
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 2%
 
 ---
 
 
-# Zoom in button{#zoom-in-button}
+# Bouton Zoom avant {#zoom-in-button}
 
-Cliquez ou appuyez sur ce bouton pour effectuer un zoom avant sur une image du principal. Ce bouton ne s’affiche pas sur les téléphones mobiles pour enregistrer l’espace sur l’écran. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
+Cliquez ou appuyez sur ce bouton pour effectuer un zoom avant sur une image de la vue principale. Ce bouton ne s&#39;affiche pas sur les téléphones portables pour enregistrer l&#39;espace sur écran. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriétés CSS de la zone de visionneuse principale**
+**Propriétés CSS de la zone de visualisation principale**
 
 L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
@@ -59,23 +62,23 @@ L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suiv
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan  </span> </p> </td> 
    <td colname="col2"> <p>Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
-   <td colname="col2"> <p> Positionnez-vous à l’intérieur de l’image-objet d’illustration, si des images-objets CSS sont utilisées. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/c-html5-20-basic-zoom-viewer-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
+   <td colname="col2"> <p> Positionnez l’objet à l’intérieur de l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-customizingviewer/c-html5-20-basic-zoom-viewer-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ce bouton prend en charge le sélecteur d’ `state` attributs, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
-L’info-bulle du bouton peut être localisée. Pour plus d’informations, voir [des éléments](../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) de l’interface utilisateur.
+L’info-bulle du bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 
-Exemple : pour configurer un bouton de zoom avant de 32 x 32 pixels, positionner six pixels à partir des bords supérieur et droit de la visionneuse et afficher une image différente pour chacun des quatre états de bouton différents.
+Exemple : pour configurer un bouton de zoom avant de 32 x 32 pixels, positionné à six pixels du bord supérieur et droit de la visionneuse, et affiche une image différente pour chacun des quatre états de bouton différents.
 
 ```
 .s7basiczoomviewer .s7zoominbutton { 
