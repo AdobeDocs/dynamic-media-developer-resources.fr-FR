@@ -36,15 +36,15 @@ Fichier matière. Spécifie les données de matériau, sous la forme d&#39;une r
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> imbriquéReq</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph">&amp;amp ; accolade ;'is&amp;amp ; accolade ;'<span class="varname"> isReq</span>'&amp;amp ; accolade ; '&amp;amp ; accolade ;|&amp;amp ; accolade ;'ir&amp;amp ; accolade ;'<span class="varname"> irReq</span>'&amp;amp ; '|&amp;amp ; accolade ; '&amp;amp ; accolade ; '&amp;accolade ; '<span class="varname"> Req</span>' amp ; accolade ; '</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;lacer ;'is&amp;accolade ;'<span class="varname"> isReq</span>'&amp;accolade ;'&amp;accolade ;|&amp;accolade ;'ir&amp;accolade ;'<span class="varname"> irReq</span>'&amp;accolade ;'|&amp;accolade ;'&amp;accolade ;'<span class="varname"> étrangerReq</span>'&amp;accolade ;'</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 
-  <td class="stentry"> <p>ID catalogue de matières (<span class="codeph"> attribut : RootId</span>). </p></td> 
+  <td class="stentry"> <p>ID catalogue de matières (<span class="codeph"> attribut::RootId</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> recId</span> </p></td> 
-  <td class="stentry"> <p>Entrée de catalogue de matières (<span class="codeph"> catalogue : : Id</span>). </p></td> 
+  <td class="stentry"> <p>Entrée de catalogue de matières (<span class="codeph"> catalog::Id</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> styleFile</span> </p></td> 
@@ -82,15 +82,15 @@ Les documents d&#39;armoire nécessitent un fichier de style d&#39;armoire ( [!D
 
 Les matériaux de garnitures de fenêtre nécessitent un fichier de style de garnitures de fenêtre ( [!DNL .vnw]), qui ne peut pas être spécifié comme une requête imbriquée. Un fichier de texture est facultatif et, s’il est spécifié, il peut s’agir d’un fichier ou d’une requête incorporée.
 
-Le rendu d’images utilise les mêmes règles que le traitement d’images pour rechercher des catalogues de matières, des entrées de catalogue et des fichiers de données. Pour plus d’informations, reportez-vous à la description du type de *`object`* données dans la documentation sur la diffusion d’images.
+Le rendu d’images utilise les mêmes règles que le traitement d’images pour rechercher des catalogues de matières, des entrées de catalogue et des fichiers de données. Pour plus d’informations, reportez-vous à la description du type de données *`object`* dans la documentation de la diffusion d’images.
 
-*`materialFile`* est un chemin relatif par rapport à `attribute::RootPath`.
+*`materialFile`* est un chemin relatif par rapport à  `attribute::RootPath`.
 
-*`foreignReq`* peut être une URL relative à `attribute::RootUrl`ou une URL absolue si `attribute::AllowDirectUrls` elle est définie.
+*`foreignReq`* peut être une URL relative à  `attribute::RootUrl`ou une URL absolue si  `attribute::AllowDirectUrls` elle est définie.
 
 Si *`catId`* n&#39;est pas spécifié, le catalogue de sessions est utilisé.
 
-`srcE=` et `srcN=` donner accès aux matériaux incorporés dans la vignette.
+`srcE=` et  `srcN=` permettent d&#39;accéder aux matériaux incorporés dans la vignette.
 
 ## Formats de fichiers pris en charge {#section-f2186d3eef834fc8bbecb2bc68daacad}
 
@@ -114,7 +114,7 @@ Un MSS pour une armoire colorée avec une texture répétable distincte :
 
 `…&obj=cabinets&src=cabs/maple02.vnc,cabs/maple.jpg&res=40&color=185,105,35&…`
 
-Le même matériau peut être situé dans un catalogue de matières `'cat`&quot; dans l&#39;enregistrement &quot; `12-3-2`&quot; :
+Le même matériau peut être situé dans un catalogue de matières `'cat`&#39; dans l&#39;enregistrement &quot; `12-3-2`&quot; :
 
 `…&obj=cabinets&src=cat/12-3-2&…`
 
@@ -124,4 +124,4 @@ Demande imbriquée envoyée à Image Serving pour obtenir une image de texture :
 
 ## Voir aussi {#section-d01d25b8903e4f5ca6aef4a084fca6b7}
 
-[Catalogues](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/c-ir-http-material-catalogs.md#concept-772742c1688f420a88a56f5136ad1db2)de matières, [attribut::RootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402), [attribut::AllowDirectUrls](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md#reference-02000c0f3c494292bad8425d06268882)
+[Catalogues](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-material-catalogs/c-ir-http-material-catalogs.md#concept-772742c1688f420a88a56f5136ad1db2) de matières,  [attribut::RootUrl](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402),  [attribut::AllowDirectUrls](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md#reference-02000c0f3c494292bad8425d06268882)
