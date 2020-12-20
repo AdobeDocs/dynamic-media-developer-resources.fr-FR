@@ -8,20 +8,23 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 22c271f7-e9dc-4f3e-af7b-1efe89df983e
 translation-type: tm+mt
 source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+workflow-type: tm+mt
+source-wordcount: '59'
+ht-degree: 8%
 
 ---
 
 
 # Propriétés{#properties}
 
-Les données de propriété sont renvoyées en réponse aux `req=` types suivants :
+Les données de propriété sont renvoyées en réponse aux types `req=` suivants :
 
 * `catalogprops`
 * `imageprops`
 * `props`
 * `userdata`
 
-`userdata` les réponses sont formatées en tant que propriétés uniquement lorsque le contenu des `catalog::UserData` propriétés est conforme au format des propriétés.
+`userdata` les réponses sont formatées en tant que propriétés uniquement lorsque le contenu des propriétés  `catalog::UserData` suit le format des propriétés.
 
 * [Propriétés de texte (Java)](r-text-java-properties.md)
 * [Propriétés JavaScript](r-javascript-properties.md)
