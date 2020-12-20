@@ -1,6 +1,6 @@
 ---
-description: 'Un tableau de '
-seo-description: 'Un tableau de '
+description: Un tableau de sociétés
+seo-description: Un tableau de sociétés
 seo-title: CompanyArray
 solution: Experience Manager
 title: CompanyArray
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 9963de05-7510-4dc8-8e63-1385761a2f75
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '25'
+ht-degree: 24%
 
 ---
 
 
 # CompanyArray{#companyarray}
 
-Un tableau de 
+Un tableau de sociétés
 
 Syntaxe
 
@@ -22,5 +25,5 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| ` *`éléments`*` | `types:Company` | Un tableau de . |
+| ` *`éléments`*` | `types:Company` | Un tableau de sociétés. |
 
