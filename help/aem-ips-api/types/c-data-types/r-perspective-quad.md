@@ -1,6 +1,6 @@
 ---
-description: Coordonnées de l’emplacement de l’image renvoyées par l’opération getPhotoshopPath.
-seo-description: Coordonnées de l’emplacement de l’image renvoyées par l’opération getPhotoshopPath.
+description: Coordonnées d’emplacement de l’image renvoyées par l’opération getPhotoshopPath.
+seo-description: Coordonnées d’emplacement de l’image renvoyées par l’opération getPhotoshopPath.
 seo-title: PerspectiveQuad
 solution: Experience Manager
 title: PerspectiveQuad
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: e83b7b8c-995b-4ac0-ace5-491f7e98674d
 translation-type: tm+mt
 source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 17%
 
 ---
 
 
 # PerspectiveQuad{#perspectivequad}
 
-Coordonnées de l’emplacement de l’image renvoyées par l’opération getPhotoshopPath.
+Coordonnées d’emplacement de l’image renvoyées par l’opération getPhotoshopPath.
 
 Syntaxe
 
@@ -28,12 +31,12 @@ Syntaxe
 | ` *`y1`*` | `xsd:double` | Coordonnée supérieure droite de l’axe y. |
 | ` *`x2`*` | `xsd:double` | Coordonnée inférieure droite de l’axe X. |
 | ` *`y2`*` | `xsd:double` | Coordonnée inférieure droite de l’axe y. |
-| ` *`x3`*` | `xsd:double` | Coordonnée inférieure gauche de l’axe X. |
+| ` *`x3`*` | `xsd:double` | Coordonnée de l&#39;axe X inférieure gauche. |
 | ` *`y3`*` | `xsd:double` | Coordonnée inférieure gauche de l’axe des ordonnées. |
 
 ## Exemple {#section-19ed4409ff3a41c9b52a9c9424612927}
 
-Le `PerspectiveQuad` type renvoie les données dans l’ordre suivant :
+Le type `PerspectiveQuad` renvoie les données dans cet ordre :
 
 ```
 <complexType name="PerspectiveQuad">
