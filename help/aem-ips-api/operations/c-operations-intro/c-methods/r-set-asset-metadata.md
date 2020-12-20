@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 17fe8277-a164-4f91-af96-ea43d41bd4f2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '143'
+ht-degree: 9%
 
 ---
 
@@ -18,7 +21,7 @@ Définit les valeurs de métadonnées d’un fichier. Fonctionne avec un tableau
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-9dcacb0c924044648f8324bfed183dca}
+## Types d’utilisateur autorisés {#section-9dcacb0c924044648f8324bfed183dca}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,12 +36,12 @@ Syntaxe
 
 ## Paramètres {#section-bcdcff30905e444388811e897b2824bd}
 
-**Input (setAssetMetadataParam)**
+**Entrée (setAssetMetadataParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | La poignée du avec la ressource à mettre à jour. |
-| ` *`assetHandle`*` | `xsd:string` | Oui | Poignée du fichier. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée vers la société avec la ressource à mettre à jour. |
+| ` *`assetHandle`*` | `xsd:string` | Oui | Poignée de la ressource. |
 | ` *`updateArray`*` | `types:MetadataUpdateArray` | Oui | Mises à jour dans un tableau de mise à jour des métadonnées. |
 
 **Output (setAssetMetadataReturn)**
