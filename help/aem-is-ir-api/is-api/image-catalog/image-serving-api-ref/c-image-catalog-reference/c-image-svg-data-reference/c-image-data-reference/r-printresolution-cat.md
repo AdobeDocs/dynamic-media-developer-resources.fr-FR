@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 1c7f504a-c69d-4cfc-af01-b2b6ac6f0fbf
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 6%
 
 ---
 
@@ -28,4 +31,4 @@ Nombre entier, supérieur à 0. Exprimé en points par pouce. Facultatif.
 
 ## Voir aussi {#section-0593faefffe341c5ab8a4aa5da589a04}
 
-[attribut::PrintResolution](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-printresolution.md#reference-a53c6850077148c9bd88a8c5c1c400c5) , [req=](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76), [printRes=](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-printres.md#reference-84f52afff4704c4b9d58e4bbbaea1491)
+[attribut ::PrintResolution](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-printresolution.md#reference-a53c6850077148c9bd88a8c5c1c400c5) ,  [req=](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76),  [printRes=](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-printres.md#reference-84f52afff4704c4b9d58e4bbbaea1491)
