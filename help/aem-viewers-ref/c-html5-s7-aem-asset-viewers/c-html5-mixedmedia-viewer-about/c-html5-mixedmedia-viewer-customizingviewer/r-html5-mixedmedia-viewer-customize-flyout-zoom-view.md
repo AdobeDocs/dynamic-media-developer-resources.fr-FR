@@ -1,6 +1,6 @@
 ---
-description: En mode de zoom intégré, le principal se compose de l’image statique, de l’image agrandie affichée dans le de fenêtre déroulante  sur l’image statique et du message de pointe affiché au-dessus de l’image statique.
-seo-description: En mode de zoom intégré, le principal se compose de l’image statique, de l’image agrandie affichée dans le de fenêtre déroulante  sur l’image statique et du message de pointe affiché au-dessus de l’image statique.
+description: En mode de zoom intégré, la vue principale consiste en l’image statique, l’image agrandie affichée dans la vue de la fenêtre déroulante sur l’image statique et le message d’info-bulle affiché au-dessus de l’image statique.
+seo-description: En mode de zoom intégré, la vue principale consiste en l’image statique, l’image agrandie affichée dans la vue de la fenêtre déroulante sur l’image statique et le message d’info-bulle affiché au-dessus de l’image statique.
 seo-title: Affichage de zoom déroulant
 solution: Experience Manager
 title: Affichage de zoom déroulant
@@ -8,19 +8,22 @@ topic: Dynamic media
 uuid: c4c94432-7b6f-40a8-ae5f-9423234f3656
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '280'
+ht-degree: 5%
 
 ---
 
 
 # Affichage de zoom déroulant{#flyout-zoom-view}
 
-En mode de zoom intégré, le principal se compose de l’image statique, de l’image agrandie affichée dans le de fenêtre déroulante  sur l’image statique et du message de pointe affiché au-dessus de l’image statique.
+En mode de zoom intégré, la vue principale consiste en l’image statique, l’image agrandie affichée dans la vue de la fenêtre déroulante sur l’image statique et le message d’info-bulle affiché au-dessus de l’image statique.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriétés CSS de la zone de visionneuse principale**
+**Propriétés CSS de la zone de visualisation principale**
 
-L’aspect du principal est contrôlé à l’aide du sélecteur de classe CSS suivant :
+L’aspect de la vue principale est contrôlé par le sélecteur de classe CSS suivant :
 
 ```
 .s7mixedmediaviewer .s7flyoutzoomview
@@ -35,13 +38,13 @@ L’aspect du principal est contrôlé à l’aide du sélecteur de classe CSS s
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
-   <td colname="col2"> <p> Couleur d’arrière-plan du  principal. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
+   <td colname="col2"> <p> Couleur d’arrière-plan de la vue principale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple - pour rendre le principal transparent :
+Exemple - pour rendre la vue principale transparente :
 
 ```
 .s7mixedmediaviewer .s7flyoutzoomview { 
@@ -51,13 +54,13 @@ Exemple - pour rendre le principal transparent :
 
 <!--<a id="section_FD07AB77593748F99DC6C42ED20A61EC"></a>-->
 
-L’aspect du message de conseil est contrôlé à l’aide du sélecteur de classe CSS suivant :
+L’aspect du message d’info-bulle est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 ```
 .s7mixedmediaviewer .s7flyoutzoomview .s7tip
 ```
 
-Il est possible de configurer le style de police, l’aspect de la taille et le décalage vertical au moyen de CSS. Toutefois, l’alignement horizontal est géré par la logique du lecteur de contenu. Il n’est pas possible de le remplacer via CSS à l’aide de `left` ou de `right` propriétés.
+Il est possible de configurer le style de police, l’aspect de la taille et le décalage vertical au moyen de CSS. Cependant, l’alignement horizontal est géré par la logique du lecteur de contenu. Il n’est pas possible de le remplacer via CSS en utilisant les propriétés `left` ou `right`.
 
 **Propriétés CSS du message de conseil**
 
@@ -70,43 +73,43 @@ Il est possible de configurer le style de police, l’aspect de la taille et le 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
-   <td colname="col2"> <p>Couleur de fond d’arrière-plan du message. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
+   <td colname="col2"> <p>Couleur de fond du message. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
-   <td colname="col2"> <p> Rayon de la bordure d’arrière-plan du message. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col2"> <p> Rayon de bordure de l’arrière-plan du message. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bas </span> </p> </td> 
-   <td colname="col2"> <p> Décalage à partir du bas du  principal. </p> </td> 
+   <td colname="col2"> <p> Décalage à partir du bas de la vue principale. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
    <td colname="col2"> <p>Couleur du texte du conseil. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Taille de police. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Famille de polices. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacité </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacité  </span> </p> </td> 
    <td colname="col2"> <p> Opacité de l’arrière-plan du message. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
-   <td colname="col2"> <p> Remplissage autour du texte du message. </p> </td> 
+   <td colname="col2"> <p> Marge intérieure autour du texte du message. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Le message d’info-bulle peut être localisé. Pour plus d’informations, voir [des éléments](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) de l’interface utilisateur.
+Le message d’info-bulle peut être localisé. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) pour plus d’informations.
 
-Exemple - Pour configurer un message d’info-bulle semi-transparent avec une police Arial blanche de 12 px, décalage de 50 pixels par rapport au bas du principal, du remplissage et d’une bordure arrondie :
+Exemple - Pour configurer un message d’info-bulle semi-transparent avec une police Arial blanche de 12 px, décalage de 50 pixels par rapport au bas de la vue principale, du remplissage et d’une bordure arrondie :
 
 ```
 .s7mixedmediaviewer .s7flyoutzoomview .s7tip { 
