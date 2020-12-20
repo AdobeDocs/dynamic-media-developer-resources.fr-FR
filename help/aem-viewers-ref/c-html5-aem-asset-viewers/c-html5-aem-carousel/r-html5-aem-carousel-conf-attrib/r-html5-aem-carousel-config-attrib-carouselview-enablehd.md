@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 17df4a68-a251-427c-a3c4-1e0679e3f8f1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 8%
 
 ---
 
@@ -20,11 +23,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> always|jamais|limit</span> </p> </td> 
-   <td colname="col2"> <p> Activez, limitez ou désactivez l’optimisation pour les périphériques pour lesquels le <span class="codeph"> rapportPixelRatio</span> est supérieur à <span class="codeph"> 1</span>, c’est-à-dire les périphériques avec un affichage haute densité comme l’iPhone4 et les périphériques similaires. </p> <p>S’il est actif, le composant limite la taille de la demande d’image IS comme si le périphérique n’avait qu’un rapport de pixels de <span class="codeph"> 1</span> et réduisait ainsi la bande passante. </p> <p>Voir l’exemple ci-dessous. </p> </td> 
+   <td colname="col2"> <p> Activez, limitez ou désactivez l’optimisation pour les périphériques pour lesquels <span class="codeph"> devicePixelRatio</span> est supérieur à <span class="codeph"> 1</span>, c’est-à-dire les périphériques avec un affichage haute densité comme l’iPhone4 et les périphériques similaires. </p> <p>Si principal, le composant limite alors la taille de la demande d’image IS comme si le périphérique n’avait qu’un rapport de pixels de <span class="codeph"> 1</span> et ainsi réduit la bande passante. </p> <p>Voir l’exemple ci-dessous. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> nombre</span></span> </p> </td> 
-   <td colname="col2"> <p> Si vous utilisez le paramètre <span class="codeph"> limit</span> , le composant n’active la densité de pixels élevée que jusqu’à la limite spécifiée. </p> <p>Voir l’exemple ci-dessous. </p> </td> 
+   <td colname="col2"> <p> Si vous utilisez le paramètre <span class="codeph"> limit</span>, le composant n'active la densité de pixels élevée que jusqu'à la limite spécifiée. </p> <p>Voir l’exemple ci-dessous. </p> </td> 
   </tr> 
  </tbody> 
 </table>
