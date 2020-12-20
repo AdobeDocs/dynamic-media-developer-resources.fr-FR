@@ -35,7 +35,7 @@ Notes de compatibilité pour les systèmes d’exploitation, les navigateurs et 
 ## Galaxy SIII {#section-dfd5f46f39834223b544b1e2f7a770c1}
 
 * Fuite de mémoire visible avec les visionneuses de zoom et de catalogue électronique. Une navigation répétée dans les cadres peut provoquer un blocage du navigateur.
-* Si l’utilisateur appuie sur un Doublon sur une visionneuse, il se peut que la page entière fasse l’objet d’un zoom plutôt que simplement sur la visionneuse avec la mise à l’échelle côté navigateur activée.
+* Si l’utilisateur appuie sur un doublon sur une visionneuse, il se peut que la page entière fasse l’objet d’un zoom plutôt que simplement sur la visionneuse avec la mise à l’échelle côté navigateur activée.
 
 ## Galaxy S4 {#section-7effabfea75b488399e0f71cab4ce76b}
 
@@ -43,9 +43,9 @@ Notes de compatibilité pour les systèmes d’exploitation, les navigateurs et 
 
 ## Galaxy Nexus {#section-9340b0b026bd48e8a8a6b837b59c6dc5}
 
-* Si l’utilisateur appuie sur un Doublon sur une visionneuse, il se peut que la page entière fasse l’objet d’un zoom au lieu de la seule visionneuse, la mise à l’échelle côté navigateur étant activée.
+* Si l’utilisateur appuie sur un doublon sur une visionneuse, il se peut que la page entière fasse l’objet d’un zoom au lieu de la seule visionneuse, la mise à l’échelle côté navigateur étant activée.
 
-## Galaxy Nexus 10 et tablette Galaxy {#section-ef52bd1249fe4f358c11838f7a557a00}
+## Galaxy Nexus 10 et Galaxy Tablet {#section-ef52bd1249fe4f358c11838f7a557a00}
 
 * Le catalogue électronique affiche des planches incorrectes avec des orientations portrait et paysage.
 
@@ -54,7 +54,7 @@ Notes de compatibilité pour les systèmes d’exploitation, les navigateurs et 
 * L&#39;impossibilité de désactiver le zoom par pincement natif est une &quot;fonctionnalité&quot; de HTC UI wrapper (HTC Sense). Cette fonction peut entraîner un zoom sur une page entière lors de l’utilisation du mouvement &quot;pincer pour zoomer&quot; sur la visionneuse. Utilisez plutôt un mouvement doublon-appui.
 * Les icônes de zone cliquable peuvent se chevaucher si les zones cliquables sont petites et rapprochées les unes des autres.
 
-## HTML5 Video Viewer {#section-3c2dd1220dea4093b17ca2dd0a688307}
+## Visionneuse vidéo HTML5 {#section-3c2dd1220dea4093b17ca2dd0a688307}
 
 * `IntialBitRate` est uniquement pris en charge avec la lecture HLS du logiciel et HDS Flash. Il ne fonctionne pas lorsque la lecture utilise le lecteur natif.
 * La lecture progressive OGG et WebM n’est pas prise en charge.
@@ -73,7 +73,7 @@ Notes de compatibilité pour les systèmes d’exploitation, les navigateurs et 
 
 ## Safari {#section-f8de598293d349188aa02c82cd3af8b6}
 
-* Safari 6.1 ou version ultérieure : Les paramètres du module externe Internet peuvent empêcher la lecture vidéo Flash.
+* Safari 6.1 ou version ultérieure : Les paramètres du module externe Internet peuvent empêcher la lecture vidéo par Flash.
 * La recherche de vidéos en flux continu HLS sur Safari peut être incohérente.
 * Impossible de rechercher la fin de la vidéo sur Safari 6 à l’aide de la diffusion en flux continu HLS.
 
