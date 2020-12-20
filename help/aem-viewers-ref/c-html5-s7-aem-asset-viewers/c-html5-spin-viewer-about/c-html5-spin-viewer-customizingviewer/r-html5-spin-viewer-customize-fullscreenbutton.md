@@ -1,6 +1,6 @@
 ---
-description: Ce bouton permet à la visionneuse d’accéder au mode Plein écran ou de quitter ce mode lorsqu’elle est cliquée par l’utilisateur. Ce bouton ne s’affiche pas si le lecteur fonctionne en mode contextuel et que le système ne prend pas en charge le mode plein écran natif. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
-seo-description: Ce bouton permet à la visionneuse d’accéder au mode Plein écran ou de quitter ce mode lorsqu’elle est cliquée par l’utilisateur. Ce bouton ne s’affiche pas si le lecteur fonctionne en mode contextuel et que le système ne prend pas en charge le mode plein écran natif. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
+description: Ce bouton permet à la visionneuse d’accéder au mode plein écran ou de quitter ce mode lorsque l’utilisateur clique dessus. Ce bouton ne s’affiche pas si le lecteur fonctionne en mode contextuel et que le système ne prend pas en charge le mode plein écran natif. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
+seo-description: Ce bouton permet à la visionneuse d’accéder au mode plein écran ou de quitter ce mode lorsque l’utilisateur clique dessus. Ce bouton ne s’affiche pas si le lecteur fonctionne en mode contextuel et que le système ne prend pas en charge le mode plein écran natif. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
 seo-title: Bouton Plein écran
 solution: Experience Manager
 title: Bouton Plein écran
@@ -8,17 +8,20 @@ topic: Dynamic media
 uuid: 22d10ec1-83f3-4f86-a0a1-0fc2e43232b1
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '337'
+ht-degree: 2%
 
 ---
 
 
-# Full screen button{#full-screen-button}
+# Bouton Plein écran{#full-screen-button}
 
-Ce bouton permet à la visionneuse d’accéder au mode Plein écran ou de quitter ce mode lorsqu’elle est cliquée par l’utilisateur. Ce bouton ne s’affiche pas si le lecteur fonctionne en mode contextuel et que le système ne prend pas en charge le mode plein écran natif. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
+Ce bouton permet à la visionneuse d’accéder au mode plein écran ou de quitter ce mode lorsque l’utilisateur clique dessus. Ce bouton ne s’affiche pas si le lecteur fonctionne en mode contextuel et que le système ne prend pas en charge le mode plein écran natif. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriétés CSS de la zone de visionneuse principale**
+**Propriétés CSS de la zone de visualisation principale**
 
 L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
@@ -59,23 +62,23 @@ L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suiv
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan  </span> </p> </td> 
    <td colname="col2"> <p>Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
-   <td colname="col2"> <p>Positionnez-vous à l’intérieur de l’image-objet d’illustration, si des images-objets CSS sont utilisées. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
+   <td colname="col2"> <p>Positionnez l’objet à l’intérieur de l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ce bouton prend en charge les sélecteurs `state` et `selected` d’attributs, qui peuvent être utilisés pour appliquer différents habillages à différents états de bouton. En particulier, `selected='true'` correspond à l’état &quot;plein écran&quot; et `selected='false'` à l’état &quot;normal&quot;.
+>Ce bouton prend en charge les sélecteurs d&#39;attribut `state` et `selected`, qui peuvent être utilisés pour appliquer différents habillages à différents états de bouton. En particulier, `selected='true'` correspond à l’état &quot;plein écran&quot; et `selected='false'` correspond à l’état &quot;normal&quot;.
 
-L’info-bulle du bouton peut être localisée. Pour plus d’informations, voir [des éléments](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98) de l’interface utilisateur.
+L’info-bulle du bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98) pour plus d’informations.
 
-Exemple : pour configurer un bouton plein écran de 32 x 32 pixels, positionner six pixels à partir des bords supérieur et droit de la visionneuse et afficher une image différente pour chacun des quatre états de bouton lorsqu’il est sélectionné ou non :
+Exemple : pour configurer un bouton plein écran de 32 x 32 pixels, positionné six pixels à partir du bord supérieur et droit de la visionneuse, et affiche une image différente pour chacun des quatre états de bouton, lorsqu’il est sélectionné ou non :
 
 ```
 .s7spinviewer .s7fullscreenbutton { 
