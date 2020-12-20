@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 0ac8f900-c16c-409d-b83c-3bdf0ad28fac
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '133'
+ht-degree: 11%
 
 ---
 
@@ -23,15 +26,15 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | ` *`assetHandle`*` | `xsd:string` | Poignée de ressource. |
-| ` *`type`*` | `xsd:string` | Type de fichier. La constante &quot;Types de fichier&quot; définit les valeurs possibles. Facultatif. |
-| ` *`nom`*` | `xsd:string` | Nom du fichier. Facultatif. |
+| ` *`type`*` | `xsd:string` | Type de fichier. La constante &quot;Types de ressource&quot; définit les valeurs possibles. Facultatif. |
+| ` *`name`*` | `xsd:string` | Nom du fichier. Facultatif. |
 | ` *`dossier`*` | `xsd:string` | Dossier contenant le fichier. |
 | ` *`filename`*` | `xsd:string` | Nom de fichier du fichier. |
 | ` *`créé`*` | `xsd:dateTime` | Date de création des ressources. |
 | ` *`createUser`*` | `xsd:string` | Utilisateur qui a créé la ressource. |
 | ` *`lastModified`*` | `xsd:dateTime` | Date de la dernière mise à jour de la ressource. |
 | ` *`lastModifyUser`*` | `xsd:string` | Dernier utilisateur qui a modifié la ressource. |
-| ` *`metadataArray`*` | `types:MetadataArray` | Tableau des valeurs de métadonnées associées au fichier. |
+| ` *`metadataArray`*` | `types:MetadataArray` | Tableau des valeurs de métadonnées associées à la ressource. |
 | ` *`score`*` | `xsd:double` | Définit la précision en cas de recherche par analogie (0 = aucune correspondance, 1 = correspondance exacte). |
 | ` *`scoreDetail`*` | `xsd:string` | Contient des informations détaillées sur des zones similaires suite à une recherche par analogie. |
 
