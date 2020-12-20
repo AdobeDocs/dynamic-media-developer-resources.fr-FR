@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 199a2acd-2b7f-41a0-88b2-4955a9bc9c63
 translation-type: tm+mt
 source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+workflow-type: tm+mt
+source-wordcount: '67'
+ht-degree: 8%
 
 ---
 
@@ -26,4 +29,4 @@ Aucune
 
 ## Voir aussi {#section-35bcdd8dcba745929e9cee8207609d88}
 
-[attribut:RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md)
+[attribut::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md)
