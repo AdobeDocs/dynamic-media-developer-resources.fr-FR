@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 6303c493-a6fe-4b32-80c3-947aba4190f7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 22%
 
 ---
 
@@ -18,7 +21,7 @@ Renomme un projet.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-093d1f611a1647568e885ddd842b8f78}
+## Types d’utilisateur autorisés {#section-093d1f611a1647568e885ddd842b8f78}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,23 +32,23 @@ Syntaxe
 
 ## Paramètres {#section-43ccd77648784be4a259a723c3e1db40}
 
-**Input (renameProjectParam)**
+**Entrée (renameProjectParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyName`*` | `xsd:string` | Oui | Gérez vers le le projet que vous souhaitez renommer. |
-| ` *`projectHandle`*` | `xsd:string` | Oui | Gestion du projet. |
-| ` *`projectName`*` | `xsd:string` | Oui | Nouveau nom du projet. |
+| ` *`companyName`*` | `xsd:string` | Oui | Gérer la société avec le projet que vous souhaitez renommer. |
+| ` *`projectHandle`*` | `xsd:string` | Oui | Traitement du projet. |
+| ` *`projectName`*` | `xsd:string` | Oui | Nouveau nom de projet. |
 
 **Output (renameProjectParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`projectHandle`*` | `xsd:string` | Oui | Gestionnaire du projet renommé. |
+| ` *`projectHandle`*` | `xsd:string` | Oui | Handle du projet renommé. |
 
 ## Exemples {#section-a0a06d9244774795b695a10b92b2a5e7}
 
-Cet exemple de code renomme un projet et renvoie le nom d’utilisateur du projet.
+Cet exemple de code renomme un projet et renvoie le nom d&#39;utilisateur du projet.
 
 **Request**
 
