@@ -1,6 +1,6 @@
 ---
-description: Tableau de tâches actives.
-seo-description: Tableau de tâches actives.
+description: Un ensemble de tâches principales.
+seo-description: Un ensemble de tâches principales.
 seo-title: ActiveJobArray
 solution: Experience Manager
 title: ActiveJobArray
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 05b01068-ba54-45f8-8c26-ec462df768e2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '28'
+ht-degree: 21%
 
 ---
 
 
 # ActiveJobArray{#activejobarray}
 
-Tableau de tâches actives.
+Un ensemble de tâches principales.
 
 Syntaxe
 
@@ -22,5 +25,5 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| ` *`éléments`*` | `types:ActiveJob` | Tableau des tâches actives. |
+| ` *`éléments`*` | `types:ActiveJob` | Tableau des tâches principales. |
 
