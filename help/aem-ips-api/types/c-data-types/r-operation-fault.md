@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 879d025b-3269-4f87-b8bd-b7916509d077
 translation-type: tm+mt
 source-git-commit: aa095022d43db4bf815aece9bc2b087c53a64e1b
+workflow-type: tm+mt
+source-wordcount: '63'
+ht-degree: 9%
 
 ---
 
@@ -24,6 +27,6 @@ Message de détail répondant à l’une des URL fournies dans la demande d’in
 
 | ** Nom** | ** Type** | ** Description** |
 |---|---|---|
-| ` *`code`*` | `xsd:int` | Code d’erreur fourni à partir du CDN |
-| ` *`motif`*` | `xsd:string` | Message d’erreur fourni à partir du CDN |
+| ` *`code`*` | `xsd:int` | Code d’erreur fourni par le CDN |
+| ` *`motif`*` | `xsd:string` | Message d’erreur fourni par le CDN |
 
