@@ -27,6 +27,6 @@ Gardez à l’esprit que la suppression ou le remplacement d’un fichier de don
 
 Le serveur de rendu doit être arrêté pour remplacer d’autres fichiers de données.
 
-Les entrées du cache de Platform Server sont automatiquement invalidées lorsque des fichiers matières ou des vignettes sont remplacés. Le remplacement des fichiers de profil ICC n’invalide pas les caches.
+Les entrées de cache du serveur de plateformes sont automatiquement invalidées lorsque des fichiers de matières ou des vignettes sont remplacés. Le remplacement des fichiers de profil ICC n’invalide pas les caches.
 
 Pour éviter les complications liées au remplacement de fichiers, il est recommandé de donner un nouveau nom à un fichier de remplacement et de mettre à jour les entrées de catalogue correspondantes. Cela permet de remplacer n’importe quel fichier de données pendant que le serveur est actif et rend les entrées de cache du serveur obsolètes automatiquement sans intervention supplémentaire. Cette approche peut être utilisée pour tous les fichiers de données gérés par des catalogues d’images.
