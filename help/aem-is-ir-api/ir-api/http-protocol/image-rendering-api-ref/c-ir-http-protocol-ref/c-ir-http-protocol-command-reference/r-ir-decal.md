@@ -1,6 +1,6 @@
 ---
-description: Sélecteur de matériau d'étiquette. d'un segment de spécification de matériau (MSS) pour un matériau décal non répétable.
-seo-description: Sélecteur de matériau d'étiquette. d'un segment de spécification de matériau (MSS) pour un matériau décal non répétable.
+description: Sélecteur de matériau désaffecté. Début un segment de spécification de matière (MSS) pour un matériau de décomposition non répétable.
+seo-description: Sélecteur de matériau désaffecté. Début un segment de spécification de matière (MSS) pour un matériau de décomposition non répétable.
 seo-title: décal
 solution: Experience Manager
 title: décal
@@ -8,19 +8,22 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 3a164f92-b0fc-4698-8aaa-934f029437c0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '58'
+ht-degree: 8%
 
 ---
 
 
 # decal{#decal}
 
-Sélecteur de matériau d&#39;étiquette. d&#39;un segment de spécification de matériau (MSS) pour un matériau décal non répétable.
+Sélecteur de matériau désaffecté. Début un segment de spécification de matière (MSS) pour un matériau de décomposition non répétable.
 
 ` decal[= *`val`*]`
 
 <table id="simpletable_35431F0E19B143528BD75C82CFBC5EE0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> val </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> val  </span> </p> </td> 
   <td class="stentry"> <p>Ignoré. </p> </td> 
  </tr> 
 </table>
