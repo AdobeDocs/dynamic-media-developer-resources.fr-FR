@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: f67ce333-2bc3-4e02-b714-ff493f19ae17
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 10%
 
 ---
 
@@ -22,7 +25,7 @@ Attribut de configuration pour la visionneuse de vidéos interactive.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Indique si le de la visionneuse  la lecture de la vidéo au chargement. Notez que certains systèmes, tels que certains périphériques mobiles, ne prennent pas en charge la lecture automatique. </p> </td> 
+   <td colname="col2"> <p> Indique si la visionneuse est en début de lecture de la vidéo au chargement. Notez que certains systèmes, tels que certains périphériques mobiles, peuvent ne pas prendre en charge la lecture automatique. </p> </td> 
   </tr> 
  </tbody> 
 </table>
