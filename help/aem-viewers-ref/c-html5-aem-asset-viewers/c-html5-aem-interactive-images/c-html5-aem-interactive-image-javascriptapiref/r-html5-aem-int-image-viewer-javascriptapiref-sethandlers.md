@@ -28,13 +28,13 @@ Spécifie zéro ou plusieurs gestionnaires de rappel. Un appel à cette méthode
 <table id="table_98A620DAE2C340FA97BF7204AE023CC8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> gestionnaires </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> Objet {Object} </span> JSON avec rappels de événement de la visionneuse. Le nom de la propriété correspond au nom du événement de la visionneuse prise en charge. La valeur de propriété est une référence de fonction JavaScript à un rappel approprié. </p> <p>Voir Rappels de <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> Événement </a> pour plus d’informations sur les événements des lecteurs. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> gestionnaires  </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> Objet {Object}  </span> JSON avec rappels de événement de la visionneuse. Le nom de la propriété correspond au nom du événement de la visionneuse prise en charge. La valeur de propriété est une référence de fonction JavaScript à un rappel approprié. </p> <p>Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> Rappels de Événement </a> pour plus d’informations sur les événements des lecteurs. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Returns {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Renvoie {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Aucune
 
