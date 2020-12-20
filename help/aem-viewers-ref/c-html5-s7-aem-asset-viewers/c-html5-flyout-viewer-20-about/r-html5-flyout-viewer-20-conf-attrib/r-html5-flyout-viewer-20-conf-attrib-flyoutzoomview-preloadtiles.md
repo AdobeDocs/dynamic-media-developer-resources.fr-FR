@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e73f9d5d-4b7a-4a6b-8d0f-a5e588dc00c9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Définissez cette variable sur <span class="codeph"> 1</span> pour activer le préchargement de l’image agrandie ou sur <span class="codeph"> 0</span> pour charger l’image de zoom par incréments, selon les besoins. </p> <p> <p>Remarque :  Si vous activez cette option, elle peut entraîner une utilisation de la bande passante beaucoup plus élevée. L’image agrandie est chargée dans son intégralité, même si l’utilisateur ne lance pas d’action de zoom. </p> </p> </td> 
+   <td colname="col2"> <p> Définissez ce paramètre sur <span class="codeph"> 1</span> pour activer le préchargement de l’image agrandie ou sur <span class="codeph"> 0</span> pour charger l’image de zoom par incréments, si nécessaire. </p> <p> <p>Remarque :  Si vous activez cette option, elle peut entraîner une utilisation beaucoup plus élevée de la bande passante. L’image agrandie est chargée dans son intégralité, même si l’utilisateur ne lance pas d’action de zoom. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
