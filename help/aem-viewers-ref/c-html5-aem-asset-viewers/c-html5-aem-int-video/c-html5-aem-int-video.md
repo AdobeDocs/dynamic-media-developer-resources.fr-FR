@@ -33,53 +33,53 @@ et
 
 ## Configuration système requise {#section-b7270cc4290043399681dc504f043609}
 
-Voir [Configuration requise](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
+Voir [Configuration système requise](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
 ## Utilisation de la visionneuse de vidéos interactive {#section-e6c68406ecdc4de781df182bbd8088b4}
 
 La visionneuse de vidéos interactive représente un fichier JavaScript principal et un ensemble de fichiers d’aide (un seul fichier JavaScript est inclus avec tous les composants du SDK de la visionneuse utilisés par cette visionneuse, ressources et CSS) téléchargés par la visionneuse au moment de l’exécution.
 
-La visionneuse de vidéos interactive peut être utilisée en mode contextuel à l’aide d’une page HTML prête à l’emploi fournie avec les visionneuses de diffusion d’images. It can also be used in embedded mode, where it is integrated into the targeted web page using the documented API.
+La visionneuse de vidéos interactive peut être utilisée en mode contextuel à l’aide d’une page HTML prête à l’emploi fournie avec les visionneuses de diffusion d’images. Il peut également être utilisé en mode incorporé, où il est intégré à la page Web ciblée à l’aide de l’API documentée.
 
-La configuration et l’habillage sont similaires à ceux des autres visionneuses décrites dans ce guide. All skinning is achieved by way of custom (CSS) Cascading Style Sheets.
+La configuration et l’habillage sont similaires à ceux des autres visionneuses décrites dans ce guide. Tous les habillages sont réalisés au moyen de feuilles de style en cascade (CSS) personnalisées.
 
-Voir Référence de [commande commune à toutes les visionneuses - Attributs](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) de configuration et référence de [commande commune à toutes les visionneuses - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+Voir [Référence de commande commune à toutes les visionneuses - Attributs de configuration](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) et [Référence de commande commune à toutes les visionneuses - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## Interacting with Interactive Video Viewer {#section-642e66ca38cd4032992840ec6c0b0cd2}
+## Interaction avec la visionneuse de vidéos interactive {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
-Interactive Video Viewer provides a set of standard user interface controls for video playback, such as a Play/Pause button, video scrubber, video time bubble, played time/total time indicator, volume control, full-screen button, and closed caption toggle. All of these controls are grouped into a control bar directly under the main view.
+La visionneuse de vidéos interactive fournit un ensemble de commandes standard de l’interface utilisateur pour la lecture vidéo, telles qu’un bouton Lecture/Pause, la barre de défilement vidéo, la bulle de temps de lecture vidéo, l’indicateur de temps de lecture/total, le contrôle du volume, le bouton Plein écran et la bascule de sous-titrage. Tous ces contrôles sont regroupés dans une barre de contrôle directement sous la vue principale.
 
-Note that on touch devices the volume control is hidden from the user interface, because it is only possible to control the volume using the device&#39;s hardware buttons.
+Notez que sur les périphériques tactiles, le contrôle de volume est masqué dans l&#39;interface utilisateur, car il est possible de contrôler le volume uniquement à l&#39;aide des boutons matériels du périphérique.
 
-When the viewer operates in pop-up mode, a full-screen button is not available in the user interface.
+Lorsque le lecteur fonctionne en mode contextuel, aucun bouton plein écran n’est disponible dans l’interface utilisateur.
 
-The viewer shows a panel with interactive swatches to the right of the video viewing area. The list of swatches automatically advances as the video plays, so that swatches corresponding to the current video region are shown. Clicking or tapping on a swatch triggers an action that was associated with such swatch during author time. Selon la manière dont vous l’avez configuré, le déclencheur peut rediriger vers une autre page du site Web ou transmettre les informations sur le produit à la logique de la page Web, ce qui peut à son tour déclencher l’ouverture d’une Vue rapide qui affiche le contenu du produit associé.
+La visionneuse affiche un panneau avec des échantillons interactifs à droite de la zone de visualisation vidéo. La liste des échantillons avance automatiquement à mesure que la vidéo est lue, de sorte que les échantillons correspondant à la région de la vidéo active s’affichent. Un clic ou un appui sur une nuance déclenche une action associée à cette nuance pendant l’heure de création. Selon la manière dont vous l’avez configuré, le déclencheur peut rediriger vers une autre page du site Web ou transmettre les informations sur le produit à la logique de la page Web, ce qui peut à son tour déclencher l’ouverture d’une Vue rapide qui affiche le contenu du produit associé.
 
-Il est possible de naviguer rapidement dans le contenu vidéo lorsque le chapitre vidéo est activé. Les chapitres vidéo s’affichent sous la forme de marqueurs dans le suivi de la barre de défilement vidéo et affichent le titre et la description du chapitre en cas de survol (ou sur un seul appui sur les systèmes tactiles). Le client peut &quot;rechercher&quot; un chapitre particulier en cliquant sur un marqueur de chapitre ou en appuyant sur une bulle de description de chapitre.
+Il est possible de naviguer rapidement dans le contenu vidéo lorsque le chapitre vidéo est activé. Les chapitres vidéo sont affichés sous la forme de marqueurs dans le suivi de la barre de défilement vidéo et affichent le titre et la description du chapitre lors du roulement (ou sur un seul appui sur les systèmes tactiles). Le client peut &quot;rechercher&quot; un chapitre particulier en cliquant sur un marqueur de chapitre ou en appuyant sur une bulle de description de chapitre.
 
 Le lecteur prend également en charge divers outils de partage sur les réseaux sociaux. Ils sont disponibles sous la forme d’un bouton unique dans l’interface utilisateur qui se développe dans une barre d’outils de partage lorsque l’utilisateur clique ou appuie dessus. La barre d’outils de partage contient une icône pour chaque type de canal de partage pris en charge, tel que Facebook, Twitter, le partage de courrier électronique, le partage de code incorporé et le partage de liens. Lorsque des outils de partage de courrier électronique, de partage incorporé ou de partage de liens sont activés, le lecteur affiche une boîte de dialogue modale avec un formulaire de saisie de données correspondant. Lorsque Facebook ou Twitter sont appelés, le lecteur redirige l’utilisateur vers une boîte de dialogue de partage standard à partir d’un service de médias sociaux. En outre, lorsqu’un outil de partage est activé, la lecture vidéo est automatiquement suspendue. Les outils de partage ne sont pas disponibles en mode plein écran en raison des restrictions de sécurité du navigateur Web.
 
-Le lecteur est entièrement accessible au clavier. (voir la section Accessibilité et navigation [du](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861)clavier).
+Le lecteur est entièrement accessible au clavier. Voir [Accessibilité du clavier et navigation](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
 ## Incorporation de la visionneuse de vidéos interactives {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 La visionneuse de vidéos interactive est conçue pour être intégrée à la page d’hébergement. Une telle page Web peut avoir une mise en page statique, ou elle peut être &quot;adaptée&quot; et s’afficher différemment sur différents périphériques ou pour différentes tailles de fenêtre de navigateur.
 
-Pour répondre à ces besoins, le lecteur prend en charge deux modes de fonctionnement principaux : incorporation de taille fixe et incorporation réactive.
+Pour répondre à ces besoins, le lecteur prend en charge deux modes de fonctionnement Principaux : incorporation de taille fixe et incorporation réactive.
 
 **A propos du mode d&#39;incorporation de taille fixe et du mode d&#39;incorporation de conception réactif**
 
 En mode incorporé, le lecteur est ajouté à la page Web existante, qui peut déjà contenir du contenu client qui n’est pas lié au lecteur. En règle générale, le lecteur occupe uniquement une partie de l’espace d’une page Web.
 
-Les principales utilisations sont les pages Web orientées vers les ordinateurs de bureau ou les tablettes, ainsi que les pages adaptées qui ajustent automatiquement la mise en page en fonction du type de périphérique.
+Les cas d&#39;utilisation Principaux sont les pages Web orientées vers les ordinateurs de bureau ou les tablettes, ainsi que les pages adaptées qui ajustent automatiquement la mise en page en fonction du type de périphérique.
 
 L’incorporation de taille fixe est utilisée lorsque la visionneuse ne change pas de taille après le chargement initial. Il s’agit du meilleur choix pour les pages Web présentant une disposition statique.
 
-L’incorporation de la conception réactive suppose que la visionneuse doit peut-être être redimensionnée au moment de l’exécution en raison du changement de taille de son conteneur `DIV`. Le cas d’utilisation le plus courant consiste à ajouter une visionneuse à une page Web qui utilise une disposition de page souple.
+L’incorporation de la conception réactive suppose que la visionneuse doit peut-être être redimensionnée au moment de l’exécution en réponse au changement de taille de son conteneur `DIV`. Le cas d’utilisation le plus courant consiste à ajouter une visionneuse à une page Web qui utilise une disposition de page souple.
 
-En mode d’incorporation de conceptions réactives, le lecteur se comporte différemment selon la manière dont la page Web dimensionne son conteneur `DIV`. Si la page Web définit uniquement la largeur du conteneur `DIV`et que sa hauteur n’est pas restreinte, le lecteur sélectionne automatiquement sa hauteur en fonction des proportions du fichier utilisé. Cette fonctionnalité permet de s’assurer que la ressource s’intègre parfaitement à la vue sans remplissage sur les côtés. This use case is the most common for web pages using responsive web design layout frameworks like Bootstrap, Foundation, and so on.
+En mode d’incorporation de conceptions réactives, le lecteur se comporte différemment selon la manière dont la page Web dimensionne son conteneur `DIV`. Si la page Web ne définit que la largeur du conteneur `DIV`, en ne limitant pas sa hauteur, le lecteur sélectionne automatiquement sa hauteur en fonction des proportions du fichier utilisé. Cette fonctionnalité permet de s’assurer que la ressource s’intègre parfaitement à la vue sans remplissage sur les côtés. Ce cas d’utilisation est le plus courant pour les pages Web utilisant des structures de mise en page de conception Web réactives telles que Bootstrap, Foundation, etc.
 
-Sinon, si la page Web définit à la fois la largeur et la hauteur du conteneur du lecteur de contenu `DIV`, celui-ci remplit cette zone et suit la taille indiquée par la mise en page Web. Un bon exemple est l’incorporation de la visionneuse dans une incrustation modale, où l’incrustation est dimensionnée en fonction de la taille de la fenêtre du navigateur Web.
+Sinon, si la page Web définit à la fois la largeur et la hauteur du conteneur `DIV` du lecteur, celui-ci remplit cette zone et suit la taille fournie par la mise en page Web. Un bon exemple est l’incorporation de la visionneuse dans une incrustation modale, où l’incrustation est dimensionnée en fonction de la taille de la fenêtre du navigateur Web.
 
 **Incorporation de taille fixe**
 
@@ -92,11 +92,11 @@ Pour ajouter la visionneuse à une page Web, procédez comme suit :
 
 1. Ajouter le fichier JavaScript de la visionneuse sur votre page Web.
 
-   Pour créer une visionneuse, vous devez ajouter une balise de script dans l’en-tête HTML. Avant d’utiliser l’API du lecteur de contenu, veillez à inclure [!DNL InterativeVideoViewer.js]. Le [!DNL InteractiveVideoViewer.js] fichier se trouve sous le [!DNL html5/js/] sous-dossier de votre déploiement des visionneuses IS standard :
+   Pour créer une visionneuse, vous devez ajouter une balise de script dans l’en-tête HTML. Avant de pouvoir utiliser l’API du lecteur de contenu, veillez à inclure [!DNL InterativeVideoViewer.js]. Le fichier [!DNL InteractiveVideoViewer.js] se trouve sous le sous-dossier [!DNL html5/js/] de votre déploiement des visionneuses IS standard :
 
 [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/InteractiveVideoViewer.js]
 
-Vous pouvez utiliser un chemin relatif si la visionneuse est déployée sur l’un des serveurs Dynamic Media Classic Adobe et qu’elle est diffusée à partir du même domaine. Dans le cas contraire, vous spécifiez un chemin d’accès complet à l’un des serveurs Dynamic Media Classic sur lesquels les visionneuses IS sont installées.
+Vous pouvez utiliser un chemin relatif si la visionneuse est déployée sur l’un des serveurs Dynamic Media Classic de l’Adobe et qu’elle est diffusée à partir du même domaine. Sinon, vous spécifiez un chemin d’accès complet à l’un des serveurs Dynamic Media Classic Adobe sur lesquels les visionneuses IS sont installées.
 
 Le chemin relatif ressemble à ce qui suit :
 
@@ -106,20 +106,20 @@ Le chemin relatif ressemble à ce qui suit :
 
 >[!NOTE]
 >
->Vous ne devez référencer que le fichier JavaScript du lecteur principal `include` sur votre page. Vous ne devez pas référencer de fichiers JavaScript supplémentaires dans le code de la page Web qui pourraient être téléchargés selon la logique du lecteur au moment de l’exécution. En particulier, ne référencez pas directement la `Utils.js` bibliothèque de SDK HTML5 chargée par la visionneuse à partir du chemin de `/s7viewers` contexte (appelé SDK consolidé `include`). La raison en est que l’emplacement des bibliothèques du lecteur d’exécution `Utils.js` ou similaires est entièrement géré par la logique du lecteur et que l’emplacement change entre les versions du lecteur. Adobe ne conserve pas les anciennes versions du lecteur secondaire `includes` sur le serveur.
+>Vous ne devez référencer que le fichier JavaScript du lecteur principal `include` sur votre page. Vous ne devez pas référencer de fichiers JavaScript supplémentaires dans le code de la page Web qui pourraient être téléchargés selon la logique du lecteur au moment de l’exécution. En particulier, ne référencez pas directement la bibliothèque HTML5 SDK `Utils.js` chargée par la visionneuse à partir du chemin de contexte `/s7viewers` (appelé SDK consolidé `include`). La raison en est que l’emplacement des bibliothèques de lecteurs de contenu d’exécution `Utils.js` ou similaires est entièrement géré par la logique du lecteur et que l’emplacement change entre les versions du lecteur. Adobe ne conserve pas les anciennes versions du lecteur secondaire `includes` sur le serveur.
 >
 >
->Par conséquent, si vous placez une référence directe à tout code JavaScript secondaire `include` utilisé par la visionneuse sur la page, la fonctionnalité de visionneuse sera rompue à l’avenir lors du déploiement d’une nouvelle version de produit.
+>Par conséquent, le fait de placer une référence directe à tout script JavaScript secondaire `include` utilisé par le lecteur sur la page rompt la fonctionnalité du lecteur à l’avenir lorsqu’une nouvelle version du produit est déployée.
 
 1. Définition du conteneur `DIV`.
 
-   Add an empty `DIV` element to the page where you want the viewer to appear. The `DIV` element must have its ID defined because this ID is passed later to the viewer API. La taille du DIV est spécifiée par le biais de CSS.
+   Ajoutez un élément `DIV` vide sur la page dans laquelle vous souhaitez que le lecteur s’affiche. L&#39;identifiant de l&#39;élément `DIV` doit être défini, car il est transmis ultérieurement à l&#39;API du lecteur de contenu. La taille du DIV est spécifiée par le biais de CSS.
 
-   L’espace réservé `DIV` est un élément positionné, ce qui signifie que la propriété `position` CSS est définie sur `relative` ou `absolute`.
+   L’espace réservé `DIV` est un élément positionné, ce qui signifie que la propriété CSS `position` est définie sur `relative` ou `absolute`.
 
    Pour que la fonction plein écran fonctionne correctement dans Internet Explorer, assurez-vous qu’aucun autre élément du modèle DOM ne présente un ordre d’empilement supérieur à celui de votre espace réservé `DIV`.
 
-   The following is an example of a defined placeholder `DIV` element:
+   Voici un exemple d’élément d’espace réservé défini `DIV` :
 
    ```
    <div id="s7viewer" style="position:relative"></div>
@@ -127,11 +127,11 @@ Le chemin relatif ressemble à ce qui suit :
 
 1. Définition de la taille de la visionneuse
 
-   Vous pouvez définir la taille statique de la visionneuse en la déclarant pour la classe CSS de `.s7interactivevideoviewer` niveau supérieur en unités absolues ou en utilisant `stagesize` des modificateurs.
+   Vous pouvez définir la taille statique de la visionneuse en la déclarant pour la classe CSS de niveau supérieur `.s7interactivevideoviewer` en unités absolues ou en utilisant le modificateur `stagesize`.
 
-   Vous pouvez placer le dimensionnement en CSS directement sur la page HTML ou dans un fichier CSS de visionneuse personnalisée, qui est ensuite affecté à un enregistrement de paramètre prédéfini de visionneuse en AEM Assets - à la demande ou transmis explicitement à l’aide de `style` la commande.
+   Vous pouvez placer le dimensionnement en CSS directement sur la page HTML ou dans un fichier CSS de visionneuse personnalisée, qui est ensuite affecté à un enregistrement de paramètre prédéfini de visionneuse en AEM Assets - à la demande ou transmis explicitement à l’aide de la commande `style`.
 
-   Voir [Personnalisation de la visionneuse](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) de vidéos interactives pour plus d’informations sur le style de la visionneuse avec CSS.
+   Voir [Personnalisation de la visionneuse de vidéos interactives](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) pour plus d’informations sur le style de la visionneuse avec CSS.
 
    Voici un exemple de définition de la taille d’une visionneuse statique dans la page HTML :
 
@@ -142,7 +142,7 @@ Le chemin relatif ressemble à ce qui suit :
    }
    ```
 
-   Vous pouvez définir le `stagesize` modificateur dans l’enregistrement de paramètre prédéfini de la visionneuse en AEM Assets - à la demande. Or, you can pass it explicitly with the viewer initialization code with `params` collection, or as an API call as described in the Command Reference section, like this:
+   Vous pouvez définir le modificateur `stagesize` dans l’enregistrement de paramètre prédéfini de la visionneuse à AEM Assets - on-demand. Vous pouvez également le transmettre explicitement avec le code d’initialisation de la visionneuse avec la collection `params`, ou en tant qu’appel d’API comme décrit dans la section Référence de commande, comme suit :
 
    ```
    interactivevideoviewer.setParam("stagesize", "640,640");
@@ -152,22 +152,22 @@ Le chemin relatif ressemble à ce qui suit :
 
 1. Création et initialisation de la visionneuse.
 
-   Une fois les étapes ci-dessus terminées, vous créez une instance de `s7viewers.InteractiveVideoViewer` classe, vous transmettez toutes les informations de configuration à son constructeur et vous appelez `init()` la méthode sur une instance de lecteur. Les informations de configuration sont transmises au constructeur sous la forme d’un objet JSON. Au minimum, cet objet doit comporter `containerId` un champ contenant le nom de l’ID de conteneur de la visionneuse et l’objet `params` JSON imbriqué avec les paramètres de configuration pris en charge par la visionneuse.
+   Une fois les étapes ci-dessus terminées, vous créez une instance de classe `s7viewers.InteractiveVideoViewer`, transmettez toutes les informations de configuration à son constructeur et appelez la méthode `init()` sur une instance de lecteur. Les informations de configuration sont transmises au constructeur sous la forme d’un objet JSON. Au minimum, cet objet doit comporter un champ `containerId` contenant le nom de l’identifiant de conteneur de la visionneuse et l’objet JSON `params` imbriqué avec les paramètres de configuration pris en charge par la visionneuse.
 
-   Dans ce cas, l’ `params` objet doit comporter au moins l’URL de diffusion d’images transmise en tant que `serverUrl` propriété et la ressource initiale en tant que `asset` paramètre. L’API d’initialisation basée sur JSON vous permet de créer et de début la visionneuse avec une seule ligne de code, l’URL du serveur vidéo transmise en tant que `videoserverurl` propriété, la ressource initiale en tant que `asset` paramètre et les données interactives en tant que `interactivedata` propriété. L’API d’initialisation basée sur JSON vous permet de créer et de début le lecteur avec une seule ligne de code.
+   Dans ce cas, l’objet `params` doit avoir au moins la propriété Image Serving URL transmise en tant que propriété `serverUrl` et la ressource initiale en tant que paramètre `asset`. L’API d’initialisation basée sur JSON vous permet de créer et de début la visionneuse avec une seule ligne de code, l’URL du serveur vidéo transmise en tant que propriété `videoserverurl`, la ressource initiale en tant que paramètre `asset` et les données interactives en tant que propriété `interactivedata`. L’API d’initialisation basée sur JSON vous permet de créer et de début le lecteur avec une seule ligne de code.
 
-   Il est important que le conteneur de la visionneuse soit ajouté au modèle DOM afin que le code de la visionneuse puisse trouver l’élément de conteneur en fonction de son identifiant. Certains navigateurs retardent la création du modèle DOM jusqu’à la fin de la page Web. Pour une compatibilité maximale, appelez la `init()` méthode juste avant la balise `BODY` de fermeture, ou sur le `onload()` événement de contenu.
+   Il est important que le conteneur de la visionneuse soit ajouté au modèle DOM afin que le code de la visionneuse puisse trouver l’élément de conteneur en fonction de son identifiant. Certains navigateurs retardent la création du modèle DOM jusqu’à la fin de la page Web. Pour une compatibilité maximale, appelez la méthode `init()` juste avant la balise de fermeture `BODY` ou sur le événement body `onload()`.
 
-   At the same, the container element should not necessarily be part of the web page layout just yet. Par exemple, il peut être masqué à l’aide du `display:none` style qui lui est affecté. Dans ce cas, le lecteur retarde son processus d’initialisation jusqu’au moment où la page Web ramène l’élément de conteneur à la mise en page. Cela se produit lorsque le chargement du lecteur reprend automatiquement.
+   Dans le même temps, l’élément conteneur ne doit pas nécessairement faire partie de la mise en page de la page Web pour le moment. Par exemple, il peut être masqué à l’aide du style `display:none` qui lui est affecté. Dans ce cas, le lecteur retarde son processus d’initialisation jusqu’au moment où la page Web ramène l’élément de conteneur à la mise en page. Cela se produit lorsque le chargement du lecteur reprend automatiquement.
 
-   Voici un exemple de création d’une instance de visionneuse, en transmettant les options de configuration minimales nécessaires au constructeur et en appelant la `init()` méthode. Cet exemple suppose les éléments suivants :
+   Voici un exemple de création d’une instance de visionneuse, de transmission des options de configuration minimales nécessaires au constructeur et d’appel de la méthode `init()`. Cet exemple suppose les éléments suivants :
 
-   * L’instance de lecteur de contenu est `interactiveVideoViewer`définie.
+   * L’instance de lecteur est `interactiveVideoViewer`.
    * Le nom de l’espace réservé `DIV` est `s7viewer`.
-   * L’URL de diffusion d’images est `https://aodmarketingna.assetsadobe.com/is/image/`définie.
+   * L’URL de diffusion d’images est `https://aodmarketingna.assetsadobe.com/is/image/`.
    * L’URL du serveur vidéo est `https://gateway-na.assetsadobe.com/DMGateway/public/aodmarketingna`.
-   * L’URL du contenu est `https://aodmarketingna.assetsadobe.com/`.
-   * The asset is `/content/dam/mac/aodmarketingna/dm-viewers-content/video/Glacier.mp4`.
+   * L’URL de contenu est `https://aodmarketingna.assetsadobe.com/`.
+   * La ressource est `/content/dam/mac/aodmarketingna/dm-viewers-content/video/Glacier.mp4`.
    * Les données interactives sont `is/content/content/dam/mac/aodmarketingna/_VTT/dm-viewers-content/video/Glacier.mp4.svideo.vtt`.
 
    ```
@@ -221,7 +221,7 @@ Le chemin relatif ressemble à ce qui suit :
 
 **Incorporation de conception réactive avec une hauteur libre**
 
-Avec l’incorporation de conceptions réactives, la page Web dispose normalement d’une sorte de disposition souple qui détermine la taille d’exécution du conteneur du lecteur `DIV`. Pour l’exemple suivant, supposons que la page Web permette au conteneur du lecteur `DIV` de prendre 40 % de la taille de la fenêtre du navigateur Web, en ne limitant pas sa hauteur. Le code HTML de la page Web se présenterait comme suit :
+Avec l’incorporation de conceptions réactives, la page Web dispose normalement d’une sorte de disposition souple qui détermine la taille d’exécution du conteneur `DIV` du lecteur. Pour l’exemple suivant, supposons que la page Web permette au conteneur `DIV` du lecteur de prendre 40 % de la taille de la fenêtre du navigateur Web, en laissant sa hauteur libre. Le code HTML de la page Web se présenterait comme suit :
 
 ```
 <!DOCTYPE html> 
@@ -285,9 +285,9 @@ La page d’exemples suivante illustre d’autres utilisations réelles de l’i
 
 <!-- OLD DEMO LOCATION-KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
 
-**Responsive Embedding with Width and Height Defined**
+**Incorporation réactive avec définition de largeur et de hauteur**
 
-En cas d’incorporation réactive avec définition de la largeur et de la hauteur, le style de la page Web est différent. Il fournit les deux tailles à la `"holder"` balise DIV et le centre dans la fenêtre du navigateur. En outre, la page Web définit la taille de l’ `HTML` élément et de l’ `BODY` élément sur 100 %.
+En cas d’incorporation réactive avec définition de la largeur et de la hauteur, le style de la page Web est différent. Il fournit les deux tailles à la balise `"holder"` DIV et le centre dans la fenêtre du navigateur. En outre, la page Web définit la taille des éléments `HTML` et `BODY` sur 100 %.
 
 ```
 <!DOCTYPE html> 
@@ -357,7 +357,7 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
 
 **Incorporation à l’aide d’une API basée sur Setter**
 
-Au lieu d’utiliser l’initialisation basée sur JSON, il est possible d’utiliser une API basée sur un setter et un constructeur sans args. L’utilisation de ce constructeur d’API ne prend aucun paramètre et les paramètres de configuration sont spécifiés à l’aide de méthodes `setContainerId()`, `setParam()`et `setAsset()` API avec des appels JavaScript distincts.
+Au lieu d’utiliser l’initialisation basée sur JSON, il est possible d’utiliser une API basée sur un setter et un constructeur sans args. L&#39;utilisation de ce constructeur d&#39;API ne prend aucun paramètre et les paramètres de configuration sont spécifiés à l&#39;aide des méthodes d&#39;API `setContainerId()`, `setParam()` et `setAsset()` avec des appels JavaScript distincts.
 
 L’exemple suivant illustre l’utilisation de l’incorporation de tailles fixes avec l’API basée sur un setter :
 
