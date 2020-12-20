@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 37d58c88-3d45-44d9-9f2c-d616d1077906
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '55'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>Indique le comportement de préchargement du composant. </p> <p>Lorsque cette valeur est définie sur <span class="codeph"> -1</span> , toutes les miniatures sont chargées simultanément lorsque le composant est initialisé ou que la ressource change. </p> <p> Lorsque cette valeur est définie sur <span class="codeph"> 0</span> , seules les miniatures visibles sont chargées. </p> <p>Définissez <span class="codeph"><span class="varname"> preloadnbr</span></span> pour définir le nombre de lignes invisibles autour de la zone visible qui sont préchargées. </p> </td> 
+   <td colname="col2"> <p>Indique le comportement de préchargement du composant. </p> <p>Lorsqu’elle est définie sur <span class="codeph"> -1</span>, toutes les miniatures sont chargées simultanément lorsque le composant est initialisé ou que la ressource change. </p> <p> Lorsqu’elle est définie sur <span class="codeph"> 0</span>, seules les vignettes visibles sont chargées. </p> <p>Définissez <span class="codeph"><span class="varname"> preloadnbr</span></span> pour définir le nombre de lignes invisibles autour de la zone visible qui sont préchargées. </p> </td> 
   </tr> 
  </tbody> 
 </table>
