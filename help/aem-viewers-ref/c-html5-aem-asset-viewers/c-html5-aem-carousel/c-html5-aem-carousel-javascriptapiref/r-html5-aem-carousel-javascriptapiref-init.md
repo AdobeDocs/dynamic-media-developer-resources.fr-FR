@@ -1,6 +1,6 @@
 ---
-description: Référence de l’API JavaScript pour la visionneuse de carrousel.
-seo-description: Référence de l’API JavaScript pour la visionneuse de carrousel.
+description: Référence de l’API JavaScript pour Carousel Viewer.
+seo-description: Référence de l’API JavaScript pour Carousel Viewer.
 seo-title: init
 solution: Experience Manager
 title: init
@@ -8,19 +8,22 @@ topic: Dynamic media
 uuid: f109d9ab-d5f0-462d-9e7d-c5e32629e449
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 2%
 
 ---
 
 
 # init{#init}
 
-Référence de l’API JavaScript pour la visionneuse de carrousel.
+Référence de l’API JavaScript pour Carousel Viewer.
 
 `init()`
 
-de l’initialisation de la visionneuse de carrousel. A ce moment-là, l’élément DOM  doit être créé afin que le code du lecteur puisse le trouver par son identifiant.
+Début l’initialisation de la visionneuse de carrousel. D’ici là, l’élément DOM du conteneur doit être créé afin que le code du lecteur puisse le trouver par son identifiant.
 
-Si l’élément  du ne fait pas encore partie de la mise en page de la page Web (par exemple, il peut être masqué à l’aide du `display:none` style qui lui est affecté), le lecteur suspend son processus d’initialisation jusqu’au moment où la page Web ramène l’élément  du à la mise en page. Dans ce cas, le chargement du lecteur reprend automatiquement.
+Si l’élément de conteneur ne fait pas encore partie de la mise en page de la page Web (il peut par exemple être masqué à l’aide du style `display:none` qui lui est affecté), le lecteur suspend son processus d’initialisation jusqu’au moment où la page Web ramène l’élément de conteneur à la mise en page. Dans ce cas, le chargement du lecteur reprend automatiquement.
 
 Appelez cette méthode une seule fois pendant le cycle de vie de la visionneuse ; les appels suivants sont ignorés.
 
@@ -28,7 +31,7 @@ Appelez cette méthode une seule fois pendant le cycle de vie de la visionneuse 
 
 Aucune
 
-## Returns {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Renvoie {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 `{Object}` Référence à l’instance de visionneuse.
 
