@@ -1,6 +1,6 @@
 ---
-description: Propriétés d’un fichier GIF animé.
-seo-description: Propriétés d’un fichier GIF animé.
+description: Propriétés d’une ressource de fichier GIF animé.
+seo-description: Propriétés d’une ressource de fichier GIF animé.
 seo-title: AnimatedGifInfo
 solution: Experience Manager
 title: AnimatedGifInfo
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: add69c62-1139-4993-acf7-2e11e734ea83
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '63'
+ht-degree: 26%
 
 ---
 
 
 # AnimatedGifInfo{#animatedgifinfo}
 
-Propriétés d’un fichier GIF animé.
+Propriétés d’une ressource de fichier GIF animé.
 
 Syntaxe
 
@@ -30,12 +33,12 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> chemind’origine</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> originalPath</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Chemin d’accès au fichier GIF. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> Fichier</span> d’origine </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> originalFile</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Nom de fichier. </p> </td> 
   </tr> 
@@ -50,7 +53,7 @@ Syntaxe
    <td colname="col3"> <p>Fichier image optimisé pour IPS. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> fileSize</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> fileSize</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Taille du fichier. </p> </td> 
   </tr> 
