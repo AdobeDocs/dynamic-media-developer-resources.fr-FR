@@ -15,19 +15,19 @@ ht-degree: 0%
 ---
 
 
-# Première installation{#installing-for-the-first-time}
+# Première installation de {#installing-for-the-first-time}
 
 Cette procédure explique comment installer Image Serving pour la première fois sous Linux.
 
 1. Connectez-vous à l’hôte du serveur avec les autorisations de la racine.
 1. Créez le dossier [!DNL /usr/local/scene7/licenses].
 
-   Si le fichier de clé de licence Image Serving et/ou Image Rendering (avec le suffixe de [!DNL .sc8] fichier) est disponible, copiez-le dans ce dossier. Sinon, passez à l’installation et installez la clé de licence ultérieurement.
+   Si le fichier de clé de licence Image Serving et/ou Image Rendering (avec le suffixe de fichier [!DNL .sc8]) est disponible, copiez-le dans ce dossier. Sinon, passez à l’installation et installez la clé de licence ultérieurement.
 1. Décompressez et décompressez le fichier tar de distribution Image Serving.
-1. Exécutez [!DNL ./install-is], situé dans le [!DNL Setup] dossier, pour lancer l’assistant d’installation.
+1. Exécutez [!DNL ./install-is], situé dans le dossier [!DNL Setup], pour lancer l’assistant d’installation.
 
    Si aucune clé de licence n’est trouvée, des instructions s’affichent pour décrire comment obtenir un fichier de licence. Faites-le à ce stade ou passez à l’installation de Image Serving et installez la clé de licence ultérieurement.
-1. Lorsque le contrat de licence de l&#39;utilisateur final s&#39;affiche, lisez le contrat de licence, puis entrez `y` pour continuer.
+1. Lorsque le contrat de licence de l&#39;utilisateur final s&#39;affiche, lisez le contrat de licence, puis saisissez `y` pour continuer.
 
    Le programme d’installation affiche les invites répertoriées dans le tableau suivant.
 
@@ -68,7 +68,7 @@ Cette procédure explique comment installer Image Serving pour la première fois
    >
    >Si un compte autre que root est spécifié, vous devez vous assurer que les autorisations d’accès pour tous les fichiers et dossiers dont le serveur Image Server a besoin pour lire et/ou écrire sont correctement configurées lorsque ces dossiers sont reconfigurés dans les fichiers de configuration.
    >
-   >La diffusion d’images est maintenant installée sur [!DNL /usr/local/Scene7/ImageServing]. Certains contenus de rendu d’image sont installés sur [!DNL /usr/local/Scene7/ImageRendering].
+   >Image Serving est maintenant installé sur [!DNL /usr/local/Scene7/ImageServing]. Certains contenus de rendu d’image sont installés dans [!DNL /usr/local/Scene7/ImageRendering].
    >
    >Vers la fin de l’installation, l’assistant d’installation tente de début Image Server. Si aucune clé de licence valide n’est trouvée, le serveur Image Server ne peut pas être début. S’il existe une licence valide et qu’Image Server ne démarre toujours pas, consultez les fichiers journaux.
 
