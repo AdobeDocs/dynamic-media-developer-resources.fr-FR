@@ -45,38 +45,38 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle  </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"> Poignée de la société qui contiendra le jeu de ressources. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"> Identifiant du dossier dans lequel le nouveau jeu de ressources sera créé. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> name  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"> Nom du fichier. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> subType </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> subType  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"> Identificateur unique créé par le client pour le type de jeu de ressources. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> setDefinition  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Non </td> 
    <td colname="col4"> Paramètres de la chaîne de définition de jeu. <p>Elles doivent être résolues selon le format spécifié par la visionneuse de cibles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle  </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string  </span> </td> 
    <td colname="col3"> Non </td> 
    <td colname="col4"> Gestion du fichier qui agit comme miniature pour la nouvelle visionneuse d’images. S’il n’est pas spécifié, IPS tente d’utiliser le premier fichier d’image référencé par la visionneuse. </td> 
   </tr> 
@@ -89,11 +89,11 @@ Vous pouvez spécifier des fonctions de substitution dans la ligne qui sont rés
 
 >[!NOTE]
 >
->Les littéraux descripteurs des listes de paramètres doivent être entourés de crochets `([])`. Tout le texte qui se trouve en dehors d’une chaîne de substitution est copié verbatim dans la chaîne de sortie pendant la résolution.
+>Les littéraux de poignée des listes de paramètres doivent être entourés de crochets `([])`. Tout le texte qui se trouve en dehors d’une chaîne de substitution est copié verbatim dans la chaîne de sortie pendant la résolution.
 
 | **Fonction de substitution** | **Retours** |
 |---|---|
-| `getFilePath([asset_handle>])` | Chemin d’accès au fichier source principal de l’actif. |
+| `getFilePath([asset_handle>])` | Principal chemin d’accès au fichier source. |
 | `getCatalogId([<asset_handle>])` | ID catalogue de la ressource. |
 | `getMetaData([<asset_handle>], [<metadata_field_handle>])` | Valeurs de métadonnées de la ressource. |
 | `getThumbCatalogId([<asset_handle>])` | ID catalogue de la ressource (pour les ressources basées sur une image uniquement). ID catalogue de la ressource miniature associée (pour les autres ressources). Si une ressource miniature associée n’est pas disponible, la fonction renvoie une chaîne vide. |
