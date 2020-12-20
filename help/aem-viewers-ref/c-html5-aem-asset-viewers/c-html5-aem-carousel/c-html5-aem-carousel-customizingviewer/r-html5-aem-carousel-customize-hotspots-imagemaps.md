@@ -1,6 +1,6 @@
 ---
-description: Le lecteur affiche des icônes de zones réactives sur le principal dans les endroits où des zones réactives ont été créées à l’origine dans Contenu multimédia dynamique des ressources AEM - à la demande.
-seo-description: Le lecteur affiche des icônes de zones réactives sur le principal dans les endroits où des zones réactives ont été créées à l’origine dans Contenu multimédia dynamique des ressources AEM - à la demande.
+description: Le lecteur affiche des icônes de zones réactives sur la vue principale dans les endroits où des zones réactives ont été créées à l’origine dans Dynamic Media of AEM Assets - à la demande.
+seo-description: Le lecteur affiche des icônes de zones réactives sur la vue principale dans les endroits où des zones réactives ont été créées à l’origine dans Dynamic Media of AEM Assets - à la demande.
 seo-title: Zones réactives et zones cliquables
 solution: Experience Manager
 title: Zones réactives et zones cliquables
@@ -8,17 +8,20 @@ topic: Dynamic media
 uuid: de7f4dc7-1a55-49d5-a712-7f178cc49068
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '270'
+ht-degree: 1%
 
 ---
 
 
 # Zones réactives et zones cliquables{#hotspots-and-image-maps}
 
-Le lecteur affiche des icônes de zones réactives sur le principal dans les endroits où des zones réactives ont été créées à l’origine dans Contenu multimédia dynamique des ressources AEM - à la demande.
+Le lecteur affiche des icônes de zones réactives sur la vue principale dans les endroits où des zones réactives ont été créées à l’origine dans Dynamic Media of AEM Assets - à la demande.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriétés CSS de la zone de visionneuse principale**
+**Propriétés CSS de la zone de visualisation principale**
 
 L’aspect de l’icône de zone réactive est contrôlé par le sélecteur de classe CSS suivant :
 
@@ -35,12 +38,12 @@ L’aspect de l’icône de zone réactive est contrôlé par le sélecteur de c
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-image </span> </p> </td> 
-   <td colname="col2"> <p>Image d’une icône de zone réactive. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan  </span> </p> </td> 
+   <td colname="col2"> <p>Image d’icône de zone réactive. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
-   <td colname="col2"> <p>Positionnez-vous à l’intérieur de l’image-objet d’illustration, si des images-objets CSS sont utilisées. </p> <p>Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Images-objets CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
+   <td colname="col2"> <p>Positionnez l’objet d’illustration à l’intérieur de l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -68,7 +71,7 @@ Exemple : configurez une icône de zone réactive de 56 x 56 pixels qui affiche 
 
 <!--<a id="section_26D0B8444D1F42D493793FF54968C0B9"></a>-->
 
-**Propriétés CSS de la région de zone cliquable**
+**Propriétés CSS de la zone de zone cliquable**
 
 L’aspect de la région de zone cliquable est contrôlé par le sélecteur de classe CSS suivant :
 
@@ -83,21 +86,21 @@ L’aspect de la région de zone cliquable est contrôlé par le sélecteur de c
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan </span> </p> </td> 
-   <td colname="col2"> <p>Couleur de remplissage de la zone cliquable. </p> <p>Spécifiez cette couleur aux formats <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>ou <span class="codeph"> RGBA(R,G,B,A) </span> . </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière  </span> </p> </td> 
+   <td colname="col2"> <p>Couleur de remplissage de la zone de zone cliquable. </p> <p>Spécifiez cette couleur aux formats <span class="codeph"> #RRGBB </span>, <span class="codeph"> RGB(R, G, B) </span> ou <span class="codeph"> RGBA(R, G, B, A) </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
-   <td colname="col2"> <p>Couleur de remplissage de la zone cliquable. </p> <p>Spécifiez cette couleur aux formats <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>ou <span class="codeph"> RGBA(R,G,B,A) </span> . </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
+   <td colname="col2"> <p>Couleur de remplissage de la zone de zone cliquable. </p> <p>Spécifiez cette couleur aux formats <span class="codeph"> #RRGBB </span>, <span class="codeph"> RGB(R, G, B) </span> ou <span class="codeph"> RGBA(R, G, B, A) </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bordure </span> </p> </td> 
-   <td colname="col2"> <p> Style de bordure de la zone cliquable. Doit être spécifié sous la forme " <span class="codeph"> width </span> solid color <span class="codeph"> ", où </span>width <span class="codeph"> </span> <span class="codeph"> est exprimé en pixels, et color  est défini comme  #RRGGBB , RVB(R,G,B) ou RGBA(R,G,B,A).</span><span class="codeph"></span><span class="codeph"></span><span class="codeph"></span> </p> </td> 
+   <td colname="col2"> <p> Style de bordure de la zone de zone de zone cliquable. Doit être spécifié comme " <span class="codeph"> width </span> <span class="codeph"> solid color </span>", où <span class="codeph"> width </span> est exprimé en pixels et <span class="codeph"> color </span> est défini comme <span class="codeph"> #RRGBB </span>, <span class="codeph"> RGB(R, G, B) &lt;a1 1/&gt; ou <span class="codeph"> RGBA(R, G, B, A) </span>.</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : configurez une zone de zone cliquable transparente avec une bordure noire d’un pixel :
+Exemple : configurez une zone transparente de zone cliquable avec une bordure noire d’un pixel :
 
 ```
 .s7carouselviewer .s7imagemapeffect .s7region { 
