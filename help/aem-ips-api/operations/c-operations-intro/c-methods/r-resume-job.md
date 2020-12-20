@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 0ca5db75-cce0-4afc-9a58-c47c6229931e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 16%
 
 ---
 
@@ -18,7 +21,7 @@ Redémarre une tâche suspendue.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-eab49f4b6d1041179000326a10fee889}
+## Types d’utilisateur autorisés {#section-eab49f4b6d1041179000326a10fee889}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -31,11 +34,11 @@ Syntaxe
 
 ## Paramètres {#section-6b2f8aa65d4d4ae1af0c9cee468b0a51}
 
-**Input (resumeJobParam)**
+**Entrée (resumeJobParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Le nom d’utilisateur du avec la tâche à redémarrer. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée vers la société avec la tâche que vous souhaitez redémarrer. |
 | ` *`jobHandle`*` | `xsd:string` | Oui | Poignée de la tâche en pause. |
 
 **Sortie (resumeJobReturn)**
