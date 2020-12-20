@@ -1,26 +1,29 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Nuancier.direction
+seo-title: Swatches.direction
 solution: Experience Manager
-title: Nuancier.direction
+title: Swatches.direction
 topic: Dynamic media
 uuid: 56190b1e-c69a-4296-8e91-adbce0801401
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '59'
+ht-degree: 10%
 
 ---
 
 
-# Nuancier.direction{#swatches-direction}
+# Swatches.direction{#swatches-direction}
 
 `[Swatches.|<containerId>_swatches.]direction=auto|left|right`
 
 <table id="table_B4B930A32C0742F4932BF071B9EEA9F4"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td> <p> Indique le mode de remplissage des échantillons dans le  du. </p> <p> <span class="codeph"> gauche </span> définit l'ordre de remplissage de gauche à droite; </p> <p> <span class="codeph"> right </span> inverse l’ordre afin que le  du soit rempli de droite à gauche et de haut en bas. </p> <p>Lorsque l’option <span class="codeph"> auto </span> est définie, le composant applique le <span class="codeph"> bon </span> mode lorsque le paramètre régional est défini sur <span class="codeph"> ja </span>; sinon, left est utilisé. </p> </td> 
+   <td> <p> <span class="codeph"> auto|left|right  </span> </p> </td> 
+   <td> <p> Indique la façon dont les nuances remplissent la vue. </p> <p> <span class="codeph">  </span> définit l’ordre de remplissage de gauche à droite ; </p> <p> <span class="codeph"> la droite  </span> inverse l’ordre de manière à ce que la vue soit remplie de droite à gauche et de haut en bas. </p> <p>Lorsque <span class="codeph"> auto </span> est défini, le composant applique le mode <span class="codeph"> right </span> lorsque le paramètre régional est défini sur <span class="codeph"> ja </span>; sinon, left est utilisé. </p> </td> 
   </tr> 
  </tbody> 
 </table>
