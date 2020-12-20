@@ -23,7 +23,7 @@ Paramètres permettant d’améliorer la netteté des images pour les fichiers T
 
 ## Paramètres {#section-c3f0d03136ba4422819cb463bd393885}
 
-Spécifiez la valeur des `unsharpMaskOptions` options avec `minOccurs=" *`n`*".`
+Spécifiez la valeur des options `unsharpMaskOptions` avec `minOccurs=" *`n`*".`.
 
 <table id="table_D1392963C5694969A9D546F82DB6F45C">
  <thead>
@@ -65,7 +65,7 @@ Spécifiez la valeur des `unsharpMaskOptions` options avec `minOccurs=" *`n`*".`
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> monochrome</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:int</span></td>
-   <td colname="col3"><p>Les valeurs comprennent <span class="codeph"> 0</span> ou <span class="codeph"> 1</span> uniquement. </p><p>Définissez sur <span class="codeph"> 0</span> pour appliquer séparément chaque composante de couleur ou sur <span class="codeph"> 1</span> pour appliquer uniquement la luminosité (intensité) de l’image. Le masque de calque ou le masque composite est également accentué. </p><p><span class="codeph"><span class="varname"> monochrome</span></span> est ignoré pour les images en niveaux de gris. </p></td>
+   <td colname="col3"><p>Les valeurs comprennent <span class="codeph"> 0</span> ou <span class="codeph"> 1</span> uniquement. </p><p>Définissez sur <span class="codeph"> 0</span> pour appliquer séparément chaque composante de couleur ou sur <span class="codeph"> 1</span> pour appliquer uniquement la luminosité (intensité) de l’image. Le masque de calque ou le masque composite est également accentué. </p><p><span class="codeph"><span class="varname"> Les images </span></span> monochromes sont ignorées pour les images en niveaux de gris. </p></td>
   </tr>
  </tbody>
 </table>
@@ -86,7 +86,7 @@ Spécifiez la valeur des `unsharpMaskOptions` options avec `minOccurs=" *`n`*".`
 
 ## Utilisé par {#section-db8124a5468b498694a780f8a56a4560}
 
-Le `unsharpMaskOptions` type est utilisé par :
+Le type `unsharpMaskOptions` est utilisé par :
 
 * [ReprocessAssetsJob](../../types/c-data-types/r-reprocess-assets-job.md#reference-a303f7832ae44fdab1dca7cc8bef3fa3)
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
