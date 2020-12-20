@@ -1,6 +1,6 @@
 ---
-description: Renvoie les utilisateurs d’un  spécifié par un pseudo de.
-seo-description: Renvoie les utilisateurs d’un  spécifié par un pseudo de.
+description: Renvoie les utilisateurs d’une société spécifiée par une poignée de société.
+seo-description: Renvoie les utilisateurs d’une société spécifiée par une poignée de société.
 seo-title: getCompanyMembers
 solution: Experience Manager
 title: getCompanyMembers
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 45e2d040-a70a-46f4-863a-633ddabcbcf6
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '101'
+ht-degree: 15%
 
 ---
 
 
 # getCompanyMembers{#getcompanymembers}
 
-Renvoie les utilisateurs d’un  spécifié par un pseudo de.
+Renvoie les utilisateurs d’une société spécifiée par une poignée de société.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-b2bc2fa0cc944cea8be82524838307cc}
+## Types d’utilisateur autorisés {#section-b2bc2fa0cc944cea8be82524838307cc}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,8 +34,8 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée du dont vous voulez obtenir les membres. |
-| ` *`includeInvalid`*` | `xsd:boolean` | Oui | Incluez des  non valides. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de la société dont vous souhaitez obtenir les membres. |
+| ` *`includeInvalid`*` | `xsd:boolean` | Oui | Incluez des sociétés non valides. |
 
 **Output (getCompanyMembersReturn)**
 
@@ -42,7 +45,7 @@ Syntaxe
 
 ## Exemples {#section-39d8cf3653fd4fe8b842caabac9dedfc}
 
-Cet exemple de code renvoie tous les membres d’un  d’dans un tableau d’utilisateurs. La réponse a été tronquée pour la brièveté.
+Cet exemple de code renvoie tous les membres d&#39;une société dans un tableau d&#39;utilisateurs. La réponse a été tronquée pour la brièveté.
 
 **Request**
 
