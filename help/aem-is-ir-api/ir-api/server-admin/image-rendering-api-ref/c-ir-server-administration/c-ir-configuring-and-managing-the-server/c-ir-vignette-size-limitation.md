@@ -23,5 +23,5 @@ Modifiez la valeur de `IrMaxNonPyrVignetteSize` dans [ !DNL *[!DNL install_root]
 
 >[!NOTE]
 >
->`attribute::MaxPix` Il `IS::MaxMessageSize` peut également être nécessaire d’ajuster les images pour leur permettre de répondre à des tailles d’image exceptionnellement élevées. Pour plus d’informations, reportez-vous à la documentation sur la diffusion d’images.
+>`attribute::MaxPix` Il  `IS::MaxMessageSize` peut également s’avérer nécessaire d’ajuster la taille des images de réponse aux dimensions exceptionnellement élevées. Pour plus d’informations, reportez-vous à la documentation sur la diffusion d’images.
 
