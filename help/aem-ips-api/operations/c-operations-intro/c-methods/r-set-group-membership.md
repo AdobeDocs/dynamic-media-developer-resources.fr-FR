@@ -1,24 +1,27 @@
 ---
 description: Définit l’appartenance à un groupe pour un utilisateur.
 seo-description: Définit l’appartenance à un groupe pour un utilisateur.
-seo-title: setGroupMember
+seo-title: setGroupMembership
 solution: Experience Manager
-title: setGroupMember
+title: setGroupMembership
 topic: Scene7 Image Production System API
 uuid: 3285fab0-92e4-4b88-9a3c-88cbb97d48c9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 12%
 
 ---
 
 
-# setGroupMember{#setgroupmembership}
+# setGroupMembership{#setgroupmembership}
 
 Définit l’appartenance à un groupe pour un utilisateur.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-3d6308a8a5694ed085e04d1c37982b9e}
+## Types d’utilisateur autorisés {#section-3d6308a8a5694ed085e04d1c37982b9e}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -26,21 +29,21 @@ Syntaxe
 
 ## Paramètres {#section-6aeda13b26af4796aad1306ac7a9ad17}
 
-**Input (setGroupMembshipParam)**
+**Entrée (setGroupMembershipParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | Non | Identifiant de l’utilisateur dont vous souhaitez définir l’appartenance au groupe. |
-| ` *`companyHandle`*` | `xsd:string` | Non |  poignée. |
-| ` *`groupHandleArray`*` | `types:HandleArray` | Oui | Tableau de poignées vers des groupes auxquels l’utilisateur doit appartenir. |
+| ` *`userHandle`*` | `xsd:string` | Non | Nom d’utilisateur dont vous souhaitez définir l’appartenance au groupe. |
+| ` *`companyHandle`*` | `xsd:string` | Non | Poignée de société. |
+| ` *`groupHandleArray`*` | `types:HandleArray` | Oui | Tableau de poignées effectuées sur des groupes auxquels appartient l’utilisateur. |
 
-**Output (setGroupMembshipReturn)**
+**Output (setGroupMembershipReturn)**
 
 L&#39;API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-67b86d259df24938896fe19061845811}
 
-Cet exemple de code fait de l’utilisateur un membre d’un groupe. Ajouter un utilisateur à plusieurs groupes à l’aide du tableau d’poignées de groupe.
+Cet exemple de code fait de l’utilisateur un membre d’un groupe. Ajoutez un utilisateur à plusieurs groupes à l’aide du tableau de descripteurs de groupe.
 
 **Request**
 
