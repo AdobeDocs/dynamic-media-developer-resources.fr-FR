@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: edd95500-a83d-4012-8850-b41c06c4c9e8
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 13%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> frame</span></span> </p> </td> 
-   <td colname="col2"> <p> Spécifie un index de planche de base zéro à afficher au chargement de la visionneuse. L’index correspond à l’index de la planche en mode paysage. Si le lecteur est tourné vers portrait, il affiche la page la plus à gauche de la planche vers laquelle pointe l’ <span class="codeph"> imageIdx</span>. </p> </td> 
+   <td colname="col2"> <p> Spécifie un index de planche de base zéro à afficher au chargement de la visionneuse. L’index correspond à l’index de la planche en mode paysage. Si le lecteur est tourné vers portrait, il affiche la page la plus à gauche de la planche pointée par <span class="codeph"> frameIdx</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
