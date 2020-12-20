@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 47f700e0-04bf-4d33-a18a-d938f7e9e326
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 12%
 
 ---
 
@@ -18,7 +21,7 @@ Supprime un fichier.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-e913be43b684491daf02bc73211e4290}
+## Types d’utilisateur autorisés {#section-e913be43b684491daf02bc73211e4290}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,11 +36,11 @@ Syntaxe
 
 ## Paramètres {#section-0eed164e278b456fbdfb7a50727a0416}
 
-**Input (deleteAssetParam)**
+**Entrée (deleteAssetParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Identifiant du auquel appartient le dossier. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Identifiant de la société à laquelle appartient le dossier. |
 | ` *`assetHandle`*` | `xsd:string` | Oui | Poignée du fichier à supprimer. |
 
 **Output (deleteAssetParam)**
@@ -46,7 +49,7 @@ L&#39;API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-d5657289f5234bb0a613dcf691507958}
 
-Cet exemple de code supprime tout type de fichier d’un  spécifique. Il nécessite une poignée de fichier que vous devez obtenir d’une autre opération.
+Cet exemple de code supprime tout type de fichier d&#39;une société spécifique. Elle nécessite un gestionnaire de ressources, que vous devez obtenir d’une autre opération.
 
 **Request**
 
