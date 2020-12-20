@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 3747fef9-b065-4dc4-9c96-0ea483f1fd56
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '26'
+ht-degree: 19%
 
 ---
 
@@ -22,7 +25,7 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| ` *`originalPath`*` | `xsd:string` | Chemin de la police. |
+| ` *`originalPath`*` | `xsd:string` | Chemin d’accès aux polices. |
 | ` *`originalFile`*` | `xsd:string` | Nom de la police. |
 | ` *`fileSize`*` | `xsd:int` | Taille de police. |
 
