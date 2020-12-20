@@ -1,6 +1,6 @@
 ---
-description: Obtient un tableau de membres qui se trouvent dans une visionneuse d’images.
-seo-description: Obtient un tableau de membres qui se trouvent dans une visionneuse d’images.
+description: Récupère un tableau de membres qui se trouvent dans une visionneuse d’images.
+seo-description: Récupère un tableau de membres qui se trouvent dans une visionneuse d’images.
 seo-title: getImageSetMembers
 solution: Experience Manager
 title: getImageSetMembers
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: b19c9fec-df92-42e1-9228-42cdf196fdfc
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 15%
 
 ---
 
 
 # getImageSetMembers{#getimagesetmembers}
 
-Obtient un tableau de membres qui se trouvent dans une visionneuse d’images.
+Récupère un tableau de membres qui se trouvent dans une visionneuse d’images.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-eaa3a167fa77403ea1b374b05fff4ded}
+## Types d’utilisateur autorisés {#section-eaa3a167fa77403ea1b374b05fff4ded}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -31,16 +34,16 @@ Syntaxe
 
 >[!NOTE]
 >
->Nécessite un accès en lecture à l’image et à la ressource du jeu de membres.
+>Nécessite l’accès en lecture à l’image et au fichier de jeu de membres.
 
 ## Paramètres {#section-a67ba98095574533980997c83ceaa316}
 
-**Input (getImageSetMembersParam)**
+**Entrée (getImageSetMembersParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée du  qui contient la visionneuse d’images. |
-| ` *`assetHandle`*` | `xsd:string` | Oui | Poignée de fichier de la visionneuse d’images. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de la société contenant la visionneuse d’images. |
+| ` *`assetHandle`*` | `xsd:string` | Oui | Poignée de fichier de visionneuse d’images. |
 
 **Output (getImageSetMembersReturn)**
 
