@@ -1,6 +1,6 @@
 ---
-description: Renvoie des informations sur une structure de  de (nombre de fichiers, etc.).
-seo-description: Renvoie des informations sur une structure de  de (nombre de fichiers, etc.).
+description: Renvoie des informations sur la structure d’une société (nombre de fichiers, etc.).
+seo-description: Renvoie des informations sur la structure d’une société (nombre de fichiers, etc.).
 seo-title: getDiskUsage
 solution: Experience Manager
 title: getDiskUsage
@@ -8,15 +8,18 @@ topic: Scene7 Image Production System API
 uuid: 29190200-8f49-4689-9782-1df665dca1b7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 12%
 
 ---
 
 
 # getDiskUsage{#getdiskusage}
 
-Renvoie des informations sur une structure de  de (nombre de fichiers, etc.).
+Renvoie des informations sur la structure d’une société (nombre de fichiers, etc.).
 
-## Types d’utilisateurs autorisés {#authorized-user-types}
+## Types d’utilisateur autorisés {#authorized-user-types}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -25,21 +28,21 @@ Renvoie des informations sur une structure de  de (nombre de fichiers, etc.).
 
 ## Paramètres {#section-e7e47082faf44ae28a2cfa7ef53aedbb}
 
-**Input (getDiskUsageParam)**
+**Entrée (getDiskUsageParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée du dont vous souhaitez obtenir l’utilisation du disque. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de la société dont vous souhaitez obtenir l&#39;utilisation du disque. |
 
 **Output (getDiskUsageReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`diskUsageArray`*` | `types:DiskUsageArray` | Oui | Tableau de l&#39;utilisation des disques . |
+| ` *`diskUsageArray`*` | `types:DiskUsageArray` | Oui | Tableau de l&#39;utilisation des disques de société. |
 
 ## Exemples {#section-cb16a97badc94076ad5da277db5ed16a}
 
-Le nom de cette demande est trompeur. Plutôt que de renvoyer uniquement une valeur scalaire qui reflète la quantité d&#39;espace disque qu&#39;un utilise, il obtient d&#39;autres informations sur la structure d&#39;un  également.
+Le nom de cette demande est trompeur. Plutôt que de renvoyer uniquement une valeur scalaire qui reflète l&#39;espace disque utilisé par une société, elle obtient d&#39;autres informations sur la structure d&#39;une société également.
 
 **Request**
 
