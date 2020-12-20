@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 147b7dcd-dd6d-4530-b046-18925e851eb1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '43'
+ht-degree: 39%
 
 ---
 
@@ -22,7 +25,7 @@ Syntaxe
 |---|---|---|
 | ` *`mot-clé`*` | `xsd:string` | Mot-clé. |
 | ` *`état`*` | `xsd:boolean` | Validité des mots-clés. |
-| ` *`x`*` | `xsd:int` | Position du mot-clé sur l’axe x (en pixels). |
+| ` *`x`*` | `xsd:int` | Position du mot-clé sur l’axe des x (en pixels). |
 | ` *`y`*` | `xsd:int` | Position du mot-clé sur l’axe des ordonnées (en pixels). |
 | ` *`width`*` | `xsd:int` | Largeur du mot-clé en pixels. |
 | ` *`height`*` | `xsd:int` | Hauteur du mot-clé en pixels. |
