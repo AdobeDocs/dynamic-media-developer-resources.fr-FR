@@ -1,6 +1,6 @@
 ---
-description: Renvoie un tableau de tous les  de.
-seo-description: Renvoie un tableau de tous les  de.
+description: Renvoie un tableau de toutes les sociétés.
+seo-description: Renvoie un tableau de toutes les sociétés.
 seo-title: getAllCompanies
 solution: Experience Manager
 title: getAllCompanies
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: bc2d82b1-e020-4dfe-9704-601ef5aa2111
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '77'
+ht-degree: 19%
 
 ---
 
 
 # getAllCompanies{#getallcompanies}
 
-Renvoie un tableau de tous les  de.
+Renvoie un tableau de toutes les sociétés.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-773db3753b4842e5a4623ad810176508}
+## Types d’utilisateur autorisés {#section-773db3753b4842e5a4623ad810176508}
 
 * `IpsAdmin`
 
@@ -28,17 +31,17 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`includeExpired`*` | `xsd:boolean` | Oui | Définissez cette variable sur true pour renvoyer les  expirées et non expirées. |
+| ` *`includeExpired`*` | `xsd:boolean` | Oui | Définissez cette variable sur true pour renvoyer les sociétés expirées et non expirées. |
 
 **Output (getAllCompaniesReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyArray`*` | `types:CompanyArray` | Oui | Tableau de . |
+| ` *`companyArray`*` | `types:CompanyArray` | Oui | Tableau de sociétés. |
 
 ## Exemples {#section-3eecf4e6900b41fb92a0e3214791c6b9}
 
-Cet exemple de code renvoie tous les  d&#39;IPS dans un tableau. Notez que l’exemple de réponse est tronqué pour plus de concision.
+Cet exemple de code renvoie toutes les sociétés d&#39;IPS dans un tableau. Notez que l’exemple de réponse est tronqué pour plus de concision.
 
 **Request**
 
