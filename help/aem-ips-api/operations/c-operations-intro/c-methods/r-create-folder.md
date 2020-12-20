@@ -21,7 +21,7 @@ Crée un dossier.
 
 >[!NOTE]
 >
->Le nouveau dossier est subordonné au dossier Images, même si vous spécifiez un dossier `/` pour indiquer la racine de la société.
+>Le nouveau dossier est Secondaire au dossier Images, même si vous spécifiez `/` pour indiquer la racine de la société.
 
 Syntaxe
 
