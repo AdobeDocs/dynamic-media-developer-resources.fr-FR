@@ -1,6 +1,6 @@
 ---
-description: Attribut de configuration pour le lecteur vidéo360.
-seo-description: Attribut de configuration pour le lecteur vidéo360.
+description: Attribut de configuration pour la visionneuse Video360.
+seo-description: Attribut de configuration pour la visionneuse Video360.
 seo-title: VideoTime.timepattern
 solution: Experience Manager
 title: VideoTime.timepattern
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: fe145e6f-742e-44fc-b225-187a86b6700e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '121'
+ht-degree: 3%
 
 ---
 
 
 # VideoTime.timepattern{#videotime-timepattern}
 
-Attribut de configuration pour le lecteur vidéo360.
+Attribut de configuration pour la visionneuse Video360.
 
 `[VideoTime.|<containerId>_videoTime.]timepattern=[h:]m|mm:s|ss`
 
@@ -22,7 +25,7 @@ Attribut de configuration pour le lecteur vidéo360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> [h:]m|mm:s|ss</span> </p> </td> 
-   <td colname="col2"> <p> Définit le modèle de la durée affichée dans la barre de contrôle, où <span class="codeph"> h</span> est heures, <span class="codeph"> m</span> est minutes et s <span class="codeph"></span> est secondes. </p> <p>Le nombre de lettres utilisé pour chaque unité de temps détermine le nombre de chiffres à afficher pour l’unité. Si le nombre ne peut pas tenir dans les chiffres donnés, la valeur équivalente est affichée dans l’unité suivante. </p> <p>Par exemple, si l’heure actuelle du film est de 67 minutes et de 5 secondes, le modèle d’heure <span class="codeph"> m:ss</span> est de 67:05. La même heure est affichée sous la forme 1:07:5 si le modèle d’heure donné est <span class="codeph"> :mm:s</span>. </p> </td> 
+   <td colname="col2"> <p> Définit le modèle de la durée affichée dans la barre de contrôle, où <span class="codeph"> h</span> est heures, <span class="codeph"> m</span> est minutes et <span class="codeph"> s</span> est secondes. </p> <p>Le nombre de lettres utilisées pour chaque unité de temps détermine le nombre de chiffres à afficher pour l'unité. Si le nombre ne peut pas tenir dans les chiffres donnés, la valeur équivalente est affichée dans l’unité suivante. </p> <p>Par exemple, si l’heure actuelle du film est de 67 minutes et 5 secondes, le modèle de temps <span class="codeph"> m:ss</span> s’affiche sous la forme 67:05. La même heure s’affiche sous la forme 1:07:5 si le modèle d’heure donné est <span class="codeph"> h:mm:s</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
