@@ -1,6 +1,6 @@
 ---
-description: Conversion au format du navigateur. Indique si la fonctionnalité de conversion du format du navigateur est activée ou non.
-seo-description: Conversion au format du navigateur. Indique si la fonctionnalité de conversion du format du navigateur est activée ou non.
+description: Conversion au format du navigateur. Indique si la fonctionnalité de conversion du format de navigateur est activée ou désactivée.
+seo-description: Conversion au format du navigateur. Indique si la fonctionnalité de conversion du format de navigateur est activée ou désactivée.
 seo-title: bfc
 solution: Experience Manager
 title: bfc
@@ -8,20 +8,23 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 2dd8b350-9006-4f0b-b710-0a331357daf3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 4%
 
 ---
 
 
 # bfc{#bfc}
 
-Conversion au format du navigateur. Indique si la fonctionnalité de conversion du format du navigateur est activée ou non.
+Conversion au format du navigateur. Indique si la fonctionnalité de conversion du format de navigateur est activée ou désactivée.
 
 `bfc=on|off`
 
 <table id="simpletable_2D23B1B282CD4216AB5BE7E7430D1B3F"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> on|off </span> </p> </td> 
-  <td class="stentry"> <p>Indique si la fonctionnalité de conversion de format de navigateur (conversion d’images JPEG ou PNG dans des formats de fichier spécifiques au navigateur plus petits) est vraie ( <span class="codeph"> activée </span>) ou fausse ( <span class="codeph"> désactivée </span> pour aucune conversion de format spécifique au navigateur). </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> on|off  </span> </p> </td> 
+  <td class="stentry"> <p>Indique si la fonctionnalité de conversion de format de navigateur (images JPEG ou PNG converties en formats de fichier spécifiques au navigateur plus petits) est vraie ( <span class="codeph"> sur </span>) ou fausse ( <span class="codeph"> désactivée </span> pour aucune conversion de format spécifique au navigateur). </p> </td> 
  </tr> 
 </table>
 
