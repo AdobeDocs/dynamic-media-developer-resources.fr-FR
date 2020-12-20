@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 5e987841-0c3b-4f68-96b1-fad8757f3402
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '107'
+ht-degree: 2%
 
 ---
 
@@ -25,11 +28,11 @@ Réglage de la saturation. Modifie la saturation de chaque pixel visible du calq
  </tr> 
 </table>
 
-`op_saturation=-100` désature complètement l’image.
+`op_saturation=-100` désaturation totale de l’image.
 
 ## Propriétés {#section-9a3cc9ff060049449554dfa69d92fd53}
 
-Calque, commande. S’applique au calque actif ou à l’image composite, le cas échéant `layer=comp`. Ignoré par les calques d’effet.
+Calque, commande. S’applique au calque actif ou à l’image composite si `layer=comp`. Ignoré par les calques d’effet.
 
 ## Par défaut {#section-ef0e78f55c8b4d22aee09104dad6410a}
 
@@ -37,6 +40,6 @@ Calque, commande. S’applique au calque actif ou à l’image composite, le cas
 
 ## Exemple {#section-033b272f1b7e4efeb94e841fd8095357}
 
-Manipulez une photo en couleur pour obtenir un aspect &quot;high-key&quot; :
+Manipulez une photo couleur pour obtenir un aspect &quot;high-key&quot; :
 
 `http://server/myRootId/myImageId?op_saturation=-60&op_brightness=45&op_contrast=-35`
