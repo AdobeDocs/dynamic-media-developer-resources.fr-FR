@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 44906190-516c-481c-9714-bb19d77af33c
 translation-type: tm+mt
 source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 5%
 
 ---
 
@@ -25,7 +28,7 @@ Filtre de type de contenu statique. Spécifie une chaîne de filtre pour le cont
  </tr> 
 </table>
 
-Le serveur compare la valeur de `catalog::Type` l’élément de contenu statique demandé. L’élément est renvoyé au client si les valeurs correspondent (sensible à la casse) ; dans le cas contraire, une erreur est renvoyée.
+Le serveur compare la valeur de `catalog::Type` de l’élément de contenu statique demandé. L’élément est renvoyé au client si les valeurs correspondent (sensible à la casse), sinon une erreur est renvoyée.
 
 ## Propriétés {#section-529b088434a44a9f86a64ef548d2925b}
 
@@ -33,8 +36,8 @@ Uniquement pris en charge pour les demandes de contenu statique (autres que les 
 
 ## Par défaut {#section-e9e8f51d0a01452183ccb510efd87d46}
 
-Aucune correspondance de type n’est appliquée si `type=` l’élément n’est pas spécifié ou est vide.
+Aucune correspondance de type n&#39;est appliquée si `type=` n&#39;est pas spécifié ou est vide.
 
 ## Voir aussi {#section-da60777a46a74f1bbfa5b2f3b240eb0f}
 
-[Diffusion du contenu](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-serving-static-non-image-content.md#reference-cbe50e697fdf4c7bbb0084f98b7739da)statique (sans image), [catalogue:::UserType](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-usertype-cat.md)
+[Diffusion du contenu](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-serving-static-non-image-content.md#reference-cbe50e697fdf4c7bbb0084f98b7739da) statique (sans image),  [catalogue :::UserType](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-usertype-cat.md)
