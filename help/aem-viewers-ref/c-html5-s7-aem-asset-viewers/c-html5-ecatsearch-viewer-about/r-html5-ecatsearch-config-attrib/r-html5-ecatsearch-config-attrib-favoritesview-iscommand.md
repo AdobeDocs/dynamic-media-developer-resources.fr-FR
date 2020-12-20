@@ -1,18 +1,21 @@
 ---
 description: Chaîne de commande de diffusion d’images appliquée à toutes les miniatures.
 seo-description: Chaîne de commande de diffusion d’images appliquée à toutes les miniatures.
-seo-title: FavorisView.iscommand
+seo-title: FavoritesView.iscommand
 solution: Experience Manager
-title: FavorisView.iscommand
+title: FavoritesView.iscommand
 topic: Dynamic media
 uuid: be3d49d1-d5d2-4ecd-bc8f-fe5f80204c76
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '71'
+ht-degree: 7%
 
 ---
 
 
-# FavorisView.iscommand{#favoritesview-iscommand}
+# FavoritesView.iscommand{#favoritesview-iscommand}
 
 Chaîne de commande de diffusion d’images appliquée à toutes les miniatures.
 
@@ -22,7 +25,7 @@ Chaîne de commande de diffusion d’images appliquée à toutes les miniatures.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> Si elle est spécifiée dans l'URL, toutes les occurrences de <span class="codeph"> &amp;</span> et <span class="codeph"> =</span> doivent être codées en HTTP comme <span class="codeph"> %26</span> et <span class="codeph"> %3D, respectivement.</span> </p> </td> 
+   <td colname="col2"> <p> Si elle est spécifiée dans l’URL, toutes les occurrences de <span class="codeph"> &amp;</span> et <span class="codeph"> =</span> doivent être codées en HTTP sous la forme <span class="codeph"> %26</span> et <span class="codeph"> %3D</span>, respectivement. </p> </td> 
   </tr> 
  </tbody> 
 </table>
