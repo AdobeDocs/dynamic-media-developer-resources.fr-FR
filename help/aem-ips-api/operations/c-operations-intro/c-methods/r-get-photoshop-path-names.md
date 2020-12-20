@@ -1,6 +1,6 @@
 ---
-description: Renvoie un tableau de noms de chemin Photoshop pour l’image donnée.
-seo-description: Renvoie un tableau de noms de chemin Photoshop pour l’image donnée.
+description: Renvoie un tableau de noms de chemins d’accès Photoshop pour l’image donnée.
+seo-description: Renvoie un tableau de noms de chemins d’accès Photoshop pour l’image donnée.
 seo-title: getPhotoshopPathNames
 solution: Experience Manager
 title: getPhotoshopPathNames
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: d3f1dea5-393b-498e-963d-37a4e38068a2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 17%
 
 ---
 
 
 # getPhotoshopPathNames{#getphotoshoppathnames}
 
-Renvoie un tableau de noms de chemin Photoshop pour l’image donnée.
+Renvoie un tableau de noms de chemins d’accès Photoshop pour l’image donnée.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-baa0fd4b92bc4ad89809efd659b3a629}
+## Types d’utilisateur autorisés {#section-baa0fd4b92bc4ad89809efd659b3a629}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -34,14 +37,14 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Pointez sur le  qui contient l’image à utiliser. |
-| ` *`assetHandle`*` | `xsd:string` | Oui | Traitement du fichier d’image. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Pointez sur la société contenant l’image à utiliser. |
+| ` *`assetHandle`*` | `xsd:string` | Oui | Pointez sur le fichier d’image. |
 
 **Output (getPhotoshopPathNamesReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`pathNameArray`*` | `types:StringArray` | Oui | Tableau de noms de chemins Photoshop dans une image. |
+| ` *`pathNameArray`*` | `types:StringArray` | Oui | Tableau de noms de chemins d’accès Photoshop dans une image. |
 
 ## Exemples {#section-6d316f14b4184d42af4ca3f717b042dd}
 
