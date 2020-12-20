@@ -1,20 +1,23 @@
 ---
-description: La mise en surbrillance de la cible d’action affichée autour de l’élément d’interface utilisateur de la visionneuse ciblé est contrôlée par le sélecteur de classe CSS.
-seo-description: La mise en surbrillance de la cible d’action affichée autour de l’élément d’interface utilisateur de la visionneuse ciblé est contrôlée par le sélecteur de classe CSS.
-seo-title: Mise en valeur
+description: La mise en surbrillance de la cible d’action affichée autour de l’élément d’interface utilisateur de la visionneuse ciblée est contrôlée avec le sélecteur de classe CSS.
+seo-description: La mise en surbrillance de la cible d’action affichée autour de l’élément d’interface utilisateur de la visionneuse ciblée est contrôlée avec le sélecteur de classe CSS.
+seo-title: Mise en évidence
 solution: Experience Manager
-title: Mise en valeur
+title: Mise en évidence
 topic: Dynamic media
 uuid: cf5acb11-168e-4303-a637-d959687a0548
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 1%
 
 ---
 
 
-# Mise en valeur{#focus-highlight}
+# Mise en évidence de la mise au point{#focus-highlight}
 
-La mise en surbrillance de la cible d’action affichée autour de l’élément d’interface utilisateur de la visionneuse ciblé est contrôlée par le sélecteur de classe CSS.
+La mise en surbrillance de la cible d’action affichée autour de l’élément d’interface utilisateur de la visionneuse ciblée est contrôlée avec le sélecteur de classe CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,8 +38,8 @@ L’aspect est contrôlé à l’aide du sélecteur de classe CSS suivant :
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> outline </span> </p> </td> 
-   <td colname="col2"> <p>Mise au point du style de mise en surbrillance. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> outline  </span> </p> </td> 
+   <td colname="col2"> <p>Mise en surbrillance du focus. </p> </td> 
   </tr> 
  </tbody> 
 </table>
