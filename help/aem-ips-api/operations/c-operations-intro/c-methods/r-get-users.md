@@ -1,6 +1,6 @@
 ---
-description: Récupère un tableau d’utilisateurs tel que spécifié par les  de, les groupes et les gestionnaires de rôle utilisateur. Cette opération vous permet de trier les utilisateurs renvoyés et de filtrer par caractère.
-seo-description: Récupère un tableau d’utilisateurs tel que spécifié par les  de, les groupes et les gestionnaires de rôle utilisateur. Cette opération vous permet de trier les utilisateurs renvoyés et de filtrer par caractère.
+description: Obtient un tableau d'utilisateurs tel que spécifié par les poignées de société, de groupe et de rôle utilisateur. Cette opération vous permet de trier les utilisateurs renvoyés et de filtrer par caractère.
+seo-description: Obtient un tableau d'utilisateurs tel que spécifié par les poignées de société, de groupe et de rôle utilisateur. Cette opération vous permet de trier les utilisateurs renvoyés et de filtrer par caractère.
 seo-title: getUsers
 solution: Experience Manager
 title: getUsers
@@ -8,15 +8,18 @@ topic: Scene7 Image Production System API
 uuid: f16ccd1b-0f00-4d9a-b6e1-6abc3bde1af9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '235'
+ht-degree: 9%
 
 ---
 
 
 # getUsers{#getusers}
 
-Récupère un tableau d’utilisateurs tel que spécifié par les  de, les groupes et les gestionnaires de rôle utilisateur. Cette opération vous permet de trier les utilisateurs renvoyés et de filtrer par caractère.
+Obtient un tableau d&#39;utilisateurs tel que spécifié par les poignées de société, de groupe et de rôle utilisateur. Cette opération vous permet de trier les utilisateurs renvoyés et de filtrer par caractère.
 
-## Types d’utilisateurs autorisés {#section-6a8f23cc6b22442d8776f701016971ed}
+## Types d’utilisateur autorisés {#section-6a8f23cc6b22442d8776f701016971ed}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -26,18 +29,18 @@ Récupère un tableau d’utilisateurs tel que spécifié par les  de, les group
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`includeInactive`*` | `xsd:boolean` | Non | Incluez ou excluez les utilisateurs inactifs. Les utilisateurs non administrateurs d&#39;IPS doivent être membres actifs d&#39;au moins un  pour être autorisés à effectuer des appels d&#39;API. Une erreur d’autorisation est renvoyée si l’utilisateur n’a pas d’abonnement  actif. |
+| ` *`includeInactive`*` | `xsd:boolean` | Non | Incluez ou excluez les utilisateurs inactifs. Les utilisateurs administrateurs non-IPS doivent être membres principaux d&#39;au moins une société pour être autorisés à effectuer des appels d&#39;API. Une erreur d&#39;autorisation est renvoyée si l&#39;utilisateur n&#39;a pas d&#39;abonnement à une société principale. |
 | ` *`includeInvalid`*` | `xsd:boolean` | Non | Vous permet d’inclure/d’exclure des utilisateurs non valides. |
-| ` *`companyHandleArray`*` | `types:HandleArray` | Non | Filtrez les résultats par . |
+| ` *`companyHandleArray`*` | `types:HandleArray` | Non | Filtrez les résultats par société. |
 | ` *`groupHandleArray`*` | `types:HandleArray` | Non | Filtrez les résultats par groupe. |
 | ` *`userRoleArray`*` | `types:StringArray` | Non | Filtrez les résultats par rôle utilisateur. |
-| ` *`charFilterField`*` | `xsd:string` | Non | Filtrage des résultats par préfixe de chaîne du champ (voir [!DNL Trash State).] |
+| ` *`charFilterField`*` | `xsd:string` | Non | Filtrer les résultats par préfixe de chaîne de champ (voir [!DNL Trash State).] |
 | ` *`charFilter`*` | `xsd:string` | Non | Filtrez les résultats selon un caractère spécifique. |
 | ` *`sortBy`*` | `xsd:string` | Non | Choix des champs de tri des utilisateurs. |
 | ` *`recordsPerPage`*` | `xsd:int` | Non | Renvoie le nombre spécifié d’enregistrements par page. |
 | ` *`resultsPage`*` | `xsd:int` | Non | Page de résultats. |
 
-**Output (getUsersReturn)**
+**Sortie (getUsersReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
