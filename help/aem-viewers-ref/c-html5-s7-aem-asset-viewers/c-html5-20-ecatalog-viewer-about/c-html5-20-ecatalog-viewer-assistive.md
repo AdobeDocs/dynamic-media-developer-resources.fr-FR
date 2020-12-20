@@ -1,33 +1,36 @@
 ---
-description: Tous les composants du lecteur prennent en charge les rôles et les attributs ARIA (Accessible Rich Internet Applications) afin d’améliorer l’intégration avec les technologies d’assistance telles que les lecteurs d’écran.
-seo-description: Tous les composants du lecteur prennent en charge les rôles et les attributs ARIA (Accessible Rich Internet Applications) afin d’améliorer l’intégration avec les technologies d’assistance telles que les lecteurs d’écran.
-seo-title: Prise en charge des technologies d'assistance
+description: Tous les composants du lecteur prennent en charge les rôles et attributs ARIA (Accessible Rich Internet Applications) afin d’améliorer l’intégration avec les technologies d’assistance telles que les lecteurs d’écran.
+seo-description: Tous les composants du lecteur prennent en charge les rôles et attributs ARIA (Accessible Rich Internet Applications) afin d’améliorer l’intégration avec les technologies d’assistance telles que les lecteurs d’écran.
+seo-title: Assistance technique
 solution: Experience Manager
-title: Prise en charge des technologies d'assistance
+title: Assistance technique
 topic: Dynamic media
 uuid: 8565383e-5c13-4af0-9b6e-2d583c18f19c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '390'
+ht-degree: 0%
 
 ---
 
 
-# Prise en charge des technologies d&#39;assistance{#assistive-technology-support}
+# Prise en charge des technologies d’assistance{#assistive-technology-support}
 
-Tous les composants du lecteur prennent en charge les rôles et les attributs ARIA (Accessible Rich Internet Applications) afin d’améliorer l’intégration avec les technologies d’assistance telles que les lecteurs d’écran.
+Tous les composants du lecteur prennent en charge les rôles et attributs ARIA (Accessible Rich Internet Applications) afin d’améliorer l’intégration avec les technologies d’assistance telles que les lecteurs d’écran.
 
-L’élément de lecteur de niveau supérieur a un rôle `region` `aria-label` et un attribut définis par défaut sur le nom de la visionneuse. Vous pouvez contrôler l’étiquette à l’aide du `Container.LABEL` symbole .
+L’élément de lecteur de niveau supérieur a les attributs de rôle `region` et `aria-label` définis par défaut sur le nom de la visionneuse. Vous pouvez contrôler le libellé avec le symbole de localisation `Container.LABEL`.
 
-Les boutons ont le rôle `button` et le texte descriptif défini avec l’ `aria-label` attribut. La valeur de `aria-label` l’attribut est renseignée à partir de la valeur du symbole de  du bouton. Lorsqu’un bouton est désactivé, l’ `aria-disabled` attribut est défini en conséquence.
+Les boutons ont le rôle `button` et un texte descriptif défini avec l&#39;attribut `aria-label`. La valeur de l’attribut `aria-label` est renseignée à partir de la valeur du symbole de localisation du bouton. Lorsqu’un bouton est désactivé, l’attribut `aria-disabled` est défini en conséquence.
 
-Le principal a un rôle `application`. Une brève description de la  principale du est fournie dans `aria-roledescription`, avec la valeur définie par le symbole de la  de du composant `ROLE_DESCRIPTION` principal de l&#39;ensemble de l&#39;ensemble. Les conseils de navigation pour les utilisateurs du clavier sont fournis à l’aide `aria-describedby`, le texte du conseil d’utilisation provient du symbole `USAGE_HINT` . Si un libellé est défini dans le champ UserData d’un fichier, l’ `aria-label` attribut est défini avec la valeur de ce libellé.
+La vue principale a le rôle `application`. Une brève description de la vue principale est fournie dans `aria-roledescription`, avec la valeur définie par le symbole de localisation `ROLE_DESCRIPTION` du composant principal de vue correspondant. Les conseils de navigation des utilisateurs du clavier sont fournis à l’aide de `aria-describedby`, le texte du conseil d’utilisation provient du symbole de localisation `USAGE_HINT`. Si un libellé est défini dans le champ UserData d’un fichier, l’attribut `aria-label` est défini avec la valeur de ce libellé.
 
-Les zones réactives, les régions et les zones cliquables ont le rôle `button` et le texte descriptif défini avec `aria-label` attribut, avec la valeur du libellé de zone réactive ou de zone cliquable. Lorsque l’utilisateur met l’accent sur les zones réactives ou les zones cliquables, des conseils de navigation pour les utilisateurs du clavier sont fournis à l’aide `aria-describedby`, le texte du conseil d’utilisation provenant du symbole de l’ `USAGE_HINT` .
+Les zones réactives, les régions et les zones cliquables ont le rôle `button` et un texte descriptif défini avec l’attribut `aria-label`, avec la valeur de la zone réactive ou du libellé de zone cliquable. Lorsque l’utilisateur met l’accent sur les zones réactives ou les zones cliquables, des conseils de navigation pour les utilisateurs du clavier sont fournis à l’aide de `aria-describedby`, le texte du conseil d’utilisation provenant du symbole de localisation `USAGE_HINT`.
 
-Les miniatures ont le rôle `dialog` dont l’attribut est contrôlé par le `aria-label` `ThumbnailGridView.LABEL` symbole  de l’. Les miniatures individuelles ont un rôle `button`. Si une miniature est sélectionnée, l’attribut est défini sur `aria-selected` `true`.
+Les miniatures ont le rôle `dialog` avec l&#39;attribut `aria-label` contrôlé par le symbole de localisation `ThumbnailGridView.LABEL`. Les miniatures individuelles ont un rôle `button`. Si une miniature est sélectionnée, elle obtient l’attribut `aria-selected` défini sur `true`.
 
-Les composants qui affichent des échantillons ont le rôle `listbox` dont l’attribut `aria-label` est défini sur la valeur du symbole de  de `LABEL` de ce composant. Les nuances individuelles ont le rôle `option` avec `aria-setsize` `aria-posinset` et les attributs pour décrire la position des nuances dans la visionneuse. Si une nuance est sélectionnée, l’ `aria-selected` attribut est défini sur `true`.
+Les composants qui affichent des échantillons ont le rôle `listbox` avec l&#39;attribut `aria-label` défini sur la valeur du symbole de localisation `LABEL` de ce composant. Les nuances individuelles ont le rôle `option` avec les attributs `aria-setsize` et `aria-posinset` pour décrire la position des nuances dans l’ensemble. Si une nuance est sélectionnée, elle obtient l&#39;attribut `aria-selected` défini sur `true`.
 
-Les  déroulantes sont activées par des boutons dont l’ `aria-haspopup` attribut supplémentaire est défini sur `true` et l’attribut `aria-controls` référençant l’élément de panneau déroulant réel. Le panneau déroulant lui-même a le rôle `menu` avec des sous-éléments ayant le rôle `menuitem`. L&#39; `aria-label` attribut spécifié est affecté à chaque élément de menu.
+Les listes déroulantes sont activées par des boutons avec un attribut `aria-haspopup` supplémentaire défini sur `true` et l&#39;attribut `aria-controls` référençant l&#39;élément de panneau déroulant réel. Le panneau déroulant a lui-même le rôle `menu` avec des sous-éléments ayant le rôle `menuitem`. L&#39;attribut `aria-label` est spécifié pour chaque élément de menu.
 
-Les boîtes de dialogue modales ont le rôle `dialog`. L’élément d’en-tête de la boîte de dialogue est référencé par l’ `aria-labelledby` attribut.
+Les boîtes de dialogue modales ont le rôle `dialog`. L’élément d’en-tête de la boîte de dialogue est référencé par l’attribut `aria-labelledby`.
