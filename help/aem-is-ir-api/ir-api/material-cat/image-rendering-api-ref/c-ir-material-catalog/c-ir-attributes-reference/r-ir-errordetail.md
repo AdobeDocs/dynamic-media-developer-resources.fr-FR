@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: aab11640-95d7-427d-b79f-c477b2c9047e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '180'
+ht-degree: 5%
 
 ---
 
@@ -31,26 +34,26 @@ Les valeurs suivantes sont autorisées :
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p></td> 
-  <td class="stentry"> <p>Message détaillé. Fournit des détails au niveau de l’utilisateur sur l’erreur. Peut inclure des informations sensibles, telles que les chemins d’accès aux fichiers. </p></td> 
+  <td class="stentry"> <p>Message détaillé. Fournit des détails sur l’erreur au niveau de l’utilisateur. Peut inclure des informations sensibles, telles que les chemins d’accès aux fichiers. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>Informations complètes sur le débogage. Ajoute des traces de pile Java le cas échéant. Les images d’erreur n’incluent jamais les traces de pile et renvoient les informations de niveau 2 dans <span class="codeph"> $error.message</span>. </p></td> 
+  <td class="stentry"> <p>Informations complètes sur le débogage. Ajoute les traces de la pile Java, le cas échéant. Les images d’erreur n’incluent jamais de traces de pile et renvoient à la place des informations de niveau 2 dans <span class="codeph"> $error.message</span>. </p></td> 
  </tr> 
 </table>
 
 * Le niveau 0 est recommandé pour les serveurs actifs accessibles au public.
-* Le niveau 2 est recommandé pour les serveurs d’évaluation, d’assurance qualité et de développement d’applications.
-* Les informations de niveau 3 peuvent s’avérer utiles lorsque vous  des problèmes avec l’assistance technique de Scene7.
+* Le niveau 2 est recommandé pour les serveurs d’évaluation, d’assurance de la qualité et de développement d’applications.
+* Les informations de niveau 3 peuvent être utiles en cas de problèmes de rapports au support technique de Scene7.
 
 ## Propriétés {#section-f03f9a8edd6a4d99aff38fbec41c4b80}
 
-La valeur énumérée doit être 0, 1, 2 ou 3.
+Valeur énumérée : 0, 1, 2 ou 3.
 
 ## Par défaut {#section-5e78d550050840cc9a1de811c581b94f}
 
-Hérité de `default::ErrorDetail` si non spécifié ou si vide.
+Hérité de `default::ErrorDetail` si elle n&#39;est pas spécifiée ou si elle est vide.
 
 ## Voir aussi {#section-474e71922d194c7ca06f2aad3b30e025}
 
-[attribute::ErrorImage](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errorimage.md#reference-b58bdaba96074c52802ca8dc54bfe2f0)
+[attribut::ErrorImage](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errorimage.md#reference-b58bdaba96074c52802ca8dc54bfe2f0)
