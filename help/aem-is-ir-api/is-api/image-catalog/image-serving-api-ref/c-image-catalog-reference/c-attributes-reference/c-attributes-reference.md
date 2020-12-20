@@ -8,15 +8,18 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: a1994598-9e51-4c56-9314-c01c9303c175
 translation-type: tm+mt
 source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 3%
 
 ---
 
 
-# Référence des attributs{#attributes-reference}
+# Attributs reference{#attributes-reference}
 
 Tous les attributs de catalogue sont facultatifs, à l’exception de catalog::RootId.
 
-Tous les attributs sont requis dans le fichier d’attributs de catalogue par défaut ( [!DNL default.ini]).
+Tous les attributs sont requis dans le fichier d&#39;attributs de catalogue par défaut ( [!DNL default.ini]).
 
 * [AllowDirectAccess](r-allowdirectaccess.md)
 * [AllowDirectUrls](r-allowdirecturls.md)
@@ -63,19 +66,19 @@ Tous les attributs sont requis dans le fichier d’attributs de catalogue par d�
 * [PublishInfo](r-publishinfo.md)
 * [PrintResolution](r-printresolution.md)
 * [RequestLock](r-requestlock.md)
-* [RequestObfuscation](r-requestobfuscation.md)
+* [Obscurcissement de requête](r-requestobfuscation.md)
 * [ResMode](r-is-cat-resmode.md)
 * [Résolution](r-resolution.md)
 * [RootId](r-rootid.md)
 * [RootPath](r-rootpath.md)
-* [RootUrl](r-rooturl.md)
-* [RuleSetFile](r-rulesetfile.md)
+* [URLRacine](r-rooturl.md)
+* [FichierJeuRègle](r-rulesetfile.md)
 * [SavePath](r-savepath.md)
 * [StaticContentCatalogFile](r-staticcontentcatalogfile.md)
 * [StaticContentRootPath](r-staticcontentrootpath.md)
 * [SvgCatalogFile](r-svgcatalogfile.md)
 * [SynthesizeFontStyles](r-synthesizefontstyles.md)
-* [CouleurBkgPouce](r-thumbbkgcolor.md)
+* [CouleurBkgPasse](r-thumbbkgcolor.md)
 * [ThumbHorizAlign](r-thumbhorizalign.md)
 * [ThumbRes](r-thumbres.md)
 * [ThumbType](r-thumbtype.md)
