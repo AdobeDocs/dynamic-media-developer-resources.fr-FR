@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: fe387eba-a30d-49d5-9e53-2083f42a5dd0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '53'
+ht-degree: 11%
 
 ---
 
@@ -22,6 +25,6 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| ` *`nom`*` | `xsd:string` | Nom d’attribut. |
+| ` *`name`*` | `xsd:string` | Nom d’attribut. |
 | ` *`value`*` | `xsd:string` | Valeur d’attribut. |
 
