@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: cdcfd6b9-e0ce-4a00-b80b-4bfc4fad4b9c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 17%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Débit audio. Valeur longue qui représente le débit audio de la ressource vidéo.
 
-Utilisé par `req=set` et `req=mbrSet`les requêtes pour exporter des données de débit binaire.
+Utilisé par les requêtes `req=set` et `req=mbrSet`pour exporter des données de débit binaire.
 
 S’applique uniquement au catalogue de contenu statique.
 
@@ -30,4 +33,4 @@ Aucune
 
 ## Voir aussi {#section-7ffaec68b992426dad1c9ac0792f326f}
 
-[req=set](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-set.md#reference-2cac1a03eaf44a7986e18f2898384f98) , [req=mbrSet](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-mbrset.md#reference-603d75babde74508a878c27bd4cced73), Demandes de visionneuse de [supports](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md#reference-f2f2aa11208b47609fe17848d3b86a0b)
+[req=set](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-set.md#reference-2cac1a03eaf44a7986e18f2898384f98) ,  [req=mbrSet](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-mbrset.md#reference-603d75babde74508a878c27bd4cced73),  [Media Set Requests](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md#reference-f2f2aa11208b47609fe17848d3b86a0b)
