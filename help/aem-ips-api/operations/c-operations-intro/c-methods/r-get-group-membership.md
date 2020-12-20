@@ -1,24 +1,27 @@
 ---
 description: Renvoie les membres d’un groupe.
 seo-description: Renvoie les membres d’un groupe.
-seo-title: getGroupMember
+seo-title: getGroupMembership
 solution: Experience Manager
-title: getGroupMember
+title: getGroupMembership
 topic: Scene7 Image Production System API
 uuid: 5ec48e8c-378b-43a3-b3dc-aa21dbf339b5
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '87'
+ht-degree: 18%
 
 ---
 
 
-# getGroupMember{#getgroupmembership}
+# getGroupMembership{#getgroupmembership}
 
 Renvoie les membres d’un groupe.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-35d070e5c4d74ca69df508368953cfb8}
+## Types d’utilisateur autorisés {#section-35d070e5c4d74ca69df508368953cfb8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,14 +33,14 @@ Syntaxe
 
 ## Paramètres {#section-2e92f850254e46e48403acaa215341a5}
 
-**Entrée (getGroupMembshipParam)**
+**Entrée (getGroupMembershipParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | Non | Identifiant de l’utilisateur. |
-| ` *`companyHandle`*` | `xsd:string` | Non | La poignée du. |
+| ` *`userHandle`*` | `xsd:string` | Non | Nom d’utilisateur. |
+| ` *`companyHandle`*` | `xsd:string` | Non | La poignée de la société. |
 
-**Output (getGroupMembshipReturn)**
+**Output (getGroupMembershipReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -45,7 +48,7 @@ Syntaxe
 
 ## Exemples {#section-ebb437369f4f4487b3eb2ef0c078b8ae}
 
-Cet exemple de code renvoie tous les membres d’un groupe. Comme les  et les poignées utilisateur sont facultatives, l’opération peut renvoyer tous les membres de tous les groupes.
+Cet exemple de code renvoie tous les membres d&#39;un groupe. La société et les poignées utilisateur étant facultatives, l’opération peut renvoyer tous les membres de tous les groupes.
 
 **Request**
 
