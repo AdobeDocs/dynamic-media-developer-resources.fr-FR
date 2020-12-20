@@ -39,9 +39,9 @@ Les accolades `{ }` et les parenthèses `( )` peuvent être utilisées pour dél
 
 Pour plus d’informations sur la structure et l’utilisation des visionneuses d’images, reportez-vous à la documentation des visionneuses d’images.
 
-Le serveur renvoie le contenu de ce champ sans modification en réponse à une `req=imageset` demande.
+Le serveur renvoie le contenu de ce champ sans modification en réponse à une demande `req=imageset`.
 
-## Jeux standard {#section-5ecc8ffee7224668b63f601383665564}
+## Jeux de normes {#section-5ecc8ffee7224668b63f601383665564}
 
 Les définitions de visionneuse suivantes sont prises en charge en mode natif par Image Serving et l’accès avec certaines visionneuses implique l’analyse, la validation et le traitement côté serveur de la visionneuse. Chaque type de jeu peut être identifié en spécifiant la valeur correspondante dans `catalog::AssetType`.
 
@@ -119,9 +119,9 @@ Une visionneuse de vidéos se compose d’une simple liste d’identifiants vid�
 
 ## Propriétés {#section-17c731e5c46646aa90ac21f39bb693ca}
 
-Chaîne de texte. Liste de `catalog::Id` valeurs séparées par des virgules, chemins d’accès aux fichiers du serveur d’images absolus ou chemins d’accès aux fichiers par rapport à `attribute::RootPath`. La même image peut être référencée plusieurs fois dans la visionneuse. L’enregistrement de catalogue de définition peut apparaître dans l’ensemble à n’importe quel emplacement.
+Chaîne de texte. Liste séparée par des virgules de valeurs `catalog::Id`, de chemins d’accès aux fichiers du serveur d’images absolus ou de chemins d’accès aux fichiers par rapport à `attribute::RootPath`. La même image peut être référencée plusieurs fois dans la visionneuse. L’enregistrement de catalogue de définition peut apparaître dans l’ensemble à n’importe quel emplacement.
 
-Ce champ participe à la localisation des chaînes de texte. Outre *`label`* les chaînes (faisant partie de la *`solidColorSpecifier`*), tous les champs délimités sont localisés s’ils contiennent au moins un jeton de localisation &quot; `^loc=…^`&quot;. Pour plus d&#39;informations, reportez-vous à la Localisation [de chaîne de](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) texte dans le Guide de référence *du protocole* HTTP.
+Ce champ participe à la localisation des chaînes de texte. Outre les chaînes *`label`* (faisant partie de *`solidColorSpecifier`*), tous les champs délimités sont localisés s’ils contiennent au moins un jeton de localisation &#39; `^loc=…^`&#39;. Pour plus d&#39;informations, consultez la [Localisation de chaînes de texte](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) dans le *Guide de référence du protocole HTTP*.
 
 ## Par défaut {#section-c3a60e360393478284f0f2d2da5b963b}
 
@@ -129,4 +129,4 @@ Aucune
 
 ## Voir également {#section-4c99c44f99074aa0a4ed90ba183bbc25}
 
-[req=imageset](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md) , [attribute::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md), Traduction [de l’ID](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md) d’objet, Localisation [de chaîne de](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) texte, Documentation des visionneuses de diffusion d’images
+[req=imageset](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md) ,  [attribute::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md), Traduction [ de l’ID ](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md) d’objet, Localisation [ de chaîne de ](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) texte, documentation des visionneuses de diffusion d’images
