@@ -19,13 +19,13 @@ ht-degree: 9%
 
 Tâche exécutée sur un serveur. Il s’agit également d’une instance d’une tâche planifiée.
 
-Jobs exist in 3 states:
+Les emplois existent dans 3 états :
 
-* Scheduled to run.
-* Currently running.
+* Programmé pour exécution.
+* En cours d’exécution.
 * Exécution terminée (et avoir déjà écrit des informations dans un journal de tâches).
 
-Specify a job type value to return the job type. Vous pouvez renvoyer les tâches suivantes :
+Spécifiez une valeur de type de tâche pour renvoyer le type de tâche. Vous pouvez renvoyer les tâches suivantes :
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`
@@ -73,7 +73,7 @@ Specify a job type value to return the job type. Vous pouvez renvoyer les tâche
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> state</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Choix des états de travail actifs renvoyés par le système. </td> 
+   <td colname="col3"> Choix des états de travail principaux renvoyés par le système. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> submitUserEmail</span> </span> </td> 
@@ -83,7 +83,7 @@ Specify a job type value to return the job type. Vous pouvez renvoyer les tâche
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Paramètres régionaux des détails du journal des tâches et de la localisation de courrier électronique. <p>Spécifiez les paramètres régionaux en tant que <span class="codeph"> &lt;code_langue&gt;[-&lt;code_pays&gt;]</span>, où le code de langue est un code à deux lettres en minuscules, comme spécifié par ISO-639, et le code de pays facultatif est un code à deux lettres en majuscules, comme spécifié par ISO-3166. Par exemple, la chaîne de paramètres régionaux pour l’anglais (Etats-Unis) serait : <span class="codeph"> en-US</span>. </p></td> 
+   <td colname="col3">Paramètres régionaux des détails du journal des tâches et de la localisation de courrier électronique. <p>Spécifiez les paramètres régionaux sous la forme <span class="codeph"> &lt;code_langue&gt;[-&lt;code_pays&gt;]</span>, où le code de langue est un code à deux lettres minuscule, comme spécifié par ISO-639, et le code de pays facultatif est un code à deux lettres majuscules, comme spécifié par ISO-3166. Par exemple, la chaîne de paramètres régionaux pour l’anglais (Etats-Unis) serait : <span class="codeph"> en-US</span>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> description</span> </span> </td> 
@@ -98,12 +98,12 @@ Specify a job type value to return the job type. Vous pouvez renvoyer les tâche
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> startDate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Date, heure et fuseau horaire de la tâche active. </td> 
+   <td colname="col3"> Date, heure et fuseau horaire de la tâche principale. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> totalSize</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Taille totale de la tâche active. </td> 
+   <td colname="col3"> Taille totale de la tâche principale. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> progress</span> </span> </td> 
@@ -173,7 +173,7 @@ Specify a job type value to return the job type. Vous pouvez renvoyer les tâche
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:ExportJob</span> </td> 
-   <td colname="col3">Autoriser l’exportation autorisée de fichiers précédemment téléchargés. Voir <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> Exportation de la tâche</a>. </td> 
+   <td colname="col3">Autoriser l’exportation autorisée de fichiers précédemment téléchargés. Voir <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> Tâche d’exportation</a>. </td> 
   </tr> 
  </tbody> 
 </table>
