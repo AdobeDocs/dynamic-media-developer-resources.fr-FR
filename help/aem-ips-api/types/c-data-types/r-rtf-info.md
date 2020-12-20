@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: cd7744bd-d033-4095-82c7-2a7b7db7e97f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '35'
+ht-degree: 20%
 
 ---
 
@@ -22,7 +25,7 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| ` *`originalPath`*` | `xsd:string` | Chemin du fichier. |
+| ` *`originalPath`*` | `xsd:string` | Chemin d’accès au fichier. |
 | ` *`originalFile`*` | `xsd:string` | Nom de fichier. |
 | ` *`fileSize`*` | `xsd:int` | Taille du fichier. |
 
