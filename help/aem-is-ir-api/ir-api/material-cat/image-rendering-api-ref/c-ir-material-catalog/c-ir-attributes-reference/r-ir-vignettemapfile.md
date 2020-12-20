@@ -1,6 +1,6 @@
 ---
-description: Chemin du fichier de données de mappage de vignettes. Indique le fichier contenant le mappage de vignettes pour ce catalogue d’images.
-seo-description: Chemin du fichier de données de mappage de vignettes. Indique le fichier contenant le mappage de vignettes pour ce catalogue d’images.
+description: Chemin du fichier de données de mappage de vignettes. Indique le fichier qui contient le mappage de vignettes pour ce catalogue d’images.
+seo-description: Chemin du fichier de données de mappage de vignettes. Indique le fichier qui contient le mappage de vignettes pour ce catalogue d’images.
 seo-title: VignetteMapFile
 solution: Experience Manager
 title: VignetteMapFile
@@ -8,17 +8,20 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: d07dcfea-241e-4431-b09e-dbd1df38b8ca
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '87'
+ht-degree: 4%
 
 ---
 
 
 # VignetteMapFile{#vignettemapfile}
 
-Chemin du fichier de données de mappage de vignettes. Indique le fichier contenant le mappage de vignettes pour ce catalogue d’images.
+Chemin du fichier de données de mappage de vignettes. Indique le fichier qui contient le mappage de vignettes pour ce catalogue d’images.
 
 ## Propriétés {#section-8f624cb8e49b44258a961fb7e464ce0a}
 
-Valeur de chaîne de texte. Chemin ou chemin d’accès absolu au fichier par rapport au dossier du catalogue.
+Valeur de chaîne de texte. Chemin ou chemin d’accès absolu au fichier par rapport au dossier de catalogue.
 
 ## Par défaut {#section-cc5c2e0ba54a4e5890a7330ee038fac8}
 
