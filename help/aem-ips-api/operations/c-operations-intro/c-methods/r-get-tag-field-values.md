@@ -1,6 +1,6 @@
 ---
-description: Obtient toutes les valeurs du dictionnaire de balises définies pour un ou plusieurs champs de balise.
-seo-description: Obtient toutes les valeurs du dictionnaire de balises définies pour un ou plusieurs champs de balise.
+description: Récupère toutes les valeurs du dictionnaire de balises définies pour un ou plusieurs champs de balise.
+seo-description: Récupère toutes les valeurs du dictionnaire de balises définies pour un ou plusieurs champs de balise.
 seo-title: getTagFieldValues
 solution: Experience Manager
 title: getTagFieldValues
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 92d84dfc-6a6c-4876-9670-1152adb6317c
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '98'
+ht-degree: 16%
 
 ---
 
 
 # getTagFieldValues{#gettagfieldvalues}
 
-Obtient toutes les valeurs du dictionnaire de balises définies pour un ou plusieurs champs de balise.
+Récupère toutes les valeurs du dictionnaire de balises définies pour un ou plusieurs champs de balise.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-cc36a437394c491594e704a08a161c87}
+## Types d’utilisateur autorisés {#section-cc36a437394c491594e704a08a161c87}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,8 +39,8 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | poignée du contenant le champ de balise. |
-| ` *`fieldHandleArray`*` | `types:HandleArray` | Oui | Un tableau de champs gère les valeurs de balise que vous souhaitez renvoyer. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de la société contenant le champ de balise. |
+| ` *`fieldHandleArray`*` | `types:HandleArray` | Oui | Un tableau de champs traite les valeurs de balise que vous souhaitez renvoyer. |
 
 **Output (getTagFieldValuesReturn)**
 
