@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: b1eb0a58-3499-4a41-9054-86c7c8e31213
 translation-type: tm+mt
 source-git-commit: deb4b2f722397f269c3f558c1ba9a08d506d4c3a
+workflow-type: tm+mt
+source-wordcount: '28'
+ht-degree: 10%
 
 ---
 
 
 # Convertisseur de vignettes (vntc){#vignette-converter-vntc}
 
-* [Vignette Converter](/help/aem-is-ir-api/ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-converter.md)
+* [Convertisseur de vignettes](/help/aem-is-ir-api/ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-converter.md)
 * [Mise à l’échelle de la vignette](/help/aem-is-ir-api/ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md)
 * [Utilisation](/help/aem-is-ir-api/ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-usage.md)
 * [Options communes](/help/aem-is-ir-api/ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-common-options.md)
