@@ -1,24 +1,27 @@
 ---
-description: Le principal est constitué de l’image de la bannière.
-seo-description: Le principal est constitué de l’image de la bannière.
-seo-title: ' du carrousel'
+description: La vue principale est constituée de l’image de la bannière.
+seo-description: La vue principale est constituée de l’image de la bannière.
+seo-title: Vue du carrousel
 solution: Experience Manager
-title: ' du carrousel'
+title: Vue du carrousel
 topic: Dynamic media
 uuid: bf2065cc-fef2-4d4e-ab2a-a533fa063a80
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '68'
+ht-degree: 1%
 
 ---
 
 
-#  du carrousel{#carousel-view}
+# Vue du carrousel{#carousel-view}
 
-Le principal est constitué de l’image de la bannière.
+La vue principale est constituée de l’image de la bannière.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriétés CSS de la zone de visionneuse principale**
+**Propriétés CSS de la zone de visualisation principale**
 
 L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe CSS suivant :
 
@@ -35,13 +38,13 @@ L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe C
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
-   <td colname="col2"> <p> Couleur d’arrière-plan au format hexadécimal du  principal. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
+   <td colname="col2"> <p> Couleur d’arrière-plan au format hexadécimal de la vue principale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : pour rendre le principal transparent.
+Exemple - pour rendre la vue principale transparente.
 
 ```
 .s7carouselviewer .s7carouselview { 
