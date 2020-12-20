@@ -1,6 +1,6 @@
 ---
-description: Supprimez la sortie d’une tâche.
-seo-description: Supprimez la sortie d’une tâche.
+description: Supprimer la sortie d’une tâche.
+seo-description: Supprimer la sortie d’une tâche.
 seo-title: batchjobdelete
 solution: Experience Manager
 title: batchjobdelete
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: d19ed1c8-e13b-4da4-90e3-6bb0dcce2a12
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '85'
+ht-degree: 1%
 
 ---
 
 
 # batchjobdelete{#batchjobdelete}
 
-Supprimez la sortie d’une tâche.
+Supprimer la sortie d’une tâche.
 
 Si une tâche est en cours d’exécution, elle est immédiatement arrêtée et toutes ses informations de traitement sont supprimées. Si la tâche s’est terminée avec succès, son fichier de sortie est supprimé.
 
@@ -29,7 +32,7 @@ Ce paramètre :
 
 Renvoie :
 
-Statut de la tâche au moment de la réception de la demande de suppression, erreur si `jobid` elle est incorrecte ou si la tâche a déjà été supprimée.
+Statut de la tâche au moment de la réception de la demande de suppression, erreur si `jobid` n&#39;est pas valide ou si la tâche a déjà été supprimée.
 
 ## Exemple {#section-e0df8fc8e6554ba58e1fa937b8241ecf}
 
