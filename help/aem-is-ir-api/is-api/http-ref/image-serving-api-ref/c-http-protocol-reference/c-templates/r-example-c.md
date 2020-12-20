@@ -1,6 +1,6 @@
 ---
-description: Créez une application de calque "poupée de papier".
-seo-description: Créez une application de calque "poupée de papier".
+description: Créez une application de calage "poupée de papier".
+seo-description: Créez une application de calage "poupée de papier".
 seo-title: Exemple C
 solution: Experience Manager
 title: Exemple C
@@ -8,23 +8,26 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 25f228c2-dc03-461a-aee8-40fdb3d4cf5e
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '416'
+ht-degree: 0%
 
 ---
 
 
 # Exemple C{#example-c}
 
-Créez une application de calque &quot;poupée de papier&quot;.
+Créez une application de calage &quot;poupée de papier&quot;.
 
 Une image d&#39;arrière-plan contient la photo d&#39;un mannequin ou d&#39;un mannequin. D&#39;autres enregistrements dans le catalogue d&#39;images contiennent divers vêtements et accessoires, photographiés pour correspondre au mannequin en forme et taille.
 
-Chaque photo d’habillement ou d’accessoire est masquée et recadrée dans le cadre de sélection du masque afin de minimiser les tailles d’image. Les ancres et les résolutions d’image sont soigneusement contrôlées afin de maintenir l’alignement entre les calques et l’image d’arrière-plan. Toutes les images sont ajoutées à un catalogue d’images, avec les valeurs appropriées stockées dans `catalog::Resolution` et `catalog::Anchor`.
+Chaque photo d’habillement/accessoire est masquée et recadrée dans le cadre de sélection du masque afin de minimiser les tailles d’image. Les ancres et les résolutions d’image sont soigneusement contrôlées afin de maintenir l’alignement entre les calques et l’image d’arrière-plan, et toutes les images sont ajoutées à un catalogue d’images, avec les valeurs appropriées stockées dans `catalog::Resolution` et `catalog::Anchor`.
 
-En plus de la superposition, nous souhaitons également modifier la couleur des éléments sélectionnés. Les enregistrements de ces éléments sont prétraités afin de supprimer la couleur d’origine et d’ajuster la luminosité et le contraste d’une manière adaptée à la commande de coloration. Ce prétraitement peut être effectué hors ligne, à l’aide d’un outil de retouche d’images tel que Photoshop, ou, dans de simples cas, il peut être effectué de manière triviale en ajoutant `op_brightness=` et `op_contrast=` au `catalog::Modifier`champ.
+En plus de la superposition, nous voulons aussi modifier la couleur des éléments sélectionnés. Les enregistrements de ces éléments sont prétraités afin de supprimer la couleur d’origine et d’ajuster la luminosité et le contraste d’une manière adaptée à la commande de coloration. Ce prétraitement peut être effectué hors ligne, à l’aide d’un outil d’édition d’images tel que Photoshop ou, dans de simples cas, il peut être effectué de manière triviale en ajoutant `op_brightness=` et `op_contrast=` au champ `catalog::Modifier`.
 
-Cette application ne justifie pas un modèle distinct, car tous les objets sont déjà correctement alignés par leurs ancres d’image ( `catalog::Anchor`) et mis à l’échelle ( `catalog::Resolution`). Nous laissons au client le soin d’assurer l’ordre des couches approprié.
+Cette application ne justifie pas un modèle distinct, car tous les objets sont déjà correctement alignés par leurs ancres d’image ( `catalog::Anchor`) et mis à l’échelle ( `catalog::Resolution`). Nous laissons au client le soin d&#39;assurer l&#39;ordre approprié des couches.
 
-Une requête type peut se présenter comme suit :
+Voici à quoi peut ressembler une requête type :
 
 ```
 http://server/rootId/mannequin?&hei=400&qlt=90&
@@ -36,15 +39,15 @@ layer=4&res=999&src=rootId/hat2generic&colorize=12,15,34&
 layer=6&res=999&src=rootId/shoes21
 ```
 
-Seule la hauteur est spécifiée. Cela permet à l&#39;image retournée de varier en largeur selon le format de l&#39;image mannequin, sans que les marges soient remplies par la couleur d&#39;arrière-plan.
+Seule la hauteur est spécifiée. Cela permet à l&#39;image retournée de varier en largeur selon le format de l&#39;image mannequin, sans que les marges soient remplies avec la couleur d&#39;arrière-plan.
 
-Peu importe la résolution spécifiée pour chaque calque, tant qu’ils sont tous identiques. Cette version ne permet peut-être pas aux d’être plus grands que les images composites. Spécifier une valeur de résolution élevée évite les problèmes liés à cette limitation. Tout le traitement et le montage sont effectués à la résolution optimale pour la taille d’image demandée, afin d’obtenir de meilleures performances et une meilleure qualité de sortie.
+Peu importe la résolution spécifiée pour chaque calque, à condition qu’elles soient toutes identiques. Cette version peut ne pas permettre aux vues d’être plus grandes que les images composites. Spécifier une valeur de résolution élevée évite les problèmes liés à cette limitation. Le traitement et le montage se font à la résolution optimale pour la taille d’image demandée, afin d’obtenir de meilleures performances et une meilleure qualité de sortie.
 
-Les `res=` commandes peuvent être omises si toutes les images source ont la même résolution à pleine échelle (ce qui est probablement le cas pour ce type d’application).
+Les commandes `res=` peuvent être omises si toutes les images source ont la même résolution à pleine échelle (ce qui est probablement le cas pour ce type d&#39;application).
 
-Le `rootId` doit être spécifié pour toutes les `src=` commandes, même si elles sont identiques à celles `rootId` spécifiées dans le chemin d’accès de l’URL.
+`rootId` doit être spécifié pour toutes les commandes `src=`, même si elles sont identiques à `rootId` spécifiées dans le chemin d&#39;accès de l&#39;URL.
 
-Si aucun catalogue d’images ne doit être utilisé, une approche de mise à l’échelle basée sur la résolution n’est pas possible. Dans ce cas, les facteurs d’échelle explicites doivent être calculés pour chaque élément de calque, en fonction du rapport entre les `catalog::Resolution` valeurs de chaque calque et la `catalog::Resolution` valeur du calque d’arrière-plan. La requête de composition (avec moins de calques) peut donc se présenter comme suit :
+Si aucun catalogue d’images ne doit être utilisé, une approche de mise à l’échelle basée sur la résolution n’est pas possible. Dans ce cas, les facteurs d&#39;échelle explicites doivent être calculés pour chaque élément de calque, en fonction du rapport entre les valeurs `catalog::Resolution` de chaque calque et la valeur `catalog::Resolution` de la couche d&#39;arrière-plan. La demande de composition (avec moins de calques) peut donc ressembler à ceci :
 
 ```
 http://server/myApp/mannequin.tif?&hei=400&qlt=90&
