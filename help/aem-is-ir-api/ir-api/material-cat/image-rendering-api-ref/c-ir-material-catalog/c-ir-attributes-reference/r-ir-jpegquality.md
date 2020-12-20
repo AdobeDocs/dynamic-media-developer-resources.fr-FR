@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 82dabdae-a1f3-484a-a520-ae765914d0f7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '93'
+ht-degree: 4%
 
 ---
 
@@ -18,11 +21,11 @@ Qualité de codage JPEG par défaut. Indique le paramètre de qualité par défa
 
 ## Propriétés {#section-8b1ed3e0acaa4fbfa050b74c00b9d4dc}
 
-Nombre entier et indicateur, séparés par une virgule. La première valeur se trouve dans la plage 1.100 et définit la qualité. La seconde valeur peut être 0 pour le comportement normal, ou 1 pour désactiver le sous-échantillonnage chromatique généralement utilisé par les encodeurs JPEG.
+Nombre entier et indicateur, séparés par une virgule. La première valeur est comprise dans la plage 1.100 et définit la qualité. La seconde valeur peut être 0 pour le comportement normal ou 1 pour désactiver le sous-échantillonnage chromatique généralement utilisé par les encodeurs JPEG.
 
 ## Par défaut {#section-60900c0fb8c54444b2361513232514db}
 
-Héritée de `default::JpegQuality` si non définie ou si vide.
+Hérité de `default::JpegQuality` si elle n&#39;est pas définie ou si elle est vide.
 
 ## Voir aussi {#section-8928a28fcbfe401cad4d4021a7a1c268}
 
