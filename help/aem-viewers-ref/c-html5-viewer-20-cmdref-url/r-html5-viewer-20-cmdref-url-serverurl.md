@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: a079a223-7478-4b6a-bc99-284e3366fb30
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 3%
 
 ---
 
@@ -21,15 +24,15 @@ Paramètre commun à toutes les visionneuses.
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isRootPath</span></span> </p> </td> 
-   <td colname="col2"> <p>Chemin racine relatif ou absolu du serveur d’images. </p> <p> Indique un chemin relatif ou absolu vers Image Serving, à partir duquel le lecteur récupère les images. Si le chemin d’accès n’a pas de caractère <span class="filepath"> /</span>de début, il dépend de l’emplacement de la page HTML de la visionneuse. Si le chemin d’accès comporte un / <span class="filepath"></span>de début, il spécifie un chemin absolu sur le même serveur. </p> <p> N’utilisez qu’un chemin absolu au cas où le module Partage de courrier électronique serait activé dans le lecteur. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isRootPath</span> </span> </p> </td> 
+   <td colname="col2"> <p>Chemin d’accès racine relatif ou absolu de la diffusion d’images. </p> <p> Indique un chemin relatif ou absolu vers la diffusion d’images, d’où la visionneuse récupère les images. Si le chemin d’accès ne comporte pas de balise <span class="filepath"> /</span>, il est relatif à l’emplacement de la page HTML de la visionneuse. Si le chemin d’accès comporte un <span class="filepath"> /</span> de début, il spécifie un chemin absolu sur le même serveur. </p> <p> N’utilisez qu’un chemin absolu au cas où le module de partage de courrier électronique serait activé dans le lecteur. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Propriétés {#section-10ee45d637134e0fbcd943c62578cb78}
 
-Facultatif. Pas nécessaire pour l’utilisation standard de SaaS (logiciel en tant que service).
+Facultatif. Pas nécessaire pour l&#39;utilisation standard de SaaS (logiciel en tant que service).
 
 ## Par défaut {#section-d411e450028c460392cb8508f8ccc5d9}
 
