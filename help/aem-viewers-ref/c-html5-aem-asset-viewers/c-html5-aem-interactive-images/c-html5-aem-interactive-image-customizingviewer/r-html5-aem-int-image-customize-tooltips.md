@@ -1,6 +1,6 @@
 ---
-description: Sur les systèmes de bureau, certains éléments de l’interface utilisateur, tels que les boutons, comportent des info-bulles qui s’affichent lorsque vous passez la souris.
-seo-description: Sur les systèmes de bureau, certains éléments de l’interface utilisateur, tels que les boutons, comportent des info-bulles qui s’affichent lorsque vous passez la souris.
+description: Sur les systèmes de bureau, certains éléments de l’interface utilisateur, tels que les boutons, comportent des info-bulles qui s’affichent lorsque vous pointez la souris.
+seo-description: Sur les systèmes de bureau, certains éléments de l’interface utilisateur, tels que les boutons, comportent des info-bulles qui s’affichent lorsque vous pointez la souris.
 seo-title: Info-bulles
 solution: Experience Manager
 title: Info-bulles
@@ -8,17 +8,20 @@ topic: Dynamic media
 uuid: 4cf5ce32-136e-4612-b550-715d51cef982
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '160'
+ht-degree: 2%
 
 ---
 
 
-# Tooltips{#tooltips}
+# Info-bulles{#tooltips}
 
-Sur les systèmes de bureau, certains éléments de l’interface utilisateur, tels que les boutons, comportent des info-bulles qui s’affichent lorsque vous passez la souris.
+Sur les systèmes de bureau, certains éléments de l’interface utilisateur, tels que les boutons, comportent des info-bulles qui s’affichent lorsque vous pointez la souris.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriétés CSS de la zone de visionneuse principale**
+**Propriétés CSS de la zone de visualisation principale**
 
 L’aspect des info-bulles est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
@@ -35,15 +38,15 @@ L’aspect des info-bulles est contrôlé à l’aide du sélecteur de classe CS
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
    <td colname="col2"> <p> Rayon de la bordure d’arrière-plan. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-color </span> </p> </td> 
-   <td colname="col2"> <p> Couleur de la bordure d’arrière-plan. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-color  </span> </p> </td> 
+   <td colname="col2"> <p> Couleur de bordure d’arrière-plan. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
    <td colname="col2"> <p> Couleur de fond. </p> </td> 
   </tr> 
   <tr> 
@@ -51,11 +54,11 @@ L’aspect des info-bulles est contrôlé à l’aide du sélecteur de classe CS
    <td colname="col2"> <p>Couleur du texte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Nom de la police de texte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Taille de police du texte. </p> </td> 
   </tr> 
  </tbody> 
@@ -63,7 +66,7 @@ L’aspect des info-bulles est contrôlé à l’aide du sélecteur de classe CS
 
 >[!NOTE]
 >
->Si les styles d’info-bulle sont personnalisés à partir de la page Web d’incorporation, toutes les propriétés doivent contenir une `!IMPORTANT` règle. Cela n’est pas nécessaire si les info-bulles sont personnalisées dans le fichier CSS du lecteur de contenu.
+>Si les styles d’info-bulle sont personnalisés à partir de la page Web incorporée, toutes les propriétés doivent contenir la règle `!IMPORTANT`. Cela n’est pas nécessaire si les info-bulles sont personnalisées dans le fichier CSS du lecteur de contenu.
 
 Exemple : pour configurer des info-bulles avec une bordure grise d’un rayon d’angle de 3 pixels, un arrière-plan noir et un texte blanc en Arial de 11 pixels :
 
