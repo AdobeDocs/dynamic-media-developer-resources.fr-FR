@@ -1,6 +1,6 @@
 ---
-description: Ajouter bruit. Ajoute un bruit aléatoire aux données de l’image de premier plan ou au premier plan d’un calque d’effet.
-seo-description: Ajouter bruit. Ajoute un bruit aléatoire aux données de l’image de premier plan ou au premier plan d’un calque d’effet.
+description: Ajoutez du bruit. Ajoute le bruit aléatoire aux données de l’image de premier plan ou au premier plan d’un calque d’effet.
+seo-description: Ajoutez du bruit. Ajoute le bruit aléatoire aux données de l’image de premier plan ou au premier plan d’un calque d’effet.
 seo-title: op_noise
 solution: Experience Manager
 title: op_noise
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 531f7a94-149b-4090-a163-a1895156250b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 1%
 
 ---
 
 
 # op_noise{#op-noise}
 
-Ajouter bruit. Ajoute un bruit aléatoire aux données de l’image de premier plan ou au premier plan d’un calque d’effet.
+Ajoutez du bruit. Ajoute le bruit aléatoire aux données de l’image de premier plan ou au premier plan d’un calque d’effet.
 
 `op_noise= *``*[,uniform|gaussian[, *`valmonochrome`*]]`
 
@@ -43,7 +46,7 @@ Ajouter bruit. Ajoute un bruit aléatoire aux données de l’image de premier p
 
 ## Propriétés {#section-1f1a64c791f545a3bf1abd0b0e575d87}
 
-Calque, commande. S’applique au calque actif ou à l’image composite, le cas échéant `layer=comp`.
+Calque, commande. S’applique au calque actif ou à l’image composite si `layer=comp`.
 
 ## Par défaut {#section-d548868fa4b64a60bcb481cad1f8113e}
 
