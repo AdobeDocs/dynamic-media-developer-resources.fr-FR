@@ -1,22 +1,25 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: getVideoPublishFormats
+seo-title: getVignettePublishFormats
 solution: Experience Manager
-title: getVideoPublishFormats
+title: getVignettePublishFormats
 topic: Scene7 Image Production System API
 uuid: 2cf58002-5c4a-4391-85d4-4a67cb085afa
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '63'
+ht-degree: 26%
 
 ---
 
 
-# getVideoPublishFormats{#getvignettepublishformats}
+# getVignettePublishFormats{#getvignettepublishformats}
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-1f5e2f74aef8408e89ed9ccac8b5b9bc}
+## Types d&#39;utilisateur autorisés {#section-1f5e2f74aef8408e89ed9ccac8b5b9bc}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -25,13 +28,13 @@ Syntaxe
 
 ## Paramètres {#section-ba28150e6d8c4aa0b4ec72451ba7bc71}
 
-**Input (getVideoPublishFormatsParam)**
+**Entrée (getVignettePublishFormatsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | La poignée du. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | La poignée de la société. |
 
-**Output (getViewettePublishFormatsReturn)**
+**Output (getVignettePublishFormatsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -39,7 +42,7 @@ Syntaxe
 
 ## Exemples {#section-2cc32b27cc6243b7b3e273cc05996226}
 
-Cet exemple de code renvoie deux formats de publication de vignettes associés à un  spécifique. Les informations sont renvoyées dans un tableau, qui est tronqué pour être concis.
+Cet exemple de code renvoie deux formats de publication de vignettes associés à une société spécifique. Les informations sont renvoyées dans un tableau, tronqué pour être concis.
 
 **Request**
 
