@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 56666c00-3694-4a43-a0ff-97af45c8df9f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 14%
 
 ---
 
@@ -18,7 +21,7 @@ Définit les valeurs du dictionnaire de balises pour un champ de balise existant
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-8b1413654bab44cfb2b1fffbb88aa385}
+## Types d’utilisateur autorisés {#section-8b1413654bab44cfb2b1fffbb88aa385}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,9 +33,9 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui |  poignée. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
 | ` *`fieldHandle`*` | `xsd:string` | Oui | Poignée de champ de balise. |
-| ` *`valueArray`*` | `types:StringArray` | Oui | Tableau de valeurs de balise qui remplace le dictionnaire existant du champ. Les associations de ressources sont conservées lorsqu’une nouvelle valeur correspond à une valeur existante. |
+| ` *`valueArray`*` | `types:StringArray` | Oui | Tableau de valeurs de balise qui remplacent le dictionnaire existant du champ. Les associations d’actifs sont conservées lorsqu’une nouvelle valeur correspond à une valeur existante. |
 
 **Output (setTagFieldValuesReturn)**
 
