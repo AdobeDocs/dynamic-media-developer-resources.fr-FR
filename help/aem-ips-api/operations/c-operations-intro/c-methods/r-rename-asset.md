@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: f285d7e4-00df-4d90-a05a-71747a4c54cc
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 7%
 
 ---
 
@@ -18,9 +21,9 @@ Renomme un fichier.
 
 >[!NOTE]
 >
->Le `renameFiles` paramètre a été abandonné pour les versions précédentes et supprimé de `renameAsset`. Le chemin d’accès au fichier virtuel est modifié pour correspondre au nouveau nom de fichier (en conservant l’extension de fichier), tandis que les chemins d’accès au fichier physique ne sont pas affectés. Les clients API doivent supprimer les références à ce paramètre lors de la mise à jour vers la nouvelle version de l’API.
+>Le paramètre `renameFiles` a été abandonné pour les versions antérieures et supprimé de `renameAsset`. Le chemin d’accès au fichier virtuel est modifié pour correspondre au nouveau nom de fichier (en conservant l’extension de fichier), tandis que les chemins d’accès aux fichiers physiques ne sont pas affectés. Les clients d’API doivent supprimer les références à ce paramètre lors de la mise à jour vers la nouvelle version de l’API.
 
-## Types d’utilisateurs autorisés {#section-cc27ad713c6d498b8f056850b20976f4}
+## Types d’utilisateur autorisés {#section-cc27ad713c6d498b8f056850b20976f4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -31,22 +34,22 @@ Renomme un fichier.
 
 >[!NOTE]
 >
->L’utilisateur doit disposer d’un accès en lecture et en écriture au fichier.
+>L’utilisateur doit disposer d’un accès en lecture et en écriture à la ressource.
 
 ## Paramètres {#section-ef95a994106841e0ab346dd4cf672258}
 
-**Input (renameAssetParam)**
+**Entrée (renameAssetParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée du auquel appartient le fichier. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de la société à laquelle appartient le fichier. |
 | ` *`assetHandle`*` | `xsd:string` | Oui | Identifiant de la ressource que vous souhaitez renommer. |
 | ` *`newName`*` | `xsd:string` | Oui | Nouveau nom du fichier. |
-| ` *`validateName`*` | `xsd:boolean` | Oui | Si la valeur `validateName` est `true` et que le type de ressource nécessite un identifiant IPS unique, le nouveau nom est vérifié pour déterminer l’unicité globale et `renameAsset` renvoie une erreur si elle n’est pas unique. |
+| ` *`validateName`*` | `xsd:boolean` | Oui | Si `validateName` est `true` et que le type de ressource nécessite un identifiant IPS unique, le nouveau nom est vérifié pour l&#39;unicité globale et `renameAsset` renvoie une erreur s&#39;il n&#39;est pas unique. |
 
-**Output (renameAssetReturn)**
+**Sortie (renameAssetReturn)**
 
-L&#39;API IPS ne renvoie pas de réponse pour cette opération. Voir la description de l’ `<ns1:validateName>` élément pour obtenir des mises en garde sur cet élément.
+L&#39;API IPS ne renvoie pas de réponse pour cette opération. Voir la description de l’élément `<ns1:validateName>` pour obtenir des mises en garde sur cet élément.
 
 ## Exemples {#section-a0ddffd62bec42e09069f22ceb486f8a}
 
