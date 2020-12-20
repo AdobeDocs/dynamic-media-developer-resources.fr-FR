@@ -1,6 +1,6 @@
 ---
-description: Utilisée par setCompanySettingsParam/overwriteMode.
-seo-description: Utilisée par setCompanySettingsParam/overwriteMode.
+description: Utilisé par setCompanySettingsParam/overwriteMode.
+seo-description: Utilisé par setCompanySettingsParam/overwriteMode.
 seo-title: Modes de remplacement des ressources
 solution: Experience Manager
 title: Modes de remplacement des ressources
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 2d683c94-3ed7-4d2f-ae97-8e722582bca0
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '23'
+ht-degree: 8%
 
 ---
 
 
 # Modes de remplacement des ressources{#asset-overwrite-modes}
 
-Utilisée par setCompanySettingsParam/overwriteMode.
+Utilisé par setCompanySettingsParam/overwriteMode.
 
 Syntaxe
 
