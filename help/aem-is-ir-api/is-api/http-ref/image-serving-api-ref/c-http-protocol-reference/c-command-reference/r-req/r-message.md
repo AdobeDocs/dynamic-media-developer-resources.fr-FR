@@ -1,6 +1,6 @@
 ---
-description: Message client. Fournit un mécanisme permettant aux clients d’insérer des messages texte courts dans le journal du serveur.
-seo-description: Message client. Fournit un mécanisme permettant aux clients d’insérer des messages texte courts dans le journal du serveur.
+description: Message du client. Fournit un mécanisme permettant aux clients d’insérer des messages texte courts dans le journal du serveur.
+seo-description: Message du client. Fournit un mécanisme permettant aux clients d’insérer des messages texte courts dans le journal du serveur.
 seo-title: message
 solution: Experience Manager
 title: message
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 38d6d0e7-55cf-43ea-85b7-8f4aade4208a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '69'
+ht-degree: 7%
 
 ---
 
 
 # message{#message}
 
-Message client. Fournit un mécanisme permettant aux clients d’insérer des messages texte courts dans le journal du serveur.
+Message du client. Fournit un mécanisme permettant aux clients d’insérer des messages texte courts dans le journal du serveur.
 
 `req=message&message= *`chaîne`*`
 
