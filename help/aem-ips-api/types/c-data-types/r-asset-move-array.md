@@ -1,6 +1,6 @@
 ---
-description: Tableau de mouvements de ressources.
-seo-description: Tableau de mouvements de ressources.
+description: Tableau des déplacements de ressources.
+seo-description: Tableau des déplacements de ressources.
 seo-title: AssetMoveArray
 solution: Experience Manager
 title: AssetMoveArray
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 303948e6-9b83-4801-9c20-99dff15925ed
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '25'
+ht-degree: 24%
 
 ---
 
 
 # AssetMoveArray{#assetmovearray}
 
-Tableau de mouvements de ressources.
+Tableau des déplacements de ressources.
 
 Syntaxe
 
@@ -22,5 +25,5 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| ` *`éléments`*` | `type:AssetMove` | Tableau de mouvements de ressources. |
+| ` *`éléments`*` | `type:AssetMove` | Tableau des déplacements de ressources. |
 
