@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: FavorisView.align
+seo-title: FavoritesView.align
 solution: Experience Manager
-title: FavorisView.align
+title: FavoritesView.align
 topic: Dynamic media
 uuid: 4ff25cb3-3383-4ef2-90db-660fa774e109
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 7%
 
 ---
 
 
-# FavorisView.align{#favoritesview-align}
+# FavoritesView.align{#favoritesview-align}
 
 [!DNL `[FavoritesView.|<containerId>_favoritesView.]align=left|center|right,top|center|bottom`]
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> gauche|centre|droite,haut|centre|bas</span> </p> </td> 
-   <td colname="col2"> <p> Indique l’alignement horizontal interne (ou ancrage) du de miniatures dans la zone du composant. </p> <p>Dans la vue Favoris, le  de miniature interne est dimensionné de sorte que seules un nombre entier de miniatures s’affichent. Par conséquent, il existe un certain remplissage entre les limites du interne et celles du composant externe. </p> <p>Ce modificateur spécifie le positionnement horizontal du  des miniatures internes dans le composant. </p> </td> 
+   <td colname="col2"> <p> Indique l’alignement horizontal interne (ou ancrage) du conteneur de miniatures dans la zone du composant. </p> <p>Dans la vue Favoris, le conteneur de miniature interne est dimensionné de sorte que seul un nombre entier de miniatures s’affichent. En conséquence, il y a un certain remplissage entre le conteneur interne et les limites du composant externe. </p> <p>Ce modificateur spécifie comment le conteneur des miniatures internes est positionné horizontalement à l’intérieur du composant. </p> </td> 
   </tr> 
  </tbody> 
 </table>
