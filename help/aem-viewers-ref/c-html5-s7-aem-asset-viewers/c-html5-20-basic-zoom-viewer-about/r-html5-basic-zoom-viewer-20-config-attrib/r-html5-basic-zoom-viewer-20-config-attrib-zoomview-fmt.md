@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: b118e441-f128-4dfd-a82e-62ec4d1ebf84
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> Indique le format d’image utilisé par le composant pour le chargement des images à partir du serveur Image Server. Si le format spécifié se termine par "-alpha", le composant effectue le rendu des images sous forme de contenu transparent. Pour tous les autres formats d’image, le composant traite les images comme opaques. Par défaut, le composant possède un arrière-plan blanc. Par conséquent, pour le rendre transparent, définissez la propriété CSS de couleur d’arrière-plan sur transparent. </p> </td> 
+   <td colname="col2"> <p> Indique le format d’image utilisé par le composant pour le chargement des images à partir du serveur Image Server. Si le format spécifié se termine par "-alpha", le composant effectue le rendu des images sous forme de contenu transparent. Pour tous les autres formats d’image, le composant traite les images comme opaques. Par défaut, le composant possède un arrière-plan blanc. Par conséquent, pour le rendre transparent, définissez la propriété CSS de couleur d’arrière-plan sur transparente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
