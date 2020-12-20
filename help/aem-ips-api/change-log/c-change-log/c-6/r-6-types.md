@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: ef7c43ee-467f-46b9-bd82-05e8359bd829
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '84'
+ht-degree: 1%
 
 ---
 
@@ -38,26 +41,26 @@ Syntaxe
 
 ## Types modifiés {#section-56b834b1a3b843279d8715b4a4f3890b}
 
-**Ajout**
+**Ajouté**
 
-* Ajout `numUrls` à `UploadUrlsJob`.
+* Ajouté `numUrls` à `UploadUrlsJob`.
 
-* Ajout `fileName` à `Asset.`
+* `fileName` Ajouté à `Asset.`
 
-* Ajout `isHidden` à `MetadataField`.
+* Ajouté `isHidden` à `MetadataField`.
 
-* Ajout `taskState` à `TaskProgress`.
+* Ajouté `taskState` à `TaskProgress`.
 
-* Ajout `exportJob` à `ActiveJob` et `ScheduledJob`.
+* Ajouté `exportJob` à `ActiveJob` et `ScheduledJob`.
 
-* Ajout `optmizedPath` et `optimizedFile` à `PsdInfo`.
+* Ajouté `optmizedPath` et `optimizedFile` à `PsdInfo`.
 
-* Ajout `contextHandle` à :
+* Ajouté `contextHandle` à :
 
    * `ImageRenderingPublishJob`
    * `VideoPublishJob`
 
-* Ajout des paramètres suivants à `Asset`:
+* Ajouté les paramètres suivants à `Asset` :
 
    * `animatedGifInfo`
    * `swcInfo`
@@ -66,9 +69,9 @@ Syntaxe
 
 **Modifié**
 
-* En `User`1999, `role` il a été remplacé par `defaultRole`.
+* Dans `User`, `role` a été remplacé par `defaultRole`.
 
-* En `Folder`1999, `permissions` il a été remplacé par `permissionsSetHandle`.
+* Dans `Folder`, `permissions` a été remplacé par `permissionsSetHandle`.
 
-* Dans `AssetSummary`, `type` et `name` sont maintenant facultatifs.
+* Dans `AssetSummary`, `type` et `name` sont désormais facultatifs.
 
