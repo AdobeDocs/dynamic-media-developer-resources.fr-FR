@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 0a30f3b0-64c8-4799-b4f5-fc8996a8b5a4
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '191'
+ht-degree: 4%
 
 ---
 
@@ -19,8 +22,8 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
 <table id="table_1D425B7685D448459CD3FE8D683C813C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td colname="col2"> <p>Indique le mode d’affichage des pages dans le  principal et dans les vignettes. Il indique également la manière dont l’utilisateur interagit avec l’interface utilisateur du lecteur de contenu pour changer d’un bloc de catalogue à l’autre. </p> <p>Lorsqu’ <span class="codeph"> elle est utilisée, </span> elle définit un alignement à droite pour la page initiale et un alignement à gauche pour la dernière page. Elle stimule des sous-images de page individuelles pour l’ordre de rendu de gauche à droite. Il permet également au principal d’utiliser l’animation de diapositives de droite à gauche pour faire avancer le catalogue (au cas où <span class="codeph"> PageView.frametransition </span> serait définie sur Diapositive). Enfin, les vignettes sont définies pour un ordre de remplissage de gauche à droite. </p> <p>De même, lorsque <span class="codeph"> la droite </span> est utilisée, elle définit un alignement à gauche pour la page initiale et un alignement à droite pour la dernière page. Elle stimule des sous-images de page individuelles pour un ordre de rendu de droite à gauche. Il permet également au principal d’utiliser l’animation des diapositives de gauche à droite pour faire avancer le catalogue (au cas où <span class="codeph"> PageView.frametransition </span> serait définie sur Diapositive). Enfin, il inverse l’ordre des miniatures afin que le  des miniatures soit rempli de droite à gauche, de haut en bas. </p> <p>Lorsque l’option <span class="codeph"> auto </span> est définie, le lecteur applique le <span class="codeph"> bon </span> mode lorsque le paramètre régional est défini sur <span class="codeph"> ja ; </span>dans le cas contraire, il utilise le mode <span class="codeph"> gauche </span> . </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> auto|left|right  </span> </p> </td> 
+   <td colname="col2"> <p>Indique le mode d’affichage des pages dans la vue principale et les miniatures. Il indique également comment l’utilisateur interagit avec l’interface utilisateur du lecteur de contenu pour changer d’un bloc de catalogue à l’autre. </p> <p>Lorsque <span class="codeph"> left </span> est utilisé, il définit un alignement à droite pour la page initiale et un alignement à gauche pour la dernière page. Il sélectionne des sous-images de page individuelles pour l’ordre de rendu de gauche à droite. Il définit également la vue principale pour utiliser l'animation de diapositives de droite à gauche pour faire avancer le catalogue (au cas où <span class="codeph"> PageView.frametransition </span> serait définie sur diapositive). Enfin, les miniatures sont définies pour un ordre de remplissage de gauche à droite. </p> <p>De même, lorsque <span class="codeph"> right </span> est utilisé, il définit un alignement à gauche pour la page initiale et un alignement à droite pour la dernière page. Il sélectionne des sous-images de page individuelles pour un ordre de rendu de droite à gauche. Il définit également la vue principale d'utilisation de l'animation de diapositives de gauche à droite pour faire avancer le catalogue (au cas où <span class="codeph"> PageView.frametransition </span> serait définie sur diapositive). Enfin, elle inverse l’ordre des miniatures afin que la vue des miniatures soit remplie de droite à gauche, de haut en bas. </p> <p>Lorsque <span class="codeph"> auto </span> est défini, le lecteur applique le mode <span class="codeph"> right </span> lorsque le paramètre régional est défini sur <span class="codeph"> ja; </span>sinon, il utilise le mode <span class="codeph"> left </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
