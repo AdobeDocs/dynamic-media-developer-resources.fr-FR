@@ -1,6 +1,6 @@
 ---
-description: Script de contrôle Image Serving. Ce script est utilisé pour , arrêter ou redémarrer le superviseur du serveur Image Serving qui, à son tour, , arrête ou redémarre tous les autres composants de la diffusion d’images.
-seo-description: Script de contrôle Image Serving. Ce script est utilisé pour , arrêter ou redémarrer le superviseur du serveur Image Serving qui, à son tour, , arrête ou redémarre tous les autres composants de la diffusion d’images.
+description: Script de contrôle Image Serving. Ce script est utilisé pour début, arrêter ou redémarrer le superviseur du serveur Image Serving qui, à son tour, début, arrête ou redémarre tous les autres composants Image Serving.
+seo-description: Script de contrôle Image Serving. Ce script est utilisé pour début, arrêter ou redémarrer le superviseur du serveur Image Serving qui, à son tour, début, arrête ou redémarre tous les autres composants Image Serving.
 seo-title: ImageServing
 solution: Experience Manager
 title: ImageServing
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 2975b957-e06f-42c6-8c0a-0d2757a0025a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 2%
 
 ---
 
 
 # ImageServing{#imageserving}
 
-Script de contrôle Image Serving. Ce script est utilisé pour , arrêter ou redémarrer le superviseur du serveur Image Serving qui, à son tour, , arrête ou redémarre tous les autres composants de la diffusion d’images.
+Script de contrôle Image Serving. Ce script est utilisé pour début, arrêter ou redémarrer le superviseur du serveur Image Serving qui, à son tour, début, arrête ou redémarre tous les autres composants Image Serving.
 
 ## Utilisation {#section-6832b5b10404442a9d3a3eca92041002}
 
@@ -32,10 +35,10 @@ Script de contrôle Image Serving. Ce script est utilisé pour , arrêter ou red
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> commencer </span> </p> </td> 
-   <td colname="col2"> <p> du superviseur de serveur et de tous les autres composants de diffusion d’images. </p> </td> 
+   <td colname="col2"> <p> Début du contrôleur de serveur et de tous les autres composants de diffusion d’images. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> stop </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> stop  </span> </p> </td> 
    <td colname="col2"> <p> Arrêtez tous les composants de diffusion d’images, y compris le contrôleur de serveur. </p> </td> 
   </tr> 
   <tr> 
@@ -43,12 +46,12 @@ Script de contrôle Image Serving. Ce script est utilisé pour , arrêter ou red
    <td colname="col2"> <p>Redémarrez tous les composants de diffusion d’images, y compris le contrôleur de serveur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> redémarrer { ps| is| svg } </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> redémarrer { ps | is | svg }  </span> </p> </td> 
    <td colname="col2"> <p> Redémarre Tomcat/Platform Server, Image Server ou SVG. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> status [ ps| is| svg ] </span> </p> </td> 
-   <td colname="col2"> <p>Renvoie les informations de disponibilité et d’utilisation actuelle de la mémoire pour le serveur Image Server, le serveur Tomcat/Platform et le serveur SVGserver, ou l’état pour le serveur spécifié uniquement ; un message d’information est renvoyé si le contrôleur du serveur n’est pas en cours d’exécution. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> status [ ps | is | svg ]  </span> </p> </td> 
+   <td colname="col2"> <p>Renvoie les informations d’utilisation de la mémoire et du temps de disponibilité pour Image Server, Tomcat/Platform Server et SVGserver, ou l’état pour le serveur spécifié uniquement ; un message d’information est renvoyé si le contrôleur de serveur n’est pas en cours d’exécution. </p> </td> 
   </tr> 
  </tbody> 
 </table>
