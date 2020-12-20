@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 276122d8-2109-42eb-be13-bead35cd3fe2
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p>Indique le moment d’affichage du panneau d’informations. </p> <p>S’il est défini sur <span class="codeph"> 1</span>, le panneau d’informations s’affiche lorsque la souris pénètre dans la zone de zone cliquable (au cas où la zone de l’image possède un attribut <span class="codeph"> rollover_key</span> non vide). </p> <p>Si le paramètre est défini sur <span class="codeph"> 0</span> info panel est déclenché lorsque l’utilisateur clique sur la zone cliquable (si la zone cliquable comporte un <span class="codeph"> paramètre rollover_key</span> non vide et des attributs href <span class="codeph"></span> vides). </p> <p> Ignoré sur les périphériques tactiles, y compris les systèmes de bureau tactiles, et défini automatiquement sur <span class="codeph"> 0</span>. </p> </td> 
+   <td colname="col2"> <p>Indique le moment d’affichage du panneau d’informations. </p> <p>Si elle est définie sur <span class="codeph"> 1</span>, le panneau d’informations s’affiche lorsque la souris entre dans la zone de zone de zone cliquable (dans le cas où la zone de l’image n’est pas vide, attribut <span class="codeph"> rollover_key</span>). </p> <p>Si le paramètre est défini sur <span class="codeph"> 0</span>, le panneau d’informations est déclenché lorsque l’utilisateur clique sur la zone cliquable (si la zone cliquable comporte un attribut <span class="codeph"> rollover_key</span> non vide et un attribut <span class="codeph"> href</span> vide). </p> <p> Ignorée sur les périphériques tactiles, y compris les systèmes de bureau tactiles, et définie automatiquement sur <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
