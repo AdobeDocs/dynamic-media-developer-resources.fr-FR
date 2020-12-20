@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 279b1632-cf03-454d-b15f-9e785daad692
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +25,7 @@ Attribut de configuration pour la visionneuse de vidéos interactive.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> continue|segment</span> </p> </td> 
-   <td colname="col2"> <p> Remplit les nuances interactives en continu avec des miniatures indépendamment des limites de segment ou permet à l’espace vide de noter les limites de segment. </p> </td> 
+   <td colname="col2"> <p> Remplit en permanence des échantillons interactifs avec des miniatures indépendamment des limites de segment ou, permet à l’espace vide de noter les limites de segment. </p> </td> 
   </tr> 
  </tbody> 
 </table>
