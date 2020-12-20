@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e6e9e97c-5d9b-47ca-bae3-ed3371c5ff9b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Contrôle l’aspect de mise en surbrillance du principal lorsque la fenêtre déroulante est active. Lorsqu’elle est définie sur <span class="codeph"> 0</span>, la zone actuellement visible dans la fenêtre déroulante est mise en surbrillance à l’aide des styles fournis par les noms de classe CSS <span class="codeph"> .s7highlight</span> ou <span class="codeph"> .s7cursor</span> (selon la valeur du modificateur <span class="codeph"> highlightmode). </span> Lorsqu’il est défini sur <span class="codeph"> 1</span> , le composant passe en mode "inverse" où la zone actuellement affichée est entièrement transparente (au cas où le <span class="codeph"> mode</span> surlignage est défini sur surlignage <span class="codeph"> ) ou avec le nom de classe CSS</span><span class="codeph"> .s7cursor (au cas où  surlignageMode est défini sur Curseur), mais la zone environnante est remplie à l’aide des styles fournis par le nom de classe CSS.s7overlay.</span><span class="codeph"></span><span class="codeph"></span><span class="codeph"></span> </p> </td> 
+   <td colname="col2"> <p> Contrôle l’aspect de mise en surbrillance de la vue principale lorsque la fenêtre déroulante est principale. Lorsqu’elle est définie sur <span class="codeph"> 0</span>, la zone actuellement visible dans la fenêtre déroulante est mise en surbrillance à l’aide des styles fournis par <span class="codeph"> .s7highlight</span> ou <span class="codeph"> .s7cursor</span> noms de classe CSS (selon la valeur du modificateur <span class="codeph"> highlightmode</span>). Lorsqu’il est défini sur <span class="codeph"> 1</span>, le composant passe en mode "inverse", où la zone actuellement affichée est entièrement transparente (au cas où <span class="codeph"> surlignmode</span> est défini sur <span class="codeph"> surligné</span>) ou stylisée avec <span class="codeph"> .s7cursor</span> nom de classe CSS (au cas où <span class="codeph"> surlignmode</span> est défini <span class="codeph"> cursor</span>), mais la zone environnante est remplie à l’aide des styles fournis par <span class="codeph"> .s7overlay</span> nom de classe CSS. </p> </td> 
   </tr> 
  </tbody> 
 </table>
