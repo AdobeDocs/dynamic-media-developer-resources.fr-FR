@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 80c0d6ec-985b-4596-bd67-22e5029f7b37
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '138'
+ht-degree: 0%
 
 ---
 
@@ -22,12 +25,14 @@ Il existe deux manières de désinstaller Image Rendering sur un système Linux 
 
 1. Rechercher [!DNL uninstall.sh].
 
-   Il se trouve dans le répertoire d’où ImageRendering a été installé. Si ce répertoire a été supprimé, le pack d’installation d’origine doit être décompressé et non taré pour l’extraction [!DNL uninstall.sh].
+   Il se trouve dans le répertoire d’où ImageRendering a été installé. Si ce répertoire a été supprimé, le package d&#39;installation d&#39;origine doit être décompressé et non taré pour extraire [!DNL uninstall.sh].
 1. Exécutez [!DNL uninstall.sh] et suivez les instructions affichées à l’écran.
+
 >**Méthode 2**
 >
 >1. Arrêter ImageRendering avec : ` *[!DNL install_folder]*/bin/ImageRendering.sh stop.`
 >1. Supprimez ImageRendering de votre système.
+
 >
 >   
 La commande de suppression d’ImageRendering dépend de votre système :
@@ -37,6 +42,7 @@ La commande de suppression d’ImageRendering dépend de votre système :
 >   Solaris : `pkgrm ImageRendering`
 >
 >1. Supprimez tous les répertoires ou fichiers qui n’ont pas été supprimés à l’étape 2.
+
 >
 
 
