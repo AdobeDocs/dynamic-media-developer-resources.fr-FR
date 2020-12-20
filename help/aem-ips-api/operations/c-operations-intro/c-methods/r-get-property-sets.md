@@ -1,24 +1,27 @@
 ---
 description: Obtient des jeux de propriétés associés à une poignée de type.
 seo-description: Obtient des jeux de propriétés associés à une poignée de type.
-seo-title: getPropertySet
+seo-title: getPropertySets
 solution: Experience Manager
-title: getPropertySet
+title: getPropertySets
 topic: Scene7 Image Production System API
 uuid: fa3cadb3-92b3-4ffb-ac1e-87a01b98bcb2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '99'
+ht-degree: 17%
 
 ---
 
 
-# getPropertySet{#getpropertysets}
+# getPropertySets{#getpropertysets}
 
 Obtient des jeux de propriétés associés à une poignée de type.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-da858360b72941bfa8d9558b4da7d4da}
+## Types d’utilisateur autorisés {#section-da858360b72941bfa8d9558b4da7d4da}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,15 +35,15 @@ Syntaxe
 
 ## Paramètres {#section-d8da2847e77e4a95a4441d9848cac775}
 
-**Input (getPropertySetParam)**
+**Entrée (getPropertySetsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | ` *`typeHandle`*` | `xsd:string` | Oui | poignée du type de jeu de propriétés. |
-| ` *`mainPropriétairePrincipal`*` | `xsd:string` | Oui | Propriétaire principal des données liées à l’objet de base de données. |
+| ` *`primaryOwnerHandle`*` | `xsd:string` | Oui | Propriétaire Principal des données liées à l&#39;objet de base de données. |
 | ` *`secondaryOwnerHandle`*` | `xsd:string` | Non | Propriétaire secondaire facultatif des données. |
 
-**Output (getPropertySetReturn)**
+**Output (getPropertySetsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -48,7 +51,7 @@ Syntaxe
 
 ## Exemples {#section-1358af974eab4259864910337a6f0bd2}
 
-Cet exemple de code renvoie des jeux de propriétés de leur propriétaire principal, spécifiés par une poignée de type.
+Cet exemple de code renvoie des ensembles de propriétés de leur propriétaire Principal, spécifiés par un type handle.
 
 **Request**
 
