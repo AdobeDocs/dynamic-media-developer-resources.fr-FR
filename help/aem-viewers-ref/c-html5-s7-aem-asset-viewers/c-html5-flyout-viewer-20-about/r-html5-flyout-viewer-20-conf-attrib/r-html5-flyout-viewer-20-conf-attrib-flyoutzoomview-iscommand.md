@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 1e8dcafb-33ef-42ea-8636-b3b7de81dfbd
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '70'
+ht-degree: 10%
 
 ---
 
@@ -19,8 +22,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_43A84C1044574A6FAB8CE67D71AAD5EC"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> </p> <p>Chaîne de commande de diffusion d’images appliquée à l’image principale FlyoutZoomView et au zoom dans le  du. Si elle est spécifiée dans l'URL, veillez à coder HTTP toutes les occurrences de <span class="codeph"> &amp;</span> et <span class="codeph"> =</span> en tant que <span class="codeph"> %26</span> et <span class="codeph"> %3D, respectivement.</span> </p> <p> <p>Remarque :  Les commandes de manipulation de dimensionnement d’image ne sont pas prises en charge. </p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
+   <td colname="col2"> <p> </p> <p>Chaîne de commande de diffusion d’images appliquée à l’image principale FlyoutZoomView et au zoom dans la vue. Si elle est spécifiée dans l’URL, veillez à coder par HTTP toutes les occurrences de <span class="codeph"> &amp;</span> et <span class="codeph"> =</span> en <span class="codeph"> %26</span> et <span class="codeph"> %3D</span>, respectivement. </p> <p> <p>Remarque :  Les commandes de manipulation de dimensionnement d’image ne sont pas prises en charge. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -35,7 +38,7 @@ Aucune
 
 ## Exemple {#section-0338be21edd04ff1a3bed5c8319b61a4}
 
-Lorsqu’elle est spécifiée dans l’URL du lecteur de contenu :
+Lorsqu’elle est spécifiée dans l’URL de la visionneuse :
 
 `iscommand=op_sharpen%3d1%26op_colorize%3d0xff0000`
 
