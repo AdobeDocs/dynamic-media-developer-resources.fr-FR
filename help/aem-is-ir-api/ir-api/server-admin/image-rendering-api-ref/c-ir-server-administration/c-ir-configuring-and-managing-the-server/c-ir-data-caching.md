@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 630ed3f4-3a0d-4de4-828f-45ffc14e6bb7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 0%
 
 ---
 
@@ -16,4 +19,4 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Le rendu des images utilise les fonctions de mise en cache du service d’images pour enregistrer les données d’image de réponse, les données intermédiaires pour les requêtes imbriquées/incorporées et les données d’image source (telles que les textures) obtenues à partir d’une source externe.
 
-Pour obtenir une description des mécanismes de mise en cache, reportez-vous à la documentation du serveur d’images.
+Pour obtenir une description des mécanismes de mise en cache, reportez-vous à la documentation sur la diffusion d’images.
