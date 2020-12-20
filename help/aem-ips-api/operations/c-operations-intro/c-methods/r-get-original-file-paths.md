@@ -1,6 +1,6 @@
 ---
-description: Obtient les chemins d’accès aux fichiers d’origine des ressources d’un .
-seo-description: Obtient les chemins d’accès aux fichiers d’origine des ressources d’un .
+description: Récupère les chemins d’accès aux fichiers d’origine d’une société.
+seo-description: Récupère les chemins d’accès aux fichiers d’origine d’une société.
 seo-title: getOriginalFilePaths
 solution: Experience Manager
 title: getOriginalFilePaths
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: c4acf288-1a57-4295-806b-348f15a089cc
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 14%
 
 ---
 
 
 # getOriginalFilePaths{#getoriginalfilepaths}
 
-Obtient les chemins d’accès aux fichiers d’origine des ressources d’un .
+Récupère les chemins d’accès aux fichiers d’origine d’une société.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-da8d8561e9174e938f3595a5d6e50089}
+## Types d’utilisateur autorisés {#section-da8d8561e9174e938f3595a5d6e50089}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -38,8 +41,8 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | La poignée du. |
-| ` *`assetHandleArray`*` | `types:HandleArray` | Oui | Tableau de poignées vers les fichiers dont vous souhaitez obtenir le chemin d’accès au fichier d’origine. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | La poignée de la société. |
+| ` *`assetHandleArray`*` | `types:HandleArray` | Oui | Tableau de poignées pour les fichiers dont vous souhaitez obtenir le chemin d’accès au fichier d’origine. |
 
 **Output (getOriginalFilePathsReturn)**
 
@@ -49,7 +52,7 @@ Syntaxe
 
 ## Exemples {#section-a966e783a2ba49f5b6b0f961329ab2f8}
 
-Cet exemple de code renvoie les chemins d’accès aux fichiers des ressources spécifiées avec des poignées de ressources uniques dans un tableau de descripteurs de ressources.
+Cet exemple de code renvoie les chemins d&#39;accès aux fichiers des ressources spécifiées avec des gestionnaires de ressources uniques dans un tableau de descripteurs de ressources.
 
 **Request**
 
