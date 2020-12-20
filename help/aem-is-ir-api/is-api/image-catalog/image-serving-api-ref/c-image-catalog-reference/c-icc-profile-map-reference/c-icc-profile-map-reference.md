@@ -1,21 +1,24 @@
 ---
-description: Si un mappage de ICC est requis pour un catalogue d’images, le chemin relatif ou absolu du fichier de mappage  doit être spécifié dans l’attribut IccProfileMapFile.
-seo-description: Si un mappage de ICC est requis pour un catalogue d’images, le chemin relatif ou absolu du fichier de mappage  doit être spécifié dans l’attribut IccProfileMapFile.
-seo-title: Référence du mappage de  ICC
+description: Si un mappage de profil ICC est requis pour un catalogue d’images, le chemin relatif ou absolu du fichier de mappage de profil doit être spécifié dans l’attribut IccProfileMapFile.
+seo-description: Si un mappage de profil ICC est requis pour un catalogue d’images, le chemin relatif ou absolu du fichier de mappage de profil doit être spécifié dans l’attribut IccProfileMapFile.
+seo-title: Référence de carte de profil ICC
 solution: Experience Manager
-title: Référence du mappage de  ICC
+title: Référence de carte de profil ICC
 topic: Scene7 Image Serving - Image Rendering API
 uuid: eee1e8d5-cf16-4e73-9b44-4ec032cf3553
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '126'
+ht-degree: 0%
 
 ---
 
 
-# Référence du mappage de  ICC{#icc-profile-map-reference}
+# Référence du mappage de profil ICC{#icc-profile-map-reference}
 
-Si un mappage de ICC est requis pour un catalogue d’images, le chemin relatif ou absolu du fichier de mappage  doit être spécifié dans attribute::IccProfileMapFile.
+Si un mappage de profil ICC est requis pour un catalogue d’images, le chemin relatif ou absolu du fichier de mappage de profil doit être spécifié dans attribut::IccProfileMapFile.
 
-Les entrées dans le mappage de  ICC d’un catalogue d’images spécifique remplacent les entrées dans le mappage de ICC du catalogue par défaut.
+Les entrées dans la carte de profil ICC d’un catalogue d’images spécifique remplacent les entrées dans la carte de profil ICC du catalogue par défaut.
 
-Image Serving prend en charge les fichiers de de couleurs conformes à la spécification ICC.
+Image Serving prend en charge les fichiers de profil de couleur conformes aux spécifications ICC.
