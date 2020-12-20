@@ -1,6 +1,6 @@
 ---
-description: En cliquant ou en appuyant sur ce bouton, l’utilisateur accède à la dernière page du catalogue. Ce bouton apparaît dans la barre de contrôle principale des ordinateurs de bureau et des tablettes ; sur les téléphones mobiles, il est ajouté à une barre de contrôle secondaire. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
-seo-description: En cliquant ou en appuyant sur ce bouton, l’utilisateur accède à la dernière page du catalogue. Ce bouton apparaît dans la barre de contrôle principale des ordinateurs de bureau et des tablettes ; sur les téléphones mobiles, il est ajouté à une barre de contrôle secondaire. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
+description: Cliquez ou appuyez sur ce bouton pour amener l’utilisateur à la dernière page du catalogue. Ce bouton apparaît dans la barre de contrôle principale des ordinateurs de bureau et des tablettes ; sur les téléphones portables, il est ajouté à une barre de contrôle secondaire. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
+seo-description: Cliquez ou appuyez sur ce bouton pour amener l’utilisateur à la dernière page du catalogue. Ce bouton apparaît dans la barre de contrôle principale des ordinateurs de bureau et des tablettes ; sur les téléphones portables, il est ajouté à une barre de contrôle secondaire. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
 seo-title: Bouton Dernière page
 solution: Experience Manager
 title: Bouton Dernière page
@@ -8,17 +8,20 @@ topic: Dynamic media
 uuid: 4cdcd2b7-a6d3-48c0-ba65-5339d232a954
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '395'
+ht-degree: 1%
 
 ---
 
 
 # Bouton Dernière page{#last-page-button}
 
-En cliquant ou en appuyant sur ce bouton, l’utilisateur accède à la dernière page du catalogue. Ce bouton apparaît dans la barre de contrôle principale des ordinateurs de bureau et des tablettes ; sur les téléphones mobiles, il est ajouté à une barre de contrôle secondaire. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
+Cliquez ou appuyez sur ce bouton pour amener l’utilisateur à la dernière page du catalogue. Ce bouton apparaît dans la barre de contrôle principale des ordinateurs de bureau et des tablettes ; sur les téléphones portables, il est ajouté à une barre de contrôle secondaire. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
-**Propriétés CSS de la zone de visionneuse principale**
+**Propriétés CSS de la zone de visualisation principale**
 
 L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
@@ -34,19 +37,19 @@ L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suiv
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> haut </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure supérieure de la barre de contrôle principale (sur les ordinateurs de bureau et les tablettes) ou de la barre de contrôle secondaire (sur les téléphones mobiles), y compris le remplissage. </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure supérieure de la barre de contrôle principale (sur les ordinateurs de bureau et tablettes) ou de la barre de contrôle secondaire (sur les téléphones portables), y compris le remplissage. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> droite </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure droite de la barre de contrôle principale (sur les ordinateurs de bureau et tablettes) ou de la barre de contrôle secondaire (sur les téléphones mobiles), y compris le remplissage. </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure droite de la barre de contrôle principale (sur les ordinateurs de bureau et tablettes) ou de la barre de contrôle secondaire (sur les téléphones portables), y compris le remplissage. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> gauche </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure gauche de la barre de contrôle principale (sur les ordinateurs de bureau et les tablettes) ou de la barre de contrôle secondaire (sur les téléphones mobiles), y compris le remplissage. </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure gauche de la barre de contrôle principale (sur les ordinateurs de bureau et tablettes) ou de la barre de contrôle secondaire (sur les téléphones portables), y compris le remplissage. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bas </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure inférieure de la barre de contrôle principale (sur les ordinateurs de bureau et les tablettes) ou de la barre de contrôle secondaire (sur les téléphones mobiles), y compris le remplissage. </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure inférieure de la barre de contrôle principale (sur les ordinateurs de bureau et tablettes) ou de la barre de contrôle secondaire (sur les téléphones portables), y compris le remplissage. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -57,23 +60,23 @@ L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suiv
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan  </span> </p> </td> 
    <td colname="col2"> <p>Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
-   <td colname="col2"> <p> Positionnez-vous à l’intérieur de l’image-objet d’illustration, si des images-objets CSS sont utilisées. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
+   <td colname="col2"> <p> Positionnez l’objet à l’intérieur de l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ce bouton prend en charge le sélecteur d’ `state` attributs, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
-L’info-bulle du bouton peut être localisée. Pour plus d’informations, voir [des éléments](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) de l’interface utilisateur.
+L’info-bulle du bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 
-Exemple : pour configurer un bouton de dernière page de 28 x 28 pixels, positionné 4 pixels du bas et 220 pixels du bord gauche de la barre de contrôle principale, et affiche une image différente pour chacun des quatre états de bouton.
+Exemple : pour configurer un bouton de dernière page de 28 x 28 pixels, positionné 4 pixels du bas et 220 pixels du bord gauche de la barre de contrôle principale, et affiche une image différente pour chacun des quatre états de bouton différents.
 
 ```
 .s7ecatalogsearchviewer .s7lastpagebutton .s7panrightbutton { 
