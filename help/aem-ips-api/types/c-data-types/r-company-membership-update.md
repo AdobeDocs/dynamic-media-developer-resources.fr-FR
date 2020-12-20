@@ -1,18 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: CompanyMemberUpdate
+seo-title: CompanyMembershipUpdate
 solution: Experience Manager
-title: CompanyMemberUpdate
+title: CompanyMembershipUpdate
 topic: Scene7 Image Production System API
 uuid: dc396fd7-6ac1-4f52-9b30-e43808edefd0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '38'
+ht-degree: 18%
 
 ---
 
 
-# CompanyMemberUpdate{#companymembershipupdate}
+# CompanyMembershipUpdate{#companymembershipupdate}
 
 Syntaxe
 
@@ -20,7 +23,7 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Pose le . |
-| ` *`rôle`*` | `xsd:string` | Rôle d’un utilisateur pour chaque auquel il appartient. |
-| ` *`isActive`*` | `xsd:boolean` | Définit l’état de l’utilisateur pour chaque auquel il appartient. |
+| ` *`companyHandle`*` | `xsd:string` | Pose la société. |
+| ` *`rôle`*` | `xsd:string` | Rôle d’un utilisateur pour chaque société à laquelle il appartient. |
+| ` *`isActive`*` | `xsd:boolean` | Définit l’état de l’utilisateur pour chaque société à laquelle il appartient. |
 
