@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: 52f744df-8eee-45fe-8246-6f497d9feb66
 translation-type: tm+mt
 source-git-commit: 6cff4553307fe6cbda4b80ce3f39b58e615fa365
+workflow-type: tm+mt
+source-wordcount: '54'
+ht-degree: 16%
 
 ---
 
 
 # Visionneuses pour AEM Assets et Dynamic Media Classic{#viewers-for-aem-assets-and-dynamic-media-classic}
 
-Les visionneuses suivantes fonctionnent sous Adobe Experience Manager Assets et également sous Dynamic Media Classic.
+Les lecteurs suivants fonctionnent sous Adobe Experience Manager Assets et également sous Dynamic Media Classic.
 
 * [Zoom de base](c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-about.md)
 * [Catalogue électronique](c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-about.md)
