@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: b11ea668-7a82-439c-b16b-909dc86c00a2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 11%
 
 ---
 
@@ -18,9 +21,9 @@ Crée un format d’image.
 
 >[!NOTE]
 >
->La valeur `urlModifier` du champ doit être un XML valide. Par exemple, changez `&` en `&`. Obtenez la `urlModfier` valeur de l&#39;interface utilisateur d&#39;IPS.
+>La valeur du champ `urlModifier` doit être composée de données XML valides. Par exemple, remplacez `&` par `&`. Récupérez la valeur `urlModfier` de l&#39;interface utilisateur IPS.
 
-## Types d’utilisateurs autorisés {#section-12c9d8d5933f4692bafb194060b4f882}
+## Types d’utilisateur autorisés {#section-12c9d8d5933f4692bafb194060b4f882}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,20 +32,20 @@ Crée un format d’image.
 
 ## Paramètres {#section-b1fc2fe8d606490ba3a2c979ab8bbd78}
 
-**Input (saveImageFormatParam)**
+**Entrée (saveImageFormatParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée vers le avec le format d’image que vous souhaitez utiliser. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée vers la société avec le format d’image que vous souhaitez utiliser. |
 | ` *`imageFormatHandle`*` | `xsd:string` | Non | Poignée de format d’image à enregistrer. |
-| ` *`nom`*` | `xsd:string` | Oui | Nom du format d’image. |
-| ` *`urlModificateur`*` | `xsd:string` | Oui | Il peut s&#39;agir de n&#39;importe quelle chaîne de de protocole IPS. Le moyen le plus simple de générer un modificateur d&#39;URL consiste à en créer un avec l&#39;interface utilisateur d&#39;IPS, puis à couper et coller la chaîne de  du. |
+| ` *`name`*` | `xsd:string` | Oui | Nom du format d’image. |
+| ` *`urlModificateur`*` | `xsd:string` | Oui | Il peut s&#39;agir de n&#39;importe quelle chaîne de requête de protocole IPS. Le moyen le plus simple de générer un modificateur d&#39;URL consiste à en créer un avec l&#39;interface utilisateur d&#39;IPS, puis à couper et coller la chaîne de requête. |
 
 **Output (saveImageFormatReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`imageFormatHandle`*` | `xsd:string` | Oui | Traitement du format d’image. |
+| ` *`imageFormatHandle`*` | `xsd:string` | Oui | Passez au format d’image. |
 
 ## Exemples {#section-c7bd733212ef494297a97093f3af193f}
 
