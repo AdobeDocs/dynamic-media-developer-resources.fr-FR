@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 5b387eb6-1e09-4506-beea-3f1cf337cb9d
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '78'
+ht-degree: 5%
 
 ---
 
@@ -22,7 +25,7 @@ Attribut de configuration pour la visionneuse de vidéos interactive.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|playPause</span> </p> </td> 
-   <td colname="col2"> <p> Configure le mappage de clic/clic pour activer/désactiver la lecture/la mise en pause. La valeur <span class="codeph"> none</span> désactive le clic/clic pour lire/mettre en pause. Si cette option est définie sur <span class="codeph"> playPause</span> , un clic sur la vidéo fait basculer entre la lecture et la mise en pause de la vidéo. Sur certains périphériques, vous pouvez utiliser des contrôles natifs. Dans ce cas, un <span class="codeph"> comportement à un seul clic</span> est désactivé. </p> </td> 
+   <td colname="col2"> <p> Configure le mappage de clic/clic unique pour activer/désactiver la lecture/la pause. La définition de <span class="codeph"> none</span> désactive la lecture/mise en pause d’un seul clic/clic. Si elle est définie sur <span class="codeph"> playPause</span>, cliquez sur la vidéo pour basculer entre la lecture et la mise en pause. Sur certains périphériques, vous pouvez utiliser des contrôles natifs. Dans ce cas, un comportement <span class="codeph"> singleclick</span> est désactivé. </p> </td> 
   </tr> 
  </tbody> 
 </table>
