@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: cfb549c2-e0cf-46c3-b5b7-219c8c1bee94
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '68'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> numérique|pointillé</span> </p> </td> 
-   <td colname="col2"> <p> Configure le style de rendu de l’indicateur défini. </p> <p>Lorsqu’il est défini sur <span class="codeph"> pointillé</span> , le composant effectue le rendu des indicateurs identiques pour toutes les pages. </p> <p>Lorsqu’il est défini sur <span class="codeph"> numérique</span> , il place un numéro de page de base 1 dans chaque élément d’indicateur. </p> <p>Le mode <span class="codeph"> d’opération numérique</span> n’est pas pris en charge sur les périphériques capables d’entrer des données tactiles. Au lieu de cela, le composant utilise <span class="codeph"> des points</span> sur ces périphériques. </p> </td> 
+   <td colname="col2"> <p> Configure le style de rendu de l’indicateur défini. </p> <p>Lorsqu’il est défini sur <span class="codeph"> pointillé</span>, le composant effectue le rendu des indicateurs identiques pour toutes les pages. </p> <p>Lorsqu’elle est définie sur <span class="codeph"> numeric</span>, elle place un numéro de page de base 1 à l’intérieur de chaque élément d’indicateur. </p> <p>Le mode de fonctionnement <span class="codeph"> numeric</span> n'est pas pris en charge sur les périphériques capables d'entrer des données tactiles. À la place, le composant utilise <span class="codeph"> pointillé</span> sur ces périphériques. </p> </td> 
   </tr> 
  </tbody> 
 </table>
