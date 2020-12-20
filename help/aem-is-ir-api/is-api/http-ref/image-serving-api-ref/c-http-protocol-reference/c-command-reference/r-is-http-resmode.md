@@ -1,6 +1,6 @@
 ---
-description: Mode de rééchantillonnage. Choisit l’algorithme de rééchantillonnage et/ou d’interpolation à utiliser pour la mise à l’échelle des données d’image. S’applique également à la rotation des calques de texte et au redimensionnement des images composites au cours de la transformation de .
-seo-description: Mode de rééchantillonnage. Choisit l’algorithme de rééchantillonnage et/ou d’interpolation à utiliser pour la mise à l’échelle des données d’image. S’applique également à la rotation des calques de texte et au redimensionnement des images composites au cours de la transformation de .
+description: Mode de rééchantillonnage. Choisit l’algorithme de rééchantillonnage et/ou d’interpolation à utiliser pour la mise à l’échelle des données d’image. S’applique également à la rotation des calques de texte et au redimensionnement des images composites pendant la transformation de la vue.
+seo-description: Mode de rééchantillonnage. Choisit l’algorithme de rééchantillonnage et/ou d’interpolation à utiliser pour la mise à l’échelle des données d’image. S’applique également à la rotation des calques de texte et au redimensionnement des images composites pendant la transformation de la vue.
 seo-title: resMode
 solution: Experience Manager
 title: resMode
@@ -8,33 +8,36 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8e12aa06-072c-4e7a-84e6-01437c43c57b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '250'
+ht-degree: 12%
 
 ---
 
 
 # resMode{#resmode}
 
-Mode de rééchantillonnage. Choisit l’algorithme de rééchantillonnage et/ou d’interpolation à utiliser pour la mise à l’échelle des données d’image. S’applique également à la rotation des calques de texte et au redimensionnement des images composites au cours de la transformation de .
+Mode de rééchantillonnage. Choisit l’algorithme de rééchantillonnage et/ou d’interpolation à utiliser pour la mise à l’échelle des données d’image. S’applique également à la rotation des calques de texte et au redimensionnement des images composites pendant la transformation de la vue.
 
 `resMode=bilin|bicub|sharp2|bisharp`
 
 <table id="table_FD658AC521E24EB9ADBB87F98549BC3B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> biline </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> biline  </span> </p> </td> 
    <td colname="col2"> <p>Sélectionne l’interpolation bilinéaire standard. Il s’agit de la méthode de ré-échantillonnage la plus rapide ; certains artefacts de crénelage peuvent être visibles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bicub </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bicub  </span> </p> </td> 
    <td colname="col2"> <p>Sélectionne l’interpolation bicubique. Plus intensif en UC que l’interpolation bi-linéaire, mais produira des images plus nettes avec des artefacts de crénelage moins visibles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> sharp2 </span> </p> </td> 
-   <td colname="col2"> <p>Sélectionne une fonction de fenêtre Lanczos modifiée comme algorithme d’interpolation. Peut produire des images légèrement plus nettes que la méthode bicubique en sollicitant toutefois davantage le processeur. <span class="codeph"> sharp </span> a été remplacé par <span class="codeph"> sharp2 </span>, qui a une probabilité moindre de causer des artefacts de crénelage (Moiré). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sharp2  </span> </p> </td> 
+   <td colname="col2"> <p>Sélectionne une fonction Lanczos Window modifiée comme algorithme d'interpolation. Peut produire des images légèrement plus nettes que la méthode bicubique en sollicitant toutefois davantage le processeur. <span class="codeph"> sharp  </span> a été remplacé par  <span class="codeph"> sharp2  </span>, qui a une probabilité moindre de causer des artefacts de crénelage (Moiré). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> évêque </span> </p> </td> 
-   <td colname="col2"> <p>Sélectionne le rééchantillonneur par défaut Photoshop pour réduire la taille de l’image, appelé "accentuation bicubique" dans Adobe Photoshop. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> évêque  </span> </p> </td> 
+   <td colname="col2"> <p>Sélectionne le rééchantillonneur par défaut Photoshop pour réduire la taille de l’image, appelée "netteté bicubique" dans Adobe Photoshop. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,7 +52,7 @@ Attribut de requête. S’applique à toutes les opérations de mise à l’éch
 
 ## Exemple {#section-ee8c3e5a2e3845fe81de5073a8ab7efe}
 
-Récupérez un rendu de meilleure qualité d’une image superposée stockée dans un catalogue d’images. L’image peut inclure du texte. Nous prévoyons de continuer à traiter dans une application de retouche d&#39;image, et donc de demander un alpha avec l&#39;image.
+Récupérez un rendu de meilleure qualité d’une image superposée stockée dans un catalogue d’images. L’image peut inclure du texte. Nous prévoyons de continuer le traitement dans une application de retouche d&#39;images, et donc de demander un canal alpha avec l&#39;image.
 
 ` http:// *`server`*/myLayeredImage?fmt=tif-alpha,,lzw&resMode=sharp2&wid=1800`
 
