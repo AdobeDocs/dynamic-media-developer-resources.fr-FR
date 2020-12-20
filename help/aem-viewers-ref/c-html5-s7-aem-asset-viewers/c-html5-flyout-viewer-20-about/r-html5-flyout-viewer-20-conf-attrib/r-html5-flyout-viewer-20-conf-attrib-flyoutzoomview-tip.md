@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: ad423dc7-4dd8-42d9-bf75-db8f309f6aaa
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '98'
+ht-degree: 6%
 
 ---
 
@@ -19,16 +22,16 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_3BA079B51B644219BB8E2A68A13A8D90"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> durée</span></span> </p> </td> 
-   <td colname="col2"> <p>Indique le nombre de secondes pendant lesquelles le texte de l’info-bulle s’affiche avant qu’il ne se masque. Lorsqu’il est défini sur <span class="codeph"> -1</span>, le message s’affiche toujours, même si l’utilisateur active la fenêtre déroulante. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> durée</span> </span> </p> </td> 
+   <td colname="col2"> <p>Indique le nombre de secondes d’affichage du texte avant sa masquage. Lorsqu’il est défini sur <span class="codeph"> -1</span>, le message s’affiche toujours, même si l’utilisateur active la fenêtre déroulante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> count</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> count</span> </span> </p> </td> 
    <td colname="col2"> <p>Indique le nombre d’affichages du texte lors de l’affichage de nouvelles images dans la visionneuse. La valeur <span class="codeph"> -1</span> signifie que le texte est toujours affiché lors de l’affichage d’une image de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fade</span></span> </p> </td> 
-   <td colname="col2"> <p>Indique la durée d’une animation en fondu qui se produit lorsque le texte apparaît ou disparaît. La valeur <span class="codeph"> 0</span> signifie qu’aucun  de fondu n’est. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fondre</span> </span> </p> </td> 
+   <td colname="col2"> <p>Indique la durée d’une animation de fondu qui se produit lorsque le texte apparaît ou disparaît. Une valeur <span class="codeph"> 0</span> signifie qu’aucune transition de fondu n’est définie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
