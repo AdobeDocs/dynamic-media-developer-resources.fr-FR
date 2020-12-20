@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 6508fdff-27cd-4038-b506-39b927f3526a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '166'
+ht-degree: 16%
 
 ---
 
@@ -29,15 +32,15 @@ Mode de répétition de la texture. Spécifie le mode de répétition pour les m
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>Mosaïque aléatoire à 8 voies. </p> </td> 
+  <td class="stentry"> <p>Carrelage aléatoire à 8 voies. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>Carrelage en losange. </p> </td> 
+  <td class="stentry"> <p>Carrelage en diamant. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>Le papier peint à un quart de goutte est accroché. </p> </td> 
+  <td class="stentry"> <p>Un papier peint à un quart-goutte est accroché. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
@@ -53,15 +56,15 @@ Mode de répétition de la texture. Spécifie le mode de répétition pour les m
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>8 </p> </td> 
-  <td class="stentry"> <p>Le papier peint est suspendu. </p> </td> 
+  <td class="stentry"> <p>Le papier peint inversé est suspendu. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>9 </p> </td> 
-  <td class="stentry"> <p>Du papier peint aléatoire. </p> </td> 
+  <td class="stentry"> <p>Des papiers peints aléatoires pendent. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>10 </p> </td> 
-  <td class="stentry"> <p>Une goutte aléatoire. </p> </td> 
+  <td class="stentry"> <p>Une baisse aléatoire. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>11 </p> </td> 
@@ -81,35 +84,35 @@ Mode de répétition de la texture. Spécifie le mode de répétition pour les m
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>15 </p> </td> 
-  <td class="stentry"> <p>Optimisateur de fréquence élevée. </p> </td> 
+  <td class="stentry"> <p>Optimiseur de fréquence élevée. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>16 </p> </td> 
-  <td class="stentry"> <p>Optimiseur aléatoire basse fréquence. </p> </td> 
+  <td class="stentry"> <p>Organiseur aléatoire à basse fréquence. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>17 </p> </td> 
-  <td class="stentry"> <p>Caractère aléatoire horizontal. </p> </td> 
+  <td class="stentry"> <p>Organiseur aléatoire horizontal. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>18 </p> </td> 
-  <td class="stentry"> <p>Caractère aléatoire vertical. </p> </td> 
+  <td class="stentry"> <p>Organiseur aléatoire vertical. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>19 </p> </td> 
-  <td class="stentry"> <p>Séparateur de bord. </p> </td> 
+  <td class="stentry"> <p>Optimiseur aléatoire. </p> </td> 
  </tr> 
 </table>
 
-Les modes d&#39;inclinaison aléatoire (14...18) peuvent être utilisés pour synthétiser les textures à partir d&#39;images qui ne sont pas facilement répétables; l’algorithme crée des textures totalement aléatoires ou partiellement aléatoires basées sur l’image d’origine.
+Les modes de recadrage aléatoire (14...18) peuvent être utilisés pour synthétiser les textures à partir d&#39;images qui ne sont pas facilement répétables ; l’algorithme crée des textures complètement aléatoires ou partiellement aléatoires basées sur l’image d’origine.
 
 ## Propriétés {#section-262bf540930d4890b678ea00cefe1909}
 
-Attribut de matière. Ignoré par les matériaux de couleur unie, d’étoffe et d’armoire.
+Attribut de matériau. Ignoré par les matériaux de couleur unie, de couleur et d&#39;armoire.
 
 ## Par défaut {#section-e5bbd7d9fbb74852849e605d20f550bb}
 
-`catalog::Repeat`, si le matériau est basé sur une entrée de catalogue, sinon `0` (répétition directe).
+`catalog::Repeat`, si le matériau est basé sur une entrée de catalogue, sinon  `0` (répétition directe).
 
 ## Voir aussi {#section-ac99113b64654d75a3a86e41db546269}
 
