@@ -1,6 +1,6 @@
 ---
-description: Informations sur la progression de l’élément .
-seo-description: Informations sur la progression de l’élément .
+description: Informations sur l'avancement de l'élément de tâche.
+seo-description: Informations sur l'avancement de l'élément de tâche.
 seo-title: TaskItemProgress
 solution: Experience Manager
 title: TaskItemProgress
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 7cca2ad9-c8f9-4dff-a055-d03fa2c50cec
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '38'
+ht-degree: 15%
 
 ---
 
 
 # TaskItemProgress{#taskitemprogress}
 
-Informations sur la progression de l’élément .
+Informations sur l&#39;avancement de l&#39;élément de tâche.
 
 Syntaxe
 
@@ -22,8 +25,8 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| ` *`itemName`*` | `xsd:string` | Nom de l’élément en cours de traitement. |
+| ` *`itemName`*` | `xsd:string` | Nom de l&#39;élément en cours de traitement. |
 | ` *`progress`*` | `xsd:double` | Progression terminée %. |
-| ` *`progressMessage`*` | `xsd:string` | Message du processus. |
+| ` *`progressMessage`*` | `xsd:string` | Message de traitement. |
 | ` *`lastProgressUpdate`*` | `xsd:dateTime` | Heure de la dernière mise à jour. |
 
