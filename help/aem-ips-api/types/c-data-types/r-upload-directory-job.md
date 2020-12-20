@@ -70,7 +70,7 @@ Syntaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> illustratorOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> type:IllustratorOptions</span> </td> 
-   <td colname="col3"> <p>Options de téléchargement de fichiers Illustrator vers le serveur d’images. </p> </td> 
+   <td colname="col3"> <p>Options de téléchargement des fichiers Illustrator vers le serveur d’images. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> includeSubfolders</span> </span> </td> 
@@ -80,7 +80,7 @@ Syntaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> type:InDesignOptions</span> </td> 
-   <td colname="col3"> <p>Options de téléchargement de fichiers InDesign sur le serveur. </p> </td> 
+   <td colname="col3"> <p>Options de téléchargement des fichiers d’InDesign sur le serveur. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> knockoutBackground</span> </span> </td> 
@@ -95,7 +95,7 @@ Syntaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> mediaOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> type:MediaOptions</span> </td> 
-   <td colname="col3"> <p>Options qui vous permettent de définir une image miniature à partir de la vidéo. </p> <p>Voir <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> Options</a>multimédia. </p> </td> 
+   <td colname="col3"> <p>Options qui vous permettent de définir une image miniature à partir de la vidéo. </p> <p>Voir <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> remplacer</span> </span> </td> 
@@ -110,7 +110,7 @@ Syntaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> type:PhotoshopOptions</span> </td> 
-   <td colname="col3"> <p>Options de téléchargement de fichiers Photoshop vers le serveur d’images. </p> </td> 
+   <td colname="col3"> <p>Options de téléchargement des fichiers Photoshop vers le serveur d’images. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postHttpUrl</span> </span> </td> 
@@ -118,7 +118,7 @@ Syntaxe
    <td colname="col3"> <p>URL de la destination du téléchargement du fichier. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> postImageRenderingPublish</span> </span>Job </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> </span> </span>postImageRenderingPublishJob </td> 
    <td colname="col2"> <span class="codeph"> type:ImageRendingPublishJob</span> </td> 
    <td colname="col3"> <p>Détails d’une tâche de publication de rendu d’image qui s’exécute une fois le téléchargement terminé. </p> </td> 
   </tr> 
@@ -175,7 +175,7 @@ Syntaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unCompressOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> type:OptionsUnCompresser</span> </td> 
-   <td colname="col3"> <p>Extrayez et traitez le contenu des fichiers TAR/ZIP téléchargés avec ces paramètres facultatifs. </p> <p>Voir <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> Annuler la compression des options</a>. </p> </td> 
+   <td colname="col3"> <p>Extrayez et traitez le contenu des fichiers TAR/ZIP téléchargés avec ces paramètres facultatifs. </p> <p>Voir <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> UnCompressOptions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </td> 
@@ -192,13 +192,13 @@ Syntaxe
 
 ## Remarques {#section-637405ff7e0b4a71b83fd359b92fa0c2}
 
-Pour `CropOptions`cela, vous ne pouvez choisir qu’un des éléments suivants :
+Pour `CropOptions`, vous ne pouvez choisir que l&#39;un des éléments suivants :
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-Pour `PublishJob`cela, vous ne pouvez choisir qu’un des éléments suivants :
+Pour `PublishJob`, vous ne pouvez choisir que l&#39;un des éléments suivants :
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`
