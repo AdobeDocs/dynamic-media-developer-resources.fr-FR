@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 07576390-dd17-4a28-b372-7bba207bdebe
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '31'
+ht-degree: 25%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 0|1</span> </span> </p> </td> 
-   <td colname="col2"> <p> Indique si le de la visionneuse  la lecture de la vidéo au chargement. Certains systèmes, comme certains périphériques mobiles, ne prennent pas en charge la lecture automatique. </p> </td> 
+   <td colname="col2"> <p> Indique si la visionneuse est en début de lecture de la vidéo au chargement. Certains systèmes, comme certains périphériques mobiles, ne prennent pas en charge la lecture automatique. </p> </td> 
   </tr> 
  </tbody> 
 </table>
