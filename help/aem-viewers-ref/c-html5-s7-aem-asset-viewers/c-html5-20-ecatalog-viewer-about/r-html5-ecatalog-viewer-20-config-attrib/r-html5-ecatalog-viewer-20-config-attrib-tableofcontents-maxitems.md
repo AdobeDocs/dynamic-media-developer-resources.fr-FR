@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: b1ed5145-e5d1-4458-94c4-00ee55f58a05
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '61'
+ht-degree: 9%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> maxitems</span></span> </p> </td> 
-   <td> <p>Nombre maximal d’éléments dans la table des matières déroulante. </p> <p>De plus, vous pouvez réduire le nombre d’éléments visibles dans la liste déroulante au cas où il serait recadré par le  externe. </p> <p>Lorsqu’il est défini sur <span class="codeph"> 0</span> , ce composant affiche autant d’éléments que possible en fonction du auquel il est ajouté. </p> </td> 
+   <td> <p>Nombre maximal d’éléments dans la table des matières déroulante. </p> <p>De plus, vous pouvez réduire le nombre d’éléments visibles dans la liste déroulante au cas où ils seraient recadrés par le conteneur extérieur. </p> <p>Lorsqu'il est défini sur <span class="codeph"> 0</span>, ce composant affiche le plus grand nombre d'éléments possible en fonction du conteneur auquel il est ajouté. </p> </td> 
   </tr> 
  </tbody> 
 </table>
