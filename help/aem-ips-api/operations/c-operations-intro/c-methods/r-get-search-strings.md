@@ -1,6 +1,6 @@
 ---
-description: Obtient les chaînes de recherche, les mots-clés et d’autres informations sur un fichier. La réponse contient des informations supplémentaires sur la ressource.
-seo-description: Obtient les chaînes de recherche, les mots-clés et d’autres informations sur un fichier. La réponse contient des informations supplémentaires sur la ressource.
+description: Récupère les chaînes de recherche, les mots-clés et d’autres informations sur un fichier. La réponse contient des informations supplémentaires sur la ressource.
+seo-description: Récupère les chaînes de recherche, les mots-clés et d’autres informations sur un fichier. La réponse contient des informations supplémentaires sur la ressource.
 seo-title: getSearchStrings
 solution: Experience Manager
 title: getSearchStrings
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 9d588d6b-c79c-4531-a2e8-8467254a7985
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '115'
+ht-degree: 14%
 
 ---
 
 
 # getSearchStrings{#getsearchstrings}
 
-Obtient les chaînes de recherche, les mots-clés et d’autres informations sur un fichier. La réponse contient des informations supplémentaires sur la ressource.
+Récupère les chaînes de recherche, les mots-clés et d’autres informations sur un fichier. La réponse contient des informations supplémentaires sur la ressource.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-b09c817a59f949a28e1c029e431f5698}
+## Types d’utilisateur autorisés {#section-b09c817a59f949a28e1c029e431f5698}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -27,12 +30,12 @@ Syntaxe
 
 ## Paramètres {#section-c1efda4bb15349a68b276bafee8c18fd}
 
-**Input (getSearchStringsParam)**
+**Entrée (getSearchStringsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Pose le . |
-| ` *`assetHandle`*` | `xsd:string` | Oui | Traitement de la ressource. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Pose la société. |
+| ` *`assetHandle`*` | `xsd:string` | Oui | Traitez le fichier. |
 
 **Output (getSearchStringsReturn)**
 
