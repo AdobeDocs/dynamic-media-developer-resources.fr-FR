@@ -36,7 +36,7 @@ Sinon, les règles de codage HTTP standard s’appliquent. La spécification HTT
    <td colname="col3"> <p>32 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&lt; </p> </td> 
+   <td colname="col1"> <p>&lt;&gt; </p> </td> 
    <td colname="col2"> <p>3C </p> </td> 
    <td colname="col3"> <p>60 </p> </td> 
   </tr> 
@@ -186,4 +186,4 @@ Si l&#39;obscurcissement est appliqué, le codage peut être limité à la suppr
 
 ## Voir aussi {#section-295476ec34c74973962d07dfa9eb2180}
 
-[Obscurcissement](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d)de requête, spécification [HTTP/1.1 (RFC 2616)](http://www.w3.org/Protocols/rfc2616/rfc2616.html)
+[Obscurcissement](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d) de requête, spécification  [HTTP/1.1 (RFC 2616)](http://www.w3.org/Protocols/rfc2616/rfc2616.html)
