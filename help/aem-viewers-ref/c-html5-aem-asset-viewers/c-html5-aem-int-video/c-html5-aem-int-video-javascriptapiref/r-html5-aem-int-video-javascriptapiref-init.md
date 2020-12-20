@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e6ec0730-1ddc-4026-939c-2c9f8ecee5c7
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 2%
 
 ---
 
@@ -18,9 +21,9 @@ Référence de l’API JavaScript pour la visionneuse de vidéos interactive.
 
 `init()`
 
-de l’initialisation de la visionneuse de vidéos interactives. A ce moment-là, l’élément DOM  doit être créé afin que le code du lecteur puisse le trouver par son identifiant.
+Début l’initialisation de la visionneuse de vidéos interactive. D’ici là, l’élément DOM du conteneur doit être créé afin que le code du lecteur puisse le trouver par son identifiant.
 
-Si l’élément  du ne fait pas encore partie de la mise en page de la page Web (par exemple, il peut être masqué à l’aide du `display:none` style qui lui est affecté), le lecteur suspend son processus d’initialisation jusqu’au moment où la page Web ramène l’élément  du à la mise en page. Dans ce cas, le chargement du lecteur reprend automatiquement.
+Si l’élément de conteneur ne fait pas encore partie de la mise en page de la page Web (il peut par exemple être masqué à l’aide du style `display:none` qui lui est affecté), le lecteur suspend son processus d’initialisation jusqu’au moment où la page Web ramène l’élément de conteneur à la mise en page. Dans ce cas, le chargement du lecteur reprend automatiquement.
 
 Appelez cette méthode une seule fois pendant le cycle de vie de la visionneuse ; les appels suivants sont ignorés.
 
@@ -28,7 +31,7 @@ Appelez cette méthode une seule fois pendant le cycle de vie de la visionneuse 
 
 Aucune
 
-## Returns {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Renvoie {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 `{Object}` Référence à l’instance de visionneuse.
 
