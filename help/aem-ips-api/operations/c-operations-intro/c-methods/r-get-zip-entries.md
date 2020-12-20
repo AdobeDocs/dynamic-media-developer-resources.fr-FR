@@ -1,6 +1,6 @@
 ---
-description: Renvoie des données de fichier zip.
-seo-description: Renvoie des données de fichier zip.
+description: Renvoie les données du fichier Zip.
+seo-description: Renvoie les données du fichier Zip.
 seo-title: getZipEntries
 solution: Experience Manager
 title: getZipEntries
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: cfc45f83-1cf9-4c50-9aac-5a731e62a839
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 21%
 
 ---
 
 
 # getZipEntries{#getzipentries}
 
-Renvoie des données de fichier zip.
+Renvoie les données du fichier Zip.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-33a3f03ba8a14086922397619ce12ab8}
+## Types d’utilisateur autorisés {#section-33a3f03ba8a14086922397619ce12ab8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,22 +35,22 @@ Syntaxe
 
 ## Paramètres {#section-aa3f498fe76d4a5f99c42d64520fadce}
 
-**Input (getZipEntriesParam)**
+**Entrée (getZipEntriesParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Identifiant du  contenant le fichier zip. |
-| ` *`assetHandle`*` | `xsd:string` | Oui | Traitement du fichier zip. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Identifiant de la société contenant le fichier Zip. |
+| ` *`assetHandle`*` | `xsd:string` | Oui | Traitez le fichier Zip. |
 
 **Output (getZipEntriesReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`zipArray`*` | `types:ZipEntryArray` | Oui | Tableau d’entrées dans un fichier zip. |
+| ` *`zipArray`*` | `types:ZipEntryArray` | Oui | Tableau des entrées dans un fichier Zip. |
 
 ## Exemples {#section-1fc0ad8fa448492cb5a135d3e3d161ac}
 
-Cet exemple de code renvoie des informations sur le fichier zip, y compris la taille compressée et non compressée.
+Cet exemple de code renvoie des informations sur le fichier Zip, y compris la taille compressée et non compressée.
 
 **Request**
 
