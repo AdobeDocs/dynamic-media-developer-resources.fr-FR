@@ -8,11 +8,14 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 8902766c-c2d9-433a-9c49-3182b063269f
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '59'
+ht-degree: 0%
 
 ---
 
 
-# Defaults for catalog fields{#defaults-for-catalog-fields}
+# Valeurs par défaut des champs de catalogue {#defaults-for-catalog-fields}
 
 Les champs de catalogue utilisent ces valeurs par défaut.
 
@@ -20,10 +23,10 @@ Les champs de catalogue utilisent ces valeurs par défaut.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-digimarcinfo-cat.md#reference-4925764ed683466bb7af4b807c86f8ba" type="reference" format="dita" scope="local"> DigimarcInfo</a></span> </p> </td> 
-   <td colname="col2"> <p>Informations sur l’image Digimarc par défaut. </p> </td> 
+   <td colname="col2"> <p>Informations d’image Digimarc par défaut. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> Expiration <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md#reference-a7afd668ecbb4d2da65d86259aa6a28a" type="reference" format="dita" scope="local"></a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md#reference-a7afd668ecbb4d2da65d86259aa6a28a" type="reference" format="dita" scope="local"> Expiration</a></span> </p> </td> 
    <td colname="col2"> <p>Durée de vie par défaut du cache client. </p> </td> 
   </tr> 
   <tr> 
@@ -35,7 +38,7 @@ Les champs de catalogue utilisent ces valeurs par défaut.
    <td colname="col2"> <p>Résolution d’objet par défaut. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbres-cat.md#reference-eedb9991397347c3bed5bd0a785c4c69" type="reference" format="dita" scope="local"> Roues de pouce</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-thumbres-cat.md#reference-eedb9991397347c3bed5bd0a785c4c69" type="reference" format="dita" scope="local"> ThumbRes</a></span> </p> </td> 
    <td colname="col2"> <p>Résolution de miniature par défaut. </p> </td> 
   </tr> 
   <tr> 
