@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 5b2f95a7-cc0b-4938-99b9-2aefa0ffe693
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '63'
+ht-degree: 25%
 
 ---
 
@@ -18,7 +21,7 @@ Obtient des valeurs de champ de métadonnées uniques.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-6a6b67e10a4c4e7bb18306115713380e}
+## Types d’utilisateur autorisés {#section-6a6b67e10a4c4e7bb18306115713380e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,8 +37,8 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Pose le . |
-| ` *`fieldHandle`*` | `xsd:string` | Non | Traitement du champ de métadonnées. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Pose la société. |
+| ` *`fieldHandle`*` | `xsd:string` | Non | Gérer en fonction du champ de métadonnées. |
 
 **Output (getUniqueMetadataValuesReturn)**
 
