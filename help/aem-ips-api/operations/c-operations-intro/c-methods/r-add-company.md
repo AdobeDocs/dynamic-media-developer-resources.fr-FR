@@ -1,6 +1,6 @@
 ---
-description: Ajoute un  au système.
-seo-description: Ajoute un  au système.
+description: Ajoute une société au système.
+seo-description: Ajoute une société au système.
 seo-title: addCompany
 solution: Experience Manager
 title: addCompany
@@ -8,19 +8,22 @@ topic: Scene7 Image Production System API
 uuid: 2f00a06d-40d1-4ba3-a317-6ea91e25beb3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 12%
 
 ---
 
 
 # addCompany{#addcompany}
 
-Ajoute un  au système.
+Ajoute une société au système.
 
-Envoie le nom du à ajouter au système et envoie éventuellement si le  expire.
+Envoie le nom de la société à ajouter au système et envoie éventuellement si la société expire.
 
-Lorsque cette opération est appelée, le système obtient un type ` *`companyInfo`*` qui contient un nom d’utilisateur  et des champs descriptifs. Si le nom de  demandé existe déjà dans le système, il renvoie une `ipsApiFault`.
+Lorsque cette opération est appelée, le système obtient un type ` *`companyInfo`*` qui contient un nom d&#39;utilisateur de société et des champs descriptifs. Si le nom de société demandé existe déjà dans le système, il renvoie `ipsApiFault`.
 
-## Types d’utilisateurs autorisés {#section-ae926c7672984be79f6102748accab72}
+## Types d’utilisateur autorisés {#section-ae926c7672984be79f6102748accab72}
 
 * `IpsAdmin`
 * `TrialSiteAdmin`
@@ -28,7 +31,7 @@ Lorsque cette opération est appelée, le système obtient un type ` *`companyIn
 
 ## Paramètres {#section-c64a21b72585447880760db9e7a12ccb}
 
-**Input (addCompanyParam)**
+**Entrée (addCompanyParam)**
 
 <table id="table_AA915BAD2E8E4A1B9719725994309CE8"> 
  <thead> 
@@ -41,16 +44,16 @@ Lorsque cette opération est appelée, le système obtient un type ` *`companyIn
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Nom du à ajouter. </p> </td> 
+   <td colname="col4"> <p>Nom de la société à ajouter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> expires</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:dateTime</span> </p> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Date d’expiration du . Indiquez le fuseau horaire avec la demande de ce champ. Les fuseaux horaires sont ajustés à l’heure centrale. </p> </td> 
+   <td colname="col4"> <p>Date d’expiration de la société. Indiquez le fuseau horaire avec la demande de ce champ. Les fuseaux horaires sont ajustés à l’heure centrale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,17 +71,17 @@ Lorsque cette opération est appelée, le système obtient un type ` *`companyIn
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Traitement et nom, chemin d’accès racine, date d’expiration et heure du nouveau. </p> </td> 
+   <td colname="col4"> <p>Traitez et nommez la nouvelle société, son chemin d’accès racine, sa date d’expiration et son heure. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Exemples {#section-4c8f1bb40d154c77a7b410468206e52b}
 
-Cet exemple illustre une demande d&#39;ajout d&#39;un  au système IPS et la réponse détaillant les informations sur le ajouté  nécessaire pour effectuer d&#39;autres opérations.
+Cet exemple illustre une demande d&#39;ajout d&#39;une société au système IPS et la réponse détaillant les informations sur la société ajoutée nécessaire pour effectuer d&#39;autres opérations.
 
 **Request**
 
