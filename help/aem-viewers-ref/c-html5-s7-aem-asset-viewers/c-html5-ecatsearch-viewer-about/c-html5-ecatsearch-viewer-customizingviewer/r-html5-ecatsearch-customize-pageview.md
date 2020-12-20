@@ -1,24 +1,27 @@
 ---
-description: Le principal est constitué de l’image du catalogue. Il peut être glissé pour accéder à une autre page ou faire l’objet d’un zoom.
-seo-description: Le principal est constitué de l’image du catalogue. Il peut être glissé pour accéder à une autre page ou faire l’objet d’un zoom.
-seo-title: ' de page'
+description: La vue principale est constituée de l’image catalogue. Il peut être glissé pour atteindre une autre page ou faire l’objet d’un zoom.
+seo-description: La vue principale est constituée de l’image catalogue. Il peut être glissé pour atteindre une autre page ou faire l’objet d’un zoom.
+seo-title: Vue de page
 solution: Experience Manager
-title: ' de page'
+title: Vue de page
 topic: Dynamic media
 uuid: f585bf57-c66a-4213-a2af-d9625beb5bed
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '401'
+ht-degree: 2%
 
 ---
 
 
-# Page view{#page-view}
+# Vue de page{#page-view}
 
-Le principal est constitué de l’image du catalogue. Il peut être glissé pour accéder à une autre page ou faire l’objet d’un zoom.
+La vue principale est constituée de l’image catalogue. Il peut être glissé pour atteindre une autre page ou faire l’objet d’un zoom.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriétés CSS de la zone de visionneuse principale**
+**Propriétés CSS de la zone de visualisation principale**
 
 L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe CSS suivant :
 
@@ -35,17 +38,17 @@ L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe C
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
-   <td colname="col2"> <p> Couleur d’arrière-plan du principal  au format hexadécimal. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
+   <td colname="col2"> <p> Couleur d’arrière-plan de la vue principale au format hexadécimal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> curseur </span> </p> </td> 
-   <td colname="col2"> <p>Curseur affiché sur le  principal du. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> curseur  </span> </p> </td> 
+   <td colname="col2"> <p>Curseur affiché sur la vue principale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : pour rendre le principal transparent.
+Exemple - pour rendre la vue principale transparente.
 
 ```
 .s7ecatalogsearchviewer .s7pageview { 
@@ -53,7 +56,7 @@ Exemple : pour rendre le principal transparent.
 }
 ```
 
-Sur les systèmes de bureau, le composant prend en charge le sélecteur d’ `cursortype` attributs qui peut être appliqué à `.s7pageview` la classe et contrôle le type du curseur en fonction de l’état du composant et de l’action de l’utilisateur. The following `cursortype` values are supported:
+Sur les systèmes de bureau, le composant prend en charge le sélecteur d&#39;attributs `cursortype` qui peut être appliqué à la classe `.s7pageview` et contrôle le type du curseur en fonction de l&#39;état du composant et de l&#39;action de l&#39;utilisateur. Les valeurs `cursortype` suivantes sont prises en charge :
 
 <table id="table_45B83F6CCDE84C36B0E087CA9144BFE6"> 
  <thead> 
@@ -65,10 +68,10 @@ Sur les systèmes de bureau, le composant prend en charge le sélecteur d’ `cu
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> par défaut </span> </p> </td> 
-   <td colname="col2"> <p>S’affiche lorsque l’image n’est pas agrandie en raison d’une résolution d’image réduite, de paramètres de composant ou des deux. </p> </td> 
+   <td colname="col2"> <p>S’affiche lorsque l’image ne peut pas faire l’objet d’un zoom en raison d’une résolution d’image réduite, de paramètres de composant ou des deux. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomine </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomine  </span> </p> </td> 
    <td colname="col2"> <p>S’affiche lorsque vous pouvez zoomer sur l’image. </p> </td> 
   </tr> 
   <tr> 
@@ -77,16 +80,16 @@ Sur les systèmes de bureau, le composant prend en charge le sélecteur d’ `cu
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> glisser </span> </p> </td> 
-   <td colname="col2"> <p>S’affiche lorsque l’utilisateur effectue un panoramique sur l’image qui fait l’objet d’un zoom avant. </p> </td> 
+   <td colname="col2"> <p>S’affiche lorsque l’utilisateur effectue un panoramique sur l’image dont l’état est zoomé. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> glissière </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> diapositive  </span> </p> </td> 
    <td colname="col2"> <p>S’affiche lorsque l’utilisateur effectue une permutation d’image en effectuant un balayage horizontal ou un clic. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Le séparateur de page qui sépare visuellement les pages de gauche et de droite de la planche de catalogue est contrôlé par le sélecteur de classe CSS suivant :
+Le séparateur de pages qui sépare visuellement les pages de gauche et de droite de la planche de catalogue est contrôlé par le sélecteur de classe CSS suivant :
 
 `.s7ecatalogsearchviewer .s7pageview .s7pagedivider`
 
@@ -100,10 +103,10 @@ Le séparateur de page qui sépare visuellement les pages de gauche et de droite
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> Largeur du séparateur de page. Définissez cette valeur sur <span class="codeph"> 0 </span> px pour masquer complètement le séparateur. </p> </td> 
+   <td colname="col2"> <p> Largeur du séparateur de page. Définissez sur <span class="codeph"> 0 </span> px pour masquer complètement le séparateur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan  </span> </p> </td> 
    <td colname="col2"> <p>Image à utiliser comme séparateur de page. </p> </td> 
   </tr> 
  </tbody> 
@@ -120,9 +123,9 @@ Exemple : pour avoir un séparateur de page de 40 pixels de large avec une image
 
 >[!NOTE]
 >
->Lorsque le `frametransition` modificateur est défini sur `turn` ou `auto` (sur les systèmes de bureau), l’aspect du séparateur de page est contrôlé avec le modificateur `pageturnstyle` et la classe `.s7pagedivider` CSS est ignorée.
+>Lorsque le modificateur `frametransition` est défini sur `turn` ou `auto` (sur les systèmes de bureau), l’aspect du séparateur de pages est contrôlé avec le modificateur `pageturnstyle` et la classe CSS `.s7pagedivider` est ignorée.
 
-Il est possible de configurer l’affichage des curseurs de souris personnalisés sur la zone de visualisation principale. Ceci est contrôlé avec les sélecteurs d’attributs supplémentaires appliqués à la classe `.s7ecatalogsearchviewer .s7pageview` CSS :
+Il est possible de configurer l’affichage des curseurs de souris personnalisés sur la zone de visualisation principale. Ceci est contrôlé avec les sélecteurs d&#39;attribut supplémentaires appliqués à la classe CSS `.s7ecatalogsearchviewer .s7pageview` :
 
 <table id="table_908164DECF9347A19A9696A23BBDB1A2"> 
  <thead> 
@@ -134,28 +137,28 @@ Il est possible de configurer l’affichage des curseurs de souris personnalisé
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> par défaut </span> </p> </td> 
-   <td colname="col2"> <p> Normalement, une flèche s’affiche pour les images non zoomables. </p> </td> 
+   <td colname="col2"> <p> Normalement une flèche s’affiche pour les images non zoomables. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomine </span> </p> </td> 
-   <td colname="col2"> <p> Indique le moment où un zoom est possible sur une image. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomine  </span> </p> </td> 
+   <td colname="col2"> <p> Indique à quel moment une image peut être zoomée. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> réinitialiser </span> </p> </td> 
-   <td colname="col2"> <p>Indique le moment où une image atteint le zoom maximum et peut être réinitialisée. </p> </td> 
+   <td colname="col2"> <p>Indique quand une image atteint le zoom maximal et peut être réinitialisée. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> glisser </span> </p> </td> 
-   <td colname="col2"> <p>Indique le moment où l’utilisateur effectue une opération de glisser-déplacer sur un zoom dans l’image </p> </td> 
+   <td colname="col2"> <p>Indique le moment où l’utilisateur effectue une opération de glisser-déplacer sur un zoom dans l’image. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> glissière </span> </p> </td> 
-   <td colname="col2"> <p>Affiche le moment où l’utilisateur effectue un échange d’images à l’aide d’un mouvement de diapositive </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> diapositive  </span> </p> </td> 
+   <td colname="col2"> <p>Affiche le moment où l'utilisateur effectue un échange d'image à l'aide d'un mouvement de diapositive </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : utilisez des curseurs de souris différents pour chaque type d’état de composant.
+Exemple : utilisez des curseurs de souris différents pour chaque type d&#39;état de composant.
 
 ```
 .s7ecatalogsearchviewer .s7pageview[cursortype="default"] { 
