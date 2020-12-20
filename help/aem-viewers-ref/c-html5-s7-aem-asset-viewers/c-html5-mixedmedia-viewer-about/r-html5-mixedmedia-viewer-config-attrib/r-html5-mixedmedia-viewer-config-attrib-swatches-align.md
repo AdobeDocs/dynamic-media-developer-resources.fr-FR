@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 272e4416-4b2f-4f6e-bb04-584d3aad29f2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '86'
+ht-degree: 6%
 
 ---
 
@@ -16,16 +19,16 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 `[Swatches.|<containerId>_swatches.]align=left|center|right,top|center|bottom`
 
-Indique l’alignement interne (ancrage) du d’échantillons  dans la zone du composant. Dans les échantillons, le  de miniature interne est dimensionné de sorte que seul un nombre entier d’échantillons s’affiche. Par conséquent, il existe un certain remplissage entre les  internes du et les limites externes du composant. Cette commande indique comment le d’échantillons internes est positionné à l’intérieur du composant.
+Indique l’alignement interne (ancrage) du conteneur des échantillons dans la zone du composant. Dans les échantillons, le conteneur de miniature interne est dimensionné de sorte que seul un nombre entier de nuances s’affiche. En conséquence, il y a un certain remplissage entre le conteneur interne et les limites de composants externes. Cette commande indique comment le conteneur des échantillons internes est positionné à l’intérieur du composant.
 
 <table id="table_58D88FF5F83A4ABA928695B5AFF97354"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> gauche|centre|droite</span> </p> </td> 
+   <td> <p> <span class="codeph"> left|center|right</span> </p> </td> 
    <td> <p> Définit l’alignement des nuances horizontales. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="codeph"> haut|centre|bas</span> </p> </td> 
+   <td> <p><span class="codeph"> top|center|bottom</span> </p> </td> 
    <td> <p> Définit l’alignement des nuances verticales. </p> </td> 
   </tr> 
  </tbody> 
