@@ -1,6 +1,6 @@
 ---
-description: Chemin du fichier de définitions de macro. Indique le fichier contenant les définitions de macro pour ce catalogue d’images.
-seo-description: Chemin du fichier de définitions de macro. Indique le fichier contenant les définitions de macro pour ce catalogue d’images.
+description: Chemin du fichier de définitions de macro. Indique le fichier qui contient les définitions de macro pour ce catalogue d’images.
+seo-description: Chemin du fichier de définitions de macro. Indique le fichier qui contient les définitions de macro pour ce catalogue d’images.
 seo-title: MacroFile
 solution: Experience Manager
 title: MacroFile
@@ -8,17 +8,20 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: a383b00a-47f8-4c1c-9fd0-0701d8f78b18
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '83'
+ht-degree: 4%
 
 ---
 
 
 # MacroFile{#macrofile}
 
-Chemin du fichier de définitions de macro. Indique le fichier contenant les définitions de macro pour ce catalogue d’images.
+Chemin du fichier de définitions de macro. Indique le fichier qui contient les définitions de macro pour ce catalogue d’images.
 
 ## Propriétés {#section-e55829aecc3a412f9121a73d70f83a1a}
 
-Valeur de chaîne de texte. Chemin ou chemin d’accès absolu au fichier par rapport au dossier du catalogue.
+Valeur de chaîne de texte. Chemin ou chemin d’accès absolu au fichier par rapport au dossier de catalogue.
 
 ## Par défaut {#section-903de40cff734254aaf64c14258dc4a7}
 
