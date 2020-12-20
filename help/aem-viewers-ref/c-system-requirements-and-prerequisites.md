@@ -22,7 +22,7 @@ Configuration requise pour les visionneuses HTML5.
 
 <!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
-## Matériel et logiciels du serveur {#section-05099146f1f0418988c196635110bee6}
+## Matériel et logiciels serveur {#section-05099146f1f0418988c196635110bee6}
 
 * Dynamic Media Classic Image Serving 6.7.1 ou version ultérieure.
 * Les visionneuses HTML5 requièrent des bibliothèques JavaScript SDK côté serveur 3.9.1 ou version ultérieure.
@@ -49,7 +49,7 @@ Configuration requise pour les visionneuses HTML5.
 
 >[!NOTE]
 >
->Depuis le 30 septembre 2018, les visionneuses Adobe Dynamic Media Classic prennent fin avec la prise en charge de Transport Layer Security 1.0 (TLS 1.0). Par conséquent, Dynamic Media Classic ne prend plus en charge les visionneuses sur les navigateurs et/ou plates-formes suivants qui prennent en charge TLS 1.0. (Adobe Systems recommande l&#39;utilisation de TLS 1.2 ou version ultérieure.)
+>Depuis le 30 septembre 2018, les visionneuses Dynamic Media Classic Adobe ne prennent plus en charge Transport Layer Security 1.0 (TLS 1.0). Par conséquent, Dynamic Media Classic ne prend plus en charge les lecteurs sur les navigateurs et/ou plates-formes suivants qui prennent en charge TLS 1.0. (Adobe Systems recommande l&#39;utilisation de TLS 1.2 ou version ultérieure.)
 
 * Android 2.3.7
 * Android 4.0.4
@@ -71,6 +71,6 @@ Configuration requise pour les visionneuses HTML5.
 
 >[!NOTE]
 >
->FIN DE VIE DES VISIONNEUSES FLASH : à compter du 31 janvier 2017, Adobe Scene7 Publishing System a officiellement mis fin à la prise en charge de la plate-forme de la visionneuse Flash. Pour plus d&#39;informations sur cette modification importante, consultez le site Web de la FAQ suivante :
+>FLASH VIEWERS FIN DE VIE : à compter du 31 janvier 2017, Adobe Scene7 Publishing System a officiellement mis fin à la prise en charge de la plate-forme du lecteur de Flash. Pour plus d&#39;informations sur cette modification importante, consultez le site Web de la FAQ suivante :
 
 [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
