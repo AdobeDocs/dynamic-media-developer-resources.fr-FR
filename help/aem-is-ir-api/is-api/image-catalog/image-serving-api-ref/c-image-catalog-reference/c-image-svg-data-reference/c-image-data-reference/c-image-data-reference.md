@@ -1,6 +1,6 @@
 ---
-description: Cette section décrit les attributs des données image.
-seo-description: Cette section décrit les attributs des données image.
+description: Cette section décrit les attributs de données d’image.
+seo-description: Cette section décrit les attributs de données d’image.
 seo-title: Référence des données image
 solution: Experience Manager
 title: Référence des données image
@@ -8,13 +8,16 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 18f9efe1-5d31-4f39-8f0a-7c0a5b7f75b0
 translation-type: tm+mt
 source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
+workflow-type: tm+mt
+source-wordcount: '50'
+ht-degree: 22%
 
 ---
 
 
 # Référence des données image{#image-data-reference}
 
-Cette section décrit les attributs des données image.
+Cette section décrit les attributs de données d’image.
 
 * [Ancre](r-anchor-cat.md)
 * [AssetType](r-assettype-cat.md)
@@ -23,7 +26,7 @@ Cette section décrit les attributs des données image.
 * [ID](r-id-cat.md)
 * [ImageSet](r-imageset-cat.md)
 * [Zone](r-map-cat.md)
-* [MaskPath](r-maskpath-cat.md)
+* [MasquePath](r-maskpath-cat.md)
 * [Modificateur](r-modifier-cat.md)
 * [Chemin](r-path-cat.md)
 * [PostModificateur](r-postmodifier-cat.md)
