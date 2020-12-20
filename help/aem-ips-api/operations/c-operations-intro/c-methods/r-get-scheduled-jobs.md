@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 56b0623b-46d7-4d11-8eea-6543ed364b53
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 20%
 
 ---
 
@@ -18,7 +21,7 @@ Obtient les tâches planifiées pour exécution.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-bd1835ab508a429f8143b3bdb811d6a4}
+## Types d’utilisateur autorisés {#section-bd1835ab508a429f8143b3bdb811d6a4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,7 +38,7 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | La poignée du. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | La poignée de la société. |
 | ` *`jobHandle`*` | `xsd:string` | Non | Poignée de tâche. |
 | ` *`originalName`*` | `xsd:string` | Non | Nom spécifié par `submitJob`. |
 
@@ -47,7 +50,7 @@ Syntaxe
 
 ## Exemples {#section-e79e7da86ba848fd9996aa36de462e6c}
 
-Cet exemple de code renvoie toutes les tâches planifiées dans un tableau de tâches. Le tableau lui-même contient des informations détaillées sur les tâches.
+Cet exemple de code renvoie toutes les tâches planifiées dans un tableau de tâches. La baie elle-même contient des informations détaillées sur les tâches.
 
 **Request**
 
