@@ -1,6 +1,6 @@
 ---
-description: Attribut de configuration pour la visionneuse vidéo.
-seo-description: Attribut de configuration pour la visionneuse vidéo.
+description: Attribut de configuration pour la visionneuse de vidéos.
+seo-description: Attribut de configuration pour la visionneuse de vidéos.
 seo-title: VideoPlayer.mutevolume
 solution: Experience Manager
 title: VideoPlayer.mutevolume
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: 8e32b005-cf7f-4078-896c-14497340fad7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 8%
 
 ---
 
 
 # VideoPlayer.mutevolume{#videoplayer-mutevolume}
 
-Attribut de configuration pour la visionneuse vidéo.
+Attribut de configuration pour la visionneuse de vidéos.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]mutevolume=0|1`
 
@@ -22,7 +25,7 @@ Attribut de configuration pour la visionneuse vidéo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Définit le mode silencieux pour la lecture vidéo au chargement initial. Si le paramètre est défini sur <span class="codeph"> 1, </span> le volume est coupé ; dans le cas contraire, la vidéo est lue avec du son. Sur certains périphériques, le fait de désactiver la lecture vidéo au chargement permet également à la vidéo d’être lue automatiquement. </p> </td> 
+   <td colname="col2"> <p> Définit le mode silencieux pour la lecture vidéo au chargement initial. Si la valeur <span class="codeph"> 1 </span> est définie, le volume est coupé ; sinon, la vidéo est lue avec du son. Sur certains périphériques, le fait de désactiver la lecture vidéo au chargement permet également à la vidéo de se lire automatiquement. </p> </td> 
   </tr> 
  </tbody> 
 </table>
