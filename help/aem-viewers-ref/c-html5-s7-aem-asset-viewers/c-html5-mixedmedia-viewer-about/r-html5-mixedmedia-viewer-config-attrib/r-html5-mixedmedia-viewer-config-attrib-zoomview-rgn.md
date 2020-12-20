@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e0aa04a8-069e-4499-8d06-7b800940dba3
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '39'
+ht-degree: 17%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> x</span>,<span class="codeph"> y</span>,<span class="codeph"> w</span>,<span class="codeph"> h</span> </p> </td> 
-   <td colname="col2"> <p> Région initiale présentant un intérêt pour les coordonnées des pixels. Si ce n’est pas le cas, l’image entière est ajustée à la fenêtre d’affichage initiale. </p> </td> 
+   <td colname="col2"> <p> Région initiale présentant un intérêt pour les coordonnées en pixels. Si cette valeur n’est pas spécifiée, l’image entière est ajustée à la fenêtre d’affichage initiale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
