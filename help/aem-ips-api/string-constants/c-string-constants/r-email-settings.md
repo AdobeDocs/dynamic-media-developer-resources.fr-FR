@@ -1,6 +1,6 @@
 ---
-description: Décrit les valeurs utilisées par divers paramètres d’entrée. Pour plus de détails, reportez-vous au  de cet article.
-seo-description: Décrit les valeurs utilisées par divers paramètres d’entrée. Pour plus de détails, reportez-vous au  de cet article.
+description: Décrit les valeurs utilisées par divers paramètres d’entrée. Consultez la liste de cet article pour plus de détails.
+seo-description: Décrit les valeurs utilisées par divers paramètres d’entrée. Consultez la liste de cet article pour plus de détails.
 seo-title: Paramètres d'e-mail
 solution: Experience Manager
 title: Paramètres d'e-mail
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 2dcffedf-fd26-4878-9c44-fe14a7388ef2
 translation-type: tm+mt
 source-git-commit: af14dafbef63e45b945e49e3c3616e0c3148b818
+workflow-type: tm+mt
+source-wordcount: '55'
+ht-degree: 14%
 
 ---
 
 
 # Paramètres d&#39;e-mail{#email-settings}
 
-Décrit les valeurs utilisées par divers paramètres d’entrée. Pour plus de détails, reportez-vous au  de cet article.
+Décrit les valeurs utilisées par divers paramètres d’entrée. Consultez la liste de cet article pour plus de détails.
 
 Syntaxe
 
