@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 01d5076f-f187-4069-b2f2-806fb1d8be84
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 20%
 
 ---
 
@@ -18,7 +21,7 @@ Renvoie tous les champs de métadonnées, regroupés par type de ressource.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-e19a9d21cc2b45469c233d4ae55ebfc2}
+## Types d’utilisateur autorisés {#section-e19a9d21cc2b45469c233d4ae55ebfc2}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,13 +37,13 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Identifiant du dont vous souhaitez récupérer les métadonnées. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Identifiant de la société dont vous souhaitez récupérer les métadonnées. |
 
 **Output (getAssetMetadataFieldsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`assetFieldArray`*` | `types:AssetMetadataFieldsArray` | Oui | Tableau de champs de métadonnées, par type de fichier. |
+| ` *`assetFieldArray`*` | `types:AssetMetadataFieldsArray` | Oui | Tableau des champs de métadonnées, par type de ressource. |
 
 ## Exemples {#section-d79ab85f29144635b0b61416e52f4f3f}
 
@@ -56,7 +59,7 @@ Syntaxe
 
 >[!NOTE]
 >
->Troncée pour la brièveté.
+>Tronqué pour la brièveté.
 
 ```java
 <getAssetMetadataFieldsReturn xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31">
