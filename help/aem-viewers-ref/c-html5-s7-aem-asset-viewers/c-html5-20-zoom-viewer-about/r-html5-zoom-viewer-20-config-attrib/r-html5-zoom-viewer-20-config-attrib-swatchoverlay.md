@@ -1,13 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: swatchoverlay
+seo-title: swatchoverve
 solution: Experience Manager
-title: swatchoverlay
+title: swatchoverve
 topic: Dynamic media
 uuid: 60419120-effc-4895-8bb1-7e4b70a67c5b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 11%
 
 ---
 
@@ -19,8 +22,8 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>Indique la disposition du lecteur sur les périphériques tactiles. Lorsque le paramètre est défini sur <span class="codeph"> 1 </span>, le lecteur affiche les échantillons sous le principal sur le bureau ; sur les périphériques tactiles, les échantillons sont superposés au-dessus du  principal du. </p> <p>Lorsque le paramètre est défini sur <span class="codeph"> 0 </span>, les échantillons sont rendus sous la  principale sur tous les types de périphériques. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
+   <td colname="col2"> <p>Indique la disposition du lecteur sur les périphériques tactiles. Lorsque le paramètre est défini sur <span class="codeph"> 1 </span>, la visionneuse affiche les nuances sous la vue principale sur le bureau ; sur les périphériques tactiles, les échantillons sont superposés sur la vue principale. </p> <p>Lorsque le paramètre est défini sur <span class="codeph"> 0 </span>, les nuances s’affichent sous la vue principale sur tous les types de périphériques. </p> </td> 
   </tr> 
  </tbody> 
 </table>
