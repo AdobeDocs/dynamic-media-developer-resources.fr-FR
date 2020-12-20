@@ -1,6 +1,6 @@
 ---
-description: La barre de contrôle est la zone rectangulaire qui contient et se trouve derrière toutes les commandes de l’interface utilisateur disponibles pour la visionneuse de vidéos, telles que le bouton Lecture/Pause, les commandes de volume, etc.
-seo-description: La barre de contrôle est la zone rectangulaire qui contient et se trouve derrière toutes les commandes de l’interface utilisateur disponibles pour la visionneuse de vidéos, telles que le bouton Lecture/Pause, les commandes de volume, etc.
+description: La barre de contrôle est la zone rectangulaire qui contient et se trouve derrière tous les contrôles de l’interface utilisateur disponibles pour la visionneuse de vidéos, tels que le bouton Lecture/Pause, les commandes de volume, etc.
+seo-description: La barre de contrôle est la zone rectangulaire qui contient et se trouve derrière tous les contrôles de l’interface utilisateur disponibles pour la visionneuse de vidéos, tels que le bouton Lecture/Pause, les commandes de volume, etc.
 seo-title: Barre de contrôle
 solution: Experience Manager
 title: Barre de contrôle
@@ -8,17 +8,20 @@ topic: Dynamic media
 uuid: 7b7dccb3-6c64-4342-aac7-82c769561902
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 1%
 
 ---
 
 
 # Barre de contrôle{#control-bar}
 
-La barre de contrôle est la zone rectangulaire qui contient et se trouve derrière toutes les commandes de l’interface utilisateur disponibles pour la visionneuse de vidéos, telles que le bouton Lecture/Pause, les commandes de volume, etc.
+La barre de contrôle est la zone rectangulaire qui contient et se trouve derrière tous les contrôles de l’interface utilisateur disponibles pour la visionneuse de vidéos, tels que le bouton Lecture/Pause, les commandes de volume, etc.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-La barre de contrôle prend toujours la largeur totale de la visionneuse disponible. Il est possible de modifier sa couleur, sa hauteur et sa position verticale en CSS, par rapport au  de la visionneuse de vidéos.
+La barre de contrôle prend toujours toute la largeur de visionneuse disponible. Il est possible de modifier sa couleur, sa hauteur et sa position verticale en CSS, par rapport au conteneur de la visionneuse de vidéos.
 
 Le sélecteur de classe CSS suivant contrôle l’aspect de la barre de contrôle :
 
@@ -35,7 +38,7 @@ Le sélecteur de classe CSS suivant contrôle l’aspect de la barre de contrôl
    <td colname="col2"> <p>Hauteur de la barre de contrôle. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
    <td colname="col2"> <p>Couleur d’arrière-plan de la barre de contrôle. </p> </td> 
   </tr> 
  </tbody> 
