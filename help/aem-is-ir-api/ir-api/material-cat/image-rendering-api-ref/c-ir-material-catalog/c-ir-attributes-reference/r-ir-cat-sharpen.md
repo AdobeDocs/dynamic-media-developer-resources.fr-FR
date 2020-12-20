@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: d93aacf4-d4e7-4cf5-aa9e-e7a82630d4c0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '65'
+ht-degree: 10%
 
 ---
 
@@ -18,11 +21,11 @@ Accentuation de l’image de réponse par défaut. Indique s’il faut accentuer
 
 ## Propriétés {#section-faf57183efa0456fb37a7803a9486248}
 
-Drapeau.
+Indicateur.
 
 ## Par défaut {#section-e6f1f81ef5c949a488b2002581bda0d0}
 
-Héritée de `default::Sharpen` si non définie ou si vide.
+Hérité de `default::Sharpen` si elle n&#39;est pas définie ou si elle est vide.
 
 ## Voir aussi {#section-85393c62428f49739a2510f9427d3607}
 
