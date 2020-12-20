@@ -1,6 +1,6 @@
 ---
-description: Crée un compte utilisateur et l’ajoute à un ou plusieurs  d’.
-seo-description: Crée un compte utilisateur et l’ajoute à un ou plusieurs  d’.
+description: Crée un compte utilisateur et l’ajoute à une ou plusieurs sociétés.
+seo-description: Crée un compte utilisateur et l’ajoute à une ou plusieurs sociétés.
 seo-title: addUser
 solution: Experience Manager
 title: addUser
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: b8c5ada6-470e-4795-a4f3-20750da709a9
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '190'
+ht-degree: 12%
 
 ---
 
 
 # addUser{#adduser}
 
-Crée un compte utilisateur et l’ajoute à un ou plusieurs  d’.
+Crée un compte utilisateur et l’ajoute à une ou plusieurs sociétés.
 
-Lors de l’ajout d’un utilisateur à plusieurs  de, spécifiez les  par les poignées de leurs  de `companyHandleArray`la page. Cette opération renvoie le pseudo à l’utilisateur que vous venez d’ajouter.
+Lors de l’ajout d’un utilisateur à plusieurs sociétés, spécifiez ces sociétés en fonction de leurs poignées de société dans `companyHandleArray`. Cette opération retourne le handle à l&#39;utilisateur que vous venez d&#39;ajouter.
 
-## Types d’utilisateurs autorisés {#section-126ad42f844444fea11ecf8ad01fe1ec}
+## Types d’utilisateur autorisés {#section-126ad42f844444fea11ecf8ad01fe1ec}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -27,24 +30,24 @@ Lors de l’ajout d’un utilisateur à plusieurs  de, spécifiez les  par les p
 
 ## Paramètres {#section-40390a512e314b8d80ecffbb7729f6fb}
 
-**Input (addUserParam)**
+**Entrée (addUserParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | ` *`firstName`*` | `xsd:string` | Oui | Prénom de l’utilisateur. |
 | ` *`lastName`*` | `xsd:string` | Oui | Nom de l’utilisateur. |
 | ` *`e-mail`*` | `xsd:string` | Oui | Adresse électronique de l’utilisateur. |
-| ` *`defaultRole`*` | `xsd:string` | Oui | Définit le rôle d’un utilisateur dans chaque auquel il appartient. Notez toutefois que le `IpsAdmin` rôle remplace d’autres paramètres  par. |
-| ` *`mot de passe`*` | `xsd:string` | Oui | Définit le mot de passe de l’utilisateur |
-| ` *`passwordExpires`*` | `xsd:dateTime` | Non | Définit la période d’expiration du mot de passe. Indiquez le fuseau horaire lors de la transmission de la requête. Les fuseaux horaires sont ajustés à l’heure centrale. |
+| ` *`defaultRole`*` | `xsd:string` | Oui | Définit le rôle d’un utilisateur dans chaque société à laquelle il appartient. Notez toutefois que le rôle `IpsAdmin` remplace d’autres paramètres par société. |
+| ` *`mot de passe`*` | `xsd:string` | Oui | Définit le mot de passe de l’utilisateur. |
+| ` *`passwordExpires`*` | `xsd:dateTime` | Non | Définit la période d’expiration du mot de passe. Indiquez le fuseau horaire lors de la transmission de la demande. Les fuseaux horaires sont ajustés à l’heure centrale. |
 | ` *`isValid`*` | `xsd:boolean` | Oui | Détermine si l’utilisateur est valide. |
-| ` *`membershipArray`*` | `xsd:CompanyMembershipUpdateArray` | Oui | Un tableau de  poignées. |
+| ` *`membershipArray`*` | `xsd:CompanyMembershipUpdateArray` | Oui | Tableau de poignées de société. |
 
 **Output (addUserParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | Oui | Identifiant de l’utilisateur. |
+| ` *`userHandle`*` | `xsd:string` | Oui | Nom d’utilisateur. |
 
 ## Exemples {#section-2547cef622734b71919eef849960b5cb}
 
