@@ -1,6 +1,6 @@
 ---
-description: Récupère les journaux des tâches d’un fichier. Les éléments renvoyés dans le tableau contiennent des informations détaillées sur chaque entrée du journal des tâches pour cette ressource. Le champ de réponse logMessage est localisé en fonction du champ authHeader.
-seo-description: Récupère les journaux des tâches d’un fichier. Les éléments renvoyés dans le tableau contiennent des informations détaillées sur chaque entrée du journal des tâches pour cette ressource. Le champ de réponse logMessage est localisé en fonction du champ authHeader.
+description: Récupère les journaux de tâches d’un fichier. Les éléments renvoyés dans le tableau contiennent des informations détaillées sur chaque entrée du journal des tâches pour cette ressource. Le champ de réponse logMessage est localisé en fonction du champ authHeader.
+seo-description: Récupère les journaux de tâches d’un fichier. Les éléments renvoyés dans le tableau contiennent des informations détaillées sur chaque entrée du journal des tâches pour cette ressource. Le champ de réponse logMessage est localisé en fonction du champ authHeader.
 seo-title: getAssetJobLogs
 solution: Experience Manager
 title: getAssetJobLogs
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 7ea81baf-769b-4c73-bbc6-f52c89c98d50
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '193'
+ht-degree: 8%
 
 ---
 
 
 # getAssetJobLogs{#getassetjoblogs}
 
-Récupère les journaux des tâches d’un fichier. Les éléments renvoyés dans le tableau contiennent des informations détaillées sur chaque entrée du journal des tâches pour cette ressource. Le champ de réponse logMessage est localisé en fonction du champ authHeader.
+Récupère les journaux de tâches d’un fichier. Les éléments renvoyés dans le tableau contiennent des informations détaillées sur chaque entrée du journal des tâches pour cette ressource. Le champ de réponse logMessage est localisé en fonction du champ authHeader.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-72b98cdb0f6f47f5aabdc183a45ea577}
+## Types d’utilisateur autorisés {#section-72b98cdb0f6f47f5aabdc183a45ea577}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,10 +39,10 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée du auquel appartient le fichier. |
-| ` *`assetHandle`*` | `xsd:string` | Oui | Handle de ressource avec les journaux de tâches à récupérer. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de la société à laquelle appartient le fichier. |
+| ` *`assetHandle`*` | `xsd:string` | Oui | Poignée de ressource avec les journaux de tâches à récupérer. |
 
-**Output (getAssetJobLogsReturn)**
+**Sortie (getAssetJobLogsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -47,7 +50,7 @@ Syntaxe
 
 ## Exemples {#section-f03d7f3ec5d043d38227f926fb7609f6}
 
-Cet exemple de code récupère les journaux des tâches d’un fichier spécifique. La réponse renvoie un tableau du journal des tâches contenant des informations détaillées sur toutes les tâches dans lesquelles le fichier a été utilisé.
+Cet exemple de code récupère les journaux des tâches d’une ressource spécifique. La réponse renvoie un tableau du journal des tâches contenant des informations détaillées sur toutes les tâches dans lesquelles la ressource a été utilisée.
 
 **Request**
 
