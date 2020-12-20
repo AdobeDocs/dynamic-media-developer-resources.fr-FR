@@ -1,6 +1,6 @@
 ---
-description: Crée un  prédéfini qui détermine ce qu’un utilisateur peut voir. Le lecteur peut être de tout type disponible dans IPS. Le  prédéfini est appliqué lorsque les fichiers sont publiés.
-seo-description: Crée un  prédéfini qui détermine ce qu’un utilisateur peut voir. Le lecteur peut être de tout type disponible dans IPS. Le  prédéfini est appliqué lorsque les fichiers sont publiés.
+description: Crée une vue prédéfinie qui détermine ce qu’un utilisateur peut voir. Le lecteur peut être de n’importe quel type disponible dans IPS. La vue prédéfinie est appliquée lorsque les fichiers sont publiés.
+seo-description: Crée une vue prédéfinie qui détermine ce qu’un utilisateur peut voir. Le lecteur peut être de n’importe quel type disponible dans IPS. La vue prédéfinie est appliquée lorsque les fichiers sont publiés.
 seo-title: createViewerPreset
 solution: Experience Manager
 title: createViewerPreset
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 4160d2b0-6147-459f-830a-43c99b8dc196
 translation-type: tm+mt
 source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+workflow-type: tm+mt
+source-wordcount: '190'
+ht-degree: 11%
 
 ---
 
 
 # createViewerPreset{#createviewerpreset}
 
-Crée un  prédéfini qui détermine ce qu’un utilisateur peut voir. Le lecteur peut être de tout type disponible dans IPS. Le  prédéfini est appliqué lorsque les fichiers sont publiés.
+Crée une vue prédéfinie qui détermine ce qu’un utilisateur peut voir. Le lecteur peut être de n’importe quel type disponible dans IPS. La vue prédéfinie est appliquée lorsque les fichiers sont publiés.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-0b8b1322ebea4a7ea24d516e080b7367}
+## Types d’utilisateur autorisés {#section-0b8b1322ebea4a7ea24d516e080b7367}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,9 +34,9 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée du  qui contient les paramètres prédéfinis et les ressources de la visionneuse. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de la société contenant les paramètres prédéfinis et les ressources de la visionneuse. |
 | ` *`folderHandle`*` | `xsd:string` | Oui | Identifiant du dossier contenant les ressources. |
-| ` *`nom`*` | `xsd:string` | Oui | Nom de la visionneuse. |
+| ` *`name`*` | `xsd:string` | Oui | Nom de la visionneuse. |
 | ` *`type`*` | `xsd:string` | Oui | Type de visionneuse. |
 | ` *`configSettingArray`*` | `types:ConfigSettingArray` | Non | Tableau contenant les noms, les valeurs et les poignées des images auxquelles vous appliquez des paramètres prédéfinis. |
 
@@ -41,7 +44,7 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`viewerPresetHandle`*` | `xsd:string` | Oui | Traitement du paramètre prédéfini dans la visionneuse. |
+| ` *`viewerPresetHandle`*` | `xsd:string` | Oui | Gestion du paramètre prédéfini à la visionneuse. |
 
 ## Exemples {#section-c88ea63536f3461cbe4677ba53f875dd}
 
