@@ -8,12 +8,15 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: d37ff12d-5c7a-4bb5-af61-44de85a86aa0
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '66'
+ht-degree: 0%
 
 ---
 
 
-# Text string{#text-string}
+# Chaîne de texte {#text-string}
 
 Type de données de chaîne de texte.
 
-Les délimiteurs de chaîne sont facultatifs, sauf si la chaîne contient des caractères `<CR>`, `<LF>`ou `<TAB>` . Les guillemets simples ou peuvent être utilisés comme délimiteurs. Si des guillemets sont utilisés, ces guillemets incorporés dans la chaîne doivent être placés en séquence d’échappement à l’aide de deux guillemets consécutifs (p. ex. : Ce mois-ci est spécial).
+Les délimiteurs de chaîne sont facultatifs, sauf si la chaîne contient des caractères `<CR>`, `<LF>` ou `<TAB>`. Les guillemets simples ou doublons peuvent être utilisés comme délimiteurs. Si des guillemets sont utilisés, ces guillemets incorporés dans la chaîne doivent être précédés de deux guillemets consécutifs (p. ex. : Ce mois-ci est spécial).
