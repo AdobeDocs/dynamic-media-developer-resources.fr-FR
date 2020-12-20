@@ -1,6 +1,6 @@
 ---
-description: Référence de l’API JavaScript pour la visionneuse de carrousel.
-seo-description: Référence de l’API JavaScript pour la visionneuse de carrousel.
+description: Référence de l’API JavaScript pour Carousel Viewer.
+seo-description: Référence de l’API JavaScript pour Carousel Viewer.
 seo-title: getComponent**
 solution: Experience Manager
 title: getComponent**
@@ -8,21 +8,24 @@ topic: Dynamic media
 uuid: b5449564-c01c-4bb3-b265-b8d70e5f1b54
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '195'
+ht-degree: 1%
 
 ---
 
 
 # getComponent**{#getcomponent}
 
-Référence de l’API JavaScript pour la visionneuse de carrousel.
+Référence de l’API JavaScript pour Carousel Viewer.
 
 `getComponent(componentId)`
 
-Renvoie une référence au composant SDK de la visionneuse utilisé par la visionneuse. La page Web peut utiliser cette méthode pour étendre ou personnaliser le comportement du lecteur prêt à l’emploi. Appelez cette méthode uniquement après l’exécution du rappel de la `initComplete` visionneuse, sans quoi le composant ne sera pas encore créé par la logique de la visionneuse.
+Renvoie une référence au composant SDK de visionneuse utilisé par la visionneuse. La page Web peut utiliser cette méthode pour étendre ou personnaliser le comportement du lecteur prêt à l’emploi. Appelez cette méthode uniquement après l’exécution du rappel de la visionneuse `initComplete`, sinon le composant ne peut pas encore être créé par la logique de la visionneuse.
 
 ## Paramètres {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-` *`componentID`*` : `{String}` identifiant du composant SDK du lecteur de contenu utilisé par le lecteur de contenu. Cette visionneuse prend en charge les ID de composant suivants :
+` *`componentID`*`  :  `{String}` un identifiant du composant SDK de visionneuse utilisé par la visionneuse. Cette visionneuse prend en charge les ID de composant suivants :
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
@@ -33,51 +36,51 @@ Renvoie une référence au composant SDK de la visionneuse utilisé par la visio
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> parameterManager </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> parameterManager  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> conteneur </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common. </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Conteneur  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mediaSet </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.MediaSet </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mediaSet  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.MediaSet  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> carouselView </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.CarouselView </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> carouselView  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.CarouselView  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imageMapEffect </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.image.mageMapEffect </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imageMapEffect  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.image.mageMapEffect  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> controlBar </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ControlBar </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> controlBar  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ControlBar  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> setIndicator </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.SetIndicator </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> setIndicator  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.SetIndicator  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> nextButton </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanRightButton </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> nextButton  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanRightButton  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> prevButton </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanLeftButton </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> prevButton  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanLeftButton  </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Lorsque vous travaillez avec des API SDK, il est important d’utiliser le de SDK  qualifié approprié, comme décrit dans le kit SDK de [lecteur de contenu,  le](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-namespace.md)SDK.
+Lors de l’utilisation des API SDK, il est important d’utiliser l’espace de nommage SDK complet approprié, comme décrit dans [espace de nommage SDK de la visionneuse](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-namespace.md).
 
-Pour plus d’informations sur un composant particulier, consultez la documentation de l’API du SDK de lecteur.
+Pour plus d’informations sur un composant particulier, consultez la documentation de l’API du kit de développement de visionneuse.
 
-## Returns {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Renvoie {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` une référence au composant SDK de visionneuse. La méthode renvoie `null` si le `componentId` composant n’est pas un composant de visionneuse pris en charge ou si le composant n’a pas encore été créé par la logique de la visionneuse.
+`{Object}` une référence au composant SDK de visionneuse. La méthode renvoie `null` si `componentId` n&#39;est pas un composant de visionneuse pris en charge ou si le composant n&#39;a pas encore été créé par la logique de la visionneuse.
 
 ## Exemple {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
