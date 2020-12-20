@@ -1,6 +1,6 @@
 ---
-description: Attribut de configuration pour la visionneuse vidéo.
-seo-description: Attribut de configuration pour la visionneuse vidéo.
+description: Attribut de configuration pour la visionneuse de vidéos.
+seo-description: Attribut de configuration pour la visionneuse de vidéos.
 seo-title: VideoPlayer.loop
 solution: Experience Manager
 title: VideoPlayer.loop
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: 92081e9a-2b4a-4258-9843-32c214e7b9bd
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '34'
+ht-degree: 14%
 
 ---
 
 
 # VideoPlayer.loop{#videoplayer-loop}
 
-Attribut de configuration pour la visionneuse vidéo.
+Attribut de configuration pour la visionneuse de vidéos.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]loop=0|1`
 
@@ -22,7 +25,7 @@ Attribut de configuration pour la visionneuse vidéo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Indique si la lecture de la vidéo doit se reprendre une fois la lecture terminée. </p> </td> 
+   <td colname="col2"> <p> Indique si la lecture de la vidéo doit se répéter une fois la lecture terminée. </p> </td> 
   </tr> 
  </tbody> 
 </table>
