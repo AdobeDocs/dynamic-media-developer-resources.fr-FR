@@ -1,47 +1,50 @@
 ---
-description: Les  Favoris se composent d’une colonne d’images miniatures.
-seo-description: Les  Favoris se composent d’une colonne d’images miniatures.
-seo-title: ' Favoris'
+description: La vue Favoris se compose d’une colonne d’images miniatures.
+seo-description: La vue Favoris se compose d’une colonne d’images miniatures.
+seo-title: Vue Favoris
 solution: Experience Manager
-title: ' Favoris'
+title: Vue Favoris
 topic: Dynamic media
 uuid: e9d0380e-3b08-45e4-8419-447df2e8de37
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '293'
+ht-degree: 1%
 
 ---
 
 
-#  Favoris{#favorites-view}
+# Vue Favoris{#favorites-view}
 
-Les  Favoris se composent d’une colonne d’images miniatures.
+La vue Favoris se compose d’une colonne d’images miniatures.
 
 <!--<a id="section_B6EFCCADB5A5495DAE6BBE42F7F405CB"></a>-->
 
-L’aspect des  favoris  est contrôlé par le sélecteur de classe CSS suivant :
+L’aspect du conteneur de vue favoris est contrôlé par le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview
 ```
 
-La position et la hauteur du  Favoris sont gérées par le ; dans CSS, il est uniquement possible de définir la largeur.
+La position et la hauteur de la vue Favoris sont gérées par la vue ; dans CSS, il est uniquement possible de définir la largeur.
 
-**Propriétés CSS du Favoris**
+**Propriétés CSS de la vue Favoris**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
-   <td colname="col2"> <p> Couleur d’arrière-plan du  Favoris. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
+   <td colname="col2"> <p> Couleur d’arrière-plan de la vue Favoris. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Largeur du  du. </p> </td> 
+   <td colname="col2"> <p>Largeur de la vue. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : pour configurer un  Favoris de 100 pixels de large avec un arrière-plan gris semi-transparent.
+Exemple : pour configurer une vue Favoris de 100 pixels de large avec un arrière-plan gris semi-transparent.
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview { 
@@ -62,12 +65,12 @@ L’espacement entre les miniatures Favoris est contrôlé à l’aide du sélec
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> Taille de la marge verticale autour de chaque miniature. L’espacement réel des miniatures est égal à la somme de la marge supérieure et inférieure définie pour <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> Taille de la marge verticale autour de chaque miniature. L’espacement réel des miniatures est égal à la somme des marges supérieure et inférieure définies pour <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : pour définir un espacement de 10 pixels.
+Exemple : pour configurer l’espacement de 10 pixels.
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7thumbcell { 
@@ -75,7 +78,7 @@ Exemple : pour définir un espacement de 10 pixels.
 }
 ```
 
-L’aspect d’une miniature individuelle est contrôlé par le sélecteur de classe CSS suivant :
+L’aspect d’une miniature individuelle est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7thumb
@@ -86,7 +89,7 @@ L’aspect d’une miniature individuelle est contrôlé par le sélecteur de cl
 <table id="table_6F5B1438CAFA49E9B33400C6970ABDA1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Largeur de la miniature. </p> </td> 
   </tr> 
   <tr> 
@@ -95,14 +98,14 @@ L’aspect d’une miniature individuelle est contrôlé par le sélecteur de cl
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bordure </span> </p> </td> 
-   <td colname="col2"> <p>Bordure de la vignette. </p> </td> 
+   <td colname="col2"> <p>Bordure de la miniature. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->La miniature prend en charge le sélecteur d’ `state` attributs, qui peut être utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la miniature récemment sélectionnée par l’utilisateur. `state="default"` correspond au reste des miniatures. Et `state="over"` est utilisé lorsque vous passez la souris.
+>La miniature prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la miniature récemment sélectionnée par l’utilisateur. `state="default"` correspond au reste des miniatures. Et `state="over"` est utilisé lors du survol de la souris.
 
 Exemple : pour configurer des miniatures de 75 x 75 pixels, utilisez une bordure par défaut gris clair et une bordure sélectionnée gris foncé.
 
@@ -119,7 +122,7 @@ Exemple : pour configurer des miniatures de 75 x 75 pixels, utilisez une bordure
 }
 ```
 
-L’aspect du libellé de miniature est contrôlé par le sélecteur de classe CSS suivant :
+L’aspect du libellé de la miniature est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogsearchviewer .s7favoritesview .s7label
@@ -130,11 +133,11 @@ L’aspect du libellé de miniature est contrôlé par le sélecteur de classe C
 <table id="table_B41339A16ACB46CB87D3EB1FD05FA2CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
    <td colname="col2"> <p>Nom de la police. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
    <td colname="col2"> <p>Taille de police. </p> </td> 
   </tr> 
  </tbody> 
