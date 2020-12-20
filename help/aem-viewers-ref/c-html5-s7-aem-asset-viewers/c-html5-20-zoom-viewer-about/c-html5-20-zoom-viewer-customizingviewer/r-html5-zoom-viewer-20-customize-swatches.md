@@ -1,6 +1,6 @@
 ---
-description: Les échantillons sont constitués d’une rangée d’images miniatures avec des boutons de défilement facultatifs à gauche et à droite. Les boutons de défilement ne sont visibles sur le bureau que si toutes les miniatures ne peuvent pas tenir dans la largeur  du. Sur les périphériques mobiles, ou si les miniatures peuvent s’ajuster à la largeur du  du, les boutons de défilement ne s’affichent pas.
-seo-description: Les échantillons sont constitués d’une rangée d’images miniatures avec des boutons de défilement facultatifs à gauche et à droite. Les boutons de défilement ne sont visibles sur le bureau que si toutes les miniatures ne peuvent pas tenir dans la largeur  du. Sur les périphériques mobiles, ou si les miniatures peuvent s’ajuster à la largeur du  du, les boutons de défilement ne s’affichent pas.
+description: Les échantillons sont constitués d’une rangée d’images miniatures avec des boutons de défilement facultatifs à gauche et à droite. Les boutons de défilement ne sont visibles sur le bureau que si toutes les miniatures ne peuvent pas tenir dans la largeur du conteneur. Sur les périphériques mobiles ou si les miniatures peuvent s’ajuster à la largeur du conteneur, les boutons de défilement ne s’affichent pas.
+seo-description: Les échantillons sont constitués d’une rangée d’images miniatures avec des boutons de défilement facultatifs à gauche et à droite. Les boutons de défilement ne sont visibles sur le bureau que si toutes les miniatures ne peuvent pas tenir dans la largeur du conteneur. Sur les périphériques mobiles ou si les miniatures peuvent s’ajuster à la largeur du conteneur, les boutons de défilement ne s’affichent pas.
 seo-title: Echantillons
 solution: Experience Manager
 title: Echantillons
@@ -8,21 +8,24 @@ topic: Dynamic media
 uuid: d44e775d-5253-4990-98a4-84ff50db09b9
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '503'
+ht-degree: 3%
 
 ---
 
 
 # Echantillons{#swatches}
 
-Les échantillons sont constitués d’une rangée d’images miniatures avec des boutons de défilement facultatifs à gauche et à droite. Les boutons de défilement ne sont visibles sur le bureau que si toutes les miniatures ne peuvent pas tenir dans la largeur  du. Sur les périphériques mobiles, ou si les miniatures peuvent s’ajuster à la largeur du  du, les boutons de défilement ne s’affichent pas.
+Les échantillons sont constitués d’une rangée d’images miniatures avec des boutons de défilement facultatifs à gauche et à droite. Les boutons de défilement ne sont visibles sur le bureau que si toutes les miniatures ne peuvent pas tenir dans la largeur du conteneur. Sur les périphériques mobiles ou si les miniatures peuvent s’ajuster à la largeur du conteneur, les boutons de défilement ne s’affichent pas.
 
 `.s7zoomviewer .s7swatches`
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriétés CSS de la zone de visionneuse principale**
+**Propriétés CSS de la zone de visualisation principale**
 
-L’aspect du de nuances est contrôlé à l’aide du sélecteur de classe CSS suivant :
+L’aspect du conteneur des échantillons est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 ```
 .s7zoomviewer .s7zoomresetbutton
@@ -46,12 +49,12 @@ L’aspect du de nuances est contrôlé à l’aide du sélecteur de classe CSS 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bas </span> </p> </td> 
-   <td colname="col2"> <p>Décalage des échantillons verticaux par rapport au  du lecteur de contenu. </p> </td> 
+   <td colname="col2"> <p>Décalage des nuances verticales par rapport au conteneur de la visionneuse. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : pour configurer des nuances sur 460 x 100 pixels.
+Exemple : pour configurer des nuances à 460 x 100 pixels.
 
 ```
 .s7zoomviewer .s7swatches { 
@@ -81,7 +84,7 @@ L’espacement entre les miniatures d’échantillon est contrôlé à l’aide 
 
 **Exemple**
 
-Pour définir l’espacement sur 10 pixels tant verticalement qu’horizontalement.
+Pour définir l’espacement sur dix pixels, tant verticalement qu’horizontalement.
 
 ```
 .s7zoomviewer .s7swatches .s7thumbcell { 
@@ -102,23 +105,23 @@ L’aspect de la miniature individuelle est contrôlé par le sélecteur de clas
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Largeur de la miniature. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> hauteur  </span> </p> </td> 
    <td colname="col2"> <p>Hauteur de la miniature. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bordure </span> </p> </td> 
-   <td colname="col2"> <p>Bordure de la vignette. </p> </td> 
+   <td colname="col2"> <p>Bordure de la miniature. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->La miniature prend en charge le sélecteur d’ `state` attributs, qui peut être utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la miniature de l’image actuellement affichée dans le principal, `state="default"` correspond au reste des miniatures et `state="over"` est utilisée lorsque vous passez la souris dessus.
+>La miniature prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la miniature de l’image actuellement affichée dans la vue principale, `state="default"` correspond au reste des miniatures et `state="over"` est utilisé lorsque vous pointez la souris.
 
 Exemple : pour configurer des miniatures de 56 x 56 pixels, utilisez une bordure par défaut gris clair et une bordure sélectionnée gris foncé.
 
@@ -152,29 +155,29 @@ Il n’est pas possible de positionner les boutons de défilement à l’aide de
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
    <td colname="col2"> <p>Largeur du bouton de défilement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> hauteur  </span> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton de défilement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan  </span> </p> </td> 
    <td colname="col2"> <p>Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
-   <td colname="col2"> <p> Positionnez-vous à l’intérieur de l’image-objet d’illustration, si des images-objets CSS sont utilisées. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
+   <td colname="col2"> <p> Positionnez l’objet à l’intérieur de l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ce bouton prend en charge le sélecteur d’ `state` attributs, qui peut être utilisé pour appliquer différents habillages à différents états de bouton : `up`, `down`, `over`et `disabled`.
+>Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton : `up`, `down`, `over` et `disabled`.
 
-Les info-bulles des boutons peuvent être localisées. Voir [des éléments](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74)de l’interface utilisateur.
+Les info-bulles des boutons peuvent être localisées. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
 Exemple : pour configurer des boutons de défilement de 56 x 56 pixels et présentant des illustrations différentes pour chaque état.
 
