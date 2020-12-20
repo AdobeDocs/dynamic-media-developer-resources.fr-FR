@@ -25,14 +25,14 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Poignée de Société. |
+| ` *`companyHandle`*` | `xsd:string` | Poignée de société. |
 | ` *`jobHandle`*` | `xsd:string` | Poignée de tâche planifiée. |
 | ` *`name`*` | `xsd:string` | Nom de la tâche. |
 | ` *`originalName`*` | `xsd:string` | Nom original de la tâche planifiée. |
 | ` *`type`*` | `xsd:string` | Type de tâche. |
 | ` *`submitUserEmail`*` | `xsd:string` | Adresse électronique de l’utilisateur qui a planifié la tâche. |
-| ` *`locale`*` | `xsd:string` | Paramètres régionaux à utiliser pour les détails du journal des tâches et la localisation de courriel. Les paramètres régionaux sont spécifiés comme `<language_code>[- <country_code>]`suit : le code de langue est un code à deux lettres en minuscules, comme indiqué par ISO-639, et le code de pays facultatif est un code à deux lettres en majuscules, comme spécifié par ISO-3166. Par exemple, la chaîne de paramètres régionaux pour l’anglais (Etats-Unis) serait : `en-US`. |
-| ` *`description`*` | `xsd:string` | Description de la tâche telle qu’elle a été initialement spécifiée dans `submitJob`. |
+| ` *`locale`*` | `xsd:string` | Paramètres régionaux à utiliser pour les détails du journal des tâches et la localisation de courriel. Les paramètres régionaux sont spécifiés sous la forme `<language_code>[- <country_code>]`, où le code de langue est un code à deux lettres en minuscules, comme spécifié par ISO-639, et le code de pays facultatif est un code à deux lettres en majuscules, comme spécifié par ISO-3166. Par exemple, la chaîne de paramètres régionaux pour l’anglais (Etats-Unis) serait : `en-US`. |
+| ` *`description`*` | `xsd:string` | Description de la tâche telle que spécifiée à l&#39;origine dans `submitJob`. |
 | ` *`execSchedule`*` | `xsd:string` | Date à laquelle l’exécution de la tâche est planifiée. |
 | ` *`nextFireTime`*` | `xsd:dateTime` | Date, heure et fuseau horaire de déclenchement de la tâche. |
 | ` *`timeZone`*` | `xsd:dateTime` | Fuseau horaire de la tâche planifiée. |
@@ -46,7 +46,7 @@ Syntaxe
 | ` *`optimizeImagesJob`*` | `types:OptimizeImagesJob` |  |
 | ` *`ripPdfsJob`*` | `types:RipPdfsJob` |  |
 | ` *`reprocessAssetsJob`*` | `types:ReprocessAssetsJob` |  |
-| ` *`exportJob`*` | `types:ExportJob` | Autoriser l’exportation autorisée de fichiers précédemment téléchargés. Voir Tâche [d’exportation](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
+| ` *`exportJob`*` | `types:ExportJob` | Autoriser l’exportation autorisée de fichiers précédemment téléchargés. Voir [Tâche d’exportation](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
 
 ## Remarques {#section-34ec157f281f412f9f0f6e861e6ed0cd}
 
