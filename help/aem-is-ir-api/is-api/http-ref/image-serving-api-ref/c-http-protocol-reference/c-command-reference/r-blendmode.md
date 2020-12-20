@@ -1,6 +1,6 @@
 ---
-description: Mode de fusion. Indique le type de fusion utilisé lorsque le calque est composé. Simule les modes de fusion couramment utilisés disponibles dans Photoshop. Pour plus d’informations, reportez-vous à la documentation de Photoshop.
-seo-description: Mode de fusion. Indique le type de fusion utilisé lorsque le calque est composé. Simule les modes de fusion couramment utilisés disponibles dans Photoshop. Pour plus d’informations, reportez-vous à la documentation de Photoshop.
+description: Mode de fusion. Indique le type de fusion utilisé lorsque le calque est composé. Simule les modes de fusion couramment utilisés disponibles dans Photoshop. Consultez la documentation Photoshop pour plus de détails.
+seo-description: Mode de fusion. Indique le type de fusion utilisé lorsque le calque est composé. Simule les modes de fusion couramment utilisés disponibles dans Photoshop. Consultez la documentation Photoshop pour plus de détails.
 seo-title: blendMode
 solution: Experience Manager
 title: blendMode
@@ -8,19 +8,22 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 9ae30495-c10b-4c55-968e-effb602a0857
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 14%
 
 ---
 
 
 # blendMode{#blendmode}
 
-Mode de fusion. Indique le type de fusion utilisé lorsque le calque est composé. Simule les modes de fusion couramment utilisés disponibles dans Photoshop. Pour plus d’informations, reportez-vous à la documentation de Photoshop.
+Mode de fusion. Indique le type de fusion utilisé lorsque le calque est composé. Simule les modes de fusion couramment utilisés disponibles dans Photoshop. Consultez la documentation Photoshop pour plus de détails.
 
 `blendMode=norm|dissolve|lighten|darken|mult|screen`
 
 ## Propriétés {#section-418aad5a417f49929d1953e226e5c8dd}
 
-Attribut de calque. Ignoré par `layer=0` et `layer=comp`.
+Attribut de couche. Ignoré par `layer=0` et `layer=comp`.
 
 ## Par défaut {#section-69829acc6532448d8612a4a54e86f00e}
 
