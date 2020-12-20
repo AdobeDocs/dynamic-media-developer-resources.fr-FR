@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: e5e9649e-6a4a-4a62-bc01-2e74bd95ffc5
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '46'
+ht-degree: 15%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> Lorsqu’il est défini sur <span class="codeph"> 1</span> , le composant remplit le panneau déroulant avec des éléments pour toutes les pages, même pour celles pour lesquelles aucune étiquette n’est définie. </p> <p>Lorsqu’il est défini sur <span class="codeph"> 0</span> , seuls les éléments avec des libellés explicites s’affichent dans le panneau déroulant. </p> </td> 
+   <td> <p> Lorsqu’il est défini sur <span class="codeph"> 1</span>, le composant remplit le panneau déroulant avec des éléments pour toutes les pages, même pour celles pour lesquelles aucune étiquette n’est définie. </p> <p>Lorsqu’elle est définie sur <span class="codeph"> 0</span>, seuls les éléments avec des libellés explicites s’affichent dans le panneau déroulant. </p> </td> 
   </tr> 
  </tbody> 
 </table>
