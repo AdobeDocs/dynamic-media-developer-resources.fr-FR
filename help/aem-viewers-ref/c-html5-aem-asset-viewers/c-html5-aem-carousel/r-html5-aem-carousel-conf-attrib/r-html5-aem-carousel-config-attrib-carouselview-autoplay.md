@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 12730b17-110e-405b-97fe-e70fab89c703
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '73'
+ht-degree: 5%
 
 ---
 
@@ -21,8 +24,8 @@ Attribut de configuration pour la visionneuse de carrousel.
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">[0|1][,durée][,direction]</span> </p> </td> 
-   <td colname="col2"> <p> Spécifie l’activation/la désactivation, la durée d’affichage de chaque bannière dans le carrousel et la direction de la boucle automatique. </p> <p>Définissez cette valeur sur <span class="codeph"> 0</span> pour désactiver la boucle automatique. </p> <p>Définissez <span class="codeph"> 1</span> sur la boucle automatique avec la durée de  du en secondes contrôlée par la durée <span class="codeph"> de</span>la boucle. </p> <p>La direction de la boucle automatique est contrôlée avec la <span class="codeph"> direction</span>. La <span class="codeph"> direction</span> se situe entre <span class="codeph"> 1</span> droite à gauche et <span class="codeph"> 0</span> gauche à droite. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">[0|1][,duration][,direction]</span> </p> </td> 
+   <td colname="col2"> <p> Indique le paramètre on/off, la durée d’affichage de chaque bannière dans le carrousel et la direction de la boucle automatique. </p> <p>Définissez sur <span class="codeph"> 0</span> pour désactiver la boucle automatique. </p> <p>Définissez <span class="codeph"> 1</span> pour activer la boucle automatique avec la durée de transition en secondes contrôlée par <span class="codeph"> la durée</span>. </p> <p>La direction de la boucle automatique est contrôlée avec <span class="codeph"> direction</span>. La direction <span class="codeph"> </span> a la plage comprise entre <span class="codeph"> 1</span> de droite à gauche et <span class="codeph"> 0</span> de gauche à droite. </p> </td> 
   </tr> 
  </tbody> 
 </table>
