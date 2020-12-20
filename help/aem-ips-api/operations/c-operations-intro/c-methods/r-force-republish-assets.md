@@ -1,6 +1,6 @@
 ---
-description: Réinitialise l’état de publication d’un ou de plusieurs fichiers afin de forcer la publication du fichier dans la tâche de publication suivante.
-seo-description: Réinitialise l’état de publication d’un ou de plusieurs fichiers afin de forcer la publication du fichier dans la tâche de publication suivante.
+description: Réinitialise l’état de publication d’un ou de plusieurs fichiers afin de forcer leur republication dans la tâche de publication suivante.
+seo-description: Réinitialise l’état de publication d’un ou de plusieurs fichiers afin de forcer leur republication dans la tâche de publication suivante.
 seo-title: forceRepublishAssets
 solution: Experience Manager
 title: forceRepublishAssets
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: fd1f4ece-075c-40e3-868a-f27b9a4c3374
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 11%
 
 ---
 
 
 # forceRepublishAssets{#forcerepublishassets}
 
-Réinitialise l’état de publication d’un ou de plusieurs fichiers afin de forcer la publication du fichier dans la tâche de publication suivante.
+Réinitialise l’état de publication d’un ou de plusieurs fichiers afin de forcer leur republication dans la tâche de publication suivante.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-3d5a3e3afea748d69845de5c8c376448}
+## Types d’utilisateur autorisés {#section-3d5a3e3afea748d69845de5c8c376448}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -42,28 +45,28 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> sociétéHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Accédez au contenant les ressources à réinitialiser. </p> </td> 
+   <td colname="col4"> <p>Accédez à la société contenant les ressources à réinitialiser. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"> <span class="varname"> republishFiles</span></span> </td> 
+   <td colname="col1"><span class="codeph"> <span class="varname"> republishFiles</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Désigne que les fichiers de la ressource sont republiés sur les serveurs  de. La valeur par défaut est <span class="codeph"> true</span>. </p> </td> 
+   <td colname="col4"> <p>Indique que les fichiers de la ressource sont republiés sur les serveurs de diffusion. Par défaut, <span class="codeph"> true</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"> <span class="varname"> resyncCatalog</span></span> </td> 
+   <td colname="col1"><span class="codeph"> <span class="varname"> resyncCatalog</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Indique que les métadonnées de catalogue utilisées pour servir le fichier sont synchronisées pour garantir qu’il est à jour. Ce paramètre est utilisé pour résoudre les conditions de concurrence qui peuvent survenir lors de mises à jour presque simultanées du même enregistrement. Defaults to <span class="codeph"> false</span>. </p> </td> 
+   <td colname="col4"> <p>Indique que les métadonnées de catalogue utilisées pour fournir la ressource sont synchronisées pour garantir qu’elle est à jour. Ce paramètre est utilisé pour résoudre les conditions de concurrence qui peuvent survenir lors de mises à jour simultanées proches du même enregistrement. La valeur par défaut est <span class="codeph"> false</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span></span> </td> 
-   <td colname="col2"> <span class="codeph"> type:HandleArray</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> types:HandleArray</span> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Tableau de poignées pour les fichiers dont l’état de publication doit être réinitialisé. </p> </td> 
+   <td colname="col4"> <p>Tableau des poignées des ressources dont l’état de publication doit être réinitialisé. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -81,7 +84,7 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> publishStateUpdateArray</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> publishStateUpdateArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> type:PublishStateUpdateArray</span> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
    <td colname="col4"> <p>Tableau des mises à jour de l’état de publication. </p> </td> 
