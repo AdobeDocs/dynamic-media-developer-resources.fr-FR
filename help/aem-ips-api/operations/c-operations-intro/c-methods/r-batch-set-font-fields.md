@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 0209865e-32b3-4bea-a508-05771a0365e1
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '130'
+ht-degree: 14%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
 
 Définit les champs de métadonnées de police.
 
-## Types d’utilisateurs autorisés {#section-89eff13b5ed54cddb87b1304ba4eff0e}
+## Types d’utilisateur autorisés {#section-89eff13b5ed54cddb87b1304ba4eff0e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -26,11 +29,11 @@ Définit les champs de métadonnées de police.
 
 ## Paramètres {#section-836f5948d00a46e98ccb62f0573e4e68}
 
-**Input (batchSetFontFieldsParam)**
+**Entrée (batchSetFontFieldsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Accédez au  qui contient les polices. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Accédez à la société contenant les polices. |
 | ` *`updateArray`*` | `types:FontFieldUpdateArray` | Oui | Tableau des mises à jour des champs de police. |
 
 **Output (batchSetFontFieldsParam)**
@@ -41,7 +44,7 @@ Définit les champs de métadonnées de police.
 | ` *`warningCount`*` | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de définir des champs de police. |
 | ` *`errorCount`*` | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de définir des champs de police. |
 | ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des avertissements lorsque l’opération tentait d’appliquer les mises à jour. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des erreurs lorsque l’opération tentait d’appliquer les mises à jour. |
+| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des erreurs lorsque l’opération a tenté d’appliquer les mises à jour. |
 
 ## Exemples {#section-0449c2e4ec534f4b8ee849ec4fe12c4e}
 
