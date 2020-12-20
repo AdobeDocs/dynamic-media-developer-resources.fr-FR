@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: abd9624d-b24d-491c-afe2-1aafbdf90ae1
 translation-type: tm+mt
 source-git-commit: 16838d04b005224fad6df215ab5bf8c25ef86fc7
+workflow-type: tm+mt
+source-wordcount: '48'
+ht-degree: 10%
 
 ---
 
@@ -22,7 +25,7 @@ Attribut de configuration pour la visionneuse de vidéos interactive.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Active/désactive la barre de titre du libellé de chapitre. L’heure de  du chapitre ne s’affiche pas lorsque la barre de titre est désactivée. </p> </td> 
+   <td colname="col2"> <p> Active/désactive la barre de titre du libellé de chapitre. L’heure de début du chapitre n’est pas affichée lorsque la barre de titre est désactivée. </p> </td> 
   </tr> 
  </tbody> 
 </table>
