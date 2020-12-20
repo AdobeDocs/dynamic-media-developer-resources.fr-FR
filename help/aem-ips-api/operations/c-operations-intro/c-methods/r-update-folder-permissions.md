@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 940d7b63-80cf-4097-9cf9-8499b69181b7
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '76'
+ht-degree: 18%
 
 ---
 
@@ -18,7 +21,7 @@ Mettez à jour les autorisations du dossier.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-e5c2217231bf4b3386e0ab3f2e9aca0b}
+## Types d’utilisateur autorisés {#section-e5c2217231bf4b3386e0ab3f2e9aca0b}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,10 +33,10 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui |  poignée. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
 | ` *`folderHandle`*` | `xsd:string` | Oui | Poignée de dossier. |
 | ` *`updateChildren`*` | `xsd:boolean` | Oui | Détermine s’il faut mettre à jour les enfants avec des autorisations définies pour le dossier de niveau supérieur. |
-| ` *`updateArray`*` | `types:PermissionUpdateArray` | Oui | Le tableau des mises à jour des autorisations que vous souhaitez appliquer au dossier. |
+| ` *`updateArray`*` | `types:PermissionUpdateArray` | Oui | Tableau des mises à jour des autorisations que vous souhaitez appliquer au dossier. |
 
 **Output (updateFolderPermissionsReturn)**
 
