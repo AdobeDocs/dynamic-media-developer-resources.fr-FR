@@ -1,6 +1,6 @@
 ---
-description: Utilisée par ScheduledJob/triggerState.
-seo-description: Utilisée par ScheduledJob/triggerState.
+description: Utilisé par ScheduledJob/triggerState.
+seo-description: Utilisé par ScheduledJob/triggerState.
 seo-title: États de déclenchement de tâche
 solution: Experience Manager
 title: États de déclenchement de tâche
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 2217374c-db38-4453-8b93-f10553ce52c7
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '23'
+ht-degree: 8%
 
 ---
 
 
-# États de déclenchement de tâche{#job-trigger-states}
+# États de déclenchement de la tâche{#job-trigger-states}
 
-Utilisée par ScheduledJob/triggerState.
+Utilisé par ScheduledJob/triggerState.
 
 Syntaxe
 
