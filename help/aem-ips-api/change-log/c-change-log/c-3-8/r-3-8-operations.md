@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: e836c5af-53b8-4bfa-a93a-98750cca9745
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 1%
 
 ---
 
@@ -32,9 +35,9 @@ Syntaxe
 
 **searchAssets**
 
-* Le `publishState` paramètre facultatif vous permet de rechercher l’état `MarkedForPublish/NotMarkedForPublish` du fichier.
+* Le paramètre facultatif `publishState` vous permet de rechercher l&#39;état de la ressource `MarkedForPublish/NotMarkedForPublish`.
 
 **getJobLogs**
 
-* Le `userHandle` paramètre facultatif vous permet de récupérer les journaux de tâches envoyés par un utilisateur spécifique.
+* Le paramètre facultatif `userHandle` vous permet de récupérer les journaux de tâches envoyés par un utilisateur spécifique.
 
