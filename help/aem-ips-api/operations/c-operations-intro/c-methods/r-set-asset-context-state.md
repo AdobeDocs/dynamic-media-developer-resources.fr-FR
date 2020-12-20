@@ -1,6 +1,6 @@
 ---
-description: Définissez ou mettez à jour l’état de publication d’un ou de plusieurs fichiers. Vous pouvez définir des états de publication distincts pour chaque contexte de publication dans un  de.
-seo-description: Définissez ou mettez à jour l’état de publication d’un ou de plusieurs fichiers. Vous pouvez définir des états de publication distincts pour chaque contexte de publication dans un  de.
+description: Définissez ou mettez à jour l’état de publication pour un ou plusieurs fichiers. Vous pouvez définir des états de publication distincts pour chaque contexte de publication dans une société.
+seo-description: Définissez ou mettez à jour l’état de publication pour un ou plusieurs fichiers. Vous pouvez définir des états de publication distincts pour chaque contexte de publication dans une société.
 seo-title: setAssetsContextState
 solution: Experience Manager
 title: setAssetsContextState
@@ -8,15 +8,18 @@ topic: Scene7 Image Production System API
 uuid: 4b94f9ea-3f7b-45ee-9381-6434f2bc4e31
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 9%
 
 ---
 
 
 # setAssetsContextState{#setassetscontextstate}
 
-Définissez ou mettez à jour l’état de publication d’un ou de plusieurs fichiers. Vous pouvez définir des états de publication distincts pour chaque contexte de publication dans un  de.
+Définissez ou mettez à jour l’état de publication pour un ou plusieurs fichiers. Vous pouvez définir des états de publication distincts pour chaque contexte de publication dans une société.
 
-## Types d’utilisateurs autorisés {#section-815eb031f85143278c1560c18c5e3431}
+## Types d’utilisateur autorisés {#section-815eb031f85143278c1560c18c5e3431}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -38,21 +41,21 @@ Définissez ou mettez à jour l’état de publication d’un ou de plusieurs fi
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Pose le . |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Pose la société. |
 | ` *`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | Oui | Tableau de ressources et de leurs nouveaux états de publication. |
 
-**Output (setAssetsContextStateReturn)**
+**Sortie (setAssetsContextStateReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Oui | Le nombre de fichiers a bien changé. |
+| ` *`successCount`*` | `xsd:int` | Oui | Le nombre de ressources a bien changé. |
 | ` *`warningCount`*` | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de modifier des ressources. |
-| ` *`errorCount`*` | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de modifier des fichiers. |
+| ` *`errorCount`*` | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de modifier des ressources. |
 | ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des erreurs générées par les ressources lorsque l’opération tentait de les modifier. |
 
 ## Exemples {#section-283a073f3cb14bcda5abed863c538aa4}
 
-Cet exemple de code définit l’état de publication d’un fichier à l’aide de `NotMarkedForPublish`.
+Cet exemple de code définit l&#39;état de publication d&#39;un fichier à l&#39;aide de `NotMarkedForPublish`.
 
 **Request**
 
