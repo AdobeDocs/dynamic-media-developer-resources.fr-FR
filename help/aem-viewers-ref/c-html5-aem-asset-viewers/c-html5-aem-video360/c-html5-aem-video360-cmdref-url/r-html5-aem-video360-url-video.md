@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 059ff97f-dc03-4894-b708-17d0a799c2a2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '40'
+ht-degree: 17%
 
 ---
 
@@ -21,7 +24,7 @@ Commande d’URL pour le lecteur vidéo360.
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoURL</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoURL</span> </span> </p> </td> 
    <td colname="col2"> <p> URL absolue vers une vidéo externe. </p> </td> 
   </tr> 
  </tbody> 
@@ -29,7 +32,7 @@ Commande d’URL pour le lecteur vidéo360.
 
 ## Propriétés {#section-f42369774e2740dcb399626a0e4e930e}
 
-Obligatoire. (sauf si `asset` le paramètre est utilisé. Voir Prise en charge [des vidéos](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760)externes.)
+Obligatoire. (Sauf si le paramètre `asset` est utilisé. Voir [Prise en charge des vidéos externes](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760).
 
 ## Par défaut {#section-d016470e92a74f98a18c4ab3489410a5}
 
