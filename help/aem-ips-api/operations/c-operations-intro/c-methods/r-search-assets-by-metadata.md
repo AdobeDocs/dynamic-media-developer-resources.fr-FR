@@ -1,6 +1,6 @@
 ---
-description: Recherche dans le référentiel d’index de métadonnées les termes de recherche donnés. Renvoie des données de ressource comme la méthode searchAssets.
-seo-description: Recherche dans le référentiel d’index de métadonnées les termes de recherche donnés. Renvoie des données de ressource comme la méthode searchAssets.
+description: Recherche dans le référentiel d’index de métadonnées les termes de recherche donnés. Renvoie des données d’actif comme la méthode searchAssets.
+seo-description: Recherche dans le référentiel d’index de métadonnées les termes de recherche donnés. Renvoie des données d’actif comme la méthode searchAssets.
 seo-title: searchAssetsByMetadata
 solution: Experience Manager
 title: searchAssetsByMetadata
@@ -8,15 +8,18 @@ topic: Scene7 Image Production System API
 uuid: f4119ee9-f6d8-49fb-9d8c-bb200951d983
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '346'
+ht-degree: 10%
 
 ---
 
 
 # searchAssetsByMetadata{#searchassetsbymetadata}
 
-Recherche dans le référentiel d’index de métadonnées les termes de recherche donnés. Renvoie des données de ressource comme la méthode searchAssets.
+Recherche dans le référentiel d’index de métadonnées les termes de recherche donnés. Renvoie des données d’actif comme la méthode searchAssets.
 
-Bien `searchAssetsByMetadata` que vous puissiez effectuer une recherche par rapport aux champs de métadonnées définis par l’utilisateur, ces champs ne sont pas renvoyés s’ils sont spécifiés dans la `responseMetadataArray`section. Pour illustrer ce point, utilisez l’exemple de code suivant :
+Bien que `searchAssetsByMetadata` vous permette de rechercher par rapport aux champs de métadonnées définis par l&#39;utilisateur, ces champs ne sont pas renvoyés s&#39;ils sont spécifiés dans le `responseMetadataArray`. Pour illustrer ce point, voici l&#39;exemple de code :
 
 ```java
 <ns:responseMetadataArray>
@@ -33,7 +36,7 @@ renvoie une valeur nulle :
 </items>
 ```
 
-Pour résoudre ce problème, vous pouvez utiliser les ressources `fieldHandles` renvoyées par la recherche pour l’exécuter `getAssets` (voir aussi [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Cette méthode obtient les valeurs Champs définis par l’utilisateur pour les actifs en question. Utilisez l’exemple de syntaxe suivant pour rechercher par rapport aux champs de métadonnées définis par l’utilisateur :
+Pour résoudre ce problème, vous pouvez utiliser `fieldHandles` des ressources renvoyées par la recherche pour exécuter `getAssets` (voir aussi [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Cette méthode obtient les valeurs Champs définis par l’utilisateur pour les actifs en question. Utilisez l’exemple de syntaxe suivant pour effectuer des recherches par rapport aux champs de métadonnées définis par l’utilisateur :
 
 ```java
 <ns:metadataConditionArray>
@@ -45,7 +48,7 @@ Pour résoudre ce problème, vous pouvez utiliser les ressources `fieldHandles` 
 </ns:metadataConditionArray>
 ```
 
-## Types d’utilisateurs autorisés {#section-9f85dd55ab574104b5fdc0f95aa0a0e2}
+## Types d’utilisateur autorisés {#section-9f85dd55ab574104b5fdc0f95aa0a0e2}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -70,52 +73,52 @@ Pour résoudre ce problème, vous pouvez utiliser les ressources `fieldHandles` 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> sociétéHandle</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>La poignée du. </p> </td> 
+   <td colname="col4"> <p>La poignée de la société. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> Filtre</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> Filtre</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> type:SearchFilter</span> </p> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p> qui vous aident à définir des critères de recherche. </p> <p>Voir <a href="../../../types/c-data-types/r-search-filter.md#reference-0e2eb87bccae4b69be6717267bcb80aa" format="dita" scope="local"> SearchFilter</a>. </p> </td> 
+   <td colname="col4"> <p>Filtres qui vous aident à définir des critères de recherche. </p> <p>Voir <a href="../../../types/c-data-types/r-search-filter.md#reference-0e2eb87bccae4b69be6717267bcb80aa" format="dita" scope="local"> SearchFilter</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> metadataConditionArray</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> type:MetadataConditionArray</span> </p> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Conditions définissant des critères de recherche. Voir ci-dessous pour plus d’informations. </p> </td> 
+   <td colname="col4"> <p>Conditions définissant les critères de recherche. Voir ci-dessous pour plus d’informations. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> responseMetadataArray</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> responseMetadataArray</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> type:StringArray</span> </p> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Champs supplémentaires que vous souhaitez avoir renseignés sur la réponse dans le résumé des ressources. Les champs doivent être spécifiés au format normalisé. </p> </td> 
+   <td colname="col4"> <p>Champs supplémentaires que vous souhaitez renseigner sur la réponse dans le résumé de la ressource. Les champs doivent être spécifiés au format normalisé. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> recordsPerPage</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Non </p> </td> 
    <td colname="col4"> <p>Nombre de fichiers renvoyés par la réponse. La valeur par défaut est 1000. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> resultsPage</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Indique la page de résultats à renvoyer, en fonction du format de page <span class="codeph"> recordsPerPage</span> . </p> </td> 
+   <td colname="col4"> <p>Indique la page des résultats à renvoyer, en fonction du format de page <span class="codeph"> recordsPerPage</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> sortBy</span></span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> sortBy</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Non </p> </td> 
    <td colname="col4"> <p>Trier par champ de ressource sélectionné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> sortDirection</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> sortDirection</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Choix de la direction du tri.  est la valeur par défaut. </p> </td> 
+   <td colname="col4"> <p>Choix de direction de tri. Ascendant est défini par défaut. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -131,7 +134,7 @@ Pour résoudre ce problème, vous pouvez utiliser les ressources `fieldHandles` 
 
 **Structure de l&#39;article**
 
-`metadataConditionArray` La structure est la suivante :
+`metadataConditionArray` la structure est la suivante :
 
 ```java
 <ns1:items>
@@ -156,13 +159,13 @@ Pour résoudre ce problème, vous pouvez utiliser les ressources `fieldHandles` 
 * `sku`
 * `modified_at`
 * `modified_by`
-* `created_at` (identique à `modified_at` (Date dans le formulaire) : Fri Jul 25 2014 22:13:45 GMT-0500 (CDT))
+* `created_at` (identique à  `modified_at` (Date dans le formulaire) : Depuis le 25 juillet 2014 22:13:45 GMT-0500 (CDT))
 
 * `created_by`
 
 **Opérateurs autorisés**
 
-Le [!DNL operator] définit comment comparer la valeur et inclure :
+[!DNL operator] définit comment comparer la valeur et inclure :
 
 * `Equals`
 * `NotEquals`
@@ -171,15 +174,15 @@ Le [!DNL operator] définit comment comparer la valeur et inclure :
 * `StartsWith`
 * `EndsWith`
 
-Le `comparison_value` terme à rechercher.
+`comparison_value` est le terme à rechercher.
 
 ## Exemples {#section-53a12b9c023e4e629eddf5719c955ad4}
 
 Cet exemple de code effectue une recherche avec les critères de métadonnées suivants :
 
-* `name` contient `1000801`.
+* `name` contient  `1000801`.
 
-* `dc.rights` est égal à `Per Jessen Schmidt`.
+* `dc.rights` est égal à  `Per Jessen Schmidt`.
 
 **Request**
 
