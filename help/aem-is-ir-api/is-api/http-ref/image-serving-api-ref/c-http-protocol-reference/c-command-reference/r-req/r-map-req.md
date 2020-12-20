@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 57cb0fcf-5a07-4109-bfd4-ef9aaf794b27
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '212'
+ht-degree: 8%
 
 ---
 
@@ -21,30 +24,30 @@ Données de zone cliquable.
 <table id="simpletable_10F2152FDF33411491FBBAFD173CA5ED"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> encodage</span></span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph"> UTF-8| UTF-16| UTF-16LE| UTF-16BE| ISO-8859-1</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> UTF-8 | UTF-16 | UTF-16LE | UTF-16BE | ISO-8859-1</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> reqId</span></span> </p></td> 
-  <td class="stentry"> <p>Identifiant de requête unique. </p></td> 
+  <td class="stentry"> <p>Identificateur de requête unique. </p></td> 
  </tr> 
 </table>
 
-Renvoie `catalog::Map` sans modification lors de l’interrogation d’une entrée de catalogue simple sans commandes supplémentaires spécifiées (ne sera pas mis à l’échelle `catalog::maxPix`).
+Renvoie `catalog::Map` sans modification lors de l&#39;interrogation d&#39;une entrée de catalogue simple sans commandes supplémentaires spécifiées (ne sera pas mis à l&#39;échelle sur `catalog::maxPix`).
 
-Si d’autres commandes sont spécifiées dans la requête, une zone cliquable composite est renvoyée, dérivée par la mise à l’échelle, le recadrage, la rotation et la superposition de toutes les commandes `catalog::Map` et/ou `map=` des commandes incluses dans la requête, comme le feraient les données d’image `req=img`.
+Si d’autres commandes sont spécifiées dans la requête, une zone cliquable composite est renvoyée, dérivée par mise à l’échelle, recadrage, rotation et superposition de toutes les commandes `catalog::Map` et/ou `map=` incluses dans la requête, tout comme les données d’image seraient associées à `req=img`.
 
-Spécifiez `text` ou omettez le second paramètre pour renvoyer les données de zone cliquable sous la forme d’une chaîne `HTML <AREA>` d’élément avec le type MIME de réponse `text/plain`.
+Spécifiez `text` ou omettez le second paramètre pour renvoyer les données de zone cliquable sous la forme d’une chaîne d’élément `HTML <AREA>` avec le type MIME de réponse `text/plain`.
 
-Spécifiez `xml` le format de la réponse XML au lieu de HTML. Le codage de texte peut être spécifié facultativement. The default is `UTF-8`.
+Spécifiez `xml` pour formater la réponse au format XML au lieu de HTML. Le codage de texte peut être spécifié facultativement. The default is `UTF-8`.
 
-Renvoie une chaîne vide (ou un `<AREA>` élément vide) si aucune donnée de mappage n’a été trouvée pour les objets de catalogue spécifiés et/ou si aucun `<AREA>` élément ne reste après le recadrage des images.
+Renvoie une chaîne vide (ou un élément `<AREA>` vide) si aucune donnée de mappage n’a été trouvée pour les objets de catalogue spécifiés et/ou si aucun élément `<AREA>` ne reste après le recadrage des images.
 
 La réponse HTTP peut être placée en mémoire cache via le TTL basé sur `catalog::Expiration`.
 
-Les requêtes qui prennent en charge le format de réponse JSONP vous permettent de spécifier le nom du gestionnaire de rappel JS à l’aide de la syntaxe étendue du `req=` paramètre :
+Les requêtes qui prennent en charge le format de réponse JSONP vous permettent de spécifier le nom du gestionnaire de rappel JS en utilisant la syntaxe étendue du paramètre `req=` :
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` est le nom du gestionnaire JS présent dans la réponse JSONP. Seuls les caractères a-z, A-Z et 0-9 sont autorisés. Facultatif. Default is `s7jsonResponse`.
+`<reqHandler>` est le nom du gestionnaire JS présent dans la réponse JSONP. Seuls les caractères a-z, A-Z et 0-9 sont autorisés. Facultatif. La valeur par défaut est `s7jsonResponse`.
 
-See [Image Maps](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab).
+Voir [Zones cliquables](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab).
