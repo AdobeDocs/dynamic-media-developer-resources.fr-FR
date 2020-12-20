@@ -1,6 +1,6 @@
 ---
-description: Renvoie des informations sur le  de spécifié, y compris le pseudo  du, le nom de l’, le chemin d’accès racine et la date d’expiration. Vous devez spécifier companyHandle ou companyName dont vous souhaitez récupérer les informations.
-seo-description: Renvoie des informations sur le  de spécifié, y compris le pseudo  du, le nom de l’, le chemin d’accès racine et la date d’expiration. Vous devez spécifier companyHandle ou companyName dont vous souhaitez récupérer les informations.
+description: Renvoie des informations sur la société spécifiée, y compris le nom d’utilisateur de la société, le nom de la société, le chemin d’accès racine et la date d’expiration. Vous devez spécifier companyHandle ou companyName dont vous souhaitez récupérer les informations.
+seo-description: Renvoie des informations sur la société spécifiée, y compris le nom d’utilisateur de la société, le nom de la société, le chemin d’accès racine et la date d’expiration. Vous devez spécifier companyHandle ou companyName dont vous souhaitez récupérer les informations.
 seo-title: getCompanyInfo
 solution: Experience Manager
 title: getCompanyInfo
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 9218cba8-2873-46b7-90e3-7ab9d5018690
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '202'
+ht-degree: 8%
 
 ---
 
 
 # getCompanyInfo{#getcompanyinfo}
 
-Renvoie des informations sur le  de spécifié, y compris le pseudo  du, le nom de l’, le chemin d’accès racine et la date d’expiration. Vous devez spécifier companyHandle ou companyName dont vous souhaitez récupérer les informations.
+Renvoie des informations sur la société spécifiée, y compris le nom d’utilisateur de la société, le nom de la société, le chemin d’accès racine et la date d’expiration. Vous devez spécifier companyHandle ou companyName dont vous souhaitez récupérer les informations.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-74f20fb8602e4f96810795bc4b6f7fdf}
+## Types d’utilisateur autorisés {#section-74f20fb8602e4f96810795bc4b6f7fdf}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -44,16 +47,16 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> sociétéHandle</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>L’ <span class="codeph">  <span class="varname"> companyHandle</span> ou </span> companyName <span class="codeph"> <span class="varname"></span> est obligatoire.</span> </p> </td> 
-   <td colname="col4"> <p>Identifiant du dont vous voulez obtenir les informations. </p> </td> 
+   <td colname="col3"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> ou <span class="codeph"> <span class="varname"> companyName</span> </span> est requis. </p> </td> 
+   <td colname="col4"> <p>Poignée de la société dont vous voulez obtenir les informations. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>L’ <span class="codeph">  <span class="varname"> companyHandle</span> ou </span> companyName <span class="codeph"> <span class="varname"></span> est obligatoire.</span> </p> </td> 
-   <td colname="col4"> <p>Nom du dont vous souhaitez obtenir les informations. </p> </td> 
+   <td colname="col3"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> ou <span class="codeph"> <span class="varname"> companyName</span> </span> est requis. </p> </td> 
+   <td colname="col4"> <p>Nom de la société dont vous souhaitez obtenir les informations. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,17 +74,17 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span></span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> type:</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> type:Société</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Gestion et autres informations descriptives sur le  du. </p> </td> 
+   <td colname="col4"> <p>Traitement et autres informations descriptives sur la société. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Exemples {#section-3d5342aa7cb34b1fa84d7dea6e16e4aa}
 
-Cet exemple de code renvoie toutes les informations relatives à un à l’aide d’un nom et d’un pseudo de  de. Elle renvoie des données similaires à la réponse reçue lors de la création d’un  de.
+Cet exemple de code renvoie toutes les informations relatives à une société à l’aide d’un nom de société et d’un nom d’utilisateur. Elle renvoie des données similaires à la réponse reçue lors de la création d’une société.
 
 **Request**
 
