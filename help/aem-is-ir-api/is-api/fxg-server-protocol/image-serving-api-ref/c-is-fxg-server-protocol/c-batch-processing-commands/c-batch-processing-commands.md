@@ -8,6 +8,9 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: e82c8106-8ea5-42c6-8ca9-ee9b8d9deb57
 translation-type: tm+mt
 source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
+workflow-type: tm+mt
+source-wordcount: '80'
+ht-degree: 0%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
 
 Les commandes suivantes comprennent l’API de traitement par lot exposée par PlatformServer.
 
-Elles sont spécifiées dans le format de demande spéciale, comme suit : `?req=<command>`
+Elles sont spécifiées dans le format de demande spéciale, sous la forme suivante : `?req=<command>`
 
-Les exemples illustrés pour ces commandes utilisent une `PlatformServer` URL fictive &quot; [!DNL scene7.adobe.com:8080]&quot; et un fictif nommé AcmeCorp. L’ID de tâche est également fictif.
+Les exemples illustrés pour ces commandes utilisent une URL fictive `PlatformServer` &quot; [!DNL scene7.adobe.com:8080]&quot; et une société fictive nommée AcmeCorp. L’ID de tâche est également fictif.
 
 * [batchjobservistatus](r-batchjobbriefstatus.md)
 * [batchjobdelete](r-batchjobdelete.md)
