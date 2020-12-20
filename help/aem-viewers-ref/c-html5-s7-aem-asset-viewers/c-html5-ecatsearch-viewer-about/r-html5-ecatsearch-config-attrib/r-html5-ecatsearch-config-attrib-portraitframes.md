@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: b915df14-62cf-4ff2-8336-dac4b3dd605f
 translation-type: tm+mt
 source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+workflow-type: tm+mt
+source-wordcount: '48'
+ht-degree: 12%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> split|solid</span> </p> </td> 
-   <td colname="col2"> <p>Définissez cette option sur <span class="codeph"> fractionner</span> pour permettre au lecteur d’afficher les planches de  page en tant que page distincte lorsqu’elles sont utilisées sur un périphérique mobile en orientation portrait. Définissez cette variable sur <span class="codeph"> solid</span> pour toujours afficher les planches de  page sous forme d’image pleine, quelle que soit l’orientation du périphérique. </p> </td> 
+   <td colname="col2"> <p>Définissez ce paramètre sur <span class="codeph"> split</span> pour permettre au lecteur d’afficher les planches de doublon-page en tant que page distincte lorsqu’elles sont utilisées sur un périphérique mobile en orientation portrait. Définissez cette variable sur <span class="codeph"> solid</span> pour toujours afficher les planches de doublon-page sous forme d’image solide, quelle que soit l’orientation du périphérique. </p> </td> 
   </tr> 
  </tbody> 
 </table>
