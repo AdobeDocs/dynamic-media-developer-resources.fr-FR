@@ -8,15 +8,18 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 759697c9-0391-4b93-baac-6d153aed04f8
 translation-type: tm+mt
 source-git-commit: 5717550d2dea8ec086875e770ff8f200aaa75ff3
+workflow-type: tm+mt
+source-wordcount: '40'
+ht-degree: 0%
 
 ---
 
 
-# Managing content{#managing-content}
+# Gestion du contenu {#managing-content}
 
 Ces rubriques contiennent des informations sur la gestion du contenu.
 
 * [Catalogues d’images](c-image-catalogs.md)
 * [Données source](r-source-data.md)
-* [Données de source de contenu statique](c-static-content-source-data.md)
+* [Données de la source de contenu statique](c-static-content-source-data.md)
 * [Suppression ou remplacement de fichiers de données](c-deleting-or-replacing-data-files.md)
