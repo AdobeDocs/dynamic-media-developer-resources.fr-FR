@@ -1,26 +1,29 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: TableOfContents.ward
+seo-title: TableOfContents.bearing
 solution: Experience Manager
-title: TableOfContents.ward
+title: TableOfContents.bearing
 topic: Dynamic media
 uuid: 791aaaa5-3777-4f68-a445-caa3d975d883
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '159'
+ht-degree: 3%
 
 ---
 
 
-# TableOfContents.ward{#tableofcontents-bearing}
+# TableOfContents.bearing{#tableofcontents-bearing}
 
 ` [TableOfContents.|<containerId>_tableOfContents.]bearing=[fit-lateral|fit-vertical][, *`autoHideDelay`*]`
 
 <table id="table_5151E6EA076C4AAD8D952A09E1F17C44"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> glissière|verticale</span> </p> </td> 
-   <td> <p> Contrôle le sens de l’aspect du panneau déroulant. </p> <p>Lorsqu’il est <span class="codeph"> ajusté à la verticale</span>, le composant déplace d’abord la position du panneau de base vers le bas de son bouton et tente de déployer le panneau vers la droite ou vers la gauche depuis l’emplacement de base. A chaque tentative, le composant vérifie si le panneau est coupé par un  externe. Si toutes les tentatives échouent, le composant tente de déplacer la position du panneau de base vers le haut et de répéter les tentatives de déploiement dans les directions droite et gauche. </p> <p>Lorsqu’il est <span class="codeph"> ajusté latéralement</span>, le composant utilise une logique similaire, mais déplace d’abord la base vers la droite, en essayant de descendre et de remonter les directions. Ensuite, il déplace la base vers la gauche, en essayant de descendre et de remonter les directions. </p> </td> 
+   <td> <p> <span class="codeph"> ajusté latéral|ajusté-vertical</span> </p> </td> 
+   <td> <p> Contrôle l’orientation de l’aspect du panneau déroulant. </p> <p>Lorsqu'il est défini sur <span class="codeph"> ajustement vertical</span>, le composant déplace d'abord la position du panneau de base vers le bas de son bouton et tente de déployer le panneau soit vers la droite soit vers la gauche depuis l'emplacement de base. A chaque tentative, le composant vérifie si le panneau est coupé par un conteneur extérieur. Si toutes les tentatives échouent, le composant tente de déplacer la position du panneau de base vers le haut et de répéter les tentatives de déploiement dans les directions droite et gauche. </p> <p>Lorsqu'il est défini sur <span class="codeph"> raccord-latéral</span>, le composant utilise une logique similaire, mais déplace d'abord la base vers la droite, en essayant d'effectuer des déploiements vers le bas et vers le haut. Ensuite, il déplace la base vers la gauche, en essayant de déployer des directions vers le bas et vers le haut. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> autoHideDelay</span></span> </p> </td> 
