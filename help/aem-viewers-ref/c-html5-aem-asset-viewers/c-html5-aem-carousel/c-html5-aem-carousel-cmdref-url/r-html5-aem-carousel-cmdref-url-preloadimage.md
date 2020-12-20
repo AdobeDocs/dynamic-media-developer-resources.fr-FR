@@ -1,6 +1,6 @@
 ---
-description: Commande d’URL pour la visionneuse de carrousel.
-seo-description: Commande d’URL pour la visionneuse de carrousel.
+description: Commande URL de la visionneuse de carrousel.
+seo-description: Commande URL de la visionneuse de carrousel.
 seo-title: preloadimage**
 solution: Experience Manager
 title: preloadimage**
@@ -8,13 +8,16 @@ topic: Dynamic media
 uuid: e0910559-d6f1-41d4-b1ed-76114c16d929
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '33'
+ht-degree: 15%
 
 ---
 
 
-# preloadimage**{#preloadimage}
+# preloadimage***{#preloadimage}
 
-Commande d’URL pour la visionneuse de carrousel.
+Commande URL de la visionneuse de carrousel.
 
 `preloadImage=0|1`
 
@@ -22,7 +25,7 @@ Commande d’URL pour la visionneuse de carrousel.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Activez (<span class="codeph"> 1</span>) ou désactivez (<span class="codeph"> 0</span>) la fonction de préchargement d’image. </p> <p>Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md" format="dita" scope="local"> Préchargement de l’image</a>. </p> </td> 
+   <td colname="col2"> <p> Activez (<span class="codeph"> 1</span>) ou désactivez (<span class="codeph"> 0</span>) la fonction de préchargement d’image. </p> <p>Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md" format="dita" scope="local"> Précharger l’image</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
