@@ -1,6 +1,6 @@
 ---
-description: Le  principal est la zone occupée par les et les nuanciers.
-seo-description: Le  principal est la zone occupée par les et les nuanciers.
+description: La zone principale de la vue est la zone occupée par la vue et les nuances du volant.
+seo-description: La zone principale de la vue est la zone occupée par la vue et les nuances du volant.
 seo-title: Zone du lecteur principal
 solution: Experience Manager
 title: Zone du lecteur principal
@@ -8,17 +8,20 @@ topic: Dynamic media
 uuid: 828ee8e5-8e5f-47cf-a566-2e997a5e3926
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 2%
 
 ---
 
 
 # Zone du lecteur principal{#main-viewer-area}
 
-Le  principal est la zone occupée par les et les nuanciers.
+La zone principale de la vue est la zone occupée par la vue et les nuances du volant.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriétés CSS de la zone de visionneuse principale**
+**Propriétés CSS de la zone de visualisation principale**
 
 L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe CSS suivant :
 
@@ -40,16 +43,16 @@ L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe C
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Hauteur du lecteur. </p> </td> 
+   <td colname="col2"> <p>Hauteur de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan au format hexadécimal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : pour configurer une visionneuse de fenêtre déroulante avec un arrière-plan blanc ( `#FFFFFF`) et lui donner une taille de 260 x 500 pixels.
+Exemple : pour configurer une visionneuse de fenêtres déroulantes avec un arrière-plan blanc ( `#FFFFFF`) et lui donner une taille de 260 x 500 pixels.
 
 ```
 .s7flyoutviewer { 
