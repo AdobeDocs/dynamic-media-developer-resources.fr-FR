@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: db1321fb-6d52-4add-8877-0c13eb12e6af
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 5%
 
 ---
 
@@ -26,12 +29,12 @@ Voir aussi [init](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> asset </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> String</span>} nouvel ID de ressource. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> Chaîne</span>} nouvel ID de ressource. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Returns {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Renvoie {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Aucune
 
