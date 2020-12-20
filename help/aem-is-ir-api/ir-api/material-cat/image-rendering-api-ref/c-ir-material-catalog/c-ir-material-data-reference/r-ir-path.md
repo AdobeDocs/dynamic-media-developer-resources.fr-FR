@@ -1,6 +1,6 @@
 ---
-description: Chemin du fichier image. Chemin d’accès relatif et nom d’un fichier image de texture ou de décal.
-seo-description: Chemin du fichier image. Chemin d’accès relatif et nom d’un fichier image de texture ou de décal.
+description: Chemin d’accès au fichier image. Chemin d’accès relatif et nom d’un fichier image de texture ou de décale.
+seo-description: Chemin d’accès au fichier image. Chemin d’accès relatif et nom d’un fichier image de texture ou de décale.
 seo-title: Chemin *
 solution: Experience Manager
 title: Chemin *
@@ -8,29 +8,32 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 9e85a358-3f2f-4b8b-a98f-03de2a1a8a4c
 translation-type: tm+mt
 source-git-commit: 7d3902803d42f5d479dd04ac9470a4088809f3d6
+workflow-type: tm+mt
+source-wordcount: '221'
+ht-degree: 3%
 
 ---
 
 
 # Chemin *{#path}
 
-Chemin du fichier image. Chemin d’accès relatif et nom d’un fichier image de texture ou de décal.
+Chemin d’accès au fichier image. Chemin d’accès relatif et nom d’un fichier image de texture ou de décale.
 
 Le serveur combine cette valeur avec `attribute::RootPath` pour créer le chemin d’accès au fichier image réel. Peut aussi être un chemin absolu.
 
-Utilisé pour spécifier le fichier d’image de texture pour les matériaux de texture, d’armoire et de garniture de fenêtre, ainsi que le fichier d’image RVB ou RVB pour les matériaux de décal et de bordure de mur. Tous les matériaux de garnissage de l&#39;armoire et de la fenêtre ne nécessitent pas une image de texture répétable distincte.
+Utilisé pour spécifier le fichier d’image de texture pour les matériaux de texture, les armoires et les garnitures de fenêtre, ainsi que le fichier d’image RVB ou RVB pour les matériaux de bordure de décal et de paroi. Tous les matériaux de recouvrement de l&#39;armoire et de la fenêtre ne nécessitent pas une image de texture répétable distincte.
 
 ## Propriétés {#section-8c12ea24f21d4472be677581893e6681}
 
-Chaîne de texte. Obligatoire pour les matériaux de texture et de décal, optionnel pour les matériaux de garnissage de l&#39;armoire et de la fenêtre. S’il est spécifié, il doit s’agir d’un chemin d’accès de fichier relatif ou absolu valide. Doit être vide pour les matériaux de couleur unie.
+Chaîne de texte. Obligatoire pour les matériaux de texture et de décal, optionnel pour les matériaux de garnissage des armoires et des fenêtres. S&#39;il est spécifié, il doit s&#39;agir d&#39;un chemin d&#39;accès au fichier relatif ou absolu valide. Doit être vide pour les matériaux de couleur unie.
 
 ## Formats de fichiers pris en charge {#section-7ef6c9f7c72c4f03ae926d030b6c46d8}
 
-Le rendu d’image prend en charge les mêmes formats d’image source que Scene7 Image Serving.
+Le rendu d’images prend en charge les mêmes formats d’image source que le service d’images Scene7.
 
-Les applications qui nécessitent des données d’image dans plusieurs résolutions différentes sont plus performantes lors de l’utilisation du format PTIFF (Scene7 pyramid TIFF) à plusieurs résolutions. Image Serving inclut l’utilitaire Image Converter (IC) qui crée des images PTIFF à partir de n’importe quel format pris en charge.
+Les applications qui nécessitent des données d’image de plusieurs résolutions différentes seront plus performantes lors de l’utilisation du format de résolution multiple TIFF (PTIFF) de la pyramide Scene7. Image Serving inclut l’utilitaire Image Converter (IC) qui crée des images PTIFF à partir de n’importe quel format pris en charge.
 
-Reportez-vous à la description de l’utilitaire IC dans la documentation de Image Serving pour obtenir un complet des formats de fichiers pris en charge.
+Pour obtenir une liste complète des formats de fichiers pris en charge, reportez-vous à la description de l’utilitaire IC dans la documentation sur la diffusion d’images.
 
 ## Par défaut {#section-d2e91fcd7d3c45edb34e7d5ae1daadda}
 
@@ -38,4 +41,4 @@ Aucune
 
 ## Voir aussi {#section-1bf37fab8e5f4c42a03b785abafc53bd}
 
-[Utilitaire](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) IC, [attribut::RootPath](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md), [src=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md)
+[Utilitaire](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md)  IC,  [attribut::RootPath](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md),  [src=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md)
