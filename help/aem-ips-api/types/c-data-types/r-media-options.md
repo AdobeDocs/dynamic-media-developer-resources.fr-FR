@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 4de59678-1bef-484c-9a43-ded531537aeb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 6%
 
 ---
 
@@ -30,19 +33,19 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> videoEncodingPresetsArray</span></span> </td> 
-   <td colname="col2"> <span class="codeph"> type:HandleArray</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> videoEncodingPresetsArray</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> types:HandleArray</span> </td> 
    <td colname="col3">Un tableau de <span class="codeph"> PropertySet</span> gère le référencement des paramètres prédéfinis de codage vidéo pour le transcodage des vidéos. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> generateThumb</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> generateThumbnail</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> Lorsque la valeur est true, la première image de la vidéo est extraite et utilisée comme image miniature. </td> 
+   <td colname="col3"> Si la valeur est true, la première image de la vidéo est extraite et utilisée comme image miniature. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailOptions</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> type:ThumbnailOptions</span> </td> 
-   <td colname="col3">Facultatif. Permet de choisir une image vidéo particulière à utiliser comme image miniature. <p>Pour définir une image miniature, passez la durée (en millisecondes depuis le  vidéo) de l’image que vous souhaitez utiliser. Les valeurs sont comprises entre 0 et la fin de la vidéo. <p>Remarque : Si vous spécifiez l’heure de manière incorrecte, <span class="codeph"> generateThumbnail</span> prend par défaut la valeur true. </p></p><p>Voir <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> Options</a>de miniature. </p></td> 
+   <td colname="col3">Facultatif. Permet de choisir une image vidéo particulière à utiliser comme image miniature. <p>Pour définir une image miniature, passez la durée (en millisecondes depuis le début vidéo) de l’image à utiliser. Les valeurs sont comprises entre 0 et la fin de la vidéo. <p>Remarque : Si vous spécifiez l’heure de manière incorrecte, <span class="codeph"> generateThumbnail</span> prend par défaut la valeur true. </p></p><p>Voir <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>. </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,9 +64,9 @@ Syntaxe
 
 ## Utilisé par {#section-87cb83407198432c95eaa2db9f12f9db}
 
-Le `mediaOptions` type est utilisé par :
+Le type `mediaOptions` est utilisé par :
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
-* [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
+* [TéléchargerPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
 * [UploadURLsJob](../../types/c-data-types/r-upload-urls-job.md#reference-8e9bc895268c4321b233dbeadc990398)
 
