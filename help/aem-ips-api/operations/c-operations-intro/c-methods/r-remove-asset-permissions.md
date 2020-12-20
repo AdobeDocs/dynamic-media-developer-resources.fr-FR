@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 5a351862-f412-4d89-90b7-9e70a26eacbc
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '74'
+ht-degree: 16%
 
 ---
 
@@ -18,7 +21,7 @@ Supprime les autorisations des ressources sélectionnées.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-239058fdb4454e519ac327e621cb3abc}
+## Types d’utilisateur autorisés {#section-239058fdb4454e519ac327e621cb3abc}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -26,12 +29,12 @@ Syntaxe
 
 ## Paramètres {#section-b70bf3b033ca45b396964baf2ab1fb0f}
 
-**Input (removeAssetPermissionsParam)**
+**Entrée (removeAssetPermissionsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | La poignée du. |
-| ` *`assetHandle`*` | `xsd:string` | Oui | Le nom d’utilisateur du fichier avec les autorisations à supprimer. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | La poignée de la société. |
+| ` *`assetHandle`*` | `xsd:string` | Oui | Poignée de la ressource avec les autorisations à supprimer. |
 
 **Output (removeAssetPermissionsReturn)**
 
