@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: b46a3d78-e381-4351-a4f4-a228386df527
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '126'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Indique s’il faut autoriser un changement de direction de rotation dans le cas d’une visionneuse à 360° 2D. </p> <p>Lorsqu’il est défini sur <span class="codeph"> 1 </span>, le composant identifie la direction principale du glissement ou du glissement (horizontale par rapport à verticale) à l’ du mouvement. Après cela, il maintient cette direction jusqu'à ce que le geste se termine. Par exemple, si l’utilisateur  une rotation horizontale puis décide de poursuivre son mouvement de glissement dans une direction verticale, le composant n’effectue pas de rotation verticale ; il ne tient compte que du mouvement horizontal de la souris ou du glissement. </p> <p>La valeur <span class="codeph"> 0 </span> permet à l’utilisateur de modifier la direction de rotation à tout moment pendant la progression du mouvement. Ce paramètre n’a aucune incidence si la visionneuse à 360° est 1D. </p> </td> 
+   <td colname="col2"> <p> Indique s’il faut autoriser un changement de direction de rotation dans le cas d’une visionneuse à 360° 2D. </p> <p>Lorsqu'il est défini sur <span class="codeph"> 1 </span>, le composant identifie la direction de glissement ou de glissement Principale (horizontale par rapport à verticale) au début du mouvement. Après cela, il maintient cette direction jusqu'à ce que le mouvement se termine. Par exemple, si l'utilisateur début une rotation horizontale puis décide de poursuivre son mouvement de glisser dans une direction verticale, le composant n'effectue pas de rotation verticale ; il ne tient compte que du mouvement horizontal de la souris ou du glissement. </p> <p>La valeur <span class="codeph"> 0 </span> permet à un utilisateur de modifier la direction de rotation à tout moment pendant la progression du mouvement. Le paramètre n’a aucune incidence si la visionneuse à 360° est 1D. </p> </td> 
   </tr> 
  </tbody> 
 </table>
