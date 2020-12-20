@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 7d190a57-1d81-4f41-9205-b8ffdf7330ec
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 21%
 
 ---
 
@@ -18,7 +21,7 @@ Renomme un dossier.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-5a252b00937d4befbec76fa23fbae9df}
+## Types d’utilisateur autorisés {#section-5a252b00937d4befbec76fa23fbae9df}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -29,16 +32,16 @@ Syntaxe
 
 >[!NOTE]
 >
->L’utilisateur doit disposer d’un accès en lecture et en écriture au fichier.
+>L’utilisateur doit disposer d’un accès en lecture et en écriture à la ressource.
 
 ## Paramètres {#section-6fcee63dc3f74a5b90e1d71e59eb255c}
 
-**Input (renameFolderParam)**
+**Entrée (renameFolderParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Accédez au  avec les dossiers que vous souhaitez renommer. |
-| ` *`folderHandle`*` | `xsd:string` | Oui | Accédez au dossier. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Accédez à la société avec les dossiers que vous souhaitez renommer. |
+| ` *`folderHandle`*` | `xsd:string` | Oui | Pointez sur le dossier. |
 | ` *`folderName`*` | `xsd:string` | Oui | Nouveau nom de dossier. |
 
 **Output (renameFolderReturn)**
