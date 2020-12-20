@@ -1,6 +1,6 @@
 ---
-description: Masquez (masquez) l’arrière-plan des images sélectionnées. Vous pouvez ainsi les superposer dans d’autres calques avec une transparence en dehors de l’image du sujet. Paramètre facultatif désactivé par défaut.
-seo-description: Masquez (masquez) l’arrière-plan des images sélectionnées. Vous pouvez ainsi les superposer dans d’autres calques avec une transparence en dehors de l’image du sujet. Paramètre facultatif désactivé par défaut.
+description: Masquer (masquer) l’arrière-plan des images sélectionnées. Vous pouvez ainsi les superposer dans d’autres calques avec une transparence en dehors de l’image objet. Paramètre facultatif désactivé par défaut.
+seo-description: Masquer (masquer) l’arrière-plan des images sélectionnées. Vous pouvez ainsi les superposer dans d’autres calques avec une transparence en dehors de l’image objet. Paramètre facultatif désactivé par défaut.
 seo-title: KnockoutBackgroundOptions
 solution: Experience Manager
 title: KnockoutBackgroundOptions
@@ -8,13 +8,16 @@ topic: Scene7 Image Production System API
 uuid: 1486d646-f42a-4ed4-9450-313950969c39
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '198'
+ht-degree: 4%
 
 ---
 
 
 # KnockoutBackgroundOptions{#knockoutbackgroundoptions}
 
-Masquez (masquez) l’arrière-plan des images sélectionnées. Vous pouvez ainsi les superposer dans d’autres calques avec une transparence en dehors de l’image du sujet. Paramètre facultatif désactivé par défaut.
+Masquer (masquer) l’arrière-plan des images sélectionnées. Vous pouvez ainsi les superposer dans d’autres calques avec une transparence en dehors de l’image objet. Paramètre facultatif désactivé par défaut.
 
 `KnockoutBackgroundOptions=[corner, tolerance, fill]`
 
@@ -30,19 +33,19 @@ Masquez (masquez) l’arrière-plan des images sélectionnées. Vous pouvez ains
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> coin</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> corner</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Sélectionne le coin avec lequel vous souhaitez travailler. <span class="codeph"> corner</span> accepte les valeurs suivantes : 
+   <td colname="col3">Sélectionne le coin que vous souhaitez utiliser. <span class="codeph"> </span> coin accepte ces valeurs : 
     <ul id="ul_36C2F07706764A7081010D5521BF3096">
      <li id="li_CBACE5C6AA8C48D3BEE033D3AE03AF3C"><span class="codeph"> UpperLeft</span></li>
      <li id="li_49AC53536B4B4D2CA3DD89E2A2B2E95D"><span class="codeph"> BasGauche</span></li>
      <li id="li_7AD372FF4A9B48F0A16964EE9CB3EE88"><span class="codeph"> UpperRight</span></li>
-     <li id="li_D31476DD9A8E4BDBB13A6DDA46547877"><span class="codeph"> Bas droite</span></li>
+     <li id="li_D31476DD9A8E4BDBB13A6DDA46547877"><span class="codeph"> BasDroite</span></li>
     </ul></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> tolérance</span></span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> tolérance</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:doublon</span> </td> 
    <td colname="col3">Paramètre facultatif qui supprime l’espace blanc des bords de l’image en fonction de la transparence. Accepte une plage de valeurs comprise entre 0.0 et 1.0. Spécifiez : 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
      <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0 pour correspondre exactement aux couleurs. </li>
@@ -50,12 +53,12 @@ Masquez (masquez) l’arrière-plan des images sélectionnées. Vous pouvez ains
     </ul></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fillMethod</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fillMethod</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Contrôlez la transparence des pixels à l’emplacement spécifié par la variable d’angle <span class="codeph"><span class="varname"></span></span> . La <span class="codeph"> méthode fillMethod</span> accepte les valeurs suivantes : </p> 
+   <td colname="col3"> <p>Contrôlez la transparence des pixels à l’emplacement spécifié par la variable <span class="codeph"><span class="varname"> corner</span></span>. La <span class="codeph"> fillMethod</span> accepte les valeurs suivantes : </p> 
     <ul id="ul_D95F3B613D344BB89487ED09D83F9217"> 
-     <li id="li_3D7B7CA1B9094D16A98E0BA3D962E97F"> <span class="codeph"> FloodFill</span>: Transforme tous les pixels de l’angle spécifié en transparence. </li> 
-     <li id="li_F97343C3DA7644BCBD1748AD8F9DCE2E"> <span class="codeph"> MatchPixel</span>: Rend tous les pixels correspondants transparents, quel que soit l’emplacement. </li> 
+     <li id="li_3D7B7CA1B9094D16A98E0BA3D962E97F"> <span class="codeph"> FloodFill</span> : Transforme tous les pixels dans l’angle spécifié en transparence. </li> 
+     <li id="li_F97343C3DA7644BCBD1748AD8F9DCE2E"> <span class="codeph"> MatchPixel</span> : Rend tous les pixels correspondants transparents, quel que soit l’emplacement. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -78,9 +81,9 @@ Masquez (masquez) l’arrière-plan des images sélectionnées. Vous pouvez ains
 
 ## Utilisé par {#section-28c43baafe85434a9ee9e303ed10569a}
 
-Le `KnockoutBackgroundOptions` type est utilisé par :
+Le type `KnockoutBackgroundOptions` est utilisé par :
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
-* [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
+* [TéléchargerPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
 * [UploadUrlsJob](../../types/c-data-types/r-upload-urls-job.md#reference-8e9bc895268c4321b233dbeadc990398)
 
