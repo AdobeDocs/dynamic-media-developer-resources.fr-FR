@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 0dcebbce-f449-4f5f-acbc-02960e1dbdba
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '66'
+ht-degree: 9%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td> <p>Indique le comportement de préchargement du composant. </p> <p>Lorsqu’il est défini sur <span class="codeph"> -1</span> , le composant précharge toutes les images de carrousel lorsqu’il est en état d’inactivité. </p> <p>Lorsqu’il est défini sur <span class="codeph"> 0</span> , le composant charge uniquement l’image actuellement visible, l’image précédente et l’image suivante. </p> <p><span class="codeph"><span class="varname"></span></span>preloadnbrdéfinit le nombre de cadres invisibles autour du cadre actuellement affiché qui sont préchargés en cas d’inactivité. </p> </td> 
+   <td> <p>Indique le comportement de préchargement du composant. </p> <p>Lorsqu'il est défini sur <span class="codeph"> -1</span>, le composant précharge toutes les trames du carrousel en cas d'inactivité. </p> <p>Lorsqu'il est défini sur <span class="codeph"> 0</span>, le composant charge uniquement l'image actuellement visible, précédente et suivante. </p> <p><span class="codeph"><span class="varname"> </span></span>preloadnbrdéfinit le nombre de cadres invisibles autour du cadre actuellement affiché qui sont préchargés en cas d’inactivité. </p> </td> 
   </tr> 
  </tbody> 
 </table>
