@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 08ea86ba-bde5-45a1-920a-04f784395e6a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '64'
+ht-degree: 17%
 
 ---
 
@@ -18,7 +21,7 @@ Récupère toutes les propriétés système dans une seule requête.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-fc311ce90a54400fa95b9dd36b756e23}
+## Types d’utilisateur autorisés {#section-fc311ce90a54400fa95b9dd36b756e23}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,7 +35,7 @@ Syntaxe
 
 ## Paramètres {#section-b2a4fb7068424223aec87c50f0586d73}
 
-**Input (getSystemPropertiesParam)**
+**Entrée (getSystemPropertiesParam)**
 
 Aucune
 
@@ -44,7 +47,7 @@ Aucune
 
 ## Exemples {#section-728cc16fe9954b2daa035b4d4d4b4ce6}
 
-Cet exemple de code renvoie un tableau de propriétés système. Réponse tronquée pour la concision.
+Cet exemple de code renvoie un tableau de propriétés système. Réponse tronquée pour la brièveté.
 
 **Request**
 
