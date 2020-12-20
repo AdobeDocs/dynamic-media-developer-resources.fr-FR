@@ -1,18 +1,21 @@
 ---
 description: Utilisé par JobLogDetail/logType et JobLog/logType.
 seo-description: Utilisé par JobLogDetail/logType et JobLog/logType.
-seo-title: Types de journaux des tâches
+seo-title: Types de journaux de tâches
 solution: Experience Manager
-title: Types de journaux des tâches
+title: Types de journaux de tâches
 topic: Scene7 Image Production System API
 uuid: 2d8936c8-076b-431e-bcea-24c5aae0faee
 translation-type: tm+mt
 source-git-commit: 657ad46b75f4b0c671d6601da8349e05af378d0f
+workflow-type: tm+mt
+source-wordcount: '32'
+ht-degree: 6%
 
 ---
 
 
-# Types de journaux des tâches{#job-log-types}
+# Types de journaux de tâches{#job-log-types}
 
 Utilisé par JobLogDetail/logType et JobLog/logType.
 
