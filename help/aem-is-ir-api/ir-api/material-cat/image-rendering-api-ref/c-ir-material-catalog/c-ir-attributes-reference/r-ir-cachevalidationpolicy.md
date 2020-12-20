@@ -1,6 +1,6 @@
 ---
-description: Stratégie de validation du cache du serveur. Indique le moment où les entrées de cache côté serveur sont validées.
-seo-description: Stratégie de validation du cache du serveur. Indique le moment où les entrées de cache côté serveur sont validées.
+description: Stratégie de validation du cache du serveur. Indique quand les entrées de cache côté serveur sont validées.
+seo-description: Stratégie de validation du cache du serveur. Indique quand les entrées de cache côté serveur sont validées.
 seo-title: CacheValidationPolicy
 solution: Experience Manager
 title: CacheValidationPolicy
@@ -8,17 +8,20 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 299dd5fe-9a0c-43df-a4c8-6b9e9c24003b
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '116'
+ht-degree: 3%
 
 ---
 
 
 # CacheValidationPolicy{#cachevalidationpolicy}
 
-Stratégie de validation du cache du serveur. Indique le moment où les entrées de cache côté serveur sont validées.
+Stratégie de validation du cache du serveur. Indique quand les entrées de cache côté serveur sont validées.
 
-Avec la validation basée sur l’expiration, les documents source et les vignettes sont périodiquement contrôlés pour voir s’ils ont changé. Avec la validation basée sur un catalogue, les images source ne sont vérifiées qu’une fois la `catalog::TimeStamp` valeur modifiée.
+Avec la validation basée sur l’expiration, les documents source et les vignettes sont périodiquement contrôlés pour vérifier s’ils ont changé. Avec la validation basée sur un catalogue, les images source ne sont vérifiées qu’après modification de la valeur `catalog::TimeStamp`.
 
-La validation basée sur un catalogue est recommandée lorsque des catalogues de matériaux et de vignettes sont utilisés. La validation basée sur l’expiration doit être utilisée lorsque les vignettes sont référencées dans les demandes de rendu d’image directement par chemin d’accès.
+La validation basée sur un catalogue est recommandée lorsque des catalogues de vignettes et de matériaux sont utilisés. La validation basée sur l’expiration doit être utilisée lorsque les vignettes sont référencées dans les demandes de rendu d’image directement par chemin d’accès.
 
 ## Propriétés {#section-46e13cb341eb442c86e0d8292de23ea0}
 
@@ -26,8 +29,8 @@ Enum. 0 pour sélectionner la validation basée sur l’expiration. 1 pour séle
 
 ## Par défaut {#section-e09f3af8b6b3497d963199988dc5345d}
 
-Héritée de `default::CacheValidationPolicy` si non définie ou si vide.
+Hérité de `default::CacheValidationPolicy` si elle n&#39;est pas définie ou si elle est vide.
 
 ## Voir aussi {#section-b374e4d908e24af8995b2b376ca1be8b}
 
-[catalogue::TimeStamp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-timestamp-dataref.md#reference-6daf7973dc4f4b4e9e8165756db7c319)
+[catalogue ::TimeStamp](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-timestamp-dataref.md#reference-6daf7973dc4f4b4e9e8165756db7c319)
