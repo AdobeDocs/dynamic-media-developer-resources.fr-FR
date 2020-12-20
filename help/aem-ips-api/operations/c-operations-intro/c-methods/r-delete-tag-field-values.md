@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 71cdec4e-c1d6-4518-87ed-5c47a5112b15
 translation-type: tm+mt
 source-git-commit: b5eaefb375fbd0d0786619fa6d84b4f6fc17a77f
+workflow-type: tm+mt
+source-wordcount: '99'
+ht-degree: 12%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: b5eaefb375fbd0d0786619fa6d84b4f6fc17a77f
 
 Supprime les valeurs de champ de balise du dictionnaire d’un champ de balise.
 
-## Types d’utilisateurs autorisés {#section-e6f97c875c2a4cf0a7bc22096b649497}
+## Types d’utilisateur autorisés {#section-e6f97c875c2a4cf0a7bc22096b649497}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -24,12 +27,12 @@ Supprime les valeurs de champ de balise du dictionnaire d’un champ de balise.
 
 ## Paramètres {#section-5db64a6ae238426395bc760b83587260}
 
-**Input (deleteTagFieldValuesParam)**
+**Entrée (deleteTagFieldValuesParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | poignée du contenant le champ de balise. |
-| ` *`fieldHandle`*` | `xsd:string` | Oui | Poignée du champ de balise à modifier. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de la société contenant le champ de balise. |
+| ` *`fieldHandle`*` | `xsd:string` | Oui | Handle du champ de balise à modifier. |
 | ` *`valueArray`*` | `types:StringArray` | Oui | Tableau de valeurs de balise à supprimer du dictionnaire du champ. |
 
 **Output (deleteTagFieldValuesParam)**
