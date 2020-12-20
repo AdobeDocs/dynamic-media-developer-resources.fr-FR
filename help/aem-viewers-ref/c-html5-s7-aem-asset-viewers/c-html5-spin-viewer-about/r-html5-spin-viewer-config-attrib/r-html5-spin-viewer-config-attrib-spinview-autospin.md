@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 9d24ed39-e4b9-442b-bc64-c77707ff69d8
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '100'
+ht-degree: 9%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Active ou désactive l’animation à 360° automatique. Pour optimiser la rotation automatique, il est recommandé de précharger toutes les images en définissant <span class="codeph"> maxloadradius</span> sur <span class="codeph"> -1</span>. Notez toutefois que cela entraîne une augmentation du temps de chargement et de l’utilisation de la bande passante. </p> </td> 
+   <td colname="col2"> <p> Active ou désactive l'animation à 360° automatique. Pour optimiser la rotation automatique, il est recommandé de précharger toutes les images en définissant <span class="codeph"> maxloadradius</span> sur <span class="codeph"> -1</span>. Notez toutefois que cela se traduit par une augmentation du temps de chargement et de l’utilisation de la bande passante. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> durée</span></span> </p> </td> 
@@ -28,11 +31,11 @@ source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> direction</span></span> </p> </td> 
-   <td colname="col2"> <p> La direction de rotation qui est <span class="codeph"> 0</span> pour tourner vers l'est et <span class="codeph"> 1</span> pour tourner vers l'ouest. </p> </td> 
+   <td colname="col2"> <p> La direction de rotation qui est <span class="codeph"> 0</span> pour la rotation est et <span class="codeph"> 1</span> pour la rotation ouest. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> spin_number</span></span> </p> </td> 
-   <td colname="col2"> <p> Nombre de rotations complètes effectuées avant l’arrêt de la rotation automatique. Le nombre est un nombre à virgule flottante. Définissez cette valeur sur <span class="codeph"> -1</span> pour une rotation automatique infinie. </p> </td> 
+   <td colname="col2"> <p> Nombre de rotations complètes effectuées avant l’arrêt de la rotation automatique. Le nombre est un nombre à virgule flottante. Définissez sur <span class="codeph"> -1</span> pour une rotation automatique infinie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
