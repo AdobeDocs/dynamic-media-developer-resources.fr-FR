@@ -1,6 +1,6 @@
 ---
-description: Définit le  des fichiers associés à une visionneuse d’images.
-seo-description: Définit le  des fichiers associés à une visionneuse d’images.
+description: Définit la liste des fichiers associés à une visionneuse d’images.
+seo-description: Définit la liste des fichiers associés à une visionneuse d’images.
 seo-title: setImageSetMembers
 solution: Experience Manager
 title: setImageSetMembers
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 84a73ff4-e93f-4764-80e8-e15f1fec1aeb
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 11%
 
 ---
 
 
 # setImageSetMembers{#setimagesetmembers}
 
-Définit le  des fichiers associés à une visionneuse d’images.
+Définit la liste des fichiers associés à une visionneuse d’images.
 
-Cette opération ignore le `pageReset` paramètre pour `ImageSets` et `SpinSets` force la valeur sur true.
+Cette opération ignore le paramètre `pageReset` pour `ImageSets` et `SpinSets` et force la valeur sur true.
 
-## Types d’utilisateurs autorisés {#section-8968d6a39a344cfc8521020d92ae8916}
+## Types d’utilisateur autorisés {#section-8968d6a39a344cfc8521020d92ae8916}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,7 +36,7 @@ Cette opération ignore le `pageReset` paramètre pour `ImageSets` et `SpinSets`
 
 ## Paramètres {#section-2f46efcd24c648aeacba738509426e46}
 
-**Input (setImageSetMembersParam)**
+**Entrée (setImageSetMembersParam)**
 
 <table id="table_0CBBB65BCEFD4125A4069A080DFC873A"> 
  <thead> 
@@ -46,20 +49,20 @@ Cette opération ignore le `pageReset` paramètre pour `ImageSets` et `SpinSets`
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> sociétéHandle</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p> poignée. </p> </td> 
+   <td colname="col4"> <p>Poignée de société. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span></span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Poignée de la visionneuse d’images. </td> 
+   <td colname="col4"> Poignée de visionneuse d’images. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> MemberArray</span></span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ImageSetMemberUpdateArray</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> MemberArray</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> type:ImageSetMemberUpdateArray</span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"> Tableau des membres de fichier qui appartiennent à la visionneuse d’images. </td> 
   </tr> 
