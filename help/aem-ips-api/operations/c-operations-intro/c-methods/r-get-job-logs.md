@@ -1,6 +1,6 @@
 ---
-description: Obtient les journaux de tâches spécifiés pour le  sélectionné. Vous pouvez trier par caractères, direction, dates de  et de fin et nombre de lignes.
-seo-description: Obtient les journaux de tâches spécifiés pour le  sélectionné. Vous pouvez trier par caractères, direction, dates de  et de fin et nombre de lignes.
+description: Obtient les journaux de tâches spécifiés pour la société sélectionnée. Vous pouvez trier par caractères, direction, dates de début et de fin et nombre de lignes.
+seo-description: Obtient les journaux de tâches spécifiés pour la société sélectionnée. Vous pouvez trier par caractères, direction, dates de début et de fin et nombre de lignes.
 seo-title: getJobLogs
 solution: Experience Manager
 title: getJobLogs
@@ -8,17 +8,20 @@ topic: Scene7 Image Production System API
 uuid: 850ccfad-6cdb-4eda-a20a-762fadadf8b2
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '207'
+ht-degree: 10%
 
 ---
 
 
 # getJobLogs{#getjoblogs}
 
-Obtient les journaux de tâches spécifiés pour le  sélectionné. Vous pouvez trier par caractères, direction, dates de  et de fin et nombre de lignes.
+Obtient les journaux de tâches spécifiés pour la société sélectionnée. Vous pouvez trier par caractères, direction, dates de début et de fin et nombre de lignes.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-9df82972265d44c9ad91504a17c3ffa6}
+## Types d’utilisateur autorisés {#section-9df82972265d44c9ad91504a17c3ffa6}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,15 +35,15 @@ Syntaxe
 
 ## Paramètres {#section-8cfdc7994da24678a45edcb37e9a2166}
 
-**Input (getJobLogsParam)**
+**Entrée (getJobLogsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Non |  poignée. |
-| ` *`userHandle`*` | `xsd:string` | Non | Obtient les journaux des tâches envoyées par un utilisateur spécifique. |
+| ` *`companyHandle`*` | `xsd:string` | Non | Poignée de société. |
+| ` *`userHandle`*` | `xsd:string` | Non | Récupère les journaux des tâches soumises par un utilisateur spécifique. |
 | ` *`sortBy`*` | `xsd:string` | Non | Permet de sélectionner des champs de tri. |
 | ` *`sortDirection`*` | `xsd:string` | Non | Ordre de tri (croissant ou décroissant). |
-| ` *`startDate`*` | `xsd:dateTime` | Non | Date et heure du du journal des tâches. Indiquez le fuseau horaire avec la demande de ce champ. |
+| ` *`startDate`*` | `xsd:dateTime` | Non | Date et heure du début du journal des tâches. Indiquez le fuseau horaire avec la demande de ce champ. |
 | ` *`endDate`*` | `xsd:dateTime` | Non | Date et heure de fin du journal des tâches. Indiquez le fuseau horaire avec la demande de ce champ. |
 | ` *`numRows`*` | `xsd:int` | Non | Nombre maximal de lignes à renvoyer. |
 
@@ -52,7 +55,7 @@ Syntaxe
 
 ## Exemples {#section-35871c94b4a44559912577efddbc46a6}
 
-Cet exemple de code renvoie des journaux de tâches IPS pour un  spécifique. Vous pouvez également l’utiliser pour renvoyer des journaux de tâches pour un utilisateur ou un ou un utilisateur spécifique.
+Cet exemple de code renvoie des journaux de tâches IPS pour une société spécifique. Vous pouvez également l’utiliser pour renvoyer des journaux de tâches pour un utilisateur ou une société et un utilisateur spécifiques.
 
 **Request**
 
