@@ -8,18 +8,21 @@ topic: Scene7 Image Serving - Image Rendering API
 uuid: 31718b04-f09c-4103-8ccb-6818f91a1e32
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '37'
+ht-degree: 0%
 
 ---
 
 
-# Commandes diverses{#miscellaneous-commands}
+# Commandes diverses {#miscellaneous-commands}
 
 Ces commandes sont également disponibles.
 
 <table id="simpletable_ADE850DCC3364A1B8B375A17BA95E5D5"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-req.md#reference-792b1a663fb64261bd2de2a209b847fb" type="reference" format="dita" scope="local"> req</a></span> </p></td> 
-  <td class="stentry"> <p>Demande, commande. </p></td> 
+  <td class="stentry"> <p>Commande Request. </p></td> 
   <td class="stentry"></td> 
  </tr> 
  <tr class="strow"> 
@@ -29,7 +32,7 @@ Ces commandes sont également disponibles.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-show.md#reference-f1824e1a501144bc9a6ae28de8e6bcb9" type="reference" format="dita" scope="local"> show</a></span> </p> </td> 
-  <td class="stentry"> <p>Rendre les objets de chevauchement sélectionnés visibles. </p></td> 
+  <td class="stentry"> <p>Rendre visibles les objets de chevauchement sélectionnés. </p></td> 
   <td class="stentry"></td> 
  </tr> 
 </table>
