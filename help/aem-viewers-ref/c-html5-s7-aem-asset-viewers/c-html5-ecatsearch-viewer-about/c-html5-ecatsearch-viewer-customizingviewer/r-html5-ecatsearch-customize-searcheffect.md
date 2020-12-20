@@ -1,6 +1,6 @@
 ---
-description: Le lecteur affiche les régions de résultats de recherche sur le principal pour mettre en surbrillance les mots ou les expressions trouvés dans le catalogue.
-seo-description: Le lecteur affiche les régions de résultats de recherche sur le principal pour mettre en surbrillance les mots ou les expressions trouvés dans le catalogue.
+description: Le lecteur affiche les régions de résultats de la recherche sur la vue principale pour mettre en surbrillance les mots ou les expressions figurant dans le catalogue.
+seo-description: Le lecteur affiche les régions de résultats de la recherche sur la vue principale pour mettre en surbrillance les mots ou les expressions figurant dans le catalogue.
 seo-title: Effet de recherche
 solution: Experience Manager
 title: Effet de recherche
@@ -8,17 +8,20 @@ topic: Dynamic media
 uuid: 3a076ff8-2da5-4020-8a77-8f5a256afefe
 translation-type: tm+mt
 source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+workflow-type: tm+mt
+source-wordcount: '105'
+ht-degree: 0%
 
 ---
 
 
-# Effet de recherche{#search-effect}
+# Effet de recherche {#search-effect}
 
-Le lecteur affiche les régions de résultats de recherche sur le principal pour mettre en surbrillance les mots ou les expressions trouvés dans le catalogue.
+Le lecteur affiche les régions de résultats de la recherche sur la vue principale pour mettre en surbrillance les mots ou les expressions figurant dans le catalogue.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriétés CSS de la zone de visionneuse principale**
+**Propriétés CSS de la zone de visualisation principale**
 
 L’aspect des régions de résultats de recherche est contrôlé par le sélecteur de classe CSS suivant :
 
@@ -33,13 +36,13 @@ L’aspect des régions de résultats de recherche est contrôlé par le sélect
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière  </span> </p> </td> 
    <td colname="col2"> <p>Arrière-plan de la région des résultats de la recherche. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : pour configurer des régions de résultats de recherche avec un remplissage jaune semi-transparent :
+Exemple - pour configurer des régions de résultats de recherche avec un remplissage jaune semi-transparent :
 
 ```
 .s7ecatalogsearchviewer .s7searcheffect .s7region { 
