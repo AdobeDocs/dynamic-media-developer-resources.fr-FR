@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: e3ed4888-18db-40bc-a1db-f44a342d0293
 translation-type: tm+mt
 source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+workflow-type: tm+mt
+source-wordcount: '97'
+ht-degree: 17%
 
 ---
 
@@ -18,7 +21,7 @@ Renvoie les coordonnées du quadrilatère englobant le chemin Photoshop nommé.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-c417a287612847cb98dd0aa9c67fd78a}
+## Types d’utilisateur autorisés {#section-c417a287612847cb98dd0aa9c67fd78a}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -27,7 +30,7 @@ Syntaxe
 * `ImagePortalUser`
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
-* ``
+* &quot;
 
 ## Paramètres {#section-ebffe496284c4ced9f329f78127be199}
 
@@ -35,9 +38,9 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Gérez vers le l’image que vous souhaitez utiliser. |
-| ` *`assetHandle`*` | `xsd:string` | Oui | Traitement du fichier d’image. |
-| ` *`pathName`*` | `xsd:string` | Oui | Nom du chemin d’accès Photoshop à renvoyer. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Pointez sur la société avec l’image que vous souhaitez utiliser. |
+| ` *`assetHandle`*` | `xsd:string` | Oui | Pointez sur le fichier d’image. |
+| ` *`pathName`*` | `xsd:string` | Oui | Nom du chemin Photoshop à renvoyer. |
 
 **Output (getPhotoshopPathReturn)**
 
