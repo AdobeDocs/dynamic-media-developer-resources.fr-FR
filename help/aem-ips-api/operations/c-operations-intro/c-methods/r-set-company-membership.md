@@ -1,24 +1,27 @@
 ---
-description: Définit l’appartenance d’un utilisateur dans un ou plusieurs  de.
-seo-description: Définit l’appartenance d’un utilisateur dans un ou plusieurs  de.
-seo-title: setCompanyMember
+description: Définit l’appartenance d’un utilisateur à une ou plusieurs sociétés.
+seo-description: Définit l’appartenance d’un utilisateur à une ou plusieurs sociétés.
+seo-title: setCompanyMembership
 solution: Experience Manager
-title: setCompanyMember
+title: setCompanyMembership
 topic: Scene7 Image Production System API
 uuid: 34c9d457-bc2e-4186-8a8f-50388410640a
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '86'
+ht-degree: 13%
 
 ---
 
 
-# setCompanyMember{#setcompanymembership}
+# setCompanyMembership{#setcompanymembership}
 
-Définit l’appartenance d’un utilisateur dans un ou plusieurs  de.
+Définit l’appartenance d’un utilisateur à une ou plusieurs sociétés.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-0cbcc78cfee64c2baf66f29cce6d0a65}
+## Types d’utilisateur autorisés {#section-0cbcc78cfee64c2baf66f29cce6d0a65}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -27,20 +30,20 @@ Syntaxe
 
 ## Paramètres {#section-3930dc6a016140178631083563598104}
 
-**Input (setCompanyMembshipParam)**
+**Entrée (setCompanyMembershipParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | ` *`userHandle`*` | `xsd:sting` | Non | Identifiant utilisateur. |
-| ` *`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Oui | Tableau de . |
+| ` *`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Oui | Tableau de sociétés. |
 
-**Output (setCompanyMembshipParam)**
+**Output (setCompanyMembershipParam)**
 
 L&#39;API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-862c0cc32ce0407ab248028e690a8386}
 
-Cet exemple de code ajoute un utilisateur à un  de. Spécifiez plusieurs  de dans le tableau de poignée  du si nécessaire.
+Cet exemple de code ajoute un utilisateur à une société. Si nécessaire, spécifiez plusieurs sociétés dans le tableau des poignées de société.
 
 **Request**
 
