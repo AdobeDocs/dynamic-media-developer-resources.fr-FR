@@ -8,6 +8,9 @@ topic: Dynamic media
 uuid: 2b004ebf-41e6-4895-a578-bb9094f40924
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '66'
+ht-degree: 7%
 
 ---
 
@@ -22,7 +25,7 @@ Attribut de configuration pour la visionneuse de vidéos de supports variés.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Définit le mode silencieux pour la lecture vidéo au chargement initial. Si le paramètre est défini sur <span class="codeph"> 1, </span> le volume est coupé ; dans le cas contraire, la vidéo est lue avec du son. Sur certains périphériques, le fait de désactiver la lecture vidéo au chargement permet également à la vidéo d’être lue automatiquement. </p> </td> 
+   <td colname="col2"> <p> Définit le mode silencieux pour la lecture vidéo au chargement initial. Si la valeur <span class="codeph"> 1 </span> est définie, le volume est coupé ; sinon, la vidéo est lue avec du son. Sur certains périphériques, le fait de désactiver la lecture vidéo au chargement permet également à la vidéo de se lire automatiquement. </p> </td> 
   </tr> 
  </tbody> 
 </table>
