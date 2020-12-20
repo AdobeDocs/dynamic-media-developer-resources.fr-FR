@@ -8,6 +8,9 @@ topic: Scene7 Image Production System API
 uuid: 698c1652-5afa-4a2c-819a-1ba6ffc6aacf
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '60'
+ht-degree: 20%
 
 ---
 
@@ -18,7 +21,7 @@ Arrête une tâche en cours.
 
 Syntaxe
 
-## Types d’utilisateurs autorisés {#section-b222f561143747f6ad089aadc0b274d8}
+## Types d’utilisateur autorisés {#section-b222f561143747f6ad089aadc0b274d8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -31,11 +34,11 @@ Syntaxe
 
 ## Paramètres {#section-2b64f074e37c4c38849994f3bc65342a}
 
-**Input (stopJobParam)**
+**Entrée (stopJobParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui |  poignée. |
+| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
 | ` *`jobHandle`*` | `xsd:string` | Oui | Traitez la tâche que vous souhaitez arrêter. |
 
 **Output (stopJobReturn0)**
