@@ -1,24 +1,27 @@
 ---
 description: La barre de contrôle secondaire est la zone rectangulaire qui contient les boutons Première page et Dernière page et un indicateur de page lorsqu’il est disponible en CSS.
 seo-description: La barre de contrôle secondaire est la zone rectangulaire qui contient les boutons Première page et Dernière page et un indicateur de page lorsqu’il est disponible en CSS.
-seo-title: Barre de commande secondaire
+seo-title: Barre de contrôle Secondaire
 solution: Experience Manager
-title: Barre de commande secondaire
+title: Barre de contrôle Secondaire
 topic: Dynamic media
 uuid: 38217d2a-8668-46e1-9df1-f29c1c7e0798
 translation-type: tm+mt
 source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+workflow-type: tm+mt
+source-wordcount: '199'
+ht-degree: 2%
 
 ---
 
 
-# Barre de commande secondaire{#secondary-control-bar}
+# Barre de contrôle Secondaire{#secondary-control-bar}
 
 La barre de contrôle secondaire est la zone rectangulaire qui contient les boutons Première page et Dernière page et un indicateur de page lorsqu’il est disponible en CSS.
 
-Par défaut, il s’affiche uniquement sur les téléphones mobiles et se trouve dans la partie inférieure du lecteur. Il prend toujours la largeur de la visionneuse disponible. Il est possible de modifier sa couleur, sa hauteur et sa position verticale par CSS, par rapport au  du lecteur de contenu.
+Par défaut, elle s’affiche uniquement sur les téléphones mobiles et se trouve dans le bas du lecteur de contenu. Elle prend toujours la largeur de visionneuse disponible dans son intégralité. Il est possible de modifier sa couleur, sa hauteur et sa position verticale par CSS, par rapport au conteneur de la visionneuse.
 
-L’aspect de la barre de contrôle secondaire est contrôlé à l’aide du sélecteur de classe CSS suivant :
+L’aspect de la barre de contrôle secondaire est contrôlé par le sélecteur de classe CSS suivant :
 
 `.s7ecatalogsearchviewer .s7secondarycontrols .s7controlbar`
 
@@ -32,24 +35,24 @@ L’aspect de la barre de contrôle secondaire est contrôlé à l’aide du sé
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> haut </span> </p> </td> 
-   <td colname="col2"> <p>Position en haut du lecteur. </p> </td> 
+   <td colname="col2"> <p>Position à partir du haut de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bas </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir du bas du lecteur. </p> </td> 
+   <td colname="col2"> <p>Position à partir du bas de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hauteur de la barre de contrôle principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
    <td colname="col2"> <p>Couleur d’arrière-plan de la barre de contrôle secondaire. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : pour configurer une barre de contrôle secondaire grise de 72 pixels de haut et positionnée au bas du  de la visionneuse.
+Exemple : pour configurer une barre de contrôle secondaire grise de 72 pixels et positionnée au bas du conteneur de la visionneuse.
 
 ```
 .s7ecatalogsearchviewer .s7secondarycontrols .s7controlbar {  
