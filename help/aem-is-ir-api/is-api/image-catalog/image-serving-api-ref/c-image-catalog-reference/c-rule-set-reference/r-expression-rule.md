@@ -1,44 +1,47 @@
 ---
-description: Élément de modèle  régulier . Facultatif dans les éléments <rule>.
-seo-description: Élément de modèle  régulier . Facultatif dans les éléments <rule>.
-seo-title: ' '
+description: Élément de modèle d’expression régulier. Facultatif dans les éléments <rule>.
+seo-description: Élément de modèle d’expression régulier. Facultatif dans les éléments <rule>.
+seo-title: expression
 solution: Experience Manager
-title: ' '
+title: expression
 topic: Scene7 Image Serving - Image Rendering API
 uuid: f2036015-a2c7-4392-86f6-4cdf3152839a
 translation-type: tm+mt
 source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+workflow-type: tm+mt
+source-wordcount: '165'
+ht-degree: 3%
 
 ---
 
 
 # expression{#expression}
 
-Élément de modèle  régulier . Facultatif dans `<rule>` les éléments.
+Élément de modèle d’expression régulier. Facultatif dans les éléments `<rule>`.
 
-## Attributes {#section-2d438c889ae84b6da7e0ed84b5d021a0}
+## Attributs {#section-2d438c889ae84b6da7e0ed84b5d021a0}
 
 Aucune
 
 ## Données {#section-e2601008d71243109af1a8c55b58416d}
 
-Chaîne de modèle de  régulière .
+Chaîne de modèle d’expression régulière.
 
 ## Description {#section-759bfb738ddb45dba1f0807aba8c1113}
 
-L’ `<expression>` élément peut être vide ou contenir une chaîne de recherche simple ou un modèle de normal-. Le modèle est appliqué à la chaîne de requête entière.
+L&#39;élément `<expression>` peut être vide ou contenir une chaîne de recherche simple ou un modèle d&#39;expression normal. Le modèle est appliqué à la chaîne de requête entière.
 
 Une correspondance se produit toujours lorsque `<expression>` est vide ou non spécifié ; cela équivaut à spécifier `<expression>.*</expression>`.
 
-L’implémentation est basée sur le package Java [java.util.regex](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/), qui fournit une syntaxe   régulière similaire à celle de Perl.
+L’implémentation est basée sur le package Java [java.util.regex](https://www2.cs.duke.edu/csed/java/jdk1.4.2/docs/api/), qui fournit une syntaxe d’expression régulière similaire à celle de Perl.
 
 ## Remarques {#section-10b472a902674893b49ca49a7052c366}
 
-La chaîne   ne doit pas contenir de caractères littéraux &lt; et &amp;. Ces caractères réservés peuvent être codés avec `&` et `<`, respectivement, ou la chaîne entière peut être incluse dans une `CDATA` section XML :
+La chaîne d&#39;expression ne doit pas contenir de caractères littéraux &lt; et &amp;. Ces caractères réservés peuvent être codés avec `&` et `<`, respectivement, ou la chaîne entière peut être incluse dans une section XML `CDATA` :
 
 `<expression><![CDATA[&fmt=custom]]></expression>`
 
-Tous les caractères compris entre les `<expression>` balises `</expression>` et sont transmis à l’analyseur  de classique, y compris les caractères qui se trouvent en dehors de la `CDATA` section facultative. Il faut prendre soin d’éviter les espaces blancs supplémentaires.
+Tous les caractères compris entre les balises `<expression>` et `</expression>` sont transmis à l’analyseur d’expressions standard, y compris les caractères en dehors de la section facultative `CDATA`. Il faut prendre soin d’éviter les espaces blancs supplémentaires.
 
 ## Voir aussi {#section-ca98548917d945f4b71f18208f0e6840}
 
