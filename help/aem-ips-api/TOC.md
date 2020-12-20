@@ -2,7 +2,7 @@
 cloud: experience-cloud
 product: adobe
 archtype: end-user
-user-guide-title: API du système de production d’images de média dynamique
+user-guide-title: API du système de production d’images Dynamic Media
 translation-type: tm+mt
 source-git-commit: 88d3a65852365d7fcd7631ff5b5f7215b7c48618
 workflow-type: tm+mt
@@ -12,15 +12,15 @@ ht-degree: 2%
 ---
 
 
-# API du système de production d’images de média dynamique {#image-production-api}
+# API du système de production d’images Dynamic Media {#image-production-api}
 
-+ [Page d’accueil des ressources du développeur de médias dynamiques](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
-+ [A propos de l’API Dynamic Media Image Production System](c-overview.md)
++ [Page d&#39;accueil des ressources des développeurs Dynamic Media](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)
++ [A propos de l’API du système de production d’images Dynamic Media](c-overview.md)
 + [Appels obsolètes](c-deprecated-calls.md)
 + [Versions WSDL du service Web IPS](c-wsdl-versions.md)
 + Méthodes d&#39;opération {#operation-methods}
    + [Méthodes d&#39;exploitation](operations/c-operations-intro/c-operations-intro.md)
-   + Paramètres d’opération {#operation-parameters}
+   + Paramètres d&#39;opération {#operation-parameters}
       + [Présentation des paramètres d’opération](operations/c-operations-intro/c-methods/c-methods.md)
       + [addCompany](operations/c-operations-intro/c-methods/r-add-company.md)
       + [addCompanyMembership](operations/c-operations-intro/c-methods/r-add-company-membership.md)
@@ -160,16 +160,16 @@ ht-degree: 2%
       + [setImageRenderingPublishSettings](operations/c-operations-intro/c-methods/r-set-image-rendering-publish-settings.md)
       + [setImageServingPublishSettings](operations/c-operations-intro/c-methods/r-set-image-serving-publish-settings.md)
       + [setPassword](operations/c-operations-intro/c-methods/r-set-password.md)
-      + [SetProjectAssets](operations/c-operations-intro/c-methods/r-set-project-assets.md)
+      + [setProjectAssets](operations/c-operations-intro/c-methods/r-set-project-assets.md)
       + [setTagFieldValues](operations/c-operations-intro/c-methods/r-set-tag-field-values.md)
       + [setUrlModificateur](operations/c-operations-intro/c-methods/r-set-url-modifier.md)
       + [setUserInfo](operations/c-operations-intro/c-methods/r-set-user-info.md)
       + [setViewerConfigSettings](operations/c-operations-intro/c-methods/r-set-viewer-config-settings.md)
       + [setZoomTargets](operations/c-operations-intro/c-methods/r-set-zoom-targets.md)
-      + [Viewer](operations/c-operations-intro/c-methods/r-stop-job.md)
-      + [erJob](operations/c-operations-intro/c-methods/r-submit-job.md)
+      + [stopJob](operations/c-operations-intro/c-methods/r-stop-job.md)
+      + [submitJob](operations/c-operations-intro/c-methods/r-submit-job.md)
       + [updateAssetPermissions](operations/c-operations-intro/c-methods/r-update-asset-permissions.md)
-      + [submitAssetSet](operations/c-operations-intro/c-methods/r-update-asset-set.md)
+      + [updateAssetSet](operations/c-operations-intro/c-methods/r-update-asset-set.md)
       + [updateFolderPermissions](operations/c-operations-intro/c-methods/r-update-folder-permissions.md)
       + [updateImageSet](operations/c-operations-intro/c-methods/r-update-image-set.md)
       + [updateMetadataField](operations/c-operations-intro/c-methods/r-update-metadata-field.md)
@@ -178,7 +178,7 @@ ht-degree: 2%
       + [updateViewerConfigSettings](operations/c-operations-intro/c-methods/r-update-viewer-config-settings.md)
       + [updateVignettePublishFormat](operations/c-operations-intro/c-methods/r-update-vignette-publish-format.md)
       + [updateXMPPacket](operations/c-operations-intro/c-methods/r-update-xmp-packet.md)
-+ Data types {#data-types}
++ Types de données {#data-types}
    + [Types de données](types/c-data-types/c-data-types.md)
    + [AcoInfo](types/c-data-types/r-aco-info.md)
    + [ActiveJob](types/c-data-types/r-active-job.md)
@@ -322,11 +322,11 @@ ht-degree: 2%
    + [PostScriptOptions](types/c-data-types/r-post-script-options.md)
    + [PowerPointInfo](types/c-data-types/r-power-point-info.md)
    + [PremierExpressRemixInfo](types/c-data-types/r-premier-express-remix-info.md)
-   + [Propriété](types/c-data-types/r-project.md)
+   + [Projet](types/c-data-types/r-project.md)
    + [ProjectArray](types/c-data-types/r-project-array.md)
    + [Propriété](types/c-data-types/r-property.md)
    + [PropertyArray](types/c-data-types/r-property-array.md)
-   + [ProjetPropriété](types/c-data-types/r-property-set.md)
+   + [PropertySet](types/c-data-types/r-property-set.md)
    + [PropertySetArray](types/c-data-types/r-property-set-array.md)
    + [PropertySetType](types/c-data-types/r-property-set-type.md)
    + [PropertySetTypeArray](types/c-data-types/r-property-set-type-array.md)
@@ -351,7 +351,7 @@ ht-degree: 2%
    + [SetMetadataFaultArray](types/c-data-types/r-set-metadata-fault-array.md)
    + [SetPropertySetPermissions](types/c-data-types/r-set-property-set-permissions.md)
    + [SvgInfo](types/c-data-types/r-svg-info.md)
-   + [PropertyArrayString](types/c-data-types/r-string-array.md)
+   + [StringArray](types/c-data-types/r-string-array.md)
    + [SwcInfo](types/c-data-types/r-swcinfo.md)
    + [SystemFieldCondition](types/c-data-types/r-system-field-condition.md)
    + [SystemFieldConditionArray](types/c-data-types/r-system-field-condition-array.md)
@@ -476,6 +476,6 @@ ht-degree: 2%
    + Version 3.7 {#version-3-7}
       + [Version 3.7](change-log/c-change-log/c-3-7/c-3-7.md)
       + [Opérations : Nouveau et modifié](change-log/c-change-log/c-3-7/r-3-7-operations.md)
-      + [Processus : Nouveau et modifié](change-log/c-change-log/c-3-7/r-3-7-types.md)
+      + [Types de données : Nouveau et modifié](change-log/c-change-log/c-3-7/r-3-7-types.md)
       + [Constantes de chaîne : Nouveau et modifié](change-log/c-change-log/c-3-7/r-3-7-string-constants.md)
 + [Téléchargement des fichiers au moyen de POST HTTP vers le fichier UploadFile...](c-http-post.md)
