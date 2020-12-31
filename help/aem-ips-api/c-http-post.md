@@ -7,10 +7,10 @@ title: Téléchargement de fichiers via HTTP POSTs vers le servlet UploadFile
 topic: Scene7 Image Production System API
 uuid: 8d562316-0849-4b95-a974-29732d453dc8
 translation-type: tm+mt
-source-git-commit: dac273f51703fd63f1d427fbb7713fcc79bfa2c4
+source-git-commit: 5d738b675975251dc3491ac7ae533eda082df134
 workflow-type: tm+mt
 source-wordcount: '766'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -66,22 +66,22 @@ La tâche de téléchargement consiste en un ou plusieurs POST HTTP qui utilisen
 >
 >Toutes les demandes de POST pour une tâche de téléchargement doivent provenir de la même adresse IP.
 
-| Partie de formulaire du POST HTTP | Description |
-|-|-|
-|`auth` |  Obligatoire. Document XML authHeader spécifiant l’authentification et les informations sur le client. Voir **Demande d’authentification** sous [SOAP](/help/aem-ips-api/c-wsdl-versions.md). |
-|`file params` |  Facultatif. Vous pouvez inclure un ou plusieurs fichiers à télécharger avec chaque demande de POST. Chaque partie de fichier peut inclure un paramètre de nom de fichier dans l&#39;en-tête Content-Disposition utilisé comme nom de cible dans IPS si aucun paramètre `uploadPostParams/fileName` n&#39;est spécifié. |
+|  POST HTTP faisant partie  |  Description  |
+|---|---|
+| `auth`  |   Obligatoire. Document XML authHeader spécifiant l’authentification et les informations sur le client. Voir **Demande d’authentification** sous [SOAP](/help/aem-ips-api/c-wsdl-versions.md). |
+| `file params`  |   Facultatif. Vous pouvez inclure un ou plusieurs fichiers à télécharger avec chaque demande de POST. Chaque partie de fichier peut inclure un paramètre de nom de fichier dans l&#39;en-tête Content-Disposition utilisé comme nom de cible dans IPS si aucun paramètre `uploadPostParams/fileName` n&#39;est spécifié. |
 
-| Partie du formulaire de POST HTTP  | nom de l’élément uploadPostParams  | Type  | Description  |
-|-|-|-|-||
-|`uploadParams` (Obligatoire. Un document XML `uploadParams` spécifiant les paramètres de transfert)  |  `companyHandle` | `xsd:string` | Obligatoire. Traitez la société à laquelle le fichier est chargé. |
-|`uploadParams` (Obligatoire. Un document XML `uploadParams` spécifiant les paramètres de transfert)|`jobName` | `xsd:string` | `jobName` ou `jobHandle` est requis. Nom de la tâche de téléchargement. |
-|`uploadParams` (Obligatoire. Un document XML `uploadParams` spécifiant les paramètres de transfert)|`jobHandle` | `xsd:string` | `jobName` ou `jobHandle` est requis. Traitement d’une tâche de téléchargement démarrée dans une demande précédente. |
-|`uploadParams` (Obligatoire. Un document XML `uploadParams` spécifiant les paramètres de transfert)|`locale` | `xsd:string` | Facultatif. Code de langue et de pays pour la localisation. |
-|`uploadParams` (Obligatoire. Un document XML `uploadParams` spécifiant les paramètres de transfert)|`description` | `xsd:string` | Facultatif. Description de la tâche. |
-|`uploadParams` (Obligatoire. Un document XML `uploadParams` spécifiant les paramètres de transfert)|`destFolder` | `xsd:string` | Facultatif. Chemin d’accès du dossier de cible à un préfixe de propriété de nom de fichier, en particulier pour les navigateurs et les autres clients qui ne prennent pas en charge les chemins complets dans un nom de fichier. |
-|`uploadParams` (Obligatoire. Un document XML `uploadParams` spécifiant les paramètres de transfert)|`fileName` | `xsd:string` | Facultatif. Nom du fichier de cible. Remplace la propriété filename. |
-|`uploadParams` (Obligatoire. Un document XML `uploadParams` spécifiant les paramètres de transfert)|`endJob` | `xsd:boolean` | Facultatif. Faux par défaut. |
-|`uploadParams` (Obligatoire. Un document XML `uploadParams` spécifiant les paramètres de transfert)|`uploadParams` | `types:UploadPostJob` | Facultatif s’il s’agit d’une demande ultérieure pour une tâche principale existante. S’il existe une tâche existante, `uploadParams` est ignoré et les paramètres de transfert de tâche existants sont utilisés. Voir [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
+|  POST HTTP faisant partie   |  nom de l’élément uploadPostParams   |  Type   |  Description   |
+|---|---|---|---|
+| `uploadParams` (Obligatoire. Un document XML `uploadParams` spécifiant les paramètres de transfert)   |   `companyHandle`  |  `xsd:string`  | Obligatoire. Traitez la société à laquelle le fichier est chargé.  |
+| `uploadParams` (Obligatoire. Un document XML `uploadParams` spécifiant les paramètres de transfert) | `jobName`  |  `xsd:string`  | `jobName` ou `jobHandle` est requis. Nom de la tâche de téléchargement.  |
+| `uploadParams` (Obligatoire. Un document XML `uploadParams` spécifiant les paramètres de transfert) | `jobHandle`  |  `xsd:string`  | `jobName` ou `jobHandle` est requis. Traitement d’une tâche de téléchargement démarrée dans une demande précédente.  |
+| `uploadParams` (Obligatoire. Un document XML `uploadParams` spécifiant les paramètres de transfert) | `locale`  |  `xsd:string`  | Facultatif. Code de langue et de pays pour la localisation.  |
+| `uploadParams` (Obligatoire. Un document XML `uploadParams` spécifiant les paramètres de transfert) | `description`  |  `xsd:string`  | Facultatif. Description de la tâche.  |
+| `uploadParams` (Obligatoire. Un document XML `uploadParams` spécifiant les paramètres de transfert) | `destFolder`  |  `xsd:string`  | Facultatif. Chemin d’accès du dossier de cible à un préfixe de propriété de nom de fichier, en particulier pour les navigateurs et les autres clients qui ne prennent pas en charge les chemins complets dans un nom de fichier.  |
+| `uploadParams` (Obligatoire. Un document XML `uploadParams` spécifiant les paramètres de transfert) | `fileName`  |  `xsd:string`  | Facultatif. Nom du fichier de cible. Remplace la propriété filename. |
+| `uploadParams` (Obligatoire. Un document XML `uploadParams` spécifiant les paramètres de transfert) | `endJob`  |  `xsd:boolean`  | Facultatif. Faux par défaut. |
+| `uploadParams` (Obligatoire. Un document XML `uploadParams` spécifiant les paramètres de transfert) | `uploadParams`  |  `types:UploadPostJob`  | Facultatif s’il s’agit d’une demande ultérieure pour une tâche principale existante. S’il existe une tâche existante, `uploadParams` est ignoré et les paramètres de transfert de tâche existants sont utilisés. Voir [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
 
 Dans le bloc `<uploadPostParams>` se trouve le bloc `<uploadParams>` qui désigne le traitement des fichiers inclus.
 
