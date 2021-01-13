@@ -7,7 +7,7 @@ title: Notes de compatibilité
 topic: Dynamic media
 uuid: cf732a03-bfaa-4838-862f-73343cefbd67
 translation-type: tm+mt
-source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+source-git-commit: 07eb6cf84a46753b41307187d5c5b2a077fa9009
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Notes de compatibilité{#compatibility-notes}
 
-<!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
+<!-- Updated January 13,2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
 Notes de compatibilité pour les systèmes d’exploitation, les navigateurs et les périphériques mobiles.
 
@@ -76,4 +76,3 @@ Notes de compatibilité pour les systèmes d’exploitation, les navigateurs et 
 * Safari 6.1 ou version ultérieure : Les paramètres du module externe Internet peuvent empêcher la lecture vidéo par Flash.
 * La recherche de vidéos en flux continu HLS sur Safari peut être incohérente.
 * Impossible de rechercher la fin de la vidéo sur Safari 6 à l’aide de la diffusion en flux continu HLS.
-
