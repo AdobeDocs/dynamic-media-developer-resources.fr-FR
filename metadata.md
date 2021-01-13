@@ -1,5 +1,6 @@
 ---
 cloud: experience-cloud
+description: Dynamic Media Classic
 solution: Dynamic Media Classic
 type: Documentation
 solution-title: Formation et support
@@ -12,9 +13,9 @@ tutorials-url: https://marketing.adobe.com/resources/help/en_US/s7/training-vide
 git-repo: https://git.corp.adobe.com/AdobeDocs/dynamic-media-developer-resources.fr-FR
 index: true
 translation-type: tm+mt
-source-git-commit: 2cf150382c04e5acf8e046e28eed26d684701458
+source-git-commit: dfb2f1d5ab4d84e78938264b19b5aaf55238c99f
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '138'
 ht-degree: 2%
 
 ---
