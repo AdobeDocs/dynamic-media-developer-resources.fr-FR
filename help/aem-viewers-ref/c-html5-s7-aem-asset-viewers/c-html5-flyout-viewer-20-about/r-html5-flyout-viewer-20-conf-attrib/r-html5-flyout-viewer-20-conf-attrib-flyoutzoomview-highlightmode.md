@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: FlyoutZoomView.highlightmode
+description: FlyoutZoomView.highlightmode
 solution: Experience Manager
 title: FlyoutZoomView.highlightmode
 topic: Dynamic media
 uuid: 397c1af0-f806-4555-83fa-ec7548b59a60
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 2%
+source-wordcount: '256'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +25,7 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> démonstration  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Définit le temps (en secondes) nécessaire à la mise en surbrillance ou au fondu du curseur après son activation par l’utilisateur. Le fondu d’entrée est appliqué uniquement sur les périphériques tactiles ; sur les systèmes de bureau, il est ignoré par le composant. </p> <p>Le fondu dans s’applique aux éléments d’interface suivants : cadre de mise en surbrillance, curseur fixe, incrustation (au cas où le paramètre d’incrustation <span class="codeph"> est défini sur </span> 1 <span class="codeph">). </span> L'animation de la vue déroulante ne commence qu'une fois que le curseur/la mise en surbrillance s'est estompé dans l'animation. Il n'y a pas d'animation en fondu. Lorsque l’utilisateur désactive la fenêtre déroulante, les éléments correspondants de l’interface (curseur, mise en surbrillance et recouvrement) se masquent instantanément. </p> </td> 
+   <td colname="col2"> <p> Définit le temps (en secondes) nécessaire à la mise en surbrillance ou au fondu du curseur après son activation par l’utilisateur. Le fondu d’entrée est appliqué uniquement sur les périphériques tactiles ; sur les systèmes de bureau, il est ignoré par le composant. </p> <p>Le fondu dans s’applique aux éléments d’interface suivants : cadre de mise en surbrillance, curseur fixe, incrustation (au cas où le paramètre d’incrustation </span> est défini sur <span class="codeph"> 1 </span>). <span class="codeph"> L'animation de la vue déroulante ne commence qu'une fois que le curseur/la mise en surbrillance s'est estompé dans l'animation. Il n'y a pas d'animation en fondu. Lorsque l’utilisateur désactive la fenêtre déroulante, les éléments correspondants de l’interface (curseur, mise en surbrillance et recouvrement) se masquent instantanément. </span></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> onimage|free  </span> </p> </td> 
