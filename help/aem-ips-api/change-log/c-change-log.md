@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Journal des modifications
+description: Journal des modifications
 solution: Experience Manager
 title: Journal des modifications
 topic: Scene7 Image Production System API
 uuid: 0aea43c5-7971-4c1b-8636-008750294e07
 translation-type: tm+mt
-source-git-commit: 83f2f8f4f36d166d36d5aab99769d7e081ab6bd7
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '15'
-ht-degree: 13%
+source-wordcount: '13'
+ht-degree: 0%
 
 ---
 
