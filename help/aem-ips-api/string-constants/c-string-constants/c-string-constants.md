@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Constantes de chaîne
+description: Constantes de chaîne
 solution: Experience Manager
 title: Constantes de chaîne
 topic: Scene7 Image Production System API
 uuid: 2cc2fb9f-ad32-4ac6-8e58-c8a11b786d65
 translation-type: tm+mt
-source-git-commit: 36e4aec6bacc946359d22089f7315e38029266c3
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 9%
+source-wordcount: '109'
+ht-degree: 7%
 
 ---
 
