@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Fonction de recherche
+description: Fonction de recherche
 solution: Experience Manager
 title: Fonction de recherche
 topic: Dynamic media
 uuid: eb8e79fa-893b-402c-a937-6d7121c95821
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 1%
+source-wordcount: '155'
+ht-degree: 0%
 
 ---
 
