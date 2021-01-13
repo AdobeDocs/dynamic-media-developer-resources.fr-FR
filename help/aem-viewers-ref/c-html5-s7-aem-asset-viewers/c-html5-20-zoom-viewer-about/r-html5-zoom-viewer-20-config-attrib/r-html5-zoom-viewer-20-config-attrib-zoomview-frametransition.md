@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: ZoomView.frametransition
+description: ZoomView.frametransition
 solution: Experience Manager
 title: ZoomView.frametransition
 topic: Dynamic media
 uuid: 28e283ca-51d8-4d6c-9b8a-d16da21f4da1
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 7%
+source-wordcount: '91'
+ht-degree: 5%
 
 ---
 
@@ -31,7 +29,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> espacement  </span> </span> </p> </td> 
-   <td colname="col2"> <p>L'espacement entre les trames adjacentes dans la transition de la diapositive <span class="codeph"> a la plage comprise entre </span> 0 <span class="codeph"> et </span> 1 <span class="codeph"> et est relatif à la largeur du composant.</span> </p> </td> 
+   <td colname="col2"> <p>L'espacement entre les trames adjacentes dans la transition de la diapositive </span> a la plage comprise entre <span class="codeph"> 0 </span> et <span class="codeph"> 1 </span> et est relatif à la largeur du composant.<span class="codeph"> </span></p> </td> 
   </tr> 
  </tbody> 
 </table>
