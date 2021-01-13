@@ -1,32 +1,29 @@
 ---
-description: Configuration requise pour les visionneuses HTML5.
-seo-description: Configuration requise pour les visionneuses HTML5.
-seo-title: Configuration système requise
+title: Configuration requise pour les visionneuses HTML5 Dynamic Media
+description: Configuration requise pour les visionneuses HTML5 Dynamic Media.
 solution: Experience Manager
-title: Configuration système requise
 topic: Dynamic media
 contentOwner: Rick Brough
-uuid: d282af6a-112e-48d6-b3ad-bec0648f4654
 translation-type: tm+mt
-source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+source-git-commit: 07eb6cf84a46753b41307187d5c5b2a077fa9009
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 1%
+source-wordcount: '315'
+ht-degree: 0%
 
 ---
 
 
-# Configuration système requise{#system-requirements}
+# Configuration requise pour les visionneuses HTML5 Dynamic Media{#system-requirements}
 
-Configuration requise pour les visionneuses HTML5.
+Configuration requise pour les visionneuses HTML5 Dynamic Media.
 
-<!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
+<!-- Updated January 13, 2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
 ## Matériel et logiciels serveur {#section-05099146f1f0418988c196635110bee6}
 
-* Dynamic Media Classic Image Serving 6.7.1 ou version ultérieure.
-* Les visionneuses HTML5 requièrent des bibliothèques JavaScript SDK côté serveur 3.9.1 ou version ultérieure.
-* Les fonctions sociales &quot;Envoyer un courrier électronique à un ami&quot; nécessitent s7ondemand 5.0.7 ou version ultérieure.
+* Dynamic Media Classic (anciennement Scene7) Image Serving 6.7.1 ou version ultérieure.
+* Les visionneuses HTML5 requièrent des bibliothèques JavaScript SDK côté serveur 3.10.2 ou ultérieures.
+* Les fonctions sociales &quot;Envoyer un courrier électronique à un ami&quot; nécessitent s7ondemand 5.0.9 ou version ultérieure.
 * Visionneuse de catalogue électronique - La prise en charge du panneau d’informations nécessite le serveur d’informations version 2.1.8 ou ultérieure.
 * Les composants des fonctionnalités de recherche nécessitent s7search 2.3.0 ou version ultérieure.
 
@@ -35,17 +32,15 @@ Configuration requise pour les visionneuses HTML5.
 **Configuration minimale requise pour le navigateur client pour les visionneuses de composants**
 
 * Microsoft® Windows® 7 ou version ultérieure ; macOS X 10.12 ou version ultérieure.
-* Firefox 69, Safari 11 (macOS uniquement), Chrome 75 (ou la dernière version ; Chrome est automatiquement mis à jour vers la dernière version), Internet Explorer 11, Microsoft Edge.
+* Firefox 74, Safari 11 (macOS uniquement), Chrome 78 (ou version la plus récente ; Chrome est automatiquement mis à jour vers la dernière version), Internet Explorer 11, Microsoft Edge.
 * iOS6 ou version ultérieure.
 * Certifié sur iPhone 3GS ou une version ultérieure et iPad 2 ou une version ultérieure (navigateurs Safari et Chrome uniquement).
 * Android OS 4.x ou version ultérieure.
 * BlackBerry 10 ou version ultérieure; navigateurs natifs uniquement. La lecture vidéo n’est actuellement prise en charge que.
 * Pour le moment, Internet Explorer sur les périphériques mobiles n’est pas pris en charge.
-* Le lecteur panoramique est pris en charge sur iOS 10 ou versions ultérieures, Firefox 69, Chrome 75, Safari 11 ou versions ultérieures, Internet Explorer 11 ou versions ultérieures, Microsoft Edge, Android 4.4 ou versions ultérieures (appareils mobiles uniquement).
-* Le lecteur vidéo 360 et le lecteur Dimensional sont pris en charge sous iOS12 ou version ultérieure, Firefox 69, Chrome 75, Safari 12 ou version ultérieure, Microsoft Edge, Android 5 ou version ultérieure (périphériques de téléphone uniquement).
-* Le lecteur Zoom vertical est pris en charge sur iOS 10 ou versions ultérieures, Firefox 69, Chrome 75, Safari 11 ou versions ultérieures, Internet Explorer 11, Microsoft Edge, Android 4.x ou versions ultérieures.
-
-<!--<a id="section_1486A48CD38F42E3956E022A48207727"></a>-->
+* Le lecteur panoramique est pris en charge sur iOS 10 ou versions ultérieures, Firefox 74, Chrome 78, Safari 11 ou versions ultérieures, Internet Explorer 11 ou versions ultérieures, Microsoft Edge, Android 4.4 ou versions ultérieures (appareils mobiles uniquement).
+* Le lecteur vidéo360Viewer et le lecteur DimensionalViewer sont pris en charge sur iOS12 ou une version ultérieure, Firefox 74, Chrome 78, Safari 12 ou une version ultérieure, Microsoft Edge, Android 5 ou une version ultérieure (appareils mobiles uniquement).
+* ZoomVerticalViewer est pris en charge sur iOS 10 ou version ultérieure, Firefox 74, Chrome 78, Safari 11 ou version ultérieure, Internet Explorer 11, Microsoft Edge, Android 4.x ou version ultérieure.
 
 >[!NOTE]
 >
@@ -67,10 +62,12 @@ Configuration requise pour les visionneuses HTML5.
 * OpenSSL 0.9.8y
 * Baidu janvier 2015
 
-<!--<a id="section_CF857D27B09D4B09999D79DA2628DDEE"></a>-->
+<!-- 
 
 >[!NOTE]
 >
->FLASH VIEWERS FIN DE VIE : à compter du 31 janvier 2017, Adobe Scene7 Publishing System a officiellement mis fin à la prise en charge de la plate-forme du lecteur de Flash. Pour plus d&#39;informations sur cette modification importante, consultez le site Web de la FAQ suivante :
+>FLASH VIEWERS END-OF-LIFE—Effective January 31, 2017, Adobe Scene7 Publishing System officially ended support for the Flash viewer platform. For more information about this important change, see the following FAQ website:
 
-[https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
+[https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).  
+
+-->
