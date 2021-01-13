@@ -1,16 +1,14 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Rappels de événement
+description: Rappels de événement
 solution: Experience Manager
 title: Rappels de événement
 topic: Dynamic media
 uuid: 1b9af9e4-463a-4982-9e81-681ebebfd6d7
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 1%
+source-wordcount: '147'
+ht-degree: 0%
 
 ---
 
