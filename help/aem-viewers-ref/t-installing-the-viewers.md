@@ -1,15 +1,12 @@
 ---
+title: Installation de plusieurs visionneuses Dynamic Media sur le même serveur
 description: Instructions d’installation de l’API Dynamic Media Viewers.
-seo-description: Instructions d’installation de l’API Dynamic Media Viewers.
-seo-title: Installation de plusieurs visionneuses sur le même serveur
 solution: Experience Manager
-title: Installation de plusieurs visionneuses sur le même serveur
-topic: Dynamic media
-uuid: 91ae8eb5-1d23-4fa3-a0d6-a4a0ed0eb104
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: a0983053795cc119eb57386c005e1f8a7c2fa3e4
+source-git-commit: 07eb6cf84a46753b41307187d5c5b2a077fa9009
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '162'
 ht-degree: 1%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 1%
 
 # Installation de plusieurs visionneuses sur le même serveur{#installing-multiple-viewers-on-the-same-server}
 
-<!-- Updated June 1, 2020 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
+<!-- Updated January 13, 2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
 Instructions d’installation de l’API des visionneuses Dynamic Media.
 
@@ -27,12 +24,12 @@ Copiez les fichiers des visionneuses IS sur votre disque dur, puis déployez le 
 
 >[!NOTE]
 >
->Aucune mise à niveau n’est installée pour les visionneuses Image Serving. Adobe vous recommande de sauvegarder tout répertoire de lecteurs de contenu Dynamic Media existant avant de poursuivre l’installation.
+>Aucune mise à niveau n’est installée pour les visionneuses Image Serving. Adobe vous recommande de sauvegarder tout répertoire de lecteurs Dynamic Media (s7viewers) existant avant de poursuivre l’installation.
 
-**Pour installer les visionneuses sur le même serveur**
+**Pour installer plusieurs visionneuses sur le même serveur**
 
 1. Renommez le fichier .war dans le contexte souhaité et déployez-le à l’emplacement souhaité.
 1. Définissez le paramètre `this.isViewerRoot` dans `config.js`.
 1. Ouvrez `config.js` situé dans la racine du dossier de lecteur de contenu que vous venez de créer.
-1. Définissez le paramètre `this.isViewerRoot = "/s7viewers"` sur le contexte du fichier `s7viewers.war`. Par exemple, `"/s7viewers-4.0"`. Enregistrez et fermez le fichier.
+1. Définissez le paramètre `this.isViewerRoot = "/s7viewers"` sur le contexte du fichier `s7viewers.war`. Par exemple, `"/s7viewers-4.0"`.
 1. Enregistrez le fichier et fermez-le.
