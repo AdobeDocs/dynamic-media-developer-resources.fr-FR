@@ -1,15 +1,13 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: DIFFUSION vidéo HTTP
+description: DIFFUSION vidéo HTTP
 solution: Experience Manager
 title: DIFFUSION vidéo HTTP
 topic: Dynamic media
 uuid: fd02a55a-a0f1-47a2-983f-15f296d1dbb4
 translation-type: tm+mt
-source-git-commit: 6cff4553307fe6cbda4b80ce3f39b58e615fa365
+source-git-commit: 846069e15c622efb1b899956ef84efba9e1a6729
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
