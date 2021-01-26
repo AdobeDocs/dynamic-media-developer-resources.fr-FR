@@ -1,15 +1,12 @@
 ---
-description: Appels d’API Image Production System et leurs paramètres associés qui ne sont plus utilisés.
-seo-description: Appels d’API Image Production System et leurs paramètres associés qui ne sont plus utilisés.
-seo-title: Appels obsolètes
-solution: Experience Manager
 title: Appels obsolètes
-topic: Scene7 Image Production System API
-uuid: 03925728-f011-45f0-84a6-808dff0fd529
+description: Appels d’API Image Production System et leurs paramètres associés qui ne sont plus utilisés dans Dynamic Media.
+solution: Experience Manager
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
@@ -21,7 +18,7 @@ Appels d’API Image Production System et leurs paramètres associés qui ne son
 
 ## Appels {#topic-654c0466e6434fe4a95953322255b08c} obsolètes
 
-Appels d’API Image Production System et leurs paramètres associés qui ne sont plus utilisés.
+Appels d’API Image Production System et leurs paramètres associés qui ne sont plus utilisés dans Dynamic Media.
 
 * `addMediaPortalEvent` - Obsolète des opérations. Cet appel vous permet d’ajouter un Événement Media Portal à IPS.
 * `getMediaPortalEvent` - Obsolète des opérations. Cet appel vous permet d’obtenir des événements du portail multimédia correspondant à des critères spécifiés.
