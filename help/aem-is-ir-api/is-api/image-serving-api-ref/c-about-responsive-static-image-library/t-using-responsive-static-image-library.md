@@ -1,15 +1,12 @@
 ---
 description: Pour ajouter une bibliothèque d’images réactives à une page Web et gérer les images existantes avec la bibliothèque, procédez comme suit.
-seo-description: Pour ajouter une bibliothèque d’images réactives à une page Web et gérer les images existantes avec la bibliothèque, procédez comme suit.
-seo-title: Utilisation de la bibliothèque d’images réactives
 solution: Experience Manager
 title: Utilisation de la bibliothèque d’images réactives
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 325cdc8d-2bfa-4f9b-bf88-51d1dcc6c495
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -88,7 +85,7 @@ Le code suivant est un exemple complet d’une page Web triviale dont une seule 
 
 **Utilisation de la recadrage intelligente**
 
-Il existe deux modes de recadrage dynamique disponibles dans AEM 6.4 et Scene7 Viewers 5.9 :
+Il existe deux modes de recadrage dynamique disponibles dans AEM 6.4 et Dynamic Media Viewers 5.9 :
 
 * **Les points d’arrêt définis manuellement**  par l’utilisateur et les commandes correspondantes du service d’images sont définis dans un attribut de l’élément d’image.
 * **Recadrage**  dynamique : les rendus de recadrage intelligent calculés sont automatiquement récupérés à partir du serveur de diffusion. Le meilleur rendu est sélectionné en utilisant la taille d’exécution de l’élément d’image.
