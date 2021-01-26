@@ -4,10 +4,10 @@ seo-description: Obtient des projets pour un groupe d’actifs connexes.
 seo-title: getProjects
 solution: Experience Manager
 title: getProjects
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 46ec9a5d-4414-4c9c-aaf2-0db654204b61
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 20%
@@ -36,13 +36,13 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | La poignée de la société. |
+| `*`companyHandle`*` | `xsd:string` | Oui | La poignée de la société. |
 
 **Sortie (getProjectsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`projectArray`*` | `types:ProjectArray` | Oui | Tableau de projets associés à la société. |
+| `*`projectArray`*` | `types:ProjectArray` | Oui | Tableau de projets associés à la société. |
 
 ## Exemples {#section-8b12d0b948f644f68bf9a16060d3849a}
 
