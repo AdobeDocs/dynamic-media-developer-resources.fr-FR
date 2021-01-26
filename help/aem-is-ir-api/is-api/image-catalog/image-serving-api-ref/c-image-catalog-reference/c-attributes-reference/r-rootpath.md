@@ -4,10 +4,10 @@ seo-description: Chemin d’accès racine des données source. Chemin d’accès
 seo-title: RootPath
 solution: Experience Manager
 title: RootPath
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 859bebf2-5ee7-4daa-8970-a18bddcee684
 translation-type: tm+mt
-source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 3%
