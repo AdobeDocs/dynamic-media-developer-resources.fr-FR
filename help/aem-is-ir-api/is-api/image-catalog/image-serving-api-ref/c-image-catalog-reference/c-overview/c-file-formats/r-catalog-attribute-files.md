@@ -4,10 +4,10 @@ seo-description: Les fichiers d’attributs du catalogue peuvent porter n’impo
 seo-title: Fichiers d’attributs du catalogue
 solution: Experience Manager
 title: Fichiers d’attributs du catalogue
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 63985780-f032-4542-8d84-b8b608ceea4b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Les fichiers d’attributs du catalogue peuvent porter n’importe quel nom, mai
 
 Les fichiers d’attributs du catalogue se composent d’un ensemble d’enregistrements de texte, séparés par une seule `<CR>` (code ASCII `0xD`), une seule `<LF>` (code ASCII `0xA`) ou une paire `<CR><LF>`. Chaque enregistrement se compose d’un nom d’attribut et d’une ou plusieurs valeurs d’attribut séparées par des virgules :
 
-` *``*= *`namevalues`*{<CR>|<LF>|<CR><LF }`
+`*``*= *`namevalues`*{<CR>|<LF>|<CR><LF }`
 
 <table id="simpletable_0F879121670046AE9414298725961303"> 
  <tr class="strow"> 
