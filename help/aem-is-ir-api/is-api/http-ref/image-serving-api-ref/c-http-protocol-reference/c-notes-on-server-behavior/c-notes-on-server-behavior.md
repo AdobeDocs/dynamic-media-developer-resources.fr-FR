@@ -4,10 +4,10 @@ seo-description: Plusieurs questions de comportement de serveur doivent être pr
 seo-title: Remarques sur le comportement des serveurs
 solution: Experience Manager
 title: Remarques sur le comportement des serveurs
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: cca17322-4058-43cc-b022-ef8df52c0888
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 0%
