@@ -4,10 +4,10 @@ seo-description: Met à jour les autorisations de ressources.
 seo-title: updateAssetPermissions
 solution: Experience Manager
 title: updateAssetPermissions
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: feb2faf3-81de-436e-82de-1e41df03508f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 22%
@@ -33,9 +33,9 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
-| ` *`assetHandle`*` | `xsd:string` | Oui | Poignée de ressource. |
-| ` *`updateArray`*` | `types:PermissionUpdateArray` | Oui | Autorisations que vous souhaitez appliquer à la ressource. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
+| `*`assetHandle`*` | `xsd:string` | Oui | Poignée de ressource. |
+| `*`updateArray`*` | `types:PermissionUpdateArray` | Oui | Autorisations que vous souhaitez appliquer à la ressource. |
 
 **Output (updateAssetPermissionsReturn)**
 
