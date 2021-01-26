@@ -4,10 +4,10 @@ seo-description: Renvoie une région recadrée pour une image en fonction de sa 
 seo-title: getAutoCropRect
 solution: Experience Manager
 title: getAutoCropRect
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: bb00d89a-5fc4-476f-aa47-3cf69ef99afe
 translation-type: tm+mt
-source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 13%
@@ -37,23 +37,23 @@ Syntaxe
 
 >[!NOTE]
 >
->Spécifiez ` *`autoColorCropOptions`*` ou ` *`autoTransparentCropOptions`*` lors de l’appel de cette méthode.
+>Spécifiez `*`autoColorCropOptions`*` ou `*`autoTransparentCropOptions`*` lors de l’appel de cette méthode.
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée vers la société avec la ressource que vous souhaitez utiliser. |
-| ` *`assetHandle`*` | `xsd:string` | Oui | Poignée de la ressource que vous souhaitez utiliser. |
-| ` *`autoColorCropOptions`*` | `types:AutoColorCropOptions` | Non | Calcule le rectangle de recadrage en fonction de la couleur. Voir [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6). |
-| ` *`autoTransparentCropOptions`*` | `types:AutoTransparentCropOptions` | Non | Calcule le rectangle de recadrage en fonction de la transparence. Voir [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b). |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée vers la société avec la ressource que vous souhaitez utiliser. |
+| `*`assetHandle`*` | `xsd:string` | Oui | Poignée de la ressource que vous souhaitez utiliser. |
+| `*`autoColorCropOptions`*` | `types:AutoColorCropOptions` | Non | Calcule le rectangle de recadrage en fonction de la couleur. Voir [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6). |
+| `*`autoTransparentCropOptions`*` | `types:AutoTransparentCropOptions` | Non | Calcule le rectangle de recadrage en fonction de la transparence. Voir [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b). |
 
 **Sortie (getAutoCropRectReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`xOffset`*` | `xsd:int` | Oui | Coordonnée des pixels de départ gauche de la région de recadrage calculée. |
-| ` *`Décalage`*` | `xsd:int` | Oui | Coordonnée du premier pixel de la région de recadrage calculée. |
-| ` *`width`*` | `xsd:int` | Oui | Largeur de la région de recadrage calculée (en pixels). |
-| ` *`height`*` | `xsd:int` | Oui | Hauteur de la région de recadrage calculée (en pixels). |
+| `*`xOffset`*` | `xsd:int` | Oui | Coordonnée des pixels de départ gauche de la région de recadrage calculée. |
+| `*`Décalage`*` | `xsd:int` | Oui | Coordonnée du premier pixel de la région de recadrage calculée. |
+| `*`width`*` | `xsd:int` | Oui | Largeur de la région de recadrage calculée (en pixels). |
+| `*`height`*` | `xsd:int` | Oui | Hauteur de la région de recadrage calculée (en pixels). |
 
 ## Exemples {#section-ba65bd66086d491cad1cea535954ee1f}
 
