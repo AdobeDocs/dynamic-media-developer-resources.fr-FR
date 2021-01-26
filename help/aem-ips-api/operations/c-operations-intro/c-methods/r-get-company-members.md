@@ -4,10 +4,10 @@ seo-description: Renvoie les utilisateurs d’une société spécifiée par une 
 seo-title: getCompanyMembers
 solution: Experience Manager
 title: getCompanyMembers
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 45e2d040-a70a-46f4-863a-633ddabcbcf6
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 15%
@@ -34,14 +34,14 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de la société dont vous souhaitez obtenir les membres. |
-| ` *`includeInvalid`*` | `xsd:boolean` | Oui | Incluez des sociétés non valides. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société dont vous souhaitez obtenir les membres. |
+| `*`includeInvalid`*` | `xsd:boolean` | Oui | Incluez des sociétés non valides. |
 
 **Output (getCompanyMembersReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`MemberArray`*` | `types:CompanyMemberArray` | Oui | Tableau des adhésions des utilisateurs. |
+| `*`MemberArray`*` | `types:CompanyMemberArray` | Oui | Tableau des adhésions des utilisateurs. |
 
 ## Exemples {#section-39d8cf3653fd4fe8b842caabac9dedfc}
 
