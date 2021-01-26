@@ -4,10 +4,10 @@ seo-description: Informations sur l'image Digimarc. Active l’incorporation Dig
 seo-title: DigimarcInfo
 solution: Experience Manager
 title: DigimarcInfo
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8371880e-47df-4333-b8a6-91feaf16c409
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 12%
@@ -23,9 +23,9 @@ Informations sur l&#39;image Digimarc. Active l’incorporation Digimarc et spé
 
 Quatre valeurs entières, séparées par des virgules.
 
-` *``*, *``*, *`typeflagsval1`*, *`val2`*`
+`*``*, *``*, *`typeflagsval1`*, *`val2`*`
 
-` *``*` permet l’incorporation de Digimarc et spécifie le type de filigrane :
+`*``*` permet l’incorporation de Digimarc et spécifie le type de filigrane :
 
 <table id="table_3648951F14D94C5BAD097CFB783F1EE7"> 
  <thead> 
@@ -58,7 +58,7 @@ Quatre valeurs entières, séparées par des virgules.
  </tbody> 
 </table>
 
-` *``*` flagse un champ de bits avec trois valeurs. Définissez le bit 0 pour indiquer le contenu protégé par copie, le bit 1 pour indiquer le contenu restreint et le bit 2 pour indiquer le contenu adulte :
+`*``*` flagse un champ de bits avec trois valeurs. Définissez le bit 0 pour indiquer le contenu protégé par copie, le bit 1 pour indiquer le contenu restreint et le bit 2 pour indiquer le contenu adulte :
 
 <table id="table_00F218515FBE484F9D05CBAF14F9D045"> 
  <thead> 
@@ -103,7 +103,7 @@ Quatre valeurs entières, séparées par des virgules.
  </tbody> 
 </table>
 
-L&#39;interprétation de ` *`val1`*` et ` *`val2`*` dépend de ` *`type`*` :
+L&#39;interprétation de `*`val1`*` et `*`val2`*` dépend de `*`type`*` :
 
 <table id="table_6B29F76BC1974C12AB7124BF84B29EC2"> 
  <thead> 
@@ -120,7 +120,7 @@ L&#39;interprétation de ` *`val1`*` et ` *`val2`*` dépend de ` *`type`*` :
    <td> <p>Non utilisé. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>Non utilisé. </p> </td> 
    <td> <p>Non utilisé. </p> </td> 
   </tr> 
