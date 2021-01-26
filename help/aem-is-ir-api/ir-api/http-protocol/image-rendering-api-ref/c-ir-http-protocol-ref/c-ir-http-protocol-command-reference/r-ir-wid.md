@@ -4,10 +4,10 @@ seo-description: Largeur de l’image de réponse. Indique la mise à l’échel
 seo-title: wid
 solution: Experience Manager
 title: wid
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9a58a5d2-43ac-44db-9959-ba166006b7df
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 2%
