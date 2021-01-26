@@ -4,10 +4,10 @@ seo-description: Déplacez un dossier vers un nouvel emplacement.
 seo-title: moveFolder
 solution: Experience Manager
 title: moveFolder
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 424858c3-5796-4ae9-b5ad-fd50ddbee702
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 25%
@@ -36,15 +36,15 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Pose la société. |
-| ` *`folderHandle`*` | `xsd:string` | Oui | Poignée de dossier. |
-| ` *`destFolderHandle`*` | `xsd:string` | Oui | Accédez au dossier de destination. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Pose la société. |
+| `*`folderHandle`*` | `xsd:string` | Oui | Poignée de dossier. |
+| `*`destFolderHandle`*` | `xsd:string` | Oui | Accédez au dossier de destination. |
 
 **Output (moveFolderReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`folderHandle`*` | `xsd:string` | Oui | Pointez sur le dossier déplacé. |
+| `*`folderHandle`*` | `xsd:string` | Oui | Pointez sur le dossier déplacé. |
 
 ## Exemples {#section-6571c6ab89ce4cb9a139abdb29c6b279}
 
