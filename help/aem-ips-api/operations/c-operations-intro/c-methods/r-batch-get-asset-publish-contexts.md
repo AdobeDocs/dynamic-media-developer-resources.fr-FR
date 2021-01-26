@@ -1,16 +1,13 @@
 ---
 description: Renvoie les contextes de publication des fichiers marqués pour publication.
-seo-description: Renvoie les contextes de publication des fichiers marqués pour publication.
-seo-title: batchGetAssetPublishContextes
 solution: Experience Manager
 title: batchGetAssetPublishContextes
-topic: Scene7 Image Production System API
-uuid: 7f442019-37a9-4473-be92-a952a7a67664
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 14%
+source-wordcount: '97'
+ht-degree: 16%
 
 ---
 
@@ -48,14 +45,14 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Pose la société. |
-| ` *`assetHandleArray`*` | ` `types:HandleArray&quot; | Oui | Liste de ressources que vous souhaitez requête pour les contextes principaux (marqués pour publication). |
+| `*`companyHandle`*` | `xsd:string` | Oui | Pose la société. |
+| `*`assetHandleArray`*` | ` `types:HandleArray&quot; | Oui | Liste de ressources que vous souhaitez requête pour les contextes principaux (marqués pour publication). |
 
 **Sortie (batchGetAssetPublishContextesReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`assetPublishContextesArray`*` | `types:assetPublishContextsArray` | Oui | Tableau de contextes de publication dans lesquels chaque fichier est marqué pour publication. |
+| `*`assetPublishContextesArray`*` | `types:assetPublishContextsArray` | Oui | Tableau de contextes de publication dans lesquels chaque fichier est marqué pour publication. |
 
 ## Exemples {#section-457f6809ccfa425b9a0976313d613f4e}
 
