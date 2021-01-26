@@ -4,10 +4,10 @@ seo-description: Chemin du fichier de définitions de jeu de règles. Spécifie 
 seo-title: FichierJeuRègle
 solution: Experience Manager
 title: FichierJeuRègle
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 904fb549-053a-4f84-9cee-766df8d798e2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 4%
