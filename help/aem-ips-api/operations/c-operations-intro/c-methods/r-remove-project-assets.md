@@ -4,10 +4,10 @@ seo-description: Supprime des actifs d’un projet. Ne détruit pas les actifs.
 seo-title: removeProjectAssets
 solution: Experience Manager
 title: removeProjectAssets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: bae09dc3-4328-4264-8fb2-e4f0c53546eb
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 10%
@@ -35,19 +35,19 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée vers la société contenant les ressources à déplacer. |
-| ` *`projectHandle`*` | `xsd:string` | Oui | Poignée des ressources du projet que vous souhaitez déplacer. |
-| ` *`assetHandleArray`*` | `types:HandleArray` | Oui | Tableau de poignées vers les ressources à déplacer. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée vers la société contenant les ressources à déplacer. |
+| `*`projectHandle`*` | `xsd:string` | Oui | Poignée des ressources du projet que vous souhaitez déplacer. |
+| `*`assetHandleArray`*` | `types:HandleArray` | Oui | Tableau de poignées vers les ressources à déplacer. |
 
 **Sortie (removeProjectAssetsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Oui | Le décompte des ressources a été correctement supprimé. |
-| ` *`warningCount`*` | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de supprimer des ressources du projet. |
-| ` *`errorCount`*` | `xsd:int` | Oui | Nombre d&#39;erreurs générées lorsque l&#39;opération tentait de supprimer des ressources du projet. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des avertissements lorsque l&#39;opération a tenté de les supprimer du projet. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des erreurs lorsque l&#39;opération a tenté de les supprimer du projet. |
+| `*`successCount`*` | `xsd:int` | Oui | Le décompte des ressources a été correctement supprimé. |
+| `*`warningCount`*` | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de supprimer des ressources du projet. |
+| `*`errorCount`*` | `xsd:int` | Oui | Nombre d&#39;erreurs générées lorsque l&#39;opération tentait de supprimer des ressources du projet. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des avertissements lorsque l&#39;opération a tenté de les supprimer du projet. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des erreurs lorsque l&#39;opération a tenté de les supprimer du projet. |
 
 ## Exemples {#section-13546cf0a98e4e1b91b8b7cd5724ced8}
 
