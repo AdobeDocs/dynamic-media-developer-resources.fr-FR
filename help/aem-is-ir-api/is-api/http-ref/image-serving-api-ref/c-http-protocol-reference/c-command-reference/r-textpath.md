@@ -4,10 +4,10 @@ seo-description: Chemin d’accès au texte. Spécifie le chemin d’accès à u
 seo-title: textPath
 solution: Experience Manager
 title: textPath
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a2f0047b-ad62-4605-a723-b43d53fbea56
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 3%
