@@ -4,10 +4,10 @@ seo-description: Qualité Jpeg. Spécifie les attributs de codage JPEG pour cont
 seo-title: qlt
 solution: Experience Manager
 title: qlt
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 46f5b0da-7fe7-4daf-947b-bb5f5f5f5e6d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 7%
@@ -42,7 +42,7 @@ Définissez l’indicateur *`chroma`* pour désactiver le sous-échantillonnage 
 
 Peut se produire n’importe où dans la demande.
 
-Ignoré si le format d’image de sortie ne prend pas en charge la compression JPEG. Reportez-vous à la description de `fmt=` pour obtenir une liste des formats d’image de sortie qui prennent en charge la compression JPEG.
+Ignoré si le format d’image de sortie ne prend pas en charge la compression JPEG. Reportez-vous à la description de `fmt=` pour obtenir la liste des formats d’image de sortie prenant en charge la compression JPEG.
 
 ## Par défaut {#section-1c1257df843c475bbac6aadaffcb6347}
 
