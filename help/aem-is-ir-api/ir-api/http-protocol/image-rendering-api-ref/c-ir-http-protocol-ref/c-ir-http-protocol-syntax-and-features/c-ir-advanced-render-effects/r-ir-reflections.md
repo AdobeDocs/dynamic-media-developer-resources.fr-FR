@@ -4,10 +4,10 @@ seo-description: Il est possible de créer des vignettes pour inclure des donné
 seo-title: Réflexions
 solution: Experience Manager
 title: Réflexions
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6d86f566-0f02-4304-8a6c-08b1a2e9c72e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 3%
