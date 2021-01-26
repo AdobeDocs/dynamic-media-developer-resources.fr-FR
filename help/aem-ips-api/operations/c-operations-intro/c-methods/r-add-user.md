@@ -1,16 +1,13 @@
 ---
 description: Crée un compte utilisateur et l’ajoute à une ou plusieurs sociétés.
-seo-description: Crée un compte utilisateur et l’ajoute à une ou plusieurs sociétés.
-seo-title: addUser
 solution: Experience Manager
 title: addUser
-topic: Scene7 Image Production System API
-uuid: b8c5ada6-470e-4795-a4f3-20750da709a9
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 12%
+source-wordcount: '176'
+ht-degree: 13%
 
 ---
 
@@ -34,20 +31,20 @@ Lors de l’ajout d’un utilisateur à plusieurs sociétés, spécifiez ces soc
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`firstName`*` | `xsd:string` | Oui | Prénom de l’utilisateur. |
-| ` *`lastName`*` | `xsd:string` | Oui | Nom de l’utilisateur. |
-| ` *`e-mail`*` | `xsd:string` | Oui | Adresse électronique de l’utilisateur. |
-| ` *`defaultRole`*` | `xsd:string` | Oui | Définit le rôle d’un utilisateur dans chaque société à laquelle il appartient. Notez toutefois que le rôle `IpsAdmin` remplace d’autres paramètres par société. |
-| ` *`mot de passe`*` | `xsd:string` | Oui | Définit le mot de passe de l’utilisateur. |
-| ` *`passwordExpires`*` | `xsd:dateTime` | Non | Définit la période d’expiration du mot de passe. Indiquez le fuseau horaire lors de la transmission de la demande. Les fuseaux horaires sont ajustés à l’heure centrale. |
-| ` *`isValid`*` | `xsd:boolean` | Oui | Détermine si l’utilisateur est valide. |
-| ` *`membershipArray`*` | `xsd:CompanyMembershipUpdateArray` | Oui | Tableau de poignées de société. |
+| `*`firstName`*` | `xsd:string` | Oui | Prénom de l’utilisateur. |
+| `*`lastName`*` | `xsd:string` | Oui | Nom de l’utilisateur. |
+| `*`e-mail`*` | `xsd:string` | Oui | Adresse électronique de l’utilisateur. |
+| `*`defaultRole`*` | `xsd:string` | Oui | Définit le rôle d’un utilisateur dans chaque société à laquelle il appartient. Notez toutefois que le rôle `IpsAdmin` remplace d’autres paramètres par société. |
+| `*`mot de passe`*` | `xsd:string` | Oui | Définit le mot de passe de l’utilisateur. |
+| `*`passwordExpires`*` | `xsd:dateTime` | Non | Définit la période d’expiration du mot de passe. Indiquez le fuseau horaire lors de la transmission de la demande. Les fuseaux horaires sont ajustés à l’heure centrale. |
+| `*`isValid`*` | `xsd:boolean` | Oui | Détermine si l’utilisateur est valide. |
+| `*`membershipArray`*` | `xsd:CompanyMembershipUpdateArray` | Oui | Tableau de poignées de société. |
 
 **Output (addUserParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | Oui | Nom d’utilisateur. |
+| `*`userHandle`*` | `xsd:string` | Oui | Nom d’utilisateur. |
 
 ## Exemples {#section-2547cef622734b71919eef849960b5cb}
 
