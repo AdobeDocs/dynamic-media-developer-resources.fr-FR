@@ -4,10 +4,10 @@ seo-description: Tous les attributs de catalogue sont facultatifs, à l’except
 seo-title: Référence des attributs
 solution: Experience Manager
 title: Référence des attributs
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 613f1f3c-9abb-4d3e-b8b7-c2ba74f46011
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 0%
