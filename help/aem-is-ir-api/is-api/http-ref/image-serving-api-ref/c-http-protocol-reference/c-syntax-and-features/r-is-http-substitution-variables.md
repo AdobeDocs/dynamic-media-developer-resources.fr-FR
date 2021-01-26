@@ -4,10 +4,10 @@ seo-description: Les variables de substitution sont utilisées pour transférer 
 seo-title: Variables de substitution
 solution: Experience Manager
 title: Variables de substitution
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e369f2c3-8d89-4169-8869-f1d7ab89aab9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 0%
@@ -82,7 +82,7 @@ En règle générale, les valeurs de variable devant être substituées dans des
 
 ## Variable de chemin prédéfinie {#section-930d0dd12e8f49499becc9fe8df24092}
 
-L&#39;*`object`* spécifié dans le chemin de requête est affecté à la variable prédéfinie ` *`$object`*`. &quot; ` $ *`object`*$`&quot; peut être placé n’importe où dans la requête, dans le modèle référencé par la requête ou dans une requête imbriquée/incorporée lorsque cet objet est autorisé, y compris la valeur `src=` et `mask=`, ainsi que le chemin d’une requête imbriquée/incorporée.
+L&#39;*`object`* spécifié dans le chemin de requête est affecté à la variable prédéfinie `*`$object`*`. &quot; ` $ *`object`*$`&quot; peut être placé n’importe où dans la requête, dans le modèle référencé par la requête ou dans une requête imbriquée/incorporée lorsque cet objet est autorisé, y compris la valeur `src=` et `mask=`, ainsi que le chemin d’une requête imbriquée/incorporée.
 
 Par exemple, la requête suivante réutilise l’image spécifiée dans le chemin en tant que source d’un calque dans une requête imbriquée :
 
@@ -92,13 +92,13 @@ Cela équivaut à
 
 `/is/image/a/b?…&layer=3&src=is{…&src=a/b}&…`
 
-La définition de ` *`$object`*` peut être remplacée en spécifiant explicitement ` $ *`object`*=` avec la valeur souhaitée.
+La définition de `*`$object`*` peut être remplacée en spécifiant explicitement ` $ *`object`*=` avec la valeur souhaitée.
 
 La variable de chemin prédéfinie est généralement utilisée conjointement avec `template=`.
 
 ## Par défaut {#section-b02483d15529444586a2e9504805b155}
 
-Aucun. Seules les variables définies seront remplacées par le serveur (à l’exception de la variable de chemin prédéfinie $object, qui sera toujours remplacée). Les occurrences de ` $ *`var`*$` restent littérales si ` *`var`*`ne peuvent pas être associées à une définition de variable existante.
+Aucun. Seules les variables définies seront remplacées par le serveur (à l’exception de la variable de chemin prédéfinie $object, qui sera toujours remplacée). Les occurrences de ` $ *`var`*$` restent littérales si `*`var`*`ne peuvent pas être associées à une définition de variable existante.
 
 ## Exemples {#section-fba9393df6984247b7e30b3f93992e86}
 
