@@ -4,10 +4,10 @@ seo-description: Met à jour les valeurs du dictionnaire de balises pour un cham
 seo-title: updateTagFieldValues
 solution: Experience Manager
 title: updateTagFieldValues
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 21689469-a0dd-480b-82ba-ebd12956ff8f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 15%
@@ -66,11 +66,11 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Oui | Nombre de champs de balise mis à jour avec succès. |
-| ` *`warningCount`*` | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de mettre à jour les champs de balise. |
-| ` *`errorCount`*` | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de mettre à jour les champs de balise. |
-| ` *`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | Non | Tableau de détails associés aux ressources qui ont généré des avertissements lorsque l’opération tentait de mettre à jour les champs de balise. |
-| ` *`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | Non | Tableau de détails associés aux actifs qui ont généré des erreurs lorsque l’opération tentait de mettre à jour les champs de balise. |
+| `*`successCount`*` | `xsd:int` | Oui | Nombre de champs de balise mis à jour avec succès. |
+| `*`warningCount`*` | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de mettre à jour les champs de balise. |
+| `*`errorCount`*` | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de mettre à jour les champs de balise. |
+| `*`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | Non | Tableau de détails associés aux ressources qui ont généré des avertissements lorsque l’opération tentait de mettre à jour les champs de balise. |
+| `*`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | Non | Tableau de détails associés aux actifs qui ont généré des erreurs lorsque l’opération tentait de mettre à jour les champs de balise. |
 
 ## Exemples {#section-bb4dcf97044c4675974c9b8d27674001}
 
