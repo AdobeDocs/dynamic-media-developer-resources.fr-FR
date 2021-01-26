@@ -4,10 +4,10 @@ seo-description: Les champs suivants sont reconnus dans les fichiers d’image e
 seo-title: Données Image_SVG
 solution: Experience Manager
 title: Données Image_SVG
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6f9595b3-d448-4aa1-87fe-edddfdd48873
 translation-type: tm+mt
-source-git-commit: 93c8d3016b21b0ea5689d79115588f13e702cf9f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 3%
