@@ -1,15 +1,12 @@
 ---
-description: Ce document décrit le protocole HTTP pour le rendu d’image Scene7.
-seo-description: Ce document décrit le protocole HTTP pour le rendu d’image Scene7.
-seo-title: Introduction
+description: Ce document décrit le protocole HTTP pour le rendu d’image Dynamic Media.
 solution: Experience Manager
 title: Introduction
-topic: Scene7 Image Serving - Image Rendering API
-uuid: d709f1d2-e7cc-4e9f-b039-aa333e517cbb
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '384'
 ht-degree: 1%
 
 ---
@@ -17,15 +14,15 @@ ht-degree: 1%
 
 # Introduction{#introduction}
 
-Ce document décrit le protocole HTTP pour le rendu d’image Scene7.
+Ce document décrit le protocole HTTP pour le rendu d’image Dynamic Media.
 
-Seuls les aspects du protocole accessibles au public sont décrits. Le serveur peut prendre en charge d&#39;autres commandes réservées au logiciel client Scene7.
+Seuls les aspects du protocole accessibles au public sont décrits. Le serveur peut prendre en charge d&#39;autres commandes réservées au logiciel client Dynamic Media.
 
 **Audience prévue**
 
-Ce document est destiné aux programmeurs expérimentés et aux développeurs de sites Web qui souhaitent exploiter le rendu d’image Scene7 pour un site Web ou une application personnalisée.
+Ce document est destiné aux programmeurs expérimentés et aux développeurs de sites Web qui souhaitent exploiter le rendu d’image Dynamic Media pour un site Web ou une application personnalisée.
 
-Il est supposé que le lecteur connaît bien la création et le rendu d’images Scene7, les normes et conventions de protocole HTTP générales et la terminologie de base de l’imagerie.
+Il est supposé que le lecteur connaît bien la création et le rendu d’images Dynamic Media, les normes et conventions de protocole HTTP générales et la terminologie de base de l’imagerie.
 
 **Conventions relatives aux documents**
 
@@ -100,4 +97,4 @@ Il est supposé que le lecteur connaît bien la création et le rendu d’images
 
 ** *`MSS`* ** Segment de spécification du matériau : un ensemble d&#39;attributs matériels entre deux commandes de sélection dans la requête.
 
-** *`vignette`* ** Image préparée dans Scene7 Image Authoring pour être utilisée avec le rendu d’image.
+** *`vignette`* ** Image préparée dans Dynamic Media Image Authoring pour être utilisée avec le rendu d’image.
