@@ -4,10 +4,10 @@ seo-description: Renvoie tous les champs de métadonnées, regroupés par type d
 seo-title: getAssetMetadataFields
 solution: Experience Manager
 title: getAssetMetadataFields
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 01d5076f-f187-4069-b2f2-806fb1d8be84
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 20%
@@ -37,13 +37,13 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Identifiant de la société dont vous souhaitez récupérer les métadonnées. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Identifiant de la société dont vous souhaitez récupérer les métadonnées. |
 
 **Output (getAssetMetadataFieldsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`assetFieldArray`*` | `types:AssetMetadataFieldsArray` | Oui | Tableau des champs de métadonnées, par type de ressource. |
+| `*`assetFieldArray`*` | `types:AssetMetadataFieldsArray` | Oui | Tableau des champs de métadonnées, par type de ressource. |
 
 ## Exemples {#section-d79ab85f29144635b0b61416e52f4f3f}
 
