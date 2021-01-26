@@ -2,10 +2,10 @@
 description: Diffusion de contenu statique (sans image)
 solution: Experience Manager
 title: Diffusion de contenu statique (sans image)
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4ec483fe-68a4-4ae2-b5ce-730229a9bc15
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 1%
