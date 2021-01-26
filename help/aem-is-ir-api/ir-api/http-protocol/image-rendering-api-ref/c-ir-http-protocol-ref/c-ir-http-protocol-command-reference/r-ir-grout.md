@@ -4,10 +4,10 @@ seo-description: Couleur et épaisseur du grillage. Simule le grout pour les car
 seo-title: pâturage
 solution: Experience Manager
 title: pâturage
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 00069004-40f2-4ab6-85d8-ca197b7bef69
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 2%
@@ -41,13 +41,13 @@ Pour un contrôle maximal de l&#39;apparence du grout, les exigences suivantes s
 
 ## Propriétés {#section-de78b678245b4ffda48097c345949e77}
 
-Attribut de matériau. ` *`La `*` couleur doit être une valeur de couleur RVB. ` *`La `*` largeur doit être une valeur réelle de 0 ou plus.
+Attribut de matériau. `*`La `*` couleur doit être une valeur de couleur RVB. `*`La `*` largeur doit être une valeur réelle de 0 ou plus.
 
 Ignoré si repeat = 4, 5, 7, 8, 9, 14 ou plus, ou si spécifié pour des matières autres que des textures répétables.
 
 ## Par défaut {#section-bfab3621f70b4489a21994ab11b20cc6}
 
-Si `grout=` n&#39;est pas spécifié, le grain de l&#39;image n&#39;est pas modifié. Si ` grout= *`color`*` est spécifié, ` *`width`*` prend par défaut la valeur `catalog::GroutWidth`.
+Si `grout=` n&#39;est pas spécifié, le grain de l&#39;image n&#39;est pas modifié. Si ` grout= *`color`*` est spécifié, `*`width`*` prend par défaut la valeur `catalog::GroutWidth`.
 
 ## Voir aussi {#section-8d472906a44943f5a8557e98f2fbc71f}
 
