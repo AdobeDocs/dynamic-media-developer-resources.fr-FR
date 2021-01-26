@@ -4,12 +4,12 @@ seo-description: Quatre types généraux de vignettes de production sont pris en
 seo-title: Mise à l’échelle de la vignette
 solution: Experience Manager
 title: Mise à l’échelle de la vignette
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 08c8f826-7dce-4bcb-9323-4892262eb578
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Quatre types généraux de vignettes de production sont pris en charge.
    Recommandé lorsque toutes les tailles d’image de rendu souhaitées sont connues. Fournit une meilleure qualité et un rendu plus rapide que les vignettes à résolution unique et les vignettes pyramidales, car l’image n’a pas besoin d’être mise à l’échelle après le rendu.
 * Pyramide
 
-   Il est conseillé d’utiliser tous les objectifs lorsque plusieurs tailles d’image sont nécessaires et que les tailles exactes ne sont pas prédéterminées et lorsque l’une des visionneuses de zoom du Flash Scene7 est utilisée.
+   Il est conseillé d’utiliser toutes les fonctions, lorsque plusieurs tailles d’image sont nécessaires et que les tailles exactes ne sont pas prédéterminées et lorsque la visionneuse de zoom Dynamic Media est utilisée.
 * Pyramide avec une ou plusieurs résolutions supplémentaires
 
    Offre une qualité élevée pour des tailles spécifiques tout en offrant une flexibilité et la prise en charge des visionneuses de zoom.
