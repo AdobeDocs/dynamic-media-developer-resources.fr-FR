@@ -4,10 +4,10 @@ seo-description: Vérifie si un utilisateur disposant d’une société spécifi
 seo-title: checkLogin
 solution: Experience Manager
 title: checkLogin
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 69f9e5f6-50c2-403d-93b2-b84a01f512a9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 11%
@@ -41,15 +41,15 @@ Vérifie si un utilisateur disposant d’une société spécifique (identifiée 
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Non | Identifiant de la société contenant l’utilisateur. |
-| ` *`e-mail`*` | `xsd:string` | Oui | Adresse électronique de l’utilisateur. |
-| ` *`mot de passe`*` | `xsd:string` | Oui | Mot de passe de l’utilisateur. |
+| `*`companyHandle`*` | `xsd:string` | Non | Identifiant de la société contenant l’utilisateur. |
+| `*`e-mail`*` | `xsd:string` | Oui | Adresse électronique de l’utilisateur. |
+| `*`mot de passe`*` | `xsd:string` | Oui | Mot de passe de l’utilisateur. |
 
 **Output (checkLoginParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`état`*` | `xsd:string` | Oui | Etat de connexion de l’utilisateur. |
+| `*`état`*` | `xsd:string` | Oui | Etat de connexion de l’utilisateur. |
 
 ## Exemples {#section-23f90100a9d94bc7b4045634cccd1b98}
 
