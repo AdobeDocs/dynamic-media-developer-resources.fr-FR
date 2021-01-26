@@ -4,10 +4,10 @@ seo-description: Crée un nouveau fichier dérivé d’un fichier d’image sour
 seo-title: createDerivedAsset
 solution: Experience Manager
 title: createDerivedAsset
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e1f9b690-af34-4da5-a534-c3a8c6b0a8fc
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 8%
@@ -42,19 +42,19 @@ Contrairement à une copie d’image (voir [copyImage](../../../operations/c-ope
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de la société qui contient la ressource à partir de laquelle vous allez dériver la nouvelle ressource. |
-| ` *`ownerHandle`*` | `xsd:string` | Oui | Poignée du fichier d’image Principale à partir duquel la nouvelle image sera dérivée. |
-| ` *`folderHandle`*` | `xsd:string` | Oui | Identifiant du dossier dans lequel la nouvelle ressource dérivée sera créée. |
-| ` *`name`*` | `xsd:string` | Oui | Nom de l’actif dérivé. |
-| ` *`type`*` | `xsd:string` | Oui | Type d’actif du nouvel actif dérivé : `AdjustedView` ou `LayerView`. |
-| ` *`urlModificateur`*` | `xsd:string` | Non | Commandes de protocole de traitement d’image ou de rendu d’image appliquées *avant* les commandes de requête ou `urlPostApplyModifier`. |
-| ` *`urlPostApplyModificateur`*` | `xsd:string` | Non | Commandes de protocole de traitement d’image ou de rendu d’image appliquées *après* aux commandes de requête ou `urlPostApplyModifier`. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société qui contient la ressource à partir de laquelle vous allez dériver la nouvelle ressource. |
+| `*`ownerHandle`*` | `xsd:string` | Oui | Poignée du fichier d’image Principale à partir duquel la nouvelle image sera dérivée. |
+| `*`folderHandle`*` | `xsd:string` | Oui | Identifiant du dossier dans lequel la nouvelle ressource dérivée sera créée. |
+| `*`name`*` | `xsd:string` | Oui | Nom de l’actif dérivé. |
+| `*`type`*` | `xsd:string` | Oui | Type d’actif du nouvel actif dérivé : `AdjustedView` ou `LayerView`. |
+| `*`urlModificateur`*` | `xsd:string` | Non | Commandes de protocole de traitement d’image ou de rendu d’image appliquées *avant* les commandes de requête ou `urlPostApplyModifier`. |
+| `*`urlPostApplyModificateur`*` | `xsd:string` | Non | Commandes de protocole de traitement d’image ou de rendu d’image appliquées *après* aux commandes de requête ou `urlPostApplyModifier`. |
 
 **Output (createDerivedAssetParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | Oui | Poignée de l’élément dérivé. |
+| `*`assetHandle`*` | `xsd:string` | Oui | Poignée de l’élément dérivé. |
 
 ## Exemples {#section-5d5ea893a1ef4edc8b3a396f1936e8c9}
 
