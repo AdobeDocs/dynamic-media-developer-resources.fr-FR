@@ -4,10 +4,10 @@ seo-description: Cette rubrique décrit la syntaxe d’utilisation de la technol
 seo-title: Utilisation
 solution: Experience Manager
 title: Utilisation
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 251aa1a0-5f19-42ab-b237-3e3b53fe8320
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 2%
