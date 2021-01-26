@@ -4,12 +4,12 @@ seo-description: Si jsonp est spécifié comme format de réponse, les données 
 seo-title: Propriétés JSONP
 solution: Experience Manager
 title: Propriétés JSONP
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e53d75f2-9b43-4e8f-8191-66f69f344cdd
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Les requêtes qui prennent en charge le format de réponse JSONP vous permettent
 
 `<reqHandler>` est le nom du gestionnaire JS présent dans la réponse JSONP. Seuls les caractères a-z, A-Z et 0-9 sont autorisés. Facultatif. La valeur par défaut est `s7jsonResponse`.
 
-Le package des visionneuses de diffusion d’images de Scene7 comprend un utilitaire permettant de demander et d’analyser des données au format JSONP à partir de la diffusion d’images.
+Le package des visionneuses de diffusion d’images de Dynamic Media comprend un utilitaire permettant de demander et d’analyser des données au format JSONP à partir de la diffusion d’images.
 
 Voir [http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP) pour plus d’informations sur le format JSONP.
 
