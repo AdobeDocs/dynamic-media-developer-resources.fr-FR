@@ -1,15 +1,15 @@
 ---
-description: Cette documentation explique comment administrer le serveur de rendu d’image Scene7.
-seo-description: Cette documentation explique comment administrer le serveur de rendu d’image Scene7.
+description: Cette documentation explique comment administrer le serveur de rendu d’image Dynamic Media.
+seo-description: Cette documentation explique comment administrer le serveur de rendu d’image Dynamic Media.
 seo-title: Présentation de l’administration du serveur
 solution: Experience Manager
 title: Présentation de l’administration du serveur
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 83aa83b7-bb7a-4bbd-923c-dd69763fe9c9
 translation-type: tm+mt
-source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Présentation de l&#39;administration du serveur{#server-administration-overview}
 
-Cette documentation explique comment administrer le serveur de rendu d’image Scene7.
+Cette documentation explique comment administrer le serveur de rendu d’image Dynamic Media.
 
 Le rendu d’image se compose de deux composants principaux :
 
