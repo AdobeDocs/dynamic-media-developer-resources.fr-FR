@@ -4,10 +4,10 @@ seo-description: Chemin du fichier de vignette. Chemin relatif et nom d’un fic
 seo-title: Chemin
 solution: Experience Manager
 title: Chemin
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 470cee37-9840-402a-bde5-ace8988996d2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 10%
