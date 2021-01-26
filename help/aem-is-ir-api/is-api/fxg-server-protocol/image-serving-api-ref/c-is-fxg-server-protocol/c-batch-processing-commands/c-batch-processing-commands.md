@@ -4,10 +4,10 @@ seo-description: Les commandes suivantes comprennent l’API de traitement par l
 seo-title: Commandes de traitement par lots
 solution: Experience Manager
 title: Commandes de traitement par lots
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e82c8106-8ea5-42c6-8ca9-ee9b8d9deb57
 translation-type: tm+mt
-source-git-commit: 4169757880407b62addd0a70ef1807d8b195820b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 0%
