@@ -4,10 +4,10 @@ seo-description: Les calques sont composés dans l’ordre spécifié par la com
 seo-title: La trame de composition
 solution: Experience Manager
 title: La trame de composition
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 057b11cb-36f3-40f8-b095-9ad05da858a9
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%
