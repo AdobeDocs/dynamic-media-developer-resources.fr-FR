@@ -4,10 +4,10 @@ seo-description: Ancre d’image. Point d’Origine lorsque cette image est util
 seo-title: Ancre
 solution: Experience Manager
 title: Ancre
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 81069578-8470-4ec0-b755-47b0a8124024
 translation-type: tm+mt
-source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 5%
