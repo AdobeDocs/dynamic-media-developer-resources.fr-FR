@@ -4,10 +4,10 @@ seo-description: Met à jour les paramètres de format de publication de vignett
 seo-title: updateVignettePublishFormat
 solution: Experience Manager
 title: updateVignettePublishFormat
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: ef8ae609-56e8-4ed6-906b-0668c5873946
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 20%
@@ -32,25 +32,25 @@ Met à jour les paramètres de format de publication de vignette.
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
-| ` *`vignetteFormatHandle`*` | `xsd:string` | Oui | Poignée de format de publication. |
-| ` *`name`*` | `xsd:string` | Non | Nom du format de publication. |
-| ` *`targetWidth`*` | `xsd:int` | Oui | Indique la largeur de cible de la vue de vignette obtenue en pixels. Utilisez zéro pour que la vignette de sortie ait la même taille que la vignette Principale. |
-| ` *`targetHeight`*` | `xsd:int` | Oui | Indique la hauteur de cible de la vue de vignette obtenue en pixels. Utilisez zéro pour que la vignette de sortie ait la même taille que la vignette Principale. |
-| ` *`createPyramid`*` | `xsd:boolean` | Oui | Crée une vignette pyramidale optimisée pour le zoom sur le serveur Image Rendering. En commençant à la taille maximale, comme défini dans les champs Taille de vignette cible, il est possible de créer des vues de taille multiple dans un même fichier cible de vignette. Chaque taille de vue suivante sera diminuée de moitié jusqu&#39;à ce que la largeur et la hauteur soient comprises dans un format 128 x 128 pixels. |
-| ` *`thumbWidth`*` | `xsd:int` | Oui | Indique la largeur de chaque miniature résultante en pixels. Ce paramètre est facultatif. Laissez la valeur zéro pour aucun fichier miniature. |
-| ` *`saveAsVersion`*` | `xsd:int` | Oui | Indique le format de fichier des vignettes publiées. Compte tenu d’une nouvelle version de Image Authoring et d’une ancienne version du serveur de rendu d’images, vous devez spécifier une version de vignette lisible par votre serveur ImageRendering. Si vous spécifiez une version supérieure, le serveur de rendu des images ne peut pas lire les vignettes publiées. Définissez ce paramètre sur zéro pour publier les vignettes à la dernière version. |
-| ` *`sizeSuffixSeparator`*` | `xsd:string` | Oui | Indique le caractère qui sépare le nom de la vignette et le suffixe indiquant sa largeur. |
-| ` *`accentuer`*` | `xsd:int` | Non | Applique l’accentuation à l’image de vue principale pour chaque taille de vignette de publication. L’accentuation peut compenser le flou lors de la mise à l’échelle des vignettes. |
-| ` *`usmAmount`*` | `xsd:double` | Oui | Le masquage flou numérique est un moyen flexible et puissant d’augmenter la netteté, en particulier dans les images numérisées. Ceci contrôle l&#39;ampleur de chaque dépassement (jusqu&#39;à quel point les bordures sont plus foncées et plus claires). |
-| ` *`usmRadius`*` | `xsd:double` | Oui | Affecte la taille des bords à améliorer ou la largeur des bords, de sorte qu’un rayon plus petit améliore les détails à petite échelle. Des valeurs de rayon plus élevées peuvent provoquer des halos aux bords. Les détails fins nécessitent un rayon plus petit, car des détails minuscules de même taille ou plus petits que le rayon sont perdus. |
-| ` *`usmThreshold`*` | `xsd:int` | Oui | Contrôle le changement de luminosité minimum à accentuer ou la distance entre les valeurs tonales adjacentes avant que le filtre ne fonctionne. Ce paramètre permet d’accentuer des bords plus prononcés tout en laissant les bords plus subtils intacts. La plage de seuil autorisée est comprise entre 0 et 255. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
+| `*`vignetteFormatHandle`*` | `xsd:string` | Oui | Poignée de format de publication. |
+| `*`name`*` | `xsd:string` | Non | Nom du format de publication. |
+| `*`targetWidth`*` | `xsd:int` | Oui | Indique la largeur de cible de la vue de vignette obtenue en pixels. Utilisez zéro pour que la vignette de sortie ait la même taille que la vignette Principale. |
+| `*`targetHeight`*` | `xsd:int` | Oui | Indique la hauteur de cible de la vue de vignette obtenue en pixels. Utilisez zéro pour que la vignette de sortie ait la même taille que la vignette Principale. |
+| `*`createPyramid`*` | `xsd:boolean` | Oui | Crée une vignette pyramidale optimisée pour le zoom sur le serveur Image Rendering. En commençant à la taille maximale, comme défini dans les champs Taille de vignette cible, il est possible de créer des vues de taille multiple dans un même fichier cible de vignette. Chaque taille de vue suivante sera diminuée de moitié jusqu&#39;à ce que la largeur et la hauteur soient comprises dans un format 128 x 128 pixels. |
+| `*`thumbWidth`*` | `xsd:int` | Oui | Indique la largeur de chaque miniature résultante en pixels. Ce paramètre est facultatif. Laissez la valeur zéro pour aucun fichier miniature. |
+| `*`saveAsVersion`*` | `xsd:int` | Oui | Indique le format de fichier des vignettes publiées. Compte tenu d’une nouvelle version de Image Authoring et d’une ancienne version du serveur de rendu d’images, vous devez spécifier une version de vignette lisible par votre serveur ImageRendering. Si vous spécifiez une version supérieure, le serveur de rendu des images ne peut pas lire les vignettes publiées. Définissez ce paramètre sur zéro pour publier les vignettes à la dernière version. |
+| `*`sizeSuffixSeparator`*` | `xsd:string` | Oui | Indique le caractère qui sépare le nom de la vignette et le suffixe indiquant sa largeur. |
+| `*`accentuer`*` | `xsd:int` | Non | Applique l’accentuation à l’image de vue principale pour chaque taille de vignette de publication. L’accentuation peut compenser le flou lors de la mise à l’échelle des vignettes. |
+| `*`usmAmount`*` | `xsd:double` | Oui | Le masquage flou numérique est un moyen flexible et puissant d’augmenter la netteté, en particulier dans les images numérisées. Ceci contrôle l&#39;ampleur de chaque dépassement (jusqu&#39;à quel point les bordures sont plus foncées et plus claires). |
+| `*`usmRadius`*` | `xsd:double` | Oui | Affecte la taille des bords à améliorer ou la largeur des bords, de sorte qu’un rayon plus petit améliore les détails à petite échelle. Des valeurs de rayon plus élevées peuvent provoquer des halos aux bords. Les détails fins nécessitent un rayon plus petit, car des détails minuscules de même taille ou plus petits que le rayon sont perdus. |
+| `*`usmThreshold`*` | `xsd:int` | Oui | Contrôle le changement de luminosité minimum à accentuer ou la distance entre les valeurs tonales adjacentes avant que le filtre ne fonctionne. Ce paramètre permet d’accentuer des bords plus prononcés tout en laissant les bords plus subtils intacts. La plage de seuil autorisée est comprise entre 0 et 255. |
 
 **Output (updateVignettePublishFormatReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`vignetteFormatHandle`*` | `xsd:string` | Oui | Gérer le format de publication de vignettes mis à jour. |
+| `*`vignetteFormatHandle`*` | `xsd:string` | Oui | Gérer le format de publication de vignettes mis à jour. |
 
 ## Exemple {#section-fcba4bf2b7264786a676e315a35dbe43}
 
