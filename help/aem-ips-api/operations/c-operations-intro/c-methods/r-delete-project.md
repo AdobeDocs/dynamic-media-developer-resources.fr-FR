@@ -4,10 +4,10 @@ seo-description: Supprime un projet d’une société. Les liens entre les resso
 seo-title: deleteProject
 solution: Experience Manager
 title: deleteProject
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 0915066f-2106-4cbc-a68a-f149810c24f8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 7%
@@ -36,8 +36,8 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyName`*` | `xsd:string` | Oui | Nom de la société associée au projet. |
-| ` *`projectHandle`*` | `xsd:string` | Oui | Identifiant du projet à supprimer. |
+| `*`companyName`*` | `xsd:string` | Oui | Nom de la société associée au projet. |
+| `*`projectHandle`*` | `xsd:string` | Oui | Identifiant du projet à supprimer. |
 
 **Output (deleteProjectReturn)**
 
