@@ -5,9 +5,9 @@ title: InfoPanelPopup.infoServerUrl
 topic: Dynamic media
 uuid: 0d0f2fd8-b3fc-46fd-8720-9c4c51db9646
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '193'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> infoserverurl</span></span> </p> </td> 
-   <td> <p>Le modèle d’URL du serveur d’informations permet de récupérer les paires clé/valeur pour la substitution de variable dans le modèle de contenu du panneau d’informations. Le modèle spécifié contient généralement des espaces réservés aux macros qui sont remplacés par les données réelles avant que la demande ne soit envoyée au serveur. </p> <p><span class="codeph"> $1$</span> est remplacé par la valeur de survol qui a déclenché l’ <span class="codeph"> </span> activation InfoPanelPopupactivation. </p> <p><span class="codeph"> $2$</span> est remplacé par le numéro de séquence de l’image active dans la visionneuse d’images. </p> <p><span class="codeph"> $3$</span> est remplacé par le premier élément de chemin spécifié dans le nom du jeu parent de l'élément actif. Il correspond généralement à l’ID de catalogue. </p> <p><span class="codeph"> $4$</span> est remplacé par l’élément suivant dans le chemin d’accès et correspond à l’ID de ressource. La syntaxe de requête du serveur d’informations est dépendante du serveur d’informations et diffère d’un serveur à l’autre. Par exemple, voici un modèle type de demande de serveur d’informations Scene7 : </p> <p><span class="codeph"> http://server_domain/s7info/s7/$3$/$4$/$1$</span> </p> </td> 
+   <td> <p>Le modèle d’URL du serveur d’informations permet de récupérer les paires clé/valeur pour la substitution de variable dans le modèle de contenu du panneau d’informations. Le modèle spécifié contient généralement des espaces réservés aux macros qui sont remplacés par les données réelles avant que la demande ne soit envoyée au serveur. </p> <p><span class="codeph"> $1$</span> est remplacé par la valeur de survol qui a déclenché l’ <span class="codeph"> </span> activation InfoPanelPopupactivation. </p> <p><span class="codeph"> $2$</span> est remplacé par le numéro de séquence de l’image active dans la visionneuse d’images. </p> <p><span class="codeph"> $3$</span> est remplacé par le premier élément de chemin spécifié dans le nom du jeu parent de l'élément actif. Il correspond généralement à l’ID de catalogue. </p> <p><span class="codeph"> $4$</span> est remplacé par l’élément suivant dans le chemin d’accès et correspond à l’ID de ressource. La syntaxe de requête du serveur d’informations est dépendante du serveur d’informations et diffère d’un serveur à l’autre. Par exemple, voici un modèle type de demande de serveur d’informations Dynamic Media : </p> <p><span class="codeph"> http://server_domain/s7info/s7/$3$/$4$/$1$</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
