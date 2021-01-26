@@ -4,10 +4,10 @@ seo-description: Définit les attributs utilisateur (par exemple, nom, adresse �
 seo-title: setUserInfo
 solution: Experience Manager
 title: setUserInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 52e3a21e-1dd5-4f9d-b460-506d280fff47
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 19%
@@ -34,14 +34,14 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | Non | Identifiant utilisateur. |
-| ` *`firstName`*` | `xsd:string` | Oui | Prénom. |
-| ` *`lastName`*` | `xsd:string` | Oui | Nom. |
-| ` *`e-mail`*` | `xsd:string` | Oui | Courriel de l’utilisateur. |
-| ` *`defaultRole`*` | `xsd:string` | Oui | Définit le rôle d’un utilisateur dans chaque société à laquelle il appartient. Notez toutefois que le rôle `IpsAdmin` remplace d’autres paramètres par société. |
-| ` *`passwordExpires`*` | `xsd:dateTime` | Non | Définissez la date d’expiration du mot de passe. |
-| ` *`isValid`*` | `xsd:boolean` | Oui | Détermine si l&#39;utilisateur est un utilisateur IPS valide. |
-| ` *`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Oui | Tableau de poignées de société. |
+| `*`userHandle`*` | `xsd:string` | Non | Identifiant utilisateur. |
+| `*`firstName`*` | `xsd:string` | Oui | Prénom. |
+| `*`lastName`*` | `xsd:string` | Oui | Nom. |
+| `*`e-mail`*` | `xsd:string` | Oui | Courriel de l’utilisateur. |
+| `*`defaultRole`*` | `xsd:string` | Oui | Définit le rôle d’un utilisateur dans chaque société à laquelle il appartient. Notez toutefois que le rôle `IpsAdmin` remplace d’autres paramètres par société. |
+| `*`passwordExpires`*` | `xsd:dateTime` | Non | Définissez la date d’expiration du mot de passe. |
+| `*`isValid`*` | `xsd:boolean` | Oui | Détermine si l&#39;utilisateur est un utilisateur IPS valide. |
+| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Oui | Tableau de poignées de société. |
 
 **Output (setUserInfoReturn)**
 
