@@ -4,10 +4,10 @@ seo-description: Données de zone cliquable. Aucun ou plusieurs éléments HTML 
 seo-title: Zone
 solution: Experience Manager
 title: Zone
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 674a7a74-91bf-41c4-ab74-a5cb4f8abe1d
 translation-type: tm+mt
-source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 5%
