@@ -4,10 +4,10 @@ seo-description: La rugosité de la surface du matériau. Indique la rugosité r
 seo-title: brut
 solution: Experience Manager
 title: brut
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d3b4ece1-cc2a-4012-ad81-2f313d3a370b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 2%
