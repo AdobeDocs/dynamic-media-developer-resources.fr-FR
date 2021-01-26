@@ -4,10 +4,10 @@ seo-description: Détermine si un lot de fichiers est prêt à être publié.
 seo-title: setAssetsPublishState
 solution: Experience Manager
 title: setAssetsPublishState
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 2910cd6c-573b-405c-864d-a0136ac5472d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 11%
@@ -40,18 +40,18 @@ Il s’agit de la version par lot de [setAssetState](../../../operations/c-opera
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
-| ` *`publishStateUpdateArray`*` | `types:PublishStateUpdateArray` | Oui | Tableau des valeurs d’état de publication pour les ressources. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
+| `*`publishStateUpdateArray`*` | `types:PublishStateUpdateArray` | Oui | Tableau des valeurs d’état de publication pour les ressources. |
 
 **Output (setAssetsPublishStateParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Oui | Nombre de ressources mises à jour avec succès. |
-| ` *`warningCount`*` | `xsd:int` | Oui | Nombre de fichiers qui ont généré un avertissement lorsque l’opération tentait de les mettre à jour. |
-| ` *`errorCount`*` | `xsd:int` | Oui | Nombre de fichiers qui ont généré une erreur lorsque l’opération a tenté de les supprimer. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | Non | Détails associés aux mises à jour de la ressource qui ont généré un avertissement. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | Non | Détails associés aux mises à jour de la ressource qui ont généré une erreur. |
+| `*`successCount`*` | `xsd:int` | Oui | Nombre de ressources mises à jour avec succès. |
+| `*`warningCount`*` | `xsd:int` | Oui | Nombre de fichiers qui ont généré un avertissement lorsque l’opération tentait de les mettre à jour. |
+| `*`errorCount`*` | `xsd:int` | Oui | Nombre de fichiers qui ont généré une erreur lorsque l’opération a tenté de les supprimer. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Non | Détails associés aux mises à jour de la ressource qui ont généré un avertissement. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Non | Détails associés aux mises à jour de la ressource qui ont généré une erreur. |
 
 ## Exemples {#section-38cfdd3436214a06a1bae16875501d51}
 
