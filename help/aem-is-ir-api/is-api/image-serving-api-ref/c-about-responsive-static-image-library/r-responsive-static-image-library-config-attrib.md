@@ -4,12 +4,12 @@ seo-description: Les attributs de configuration sont définis comme des attribut
 seo-title: Référence de commande - Attributs de configuration
 solution: Experience Manager
 title: Référence de commande - Attributs de configuration
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a3d52680-2a28-40c8-9b5f-b1c252c88e4d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Plusieurs commandes de diffusion d’images ou noms de paramètres d’image pr�
 
 ## data-mode {#section-97caf43cf5ab4ca8b1b866d8f394a9a4}
 
-Les deux modes de recadrage dynamique suivants sont disponibles dans AEM 6.4 et versions ultérieures et dans Scene7 Viewers 5.9 et versions ultérieures :
+Les deux modes de recadrage dynamique suivants sont disponibles dans AEM 6.4 et versions ultérieures et dans Dynamic Media Viewers 5.9 et versions ultérieures :
 
 * **Les points d’arrêt définis manuellement**  par l’utilisateur et les commandes correspondantes du service d’images sont définis dans un attribut de l’élément d’image.
 * **Recadrage**  dynamique : les rendus de recadrage intelligent calculés sont automatiquement récupérés à partir du serveur de diffusion. Le meilleur rendu est sélectionné en utilisant la taille d’exécution de l’élément d’image.
