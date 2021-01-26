@@ -4,12 +4,12 @@ seo-description: Spécificateur d’objet source. Les objets Image, SVG et profi
 seo-title: objet
 solution: Experience Manager
 title: objet
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8d25b47d-0f23-4d9a-a7e6-6e865ae4114e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '514'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Spécificateur d’objet source. Les objets Image, SVG et profil ICC peuvent être spécifiés en tant qu’entrées de catalogue d’images ou chemins d’accès aux fichiers relatifs.
 
-` *``*[/]{[ *``*/] *``*}| *`objectrootIdobjIdpath`*`
+`*``*[/]{[ *``*/] *``*}| *`objectrootIdobjIdpath`*`
 
 <table id="simpletable_A8B9B4D508B94BE5B7F6112F0A5F8270"> 
  <tr class="strow"> 
@@ -62,7 +62,7 @@ Consultez *Gestion du contenu* dans le *Guide de configuration du serveur* pour 
 
 Reportez-vous à la description de l’utilitaire IC (Image Converter) pour obtenir une liste complète des formats de fichiers pris en charge.
 
-Les applications qui nécessitent des données d’image dans plusieurs résolutions différentes seront plus performantes lors de l’utilisation du format de résolution multiple de la pyramide Scene7 TIFF (PTIF). L’utilitaire IC est utilisé pour créer des images PTIF à partir de n’importe quel format d’image pris en charge.
+Les applications qui nécessitent des données d’image dans plusieurs résolutions différentes seront plus performantes lors de l’utilisation du format de résolution multiple de la pyramide Dynamic Media TIFF (PTIF). L’utilitaire IC est utilisé pour créer des images PTIF à partir de n’importe quel format d’image pris en charge.
 
 ## Exemples {#section-728ca9b566b54ea1afdf8f5f0a031a57}
 
