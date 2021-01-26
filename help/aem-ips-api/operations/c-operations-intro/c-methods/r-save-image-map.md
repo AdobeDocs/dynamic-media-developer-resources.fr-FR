@@ -4,10 +4,10 @@ seo-description: Créez une zone cliquable ou modifiez une zone cliquable exista
 seo-title: saveImageMap
 solution: Experience Manager
 title: saveImageMap
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 9714fc99-2259-4766-96d7-fe2f9fd2f341
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 15%
@@ -109,7 +109,7 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`imageMapHandle`*` | `xsd:string` | Oui | Poignée de la nouvelle zone cliquable ou de la zone cliquable modifiée. |
+| `*`imageMapHandle`*` | `xsd:string` | Oui | Poignée de la nouvelle zone cliquable ou de la zone cliquable modifiée. |
 
 ## Exemples {#section-fdac488b640f427c8aa3d549c5032851}
 
