@@ -4,10 +4,10 @@ seo-description: Renvoie les coordonnées du quadrilatère englobant le chemin P
 seo-title: getPhotoshopPath
 solution: Experience Manager
 title: getPhotoshopPath
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e3ed4888-18db-40bc-a1db-f44a342d0293
 translation-type: tm+mt
-source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 17%
@@ -38,15 +38,15 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Pointez sur la société avec l’image que vous souhaitez utiliser. |
-| ` *`assetHandle`*` | `xsd:string` | Oui | Pointez sur le fichier d’image. |
-| ` *`pathName`*` | `xsd:string` | Oui | Nom du chemin Photoshop à renvoyer. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Pointez sur la société avec l’image que vous souhaitez utiliser. |
+| `*`assetHandle`*` | `xsd:string` | Oui | Pointez sur le fichier d’image. |
+| `*`pathName`*` | `xsd:string` | Oui | Nom du chemin Photoshop à renvoyer. |
 
 **Output (getPhotoshopPathReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`perspectiveQuad`*` | `types:PerspectiveQuad` | Oui | Renvoie les coordonnées de l’image en fonction du chemin d’accès. Voir [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204). |
+| `*`perspectiveQuad`*` | `types:PerspectiveQuad` | Oui | Renvoie les coordonnées de l’image en fonction du chemin d’accès. Voir [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204). |
 
 ## Exemples {#section-1f0461cbdc184c8d8925336d5279db47}
 
