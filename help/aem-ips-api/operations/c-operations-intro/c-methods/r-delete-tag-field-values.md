@@ -4,10 +4,10 @@ seo-description: Supprime les valeurs de champ de balise du dictionnaire d’un 
 seo-title: deleteTagFieldValues
 solution: Experience Manager
 title: deleteTagFieldValues
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 71cdec4e-c1d6-4518-87ed-5c47a5112b15
 translation-type: tm+mt
-source-git-commit: b5eaefb375fbd0d0786619fa6d84b4f6fc17a77f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 12%
@@ -31,9 +31,9 @@ Supprime les valeurs de champ de balise du dictionnaire d’un champ de balise.
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de la société contenant le champ de balise. |
-| ` *`fieldHandle`*` | `xsd:string` | Oui | Handle du champ de balise à modifier. |
-| ` *`valueArray`*` | `types:StringArray` | Oui | Tableau de valeurs de balise à supprimer du dictionnaire du champ. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société contenant le champ de balise. |
+| `*`fieldHandle`*` | `xsd:string` | Oui | Handle du champ de balise à modifier. |
+| `*`valueArray`*` | `types:StringArray` | Oui | Tableau de valeurs de balise à supprimer du dictionnaire du champ. |
 
 **Output (deleteTagFieldValuesParam)**
 
