@@ -4,10 +4,10 @@ seo-description: Crée une visionneuse d’images.
 seo-title: createImageSet
 solution: Experience Manager
 title: createImageSet
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 688f3954-bc8f-4687-8d66-e064561cd4a0
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 14%
@@ -40,17 +40,17 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de la société à laquelle appartient la visionneuse d’images. |
-| ` *`folderHandle`*` | `xsd:string` | Oui | Identifiant du dossier. |
-| ` *`name`*` | `xsd:string` | Oui | Nom de la visionneuse d’images. |
-| ` *`type`*` | `xsd:string` | Oui | Type de visionneuse d’images. |
-| ` *`thumbAssetHandle`*` | `xsd:string` | Non | Gestion du fichier qui agit comme miniature pour la nouvelle visionneuse d’images. S’il n’est pas spécifié, IPS tente d’utiliser le premier fichier d’image référencé par la visionneuse. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société à laquelle appartient la visionneuse d’images. |
+| `*`folderHandle`*` | `xsd:string` | Oui | Identifiant du dossier. |
+| `*`name`*` | `xsd:string` | Oui | Nom de la visionneuse d’images. |
+| `*`type`*` | `xsd:string` | Oui | Type de visionneuse d’images. |
+| `*`thumbAssetHandle`*` | `xsd:string` | Non | Gestion du fichier qui agit comme miniature pour la nouvelle visionneuse d’images. S’il n’est pas spécifié, IPS tente d’utiliser le premier fichier d’image référencé par la visionneuse. |
 
 **Sortie**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | Oui | Poignée de la nouvelle visionneuse d’images. |
+| `*`assetHandle`*` | `xsd:string` | Oui | Poignée de la nouvelle visionneuse d’images. |
 
 ## Exemples {#section-385fe3b0af8044b0a2451336ec137fc5}
 
