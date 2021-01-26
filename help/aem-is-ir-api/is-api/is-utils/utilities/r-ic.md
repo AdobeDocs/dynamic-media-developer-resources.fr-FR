@@ -4,10 +4,10 @@ seo-description: Utilitaire de conversion d’image.
 seo-title: ic
 solution: Experience Manager
 title: ic
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 08fabcc9-d0b5-4136-81fc-ac896c341e1d
 translation-type: tm+mt
-source-git-commit: e0f8153b038446180ddad313e591828223ed31e9
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 2%
@@ -27,11 +27,11 @@ Si vous ne convertissez pas d’images volumineuses, il n’est pas nécessaire 
 
 ## Utilisation {#section-fb5293fa79894442aba831c1e14c5cc9}
 
-`ic -convert` `[`*`options`*`]` *`sourceFiledestFile`*
+`ic -convert` `[`*`options`*`]`*`sourceFiledestFile`*
 
-` ic -convert` `[`*`options`*`]` *`sourceFolderdestFolder`*
+` ic -convert` `[`*`options`*`]`*`sourceFolderdestFolder`*
 
-` -c -convert` `[`*`options`*`]` *`sourceFiledestFolder`*
+` -c -convert` `[`*`options`*`]`*`sourceFiledestFolder`*
 
 <table id="table_E368E220299D449D8311478AB5042987"> 
  <tbody> 
@@ -91,7 +91,7 @@ Si vous ne convertissez pas d’images volumineuses, il n’est pas nécessaire 
    <td colname="col2"> <p>Désactivez le sous-échantillonnage chromatique JPEG (ce qui peut améliorer la qualité du texte et des graphiques en couleur). Cela n’a aucun effet sur les images de sortie en CMJN ou en niveaux de gris. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -usm  &lt;&gt; amount  </span>&gt;  &lt;&gt; radius  </span>&gt;  &lt;&gt; seuil  </span>&gt;  &lt;&gt; monochrome &gt;  </span><span class="varname"><span class="varname"><span class="varname"></span><span class="varname"> </span></span></span></span></p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -usm  &lt;&gt; amount  </span>&gt;  &lt;&gt; radius  </span>&gt;  &lt;&gt; seuil  </span>&gt;  &lt;&gt; monochrome &gt;  </span><span class="varname"><span class="varname"><span class="varname"><span class="varname"></span> </span></span></span></p> </td> 
    <td colname="col2"> <p>Appliquer un masquage flou aux niveaux pyramidaux sous-échantillonnés. Voir <a href="../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-usm.md#reference-51ac75adadfe4346ab60953192d0a1aa" type="reference" format="dita" scope="local"> op_usm= </a> pour plus de détails. (Non appliqué à l’image à résolution complète.) </p> </td> 
   </tr> 
   <tr> 
@@ -103,7 +103,7 @@ Si vous ne convertissez pas d’images volumineuses, il n’est pas nécessaire 
    <td colname="col2"> <p>Résolution d’impression (ppp) pour <span class="codeph"> <span class="varname"> destFile </span> </span>; si elle n’est pas spécifiée, la résolution d’impression de <span class="codeph"> srcFile </span> est copiée dans <span class="codeph"> <span class="varname"> destFile </span> </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -autoculture  &lt;&gt; corner  </span>&gt;  &lt;&gt; mode  </span>&gt;  &lt;&gt; tolérance  </span>&gt;  &lt;&gt; infoFile &gt;  </span><span class="varname"></span><span class="varname"><span class="varname"><span class="varname"> </span></span></span></p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> -autoculture  &lt;&gt; corner  </span>&gt;  &lt;&gt; mode  </span>&gt;  &lt;&gt; tolérance  </span>&gt;  &lt;&gt; infoFile &gt;  </span><span class="varname"><span class="varname"><span class="varname"><span class="varname"></span> </span></span></span></p> </td> 
    <td colname="col2"> <p>Calculez un rectangle de recadrage afin de minimiser l’arrière-plan en couleur unie. Aucune information de recadrage n’est générée si l’algorithme de recadrage automatique entraîne le rognage de l’image entière. </p> <p>Pour calculer le rectangle de recadrage sans convertir l’image, spécifiez <span class="codeph"> -autoculture </span> sans <span class="codeph"> -convert </span> et sans <span class="codeph"> <span class="varname"> destFile.</span> </span></p>
 
 <p><i><b>coin</b></i> - ul | ur | all | lr </p>
@@ -256,7 +256,7 @@ Le tableau suivant liste les formats de fichier image et les options de format p
   <tr> 
    <td> <b> BMP</b> <p> (Windows Bitmap) </p> </td> 
    <td> <p> RVB | indexé </p> </td> 
-   <td> <p> 1 | 5/6 | 8 </p> </td> 
+   <td> <p> 3 | 5/6 | 8 </p> </td> 
    <td> <p> non compressé | RLE </p> </td> 
    <td> <p> 5/6 bits/canal indique la prise en charge du RVB 16 bits (5-5-5 et 5-6-5 bits/canal). </p> </td> 
   </tr> 
@@ -291,7 +291,7 @@ Le tableau suivant liste les formats de fichier image et les options de format p
   <tr> 
    <td> <p> Photoshop </p> <b>PSD</b> </td> 
    <td> <p> CMJN | CMJN | RGB | RGBA | gris | grayA </p> </td> 
-   <td> <p> 1 | 8 | 16 </p> </td> 
+   <td> <p> 3 | 8 | 16 </p> </td> 
    <td> <p> non compressé | compressé </p> </td> 
    <td> <p> Image fusionnée uniquement ; les calques et les canaux supplémentaires sont ignorés. </p> </td> 
   </tr> 
@@ -305,14 +305,14 @@ Le tableau suivant liste les formats de fichier image et les options de format p
   <tr> 
    <td> <b> PNG</b> </td> 
    <td> <p> RVB | RGBA | gris | grayA | indexé </p> </td> 
-   <td> <p> 1 | 2 | 4 | 8 | 16 </p> </td> 
+   <td> <p> 3 | 2 | 4 | 8 | 16 </p> </td> 
    <td> <p> compressé </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <b> TIFF</b> </td> 
    <td> <p> CMJN | CMJN | RGB | RGBA | gris | grayA | indexé </p> </td> 
-   <td> <p> 1 | 8 | 16 </p> </td> 
+   <td> <p> 3 | 8 | 16 </p> </td> 
    <td> <p> non compressé | ZIP | LZW | JPEG | RLE CCITT | CCITT G3 | CCITT G4 | Paquets </p> </td> 
    <td> <p> À l’exception du premier canal alpha associé, les canaux supplémentaires sont ignorés. </p> </td> 
   </tr> 
