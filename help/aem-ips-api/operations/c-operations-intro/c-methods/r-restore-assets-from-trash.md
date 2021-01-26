@@ -4,10 +4,10 @@ seo-description: Restaure les fichiers à partir de la corbeille.
 seo-title: restoreAssetsFromTrash
 solution: Experience Manager
 title: restoreAssetsFromTrash
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: f7424d4c-7807-4de9-ad0c-f96364bf7b82
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 12%
@@ -36,18 +36,18 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée d’une société contenant les ressources à restaurer. |
-| ` *`assetHandleArray`*` | `types:HandleArray` | Oui | Tableau de poignées pour les ressources à restaurer. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée d’une société contenant les ressources à restaurer. |
+| `*`assetHandleArray`*` | `types:HandleArray` | Oui | Tableau de poignées pour les ressources à restaurer. |
 
 **Output (restoreAssetsFromTrashReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Oui | Nombre de fichiers supprimés de la corbeille. |
-| ` *`warningCount`*` | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de restaurer des ressources à partir de la corbeille. |
-| ` *`errorCount`*` | `xsd:int` | Oui | Nombre d’erreurs générées lors de la tentative de restauration de fichiers à partir de la corbeille. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des avertissements lorsque l’opération tentait de restaurer des ressources à partir de la corbeille. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux actifs qui ont généré des erreurs lorsque l’opération tentait de restaurer des actifs à partir de la corbeille. |
+| `*`successCount`*` | `xsd:int` | Oui | Nombre de fichiers supprimés de la corbeille. |
+| `*`warningCount`*` | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de restaurer des ressources à partir de la corbeille. |
+| `*`errorCount`*` | `xsd:int` | Oui | Nombre d’erreurs générées lors de la tentative de restauration de fichiers à partir de la corbeille. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des avertissements lorsque l’opération tentait de restaurer des ressources à partir de la corbeille. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux actifs qui ont généré des erreurs lorsque l’opération tentait de restaurer des actifs à partir de la corbeille. |
 
 ## Exemples {#section-98fe0394b0634ca397c395f14f8a9358}
 
