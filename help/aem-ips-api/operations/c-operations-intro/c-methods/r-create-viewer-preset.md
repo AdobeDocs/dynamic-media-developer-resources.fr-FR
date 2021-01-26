@@ -4,10 +4,10 @@ seo-description: Crée une vue prédéfinie qui détermine ce qu’un utilisateu
 seo-title: createViewerPreset
 solution: Experience Manager
 title: createViewerPreset
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 4160d2b0-6147-459f-830a-43c99b8dc196
 translation-type: tm+mt
-source-git-commit: 87164dbf805a179f7bdeecd7cc6140c3456b61bb
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 11%
@@ -34,17 +34,17 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de la société contenant les paramètres prédéfinis et les ressources de la visionneuse. |
-| ` *`folderHandle`*` | `xsd:string` | Oui | Identifiant du dossier contenant les ressources. |
-| ` *`name`*` | `xsd:string` | Oui | Nom de la visionneuse. |
-| ` *`type`*` | `xsd:string` | Oui | Type de visionneuse. |
-| ` *`configSettingArray`*` | `types:ConfigSettingArray` | Non | Tableau contenant les noms, les valeurs et les poignées des images auxquelles vous appliquez des paramètres prédéfinis. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société contenant les paramètres prédéfinis et les ressources de la visionneuse. |
+| `*`folderHandle`*` | `xsd:string` | Oui | Identifiant du dossier contenant les ressources. |
+| `*`name`*` | `xsd:string` | Oui | Nom de la visionneuse. |
+| `*`type`*` | `xsd:string` | Oui | Type de visionneuse. |
+| `*`configSettingArray`*` | `types:ConfigSettingArray` | Non | Tableau contenant les noms, les valeurs et les poignées des images auxquelles vous appliquez des paramètres prédéfinis. |
 
 **Output (createViewerPresetReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`viewerPresetHandle`*` | `xsd:string` | Oui | Gestion du paramètre prédéfini à la visionneuse. |
+| `*`viewerPresetHandle`*` | `xsd:string` | Oui | Gestion du paramètre prédéfini à la visionneuse. |
 
 ## Exemples {#section-c88ea63536f3461cbe4677ba53f875dd}
 
