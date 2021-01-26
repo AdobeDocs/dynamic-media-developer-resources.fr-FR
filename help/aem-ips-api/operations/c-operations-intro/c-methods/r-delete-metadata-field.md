@@ -4,10 +4,10 @@ seo-description: Supprime un champ de métadonnées de société.
 seo-title: deleteMetadataField
 solution: Experience Manager
 title: deleteMetadataField
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 06ec434a-2793-4227-ac93-ae3871c38ab9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 10%
@@ -33,8 +33,8 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de la société contenant le champ de métadonnées à supprimer. |
-| ` *`fieldHandle`*` | `xsd:string` | Oui | Poignée du champ de métadonnées à supprimer. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société contenant le champ de métadonnées à supprimer. |
+| `*`fieldHandle`*` | `xsd:string` | Oui | Poignée du champ de métadonnées à supprimer. |
 
 **Output (deleteMetadataFieldParam)**
 
