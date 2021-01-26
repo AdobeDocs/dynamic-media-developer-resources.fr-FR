@@ -1,15 +1,15 @@
 ---
-description: L’outil de création de vignettes (qui fait partie du pack de création d’images Scene7) fournit des mécanismes permettant de contrôler les aspects de bas niveau du moteur de rendu de vignette.
-seo-description: L’outil de création de vignettes (qui fait partie du pack de création d’images Scene7) fournit des mécanismes permettant de contrôler les aspects de bas niveau du moteur de rendu de vignette.
+description: L’outil de création de vignettes (qui fait partie du pack de création d’images Dynamic Media) fournit des mécanismes permettant de contrôler les aspects de bas niveau du moteur de rendu de vignette.
+seo-description: L’outil de création de vignettes (qui fait partie du pack de création d’images Dynamic Media) fournit des mécanismes permettant de contrôler les aspects de bas niveau du moteur de rendu de vignette.
 seo-title: Paramètres de rendu avancés
 solution: Experience Manager
 title: Paramètres de rendu avancés
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 18e7f3cf-4d30-445c-813c-546a91987b99
 translation-type: tm+mt
-source-git-commit: e3b096b97419a86de244b97876439ad9c491b950
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '633'
 ht-degree: 24%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 24%
 
 # Paramètres de rendu avancés{#advanced-render-settings}
 
-L’outil de création de vignettes (qui fait partie du pack de création d’images Scene7) fournit des mécanismes permettant de contrôler les aspects de bas niveau du moteur de rendu de vignette.
+L’outil de création de vignettes (qui fait partie du pack de création d’images Dynamic Media) fournit des mécanismes permettant de contrôler les aspects de bas niveau du moteur de rendu de vignette.
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ Ces paramètres sont contrôlés de manière interactive dans la création d’i
   <tr> 
    <td colname="col1"> <p>W </p> </td> 
    <td colname="col2"> <p>Montant USM (%). </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>500 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
