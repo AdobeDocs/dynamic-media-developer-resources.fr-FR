@@ -4,12 +4,12 @@ seo-description: Données de cible de zoom. Aucune ou plusieurs propriétés de 
 seo-title: Cibles
 solution: Experience Manager
 title: Cibles
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ca02483a-9aa0-4b54-b6f0-4fd10d8b2b4c
 translation-type: tm+mt
-source-git-commit: b4331c6f033903ec64f168da0b739927c6066710
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '347'
 ht-degree: 2%
 
 ---
@@ -64,7 +64,7 @@ Cible. *`num`*.rect est requis pour chaque cible de zoom et doit spécifier un r
 
 Pour les applications impliquant les clients des visionneuses à 360° et des lecteurs de brochures, les cibles de zoom doivent être définies dans le même enregistrement de catalogue qui définit la visionneuse d’images. Toute définition de cible de zoom figurant dans les enregistrements de catalogue des membres de la visionneuse d’images est ignorée par la visionneuse.
 
-Les visionneuses Scene7 s’attendent à ce que les cibles de zoom correspondent aux coordonnées de l’image à résolution complète déjà ajustées par les commandes de `catalog::Modifier`.
+Les visionneuses Dynamic Media s’attendent à ce que les cibles de zoom correspondent aux coordonnées de l’image à résolution complète déjà ajustées par les commandes de `catalog::Modifier`.
 
 ## Propriétés {#section-b3f8eba4985f4b00bb935d592fe770f9}
 
