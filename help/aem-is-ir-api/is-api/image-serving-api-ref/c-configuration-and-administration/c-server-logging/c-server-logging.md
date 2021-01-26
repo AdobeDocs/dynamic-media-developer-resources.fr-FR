@@ -1,15 +1,12 @@
 ---
 description: Tous les fichiers journaux sont écrits dans le même dossier de journaux que celui spécifié dans le répertoire TC.
-seo-description: Tous les fichiers journaux sont écrits dans le même dossier de journaux que celui spécifié dans le répertoire TC.
-seo-title: Journalisation du serveur
 solution: Experience Manager
 title: Journalisation du serveur
-topic: Scene7 Image Serving - Image Rendering API
-uuid: f6145737-e4c3-4533-9be5-5b5a0202fe33
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 5717550d2dea8ec086875e770ff8f200aaa75ff3
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '169'
 ht-degree: 1%
 
 ---
@@ -25,7 +22,7 @@ Important Un espace disque suffisant doit être réservé aux fichiers journaux 
 
 Platform Server et Image Server créent les trois types de fichiers journaux décrits ci-dessous.
 
-D’autres composants de diffusion d’images et certains autres packages Scene7, tels que les visionneuses Scene7, peuvent également créer des fichiers journaux dans le même dossier. Ces fichiers journaux sont destinés à un usage interne de Scene7 et peuvent être demandés par l&#39;assistance Scene7 à des fins de dépannage.
+D’autres composants de diffusion d’images et certains autres packages Dynamic Media, tels que les visionneuses Dynamic Media, peuvent également créer des fichiers journaux dans le même dossier. Ces fichiers journaux sont destinés à un usage interne de Dynamic Media et peuvent être demandés par l&#39;assistance technique de Dynamic Media à des fins de dépannage.
 
 * [Journal d’accès](c-access-log.md)
 * [Journal de suivi](c-trace-log.md)
