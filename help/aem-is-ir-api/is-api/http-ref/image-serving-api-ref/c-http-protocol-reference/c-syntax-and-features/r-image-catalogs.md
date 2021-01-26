@@ -4,10 +4,10 @@ seo-description: Les fonctionnalités et la syntaxe des catalogues d’images so
 seo-title: Catalogues d’images
 solution: Experience Manager
 title: Catalogues d’images
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d329807a-22b0-42a3-9297-8dad7a1dce43
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -23,13 +23,13 @@ Les catalogues d’images offre les fonctionnalités suivantes :
 
 * Permet l’association permanente d’images à l’aide de certaines commandes de métadonnées et de modificateur.
 
-   Les entrées des catalogues d’images sont référencées à l’aide d’une notation de raccourci ` *`rootId/objId`*`, où ` *`rootId`*` identifie le catalogue d’images et ` *`objId`*` identifie un enregistrement de données dans le catalogue.
+   Les entrées des catalogues d’images sont référencées à l’aide d’une notation de raccourci `*`rootId/objId`*`, où `*`rootId`*` identifie le catalogue d’images et `*`objId`*` identifie un enregistrement de données dans le catalogue.
 * Indiquez les valeurs par défaut de certains attributs de requête, tels que la qualité JPEG ou si un filigrane doit être appliqué.
 * Gérer les polices, les profils ICC, les définitions de macro et les modèles de demande
 
 Même si aucun catalogue d’images spécifique n’est défini, toutes les fonctionnalités des catalogues d’images sont disponibles par le biais du catalogue par défaut ( [!DNL default.ini]).
 
-Si ` *`rootId`*` dans le chemin d’URL de la requête correspond à `attribute::RootId` d’un catalogue d’images spécifique, ce catalogue deviendra le catalogue principal de cette requête. Le catalogue principal fournit les attributs et les paramètres par défaut pour l’ensemble de la requête. Si aucune correspondance n’est trouvée, le catalogue par défaut est utilisé à la place.
+Si `*`rootId`*` dans le chemin d’URL de la requête correspond à `attribute::RootId` d’un catalogue d’images spécifique, ce catalogue deviendra le catalogue principal de cette requête. Le catalogue principal fournit les attributs et les paramètres par défaut pour l’ensemble de la requête. Si aucune correspondance n’est trouvée, le catalogue par défaut est utilisé à la place.
 
 Un catalogue identifié dans une commande `src=` ou `mask=` fournit les attributs et données de catalogue suivants à la couche actuelle :
 
@@ -104,7 +104,7 @@ Dans le même calque, `src=` et `mask=` doivent référencer le même catalogue 
 
 Un catalogue identifié dans une commande `icc=` n&#39;est utilisé que pour rechercher une entrée dans la table de profil ICC du catalogue. Aucun autre attribut ou donnée de catalogue n’est impliqué.
 
-Si ` *`rootId`*` correspond à un catalogue et que ` *`objId`*` correspond à `catalog::Id` dans ce catalogue, ` *`rootId/objId`*` est effectivement remplacé par l&#39;entrée de catalogue de la manière suivante :
+Si `*`rootId`*` correspond à un catalogue et que `*`objId`*` correspond à `catalog::Id` dans ce catalogue, `*`rootId/objId`*` est effectivement remplacé par l&#39;entrée de catalogue de la manière suivante :
 
 `src=attribute::RootPath/catalog::Path& mask=attribute::RootPath/catalog::MaskPath& anchor=catalog::Anchor& catalog::Modifier& catalog::PostModifier`
 
