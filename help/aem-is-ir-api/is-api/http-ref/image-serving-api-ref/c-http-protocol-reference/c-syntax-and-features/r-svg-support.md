@@ -4,10 +4,10 @@ seo-description: La diffusion d’images prend en charge les fichiers SVG (Scala
 seo-title: Prise en charge de SVG
 solution: Experience Manager
 title: Prise en charge de SVG
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 30d7b37d-fdef-4518-a4b3-4baee56fa634
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Les variables importantes figurant dans la partie requête des demandes de diffu
 
 Voir [Variables de substitution](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a) pour plus d&#39;informations.
 
-## Références d&#39;image {#section-a7680f9e6aca4b1a83560637cc9fac66}
+## Références à l&#39;image {#section-a7680f9e6aca4b1a83560637cc9fac66}
 
 Les images peuvent être insérées dans SVG à l’aide de l’élément `<image>`. Les images référencées par l&#39;attribut `xlink::href` de l&#39;élément `<image>` doivent être des demandes de diffusion d&#39;images valides. Les URL étrangères ne sont pas autorisées.
 
