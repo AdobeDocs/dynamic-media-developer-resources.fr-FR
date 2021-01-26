@@ -1,15 +1,12 @@
 ---
 description: Image Serving implémente un filigrane visuel simple.
-seo-description: Image Serving implémente un filigrane visuel simple.
-seo-title: Filigranes
 solution: Experience Manager
 title: Filigranes
-topic: Scene7 Image Serving - Image Rendering API
-uuid: b2bbaa59-dad9-4be3-bb92-142ed44f6d65
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '461'
 ht-degree: 1%
 
 ---
@@ -23,7 +20,7 @@ Un filigrane est généralement une image semi-transparente, mais il peut s’ag
 
 Le filigrane est activé en définissant `attribute::Watermark` sur une entrée de catalogue valide qui contiendra l&#39;image ou le modèle de filigrane. Si `attribute::Watermark` est défini dans un catalogue nommé, le serveur ajoute le filigrane à toutes les demandes d’image qui référencent l’ID de catalogue dans l’URL de demande. Si `default::Watermark` est défini (dans le catalogue par défaut, [!DNL default.ini]), le filigrane sera appliqué à toutes les demandes d&#39;image, qu&#39;elles référencent un catalogue ou non.
 
-Les filigranes ne sont pas appliqués aux images renvoyées en réponse à des requêtes de miniatures ( `req=tmb`) et à certaines requêtes des visionneuses Scene7.
+Les filigranes ne sont pas appliqués aux images renvoyées en réponse à des requêtes de miniatures ( `req=tmb`) et à certaines requêtes des visionneuses Dynamic Media.
 
 ## Mise à l’échelle et alignement {#section-89ef9e5926ae438abbd8e70332749b76}
 
