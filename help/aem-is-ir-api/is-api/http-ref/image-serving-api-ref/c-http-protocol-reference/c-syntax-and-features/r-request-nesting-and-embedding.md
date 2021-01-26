@@ -4,12 +4,12 @@ seo-description: Image Serving prend en charge l’imbrication illimitée de req
 seo-title: Demande d’imbrication et d’incorporation
 solution: Experience Manager
 title: Demande d’imbrication et d’incorporation
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 59031329-e65f-4631-bc7d-83f2540cc836
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1081'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Le résultat d&#39;image d&#39;une requête IS imbriquée peut être mis en cach
 
 ## Demandes de rendu d’image incorporées {#section-69c5548db930412b9b90d9b2951a6969}
 
-Lorsque le rendu des images Scene7 est activé sur le serveur, les requêtes de rendu peuvent être utilisées comme sources de calque en les spécifiant dans la commande src= (ou mask=). Utilisez la syntaxe suivante :
+Lorsque le rendu des images Dynamic Media est activé sur le serveur, les requêtes de rendu peuvent être utilisées comme sources de calque en les spécifiant dans la commande src= (ou mask=). Utilisez la syntaxe suivante :
 
 ` …&src=ir( *[!DNL renderRequest]*)&…`
 
@@ -92,7 +92,7 @@ Le jeton `fxg` est sensible à la casse.
 
 >[!NOTE]
 >
->Le rendu des graphiques FXG n’est disponible que dans l’environnement hébergé par Scene7 et peut nécessiter une licence supplémentaire. Pour plus d’informations, contactez l’assistance Scene7.
+>Le rendu des graphiques FXG n’est disponible que dans l’environnement hébergé par Dynamic Media et peut nécessiter une licence supplémentaire. Contactez l’assistance technique de Dynamic Media pour plus d’informations.
 
 *[!DNL renderRequest]* est la requête de rendu FXG habituelle, à l’exception du chemin d’accès racine HTTP  ` http:// *[!DNL server]*/agm/render/`.
 
@@ -152,9 +152,9 @@ Avec de légères modifications, nous pouvons pré-dimensionner l’image du cal
 
 `layer=0&src=is(?src=$img$&size=300,300&cache=on)&layer=1&text=$txt$`
 
-**Incorporation de requêtes pour le rendu des images Scene7**
+**Incorporation de requêtes pour le rendu des images Dynamic Media**
 
-Utilisation d&#39;un modèle stocké dans [!DNL myCatalog/myTemplate]; générez l’image pour le calque2 du modèle à l’aide du rendu d’image Scene7 :
+Utilisation d&#39;un modèle stocké dans [!DNL myCatalog/myTemplate]; générez l’image pour le calque2 du modèle à l’aide du rendu d’image Dynamic Media :
 
 `http://server/is/image/myCatalog/myTemplate?layer=2&src=ir(myRenderCatalog/myRenderObject?id=myIdValue&sel=group&src=is(myCatalog/myTexture1?res=30)&res=30)&wid=300`
 
