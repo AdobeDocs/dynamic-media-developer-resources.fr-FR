@@ -4,9 +4,9 @@ product: adobe
 archtype: end-user
 user-guide-title: Guide de référence des visionneuses Dynamic Media
 translation-type: tm+mt
-source-git-commit: 68497a2779c5a1fc6bd42d03f38c3ac104460709
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '1893'
 ht-degree: 4%
 
 ---
@@ -27,14 +27,14 @@ ht-degree: 4%
       + [Notes de mise à jour des visionneuses (5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
       + [Notes de mise à jour des visionneuses (5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
       + [Notes de mise à jour des visionneuses (5.10.1)](c-release-notes/c-archive/c-rn-07-17-18.md)
-      + [Notes de mise à jour de Scene7 Viewers 5.8.2](c-release-notes/c-archive/c-rn-09-18-17.md)
-      + [Notes de mise à jour de Scene7 Viewers 5.5.2](c-release-notes/c-archive/c-rn-10-13-16.md)
-      + [Notes de mise à jour de Scene7 Viewers 5.4.2](c-release-notes/c-archive/c-rn-05-03-16.md)
-      + [Notes de mise à jour de Scene7 Viewers 5.2.3](c-release-notes/c-archive/c-rn-05-20-15.md)
-      + [Notes de mise à jour de Scene7 Viewers 5.2.2](c-release-notes/c-archive/c-rn-04-30-15.md)
-      + [Notes de mise à jour de Scene7 Viewers 5.1.1](c-release-notes/c-archive/c-rn-09-19-14.md)
-      + [Notes de mise à jour de Scene7 Viewers 5.0.1](c-release-notes/c-archive/c-rn-04-29-14.md)
-      + [Notes de mise à jour de Scene7 Viewers 4.9.2](c-release-notes/c-archive/c-rn-09-18-13.md)
+      + [Notes de mise à jour des visionneuses 5.8.2](c-release-notes/c-archive/c-rn-09-18-17.md)
+      + [Notes de mise à jour de Viewers 5.5.2](c-release-notes/c-archive/c-rn-10-13-16.md)
+      + [Notes de mise à jour des visionneuses 5.4.2](c-release-notes/c-archive/c-rn-05-03-16.md)
+      + [Notes de mise à jour des visionneuses 5.2.3](c-release-notes/c-archive/c-rn-05-20-15.md)
+      + [Notes de mise à jour des visionneuses 5.2.2](c-release-notes/c-archive/c-rn-04-30-15.md)
+      + [Notes de mise à jour des visionneuses 5.1.1](c-release-notes/c-archive/c-rn-09-19-14.md)
+      + [Notes de mise à jour des visionneuses 5.0.1](c-release-notes/c-archive/c-rn-04-29-14.md)
+      + [Notes de mise à jour des visionneuses version 4.9.2](c-release-notes/c-archive/c-rn-09-18-13.md)
 + [Notes de compatibilité](c-compatibility-notes.md)
 + [Accessibilité et navigation du clavier](c-keyboard-accessibility.md)
 + [Didacticiel sur le SDK du lecteur de contenu](c-tutorial.md)
