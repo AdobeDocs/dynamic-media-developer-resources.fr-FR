@@ -1,15 +1,15 @@
 ---
-description: Avant d’utiliser Scene7 Image Serving, assurez-vous que votre système est conforme à la configuration requise.
-seo-description: Avant d’utiliser Scene7 Image Serving, assurez-vous que votre système est conforme à la configuration requise.
+description: Avant d’utiliser Dynamic Media Image Serving, assurez-vous que votre système est conforme à la configuration requise.
+seo-description: Avant d’utiliser Dynamic Media Image Serving, assurez-vous que votre système est conforme à la configuration requise.
 seo-title: Configuration requise et configuration requise
 solution: Experience Manager
 title: Configuration requise et configuration requise
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 80196574-f5a2-4298-880a-cc36f90b6e21
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Configuration système requise et configuration requise{#system-requirements-and-prerequisites}
 
-Avant d’utiliser Scene7 Image Serving, assurez-vous que votre système est conforme à la configuration requise.
+Avant d’utiliser Dynamic Media Image Serving, assurez-vous que votre système est conforme à la configuration requise.
 
 ## Matériel serveur {#section-f3c14a7bc1b745118602659628df779f}
 
@@ -57,7 +57,7 @@ en
 
 ## Logiciel serveur {#section-5c9aad2e6b8a4bca989e17a2c8476fc4}
 
-Scene7 Image Serving nécessite le logiciel serveur suivant.
+Dynamic Media Image Serving nécessite le logiciel serveur suivant.
 
 **Windows**
 
