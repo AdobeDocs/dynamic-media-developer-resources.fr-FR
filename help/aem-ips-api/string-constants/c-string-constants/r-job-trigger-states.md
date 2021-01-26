@@ -4,10 +4,10 @@ seo-description: Utilisé par ScheduledJob/triggerState.
 seo-title: États de déclenchement de tâche
 solution: Experience Manager
 title: États de déclenchement de tâche
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 2217374c-db38-4453-8b93-f10553ce52c7
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '23'
 ht-degree: 8%
