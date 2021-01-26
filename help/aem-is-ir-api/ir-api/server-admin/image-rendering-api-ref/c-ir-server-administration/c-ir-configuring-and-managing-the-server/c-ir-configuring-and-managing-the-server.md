@@ -4,10 +4,10 @@ seo-description: Cette section contient des informations sur la configuration et
 seo-title: Configuration et gestion du serveur
 solution: Experience Manager
 title: Configuration et gestion du serveur
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: cd344495-cb41-440e-b3f8-5b5812e81a9c
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 0%
