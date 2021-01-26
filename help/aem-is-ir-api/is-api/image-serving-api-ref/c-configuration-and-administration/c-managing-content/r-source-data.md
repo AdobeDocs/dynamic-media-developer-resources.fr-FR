@@ -4,10 +4,10 @@ seo-description: Les fichiers de données source de la diffusion d’images comp
 seo-title: Données source
 solution: Experience Manager
 title: Données source
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d654eee7-ef2d-4546-93bb-72f80c38e018
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Les fichiers de données source de la diffusion d’images comprennent les fichi
 
 Tous les fichiers de données source doivent être accessibles au serveur Image Server. La diffusion d’images offre plusieurs alternatives pour spécifier l’emplacement des fichiers de données :
 
-` *`install_`*/ *``*/ *`folderrootPathfilePath`*`
+`*`install_`*/ *``*/ *`folderrootPathfilePath`*`
 
 <table id="simpletable_26686444C7EF46D6BC4C0490C8010BF9"> 
  <tr class="strow"> 
@@ -44,9 +44,9 @@ Tous les fichiers de données source doivent être accessibles au serveur Image 
 
 Le serveur combine les segments de chemin d’accès de droite à gauche jusqu’à ce qu’un chemin d’accès absolu au fichier soit établi.
 
-Tous les segments ` *`rootPath`*` peuvent être vides, relatifs ou absolus.
+Tous les segments `*`rootPath`*` peuvent être vides, relatifs ou absolus.
 
-` *``*` catalogPath est un chemin/nom de fichier absolu ou relatif. ` *``*` requestPathdoit être un chemin/nom de fichier relatif.
+`*``*` catalogPath est un chemin/nom de fichier absolu ou relatif. `*``*` requestPathdoit être un chemin/nom de fichier relatif.
 
 `Multiple IS::RootPath` peuvent être définies dans ImageServerRegistry.xml (ou par l’interface d’administration). Cela permet de distribuer les fichiers de données source sur plusieurs systèmes de fichiers. Le serveur d’images tentera d’autres chemins d’accès dans l’ordre spécifié jusqu’à ce que le fichier de données soit trouvé.
 
