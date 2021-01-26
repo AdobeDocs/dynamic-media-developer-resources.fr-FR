@@ -4,10 +4,10 @@ seo-description: Temps de mise en cache du client à vivre. Nombre d’heures av
 seo-title: Expiration
 solution: Experience Manager
 title: Expiration
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fa267728-9a36-4705-97d6-d567148fc2d7
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 4%
