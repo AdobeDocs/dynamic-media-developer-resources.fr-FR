@@ -4,10 +4,10 @@ seo-description: Jeu d’utilisateurs nommé utilisé pour attribuer des autoris
 seo-title: Groupe
 solution: Experience Manager
 title: Groupe
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 4be4ff41-8ef1-4b56-b2dc-074992fe0d6b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '51'
 ht-degree: 17%
@@ -25,8 +25,8 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| ` *`groupHandle`*` | `xsd:string` | Poignée de groupe. |
-| ` *`companyHandle`*` | `xsd:string` | Poignée de société. |
-| ` *`name`*` | `xsd:string` | Nom du groupe. |
-| ` *`is SystemDefined`*` | `xsd:string` | Indique si le groupe est défini par le système. |
+| `*`groupHandle`*` | `xsd:string` | Poignée de groupe. |
+| `*`companyHandle`*` | `xsd:string` | Poignée de société. |
+| `*`name`*` | `xsd:string` | Nom du groupe. |
+| `*`is SystemDefined`*` | `xsd:string` | Indique si le groupe est défini par le système. |
 
