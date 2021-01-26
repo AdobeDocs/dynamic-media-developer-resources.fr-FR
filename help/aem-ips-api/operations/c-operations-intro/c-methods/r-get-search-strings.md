@@ -4,10 +4,10 @@ seo-description: Récupère les chaînes de recherche, les mots-clés et d’aut
 seo-title: getSearchStrings
 solution: Experience Manager
 title: getSearchStrings
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 9d588d6b-c79c-4531-a2e8-8467254a7985
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 14%
@@ -34,14 +34,14 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Pose la société. |
-| ` *`assetHandle`*` | `xsd:string` | Oui | Traitez le fichier. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Pose la société. |
+| `*`assetHandle`*` | `xsd:string` | Oui | Traitez le fichier. |
 
 **Output (getSearchStringsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`searchStringArray`*` | `types:SearchStrings` | Oui | Tableau de chaînes de recherche de ressources. |
+| `*`searchStringArray`*` | `types:SearchStrings` | Oui | Tableau de chaînes de recherche de ressources. |
 
 ## Exemples {#section-e1f73bff6e4440c489d59cb9aa5384d8}
 
