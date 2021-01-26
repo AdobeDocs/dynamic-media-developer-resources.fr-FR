@@ -4,10 +4,10 @@ seo-description: Mode de rendu de conversion des couleurs. Fournit le mode de re
 seo-title: IccRenderIntent
 solution: Experience Manager
 title: IccRenderIntent
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a9648405-32c3-4762-bbb2-11e97d4f8374
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 3%
