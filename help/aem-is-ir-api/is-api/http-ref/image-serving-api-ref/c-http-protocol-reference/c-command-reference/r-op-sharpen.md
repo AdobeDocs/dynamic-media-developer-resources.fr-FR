@@ -4,10 +4,10 @@ seo-description: Accentuer l’image. Applique un filtre d’accentuation de bas
 seo-title: op_sharpen
 solution: Experience Manager
 title: op_sharpen
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 1a00c60a-0d5c-4a99-a649-f29ebd710cf3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 7%
