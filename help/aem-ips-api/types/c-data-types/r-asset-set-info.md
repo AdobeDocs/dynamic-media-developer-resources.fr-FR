@@ -4,10 +4,10 @@ seo-description: Propriétés des fichiers de type AssetSet.
 seo-title: AssetSetInfo
 solution: Experience Manager
 title: AssetSetInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: e4645b21-c1b9-4453-9f38-a75b6f7f1b98
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 11%
@@ -25,5 +25,5 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| ` *`setDefinition`*` | `xsd:string` | Définition du jeu de ressources formatée en fonction des exigences de la visionneuse IS ciblée. Peut contenir des paramètres de substitution IPS facultatifs. |
+| `*`setDefinition`*` | `xsd:string` | Définition du jeu de ressources formatée en fonction des exigences de la visionneuse IS ciblée. Peut contenir des paramètres de substitution IPS facultatifs. |
 
