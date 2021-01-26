@@ -4,10 +4,10 @@ seo-description: Renomme un projet.
 seo-title: renameProject
 solution: Experience Manager
 title: renameProject
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 6303c493-a6fe-4b32-80c3-947aba4190f7
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '75'
 ht-degree: 22%
@@ -36,15 +36,15 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyName`*` | `xsd:string` | Oui | Gérer la société avec le projet que vous souhaitez renommer. |
-| ` *`projectHandle`*` | `xsd:string` | Oui | Traitement du projet. |
-| ` *`projectName`*` | `xsd:string` | Oui | Nouveau nom de projet. |
+| `*`companyName`*` | `xsd:string` | Oui | Gérer la société avec le projet que vous souhaitez renommer. |
+| `*`projectHandle`*` | `xsd:string` | Oui | Traitement du projet. |
+| `*`projectName`*` | `xsd:string` | Oui | Nouveau nom de projet. |
 
 **Output (renameProjectParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`projectHandle`*` | `xsd:string` | Oui | Handle du projet renommé. |
+| `*`projectHandle`*` | `xsd:string` | Oui | Handle du projet renommé. |
 
 ## Exemples {#section-a0a06d9244774795b695a10b92b2a5e7}
 
