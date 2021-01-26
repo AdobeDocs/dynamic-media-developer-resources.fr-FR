@@ -4,10 +4,10 @@ seo-description: Obtient les actifs et le nombre de ressources associées à une
 seo-title: getAssetCounts
 solution: Experience Manager
 title: getAssetCounts
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 92103806-59da-444f-b69c-d045d0ebf42e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 9%
@@ -40,13 +40,13 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de la société contenant les ressources que vous souhaitez comptabiliser. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société contenant les ressources que vous souhaitez comptabiliser. |
 
 **Sortie (getAssetCountsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`countArray`*` | `types:AssetCountArray` | Non | Tableau de types de ressource, chacun avec son propre champ de comptabilisation, permettant la représentation de plusieurs types de ressource par élément du tableau. |
+| `*`countArray`*` | `types:AssetCountArray` | Non | Tableau de types de ressource, chacun avec son propre champ de comptabilisation, permettant la représentation de plusieurs types de ressource par élément du tableau. |
 
 ## Exemples {#section-6052a503eb3843f6adb99e200fdba280}
 
