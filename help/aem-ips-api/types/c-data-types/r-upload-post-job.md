@@ -4,10 +4,10 @@ seo-description: Utilise getActiveJobs pour effectuer le suivi des téléchargem
 seo-title: TéléchargerPostJob
 solution: Experience Manager
 title: TéléchargerPostJob
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 172f47c7-685a-4014-9c30-dacd78733655
 translation-type: tm+mt
-source-git-commit: fa8be83171215f39cd2593a3bfe75ffe5fb7abcd
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 10%
