@@ -4,10 +4,10 @@ seo-description: Si une requête ne peut pas être traitée correctement, le ser
 seo-title: Erreurs
 solution: Experience Manager
 title: Erreurs
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a08f3f5a-3013-4d35-9612-25190a4c99fa
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 2%
