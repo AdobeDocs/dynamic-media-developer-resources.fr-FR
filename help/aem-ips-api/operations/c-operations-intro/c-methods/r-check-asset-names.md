@@ -4,10 +4,10 @@ seo-description: Recherche les conflits d’ID IPS en comparant les noms de fich
 seo-title: checkAssetNames
 solution: Experience Manager
 title: checkAssetNames
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 91d073a8-7648-429b-aa5c-c7d595550299
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 10%
@@ -38,14 +38,14 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Non | Identifiant de la société contenant l’utilisateur. |
-| ` *`assetNamesArray`*` | `types:StringArray` | Oui | Tableau de noms de fichier à vérifier. |
+| `*`companyHandle`*` | `xsd:string` | Non | Identifiant de la société contenant l’utilisateur. |
+| `*`assetNamesArray`*` | `types:StringArray` | Oui | Tableau de noms de fichier à vérifier. |
 
 **Output (checkAssetNamesReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`inUseNameArray`*` | `types:StringArray` | Oui | Tableau de noms de fichier en cours d’utilisation. |
+| `*`inUseNameArray`*` | `types:StringArray` | Oui | Tableau de noms de fichier en cours d’utilisation. |
 
 ## Exemples {#section-bc5d120d74614a63a425ca3acc337219}
 
