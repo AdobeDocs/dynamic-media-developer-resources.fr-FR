@@ -2,10 +2,10 @@
 description: La spécification RTF autorise les valeurs de couleur RVB spécifiées avec &bsol;colortbl. Chaque composant est fourni séparément avec les commandes &bsol;red, &bsol;green et &bsol;blue.
 solution: Experience Manager
 title: Traitement des couleurs
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6c51d204-27ca-4fbd-a297-bf1d04b63a3f
 translation-type: tm+mt
-source-git-commit: 925fb4b0a9018d711ea9a1db248dc2ddc803c9fb
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 0%
