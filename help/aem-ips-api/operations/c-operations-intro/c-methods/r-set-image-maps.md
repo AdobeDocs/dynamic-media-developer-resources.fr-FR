@@ -4,10 +4,10 @@ seo-description: Définit la zone cliquable d’un fichier.
 seo-title: setImageMaps
 solution: Experience Manager
 title: setImageMaps
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 1dd7e032-34b4-464d-8ec6-7ad282d12891
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 10%
@@ -36,15 +36,15 @@ Vous devez avoir déjà créé les zones cliquables. Les zones cliquables sont a
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
-| ` *`assetHandle`*` | `xsd:string` | Oui | Poignée de ressource. |
-| ` *`imageMapArray`*` | `types:ImageMapDefinitionArray` | Oui | Tableau de zones cliquables prédéfinies. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
+| `*`assetHandle`*` | `xsd:string` | Oui | Poignée de ressource. |
+| `*`imageMapArray`*` | `types:ImageMapDefinitionArray` | Oui | Tableau de zones cliquables prédéfinies. |
 
 **Output (setImageMapsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`imageMapHandleArray`*` | `types:HandleArray` | Oui | Tableau avec des poignées de zone cliquable appliquées à la ressource. |
+| `*`imageMapHandleArray`*` | `types:HandleArray` | Oui | Tableau avec des poignées de zone cliquable appliquées à la ressource. |
 
 ## Exemples {#section-fe2e35662a6a4ee29cf250c9fd180371}
 
