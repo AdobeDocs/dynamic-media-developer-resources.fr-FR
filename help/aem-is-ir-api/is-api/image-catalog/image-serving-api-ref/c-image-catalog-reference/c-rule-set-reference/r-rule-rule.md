@@ -4,10 +4,10 @@ seo-description: Request rule element. Une ou plusieurs règles sont facultative
 seo-title: règle
 solution: Experience Manager
 title: règle
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8b8e5b06-a0b7-47e1-942d-0297d08c313b
 translation-type: tm+mt
-source-git-commit: 4439103ccd0d63afdd9ec20bd475560e8f84dcba
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 6%
