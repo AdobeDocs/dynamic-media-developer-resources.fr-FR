@@ -4,10 +4,10 @@ seo-description: Fichiers appartenant à une visionneuse d’images.
 seo-title: ImageSetMember
 solution: Experience Manager
 title: ImageSetMember
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: bd013609-aed7-4c85-80f9-16be7fce99a3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 6%
@@ -25,6 +25,6 @@ La réinitialisation de page signifie qu’une [!DNL eCatalog] doit début une n
 
 | Nom | Type | Description |
 |---|---|---|
-| ` *`asset`*` | `type:Asset` | Fichiers du tableau de visionneuse d’images. |
-| ` *`pageReset`*` | `xsd:boolean` | Début une nouvelle page. Le paramètre est ignoré et la valeur est forcée à `true` pour les ensembles `eCatalog` et `RenderSet`. |
+| `*`asset`*` | `type:Asset` | Fichiers du tableau de visionneuse d’images. |
+| `*`pageReset`*` | `xsd:boolean` | Début une nouvelle page. Le paramètre est ignoré et la valeur est forcée à `true` pour les ensembles `eCatalog` et `RenderSet`. |
 
