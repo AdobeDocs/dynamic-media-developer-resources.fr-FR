@@ -4,10 +4,10 @@ seo-description: Quantification des couleurs. Spécifie les attributs de quantif
 seo-title: quantifier
 solution: Experience Manager
 title: quantifier
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4e9c4807-59bc-4eb9-bcab-0bf0cfdf56d4
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 3%
@@ -46,7 +46,7 @@ Quantification des couleurs. Spécifie les attributs de quantification des coule
 
 Attribut de requête. S’applique quel que soit le paramètre de calque actif. Utilisé uniquement si `fmt=gif`, `fmt=gif-alpha`, `fmt=png8` ou `fmt=png8-alpha`. Ignoré autrement.
 
-Les couleurs spécifiées avec ` *`colorList`*` doivent être composées de valeurs RVB au format hex6 (voir ` [color](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md#reference-b044954ec6184253b8831579466b4423)`) sans préfixe &quot; `0x`&quot;. Aucun autre spécificateur de couleur n&#39;est autorisé. *`numColors`* doit être compris entre 2 et 256.
+Les couleurs spécifiées avec `*`colorList`*` doivent être composées de valeurs RVB au format hex6 (voir ` [color](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md#reference-b044954ec6184253b8831579466b4423)`) sans préfixe &quot; `0x`&quot;. Aucun autre spécificateur de couleur n&#39;est autorisé. *`numColors`* doit être compris entre 2 et 256.
 
 ## Par défaut {#section-ca3e817617244e8798ccff67b2023a32}
 
