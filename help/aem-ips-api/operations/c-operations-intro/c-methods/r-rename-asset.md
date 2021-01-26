@@ -4,10 +4,10 @@ seo-description: Renomme un fichier.
 seo-title: renameAsset
 solution: Experience Manager
 title: renameAsset
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: f285d7e4-00df-4d90-a05a-71747a4c54cc
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 7%
@@ -42,10 +42,10 @@ Renomme un fichier.
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de la société à laquelle appartient le fichier. |
-| ` *`assetHandle`*` | `xsd:string` | Oui | Identifiant de la ressource que vous souhaitez renommer. |
-| ` *`newName`*` | `xsd:string` | Oui | Nouveau nom du fichier. |
-| ` *`validateName`*` | `xsd:boolean` | Oui | Si `validateName` est `true` et que le type de ressource nécessite un identifiant IPS unique, le nouveau nom est vérifié pour l&#39;unicité globale et `renameAsset` renvoie une erreur s&#39;il n&#39;est pas unique. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société à laquelle appartient le fichier. |
+| `*`assetHandle`*` | `xsd:string` | Oui | Identifiant de la ressource que vous souhaitez renommer. |
+| `*`newName`*` | `xsd:string` | Oui | Nouveau nom du fichier. |
+| `*`validateName`*` | `xsd:boolean` | Oui | Si `validateName` est `true` et que le type de ressource nécessite un identifiant IPS unique, le nouveau nom est vérifié pour l&#39;unicité globale et `renameAsset` renvoie une erreur s&#39;il n&#39;est pas unique. |
 
 **Sortie (renameAssetReturn)**
 
