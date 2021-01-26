@@ -4,10 +4,10 @@ seo-description: Chemin d’accès de l’élément de calque Spécifie un chemi
 seo-title: clipPath
 solution: Experience Manager
 title: clipPath
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fe84cf7a-63af-47d3-ae4f-2122f2f0a262
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 1%
@@ -36,13 +36,13 @@ Chemin d’accès de l’élément de calque Spécifie un chemin d’accès à l
 
 Toutes les parties du calque situées en dehors de la zone définie par `clipPath=` sont rendues transparentes.
 
-` *``*` pathName est le nom d’un chemin incorporé à l’image source du calque. Le chemin est automatiquement transformé pour conserver un alignement relatif avec le contenu de l’image. Si plusieurs ` *`pathName`*` sont spécifiés, le serveur cliente l’image à l’intersection de ces chemins d’accès. Tout ` *`cheminName`*` introuvable dans l&#39;image source est ignoré.
+`*``*` pathName est le nom d’un chemin incorporé à l’image source du calque. Le chemin est automatiquement transformé pour conserver un alignement relatif avec le contenu de l’image. Si plusieurs `*`pathName`*` sont spécifiés, le serveur cliente l’image à l’intersection de ces chemins d’accès. Tout `*`cheminName`*` introuvable dans l&#39;image source est ignoré.
 
 >[!NOTE]
 >
->Seules les chaînes ASCII sont prises en charge pour ` *`pathName`*`.
+>Seules les chaînes ASCII sont prises en charge pour `*`pathName`*`.
 
-` *``*` pathDefinitionpermet de spécifier des données de chemin explicites dans les coordonnées de pixels de calque.
+`*``*` pathDefinitionpermet de spécifier des données de chemin explicites dans les coordonnées de pixels de calque.
 
 Si `size=` est spécifié et non 0,0, le calque est prédimensionné. Dans ce cas, les coordonnées de chemin sont relatives au coin supérieur gauche du rectangle du calque et le calque est positionné selon `origin=` ou sa valeur par défaut. Toutes les zones du chemin en dehors du rectangle du calque restent transparentes.
 
@@ -52,9 +52,9 @@ Si `size=` n’est pas spécifié pour une couleur unie ou un calque de texte, l
 >
 >`scale=`,  `rotate=` et  `anchor=` les commandes ne sont pas autorisées pour les calques de couleur unie auto-dimensionnés.
 
-` *``*` pathDefinition accepte une chaîne similaire à la valeur de l’ `d=` attribut de l’ `<path>` élément SVG, sauf que des virgules sont utilisées à la place d’espaces pour séparer les valeurs. ` *``*` pathDefinition peut inclure un ou plusieurs sous-chemins en boucle fermée.
+`*``*` pathDefinition accepte une chaîne similaire à la valeur de l’ `d=` attribut de l’ `<path>` élément SVG, sauf que des virgules sont utilisées à la place d’espaces pour séparer les valeurs. `*``*` pathDefinition peut inclure un ou plusieurs sous-chemins en boucle fermée.
 
-Les commandes de chemin suivantes sont prises en charge dans ` *`pathDefinition`*` :
+Les commandes de chemin suivantes sont prises en charge dans `*`pathDefinition`*` :
 
 <table id="table_A74DD7A48B1C417D9D4BA46BECEAB981"> 
  <thead> 
