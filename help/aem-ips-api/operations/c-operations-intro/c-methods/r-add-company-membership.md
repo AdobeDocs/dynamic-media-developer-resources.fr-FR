@@ -1,16 +1,13 @@
 ---
 description: Ajoute un utilisateur à une ou plusieurs sociétés.
-seo-description: Ajoute un utilisateur à une ou plusieurs sociétés.
-seo-title: addCompanyMembership
 solution: Experience Manager
 title: addCompanyMembership
-topic: Scene7 Image Production System API
-uuid: be55041c-fc4e-46e8-bd2c-81b5931406f5
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 13%
+source-wordcount: '83'
+ht-degree: 14%
 
 ---
 
@@ -34,8 +31,8 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`userHandle`*` | `xsd:string` | Non | Nom d’utilisateur dont vous souhaitez ajouter l’adhésion. |
-| ` *`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Oui | Tableau de sociétés auxquelles vous ajoutez l’utilisateur. |
+| `*`userHandle`*` | `xsd:string` | Non | Nom d’utilisateur dont vous souhaitez ajouter l’adhésion. |
+| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Oui | Tableau de sociétés auxquelles vous ajoutez l’utilisateur. |
 
 **Output (addCompanyMembershipReturn)**
 
@@ -43,7 +40,7 @@ L&#39;API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-5469f88bac7047cca131faa6b021e437}
 
-Cet exemple utilise ` *`companyHandleArray`*` pour ajouter un utilisateur à une seule société.
+Cet exemple utilise `*`companyHandleArray`*` pour ajouter un utilisateur à une seule société.
 
 **Request**
 
