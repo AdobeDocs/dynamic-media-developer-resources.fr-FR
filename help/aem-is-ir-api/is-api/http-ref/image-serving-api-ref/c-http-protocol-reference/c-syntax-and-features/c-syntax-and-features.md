@@ -4,10 +4,10 @@ seo-description: Les rubriques de cette section décrivent la syntaxe et les fon
 seo-title: Syntaxe et fonctionnalités
 solution: Experience Manager
 title: Syntaxe et fonctionnalités
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5f8df6a2-a8f9-4582-9e1e-8f26acf61df4
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%
