@@ -4,10 +4,10 @@ seo-description: Supprime les utilisateurs sociétés d’un groupe spécifique.
 seo-title: removeGroupMembers
 solution: Experience Manager
 title: removeGroupMembers
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: dd0ea335-bbd0-43b1-830b-77f32dc39b12
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 9%
@@ -36,9 +36,9 @@ Supprime les utilisateurs sociétés d’un groupe spécifique.
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée vers la société avec les utilisateurs avec lesquels vous souhaitez travailler. |
-| ` *`groupHandle`*` | `xsd:string` | Oui | Poignée de groupe. |
-| ` *`userHandleArray`*` | `types:HandleArray` | Oui | Tableau de poignées pour les utilisateurs dont vous souhaitez supprimer les appartenances au groupe. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée vers la société avec les utilisateurs avec lesquels vous souhaitez travailler. |
+| `*`groupHandle`*` | `xsd:string` | Oui | Poignée de groupe. |
+| `*`userHandleArray`*` | `types:HandleArray` | Oui | Tableau de poignées pour les utilisateurs dont vous souhaitez supprimer les appartenances au groupe. |
 
 **Output (removeGroupMembersParam)**
 
