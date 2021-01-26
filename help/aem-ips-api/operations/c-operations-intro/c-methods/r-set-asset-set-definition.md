@@ -4,10 +4,10 @@ seo-description: Met à jour la définition d’ensemble pour une visionneuse de
 seo-title: setAssetSetDefinition
 solution: Experience Manager
 title: setAssetSetDefinition
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 2a2dce5d-7a01-49af-ac8b-33ae0b234ecc
 translation-type: tm+mt
-source-git-commit: 55015831ed1971a305ddbd8085c95626507355e0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 6%
@@ -36,9 +36,9 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée vers la société avec le jeu de ressources. |
-| ` *`assetHandle`*` | `xsd:string` | Oui | Poignée de jeu de ressources |
-| ` *`setDefinition`*` | `xsd:string` | Oui | Chaîne de définition. Voir ci-dessous. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée vers la société avec le jeu de ressources. |
+| `*`assetHandle`*` | `xsd:string` | Oui | Poignée de jeu de ressources |
+| `*`setDefinition`*` | `xsd:string` | Oui | Chaîne de définition. Voir ci-dessous. |
 
 **Output (setAssetSetDefinitionReturn)**
 
