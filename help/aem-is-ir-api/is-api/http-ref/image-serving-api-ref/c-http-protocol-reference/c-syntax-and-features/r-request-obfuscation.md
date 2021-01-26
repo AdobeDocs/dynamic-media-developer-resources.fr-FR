@@ -4,10 +4,10 @@ seo-description: Le contenu de la partie entière des modificateurs de la chaîn
 seo-title: Obscurcissement de demande
 solution: Experience Manager
 title: Obscurcissement de demande
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 59b12a78-c4ba-4b6d-97bc-63150298ed73
 translation-type: tm+mt
-source-git-commit: 021c1d1f975083af3950775e230d4f73cbf9e0ec
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 1%
