@@ -4,10 +4,10 @@ seo-description: Utilisé par SystemFieldCondition/field.
 seo-title: Champs du système de recherche de ressources
 solution: Experience Manager
 title: Champs du système de recherche de ressources
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 2af88d8a-4f04-4a90-8f60-ff0c32197023
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '26'
 ht-degree: 7%
