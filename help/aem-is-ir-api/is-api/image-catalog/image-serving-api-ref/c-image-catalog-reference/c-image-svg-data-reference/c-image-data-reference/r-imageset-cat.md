@@ -1,15 +1,12 @@
 ---
-description: Données de visionneuse d’images. Fournit un mécanisme permettant de définir des jeux triés d’images et des attributs de contrôle utilisés par les visionneuses Scene7.
-seo-description: Données de visionneuse d’images. Fournit un mécanisme permettant de définir des jeux triés d’images et des attributs de contrôle utilisés par les visionneuses Scene7.
-seo-title: ImageSet
+description: Données de visionneuse d’images. Fournit un mécanisme permettant de définir des jeux triés d’images et des attributs de contrôle utilisés par les visionneuses Dynamic Media.
 solution: Experience Manager
 title: ImageSet
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 1a34aaef-4053-4474-abb8-794331898d88
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '684'
 ht-degree: 2%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 2%
 
 # ImageSet{#imageset}
 
-Données de visionneuse d’images. Fournit un mécanisme permettant de définir des jeux triés d’images et des attributs de contrôle utilisés par les visionneuses Scene7.
+Données de visionneuse d’images. Fournit un mécanisme permettant de définir des jeux triés d’images et des attributs de contrôle utilisés par les visionneuses Dynamic Media.
 
 Une visionneuse d’images se compose d’une liste d’éléments triée, séparée par des virgules, chaque élément se composant d’un ou de plusieurs sous-éléments (identifiants d’image, identifiants d’échantillon, chemins d’accès aux fichiers multimédias, libellés, etc.), séparés par des points-virgules et/ou des deux-points.
 
@@ -49,24 +46,24 @@ Les définitions de visionneuse suivantes sont prises en charge en mode natif pa
 
 Chaque élément d’une série d’échantillons de base est constitué d’une référence à un enregistrement d’image et d’une référence distincte facultative à un enregistrement d’image utilisé comme échantillon.
 
-| ` *`basicSwatchSet`*` | ` *``*&#42;[',' *`swatchItemswatchItem`*]` |
+| `*`basicSwatchSet`*` | `*``*&#42;[',' *`swatchItemswatchItem`*]` |
 |---|---|
-| ` *`swatchItem`*` | ` *``*[';' *`imageIdswatch`*]` |
-| ` *`nuance`*` | ` *`swatchId`*|solidColorSpecifier` |
-| ` *`imageId`*` | Référence d’image IS (catalogue/id) |
-| ` *`swatchId`*` | Référence d’image IS (catalogue/id) |
-| ` *`solidColorSpecifier`*` | ` '{0x' *``* [ *`rgbblabel`*]'}'` |
-| ` *`rrggbb`*` | Valeur de couleur RVB hexadécimale à 6 chiffres empilée pour les nuances de couleur unie |
-| ` *`label`*` | Libellé de texte facultatif pour les nuances de couleur unie |
+| `*`swatchItem`*` | `*``*[';' *`imageIdswatch`*]` |
+| `*`nuance`*` | `*`swatchId`*|solidColorSpecifier` |
+| `*`imageId`*` | Référence d’image IS (catalogue/id) |
+| `*`swatchId`*` | Référence d’image IS (catalogue/id) |
+| `*`solidColorSpecifier`*` | ` '{0x' *``* [ *`rgbblabel`*]'}'` |
+| `*`rrggbb`*` | Valeur de couleur RVB hexadécimale à 6 chiffres empilée pour les nuances de couleur unie |
+| `*`label`*` | Libellé de texte facultatif pour les nuances de couleur unie |
 
 **Séries d’échantillons hiérarchiques**
 
 Chaque élément d’une série d’échantillons hiérarchique peut être constitué d’un élément d’échantillon de base ou d’une référence à un enregistrement d’ensemble d’échantillons (des échantillons sont requis pour ces éléments).
 
-| ` *`hierarchySwatchSet`*` | ` *``* &#42;[ ',' *`hierarchySwatchItemhierarchySwatchItem`* ]` |
+| `*`hierarchySwatchSet`*` | `*``* &#42;[ ',' *`hierarchySwatchItemhierarchySwatchItem`* ]` |
 |---|---|
-| ` *`hierarchySwatchItem`*` | ` *``* | { *``* ';' *`swatchItembasicSwatchSetIdswatch`* }` |
-| ` *`basicSwatchSetId`*` | Référence IS (catalogue/id) à un enregistrement de catalogue définissant une série d’échantillons de base |
+| `*`hierarchySwatchItem`*` | `*``* | { *``* ';' *`swatchItembasicSwatchSetIdswatch`* }` |
+| `*`basicSwatchSetId`*` | Référence IS (catalogue/id) à un enregistrement de catalogue définissant une série d’échantillons de base |
 
 **Visionneuses à 360° de base**
 
@@ -78,38 +75,38 @@ Une visionneuse à 360° de base se compose d’une simple liste d’ID d’imag
 
 Chaque élément d’une visionneuse à 360° bidimensionnelle peut être constitué d’une image simple, d’une référence à une visionneuse à 360° de base ou d’une visionneuse à 360° de base en ligne délimitée par des accolades. Les parenthèses peuvent être utilisées à la place des accolades.
 
-| ` *`2dSpinItem`*` | ` *`2dSpinSet`* *`2dSpinItem`* &#42;[ ',' *`2dSpinItem`* ]` |
+| `*`2dSpinItem`*` | `*`2dSpinSet`* *`2dSpinItem`* &#42;[ ',' *`2dSpinItem`* ]` |
 |---|---|
-| ` *`2dSpinItem`*` | ` *``* | { '{' *``* '}' } | *`imageIdbasicSpinSetbasicSpinSetId`*` |
-| ` *`basicSpinSetId`*` | Référence IS (catalogue/id) à un enregistrement de catalogue définissant une visionneuse à 360° de base |
+| `*`2dSpinItem`*` | `*``* | { '{' *``* '}' } | *`imageIdbasicSpinSetbasicSpinSetId`*` |
+| `*`basicSpinSetId`*` | Référence IS (catalogue/id) à un enregistrement de catalogue définissant une visionneuse à 360° de base |
 
 **Jeux de pages**
 
 Chaque élément d’un jeu de pages peut comporter jusqu’à trois images de page séparées par des deux-points.
 
-| ` *`pageSet`*` | ` *``* &#42;[ , *`pageImageItem`* ]` |
+| `*`pageSet`*` | `*``* &#42;[ , *`pageImageItem`* ]` |
 |---|---|
-| ` *`pageItem`*` | ` *``* [ : *``* [ : *`imageIdimageIdimageId`* ] ]` |
+| `*`pageItem`*` | `*``* [ : *``* [ : *`imageIdimageIdimageId`* ] ]` |
 
 **Visionneuses de supports**
 
 Chaque élément d’une visionneuse de supports peut se composer d’une image, d’une visionneuse d’échantillons de base, d’une visionneuse d’échantillons hiérarchique, d’une visionneuse à 360° de base, d’une visionneuse à 360° bidimensionnelle, d’une visionneuse de pages ou d’une ressource vidéo. Chaque élément de visionneuse de supports peut également contenir une nuance et un identifiant de type facultatifs.
 
-| ` *`mediaSet`*` | ` *``* &#42;[ , *`itemitem`* ]` |
+| `*`mediaSet`*` | `*``* &#42;[ , *`itemitem`* ]` |
 |---|---|
-| ` *`élément`*` | ` { *``* | *``* | *``*}} | *``* } [ ; [ *``* ] [ ; [ *`videoItemrecutItemimageItemsetItemIDreserved`* ] ] ]` |
-| ` *`videoItem`*` | ` *``* ; *`videoswatchId`*` |
-| ` *`recutItem`*` | ` *``* ; *`recutswatchId`*` |
-| ` *`imageItem`*` | ` *``* ; [ *`imageIdswatchId`* ]` |
-| ` *`setItem`*` | ` { *``* | { '{' *``* '}' } } ; *`setIdinlineSetswatchId`*` |
-| ` *`ID`*` | `media type identifier [ img | basic | advanced_image | img | img_set | advanced_imageset | advanced_swatchset | spin | video ]` |
-| ` *`swatchId`*` | ID d’image IS |
-| ` *`video`*` | Chemin du fichier vidéo/animation ou ID de catalogue statique |
-| ` *`découper`*` | Chemin d’accès au fichier XML de définition de découpe ou ID de catalogue statique |
-| ` *`imageId`*` | ID d’image IS |
-| ` *`setId`*` | Référence IS à l’image, à la rotation ou à la visionneuse de catalogues électroniques |
-| ` *`inlineSet`*` | Image, rotation ou visionneuse de catalogue électronique insérée |
-| ` *`réservé`*` | Réservé pour une utilisation ultérieure |
+| `*`élément`*` | ` { *``* | *``* | *``*}} | *``* } [ ; [ *``* ] [ ; [ *`videoItemrecutItemimageItemsetItemIDreserved`* ] ] ]` |
+| `*`videoItem`*` | `*``* ; *`videoswatchId`*` |
+| `*`recutItem`*` | `*``* ; *`recutswatchId`*` |
+| `*`imageItem`*` | `*``* ; [ *`imageIdswatchId`* ]` |
+| `*`setItem`*` | ` { *``* | { '{' *``* '}' } } ; *`setIdinlineSetswatchId`*` |
+| `*`ID`*` | `media type identifier [ img | basic | advanced_image | img | img_set | advanced_imageset | advanced_swatchset | spin | video ]` |
+| `*`swatchId`*` | ID d’image IS |
+| `*`video`*` | Chemin du fichier vidéo/animation ou ID de catalogue statique |
+| `*`découper`*` | Chemin d’accès au fichier XML de définition de découpe ou ID de catalogue statique |
+| `*`imageId`*` | ID d’image IS |
+| `*`setId`*` | Référence IS à l’image, à la rotation ou à la visionneuse de catalogues électroniques |
+| `*`inlineSet`*` | Image, rotation ou visionneuse de catalogue électronique insérée |
+| `*`réservé`*` | Réservé pour une utilisation ultérieure |
 
 **Visionneuses de vidéos**
 
