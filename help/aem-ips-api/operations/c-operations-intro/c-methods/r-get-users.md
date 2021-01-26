@@ -4,10 +4,10 @@ seo-description: Obtient un tableau d'utilisateurs tel que spécifié par les po
 seo-title: getUsers
 solution: Experience Manager
 title: getUsers
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: f16ccd1b-0f00-4d9a-b6e1-6abc3bde1af9
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 9%
@@ -29,22 +29,22 @@ Obtient un tableau d&#39;utilisateurs tel que spécifié par les poignées de so
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`includeInactive`*` | `xsd:boolean` | Non | Incluez ou excluez les utilisateurs inactifs. Les utilisateurs administrateurs non-IPS doivent être membres principaux d&#39;au moins une société pour être autorisés à effectuer des appels d&#39;API. Une erreur d&#39;autorisation est renvoyée si l&#39;utilisateur n&#39;a pas d&#39;abonnement à une société principale. |
-| ` *`includeInvalid`*` | `xsd:boolean` | Non | Vous permet d’inclure/d’exclure des utilisateurs non valides. |
-| ` *`companyHandleArray`*` | `types:HandleArray` | Non | Filtrez les résultats par société. |
-| ` *`groupHandleArray`*` | `types:HandleArray` | Non | Filtrez les résultats par groupe. |
-| ` *`userRoleArray`*` | `types:StringArray` | Non | Filtrez les résultats par rôle utilisateur. |
-| ` *`charFilterField`*` | `xsd:string` | Non | Filtrer les résultats par préfixe de chaîne de champ (voir [!DNL Trash State).] |
-| ` *`charFilter`*` | `xsd:string` | Non | Filtrez les résultats selon un caractère spécifique. |
-| ` *`sortBy`*` | `xsd:string` | Non | Choix des champs de tri des utilisateurs. |
-| ` *`recordsPerPage`*` | `xsd:int` | Non | Renvoie le nombre spécifié d’enregistrements par page. |
-| ` *`resultsPage`*` | `xsd:int` | Non | Page de résultats. |
+| `*`includeInactive`*` | `xsd:boolean` | Non | Incluez ou excluez les utilisateurs inactifs. Les utilisateurs administrateurs non-IPS doivent être membres principaux d&#39;au moins une société pour être autorisés à effectuer des appels d&#39;API. Une erreur d&#39;autorisation est renvoyée si l&#39;utilisateur n&#39;a pas d&#39;abonnement à une société principale. |
+| `*`includeInvalid`*` | `xsd:boolean` | Non | Vous permet d’inclure/d’exclure des utilisateurs non valides. |
+| `*`companyHandleArray`*` | `types:HandleArray` | Non | Filtrez les résultats par société. |
+| `*`groupHandleArray`*` | `types:HandleArray` | Non | Filtrez les résultats par groupe. |
+| `*`userRoleArray`*` | `types:StringArray` | Non | Filtrez les résultats par rôle utilisateur. |
+| `*`charFilterField`*` | `xsd:string` | Non | Filtrer les résultats par préfixe de chaîne de champ (voir [!DNL Trash State).] |
+| `*`charFilter`*` | `xsd:string` | Non | Filtrez les résultats selon un caractère spécifique. |
+| `*`sortBy`*` | `xsd:string` | Non | Choix des champs de tri des utilisateurs. |
+| `*`recordsPerPage`*` | `xsd:int` | Non | Renvoie le nombre spécifié d’enregistrements par page. |
+| `*`resultsPage`*` | `xsd:int` | Non | Page de résultats. |
 
 **Sortie (getUsersReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`userArray`*` | `types:UserArray` | Oui | Tableau d’utilisateurs. |
+| `*`userArray`*` | `types:UserArray` | Oui | Tableau d’utilisateurs. |
 
 ## Exemples {#section-bc43a5dd7b4c4f048d25fc881554dab2}
 
