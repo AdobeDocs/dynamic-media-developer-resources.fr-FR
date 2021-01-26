@@ -4,10 +4,10 @@ seo-description: Définit ou met à jour un paquet de métadonnées XMP pour un 
 seo-title: updateXMPPacket
 solution: Experience Manager
 title: updateXMPPacket
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 97a40261-8f85-4e8c-8aa5-ed4fec297f33
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 22%
@@ -37,15 +37,15 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
-| ` *`assetHandle`*` | `xsd:string` | Oui | Poignée de ressource. |
-| ` *`compresséPacket`*` | `xsd:Base 64 binary` | Oui | [!DNL zlib-compressed] XMP paquet que vous souhaitez définir ou mettre à jour. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
+| `*`assetHandle`*` | `xsd:string` | Oui | Poignée de ressource. |
+| `*`compresséPacket`*` | `xsd:Base 64 binary` | Oui | [!DNL zlib-compressed] XMP paquet que vous souhaitez définir ou mettre à jour. |
 
 **Output (updateXMPPacketReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`réussite`*` | `xsd:boolean` | Oui | Renvoie `true` si le paquet a été mis à jour. |
+| `*`réussite`*` | `xsd:boolean` | Oui | Renvoie `true` si le paquet a été mis à jour. |
 
 ## Exemples {#section-38b556b94e5044bf97a954519ff6c212}
 
