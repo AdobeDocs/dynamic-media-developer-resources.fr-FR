@@ -4,10 +4,10 @@ seo-description: Les macros de commande fournissent des raccourcis nommés pour 
 seo-title: Macros de commande
 solution: Experience Manager
 title: Macros de commande
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a6ff5642-6716-484f-b37e-066994362a9b
 translation-type: tm+mt
-source-git-commit: 94a26628ec619076f0942e9278165cc591f1c150
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Les macros de commande fournissent des raccourcis nommés pour les jeux de comma
  </tr> 
 </table>
 
-` *`Le `*` nom n&#39;est pas sensible à la casse et peut consister en toute combinaison de lettres ASCII, de chiffres, de &#39;-&#39;, &#39;_&#39; et &#39;.&#39; caractères.
+`*`Le `*` nom n&#39;est pas sensible à la casse et peut consister en toute combinaison de lettres ASCII, de chiffres, de &#39;-&#39;, &#39;_&#39; et &#39;.&#39; caractères.
 
 Les macros peuvent être invoquées n’importe où dans une requête après &quot;?&quot;, ainsi que n’importe où dans un champ `catalog::Modifier` ou `catalog::PostModifier`. Les macros ne peuvent représenter qu’une ou plusieurs commandes de traitement d’images complètes et doivent être séparées des autres commandes avec des séparateurs &quot;&amp;&quot;.
 
