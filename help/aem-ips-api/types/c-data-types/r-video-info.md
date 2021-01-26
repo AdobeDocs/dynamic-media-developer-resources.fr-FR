@@ -4,10 +4,10 @@ seo-description: Propriétés des fichiers vidéo.
 seo-title: VideoInfo
 solution: Experience Manager
 title: VideoInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: c90f2a56-64ff-4f04-bfed-739e33d9a319
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 10%
@@ -25,11 +25,11 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| ` *`originalPath`*` | `xsd:string` | Chemin relatif vers la vidéo téléchargée. |
-| ` *`originalFile`*` | `xsd:string` | Nom du fichier vidéo d’origine. |
-| ` *`fileSize`*` | `xsd:int` | Taille du fichier. |
-| ` *`imagePath`*` | `xsd:string` | Chemin d’accès relatif au fichier vidéo. |
-| ` *`imageFile`*` | `xsd:string` | Nom de fichier du fichier vidéo. |
-| ` *`optimizedPath`*` | `xsd:string` | Chemin d’accès au fichier vidéo optimisé pour IPS. |
-| ` *`optimizedFile`*` | `xsd:string` | Nom de fichier du fichier vidéo optimisé par IPS. |
+| `*`originalPath`*` | `xsd:string` | Chemin relatif vers la vidéo téléchargée. |
+| `*`originalFile`*` | `xsd:string` | Nom du fichier vidéo d’origine. |
+| `*`fileSize`*` | `xsd:int` | Taille du fichier. |
+| `*`imagePath`*` | `xsd:string` | Chemin d’accès relatif au fichier vidéo. |
+| `*`imageFile`*` | `xsd:string` | Nom de fichier du fichier vidéo. |
+| `*`optimizedPath`*` | `xsd:string` | Chemin d’accès au fichier vidéo optimisé pour IPS. |
+| `*`optimizedFile`*` | `xsd:string` | Nom de fichier du fichier vidéo optimisé par IPS. |
 
