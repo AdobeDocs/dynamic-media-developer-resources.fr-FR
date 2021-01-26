@@ -4,10 +4,10 @@ seo-description: Définit l’image miniature d’un ou de plusieurs fichiers.
 seo-title: batchSetThumbAsset
 solution: Experience Manager
 title: batchSetThumbAsset
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 16c298a7-bb07-4643-824b-8f864d7f0290
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 13%
@@ -50,18 +50,18 @@ Les types de fichier de miniature autorisés sont les suivants :
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de la société contenant les ressources. |
-| ` *`updateArray`*` | `types:ThumbAssetUpdateArray` | Oui | Tableau de mises à jour. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société contenant les ressources. |
+| `*`updateArray`*` | `types:ThumbAssetUpdateArray` | Oui | Tableau de mises à jour. |
 
 **Sortie (batchSetThumbAssetParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Oui | Nombre de miniatures définies avec succès. |
-| ` *`warningCount`*` | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de définir les miniatures. |
-| ` *`errorCount`*` | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de définir les miniatures. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des avertissements lorsque l’opération tentait d’appliquer les mises à jour. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des erreurs lorsque l’opération a tenté d’appliquer les mises à jour. |
+| `*`successCount`*` | `xsd:int` | Oui | Nombre de miniatures définies avec succès. |
+| `*`warningCount`*` | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de définir les miniatures. |
+| `*`errorCount`*` | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de définir les miniatures. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des avertissements lorsque l’opération tentait d’appliquer les mises à jour. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des erreurs lorsque l’opération a tenté d’appliquer les mises à jour. |
 
 ## Exemples {#section-6de69a8680c24c1486c5f01488393381}
 
