@@ -4,13 +4,13 @@ seo-description: Détails du message d’erreur. Indique le niveau de détail de
 seo-title: ErrorDetail
 solution: Experience Manager
 title: ErrorDetail
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: aab11640-95d7-427d-b79f-c477b2c9047e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 5%
+source-wordcount: '181'
+ht-degree: 4%
 
 ---
 
@@ -44,7 +44,7 @@ Les valeurs suivantes sont autorisées :
 
 * Le niveau 0 est recommandé pour les serveurs actifs accessibles au public.
 * Le niveau 2 est recommandé pour les serveurs d’évaluation, d’assurance de la qualité et de développement d’applications.
-* Les informations de niveau 3 peuvent être utiles en cas de problèmes de rapports au support technique de Scene7.
+* Les informations de niveau 3 peuvent être utiles lorsque des problèmes de rapports au support technique Dynamic Media.
 
 ## Propriétés {#section-f03f9a8edd6a4d99aff38fbec41c4b80}
 
