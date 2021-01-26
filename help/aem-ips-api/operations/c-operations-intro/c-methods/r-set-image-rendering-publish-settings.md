@@ -4,10 +4,10 @@ seo-description: Pour les développeurs Scene7 uniquement. Reportez-vous à la s
 seo-title: setImageRenderingPublishSettings
 solution: Experience Manager
 title: setImageRenderingPublishSettings
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 0ea8325c-d56b-47da-a3d0-18876d5dd0ba
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 12%
@@ -27,7 +27,7 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
-| ` *`publishSettingsArray`*` | `types:ConfigSettingArray` | Oui | Pour les développeurs Scene7 uniquement. |
-| ` *`contextHandle`*` | `xsd:string` | Non | Traitement du contexte de publication. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
+| `*`publishSettingsArray`*` | `types:ConfigSettingArray` | Oui | Pour les développeurs Scene7 uniquement. |
+| `*`contextHandle`*` | `xsd:string` | Non | Traitement du contexte de publication. |
 
