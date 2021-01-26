@@ -4,13 +4,13 @@ seo-description: Paramètres de rendu avancés par défaut. Valeur par défaut p
 seo-title: RenderSettings
 solution: Experience Manager
 title: RenderSettings
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ad8884e7-4a4c-489f-881d-1d55eedef034
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 6%
+source-wordcount: '67'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ Paramètres de rendu avancés par défaut. Valeur par défaut pour catalog::Rend
 
 ## Propriétés {#section-fa89db09aeeb420292cf783f07b8547a}
 
-Chaîne de texte. S’il est spécifié, il doit s’agir d’une chaîne de paramètres de rendu valide, telle que définie avec l’outil de création de vignettes (qui fait partie du pack de création d’images Scene7).
+Chaîne de texte. S’il est spécifié, il doit s’agir d’une chaîne de paramètres de rendu valide, telle que définie avec l’outil de création de vignettes (qui fait partie du pack de création d’images Dynamic Media).
 
 ## Par défaut {#section-4e76784aeecd4f09a33124aded7406cb}
 
