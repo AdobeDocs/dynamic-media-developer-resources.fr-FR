@@ -4,10 +4,10 @@ seo-description: Les fichiers de vignette peuvent être remplacés ou supprimés
 seo-title: Suppression ou remplacement des fichiers de données source
 solution: Experience Manager
 title: Suppression ou remplacement des fichiers de données source
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 13dc0489-7ab0-481e-b213-214affe9819e
 translation-type: tm+mt
-source-git-commit: e8e5b07329bde3e23ee095d5022da62d67e9478c
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
