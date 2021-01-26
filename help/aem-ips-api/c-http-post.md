@@ -1,15 +1,12 @@
 ---
 description: Le téléchargement de fichiers dans Scene7 Production System implique une ou plusieurs requêtes de POST HTTP qui configurent une tâche afin de coordonner toutes les activités de journal associées aux fichiers téléchargés.
-seo-description: Le téléchargement de fichiers dans Scene7 Production System implique une ou plusieurs requêtes de POST HTTP qui configurent une tâche afin de coordonner toutes les activités de journal associées aux fichiers téléchargés.
-seo-title: Téléchargement de fichiers via HTTP POSTs vers le servlet UploadFile
 solution: Experience Manager
 title: Téléchargement de fichiers via HTTP POSTs vers le servlet UploadFile
-topic: Scene7 Image Production System API
-uuid: 8d562316-0849-4b95-a974-29732d453dc8
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 5d738b675975251dc3491ac7ae533eda082df134
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '727'
 ht-degree: 3%
 
 ---
@@ -29,7 +26,7 @@ https://<server>/scene7/UploadFile
 >
 >Toutes les demandes de POST pour une tâche de téléchargement doivent provenir de la même adresse IP.
 
-**URL d’accès pour les régions Scene7**
+**URL d’accès pour les régions Dynamic Media**
 
 <table id="table_45BB314ABCDA49F38DF7BECF95CC984A"> 
  <thead> 
