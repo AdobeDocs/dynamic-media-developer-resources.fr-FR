@@ -7,9 +7,9 @@ title: Version de l’automne 2016 de Scene7
 topic: Dynamic media
 uuid: 3fddda65-0c6e-48ec-bd60-7e0ca59421a8
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '2263'
+source-wordcount: '2264'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,8 @@ Notes de mise à jour les plus récentes pour la version de [!DNL Adobe Scene7] 
 * [Visionneuses (Image Serving 5.5.3)](s7rnfall2016.md#section-1d59bcd5825d487b80b59a6d1a08ed30)
 * [Visionneuses (Image Serving 5.5.2)](s7rnfall2016.md#section-9932c988cfee45749594af481dfc6476)
 * [Visionneuses (Image Serving 5.5.1)](s7rnfall2016.md#section-833ab92c91c941d2bfdc27f233f582ad)
-* [Kit de développement de visionneuse HTML5 Scene7 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
-* [Scene7 Image Serving 6.3.2 et Image Rendering 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
+* [Kit de développement de visionneuse HTML5 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
+* [Dynamic Media Image Serving 6.3.2 et Image Rendering 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
 
 ## Généraux {#section-52afeb72ecb34c1585ea67a5051825a2}
 
@@ -201,8 +201,8 @@ Pour obtenir une documentation complète, consultez le [Guide de référence des
    * Les bordures noires s’affichent sur le côté du composant VideoPlayer lorsque l’arrière-plan est défini sur blanc/transparent sur les périphériques iPad.
    * La dernière image de la vidéo peut être déformée sur iPad sous iOS 7.
    * Des macroblocages occasionnels peuvent survenir lors de la recherche vidéo en mode de diffusion HLS dans les navigateurs Chrome, Firefox et Internet Explorer.
-   * L&#39;image d&#39;affiche peut ne pas s&#39;afficher dans le navigateur Microsoft Edge pour la première fois du visiteur.
-   * L’image d’affiche peut se masquer après le chargement de la vidéo dans Internet Explorer 9 lorsque la lecture progressive est utilisée.
+      * L&#39;image d&#39;affiche peut ne pas s&#39;afficher dans le navigateur Microsoft Edge pour la première fois du visiteur.
+      * L’image d’affiche peut se masquer après le chargement de la vidéo dans Internet Explorer 9 lorsque la lecture progressive est utilisée.
 
 ## Kit de développement de visionneuse HTML5 Scene7 3.0.2 {#section-30e2392859c442d1aab2766d0f1d1580}
 
@@ -348,7 +348,7 @@ Le Guide de l’utilisateur se trouve dans le dossier SDK de la visionneuse HTML
    * L&#39;image d&#39;affiche peut ne pas s&#39;afficher dans le navigateur Microsoft Edge pour la première fois du visiteur.
    * L’image d’affiche peut se masquer après le chargement de la vidéo dans Internet Explorer 9 lorsque la lecture progressive est utilisée.
 
-## Scene7 Image Serving 6.3.2 et Image Rendering 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
+## Dynamic Media Image Serving 6.3.2 et Image Rendering 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
 
 * Utilitaire IC - L&#39;indicateur `downsample2x2` n&#39;est plus pris en charge. Cet indicateur était un sous-échantillonneur 2x2 de mauvaise qualité qui n&#39;est plus utilisé par IPS.
 * En-tête CORS - Actuellement, l’en-tête CORS est configuré pour les demandes `/is/content/`.
