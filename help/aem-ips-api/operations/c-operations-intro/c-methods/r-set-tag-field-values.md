@@ -4,10 +4,10 @@ seo-description: Définit les valeurs du dictionnaire de balises pour un champ d
 seo-title: setTagFieldValues
 solution: Experience Manager
 title: setTagFieldValues
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 56666c00-3694-4a43-a0ff-97af45c8df9f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 14%
@@ -33,9 +33,9 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
-| ` *`fieldHandle`*` | `xsd:string` | Oui | Poignée de champ de balise. |
-| ` *`valueArray`*` | `types:StringArray` | Oui | Tableau de valeurs de balise qui remplacent le dictionnaire existant du champ. Les associations d’actifs sont conservées lorsqu’une nouvelle valeur correspond à une valeur existante. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
+| `*`fieldHandle`*` | `xsd:string` | Oui | Poignée de champ de balise. |
+| `*`valueArray`*` | `types:StringArray` | Oui | Tableau de valeurs de balise qui remplacent le dictionnaire existant du champ. Les associations d’actifs sont conservées lorsqu’une nouvelle valeur correspond à une valeur existante. |
 
 **Output (setTagFieldValuesReturn)**
 
