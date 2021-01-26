@@ -4,10 +4,10 @@ seo-description: Décrit les modifications apportées aux autorisations.
 seo-title: PermissionUpdate
 solution: Experience Manager
 title: PermissionUpdate
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 7b1850ca-6a8c-402d-8c8f-4528d978245f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '38'
 ht-degree: 13%
@@ -25,8 +25,8 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| ` *`groupHandle`*` | `xsd:string` | Poignée de groupe. |
-| ` *`permissionType`*` | `xsd:string` | Type d&#39;autorisation. |
-| ` *`isAllowed`*` | `xsd:boolean` | Détermine si la mise à jour des autorisations est autorisée. |
-| ` *`isOverride`*` | `xsd:boolean` | Détermine si l’autorisation remplace une autre. |
+| `*`groupHandle`*` | `xsd:string` | Poignée de groupe. |
+| `*`permissionType`*` | `xsd:string` | Type d&#39;autorisation. |
+| `*`isAllowed`*` | `xsd:boolean` | Détermine si la mise à jour des autorisations est autorisée. |
+| `*`isOverride`*` | `xsd:boolean` | Détermine si l’autorisation remplace une autre. |
 
