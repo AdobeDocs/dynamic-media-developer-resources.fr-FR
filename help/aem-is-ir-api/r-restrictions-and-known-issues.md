@@ -1,15 +1,15 @@
 ---
-description: Certaines restrictions et problèmes connus doivent être pris en compte lors de l’utilisation de la diffusion d’images Scene7.
-seo-description: Certaines restrictions et problèmes connus doivent être pris en compte lors de l’utilisation de la diffusion d’images Scene7.
+description: Certaines restrictions et problèmes connus doivent être pris en compte lors de l’utilisation de la diffusion d’images Dynamic Media.
+seo-description: Certaines restrictions et problèmes connus doivent être pris en compte lors de l’utilisation de la diffusion d’images Dynamic Media.
 seo-title: Restrictions et problèmes connus
 solution: Experience Manager
 title: Restrictions et problèmes connus
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 translation-type: tm+mt
-source-git-commit: 0e9d6a0ccbb040b27cc89b933442d8530c60d5c8
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1251'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Restrictions et problèmes connus{#restrictions-and-known-issues}
 
-Certaines restrictions et problèmes connus doivent être pris en compte lors de l’utilisation de la diffusion d’images Scene7.
+Certaines restrictions et problèmes connus doivent être pris en compte lors de l’utilisation de la diffusion d’images Dynamic Media.
 
 ## Erreur de documentation {#section-b1579410b11e41e488c7de9ecc7e8d5c}
 
