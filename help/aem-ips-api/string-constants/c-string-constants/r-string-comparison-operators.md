@@ -4,10 +4,10 @@ seo-description: Utilisé par SystemFieldCondition/op et MetadataCondition/op.
 seo-title: Opérateurs de comparaison de chaînes
 solution: Experience Manager
 title: Opérateurs de comparaison de chaînes
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 980c3225-cf1d-43b5-8d99-83af8f0c82dd
 translation-type: tm+mt
-source-git-commit: 2bd5b17e473ec53844b4bbcb4f13580b2d6bfaf4
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '32'
 ht-degree: 6%
