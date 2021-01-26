@@ -1,15 +1,12 @@
 ---
-description: La bibliothèque d’images réactive est un module JavaScript qui ajuste dynamiquement la qualité des images diffusées à partir de Scene7 et incorporées dans des pages Web réactives. En outre, il offre une meilleure qualité d’image sur les périphériques dotés d’écrans haute densité. La bibliothèque peut également rendre de manière responsable les résultats de la recadrage dynamique et de la série d’échantillons dynamique.
-seo-description: La bibliothèque d’images réactive est un module JavaScript qui ajuste dynamiquement la qualité des images diffusées à partir de Scene7 et incorporées dans des pages Web réactives. En outre, il offre une meilleure qualité d’image sur les périphériques dotés d’écrans haute densité. La bibliothèque peut également rendre de manière responsable les résultats de la recadrage dynamique et de la série d’échantillons dynamique.
-seo-title: A propos de la bibliothèque d’images réactives
+description: La bibliothèque d’images réactive est un module JavaScript qui ajuste dynamiquement la qualité des images diffusées à partir de Dynamic Media et incorporées dans des pages Web réactives. En outre, il offre une meilleure qualité d’image sur les périphériques dotés d’écrans haute densité. La bibliothèque peut également rendre de manière responsable les résultats de la recadrage dynamique et de la série d’échantillons dynamique.
 solution: Experience Manager
 title: A propos de la bibliothèque d’images réactives
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 0906a940-59ff-45b0-b509-57bd02f2da57
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
@@ -17,11 +14,11 @@ ht-degree: 0%
 
 # A propos de la bibliothèque d’images réactives{#about-responsive-image-library}
 
-La bibliothèque d’images réactive est un module JavaScript qui ajuste dynamiquement la qualité des images diffusées à partir de Scene7 et incorporées dans des pages Web réactives. En outre, il offre une meilleure qualité d’image sur les périphériques dotés d’écrans haute densité. La bibliothèque peut également rendre de manière responsable les résultats de la recadrage dynamique et de la série d’échantillons dynamique.
+La bibliothèque d’images réactive est un module JavaScript qui ajuste dynamiquement la qualité des images diffusées à partir de Dynamic Media et incorporées dans des pages Web réactives. En outre, il offre une meilleure qualité d’image sur les périphériques dotés d’écrans haute densité. La bibliothèque peut également rendre de manière responsable les résultats de la recadrage dynamique et de la série d’échantillons dynamique.
 
 ## URL de démonstration {#section-4f72c1dc38bf4e03acfa5205733a05a5}
 
-Le cas d’utilisation le plus simple de la bibliothèque d’images réactive consiste à définir une liste de valeurs de points d’arrêt pour la largeur de l’image. Cette liste permet de s’assurer que le rendu approprié est chargé et affiché lorsqu’une image est redimensionnée en raison de la mise en page de la page Web qui change depuis qu’un utilisateur redimensionne la fenêtre du navigateur ou modifie l’orientation du périphérique. La bibliothèque surveille en permanence la taille des images à l’écran et, chaque fois qu’une nouvelle largeur de point d’arrêt est atteinte, elle récupère un nouveau rendu d’image à partir de Scene7.
+Le cas d’utilisation le plus simple de la bibliothèque d’images réactive consiste à définir une liste de valeurs de points d’arrêt pour la largeur de l’image. Cette liste permet de s’assurer que le rendu approprié est chargé et affiché lorsqu’une image est redimensionnée en raison de la mise en page de la page Web qui change depuis qu’un utilisateur redimensionne la fenêtre du navigateur ou modifie l’orientation du périphérique. La bibliothèque surveille en permanence la taille des images à l’écran et, chaque fois qu’une nouvelle largeur de point d’arrêt est atteinte, elle récupère un nouveau rendu d’image à partir de Dynamic Media.
 
 <table id="table_3D3D3991B802461A888E1093C1217D26"> 
  <thead> 
@@ -42,7 +39,7 @@ Le cas d’utilisation le plus simple de la bibliothèque d’images réactive c
    <td colname="col01"> <p>2 </p> </td> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-bootstrap.html" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/samples/responsive-static-image-bootstrap.html  </a> </p> <p> 
      <!-- http://sasha.s7qa.com/jira-bugs/S7-7729/responsive-static-image-bootstrap.htm--> </p> </td> 
-   <td colname="col2"> <p>L’exemple de Bootstrap suivant illustre le même cas d’utilisation dans une page Web. Selon le CSS Bootstrap, la cellule de disposition à laquelle l’image adaptée est ajoutée peut avoir l’une des largeurs suivantes : 360, 720 et 940 pixels. Il s’agit des valeurs exactes transmises en tant que points d’arrêt à la bibliothèque d’images réactive. Ainsi, Scene7 s'assure que la bande passante réseau du client est utilisée efficacement. De plus, il garantit également que l’image est affichée à la taille exacte requise, compte tenu de la mise en page Web actuelle, sans artefacts visuels lors de la mise à l’échelle du navigateur côté client. </p> <p>Cliquez sur l’URL pour ouvrir la page Web, redimensionnez la fenêtre du navigateur pour accéder à différents points d’arrêt de la mise en page et surveillez le trafic réseau. </p> <p>Les cas d’utilisation plus avancés incluent l’association de différents paramètres d’image prédéfinis, ou de commandes de diffusion d’images, ou les deux, à des valeurs de points d’arrêt différentes. </p> </td> 
+   <td colname="col2"> <p>L’exemple de Bootstrap suivant illustre le même cas d’utilisation dans une page Web. Selon le CSS Bootstrap, la cellule de disposition à laquelle l’image adaptée est ajoutée peut avoir l’une des largeurs suivantes : 360, 720 et 940 pixels. Il s’agit des valeurs exactes transmises en tant que points d’arrêt à la bibliothèque d’images réactive. Ainsi, Dynamic Media s'assure que la bande passante réseau du client est utilisée efficacement. De plus, il garantit également que l’image est affichée à la taille exacte requise, compte tenu de la mise en page Web actuelle, sans artefacts visuels lors de la mise à l’échelle du navigateur côté client. </p> <p>Cliquez sur l’URL pour ouvrir la page Web, redimensionnez la fenêtre du navigateur pour accéder à différents points d’arrêt de la mise en page et surveillez le trafic réseau. </p> <p>Les cas d’utilisation plus avancés incluent l’association de différents paramètres d’image prédéfinis, ou de commandes de diffusion d’images, ou les deux, à des valeurs de points d’arrêt différentes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
@@ -69,7 +66,7 @@ Le cas d’utilisation le plus simple de la bibliothèque d’images réactive c
 
 **Matériel et logiciels du serveur**
 
-* Scene7 Image Serving 6.0.1 ou version ultérieure.
+* Dynamic Media Image Serving 6.0.1 ou version ultérieure.
 
 **Configuration minimale requise pour le navigateur client**
 
