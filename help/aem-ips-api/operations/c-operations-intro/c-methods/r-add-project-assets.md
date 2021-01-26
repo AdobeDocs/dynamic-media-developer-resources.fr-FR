@@ -1,15 +1,12 @@
 ---
 description: Ajoute une ou plusieurs ressources à un projet.
-seo-description: Ajoute une ou plusieurs ressources à un projet.
-seo-title: addProjectAssets
 solution: Experience Manager
 title: addProjectAssets
-topic: Scene7 Image Production System API
-uuid: 48abea17-058e-4469-bb16-0abee8ef5214
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '178'
 ht-degree: 11%
 
 ---
@@ -36,19 +33,19 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Gérer la société associée au projet en cours. |
-| ` *`projectHandle`*` | `xsd:string` | Oui | Gérer le projet auquel vous ajoutez des ressources. |
-| ` *`projectHandleArray`*` | `xsd:HandleArray` | Oui | Tableau des ressources que vous ajoutez au projet en cours. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gérer la société associée au projet en cours. |
+| `*`projectHandle`*` | `xsd:string` | Oui | Gérer le projet auquel vous ajoutez des ressources. |
+| `*`projectHandleArray`*` | `xsd:HandleArray` | Oui | Tableau des ressources que vous ajoutez au projet en cours. |
 
 **Output (addProjectAssetsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Oui | Nombre de ressources ajoutées avec succès. |
-| ` *`warningCount`*` | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait d’ajouter des ressources à un projet. |
-| ` *`errorCount`*` | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait d’ajouter des ressources à un projet. |
-| ` *`warningDetailHandle`*` | `xsd:AssetOperationFaultArray` | Non | Tableau des avertissements générés par les ressources lorsque l’opération tentait de les ajouter à un projet. |
-| ` *`companyHandle`*` | `xsd:AssetOperationFaultArray` | Non | Tableau des erreurs générées par les ressources lorsque l&#39;opération tentait de les ajouter à un projet. |
+| `*`successCount`*` | `xsd:int` | Oui | Nombre de ressources ajoutées avec succès. |
+| `*`warningCount`*` | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait d’ajouter des ressources à un projet. |
+| `*`errorCount`*` | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait d’ajouter des ressources à un projet. |
+| `*`warningDetailHandle`*` | `xsd:AssetOperationFaultArray` | Non | Tableau des avertissements générés par les ressources lorsque l’opération tentait de les ajouter à un projet. |
+| `*`companyHandle`*` | `xsd:AssetOperationFaultArray` | Non | Tableau des erreurs générées par les ressources lorsque l&#39;opération tentait de les ajouter à un projet. |
 
 ## Exemples {#section-bee5be2402f54cb9a3a02cc07def4135}
 
