@@ -4,10 +4,10 @@ seo-description: Les variables de substitution sont utilisées pour transférer 
 seo-title: Variables de substitution
 solution: Experience Manager
 title: Variables de substitution
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 87cd9594-ba3b-429d-aa57-399902ef3abe
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 0%
@@ -34,6 +34,6 @@ Les variables de substitution sont utilisées pour transférer des valeurs de l�
 
 * Les définitions de variable et les références peuvent se trouver dans la partie requête de l’URL de demande.
 * Les variables sont définies comme ci-dessus, comme les autres commandes IS ; l&#39;en-tête &#39;$&#39; identifie la commande comme une définition de variable.
-* Le nom de variable ` *`var`*` est sensible à la casse et peut être composé de toute combinaison de lettres, de chiffres, de &#39;-&#39; et de &#39;_&#39;.
+* Le nom de variable `*`var`*` est sensible à la casse et peut être composé de toute combinaison de lettres, de chiffres, de &#39;-&#39; et de &#39;_&#39;.
 * La valeur importante doit être codée en URL à un seul passage pour une transmission HTTP sécurisée.
 
