@@ -4,12 +4,12 @@ seo-description: Couleur de fond. Indique la couleur de soustraction des texture
 seo-title: bgc
 solution: Experience Manager
 title: bgc
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 551a0da8-dd1f-484a-bf7e-f4896370340a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '169'
 ht-degree: 7%
 
 ---
@@ -30,7 +30,7 @@ Couleur de fond. Indique la couleur de soustraction des textures et des décalco
 
 L’algorithme de colorisation de texture de Image Rendering est assez simple : les valeurs de composant de `bgc=` sont soustraites de celles des pixels de texture, `color=` est ajouté et le résultat est ensuite coupé en `0,0,0` et `255,255,255`.
 
-Pour les utilisations courantes de la coloration de texture, la valeur `bgc=` peut être la couleur la plus importante ou la plus dominante dans l’image de texture. Scene7 Image Authoring fournit des outils semi-automatiques qui extraient des valeurs de couleur `bgc=` raisonnables des images de textures.
+Pour les utilisations courantes de la coloration de texture, la valeur `bgc=` peut être la couleur la plus importante ou la plus dominante dans l’image de texture. Dynamic Media Image Authoring fournit des outils semi-automatiques qui extraient des valeurs de couleur `bgc=` raisonnables des images de textures.
 
 Lorsqu’un matériau de texture est appliqué à un objet de vignette non texturable, `bgc=` est appliqué comme couleur de premier plan si `color=` n’est pas spécifié.
 
