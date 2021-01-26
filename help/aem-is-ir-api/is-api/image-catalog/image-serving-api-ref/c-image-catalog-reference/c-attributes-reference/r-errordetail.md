@@ -1,16 +1,13 @@
 ---
 description: Détails du message d’erreur. Indique le niveau de détail des messages d’erreur renvoyés via HTTP en tant que valeur error.message.
-seo-description: Détails du message d’erreur. Indique le niveau de détail des messages d’erreur renvoyés via HTTP en tant que valeur error.message.
-seo-title: ErrorDetail
 solution: Experience Manager
 title: ErrorDetail
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 46ebb8c7-930e-4844-8664-ec6a63691523
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 4%
+source-wordcount: '157'
+ht-degree: 5%
 
 ---
 
@@ -36,7 +33,7 @@ Les valeurs suivantes sont autorisées :
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>Informations complètes sur le débogage. Ajoute les traces de la pile Java, le cas échéant. Les images d’erreur n’incluent jamais de traces de pile et renvoient à la place des informations de niveau 2 dans <span class="codeph"> $error.message</span>. Ces informations peuvent être utiles en cas de problèmes de rapports au support technique de Scene7. </p></td> 
+  <td class="stentry"> <p>Informations complètes sur le débogage. Ajoute les traces de la pile Java, le cas échéant. Les images d’erreur n’incluent jamais de traces de pile et renvoient à la place des informations de niveau 2 dans <span class="codeph"> $error.message</span>. Ces informations peuvent s'avérer utiles lorsque des problèmes de rapports se posent au support technique Dynamic Media. </p></td> 
  </tr> 
 </table>
 
