@@ -1,15 +1,15 @@
 ---
-description: Cette documentation traite des problèmes d’administration du serveur et décrit les paramètres de configuration pour le rendu des images Scene7.
-seo-description: Cette documentation traite des problèmes d’administration du serveur et décrit les paramètres de configuration pour le rendu des images Scene7.
+description: Cette documentation traite des problèmes d’administration du serveur et décrit les paramètres de configuration pour le rendu des images Dynamic Media.
+seo-description: Cette documentation traite des problèmes d’administration du serveur et décrit les paramètres de configuration pour le rendu des images Dynamic Media.
 seo-title: Préface d'administration du serveur
 solution: Experience Manager
 title: Préface d'administration du serveur
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 182782f1-44a8-421d-bacc-f08dcf95f58b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 # Préface d&#39;administration du serveur{#server-administration-preface}
 
-Cette documentation traite des problèmes d’administration du serveur et décrit les paramètres de configuration pour le rendu des images Scene7.
+Cette documentation traite des problèmes d’administration du serveur et décrit les paramètres de configuration pour le rendu des images Dynamic Media.
 
 **Audience prévue**
 
-Cette documentation est destinée aux administrateurs système et aux webmasters qui doivent installer, configurer et administrer Scene7 Image Rendering.
+Cette documentation est destinée aux administrateurs système et aux webmasters qui doivent installer, configurer et administrer Dynamic Media Image Rendering.
 
 **Conventions relatives aux documents**
 
