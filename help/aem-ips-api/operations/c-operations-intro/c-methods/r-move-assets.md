@@ -4,10 +4,10 @@ seo-description: Déplace plusieurs fichiers indépendamment les uns des autres.
 seo-title: moveAssets
 solution: Experience Manager
 title: moveAssets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 178f9979-fff5-45ce-a001-1263d1770ea8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 11%
@@ -36,8 +36,8 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée vers la société avec les ressources à déplacer. |
-| ` *`assetMoveArray`*` | `types:AssetMoveArray` | Oui | Tableau de déplacement des ressources. Il contient un fichier et un dossier de destination de fichier. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée vers la société avec les ressources à déplacer. |
+| `*`assetMoveArray`*` | `types:AssetMoveArray` | Oui | Tableau de déplacement des ressources. Il contient un fichier et un dossier de destination de fichier. |
 
 **Sortie (moveAssetsReturn)**
 
