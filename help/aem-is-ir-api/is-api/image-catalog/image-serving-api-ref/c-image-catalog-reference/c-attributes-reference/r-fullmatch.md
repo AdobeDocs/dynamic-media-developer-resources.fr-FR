@@ -4,10 +4,10 @@ seo-description: Option de correspondance de catalogue.
 seo-title: FullMatch
 solution: Experience Manager
 title: FullMatch
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0c69ba92-1411-4cb7-ac28-d26fe035222f
 translation-type: tm+mt
-source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 2%
@@ -19,11 +19,11 @@ ht-degree: 2%
 
 Option de correspondance de catalogue.
 
-Une entrée de catalogue est spécifiée en tant que paire ` *`rootId`*/ *`imageId`*` dans les requêtes HTTP. Lors de l’analyse, un catalogue est sélectionné si ` *`rootId`*` correspond à la valeur `attribute::RootId` du catalogue et l’enregistrement du catalogue est identifié en faisant correspondre ` *`imageId`*` à une valeur `catalog::Id`. Si un catalogue est trouvé, mais qu’aucune entrée de catalogue ne correspond à ` *`imageId`*`, le serveur peut effectuer l’une des deux opérations suivantes :
+Une entrée de catalogue est spécifiée en tant que paire `*`rootId`*/ *`imageId`*` dans les requêtes HTTP. Lors de l’analyse, un catalogue est sélectionné si `*`rootId`*` correspond à la valeur `attribute::RootId` du catalogue et l’enregistrement du catalogue est identifié en faisant correspondre `*`imageId`*` à une valeur `catalog::Id`. Si un catalogue est trouvé, mais qu’aucune entrée de catalogue ne correspond à `*`imageId`*`, le serveur peut effectuer l’une des deux opérations suivantes :
 
-Si `attribute::FullMatch` n&#39;est pas défini, le serveur utilise les attributs du catalogue correspondant. Dans ce cas, ` *`rootId`*` est remplacé par `attribute::RootPath` (ou `default::RootPath`, s’il n’est pas spécifié dans ce catalogue).
+Si `attribute::FullMatch` n&#39;est pas défini, le serveur utilise les attributs du catalogue correspondant. Dans ce cas, `*`rootId`*` est remplacé par `attribute::RootPath` (ou `default::RootPath`, s’il n’est pas spécifié dans ce catalogue).
 
-Si `attribute::FullMatch` est défini, le serveur ignore complètement le catalogue, comme si aucun catalogue n’avait été trouvé, et continue à utiliser les attributs de catalogue par défaut. Dans ce cas, ` *`rootId`*` reste une partie du chemin d’accès (précédé de `default::RootPath`).
+Si `attribute::FullMatch` est défini, le serveur ignore complètement le catalogue, comme si aucun catalogue n’avait été trouvé, et continue à utiliser les attributs de catalogue par défaut. Dans ce cas, `*`rootId`*` reste une partie du chemin d’accès (précédé de `default::RootPath`).
 
 ## Propriétés {#section-25e021dbe6574d00aadd08a7fa0b6e81}
 
