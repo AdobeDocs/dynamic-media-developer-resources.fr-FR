@@ -4,10 +4,10 @@ seo-description: Renvoie 2 types d’informations différents en fonction des pa
 seo-title: getGenerationInfo
 solution: Experience Manager
 title: getGenerationInfo
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 4310a702-c08b-4479-9f57-9f2bc1d6b032
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 8%
@@ -39,18 +39,18 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`Expression de code`*` | `xsd:string` | Oui | La poignée de la société. |
-| ` *`Expression de code`*` | `xsd:string` | Non | Moteur utilisé dans la génération. Voir Styles des polices. |
-| ` *`Expression de code`*` | `xsd:string` | Non | Poignée de la ressource à requête pour les ressources générées. |
-| ` *`Expression de code`*` | `xsd:string` | Non | Poignée de la ressource à la requête pour les ressources et les moteurs utilisés dans sa génération. |
-| ` *`Expression de code`*` | `xsd:StringArray` | Non | Propriétés incluses dans l’opération. |
-| ` *`Expression de code`*` | `xsd:StringArray` | Non | Propriétés exclues de l’opération. |
+| `*`Expression de code`*` | `xsd:string` | Oui | La poignée de la société. |
+| `*`Expression de code`*` | `xsd:string` | Non | Moteur utilisé dans la génération. Voir Styles des polices. |
+| `*`Expression de code`*` | `xsd:string` | Non | Poignée de la ressource à requête pour les ressources générées. |
+| `*`Expression de code`*` | `xsd:string` | Non | Poignée de la ressource à la requête pour les ressources et les moteurs utilisés dans sa génération. |
+| `*`Expression de code`*` | `xsd:StringArray` | Non | Propriétés incluses dans l’opération. |
+| `*`Expression de code`*` | `xsd:StringArray` | Non | Propriétés exclues de l’opération. |
 
 **Output (getGenerationInfoReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`generateArray`*` | `types:GenerationInfoArray` | Oui | Tableau des informations de génération. |
+| `*`generateArray`*` | `types:GenerationInfoArray` | Oui | Tableau des informations de génération. |
 
 ## Exemples {#section-fdffe6ed82d94c7aa90e47f7ce889403}
 
