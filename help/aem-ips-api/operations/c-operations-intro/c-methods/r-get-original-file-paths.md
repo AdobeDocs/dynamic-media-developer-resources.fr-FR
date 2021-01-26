@@ -4,10 +4,10 @@ seo-description: Récupère les chemins d’accès aux fichiers d’origine d’
 seo-title: getOriginalFilePaths
 solution: Experience Manager
 title: getOriginalFilePaths
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: c4acf288-1a57-4295-806b-348f15a089cc
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 14%
@@ -41,14 +41,14 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | La poignée de la société. |
-| ` *`assetHandleArray`*` | `types:HandleArray` | Oui | Tableau de poignées pour les fichiers dont vous souhaitez obtenir le chemin d’accès au fichier d’origine. |
+| `*`companyHandle`*` | `xsd:string` | Oui | La poignée de la société. |
+| `*`assetHandleArray`*` | `types:HandleArray` | Oui | Tableau de poignées pour les fichiers dont vous souhaitez obtenir le chemin d’accès au fichier d’origine. |
 
 **Output (getOriginalFilePathsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`originalFileArray`*` | `types:StringArray` | Oui | Tableau de chaînes représentant les chemins d’accès aux fichiers d’origine. |
+| `*`originalFileArray`*` | `types:StringArray` | Oui | Tableau de chaînes représentant les chemins d’accès aux fichiers d’origine. |
 
 ## Exemples {#section-a966e783a2ba49f5b6b0f961329ab2f8}
 
