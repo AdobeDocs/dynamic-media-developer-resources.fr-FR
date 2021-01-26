@@ -4,10 +4,10 @@ seo-description: Obtient les journaux de tâches spécifiés pour la société s
 seo-title: getJobLogs
 solution: Experience Manager
 title: getJobLogs
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 850ccfad-6cdb-4eda-a20a-762fadadf8b2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 10%
@@ -39,19 +39,19 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Non | Poignée de société. |
-| ` *`userHandle`*` | `xsd:string` | Non | Récupère les journaux des tâches soumises par un utilisateur spécifique. |
-| ` *`sortBy`*` | `xsd:string` | Non | Permet de sélectionner des champs de tri. |
-| ` *`sortDirection`*` | `xsd:string` | Non | Ordre de tri (croissant ou décroissant). |
-| ` *`startDate`*` | `xsd:dateTime` | Non | Date et heure du début du journal des tâches. Indiquez le fuseau horaire avec la demande de ce champ. |
-| ` *`endDate`*` | `xsd:dateTime` | Non | Date et heure de fin du journal des tâches. Indiquez le fuseau horaire avec la demande de ce champ. |
-| ` *`numRows`*` | `xsd:int` | Non | Nombre maximal de lignes à renvoyer. |
+| `*`companyHandle`*` | `xsd:string` | Non | Poignée de société. |
+| `*`userHandle`*` | `xsd:string` | Non | Récupère les journaux des tâches soumises par un utilisateur spécifique. |
+| `*`sortBy`*` | `xsd:string` | Non | Permet de sélectionner des champs de tri. |
+| `*`sortDirection`*` | `xsd:string` | Non | Ordre de tri (croissant ou décroissant). |
+| `*`startDate`*` | `xsd:dateTime` | Non | Date et heure du début du journal des tâches. Indiquez le fuseau horaire avec la demande de ce champ. |
+| `*`endDate`*` | `xsd:dateTime` | Non | Date et heure de fin du journal des tâches. Indiquez le fuseau horaire avec la demande de ce champ. |
+| `*`numRows`*` | `xsd:int` | Non | Nombre maximal de lignes à renvoyer. |
 
 **Output (getJobLogsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`jobLogArray`*` | `types: JobLogArray` | Oui | Tableau des journaux des tâches. |
+| `*`jobLogArray`*` | `types: JobLogArray` | Oui | Tableau des journaux des tâches. |
 
 ## Exemples {#section-35871c94b4a44559912577efddbc46a6}
 
