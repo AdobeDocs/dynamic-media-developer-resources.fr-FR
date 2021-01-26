@@ -4,10 +4,10 @@ seo-description: La diffusion d’images offre un mécanisme de conversion des i
 seo-title: Traduction de l’ID d’objet
 solution: Experience Manager
 title: Traduction de l’ID d’objet
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8b4c2f44-033a-428a-b505-af389865c70a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 9%
@@ -35,7 +35,7 @@ Toutes les références aux entrées dans les catalogues d’images, SVG et de c
 
 `attribute::LocaleMap` définit les règles utilisées par le serveur pour déterminer l’ID du contenu localisé, étant donné que l’ID d’objet générique et la  `locale=` valeur sont entrés.
 
-`attribute::LocaleMap` consiste en une liste de  *paramètres régionaux*  d’entrée (correspondant aux valeurs spécifiées avec  `locale=`), chacun avec un ou plusieurs suffixes de paramètres régionaux de sortie ( ` *`locSuffixes`*`).
+`attribute::LocaleMap` consiste en une liste de  *paramètres régionaux*  d’entrée (correspondant aux valeurs spécifiées avec  `locale=`), chacun avec un ou plusieurs suffixes de paramètres régionaux de sortie ( `*`locSuffixes`*`).
 
 Par exemple, `attribute::LocaleMap` peut ressembler à ceci :
 
