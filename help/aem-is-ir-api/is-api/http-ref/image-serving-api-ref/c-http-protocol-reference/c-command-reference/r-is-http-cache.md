@@ -4,10 +4,10 @@ seo-description: Contrôle du cache. Permet de désactiver de manière sélectiv
 seo-title: cache
 solution: Experience Manager
 title: cache
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 08f4e4d0-0f7d-48fe-956c-284af97c902e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 1%
@@ -38,7 +38,7 @@ Contrôle du cache. Permet de désactiver de manière sélective la mise en cach
  </tr> 
 </table>
 
-Si une seule valeur ` *`cacheControl`*` est spécifiée, elle est appliquée aux caches client et serveur.
+Si une seule valeur `*`cacheControl`*` est spécifiée, elle est appliquée aux caches client et serveur.
 
 Le mot-clé `validate` permet de mettre à jour les entrées de cache après modification des fichiers image, sans avoir à attendre l&#39;expiration automatique de l&#39;entrée de cache. La mise en cache du client n’est pas affectée par cette commande.
 
