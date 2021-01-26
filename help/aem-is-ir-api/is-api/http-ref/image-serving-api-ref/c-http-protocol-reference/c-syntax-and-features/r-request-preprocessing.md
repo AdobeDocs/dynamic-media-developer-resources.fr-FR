@@ -4,10 +4,10 @@ seo-description: La diffusion d’images fournit un préprocesseur de requête s
 seo-title: Prétraitement des demandes
 solution: Experience Manager
 title: Prétraitement des demandes
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 375bbca2-7a4a-49a9-9577-86e6b2f19990
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 0%
