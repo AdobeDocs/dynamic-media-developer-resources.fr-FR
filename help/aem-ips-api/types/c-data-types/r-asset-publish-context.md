@@ -4,10 +4,10 @@ seo-description: Met en correspondance un fichier avec le contexte de publicatio
 seo-title: AssetPublishContextes
 solution: Experience Manager
 title: AssetPublishContextes
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 85914db3-d2ea-4e73-8f8d-6e18d2d44f55
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 7%
@@ -25,6 +25,6 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| ` *`assetHandle`*` | `xsd:string` | Traitez le fichier. |
-| ` *`publishContextArray`*` | `types:PublishContextArray` | Tableau de contextes de publication dans lesquels le fichier est marqué pour publication. |
+| `*`assetHandle`*` | `xsd:string` | Traitez le fichier. |
+| `*`publishContextArray`*` | `types:PublishContextArray` | Tableau de contextes de publication dans lesquels le fichier est marqué pour publication. |
 
