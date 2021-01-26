@@ -4,10 +4,10 @@ seo-description: Identifiant du catalogue. L’élément de chemin HTTP à utili
 seo-title: RootId
 solution: Experience Manager
 title: RootId
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fd726466-6dca-4612-a342-50689ed1469f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 4%
