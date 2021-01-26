@@ -1,15 +1,12 @@
 ---
-description: Les vignettes sont des images créées avec Scene7 Image Authoring pour être utilisées avec le rendu d’images.
-seo-description: Les vignettes sont des images créées avec Scene7 Image Authoring pour être utilisées avec le rendu d’images.
-seo-title: Vignettes
+description: Les vignettes sont des images créées avec Dynamic Media Image Authoring pour être utilisées avec le rendu d’images.
 solution: Experience Manager
 title: Vignettes
-topic: Scene7 Image Serving - Image Rendering API
-uuid: 31d6b2b7-57c4-4fef-a498-c357c3724356
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7721cccf3f779f258adcdcf886f7e01111e92be0
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # Vignettes{#vignettes}
 
-Les vignettes sont des images créées avec Scene7 Image Authoring pour être utilisées avec le rendu d’images.
+Les vignettes sont des images créées avec Dynamic Media Image Authoring pour être utilisées avec le rendu d’images.
 
 IR prend en charge deux types de vignettes de base, *2D* et *3D*. Les scènes en chambre sont généralement des vignettes en 3D qui peuvent rendre des reflets, tandis que la plupart des autres scènes, telles que les vêtements ou les tissus d’ameublement, sont normalement des vignettes en 2D qui n’ont pas de capacité de rendu des reflets.
 
