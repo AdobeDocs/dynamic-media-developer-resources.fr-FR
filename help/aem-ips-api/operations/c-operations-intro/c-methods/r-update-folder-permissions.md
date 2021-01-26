@@ -4,10 +4,10 @@ seo-description: Mettez à jour les autorisations du dossier.
 seo-title: updateFolderPermissions
 solution: Experience Manager
 title: updateFolderPermissions
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 940d7b63-80cf-4097-9cf9-8499b69181b7
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '76'
 ht-degree: 18%
@@ -33,10 +33,10 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
-| ` *`folderHandle`*` | `xsd:string` | Oui | Poignée de dossier. |
-| ` *`updateChildren`*` | `xsd:boolean` | Oui | Détermine s’il faut mettre à jour les enfants avec des autorisations définies pour le dossier de niveau supérieur. |
-| ` *`updateArray`*` | `types:PermissionUpdateArray` | Oui | Tableau des mises à jour des autorisations que vous souhaitez appliquer au dossier. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
+| `*`folderHandle`*` | `xsd:string` | Oui | Poignée de dossier. |
+| `*`updateChildren`*` | `xsd:boolean` | Oui | Détermine s’il faut mettre à jour les enfants avec des autorisations définies pour le dossier de niveau supérieur. |
+| `*`updateArray`*` | `types:PermissionUpdateArray` | Oui | Tableau des mises à jour des autorisations que vous souhaitez appliquer au dossier. |
 
 **Output (updateFolderPermissionsReturn)**
 
