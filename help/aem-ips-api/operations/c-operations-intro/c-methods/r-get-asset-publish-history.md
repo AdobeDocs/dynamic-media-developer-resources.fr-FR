@@ -4,10 +4,10 @@ seo-description: Renvoie l’historique de publication d’un fichier.
 seo-title: getAssetPublishHistory
 solution: Experience Manager
 title: getAssetPublishHistory
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 15025c3d-eac3-4cb8-9a2a-fd80bd67478f
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 16%
@@ -39,14 +39,14 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée vers la société avec l’historique de publication des ressources. |
-| ` *`assetHandle`*` | `xsd:string` | Oui | Ressource dont vous souhaitez examiner l’historique de publication. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée vers la société avec l’historique de publication des ressources. |
+| `*`assetHandle`*` | `xsd:string` | Oui | Ressource dont vous souhaitez examiner l’historique de publication. |
 
 **Output (getAssetPublishHistoryReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`pubHistoryArray`*` | `types:PublishHistoryArray` | Oui | Historique de publication de la ressource. |
+| `*`pubHistoryArray`*` | `types:PublishHistoryArray` | Oui | Historique de publication de la ressource. |
 
 ## Exemples {#section-53897c51e5a047c5bd5ea5a6efb2d114}
 
