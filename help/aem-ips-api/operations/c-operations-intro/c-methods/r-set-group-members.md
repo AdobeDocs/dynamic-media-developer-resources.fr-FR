@@ -4,10 +4,10 @@ seo-description: Définit l’appartenance au groupe des utilisateurs appartenan
 seo-title: setGroupMembers
 solution: Experience Manager
 title: setGroupMembers
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: fe6585ef-a4b3-4b3c-95d0-624017650497
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 8%
@@ -33,9 +33,9 @@ L&#39;opération déclenche une erreur d&#39;authentification si vous ne dispose
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
-| ` *`groupHandle`*` | `xsd:string` | Oui | Poignée de groupe. |
-| ` *`userHandleArray`*` | `types:HandleArray` | Oui | Tableau de poignées pour les utilisateurs dont vous souhaitez définir l’appartenance au groupe. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
+| `*`groupHandle`*` | `xsd:string` | Oui | Poignée de groupe. |
+| `*`userHandleArray`*` | `types:HandleArray` | Oui | Tableau de poignées pour les utilisateurs dont vous souhaitez définir l’appartenance au groupe. |
 
 **Output (setGroupMembesReturn)**
 
