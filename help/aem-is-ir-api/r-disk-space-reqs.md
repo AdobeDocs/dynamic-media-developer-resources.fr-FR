@@ -1,15 +1,12 @@
 ---
 description: 'Outre l’espace nécessaire à l’installation du logiciel, Image Serving dispose de l’espace disque requis suivant : '
-seo-description: 'Outre l’espace nécessaire à l’installation du logiciel, Image Serving dispose de l’espace disque requis suivant : '
-seo-title: Configuration requise et recommandations concernant l'espace disque
 solution: Experience Manager
 title: Configuration requise et recommandations concernant l'espace disque
-topic: Scene7 Image Serving - Image Rendering API
-uuid: a6a21886-94d6-45b3-af68-497e039bdbac
+topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -58,7 +55,7 @@ Outre l’espace nécessaire à l’installation du logiciel, Image Serving disp
 
 ## Espace disque requis pour les images source {#section-317da75099ad480d9a461c7e706d4f1c}
 
-Il est recommandé de convertir toutes les images source au format PTIFF (pyramid TIFF file format) à l’aide de l’outil de ligne de commande Image Converter (IC). Cette conversion garantit des performances d’exécution optimales de la diffusion d’images pour toutes les applications. Bien que le serveur Image Server puisse traiter tous les formats de fichiers source acceptés par IC, Scene7 ne prend pas en charge ces utilisations.
+Il est recommandé de convertir toutes les images source au format PTIFF (pyramid TIFF file format) à l’aide de l’outil de ligne de commande Image Converter (IC). Cette conversion garantit des performances d’exécution optimales de la diffusion d’images pour toutes les applications. Bien que le serveur Image Server puisse traiter tous les formats de fichiers source acceptés par IC, Dynamic Media ne prend pas en charge ces utilisations.
 
 Lorsque vous utilisez des fichiers PTIFF, les règles générales suivantes peuvent vous aider à déterminer l’espace requis.
 
