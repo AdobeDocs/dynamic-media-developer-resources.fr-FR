@@ -4,10 +4,10 @@ seo-description: La localisation de chaînes de texte permet aux catalogues d’
 seo-title: Localisation de chaîne de texte
 solution: Experience Manager
 title: Localisation de chaîne de texte
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bdff2403-e3bb-4b3f-a8d7-bb108c1fbee8
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 3%
@@ -124,7 +124,7 @@ L&#39;exemple de mappage de traduction indique que dans un tel cas, *`defaultStr
 
 Plusieurs valeurs *`locId`* peuvent être associées à chaque *`locale`* dans la carte de traduction. Cela permet de prendre en charge des variations spécifiques à un pays ou à une région (par exemple Anglais américain ou Anglais britannique) pour sélectionner *`stringElements`* tout en gérant la plupart des contenus avec des paramètres régionaux de base communs (par exemple Anglais international).
 
-Pour notre exemple, nous voulons ajouter la prise en charge de l’anglais spécifique aux États-Unis ( ` *`locId`* EUS`) et de l’anglais spécifique au Royaume-Uni ( ` *`locId`* EUK`), afin de prendre en charge l’orthographe alternative occasionnelle. Si l&#39;EUK ou l&#39;EUS n&#39;existent pas, nous retournions à E. De même, les variantes allemandes spécifiques à l&#39;Autriche ( `DAT`) pourraient être disponibles lorsque cela est nécessaire tout en renvoyant l&#39;allemand commun *`localizedStrings`* (marqué par `D`) la plupart du temps.
+Pour notre exemple, nous voulons ajouter la prise en charge de l’anglais spécifique aux États-Unis ( `*`locId`* EUS`) et de l’anglais spécifique au Royaume-Uni ( `*`locId`* EUK`), afin de prendre en charge l’orthographe alternative occasionnelle. Si l&#39;EUK ou l&#39;EUS n&#39;existent pas, nous retournions à E. De même, les variantes allemandes spécifiques à l&#39;Autriche ( `DAT`) pourraient être disponibles lorsque cela est nécessaire tout en renvoyant l&#39;allemand commun *`localizedStrings`* (marqué par `D`) la plupart du temps.
 
 `attribute::LocaleStrMap` ressemblerait à ceci :
 
