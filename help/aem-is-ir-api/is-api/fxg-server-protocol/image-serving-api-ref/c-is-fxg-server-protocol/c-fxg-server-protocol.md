@@ -4,10 +4,10 @@ seo-description: Pour manipuler un graphique, vous pouvez utiliser les points de
 seo-title: Protocole du serveur FXG
 solution: Experience Manager
 title: Protocole du serveur FXG
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5cb123ca-2274-4ddb-8fa1-ab22a19172f6
 translation-type: tm+mt
-source-git-commit: 26fb6212c3106deb7b088020d9f2993e40dec20b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 51%
