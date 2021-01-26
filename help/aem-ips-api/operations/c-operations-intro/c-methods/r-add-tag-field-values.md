@@ -1,16 +1,13 @@
 ---
 description: Ajoute de nouvelles valeurs de balise au dictionnaire d’un champ de balise existant.
-seo-description: Ajoute de nouvelles valeurs de balise au dictionnaire d’un champ de balise existant.
-seo-title: addTagFieldValues
 solution: Experience Manager
 title: addTagFieldValues
-topic: Scene7 Image Production System API
-uuid: 9304f02c-a1df-4477-ab33-f2491c390c92
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 12%
+source-wordcount: '90'
+ht-degree: 14%
 
 ---
 
@@ -33,9 +30,9 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de la société contenant le champ de balise. |
-| ` *`fieldHandle`*` | `xsd:string` | Oui | Handle du champ de balise à modifier. |
-| ` *`valueArray`*` | `xsd:string` | Oui | Tableau de valeurs de balise à ajouter au dictionnaire existant du champ. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société contenant le champ de balise. |
+| `*`fieldHandle`*` | `xsd:string` | Oui | Handle du champ de balise à modifier. |
+| `*`valueArray`*` | `xsd:string` | Oui | Tableau de valeurs de balise à ajouter au dictionnaire existant du champ. |
 
 **Output (addTagFieldValuesParam)**
 
