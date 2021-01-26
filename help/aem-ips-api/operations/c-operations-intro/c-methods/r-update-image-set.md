@@ -4,10 +4,10 @@ seo-description: Met à jour une visionneuse d’images.
 seo-title: updateImageSet
 solution: Experience Manager
 title: updateImageSet
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: df118ba3-d86f-4005-928e-76a5a9f899fc
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 19%
@@ -27,16 +27,16 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de la société contenant la visionneuse d’images à modifier. |
-| ` *`assetHandle`*` | `xsd:string` | Ys | Poignée de la visionneuse d’images à modifier. |
-| ` *`MemberArray`*` | `types:ImageSetMemberUpdateArray` | Non | Réinitialise les membres de la visionneuse d’images. |
-| ` *`thumbAssetHandle`*` | `xsd:string` | Non | Poignée du fichier qui agit comme miniature pour la visionneuse d’images. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société contenant la visionneuse d’images à modifier. |
+| `*`assetHandle`*` | `xsd:string` | Ys | Poignée de la visionneuse d’images à modifier. |
+| `*`MemberArray`*` | `types:ImageSetMemberUpdateArray` | Non | Réinitialise les membres de la visionneuse d’images. |
+| `*`thumbAssetHandle`*` | `xsd:string` | Non | Poignée du fichier qui agit comme miniature pour la visionneuse d’images. |
 
 **Output (updateImageSetReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`séquence`*` |  |  |  |
+| `*`séquence`*` |  |  |  |
 
 ## Exemples {#section-ce47a4b6e062423fa55ed3a0fd26d7ff}
 
