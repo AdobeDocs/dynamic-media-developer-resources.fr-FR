@@ -4,12 +4,12 @@ seo-description: La diffusion d’images offre plusieurs alternatives au rendu d
 seo-title: Formatage du texte
 solution: Experience Manager
 title: Formatage du texte
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e67b6dd2-2a78-4014-9525-816d91c9e783
 translation-type: tm+mt
-source-git-commit: a47f2b4ef8ebef0c8218dafa4678443aa61241f5
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '574'
 ht-degree: 6%
 
 ---
@@ -152,7 +152,7 @@ Le tableau suivant liste les principales fonctionnalités disponibles pour chaqu
 
 Les chaînes compatibles RTF peuvent être assemblées manuellement ou en formatant le texte de votre choix dans un éditeur de texte ou un traitement de texte capable d’enregistrer des fichiers RTF. Le fichier RTF peut alors être ouvert dans un éditeur de texte brut et le contenu RTF brut approprié du fichier copié dans l’URL de demande.
 
-Certains traitements de texte génèrent des fichiers plutôt volumineux, qui incluent des préambules substantiels qui ne sont pas utilisés par Scene7 Image Serving. Il est recommandé de supprimer les éléments RTF inutilisés de la chaîne avant de transmettre la chaîne aux commandes de texte.
+Certains traitements de texte génèrent des fichiers plutôt volumineux, qui incluent des préambules substantiels qui ne sont pas utilisés par Dynamic Media Image Serving. Il est recommandé de supprimer les éléments RTF inutilisés de la chaîne avant de transmettre la chaîne aux commandes de texte.
 
 Le codage de langue basé sur les normes UTF-8 et ISO est pris en charge dans les chaînes RTF en tant qu’alternative aux mécanismes de codage de caractères RTF standard. Cela permet aux applications d&#39;envoyer du texte non anglais au serveur sans connaissance du codage RTF.
 
