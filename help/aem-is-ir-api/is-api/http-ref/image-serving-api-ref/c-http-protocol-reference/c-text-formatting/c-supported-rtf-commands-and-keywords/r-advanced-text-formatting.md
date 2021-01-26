@@ -4,12 +4,12 @@ seo-description: Utilisez les commandes suivantes pour le formatage avancé du t
 seo-title: Formatage avancé du texte
 solution: Experience Manager
 title: Formatage avancé du texte
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 340166a5-5aef-4081-9114-a715cde68891
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '248'
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ Utilisez les commandes suivantes pour le formatage avancé du texte.
   <tr> 
    <td> <span class="codeph"> \charscaley  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Mise à l’échelle verticale des caractères. </p> </td> 
-   <td> <p>Pourcentage positif ou négatif ; la valeur par défaut est 100 ; Extension Scene7. </p> <p> <span class="codeph"> \charscaley met  </span> également à l’échelle l’interligne lorsqu’il est appliqué avec  <span class="codeph"> text=  </span>. <span class="codeph"> textPs= préserve  </span> toujours l’interligne, quelle que soit la mise à l’échelle verticale des caractères. </p> </td> 
+   <td> <p>Pourcentage positif ou négatif ; la valeur par défaut est 100 ; Extension Dynamic Media. </p> <p> <span class="codeph"> \charscaley met  </span> également à l’échelle l’interligne lorsqu’il est appliqué avec  <span class="codeph"> text=  </span>. <span class="codeph"> textPs= préserve  </span> toujours l’interligne, quelle que soit la mise à l’échelle verticale des caractères. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ltrch  </span> </td> 
@@ -86,17 +86,17 @@ Utilisez les commandes suivantes pour le formatage avancé du texte.
   <tr> 
    <td> <span class="codeph"> \copyfit  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Activez l’ajustement de la copie et définissez la plus grande taille de police autorisée. </p> </td> 
-   <td> <p>Taille de police en demi-points ; <span class="codeph"> textPs= </span> uniquement; Extension Scene7. </p> </td> 
+   <td> <p>Taille de police en demi-points ; <span class="codeph"> textPs= </span> uniquement; Extension Dynamic Media. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfitlines  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Nombre maximal de lignes d'ajustement de copie (limite souple). </p> </td> 
-   <td> <p>0 pour aucune limite de ligne ; <span class="codeph"> textPs= </span> uniquement; Extension Scene7. </p> </td> 
+   <td> <p>0 pour aucune limite de ligne ; <span class="codeph"> textPs= </span> uniquement; Extension Dynamic Media. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \copyfitmaxlines  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Nombre maximal de lignes d’ajustement de copie (troncation). </p> </td> 
-   <td> <p> <span class="codeph"> textPs=  </span> uniquement; Extension Scene7. </p> </td> 
+   <td> <p> <span class="codeph"> textPs=  </span> uniquement; Extension Dynamic Media. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \baselinedir  <span class="varname"> N  </span> </span> </td> 
