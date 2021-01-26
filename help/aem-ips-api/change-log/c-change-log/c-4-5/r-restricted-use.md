@@ -1,15 +1,12 @@
 ---
-description: Ces opérations et types de données nouveaux ou modifiés disponibles dans la version bêta du WSDL ne doivent pas être utilisés en dehors des applications développées par Scene7.
-seo-description: Ces opérations et types de données nouveaux ou modifiés disponibles dans la version bêta du WSDL ne doivent pas être utilisés en dehors des applications développées par Scene7.
-seo-title: Utilisation restreinte
+description: Ces opérations et types de données nouveaux ou modifiés disponibles dans la version bêta du WSDL ne doivent pas être utilisés en dehors des applications développées par Dynamic Media.
 solution: Experience Manager
 title: Utilisation restreinte
-topic: Scene7 Image Production System API
-uuid: 76a423e5-ff7d-44a3-aba4-af258ea55256
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # Utilisation restreinte{#restricted-use}
 
-Ces opérations et types de données nouveaux ou modifiés disponibles dans la version bêta du WSDL ne doivent pas être utilisés en dehors des applications développées par Scene7.
+Ces opérations et types de données nouveaux ou modifiés disponibles dans la version bêta du WSDL ne doivent pas être utilisés en dehors des applications développées par Dynamic Media.
 
 Ces opérations et types peuvent être désactivés, modifiés ou abandonnés avec les mises à jour suivantes du système.
 
