@@ -4,10 +4,10 @@ seo-description: Affecter ou mettre à jour des ressources dans un projet.
 seo-title: setProjectAssets
 solution: Experience Manager
 title: setProjectAssets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 98d18948-d387-4890-9c27-e8ab60cded1d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 18%
@@ -36,15 +36,15 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyName`*` | `xsd:string` | Oui | Poignée de société. |
-| ` *`projectHandle`*` | `xsd:string` | Oui | Handle du projet. |
-| ` *`assetHandleArray`*` | `types:HandleArray` | Oui | Tableau de gestionnaires de ressources que vous souhaitez associer au projet. |
+| `*`companyName`*` | `xsd:string` | Oui | Poignée de société. |
+| `*`projectHandle`*` | `xsd:string` | Oui | Handle du projet. |
+| `*`assetHandleArray`*` | `types:HandleArray` | Oui | Tableau de gestionnaires de ressources que vous souhaitez associer au projet. |
 
 **Output (setProjectAssetsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Oui | Nombre de fichiers ajoutés avec succès. |
+| `*`successCount`*` | `xsd:int` | Oui | Nombre de fichiers ajoutés avec succès. |
 
 ## Exemples {#section-33c1a909c3dc4aa98da474c23a036596}
 
