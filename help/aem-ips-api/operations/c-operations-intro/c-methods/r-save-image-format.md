@@ -4,10 +4,10 @@ seo-description: Crée un format d’image.
 seo-title: saveImageFormat
 solution: Experience Manager
 title: saveImageFormat
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: b11ea668-7a82-439c-b16b-909dc86c00a2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 11%
@@ -36,16 +36,16 @@ Crée un format d’image.
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée vers la société avec le format d’image que vous souhaitez utiliser. |
-| ` *`imageFormatHandle`*` | `xsd:string` | Non | Poignée de format d’image à enregistrer. |
-| ` *`name`*` | `xsd:string` | Oui | Nom du format d’image. |
-| ` *`urlModificateur`*` | `xsd:string` | Oui | Il peut s&#39;agir de n&#39;importe quelle chaîne de requête de protocole IPS. Le moyen le plus simple de générer un modificateur d&#39;URL consiste à en créer un avec l&#39;interface utilisateur d&#39;IPS, puis à couper et coller la chaîne de requête. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée vers la société avec le format d’image que vous souhaitez utiliser. |
+| `*`imageFormatHandle`*` | `xsd:string` | Non | Poignée de format d’image à enregistrer. |
+| `*`name`*` | `xsd:string` | Oui | Nom du format d’image. |
+| `*`urlModificateur`*` | `xsd:string` | Oui | Il peut s&#39;agir de n&#39;importe quelle chaîne de requête de protocole IPS. Le moyen le plus simple de générer un modificateur d&#39;URL consiste à en créer un avec l&#39;interface utilisateur d&#39;IPS, puis à couper et coller la chaîne de requête. |
 
 **Output (saveImageFormatReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`imageFormatHandle`*` | `xsd:string` | Oui | Passez au format d’image. |
+| `*`imageFormatHandle`*` | `xsd:string` | Oui | Passez au format d’image. |
 
 ## Exemples {#section-c7bd733212ef494297a97093f3af193f}
 
