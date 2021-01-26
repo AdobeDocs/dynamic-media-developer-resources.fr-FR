@@ -4,10 +4,10 @@ seo-description: Associe les paramètres de configuration de la visionneuse à u
 seo-title: setViewerConfigSettings
 solution: Experience Manager
 title: setViewerConfigSettings
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: d83d866e-9243-479f-9b33-727aad8158e5
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 10%
@@ -34,11 +34,11 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Pose la société. |
-| ` *`assetHandle`*` | `xsd:string` | Oui | Poignée de ressource. |
-| ` *`name`*` | `xsd:string` | Oui | Nom du fichier. |
-| ` *`type`*` | `xsd:string` | Oui | Type de fichier auquel vous souhaitez appliquer la configuration de la visionneuse. |
-| ` *`configSettingArray`*` | `types:ConfigSettingArray` | Oui | Tableau de `ConfigSettings` appliqué à la ressource. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Pose la société. |
+| `*`assetHandle`*` | `xsd:string` | Oui | Poignée de ressource. |
+| `*`name`*` | `xsd:string` | Oui | Nom du fichier. |
+| `*`type`*` | `xsd:string` | Oui | Type de fichier auquel vous souhaitez appliquer la configuration de la visionneuse. |
+| `*`configSettingArray`*` | `types:ConfigSettingArray` | Oui | Tableau de `ConfigSettings` appliqué à la ressource. |
 
 **Output (setViewerConfigSettingsParam)**
 
