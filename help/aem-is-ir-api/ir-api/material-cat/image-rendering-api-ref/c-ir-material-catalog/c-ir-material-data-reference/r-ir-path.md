@@ -4,12 +4,12 @@ seo-description: Chemin d’accès au fichier image. Chemin d’accès relatif e
 seo-title: Chemin *
 solution: Experience Manager
 title: Chemin *
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9e85a358-3f2f-4b8b-a98f-03de2a1a8a4c
 translation-type: tm+mt
-source-git-commit: 7d3902803d42f5d479dd04ac9470a4088809f3d6
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '223'
 ht-degree: 3%
 
 ---
@@ -29,9 +29,9 @@ Chaîne de texte. Obligatoire pour les matériaux de texture et de décal, optio
 
 ## Formats de fichiers pris en charge {#section-7ef6c9f7c72c4f03ae926d030b6c46d8}
 
-Le rendu d’images prend en charge les mêmes formats d’image source que le service d’images Scene7.
+Le rendu d’images prend en charge les mêmes formats d’image source que le service d’images Dynamic Media.
 
-Les applications qui nécessitent des données d’image de plusieurs résolutions différentes seront plus performantes lors de l’utilisation du format de résolution multiple TIFF (PTIFF) de la pyramide Scene7. Image Serving inclut l’utilitaire Image Converter (IC) qui crée des images PTIFF à partir de n’importe quel format pris en charge.
+Les applications qui nécessitent des données d’image de plusieurs résolutions différentes seront plus performantes lors de l’utilisation du format de résolution multiple TIFF (PTIFF) de la pyramide Dynamic Media. Image Serving inclut l’utilitaire Image Converter (IC) qui crée des images PTIFF à partir de n’importe quel format pris en charge.
 
 Pour obtenir une liste complète des formats de fichiers pris en charge, reportez-vous à la description de l’utilitaire IC dans la documentation sur la diffusion d’images.
 
