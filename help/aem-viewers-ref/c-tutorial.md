@@ -1,15 +1,12 @@
 ---
-description: Le kit de développement de visionneuse fournit un ensemble de composants basés sur JavaScript pour le développement de lecteurs personnalisés. Les lecteurs de contenu sont des applications Web qui permettent à du contenu multimédia enrichi fourni par Adobe Scene7 d’être incorporé dans des pages Web.
-seo-description: Le kit de développement de visionneuse fournit un ensemble de composants basés sur JavaScript pour le développement de lecteurs personnalisés. Les lecteurs de contenu sont des applications Web qui permettent à du contenu multimédia enrichi fourni par Adobe Scene7 d’être incorporé dans des pages Web.
-seo-title: Didacticiel sur le SDK du lecteur de contenu
+description: Le kit de développement de visionneuse fournit un ensemble de composants basés sur JavaScript pour le développement de lecteurs personnalisés. Les lecteurs de contenu sont des applications Web qui permettent à l’Adobe Dynamic Media d’incorporer du contenu multimédia enrichi dans des pages Web.
 solution: Experience Manager
 title: Didacticiel sur le SDK du lecteur de contenu
 topic: Dynamic media
-uuid: ea331f05-0c58-4e6b-b5a1-d9b8372d8e94
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -17,9 +14,9 @@ ht-degree: 0%
 
 # Didacticiel SDK du lecteur{#viewer-sdk-tutorial}
 
-Le kit de développement de visionneuse fournit un ensemble de composants basés sur JavaScript pour le développement de lecteurs personnalisés. Les lecteurs de contenu sont des applications Web qui permettent à du contenu multimédia enrichi fourni par Adobe Scene7 d’être incorporé dans des pages Web.
+Le kit de développement de visionneuse fournit un ensemble de composants basés sur JavaScript pour le développement de lecteurs personnalisés. Les lecteurs de contenu sont des applications Web qui permettent à l’Adobe Dynamic Media d’incorporer du contenu multimédia enrichi dans des pages Web.
 
-Par exemple, le SDK fournit un zoom et un panoramique interactifs. Il permet également une vue à 360° et la lecture vidéo des fichiers téléchargés vers Adobe Scene7 via l’application principale SPS (Scene7 Publishing System).
+Par exemple, le SDK fournit un zoom et un panoramique interactifs. Il permet également une vue à 360° et la lecture vidéo des fichiers téléchargés vers Adobe Dynamic Media via l’application principale SPS (Scene7 Publishing System).
 
 Bien que les composants reposent sur la fonctionnalité HTML5, ils sont conçus pour fonctionner sur les périphériques Android et Apple iOS, ainsi que sur les ordinateurs de bureau, y compris Internet Explorer et les versions ultérieures. Ce type d’expérience signifie que vous pouvez fournir un flux de travail unique pour toutes les plates-formes prises en charge.
 
@@ -67,8 +64,8 @@ Ce didacticiel comprend les tâches suivantes pour vous aider à créer une visi
                Include Utils.js before you use any of the SDK components. This file  
                contains SDK utilities and global functions that are used to initialize the viewer and load viewer  
                components. The path to the Utils.js determines which version of the SDK that the viewer uses. You  
-               can use a relative path if the viewer is deployed on one of the Adobe Scene7 servers and it is served  
-               from the same domain. Otherwise, specify a full path to one of Adobe Scene7 servers that have the SDK  
+               can use a relative path if the viewer is deployed on one of the Adobe Dynamic Media servers and it is served  
+               from the same domain. Otherwise, specify a full path to one of Adobe Dynamic Media servers that have the SDK  
                installed.  
            --> 
            <script language="javascript" type="text/javascript"      
@@ -392,5 +389,5 @@ Vous allez maintenant ajouter des boutons de zoom avant, de zoom arrière et de 
 
    La visionneuse de zoom de base est maintenant terminée.
 
-   Ce didacticiel du lecteur de contenu décrit les fondamentaux du kit de développement de visionneuse Scene7. Lorsque vous travaillez avec le SDK, vous pouvez utiliser les différents composants standard pour créer et mettre en forme facilement des expériences d’affichage riches pour vos audiences de cible.
+   Ce didacticiel du lecteur de contenu décrit les fondamentaux du kit de développement de visionneuse Dynamic Media. Lorsque vous travaillez avec le SDK, vous pouvez utiliser les différents composants standard pour créer et mettre en forme facilement des expériences d’affichage riches pour vos audiences de cible.
 
