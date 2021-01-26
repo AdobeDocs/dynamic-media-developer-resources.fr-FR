@@ -4,10 +4,10 @@ seo-description: Renvoie des informations sur la structure d’une société (no
 seo-title: getDiskUsage
 solution: Experience Manager
 title: getDiskUsage
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 29190200-8f49-4689-9782-1df665dca1b7
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 12%
@@ -32,13 +32,13 @@ Renvoie des informations sur la structure d’une société (nombre de fichiers,
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de la société dont vous souhaitez obtenir l&#39;utilisation du disque. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société dont vous souhaitez obtenir l&#39;utilisation du disque. |
 
 **Output (getDiskUsageReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`diskUsageArray`*` | `types:DiskUsageArray` | Oui | Tableau de l&#39;utilisation des disques de société. |
+| `*`diskUsageArray`*` | `types:DiskUsageArray` | Oui | Tableau de l&#39;utilisation des disques de société. |
 
 ## Exemples {#section-cb16a97badc94076ad5da277db5ed16a}
 
