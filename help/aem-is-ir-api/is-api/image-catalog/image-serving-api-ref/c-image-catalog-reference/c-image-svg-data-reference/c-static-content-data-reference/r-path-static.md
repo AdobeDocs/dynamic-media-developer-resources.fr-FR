@@ -2,12 +2,12 @@
 description: Chemin
 solution: Experience Manager
 title: Chemin
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 455b6186-969a-49d9-a392-35660ec12213
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '129'
 ht-degree: 6%
 
 ---
@@ -25,7 +25,7 @@ Chaîne de texte. Obligatoire pour les enregistrements d’image et SVG, peut ê
 
 Reportez-vous à la description de l’utilitaire Image Converter (IC) pour obtenir une liste complète des formats de fichier image pris en charge.
 
-Les applications qui nécessitent des données d’image de plusieurs résolutions différentes seront plus performantes lors de l’utilisation du format de résolution multiple TIFF (PTIFF) de la pyramide Scene7. L’utilitaire IC permet de créer des images PTIFF à partir de n’importe quel format d’image pris en charge.
+Les applications qui nécessitent des données d’image de plusieurs résolutions différentes seront plus performantes lors de l’utilisation du format de résolution multiple TIFF (PTIFF) de la pyramide Dynamic Media. L’utilitaire IC permet de créer des images PTIFF à partir de n’importe quel format d’image pris en charge.
 
 ## Par défaut {#section-82dad83ec3f84ae8bf2f850b4139f63e}
 
