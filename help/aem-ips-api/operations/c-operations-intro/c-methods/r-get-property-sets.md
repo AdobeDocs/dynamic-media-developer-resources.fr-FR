@@ -4,10 +4,10 @@ seo-description: Obtient des jeux de propriétés associés à une poignée de t
 seo-title: getPropertySets
 solution: Experience Manager
 title: getPropertySets
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: fa3cadb3-92b3-4ffb-ac1e-87a01b98bcb2
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 17%
@@ -39,15 +39,15 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`typeHandle`*` | `xsd:string` | Oui | poignée du type de jeu de propriétés. |
-| ` *`primaryOwnerHandle`*` | `xsd:string` | Oui | Propriétaire Principal des données liées à l&#39;objet de base de données. |
-| ` *`secondaryOwnerHandle`*` | `xsd:string` | Non | Propriétaire secondaire facultatif des données. |
+| `*`typeHandle`*` | `xsd:string` | Oui | poignée du type de jeu de propriétés. |
+| `*`primaryOwnerHandle`*` | `xsd:string` | Oui | Propriétaire Principal des données liées à l&#39;objet de base de données. |
+| `*`secondaryOwnerHandle`*` | `xsd:string` | Non | Propriétaire secondaire facultatif des données. |
 
 **Output (getPropertySetsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`setArray`*` | `types:PropertySetArray` | Oui | Arborescence de jeux de propriétés. |
+| `*`setArray`*` | `types:PropertySetArray` | Oui | Arborescence de jeux de propriétés. |
 
 ## Exemples {#section-1358af974eab4259864910337a6f0bd2}
 
