@@ -4,10 +4,10 @@ seo-description: Récupère tous les utilisateurs d'un tableau.
 seo-title: getAllUsers
 solution: Experience Manager
 title: getAllUsers
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 7fe6ee2a-986d-464d-bc15-1e6444bcf13b
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 22%
@@ -59,8 +59,8 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`userArray`*` | `types:UserArray` | Oui | Tableau de tous les utilisateurs. |
-| ` *`Expression de code`*` | `Code Phrase` |  |  |
+| `*`userArray`*` | `types:UserArray` | Oui | Tableau de tous les utilisateurs. |
+| `*`Expression de code`*` | `Code Phrase` |  |  |
 
 ## Exemples {#section-9c9a2d335513478da20652c1b1443731}
 
