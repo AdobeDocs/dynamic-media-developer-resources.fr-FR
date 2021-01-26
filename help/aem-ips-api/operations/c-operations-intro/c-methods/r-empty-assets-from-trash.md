@@ -4,10 +4,10 @@ seo-description: Permet d’effacer les fichiers de la corbeille IPS.
 seo-title: emptyAssetsFromTrash
 solution: Experience Manager
 title: emptyAssetsFromTrash
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: de11a7b0-cd4b-4717-8596-d39afbcf7e9c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 7%
@@ -37,18 +37,18 @@ Les fichiers vivent dans la corbeille jusqu’à ce qu’ils soient vidés manue
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de la société propriétaire des actifs. |
-| ` *`assetHandleArray`*` | `types:HandleArray` | Oui | Tableau de poignées représentant les éléments à vider de la corbeille. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société propriétaire des actifs. |
+| `*`assetHandleArray`*` | `types:HandleArray` | Oui | Tableau de poignées représentant les éléments à vider de la corbeille. |
 
 **Sortie (emptyAssetsFromTrashParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:Int` | Oui | Nombre de fichiers vidés avec succès de la corbeille. |
-| ` *`warningCount`*` | `xsd:Int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de vider des ressources de la corbeille. |
-| ` *`errorCount`*` | `xsd:Int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de vider des fichiers de la corbeille. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des avertissements lorsque l’opération a tenté de les vider de la corbeille. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des erreurs lorsque l’opération a tenté de les vider de la corbeille. |
+| `*`successCount`*` | `xsd:Int` | Oui | Nombre de fichiers vidés avec succès de la corbeille. |
+| `*`warningCount`*` | `xsd:Int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de vider des ressources de la corbeille. |
+| `*`errorCount`*` | `xsd:Int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de vider des fichiers de la corbeille. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des avertissements lorsque l’opération a tenté de les vider de la corbeille. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des erreurs lorsque l’opération a tenté de les vider de la corbeille. |
 
 ## Exemples {#section-6154a873b6c342bf92e2036280cafdcf}
 
