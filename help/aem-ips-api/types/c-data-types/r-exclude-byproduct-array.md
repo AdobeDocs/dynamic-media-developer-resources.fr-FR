@@ -4,10 +4,10 @@ seo-description: Prend en charge le filtrage des sous-produits dans l’opérati
 seo-title: ExclureByproductArray
 solution: Experience Manager
 title: ExclureByproductArray
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 35c97446-ca7e-465d-9575-15d9480d5a87
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '34'
 ht-degree: 17%
@@ -25,5 +25,5 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| ` *`éléments`*` | `types:ExcludeByproductCondition` | Élément du tableau. |
+| `*`éléments`*` | `types:ExcludeByproductCondition` | Élément du tableau. |
 
