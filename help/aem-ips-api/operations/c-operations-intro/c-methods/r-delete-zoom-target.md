@@ -4,10 +4,10 @@ seo-description: Supprime une cible de zoom.
 seo-title: deleteZoomTarget
 solution: Experience Manager
 title: deleteZoomTarget
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 01a9321f-89a9-4263-937b-b0b49fe2fb81
 translation-type: tm+mt
-source-git-commit: d3766bba78cd1051538ff6a94f61ba61e989f1a5
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 12%
@@ -38,8 +38,8 @@ Supprime une cible de zoom.
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de la société à laquelle appartient la cible de zoom. |
-| ` *`zoomTargetHandle`*` | `xsd:string` | Oui | Poignée de la cible de zoom à supprimer. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société à laquelle appartient la cible de zoom. |
+| `*`zoomTargetHandle`*` | `xsd:string` | Oui | Poignée de la cible de zoom à supprimer. |
 
 **Output (deleteZoomTargetParam)**
 
