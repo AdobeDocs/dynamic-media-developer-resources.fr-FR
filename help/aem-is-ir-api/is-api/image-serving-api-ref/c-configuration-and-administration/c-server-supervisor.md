@@ -1,15 +1,15 @@
 ---
-description: Les composants Image Serving sont gérés par le Contrôleur de serveur, qui est un démon Linux ou un service Windows (S7Supervisor.exe, répertorié comme "Service d’image Scene7" dans le Panneau de Contrôle Services).
-seo-description: Les composants Image Serving sont gérés par le Contrôleur de serveur, qui est un démon Linux ou un service Windows (S7Supervisor.exe, répertorié comme "Service d’image Scene7" dans le Panneau de Contrôle Services).
+description: Les composants Image Serving sont gérés par le Contrôleur de serveur, qui est un démon Linux ou un service Windows (S7Supervisor.exe, répertorié comme "Service d’image Dynamic Media" dans le Panneau de Contrôle Services).
+seo-description: Les composants Image Serving sont gérés par le Contrôleur de serveur, qui est un démon Linux ou un service Windows (S7Supervisor.exe, répertorié comme "Service d’image Dynamic Media" dans le Panneau de Contrôle Services).
 seo-title: Responsable du serveur
 solution: Experience Manager
 title: Responsable du serveur
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6ac38d90-00ed-4d49-84f0-2e77e7a86d47
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Responsable du serveur{#server-supervisor}
 
-Les composants Image Serving sont gérés par le Contrôleur de serveur, qui est un démon Linux ou un service Windows (S7Supervisor.exe, répertorié comme &quot;Service d’image Scene7&quot; dans le Panneau de Contrôle Services).
+Les composants Image Serving sont gérés par le Contrôleur de serveur, qui est un démon Linux ou un service Windows (S7Supervisor.exe, répertorié comme &quot;Service d’image Dynamic Media&quot; dans le Panneau de Contrôle Services).
 
 En plus de démarrer et d’arrêter d’autres composants de diffusion d’images, le responsable du serveur est responsable de l’intégrité de ces autres composants. Si un composant se bloque, il est automatiquement redémarré afin de minimiser les interruptions de service.
 
