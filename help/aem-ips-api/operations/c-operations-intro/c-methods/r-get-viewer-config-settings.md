@@ -4,10 +4,10 @@ seo-description: Obtient tous les paramètres de configuration de la visionneuse
 seo-title: getViewerConfigSettings
 solution: Experience Manager
 title: getViewerConfigSettings
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 61fe16de-ac72-472b-8945-f1ebe8b4d11c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 18%
@@ -34,13 +34,13 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Pose la société. |
-| ` *`assetHandle`*` | `xsd:string` | Oui | Traitez le fichier. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Pose la société. |
+| `*`assetHandle`*` | `xsd:string` | Oui | Traitez le fichier. |
 
 **Output (getViewerConfigSettingsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`type`*` | `xsd:string` | Oui | Type de lecteur auquel s’appliquent les paramètres de configuration. |
-| ` *`configSettingsArray`*` | `types:ConfigSettingsArray` | Oui | Tableau des paramètres de configuration de la visionneuse. |
+| `*`type`*` | `xsd:string` | Oui | Type de lecteur auquel s’appliquent les paramètres de configuration. |
+| `*`configSettingsArray`*` | `types:ConfigSettingsArray` | Oui | Tableau des paramètres de configuration de la visionneuse. |
 
