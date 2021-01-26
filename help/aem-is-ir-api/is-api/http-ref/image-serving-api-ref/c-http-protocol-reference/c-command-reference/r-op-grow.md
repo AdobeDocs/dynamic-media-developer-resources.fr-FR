@@ -4,10 +4,10 @@ seo-description: Dilate/erode image. Applique un dilate morphologique (rayon > 0
 seo-title: op_grew
 solution: Experience Manager
 title: op_grew
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bc9bf889-f7e1-4a65-b6d6-7e1257ef8c11
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 3%
@@ -28,7 +28,7 @@ Dilate/erode image. Applique un dilate morphologique (rayon > 0) ou une érode (
  </tr> 
 </table>
 
-` *``*` radium en pixels par rapport à l’image composite. Si l’image est de couleur, chaque composant est traité indépendamment.
+`*``*` radium en pixels par rapport à l’image composite. Si l’image est de couleur, chaque composant est traité indépendamment.
 
 Utilisé principalement pour modifier la taille des effets de calque. Également utile pour obtenir des effets spéciaux sur les calques de texte ou les calques de couleur unie avec des masques.
 
