@@ -4,12 +4,12 @@ seo-description: 'Scene7 Image Serving se compose des composants suivants : '
 seo-title: Composants de diffusion d’images
 solution: Experience Manager
 title: Composants de diffusion d’images
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 84e04972-32ce-4aca-aae6-d5b8bbe761e6
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '216'
 ht-degree: 2%
 
 ---
@@ -60,7 +60,7 @@ Scene7 Image Serving se compose des composants suivants :
    <td colname="col2"> <p>Application Java autonome (non hébergée par Tomcat). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Rendu d’image Scene7 (aka. Render Server) </p> </td> 
+   <td colname="col1"> <p>Rendu d’image Dynamic Media (aka. Render Server) </p> </td> 
    <td colname="col2"> <p>Nécessite une licence distincte pour l’activation. Accès HTTP à <span class="filepath"> /ir/render</span>. Toutes les fonctionnalités de rendu d’image sont intégrées au serveur de plateformes et au serveur d’images, sans composants exécutables distincts. </p> </td> 
   </tr> 
  </tbody> 
