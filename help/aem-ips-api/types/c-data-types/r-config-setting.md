@@ -1,23 +1,20 @@
 ---
-description: Utilisé par les développeurs Scene7 uniquement.
-seo-description: Utilisé par les développeurs Scene7 uniquement.
-seo-title: ConfigSetting
+description: Utilisé par les développeurs Dynamic Media uniquement.
 solution: Experience Manager
 title: ConfigSetting
-topic: Scene7 Image Production System API
-uuid: cbce1b2b-d4da-4f35-a9a8-85422a094a2e
+topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 20%
+source-wordcount: '31'
+ht-degree: 22%
 
 ---
 
 
 # ConfigSetting{#configsetting}
 
-Utilisé par les développeurs Scene7 uniquement.
+Utilisé par les développeurs Dynamic Media uniquement.
 
 Syntaxe
 
@@ -25,7 +22,7 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| ` *`name`*` | `xsd:string` | Nom de la configuration. |
-| ` *`value`*` | `xsd:string` | Valeur de configuration. |
-| ` *`gérer`*` | `xsd:string` | Gérer la configuration stockée. |
+| `*`name`*` | `xsd:string` | Nom de la configuration. |
+| `*`value`*` | `xsd:string` | Valeur de configuration. |
+| `*`gérer`*` | `xsd:string` | Gérer la configuration stockée. |
 
