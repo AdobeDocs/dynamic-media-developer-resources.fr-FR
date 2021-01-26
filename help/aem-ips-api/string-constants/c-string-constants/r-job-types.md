@@ -4,10 +4,10 @@ seo-description: Utilisé par ActiveJob/type et ScheduledJob/type.
 seo-title: Types de tâche
 solution: Experience Manager
 title: Types de tâche
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: ec55f636-d5c9-419c-b965-eee17ed7e2e7
 translation-type: tm+mt
-source-git-commit: 515fcf8488eba7d9ca501a4182eaa73f1936488b
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '29'
 ht-degree: 6%
