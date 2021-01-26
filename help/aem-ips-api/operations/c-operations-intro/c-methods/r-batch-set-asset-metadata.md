@@ -4,10 +4,10 @@ seo-description: Définit les métadonnées des fichiers en mode batch.
 seo-title: batchSetAssetMetadata
 solution: Experience Manager
 title: batchSetAssetMetadata
-topic: Scene7 Image Production System API
+topic: Dynamic Media Image Production System API
 uuid: 88d8f279-988f-4956-b66f-60fa95cf511c
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 13%
@@ -36,18 +36,18 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`companyHandle`*` | `xsd:string` | Oui | Poignée de la société dont vous souhaitez définir les métadonnées dans une opération de traitement par lot. |
-| ` *`updateArray`*` | `types:BatchMetadataUpdateArray` | Oui | Tableau de mises à jour des métadonnées appliquées aux ressources. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société dont vous souhaitez définir les métadonnées dans une opération de traitement par lot. |
+| `*`updateArray`*` | `types:BatchMetadataUpdateArray` | Oui | Tableau de mises à jour des métadonnées appliquées aux ressources. |
 
 **Output (batchSetAssetMetadataParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| ` *`successCount`*` | `xsd:int` | Oui | Nombre de métadonnées définies avec succès. |
-| ` *`warningCount`*` | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de définir des métadonnées. |
-| ` *`errorCount`*` | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de définir des métadonnées. |
-| ` *`warningDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources générant des avertissements lorsque l’opération tentait de définir par lot des métadonnées pour les ressources. |
-| ` *`errorDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux fichiers qui génèrent des erreurs lorsque l’opération tentait de définir par lot des métadonnées pour les fichiers. |
+| `*`successCount`*` | `xsd:int` | Oui | Nombre de métadonnées définies avec succès. |
+| `*`warningCount`*` | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de définir des métadonnées. |
+| `*`errorCount`*` | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de définir des métadonnées. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources générant des avertissements lorsque l’opération tentait de définir par lot des métadonnées pour les ressources. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux fichiers qui génèrent des erreurs lorsque l’opération tentait de définir par lot des métadonnées pour les fichiers. |
 
 ## Exemples {#section-2de798ac920e4b47b971b1729a64395b}
 
