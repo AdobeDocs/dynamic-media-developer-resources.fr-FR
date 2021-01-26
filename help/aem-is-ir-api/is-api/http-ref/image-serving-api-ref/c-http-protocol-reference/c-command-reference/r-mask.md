@@ -4,10 +4,10 @@ seo-description: Masque d’image. Indique une image de masque distincte à util
 seo-title: masque
 solution: Experience Manager
 title: masque
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2dc14d20-f02a-4a77-9b73-0c01e10d448d
 translation-type: tm+mt
-source-git-commit: fe557a2429ceb7b48f22b9cbef5820ad39bad69f
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 1%
