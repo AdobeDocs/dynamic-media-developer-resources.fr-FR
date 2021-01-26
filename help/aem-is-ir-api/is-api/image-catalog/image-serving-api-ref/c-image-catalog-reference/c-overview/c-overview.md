@@ -4,12 +4,12 @@ seo-description: Les catalogues d’images sont utilisés pour fournir au serveu
 seo-title: présentation
 solution: Experience Manager
 title: présentation
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e8c0401b-9161-4624-babb-6c7afb443e65
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '299'
 ht-degree: 1%
 
 ---
@@ -34,6 +34,6 @@ Les fichiers de données de catalogue sont associés aux catalogues d’images p
 
 Les fichiers d’attribut de catalogue doivent avoir un suffixe de fichier [!DNL .ini] et être situés dans le dossier de catalogue de Platform Server ( `PlatformServer::catalog.rootPath`). Les fichiers de données de catalogue peuvent se trouver dans le même dossier ou dans tout autre dossier accessible au serveur de plateformes.
 
-Ce document décrit le format de fichier du catalogue d’images pour le système de diffusion d’images Scene7. L’audience souhaitée est destinée aux développeurs chevronnés et de sites Web qui souhaitent exploiter Scene7 Image Serving pour une application Web ou personnalisée.
+Ce document décrit le format de fichier du catalogue d’images pour le système de diffusion d’images Dynamic Media. L’audience souhaitée est destinée aux développeurs chevronnés et de sites Web qui souhaitent exploiter Dynamic Media Image Serving pour une application Web ou personnalisée.
 
-On suppose que le lecteur est généralement familier avec le système de diffusion d’images de Scene7, les normes et conventions de protocole HTTP générales et la terminologie de base de l’imagerie.
+On suppose que le lecteur est généralement familier avec le système de diffusion d’images de Dynamic Media, les normes et conventions de protocole HTTP générales et la terminologie de base de l’imagerie.
