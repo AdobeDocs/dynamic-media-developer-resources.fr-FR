@@ -4,12 +4,12 @@ seo-description: Les options suivantes contrôlent le traitement des fichiers de
 seo-title: Options pour les vignettes
 solution: Experience Manager
 title: Options pour les vignettes
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0cb40314-07ce-496b-a27b-560d7bb4fa8e
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Les options suivantes contrôlent le traitement des fichiers de vignettes. Ils s
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> -pyramide</span> </p></td> 
-  <td class="stentry"> <p>Crée une vignette pyramidale. Obligatoire lorsque les images rendues doivent être affichées avec les visionneuses de zoom Scene7. Voir <a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local"> Mise à l’échelle des vignettes</a> pour plus d’informations. </p></td> 
+  <td class="stentry"> <p>Crée une vignette pyramidale. Obligatoire lorsque les images rendues doivent être affichées avec les visionneuses de zoom Dynamic Media. Voir <a href="../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585" type="concept" format="dita" scope="local"> Mise à l’échelle des vignettes</a> pour plus d’informations. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">-thumbwidth  <span class="varname"> ival</span></span> </p></td> 
