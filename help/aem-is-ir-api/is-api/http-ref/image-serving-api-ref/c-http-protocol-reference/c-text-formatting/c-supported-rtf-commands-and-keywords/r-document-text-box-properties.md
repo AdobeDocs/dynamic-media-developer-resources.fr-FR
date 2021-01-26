@@ -4,12 +4,12 @@ seo-description: Les propriétés de document suivantes sont prises en charge da
 seo-title: Propriétés de document (zone de texte)
 solution: Experience Manager
 title: Propriétés de document (zone de texte)
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 743a773a-83b0-4667-9c67-4cefbfe77bbd
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '222'
 ht-degree: 1%
 
 ---
@@ -46,12 +46,12 @@ Les propriétés de document suivantes sont prises en charge dans les zones de t
   <tr> 
    <td> <span class="codeph"> \cmykcolortbl  </span> </td> 
    <td> <p>Table de couleurs CMJN. </p> </td> 
-   <td> <p>Extension Scene7. </p> </td> 
+   <td> <p>Extension Dynamic Media. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \*\iscolortbl  </span> </td> 
    <td> <p>Table de couleurs pour les couleurs de diffusion d’images. </p> </td> 
-   <td> <p>Extension Scene7 ; <span class="codeph"> textPs= </span> uniquement </p> </td> 
+   <td> <p>Extension Dynamic Media ; <span class="codeph"> textPs= </span> uniquement </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \red  <span class="varname"> N  </span> </span> </td> 
@@ -71,22 +71,22 @@ Les propriétés de document suivantes sont prises en charge dans les zones de t
   <tr> 
    <td> <span class="codeph"> \cyan  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Composant de couleur cyan. </p> </td> 
-   <td> <p>Extension Scene7 ; ne peut apparaître que dans <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Extension Dynamic Media ; ne peut apparaître que dans <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \magenta  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Composant couleur magenta. </p> </td> 
-   <td> <p>Extension Scene7 ; ne peut apparaître que dans <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Extension Dynamic Media ; ne peut apparaître que dans <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \jaune  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Composant de couleur jaune. </p> </td> 
-   <td> <p>Extension Scene7 ; ne peut apparaître que dans <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Extension Dynamic Media ; ne peut apparaître que dans <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \black  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Composant de couleur noire. </p> </td> 
-   <td> <p>Extension Scene7 ; ne peut apparaître que dans <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
+   <td> <p>Extension Dynamic Media ; ne peut apparaître que dans <span class="codeph"> \cmykcolortbl </span>; 0...100 </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \margl  <span class="varname"> N  </span> </span> </td> 
