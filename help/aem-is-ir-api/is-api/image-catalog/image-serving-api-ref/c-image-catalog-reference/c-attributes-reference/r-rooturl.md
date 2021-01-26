@@ -4,10 +4,10 @@ seo-description: URL racine des URL d’image relatives. Indique l’URL racine 
 seo-title: URLRacine
 solution: Experience Manager
 title: URLRacine
-topic: Scene7 Image Serving - Image Rendering API
+topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 173ce99a-f87e-4700-a28a-1a87b8c55b85
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 3%
