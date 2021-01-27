@@ -1,15 +1,12 @@
 ---
-description: Le lecteur prend en charge la lecture de vidéos hébergées en dehors de Scene7 Publishing System ou d’AEM Dynamic Media.
-seo-description: Le lecteur prend en charge la lecture de vidéos hébergées en dehors de Scene7 Publishing System ou d’AEM Dynamic Media.
-seo-title: Prise en charge vidéo externe
+description: Le lecteur prend en charge la lecture de vidéos hébergées en dehors de Dynamic Media Classic ou de AEM Dynamic Media.
 solution: Experience Manager
 title: Prise en charge vidéo externe
 topic: Dynamic Media
-uuid: 24739a5a-3a5d-49b8-9a15-bcf3a95fc192
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -17,10 +14,10 @@ ht-degree: 0%
 
 # Prise en charge vidéo externe{#external-video-support}
 
-Le lecteur prend en charge la lecture de vidéos hébergées en dehors de Scene7 Publishing System ou d’AEM Dynamic Media.
+Le lecteur prend en charge la lecture de vidéos hébergées en dehors de Dynamic Media Classic ou de AEM Dynamic Media.
 
 Les formats pris en charge pour la vidéo externe sont MP4 au format H.264 ou manifeste M3U8 pour le flux HLS.
 
-La visionneuse peut travailler sur une vidéo Scene7 ou Dynamic Media ou avec une vidéo externe. Si la visionneuse début avec la vidéo Scene7/Dynamic Media, utilisez-la avec un tel type de fichier, il n’est pas possible de charger une vidéo externe dans cette visionneuse à l’aide de la méthode [ `setVideo`](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-setvideo.md#reference-85d3422d6ce64a36ac74827120b5a17c). Et vice versa : si la visionneuse était initialement chargée avec une vidéo externe, elle ne devrait continuer à travailler qu’avec des vidéos externes.
+La visionneuse peut travailler soit sur une vidéo Dynamic Media Classic, soit AEM Dynamic Media, soit sur une vidéo externe. Si la visionneuse début avec la vidéo Dynamic Media Classic/Dynamic Media, utilisez-la avec un tel type de fichier, il n’est pas possible de charger une vidéo externe dans cette visionneuse à l’aide de la méthode [ `setVideo`](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-setvideo.md#reference-85d3422d6ce64a36ac74827120b5a17c). Et vice versa : si la visionneuse était initialement chargée avec une vidéo externe, elle ne devrait continuer à travailler qu’avec des vidéos externes.
 
 Lorsque vous travaillez avec une vidéo externe, la visionneuse ignore la valeur du modificateur playback et détecte le type de lecture de l’extension vidéo externe. Si l’URL de vidéo externe se termine par .m3u8, le lecteur utilise la lecture HLS, sinon la lecture progressive est utilisée.
