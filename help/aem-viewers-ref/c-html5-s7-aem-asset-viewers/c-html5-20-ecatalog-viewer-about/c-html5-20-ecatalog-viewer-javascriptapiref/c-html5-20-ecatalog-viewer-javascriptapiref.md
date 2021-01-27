@@ -4,10 +4,10 @@ seo-description: La classe principale de la visionneuse de catalogue électroniq
 seo-title: Référence de l’API Javascript pour la visionneuse de catalogue électronique
 solution: Experience Manager
 title: Référence de l’API Javascript pour la visionneuse de catalogue électronique
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 96ce27fa-0509-4b8c-a4ba-f405830970c3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 0%
