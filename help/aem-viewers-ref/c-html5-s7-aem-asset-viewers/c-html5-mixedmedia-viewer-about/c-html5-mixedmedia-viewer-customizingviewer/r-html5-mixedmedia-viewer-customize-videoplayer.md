@@ -4,10 +4,10 @@ seo-description: Le lecteur vidéo est la zone rectangulaire dans laquelle le co
 seo-title: Lecteur vidéo
 solution: Experience Manager
 title: Lecteur vidéo
-topic: Dynamic media
+topic: Dynamic Media
 uuid: d7431a7b-6078-45d6-a364-434b3b44ecf4
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 1%
