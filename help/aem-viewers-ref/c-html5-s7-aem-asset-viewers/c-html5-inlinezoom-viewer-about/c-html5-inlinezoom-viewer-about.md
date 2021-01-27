@@ -5,7 +5,7 @@ solution: Experience Manager
 title: Zoom intégré
 topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 0%
@@ -158,7 +158,7 @@ Un chemin relatif ressemble à ce qui suit :
 
    Cette visionneuse affiche des miniatures lorsque vous travaillez avec des jeux d’éléments multiples. Sur les systèmes de bureau, les miniatures sont placées sous la vue principale. En même temps, le lecteur permet la permutation de la ressource principale lors de l’exécution à l’aide de l’API `setAsset()`. En tant que développeur, vous contrôlez la manière dont le lecteur gère la zone des miniatures dans la partie inférieure lorsque la nouvelle ressource ne comporte qu’un seul élément. Il est possible de garder intacte la taille de la visionneuse extérieure et de laisser la vue principale augmenter sa hauteur et occuper la zone des vignettes. Vous pouvez également maintenir la taille de la vue principale statique et réduire la zone extérieure du lecteur de contenu, ce qui permet au contenu de la page Web de se déplacer vers le haut, puis d’utiliser l’espace de la page libre qui reste des miniatures.
 
-   Pour que les limites extérieures de la visionneuse restent intactes, définissez la taille de la classe CSS de niveau supérieur `.s7flyoutviewer` en unités absolues. Le dimensionnement en CSS peut être placé directement sur la page HTML ou dans un fichier CSS de visionneuse personnalisé, qui est ultérieurement affecté à un enregistrement de paramètre prédéfini de visionneuse dans Scene7 Publishing System, ou transmis explicitement à l’aide de la commande de style.
+   Pour que les limites extérieures de la visionneuse restent intactes, définissez la taille de la classe CSS de niveau supérieur `.s7flyoutviewer` en unités absolues. Le dimensionnement en CSS peut être placé directement sur la page HTML ou dans un fichier CSS de visionneuse personnalisée, qui est ultérieurement affecté à un enregistrement de paramètre prédéfini de visionneuse dans Dynamic Media Classic, ou transmis explicitement à l’aide de la commande de style.
 
    Voir [Personnalisation de la visionneuse de zoom intégrée](../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451) pour plus d’informations sur le style de la visionneuse avec CSS.
 
