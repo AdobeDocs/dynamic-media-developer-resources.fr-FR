@@ -5,10 +5,10 @@ seo-description: La visionneuse vidéo est un lecteur vidéo qui lit la lecture 
 seo-title: Vidéo
 solution: Experience Manager
 title: Vidéo
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 961a9b99-5892-4ee3-a2df-13e299f5d086
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '2402'
 ht-degree: 0%
