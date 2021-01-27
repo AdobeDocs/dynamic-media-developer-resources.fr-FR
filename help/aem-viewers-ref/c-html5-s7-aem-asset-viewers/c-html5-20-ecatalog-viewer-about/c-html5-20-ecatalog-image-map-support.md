@@ -4,10 +4,10 @@ seo-description: La visionneuse de catalogue électronique prend en charge le re
 seo-title: Prise en charge des zones cliquables
 solution: Experience Manager
 title: Prise en charge des zones cliquables
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 69aeda21-909d-45da-bcf5-73ade8c5adda
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 0%
