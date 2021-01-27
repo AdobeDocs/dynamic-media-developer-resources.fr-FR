@@ -5,9 +5,9 @@ solution: Experience Manager
 topic: Dynamic Media
 contentOwner: Rick Brough
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Configuration requise pour les visionneuses HTML5 Dynamic Media.
 
 ## Matériel et logiciels serveur {#section-05099146f1f0418988c196635110bee6}
 
-* Dynamic Media Classic (anciennement Scene7) Image Serving 6.7.1 ou version ultérieure.
+* Dynamic Media Classic Image Serving 6.7.1 ou version ultérieure.
 * Les visionneuses HTML5 requièrent des bibliothèques JavaScript SDK côté serveur 3.10.2 ou ultérieures.
 * Les fonctions sociales &quot;Envoyer un courrier électronique à un ami&quot; nécessitent s7ondemand 5.0.9 ou version ultérieure.
 * Visionneuse de catalogue électronique - La prise en charge du panneau d’informations nécessite le serveur d’informations version 2.1.8 ou ultérieure.
