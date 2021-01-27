@@ -4,10 +4,10 @@ seo-description: La position du bouton est entièrement gérée par le menu Favo
 seo-title: Bouton vue tous les favoris
 solution: Experience Manager
 title: Bouton vue tous les favoris
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 8824deb5-3bdc-4681-85ac-7f86a76cf3b5
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 0%
