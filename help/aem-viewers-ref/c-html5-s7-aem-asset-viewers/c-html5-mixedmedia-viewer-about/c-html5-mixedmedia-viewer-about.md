@@ -1,16 +1,13 @@
 ---
 description: Mixed Media Viewer est une visionneuse de supports. Il prend en charge les visionneuses de supports qui contiennent des images, des séries d’échantillons, des visionneuses à 360°, des vidéos et des visionneuses de vidéos adaptatives.
 keywords: responsive
-seo-description: Mixed Media Viewer est une visionneuse de supports. Il prend en charge les visionneuses de supports qui contiennent des images, des séries d’échantillons, des visionneuses à 360°, des vidéos et des visionneuses de vidéos adaptatives.
-seo-title: Supports variés
 solution: Experience Manager
 title: Supports variés
 topic: Dynamic Media
-uuid: b6028c54-7a3c-41eb-89f8-7b86bb0d0deb
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2681'
+source-wordcount: '2660'
 ht-degree: 0%
 
 ---
@@ -142,7 +139,7 @@ Pour ajouter la visionneuse à une page Web, procédez comme suit :
 
 [!DNL <s7viewers_root>/html5/js/MixedMediaViewer.js]
 
-Vous pouvez utiliser un chemin relatif si la visionneuse est déployée sur l’un des serveurs Adobe Scene7 et qu’elle est diffusée à partir du même domaine. Sinon, vous spécifiez un chemin d’accès complet à l’un des serveurs Adobe Scene7 sur lesquels les visionneuses IS sont installées.
+Vous pouvez utiliser un chemin relatif si la visionneuse est déployée sur l’un des serveurs Dynamic Media Classic de l’Adobe et qu’elle est diffusée à partir du même domaine. Sinon, vous spécifiez un chemin d’accès complet à l’un des serveurs Dynamic Media Classic Adobe sur lesquels les visionneuses IS sont installées.
 
 Le chemin relatif ressemble à ce qui suit :
 
@@ -175,7 +172,7 @@ Le chemin relatif ressemble à ce qui suit :
 
    Cette visionneuse affiche des miniatures lorsque vous travaillez avec des jeux d’éléments multiples. Sur les systèmes de bureau, les miniatures sont placées sous la vue principale. En même temps, le lecteur permet la permutation de la ressource principale lors de l’exécution à l’aide de l’API `setAsset()`. En tant que développeur, vous avez le contrôle sur la manière dont le lecteur gère la zone des vignettes en bas lorsque la nouvelle ressource ne comporte qu’un seul élément. Il est possible de garder intacte la taille de la visionneuse extérieure et de laisser la vue principale augmenter sa hauteur et occuper la zone des vignettes. Vous pouvez également maintenir la taille de la vue principale statique et réduire la zone extérieure du lecteur de contenu, en laissant le contenu de la page Web monter, puis utiliser l’espace de la page libre qui reste des miniatures.
 
-   Pour que les limites extérieures de la visionneuse restent intactes, définissez la taille de la classe CSS de niveau supérieur `.s7mixedmediaviewer` en unités absolues. Le dimensionnement en CSS peut être placé directement sur la page HTML ou dans un fichier CSS de visionneuse personnalisé, qui est ultérieurement affecté à un enregistrement de paramètre prédéfini de visionneuse dans Scene7 Publishing System, ou transmis explicitement à l’aide de la commande de style.
+   Pour que les limites extérieures de la visionneuse restent intactes, définissez la taille de la classe CSS de niveau supérieur `.s7mixedmediaviewer` en unités absolues. Le dimensionnement en CSS peut être placé directement sur la page HTML ou dans un fichier CSS de visionneuse personnalisée, qui est ultérieurement affecté à un enregistrement de paramètre prédéfini de visionneuse dans Dynamic Media Classic, ou transmis explicitement à l’aide de la commande de style.
 
    Voir [Personnalisation de la visionneuse de supports variés](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#concept-61b3410f187c4bf3af09ec813c649bf4) pour plus d’informations sur la mise en forme de la visionneuse à l’aide de CSS.
 
@@ -207,7 +204,7 @@ Le chemin relatif ressemble à ce qui suit :
 
    [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/MixedMediaViewer-fixed-main-view.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/samples/MixedMediaViewer-fixed-main-view.html)
 
-   Vous pouvez définir le modificateur `stagesize` soit dans l’enregistrement de paramètre prédéfini de la visionneuse dans Scene7 Publishing System, soit le transmettre explicitement au code d’initialisation de la visionneuse avec la collection `params`, soit en tant qu’appel d’API comme décrit dans la section Référence de commandes de cette aide, comme dans l’exemple suivant :
+   Vous pouvez définir le modificateur `stagesize` soit dans l’enregistrement de paramètre prédéfini de la visionneuse dans Dynamic Media Classic, soit le transmettre explicitement au code d’initialisation de la visionneuse avec la collection `params`, soit en tant qu’appel d’API comme décrit dans la section Référence de commandes de cette aide, comme dans l’exemple suivant :
 
    ```
    mixedMediaViewer.setParam("stagesize", "640,480");
