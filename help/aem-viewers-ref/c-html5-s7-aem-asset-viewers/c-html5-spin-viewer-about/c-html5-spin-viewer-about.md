@@ -8,9 +8,9 @@ title: Spin
 topic: Dynamic Media
 uuid: 5d5cdf83-cfe8-48cd-af74-b270f7400b14
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2168'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ Pour ajouter la visionneuse à 360° à une page Web, procédez comme suit :
 
    `<s7viewers_root>/html5/js/SpinViewer.js`
 
-   Vous pouvez utiliser un chemin relatif si la visionneuse est déployée sur l’un des serveurs Adobe Scene7 et qu’elle est diffusée à partir du même domaine. Sinon, vous spécifiez un chemin d’accès complet à l’un des serveurs Adobe Scene7 sur lesquels les visionneuses IS sont installées.
+   Vous pouvez utiliser un chemin relatif si le lecteur est déployé sur l’un des serveurs Dynamic Media d’Adobe et qu’il est diffusé à partir du même domaine. Sinon, vous spécifiez un chemin d’accès complet à l’un des serveurs Dynamic Media d’Adobe sur lesquels les visionneuses IS sont installées.
 
    Le chemin relatif ressemble à ce qui suit :
 
@@ -165,7 +165,7 @@ Pour ajouter la visionneuse à 360° à une page Web, procédez comme suit :
 
    Vous pouvez définir la taille statique de la visionneuse en la déclarant pour la classe CSS de niveau supérieur `.s7spinviewer` en unités absolues ou en utilisant le modificateur `stagesize`.
 
-   Vous pouvez placer le dimensionnement en CSS directement sur la page HTML ou dans un fichier CSS de visionneuse personnalisée, qui est ensuite affecté à un enregistrement de paramètre prédéfini de visionneuse dans Scene7 Publishing System, ou transmis explicitement à l’aide d’une commande de style.
+   Vous pouvez placer le dimensionnement en CSS directement sur la page HTML ou dans un fichier CSS de visionneuse personnalisée, qui est ensuite affecté à un enregistrement de paramètre prédéfini de visionneuse dans Dynamic Media Classic ou transmis explicitement à l’aide d’une commande de style.
 
    Voir [Personnalisation de la visionneuse à 360°](../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#concept-464f3bfa55764bc09c92d8c7480b0b55) pour plus d’informations sur le style de la visionneuse avec CSS.
 
@@ -178,7 +178,7 @@ Pour ajouter la visionneuse à 360° à une page Web, procédez comme suit :
    }
    ```
 
-   Vous pouvez définir le modificateur `stagesize` soit dans l’enregistrement de paramètre prédéfini de la visionneuse dans Scene7 Publishing System, soit le transmettre explicitement au code d’initialisation de la visionneuse avec la collection `params`, soit en tant qu’appel d’API comme décrit dans la section Référence de commandes, comme suit :
+   Vous pouvez définir le modificateur `stagesize` soit dans l’enregistrement de paramètre prédéfini de la visionneuse dans Dynamic Media Classic, soit le transmettre explicitement avec le code d’initialisation de la visionneuse avec la collection `params`, soit en tant qu’appel d’API comme décrit dans la section Référence de commande, comme suit :
 
    ```
     spinViewer.setParam("stagesize", 
