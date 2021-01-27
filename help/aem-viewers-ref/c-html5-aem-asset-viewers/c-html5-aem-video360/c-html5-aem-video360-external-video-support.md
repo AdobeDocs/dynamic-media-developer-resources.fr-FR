@@ -1,15 +1,12 @@
 ---
-description: Le lecteur prend en charge la lecture de vidéos hébergées en dehors de SPS ou d’AEM Dynamic Media.
-seo-description: Le lecteur prend en charge la lecture de vidéos hébergées en dehors de SPS ou d’AEM Dynamic Media.
-seo-title: Prise en charge vidéo externe
+description: Le lecteur prend en charge la lecture de vidéos hébergées en dehors de Dynamic Media Classic ou de AEM Dynamic Media.
 solution: Experience Manager
 title: Prise en charge vidéo externe
 topic: Dynamic Media
-uuid: 2e9f1c54-627f-4462-ae85-8a5ca1d09762
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # Prise en charge vidéo externe{#external-video-support}
 
-Le lecteur prend en charge la lecture de vidéos hébergées en dehors de SPS ou d’AEM Dynamic Media.
+Le lecteur prend en charge la lecture de vidéos hébergées en dehors de Dynamic Media Classic ou de AEM Dynamic Media.
 
 Les formats pris en charge pour la vidéo externe sont MP4 au format H.264 ou manifeste M3U8 pour le flux HLS.
 
