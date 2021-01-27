@@ -4,10 +4,10 @@ seo-description: La barre de contrôle est la zone rectangulaire qui contient et
 seo-title: Barre de contrôle
 solution: Experience Manager
 title: Barre de contrôle
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 7b7dccb3-6c64-4342-aac7-82c769561902
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 1%
