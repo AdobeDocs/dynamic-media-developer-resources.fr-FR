@@ -1,16 +1,13 @@
 ---
-description: La visionneuse vidéo est un lecteur vidéo qui lit la lecture en flux continu et la vidéo progressive codée au format H.264. Elle est diffusée à partir de Scene7 Publishing System ou d’AEM Dynamic Media.
+description: La visionneuse vidéo est un lecteur vidéo qui lit la lecture en flux continu et la vidéo progressive codée au format H.264. Il est livré à partir de Dynamic Media Classic ou de AEM Dynamic Media.
 keywords: responsive
-seo-description: La visionneuse vidéo est un lecteur vidéo qui lit la lecture en flux continu et la vidéo progressive codée au format H.264. Elle est diffusée à partir de Scene7 Publishing System ou d’AEM Dynamic Media.
-seo-title: Vidéo
 solution: Experience Manager
 title: Vidéo
 topic: Dynamic Media
-uuid: 961a9b99-5892-4ee3-a2df-13e299f5d086
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2402'
+source-wordcount: '2372'
 ht-degree: 0%
 
 ---
@@ -18,7 +15,7 @@ ht-degree: 0%
 
 # Vidéo{#video}
 
-La visionneuse vidéo est un lecteur vidéo qui lit la lecture en flux continu et la vidéo progressive codée au format H.264. Elle est diffusée à partir de Scene7 Publishing System ou d’AEM Dynamic Media.
+La visionneuse vidéo est un lecteur vidéo qui lit la lecture en flux continu et la vidéo progressive codée au format H.264. Il est livré à partir de Dynamic Media Classic ou de AEM Dynamic Media.
 
 Voir [Configuration système requise et configuration requise](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
@@ -152,7 +149,7 @@ Le chemin relatif ressemble à ce qui suit :
 
    Vous pouvez définir la taille statique de la visionneuse en la déclarant pour la classe CSS de niveau supérieur `.s7videoviewer` en unités absolues ou en utilisant le modificateur `stagesize`.
 
-   Le dimensionnement en CSS peut être placé directement sur la page HTML ou dans un fichier CSS de visionneuse personnalisé, qui est ultérieurement affecté à un enregistrement de paramètre prédéfini de visionneuse dans Scene7 Publishing System ou transmis explicitement à l’aide d’une commande de style.
+   Le dimensionnement en CSS peut être placé directement sur la page HTML ou dans un fichier CSS de visionneuse personnalisée, qui est ultérieurement affecté à un enregistrement de paramètre prédéfini de visionneuse dans Dynamic Media Classic ou transmis explicitement à l’aide d’une commande de style.
 
    Voir [Personnalisation de la visionneuse de vidéos](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e) pour plus d’informations sur le style de la visionneuse à l’aide de CSS.
 
@@ -165,7 +162,7 @@ Le chemin relatif ressemble à ce qui suit :
    }
    ```
 
-   Vous pouvez définir le modificateur `stagesize` soit dans l’enregistrement de paramètre prédéfini de la visionneuse dans Scene7 Publishing System, soit le transmettre explicitement au code d’initialisation de la visionneuse avec la collection `params`, soit en tant qu’appel d’API comme décrit dans la section de référence Commande, comme dans l’exemple suivant :
+   Vous pouvez définir le modificateur `stagesize` soit dans l’enregistrement de paramètre prédéfini de la visionneuse dans Dynamic Media Classic, soit le transmettre explicitement au code d’initialisation de la visionneuse avec la collection `params`, soit en tant qu’appel d’API comme décrit dans la section de référence Commande, comme dans l’exemple suivant :
 
    ```
    videoViewer.setParam("stagesize", "640,480");
