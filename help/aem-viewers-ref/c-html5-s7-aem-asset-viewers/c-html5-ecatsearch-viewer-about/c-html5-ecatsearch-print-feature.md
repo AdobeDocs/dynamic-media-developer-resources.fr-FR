@@ -4,10 +4,10 @@ seo-description: Le lecteur de contenu vous permet de générer le contenu du ca
 seo-title: Fonction d’impression
 solution: Experience Manager
 title: Fonction d’impression
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 4932042a-1421-4589-8bf5-88bbe38d774d
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%
