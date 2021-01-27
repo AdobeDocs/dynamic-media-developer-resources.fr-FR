@@ -4,10 +4,10 @@ seo-description: Le lecteur de recherche de catalogue électronique prend en cha
 seo-title: Prise en charge des zones cliquables
 solution: Experience Manager
 title: Prise en charge des zones cliquables
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 22ba8168-b384-4eda-a147-ce8172cfed11
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 0%
