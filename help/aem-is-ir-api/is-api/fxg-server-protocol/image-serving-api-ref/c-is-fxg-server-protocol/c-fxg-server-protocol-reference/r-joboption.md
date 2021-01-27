@@ -7,9 +7,9 @@ title: joboption
 topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7288cf29-850f-4121-8425-5f995daac22d
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '258'
 ht-degree: 42%
 
 ---
@@ -28,7 +28,7 @@ Appliquez les options de tâche PDF. Un fichier d’options de travail ou un par
  </tr> 
 </table>
 
-Le fichier des options de tâche peut être téléchargé et publié par IPS/SPS. Les options PDF contenues dans le fichier d’options de tâche sont utilisées lors de la génération du PDF.
+Le fichier des options de tâche peut être téléchargé et publié par IPS/Dynamic Media Classic. Les options PDF contenues dans le fichier d’options de tâche sont utilisées lors de la génération du PDF.
 
 Les options suivantes sont actuellement prises en charge :
 
