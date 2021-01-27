@@ -4,10 +4,10 @@ seo-description: Le contenu affiché par la visionneuse de vidéos est sujet à 
 seo-title: Localisation des éléments de l’interface utilisateur
 solution: Experience Manager
 title: Localisation des éléments de l’interface utilisateur
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 05b88ef9-0d90-4143-8558-d0d32943c348
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 0%
