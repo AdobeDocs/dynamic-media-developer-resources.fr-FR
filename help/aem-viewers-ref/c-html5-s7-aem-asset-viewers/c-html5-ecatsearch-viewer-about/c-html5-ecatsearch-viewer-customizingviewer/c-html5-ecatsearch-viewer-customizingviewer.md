@@ -5,10 +5,10 @@ seo-description: La personnalisation visuelle et la personnalisation comportemen
 seo-title: Personnalisation du lecteur de recherche de catalogue électronique
 solution: Experience Manager
 title: Personnalisation du lecteur de recherche de catalogue électronique
-topic: Dynamic media
+topic: Dynamic Media
 uuid: a715399b-7b02-4656-8257-4c390c6f629c
 translation-type: tm+mt
-source-git-commit: 8d7fdab78c5d23d0e541effa9b9c470921bd144b
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '1420'
 ht-degree: 0%
