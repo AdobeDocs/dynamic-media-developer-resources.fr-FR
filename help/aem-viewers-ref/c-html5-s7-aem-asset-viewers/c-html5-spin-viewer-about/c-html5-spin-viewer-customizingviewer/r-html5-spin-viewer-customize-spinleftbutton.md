@@ -4,10 +4,10 @@ seo-description: Cliquez ou appuyez sur ce bouton pour faire tourner l’image v
 seo-title: Bouton à 360° à gauche
 solution: Experience Manager
 title: Bouton à 360° à gauche
-topic: Dynamic media
+topic: Dynamic Media
 uuid: ef804867-2e84-4117-be56-eefcd44f9ca2
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 3%
