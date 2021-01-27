@@ -4,10 +4,10 @@ seo-description: L’outil de partage de liens est constitué d’un bouton ajou
 seo-title: Partage de liens
 solution: Experience Manager
 title: Partage de liens
-topic: Dynamic media
+topic: Dynamic Media
 uuid: e3b398c3-8dc8-4eaf-ba33-d4e76181cef8
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '1424'
 ht-degree: 2%
