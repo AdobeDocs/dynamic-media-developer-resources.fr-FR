@@ -1,15 +1,12 @@
 ---
 description: Notes de mise à jour les plus récentes pour la version Adobe Scene7 de l’automne 2016 de la solution Adobe Experience Manager dans le Adobe Marketing Cloud.
-seo-description: Notes de mise à jour les plus récentes pour la version Adobe Scene7 de l’automne 2016 de la solution Adobe Experience Manager dans le Adobe Marketing Cloud.
-seo-title: Version de l’automne 2016 de Scene7
 solution: Experience Manager
 title: Version de l’automne 2016 de Scene7
 topic: Dynamic Media
-uuid: 3fddda65-0c6e-48ec-bd60-7e0ca59421a8
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '2264'
+source-wordcount: '2244'
 ht-degree: 0%
 
 ---
@@ -24,12 +21,12 @@ Notes de mise à jour les plus récentes pour la version Adobe Scene7 de l’aut
 Notes de mise à jour les plus récentes pour la version de [!DNL Adobe Scene7] automne 2016 de la solution [!DNL Adobe Experience Manager] dans [!DNL Adobe Marketing Cloud].
 
 * [Généraux](s7rnfall2016.md#section-52afeb72ecb34c1585ea67a5051825a2)
-* [Scene7 Publishing System](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
+* [Scene7](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
 * [Visionneuses (Image Serving 5.5.3)](s7rnfall2016.md#section-1d59bcd5825d487b80b59a6d1a08ed30)
 * [Visionneuses (Image Serving 5.5.2)](s7rnfall2016.md#section-9932c988cfee45749594af481dfc6476)
 * [Visionneuses (Image Serving 5.5.1)](s7rnfall2016.md#section-833ab92c91c941d2bfdc27f233f582ad)
 * [Kit de développement de visionneuse HTML5 3.0.1](s7rnfall2016.md#section-30e2392859c442d1aab2766d0f1d1580)
-* [Dynamic Media Image Serving 6.3.2 et Image Rendering 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
+* [Dynamic Media Classic Image Serving 6.3.2 et Image Rendering 6.3.2](s7rnfall2016.md#section-19a3e96f52c74757bcdea0f8a11001f2)
 
 ## Généraux {#section-52afeb72ecb34c1585ea67a5051825a2}
 
@@ -46,7 +43,7 @@ Pour obtenir une documentation complète, voir [https://docs.adobe.com/content/h
 * Suppression de la fonction de découpe vidéo de l’interface utilisateur [!DNL Adobe Scene7 Publishing System].
 * Authentification Ajoutée à tous les servlets Scene7 si nécessaire et possible.
 * Correction de bogues impliquant la Vue de Liste dans la corbeille.
-* Suppression de la **fonctionnalité utilisateur SPSAdmin** de User Management en raison de problèmes de sécurité.
+* Suppression de **la fonction d’administrateur Dynamic Media Classic (Scene7)** de User Management en raison de problèmes de sécurité.
 * FTP WebAdmin prend désormais en charge l’authentification OKTA.
 * Suppression de la fonctionnalité du mot de passe par défaut qui a été créée pour les nouveaux utilisateurs du portail multimédia.
 * Correction de bogues impliquant le mot de passe temporaire généré lors de l’ajout d’un nouvel utilisateur. Le mot de passe ne répondait pas aux exigences de mot de passe nécessaires.
