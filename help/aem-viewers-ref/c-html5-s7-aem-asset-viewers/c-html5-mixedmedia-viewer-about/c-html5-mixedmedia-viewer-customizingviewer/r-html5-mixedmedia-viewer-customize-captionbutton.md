@@ -4,10 +4,10 @@ seo-description: Active et désactive l’affichage de la légende fermée. Elle
 seo-title: Bouton Légende
 solution: Experience Manager
 title: Bouton Légende
-topic: Dynamic media
+topic: Dynamic Media
 uuid: a03170e4-aaa9-4822-99dd-b9cf13206bbc
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 2%
