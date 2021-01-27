@@ -4,10 +4,10 @@ seo-description: Référence de l’API JavaScript pour le lecteur de contenu Fl
 seo-title: getComponent
 solution: Experience Manager
 title: getComponent
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 039d5df8-e912-4868-8ae6-855617693797
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 1%
