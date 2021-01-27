@@ -5,10 +5,10 @@ seo-description: La personnalisation visuelle et la personnalisation comportemen
 seo-title: Personnalisation de la visionneuse de supports variés
 solution: Experience Manager
 title: Personnalisation de la visionneuse de supports variés
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 039462a7-2915-48f3-8d4b-0c527801b85a
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '1350'
 ht-degree: 0%
