@@ -1,15 +1,12 @@
 ---
-description: Selon la valeur du paramètre de mode, la visionneuse affiche les icônes de zone cliquable sur la vue principale aux endroits où les zones cliquables sont créées à l’origine dans Scene7 Publishing System ou effectue le rendu des zones exactes qui correspondent à la forme des zones cliquables d’origine.
-seo-description: Selon la valeur du paramètre de mode, la visionneuse affiche les icônes de zone cliquable sur la vue principale aux endroits où les zones cliquables sont créées à l’origine dans Scene7 Publishing System ou effectue le rendu des zones exactes qui correspondent à la forme des zones cliquables d’origine.
-seo-title: Effet de zone cliquable
+description: En fonction de la valeur du paramètre de mode, la visionneuse affiche les icônes de zone cliquable sur la vue principale aux endroits où les zones cliquables sont créées à l’origine dans Dynamic Media Classic ou effectue le rendu des zones exactes qui correspondent à la forme des zones cliquables d’origine.
 solution: Experience Manager
 title: Effet de zone cliquable
 topic: Dynamic Media
-uuid: 8bafaec3-500c-4a1f-b511-bff125daab7f
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '314'
 ht-degree: 1%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 1%
 
 # Effet de zone cliquable{#image-map-effect}
 
-Selon la valeur du paramètre de mode, la visionneuse affiche les icônes de zone cliquable sur la vue principale aux endroits où les zones cliquables sont créées à l’origine dans Scene7 Publishing System ou effectue le rendu des zones exactes qui correspondent à la forme des zones cliquables d’origine.
+En fonction de la valeur du paramètre de mode, la visionneuse affiche les icônes de zone cliquable sur la vue principale aux endroits où les zones cliquables sont créées à l’origine dans Dynamic Media Classic ou effectue le rendu des zones exactes qui correspondent à la forme des zones cliquables d’origine.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
