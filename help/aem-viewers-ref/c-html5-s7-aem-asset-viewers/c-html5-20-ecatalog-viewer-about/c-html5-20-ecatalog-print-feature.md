@@ -7,9 +7,9 @@ title: Fonction d’impression
 topic: Dynamic Media
 uuid: 4ff170a3-ce37-454f-b4b0-b323de3dc9c9
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Le lecteur de contenu vous permet de générer le contenu du catalogue sur une i
 
 La fonction d’impression est déclenchée par un bouton dédié dans la barre d’outils. En cliquant sur le bouton, l’utilisateur peut choisir une plage d’impression et le nombre de pages par feuille.
 
-La qualité de l&#39;impression peut être ajustée à l&#39;aide du paramètre de configuration `printquality`. Notez que la définition de `printquality` sur des valeurs significativement plus élevées que la valeur par défaut n’est pas recommandée. La raison en est qu&#39;elle conduit à une très forte consommation de mémoire par le navigateur Web sur le système du client. Assurez-vous également que la taille maximale de réponse d’image définie pour votre société SPS est supérieure à la valeur `printquality` configurée.
+La qualité de l&#39;impression peut être ajustée à l&#39;aide du paramètre de configuration `printquality`. Notez que la définition de `printquality` sur des valeurs significativement plus élevées que la valeur par défaut n’est pas recommandée. La raison en est qu&#39;elle conduit à une très forte consommation de mémoire par le navigateur Web sur le système du client. Assurez-vous également que la taille maximale de réponse d’image définie pour votre société Dynamic Media Classic est supérieure à la valeur `printquality` configurée.
 
 >[!NOTE]
 >
