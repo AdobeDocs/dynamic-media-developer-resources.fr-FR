@@ -7,9 +7,9 @@ title: markOverflowingTextFrames
 topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 90237128-8d29-45cc-90e8-7fe46c1dae38
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '185'
 ht-degree: 68%
 
 ---
@@ -26,6 +26,6 @@ Affichez des blocs de texte en excès avec le signe plus. Un indicateur de dépa
  </tr> 
 </table>
 
-La définition du modificateur `markOverflowingTextFrames=1` par le biais d’un appel d’URL marque tous les blocs de texte dans lesquels le texte est surchargé avec un signe plus. En outre, dans SPS Previewer, l’indicateur de texte en excès est défini sur &quot; `TRUE`&quot; par défaut.
+La définition du modificateur `markOverflowingTextFrames=1` par le biais d’un appel d’URL marque tous les blocs de texte dans lesquels le texte est surchargé avec un signe plus. En outre, dans l’aperçu Dynamic Media Classic, l’indicateur de texte en excès est défini sur &quot; `TRUE`&quot; par défaut.
 
 Valeur par défaut : 0.
