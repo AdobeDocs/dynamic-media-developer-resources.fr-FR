@@ -2,10 +2,10 @@
 description: Prise en charge du suivi Adobe Analytics
 solution: Experience Manager
 title: Prise en charge du suivi Adobe Analytics
-topic: Dynamic media
+topic: Dynamic Media
 uuid: a7de5549-2a9d-4153-be5e-72705ced85ac
 translation-type: tm+mt
-source-git-commit: bf5873e5a6bdb859e19b15584ba85e9c106f853b
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 1%
