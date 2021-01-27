@@ -4,10 +4,10 @@ seo-description: Référence de l’API JavaScript pour la visionneuse déroulan
 seo-title: setAsset
 solution: Experience Manager
 title: setAsset
-topic: Dynamic media
+topic: Dynamic Media
 uuid: c6f7e7e9-084a-46ff-8cff-1ecb71f7b8d3
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 2%
