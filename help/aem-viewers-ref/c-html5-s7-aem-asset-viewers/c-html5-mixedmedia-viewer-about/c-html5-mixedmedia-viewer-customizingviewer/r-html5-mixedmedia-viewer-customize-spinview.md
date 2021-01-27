@@ -4,10 +4,10 @@ seo-description: La vue principale est constituée de l’image à 360° lorsque
 seo-title: Vue à 360°
 solution: Experience Manager
 title: Vue à 360°
-topic: Dynamic media
+topic: Dynamic Media
 uuid: f1edbcc4-966a-4ec6-8ba9-a76f3ae51733
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 1%
