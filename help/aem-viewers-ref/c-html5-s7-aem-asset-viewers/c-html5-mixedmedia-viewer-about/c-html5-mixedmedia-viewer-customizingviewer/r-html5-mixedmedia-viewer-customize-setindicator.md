@@ -4,10 +4,10 @@ seo-description: L’indicateur défini est une série de points affichés sur l
 seo-title: Définir l’indicateur
 solution: Experience Manager
 title: Définir l’indicateur
-topic: Dynamic media
+topic: Dynamic Media
 uuid: e62fac7c-28b6-40bf-83cc-8bcfbaa0dfa3
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 1%
