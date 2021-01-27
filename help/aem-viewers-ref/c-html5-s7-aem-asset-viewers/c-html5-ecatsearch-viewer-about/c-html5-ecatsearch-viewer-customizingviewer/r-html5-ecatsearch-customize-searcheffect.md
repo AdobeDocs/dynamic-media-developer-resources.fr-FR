@@ -4,10 +4,10 @@ seo-description: Le lecteur affiche les régions de résultats de la recherche s
 seo-title: Effet de recherche
 solution: Experience Manager
 title: Effet de recherche
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 3a076ff8-2da5-4020-8a77-8f5a256afefe
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
