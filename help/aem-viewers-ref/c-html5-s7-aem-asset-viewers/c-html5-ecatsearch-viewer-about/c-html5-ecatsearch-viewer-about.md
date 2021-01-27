@@ -1,16 +1,14 @@
 ---
 description: Visionneuse de recherche de catalogue électronique est une visionneuse de catalogue qui affiche des brochures électroniques dans une planche par planche ou page par page. Le catalogue électronique permet aux utilisateurs de parcourir le catalogue à l’aide d’éléments d’interface utilisateur supplémentaires ou d’un mode de miniatures dédié. Les utilisateurs peuvent également effectuer un zoom avant sur chaque page pour plus de détails.
 keywords: responsive
-seo-description: Visionneuse de recherche de catalogue électronique est une visionneuse de catalogue qui affiche des brochures électroniques dans une planche par planche ou page par page. Le catalogue électronique permet aux utilisateurs de parcourir le catalogue à l’aide d’éléments d’interface utilisateur supplémentaires ou d’un mode de miniatures dédié. Les utilisateurs peuvent également effectuer un zoom avant sur chaque page pour plus de détails.
-seo-title: Recherche dans un catalogue électronique
 solution: Experience Manager
 title: Recherche dans un catalogue électronique
-topic: Dynamic media
+topic: Dynamic Media
 uuid: f5ec33bf-e827-4709-9780-6f17096bf306
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '2228'
+source-wordcount: '2179'
 ht-degree: 0%
 
 ---
@@ -144,7 +142,7 @@ Pour ajouter la visionneuse à une page Web, procédez comme suit :
 
 [!DNL <s7viewers_root>/html5/js/eCatalogSearchViewer.js]
 
-Vous pouvez utiliser un chemin relatif si la visionneuse est déployée sur l’un des serveurs Adobe Scene7 et qu’elle est diffusée à partir du même domaine. Sinon, vous spécifiez un chemin d’accès complet à l’un des serveurs Adobe Scene7 sur lesquels les visionneuses IS sont installées.
+Vous pouvez utiliser un chemin relatif si le lecteur est déployé sur l’un des serveurs Dynamic Media d’Adobe et qu’il est diffusé à partir du même domaine. Sinon, vous spécifiez un chemin d’accès complet à l’un des serveurs Dynamic Media d’Adobe sur lesquels les visionneuses IS sont installées.
 
 Le chemin relatif ressemble à ce qui suit :
 
