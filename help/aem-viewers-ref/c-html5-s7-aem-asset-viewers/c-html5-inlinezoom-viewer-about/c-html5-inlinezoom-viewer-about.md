@@ -1,16 +1,13 @@
 ---
 description: La visionneuse de zoom en ligne est une visionneuse d’images. Il affiche une image statique avec la version agrandie affichée sur cette image statique lorsqu’un utilisateur survole ou touche la vue principale. Cette visionneuse fonctionne avec les visionneuses d’images et la navigation s’effectue à l’aide de nuances. Il est conçu pour fonctionner sur les ordinateurs de bureau et les périphériques mobiles.
 keywords: responsive
-seo-description: La visionneuse de zoom en ligne est une visionneuse d’images. Il affiche une image statique avec la version agrandie affichée sur cette image statique lorsqu’un utilisateur survole ou touche la vue principale. Cette visionneuse fonctionne avec les visionneuses d’images et la navigation s’effectue à l’aide de nuances. Il est conçu pour fonctionner sur les ordinateurs de bureau et les périphériques mobiles.
-seo-title: Zoom intégré
 solution: Experience Manager
 title: Zoom intégré
-topic: Dynamic media
-uuid: 2287aef0-79ba-4d63-911a-969fa1c63385
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: 6380d839a794cbf82854a2ecd28c18f16f06d4c7
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '2457'
+source-wordcount: '2403'
 ht-degree: 0%
 
 ---
@@ -128,7 +125,7 @@ Pour ajouter la visionneuse à une page Web, procédez comme suit :
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
-Vous pouvez utiliser un chemin relatif si la visionneuse est déployée sur l’un des serveurs Adobe Scene7 et qu’elle est diffusée à partir du même domaine. Sinon, vous spécifiez un chemin d’accès complet à l’un des serveurs Adobe Scene7 sur lesquels les visionneuses IS sont installées.
+Vous pouvez utiliser un chemin relatif si le lecteur est déployé sur l’un des serveurs Dynamic Media d’Adobe et qu’il est diffusé à partir du même domaine. Sinon, vous spécifiez un chemin d’accès complet à l’un des serveurs Dynamic Media d’Adobe sur lesquels les visionneuses IS sont installées.
 
 Un chemin relatif ressemble à ce qui suit :
 
