@@ -7,7 +7,7 @@ title: élément
 topic: Dynamic Media
 uuid: 6a72257f-d204-4258-b6f8-de6f7b00fd54
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '582'
 ht-degree: 2%
@@ -57,15 +57,15 @@ ou
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imageList  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Indique une visionneuse d’images explicite, composée d’une séquence triée d’éléments ou de cadres, séparés par des virgules. </p> <p> <p>Remarque :  Cette fonctionnalité est prise en charge dans Adobe Scene7 Publishing System ; il n’est pas pris en charge dans Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p> Indique une visionneuse d’images explicite, composée d’une séquence triée d’éléments ou de cadres, séparés par des virgules. </p> <p> <p>Remarque :  Cette fonctionnalité est prise en charge dans Adobe Dynamic Media Classic ; il n’est pas pris en charge dans Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imageListWithModifiers  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Indique une visionneuse d’images explicite dans laquelle chaque image possède ses propres modificateurs de diffusion d’images. Dans ce cas, la liste des cadres est entourée de parenthèses. Veillez à appliquer le codage HTTP doublon à toute virgule présente dans le modificateur Image Serving spécifique aux images. </p> <p> <p>Remarque :  Cette fonctionnalité est prise en charge dans Adobe Scene7 Publishing System ; il n’est pas pris en charge dans Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p> Indique une visionneuse d’images explicite dans laquelle chaque image possède ses propres modificateurs de diffusion d’images. Dans ce cas, la liste des cadres est entourée de parenthèses. Veillez à appliquer le codage HTTP doublon à toute virgule présente dans le modificateur Image Serving spécifique aux images. </p> <p> <p>Remarque :  Cette fonctionnalité est prise en charge dans Adobe Dynamic Media Classic ; il n’est pas pris en charge dans Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> multi-DimensionalSpinSet  </span> </span> </p> </td> 
-   <td colname="col2"> <p>Spécifie une visionneuse à 360° multidimensionnelle explicite en utilisant la syntaxe suivante : </p> <p> <span class="codeph"> (((  <span class="varname"> horizontalSpinSet  </span>)[,(  <span class="varname"> horizontalSpinSet  </span>)])  </span> </p> <p> où <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> est une liste de cadres séparés par des virgules pour un axe horizontal donné. Tous <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> doivent avoir le même nombre d'images. </p> <p> <p>Remarque :  Cette fonctionnalité est prise en charge dans Adobe Scene7 Publishing System ; il n’est pas pris en charge dans Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p>Spécifie une visionneuse à 360° multidimensionnelle explicite en utilisant la syntaxe suivante : </p> <p> <span class="codeph"> (((  <span class="varname"> horizontalSpinSet  </span>)[,(  <span class="varname"> horizontalSpinSet  </span>)])  </span> </p> <p> où <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> est une liste de cadres séparés par des virgules pour un axe horizontal donné. Tous <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> doivent avoir le même nombre d'images. </p> <p> <p>Remarque :  Cette fonctionnalité est prise en charge dans Adobe Dynamic Media Classic ; il n’est pas pris en charge dans Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> modificateurs  </span> </span> </p> </td> 
@@ -86,19 +86,19 @@ ou
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> video  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Vidéo unique ou visionneuse de vidéos adaptative. </p> <p> <p>Remarque :  Cette fonctionnalité est prise en charge dans Adobe Scene7 Publishing System ; il n’est pas pris en charge dans Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p> Vidéo unique ou visionneuse de vidéos adaptative. </p> <p> <p>Remarque :  Cette fonctionnalité est prise en charge dans Adobe Dynamic Media Classic ; il n’est pas pris en charge dans Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> image  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Image unique. </p> <p> <p>Remarque :  Cette fonctionnalité est prise en charge dans Adobe Scene7 Publishing System ; il n’est pas pris en charge dans Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p> Image unique. </p> <p> <p>Remarque :  Cette fonctionnalité est prise en charge dans Adobe Dynamic Media Classic ; il n’est pas pris en charge dans Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> setId  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Série d’échantillons. </p> <p> <p>Remarque :  Cette fonctionnalité est prise en charge dans Adobe Scene7 Publishing System ; il n’est pas pris en charge dans Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p> Série d’échantillons. </p> <p> <p>Remarque :  Cette fonctionnalité est prise en charge dans Adobe Dynamic Media Classic ; il n’est pas pris en charge dans Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> swatchId  </span> </span> </p> </td> 
-   <td colname="col2"> <p>Image de la série d’échantillons. </p> <p> <p>Remarque :  Cette fonctionnalité est prise en charge dans Adobe Scene7 Publishing System ; il n’est pas pris en charge dans Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p>Image de la série d’échantillons. </p> <p> <p>Remarque :  Cette fonctionnalité est prise en charge dans Adobe Dynamic Media Classic ; il n’est pas pris en charge dans Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ID  </span> </span> </p> </td> 
@@ -109,7 +109,7 @@ ou
       <li id="li_C942CED779B54110BCDC74188995FD5B"> <p> <span class="codeph"> spin  </span> </p> <p>Pour la visionneuse à 360°. </p> </li> 
       <li id="li_6EA5C54F078D4B24B44F1588BF083842"> <p> <span class="codeph"> video  </span> </p> <p>Pour une seule vidéo. </p> </li> 
       <li id="li_8110FA7E0CAB4681A2D8C15F2A656E69"> <p> <span class="codeph"> video_set  </span> </p> <p>Pour les visionneuses de vidéos adaptatives. </p> </li> 
-     </ul> </p> <p> <p>Remarque :  Cette fonctionnalité est prise en charge dans Adobe Scene7 Publishing System ; il n’est pas pris en charge dans Adobe Experience Manager Assets. </p> </p> </td> 
+     </ul> </p> <p> <p>Remarque :  Cette fonctionnalité est prise en charge dans Adobe Dynamic Media Classic ; il n’est pas pris en charge dans Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> modificateurs  </span> </span> </p> </td> 
