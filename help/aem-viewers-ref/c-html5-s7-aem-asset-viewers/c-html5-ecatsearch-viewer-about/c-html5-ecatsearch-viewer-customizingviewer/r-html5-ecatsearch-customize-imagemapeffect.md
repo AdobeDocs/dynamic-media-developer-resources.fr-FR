@@ -4,10 +4,10 @@ seo-description: Selon la valeur du paramètre de mode, la visionneuse affiche l
 seo-title: Effet de zone cliquable
 solution: Experience Manager
 title: Effet de zone cliquable
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 8bafaec3-500c-4a1f-b511-bff125daab7f
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 1%
