@@ -4,10 +4,10 @@ seo-description: La vue principale se compose de l’image statique, de l’imag
 seo-title: Vue de zoom déroulant
 solution: Experience Manager
 title: Vue de zoom déroulant
-topic: Dynamic media
+topic: Dynamic Media
 uuid: a918c775-a36a-44e8-9ca4-90cb8f5c3a5e
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 1%
