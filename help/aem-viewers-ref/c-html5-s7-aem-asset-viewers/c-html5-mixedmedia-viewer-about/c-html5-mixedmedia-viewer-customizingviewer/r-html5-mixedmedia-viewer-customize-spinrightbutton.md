@@ -4,10 +4,10 @@ seo-description: Cliquez ou appuyez sur ce bouton pour faire pivoter l’image v
 seo-title: Bouton de rotation à droite
 solution: Experience Manager
 title: Bouton de rotation à droite
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 3af363bd-3de3-42c7-80cc-4512ffc1f10d
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 3%
