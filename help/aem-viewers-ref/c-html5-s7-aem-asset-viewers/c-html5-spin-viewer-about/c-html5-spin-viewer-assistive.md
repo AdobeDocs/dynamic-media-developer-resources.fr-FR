@@ -4,10 +4,10 @@ seo-description: Tous les composants du lecteur prennent en charge les rôles et
 seo-title: Assistance technique
 solution: Experience Manager
 title: Assistance technique
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 6312f2f7-e1fa-4536-bae4-d8bc7735d5af
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 0%
