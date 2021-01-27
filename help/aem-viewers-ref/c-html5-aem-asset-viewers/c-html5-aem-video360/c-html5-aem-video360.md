@@ -1,15 +1,12 @@
 ---
-description: La visionneuse de vidéos HTML5 Video360 est un lecteur vidéo de 360 degrés qui lit la diffusion en flux continu et la vidéo de 360 degrés progressive codée au format H.264, diffusée à partir de Scene7 Publishing System ou de AEM Dynamic Media.
-seo-description: La visionneuse de vidéos HTML5 Video360 est un lecteur vidéo de 360 degrés qui lit la diffusion en flux continu et la vidéo de 360 degrés progressive codée au format H.264, diffusée à partir de Scene7 Publishing System ou de AEM Dynamic Media.
-seo-title: Vidéo360
+description: La visionneuse de vidéos HTML5 Video360 est un lecteur vidéo de 360 degrés qui lit la diffusion en flux continu et la vidéo de 360 degrés progressive codée au format H.264, diffusée à partir de Dynamic Media Classic ou de AEM Dynamic Media.
 solution: Experience Manager
 title: Vidéo360
-topic: Dynamic media
-uuid: b03e6289-e012-4c62-835f-814463a27774
+topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
-source-wordcount: '2613'
+source-wordcount: '2582'
 ht-degree: 0%
 
 ---
@@ -17,7 +14,7 @@ ht-degree: 0%
 
 # Video360{#video}
 
-La visionneuse de vidéos HTML5 Video360 est un lecteur vidéo de 360 degrés qui lit la diffusion en flux continu et la vidéo de 360 degrés progressive codée au format H.264, diffusée à partir de Scene7 Publishing System ou de AEM Dynamic Media.
+La visionneuse de vidéos HTML5 Video360 est un lecteur vidéo de 360 degrés qui lit la diffusion en flux continu et la vidéo de 360 degrés progressive codée au format H.264, diffusée à partir de Dynmaic Media Classic ou d’AEM Dynamic Media.
 
 Les vidéos à 360 degrés, également connues sous le nom de vidéos immersives ou sphériques, sont des enregistrements vidéo où une vue dans toutes les directions est enregistrée en même temps, filmée à l&#39;aide d&#39;une caméra omnidirectionnelle ou d&#39;une collection de caméras. Les visionneuses de vidéos uniques et adaptatives sont prises en charge. Le lecteur prend également en charge l’utilisation de flux vidéo et HLS progressifs hébergés sur un emplacement externe.
 
