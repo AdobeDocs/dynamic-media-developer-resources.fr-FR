@@ -4,10 +4,10 @@ seo-description: Documentation de référence des commandes pour la visionneuse 
 seo-title: Référence de commande - URL
 solution: Experience Manager
 title: Référence de commande - URL
-topic: Dynamic media
+topic: Dynamic Media
 uuid: c703667f-6346-437b-b6c0-20fe12f1b007
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '27'
 ht-degree: 0%
