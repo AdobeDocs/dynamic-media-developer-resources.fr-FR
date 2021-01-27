@@ -4,10 +4,10 @@ seo-description: Documentation des attributs de configuration pour la visionneus
 seo-title: Référence de commande - Attributs de configuration
 solution: Experience Manager
 title: Référence de commande - Attributs de configuration
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 837cf230-f7dd-4010-a299-c3267d11e200
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 0%
