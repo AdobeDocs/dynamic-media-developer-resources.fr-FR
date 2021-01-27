@@ -4,9 +4,9 @@ solution: Experience Manager
 title: Utilisation de la bibliothèque d’images réactives
 topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Pour ajouter une bibliothèque d’images réactives à une page Web et gérer l
 
 **Pour utiliser la bibliothèque d’images réactives**
 
-1. Dans SPS, [créez un paramètre d’image prédéfini](http://help.adobe.com/en_US/scene7/using/WS2F6A1049-B41F-447d-A520-91227F9CDABF.html) au cas où vous envisageriez d’utiliser la bibliothèque d’images réactives avec des paramètres prédéfinis.
+1. Dans Dynamic Media Classic, [créez un paramètre d’image prédéfini](http://help.adobe.com/en_US/scene7/using/WS2F6A1049-B41F-447d-A520-91227F9CDABF.html) au cas où vous envisageriez d’utiliser la bibliothèque d’images réactives avec des paramètres prédéfinis.
 
    Lorsque vous définissez des paramètres d’image prédéfinis utilisés avec la bibliothèque d’images réactive, n’utilisez aucun paramètre qui affecte la taille de l’image, tel que `wid=`, `hei=` ou `scl=`. Ne spécifiez aucun champ de taille dans le paramètre d’image prédéfini. Laissez-les en lieu et place comme des valeurs vides.
 1. Ajoutez le fichier JavaScript de bibliothèque sur votre page Web.
