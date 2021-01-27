@@ -1,23 +1,20 @@
 ---
-description: La fenêtre contextuelle du panneau d’informations s’affiche au milieu de la zone de visualisation lorsqu’un utilisateur active une zone cliquable dont la propriété rollover_key est définie dans Scene7 Publishing System et si la fonction du panneau d’informations est correctement configurée pour la visionneuse.
-seo-description: La fenêtre contextuelle du panneau d’informations s’affiche au milieu de la zone de visualisation lorsqu’un utilisateur active une zone cliquable dont la propriété rollover_key est définie dans Scene7 Publishing System et si la fonction du panneau d’informations est correctement configurée pour la visionneuse.
-seo-title: Fenêtre contextuelle du panneau d’informations
+description: La fenêtre contextuelle du panneau d’informations s’affiche au milieu de la zone de visualisation lorsqu’un utilisateur active une zone cliquable dont la propriété rollover_key est définie dans Dynamic Media Classic et si la fonction du panneau d’informations est correctement configurée pour la visionneuse.
 solution: Experience Manager
 title: Fenêtre contextuelle du panneau d’informations
 topic: Dynamic Media
-uuid: 4b44f48b-eabc-4a83-906a-dc7df13b2e74
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 2%
+source-wordcount: '458'
+ht-degree: 3%
 
 ---
 
 
 # Menu contextuel du panneau d’informations{#info-panel-popup}
 
-La fenêtre contextuelle du panneau d’informations s’affiche au milieu de la zone de visualisation lorsqu’un utilisateur active une zone cliquable dont la propriété rollover_key est définie dans Scene7 Publishing System et si la fonction du panneau d’informations est correctement configurée pour la visionneuse.
+La fenêtre contextuelle du panneau d’informations s’affiche au milieu de la zone de visualisation lorsqu’un utilisateur active une zone cliquable dont la propriété rollover_key est définie dans Dynamic Media Classic et si la fonction du panneau d’informations est correctement configurée pour la visionneuse.
 
 L’arrière-plan du panneau d’informations couvre toute la zone de la visionneuse et est contrôlé par le sélecteur de classe CSS suivant :
 
