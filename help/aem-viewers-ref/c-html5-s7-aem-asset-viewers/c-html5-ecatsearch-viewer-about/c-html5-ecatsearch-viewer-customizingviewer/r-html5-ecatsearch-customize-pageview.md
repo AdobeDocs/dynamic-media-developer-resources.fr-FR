@@ -4,10 +4,10 @@ seo-description: La vue principale est constituée de l’image catalogue. Il pe
 seo-title: Vue de page
 solution: Experience Manager
 title: Vue de page
-topic: Dynamic media
+topic: Dynamic Media
 uuid: f585bf57-c66a-4213-a2af-d9625beb5bed
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 2%
@@ -84,7 +84,7 @@ Sur les systèmes de bureau, le composant prend en charge le sélecteur d&#39;at
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> diapositive  </span> </p> </td> 
-   <td colname="col2"> <p>S’affiche lorsque l’utilisateur effectue une permutation d’image en effectuant un balayage horizontal ou un clic. </p> </td> 
+   <td colname="col2"> <p>S’affiche lorsque l’utilisateur effectue une permutation d’image en effectuant un balayage horizontal ou un clic sur la souris. </p> </td> 
   </tr> 
  </tbody> 
 </table>
