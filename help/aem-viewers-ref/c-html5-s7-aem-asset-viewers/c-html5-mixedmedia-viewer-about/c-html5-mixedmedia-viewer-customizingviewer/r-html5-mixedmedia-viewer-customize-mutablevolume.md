@@ -4,10 +4,10 @@ seo-description: La commande de volume mutable s'affiche initialement sous la fo
 seo-title: Volume mutable
 solution: Experience Manager
 title: Volume mutable
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 0199c35b-e223-4c5b-8978-9e65554e64e0
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 2%
