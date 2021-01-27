@@ -4,10 +4,10 @@ seo-description: La classe principale de la visionneuse de recherche de catalogu
 seo-title: Référence de l’API Javascript pour le lecteur de recherche de catalogue électronique
 solution: Experience Manager
 title: Référence de l’API Javascript pour le lecteur de recherche de catalogue électronique
-topic: Dynamic media
+topic: Dynamic Media
 uuid: b65dec1e-567a-450f-9e24-e7841dc6f701
 translation-type: tm+mt
-source-git-commit: 8d7fdab78c5d23d0e541effa9b9c470921bd144b
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 0%
