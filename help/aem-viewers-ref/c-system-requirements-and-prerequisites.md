@@ -2,10 +2,10 @@
 title: Configuration requise pour les visionneuses HTML5 Dynamic Media
 description: Configuration requise pour les visionneuses HTML5 Dynamic Media.
 solution: Experience Manager
-topic: Dynamic media
+topic: Dynamic Media
 contentOwner: Rick Brough
 translation-type: tm+mt
-source-git-commit: 07eb6cf84a46753b41307187d5c5b2a077fa9009
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 0%
