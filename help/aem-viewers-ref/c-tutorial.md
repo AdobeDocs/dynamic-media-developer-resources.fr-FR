@@ -4,9 +4,9 @@ solution: Experience Manager
 title: Didacticiel sur le SDK du lecteur de contenu
 topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Le kit de développement de visionneuse fournit un ensemble de composants basés sur JavaScript pour le développement de lecteurs personnalisés. Les lecteurs de contenu sont des applications Web qui permettent à l’Adobe Dynamic Media d’incorporer du contenu multimédia enrichi dans des pages Web.
 
-Par exemple, le SDK fournit un zoom et un panoramique interactifs. Il permet également une vue à 360° et la lecture vidéo des fichiers téléchargés vers Adobe Dynamic Media via l’application principale SPS (Scene7 Publishing System).
+Par exemple, le SDK fournit un zoom et un panoramique interactifs. Il permet également une vue à 360° et la lecture vidéo des fichiers qui ont été téléchargés vers Adobe Dynamic Media via l’application principale Dynamic Media Classic.
 
 Bien que les composants reposent sur la fonctionnalité HTML5, ils sont conçus pour fonctionner sur les périphériques Android et Apple iOS, ainsi que sur les ordinateurs de bureau, y compris Internet Explorer et les versions ultérieures. Ce type d’expérience signifie que vous pouvez fournir un flux de travail unique pour toutes les plates-formes prises en charge.
 
