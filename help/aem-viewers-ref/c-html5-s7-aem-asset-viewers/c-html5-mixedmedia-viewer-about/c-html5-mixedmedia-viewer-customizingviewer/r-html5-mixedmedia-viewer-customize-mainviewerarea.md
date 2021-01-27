@@ -4,10 +4,10 @@ seo-description: La zone principale de la vue est celle occupée par la vue prin
 seo-title: Zone du lecteur principal
 solution: Experience Manager
 title: Zone du lecteur principal
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 9d0a23e2-97c2-441e-8e4c-ef528ff654d2
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 1%
