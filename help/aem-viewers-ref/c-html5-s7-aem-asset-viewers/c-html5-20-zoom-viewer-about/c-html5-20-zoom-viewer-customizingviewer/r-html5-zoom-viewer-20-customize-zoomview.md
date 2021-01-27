@@ -4,10 +4,10 @@ seo-description: La vue principale est constituée de l’image agrandie.
 seo-title: Vue de zoom
 solution: Experience Manager
 title: Vue de zoom
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 34cb6c80-77eb-42b0-91dd-ae0369ea2881
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%
