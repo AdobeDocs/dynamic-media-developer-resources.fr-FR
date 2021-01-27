@@ -4,10 +4,10 @@ seo-description: Attribut de configuration pour la visionneuse de vidéos.
 seo-title: ControlBar.transition
 solution: Experience Manager
 title: ControlBar.transition
-topic: Dynamic media
+topic: Dynamic Media
 uuid: abd98898-d7d8-468f-b696-052e61e171b5
 translation-type: tm+mt
-source-git-commit: 7bc7b3a86fbcdc57cfdc31745fae3afc06e44b15
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 3%
