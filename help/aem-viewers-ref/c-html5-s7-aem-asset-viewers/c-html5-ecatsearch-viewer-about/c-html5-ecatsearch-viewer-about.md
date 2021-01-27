@@ -6,7 +6,7 @@ title: Recherche dans un catalogue électronique
 topic: Dynamic Media
 uuid: f5ec33bf-e827-4709-9780-6f17096bf306
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '2179'
 ht-degree: 0%
@@ -166,7 +166,7 @@ Le chemin relatif ressemble à ce qui suit :
 
    Vous pouvez définir la taille statique de la visionneuse en la déclarant pour la classe CSS de niveau supérieur `.s7ecatalogsearchviewer` en unités absolues ou en utilisant le modificateur `stagesize`.
 
-   Vous pouvez placer le dimensionnement en CSS directement sur la page HTML ou dans un fichier CSS de visionneuse personnalisée, qui est ensuite affecté à un enregistrement de paramètre prédéfini de visionneuse dans Scene7 Publishing System, ou transmis explicitement à l’aide d’une commande de style.
+   Vous pouvez placer le dimensionnement en CSS directement sur la page HTML ou dans un fichier CSS de visionneuse personnalisée, qui est ensuite affecté à un enregistrement de paramètre prédéfini de visionneuse dans Dynamic Media Classic ou transmis explicitement à l’aide d’une commande de style.
 
    Voir [Personnalisation de la visionneuse de catalogue électronique](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) pour plus d’informations sur le style de la visionneuse avec CSS.
 
@@ -179,7 +179,7 @@ Le chemin relatif ressemble à ce qui suit :
    }
    ```
 
-   Vous pouvez définir le modificateur `stagesize` soit dans l’enregistrement de paramètre prédéfini de la visionneuse dans Scene7 Publishing System, soit le transmettre explicitement au code d’initialisation de la visionneuse avec la collection `params`, soit en tant qu’appel d’API comme décrit dans la section Référence de commandes, comme suit :
+   Vous pouvez définir le modificateur `stagesize` soit dans l’enregistrement de paramètre prédéfini de la visionneuse dans Dynamic Media Classic, soit le transmettre explicitement avec le code d’initialisation de la visionneuse avec la collection `params`, soit en tant qu’appel d’API comme décrit dans la section Référence de commande, comme suit :
 
    ```
    eCatalogSearchViewer.setParam("stagesize", 
