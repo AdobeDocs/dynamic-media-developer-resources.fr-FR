@@ -1,10 +1,10 @@
 ---
-description: Le téléchargement de fichiers dans Scene7 Production System implique une ou plusieurs requêtes de POST HTTP qui configurent une tâche afin de coordonner toutes les activités de journal associées aux fichiers téléchargés.
+description: Le téléchargement de fichiers dans Dynamic Media Classic implique une ou plusieurs requêtes de POST HTTP qui configurent une tâche afin de coordonner toutes les activités de journal associées aux fichiers téléchargés.
 solution: Experience Manager
 title: Téléchargement de fichiers via HTTP POSTs vers le servlet UploadFile
 topic: Dynamic Media Image Production System API
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 3%
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # Téléchargement de fichiers au moyen de POST HTTP vers le servlet UploadFile{#uploading-assets-by-way-of-http-posts-to-the-uploadfile-servlet}
 
-Le téléchargement de fichiers dans Scene7 Production System implique une ou plusieurs requêtes de POST HTTP qui configurent une tâche afin de coordonner toutes les activités de journal associées aux fichiers téléchargés.
+Le téléchargement de fichiers dans Dynamic Media Classic implique une ou plusieurs requêtes de POST HTTP qui configurent une tâche afin de coordonner toutes les activités de journal associées aux fichiers téléchargés.
 
 Utilisez l’URL suivante pour accéder au servlet UploadFile :
 
@@ -68,7 +68,7 @@ La tâche de téléchargement consiste en un ou plusieurs POST HTTP qui utilisen
 | `auth`  |   Obligatoire. Document XML authHeader spécifiant l’authentification et les informations sur le client. Voir **Demande d’authentification** sous [SOAP](/help/aem-ips-api/c-wsdl-versions.md). |
 | `file params`  |   Facultatif. Vous pouvez inclure un ou plusieurs fichiers à télécharger avec chaque demande de POST. Chaque partie de fichier peut inclure un paramètre de nom de fichier dans l&#39;en-tête Content-Disposition utilisé comme nom de cible dans IPS si aucun paramètre `uploadPostParams/fileName` n&#39;est spécifié. |
 
-|  POST HTTP faisant partie   |  nom de l’élément uploadPostParams   |  Type   |  Description   |
+|  POST HTTP : partie   |  nom de l’élément uploadPostParams   |  Type   |  Description   |
 |---|---|---|---|
 | `uploadParams` (Obligatoire. Un document XML `uploadParams` spécifiant les paramètres de transfert)   |   `companyHandle`  |  `xsd:string`  | Obligatoire. Traitez la société à laquelle le fichier est chargé.  |
 | `uploadParams` (Obligatoire. Un document XML `uploadParams` spécifiant les paramètres de transfert) | `jobName`  |  `xsd:string`  | `jobName` ou `jobHandle` est requis. Nom de la tâche de téléchargement.  |
