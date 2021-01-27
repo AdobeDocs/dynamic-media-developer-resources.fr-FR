@@ -4,10 +4,10 @@ seo-description: Par défaut, l’outil de partage sur les réseaux sociaux s’
 seo-title: Partage sur les réseaux sociaux
 solution: Experience Manager
 title: Partage sur les réseaux sociaux
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 045a5525-dc7b-4ea4-b5ee-830a7ddf233a
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 0%
