@@ -4,10 +4,10 @@ seo-description: L’indicateur de rotation est superposé sur la zone de vue de
 seo-title: Effet d’icône vue à 360°
 solution: Experience Manager
 title: Effet d’icône vue à 360°
-topic: Dynamic media
+topic: Dynamic Media
 uuid: 33445a3d-51dc-47a4-a8d1-87d25ea001e1
 translation-type: tm+mt
-source-git-commit: 90cbfca4533ca6639e561aa4e1344bdd20731eef
+source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 1%
