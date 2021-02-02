@@ -4,9 +4,9 @@ solution: Experience Manager
 title: Gestion des couleurs de la diffusion d’images
 topic: Dynamic Media Image Serving - Image Rendering API
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1195'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ D’autres profils peuvent être ajoutés aux profils standard, soit au catalogu
 |`WebCoatedGrade5`|Papier de classe 5 avec revêtement Web SWOP 2006|Papier de classe WebCoatedSWOP2006Grade5.icc|
 |`WebUncoated`|U.S. Web non couché v2|USWebUnenduit.icc|
 
-Le tableau suivant s’applique à *Dynamic Media Classic (Scene7) Image Serving* et *Dynamic Media* (s’exécutant en mode d’exécution `dynamicmedia_scene7`).
+Le tableau suivant s’applique à *Dynamic Media Classic Image Serving* et *Dynamic Media* (s’exécutant en mode d’exécution `dynamicmedia_scene7`).
 
 |Identificateur|Nom commun|Nom du fichier|
 |— |— |— |
