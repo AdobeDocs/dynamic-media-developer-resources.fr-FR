@@ -4,9 +4,9 @@ solution: Experience Manager
 title: Version de l’automne 2016 de Scene7
 topic: Dynamic Media
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '2244'
+source-wordcount: '2231'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ Notes de mise à jour les plus récentes pour la version de [!DNL Adobe Scene7] 
 
 L&#39;Adobe est heureux d&#39;annoncer la disponibilité de la diffusion de contenu HTTP/2 avec l&#39;avantage global d&#39;améliorer les performances.
 
-Voir [Diffusion HTTP2 de la FAQ sur le contenu](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html).
+Voir [Diffusion HTTP2 de la FAQ sur le contenu](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
-Pour obtenir une documentation complète, voir [https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html)
+Pour obtenir une documentation complète, voir [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
 
 **Nouvelles fonctionnalités, améliorations et corrections de bogues**
 
@@ -58,7 +58,7 @@ Pour obtenir une documentation complète, voir [https://docs.adobe.com/content/h
 
 ## Visionneuses (Image Serving 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Pour obtenir une documentation complète, consultez le [Guide de référence des visionneuses](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
+Pour obtenir une documentation complète, consultez le [Guide de référence des visionneuses](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html).
 
 **Correctifs pour Image Serving 5.5.3**
 
@@ -68,7 +68,7 @@ Pour obtenir une documentation complète, consultez le [Guide de référence des
 
 ## Visionneuses (Image Serving 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Pour obtenir une documentation complète, consultez le [Guide de référence des visionneuses](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
+Pour obtenir une documentation complète, consultez le [Guide de référence des visionneuses](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html).
 
 **Correctifs pour Image Serving 5.5.2**
 
@@ -77,7 +77,7 @@ Pour obtenir une documentation complète, consultez le [Guide de référence des
 
 ## Visionneuses (Image Serving 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Pour obtenir une documentation complète, consultez le [Guide de référence des visionneuses](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
+Pour obtenir une documentation complète, consultez le [Guide de référence des visionneuses](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html).
 
 **Nouvelles fonctionnalités, améliorations et corrections de bogues pour Image Serving 5.5.1**
 
