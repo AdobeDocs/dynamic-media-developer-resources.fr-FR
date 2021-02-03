@@ -7,9 +7,9 @@ title: Référence de commande
 topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 72c4ed61-3436-4df5-b586-77808fb1903a
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '222'
 ht-degree: 10%
 
 ---
@@ -33,7 +33,7 @@ Cette section décrit les commandes de protocole HTTP.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-Voir aussi les [Options des paramètres d’image prédéfinis de Dynamic Media](https://docs.adobe.com/content/help/en/experience-manager-65/assets/dynamic/managing-image-presets.html#image-preset-options) dans la documentation AEM 6.5.
+Voir aussi les [Options des paramètres d’image prédéfinis de Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) dans la documentation AEM 6.5.
 
 * [aligner](r-align.md)
 * [ancrage](r-anchor.md)
