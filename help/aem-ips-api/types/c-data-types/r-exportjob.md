@@ -7,10 +7,10 @@ title: ExportJob
 topic: Dynamic Media Image Production System API
 uuid: 439e3dd8-85b8-4f5b-abf8-8cc5a3f59fe6
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 15%
+source-wordcount: '217'
+ht-degree: 16%
 
 ---
 
@@ -56,7 +56,7 @@ ExportJob ne prend pas en charge les types de ressource suivants :
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> is_modifier</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string  </span> </p> </td> 
-   <td colname="col3"> <p>Spécifie la chaîne URL de rendu <span class="codeph"> ImageServer</span>, qui est ajoutée à la demande ExportJob <span class="codeph"> convert</span>. </p> <p>Consultez la <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/home.html" scope="external" format="html"> documentation IS</a> pour plus d'informations sur l'envoi des modificateurs IS. </p> </td> 
+   <td colname="col3"> <p>Spécifie la chaîne URL de rendu <span class="codeph"> ImageServer</span>, qui est ajoutée à la demande ExportJob <span class="codeph"> convert</span>. </p> <p>Consultez la <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html" scope="external" format="html"> documentation IS</a> pour plus d'informations sur l'envoi des modificateurs IS. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> macro</span> </span> </p> </td> 
