@@ -7,9 +7,9 @@ title: ActiveJob
 topic: Dynamic Media Image Production System API
 uuid: d7120a88-6f3e-4844-aafa-83d419470fad
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '392'
 ht-degree: 9%
 
 ---
@@ -173,7 +173,7 @@ Spécifiez une valeur de type de tâche pour renvoyer le type de tâche. Vous po
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:ExportJob</span> </td> 
-   <td colname="col3">Autoriser l’exportation autorisée de fichiers précédemment téléchargés. Voir <a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> Tâche d’exportation</a>. </td> 
+   <td colname="col3">Autoriser l’exportation autorisée de fichiers précédemment téléchargés. Voir <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> Tâche d’exportation</a>. </td> 
   </tr> 
  </tbody> 
 </table>
