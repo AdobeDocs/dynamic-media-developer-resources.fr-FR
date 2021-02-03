@@ -5,7 +5,7 @@ title: DIFFUSION vidéo HTTPS
 topic: Dynamic Media
 uuid: 7f8c1fe6-b464-4d80-9ffe-a36081825d49
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Selon la méthode de publication de la vidéo Dynamic Media que vous utilisez en
    https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/MixedMediaViewer.html?asset=%2Fcontent%2Fdam%2FGeometrixx-Outdoors-New-Launch%2Fbackpack%2Fbackpack_mixed_media&config=/etc/dam/presets/viewer/MixedMedia_light&serverUrl=https%3A%2F%2Fadobedemo62-h.assetsadobe.com%2Fis%2Fimage%2F&contenturl=%2F&config2=/etc/dam/presets/analytics&videoserverurl=https://gateway-na.assetsadobe.com/DMGateway/public/demoCo&VideoPlayer.ssl=on
    ```
 
-   Voir aussi [(Liaison d’URL à votre Application web](https://docs.adobe.com/content/help/en/experience-manager-64/assets/dynamic/linking-urls-to-yourwebapplication.html).
+   Voir aussi [(Liaison d’URL à votre Application web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic).
 
 * Si vous publiez une vidéo Dynamic Media avec du code incorporé, vous ajoutez `VideoPlayer.ssl` à la liste des autres paramètres de configuration de la visionneuse dans le fragment de code incorporé. Par exemple, pour forcer la diffusion vidéo HTTPS, vous ajoutez `&VideoPlayer.ssl=on` comme dans l&#39;exemple suivant :
 
@@ -57,5 +57,5 @@ Selon la méthode de publication de la vidéo Dynamic Media que vous utilisez en
    </script>
    ```
 
-   Voir aussi [(Incorporation de la vidéo sur une page Web](https://docs.adobe.com/content/help/en/experience-manager-64/assets/dynamic/linking-urls-to-yourwebapplication.html).
+   Voir aussi [(Incorporation de la vidéo sur une page Web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).
 
