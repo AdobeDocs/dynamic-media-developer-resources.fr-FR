@@ -5,9 +5,9 @@ solution: Experience Manager
 topic: Dynamic Media
 contentOwner: Rick Brough
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: da9f05a51ff8abd88f16024bccd1c7170a36d40f
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -62,12 +62,6 @@ Configuration requise pour les visionneuses HTML5 Dynamic Media.
 * OpenSSL 0.9.8y
 * Baidu janvier 2015
 
-<!-- 
-
 >[!NOTE]
 >
->FLASH VIEWERS END-OF-LIFE—Effective January 31, 2017, Adobe Scene7 Publishing System officially ended support for the Flash viewer platform. For more information about this important change, see the following FAQ website:
-
-[https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).  
-
--->
+>FLASH VIEWERS FIN DE VIE — Depuis le 31 janvier 2017, Adobe Scene7 Publishing System a officiellement arrêté la prise en charge de la plate-forme du lecteur de Flash.
