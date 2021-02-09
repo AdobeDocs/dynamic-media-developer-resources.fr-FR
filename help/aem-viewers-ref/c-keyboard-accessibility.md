@@ -1,15 +1,12 @@
 ---
 description: Toutes les fonctionnalités exposées dans l’interface de la visionneuse de zoom de base, catalogue électronique, recherche de catalogue électronique, fenêtre déroulante, zoom en ligne, supports variés, à 360°, vidéo, zoom, dimension (3D), carrousel, image interactive, vidéo interactive et vidéo360 sont accessibles au clavier.
-seo-description: Toutes les fonctionnalités exposées dans l’interface de la visionneuse de zoom de base, catalogue électronique, recherche de catalogue électronique, fenêtre déroulante, zoom en ligne, supports variés, à 360°, vidéo, zoom, dimension (3D), carrousel, image interactive, vidéo interactive et vidéo360 sont accessibles au clavier.
-seo-title: Accessibilité et navigation du clavier
 solution: Experience Manager
 title: Accessibilité et navigation du clavier
 topic: Dynamic Media
-uuid: 9d7df3b0-2d77-4a2f-9ef1-210ccbd7a1a6
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: e85ff41d20e7b39e023cba9bff58236e8b49d4f2
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
