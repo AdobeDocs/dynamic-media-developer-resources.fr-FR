@@ -4,9 +4,9 @@ product: adobe
 archtype: end-user
 user-guide-title: Guide de référence des visionneuses Dynamic Media
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 69a21374f1128eb7ae1d03776b1b80647bdf9fea
 workflow-type: tm+mt
-source-wordcount: '1925'
+source-wordcount: '1905'
 ht-degree: 4%
 
 ---
@@ -14,8 +14,8 @@ ht-degree: 4%
 
 # Guide de référence des visionneuses Dynamic Media {#library}
 
-+ [Page d&#39;accueil des ressources des développeurs Dynamic Media](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)
-+ [Guide de référence des visionneuses Dynamic Media](/help/aem-viewers-ref/home.md)
++ [Page d&#39;accueil des ressources des développeurs Dynamic Media](/help/landing/home.md)
++ [Guide de référence des visionneuses Dynamic Media](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en)
 + [Exemples de bibliothèques de visionneuses](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [Configuration système requise](c-system-requirements-and-prerequisites.md)
 + [Installation de plusieurs visionneuses sur le même serveur](t-installing-the-viewers.md)
@@ -897,8 +897,8 @@ ht-degree: 4%
          + [setContainerId](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-setcontainerid.md)
          + [setHandlers](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-sethandlers.md)
          + [setLocalizedTexts](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-setlocalizedtexts.md)
-         + [setParam](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/video360/jsapi-video360/r-html5-aem-int-video-javascriptapiref-setparam.html#viewers-for-aem-assets-only)
-         + [setParams](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/video360/jsapi-video360/r-html5-aem-int-video-javascriptapiref-setparams.html#viewers-for-aem-assets-only)
+         + [setParam](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-setparam.md)
+         + [setParams](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-setparams.md)
          + [setVideo](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-setvideo.md)
          + [Visionneuse de vidéo 360x](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-video360viewer.md)
       + [Rappels de événement](c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-event-callbacks.md)
