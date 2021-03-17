@@ -5,9 +5,9 @@ archtype: end-user
 user-guide-title: API de diffusion et de rendu d’images Dynamic Media
 breadcrumb-title: API de diffusion et de rendu d’images Dynamic Media
 translation-type: tm+mt
-source-git-commit: 69a21374f1128eb7ae1d03776b1b80647bdf9fea
+source-git-commit: 192b5624945b08e438a65e3e9fd25aca503857fc
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1457'
 ht-degree: 10%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 10%
 # Dynamic Media Image Serving and Rendering API {#image-serving-api}
 
 + [Page d&#39;accueil des ressources des développeurs Dynamic Media](/help/landing/home.md)
-+ [Accueil de l’API de diffusion d’images et de rendu d’images Dynamic Media](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html?lang=en)
++ [Accueil de l’API de diffusion d’images et de rendu d’images Dynamic Media](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html?lang=en) -->
 + [A propos de cette version](r-about-this-release.md)
 + [Configuration requise et configuration requise](r-requirements-and-prerequisites.md)
 + [Configuration requise et recommandations concernant l&#39;espace disque](r-disk-space-reqs.md)
