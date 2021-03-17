@@ -4,9 +4,9 @@ product: adobe
 archtype: end-user
 user-guide-title: Guide de référence des visionneuses Dynamic Media
 translation-type: tm+mt
-source-git-commit: 69a21374f1128eb7ae1d03776b1b80647bdf9fea
+source-git-commit: 192b5624945b08e438a65e3e9fd25aca503857fc
 workflow-type: tm+mt
-source-wordcount: '1905'
+source-wordcount: '1897'
 ht-degree: 4%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 4%
 # Guide de référence des visionneuses Dynamic Media {#library}
 
 + [Page d&#39;accueil des ressources des développeurs Dynamic Media](/help/landing/home.md)
-+ [Guide de référence des visionneuses Dynamic Media](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en)
++ [Guide de référence des visionneuses Dynamic Media](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en) -->
 + [Exemples de bibliothèques de visionneuses](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [Configuration système requise](c-system-requirements-and-prerequisites.md)
 + [Installation de plusieurs visionneuses sur le même serveur](t-installing-the-viewers.md)
