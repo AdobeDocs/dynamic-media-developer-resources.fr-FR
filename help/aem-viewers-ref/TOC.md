@@ -1,12 +1,12 @@
 ---
 cloud: experience-cloud
-product: adobe
-archtype: end-user
 user-guide-title: Guide de référence des visionneuses Dynamic Media
+feature-set: Experience Manager Assets
+user-guide-description: Personnalisez les visionneuses Dynamic Media pour les périphériques de bureau et les périphériques tactiles. Incluez des images et des vidéos interactives, des carrousels, des visionneuses à 360°, etc.
 translation-type: tm+mt
-source-git-commit: 192b5624945b08e438a65e3e9fd25aca503857fc
+source-git-commit: 0f6386196be7cf0ad45371d6017e2e71b9048b14
 workflow-type: tm+mt
-source-wordcount: '1897'
+source-wordcount: '1913'
 ht-degree: 4%
 
 ---
@@ -14,7 +14,6 @@ ht-degree: 4%
 
 # Guide de référence des visionneuses Dynamic Media {#library}
 
-+ [Page d&#39;accueil des ressources des développeurs Dynamic Media](/help/landing/home.md)
 + [Guide de référence des visionneuses Dynamic Media](homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en) -->
 + [Exemples de bibliothèques de visionneuses](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 + [Configuration système requise](c-system-requirements-and-prerequisites.md)
