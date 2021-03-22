@@ -1,20 +1,19 @@
 ---
 cloud: experience-cloud
-product: adobe
-archtype: end-user
 user-guide-title: API du système de production d’images Dynamic Media
+feature-set: Experience Manager Assets
+user-guide-description: L'API Service Web IPS (Image Production System) permet aux applications externes et aux développeurs tiers d'accéder par programmation aux ressources et fonctionnalités d'IPS.
 translation-type: tm+mt
-source-git-commit: 5112b4633b5e0fdf18e4d89d02af69c71978a110
+source-git-commit: 0f6386196be7cf0ad45371d6017e2e71b9048b14
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 3%
+source-wordcount: '648'
+ht-degree: 2%
 
 ---
 
 
 # API du système de production d’images Dynamic Media {#image-production-api}
 
-+ [Page d&#39;accueil des ressources des développeurs Dynamic Media](/help/landing/home.md)
 + [A propos de l’API du système de production d’images Dynamic Media](c-overview.md)
 + [Appels obsolètes](c-deprecated-calls.md)
 + [Versions WSDL du service Web IPS](c-wsdl-versions.md)
