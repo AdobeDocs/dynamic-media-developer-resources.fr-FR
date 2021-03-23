@@ -1,13 +1,14 @@
 ---
 description: Visionneuse de catalogue électronique est une visionneuse de catalogue qui affiche les brochures électroniques dans une planche par planche ou page par page. Elle permet aux utilisateurs de parcourir le catalogue à l’aide d’éléments d’interface utilisateur supplémentaires ou d’un mode de miniatures dédié. Les utilisateurs peuvent également effectuer un zoom avant sur chaque page pour plus de détails.
-keywords: responsive
+keywords: réactif
 solution: Experience Manager
 title: Catalogue électronique
-topic: Dynamic Media
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Catalogue électronique
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2163'
+source-wordcount: '2174'
 ht-degree: 0%
 
 ---
