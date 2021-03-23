@@ -4,13 +4,14 @@ seo-description: Accentuation de l’image de réponse par défaut. Indique s’
 seo-title: Accentuation
 solution: Experience Manager
 title: Accentuation
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d93aacf4-d4e7-4cf5-aa9e-e7a82630d4c0
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 10%
+source-wordcount: '73'
+ht-degree: 9%
 
 ---
 
