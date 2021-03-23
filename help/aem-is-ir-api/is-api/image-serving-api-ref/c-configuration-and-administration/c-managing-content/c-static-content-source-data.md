@@ -4,12 +4,13 @@ seo-description: Les fichiers de données source de contenu statique sont access
 seo-title: Données de la source de contenu statique
 solution: Experience Manager
 title: Données de la source de contenu statique
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a3280ce7-20d7-4f4b-bf3e-e77cc7aca35f
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
