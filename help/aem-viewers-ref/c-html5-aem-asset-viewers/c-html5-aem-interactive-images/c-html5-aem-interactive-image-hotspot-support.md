@@ -2,12 +2,13 @@
 description: Prise en charge des zones réactives
 solution: Experience Manager
 title: Prise en charge des zones réactives
-topic: Dynamic Media
 uuid: 62e0e55a-55a3-417d-ad51-ec77a7c16ac3
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Images interactives
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ Les zones réactives peuvent activer une fonction de Vue rapide sur la page Web 
 
 ## Zones réactives de Vue rapide {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Ces types de zones réactives doivent être créés à l’aide du type d’action &quot;Vue rapide&quot; dans Dynamic Media, de AEM Assets - sur demande. Lorsqu’un utilisateur active une telle zone réactive, le lecteur exécute le rappel JavaScript `quickViewActivate` et lui transmet les données de la zone réactive. Il est prévu que la page Web incorporée écoute ce rappel. Lorsqu’elle déclenche la page, elle ouvre sa propre mise en oeuvre de Vue rapide.
+Ces types de zones réactives doivent être créés à l’aide du type d’action &quot;Vue rapide&quot; dans Dynamic Media, de AEM Assets - sur demande. Lorsqu’un utilisateur active une telle zone réactive, le lecteur exécute le rappel JavaScript `quickViewActivate` et lui transmet les données de cette zone réactive. Il est prévu que la page Web incorporée écoute ce rappel. Lorsqu’elle déclenche la page, elle ouvre sa propre mise en oeuvre de Vue rapide.
 
 ## Rediriger vers une page Web externe {#section-ef820c71251e4215800bb99c0c9ebe16}
 
