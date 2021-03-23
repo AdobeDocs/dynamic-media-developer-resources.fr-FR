@@ -1,15 +1,16 @@
 ---
-description: La barre de contrôle principale est la zone rectangulaire sur les ordinateurs de bureau et tablettes qui contient tous les contrôles d’interface utilisateur (à l’exception des boutons Grande page) disponibles pour la visionneuse de recherche de catalogue électronique.
-seo-description: La barre de contrôle principale est la zone rectangulaire sur les ordinateurs de bureau et tablettes qui contient tous les contrôles d’interface utilisateur (à l’exception des boutons Grande page) disponibles pour la visionneuse de recherche de catalogue électronique.
+description: La barre de contrôle principale est la zone rectangulaire sur les ordinateurs de bureau et tablettes qui contient tous les contrôles de l’interface utilisateur (à l’exception des boutons Grande page) disponibles pour la visionneuse de recherche de catalogue électronique.
+seo-description: La barre de contrôle principale est la zone rectangulaire sur les ordinateurs de bureau et tablettes qui contient tous les contrôles de l’interface utilisateur (à l’exception des boutons Grande page) disponibles pour la visionneuse de recherche de catalogue électronique.
 seo-title: Barre de contrôle principale
 solution: Experience Manager
 title: Barre de contrôle principale
-topic: Dynamic Media
 uuid: 21b6e6cd-115f-4c7b-a61e-34b307142045
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '702'
 ht-degree: 1%
 
 ---
@@ -17,9 +18,9 @@ ht-degree: 1%
 
 # Barre de contrôle principale{#main-control-bar}
 
-La barre de contrôle principale est la zone rectangulaire sur les ordinateurs de bureau et tablettes qui contient tous les contrôles d’interface utilisateur (à l’exception des boutons Grande page) disponibles pour la visionneuse de recherche de catalogue électronique.
+La barre de contrôle principale est la zone rectangulaire sur les ordinateurs de bureau et tablettes qui contient tous les contrôles de l’interface utilisateur (à l’exception des boutons Grande page) disponibles pour la visionneuse de recherche de catalogue électronique.
 
-Sur les téléphones mobiles, il conserve toujours les boutons Miniatures, Table des matières, Télécharger, Imprimer, Favoris, Partage sur les réseaux sociaux, Plein écran et Fermer. Cependant, les boutons Première page et Dernière page et Indicateur de page sont supprimés de la barre de contrôle principale et ajoutés à la barre de contrôle secondaire à la place. Par défaut, la barre de contrôle principale s’affiche en haut de la zone de visualisation sur les ordinateurs de bureau et les téléphones mobiles, puis est déplacée vers le bas de la zone de visualisation sur tablettes. Elle prend toujours la largeur de visionneuse disponible en entier. Il est possible de modifier sa couleur, sa hauteur et sa position verticale dans la page CSS, par rapport au conteneur de la visionneuse.
+Sur les téléphones mobiles, il conserve toujours les boutons Miniatures, Table des matières, Télécharger, Imprimer, Favoris, Partage sur les réseaux sociaux, Plein écran et Fermer. Cependant, les boutons Première page et Dernière page et Indicateur de page sont supprimés de la barre de contrôle principale et ajoutés à la barre de contrôle secondaire à la place. Par défaut, la barre de contrôle principale s’affiche en haut de la zone de visualisation sur les ordinateurs de bureau et les téléphones mobiles, puis est déplacée vers le bas de la zone de visualisation sur tablettes. Elle prend toujours la largeur de visionneuse disponible en entier. Il est possible de modifier sa couleur, sa hauteur et sa position verticale dans le CSS, par rapport au conteneur du lecteur de contenu.
 
 L’aspect de la barre de contrôle principale est contrôlé par le sélecteur de classe CSS suivant :
 
