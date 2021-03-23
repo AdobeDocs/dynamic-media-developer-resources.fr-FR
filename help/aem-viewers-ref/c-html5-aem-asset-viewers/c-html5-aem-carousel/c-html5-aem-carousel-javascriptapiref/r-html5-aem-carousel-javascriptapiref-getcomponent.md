@@ -4,12 +4,13 @@ seo-description: Référence de l’API JavaScript pour Carousel Viewer.
 seo-title: getComponent**
 solution: Experience Manager
 title: getComponent**
-topic: Dynamic Media
 uuid: b5449564-c01c-4bb3-b265-b8d70e5f1b54
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Bannières de carrousel
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '206'
 ht-degree: 1%
 
 ---
