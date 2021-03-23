@@ -4,12 +4,13 @@ seo-description: Luminosité de la surface du matériau. Indique la brillance re
 seo-title: brillant
 solution: Experience Manager
 title: brillant
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3774e08b-d24e-4cf2-8719-32a21bb9bcb6
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '345'
 ht-degree: 1%
 
 ---
