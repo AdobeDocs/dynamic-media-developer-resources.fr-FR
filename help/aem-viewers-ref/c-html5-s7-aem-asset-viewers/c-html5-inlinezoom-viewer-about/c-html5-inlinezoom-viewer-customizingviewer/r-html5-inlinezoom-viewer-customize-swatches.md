@@ -4,12 +4,13 @@ seo-description: Les échantillons sont constitués d’une rangée d’images m
 seo-title: Echantillons
 solution: Experience Manager
 title: Echantillons
-topic: Dynamic Media
 uuid: 92360088-7199-49c3-80ee-e175d234a78e
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Zoom intégré
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '466'
 ht-degree: 3%
 
 ---
