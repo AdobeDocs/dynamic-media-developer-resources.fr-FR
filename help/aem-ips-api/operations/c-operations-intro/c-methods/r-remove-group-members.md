@@ -4,12 +4,13 @@ seo-description: Supprime les utilisateurs sociétés d’un groupe spécifique.
 seo-title: removeGroupMembers
 solution: Experience Manager
 title: removeGroupMembers
-topic: Dynamic Media Image Production System API
 uuid: dd0ea335-bbd0-43b1-830b-77f32dc39b12
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '132'
 ht-degree: 9%
 
 ---
