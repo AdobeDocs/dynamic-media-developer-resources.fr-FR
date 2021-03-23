@@ -4,13 +4,14 @@ seo-description: Propriétés d’un fichier de vignette.
 seo-title: VignetteInfo
 solution: Experience Manager
 title: VignetteInfo
-topic: Dynamic Media Image Production System API
 uuid: 86406541-f117-49a3-909b-bde63d8e9eef
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 14%
+source-wordcount: '57'
+ht-degree: 12%
 
 ---
 
