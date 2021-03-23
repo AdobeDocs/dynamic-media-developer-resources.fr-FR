@@ -2,11 +2,12 @@
 description: Tous les fichiers journaux sont écrits dans le même dossier de journaux que celui spécifié dans le répertoire TC.
 solution: Experience Manager
 title: Journalisation du serveur
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '178'
 ht-degree: 1%
 
 ---
