@@ -2,11 +2,12 @@
 description: Image Serving prend en charge les conversions d’espace colorimétrique en fonction de profils d’espace colorimétrique conformes à la spécification ICC (International Color Consortium).
 solution: Experience Manager
 title: Gestion des couleurs de la diffusion d’images
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1203'
 ht-degree: 0%
 
 ---
@@ -99,7 +100,7 @@ D’autres profils peuvent être ajoutés aux profils standard, soit au catalogu
 |`EuroscaleCoated`|Euroscale Coated|EuroscaleCoated.icc|
 |`EuroscaleUncoated`|Euroscale Unenduit v2|EuroscaleUnenduit.icc|
 |`JapanColorCoated`|Couleur japonaise 2001 Coated|JapanColor2001Coated.icc|
-|`JapanColorNewspaper`|Journal couleur Japon 2002|Journal couleur Japon2002Newspaper.icc|
+|`JapanColorNewspaper`|Journal de la couleur du Japon 2002|Journal de la couleur du Japon 2002|Journal de la couleur du Japon 2002.icc|
 |`JapanColorUncoated`|Japan Color 2001 Unenduit|JapanColor2001Unenduit.icc|
 |`JapanColorWebCoated`|Couleur japonaise 2003 Couleur Web Coated|JapanColor2003WebCoated.icc|
 |`JapanWebCoated`|Japan Web Coated (Ad)|JapanWebCoated.icc|
@@ -112,7 +113,7 @@ D’autres profils peuvent être ajoutés aux profils standard, soit au catalogu
 |`WebCoated`|U.S. Web Coated (SWOP) v2|USWebCoatedSWOP.icc|
 |`WebCoatedFogra28`|Web Coated FOGRA28 (ISO 12647-2:2004)|WebCoatedFOGRA28.icc|
 |`WebCoatedGrade3`|Papier de 3e année avec revêtement Web SWOP 2006|Papier WebCoatedSWOP2006Grade3.icc|
-|`WebCoatedGrade5`|Papier de classe 5 avec revêtement Web SWOP 2006|Papier de classe WebCoatedSWOP2006Grade5.icc|
+|`WebCoatedGrade5`|Papier de classe 5 avec revêtement Web SWOP 2006|Papier WebCoatedSWOP2006Grade5.icc|
 |`WebUncoated`|U.S. Web non couché v2|USWebUnenduit.icc|
 
 Le tableau suivant s’applique à *Dynamic Media Classic Image Serving* et *Dynamic Media* (s’exécutant en mode d’exécution `dynamicmedia_scene7`).
@@ -138,7 +139,7 @@ Le tableau suivant s’applique à *Dynamic Media Classic Image Serving* et *Dyn
 |`Euroscale Coated v2`|Euroscale Coated v2|EuroscaleCoated.icc|
 |`EuroscaleUncoated`|Euroscale Unenduit v2|EuroscaleUnenduit.icc|
 |`JapanColorCoated`|Couleur japonaise 2001 Coated|JapanColor2001Coated.icc|
-|`JapanColorNewspaper`|Journal couleur Japon 2002|Journal couleur Japon2002Newspaper.icc|
+|`JapanColorNewspaper`|Journal de la couleur du Japon 2002|Journal de la couleur du Japon 2002|Journal de la couleur du Japon 2002.icc|
 |`JapanColorUncoated`|Japan Color 2001 Unenduit|JapanColor2001Unenduit.icc|
 |`Japan Color 2003 Web Coated`|Couleur japonaise 2003 Couleur Web Coated|JapanColor2003WebCoated.icc|
 |`JapanWebCoated`|Japan Web Coated (Ad)|JapanWebCoated.icc|
@@ -151,7 +152,7 @@ Le tableau suivant s’applique à *Dynamic Media Classic Image Serving* et *Dyn
 |`WebCoated`|U.S. Web Coated (SWOP) v2|USWebCoatedSWOP.icc|
 |`WebCoatedFogra28`|Web Coated FOGRA28 (ISO 12647-2:2004)|WebCoatedFOGRA28.icc|
 |`Web Coated SWOP 2006 Grade 3 Paper`|Papier de 3e année avec revêtement Web SWOP 2006|Papier WebCoatedSWOP2006Grade3.icc|
-|`Web Coated SWOP Grade 5 Paper`|Papier de classe 5 avec revêtement Web SWOP 2006|Papier de classe WebCoatedSWOP2006Grade5.icc|
+|`Web Coated SWOP Grade 5 Paper`|Papier de classe 5 avec revêtement Web SWOP 2006|Papier WebCoatedSWOP2006Grade5.icc|
 |`WebUncoated`|U.S. Web non couché v2|USWebUnenduit.icc|
 
 ## Voir aussi {#section-39159397e80b4efca5f631eab8b9aa06}
