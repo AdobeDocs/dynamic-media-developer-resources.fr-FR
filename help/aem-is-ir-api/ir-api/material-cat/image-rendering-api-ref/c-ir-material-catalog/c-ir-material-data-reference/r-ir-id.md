@@ -4,13 +4,14 @@ seo-description: Identificateur d’enregistrement du catalogue. Valeur clé sel
 seo-title: ID
 solution: Experience Manager
 title: ID
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0d29e936-f3f3-40cd-a25f-b85532a3b530
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 8%
+source-wordcount: '117'
+ht-degree: 7%
 
 ---
 
