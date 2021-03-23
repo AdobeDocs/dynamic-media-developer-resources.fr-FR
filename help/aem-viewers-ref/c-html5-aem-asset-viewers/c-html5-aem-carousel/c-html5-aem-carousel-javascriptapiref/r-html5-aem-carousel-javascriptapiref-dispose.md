@@ -4,13 +4,14 @@ seo-description: Référence de l’API JavaScript pour Carousel Viewer.
 seo-title: disposer
 solution: Experience Manager
 title: disposer
-topic: Dynamic Media
 uuid: 6b4e5bd0-5a32-4e4e-a9a1-c26e8e266aa6
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Bannières de carrousel
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 3%
+source-wordcount: '142'
+ht-degree: 2%
 
 ---
 
