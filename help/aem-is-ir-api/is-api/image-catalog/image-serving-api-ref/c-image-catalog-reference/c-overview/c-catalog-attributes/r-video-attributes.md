@@ -4,12 +4,13 @@ seo-description: Les fichiers d’attributs du catalogue reconnaissent ces attri
 seo-title: Attributs vidéo
 solution: Experience Manager
 title: Attributs vidéo
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7fb5edce-f88a-4eec-b314-070445f263b1
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '39'
+source-wordcount: '47'
 ht-degree: 0%
 
 ---
