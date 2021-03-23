@@ -4,13 +4,14 @@ seo-description: Référence de l’API JavaScript pour la visionneuse de zoom.
 seo-title: disposer
 solution: Experience Manager
 title: disposer
-topic: Dynamic Media
 uuid: 22e6fafa-42e9-4675-a494-66a87a62b7f6
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Zoom
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 3%
+source-wordcount: '141'
+ht-degree: 2%
 
 ---
 
