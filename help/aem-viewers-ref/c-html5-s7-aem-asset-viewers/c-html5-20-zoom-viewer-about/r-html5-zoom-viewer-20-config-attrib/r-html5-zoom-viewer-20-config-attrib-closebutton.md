@@ -2,13 +2,14 @@
 description: close
 solution: Experience Manager
 title: close
-topic: Dynamic Media
 uuid: 71e7f14b-f305-4703-bb43-d6ad027fd37e
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Zoom
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '22'
-ht-degree: 22%
+source-wordcount: '32'
+ht-degree: 15%
 
 ---
 
