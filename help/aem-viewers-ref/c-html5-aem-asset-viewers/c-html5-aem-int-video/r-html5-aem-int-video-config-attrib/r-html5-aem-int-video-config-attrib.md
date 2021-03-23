@@ -4,12 +4,13 @@ seo-description: Documentation sur les attributs de configuration de la visionne
 seo-title: Référence de commande - Attributs de configuration
 solution: Experience Manager
 title: Référence de commande - Attributs de configuration
-topic: Dynamic Media
 uuid: eaf7a1a2-b0ec-4df2-926b-5e2c4cd0b3d1
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
