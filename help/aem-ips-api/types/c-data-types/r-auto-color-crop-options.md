@@ -4,13 +4,14 @@ seo-description: Options de recadrage automatique des images en fonction de la c
 seo-title: Options de recadrage automatique des couleurs
 solution: Experience Manager
 title: Options de recadrage automatique des couleurs
-topic: Dynamic Media Image Production System API
 uuid: 632ae721-7b39-4cd1-a1c6-1a3554167a4e
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 12%
+source-wordcount: '63'
+ht-degree: 11%
 
 ---
 
