@@ -4,12 +4,13 @@ seo-description: La visionneuse de vidéos interactive prend en charge le rendu 
 seo-title: Prise en charge des données interactives
 solution: Experience Manager
 title: Prise en charge des données interactives
-topic: Dynamic Media
 uuid: 70b2ec2e-0ea7-461d-a185-731fb0ef8f3e
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -29,4 +30,4 @@ Ces types de nuances interactives doivent être créés à l’aide du type d’
 
 ## Redirection vers une page Web externe {#section-32ebe3c3a7f74892a428c5d48801de4d}
 
-Echantillons créés pour le type d’action &quot;quickview&quot; en AEM Assets : redirigez l’utilisateur à la demande vers une URL externe. Selon les paramètres définis au moment de la création, l’URL peut s’ouvrir soit dans un nouvel onglet de navigateur, soit dans la même fenêtre, soit dans la fenêtre de navigateur nommée.
+Echantillons créés pour le type d’action &quot;quickview&quot; en AEM Assets - Redirection à la demande de l’utilisateur vers une URL externe. Selon les paramètres définis au moment de la création, l’URL peut s’ouvrir soit dans un nouvel onglet de navigateur, soit dans la même fenêtre, soit dans la fenêtre de navigateur nommée.
