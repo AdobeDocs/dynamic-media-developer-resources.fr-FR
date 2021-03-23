@@ -4,12 +4,13 @@ seo-description: La vue principale est constituée de l’image de la bannière.
 seo-title: Vue du carrousel
 solution: Experience Manager
 title: Vue du carrousel
-topic: Dynamic Media
 uuid: bf2065cc-fef2-4d4e-ab2a-a533fa063a80
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Bannières de carrousel
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '79'
 ht-degree: 1%
 
 ---
