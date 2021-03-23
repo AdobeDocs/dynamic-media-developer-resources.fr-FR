@@ -4,12 +4,13 @@ seo-description: Les modèles peuvent être utilisés pour réduire la longueur 
 seo-title: Modèles
 solution: Experience Manager
 title: Modèles
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 54830d1f-40ad-4bf2-8e3d-d3e4d4ab57b9
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,7 @@ Vous pouvez utiliser des variables personnalisées pour simplifier davantage l�
 
 Les modèles sont stockés en tant qu’enregistrements dans les catalogues d’images, avec le corps du modèle dans le champ `catalog::Modifier` et le champ `catalog::Path` vide ou en spécifiant une image d’arrière-plan statique qui ne peut pas être modifiée dynamiquement.
 
-Les modèles sont spécifiés avec la commande `template=` ou dans le composant path de l&#39;URL de requête. Pour la plupart des applications, il est recommandé d&#39;utiliser la commande `template=` pour spécifier des modèles. La commande `template=`ne doit pas se produire dans le champ `catalog::PostModifier` et ne peut se produire que dans le champ `catalog::Modifier` d&#39;une requête IS imbriquée (c&#39;est-à-dire dans un concept `src=is{...}`). Les enregistrements de modèle ne peuvent pas être référencés dans les commandes `src=` ou `mask=`.
+Les modèles sont spécifiés avec la commande `template=` ou dans le composant path de l’URL de requête. Pour la plupart des applications, il est recommandé d&#39;utiliser la commande `template=` pour spécifier des modèles. La commande `template=`ne doit pas se produire dans le champ `catalog::PostModifier` et ne peut se produire que dans le champ `catalog::Modifier` d&#39;une requête IS imbriquée (c&#39;est-à-dire dans un concept `src=is{...}`). Les enregistrements de modèle ne peuvent pas être référencés dans les commandes `src=` ou `mask=`.
 
 Toute commande `src=` ou `mask=`incorporée dans le modèle peut être résolue dans le catalogue principal de la demande ou dans un autre catalogue d’images. Si aucun `rootId` n&#39;est spécifié explicitement, le catalogue principal est supposé. Le modèle spécifié avec `template=` peut également se trouver dans le catalogue principal ou dans un autre catalogue d’images.
 
