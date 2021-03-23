@@ -4,13 +4,14 @@ seo-description: Utilisée par ImageServingPublishJob/publishType.
 seo-title: Types de publication
 solution: Experience Manager
 title: Types de publication
-topic: Dynamic Media Image Production System API
 uuid: c931c973-9b2b-4ccd-87ac-e424c61148dc
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '20'
-ht-degree: 10%
+source-wordcount: '27'
+ht-degree: 7%
 
 ---
 
