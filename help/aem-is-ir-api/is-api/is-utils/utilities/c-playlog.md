@@ -4,12 +4,13 @@ seo-description: L’utilitaire playlog permet de prégénérer le contenu du ca
 seo-title: Utilitaire "playlog"
 solution: Experience Manager
 title: Utilitaire "playlog"
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9044515e-7cfb-4e86-9ac4-e071b60f38d1
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '446'
 ht-degree: 1%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 1%
 
 L’utilitaire playlog permet de prégénérer le contenu du cache de réponse HTTP.
 
-Le cache de réponse HTTP Image Serving existant n’est pas garanti utilisable après une mise à niveau de version majeure (lorsque le premier ou le deuxième chiffre du numéro de version a changé). Si le serveur doit être mis en service après la mise à niveau, il est possible que le serveur soit surchargé et qu’il reçoive les premières heures de demandes d’abandon du cache jusqu’à ce que le cache soit raisonnablement rempli et que le taux d’accès du cache augmente.
+Le cache de réponse HTTP Image Serving existant n’est pas garanti utilisable après une mise à niveau de version majeure (lorsque le premier ou le deuxième chiffre du numéro de version a changé). Si le serveur doit être mis en service après la mise à niveau, le serveur peut être surchargé en raison des premières heures de demandes de mise en cache manquées jusqu’à ce que le cache soit raisonnablement rempli et que le taux d’accès du cache augmente.
 
 Pour éviter ce pic de chargement initial, l&#39;utilitaire `playlog` peut être utilisé pour prégénérer le contenu du cache de réponse HTTP. `playlog` extrait les requêtes HTTP d’un fichier journal d’accès existant et les envoie au serveur pour générer des entrées de cache. Pour les scénarios d’utilisation types, il suffit de lire un seul fichier journal d’accès contenant l’équivalent d’une journée de trafic.
 
