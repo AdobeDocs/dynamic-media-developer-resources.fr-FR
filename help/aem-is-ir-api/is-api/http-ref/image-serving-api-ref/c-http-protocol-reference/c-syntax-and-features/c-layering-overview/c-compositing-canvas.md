@@ -4,12 +4,13 @@ seo-description: Les calques sont composés dans l’ordre spécifié par la com
 seo-title: La trame de composition
 solution: Experience Manager
 title: La trame de composition
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 057b11cb-36f3-40f8-b095-9ad05da858a9
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
