@@ -4,12 +4,13 @@ seo-description: Ancre d’image. Définit le point d’ancrage du rectangle de 
 seo-title: ancrage
 solution: Experience Manager
 title: ancrage
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3b174360-9bb7-4dc8-83be-6b8c4ea88cd4
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '247'
 ht-degree: 3%
 
 ---
@@ -40,7 +41,7 @@ Le point d’ancrage est transformé avec l’image et devient le point d’orig
 
 ## Propriétés {#section-f08942bc6aae46a8b5d341faaff80640}
 
-Attribut d’image source. S’applique au calque actif ou au calque 0 si `layer=comp`.
+Attribut d’image source. S&#39;applique au calque actif ou au calque 0 si `layer=comp`.
 
 ## Par défaut {#section-35d369fab1254f1a9b91684a6e169ad1}
 
