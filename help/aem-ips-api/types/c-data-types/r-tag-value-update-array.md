@@ -4,13 +4,14 @@ seo-description: Tableau de mises à jour de la valeur des balises.
 seo-title: TagValueUpdateArray
 solution: Experience Manager
 title: TagValueUpdateArray
-topic: Dynamic Media Image Production System API
 uuid: a151f6b6-1551-4751-a0e7-0da597526eca
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 18%
+source-wordcount: '40'
+ht-degree: 15%
 
 ---
 
