@@ -4,13 +4,14 @@ seo-description: Origine de couche.
 seo-title: origine
 solution: Experience Manager
 title: origine
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a36fc0b6-7744-4c1c-b9f8-4aa31a886bff
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 3%
+source-wordcount: '169'
+ht-degree: 2%
 
 ---
 
@@ -42,7 +43,7 @@ Définit le point d’alignement du rectangle du calque, qui est utilisé pour p
 
 ## Propriétés {#section-60f639e36ada43d1abc6bfc100afc925}
 
-Attribut de couche. S’applique au calque actif ou au calque 0 si `layer=comp`. Non affecté par les transformations de calque ( `crop=`, `scale=`, `rotate=`, `flip=`) appliquées à la source de calque. Remplace `anchor=`. Ignoré par les calques d’effet.
+Attribut de couche. S&#39;applique au calque actif ou au calque 0 si `layer=comp`. Non affecté par les transformations de calque ( `crop=`, `scale=`, `rotate=`, `flip=`) appliquées à la source de calque. Remplace `anchor=`. Ignoré par les calques d’effet.
 
 ## Par défaut {#section-b7209e5c2ad6491fb0c2353cc3f1f703}
 
