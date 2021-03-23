@@ -2,11 +2,12 @@
 description: La visionneuse de vidéos HTML5 Video360 est un lecteur vidéo de 360 degrés qui lit la diffusion en flux continu et la vidéo de 360 degrés progressive codée au format H.264, diffusée à partir de Dynamic Media Classic ou de AEM Dynamic Media.
 solution: Experience Manager
 title: Vidéo360
-topic: Dynamic Media
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo 360 VR
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2582'
+source-wordcount: '2593'
 ht-degree: 0%
 
 ---
