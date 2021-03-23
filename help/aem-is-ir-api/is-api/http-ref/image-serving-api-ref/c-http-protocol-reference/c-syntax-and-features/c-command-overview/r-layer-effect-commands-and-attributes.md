@@ -4,12 +4,13 @@ seo-description: Ces commandes permettent de définir des effets de calque, tels
 seo-title: Commandes d’effet de calque
 solution: Experience Manager
 title: Commandes d’effet de calque
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5fef90d1-0507-497b-9187-869672996852
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '152'
 ht-degree: 1%
 
 ---
