@@ -4,12 +4,13 @@ seo-description: Horodatage de la modification. Indique la date et l’heure de 
 seo-title: TimeStamp
 solution: Experience Manager
 title: TimeStamp
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d2649e86-8a6f-4f63-ab6a-8b2d8c03f8c0
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '246'
 ht-degree: 1%
 
 ---
@@ -39,7 +40,7 @@ Valeur Date/Heure au format Java. Il peut s’agir du nombre entier de milliseco
 * *[!DNL zzz]* est un code de fuseau horaire de 3 ou 4 caractères tel que &quot;GMT&quot; ou &quot;PST&quot;. L’heure d’été doit être prise en compte dans le code de fuseau horaire (par exemple, &quot;PST&quot; pour l’heure du Pacifique, par rapport à &quot;PDT&quot; pour l’heure d’été du Pacifique).
 * *[!DNL offset]* est un décalage de fuseau horaire en heures ou heures:minutes, par rapport à GMT. Par exemple, &#39;PDT&#39; est équivalent à &#39;GMT -7&#39;.
 
-Tous les éléments des valeurs de date/heure formatées de chaîne doivent être présents. Si la valeur date/heure n&#39;est pas correctement formatée, elle est ignorée et l&#39;heure de modification du fichier [ ! DNL *[!DNL catalog]*.ini] sera utilisée à la place.
+Tous les éléments des valeurs de date et heure formatées de chaîne doivent être présents. Si la valeur date/heure n&#39;est pas correctement formatée, elle est ignorée et l&#39;heure de modification du fichier [ ! DNL *[!DNL catalog]*.ini] sera utilisée à la place.
 
 ## Par défaut {#section-562c221d2e8b4a97ab5e9a3605f22140}
 
