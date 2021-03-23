@@ -4,12 +4,13 @@ seo-description: Journal des tâches après l’exécution de la tâche.
 seo-title: JobLog
 solution: Experience Manager
 title: JobLog
-topic: Dynamic Media Image Production System API
 uuid: d267009a-e4ad-4a21-ae0e-caf51d2f338b
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '205'
 ht-degree: 3%
 
 ---
