@@ -2,11 +2,12 @@
 description: Le kit de développement de visionneuse fournit un ensemble de composants basés sur JavaScript pour le développement de lecteurs personnalisés. Les lecteurs de contenu sont des applications Web qui permettent à l’Adobe Dynamic Media d’incorporer du contenu multimédia enrichi dans des pages Web.
 solution: Experience Manager
 title: Didacticiel sur le SDK du lecteur de contenu
-topic: Dynamic Media
+feature: Dynamic Media Classic, Visionneuses, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '974'
 ht-degree: 0%
 
 ---
