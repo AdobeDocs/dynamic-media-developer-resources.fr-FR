@@ -4,12 +4,13 @@ seo-description: Outre le dimensionnement (size=) et le positionnement (pos=) de
 seo-title: Opérations de couche
 solution: Experience Manager
 title: Opérations de couche
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a9ef4199-cfa2-480e-a4de-8a0b9064a649
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
