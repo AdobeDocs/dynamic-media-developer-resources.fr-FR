@@ -4,13 +4,14 @@ seo-description: Poignée d’un fichier et poignée à l’endroit où il sera 
 seo-title: AssetMove
 solution: Experience Manager
 title: AssetMove
-topic: Dynamic Media Image Production System API
 uuid: 71335886-efe7-4565-a088-769bcbe7abaf
+feature: Dynamic Media Classic, SDK/API, Gestion des ressources
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 7%
+source-wordcount: '76'
+ht-degree: 6%
 
 ---
 
