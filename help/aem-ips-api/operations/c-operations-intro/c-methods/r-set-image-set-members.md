@@ -4,12 +4,13 @@ seo-description: Définit la liste des fichiers associés à une visionneuse d�
 seo-title: setImageSetMembers
 solution: Experience Manager
 title: setImageSetMembers
-topic: Dynamic Media Image Production System API
 uuid: 84a73ff4-e93f-4764-80e8-e15f1fec1aeb
+feature: Dynamic Media Classic, SDK/API, visionneuses d’images
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '144'
 ht-degree: 11%
 
 ---
