@@ -4,12 +4,13 @@ seo-description: Une alerte de priorité est envoyée lorsque l’espace de tas 
 seo-title: Alerte de priorité de l'espace de tas
 solution: Experience Manager
 title: Alerte de priorité de l'espace de tas
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 89956ad3-8a73-40db-92bd-326e3fab37ee
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
