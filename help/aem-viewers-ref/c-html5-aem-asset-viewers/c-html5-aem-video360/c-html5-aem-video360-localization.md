@@ -4,12 +4,13 @@ seo-description: Certains contenus affichés par le lecteur sont sujets à local
 seo-title: Localisation des éléments de l’interface utilisateur
 solution: Experience Manager
 title: Localisation des éléments de l’interface utilisateur
-topic: Dynamic Media
 uuid: d5e75af0-03d6-4357-a540-4094313ed026
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo 360 VR
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
