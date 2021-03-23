@@ -4,13 +4,14 @@ seo-description: Détermine le moteur de génération et le type de ressource g�
 seo-title: ExclureByproductCondition
 solution: Experience Manager
 title: ExclureByproductCondition
-topic: Dynamic Media Image Production System API
 uuid: 70581512-7b26-4319-b12b-27fbb205d871
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 8%
+source-wordcount: '79'
+ht-degree: 7%
 
 ---
 
