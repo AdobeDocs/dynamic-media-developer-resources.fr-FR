@@ -4,12 +4,13 @@ seo-description: Chemin d’accès racine des données source. Valeur de chaîne
 seo-title: RootPath *
 solution: Experience Manager
 title: RootPath *
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a23ea524-8ca4-47c4-83a5-64a174d8767e
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '162'
 ht-degree: 2%
 
 ---
