@@ -2,12 +2,13 @@
 description: DIFFUSION vidéo HTTPS
 solution: Experience Manager
 title: DIFFUSION vidéo HTTPS
-topic: Dynamic Media
 uuid: 68984ba1-2802-496a-8ad0-ba46b59514ad
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo 360 VR
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
