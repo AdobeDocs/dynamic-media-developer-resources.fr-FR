@@ -4,12 +4,13 @@ seo-description: Utilisez ces paramètres de serveur pour enregistrer l’accès
 seo-title: Journalisation des accès
 solution: Experience Manager
 title: Journalisation des accès
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ea7d5d39-3f0a-45f0-bc28-6828a9c9da50
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '704'
 ht-degree: 3%
 
 ---
