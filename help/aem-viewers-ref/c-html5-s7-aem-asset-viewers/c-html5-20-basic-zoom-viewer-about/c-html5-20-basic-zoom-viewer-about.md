@@ -1,16 +1,17 @@
 ---
 description: La visionneuse de zoom de base est une visionneuse d’images qui affiche une seule image pouvant faire l’objet d’un zoom. Il comporte des outils de zoom, une prise en charge en plein écran et un bouton de fermeture en option. Cette visionneuse est la plus légère. Il est conçu pour fonctionner sur les ordinateurs de bureau et les périphériques mobiles.
-keywords: responsive
+keywords: réactif
 seo-description: La visionneuse de zoom de base est une visionneuse d’images qui affiche une seule image pouvant faire l’objet d’un zoom. Il comporte des outils de zoom, une prise en charge en plein écran et un bouton de fermeture en option. Cette visionneuse est la plus légère. Il est conçu pour fonctionner sur les ordinateurs de bureau et les périphériques mobiles.
 seo-title: Zoom de base
 solution: Experience Manager
 title: Zoom de base
-topic: Dynamic Media
 uuid: 5466d647-af70-4503-9898-bb712ba6a007
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Zoom
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2076'
+source-wordcount: '2087'
 ht-degree: 0%
 
 ---
