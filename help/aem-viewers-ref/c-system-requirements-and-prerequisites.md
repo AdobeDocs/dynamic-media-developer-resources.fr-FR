@@ -2,12 +2,13 @@
 title: Configuration requise pour les visionneuses HTML5 Dynamic Media
 description: Configuration requise pour les visionneuses HTML5 Dynamic Media.
 solution: Experience Manager
-topic: Dynamic Media
 contentOwner: Rick Brough
+feature: Dynamic Media Classic, Visionneuses, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: da9f05a51ff8abd88f16024bccd1c7170a36d40f
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -64,4 +65,4 @@ Configuration requise pour les visionneuses HTML5 Dynamic Media.
 
 >[!NOTE]
 >
->FLASH VIEWERS FIN DE VIE — Depuis le 31 janvier 2017, Adobe Scene7 Publishing System a officiellement arrêté la prise en charge de la plate-forme du lecteur de Flash.
+>Flash VIEWERS FIN DE VIE — Depuis le 31 janvier 2017, Adobe Scene7 Publishing System a officiellement arrêté la prise en charge de la plate-forme du lecteur de Flash.
