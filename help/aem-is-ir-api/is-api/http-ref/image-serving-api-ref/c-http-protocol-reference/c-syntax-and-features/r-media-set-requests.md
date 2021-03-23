@@ -4,12 +4,13 @@ seo-description: La diffusion d’images fournit un mécanisme permettant de ré
 seo-title: Requêtes de visionneuse de supports
 solution: Experience Manager
 title: Requêtes de visionneuse de supports
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: af9fabcd-531d-43fb-bd97-269923bea5e8
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1003'
 ht-degree: 0%
 
 ---
@@ -119,7 +120,7 @@ Lorsque l&#39;ensemble externe est détecté comme un ensemble de supports de ty
 | `static` | `static` |
 | `ecat` | `ecat` |
 
-Si le paramètre de type facultatif d&#39;une entrée de jeu de supports particulière n&#39;est pas spécifié ou correspond à un type non pris en charge, le type d&#39;élément de jeu de supports est détecté automatiquement à l&#39;aide des mêmes règles que celles appliquées au niveau de l&#39;ensemble externe.
+Si le paramètre de type facultatif pour une entrée de jeu de supports spécifique n&#39;est pas spécifié ou correspond à un type non pris en charge, le type d&#39;élément de jeu de supports est détecté automatiquement en utilisant les mêmes règles que celles appliquées au niveau de l&#39;ensemble externe.
 
 ## Spécification XML {#section-c1bd60948ef545759a16885bb6fcc607}
 
