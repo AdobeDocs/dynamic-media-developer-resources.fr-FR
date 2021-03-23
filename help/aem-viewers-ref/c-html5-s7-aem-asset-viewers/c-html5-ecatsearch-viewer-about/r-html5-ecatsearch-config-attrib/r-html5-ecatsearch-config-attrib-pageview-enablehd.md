@@ -2,12 +2,13 @@
 description: PageView.enableHD
 solution: Experience Manager
 title: PageView.enableHD
-topic: Dynamic Media
 uuid: 34c0e59f-4ed0-4b62-b661-aff20ff64ec4
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '295'
 ht-degree: 3%
 
 ---
