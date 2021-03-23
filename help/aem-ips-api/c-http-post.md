@@ -2,11 +2,12 @@
 description: Le téléchargement de fichiers dans Dynamic Media Classic implique une ou plusieurs requêtes de POST HTTP qui configurent une tâche afin de coordonner toutes les activités de journal associées aux fichiers téléchargés.
 solution: Experience Manager
 title: Téléchargement de fichiers via HTTP POSTs vers le servlet UploadFile
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic, SDK/API, Gestion des ressources
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '736'
 ht-degree: 3%
 
 ---
@@ -63,7 +64,7 @@ La tâche de téléchargement consiste en un ou plusieurs POST HTTP qui utilisen
 >
 >Toutes les demandes de POST pour une tâche de téléchargement doivent provenir de la même adresse IP.
 
-|  POST HTTP faisant partie  |  Description  |
+|  POST HTTP : partie  |  Description  |
 |---|---|
 | `auth`  |   Obligatoire. Document XML authHeader spécifiant l’authentification et les informations sur le client. Voir **Demande d’authentification** sous [SOAP](/help/aem-ips-api/c-wsdl-versions.md). |
 | `file params`  |   Facultatif. Vous pouvez inclure un ou plusieurs fichiers à télécharger avec chaque demande de POST. Chaque partie de fichier peut inclure un paramètre de nom de fichier dans l&#39;en-tête Content-Disposition utilisé comme nom de cible dans IPS si aucun paramètre `uploadPostParams/fileName` n&#39;est spécifié. |
@@ -92,7 +93,7 @@ La demande finale du POST pour une tâche de téléchargement doit définir le p
 
 ## Réponse UploadPOST {#section-421df5cc04d44e23a464059aad86d64e}
 
-Pour une demande de POST réussie, le corps de la réponse sera un document XML `uploadPostReturn`, comme le spécifie le schéma XSD dans les éléments suivants :
+Pour une requête de POST réussie, le corps de la réponse sera un document XML `uploadPostReturn`, comme le spécifie le schéma XSD dans les éléments suivants :
 
 ```
 <element name="uploadPostReturn"> 
