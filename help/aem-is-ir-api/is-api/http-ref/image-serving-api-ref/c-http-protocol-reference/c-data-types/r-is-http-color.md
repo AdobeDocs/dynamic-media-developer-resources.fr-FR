@@ -4,12 +4,13 @@ seo-description: Valeurs de couleur. Vous pouvez spécifier des valeurs de coule
 seo-title: couleur
 solution: Experience Manager
 title: couleur
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 61308b8e-eaac-4b2e-8500-2f9efa8a6ce8
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '464'
 ht-degree: 14%
 
 ---
