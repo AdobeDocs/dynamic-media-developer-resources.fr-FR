@@ -4,13 +4,14 @@ seo-description: Versions disponibles spécifiques aux paramètres régionaux. R
 seo-title: xlate
 solution: Experience Manager
 title: xlate
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4c2370e5-1d46-4242-89bb-a5ce416ef63c
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 10%
+source-wordcount: '135'
+ht-degree: 9%
 
 ---
 
