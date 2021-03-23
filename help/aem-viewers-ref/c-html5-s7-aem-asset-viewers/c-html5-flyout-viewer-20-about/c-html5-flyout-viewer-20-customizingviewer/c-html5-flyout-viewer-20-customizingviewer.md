@@ -1,14 +1,15 @@
 ---
 description: Personnalisation de la visionneuse Fenêtre déroulante
-keywords: responsive
+keywords: réactif
 solution: Experience Manager
 title: Personnalisation de la visionneuse Fenêtre déroulante
-topic: Dynamic Media
 uuid: 10b5caa4-5298-43fa-af86-4f0b77be967b
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Fenêtre déroulante
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
