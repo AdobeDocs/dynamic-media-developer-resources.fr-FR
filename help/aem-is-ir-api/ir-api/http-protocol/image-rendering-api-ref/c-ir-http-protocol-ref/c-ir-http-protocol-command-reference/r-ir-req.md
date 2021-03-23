@@ -4,12 +4,13 @@ seo-description: Type de demande. Indique le type de données demandé.
 seo-title: req
 solution: Experience Manager
 title: req
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9dd13338-3457-477f-96e7-3ace7266d0ab
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '973'
 ht-degree: 4%
 
 ---
