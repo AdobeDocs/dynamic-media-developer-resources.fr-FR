@@ -4,12 +4,13 @@ seo-description: Chaîne de modificateur de demande de suffixe. Aucune ou plusie
 seo-title: PostModificateur
 solution: Experience Manager
 title: PostModificateur
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8800a9b2-e9c0-498b-b4e1-37952ba7c842
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '149'
 ht-degree: 4%
 
 ---
