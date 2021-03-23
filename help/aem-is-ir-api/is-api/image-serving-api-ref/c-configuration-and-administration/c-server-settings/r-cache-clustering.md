@@ -4,12 +4,13 @@ seo-description: Utilisez ces paramètres de serveur pour la mise en grappe du c
 seo-title: Mise en grappe du cache
 solution: Experience Manager
 title: Mise en grappe du cache
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ed6335d7-26c9-45d8-95f6-6c05e788e449
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
