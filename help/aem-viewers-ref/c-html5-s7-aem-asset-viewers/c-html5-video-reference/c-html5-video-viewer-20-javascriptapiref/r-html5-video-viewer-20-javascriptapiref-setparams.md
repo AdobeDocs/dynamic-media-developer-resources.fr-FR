@@ -4,12 +4,13 @@ seo-description: Référence de l’API JavaScript pour la visionneuse de vidéo
 seo-title: setParams
 solution: Experience Manager
 title: setParams
-topic: Dynamic Media
 uuid: 0497ae9c-e94a-458d-a4c7-5915add17f60
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '114'
 ht-degree: 1%
 
 ---
