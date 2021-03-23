@@ -2,11 +2,12 @@
 description: La bibliothèque d’images réactive est un module JavaScript qui ajuste dynamiquement la qualité des images diffusées à partir de Dynamic Media et incorporées dans des pages Web réactives. En outre, il offre une meilleure qualité d’image sur les périphériques dotés d’écrans haute densité. La bibliothèque peut également rendre de manière responsable les résultats de la recadrage dynamique et de la série d’échantillons dynamique.
 solution: Experience Manager
 title: A propos de la bibliothèque d’images réactives
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
