@@ -1,16 +1,17 @@
 ---
 description: La visionneuse de zoom est une visionneuse d’images qui affiche une image agrandie. Cette visionneuse fonctionne avec les visionneuses d’images et la navigation s’effectue à l’aide de nuances. Il comprend des outils de zoom, une prise en charge en plein écran, des échantillons et un bouton de fermeture en option. Il est conçu pour fonctionner sur les ordinateurs de bureau et les périphériques mobiles.
-keywords: responsive
+keywords: réactif
 seo-description: La visionneuse de zoom est une visionneuse d’images qui affiche une image agrandie. Cette visionneuse fonctionne avec les visionneuses d’images et la navigation s’effectue à l’aide de nuances. Il comprend des outils de zoom, une prise en charge en plein écran, des échantillons et un bouton de fermeture en option. Il est conçu pour fonctionner sur les ordinateurs de bureau et les périphériques mobiles.
 seo-title: Zoom
 solution: Experience Manager
 title: Zoom
-topic: Dynamic Media
 uuid: ec2a91e2-ce2c-48b1-a2b2-8671524288c7
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Zoom
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2460'
+source-wordcount: '2471'
 ht-degree: 0%
 
 ---
