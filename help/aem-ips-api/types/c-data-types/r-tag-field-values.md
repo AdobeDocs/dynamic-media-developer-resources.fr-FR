@@ -4,13 +4,14 @@ seo-description: Tableau de valeurs pour un champ de balise.
 seo-title: TagFieldValues
 solution: Experience Manager
 title: TagFieldValues
-topic: Dynamic Media Image Production System API
 uuid: 922f1962-7509-4210-989a-2f7a87112373
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 11%
+source-wordcount: '52'
+ht-degree: 9%
 
 ---
 
