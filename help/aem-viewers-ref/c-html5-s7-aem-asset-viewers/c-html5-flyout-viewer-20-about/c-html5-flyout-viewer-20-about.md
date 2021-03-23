@@ -1,13 +1,14 @@
 ---
 description: La visionneuse Fenêtre déroulante est une visionneuse d’images. Il affiche une image statique avec la version agrandie affichée dans la vue de fenêtre déroulante qu’un utilisateur active. Cette visionneuse fonctionne avec les visionneuses d’images et la navigation s’effectue à l’aide de nuances. Il est conçu pour fonctionner sur les ordinateurs de bureau et les périphériques mobiles.
-keywords: responsive
+keywords: réactif
 solution: Experience Manager
 title: Fenêtre déroulante
-topic: Dynamic Media
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Fenêtre déroulante
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2084'
+source-wordcount: '2095'
 ht-degree: 0%
 
 ---
