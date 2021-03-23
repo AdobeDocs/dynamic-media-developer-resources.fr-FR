@@ -4,12 +4,13 @@ seo-description: L'outil d'impression se compose d'un bouton ajouté à la barre
 seo-title: Imprimer
 solution: Experience Manager
 title: Imprimer
-topic: Dynamic Media
 uuid: 7be047d8-d1be-4bda-90ca-6b55c749cc64
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1504'
 ht-degree: 2%
 
 ---
