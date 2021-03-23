@@ -4,12 +4,13 @@ seo-description: 'L’image renvoyée au client en réponse à une demande req=t
 seo-title: Transformation de la vue pour les miniatures
 solution: Experience Manager
 title: Transformation de la vue pour les miniatures
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 29924bc1-ada1-420f-aef7-bf9a7db7065b
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
