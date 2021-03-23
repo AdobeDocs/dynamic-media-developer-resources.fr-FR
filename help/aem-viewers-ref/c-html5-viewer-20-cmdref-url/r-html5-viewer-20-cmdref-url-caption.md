@@ -4,12 +4,13 @@ seo-description: Paramètre commun à toutes les visionneuses.
 seo-title: légende
 solution: Experience Manager
 title: légende
-topic: Dynamic Media
 uuid: e5a715c4-9b5b-48fc-8228-5e7416e2b71a
+feature: Dynamic Media Classic, Visionneuses, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '278'
 ht-degree: 6%
 
 ---
