@@ -4,12 +4,13 @@ seo-description: Le visualiseur de carrousel est une visionneuse qui affiche un 
 seo-title: Carrousel
 solution: Experience Manager
 title: Carrousel
-topic: Dynamic Media
 uuid: 0ba4f40b-8dde-4479-b906-3115f09ab249
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Bannières de carrousel
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1978'
+source-wordcount: '1989'
 ht-degree: 0%
 
 ---
