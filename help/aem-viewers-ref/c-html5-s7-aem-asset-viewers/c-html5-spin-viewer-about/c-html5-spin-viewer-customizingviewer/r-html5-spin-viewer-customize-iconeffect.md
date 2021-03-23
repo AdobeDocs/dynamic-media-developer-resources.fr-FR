@@ -4,12 +4,13 @@ seo-description: L'indicateur de rotation est superposé sur la zone de vue prin
 seo-title: Effet Icône
 solution: Experience Manager
 title: Effet Icône
-topic: Dynamic Media
 uuid: ce0524e4-fff4-45b0-8069-d5876802d66f
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Visionneuses à 360°
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '186'
 ht-degree: 1%
 
 ---
