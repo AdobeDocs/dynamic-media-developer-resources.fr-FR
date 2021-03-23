@@ -4,12 +4,13 @@ seo-description: Utilisez ces paramètres de serveur pour les dossiers de donné
 seo-title: Dossiers de données de contenu
 solution: Experience Manager
 title: Dossiers de données de contenu
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7c4d60ca-8a8b-453c-887d-a6a16eacc883
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
