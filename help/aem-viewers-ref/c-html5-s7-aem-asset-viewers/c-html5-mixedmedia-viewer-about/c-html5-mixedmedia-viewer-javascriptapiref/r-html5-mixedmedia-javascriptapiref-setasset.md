@@ -4,12 +4,13 @@ seo-description: Référence de l’API JavaScript pour la visionneuse de suppor
 seo-title: setAsset
 solution: Experience Manager
 title: setAsset
-topic: Dynamic Media
 uuid: 8c341a8a-25b5-4db9-ad1a-919ded79f2ed
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Combiner des visionneuses de supports
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '237'
 ht-degree: 1%
 
 ---
@@ -33,7 +34,7 @@ Cette visionneuse ne prend pas en charge les images qui utilisent la fonction IR
 
 `*`data`*` - {  `JSON`} emplacement du nouveau fichier de sous-titrage.
 
-Si elle n’est pas spécifiée, le bouton de sous-titrage n’est pas visible dans l’interface utilisateur. Les légendes spécifiées avec ce paramètre s’appliquent à la vidéo qui vient en premier dans la visionneuse de supports mixtes ; les vidéos suivantes sont lues sans légende. Cette visionneuse prend en charge les ID de composant suivants :
+Si ce n’est pas le cas, le bouton de sous-titrage n’est pas visible dans l’interface utilisateur. Les légendes spécifiées avec ce paramètre s’appliquent à la vidéo qui vient en premier dans la visionneuse de supports mixtes ; les vidéos suivantes sont lues sans légende. Cette visionneuse prend en charge les ID de composant suivants :
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
@@ -49,7 +50,7 @@ Si elle n’est pas spécifiée, le bouton de sous-titrage n’est pas visible d
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> légende  </span> </p> </td> 
-   <td colname="col2"> <p> Emplacement du nouveau fichier de sous-titrage. </p> <p>Si elle n’est pas spécifiée, le bouton de sous-titrage n’est pas visible dans l’interface utilisateur. Les légendes spécifiées avec ce paramètre s’appliquent à la vidéo qui vient en premier dans la visionneuse de supports. Les vidéos suivantes sont lues sans légende. </p> </td> 
+   <td colname="col2"> <p> Emplacement du nouveau fichier de sous-titrage. </p> <p>Si ce n’est pas le cas, le bouton de sous-titrage n’est pas visible dans l’interface utilisateur. Les légendes spécifiées avec ce paramètre s’appliquent à la vidéo qui vient en premier dans la visionneuse de supports. Les vidéos suivantes sont lues sans légende. </p> </td> 
   </tr> 
  </tbody> 
 </table>
