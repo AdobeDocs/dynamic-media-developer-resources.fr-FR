@@ -4,12 +4,13 @@ seo-description: Référence de l’API JavaScript pour la visionneuse à 360°.
 seo-title: setAsset
 solution: Experience Manager
 title: setAsset
-topic: Dynamic Media
 uuid: b0a6d252-4b9c-40c4-b321-eb71ebc3b276
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Visionneuses à 360°
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '119'
 ht-degree: 2%
 
 ---
