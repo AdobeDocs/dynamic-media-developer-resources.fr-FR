@@ -4,12 +4,13 @@ seo-description: Utilisez ces paramètres de serveur pour définir les limites d
 seo-title: Limitations de taille d’image
 solution: Experience Manager
 title: Limitations de taille d’image
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6736e652-c495-45a2-bdd2-9975f99af0a2
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
