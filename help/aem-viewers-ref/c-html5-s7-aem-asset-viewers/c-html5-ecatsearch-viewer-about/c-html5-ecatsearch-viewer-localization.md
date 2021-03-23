@@ -4,12 +4,13 @@ seo-description: Le contenu affiché par la visionneuse de catalogue électroniq
 seo-title: Localisation des éléments de l’interface utilisateur
 solution: Experience Manager
 title: Localisation des éléments de l’interface utilisateur
-topic: Dynamic Media
 uuid: 836cb874-2ce6-4737-9c10-f41af003a285
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
@@ -401,7 +402,7 @@ Les SYMBOLES suivants sont pris en charge (en supposant que containerId soit l�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_DELIM  </span> </p> </td> 
-   <td colname="col2"> <p> Caractère utilisé comme délimiteur d’étiquettes de page en cas de définition des étiquettes pour les pages de gauche et de droite dans une planche. </p> </td> 
+   <td colname="col2"> <p> Caractère utilisé comme délimiteur d’étiquettes de page au cas où les étiquettes sont définies pour les pages de gauche et de droite dans une planche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollLeftRightButton.TOOLTIP_SELECTED  </span> </p> </td> 
