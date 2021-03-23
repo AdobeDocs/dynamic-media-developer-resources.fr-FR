@@ -2,11 +2,12 @@
 description: Toutes les fonctionnalités exposées dans l’interface de la visionneuse de zoom de base, catalogue électronique, recherche de catalogue électronique, fenêtre déroulante, zoom en ligne, supports variés, à 360°, vidéo, zoom, dimension (3D), carrousel, image interactive, vidéo interactive et vidéo360 sont accessibles au clavier.
 solution: Experience Manager
 title: Accessibilité et navigation du clavier
-topic: Dynamic Media
+feature: Dynamic Media Classic, Visionneuses, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e85ff41d20e7b39e023cba9bff58236e8b49d4f2
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -22,7 +23,7 @@ Toutes les fonctionnalités exposées dans l’interface de la visionneuse de zo
 
 Toutes les fonctionnalités exposées dans l’interface de la visionneuse de zoom de base, catalogue électronique, recherche de catalogue électronique, fenêtre déroulante, zoom en ligne, supports variés, à 360°, vidéo, zoom, carrousel, dimension (3D), image interactive, vidéo interactive et vidéo360 sont accessibles au clavier.
 
-Un utilisateur final peut naviguer entre les éléments de l’interface utilisateur de la visionneuse à l’aide des touches **[!UICONTROL Tabulation]** et **[!UICONTROL Maj+Tabulation]**. L’utilisation de **[!UICONTROL l’onglet]** permet d’activer la cible d’action sur l’élément d’interface utilisateur suivant dans l’ordre de tabulation ; l’utilisation de **[!UICONTROL Maj+Tab]** rétablit la cible d’action sur l’élément d’interface utilisateur précédent. La traversée de la cible d’action suit l’emplacement de l’élément d’interface utilisateur naturel à l’écran et se déplace de gauche à droite, puis de haut en bas.
+Un utilisateur final peut naviguer entre les éléments de l’interface utilisateur de la visionneuse à l’aide des touches **[!UICONTROL Tabulation]** et **[!UICONTROL Maj+Tabulation]**. L’utilisation de l’onglet **[!UICONTROL Tab]** permet d’activer la cible d’action sur l’élément d’interface utilisateur suivant dans l’ordre de tabulation ; l’utilisation de **[!UICONTROL Maj+Tab]** rétablit la cible d’action sur l’élément d’interface utilisateur précédent. La traversée de la cible d’action suit l’emplacement de l’élément d’interface utilisateur naturel à l’écran et se déplace de gauche à droite, puis de haut en bas.
 
 Selon les paramètres du système d’exploitation et du navigateur Web, l’élément d’interface utilisateur qui a le focus d’entrée peut recevoir une indication de focus visuel. Par exemple, l’indicateur visuel peut être une bordure mince rendue autour de l’élément d’interface utilisateur.
 
