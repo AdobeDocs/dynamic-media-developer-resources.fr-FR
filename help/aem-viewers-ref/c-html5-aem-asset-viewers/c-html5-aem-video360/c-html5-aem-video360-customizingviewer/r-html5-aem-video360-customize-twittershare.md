@@ -4,12 +4,13 @@ seo-description: L’outil de partage Twitter est constitué d’un bouton ajout
 seo-title: Partage Twitter
 solution: Experience Manager
 title: Partage Twitter
-topic: Dynamic Media
 uuid: c16ce881-e5d5-4864-bfad-69b4c9b51a21
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo 360 VR
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
