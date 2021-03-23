@@ -4,12 +4,13 @@ seo-description: Référence de l’API JavaScript pour la visionneuse d’image
 seo-title: setAsset
 solution: Experience Manager
 title: setAsset
-topic: Dynamic Media
 uuid: 8cb10b2e-addb-4659-a93b-5a53d0f8a5bb
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Images interactives
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '94'
 ht-degree: 3%
 
 ---
@@ -29,7 +30,7 @@ Voir aussi [init](../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-ima
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> élément</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> Chaîne</span>} nouvel ID de ressource. </p> <p>Cette visionneuse ne prend pas en charge les images qui utilisent la fonction IR (Image Rendering) ou UGC (User-Generated Content). </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> Chaîne</span>} nouvel ID de ressource. </p> <p>Les images qui utilisent la fonction IR (Image Rendering) ou UGC (User-Generated Content) ne sont pas prises en charge par cette visionneuse. </p> </td> 
   </tr> 
  </tbody> 
 </table>
