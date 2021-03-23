@@ -4,12 +4,13 @@ seo-description: Définit les champs spécifiques à l’image pour un ou plusie
 seo-title: batchSetImageFields
 solution: Experience Manager
 title: batchSetImageFields
-topic: Dynamic Media Image Production System API
 uuid: e0ad7da4-cb28-4402-8b47-a600916d23b3
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '209'
 ht-degree: 9%
 
 ---
