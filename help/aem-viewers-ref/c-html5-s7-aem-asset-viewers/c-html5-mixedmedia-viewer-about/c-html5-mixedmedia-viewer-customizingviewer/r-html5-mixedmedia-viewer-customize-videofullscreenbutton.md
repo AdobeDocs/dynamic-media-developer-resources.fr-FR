@@ -4,12 +4,13 @@ seo-description: Le bouton plein écran permet à la visionneuse d’accéder au
 seo-title: Bouton Vidéo plein écran
 solution: Experience Manager
 title: Bouton Vidéo plein écran
-topic: Dynamic Media
 uuid: f264154b-eb4d-4dcb-b8c0-e06c383198ae
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Combiner des visionneuses de supports
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '396'
 ht-degree: 1%
 
 ---
