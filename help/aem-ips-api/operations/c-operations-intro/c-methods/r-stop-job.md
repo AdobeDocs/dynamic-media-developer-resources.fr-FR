@@ -4,13 +4,14 @@ seo-description: Arrête une tâche en cours.
 seo-title: stopJob
 solution: Experience Manager
 title: stopJob
-topic: Dynamic Media Image Production System API
 uuid: 698c1652-5afa-4a2c-819a-1ba6ffc6aacf
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 20%
+source-wordcount: '67'
+ht-degree: 17%
 
 ---
 
