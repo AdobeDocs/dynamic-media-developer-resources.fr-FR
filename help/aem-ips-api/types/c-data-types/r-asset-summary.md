@@ -4,13 +4,14 @@ seo-description: Résultats de la recherche de métadonnées contenant des infor
 seo-title: AssetSummary
 solution: Experience Manager
 title: AssetSummary
-topic: Dynamic Media Image Production System API
 uuid: 0ac8f900-c16c-409d-b83c-3bdf0ad28fac
+feature: Dynamic Media Classic, SDK/API, Gestion des ressources
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 11%
+source-wordcount: '142'
+ht-degree: 10%
 
 ---
 
