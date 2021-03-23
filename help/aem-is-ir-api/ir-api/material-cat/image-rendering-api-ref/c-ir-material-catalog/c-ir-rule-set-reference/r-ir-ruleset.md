@@ -4,13 +4,14 @@ seo-description: Elément conteneur de règles. Un fichier de jeu de règles val
 seo-title: ensemble de règles
 solution: Experience Manager
 title: ensemble de règles
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 92e691ac-079e-4f84-9142-80e0c603cfc3
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 4%
+source-wordcount: '53'
+ht-degree: 3%
 
 ---
 
