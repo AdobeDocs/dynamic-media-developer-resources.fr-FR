@@ -4,12 +4,13 @@ seo-description: Cliquez ou appuyez sur ce bouton pour réinitialiser la visionn
 seo-title: Bouton Miniatures
 solution: Experience Manager
 title: Bouton Miniatures
-topic: Dynamic Media
 uuid: a84fd01b-95a5-41bc-ac9f-f1de485f4da6
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
