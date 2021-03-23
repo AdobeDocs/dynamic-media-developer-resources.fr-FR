@@ -4,12 +4,13 @@ seo-description: textPs= prend en charge plusieurs modèles d’utilisation diff
 seo-title: calques de texte
 solution: Experience Manager
 title: calques de texte
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9ccef969-7c54-49ce-b6ff-ae4eabfcf99b
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '908'
 ht-degree: 0%
 
 ---
@@ -80,7 +81,7 @@ Si `size=` est spécifié avec `textFlowPath=`, la taille du calque est prédét
 
 Les régions `textFlowPath=` peuvent se trouver en dehors du rectangle du calque. Le texte est toujours distribué et généré dans toutes les zones de chemin, même si le texte est rendu en dehors du rectangle du calque. `extend=0,0,0,0`peut être utilisé pour recadrer le texte rendu dans le rectangle du calque.
 
-Pour le positionnement des calques, le rectangle de calque est basé sur le `size=` spécifié, quelle que soit la quantité de texte réellement restitué, même si une partie se trouve en dehors du rectangle de calque. Le positionnement standard des calques s’applique.
+Pour le positionnement des calques, le rectangle de calque est basé sur le `size=` spécifié, quelle que soit la quantité de texte réellement rendu, même si une partie se trouve en dehors du rectangle de calque. Le positionnement standard des calques s’applique.
 
 `color=` remplit la zone rectangulaire définie par  `size=`.
 
