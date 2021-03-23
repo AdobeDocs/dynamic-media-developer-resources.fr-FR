@@ -4,12 +4,13 @@ seo-description: Quatre types généraux de vignettes de production sont pris en
 seo-title: Mise à l’échelle de la vignette
 solution: Experience Manager
 title: Mise à l’échelle de la vignette
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 08c8f826-7dce-4bcb-9323-4892262eb578
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
