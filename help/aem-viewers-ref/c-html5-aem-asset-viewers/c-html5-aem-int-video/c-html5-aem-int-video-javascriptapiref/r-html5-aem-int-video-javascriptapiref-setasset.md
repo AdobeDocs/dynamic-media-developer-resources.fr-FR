@@ -4,12 +4,13 @@ seo-description: Référence de l’API JavaScript pour la visionneuse de vidéo
 seo-title: setAsset
 solution: Experience Manager
 title: setAsset
-topic: Dynamic Media
 uuid: 80c670a4-1251-47f5-a66b-8ba5019df1ce
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '160'
 ht-degree: 2%
 
 ---
@@ -36,7 +37,7 @@ Voir aussi [init](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-htm
    <td colname="col2"> <p> { <span class="codeph"> JSON </span>} objet JSON avec les champs facultatifs suivants (sensible à la casse) : </p> <p> 
      <ul id="ul_924FB99ACF0F43699CD229593F1C1384"> 
       <li id="li_F3CFEF28BCB7450991EFE0BD4EB28E36"> <span class="codeph"> posterimage  </span> - Image à afficher sur la première image avant la lecture des débuts vidéo. Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-videoplayer-posterimage.md#reference-8e8e2b3e7e9c4ee8b6dadf90cef494f7" format="dita" scope="local"> VideoPlayer.posterimage </a>. </li> 
-      <li id="li_D6C3E543C70942C582020780E2DF74C8"> <span class="codeph"> légende  </span> - emplacement du nouveau fichier de sous-titrage. Si elle n’est pas spécifiée, le bouton de sous-titrage n’est pas visible dans l’interface utilisateur. </li> 
+      <li id="li_D6C3E543C70942C582020780E2DF74C8"> <span class="codeph"> légende  </span> - emplacement du nouveau fichier de sous-titrage. Si ce n’est pas le cas, le bouton de sous-titrage n’est pas visible dans l’interface utilisateur. </li> 
       <li id="li_BF866BD7275E450EA08A0E72FAA9D3AE"> <span class="codeph"> navigation  </span> - URL ou chemin d’accès au contenu de navigation WebVTT. Le fichier WebVTT doit être diffusé par Image Serving. </li> 
       <li id="li_0C0EC5AB00554EC6AA01F60684A40213"> <span class="codeph"> interactiveData  </span> - URL ou chemin d’accès au contenu de données interactives WebVTT. Le fichier WebVTT doit être diffusé par Image Serving. </li> 
      </ul> </p> </td> 
