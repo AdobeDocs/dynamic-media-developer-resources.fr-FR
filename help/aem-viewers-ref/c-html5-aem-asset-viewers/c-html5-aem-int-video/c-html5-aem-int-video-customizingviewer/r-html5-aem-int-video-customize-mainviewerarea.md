@@ -4,12 +4,13 @@ seo-description: La zone principale de la vue est la zone occupée par les nuanc
 seo-title: Zone du lecteur principal
 solution: Experience Manager
 title: Zone du lecteur principal
-topic: Dynamic Media
 uuid: 3e04c578-dcb2-4034-8809-dc949be80097
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '159'
 ht-degree: 2%
 
 ---
