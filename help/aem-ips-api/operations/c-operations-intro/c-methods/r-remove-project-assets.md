@@ -4,12 +4,13 @@ seo-description: Supprime des actifs d’un projet. Ne détruit pas les actifs.
 seo-title: removeProjectAssets
 solution: Experience Manager
 title: removeProjectAssets
-topic: Dynamic Media Image Production System API
 uuid: bae09dc3-4328-4264-8fb2-e4f0c53546eb
+feature: Dynamic Media Classic, SDK/API, Gestion des ressources
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '198'
 ht-degree: 10%
 
 ---
