@@ -4,13 +4,14 @@ seo-description: La barre de contrôle secondaire est la zone rectangulaire qui 
 seo-title: Barre de contrôle Secondaire
 solution: Experience Manager
 title: Barre de contrôle Secondaire
-topic: Dynamic Media
 uuid: 38217d2a-8668-46e1-9df1-f29c1c7e0798
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 2%
+source-wordcount: '210'
+ht-degree: 1%
 
 ---
 
