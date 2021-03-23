@@ -4,12 +4,13 @@ seo-description: Propriétés des données de réponse. Evalue la requête activ
 seo-title: props
 solution: Experience Manager
 title: props
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b9325654-81d6-4f00-bf0a-36650bea6b8d
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '401'
 ht-degree: 7%
 
 ---
