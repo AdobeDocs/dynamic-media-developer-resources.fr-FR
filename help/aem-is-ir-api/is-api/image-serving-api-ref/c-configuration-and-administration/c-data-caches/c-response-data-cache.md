@@ -4,12 +4,13 @@ seo-description: Le serveur de plateformes met en cache toutes les images de ré
 seo-title: Cache de données de réponse
 solution: Experience Manager
 title: Cache de données de réponse
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: dbfda210-3b50-4e8c-8d77-7263ae4e80a2
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
