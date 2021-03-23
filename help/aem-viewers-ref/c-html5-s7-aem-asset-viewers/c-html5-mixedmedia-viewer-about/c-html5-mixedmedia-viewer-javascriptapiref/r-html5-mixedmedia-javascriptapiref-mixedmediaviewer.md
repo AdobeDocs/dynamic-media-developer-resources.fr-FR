@@ -4,12 +4,13 @@ seo-description: Référence de l’API JavaScript pour la visionneuse de suppor
 seo-title: MixedMediaViewer
 solution: Experience Manager
 title: MixedMediaViewer
-topic: Dynamic Media
 uuid: ccaabc04-a9d0-4f58-96bd-ba76e977bfac
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Combiner des visionneuses de supports
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '227'
 ht-degree: 3%
 
 ---
