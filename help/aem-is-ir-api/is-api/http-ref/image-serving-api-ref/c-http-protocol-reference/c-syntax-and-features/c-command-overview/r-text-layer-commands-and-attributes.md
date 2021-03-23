@@ -4,12 +4,13 @@ seo-description: Ces commandes s’appliquent aux calques de texte, en plus des 
 seo-title: Commandes de calque de texte
 solution: Experience Manager
 title: Commandes de calque de texte
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 00d2643c-1a74-4542-bd72-e6dc22d402b0
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
