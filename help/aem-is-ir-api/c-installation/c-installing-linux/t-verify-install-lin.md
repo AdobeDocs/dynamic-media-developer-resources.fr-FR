@@ -4,12 +4,13 @@ seo-description: Après avoir installé Image Serving sur Linux, vérifiez l’i
 seo-title: Vérification de l’installation
 solution: Experience Manager
 title: Vérification de l’installation
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4fdf61c7-3c9f-4f3e-9696-60eb7e3f2209
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
