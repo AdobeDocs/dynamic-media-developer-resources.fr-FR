@@ -4,13 +4,14 @@ seo-description: Quantification des couleurs. Spécifie les attributs de quantif
 seo-title: quantifier
 solution: Experience Manager
 title: quantifier
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4e9c4807-59bc-4eb9-bcab-0bf0cfdf56d4
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 3%
+source-wordcount: '241'
+ht-degree: 2%
 
 ---
 
