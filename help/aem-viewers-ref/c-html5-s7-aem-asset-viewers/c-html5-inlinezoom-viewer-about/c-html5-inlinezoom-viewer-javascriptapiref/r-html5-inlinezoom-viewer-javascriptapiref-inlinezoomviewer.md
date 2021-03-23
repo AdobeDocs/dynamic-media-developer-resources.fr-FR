@@ -4,12 +4,13 @@ seo-description: Référence de l’API JavaScript pour la visionneuse de zoom i
 seo-title: FlyoutViewer
 solution: Experience Manager
 title: FlyoutViewer
-topic: Dynamic Media
 uuid: 23617eda-f4c9-4908-9f63-593849c12fc7
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Zoom intégré
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '225'
 ht-degree: 3%
 
 ---
