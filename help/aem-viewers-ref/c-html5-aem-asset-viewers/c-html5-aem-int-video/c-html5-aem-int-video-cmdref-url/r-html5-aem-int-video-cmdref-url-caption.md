@@ -4,13 +4,14 @@ seo-description: URL de la visionneuse de vidéos interactive.
 seo-title: légende
 solution: Experience Manager
 title: légende
-topic: Dynamic Media
 uuid: 602c8f64-e018-4916-8141-09b36003a99d
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 11%
+source-wordcount: '217'
+ht-degree: 10%
 
 ---
 
