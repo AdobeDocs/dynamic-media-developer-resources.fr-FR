@@ -4,12 +4,13 @@ seo-description: Récupère un type de jeu de propriétés à l’aide d’une p
 seo-title: getPropertySetType
 solution: Experience Manager
 title: getPropertySetType
-topic: Dynamic Media Image Production System API
 uuid: 203fa949-a81e-455a-a83e-576b6f65e3af
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '197'
 ht-degree: 8%
 
 ---
