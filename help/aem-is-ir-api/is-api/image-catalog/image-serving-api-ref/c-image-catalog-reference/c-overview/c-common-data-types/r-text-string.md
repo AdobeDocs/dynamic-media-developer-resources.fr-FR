@@ -4,12 +4,13 @@ seo-description: Type de données de chaîne de texte.
 seo-title: Chaîne de texte
 solution: Experience Manager
 title: Chaîne de texte
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d37ff12d-5c7a-4bb5-af61-44de85a86aa0
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '74'
 ht-degree: 0%
 
 ---
