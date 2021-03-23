@@ -4,12 +4,13 @@ seo-description: textPs= implémente un algorithme propriétaire d’ajustement 
 seo-title: Ajustement de copie
 solution: Experience Manager
 title: Ajustement de copie
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c3ddbf1f-c724-4436-96ff-2c616dfd355d
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
