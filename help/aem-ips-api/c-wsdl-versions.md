@@ -2,11 +2,12 @@
 description: Le service Web IPS est pris en charge par un ensemble de documents WSDL (Web Services Description Language) accessibles à partir de toute installation IPS sur laquelle le composant Service Web IPS est installé. Chaque version d'API IPS comprend un nouveau fichier WSDL qui référence un espace de nommage XML de cible avec version. Les versions d’espace de nommage WSDL antérieures sont également prises en charge pour permettre une compatibilité ascendante avec les applications existantes.
 solution: Experience Manager
 title: Versions WSDL du service Web IPS
-topic: Dynamic Media Image Production System API
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '961'
 ht-degree: 1%
 
 ---
@@ -143,7 +144,7 @@ Le style document/littéral est utilisé pour tous les messages d’entrée et d
 
 **Demande d’authentification**
 
-La méthode privilégiée pour transmettre des informations d’identification d’authentification dans les demandes d’API consiste à utiliser l’élément `authHeader` tel que défini dans le fichier WSDL de l’API IPS.
+La méthode privilégiée pour transmettre des informations d&#39;identification d&#39;authentification dans les demandes d&#39;API consiste à utiliser l&#39;élément `authHeader` tel que défini dans le WSDL de l&#39;API IPS.
 
 ```
 <element name="authHeader"> 
