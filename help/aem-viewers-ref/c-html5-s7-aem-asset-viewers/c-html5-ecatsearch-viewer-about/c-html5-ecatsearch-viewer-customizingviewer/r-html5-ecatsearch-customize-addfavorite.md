@@ -4,12 +4,13 @@ seo-description: La position du bouton Ajouter favori est entièrement gérée p
 seo-title: Bouton Ajouter favori
 solution: Experience Manager
 title: Bouton Ajouter favori
-topic: Dynamic Media
 uuid: decde7d1-d7d1-4056-815c-2b6571110d9f
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
