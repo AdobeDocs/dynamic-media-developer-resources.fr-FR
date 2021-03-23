@@ -4,12 +4,13 @@ seo-description: La classe principale de la visionneuse à 360° est SpinViewer.
 seo-title: Référence de l’API Javascript pour la visionneuse à 360°
 solution: Experience Manager
 title: Référence de l’API Javascript pour la visionneuse à 360°
-topic: Dynamic Media
 uuid: c38d3336-504b-4b14-9a6a-ba8eab9e2f3e
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Visionneuses à 360°
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
