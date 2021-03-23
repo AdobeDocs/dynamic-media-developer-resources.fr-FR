@@ -2,13 +2,14 @@
 description: PageView.zoomstep
 solution: Experience Manager
 title: PageView.zoomstep
-topic: Dynamic Media
 uuid: 27eb2a48-008b-455e-9a03-41bb4030271b
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 7%
+source-wordcount: '90'
+ht-degree: 6%
 
 ---
 
