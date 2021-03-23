@@ -4,12 +4,13 @@ seo-description: Tous les attributs de catalogue sont facultatifs, à l’except
 seo-title: Référence des attributs
 solution: Experience Manager
 title: Référence des attributs
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a1994598-9e51-4c56-9314-c01c9303c175
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '117'
 ht-degree: 3%
 
 ---
