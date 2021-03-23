@@ -1,14 +1,15 @@
 ---
 description: Personnalisation de la visionneuse de vidéos
-keywords: responsive
+keywords: réactif
 solution: Experience Manager
 title: Personnalisation de la visionneuse de vidéos
-topic: Dynamic Media
 uuid: e18fdf8b-5834-4c99-b8a3-90d1f8310dc1
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1267'
 ht-degree: 0%
 
 ---
