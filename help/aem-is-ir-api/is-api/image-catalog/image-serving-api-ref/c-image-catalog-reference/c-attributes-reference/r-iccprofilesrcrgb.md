@@ -4,13 +4,14 @@ seo-description: Profil de couleur d’entrée RVB par défaut. Spécifie le nom
 seo-title: IccProfileSrcRgb
 solution: Experience Manager
 title: IccProfileSrcRgb
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 4f6f19ec-3524-403e-9c79-1e2b25cd74ce
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 2%
+source-wordcount: '206'
+ht-degree: 1%
 
 ---
 
