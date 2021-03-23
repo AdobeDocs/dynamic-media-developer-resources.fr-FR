@@ -4,12 +4,13 @@ seo-description: Suivez cette procédure lors de la mise à niveau de Dynamic Me
 seo-title: Mise à jour depuis IS 4.7.4 ou version ultérieure
 solution: Experience Manager
 title: Mise à jour depuis IS 4.7.4 ou version ultérieure
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 70beb1a3-71b9-4bd0-b048-13d88446a9d3
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
