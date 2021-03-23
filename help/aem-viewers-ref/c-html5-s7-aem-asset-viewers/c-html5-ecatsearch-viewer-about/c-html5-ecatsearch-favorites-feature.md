@@ -2,12 +2,13 @@
 description: Fonction de recherche
 solution: Experience Manager
 title: Fonction de recherche
-topic: Dynamic Media
 uuid: eb8e79fa-893b-402c-a937-6d7121c95821
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
