@@ -4,12 +4,13 @@ seo-description: Image Serving prend en charge l’imbrication illimitée de req
 seo-title: Demande d’imbrication et d’incorporation
 solution: Experience Manager
 title: Demande d’imbrication et d’incorporation
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 59031329-e65f-4631-bc7d-83f2540cc836
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
@@ -78,7 +79,7 @@ Les commandes de rendu d’image suivantes sont ignorées lorsqu’elles sont sp
 * `printRes=`
 * `req=`
 
-`attribute::MaxPix` et `attribute::DefaultPix` du catalogue de matières qui s’applique à la demande de rendu imbriquée sont également ignorés.
+Sont également ignorées `attribute::MaxPix` et `attribute::DefaultPix` du catalogue de matières qui s’applique à la demande de rendu imbriquée.
 
 Le résultat d&#39;image d&#39;une requête IR imbriquée peut être mis en cache éventuellement en incluant `cache=on`. Par défaut, la mise en cache des données intermédiaires est désactivée. La mise en cache ne doit être activée que lorsque l’image intermédiaire doit être réutilisée dans une autre demande dans un délai raisonnable. La gestion standard du cache côté serveur s’applique. Les données sont mises en cache dans un format sans perte.
 
@@ -136,7 +137,7 @@ Ce mécanisme prend en charge les mêmes formats de fichier d’image que ceux p
 
 ## Restrictions {#section-fb68e3f0d40947feb94d7bf183b64929}
 
-La taille de l’image générée par des requêtes imbriquées/incorporées est généralement automatiquement optimisée. Si la mise en cache des images de requête imbriquée est activée, des gains de performances incrémentiels peuvent être obtenus en spécifiant la taille exacte de l’image imbriquée, de sorte qu’aucune mise à l’échelle supplémentaire n’est requise lors de la réutilisation de l’entrée de cache.
+La taille de l’image générée par des requêtes imbriquées/incorporées est généralement automatiquement optimisée. Si la mise en cache des images de requête imbriquée est activée, des gains de performances incrémentiels peuvent être obtenus en spécifiant la taille exacte de l’image imbriquée, de sorte qu’aucune mise à l’échelle supplémentaire n’est requise lorsque l’entrée de cache est réutilisée.
 
 Important Image Serving ne prend pas en charge le codage par doublon des requêtes imbriquées ou incorporées. Les requêtes imbriquées et incorporées doivent être codées en HTTP, tout comme les requêtes simples.
 
