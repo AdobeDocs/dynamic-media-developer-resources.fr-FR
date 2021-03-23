@@ -4,12 +4,13 @@ seo-description: Indique si la visionneuse commence à charger du contenu vidéo
 seo-title: VideoPlayer.preload
 solution: Experience Manager
 title: VideoPlayer.preload
-topic: Dynamic Media
 uuid: 2aaae96d-d42d-4984-aec9-86e06b3c711c
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '142'
 ht-degree: 3%
 
 ---
