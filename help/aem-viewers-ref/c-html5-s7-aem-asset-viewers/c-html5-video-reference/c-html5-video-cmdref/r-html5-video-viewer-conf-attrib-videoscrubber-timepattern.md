@@ -4,12 +4,13 @@ seo-description: Attribut de configuration pour la visionneuse de vidéos.
 seo-title: VideoScrubber.timepattern
 solution: Experience Manager
 title: VideoScrubber.timepattern
-topic: Dynamic Media
 uuid: 44c86fdb-7e96-4d90-99a1-3b0670d3696f
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '131'
 ht-degree: 3%
 
 ---
