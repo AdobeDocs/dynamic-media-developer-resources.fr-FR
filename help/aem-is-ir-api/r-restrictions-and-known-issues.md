@@ -4,12 +4,13 @@ seo-description: Certaines restrictions et problèmes connus doivent être pris 
 seo-title: Restrictions et problèmes connus
 solution: Experience Manager
 title: Restrictions et problèmes connus
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: '1259'
 ht-degree: 0%
 
 ---
@@ -147,7 +148,7 @@ La bibliothèque Digimarc refuse d’appliquer un filigrane Digimarc à une imag
 * Les décorations et les matériaux muraux ne sont pas amovibles.
 * La taille des textures est limitée par rapport à la taille de la vue de vignettes. Dans de rares cas, la limite par défaut de 425 % de la taille de la vue peut interférer avec une application utilisant des textures non répétables très grandes. S&#39;il n&#39;est pas possible de modifier l&#39;application ou le contenu pour qu&#39;il fonctionne dans les limites prédéfinies, le pourcentage peut être augmenté comme suit. A l’aide d’un éditeur de texte, ouvrez [!DNL install_root/ImageServing/conf/ImageServerRegistry.xml], recherchez `IrMaxTextureSizeFactor` et entrez une nouvelle valeur de pourcentage. La modification prend effet immédiatement sans redémarrer le serveur Image Server.
 
-* Les moteurs JavaScript dans les données de réponse du cache Netscape et Opera, même si l’en-tête nocache est défini. Cela interfère avec le bon fonctionnement des demandes d&#39;état.
+* Les moteurs JavaScript dans les données de réponse du cache Netscape et Opera même si l’en-tête nocache est défini. Cela interfère avec le bon fonctionnement des demandes d&#39;état.
 
    *Solution*
 
