@@ -4,12 +4,13 @@ seo-description: Documentation de référence sur les commandes du lecteur vidé
 seo-title: Référence de commande - URL
 solution: Experience Manager
 title: Référence de commande - URL
-topic: Dynamic Media
 uuid: 70c212d7-35ee-408f-abe4-19ba1e4d773d
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo 360 VR
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '178'
 ht-degree: 0%
 
 ---
