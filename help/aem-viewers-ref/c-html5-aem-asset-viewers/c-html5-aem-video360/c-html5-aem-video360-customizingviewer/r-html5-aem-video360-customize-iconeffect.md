@@ -4,12 +4,13 @@ seo-description: L’icône de lecture est superposée sur la zone de vue princi
 seo-title: Effet Icône
 solution: Experience Manager
 title: Effet Icône
-topic: Dynamic Media
 uuid: a1e7d877-097c-4f43-8a6d-9627dc4924b1
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo 360 VR
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
