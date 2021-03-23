@@ -4,12 +4,13 @@ seo-description: Couleur d’arrière-plan du calque. Indique la couleur d’arr
 seo-title: bgColor
 solution: Experience Manager
 title: bgColor
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: bcbd368f-d200-4b1f-8e9f-bf4d88f14b72
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '143'
 ht-degree: 4%
 
 ---
