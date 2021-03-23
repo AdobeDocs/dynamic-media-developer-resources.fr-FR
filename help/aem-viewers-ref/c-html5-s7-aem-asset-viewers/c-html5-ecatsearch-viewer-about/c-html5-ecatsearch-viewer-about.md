@@ -1,14 +1,15 @@
 ---
 description: Visionneuse de recherche de catalogue électronique est une visionneuse de catalogue qui affiche des brochures électroniques dans une planche par planche ou page par page. Le catalogue électronique permet aux utilisateurs de parcourir le catalogue à l’aide d’éléments d’interface utilisateur supplémentaires ou d’un mode de miniatures dédié. Les utilisateurs peuvent également effectuer un zoom avant sur chaque page pour plus de détails.
-keywords: responsive
+keywords: réactif
 solution: Experience Manager
 title: Recherche dans un catalogue électronique
-topic: Dynamic Media
 uuid: f5ec33bf-e827-4709-9780-6f17096bf306
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2179'
+source-wordcount: '2191'
 ht-degree: 0%
 
 ---
@@ -85,7 +86,7 @@ Ce lecteur prend également en charge les entrées tactiles et de souris sur les
 
 ## Outils de partage sur les réseaux sociaux avec le lecteur de recherche de catalogue électronique {#section-eb575084a99647c3a9591f439f40b412}
 
-Le lecteur de recherche de catalogue électronique prend en charge les outils de partage sur les réseaux sociaux. Il est disponible sous la forme d’un bouton dans la barre de contrôle principale, qui se développe en une barre d’outils de partage lorsqu’un utilisateur clique ou appuie dessus.
+Le lecteur de recherche de catalogue électronique prend en charge les outils de partage sur les réseaux sociaux. Il est disponible sous la forme d’un bouton dans la barre de contrôle principale qui se développe en une barre d’outils de partage lorsqu’un utilisateur clique ou appuie dessus.
 
 La barre d’outils de partage contient des icônes pour chaque type de canal de partage pris en charge, notamment Facebook, Twitter, partage de courrier électronique, partage de code incorporé et partage de liens. Lorsque des outils de partage de courrier électronique, de partage incorporé ou de partage de liens sont activés, le lecteur affiche une boîte de dialogue modale avec un formulaire de saisie de données correspondant. Lorsque Facebook ou Twitter est appelé, le lecteur redirige l’utilisateur vers une boîte de dialogue de partage standard à partir d’un service social. Les outils de partage ne sont pas disponibles en mode plein écran en raison des restrictions de sécurité du navigateur Web.
 
