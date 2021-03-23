@@ -4,12 +4,13 @@ seo-description: Cette documentation explique comment administrer le serveur de 
 seo-title: Présentation de l’administration du serveur
 solution: Experience Manager
 title: Présentation de l’administration du serveur
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 83aa83b7-bb7a-4bbd-923c-dd69763fe9c9
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
