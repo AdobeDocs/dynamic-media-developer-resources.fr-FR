@@ -4,12 +4,13 @@ seo-description: Il existe deux options pour démarrer ou arrêter Image Serving
 seo-title: Démarrage ou arrêt sous Linux
 solution: Experience Manager
 title: Démarrage ou arrêt sous Linux
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 92cf60c4-3f80-42bc-b135-17bc22ba151e
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
