@@ -4,13 +4,14 @@ seo-description: Zone de flux de texte. Spécifie une ou plusieurs régions dans
 seo-title: textFlowPath
 solution: Experience Manager
 title: textFlowPath
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5449d78f-e56b-4afb-a05a-7cf8f1f37278
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 5%
+source-wordcount: '127'
+ht-degree: 4%
 
 ---
 
