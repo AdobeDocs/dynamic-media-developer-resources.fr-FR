@@ -4,12 +4,13 @@ seo-description: Cliquez ou appuyez sur ce bouton pour amener l’utilisateur à
 seo-title: Bouton Grande page précédente
 solution: Experience Manager
 title: Bouton Grande page précédente
-topic: Dynamic Media
 uuid: 10c9ade6-8bbd-4c05-bf3e-22d95b786d7b
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '346'
 ht-degree: 2%
 
 ---
@@ -37,19 +38,19 @@ L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suiv
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> haut </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure supérieure de la barre de contrôle principale, y compris le remplissage. </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure supérieure de la barre de contrôle principale, y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> droite </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure droite de la barre de contrôle principale, y compris le remplissage. </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure droite de la barre de contrôle principale, y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> gauche </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure gauche de la barre de contrôle principale, y compris le remplissage. </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure gauche de la barre de contrôle principale, y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bas </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure inférieure de la barre de contrôle principale, y compris le remplissage. </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure inférieure de la barre de contrôle principale, y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -60,23 +61,23 @@ L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suiv
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
-   <td colname="col2"> <p> Positionnez l’objet à l’intérieur de l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Si des sprites CSS sont utilisés, placez-les à l’intérieur de l’image Sprite. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge le sélecteur d&#39;attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
-L’info-bulle du bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
+L’info-bulle du bouton peut être localisée. Pour plus d&#39;informations, voir [Localisation des éléments de l&#39;interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
-Exemple : pour configurer un bouton de page précédente de grande taille de 56 x 56 pixels, centré verticalement et ancré à la bordure du lecteur de gauche, et affiche une image différente pour chacun des quatre états de bouton différents.
+Exemple : pour configurer un bouton de page précédente de grande taille de 56 x 56 pixels, centré verticalement et ancré à la bordure du visualiseur de gauche, et afficher une image différente pour chacun des quatre états de bouton différents.
 
 ```
 .s7ecatalogsearchviewer .s7ecatleftbutton .s7panleftbutton { 
