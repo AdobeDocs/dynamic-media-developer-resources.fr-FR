@@ -4,12 +4,13 @@ seo-description: Sélecteur de filigrane. Indique l’ID de catalogue de l’enr
 seo-title: Filigrane
 solution: Experience Manager
 title: Filigrane
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 18add7ab-0797-4ab3-a7e8-05c745abe605
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '132'
 ht-degree: 5%
 
 ---
