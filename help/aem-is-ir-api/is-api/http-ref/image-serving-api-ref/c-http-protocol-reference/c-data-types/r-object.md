@@ -4,12 +4,13 @@ seo-description: Spécificateur d’objet source. Les objets Image, SVG et profi
 seo-title: objet
 solution: Experience Manager
 title: objet
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 8d25b47d-0f23-4d9a-a7e6-6e865ae4114e
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '522'
 ht-degree: 1%
 
 ---
@@ -42,7 +43,7 @@ Spécificateur d’objet source. Les objets Image, SVG et profil ICC peuvent êt
 
 *`rootId`* identifie un catalogue d’images. (Voir [Catalogue d’images](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) pour plus de détails.) Si *`rootId`* est spécifié dans le chemin d’accès de l’URL, ce catalogue devient le *catalogue principal* pour cette demande. Sinon, le catalogue par défaut est utilisé comme catalogue principal. Plusieurs catalogues d’images différents peuvent être utilisés dans la même requête.
 
-Le serveur suppose initialement que *`rootId`* est omis dans les commandes `src=`, `mask=` et `icc=` et qu&#39;il tente de trouver une entrée de catalogue dans le catalogue principal. En fait, le serveur tente d&#39;utiliser la chaîne *`object`* complète sous la forme *`objId.`*
+Le serveur suppose initialement que *`rootId`* est omis dans les commandes `src=`, `mask=` et `icc=` et qu&#39;il tente de trouver une entrée de catalogue dans le catalogue principal. En fait, le serveur tente d’utiliser la chaîne *`object`* complète sous la forme *`objId.`*.
 
 Si une entrée de catalogue est trouvée, elle est utilisée ; dans le cas contraire, le serveur tente ensuite de faire correspondre le *`rootId`* d’un catalogue d’images. Si un catalogue est identifié, il est recherché *`objId`*. Si une entrée est trouvée, elle est utilisée.
 
