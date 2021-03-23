@@ -4,12 +4,13 @@ seo-description: Vue à l’échelle. Met à l’échelle l’image rendue selon
 seo-title: scl
 solution: Experience Manager
 title: scl
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 04839c44-01b6-4fa2-9eda-bbb0f2822db4
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '199'
 ht-degree: 3%
 
 ---
@@ -28,7 +29,7 @@ Vue à l’échelle. Met à l’échelle l’image rendue selon le facteur d’�
  </tr> 
 </table>
 
-Si `scl=` suit `wid=` ou `hei=` dans l’URL, il annule ces commandes et `scl=` définit la taille de l’image renvoyée par le serveur.
+Si `scl=` vient après `wid=` ou `hei=` dans l’URL, il annule ces commandes et `scl=` définit la taille de l’image renvoyée par le serveur.
 
 Cependant, si `wid=` ou `hei=` vient après `scl=` dans l’URL, ils annulent `scl=` et `wid=`/ `hei=` définissent la taille de l’image renvoyée par le serveur.
 
