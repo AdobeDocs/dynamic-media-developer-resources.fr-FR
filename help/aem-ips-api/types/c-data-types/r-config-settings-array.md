@@ -4,13 +4,14 @@ seo-description: Tableau de paramètres de configuration.
 seo-title: ConfigSettingArray
 solution: Experience Manager
 title: ConfigSettingArray
-topic: Dynamic Media Image Production System API
 uuid: c6c5636c-a2df-4eed-8bb4-7b16a610ae4a
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 20%
+source-wordcount: '36'
+ht-degree: 16%
 
 ---
 
