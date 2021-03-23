@@ -4,13 +4,14 @@ seo-description: Les données de propriété sont renvoyées en réponse à plus
 seo-title: Propriétés
 solution: Experience Manager
 title: Propriétés
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 22c271f7-e9dc-4f3e-af7b-1efe89df983e
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 8%
+source-wordcount: '67'
+ht-degree: 7%
 
 ---
 
