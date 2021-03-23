@@ -4,13 +4,14 @@ seo-description: Propriétés d’un fichier Adobe Illustrator.
 seo-title: IllustratorInfo
 solution: Experience Manager
 title: IllustratorInfo
-topic: Dynamic Media Image Production System API
 uuid: f9c4db59-c1f4-46e9-828e-2abb2f361e17
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 20%
+source-wordcount: '42'
+ht-degree: 16%
 
 ---
 
