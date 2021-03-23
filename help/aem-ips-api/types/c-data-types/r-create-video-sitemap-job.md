@@ -4,13 +4,14 @@ seo-description: Crée une carte du site vidéo.
 seo-title: CreateVideoSitemapJob
 solution: Experience Manager
 title: CreateVideoSitemapJob
-topic: Dynamic Media Image Production System API
 uuid: 85db2e47-ee15-4fdd-a8e2-bb45078f814a
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 12%
+source-wordcount: '63'
+ht-degree: 11%
 
 ---
 
