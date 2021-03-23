@@ -4,12 +4,13 @@ seo-description: La position du bouton Supprimer les favoris est entièrement g�
 seo-title: Bouton Supprimer les favoris
 solution: Experience Manager
 title: Bouton Supprimer les favoris
-topic: Dynamic Media
 uuid: c2e1929d-d859-49d5-8bdc-13507e25d02c
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Catalogue électronique
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
