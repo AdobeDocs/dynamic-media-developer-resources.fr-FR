@@ -4,13 +4,14 @@ seo-description: Réinitialise l’état de publication d’un ou de plusieurs f
 seo-title: forceRepublishAssets
 solution: Experience Manager
 title: forceRepublishAssets
-topic: Dynamic Media Image Production System API
 uuid: fd1f4ece-075c-40e3-868a-f27b9a4c3374
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 11%
+source-wordcount: '191'
+ht-degree: 10%
 
 ---
 
