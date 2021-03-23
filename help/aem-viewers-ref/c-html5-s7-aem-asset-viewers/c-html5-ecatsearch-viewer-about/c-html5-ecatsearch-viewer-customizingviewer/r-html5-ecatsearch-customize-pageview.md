@@ -4,12 +4,13 @@ seo-description: La vue principale est constituée de l’image catalogue. Il pe
 seo-title: Vue de page
 solution: Experience Manager
 title: Vue de page
-topic: Dynamic Media
 uuid: f585bf57-c66a-4213-a2af-d9625beb5bed
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '412'
 ht-degree: 2%
 
 ---
