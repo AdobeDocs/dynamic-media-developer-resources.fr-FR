@@ -4,13 +4,14 @@ seo-description: Les champs suivants sont pris en charge pour les catalogues de 
 seo-title: Données de contenu statique
 solution: Experience Manager
 title: Données de contenu statique
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a890ffef-55b2-4880-afa5-ced8598642d1
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 4%
+source-wordcount: '78'
+ht-degree: 3%
 
 ---
 
