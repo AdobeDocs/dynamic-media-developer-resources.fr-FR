@@ -4,12 +4,13 @@ seo-description: Les fichiers d’attributs du catalogue reconnaissent ces attri
 seo-title: Attributs de requête par défaut
 solution: Experience Manager
 title: Attributs de requête par défaut
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e83db949-67ba-4d70-8f66-41f5415c35ee
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '86'
 ht-degree: 1%
 
 ---
