@@ -4,12 +4,13 @@ seo-description: Les paramètres de cette section s’appliquent aux réponses d
 seo-title: Réponses des visionneuses de supports
 solution: Experience Manager
 title: Réponses des visionneuses de supports
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9fa6a38a-cd1f-499b-a2b6-e1a9a6c69ed0
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
