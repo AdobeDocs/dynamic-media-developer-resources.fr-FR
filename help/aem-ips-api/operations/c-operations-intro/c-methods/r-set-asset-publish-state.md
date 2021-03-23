@@ -4,13 +4,14 @@ seo-description: Détermine si un fichier est prêt à être publié.
 seo-title: setAssetPublishState
 solution: Experience Manager
 title: setAssetPublishState
-topic: Dynamic Media Image Production System API
 uuid: b7d49d77-573c-4e2a-81d3-196c09d62853
+feature: Dynamic Media Classic, SDK/API, Gestion des ressources
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 18%
+source-wordcount: '114'
+ht-degree: 16%
 
 ---
 
