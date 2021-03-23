@@ -4,12 +4,13 @@ seo-description: Définissez la marge de fond perdu. Définit la marge de fond p
 seo-title: bleedmargin
 solution: Experience Manager
 title: bleedmargin
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 084d09dd-3f8e-4d2b-8a1c-21d87d925b14
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '80'
 ht-degree: 0%
 
 ---
