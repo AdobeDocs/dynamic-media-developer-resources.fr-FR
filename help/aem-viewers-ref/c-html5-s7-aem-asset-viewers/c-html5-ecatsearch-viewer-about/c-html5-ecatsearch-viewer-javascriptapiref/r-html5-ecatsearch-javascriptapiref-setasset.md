@@ -4,12 +4,13 @@ seo-description: Référence de l’API JavaScript pour la visionneuse de vidéo
 seo-title: setAsset
 solution: Experience Manager
 title: setAsset
-topic: Dynamic Media
 uuid: ab078f32-c523-4b6c-a0d6-45dd2af35b36
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '133'
 ht-degree: 2%
 
 ---
