@@ -4,12 +4,13 @@ seo-description: Résolution d’impression. Résolution d’impression de l’i
 seo-title: PrintResolution
 solution: Experience Manager
 title: PrintResolution
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 1c7f504a-c69d-4cfc-af01-b2b6ac6f0fbf
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '83'
 ht-degree: 6%
 
 ---
