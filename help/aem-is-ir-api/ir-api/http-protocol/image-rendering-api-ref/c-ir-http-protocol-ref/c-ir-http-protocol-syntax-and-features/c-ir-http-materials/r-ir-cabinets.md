@@ -4,12 +4,13 @@ seo-description: Les documents Armoires spécifient un fichier de style Armoire 
 seo-title: Meubles
 solution: Experience Manager
 title: Meubles
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: d515c613-07c5-49ef-ad6e-568a1f6c1335
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '196'
 ht-degree: 5%
 
 ---
