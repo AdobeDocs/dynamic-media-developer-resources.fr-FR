@@ -4,13 +4,14 @@ seo-description: Chemin du fichier de profil. Chemin et nom du fichier de profil
 seo-title: ProfilePath
 solution: Experience Manager
 title: ProfilePath
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 59e78bfb-bc5c-45e4-aa70-d18cab2f9e39
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 8%
+source-wordcount: '79'
+ht-degree: 7%
 
 ---
 
