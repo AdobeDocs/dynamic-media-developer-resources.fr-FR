@@ -4,12 +4,13 @@ seo-description: L’outil de création de vignettes (qui fait partie du pack de
 seo-title: Paramètres de rendu avancés
 solution: Experience Manager
 title: Paramètres de rendu avancés
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 18e7f3cf-4d30-445c-813c-546a91987b99
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '641'
 ht-degree: 24%
 
 ---
@@ -76,7 +77,7 @@ Ces paramètres sont contrôlés de manière interactive dans la création d’i
   <tr> 
    <td colname="col1"> <p>Q </p> </td> 
    <td colname="col2"> <p>Mode de redimensionnement. </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>5 </p> </td> 
    <td colname="col5"> <p> 
      <ul id="ul_87184BB93E7F46D59BA1AAAFA8455512"> 
@@ -133,7 +134,7 @@ Ces paramètres sont contrôlés de manière interactive dans la création d’i
   <tr> 
    <td colname="col1"> <p>P </p> </td> 
    <td colname="col2"> <p>Poisson : Exemples/pixels. </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>4 </p> </td> 
    <td colname="col5"> <p>Valeur par défaut : 1. </p> </td> 
   </tr> 
@@ -141,7 +142,7 @@ Ces paramètres sont contrôlés de manière interactive dans la création d’i
    <td colname="col1"> <p>O </p> </td> 
    <td colname="col2"> <p>Poisson : Utiliser la bascule. </p> </td> 
    <td colname="col3"> <p>01 </p> </td> 
-   <td colname="col4"> <p>1 </p> </td> 
+   <td colname="col4"> <p>3 </p> </td> 
    <td colname="col5"> <p>Valeur par défaut : 1. </p> </td> 
   </tr> 
   <tr> 
