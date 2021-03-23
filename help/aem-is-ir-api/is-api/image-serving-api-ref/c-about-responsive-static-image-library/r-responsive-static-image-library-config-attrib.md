@@ -4,12 +4,13 @@ seo-description: Les attributs de configuration sont définis comme des attribut
 seo-title: Référence de commande - Attributs de configuration
 solution: Experience Manager
 title: Référence de commande - Attributs de configuration
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a3d52680-2a28-40c8-9b5f-b1c252c88e4d
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
