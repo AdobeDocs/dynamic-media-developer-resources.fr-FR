@@ -4,12 +4,13 @@ seo-description: Référence de l’API JavaScript pour la visionneuse de zoom i
 seo-title: setAsset
 solution: Experience Manager
 title: setAsset
-topic: Dynamic Media
 uuid: 5bb7aebf-0a1d-4783-923d-7f7e7dcb9baa
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Zoom intégré
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '146'
 ht-degree: 2%
 
 ---
