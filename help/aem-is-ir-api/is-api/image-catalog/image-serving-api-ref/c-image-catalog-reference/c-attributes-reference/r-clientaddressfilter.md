@@ -4,13 +4,14 @@ seo-description: Filtre d’adresse IP du client. Permet la spécification d’u
 seo-title: ClientAddressFilter
 solution: Experience Manager
 title: ClientAddressFilter
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6a557795-0caf-4b5f-974e-fb4c1481a83c
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 4%
+source-wordcount: '152'
+ht-degree: 3%
 
 ---
 
