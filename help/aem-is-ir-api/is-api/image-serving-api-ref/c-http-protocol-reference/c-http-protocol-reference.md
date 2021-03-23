@@ -4,13 +4,14 @@ seo-description: Ce document décrit le protocole HTTP pour la diffusion d’ima
 seo-title: Référence du protocole HTTP
 solution: Experience Manager
 title: Référence du protocole HTTP
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f0d9a8ca-a5d4-419c-8f26-1b1234db4c01
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 2%
+source-wordcount: '54'
+ht-degree: 1%
 
 ---
 
