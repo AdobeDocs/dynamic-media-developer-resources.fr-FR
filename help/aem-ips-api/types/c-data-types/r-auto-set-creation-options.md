@@ -4,12 +4,13 @@ seo-description: Liste automatique de script de génération de jeux pour les t�
 seo-title: OptionsCréationAutoSet
 solution: Experience Manager
 title: OptionsCréationAutoSet
-topic: Dynamic Media Image Production System API
 uuid: 2840fc3a-1135-4719-8f62-96a816df5f88
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '94'
 ht-degree: 5%
 
 ---
