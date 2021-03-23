@@ -4,12 +4,13 @@ seo-description: Le panneau Appel à l’action s’affiche à la fin de la vid�
 seo-title: Appel à l'action
 solution: Experience Manager
 title: Appel à l'action
-topic: Dynamic Media
 uuid: 04a042d8-7329-4f1d-b3b9-312d620b1f29
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1309'
 ht-degree: 3%
 
 ---
