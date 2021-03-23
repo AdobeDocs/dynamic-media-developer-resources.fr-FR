@@ -2,11 +2,12 @@
 description: Pour utiliser Image Serving, une clé de licence Dynamic Media Image Serving est requise et doit être installée sur chaque système sur lequel Image Serving doit être utilisé.
 solution: Experience Manager
 title: Licence
-topic: Dynamic Media Image Serving - Image Rendering API
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
