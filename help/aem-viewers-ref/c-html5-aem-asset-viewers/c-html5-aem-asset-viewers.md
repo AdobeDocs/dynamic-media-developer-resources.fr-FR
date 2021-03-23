@@ -2,13 +2,14 @@
 description: Visionneuses pour AEM Assets uniquement
 solution: Experience Manager
 title: Visionneuses pour AEM Assets uniquement
-topic: Dynamic Media
 uuid: ad815ca0-834c-404e-8baa-744a9d57dbd6
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Zoom
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 6%
+source-wordcount: '41'
+ht-degree: 4%
 
 ---
 
