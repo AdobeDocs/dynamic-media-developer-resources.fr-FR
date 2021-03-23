@@ -4,13 +4,14 @@ seo-description: Attribut de configuration pour la visionneuse de vidéos intera
 seo-title: CallToAction.enabledragging
 solution: Experience Manager
 title: CallToAction.enabledragging
-topic: Dynamic Media
 uuid: efb272b5-e30e-44d5-9dec-0529b1074ed2
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 5%
+source-wordcount: '101'
+ht-degree: 4%
 
 ---
 
