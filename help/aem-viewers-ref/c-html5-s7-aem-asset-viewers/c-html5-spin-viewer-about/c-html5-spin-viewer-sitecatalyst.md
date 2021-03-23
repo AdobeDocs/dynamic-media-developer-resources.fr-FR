@@ -4,12 +4,13 @@ seo-description: La visionneuse à 360° prend en charge le suivi Adobe Analytic
 seo-title: Prise en charge du suivi Adobe Analytics
 solution: Experience Manager
 title: Prise en charge du suivi Adobe Analytics
-topic: Dynamic Media
 uuid: 337671f0-22e8-4e3e-a0a9-ce49d271ea56
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Visionneuses à 360°
+role: Développeur, Professionnel, Ingénieur de données, Architecte de données
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '187'
 ht-degree: 2%
 
 ---
