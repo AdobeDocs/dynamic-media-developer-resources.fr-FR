@@ -4,12 +4,13 @@ seo-description: Définition de cible pour une action de clic dans le navigateur
 seo-title: ImageMapDefinition
 solution: Experience Manager
 title: ImageMapDefinition
-topic: Dynamic Media Image Production System API
 uuid: e3b9a304-5c43-46ce-8e87-860b49006a37
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '89'
 ht-degree: 10%
 
 ---
