@@ -4,12 +4,13 @@ seo-description: La barre de défilement de la vidéo est la commande de curseur
 seo-title: Défilement vidéo
 solution: Experience Manager
 title: Défilement vidéo
-topic: Dynamic Media
 uuid: b5574de1-7fb1-4fda-bfe7-a58ea2a8389d
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Combiner des visionneuses de supports
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '393'
 ht-degree: 3%
 
 ---
