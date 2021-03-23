@@ -4,12 +4,13 @@ seo-description: L’indicateur de zoom est superposé sur la zone de vue de zoo
 seo-title: Effet d’icône de vue de zoom
 solution: Experience Manager
 title: Effet d’icône de vue de zoom
-topic: Dynamic Media
 uuid: 69a44789-9587-4459-9c75-048773c9e368
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Combiner des visionneuses de supports
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '212'
 ht-degree: 1%
 
 ---
