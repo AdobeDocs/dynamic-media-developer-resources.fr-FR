@@ -4,12 +4,13 @@ seo-description: Définit les commandes du protocole de diffusion d’images ou 
 seo-title: setUrlModificateur
 solution: Experience Manager
 title: setUrlModificateur
-topic: Dynamic Media Image Production System API
 uuid: ec423e57-338b-4a32-be5a-a73fa96712ce
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '209'
 ht-degree: 6%
 
 ---
