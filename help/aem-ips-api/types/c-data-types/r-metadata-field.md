@@ -4,13 +4,14 @@ seo-description: Définitions de champs définies par l’utilisateur pour des r
 seo-title: MetadataField
 solution: Experience Manager
 title: MetadataField
-topic: Dynamic Media Image Production System API
 uuid: 6156be6e-efa5-4e90-928d-2ab936668154
+feature: Dynamic Media Classic, SDK/API, Métadonnées
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 14%
+source-wordcount: '160'
+ht-degree: 13%
 
 ---
 
