@@ -4,12 +4,13 @@ seo-description: Définit les autorisations d’un seul fichier à l’aide d’
 seo-title: setAssetPermissions
 solution: Experience Manager
 title: setAssetPermissions
-topic: Dynamic Media Image Production System API
 uuid: 38f26482-bce9-4d2c-9714-e8c3ae40c2d1
+feature: Dynamic Media Classic, SDK/API, Gestion des ressources
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '147'
 ht-degree: 8%
 
 ---
