@@ -4,12 +4,13 @@ seo-description: L’image de préchargement est une image de prévisualisation 
 seo-title: Image de préchargement
 solution: Experience Manager
 title: Image de préchargement
-topic: Dynamic Media
 uuid: cb5db16d-b496-40e4-b8ef-5573c42d2850
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Images interactives
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
