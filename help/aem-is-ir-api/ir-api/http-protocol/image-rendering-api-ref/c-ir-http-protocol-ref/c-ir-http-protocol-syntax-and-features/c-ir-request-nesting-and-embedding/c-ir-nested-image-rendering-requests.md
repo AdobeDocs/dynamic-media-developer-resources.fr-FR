@@ -4,12 +4,13 @@ seo-description: Pour les applications avancées, il est possible d’utiliser l
 seo-title: Demandes de rendu d’image imbriquées
 solution: Experience Manager
 title: Demandes de rendu d’image imbriquées
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 12551bd5-ff5f-45d6-81e9-5ba0be47a425
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -37,6 +38,6 @@ Les commandes suivantes sont ignorées lorsqu’elles sont spécifiées dans des
 * `req=`
 * `bgc=`
 
-`attribute::MaxPix` et `attribute::DefaultPix` du catalogue de matières qui s’applique à la demande de rendu imbriquée sont également ignorés.
+Sont également ignorées `attribute::MaxPix` et `attribute::DefaultPix` du catalogue de matières qui s’applique à la demande de rendu imbriquée.
 
 Le résultat d&#39;image d&#39;une requête IR imbriquée peut être mis en cache éventuellement en incluant `cache=on`. Par défaut, la mise en cache des données intermédiaires est désactivée. La mise en cache ne doit être activée que lorsque l’image intermédiaire doit être réutilisée dans une autre demande dans un délai raisonnable. La gestion standard du cache côté serveur s’applique. Les données sont mises en cache dans un format sans perte.
