@@ -4,12 +4,13 @@ seo-description: Utilisez ces paramètres de serveur pour rediriger les erreurs.
 seo-title: Redirection d'erreur
 solution: Experience Manager
 title: Redirection d'erreur
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b2c2f725-98c3-44a4-8f50-2ca4da7f2156
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
