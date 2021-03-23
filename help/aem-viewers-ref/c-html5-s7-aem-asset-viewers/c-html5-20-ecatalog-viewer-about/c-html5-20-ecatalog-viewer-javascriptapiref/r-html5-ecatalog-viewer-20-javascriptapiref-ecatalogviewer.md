@@ -4,12 +4,13 @@ seo-description: Référence de l’API JavaScript pour la visionneuse de catalo
 seo-title: Visionneuse de catalogue électronique
 solution: Experience Manager
 title: Visionneuse de catalogue électronique
-topic: Dynamic Media
 uuid: b87b6f6b-3e83-47b3-b867-30eca5eae56b
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Catalogue électronique
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '221'
 ht-degree: 3%
 
 ---
