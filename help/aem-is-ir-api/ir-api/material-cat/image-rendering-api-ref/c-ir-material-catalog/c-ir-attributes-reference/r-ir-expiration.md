@@ -4,12 +4,13 @@ seo-description: Temps de mise en cache du client par défaut à vivre. Fournit 
 seo-title: Expiration
 solution: Experience Manager
 title: Expiration
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2b56f9ec-2b25-4e6a-aead-6dad3d2df975
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '200'
 ht-degree: 3%
 
 ---
