@@ -4,12 +4,13 @@ seo-description: Les paramètres de configuration du rendu d’image sont stock�
 seo-title: Fichiers de configuration
 solution: Experience Manager
 title: Fichiers de configuration
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ffd1c65b-e084-4a7e-9a15-600d6c5b173a
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
