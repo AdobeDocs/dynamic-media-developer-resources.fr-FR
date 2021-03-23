@@ -4,12 +4,13 @@ seo-description: Chemins d’accès aux fichiers de données SVG. Indique les fi
 seo-title: SvgCatalogFile
 solution: Experience Manager
 title: SvgCatalogFile
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f0c8e687-77cc-4ca7-b2c2-6ba8960e11e6
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '138'
 ht-degree: 3%
 
 ---
