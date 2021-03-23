@@ -4,13 +4,14 @@ seo-description: Récupère les adhésions d’un utilisateur dans un tableau de
 seo-title: getCompanyMembership
 solution: Experience Manager
 title: getCompanyMembership
-topic: Dynamic Media Image Production System API
 uuid: fb3dfe29-4292-4ab2-8015-36c4930a9c05
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 16%
+source-wordcount: '97'
+ht-degree: 15%
 
 ---
 
