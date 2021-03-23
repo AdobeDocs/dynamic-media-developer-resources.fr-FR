@@ -4,12 +4,13 @@ seo-description: Si un mappage de profil ICC est requis pour un catalogue d’im
 seo-title: Référence de carte de profil ICC
 solution: Experience Manager
 title: Référence de carte de profil ICC
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: eee1e8d5-cf16-4e73-9b44-4ec032cf3553
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
