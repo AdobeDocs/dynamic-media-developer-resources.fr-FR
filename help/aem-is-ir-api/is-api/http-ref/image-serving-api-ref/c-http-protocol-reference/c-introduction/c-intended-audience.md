@@ -4,12 +4,13 @@ seo-description: Des programmeurs expérimentés et des développeurs de sites W
 seo-title: Audience prévue
 solution: Experience Manager
 title: Audience prévue
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 610fe9a9-897d-4e20-8879-334587c54a5b
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
