@@ -4,12 +4,13 @@ seo-description: Décrit les modifications nouvelles et mises en oeuvre pour l'A
 seo-title: Nouveaux ajouts et modifications
 solution: Experience Manager
 title: Nouveaux ajouts et modifications
-topic: Dynamic Media Image Production System API
 uuid: ca4bbe36-c1b7-471f-90a8-6b695d56ac7a
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1241'
 ht-degree: 2%
 
 ---
