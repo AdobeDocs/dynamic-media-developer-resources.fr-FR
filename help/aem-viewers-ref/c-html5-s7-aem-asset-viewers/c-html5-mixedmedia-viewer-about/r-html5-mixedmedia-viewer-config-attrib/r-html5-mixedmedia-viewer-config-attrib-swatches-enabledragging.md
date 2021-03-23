@@ -2,13 +2,14 @@
 description: Swatches.enabledragging
 solution: Experience Manager
 title: Swatches.enabledragging
-topic: Dynamic Media
 uuid: f676b0b1-2ce0-4409-8db6-ce162b03053b
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Combiner des visionneuses de supports
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 6%
+source-wordcount: '87'
+ht-degree: 5%
 
 ---
 
