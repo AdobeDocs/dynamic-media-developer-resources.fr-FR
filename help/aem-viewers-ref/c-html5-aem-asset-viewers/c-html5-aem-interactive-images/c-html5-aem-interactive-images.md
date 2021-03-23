@@ -4,12 +4,13 @@ seo-description: Interactive Image Viewer est une visionneuse qui affiche une se
 seo-title: Image interactive
 solution: Experience Manager
 title: Image interactive
-topic: Dynamic Media
 uuid: 18b7a0c3-c047-4ce1-8920-1d8ebc1ab60e
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Images interactives
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1806'
+source-wordcount: '1817'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Interactive Image Viewer est une visionneuse qui affiche une seule image non zoo
 
 >[!NOTE]
 >
->Cette visionneuse ne prend pas en charge les images qui utilisent la fonction IR (Image Rendering) ou UGC (User-Generated Content).
+>Les images qui utilisent la fonction IR (Image Rendering) ou UGC (User-Generated Content) ne sont pas prises en charge par cette visionneuse.
 
 Le type de lecteur est 508.
 
