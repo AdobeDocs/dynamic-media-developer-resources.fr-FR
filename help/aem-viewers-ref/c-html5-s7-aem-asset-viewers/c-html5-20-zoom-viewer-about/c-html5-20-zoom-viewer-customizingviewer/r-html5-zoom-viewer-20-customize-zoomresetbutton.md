@@ -4,12 +4,13 @@ seo-description: Cliquez ou appuyez sur ce bouton pour réinitialiser une image 
 seo-title: Bouton de réinitialisation de zoom
 solution: Experience Manager
 title: Bouton de réinitialisation de zoom
-topic: Dynamic Media
 uuid: b3119094-ab50-4aa4-a0ac-11d90f109908
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Zoom
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '245'
 ht-degree: 2%
 
 ---
