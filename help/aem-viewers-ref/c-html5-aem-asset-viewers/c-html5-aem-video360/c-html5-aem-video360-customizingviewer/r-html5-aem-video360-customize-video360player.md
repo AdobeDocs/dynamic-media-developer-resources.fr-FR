@@ -4,12 +4,13 @@ seo-description: Le lecteur vidéo est la zone rectangulaire dans laquelle le co
 seo-title: Lecteur vidéo360
 solution: Experience Manager
 title: Lecteur vidéo360
-topic: Dynamic Media
 uuid: e78a9c22-4217-42cc-ba47-3acb4130a4fd
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo 360 VR
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '233'
 ht-degree: 1%
 
 ---
