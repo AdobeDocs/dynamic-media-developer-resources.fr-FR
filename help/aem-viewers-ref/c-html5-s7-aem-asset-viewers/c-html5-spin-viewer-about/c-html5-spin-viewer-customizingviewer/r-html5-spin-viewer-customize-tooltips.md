@@ -4,12 +4,13 @@ seo-description: Sur les systèmes de bureau, certains éléments de l’interfa
 seo-title: Info-bulles
 solution: Experience Manager
 title: Info-bulles
-topic: Dynamic Media
 uuid: f5c2c648-ce1d-401f-9c26-7b5b79438738
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Visionneuses à 360°
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '164'
 ht-degree: 2%
 
 ---
