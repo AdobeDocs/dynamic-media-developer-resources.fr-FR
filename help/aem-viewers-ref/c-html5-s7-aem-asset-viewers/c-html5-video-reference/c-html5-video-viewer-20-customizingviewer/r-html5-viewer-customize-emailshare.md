@@ -4,12 +4,13 @@ seo-description: L’outil de partage de courrier électronique est constitué d
 seo-title: Partage de courrier électronique
 solution: Experience Manager
 title: Partage de courrier électronique
-topic: Dynamic Media
 uuid: 4c6abb74-7e13-4fed-bbfb-45e388627578
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '3020'
+source-wordcount: '3030'
 ht-degree: 2%
 
 ---
@@ -977,7 +978,7 @@ Le contenu partagé s’affiche dans la partie inférieure du corps de la boîte
  </tbody> 
 </table>
 
-Exemple : pour configurer un conteneur inférieur de sorte qu’il ait une bordure en pointillé d’un pixel et aucun remplissage :
+Exemple : pour configurer un conteneur inférieur de sorte qu’il ait une bordure en pointillé d’un pixel et qu’il n’y ait pas de remplissage :
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogbody .s7dialogcontent { 
