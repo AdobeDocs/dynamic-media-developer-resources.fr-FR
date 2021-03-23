@@ -4,12 +4,13 @@ seo-description: Hauteur de l’image de réponse. Indique la mise à l’échel
 seo-title: hei
 solution: Experience Manager
 title: hei
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 616d3306-ccbd-4400-8a94-1ff6f47b802e
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '283'
 ht-degree: 2%
 
 ---
@@ -30,7 +31,7 @@ Hauteur de l’image de réponse. Indique la mise à l’échelle de l’image r
 
 L’image n’est pas complétée si `wid=` et `hei=` sont tous deux spécifiés et si la largeur/hauteur est différente du format de l’image.
 
-`wid=` et  `hei=` travaillez ensemble pour définir la taille de l’image qui est renvoyée par le serveur. Si `scl=` suit `wid=` ou `hei=` dans l’URL, il annule ces commandes et `scl=` définit la taille de l’image renvoyée par le serveur.
+`wid=` et  `hei=` travaillez ensemble pour définir la taille de l’image qui est renvoyée par le serveur. Si `scl=` vient après `wid=` ou `hei=` dans l’URL, il annule ces commandes et `scl=` définit la taille de l’image renvoyée par le serveur.
 
 Cependant, si `wid=` ou `hei=` vient après `scl=` dans l’URL, ils annulent `scl=` et `wid=`/ `hei=` définissent la taille de l’image renvoyée par le serveur.
 
