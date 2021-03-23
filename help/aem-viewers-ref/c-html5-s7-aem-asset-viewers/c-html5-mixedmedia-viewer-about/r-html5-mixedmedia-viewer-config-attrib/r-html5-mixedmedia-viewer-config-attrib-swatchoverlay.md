@@ -2,13 +2,14 @@
 description: swatchoverve
 solution: Experience Manager
 title: swatchoverve
-topic: Dynamic Media
 uuid: 2226a368-5db5-42a1-94be-b219560e3891
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Combiner des visionneuses de supports
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 8%
+source-wordcount: '72'
+ht-degree: 6%
 
 ---
 
