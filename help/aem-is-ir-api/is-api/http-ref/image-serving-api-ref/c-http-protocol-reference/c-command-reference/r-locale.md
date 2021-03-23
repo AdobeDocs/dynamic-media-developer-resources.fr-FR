@@ -4,12 +4,13 @@ seo-description: ID de paramètre régional de traduction. Indique l’ID de par
 seo-title: local
 solution: Experience Manager
 title: local
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 82acc0bb-fd94-44c9-8ff9-3b9cefab4627
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '138'
 ht-degree: 5%
 
 ---
