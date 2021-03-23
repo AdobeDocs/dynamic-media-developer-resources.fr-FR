@@ -4,12 +4,13 @@ seo-description: Tous les paramètres de Render Server se trouvent dans install_
 seo-title: Référence des paramètres de configuration
 solution: Experience Manager
 title: Référence des paramètres de configuration
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: fd9629d6-901d-4015-a49e-d3a36e18a7a3
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
