@@ -2,12 +2,13 @@
 description: Espace de nommage SDK du lecteur
 solution: Experience Manager
 title: Espace de nommage SDK du lecteur
-topic: Dynamic Media
 uuid: 17e5d60e-e9e1-4925-ba30-605d9e2fae17
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Catalogue électronique
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
