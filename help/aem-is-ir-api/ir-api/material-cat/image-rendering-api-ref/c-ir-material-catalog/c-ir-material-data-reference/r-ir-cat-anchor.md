@@ -4,12 +4,13 @@ seo-description: Ancre d’image. Indique le point d’ancrage (zone réactive) 
 seo-title: Ancre
 solution: Experience Manager
 title: Ancre
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0b1a0fea-b299-44dc-b9fd-5916130b2ef3
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '184'
 ht-degree: 3%
 
 ---
