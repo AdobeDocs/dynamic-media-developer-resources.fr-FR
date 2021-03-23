@@ -4,12 +4,13 @@ seo-description: Attributs de calque de texte. Spécifie des attributs suppléme
 seo-title: textAttr
 solution: Experience Manager
 title: textAttr
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 07b3d263-2ed6-4363-83e1-3b841e9967c5
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '472'
 ht-degree: 1%
 
 ---
