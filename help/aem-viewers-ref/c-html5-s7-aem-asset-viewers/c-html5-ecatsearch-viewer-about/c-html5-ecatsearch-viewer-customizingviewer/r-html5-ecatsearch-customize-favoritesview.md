@@ -4,12 +4,13 @@ seo-description: La vue Favoris se compose d’une colonne d’images miniatures
 seo-title: Vue Favoris
 solution: Experience Manager
 title: Vue Favoris
-topic: Dynamic Media
 uuid: e9d0380e-3b08-45e4-8419-447df2e8de37
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '304'
 ht-degree: 1%
 
 ---
