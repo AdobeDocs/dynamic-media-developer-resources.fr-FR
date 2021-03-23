@@ -4,13 +4,14 @@ seo-description: Qualité Jpeg. Spécifie les attributs de codage JPEG pour cont
 seo-title: qlt
 solution: Experience Manager
 title: qlt
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 936607c1-20c3-4f76-b970-614b21c47dea
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 13%
+source-wordcount: '226'
+ht-degree: 12%
 
 ---
 
