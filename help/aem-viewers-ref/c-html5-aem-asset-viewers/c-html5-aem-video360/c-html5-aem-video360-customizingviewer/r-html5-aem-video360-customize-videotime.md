@@ -4,12 +4,13 @@ seo-description: L’heure de la vidéo est l’affichage numérique qui montre 
 seo-title: Durée de la vidéo
 solution: Experience Manager
 title: Durée de la vidéo
-topic: Dynamic Media
 uuid: f8ba615f-661a-4750-bdf7-559650d464af
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo 360 VR
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '227'
 ht-degree: 1%
 
 ---
