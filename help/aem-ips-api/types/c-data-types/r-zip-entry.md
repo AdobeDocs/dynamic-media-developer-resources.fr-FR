@@ -4,13 +4,14 @@ seo-description: Entrée dans un fichier ZIP.
 seo-title: EntréeZip
 solution: Experience Manager
 title: EntréeZip
-topic: Dynamic Media Image Production System API
 uuid: 05aac11b-249c-4c44-943d-fa6bf35d3637
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 12%
+source-wordcount: '57'
+ht-degree: 10%
 
 ---
 
