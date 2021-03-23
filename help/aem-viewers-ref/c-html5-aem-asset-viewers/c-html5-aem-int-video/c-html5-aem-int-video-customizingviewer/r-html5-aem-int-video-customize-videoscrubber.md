@@ -4,13 +4,14 @@ seo-description: La barre de défilement de la vidéo est la commande de curseur
 seo-title: Défilement vidéo
 solution: Experience Manager
 title: Défilement vidéo
-topic: Dynamic Media
 uuid: cfd1055b-c4d6-42e4-ad24-a897e923e8e9
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1042'
-ht-degree: 2%
+source-wordcount: '1053'
+ht-degree: 1%
 
 ---
 
@@ -462,7 +463,7 @@ Le connecteur de coin situé au bas de la bulle de chapitre est contrôlé par l
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bordure-largeur  </span> </p> </td> 
-   <td colname="col2"> <p> Largeur du connecteur de coin. </p> <p>Défini comme <span class="codeph"> &lt;width&gt; &lt;width&gt; 0 </span> de sorte que la même largeur soit définie pour les bordures supérieure et horizontale uniquement et que la largeur inférieure de la bordure soit <span class="codeph"> 0 </span>. </p> </td> 
+   <td colname="col2"> <p> Largeur du connecteur de coin. </p> <p>Défini comme <span class="codeph"> &lt;width&gt; &lt;width&gt; 0 </span> de sorte que la même largeur soit définie pour les bordures supérieure et horizontale uniquement et que la largeur de bordure inférieure soit <span class="codeph"> 0 </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
