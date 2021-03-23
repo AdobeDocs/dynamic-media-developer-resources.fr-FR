@@ -4,12 +4,13 @@ seo-description: Le panneau Nuanciers interactifs s’affiche en regard du conte
 seo-title: Nuances interactives
 solution: Experience Manager
 title: Nuances interactives
-topic: Dynamic Media
 uuid: 9f9df764-3dd0-414e-a0db-4287f0019313
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '950'
 ht-degree: 2%
 
 ---
