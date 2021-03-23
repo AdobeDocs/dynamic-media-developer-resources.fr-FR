@@ -4,12 +4,13 @@ seo-description: Visionneuse d’image. Spécifie une valeur de visionneuse d’
 seo-title: imageSet
 solution: Experience Manager
 title: imageSet
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ecfb3905-e3ef-4ab8-a2c4-2c3f200e0f0f
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '143'
 ht-degree: 9%
 
 ---
