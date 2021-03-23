@@ -2,13 +2,14 @@
 description: searchServerUrl
 solution: Experience Manager
 title: searchServerUrl
-topic: Dynamic Media
 uuid: 2fe19821-923a-4156-9c52-48769467179d
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 14%
+source-wordcount: '39'
+ht-degree: 10%
 
 ---
 
