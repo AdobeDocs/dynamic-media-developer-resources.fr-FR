@@ -4,13 +4,14 @@ seo-description: Masquer l’objet de chevauchement. Masque tous les objets de r
 seo-title: masquer
 solution: Experience Manager
 title: masquer
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 15c01750-958a-497d-a999-cacf359bb985
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 7%
+source-wordcount: '119'
+ht-degree: 6%
 
 ---
 
