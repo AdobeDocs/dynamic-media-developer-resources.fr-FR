@@ -4,12 +4,13 @@ seo-description: De nombreux aspects de la diffusion d’images et du rendu d’
 seo-title: Configuration du serveur
 solution: Experience Manager
 title: Configuration du serveur
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: ee6346df-24cc-43be-ba79-c1cba2f237e3
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
