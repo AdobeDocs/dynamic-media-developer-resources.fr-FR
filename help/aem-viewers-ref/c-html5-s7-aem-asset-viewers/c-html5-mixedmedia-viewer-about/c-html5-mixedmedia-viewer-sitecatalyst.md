@@ -4,13 +4,14 @@ seo-description: La visionneuse de supports variés prend en charge le suivi Ado
 seo-title: Prise en charge du suivi Adobe Analytics
 solution: Experience Manager
 title: Prise en charge du suivi Adobe Analytics
-topic: Dynamic Media
 uuid: ad4dfed6-121f-4adb-bbdb-db6e6ee5672d
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Combiner des visionneuses de supports
+role: Développeur, Professionnel, Ingénieur de données, Architecte de données
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 5%
+source-wordcount: '212'
+ht-degree: 4%
 
 ---
 
@@ -88,7 +89,7 @@ Le lecteur effectue le suivi des événements d’utilisateur SDK suivants :
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAUSE </span> </p> </td> 
-   <td colname="col2"> <p>la lecture est interrompue. </p> </td> 
+   <td colname="col2"> <p>la lecture est suspendue. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ARRET </span> </p> </td> 
@@ -96,11 +97,11 @@ Le lecteur effectue le suivi des événements d’utilisateur SDK suivants :
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> JALON </span> </p> </td> 
-   <td colname="col2"> <p>la lecture atteint l’une des minuscules suivantes : 0 %, 25 %, 50 %, 75 % et 100 %. </p> </td> 
+   <td colname="col2"> <p>la lecture atteint l’une des meules suivantes : 0 %, 25 %, 50 %, 75 % et 100 %. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ROTATION </span> </p> </td> 
-   <td colname="col2"> <p>spin est exécuté. </p> </td> 
+   <td colname="col2"> <p>spin est effectué. </p> </td> 
   </tr> 
  </tbody> 
 </table>
