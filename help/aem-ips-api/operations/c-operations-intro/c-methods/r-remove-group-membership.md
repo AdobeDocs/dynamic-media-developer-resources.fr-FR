@@ -4,13 +4,14 @@ seo-description: Supprime les utilisateurs d’un tableau de groupes.
 seo-title: removeGroupMembership
 solution: Experience Manager
 title: removeGroupMembership
-topic: Dynamic Media Image Production System API
 uuid: 553d91a3-73d6-4323-9436-a3ba13260a6c
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 10%
+source-wordcount: '117'
+ht-degree: 9%
 
 ---
 
