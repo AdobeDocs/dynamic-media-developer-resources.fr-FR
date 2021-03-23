@@ -4,12 +4,13 @@ seo-description: Référence de l’API JavaScript pour la visionneuse de vidéo
 seo-title: init
 solution: Experience Manager
 title: init
-topic: Dynamic Media
 uuid: 74d660a1-95b3-4009-92f3-228cbe6aedc7
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Zoom
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '137'
 ht-degree: 2%
 
 ---
