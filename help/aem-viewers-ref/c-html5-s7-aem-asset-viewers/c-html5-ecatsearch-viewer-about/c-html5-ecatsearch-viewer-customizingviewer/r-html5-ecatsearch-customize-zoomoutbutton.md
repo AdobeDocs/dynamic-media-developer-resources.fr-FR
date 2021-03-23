@@ -4,12 +4,13 @@ seo-description: Cliquez ou appuyez sur ce bouton pour effectuer un zoom arrièr
 seo-title: Bouton Zoom arrière
 solution: Experience Manager
 title: Bouton Zoom arrière
-topic: Dynamic Media
 uuid: cf1c62eb-e0a4-413d-93d3-3aed31e9a444
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '319'
 ht-degree: 2%
 
 ---
