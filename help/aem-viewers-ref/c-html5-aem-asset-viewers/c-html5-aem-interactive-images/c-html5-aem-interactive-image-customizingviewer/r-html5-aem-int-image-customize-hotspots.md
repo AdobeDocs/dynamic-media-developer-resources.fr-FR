@@ -4,13 +4,14 @@ seo-description: Le lecteur affiche des icônes de zones réactives sur la vue p
 seo-title: Zones sensibles
 solution: Experience Manager
 title: Zones sensibles
-topic: Dynamic Media
 uuid: 79c4d128-e24a-43b0-8e18-13b588eb396e
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Images interactives
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 2%
+source-wordcount: '154'
+ht-degree: 1%
 
 ---
 
