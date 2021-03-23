@@ -1,16 +1,17 @@
 ---
 description: La personnalisation visuelle et la personnalisation de comportement la plus importante pour la visionneuse de carrousel sont effectuées en créant une page CSS personnalisée.
-keywords: responsive
+keywords: réactif
 seo-description: La personnalisation visuelle et la personnalisation de comportement la plus importante pour la visionneuse de carrousel sont effectuées en créant une page CSS personnalisée.
 seo-title: Personnalisation de la visionneuse de carrousel
 solution: Experience Manager
 title: Personnalisation de la visionneuse de carrousel
-topic: Dynamic Media
 uuid: a35dac3c-8785-42bf-8284-e400128f213c
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Bannières de carrousel
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1368'
 ht-degree: 0%
 
 ---
