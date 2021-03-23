@@ -4,12 +4,13 @@ seo-description: La diffusion d’images prend en charge l’accès aux images s
 seo-title: Sources d’images étrangères
 solution: Experience Manager
 title: Sources d’images étrangères
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 28a17400-4807-4e14-937a-80309be53d55
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '126'
 ht-degree: 0%
 
 ---
