@@ -2,13 +2,14 @@
 description: SearchPanel.fmt
 solution: Experience Manager
 title: SearchPanel.fmt
-topic: Dynamic Media
 uuid: 58b88cc9-e07a-47aa-a0d2-c81428ca4d1e
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 6%
+source-wordcount: '76'
+ht-degree: 5%
 
 ---
 
