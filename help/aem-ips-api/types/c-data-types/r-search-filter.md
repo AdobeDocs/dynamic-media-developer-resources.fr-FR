@@ -4,12 +4,13 @@ seo-description: Filtres qui vous aident à définir des critères de recherche 
 seo-title: SearchFilter
 solution: Experience Manager
 title: SearchFilter
-topic: Dynamic Media Image Production System API
 uuid: 85a434d3-51a5-4e68-901e-70585c0e8b20
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '282'
 ht-degree: 7%
 
 ---
