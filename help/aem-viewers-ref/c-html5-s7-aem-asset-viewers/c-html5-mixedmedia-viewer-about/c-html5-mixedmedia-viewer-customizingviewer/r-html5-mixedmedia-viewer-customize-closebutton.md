@@ -4,12 +4,13 @@ seo-description: Cliquez ou appuyez sur ce bouton pour fermer la page Web qui la
 seo-title: Bouton Fermer
 solution: Experience Manager
 title: Bouton Fermer
-topic: Dynamic Media
 uuid: d30e1bdf-31a9-463f-99f7-a978acb50ebc
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Combiner des visionneuses de supports
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '273'
 ht-degree: 2%
 
 ---
