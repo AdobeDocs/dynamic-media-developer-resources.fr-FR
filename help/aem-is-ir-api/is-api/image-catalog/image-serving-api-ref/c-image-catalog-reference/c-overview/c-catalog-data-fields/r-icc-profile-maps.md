@@ -4,12 +4,13 @@ seo-description: Les champs suivants sont reconnus dans les fichiers de mappage 
 seo-title: Cartes de profil ICC
 solution: Experience Manager
 title: Cartes de profil ICC
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b244c95a-3198-4d6c-836f-f199022348b4
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '62'
 ht-degree: 0%
 
 ---
