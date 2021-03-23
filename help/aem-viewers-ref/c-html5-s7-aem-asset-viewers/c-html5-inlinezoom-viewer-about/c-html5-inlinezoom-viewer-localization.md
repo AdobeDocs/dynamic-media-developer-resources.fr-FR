@@ -4,12 +4,13 @@ seo-description: Le contenu affiché par la visionneuse déroulante est sujet à
 seo-title: Localisation des éléments de l’interface utilisateur
 solution: Experience Manager
 title: Localisation des éléments de l’interface utilisateur
-topic: Dynamic Media
 uuid: d824c0c3-3606-4903-96f7-de26a61a8f65
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Zoom intégré
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
