@@ -4,12 +4,13 @@ seo-description: Référence de l’API JavaScript pour le lecteur vidéo360.
 seo-title: setParams
 solution: Experience Manager
 title: setParams
-topic: Dynamic Media
 uuid: 0a5b9798-0e3f-4310-9b6e-0214a420951b
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo 360 VR
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '115'
 ht-degree: 2%
 
 ---
