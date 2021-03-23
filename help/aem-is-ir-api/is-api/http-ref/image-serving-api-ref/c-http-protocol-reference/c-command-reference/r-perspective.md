@@ -4,12 +4,13 @@ seo-description: Transformation de la perspective. Appliquez une transformation 
 seo-title: perspective
 solution: Experience Manager
 title: perspective
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: b22d7b49-db08-48df-80bc-5b7237aea475
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '485'
 ht-degree: 2%
 
 ---
@@ -89,7 +90,7 @@ Si la source est une image, utilisez `scale=` pour choisir une résolution diff�
 
 ## Propriétés {#section-818e57df0a1b4449888543bc6af77751}
 
-Calque, commande. S’applique au calque actif ou au calque 0 si `layer=comp`. Ignoré par les calques d’effet.
+Calque, commande. S&#39;applique au calque actif ou au calque 0 si `layer=comp`. Ignoré par les calques d’effet.
 
 `res=` est toujours ignorée lorsque la perspective est présente dans le même calque. `size=` est ignorée lorsqu’elle est spécifiée pour les calques d’image. `size=` et  `res=` dans les calques avec  `perspective=` sont réservés pour une utilisation ultérieure.
 
