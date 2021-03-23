@@ -4,12 +4,13 @@ seo-description: La diffusion d’images offre plusieurs alternatives au rendu d
 seo-title: Formatage du texte
 solution: Experience Manager
 title: Formatage du texte
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e67b6dd2-2a78-4014-9525-816d91c9e783
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '582'
 ht-degree: 6%
 
 ---
@@ -156,7 +157,7 @@ Certains traitements de texte génèrent des fichiers plutôt volumineux, qui in
 
 Le codage de langue basé sur les normes UTF-8 et ISO est pris en charge dans les chaînes RTF en tant qu’alternative aux mécanismes de codage de caractères RTF standard. Cela permet aux applications d&#39;envoyer du texte non anglais au serveur sans connaissance du codage RTF.
 
-Tous les caractères non conformes au protocole HTTP doivent être correctement protégés par une séquence d’échappement si la chaîne doit être transmise via http. Seuls &quot;=&quot;, &quot;&amp;&quot; et &quot;%&quot; doivent être placés en séquence d’échappement si la chaîne est incorporée dans le champ `catalog::Modifiers` d’un enregistrement de catalogue d’images. Les caractères de contrôle, y compris `<CR>`, `<LF>` et `<TAB>` doivent toujours être supprimés.
+Tous les caractères non conformes au protocole HTTP doivent être correctement protégés par une séquence d’échappement si la chaîne doit être transmise via http. Seuls &quot;=&quot;, &quot;&amp;&quot; et &quot;%&quot; doivent être placés en séquence d’échappement si la chaîne est incorporée dans le champ `catalog::Modifiers` d’un enregistrement de catalogue d’images. Les caractères de contrôle, y compris `<CR>`, `<LF>` et `<TAB>`, doivent toujours être supprimés.
 
 Les moteurs de texte Image Serving interprètent un sous-ensemble de commandes définies par la spécification RTF (Rich Text Format), version 1.6. Ce sous-ensemble est axé sur le formatage des polices/caractères, le formatage des paragraphes simple et la prise en charge des polices et des jeux de caractères internationaux. Pour le moment, les éléments de formatage plus avancés, tels que les feuilles de style et les tableaux, ne sont pas pris en charge.
 
