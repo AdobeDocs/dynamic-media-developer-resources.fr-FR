@@ -2,12 +2,13 @@
 description: La fenêtre contextuelle du panneau d’informations s’affiche au milieu de la zone de visualisation lorsqu’un utilisateur active une zone cliquable dont la propriété rollover_key est définie dans Dynamic Media Classic et si la fonction du panneau d’informations est correctement configurée pour la visionneuse.
 solution: Experience Manager
 title: Fenêtre contextuelle du panneau d’informations
-topic: Dynamic Media
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 3%
+source-wordcount: '469'
+ht-degree: 2%
 
 ---
 
