@@ -4,12 +4,13 @@ seo-description: Regroupez les fichiers dans des jeux à l’aide d’un tableau
 seo-title: AutomatedSetGenerationJob
 solution: Experience Manager
 title: AutomatedSetGenerationJob
-topic: Dynamic Media Image Production System API
 uuid: 9c664bde-a731-4d6b-ae6b-c862bda02d4c
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '194'
 ht-degree: 6%
 
 ---
