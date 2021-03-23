@@ -4,12 +4,13 @@ seo-description: La diffusion d’images prend en charge les fichiers SVG (Scala
 seo-title: Prise en charge de SVG
 solution: Experience Manager
 title: Prise en charge de SVG
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 30d7b37d-fdef-4518-a4b3-4baee56fa634
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -41,7 +42,7 @@ Spécifiez soit une requête de diffusion d’images complète, commençant par 
 
 >[!NOTE]
 >
->La prise en charge du rendu des images dans cette version d’Image Serving est limitée. Le référencement d’images à partir de SVG ne doit être utilisé que dans les situations où les mécanismes de calage et de modélisation traditionnels de la diffusion d’images ne suffisent pas pour obtenir le résultat souhaité. En aucun cas, SVG ne doit être utilisé pour générer des composites à plusieurs images.
+>La prise en charge du rendu des images dans cette version d’Image Serving est limitée. Le référencement d’images à partir de SVG ne doit être utilisé que dans les situations où les mécanismes de calage et de modélisation traditionnels de la diffusion d’images sont insuffisants pour obtenir le résultat souhaité. En aucun cas, SVG ne doit être utilisé pour générer des composites à plusieurs images.
 
 >[!NOTE]
 >
