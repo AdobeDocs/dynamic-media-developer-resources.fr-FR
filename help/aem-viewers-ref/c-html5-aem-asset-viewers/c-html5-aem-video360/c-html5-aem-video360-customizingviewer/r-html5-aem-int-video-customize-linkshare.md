@@ -4,12 +4,13 @@ seo-description: L’outil de partage de liens est constitué d’un bouton ajou
 seo-title: Partage de liens
 solution: Experience Manager
 title: Partage de liens
-topic: Dynamic Media
 uuid: c98cb3bd-0e94-46ef-8875-662925d3c067
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo 360 VR
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1433'
 ht-degree: 2%
 
 ---
@@ -121,7 +122,7 @@ Par défaut, la boîte de dialogue modale s’affiche au centre de l’écran su
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
-   <td colname="col2"> <p> Rayon de bordure de la boîte de dialogue, au cas où la boîte de dialogue ne prendrait pas l’intégralité du navigateur. </p> </td> 
+   <td colname="col2"> <p> Rayon de bordure de la boîte de dialogue, au cas où la boîte de dialogue ne prendrait pas la totalité du navigateur. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
@@ -138,7 +139,7 @@ Par défaut, la boîte de dialogue modale s’affiche au centre de l’écran su
  </tbody> 
 </table>
 
-**Exemple**  - pour configurer la boîte de dialogue afin d’utiliser la fenêtre complète du navigateur et d’avoir un arrière-plan blanc sur les périphériques tactiles :
+**Exemple** - pour configurer la boîte de dialogue afin d’utiliser la fenêtre entière du navigateur et d’avoir un arrière-plan blanc sur les périphériques tactiles :
 
 ```
 .s7video360viewer.s7touchinput .s7linkdialog .s7dialog { 
