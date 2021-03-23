@@ -4,13 +4,14 @@ seo-description: Attribut de configuration pour la visionneuse Video360.
 seo-title: Video360Player.posterimage
 solution: Experience Manager
 title: Video360Player.posterimage
-topic: Dynamic Media
 uuid: a1adc3b7-2ea3-4f26-84f2-b5c2f4418038
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo 360 VR
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 14%
+source-wordcount: '93'
+ht-degree: 12%
 
 ---
 
