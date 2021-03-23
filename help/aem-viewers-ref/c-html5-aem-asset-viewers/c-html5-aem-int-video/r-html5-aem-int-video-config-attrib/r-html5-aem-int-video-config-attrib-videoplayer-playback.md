@@ -4,12 +4,13 @@ seo-description: Attribut de configuration pour la visionneuse de vidéos intera
 seo-title: VideoPlayer.playback
 solution: Experience Manager
 title: VideoPlayer.playback
-topic: Dynamic Media
 uuid: 2576f433-b9c2-4da1-9a51-f66b71d5df99
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '127'
 ht-degree: 3%
 
 ---
