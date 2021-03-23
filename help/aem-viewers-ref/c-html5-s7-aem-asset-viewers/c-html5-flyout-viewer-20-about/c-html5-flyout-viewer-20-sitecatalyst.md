@@ -4,12 +4,13 @@ seo-description: La visionneuse Fenêtre déroulante prend en charge le suivi Ad
 seo-title: Prise en charge du suivi Adobe Analytics
 solution: Experience Manager
 title: Prise en charge du suivi Adobe Analytics
-topic: Dynamic Media
 uuid: 204857d3-744a-4c11-90db-1b18ff5ea5df
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Fenêtre déroulante
+role: Développeur, Professionnel, Ingénieur de données, Architecte de données
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '197'
 ht-degree: 2%
 
 ---
