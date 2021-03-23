@@ -4,12 +4,13 @@ seo-description: L’outil de partage Facebook est constitué d’un bouton ajou
 seo-title: Partage Facebook
 solution: Experience Manager
 title: Partage Facebook
-topic: Dynamic Media
 uuid: 0327631d-9847-409c-bce1-e58ee248d701
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
