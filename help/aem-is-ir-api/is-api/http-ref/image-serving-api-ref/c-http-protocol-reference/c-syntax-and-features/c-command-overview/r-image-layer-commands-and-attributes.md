@@ -4,12 +4,13 @@ seo-description: Ces commandes s’appliquent aux calques d’image, en plus des
 seo-title: Commandes du calque d’image
 solution: Experience Manager
 title: Commandes du calque d’image
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: eb8d2af0-3ec1-4730-886b-7494fb22b3e4
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '61'
 ht-degree: 0%
 
 ---
