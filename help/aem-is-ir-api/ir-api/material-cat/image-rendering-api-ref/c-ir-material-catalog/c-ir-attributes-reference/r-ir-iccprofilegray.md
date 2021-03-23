@@ -4,12 +4,13 @@ seo-description: Espace colorimétrique par défaut en niveaux de gris. Indique 
 seo-title: IccProfileGray
 solution: Experience Manager
 title: IccProfileGray
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 064be242-d964-4fb8-99ea-78bb5599e70f
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '153'
 ht-degree: 2%
 
 ---
