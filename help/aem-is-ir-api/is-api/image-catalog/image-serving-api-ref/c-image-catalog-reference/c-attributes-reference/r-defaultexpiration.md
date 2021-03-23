@@ -4,12 +4,13 @@ seo-description: TTL de cache client pour les réponses d’image par défaut. F
 seo-title: DefaultExpiration
 solution: Experience Manager
 title: DefaultExpiration
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 5266bff9-f20b-4b3b-9566-8a3f5ba0777a
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '189'
 ht-degree: 2%
 
 ---
