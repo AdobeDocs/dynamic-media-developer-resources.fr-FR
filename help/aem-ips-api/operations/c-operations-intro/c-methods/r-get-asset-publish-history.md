@@ -4,13 +4,14 @@ seo-description: Renvoie l’historique de publication d’un fichier.
 seo-title: getAssetPublishHistory
 solution: Experience Manager
 title: getAssetPublishHistory
-topic: Dynamic Media Image Production System API
 uuid: 15025c3d-eac3-4cb8-9a2a-fd80bd67478f
+feature: Dynamic Media Classic, SDK/API, Gestion des ressources
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 16%
+source-wordcount: '106'
+ht-degree: 15%
 
 ---
 
