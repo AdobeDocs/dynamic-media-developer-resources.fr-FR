@@ -4,12 +4,13 @@ seo-description: Utilitaire de conversion d’image.
 seo-title: ic
 solution: Experience Manager
 title: ic
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 08fabcc9-d0b5-4136-81fc-ac896c341e1d
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '1216'
 ht-degree: 2%
 
 ---
@@ -305,14 +306,14 @@ Le tableau suivant liste les formats de fichier image et les options de format p
   <tr> 
    <td> <b> PNG</b> </td> 
    <td> <p> RVB | RGBA | gris | grayA | indexé </p> </td> 
-   <td> <p> 3 | 2 | 4 | 8 | 16 </p> </td> 
+   <td> <p> 1 | 2 | 4 | 8 | 16 </p> </td> 
    <td> <p> compressé </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <b> TIFF</b> </td> 
    <td> <p> CMJN | CMJN | RGB | RGBA | gris | grayA | indexé </p> </td> 
-   <td> <p> 3 | 8 | 16 </p> </td> 
+   <td> <p> 1 | 8 | 16 </p> </td> 
    <td> <p> non compressé | ZIP | LZW | JPEG | RLE CCITT | CCITT G3 | CCITT G4 | Paquets </p> </td> 
    <td> <p> À l’exception du premier canal alpha associé, les canaux supplémentaires sont ignorés. </p> </td> 
   </tr> 
