@@ -4,13 +4,14 @@ seo-description: Résolution de l’objet. Résolution de l’objet pour l’ima
 seo-title: Résolution
 solution: Experience Manager
 title: Résolution
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: caa199c8-d216-47b0-9eb6-fdff7124087c
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 9%
+source-wordcount: '90'
+ht-degree: 8%
 
 ---
 
