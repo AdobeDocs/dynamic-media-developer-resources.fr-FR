@@ -4,12 +4,13 @@ seo-description: Tâche planifiée pour exécution.
 seo-title: ScheduledJob
 solution: Experience Manager
 title: ScheduledJob
-topic: Dynamic Media Image Production System API
 uuid: cf0db523-2138-48c6-abbd-460a961e7de1
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '271'
 ht-degree: 4%
 
 ---
