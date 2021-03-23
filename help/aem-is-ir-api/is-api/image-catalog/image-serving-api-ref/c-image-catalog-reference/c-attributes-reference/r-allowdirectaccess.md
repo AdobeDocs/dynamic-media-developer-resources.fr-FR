@@ -4,12 +4,13 @@ seo-description: Autoriser l’accès direct aux ressources basées sur les chem
 seo-title: AllowDirectAccess
 solution: Experience Manager
 title: AllowDirectAccess
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6d413fac-6930-4f6d-90ad-62abb419efef
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ Lorsque cet attribut est défini, l&#39;accès par chemin d&#39;accès est autor
 >
 >Si l&#39;attribut `AllowDirectAccess` n&#39;est pas spécifié, la valeur par défaut est `exclude`.
 
-* `include` permet l&#39;accès aux types d&#39;objet spécifiés et restreint l&#39;accès à tous les autres.
+* `include` permet l’accès aux types d’objets spécifiés et restreint l’accès à tous les autres.
 * `exclude` restreint l’accès pour les types d’objets spécifiés et permet l’accès pour tous les autres.
 
 Si aucun `include` ou `exclude` n&#39;est spécifié, `include` est supposé.
