@@ -4,13 +4,14 @@ seo-description: Attribut de configuration pour la visionneuse de vidéos.
 seo-title: EmbedShare.embedsizes
 solution: Experience Manager
 title: EmbedShare.embedsizes
-topic: Dynamic Media
 uuid: 1fc6057f-9e25-4e94-b516-e3e7af60188c
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 11%
+source-wordcount: '73'
+ht-degree: 9%
 
 ---
 
