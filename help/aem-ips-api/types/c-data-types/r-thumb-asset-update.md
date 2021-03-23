@@ -4,13 +4,14 @@ seo-description: Mise à jour de l’image miniature.
 seo-title: ThumbAssetUpdate
 solution: Experience Manager
 title: ThumbAssetUpdate
-topic: Dynamic Media Image Production System API
 uuid: 08330bf7-4d92-4301-afe9-69925747e36a
+feature: Dynamic Media Classic, SDK/API, Gestion des ressources
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '24'
-ht-degree: 20%
+source-wordcount: '33'
+ht-degree: 15%
 
 ---
 
