@@ -4,12 +4,13 @@ seo-description: Conversion au format du navigateur. Indique si la fonctionnalit
 seo-title: bfc
 solution: Experience Manager
 title: bfc
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2dd8b350-9006-4f0b-b710-0a331357daf3
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '100'
 ht-degree: 4%
 
 ---
