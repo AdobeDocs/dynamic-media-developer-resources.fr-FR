@@ -4,12 +4,13 @@ seo-description: Le lecteur affiche des icônes de zones réactives sur la vue p
 seo-title: Zones réactives et zones cliquables
 solution: Experience Manager
 title: Zones réactives et zones cliquables
-topic: Dynamic Media
 uuid: de7f4dc7-1a55-49d5-a712-7f178cc49068
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Bannières de carrousel
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '281'
 ht-degree: 1%
 
 ---
