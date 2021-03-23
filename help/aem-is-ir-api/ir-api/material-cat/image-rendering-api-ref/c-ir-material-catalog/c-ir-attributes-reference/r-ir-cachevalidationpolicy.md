@@ -4,12 +4,13 @@ seo-description: Stratégie de validation du cache du serveur. Indique quand les
 seo-title: CacheValidationPolicy
 solution: Experience Manager
 title: CacheValidationPolicy
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 299dd5fe-9a0c-43df-a4c8-6b9e9c24003b
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '124'
 ht-degree: 3%
 
 ---
