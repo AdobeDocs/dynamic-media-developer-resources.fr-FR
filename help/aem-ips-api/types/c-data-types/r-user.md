@@ -4,12 +4,13 @@ seo-description: Utilisateur des ressources et types du système.
 seo-title: Utilisateur
 solution: Experience Manager
 title: Utilisateur
-topic: Dynamic Media Image Production System API
 uuid: 37e939ae-dd1a-4550-aa93-b7b091ebc339
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '89'
 ht-degree: 10%
 
 ---
