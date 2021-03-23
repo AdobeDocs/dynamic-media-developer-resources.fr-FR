@@ -4,12 +4,13 @@ seo-description: Élément de filtre d’adresses. Facultatif dans les élément
 seo-title: adressfiltre
 solution: Experience Manager
 title: adressfiltre
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e5702c6e-a49c-4da6-a29c-26e16bfdcad1
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '171'
 ht-degree: 1%
 
 ---
