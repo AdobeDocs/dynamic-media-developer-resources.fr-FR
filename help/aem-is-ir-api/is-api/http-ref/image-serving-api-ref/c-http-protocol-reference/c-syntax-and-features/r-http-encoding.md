@@ -4,13 +4,14 @@ seo-description: Les valeurs de commande doivent être codées au format http à
 seo-title: Codage HTTP de la diffusion d’images
 solution: Experience Manager
 title: Codage HTTP de la diffusion d’images
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e7fb368b-060a-439e-95a1-16b94d4796dc
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 21%
+source-wordcount: '260'
+ht-degree: 20%
 
 ---
 
@@ -147,7 +148,7 @@ Les caractères réservés doivent également être codés.
   <tr> 
    <td colname="col1"> <p>: </p> </td> 
    <td colname="col2"> <p>3A </p> </td> 
-   <td colname="col3"> <p>58 </p> </td> 
+   <td colname="col3"> <p>78 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>; </p> </td> 
