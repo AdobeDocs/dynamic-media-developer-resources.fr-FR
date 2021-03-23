@@ -1,15 +1,16 @@
 ---
-description: Le lecteur affiche les régions de résultats de la recherche sur la vue principale pour mettre en surbrillance les mots ou les expressions figurant dans le catalogue.
-seo-description: Le lecteur affiche les régions de résultats de la recherche sur la vue principale pour mettre en surbrillance les mots ou les expressions figurant dans le catalogue.
+description: Le lecteur affiche les régions de résultats de recherche sur la vue principale pour mettre en surbrillance les mots ou les expressions figurant dans le catalogue.
+seo-description: Le lecteur affiche les régions de résultats de recherche sur la vue principale pour mettre en surbrillance les mots ou les expressions figurant dans le catalogue.
 seo-title: Effet de recherche
 solution: Experience Manager
 title: Effet de recherche
-topic: Dynamic Media
 uuid: 3a076ff8-2da5-4020-8a77-8f5a256afefe
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # Effet de recherche {#search-effect}
 
-Le lecteur affiche les régions de résultats de la recherche sur la vue principale pour mettre en surbrillance les mots ou les expressions figurant dans le catalogue.
+Le lecteur affiche les régions de résultats de recherche sur la vue principale pour mettre en surbrillance les mots ou les expressions figurant dans le catalogue.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
