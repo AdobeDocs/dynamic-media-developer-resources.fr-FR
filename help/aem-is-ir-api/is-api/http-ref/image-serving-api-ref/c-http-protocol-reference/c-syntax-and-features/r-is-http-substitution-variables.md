@@ -4,12 +4,13 @@ seo-description: Les variables de substitution sont utilisées pour transférer 
 seo-title: Variables de substitution
 solution: Experience Manager
 title: Variables de substitution
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e369f2c3-8d89-4169-8869-f1d7ab89aab9
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
