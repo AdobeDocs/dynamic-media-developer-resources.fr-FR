@@ -4,12 +4,13 @@ seo-description: Contient des messages supplémentaires associés au message pri
 seo-title: JobLogDetailAux
 solution: Experience Manager
 title: JobLogDetailAux
-topic: Dynamic Media Image Production System API
 uuid: df6f61f2-54f1-4996-938c-c3ea8c27551a
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '95'
 ht-degree: 5%
 
 ---
