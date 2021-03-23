@@ -4,13 +4,14 @@ seo-description: Options de fichier PostScript.
 seo-title: PostScriptOptions
 solution: Experience Manager
 title: PostScriptOptions
-topic: Dynamic Media Image Production System API
 uuid: 31526bfe-b651-47a8-98c0-2750a3d9cabf
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 11%
+source-wordcount: '78'
+ht-degree: 10%
 
 ---
 
