@@ -4,12 +4,13 @@ seo-description: Les valeurs de commande doivent être codées au format http à
 seo-title: Codage HTTP de rendu d’image
 solution: Experience Manager
 title: Codage HTTP de rendu d’image
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 37bd0040-7bad-4548-ab39-7f598a217732
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '172'
 ht-degree: 1%
 
 ---
@@ -19,7 +20,7 @@ ht-degree: 1%
 
 Les valeurs de commande doivent être codées au format http à l&#39;aide des séquences d&#39;échappement %xx, de sorte que les chaînes de valeur n&#39;incluent pas les caractères réservés &#39;=&#39;, &#39;&amp;&#39; et &#39;%&#39;.
 
-Sinon, les règles de codage HTTP standard s’appliquent. La spécification HTTP requiert le codage des caractères non sécurisés tels que &#39; (espace), &#39;&quot;&#39;(doublon-quote), &#39;#&#39;, &#39;%&#39;, &#39;&lt;&#39; et &#39;>&#39;, ainsi que des caractères de contrôle tels que `<return>` et `<tab>`.
+Sinon, les règles de codage HTTP standard s’appliquent. La spécification HTTP requiert le codage des caractères non sécurisés tels que &#39; (espace), &#39;&quot;&#39; (guillemet-doublon), &#39;#&#39;, &#39;%&#39;, &#39;&lt;&#39; et &#39;>&#39;, ainsi que des caractères de contrôle tels que `<return>` et `<tab>`.
 
 **Attention : Les accolades** Curly { } utilisées comme délimiteurs d’imbrication de requête ne doivent pas être codées. Certains clients de messagerie encodent malheureusement des accolades dans une requête HTTP incorporée. S’il s’agit d’un problème, le rendu d’image permet l’utilisation de parenthèses ( ) plutôt que d’accolades.
 
