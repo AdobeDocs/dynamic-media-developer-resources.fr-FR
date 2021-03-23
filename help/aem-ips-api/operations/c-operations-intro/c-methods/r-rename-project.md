@@ -4,13 +4,14 @@ seo-description: Renomme un projet.
 seo-title: renameProject
 solution: Experience Manager
 title: renameProject
-topic: Dynamic Media Image Production System API
 uuid: 6303c493-a6fe-4b32-80c3-947aba4190f7
+feature: Dynamic Media Classic, SDK/API, Gestion des ressources
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 22%
+source-wordcount: '84'
+ht-degree: 20%
 
 ---
 
