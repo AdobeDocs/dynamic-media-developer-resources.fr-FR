@@ -2,13 +2,14 @@
 description: Fermeture
 solution: Experience Manager
 title: Fermeture
-topic: Dynamic Media
 uuid: 018a18fe-4d74-4c68-a072-3aeaf823578d
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Catalogue électronique
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 12%
+source-wordcount: '51'
+ht-degree: 9%
 
 ---
 
