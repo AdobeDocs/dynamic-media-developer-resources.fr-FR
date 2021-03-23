@@ -4,12 +4,13 @@ seo-description: Entraîne le lecteur à passer en mode Plein écran ou à quitt
 seo-title: Bouton Plein écran
 solution: Experience Manager
 title: Bouton Plein écran
-topic: Dynamic Media
 uuid: 8f0ce51b-1ef6-4631-8a54-7d34cb6e3ef2
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Zoom
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '341'
 ht-degree: 2%
 
 ---
@@ -78,7 +79,7 @@ L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suiv
 
 L’info-bulle du bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 
-Exemple : pour configurer un bouton plein écran de 32 x 32 pixels, positionné six pixels à partir du bord supérieur et droit de la visionneuse, et affiche une image différente pour chacun des quatre états de bouton, lorsqu’il est sélectionné ou non :
+Exemple : pour configurer un bouton plein écran de 32 x 32 pixels, positionné à six pixels du bord supérieur et droit de la visionneuse, et affiche une image différente pour chacun des quatre états de bouton, lorsqu’il est sélectionné ou non :
 
 ```
 .s7basiczoomviewer .s7fullscreenbutton { 
