@@ -4,12 +4,13 @@ seo-description: Définit l’appartenance au groupe des utilisateurs appartenan
 seo-title: setGroupMembers
 solution: Experience Manager
 title: setGroupMembers
-topic: Dynamic Media Image Production System API
 uuid: fe6585ef-a4b3-4b3c-95d0-624017650497
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '146'
 ht-degree: 8%
 
 ---
