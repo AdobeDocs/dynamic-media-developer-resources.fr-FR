@@ -4,12 +4,13 @@ seo-description: Domaines Web d’application de Flash. Les applications de Flas
 seo-title: Domaines approuvés *
 solution: Experience Manager
 title: Domaines approuvés *
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c50180b1-9af7-45f1-878f-59f41f9958ae
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '162'
 ht-degree: 2%
 
 ---
