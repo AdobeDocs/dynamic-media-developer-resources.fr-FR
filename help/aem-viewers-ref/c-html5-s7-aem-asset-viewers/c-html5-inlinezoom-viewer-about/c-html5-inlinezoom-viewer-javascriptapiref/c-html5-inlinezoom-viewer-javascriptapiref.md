@@ -4,12 +4,13 @@ seo-description: La classe principale de la visionneuse de zoom en ligne est Fly
 seo-title: Référence de l’API JavaScript pour la visionneuse de zoom intégrée
 solution: Experience Manager
 title: Référence de l’API JavaScript pour la visionneuse de zoom intégrée
-topic: Dynamic Media
 uuid: ed0fb9e4-8a65-4791-a428-4e950c492198
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Zoom intégré
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
