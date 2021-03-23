@@ -4,12 +4,13 @@ seo-description: Référence de l’API JavaScript pour la visionneuse de vidéo
 seo-title: InteractiveVideoViewer
 solution: Experience Manager
 title: InteractiveVideoViewer
-topic: Dynamic Media
 uuid: 10514580-408f-4cbf-a2e4-be2040aa8a85
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '223'
 ht-degree: 3%
 
 ---
