@@ -4,13 +4,14 @@ seo-description: Faire pivoter l’image. Fait pivoter le calque d’image, de t
 seo-title: rotation
 solution: Experience Manager
 title: rotation
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 160d3c4b-3871-43bd-a17d-96198c7ea839
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 4%
+source-wordcount: '281'
+ht-degree: 3%
 
 ---
 
@@ -32,7 +33,7 @@ Les angles positifs pivotent dans le sens des aiguilles d&#39;une montre. Le poi
 
 ## Propriétés {#section-8b5a9bb9062f48dbb8d4e9953ff39e39}
 
-Calque, commande. S’applique au calque actif ou au calque 0 si `layer=comp`. Ignoré par les calques d’effet.
+Calque, commande. S&#39;applique au calque actif ou au calque 0 si `layer=comp`. Ignoré par les calques d’effet.
 
 ## Par défaut {#section-69475db636124a8a85f132b6d49bd592}
 
