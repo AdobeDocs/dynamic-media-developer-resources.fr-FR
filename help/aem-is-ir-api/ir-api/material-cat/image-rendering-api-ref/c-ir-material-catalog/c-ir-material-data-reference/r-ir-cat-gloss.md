@@ -4,13 +4,14 @@ seo-description: Lissage de surface Indique la brillance relative de la surface 
 seo-title: Éclat
 solution: Experience Manager
 title: Éclat
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7db83f99-15ab-4c43-adfb-07ad0b0c9707
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 3%
+source-wordcount: '135'
+ht-degree: 2%
 
 ---
 
