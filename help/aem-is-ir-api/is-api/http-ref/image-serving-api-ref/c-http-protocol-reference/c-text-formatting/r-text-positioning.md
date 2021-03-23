@@ -4,12 +4,13 @@ seo-description: Le rendu text= positionne le texte fondamentalement différent 
 seo-title: Positionnement du texte
 solution: Experience Manager
 title: Positionnement du texte
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 77289c50-2f3a-4486-8274-eecfd6e5452f
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
