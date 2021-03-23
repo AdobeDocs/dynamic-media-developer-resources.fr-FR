@@ -4,12 +4,13 @@ seo-description: Attribut de configuration pour la visionneuse de vidéos intera
 seo-title: CallToAction.direction
 solution: Experience Manager
 title: CallToAction.direction
-topic: Dynamic Media
 uuid: fe182e8f-696d-4515-afdb-49964a374dae
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '94'
 ht-degree: 4%
 
 ---
