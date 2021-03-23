@@ -4,12 +4,13 @@ seo-description: Utilitaire de validation d’image. Cet utilitaire de ligne de 
 seo-title: valider
 solution: Experience Manager
 title: valider
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 87a129ed-950a-4b1a-9240-bf567cd8e38f
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '314'
 ht-degree: 1%
 
 ---
@@ -61,7 +62,7 @@ Tous les fichiers d’image non PTIFF doivent être validés avant que le fichie
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -rejette16BitPerComponent  </span> </p> </td> 
-  <td class="stentry"> <p> Rejette les images avec un composant d’image de 16 bits. Toujours spécifié par le serveur d’images lorsqu’il valide des images source distantes. </p> </td> 
+  <td class="stentry"> <p> Rejette les images avec un composant d’image de 16 bits. Toujours spécifié par le serveur d’images lorsqu’il valide les images source distantes. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -verbose  </span> </p> </td> 
