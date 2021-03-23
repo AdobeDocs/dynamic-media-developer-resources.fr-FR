@@ -4,13 +4,14 @@ seo-description: Supprime un type de jeu de propriétés et son jeu de propriét
 seo-title: deletePropertySetType
 solution: Experience Manager
 title: deletePropertySetType
-topic: Dynamic Media Image Production System API
 uuid: 7a5232cc-fa3a-4dac-bf88-8b954dd37c87
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 10%
+source-wordcount: '113'
+ht-degree: 9%
 
 ---
 
