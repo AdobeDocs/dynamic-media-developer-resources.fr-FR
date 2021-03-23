@@ -4,12 +4,13 @@ seo-description: Opacité. Indique l’opacité du matériau.
 seo-title: opac
 solution: Experience Manager
 title: opac
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0f5b11f0-af65-4abd-947e-7a28cb8de263
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '117'
 ht-degree: 4%
 
 ---
