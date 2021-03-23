@@ -4,13 +4,14 @@ seo-description: La mise en surbrillance de la cible d’action affichée autour
 seo-title: Mise en évidence
 solution: Experience Manager
 title: Mise en évidence
-topic: Dynamic Media
 uuid: 1b552aec-837a-4df4-91dc-615ceead92b3
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Zoom
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 1%
+source-wordcount: '107'
+ht-degree: 0%
 
 ---
 
