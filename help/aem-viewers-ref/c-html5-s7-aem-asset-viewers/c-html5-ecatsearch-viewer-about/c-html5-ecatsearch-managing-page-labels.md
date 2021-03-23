@@ -2,12 +2,13 @@
 description: Gestion des étiquettes de page
 solution: Experience Manager
 title: Gestion des étiquettes de page
-topic: Dynamic Media
 uuid: 49444fe6-ef34-4e5b-a293-e23830a67b4d
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: dacd641302826196f4bf4c8d2dfc02d032d63487
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
