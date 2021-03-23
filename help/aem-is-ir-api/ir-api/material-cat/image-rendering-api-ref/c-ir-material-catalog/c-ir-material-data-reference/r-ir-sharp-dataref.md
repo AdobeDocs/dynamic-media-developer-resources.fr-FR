@@ -4,13 +4,14 @@ seo-description: Accentuation. Attribut d’accentuation, détermine le moment o
 seo-title: Sharp
 solution: Experience Manager
 title: Sharp
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f153f496-f2c5-43d0-a7f0-00045fd96af8
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 11%
+source-wordcount: '129'
+ht-degree: 10%
 
 ---
 
