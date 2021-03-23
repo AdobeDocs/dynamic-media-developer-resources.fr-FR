@@ -4,13 +4,14 @@ seo-description: Associe les paramètres de configuration de la visionneuse à u
 seo-title: setViewerConfigSettings
 solution: Experience Manager
 title: setViewerConfigSettings
-topic: Dynamic Media Image Production System API
 uuid: d83d866e-9243-479f-9b33-727aad8158e5
+feature: Dynamic Media Classic, SDK/API, paramètres prédéfinis de la visionneuse
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 10%
+source-wordcount: '133'
+ht-degree: 9%
 
 ---
 
