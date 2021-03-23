@@ -4,12 +4,13 @@ seo-description: Tous les composants du lecteur prennent en charge les rôles et
 seo-title: Assistance technique
 solution: Experience Manager
 title: Assistance technique
-topic: Dynamic Media
 uuid: 6312f2f7-e1fa-4536-bae4-d8bc7735d5af
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Visionneuses à 360°, Accessibilité
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
