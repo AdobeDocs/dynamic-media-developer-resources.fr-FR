@@ -2,12 +2,13 @@
 description: direction
 solution: Experience Manager
 title: direction
-topic: Dynamic Media
 uuid: 0a30f3b0-64c8-4799-b4f5-fc8996a8b5a4
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '200'
 ht-degree: 3%
 
 ---
