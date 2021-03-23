@@ -4,12 +4,13 @@ seo-description: Utilisez ces paramètres de serveur pour configurer le système
 seo-title: Système de surveillance et d'alerte
 solution: Experience Manager
 title: Système de surveillance et d'alerte
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 944c7d53-09ec-443e-ac8c-85684d8fda0f
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
