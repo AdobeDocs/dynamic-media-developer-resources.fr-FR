@@ -4,12 +4,13 @@ seo-description: Région d’intérêt. Indique une zone d’intérêt rectangul
 seo-title: rg
 solution: Experience Manager
 title: rg
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 08657925-c52a-4279-8357-c26ad5c5ef3d
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '157'
 ht-degree: 3%
 
 ---
