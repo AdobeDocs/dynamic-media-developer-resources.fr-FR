@@ -4,12 +4,13 @@ seo-description: La diffusion d’images prend en charge un mécanisme de prétr
 seo-title: Référence du jeu de règles
 solution: Experience Manager
 title: Référence du jeu de règles
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 356e4939-c57d-459a-8e40-9b25e20fc0a3
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -127,7 +128,7 @@ Un fichier d&#39;ensemble de règles peut être joint à chaque catalogue d&#39;
 </rule>
 ```
 
-L’expression de règle spécifie une correspondance non sensible à la casse de &quot; [!DNL _hg]&quot; à la fin de la chaîne d’URL. Le suffixe est remplacé par la chaîne de requête spécifiée qui modifie les paramètres de qualité de l’image. Notez que le caractère `?` de la chaîne de substitution est échappé car il s’agit d’un caractère spécial dans les expressions régulières.
+L’expression de règle spécifie une correspondance non sensible à la casse de &quot; [!DNL _hg]&quot; à la fin de la chaîne d’URL. Le suffixe est remplacé par la chaîne de requête spécifiée qui modifie les paramètres de qualité de l’image. Notez que le caractère `?` de la chaîne de substitution est ignoré car il s’agit d’un caractère spécial dans les expressions régulières.
 
 >[!NOTE]
 >
