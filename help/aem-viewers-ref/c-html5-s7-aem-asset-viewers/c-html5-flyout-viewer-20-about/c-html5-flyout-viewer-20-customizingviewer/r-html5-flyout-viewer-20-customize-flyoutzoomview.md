@@ -4,12 +4,13 @@ seo-description: La vue principale se compose de l’image statique, de l’imag
 seo-title: Vue de zoom déroulant
 solution: Experience Manager
 title: Vue de zoom déroulant
-topic: Dynamic Media
 uuid: 35c60228-3044-442b-a8e2-e13d0bd306a5
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Fenêtre déroulante
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '669'
 ht-degree: 2%
 
 ---
@@ -170,7 +171,7 @@ Les propriétés CSS applicables sont les suivantes :
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Illustration du curseur. </p> </td> 
   </tr> 
   <tr> 
@@ -186,11 +187,11 @@ Les propriétés CSS applicables sont les suivantes :
 
 >[!NOTE]
 >
->Le curseur prend en charge le sélecteur d’attributs `input`, qui peut être utilisé pour appliquer une illustration et une taille de curseur différentes à différents périphériques. En particulier, `input="mouse"` correspond aux systèmes de bureau et `input="touch"` correspond aux périphériques tactiles.
+>Cursor prend en charge le sélecteur d&#39;attributs `input`, qui peut être utilisé pour appliquer une illustration et une taille de curseur différentes pour différents périphériques. En particulier, `input="mouse"` correspond aux systèmes de bureau et `input="touch"` correspond aux périphériques tactiles.
 
 **Propriétés CSS de l’incrustation**
 
-Lorsque le paramètre `overlay` est défini sur `1`, la zone autour du cadre de surbrillance ou de l&#39;image du curseur est contrôlée avec le sélecteur de classe CSS :
+Lorsque le paramètre `overlay` est défini sur `1`, la zone autour du cadre de surbrillance ou de l’image du curseur est contrôlée avec le sélecteur de classe CSS :
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
@@ -206,25 +207,25 @@ Lorsque le paramètre `overlay` est défini sur `1`, la zone autour du cadre de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color  </span> </p> </td> 
    <td colname="col2"> <p>Couleur d’incrustation. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opacité  </span> </p> </td> 
-   <td colname="col2"> <p>Opacité de l’incrustation. </p> </td> 
+   <td colname="col2"> <p>Opacité d’incrustation. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Propriétés CSS du message de conseil**
 
-L’aspect du message d’info-bulle est contrôlé à l’aide du sélecteur de classe CSS suivant :
+L&#39;apparence du message de conseil est contrôlée avec le sélecteur de classe CSS suivant :
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-Il est possible de configurer le style de police, l’aspect de la taille et le décalage vertical par le biais de CSS. Cependant, l’alignement horizontal est géré par la logique du lecteur de contenu. Il n’est pas possible de le remplacer via CSS en utilisant les propriétés `left` ou `right`.
+Il est possible de configurer le style de police, l’aspect de la taille et le décalage vertical à l’aide de CSS. Toutefois, l’alignement horizontal est géré par la logique du visualiseur. Le remplacement par CSS à l’aide des propriétés `left` ou `right` n’est pas pris en charge.
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
