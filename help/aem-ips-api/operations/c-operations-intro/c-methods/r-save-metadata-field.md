@@ -4,13 +4,14 @@ seo-description: Créez ou modifiez un champ de métadonnées. Omettez la poign�
 seo-title: saveMetadataField
 solution: Experience Manager
 title: saveMetadataField
-topic: Dynamic Media Image Production System API
 uuid: ccd84366-732a-4caf-914d-3bc5fe499e7a
+feature: Dynamic Media Classic, SDK/API, Métadonnées
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 15%
+source-wordcount: '243'
+ht-degree: 14%
 
 ---
 
@@ -103,7 +104,7 @@ Créez ou modifiez un champ de métadonnées. Omettez la poignée de champ facul
 
 ## Exemples {#section-4441c26d1f41466ba972b43dd5189e89}
 
-Cet exemple de code crée un nouveau champ de métadonnées limité par les constantes de chaîne Type de fichier et Types de champ de métadonnées. Si l’élément `fieldHandle` possède une valeur d’identificateur de champ valide, il modifie les valeurs de métadonnées et obtient le même nom d’identificateur de champ que celui spécifié dans la requête.
+Cet exemple de code crée un nouveau champ de métadonnées limité par les constantes de chaîne Type de fichier et Types de champ de métadonnées. Si l’élément `fieldHandle` a une valeur d’identificateur de champ valide, il modifie les valeurs de métadonnées et obtient le même nom d’identificateur de champ que celui spécifié dans la requête.
 
 **Request**
 
