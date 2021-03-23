@@ -4,13 +4,14 @@ seo-description: Récupérer la page. Récupère une page spécifique dans un fi
 seo-title: page
 solution: Experience Manager
 title: page
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 3379c8d8-6e2e-4bd5-b683-a532330f1ddc
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 6%
+source-wordcount: '68'
+ht-degree: 5%
 
 ---
 
