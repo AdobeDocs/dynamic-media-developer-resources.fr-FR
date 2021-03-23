@@ -4,12 +4,13 @@ seo-description: Le bouton Lecture/Pause permet au lecteur vidéo de lire ou de 
 seo-title: Bouton Lecture/Pause
 solution: Experience Manager
 title: Bouton Lecture/Pause
-topic: Dynamic Media
 uuid: d6dd795d-f608-4304-8221-251d0a082421
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '295'
 ht-degree: 2%
 
 ---
