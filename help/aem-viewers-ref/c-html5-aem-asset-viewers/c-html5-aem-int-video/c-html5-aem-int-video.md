@@ -4,12 +4,13 @@ seo-description: La visionneuse de vidéos interactive est un lecteur vidéo qui
 seo-title: Vidéo interactive
 solution: Experience Manager
 title: Vidéo interactive
-topic: Dynamic Media
 uuid: 116c6b40-2490-4f1a-9c76-e06082069cc8
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2243'
+source-wordcount: '2254'
 ht-degree: 0%
 
 ---
@@ -55,7 +56,7 @@ Lorsque le lecteur fonctionne en mode contextuel, aucun bouton plein écran n’
 
 La visionneuse affiche un panneau avec des échantillons interactifs à droite de la zone de visualisation vidéo. La liste des échantillons avance automatiquement à mesure que la vidéo est lue, de sorte que les échantillons correspondant à la région de la vidéo active s’affichent. Un clic ou un appui sur une nuance déclenche une action associée à cette nuance pendant l’heure de création. Selon la manière dont vous l’avez configuré, le déclencheur peut rediriger vers une autre page du site Web ou transmettre les informations sur le produit à la logique de la page Web, ce qui peut à son tour déclencher l’ouverture d’une Vue rapide qui affiche le contenu du produit associé.
 
-Il est possible de naviguer rapidement dans le contenu vidéo lorsque le chapitre vidéo est activé. Les chapitres vidéo sont affichés sous la forme de marqueurs dans le suivi de la barre de défilement vidéo et affichent le titre et la description du chapitre lors du roulement (ou sur un seul appui sur les systèmes tactiles). Le client peut &quot;rechercher&quot; un chapitre particulier en cliquant sur un marqueur de chapitre ou en appuyant sur une bulle de description de chapitre.
+Il est possible de naviguer rapidement dans le contenu vidéo lorsque le chapitre vidéo est activé. Les chapitres vidéo s’affichent sous la forme de marqueurs dans le suivi de la barre de défilement vidéo et affichent le titre et la description du chapitre en cas de survol (ou sur un seul appui sur les systèmes tactiles). Le client peut &quot;rechercher&quot; un chapitre particulier en cliquant sur un marqueur de chapitre ou en appuyant sur une bulle de description de chapitre.
 
 Le lecteur prend également en charge divers outils de partage sur les réseaux sociaux. Ils sont disponibles sous la forme d’un bouton unique dans l’interface utilisateur qui se développe dans une barre d’outils de partage lorsque l’utilisateur clique ou appuie dessus. La barre d’outils de partage contient une icône pour chaque type de canal de partage pris en charge, tel que Facebook, Twitter, le partage de courrier électronique, le partage de code incorporé et le partage de liens. Lorsque des outils de partage de courrier électronique, de partage incorporé ou de partage de liens sont activés, le lecteur affiche une boîte de dialogue modale avec un formulaire de saisie de données correspondant. Lorsque Facebook ou Twitter sont appelés, le lecteur redirige l’utilisateur vers une boîte de dialogue de partage standard à partir d’un service de médias sociaux. En outre, lorsqu’un outil de partage est activé, la lecture vidéo est automatiquement suspendue. Les outils de partage ne sont pas disponibles en mode plein écran en raison des restrictions de sécurité du navigateur Web.
 
