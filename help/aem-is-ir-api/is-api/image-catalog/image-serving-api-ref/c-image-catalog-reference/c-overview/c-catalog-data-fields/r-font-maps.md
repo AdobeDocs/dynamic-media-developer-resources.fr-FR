@@ -4,12 +4,13 @@ seo-description: Les champs suivants sont reconnus dans les fichiers de mappage 
 seo-title: Mappages de polices
 solution: Experience Manager
 title: Mappages de polices
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 836131e6-d899-4e36-a837-df46bf27a6b2
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
