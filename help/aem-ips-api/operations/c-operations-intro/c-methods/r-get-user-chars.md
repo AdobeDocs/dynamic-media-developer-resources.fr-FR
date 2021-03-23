@@ -4,13 +4,14 @@ seo-description: Obtient une liste des caractères utilisés dans un champ parti
 seo-title: getUserChars
 solution: Experience Manager
 title: getUserChars
-topic: Dynamic Media Image Production System API
 uuid: c9fa7826-5174-4298-99e6-a0627e432567
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 11%
+source-wordcount: '194'
+ht-degree: 10%
 
 ---
 
