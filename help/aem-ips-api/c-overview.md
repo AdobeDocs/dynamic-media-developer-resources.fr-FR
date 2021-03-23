@@ -4,12 +4,13 @@ seo-description: L'API Service Web IPS (Image Production System) permet aux appl
 seo-title: A propos de l’API du système de production d’images
 solution: Experience Manager
 title: A propos de l’API du système de production d’images
-topic: Image Production System API
 uuid: 22f5a601-165a-4dc2-b545-2aa1d6f5a370
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 22b447e66c223126f4e6b91f9a0102e86731c4a4
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '179'
 ht-degree: 1%
 
 ---
