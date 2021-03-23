@@ -1,12 +1,13 @@
 ---
-description: Notes de mise à jour les plus récentes pour la version Adobe Scene7 de l’automne 2016 de la solution Adobe Experience Manager dans le Adobe Marketing Cloud.
+description: '"Notes de mise à jour les plus récentes pour la version de l’automne 2016 d’Adobe Scene7, qui fait partie de la solution Adobe Experience Manager dans le Adobe Marketing Cloud."'
 solution: Experience Manager
 title: Version de l’automne 2016 de Scene7
-topic: Dynamic Media
+feature: Dynamic Media Classic
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: d38df1eb4713c034727ad0eb10834dc156122beb
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '2231'
+source-wordcount: '2238'
 ht-degree: 0%
 
 ---
