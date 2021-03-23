@@ -4,12 +4,13 @@ seo-description: L'indicateur de page affiche l'index de la page active et le no
 seo-title: Indicateur de page
 solution: Experience Manager
 title: Indicateur de page
-topic: Dynamic Media
 uuid: 5e33c149-fdc7-419a-b5ff-b9be3f342d9f
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Catalogue électronique
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '307'
 ht-degree: 3%
 
 ---
