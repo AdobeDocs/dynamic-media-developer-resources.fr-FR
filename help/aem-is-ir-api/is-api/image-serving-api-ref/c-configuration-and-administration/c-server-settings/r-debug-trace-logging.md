@@ -4,12 +4,13 @@ seo-description: Utilisez ces paramètres de serveur pour déboguer la journalis
 seo-title: Journalisation Debug_trace
 solution: Experience Manager
 title: Journalisation Debug_trace
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 33f1d093-007d-453b-965a-9d701a845954
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
