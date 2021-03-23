@@ -4,13 +4,14 @@ seo-description: Attribut de configuration pour la visionneuse de vidéos intera
 seo-title: VideoPlayer.waiticon
 solution: Experience Manager
 title: VideoPlayer.waiticon
-topic: Dynamic Media
 uuid: 6563b9f1-8135-4d4b-bf31-25f599e166d4
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 14%
+source-wordcount: '45'
+ht-degree: 11%
 
 ---
 
