@@ -2,13 +2,15 @@
 title: Ressources pour les développeurs de l'Adobe Dynamic Media
 cloud: experience-cloud
 product: Adobe Dynamic Media Developer Resources
+solution: Dynamic Media Classic
 audience: end-user
 user-guide-title: Ressources du développeur d’Adobe Media Dynamic
 breadcrumb-title: Ressources du développeur de Dynamic Media
 user-guide-description: Accédez aux ressources du développeur de Dynamic Media telles que le Guide de référence des visionneuses, l’API Image Production System, l’API Image Serving and Rendering et les notes de mise à jour Scene7 archivées.
+feature-set: Experience Manager Assets
 index: y
 translation-type: tm+mt
-source-git-commit: 192b5624945b08e438a65e3e9fd25aca503857fc
+source-git-commit: 5e8dba839c61104ecc680ea14bf2ac1100480306
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 88%
