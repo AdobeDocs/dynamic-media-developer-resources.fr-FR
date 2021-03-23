@@ -4,12 +4,13 @@ seo-description: Toutes les polices référencées dans la chaîne RTF doivent �
 seo-title: Gestion des polices
 solution: Experience Manager
 title: Gestion des polices
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 6a751973-5dae-472e-a908-bf24fa59d031
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '271'
 ht-degree: 1%
 
 ---
@@ -35,7 +36,7 @@ Image Serving prend en charge les polices TrueType, OpenType, Adobe Type 1 (Wind
 * L’enchaînement vertical n’est pas pris en charge
 * Les polices Photofont contenant des images 16 bits ne sont pas prises en charge
 * Les polices Photofont avec plusieurs glyphes par image ne sont pas prises en charge
-* La conversion des couleurs naïves est appliquée à moins que les images de glyphe Photofont incorporent des profils de couleur ; dans ce cas, l’intention de rendu colorimétrique relative et la compensation des points noirs sont toujours appliquées.
+* La conversion des couleurs naïves est appliquée à moins que les images de glyphe Photofont incorporent des profils de couleur ; dans ce cas, l’intention de rendu colorimétrique relative et la compensation du point de blocage sont toujours appliquées.
 
 Consultez ` [www.photofont.com](http://www.photofont.com)` pour plus d&#39;informations.
 
