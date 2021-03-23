@@ -4,12 +4,13 @@ seo-description: Données de zone cliquable. Fournit des données de zone cliqua
 seo-title: carte
 solution: Experience Manager
 title: carte
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 9c1c3323-21ab-4820-bf4e-761b82ada1ab
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '251'
 ht-degree: 3%
 
 ---
@@ -32,7 +33,7 @@ Données de zone cliquable. Fournit des données de zone cliquable pour ce calqu
  </tr> 
 </table>
 
-Une chaîne vide indique que ce calque ne doit pas fournir de zone cliquable. La chaîne doit être codée correctement en HTTP pour éviter tout problème d’analyse.
+Une chaîne vide indique que ce calque ne doit pas fournir de zone cliquable. La chaîne doit être codée correctement en HTTP pour éviter les problèmes d’analyse.
 
 Tous les caractères d’esperluette (&amp;) survenant dans *`string`* doivent être codés au format http.
 
