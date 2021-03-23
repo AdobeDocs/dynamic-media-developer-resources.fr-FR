@@ -4,12 +4,13 @@ seo-description: Ce bouton permet à la visionneuse d’accéder au mode plein �
 seo-title: Bouton Plein écran
 solution: Experience Manager
 title: Bouton Plein écran
-topic: Dynamic Media
 uuid: ef3a0c21-88e0-4a10-9b89-da862b579b17
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Combiner des visionneuses de supports
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '385'
 ht-degree: 1%
 
 ---
@@ -78,7 +79,7 @@ L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suiv
 
 L’info-bulle du bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) pour plus d’informations.
 
-Exemple : pour configurer un bouton plein écran de 32 x 32 pixels, positionné six pixels à partir du bord supérieur et droit de la visionneuse, et affiche une image différente pour chacun des quatre états de bouton, lorsqu’il est sélectionné ou non :
+Exemple : pour configurer un bouton plein écran de 32 x 32 pixels, positionné à six pixels du bord supérieur et droit de la visionneuse, et affiche une image différente pour chacun des quatre états de bouton, lorsqu’il est sélectionné ou non :
 
 ```
 .s7mixedmediaviewer .s7fullscreenbutton { 
