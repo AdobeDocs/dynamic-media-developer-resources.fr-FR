@@ -4,12 +4,13 @@ seo-description: Image de la carte de l’éclat. Permet de contrôler pixel par
 seo-title: glossmap
 solution: Experience Manager
 title: glossmap
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: f137d362-74a1-45b3-9274-a3a2d6cf5db0
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '177'
 ht-degree: 2%
 
 ---
