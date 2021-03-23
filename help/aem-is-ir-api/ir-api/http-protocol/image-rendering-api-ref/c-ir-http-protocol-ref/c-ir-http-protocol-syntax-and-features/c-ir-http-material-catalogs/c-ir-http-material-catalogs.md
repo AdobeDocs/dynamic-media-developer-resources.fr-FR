@@ -4,12 +4,13 @@ seo-description: Les catalogues de matériaux offre plusieurs fonctionnalités.
 seo-title: Catalogues de matières *
 solution: Experience Manager
 title: Catalogues de matières *
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 2a2f371e-0982-47c7-b3da-678a5ff6c7a7
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
