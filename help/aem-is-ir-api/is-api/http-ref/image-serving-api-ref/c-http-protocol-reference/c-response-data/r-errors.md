@@ -4,12 +4,13 @@ seo-description: Si une requête ne peut pas être traitée correctement, le ser
 seo-title: Erreurs
 solution: Experience Manager
 title: Erreurs
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: a08f3f5a-3013-4d35-9612-25190a4c99fa
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '236'
 ht-degree: 2%
 
 ---
