@@ -4,13 +4,14 @@ seo-description: Crée un nouveau projet.
 seo-title: createProject
 solution: Experience Manager
 title: createProject
-topic: Dynamic Media Image Production System API
 uuid: e011b7ba-6c15-47ef-9ea1-6189c37e7719
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 18%
+source-wordcount: '88'
+ht-degree: 17%
 
 ---
 
