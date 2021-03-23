@@ -4,12 +4,13 @@ seo-description: Crée un nouveau format de publication pour une vignette.
 seo-title: createVignettePublishFormat
 solution: Experience Manager
 title: createVignettePublishFormat
-topic: Dynamic Media Image Production System API
 uuid: 834ebe6a-e105-4075-8004-172237980933
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '534'
 ht-degree: 14%
 
 ---
@@ -96,7 +97,7 @@ Les nouvelles versions du serveur de rendu d’images peuvent prendre en charge 
    <td colname="col1"> <span class="codeph"> <span class="varname"> accentuer</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Expression de code  </span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> Applique l’accentuation à l’image de vue principale pour chaque taille de vignette publicitaire L’accentuation peut compenser le flou lors de la mise à l’échelle des vignettes. </td> 
+   <td colname="col4"> Applique l’accentuation à l’image de vue principale pour chaque taille de vignette publicitaire L’accentuation peut compenser le flou lors de l’application de l’échelle des vignettes. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmAmount</span> </span> </td> 
