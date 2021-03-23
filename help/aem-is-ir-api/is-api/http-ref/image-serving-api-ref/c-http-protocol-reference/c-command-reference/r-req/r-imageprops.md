@@ -4,12 +4,13 @@ seo-description: Propriétés de l’image source. Renvoie les propriétés sél
 seo-title: imageprops
 solution: Experience Manager
 title: imageprops
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: e9bf2780-a520-4fb1-ab4c-40bb799e36a4
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '353'
 ht-degree: 9%
 
 ---
@@ -55,7 +56,7 @@ Les propriétés suivantes sont renvoyées :
   <tr> 
    <td> <p> <span class="codeph"> image.expiration</span> </p> </td> 
    <td> <p> double </p> </td> 
-   <td> <p> <span class="codeph"> catalogue ::</span> Expiration ou heure de mise en service par défaut </p> </td> 
+   <td> <p> <span class="codeph"> catalogue ::</span> Expiration ou heure par défaut de vie </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.height</span> </p> </td> 
