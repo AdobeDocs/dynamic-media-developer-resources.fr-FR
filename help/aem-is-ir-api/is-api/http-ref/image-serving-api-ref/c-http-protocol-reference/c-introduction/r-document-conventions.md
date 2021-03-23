@@ -4,12 +4,13 @@ seo-description: Ce document utilise les conventions suivantes.
 seo-title: Conventions relatives aux documents
 solution: Experience Manager
 title: Conventions relatives aux documents
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: c929774b-8560-4f8a-98fd-1b75d4419c4d
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
@@ -66,7 +67,7 @@ Ce document utilise les conventions suivantes.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> [  <span class="varname"> facultatif  </span>]  </span> </p> </td> 
-  <td class="stentry"> <p>Les éléments de syntaxe facultatifs sont placés entre crochets. </p> </td> 
+  <td class="stentry"> <p>Les éléments de syntaxe facultatifs sont entourés de crochets. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> *[  <span class="varname"> facultatif  </span>]  </span> </p> </td> 
