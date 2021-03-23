@@ -4,12 +4,13 @@ seo-description: Type de miniature par défaut. Fournit une valeur par défaut p
 seo-title: ThumbType
 solution: Experience Manager
 title: ThumbType
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 0b4aa767-2d80-4df8-8189-9d095cb88e87
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '112'
 ht-degree: 3%
 
 ---
