@@ -4,12 +4,13 @@ seo-description: Format d’image de réponse. Indique le format de codage d’i
 seo-title: fmt
 solution: Experience Manager
 title: fmt
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 7c589119-d1b3-460f-acbd-5e8d10d0d976
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '611'
 ht-degree: 4%
 
 ---
