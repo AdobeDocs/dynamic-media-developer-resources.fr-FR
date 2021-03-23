@@ -4,13 +4,14 @@ seo-description: Attribut de configuration pour la visionneuse de vidéos intera
 seo-title: InteractiveSwatches.fmt
 solution: Experience Manager
 title: InteractiveSwatches.fmt
-topic: Dynamic Media
 uuid: 0a30c913-39d1-4521-b65c-f2b3879f6928
+feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: e4695cc4e882351ec3f2c55fd8a3cfca455bd79d
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 4%
+source-wordcount: '106'
+ht-degree: 3%
 
 ---
 
