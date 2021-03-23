@@ -4,12 +4,13 @@ seo-description: Suivez ces instructions pour désinstaller Image Rendering sur 
 seo-title: Désinstallation sous Linux et Solaris
 solution: Experience Manager
 title: Désinstallation sous Linux et Solaris
-topic: Dynamic Media Image Serving - Image Rendering API
 uuid: 80c0d6ec-985b-4596-bd67-22e5029f7b37
+feature: Dynamic Media Classic, SDK/API
+role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 97a84e8e7edd3d834ca42069eae7c09c00d57938
+source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
