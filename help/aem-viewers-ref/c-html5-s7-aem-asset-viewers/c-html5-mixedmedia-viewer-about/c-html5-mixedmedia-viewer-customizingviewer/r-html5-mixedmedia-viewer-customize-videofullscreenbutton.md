@@ -1,17 +1,14 @@
 ---
 description: Le bouton plein écran permet à la visionneuse d’accéder au mode plein écran ou de quitter ce mode lorsque l’utilisateur clique dessus. Elle est utilisée lorsque la visionneuse affiche la vidéo et se trouve dans la barre de contrôle. Ce bouton ne s’affiche pas si le lecteur fonctionne en mode contextuel et que le système ne prend pas en charge le mode plein écran natif.
-seo-description: Le bouton plein écran permet à la visionneuse d’accéder au mode plein écran ou de quitter ce mode lorsque l’utilisateur clique dessus. Elle est utilisée lorsque la visionneuse affiche la vidéo et se trouve dans la barre de contrôle. Ce bouton ne s’affiche pas si le lecteur fonctionne en mode contextuel et que le système ne prend pas en charge le mode plein écran natif.
-seo-title: Bouton Vidéo plein écran
 solution: Experience Manager
 title: Bouton Vidéo plein écran
-uuid: f264154b-eb4d-4dcb-b8c0-e06c383198ae
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Combiner des visionneuses de supports
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 1%
+source-wordcount: '336'
+ht-degree: 2%
 
 ---
 
