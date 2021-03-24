@@ -1,16 +1,13 @@
 ---
 description: Ces commandes s’appliquent aux calques de couleur unie, en plus des commandes de calque courantes.
-seo-description: Ces commandes s’appliquent aux calques de couleur unie, en plus des commandes de calque courantes.
-seo-title: Commandes de calque de couleur unie
 solution: Experience Manager
 title: Commandes de calque de couleur unie
-uuid: 51d82a95-d940-4c62-8ea8-b8805ba16fd3
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---
