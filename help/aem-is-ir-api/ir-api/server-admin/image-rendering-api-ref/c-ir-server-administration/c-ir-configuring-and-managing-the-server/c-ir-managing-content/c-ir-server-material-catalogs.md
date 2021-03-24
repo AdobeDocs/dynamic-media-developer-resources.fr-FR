@@ -1,16 +1,13 @@
 ---
 description: Les catalogues de matériaux offrent de nombreux paramètres de configuration de rendu d’image.
-seo-description: Les catalogues de matériaux offrent de nombreux paramètres de configuration de rendu d’image.
-seo-title: Catalogues de matières
 solution: Experience Manager
 title: Catalogues de matières
-uuid: 6d209019-f9ca-43e4-900b-3597c7044a79
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
