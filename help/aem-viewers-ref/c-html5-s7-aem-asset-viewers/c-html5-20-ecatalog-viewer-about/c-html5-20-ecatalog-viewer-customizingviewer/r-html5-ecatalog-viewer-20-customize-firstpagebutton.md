@@ -1,16 +1,13 @@
 ---
 description: Cliquez ou appuyez sur ce bouton pour amener l’utilisateur à la première page du catalogue. Ce bouton apparaît dans la barre de contrôle principale des ordinateurs de bureau et des tablettes ; sur les téléphones portables, il est ajouté à une barre de contrôle secondaire. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
-seo-description: Cliquez ou appuyez sur ce bouton pour amener l’utilisateur à la première page du catalogue. Ce bouton apparaît dans la barre de contrôle principale des ordinateurs de bureau et des tablettes ; sur les téléphones portables, il est ajouté à une barre de contrôle secondaire. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
-seo-title: Bouton Première page
 solution: Experience Manager
 title: Bouton Première page
-uuid: fd164899-505c-448b-8dba-7581d97d87b6
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Catalogue électronique
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '351'
 ht-degree: 1%
 
 ---
