@@ -1,16 +1,13 @@
 ---
 description: Le visualiseur de carrousel est une visionneuse qui affiche un carrousel d’images de bannières non zoomables avec des zones réactives ou des régions cliquables. Ce lecteur de contenu a pour objectif de mettre en oeuvre une expérience de "carrousel pouvant faire l’objet d’un achat" dans laquelle les utilisateurs peuvent sélectionner une zone réactive ou une région sur l’image de la bannière et être redirigés vers une page de détails de produit ou de vue rapide sur le site Web du client. Il est conçu pour fonctionner sur les ordinateurs de bureau et les périphériques mobiles.
-seo-description: Le visualiseur de carrousel est une visionneuse qui affiche un carrousel d’images de bannières non zoomables avec des zones réactives ou des régions cliquables. Ce lecteur de contenu a pour objectif de mettre en oeuvre une expérience de "carrousel pouvant faire l’objet d’un achat" dans laquelle les utilisateurs peuvent sélectionner une zone réactive ou une région sur l’image de la bannière et être redirigés vers une page de détails de produit ou de vue rapide sur le site Web du client. Il est conçu pour fonctionner sur les ordinateurs de bureau et les périphériques mobiles.
-seo-title: Carrousel
 solution: Experience Manager
 title: Carrousel
-uuid: 0ba4f40b-8dde-4479-b906-3115f09ab249
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Bannières de carrousel
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1989'
+source-wordcount: '1921'
 ht-degree: 0%
 
 ---
