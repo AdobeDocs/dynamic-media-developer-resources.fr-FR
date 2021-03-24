@@ -1,16 +1,13 @@
 ---
 description: Les attributs et les champs du catalogue peuvent contenir des données de l’un des types suivants.
-seo-description: Les attributs et les champs du catalogue peuvent contenir des données de l’un des types suivants.
-seo-title: Types de données courants
 solution: Experience Manager
 title: Types de données courants
-uuid: 125a4044-7699-4c4f-9dea-a2934d919309
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '51'
 ht-degree: 1%
 
 ---
