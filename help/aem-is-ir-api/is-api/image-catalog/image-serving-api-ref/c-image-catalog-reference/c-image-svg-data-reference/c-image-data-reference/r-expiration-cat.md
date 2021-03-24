@@ -2,11 +2,10 @@
 description: Expiration
 solution: Experience Manager
 title: Expiration
-uuid: 5c9e5f76-c65f-4193-adf7-fb635fc5a071
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 2%
