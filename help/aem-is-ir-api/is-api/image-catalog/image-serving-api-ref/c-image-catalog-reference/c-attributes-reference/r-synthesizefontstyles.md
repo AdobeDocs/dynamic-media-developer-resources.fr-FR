@@ -1,17 +1,14 @@
 ---
 description: Activer les variations de polices synthétisées. Contrôle si le serveur doit générer une réponse d’erreur ou synthétiser un style de police gras, italique ou gras/italique si un tel style est demandé, mais qu’il est introuvable dans la carte de polices.
-seo-description: Activer les variations de polices synthétisées. Contrôle si le serveur doit générer une réponse d’erreur ou synthétiser un style de police gras, italique ou gras/italique si un tel style est demandé, mais qu’il est introuvable dans la carte de polices.
-seo-title: SynthesizeFontStyles
 solution: Experience Manager
 title: SynthesizeFontStyles
-uuid: f1c67490-7f14-4a6c-a7ba-5a476231ef34
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 2%
+source-wordcount: '126'
+ht-degree: 3%
 
 ---
 
