@@ -1,16 +1,13 @@
 ---
 description: Cette section décrit la syntaxe de base du protocole HTTP de rendu d’image Dynamic Media.
-seo-description: Cette section décrit la syntaxe de base du protocole HTTP de rendu d’image Dynamic Media.
-seo-title: Image Rending HTTP, protocole syntaxe de base
 solution: Experience Manager
 title: Image Rending HTTP, protocole syntaxe de base
-uuid: e01314f0-6aaa-41ca-8c05-d5db3148a071
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '231'
 ht-degree: 3%
 
 ---
