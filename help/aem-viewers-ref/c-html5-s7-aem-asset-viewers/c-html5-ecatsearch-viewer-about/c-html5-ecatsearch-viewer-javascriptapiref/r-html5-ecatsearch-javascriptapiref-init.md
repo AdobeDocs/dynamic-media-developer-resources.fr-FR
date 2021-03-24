@@ -1,16 +1,13 @@
 ---
 description: Référence de l’API JavaScript pour la visionneuse de catalogue électronique.
-seo-description: Référence de l’API JavaScript pour la visionneuse de catalogue électronique.
-seo-title: init
 solution: Experience Manager
 title: init
-uuid: b01f1497-8bee-4e01-8f92-272b324cb2dd
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '130'
 ht-degree: 2%
 
 ---
