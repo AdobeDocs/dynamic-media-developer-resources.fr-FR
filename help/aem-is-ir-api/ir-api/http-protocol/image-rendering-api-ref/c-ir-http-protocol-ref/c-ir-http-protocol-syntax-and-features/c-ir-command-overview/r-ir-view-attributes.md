@@ -1,16 +1,13 @@
 ---
 description: Ces commandes sont indépendantes de la position et peuvent se produire n’importe où dans une requête.
-seo-description: Ces commandes sont indépendantes de la position et peuvent se produire n’importe où dans une requête.
-seo-title: Attributs de vue
 solution: Experience Manager
 title: Attributs de vue
-uuid: eae8d998-a4ba-4871-9a8a-c15c22a20580
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '120'
 ht-degree: 1%
 
 ---
