@@ -1,16 +1,13 @@
 ---
 description: textPs= prend en charge plusieurs modèles d’utilisation différents décrits dans cette section.
-seo-description: textPs= prend en charge plusieurs modèles d’utilisation différents décrits dans cette section.
-seo-title: calques de texte
 solution: Experience Manager
 title: calques de texte
-uuid: 9ccef969-7c54-49ce-b6ff-ae4eabfcf99b
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '894'
 ht-degree: 0%
 
 ---
