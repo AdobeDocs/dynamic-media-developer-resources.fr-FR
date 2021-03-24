@@ -1,16 +1,13 @@
 ---
 description: La zone principale de la vue est la zone occupée par la vue et les nuances du volant.
-seo-description: La zone principale de la vue est la zone occupée par la vue et les nuances du volant.
-seo-title: Zone du lecteur principal
 solution: Experience Manager
 title: Zone du lecteur principal
-uuid: 828ee8e5-8e5f-47cf-a566-2e997a5e3926
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Zoom intégré
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '103'
 ht-degree: 2%
 
 ---
