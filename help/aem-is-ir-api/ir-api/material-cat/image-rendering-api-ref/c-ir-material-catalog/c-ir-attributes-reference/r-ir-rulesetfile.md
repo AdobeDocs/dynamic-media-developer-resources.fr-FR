@@ -1,17 +1,14 @@
 ---
 description: Chemin du fichier de définitions de jeu de règles. Spécifie le fichier qui contient les définitions de jeu de règles pour ce catalogue de matières.
-seo-description: Chemin du fichier de définitions de jeu de règles. Spécifie le fichier qui contient les définitions de jeu de règles pour ce catalogue de matières.
-seo-title: FichierJeuRègle
 solution: Experience Manager
 title: FichierJeuRègle
-uuid: 904fb549-053a-4f84-9cee-766df8d798e2
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 4%
+source-wordcount: '80'
+ht-degree: 5%
 
 ---
 
