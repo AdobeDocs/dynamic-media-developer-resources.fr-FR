@@ -1,16 +1,13 @@
 ---
 description: Définit les valeurs de métadonnées pour un fichier spécifique utilisé avec setAssetMetadata. Décrit les modifications que vous souhaitez apporter aux métadonnées.
-seo-description: Définit les valeurs de métadonnées pour un fichier spécifique utilisé avec setAssetMetadata. Décrit les modifications que vous souhaitez apporter aux métadonnées.
-seo-title: MetadataUpdate
 solution: Experience Manager
 title: MetadataUpdate
-uuid: 09d3940b-117d-4d83-8b12-e86520c9da34
 feature: Dynamic Media Classic, SDK/API, Métadonnées
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '211'
 ht-degree: 5%
 
 ---
