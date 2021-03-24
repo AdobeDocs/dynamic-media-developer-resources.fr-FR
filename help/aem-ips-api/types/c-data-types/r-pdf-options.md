@@ -1,17 +1,14 @@
 ---
 description: Options de fichier PDF.
-seo-description: Options de fichier PDF.
-seo-title: Options PDFO
 solution: Experience Manager
 title: Options PDFO
-uuid: 7558b6b5-ad32-4baf-896b-f4e2bd48f2ec
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 8%
+source-wordcount: '75'
+ht-degree: 9%
 
 ---
 
