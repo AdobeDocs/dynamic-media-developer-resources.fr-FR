@@ -1,16 +1,13 @@
 ---
 description: Ces commandes s’appliquent aux images source utilisées dans des requêtes simples ou dans des calques d’image, ainsi qu’aux masques attachés à des calques de couleur unie.
-seo-description: Ces commandes s’appliquent aux images source utilisées dans des requêtes simples ou dans des calques d’image, ainsi qu’aux masques attachés à des calques de couleur unie.
-seo-title: Opérations d’image source
 solution: Experience Manager
 title: Opérations d’image source
-uuid: ad6dbcd8-f4a4-4439-b51a-2aca30d198e0
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '110'
 ht-degree: 2%
 
 ---
