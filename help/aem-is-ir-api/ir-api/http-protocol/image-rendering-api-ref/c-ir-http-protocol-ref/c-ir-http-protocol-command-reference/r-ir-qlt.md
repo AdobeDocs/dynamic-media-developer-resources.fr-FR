@@ -1,16 +1,13 @@
 ---
 description: Qualité Jpeg. Spécifie les attributs de codage JPEG pour contrôler le niveau de compression.
-seo-description: Qualité Jpeg. Spécifie les attributs de codage JPEG pour contrôler le niveau de compression.
-seo-title: qlt
 solution: Experience Manager
 title: qlt
-uuid: 46f5b0da-7fe7-4daf-947b-bb5f5f5f5e6d
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '201'
 ht-degree: 7%
 
 ---
