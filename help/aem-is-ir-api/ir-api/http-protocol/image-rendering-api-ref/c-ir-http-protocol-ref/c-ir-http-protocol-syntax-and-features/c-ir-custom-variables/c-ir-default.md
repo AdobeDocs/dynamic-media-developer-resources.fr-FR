@@ -1,17 +1,14 @@
 ---
 description: Il n'existe pas de valeur par défaut.
-seo-description: Il n'existe pas de valeur par défaut.
-seo-title: Par défaut
 solution: Experience Manager
 title: Par défaut
-uuid: e8c36233-abf9-4342-8523-72ff7c831634
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 6%
+source-wordcount: '43'
+ht-degree: 4%
 
 ---
 
