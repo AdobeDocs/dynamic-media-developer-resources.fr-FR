@@ -1,16 +1,13 @@
 ---
 description: La barre de contrôle principale est la zone rectangulaire sur les ordinateurs de bureau et tablettes qui contient tous les contrôles de l’interface utilisateur (à l’exception des boutons Grande page) disponibles pour la visionneuse de recherche de catalogue électronique.
-seo-description: La barre de contrôle principale est la zone rectangulaire sur les ordinateurs de bureau et tablettes qui contient tous les contrôles de l’interface utilisateur (à l’exception des boutons Grande page) disponibles pour la visionneuse de recherche de catalogue électronique.
-seo-title: Barre de contrôle principale
 solution: Experience Manager
 title: Barre de contrôle principale
-uuid: 21b6e6cd-115f-4c7b-a61e-34b307142045
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '670'
 ht-degree: 1%
 
 ---
