@@ -1,17 +1,14 @@
 ---
 description: Exécute une tâche spécifique.
-seo-description: Exécute une tâche spécifique.
-seo-title: executeJob
 solution: Experience Manager
 title: executeJob
-uuid: e73223c1-9032-4745-92b6-a5840949a824
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 18%
+source-wordcount: '83'
+ht-degree: 19%
 
 ---
 
