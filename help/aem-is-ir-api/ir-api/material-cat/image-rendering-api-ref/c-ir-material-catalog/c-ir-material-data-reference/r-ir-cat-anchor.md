@@ -1,16 +1,13 @@
 ---
 description: Ancre d’image. Indique le point d’ancrage (zone réactive) d’une texture, d’une bordure du mur ou d’une image de décal répétable.
-seo-description: Ancre d’image. Indique le point d’ancrage (zone réactive) d’une texture, d’une bordure du mur ou d’une image de décal répétable.
-seo-title: Ancre
 solution: Experience Manager
 title: Ancre
-uuid: 0b1a0fea-b299-44dc-b9fd-5916130b2ef3
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '167'
 ht-degree: 3%
 
 ---
