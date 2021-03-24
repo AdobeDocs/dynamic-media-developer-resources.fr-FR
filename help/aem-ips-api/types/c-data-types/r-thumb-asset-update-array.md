@@ -1,17 +1,14 @@
 ---
 description: Mises à jour des métadonnées pour les ressources miniatures.
-seo-description: Mises à jour des métadonnées pour les ressources miniatures.
-seo-title: ThumbAssetUpdateArray
 solution: Experience Manager
 title: ThumbAssetUpdateArray
-uuid: 43b96b01-3a88-48cc-b653-262c9fb798a5
 feature: Dynamic Media Classic, SDK/API, Gestion des ressources
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 14%
+source-wordcount: '35'
+ht-degree: 17%
 
 ---
 
