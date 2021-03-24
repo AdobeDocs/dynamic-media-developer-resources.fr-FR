@@ -1,16 +1,13 @@
 ---
 description: Type de miniature. Décrit comment générer une miniature pour cette image.
-seo-description: Type de miniature. Décrit comment générer une miniature pour cette image.
-seo-title: ThumbType
 solution: Experience Manager
 title: ThumbType
-uuid: b737b5a4-ad6d-4a9c-b48f-81cf170dd210
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '268'
 ht-degree: 1%
 
 ---
