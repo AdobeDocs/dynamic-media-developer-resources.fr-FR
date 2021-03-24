@@ -1,16 +1,13 @@
 ---
 description: Entraîne le lecteur à passer en mode Plein écran ou à quitter ce mode lorsque l’utilisateur clique dessus. Ce bouton ne s’affiche pas si le lecteur fonctionne en mode contextuel et que le système ne prend pas en charge le mode plein écran natif. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
-seo-description: Entraîne le lecteur à passer en mode Plein écran ou à quitter ce mode lorsque l’utilisateur clique dessus. Ce bouton ne s’affiche pas si le lecteur fonctionne en mode contextuel et que le système ne prend pas en charge le mode plein écran natif. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
-seo-title: Bouton Plein écran
 solution: Experience Manager
 title: Bouton Plein écran
-uuid: 8f0ce51b-1ef6-4631-8a54-7d34cb6e3ef2
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Zoom
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '291'
 ht-degree: 2%
 
 ---
