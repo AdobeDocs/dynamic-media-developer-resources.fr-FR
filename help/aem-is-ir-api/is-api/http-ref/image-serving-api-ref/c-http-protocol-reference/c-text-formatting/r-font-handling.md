@@ -1,16 +1,13 @@
 ---
 description: Toutes les polices référencées dans la chaîne RTF doivent être disponibles dans le fichier de mappage des polices du catalogue par défaut ou du catalogue d’images actuel, sinon une erreur est renvoyée.
-seo-description: Toutes les polices référencées dans la chaîne RTF doivent être disponibles dans le fichier de mappage des polices du catalogue par défaut ou du catalogue d’images actuel, sinon une erreur est renvoyée.
-seo-title: Gestion des polices
 solution: Experience Manager
 title: Gestion des polices
-uuid: 6a751973-5dae-472e-a908-bf24fa59d031
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '240'
 ht-degree: 1%
 
 ---
