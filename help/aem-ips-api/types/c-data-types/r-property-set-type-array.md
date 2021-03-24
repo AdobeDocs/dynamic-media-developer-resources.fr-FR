@@ -1,17 +1,14 @@
 ---
 description: Tableau de type de jeu de propriétés.
-seo-description: Tableau de type de jeu de propriétés.
-seo-title: PropertySetTypeArray
 solution: Experience Manager
 title: PropertySetTypeArray
-uuid: a35e55fe-7e61-4060-b0c2-93b551ad757d
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 18%
+source-wordcount: '28'
+ht-degree: 21%
 
 ---
 
