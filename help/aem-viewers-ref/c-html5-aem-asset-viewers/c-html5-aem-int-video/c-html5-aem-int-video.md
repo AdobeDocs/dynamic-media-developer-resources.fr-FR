@@ -1,16 +1,13 @@
 ---
 description: La visionneuse de vidéos interactive est un lecteur vidéo qui lit la diffusion en flux continu et la vidéo progressive codée au format H.264.
-seo-description: La visionneuse de vidéos interactive est un lecteur vidéo qui lit la diffusion en flux continu et la vidéo progressive codée au format H.264.
-seo-title: Vidéo interactive
 solution: Experience Manager
 title: Vidéo interactive
-uuid: 116c6b40-2490-4f1a-9c76-e06082069cc8
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '2254'
+source-wordcount: '2234'
 ht-degree: 0%
 
 ---
