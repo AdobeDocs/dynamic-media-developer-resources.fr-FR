@@ -1,17 +1,14 @@
 ---
 description: La personnalisation visuelle et la personnalisation comportementale la plus importante pour la visionneuse de supports variés s’effectuent en créant une page CSS personnalisée.
 keywords: réactif
-seo-description: La personnalisation visuelle et la personnalisation comportementale la plus importante pour la visionneuse de supports variés s’effectuent en créant une page CSS personnalisée.
-seo-title: Personnalisation de la visionneuse de supports variés
 solution: Experience Manager
 title: Personnalisation de la visionneuse de supports variés
-uuid: 039462a7-2915-48f3-8d4b-0c527801b85a
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Combiner des visionneuses de supports
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1340'
 ht-degree: 0%
 
 ---
