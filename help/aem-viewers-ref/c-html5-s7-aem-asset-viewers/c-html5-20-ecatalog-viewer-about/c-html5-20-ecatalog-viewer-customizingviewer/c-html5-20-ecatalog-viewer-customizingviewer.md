@@ -1,17 +1,14 @@
 ---
 description: La personnalisation visuelle et la personnalisation comportementale la plus importante pour la visionneuse de catalogue électronique s’effectuent en créant une page CSS personnalisée.
 keywords: réactif
-seo-description: La personnalisation visuelle et la personnalisation comportementale la plus importante pour la visionneuse de catalogue électronique s’effectuent en créant une page CSS personnalisée.
-seo-title: Personnalisation de la visionneuse de catalogue électronique
 solution: Experience Manager
 title: Personnalisation de la visionneuse de catalogue électronique
-uuid: 20d0d342-acb8-421f-9ec1-447edeafda86
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Catalogue électronique
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1323'
+source-wordcount: '1302'
 ht-degree: 0%
 
 ---
