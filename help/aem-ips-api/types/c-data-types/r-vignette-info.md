@@ -1,17 +1,14 @@
 ---
 description: Propriétés d’un fichier de vignette.
-seo-description: Propriétés d’un fichier de vignette.
-seo-title: VignetteInfo
 solution: Experience Manager
 title: VignetteInfo
-uuid: 86406541-f117-49a3-909b-bde63d8e9eef
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 12%
+source-wordcount: '51'
+ht-degree: 13%
 
 ---
 
