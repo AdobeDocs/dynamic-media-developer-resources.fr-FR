@@ -1,16 +1,13 @@
 ---
 description: Le lecteur vidéo est la zone rectangulaire dans laquelle le contenu vidéo est affiché dans la visionneuse.
-seo-description: Le lecteur vidéo est la zone rectangulaire dans laquelle le contenu vidéo est affiché dans la visionneuse.
-seo-title: Lecteur vidéo360
 solution: Experience Manager
 title: Lecteur vidéo360
-uuid: e78a9c22-4217-42cc-ba47-3acb4130a4fd
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo 360 VR
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '215'
 ht-degree: 1%
 
 ---
