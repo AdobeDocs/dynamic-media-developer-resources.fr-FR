@@ -1,17 +1,14 @@
 ---
 description: Envoyez un nouveau traitement par lots.
-seo-description: Envoyez un nouveau traitement par lots.
-seo-title: batchjobsubmit
 solution: Experience Manager
 title: batchjobsubmit
-uuid: eb695666-fcaf-40bc-8b56-452819f058d2
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 1%
+source-wordcount: '46'
+ht-degree: 2%
 
 ---
 
