@@ -1,16 +1,13 @@
 ---
 description: La vue principale est constituée de l’image statique.
-seo-description: La vue principale est constituée de l’image statique.
-seo-title: Vue de zoom
 solution: Experience Manager
 title: Vue de zoom
-uuid: d8349f8c-134f-4e74-9d0c-ab56981965d7
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Images interactives
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '70'
 ht-degree: 1%
 
 ---
