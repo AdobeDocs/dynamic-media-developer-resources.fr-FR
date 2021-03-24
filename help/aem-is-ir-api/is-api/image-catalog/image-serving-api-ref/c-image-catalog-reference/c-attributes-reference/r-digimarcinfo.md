@@ -1,17 +1,14 @@
 ---
 description: Informations d’image Digimarc par défaut. Fournit une valeur par défaut pour le catalogue DigimarcInfo.
-seo-description: Informations d’image Digimarc par défaut. Fournit une valeur par défaut pour le catalogue DigimarcInfo.
-seo-title: DigimarcInfo
 solution: Experience Manager
 title: DigimarcInfo
-uuid: fc47645d-e3e9-433e-9194-2aa9ddc123ab
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 5%
+source-wordcount: '60'
+ht-degree: 6%
 
 ---
 
