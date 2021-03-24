@@ -1,16 +1,13 @@
 ---
 description: Pour plus d’informations sur les matériaux utilisés par le rendu d’image, voir Matériaux dans le Guide de référence du protocole HTTP.
-seo-description: Pour plus d’informations sur les matériaux utilisés par le rendu d’image, voir Matériaux dans le Guide de référence du protocole HTTP.
-seo-title: Matériaux
 solution: Experience Manager
 title: Matériaux
-uuid: a4bbdd77-56b4-4a62-8fc4-2162b00420e7
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '42'
 ht-degree: 0%
 
 ---
