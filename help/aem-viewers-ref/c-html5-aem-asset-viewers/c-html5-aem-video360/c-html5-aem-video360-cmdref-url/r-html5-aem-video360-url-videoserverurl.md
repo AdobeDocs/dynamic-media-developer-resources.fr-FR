@@ -1,17 +1,14 @@
 ---
 description: Commande d’URL pour le lecteur vidéo360.
-seo-description: Commande d’URL pour le lecteur vidéo360.
-seo-title: videoServerUrl
 solution: Experience Manager
 title: videoServerUrl
-uuid: b6fa3fc3-9182-4d05-a735-e4cc0e58c3e4
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo 360 VR
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 5%
+source-wordcount: '62'
+ht-degree: 6%
 
 ---
 
