@@ -1,16 +1,13 @@
 ---
 description: Texte du calque. Indique le texte et le formatage du contenu d’un calque de texte.
-seo-description: Texte du calque. Indique le texte et le formatage du contenu d’un calque de texte.
-seo-title: texte
 solution: Experience Manager
 title: texte
-uuid: 5b4f9282-83a3-488d-b5d2-deb2c92de564
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '177'
 ht-degree: 5%
 
 ---
