@@ -1,16 +1,13 @@
 ---
 description: Propriétés d’une cible de zoom.
-seo-description: Propriétés d’une cible de zoom.
-seo-title: Cible de zoom
 solution: Experience Manager
 title: Cible de zoom
-uuid: 08a03140-c8cc-49d8-9575-ae153b3899c9
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '83'
 ht-degree: 14%
 
 ---
