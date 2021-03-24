@@ -2,11 +2,10 @@
 description: Bouton Rechercher
 solution: Experience Manager
 title: Bouton Rechercher
-uuid: a4d64d61-338e-4963-865e-c1afe1a4876f
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 1%
