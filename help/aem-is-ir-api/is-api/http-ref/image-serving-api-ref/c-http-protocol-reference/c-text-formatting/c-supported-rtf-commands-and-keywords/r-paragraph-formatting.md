@@ -1,16 +1,13 @@
 ---
 description: Les commandes de formatage de paragraphe suivantes sont prises en charge.
-seo-description: Les commandes de formatage de paragraphe suivantes sont prises en charge.
-seo-title: Formatage des paragraphes
 solution: Experience Manager
 title: Formatage des paragraphes
-uuid: 4f9255b2-3a74-4c9a-80c5-d85b4627027e
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '238'
 ht-degree: 1%
 
 ---
