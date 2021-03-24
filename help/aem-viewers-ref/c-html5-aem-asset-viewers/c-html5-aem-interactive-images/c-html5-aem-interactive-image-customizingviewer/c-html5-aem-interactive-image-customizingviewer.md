@@ -1,17 +1,14 @@
 ---
 description: La personnalisation visuelle et la personnalisation comportementale la plus importante pour la visionneuse d’images interactive s’effectuent en créant une page CSS personnalisée.
 keywords: réactif
-seo-description: La personnalisation visuelle et la personnalisation comportementale la plus importante pour la visionneuse d’images interactive s’effectuent en créant une page CSS personnalisée.
-seo-title: Personnalisation de la visionneuse d’images interactive
 solution: Experience Manager
 title: Personnalisation de la visionneuse d’images interactive
-uuid: 19868e4e-c2c9-41e0-82a6-20884a9454a4
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Images interactives
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1291'
 ht-degree: 0%
 
 ---
