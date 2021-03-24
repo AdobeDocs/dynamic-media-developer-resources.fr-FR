@@ -1,17 +1,14 @@
 ---
 description: Couleur d’arrière-plan par défaut des miniatures. Valeur RVB utilisée pour remplir la zone d’une image miniature de sortie qui ne contient pas de données d’image réelles.
-seo-description: Couleur d’arrière-plan par défaut des miniatures. Valeur RVB utilisée pour remplir la zone d’une image miniature de sortie qui ne contient pas de données d’image réelles.
-seo-title: CouleurBkgPasse
 solution: Experience Manager
 title: CouleurBkgPasse
-uuid: c75c01f4-036e-46fd-9bc1-480920c0c05a
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 4%
+source-wordcount: '86'
+ht-degree: 5%
 
 ---
 
