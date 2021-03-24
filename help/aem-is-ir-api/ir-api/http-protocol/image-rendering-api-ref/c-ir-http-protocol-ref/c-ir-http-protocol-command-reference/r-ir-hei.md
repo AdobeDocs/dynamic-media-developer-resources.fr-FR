@@ -1,16 +1,13 @@
 ---
 description: Hauteur de l’image de réponse. Indique la mise à l’échelle de l’image rendue de sorte que la hauteur de l’image de réponse ne dépasse pas la valeur spécifiée, tout en conservant les proportions de l’image.
-seo-description: Hauteur de l’image de réponse. Indique la mise à l’échelle de l’image rendue de sorte que la hauteur de l’image de réponse ne dépasse pas la valeur spécifiée, tout en conservant les proportions de l’image.
-seo-title: hei
 solution: Experience Manager
 title: hei
-uuid: 616d3306-ccbd-4400-8a94-1ff6f47b802e
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '252'
 ht-degree: 2%
 
 ---
