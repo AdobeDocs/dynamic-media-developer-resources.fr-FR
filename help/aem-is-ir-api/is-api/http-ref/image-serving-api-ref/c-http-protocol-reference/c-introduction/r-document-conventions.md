@@ -1,16 +1,13 @@
 ---
 description: Ce document utilise les conventions suivantes.
-seo-description: Ce document utilise les conventions suivantes.
-seo-title: Conventions relatives aux documents
 solution: Experience Manager
 title: Conventions relatives aux documents
-uuid: c929774b-8560-4f8a-98fd-1b75d4419c4d
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -23,7 +20,7 @@ Ce document utilise les conventions suivantes.
 <table id="simpletable_8C9DB0DA5F2B4C068794415602B768CB"> 
  <tr class="strow"> 
   <td class="stentry"> <p>littéral </p> </td> 
-  <td class="stentry"> <p>Dans les sections de syntaxe, le texte non italique est littéral ; cela ne s’applique pas à l’espace blanc et aux symboles [ ] { } | *. </p> </td> 
+  <td class="stentry"> <p>Dans les sections de syntaxe, le texte non italique est littéral. Cette règle ne s’applique pas à l’espace blanc et aux symboles [ ] { } | *. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>'littéral' </p> </td> 
@@ -83,7 +80,7 @@ Ce document utilise les conventions suivantes.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> *{  <span class="varname"> group  </span>}  </span> </p> </td> 
-  <td class="stentry"> <p>Les éléments syntaxiques du groupe peuvent être répétés une ou plusieurs fois. </p> </td> 
+  <td class="stentry"> <p>Les éléments de syntaxe du groupe peuvent être répétés une ou plusieurs fois. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>espace blanc </p> </td> 
