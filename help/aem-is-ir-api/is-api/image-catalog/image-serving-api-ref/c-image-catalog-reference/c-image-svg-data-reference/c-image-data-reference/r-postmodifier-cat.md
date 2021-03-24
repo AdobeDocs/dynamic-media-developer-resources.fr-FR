@@ -1,16 +1,13 @@
 ---
 description: Chaîne de modificateur de demande de suffixe. Aucune ou plusieurs commandes de diffusion d’images séparées par des caractères "&".
-seo-description: Chaîne de modificateur de demande de suffixe. Aucune ou plusieurs commandes de diffusion d’images séparées par des caractères "&".
-seo-title: PostModificateur
 solution: Experience Manager
 title: PostModificateur
-uuid: 8800a9b2-e9c0-498b-b4e1-37952ba7c842
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '135'
 ht-degree: 4%
 
 ---
