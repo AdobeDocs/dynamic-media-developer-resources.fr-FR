@@ -1,16 +1,13 @@
 ---
 description: Le catalogue de sessions est le catalogue de matières qui fournit des attributs de session pour la requête, ainsi qu’une valeur catId par défaut pour toutes les commandes src=, vignette= et icc=.
-seo-description: Le catalogue de sessions est le catalogue de matières qui fournit des attributs de session pour la requête, ainsi qu’une valeur catId par défaut pour toutes les commandes src=, vignette= et icc=.
-seo-title: Catalogue de sessions
 solution: Experience Manager
 title: Catalogue de sessions
-uuid: 69c0f6cd-dfaf-47bf-bdd9-7abb4e6f7465
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
