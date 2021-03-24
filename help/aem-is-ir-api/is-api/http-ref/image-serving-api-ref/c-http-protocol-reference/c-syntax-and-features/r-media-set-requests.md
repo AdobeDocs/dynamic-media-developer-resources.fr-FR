@@ -1,16 +1,13 @@
 ---
 description: La diffusion d’images fournit un mécanisme permettant de récupérer une réponse de texte hiérarchique (xml ou json) qui représente toutes les ressources et métadonnées associées au catalogue ImageSet pour un enregistrement particulier.
-seo-description: La diffusion d’images fournit un mécanisme permettant de récupérer une réponse de texte hiérarchique (xml ou json) qui représente toutes les ressources et métadonnées associées au catalogue ImageSet pour un enregistrement particulier.
-seo-title: Requêtes de visionneuse de supports
 solution: Experience Manager
 title: Requêtes de visionneuse de supports
-uuid: af9fabcd-531d-43fb-bd97-269923bea5e8
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
