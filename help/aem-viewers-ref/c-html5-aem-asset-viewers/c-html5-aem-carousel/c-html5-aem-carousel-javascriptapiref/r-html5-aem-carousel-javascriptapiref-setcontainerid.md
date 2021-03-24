@@ -1,17 +1,14 @@
 ---
 description: Référence de l’API JavaScript pour Carousel Viewer.
-seo-description: Référence de l’API JavaScript pour Carousel Viewer.
-seo-title: setContainerId
 solution: Experience Manager
 title: setContainerId
-uuid: 3e26c121-7493-49b5-af25-ebd76477a415
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Bannières de carrousel
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 2%
+source-wordcount: '98'
+ht-degree: 3%
 
 ---
 
