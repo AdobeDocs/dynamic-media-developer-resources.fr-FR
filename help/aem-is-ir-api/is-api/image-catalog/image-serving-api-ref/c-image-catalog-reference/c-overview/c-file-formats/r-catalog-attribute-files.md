@@ -1,16 +1,13 @@
 ---
 description: Les fichiers d’attributs du catalogue peuvent porter n’importe quel nom, mais doivent avoir un suffixe de fichier .ini. Ils peuvent être facilement conservés dans n’importe quel éditeur de texte.
-seo-description: Les fichiers d’attributs du catalogue peuvent porter n’importe quel nom, mais doivent avoir un suffixe de fichier .ini. Ils peuvent être facilement conservés dans n’importe quel éditeur de texte.
-seo-title: Fichiers d’attributs du catalogue
 solution: Experience Manager
 title: Fichiers d’attributs du catalogue
-uuid: 63985780-f032-4542-8d84-b8b608ceea4b
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
