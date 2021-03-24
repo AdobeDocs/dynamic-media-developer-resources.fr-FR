@@ -1,17 +1,14 @@
 ---
 description: Type de matériau. Type de surface du matériau. Utilisé conjointement avec le catalogue Gloss et le catalogue Roughness pour contrôler les effets de rendu de reflet 3D.
-seo-description: Type de matériau. Type de surface du matériau. Utilisé conjointement avec le catalogue Gloss et le catalogue Roughness pour contrôler les effets de rendu de reflet 3D.
-seo-title: Type
 solution: Experience Manager
 title: Type
-uuid: 8e367013-ed4c-4504-baf7-26ea27d96469
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 23%
+source-wordcount: '141'
+ht-degree: 26%
 
 ---
 
