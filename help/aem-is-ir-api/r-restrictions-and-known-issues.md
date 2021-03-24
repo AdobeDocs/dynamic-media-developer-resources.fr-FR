@@ -1,16 +1,13 @@
 ---
 description: Certaines restrictions et problèmes connus doivent être pris en compte lors de l’utilisation de la diffusion d’images Dynamic Media.
-seo-description: Certaines restrictions et problèmes connus doivent être pris en compte lors de l’utilisation de la diffusion d’images Dynamic Media.
-seo-title: Restrictions et problèmes connus
 solution: Experience Manager
 title: Restrictions et problèmes connus
-uuid: 9f9fad41-4828-4fba-8f5f-2c33e7811c71
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1238'
 ht-degree: 0%
 
 ---
@@ -35,7 +32,7 @@ Certaines restrictions et problèmes connus doivent être pris en compte lors de
 
 * `\charscaley` se met à l’échelle différemment que lors de l’utilisation  `text=` mais n’affecte pas la hauteur de ligne.
 
-* Si la dernière ligne de texte ne tient pas, la ligne entière est supprimée au lieu d’apparaître comme coupure.
+* Si la dernière ligne de texte ne tient pas, la ligne entière est laissée tomber au lieu d’être coupée.
 * `\slmult` et  `\sl` se comportent différemment de MS Word et  `text=`ils prennent simplement effet pour les paragraphes actuels et suivants.
 
 * `\sb` s&#39;applique au premier paragraphe pour MS Word et  `text=`Adobe InDesign et Photoshop ne le font pas.
