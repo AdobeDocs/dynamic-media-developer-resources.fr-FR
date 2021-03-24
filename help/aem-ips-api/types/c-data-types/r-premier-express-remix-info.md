@@ -1,17 +1,14 @@
 ---
 description: Propriétés d’une ressource de fichier PremierExpressRemix.
-seo-description: Propriétés d’une ressource de fichier PremierExpressRemix.
-seo-title: PremierExpressRemixInfo
 solution: Experience Manager
 title: PremierExpressRemixInfo
-uuid: e3a2d6f9-e6ba-4841-99b9-c514a4fb2397
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 16%
+source-wordcount: '35'
+ht-degree: 20%
 
 ---
 
