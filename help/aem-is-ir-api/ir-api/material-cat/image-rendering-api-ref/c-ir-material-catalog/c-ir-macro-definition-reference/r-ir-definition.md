@@ -1,17 +1,14 @@
 ---
 description: Définition de macro. Un fragment de protocole Render Serving constitué d’une ou plusieurs commandes complètes, séparées par des caractères "&".
-seo-description: Définition de macro. Un fragment de protocole Render Serving constitué d’une ou plusieurs commandes complètes, séparées par des caractères "&".
-seo-title: Définition
 solution: Experience Manager
 title: Définition
-uuid: 3860cf79-de70-4fcc-a4e8-6d9c53d32396
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 8%
+source-wordcount: '64'
+ht-degree: 9%
 
 ---
 
