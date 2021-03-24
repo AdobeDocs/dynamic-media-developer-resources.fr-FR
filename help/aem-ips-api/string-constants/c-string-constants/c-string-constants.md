@@ -2,11 +2,10 @@
 description: Constantes de chaîne
 solution: Experience Manager
 title: Constantes de chaîne
-uuid: 2cc2fb9f-ad32-4ac6-8e58-c8a11b786d65
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 6%
