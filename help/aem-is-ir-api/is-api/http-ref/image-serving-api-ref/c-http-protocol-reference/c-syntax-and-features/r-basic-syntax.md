@@ -1,16 +1,13 @@
 ---
 description: La syntaxe de base du protocole HTTP est la suivante.
-seo-description: La syntaxe de base du protocole HTTP est la suivante.
-seo-title: Syntaxe de base du protocole HTTP Image Serving
 solution: Experience Manager
 title: Syntaxe de base du protocole HTTP Image Serving
-uuid: 3269c2f2-df0f-4b62-ae9c-a267acae8071
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '278'
 ht-degree: 1%
 
 ---
@@ -18,7 +15,7 @@ ht-degree: 1%
 
 # Syntaxe de base du protocole HTTP Image Serving{#image-serving-http-protocol-basic-syntax}
 
-La syntaxe de base du protocole HTTP est la suivante.
+La syntaxe de base du protocole HTTP est la suivante :
 
 <table id="simpletable_854C20D4C42247B99D9F123543C17E7C"> 
  <tr class="strow"> 
@@ -47,19 +44,19 @@ La syntaxe de base du protocole HTTP est la suivante.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> macro</span> </span> </p> </td> 
-  <td class="stentry"> <p>Nom d’une macro de commande. </p></td> 
+  <td class="stentry"> <p>Nom d’une macro de commande.</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> commentaire</span> </span> </p></td> 
-  <td class="stentry"> <p>Chaîne de commentaires (ignorée par le serveur). </p></td> 
+  <td class="stentry"> <p>Chaîne de commentaires (ignorée par le serveur).</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> cmdName</span> </span> </p></td> 
-  <td class="stentry"> <p>Un des noms de commande ou d'attribut pris en charge. </p></td> 
+  <td class="stentry"> <p>Un des noms de commande ou d'attribut pris en charge.</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> var</span> </span> </p> </td> 
-  <td class="stentry"> <p>Nom d’une variable personnalisée. </p></td> 
+  <td class="stentry"> <p>Nom d’une variable personnalisée.</p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> value</span> </span> </p></td> 
@@ -69,7 +66,7 @@ La syntaxe de base du protocole HTTP est la suivante.
 
 *`server_address`*,  *`cmdName`*,  *`macro`* et  *`var`* ne tiennent pas compte de la casse. Le serveur conserve la casse de toutes les autres valeurs de chaîne.
 
-*`value`* est spécifique à la commande et peut se composer d’une ou de plusieurs valeurs séparées par des virgules. Consultez la description des commandes individuelles pour plus de détails.
+*`value`* est spécifique à la commande et peut se composer d’une ou plusieurs valeurs séparées par des virgules. Consultez la description des commandes individuelles pour plus de détails.
 
 ## Identifiant du serveur {#section-926ae55ddba14b8d952147a5fd701e14}
 
@@ -85,7 +82,7 @@ Image Serving extrait d’abord *`object`* et *`modifiers`* de la requête entra
 
 ## Commentaires {#section-69ef0be0f17a418c87a0eba21c2ddb00}
 
-Les commentaires peuvent être incorporés dans des chaînes de requête n’importe où et sont identifiés par un point(.) immédiatement après le séparateur de commandes(&amp;). Le commentaire se termine par l’occurrence suivante d’un séparateur de commande (non codé). Cette fonction peut être utilisée pour ajouter des informations à la demande qui ne sont pas destinées à la diffusion d’images, telles que des horodatages, des ID de base de données, etc.
+Les commentaires peuvent être incorporés dans des chaînes de requête n’importe où et sont identifiés par un point(.) immédiatement après le séparateur de commandes(&amp;). Le commentaire se termine par l’occurrence suivante d’un séparateur de commande (non codé). Cette fonctionnalité peut être utilisée pour ajouter des informations à la requête qui ne sont pas destinées à la diffusion d’images, telles que des horodatages et des ID de base de données.
 
 ## Voir aussi {#section-d0b836568c31454b8dbeb136e6bbe0f0}
 
