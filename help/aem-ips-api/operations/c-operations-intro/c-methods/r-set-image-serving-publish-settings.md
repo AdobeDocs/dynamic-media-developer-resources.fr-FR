@@ -1,17 +1,14 @@
 ---
 description: Pour les développeurs Scene7 uniquement. Reportez-vous à la section Attributs de catalogue de matériaux de rendu d'image de référence.
-seo-description: Pour les développeurs Scene7 uniquement. Reportez-vous à la section Attributs de catalogue de matériaux de rendu d'image de référence.
-seo-title: setImageServingPublishSettings
 solution: Experience Manager
 title: setImageServingPublishSettings
-uuid: 16fc8600-8b04-4078-abb0-201d750b28aa
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 11%
+source-wordcount: '61'
+ht-degree: 14%
 
 ---
 
