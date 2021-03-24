@@ -1,16 +1,13 @@
 ---
 description: Cliquez ou appuyez sur ce bouton pour renvoyer un utilisateur à la diapositive précédente du carrousel. Ce bouton n’est pas affiché sur les périphériques tactiles. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
-seo-description: Cliquez ou appuyez sur ce bouton pour renvoyer un utilisateur à la diapositive précédente du carrousel. Ce bouton n’est pas affiché sur les périphériques tactiles. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
-seo-title: Diapositive précédente
 solution: Experience Manager
 title: Diapositive précédente
-uuid: 733fa270-ce95-4493-9d31-f7f638d8368d
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Bannières de carrousel
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '251'
 ht-degree: 2%
 
 ---
