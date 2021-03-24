@@ -5,9 +5,9 @@ title: fmt
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: 4f9ce78007cb6ad8def15397aa2224cd7675bb0e
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '585'
 ht-degree: 4%
 
 ---
@@ -123,7 +123,7 @@ Format d’image de réponse. Indique le format de codage d’image pour les don
 
 `qlt-` définit les options de codage JPEG pour ces formats : JPEG, TIFF avec compression JPEG, PDF avec compression JPEG et fichier SWF. Utilisez `quantize=` si `fmt=gif` ou `fmt=gif-alpha`. Consultez les descriptions des commandes pour plus de détails. Les autres formats n’ont pas d’options configurables.
 
-Un composant de 8 bits par pixel est renvoyé pour tous les formats et types de pixels.
+Un composant de huit bits par pixel est renvoyé pour tous les formats et types de pixels.
 
 Le tableau suivant liste les combinaisons valides de *`format`* et *`pixelType`*, les types MIME de réponse HTTP correspondants, si les profils ICC peuvent être incorporés (voir [iccEmbed=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f)) et les commandes d&#39;option propres au format qui peuvent être appliquées.
 
@@ -199,11 +199,11 @@ Le tableau suivant liste les combinaisons valides de *`format`* et *`pixelType`*
 
 Indique le format de codage des données d’image de réponse envoyées au client et le type MIME de réponse correspondant pour l’en-tête de réponse HTTP.
 
-`png-alpha` renvoie une valeur alpha non associée (c’est-à-dire qu’alpha ne prémultiplie pas les valeurs de pixels), tandis que  `tif-alpha`et  `swf-alpha` renvoie une valeur alpha associée (c’est-à-dire que les valeurs alpha sont pré-multipliées avec les valeurs alpha). Le canal alpha correspond à l’inverse du masque d’arrière-plan de la vignette pour `req=img` et au masque de groupe ou d’objet dans le cas de `req=object`. Pour appliquer alpha lors de l’utilisation d’une requête IR imbriquée, ajoutez `fmt=` avec le format de fichier alpha approprié à la requête IR incorporée et à la requête principale. Aucune donnée alpha n’est renvoyée si un profil ICC CMJN ou Niveaux de gris est spécifié avec `icc=`.
+`png-alpha` renvoie une valeur alpha non associée (c’est-à-dire qu’alpha ne prémultiplie pas les valeurs de pixels), tandis que  `tif-alpha`et  `swf-alpha` renvoie une valeur alpha associée (c’est-à-dire que les valeurs alpha sont pré-multipliées avec les valeurs alpha). Le canal alpha correspond à l’inverse du masque d’arrière-plan de la vignette pour `req=img` et au masque de groupe ou d’objet s’il existe `req=object`. Pour appliquer alpha lors de l’utilisation d’une requête IR imbriquée, ajoutez `fmt=` avec le format de fichier alpha approprié à la requête IR incorporée et à la requête principale. Aucune donnée alpha n’est renvoyée si un profil ICC CMJN ou Niveaux de gris est spécifié avec `icc=`.
 
 ## Propriétés {#section-eb12a82c69d84622bcea153dd84d95b3}
 
-Peut se produire n’importe où dans la demande.
+Peut se produire n’importe où dans la requête.
 
 ## Par défaut {#section-d2c2af11fa974e1a84e0c6cb7fb646fe}
 
