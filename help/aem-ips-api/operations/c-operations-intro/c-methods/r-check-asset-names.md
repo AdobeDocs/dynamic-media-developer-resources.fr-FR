@@ -1,17 +1,14 @@
 ---
 description: Recherche les conflits d’ID IPS en comparant les noms de fichier à tous les noms d’un espace de nommage de catalogue de diffusion d’images/rendu d’images de société.
-seo-description: Recherche les conflits d’ID IPS en comparant les noms de fichier à tous les noms d’un espace de nommage de catalogue de diffusion d’images/rendu d’images de société.
-seo-title: checkAssetNames
 solution: Experience Manager
 title: checkAssetNames
-uuid: 91d073a8-7648-429b-aa5c-c7d595550299
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 10%
+source-wordcount: '123'
+ht-degree: 12%
 
 ---
 
