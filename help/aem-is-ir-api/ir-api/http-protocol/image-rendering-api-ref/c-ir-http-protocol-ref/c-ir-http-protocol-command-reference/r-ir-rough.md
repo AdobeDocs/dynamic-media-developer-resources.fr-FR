@@ -1,16 +1,13 @@
 ---
 description: La rugosité de la surface du matériau. Indique la rugosité relative de la surface du matériau.
-seo-description: La rugosité de la surface du matériau. Indique la rugosité relative de la surface du matériau.
-seo-title: brut
 solution: Experience Manager
 title: brut
-uuid: d3b4ece1-cc2a-4012-ad81-2f313d3a370b
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '182'
 ht-degree: 2%
 
 ---
