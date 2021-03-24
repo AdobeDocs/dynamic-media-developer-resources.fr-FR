@@ -1,17 +1,14 @@
 ---
 description: Format de codage TIFF. Indique le format de compression des images TIFF (en fait, la valeur par défaut de la troisième valeur de la commande fmt=).
-seo-description: Format de codage TIFF. Indique le format de compression des images TIFF (en fait, la valeur par défaut de la troisième valeur de la commande fmt=).
-seo-title: TiffEncoding
 solution: Experience Manager
 title: TiffEncoding
-uuid: b9f672f8-d759-4248-8588-9fe46db1645f
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 3%
+source-wordcount: '80'
+ht-degree: 5%
 
 ---
 
