@@ -1,16 +1,13 @@
 ---
 description: Paramètre commun à toutes les visionneuses.
-seo-description: Paramètre commun à toutes les visionneuses.
-seo-title: config
 solution: Experience Manager
 title: config
-uuid: 9e9bb580-a33a-4405-b05c-56962d702145
 feature: Dynamic Media Classic, Visionneuses, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '261'
 ht-degree: 2%
 
 ---
@@ -120,7 +117,7 @@ Cela équivaut aux commandes suivantes spécifiées explicitement dans l’URL :
 style=etc/dam/presets/css/html5_interactivevideo_dark.css
 ```
 
-## Exemple 5 {#section-19b988551d1d492a9079948e0b04b38f}
+## Exemple 4 {#section-19b988551d1d492a9079948e0b04b38f}
 
 Un paramètre prédéfini de visionneuse nommé `Carousel_Dotted_light` contient les données suivantes :
 
