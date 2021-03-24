@@ -1,16 +1,13 @@
 ---
 description: Couleur de fond. Indique la couleur de soustraction des textures et des décalcomanies colorables.
-seo-description: Couleur de fond. Indique la couleur de soustraction des textures et des décalcomanies colorables.
-seo-title: bgc
 solution: Experience Manager
 title: bgc
-uuid: 551a0da8-dd1f-484a-bf7e-f4896370340a
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '165'
 ht-degree: 6%
 
 ---
