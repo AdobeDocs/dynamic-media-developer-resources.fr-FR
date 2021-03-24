@@ -1,17 +1,14 @@
 ---
 description: Options spécifiées pendant le téléchargement. Affecte la façon dont la couleur est gérée pour le transfert.
-seo-description: Options spécifiées pendant le téléchargement. Affecte la façon dont la couleur est gérée pour le transfert.
-seo-title: OptionsGestionCouleur
 solution: Experience Manager
 title: OptionsGestionCouleur
-uuid: ddf50d22-8d7b-4881-8023-bd7f58cbd882
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 7%
+source-wordcount: '51'
+ht-degree: 9%
 
 ---
 
