@@ -1,17 +1,14 @@
 ---
 description: Chaîne d’annotation du catalogue. Chaîne de texte pouvant être utilisée pour identifier la version du catalogue, la date de publication, etc.
-seo-description: Chaîne d’annotation du catalogue. Chaîne de texte pouvant être utilisée pour identifier la version du catalogue, la date de publication, etc.
-seo-title: PublishInfo
 solution: Experience Manager
 title: PublishInfo
-uuid: 2bcd65b8-2f3e-4652-b346-a850900e8c7b
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 4%
+source-wordcount: '74'
+ht-degree: 5%
 
 ---
 
