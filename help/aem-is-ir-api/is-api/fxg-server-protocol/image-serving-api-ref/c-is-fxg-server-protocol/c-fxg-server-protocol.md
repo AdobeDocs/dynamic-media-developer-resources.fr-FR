@@ -1,17 +1,14 @@
 ---
 description: Pour manipuler un graphique, vous pouvez utiliser les points de référence qui rappellent les points cardinaux.
-seo-description: Pour manipuler un graphique, vous pouvez utiliser les points de référence qui rappellent les points cardinaux.
-seo-title: Protocole du serveur FXG
 solution: Experience Manager
 title: Protocole du serveur FXG
-uuid: 5cb123ca-2274-4ddb-8fa1-ab22a19172f6
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 49%
+source-wordcount: '277'
+ht-degree: 48%
 
 ---
 
