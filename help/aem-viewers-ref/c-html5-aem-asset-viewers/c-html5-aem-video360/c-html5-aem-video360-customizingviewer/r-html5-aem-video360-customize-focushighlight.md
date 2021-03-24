@@ -1,17 +1,14 @@
 ---
 description: La mise en surbrillance de la cible d’action affichée autour de l’élément d’interface utilisateur de la visionneuse ciblée est contrôlée avec le sélecteur de classe CSS.
-seo-description: La mise en surbrillance de la cible d’action affichée autour de l’élément d’interface utilisateur de la visionneuse ciblée est contrôlée avec le sélecteur de classe CSS.
-seo-title: Mise en évidence
 solution: Experience Manager
 title: Mise en évidence
-uuid: 99d822b5-29ea-4229-8eb8-e3903322b7fa
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo 360 VR
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 0%
+source-wordcount: '91'
+ht-degree: 1%
 
 ---
 
