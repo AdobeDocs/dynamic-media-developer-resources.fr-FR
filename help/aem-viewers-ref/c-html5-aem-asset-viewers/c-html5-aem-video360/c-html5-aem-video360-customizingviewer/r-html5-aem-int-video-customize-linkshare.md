@@ -1,16 +1,13 @@
 ---
 description: L’outil de partage de liens est constitué d’un bouton ajouté au panneau de partage Social et de la boîte de dialogue modale qui s’affiche lorsque l’outil est activé. La position du bouton est entièrement gérée par l’outil de partage Social.
-seo-description: L’outil de partage de liens est constitué d’un bouton ajouté au panneau de partage Social et de la boîte de dialogue modale qui s’affiche lorsque l’outil est activé. La position du bouton est entièrement gérée par l’outil de partage Social.
-seo-title: Partage de liens
 solution: Experience Manager
 title: Partage de liens
-uuid: c98cb3bd-0e94-46ef-8875-662925d3c067
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo 360 VR
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1393'
 ht-degree: 2%
 
 ---
