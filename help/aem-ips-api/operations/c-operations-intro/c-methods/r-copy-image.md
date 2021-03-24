@@ -1,17 +1,14 @@
 ---
 description: Crée une copie d’un fichier d’image existant. Les commandes de protocole Image Server spécifiées sont appliquées pour générer la nouvelle copie.
-seo-description: Crée une copie d’un fichier d’image existant. Les commandes de protocole Image Server spécifiées sont appliquées pour générer la nouvelle copie.
-seo-title: copyImage
 solution: Experience Manager
 title: copyImage
-uuid: ae24f0cc-bcf0-4652-a67d-ed69f8a0da92
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 18%
+source-wordcount: '146'
+ht-degree: 21%
 
 ---
 
