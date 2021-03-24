@@ -1,16 +1,13 @@
 ---
 description: L’utilitaire playlog permet de prégénérer le contenu du cache de réponse HTTP.
-seo-description: L’utilitaire playlog permet de prégénérer le contenu du cache de réponse HTTP.
-seo-title: Utilitaire "playlog"
 solution: Experience Manager
 title: Utilitaire "playlog"
-uuid: 9044515e-7cfb-4e86-9ac4-e071b60f38d1
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '429'
 ht-degree: 1%
 
 ---
