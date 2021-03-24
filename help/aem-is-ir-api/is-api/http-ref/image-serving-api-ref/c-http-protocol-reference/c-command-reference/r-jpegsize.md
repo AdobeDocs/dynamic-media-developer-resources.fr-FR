@@ -1,17 +1,14 @@
 ---
 description: Taille Jpeg en kiloBytes. Indique la taille maximale de la réponse JPEG en kilo-octets.
-seo-description: Taille Jpeg en kiloBytes. Indique la taille maximale de la réponse JPEG en kilo-octets.
-seo-title: jpegSize
 solution: Experience Manager
 title: jpegSize
-uuid: 832163ca-0554-481d-b87f-bf322f415274
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 3%
+source-wordcount: '165'
+ht-degree: 4%
 
 ---
 
