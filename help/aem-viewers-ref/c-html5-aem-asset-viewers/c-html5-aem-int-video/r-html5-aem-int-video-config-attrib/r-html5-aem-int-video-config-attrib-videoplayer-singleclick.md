@@ -1,16 +1,13 @@
 ---
 description: Attribut de configuration pour la visionneuse de vidéos interactive.
-seo-description: Attribut de configuration pour la visionneuse de vidéos interactive.
-seo-title: VideoPlayer.singleclick
 solution: Experience Manager
 title: VideoPlayer.singleclick
-uuid: 5b387eb6-1e09-4506-beea-3f1cf337cb9d
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '82'
 ht-degree: 4%
 
 ---
