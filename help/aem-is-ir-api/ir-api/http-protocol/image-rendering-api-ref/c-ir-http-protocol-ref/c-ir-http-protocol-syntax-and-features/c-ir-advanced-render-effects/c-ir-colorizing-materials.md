@@ -1,16 +1,13 @@
 ---
 description: La plupart des matériaux peuvent être colorés dynamiquement.
-seo-description: La plupart des matériaux peuvent être colorés dynamiquement.
-seo-title: Coloriser les matériaux
 solution: Experience Manager
 title: Coloriser les matériaux
-uuid: 3f5a9089-6e35-446c-89f9-71b067e0d1df
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
