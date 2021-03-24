@@ -1,16 +1,13 @@
 ---
 description: Cliquez ou appuyez sur ce bouton pour réinitialiser une image dans la vue principale. Ce bouton apparaît dans la barre de contrôle principale sur les ordinateurs de bureau et tablettes. Sur les téléphones portables, ce bouton s'affiche au centre inférieur sur l'image. Cependant, elle ne s’affiche pas lorsque l’image est à l’état de réinitialisation. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
-seo-description: Cliquez ou appuyez sur ce bouton pour réinitialiser une image dans la vue principale. Ce bouton apparaît dans la barre de contrôle principale sur les ordinateurs de bureau et tablettes. Sur les téléphones portables, ce bouton s'affiche au centre inférieur sur l'image. Cependant, elle ne s’affiche pas lorsque l’image est à l’état de réinitialisation. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
-seo-title: Bouton de réinitialisation de zoom
 solution: Experience Manager
 title: Bouton de réinitialisation de zoom
-uuid: 27f6eacd-2922-4ddb-98e4-ee10d3b72b0c
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Catalogue électronique
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '363'
 ht-degree: 1%
 
 ---
