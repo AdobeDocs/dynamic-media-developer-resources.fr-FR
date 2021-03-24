@@ -1,16 +1,13 @@
 ---
 description: 'L’image renvoyée au client en réponse à une demande req=tmb est dérivée de l’image composite en prenant en compte les valeurs suivantes : wid=, hei=, attribute DefaultThumbPix et attribute MaxPix.'
-seo-description: 'L’image renvoyée au client en réponse à une demande req=tmb est dérivée de l’image composite en prenant en compte les valeurs suivantes : wid=, hei=, attribute DefaultThumbPix et attribute MaxPix.'
-seo-title: Transformation de la vue pour les miniatures
 solution: Experience Manager
 title: Transformation de la vue pour les miniatures
-uuid: 29924bc1-ada1-420f-aef7-bf9a7db7065b
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
