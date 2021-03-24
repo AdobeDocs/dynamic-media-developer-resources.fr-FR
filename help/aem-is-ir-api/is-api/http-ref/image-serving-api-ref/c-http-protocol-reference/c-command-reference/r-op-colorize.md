@@ -1,16 +1,13 @@
 ---
 description: Coloriser l’image. Colorise les données d’image tout en préservant les ombres et les tons clairs.
-seo-description: Coloriser l’image. Colorise les données d’image tout en préservant les ombres et les tons clairs.
-seo-title: op_colorize
 solution: Experience Manager
 title: op_colorize
-uuid: e74a85ca-73bf-4c69-ac77-768a58b33d0b
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '316'
 ht-degree: 4%
 
 ---
