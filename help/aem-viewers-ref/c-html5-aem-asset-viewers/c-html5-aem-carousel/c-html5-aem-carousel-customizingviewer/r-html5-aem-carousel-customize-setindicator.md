@@ -1,16 +1,13 @@
 ---
 description: L’indicateur défini est une série de points affichés au bas de la visionneuse. Il affiche la position actuelle dans la visionneuse.
-seo-description: L’indicateur défini est une série de points affichés au bas de la visionneuse. Il affiche la position actuelle dans la visionneuse.
-seo-title: Définir l’indicateur
 solution: Experience Manager
 title: Définir l’indicateur
-uuid: 3f90a216-654f-44a9-947d-592bd5f342d4
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Bannières de carrousel
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '325'
 ht-degree: 1%
 
 ---
