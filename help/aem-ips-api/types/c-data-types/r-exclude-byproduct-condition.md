@@ -1,17 +1,14 @@
 ---
 description: Détermine le moteur de génération et le type de ressource généré à exclure des résultats de recherche.
-seo-description: Détermine le moteur de génération et le type de ressource généré à exclure des résultats de recherche.
-seo-title: ExclureByproductCondition
 solution: Experience Manager
 title: ExclureByproductCondition
-uuid: 70581512-7b26-4319-b12b-27fbb205d871
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 7%
+source-wordcount: '65'
+ht-degree: 9%
 
 ---
 
