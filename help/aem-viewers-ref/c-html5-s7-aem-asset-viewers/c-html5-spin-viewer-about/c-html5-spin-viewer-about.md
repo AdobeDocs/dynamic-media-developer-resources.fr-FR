@@ -1,17 +1,14 @@
 ---
 description: La visionneuse à 360° est une visionneuse d’images qui fournit une vue de l’image à 360 degrés, voire une vue multidimensionnelle, si une visionneuse à 360° appropriée est utilisée. Il comporte des outils de zoom et de rotation, une prise en charge en plein écran et un bouton de fermeture en option. Il est conçu pour fonctionner sur les ordinateurs de bureau et les périphériques mobiles.
 keywords: réactif
-seo-description: La visionneuse à 360° est une visionneuse d’images qui fournit une vue de l’image à 360 degrés, voire une vue multidimensionnelle, si une visionneuse à 360° appropriée est utilisée. Il comporte des outils de zoom et de rotation, une prise en charge en plein écran et un bouton de fermeture en option. Il est conçu pour fonctionner sur les ordinateurs de bureau et les périphériques mobiles.
-seo-title: Spin
 solution: Experience Manager
 title: Spin
-uuid: 5d5cdf83-cfe8-48cd-af74-b270f7400b14
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Visionneuses à 360°
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '2180'
+source-wordcount: '2130'
 ht-degree: 0%
 
 ---
