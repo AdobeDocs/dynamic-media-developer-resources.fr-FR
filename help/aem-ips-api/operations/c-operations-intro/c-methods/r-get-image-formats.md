@@ -1,17 +1,14 @@
 ---
 description: Renvoie des formats d’image, tels que PDF, EPS, SWF, etc.
-seo-description: Renvoie des formats d’image, tels que PDF, EPS, SWF, etc.
-seo-title: getImageFormats
 solution: Experience Manager
 title: getImageFormats
-uuid: 0adf989d-9c72-4337-99c0-de6931943e78
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 16%
+source-wordcount: '81'
+ht-degree: 18%
 
 ---
 
