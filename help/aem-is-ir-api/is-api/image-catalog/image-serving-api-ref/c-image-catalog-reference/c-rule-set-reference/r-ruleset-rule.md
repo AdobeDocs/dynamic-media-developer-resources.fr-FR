@@ -1,17 +1,14 @@
 ---
 description: Elément conteneur de règles. Un fichier de jeu de règles valide contient un élément <ensemble de règles>.
-seo-description: Elément conteneur de règles. Un fichier de jeu de règles valide contient un élément <ensemble de règles>.
-seo-title: ensemble de règles
 solution: Experience Manager
 title: ensemble de règles
-uuid: ea44d7e6-8d82-41bb-a3b7-ec413c31afe0
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 3%
+source-wordcount: '40'
+ht-degree: 5%
 
 ---
 
