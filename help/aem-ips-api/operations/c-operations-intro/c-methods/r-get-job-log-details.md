@@ -1,17 +1,14 @@
 ---
 description: Obtient les détails d'un journal des tâches de société.
-seo-description: Obtient les détails d'un journal des tâches de société.
-seo-title: getJobLogDetails
 solution: Experience Manager
 title: getJobLogDetails
-uuid: e4314348-2160-4775-a02f-b4892924f064
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 16%
+source-wordcount: '222'
+ht-degree: 17%
 
 ---
 
