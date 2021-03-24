@@ -1,16 +1,13 @@
 ---
 description: Les effets d’ombre et d’éclat des calques de style Photoshop sont mis en oeuvre à l’aide de sous-calques spéciaux (calques d’effet) qui peuvent être attachés à n’importe quel calque (le calque parent), y compris layer=0 et layer=comp.
-seo-description: Les effets d’ombre et d’éclat des calques de style Photoshop sont mis en oeuvre à l’aide de sous-calques spéciaux (calques d’effet) qui peuvent être attachés à n’importe quel calque (le calque parent), y compris layer=0 et layer=comp.
-seo-title: Effets de calque
 solution: Experience Manager
 title: Effets de calque
-uuid: 076e98de-cbbb-457b-984a-367a935b4356
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '490'
 ht-degree: 2%
 
 ---
