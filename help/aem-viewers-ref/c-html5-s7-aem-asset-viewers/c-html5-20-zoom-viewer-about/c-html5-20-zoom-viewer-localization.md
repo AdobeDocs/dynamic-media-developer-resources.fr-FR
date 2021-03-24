@@ -1,16 +1,13 @@
 ---
 description: Le contenu affiché par la visionneuse de vidéos est sujet à localisation, notamment les boutons de zoom et le bouton plein écran.
-seo-description: Le contenu affiché par la visionneuse de vidéos est sujet à localisation, notamment les boutons de zoom et le bouton plein écran.
-seo-title: Localisation des éléments de l’interface utilisateur
 solution: Experience Manager
 title: Localisation des éléments de l’interface utilisateur
-uuid: 00df92c5-3a10-4973-904d-de5a6b3b9258
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Zoom
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
