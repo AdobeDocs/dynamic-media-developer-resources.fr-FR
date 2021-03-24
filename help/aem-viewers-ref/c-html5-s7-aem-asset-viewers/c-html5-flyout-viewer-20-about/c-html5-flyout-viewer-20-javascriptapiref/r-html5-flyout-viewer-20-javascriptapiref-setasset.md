@@ -1,16 +1,13 @@
 ---
 description: Référence de l’API JavaScript pour la visionneuse déroulante.
-seo-description: Référence de l’API JavaScript pour la visionneuse déroulante.
-seo-title: setAsset
 solution: Experience Manager
 title: setAsset
-uuid: c6f7e7e9-084a-46ff-8cff-1ecb71f7b8d3
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Fenêtre déroulante
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '135'
 ht-degree: 2%
 
 ---
@@ -65,7 +62,7 @@ Visionneuse d’images explicites avec modificateurs de diffusion d’images sp�
 <instance>.setAsset("(Scene7SharedAssets/Backpack_B?op_colorize=255%2C0%2C0,Scene7SharedAssets/Backpack_B?op_colorize=0x00ff00)")
 ```
 
-Modificateur de netteté ajouté à toutes les images du jeu :
+Modificateur d’accentuation ajouté à toutes les images de la visionneuse :
 
 ```
 <instance>.setAsset("Scene7SharedAssets/Backpack_B,Scene7SharedAssets/Backpack_C?op_sharpen=1")
