@@ -1,16 +1,13 @@
 ---
 description: Le lecteur de contenu vous permet de générer le contenu du catalogue sur une imprimante.
-seo-description: Le lecteur de contenu vous permet de générer le contenu du catalogue sur une imprimante.
-seo-title: Fonction d’impression
 solution: Experience Manager
 title: Fonction d’impression
-uuid: 4932042a-1421-4589-8bf5-88bbe38d774d
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
