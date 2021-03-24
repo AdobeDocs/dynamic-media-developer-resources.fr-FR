@@ -1,17 +1,14 @@
 ---
 description: Utilisé par searchAssetReturn/trashState.
-seo-description: Utilisé par searchAssetReturn/trashState.
-seo-title: Etat de la corbeille
 solution: Experience Manager
 title: Etat de la corbeille
-uuid: 1fd56800-bf3e-4ecb-8329-5674c2b53a86
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 7%
+source-wordcount: '21'
+ht-degree: 9%
 
 ---
 
