@@ -1,16 +1,13 @@
 ---
 description: Les fichiers de jeu de règles sont des fichiers de texte au format XML et doivent respecter les normes et conventions appropriées.
-seo-description: Les fichiers de jeu de règles sont des fichiers de texte au format XML et doivent respecter les normes et conventions appropriées.
-seo-title: Fichiers de jeu de règles
 solution: Experience Manager
 title: Fichiers de jeu de règles
-uuid: c0c7ec7b-547b-4007-864b-bf551f041aff
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---
