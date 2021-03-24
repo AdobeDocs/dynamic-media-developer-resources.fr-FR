@@ -1,17 +1,14 @@
 ---
 description: La personnalisation visuelle et la personnalisation comportementale la plus importante pour la visionneuse de zoom s’effectuent en créant une page CSS personnalisée.
 keywords: réactif
-seo-description: La personnalisation visuelle et la personnalisation comportementale la plus importante pour la visionneuse de zoom s’effectuent en créant une page CSS personnalisée.
-seo-title: Personnalisation de la visionneuse de zoom
 solution: Experience Manager
 title: Personnalisation de la visionneuse de zoom
-uuid: 7ecbc4cc-b5c0-4f4a-b747-03c484de6851
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Zoom
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1333'
 ht-degree: 0%
 
 ---
