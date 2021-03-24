@@ -1,17 +1,14 @@
 ---
 description: Crée un jeu de fichiers générique avec une chaîne de définition de jeu brut à publier sur un serveur d’images.
-seo-description: Crée un jeu de fichiers générique avec une chaîne de définition de jeu brut à publier sur un serveur d’images.
-seo-title: createAssetSet
 solution: Experience Manager
 title: createAssetSet
-uuid: 1e86bd37-511c-4c12-abfd-075053b86f78
 feature: Dynamic Media Classic, SDK/API, Gestion des ressources
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 9%
+source-wordcount: '312'
+ht-degree: 10%
 
 ---
 
