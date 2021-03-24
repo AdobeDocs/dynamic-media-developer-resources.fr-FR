@@ -1,16 +1,13 @@
 ---
 description: L’indicateur de zoom est superposé sur la zone de vue principale. Elle s’affiche lorsque l’image est à l’état reset et dépend également du paramètre iconeffect.
-seo-description: L’indicateur de zoom est superposé sur la zone de vue principale. Elle s’affiche lorsque l’image est à l’état reset et dépend également du paramètre iconeffect.
-seo-title: Effet Icône
 solution: Experience Manager
 title: Effet Icône
-uuid: 5daf15ec-fcc5-4e37-924e-9a2cd6c0d167
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Zoom
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '174'
 ht-degree: 1%
 
 ---
