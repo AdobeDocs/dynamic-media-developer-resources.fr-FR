@@ -1,16 +1,13 @@
 ---
 description: Procédez comme suit pour installer Image Serving pour la première fois sous Windows.
-seo-description: Procédez comme suit pour installer Image Serving pour la première fois sous Windows.
-seo-title: Première installation
 solution: Experience Manager
 title: Première installation
-uuid: 3b28fbc7-6bc9-4619-8f92-c0ae610b8b30
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -33,36 +30,36 @@ Procédez comme suit pour installer Image Serving pour la première fois sous Wi
 
    Si vous n’avez pas de licence, cliquez sur **[!UICONTROL Demander une licence]**. La boîte de dialogue suivante affiche l&#39;une des adresses MAC de carte d&#39;interface réseau de votre ordinateur. Envoyez ce courrier électronique à cette adresse MAC, au nom de votre société et au produit que vous installez, selon les instructions de l’invite.
 
-   **Important :** La licence est basée sur l’adresse MAC de l’une des cartes d’interface réseau installées sur cet hôte. Si vous désactivez, supprimez ou remplacez cette carte, la licence ne sera plus reconnue comme valide. Assurez-vous d’obtenir une licence pour la configuration matérielle que vous utiliserez pour IS.
+   **Important :** La licence est basée sur l’adresse MAC de l’une des cartes d’interface réseau installées sur cet hôte. Si vous désactivez, supprimez ou remplacez cette carte, la licence ne sera plus reconnue comme valide. Veillez à obtenir une licence pour la configuration matérielle que vous utiliserez pour IS.
 
    Vous pouvez continuer à installer IS sans licence valide et installer la licence ultérieurement. Pour continuer, cliquez sur **[!UICONTROL Précédent]** pour revenir à la boîte de dialogue [!DNL Authentication], puis cliquez sur **[!UICONTROL Suivant]**.
-1. Accédez à la page &quot;Paramètres d’administration du serveur de plates-formes&quot;. Saisissez de nouvelles valeurs selon vos besoins ou acceptez les valeurs par défaut.
+1. Accédez à la page &quot;Paramètres d’administration du serveur de plateformes&quot;. Entrez de nouvelles valeurs ou acceptez les valeurs par défaut.
 
    Vous pouvez configurer les éléments suivants :
 
 <table id="table_AA5D7674BBBE4AD4B373066AEF413FFD"> 
  <tbody> 
   <tr> 
-   <td> <p> Port de connexion HTTP du serveur de plates-formes </p> </td> 
-   <td> <p>Port d’écoute HTTP principal pour le service d’images et le rendu d’images </p> </td> 
+   <td> <p> Port de connexion HTTP du serveur de plateformes </p> </td> 
+   <td> <p>Port d’écoute HTTP principal pour la diffusion d’images et le rendu d’images </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> Port d’écoute administrateur </p> </td> 
-   <td> <p>Port d’écoute administrateur </p> </td> 
+   <td> <p> Port d’écoute Admin </p> </td> 
+   <td> <p>Port d’écoute Admin </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> Taille du cache du serveur de plates-formes en Mo </p> </td> 
+   <td> <p> Taille du cache du serveur de plateformes en Mo </p> </td> 
    <td> <p>Taille initiale du cache de réponse principal </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> Emplacement du cache du serveur de plates-formes </p> </td> 
-   <td> <p>Dossier de cache PS </p> </td> 
+   <td> <p> Emplacement du cache du serveur de plateformes </p> </td> 
+   <td> <p>Dossier cache PS </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 Les numéros de port spécifiés doivent être uniques et ne pas être utilisés par d&#39;autres applications ou services.
 
-L’écran suivant permet de passer en revue les paramètres sélectionnés.
-1. Cliquez sur **[!UICONTROL Précédent]** pour apporter des modifications, ou sur **[!UICONTROL Suivant]** pour lancer l&#39;installation.
-1. Cliquez sur **[!UICONTROL Terminer]** pour quitter l&#39;assistant d&#39;installation.
+L’écran suivant permet de vérifier les paramètres sélectionnés.
+1. Cliquez sur **[!UICONTROL Précédent]** pour apporter des modifications ou sur **[!UICONTROL Suivant]** pour début l’installation.
+1. Cliquez sur **[!UICONTROL Terminer]** pour quitter l’assistant d’installation.
