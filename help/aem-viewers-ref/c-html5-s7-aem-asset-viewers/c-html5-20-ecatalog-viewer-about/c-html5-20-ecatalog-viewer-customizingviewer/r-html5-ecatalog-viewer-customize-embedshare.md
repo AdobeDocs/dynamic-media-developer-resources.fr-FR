@@ -1,16 +1,13 @@
 ---
 description: L’outil Incorporer le partage est constitué d’un bouton ajouté au panneau de partage Social et de la boîte de dialogue modale qui s’affiche lorsque l’outil est activé. La position du bouton est entièrement gérée par l’outil de partage Social.
-seo-description: L’outil Incorporer le partage est constitué d’un bouton ajouté au panneau de partage Social et de la boîte de dialogue modale qui s’affiche lorsque l’outil est activé. La position du bouton est entièrement gérée par l’outil de partage Social.
-seo-title: Incorporer le partage
 solution: Experience Manager
 title: Incorporer le partage
-uuid: 59a21a90-5f34-4e1f-90e7-cce18aed5e6b
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Catalogue électronique
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '2650'
+source-wordcount: '2610'
 ht-degree: 2%
 
 ---
