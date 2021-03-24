@@ -1,17 +1,14 @@
 ---
 description: Récupère les journaux de tâches d’un fichier. Les éléments renvoyés dans le tableau contiennent des informations détaillées sur chaque entrée du journal des tâches pour cette ressource. Le champ de réponse logMessage est localisé en fonction du champ authHeader.
-seo-description: Récupère les journaux de tâches d’un fichier. Les éléments renvoyés dans le tableau contiennent des informations détaillées sur chaque entrée du journal des tâches pour cette ressource. Le champ de réponse logMessage est localisé en fonction du champ authHeader.
-seo-title: getAssetJobLogs
 solution: Experience Manager
 title: getAssetJobLogs
-uuid: 7ea81baf-769b-4c73-bbc6-f52c89c98d50
 feature: Dynamic Media Classic, SDK/API, Gestion des ressources
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 7%
+source-wordcount: '165'
+ht-degree: 9%
 
 ---
 
