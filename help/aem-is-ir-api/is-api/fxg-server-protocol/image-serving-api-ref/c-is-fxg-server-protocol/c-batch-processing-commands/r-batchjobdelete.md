@@ -1,16 +1,13 @@
 ---
 description: Supprimer la sortie d’une tâche.
-seo-description: Supprimer la sortie d’une tâche.
-seo-title: batchjobdelete
 solution: Experience Manager
 title: batchjobdelete
-uuid: d19ed1c8-e13b-4da4-90e3-6bb0dcce2a12
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '86'
 ht-degree: 1%
 
 ---
