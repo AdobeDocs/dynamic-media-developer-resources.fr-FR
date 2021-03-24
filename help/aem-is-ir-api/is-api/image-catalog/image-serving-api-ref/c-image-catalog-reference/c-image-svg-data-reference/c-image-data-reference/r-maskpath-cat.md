@@ -1,16 +1,13 @@
 ---
 description: Chemin du fichier de masquage. Chemin d’accès relatif ou absolu et nom d’un fichier image de masque associé à cet enregistrement de catalogue.
-seo-description: Chemin du fichier de masquage. Chemin d’accès relatif ou absolu et nom d’un fichier image de masque associé à cet enregistrement de catalogue.
-seo-title: MasquePath
 solution: Experience Manager
 title: MasquePath
-uuid: a2d1f08a-0a26-41a6-9be2-f5cc2afb15c4
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '179'
 ht-degree: 3%
 
 ---
