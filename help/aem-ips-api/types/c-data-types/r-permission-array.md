@@ -1,17 +1,14 @@
 ---
 description: Tableau des autorisations.
-seo-description: Tableau des autorisations.
-seo-title: PermissionArray
 solution: Experience Manager
 title: PermissionArray
-uuid: 90c15863-8242-479b-9d90-666d26b8b10d
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 19%
+source-wordcount: '26'
+ht-degree: 23%
 
 ---
 
