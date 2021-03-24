@@ -1,16 +1,13 @@
 ---
 description: Spécificateur d’objet source. Les objets Image, SVG et profil ICC peuvent être spécifiés en tant qu’entrées de catalogue d’images ou chemins d’accès aux fichiers relatifs.
-seo-description: Spécificateur d’objet source. Les objets Image, SVG et profil ICC peuvent être spécifiés en tant qu’entrées de catalogue d’images ou chemins d’accès aux fichiers relatifs.
-seo-title: objet
 solution: Experience Manager
 title: objet
-uuid: 8d25b47d-0f23-4d9a-a7e6-6e865ae4114e
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '501'
 ht-degree: 1%
 
 ---
