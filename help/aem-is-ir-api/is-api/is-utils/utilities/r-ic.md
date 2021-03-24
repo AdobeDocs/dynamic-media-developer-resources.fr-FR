@@ -1,16 +1,13 @@
 ---
 description: Utilitaire de conversion d’image.
-seo-description: Utilitaire de conversion d’image.
-seo-title: ic
 solution: Experience Manager
 title: ic
-uuid: 08fabcc9-d0b5-4136-81fc-ac896c341e1d
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1212'
 ht-degree: 2%
 
 ---
@@ -313,7 +310,7 @@ Le tableau suivant liste les formats de fichier image et les options de format p
   <tr> 
    <td> <b> TIFF</b> </td> 
    <td> <p> CMJN | CMJN | RGB | RGBA | gris | grayA | indexé </p> </td> 
-   <td> <p> 1 | 8 | 16 </p> </td> 
+   <td> <p> 3 | 8 | 16 </p> </td> 
    <td> <p> non compressé | ZIP | LZW | JPEG | RLE CCITT | CCITT G3 | CCITT G4 | Paquets </p> </td> 
    <td> <p> À l’exception du premier canal alpha associé, les canaux supplémentaires sont ignorés. </p> </td> 
   </tr> 
