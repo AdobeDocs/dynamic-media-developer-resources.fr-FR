@@ -1,17 +1,14 @@
 ---
 description: Commande URL de la visionneuse d’images vidéo.
-seo-description: Commande URL de la visionneuse d’images vidéo.
-seo-title: préloadimage
 solution: Experience Manager
 title: préloadimage
-uuid: 3b45dc86-8963-465f-b23f-519d54c2ce85
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Images interactives
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 10%
+source-wordcount: '40'
+ht-degree: 12%
 
 ---
 
