@@ -1,16 +1,13 @@
 ---
 description: Ces commandes permettent de définir des effets de calque, tels que des effets d’ombre portée ou d’éclat. Les calques d’effets ignorent toutes les autres commandes.
-seo-description: Ces commandes permettent de définir des effets de calque, tels que des effets d’ombre portée ou d’éclat. Les calques d’effets ignorent toutes les autres commandes.
-seo-title: Commandes d’effet de calque
 solution: Experience Manager
 title: Commandes d’effet de calque
-uuid: 5fef90d1-0507-497b-9187-869672996852
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '127'
 ht-degree: 1%
 
 ---
