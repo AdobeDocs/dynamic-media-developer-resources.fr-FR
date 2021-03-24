@@ -1,17 +1,14 @@
 ---
 description: Attribut de configuration pour la visionneuse de vidéos interactive.
-seo-description: Attribut de configuration pour la visionneuse de vidéos interactive.
-seo-title: VideoPlayer.waiticon
 solution: Experience Manager
 title: VideoPlayer.waiticon
-uuid: 6563b9f1-8135-4d4b-bf31-25f599e166d4
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 11%
+source-wordcount: '38'
+ht-degree: 13%
 
 ---
 
