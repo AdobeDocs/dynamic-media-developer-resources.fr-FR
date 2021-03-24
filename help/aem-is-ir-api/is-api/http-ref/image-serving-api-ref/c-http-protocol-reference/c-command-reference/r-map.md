@@ -1,16 +1,13 @@
 ---
 description: Données de zone cliquable. Fournit des données de zone cliquable pour ce calque. Remplace toutes les données de la zone cliquable du catalogue pour ce calque.
-seo-description: Données de zone cliquable. Fournit des données de zone cliquable pour ce calque. Remplace toutes les données de la zone cliquable du catalogue pour ce calque.
-seo-title: carte
 solution: Experience Manager
 title: carte
-uuid: 9c1c3323-21ab-4820-bf4e-761b82ada1ab
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '231'
 ht-degree: 3%
 
 ---
