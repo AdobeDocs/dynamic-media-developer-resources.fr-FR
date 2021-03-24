@@ -1,16 +1,13 @@
 ---
 description: Cliquez ou appuyez sur ce bouton pour amener l’utilisateur à la page suivante du catalogue. Ce bouton apparaît dans la barre de contrôle principale. Ce bouton n'est pas affiché sur les téléphones mobiles pour enregistrer l'espace sur l'écran. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
-seo-description: Cliquez ou appuyez sur ce bouton pour amener l’utilisateur à la page suivante du catalogue. Ce bouton apparaît dans la barre de contrôle principale. Ce bouton n'est pas affiché sur les téléphones mobiles pour enregistrer l'espace sur l'écran. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
-seo-title: Bouton Page suivante
 solution: Experience Manager
 title: Bouton Page suivante
-uuid: 38be0f94-42eb-42ca-8e56-935aeeb4dc2b
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Catalogue électronique
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '297'
 ht-degree: 2%
 
 ---
