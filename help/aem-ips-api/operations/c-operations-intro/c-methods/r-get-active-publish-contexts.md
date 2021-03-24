@@ -1,17 +1,14 @@
 ---
 description: Obtient une liste de contextes de publication principaux pour la société spécifiée. Un contexte de publication est considéré comme principal s’il existe au moins un serveur principal défini pour ce contexte.
-seo-description: Obtient une liste de contextes de publication principaux pour la société spécifiée. Un contexte de publication est considéré comme principal s’il existe au moins un serveur principal défini pour ce contexte.
-seo-title: getActivePublishContext
 solution: Experience Manager
 title: getActivePublishContext
-uuid: 856704d1-e97b-4d2d-b80c-620450b78432
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 8%
+source-wordcount: '115'
+ht-degree: 10%
 
 ---
 
