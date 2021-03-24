@@ -1,17 +1,14 @@
 ---
 description: Domaines Web d’application de Flash. Les applications de Flash d’Adobe peuvent nécessiter l’accès aux propriétés des images fournies au format swf. Le fichier swf doit accorder l’accès explicitement en enregistrant le nom des domaines d’application auxquels il fait confiance.
-seo-description: Domaines Web d’application de Flash. Les applications de Flash d’Adobe peuvent nécessiter l’accès aux propriétés des images fournies au format swf. Le fichier swf doit accorder l’accès explicitement en enregistrant le nom des domaines d’application auxquels il fait confiance.
-seo-title: Domaines approuvés *
 solution: Experience Manager
 title: Domaines approuvés *
-uuid: c50180b1-9af7-45f1-878f-59f41f9958ae
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 2%
+source-wordcount: '126'
+ht-degree: 3%
 
 ---
 
