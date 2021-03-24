@@ -1,17 +1,14 @@
 ---
 description: Propriétés d’un fichier Microsoft Excel.
-seo-description: Propriétés d’un fichier Microsoft Excel.
-seo-title: ExcelInfo
 solution: Experience Manager
 title: ExcelInfo
-uuid: 27c11719-ac8f-43b2-a08a-cb46f47b8006
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 15%
+source-wordcount: '37'
+ht-degree: 18%
 
 ---
 
