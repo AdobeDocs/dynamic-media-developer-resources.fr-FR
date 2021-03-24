@@ -1,17 +1,14 @@
 ---
 description: Informations sur l'image Digimarc. Active l’incorporation Digimarc et spécifie le type de filigrane et les données associées spécifiques à l’image.
-seo-description: Informations sur l'image Digimarc. Active l’incorporation Digimarc et spécifie le type de filigrane et les données associées spécifiques à l’image.
-seo-title: DigimarcInfo
 solution: Experience Manager
 title: DigimarcInfo
-uuid: 8371880e-47df-4333-b8a6-91feaf16c409
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 11%
+source-wordcount: '238'
+ht-degree: 12%
 
 ---
 
@@ -74,7 +71,7 @@ Quatre valeurs entières, séparées par des virgules.
    <td> <p>- </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>Protégé par copie. </p> </td> 
   </tr> 
   <tr> 
