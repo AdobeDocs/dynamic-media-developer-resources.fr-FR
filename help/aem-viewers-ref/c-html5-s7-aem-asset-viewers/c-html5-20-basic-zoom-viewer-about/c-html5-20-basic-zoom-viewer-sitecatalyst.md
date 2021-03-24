@@ -1,16 +1,13 @@
 ---
 description: La visionneuse de zoom de base prend en charge le suivi Adobe Analytics en standard.
-seo-description: La visionneuse de zoom de base prend en charge le suivi Adobe Analytics en standard.
-seo-title: Prise en charge du suivi Adobe Analytics
 solution: Experience Manager
 title: Prise en charge du suivi Adobe Analytics
-uuid: f48fde77-7e48-4d56-b5c5-079a484e6d9c
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Zoom
 role: Développeur, Professionnel, Ingénieur de données, Architecte de données
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '166'
 ht-degree: 2%
 
 ---
