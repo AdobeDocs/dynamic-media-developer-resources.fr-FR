@@ -2,11 +2,10 @@
 description: PermissonSet
 solution: Experience Manager
 title: PermissonSet
-uuid: d77d8fbd-ff41-4312-8c0d-f2d846149e3f
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '26'
 ht-degree: 19%
