@@ -1,16 +1,13 @@
 ---
 description: Fichier matière. Spécifie les données de matériau, sous la forme d'une référence de catalogue de matériau unique, ou sous la forme d'un ou deux fichiers d'image ou de données de matériau, séparés par une virgule.
-seo-description: Fichier matière. Spécifie les données de matériau, sous la forme d'une référence de catalogue de matériau unique, ou sous la forme d'un ou deux fichiers d'image ou de données de matériau, séparés par une virgule.
-seo-title: src
 solution: Experience Manager
 title: src
-uuid: 52751bcc-a65d-4441-a3b5-802d27b54b54
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '463'
 ht-degree: 2%
 
 ---
