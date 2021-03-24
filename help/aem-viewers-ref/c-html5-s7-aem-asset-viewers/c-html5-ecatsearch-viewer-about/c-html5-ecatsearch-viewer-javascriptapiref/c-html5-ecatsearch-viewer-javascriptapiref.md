@@ -1,16 +1,13 @@
 ---
 description: La classe principale de la visionneuse de recherche de catalogue électronique est eCatalogSearchViewer. Elle est déclarée dans l’espace de nommage s7viewers. Cette API JavaScript couvre le constructeur, les méthodes et les rappels de cette classe particulière.
-seo-description: La classe principale de la visionneuse de recherche de catalogue électronique est eCatalogSearchViewer. Elle est déclarée dans l’espace de nommage s7viewers. Cette API JavaScript couvre le constructeur, les méthodes et les rappels de cette classe particulière.
-seo-title: Référence de l’API Javascript pour le lecteur de recherche de catalogue électronique
 solution: Experience Manager
 title: Référence de l’API Javascript pour le lecteur de recherche de catalogue électronique
-uuid: b65dec1e-567a-450f-9e24-e7841dc6f701
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
