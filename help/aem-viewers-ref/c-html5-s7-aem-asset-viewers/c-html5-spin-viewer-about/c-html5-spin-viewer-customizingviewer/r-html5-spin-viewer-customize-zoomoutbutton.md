@@ -1,16 +1,13 @@
 ---
 description: Cliquez ou appuyez sur ce bouton pour effectuer un zoom arrière sur une image de la vue principale. Ce bouton ne s'affiche pas sur les téléphones portables pour enregistrer l'espace sur écran. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
-seo-description: Cliquez ou appuyez sur ce bouton pour effectuer un zoom arrière sur une image de la vue principale. Ce bouton ne s'affiche pas sur les téléphones portables pour enregistrer l'espace sur écran. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
-seo-title: Bouton Zoom arrière
 solution: Experience Manager
 title: Bouton Zoom arrière
-uuid: 6f076b56-94cb-4d7a-bf06-99338e576ba7
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Visionneuses à 360°
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '257'
 ht-degree: 2%
 
 ---
