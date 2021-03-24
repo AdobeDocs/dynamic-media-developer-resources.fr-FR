@@ -1,17 +1,14 @@
 ---
 description: Ce bouton permet à la visionneuse d’accéder au mode plein écran ou de quitter ce mode lorsque l’utilisateur clique dessus. Elle est utilisée lorsque la visionneuse affiche des images ou des visionneuses à 360°. Ce bouton ne s’affiche pas si le lecteur fonctionne en mode contextuel et que le système ne prend pas en charge le mode plein écran natif. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
-seo-description: Ce bouton permet à la visionneuse d’accéder au mode plein écran ou de quitter ce mode lorsque l’utilisateur clique dessus. Elle est utilisée lorsque la visionneuse affiche des images ou des visionneuses à 360°. Ce bouton ne s’affiche pas si le lecteur fonctionne en mode contextuel et que le système ne prend pas en charge le mode plein écran natif. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
-seo-title: Bouton Plein écran
 solution: Experience Manager
 title: Bouton Plein écran
-uuid: ef3a0c21-88e0-4a10-9b89-da862b579b17
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Combiner des visionneuses de supports
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 1%
+source-wordcount: '321'
+ht-degree: 2%
 
 ---
 
