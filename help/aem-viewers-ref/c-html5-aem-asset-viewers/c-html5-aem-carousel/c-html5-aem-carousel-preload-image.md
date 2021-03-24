@@ -1,16 +1,13 @@
 ---
 description: L’image de préchargement est une image de prévisualisation de ressources statique qui se charge juste après avoir appelé la méthode init() et qui s’affiche pendant le téléchargement des bibliothèques du SDK de la visionneuse, des informations sur les ressources et les paramètres prédéfinis. L’objectif de l’image de préchargement est d’améliorer visuellement le temps de chargement de la visionneuse et de présenter rapidement le contenu à l’utilisateur.
-seo-description: L’image de préchargement est une image de prévisualisation de ressources statique qui se charge juste après avoir appelé la méthode init() et qui s’affiche pendant le téléchargement des bibliothèques du SDK de la visionneuse, des informations sur les ressources et les paramètres prédéfinis. L’objectif de l’image de préchargement est d’améliorer visuellement le temps de chargement de la visionneuse et de présenter rapidement le contenu à l’utilisateur.
-seo-title: Image de préchargement
 solution: Experience Manager
 title: Image de préchargement
-uuid: bae99269-fd55-485e-b78e-873b77541d91
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Bannières de carrousel
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
