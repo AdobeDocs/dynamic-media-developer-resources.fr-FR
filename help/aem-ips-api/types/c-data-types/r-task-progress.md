@@ -1,17 +1,14 @@
 ---
 description: Informations de progression de la tâche.
-seo-description: Informations de progression de la tâche.
-seo-title: TaskProgress
 solution: Experience Manager
 title: TaskProgress
-uuid: b3b67803-147a-48a3-acc3-d608e01e0800
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 12%
+source-wordcount: '145'
+ht-degree: 13%
 
 ---
 
