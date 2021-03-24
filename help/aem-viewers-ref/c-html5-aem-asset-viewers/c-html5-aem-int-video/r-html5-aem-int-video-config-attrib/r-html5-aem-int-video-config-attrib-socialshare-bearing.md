@@ -1,17 +1,14 @@
 ---
 description: Attribut de configuration pour la visionneuse de vidéos interactive.
-seo-description: Attribut de configuration pour la visionneuse de vidéos interactive.
-seo-title: SocialShare.bearing
 solution: Experience Manager
 title: SocialShare.bearing
-uuid: b3978280-7826-44c0-bd25-357e145121f8
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 1%
+source-wordcount: '198'
+ht-degree: 2%
 
 ---
 
