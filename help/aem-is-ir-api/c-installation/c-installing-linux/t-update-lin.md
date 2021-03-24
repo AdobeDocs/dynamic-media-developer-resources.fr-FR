@@ -1,16 +1,13 @@
 ---
 description: Suivez cette procédure lors de la mise à niveau de Dynamic Media Image Serving sous Linux.
-seo-description: Suivez cette procédure lors de la mise à niveau de Dynamic Media Image Serving sous Linux.
-seo-title: Mise à jour depuis IS 4.7.4 ou version ultérieure
 solution: Experience Manager
 title: Mise à jour depuis IS 4.7.4 ou version ultérieure
-uuid: 70beb1a3-71b9-4bd0-b048-13d88446a9d3
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
