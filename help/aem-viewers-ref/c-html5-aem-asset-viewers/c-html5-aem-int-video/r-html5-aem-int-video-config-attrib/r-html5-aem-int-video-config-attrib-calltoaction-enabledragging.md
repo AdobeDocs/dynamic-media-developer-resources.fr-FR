@@ -1,17 +1,14 @@
 ---
 description: Attribut de configuration pour la visionneuse de vidéos interactive.
-seo-description: Attribut de configuration pour la visionneuse de vidéos interactive.
-seo-title: CallToAction.enabledragging
 solution: Experience Manager
 title: CallToAction.enabledragging
-uuid: efb272b5-e30e-44d5-9dec-0529b1074ed2
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 4%
+source-wordcount: '94'
+ht-degree: 5%
 
 ---
 
