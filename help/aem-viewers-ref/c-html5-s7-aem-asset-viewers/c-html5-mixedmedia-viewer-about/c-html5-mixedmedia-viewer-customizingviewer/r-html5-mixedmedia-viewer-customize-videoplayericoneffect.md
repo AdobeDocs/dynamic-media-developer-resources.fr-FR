@@ -1,16 +1,13 @@
 ---
 description: L’icône de lecture est superposée sur la zone de vue vidéo. Il s’affiche lorsque la vidéo est en pause ou lorsque la fin de la vidéo est atteinte, et dépend également du paramètre iconeffect.
-seo-description: L’icône de lecture est superposée sur la zone de vue vidéo. Il s’affiche lorsque la vidéo est en pause ou lorsque la fin de la vidéo est atteinte, et dépend également du paramètre iconeffect.
-seo-title: Effet d’icône du lecteur vidéo
 solution: Experience Manager
 title: Effet d’icône du lecteur vidéo
-uuid: 5d59c4b2-a7a1-49e1-84c7-0e127a571c4f
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Combiner des visionneuses de supports
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '182'
 ht-degree: 1%
 
 ---
