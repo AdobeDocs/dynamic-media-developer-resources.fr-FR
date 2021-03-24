@@ -1,17 +1,14 @@
 ---
 description: La personnalisation visuelle et la personnalisation comportementale la plus importante pour la visionneuse de vidéos interactive sont effectuées en créant une page CSS personnalisée.
 keywords: réactif
-seo-description: La personnalisation visuelle et la personnalisation comportementale la plus importante pour la visionneuse de vidéos interactive sont effectuées en créant une page CSS personnalisée.
-seo-title: Personnalisation de la visionneuse de vidéos interactive
 solution: Experience Manager
 title: Personnalisation de la visionneuse de vidéos interactive
-uuid: a24e7ada-c874-468b-ac44-a51d581d4479
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1399'
 ht-degree: 0%
 
 ---
@@ -27,7 +24,7 @@ Les fichiers CSS par défaut se trouvent à l’emplacement suivant :
 
 `<s7_viewers_root>/html5/InteractiveVideoViewer_dark.css`
 
-Le lecteur est fourni avec deux fichiers CSS prêts à l’emploi, pour les modèles de couleurs &quot;clair&quot; et &quot;foncé&quot;. La version &quot;sombre&quot; est utilisée par défaut, mais il est facile de passer à la version &quot;légère&quot; en utilisant la page CSS standard suivante :
+Le lecteur est fourni avec deux fichiers CSS prêts à l’emploi, pour les modèles de couleurs &quot;clair&quot; et &quot;foncé&quot;. La version &quot;sombre&quot; est utilisée par défaut, mais il est facile de passer à la version &quot;claire&quot; en utilisant la page CSS standard suivante :
 
 `<s7_viewers_root>/html5/InteractiveVideoViewer_light.css`
 
