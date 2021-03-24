@@ -1,17 +1,14 @@
 ---
 description: La personnalisation visuelle et la personnalisation de comportement la plus importante pour la visionneuse à 360° sont effectuées en créant une page CSS personnalisée.
 keywords: réactif
-seo-description: La personnalisation visuelle et la personnalisation de comportement la plus importante pour la visionneuse à 360° sont effectuées en créant une page CSS personnalisée.
-seo-title: Personnalisation de la visionneuse à 360°
 solution: Experience Manager
 title: Personnalisation de la visionneuse à 360°
-uuid: d951501c-d6da-454c-be2f-0887ffcac77c
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Visionneuses à 360°
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1332'
 ht-degree: 0%
 
 ---
