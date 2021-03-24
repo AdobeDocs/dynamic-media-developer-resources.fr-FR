@@ -1,17 +1,14 @@
 ---
 description: Attribut de configuration pour la visionneuse de vidéos interactive.
-seo-description: Attribut de configuration pour la visionneuse de vidéos interactive.
-seo-title: CallToAction.maxloadradius
 solution: Experience Manager
 title: CallToAction.maxloadradius
-uuid: ec5a4b0d-1dae-456f-a9da-91541cfba1a7
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 4%
+source-wordcount: '79'
+ht-degree: 5%
 
 ---
 
