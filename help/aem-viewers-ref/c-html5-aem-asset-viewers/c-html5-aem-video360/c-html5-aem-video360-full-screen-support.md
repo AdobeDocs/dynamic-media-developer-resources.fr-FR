@@ -1,16 +1,13 @@
 ---
 description: Le lecteur prend en charge le mode de fonctionnement plein écran.
-seo-description: Le lecteur prend en charge le mode de fonctionnement plein écran.
-seo-title: Prise en charge de plein écran
 solution: Experience Manager
 title: Prise en charge de plein écran
-uuid: 476cb9b4-9ef0-404a-b857-8f5913c34259
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo 360 VR
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
