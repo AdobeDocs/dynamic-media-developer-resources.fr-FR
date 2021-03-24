@@ -1,16 +1,13 @@
 ---
 description: La classe principale de la visionneuse de supports variés est MixedMediaViewer. Elle est déclarée dans l’espace de nommage s7viewers. Cette API JavaScript couvre le constructeur, les méthodes et les rappels de cette classe particulière.
-seo-description: La classe principale de la visionneuse de supports variés est MixedMediaViewer. Elle est déclarée dans l’espace de nommage s7viewers. Cette API JavaScript couvre le constructeur, les méthodes et les rappels de cette classe particulière.
-seo-title: Référence de l’API Javascript pour la visionneuse de supports variés
 solution: Experience Manager
 title: Référence de l’API Javascript pour la visionneuse de supports variés
-uuid: 8a416e62-3ae1-4539-8757-d68f99ea1d1a
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Combiner des visionneuses de supports
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
