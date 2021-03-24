@@ -1,16 +1,13 @@
 ---
 description: Référence de l’API JavaScript pour la visionneuse de supports variés
-seo-description: Référence de l’API JavaScript pour la visionneuse de supports variés
-seo-title: getComponent
 solution: Experience Manager
 title: getComponent
-uuid: 77531130-12e7-4001-a68f-c9a581ec5f0d
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Combiner des visionneuses de supports
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '241'
 ht-degree: 1%
 
 ---
