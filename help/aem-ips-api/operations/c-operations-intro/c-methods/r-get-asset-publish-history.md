@@ -1,17 +1,14 @@
 ---
 description: Renvoie l’historique de publication d’un fichier.
-seo-description: Renvoie l’historique de publication d’un fichier.
-seo-title: getAssetPublishHistory
 solution: Experience Manager
 title: getAssetPublishHistory
-uuid: 15025c3d-eac3-4cb8-9a2a-fd80bd67478f
 feature: Dynamic Media Classic, SDK/API, Gestion des ressources
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 15%
+source-wordcount: '98'
+ht-degree: 16%
 
 ---
 
