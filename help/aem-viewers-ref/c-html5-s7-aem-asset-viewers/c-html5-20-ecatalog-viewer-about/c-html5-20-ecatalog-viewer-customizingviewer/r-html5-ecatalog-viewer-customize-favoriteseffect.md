@@ -1,17 +1,14 @@
 ---
 description: Le lecteur affiche les icônes Favoris sur la vue principale aux endroits où elle a été ajoutée à l’origine par l’utilisateur.
-seo-description: Le lecteur affiche les icônes Favoris sur la vue principale aux endroits où elle a été ajoutée à l’origine par l’utilisateur.
-seo-title: Effet Favoris
 solution: Experience Manager
 title: Effet Favoris
-uuid: b660b9fd-592b-4072-83c9-f70330ee19ab
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Catalogue électronique
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 0%
+source-wordcount: '191'
+ht-degree: 1%
 
 ---
 
