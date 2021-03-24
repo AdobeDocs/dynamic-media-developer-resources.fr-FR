@@ -1,17 +1,14 @@
 ---
 description: Ces commandes s’appliquent aux calques d’image, de texte et de couleur unie. Elles s’avèrent également généralement utiles pour les images composites et les demandes d’image simples et non superposées.
-seo-description: Ces commandes s’appliquent aux calques d’image, de texte et de couleur unie. Elles s’avèrent également généralement utiles pour les images composites et les demandes d’image simples et non superposées.
-seo-title: Opérations communes
 solution: Experience Manager
 title: Opérations communes
-uuid: 2d1be69a-661e-494a-9748-3a6525b19b1b
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 2%
+source-wordcount: '154'
+ht-degree: 3%
 
 ---
 
