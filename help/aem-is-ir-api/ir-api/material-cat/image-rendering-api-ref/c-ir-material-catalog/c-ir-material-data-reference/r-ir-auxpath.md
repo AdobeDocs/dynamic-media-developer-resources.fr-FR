@@ -1,16 +1,13 @@
 ---
 description: Chemin d’accès au fichier de données. Chemin d’accès relatif et nom des fichiers de données autres que les images associés à cette image.
-seo-description: Chemin d’accès au fichier de données. Chemin d’accès relatif et nom des fichiers de données autres que les images associés à cette image.
-seo-title: AuxPath
 solution: Experience Manager
 title: AuxPath
-uuid: 95d28f8d-27ec-480a-a62a-7e5e8fbfb3fb
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '129'
 ht-degree: 3%
 
 ---
