@@ -1,16 +1,13 @@
 ---
 description: Paramètre commun à toutes les visionneuses.
-seo-description: Paramètre commun à toutes les visionneuses.
-seo-title: videoServerUrl
 solution: Experience Manager
 title: videoServerUrl
-uuid: ef9870f9-599b-449d-b713-66abafb80311
 feature: Dynamic Media Classic, Visionneuses, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '72'
 ht-degree: 5%
 
 ---
