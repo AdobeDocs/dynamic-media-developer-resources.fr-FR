@@ -1,16 +1,13 @@
 ---
 description: La vue principale est constituée de l’image agrandie.
-seo-description: La vue principale est constituée de l’image agrandie.
-seo-title: Vue de zoom
 solution: Experience Manager
 title: Vue de zoom
-uuid: 06464e36-8c9c-4d3c-b4e5-5911f002568c
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Zoom
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '174'
 ht-degree: 3%
 
 ---
