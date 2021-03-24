@@ -1,17 +1,14 @@
 ---
 description: Cliquez ou appuyez sur ce bouton pour réinitialiser la visionneuse entre la vue principale et les miniatures. Ce bouton apparaît dans la barre de contrôle principale. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
-seo-description: Cliquez ou appuyez sur ce bouton pour réinitialiser la visionneuse entre la vue principale et les miniatures. Ce bouton apparaît dans la barre de contrôle principale. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
-seo-title: Bouton Miniatures
 solution: Experience Manager
 title: Bouton Miniatures
-uuid: a84fd01b-95a5-41bc-ac9f-f1de485f4da6
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 0%
+source-wordcount: '282'
+ht-degree: 1%
 
 ---
 
