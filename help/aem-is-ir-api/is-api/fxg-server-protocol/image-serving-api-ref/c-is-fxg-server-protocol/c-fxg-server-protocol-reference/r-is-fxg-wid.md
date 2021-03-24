@@ -1,17 +1,14 @@
 ---
 description: Largeur de la vue. Indique la largeur de l’image de réponse (image de vue).
-seo-description: Largeur de la vue. Indique la largeur de l’image de réponse (image de vue).
-seo-title: wid
 solution: Experience Manager
 title: wid
-uuid: b59b936c-abab-4f9d-95ca-0a09743ba0fb
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 4%
+source-wordcount: '184'
+ht-degree: 3%
 
 ---
 
