@@ -1,16 +1,13 @@
 ---
 description: Les fichiers de données source de rendu d’image comprennent les fichiers de vignettes, les fichiers de matériaux (images pour les textures et les décalcomanies répétables, ainsi que les fichiers de style d’armoire et de fenêtre) et les profils ICC.
-seo-description: Les fichiers de données source de rendu d’image comprennent les fichiers de vignettes, les fichiers de matériaux (images pour les textures et les décalcomanies répétables, ainsi que les fichiers de style d’armoire et de fenêtre) et les profils ICC.
-seo-title: Données source
 solution: Experience Manager
 title: Données source
-uuid: 76c6419c-613e-4eff-b30f-9fea2a7daf5b
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
