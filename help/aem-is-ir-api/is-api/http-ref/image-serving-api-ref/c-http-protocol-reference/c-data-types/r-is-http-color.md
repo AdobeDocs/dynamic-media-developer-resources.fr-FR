@@ -1,16 +1,13 @@
 ---
 description: Valeurs de couleur. Vous pouvez spécifier des valeurs de couleur à l’aide d’une notation hexadécimale, d’une liste de valeurs de composant séparées par des virgules ou de décimales.
-seo-description: Valeurs de couleur. Vous pouvez spécifier des valeurs de couleur à l’aide d’une notation hexadécimale, d’une liste de valeurs de composant séparées par des virgules ou de décimales.
-seo-title: couleur
 solution: Experience Manager
 title: couleur
-uuid: 61308b8e-eaac-4b2e-8500-2f9efa8a6ce8
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '439'
 ht-degree: 14%
 
 ---
@@ -51,7 +48,7 @@ Valeurs de couleur. Vous pouvez spécifier des valeurs de couleur à l’aide d�
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex8</span> </span> </p> </td> 
-  <td class="stentry"> <p>valeur de couleur hexadécimale RGBA (RRGBBAA) ou CMJN (CCMYYKK) à huit chiffres compressée (si elle est spécifiée avec le suffixe k) </p></td> 
+  <td class="stentry"> <p>valeur de couleur hexadécimale RGBA (RRGBBAA) ou CMJN (CCMYYKK) à huit chiffres (si spécifiée avec le suffixe k) </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex10</span> </span> </p></td> 
