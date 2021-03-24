@@ -1,17 +1,14 @@
 ---
 description: Mode de rééchantillonnage. Par défaut pour resMode=. Indique les attributs de rééchantillonnage et d’interpolation utilisés pour redimensionner l’image rendue à la taille finale.
-seo-description: Mode de rééchantillonnage. Par défaut pour resMode=. Indique les attributs de rééchantillonnage et d’interpolation utilisés pour redimensionner l’image rendue à la taille finale.
-seo-title: ResMode
 solution: Experience Manager
 title: ResMode
-uuid: 91d83274-b3e1-4233-bd01-21936726e1db
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 5%
+source-wordcount: '75'
+ht-degree: 6%
 
 ---
 
