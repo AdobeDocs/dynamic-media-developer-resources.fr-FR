@@ -1,17 +1,14 @@
 ---
 description: Chemin d’accès racine des données source. Chemin d’accès absolu ou relatif au dossier racine pour les données source de ce catalogue d’images.
-seo-description: Chemin d’accès racine des données source. Chemin d’accès absolu ou relatif au dossier racine pour les données source de ce catalogue d’images.
-seo-title: RootPath
 solution: Experience Manager
 title: RootPath
-uuid: 859bebf2-5ee7-4daa-8970-a18bddcee684
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 2%
+source-wordcount: '118'
+ht-degree: 3%
 
 ---
 
