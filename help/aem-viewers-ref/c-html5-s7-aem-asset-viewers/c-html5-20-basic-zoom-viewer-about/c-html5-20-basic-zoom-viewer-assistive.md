@@ -1,16 +1,13 @@
 ---
 description: Tous les composants du lecteur prennent en charge les rôles et attributs ARIA (Accessible Rich Internet Applications) afin d’améliorer l’intégration avec les technologies d’assistance telles que les lecteurs d’écran.
-seo-description: Tous les composants du lecteur prennent en charge les rôles et attributs ARIA (Accessible Rich Internet Applications) afin d’améliorer l’intégration avec les technologies d’assistance telles que les lecteurs d’écran.
-seo-title: Assistance technique
 solution: Experience Manager
 title: Assistance technique
-uuid: 99fdb4fd-5a3d-4c4e-b1c5-10651c08bf39
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Zoom, Accessibilité
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
