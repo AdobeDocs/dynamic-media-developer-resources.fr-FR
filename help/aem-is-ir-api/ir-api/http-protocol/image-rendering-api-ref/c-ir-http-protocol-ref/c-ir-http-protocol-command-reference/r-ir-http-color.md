@@ -1,17 +1,14 @@
 ---
 description: Couleur de premier plan. Indique la couleur des matériaux de couleur unie ou la couleur additive des matériaux colorables.
-seo-description: Couleur de premier plan. Indique la couleur des matériaux de couleur unie ou la couleur additive des matériaux colorables.
-seo-title: couleur
 solution: Experience Manager
 title: couleur
-uuid: 546cf34b-ab2d-497c-abc2-89024dc541db
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 14%
+source-wordcount: '81'
+ht-degree: 13%
 
 ---
 
