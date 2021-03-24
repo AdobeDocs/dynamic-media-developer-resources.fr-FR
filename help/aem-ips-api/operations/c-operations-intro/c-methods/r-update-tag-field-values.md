@@ -1,17 +1,14 @@
 ---
 description: Met à jour les valeurs du dictionnaire de balises pour un champ de balise.
-seo-description: Met à jour les valeurs du dictionnaire de balises pour un champ de balise.
-seo-title: updateTagFieldValues
 solution: Experience Manager
 title: updateTagFieldValues
-uuid: 21689469-a0dd-480b-82ba-ebd12956ff8f
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 14%
+source-wordcount: '164'
+ht-degree: 15%
 
 ---
 
