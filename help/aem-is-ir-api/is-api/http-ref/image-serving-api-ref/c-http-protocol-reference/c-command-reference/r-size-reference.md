@@ -1,16 +1,13 @@
 ---
 description: Taille de calque. Indique la taille ou la taille maximale du calque, avant que rotate=, perspective= et extended= ne soient appliqués au calque.
-seo-description: Taille de calque. Indique la taille ou la taille maximale du calque, avant que rotate=, perspective= et extended= ne soient appliqués au calque.
-seo-title: taille
 solution: Experience Manager
 title: taille
-uuid: c9c13062-7974-4dd9-aff4-f9502bcf442e
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '430'
 ht-degree: 1%
 
 ---
