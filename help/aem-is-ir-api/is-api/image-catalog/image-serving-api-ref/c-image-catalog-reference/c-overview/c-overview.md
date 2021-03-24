@@ -1,16 +1,13 @@
 ---
 description: Les catalogues d’images sont utilisés pour fournir au serveur des informations sur les images et les données prises en charge (telles que les polices et les profils ICC).
-seo-description: Les catalogues d’images sont utilisés pour fournir au serveur des informations sur les images et les données prises en charge (telles que les polices et les profils ICC).
-seo-title: présentation
 solution: Experience Manager
 title: présentation
-uuid: e8c0401b-9161-4624-babb-6c7afb443e65
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
