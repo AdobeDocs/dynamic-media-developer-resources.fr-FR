@@ -1,16 +1,13 @@
 ---
 description: Notes de compatibilité pour les systèmes d’exploitation, les navigateurs et les périphériques mobiles.
-seo-description: Notes de compatibilité pour les systèmes d’exploitation, les navigateurs et les périphériques mobiles.
-seo-title: Notes de compatibilité
 solution: Experience Manager
 title: Notes de compatibilité
-uuid: cf732a03-bfaa-4838-862f-73343cefbd67
 feature: Dynamic Media Classic, Visionneuses, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
