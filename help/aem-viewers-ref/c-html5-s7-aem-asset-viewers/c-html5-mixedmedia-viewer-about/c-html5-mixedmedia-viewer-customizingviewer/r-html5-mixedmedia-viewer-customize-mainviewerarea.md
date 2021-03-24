@@ -1,17 +1,14 @@
 ---
 description: La zone principale de la vue est celle occupée par la vue principale et les nuances. Il est généralement configuré pour s'adapter à l'écran du périphérique disponible lorsqu'aucune taille n'est spécifiée.
-seo-description: La zone principale de la vue est celle occupée par la vue principale et les nuances. Il est généralement configuré pour s'adapter à l'écran du périphérique disponible lorsqu'aucune taille n'est spécifiée.
-seo-title: Zone du lecteur principal
 solution: Experience Manager
 title: Zone du lecteur principal
-uuid: 9d0a23e2-97c2-441e-8e4c-ef528ff654d2
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Combiner des visionneuses de supports
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 1%
+source-wordcount: '134'
+ht-degree: 2%
 
 ---
 
