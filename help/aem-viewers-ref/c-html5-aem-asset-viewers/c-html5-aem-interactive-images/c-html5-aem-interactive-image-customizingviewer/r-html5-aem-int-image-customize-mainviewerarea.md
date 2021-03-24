@@ -1,17 +1,14 @@
 ---
 description: La zone principale de la vue est la zone occupée par l’image de zoom. Il est généralement configuré pour s'adapter à l'écran du périphérique disponible lorsqu'aucune taille n'est spécifiée.
-seo-description: La zone principale de la vue est la zone occupée par l’image de zoom. Il est généralement configuré pour s'adapter à l'écran du périphérique disponible lorsqu'aucune taille n'est spécifiée.
-seo-title: Zone du lecteur principal
 solution: Experience Manager
 title: Zone du lecteur principal
-uuid: 666328fe-1819-43a6-a2c2-ba63ac798700
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Images interactives
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 1%
+source-wordcount: '129'
+ht-degree: 2%
 
 ---
 
