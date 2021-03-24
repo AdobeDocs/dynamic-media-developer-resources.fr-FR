@@ -1,17 +1,14 @@
 ---
 description: Accentuation de l’image de réponse par défaut. Indique s’il faut accentuer les images de réponse si elles sont mises à l’échelle avant le codage.
-seo-description: Accentuation de l’image de réponse par défaut. Indique s’il faut accentuer les images de réponse si elles sont mises à l’échelle avant le codage.
-seo-title: Accentuation
 solution: Experience Manager
 title: Accentuation
-uuid: d93aacf4-d4e7-4cf5-aa9e-e7a82630d4c0
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 9%
+source-wordcount: '56'
+ht-degree: 10%
 
 ---
 
