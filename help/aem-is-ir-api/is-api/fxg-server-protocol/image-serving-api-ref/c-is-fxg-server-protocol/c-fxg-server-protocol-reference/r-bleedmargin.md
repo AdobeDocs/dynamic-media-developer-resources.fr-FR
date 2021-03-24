@@ -1,16 +1,13 @@
 ---
 description: Définissez la marge de fond perdu. Définit la marge de fond perdu définie dans le fichier PDF.
-seo-description: Définissez la marge de fond perdu. Définit la marge de fond perdu définie dans le fichier PDF.
-seo-title: bleedmargin
 solution: Experience Manager
 title: bleedmargin
-uuid: 084d09dd-3f8e-4d2b-8a1c-21d87d925b14
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '65'
 ht-degree: 0%
 
 ---
