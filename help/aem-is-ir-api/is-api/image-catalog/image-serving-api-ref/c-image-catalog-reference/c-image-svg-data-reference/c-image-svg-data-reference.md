@@ -1,16 +1,13 @@
 ---
 description: Bien que les données image et SVG soient très similaires, elles sont conservées dans des tableaux distincts dans le catalogue d’images.
-seo-description: Bien que les données image et SVG soient très similaires, elles sont conservées dans des tableaux distincts dans le catalogue d’images.
-seo-title: Référence de données Image/SVG
 solution: Experience Manager
 title: Référence de données Image/SVG
-uuid: 80e41e58-f20e-45fb-b180-28b2c4b30808
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
