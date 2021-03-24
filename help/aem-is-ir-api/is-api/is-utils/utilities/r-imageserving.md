@@ -1,16 +1,13 @@
 ---
 description: Script de contrôle Image Serving. Ce script est utilisé pour début, arrêter ou redémarrer le superviseur du serveur Image Serving qui, à son tour, début, arrête ou redémarre tous les autres composants Image Serving.
-seo-description: Script de contrôle Image Serving. Ce script est utilisé pour début, arrêter ou redémarrer le superviseur du serveur Image Serving qui, à son tour, début, arrête ou redémarre tous les autres composants Image Serving.
-seo-title: ImageServing
 solution: Experience Manager
 title: ImageServing
-uuid: 2975b957-e06f-42c6-8c0a-0d2757a0025a
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '159'
 ht-degree: 2%
 
 ---
