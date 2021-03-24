@@ -1,17 +1,14 @@
 ---
 description: Cliquez ou appuyez sur ce bouton pour faire pivoter l’image vers la droite dans la vue principale. Ce bouton n'est pas affiché sur les téléphones portables pour enregistrer l'espace sur écran. En outre, le bouton est masqué lorsqu’une visionneuse à 360° multidimensionnelle est utilisée. Vous pouvez dimensionner, habiller et positionner le bouton à l’aide de CSS.
-seo-description: Cliquez ou appuyez sur ce bouton pour faire pivoter l’image vers la droite dans la vue principale. Ce bouton n'est pas affiché sur les téléphones portables pour enregistrer l'espace sur écran. En outre, le bouton est masqué lorsqu’une visionneuse à 360° multidimensionnelle est utilisée. Vous pouvez dimensionner, habiller et positionner le bouton à l’aide de CSS.
-seo-title: Bouton de rotation à droite
 solution: Experience Manager
 title: Bouton de rotation à droite
-uuid: 5c754e53-9311-4d4f-96e7-2bb9a5a7babf
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Visionneuses à 360°
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 3%
+source-wordcount: '341'
+ht-degree: 4%
 
 ---
 
