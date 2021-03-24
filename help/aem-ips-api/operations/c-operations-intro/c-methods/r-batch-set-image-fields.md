@@ -1,17 +1,14 @@
 ---
 description: Définit les champs spécifiques à l’image pour un ou plusieurs fichiers d’image.
-seo-description: Définit les champs spécifiques à l’image pour un ou plusieurs fichiers d’image.
-seo-title: batchSetImageFields
 solution: Experience Manager
 title: batchSetImageFields
-uuid: e0ad7da4-cb28-4402-8b47-a600916d23b3
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 9%
+source-wordcount: '199'
+ht-degree: 10%
 
 ---
 
