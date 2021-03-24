@@ -1,16 +1,13 @@
 ---
 description: Les options suivantes contrôlent le traitement des fichiers de style d'armoire. Ils sont ignorés si sourceFile n'est pas un fichier de style CAB ou si -info est spécifié.
-seo-description: Les options suivantes contrôlent le traitement des fichiers de style d'armoire. Ils sont ignorés si sourceFile n'est pas un fichier de style CAB ou si -info est spécifié.
-seo-title: Options relatives aux fichiers de style d’armoire
 solution: Experience Manager
 title: Options relatives aux fichiers de style d’armoire
-uuid: bca84724-d710-45da-86e9-7385f689fd4b
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '103'
 ht-degree: 0%
 
 ---
