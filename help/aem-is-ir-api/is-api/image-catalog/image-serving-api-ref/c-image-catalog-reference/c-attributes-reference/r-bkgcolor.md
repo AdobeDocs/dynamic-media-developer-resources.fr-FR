@@ -1,17 +1,14 @@
 ---
 description: Couleur d’arrière-plan par défaut. Valeur RVB utilisée pour remplir toute zone d’une image de réponse qui ne contient pas de données d’image réelles.
-seo-description: Couleur d’arrière-plan par défaut. Valeur RVB utilisée pour remplir toute zone d’une image de réponse qui ne contient pas de données d’image réelles.
-seo-title: BkgColor
 solution: Experience Manager
 title: BkgColor
-uuid: 48f0c7d2-3a6c-4076-81f1-ad94f701c576
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 5%
+source-wordcount: '68'
+ht-degree: 7%
 
 ---
 
