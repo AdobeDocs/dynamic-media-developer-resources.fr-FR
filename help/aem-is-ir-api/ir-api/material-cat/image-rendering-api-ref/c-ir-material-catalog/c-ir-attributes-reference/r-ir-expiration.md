@@ -1,16 +1,13 @@
 ---
 description: Temps de mise en cache du client par défaut à vivre. Fournit un intervalle d’expiration par défaut au cas où un enregistrement de catalogue spécifique ne contiendrait pas de valeur d’expiration de catalogue ou de vignette valide, ou si un fichier de vignette ou de matériau est directement accessible, plutôt qu’au moyen d’un enregistrement de catalogue.
-seo-description: Temps de mise en cache du client par défaut à vivre. Fournit un intervalle d’expiration par défaut au cas où un enregistrement de catalogue spécifique ne contiendrait pas de valeur d’expiration de catalogue ou de vignette valide, ou si un fichier de vignette ou de matériau est directement accessible, plutôt qu’au moyen d’un enregistrement de catalogue.
-seo-title: Expiration
 solution: Experience Manager
 title: Expiration
-uuid: 2b56f9ec-2b25-4e6a-aead-6dad3d2df975
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '154'
 ht-degree: 3%
 
 ---
