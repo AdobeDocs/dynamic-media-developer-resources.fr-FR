@@ -1,17 +1,14 @@
 ---
 description: Tracé de conversion des couleurs. Indique si l’interpolation doit être utilisée pour améliorer la qualité perceptive des conversions de couleur lorsqu’aucune sélection explicite n’est effectuée avec icc=.
-seo-description: Tracé de conversion des couleurs. Indique si l’interpolation doit être utilisée pour améliorer la qualité perceptive des conversions de couleur lorsqu’aucune sélection explicite n’est effectuée avec icc=.
-seo-title: IccDither
 solution: Experience Manager
 title: IccDither
-uuid: 4ebd1bf8-eed0-4ff1-b8a0-1295d503fb4e
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 3%
+source-wordcount: '85'
+ht-degree: 4%
 
 ---
 
