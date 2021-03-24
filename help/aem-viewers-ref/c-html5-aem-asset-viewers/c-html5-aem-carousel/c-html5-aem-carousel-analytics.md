@@ -2,11 +2,10 @@
 description: Prise en charge du suivi Adobe Analytics
 solution: Experience Manager
 title: Prise en charge du suivi Adobe Analytics
-uuid: a7de5549-2a9d-4153-be5e-72705ced85ac
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Bannières de carrousel
 role: Développeur, Professionnel, Ingénieur de données, Architecte de données
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 1%
