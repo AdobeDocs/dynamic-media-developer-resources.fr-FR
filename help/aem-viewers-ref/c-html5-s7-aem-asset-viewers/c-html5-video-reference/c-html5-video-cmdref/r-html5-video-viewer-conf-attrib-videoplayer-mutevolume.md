@@ -1,16 +1,13 @@
 ---
 description: Attribut de configuration pour la visionneuse de vidéos.
-seo-description: Attribut de configuration pour la visionneuse de vidéos.
-seo-title: VideoPlayer.mutevolume
 solution: Experience Manager
 title: VideoPlayer.mutevolume
-uuid: 8e32b005-cf7f-4078-896c-14497340fad7
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '64'
 ht-degree: 7%
 
 ---
