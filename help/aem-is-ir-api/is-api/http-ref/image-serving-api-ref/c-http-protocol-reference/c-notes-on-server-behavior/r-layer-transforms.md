@@ -1,16 +1,13 @@
 ---
 description: Les transformations sont appliquées aux images source et aux calques de texte.
-seo-description: Les transformations sont appliquées aux images source et aux calques de texte.
-seo-title: Transformations de calques
 solution: Experience Manager
 title: Transformations de calques
-uuid: b32b5af4-66ad-474a-9bca-4b6da8f43bf9
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
