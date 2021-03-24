@@ -1,17 +1,14 @@
 ---
 description: Options utilisées lors du recadrage automatique d’images en fonction de la transparence.
-seo-description: Options utilisées lors du recadrage automatique d’images en fonction de la transparence.
-seo-title: AutoTransparentCropOptions
 solution: Experience Manager
 title: AutoTransparentCropOptions
-uuid: 4c3d365d-e011-4f38-bea7-68cf0cba7893
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 9%
+source-wordcount: '55'
+ht-degree: 10%
 
 ---
 
