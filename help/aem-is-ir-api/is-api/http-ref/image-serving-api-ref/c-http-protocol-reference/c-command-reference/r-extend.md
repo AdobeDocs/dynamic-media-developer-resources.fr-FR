@@ -1,17 +1,14 @@
 ---
 description: Etend le calque. Ajoute des marges sur un calque ou recadre le rectangle du calque.
-seo-description: Etend le calque. Ajoute des marges sur un calque ou recadre le rectangle du calque.
-seo-title: étendre
 solution: Experience Manager
 title: étendre
-uuid: 7ca69994-e788-41a9-93ac-f22b6b9920d0
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 1%
+source-wordcount: '243'
+ht-degree: 2%
 
 ---
 
