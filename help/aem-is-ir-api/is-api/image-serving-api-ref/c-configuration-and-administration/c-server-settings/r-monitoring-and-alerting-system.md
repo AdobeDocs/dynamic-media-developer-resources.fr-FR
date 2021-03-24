@@ -1,16 +1,13 @@
 ---
 description: Utilisez ces paramètres de serveur pour configurer le système de surveillance et d'alerte.
-seo-description: Utilisez ces paramètres de serveur pour configurer le système de surveillance et d'alerte.
-seo-title: Système de surveillance et d'alerte
 solution: Experience Manager
 title: Système de surveillance et d'alerte
-uuid: 944c7d53-09ec-443e-ac8c-85684d8fda0f
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
