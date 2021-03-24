@@ -1,17 +1,14 @@
 ---
 description: Utilisé par PropertySetType
-seo-description: Utilisé par PropertySetType
-seo-title: Types de jeux de propriétés
 solution: Experience Manager
 title: Types de jeux de propriétés
-uuid: c9cf6d96-4c27-45a0-9696-19ee904606bf
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 7%
+source-wordcount: '21'
+ht-degree: 9%
 
 ---
 
