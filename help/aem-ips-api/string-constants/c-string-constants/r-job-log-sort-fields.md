@@ -1,17 +1,14 @@
 ---
 description: Utilisé par getJobLogsParam/sortBy
-seo-description: Utilisé par getJobLogsParam/sortBy
-seo-title: Champs de tri du journal des tâches
 solution: Experience Manager
 title: Champs de tri du journal des tâches
-uuid: 20f870da-421b-4cb0-8287-0220ad9b9cb5
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 6%
+source-wordcount: '25'
+ht-degree: 8%
 
 ---
 
