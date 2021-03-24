@@ -1,16 +1,13 @@
 ---
 description: Incorporer les données de chemins. Indique si les chemins Photoshop du fichier image source du calque 0 doivent être inclus dans l’image de réponse.
-seo-description: Incorporer les données de chemins. Indique si les chemins Photoshop du fichier image source du calque 0 doivent être inclus dans l’image de réponse.
-seo-title: pathEmbed
 solution: Experience Manager
 title: pathEmbed
-uuid: 93e63c7c-c091-4bb1-baff-45706fd611ea
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '152'
 ht-degree: 2%
 
 ---
