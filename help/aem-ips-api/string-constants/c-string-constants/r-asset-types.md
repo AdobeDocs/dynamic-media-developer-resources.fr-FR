@@ -1,16 +1,13 @@
 ---
 description: Décrit les valeurs utilisées par divers paramètres d’entrée. Consultez la liste de cet article pour plus de détails.
-seo-description: Décrit les valeurs utilisées par divers paramètres d’entrée. Consultez la liste de cet article pour plus de détails.
-seo-title: Types de fichier
 solution: Experience Manager
 title: Types de fichier
-uuid: 932bae5a-1e5f-493a-a6fa-5c367c632f97
 feature: Dynamic Media Classic, SDK/API, Gestion des ressources
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '47'
 ht-degree: 12%
 
 ---
