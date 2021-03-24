@@ -1,16 +1,13 @@
 ---
 description: L’indicateur de rotation est superposé sur la zone de vue de rotation. Elle s’affiche lorsque l’image est à l’état reset et dépend également du paramètre iconeffect.
-seo-description: L’indicateur de rotation est superposé sur la zone de vue de rotation. Elle s’affiche lorsque l’image est à l’état reset et dépend également du paramètre iconeffect.
-seo-title: Effet d’icône vue à 360°
 solution: Experience Manager
 title: Effet d’icône vue à 360°
-uuid: 33445a3d-51dc-47a4-a8d1-87d25ea001e1
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Combiner des visionneuses de supports
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '160'
 ht-degree: 1%
 
 ---
