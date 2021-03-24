@@ -1,16 +1,13 @@
 ---
 description: Référence de l’API JavaScript pour la visionneuse d’images vidéo.
-seo-description: Référence de l’API JavaScript pour la visionneuse d’images vidéo.
-seo-title: disposer
 solution: Experience Manager
 title: disposer
-uuid: d9698486-8ffd-4b12-844b-e80b929675ec
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Images interactives
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '137'
 ht-degree: 2%
 
 ---
