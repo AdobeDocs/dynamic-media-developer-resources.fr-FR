@@ -1,17 +1,14 @@
 ---
 description: Supprime plusieurs fichiers.
-seo-description: Supprime plusieurs fichiers.
-seo-title: deleteAssets
 solution: Experience Manager
 title: deleteAssets
-uuid: ed446ebf-4a3d-4ee8-9ab3-596b1f05e5f4
 feature: Dynamic Media Classic, SDK/API, Gestion des ressources
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 14%
+source-wordcount: '184'
+ht-degree: 15%
 
 ---
 
