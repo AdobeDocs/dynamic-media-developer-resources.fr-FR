@@ -1,16 +1,13 @@
 ---
 description: Utilisez les commandes suivantes pour le formatage avancé du texte.
-seo-description: Utilisez les commandes suivantes pour le formatage avancé du texte.
-seo-title: Formatage avancé du texte
 solution: Experience Manager
 title: Formatage avancé du texte
-uuid: 340166a5-5aef-4081-9114-a715cde68891
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '245'
 ht-degree: 1%
 
 ---
