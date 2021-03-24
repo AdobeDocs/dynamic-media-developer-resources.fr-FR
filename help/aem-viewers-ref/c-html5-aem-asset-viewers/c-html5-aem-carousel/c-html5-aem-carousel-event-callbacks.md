@@ -2,11 +2,10 @@
 description: Rappels de événement
 solution: Experience Manager
 title: Rappels de événement
-uuid: 7280a391-3ead-470b-89e9-5faa082e0202
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Bannières de carrousel
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 1%
