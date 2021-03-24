@@ -1,17 +1,14 @@
 ---
 description: Utilisée par ViewerPresetInfo.
-seo-description: Utilisée par ViewerPresetInfo.
-seo-title: Type de visionneuse
 solution: Experience Manager
 title: Type de visionneuse
-uuid: 95b438db-35a8-45cf-8ec0-4a85e8b869c5
 feature: Dynamic Media Classic, SDK/API, Lecteur
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '25'
-ht-degree: 32%
+source-wordcount: '20'
+ht-degree: 30%
 
 ---
 
