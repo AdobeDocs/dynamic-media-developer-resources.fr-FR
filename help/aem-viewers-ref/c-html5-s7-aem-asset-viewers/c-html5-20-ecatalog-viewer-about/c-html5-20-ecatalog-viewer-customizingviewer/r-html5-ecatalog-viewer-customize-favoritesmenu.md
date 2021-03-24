@@ -1,16 +1,13 @@
 ---
 description: La liste déroulante du menu Favoris s’affiche dans la barre de contrôle. Il s’agit d’un bouton et d’un panneau qui se développent lorsqu’un utilisateur clique ou appuie sur un bouton. Le panneau contient des outils Favoris individuels.
-seo-description: La liste déroulante du menu Favoris s’affiche dans la barre de contrôle. Il s’agit d’un bouton et d’un panneau qui se développent lorsqu’un utilisateur clique ou appuie sur un bouton. Le panneau contient des outils Favoris individuels.
-seo-title: Menu Favoris
 solution: Experience Manager
 title: Menu Favoris
-uuid: 816e614d-8253-49a8-b57e-0b57b44db535
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Catalogue électronique
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
