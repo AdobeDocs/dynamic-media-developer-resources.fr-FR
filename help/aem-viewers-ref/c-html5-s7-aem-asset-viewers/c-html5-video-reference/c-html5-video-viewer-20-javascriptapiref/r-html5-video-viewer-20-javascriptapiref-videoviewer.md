@@ -1,16 +1,13 @@
 ---
 description: Référence de l’API JavaScript pour la visionneuse de vidéos.
-seo-description: Référence de l’API JavaScript pour la visionneuse de vidéos.
-seo-title: Visionneuse vidéo
 solution: Experience Manager
 title: Visionneuse vidéo
-uuid: ad180d92-3e5c-4ded-b82b-79c23aa5c597
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '212'
 ht-degree: 3%
 
 ---
