@@ -1,16 +1,13 @@
 ---
 description: L’heure de la vidéo est l’affichage numérique qui montre l’heure et la durée actuelles de la vidéo en cours de lecture.
-seo-description: L’heure de la vidéo est l’affichage numérique qui montre l’heure et la durée actuelles de la vidéo en cours de lecture.
-seo-title: Durée de la vidéo
 solution: Experience Manager
 title: Durée de la vidéo
-uuid: f93e495b-44a1-493c-9bc6-5c088478ddce
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Combiner des visionneuses de supports
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '205'
 ht-degree: 2%
 
 ---
