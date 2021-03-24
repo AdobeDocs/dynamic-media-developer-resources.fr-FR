@@ -1,16 +1,13 @@
 ---
 description: Bien que l'ajout de nouveaux fichiers de données soit simple et direct, le remplacement de fichiers de données existants, activement utilisés par le serveur, doit faire l'objet d'une attention particulière. Au lieu de simplement remplacer ces fichiers, il est recommandé de donner un nouveau nom au fichier de remplacement (par exemple, ajouter un suffixe de version au nom du fichier). Une fois le nouveau fichier mis en ligne, l’ancienne version peut être supprimée.
-seo-description: Bien que l'ajout de nouveaux fichiers de données soit simple et direct, le remplacement de fichiers de données existants, activement utilisés par le serveur, doit faire l'objet d'une attention particulière. Au lieu de simplement remplacer ces fichiers, il est recommandé de donner un nouveau nom au fichier de remplacement (par exemple, ajouter un suffixe de version au nom du fichier). Une fois le nouveau fichier mis en ligne, l’ancienne version peut être supprimée.
-seo-title: Suppression ou remplacement de fichiers de données
 solution: Experience Manager
 title: Suppression ou remplacement de fichiers de données
-uuid: 7b446144-48f6-4b50-93ec-0287425d932a
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
