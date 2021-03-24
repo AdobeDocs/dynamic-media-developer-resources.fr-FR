@@ -1,16 +1,13 @@
 ---
 description: Horodatage de modification par défaut. Fournit une valeur par défaut pour catalog TimeStamp et la vignette TimeStamp. Si elle n’est pas spécifiée, le serveur utilisera la date et l’heure de modification de ce fichier catalog.ini.
-seo-description: Horodatage de modification par défaut. Fournit une valeur par défaut pour catalog TimeStamp et la vignette TimeStamp. Si elle n’est pas spécifiée, le serveur utilisera la date et l’heure de modification de ce fichier catalog.ini.
-seo-title: TimeStamp
 solution: Experience Manager
 title: TimeStamp
-uuid: 10ceb600-1ed9-46a1-ae07-889d601ac0f4
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '229'
 ht-degree: 1%
 
 ---
