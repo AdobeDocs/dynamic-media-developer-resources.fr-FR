@@ -1,16 +1,13 @@
 ---
 description: Suivez ces instructions pour désinstaller Image Rendering sur un système Windows.
-seo-description: Suivez ces instructions pour désinstaller Image Rendering sur un système Windows.
-seo-title: Désinstallation sous Windows
 solution: Experience Manager
 title: Désinstallation sous Windows
-uuid: 7b20bf37-4147-4169-ac5e-42e7b330ca51
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '52'
 ht-degree: 0%
 
 ---
