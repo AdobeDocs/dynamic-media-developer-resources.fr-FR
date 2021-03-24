@@ -1,16 +1,13 @@
 ---
 description: La vue principale est constituée de l’image à 360°.
-seo-description: La vue principale est constituée de l’image à 360°.
-seo-title: Vue à 360°
 solution: Experience Manager
 title: Vue à 360°
-uuid: 74f42373-b08c-43c8-8f08-e61a09655b61
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Visionneuses à 360°
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '70'
 ht-degree: 1%
 
 ---
