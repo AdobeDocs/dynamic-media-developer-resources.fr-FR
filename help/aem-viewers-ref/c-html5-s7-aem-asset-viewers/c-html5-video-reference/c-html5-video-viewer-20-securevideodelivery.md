@@ -2,11 +2,10 @@
 description: DIFFUSION vidéo HTTP
 solution: Experience Manager
 title: DIFFUSION vidéo HTTP
-uuid: fd02a55a-a0f1-47a2-983f-15f296d1dbb4
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 0%
