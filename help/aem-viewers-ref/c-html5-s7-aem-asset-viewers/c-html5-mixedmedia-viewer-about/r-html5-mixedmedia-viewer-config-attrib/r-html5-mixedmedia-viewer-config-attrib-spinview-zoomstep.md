@@ -2,11 +2,10 @@
 description: SpinView.zoomstep
 solution: Experience Manager
 title: SpinView.zoomstep
-uuid: 103097e9-7e6d-413c-a6a8-b8a15665348c
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Combiner des visionneuses de supports
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 6%
