@@ -1,16 +1,13 @@
 ---
 description: Cette section contient des informations sur la configuration et la gestion du serveur de rendu d’images.
-seo-description: Cette section contient des informations sur la configuration et la gestion du serveur de rendu d’images.
-seo-title: Configuration et gestion du serveur
 solution: Experience Manager
 title: Configuration et gestion du serveur
-uuid: cd344495-cb41-440e-b3f8-5b5812e81a9c
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '78'
 ht-degree: 0%
 
 ---
