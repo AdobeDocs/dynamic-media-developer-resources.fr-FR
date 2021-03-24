@@ -1,17 +1,14 @@
 ---
 description: Paramètre commun à toutes les visionneuses.
-seo-description: Paramètre commun à toutes les visionneuses.
-seo-title: config2
 solution: Experience Manager
 title: config2
-uuid: 9b001bb8-7bae-4858-97ea-f9714a370dc8
 feature: Dynamic Media Classic, Visionneuses, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 16%
+source-wordcount: '44'
+ht-degree: 15%
 
 ---
 
