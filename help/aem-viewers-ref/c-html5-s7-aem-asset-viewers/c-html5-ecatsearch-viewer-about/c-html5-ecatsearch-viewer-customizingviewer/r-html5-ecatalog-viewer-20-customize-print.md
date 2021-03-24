@@ -1,16 +1,13 @@
 ---
 description: L'outil d'impression se compose d'un bouton ajouté à la barre de contrôle et de la boîte de dialogue modale qui s'affiche lorsque l'outil est activé.
-seo-description: L'outil d'impression se compose d'un bouton ajouté à la barre de contrôle et de la boîte de dialogue modale qui s'affiche lorsque l'outil est activé.
-seo-title: Imprimer
 solution: Experience Manager
 title: Imprimer
-uuid: 7be047d8-d1be-4bda-90ca-6b55c749cc64
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1480'
 ht-degree: 2%
 
 ---
