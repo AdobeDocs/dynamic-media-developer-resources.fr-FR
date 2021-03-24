@@ -1,17 +1,14 @@
 ---
 description: Liste automatique de script de génération de jeux pour les tâches de transfert. Suppose que chaque script spécifié pour le transfert est appliqué à toutes les ressources téléchargées.
-seo-description: Liste automatique de script de génération de jeux pour les tâches de transfert. Suppose que chaque script spécifié pour le transfert est appliqué à toutes les ressources téléchargées.
-seo-title: OptionsCréationAutoSet
 solution: Experience Manager
 title: OptionsCréationAutoSet
-uuid: 2840fc3a-1135-4719-8f62-96a816df5f88
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 5%
+source-wordcount: '71'
+ht-degree: 7%
 
 ---
 
