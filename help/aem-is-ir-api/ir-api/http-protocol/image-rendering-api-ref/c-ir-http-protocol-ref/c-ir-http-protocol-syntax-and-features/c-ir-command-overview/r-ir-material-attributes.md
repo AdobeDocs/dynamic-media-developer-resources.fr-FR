@@ -1,16 +1,13 @@
 ---
 description: Ces attributs définissent les matériaux à appliquer à l'objet sélectionné.
-seo-description: Ces attributs définissent les matériaux à appliquer à l'objet sélectionné.
-seo-title: Attributs de matériau
 solution: Experience Manager
 title: Attributs de matériau
-uuid: afdff304-f607-4820-bdb2-f428271efb87
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
