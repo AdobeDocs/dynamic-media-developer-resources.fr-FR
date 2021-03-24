@@ -1,16 +1,13 @@
 ---
 description: La mise en grappe du cache permet à plusieurs serveurs à charge équilibrée d'échanger des entrées de cache dans le cache de réponse Principale et le cache de données secondaire (pour les requêtes imbriquées/incorporées), avec le potentiel d'augmenter significativement la réactivité du serveur en éliminant la nécessité de générer la même entrée de cache sur plusieurs serveurs.
-seo-description: La mise en grappe du cache permet à plusieurs serveurs à charge équilibrée d'échanger des entrées de cache dans le cache de réponse Principale et le cache de données secondaire (pour les requêtes imbriquées/incorporées), avec le potentiel d'augmenter significativement la réactivité du serveur en éliminant la nécessité de générer la même entrée de cache sur plusieurs serveurs.
-seo-title: Mise en grappe du cache
 solution: Experience Manager
 title: Mise en grappe du cache
-uuid: 347165d6-a9e7-406e-81a8-8a91f745ce27
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
