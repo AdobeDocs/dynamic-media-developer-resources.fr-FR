@@ -1,17 +1,14 @@
 ---
 description: Le lecteur affiche des icônes de zones réactives sur la vue principale dans les endroits où des zones réactives ont été créées à l’origine dans Dynamic Media of AEM Assets - à la demande.
-seo-description: Le lecteur affiche des icônes de zones réactives sur la vue principale dans les endroits où des zones réactives ont été créées à l’origine dans Dynamic Media of AEM Assets - à la demande.
-seo-title: Zones sensibles
 solution: Experience Manager
 title: Zones sensibles
-uuid: 79c4d128-e24a-43b0-8e18-13b588eb396e
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Images interactives
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 1%
+source-wordcount: '130'
+ht-degree: 2%
 
 ---
 
