@@ -1,17 +1,14 @@
 ---
 description: Valeurs valides pour les champs PropertySetType et createPropertySetTypeParam.
-seo-description: Valeurs valides pour les champs PropertySetType et createPropertySetTypeParam.
-seo-title: PropertySetType
 solution: Experience Manager
 title: PropertySetType
-uuid: 83220180-3272-4552-974d-a73e6aad3483
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 14%
+source-wordcount: '88'
+ht-degree: 15%
 
 ---
 
