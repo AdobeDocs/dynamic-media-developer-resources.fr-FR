@@ -1,17 +1,14 @@
 ---
 description: Type de surface de matériau. Spécifie le type de surface du matériau.
-seo-description: Type de surface de matériau. Spécifie le type de surface du matériau.
-seo-title: type
 solution: Experience Manager
 title: type
-uuid: 0f107d50-b363-4670-bb02-873677e7bbea
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 21%
+source-wordcount: '164'
+ht-degree: 22%
 
 ---
 
