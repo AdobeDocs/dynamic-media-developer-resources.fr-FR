@@ -1,17 +1,14 @@
 ---
 description: Position du calque.
-seo-description: Position du calque.
-seo-title: pos
 solution: Experience Manager
 title: pos
-uuid: e9872ce9-5c47-49c5-9c87-4fa8441c4770
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 2%
+source-wordcount: '165'
+ht-degree: 3%
 
 ---
 
