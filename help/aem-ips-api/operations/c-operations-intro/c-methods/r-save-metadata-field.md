@@ -1,17 +1,14 @@
 ---
 description: Créez ou modifiez un champ de métadonnées. Omettez la poignée de champ facultative pour créer un champ de métadonnées.
-seo-description: Créez ou modifiez un champ de métadonnées. Omettez la poignée de champ facultative pour créer un champ de métadonnées.
-seo-title: saveMetadataField
 solution: Experience Manager
 title: saveMetadataField
-uuid: ccd84366-732a-4caf-914d-3bc5fe499e7a
 feature: Dynamic Media Classic, SDK/API, Métadonnées
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 14%
+source-wordcount: '225'
+ht-degree: 16%
 
 ---
 
