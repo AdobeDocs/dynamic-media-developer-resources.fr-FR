@@ -1,16 +1,13 @@
 ---
 description: Les catalogues d’images fournissent au serveur des informations sur les images et les données prises en charge, telles que les polices et les profils ICC.
-seo-description: Les catalogues d’images fournissent au serveur des informations sur les images et les données prises en charge, telles que les polices et les profils ICC.
-seo-title: Référence du catalogue d’images
 solution: Experience Manager
 title: Référence du catalogue d’images
-uuid: 39d39f42-cd1b-46f5-859c-f32b6b5a20b3
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '58'
 ht-degree: 1%
 
 ---
