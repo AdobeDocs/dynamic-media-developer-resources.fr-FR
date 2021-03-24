@@ -1,16 +1,13 @@
 ---
 description: URL de la visionneuse de vidéos interactive.
-seo-description: URL de la visionneuse de vidéos interactive.
-seo-title: navigation
 solution: Experience Manager
 title: navigation
-uuid: eecc7458-153c-4f36-b29e-97451f275c0c
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '66'
 ht-degree: 12%
 
 ---
