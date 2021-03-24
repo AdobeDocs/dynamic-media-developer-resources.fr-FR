@@ -1,17 +1,14 @@
 ---
 description: Met en correspondance un fichier avec le contexte de publication dans lequel un fichier est marqué pour publication.
-seo-description: Met en correspondance un fichier avec le contexte de publication dans lequel un fichier est marqué pour publication.
-seo-title: AssetPublishContextes
 solution: Experience Manager
 title: AssetPublishContextes
-uuid: 85914db3-d2ea-4e73-8f8d-6e18d2d44f55
 feature: Dynamic Media Classic, SDK/API, Gestion des ressources
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 6%
+source-wordcount: '63'
+ht-degree: 7%
 
 ---
 
