@@ -1,16 +1,13 @@
 ---
 description: Tâche planifiée pour exécution.
-seo-description: Tâche planifiée pour exécution.
-seo-title: ScheduledJob
 solution: Experience Manager
 title: ScheduledJob
-uuid: cf0db523-2138-48c6-abbd-460a961e7de1
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '263'
 ht-degree: 4%
 
 ---
