@@ -1,16 +1,13 @@
 ---
 description: Cette documentation explique comment administrer le serveur de rendu d’image Dynamic Media.
-seo-description: Cette documentation explique comment administrer le serveur de rendu d’image Dynamic Media.
-seo-title: Présentation de l’administration du serveur
 solution: Experience Manager
 title: Présentation de l’administration du serveur
-uuid: 83aa83b7-bb7a-4bbd-923c-dd69763fe9c9
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
