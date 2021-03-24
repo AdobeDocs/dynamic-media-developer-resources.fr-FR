@@ -1,16 +1,13 @@
 ---
 description: textPs= implémente un algorithme propriétaire d’ajustement de copie qui ajustera automatiquement la ou les tailles de police pour remplir de façon optimale la zone de texte avec du texte, en minimisant l’espace supplémentaire au bas tout en évitant le débordement.
-seo-description: textPs= implémente un algorithme propriétaire d’ajustement de copie qui ajustera automatiquement la ou les tailles de police pour remplir de façon optimale la zone de texte avec du texte, en minimisant l’espace supplémentaire au bas tout en évitant le débordement.
-seo-title: Ajustement de copie
 solution: Experience Manager
 title: Ajustement de copie
-uuid: c3ddbf1f-c724-4436-96ff-2c616dfd355d
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
