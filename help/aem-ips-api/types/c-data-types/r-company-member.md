@@ -1,17 +1,14 @@
 ---
 description: Décrit les différentes sociétés auxquelles un utilisateur appartient.
-seo-description: Décrit les différentes sociétés auxquelles un utilisateur appartient.
-seo-title: CompanyMember
 solution: Experience Manager
 title: CompanyMember
-uuid: fc0ddcdd-ad1e-487c-8ef1-9c09e5dca33d
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 9%
+source-wordcount: '55'
+ht-degree: 10%
 
 ---
 
