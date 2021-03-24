@@ -1,16 +1,13 @@
 ---
 description: L’indicateur défini est une série de points affichés sur les nuances lorsqu’une visionneuse est utilisée sur un périphérique tactile. Les points aident les utilisateurs à parcourir les pages des miniatures lorsque les boutons de défilement ne sont pas disponibles.
-seo-description: L’indicateur défini est une série de points affichés sur les nuances lorsqu’une visionneuse est utilisée sur un périphérique tactile. Les points aident les utilisateurs à parcourir les pages des miniatures lorsque les boutons de défilement ne sont pas disponibles.
-seo-title: Définir l’indicateur
 solution: Experience Manager
 title: Définir l’indicateur
-uuid: 802916a6-cec5-469b-b54c-dd379925a8c2
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Zoom
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '265'
 ht-degree: 1%
 
 ---
