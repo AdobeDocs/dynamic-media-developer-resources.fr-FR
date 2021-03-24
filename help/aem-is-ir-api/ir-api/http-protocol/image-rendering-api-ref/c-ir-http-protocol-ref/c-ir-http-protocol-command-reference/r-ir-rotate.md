@@ -1,17 +1,14 @@
 ---
 description: Angle de rotation du matériau. Définit l'angle de rotation des matériaux.
-seo-description: Angle de rotation du matériau. Définit l'angle de rotation des matériaux.
-seo-title: rotation
 solution: Experience Manager
 title: rotation
-uuid: 497cd8ea-c6a4-45d2-b5e0-0898ac00913d
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 7%
+source-wordcount: '132'
+ht-degree: 6%
 
 ---
 
