@@ -2,11 +2,10 @@
 description: Prise en charge du suivi des analyses
 solution: Experience Manager
 title: Prise en charge du suivi des analyses
-uuid: ae870d2e-2a09-4551-935a-916d0e657653
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Images interactives
 role: Développeur, Professionnel, Ingénieur de données, Architecte de données
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 1%
