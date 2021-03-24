@@ -1,17 +1,14 @@
 ---
 description: Supprime une tâche en cours ou planifiée.
-seo-description: Supprime une tâche en cours ou planifiée.
-seo-title: deleteJob
 solution: Experience Manager
 title: deleteJob
-uuid: c1109cae-a3ca-40db-b641-9a6fc116c964
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 11%
+source-wordcount: '97'
+ht-degree: 12%
 
 ---
 
