@@ -1,11 +1,11 @@
 ---
-description: Les données image sont renvoyées si une requête aboutit et si la requête n’inclut pas de commande req= ou si req= a l’une des valeurs suivantes img, debug
+description: Les données image sont renvoyées si une requête aboutit et si la requête n’inclut pas de commande req= ou si req= possède l’une des valeurs suivantes img, debug.
 solution: Experience Manager
 title: Images
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 1%
