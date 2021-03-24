@@ -1,17 +1,14 @@
 ---
 description: Version de l’image/des métadonnées. Lorsque vous travaillez avec du contenu qui change fréquemment, les serveurs des réseaux de mise en cache tels qu’Akamai, les caches de navigateur et les caches de serveur proxy d’entreprise peuvent stocker des réponses Image Serving qui peuvent être obsolètes pendant des périodes.
-seo-description: Version de l’image/des métadonnées. Lorsque vous travaillez avec du contenu qui change fréquemment, les serveurs des réseaux de mise en cache tels qu’Akamai, les caches de navigateur et les caches de serveur proxy d’entreprise peuvent stocker des réponses Image Serving qui peuvent être obsolètes pendant des périodes.
-seo-title: id
 solution: Experience Manager
 title: id
-uuid: 3d526326-c8fa-4aef-95a9-93ccacf08f73
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 3%
+source-wordcount: '274'
+ht-degree: 4%
 
 ---
 
