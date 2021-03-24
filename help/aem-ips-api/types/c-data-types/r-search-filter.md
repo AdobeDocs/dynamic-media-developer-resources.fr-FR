@@ -1,16 +1,13 @@
 ---
 description: Filtres qui vous aident à définir des critères de recherche pour rendre les recherches plus efficaces.
-seo-description: Filtres qui vous aident à définir des critères de recherche pour rendre les recherches plus efficaces.
-seo-title: SearchFilter
 solution: Experience Manager
 title: SearchFilter
-uuid: 85a434d3-51a5-4e68-901e-70585c0e8b20
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '269'
 ht-degree: 7%
 
 ---
