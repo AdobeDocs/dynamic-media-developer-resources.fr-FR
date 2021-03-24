@@ -1,16 +1,13 @@
 ---
 description: Les paramètres de configuration du rendu d’image sont stockés dans le fichier de configuration du serveur de plateformes.
-seo-description: Les paramètres de configuration du rendu d’image sont stockés dans le fichier de configuration du serveur de plateformes.
-seo-title: Fichiers de configuration
 solution: Experience Manager
 title: Fichiers de configuration
-uuid: ffd1c65b-e084-4a7e-9a15-600d6c5b173a
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
