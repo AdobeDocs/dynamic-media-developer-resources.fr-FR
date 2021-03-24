@@ -1,16 +1,13 @@
 ---
 description: Référence de l’API JavaScript pour la visionneuse de catalogue électronique.
-seo-description: Référence de l’API JavaScript pour la visionneuse de catalogue électronique.
-seo-title: setParam
 solution: Experience Manager
 title: setParam
-uuid: a732461f-1b34-4ebe-9dfd-69175762e574
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '92'
 ht-degree: 2%
 
 ---
