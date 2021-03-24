@@ -1,16 +1,13 @@
 ---
 description: Référence de l’API JavaScript pour la visionneuse de supports variés.
-seo-description: Référence de l’API JavaScript pour la visionneuse de supports variés.
-seo-title: init
 solution: Experience Manager
 title: init
-uuid: f16e3cfe-4b30-4497-bd65-52d2f1edf3d3
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Combiner des visionneuses de supports
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '136'
 ht-degree: 2%
 
 ---
