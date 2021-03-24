@@ -1,16 +1,13 @@
 ---
 description: Les macros de commande fournissent des raccourcis nommés pour les jeux de commandes. Les macros sont définies dans des fichiers de définition de macro distincts, qui peuvent être joints aux catalogues d’images ou au catalogue par défaut.
-seo-description: Les macros de commande fournissent des raccourcis nommés pour les jeux de commandes. Les macros sont définies dans des fichiers de définition de macro distincts, qui peuvent être joints aux catalogues d’images ou au catalogue par défaut.
-seo-title: Macros de commande
 solution: Experience Manager
 title: Macros de commande
-uuid: a6ff5642-6716-484f-b37e-066994362a9b
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '320'
 ht-degree: 1%
 
 ---
