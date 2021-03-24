@@ -1,16 +1,13 @@
 ---
 description: Le contenu affiché par la visionneuse de supports variés est sujet à localisation. Il s’agit des boutons de zoom, des boutons de rotation, des commandes vidéo, du bouton de fermeture plein écran et des boutons de défilement des échantillons.
-seo-description: Le contenu affiché par la visionneuse de supports variés est sujet à localisation. Il s’agit des boutons de zoom, des boutons de rotation, des commandes vidéo, du bouton de fermeture plein écran et des boutons de défilement des échantillons.
-seo-title: Localisation des éléments de l’interface utilisateur
 solution: Experience Manager
 title: Localisation des éléments de l’interface utilisateur
-uuid: 4da776f4-e370-444b-b31c-6b032483861d
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Combiner des visionneuses de supports
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
