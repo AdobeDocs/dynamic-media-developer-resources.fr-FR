@@ -1,16 +1,13 @@
 ---
 description: Référence de l’API JavaScript pour le lecteur vidéo360.
-seo-description: Référence de l’API JavaScript pour le lecteur vidéo360.
-seo-title: setAsset
 solution: Experience Manager
 title: setAsset
-uuid: db1321fb-6d52-4add-8877-0c13eb12e6af
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo 360 VR
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '64'
 ht-degree: 4%
 
 ---
