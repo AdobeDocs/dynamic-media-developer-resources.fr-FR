@@ -1,17 +1,14 @@
 ---
 description: Données de zone cliquable.
-seo-description: Données de zone cliquable.
-seo-title: carte
 solution: Experience Manager
 title: carte
-uuid: 57cb0fcf-5a07-4109-bfd4-ef9aaf794b27
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 8%
+source-wordcount: '216'
+ht-degree: 7%
 
 ---
 
