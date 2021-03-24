@@ -1,16 +1,13 @@
 ---
 description: Référence de l’API JavaScript pour la visionneuse de zoom intégrée.
-seo-description: Référence de l’API JavaScript pour la visionneuse de zoom intégrée.
-seo-title: setLocalizedTexts
 solution: Experience Manager
 title: setLocalizedTexts
-uuid: 3e02e20f-2e81-4b4d-bf2a-cee8998faafb
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Zoom intégré
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '81'
 ht-degree: 2%
 
 ---
