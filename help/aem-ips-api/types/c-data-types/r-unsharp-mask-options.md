@@ -1,16 +1,13 @@
 ---
 description: Paramètres permettant d’améliorer la netteté des images pour les fichiers TIF pyramidaux optimisés.
-seo-description: Paramètres permettant d’améliorer la netteté des images pour les fichiers TIF pyramidaux optimisés.
-seo-title: UnsharpMaskOptions
 solution: Experience Manager
 title: UnsharpMaskOptions
-uuid: 73073de0-41b6-471c-8887-f6b94ed2af90
 feature: Dynamic Media Classic, SDK/API, Gestion des ressources
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '196'
 ht-degree: 12%
 
 ---
