@@ -1,16 +1,13 @@
 ---
 description: Crée un format d’image.
-seo-description: Crée un format d’image.
-seo-title: saveImageFormat
 solution: Experience Manager
 title: saveImageFormat
-uuid: b11ea668-7a82-439c-b16b-909dc86c00a2
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '153'
 ht-degree: 11%
 
 ---
