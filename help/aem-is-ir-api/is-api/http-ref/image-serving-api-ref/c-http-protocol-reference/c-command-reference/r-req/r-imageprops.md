@@ -1,16 +1,13 @@
 ---
 description: Propriétés de l’image source. Renvoie les propriétés sélectionnées du fichier image ou de l’entrée de catalogue spécifiée dans le chemin d’accès de l’URL.
-seo-description: Propriétés de l’image source. Renvoie les propriétés sélectionnées du fichier image ou de l’entrée de catalogue spécifiée dans le chemin d’accès de l’URL.
-seo-title: imageprops
 solution: Experience Manager
 title: imageprops
-uuid: e9bf2780-a520-4fb1-ab4c-40bb799e36a4
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '334'
 ht-degree: 9%
 
 ---
