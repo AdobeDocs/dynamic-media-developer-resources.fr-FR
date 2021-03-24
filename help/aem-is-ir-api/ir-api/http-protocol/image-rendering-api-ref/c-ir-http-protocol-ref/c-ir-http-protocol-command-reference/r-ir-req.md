@@ -1,16 +1,13 @@
 ---
 description: Type de demande. Indique le type de données demandé.
-seo-description: Type de demande. Indique le type de données demandé.
-seo-title: req
 solution: Experience Manager
 title: req
-uuid: 9dd13338-3457-477f-96e7-3ace7266d0ab
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '964'
 ht-degree: 4%
 
 ---
