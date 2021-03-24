@@ -1,16 +1,13 @@
 ---
 description: Après l’installation, la hiérarchie des dossiers dans install_root inclut les fichiers et les dossiers répertoriés ci-dessous.
-seo-description: Après l’installation, la hiérarchie des dossiers dans install_root inclut les fichiers et les dossiers répertoriés ci-dessous.
-seo-title: Table des matières
 solution: Experience Manager
 title: Table des matières
-uuid: 4c92c916-3b6a-4ac8-8d32-121f79da100a
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '349'
 ht-degree: 2%
 
 ---
