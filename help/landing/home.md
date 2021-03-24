@@ -1,14 +1,12 @@
 ---
 title: Ressources pour les développeurs de l'Adobe Dynamic Media
-seo-title: Guides des ressources du développeur Adobe Dynamic Media pour les visionneuses, la diffusion d’images, le rendu d’images et la production d’images
 description: Ressources pour les développeurs de l'Adobe Dynamic Media
-seo-description: Guides des ressources du développeur Adobe Dynamic Media pour les visionneuses, la diffusion d’images, le rendu d’images et la production d’images
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: beed72f55377c5e3885cf69cf56cb0d7a83f788e
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '142'
 ht-degree: 2%
 
 ---
