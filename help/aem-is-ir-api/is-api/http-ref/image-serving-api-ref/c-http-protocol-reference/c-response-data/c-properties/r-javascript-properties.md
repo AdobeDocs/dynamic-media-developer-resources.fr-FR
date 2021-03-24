@@ -1,26 +1,23 @@
 ---
-description: Si javascript est spécifié comme format de réponse, les données de réponse sont formatées pour être analysées en tant que fichier d’inclusion JavaScript.
-seo-description: Si javascript est spécifié comme format de réponse, les données de réponse sont formatées pour être analysées en tant que fichier d’inclusion JavaScript.
-seo-title: Propriétés JavaScript
+description: Si JavaScript™ est spécifié comme format de réponse, les données de réponse sont formatées pour être analysées en tant que fichier d’inclusion JavaScript™.
 solution: Experience Manager
-title: Propriétés JavaScript
-uuid: 832a927e-ecaf-438c-8fbf-a702d58902d8
+title: Propriétés JavaScript™
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
 
 
-# Propriétés JavaScript{#javascript-properties}
+# Propriétés JavaScript™{#javascript-properties}
 
-Si javascript est spécifié comme format de réponse, les données de réponse sont formatées pour être analysées en tant que fichier d’inclusion JavaScript.
+Si JavaScript™ est spécifié comme format de réponse, les données de réponse sont formatées pour être analysées en tant que fichier d’inclusion JavaScript™.
 
-Voici la structure générale d’une réponse de propriétés JavaScript type :
+La structure générale d’une réponse aux propriétés JavaScript™ standard est la suivante :
 
 ```
            
@@ -35,7 +32,7 @@ Voici la structure générale d’une réponse de propriétés JavaScript type :
 
 *`propertyValue`* peut être vide. L’espace blanc est facultatif au début et à la fin de chaque ligne et avant et après le séparateur =. Toutes les valeurs sont entourées de guillemets simples. Les guillemets simples des chaînes sont placés en séquence d’échappement avec deux guillemets simples consécutifs.
 
-Pour analyser une réponse de propriétés JavaScript, tout objet référencé dans la réponse doit être créé avant le chargement du fichier de propriétés. Voici un exemple d’utilisation de `req=props` pour obtenir la taille de l’image de réponse dans JavaScript :
+Pour analyser une réponse de propriétés JavaScript™, tout objet ou objet référencé dans la réponse doit être créé avant le chargement du fichier de propriétés. Voici un exemple d’utilisation de `req=props` pour obtenir la taille de l’image de réponse dans JavaScript™ :
 
 ```
 <script> image = new Object; </script> 
