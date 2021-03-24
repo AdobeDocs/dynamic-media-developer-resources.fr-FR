@@ -1,16 +1,13 @@
 ---
 description: 'Scene7 Image Serving se compose des composants suivants : '
-seo-description: 'Scene7 Image Serving se compose des composants suivants : '
-seo-title: Composants de diffusion d’images
 solution: Experience Manager
 title: Composants de diffusion d’images
-uuid: 84e04972-32ce-4aca-aae6-d5b8bbe761e6
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '213'
 ht-degree: 2%
 
 ---
