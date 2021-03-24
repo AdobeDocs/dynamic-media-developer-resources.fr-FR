@@ -1,16 +1,13 @@
 ---
 description: Le contenu affiché par la visionneuse de catalogue électronique est sujet à localisation, notamment les boutons de zoom, les boutons de modification de page, les boutons de miniature, les boutons plein écran, les boutons de fermeture et les boutons de la barre de défilement.
-seo-description: Le contenu affiché par la visionneuse de catalogue électronique est sujet à localisation, notamment les boutons de zoom, les boutons de modification de page, les boutons de miniature, les boutons plein écran, les boutons de fermeture et les boutons de la barre de défilement.
-seo-title: Localisation des éléments de l’interface utilisateur
 solution: Experience Manager
 title: Localisation des éléments de l’interface utilisateur
-uuid: bd95c7dc-3158-4cca-81d4-f5efd57c0124
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Catalogue électronique
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
