@@ -1,17 +1,14 @@
 ---
 description: URL racine des URL d’image relatives. Indique l’URL racine des URL d’image relatives. L’attribut RootUrl est utilisé à la place de l’attribut RootPath lorsqu’une valeur src= est entourée de { accolades }.
-seo-description: URL racine des URL d’image relatives. Indique l’URL racine des URL d’image relatives. L’attribut RootUrl est utilisé à la place de l’attribut RootPath lorsqu’une valeur src= est entourée de { accolades }.
-seo-title: URL racine *
 solution: Experience Manager
 title: URL racine *
-uuid: aa10f210-4765-4b0e-9ce1-812b00cd8cf5
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 2%
+source-wordcount: '118'
+ht-degree: 3%
 
 ---
 
