@@ -2,11 +2,10 @@
 description: Fermeture
 solution: Experience Manager
 title: Fermeture
-uuid: a0bb6c9a-f8f2-4560-a19e-6ab32868c5ff
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 9%
