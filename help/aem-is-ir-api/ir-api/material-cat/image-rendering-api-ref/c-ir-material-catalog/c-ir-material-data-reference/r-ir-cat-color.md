@@ -1,16 +1,13 @@
 ---
 description: Couleur du matériau. La couleur principale des matériaux de couleur unie et la couleur additive des matériaux de texture colorés.
-seo-description: Couleur du matériau. La couleur principale des matériaux de couleur unie et la couleur additive des matériaux de texture colorés.
-seo-title: Couleur
 solution: Experience Manager
 title: Couleur
-uuid: 5bf6c586-8165-4a2b-97a3-ba88bb9f72df
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '91'
 ht-degree: 9%
 
 ---
