@@ -1,16 +1,13 @@
 ---
 description: Décrit les méthodes d'opérations nouvelles et modifiées pour l'API IPS version 3.8.
-seo-description: Décrit les méthodes d'opérations nouvelles et modifiées pour l'API IPS version 3.8.
-seo-title: Opérations nouvelles et modifiées
 solution: Experience Manager
 title: Opérations nouvelles et modifiées
-uuid: e836c5af-53b8-4bfa-a93a-98750cca9745
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '67'
 ht-degree: 1%
 
 ---
