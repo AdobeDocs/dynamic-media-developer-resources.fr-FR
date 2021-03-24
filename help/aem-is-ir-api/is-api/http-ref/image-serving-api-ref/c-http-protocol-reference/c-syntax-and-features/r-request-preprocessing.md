@@ -1,16 +1,13 @@
 ---
 description: La diffusion d’images fournit un préprocesseur de requête simple basé sur des règles de correspondance et de substitution d’expressions régulières.
-seo-description: La diffusion d’images fournit un préprocesseur de requête simple basé sur des règles de correspondance et de substitution d’expressions régulières.
-seo-title: Prétraitement des demandes
 solution: Experience Manager
 title: Prétraitement des demandes
-uuid: 375bbca2-7a4a-49a9-9577-86e6b2f19990
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
