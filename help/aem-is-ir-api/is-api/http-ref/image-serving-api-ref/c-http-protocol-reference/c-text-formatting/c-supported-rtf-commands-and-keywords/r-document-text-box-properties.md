@@ -1,16 +1,13 @@
 ---
 description: Les propriétés de document suivantes sont prises en charge dans les zones de texte.
-seo-description: Les propriétés de document suivantes sont prises en charge dans les zones de texte.
-seo-title: Propriétés de document (zone de texte)
 solution: Experience Manager
 title: Propriétés de document (zone de texte)
-uuid: 743a773a-83b0-4667-9c67-4cefbfe77bbd
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '217'
 ht-degree: 1%
 
 ---
