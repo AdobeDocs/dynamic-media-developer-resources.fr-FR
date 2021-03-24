@@ -5,7 +5,7 @@ title: RootPath *
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 3%
@@ -19,7 +19,7 @@ Chemin d’accès racine des données source. Valeur de chaîne de texte. Chemin
 
 ## Propriétés {#section-5ff1cf592dd24dfc8cfa470c753ab828}
 
-Chaîne de texte. Doit être vide, un segment de chemin d’accès valide relatif au paramètre de configuration du serveur Image Rendering `ir.resourceRootPaths` ou un chemin d’accès de fichier absolu valide. Ne doit pas inclure de délimiteurs d’élément de chemin de début et de fin.
+Chaîne de texte. Doit être vide, un segment de chemin d’accès valide relatif au paramètre de configuration du serveur de rendu d’images `ir.resourceRootPaths` ou un chemin d’accès de fichier absolu valide. Ne doit pas inclure de délimiteurs d’élément de chemin de début et de fin.
 
 ## Par défaut {#section-4a7f3ab22b0c4090b3896d29bd192b8a}
 
