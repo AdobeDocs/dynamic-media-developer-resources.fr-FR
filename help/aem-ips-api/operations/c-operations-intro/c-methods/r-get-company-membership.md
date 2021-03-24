@@ -1,17 +1,14 @@
 ---
 description: Récupère les adhésions d’un utilisateur dans un tableau de sociétés.
-seo-description: Récupère les adhésions d’un utilisateur dans un tableau de sociétés.
-seo-title: getCompanyMembership
 solution: Experience Manager
 title: getCompanyMembership
-uuid: fb3dfe29-4292-4ab2-8015-36c4930a9c05
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 15%
+source-wordcount: '88'
+ht-degree: 17%
 
 ---
 
