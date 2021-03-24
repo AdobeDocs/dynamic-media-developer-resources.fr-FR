@@ -1,16 +1,13 @@
 ---
 description: Request rule element. Une ou plusieurs règles sont facultatives dans l’élément <ensemble de règles>.
-seo-description: Request rule element. Une ou plusieurs règles sont facultatives dans l’élément <ensemble de règles>.
-seo-title: règle
 solution: Experience Manager
 title: règle
-uuid: 8b8e5b06-a0b7-47e1-942d-0297d08c313b
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '305'
 ht-degree: 5%
 
 ---
