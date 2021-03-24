@@ -1,17 +1,14 @@
 ---
 description: Renvoie des informations sur la structure d’une société (nombre de fichiers, etc.).
-seo-description: Renvoie des informations sur la structure d’une société (nombre de fichiers, etc.).
-seo-title: getDiskUsage
 solution: Experience Manager
 title: getDiskUsage
-uuid: 29190200-8f49-4689-9782-1df665dca1b7
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 12%
+source-wordcount: '105'
+ht-degree: 13%
 
 ---
 
