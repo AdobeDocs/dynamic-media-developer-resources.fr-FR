@@ -1,17 +1,14 @@
 ---
 description: Mode de rééchantillonnage. Sélectionne l’algorithme de rééchantillonnage et/ou d’interpolation à utiliser pour mettre à l’échelle l’image rendue à la taille spécifiée par wid=, hei= ou scl=.
-seo-description: Mode de rééchantillonnage. Sélectionne l’algorithme de rééchantillonnage et/ou d’interpolation à utiliser pour mettre à l’échelle l’image rendue à la taille spécifiée par wid=, hei= ou scl=.
-seo-title: resMode
 solution: Experience Manager
 title: resMode
-uuid: 106da74a-d7da-4998-a719-c4c69ae36f6b
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 7%
+source-wordcount: '184'
+ht-degree: 8%
 
 ---
 
