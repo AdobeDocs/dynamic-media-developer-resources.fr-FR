@@ -1,16 +1,13 @@
 ---
 description: Les fichiers d’attributs du catalogue reconnaissent ces attributs de gestion des couleurs.
-seo-description: Les fichiers d’attributs du catalogue reconnaissent ces attributs de gestion des couleurs.
-seo-title: Attributs de gestion des couleurs
 solution: Experience Manager
 title: Attributs de gestion des couleurs
-uuid: e136b1bd-650e-4f3d-90e8-df1df814ec48
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
