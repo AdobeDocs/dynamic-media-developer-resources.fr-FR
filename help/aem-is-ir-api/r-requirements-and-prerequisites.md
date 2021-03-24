@@ -1,16 +1,13 @@
 ---
 description: Avant d’utiliser Dynamic Media Image Serving, assurez-vous que votre système est conforme à la configuration requise.
-seo-description: Avant d’utiliser Dynamic Media Image Serving, assurez-vous que votre système est conforme à la configuration requise.
-seo-title: Configuration requise et configuration requise
 solution: Experience Manager
 title: Configuration requise et configuration requise
-uuid: 80196574-f5a2-4298-880a-cc36f90b6e21
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
