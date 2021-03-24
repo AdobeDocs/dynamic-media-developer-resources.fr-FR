@@ -1,17 +1,14 @@
 ---
 description: L’outil de création de vignettes (qui fait partie du pack de création d’images Dynamic Media) fournit des mécanismes permettant de contrôler les aspects de bas niveau du moteur de rendu de vignette.
-seo-description: L’outil de création de vignettes (qui fait partie du pack de création d’images Dynamic Media) fournit des mécanismes permettant de contrôler les aspects de bas niveau du moteur de rendu de vignette.
-seo-title: Paramètres de rendu avancés
 solution: Experience Manager
 title: Paramètres de rendu avancés
-uuid: 18e7f3cf-4d30-445c-813c-546a91987b99
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 24%
+source-wordcount: '615'
+ht-degree: 25%
 
 ---
 
@@ -56,7 +53,7 @@ Ces paramètres sont contrôlés de manière interactive dans la création d’i
   <tr> 
    <td colname="col1"> <p>W </p> </td> 
    <td colname="col2"> <p>Montant USM (%). </p> </td> 
-   <td colname="col3"> <p>3 </p> </td> 
+   <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>500 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -134,7 +131,7 @@ Ces paramètres sont contrôlés de manière interactive dans la création d’i
   <tr> 
    <td colname="col1"> <p>P </p> </td> 
    <td colname="col2"> <p>Poisson : Exemples/pixels. </p> </td> 
-   <td colname="col3"> <p>1 </p> </td> 
+   <td colname="col3"> <p>3 </p> </td> 
    <td colname="col4"> <p>4 </p> </td> 
    <td colname="col5"> <p>Valeur par défaut : 1. </p> </td> 
   </tr> 
@@ -142,7 +139,7 @@ Ces paramètres sont contrôlés de manière interactive dans la création d’i
    <td colname="col1"> <p>O </p> </td> 
    <td colname="col2"> <p>Poisson : Utiliser la bascule. </p> </td> 
    <td colname="col3"> <p>01 </p> </td> 
-   <td colname="col4"> <p>3 </p> </td> 
+   <td colname="col4"> <p>1 </p> </td> 
    <td colname="col5"> <p>Valeur par défaut : 1. </p> </td> 
   </tr> 
   <tr> 
