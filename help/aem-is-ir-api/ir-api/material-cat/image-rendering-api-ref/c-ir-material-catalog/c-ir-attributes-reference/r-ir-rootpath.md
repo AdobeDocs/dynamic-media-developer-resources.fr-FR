@@ -1,17 +1,14 @@
 ---
 description: Chemin d’accès racine des données source. Valeur de chaîne de texte. Chemin absolu ou segment de chemin relatif pour le dossier racine pour tous les fichiers de données de vignette, de texture, d’image et ICC référencés par ce catalogue d’images.
-seo-description: Chemin d’accès racine des données source. Valeur de chaîne de texte. Chemin absolu ou segment de chemin relatif pour le dossier racine pour tous les fichiers de données de vignette, de texture, d’image et ICC référencés par ce catalogue d’images.
-seo-title: RootPath *
 solution: Experience Manager
 title: RootPath *
-uuid: a23ea524-8ca4-47c4-83a5-64a174d8767e
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 2%
+source-wordcount: '130'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +19,7 @@ Chemin d’accès racine des données source. Valeur de chaîne de texte. Chemin
 
 ## Propriétés {#section-5ff1cf592dd24dfc8cfa470c753ab828}
 
-Chaîne de texte. Doit être vide, un segment de chemin d’accès valide relatif au paramètre de configuration du serveur de rendu d’images `ir.resourceRootPaths` ou un chemin d’accès de fichier absolu valide. Ne doit pas inclure de délimiteurs d’élément de chemin de début et de fin.
+Chaîne de texte. Doit être vide, un segment de chemin d’accès valide relatif au paramètre de configuration du serveur Image Rendering `ir.resourceRootPaths` ou un chemin d’accès de fichier absolu valide. Ne doit pas inclure de délimiteurs d’élément de chemin de début et de fin.
 
 ## Par défaut {#section-4a7f3ab22b0c4090b3896d29bd192b8a}
 
