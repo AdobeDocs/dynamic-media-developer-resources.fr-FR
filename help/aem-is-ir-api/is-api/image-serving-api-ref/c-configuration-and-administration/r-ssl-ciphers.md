@@ -1,16 +1,13 @@
 ---
 description: La balise Connector du fichier server.xml prend en charge un attribut de chiffrement afin de limiter les chiffrement pouvant être sélectionnés pour une connexion SSL.
-seo-description: La balise Connector du fichier server.xml prend en charge un attribut de chiffrement afin de limiter les chiffrement pouvant être sélectionnés pour une connexion SSL.
-seo-title: Définition de chiffrement SSL
 solution: Experience Manager
 title: Définition de chiffrement SSL
-uuid: 9490fb9a-5abb-4f5e-b660-b7af0a5e4b4d
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
