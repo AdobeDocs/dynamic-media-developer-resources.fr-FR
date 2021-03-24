@@ -1,17 +1,14 @@
 ---
 description: Commande URL de la visionneuse de carrousel.
-seo-description: Commande URL de la visionneuse de carrousel.
-seo-title: preloadimage**
 solution: Experience Manager
 title: preloadimage**
-uuid: e0910559-d6f1-41d4-b1ed-76114c16d929
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Bannières de carrousel
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 11%
+source-wordcount: '38'
+ht-degree: 13%
 
 ---
 
