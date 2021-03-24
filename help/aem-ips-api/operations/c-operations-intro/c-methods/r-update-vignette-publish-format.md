@@ -1,16 +1,13 @@
 ---
 description: Met à jour les paramètres de format de publication de vignette.
-seo-description: Met à jour les paramètres de format de publication de vignette.
-seo-title: updateVignettePublishFormat
 solution: Experience Manager
 title: updateVignettePublishFormat
-uuid: ef8ae609-56e8-4ed6-906b-0668c5873946
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '441'
 ht-degree: 20%
 
 ---
