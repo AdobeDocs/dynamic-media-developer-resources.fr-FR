@@ -1,16 +1,13 @@
 ---
 description: Le rendu d’image fournit un préprocesseur de demande simple basé sur des règles de correspondance et de substitution d’expressions régulières.
-seo-description: Le rendu d’image fournit un préprocesseur de demande simple basé sur des règles de correspondance et de substitution d’expressions régulières.
-seo-title: Prétraitement de la demande *
 solution: Experience Manager
 title: Prétraitement de la demande *
-uuid: ef69ea23-753c-40c8-9edd-eab9c8820c98
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
