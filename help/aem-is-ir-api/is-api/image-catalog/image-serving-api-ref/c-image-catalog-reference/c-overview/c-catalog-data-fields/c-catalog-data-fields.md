@@ -1,16 +1,13 @@
 ---
 description: Cette section décrit les champs de données du catalogue.
-seo-description: Cette section décrit les champs de données du catalogue.
-seo-title: Champs de données du catalogue
 solution: Experience Manager
 title: Champs de données du catalogue
-uuid: adba052d-a88b-4350-a4f8-faf649ca0e60
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '51'
+source-wordcount: '41'
 ht-degree: 0%
 
 ---
