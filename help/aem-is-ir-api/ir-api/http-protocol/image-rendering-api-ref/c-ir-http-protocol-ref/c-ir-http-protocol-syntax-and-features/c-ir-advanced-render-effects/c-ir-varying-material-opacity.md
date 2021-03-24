@@ -1,16 +1,13 @@
 ---
 description: L'opacité variable est prise en charge pour les textures et les couleurs unies appliquées aux objets qui se chevauchent, ainsi que pour les décalcomanies et les matériaux de recouvrement de fenêtre.
-seo-description: L'opacité variable est prise en charge pour les textures et les couleurs unies appliquées aux objets qui se chevauchent, ainsi que pour les décalcomanies et les matériaux de recouvrement de fenêtre.
-seo-title: Opacité variable des matériaux
 solution: Experience Manager
 title: Opacité variable des matériaux
-uuid: 6af07ea8-44ba-4253-8a26-614725af2f46
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
