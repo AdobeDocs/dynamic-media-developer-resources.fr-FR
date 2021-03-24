@@ -1,17 +1,14 @@
 ---
 description: Obtient les tâches planifiées pour exécution.
-seo-description: Obtient les tâches planifiées pour exécution.
-seo-title: getScheduledJobs
 solution: Experience Manager
 title: getScheduledJobs
-uuid: 56b0623b-46d7-4d11-8eea-6543ed364b53
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 19%
+source-wordcount: '82'
+ht-degree: 20%
 
 ---
 
