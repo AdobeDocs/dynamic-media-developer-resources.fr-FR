@@ -1,16 +1,13 @@
 ---
 description: Définit le type d’interaction de zoom.
-seo-description: Définit le type d’interaction de zoom.
-seo-title: zoomMode
 solution: Experience Manager
 title: zoomMode
-uuid: fdbe7ab6-47db-46cf-8a0d-085c66d4b0f8
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Combiner des visionneuses de supports
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '144'
 ht-degree: 2%
 
 ---
