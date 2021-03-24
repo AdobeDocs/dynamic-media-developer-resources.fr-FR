@@ -1,16 +1,13 @@
 ---
 description: Les commandes prises en charge par la diffusion d’images sont répertoriées ci-dessous, regroupées par catégorie brute. Consultez les descriptions de commandes spécifiques pour plus d'informations sur l'utilisation et l'applicabilité.
-seo-description: Les commandes prises en charge par la diffusion d’images sont répertoriées ci-dessous, regroupées par catégorie brute. Consultez les descriptions de commandes spécifiques pour plus d'informations sur l'utilisation et l'applicabilité.
-seo-title: Présentation de la commande de protocole HTTP Image Serving
 solution: Experience Manager
 title: Présentation de la commande de protocole HTTP Image Serving
-uuid: 14207f6a-3573-4f03-988d-249c7c67f2ba
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
