@@ -1,16 +1,13 @@
 ---
 description: Image Serving prend en charge les catalogues d’images avec codage ISO-8859-1 et UTF-8.
-seo-description: Image Serving prend en charge les catalogues d’images avec codage ISO-8859-1 et UTF-8.
-seo-title: Codage des caractères
 solution: Experience Manager
 title: Codage des caractères
-uuid: dfb56411-40d1-4bac-9213-9104ecba2a02
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
