@@ -1,17 +1,14 @@
 ---
 description: Ces commandes s’appliquent quel que soit l’endroit où elles apparaissent dans la requête.
-seo-description: Ces commandes s’appliquent quel que soit l’endroit où elles apparaissent dans la requête.
-seo-title: Commandes de vue
 solution: Experience Manager
 title: Commandes de vue
-uuid: f847a2ed-cd16-4342-9395-8f933ff2da6f
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 3%
+source-wordcount: '89'
+ht-degree: 4%
 
 ---
 
