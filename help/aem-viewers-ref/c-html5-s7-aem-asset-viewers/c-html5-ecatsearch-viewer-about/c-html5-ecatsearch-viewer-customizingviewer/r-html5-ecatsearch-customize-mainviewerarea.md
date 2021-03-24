@@ -1,17 +1,14 @@
 ---
 description: La zone principale de la vue est la zone occupée par l'image catalogue. Il s'adapte généralement à l'écran du périphérique disponible lorsqu'aucune taille n'est spécifiée.
-seo-description: La zone principale de la vue est la zone occupée par l'image catalogue. Il s'adapte généralement à l'écran du périphérique disponible lorsqu'aucune taille n'est spécifiée.
-seo-title: Zone du lecteur principal
 solution: Experience Manager
 title: Zone du lecteur principal
-uuid: 2ad21319-7a0e-44fd-8866-3055e8ff8913
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 1%
+source-wordcount: '127'
+ht-degree: 2%
 
 ---
 
