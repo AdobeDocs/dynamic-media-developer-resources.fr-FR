@@ -1,16 +1,13 @@
 ---
 description: Image de la réponse à une erreur. La diffusion d’images renvoie normalement un état d’erreur avec un message texte en cas d’erreur.
-seo-description: Image de la réponse à une erreur. La diffusion d’images renvoie normalement un état d’erreur avec un message texte en cas d’erreur.
-seo-title: ErrorImage
 solution: Experience Manager
 title: ErrorImage
-uuid: b071c0cd-e7b8-422b-9b23-d93f504d9ce5
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '283'
 ht-degree: 1%
 
 ---
