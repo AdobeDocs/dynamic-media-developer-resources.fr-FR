@@ -1,17 +1,14 @@
 ---
 description: L’outil de partage de courrier électronique est constitué d’un bouton ajouté au panneau de partage Social et de la boîte de dialogue modale qui s’affiche lorsque l’outil est activé. La position du bouton est entièrement gérée par l’outil de partage Social.
-seo-description: L’outil de partage de courrier électronique est constitué d’un bouton ajouté au panneau de partage Social et de la boîte de dialogue modale qui s’affiche lorsque l’outil est activé. La position du bouton est entièrement gérée par l’outil de partage Social.
-seo-title: Partage de courrier électronique
 solution: Experience Manager
 title: Partage de courrier électronique
-uuid: fc60dd7b-651e-458c-9057-693ca1c0afdc
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '3084'
-ht-degree: 1%
+source-wordcount: '3044'
+ht-degree: 2%
 
 ---
 
