@@ -1,17 +1,14 @@
 ---
 description: Les valeurs de couleur pour les attributs color= et bgc= peuvent être spécifiées à l’aide d’une liste de valeurs de composant décimales, séparées par des virgules ou d’une notation hexadécimale, similaire au code HTML.
-seo-description: Les valeurs de couleur pour les attributs color= et bgc= peuvent être spécifiées à l’aide d’une liste de valeurs de composant décimales, séparées par des virgules ou d’une notation hexadécimale, similaire au code HTML.
-seo-title: Valeurs de couleur
 solution: Experience Manager
 title: Valeurs de couleur
-uuid: f8e3a8e7-3e0c-4ee6-8434-caba1f2bea1f
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 9%
+source-wordcount: '127'
+ht-degree: 11%
 
 ---
 
