@@ -1,17 +1,14 @@
 ---
 description: Référence de l’API JavaScript pour la visionneuse de zoom de base
-seo-description: Référence de l’API JavaScript pour la visionneuse de zoom de base
-seo-title: setHandlers
 solution: Experience Manager
 title: setHandlers
-uuid: 775e1561-3709-41e1-9146-dcc85f8a250d
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Zoom
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 2%
+source-wordcount: '99'
+ht-degree: 3%
 
 ---
 
