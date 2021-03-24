@@ -1,17 +1,14 @@
 ---
 description: Préfixe d’URL du serveur de diffusion en flux continu Flash. Préfixe d’URL du serveur de diffusion en flux continu Flash utilisé lors de la génération de réponses f4m à débit multiple avec req=mbrSet.
-seo-description: Préfixe d’URL du serveur de diffusion en flux continu Flash. Préfixe d’URL du serveur de diffusion en flux continu Flash utilisé lors de la génération de réponses f4m à débit multiple avec req=mbrSet.
-seo-title: HttpFlashStreamingContext
 solution: Experience Manager
 title: HttpFlashStreamingContext
-uuid: 7a69e7ac-9a32-4e32-a7bc-cc90c5cbe49c
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 5%
+source-wordcount: '65'
+ht-degree: 7%
 
 ---
 
