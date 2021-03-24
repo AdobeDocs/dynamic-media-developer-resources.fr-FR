@@ -1,16 +1,13 @@
 ---
 description: Référence de l’API JavaScript pour la visionneuse de vidéos.
-seo-description: Référence de l’API JavaScript pour la visionneuse de vidéos.
-seo-title: setLocalizedTexts
 solution: Experience Manager
 title: setLocalizedTexts
-uuid: c87e9f32-59f9-4f7a-a2cb-89813c00524b
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Catalogue électronique
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '79'
 ht-degree: 2%
 
 ---
