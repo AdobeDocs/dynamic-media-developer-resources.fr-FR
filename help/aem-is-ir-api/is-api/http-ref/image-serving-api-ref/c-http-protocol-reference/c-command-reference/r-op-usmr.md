@@ -1,17 +1,14 @@
 ---
 description: Masque flou. L’accentuation masque le calque ou l’image de vue finale, après mise à l’échelle, si layer=comp.
-seo-description: Masque flou. L’accentuation masque le calque ou l’image de vue finale, après mise à l’échelle, si layer=comp.
-seo-title: op_usmR
 solution: Experience Manager
 title: op_usmR
-uuid: 98afd83c-097e-40b4-b0a6-647f70b95fae
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 3%
+source-wordcount: '148'
+ht-degree: 4%
 
 ---
 
