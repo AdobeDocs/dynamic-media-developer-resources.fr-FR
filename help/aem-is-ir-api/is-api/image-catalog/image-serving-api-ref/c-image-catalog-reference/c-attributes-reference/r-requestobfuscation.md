@@ -1,16 +1,13 @@
 ---
 description: Mode d’obscurcissement de la demande. Indique le type d’obscurcissement à appliquer aux requêtes valides.
-seo-description: Mode d’obscurcissement de la demande. Indique le type d’obscurcissement à appliquer aux requêtes valides.
-seo-title: Obscurcissement de requête
 solution: Experience Manager
 title: Obscurcissement de requête
-uuid: 07154e06-c386-45a7-b5ac-60f0aef3c362
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '72'
 ht-degree: 2%
 
 ---
