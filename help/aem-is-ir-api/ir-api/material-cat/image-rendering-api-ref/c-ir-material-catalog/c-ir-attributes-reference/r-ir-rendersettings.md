@@ -1,17 +1,14 @@
 ---
 description: Paramètres de rendu avancés par défaut. Valeur par défaut pour le catalogue RenderSettings.
-seo-description: Paramètres de rendu avancés par défaut. Valeur par défaut pour le catalogue RenderSettings.
-seo-title: RenderSettings
 solution: Experience Manager
 title: RenderSettings
-uuid: ad8884e7-4a4c-489f-881d-1d55eedef034
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 5%
+source-wordcount: '66'
+ht-degree: 6%
 
 ---
 
