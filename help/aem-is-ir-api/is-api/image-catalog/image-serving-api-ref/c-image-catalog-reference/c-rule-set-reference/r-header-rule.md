@@ -1,16 +1,13 @@
 ---
 description: Elément d’en-tête de réponse HTTP. Facultatif dans les éléments <rule>.
-seo-description: Elément d’en-tête de réponse HTTP. Facultatif dans les éléments <rule>.
-seo-title: en-tête
 solution: Experience Manager
 title: en-tête
-uuid: 89ec0f27-fc12-47c2-b9dd-e0ee768587b5
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '145'
 ht-degree: 3%
 
 ---
