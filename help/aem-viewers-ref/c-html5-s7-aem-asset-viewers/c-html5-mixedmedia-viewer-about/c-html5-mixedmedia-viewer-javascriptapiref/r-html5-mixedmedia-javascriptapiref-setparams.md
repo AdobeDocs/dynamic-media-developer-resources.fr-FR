@@ -1,16 +1,13 @@
 ---
 description: Référence de l’API JavaScript pour la visionneuse de supports variés.
-seo-description: Référence de l’API JavaScript pour la visionneuse de supports variés.
-seo-title: setParams
 solution: Experience Manager
 title: setParams
-uuid: 46db0ce3-fd70-4577-92ed-e7d2d15e0dab
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Combiner des visionneuses de supports
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '110'
 ht-degree: 1%
 
 ---
