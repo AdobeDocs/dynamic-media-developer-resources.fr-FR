@@ -1,17 +1,14 @@
 ---
 description: Les valeurs de commande doivent être codées au format http à l'aide des séquences d'échappement %xx, de sorte que les chaînes de valeur n'incluent pas les caractères réservés '=', '&' et '%'.
-seo-description: Les valeurs de commande doivent être codées au format http à l'aide des séquences d'échappement %xx, de sorte que les chaînes de valeur n'incluent pas les caractères réservés '=', '&' et '%'.
-seo-title: Codage HTTP de la diffusion d’images
 solution: Experience Manager
 title: Codage HTTP de la diffusion d’images
-uuid: e7fb368b-060a-439e-95a1-16b94d4796dc
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 20%
+source-wordcount: '235'
+ht-degree: 22%
 
 ---
 
@@ -148,7 +145,7 @@ Les caractères réservés doivent également être codés.
   <tr> 
    <td colname="col1"> <p>: </p> </td> 
    <td colname="col2"> <p>3A </p> </td> 
-   <td colname="col3"> <p>78 </p> </td> 
+   <td colname="col3"> <p>58 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>; </p> </td> 
@@ -158,7 +155,7 @@ Les caractères réservés doivent également être codés.
   <tr> 
    <td colname="col1"> <p>= </p> </td> 
    <td colname="col2"> <p>3D </p> </td> 
-   <td colname="col3"> <p>61 </p> </td> 
+   <td colname="col3"> <p>81 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>? </p> </td> 
