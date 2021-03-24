@@ -1,16 +1,13 @@
 ---
 description: Créez un modèle de taille fixe avec une image d’arrière-plan statique, une image variable alignée avec l’arrière-plan au centre gauche et mise à l’échelle pour ne pas dépasser 80 % de la largeur et de la hauteur de l’arrière-plan, et un calque de texte avec du texte vertical centré sur le bord droit de la zone de travail.
-seo-description: Créez un modèle de taille fixe avec une image d’arrière-plan statique, une image variable alignée avec l’arrière-plan au centre gauche et mise à l’échelle pour ne pas dépasser 80 % de la largeur et de la hauteur de l’arrière-plan, et un calque de texte avec du texte vertical centré sur le bord droit de la zone de travail.
-seo-title: Exemple A
 solution: Experience Manager
 title: Exemple A
-uuid: c250dbc8-1e32-46b8-ba55-c1fb0ae62695
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
