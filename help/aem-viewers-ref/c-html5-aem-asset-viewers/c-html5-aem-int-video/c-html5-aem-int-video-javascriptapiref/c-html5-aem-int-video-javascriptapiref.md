@@ -1,16 +1,13 @@
 ---
 description: La classe principale de la visionneuse d’images interactive est InteractiveVideoViewer. Elle est déclarée dans l’espace de nommage s7viewers. Cette API JavaScript couvre le constructeur, les méthodes et les rappels de cette classe particulière.
-seo-description: La classe principale de la visionneuse d’images interactive est InteractiveVideoViewer. Elle est déclarée dans l’espace de nommage s7viewers. Cette API JavaScript couvre le constructeur, les méthodes et les rappels de cette classe particulière.
-seo-title: Référence de l’API JavaScript pour la visionneuse de vidéos interactive
 solution: Experience Manager
 title: Référence de l’API JavaScript pour la visionneuse de vidéos interactive
-uuid: a389d884-1e16-4ba8-86e4-f00956be0465
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
