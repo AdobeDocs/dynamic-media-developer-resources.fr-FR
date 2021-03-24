@@ -1,16 +1,13 @@
 ---
 description: Couleur de couche. Indique la couleur de premier plan et l’opacité des calques de couleur et d’effet unis, ainsi que la couleur de remplissage de la zone de texte pour les calques de texte.
-seo-description: Couleur de couche. Indique la couleur de premier plan et l’opacité des calques de couleur et d’effet unis, ainsi que la couleur de remplissage de la zone de texte pour les calques de texte.
-seo-title: couleur
 solution: Experience Manager
 title: couleur
-uuid: 46b93609-02c0-47bf-97c0-e7b2e416d292
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '200'
 ht-degree: 3%
 
 ---
