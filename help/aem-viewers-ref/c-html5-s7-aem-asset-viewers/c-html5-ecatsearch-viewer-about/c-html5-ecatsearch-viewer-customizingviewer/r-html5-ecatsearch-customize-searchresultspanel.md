@@ -1,16 +1,13 @@
 ---
 description: Le panneau des résultats de la recherche se compose de la zone d’entrée de la recherche en haut et de la zone principale dans laquelle s’affichent les messages d’information ou les résultats de la recherche.
-seo-description: Le panneau des résultats de la recherche se compose de la zone d’entrée de la recherche en haut et de la zone principale dans laquelle s’affichent les messages d’information ou les résultats de la recherche.
-seo-title: Panneau Résultats de la recherche
 solution: Experience Manager
 title: Panneau Résultats de la recherche
-uuid: 43d8e003-79f7-4e41-98d7-b362ab7180ea
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '935'
 ht-degree: 1%
 
 ---
