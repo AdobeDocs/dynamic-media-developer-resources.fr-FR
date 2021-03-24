@@ -1,16 +1,13 @@
 ---
 description: Le rendu d’image applique des matériaux aux groupes ou aux objets des vignettes.
-seo-description: Le rendu d’image applique des matériaux aux groupes ou aux objets des vignettes.
-seo-title: Matériaux
 solution: Experience Manager
 title: Matériaux
-uuid: 82284e25-cfe0-4cf8-b410-b49196cc721c
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
