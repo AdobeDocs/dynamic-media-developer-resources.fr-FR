@@ -1,16 +1,13 @@
 ---
 description: La position du bouton est entièrement gérée par le menu Favoris.
-seo-description: La position du bouton est entièrement gérée par le menu Favoris.
-seo-title: Bouton vue tous les favoris
 solution: Experience Manager
 title: Bouton vue tous les favoris
-uuid: 8824deb5-3bdc-4681-85ac-7f86a76cf3b5
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
