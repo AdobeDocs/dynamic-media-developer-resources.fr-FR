@@ -1,16 +1,13 @@
 ---
 description: Utilisez ces paramètres de serveur pour les caches de serveur.
-seo-description: Utilisez ces paramètres de serveur pour les caches de serveur.
-seo-title: Cache serveur
 solution: Experience Manager
 title: Cache serveur
-uuid: 73745363-2011-453f-b7a0-96de4b44186d
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
