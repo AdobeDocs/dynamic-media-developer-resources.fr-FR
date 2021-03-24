@@ -1,17 +1,14 @@
 ---
 description: Définit les champs de métadonnées de police.
-seo-description: Définit les champs de métadonnées de police.
-seo-title: batchSetFontFields
 solution: Experience Manager
 title: batchSetFontFields
-uuid: 0209865e-32b3-4bea-a508-05771a0365e1
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 13%
+source-wordcount: '132'
+ht-degree: 14%
 
 ---
 
