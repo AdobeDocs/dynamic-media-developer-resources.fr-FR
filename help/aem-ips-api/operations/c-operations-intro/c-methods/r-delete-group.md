@@ -1,16 +1,13 @@
 ---
 description: Supprime un groupe.
-seo-description: Supprime un groupe.
-seo-title: deleteGroup
 solution: Experience Manager
 title: deleteGroup
-uuid: 04934b16-b7ef-4657-9f63-c91fcc741ca4
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '93'
 ht-degree: 12%
 
 ---
