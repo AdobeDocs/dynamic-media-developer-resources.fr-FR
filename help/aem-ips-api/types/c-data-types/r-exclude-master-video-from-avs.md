@@ -1,16 +1,13 @@
 ---
 description: Exclut la vidéo Principale de la visionneuse de vidéos adaptative.
-seo-description: Exclut la vidéo Principale de la visionneuse de vidéos adaptative.
-seo-title: ExclureMasterVideoFromAVS
 title: ExclureMasterVideoFromAVS
-uuid: 883c6ab0-314d-4257-82bc-0447031e68a4
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 11%
+source-wordcount: '49'
+ht-degree: 14%
 
 ---
 
