@@ -1,16 +1,13 @@
 ---
 description: Coordonnées en pixels. Utilisé pour spécifier les coordonnées de l’image, telles que les décalages d’image ou les paramètres de recadrage, sous la forme d’un décalage de pixels par rapport au coin supérieur gauche d’une image ou d’un rectangle de calque.
-seo-description: Coordonnées en pixels. Utilisé pour spécifier les coordonnées de l’image, telles que les décalages d’image ou les paramètres de recadrage, sous la forme d’un décalage de pixels par rapport au coin supérieur gauche d’une image ou d’un rectangle de calque.
-seo-title: coord
 solution: Experience Manager
 title: coord
-uuid: dd49f12b-5a87-4157-9e44-4beb66f83770
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
