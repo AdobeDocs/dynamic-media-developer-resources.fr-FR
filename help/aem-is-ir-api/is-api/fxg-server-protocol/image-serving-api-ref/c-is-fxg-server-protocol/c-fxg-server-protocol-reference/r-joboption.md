@@ -1,17 +1,14 @@
 ---
 description: Appliquez les options de tâche PDF. Un fichier d’options de travail ou un paramètre prédéfini PDF est un fichier généré par Illustrator dans la boîte de dialogue Options Enregistrer en tant que PDF ou des paramètres prédéfinis PDF dans InDesign.
-seo-description: Appliquez les options de tâche PDF. Un fichier d’options de travail ou un paramètre prédéfini PDF est un fichier généré par Illustrator dans la boîte de dialogue Options Enregistrer en tant que PDF ou des paramètres prédéfinis PDF dans InDesign.
-seo-title: joboption
 solution: Experience Manager
 title: joboption
-uuid: 7288cf29-850f-4121-8425-5f995daac22d
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 40%
+source-wordcount: '236'
+ht-degree: 46%
 
 ---
 
