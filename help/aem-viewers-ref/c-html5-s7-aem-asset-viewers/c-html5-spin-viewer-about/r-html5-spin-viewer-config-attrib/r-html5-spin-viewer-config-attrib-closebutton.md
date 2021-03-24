@@ -2,11 +2,10 @@
 description: close
 solution: Experience Manager
 title: close
-uuid: 2095fe87-94cf-4773-8901-5582b9ed5d67
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Visionneuses à 360°
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '33'
 ht-degree: 15%
