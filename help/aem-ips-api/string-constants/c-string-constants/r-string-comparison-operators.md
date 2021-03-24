@@ -1,17 +1,14 @@
 ---
 description: Utilisé par SystemFieldCondition/op et MetadataCondition/op.
-seo-description: Utilisé par SystemFieldCondition/op et MetadataCondition/op.
-seo-title: Opérateurs de comparaison de chaînes
 solution: Experience Manager
 title: Opérateurs de comparaison de chaînes
-uuid: 980c3225-cf1d-43b5-8d99-83af8f0c82dd
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 5%
+source-wordcount: '29'
+ht-degree: 6%
 
 ---
 
