@@ -1,16 +1,13 @@
 ---
 description: Propriétés du catalogue d’images. Renvoie les attributs communs du catalogue d’images spécifiés dans le chemin d’accès à la demande.
-seo-description: Propriétés du catalogue d’images. Renvoie les attributs communs du catalogue d’images spécifiés dans le chemin d’accès à la demande.
-seo-title: catalogprops
 solution: Experience Manager
 title: catalogprops
-uuid: 09252d39-8604-4785-bcdc-ad229a691035
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '221'
 ht-degree: 9%
 
 ---
@@ -29,7 +26,7 @@ Propriétés du catalogue d’images. Renvoie les attributs communs du catalogue
  </tr> 
 </table>
 
-Omettez l&#39;ID de catalogue pour récupérer les propriétés de catalogue par défaut ( [!DNL default.ini]). La réponse HTTP peut être placée en mémoire cache via le TTL basé sur `attribute::NonImgExpiration`.
+Pour récupérer les propriétés de catalogue par défaut ( [!DNL default.ini]), omettez l’ID de catalogue. La réponse HTTP peut être placée en mémoire cache via le TTL basé sur `attribute::NonImgExpiration`.
 
 Les requêtes qui prennent en charge le format de réponse JSONP vous permettent de spécifier le nom du gestionnaire de rappel JS en utilisant la syntaxe étendue du paramètre `req=` :
 
