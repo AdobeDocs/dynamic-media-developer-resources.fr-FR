@@ -1,17 +1,14 @@
 ---
 description: Mots-clés de plateforme de métadonnées extensibles d’une ressource.
-seo-description: Mots-clés de plateforme de métadonnées extensibles d’une ressource.
-seo-title: XmpKeywords
 solution: Experience Manager
 title: XmpKeywords
-uuid: 220d285c-2275-4ed4-b606-e832e89aa916
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 16%
+source-wordcount: '74'
+ht-degree: 18%
 
 ---
 
