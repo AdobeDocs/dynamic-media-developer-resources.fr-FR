@@ -1,16 +1,13 @@
 ---
 description: Les données de propriété sont renvoyées en réponse à plusieurs types req=.
-seo-description: Les données de propriété sont renvoyées en réponse à plusieurs types req=.
-seo-title: Propriétés
 solution: Experience Manager
 title: Propriétés
-uuid: 22c271f7-e9dc-4f3e-af7b-1efe89df983e
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '56'
 ht-degree: 7%
 
 ---
