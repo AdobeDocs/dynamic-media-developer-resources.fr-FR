@@ -1,16 +1,13 @@
 ---
 description: Les macros de commande fournissent des raccourcis nommés pour les jeux de commandes.
-seo-description: Les macros de commande fournissent des raccourcis nommés pour les jeux de commandes.
-seo-title: Macros de commande
 solution: Experience Manager
 title: Macros de commande
-uuid: f90d5132-aa5b-424f-a123-838723ed891a
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -22,7 +19,7 @@ Les macros de commande fournissent des raccourcis nommés pour les jeux de comma
 
 Les macros sont définies dans des fichiers de définition de macro distincts, qui peuvent être joints aux catalogues d’images ou au catalogue par défaut.
 
-Les macros peuvent être invoquées n’importe où dans une requête après &quot;?&quot;, ainsi que n’importe où dans un champ `catalog::Modifier`. Les macros ne peuvent représenter qu’une ou plusieurs commandes complètes de traitement d’images, elles doivent donc être entourées de séparateurs &quot;&amp;&quot; (sauf lorsqu’elles se trouvent au début ou à la fin de la chaîne de modificateur).
+Les macros peuvent être invoquées n&#39;importe où dans une requête après &quot;?&quot;, ainsi que n&#39;importe où dans un champ `catalog::Modifier`. Les macros ne peuvent représenter qu’une ou plusieurs commandes complètes de traitement d’images, elles doivent donc être entourées de séparateurs &quot;&amp;&quot; (sauf lorsqu’elles se trouvent au début ou à la fin de la chaîne de modificateur).
 
 Les appels de macros sont remplacés par leurs chaînes de substitution au début de l’analyse. Les commandes des macros remplacent les mêmes commandes dans la requête si elles surviennent avant l’appel de macro dans la requête. Ceci est différent de `catalog::Modifier`, où les commandes de la chaîne de requête remplacent toujours les commandes de la chaîne `catalog::Modifier`, quelle que soit la position de la requête.
 
