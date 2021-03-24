@@ -1,16 +1,13 @@
 ---
 description: Transformation de la perspective. Appliquez une transformation de perspective à l’image source du calque pour remplir la région spécifiée par le quadrilatère. D’autres zones du calque restent transparentes.
-seo-description: Transformation de la perspective. Appliquez une transformation de perspective à l’image source du calque pour remplir la région spécifiée par le quadrilatère. D’autres zones du calque restent transparentes.
-seo-title: perspective
 solution: Experience Manager
 title: perspective
-uuid: b22d7b49-db08-48df-80bc-5b7237aea475
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '458'
 ht-degree: 2%
 
 ---
