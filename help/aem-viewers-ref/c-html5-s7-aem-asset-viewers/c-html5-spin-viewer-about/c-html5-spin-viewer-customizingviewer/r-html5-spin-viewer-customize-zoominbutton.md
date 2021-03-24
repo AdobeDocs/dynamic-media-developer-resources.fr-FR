@@ -1,16 +1,13 @@
 ---
 description: Cliquez ou appuyez sur ce bouton pour effectuer un zoom avant sur une image de la vue principale. Ce bouton ne s'affiche pas sur les téléphones portables pour enregistrer l'espace sur écran. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
-seo-description: Cliquez ou appuyez sur ce bouton pour effectuer un zoom avant sur une image de la vue principale. Ce bouton ne s'affiche pas sur les téléphones portables pour enregistrer l'espace sur écran. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
-seo-title: Bouton Zoom avant
 solution: Experience Manager
 title: Bouton Zoom avant
-uuid: 86e5806b-a711-440c-95b6-a35420667182
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Visionneuses à 360°
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '257'
 ht-degree: 2%
 
 ---
