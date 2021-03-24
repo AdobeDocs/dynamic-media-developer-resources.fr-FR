@@ -1,16 +1,13 @@
 ---
 description: Modèle de composition. Permet de spécifier un modèle de composition situé dans un catalogue autre que le catalogue principal.
-seo-description: Modèle de composition. Permet de spécifier un modèle de composition situé dans un catalogue autre que le catalogue principal.
-seo-title: modèle
 solution: Experience Manager
 title: modèle
-uuid: 59b37d60-1d0c-4d0b-a5a0-98d8bf9e9064
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '172'
 ht-degree: 6%
 
 ---
@@ -18,7 +15,7 @@ ht-degree: 6%
 
 # modèle{#template}
 
-Modèle de composition. Permet de spécifier un modèle de composition situé dans un catalogue autre que le catalogue principal.
+Modèle de composition. Permet de spécifier un modèle de composition dans un catalogue autre que le catalogue principal.
 
 `template= *`modèle`*`
 
@@ -31,7 +28,7 @@ Modèle de composition. Permet de spécifier un modèle de composition situé da
 
 *`template`* doit être une entrée de catalogue d’images avec le corps du modèle contenu dans  `catalog::Modifier`.
 
-Lorsque `template=` est présent, l’objet spécifié dans le chemin de requête n’est pas appliqué en tant que source pour la couche 0, mais peut être référencé en tant que `src=` ou `mask=` n’importe où dans le modèle en utilisant la variable de chemin prédéfinie `$object$` comme valeur `src=`. `catalog::Modifier` de l’objet spécifié dans le chemin d’accès à la requête n’est appliqué qu’en relation avec la substitution de l’objet  `$object$` dans le modèle, alors qu’ `catalog::PostModifier` il est toujours appliqué.
+Lorsque `template=` est présent, l’objet spécifié dans le chemin de requête n’est pas appliqué en tant que source du calque 0. Cependant, il peut être référencé comme `src=` ou `mask=` n’importe où dans le modèle en utilisant la variable de chemin prédéfinie `$object$` comme valeur `src=`. `catalog::Modifier` de l’objet spécifié dans le chemin d’accès à la requête n’est appliqué qu’avec la substitution de l’objet  `$object$` dans le modèle, alors qu’ `catalog::PostModifier` il est toujours appliqué.
 
 La couche 0 est définie dans le corps du modèle et peut être une image, une couleur unie, du texte ou un calque de requête imbriqué ou incorporé.
 
