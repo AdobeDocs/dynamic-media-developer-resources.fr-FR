@@ -1,16 +1,13 @@
 ---
 description: Permet d’effacer les fichiers de la corbeille IPS.
-seo-description: Permet d’effacer les fichiers de la corbeille IPS.
-seo-title: emptyAssetsFromTrash
 solution: Experience Manager
 title: emptyAssetsFromTrash
-uuid: de11a7b0-cd4b-4717-8596-d39afbcf7e9c
 feature: Dynamic Media Classic, SDK/API, Gestion des ressources
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '253'
 ht-degree: 7%
 
 ---
