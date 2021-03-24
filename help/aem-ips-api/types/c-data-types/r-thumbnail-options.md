@@ -1,16 +1,13 @@
 ---
 description: Type facultatif qui vous permet de choisir une image vidéo particulière à utiliser comme image miniature.
-seo-description: Type facultatif qui vous permet de choisir une image vidéo particulière à utiliser comme image miniature.
-seo-title: ThumbnailOptions
 solution: Experience Manager
 title: ThumbnailOptions
-uuid: 50b2ecee-8396-4323-83e1-1f5060bec6c4
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '102'
 ht-degree: 5%
 
 ---
