@@ -1,16 +1,13 @@
 ---
 description: Interactive Image Viewer est une visionneuse qui affiche une seule image non zoomable avec des zones réactives cliquables. L’objectif de ce lecteur est de mettre en oeuvre une expérience de "bannière modifiable". En d’autres termes, l’utilisateur peut sélectionner une zone réactive sur l’image de la bannière et être redirigé vers une Vue rapide ou une page des détails du produit sur votre site Web. Il est conçu pour fonctionner sur les ordinateurs de bureau et les périphériques mobiles.
-seo-description: Interactive Image Viewer est une visionneuse qui affiche une seule image non zoomable avec des zones réactives cliquables. L’objectif de ce lecteur est de mettre en oeuvre une expérience de "bannière modifiable". En d’autres termes, l’utilisateur peut sélectionner une zone réactive sur l’image de la bannière et être redirigé vers une Vue rapide ou une page des détails du produit sur votre site Web. Il est conçu pour fonctionner sur les ordinateurs de bureau et les périphériques mobiles.
-seo-title: Image interactive
 solution: Experience Manager
 title: Image interactive
-uuid: 18b7a0c3-c047-4ce1-8920-1d8ebc1ab60e
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Images interactives
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '1817'
+source-wordcount: '1752'
 ht-degree: 0%
 
 ---
