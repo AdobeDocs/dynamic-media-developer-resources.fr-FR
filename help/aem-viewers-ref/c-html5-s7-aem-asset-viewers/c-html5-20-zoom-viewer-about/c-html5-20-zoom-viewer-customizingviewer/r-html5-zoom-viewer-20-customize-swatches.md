@@ -1,16 +1,13 @@
 ---
 description: Les échantillons sont constitués d’une rangée d’images miniatures avec des boutons de défilement facultatifs à gauche et à droite. Les boutons de défilement ne sont visibles sur le bureau que si toutes les miniatures ne peuvent pas tenir dans la largeur du conteneur. Sur les périphériques mobiles ou si les miniatures peuvent s’ajuster à la largeur du conteneur, les boutons de défilement ne s’affichent pas.
-seo-description: Les échantillons sont constitués d’une rangée d’images miniatures avec des boutons de défilement facultatifs à gauche et à droite. Les boutons de défilement ne sont visibles sur le bureau que si toutes les miniatures ne peuvent pas tenir dans la largeur du conteneur. Sur les périphériques mobiles ou si les miniatures peuvent s’ajuster à la largeur du conteneur, les boutons de défilement ne s’affichent pas.
-seo-title: Echantillons
 solution: Experience Manager
 title: Echantillons
-uuid: d44e775d-5253-4990-98a4-84ff50db09b9
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Zoom
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '458'
 ht-degree: 3%
 
 ---
