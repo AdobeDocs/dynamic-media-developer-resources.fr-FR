@@ -1,16 +1,13 @@
 ---
 description: Attribut de configuration pour la visionneuse de vidéos.
-seo-description: Attribut de configuration pour la visionneuse de vidéos.
-seo-title: VideoPlayer.ssl
 solution: Experience Manager
 title: VideoPlayer.ssl
-uuid: 969da9ea-c97c-4fa8-9207-21d6302609e5
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '184'
 ht-degree: 2%
 
 ---
