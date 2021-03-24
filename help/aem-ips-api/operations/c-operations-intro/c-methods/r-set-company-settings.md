@@ -1,17 +1,14 @@
 ---
 description: Définit différentes valeurs de configuration spécifiques à une société.
-seo-description: Définit différentes valeurs de configuration spécifiques à une société.
-seo-title: setCompanySettings
 solution: Experience Manager
 title: setCompanySettings
-uuid: 5908082f-6743-4444-ba73-757ad4664890
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 11%
+source-wordcount: '158'
+ht-degree: 12%
 
 ---
 
