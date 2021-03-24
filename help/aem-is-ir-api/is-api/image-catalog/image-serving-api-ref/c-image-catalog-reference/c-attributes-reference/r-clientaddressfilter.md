@@ -1,17 +1,14 @@
 ---
 description: Filtre d’adresse IP du client. Permet la spécification d’une ou de plusieurs adresses IP ou plages d’adresses.
-seo-description: Filtre d’adresse IP du client. Permet la spécification d’une ou de plusieurs adresses IP ou plages d’adresses.
-seo-title: ClientAddressFilter
 solution: Experience Manager
 title: ClientAddressFilter
-uuid: 6a557795-0caf-4b5f-974e-fb4c1481a83c
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 3%
+source-wordcount: '136'
+ht-degree: 4%
 
 ---
 
