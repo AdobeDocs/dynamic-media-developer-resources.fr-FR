@@ -1,16 +1,13 @@
 ---
 description: Conversion au format du navigateur. Indique si la fonctionnalité de conversion du format de navigateur est activée ou désactivée.
-seo-description: Conversion au format du navigateur. Indique si la fonctionnalité de conversion du format de navigateur est activée ou désactivée.
-seo-title: bfc
 solution: Experience Manager
 title: bfc
-uuid: 2dd8b350-9006-4f0b-b710-0a331357daf3
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '85'
 ht-degree: 4%
 
 ---
