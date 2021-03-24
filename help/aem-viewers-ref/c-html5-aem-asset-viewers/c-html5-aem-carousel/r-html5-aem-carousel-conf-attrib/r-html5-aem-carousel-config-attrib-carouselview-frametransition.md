@@ -2,11 +2,10 @@
 description: CarouselView.frametransition
 solution: Experience Manager
 title: CarouselView.frametransition
-uuid: 9539ede1-08fb-4bfc-8a5a-870c7d84de7f
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Bannières de carrousel
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 4%
