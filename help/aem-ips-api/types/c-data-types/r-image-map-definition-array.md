@@ -1,17 +1,14 @@
 ---
 description: Tableau de définitions de zone cliquable.
-seo-description: Tableau de définitions de zone cliquable.
-seo-title: ImageMapDefinitionArray
 solution: Experience Manager
 title: ImageMapDefinitionArray
-uuid: 3d828b12-68df-4180-b39b-d261c3ac9539
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 15%
+source-wordcount: '32'
+ht-degree: 18%
 
 ---
 
