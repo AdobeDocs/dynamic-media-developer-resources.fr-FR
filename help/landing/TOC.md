@@ -1,6 +1,6 @@
 ---
 title: Ressources pour les développeurs de l'Adobe Dynamic Media
-cloud: experience-cloud
+cloud: Experience Cloud
 product: Adobe Dynamic Media Developer Resources
 solution: Dynamic Media Classic
 audience: end-user
@@ -10,7 +10,7 @@ user-guide-description: Accédez aux ressources du développeur de Dynamic Media
 feature-set: Experience Manager Assets
 index: y
 translation-type: tm+mt
-source-git-commit: 5e8dba839c61104ecc680ea14bf2ac1100480306
+source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 88%
