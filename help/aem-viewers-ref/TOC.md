@@ -1,10 +1,10 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 user-guide-title: Guide de référence des visionneuses Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: Personnalisez les visionneuses Dynamic Media pour les périphériques de bureau et les périphériques tactiles. Incluez des images et des vidéos interactives, des carrousels, des visionneuses à 360°, etc.
 translation-type: tm+mt
-source-git-commit: 0f6386196be7cf0ad45371d6017e2e71b9048b14
+source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
 workflow-type: tm+mt
 source-wordcount: '1913'
 ht-degree: 4%
