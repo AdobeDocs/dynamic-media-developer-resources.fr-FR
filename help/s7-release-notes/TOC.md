@@ -2,7 +2,7 @@
 title: Notes de mise à jour de l’Adobe Dynamic Media Classic
 description: '"Notes de mise à jour pour l''Adobe Dynamic Media Classic, qui fait partie de la solution Adobe Experience Manager de la Adobe Experience Cloud."'
 author: Rick Brough
-cloud: experience-cloud
+cloud: Experience Cloud
 product: Dynamic Media Classic
 archtype: end-user
 feature-set: Experience Manager Assets
@@ -10,7 +10,7 @@ feature: Dynamic Media Classic
 role: Développeur, Professionnel
 user-guide-description: Notes de mise à jour les plus récentes pour l'Adobe Dynamic Media Classic, qui fait partie de la solution Adobe Experience Manager de Adobe Experience Cloud.
 translation-type: tm+mt
-source-git-commit: 0f6386196be7cf0ad45371d6017e2e71b9048b14
+source-git-commit: 04e99bef471c5839ff6d28b1ae42f5ffed73c029
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
