@@ -4,9 +4,9 @@ user-guide-title: Guide de référence des visionneuses Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: Personnalisez les visionneuses Dynamic Media pour les périphériques de bureau et les périphériques tactiles. Incluez des images et des vidéos interactives, des carrousels, des visionneuses à 360°, etc.
 translation-type: tm+mt
-source-git-commit: 8207cba7e75c6bff878ef7f11f74b19bb88f1d61
+source-git-commit: 5e310a76c215136da6bd2afe16d3d3c889fa3ab8
 workflow-type: tm+mt
-source-wordcount: '1916'
+source-wordcount: '1913'
 ht-degree: 4%
 
 ---
@@ -22,19 +22,18 @@ ht-degree: 4%
    + [Notes de mise à jour des visionneuses (5.16.1)](c-release-notes/c-rn-04-06-21.md)
    + [Notes de mise à jour des visionneuses (5.15.3)](c-release-notes/c-rn-01-13-21.md)
    + Archiver {#archive}
-      + [Archivage des notes de mise à jour](c-release-notes/c-archive/c-archive.md)
-         + [Notes de mise à jour des visionneuses (5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
-         + [Notes de mise à jour des visionneuses (5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
-         + [Notes de mise à jour des visionneuses (5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
-         + [Notes de mise à jour des visionneuses (5.10.1)](c-release-notes/c-archive/c-rn-07-17-18.md)
-         + [Notes de mise à jour des visionneuses (5.8.2)](c-release-notes/c-archive/c-rn-09-18-17.md)
-         + [Notes de mise à jour des visionneuses (5.5.2)](c-release-notes/c-archive/c-rn-10-13-16.md)
-         + [Notes de mise à jour des visionneuses (5.4.2)](c-release-notes/c-archive/c-rn-05-03-16.md)
-         + [Notes de mise à jour des visionneuses (5.2.3)](c-release-notes/c-archive/c-rn-05-20-15.md)
-         + [Notes de mise à jour des visionneuses (5.2.2)](c-release-notes/c-archive/c-rn-04-30-15.md)
-         + [Notes de mise à jour des visionneuses (5.1.1)](c-release-notes/c-archive/c-rn-09-19-14.md)
-         + [Notes de mise à jour des visionneuses (5.0.1)](c-release-notes/c-archive/c-rn-04-29-14.md)
-         + [Notes de mise à jour des visionneuses (4.9.2)](c-release-notes/c-archive/c-rn-09-18-13.md)
+      + [Notes de mise à jour des visionneuses (5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
+      + [Notes de mise à jour des visionneuses (5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
+      + [Notes de mise à jour des visionneuses (5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
+      + [Notes de mise à jour des visionneuses (5.10.1)](c-release-notes/c-archive/c-rn-07-17-18.md)
+      + [Notes de mise à jour des visionneuses (5.8.2)](c-release-notes/c-archive/c-rn-09-18-17.md)
+      + [Notes de mise à jour des visionneuses (5.5.2)](c-release-notes/c-archive/c-rn-10-13-16.md)
+      + [Notes de mise à jour des visionneuses (5.4.2)](c-release-notes/c-archive/c-rn-05-03-16.md)
+      + [Notes de mise à jour des visionneuses (5.2.3)](c-release-notes/c-archive/c-rn-05-20-15.md)
+      + [Notes de mise à jour des visionneuses (5.2.2)](c-release-notes/c-archive/c-rn-04-30-15.md)
+      + [Notes de mise à jour des visionneuses (5.1.1)](c-release-notes/c-archive/c-rn-09-19-14.md)
+      + [Notes de mise à jour des visionneuses (5.0.1)](c-release-notes/c-archive/c-rn-04-29-14.md)
+      + [Notes de mise à jour des visionneuses (4.9.2)](c-release-notes/c-archive/c-rn-09-18-13.md)
 + [Notes de compatibilité](c-compatibility-notes.md)
 + [Accessibilité et navigation du clavier](c-keyboard-accessibility.md)
 + [Didacticiel sur le SDK du lecteur de contenu](c-tutorial.md)
