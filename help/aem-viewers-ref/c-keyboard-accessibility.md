@@ -5,13 +5,12 @@ title: Accessibilité et navigation du clavier
 feature: Dynamic Media Classic, Visionneuses, SDK/API
 role: Développeur, Professionnel
 translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+source-git-commit: 8207cba7e75c6bff878ef7f11f74b19bb88f1d61
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
-
 
 # Accessibilité du clavier et navigation{#keyboard-accessibility-and-navigation}
 
@@ -25,9 +24,9 @@ Toutes les fonctionnalités exposées dans l’interface de la visionneuse de zo
 
 Un utilisateur final peut naviguer entre les éléments de l’interface utilisateur de la visionneuse à l’aide des touches **[!UICONTROL Tabulation]** et **[!UICONTROL Maj+Tabulation]**. L’utilisation de l’onglet **[!UICONTROL Tab]** permet d’activer la cible d’action sur l’élément d’interface utilisateur suivant dans l’ordre de tabulation ; l’utilisation de **[!UICONTROL Maj+Tab]** rétablit la cible d’action sur l’élément d’interface utilisateur précédent. La traversée de la cible d’action suit l’emplacement de l’élément d’interface utilisateur naturel à l’écran et se déplace de gauche à droite, puis de haut en bas.
 
-Selon les paramètres du système d’exploitation et du navigateur Web, l’élément d’interface utilisateur qui a le focus d’entrée peut recevoir une indication de focus visuel. Par exemple, l’indicateur visuel peut être une bordure mince rendue autour de l’élément d’interface utilisateur.
+En fonction des paramètres du système d’exploitation et du navigateur Web, l’élément d’interface utilisateur qui a la cible d’action reçoit une indication de la cible d’action visuelle. Par exemple, l’indicateur visuel peut être une bordure mince rendue autour de l’élément d’interface utilisateur.
 
-Il est possible de désactiver ou de personnaliser cette mise en surbrillance dans la page CSS de la visionneuse. Dans la table des matières de ce système d’aide, sous un nom de visionneuse spécifique (par exemple, Zoom de base ou Vidéo interactive), cliquez sur **Personnalisation *nom de la visionneuse*** >** Mise en surbrillance de la mise au point **.
+Il est possible de désactiver ou de personnaliser cette mise en surbrillance dans la page CSS de la visionneuse. Dans la table des matières de ce système d’aide, sous un nom de visionneuse spécifique (par exemple, Zoom de base ou Vidéo interactive), cliquez sur **Personnalisation de *nom de la visionneuse*** >** Mise en surbrillance de la mise au point **.
 
 Les touches prises en charge par les éléments de l’interface utilisateur du lecteur individuel sont, dans la plupart des cas, évidentes et faciles à découvrir.
 
@@ -96,7 +95,7 @@ Les touches prises en charge par les éléments de l’interface utilisateur du 
    <td colname="col2"> <p>Touche fléchée gauche ou droite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Carrousel, sélection de zones réactives et activation de zones réactives </p> </td> 
+   <td colname="col1"> <p>Carrousel, sélection des zones réactives et activation des zones réactives </p> </td> 
    <td colname="col2"> <p>Sélection de zones réactives : touche fléchée vers le haut, le bas, la gauche ou la droite </p> <p>Activation de zone réactive : Appuyez sur la touche Espace ou Entrée. </p> </td> 
   </tr> 
   <tr> 
@@ -133,4 +132,3 @@ Les touches prises en charge par les éléments de l’interface utilisateur du 
   </tr> 
  </tbody> 
 </table>
-
