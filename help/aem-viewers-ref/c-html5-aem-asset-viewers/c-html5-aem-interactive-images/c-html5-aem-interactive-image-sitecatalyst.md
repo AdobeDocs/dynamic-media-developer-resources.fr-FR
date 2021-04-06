@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Prise en charge du suivi des analyses
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Images interactives
 role: Développeur, Professionnel, Ingénieur de données, Architecte de données
+exl-id: 17e8937f-e328-46a4-b7d9-1fd39ab2e8bd
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 1%
 
 ---
-
 
 # Prise en charge du suivi des analyses{#support-for-analytics-tracking}
 
@@ -63,4 +63,3 @@ Le lecteur effectue le suivi des événements d’utilisateur SDK suivants :
   </tr> 
  </tbody> 
 </table>
-
