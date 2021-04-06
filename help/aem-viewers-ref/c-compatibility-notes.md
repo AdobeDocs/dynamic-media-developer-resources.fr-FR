@@ -4,8 +4,9 @@ solution: Experience Manager
 title: Notes de compatibilité
 feature: Dynamic Media Classic, Visionneuses, SDK/API
 role: Développeur, Professionnel
+exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
 translation-type: tm+mt
-source-git-commit: 8207cba7e75c6bff878ef7f11f74b19bb88f1d61
+source-git-commit: 62234233bb1a5bcbd0eac5d281b42ed785c0c169
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 0%
