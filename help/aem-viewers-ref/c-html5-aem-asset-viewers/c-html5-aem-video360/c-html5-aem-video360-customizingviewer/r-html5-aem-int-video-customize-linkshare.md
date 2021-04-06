@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Partage de liens
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo 360 VR
 role: Développeur, Professionnel
+exl-id: 9eb2ef38-9b86-4c60-90a2-6609cb3fcc39
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 2%
 
 ---
-
 
 # Partage de lien{#link-share}
 
@@ -713,4 +713,3 @@ Le lien de partage lui-même est contrôlé par le sélecteur de classe CSS suiv
     width: 450px; 
 }
 ```
-
