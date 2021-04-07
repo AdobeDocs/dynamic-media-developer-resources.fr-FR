@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Opérations nouvelles et modifiées
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
+exl-id: 8f4fe698-afe8-4ce6-904d-42fa67dee4dd
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 1%
 
 ---
-
 
 # Opérations : Nouveau et modifié{#operations-new-and-modified}
 
@@ -38,4 +38,3 @@ Syntaxe
 **getJobLogs**
 
 * Le paramètre facultatif `userHandle` vous permet de récupérer les journaux de tâches envoyés par un utilisateur spécifique.
-
