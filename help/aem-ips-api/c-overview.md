@@ -4,14 +4,14 @@ solution: Experience Manager
 title: A propos de l’API du système de production d’images
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
+exl-id: c03e415f-57eb-4706-a17c-68d8469fba91
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 1%
 
 ---
-
 
 # A propos de l’API Image Production System{#about-scene-image-production-system-api}
 
