@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Localisation des éléments de l’interface utilisateur
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
 role: Développeur, Professionnel
+exl-id: d293c385-d355-4d9e-9fe9-8ef35fef60bf
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 0%
 
 ---
-
 
 # Localisation des éléments de l’interface utilisateur{#localization-of-user-interface-elements}
 
@@ -171,4 +171,3 @@ Les SYMBOLES suivants sont pris en charge :
   </tr> 
  </tbody> 
 </table>
-
