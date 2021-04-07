@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Vidéo interactive
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
 role: Développeur, Professionnel
+exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '2234'
 ht-degree: 0%
 
 ---
-
 
 # Vidéo interactive{#interactive-video}
 
@@ -387,4 +387,3 @@ interactiveVideoViewer.init();
 </body> 
 </html>
 ```
-
