@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Mise en évidence
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo 360 VR
 role: Développeur, Professionnel
+exl-id: 05ac1a70-c20d-4ddf-942c-181f101cb1d8
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 1%
 
 ---
-
 
 # Mise en évidence de la mise au point{#focus-highlight}
 
@@ -49,4 +49,3 @@ Exemple : pour désactiver la mise en surbrillance par défaut du navigateur pou
  outline: none; 
 }
 ```
-
