@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Image de préchargement
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Bannières de carrousel
 role: Développeur, Professionnel
+exl-id: 8caf156f-d641-44e9-94f9-5ba3245061a3
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
 
 ---
-
 
 # Précharger l’image{#preload-image}
 
