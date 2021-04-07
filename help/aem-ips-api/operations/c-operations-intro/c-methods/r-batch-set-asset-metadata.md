@@ -4,14 +4,14 @@ solution: Experience Manager
 title: batchSetAssetMetadata
 feature: Dynamic Media Classic, SDK/API, Metadata.Asset Management
 role: Développeur, Administrateur
+exl-id: 7393fa4f-71fb-48a5-a7f3-91eec82c88c1
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 12%
 
 ---
-
 
 # batchSetAssetMetadata{#batchsetassetmetadata}
 
@@ -92,4 +92,3 @@ Syntaxe
    <errorCount>0</errorCount>
 </batchSetAssetMetadataReturn>
 ```
-
