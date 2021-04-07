@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Vue de zoom
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Images interactives
 role: Développeur, Professionnel
+exl-id: e83d53a1-bee9-4e4d-8295-a3a350f3ff9c
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 1%
 
 ---
-
 
 # Vue de zoom{#zoom-view}
 
@@ -49,4 +49,3 @@ Exemple - pour rendre la vue principale transparente.
  background-color: transparent; 
 }
 ```
-
