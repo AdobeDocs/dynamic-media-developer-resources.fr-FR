@@ -7,7 +7,7 @@ feature: Dynamic Media Classic, Visionneuses, SDK/API
 role: Développeur, Professionnel
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
 translation-type: tm+mt
-source-git-commit: 62234233bb1a5bcbd0eac5d281b42ed785c0c169
+source-git-commit: dc1bbbcd109ecbeae1f3a04e7ca5371581f0f743
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 1%
@@ -73,23 +73,24 @@ Configuration requise pour les visionneuses HTML5 Dynamic Media.
 
 >[!NOTE]
 >
->Depuis le 30 septembre 2018, les visionneuses Dynamic Media Classic Adobe ne prennent plus en charge Transport Layer Security 1.0 (TLS 1.0). Par conséquent, Dynamic Media Classic ne prend plus en charge les lecteurs sur les navigateurs/plateformes suivants qui prennent en charge TLS 1.0. (Adobe recommande d’utiliser TLS 1.2 ou version ultérieure.)
+>Depuis le 30 septembre 2018, les visionneuses Dynamic Media Classic Adobe ne prennent plus en charge Transport Layer Security 1.0 (TLS 1.0). Par conséquent, Dynamic Media Classic ne prend plus en charge les lecteurs sur les navigateurs/plates-formes suivants qui prennent en charge TLS 1.0 (l’Adobe recommande d’utiliser TLS 1.2 ou version ultérieure) :
+>
+> * Android™ 2.3.7
+> * Android™ 4.0.4
+> * Android™ 4.1.1
+> * Android™ 4.2.2
+> * Android™ 4.3
+> * Internet Explorer 7 sous Windows Vista®
+> * Internet Explorer 8 sous Windows® XP
+> * Internet Explorer 8-10 sous Windows® 7
+> * Internet Explorer 10 sous Windows® Phone 8.0
+> * Safari 5.1.9 sous Apple OS X 10.6.8
+> * Safari 6.0.4 sur Apple OS X 10.8.4
+> * Java™ 6u45
+> * Java™ 7u25
+> * OpenSSL 0.9.8y
+> * Baidu janvier 2015
 
-* Android™ 2.3.7
-* Android™ 4.0.4
-* Android™ 4.1.1
-* Android™ 4.2.2
-* Android™ 4.3
-* Internet Explorer 7 sous Windows Vista®
-* Internet Explorer 8 sous Windows® XP
-* Internet Explorer 8-10 sous Windows® 7
-* Internet Explorer 10 sous Windows® Phone 8.0
-* Safari 5.1.9 sous Apple OS X 10.6.8
-* Safari 6.0.4 sur Apple OS X 10.8.4
-* Java™ 6u45
-* Java™ 7u25
-* OpenSSL 0.9.8y
-* Baidu janvier 2015
 
 >[!NOTE]
 >
