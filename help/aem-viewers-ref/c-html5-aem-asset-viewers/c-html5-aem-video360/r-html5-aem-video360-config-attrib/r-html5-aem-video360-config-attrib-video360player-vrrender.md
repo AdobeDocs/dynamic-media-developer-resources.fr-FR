@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Video360Player.vrrender
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo 360 VR
 role: Développeur, Professionnel
+exl-id: bdc9b086-b9cc-4df0-b044-0ab2b694d01a
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '42'
 ht-degree: 21%
 
 ---
-
 
 # Video360Player.vrrender{#video-player-vrrender}
 
