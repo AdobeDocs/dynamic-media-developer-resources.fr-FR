@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Carrousel
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Bannières de carrousel
 role: Développeur, Professionnel
+exl-id: d506dc6e-8929-4f7f-a205-1683e77681f1
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '1921'
 ht-degree: 0%
 
 ---
-
 
 # Carrousel{#carousel}
 
@@ -361,4 +361,3 @@ carouselViewer.init();
 </body> 
 </html>
 ```
-
