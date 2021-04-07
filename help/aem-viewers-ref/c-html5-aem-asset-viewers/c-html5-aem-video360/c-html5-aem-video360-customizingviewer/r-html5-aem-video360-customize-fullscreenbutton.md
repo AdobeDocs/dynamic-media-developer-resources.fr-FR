@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Bouton Plein écran
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo 360 VR
 role: Développeur, Professionnel
+exl-id: 0cb2b1bd-154e-41d8-bd9f-69a1cfc72902
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 2%
 
 ---
-
 
 # Bouton Plein écran{#full-screen-button}
 
@@ -106,4 +106,3 @@ background-image:url(images/exitFullBtn_down.png);
 background-image:url(images/exitFullBtn_disabled.png); } 
 }
 ```
-
