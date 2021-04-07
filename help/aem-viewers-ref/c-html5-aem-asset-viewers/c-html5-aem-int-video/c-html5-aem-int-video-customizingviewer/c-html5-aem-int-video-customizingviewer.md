@@ -5,14 +5,14 @@ solution: Experience Manager
 title: Personnalisation de la visionneuse de vidéos interactive
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
 role: Développeur, Professionnel
+exl-id: c428c3e6-81be-4708-b064-f9d794183209
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '1399'
 ht-degree: 0%
 
 ---
-
 
 # Personnalisation de la visionneuse de vidéos interactives{#customizing-interactive-video-viewer}
 
@@ -24,7 +24,7 @@ Les fichiers CSS par défaut se trouvent à l’emplacement suivant :
 
 `<s7_viewers_root>/html5/InteractiveVideoViewer_dark.css`
 
-Le lecteur est fourni avec deux fichiers CSS prêts à l’emploi, pour les modèles de couleurs &quot;clair&quot; et &quot;foncé&quot;. La version &quot;sombre&quot; est utilisée par défaut, mais il est facile de passer à la version &quot;claire&quot; en utilisant la page CSS standard suivante :
+Le lecteur est fourni avec deux fichiers CSS prêts à l’emploi, pour les modèles de couleurs &quot;clair&quot; et &quot;foncé&quot;. La version &quot;sombre&quot; est utilisée par défaut, mais il est facile de passer à la version &quot;légère&quot; en utilisant la page CSS standard suivante :
 
 `<s7_viewers_root>/html5/InteractiveVideoViewer_light.css`
 
