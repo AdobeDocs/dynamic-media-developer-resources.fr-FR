@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Bouton Lecture/Pause
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
 role: Développeur, Professionnel
+exl-id: bbf34037-b571-4dc9-be52-070aef014c31
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 2%
 
 ---
-
 
 # Bouton Lecture/Pause{#play-pause-button}
 
@@ -122,4 +122,3 @@ background-image:url(images/replayBtn_down.png);
 background-image:url(images/replayBtn_disabled.png); 
 }
 ```
-
