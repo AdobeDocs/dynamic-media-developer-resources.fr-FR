@@ -4,8 +4,9 @@ solution: Experience Manager
 title: Constantes de chaîne nouvelles et modifiées
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Administrateur
+exl-id: c675db4c-0027-4ecc-851d-91fb2a896aed
 translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: e7c747c44d27ed1769ab872d962a814d80c0b345
 workflow-type: tm+mt
 source-wordcount: '42'
 ht-degree: 2%
