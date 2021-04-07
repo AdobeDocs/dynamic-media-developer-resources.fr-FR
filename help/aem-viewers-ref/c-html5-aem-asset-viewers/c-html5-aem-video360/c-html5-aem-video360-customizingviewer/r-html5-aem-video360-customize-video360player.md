@@ -4,14 +4,14 @@ solution: Experience Manager
 title: Lecteur vidéo360
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo 360 VR
 role: Développeur, Professionnel
+exl-id: 54ccf872-2d24-4d3f-9808-6d0e2558f5a5
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 1%
 
 ---
-
 
 # Lecteur vidéo360{#video-player}
 
@@ -102,4 +102,3 @@ Exemple : pour configurer une animation de mise en mémoire tampon d’une large
  background-image: url(images/sdk/busyicon.gif); 
 }
 ```
-
