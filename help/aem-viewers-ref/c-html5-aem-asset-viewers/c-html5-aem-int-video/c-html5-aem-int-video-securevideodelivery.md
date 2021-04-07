@@ -4,14 +4,14 @@ solution: Experience Manager
 title: DIFFUSION vidéo HTTPS
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
 role: Développeur, Professionnel
+exl-id: 68d37b5d-5015-4a98-84b8-8911ace327ed
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 0%
 
 ---
-
 
 # DIFFUSION vidéo HTTPS{#https-video-delivery}
 
@@ -79,4 +79,3 @@ Selon la méthode de publication de la vidéo Dynamic Media que vous utilisez en
    ```
 
    Voir aussi [Incorporation de la vidéo sur une page Web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).
-
