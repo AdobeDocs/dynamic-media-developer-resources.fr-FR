@@ -4,14 +4,14 @@ solution: Experience Manager
 title: vidéo
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo 360 VR
 role: Développeur, Professionnel
+exl-id: 704097af-f108-42f7-92e7-5dd75916a045
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '45'
 ht-degree: 13%
 
 ---
-
 
 # video{#video}
 
@@ -41,4 +41,3 @@ Aucune
 ```
 video=https://s7d9.scene7.com/is/content/Viewers/space_station_360-AVS
 ```
-
