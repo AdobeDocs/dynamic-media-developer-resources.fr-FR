@@ -4,14 +4,14 @@ solution: Experience Manager
 title: ZoomView.fmt
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Images interactives
 role: Développeur, Professionnel
+exl-id: 6a023abb-71c7-4db5-8d05-bf0a4b1fc3a0
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 4%
 
 ---
-
 
 # ZoomView.fmt{#zoomview-fmt}
 
