@@ -4,14 +4,14 @@ solution: Experience Manager
 title: resMode
 feature: Dynamic Media Classic, SDK/API
 role: Développeur, Professionnel
+exl-id: 63c1c028-0378-4a38-8018-e358491786d8
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b08d1f5b0aa512be4a6e6a4d45d8d4dec15ca1db
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 12%
+source-wordcount: '271'
+ht-degree: 2%
 
 ---
-
 
 # resMode{#resmode}
 
@@ -23,15 +23,15 @@ Mode de rééchantillonnage. Choisit l’algorithme de rééchantillonnage et/ou
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> biline  </span> </p> </td> 
-   <td colname="col2"> <p>Sélectionne l’interpolation bilinéaire standard. Il s’agit de la méthode de ré-échantillonnage la plus rapide ; certains artefacts de crénelage peuvent être visibles. </p> </td> 
+   <td colname="col2"> <p>Sélectionne l’interpolation bilinéaire standard. méthode de rééchantillonnage la plus rapide ; certains artefacts de crénelage sont visibles. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bicub  </span> </p> </td> 
-   <td colname="col2"> <p>Sélectionne l’interpolation bicubique. Plus intensif en UC que l’interpolation bi-linéaire, mais produira des images plus nettes avec des artefacts de crénelage moins visibles. </p> </td> 
+   <td colname="col2"> <p>Sélectionne l’interpolation bicubique. Plus intensif en UC que l’interpolation bi-linéaire, mais produit des images plus nettes avec des artefacts de crénelage moins visibles. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> sharp2  </span> </p> </td> 
-   <td colname="col2"> <p>Sélectionne une fonction Lanczos Window modifiée comme algorithme d'interpolation. Peut produire des images légèrement plus nettes que la méthode bicubique en sollicitant toutefois davantage le processeur. <span class="codeph"> sharp  </span> a été remplacé par  <span class="codeph"> sharp2  </span>, qui a une probabilité moindre de causer des artefacts de crénelage (Moiré). </p> </td> 
+   <td colname="col2"> <p>Sélectionne une fonction Lanczos Window modifiée comme algorithme d'interpolation. Peut produire des résultats légèrement plus nets que le bicubique à un coût CPU plus élevé. <span class="codeph"> sharp  </span> a été remplacé par  <span class="codeph"> sharp2  </span>, qui a une probabilité moindre de causer des artefacts de crénelage (Moiré). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> évêque  </span> </p> </td> 
@@ -39,6 +39,12 @@ Mode de rééchantillonnage. Choisit l’algorithme de rééchantillonnage et/ou
   </tr> 
  </tbody> 
 </table>
+
+>[!IMPORTANT]
+>
+>Pour conserver les proportions d’une image lorsque vous utilisez à la fois `resMode=bisharp` et `fit=stretch`, il est recommandé d’utiliser soit le paramètre de largeur, soit le paramètre de hauteur. Si les deux paramètres doivent être définis, vous pouvez les encapsuler dans un autre calque, comme indiqué dans l’exemple suivant :
+>
+>`/is/image/is/image/companyname?layer=0&src=is(companyname/imagename?wid=30&hei=30&fit=stretch)&resmode=bisharp`
 
 ## Propriétés {#section-a171bacf4ddf43c782e46b86a16d443e}
 
@@ -50,7 +56,7 @@ Attribut de requête. S’applique à toutes les opérations de mise à l’éch
 
 ## Exemple {#section-ee8c3e5a2e3845fe81de5073a8ab7efe}
 
-Récupérez un rendu de meilleure qualité d’une image superposée stockée dans un catalogue d’images. L’image peut inclure du texte. Nous prévoyons de continuer le traitement dans une application de retouche d&#39;images, et donc de demander un canal alpha avec l&#39;image.
+Récupérez un rendu de meilleure qualité d’une image superposée stockée dans un catalogue d’images. L’image peut contenir du texte. L&#39;image sera traitée plus avant dans une application de retouche d&#39;images, et par conséquent demandera un canal alpha avec l&#39;image.
 
 ` http:// *`server`*/myLayeredImage?fmt=tif-alpha,,lzw&resMode=sharp2&wid=1800`
 
