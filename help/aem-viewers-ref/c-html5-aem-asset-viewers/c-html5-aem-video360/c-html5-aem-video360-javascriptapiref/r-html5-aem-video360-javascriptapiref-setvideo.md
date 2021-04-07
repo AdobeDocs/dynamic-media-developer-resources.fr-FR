@@ -4,14 +4,14 @@ solution: Experience Manager
 title: setVideo
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo 360 VR
 role: Développeur, Professionnel
+exl-id: e1894d96-6f37-4e34-a709-5b0121bd0696
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 4%
 
 ---
-
 
 # setVideo{#setvideo}
 
@@ -43,4 +43,3 @@ Aucune
 ```
 <instance>.setVideo("https://s7d9.scene7.com/is/content/Viewers/space_station_360")
 ```
-
