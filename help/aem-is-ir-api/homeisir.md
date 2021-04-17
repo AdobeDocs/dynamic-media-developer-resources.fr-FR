@@ -2,15 +2,14 @@
 description: Accueil de l’API de diffusion d’images et de rendu d’images de Dynamic Media Adobe
 solution: Experience Manager
 title: Accueil de l’API de diffusion d’images et de rendu d’images de Dynamic Media Adobe
-topic: Dynamic Media Image Serving - API de rendu d’image
+exl-id: a21b5a40-88d1-4e20-8770-fb35037bd7fd
 translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+source-git-commit: 3598b0247406d942b0f58b1c74aae4956590f5f8
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '65'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Dynamic Media Image Serving and Image Rendering API Home{#adobe-scene-image-serving-and-image-rendering-api-home}
 
