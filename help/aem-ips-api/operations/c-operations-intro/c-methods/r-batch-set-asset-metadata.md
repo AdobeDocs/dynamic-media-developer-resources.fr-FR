@@ -2,14 +2,14 @@
 description: Définit les métadonnées des fichiers en mode batch.
 solution: Experience Manager
 title: batchSetAssetMetadata
-feature: Dynamic Media Classic, SDK/API, Metadata.Asset Management
-role: Développeur, Administrateur
+feature: Dynamic Media Classic, SDK/API, Métadonnées, Gestion des ressources
+role: Developer,Administrator
 exl-id: 7393fa4f-71fb-48a5-a7f3-91eec82c88c1
 translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: f464a7adcb8035a5bdebf1a6c9b647ba04535431
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 12%
+source-wordcount: '153'
+ht-degree: 13%
 
 ---
 
