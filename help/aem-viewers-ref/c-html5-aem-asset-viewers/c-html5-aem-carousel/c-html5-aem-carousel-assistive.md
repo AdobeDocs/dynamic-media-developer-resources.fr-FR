@@ -3,12 +3,12 @@ description: Tous les composants du lecteur prennent en charge les rôles et att
 solution: Experience Manager
 title: Assistance technique
 feature: Dynamic Media Classic, Visionneuses, SDK/API, Bannières de carrousel, Accessibilité
-role: Développeur, Professionnel
+role: Developer,Business Practitioner
 exl-id: 3ed943e8-4695-4561-9be0-1b6ed30294f8
 translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: f464a7adcb8035a5bdebf1a6c9b647ba04535431
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
