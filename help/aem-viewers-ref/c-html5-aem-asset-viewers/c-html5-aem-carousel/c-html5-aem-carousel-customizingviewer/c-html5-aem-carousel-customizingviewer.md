@@ -3,8 +3,8 @@ description: La personnalisation visuelle et la personnalisation de comportement
 keywords: réactif
 solution: Experience Manager
 title: Personnalisation de la visionneuse de carrousel
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Bannières de carrousel
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: f392d830-5c75-45dd-bab8-29a38218790d
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

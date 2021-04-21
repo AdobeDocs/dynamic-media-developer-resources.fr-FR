@@ -2,8 +2,8 @@
 description: Obtient les détails d'un journal des tâches de société.
 solution: Experience Manager
 title: getJobLogDetails
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: La diffusion d’images prend en charge les fichiers SVG (Scalable Vector Graphics) en tant que données source. La conformité avec SVG 1.1 est requise.
 solution: Experience Manager
 title: Prise en charge de SVG
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

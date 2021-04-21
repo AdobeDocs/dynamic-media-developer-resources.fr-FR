@@ -2,8 +2,8 @@
 description: La vue principale est constituée de l’image agrandie.
 solution: Experience Manager
 title: Vue de zoom
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Zoom
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

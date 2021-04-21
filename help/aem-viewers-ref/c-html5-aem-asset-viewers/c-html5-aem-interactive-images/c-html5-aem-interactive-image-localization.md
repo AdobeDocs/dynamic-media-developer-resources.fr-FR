@@ -1,8 +1,8 @@
 ---
 description: Le contenu affiché par la visionneuse d’images interactive est sujet à localisation. Cela inclut des info-bulles d’éléments d’interface utilisateur et un message d’information affiché par la vue de zoom déroulant au chargement.
 title: Localisation des éléments de l’interface utilisateur
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Images interactives
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: 19749c74-5c31-4dcf-ab07-0e7f10176a86
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

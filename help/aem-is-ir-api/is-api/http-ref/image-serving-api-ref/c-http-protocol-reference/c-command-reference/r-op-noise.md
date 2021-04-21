@@ -2,8 +2,8 @@
 description: Ajoutez du bruit. Ajoute le bruit aléatoire aux données de l’image de premier plan ou au premier plan d’un calque d’effet.
 solution: Experience Manager
 title: op_noise
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

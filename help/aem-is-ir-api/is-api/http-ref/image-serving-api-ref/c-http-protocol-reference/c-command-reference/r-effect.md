@@ -2,8 +2,8 @@
 description: Sélectionnez Calque d’effets. Sélectionne un calque d’effets et début un nouveau segment de calque dans la chaîne de requête, qui est associé au calque actif.
 solution: Experience Manager
 title: effet
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

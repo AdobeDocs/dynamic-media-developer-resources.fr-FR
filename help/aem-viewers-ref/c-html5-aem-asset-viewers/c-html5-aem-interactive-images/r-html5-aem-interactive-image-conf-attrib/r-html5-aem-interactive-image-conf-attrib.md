@@ -2,8 +2,8 @@
 description: Documentation sur les attributs de configuration pour Interactive Image Viewer.
 solution: Experience Manager
 title: Référence de commande - Attributs de configuration
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Images interactives
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: 53c4b304-3b45-4ff0-91aa-a14f39ab1e94
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

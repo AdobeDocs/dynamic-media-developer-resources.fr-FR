@@ -2,8 +2,8 @@
 description: Couleur d’arrière-plan par défaut des miniatures. Valeur RVB utilisée pour remplir la zone d’une image miniature de sortie qui ne contient pas de données d’image réelles.
 solution: Experience Manager
 title: CouleurBkgPasse
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

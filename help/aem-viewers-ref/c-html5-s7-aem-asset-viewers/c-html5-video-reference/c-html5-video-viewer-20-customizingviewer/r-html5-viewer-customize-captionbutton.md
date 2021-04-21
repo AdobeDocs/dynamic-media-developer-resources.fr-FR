@@ -2,8 +2,8 @@
 description: Ce bouton permet d’activer et de désactiver l’affichage de la légende fermée. Elle n’est pas visible si le paramètre de légende n’est pas spécifié.
 solution: Experience Manager
 title: Bouton Légende
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

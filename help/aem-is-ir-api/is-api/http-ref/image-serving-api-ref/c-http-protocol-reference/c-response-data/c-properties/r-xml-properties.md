@@ -2,8 +2,8 @@
 description: Si xml est spécifié comme format de réponse, les données de réponse sont formatées en document XML qui peut être analysé par n’importe quel analyseur XML standard.
 solution: Experience Manager
 title: Propriétés XML
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

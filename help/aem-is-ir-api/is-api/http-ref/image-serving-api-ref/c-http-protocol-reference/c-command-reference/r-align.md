@@ -2,8 +2,8 @@
 description: Aligner l’image avec la Vue. Aligne l’image composite (éventuellement après la mise à l’échelle, si scl= est également spécifié) dans le rectangle de la vue défini par wid= et hei=.
 solution: Experience Manager
 title: aligner
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

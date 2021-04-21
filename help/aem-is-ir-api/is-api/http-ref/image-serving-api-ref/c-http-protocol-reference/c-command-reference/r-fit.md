@@ -2,8 +2,8 @@
 description: Mode d’ajustement de l’image de réponse. Indique le mode de calcul du facteur d’échelle, qui est utilisé pour mettre à l’échelle l’image composite avec l’image de réponse lorsque la taille de la réponse est spécifiée avec wid= et hei= et scl= n’est pas présente.
 solution: Experience Manager
 title: ajuster
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

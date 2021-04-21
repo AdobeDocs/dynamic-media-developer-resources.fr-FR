@@ -2,8 +2,8 @@
 description: La rugosité de surface. Indique la brillance relative de la surface du matériau. Utilisé en association avec le type de catalogue et la brillance du catalogue pour contrôler les effets de rendu de la réflexion 3D.
 solution: Experience Manager
 title: Rogosité
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

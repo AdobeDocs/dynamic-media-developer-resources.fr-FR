@@ -2,8 +2,8 @@
 description: Rappels de événement
 solution: Experience Manager
 title: Rappels de événement
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Images interactives
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: 59b8a88e-0139-4981-bfb9-f2dc1ac2337d
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

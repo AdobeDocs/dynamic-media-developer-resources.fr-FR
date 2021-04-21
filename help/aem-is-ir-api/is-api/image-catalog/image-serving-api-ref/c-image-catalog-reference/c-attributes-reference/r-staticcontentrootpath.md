@@ -2,8 +2,8 @@
 description: Chemin d’accès racine de données de contenu statique. Chemin absolu ou segment de chemin relatif pour le dossier racine pour les données de contenu statique de ce catalogue d’images.
 solution: Experience Manager
 title: StaticContentRootPath
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

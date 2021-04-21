@@ -2,8 +2,8 @@
 description: Récupère les journaux de tâches d’un fichier. Les éléments renvoyés dans le tableau contiennent des informations détaillées sur chaque entrée du journal des tâches pour cette ressource. Le champ de réponse logMessage est localisé en fonction du champ authHeader.
 solution: Experience Manager
 title: getAssetJobLogs
-feature: Dynamic Media Classic, SDK/API, Gestion des ressources
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

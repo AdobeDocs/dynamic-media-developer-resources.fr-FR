@@ -2,8 +2,8 @@
 description: Cliquez ou appuyez sur ce bouton pour réinitialiser une image dans la vue principale. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
 solution: Experience Manager
 title: Bouton de réinitialisation de zoom
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Combiner des visionneuses de supports
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

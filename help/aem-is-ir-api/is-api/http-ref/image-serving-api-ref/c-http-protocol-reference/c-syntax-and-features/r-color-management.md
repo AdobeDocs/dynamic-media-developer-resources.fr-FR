@@ -2,8 +2,8 @@
 description: Image Serving prend en charge les conversions d’espace colorimétrique en fonction de profils d’espace colorimétrique conformes à la spécification ICC (International Color Consortium).
 solution: Experience Manager
 title: Gestion des couleurs de la diffusion d’images
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

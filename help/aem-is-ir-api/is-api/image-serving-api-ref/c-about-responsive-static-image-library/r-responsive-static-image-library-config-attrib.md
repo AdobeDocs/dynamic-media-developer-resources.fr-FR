@@ -2,8 +2,8 @@
 description: Les attributs de configuration sont définis comme des attributs directement sur un élément IMG géré par la bibliothèque d’images réactives. Chaque image peut avoir son propre jeu d’attributs.
 solution: Experience Manager
 title: Référence de commande - Attributs de configuration
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

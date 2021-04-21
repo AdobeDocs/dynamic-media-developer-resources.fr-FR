@@ -2,8 +2,8 @@
 description: Vignette Converter (vntc) est un utilitaire de ligne de commande utilisé pour préparer le contenu créé avec Image Authoring en vue d’un déploiement avec Image Rendering.
 solution: Experience Manager
 title: Convertisseur de vignettes
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

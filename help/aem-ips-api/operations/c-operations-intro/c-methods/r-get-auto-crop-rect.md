@@ -2,8 +2,8 @@
 description: Renvoie une région recadrée pour une image en fonction de sa couleur d’arrière-plan ou de sa transparence.
 solution: Experience Manager
 title: getAutoCropRect
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

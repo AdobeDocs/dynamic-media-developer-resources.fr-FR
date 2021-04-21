@@ -2,8 +2,8 @@
 description: Si un mappage de polices est requis pour un catalogue d’images, le chemin relatif ou absolu du fichier de mappage de polices doit être spécifié dans l’attribut FontMapFile.
 solution: Experience Manager
 title: Référence de mappage de polices
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

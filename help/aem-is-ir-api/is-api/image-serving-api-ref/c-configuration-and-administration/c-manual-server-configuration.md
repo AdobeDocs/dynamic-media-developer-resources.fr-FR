@@ -2,8 +2,8 @@
 description: De nombreux aspects de la diffusion d’images et du rendu d’images peuvent être configurés manuellement en modifiant les fichiers de configuration appropriés.
 solution: Experience Manager
 title: Configuration du serveur
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

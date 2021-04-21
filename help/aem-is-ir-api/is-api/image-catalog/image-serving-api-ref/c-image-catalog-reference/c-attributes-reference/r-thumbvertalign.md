@@ -2,8 +2,8 @@
 description: Alignement vertical des miniatures. Indique l’alignement vertical de l’image miniature dans le rectangle de l’image de réponse spécifié par wid= et hei= ou par attribut DefaultThumbPix.
 solution: Experience Manager
 title: ThumbVertAlign
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

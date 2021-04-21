@@ -2,8 +2,8 @@
 description: La diffusion d’images permet de combiner un nombre indéfini de calques d’image, de texte et de couleur unie dans une image composite.
 solution: Experience Manager
 title: Présentation de la mise en page
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

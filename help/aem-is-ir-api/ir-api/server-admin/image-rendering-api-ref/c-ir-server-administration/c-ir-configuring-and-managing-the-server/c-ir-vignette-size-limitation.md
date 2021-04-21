@@ -2,8 +2,8 @@
 description: Le rendu d’image impose une limite de taille de deux mégapixels pour les vignettes non pyramidales.
 solution: Experience Manager
 title: Limite de taille de vignette
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

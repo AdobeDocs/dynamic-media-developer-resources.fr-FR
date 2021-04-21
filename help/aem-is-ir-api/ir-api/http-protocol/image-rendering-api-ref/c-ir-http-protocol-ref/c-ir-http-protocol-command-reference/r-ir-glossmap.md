@@ -2,8 +2,8 @@
 description: Image de la carte de l’éclat. Permet de contrôler pixel par pixel la brillance d’une texture, d’un papier peint/bordure répétable ou d’une décale.
 solution: Experience Manager
 title: glossmap
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 title: Appels obsolètes
 description: Appels d’API Image Production System et leurs paramètres associés qui ne sont plus utilisés dans Dynamic Media.
 solution: Experience Manager
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

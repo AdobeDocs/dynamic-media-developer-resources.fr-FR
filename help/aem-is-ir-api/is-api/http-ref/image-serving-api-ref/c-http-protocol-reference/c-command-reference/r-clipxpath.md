@@ -2,8 +2,8 @@
 description: Chemin d’accès de l’élément de calque inversé. Spécifie un chemin d’accès d’élément d’exclusion pour le calque actif. Toutes les parties du calque se trouvant dans la zone définie par clipXPath= sont rendues transparentes.
 solution: Experience Manager
 title: clipXPath
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

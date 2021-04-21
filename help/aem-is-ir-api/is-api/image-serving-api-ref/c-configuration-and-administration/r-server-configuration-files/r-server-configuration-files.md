@@ -2,8 +2,8 @@
 description: Tous les fichiers de configuration se trouvent dans install_folder/conf et sont modifiables avec la plupart des éditeurs de texte. Il se peut que le serveur doive être redémarré pour que les modifications prennent effet.
 solution: Experience Manager
 title: Fichiers de configuration du serveur
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

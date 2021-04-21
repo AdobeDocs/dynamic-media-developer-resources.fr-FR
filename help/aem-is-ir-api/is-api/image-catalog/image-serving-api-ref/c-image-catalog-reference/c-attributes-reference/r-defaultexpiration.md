@@ -2,8 +2,8 @@
 description: TTL de cache client pour les réponses d’image par défaut. Fournit l’intervalle d’expiration des réponses d’image par défaut (réponses renvoyant une image par défaut spécifiée avec defaultImage= ou attribut DefaultImage).
 solution: Experience Manager
 title: DefaultExpiration
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

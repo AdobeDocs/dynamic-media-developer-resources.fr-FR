@@ -2,8 +2,8 @@
 description: Les variables de substitution sont utilisées pour transférer des valeurs de l’URL de requête vers des modèles FXG stockés sur le serveur.
 solution: Experience Manager
 title: Variables de substitution
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

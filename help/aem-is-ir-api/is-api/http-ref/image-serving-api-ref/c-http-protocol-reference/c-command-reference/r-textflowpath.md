@@ -2,8 +2,8 @@
 description: Zone de flux de texte. Spécifie une ou plusieurs régions dans lesquelles le texte spécifié avec textPs= doit être enchaîné.
 solution: Experience Manager
 title: textFlowPath
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Cette documentation explique comment administrer le serveur de rendu d’image Dynamic Media.
 solution: Experience Manager
 title: Présentation de l’administration du serveur
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

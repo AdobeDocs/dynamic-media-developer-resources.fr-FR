@@ -2,8 +2,8 @@
 description: Le panneau des résultats de la recherche se compose de la zone d’entrée de la recherche en haut et de la zone principale dans laquelle s’affichent les messages d’information ou les résultats de la recherche.
 solution: Experience Manager
 title: Panneau Résultats de la recherche
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: La zone principale de la vue est celle occupée par la vue principale et les nuances. Il est généralement configuré pour s'adapter à l'écran du périphérique disponible lorsqu'aucune taille n'est spécifiée.
 solution: Experience Manager
 title: Zone du lecteur principal
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Combiner des visionneuses de supports
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

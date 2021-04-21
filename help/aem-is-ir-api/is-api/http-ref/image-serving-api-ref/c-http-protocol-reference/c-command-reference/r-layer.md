@@ -2,8 +2,8 @@
 description: Sélectionnez Calque. Sélectionne un calque et début un nouveau segment de définition de calque dans la séquence de commandes.
 solution: Experience Manager
 title: calque
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

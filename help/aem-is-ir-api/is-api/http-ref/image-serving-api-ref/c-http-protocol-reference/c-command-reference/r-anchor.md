@@ -2,8 +2,8 @@
 description: Ancre d’image. Définit le point d’ancrage du rectangle de l’image, de la couleur unie ou du cadre de sélection de texte, avant d’appliquer les transformations (recadrage=, scale=, rotate=, flip=). Sert également de centre de rotation pour rotate=.
 solution: Experience Manager
 title: ancrage
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

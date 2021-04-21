@@ -2,8 +2,8 @@
 description: textPs= prend en charge plusieurs modèles d’utilisation différents décrits dans cette section.
 solution: Experience Manager
 title: calques de texte
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

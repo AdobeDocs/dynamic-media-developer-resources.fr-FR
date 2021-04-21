@@ -2,8 +2,8 @@
 description: Versions disponibles spécifiques aux paramètres régionaux. Renvoie une liste des versions disponibles spécifiques aux paramètres régionaux de l’ID de catalogue spécifiées dans le chemin d’accès à la requête.
 solution: Experience Manager
 title: xlate
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

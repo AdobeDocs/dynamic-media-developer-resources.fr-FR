@@ -2,8 +2,8 @@
 description: La barre de contrôle secondaire est la zone rectangulaire qui contient les boutons Première page et Dernière page et un indicateur de page lorsqu’il est disponible en CSS.
 solution: Experience Manager
 title: Barre de contrôle Secondaire
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Catalogue électronique
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

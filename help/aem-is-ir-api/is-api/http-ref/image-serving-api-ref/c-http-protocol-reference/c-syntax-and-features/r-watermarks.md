@@ -2,8 +2,8 @@
 description: Image Serving implémente un filigrane visuel simple.
 solution: Experience Manager
 title: Filigranes
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

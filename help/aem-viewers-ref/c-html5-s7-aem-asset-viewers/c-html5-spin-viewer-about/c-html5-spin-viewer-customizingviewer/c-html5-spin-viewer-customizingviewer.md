@@ -3,8 +3,8 @@ description: La personnalisation visuelle et la personnalisation de comportement
 keywords: réactif
 solution: Experience Manager
 title: Personnalisation de la visionneuse à 360°
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Visionneuses à 360°
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

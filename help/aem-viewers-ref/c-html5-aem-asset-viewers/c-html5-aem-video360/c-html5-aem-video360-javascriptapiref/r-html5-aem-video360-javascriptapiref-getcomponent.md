@@ -2,8 +2,8 @@
 description: Référence de l’API JavaScript pour le lecteur vidéo360.
 solution: Experience Manager
 title: getComponent
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo 360 VR
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: bc5f0046-8e20-4ff0-a90f-05c38f686ad2
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

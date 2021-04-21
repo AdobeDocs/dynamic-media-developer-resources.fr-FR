@@ -2,8 +2,8 @@
 description: Sur les systèmes de bureau, certains éléments de l’interface utilisateur, tels que les boutons, comportent des info-bulles qui s’affichent lorsque vous pointez la souris.
 solution: Experience Manager
 title: Info-bulles
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Fenêtre déroulante
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

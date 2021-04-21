@@ -2,8 +2,8 @@
 description: Accentuer l’image. Applique un filtre d’accentuation de base au calque ou à l’image de vue finale, après mise à l’échelle, si layer=comp.
 solution: Experience Manager
 title: op_sharpen
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

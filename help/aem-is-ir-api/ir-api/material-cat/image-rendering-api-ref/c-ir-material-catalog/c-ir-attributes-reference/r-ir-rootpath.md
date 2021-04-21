@@ -2,8 +2,8 @@
 description: Chemin d’accès racine des données source. Valeur de chaîne de texte. Chemin absolu ou segment de chemin relatif pour le dossier racine pour tous les fichiers de données de vignette, de texture, d’image et ICC référencés par ce catalogue d’images.
 solution: Experience Manager
 title: RootPath *
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

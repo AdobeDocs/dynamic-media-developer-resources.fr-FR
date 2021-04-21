@@ -2,8 +2,8 @@
 description: Contient les paramètres de configuration du superviseur du serveur.
 solution: Experience Manager
 title: SupervisorRegistry.xml
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

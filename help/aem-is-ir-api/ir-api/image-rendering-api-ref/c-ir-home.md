@@ -2,8 +2,8 @@
 description: La référence API de rendu d’image contient des informations sur la configuration et l’utilisation de l’API de rendu d’image Dynamic Media.
 solution: Experience Manager
 title: API de rendu d’image
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

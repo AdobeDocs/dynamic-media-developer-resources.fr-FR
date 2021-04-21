@@ -2,8 +2,8 @@
 description: Débit vidéo. Permet la spécification d’un débit binaire associé à chaque enregistrement vidéo.
 solution: Experience Manager
 title: VideoBitRate
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

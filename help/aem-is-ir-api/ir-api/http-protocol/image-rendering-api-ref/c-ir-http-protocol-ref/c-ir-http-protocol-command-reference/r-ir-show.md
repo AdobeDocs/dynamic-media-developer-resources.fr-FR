@@ -2,8 +2,8 @@
 description: Afficher l’objet de chevauchement. Rend visible tous les objets de chevauchement précédemment masqués (y compris les objets de cadre de recouvrement de fenêtre) dans la sélection actuelle.
 solution: Experience Manager
 title: montrer
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

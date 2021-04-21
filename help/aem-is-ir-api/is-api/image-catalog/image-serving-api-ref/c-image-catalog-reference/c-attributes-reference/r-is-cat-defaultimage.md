@@ -2,8 +2,8 @@
 description: Image de réponse par défaut. Indique l’image ou l’entrée de catalogue à utiliser au cas où un fichier image serait introuvable et que defaultImage= n’est pas spécifié dans la demande.
 solution: Experience Manager
 title: DefaultImage
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

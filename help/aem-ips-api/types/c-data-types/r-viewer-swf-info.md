@@ -2,8 +2,8 @@
 description: Propriétés d’une ressource de fichier SWF de visionneuse.
 solution: Experience Manager
 title: ViewerSwfInfo
-feature: Dynamic Media Classic, SDK/API, Visionneuses
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API,Viewers
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Définition de macro. Un fragment de protocole de diffusion d’images constitué d’une ou de plusieurs commandes complètes, séparées par des caractères "&".
 solution: Experience Manager
 title: Définition
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

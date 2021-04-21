@@ -2,8 +2,8 @@
 description: Une alerte de priorité est envoyée lorsque l’espace de tas Java gratuit est inférieur au seuil spécifié immédiatement après un cycle de collecte des déchets Java.
 solution: Experience Manager
 title: Alerte de priorité de l'espace de tas
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

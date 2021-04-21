@@ -2,8 +2,8 @@
 description: Couleur d’arrière-plan de la vue. Indique la couleur d’arrière-plan de l’image composite (image de vue).
 solution: Experience Manager
 title: bgc
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

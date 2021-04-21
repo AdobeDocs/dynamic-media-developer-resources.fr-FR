@@ -2,8 +2,8 @@
 description: Les échantillons sont constitués d’une rangée d’images miniatures avec des boutons de défilement facultatifs à gauche et à droite.
 solution: Experience Manager
 title: Echantillons
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Zoom intégré
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

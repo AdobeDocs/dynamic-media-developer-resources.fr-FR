@@ -2,8 +2,8 @@
 description: Vérifie si un utilisateur disposant d’une société spécifique (identifiée par son nom d’utilisateur), son adresse électronique et son mot de passe peut se connecter.
 solution: Experience Manager
 title: checkLogin
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

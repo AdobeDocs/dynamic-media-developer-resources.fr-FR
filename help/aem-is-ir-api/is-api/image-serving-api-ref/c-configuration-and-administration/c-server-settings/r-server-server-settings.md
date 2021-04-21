@@ -2,8 +2,8 @@
 description: Utilisez ces paramètres de serveur pour configurer votre serveur.
 solution: Experience Manager
 title: Serveur
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

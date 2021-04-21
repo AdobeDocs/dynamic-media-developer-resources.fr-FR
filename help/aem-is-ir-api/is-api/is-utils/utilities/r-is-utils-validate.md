@@ -2,8 +2,8 @@
 description: Utilitaire de validation d’image. Cet utilitaire de ligne de commande vérifie les fichiers image pour s’assurer qu’ils sont valides et qu’ils peuvent être lus sans difficulté par la diffusion d’images.
 solution: Experience Manager
 title: valider
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

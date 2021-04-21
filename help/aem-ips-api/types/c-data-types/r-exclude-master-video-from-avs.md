@@ -1,8 +1,8 @@
 ---
 description: Exclut la vidéo Principale de la visionneuse de vidéos adaptative.
 title: ExclureMasterVideoFromAVS
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

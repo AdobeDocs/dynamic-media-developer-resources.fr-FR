@@ -2,8 +2,8 @@
 description: Tous les attributs de catalogue sont facultatifs, à l’exception de l’ID racine du catalogue.
 solution: Experience Manager
 title: Référence des attributs
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

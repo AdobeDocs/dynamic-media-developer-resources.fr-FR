@@ -2,8 +2,8 @@
 description: Configure la façon dont le composant récupère de nouvelles images pour la vue principale et la fenêtre déroulante lors du redimensionnement.
 solution: Experience Manager
 title: FlyoutZoomView.imagereload
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Combiner des visionneuses de supports
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

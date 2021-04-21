@@ -2,8 +2,8 @@
 description: En fonction de la valeur du paramètre de mode, la visionneuse affiche les icônes de zone cliquable sur la vue principale aux endroits où les zones cliquables sont créées à l’origine dans Dynamic Media Classic ou effectue le rendu des zones exactes qui correspondent à la forme des zones cliquables d’origine.
 solution: Experience Manager
 title: Effet de zone cliquable
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

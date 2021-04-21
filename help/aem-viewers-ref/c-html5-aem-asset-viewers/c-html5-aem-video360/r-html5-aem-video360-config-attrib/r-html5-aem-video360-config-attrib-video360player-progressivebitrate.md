@@ -2,8 +2,8 @@
 description: Attribut de configuration pour la visionneuse Video360.
 solution: Experience Manager
 title: Video360Player.progressivebitrate
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo 360 VR
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: a253ef01-19ae-4de4-a4fc-b10b28e72c00
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

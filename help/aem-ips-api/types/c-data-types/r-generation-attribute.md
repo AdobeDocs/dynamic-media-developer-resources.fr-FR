@@ -2,8 +2,8 @@
 description: Paire nom-valeur contenant des informations sur une étape de génération de ressources. Voir getGenerationInfo.
 solution: Experience Manager
 title: GenerationAttribute
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

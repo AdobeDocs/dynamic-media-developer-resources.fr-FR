@@ -2,8 +2,8 @@
 description: Luminosité de la surface du matériau. Indique la brillance relative de la surface du matériau. Utilisé pour sélectionner la carte d'éclairage et contrôler le rendu des effets de brillance et des reflets 3D.
 solution: Experience Manager
 title: brillant
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

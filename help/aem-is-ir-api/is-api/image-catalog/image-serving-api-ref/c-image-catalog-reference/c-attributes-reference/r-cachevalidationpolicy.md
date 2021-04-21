@@ -2,8 +2,8 @@
 description: Stratégie de validation du cache du serveur. Indique quand les entrées de cache côté serveur sont validées.
 solution: Experience Manager
 title: CacheValidationPolicy
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

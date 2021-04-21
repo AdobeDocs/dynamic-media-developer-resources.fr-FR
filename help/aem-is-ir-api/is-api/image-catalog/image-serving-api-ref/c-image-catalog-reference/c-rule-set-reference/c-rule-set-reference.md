@@ -2,8 +2,8 @@
 description: La diffusion d’images prend en charge un mécanisme de prétraitement de requête simple, qui repose sur des règles de correspondance et de substitution d’expressions régulières.
 solution: Experience Manager
 title: Référence du jeu de règles
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

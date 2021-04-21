@@ -2,8 +2,8 @@
 description: Taille d’image de rendu par défaut. Le serveur limite la largeur et la hauteur des images de réponse si la requête ne spécifie pas explicitement la taille de la vue à l’aide de wid= ou hei=.
 solution: Experience Manager
 title: DefaultPix
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

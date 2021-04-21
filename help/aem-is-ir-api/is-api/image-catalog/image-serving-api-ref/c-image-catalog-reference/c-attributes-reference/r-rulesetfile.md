@@ -2,8 +2,8 @@
 description: Chemin du fichier de définitions de jeu de règles. Indique le fichier qui contient les définitions de jeu de règles pour ce catalogue d’images.
 solution: Experience Manager
 title: FichierJeuRègle
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

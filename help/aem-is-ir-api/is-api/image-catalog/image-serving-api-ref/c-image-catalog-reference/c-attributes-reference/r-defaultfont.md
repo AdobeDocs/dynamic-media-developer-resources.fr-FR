@@ -2,8 +2,8 @@
 description: Nom du visage de la police par défaut. Indique la police à utiliser si aucune police n’est fournie par une requête text=.
 solution: Experience Manager
 title: DefaultFont
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

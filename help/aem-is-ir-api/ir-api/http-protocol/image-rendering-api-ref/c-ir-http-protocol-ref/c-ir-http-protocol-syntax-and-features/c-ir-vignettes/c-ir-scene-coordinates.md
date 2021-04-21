@@ -2,8 +2,8 @@
 description: L’espace de coordonnées de scène permet de spécifier les tailles et les distances des surfaces d’objet texturables.
 solution: Experience Manager
 title: Coordonnées de scène
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

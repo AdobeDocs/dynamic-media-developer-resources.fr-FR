@@ -2,8 +2,8 @@
 description: La diffusion d’images prend en charge l’accès aux images source sur les serveurs HTTP et FTP étrangers.
 solution: Experience Manager
 title: Sources d’images étrangères
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

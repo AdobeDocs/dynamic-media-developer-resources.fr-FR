@@ -2,8 +2,8 @@
 description: Par défaut, l’outil de partage sur les réseaux sociaux s’affiche dans le coin supérieur droit. Il s’agit d’un bouton et d’un panneau qui se développe lorsque l’utilisateur clique ou appuie sur un bouton et qui contient des outils de partage individuels.
 solution: Experience Manager
 title: Partage sur les réseaux sociaux
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: La barre de défilement de la vidéo est la commande de curseur horizontale qui permet à un utilisateur de rechercher dynamiquement n’importe quelle position temporelle dans la vidéo en cours de lecture.
 solution: Experience Manager
 title: Défilement vidéo
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 9d11f2e9-315c-44d8-beb1-530d2b316604
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

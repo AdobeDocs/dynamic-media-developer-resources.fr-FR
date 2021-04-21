@@ -2,8 +2,8 @@
 description: Les fichiers de données source de contenu statique sont accessibles uniquement par le serveur de plateformes.
 solution: Experience Manager
 title: Données de la source de contenu statique
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

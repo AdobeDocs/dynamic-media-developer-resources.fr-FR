@@ -2,8 +2,8 @@
 description: Chemin d’accès racine pour saveToFile=. Chemin relatif du dossier racine vers lequel les images générées avec req=saveToFile doivent être écrites.
 solution: Experience Manager
 title: SavePath
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

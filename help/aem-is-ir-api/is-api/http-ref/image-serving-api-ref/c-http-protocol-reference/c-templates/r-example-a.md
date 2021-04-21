@@ -2,8 +2,8 @@
 description: Créez un modèle de taille fixe avec une image d’arrière-plan statique, une image variable alignée avec l’arrière-plan au centre gauche et mise à l’échelle pour ne pas dépasser 80 % de la largeur et de la hauteur de l’arrière-plan, et un calque de texte avec du texte vertical centré sur le bord droit de la zone de travail.
 solution: Experience Manager
 title: Exemple A
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

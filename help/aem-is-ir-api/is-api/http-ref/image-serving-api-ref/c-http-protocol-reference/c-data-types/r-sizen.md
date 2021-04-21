@@ -2,8 +2,8 @@
 description: Taille normalisée. Utilisé pour spécifier les tailles d’image ou les tailles de rectangle, normalisé par rapport à la taille du calque 0 ou d’une autre image.
 solution: Experience Manager
 title: sizeN
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

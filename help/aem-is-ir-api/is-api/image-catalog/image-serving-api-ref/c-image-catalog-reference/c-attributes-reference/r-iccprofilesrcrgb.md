@@ -2,8 +2,8 @@
 description: Profil de couleur d’entrée RVB par défaut. Spécifie le nom du profil de couleurs ICC à utiliser pour les images source RVB qui n’incorporent pas de profil de couleurs et pour certaines valeurs de couleurs RVB spécifiées avec diverses commandes de traitement d’images, telles que color=.
 solution: Experience Manager
 title: IccProfileSrcRgb
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

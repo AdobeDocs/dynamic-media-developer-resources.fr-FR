@@ -2,8 +2,8 @@
 description: Cliquez ou appuyez sur ce bouton pour amener l’utilisateur à la dernière page du catalogue. Ce bouton apparaît dans la barre de contrôle principale des ordinateurs de bureau et des tablettes ; sur les téléphones portables, il est ajouté à une barre de contrôle secondaire. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
 solution: Experience Manager
 title: Bouton Dernière page
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

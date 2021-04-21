@@ -2,8 +2,8 @@
 description: Déplace plusieurs fichiers indépendamment les uns des autres. Pour ce faire, il utilise le type AssetMove contenu dans le tableau assetMoveArray. Chaque champ AssetMove contient un dossier de destination.
 solution: Experience Manager
 title: moveAssets
-feature: Dynamic Media Classic, SDK/API, Gestion des ressources
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

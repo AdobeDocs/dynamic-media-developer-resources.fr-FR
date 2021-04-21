@@ -2,8 +2,8 @@
 description: Active et désactive l’affichage de la légende fermée. Elle n’est pas visible si le paramètre de légende n’est pas spécifié. Vous pouvez utiliser CSS pour dimensionner, habiller et positionner ce bouton par rapport à la barre de contrôle qui le contient.
 solution: Experience Manager
 title: Bouton Légende
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Combiner des visionneuses de supports
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

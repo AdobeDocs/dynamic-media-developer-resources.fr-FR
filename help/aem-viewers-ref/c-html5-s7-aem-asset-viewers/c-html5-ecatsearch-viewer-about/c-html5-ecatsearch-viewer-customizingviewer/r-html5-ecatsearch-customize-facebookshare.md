@@ -2,8 +2,8 @@
 description: L’outil de partage Facebook est constitué d’un bouton ajouté au panneau de partage Social. Lorsque l’utilisateur clique sur le bouton, il est redirigé vers une boîte de dialogue de partage fournie par un service social. La position du bouton est entièrement gérée par l’outil de partage Social.
 solution: Experience Manager
 title: Partage Facebook
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

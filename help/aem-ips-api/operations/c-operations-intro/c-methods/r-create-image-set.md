@@ -2,8 +2,8 @@
 description: Crée une visionneuse d’images.
 solution: Experience Manager
 title: createImageSet
-feature: Dynamic Media Classic, SDK/API, visionneuses d’images
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API,Image Sets
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

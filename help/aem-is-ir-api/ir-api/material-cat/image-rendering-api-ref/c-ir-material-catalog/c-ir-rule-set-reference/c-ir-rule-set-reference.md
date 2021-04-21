@@ -2,8 +2,8 @@
 description: Le rendu d’image prend en charge un mécanisme de prétraitement de requête simple qui est basé sur les règles de correspondance et de substitution des expressions régulières.
 solution: Experience Manager
 title: Référence du jeu de règles
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Dans la séquence de commandes de modificateur d’URL ou de catalogue, une séquence de définitions de calque se début avec la commande layer= et se termine par une autre commande layer=, une commande effect= ou la fin de l’URL.
 solution: Experience Manager
 title: Spécification de calques
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

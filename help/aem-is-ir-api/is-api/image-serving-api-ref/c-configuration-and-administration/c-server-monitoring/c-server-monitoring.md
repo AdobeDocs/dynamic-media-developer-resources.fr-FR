@@ -2,8 +2,8 @@
 description: Le serveur peut être configuré pour envoyer des alertes par courrier électronique lorsque certains seuils de performances ou d'erreur sont dépassés. Le système contrôle collectivement toutes les applications Web déployées sur le serveur.
 solution: Experience Manager
 title: Surveillance du serveur
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

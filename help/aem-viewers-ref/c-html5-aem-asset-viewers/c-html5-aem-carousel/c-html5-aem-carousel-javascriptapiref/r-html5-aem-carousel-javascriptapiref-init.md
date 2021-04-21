@@ -2,8 +2,8 @@
 description: Référence de l’API JavaScript pour Carousel Viewer.
 solution: Experience Manager
 title: init
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Bannières de carrousel
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: 00e09e26-1380-487c-9512-34d805f1330d
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

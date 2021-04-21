@@ -2,8 +2,8 @@
 description: Référence de l’API JavaScript pour la visionneuse d’images vidéo.
 solution: Experience Manager
 title: setContainerId
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Images interactives
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: 2b9b89e6-50ea-458f-9da2-6fda1884935c
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

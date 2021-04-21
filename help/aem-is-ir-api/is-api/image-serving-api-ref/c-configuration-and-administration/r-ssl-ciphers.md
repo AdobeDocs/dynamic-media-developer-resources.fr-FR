@@ -2,8 +2,8 @@
 description: La balise Connector du fichier server.xml prend en charge un attribut de chiffrement afin de limiter les chiffrement pouvant être sélectionnés pour une connexion SSL.
 solution: Experience Manager
 title: Définition de chiffrement SSL
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Chaîne d’annotation du catalogue. Chaîne de texte pouvant être utilisée pour identifier la version du catalogue, la date de publication, etc.
 solution: Experience Manager
 title: PublishInfo
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

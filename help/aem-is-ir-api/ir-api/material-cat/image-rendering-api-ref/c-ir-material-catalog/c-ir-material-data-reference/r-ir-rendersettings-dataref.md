@@ -2,8 +2,8 @@
 description: Paramètres de rendu avancés. Les paramètres de rendu avancés sont utilisés pour contrôler les aspects de bas niveau du moteur de rendu, tels que le type d’accentuation du matériau et les paramètres ou certains paramètres des algorithmes d’éclairage.
 solution: Experience Manager
 title: RenderSettings
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

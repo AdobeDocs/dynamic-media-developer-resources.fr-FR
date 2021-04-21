@@ -2,8 +2,8 @@
 description: L’icône de lecture est superposée sur la zone de vue principale. Il s’affiche lorsque la vidéo est en pause ou lorsque la fin de la vidéo est atteinte, et dépend également du paramètre iconeffect.
 solution: Experience Manager
 title: Effet Icône
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

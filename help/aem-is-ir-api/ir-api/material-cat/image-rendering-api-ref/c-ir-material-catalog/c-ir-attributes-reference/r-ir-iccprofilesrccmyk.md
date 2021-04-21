@@ -2,8 +2,8 @@
 description: PROFIL de couleur d’entrée CMJN par défaut. Indique le nom du profil de couleurs ICC à utiliser pour les images de matériaux CMJN qui n’incorporent pas de profil de couleurs.
 solution: Experience Manager
 title: IccProfileSrcCmyk
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

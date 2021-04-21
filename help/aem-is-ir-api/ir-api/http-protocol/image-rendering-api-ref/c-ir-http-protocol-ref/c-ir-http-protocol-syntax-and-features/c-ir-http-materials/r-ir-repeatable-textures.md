@@ -2,8 +2,8 @@
 description: Les textures répétables comprennent les matériaux intérieurs et extérieurs, tels que les tissus (vêtements et tissus), les revêtements de sol de mur à mur, les papiers peints, les matériaux de comptoir, les textures de grain de bois, les matériaux de toiture et de collage, et toute autre texture générique.
 solution: Experience Manager
 title: textures répétables
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

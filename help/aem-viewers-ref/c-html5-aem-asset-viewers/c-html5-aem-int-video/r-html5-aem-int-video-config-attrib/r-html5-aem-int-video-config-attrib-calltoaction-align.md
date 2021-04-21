@@ -2,8 +2,8 @@
 description: Attribut de configuration pour la visionneuse de vidéos interactive.
 solution: Experience Manager
 title: CallToAction.align
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: e0a92c4a-3757-4811-87b8-68fb367ea94d
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

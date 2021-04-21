@@ -2,8 +2,8 @@
 description: Identifiant du catalogue. L’élément de chemin HTTP à utiliser pour identifier ce catalogue dans le spécificateur d’objets de profil de vignette, de matériau ou ICC dans les requêtes HTTP.
 solution: Experience Manager
 title: RootId
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Largeur de l’image de réponse. Indique la mise à l’échelle de l’image rendue de sorte que l’image de réponse ne soit pas plus grande que la valeur spécifiée, tout en conservant les proportions de l’image.
 solution: Experience Manager
 title: wid
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

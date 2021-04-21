@@ -2,8 +2,8 @@
 description: Activez les en-têtes de réponse modifiés en dernier. Active ou désactive l’inclusion de l’en-tête Dernière modification dans les réponses HTTP en mémoire cache émises par la diffusion d’images.
 solution: Experience Manager
 title: UseLastModified
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

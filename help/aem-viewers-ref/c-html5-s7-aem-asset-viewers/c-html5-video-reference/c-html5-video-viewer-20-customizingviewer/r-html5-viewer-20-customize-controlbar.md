@@ -2,8 +2,8 @@
 description: La barre de contrôle est la zone rectangulaire qui contient et se trouve derrière toutes les commandes de l’interface utilisateur disponibles pour la visionneuse de vidéos, telles que le bouton Lecture/Pause, les commandes de volume, etc.
 solution: Experience Manager
 title: Barre de contrôle
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Les catalogues de matériaux fournissent au serveur des informations sur les vignettes, les matériaux et les données de prise en charge, telles que les profils ICC.
 solution: Experience Manager
 title: Présentation du catalogue de matières *
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

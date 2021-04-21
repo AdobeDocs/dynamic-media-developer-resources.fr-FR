@@ -2,8 +2,8 @@
 description: Il existe plusieurs mécanismes pour début/arrêt d’Image Server et de Platform Server sous Windows.
 solution: Experience Manager
 title: Démarrage ou arrêt sous Windows
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

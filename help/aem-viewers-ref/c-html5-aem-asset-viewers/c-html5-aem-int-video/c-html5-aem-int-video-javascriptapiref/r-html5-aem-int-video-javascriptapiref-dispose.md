@@ -2,8 +2,8 @@
 description: Référence de l’API JavaScript pour la visionneuse de vidéos interactive.
 solution: Experience Manager
 title: disposer
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 55418b97-3d18-4c1d-b0e3-aefd71f46616
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

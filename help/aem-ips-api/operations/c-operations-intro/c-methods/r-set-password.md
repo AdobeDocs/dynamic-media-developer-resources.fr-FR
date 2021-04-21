@@ -2,8 +2,8 @@
 description: Définit le mot de passe d’un utilisateur spécifique ou de l’utilisateur par défaut sur une valeur spécifique, selon que vous spécifiez un nom d’utilisateur ou non.
 solution: Experience Manager
 title: setPassword
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

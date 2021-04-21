@@ -2,8 +2,8 @@
 description: Les paramètres de cette section doivent être pris en compte uniquement si le rendu SVG est requis.
 solution: Experience Manager
 title: SVG
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

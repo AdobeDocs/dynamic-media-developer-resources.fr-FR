@@ -2,8 +2,8 @@
 description: Les fichiers de données de catalogue peuvent avoir n’importe quel nom et suffixe de fichier (sauf .ini). Ils peuvent être conservés facilement à l'aide d'applications prenant en charge les fichiers de données texte délimités par des tabulations, telles que Microsoft Excel et Access.
 solution: Experience Manager
 title: Fichiers de données de catalogue
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

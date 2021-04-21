@@ -2,8 +2,8 @@
 description: Recadrer l’image. Indique une zone de recadrage rectangulaire, exprimée en pixels ou normalisée par rapport à l’image source ou de masque à résolution totale.
 solution: Experience Manager
 title: Recadrer
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

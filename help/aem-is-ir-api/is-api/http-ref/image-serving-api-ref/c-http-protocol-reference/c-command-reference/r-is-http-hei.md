@@ -2,8 +2,8 @@
 description: Hauteur de la vue. Indique la hauteur de l’image de réponse (image de vue) lorsque la taille n’est pas présente dans la requête.
 solution: Experience Manager
 title: hei
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

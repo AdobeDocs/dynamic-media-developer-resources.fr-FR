@@ -2,8 +2,8 @@
 description: Obtient les journaux de tâches spécifiés pour la société sélectionnée. Vous pouvez trier par caractères, direction, dates de début et de fin et nombre de lignes.
 solution: Experience Manager
 title: getJobLogs
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Correspondance de traduction des chaînes. Fait référence à un locId qui peut être mappé à n’importe quel nombre de internalLocId.
 solution: Experience Manager
 title: LocaleStrMap
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

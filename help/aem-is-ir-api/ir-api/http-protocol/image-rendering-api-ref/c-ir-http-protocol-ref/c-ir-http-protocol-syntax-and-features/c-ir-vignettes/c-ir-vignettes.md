@@ -2,8 +2,8 @@
 description: Les vignettes sont des images créées avec Dynamic Media Image Authoring pour être utilisées avec le rendu d’images.
 solution: Experience Manager
 title: Vignettes
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

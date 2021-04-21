@@ -2,8 +2,8 @@
 description: Propriétés d’un fichier de paramètres prédéfinis de visionneuse.
 solution: Experience Manager
 title: ViewerPresetInfo
-feature: Dynamic Media Classic, SDK/API, paramètres prédéfinis de la visionneuse
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

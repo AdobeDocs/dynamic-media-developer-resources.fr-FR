@@ -2,8 +2,8 @@
 description: Les références $var$ peuvent se trouver n’importe où à l’intérieur des accolades d’une demande de diffusion d’images ou de rendu d’image imbriquée, y compris à gauche de l’"?" séparant le chemin de la requête.
 solution: Experience Manager
 title: Traitement des variables dans les requêtes imbriquées
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

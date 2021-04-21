@@ -2,8 +2,8 @@
 description: Réglage de l’équilibre des couleurs. Ajuste séparément la valeur de chaque composante de couleur RVB.
 solution: Experience Manager
 title: op_colorbalance
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

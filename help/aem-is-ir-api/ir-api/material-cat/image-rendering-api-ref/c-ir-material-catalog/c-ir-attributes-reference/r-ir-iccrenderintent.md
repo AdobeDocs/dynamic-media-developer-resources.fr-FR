@@ -2,8 +2,8 @@
 description: Mode de rendu de conversion des couleurs. Fournit le mode de rendu par défaut pour les conversions de couleur lorsque le mode de rendu n’est pas spécifié avec icc=.
 solution: Experience Manager
 title: IccRenderIntent
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

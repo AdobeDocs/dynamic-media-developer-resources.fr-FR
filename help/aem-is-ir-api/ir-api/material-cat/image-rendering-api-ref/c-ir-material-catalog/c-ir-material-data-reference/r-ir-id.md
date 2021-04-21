@@ -2,8 +2,8 @@
 description: Identificateur d’enregistrement du catalogue. Valeur clé selon laquelle les enregistrements de matières sont analysés par le serveur de rendu. Généralement un identifiant de matériau court et unique, tel qu’un numéro SKU.
 solution: Experience Manager
 title: ID
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

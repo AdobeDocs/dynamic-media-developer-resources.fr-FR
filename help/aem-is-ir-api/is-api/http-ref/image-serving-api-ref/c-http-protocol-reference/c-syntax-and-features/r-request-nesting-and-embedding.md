@@ -2,8 +2,8 @@
 description: Image Serving prend en charge l’imbrication illimitée de requêtes de diffusion d’images, l’incorporation de requêtes de rendu d’images et l’incorporation d’images récupérées à partir de serveurs étrangers. Seuls les images de calque et les masques de calque prennent en charge ces mécanismes.
 solution: Experience Manager
 title: Demande d’imbrication et d’incorporation
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

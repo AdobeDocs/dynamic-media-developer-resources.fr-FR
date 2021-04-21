@@ -2,8 +2,8 @@
 description: Ajuster la teinte. Déplace la teinte de chaque pixel visible du calque ou de l’image composite selon la valeur indiquée.
 solution: Experience Manager
 title: op_hue
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

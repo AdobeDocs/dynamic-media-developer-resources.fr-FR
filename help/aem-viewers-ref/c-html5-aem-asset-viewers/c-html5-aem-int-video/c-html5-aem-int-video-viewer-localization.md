@@ -2,8 +2,8 @@
 description: Le contenu affiché par la visionneuse de vidéos interactive est sujet à localisation. Cela inclut des info-bulles sur les éléments de l’interface utilisateur et un message d’erreur qui s’affiche lorsque la lecture de la vidéo est impossible.
 solution: Experience Manager
 title: Localisation des éléments de l’interface utilisateur
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: d293c385-d355-4d9e-9fe9-8ef35fef60bf
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

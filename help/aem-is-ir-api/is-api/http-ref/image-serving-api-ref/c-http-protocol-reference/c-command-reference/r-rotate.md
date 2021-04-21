@@ -2,8 +2,8 @@
 description: Faire pivoter l’image. Fait pivoter le calque d’image, de texte ou de couleur unie selon l’angle spécifié.
 solution: Experience Manager
 title: rotation
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

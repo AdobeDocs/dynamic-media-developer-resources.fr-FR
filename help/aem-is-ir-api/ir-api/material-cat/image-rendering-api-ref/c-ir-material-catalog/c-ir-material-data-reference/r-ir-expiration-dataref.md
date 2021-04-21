@@ -2,8 +2,8 @@
 description: Temps de mise en cache du client à vivre. Nombre d’heures avant expiration. Permet de gérer la mise en cache du client et du serveur proxy.
 solution: Experience Manager
 title: Expiration
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

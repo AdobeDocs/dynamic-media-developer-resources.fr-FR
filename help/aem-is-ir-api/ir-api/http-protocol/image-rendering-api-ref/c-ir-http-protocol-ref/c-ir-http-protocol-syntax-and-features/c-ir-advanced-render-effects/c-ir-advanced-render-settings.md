@@ -2,8 +2,8 @@
 description: L’outil de création de vignettes (qui fait partie du pack de création d’images Dynamic Media) fournit des mécanismes permettant de contrôler les aspects de bas niveau du moteur de rendu de vignette.
 solution: Experience Manager
 title: Paramètres de rendu avancés
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

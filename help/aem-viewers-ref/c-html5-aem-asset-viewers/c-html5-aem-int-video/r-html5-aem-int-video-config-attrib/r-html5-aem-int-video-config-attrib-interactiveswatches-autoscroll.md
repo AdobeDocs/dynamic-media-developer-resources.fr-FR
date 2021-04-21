@@ -2,8 +2,8 @@
 description: Attribut de configuration pour la visionneuse de vidéos interactive.
 solution: Experience Manager
 title: InteractiveSwatches.autoscroll
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 5a7272fe-e753-44cd-aaf0-0811a2662279
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

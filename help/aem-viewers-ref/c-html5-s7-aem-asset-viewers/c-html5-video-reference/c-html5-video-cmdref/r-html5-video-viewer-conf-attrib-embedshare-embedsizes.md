@@ -2,8 +2,8 @@
 description: Attribut de configuration pour la visionneuse de vidéos.
 solution: Experience Manager
 title: EmbedShare.embedsizes
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

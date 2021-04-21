@@ -2,8 +2,8 @@
 description: Propriétés des données de réponse. Evalue la requête active comme s’il s’agissait d’une requête d’image (req=img), mais au lieu de renvoyer l’image, le serveur renvoie les propriétés sélectionnées de l’image de réponse.
 solution: Experience Manager
 title: props
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

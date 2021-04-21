@@ -2,8 +2,8 @@
 description: Documentation de référence de commande commune à tous les lecteurs.
 solution: Experience Manager
 title: Référence de commande commune à toutes les visionneuses - URL
-feature: Dynamic Media Classic, Visionneuses, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API
+role: Developer,Business Practitioner
 exl-id: 08faeb9b-3b02-4a16-a365-7ef62ca29db9
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

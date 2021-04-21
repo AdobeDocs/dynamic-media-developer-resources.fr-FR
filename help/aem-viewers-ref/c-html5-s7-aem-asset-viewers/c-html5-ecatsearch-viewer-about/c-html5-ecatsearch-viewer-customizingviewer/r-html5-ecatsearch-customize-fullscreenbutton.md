@@ -2,8 +2,8 @@
 description: Entraîne le lecteur à passer en mode Plein écran ou à quitter ce mode lorsque l’utilisateur clique dessus. Ce bouton apparaît dans la barre de contrôle principale. Ce bouton ne s’affiche pas si le lecteur fonctionne en mode contextuel et que le système ne prend pas en charge le mode plein écran natif. Vous pouvez dimensionner, habiller et positionner le bouton par CSS.
 solution: Experience Manager
 title: Bouton Plein écran
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

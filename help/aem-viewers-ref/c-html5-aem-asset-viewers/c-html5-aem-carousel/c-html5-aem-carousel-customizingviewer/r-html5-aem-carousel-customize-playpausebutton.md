@@ -2,8 +2,8 @@
 description: Le bouton Lecture/Pause permet à un utilisateur de suspendre ou de reprendre le comportement de lecture automatique du carrousel.
 solution: Experience Manager
 title: Bouton PlayPause
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Bannières de carrousel
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: 1b48aa7f-d1c8-4367-94c2-689991b90942
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

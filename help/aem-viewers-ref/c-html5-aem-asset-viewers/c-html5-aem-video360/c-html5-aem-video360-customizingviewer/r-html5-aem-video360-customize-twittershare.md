@@ -2,8 +2,8 @@
 description: L’outil de partage Twitter est constitué d’un bouton ajouté au panneau de partage Social. Lorsque l’utilisateur clique sur le bouton, il est redirigé vers une boîte de dialogue de partage fournie par un service social. La position du bouton est entièrement gérée par l’outil de partage Social.
 solution: Experience Manager
 title: Partage Twitter
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo 360 VR
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: a90a4c82-b51a-4fb0-9196-44ae4ba8e0cd
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

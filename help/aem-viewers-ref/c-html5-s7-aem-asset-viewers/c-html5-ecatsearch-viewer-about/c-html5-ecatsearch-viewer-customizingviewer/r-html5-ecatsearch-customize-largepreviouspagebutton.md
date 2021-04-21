@@ -2,8 +2,8 @@
 description: Cliquez ou appuyez sur ce bouton pour amener l’utilisateur à la page précédente du catalogue. Ce bouton apparaît dans la barre de contrôle principale. Ce bouton n'est pas affiché sur les téléphones mobiles pour enregistrer l'espace sur l'écran. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
 solution: Experience Manager
 title: Bouton Grande page précédente
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: L’outil Incorporer le partage est constitué d’un bouton ajouté au panneau de partage Social et de la boîte de dialogue modale qui s’affiche lorsque l’outil est activé. La position du bouton est entièrement gérée par l’outil de partage Social.
 solution: Experience Manager
 title: Incorporer le partage
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo 360 VR
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: 08ba7a29-8b17-4167-a9f3-82aa4cf65556
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: Largeur de la vue. Indique la largeur de l’image de réponse (image de vue) lorsque fit= n’est pas présent dans la requête.
 solution: Experience Manager
 title: wid
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

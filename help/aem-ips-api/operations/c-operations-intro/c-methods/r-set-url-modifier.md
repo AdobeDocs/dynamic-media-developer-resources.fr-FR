@@ -2,8 +2,8 @@
 description: Définit les commandes du protocole de diffusion d’images ou de rendu d’image pour la ressource spécifiée. Ces commandes modifient la représentation de la ressource sans la détruire.
 solution: Experience Manager
 title: setUrlModificateur
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Les serveurs IS peuvent être configurés pour basculer vers d'autres serveurs pour les requêtes impliquant une image source qui ne peut pas être ouverte ou lue correctement.
 solution: Experience Manager
 title: Redirection en cas d’erreur
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

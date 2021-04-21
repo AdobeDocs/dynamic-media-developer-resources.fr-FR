@@ -2,8 +2,8 @@
 description: Orientation du rendu du texte. Indique l’angle auquel le texte spécifié avec textPs= est disposé et rendu dans la zone de texte (définie avec size= ou textFlowPath=).
 solution: Experience Manager
 title: textAngle
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

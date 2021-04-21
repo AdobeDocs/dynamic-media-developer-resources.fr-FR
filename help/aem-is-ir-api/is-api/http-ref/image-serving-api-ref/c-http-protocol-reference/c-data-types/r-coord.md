@@ -2,8 +2,8 @@
 description: Coordonnées en pixels. Utilisé pour spécifier les coordonnées de l’image, telles que les décalages d’image ou les paramètres de recadrage, sous la forme d’un décalage de pixels par rapport au coin supérieur gauche d’une image ou d’un rectangle de calque.
 solution: Experience Manager
 title: coord
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

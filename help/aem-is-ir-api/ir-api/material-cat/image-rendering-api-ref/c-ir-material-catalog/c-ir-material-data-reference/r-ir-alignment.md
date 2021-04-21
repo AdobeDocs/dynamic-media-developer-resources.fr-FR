@@ -2,8 +2,8 @@
 description: Alignement de la texture. Alignement de la texture lorsqu’elle est appliquée à des objets de vignette les uns par rapport aux autres, tels que les parties capitonnées d’un meuble. Utilisé principalement pour les applications de rendu de rembourrage, éventuellement pour les applications de vêtements avancées.
 solution: Experience Manager
 title: Alignement
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

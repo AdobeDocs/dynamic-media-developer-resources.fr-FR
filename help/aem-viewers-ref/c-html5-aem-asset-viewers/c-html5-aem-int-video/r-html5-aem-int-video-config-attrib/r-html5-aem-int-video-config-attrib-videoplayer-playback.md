@@ -2,8 +2,8 @@
 description: Attribut de configuration pour la visionneuse de vidéos interactive.
 solution: Experience Manager
 title: VideoPlayer.playback
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: fa49e025-1a46-4be7-ad1e-eda3b31bdc8d
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

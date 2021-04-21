@@ -2,8 +2,8 @@
 description: Si le texte est spécifié comme format de réponse, les données de réponse sont formatées pour être lisibles en tant que propriétés Java.
 solution: Experience Manager
 title: Propriétés de texte (Java)
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

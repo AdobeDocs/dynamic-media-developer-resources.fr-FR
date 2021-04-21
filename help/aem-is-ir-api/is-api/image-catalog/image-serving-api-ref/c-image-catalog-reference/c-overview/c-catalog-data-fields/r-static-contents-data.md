@@ -2,8 +2,8 @@
 description: Les champs suivants sont pris en charge pour les catalogues de contenu statiques (sans image).
 solution: Experience Manager
 title: Données de contenu statique
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

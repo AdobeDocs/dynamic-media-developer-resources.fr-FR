@@ -2,8 +2,8 @@
 description: Contient des informations sur les conditions d’avertissement ou d’erreur générées au cours d’une opération d’actif par lot. Les champs de code et de motif correspondent aux champs de message d'erreur qui auraient été générés pour l'opération non par lot équivalente.
 solution: Experience Manager
 title: AssetOperationFault
-feature: Dynamic Media Classic, SDK/API, Gestion des ressources
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Voici la liste des mots-clés et des commandes prises en charge par le moteur de texte Scene7 Image Serving.
 solution: Experience Manager
 title: Commandes et mots-clés RTF pris en charge
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

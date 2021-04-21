@@ -2,8 +2,8 @@
 description: Renvoie des informations sur la société spécifiée, y compris le nom d’utilisateur de la société, le nom de la société, le chemin d’accès racine et la date d’expiration. Vous devez spécifier companyHandle ou companyName dont vous souhaitez récupérer les informations.
 solution: Experience Manager
 title: getCompanyInfo
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: La vue principale est constituée de l’image statique.
 solution: Experience Manager
 title: Vue de zoom
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Images interactives
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
+role: Developer,Business Practitioner
 exl-id: e83d53a1-bee9-4e4d-8295-a3a350f3ff9c
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

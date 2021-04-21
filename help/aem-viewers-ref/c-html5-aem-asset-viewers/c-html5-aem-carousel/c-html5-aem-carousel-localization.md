@@ -2,8 +2,8 @@
 description: Le contenu affiché par la visionneuse de carrousel est sujet à localisation. Cela inclut les boutons de navigation dans les diapositives.
 solution: Experience Manager
 title: Localisation des éléments de l’interface utilisateur
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Bannières de carrousel
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: 05f5abe0-1124-4114-864d-440699bcdc39
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

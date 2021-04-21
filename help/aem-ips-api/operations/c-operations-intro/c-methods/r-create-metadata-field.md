@@ -2,8 +2,8 @@
 description: Permet aux administrateurs de créer de nouveaux champs de métadonnées afin de les coordonner avec les systèmes de gestion de contenu ou pour les opérations de modèle. Les champs de métadonnées créés sont, par exemple, des mots-clés, des informations sur l’auteur de l’image ou des informations sur le détenteur du copyright.
 solution: Experience Manager
 title: createMetadataField
-feature: Dynamic Media Classic, SDK/API, Métadonnées
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API,Metadata
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

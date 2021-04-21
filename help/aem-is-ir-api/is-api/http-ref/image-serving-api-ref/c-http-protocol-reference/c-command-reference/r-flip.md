@@ -2,8 +2,8 @@
 description: Retourner la couche. Fait pivoter le calque horizontalement, verticalement ou les deux, après avoir appliqué le paramètre culture= et avant de faire pivoter= et étendre=.
 solution: Experience Manager
 title: retourner
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

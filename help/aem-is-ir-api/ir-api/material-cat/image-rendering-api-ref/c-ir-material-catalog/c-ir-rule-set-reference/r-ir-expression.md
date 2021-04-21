@@ -2,8 +2,8 @@
 description: Élément de modèle d’expression régulière. Facultatif dans les éléments <rule>.
 solution: Experience Manager
 title: expression
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

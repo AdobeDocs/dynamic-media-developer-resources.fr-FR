@@ -2,8 +2,8 @@
 description: Décrit les types de données nouveaux et modifiés pour l'API IPS version 4.4.
 solution: Experience Manager
 title: Constantes de chaîne nouvelles et modifiées
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 exl-id: c675db4c-0027-4ecc-851d-91fb2a896aed
 translation-type: tm+mt
 source-git-commit: e7c747c44d27ed1769ab872d962a814d80c0b345

@@ -2,8 +2,8 @@
 description: Indemnisation des points de blocage. Indique si la compensation des points noirs doit être appliquée aux conversions de couleur lorsqu’aucune sélection explicite n’est effectuée avec icc=.
 solution: Experience Manager
 title: IccBlackPointCompensation
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

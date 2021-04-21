@@ -2,8 +2,8 @@
 description: Mode de fusion. Indique le type de fusion utilisé lorsque le calque est composé. Simule les modes de fusion couramment utilisés disponibles dans Photoshop. Consultez la documentation Photoshop pour plus de détails.
 solution: Experience Manager
 title: blendMode
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

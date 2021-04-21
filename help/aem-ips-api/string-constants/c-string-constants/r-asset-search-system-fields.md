@@ -2,8 +2,8 @@
 description: Utilisé par SystemFieldCondition/field.
 solution: Experience Manager
 title: Champs du système de recherche de ressources
-feature: Dynamic Media Classic, SDK/API, Gestion des ressources
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

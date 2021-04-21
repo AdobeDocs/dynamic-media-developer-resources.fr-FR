@@ -2,8 +2,8 @@
 description: Regroupez les fichiers dans des jeux à l’aide d’un tableau de liste de descripteurs de ressources.
 solution: Experience Manager
 title: AutomatedSetGenerationJob
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

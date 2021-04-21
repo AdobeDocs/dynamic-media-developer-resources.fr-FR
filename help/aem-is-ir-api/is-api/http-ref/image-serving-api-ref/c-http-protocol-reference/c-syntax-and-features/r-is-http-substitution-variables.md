@@ -2,8 +2,8 @@
 description: Les variables de substitution sont utilisées pour transférer des valeurs de l’URL de requête vers des modèles de composition stockés dans des catalogues d’images. Les variables peuvent également être utilisées pour transmettre la même valeur à différents emplacements dans une requête complexe.
 solution: Experience Manager
 title: Variables de substitution
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

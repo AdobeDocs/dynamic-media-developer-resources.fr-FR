@@ -2,8 +2,8 @@
 description: Les commandes prises en charge par la diffusion d’images sont répertoriées ci-dessous, regroupées par catégorie brute. Consultez les descriptions de commandes spécifiques pour plus d'informations sur l'utilisation et l'applicabilité.
 solution: Experience Manager
 title: Présentation de la commande de protocole HTTP Image Serving
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

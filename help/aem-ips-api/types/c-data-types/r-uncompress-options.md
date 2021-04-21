@@ -2,8 +2,8 @@
 description: Paramètre de téléchargement pour traiter les fichiers ZIP et TAR en tant que ressources Principales (Aucun) ou pour extraire et télécharger leur contenu (UnCompress).
 solution: Experience Manager
 title: AnnulerCompressionOptions
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

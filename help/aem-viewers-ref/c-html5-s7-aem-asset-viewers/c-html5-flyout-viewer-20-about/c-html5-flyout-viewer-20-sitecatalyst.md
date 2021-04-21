@@ -2,8 +2,8 @@
 description: La visionneuse Fenêtre déroulante prend en charge le suivi Adobe Analytics prêt à l’emploi.
 solution: Experience Manager
 title: Prise en charge du suivi Adobe Analytics
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Fenêtre déroulante
-role: Développeur, Professionnel, Ingénieur de données, Architecte de données
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+role: Developer,Business Practitioner,Data Engineer,Data Architect
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

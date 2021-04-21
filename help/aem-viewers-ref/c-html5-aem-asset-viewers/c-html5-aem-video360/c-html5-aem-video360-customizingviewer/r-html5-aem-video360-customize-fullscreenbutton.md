@@ -2,8 +2,8 @@
 description: Le bouton plein écran permet au lecteur vidéo d’entrer ou de quitter le mode plein écran lorsqu’un utilisateur clique dessus.
 solution: Experience Manager
 title: Bouton Plein écran
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo 360 VR
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: 0cb2b1bd-154e-41d8-bd9f-69a1cfc72902
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: Couleur de couche. Indique la couleur de premier plan et l’opacité des calques de couleur et d’effet unis, ainsi que la couleur de remplissage de la zone de texte pour les calques de texte.
 solution: Experience Manager
 title: couleur
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

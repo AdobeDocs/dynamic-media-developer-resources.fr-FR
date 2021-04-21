@@ -2,8 +2,8 @@
 description: Le panneau Appel à l’action s’affiche à la fin de la vidéo et affiche toutes les nuances interactives associées à la vidéo en question.
 solution: Experience Manager
 title: Appel à l'action
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 43e0ffb3-d650-4b79-ab48-2f32b313b832
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

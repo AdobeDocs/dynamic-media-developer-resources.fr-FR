@@ -2,8 +2,8 @@
 description: Obtient des informations sur un utilisateur. Utilisez l’adresse électronique et le mot de passe d’un utilisateur système comme informations d’identification pour autoriser la demande. Sinon, l’opération obtient des informations sur l’utilisateur par défaut.
 solution: Experience Manager
 title: getUserInfo
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

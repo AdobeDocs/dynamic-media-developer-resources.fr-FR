@@ -2,8 +2,8 @@
 description: Le lecteur prend en charge le mode de fonctionnement plein écran.
 solution: Experience Manager
 title: Prise en charge de plein écran
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Visionneuses à 360°
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

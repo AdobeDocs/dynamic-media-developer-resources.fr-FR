@@ -2,8 +2,8 @@
 description: Le lecteur affiche les régions de résultats de recherche sur la vue principale pour mettre en surbrillance les mots ou les expressions figurant dans le catalogue.
 solution: Experience Manager
 title: Effet de recherche
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

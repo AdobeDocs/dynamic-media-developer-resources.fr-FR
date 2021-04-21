@@ -2,8 +2,8 @@
 description: Résolution de l’objet. Résolution de l’objet pour l’image en taille réelle.
 solution: Experience Manager
 title: Résolution
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Utilisé par ImageMap/shapeType et saveImageMapParam/shapType.
 solution: Experience Manager
 title: Forme de région
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

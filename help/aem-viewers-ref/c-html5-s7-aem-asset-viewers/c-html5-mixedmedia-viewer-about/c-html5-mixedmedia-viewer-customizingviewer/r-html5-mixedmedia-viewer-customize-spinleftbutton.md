@@ -2,8 +2,8 @@
 description: Cliquez ou appuyez sur ce bouton pour faire tourner l’image vers la gauche dans la vue principale. Ce bouton n'est pas affiché sur les téléphones portables pour enregistrer l'espace sur écran. En outre, le bouton est masqué lorsqu’une visionneuse à 360° multidimensionnelle est utilisée. Vous pouvez dimensionner, habiller et positionner le bouton à l’aide de CSS.
 solution: Experience Manager
 title: Bouton à 360° à gauche
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Combiner des visionneuses de supports
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

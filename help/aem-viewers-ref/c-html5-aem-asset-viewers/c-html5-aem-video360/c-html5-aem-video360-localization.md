@@ -2,8 +2,8 @@
 description: Certains contenus affichés par le lecteur sont sujets à localisation. Cela inclut des info-bulles sur les éléments de l’interface utilisateur et un message d’erreur s’affiche lorsque la vidéo ne peut pas être lue.
 solution: Experience Manager
 title: Localisation des éléments de l’interface utilisateur
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo 360 VR
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: d54fd841-2246-4d2e-8bf9-7da56f2487f3
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: Tableau de mises à jour des métadonnées par lot.
 solution: Experience Manager
 title: BatchMetadataUpdateArray
-feature: Dynamic Media Classic, SDK/API, Métadonnées
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API,Metadata
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

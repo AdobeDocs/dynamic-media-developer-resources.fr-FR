@@ -2,8 +2,8 @@
 description: Incorporer les données de chemins. Indique si les chemins Photoshop incorporés dans la vignette doivent être inclus dans l’image de réponse.
 solution: Experience Manager
 title: pathEmbed
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Drapeau du visage. Indique si le fichier de police référencé par cet enregistrement de mappage de polices doit être utilisé lorsque la commande de caractères en gras RTF (\b) le demande.
 solution: Experience Manager
 title: Gras
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

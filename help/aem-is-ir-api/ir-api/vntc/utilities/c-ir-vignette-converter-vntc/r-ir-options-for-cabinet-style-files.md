@@ -2,8 +2,8 @@
 description: Les options suivantes contrôlent le traitement des fichiers de style d'armoire. Ils sont ignorés si sourceFile n'est pas un fichier de style CAB ou si -info est spécifié.
 solution: Experience Manager
 title: Options relatives aux fichiers de style d’armoire
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

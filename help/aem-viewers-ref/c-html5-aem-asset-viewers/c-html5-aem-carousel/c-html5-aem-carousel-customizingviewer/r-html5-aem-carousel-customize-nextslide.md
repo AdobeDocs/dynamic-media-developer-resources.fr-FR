@@ -2,8 +2,8 @@
 description: Cliquez ou appuyez sur le bouton de diapositive suivante pour déplacer un utilisateur vers la diapositive suivante du carrousel.
 solution: Experience Manager
 title: Diapositive suivante
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Bannières de carrousel
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: c64889bb-bcbe-49c6-a0be-b4013ead7b90
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

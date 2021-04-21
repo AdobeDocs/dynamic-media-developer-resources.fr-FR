@@ -2,8 +2,8 @@
 description: Les matériaux décoratifs comprennent les vêtements, tels que les appliques, les t-shirts imprimés et les logos brodés ou imprimés, ainsi que les objets plats non répétables utilisés dans des applications intérieures ou extérieures, tels que les tapis de surface, les peintures murales, les panneaux, etc.
 solution: Experience Manager
 title: Décles
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

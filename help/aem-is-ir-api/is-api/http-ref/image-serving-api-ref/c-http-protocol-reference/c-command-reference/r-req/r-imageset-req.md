@@ -2,8 +2,8 @@
 description: Données de visionneuse d’images issues du catalogue d’images. Renvoie les données de visionneuse d’images pour l’entrée de catalogue d’images spécifiée dans le chemin d’accès de l’URL.
 solution: Experience Manager
 title: imageset
-feature: Dynamic Media Classic, SDK/API, visionneuses d’images
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API,Image Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

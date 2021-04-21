@@ -2,8 +2,8 @@
 description: L’outil de partage de liens est constitué d’un bouton ajouté au panneau de partage Social et de la boîte de dialogue modale qui s’affiche lorsque l’outil est activé. La position du bouton est entièrement gérée par l’outil de partage Social.
 solution: Experience Manager
 title: Partage de liens
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: 638ca6c2-375c-4162-b640-68aed6a8a9c6
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

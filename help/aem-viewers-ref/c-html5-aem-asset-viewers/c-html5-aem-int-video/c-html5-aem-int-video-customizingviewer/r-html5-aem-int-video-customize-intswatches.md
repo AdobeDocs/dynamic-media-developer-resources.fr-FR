@@ -2,8 +2,8 @@
 description: Le panneau Nuanciers interactifs s’affiche en regard du contenu vidéo si des données interactives ont été transmises à la visionneuse en configuration. Il se compose d’une bannière en haut de laquelle est affiché le texte tel que "Cliquer pour la Vue", d’une colonne d’une ou de plusieurs nuances interactives et de deux boutons de défilement (disponibles uniquement sur les systèmes de bureau).
 solution: Experience Manager
 title: Nuances interactives
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: c9ef02eb-f5db-474b-b234-c49508e2af35
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: Le Guide de l’API Image Serving contient des informations sur la configuration et l’utilisation de l’API Image Serving.
 solution: Experience Manager
 title: API de diffusion d’images
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

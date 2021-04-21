@@ -2,8 +2,8 @@
 description: Outre le dimensionnement (size=) et le positionnement (pos=) des calques par rapport au calque 0 et la spécification de l’ordre de composition (l’ordre z) avec la commande layer=, les calques peuvent être pivotés (rotate=) et renversés (flip=).
 solution: Experience Manager
 title: Opérations de couche
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

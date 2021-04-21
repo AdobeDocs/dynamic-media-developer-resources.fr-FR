@@ -2,8 +2,8 @@
 description: Utilisé par MetadataField/type, saveMetadataFieldParam/fieldType et createMetadataField/fieldType.
 solution: Experience Manager
 title: Types de champs de métadonnées
-feature: Dynamic Media Classic, SDK/API, Métadonnées
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API,Metadata
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

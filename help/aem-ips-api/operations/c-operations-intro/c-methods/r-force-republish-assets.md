@@ -2,8 +2,8 @@
 description: Réinitialise l’état de publication d’un ou de plusieurs fichiers afin de forcer leur republication dans la tâche de publication suivante.
 solution: Experience Manager
 title: forceRepublishAssets
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

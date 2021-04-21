@@ -2,8 +2,8 @@
 description: Notes de compatibilité pour les systèmes d’exploitation, les navigateurs et les périphériques mobiles.
 solution: Experience Manager
 title: Notes de compatibilité
-feature: Dynamic Media Classic, Visionneuses, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API
+role: Developer,Business Practitioner
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
 translation-type: tm+mt
 source-git-commit: 62234233bb1a5bcbd0eac5d281b42ed785c0c169

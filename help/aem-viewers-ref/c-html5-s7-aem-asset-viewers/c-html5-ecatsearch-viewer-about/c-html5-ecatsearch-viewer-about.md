@@ -3,8 +3,8 @@ description: Visionneuse de recherche de catalogue électronique est une visionn
 keywords: réactif
 solution: Experience Manager
 title: Recherche dans un catalogue électronique
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Recherche de catalogue électronique
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

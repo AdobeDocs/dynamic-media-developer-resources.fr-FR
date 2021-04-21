@@ -2,8 +2,8 @@
 description: Mode de répétition de la texture. Spécifie le mode de répétition pour les matériaux de texture répétables.
 solution: Experience Manager
 title: répéter
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

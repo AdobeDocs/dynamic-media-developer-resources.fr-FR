@@ -2,8 +2,8 @@
 description: Résolution. Résolution d’image "réelle", généralement exprimée en pixels par pouce, mais peut également se trouver dans d’autres unités, telles que les pixels par mètre.
 solution: Experience Manager
 title: Résolution
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

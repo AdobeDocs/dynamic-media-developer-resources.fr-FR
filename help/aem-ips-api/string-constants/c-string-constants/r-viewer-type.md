@@ -2,7 +2,7 @@
 description: Utilisée par ViewerPresetInfo.
 solution: Experience Manager
 title: Type de visionneuse
-feature: Dynamic Media Classic, SDK/API, Visionneuses
+feature: Dynamic Media Classic,SDK/API,Viewers
 role: Developer,Administrator
 exl-id: 35a11828-d188-4025-8133-154437ba2466
 translation-type: tm+mt

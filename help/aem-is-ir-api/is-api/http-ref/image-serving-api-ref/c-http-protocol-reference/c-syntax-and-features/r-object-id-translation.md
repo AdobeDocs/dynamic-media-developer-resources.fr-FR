@@ -2,8 +2,8 @@
 description: La diffusion d’images offre un mécanisme de conversion des identifiants d’objet externe en identifiants d’objet (catalogue) spécifiques aux paramètres régionaux. L’application Principale permet de fournir du contenu et du contenu propres aux paramètres régionaux partagés entre plusieurs paramètres régionaux sans que l’application cliente ait besoin de connaître les ID d’objet propres aux paramètres régionaux.
 solution: Experience Manager
 title: Traduction de l’ID d’objet
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

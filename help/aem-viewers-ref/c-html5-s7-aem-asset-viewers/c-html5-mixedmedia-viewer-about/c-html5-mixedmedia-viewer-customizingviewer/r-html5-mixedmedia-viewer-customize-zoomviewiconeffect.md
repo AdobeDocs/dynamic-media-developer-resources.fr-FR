@@ -2,8 +2,8 @@
 description: L’indicateur de zoom est superposé sur la zone de vue de zoom. Elle s’affiche lorsque l’image est à l’état reset et dépend également du paramètre iconeffect.
 solution: Experience Manager
 title: Effet d’icône de vue de zoom
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Combiner des visionneuses de supports
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

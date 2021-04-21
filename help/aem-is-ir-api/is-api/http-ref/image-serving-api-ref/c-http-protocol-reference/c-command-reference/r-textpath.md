@@ -2,8 +2,8 @@
 description: Chemin d’accès au texte. Spécifie le chemin d’accès à utiliser comme ligne de base pour le texte fourni avec textPs=.
 solution: Experience Manager
 title: textPath
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

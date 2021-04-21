@@ -2,8 +2,8 @@
 description: Type de données de chaîne de texte.
 solution: Experience Manager
 title: Chaîne de texte
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

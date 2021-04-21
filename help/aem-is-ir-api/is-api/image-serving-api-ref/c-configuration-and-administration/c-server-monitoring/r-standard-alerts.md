@@ -2,8 +2,8 @@
 description: Les alertes standard sont envoyées avec un message électronique consolidé à la fin de l’intervalle de moyenne configuré.
 solution: Experience Manager
 title: Alertes standard
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

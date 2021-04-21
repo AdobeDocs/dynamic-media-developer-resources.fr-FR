@@ -2,8 +2,8 @@
 description: Utilisation des masques d’image. Indique comment le masque ou le canal alpha de l’image est utilisé pour les opérations sur l’image (par exemple, colorize=). Lorsqu’il est spécifié dans un calque d’effet, il permet d’appliquer l’effet à la zone d’arrière-plan du calque parent ou à l’ensemble du rectangle du calque parent.
 solution: Experience Manager
 title: maskUse
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

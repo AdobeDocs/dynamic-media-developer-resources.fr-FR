@@ -2,8 +2,8 @@
 description: Documentation sur les attributs de configuration pour le lecteur de contenu Fenêtre déroulante
 solution: Experience Manager
 title: Référence de commande - Attributs de configuration
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Fenêtre déroulante
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

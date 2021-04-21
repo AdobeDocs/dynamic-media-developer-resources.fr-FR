@@ -2,8 +2,8 @@
 description: Les ensembles de propriétés sont des ensembles de paires nom-valeur spécifiques à l'application qui peuvent être attachés à divers objets IPS, selon le type de jeu de propriétés. Si le type de jeu de propriétés n'autorise pas l'association de plusieurs jeux à un objet (PropertySetType/allowMultipleisfalse) et que l'objet a déjà un jeu associé du même type, le nouveau jeu remplace celui existant.
 solution: Experience Manager
 title: createPropertySet
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 exl-id: e9f85e65-4a2f-4b82-b7b8-d0d60b8345cd
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

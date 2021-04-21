@@ -2,8 +2,8 @@
 description: Les fichiers de vignette peuvent être remplacés ou supprimés pendant que le serveur est actif en utilisant la commande req=release juste avant le remplacement du fichier.
 solution: Experience Manager
 title: Suppression ou remplacement des fichiers de données source
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

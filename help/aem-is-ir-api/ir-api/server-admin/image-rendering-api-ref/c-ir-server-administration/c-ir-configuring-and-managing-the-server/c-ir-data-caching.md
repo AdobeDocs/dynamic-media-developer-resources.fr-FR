@@ -2,8 +2,8 @@
 description: Le rendu des images utilise les fonctions de mise en cache du service d’images pour enregistrer les données d’image de réponse, les données intermédiaires pour les requêtes imbriquées/incorporées et les données d’image source (telles que les textures) obtenues à partir d’une source externe.
 solution: Experience Manager
 title: Mise en cache des données
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

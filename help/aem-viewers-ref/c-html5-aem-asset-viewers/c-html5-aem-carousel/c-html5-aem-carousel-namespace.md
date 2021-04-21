@@ -2,8 +2,8 @@
 description: Espace de nommage SDK du lecteur
 solution: Experience Manager
 title: Espace de nommage SDK du lecteur
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Bannières de carrousel
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: 1712f08c-70e6-483e-a4e5-614448f35374
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

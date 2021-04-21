@@ -2,8 +2,8 @@
 description: Masque une partie d’une image. Le masque est toujours associé à l’image. Obtenez un masque à partir d’ImageInfo.
 solution: Experience Manager
 title: Masque
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Le lecteur affiche des icônes de zones réactives sur la vue principale dans les endroits où des zones réactives ont été créées à l’origine dans Dynamic Media of AEM Assets - à la demande.
 solution: Experience Manager
 title: Zones réactives et zones cliquables
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Bannières de carrousel
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: 70517201-9d59-4d9c-986d-a6e9655b7956
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

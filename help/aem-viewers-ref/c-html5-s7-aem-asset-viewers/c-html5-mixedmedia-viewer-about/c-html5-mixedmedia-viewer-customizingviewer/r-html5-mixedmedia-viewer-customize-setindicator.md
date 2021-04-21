@@ -2,8 +2,8 @@
 description: L’indicateur défini est une série de points affichés sur les nuances principales lorsqu’une visionneuse est utilisée sur un périphérique tactile. Les points aident les utilisateurs à parcourir les pages des miniatures lorsque les boutons de défilement ne sont pas disponibles.
 solution: Experience Manager
 title: Définir l’indicateur
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Combiner des visionneuses de supports
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

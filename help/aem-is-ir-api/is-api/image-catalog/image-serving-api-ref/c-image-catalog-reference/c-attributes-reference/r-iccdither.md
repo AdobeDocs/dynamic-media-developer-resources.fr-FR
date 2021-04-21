@@ -2,8 +2,8 @@
 description: Tracé de conversion des couleurs. Indique si l’interpolation doit être utilisée pour améliorer la qualité perceptive des conversions de couleur lorsqu’aucune sélection explicite n’est effectuée avec icc=.
 solution: Experience Manager
 title: IccDither
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

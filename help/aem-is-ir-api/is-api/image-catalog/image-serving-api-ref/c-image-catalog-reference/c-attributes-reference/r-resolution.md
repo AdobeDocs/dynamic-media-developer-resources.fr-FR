@@ -2,8 +2,8 @@
 description: Résolution d’objet par défaut. Fournit une résolution d’objet par défaut au cas où un enregistrement de catalogue spécifique ne contiendrait pas de valeur de résolution de catalogue valide.
 solution: Experience Manager
 title: Résolution
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

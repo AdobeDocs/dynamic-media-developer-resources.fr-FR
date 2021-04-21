@@ -2,8 +2,8 @@
 description: Nom de la macro. Les noms de macro peuvent être composés de toute combinaison de caractères alphabétiques, de chiffres et de caractères sûrs, à l’exclusion de $.
 solution: Experience Manager
 title: Nom
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

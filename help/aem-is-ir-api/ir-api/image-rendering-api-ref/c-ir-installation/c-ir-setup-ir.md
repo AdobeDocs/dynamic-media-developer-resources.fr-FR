@@ -2,8 +2,8 @@
 description: Le rendu d’image est configuré avec le répertoire fileinstall_folder/conf/ImageRendering.conf.
 solution: Experience Manager
 title: Configuration et configuration du rendu d’image
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

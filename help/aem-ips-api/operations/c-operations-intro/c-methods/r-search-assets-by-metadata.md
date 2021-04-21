@@ -2,8 +2,8 @@
 description: Recherche dans le référentiel d’index de métadonnées les termes de recherche donnés. Renvoie des données d’actif comme la méthode searchAssets.
 solution: Experience Manager
 title: searchAssetsByMetadata
-feature: Dynamic Media Classic, SDK/API, Métadonnées, Gestion des ressources
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

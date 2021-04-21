@@ -2,8 +2,8 @@
 description: Supprime les valeurs de métadonnées d’un fichier. Fonctionne avec un tableau de métadonnées supprimées pour définir des valeurs dans un lot.
 solution: Experience Manager
 title: deleteAssetMetadata
-feature: Dynamic Media Classic, SDK/API, Métadonnées, Gestion des ressources
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

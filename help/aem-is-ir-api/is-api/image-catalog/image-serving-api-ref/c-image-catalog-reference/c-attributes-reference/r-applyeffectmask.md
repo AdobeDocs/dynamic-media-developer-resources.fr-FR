@@ -2,8 +2,8 @@
 description: Vous pouvez également appliquer le masque final sur les calques d’effet pour masquer la zone de chevauchement entre un effet et un calque.
 solution: Experience Manager
 title: ApplyEffectMask
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

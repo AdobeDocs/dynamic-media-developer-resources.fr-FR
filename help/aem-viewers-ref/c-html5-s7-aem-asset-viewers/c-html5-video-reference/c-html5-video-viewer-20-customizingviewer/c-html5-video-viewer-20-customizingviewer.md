@@ -3,8 +3,8 @@ description: Personnalisation de la visionneuse de vidéos
 keywords: réactif
 solution: Experience Manager
 title: Personnalisation de la visionneuse de vidéos
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

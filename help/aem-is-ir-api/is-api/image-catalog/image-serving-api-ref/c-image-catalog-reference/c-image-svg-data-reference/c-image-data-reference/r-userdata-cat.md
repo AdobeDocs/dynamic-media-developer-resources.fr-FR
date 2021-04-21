@@ -2,8 +2,8 @@
 description: Données utilisateur. Le serveur renvoie le contenu de ce champ au client en réponse à req=userdata.
 solution: Experience Manager
 title: Données utilisateur
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

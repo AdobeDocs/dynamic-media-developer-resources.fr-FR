@@ -2,8 +2,8 @@
 description: Crée un jeu de fichiers générique avec une chaîne de définition de jeu brut à publier sur un serveur d’images.
 solution: Experience Manager
 title: createAssetSet
-feature: Dynamic Media Classic, SDK/API, Gestion des ressources
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

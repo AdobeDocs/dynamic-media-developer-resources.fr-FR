@@ -2,8 +2,8 @@
 description: La zone principale de la vue est occupée par la vidéo. Il s'adapte généralement à l'écran du périphérique disponible lorsqu'aucune taille n'est spécifiée.
 solution: Experience Manager
 title: Zone du lecteur principal
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

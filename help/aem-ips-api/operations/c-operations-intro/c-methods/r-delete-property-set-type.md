@@ -2,8 +2,8 @@
 description: Supprime un type de jeu de propriétés et son jeu de propriétés et ses propriétés associés.
 solution: Experience Manager
 title: deletePropertySetType
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

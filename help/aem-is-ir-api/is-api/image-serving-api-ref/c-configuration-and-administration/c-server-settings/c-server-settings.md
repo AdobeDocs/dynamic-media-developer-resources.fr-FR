@@ -2,8 +2,8 @@
 description: Cette section décrit tous les paramètres de configuration modifiables, regroupés par domaines d’intérêt.
 solution: Experience Manager
 title: Paramètres du serveur
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Chemin du fichier de profil. Chemin et nom du fichier de profil de couleurs ICC, y compris le suffixe du fichier.
 solution: Experience Manager
 title: ProfilePath
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

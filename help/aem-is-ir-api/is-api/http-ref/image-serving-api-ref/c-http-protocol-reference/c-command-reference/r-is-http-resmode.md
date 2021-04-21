@@ -2,8 +2,8 @@
 description: Mode de rééchantillonnage. Choisit l’algorithme de rééchantillonnage et/ou d’interpolation à utiliser pour la mise à l’échelle des données d’image. S’applique également à la rotation des calques de texte et au redimensionnement des images composites pendant la transformation de la vue.
 solution: Experience Manager
 title: resMode
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 exl-id: 63c1c028-0378-4a38-8018-e358491786d8
 translation-type: tm+mt
 source-git-commit: b08d1f5b0aa512be4a6e6a4d45d8d4dec15ca1db

@@ -2,8 +2,8 @@
 description: Récupère un type de jeu de propriétés à l’aide d’une poignée vers une société et du nom du type de jeu de propriétés. Il obtient une structure de type avec la poignée pour le type ainsi que le type de propriété.
 solution: Experience Manager
 title: getPropertySetType
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

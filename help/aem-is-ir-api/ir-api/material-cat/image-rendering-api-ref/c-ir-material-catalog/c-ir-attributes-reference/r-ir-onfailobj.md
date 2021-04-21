@@ -2,8 +2,8 @@
 description: Gestion des erreurs de sélection d’objets. Indique l’action à exécuter si la commande obj= échoue, car le chemin spécifié ne peut pas être mis en correspondance dans la hiérarchie d’objets de vignette.
 solution: Experience Manager
 title: OnFailObj
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

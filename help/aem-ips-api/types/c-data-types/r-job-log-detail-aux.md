@@ -2,8 +2,8 @@
 description: Contient des messages supplémentaires associés au message principal du journal des tâches (JobDetail). Inclut des avertissements et d’autres détails associés à la ressource traitée actuellement.
 solution: Experience Manager
 title: JobLogDetailAux
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

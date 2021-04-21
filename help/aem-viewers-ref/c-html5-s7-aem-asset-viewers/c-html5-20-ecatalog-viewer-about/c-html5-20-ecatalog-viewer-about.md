@@ -3,8 +3,8 @@ description: Visionneuse de catalogue électronique est une visionneuse de catal
 keywords: réactif
 solution: Experience Manager
 title: Catalogue électronique
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Catalogue électronique
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

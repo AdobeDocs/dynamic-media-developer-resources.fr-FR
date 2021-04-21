@@ -2,8 +2,8 @@
 description: Permet de recadrer le cadre de sélection d’un chemin nommé incorporé. Ce recadrage, à son tour, modifie la taille de l’image.
 solution: Experience Manager
 title: culturePathE
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

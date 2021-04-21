@@ -2,8 +2,8 @@
 description: Les matériaux utilisés pour couvrir les fenêtres comprennent à la fois des tentures douces (tentures, valises, rideaux de café), ainsi que des revêtements de fenêtres durs (tons et stores).
 solution: Experience Manager
 title: Revêtements de fenêtre
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

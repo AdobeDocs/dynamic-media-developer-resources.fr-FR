@@ -2,8 +2,8 @@
 description: La localisation de chaînes de texte permet aux catalogues d’images de contenir plusieurs représentations spécifiques aux paramètres régionaux pour la même valeur de chaîne.
 solution: Experience Manager
 title: Localisation de chaîne de texte
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

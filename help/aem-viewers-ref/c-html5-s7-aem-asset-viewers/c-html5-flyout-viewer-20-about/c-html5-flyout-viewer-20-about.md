@@ -3,8 +3,8 @@ description: La visionneuse Fenêtre déroulante est une visionneuse d’images.
 keywords: réactif
 solution: Experience Manager
 title: Fenêtre déroulante
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Fenêtre déroulante
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Les calques sont positionnés en alignant l’origine du calque (origine=) avec l’origine du calque d’arrière-plan à un décalage spécifié par pos=.
 solution: Experience Manager
 title: Emplacement des calques
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

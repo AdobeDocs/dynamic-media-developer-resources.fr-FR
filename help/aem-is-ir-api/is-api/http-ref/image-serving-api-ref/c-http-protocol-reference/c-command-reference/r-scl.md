@@ -2,8 +2,8 @@
 description: Vue à l’échelle. Met à l’échelle l’image composite par l’inverse de l’argument FacteurInverse.
 solution: Experience Manager
 title: scl
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

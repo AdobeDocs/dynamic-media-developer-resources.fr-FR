@@ -2,8 +2,8 @@
 description: En mode de zoom intégré, la vue principale consiste en l’image statique, l’image agrandie affichée dans la vue de la fenêtre déroulante sur l’image statique et le message d’info-bulle affiché au-dessus de l’image statique.
 solution: Experience Manager
 title: Affichage de zoom déroulant
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Combiner des visionneuses de supports
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

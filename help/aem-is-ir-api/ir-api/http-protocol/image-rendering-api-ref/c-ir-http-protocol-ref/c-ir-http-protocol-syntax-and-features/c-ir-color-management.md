@@ -2,8 +2,8 @@
 description: Le rendu d’image prend en charge les conversions d’espace colorimétrique en fonction de profils d’espace colorimétrique conformes à la spécification ICC (International Color Consortium).
 solution: Experience Manager
 title: Gestion des couleurs de rendu d’image *
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

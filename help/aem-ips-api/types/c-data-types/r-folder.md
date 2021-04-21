@@ -2,8 +2,8 @@
 description: Objet d’enregistrement de fichier ou de fichier hiérarchique. Les dossiers peuvent contenir un ou plusieurs sous-dossiers.
 solution: Experience Manager
 title: Dossier
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

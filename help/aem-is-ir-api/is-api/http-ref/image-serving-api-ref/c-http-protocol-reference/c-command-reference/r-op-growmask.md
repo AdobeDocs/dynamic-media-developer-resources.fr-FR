@@ -2,8 +2,8 @@
 description: Dilate/erode image. Applique un dilate morphologique (rayon > 0) ou une érode (rayon < 0) aux données du masque.
 solution: Experience Manager
 title: op_grewMask
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

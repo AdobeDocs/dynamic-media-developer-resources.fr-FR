@@ -2,8 +2,8 @@
 description: La classe principale de Flyout Viewer est FlyoutViewer. Elle est déclarée dans l’espace de nommage s7viewers. Cette API JavaScript couvre le constructeur, les méthodes et les rappels de cette classe particulière.
 solution: Experience Manager
 title: Référence de l’API JavaScript pour le lecteur de contenu Flash
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Fenêtre déroulante
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

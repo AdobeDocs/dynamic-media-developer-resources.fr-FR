@@ -2,8 +2,8 @@
 description: Récupère les chaînes de recherche, les mots-clés et d’autres informations sur un fichier. La réponse contient des informations supplémentaires sur la ressource.
 solution: Experience Manager
 title: getSearchStrings
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Diffusion de contenu statique (sans image)
 solution: Experience Manager
 title: Diffusion de contenu statique (sans image)
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

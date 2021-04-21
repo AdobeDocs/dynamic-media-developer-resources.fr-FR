@@ -2,8 +2,8 @@
 description: Suffixe de fichier image par défaut. Ajouté à la valeur du champ Chemin d’accès au catalogue (ou chemin d’accès au catalogue) si le chemin d’accès n’inclut pas de suffixe de fichier
 solution: Experience Manager
 title: DefaultExt
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

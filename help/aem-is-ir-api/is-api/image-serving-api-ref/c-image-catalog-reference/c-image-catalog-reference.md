@@ -2,8 +2,8 @@
 description: Les catalogues d’images fournissent au serveur des informations sur les images et les données prises en charge, telles que les polices et les profils ICC.
 solution: Experience Manager
 title: Référence du catalogue d’images
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

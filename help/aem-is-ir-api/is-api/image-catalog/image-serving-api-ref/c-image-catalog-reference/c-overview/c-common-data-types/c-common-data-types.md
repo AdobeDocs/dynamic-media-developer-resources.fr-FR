@@ -2,8 +2,8 @@
 description: Les attributs et les champs du catalogue peuvent contenir des données de l’un des types suivants.
 solution: Experience Manager
 title: Types de données courants
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

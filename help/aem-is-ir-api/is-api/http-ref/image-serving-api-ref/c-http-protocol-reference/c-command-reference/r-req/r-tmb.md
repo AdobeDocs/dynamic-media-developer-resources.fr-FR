@@ -2,8 +2,8 @@
 description: Image miniature. Demande les données d’image formatées et dimensionnées à l’aide de critères de vignettes de catalogue.
 solution: Experience Manager
 title: tmb
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

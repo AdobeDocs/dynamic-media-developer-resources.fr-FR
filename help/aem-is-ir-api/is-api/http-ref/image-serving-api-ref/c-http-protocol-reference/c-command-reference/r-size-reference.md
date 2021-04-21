@@ -2,8 +2,8 @@
 description: Taille de calque. Indique la taille ou la taille maximale du calque, avant que rotate=, perspective= et extended= ne soient appliqués au calque.
 solution: Experience Manager
 title: taille
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

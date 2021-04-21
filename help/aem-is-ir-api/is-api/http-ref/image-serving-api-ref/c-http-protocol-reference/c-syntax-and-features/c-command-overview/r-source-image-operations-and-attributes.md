@@ -2,8 +2,8 @@
 description: Ces commandes s’appliquent aux images source utilisées dans des requêtes simples ou dans des calques d’image, ainsi qu’aux masques attachés à des calques de couleur unie.
 solution: Experience Manager
 title: Opérations d’image source
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

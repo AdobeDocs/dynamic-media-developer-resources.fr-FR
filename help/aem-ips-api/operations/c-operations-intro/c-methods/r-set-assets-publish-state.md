@@ -2,8 +2,8 @@
 description: Détermine si un lot de fichiers est prêt à être publié.
 solution: Experience Manager
 title: setAssetsPublishState
-feature: Dynamic Media Classic, SDK/API, Gestion des ressources
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

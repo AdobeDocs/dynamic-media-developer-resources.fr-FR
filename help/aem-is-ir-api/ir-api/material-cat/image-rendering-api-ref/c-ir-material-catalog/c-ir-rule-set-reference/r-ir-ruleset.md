@@ -2,8 +2,8 @@
 description: Elément conteneur de règles. Un fichier de jeu de règles valide contient un élément <ensemble de règles>.
 solution: Experience Manager
 title: ensemble de règles
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

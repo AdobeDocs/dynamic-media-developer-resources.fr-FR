@@ -2,8 +2,8 @@
 description: Données de visionneuse d’images. Fournit un mécanisme permettant de définir des jeux triés d’images et des attributs de contrôle utilisés par les visionneuses Dynamic Media.
 solution: Experience Manager
 title: ImageSet
-feature: Dynamic Media Classic, SDK/API, visionneuses d’images
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API,Image Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

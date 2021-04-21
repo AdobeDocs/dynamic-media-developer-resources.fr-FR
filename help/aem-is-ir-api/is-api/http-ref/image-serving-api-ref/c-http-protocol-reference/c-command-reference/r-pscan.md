@@ -2,8 +2,8 @@
 description: Analyse JPEG progressive. Le format JPEG progressif affiche une image de telle sorte qu’elle affiche initialement une photo floue/de faible qualité dans son intégralité. Au fur et à mesure que la numérisation se poursuit, elle devient plus claire à mesure que les données de l’image sont téléchargées. Ce paramètre vous permet de définir le nombre d’analyses nécessaires (3, 4 ou 5) pour que l’image entière s’affiche.
 solution: Experience Manager
 title: pscan
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

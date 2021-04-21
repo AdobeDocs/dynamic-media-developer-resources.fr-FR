@@ -2,8 +2,8 @@
 description: Position de la poubelle. Définit le décalage, en pouces, entre le point d’ancrage= de l’image de la poubelle et le point d’origine de la poubelle défini par l’objet de vignette de cible.
 solution: Experience Manager
 title: pos
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

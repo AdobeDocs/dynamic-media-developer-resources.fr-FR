@@ -2,8 +2,8 @@
 description: Le bouton Lecture/Pause permet au lecteur vidéo de lire ou de mettre en pause le contenu vidéo lorsqu’un utilisateur clique dessus.
 solution: Experience Manager
 title: Bouton Lecture/Pause
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner
 exl-id: bbf34037-b571-4dc9-be52-070aef014c31
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

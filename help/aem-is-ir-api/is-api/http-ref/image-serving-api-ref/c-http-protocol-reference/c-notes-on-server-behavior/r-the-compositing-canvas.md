@@ -2,8 +2,8 @@
 description: Si req=img, la taille de la trame de composition est entièrement déterminée par la taille du calque 0.
 solution: Experience Manager
 title: La trame de composition
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

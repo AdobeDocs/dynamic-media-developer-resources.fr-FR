@@ -2,8 +2,8 @@
 description: Le serveur de plateformes met en cache toutes les images de réponse et certaines données de texte sur le disque, sauf si une requête est marquée comme non pouvant être mise en cache.
 solution: Experience Manager
 title: Cache de données de réponse
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

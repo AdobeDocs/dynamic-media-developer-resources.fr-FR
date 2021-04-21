@@ -2,8 +2,8 @@
 description: IS fournit des mécanismes pour simplifier l’utilisation des zones cliquables HTML. Les lecteurs basés sur JAVA et sur Flash dans IS incluent également une prise en charge limitée des zones cliquables.
 solution: Experience Manager
 title: Zones cliquables
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

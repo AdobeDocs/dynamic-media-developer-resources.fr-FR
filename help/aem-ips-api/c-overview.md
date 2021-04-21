@@ -2,8 +2,8 @@
 description: L'API Service Web IPS (Image Production System) permet aux applications externes et aux développeurs tiers d'accéder par programmation aux ressources et fonctionnalités d'IPS.
 solution: Experience Manager
 title: A propos de l’API du système de production d’images
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 exl-id: c03e415f-57eb-4706-a17c-68d8469fba91
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

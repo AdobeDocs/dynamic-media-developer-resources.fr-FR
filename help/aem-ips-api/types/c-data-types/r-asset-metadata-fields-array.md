@@ -2,8 +2,8 @@
 description: Tableau de AssetMetadataFields. Utilisé par getAssetMetadataFields pour renvoyer tous les champs de métadonnées de fichier dans un seul appel avec des résultats regroupés par type de ressource.
 solution: Experience Manager
 title: AssetMetadataFieldsArray
-feature: Dynamic Media Classic, SDK/API, Métadonnées, Gestion des ressources
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

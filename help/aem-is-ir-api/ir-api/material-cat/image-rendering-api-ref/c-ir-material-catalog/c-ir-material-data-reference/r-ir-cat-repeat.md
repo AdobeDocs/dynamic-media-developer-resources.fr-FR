@@ -2,8 +2,8 @@
 description: Mode de répétition de la texture. Indique le mode de mosaïque des images de texture pour remplir la surface de la cible.
 solution: Experience Manager
 title: Repeat
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

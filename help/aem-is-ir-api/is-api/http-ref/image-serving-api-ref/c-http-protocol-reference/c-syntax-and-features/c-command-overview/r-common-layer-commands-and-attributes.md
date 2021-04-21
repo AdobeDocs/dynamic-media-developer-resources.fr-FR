@@ -2,8 +2,8 @@
 description: Ces commandes s’appliquent aux calques d’image, de texte et de couleur unie. La plupart ne sont pas significatifs pour l’image composite et pour les requêtes simples et non superposées. Elles ne s’appliquent pas aux couches d’effets.
 solution: Experience Manager
 title: Commandes de calques courantes
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

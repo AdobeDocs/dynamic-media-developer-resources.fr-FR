@@ -2,8 +2,8 @@
 description: Informations relatives aux fichiers vidéo Principaux.
 solution: Experience Manager
 title: MasterVideoInfo
-feature: Dynamic Media Classic, SDK/API, Vidéo
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API,Video
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Les composants Image Serving sont gérés par le Contrôleur de serveur, qui est un démon Linux ou un service Windows (S7Supervisor.exe, répertorié comme "Service d’image Dynamic Media" dans le Panneau de Contrôle Services).
 solution: Experience Manager
 title: Responsable du serveur
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

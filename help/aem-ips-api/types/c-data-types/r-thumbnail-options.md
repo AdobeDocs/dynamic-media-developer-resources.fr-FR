@@ -2,8 +2,8 @@
 description: Type facultatif qui vous permet de choisir une image vidéo particulière à utiliser comme image miniature.
 solution: Experience Manager
 title: ThumbnailOptions
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Mise à jour des informations relatives aux propriétés des polices.
 solution: Experience Manager
 title: FontFieldUpdate
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

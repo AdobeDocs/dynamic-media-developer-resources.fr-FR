@@ -2,8 +2,8 @@
 description: Définit la cible de zoom associée à une image de fichier. Il remplace les cibles de zoom existantes.
 solution: Experience Manager
 title: setZoomTargets
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

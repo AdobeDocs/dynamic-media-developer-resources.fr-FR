@@ -2,8 +2,8 @@
 description: Les fichiers d’attributs de catalogue reconnaissent ces attributs de gestion de catalogue.
 solution: Experience Manager
 title: Gestion des catalogues
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Fichier matière. Spécifie les données de matériau, sous la forme d'une référence de catalogue de matériau unique, ou sous la forme d'un ou deux fichiers d'image ou de données de matériau, séparés par une virgule.
 solution: Experience Manager
 title: src
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

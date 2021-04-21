@@ -2,8 +2,8 @@
 description: ID de paramètre régional par défaut. ID de paramètre régional à utiliser à des fins de localisation/traduction lorsque locale= n’est pas spécifié dans la requête.
 solution: Experience Manager
 title: DefaultLocale
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

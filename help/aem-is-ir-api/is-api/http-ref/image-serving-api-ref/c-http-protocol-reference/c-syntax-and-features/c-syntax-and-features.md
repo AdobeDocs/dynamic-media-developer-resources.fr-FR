@@ -2,8 +2,8 @@
 description: Les rubriques de cette section décrivent la syntaxe et les fonctionnalités des protocoles HTTP.
 solution: Experience Manager
 title: Syntaxe et fonctionnalités
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Chaîne de modificateur de requête. Aucune ou plusieurs commandes de rendu d’image séparées par des caractères "&". Permet de stocker des modèles et des modificateurs qui doivent être appliqués chaque fois qu’une demande d’entrée de mappage de vignettes est effectuée.
 solution: Experience Manager
 title: Modificateur
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

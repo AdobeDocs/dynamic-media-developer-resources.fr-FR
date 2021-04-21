@@ -2,8 +2,8 @@
 description: Pour les développeurs Scene7 uniquement. Reportez-vous à la section Attributs de catalogue de matériaux de rendu d'image de référence.
 solution: Experience Manager
 title: setImageRenderingPublishSettings
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

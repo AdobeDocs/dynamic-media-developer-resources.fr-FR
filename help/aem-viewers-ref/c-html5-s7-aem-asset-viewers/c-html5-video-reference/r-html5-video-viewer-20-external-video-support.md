@@ -2,8 +2,8 @@
 description: Le lecteur prend en charge la lecture de vidéos hébergées en dehors de Dynamic Media Classic ou de AEM Dynamic Media.
 solution: Experience Manager
 title: Prise en charge vidéo externe
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Accentuation des matériaux par défaut. Définit le mode d’accentuation des matériaux par défaut au cas où un enregistrement de catalogue spécifique ne contiendrait pas de valeur d’accentuation de catalogue valide.
 solution: Experience Manager
 title: Sharp
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

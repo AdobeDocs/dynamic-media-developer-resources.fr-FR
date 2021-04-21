@@ -2,8 +2,8 @@
 description: Le rendu d’image permet l’incorporation de requêtes de diffusion d’images et de requêtes HTTP à des serveurs étrangers afin de récupérer les images matérielles utilisées pour les textures et les décalages répétables.
 solution: Experience Manager
 title: Demande d'imbrication et d'incorporation *
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

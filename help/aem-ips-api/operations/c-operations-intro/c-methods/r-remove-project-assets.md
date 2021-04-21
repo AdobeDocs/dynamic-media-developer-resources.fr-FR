@@ -2,8 +2,8 @@
 description: Supprime des actifs d’un projet. Ne détruit pas les actifs.
 solution: Experience Manager
 title: removeProjectAssets
-feature: Dynamic Media Classic, SDK/API, Gestion des ressources
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

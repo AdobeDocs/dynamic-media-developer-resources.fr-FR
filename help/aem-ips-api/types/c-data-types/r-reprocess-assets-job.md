@@ -2,8 +2,8 @@
 description: Type de tâche permettant le retraitement des fichiers Principaux précédemment téléchargés, y compris la réexportation de fichiers PDF et la réoptimisation des images.
 solution: Experience Manager
 title: ReprocessAssetsJob
-feature: Dynamic Media Classic, SDK/API, Gestion des ressources
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

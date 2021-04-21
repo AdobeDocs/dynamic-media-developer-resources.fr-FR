@@ -2,8 +2,8 @@
 description: Cette catégorie de matériau comprend des peintures pour murs, boiseries et garnitures, automobile, ainsi que toute autre application où les textures ne sont pas requises.
 solution: Experience Manager
 title: Couleurs unies
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

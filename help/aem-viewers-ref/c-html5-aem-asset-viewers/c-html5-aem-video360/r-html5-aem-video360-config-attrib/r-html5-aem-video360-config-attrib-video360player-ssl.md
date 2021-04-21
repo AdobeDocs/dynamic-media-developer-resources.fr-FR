@@ -2,8 +2,8 @@
 description: Attribut de configuration pour la visionneuse Video360.
 solution: Experience Manager
 title: Video360Player.ssl
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo 360 VR
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: 44efa378-c911-4449-8a10-61212d4392c6
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

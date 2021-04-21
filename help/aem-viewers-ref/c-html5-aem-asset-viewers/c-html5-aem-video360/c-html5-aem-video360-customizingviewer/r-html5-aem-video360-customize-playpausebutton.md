@@ -2,8 +2,8 @@
 description: Le bouton Lecture/Pause permet au lecteur vidéo de lire ou de mettre en pause le contenu vidéo lorsqu’un utilisateur clique dessus.
 solution: Experience Manager
 title: Bouton Lecture/Pause
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo 360 VR
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: 5f8741a4-d286-4b2d-8a11-23bce119209a
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

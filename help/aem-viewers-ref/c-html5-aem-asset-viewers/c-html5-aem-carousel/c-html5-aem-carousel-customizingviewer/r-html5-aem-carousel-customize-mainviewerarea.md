@@ -2,8 +2,8 @@
 description: La zone principale de la vue est la zone occupée par l'image de la bannière du carrousel. Il est généralement configuré pour s'adapter à l'écran du périphérique disponible lorsqu'aucune taille n'est spécifiée.
 solution: Experience Manager
 title: Zone du lecteur principal
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Bannières de carrousel
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: bdac54f5-79e3-4d3d-9c7e-d9a7cec61c73
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

@@ -2,8 +2,8 @@
 description: Les catalogues d’images offrent de nombreux paramètres de configuration de serveur, ainsi que des polices, des profils ICC et des macros de commande.
 solution: Experience Manager
 title: Catalogues d’images
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

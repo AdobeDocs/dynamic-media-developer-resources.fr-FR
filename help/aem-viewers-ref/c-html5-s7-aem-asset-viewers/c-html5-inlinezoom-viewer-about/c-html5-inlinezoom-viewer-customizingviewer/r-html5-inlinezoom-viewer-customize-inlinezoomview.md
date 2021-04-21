@@ -2,8 +2,8 @@
 description: La vue principale se compose de l’image statique, de l’image zoomée affichée dans la vue de la fenêtre déroulante au-dessus de l’image statique et du message d’info-bulle affiché au-dessus de l’image statique.
 solution: Experience Manager
 title: Vue de zoom déroulant
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Zoom intégré
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

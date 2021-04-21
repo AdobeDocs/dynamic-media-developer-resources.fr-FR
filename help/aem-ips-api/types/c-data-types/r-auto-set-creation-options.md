@@ -2,8 +2,8 @@
 description: Liste automatique de script de génération de jeux pour les tâches de transfert. Suppose que chaque script spécifié pour le transfert est appliqué à toutes les ressources téléchargées.
 solution: Experience Manager
 title: OptionsCréationAutoSet
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
 workflow-type: tm+mt

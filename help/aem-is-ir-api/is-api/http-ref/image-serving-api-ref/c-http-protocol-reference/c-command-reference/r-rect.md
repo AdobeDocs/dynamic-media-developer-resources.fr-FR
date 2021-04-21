@@ -2,8 +2,8 @@
 description: Rectangle final de la vue. Permet de démonter l'image de la vue finale en plusieurs bandes ou mosaïques, qui peuvent être livrées séparément et reassemblées par le client en toute transparence, sans artefacts le long des bords.
 solution: Experience Manager
 title: rect
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

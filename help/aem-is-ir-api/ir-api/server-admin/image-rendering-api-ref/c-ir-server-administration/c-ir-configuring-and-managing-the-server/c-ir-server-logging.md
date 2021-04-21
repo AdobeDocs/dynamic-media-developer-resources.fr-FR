@@ -2,8 +2,8 @@
 description: Le rendu d’image envoie des messages du journal aux mécanismes du journal de la diffusion d’images.
 solution: Experience Manager
 title: Journalisation du serveur
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

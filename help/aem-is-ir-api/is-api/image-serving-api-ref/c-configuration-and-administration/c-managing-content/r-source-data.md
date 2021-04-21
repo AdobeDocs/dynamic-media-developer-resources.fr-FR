@@ -2,8 +2,8 @@
 description: Les fichiers de données source de la diffusion d’images comprennent les fichiers d’image et de masque, les polices et les profils ICC.
 solution: Experience Manager
 title: Données source
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

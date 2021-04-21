@@ -2,8 +2,8 @@
 description: Paramètre commun à toutes les visionneuses.
 solution: Experience Manager
 title: contentUrl
-feature: Dynamic Media Classic, Visionneuses, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API
+role: Developer,Business Practitioner
 exl-id: cab3c3fe-1a64-4a50-8559-57cadb31f689
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

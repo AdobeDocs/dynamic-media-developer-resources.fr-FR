@@ -2,8 +2,8 @@
 description: Chemin d’accès racine des données source. Chemin d’accès absolu ou relatif au dossier racine pour les données source de ce catalogue d’images.
 solution: Experience Manager
 title: RootPath
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: La spécification RTF autorise les valeurs de couleur RVB spécifiées avec &bsol;colortbl. Chaque composant est fourni séparément avec les commandes &bsol;red, &bsol;green et &bsol;blue.
 solution: Experience Manager
 title: Traitement des couleurs
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

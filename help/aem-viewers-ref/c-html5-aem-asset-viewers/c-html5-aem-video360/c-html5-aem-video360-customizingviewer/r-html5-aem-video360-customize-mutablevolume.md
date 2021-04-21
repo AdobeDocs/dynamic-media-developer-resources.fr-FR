@@ -2,8 +2,8 @@
 description: La commande de volume mutable s'affiche initialement sous la forme d'un bouton qui permet à l'utilisateur de muter ou de désactiver le son du lecteur vidéo.
 solution: Experience Manager
 title: Volume mutable
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo 360 VR
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: eb30ea49-e0ae-4ef4-a5b3-e245d96ce0db
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

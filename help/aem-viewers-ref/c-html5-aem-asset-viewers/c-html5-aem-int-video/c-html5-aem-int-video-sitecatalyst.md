@@ -2,8 +2,8 @@
 description: La visionneuse de vidéos HTML5 Video360 prend en charge le suivi Adobe Analytics prêt à l’emploi.
 solution: Experience Manager
 title: Prise en charge du suivi Adobe Analytics
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéos interactives
-role: Développeur, Professionnel, Ingénieur de données, Architecte de données
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
+role: Developer,Business Practitioner,Data Engineer,Data Architect
 exl-id: 74a69d01-fa58-4d36-8598-992baf6ae11d
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

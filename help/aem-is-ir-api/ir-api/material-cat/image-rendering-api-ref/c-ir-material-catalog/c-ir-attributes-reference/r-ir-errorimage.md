@@ -2,8 +2,8 @@
 description: Image de la réponse à une erreur. Le rendu d’image renvoie normalement un état d’erreur avec un message texte en cas d’erreur. L'attribut ErrorImage permet de configurer une image à renvoyer en cas d'erreur.
 solution: Experience Manager
 title: ErrorImage *
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

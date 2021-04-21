@@ -2,8 +2,8 @@
 description: L'indicateur de rotation est superposé sur la zone de vue principale. Elle s’affiche lorsque l’image est à l’état reset et dépend également du paramètre iconeffect.
 solution: Experience Manager
 title: Effet Icône
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Visionneuses à 360°
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

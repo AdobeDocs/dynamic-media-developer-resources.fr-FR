@@ -2,8 +2,8 @@
 description: Informations sur l'image Digimarc. Active l’incorporation Digimarc et spécifie le type de filigrane et les données associées spécifiques à l’image.
 solution: Experience Manager
 title: DigimarcInfo
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

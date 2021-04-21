@@ -2,8 +2,8 @@
 description: Le téléchargement de fichiers dans Dynamic Media Classic implique une ou plusieurs requêtes de POST HTTP qui configurent une tâche afin de coordonner toutes les activités de journal associées aux fichiers téléchargés.
 solution: Experience Manager
 title: Téléchargement de fichiers via HTTP POSTs vers le servlet UploadFile
-feature: Dynamic Media Classic, SDK/API, Gestion des ressources
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API,Asset Management
+role: Developer,Administrator
 exl-id: e40293be-d00f-44c1-8ae7-521ce3312ca8
 translation-type: tm+mt
 source-git-commit: e7c747c44d27ed1769ab872d962a814d80c0b345

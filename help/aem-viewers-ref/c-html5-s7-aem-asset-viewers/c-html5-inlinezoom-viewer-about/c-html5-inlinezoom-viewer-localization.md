@@ -2,8 +2,8 @@
 description: Le contenu affiché par la visionneuse déroulante est sujet à localisation. Ce contenu comprend des info-bulles d’éléments d’interface utilisateur et des messages d’information qui s’affichent par la vue de zoom déroulant au chargement.
 solution: Experience Manager
 title: Localisation des éléments de l’interface utilisateur
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Zoom intégré
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

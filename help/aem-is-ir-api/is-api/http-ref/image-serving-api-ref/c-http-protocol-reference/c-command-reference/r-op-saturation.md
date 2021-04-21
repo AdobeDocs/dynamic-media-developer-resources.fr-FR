@@ -2,8 +2,8 @@
 description: Réglage de la saturation. Modifie la saturation de chaque pixel visible du calque ou de l’image composite.
 solution: Experience Manager
 title: op_saturation
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

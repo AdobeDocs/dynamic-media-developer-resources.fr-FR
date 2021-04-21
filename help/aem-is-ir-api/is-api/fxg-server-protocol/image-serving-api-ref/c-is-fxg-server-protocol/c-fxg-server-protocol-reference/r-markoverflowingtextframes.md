@@ -2,8 +2,8 @@
 description: Affichez des blocs de texte en excès avec le signe plus. Un indicateur de dépassement de texte indique quand le texte dépasse l’espace qui lui est attribué dans un bloc de texte (ou dans le dernier bloc de texte dans le cas d’un texte lié). Cet indicateur est représenté sous la forme d’un cadre rouge avec un signe plus.
 solution: Experience Manager
 title: markOverflowingTextFrames
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

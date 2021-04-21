@@ -2,8 +2,8 @@
 description: Certaines restrictions et problèmes connus doivent être pris en compte lors de l’utilisation de la diffusion d’images Dynamic Media.
 solution: Experience Manager
 title: Restrictions et problèmes connus
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

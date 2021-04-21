@@ -2,8 +2,8 @@
 description: La valeur de résolution d’une texture répétable ou d’un autre matériau définit la taille de l’image de matériau dans l’espace de coordonnées de la scène.
 solution: Experience Manager
 title: Résolution du matériau
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

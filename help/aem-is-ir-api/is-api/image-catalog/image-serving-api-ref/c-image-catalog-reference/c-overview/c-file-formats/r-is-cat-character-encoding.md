@@ -2,8 +2,8 @@
 description: Image Serving prend en charge les catalogues d’images avec codage ISO-8859-1 et UTF-8.
 solution: Experience Manager
 title: Codage des caractères
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

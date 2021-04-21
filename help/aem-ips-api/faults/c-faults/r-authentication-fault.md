@@ -2,8 +2,8 @@
 description: Lancé lorsqu’un utilisateur ne peut pas être authentifié.
 solution: Experience Manager
 title: authenticationFault
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Administrator
 translation-type: tm+mt
 source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
 workflow-type: tm+mt

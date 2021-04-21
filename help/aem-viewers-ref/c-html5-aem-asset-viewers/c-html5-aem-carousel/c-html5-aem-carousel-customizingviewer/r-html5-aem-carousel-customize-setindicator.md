@@ -2,8 +2,8 @@
 description: L’indicateur défini est une série de points affichés au bas de la visionneuse. Il affiche la position actuelle dans la visionneuse.
 solution: Experience Manager
 title: Définir l’indicateur
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Bannières de carrousel
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
+role: Developer,Business Practitioner
 exl-id: 7d0827c5-f420-4804-983c-5298ee92b276
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

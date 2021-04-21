@@ -2,8 +2,8 @@
 description: Les commandes prises en charge par le rendu des images sont répertoriées ci-dessous, regroupées par catégorie.
 solution: Experience Manager
 title: Présentation de la commande de protocole HTTP de rendu d’image
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt

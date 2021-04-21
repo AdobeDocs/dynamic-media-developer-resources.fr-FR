@@ -2,8 +2,8 @@
 description: Modèle de composition. Permet de spécifier un modèle de composition situé dans un catalogue autre que le catalogue principal.
 solution: Experience Manager
 title: modèle
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Taille de l’image. Taille en pixels de l’image en résolution totale référencée par le chemin d’accès au catalogue.
 solution: Experience Manager
 title: Taille
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

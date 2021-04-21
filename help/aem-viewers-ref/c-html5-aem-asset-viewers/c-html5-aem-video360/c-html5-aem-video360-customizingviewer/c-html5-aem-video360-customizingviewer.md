@@ -3,8 +3,8 @@ description: La personnalisation visuelle et la personnalisation comportementale
 keywords: réactif
 solution: Experience Manager
 title: Personnalisation de la visionneuse de vidéos 360
-feature: Dynamic Media Classic, Visionneuses, SDK/API, Vidéo 360 VR
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
+role: Developer,Business Practitioner
 exl-id: c9dda4e8-2781-4870-9ccb-707823c56490
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

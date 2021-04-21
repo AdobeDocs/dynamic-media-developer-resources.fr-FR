@@ -2,8 +2,8 @@
 description: Crée une vue prédéfinie qui détermine ce qu’un utilisateur peut voir. Le lecteur peut être de n’importe quel type disponible dans IPS. La vue prédéfinie est appliquée lorsque les fichiers sont publiés.
 solution: Experience Manager
 title: createViewerPreset
-feature: Dynamic Media Classic, SDK/API, paramètres prédéfinis de la visionneuse
-role: Développeur, Administrateur
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
+role: Developer,Administrator
 exl-id: b24536d9-df66-4c94-8467-6f46e66a1b36
 translation-type: tm+mt
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b

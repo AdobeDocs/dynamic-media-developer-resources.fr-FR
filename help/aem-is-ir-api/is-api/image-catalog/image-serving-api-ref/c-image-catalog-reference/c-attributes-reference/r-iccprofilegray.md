@@ -2,8 +2,8 @@
 description: Profil de couleur de sortie par défaut en niveaux de gris. Indique le nom du profil de couleurs ICC à utiliser pour les images de réponse en niveaux de gris lorsqu’aucun espace colorimétrique de sortie n’est spécifié avec icc= et pour certaines valeurs de couleur en niveaux de gris spécifiées avec diverses commandes de traitement d’images, telles que color=.
 solution: Experience Manager
 title: IccProfileGray
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
 workflow-type: tm+mt

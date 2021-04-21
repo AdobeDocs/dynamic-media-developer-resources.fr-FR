@@ -2,8 +2,8 @@
 description: Les documents Armoires spécifient un fichier de style Armoire (extension de fichier .vnc), un fichier de données spécial contenant des représentations photographiques des armoires, ainsi que des définitions de disposition paramétriques et d'autres informations requises pour le rendu des façades de l'armoire.
 solution: Experience Manager
 title: Meubles
-feature: Dynamic Media Classic, SDK/API
-role: Développeur, Professionnel
+feature: Dynamic Media Classic,SDK/API
+role: Developer,Business Practitioner
 translation-type: tm+mt
 source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
 workflow-type: tm+mt
