@@ -5,9 +5,9 @@ title: Vidéo interactive
 feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéos interactives
 role: Developer,Business Practitioner
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
-source-git-commit: 6df782b389f7e14b8ad510ebb6f143ece0db23c9
+source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
 workflow-type: tm+mt
-source-wordcount: '2221'
+source-wordcount: '2217'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ Le type de visionneuse est 510.
 
 ## URL de démonstration {#section-c0ad383db6a444979dc7eeb1ec4cf54d}
 
-[https://marketing.adobe.com/resources/help/en_US/dm/shoppable-video/glacier/InteractiveVideoViewerDemo.html](https://marketing.adobe.com/resources/help/en_US/dm/shoppable-video/glacier/InteractiveVideoViewerDemo.html)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/glacier/InteractiveVideoViewerDemo.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/glacier/InteractiveVideoViewerDemo.html)
 
 Et
 
-[https://marketing.adobe.com/resources/help/en_US/dm/shoppable-video/AXIS/index.html](https://marketing.adobe.com/resources/help/en_US/dm/shoppable-video/AXIS/index.html)
+[https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/AXIS/index.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/shoppable-video/AXIS/index.html)
 
 ## Configuration système requise {#section-b7270cc4290043399681dc504f043609}
 
@@ -280,7 +280,7 @@ La page d’exemples suivante illustre d’autres utilisations réelles de l’i
 
 [Démonstrations en direct](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-<!-- OLD DEMO LOCATION-KEEP (https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html) -->
+[Autre emplacement de démonstration](https://experienceleague.adobe.com/tools/vlist/vlist.html)
 
 **Incorporation réactive avec largeur et hauteur définies**
 
