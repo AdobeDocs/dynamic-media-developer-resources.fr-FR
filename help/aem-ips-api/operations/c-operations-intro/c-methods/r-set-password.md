@@ -1,25 +1,24 @@
 ---
-description: Définit le mot de passe d’un utilisateur spécifique ou de l’utilisateur par défaut sur une valeur spécifique, selon que vous spécifiez un nom d’utilisateur ou non.
+description: Définit le mot de passe d’un utilisateur spécifique ou de l’utilisateur par défaut sur une valeur spécifique, selon que vous avez spécifié ou non un nom d’utilisateur.
 solution: Experience Manager
 title: setPassword
-feature: Dynamic Media Classic,SDK/API
+feature: Dynamic Media Classic, SDK/API
 role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+exl-id: e8d95b55-0a97-4887-b711-7be99833c389
+source-git-commit: a05fb31b7c7515492723af63914d3e9999e65e9b
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 8%
 
 ---
 
-
 # setPassword{#setpassword}
 
-Définit le mot de passe d’un utilisateur spécifique ou de l’utilisateur par défaut sur une valeur spécifique, selon que vous spécifiez un nom d’utilisateur ou non.
+Définit le mot de passe d’un utilisateur spécifique ou de l’utilisateur par défaut sur une valeur spécifique, selon que vous avez spécifié ou non un nom d’utilisateur.
 
-La date d&#39;expiration du mot de passe est facultative. Si ce paramètre est omis, le mot de passe n’expire jamais.
+La date d’expiration du mot de passe est facultative. S’il est omis, le mot de passe n’expire jamais.
 
-## Types d’utilisateur autorisés {#section-39ae61d78cab4492a6efc1fc0d2f06c4}
+## Types d’utilisateurs autorisés {#section-39ae61d78cab4492a6efc1fc0d2f06c4}
 
 >[!NOTE]
 >
@@ -37,7 +36,7 @@ La date d&#39;expiration du mot de passe est facultative. Si ce paramètre est o
 
 ## Paramètres {#section-0531294341f7483d89dacaa393dd659a}
 
-**Entrée (setPasswordParam)**
+**Input (setPasswordParam)**
 
 <table id="table_BF54512811344E0B979C5070354E8048"> 
  <thead> 
@@ -59,16 +58,16 @@ La date d&#39;expiration du mot de passe est facultative. Si ce paramètre est o
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> password  </span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string  </span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Mot de passe. </p> <p>Les exigences suivantes s’appliquent au mot de passe choisi : </p> <p> 
+   <td colname="col4"> <p>Mot de passe. </p> <p>Les conditions suivantes sont appliquées sur le mot de passe choisi : </p> <p> 
      <ul id="ul_E5BE3621127C476788412174584075B3"> 
-      <li id="li_0132852AFD774659A0224C450F19418C">Les mots de passe respectent la casse. </li> 
-      <li id="li_71224B3A89C8461AB689BAD383EC8CEA">Le mot de passe doit comporter au minimum huit caractères. </li> 
+      <li id="li_0132852AFD774659A0224C450F19418C">Les mots de passe sont sensibles à la casse. </li> 
+      <li id="li_71224B3A89C8461AB689BAD383EC8CEA">Le mot de passe minimum est de huit caractères. </li> 
       <li id="li_C21B6843EA734D1ABE0580185F775408">Le mot de passe doit contenir un ou plusieurs caractères des classes de caractères suivantes : 
        <ul id="ul_D5D3911AD6214035BBD2AB8350A459C7"> 
-        <li id="li_6E3F084100104F2CBCF130EF8852C7B7">Caractères anglais minuscules. Par exemple, <span class="codeph"> a b c d e </span>, etc. </li> 
-        <li id="li_1FDED8D7348842BC857320D797D41217">Caractères anglais majuscules. Par exemple, <span class="codeph"> A B C D E </span>, etc. </li> 
-        <li id="li_C3C4D5412AA749F3B78F37B2B696CF80">Nombres. Par exemple, <span class="codeph"> 1 2 3 4 5 </span>, etc. </li> 
-        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Caractères de symbole spéciaux. Par exemple, vous pouvez utiliser l’une des méthodes suivantes : <span class="codeph"> ` ~ ! @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : "; ' &lt; &gt; ? , . / </span> </li> 
+        <li id="li_6E3F084100104F2CBCF130EF8852C7B7">Caractères anglais minuscules. Par exemple, <span class="codeph"> a b c d e </span> et ainsi de suite </li> 
+        <li id="li_1FDED8D7348842BC857320D797D41217">Caractères anglais majuscules. Par exemple, <span class="codeph"> A B C D E </span> et ainsi de suite. </li> 
+        <li id="li_C3C4D5412AA749F3B78F37B2B696CF80">Nombres. Par exemple, <span class="codeph"> 1 2 3 4 5 </span> et ainsi de suite. </li> 
+        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Caractères spéciaux de symbole. Par exemple, vous pouvez utiliser l’une des méthodes suivantes : <span class="codeph"> &amp;grave; ~ ! @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : " ; ' &lt; &gt; ? , / </span> </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -76,18 +75,18 @@ La date d&#39;expiration du mot de passe est facultative. Si ce paramètre est o
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> passwordExpires  </span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:dateTime </span> </p> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Détermine la date d’expiration du mot de passe. <p>Remarque :  Indiquez le fuseau horaire avec la demande de ce champ. Les fuseaux horaires sont ajustés à l’heure centrale. </p> </p> </td> 
+   <td colname="col4"> <p>Détermine la date d’expiration du mot de passe. <p>Remarque :  Fournissez le fuseau horaire avec la requête pour ce champ. Les fuseaux horaires sont ajustés à l’heure centrale. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (setPasswordReturn)**
+**Sortie (setPasswordReturn)**
 
-L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-23a6fbabdb3c4c3180076057e47ae567}
 
-Cet exemple de code crée un mot de passe utilisateur. Le mot de passe n&#39;expire jamais car `passwordExpires` a été omis.
+Cet exemple de code crée un mot de passe utilisateur. Le mot de passe n’expire jamais car `passwordExpires` a été omis.
 
 **Request**
 
