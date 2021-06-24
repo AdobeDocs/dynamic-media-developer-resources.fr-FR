@@ -5,7 +5,7 @@ title: fmt
 feature: Dynamic Media Classic, SDK/API
 role: Developer,Business Practitioner
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 3ddb4c9291ee5439b67d78305589596b7935106c
+source-git-commit: 07490c6169511f824f0c0d75ef2d692ac816858e
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 4%
@@ -22,8 +22,8 @@ Format d’image de réponse.
 
 | *`format`* | Description |
 |---|---|
-| `avif-alpha` | AVIF avec canal alpha <br><br>*Calendrier des versions pour ce format :* <br><b>Amérique du Nord</b> - Disponible maintenant<br><b>Europe, Moyen-Orient, Afrique</b> - 28 juin 2021<br><b>Asie-Pacifique</b> - 29 juin 2021 |
-| `avif` | AVIF <br><br>*Date de publication pour ce format :*<br><b> Amérique du Nord</b> - Disponible maintenant<br><b>Europe, Moyen-Orient, Afrique</b> - 28 juin 2021<br><b>Asie-Pacifique</b> - 29 juin 2021 |
+| `avif-alpha` | AVIF avec canal alpha <br><br>*Calendrier des versions pour ce format :* <br><b>Amérique du Nord</b> - Disponible maintenant<br><b>Europe, Moyen-Orient, Afrique</b> - 13 août 2021<br><b>Asie-Pacifique</b> - 29 juin 2021 |
+| `avif` | AVIF <br><br>*Date de publication pour ce format :*<br><b> Amérique du Nord</b> - Disponible maintenant<br><b>Europe, Moyen-Orient, Afrique</b> - 13 août 2021<br><b>Asie-Pacifique</b> - 29 juin 2021 |
 | `eps` | PostScript encapsulé binaire décompressé |
 | `f4m` | Format de manifeste du serveur de diffusion en continu de Flash |
 | `gif-alpha` | GIF avec 2 à 255 couleurs plus transparence couleur clé |
