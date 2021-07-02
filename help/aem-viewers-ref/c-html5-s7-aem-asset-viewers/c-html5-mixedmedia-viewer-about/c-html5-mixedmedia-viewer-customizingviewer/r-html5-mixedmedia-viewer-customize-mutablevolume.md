@@ -1,27 +1,26 @@
 ---
-description: La commande de volume mutable s'affiche initialement sous la forme d'un bouton qui permet à l'utilisateur de muter ou de désactiver le son du lecteur vidéo.
+description: La commande de volume modifiable s’affiche initialement sous la forme d’un bouton qui permet à l’utilisateur de mettre en sourdine le son du lecteur vidéo.
 solution: Experience Manager
-title: Volume mutable
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+title: Volume en sourdine
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 9afa56f9-443c-4307-843c-d7ddba6ec604
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '478'
 ht-degree: 2%
 
 ---
 
+# Volume en sourdine{#mutable-volume}
 
-# Volume mutable{#mutable-volume}
-
-La commande de volume mutable s&#39;affiche initialement sous la forme d&#39;un bouton qui permet à l&#39;utilisateur de muter ou de désactiver le son du lecteur vidéo.
+La commande de volume modifiable s’affiche initialement sous la forme d’un bouton qui permet à l’utilisateur de mettre en sourdine le son du lecteur vidéo.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Lorsqu&#39;un utilisateur survole le bouton, un curseur s&#39;affiche, permettant à l&#39;utilisateur de définir le volume. La commande de volume modifiable peut être dimensionnée, habillée et positionnée, par rapport à la barre de contrôle qui la contient, par CSS.
+Lorsqu’un utilisateur survole le bouton, un curseur s’affiche pour permettre à l’utilisateur de définir le volume. Le contrôle du volume modifiable peut être dimensionné, peint et positionné, par rapport à la barre de contrôle qui le contient, par CSS.
 
-L&#39;aspect de la zone de volume modifiable est contrôlé par le sélecteur de classe CSS suivant :
+L’aspect de la zone de volume modifiable est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 ```
 .s7mixedmediaviewer .s7mutablevolume
@@ -33,53 +32,53 @@ L&#39;aspect de la zone de volume modifiable est contrôlé par le sélecteur de
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> haut </span> </p> </td> 
-   <td colname="col2"> <p> Position à partir de la bordure supérieure, y compris le remplissage. </p> </td> 
+   <td colname="col2"> <p> Position à partir de la bordure supérieure, y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> droite </span> </p> </td> 
-   <td colname="col2"> <p> Position à partir de la bordure droite, y compris le remplissage. </p> </td> 
+   <td colname="col2"> <p> Position à partir de la bordure droite, y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> Largeur de la commande de volume mutable. </p> </td> 
+   <td colname="col2"> <p> Largeur de la commande de volume modifiable. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Hauteur de la commande de volume mutable. </p> </td> 
+   <td colname="col2"> <p>Hauteur de la commande de volume modifiable. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
-   <td colname="col2"> <p> Couleur de la commande de volume mutable. </p> </td> 
+   <td colname="col2"> <p> Couleur de la commande de volume modifiable. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-L’aspect du bouton de mise en sourdine est contrôlé à l’aide du sélecteur de classe CSS suivant :
+L’aspect du bouton silencieux/non muté est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 ```
 .s7mixedmediaviewer .s7mutablevolume .s7mutebutton
 ```
 
-Vous pouvez contrôler l’image d’arrière-plan de chaque état de bouton. La taille du bouton est héritée de la taille du contrôle de volume.
+Vous pouvez contrôler l’image d’arrière-plan de chaque état de bouton. La taille du bouton est héritée de la taille de la commande de volume.
 
 **Propriétés CSS de l’image de bouton**
 
 <table id="table_46903DCACF314426B67783167ADF7715"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
-   <td colname="col2"> <p> Positionnez l’objet à l’intérieur de l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ce bouton prend en charge les sélecteurs d&#39;attribut `state` et `selected`, qui peuvent être utilisés pour appliquer différents habillages à différents états de bouton. En particulier, `selected='true'` correspond à l’état &quot;muté&quot; et `selected='false'` correspond à l’état &quot;non muté&quot;.
+>Ce bouton prend en charge les sélecteurs d’attributs `state` et `selected`, qui peuvent être utilisés pour appliquer différents habillages à différents états de bouton. En particulier, `selected='true'` correspond à l’état &quot;muté&quot; et `selected='false'` correspond à l’état &quot;non muté&quot;.
 
 La zone de la barre de volume verticale est contrôlée avec le sélecteur de classe CSS suivant :
 
@@ -100,76 +99,76 @@ La zone de la barre de volume verticale est contrôlée avec le sélecteur de cl
    <td colname="col2"> <p> Largeur du volume vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> hauteur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p> Hauteur du volume vertical. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Le suivi à l&#39;intérieur du contrôle de volume vertical est contrôlé avec les sélecteurs de classe CSS suivants :
+Le suivi à l’intérieur du contrôle de volume vertical est contrôlé à l’aide des sélecteurs de classe CSS suivants :
 
 ```
 .s7mixedmediaviewer .s7mutablevolume .s7verticalvolume .s7track 
 .s7mixedmediaviewer .s7mutablevolume .s7verticalvolume .s7filledtrack
 ```
 
-**Propriétés CSS du contrôle vertical du volume**
+**Propriétés CSS du contrôle de volume vertical**
 
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
-   <td colname="col2"> <p> Couleur d'arrière-plan de la commande verticale du volume. </p> </td> 
+   <td colname="col2"> <p> Couleur d’arrière-plan de la commande de volume vertical. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
-   <td colname="col2"> <p>Largeur de la commande verticale du volume. </p> </td> 
+   <td colname="col2"> <p>Largeur de la commande de volume vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> hauteur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hauteur de la commande verticale du volume. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Le bouton de volume vertical est contrôlé avec le sélecteur de classe CSS suivant :
+Le bouton de volume vertical est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 ```
 .s7mixedmediaviewer .s7mutablevolume .s7verticalvolume .s7knob
 ```
 
-**Propriétés CSS du bouton vertical de contrôle du volume**
+**Propriétés CSS du bouton de contrôle du volume vertical**
 
 <table id="table_709D64AF815341A5B50ED72CCB350F2E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan  </span> </p> </td> 
-   <td colname="col2"> <p> Illustration du bouton de commande de volume vertical. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col2"> <p> Illustration du bouton de contrôle du volume vertical. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
-   <td colname="col2"> <p> Positionnez l’objet à l’intérieur de l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
-   <td colname="col2"> <p>Largeur du bouton vertical de commande du volume. </p> </td> 
+   <td colname="col2"> <p>Largeur du bouton de contrôle du volume vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> hauteur  </span> </p> </td> 
-   <td colname="col2"> <p>Hauteur du bouton vertical de commande du volume. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col2"> <p>Hauteur du bouton de contrôle du volume vertical. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> gauche </span> </p> </td> 
-   <td colname="col2"> <p>Position horizontale du bouton vertical de commande du volume. </p> </td> 
+   <td colname="col2"> <p>Position horizontale du bouton de contrôle du volume vertical. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-L’info-bulle du bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) pour plus d’informations.
+L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) pour plus d’informations.
 
 ## Exemples {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Configuration d’un bouton de silence de 32 x 32 pixels et positionné à 6 pixels du haut et à 38 pixels du bord droit de la barre de contrôle. Affichez une image différente pour chacun des quatre états de bouton lorsque vous sélectionnez ou non cette option.
+Pour configurer un bouton silencieux de 32 x 32 pixels et positionné 6 pixels à partir du haut, et 38 pixels à partir du bord droit de la barre de contrôle. Afficher une image différente pour chacun des quatre états de bouton différents lorsqu’il est sélectionné ou non.
 
 ```
 .s7mixedmediaviewer .s7mutablevolume { 
@@ -204,7 +203,7 @@ background-image:url(images/unmute_disabled.png);
 }
 ```
 
-Voici un exemple de la façon dont vous pouvez mettre en forme le curseur de volume dans la commande de volume mutable.
+Vous trouverez ci-dessous un exemple de style du curseur de volume dans la commande de volume modifiable.
 
 ```
 .s7mixedmediaviewer .s7mutablevolume .s7verticalvolume { 
@@ -231,4 +230,3 @@ left:9px;
 background-image:url(images/volumeKnob.png); 
 }
 ```
-
