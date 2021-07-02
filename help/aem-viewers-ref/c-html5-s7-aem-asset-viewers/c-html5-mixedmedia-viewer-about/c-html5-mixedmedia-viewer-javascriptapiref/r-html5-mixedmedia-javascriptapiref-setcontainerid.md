@@ -2,16 +2,15 @@
 description: Référence de l’API JavaScript pour la visionneuse de supports variés.
 solution: Experience Manager
 title: setContainerId
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: b6e191dc-3172-45ba-b6f6-258cfbd5855d
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '96'
 ht-degree: 2%
 
 ---
-
 
 # setContainerId{#setcontainerid}
 
@@ -19,7 +18,7 @@ Référence de l’API JavaScript pour la visionneuse de supports variés.
 
 ` setContainerId( *`containerId`*)`
 
-Définit l’ID du conteneur DOM (normalement un DIV) dans lequel la visionneuse est insérée. Il n’est pas nécessaire de créer l’élément de conteneur au moment de l’appel de cette méthode. Cependant, le conteneur doit exister lorsque `init()` est exécuté. Elle doit être appelée avant `init()`. Cette méthode est facultative si les informations de configuration de la visionneuse sont transmises avec l’objet JSON `config` au constructeur.
+Définit l’identifiant du conteneur DOM (normalement un DIV) dans lequel la visionneuse est insérée. Il n’est pas nécessaire de créer l’élément de conteneur au moment de l’appel de cette méthode. Cependant, le conteneur doit exister lorsque `init()` est exécuté. Elle doit être appelée avant `init()`. Cette méthode est facultative si les informations de configuration de la visionneuse sont transmises au constructeur avec l’objet JSON `config`.
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
@@ -39,4 +38,3 @@ Aucune
 ```
 <instance>.setContainerId("s7viewer");
 ```
-
