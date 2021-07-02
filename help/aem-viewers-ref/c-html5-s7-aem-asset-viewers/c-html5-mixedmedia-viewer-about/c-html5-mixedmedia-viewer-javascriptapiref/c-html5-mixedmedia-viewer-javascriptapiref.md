@@ -1,20 +1,19 @@
 ---
-description: La classe principale de la visionneuse de supports variés est MixedMediaViewer. Elle est déclarée dans l’espace de nommage s7viewers. Cette API JavaScript couvre le constructeur, les méthodes et les rappels de cette classe particulière.
+description: La classe principale de la visionneuse de supports variés est MixedMediaViewer. Il est déclaré dans l’espace de noms s7viewers. Cette API JavaScript couvre le constructeur, les méthodes et les rappels de cette classe particulière.
 solution: Experience Manager
-title: Référence de l’API Javascript pour la visionneuse de supports variés
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+title: Référence de l’API JavaScript pour la visionneuse de supports variés
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a557ffab-b9e6-4a7c-89c2-1f7b89cd6209
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
 
+# Référence de l’API JavaScript pour la visionneuse de supports variés{#javascript-api-reference-for-mixed-media-viewer}
 
-# Référence de l’API Javascript pour la visionneuse de supports variés {#javascript-api-reference-for-mixed-media-viewer}
+La classe principale de la visionneuse de supports variés est MixedMediaViewer. Il est déclaré dans l’espace de noms s7viewers. Cette API JavaScript couvre le constructeur, les méthodes et les rappels de cette classe particulière.
 
-La classe principale de la visionneuse de supports variés est MixedMediaViewer. Elle est déclarée dans l’espace de nommage s7viewers. Cette API JavaScript couvre le constructeur, les méthodes et les rappels de cette classe particulière.
-
-Dans tous les exemples suivants, `<instance>` correspond au nom réel de l’objet de lecteur JavaScript appelé à partir de la classe `s7viewers.MixedMediaViewer`.
+Dans tous les exemples suivants, `<instance>` correspond au nom réel de l’objet de visionneuse JavaScript appelé à partir de la classe `s7viewers.MixedMediaViewer`.
