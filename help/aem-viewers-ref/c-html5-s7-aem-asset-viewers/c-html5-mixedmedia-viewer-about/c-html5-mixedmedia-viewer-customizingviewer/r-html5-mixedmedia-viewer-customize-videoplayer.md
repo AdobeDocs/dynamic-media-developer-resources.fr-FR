@@ -2,16 +2,15 @@
 description: Le lecteur vidéo est la zone rectangulaire dans laquelle le contenu vidéo est affiché dans la visionneuse.
 solution: Experience Manager
 title: Lecteur vidéo
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 2f92d76e-3104-4ad8-9426-662275492251
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '287'
 ht-degree: 1%
 
 ---
-
 
 # Lecteur vidéo{#video-player}
 
@@ -19,7 +18,7 @@ Le lecteur vidéo est la zone rectangulaire dans laquelle le contenu vidéo est 
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Si les dimensions de la vidéo en cours de lecture ne correspondent pas à celles du lecteur vidéo, le contenu vidéo est centré dans la zone d’affichage rectangulaire du lecteur vidéo.
+Si les dimensions de la vidéo en cours de lecture ne correspondent pas aux dimensions du lecteur vidéo, le contenu vidéo est centré dans la zone d’affichage rectangle du lecteur vidéo.
 
 Le sélecteur de classe CSS suivant contrôle l’aspect du lecteur vidéo :
 
@@ -48,7 +47,7 @@ Exemple - Pour rendre le lecteur vidéo transparent :
 }
 ```
 
-Les légendes sont placées dans le conteneur interne du lecteur vidéo. La position de ce conteneur est contrôlée par les opérateurs de positionnement WebVTT pris en charge. Le texte de la légende se trouve à l’intérieur de ce conteneur ; son style est contrôlé à l’aide du sélecteur de classe CSS suivant :
+Les sous-titres sont placés dans un conteneur interne du lecteur vidéo. La position de ce conteneur est contrôlée par les opérateurs de positionnement WebVTT pris en charge. Le texte de légende lui-même se trouve à l’intérieur de ce conteneur ; son style est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 ```
 .s7mixedmediaviewer .s7videoplayer .s7caption
@@ -59,7 +58,7 @@ Les légendes sont placées dans le conteneur interne du lecteur vidéo. La posi
 <table id="table_5417B0C0343747649502629F43DF231A"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Propriété CSS </p> </th> 
+   <th colname="col1" class="entry"> <p>propriété CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
@@ -73,8 +72,8 @@ Les légendes sont placées dans le conteneur interne du lecteur vidéo. La posi
    <td colname="col2"> <p>Couleur du texte de la légende. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-poids  </span> </p> </td> 
-   <td colname="col2"> <p>Poids des polices. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col2"> <p>Poids de police. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
@@ -87,7 +86,7 @@ Les légendes sont placées dans le conteneur interne du lecteur vidéo. La posi
  </tbody> 
 </table>
 
-Exemple - Pour définir le texte de la légende sur un fond gris clair de 14 pixels Arial sur un arrière-plan noir semi-transparent :
+Exemple - Pour configurer le texte de la légende sur un fond noir semi-transparent de 14 pixels gris clair Arial :
 
 ```
 .s7mixedmediaviewer .s7videoplayer .s7caption { 
@@ -99,7 +98,7 @@ Exemple - Pour définir le texte de la légende sur un fond gris clair de 14 pix
 }
 ```
 
-L&#39;aspect de l&#39;animation de mise en mémoire tampon est contrôlé par le sélecteur de classe CSS suivant :
+L’aspect de l’animation de mise en mémoire tampon est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 ```
 .s7mixedmediaviewer .s7videoplayer .s7waiticon
@@ -110,7 +109,7 @@ L&#39;aspect de l&#39;animation de mise en mémoire tampon est contrôlé par le
 <table id="table_8DB41A0FF2A746F78B763564C4F3EBE0"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Propriété CSS </p> </th> 
+   <th colname="col1" class="entry"> <p>propriété CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
@@ -124,21 +123,21 @@ L&#39;aspect de l&#39;animation de mise en mémoire tampon est contrôlé par le
    <td colname="col2"> <p> Hauteur de l’icône d’animation. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge-gauche  </span> </p> </td> 
-   <td colname="col2"> <p> L’icône d’animation a la marge gauche, habituellement moins la moitié de la largeur de l’icône. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
+   <td colname="col2"> <p> Marge gauche de l’icône d’animation, normalement moins la moitié de la largeur de l’icône. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
-   <td colname="col2"> <p> Marge supérieure de l’icône d’animation, habituellement moins la moitié de la hauteur de l’icône. </p> </td> 
+   <td colname="col2"> <p> Marge supérieure de l’icône d’animation, normalement moins la moitié de la hauteur de l’icône. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan  </span> </p> </td> 
-   <td colname="col2"> <p> Touchez l’illustration. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col2"> <p> Obtenir une illustration. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple - Pour configurer une animation de mise en mémoire tampon d&#39;une largeur de 101 pixels et d&#39;une hauteur de 29 pixels :
+Exemple - Pour configurer une animation de mise en mémoire tampon d’une largeur de 101 pixels et d’une hauteur de 29 pixels :
 
 ```
 .s7mixedmediaviewer .s7videoplayer .s7waiticon { 
@@ -149,4 +148,3 @@ Exemple - Pour configurer une animation de mise en mémoire tampon d&#39;une lar
  background-image: url(images/sdk/busyicon.gif); 
 }
 ```
-
