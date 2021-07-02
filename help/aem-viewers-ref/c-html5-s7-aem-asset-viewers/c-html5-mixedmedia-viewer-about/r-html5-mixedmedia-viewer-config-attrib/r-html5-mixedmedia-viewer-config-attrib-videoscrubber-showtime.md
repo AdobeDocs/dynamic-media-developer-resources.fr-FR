@@ -2,16 +2,15 @@
 description: VideoScrubber.showtime
 solution: Experience Manager
 title: VideoScrubber.showtime
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: cd141d46-9d73-417e-b789-4d2f0bc6a9eb
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 16%
+source-wordcount: '28'
+ht-degree: 17%
 
 ---
-
 
 # VideoScrubber.showtime{#videoscrubber-showtime}
 
@@ -21,7 +20,7 @@ ht-degree: 16%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Active ou désactive la bulle de temps de lecture lors du réglage de la position du bouton. </p> </td> 
+   <td colname="col2"> <p> Active ou désactive la durée de lecture de la bulle lors de l’ajustement de la position du bouton. </p> </td> 
   </tr> 
  </tbody> 
 </table>
