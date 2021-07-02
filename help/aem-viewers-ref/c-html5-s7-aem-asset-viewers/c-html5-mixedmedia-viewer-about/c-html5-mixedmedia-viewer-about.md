@@ -3,10 +3,10 @@ description: Visionneuse de médias mixtes est une visionneuse de médias. Il pr
 keywords: responsive
 solution: Experience Manager
 title: Supports variés
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Combiner des visionneuses de médias
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes
 role: Developer,Business Practitioner
 exl-id: 65a54308-f9db-4458-a9c3-ccb1433af43c
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
 source-wordcount: '2662'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Voir [Configuration requise et conditions préalables](../../c-system-requiremen
 
 [https://s7d9.scene7.com/s7viewers/html5/MixedMediaViewer.html?asset=Scene7SharedAssets/Mixed_Media_Set_Sample](https://s7d9.scene7.com/s7viewers/html5/MixedMediaViewer.html?asset=Scene7SharedAssets/Mixed_Media_Set_Sample)
 
-## Utilisation de la visionneuse de médias mixtes {#section-f21ac23d3f6449ad9765588d69584772}
+## Utilisation de la visionneuse de supports variés {#section-f21ac23d3f6449ad9765588d69584772}
 
 La visionneuse de médias mixtes représente un fichier JavaScript principal et un ensemble de fichiers d’assistance (un seul script JavaScript inclus avec tous les composants du SDK de la visionneuse utilisés par cette visionneuse, ressources et CSS particulière) téléchargés par la visionneuse au moment de l’exécution.
 
@@ -88,11 +88,11 @@ Cette visionneuse est entièrement accessible au clavier.
 
 Voir [Accessibilité clavier et navigation](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## Incorporation de la visionneuse de médias mixtes {#section-6bb5d3c502544ad18a58eafe12a13435}
+## Intégration de la visionneuse de supports variés {#section-6bb5d3c502544ad18a58eafe12a13435}
 
 Le comportement de la visionneuse varie en fonction des pages web. Il arrive qu’une page web fournisse un lien qui, en cliquant dessus, ouvre la visionneuse dans une fenêtre de navigateur distincte. Dans d’autres cas, il est nécessaire d’incorporer le droit de visionneuse dans la page d’hébergement. Dans ce cas, la page web peut avoir une mise en page statique ou utiliser une conception réactive qui s’affiche différemment sur différents appareils ou pour différentes tailles de fenêtre de navigateur. Pour répondre à ces besoins, la visionneuse prend en charge trois modes de fonctionnement Principaux : pop-up, incorporation de taille fixe et incorporation de conceptions réactives.
 
-## À propos du mode pop-up {#section-77d5aa03b8b94566958a179b1a2cd474}
+## A propos du mode pop-up {#section-77d5aa03b8b94566958a179b1a2cd474}
 
 En mode contextuel, la visionneuse s’ouvre dans une fenêtre ou un onglet de navigateur Web distinct. Il prend toute la zone de la fenêtre du navigateur et s’ajuste au cas où le navigateur serait redimensionné ou si l’orientation d’un appareil mobile est modifiée.
 
@@ -110,7 +110,7 @@ Voici un exemple de code HTML qui ouvre la visionneuse dans une nouvelle fenêtr
 <a href="http://s7d1.scene7.com/s7viewers/html5/MixedMediaViewer.html?asset=Scene7SharedAssets/Mixed_Media_Set_Sample" target="_blank">Open popup viewer</a>
 ```
 
-## À propos de la taille fixe et de l’incorporation de responsive design {#section-ec86b100ba5943d0b16694268520bbde}
+## À propos de la taille fixe et de l’incorporation des conceptions réactives {#section-ec86b100ba5943d0b16694268520bbde}
 
 En mode incorporé, la visionneuse est ajoutée à la page web existante, qui peut déjà comporter du contenu client non lié à la visionneuse. Normalement, la visionneuse occupe uniquement une partie de l’espace d’une page web.
 
@@ -268,7 +268,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 </html>
 ```
 
-## Intégration réactive avec une hauteur illimitée {#section-056cb574713c4d07be6d07cf3c598839}
+## Intégration réactive avec une hauteur libre {#section-056cb574713c4d07be6d07cf3c598839}
 
 Avec l’incorporation de responsive design, la page web dispose normalement d’une sorte de disposition flexible qui détermine la taille d’exécution du conteneur de la visionneuse `DIV`. Pour l’exemple suivant, supposons que la page web permette au conteneur de la visionneuse `DIV` de prendre 40 % de la taille de la fenêtre du navigateur web, en ne restreignant pas sa hauteur. Le code HTML de la page web se présente comme suit :
 
@@ -331,7 +331,7 @@ La page d’exemples suivante illustre d’autres utilisations réelles de l’i
 
 [Autre emplacement de démonstration](https://experienceleague.adobe.com/tools/vlist/vlist.html)
 
-## Intégration de taille flexible avec largeur et hauteur définies {#section-0a329016f9414d199039776645c693de}
+## Intégration flexible de taille avec définition de largeur et de hauteur {#section-0a329016f9414d199039776645c693de}
 
 Dans le cas d’une incorporation à taille flexible avec des valeurs de largeur et de hauteur définies, le style de la page web est différent. Il fournit les deux tailles à la balise `"holder"` DIV et le centre dans la fenêtre du navigateur. En outre, la page web définit la taille de l’élément `HTML` et `BODY` sur 100 %.
 
@@ -398,7 +398,7 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 </html>
 ```
 
-## Incorporation à l’aide de l’API Setter {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
+## Incorporation à l’aide d’une API basée sur Setter {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
 
 Au lieu d’utiliser l’initialisation basée sur JSON, il est possible d’utiliser une API basée sur un setter et un constructeur sans args. L’utilisation de ce constructeur d’API ne prend aucun paramètre et les paramètres de configuration sont spécifiés à l’aide des méthodes d’API `setContainerId()`, `setParam()` et `setAsset()`, avec des appels JavaScript distincts.
 
