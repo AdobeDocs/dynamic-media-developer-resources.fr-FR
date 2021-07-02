@@ -2,16 +2,15 @@
 description: ZoomView.reset
 solution: Experience Manager
 title: ZoomView.reset
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 95bf90d1-071e-467a-87aa-122911125233
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 9%
+source-wordcount: '49'
+ht-degree: 10%
 
 ---
-
 
 # ZoomView.reset{#zoomview-reset}
 
@@ -21,7 +20,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Réinitialise le port de la vue lorsque le cadre (image) change. Si elle est définie sur <span class="codeph"> 0</span>, elle préserve le port de vue actuel avec le meilleur ajustement possible tout en préservant les proportions de l'image nouvellement définie. </p> </td> 
+   <td colname="col2"> <p> Réinitialise le port d’affichage lorsque l’image (image) change. S’il est défini sur <span class="codeph"> 0</span>, il conserve le port d’affichage actuel avec la meilleure approximation possible tout en conservant les proportions de l’image nouvellement définie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
