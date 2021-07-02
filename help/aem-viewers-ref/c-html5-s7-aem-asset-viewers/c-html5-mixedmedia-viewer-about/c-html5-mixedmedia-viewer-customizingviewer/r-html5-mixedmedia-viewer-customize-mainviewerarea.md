@@ -1,27 +1,26 @@
 ---
-description: La zone principale de la vue est celle occupée par la vue principale et les nuances. Il est généralement configuré pour s'adapter à l'écran du périphérique disponible lorsqu'aucune taille n'est spécifiée.
+description: La zone de vue principale est la zone occupée par la vue principale et les échantillons. Il est généralement défini pour s’adapter à l’écran de l’appareil disponible lorsqu’aucune taille n’est spécifiée.
 solution: Experience Manager
-title: Zone du lecteur principal
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+title: Zone de visionneuse principale
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: fe8b748c-5318-4fcd-9f3a-d50523bb3f8f
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '131'
 ht-degree: 2%
 
 ---
 
+# Zone de visionneuse principale{#main-viewer-area}
 
-# Zone du lecteur principal{#main-viewer-area}
-
-La zone principale de la vue est celle occupée par la vue principale et les nuances. Il est généralement configuré pour s&#39;adapter à l&#39;écran du périphérique disponible lorsqu&#39;aucune taille n&#39;est spécifiée.
+La zone de vue principale est la zone occupée par la vue principale et les échantillons. Il est généralement défini pour s’adapter à l’écran de l’appareil disponible lorsqu’aucune taille n’est spécifiée.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriétés CSS de la zone de visualisation principale**
+**Propriétés CSS de la zone de visionneuse principale**
 
-L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe CSS suivant :
+L’aspect de la zone d’affichage est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 ```
 .s7mixedmediaviewer 
@@ -30,7 +29,7 @@ L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe C
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> Propriété CSS </p> </th> 
+   <th colname="col1" class="entry"> <p> propriété CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
@@ -50,7 +49,7 @@ L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe C
  </tbody> 
 </table>
 
-Exemple : pour configurer une visionneuse avec un arrière-plan blanc ( `#FFFFFF`) et lui appliquer une taille de 512 x 288 pixels.
+Exemple : pour configurer une visionneuse avec un arrière-plan blanc ( `#FFFFFF`) et lui donner une taille de 512 x 288 pixels.
 
 ```
 .s7mixedmediaviewer { 
@@ -59,4 +58,3 @@ Exemple : pour configurer une visionneuse avec un arrière-plan blanc ( `#FFFFFF
  height: 288px;  
 }
 ```
-
