@@ -2,16 +2,15 @@
 description: SpinView.iscommand
 solution: Experience Manager
 title: SpinView.iscommand
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: d616c8cf-6717-48f9-9926-1b37afe0e444
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '66'
 ht-degree: 7%
 
 ---
-
 
 # SpinView.iscommand{#spinview-iscommand}
 
@@ -21,7 +20,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> iscommand</span></span> </p> </td> 
-   <td colname="col2"> <p> Chaîne de commande Diffusion d’images appliquée à l’image à 360°. Si elle est spécifiée dans l’URL, toutes les occurrences de <span class="codeph"> &amp;</span> et <span class="codeph"> =</span> doivent être codées en HTTP sous la forme <span class="codeph"> %26</span> et <span class="codeph"> %3D</span>, respectivement. </p> <p> <p>Remarque :  Les commandes de manipulation de dimensionnement d’image ne sont pas prises en charge. </p> </p> </td> 
+   <td colname="col2"> <p> Chaîne de commande de diffusion d’images appliquée à l’image à 360°. Si spécifié dans l’URL, toutes les occurrences de <span class="codeph"> &amp;</span> et <span class="codeph"> =</span> doivent être codées en HTTP sous la forme <span class="codeph"> %26</span> et <span class="codeph"> %3D</span>, respectivement. </p> <p> <p>Remarque :  Les commandes de manipulation de dimensionnement d’image ne sont pas prises en charge. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -36,7 +35,7 @@ Aucune
 
 ## Exemple {#section-bd6c4249bccf44aab13fee8552f5a8b3}
 
-Lorsqu’elle est spécifiée dans l’URL de la visionneuse :
+Lorsqu’il est spécifié dans l’URL de la visionneuse :
 
 `iscommand=op_sharpen%3d1%26op_colorize%3d0xff0000`
 
