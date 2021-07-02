@@ -2,16 +2,15 @@
 description: SpinView.lockdirection
 solution: Experience Manager
 title: SpinView.lockdirection
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: c2aeb45f-879b-4a53-b571-744fc73d04fd
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '133'
 ht-degree: 3%
 
 ---
-
 
 # SpinView.lockdirection{#spinview-lockdirection}
 
@@ -21,7 +20,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Indique s’il faut autoriser un changement de direction de rotation dans le cas d’une visionneuse à 360° 2D. </p> <p>Lorsqu'il est défini sur <span class="codeph"> 1 </span>, le composant identifie la direction de glissement ou de glissement Principale (horizontale par rapport à verticale) au début du mouvement. Après cela, il maintient cette direction jusqu'à ce que le mouvement se termine. Par exemple, si l'utilisateur début une rotation horizontale puis décide de poursuivre son mouvement de glisser dans une direction verticale, le composant n'effectue pas de rotation verticale ; il ne tient compte que du mouvement horizontal de la souris ou du glissement. </p> <p>La valeur <span class="codeph"> 0 </span> permet à un utilisateur de modifier la direction de rotation à tout moment pendant la progression du mouvement. Le paramètre n’a aucune incidence si la visionneuse à 360° est 1D. </p> </td> 
+   <td colname="col2"> <p> Indique s’il faut autoriser ou non un changement de direction de rotation dans le cas d’une visionneuse à 360° 2D. </p> <p>Lorsqu’il est défini sur <span class="codeph"> 1 </span>, le composant identifie la Principale direction de glissement ou de glissement (horizontal par rapport à vertical) au début du mouvement. Ensuite, il maintient cette direction jusqu'à ce que le geste se termine. Par exemple, si l’utilisateur commence une rotation horizontale, puis décide de continuer son mouvement de glisser dans une direction verticale, le composant n’effectue pas de rotation verticale ; il ne prend en compte que le mouvement horizontal de la souris ou le glissement. </p> <p>Une valeur <span class="codeph"> 0 </span> permet à l’utilisateur de modifier la direction de rotation à tout moment pendant la progression du mouvement. Le paramètre n’a aucun effet si la visionneuse à 360° est 1D. </p> </td> 
   </tr> 
  </tbody> 
 </table>
