@@ -2,16 +2,15 @@
 description: ZoomView.iconeffect
 solution: Experience Manager
 title: ZoomView.iconeffect
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 40b7887d-d525-4816-8c72-9ef8f5948de3
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '126'
 ht-degree: 4%
 
 ---
-
 
 # ZoomView.iconeffect{#zoomview-iconeffect}
 
@@ -21,19 +20,19 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Permet à l’<span class="codeph"> iconeffect</span> de s’afficher en haut de l’image lorsque celle-ci est à l’état Réinitialisé et suggère une action disponible pour interagir avec l’image. </p> </td> 
+   <td colname="col2"> <p> Permet à l’effet d’icône <span class="codeph"></span> de s’afficher en haut de l’image lorsque celle-ci est à l’état réinitialisé et qu’il suggère une action disponible pour interagir avec l’image. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> nombre</span></span> </p> </td> 
-   <td colname="col2"> <p> Indique le nombre maximal de fois où l’iconeffect <span class="codeph"></span> apparaît et réapparaît. La valeur <span class="codeph"> -1</span> indique que l’icône réapparaît toujours indéfiniment. </p> </td> 
+   <td colname="col2"> <p> Indique le nombre maximal de fois que l’icône <span class="codeph"> </span> apparaît et réapparaît. Une valeur <span class="codeph"> -1</span> indique que l’icône réapparaît toujours indéfiniment. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> fondre</span></span> </p> </td> 
-   <td colname="col2"> <p>Spécifie la durée de l'animation d'affichage ou de masquage, en secondes. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> fade</span></span> </p> </td> 
+   <td colname="col2"> <p>Indique la durée de l’animation d’affichage ou de masquage, en secondes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p>Définit le nombre de secondes pendant lesquelles l'iconeffect <span class="codeph"> </span> reste entièrement visible avant qu'il ne se masque automatiquement. En d’autres termes, le temps après la fin de l’animation de fondu mais avant le début de l’animation de fondu. Un paramètre <span class="codeph"> 0</span> désactive le comportement de masquage automatique. </p> </td> 
+   <td colname="col2"> <p>Définit le nombre de secondes pendant lesquelles <span class="codeph"> iconEffet</span> reste entièrement visible avant qu’il ne se masque automatiquement. C’est-à-dire le temps qui suit la fin de l’animation de fondu avant le début de l’animation de fondu. Un paramètre de <span class="codeph"> 0</span> désactive le comportement de masquage automatique. </p> </td> 
   </tr> 
  </tbody> 
 </table>
