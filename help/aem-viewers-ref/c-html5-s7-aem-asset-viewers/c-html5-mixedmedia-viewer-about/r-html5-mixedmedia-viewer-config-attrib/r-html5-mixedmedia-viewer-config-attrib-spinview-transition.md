@@ -2,16 +2,15 @@
 description: SpinView.transition
 solution: Experience Manager
 title: SpinView.transition
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: fcffe282-65a5-4093-8838-71a64085b387
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '111'
 ht-degree: 4%
 
 ---
-
 
 # SpinView.transition{#spinview-transition}
 
@@ -21,11 +20,11 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> heure</span></span> </p> </td> 
-   <td colname="col2"> <p> Indique la durée en secondes que l’animation d’une seule action d’étape de zoom prend. </p> </td> 
+   <td colname="col2"> <p> Indique la durée en secondes de l’animation d’une seule action d’étape de zoom. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> assouplissement</span></span> </p> </td> 
-   <td colname="col2"> <p> Crée une illusion d'accélération ou de décélération qui rend la transition plus naturelle. Vous pouvez définir l’assouplissement sur l’un des paramètres suivants : </p> <p> 
+   <td colname="col2"> <p> Crée une illusion d'accélération ou de décélération qui rend la transition plus naturelle. Vous pouvez définir l’assouplissement sur l’une des options suivantes : </p> <p> 
      <ul id="ul_7B9694978D96449AB986AED1CF7F649D"> 
       <li id="li_904CEC8AD5834139A5585EE70ACE9C80">0 (auto) </li> 
       <li id="li_471D4CD39C10415497B1714B0AD961B9"> 1 (linéaire) </li> 
@@ -33,7 +32,7 @@ ht-degree: 4%
       <li id="li_B8D4C40D795642AB835925582B707158"> 3 (cubique) </li> 
       <li id="li_2B9F7324BB89455C89C1CAE1BD5BBB65"> 4 (quartique) </li> 
       <li id="li_B94A553B6E844247BE88ECA0A8CEB811"> 5 (quintique) </li> 
-     </ul> </p> <p>Le mode automatique utilise toujours la transition linéaire lorsque le zoom élastique est désactivé (par défaut). Sinon, il convient à l’une des autres fonctions d’assouplissement en fonction de l’heure de transition. Autrement dit, plus le temps de transition est court, plus la fonction d'assouplissement est utilisée pour accélérer l'effet d'accélération ou de décélération. </p> </td> 
+     </ul> </p> <p>Le mode automatique utilise toujours une transition linéaire lorsque le zoom élastique est désactivé (par défaut). Sinon, il convient à l’une des autres fonctions d’assouplissement en fonction du temps de transition. En d’autres termes, plus le temps de transition est court, plus la fonction d’assouplissement est utilisée pour accélérer l’effet d’accélération ou de décélération. </p> </td> 
   </tr> 
  </tbody> 
 </table>
