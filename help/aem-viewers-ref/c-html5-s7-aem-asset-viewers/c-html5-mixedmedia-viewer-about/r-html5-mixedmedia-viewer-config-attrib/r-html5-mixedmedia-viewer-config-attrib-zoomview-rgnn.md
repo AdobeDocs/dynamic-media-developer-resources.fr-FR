@@ -2,16 +2,15 @@
 description: ZoomView.rgnN
 solution: Experience Manager
 title: ZoomView.rgnN
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: a85fba7b-2580-4a26-a998-058a0586841e
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '46'
 ht-degree: 10%
 
 ---
-
 
 # ZoomView.rgnN{#zoomview-rgnn}
 
@@ -20,8 +19,8 @@ ht-degree: 10%
 <table id="table_DEA0A957BC624857B7C0A88DC75DE025"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> x</span>,<span class="codeph"> y</span>,<span class="codeph"> w</span>,<span class="codeph"> h</span> </p> </td> 
-   <td colname="col2"> <p> Région initiale présentant un intérêt pour les coordonnées normalisées. Si cette valeur n’est pas spécifiée, l’image entière est ajustée à la fenêtre d’affichage initiale. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> x</span>, <span class="codeph"> y</span>, <span class="codeph"> w</span>, <span class="codeph"> h</span> </p> </td> 
+   <td colname="col2"> <p> Région initiale d’intérêt pour les coordonnées normalisées. Si cette valeur n’est pas spécifiée, l’image entière est ajustée à la fenêtre d’affichage initiale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
