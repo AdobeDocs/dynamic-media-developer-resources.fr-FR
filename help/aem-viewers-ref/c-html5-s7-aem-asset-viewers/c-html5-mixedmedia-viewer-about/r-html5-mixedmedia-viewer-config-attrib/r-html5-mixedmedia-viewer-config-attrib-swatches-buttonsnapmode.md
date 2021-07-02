@@ -2,16 +2,15 @@
 description: Swatches.buttonsnapmode
 solution: Experience Manager
 title: Swatches.buttonsnapmode
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 3be4a886-cc33-42f8-8f0a-e41d8dd5da33
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 7%
+source-wordcount: '48'
+ht-degree: 8%
 
 ---
-
 
 # Swatches.buttonsnapmode{#swatches-buttonsnapmode}
 
@@ -21,15 +20,15 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> instantané</span> </span> </p> </td> 
-   <td> <p>Les boutons s’alignent en regard des nuances. </p> </td> 
+   <td> <p>Permet aux boutons de s’aligner en regard des échantillons. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> instantané</span> </span> </p> </td> 
-   <td> <p>Les boutons s’alignent en regard de la bordure du composant. </p> </td> 
+   <td> <p>Permet aux boutons de s’aligner en regard de la bordure du composant. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> recouvrement</span> </span> </p> </td> 
-   <td> <p>Entraîne le rendu des boutons par-dessus les nuances. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> superposition</span> </span> </p> </td> 
+   <td> <p>Les boutons sont affichés au-dessus des échantillons. </p> </td> 
   </tr> 
  </tbody> 
 </table>
