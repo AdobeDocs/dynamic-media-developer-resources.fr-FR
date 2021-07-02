@@ -2,32 +2,31 @@
 description: Swatches.align
 solution: Experience Manager
 title: Swatches.align
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 4f25112b-9e51-4a0e-9500-1b5ab0f4de87
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '93'
 ht-degree: 4%
 
 ---
-
 
 # Swatches.align{#swatches-align}
 
 `[Swatches.|<containerId>_swatches.]align=left|center|right,top|center|bottom`
 
-Indique l’alignement interne (ancrage) du conteneur des échantillons dans la zone du composant. Dans les échantillons, le conteneur de miniature interne est dimensionné de sorte que seul un nombre entier de nuances s’affiche. En conséquence, il y a un certain remplissage entre le conteneur interne et les limites de composants externes. Cette commande indique comment le conteneur des échantillons internes est positionné à l’intérieur du composant.
+Indique l’alignement interne (ancrage) du conteneur d’échantillons dans la zone du composant. Dans les nuanciers, le conteneur de miniatures interne est dimensionné de sorte que seul un nombre entier d’échantillons s’affiche. Par conséquent, il existe une marge intérieure entre le conteneur interne et les limites de composants externes. Cette commande indique comment le conteneur d’échantillons internes est positionné dans le composant.
 
 <table id="table_58D88FF5F83A4ABA928695B5AFF97354"> 
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> left|center|right</span> </p> </td> 
-   <td> <p> Définit l’alignement des nuances horizontales. </p> </td> 
+   <td> <p> Définit l’alignement des échantillons horizontaux. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><span class="codeph"> top|center|bottom</span> </p> </td> 
-   <td> <p> Définit l’alignement des nuances verticales. </p> </td> 
+   <td> <p> Définit l’alignement des échantillons verticaux. </p> </td> 
   </tr> 
  </tbody> 
 </table>
