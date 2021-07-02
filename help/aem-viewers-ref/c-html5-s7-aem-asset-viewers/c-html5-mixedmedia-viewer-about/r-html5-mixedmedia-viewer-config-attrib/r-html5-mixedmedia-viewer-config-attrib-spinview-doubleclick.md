@@ -2,16 +2,15 @@
 description: SpinView.doubleclick
 solution: Experience Manager
 title: SpinView.doubleclick
-feature: Dynamic Media Classic,Viewers,SDK/API,Mix Media Sets
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes
 role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+exl-id: 65e2f2c9-ee2c-45a8-9935-a33089b8c379
+source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '101'
 ht-degree: 3%
 
 ---
-
 
 # SpinView.doubleclick{#spinview-doubleclick}
 
@@ -21,7 +20,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoomReset  </span> </p> </td> 
-   <td colname="col2"> <p> Configure le mappage des actions de rotation des clics/clics doublons. La définition de <span class="codeph"> none </span> désactive la rotation doublon-clic/clic. Si la valeur est définie sur <span class="codeph"> zoom </span> et que vous cliquez sur la rotation de l’image en une seule étape de rotation ; CTRL+clic permet de filtrer une étape de rotation. Si vous définissez <span class="codeph"> reset </span>, un seul clic sur l’image réinitialise la rotation au niveau de rotation initial. Pour <span class="codeph"> zoomReset </span>, la réinitialisation est appliquée si le facteur de rotation actuel est égal ou supérieur à la limite spécifiée, sinon la réinitialisation est appliquée. </p> </td> 
+   <td colname="col2"> <p> Configure le mappage de double-clic/clic pour les actions de rotation. La définition de sur <span class="codeph"> none </span> désactive la rotation double-clic/clic. Si elle est définie sur <span class="codeph"> zoom </span>, cliquez sur la rotation de l’image en une seule étape de rotation ; Ctrl+Clic trace une étape de rotation. La définition de sur <span class="codeph"> réinitialiser </span> entraîne un seul clic sur l’image pour réinitialiser la rotation au niveau de rotation initial. Pour <span class="codeph"> zoomReset </span>, la réinitialisation est appliquée si le facteur de rotation actuel est à ou au-delà de la limite spécifiée, sinon une rotation est appliquée. </p> </td> 
   </tr> 
  </tbody> 
 </table>
