@@ -1,21 +1,20 @@
 ---
-description: Attribut de configuration pour la visionneuse Video360.
+description: Attribut de configuration de la visionneuse Video360.
 solution: Experience Manager
 title: Video360Player.vrrender
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visionneuses,SDK/API,vidéo 360 VR
+role: Developer,User
 exl-id: bdc9b086-b9cc-4df0-b044-0ab2b694d01a
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 21%
+source-wordcount: '39'
+ht-degree: 23%
 
 ---
 
 # Video360Player.vrrender{#video-player-vrrender}
 
-Attribut de configuration pour la visionneuse Video360.
+Attribut de configuration de la visionneuse Video360.
 
 `[Video360Player.|<containerId>_video360Player.]vrrender=0|1`
 
