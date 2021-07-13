@@ -1,24 +1,23 @@
 ---
-description: Les attributs décrits dans cette section sont reconnus dans les fichiers d'attributs de catalogue.
+description: Les attributs décrits dans cette section sont reconnus dans les fichiers d’attributs du catalogue.
 solution: Experience Manager
-title: Attributs de catalogue
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: Attributs du catalogue
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 591dbbbf-770b-4566-9dc2-9f1eefe438e4
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '52'
 ht-degree: 0%
 
 ---
 
+# Attributs du catalogue{#catalog-attributes}
 
-# Attributs de catalogue{#catalog-attributes}
-
-Les attributs décrits dans cette section sont reconnus dans les fichiers d&#39;attributs de catalogue.
+Les attributs décrits dans cette section sont reconnus dans les fichiers d’attributs du catalogue.
 
 * [Gestion des catalogues](r-catalog-management.md)
-* [Demander des attributs](r-request-attributes.md)
+* [Attributs de requête](r-request-attributes.md)
 * [Attributs de requête par défaut](r-default-request-attributes.md)
 * [Attributs de gestion des couleurs](r-color-management-attributes.md)
 * [Attributs de miniature courants](r-common-thumbnail-attributes.md)
