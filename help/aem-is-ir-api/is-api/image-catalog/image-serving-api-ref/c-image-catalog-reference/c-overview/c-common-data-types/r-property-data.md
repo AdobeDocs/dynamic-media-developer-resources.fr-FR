@@ -2,16 +2,15 @@
 description: Les données de propriété se composent d’une chaîne de texte représentant une ou plusieurs propriétés.
 solution: Experience Manager
 title: Données de propriété
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 86278720-ece0-4e67-8fb1-443355f878b7
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
-
 
 # Données de propriété{#property-data}
 
@@ -19,7 +18,7 @@ Les données de propriété se composent d’une chaîne de texte représentant 
 
 Une propriété se compose d’un nom de propriété et d’une valeur de propriété, séparés par =.
 
-Plusieurs propriétés sont séparées par des séparateurs de lignes, qui peuvent être `??` ou `<CR><LF>`. Si la chaîne de données de propriété entière n’est pas entourée de guillemets, le serveur remplace chaque occurrence de `??` par `<CR><LF>` avant de transmettre les données au client. Les noms de propriété peuvent être composés de lettres, de chiffres, de &quot;.&quot;, de &quot;-&quot; et de &quot;_&quot;. Les noms de propriétés ne sont pas sensibles à la casse.
+Plusieurs propriétés sont séparées par des séparateurs de ligne, qui peuvent être `??` ou `<CR><LF>`. Si l’ensemble de la chaîne de données de propriété n’est pas entre guillemets, le serveur remplace chaque occurrence de `??` par `<CR><LF>` avant de transmettre les données au client. Les noms des propriétés peuvent être composés de lettres, de nombres, de &#39;.&#39;, de &#39;-&#39; et de &#39;_&#39;. Les noms des propriétés ne sont pas sensibles à la casse.
 
 Les valeurs de propriété ne doivent pas inclure de séparateurs de ligne.
 
