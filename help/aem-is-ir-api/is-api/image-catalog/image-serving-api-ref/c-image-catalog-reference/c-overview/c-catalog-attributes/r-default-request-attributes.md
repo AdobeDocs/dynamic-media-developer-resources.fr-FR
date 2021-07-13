@@ -2,16 +2,15 @@
 description: Les fichiers d’attributs du catalogue reconnaissent ces attributs de requête par défaut.
 solution: Experience Manager
 title: Attributs de requête par défaut
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: b706595d-8c3a-438a-8806-e3d85b1bdadb
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '72'
 ht-degree: 1%
 
 ---
-
 
 # Attributs de requête par défaut{#default-request-attributes}
 
@@ -21,7 +20,7 @@ Les fichiers d’attributs du catalogue reconnaissent ces attributs de requête 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultext.md#reference-1b96c71a253049ddaeae09892d3484a0" format="dita" scope="local"> DefaultExt</a></span> </p> </td> 
-   <td colname="col2"> <p> Suffixe de fichier image par défaut. </p> </td> 
+   <td colname="col2"> <p> Suffixe du fichier image par défaut. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107" format="dita" scope="local"> DefaultFont</a></span> </p> </td> 
@@ -57,4 +56,3 @@ Les fichiers d’attributs du catalogue reconnaissent ces attributs de requête 
   </tr> 
  </tbody> 
 </table>
-
