@@ -1,21 +1,20 @@
 ---
-description: Mise à l’échelle de l’image. Met à l’échelle une image par facteur par rapport à l’image à résolution complète.
+description: Mise à l’échelle de l’image. Met à l’échelle une image par facteur par rapport à l’image en pleine résolution.
 solution: Experience Manager
 title: scale
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 89701a15-a0b6-460d-b0c1-5e25f3305380
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '47'
 ht-degree: 8%
 
 ---
 
-
 # scale{#scale}
 
-Mise à l’échelle de l’image. Met à l’échelle une image par facteur par rapport à l’image à résolution complète.
+Mise à l’échelle de l’image. Met à l’échelle une image par facteur par rapport à l’image en pleine résolution.
 
 `scale= *`facteur`*`
 
