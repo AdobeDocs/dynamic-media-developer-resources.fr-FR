@@ -2,24 +2,23 @@
 description: Prise en charge du suivi Adobe Analytics
 solution: Experience Manager
 title: Prise en charge du suivi Adobe Analytics
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
-role: Developer,Business Practitioner,Data Engineer,Data Architect
+feature: Dynamic Media Classic,Visionneuses,SDK/API,vidéo 360 VR
+role: Developer,User,Data Engineer,Data Architect
 exl-id: fb58a388-e4da-475d-b726-d5a32e99cce0
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 3%
+source-wordcount: '146'
+ht-degree: 4%
 
 ---
 
 # Prise en charge du suivi Adobe Analytics{#support-for-adobe-analytics-tracking}
 
-Par défaut, le lecteur envoie une requête HTTP de suivi unique au serveur Image Server configuré avec le type de lecteur et les informations de version.
+Par défaut, la visionneuse envoie une requête HTTP de suivi unique au serveur d’images configuré avec le type de visionneuse et les informations de version.
 
 ## Suivi personnalisé {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Pour intégrer des systèmes d’analyse tiers, il est nécessaire d’écouter le rappel de la visionneuse `trackEvent` et de traiter l’argument `eventInfo` de la fonction de rappel si nécessaire. Le code suivant est un exemple de cette fonction de gestionnaire :
+Pour l’intégrer aux systèmes d’analyse tiers, il est nécessaire d’écouter le rappel de la visionneuse `trackEvent` et de traiter l’argument `eventInfo` de la fonction de rappel, le cas échéant. Le code suivant est un exemple de fonction de gestionnaire de ce type :
 
 ```
 var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({ 
@@ -50,31 +49,31 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
 });
 ```
 
-Le lecteur effectue le suivi des événements d’utilisateur SDK suivants :
+La visionneuse effectue le suivi des événements utilisateur du SDK suivants :
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>ÉVÉNEMENT utilisateur du SDK </p> </th> 
+   <th colname="col1" class="entry"> <p>Événement d’utilisateur du SDK </p> </th> 
    <th colname="col2" class="entry"> <p>Envoyé... </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CHARGEMENT </span> </p> </td> 
-   <td colname="col2"> <p>lorsque le lecteur est chargé en premier. </p> </td> 
+   <td colname="col2"> <p>lorsque la visionneuse est chargée en premier. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PERMUTATION </span> </p> </td> 
-   <td colname="col2"> <p>lorsqu’une ressource est modifiée dans le lecteur à l’aide de l’API <span class="codeph"> setAsset() </span>. </p> </td> 
+   <td colname="col2"> <p>lorsqu’une ressource est échangée dans la visionneuse à l’aide de l’API <span class="codeph"> setAsset() </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LECTURE </span> </p> </td> 
-   <td colname="col2"> <p>lors des débuts de lecture. </p> </td> 
+   <td colname="col2"> <p>lorsque la lecture démarre. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAUSE </span> </p> </td> 
-   <td colname="col2"> <p>lorsque la lecture est interrompue. </p> </td> 
+   <td colname="col2"> <p>lorsque la lecture est mise en pause. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ARRET </span> </p> </td> 
@@ -86,7 +85,7 @@ Le lecteur effectue le suivi des événements d’utilisateur SDK suivants :
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> INTERACTIVE_SWATCH  </span> </p> </td> 
-   <td colname="col2"> <p>chaque fois que l’utilisateur clique sur une nuance interactive. </p> </td> 
+   <td colname="col2"> <p>chaque fois que l’utilisateur clique sur un échantillon interactif. </p> </td> 
   </tr> 
  </tbody> 
 </table>
