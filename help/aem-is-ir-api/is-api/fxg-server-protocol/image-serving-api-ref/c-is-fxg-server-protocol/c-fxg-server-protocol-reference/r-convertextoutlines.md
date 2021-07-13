@@ -2,16 +2,15 @@
 description: Convertir le texte d’un fichier PDF en contours.
 solution: Experience Manager
 title: convertTextToOutlines
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: b9bff788-f859-4817-9e29-b9edc579eee7
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '67'
 ht-degree: 1%
 
 ---
-
 
 # convertTextToOutlines{#converttexttooutlines}
 
@@ -24,6 +23,6 @@ Convertir le texte d’un fichier PDF en contours.
  </tr> 
 </table>
 
-Utilisez la commande URL `convertTextToOutlines=1` pour modifier tout le texte d’un fichier PDF en chemins d’accès soulignés.
+Utilisez la commande d’URL `convertTextToOutlines=1` pour modifier tout le texte d’un fichier PDF en chemins d’accès avec contour.
 
-Lorsqu’un effet est appliqué au texte d’un fichier PDF, tel que la conversion du texte en contours, l’image rendue finale est réduite ou &quot;aplatie&quot; en taille.
+Lorsque un effet est appliqué au texte dans un fichier PDF, par exemple la conversion de texte en contours, l’image finale rendue est réduite ou sa taille &quot;aplatie&quot;.
