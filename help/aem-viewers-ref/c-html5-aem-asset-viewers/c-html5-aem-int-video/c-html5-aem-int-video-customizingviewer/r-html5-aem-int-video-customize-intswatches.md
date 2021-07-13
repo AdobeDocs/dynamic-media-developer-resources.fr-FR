@@ -1,27 +1,26 @@
 ---
-description: Le panneau Nuanciers interactifs s’affiche en regard du contenu vidéo si des données interactives ont été transmises à la visionneuse en configuration. Il se compose d’une bannière en haut de laquelle est affiché le texte tel que "Cliquer pour la Vue", d’une colonne d’une ou de plusieurs nuances interactives et de deux boutons de défilement (disponibles uniquement sur les systèmes de bureau).
+description: Le panneau d’échantillons interactifs s’affiche en regard du contenu vidéo si des données interactives ont été transmises à la visionneuse dans la configuration. Il s’agit d’une bannière dans la partie supérieure qui effectue le rendu du texte tel que "Clic pour affichage", d’une colonne d’un ou plusieurs échantillons interactifs et de deux boutons de défilement (disponibles uniquement sur les systèmes de bureau).
 solution: Experience Manager
-title: Nuances interactives
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
-role: Developer,Business Practitioner
+title: Échantillons interactifs
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéos interactives
+role: Developer,User
 exl-id: c9ef02eb-f5db-474b-b234-c49508e2af35
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '892'
 ht-degree: 2%
 
 ---
 
-# Nuances interactives{#interactive-swatches}
+# Échantillons interactifs{#interactive-swatches}
 
-Le panneau Nuanciers interactifs s’affiche en regard du contenu vidéo si des données interactives ont été transmises à la visionneuse en configuration. Il se compose d’une bannière en haut de laquelle est affiché le texte tel que &quot;Cliquer pour la Vue&quot;, d’une colonne d’une ou de plusieurs nuances interactives et de deux boutons de défilement (disponibles uniquement sur les systèmes de bureau).
+Le panneau d’échantillons interactifs s’affiche en regard du contenu vidéo si des données interactives ont été transmises à la visionneuse dans la configuration. Il s’agit d’une bannière dans la partie supérieure qui effectue le rendu du texte tel que &quot;Clic pour affichage&quot;, d’une colonne d’un ou plusieurs échantillons interactifs et de deux boutons de défilement (disponibles uniquement sur les systèmes de bureau).
 
 <!--<a id="section_235621A1533A49AAADB64A7C3191F735"></a>-->
 
-Sur les ordinateurs de bureau et sur les périphériques tactiles, en orientation paysage, les échantillons interactifs sont rendus verticalement à droite du contenu vidéo. Sur les périphériques tactiles en orientation portrait, ils apparaissent au bas de la visionneuse, sous la forme d’une rangée horizontale de nuances.
+Sur les ordinateurs de bureau et les appareils tactiles, en orientation paysage, les échantillons interactifs sont rendus verticalement à droite du contenu vidéo. Sur les périphériques tactiles orientés portrait, ils apparaissent au bas de la visionneuse sous la forme d’une ligne horizontale d’échantillons.
 
-Le sélecteur de classe CSS suivant contrôle l’emplacement et l’orientation du panneau des nuances interactives :
+Le sélecteur de classe CSS suivant contrôle l’emplacement et l’orientation du panneau des échantillons interactifs :
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches
@@ -33,11 +32,11 @@ Le sélecteur de classe CSS suivant contrôle l’emplacement et l’orientation
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Largeur du panneau Nuancier interactif </p> </td> 
+   <td colname="col2"> <p>Largeur du panneau des échantillons interactifs </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Hauteur du panneau des nuances interactives. </p> </td> 
+   <td colname="col2"> <p>Hauteur du panneau des échantillons interactifs. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> haut </span> </p> </td> 
@@ -45,7 +44,7 @@ Le sélecteur de classe CSS suivant contrôle l’emplacement et l’orientation
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bas </span> </p> </td> 
-   <td colname="col2"> <p>Position inférieure du panneau des nuances interactives. </p> </td> 
+   <td colname="col2"> <p>Position inférieure du panneau des échantillons interactifs. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> gauche </span> </p> </td> 
@@ -58,16 +57,16 @@ Le sélecteur de classe CSS suivant contrôle l’emplacement et l’orientation
  </tbody> 
 </table>
 
-L’emplacement et l’orientation d’exécution du panneau nuanciers interactifs sont définis par une combinaison des propriétés CSS ci-dessus, comme suit :
+L’emplacement et l’orientation d’exécution du panneau des échantillons interactifs sont définis par une combinaison des propriétés CSS ci-dessus, comme suit :
 
-* Pour afficher horizontalement des nuances interactives au bas de la visionneuse, définissez la hauteur sur une valeur de pixel absolue ; gauche et bas à 0 px ; largeur, droite et de haut en auto.
-* Pour rendre les échantillons interactifs verticalement à droite du contenu vidéo, définissez la largeur sur un pixel absolu. droite et haut à 0px ; hauteur, gauche et bas jusqu’à auto.
+* Pour effectuer le rendu des échantillons interactifs horizontalement au bas de la visionneuse, définissez la hauteur sur une valeur de pixel absolue. gauche et bas à 0 px ; largeur, droite et haut vers auto.
+* Pour effectuer le rendu des échantillons interactifs verticalement à droite du contenu vidéo, définissez la largeur sur un pixel absolu. droite et haut à 0 px ; hauteur, gauche et bas à auto.
 
-Il est possible d’utiliser des marqueurs CSS conjointement avec cette mise en forme pour obtenir le positionnement adaptatif du panneau des nuanciers interactifs.
+Il est possible d’utiliser des marqueurs CSS conjointement avec ce style pour obtenir le positionnement adaptatif du panneau des échantillons interactifs.
 
 ## Exemple {#example}
 
-Pour configurer un panneau de nuances interactif afin qu’il s’affiche horizontalement en bas de la visionneuse sur des périphériques tactiles en orientation paysage et verticalement à droite du contenu vidéo dans tous les autres cas :
+Pour configurer un panneau d’échantillons interactifs afin d’effectuer un rendu horizontal au bas de la visionneuse sur les périphériques tactiles en orientation paysage et d’afficher verticalement à droite du contenu vidéo dans tous les autres cas :
 
 ```
 .s7interactivevideoviewer.s7touchinput.s7device_landscape .s7interactiveswatches, 
@@ -91,7 +90,7 @@ Pour configurer un panneau de nuances interactif afin qu’il s’affiche horizo
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-La taille et la position de la bannière sont gérées par le composant de nuances interactives en fonction d’autres styles appliqués avec CSS et ne peuvent pas être définis explicitement.
+La taille et la position de la bannière sont gérées par le composant d’échantillons interactifs en fonction d’autres styles appliqués avec CSS et ne peuvent pas être définis explicitement.
 
 Le sélecteur de classe CSS suivant contrôle l’aspect du panneau de bannière :
 
@@ -116,7 +115,7 @@ Le sélecteur de classe CSS suivant contrôle l’aspect du panneau de bannière
    <td colname="col2"> <p>Bordure autour du panneau de bannière. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-poids  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
    <td colname="col2"> <p>Poids de police à utiliser pour le texte dans le panneau de bannière. </p> </td> 
   </tr> 
   <tr> 
@@ -129,7 +128,7 @@ Le sélecteur de classe CSS suivant contrôle l’aspect du panneau de bannière
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-align  </span> </p> </td> 
-   <td colname="col2"> <p>Alignement des polices à utiliser pour le texte à l’intérieur du panneau de bannière. </p> </td> 
+   <td colname="col2"> <p>Alignement de la police à utiliser pour le texte dans le panneau de bannière. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -155,20 +154,20 @@ Le sélecteur de classe CSS suivant contrôle l’aspect des échantillons :
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches
 ```
 
-## Propriétés CSS de la zone de nuances {#css-properties-of-the-swatches-area}
+## Propriétés CSS de la zone d’échantillons {#css-properties-of-the-swatches-area}
 
 <table id="table_45E98E96B07246CAA5D3076FAF62A0B3"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
-   <td colname="col2"> <p>Couleur d’arrière-plan de la zone des nuances. </p> </td> 
+   <td colname="col2"> <p>Couleur d’arrière-plan de la zone d’échantillons. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Exemple {#section-9cadd62a09fd44a280f55ff42437e416}
 
-Pour configurer une zone de nuances avec un arrière-plan gris foncé :
+Pour configurer une zone d’échantillon avec un arrière-plan gris foncé :
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches { 
@@ -176,11 +175,11 @@ Pour configurer une zone de nuances avec un arrière-plan gris foncé :
 }
 ```
 
-Le sélecteur de classe CSS suivant contrôle l’espacement entre les miniatures d’échantillons :
+Le sélecteur de classe CSS suivant contrôle l’espacement entre les miniatures d’échantillon :
 
 `.s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7thumbcell`
 
-## Propriétés CSS des nuances Espacement des miniatures {#css-properties-of-the-swatches-thumbnail-spacing}
+## Propriétés CSS de l’interlettrage des miniatures des échantillons {#css-properties-of-the-swatches-thumbnail-spacing}
 
 <table id="table_FE6A749EA3894956998D50EA4AB6497B"> 
  <tbody> 
@@ -193,7 +192,7 @@ Le sélecteur de classe CSS suivant contrôle l’espacement entre les miniature
 
 ## Exemple {#section-39fb270b7e494a9d99e6e8f6890ec53c}
 
-Pour définir un espacement vertical de 10 pixels :
+Pour configurer l’espacement vertical sur 10 pixels :
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7thumbcell { 
@@ -201,7 +200,7 @@ Pour définir un espacement vertical de 10 pixels :
 }
 ```
 
-Le sélecteur de classe CSS suivant contrôle l’aspect des miniatures individuelles :
+Le sélecteur de classe CSS suivant contrôle l’aspect de miniatures individuelles :
 
 `.s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7thumb`
 
@@ -214,7 +213,7 @@ Le sélecteur de classe CSS suivant contrôle l’aspect des miniatures individu
    <td colname="col2"> <p>Largeur de la miniature. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> hauteur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hauteur de la miniature. </p> </td> 
   </tr> 
   <tr> 
@@ -226,7 +225,7 @@ Le sélecteur de classe CSS suivant contrôle l’aspect des miniatures individu
 
 >[!NOTE]
 >
->La miniature prend en charge le sélecteur d’attributs `state`, que vous pouvez utiliser pour appliquer différents habillages à différents états de miniature. `state="selected"` correspond en particulier à la miniature de l’image actuellement sélectionnée ; `state="default"` correspond au reste des miniatures ; `state="over"` est utilisé lors du survol de la souris.
+>La miniature prend en charge le sélecteur d’attributs `state`, que vous pouvez utiliser pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la miniature de l’image actuellement sélectionnée ; `state="default"` correspond au reste des miniatures ; `state="over"` est utilisé au survol de la souris.
 
 ## Exemple {#section-69fec189ffaa440b97b6b846c320b75b}
 
@@ -253,7 +252,7 @@ Le sélecteur de classe CSS suivant contrôle l’aspect du libellé de la minia
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bordure </span> </p> </td> 
-   <td colname="col2"> <p>Bordure d’étiquette. </p> </td> 
+   <td colname="col2"> <p>Bordure du libellé. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> alignement de texte  </span> </p> </td> 
@@ -268,7 +267,7 @@ Le sélecteur de classe CSS suivant contrôle l’aspect du libellé de la minia
 
 ## Exemple {#section-eb141eb6c1154183baa69796edb90536}
 
-Pour configurer des libellés à l’aide de caractères alignés à gauche, blancs, de 12 pixels, dans la police Helvetica et d’une bordure inférieure :
+Pour configurer des libellés de 12 pixels alignés à gauche, en blanc, dans une police Helvetica et une bordure inférieure :
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7label { 
@@ -280,15 +279,15 @@ font-size: 12px;
 }
 ```
 
-Le sélecteur de classe CSS suivant contrôle l’aspect des boutons de défilement vers le haut et vers le bas :
+Le sélecteur de classe CSS suivant contrôle l’aspect des boutons de défilement haut et bas :
 
 `.s7interactivevideoviewer .s7interactiveswatches .s7scrollupbutton`
 
 `.s7interactivevideoviewer .s7interactiveswatches .s7scrolldownbutton`
 
-Il n’est pas possible de positionner les boutons de défilement à l’aide des propriétés CSS `top`, `left`, `bottom` et `right`; au lieu de cela, la logique du lecteur les positionne automatiquement.
+Il n’est pas possible de positionner les boutons de défilement à l’aide des propriétés CSS `top`, `left`, `bottom` et `right` ; au lieu de cela, la logique de la visionneuse les positionne automatiquement.
 
-## Propriétés CSS de l’aspect des boutons de défilement vers le haut et vers le bas {#css-properties-of-the-appearance-of-the-up-and-down-scroll-buttons}
+## Propriétés CSS de l’aspect des boutons de défilement haut et bas {#css-properties-of-the-appearance-of-the-up-and-down-scroll-buttons}
 
 <table id="table_48AF27AFBB1543288D45449D6900675C"> 
  <tbody> 
@@ -297,29 +296,29 @@ Il n’est pas possible de positionner les boutons de défilement à l’aide de
    <td colname="col2"> <p>Largeur du bouton de défilement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> hauteur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton de défilement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
-   <td colname="col2"> <p>Position à l’intérieur de l’image-objet, si des images-objets CSS sont utilisées. </p> <p>Voir aussi <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col2"> <p>Position à l’intérieur du sprite d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ce bouton prend en charge le sélecteur d’attributs `state`, que vous pouvez utiliser pour appliquer différents habillages aux états du bouton : &quot; `up`&quot;, &quot; `down`&quot;, &quot; `over`&quot; et &quot; `disabled`&quot;.
+>Ce bouton prend en charge le sélecteur d’attributs `state`, que vous pouvez utiliser pour appliquer différents habillages aux états du bouton : &quot; `up`&quot;, &quot; `down`&quot;, &quot; `over`&quot; et &quot;`disabled`&quot;.
 
 Les info-bulles des boutons peuvent être localisées. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 
 ## Exemple {#section-e6ce4fa084b84288bc7583342b2c510c}
 
-Pour configurer un bouton de défilement vers le haut de 60 x 36 pixels, disposez d’une illustration différente pour chaque état et extrait cette illustration de l’image d’image-objet du composant :
+Pour configurer un bouton de défilement de 60 x 36 pixels, disposez d’une illustration différente pour chaque état et extrait cette illustration de l’image sprite du composant :
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7scrollupbutton { 
