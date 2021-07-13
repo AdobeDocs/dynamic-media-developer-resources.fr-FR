@@ -1,21 +1,20 @@
 ---
-description: Attribut de configuration pour la visionneuse Video360.
+description: Attribut de configuration de la visionneuse Video360.
 solution: Experience Manager
 title: Video360Player.mutevolume
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visionneuses,SDK/API,vidéo 360 VR
+role: Developer,User
 exl-id: 8f95c01f-e634-4d6c-a22f-c2285ee969c8
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 13%
+source-wordcount: '64'
+ht-degree: 14%
 
 ---
 
 # Video360Player.mutevolume{#video-player-mutevolume}
 
-Attribut de configuration pour la visionneuse Video360.
+Attribut de configuration de la visionneuse Video360.
 
 `[Video360Player.|<containerId>_video360Player.]mutevolume=0|1`
 
@@ -23,7 +22,7 @@ Attribut de configuration pour la visionneuse Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Définit le mode silencieux pour la lecture vidéo au chargement initial. Si la valeur <span class="codeph"> 1 </span> est définie, le volume est coupé ; sinon, la vidéo est lue avec du son. Sur certains périphériques, le fait de désactiver la lecture vidéo au chargement permet également à la vidéo de se lire automatiquement. </p> </td> 
+   <td colname="col2"> <p> Définit le mode silencieux pour la lecture vidéo au chargement initial. S’il est défini sur <span class="codeph"> 1 </span>, le volume est muet. sinon, la vidéo est lue avec le son. Sur certains appareils, le fait de désactiver la lecture vidéo au chargement permet également la lecture automatique de la vidéo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
