@@ -1,21 +1,20 @@
 ---
-description: Utilisation des masques d’image. Indique comment le masque ou le canal alpha de l’image est utilisé pour les opérations sur l’image (par exemple, colorize=). Lorsqu’il est spécifié dans un calque d’effet, il permet d’appliquer l’effet à la zone d’arrière-plan du calque parent ou à l’ensemble du rectangle du calque parent.
+description: Utilisation des masques d’image. Indique comment le masque ou canal alpha de l’image est utilisé pour les opérations sur l’image (par exemple, colorize=). Lorsqu’il est spécifié dans un calque d’effet, il permet d’appliquer l’effet à la zone d’arrière-plan du calque parent ou à l’ensemble du rectangle du calque parent.
 solution: Experience Manager
 title: maskUse
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: e99101a1-1747-454c-b0c0-3af3335c0497
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '272'
 ht-degree: 2%
 
 ---
 
-
 # maskUse{#maskuse}
 
-Utilisation des masques d’image. Indique comment le masque ou le canal alpha de l’image est utilisé pour les opérations sur l’image (par exemple, colorize=). Lorsqu’il est spécifié dans un calque d’effet, il permet d’appliquer l’effet à la zone d’arrière-plan du calque parent ou à l’ensemble du rectangle du calque parent.
+Utilisation des masques d’image. Indique comment le masque ou canal alpha de l’image est utilisé pour les opérations sur l’image (par exemple, colorize=). Lorsqu’il est spécifié dans un calque d’effet, il permet d’appliquer l’effet à la zone d’arrière-plan du calque parent ou à l’ensemble du rectangle du calque parent.
 
 `maskUse=norm|invert|off`
 
@@ -26,26 +25,26 @@ Le tableau suivant illustre l&#39;effet de `maskUse=` selon la disponibilité et
   <tr> 
    <th class="entry"> <b> Valeur</b> </th> 
    <th class="entry"> <b> Aucun masque</b> </th> 
-   <th class="entry"> <b> Alpha non associé (ou image de masque distincte)</b> </th> 
-   <th class="entry"> <b> Alpha associé (prémultiplié)</b> </th> 
+   <th class="entry"> <b> alpha non associé (ou image de masque distincte)</b> </th> 
+   <th class="entry"> <b> alpha associé (pré-multiplié)</b> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> désactivé </span> </p> </td> 
-   <td> <p> Rectangle d'image opaque </p> </td> 
-   <td> <p> Rectangle d'image opaque </p> </td> 
-   <td> <p> Premier plan de l’image sur un rectangle rempli de noir plein </p> </td> 
+   <td> <p> Rectangle d’image opaque </p> </td> 
+   <td> <p> Rectangle d’image opaque </p> </td> 
+   <td> <p> Zone de premier plan de l’image sur un rectangle rempli de noir uni </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> norme  </span> </p> </td> 
-   <td> <p> Rectangle d'image opaque </p> </td> 
+   <td> <p> <span class="codeph"> standard  </span> </p> </td> 
+   <td> <p> Rectangle d’image opaque </p> </td> 
    <td> <p> Zone de premier plan de l’image </p> </td> 
    <td> <p> Zone de premier plan de l’image ou du calque </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> inverser  </span> </p> </td> 
-   <td> <p> Calque masqué </p> </td> 
+   <td> <p> <span class="codeph"> invert  </span> </p> </td> 
+   <td> <p> Couche masquée </p> </td> 
    <td> <p> Zone d’arrière-plan de l’image </p> </td> 
    <td> <p> Zone d’arrière-plan de l’image ou du calque rempli de noir uni </p> </td> 
   </tr> 
@@ -54,9 +53,9 @@ Le tableau suivant illustre l&#39;effet de `maskUse=` selon la disponibilité et
 
 ## Propriétés {#section-f36ad1af348e45aeb3eb336544df30b0}
 
-Attribut d’image ou de calque. S’applique au calque 0 si `layer=comp`. Si elle est spécifiée dans un calque d’effet, la commande modifie le masque hérité du calque parent.
+Image ou attribut de calque. S’applique au calque 0 si `layer=comp`. Si elle est spécifiée dans un calque d’effet, la commande modifie le masque hérité du calque parent.
 
-Le comportement de `maskUse=` n&#39;est pas défini et n&#39;est pas pris en charge lorsqu&#39;il est spécifié avec du texte ou des calques de couleur unis lorsqu&#39;aucun masque d&#39;image n&#39;est applicable (spécifié avec `mask=` ou `catalog::Mask`).
+Le comportement de `maskUse=` n’est pas défini et n’est pas pris en charge lorsqu’il est spécifié avec des calques de couleur plein ou de texte lorsqu’aucun masque d’image n’est applicable (spécifié avec `mask=` ou `catalog::Mask`).
 
 ## Par défaut {#section-982dd8174641437786dcb3729ace6428}
 
@@ -64,7 +63,7 @@ Le comportement de `maskUse=` n&#39;est pas défini et n&#39;est pas pris en cha
 
 ## Exemple {#section-daa371e9be5547368ff6772342acba0a}
 
-Coloriser la zone d’arrière-plan d’une image ; le premier plan de l’image est défini par une image de masque distincte. Pour ce faire, il suffit de superposer l’arrière-plan de l’image colorée sur le dessus si l’image non modifiée :
+colorier la zone d’arrière-plan d’une image ; le premier plan de l’image est défini par une image de masque distincte. Pour ce faire, il suffit de superposer l’arrière-plan de l’image colorée si l’image non modifiée :
 
 `http://server/myRootId/myImageId?layer=1&src=myImageId&mask=myImgMask&maskUse=invert&colorize=0x306090`
 
