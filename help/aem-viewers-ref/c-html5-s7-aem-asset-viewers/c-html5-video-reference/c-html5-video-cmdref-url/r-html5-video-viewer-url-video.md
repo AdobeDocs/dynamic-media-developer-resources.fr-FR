@@ -1,21 +1,20 @@
 ---
-description: URL de la visionneuse de vidéos.
+description: Commande URL de la visionneuse de vidéos.
 solution: Experience Manager
 title: vidéo
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéo
+role: Developer,User
+exl-id: 03347280-64f8-47da-b33b-0fa1ba2bc59a
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 13%
+source-wordcount: '41'
+ht-degree: 17%
 
 ---
 
+# vidéo{#video}
 
-# video{#video}
-
-URL de la visionneuse de vidéos.
+Commande URL de la visionneuse de vidéos.
 
 ` video= *`videoURL`*`
 
@@ -41,4 +40,3 @@ Aucune
 ```
 video=https://s7d9.scene7.com/is/content/Scene7SharedAssets/Glacier_Climber_MP4
 ```
-
