@@ -2,24 +2,23 @@
 description: Contient les paramètres de configuration du superviseur du serveur.
 solution: Experience Manager
 title: SupervisorRegistry.xml
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Administrator,User
+exl-id: cc6a16fb-fd70-431f-aad6-adb99d4da062
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '77'
 ht-degree: 0%
 
 ---
-
 
 # SupervisorRegistry.xml{#supervisorregistry-xml}
 
 Contient les paramètres de configuration du superviseur du serveur.
 
-Lors de la modification de ce fichier XML, veillez à conserver une syntaxe XML valide, sans quoi le serveur d’images risque de ne pas se début.
+Lorsque vous modifiez ce fichier XML, veillez à conserver une syntaxe XML valide, faute de quoi le serveur d’images risque de ne pas démarrer.
 
-Redémarrez la diffusion d’images après avoir modifié ce fichier pour vous assurer que vos modifications prennent effet. Seules les valeurs d’élément/d’attribut surlignées ci-dessous sont prises en charge pour modification. Modifiez tous les autres contenus de ce fichier uniquement lorsque le support technique de Dynamic Media vous en informera.
+Redémarrez le service d’images après avoir modifié ce fichier pour vous assurer que vos modifications prennent effet. Seules les valeurs d’élément/d’attribut mises en évidence ci-dessous sont prises en charge pour modification. Modifiez tous les autres contenus de ce fichier uniquement sur conseil du support technique de Dynamic Media.
 
 ```
 <supervisor>
@@ -68,4 +67,3 @@ Redémarrez la diffusion d’images après avoir modifié ce fichier pour vous a
     </servers>
 </supervisor>
 ```
-
