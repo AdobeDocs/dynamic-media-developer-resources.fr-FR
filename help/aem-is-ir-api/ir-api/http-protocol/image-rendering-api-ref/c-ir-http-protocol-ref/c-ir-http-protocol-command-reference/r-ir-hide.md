@@ -1,21 +1,20 @@
 ---
-description: Masquer l’objet de chevauchement. Masque tous les objets de recouvrement ou les garnitures de fenêtre appliqués aux cadres de recouvrement de fenêtre dans la sélection actuelle.
+description: Masquer l’objet de chevauchement. Masque dans la sélection actuelle tous les objets ou recouvrements de fenêtre appliqués aux cadres de recouvrement de fenêtre.
 solution: Experience Manager
 title: masquer
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 70c96b62-d6bd-4f12-9ee8-abac5d97e876
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '96'
 ht-degree: 7%
 
 ---
 
-
 # masquer{#hide}
 
-Masquer l’objet de chevauchement. Masque tous les objets de recouvrement ou les garnitures de fenêtre appliqués aux cadres de recouvrement de fenêtre dans la sélection actuelle.
+Masquer l’objet de chevauchement. Masque dans la sélection actuelle tous les objets ou recouvrements de fenêtre appliqués aux cadres de recouvrement de fenêtre.
 
 `hide[= *`val`*]`
 
@@ -28,7 +27,7 @@ Masquer l’objet de chevauchement. Masque tous les objets de recouvrement ou le
 
 ## Propriétés {#section-2952fa43df0547b187b834c819c517ca}
 
-S’applique au groupe ou à la sélection d’objets en cours. Ignoré si la sélection actuelle n’inclut pas d’objets de chevauchement ou de garnitures de fenêtre ou si aucun objet de chevauchement n’est visible.
+S’applique au groupe ou à la sélection d’objets en cours. Ignoré si la sélection actuelle n’inclut aucun objet de chevauchement ou cadre de recouvrement de fenêtre ou si aucun objet de chevauchement n’est visible.
 
 ## Par défaut {#section-9da202944d3a49b7ae81c78370b2b5e7}
 
