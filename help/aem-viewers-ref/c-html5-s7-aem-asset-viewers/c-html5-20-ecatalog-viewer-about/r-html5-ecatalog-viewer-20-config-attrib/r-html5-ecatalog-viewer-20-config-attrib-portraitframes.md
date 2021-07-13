@@ -2,16 +2,15 @@
 description: portraitFrames
 solution: Experience Manager
 title: portraitFrames
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visionneuses,SDK/API,eCatalog
+role: Developer,User
+exl-id: 050388f8-45a9-4f09-a957-f94bead17eca
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '53'
 ht-degree: 7%
 
 ---
-
 
 # portraitFrames{#portraitframes}
 
@@ -21,7 +20,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> split|solid</span> </p> </td> 
-   <td colname="col2"> <p>Définissez ce paramètre sur <span class="codeph"> split</span> pour permettre au lecteur d’afficher les planches de doublon-page en tant que page distincte lorsqu’elles sont utilisées sur un périphérique mobile en orientation portrait. Définissez cette variable sur <span class="codeph"> solid</span> pour toujours afficher les planches de doublon-page sous forme d’image solide, quelle que soit l’orientation du périphérique. </p> </td> 
+   <td colname="col2"> <p>Définissez cette variable sur <span class="codeph"> split</span> pour permettre à la visionneuse d’afficher des planches de deux pages en tant que page distincte lorsqu’elle est utilisée sur un appareil mobile en orientation portrait. Définissez cette variable sur <span class="codeph"> solid</span> pour toujours afficher les planches à deux pages comme des images solides, quelle que soit l’orientation de l’appareil. </p> </td> 
   </tr> 
  </tbody> 
 </table>
