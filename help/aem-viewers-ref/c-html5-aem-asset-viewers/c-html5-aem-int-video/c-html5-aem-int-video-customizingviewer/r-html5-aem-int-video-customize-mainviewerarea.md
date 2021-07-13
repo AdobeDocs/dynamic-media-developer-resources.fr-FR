@@ -1,27 +1,26 @@
 ---
-description: La zone principale de la vue est la zone occupée par les nuances interactives. Il est généralement configuré pour s'adapter à l'écran du périphérique disponible lorsqu'aucune taille n'est spécifiée.
+description: La zone d’affichage principale est la zone occupée par les échantillons interactifs. Il est généralement défini pour s’adapter à l’écran de l’appareil disponible lorsqu’aucune taille n’est spécifiée.
 solution: Experience Manager
-title: Zone du lecteur principal
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
-role: Developer,Business Practitioner
+title: Zone de visionneuse principale
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéos interactives
+role: Developer,User
 exl-id: 8e5a44fa-422f-46f3-bd85-86bd2ce03899
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '126'
 ht-degree: 3%
 
 ---
 
-# Zone du lecteur principal{#main-viewer-area}
+# Zone de visionneuse principale{#main-viewer-area}
 
-La zone principale de la vue est la zone occupée par les nuances interactives. Il est généralement configuré pour s&#39;adapter à l&#39;écran du périphérique disponible lorsqu&#39;aucune taille n&#39;est spécifiée.
+La zone d’affichage principale est la zone occupée par les échantillons interactifs. Il est généralement défini pour s’adapter à l’écran de l’appareil disponible lorsqu’aucune taille n’est spécifiée.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriétés CSS de la zone de visualisation principale**
+**Propriétés CSS de la zone de visionneuse principale**
 
-L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe CSS suivant :
+L’aspect de la zone d’affichage est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 ```
 .s7interactivevideoviewer
@@ -30,7 +29,7 @@ L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe C
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> Propriété CSS </p> </th> 
+   <th colname="col1" class="entry"> <p> propriété CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
