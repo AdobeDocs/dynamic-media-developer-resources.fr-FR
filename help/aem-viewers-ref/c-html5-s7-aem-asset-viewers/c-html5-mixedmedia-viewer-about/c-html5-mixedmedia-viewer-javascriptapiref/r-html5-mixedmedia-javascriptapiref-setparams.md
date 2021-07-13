@@ -3,9 +3,9 @@ description: Référence de l’API JavaScript pour la visionneuse de supports v
 solution: Experience Manager
 title: setParams
 feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 200805ca-20e5-4d3a-90ba-2511e71705ab
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 1%
