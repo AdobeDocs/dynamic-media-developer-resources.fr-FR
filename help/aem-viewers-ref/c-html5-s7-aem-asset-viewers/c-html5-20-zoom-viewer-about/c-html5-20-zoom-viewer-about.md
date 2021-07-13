@@ -4,9 +4,9 @@ keywords: responsive
 solution: Experience Manager
 title: Zoom
 feature: Dynamic Media Classic,Visionneuses,SDK/API,Zoom
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 81a74026-fb15-4f57-a4c7-1ab005950245
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '2404'
 ht-degree: 0%
@@ -258,7 +258,7 @@ Le chemin relatif ressemble à ce qui suit :
    </html>
    ```
 
-## Intégration de conception réactive avec une hauteur illimitée {#section-b9ca11a7e7aa4f74ab43244cbca37ae0}
+## Intégration de conception réactive avec une hauteur libre {#section-b9ca11a7e7aa4f74ab43244cbca37ae0}
 
 Avec l’incorporation de responsive design, la page web dispose normalement d’une sorte de disposition flexible qui détermine la taille d’exécution du conteneur de la visionneuse `DIV`. Pour l’exemple suivant, supposons que la page web permette au conteneur de la visionneuse `DIV` de prendre 40 % de la taille de la fenêtre du navigateur web, en ne restreignant pas sa hauteur. Le code HTML de la page web se présente comme suit :
 
@@ -318,7 +318,7 @@ La page d’exemples suivante illustre d’autres utilisations réelles de l’i
 
 [Démonstrations en direct](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-## Intégration flexible avec largeur et hauteur définies {#section-3674e6c032594441a6576b7fb1de6e64}
+## Incorporation de taille flexible avec définition de la largeur et de la hauteur {#section-3674e6c032594441a6576b7fb1de6e64}
 
 Dans le cas d’une incorporation à taille flexible avec des valeurs de largeur et de hauteur définies, le style de la page web est différent. Il fournit les deux tailles à la balise `"holder"` DIV et le centre dans la fenêtre du navigateur. En outre, la page web définit la taille de l’élément `HTML` et `BODY` sur 100 %.
 
