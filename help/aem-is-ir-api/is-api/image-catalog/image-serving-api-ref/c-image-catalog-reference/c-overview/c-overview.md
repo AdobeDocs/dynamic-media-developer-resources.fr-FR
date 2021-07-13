@@ -1,37 +1,36 @@
 ---
-description: Les catalogues d’images sont utilisés pour fournir au serveur des informations sur les images et les données prises en charge (telles que les polices et les profils ICC).
+description: Les catalogues d’images sont utilisés pour fournir au serveur des informations sur les images et les données de prise en charge (polices et profils ICC, par exemple).
 solution: Experience Manager
 title: présentation
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 36cdd833-6fcb-4be6-a4f8-ba8d20580f29
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
 
+# présentation{#overview}
 
-# Aperçu{#overview}
+Les catalogues d’images sont utilisés pour fournir au serveur des informations sur les images et les données de prise en charge (polices et profils ICC, par exemple).
 
-Les catalogues d’images sont utilisés pour fournir au serveur des informations sur les images et les données prises en charge (telles que les polices et les profils ICC).
-
-Les catalogues d’images sont utilisés pour fournir au serveur des informations sur les images et les données prises en charge (telles que les polices et les profils ICC).
+Les catalogues d’images sont utilisés pour fournir au serveur des informations sur les images et les données de prise en charge (polices et profils ICC, par exemple).
 
 Chaque catalogue d’images se compose d’un fichier d’attributs de catalogue requis et d’un ensemble de fichiers de données de catalogue facultatifs :
 
-* Le fichier de données image, qui répertorie les images et les modèles et leurs métadonnées associées.
-* Le fichier de données SVG, qui répertorie les fichiers SVG et leurs métadonnées associées.
-* Fichier de définitions de macro qui fournit des définitions pour les macros de demande.
-* Fichier de mappage des polices, qui conserve le suivi des polices de texte.
-* Le fichier de mappage de profil, qui répertorie les profils de couleur ICC.
-* Fichier de jeu de règles qui définit les règles de prétraitement des requêtes HTTP.
+* Le fichier de données image, qui énumère les images, les modèles et leurs métadonnées associées.
+* Le fichier de données SVG, qui énumère les fichiers SVG et leurs métadonnées associées.
+* Le fichier de définitions de macro qui fournit des définitions pour les macros de requête.
+* Le fichier de mappage des polices, qui effectue le suivi des polices de texte.
+* Le fichier de mappage de profil, qui énumère les profils de couleurs ICC.
+* Fichier d’ensemble de règles qui définit les règles de prétraitement des requêtes HTTP.
 
-Les fichiers de données de catalogue sont associés aux catalogues d’images par référence de fichier dans le fichier d’attribut de catalogue. Le même fichier de données de catalogue peut être partagé par plusieurs catalogues d’images.
+Les fichiers de données de catalogue sont associés aux catalogues d’images par référence de fichier dans le fichier d’attributs de catalogue. Le même fichier de données de catalogue peut être partagé par plusieurs catalogues d’images.
 
-Les fichiers d’attribut de catalogue doivent avoir un suffixe de fichier [!DNL .ini] et être situés dans le dossier de catalogue de Platform Server ( `PlatformServer::catalog.rootPath`). Les fichiers de données de catalogue peuvent se trouver dans le même dossier ou dans tout autre dossier accessible au serveur de plateformes.
+Les fichiers d’attributs du catalogue doivent comporter un suffixe de fichier [!DNL .ini] et se trouver dans le dossier de catalogue du serveur de plateformes ( `PlatformServer::catalog.rootPath`). Les fichiers de données du catalogue peuvent se trouver dans le même dossier ou tout autre dossier accessible au serveur Platform.
 
-Ce document décrit le format de fichier du catalogue d’images pour le système de diffusion d’images Dynamic Media. L’audience souhaitée est destinée aux développeurs chevronnés et de sites Web qui souhaitent exploiter Dynamic Media Image Serving pour une application Web ou personnalisée.
+Ce document décrit le format de fichier du catalogue d’images pour le système de diffusion d’images Dynamic Media. L’audience prévue est composée de programmeurs chevronnés et de développeurs de sites web qui souhaitent exploiter le service Dynamic Media Image Serving pour une application web ou personnalisée.
 
-On suppose que le lecteur est généralement familier avec le système de diffusion d’images de Dynamic Media, les normes et conventions de protocole HTTP générales et la terminologie de base de l’imagerie.
+On suppose que le lecteur est généralement familiarisé avec le système de diffusion d’images Dynamic Media, les normes et conventions générales du protocole HTTP, ainsi qu’avec la terminologie de base de l’imagerie.
