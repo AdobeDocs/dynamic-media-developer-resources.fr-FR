@@ -2,16 +2,15 @@
 description: Attributs de texte sur chemin.
 solution: Experience Manager
 title: pathAttr
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: fdf9274a-70d0-4692-a7a9-c108abb9ab84
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '148'
 ht-degree: 3%
 
 ---
-
 
 # pathAttr{#pathattr}
 
@@ -22,11 +21,11 @@ Attributs de texte sur chemin.
 <table id="simpletable_EC76095316AF4F07B1DDCC0D72B814CF"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> direction </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> norme  </span> |  <span class="codeph"> inverser  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> standard  </span> |  <span class="codeph"> reverse  </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> startPos  </span> </p> </td> 
-  <td class="stentry"> <p>Position du début de texte sur le chemin (réel 0.0...1.0). </p> </td> 
+  <td class="stentry"> <p>Position de départ du texte sur le chemin (réel 0.0...1.0). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> endPos  </span> </p> </td> 
@@ -34,15 +33,15 @@ Attributs de texte sur chemin.
  </tr> 
 </table>
 
-Spécifiez `norm` pour dessiner le texte en commençant près du premier sommet du chemin et `reverse` pour dessiner le texte dans la direction opposée, en commençant près du dernier sommet.
+Spécifiez `norm` pour tracer le texte à proximité du premier sommet du chemin et `reverse` pour tracer le texte dans la direction opposée, en commençant près du dernier sommet.
 
-*`startPos`* et  *`endPos`* permettre d&#39;ajuster où sur le chemin le texte sera dessiné. 0.0 correspond au premier sommet du chemin et 1.0 au dernier sommet ; les valeurs intermédiaires expriment la distance le long du chemin entre le premier et le dernier sommet.
+*`startPos`* et  *`endPos`* permettent d’ajuster l’emplacement du texte sur le chemin. 0.0 correspond au premier sommet du chemin et 1.0 au dernier sommet ; les valeurs intermédiaires expriment la distance le long du chemin entre le premier et le dernier sommet.
 
 ## Propriétés {#section-80f266da4e2549d89f022a3f9ff4584d}
 
-Attribut de couche. Ignoré si le calque n’inclut pas les commandes `textPs=` et `textPath=`.
+Attribut de calque. Ignoré si le calque n’inclut pas de commandes `textPs=` et `textPath=`.
 
-*`startPos`* doit être supérieur ou égal à 0 et inférieur à 1.0.  *`endPos`* doit être supérieur ou égal à  *`startPos`* 1.0 lorsqu&#39;il est appliqué à un chemin ouvert, ou inférieur ou égal à (  *`startPos`* + 1.0) lorsqu&#39;il est appliqué à un chemin fermé.
+*`startPos`* doit être supérieur ou égal à 0 et inférieur à 1.0.  *`endPos`* doit être supérieur  *`startPos`* et inférieur ou égal à 1.0 lorsqu’il est appliqué à un chemin d’accès ouvert, ou inférieur ou égal à (  *`startPos`* + 1.0) lorsqu’il est appliqué à un chemin d’accès fermé.
 
 ## Par défaut {#section-3e757970885c45e7b6100e78dc08626f}
 
