@@ -1,27 +1,26 @@
 ---
-description: Nom du visage de la police Postscript. Nom du visage de la police Postscript.
+description: Nom du visage de la police Postscript. Nom de la police Postscript.
 solution: Experience Manager
 title: PsName
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 8d48dead-e544-4fd1-8e8a-70933389b668
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '69'
 ht-degree: 8%
 
 ---
 
-
 # PsName{#psname}
 
-Nom du visage de la police Postscript. Nom du visage de la police Postscript.
+Nom du visage de la police Postscript. Nom de la police Postscript.
 
-Actuellement, seul le rendu FXG peut référencer les polices selon leurs noms Postscript.
+Actuellement, seul le moteur de rendu FXG peut référencer les polices à l’aide de leurs noms Postscript.
 
 ## Propriétés {#section-a560f8bfc69a4d88aeb0b53c1625153b}
 
-Chaîne de texte. Facultatif. Clé d’index Secondaire pour la mise en correspondance des polices. La même valeur `font::PsName` ne peut se produire qu’une seule fois dans le même fichier de mappage des polices.
+Chaîne de texte. Facultatif. Clé d’index Secondaire pour la mise en correspondance des polices. La même valeur `font::PsName` ne peut se produire qu’une seule fois dans le même fichier de mappage de polices.
 
 ## Par défaut {#section-c5903d5340e740b69ec0150d2303a893}
 
