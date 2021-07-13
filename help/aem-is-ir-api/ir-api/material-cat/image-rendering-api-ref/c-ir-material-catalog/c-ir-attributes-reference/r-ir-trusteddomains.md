@@ -1,29 +1,28 @@
 ---
-description: Domaines Web d’application de Flash. Les applications de Flash d’Adobe peuvent nécessiter l’accès aux propriétés des images fournies au format swf. Le fichier swf doit accorder l’accès explicitement en enregistrant le nom des domaines d’application auxquels il fait confiance.
+description: Domaines web d’application de Flash. Les applications de Flash Adobe peuvent nécessiter l’accès aux propriétés des images diffusées au format swf. Le fonds swf doit accorder l’accès explicitement en enregistrant le nom du ou des domaines d’application auxquels il fait confiance.
 solution: Experience Manager
-title: Domaines approuvés *
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+title: TrustedDomains *
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 41794f62-6140-4e54-9de2-908b20c51b37
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '123'
 ht-degree: 3%
 
 ---
 
+# TrustedDomains *{#trusteddomains}
 
-# Domaines approuvés *{#trusteddomains}
-
-Domaines Web d’application de Flash. Les applications de Flash d’Adobe peuvent nécessiter l’accès aux propriétés des images fournies au format swf. Le fichier swf doit accorder l’accès explicitement en enregistrant le nom des domaines d’application auxquels il fait confiance.
+Domaines web d’application de Flash. Les applications de Flash Adobe peuvent nécessiter l’accès aux propriétés des images diffusées au format swf. Le fonds swf doit accorder l’accès explicitement en enregistrant le nom du ou des domaines d’application auxquels il fait confiance.
 
 ## Propriétés {#section-5d6ecfa431a04abd8628a28e0ab3be83}
 
-Chaîne contenant une liste de noms de domaine Web séparés par des virgules. S’il est vide, les applications doivent être diffusées à partir du même domaine que le rendu des images pour pouvoir accéder aux propriétés des images dans des réponses [!DNL swf] au format PDF.
+Chaîne contenant une liste de noms de domaine web séparés par des virgules. Si elles sont vides, les applications doivent être diffusées à partir du même domaine que Image Rendering pour pouvoir accéder aux propriétés des images dans les réponses au format [!DNL swf].
 
 ## Par défaut {#section-8fae0c896f7d46e7a61b0fd7e2b34dc3}
 
-Hérité de `default::TrustedDomains` si elle n&#39;est pas présente.
+Hérité de `default::TrustedDomains` si elle n’est pas présente.
 
 ## Voir aussi {#section-2f829671c385411d8e1a7525def5529f}
 
