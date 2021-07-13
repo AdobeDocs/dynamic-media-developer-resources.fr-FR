@@ -2,16 +2,15 @@
 description: Swatches.pagemode
 solution: Experience Manager
 title: Swatches.pagemode
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Fenêtre déroulante
+role: Developer,User
+exl-id: 6d6aa024-2a31-4119-8bb3-feb02d838941
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 6%
+source-wordcount: '70'
+ht-degree: 7%
 
 ---
-
 
 # Swatches.pagemode{#swatches-pagemode}
 
@@ -21,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Lorsque vous faites défiler la page, les boutons de défilement font automatiquement sauter les nuances sur la longueur totale de la page. </p> <p>Un espace blanc supplémentaire s’affiche sur la dernière page si les nuances ne tiennent pas. En outre, la dernière page comporte le même nombre de cellules que toute page précédente. </p> <p>L’étape de défilement est ignorée et le défilement de la souris est réglé uniquement sur les pages complètes. </p> </td> 
+   <td colname="col2"> <p> Lorsque ce bouton est activé, les boutons de défilement entraînent automatiquement le saut d’une longueur de page entière. </p> <p>Un espace blanc supplémentaire s’affiche sur la dernière page si les échantillons ne sont pas ajustés. En outre, la dernière page comporte le même nombre de cellules que n’importe quelle page précédente. </p> <p>L’étape de défilement est ignorée et le défilement de la souris se définit uniquement sur les pages complètes. </p> </td> 
   </tr> 
  </tbody> 
 </table>
