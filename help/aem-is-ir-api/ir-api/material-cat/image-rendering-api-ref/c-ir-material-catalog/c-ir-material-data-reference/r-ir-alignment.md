@@ -1,25 +1,24 @@
 ---
-description: Alignement de la texture. Alignement de la texture lorsqu’elle est appliquée à des objets de vignette les uns par rapport aux autres, tels que les parties capitonnées d’un meuble. Utilisé principalement pour les applications de rendu de rembourrage, éventuellement pour les applications de vêtements avancées.
+description: Alignement de la texture. Alignement de la texture lorsqu’elle est appliquée à des objets de vignette les uns liés aux autres, comme les parties en toile de fond d’un meuble. Utilisé principalement pour les applications de rendu de la recharge, éventuellement pour les applications de vêtements avancées.
 solution: Experience Manager
 title: Alignement
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 19f94b45-5412-46d5-9a01-d7536bc92e00
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '112'
 ht-degree: 5%
 
 ---
 
-
 # Alignement{#alignment}
 
-Alignement de la texture. Alignement de la texture lorsqu’elle est appliquée à des objets de vignette les uns par rapport aux autres, tels que les parties capitonnées d’un meuble. Utilisé principalement pour les applications de rendu de rembourrage, éventuellement pour les applications de vêtements avancées.
+Alignement de la texture. Alignement de la texture lorsqu’elle est appliquée à des objets de vignette les uns liés aux autres, comme les parties en toile de fond d’un meuble. Utilisé principalement pour les applications de rendu de la recharge, éventuellement pour les applications de vêtements avancées.
 
 ## Propriétés {#section-008158477f53457e9d812d313696cfb6}
 
-Enum. Définissez sur 0 pour l’alignement par défaut ou centré, 1 pour l’alignement continu, 2 pour l’alignement aléatoire entre les pièces ou sur 3, 4, 5 ou 6 pour utiliser une origine de texture personnalisée. Uniquement utilisé par les matériaux de tissu.
+Enum. Définissez cette variable sur 0 pour l’alignement par défaut ou centré, 1 pour l’alignement continu, 2 pour l’alignement aléatoire entre les parties ou sur 3, 4, 5 ou 6 pour utiliser une origine de texture personnalisée. Uniquement utilisée par des matériaux de tissu.
 
 ## Par défaut {#section-1aae2c85042846539caa089f3fa8fe2d}
 
