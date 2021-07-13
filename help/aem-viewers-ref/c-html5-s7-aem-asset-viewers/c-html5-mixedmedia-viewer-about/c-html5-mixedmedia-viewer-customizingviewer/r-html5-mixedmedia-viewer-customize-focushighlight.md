@@ -3,9 +3,9 @@ description: La mise en surbrillance de la cible d’action affichée autour de 
 solution: Experience Manager
 title: Mise en évidence de la cible
 feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 7d29dab2-6f01-4328-9e92-0c370acaa2d6
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 1%
