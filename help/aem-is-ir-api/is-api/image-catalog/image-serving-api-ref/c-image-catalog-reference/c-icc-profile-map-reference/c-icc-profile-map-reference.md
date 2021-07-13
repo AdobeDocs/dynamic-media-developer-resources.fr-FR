@@ -1,22 +1,21 @@
 ---
 description: Si un mappage de profil ICC est requis pour un catalogue d’images, le chemin relatif ou absolu du fichier de mappage de profil doit être spécifié dans l’attribut IccProfileMapFile.
 solution: Experience Manager
-title: Référence de carte de profil ICC
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: Référence de mappage de profil ICC
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: f6b75a15-55b4-44e7-a409-2eaed4e752c5
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
 
+# Référence de mappage de profil ICC{#icc-profile-map-reference}
 
-# Référence du mappage de profil ICC{#icc-profile-map-reference}
+Si un mappage de profil ICC est requis pour un catalogue d’images, le chemin relatif ou absolu du fichier de mappage de profil doit être spécifié dans attribute::IccProfileMapFile.
 
-Si un mappage de profil ICC est requis pour un catalogue d’images, le chemin relatif ou absolu du fichier de mappage de profil doit être spécifié dans attribut::IccProfileMapFile.
+Les entrées dans le mappage de profil ICC d’un catalogue d’images spécifique remplacent les entrées dans le mappage de profil ICC du catalogue par défaut.
 
-Les entrées dans la carte de profil ICC d’un catalogue d’images spécifique remplacent les entrées dans la carte de profil ICC du catalogue par défaut.
-
-Image Serving prend en charge les fichiers de profil de couleur conformes aux spécifications ICC.
+La diffusion d’images prend en charge les fichiers de profil colorimétrique conformes à la spécification ICC.
