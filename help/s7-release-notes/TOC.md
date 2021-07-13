@@ -1,16 +1,15 @@
 ---
-title: Notes de mise à jour de l’Adobe Dynamic Media Classic
-description: '"Notes de mise à jour pour l''Adobe Dynamic Media Classic, qui fait partie de la solution Adobe Experience Manager de la Adobe Experience Cloud."'
+title: Notes de mise à jour d’Adobe Dynamic Media Classic
+description: '"Notes de mise à jour d’Adobe Dynamic Media Classic, composant de la solution Adobe Experience Manager dans Adobe Experience Cloud."'
 author: Rick Brough
 cloud: Experience Cloud
 product: adobe dynamic media classic
 archtype: end-user
 feature-set: Experience Manager Assets
 feature: Dynamic Media Classic
-role: Developer,Business Practitioner
+role: Developer,User
 user-guide-description: Dernières notes de mise à jour pour Dynamic Media Classic dʼAdobe, qui fait partie de la solution Adobe Experience Manager dʼAdobe Experience Cloud.
-translation-type: tm+mt
-source-git-commit: 3598b0247406d942b0f58b1c74aae4956590f5f8
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 22%
@@ -20,9 +19,9 @@ ht-degree: 22%
 
 # Notes de mise à jour de Dynamic Media {#release-notes}
 
-+ [Notes de mise à jour les plus récentes](s7rn2017.md)
++ [Dernières notes de mise à jour](s7rn2017.md)
 + Archiver {#archive-release-notes}
-   + [Version de l’automne 2016 de Scene7](s7rnfall2016.md)
+   + [Version de Scene7 à l’automne 2016](s7rnfall2016.md)
    + [Notes de mise à jour de Scene7 Publishing System 6.10 (mai 2015)](s7rn610.md)
    + [Notes de mise à jour de Scene7 Publishing System 6.9 (octobre 2014)](s7rn69.md)
    + [Notes de mise à jour de Scene7 Publishing System 6.8 (mai 2014)](s7rn68.md)
