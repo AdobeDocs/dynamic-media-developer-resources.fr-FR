@@ -1,32 +1,31 @@
 ---
-description: Appliquez les options de tâche PDF. Un fichier d’options de travail ou un paramètre prédéfini PDF est un fichier généré par Illustrator dans la boîte de dialogue Options Enregistrer en tant que PDF ou des paramètres prédéfinis PDF dans InDesign.
+description: Options d’application de la tâche PDF. Un fichier d’options de tâche ou un paramètre prédéfini PDF est un fichier généré par Illustrator dans la boîte de dialogue Options Enregistrer en tant que PDF ou des paramètres prédéfinis PDF dans InDesign.
 solution: Experience Manager
 title: joboption
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 8e7224e7-d801-4550-b95e-24d15734043a
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '233'
 ht-degree: 46%
 
 ---
 
-
 # joboption{#joboption}
 
-Appliquez les options de tâche PDF. Un fichier d’options de travail ou un paramètre prédéfini PDF est un fichier généré par Illustrator dans la boîte de dialogue Options Enregistrer en tant que PDF ou des paramètres prédéfinis PDF dans InDesign.
+Options d’application de la tâche PDF. Un fichier d’options de tâche ou un paramètre prédéfini PDF est un fichier généré par Illustrator dans la boîte de dialogue Options Enregistrer en tant que PDF ou des paramètres prédéfinis PDF dans InDesign.
 
 ` joboption= *`value`*`
 
 <table id="simpletable_BA7B58BE0B0740298D45DDEBE7832D93"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> value</span></span> </p> </td> 
-  <td class="stentry"> <p>IPSID du fichier d'options de travail. </p></td> 
+  <td class="stentry"> <p>IPSID du fichier d’options de tâche. </p></td> 
  </tr> 
 </table>
 
-Le fichier des options de tâche peut être téléchargé et publié par IPS/Dynamic Media Classic. Les options PDF contenues dans le fichier d’options de tâche sont utilisées lors de la génération du fichier PDF.
+Le fichier des options de tâche peut être téléchargé et publié par IPS/Dynamic Media Classic. Les options PDF contenues dans le fichier d’options de tâche sont utilisées lors de la génération du PDF.
 
 Les options suivantes sont actuellement prises en charge :
 
@@ -37,7 +36,7 @@ Les options suivantes sont actuellement prises en charge :
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Images </p></td> 
-  <td class="stentry"> <p> Sous-échantillonnage, Résolution, Seuil et Compression pour la couleur, le gris et le monochrome </p> </td> 
+  <td class="stentry"> <p> Sous-échantillonnage, résolution, seuil et compression pour la couleur, le gris et la mono </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Polices </p></td> 
@@ -81,4 +80,3 @@ Les options suivantes sont actuellement prises en charge :
   <td class="stentry"> <p>Norme de conformité. </p></td> 
  </tr> 
 </table>
-
