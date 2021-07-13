@@ -2,16 +2,15 @@
 description: InitialFrame
 solution: Experience Manager
 title: InitialFrame
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visionneuses,SDK/API,eCatalog
+role: Developer,User
+exl-id: 28b6b981-94f6-4136-b322-992e18d154db
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 8%
+source-wordcount: '65'
+ht-degree: 9%
 
 ---
-
 
 # InitialFrame{#initialframe}
 
@@ -21,7 +20,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> frame</span></span> </p> </td> 
-   <td colname="col2"> <p> Spécifie un index de planche de base zéro à afficher au chargement de la visionneuse. L’index correspond à l’index de la planche en mode paysage. Si le lecteur est tourné vers portrait, il affiche la page la plus à gauche de la planche pointée par <span class="codeph"> frameIdx</span>. </p> </td> 
+   <td colname="col2"> <p> Spécifie un index de propagation de base zéro à afficher au chargement de la visionneuse. L’index correspond à l’index de la diffusion en mode paysage. Si la visionneuse est pivotée au format portrait, elle affiche la page la plus à gauche de la fenêtre vers laquelle pointe <span class="codeph"> frameIdx</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -36,9 +35,8 @@ Facultatif.
 
 ## Exemple {#section-cbc6684eb22e4d0883edc4b3d5742336}
 
-Lorsqu’elle est spécifiée dans l’URL de la visionneuse.
+Lorsqu’il est spécifié dans l’URL de la visionneuse.
 
 ```
 initialFrame=2
 ```
-
