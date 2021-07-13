@@ -1,23 +1,22 @@
 ---
-description: Les données de propriété sont renvoyées en réponse aux types req= suivants imageprops et props.
+description: 'Les données de propriété sont renvoyées en réponse aux types req= suivants : imageprops et props.'
 solution: Experience Manager
 title: Propriétés
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: a27ec5e4-7499-44ac-8db1-bf5d67f59632
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '104'
 ht-degree: 4%
 
 ---
 
-
 # Propriétés{#properties}
 
-Les données de propriété sont renvoyées en réponse aux types req= suivants : imageprops et props.
+Les données de propriété sont renvoyées en réponse aux types req= suivants : Imageprops et props.
 
-Les données de réponse sont formatées pour être lisibles en tant que propriétés Java. La structure générale d’une réponse de propriétés de texte type est la suivante :
+Les données de réponse sont formatées pour être lisibles en tant que propriétés Java. Une réponse de propriétés de texte standard présente la structure générale suivante :
 
 `#S7Z OK`
 
@@ -27,7 +26,7 @@ Les données de réponse sont formatées pour être lisibles en tant que propri�
 
 ...
 
-` *[!DNL propertyValue]*` peut être vide. L’espace blanc est facultatif au début et à la fin de chaque ligne et avant et après le séparateur &quot;=&quot;. Il est possible d’utiliser des guillemets simples ou doublons pour encadrer les valeurs de chaîne, mais ils ne sont pas obligatoires.
+` *[!DNL propertyValue]*` peut être vide. L’espace blanc est facultatif au début et à la fin de chaque ligne, avant et après le séparateur &quot;=&quot;. Les valeurs de chaîne peuvent être entourées de guillemets simples ou doubles, mais ils ne sont pas obligatoires.
 
 Les valeurs de chaîne peuvent contenir des caractères d’échappement de style JAVA, tels que `\n`, `\t`, `\:`. ou `\\`.
 
