@@ -3,9 +3,9 @@ description: La vue principale est composée de l’image à 360° lorsque la re
 solution: Experience Manager
 title: Vue à 360°
 feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: aafc1299-b09a-4379-bd8f-b564066175bd
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 1%
