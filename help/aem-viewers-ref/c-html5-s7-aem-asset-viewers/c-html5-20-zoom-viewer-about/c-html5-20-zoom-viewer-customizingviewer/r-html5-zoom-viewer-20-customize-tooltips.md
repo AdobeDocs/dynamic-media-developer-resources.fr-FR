@@ -1,25 +1,24 @@
 ---
-description: Sur les systèmes de bureau, certains éléments de l’interface utilisateur, tels que les boutons, comportent des info-bulles qui s’affichent lorsque vous pointez la souris.
+description: Sur les systèmes de bureau, certains éléments de l’interface utilisateur, tels que les boutons, comportent des infobulles qui s’affichent lorsque vous pointez dessus.
 solution: Experience Manager
-title: Info-bulles
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: Infobulles
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Zoom
+role: Developer,User
+exl-id: 829fdb7f-d9b1-449a-ad2d-88aa435fcaa2
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '142'
 ht-degree: 2%
 
 ---
 
+# Infobulles{#tooltips}
 
-# Info-bulles{#tooltips}
-
-Sur les systèmes de bureau, certains éléments de l’interface utilisateur, tels que les boutons, comportent des info-bulles qui s’affichent lorsque vous pointez la souris.
+Sur les systèmes de bureau, certains éléments de l’interface utilisateur, tels que les boutons, comportent des infobulles qui s’affichent lorsque vous pointez dessus.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriétés CSS de la zone de visualisation principale**
+**Propriétés CSS de la zone de visionneuse principale**
 
 L’aspect des info-bulles est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
@@ -30,18 +29,18 @@ L’aspect des info-bulles est contrôlé à l’aide du sélecteur de classe CS
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> Propriété CSS </p> </th> 
+   <th colname="col1" class="entry"> <p> propriété CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
-   <td colname="col2"> <p> Rayon de la bordure d’arrière-plan. </p> </td> 
+   <td colname="col2"> <p> Rayon de la bordure de fond. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-color  </span> </p> </td> 
-   <td colname="col2"> <p> Couleur de bordure d’arrière-plan. </p> </td> 
+   <td colname="col2"> <p> Couleur de bordure de l’arrière-plan. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
@@ -64,9 +63,9 @@ L’aspect des info-bulles est contrôlé à l’aide du sélecteur de classe CS
 
 >[!NOTE]
 >
->Si les styles d’info-bulle sont personnalisés à partir de la page Web d’incorporation, toutes les propriétés doivent contenir la règle `!IMPORTANT`. Cela n’est pas nécessaire si les info-bulles sont personnalisées dans le fichier CSS du lecteur de contenu.
+>Si les styles d’info-bulle sont personnalisés dans la page web d’intégration, toutes les propriétés doivent contenir la règle `!IMPORTANT` . Cela n’est pas nécessaire si les info-bulles sont personnalisées dans le fichier CSS de la visionneuse.
 
-Exemple : pour configurer des info-bulles avec une bordure grise avec un rayon d&#39;angle de 3px, un arrière-plan noir et un texte blanc écrits avec Arial, taille de 11 pixels :
+Exemple : pour configurer des info-bulles avec une bordure grise avec un rayon d’angle 3px, un arrière-plan noir et un texte blanc écrits en Arial, d’une taille de 11 pixels :
 
 ```
 .s7tooltip { 
@@ -78,4 +77,3 @@ Exemple : pour configurer des info-bulles avec une bordure grise avec un rayon d
  font-size: 11px; 
 }
 ```
-
