@@ -2,14 +2,13 @@
 description: Prise en charge du suivi des analyses
 solution: Experience Manager
 title: Prise en charge du suivi des analyses
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
-role: Developer,Business Practitioner,Data Engineer,Data Architect
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Images interactives
+role: Developer,User,Data Engineer,Data Architect
 exl-id: 17e8937f-e328-46a4-b7d9-1fd39ab2e8bd
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 1%
+source-wordcount: '100'
+ht-degree: 2%
 
 ---
 
@@ -17,9 +16,9 @@ ht-degree: 1%
 
 ## Suivi personnalisé {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Par défaut, la visionneuse envoie une requête HTTP de suivi unique au serveur Image Server configuré avec le type de visionneuse et les informations de version.
+Par défaut, la visionneuse envoie une requête HTTP de suivi unique au serveur d’images configuré avec le type de visionneuse et les informations de version.
 
-Pour intégrer des systèmes d’analyse tiers, il est nécessaire d’écouter le rappel de la visionneuse `trackEvent` et de traiter l’argument `eventInfo` de la fonction de rappel, si nécessaire. Le code suivant est un exemple de cette fonction de gestionnaire :
+Pour s’intégrer à des systèmes d’analyse tiers, il est nécessaire d’écouter le rappel de la visionneuse `trackEvent` et de traiter l’argument `eventInfo` de la fonction de rappel si nécessaire. Le code suivant est un exemple de fonction de gestionnaire de ce type :
 
 ```
 var interactiveImage = new s7viewers.InteractiveImage({ 
@@ -43,23 +42,23 @@ var interactiveImage = new s7viewers.InteractiveImage({
 });
 ```
 
-Le lecteur effectue le suivi des événements d’utilisateur SDK suivants :
+La visionneuse effectue le suivi des événements utilisateur du SDK suivants :
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>ÉVÉNEMENT utilisateur du SDK </p> </th> 
-   <th colname="col2" class="entry"> <p>Envoyé quand... </p> </th> 
+   <th colname="col1" class="entry"> <p>Événement d’utilisateur du SDK </p> </th> 
+   <th colname="col2" class="entry"> <p>Envoyé lorsque.. </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CHARGEMENT </span> </p> </td> 
-   <td colname="col2"> <p>le lecteur est chargé en premier. </p> </td> 
+   <td colname="col2"> <p>la visionneuse est d’abord chargée. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> HREF </span> </p> </td> 
-   <td colname="col2"> <p>active la zone réactive. </p> </td> 
+   <td colname="col2"> <p>l’utilisateur active la zone réactive. </p> </td> 
   </tr> 
  </tbody> 
 </table>
