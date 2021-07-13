@@ -3,9 +3,9 @@ description: Tous les composants de visionneuse prennent en charge les rôles et
 solution: Experience Manager
 title: Prise en charge des technologies d’assistance
 feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes,Accessibilité
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 6cf7f739-cbfb-4fac-8632-904a0d40ad05
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
