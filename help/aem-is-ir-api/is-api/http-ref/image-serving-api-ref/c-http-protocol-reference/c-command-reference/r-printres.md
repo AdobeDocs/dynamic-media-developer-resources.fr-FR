@@ -1,21 +1,20 @@
 ---
-description: Résolution d’impression. Remplace la valeur de résolution d’impression incorporée dans l’image de réponse.
+description: Résolution d’impression. Permet de remplacer la valeur de résolution d’impression incorporée dans l’image de réponse.
 solution: Experience Manager
 title: printRes
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 81c4c3b8-946d-401b-a279-ba3f426ea5a4
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '129'
 ht-degree: 3%
 
 ---
 
-
 # printRes{#printres}
 
-Résolution d’impression. Remplace la valeur de résolution d’impression incorporée dans l’image de réponse.
+Résolution d’impression. Permet de remplacer la valeur de résolution d’impression incorporée dans l’image de réponse.
 
 `printRes= *`val`*`
 
@@ -26,7 +25,7 @@ Résolution d’impression. Remplace la valeur de résolution d’impression inc
  </tr> 
 </table>
 
-La résolution d’impression est normalement définie par `catalog::PrintResolution` dans le cas d’une entrée de catalogue, sinon par la valeur de résolution d’impression incorporée dans l’image source. Dans le cas d’un modèle ou d’une image composite superposée, la résolution d’impression par défaut incorporée dans le fichier de réponse est la résolution d’impression de l’image de calque dont le numéro de calque est le plus bas.
+La résolution d’impression est normalement définie par `catalog::PrintResolution` dans le cas d’une entrée de catalogue, sinon par la valeur de résolution d’impression incorporée dans l’image source. Dans le cas d’un modèle ou d’une image composite superposée, la résolution d’impression par défaut incorporée dans le fichier de réponse est la résolution d’impression de l’image de calque dont le numéro de couche est le plus petit.
 
 La définition de la résolution d’impression ne modifie pas la taille en pixels de l’image de réponse.
 
