@@ -1,22 +1,21 @@
 ---
-description: Fonction Favoris
+description: Fonctionnalité Favoris
 solution: Experience Manager
-title: Fonction Favoris
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: Fonctionnalité Favoris
+feature: Dynamic Media Classic,Visionneuses,SDK/API,eCatalog
+role: Developer,User
+exl-id: 7caf1111-9643-494c-8c9e-684edd1c27f8
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '92'
 ht-degree: 0%
 
 ---
 
+# Fonctionnalité Favoris{#favorites-feature}
 
-# Fonction Favoris{#favorites-feature}
+Un utilisateur final peut utiliser la fonction Favoris pour marquer les produits qui l’intéressent directement dans le catalogue électronique en ajoutant des icônes &quot;coeur&quot; aux images du catalogue électronique. La visionneuse stocke tous les favoris sur le système du client et les affiche à nouveau lorsque le même utilisateur consulte à nouveau le catalogue électronique.
 
-Un utilisateur final peut utiliser la fonction Favoris pour marquer directement les produits présentant un intérêt dans le catalogue électronique en ajoutant des icônes &quot;coeur&quot; aux images du catalogue électronique. Le lecteur stocke tous les favoris sur le système du client et les affiche de nouveau lorsque le même utilisateur consulte à nouveau le catalogue électronique.
+En outre, la visionneuse vous permet de passer en revue tous les favoris ajoutés au catalogue électronique en tant que grille d’images miniatures.
 
-En outre, le lecteur de contenu vous permet de consulter tous les favoris ajoutés au catalogue électronique sous la forme d’une grille d’images miniatures.
-
-Tous les outils Favoris sont regroupés sous une seule liste déroulante dans la barre de contrôle.
+Tous les outils Favoris sont regroupés dans une liste déroulante de la barre de contrôle.
