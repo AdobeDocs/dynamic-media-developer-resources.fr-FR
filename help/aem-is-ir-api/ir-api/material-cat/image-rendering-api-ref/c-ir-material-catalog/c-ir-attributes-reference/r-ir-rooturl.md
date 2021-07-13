@@ -1,29 +1,28 @@
 ---
-description: URL racine des URL d’image relatives. Indique l’URL racine des URL d’image relatives. L’attribut RootUrl est utilisé à la place de l’attribut RootPath lorsqu’une valeur src= est entourée de { accolades }.
+description: URL racine pour les URL d’image relatives. Spécifie l’URL racine pour les URL d’image relatives. L’attribut RootUrl est utilisé à la place de l’attribut RootPath lorsqu’une valeur src= est entourée de { accolades }.
 solution: Experience Manager
-title: URL racine *
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+title: RootUrl *
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 094b5143-d4f0-412f-92cf-3522157cbeca
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '115'
 ht-degree: 3%
 
 ---
 
-
 # RootUrl *{#rooturl}
 
-URL racine des URL d’image relatives. Indique l’URL racine des URL d’image relatives. attribute::RootUrl est utilisé à la place de attribute::RootPath lorsqu’une valeur src= est entourée de { accolades }.
+URL racine pour les URL d’image relatives. Spécifie l’URL racine pour les URL d’image relatives. attribute::RootUrl est utilisé à la place d’attribute::RootPath lorsqu’une valeur src= est entourée de { accolades }.
 
 ## Propriétés {#section-69cd0f71ea614770a8778c745d23197a}
 
-Valeur de chaîne de texte. Chemin d’accès racine d’URL absolu, y compris l’identifiant de protocole de début. Les protocoles suivants sont pris en charge : HTTP, HTTPS et FTP.
+Valeur de chaîne de texte. Chemin d’accès racine URL absolu, y compris l’identifiant de protocole de début. Les protocoles suivants sont pris en charge : HTTP, HTTPS et FTP.
 
 ## Par défaut {#section-7a81569728474725a70f3a2cc4d48e85}
 
-Hérité de `default::RootUrl` si elle n&#39;est pas définie. Si elles sont définies mais vides, les URL relatives ne sont pas prises en charge par ce catalogue matériel.
+Hérité de `default::RootUrl` si elle n’est pas définie. Si elles sont définies mais vides, les URL relatives ne sont pas prises en charge par ce catalogue matériel.
 
 ## Voir aussi {#section-e33bbe7034b24367b68f9142718a8be1}
 
