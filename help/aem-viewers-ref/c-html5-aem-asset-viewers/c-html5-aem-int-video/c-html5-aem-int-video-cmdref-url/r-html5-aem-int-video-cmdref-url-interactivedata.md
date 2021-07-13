@@ -1,31 +1,30 @@
 ---
-description: URL de la visionneuse de vidéos interactive.
+description: Commande URL de la visionneuse de vidéos interactives.
 solution: Experience Manager
-title: données interactives
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
-role: Developer,Business Practitioner
+title: interactivedata
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéos interactives
+role: Developer,User
 exl-id: f9f5aa7a-3e0a-434a-8623-b439c9b6f18b
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '102'
 ht-degree: 5%
 
 ---
 
-# données interactives{#interactivedata}
+# interactivedata{#interactivedata}
 
-URL de la visionneuse de vidéos interactive.
+Commande URL de la visionneuse de vidéos interactives.
 
 `interactivedata= *`file`*`
 
-Les données interactives associent certaines régions temporelles du contenu vidéo aux données de produit qui s’affichent ultérieurement dans des échantillons interactifs en regard de la vidéo. Il est également associé au panneau d’appel à l’action affiché à la fin de la lecture vidéo. Il fournit également un titre pour la vidéo interactive affichée dans le panneau d’appel à l’action.
+Les données interactives associent certaines régions temporelles du contenu vidéo aux données de produit qui s’affichent ultérieurement dans des échantillons interactifs en regard de la vidéo. Elle est également associée au panneau d’appel à l’action affiché à la fin de la lecture vidéo. Il fournit également un titre pour la vidéo interactive affichée dans le panneau d’appel à l’action.
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fichier</span> </span> </p> </td> 
-   <td colname="col2"> <p> Indique une URL ou un chemin d’accès au contenu de données interactives WebVTT. Le fichier WebVTT doit être diffusé par Image Serving. </p> </td> 
+   <td colname="col2"> <p> Spécifie une URL ou un chemin d’accès au contenu de données interactives WebVTT. Le fichier WebVTT doit être traité par le serveur d’images. </p> </td> 
   </tr> 
  </tbody> 
 </table>
