@@ -1,23 +1,22 @@
 ---
-description: Qualité JPEG. Spécifie les attributs de codage JPEG pour contrôler le niveau de compression. Cela modifie à son tour la taille du fichier (quantité des données de réponse) et, indirectement, la qualité visuelle de l’image résultante.
+description: Qualité JPEG. Spécifie les attributs de codage JPEG pour contrôler le niveau de compression. Cela varie à son tour la taille du fichier (quantité des données de réponse) et, indirectement, la qualité visuelle de l’image obtenue.
 solution: Experience Manager
 title: qlt
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: c2a611a8-f331-4e01-a262-34340ce67b21
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '238'
 ht-degree: 6%
 
 ---
 
-
 # qlt{#qlt}
 
-Qualité JPEG. Spécifie les attributs de codage JPEG pour contrôler le niveau de compression. Cela modifie à son tour la taille du fichier (quantité des données de réponse) et, indirectement, la qualité visuelle de l’image résultante.
+Qualité JPEG. Spécifie les attributs de codage JPEG pour contrôler le niveau de compression. Cela varie à son tour la taille du fichier (quantité des données de réponse) et, indirectement, la qualité visuelle de l’image obtenue.
 
-` qlt= *``*[, *`qualité chroma`*]`
+` qlt= *``*[, *`qualitychroma`*]`
 
 <table id="simpletable_FB8090D4BEBF42FD83A64A7AAB6D7F92"> 
  <tr class="strow"> 
@@ -26,19 +25,19 @@ Qualité JPEG. Spécifie les attributs de codage JPEG pour contrôler le niveau 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> chroma  </span> </p> </td> 
-  <td class="stentry"> <p>échantillonnage de chromaticité JPEG (0=normal, 1=disable); facultatif, la valeur par défaut est 0. </p> </td> 
+  <td class="stentry"> <p>sous-échantillonnage chromatique JPEG (0=normal, 1=désactivé); facultatif, la valeur par défaut est 0. </p> </td> 
  </tr> 
 </table>
 
-Des valeurs *`quality`* supérieures augmentent la taille et la qualité du fichier, des valeurs inférieures diminuent la taille des fichiers et réduisent la qualité d’image perçue. Des valeurs supérieures à 90 génèrent des images impossibles à différencier d’une image non compressée.
+Des valeurs *`quality`* plus élevées augmentent la taille et la qualité du fichier, des valeurs inférieures réduisent la taille des fichiers et réduisent la qualité de l’image perçue. Des valeurs supérieures à 90 génèrent des images impossibles à différencier d’une image non compressée.
 
-Définissez l’indicateur *`chroma`* pour désactiver le sous-échantillonnage chromatique RVB utilisé par les encodeurs JPEG standard. Cela peut augmenter la netteté perçue des bords dans une image lorsque le bord est défini par un changement de teinte plutôt que de luminosité. La définition de cet indicateur peut entraîner une légère augmentation de la taille du fichier. Testez ce paramètre si le texte semble légèrement flou.
+Définissez l’indicateur *`chroma`* pour désactiver le sous-échantillonnage chromatique RVB utilisé par les encodeurs JPEG standard. Cela peut augmenter la netteté perçue des bords d’une image lorsque le bord est défini par un changement de couleur plutôt que par la luminosité. La définition de cet indicateur peut entraîner une légère augmentation de la taille du fichier. Testez ce paramètre si le texte semble légèrement flou.
 
 ## Propriétés {#section-925a44cbdc9042db8d4eb149cd073d21}
 
-Attribut de requête. S’applique quel que soit le paramètre de calque actif. Ignoré si le format de fichier image de sortie ne prend pas en charge le codage JPEG. Consultez la description de `fmt=` pour savoir quels formats d&#39;image de sortie prennent en charge `qlt=`.
+Attribut de requête. S’applique quel que soit le paramètre de calque actif. Ignoré si le format de fichier image de sortie ne prend pas en charge le codage JPEG. Reportez-vous à la description de `fmt=` pour savoir quels formats d’image de sortie prennent en charge `qlt=`.
 
-*`chroma`* est ignorée si le type de pixel de sortie est CMJN ou gris.
+*`chroma`* est ignoré si le type de pixel de sortie est CMJN ou gris.
 
 ## Par défaut {#section-0d8aa45d84df49e6b846596bbaf7f740}
 
@@ -46,11 +45,11 @@ Attribut de requête. S’applique quel que soit le paramètre de calque actif. 
 
 ## Exemple {#section-d7d33871d401433aa51d028823eae7a9}
 
-Réduire la qualité pour une transmission plus rapide via une connexion à faible bande passante :
+Réduisez la qualité pour une transmission plus rapide via une connexion à faible bande passante :
 
 `http://server/myRoodId/myImageId?qlt=60&wid=300`
 
-Améliorer la qualité des connexions à haut débit :
+Augmentez la qualité des connexions à haut débit :
 
 `http://server/myRootId/myImageId?qlt=95,1&wid=300`
 
