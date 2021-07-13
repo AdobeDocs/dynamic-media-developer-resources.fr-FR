@@ -1,21 +1,20 @@
 ---
-description: Script de contrôle Image Serving. Ce script est utilisé pour début, arrêter ou redémarrer le superviseur du serveur Image Serving qui, à son tour, début, arrête ou redémarre tous les autres composants Image Serving.
+description: Script de contrôle du serveur d’images. Ce script est utilisé pour démarrer, arrêter ou redémarrer le superviseur du serveur de diffusion d’images, qui à son tour démarre, arrête ou redémarre tous les autres composants de diffusion d’images.
 solution: Experience Manager
 title: ImageServing
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 252e12d9-703e-4fbb-a156-8dcdc3bc4f2e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '156'
 ht-degree: 2%
 
 ---
 
-
 # ImageServing{#imageserving}
 
-Script de contrôle Image Serving. Ce script est utilisé pour début, arrêter ou redémarrer le superviseur du serveur Image Serving qui, à son tour, début, arrête ou redémarre tous les autres composants Image Serving.
+Script de contrôle du serveur d’images. Ce script est utilisé pour démarrer, arrêter ou redémarrer le superviseur du serveur de diffusion d’images, qui à son tour démarre, arrête ou redémarre tous les autres composants de diffusion d’images.
 
 ## Utilisation {#section-6832b5b10404442a9d3a3eca92041002}
 
@@ -33,24 +32,23 @@ Script de contrôle Image Serving. Ce script est utilisé pour début, arrêter 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> commencer </span> </p> </td> 
-   <td colname="col2"> <p> Début du contrôleur de serveur et de tous les autres composants de diffusion d’images. </p> </td> 
+   <td colname="col2"> <p> Démarrez le responsable serveur et tous les autres composants de la diffusion d’images. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> stop  </span> </p> </td> 
-   <td colname="col2"> <p> Arrêtez tous les composants de diffusion d’images, y compris le contrôleur de serveur. </p> </td> 
+   <td colname="col2"> <p> Arrêtez tous les composants du serveur d’images, y compris le responsable du serveur. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Redémarrer </span> </p> </td> 
-   <td colname="col2"> <p>Redémarrez tous les composants de diffusion d’images, y compris le contrôleur de serveur. </p> </td> 
+   <td colname="col2"> <p>Redémarrez tous les composants du serveur d’images, y compris le responsable du serveur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> redémarrer { ps | is | svg }  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> restart { ps | is | svg }  </span> </p> </td> 
    <td colname="col2"> <p> Redémarre Tomcat/Platform Server, Image Server ou SVG. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> status [ ps | is | svg ]  </span> </p> </td> 
-   <td colname="col2"> <p>Renvoie les informations d’utilisation de la mémoire et du temps de disponibilité pour Image Server, Tomcat/Platform Server et SVGserver, ou l’état pour le serveur spécifié uniquement ; un message d’information est renvoyé si le contrôleur de serveur n’est pas en cours d’exécution. </p> </td> 
+   <td colname="col2"> <p>Renvoie les informations de disponibilité et d’utilisation actuelle de la mémoire pour le serveur d’images, Tomcat/Platform Server et le serveur SVGserver, ou l’état pour le serveur spécifié uniquement ; un message d’information est renvoyé si le responsable du serveur n’est pas en cours d’exécution. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
