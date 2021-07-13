@@ -1,21 +1,20 @@
 ---
-description: Couleur de fond. Indique la couleur de soustraction des textures et des décalcomanies colorables.
+description: Couleur de fond. Spécifie la couleur de substitution des textures et des décalages colorables.
 solution: Experience Manager
 title: bgc
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 9ac6517e-b9c3-48d9-97ac-d8aa65a8ba46
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '162'
 ht-degree: 6%
 
 ---
 
-
 # bgc{#bgc}
 
-Couleur de fond. Indique la couleur de soustraction des textures et des décalcomanies colorables.
+Couleur de fond. Spécifie la couleur de substitution des textures et des décalages colorables.
 
 `bgc= *[!DNL color]*`
 
@@ -26,23 +25,23 @@ Couleur de fond. Indique la couleur de soustraction des textures et des décalco
  </tr> 
 </table>
 
-L’algorithme de colorisation de texture de Image Rendering est assez simple : les valeurs de composant de `bgc=` sont soustraites de celles des pixels de texture, `color=` est ajouté et le résultat est ensuite coupé en `0,0,0` et `255,255,255`.
+L’algorithme de colorisation de la texture du rendu d’image est assez simple : les valeurs des composants de `bgc=` sont soustraites de celles des pixels de la texture, `color=` est ajouté, et le résultat est finalement tronqué à `0,0,0` et `255,255,255`.
 
-Pour les utilisations courantes de la coloration de texture, la valeur `bgc=` peut être la couleur la plus importante ou la plus dominante dans l’image de texture. Dynamic Media Image Authoring fournit des outils semi-automatiques qui extraient des valeurs de couleur `bgc=` raisonnables des images de textures.
+Pour les utilisations courantes de la colorisation de texture, la valeur de `bgc=` peut être la couleur la plus importante ou la plus dominante dans l’image de texture. La création d’images Dynamic Media fournit des outils semi-automatiques qui extraient des valeurs de couleur `bgc=` raisonnables des images de textures.
 
 Lorsqu’un matériau de texture est appliqué à un objet de vignette non texturable, `bgc=` est appliqué comme couleur de premier plan si `color=` n’est pas spécifié.
 
 ## Propriétés {#section-b2db6f147d7f443ba9f671de04c2ef19}
 
-Attribut de matériau. Ignoré par les matériaux de couleur unie et d&#39;armoire.
+Attribut de matière. Ignoré par les matériaux de couleur et d’armoire solides.
 
 ## Par défaut {#section-de10ef5985ee4ae1ba56d14ba8512b81}
 
-`catalog::BaseColor` si le matériau est basé sur une entrée de catalogue, autrement  `bgc=808080` (gris neutre).
+`catalog::BaseColor` si la matière est basée sur une entrée de catalogue, autrement  `bgc=808080` (gris neutre).
 
 ## Exemple {#section-bf5f0f296bc448ed9d5a84afabcf81e6}
 
-Coloriser un tissu de vêtements dont la texture a la couleur dominante RVB 120,34,193 :
+Colorez un tissu de vêtements dont la texture est de la couleur dominante RVB 120,34,193 :
 
 `…&src=fabrics/d213.jpg&res=40&bgc=120,34,193&color=140,95,100&…`
 
