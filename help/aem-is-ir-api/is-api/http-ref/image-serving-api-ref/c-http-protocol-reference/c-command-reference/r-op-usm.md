@@ -1,25 +1,24 @@
 ---
-description: Masque flou. L’accentuation masque le calque ou l’image de vue finale, après mise à l’échelle, si layer=comp.
+description: Masquage flou. L’accentuation masque le calque ou l’image d’affichage final, après toute mise à l’échelle, si layer=comp.
 solution: Experience Manager
 title: op_usm
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: a83d6326-9029-4c5c-a069-92bc81120866
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '152'
 ht-degree: 6%
 
 ---
 
-
 # op_usm{#op-usm}
 
-Masque flou. L’accentuation masque le calque ou l’image de vue finale, après mise à l’échelle, si layer=comp.
+Masquage flou. L’accentuation masque le calque ou l’image d’affichage final, après toute mise à l’échelle, si layer=comp.
 
 Les paramètres sont supposés s’appliquer à l’image à résolution complète et sont réduits lors du traitement d’une image sous-échantillonnée.
 
-`op_usm= *``*[, *``*[, *``*[, *`montant tradiusbattholdmonochrome`*]]]`
+`op_usm= *``*[, *``*[, *``*[, *`amount tradiusbattholdmonochrome`*]]]`
 
 <table id="simpletable_0697E3BCB45F41C494D93A6017ADD2BF"> 
  <tr class="strow"> 
@@ -28,7 +27,7 @@ Les paramètres sont supposés s’appliquer à l’image à résolution complè
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> radius</span></span> </p></td> 
-  <td class="stentry"> <p>Rayon du noyau du filtre en pixels (réel 0...250). </p></td> 
+  <td class="stentry"> <p>Filtrez le rayon du noyau en pixels (réel 0...250). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> seuil</span></span> </p></td> 
@@ -36,7 +35,7 @@ Les paramètres sont supposés s’appliquer à l’image à résolution complè
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> monochrome</span></span> </p></td> 
-  <td class="stentry"> <p>Définissez sur 0 pour appliquer séparément chaque composante de couleur ou sur 1 pour appliquer uniquement la luminosité de l’image (intensité). </p> <p> <span class="codeph"><span class="varname"> Les images </span></span> monochromes sont ignorées pour les images en niveaux de gris. </p></td> 
+  <td class="stentry"> <p>Définissez cette variable sur 0 pour l’appliquer séparément à chaque composant de couleur ou sur 1 pour l’appliquer uniquement à la luminosité de l’image (intensité). </p> <p> <span class="codeph"><span class="varname"> Les monochromes </span></span>  sont ignorées pour les images en niveaux de gris. </p></td> 
  </tr> 
 </table>
 
@@ -44,7 +43,7 @@ Le masque de calque ou le masque composite est également accentué.
 
 ## Propriétés {#section-fb5311b34d164946b74dadb32359518a}
 
-Attribut de couche ou attribut de vue. S’applique au calque actif ou à l’image de vue finale si `layer=comp`. Ignoré par les calques d’effet.
+Attribut de calque ou attribut d’affichage. S’applique au calque actif ou à l’image de vue finale si `layer=comp`. Ignoré par les calques d’effet.
 
 ## Par défaut {#section-2bedc99866ff473e90e5ea36596d8362}
 
