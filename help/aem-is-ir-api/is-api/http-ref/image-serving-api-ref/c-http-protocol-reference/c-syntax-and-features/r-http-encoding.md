@@ -3,9 +3,9 @@ description: Les valeurs de commande doivent être codées au format http à l�
 solution: Experience Manager
 title: Encodage HTTP du serveur d’images
 feature: Dynamic Media Classic, SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: aec8463f-f72a-4203-89ab-8a4f0ad9d6f9
-source-git-commit: a05fb31b7c7515492723af63914d3e9999e65e9b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 23%
