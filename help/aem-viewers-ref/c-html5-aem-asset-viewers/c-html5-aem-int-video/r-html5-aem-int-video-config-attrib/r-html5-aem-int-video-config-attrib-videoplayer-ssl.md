@@ -1,25 +1,24 @@
 ---
-description: Attribut de configuration pour la visionneuse de vidéos interactive.
+description: Attribut de configuration de la visionneuse de vidéos interactives.
 solution: Experience Manager
 title: VideoPlayer.ssl
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéos interactives
+role: Developer,User
 exl-id: 16e17e2f-be98-4a5a-ba5e-5d18e7f76fa4
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '184'
 ht-degree: 2%
 
 ---
 
 # VideoPlayer.ssl{#videoplayer-ssl}
 
-Attribut de configuration pour la visionneuse de vidéos interactive.
+Attribut de configuration de la visionneuse de vidéos interactives.
 
 >[!NOTE]
 >
->Cet attribut de configuration s&#39;applique uniquement à AEM 6.2 avec l&#39;installation de [Feature Pack NPR-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) et à AEM 6.1 avec l&#39;installation de [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011).
+>Cet attribut de configuration s’applique uniquement à AEM 6.2 avec l’installation du [Feature Pack NPR-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) et à AEM 6.1 avec l’installation du [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011).
 
 `[VideoPlayer.|<containerId>_videoPlayer.]ssl=auto|on`
 
@@ -27,7 +26,7 @@ Attribut de configuration pour la visionneuse de vidéos interactive.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|on</span> </p> </td> 
-   <td colname="col2"> <p> Contrôle si la vidéo est diffusée via une connexion SSL sécurisée (HTTPS) ou une connexion HTTP non sécurisée. </p> <p>Lorsqu’il est défini sur <span class="codeph"> auto</span>, le protocole de diffusion vidéo est hérité du protocole de la page Web incorporée. Si la page Web est chargée via HTTPS, la vidéo est également diffusée via HTTPS, et vice versa. Si la page Web est sur HTTP, la vidéo est diffusée via HTTP. </p> <p>Lorsqu’elle est définie sur <span class="codeph"> sur </span>, la diffusion vidéo survient toujours sur une connexion sécurisée sans tenir compte du protocole de la page Web. </p> <p>Affecte uniquement la diffusion vidéo publiée et est ignorée pour la prévisualisation vidéo en mode Auteur. </p> </td> 
+   <td colname="col2"> <p> Contrôle si la vidéo est diffusée via une connexion SSL sécurisée (HTTPS) ou une connexion non sécurisée (HTTP). </p> <p>Lorsqu’il est défini sur <span class="codeph"> auto</span>, le protocole de diffusion vidéo est hérité du protocole de la page web d’intégration. Si la page web est chargée via HTTPS, la vidéo est également diffusée via HTTPS, et vice versa. Si la page web est sur HTTP, la vidéo est diffusée sur HTTP. </p> <p>Lorsqu’elle est définie sur <span class="codeph"> sur</span>, la diffusion vidéo s’effectue toujours sur une connexion sécurisée sans tenir compte du protocole de la page web. </p> <p>Concerne uniquement la diffusion vidéo publiée et est ignoré pour la prévisualisation vidéo en mode création. </p> </td> 
   </tr> 
  </tbody> 
 </table>
