@@ -1,24 +1,23 @@
 ---
-description: Cette section contient des informations sur la configuration et la gestion du serveur de rendu d’images.
+description: Cette section contient des informations sur la configuration et la gestion du serveur de rendu d’image.
 solution: Experience Manager
 title: Configuration et gestion du serveur
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Administrator,User
+exl-id: 357e5660-1e62-4aa0-91c2-696cacac8f86
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '74'
 ht-degree: 0%
 
 ---
 
-
 # Configuration et gestion du serveur{#configuring-and-managing-the-server}
 
-Cette section contient des informations sur la configuration et la gestion du serveur de rendu d’images.
+Cette section contient des informations sur la configuration et la gestion du serveur de rendu d’image.
 
 >[!NOTE]
 >
->La diffusion d’images doit être correctement configurée et fonctionnelle pour le bon fonctionnement du rendu d’images.
+>La diffusion d’images doit être correctement configurée et fonctionnelle pour un bon fonctionnement du rendu d’image.
 
-Pour plus d’informations, voir Référence du catalogue de matières, Référence du protocole HTTP, Notes de mise à jour, Documentation sur la diffusion d’images.
+Pour plus d’informations, voir Référence du catalogue de matières, Référence du protocole HTTP, Notes de mise à jour, Documentation du serveur d’images
