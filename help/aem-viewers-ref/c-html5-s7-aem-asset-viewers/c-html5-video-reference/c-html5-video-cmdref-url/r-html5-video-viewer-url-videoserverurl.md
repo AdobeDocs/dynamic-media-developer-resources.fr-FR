@@ -1,21 +1,20 @@
 ---
-description: URL de la visionneuse de vidéos.
+description: Commande URL de la visionneuse de vidéos.
 solution: Experience Manager
 title: videoServerUrl
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéo
+role: Developer,User
+exl-id: 945c32e0-a67b-4c27-b661-26510615d757
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '58'
 ht-degree: 6%
 
 ---
 
-
 # videoServerUrl{#videoserverurl}
 
-URL de la visionneuse de vidéos.
+Commande URL de la visionneuse de vidéos.
 
 ` videoServerUrl= *`videoRootPath`*`
 
@@ -30,7 +29,7 @@ URL de la visionneuse de vidéos.
 
 ## Propriétés {#section-f42369774e2740dcb399626a0e4e930e}
 
-Facultatif. Non requis pour l’utilisation standard de SaaS.
+Facultatif. Inutile pour l’utilisation standard de SaaS.
 
 ## Par défaut {#section-d016470e92a74f98a18c4ab3489410a5}
 
@@ -41,4 +40,3 @@ Facultatif. Non requis pour l’utilisation standard de SaaS.
 ```
 videoServerUrl=http://s7d1.scene7.com/is/content/
 ```
-
