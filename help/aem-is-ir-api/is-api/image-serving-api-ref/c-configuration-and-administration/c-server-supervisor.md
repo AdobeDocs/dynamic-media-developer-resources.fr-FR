@@ -1,28 +1,27 @@
 ---
-description: Les composants Image Serving sont gérés par le Contrôleur de serveur, qui est un démon Linux ou un service Windows (S7Supervisor.exe, répertorié comme "Service d’image Dynamic Media" dans le Panneau de Contrôle Services).
+description: Les composants de diffusion d’images sont gérés par le responsable du serveur, qui est un démon Linux ou un service Windows (S7Supervisor.exe, répertorié comme "Service d’images Dynamic Media" dans le Panneau de Contrôle Services).
 solution: Experience Manager
-title: Responsable du serveur
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: Superviseur du serveur
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Administrator,User
+exl-id: 83b6a63f-6bb8-4a14-b8d5-389d23fae57c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
 
+# Superviseur du serveur{#server-supervisor}
 
-# Responsable du serveur{#server-supervisor}
+Les composants de diffusion d’images sont gérés par le responsable du serveur, qui est un démon Linux ou un service Windows (S7Supervisor.exe, répertorié comme &quot;Service d’images Dynamic Media&quot; dans le Panneau de Contrôle Services).
 
-Les composants Image Serving sont gérés par le Contrôleur de serveur, qui est un démon Linux ou un service Windows (S7Supervisor.exe, répertorié comme &quot;Service d’image Dynamic Media&quot; dans le Panneau de Contrôle Services).
+Outre le démarrage et l’arrêt d’autres composants du serveur d’images, le responsable du serveur est chargé d’assurer l’intégrité de ces autres composants. Si un composant se bloque, il est automatiquement redémarré afin de minimiser toute interruption de service.
 
-En plus de démarrer et d’arrêter d’autres composants de diffusion d’images, le responsable du serveur est responsable de l’intégrité de ces autres composants. Si un composant se bloque, il est automatiquement redémarré afin de minimiser les interruptions de service.
+## Démarrage et arrêt {#section-061d28d74e034a30adc39ea3e2031cd0}
 
-## Démarrage et arrêt de {#section-061d28d74e034a30adc39ea3e2031cd0}
+Le responsable du serveur est démarré, arrêté et redémarré à l’aide du script de l’utilitaire de diffusion d’images. Pour plus d’informations, consultez la [documentation Utilitaires](../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f) .
 
-Le contrôleur de serveur est démarré, arrêté et redémarré avec le script de l’utilitaire Image Serving. Pour plus d&#39;informations, consultez la [documentation Utilitaires](../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f).
-
-Le démarrage et l’arrêt du superviseur de serveur début automatiquement et arrête tous les autres composants de la diffusion d’images.
+Le démarrage et l’arrêt du superviseur du serveur démarre et arrête automatiquement tous les autres composants du serveur d’images.
 
 [SupervisorRegistry.xml](../../../is-api/image-serving-api-ref/c-configuration-and-administration/r-server-configuration-files/r-supervisorregistry.md#reference-b55f37a7a7a044d19c1722f5130906c6)
