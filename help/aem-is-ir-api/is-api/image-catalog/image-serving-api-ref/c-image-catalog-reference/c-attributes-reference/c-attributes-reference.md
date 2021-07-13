@@ -1,23 +1,22 @@
 ---
-description: Tous les attributs de catalogue sont facultatifs, à l’exception de l’ID racine du catalogue.
+description: Tous les attributs de catalogue sont facultatifs, à l’exception de l’identifiant racine du catalogue.
 solution: Experience Manager
 title: Référence des attributs
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: d0c8e808-d887-4bad-bbb5-f36a19ab4df2
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '104'
 ht-degree: 3%
 
 ---
 
-
-# Attributs reference{#attributes-reference}
+# Référence des attributs{#attributes-reference}
 
 Tous les attributs de catalogue sont facultatifs, à l’exception de catalog::RootId.
 
-Tous les attributs sont requis dans le fichier d&#39;attributs de catalogue par défaut ( [!DNL default.ini]).
+Tous les attributs sont requis dans le fichier d’attributs de catalogue par défaut ( [!DNL default.ini]).
 
 * [AllowDirectAccess](r-allowdirectaccess.md)
 * [AllowDirectUrls](r-allowdirecturls.md)
@@ -64,19 +63,19 @@ Tous les attributs sont requis dans le fichier d&#39;attributs de catalogue par 
 * [PublishInfo](r-publishinfo.md)
 * [PrintResolution](r-printresolution.md)
 * [RequestLock](r-requestlock.md)
-* [Obscurcissement de requête](r-requestobfuscation.md)
+* [RequestObfuscation](r-requestobfuscation.md)
 * [ResMode](r-is-cat-resmode.md)
 * [Résolution](r-resolution.md)
 * [RootId](r-rootid.md)
 * [RootPath](r-rootpath.md)
-* [URLRacine](r-rooturl.md)
-* [FichierJeuRègle](r-rulesetfile.md)
+* [RootUrl](r-rooturl.md)
+* [RuleSetFile](r-rulesetfile.md)
 * [SavePath](r-savepath.md)
 * [StaticContentCatalogFile](r-staticcontentcatalogfile.md)
 * [StaticContentRootPath](r-staticcontentrootpath.md)
 * [SvgCatalogFile](r-svgcatalogfile.md)
-* [SynthesizeFontStyles](r-synthesizefontstyles.md)
-* [CouleurBkgPasse](r-thumbbkgcolor.md)
+* [SynthizeFontStyles](r-synthesizefontstyles.md)
+* [ThumbBkgColor](r-thumbbkgcolor.md)
 * [ThumbHorizAlign](r-thumbhorizalign.md)
 * [ThumbRes](r-thumbres.md)
 * [ThumbType](r-thumbtype.md)
