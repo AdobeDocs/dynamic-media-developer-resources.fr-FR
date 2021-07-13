@@ -2,16 +2,15 @@
 description: FavoritesView.align
 solution: Experience Manager
 title: FavoritesView.align
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visionneuses,SDK/API,eCatalog
+role: Developer,User
+exl-id: 6d55634e-c09e-4278-a055-f7eb8cdead4e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '81'
 ht-degree: 4%
 
 ---
-
 
 # FavoritesView.align{#favoritesview-align}
 
@@ -20,8 +19,8 @@ ht-degree: 4%
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> gauche|centre|droite,haut|centre|bas</span> </p> </td> 
-   <td colname="col2"> <p> Indique l’alignement horizontal interne (ou ancrage) du conteneur de miniatures dans la zone du composant. </p> <p>Dans la vue Favoris, le conteneur de miniature interne est dimensionné de sorte que seul un nombre entier de miniatures s’affichent. En conséquence, il y a un certain remplissage entre le conteneur interne et les limites du composant externe. </p> <p>Ce modificateur spécifie comment le conteneur des miniatures internes est positionné horizontalement à l’intérieur du composant. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> left|center|right,top|center|bottom</span> </p> </td> 
+   <td colname="col2"> <p> Indique l’alignement horizontal interne (ou ancrage) du conteneur de miniatures dans la zone de composant. </p> <p>Dans la vue Favoris, le conteneur de miniatures interne est dimensionné afin que seules un nombre entier de miniatures soient affichées. Par conséquent, il existe une marge intérieure entre le conteneur interne et les limites du composant externe. </p> <p>Ce modificateur spécifie la manière dont le conteneur de miniatures internes est positionné horizontalement à l’intérieur du composant. </p> </td> 
   </tr> 
  </tbody> 
 </table>
