@@ -1,21 +1,20 @@
 ---
-description: Accentuation des matériaux par défaut. Définit le mode d’accentuation des matériaux par défaut au cas où un enregistrement de catalogue spécifique ne contiendrait pas de valeur d’accentuation de catalogue valide.
+description: Accentuation des matériaux par défaut. Définit le mode d’accentuation des matériaux par défaut lorsqu’un enregistrement de catalogue particulier ne contient pas de valeur d’accentuation de catalogue valide.
 solution: Experience Manager
 title: Sharp
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: fe8f7662-bfa1-43bf-ab66-5de5598edcd4
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '95'
 ht-degree: 10%
 
 ---
 
+# Sharp{#sharp}
 
-# Net{#sharp}
-
-Accentuation des matériaux par défaut. Définit le mode d’accentuation des matériaux par défaut au cas où un enregistrement de catalogue spécifique ne contiendrait pas de valeur catalog::Sharp valide.
+Accentuation des matériaux par défaut. Définit le mode d’accentuation des matériaux par défaut lorsqu’un enregistrement de catalogue particulier ne contient pas de valeur catalog::Sharp valide.
 
 ## Propriétés {#section-dcb810d01b8a40eb991d555a3cbe48b9}
 
@@ -32,7 +31,7 @@ Enum.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p></td> 
-  <td class="stentry"> <p>Accentuation secondaire (avant la transformation). </p></td> 
+  <td class="stentry"> <p>Autre accentuation (avant la transformation). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
@@ -42,7 +41,7 @@ Enum.
 
 ## Par défaut {#section-613130fca7c04ce7a7734265f27aa1ea}
 
-Hérité de `default::Sharp` si elle n&#39;est pas définie ou si elle est vide.
+Hérité de `default::Sharp` si elle n’est pas définie ou si elle est vide.
 
 ## Voir aussi {#section-7771824f2822443ab0297e8793bb48ae}
 
