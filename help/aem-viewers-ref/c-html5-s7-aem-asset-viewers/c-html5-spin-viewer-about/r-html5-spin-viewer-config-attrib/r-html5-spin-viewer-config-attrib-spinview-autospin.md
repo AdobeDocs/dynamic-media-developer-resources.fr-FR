@@ -2,16 +2,15 @@
 description: SpinView.autospin
 solution: Experience Manager
 title: SpinView.autospin
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses à 360°
+role: Developer,User
+exl-id: 16276e07-5494-4fd9-bd77-e77a46c57fd1
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '106'
 ht-degree: 6%
 
 ---
-
 
 # SpinView.autospin{#spinview-autospin}
 
@@ -21,19 +20,19 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Active ou désactive l'animation à 360° automatique. Pour optimiser la rotation automatique, il est recommandé de précharger toutes les images en définissant <span class="codeph"> maxloadradius</span> sur <span class="codeph"> -1</span>. Notez toutefois que cela se traduit par une augmentation du temps de chargement et de l’utilisation de la bande passante. </p> </td> 
+   <td colname="col2"> <p> Active ou désactive l’animation à 360° automatique. Pour optimiser la rotation automatique, il est recommandé de précharger toutes les images en définissant <span class="codeph"> maxloadradius</span> sur <span class="codeph"> -1</span>. Notez toutefois que cela se traduit par une augmentation du temps de chargement et de l’utilisation de la bande passante. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> durée</span></span> </p> </td> 
-   <td colname="col2"> <p> Nombre de secondes par rotation complète. </p> </td> 
+   <td colname="col2"> <p> Nombre de secondes par une rotation complète. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> direction</span></span> </p> </td> 
-   <td colname="col2"> <p> La direction de rotation qui est <span class="codeph"> 0</span> pour la rotation est et <span class="codeph"> 1</span> pour la rotation ouest. </p> </td> 
+   <td colname="col2"> <p> La direction de rotation <span class="codeph"> 0</span> pour tourner à l’est et <span class="codeph"> 1</span> pour tourner à l’ouest. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> spin_number</span></span> </p> </td> 
-   <td colname="col2"> <p> Nombre de rotations complètes effectuées avant l’arrêt de la rotation automatique. Le nombre est un nombre à virgule flottante. Définissez sur <span class="codeph"> -1</span> pour une rotation automatique infinie. </p> </td> 
+   <td colname="col2"> <p> Nombre de rotations complètes effectuées avant l’arrêt de la rotation automatique. Le nombre est un nombre à virgule flottante. Définissez cette variable sur <span class="codeph"> -1</span> pour une rotation automatique infinie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
