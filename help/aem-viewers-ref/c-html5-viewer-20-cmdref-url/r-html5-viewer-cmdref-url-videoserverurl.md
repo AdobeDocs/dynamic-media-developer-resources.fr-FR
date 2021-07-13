@@ -2,13 +2,12 @@
 description: Paramètre commun à toutes les visionneuses.
 solution: Experience Manager
 title: videoServerUrl
-feature: Dynamic Media Classic,Viewers,SDK/API
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visionneuses,SDK/API
+role: Developer,User
 exl-id: db0ce8c4-3754-4fef-9430-44ee8e5c5e80
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '69'
 ht-degree: 5%
 
 ---
@@ -34,7 +33,7 @@ Paramètre commun à toutes les visionneuses.
 
 ## Propriétés {#section-10ee45d637134e0fbcd943c62578cb78}
 
-Facultatif. Pas nécessaire pour les logiciels standard en tant qu&#39;utilisation de service.
+Facultatif. Non requis pour l’utilisation de logiciels standard en tant que service.
 
 ## Par défaut {#section-d411e450028c460392cb8508f8ccc5d9}
 
