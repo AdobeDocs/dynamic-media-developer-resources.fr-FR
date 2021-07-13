@@ -1,27 +1,26 @@
 ---
-description: L’indicateur défini est une série de points affichés sur les nuances lorsqu’une visionneuse est utilisée sur un périphérique tactile. Les points aident les utilisateurs à parcourir les pages des miniatures lorsque les boutons de défilement ne sont pas disponibles.
+description: L’indicateur de définition est une série de points affichés au-dessus des échantillons lorsqu’une visionneuse est utilisée sur un appareil tactile. Les points aident les utilisateurs à parcourir les pages des miniatures lorsque les boutons de défilement ne sont pas disponibles.
 solution: Experience Manager
-title: Définir l’indicateur
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: Indicateur de définition
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Zoom
+role: Developer,User
+exl-id: b1e6734e-a341-45d7-b771-daeb0527cd00
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '262'
 ht-degree: 1%
 
 ---
 
+# Indicateur de définition{#set-indicator}
 
-# Définir l&#39;indicateur{#set-indicator}
-
-L’indicateur défini est une série de points affichés sur les nuances lorsqu’une visionneuse est utilisée sur un périphérique tactile. Les points aident les utilisateurs à parcourir les pages des miniatures lorsque les boutons de défilement ne sont pas disponibles.
+L’indicateur de définition est une série de points affichés au-dessus des échantillons lorsqu’une visionneuse est utilisée sur un appareil tactile. Les points aident les utilisateurs à parcourir les pages des miniatures lorsque les boutons de défilement ne sont pas disponibles.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriétés CSS de l’indicateur de définition**
+**Propriétés CSS de l’indicateur set**
 
-L’aspect du conteneur d’indicateur de définition est contrôlé par le sélecteur de classe CSS suivant :
+L’aspect du conteneur d’indicateur défini est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 ```
 .s7zoomviewer .s7setindicator
@@ -30,7 +29,7 @@ L’aspect du conteneur d’indicateur de définition est contrôlé par le sél
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> Propriété CSS </p> </th> 
+   <th colname="col1" class="entry"> <p> propriété CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
@@ -42,7 +41,7 @@ L’aspect du conteneur d’indicateur de définition est contrôlé par le sél
  </tbody> 
 </table>
 
-Exemple - pour définir un indicateur avec un arrière-plan blanc :
+Exemple : pour configurer un indicateur avec un arrière-plan blanc :
 
 ```
 .s7zoomviewer .s7setindicator { 
@@ -50,14 +49,14 @@ Exemple - pour définir un indicateur avec un arrière-plan blanc :
 }
 ```
 
-L’aspect d’un point d’indicateur de paramètre individuel est contrôlé par le sélecteur de classe CSS :
+L’aspect d’un point indicateur de définition individuel est contrôlé à l’aide du sélecteur de classe CSS :
 
 `.s7zoomviewer .s7setindicator .s7dot`
 
 <table id="table_09B6E232FB94417392D101A7A653BE54"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> Propriété CSS </p> </th> 
+   <th colname="col1" class="entry"> <p> propriété CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
@@ -68,10 +67,10 @@ L’aspect d’un point d’indicateur de paramètre individuel est contrôlé p
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Hauteur du point indicateur défini. </p> </td> 
+   <td colname="col2"> <p>Hauteur du point d’indicateur défini. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge-gauche  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
    <td colname="col2"> <p>Marge gauche en pixels. </p> </td> 
   </tr> 
   <tr> 
@@ -79,7 +78,7 @@ L’aspect d’un point d’indicateur de paramètre individuel est contrôlé p
    <td colname="col2"> <p>Marge supérieure en pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge droite  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-right  </span> </p> </td> 
    <td colname="col2"> <p>Marge droite en pixels. </p> </td> 
   </tr> 
   <tr> 
@@ -99,9 +98,9 @@ L’aspect d’un point d’indicateur de paramètre individuel est contrôlé p
 
 >[!NOTE]
 >
->Le paramètre indicateur dot prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la page actuelle des miniatures, `state="unselected"` correspond à l’état du point par défaut.
+>Le point d’indicateur fixe prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la page actuelle des miniatures, `state="unselected"` correspond à l’état du point par défaut.
 
-Exemple : pour définir un point indicateur de 15 x 15 pixels, avec une marge horizontale de deux pixels, une marge supérieure de cinq pixels, une marge inférieure de un pixel, un rayon de douze pixels, la couleur par défaut #D5D3D3 et la couleur principale #939393 :
+Exemple : pour configurer un point d’indicateur de 15 x 15 pixels, avec une marge horizontale de deux pixels, une marge supérieure de cinq pixels, une marge inférieure de pixel, un rayon de douze pixels, #D5D3D3 couleur par défaut et #939393 couleur principale :
 
 ```
 .s7zoomviewer .s7setindicator .s7dot { 
@@ -118,4 +117,3 @@ Exemple : pour définir un point indicateur de 15 x 15 pixels, avec une marge ho
  background-color:#939393;  
 }
 ```
-
