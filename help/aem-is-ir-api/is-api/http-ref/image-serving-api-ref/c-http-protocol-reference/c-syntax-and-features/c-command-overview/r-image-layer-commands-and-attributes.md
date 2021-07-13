@@ -1,19 +1,18 @@
 ---
 description: Ces commandes s’appliquent aux calques d’image, en plus des commandes de calque courantes.
 solution: Experience Manager
-title: Commandes du calque d’image
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: Commandes des calques d’image
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 142e3fbb-93d6-4072-8e49-b7a7484106d8
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '42'
 ht-degree: 0%
 
 ---
 
-
-# Commandes de calque d’image{#image-layer-commands}
+# Commandes des calques d’image{#image-layer-commands}
 
 Ces commandes s’appliquent aux calques d’image, en plus des commandes de calque courantes.
 
@@ -23,4 +22,3 @@ Ces commandes s’appliquent aux calques d’image, en plus des commandes de cal
   <td class="stentry"> <p>Indique l’image source. </p></td> 
  </tr> 
 </table>
-
