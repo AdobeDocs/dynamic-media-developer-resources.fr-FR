@@ -1,21 +1,20 @@
 ---
-description: Sélectionnez un objet par nom. Sélectionne le groupe de vignettes spécifié par son nom et début un nouveau MSS.
+description: Sélectionnez l’objet par nom. Sélectionne le groupe de vignettes spécifié par son nom et lance un nouveau MSS.
 solution: Experience Manager
 title: obj
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 17387203-f7a7-4876-a15b-2084894f981d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '144'
 ht-degree: 4%
 
 ---
 
-
 # obj{#obj}
 
-Sélectionnez un objet par nom. Sélectionne le groupe de vignettes spécifié par son nom et début un nouveau MSS.
+Sélectionnez l’objet par nom. Sélectionne le groupe de vignettes spécifié par son nom et lance un nouveau MSS.
 
 ` obj= *`name`*`
 
@@ -26,19 +25,19 @@ Sélectionnez un objet par nom. Sélectionne le groupe de vignettes spécifié p
  </tr> 
 </table>
 
-Il est possible de sélectionner des sous-groupes ou des objets individuels à l&#39;aide d&#39;un chemin de groupe complet (c&#39;est-à-dire en spécifiant le nom de la Population cible ou de l&#39;objet précédé de tous les groupes parents, séparé par / (barres obliques).
+Vous pouvez sélectionner des sous-groupes ou des objets individuels à l’aide d’un chemin d’accès complet au groupe (c’est-à-dire en spécifiant le nom du groupe cible ou de l’objet précédé de tous les groupes parents, séparés par des / (barres obliques).
 
-Si aucun groupe/objet portant le nom spécifié n&#39;est trouvé, l&#39;action spécifiée dans `attribute::OnObjFail` est exécutée.
+Si aucun groupe/objet portant le nom spécifié n’est trouvé, l’action spécifiée dans `attribute::OnObjFail` est exécutée.
 
 ## Propriétés {#section-9463b36e8ff74c81a70c7c2b58927430}
 
-Sélection, commande; Délimiteur MSS. La sélection d’objet est persistante jusqu’à ce qu’un autre objet soit sélectionné, soit avec `obj=` ou `sel=`.
+la commande Sélection; Délimiteur MSS. La sélection d’objet est persistante jusqu’à ce qu’un autre objet soit sélectionné, soit avec `obj=` ou `sel=`.
 
-Les chemins d’accès aux groupes/objets et les noms ne sont pas sensibles à la casse.
+Les noms et les chemins d’accès aux groupes/objets ne sont pas sensibles à la casse.
 
 ## Par défaut {#section-0c322850512c4896bb551856a549440e}
 
-Le premier groupe de la vignette contenant des objets à rendu est automatiquement sélectionné à l’ouverture d’une nouvelle vignette.
+Le premier groupe de la vignette contenant des objets de rendu est automatiquement sélectionné à l’ouverture d’une nouvelle vignette.
 
 ## Voir aussi {#section-d9d2c92ef48548f48b9781e2a8a5fb5a}
 
