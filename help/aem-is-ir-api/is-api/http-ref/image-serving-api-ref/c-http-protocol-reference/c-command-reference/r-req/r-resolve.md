@@ -1,21 +1,20 @@
 ---
-description: Demande de débogage. Cette commande de débogage analyse et prétraite la requête, exécute les recherches de catalogue d’images, les inclusions de modificateur de catalogue, les substitutions de macro et de variable, etc., comme req=img.
+description: Requête de débogage. Cette commande de débogage analyse et prétraite la requête, exécute les recherches de catalogue d’images, les inclusions de modificateurs de catalogue, les substitutions de macro et de variable, etc., comme req=img.
 solution: Experience Manager
 title: résoudre
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: ef357c19-e725-4904-b635-102e75ff7518
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '79'
 ht-degree: 2%
 
 ---
 
-
 # résoudre{#resolve}
 
-Demande de débogage. Cette commande de débogage analyse et prétraite la requête, exécute les recherches de catalogue d’images, catalog::Inclusions de modificateurs, substitutions de macros et de variables, etc., comme req=img.
+Requête de débogage. Cette commande de débogage analyse et prétraite la requête, exécute les recherches de catalogue d’images, catalogue : inclusions de modificateurs, substitutions de macros et de variables, etc., comme req=img.
 
 `req=resolve`
 
