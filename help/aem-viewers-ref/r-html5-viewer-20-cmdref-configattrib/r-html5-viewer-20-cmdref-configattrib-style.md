@@ -2,20 +2,19 @@
 description: style
 solution: Experience Manager
 title: style
-feature: Dynamic Media Classic,Viewers,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visionneuses,SDK/API
+role: Developer,User
+exl-id: a0547ada-3d8f-4ec2-a7e4-424fd1a78a28
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '103'
 ht-degree: 7%
 
 ---
 
-
 # style{#style}
 
-Vous pouvez appliquer la commande suivante à partir de la chaîne de requête d’URL et de la configuration. La commande appliquée dans la chaîne de requête d’URL est toujours prioritaire sur la même commande que celle présente dans la configuration.
+Vous pouvez appliquer la commande suivante à partir de la chaîne de requête de l’URL et de la configuration. La commande appliquée dans la chaîne de requête de l’URL a toujours la priorité sur la même commande présente dans la configuration.
 
 `style= *`cssPath`*`
 
@@ -23,12 +22,12 @@ Vous pouvez appliquer la commande suivante à partir de la chaîne de requête d
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> cssPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> Emplacement CSS relatif ou absolu. </p> <p>Indique l’emplacement du fichier CSS personnalisé. Si <span class="codeph"><span class="varname"> cssPath</span></span> est relatif, il est résolu par rapport à l’emplacement de la page HTML de la visionneuse et à la valeur du paramètre <span class="codeph"> contentUrl=</span>. </p> </td> 
+   <td colname="col2"> <p> Emplacement CSS relatif ou absolu. </p> <p>Indique l’emplacement du fichier CSS personnalisé. Si le <span class="codeph"><span class="varname"> cssPath</span></span> est relatif, il est résolu par rapport à l’emplacement de la page HTML de la visionneuse et à la valeur du paramètre <span class="codeph"> contentUrl=</span> . </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Toutes les références de fichier dans le fichier CSS sont résolues par rapport à l’emplacement du fichier CSS, et non par rapport à l’emplacement de la page HTML appelante.
+Toutes les références de ressources dans le fichier CSS sont résolues par rapport à l’emplacement du fichier CSS, et non par rapport à l’emplacement de la page HTML appelant.
 
 ## Propriétés {#section-8ce2a4493d454d97a9975fc7f9f4eb2c}
 
