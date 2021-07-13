@@ -2,54 +2,53 @@
 description: Les miniatures se composent d’une grille d’images miniatures avec une barre de défilement facultative sur le côté droit pour permettre le défilement vertical.
 solution: Experience Manager
 title: Miniatures
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Recherche catalogue électronique
+role: Developer,User
+exl-id: 25032917-237c-4227-92bd-ce66a6d003a0
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '899'
 ht-degree: 2%
 
 ---
-
 
 # Miniatures{#thumbnails}
 
 Les miniatures se composent d’une grille d’images miniatures avec une barre de défilement facultative sur le côté droit pour permettre le défilement vertical.
 
-Les miniatures sont activées en cliquant sur le bouton miniature dans la barre de contrôle principale. Lorsque les miniatures sont principales, elles s’affichent en mode modal superposées sur l’interface utilisateur du lecteur de contenu. La logique du lecteur redimensionne automatiquement le conteneur des miniatures sur l’ensemble de la zone de visualisation.
+Les miniatures sont activées en cliquant sur le bouton de miniature dans la barre de contrôle principale. Lorsque les miniatures sont principales, elles s’affichent en mode modal superposé sur l’interface utilisateur de la visionneuse. La logique de la visionneuse redimensionne automatiquement le conteneur de miniatures sur l’ensemble de la zone de visionneuse.
 
-L’aspect du conteneur des miniatures est contrôlé par le sélecteur de classe CSS suivant :
+L’aspect du conteneur de miniatures est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 `.s7ecatalogsearchviewer .s7thumbnailgridview`
 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> Propriété CSS </p> </th> 
+   <th colname="col1" class="entry"> <p> propriété CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> haut </span> </p> </td> 
-   <td colname="col2"> <p> Décalage vertical du conteneur des miniatures par rapport au haut de la visionneuse. </p> </td> 
+   <td colname="col2"> <p> Décalage vertical du conteneur de miniatures depuis le haut de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
    <td colname="col2"> <p>Marge supérieure. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge-gauche  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
    <td colname="col2"> <p>Marge gauche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge droite  </span> </p> </td> 
-   <td colname="col2"> <p>La marge droite. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-right  </span> </p> </td> 
+   <td colname="col2"> <p>Marge droite. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin-bottom  </span> </p> </td> 
-   <td colname="col2"> <p>Marge inférieure. </p> </td> 
+   <td colname="col2"> <p>La marge inférieure. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
@@ -58,7 +57,7 @@ L’aspect du conteneur des miniatures est contrôlé par le sélecteur de class
  </tbody> 
 </table>
 
-Exemple : pour configurer les miniatures de sorte qu’elles présentent un décalage de 32 pixels par rapport au haut, de 5 pixels par rapport à la gauche et à la droite et de 8 pixels par rapport au bas, avec un arrière-plan `0xDDDDDD`.
+Exemple : pour configurer des miniatures avec un décalage de 32 pixels par rapport au haut, des marges de 5 pixels à gauche et à droite et une marge de 8 pixels au bas, avec un arrière-plan `0xDDDDDD`.
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailgridview { 
@@ -77,7 +76,7 @@ L’espacement entre les miniatures est contrôlé à l’aide du sélecteur de 
 <table id="table_1D93AB60E57F49A8838EA825CD6B7897"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> Propriété CSS </p> </th> 
+   <th colname="col1" class="entry"> <p> propriété CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
@@ -97,14 +96,14 @@ Exemple : pour définir un espace de 10 pixels verticalement et horizontalement.
 }
 ```
 
-L’aspect d’une miniature individuelle est contrôlé à l’aide du sélecteur de classe CSS suivant :
+L’aspect des miniatures individuelles est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 `.s7ecatalogsearchviewer .s7thumbnailgridview .s7thumb`
 
 <table id="table_1D973EA6C36947F092AAA16CFE9B44A1"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> Propriété CSS </p> </th> 
+   <th colname="col1" class="entry"> <p> propriété CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
@@ -128,13 +127,13 @@ L’aspect d’une miniature individuelle est contrôlé à l’aide du sélecte
  </tbody> 
 </table>
 
-Sur les périphériques tactiles, lorsque vous passez en mode portrait, le lecteur peut dimensionner les miniatures à la moitié de ce qui est configuré au cas où il déciderait de scinder le catalogue en pages individuelles.
+Sur les appareils tactiles, lorsqu’ils sont pivotés en mode portrait, la visionneuse peut dimensionner les miniatures à la moitié de ce qui est configuré au cas où elle décide de diviser le catalogue en pages individuelles.
 
 >[!NOTE]
 >
->La miniature prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la miniature de l’image actuellement affichée dans la vue principale, `state="default"` correspond au reste des miniatures et `state="over"` est utilisé lorsque vous pointez la souris.
+>La miniature prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la miniature de l’image actuellement affichée dans la vue principale, `state="default"` correspond au reste des miniatures et `state="over"` est utilisé au survol de la souris.
 
-Exemple : pour configurer des miniatures de 120 x 85 pixels, avec un arrière-plan blanc, une bordure standard en gris clair et une bordure sélectionnée en gris foncé.
+Exemple : pour configurer des miniatures de 120 x 85 pixels, elles ont un arrière-plan blanc, une bordure standard gris clair et une bordure sélectionnée grise foncée.
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailgridview .s7thumb { 
@@ -155,7 +154,7 @@ L’aspect du libellé de la miniature est contrôlé à l’aide du sélecteur 
 <table id="table_E242176042F247F8B51A0D5ADB645E20"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> Propriété CSS </p> </th> 
+   <th colname="col1" class="entry"> <p> propriété CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
@@ -171,7 +170,7 @@ L’aspect du libellé de la miniature est contrôlé à l’aide du sélecteur 
  </tbody> 
 </table>
 
-Exemple : pour configurer des libellés afin qu’ils utilisent une police Helvetica de 14 pixels.
+Exemple : pour configurer des libellés afin d’utiliser une police Helvetica de 14 pixels.
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailgridview .s7label { 
@@ -180,14 +179,14 @@ Exemple : pour configurer des libellés afin qu’ils utilisent une police Helve
 }
 ```
 
-Au cas où il y aurait plus de vignettes que de vignettes verticales dans la vue, les vignettes génèrent la barre de défilement verticale sur le côté droit. L’aspect de la zone de barre de défilement est contrôlé par le sélecteur de classe CSS suivant :
+S’il existe plus de miniatures que celles pouvant s’afficher verticalement, les miniatures affichent la barre de défilement verticale sur le côté droit. L’aspect de la zone de barre de défilement est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 `.s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar`
 
 <table id="table_F05EC87CD9A946DB9B4B2B48E0784168"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> Propriété CSS </p> </th> 
+   <th colname="col1" class="entry"> <p> propriété CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
@@ -198,11 +197,11 @@ Au cas où il y aurait plus de vignettes que de vignettes verticales dans la vue
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> haut </span> </p> </td> 
-   <td colname="col2"> <p> Décalage de la barre de défilement verticale à partir du haut de la zone des miniatures. </p> </td> 
+   <td colname="col2"> <p> Décalage de la barre de défilement verticale par rapport au haut de la zone des miniatures. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bas </span> </p> </td> 
-   <td colname="col2"> <p>Décalage de la barre de défilement verticale à partir du bas de la zone des miniatures. </p> </td> 
+   <td colname="col2"> <p>Décalage de la barre de défilement verticale par rapport au bas de la zone des miniatures. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> droite </span> </p> </td> 
@@ -211,7 +210,7 @@ Au cas où il y aurait plus de vignettes que de vignettes verticales dans la vue
  </tbody> 
 </table>
 
-Exemple : pour configurer une barre de défilement de 28 pixels de large et d’une marge de 8 pixels en haut, à droite et en bas de la zone des miniatures.
+Exemple : pour configurer une barre de défilement de 28 pixels de large et dont la marge de 8 pixels se situe en haut, à droite et en bas de la zone des miniatures.
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar { 
@@ -222,21 +221,21 @@ Exemple : pour configurer une barre de défilement de 28 pixels de large et d’
 }
 ```
 
-La barre de défilement est la zone située entre les boutons de défilement supérieur et inférieur. Le composant définit automatiquement la position et la hauteur de la piste. Le suivi est contrôlé à l’aide du sélecteur de classe CSS suivant :
+La barre de défilement est la zone entre les boutons de défilement haut et bas. Le composant définit automatiquement la position et la hauteur du suivi. Le suivi est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 `.s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar .s7scrolltrack`
 
 <table id="table_EF1B91F9E984451EB0AB48175D917726"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> Propriété CSS </p> </th> 
+   <th colname="col1" class="entry"> <p> propriété CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
-   <td colname="col2"> <p>Largeur du suivi de la barre de défilement. </p> </td> 
+   <td colname="col2"> <p>Largeur de la barre de défilement. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
@@ -245,7 +244,7 @@ La barre de défilement est la zone située entre les boutons de défilement sup
  </tbody> 
 </table>
 
-Exemple : pour configurer une piste de barre de défilement de 28 pixels de large et d’un arrière-plan gris semi-transparent.
+Exemple : pour configurer un suivi de barre de défilement de 28 pixels de large et avec un arrière-plan gris semi-transparent.
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar .s7scrolltrack { 
@@ -254,50 +253,50 @@ Exemple : pour configurer une piste de barre de défilement de 28 pixels de larg
 }
 ```
 
-Le curseur de la barre de défilement se déplace verticalement dans la zone de suivi de défilement. Sa position verticale est entièrement contrôlée par la logique du composant. Cependant, la hauteur du pouce ne change pas dynamiquement en fonction de la quantité de contenu. La hauteur du pouce et d’autres aspects sont contrôlés avec le sélecteur de classe CSS suivant :
+La barre de défilement se déplace verticalement dans la zone de suivi de défilement. Sa position verticale est entièrement contrôlée par la logique du composant. Toutefois, la hauteur du pouce ne change pas dynamiquement en fonction de la quantité de contenu. La hauteur du pouce et d’autres aspects sont contrôlés avec le sélecteur de classe CSS suivant :
 
 `.s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar .s7scrollthumb`
 
 <table id="table_5C791F6E90E64E7A9F1DB7C9B2FDC528"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> Propriété CSS </p> </th> 
+   <th colname="col1" class="entry"> <p> propriété CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
-   <td colname="col2"> <p>Largeur du curseur de la barre de défilement. </p> </td> 
+   <td colname="col2"> <p>Largeur de la barre de défilement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> hauteur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hauteur de la miniature de la barre de défilement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage-haut  </span> </p> </td> 
-   <td colname="col2"> <p>Marge intérieure verticale située entre le haut du rail de la barre de défilement. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> remplissage-top  </span> </p> </td> 
+   <td colname="col2"> <p>Marge intérieure verticale entre le haut de la barre de défilement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage-bas  </span> </p> </td> 
-   <td colname="col2"> <p>Marge intérieure verticale située entre le bas du rail de la barre de défilement. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> remplissage-bottom  </span> </p> </td> 
+   <td colname="col2"> <p>Marge intérieure verticale entre le bas de la barre de défilement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Image affichée pour un état de pouce donné. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
-   <td colname="col2"> <p> Positionnez l’objet à l’intérieur de l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Thumb prend en charge le sélecteur d&#39;attributs `state`, qui peut être utilisé pour appliquer différents habillages aux états de pouce `up`, `down`, `over` et `disabled`.
+>Le curseur prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différentes habillages aux états du pouce `up`, `down`, `over` et `disabled`.
 
-Exemple : pour configurer un pouce de barre de défilement de 28 x 45 pixels, avec des marges de 10 pixels en haut et en bas et une illustration différente pour chaque état.
+Exemple : pour configurer une barre de défilement de 28 x 45 pixels, avec des marges de 10 pixels en haut et en bas et une illustration différente pour chaque état.
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar .s7scrollthumb { 
@@ -322,18 +321,18 @@ Exemple : pour configurer un pouce de barre de défilement de 28 x 45 pixels, av
 }
 ```
 
-L’aspect des boutons de défilement supérieur et inférieur est contrôlé par les sélecteurs de classe CSS suivants :
+L’aspect des boutons de défilement haut et bas est contrôlé à l’aide des sélecteurs de classe CSS suivants :
 
 `.s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar .s7scrollupbutton`
 
 `.s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar .s7scrolldownbutton`
 
-Il n’est pas possible de positionner les boutons de défilement à l’aide des propriétés CSS `top`, `left`, `bottom` et `right`. Au lieu de cela, la logique du lecteur les positionne automatiquement.
+Il n’est pas possible de positionner les boutons de défilement à l’aide des propriétés CSS `top`, `left`, `bottom` et `right`. À la place, la logique de la visionneuse les positionne automatiquement.
 
 <table id="table_89E64A138ABF463F9650BB454F22D530"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> Propriété CSS </p> </th> 
+   <th colname="col1" class="entry"> <p> propriété CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
@@ -343,27 +342,27 @@ Il n’est pas possible de positionner les boutons de défilement à l’aide de
    <td colname="col2"> <p>Largeur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> hauteur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Image affichée pour un état de pouce donné. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
-   <td colname="col2"> <p> Positionnez l’objet à l’intérieur de l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ces boutons prennent en charge le sélecteur d&#39;attributs `state`, qui peut être utilisé pour appliquer différents habillages aux différents états de bouton `up`, `down`, `over` et `disabled`.
+>Ces boutons prennent en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages aux différents états de bouton `up`, `down`, `over` et `disabled`.
 
-L’info-bulle du bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
+L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 
-Exemple : pour configurer des boutons de défilement de 28 x 32 pixels et présentant des illustrations différentes pour chaque état.
+Exemple : pour configurer des boutons de défilement de 28 x 32 pixels et ayant des illustrations différentes pour chaque état.
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar .s7scrollupbutton { 
@@ -399,4 +398,3 @@ Exemple : pour configurer des boutons de défilement de 28 x 32 pixels et prése
  background-image:url(images/v2/ThumbnailScrollDownButton_dark_up.png); 
 }
 ```
-
