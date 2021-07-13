@@ -2,16 +2,15 @@
 description: Référence de l’API JavaScript pour la visionneuse de zoom intégrée.
 solution: Experience Manager
 title: init
-feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Zoom intégré
+role: Developer,User
+exl-id: c4419728-1e1a-4e11-88fe-24eb0c968c5c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '130'
 ht-degree: 2%
 
 ---
-
 
 # init{#init}
 
@@ -19,9 +18,9 @@ Référence de l’API JavaScript pour la visionneuse de zoom intégrée.
 
 `init()`
 
-Début l’initialisation de la visionneuse de sorte que le code de la visionneuse puisse la trouver par son identifiant. A ce stade, l’élément DOM conteneur doit être créé.
+Commence l’initialisation de la visionneuse de sorte que le code de la visionneuse puisse la trouver par son identifiant. D’ici là, l’élément DOM du conteneur doit être créé.
 
-Si l’élément de conteneur ne fait pas encore partie de la mise en page de la page Web (il peut par exemple être masqué à l’aide du style `display:none` qui lui est affecté), le lecteur suspend son processus d’initialisation jusqu’au moment où la page Web ramène l’élément de conteneur à la mise en page. Dans ce cas, le chargement du lecteur reprend automatiquement.
+Si l’élément de conteneur ne fait pas encore partie de la mise en page web (il peut par exemple être masqué à l’aide du style `display:none` qui lui est affecté), la visionneuse suspend son processus d’initialisation jusqu’au moment où la page web ramène l’élément de conteneur à la mise en page. Dans ce cas, le chargement de la visionneuse reprend automatiquement.
 
 Appelez cette méthode une seule fois pendant le cycle de vie de la visionneuse ; les appels suivants sont ignorés.
 
@@ -38,4 +37,3 @@ Aucune
 ```
 <instance>.init()
 ```
-
