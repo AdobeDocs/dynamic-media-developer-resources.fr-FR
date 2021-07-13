@@ -2,16 +2,15 @@
 description: Swatches.direction
 solution: Experience Manager
 title: Swatches.direction
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Fenêtre déroulante
+role: Developer,User
+exl-id: bdc3e5a8-e7cc-4e7b-98e7-30c0d4496abe
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '63'
 ht-degree: 6%
 
 ---
-
 
 # Swatches.direction{#swatches-direction}
 
@@ -21,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|left|right  </span> </p> </td> 
-   <td colname="col2"> <p> Indique la façon dont les nuances remplissent la vue. </p> <p> <span class="codeph">  </span> définit l’ordre de remplissage de gauche à droite ;  <span class="codeph"> la droite  </span> inverse l’ordre de manière à ce que la vue soit remplie de droite à gauche, de haut en bas. Lorsque <span class="codeph"> auto </span> est défini, le composant applique le mode droit lorsque le paramètre régional est défini sur <span class="codeph"> "ja" </span> et utilise le contraire. </p> </td> 
+   <td colname="col2"> <p> Indique la manière dont les échantillons remplissent la vue. </p> <p> <span class="codeph"> la gauche  </span> définit l’ordre de remplissage de gauche à droite ;  <span class="codeph"> right  </span> inverse l’ordre de sorte que la vue soit remplie de droite à gauche, de haut en bas. Lorsque <span class="codeph"> auto </span> est défini, le composant applique le mode droit lorsque le paramètre régional est défini sur <span class="codeph"> "ja" </span>, et utilise le mode gauche dans le cas contraire. </p> </td> 
   </tr> 
  </tbody> 
 </table>
