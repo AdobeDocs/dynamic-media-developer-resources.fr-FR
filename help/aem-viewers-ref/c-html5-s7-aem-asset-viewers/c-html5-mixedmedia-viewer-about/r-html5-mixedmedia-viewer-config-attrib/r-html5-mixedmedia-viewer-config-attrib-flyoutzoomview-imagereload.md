@@ -3,9 +3,9 @@ description: Configure la manière dont le composant récupère de nouvelles ima
 solution: Experience Manager
 title: FlyoutZoomView.imagereload
 feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 1bb57c89-4ceb-40d6-8054-d51c1573431c
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 3%
