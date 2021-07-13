@@ -1,21 +1,20 @@
 ---
-description: Sélecteur de matériau désaffecté. Début un segment de spécification de matière (MSS) pour un matériau de décomposition non répétable.
+description: Sélecteur de matériaux de décoration. Démarre un segment de spécification de matériau (MSS) pour un matériau de décomposition non répétable.
 solution: Experience Manager
-title: décal
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+title: decal
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 0a1f80f5-5b49-4d2b-9bab-74d1e7c000a4
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 9%
+source-wordcount: '48'
+ht-degree: 10%
 
 ---
 
-
 # decal{#decal}
 
-Sélecteur de matériau désaffecté. Début un segment de spécification de matière (MSS) pour un matériau de décomposition non répétable.
+Sélecteur de matériaux de décoration. Démarre un segment de spécification de matériau (MSS) pour un matériau de décomposition non répétable.
 
 ` decal[= *`val`*]`
 
@@ -28,7 +27,7 @@ Sélecteur de matériau désaffecté. Début un segment de spécification de mat
 
 ## Propriétés {#section-4f975f78869e4c829c30cf3ca7646539}
 
-Sélection, commande; Délimiteur MSS.
+la commande Sélection; Délimiteur MSS.
 
 ## Par défaut {#section-b00e6ad9313a4341a6bb4e77c826bc15}
 
