@@ -3,9 +3,9 @@ description: Cliquez ou appuyez sur ce bouton pour fermer la page web contenante
 solution: Experience Manager
 title: Bouton Fermer
 feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: aaa74d26-7876-491c-96c9-1f9405f50a6e
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 2%
