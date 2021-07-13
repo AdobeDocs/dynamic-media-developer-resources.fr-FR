@@ -1,21 +1,20 @@
 ---
-description: Origine de couche.
+description: Origine du calque.
 solution: Experience Manager
 title: origine
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 5ea8eb18-d169-4255-b4b1-dda849246485
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '163'
 ht-degree: 3%
 
 ---
 
-
 # origine{#origin}
 
-Origine de couche.
+Origine du calque.
 
 `origin= *`coord`*`
 
@@ -28,7 +27,7 @@ Origine de couche.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> coordN</span> </p></td> 
-  <td class="stentry"> <p>Décalage normalisé à partir du centre du rect de calque (réel, réel). </p></td> 
+  <td class="stentry"> <p>Décalage normalisé à partir du centre de la recette du calque (réel, réel). </p></td> 
  </tr> 
 </table>
 
@@ -36,19 +35,19 @@ Origine de couche.
 >
 >Le calque rect inclut toujours toute modification par `extend=`.
 
-Définit le point d’alignement du rectangle du calque, qui est utilisé pour positionner le rectangle du calque par rapport au calque 0 par `pos=`. `originN=0,0` place l’origine du calque au centre du rectangle du calque. `originN=-0.5,-0.5` Il  `origin=0,0` s’agit du coin supérieur gauche et  `originN=0.5,0.5` du coin inférieur droit du rectangle du calque.
+Définit le point d’alignement du rectangle du calque, utilisé pour positionner le rectangle du calque par rapport au calque 0 via `pos=`. `originN=0,0` positionne l’origine du calque au centre du rectangle du calque. `originN=-0.5,-0.5` et  `origin=0,0` correspond au coin supérieur gauche et  `originN=0.5,0.5` au coin inférieur droit du rectangle du calque.
 
 ## Propriétés {#section-60f639e36ada43d1abc6bfc100afc925}
 
-Attribut de couche. S&#39;applique au calque actif ou au calque 0 si `layer=comp`. Non affecté par les transformations de calque ( `crop=`, `scale=`, `rotate=`, `flip=`) appliquées à la source de calque. Remplace `anchor=`. Ignoré par les calques d’effet.
+Attribut de calque. S’applique au calque actif ou au calque 0 si `layer=comp`. Non affecté par les transformations de calque ( `crop=`, `scale=`, `rotate=`, `flip=`) appliquées à la source de calque. Remplace `anchor=`. Ignoré par les calques d’effet.
 
 ## Par défaut {#section-b7209e5c2ad6491fb0c2353cc3f1f703}
 
-Si `origin=` n’est pas spécifié, l’origine du calque est déterminée en appliquant le calque à l’ancre de l’image. Si l’ancrage de l’image n’est pas connu, le centre du rectangle du calque ( `originN=0,0`) est utilisé.
+Si `origin=` n’est pas spécifié, l’origine du calque est déterminée en appliquant les transformations du calque à l’ancre de l’image. Si l’ancre de l’image n’est pas connue, le centre du rectangle du calque ( `originN=0,0`) est utilisé.
 
 ## Exemple {#section-13e38d6e17be4e6cbc6b27fbde63b291}
 
-Voir l&#39;exemple A dans [Modèles](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).
+Voir Exemple A dans [Modèles](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).
 
 ## Voir aussi {#section-a9f9c42c86fe45798deb2daaf27ea5b7}
 
