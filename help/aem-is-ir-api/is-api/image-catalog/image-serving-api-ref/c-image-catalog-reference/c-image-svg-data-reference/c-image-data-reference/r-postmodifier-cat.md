@@ -1,27 +1,26 @@
 ---
-description: Chaîne de modificateur de demande de suffixe. Aucune ou plusieurs commandes de diffusion d’images séparées par des caractères "&".
+description: Chaîne de modificateur de demande de correctif Postfix. Aucune ou plusieurs commandes de diffusion d’images séparées par des caractères "&".
 solution: Experience Manager
 title: PostModificateur
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 7d6c9408-1f09-464d-8a69-eabdf7c0117d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '132'
 ht-degree: 4%
 
 ---
 
-
 # PostModificateur{#postmodifier}
 
-Chaîne de modificateur de demande de suffixe. Aucune ou plusieurs commandes de diffusion d’images séparées par des caractères &quot;&amp;&quot;.
+Chaîne de modificateur de demande de correctif Postfix. Aucune ou plusieurs commandes de diffusion d’images séparées par des caractères &quot;&amp;&quot;.
 
-Dans ce champ, les commandes remplacent toujours les commandes dans la requête HTTP et dans `catalog::Modifier`.
+Les commandes de ce champ remplacent toujours les commandes dans la requête HTTP et dans `catalog::Modifier`.
 
-`catalog::PostModifier` est utile si certaines images nécessitent des paramètres spéciaux qui sont normalement contrôlés à partir de l’URL, tels que  `qlt=` ou  `resmode=`. `catalog::Modifier` doit être utilisée pour définir la plupart des commandes IS dans le catalogue d’images.
+`catalog::PostModifier` est utile si certaines images nécessitent des paramètres spéciaux qui sont normalement contrôlés à partir de l’URL, tels que  `qlt=` ou  `resmode=`. `catalog::Modifier` doit être utilisé pour définir la plupart des commandes IS dans le catalogue d’images.
 
-Les macros sont autorisées dans `catalog::PostModifier`, à condition qu’elles soient définies dans le même catalogue ou dans le catalogue par défaut. Des variables personnalisées peuvent également être utilisées.
+Les macros sont autorisées dans `catalog::PostModifier`, à condition qu’elles soient définies dans le même catalogue ou dans le catalogue par défaut. Vous pouvez également utiliser des variables personnalisées.
 
 >[!NOTE]
 >
