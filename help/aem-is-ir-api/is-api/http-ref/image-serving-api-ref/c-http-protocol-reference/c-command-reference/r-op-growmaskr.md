@@ -1,28 +1,27 @@
 ---
-description: Dilate/erode image. Applique un dilate morphologique (rayon > 0) ou une érode (rayon < 0) aux données du masque.
+description: Dilate/érode l’image. Applique un dilate morphologique (rayon > 0) ou une érode (rayon < 0) aux données du masque.
 solution: Experience Manager
 title: op_grewMaskR
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 7abfbccf-8bcf-44d4-b50a-eca7a3f11360
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 3%
+source-wordcount: '100'
+ht-degree: 4%
 
 ---
 
-
 # op_grewMaskR{#op-growmaskr}
 
-Dilate/erode image. Applique un dilate morphologique (rayon > 0) ou une érode (rayon &lt; 0) aux données du masque.
+Dilate/érode l’image. Applique un dilate morphologique (rayon > 0) ou une érode (rayon &lt; 0) aux données du masque.
 
 `op_growMaskR= *`radiusR`*`
 
 <table id="simpletable_3BAA4523D29E447FA7A4C9009B3E8344"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> radiusR</span></span> </p> </td> 
-  <td class="stentry"> <p>Rayon dilaté/érodé en pixels où <span class="codeph"><span class="varname"> radiusR</span></span> est appliqué en l’état, que le masque soit sous-échantillonné ou non (int -100.100). </p></td> 
+  <td class="stentry"> <p>Dilate/érode radius en pixels où <span class="codeph"><span class="varname"> radiusR</span></span> est appliqué tel quel, que le masque soit sous-échantillonné ou non (int -100..100). </p></td> 
  </tr> 
 </table>
 
@@ -30,11 +29,11 @@ Utilisé principalement pour faire légèrement pousser ou rétrécir un masque 
 
 ## Propriétés {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
-S&#39;applique au calque actif ou au calque `0` si `layer=comp`.
+S’applique au calque actif ou au calque `0` si `layer=comp`.
 
 ## Par défaut {#section-14c908bb87cb42acbea709effea2f964}
 
-`op_growMaskR=0`, sans changement.
+`op_growMaskR=0`, pour aucune modification.
 
 ## Voir aussi {#section-ad3e5cecfc3448a38ea06093e015c88a}
 
