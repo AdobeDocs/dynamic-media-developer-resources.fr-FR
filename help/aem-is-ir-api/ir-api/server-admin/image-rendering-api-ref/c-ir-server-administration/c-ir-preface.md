@@ -1,25 +1,24 @@
 ---
-description: Cette documentation traite des problèmes d’administration du serveur et décrit les paramètres de configuration pour le rendu des images Dynamic Media.
+description: Cette documentation présente les problèmes d’administration du serveur et décrit les paramètres de configuration du rendu d’image Dynamic Media.
 solution: Experience Manager
-title: Préface d'administration du serveur
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+title: Préface d’administration du serveur
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Administrator,User
+exl-id: 65fc3510-3d47-4650-bf89-322b517dc004
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
 
+# Préface d’administration du serveur{#server-administration-preface}
 
-# Préface d&#39;administration du serveur{#server-administration-preface}
-
-Cette documentation traite des problèmes d’administration du serveur et décrit les paramètres de configuration pour le rendu des images Dynamic Media.
+Cette documentation présente les problèmes d’administration du serveur et décrit les paramètres de configuration du rendu d’image Dynamic Media.
 
 **Audience prévue**
 
-Cette documentation est destinée aux administrateurs système et aux webmasters qui doivent installer, configurer et administrer Dynamic Media Image Rendering.
+Cette documentation est destinée aux administrateurs système et aux webmasters qui doivent installer, configurer et administrer le rendu d’image Dynamic Media.
 
 **Conventions relatives aux documents**
 
@@ -27,28 +26,27 @@ Les éléments décrits dans cette documentation sont souvent précédés des ty
 
 <table id="simpletable_E96BA470B3CE4266A9E6ED0440A56C40"> 
  <tr class="strow"> 
-  <td class="stentry"> <p>attribut::Item </p></td> 
-  <td class="stentry"> <p>Un nom précédé de "attribute::" fait référence à un attribut de catalogue d’images. </p></td> 
+  <td class="stentry"> <p>attribute::Item </p></td> 
+  <td class="stentry"> <p>Un nom précédé du préfixe 'attribute::' fait référence à un attribut du catalogue d’images. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>catalogue : élément </p></td> 
-  <td class="stentry"> <p>Un nom précédé de "catalog::" fait référence à un champ de données de catalogue de matières. </p></td> 
+  <td class="stentry"> <p>catalog::Item </p></td> 
+  <td class="stentry"> <p>Un nom précédé du préfixe "catalog:" fait référence à un champ de données de catalogue matériel. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>icc::Item </p></td> 
-  <td class="stentry"> <p>Un nom précédé de "icc::" fait référence à un champ de la carte de profil de couleur ICC. </p></td> 
+  <td class="stentry"> <p>Un nom précédé du préfixe "icc:" fait référence à un champ de la carte des profils de couleurs ICC. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>macro::Item </p></td> 
-  <td class="stentry"> <p>Un nom précédé de "macro::" fait référence à un champ de la table de définition de macro. </p></td> 
+  <td class="stentry"> <p>Un nom précédé du préfixe 'macro:' fait référence à un champ de la table de définition des macro. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>ensemble de règles ::Élément </p></td> 
-  <td class="stentry"> <p>Un nom précédé de "rule eset::" fait référence à un élément d’un jeu de règles de prétraitement d’URL. </p></td> 
+  <td class="stentry"> <p>ruleSet::Item </p></td> 
+  <td class="stentry"> <p>Un nom précédé du préfixe "ruleSet:" fait référence à un élément d’un jeu de règles de prétraitement d’URL. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>default::Item </p></td> 
-  <td class="stentry"> <p>Un nom précédé de "default::" fait référence à un attribut du catalogue d’images par défaut. </p></td> 
+  <td class="stentry"> <p>Un nom précédé du préfixe "default:" fait référence à un attribut du catalogue d’images par défaut. </p></td> 
  </tr> 
 </table>
-
