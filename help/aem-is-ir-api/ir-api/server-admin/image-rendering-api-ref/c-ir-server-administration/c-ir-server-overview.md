@@ -1,31 +1,30 @@
 ---
 description: Cette documentation explique comment administrer le serveur de rendu d’image Dynamic Media.
 solution: Experience Manager
-title: Présentation de l’administration du serveur
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+title: Présentation de l’administration des serveurs
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Administrator,User
+exl-id: 294cd068-8676-4932-a3ad-1a3c5bfa691e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
 
-
-# Présentation de l&#39;administration du serveur{#server-administration-overview}
+# Présentation de l’administration des serveurs{#server-administration-overview}
 
 Cette documentation explique comment administrer le serveur de rendu d’image Dynamic Media.
 
 Le rendu d’image se compose de deux composants principaux :
 
-* Un package Java est déployé avec le serveur de plate-forme Image Serving et gère la connexion client, la mise en cache et les catalogues de matériaux.
-* Un module de code natif est déployé en tant que bibliothèque d’extensions pour le serveur d’images et met en oeuvre les fonctionnalités de rendu d’image de base.
+* Un package Java est déployé avec le serveur de la plateforme de diffusion d’images et gère la connexion du client, la mise en cache et les catalogues de matériaux.
+* Un module de code natif est déployé en tant que bibliothèque d’extension pour le serveur d’images et met en oeuvre les principales fonctionnalités de rendu d’image.
 
-Les deux composants sont collectivement appelés *Render Server*.
+Les deux composants sont appelés collectivement *Render Server*.
 
-Image Rendering partage de nombreuses fonctionnalités de serveur avec Image Serving et toutes les options sont configurées en modifiant un fichier de configuration. D&#39;autres attributs de configuration sont fournis par le catalogue par défaut ( [!DNL default.ini]) ou des catalogues de matières spécifiques. Voir Catalogues de matières pour plus d&#39;informations.
+Le rendu d’image partage de nombreuses fonctionnalités de serveur avec le serveur d’images, et toutes les options sont configurées en modifiant un fichier de configuration. Des attributs de configuration supplémentaires sont fournis par le catalogue par défaut ( [!DNL default.ini]) ou des catalogues de matériaux spécifiques. Pour plus d’informations, voir Catalogues de matières .
 
-Le dossier d’installation du rendu d’image ( *[!DNL install_folder]*) est [ !DNL *[!DNL install_root]*/ImageRendering]. Sous Windows, la valeur par défaut *[!DNL install_root]* est `C:\Program Files\Scene7`. Un autre dossier peut être spécifié lors de l&#39;installation. Sous Linux, *[!DNL install_root]* doit toujours être [!DNL /usr/local/scene7]. Des liens symboliques peuvent être utilisés.
+Le dossier d’installation Image Rendering ( *[!DNL install_folder]*) est [!DNL *[!DNL install_root]*/ImageRendering]. Sous Windows, la valeur par défaut *[!DNL install_root]* est `C:\Program Files\Scene7`. Un autre dossier peut être spécifié lors de l’installation. Sous Linux, *[!DNL install_root]* doit toujours être [!DNL /usr/local/scene7]. Des liens symboliques peuvent être utilisés.
 
 Tous les chemins d’accès aux fichiers sont sensibles à la casse sous UNIX et non à la casse sous Windows.
