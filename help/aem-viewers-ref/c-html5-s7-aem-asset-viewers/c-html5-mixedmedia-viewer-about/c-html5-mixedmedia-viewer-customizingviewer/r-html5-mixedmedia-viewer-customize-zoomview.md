@@ -3,9 +3,9 @@ description: En mode zoom continu, la vue principale est composée de l’image 
 solution: Experience Manager
 title: Mode Zoom
 feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 0252436b-ba96-4273-b796-d1772fc093b0
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 0%
@@ -69,7 +69,7 @@ Sur les systèmes de bureau, le composant prend en charge le sélecteur d’attr
 
 * `drag`
 
-   S’affiche lorsque l’utilisateur effectue un panoramique sur l’image qui est agrandie.
+   Affiché lorsque l’utilisateur effectue un panoramique sur l’image qui est agrandie.
 
 * `slide`
 
