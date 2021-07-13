@@ -1,23 +1,22 @@
 ---
 description: Si le texte est spécifié comme format de réponse, les données de réponse sont formatées pour être lisibles en tant que propriétés Java.
 solution: Experience Manager
-title: Propriétés de texte (Java)
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: Propriétés Text (Java)
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 46f5dbc8-fbdc-4204-a6a0-60f34378c3e1
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
 
-
-# Propriétés de texte (Java){#text-java-properties}
+# Propriétés Text (Java){#text-java-properties}
 
 Si le texte est spécifié comme format de réponse, les données de réponse sont formatées pour être lisibles en tant que propriétés Java.
 
-La structure générale d’une réponse de propriétés de texte type est la suivante :
+Une réponse de propriétés de texte standard présente la structure générale suivante :
 
 ```
 #S7Z OK
@@ -34,6 +33,6 @@ La structure générale d’une réponse de propriétés de texte type est la su
 ...
 ```
 
-*`propertyValue`* peut être vide. L’espace blanc est facultatif au début et à la fin de chaque ligne et avant et après le séparateur =. Il est possible d’utiliser des guillemets simples ou doublons pour encadrer les valeurs de chaîne, mais ils ne sont pas obligatoires.
+*`propertyValue`* peut être vide. L’espace blanc est facultatif au début et à la fin de chaque ligne, avant et après le séparateur = . Les valeurs de chaîne peuvent être entourées de guillemets simples ou doubles, mais ils ne sont pas obligatoires.
 
-Les valeurs de chaîne peuvent contenir des caractères d’échappement de style JAVA, tels que `\n`, `\t`, `\:` ou `\\`.
+Les valeurs de chaîne peuvent contenir des caractères d’échappement de type JAVA, tels que `\n`, `\t`, `\:` ou `\\`.
