@@ -1,50 +1,49 @@
 ---
-description: Vue à l’échelle. Met à l’échelle l’image composite par l’inverse de l’argument FacteurInverse.
+description: Vue Échelle. Met à l’échelle l’image composite par l’inverse de l’attribut d’événement d’événement.
 solution: Experience Manager
 title: scl
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 297d187c-3a52-45ff-b73d-0b0e4b956080
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '134'
 ht-degree: 8%
 
 ---
 
-
 # scl{#scl}
 
-Vue à l’échelle. Met à l’échelle l’image composite par l’inverse de l’argument FacteurInverse.
+Vue Échelle. Met à l’échelle l’image composite par l’inverse de l’attribut d’événement d’événement.
 
 `scl= *`Factor`*`
 
 <table id="simpletable_A09F5EECAC2B4E0F8633D71C6AD36D8D"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> Factor</span> </p> </td> 
-  <td class="stentry"> <p>Facteur d'échelle inverse (réel supérieur à 0,0). </p></td> 
+  <td class="stentry"> <p>Facteur d’échelle inversé (réel supérieur à 0,0). </p></td> 
  </tr> 
 </table>
 
-Aucune mise à l’échelle n’est appliquée lorsque `scl=1`. *`invFactor`* plus grande que 1,0 réduit la taille et plus petite que 1,0 agrandit l’image composite.
+Aucune mise à l’échelle n’est appliquée lorsque `scl=1`. *`invFactor`* plus grande que 1,0, plus petite que 1,0 agrandit l’image composite.
 
-Si `scl=` est spécifié et `wid=` et/ou `hei=` sont également présents, l’image est recadrée sur `wid=` et/ou `hei=` après mise à l’échelle.
+Si `scl=` est spécifié et que `wid=` et/ou `hei=` sont également présents, l’image est recadrée sur `wid=` et/ou `hei=` après la mise à l’échelle.
 
 >[!NOTE]
 >
->Une erreur est renvoyée si la taille de l&#39;image de réponse calculée ou par défaut est supérieure à `attribute::MaxPix`.
+>Une erreur est renvoyée si la taille de l’image de réponse calculée ou par défaut est supérieure à `attribute::MaxPix`.
 
 ## Propriétés {#section-60af012719db477db4a4703e9a6da5f5}
 
-Attribut de vue. S’applique quel que soit le paramètre de calque actif.
+Afficher l’attribut. S’applique quel que soit le paramètre de calque actif.
 
 ## Par défaut {#section-32502fa218a24e1f9c65f41c0260b56a}
 
-Si aucun élément `wid=`, `hei=` ou `scl=` n&#39;est spécifié, l&#39;image de réponse aura la taille de l&#39;image composite ou `attribute::DefaultPix`, selon la valeur la plus petite.
+Si aucun `wid=`, `hei=` ou `scl=` n’est spécifié, l’image de réponse aura la taille de l’image composite ou `attribute::DefaultPix`, selon la valeur la plus petite.
 
 ## Exemple {#section-a33f6239476a4b438d939656ad99aa76}
 
-Voir l’exemple de [rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096) pour une application commune de `scl=`.
+Voir l’exemple dans [rotate=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096) pour une application commune de `scl=`.
 
 ## Voir aussi {#section-ccefd5de59924059903d66d4974ce317}
 
