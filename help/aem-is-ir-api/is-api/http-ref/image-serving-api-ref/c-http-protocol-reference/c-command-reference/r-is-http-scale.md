@@ -1,21 +1,20 @@
 ---
-description: Mise à l’échelle de l’image. Met à l’échelle une image source de calque par facteur par rapport à l’image à résolution complète.
+description: Mise à l’échelle de l’image. Met à l’échelle une image source de calque par facteur par rapport à l’image en pleine résolution.
 solution: Experience Manager
 title: scale
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: c2cd37de-f81e-4b08-9a3e-ff05a72c363c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '111'
 ht-degree: 9%
 
 ---
 
-
 # scale{#scale}
 
-Mise à l’échelle de l’image. Met à l’échelle une image source de calque par facteur par rapport à l’image à résolution complète.
+Mise à l’échelle de l’image. Met à l’échelle une image source de calque par facteur par rapport à l’image en pleine résolution.
 
 `scale= *`facteur`*`
 
@@ -26,7 +25,7 @@ Mise à l’échelle de l’image. Met à l’échelle une image source de calqu
  </tr> 
 </table>
 
-Aucune mise à l’échelle n’est appliquée lorsque `scale=1`. *`factor`* plus petite que 1,0 réduit la taille et plus grande que 1,0 agrandit l’image source.
+Aucune mise à l’échelle n’est appliquée lorsque `scale=1`. *`factor`* plus petite que 1,0, plus grande que 1,0, agrandit l’image source.
 
 ## Propriétés {#section-3c7eb45527394fe79b1ddba6c1fcca09}
 
@@ -34,7 +33,7 @@ Attribut image/masque source. Ignoré si `size=` est également spécifié pour 
 
 ## Par défaut {#section-26e64904362342a5a62c5f6598f330c4}
 
-Si elle n&#39;est pas spécifiée, `res=` est utilisé. Si `res=` n’est pas spécifié, l’image est utilisée sans mise à l’échelle.
+Si elle n’est pas spécifiée, `res=` est utilisé. Si `res=` n’est pas spécifié, l’image est utilisée sans mise à l’échelle.
 
 ## Voir aussi {#section-61a11f30d37341d58c10df759bfff951}
 
