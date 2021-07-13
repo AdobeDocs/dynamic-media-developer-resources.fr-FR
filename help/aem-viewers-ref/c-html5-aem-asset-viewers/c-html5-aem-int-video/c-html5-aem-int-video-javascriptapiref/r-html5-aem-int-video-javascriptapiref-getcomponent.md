@@ -1,34 +1,33 @@
 ---
-description: Référence de l’API JavaScript pour la visionneuse de vidéos interactive.
+description: Référence de l’API JavaScript pour la visionneuse de vidéos interactives.
 solution: Experience Manager
 title: getComponent
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéos interactives
+role: Developer,User
 exl-id: a760bc86-b700-4ffe-9983-ef55d88677d6
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '220'
 ht-degree: 1%
 
 ---
 
 # getComponent{#getcomponent}
 
-Référence de l’API JavaScript pour la visionneuse de vidéos interactive.
+Référence de l’API JavaScript pour la visionneuse de vidéos interactives.
 
 `getComponent(componentId)`
 
-Renvoie une référence au composant SDK de visionneuse utilisé par la visionneuse. La page Web peut utiliser cette méthode pour étendre ou personnaliser le comportement du lecteur prêt à l’emploi. Appelez cette méthode uniquement après l’exécution du rappel de la visionneuse `initComplete`, sinon le composant ne peut pas encore être créé par la logique de la visionneuse.
+Renvoie une référence au composant SDK de la visionneuse utilisé par la visionneuse. La page web peut utiliser cette méthode pour étendre ou personnaliser le comportement de la visionneuse prête à l’emploi. Appelez cette méthode uniquement après l’exécution du rappel de la visionneuse `initComplete`. Sinon, le composant ne peut pas encore être créé par la logique de la visionneuse.
 
 ## Paramètres {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`componentID`*`  :  `{String}` un identifiant du composant SDK de visionneuse utilisé par la visionneuse. Cette visionneuse prend en charge les ID de composant suivants :
+`*`componentID`*`  :  `{String}` identifiant du composant SDK de visionneuse utilisé par la visionneuse. Cette visionneuse prend en charge les identifiants de composant suivants :
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>ID de composant </p> </th> 
+   <th colname="col1" class="entry"> <p>Identifiant du composant </p> </th> 
    <th colname="col2" class="entry"> <p>Nom de classe du composant SDK de visionneuse </p> </th> 
   </tr> 
  </thead>
@@ -39,7 +38,7 @@ Renvoie une référence au composant SDK de visionneuse utilisé par la visionne
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> conteneur </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Conteneur  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container  </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> mediaSet  </span> </p> </td> 
@@ -50,7 +49,7 @@ Renvoie une référence au composant SDK de visionneuse utilisé par la visionne
    <td colname="col2"> <p> <span class="codeph"> s7sdk.video.VideoPlayer  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> interactiveNuancier  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> interactiveSwatches  </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.set.InteractiveSwatches  </span> </p> </td> 
   </tr> 
   <tr> 
@@ -78,7 +77,7 @@ Renvoie une référence au composant SDK de visionneuse utilisé par la visionne
    <td colname="col2"> <p> <span class="codeph"> s7sdk.video.VideoTime  </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> closeCaptionButton  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> closedCaptionButton  </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ClosedCaptionButton  </span> </p> </td> 
   </tr> 
   <tr> 
@@ -104,13 +103,13 @@ Renvoie une référence au composant SDK de visionneuse utilisé par la visionne
  </tbody> 
 </table>
 
-Lorsque vous utilisez des API SDK, il est important d’utiliser un espace de nommage SDK complet correct, comme décrit dans [espace de nommage SDK de la visionneuse](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-html5-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621).
+Lorsque vous utilisez des API SDK, il est important d’utiliser un espace de noms SDK complet correct, comme décrit dans [Espace de noms du SDK de la visionneuse](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-html5-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621).
 
-Pour plus d’informations sur un composant particulier, consultez la documentation *API du kit de développement de visionneuse*.
+Pour plus d’informations sur un composant particulier, voir la documentation *API du SDK de visionneuse* .
 
 ## Renvoie {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` une référence au composant SDK de visionneuse. La méthode renvoie `null` si `componentId` n&#39;est pas un composant de visionneuse pris en charge ou si le composant n&#39;a pas encore été créé par la logique de la visionneuse.
+`{Object}` Référence au composant SDK de visionneuse. La méthode renvoie `null` si `componentId` n’est pas un composant de visionneuse pris en charge ou si le composant n’a pas encore été créé par la logique de la visionneuse.
 
 ## Exemple {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
