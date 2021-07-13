@@ -1,20 +1,19 @@
 ---
-description: Une alerte de priorité est envoyée lorsque l’espace de tas Java gratuit est inférieur au seuil spécifié immédiatement après un cycle de collecte des déchets Java.
+description: Une alerte de priorité est envoyée lorsque l’espace de tas Java libre est inférieur au seuil spécifié immédiatement après un cycle de nettoyage de la mémoire Java.
 solution: Experience Manager
-title: Alerte de priorité de l'espace de tas
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: Alerte de priorité de l’espace de tas
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Administrator,User
+exl-id: 32951003-386f-4ea2-a5a0-f4d2e6d95ba5
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
 
+# Alerte de priorité de l’espace de tas{#heap-space-priority-alert}
 
-# Alerte de priorité de l’espace de tas {#heap-space-priority-alert}
+Une alerte de priorité est envoyée lorsque l’espace de tas Java libre est inférieur au seuil spécifié immédiatement après un cycle de nettoyage de la mémoire Java.
 
-Une alerte de priorité est envoyée lorsque l’espace de tas Java gratuit est inférieur au seuil spécifié immédiatement après un cycle de collecte des déchets Java.
-
-Les alertes répétées doivent être traitées en augmentant l’espace de tas Java. Les occurrences suivantes de cette condition n’entraînent pas l’envoi d’une alerte par courrier électronique tant que la période de délai spécifiée avec `AS::monitorAlertGenerator.heapSpaceResetInterval` n’est pas écoulée.
+Les alertes répétées doivent être traitées en augmentant l’espace du tas Java. Les occurrences suivantes de cette condition ne génèrent pas d’alerte par courrier électronique tant que la période spécifiée avec `AS::monitorAlertGenerator.heapSpaceResetInterval` n’a pas expiré.
