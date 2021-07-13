@@ -1,27 +1,26 @@
 ---
-description: La vue principale est constituée de l’image à 360°.
+description: La vue principale se compose de l’image à 360°.
 solution: Experience Manager
 title: Vue à 360°
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses à 360°
+role: Developer,User
+exl-id: d3274fe3-1a47-448e-acc6-6df77c6a4211
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '67'
 ht-degree: 1%
 
 ---
 
-
 # Vue à 360°{#spin-view}
 
-La vue principale est constituée de l’image à 360°.
+La vue principale se compose de l’image à 360°.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriétés CSS de la zone de visualisation principale**
+**Propriétés CSS de la zone de visionneuse principale**
 
-L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe CSS suivant :
+L’aspect de la zone d’affichage est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 ```
 .s7spinviewer .s7spinview
@@ -30,7 +29,7 @@ L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe C
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> Propriété CSS </p> </th> 
+   <th colname="col1" class="entry"> <p> propriété CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
@@ -42,11 +41,10 @@ L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe C
  </tbody> 
 </table>
 
-Exemple - pour rendre la vue principale transparente.
+Exemple : pour rendre la vue principale transparente.
 
 ```
 .s7spinviewer .s7spinview { 
  background-color: transparent; 
 }
 ```
-
