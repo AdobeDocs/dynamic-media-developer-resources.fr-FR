@@ -1,21 +1,20 @@
 ---
-description: Mode de répétition de la texture. Indique le mode de mosaïque des images de texture pour remplir la surface de la cible.
+description: Mode de répétition des textures. Indique la façon dont les images de texture sont mosaïquées pour remplir la surface cible.
 solution: Experience Manager
 title: Repeat
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 6d6946b0-a827-4ee6-963b-84529ad35ee9
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '132'
 ht-degree: 20%
 
 ---
 
+# Répéter{#repeat}
 
-# Repeat{#repeat}
-
-Mode de répétition de la texture. Indique le mode de mosaïque des images de texture pour remplir la surface de la cible.
+Mode de répétition des textures. Indique la façon dont les images de texture sont mosaïquées pour remplir la surface cible.
 
 ## Propriétés {#section-cef4109cddf54ce095c3293d85bc412d}
 
@@ -42,7 +41,7 @@ Les valeurs suivantes sont autorisées pour les matériaux de texture répétabl
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>4 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Un papier peint à un quart-goutte est accroché. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Le papier peint à un quart est suspendu. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>5 </p></td> 
@@ -62,47 +61,47 @@ Les valeurs suivantes sont autorisées pour les matériaux de texture répétabl
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>9 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Des papiers peints aléatoires pendent. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Du papier peint aléatoire. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>10 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Une baisse aléatoire. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Abandon aléatoire. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>11 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Au hasard. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Aléatoire. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>12 </p></td> 
-  <td class="- topic/stentry stentry"> <p>À moitié. </p></td> 
+  <td class="- topic/stentry stentry"> <p>La moitié. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>13 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Miroir (correspondance de bibliothèque). </p></td> 
+  <td class="- topic/stentry stentry"> <p>Miroir (bookmatch). </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>14 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Générateur aléatoire standard. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Optimiseur aléatoire standard. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>15 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Optimiseur de fréquence élevée. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Optimiseur aléatoire haute fréquence. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>16 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Organiseur aléatoire à basse fréquence. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Optimiseur aléatoire à basse fréquence. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>17 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Organiseur aléatoire horizontal. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Opérateur aléatoire horizontal. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>18 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Organiseur aléatoire vertical. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Optimiseur vertical. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>19 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Optimiseur aléatoire. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Optimiseur de périphérie. </p></td> 
  </tr> 
 </table>
 
