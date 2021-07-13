@@ -2,16 +2,15 @@
 description: SearchPanel.align
 solution: Experience Manager
 title: SearchPanel.align
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Recherche catalogue électronique
+role: Developer,User
+exl-id: 772b2789-4152-4320-893d-efc39689424b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '82'
 ht-degree: 4%
 
 ---
-
 
 # SearchPanel.align{#searchpanel-align}
 
@@ -20,8 +19,8 @@ ht-degree: 4%
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> gauche|centre|droite,haut|centre|bas</span> </p> </td> 
-   <td colname="col2"> <p> Indique l’alignement horizontal interne (ou ancrage) du conteneur de miniatures dans la zone du composant. </p> <p>Dans le panneau de recherche, le conteneur des miniatures internes est dimensionné de sorte que seul un nombre entier de miniatures s’affiche. En conséquence, il y a un certain remplissage entre le conteneur interne et les limites du composant externe. </p> <p>Ce modificateur spécifie comment le conteneur des miniatures internes est positionné horizontalement à l’intérieur du composant. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> left|center|right,top|center|bottom</span> </p> </td> 
+   <td colname="col2"> <p> Indique l’alignement horizontal interne (ou ancrage) du conteneur de miniatures dans la zone de composant. </p> <p>Dans le panneau de recherche, le conteneur de miniatures interne est dimensionné de sorte que seul un nombre entier de miniatures s’affiche. Par conséquent, il existe une marge intérieure entre le conteneur interne et les limites du composant externe. </p> <p>Ce modificateur spécifie la manière dont le conteneur de miniatures internes est positionné horizontalement à l’intérieur du composant. </p> </td> 
   </tr> 
  </tbody> 
 </table>
