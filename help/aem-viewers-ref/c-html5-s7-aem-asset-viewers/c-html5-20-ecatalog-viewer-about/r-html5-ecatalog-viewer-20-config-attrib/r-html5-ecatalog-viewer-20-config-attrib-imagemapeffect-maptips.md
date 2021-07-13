@@ -2,16 +2,15 @@
 description: ImageMapEffect.mapTips
 solution: Experience Manager
 title: ImageMapEffect.mapTips
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visionneuses,SDK/API,eCatalog
+role: Developer,User
+exl-id: 7b4e987e-9079-47b4-bd3b-fd8e5bc874e0
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 13%
+source-wordcount: '34'
+ht-degree: 14%
 
 ---
-
 
 # ImageMapEffect.mapTips{#imagemapeffect-maptips}
 
@@ -21,7 +20,7 @@ ht-degree: 13%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Indique si les info-bulles sont activées pour des éléments de zone de mappage individuels. </p> <p> Ignoré sur les périphériques tactiles, y compris les systèmes de bureau tactiles. </p> </td> 
+   <td colname="col2"> <p> Indique si les info-bulles sont activées pour des éléments de zone de carte individuels. </p> <p> Ignoré sur les périphériques tactiles, y compris les systèmes de bureau tactiles. </p> </td> 
   </tr> 
  </tbody> 
 </table>
