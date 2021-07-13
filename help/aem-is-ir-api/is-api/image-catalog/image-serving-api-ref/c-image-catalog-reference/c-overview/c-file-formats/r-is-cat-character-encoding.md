@@ -1,22 +1,21 @@
 ---
-description: Image Serving prend en charge les catalogues d’images avec codage ISO-8859-1 et UTF-8.
+description: La diffusion d’images prend en charge les catalogues d’images avec codage ISO-8859-1 et UTF-8.
 solution: Experience Manager
-title: Codage des caractères
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: Encodage des caractères
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: e6e50c2a-53d3-4776-a3f6-4a9d3407e562
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
 
+# Encodage des caractères{#character-encoding}
 
-# Codage des caractères {#character-encoding}
+La diffusion d’images prend en charge les catalogues d’images avec codage ISO-8859-1 et UTF-8.
 
-Image Serving prend en charge les catalogues d’images avec codage ISO-8859-1 et UTF-8.
+Une marque d’ordre des octets (BOM) est utilisée pour spécifier le codage de chaque fichier. Pour UTF-8, la nomenclature est la séquence d’octets `EF BB BF`. Le codage UTF-8 est supposé lorsque cette séquence de caractères est détectée au tout début de chaque fichier de catalogue d’images. Pour toute autre séquence d’octets, le fichier est interprété comme étant codé selon la norme ISO-8859-1.
 
-Une marque d’ordre des octets (BOM) est utilisée pour spécifier le codage de chaque fichier. Pour UTF-8, la nomenclature est la séquence d’octets `EF BB BF`. Le codage UTF-8 est supposé lorsque cette séquence de caractères est détectée au tout début de chaque fichier catalogue d’images. Toute autre séquence d’octets entraîne l’interprétation du fichier comme étant codé selon la norme ISO-8859-1.
-
-De nombreuses applications contemporaines, lorsqu&#39;elles sont configurées pour UTF-8, insèrent automatiquement la nomenclature.
+De nombreuses applications contemporaines, lorsqu’elles sont configurées pour UTF-8, insèrent automatiquement la nomenclature.
