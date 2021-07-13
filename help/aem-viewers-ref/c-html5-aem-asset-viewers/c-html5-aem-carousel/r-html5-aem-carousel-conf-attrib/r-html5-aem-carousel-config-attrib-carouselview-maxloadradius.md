@@ -2,13 +2,12 @@
 description: CarouselView.maxloadradius
 solution: Experience Manager
 title: CarouselView.maxloadradius
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Bannières de carrousel
+role: Developer,User
 exl-id: 8a3d3d32-7970-420c-8ad8-296c9ba1f08a
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '72'
 ht-degree: 5%
 
 ---
@@ -21,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td> <p>Indique le comportement de préchargement du composant. </p> <p>Lorsqu'il est défini sur <span class="codeph"> -1</span>, le composant précharge toutes les trames du carrousel en cas d'inactivité. </p> <p>Lorsqu'il est défini sur <span class="codeph"> 0</span>, le composant charge uniquement l'image actuellement visible, précédente et suivante. </p> <p><span class="codeph"><span class="varname"> </span></span>preloadnbrdéfinit le nombre de cadres invisibles autour du cadre actuellement affiché qui sont préchargés en cas d’inactivité. </p> </td> 
+   <td> <p>Indique le comportement de préchargement du composant. </p> <p>Lorsqu’il est défini sur <span class="codeph"> -1</span>, le composant précharge toutes les images de carrousel en cas d’inactivité. </p> <p>Lorsqu’il est défini sur <span class="codeph"> 0</span>, le composant charge uniquement l’image actuellement visible, précédente et suivante. </p> <p><span class="codeph"><span class="varname"> </span></span>preloadnbrdéfinit le nombre d’images invisibles autour de l’image actuellement affichée qui sont préchargées lorsqu’elles sont en mode inactif. </p> </td> 
   </tr> 
  </tbody> 
 </table>
