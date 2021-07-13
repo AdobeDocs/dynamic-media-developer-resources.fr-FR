@@ -1,21 +1,20 @@
 ---
-description: Résolution d’impression. Remplace la valeur de résolution d’impression incorporée dans l’image de réponse.
+description: Résolution d’impression. Permet de remplacer la valeur de résolution d’impression incorporée dans l’image de réponse.
 solution: Experience Manager
 title: printRes
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: de02d058-e538-4d67-9413-e2e47dd2fd67
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '81'
 ht-degree: 2%
 
 ---
 
-
 # printRes{#printres}
 
-Résolution d’impression. Remplace la valeur de résolution d’impression incorporée dans l’image de réponse.
+Résolution d’impression. Permet de remplacer la valeur de résolution d’impression incorporée dans l’image de réponse.
 
 `printRes= *`val`*`
 
