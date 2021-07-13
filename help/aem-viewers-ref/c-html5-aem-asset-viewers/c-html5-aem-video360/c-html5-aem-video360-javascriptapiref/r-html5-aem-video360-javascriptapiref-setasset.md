@@ -1,25 +1,24 @@
 ---
-description: Référence de l’API JavaScript pour le lecteur vidéo360.
+description: Référence de l’API JavaScript pour la visionneuse Video360.
 solution: Experience Manager
 title: setAsset
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visionneuses,SDK/API,vidéo 360 VR
+role: Developer,User
 exl-id: 1fcd7dbe-d122-4501-92f4-3ce93a94a933
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '61'
 ht-degree: 4%
 
 ---
 
 # setAsset{#setasset}
 
-Référence de l’API JavaScript pour le lecteur vidéo360.
+Référence de l’API JavaScript pour la visionneuse Video360.
 
 `setAsset(asset)`
 
-Définit la nouvelle ressource. Vous pouvez appeler ce paramètre à tout moment, avant ou après `init()`. S’il est appelé après `init()`, le lecteur permute la ressource au moment de l’exécution.
+Définit la nouvelle ressource. Vous pouvez appeler ce paramètre à tout moment, avant ou après `init()`. S’il est appelé après `init()`, la visionneuse échange la ressource au moment de l’exécution.
 
 Voir aussi [init](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
