@@ -1,27 +1,26 @@
 ---
-description: La table des matières est un bouton situé dans la barre de contrôle principale. Lorsqu’il est activé, un panneau déroulant s’affiche avec une liste d’index et d’étiquettes de page.
+description: La table des matières est un bouton situé dans la barre de contrôle principale. Lorsqu’il est activé, un panneau déroulant s’affiche avec une liste d’index et de libellés de page.
 solution: Experience Manager
 title: Table des matières
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visionneuses,SDK/API,eCatalog
+role: Developer,User
+exl-id: 9b61e269-201d-4083-9c47-0b73d55aa6ed
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '1065'
 ht-degree: 1%
 
 ---
 
-
 # Table des matières{#table-of-contents}
 
-La table des matières est un bouton situé dans la barre de contrôle principale. Lorsqu’il est activé, un panneau déroulant s’affiche avec une liste d’index et d’étiquettes de page.
+La table des matières est un bouton situé dans la barre de contrôle principale. Lorsqu’il est activé, un panneau déroulant s’affiche avec une liste d’index et de libellés de page.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-En fonction de la configuration, la liste peut contenir toutes les pages qui se trouvent dans le catalogue ou uniquement celles dont les étiquettes explicites sont définies. Sur les systèmes de bureau, si la liste est plus longue que l’espace disponible sur l’écran, une barre de défilement s’affiche à droite.
+En fonction de la configuration, la liste peut contenir toutes les pages présentes dans le catalogue ou uniquement celles dont les libellés explicites sont définis. Sur les systèmes de bureau, si la liste est plus longue que l’espace disponible dans l’écran, une barre de défilement s’affiche à droite.
 
-La position et la taille du bouton de table des matières dans l’interface utilisateur du lecteur de contenu sont contrôlées à l’aide du sélecteur de classe CSS suivant :
+La position et la taille du bouton de table des matières dans l’interface utilisateur de la visionneuse sont contrôlées à l’aide du sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7tableofcontents
@@ -36,24 +35,24 @@ La position et la taille du bouton de table des matières dans l’interface uti
    <td colname="col2"> <p> Décalage par rapport au haut de la barre de contrôle. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge-gauche  </span> </p> </td> 
-   <td colname="col2"> <p> Distance du bouton suivant à gauche ou du côté gauche de la barre de contrôle s’il s’agit du premier bouton d’une rangée. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
+   <td colname="col2"> <p> Distance du bouton suivant à gauche ou du côté gauche de la barre de contrôle s’il s’agit du premier bouton d’une ligne. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> Largeur du bouton de table des matières. </p> </td> 
+   <td colname="col2"> <p> Largeur du bouton de la table des matières. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p> Hauteur du bouton de table des matières. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
-   <td colname="col2"> <p> Positionnez l’objet à l’intérieur de l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,9 +61,9 @@ La position et la taille du bouton de table des matières dans l’interface uti
 >
 >Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
-L’info-bulle du bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
+L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 
-Exemple : configurez un bouton de table des matières positionné à 4 pixels du bas et à 43 pixels de la gauche de la barre de contrôle principale ; la taille est de 28 x 28 pixels et une image différente est affichée pour chacun des quatre états de bouton différents :
+Exemple : configurez un bouton de table des matières positionné à 4 pixels à partir du bas et à 43 pixels à partir de la gauche de la barre de contrôle principale ; La taille est de 28 x 28 pixels et une image différente s’affiche pour chacun des quatre états de bouton différents :
 
 ```
 .s7ecatalogviewer .s7tableofcontents { 
@@ -86,7 +85,7 @@ background-image:url(images/v2/TableOfContents_dark_disabled.png);
 }
 ```
 
-L’aspect du panneau déroulant est contrôlé par le sélecteur de classe CSS suivant :
+L’aspect du panneau déroulant est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 ```
  .s7ecatalogviewer .s7tableofcontents .s7panel
@@ -106,14 +105,14 @@ L’aspect du panneau déroulant est contrôlé par le sélecteur de classe CSS 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> box-shadow  </span> </p> </td> 
-   <td colname="col2"> <p> Déposez l’ombre autour du panneau. </p> </td> 
+   <td colname="col2"> <p> Ombre portée autour du panneau. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Il n&#39;est pas possible de contrôler la taille ou la position du panneau déroulant à partir de CSS ; le composant gère sa mise en page par programmation.
+>Il n’est pas possible de contrôler la taille ou la position du panneau déroulant à partir de CSS ; le composant gère sa mise en page par programmation.
 
 Exemple : configurez un panneau déroulant avec un arrière-plan noir semi-transparent, une marge de 5 pixels autour du contenu et une ombre portée :
 
@@ -125,7 +124,7 @@ Exemple : configurez un panneau déroulant avec un arrière-plan noir semi-trans
 }
 ```
 
-L’aspect et l’aspect de chaque élément sont contrôlés avec le sélecteur de classe CSS suivant :
+L’aspect de chaque élément est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 ```
  .s7ecatalogviewer .s7tableofcontents .s7panel .s7item
@@ -144,21 +143,21 @@ L’aspect et l’aspect de chaque élément sont contrôlés avec le sélecteur
    <td colname="col2"> <p>Taille de police. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> hauteur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hauteur de l'élément. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
-   <td colname="col2"> <p>Marge intérieure. </p> </td> 
+   <td colname="col2"> <p>Marge intérieure interne. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->L’élément de liste déroulante prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages au survol et aux états d’éléments sélectionnés.
+>L’élément de liste déroulante prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages au survol et à l’état d’élément sélectionné.
 
-Exemple : configurez un élément de liste déroulante avec une police Helvetica de 14 pixels et une police de 19 pixels. Un élément a un arrière-plan gris foncé sur le survol et un arrière-plan gris clair lorsqu&#39;il est sélectionné :
+Exemple : configurez un élément déroulant avec une police Helvetica 14 pixels et 19 pixels de hauteur. Lorsque vous sélectionnez un élément, son arrière-plan est gris foncé et son arrière-plan gris clair :
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7panel .s7item { 
@@ -193,7 +192,7 @@ Un élément qui affiche l’index de page est contrôlé à l’aide du sélect
    <td colname="col2"> <p> Largeur maximale de l’élément. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage-droit  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge intérieure-droite  </span> </p> </td> 
    <td colname="col2"> <p> Distance entre l’index de la page et le libellé de la page. </p> </td> 
   </tr> 
  </tbody> 
@@ -201,9 +200,9 @@ Un élément qui affiche l’index de page est contrôlé à l’aide du sélect
 
 >[!NOTE]
 >
->Il est possible de masquer entièrement l&#39;index de page en définissant `display:none` pour la classe CSS `s7index`.
+>Il est possible de masquer entièrement l’index de page en définissant `display:none` pour la classe CSS `s7index`.
 
-Exemple 1 : configurez un index de page d’une largeur minimale de 40 pixels, d’une largeur maximale de 70 pixels et d’une marge de 5 pixels sur le côté droit :
+Exemple 1 : configurez un index de page avec une largeur minimale de 40 pixels, une largeur maximale de 70 pixels et une marge de 5 pixels sur le côté droit :
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7panel .s7index { 
@@ -213,7 +212,7 @@ padding-right: 5px;
 }
 ```
 
-Exemple 2 : masquer l&#39;index de page :
+Exemple 2 : masquer l’index de page :
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7panel .s7index { 
@@ -221,13 +220,13 @@ display: none;
 }
 ```
 
-Le libellé de la page est contrôlé à l’aide du sélecteur de classe CSS suivant :
+Le libellé de page est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 ```
  .s7ecatalogviewer .s7tableofcontents .s7panel .s7label
 ```
 
-**Propriétés CSS du libellé de la page**
+**Propriétés CSS du libellé de page**
 
 <table id="table_A42E372D931D4F04855EE5AB5530CB12"> 
  <tbody> 
@@ -251,7 +250,7 @@ max-width: 240px;
 }
 ```
 
-Au cas où il y aurait plus d’éléments que ce qui peut tenir verticalement dans le panneau déroulant et que le système est un bureau, le composant effectue le rendu d’une barre de défilement verticale sur le côté droit du panneau. L’aspect de la zone de barre de défilement est contrôlé par le sélecteur de classe CSS suivant :
+Si le panneau déroulant contient plus d’éléments que ne peut en contenir la verticale et que le système est un poste de travail, le composant effectue le rendu d’une barre de défilement verticale sur le côté droit du panneau. L’aspect de la zone de barre de défilement est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar
@@ -267,11 +266,11 @@ Au cas où il y aurait plus d’éléments que ce qui peut tenir verticalement d
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> haut </span> </p> </td> 
-   <td colname="col2"> <p> Décalage de la barre de défilement verticale à partir du haut de la zone de panneau. </p> </td> 
+   <td colname="col2"> <p> Décalage de la barre de défilement verticale par rapport au haut de la zone du panneau. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bas </span> </p> </td> 
-   <td colname="col2"> <p> Décalage de la barre de défilement verticale à partir du bas de la zone de panneau. </p> </td> 
+   <td colname="col2"> <p> Décalage de la barre de défilement verticale par rapport au bas de la zone du panneau. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> droite </span> </p> </td> 
@@ -291,19 +290,19 @@ Exemple : configurez une barre de défilement de 28 pixels de large sans marge p
 }
 ```
 
-Le suivi de la barre de défilement est la zone située entre les boutons de défilement supérieur et inférieur. Le composant définit automatiquement la position et la hauteur de la piste. Le suivi est contrôlé à l’aide du sélecteur de classe CSS suivant :
+Le suivi de la barre de défilement est la zone entre les boutons de défilement supérieur et inférieur. Le composant définit automatiquement la position et la hauteur du suivi. Le suivi est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrolltrack
 ```
 
-**Propriétés CSS de la piste de défilement**
+**Propriétés CSS du suivi de défilement**
 
 <table id="table_E49EE04B3FF64AB2948E7C09DF3EA1B7"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
-   <td colname="col2"> <p>Largeur de la piste. </p> </td> 
+   <td colname="col2"> <p>Largeur du suivi. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
@@ -312,7 +311,7 @@ Le suivi de la barre de défilement est la zone située entre les boutons de dé
  </tbody> 
 </table>
 
-Exemple : configurez une piste de barre de défilement de 28 pixels de large avec un arrière-plan gris semi-transparent :
+Exemple : configurez une piste de barre de défilement de 28 pixels de large et avec un arrière-plan gris semi-transparent :
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrolltrack { 
@@ -321,13 +320,13 @@ Exemple : configurez une piste de barre de défilement de 28 pixels de large ave
 }
 ```
 
-Le curseur de la barre de défilement se déplace verticalement dans la zone de suivi de défilement. Sa position verticale est contrôlée par la logique des composants. Cependant, la hauteur du curseur ne change pas de manière dynamique en fonction de la quantité de contenu. Vous pouvez configurer la hauteur du pouce et d’autres aspects à l’aide du sélecteur de classe CSS suivant :
+La barre de défilement se déplace verticalement dans la zone de suivi de défilement. Sa position verticale est contrôlée par la logique du composant. Toutefois, la hauteur de la miniature ne change pas dynamiquement en fonction de la quantité de contenu. Vous pouvez configurer la hauteur du pouce et d’autres aspects à l’aide du sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrollthumb
 ```
 
-**Propriétés CSS du curseur de la barre de défilement**
+**Propriétés CSS de la barre de défilement**
 
 <table id="table_D8DFBC2419BD4AB3B4892AC7B599C70A"> 
  <tbody> 
@@ -336,33 +335,33 @@ Le curseur de la barre de défilement se déplace verticalement dans la zone de 
    <td colname="col2"> <p>Largeur du pouce. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> hauteur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>La hauteur du pouce. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage-haut  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> remplissage-top  </span> </p> </td> 
    <td colname="col2"> <p> Marge intérieure verticale entre le haut de la piste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage-bas  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> remplissage-bottom  </span> </p> </td> 
    <td colname="col2"> <p>Marge intérieure verticale entre le bas de la piste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Image affichée pour un état de pouce donné. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
-   <td colname="col2"> <p> Positionnez l’objet à l’intérieur de l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Thumb prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages aux états de la barre d’outils `up`, `down`, `over` et `disabled`.
+>Le curseur prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages aux états de miniature `up`, `down`, `over` et `disabled`.
 
-Exemple : configurez un curseur de barre de défilement de 28 x 45 pixels, avec des marges de 10 pixels en haut et en bas et une illustration différente pour chaque état :
+Exemple : configurez une barre de défilement de 28 x 45 pixels, avec des marges de 10 pixels en haut et en bas, et une illustration différente pour chaque état :
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrollthumb { 
@@ -387,7 +386,7 @@ Exemple : configurez un curseur de barre de défilement de 28 x 45 pixels, avec 
 }
 ```
 
-L’aspect des boutons de défilement supérieur et inférieur est contrôlé par les sélecteurs de classe CSS suivants :
+L’aspect des boutons de défilement haut et bas est contrôlé à l’aide des sélecteurs de classe CSS suivants :
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrollupbutton
@@ -397,7 +396,7 @@ L’aspect des boutons de défilement supérieur et inférieur est contrôlé pa
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrolldownbutton
 ```
 
-Il n’est pas possible de positionner les boutons de défilement à l’aide des propriétés CSS `top`, `left`, `bottom` et `right`; au lieu de cela, la logique du lecteur les positionne automatiquement.
+Il n’est pas possible de positionner les boutons de défilement à l’aide des propriétés CSS `top`, `left`, `bottom` et `right` ; au lieu de cela, la logique de la visionneuse les positionne automatiquement.
 
 **Propriétés CSS du bouton de défilement vers le haut et vers le bas**
 
@@ -408,16 +407,16 @@ Il n’est pas possible de positionner les boutons de défilement à l’aide de
    <td colname="col2"> <p>Largeur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> hauteur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
-   <td colname="col2"> <p> Positionnez l’objet à l’intérieur de l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -426,9 +425,9 @@ Il n’est pas possible de positionner les boutons de défilement à l’aide de
 >
 >Le bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages aux états de bouton `up`, `down`, `over` et `disabled`.
 
-L’info-bulle du bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
+L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 
-Exemple : configurez des boutons de défilement de 28 x 32 pixels et présentant des illustrations différentes pour chaque état :
+Exemple : configurez des boutons de défilement de 28 x 32 pixels et ayant des illustrations différentes pour chaque état :
 
 ```
 .s7ecatalogviewer .s7tableofcontents .s7scrollbar .s7scrollupbutton { 
@@ -464,4 +463,3 @@ Exemple : configurez des boutons de défilement de 28 x 32 pixels et présentant
  background-image:url(images/v2/ThumbnailScrollDownButton_dark_up.png); 
 }
 ```
-
