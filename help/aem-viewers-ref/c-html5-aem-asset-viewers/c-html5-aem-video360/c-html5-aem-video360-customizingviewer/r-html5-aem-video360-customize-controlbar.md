@@ -1,25 +1,24 @@
 ---
-description: La barre de contrôle est la zone rectangulaire qui contient et se trouve derrière tous les contrôles de l’interface utilisateur disponibles pour la visionneuse de vidéos, tels que le bouton Lecture/Pause, les commandes de volume, etc.
+description: La barre de contrôle est la zone rectangulaire qui contient et se trouve derrière tous les contrôles de l’interface utilisateur disponibles pour la visionneuse de vidéos, tels que le bouton de lecture/pause, les commandes de volume, etc.
 solution: Experience Manager
 title: Barre de contrôle
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visionneuses,SDK/API,vidéo 360 VR
+role: Developer,User
 exl-id: 06078310-8aeb-449f-919a-ce88ddc8c4b3
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '180'
 ht-degree: 1%
 
 ---
 
 # Barre de contrôle{#control-bar}
 
-La barre de contrôle est la zone rectangulaire qui contient et se trouve derrière tous les contrôles de l’interface utilisateur disponibles pour la visionneuse de vidéos, tels que le bouton Lecture/Pause, les commandes de volume, etc.
+La barre de contrôle est la zone rectangulaire qui contient et se trouve derrière tous les contrôles de l’interface utilisateur disponibles pour la visionneuse de vidéos, tels que le bouton de lecture/pause, les commandes de volume, etc.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-La barre de contrôle prend toujours toute la largeur de visionneuse disponible. Il est possible de modifier sa couleur, sa hauteur et sa position verticale en CSS, par rapport au conteneur de la visionneuse de vidéos.
+La barre de contrôle prend toujours toute la largeur de la visionneuse disponible. Il est possible de modifier sa couleur, sa hauteur et sa position verticale par CSS, par rapport au conteneur de la visionneuse de vidéos.
 
 Le sélecteur de classe CSS suivant contrôle l’aspect de la barre de contrôle :
 
@@ -33,11 +32,11 @@ Le sélecteur de classe CSS suivant contrôle l’aspect de la barre de contrôl
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> haut </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure supérieure, y compris le remplissage. </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure supérieure, y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bas </span> </p> </td> 
-   <td colname="col2"> <p> Position à partir de la bordure inférieure, y compris le remplissage. </p> </td> 
+   <td colname="col2"> <p> Position à partir de la bordure inférieure, y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
@@ -50,7 +49,7 @@ Le sélecteur de classe CSS suivant contrôle l’aspect de la barre de contrôl
  </tbody> 
 </table>
 
-**Exemple**  : pour configurer une visionneuse de vidéos avec une barre de contrôle grise de 30 pixels et située en haut du conteneur de la visionneuse de vidéos.
+**Exemple**  : pour configurer une visionneuse de vidéos avec une barre de contrôle grise de 30 pixels de haut et située en haut du conteneur de la visionneuse de vidéos.
 
 ```
 .s7video360viewer .s7controlbar {  
