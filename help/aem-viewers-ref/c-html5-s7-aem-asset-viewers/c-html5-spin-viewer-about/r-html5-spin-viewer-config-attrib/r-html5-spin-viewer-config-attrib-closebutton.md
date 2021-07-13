@@ -2,18 +2,17 @@
 description: close
 solution: Experience Manager
 title: close
-feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses à 360°
+role: Developer,User
+exl-id: a9219ccd-f645-4bdd-a400-8ed6b1e8feec
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 15%
+source-wordcount: '30'
+ht-degree: 16%
 
 ---
 
-
-# closebutton{#closebutton}
+# close{#closebutton}
 
 `closebutton=0|1`
 
@@ -21,7 +20,7 @@ ht-degree: 15%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1  </span> </p> </td> 
-   <td colname="col2"> <p> Définissez sur <span class="codeph"> 1</span> pour activer l’affichage du bouton de fermeture ou sur <span class="codeph"> 0</span> pour masquer le bouton de fermeture. </p> </td> 
+   <td colname="col2"> <p> Définissez cette variable sur <span class="codeph"> 1</span> pour activer l’affichage du bouton de fermeture ou sur <span class="codeph"> 0</span> pour masquer le bouton de fermeture. </p> </td> 
   </tr> 
  </tbody> 
 </table>
