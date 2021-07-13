@@ -1,21 +1,20 @@
 ---
-description: Données de visionneuse d’images issues du catalogue d’images. Renvoie les données de visionneuse d’images pour l’entrée de catalogue d’images spécifiée dans le chemin d’accès de l’URL.
+description: Données de visionneuse d’images issues du catalogue d’images. Renvoie les données de visionneuse d’images pour l’entrée de catalogue d’images spécifiée dans le chemin d’accès à l’URL.
 solution: Experience Manager
 title: imageset
-feature: Dynamic Media Classic,SDK/API,Image Sets
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,SDK/API,Visionneuses d’images
+role: Developer,User
+exl-id: 730e7db9-47f0-4e96-8948-18b8185a5b7a
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 6%
+source-wordcount: '169'
+ht-degree: 7%
 
 ---
 
-
 # imageset{#imageset}
 
-Données de visionneuse d’images issues du catalogue d’images. Renvoie les données de visionneuse d’images pour l’entrée de catalogue d’images spécifiée dans le chemin d’accès de l’URL.
+Données de visionneuse d’images issues du catalogue d’images. Renvoie les données de visionneuse d’images pour l’entrée de catalogue d’images spécifiée dans le chemin d’accès à l’URL.
 
 `req=imageset[,text|javascript|{xml[, *``*]}|{json[&id= *`encodingreqId`*]}]`
 
@@ -26,15 +25,15 @@ Données de visionneuse d’images issues du catalogue d’images. Renvoie les d
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> requestId</span></span> </p></td> 
-  <td class="stentry"> <p>Identificateur de requête unique. </p></td> 
+  <td class="stentry"> <p>Identifiant de requête unique. </p></td> 
  </tr> 
 </table>
 
-Le contenu de `catalog::ImageSet` est renvoyé sans modification supplémentaire (à l&#39;exception de la localisation de chaînes, le cas échéant), suivi d&#39;un terminateur de ligne unique (CR/LF). Si le chemin d’accès à l’URL ne se résout pas à une entrée de catalogue valide, la réponse se compose uniquement d’un terminateur de ligne unique.
+Le contenu de `catalog::ImageSet` est renvoyé sans autre modification (sauf la localisation de chaîne, le cas échéant), suivi d’un terminateur de ligne unique (CR/LF). Si le chemin d’URL ne se résout pas en une entrée de catalogue valide, la réponse se compose uniquement d’un terminateur de ligne unique.
 
 Les autres commandes de la chaîne de requête sont ignorées. La réponse HTTP peut être placée en mémoire cache via le TTL basé sur `catalog::NonImgExpiration`.
 
-Les requêtes qui prennent en charge le format de réponse JSONP vous permettent de spécifier le nom du gestionnaire de rappel JS en utilisant la syntaxe étendue du paramètre `req=` :
+Les requêtes qui prennent en charge le format de réponse JSONP vous permettent de spécifier le nom du gestionnaire de rappel JS à l’aide de la syntaxe étendue du paramètre `req=` :
 
 `req=...,json [&handler = reqHandler ]`
 
