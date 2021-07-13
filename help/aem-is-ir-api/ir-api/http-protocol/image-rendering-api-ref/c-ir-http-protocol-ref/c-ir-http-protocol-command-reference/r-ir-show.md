@@ -2,16 +2,15 @@
 description: Afficher l’objet de chevauchement. Rend visible tous les objets de chevauchement précédemment masqués (y compris les objets de cadre de recouvrement de fenêtre) dans la sélection actuelle.
 solution: Experience Manager
 title: montrer
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 4ab3dff7-c020-4088-9eb7-760f8e0a3f00
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '78'
 ht-degree: 8%
 
 ---
-
 
 # montrer{#show}
 
@@ -32,7 +31,7 @@ Ignoré si la sélection actuelle n’inclut aucun objet de chevauchement ou si 
 
 ## Par défaut {#section-04972797d24d4b9f93790a31dfaa4743}
 
-Aucun, pour aucun changement de visibilité de l’objet.
+Aucun, pour aucune modification de la visibilité de l’objet.
 
 ## Voir aussi {#section-2a1a37a35dfb41758897164e14f0105f}
 
