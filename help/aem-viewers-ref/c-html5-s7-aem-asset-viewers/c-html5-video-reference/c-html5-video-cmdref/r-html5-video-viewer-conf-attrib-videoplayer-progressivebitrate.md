@@ -2,16 +2,15 @@
 description: Attribut de configuration pour la visionneuse de vidéos.
 solution: Experience Manager
 title: VideoPlayer.progressivebitrate
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéo
+role: Developer,User
+exl-id: 7f9f1bfe-c68f-4ad4-a4a3-e0a8952e07af
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 3%
+source-wordcount: '99'
+ht-degree: 4%
 
 ---
-
 
 # VideoPlayer.progressivebitrate{#videoplayer-progressivebitrate}
 
@@ -23,7 +22,7 @@ Attribut de configuration pour la visionneuse de vidéos.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> value</span> </p> </td> 
-   <td colname="col2"> <p> Indique (en kbits/s ou en kbits/s) le débit vidéo souhaité à lire à partir d’une visionneuse de vidéos adaptative au cas où le système actuel ne prendrait pas en charge la lecture de vidéo adaptative. </p> <p>Le composant récupère le flux vidéo avec le débit le plus proche possible (mais n’excédant pas) par rapport à la valeur spécifiée. Si la qualité de tous les flux vidéo de la visionneuse de vidéos adaptative est supérieure à la valeur spécifiée, la logique choisit le débit avec la qualité la plus basse. </p> </td> 
+   <td colname="col2"> <p> Indique (en Kbits par seconde ou en Kbits/s) le débit vidéo souhaité à lire à partir d’une visionneuse de vidéos adaptative au cas où le système actuel ne prendrait pas en charge la lecture de vidéo adaptative. </p> <p>Le composant récupère le flux vidéo avec le débit le plus proche possible (mais ne dépassant pas) par rapport à la valeur spécifiée. Si tous les flux vidéo de la visionneuse de vidéos adaptative ont une qualité supérieure à la valeur spécifiée, la logique choisit le débit avec la qualité la plus faible. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -41,4 +40,3 @@ Facultatif.
 ```
 progressivebitrate=600
 ```
-
