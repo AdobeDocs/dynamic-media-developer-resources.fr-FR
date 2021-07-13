@@ -1,43 +1,42 @@
 ---
-description: L’heure de la vidéo est l’affichage numérique qui montre l’heure et la durée actuelles de la vidéo en cours de lecture.
+description: L’heure de la vidéo est l’affichage numérique qui indique l’heure et la durée actuelles de la vidéo en cours de lecture.
 solution: Experience Manager
-title: Durée de la vidéo
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: Temps de la vidéo
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéo
+role: Developer,User
+exl-id: 83491281-aff4-411a-a5a2-42e2454fd375
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '200'
 ht-degree: 2%
 
 ---
 
+# Temps de la vidéo{#video-time}
 
-# Durée de la vidéo{#video-time}
-
-L’heure de la vidéo est l’affichage numérique qui montre l’heure et la durée actuelles de la vidéo en cours de lecture.
+L’heure de la vidéo est l’affichage numérique qui indique l’heure et la durée actuelles de la vidéo en cours de lecture.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-La famille de polices, la taille de police et la couleur de police de l’heure de la vidéo font partie des propriétés que CSS peut contrôler. Il peut également être positionné, par rapport à la barre de contrôle qui la contient, par CSS.
+La famille de polices, la taille de police et la couleur de la police de l’heure de la vidéo font partie des propriétés que CSS peut contrôler. Il peut également être positionné, par rapport à la barre de contrôle qui le contient, par CSS.
 
-L’aspect de l’heure de la vidéo est contrôlé par le sélecteur de classe CSS suivant :
+L’aspect de l’heure de la vidéo est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 ```
 .s7videoviewer .s7videotime
 ```
 
-## Propriétés CSS de l’heure de la vidéo {#css-properties-of-video-time}
+## Propriétés CSS du temps vidéo {#css-properties-of-video-time}
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> haut </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure supérieure, y compris le remplissage. </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure supérieure, y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> droite </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure droite, y compris le remplissage. </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure droite, y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -45,7 +44,7 @@ L’aspect de l’heure de la vidéo est contrôlé par le sélecteur de classe 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
-   <td colname="col2"> <p>Famille de polices à utiliser pour le texte d’affichage temporel. </p> </td> 
+   <td colname="col2"> <p>Famille de polices à utiliser pour l’affichage du texte temporel. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
@@ -53,14 +52,14 @@ L’aspect de l’heure de la vidéo est contrôlé par le sélecteur de classe 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>Couleur de police à utiliser pour le texte d’affichage temporel. </p> </td> 
+   <td colname="col2"> <p>Couleur de police à utiliser pour le texte d’affichage de l’heure. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Exemple {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Définissez le temps de la vidéo sur gris clair (hexadécimal `#BBBBBB`), de taille 12 pixels, positionné à 15 pixels du haut de la barre de contrôle et à 80 pixels des bords droits de la barre de contrôle.
+Définissez la durée de la vidéo sur gris clair (hexadécimal `#BBBBBB`), dimensionnée à 12 pixels, positionnée à 15 pixels du haut de la barre de contrôle et à 80 pixels des bords droits de la barre de contrôle.
 
 ```
 .s7videoviewer .s7videotime { 
@@ -71,4 +70,3 @@ color:#BBBBBB;
 width:60px;  
 }
 ```
-
