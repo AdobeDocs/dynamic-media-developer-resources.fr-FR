@@ -1,25 +1,24 @@
 ---
-description: Après l’installation, la hiérarchie des dossiers dans install_root inclut les fichiers et les dossiers répertoriés ci-dessous.
+description: Après l’installation, la hiérarchie de dossiers dans install_root inclut les fichiers et les dossiers répertoriés ci-dessous.
 solution: Experience Manager
 title: Table des matières
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 5b03e68e-a4c2-4b4f-8579-d253d7c112de
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '346'
 ht-degree: 2%
 
 ---
 
+# Table des matières{#contents}
 
-# d’aide{#contents}
-
-Après l’installation, la hiérarchie des dossiers dans install_root inclut les fichiers et les dossiers répertoriés ci-dessous.
+Après l’installation, la hiérarchie de dossiers dans install_root inclut les fichiers et les dossiers répertoriés ci-dessous.
 
 >[!NOTE]
 >
->Des fichiers et des dossiers supplémentaires sont présents et ne doivent pas être modifiés.
+>Les fichiers et dossiers supplémentaires sont présents et ne doivent pas être modifiés.
 
 <table id="table_F9FE5E0622A54CCD88461078FD5EA3DC"> 
  <thead> 
@@ -41,13 +40,13 @@ Après l’installation, la hiérarchie des dossiers dans install_root inclut le
    <td colname="col1"> <p> <span class="filepath"> ImageServing/  </span> </p> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>Dossier racine d’installation de Image Serving. </p> </td> 
+   <td colname="col4"> <p>Dossier racine d’installation de la diffusion d’images. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> SAUVEGARDE/  </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>Sauvegardes de fichiers de configuration Image Serving des installations précédentes. </p> </td> 
+   <td colname="col4"> <p>Sauvegardes de fichiers de configuration du serveur d’images des installations précédentes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -59,7 +58,7 @@ Après l’installation, la hiérarchie des dossiers dans install_root inclut le
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> ImageServing.sh (.bat)  </span> </p> </td> 
-   <td colname="col4"> <p>Script pour début et arrêt de la diffusion d’images. </p> </td> 
+   <td colname="col4"> <p>Script pour démarrer et arrêter le serveur d’images. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -71,7 +70,7 @@ Après l’installation, la hiérarchie des dossiers dans install_root inclut le
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> ic (.exe)  </span> </p> </td> 
-   <td colname="col4"> <p>Utilitaire de conversion d’image de diffusion d’images. </p> </td> 
+   <td colname="col4"> <p>Utilitaire de convertisseur d’images de diffusion d’images. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -83,48 +82,48 @@ Après l’installation, la hiérarchie des dossiers dans install_root inclut le
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> validate (.exe)  </span> </p> </td> 
-   <td colname="col4"> <p>Utilitaire de validation d’image de diffusion d’images. </p> </td> 
+   <td colname="col4"> <p>Utilitaire de validation des images de la diffusion d’images. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> Vntc (.exe)  </span> </p> </td> 
-   <td colname="col4"> <p>Utilitaire de conversion de vignette de rendu d’image, d’armoire et de fenêtre. </p> </td> 
+   <td colname="col4"> <p>Utilitaire de convertisseur de rendu d’image, de vitrine et de vitrine. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> cache/  </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>dossier des caches de données ; configurable lors de l'installation ou en modifiant manuellement les fichiers de configuration. </p> </td> 
+   <td colname="col4"> <p>dossier de cache de données ; configurable lors de l’installation ou en modifiant manuellement les fichiers de configuration. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> catalog-bin/  </span> </p> </td> 
-   <td colname="col4"> <p>PS enregistre ici les données de catalogue compilées. </p> </td> 
+   <td colname="col4"> <p>PS enregistre les données de catalogue compilées ici. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> ir-catalog-bin/  </span> </p> </td> 
-   <td colname="col4"> <p>Image Rendering enregistre ici les données de catalogue compilées. </p> </td> 
+   <td colname="col4"> <p>Le rendu d’image enregistre les données de catalogue compilées ici. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> is-response/  </span> </p> </td> 
-   <td colname="col4"> <p>Principal cache de réponse HTTP. </p> </td> 
+   <td colname="col4"> <p>Le Principal cache de réponse HTTP. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> catalogue/  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> catalog/  </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>Dossier des catalogues d’images IS ; configurable lors de l'installation ou en modifiant manuellement les fichiers de configuration. </p> </td> 
+   <td colname="col4"> <p>dossier catalogues d’images IS ; configurable lors de l’installation ou en modifiant manuellement les fichiers de configuration. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> <span class="filepath"> default-fonts.txt  </span> </p> <p> <span class="filepath"> default-macros.txt  </span> </p> <p> <span class="filepath"> default-profils.txt  </span> </p> <p> <span class="filepath"> default-rules.txt  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="filepath"> default-fonts.txt  </span> </p> <p> <span class="filepath"> default-macros.txt  </span> </p> <p> <span class="filepath"> default-profiles.txt  </span> </p> <p> <span class="filepath"> default-rules.txt  </span> </p> </td> 
    <td colname="col4"> </td> 
   </tr> 
   <tr> 
@@ -153,7 +152,7 @@ Après l’installation, la hiérarchie des dossiers dans install_root inclut le
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> default-profils/  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> default-profiles/  </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>Contient les profils par défaut pour la diffusion d’images. </p> </td> 
   </tr> 
@@ -167,13 +166,13 @@ Après l’installation, la hiérarchie des dossiers dans install_root inclut le
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> images/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>dossier de données source Image Serving ; modifier manuellement les fichiers de configuration. </p> </td> 
+   <td colname="col4"> <p>Image Serving source data folder; modifiez manuellement les fichiers de configuration. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> journaux/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>Toutes les données du journal PS et IS sont écrites dans ce dossier ; modifier manuellement les fichiers de configuration. </p> </td> 
+   <td colname="col4"> <p>Toutes les données de journal PS et IS sont écrites dans ce dossier ; modifiez manuellement les fichiers de configuration. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -190,14 +189,14 @@ Après l’installation, la hiérarchie des dossiers dans install_root inclut le
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> <span class="filepath"> Superviseur -*.log  </span> </p> </td> 
-   <td colname="col4"> <p>Journaux de débogage/d'erreur du superviseur. </p> </td> 
+   <td colname="col3"> <p> <span class="filepath"> Superviseur-*.log  </span> </p> </td> 
+   <td colname="col4"> <p>Journaux de débogage/erreur du superviseur. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> trace-*.log  </span> </p> </td> 
-   <td colname="col4"> <p>Journaux de débogage/d’erreur PS. </p> </td> 
+   <td colname="col4"> <p>Journaux de débogage/erreur PS. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -209,7 +208,7 @@ Après l’installation, la hiérarchie des dossiers dans install_root inclut le
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> static-content/  </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>dossier de source de données de contenu statique ; modifier manuellement les fichiers de configuration. </p> </td> 
+   <td colname="col4"> <p>dossier de source de données de contenu statique ; modifiez manuellement les fichiers de configuration. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -221,19 +220,19 @@ Après l’installation, la hiérarchie des dossiers dans install_root inclut le
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> playlog.sh (.bat)  </span> </p> </td> 
-   <td colname="col4"> <p>Utilitaire d'échauffement du cache. </p> </td> 
+   <td colname="col4"> <p>Utilitaire de nettoyage du cache. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> webapps/  </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>Déployez les applications Web Java ici (y compris les applications i-docs, i-docs et i-viewers). </p> </td> 
+   <td colname="col4"> <p>Déployez les applications web Java ici (y compris les is-docs, ir-docs et les is-viewers). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> ImageRendering/  </span> </p> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>Dossier racine d’installation de Image Rendering. </p> </td> 
+   <td colname="col4"> <p>Répertoire racine d’installation du rendu d’image. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -243,9 +242,9 @@ Après l’installation, la hiérarchie des dossiers dans install_root inclut le
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> catalogue/  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> catalog/  </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>Dossier des catalogues de rendu d’image ; configurable lors de l'installation ou en modifiant manuellement les fichiers de configuration. </p> </td> 
+   <td colname="col4"> <p>le dossier Catalogues de rendu d’image ; configurable lors de l’installation ou en modifiant manuellement les fichiers de configuration. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -256,7 +255,7 @@ Après l’installation, la hiérarchie des dossiers dans install_root inclut le
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> <span class="filepath"> default-profils.txt  </span> </p> </td> 
+   <td colname="col3"> <p> <span class="filepath"> default-profiles.txt  </span> </p> </td> 
    <td colname="col4"> </td> 
   </tr> 
   <tr> 
@@ -267,7 +266,7 @@ Après l’installation, la hiérarchie des dossiers dans install_root inclut le
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> default-profils/  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> default-profiles/  </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>Contient les profils par défaut pour le rendu d’image. </p> </td> 
   </tr> 
@@ -275,8 +274,7 @@ Après l’installation, la hiérarchie des dossiers dans install_root inclut le
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> ressources/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>dossier de données source de rendu d’image ; modifier manuellement les fichiers de configuration. </p> </td> 
+   <td colname="col4"> <p>dossier de données source de rendu d’image ; modifiez manuellement les fichiers de configuration. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
