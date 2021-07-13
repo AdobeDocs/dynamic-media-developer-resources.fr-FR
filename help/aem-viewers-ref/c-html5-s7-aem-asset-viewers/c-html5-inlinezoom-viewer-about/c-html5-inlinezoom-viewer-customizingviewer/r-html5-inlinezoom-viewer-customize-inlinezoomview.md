@@ -1,27 +1,26 @@
 ---
-description: La vue principale se compose de l’image statique, de l’image zoomée affichée dans la vue de la fenêtre déroulante au-dessus de l’image statique et du message d’info-bulle affiché au-dessus de l’image statique.
+description: La vue principale est composée de l’image statique, de l’image agrandie affichée dans la vue déroulante au-dessus de l’image statique et du message d’info-bulle affiché au-dessus de l’image statique.
 solution: Experience Manager
-title: Vue de zoom déroulant
-feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: Zoom déroulant
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Zoom intégré
+role: Developer,User
+exl-id: 7b4b5cc9-68ad-4e7a-a2d9-3bbced929145
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '264'
 ht-degree: 1%
 
 ---
 
+# Zoom déroulant{#flyout-zoom-view}
 
-# Vue de zoom déroulant {#flyout-zoom-view}
-
-La vue principale se compose de l’image statique, de l’image zoomée affichée dans la vue de la fenêtre déroulante au-dessus de l’image statique et du message d’info-bulle affiché au-dessus de l’image statique.
+La vue principale est composée de l’image statique, de l’image agrandie affichée dans la vue déroulante au-dessus de l’image statique et du message d’info-bulle affiché au-dessus de l’image statique.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **Propriétés CSS de la vue principale**
 
-L’aspect de la vue principale est contrôlé par le sélecteur de classe CSS suivant :
+L’aspect de la vue principale est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 ```
 .s7flyoutviewer .s7flyoutzoomview
@@ -30,7 +29,7 @@ L’aspect de la vue principale est contrôlé par le sélecteur de classe CSS s
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> Propriété CSS </p> </th> 
+   <th colname="col1" class="entry"> <p> propriété CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
@@ -58,12 +57,12 @@ L’aspect du message d’info-bulle est contrôlé à l’aide du sélecteur de
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-Il est possible de configurer le style de police, l’aspect de la taille et le décalage vertical par le biais de CSS. Cependant, l’alignement horizontal est géré par la logique du lecteur de contenu. Il n’est pas possible de le remplacer via CSS en utilisant les propriétés `left` ou `right`.
+Il est possible de configurer le style de police, l’aspect de la taille et le décalage vertical au moyen de CSS. Toutefois, l’alignement horizontal est géré par la logique de la visionneuse. Le remplacement de cet élément par une page CSS à l’aide des propriétés `left` ou `right` n’est pas pris en charge.
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> Propriété CSS </p> </th> 
+   <th colname="col1" class="entry"> <p> propriété CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
@@ -94,20 +93,20 @@ Il est possible de configurer le style de police, l’aspect de la taille et le 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
-   <td colname="col2"> <p>Rayon de bordure d’arrière-plan du texte du message. </p> </td> 
+   <td colname="col2"> <p>Rayon de la bordure d’arrière-plan du texte du message. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opacité  </span> </p> </td> 
-   <td colname="col2"> <p>Opacité d’arrière-plan du texte du message. </p> <p>Pour Internet Explorer 8, utilisez <span class="codeph"> filter:alpha(opacity-..) ) </span> </p> </td> 
+   <td colname="col2"> <p>Opacité de l’arrière-plan du texte du message. </p> <p>Pour Internet Explorer 8, utilisez <span class="codeph"> filter:alpha(opacity-..) ) </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Le message d’info-bulle peut être localisé. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) pour plus d’informations.
+Le message de conseil peut être localisé. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) pour plus d’informations.
 
 .
 
-Exemple : pour configurer un message d’info-bulle semi-transparent avec une police Arial blanche de 12 px, un décalage de 50 pixels par rapport au bas de la vue principale, du remplissage et une bordure arrondie :
+Exemple : pour configurer un message d’info-bulle semi-transparent avec une police Arial blanche de 12 px, un décalage de 50 pixels par rapport au bas de la vue principale, de la marge intérieure et d’une bordure arrondie :
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7tip { 
@@ -125,4 +124,3 @@ opacity: 0.5;
 filter: alpha(opacity = 50); 
 }
 ```
-
