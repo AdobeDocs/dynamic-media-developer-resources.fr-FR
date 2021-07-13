@@ -2,16 +2,15 @@
 description: Les données de propriété sont renvoyées en réponse à plusieurs types req=.
 solution: Experience Manager
 title: Propriétés
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 748f68a1-f3ec-4249-a257-1115bcb3ee4c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '53'
 ht-degree: 7%
 
 ---
-
 
 # Propriétés{#properties}
 
@@ -22,9 +21,9 @@ Les données de propriété sont renvoyées en réponse aux types `req=` suivant
 * `props`
 * `userdata`
 
-`userdata` les réponses sont formatées en tant que propriétés uniquement lorsque le contenu des propriétés  `catalog::UserData` suit le format des propriétés.
+`userdata` les réponses sont formatées en tant que propriétés uniquement lorsque le contenu de  `catalog::UserData` suit le format des propriétés.
 
-* [Propriétés de texte (Java)](r-text-java-properties.md)
+* [Propriétés Text (Java)](r-text-java-properties.md)
 * [Propriétés JavaScript](r-javascript-properties.md)
 * [Propriétés XML](r-xml-properties.md)
 * [Propriétés JSONP](r-json-properties.md)
