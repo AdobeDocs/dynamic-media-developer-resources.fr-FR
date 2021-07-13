@@ -3,9 +3,9 @@ description: L’heure de la vidéo est l’affichage numérique qui indique l�
 solution: Experience Manager
 title: Temps de la vidéo
 feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 5efae314-5f37-4afc-9b9e-3108a8529e50
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 2%
