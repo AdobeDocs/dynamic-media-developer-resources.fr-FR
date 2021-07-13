@@ -2,16 +2,15 @@
 description: Modèle de composition. Permet de spécifier un modèle de composition situé dans un catalogue autre que le catalogue principal.
 solution: Experience Manager
 title: modèle
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: ddfccb4ca157764e39fc719d96b63e6ee95304bf
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 56ebf2a1-f2c3-4b3f-8d0a-9383f1411440
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '169'
 ht-degree: 6%
 
 ---
-
 
 # modèle{#template}
 
@@ -28,9 +27,9 @@ Modèle de composition. Permet de spécifier un modèle de composition dans un c
 
 *`template`* doit être une entrée de catalogue d’images avec le corps du modèle contenu dans  `catalog::Modifier`.
 
-Lorsque `template=` est présent, l’objet spécifié dans le chemin de requête n’est pas appliqué en tant que source du calque 0. Cependant, il peut être référencé comme `src=` ou `mask=` n’importe où dans le modèle en utilisant la variable de chemin prédéfinie `$object$` comme valeur `src=`. `catalog::Modifier` de l’objet spécifié dans le chemin d’accès à la requête n’est appliqué qu’avec la substitution de l’objet  `$object$` dans le modèle, alors qu’ `catalog::PostModifier` il est toujours appliqué.
+Lorsque `template=` est présent, l’objet spécifié dans le chemin de requête n’est pas appliqué en tant que source pour le calque 0. Cependant, il peut être référencé sous la forme `src=` ou `mask=` n’importe où dans le modèle en utilisant la variable de chemin prédéfinie `$object$` comme valeur `src=`. `catalog::Modifier` de l’objet spécifié dans le chemin de requête n’est appliqué qu’avec la substitution de  `$object$` dans le modèle, tandis que  `catalog::PostModifier` est toujours appliqué.
 
-La couche 0 est définie dans le corps du modèle et peut être une image, une couleur unie, du texte ou un calque de requête imbriqué ou incorporé.
+Le calque 0 est défini dans le corps du modèle et peut être une image, une couleur unie, du texte ou une couche de requête imbriquée ou incorporée.
 
 `catalog:PostModifier` de  *`object`* est ignoré lorsque  *`object`* est utilisé avec  `template=`.
 
