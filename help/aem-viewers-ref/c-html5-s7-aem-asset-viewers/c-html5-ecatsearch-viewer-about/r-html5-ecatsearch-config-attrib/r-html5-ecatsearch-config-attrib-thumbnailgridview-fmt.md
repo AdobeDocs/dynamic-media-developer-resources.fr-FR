@@ -2,16 +2,15 @@
 description: ThumbnailGridView.fmt
 solution: Experience Manager
 title: ThumbnailGridView.fmt
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Recherche catalogue électronique
+role: Developer,User
+exl-id: ff57762e-05f5-41c1-956f-39280941eeb1
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '73'
 ht-degree: 5%
 
 ---
-
 
 # ThumbnailGridView.fmt{#thumbnailgridview-fmt}
 
@@ -21,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td> <p>Indique le format d’image utilisé par le composant pour le chargement des images à partir du serveur Image Server. Il peut s’agir de toute valeur prise en charge par Image Server et le navigateur client. Si le format spécifié se termine par <span class="codeph"> -alpha</span>, le composant effectue le rendu des images sous forme de contenu transparent. Pour tous les autres formats d’image, le composant traite les images comme opaques. </p> </td> 
+   <td> <p>Indique le format d’image que le composant utilise pour charger les images à partir du serveur d’images. Il peut s’agir de n’importe quelle valeur prise en charge par Image Server et le navigateur client. Si le format spécifié se termine par <span class="codeph"> -alpha</span>, le composant effectue le rendu des images en tant que contenu transparent. Pour tous les autres formats d’image, le composant traite les images comme opaques. </p> </td> 
   </tr> 
  </tbody> 
 </table>
