@@ -1,21 +1,20 @@
 ---
-description: Attribut de configuration pour la visionneuse de vidéos interactive.
+description: Attribut de configuration de la visionneuse de vidéos interactives.
 solution: Experience Manager
 title: InteractiveSwatches.displaymode
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéos interactives
+role: Developer,User
 exl-id: 9ddec664-80b5-49b6-b525-9e72b233c804
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 7%
+source-wordcount: '48'
+ht-degree: 8%
 
 ---
 
 # InteractiveSwatches.displaymode{#interactiveswatches-displaymode}
 
-Attribut de configuration pour la visionneuse de vidéos interactive.
+Attribut de configuration de la visionneuse de vidéos interactives.
 
 `[InteractiveSwatches.|<containerId>_interactiveSwatches.]displaymode=continuous|segment`
 
@@ -23,7 +22,7 @@ Attribut de configuration pour la visionneuse de vidéos interactive.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> continue|segment</span> </p> </td> 
-   <td colname="col2"> <p> Remplit en permanence des échantillons interactifs avec des miniatures indépendamment des limites de segment ou, permet à l’espace vide de noter les limites de segment. </p> </td> 
+   <td colname="col2"> <p> Renseigne en continu les échantillons interactifs avec des miniatures, quelles que soient les limites de segment ou, permet à l’espace vide de noter les limites du segment. </p> </td> 
   </tr> 
  </tbody> 
 </table>
