@@ -1,27 +1,25 @@
 ---
-description: Les calques sont positionnés en alignant l’origine du calque (origine=) avec l’origine du calque d’arrière-plan à un décalage spécifié par pos=.
+description: Les calques sont positionnés en alignant l’origine du calque (origin=) avec l’origine du calque d’arrière-plan à un décalage spécifié par pos=.
 solution: Experience Manager
 title: Emplacement des calques
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 1ce7bef3-a0f8-44fc-a146-7e819c30eee8
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
 
+# Emplacement des calques{#layer-placement}
 
-# Emplacement du calque{#layer-placement}
+Les calques sont positionnés en alignant l’origine du calque (origin=) avec l’origine du calque d’arrière-plan à un décalage spécifié par pos=.
 
-Les calques sont positionnés en alignant l’origine du calque (origine=) avec l’origine du calque d’arrière-plan à un décalage spécifié par pos=.
+Si l’origine du calque n’est pas spécifiée explicitement pour un calque d’image, elle est calculée comme suit :
 
-Si l’origine de calque n’est pas explicitement spécifiée pour un calque d’image, elle est calculée comme suit :
-
-1. Déterminez l’ancrage de l’image. Utilisez `anchor=` ou, si ce n&#39;est pas spécifié, `catalog::Anchor`.
-1. Si l’ancre d’image est définie, appliquez les transformations du calque et `extend=` pour le convertir en valeur origine=.
-1. Si aucun ancrage d’image n’est défini, l’origine du calque est placée au centre du rectangle du calque (après avoir appliqué `extend=`).
+1. Déterminez l’ancre de l’image. Utilisez `anchor=` ou, si non spécifié, `catalog::Anchor`.
+1. Si l’ancre de l’image est définie, appliquez les transformations de calque et `extend=` pour la convertir en valeur origin=.
+1. Si aucune ancre d’image n’est définie, l’origine du calque est placée au centre du rectangle du calque (après avoir appliqué `extend=`).
 
 ![](assets/layerplacement.png)
-
