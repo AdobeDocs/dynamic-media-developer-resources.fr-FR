@@ -2,16 +2,15 @@
 description: FavoritesView.favoritesThumbView
 solution: Experience Manager
 title: FavoritesView.favoritesThumbView
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Recherche catalogue électronique
+role: Developer,User
+exl-id: 3a0a7482-315f-4192-aa6d-e9cc1415194f
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 8%
+source-wordcount: '64'
+ht-degree: 9%
 
 ---
-
 
 # FavoritesView.favoritesThumbView{#favoritesview-favoritesthumbview}
 
@@ -21,7 +20,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> zone</span></span> </p> </td> 
-   <td colname="col2"> <p> Indique la zone de recadrage de la miniature Favoris. Exprimé en tant que valeur relative par rapport à la taille totale de l’image, avec une plage allant de <span class="codeph"> 0</span> à <span class="codeph"> 1.0</span>. </p> <p>La valeur <span class="codeph"> 1</span> signifie que l’image image entière est utilisée pour la miniature. </p> <p>La valeur <span class="codeph"> 0.1</span> signifie que seulement 10 % de la taille de l’image est utilisée. </p> </td> 
+   <td colname="col2"> <p> Indique la zone de recadrage de la miniature Favoris. Exprimé sous la forme d’une valeur relative à la taille totale de l’image, avec une plage allant de <span class="codeph"> 0</span> à <span class="codeph"> 1.0</span>. </p> <p>Une valeur <span class="codeph"> 1</span> signifie que l’image entière est utilisée pour la miniature. </p> <p>Une valeur <span class="codeph"> 0.1</span> signifie que seulement 10 % de la taille de l’image est utilisée. </p> </td> 
   </tr> 
  </tbody> 
 </table>
