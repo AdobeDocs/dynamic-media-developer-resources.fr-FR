@@ -1,31 +1,30 @@
 ---
-description: Domaines Web d’application de Flash. Les applications de Flash d’Adobe peuvent nécessiter l’accès aux propriétés des images fournies avec fmt=swf ou fmt=swf3.
+description: Domaines web d’application de Flash. Les applications de Flash Adobe peuvent nécessiter l’accès aux propriétés des images diffusées avec fmt=swf ou fmt=swf3.
 solution: Experience Manager
 title: TrustedDomains
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 925ac9d1-203c-4814-a701-71060bf47c20
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '110'
 ht-degree: 3%
 
 ---
 
-
 # TrustedDomains{#trusteddomains}
 
-Domaines Web d’application de Flash. Les applications de Flash d’Adobe peuvent nécessiter l’accès aux propriétés des images fournies avec fmt=swf ou fmt=swf3.
+Domaines web d’application de Flash. Les applications de Flash Adobe peuvent nécessiter l’accès aux propriétés des images diffusées avec fmt=swf ou fmt=swf3.
 
-Le fichier swf doit accorder l’accès explicitement en enregistrant le nom des domaines d’application auxquels il fait confiance.
+Le swf doit accorder l’accès explicitement en enregistrant le nom des domaines d’application auxquels il fait confiance.
 
 ## Propriétés {#section-e7f95bbb749f441e83e90c2bc3d5a6e0}
 
-Chaîne contenant une liste de noms de domaine Web séparés par des virgules. S’ils sont vides, les applications doivent être diffusées à partir du même domaine que le rendu des images pour pouvoir accéder aux propriétés des images dans les réponses au format swf.
+Chaîne contenant une liste de noms de domaine web séparés par des virgules. Si elles sont vides, les applications doivent être diffusées à partir du même domaine que le rendu d’image pour pouvoir accéder aux propriétés des images dans les réponses au format swf.
 
 ## Par défaut {#section-5c52ed3c7310488380f5a6f9540bf981}
 
-Hérité de `default::TrustedDomains` si elle n&#39;est pas présente.
+Hérité de `default::TrustedDomains` si elle n’est pas présente.
 
 ## Voir aussi {#section-65d0846e41674882a4d0d56a8f6d524b}
 
