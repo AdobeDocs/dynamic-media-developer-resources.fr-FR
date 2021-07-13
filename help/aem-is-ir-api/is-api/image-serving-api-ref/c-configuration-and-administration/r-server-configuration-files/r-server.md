@@ -1,27 +1,26 @@
 ---
-description: Contient les paramètres du serveur de plate-forme.
+description: Contient les paramètres du serveur de plateforme.
 solution: Experience Manager
 title: server.xml
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Administrator,User
+exl-id: 72b343ba-0d4b-405a-ace3-d44c4d4c44b0
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
 
-
 # server.xml{#server-xml}
 
-Contient les paramètres du serveur de plate-forme.
+Contient les paramètres du serveur de plateforme.
 
-Lors de la modification de ce fichier XML, veillez à conserver une syntaxe XML valide, sans quoi le serveur de plateformes risque de ne pas se début.
+Lors de la modification de ce fichier XML, veillez à conserver une syntaxe XML valide, faute de quoi le serveur Platform risque de ne pas démarrer.
 
-Pour que les modifications prennent effet, le serveur de plateformes doit être redémarré après avoir modifié ce fichier.
+Pour que les modifications soient prises en compte, le serveur Platform doit être redémarré après avoir modifié ce fichier.
 
-Le diagramme suivant illustre les paramètres qui peuvent être modifiés dans ce fichier. Reportez-vous aux sections correspondantes plus haut dans ce document pour obtenir une description de ces paramètres. Notez que ce diagramme n&#39;est pas une représentation complète de [!DNL server.xml].
+Le diagramme suivant illustre les paramètres qui peuvent être modifiés dans ce fichier. Reportez-vous aux sections correspondantes plus tôt dans ce document pour une description de ces paramètres. Notez que ce diagramme n’est pas une représentation complète de [!DNL server.xml].
 
 ```
 <Server>
@@ -41,4 +40,3 @@ Le diagramme suivant illustre les paramètres qui peuvent être modifiés dans c
    </Service>
 </Server>
 ```
-
