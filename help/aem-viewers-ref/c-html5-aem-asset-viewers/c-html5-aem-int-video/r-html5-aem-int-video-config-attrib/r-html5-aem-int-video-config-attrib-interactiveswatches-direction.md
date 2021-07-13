@@ -1,21 +1,20 @@
 ---
-description: Attribut de configuration pour la visionneuse de vidéos interactive.
+description: Attribut de configuration de la visionneuse de vidéos interactives.
 solution: Experience Manager
 title: InteractiveSwatches.direction
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéos interactives
+role: Developer,User
 exl-id: 6f5ec9e3-9912-4f6a-b848-de0076c4b86f
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '82'
 ht-degree: 4%
 
 ---
 
 # InteractiveSwatches.direction{#interactiveswatches-direction}
 
-Attribut de configuration pour la visionneuse de vidéos interactive.
+Attribut de configuration de la visionneuse de vidéos interactives.
 
 `[InteractiveSwatches.|<containerId>_interactiveSwatches.]direction=auto|left|right`
 
@@ -23,7 +22,7 @@ Attribut de configuration pour la visionneuse de vidéos interactive.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|left|right  </span> </p> </td> 
-   <td colname="col2"> <p> Indique la façon dont les nuances remplissent la vue. </p> <p>Définissez sur <span class="codeph"> left </span> pour définir l’ordre de remplissage de gauche à droite. </p> <p>La valeur <span class="codeph"> droite </span> inverse l’ordre de manière à ce que la vue soit remplie de droite à gauche, de haut en bas. </p> <p>Lorsque <span class="codeph"> auto </span> est défini, le composant applique le mode droit lorsque le paramètre régional est défini sur " <span class="codeph"> ja </span>"; sinon, <span class="codeph"> left </span> est utilisé. </p> </td> 
+   <td colname="col2"> <p> Indique la manière dont les échantillons remplissent la vue. </p> <p>Définissez cette variable sur <span class="codeph"> gauche </span> pour définir l’ordre de remplissage de gauche à droite. </p> <p>Défini sur <span class="codeph"> droite </span> inverse l’ordre de sorte que la vue soit remplie de droite à gauche, de haut en bas. </p> <p>Lorsque <span class="codeph"> auto </span> est défini, le composant applique le mode droit lorsque le paramètre régional est défini sur " <span class="codeph"> ja </span>"; sinon, <span class="codeph"> gauche </span> est utilisé. </p> </td> 
   </tr> 
  </tbody> 
 </table>
