@@ -2,16 +2,15 @@
 description: ZoomView.iscommand
 solution: Experience Manager
 title: ZoomView.iscommand
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Zoom
+role: Developer,User
+exl-id: d1f54ef2-4ed4-4fb6-9913-98bf194f9afc
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '64'
 ht-degree: 7%
 
 ---
-
 
 # ZoomView.iscommand{#zoomview-iscommand}
 
@@ -21,7 +20,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> iscommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> Chaîne de commande de diffusion d’images appliquée à l’image de zoom. Si elle est spécifiée dans l’URL, toutes les occurrences de <span class="codeph"> &amp;</span> et <span class="codeph"> =</span> doivent être codées en HTTP sous la forme <span class="codeph"> %26</span> et <span class="codeph"> %3D</span>, respectivement. </p> <p> <p>Remarque :  Les commandes de manipulation de dimensionnement d’image ne sont pas prises en charge. </p> </p> </td> 
+   <td colname="col2"> <p> Chaîne de commande de diffusion d’images appliquée à l’image de zoom. Si spécifié dans l’URL, toutes les occurrences de <span class="codeph"> &amp;</span> et <span class="codeph"> =</span> doivent être codées en HTTP sous la forme <span class="codeph"> %26</span> et <span class="codeph"> %3D</span>, respectivement. </p> <p> <p>Remarque :  Les commandes de manipulation de dimensionnement d’image ne sont pas prises en charge. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -36,7 +35,7 @@ Aucune
 
 ## Exemple {#section-96e69b70365f461dae4399e49044ea2f}
 
-Lorsqu’elle est spécifiée dans l’URL de la visionneuse :
+Lorsqu’il est spécifié dans l’URL de la visionneuse :
 
 `iscommand=op_sharpen%3d1%26op_colorize%3d0xff0000`
 
