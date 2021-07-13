@@ -1,29 +1,28 @@
 ---
-description: Profil de couleur d’entrée RVB par défaut. Spécifie le nom du profil de couleurs ICC à utiliser pour les images de matériau RVB et les vignettes qui n’incorporent pas de profil de couleur et pour les valeurs de couleur RVB spécifiées avec diverses commandes de rendu d’image, telles que bgc= et color=.
+description: Profil colorimétrique d’entrée par défaut RVB. Indique le nom du profil de couleurs ICC à utiliser pour les images et les vignettes de contenu RVB qui n’incorporent pas de profil colorimétrique et pour les valeurs de couleur RVB spécifiées avec diverses commandes de rendu d’image, telles que bgc= et color=.
 solution: Experience Manager
 title: IccProfileSrcRgb
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 1c90c77c-79b7-41aa-9269-b48d966ba362
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '166'
 ht-degree: 2%
 
 ---
 
-
 # IccProfileSrcRgb{#iccprofilesrcrgb}
 
-Profil de couleur d’entrée RVB par défaut. Spécifie le nom du profil de couleurs ICC à utiliser pour les images de matériau RVB et les vignettes qui n’incorporent pas de profil de couleur et pour les valeurs de couleur RVB spécifiées avec diverses commandes de rendu d’image, telles que bgc= et color=.
+Profil colorimétrique d’entrée par défaut RVB. Indique le nom du profil de couleurs ICC à utiliser pour les images et les vignettes de contenu RVB qui n’incorporent pas de profil colorimétrique et pour les valeurs de couleur RVB spécifiées avec diverses commandes de rendu d’image, telles que bgc= et color=.
 
 ## Propriétés {#section-c22966bba03e43c08e9d3fb91bfdd465}
 
-Chaîne de texte. Si spécifié, doit être une valeur `icc::Name` valide provenant du mappage de profil ICC de ce catalogue d’images ou du catalogue par défaut, ou un chemin d’accès de fichier relatif à `attribute::RootPath`. Le profil ICC référencé doit être un profil RVB.
+Chaîne de texte. Si spécifié, doit être une valeur `icc::Name` valide provenant du mappage de profil ICC de ce catalogue d’images ou du catalogue par défaut, ou un chemin d’accès au fichier relatif à `attribute::RootPath`. Le profil ICC référencé doit être un profil RVB.
 
 ## Par défaut {#section-0171cd6680284bfa9844b9cc3644ca61}
 
-Hérité de `default::IccProfileSrcRgb` si elle n&#39;est pas définie ou si elle est vide. Si `attribute::IccProfileSrcRgb` ne correspond pas à un profil valide, `attribute::IccProfileRgb` est utilisé à la place.
+Hérité de `default::IccProfileSrcRgb` si elle n’est pas définie ou si elle est vide. Si `attribute::IccProfileSrcRgb` ne correspond pas à un profil valide, `attribute::IccProfileRgb` est utilisé à la place.
 
 ## Voir aussi {#section-1ba91666830f4c209c39260ea29f938e}
 
