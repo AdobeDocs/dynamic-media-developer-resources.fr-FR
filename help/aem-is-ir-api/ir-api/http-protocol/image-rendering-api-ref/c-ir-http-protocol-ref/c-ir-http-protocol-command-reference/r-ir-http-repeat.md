@@ -1,21 +1,20 @@
 ---
-description: Mode de répétition de la texture. Spécifie le mode de répétition pour les matériaux de texture répétables.
+description: Mode de répétition des textures. Spécifie le mode de répétition pour les matériaux de texture répétables.
 solution: Experience Manager
 title: répéter
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 6cc82742-4ba0-4524-a87b-586539d7fe38
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '159'
 ht-degree: 16%
 
 ---
 
-
 # répéter{#repeat}
 
-Mode de répétition de la texture. Spécifie le mode de répétition pour les matériaux de texture répétables.
+Mode de répétition des textures. Spécifie le mode de répétition pour les matériaux de texture répétables.
 
 `repeat=0...19`
 
@@ -38,7 +37,7 @@ Mode de répétition de la texture. Spécifie le mode de répétition pour les m
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>Un papier peint à un quart-goutte est accroché. </p> </td> 
+  <td class="stentry"> <p>Le papier peint à un quart est suspendu. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
@@ -58,55 +57,55 @@ Mode de répétition de la texture. Spécifie le mode de répétition pour les m
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>9 </p> </td> 
-  <td class="stentry"> <p>Des papiers peints aléatoires pendent. </p> </td> 
+  <td class="stentry"> <p>Du papier peint aléatoire. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>10 </p> </td> 
-  <td class="stentry"> <p>Une baisse aléatoire. </p> </td> 
+  <td class="stentry"> <p>Abandon aléatoire. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>11 </p> </td> 
-  <td class="stentry"> <p>Au hasard. </p> </td> 
+  <td class="stentry"> <p>Aléatoire. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>12 </p> </td> 
-  <td class="stentry"> <p>À moitié. </p> </td> 
+  <td class="stentry"> <p>La moitié. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>13 </p> </td> 
-  <td class="stentry"> <p>Miroir (correspondance de bibliothèque). </p> </td> 
+  <td class="stentry"> <p>Miroir (bookmatch). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>14 </p> </td> 
-  <td class="stentry"> <p>Générateur aléatoire standard. </p> </td> 
+  <td class="stentry"> <p>Optimiseur aléatoire standard. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>15 </p> </td> 
-  <td class="stentry"> <p>Optimiseur de fréquence élevée. </p> </td> 
+  <td class="stentry"> <p>Optimiseur aléatoire haute fréquence. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>16 </p> </td> 
-  <td class="stentry"> <p>Organiseur aléatoire à basse fréquence. </p> </td> 
+  <td class="stentry"> <p>Optimiseur aléatoire à basse fréquence. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>17 </p> </td> 
-  <td class="stentry"> <p>Organiseur aléatoire horizontal. </p> </td> 
+  <td class="stentry"> <p>Opérateur aléatoire horizontal. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>18 </p> </td> 
-  <td class="stentry"> <p>Organiseur aléatoire vertical. </p> </td> 
+  <td class="stentry"> <p>Optimiseur vertical. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>19 </p> </td> 
-  <td class="stentry"> <p>Optimiseur aléatoire. </p> </td> 
+  <td class="stentry"> <p>Optimiseur de périphérie. </p> </td> 
  </tr> 
 </table>
 
-Les modes de recadrage aléatoire (14...18) peuvent être utilisés pour synthétiser les textures à partir d&#39;images qui ne sont pas facilement répétables ; l’algorithme crée des textures complètement aléatoires ou partiellement aléatoires basées sur l’image d’origine.
+Les modes de recadrage aléatoire (14...18) peuvent être utilisés pour synthétiser les textures à partir d&#39;images qui ne sont pas facilement répétables ; l’algorithme crée des textures complètement aléatoires ou partiellement aléatoires en fonction de l’image d’origine.
 
 ## Propriétés {#section-262bf540930d4890b678ea00cefe1909}
 
-Attribut de matériau. Ignoré par les matériaux de couleur unie, de couleur et d&#39;armoire.
+Attribut de matière. Ignoré par les matériaux couleur unie, décal et armoire.
 
 ## Par défaut {#section-e5bbd7d9fbb74852849e605d20f550bb}
 
