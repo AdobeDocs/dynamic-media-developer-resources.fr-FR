@@ -1,21 +1,20 @@
 ---
-description: Commande d’URL pour le lecteur vidéo360.
+description: Commande URL de la visionneuse Video360.
 solution: Experience Manager
 title: videoServerUrl
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visionneuses,SDK/API,vidéo 360 VR
+role: Developer,User
 exl-id: 76204d0a-449b-4fe5-a2aa-36739fab482f
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '59'
 ht-degree: 6%
 
 ---
 
 # videoServerUrl{#videoserverurl}
 
-Commande d’URL pour le lecteur vidéo360.
+Commande URL de la visionneuse Video360.
 
 ` videoServerUrl= *`videoRootPath`*`
 
@@ -30,7 +29,7 @@ Commande d’URL pour le lecteur vidéo360.
 
 ## Propriétés {#section-f42369774e2740dcb399626a0e4e930e}
 
-Facultatif. Non requis pour l’utilisation standard de SaaS.
+Facultatif. Inutile pour l’utilisation standard de SaaS.
 
 ## Par défaut {#section-d016470e92a74f98a18c4ab3489410a5}
 
