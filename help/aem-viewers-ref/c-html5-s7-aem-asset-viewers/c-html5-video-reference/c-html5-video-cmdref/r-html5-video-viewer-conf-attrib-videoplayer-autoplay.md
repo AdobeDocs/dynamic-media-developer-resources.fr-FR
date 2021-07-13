@@ -2,16 +2,15 @@
 description: Attribut de configuration pour la visionneuse de vidéos.
 solution: Experience Manager
 title: VideoPlayer.autoplay
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéo
+role: Developer,User
+exl-id: ec0bb98a-7c0b-4ed7-b47d-7c103b6a5943
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 12%
+source-wordcount: '45'
+ht-degree: 13%
 
 ---
-
 
 # VideoPlayer.autoplay{#videoplayer-autoplay}
 
@@ -23,7 +22,7 @@ Attribut de configuration pour la visionneuse de vidéos.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 0|1</span> </span> </p> </td> 
-   <td colname="col2"> <p> Indique si la visionneuse est en début de lecture de la vidéo au chargement. Certains systèmes, comme certains périphériques mobiles, ne prennent pas en charge la lecture automatique. </p> </td> 
+   <td colname="col2"> <p> Indique si la visionneuse commence la lecture de la vidéo au chargement. Certains systèmes, comme certains appareils mobiles, ne prennent pas en charge la lecture automatique. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -41,4 +40,3 @@ Facultatif.
 ```
 autoplay=1
 ```
-
