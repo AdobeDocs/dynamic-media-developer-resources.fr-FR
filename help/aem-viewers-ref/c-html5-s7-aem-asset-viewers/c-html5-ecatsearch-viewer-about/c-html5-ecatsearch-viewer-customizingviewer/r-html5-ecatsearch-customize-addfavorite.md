@@ -1,25 +1,24 @@
 ---
-description: La position du bouton Ajouter favori est entièrement gérée par le menu Favoris.
+description: La position du bouton Ajouter favori est entièrement gérée à partir du menu Favoris .
 solution: Experience Manager
-title: Bouton Ajouter favori
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: Bouton Ajouter un favori
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Recherche catalogue électronique
+role: Developer,User
+exl-id: 703b57c0-b764-44c0-a1c1-37f7dd8836f3
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 0%
+source-wordcount: '199'
+ht-degree: 1%
 
 ---
 
+# Bouton Ajouter un favori{#add-favorite-button}
 
-# Ajouter le bouton favori{#add-favorite-button}
-
-La position du bouton Ajouter favori est entièrement gérée par le menu Favoris.
+La position du bouton Ajouter favori est entièrement gérée à partir du menu Favoris .
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-L’aspect du bouton Ajouter favori est contrôlé par le sélecteur de classe CSS suivant :
+L’aspect du bouton Ajouter favori est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogsearchviewer .s7addfavoritebutton
@@ -30,12 +29,12 @@ L’aspect du bouton Ajouter favori est contrôlé par le sélecteur de classe C
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
-   <td colname="col2"> <p> Positionnez l’objet à l’intérieur de l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -50,11 +49,11 @@ L’aspect du bouton Ajouter favori est contrôlé par le sélecteur de classe C
 
 >[!NOTE]
 >
->Ce bouton prend en charge les sélecteurs d&#39;attribut `state` et `selected`, qui peuvent être utilisés pour appliquer différents habillages à différents états de bouton. En particulier, `selected='true'` correspond à l’état lorsqu’un utilisateur peut ajouter une nouvelle icône Favori en cliquant ou en appuyant dessus. `selected='false'` correspond au mode de fonctionnement normal lorsqu’un utilisateur peut effectuer un zoom, effectuer un panoramique et permuter des pages.
+>Ce bouton prend en charge les sélecteurs d’attributs `state` et `selected`, qui peuvent être utilisés pour appliquer différents habillages à différents états de bouton. En particulier, `selected='true'` correspond à l’état lorsqu’un utilisateur peut ajouter une nouvelle icône Favori en cliquant ou en appuyant sur . `selected='false'` correspond au mode de fonctionnement normal lorsqu’un utilisateur peut zoomer, effectuer un panoramique et permuter des pages.
 
-L’info-bulle du bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
+L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 
-Exemple : pour configurer un bouton Ajouter favori de 28 x 28 pixels et afficher une image différente pour chacun des quatre états de bouton différents si sélectionné ou non.
+Exemple : pour configurer un bouton Ajouter un bouton favori de 28 x 28 pixels et afficher une image différente pour chacun des quatre états de bouton différents lorsqu’il est sélectionné ou non.
 
 ```
 .s7ecatalogsearchviewer .s7addfavoritebutton { 
@@ -86,4 +85,3 @@ background-image:url(images/v2/AddFavoriteButton_dark_over.png);
 background-image:url(images/v2/AddFavoriteButton_dark_disabled.png); 
 }
 ```
-
