@@ -1,27 +1,26 @@
 ---
-description: Couleur d’image dominante. Couleur soustractive, utilisée pour la coloration de la texture. Doit être la couleur dominante moyenne dans l’image de texture.
+description: Couleur de l'image dominante. Couleur soustractive, utilisée pour la coloration de texture. Doit être la couleur dominante moyenne dans l’image de texture.
 solution: Experience Manager
 title: BaseColor
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 57de25f9-ed99-4d4c-ac0e-08d382e8a36f
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 5%
+source-wordcount: '82'
+ht-degree: 6%
 
 ---
 
-
 # BaseColor{#basecolor}
 
-Couleur d’image dominante. Couleur soustractive, utilisée pour la coloration de la texture. Doit être la couleur dominante moyenne dans l’image de texture.
+Couleur de l&#39;image dominante. Couleur soustractive, utilisée pour la coloration de texture. Doit être la couleur dominante moyenne dans l’image de texture.
 
 Vous pouvez également utiliser `BaseColor`comme couleur de remplissage si un matériau de texture sans `catalog::Color` est appliqué à un objet de vignette non texturable.
 
 ## Propriétés {#section-d9aec235f28b402581cf2277f5fc6fbb}
 
-Couleur. Ignoré par les matériaux de couleur unie et d&#39;armoire.
+Couleur. Ignoré par les matériaux de couleur et d’armoire solides.
 
 ## Par défaut {#section-ca1813a6fcb24645b5835af0891b279d}
 
