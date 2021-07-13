@@ -3,9 +3,9 @@ description: Le SDK de la visionneuse fournit un ensemble de composants JavaScri
 solution: Experience Manager
 title: Tutoriel du SDK de la visionneuse
 feature: Dynamic Media Classic,Visionneuses,SDK/API
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Ce tutoriel comprend l’ordre de tâches suivant pour vous aider à créer une 
 * [Ajout de boutons à la visionneuse](c-tutorial.md#section-1fc334fa0d2b47eb9cdad461725c07be)
 * [Configuration verticale des nuanciers](c-tutorial.md#section-91a8829d5b5a4d45a35b7faeb097fcc9)
 
-## Téléchargez le dernier SDK de visionneuse à partir de Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
+## Télécharger le dernier SDK de visionneuse à partir de Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
 
 1. Téléchargez le dernier SDK de visionneuse à partir de Adobe Developer Connection <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->.
 
@@ -119,7 +119,7 @@ Ce tutoriel comprend l’ordre de tâches suivant pour vous aider à créer une 
 
 Vous allez maintenant ajouter un style à votre visionneuse.
 
-## Ajout d’un style à votre visionneuse {#section-3783125360a1425eae5a5a334867cc32}
+## Ajout d’un style à la visionneuse {#section-3783125360a1425eae5a5a334867cc32}
 
 1. Pour cette visionneuse de page complète que vous créez, vous pouvez ajouter des styles de base.
 
