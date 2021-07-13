@@ -1,27 +1,26 @@
 ---
-description: Le panneau Appel à l’action s’affiche à la fin de la vidéo et affiche toutes les nuances interactives associées à la vidéo en question.
+description: Le panneau Appel à l’action s’affiche lorsque la vidéo se termine et affiche tous les échantillons interactifs associés à la vidéo particulière.
 solution: Experience Manager
 title: Appel à l'action
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéos interactives
+role: Developer,User
 exl-id: 43e0ffb3-d650-4b79-ab48-2f32b313b832
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1283'
 ht-degree: 2%
 
 ---
 
 # Appel à l&#39;action{#call-to-action}
 
-Le panneau Appel à l’action s’affiche à la fin de la vidéo et affiche toutes les nuances interactives associées à la vidéo en question.
+Le panneau Appel à l’action s’affiche lorsque la vidéo se termine et affiche tous les échantillons interactifs associés à la vidéo particulière.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Le panneau se compose d’une zone d’en-tête présentant le titre de la vidéo, d’un bouton de relecture dans le coin supérieur droit et de nuances interactives réelles affichées sous la forme d’une grille défilante. Vous pouvez désactiver le panneau à l’aide de l’attribut de configuration [callToActionRecap](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoactionrecap.md#reference-3720b68800684ddabf523e9d81644ce6).
+Le panneau se compose d’une zone d’en-tête affichant le titre de la vidéo, d’un bouton de relecture dans le coin supérieur droit et d’échantillons interactifs réels affichés sous la forme d’une grille défilante. Vous pouvez désactiver le panneau à l’aide de l’attribut de configuration [callToActionRecap](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/r-html5-aem-int-video-config-attrib/r-html5-aem-int-video-config-attrib-calltoactionrecap.md#reference-3720b68800684ddabf523e9d81644ce6).
 
-Le panneau d’appel à l’action prend toujours la totalité de la zone de visualisation disponible.
+Le panneau d’appel à l’action prend toujours l’intégralité de la zone de visionneuse disponible.
 
 <!--<a id="section_3A619BE925C04AFA87A6B7846C5C7E2B"></a>-->
 
@@ -60,7 +59,7 @@ Le sélecteur de classe CSS suivant contrôle l’aspect de l’en-tête dans le
 .s7interactivevideoviewer .s7calltoaction .s7header
 ```
 
-## Propriétés CSS de l&#39;en-tête du panneau d&#39;appel à l&#39;action {#css-properties-of-the-call-to-action-panel-header}
+## Propriétés CSS de l’en-tête du panneau d’appel à l’action {#css-properties-of-the-call-to-action-panel-header}
 
 <table id="table_DAA1770AB3074845B5E1B700CD6FC18A"> 
  <tbody> 
@@ -81,7 +80,7 @@ Le sélecteur de classe CSS suivant contrôle l’aspect de l’en-tête dans le
 
 ## Exemple {#example-1}
 
-Pour configurer un en-tête de 70 pixels de haut, avec un arrière-plan gris foncé et une bordure de deux pixels légèrement grise le long du bas :
+Pour configurer un en-tête de 70 pixels de haut, avec un arrière-plan gris foncé et une bordure de deux pixels légèrement plus claire le long du bas :
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7header { 
@@ -93,7 +92,7 @@ Pour configurer un en-tête de 70 pixels de haut, avec un arrière-plan gris fon
 
 <!--<a id="section_B0333FC1A2CC4E089C68D34B839E5156"></a>-->
 
-Le sélecteur de classe CSS suivant contrôle l’aspect du titre d’en-tête dans le panneau d’appel à l’action :
+Le sélecteur de classe CSS suivant contrôle l’aspect du titre de l’en-tête dans le panneau d’appel à l’action :
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7header .s7title
@@ -112,8 +111,8 @@ Le sélecteur de classe CSS suivant contrôle l’aspect du titre d’en-tête d
    <td colname="col2"> <p>Taille de police. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ligne-hauteur  </span> </p> </td> 
-   <td colname="col2"> <p>Hauteur de la ligne. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> line-height  </span> </p> </td> 
+   <td colname="col2"> <p>Hauteur de ligne. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
@@ -128,8 +127,8 @@ Le sélecteur de classe CSS suivant contrôle l’aspect du titre d’en-tête d
    <td colname="col2"> <p>Marge intérieure gauche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage-droit  </span> </p> </td> 
-   <td colname="col2"> <p> Marge intérieure droite pour laisser de l’espace au bouton Lecture. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge intérieure-droite  </span> </p> </td> 
+   <td colname="col2"> <p> Marge intérieure droite pour laisser de l’espace pour le bouton Relecture. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -161,27 +160,27 @@ Le sélecteur de classe CSS suivant contrôle l’aspect du bouton de fermeture 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> haut </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir du haut de l’en-tête, y compris le remplissage. </p> </td> 
+   <td colname="col2"> <p>Position en haut de l’en-tête, y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> droite </span> </p> </td> 
-   <td colname="col2"> <p>Position à droite de l’en-tête, y compris le remplissage. </p> </td> 
+   <td colname="col2"> <p>Position à droite de l’en-tête, y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Largeur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> hauteur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p> Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
-   <td colname="col2"> <p>Positionnez l’objet d’illustration à l’intérieur de l’image-objet, si des images-objets CSS sont utilisées. </p> <p>Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col2"> <p>Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -192,7 +191,7 @@ Le sélecteur de classe CSS suivant contrôle l’aspect du bouton de fermeture 
 
 ## Exemple {#example-3}
 
-Pour configurer un bouton de relecture de 28 x 28 pixels, positionné à 20 pixels du haut et du bord droit de l’en-tête ; affiche une image différente pour chacun des quatre états de bouton différents ; prend l’illustration de l’image d’image-objet du composant :
+Pour configurer un bouton de relecture de 28 x 28 pixels ; positionné à 20 pixels du haut et du bord droit de l’en-tête ; affiche une image différente pour chacun des quatre états de bouton différents ; prend l’illustration à partir de l’image sprite du composant :
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7closebutton { 
@@ -221,7 +220,7 @@ Pour configurer un bouton de relecture de 28 x 28 pixels, positionné à 20 pixe
 
 <!--<a id="section_3975B58E78DE4E81B469372FB8A3A348"></a>-->
 
-Le sélecteur de classe CSS suivant contrôle l’aspect de la vue de grille de miniature dans le panneau d’appel à l’action :
+Le sélecteur de classe CSS suivant contrôle l’aspect de l’affichage de la grille de miniature dans le panneau d’appel à l’action :
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview
@@ -256,7 +255,7 @@ Le sélecteur de classe CSS suivant contrôle l’aspect de la cellule de pouce 
 .s7interactivevideoviewer .s7calltoaction .s7thumbcell
 ```
 
-## Propriétés CSS de la cellule de miniature dans le panneau d’appel à l’action : {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
+## Propriétés CSS de la miniature dans le panneau d’appel à l’action : {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
 
 <table id="table_9CEBEF6FC7024F02840A581AEEF612B4"> 
  <tbody> 
@@ -269,7 +268,7 @@ Le sélecteur de classe CSS suivant contrôle l’aspect de la cellule de pouce 
 
 ## Exemple {#example-5}
 
-Pour définir un espacement horizontal de 24 pixels et un espacement vertical de 18 pixels :
+Pour configurer l’espacement horizontal de 24 pixels et l’espacement vertical de 18 pixels :
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbcell { 
@@ -297,7 +296,7 @@ Le sélecteur de classe CSS suivant contrôle l’aspect de la miniature dans le
    <td colname="col2"> <p>Largeur de la miniature. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> hauteur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hauteur de la miniature. </p> </td> 
   </tr> 
   <tr> 
@@ -309,7 +308,7 @@ Le sélecteur de classe CSS suivant contrôle l’aspect de la miniature dans le
 
 >[!NOTE]
 >
->La miniature prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de miniature. `state="selected"` correspond en particulier à la vignette de l’image actuellement sélectionnée ; `state="default"` correspond au reste des miniatures ; `state="over"` est utilisé lors du survol de la souris.
+>La miniature prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la miniature de l’image actuellement sélectionnée. `state="default"` correspond au reste des miniatures ; `state="over"` est utilisé au survol de la souris.
 
 ## Exemple {#example-6}
 
@@ -336,7 +335,7 @@ Le sélecteur de classe CSS suivant contrôle l’aspect du libellé de la minia
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color  </span> </p> </td> 
-   <td colname="col2"> <p> Couleur du texte de l’étiquette. </p> </td> 
+   <td colname="col2"> <p> Couleur du texte du libellé. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> alignement de texte  </span> </p> </td> 
@@ -355,7 +354,7 @@ Le sélecteur de classe CSS suivant contrôle l’aspect du libellé de la minia
 
 ## Exemple {#example-7}
 
-Pour configurer des libellés de couleur blanche, aligner le centre sur 15 pixels et utiliser une police Arial :
+Pour configurer des libellés qui utilisent une couleur blanche, positionnez-les de 15 pixels au centre et utilisez une police Arial :
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7label { 
@@ -368,9 +367,9 @@ Pour configurer des libellés de couleur blanche, aligner le centre sur 15 pixel
 
 <!--<a id="section_2C011101EB804513B942EFB4CBD38E62"></a>-->
 
-S’il y a plus de miniatures que celles qui peuvent tenir verticalement à la vue, les miniatures génèrent une barre de défilement verticale sur le côté droit. Par défaut, le panneau d’appel à l’action affiche une toute petite barre verticale sans boutons de pouce et de défilement. Il est toutefois possible de personnaliser la barre en modifiant le fichier CSS de la visionneuse.
+S’il existe plus de miniatures que celles pouvant s’afficher verticalement, les miniatures affichent une barre de défilement verticale sur le côté droit. Par défaut, le panneau d’appel à l’action affiche une toute petite barre verticale sans boutons de menu déroulant. Il est toutefois possible de personnaliser la barre en modifiant le fichier CSS de la visionneuse.
 
-Le sélecteur de classe CSS suivant contrôle l’aspect de la zone de barre de défilement dans le panneau d’appel à l’action :
+Le sélecteur de classe CSS suivant contrôle l’aspect de la zone de la barre de défilement dans le panneau d’appel à l’action :
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar
@@ -386,22 +385,22 @@ Le sélecteur de classe CSS suivant contrôle l’aspect de la zone de barre de 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> haut </span> </p> </td> 
-   <td colname="col2"> <p>Décalage de la barre de défilement verticale à partir du haut de la zone des miniatures. </p> </td> 
+   <td colname="col2"> <p>Décalage de la barre de défilement verticale par rapport au haut de la zone des miniatures. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bas </span> </p> </td> 
-   <td colname="col2"> <p>Décalage de la barre de défilement verticale à partir du bas de la zone des miniatures. </p> </td> 
+   <td colname="col2"> <p>Décalage de la barre de défilement vertical par rapport au bas de la zone des miniatures. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> droite </span> </p> </td> 
-   <td colname="col2"> <p> Décalage de la barre de défilement horizontale par rapport au bord droit de la zone des vignettes. </p> </td> 
+   <td colname="col2"> <p> Décalage de la barre de défilement horizontale à partir du bord droit de la zone des miniatures. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Exemple {#example-8}
 
-Pour configurer une barre de défilement de 22 pixels de large et ne présentant aucune marge du haut, de la droite ou du bas de la zone des miniatures :
+Pour configurer une barre de défilement de 22 pixels de large et sans marge du haut, de la droite ou du bas de la zone des miniatures :
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar { 
@@ -414,7 +413,7 @@ Pour configurer une barre de défilement de 22 pixels de large et ne présentant
 
 <!--<a id="section_E27B7253441543278E1081D70BA46122"></a>-->
 
-La barre de défilement est la zone située entre les boutons de la barre de défilement supérieure et inférieure. Le composant définit automatiquement la position et la hauteur de la piste.
+La barre de défilement est la zone entre les boutons de la barre de défilement supérieure et inférieure. Le composant définit automatiquement la position et la hauteur du suivi.
 
 Le sélecteur de classe CSS suivant contrôle l’aspect du suivi de la barre de défilement dans le panneau d’appel à l’action :
 
@@ -439,7 +438,7 @@ Le sélecteur de classe CSS suivant contrôle l’aspect du suivi de la barre de
 
 ## Exemple {#example-9}
 
-Pour configurer une piste de barre de défilement de 22 pixels de large et de couleur grise :
+Pour configurer une piste de barre de défilement de 22 pixels de large et d’une couleur grise :
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrolltrack { 
@@ -450,15 +449,15 @@ Pour configurer une piste de barre de défilement de 22 pixels de large et de co
 
 <!--<a id="section_4A5D8C1A9C9D4E7B8AC0CD5BC6F3772D"></a>-->
 
-Le curseur de la barre de défilement se déplace verticalement dans la zone de suivi de défilement. Sa position verticale est entièrement contrôlée par la logique des composantes; toutefois, la hauteur du curseur ne change pas de manière dynamique en fonction de la quantité de contenu.
+La barre de défilement se déplace verticalement dans la zone de suivi de défilement. Sa position verticale est entièrement contrôlée par la logique du composant. cependant, la hauteur du pouce ne change pas dynamiquement en fonction de la quantité de contenu.
 
-Le sélecteur de classe CSS suivant contrôle l’aspect de la hauteur du pouce et d’un autre aspect :
+Le sélecteur de classe CSS suivant contrôle l’aspect de la hauteur du pouce et d’autres aspects :
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrollthumb
 ```
 
-## Propriétés CSS de la hauteur du curseur dans le panneau d’appel à l’action : {#css-properties-of-the-thumb-height-in-the-call-to-action-panel}
+## Propriétés CSS de la hauteur du pouce dans le panneau d’appel à l’action : {#css-properties-of-the-thumb-height-in-the-call-to-action-panel}
 
 <table id="table_1F39948FC3924FA4B7F851B65B2D860B"> 
  <tbody> 
@@ -467,15 +466,15 @@ Le sélecteur de classe CSS suivant contrôle l’aspect de la hauteur du pouce 
    <td colname="col2"> <p>Largeur du pouce. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> hauteur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hauteur du pouce. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage-haut  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> remplissage-top  </span> </p> </td> 
    <td colname="col2"> <p>Marge intérieure verticale entre le haut de la piste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage-bas  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> remplissage-bottom  </span> </p> </td> 
    <td colname="col2"> <p>Marge intérieure verticale entre le bas de la piste. </p> </td> 
   </tr> 
   <tr> 
@@ -487,23 +486,23 @@ Le sélecteur de classe CSS suivant contrôle l’aspect de la hauteur du pouce 
    <td colname="col2"> <p>Couleur du pouce. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Image affichée pour un état de pouce donné. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
-   <td colname="col2"> <p> Positionnez l’objet à l’intérieur de l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Thumb prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages aux différents états de pouce suivants : `"up"`, `"down"`, `"over"` et `"disabled"`.
+>La miniature prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages aux différents états de miniature suivants : `"up"`, `"down"`, `"over"` et `"disabled"`.
 
 ## Exemple {#example-10}
 
-Pour configurer un pouce de barre de défilement de 6 x 167 pixels, avec trois pixels aux coins arrondis et une couleur de gris :
+Pour configurer une barre de défilement de 6 x 167 pixels, elle dispose de trois pixels aux coins arrondis et d’une couleur grise :
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrollthumb[state] { 
@@ -517,7 +516,7 @@ Pour configurer un pouce de barre de défilement de 6 x 167 pixels, avec trois p
 
 <!--<a id="section_C393B59763344E70A3BBD0601110F8DD"></a>-->
 
-Le sélecteur de classe CSS suivant contrôle l’aspect des boutons de défilement supérieur et inférieur :
+Le sélecteur de classe CSS suivant contrôle l’aspect des boutons de défilement haut et bas :
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrollupbutton 
@@ -525,9 +524,9 @@ Le sélecteur de classe CSS suivant contrôle l’aspect des boutons de défilem
 .s7interactivevideoviewer .s7calltoaction .s7thumbnailgridview .s7scrollbar .s7scrolldownbutton
 ```
 
-Il n’est pas possible de positionner les boutons de défilement à l’aide des propriétés CSS top, left, bottom ou right ; la logique du lecteur les positionne automatiquement. Le panneau d’appel à l’action de la visionneuse de vidéos interactive n’utilise pas ces boutons dans la barre de défilement. Par conséquent, leur taille est définie sur 0 pixel dans le CSS par défaut.
+Il n’est pas possible de positionner les boutons de défilement à l’aide des propriétés CSS supérieure, gauche, inférieure ou droite ; la logique de la visionneuse les positionne automatiquement. Le panneau d’appel à l’action de la visionneuse de vidéos interactive n’utilise pas ces boutons dans la barre de défilement. Par conséquent, leur taille est définie sur 0 pixel dans le CSS par défaut.
 
-## Propriétés CSS des boutons de défilement supérieur et inférieur dans le panneau d’appel à l’action :  {#css-properties-of-the-top-and-bottom-scroll-buttons-in-the-call-to-action-panel}
+## Propriétés CSS des boutons de défilement haut et bas du panneau d’appel à l’action :  {#css-properties-of-the-top-and-bottom-scroll-buttons-in-the-call-to-action-panel}
 
 <table id="table_FE17D19E0545424EADB0256524361359"> 
  <tbody> 
@@ -536,16 +535,16 @@ Il n’est pas possible de positionner les boutons de défilement à l’aide de
    <td colname="col2"> <p> Largeur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> hauteur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
-   <td colname="col2"> <p> Positionnez l’objet à l’intérieur de l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
