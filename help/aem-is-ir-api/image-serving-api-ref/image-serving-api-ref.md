@@ -1,18 +1,17 @@
 ---
-description: Vue de l’aide de référence de l’API Dynamic Media Image Serving.
-title: Référence de l’API de diffusion d’images
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+description: Consultez l’aide de référence de l’API Dynamic Media Image Serving .
+title: Référence de l’API de serveur d’images
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '34'
+source-wordcount: '31'
 ht-degree: 0%
 
 ---
 
 
-# Référence de l’API de diffusion d’images{#image-serving-api-reference}
+# Référence de l’API de serveur d’images{#image-serving-api-reference}
 
-Vue de l’aide de référence de l’API Dynamic Media Image Serving.
+Consultez l’aide de référence de l’API Dynamic Media Image Serving .
 
