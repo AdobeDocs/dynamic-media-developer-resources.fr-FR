@@ -1,21 +1,20 @@
 ---
-description: Gestion des erreurs de sélection d’objets. Indique l’action à exécuter si la commande obj= échoue, car le chemin spécifié ne peut pas être mis en correspondance dans la hiérarchie d’objets de vignette.
+description: Gestion des erreurs de sélection d’objet. Indique l’action à effectuer si la commande obj= échoue, car le chemin spécifié ne peut pas être mis en correspondance dans la hiérarchie d’objets de vignette.
 solution: Experience Manager
 title: OnFailObj
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 0ed04daf-1797-4c12-ae6d-a9a008de9d1d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '119'
 ht-degree: 13%
 
 ---
 
-
 # OnFailObj{#onfailobj}
 
-Gestion des erreurs de sélection d’objets. Indique l’action à exécuter si la commande obj= échoue, car le chemin spécifié ne peut pas être mis en correspondance dans la hiérarchie d’objets de vignette.
+Gestion des erreurs de sélection d’objet. Indique l’action à effectuer si la commande obj= échoue, car le chemin spécifié ne peut pas être mis en correspondance dans la hiérarchie d’objets de vignette.
 
 ## Propriétés {#section-2c779d9c133a443d9f0aed9fde7b703c}
 
@@ -32,7 +31,7 @@ Enum.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>Désélectionner ; toute tentative d'application d'un matériau ou d'affichage/masquage d'objets est ignorée. </p> </td> 
+  <td class="stentry"> <p>Désélectionner ; toute tentative d’application d’un matériau ou d’affichage/masquage d’objets est ignorée. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
@@ -40,13 +39,13 @@ Enum.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>Sélectionnez le groupe par défaut (le premier groupe de la hiérarchie de vignettes qui contient des objets à rendu). </p> </td> 
+  <td class="stentry"> <p>Sélectionnez le groupe par défaut (le premier groupe de la hiérarchie de vignettes contenant les objets à rendre). </p> </td> 
  </tr> 
 </table>
 
 ## Par défaut {#section-a5a95a2b4a204a4eae350e5b544d1513}
 
-Hérité de `default::OnFailObj` si elle n&#39;est pas définie.
+Hérité de `default::OnFailObj` si elle n’est pas définie.
 
 ## Voir aussi {#section-806dc2c5973c41f683af085b3315043c}
 
