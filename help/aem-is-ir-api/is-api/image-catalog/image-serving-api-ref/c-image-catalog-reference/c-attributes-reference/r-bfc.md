@@ -2,16 +2,15 @@
 description: Conversion au format du navigateur. Indique si la fonctionnalité de conversion du format de navigateur est activée ou désactivée.
 solution: Experience Manager
 title: Bfc
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 407d36ae-ea45-4580-9ca2-16d073d1edad
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '59'
 ht-degree: 1%
 
 ---
-
 
 # Bfc{#bfc}
 
@@ -24,7 +23,7 @@ Conversion au format du navigateur. Indique si la fonctionnalité de conversion 
 <table id="simpletable_998CF426296945FEA48D19E33B71A17E"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> true|false  </span> </p> </td> 
-  <td class="stentry"> <p>Indique si les images JPEG ou PNG convertissant des formats de fichier de format de navigateur en formats de fichier spécifiques plus petits sont activées ( <span class="codeph"> true </span>) ou désactivées ( <span class="codeph"> false </span>). </p> </td> 
+  <td class="stentry"> <p>Indique si la fonctionnalité de conversion de format de navigateur (conversion d’images JPEG ou PNG dans des formats de fichiers spécifiques au navigateur plus petits) est activée ( <span class="codeph"> true </span>) ou désactivée ( <span class="codeph"> false </span>). </p> </td> 
  </tr> 
 </table>
 
