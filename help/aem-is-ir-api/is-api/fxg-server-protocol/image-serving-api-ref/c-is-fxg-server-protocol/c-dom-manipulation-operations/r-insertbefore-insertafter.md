@@ -2,16 +2,15 @@
 description: Définissez le code XML avant ou après un noeud.
 solution: Experience Manager
 title: insertBefore,insertAfter
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 20d27fa7-e98a-4f85-9e48-5fa9ad3102b7
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '58'
 ht-degree: 3%
 
 ---
-
 
 # insertBefore,insertAfter{#insertbefore-insertafter}
 
@@ -19,11 +18,11 @@ Définissez le code XML avant ou après un noeud.
 
 `insertBefore=<xml>, insertAfter=<xml>`
 
-Si un élément de noeud FXG possède une valeur `s7:elementID` définie, nous pouvons ajouter des fragments XML avant ou après ce noeud avec cette commande.
+Si un élément de noeud FXG a une valeur `s7:elementID` définie, nous pouvons ajouter des fragments XML avant ou après ce noeud avec cette commande.
 
 ## Exemple {#section-1fc8d4135ef94b60b838391e1568e70e}
 
-Si nous possédons une balise Group comme celle-ci :
+Si nous disposons d’une balise Group comme celle-ci :
 
 `<Group visible="true" s7:elementID="inner_shape">`
 
