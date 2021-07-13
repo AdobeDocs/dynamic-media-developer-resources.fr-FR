@@ -3,9 +3,9 @@ description: La barre de défilement vidéo est la commande de curseur horizonta
 solution: Experience Manager
 title: Défilement vidéo
 feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 3e9c8800-fda2-41d1-8436-b2de7952652c
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 3%
