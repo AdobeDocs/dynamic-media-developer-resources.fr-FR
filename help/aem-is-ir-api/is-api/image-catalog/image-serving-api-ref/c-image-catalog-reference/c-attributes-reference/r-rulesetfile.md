@@ -1,21 +1,20 @@
 ---
-description: Chemin du fichier de définitions de jeu de règles. Indique le fichier qui contient les définitions de jeu de règles pour ce catalogue d’images.
+description: Chemin d’accès au fichier des définitions de jeu de règles. Spécifie le fichier contenant les définitions de jeu de règles pour ce catalogue d’images.
 solution: Experience Manager
-title: FichierJeuRègle
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: RuleSetFile
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: a9c0d748-c236-4a37-a181-729a27135a71
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '77'
 ht-degree: 5%
 
 ---
 
-
 # RuleSetFile{#rulesetfile}
 
-Chemin du fichier de définitions de jeu de règles. Indique le fichier qui contient les définitions de jeu de règles pour ce catalogue d’images.
+Chemin d’accès au fichier des définitions de jeu de règles. Spécifie le fichier contenant les définitions de jeu de règles pour ce catalogue d’images.
 
 ## Propriétés {#section-e8449b2225294518a5f9ddb698f68360}
 
@@ -23,7 +22,7 @@ Valeur de chaîne de texte. Chemin ou chemin d’accès absolu au fichier par ra
 
 ## Par défaut {#section-20a9d535d64347abaf0233595b2ad089}
 
-Vide, ce qui indique que ce catalogue d’images ne comporte pas de règles de prétraitement de demande privée.
+Vide, ce qui indique que ce catalogue d’images ne comporte pas de règles de prétraitement des demandes privées.
 
 ## Voir aussi {#section-83a41bf1a953429ab6f35249e0e6c27f}
 
