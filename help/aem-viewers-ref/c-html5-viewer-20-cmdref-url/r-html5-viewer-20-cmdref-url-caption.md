@@ -1,14 +1,13 @@
 ---
 description: Paramètre commun à toutes les visionneuses.
 solution: Experience Manager
-title: légende
-feature: Dynamic Media Classic,Viewers,SDK/API
-role: Developer,Business Practitioner
+title: caption
+feature: Dynamic Media Classic,Visionneuses,SDK/API
+role: Developer,User
 exl-id: 06ce5520-944b-4ab0-8f59-67c273bd8314
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '269'
 ht-degree: 6%
 
 ---
@@ -27,16 +26,16 @@ Paramètre commun à toutes les visionneuses.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fichier  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Indique une URL ou un chemin d’accès au contenu de la légende WebVTT. Image Serving diffuse le fichier WebVTT. </p> </td> 
+   <td colname="col2"> <p> Spécifie une URL ou un chemin d’accès au contenu de la légende WebVTT. La diffusion d’images diffuse le fichier WebVTT. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Indique l’état de légende par défaut. Activé est <span class="codeph"> 1 </span>. </p> </td> 
+   <td colname="col2"> <p> Indique l’état de la légende par défaut. L’option activée est <span class="codeph"> 1 </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ce lecteur prend en charge le sous-titrage par le biais de fichiers WebVTT hébergés. Les légendes spécifiées avec ce paramètre s’appliquent à la vidéo qui vient en premier dans les visionneuses de supports ; les vidéos suivantes sont lues sans légende. Les signaux et les régions qui se chevauchent ne sont pas pris en charge. Opérateurs de positionnement des indices pris en charge :
+Cette visionneuse prend en charge le sous-titrage par le biais de fichiers WebVTT hébergés. Les sous-titres spécifiés avec ce paramètre s’appliquent à la vidéo qui apparaît en premier dans les visionneuses de médias. les vidéos suivantes sont lues sans légende. Les indicateurs de chevauchement et les régions ne sont pas pris en charge. Opérateurs de positionnement des repères pris en charge :
 
 <table id="table_E752D7D8C1AA40C6B8A7057D2BB379C1"> 
  <thead> 
@@ -50,9 +49,9 @@ Ce lecteur prend en charge le sous-titrage par le biais de fichiers WebVTT hébe
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> A </span> </p> </td> 
-   <td colname="col2"> <p>alignement de test </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> gauche|droite|milieu|début|fin  </span> </p> </td> 
-   <td colname="col4"> <p> Contrôle l’alignement du texte. </p> <p>La valeur par défaut est <span class="codeph"> mid </span>. </p> </td> 
+   <td colname="col2"> <p>alignement des tests </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> left|right|middle|start|end  </span> </p> </td> 
+   <td colname="col4"> <p> Contrôle l’alignement du texte. </p> <p>La valeur par défaut est <span class="codeph"> milieu </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> T </span> </p> </td> 
@@ -64,28 +63,28 @@ Ce lecteur prend en charge le sous-titrage par le biais de fichiers WebVTT hébe
    <td colname="col1"> <p> <span class="codeph"> S </span> </p> </td> 
    <td colname="col2"> <p>taille de ligne </p> </td> 
    <td colname="col3"> <p> 0 à 100 % </p> </td> 
-   <td colname="col4"> <p> Pourcentage de la largeur de vidéo utilisée pour les légendes. </p> <p>La valeur par défaut est <span class="codeph"> 100 % </span>. </p> </td> 
+   <td colname="col4"> <p> Pourcentage de la largeur de la vidéo utilisée pour les sous-titres. </p> <p>La valeur par défaut est <span class="codeph"> 100 % </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> L </span> </p> </td> 
-   <td colname="col2"> <p>position de la ligne </p> </td> 
-   <td colname="col3"> <p> 0 %-100 %|entier </p> </td> 
-   <td colname="col4"> <p> Détermine la position de la ligne sur la page. </p> <p>S’il s’agit d’un entier sans signe de pourcentage, il s’agit du nombre de lignes du haut où le texte est affiché. </p> <p>Si elle est exprimée en pourcentage, le signe pourcentage est le dernier caractère, le texte de la légende s’affiche alors en pourcentage dans la zone d’affichage. </p> <p>La valeur par défaut est <span class="codeph"> 100 % </span>. </p> </td> 
+   <td colname="col2"> <p>position ligne </p> </td> 
+   <td colname="col3"> <p> 0%-100%|integer </p> </td> 
+   <td colname="col4"> <p> Détermine la position de la ligne sur la page. </p> <p>S’il est exprimé sous la forme d’un entier sans signe de pourcentage, il s’agit du nombre de lignes du haut où le texte est affiché. </p> <p>S’il est exprimé sous la forme d’un pourcentage, le signe pourcentage est le dernier caractère, le texte de la légende s’affiche sous la forme d’un pourcentage dans la zone d’affichage. </p> <p>La valeur par défaut est <span class="codeph"> 100 % </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Sachez que s’il existe d’autres fonctionnalités WebVTT présentes dans le fichier WebVTT, elles ne sont pas prises en charge ; cependant, ils ne perturberont pas le sous-titrage.
+Notez que si d’autres fonctionnalités WebVTT sont présentes dans le fichier WebVTT, elles ne sont pas prises en charge ; cependant, elles ne perturberont pas le sous-titrage.
 
 <table id="table_CB7B4DFC6B654AECA1AF6594E3FD5C46"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fichier  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Indique une URL ou un chemin d’accès au contenu de la légende WebVTT. Le fichier WebVTT est diffusé par Image Serving. </p> </td> 
+   <td colname="col2"> <p> Spécifie une URL ou un chemin d’accès au contenu de la légende WebVTT. Le fichier WebVTT est diffusé par Image Serving. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Indique l’état de légende par défaut. </p> <p>Activé est <span class="codeph"> 1 </span>. </p> </td> 
+   <td colname="col2"> <p> Indique l’état de la légende par défaut. </p> <p>L’option activée est <span class="codeph"> 1 </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
