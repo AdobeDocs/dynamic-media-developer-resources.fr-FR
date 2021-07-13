@@ -1,35 +1,34 @@
 ---
-description: Attribut de configuration pour la visionneuse Video360.
+description: Attribut de configuration de la visionneuse Video360.
 solution: Experience Manager
 title: EmbedShare.embedsizes
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visionneuses,SDK/API,vidéo 360 VR
+role: Developer,User
 exl-id: 3a6c23dd-5e2c-4149-aa24-37d445128125
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '65'
 ht-degree: 10%
 
 ---
 
 # EmbedShare.embedsizes{#embedshare-embedsizes}
 
-Attribut de configuration pour la visionneuse Video360.
+Attribut de configuration de la visionneuse Video360.
 
-` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`largeurhauteurLargeurLargeur`*[,0|1]]`
+` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`widthheightwidthheight`*[,0|1]]`
 
-Spécifie une liste de tailles incorporées pour la zone combinée de taille dans la boîte de dialogue modale de partage incorporée.
+Indique une liste de tailles d’intégration pour la zone combinée de taille dans la boîte de dialogue modale de partage d’intégration.
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td> 
-   <td colname="col2"> <p> Largeur intégrée. </p> </td> 
+   <td colname="col2"> <p> Largeur de l’incorporation. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> height </span> </span> </p> </td> 
-   <td colname="col2"> <p>Incorporer la hauteur. </p> </td> 
+   <td colname="col2"> <p>Hauteur de l’incorporation. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
