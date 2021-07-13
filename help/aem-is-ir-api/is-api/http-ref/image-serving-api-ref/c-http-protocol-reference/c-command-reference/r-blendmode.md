@@ -1,27 +1,26 @@
 ---
-description: Mode de fusion. Indique le type de fusion utilisé lorsque le calque est composé. Simule les modes de fusion couramment utilisés disponibles dans Photoshop. Consultez la documentation Photoshop pour plus de détails.
+description: Mode de fusion. Indique le type de fusion utilisé lorsque le calque est composé. Simule les modes de fusion couramment utilisés disponibles dans Photoshop. Pour plus d’informations, reportez-vous à la documentation Photoshop .
 solution: Experience Manager
 title: blendMode
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 8f0b8b0a-a8ac-4932-986c-5d14d3311f1b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 14%
+source-wordcount: '72'
+ht-degree: 15%
 
 ---
 
-
 # blendMode{#blendmode}
 
-Mode de fusion. Indique le type de fusion utilisé lorsque le calque est composé. Simule les modes de fusion couramment utilisés disponibles dans Photoshop. Consultez la documentation Photoshop pour plus de détails.
+Mode de fusion. Indique le type de fusion utilisé lorsque le calque est composé. Simule les modes de fusion couramment utilisés disponibles dans Photoshop. Pour plus d’informations, reportez-vous à la documentation Photoshop .
 
 `blendMode=norm|dissolve|lighten|darken|mult|screen`
 
 ## Propriétés {#section-418aad5a417f49929d1953e226e5c8dd}
 
-Attribut de couche. Ignoré par `layer=0` et `layer=comp`.
+Attribut de calque. Ignoré par `layer=0` et `layer=comp`.
 
 ## Par défaut {#section-69829acc6532448d8612a4a54e86f00e}
 
