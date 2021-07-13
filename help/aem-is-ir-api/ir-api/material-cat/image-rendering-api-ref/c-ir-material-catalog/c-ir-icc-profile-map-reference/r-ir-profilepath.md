@@ -1,25 +1,24 @@
 ---
-description: Chemin du fichier de profil. Chemin et nom du fichier de profil de couleurs ICC, y compris le suffixe du fichier.
+description: Chemin du fichier de profil. Chemin et nom du fichier de profil colorimétrique ICC, y compris le suffixe du fichier.
 solution: Experience Manager
 title: ProfilePath
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: f3ab11a6-d14d-426b-aaa8-af14f062532c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 9%
+source-wordcount: '60'
+ht-degree: 10%
 
 ---
 
-
 # ProfilePath{#profilepath}
 
-Chemin du fichier de profil. Chemin et nom du fichier de profil de couleurs ICC, y compris le suffixe du fichier.
+Chemin du fichier de profil. Chemin et nom du fichier de profil colorimétrique ICC, y compris le suffixe du fichier.
 
 ## Propriétés {#section-5b75d459083f49f3bbd89ce8458559f7}
 
-Chaîne de texte. Obligatoire. Doit être un chemin d’accès au fichier Image Server valide, absolu ou relatif à `attribute::RootPath`.
+Chaîne de texte. Obligatoire. Doit être un chemin d’accès au fichier du serveur d’images valide, absolu ou relatif à `attribute::RootPath`.
 
 ## Par défaut {#section-67b79d62b3e24c62aff6844cc5e04251}
 
@@ -27,4 +26,4 @@ Aucune
 
 ## Voir aussi {#section-18bdd258f6de456098bd5637064bd1b5}
 
-[attribut::RootPath](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md#reference-a4d7c96b62e14fcbad1740c702f160f3)
+[attribute::RootPath](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md#reference-a4d7c96b62e14fcbad1740c702f160f3)
