@@ -3,9 +3,9 @@ description: Visionneuse d’images interactive est une visionneuse qui affiche 
 solution: Experience Manager
 title: Image interactive
 feature: Dynamic Media Classic,Visionneuses,SDK/API,Images interactives
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: c7089ecd-6ff3-4fe9-9ee7-3b48c9201558
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1733'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Le type de visionneuse est 508.
 
 Voir [Configuration système requise](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
-## Utilisation de la visionneuse d’images interactives {#section-e6c68406ecdc4de781df182bbd8088b4}
+## Utilisation de la visionneuse d’images interactive {#section-e6c68406ecdc4de781df182bbd8088b4}
 
 La visionneuse d’images interactives représente un fichier JavaScript principal et un ensemble de fichiers d’assistance (un seul fichier JavaScript inclus avec tous les composants du SDK de la visionneuse utilisés par cette visionneuse, ressources et CSS particulière) téléchargés par la visionneuse au moment de l’exécution.
 
@@ -40,7 +40,7 @@ La configuration et l’habillage sont similaires à ceux des autres visionneuse
 
 Voir [Référence de commande commune à toutes les visionneuses - Attributs de configuration](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) et [Référence de commande commune à toutes les visionneuses - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## Interaction avec la visionneuse d’images interactives {#section-642e66ca38cd4032992840ec6c0b0cd2}
+## Interaction avec la visionneuse d’images interactive {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
 L’interaction prise en charge par la visionneuse d’images vidéo est l’activation de la zone réactive sur les ordinateurs de bureau. Cette activation se produit sur les périphériques tactiles et en cliquant dessus.
 
