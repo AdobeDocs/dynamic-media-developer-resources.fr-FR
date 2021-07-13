@@ -1,25 +1,24 @@
 ---
-description: Si un mappage de polices est requis pour un catalogue d’images, le chemin relatif ou absolu du fichier de mappage de polices doit être spécifié dans l’attribut FontMapFile.
+description: Si une mise en correspondance de polices est requise pour un catalogue d’images, le chemin relatif ou absolu du fichier doit être spécifié dans l’attribut FontMapFile.
 solution: Experience Manager
 title: Référence de mappage de polices
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: b04e89ee-ae69-41c0-bd62-0929d21980c0
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '106'
 ht-degree: 2%
 
 ---
 
+# Référence de mappage de polices{#font-map-reference}
 
-# Référence du mappage de polices {#font-map-reference}
+Si une mise en correspondance de polices est requise pour un catalogue d’images, le chemin relatif ou absolu du fichier de mise en correspondance de polices doit être spécifié dans attribute::FontMapFile.
 
-Si un mappage de polices est requis pour un catalogue d’images, le chemin relatif ou absolu du fichier de mappage de polices doit être spécifié dans attribute::FontMapFile.
+Les entrées dans la mise en correspondance de polices d’un catalogue d’images spécifique remplacent les entrées dans la mise en correspondance de polices du catalogue par défaut.
 
-Les entrées de la carte des polices d’un catalogue d’images spécifique remplacent les entrées de la carte des polices du catalogue par défaut.
-
-Image Serving prend en charge les polices Adobe Type 1, OpenType et TrueType.
+La diffusion d’images prend en charge les polices Adobe Type 1, OpenType et TrueType.
 
 `textPs=` prend également en charge les polices CID, ATC et bitmap.
 
