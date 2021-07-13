@@ -1,12 +1,11 @@
 ---
-description: Tous les composants du lecteur prennent en charge les rôles et attributs ARIA (Accessible Rich Internet Applications) afin d’améliorer l’intégration avec les technologies d’assistance telles que les lecteurs d’écran.
+description: Tous les composants de visionneuse prennent en charge les rôles et attributs ARIA (Accessible Rich Internet Applications) pour améliorer l’intégration aux technologies d’assistance telles que les lecteurs d’écran.
 solution: Experience Manager
-title: Assistance technique
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners,Accessibility
-role: Developer,Business Practitioner
+title: Prise en charge des technologies d’assistance
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Bannières de carrousel,Accessibilité
+role: Developer,User
 exl-id: 3ed943e8-4695-4561-9be0-1b6ed30294f8
-translation-type: tm+mt
-source-git-commit: f464a7adcb8035a5bdebf1a6c9b647ba04535431
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 0%
@@ -15,14 +14,14 @@ ht-degree: 0%
 
 # Prise en charge des technologies d’assistance{#assistive-technology-support}
 
-Tous les composants du lecteur prennent en charge les rôles et attributs ARIA (Accessible Rich Internet Applications) afin d’améliorer l’intégration avec les technologies d’assistance telles que les lecteurs d’écran.
+Tous les composants de visionneuse prennent en charge les rôles et attributs ARIA (Accessible Rich Internet Applications) pour améliorer l’intégration aux technologies d’assistance telles que les lecteurs d’écran.
 
-L’élément de lecteur de niveau supérieur a les attributs de rôle `region` et `aria-label` définis par défaut sur le nom de la visionneuse. Vous pouvez contrôler le libellé avec le symbole de localisation `Container.LABEL`.
+L’élément de visionneuse de niveau supérieur a un rôle `region` et un attribut `aria-label` défini par défaut sur le nom de la visionneuse. Vous pouvez contrôler le libellé avec le symbole de localisation `Container.LABEL`.
 
-Les boutons ont le rôle `button` et un texte descriptif défini avec l&#39;attribut `aria-label`. La valeur de l’attribut `aria-label` est renseignée à partir de la valeur du symbole de localisation du bouton. Lorsqu’un bouton est désactivé, l’attribut `aria-disabled` est défini en conséquence.
+Les boutons ont le rôle `button` et un texte descriptif défini avec l’attribut `aria-label` . La valeur de l’attribut `aria-label` est renseignée à partir de la valeur du symbole de localisation du bouton. Lorsqu’un bouton est désactivé, l’attribut `aria-disabled` est défini en conséquence.
 
-Les boutons qui vous permettent de naviguer dans les diapositives de carrousel ont des libellés qui se mettent à jour au moment de l&#39;exécution en fonction de la diapositive actuellement sélectionnée. Le modèle d’étiquette de ce bouton est défini avec le symbole de localisation `CAROUSELVIEWER_TOOLTIP_GOTO`.
+Les boutons qui vous permettent de naviguer dans les diapositives de carrousel comportent des libellés qui se mettent à jour au moment de l’exécution selon la diapositive actuellement sélectionnée. Le modèle du libellé de ce bouton est défini avec le symbole de localisation `CAROUSELVIEWER_TOOLTIP_GOTO`.
 
-La vue principale a le rôle `application`. Une brève description de la vue principale est fournie dans `aria-roledescription`, avec la valeur définie par le symbole de localisation `ROLE_DESCRIPTION` du composant principal de vue correspondant. Les conseils de navigation des utilisateurs du clavier sont fournis à l’aide de `aria-describedby`, le texte du conseil d’utilisation provient du symbole de localisation `USAGE_HINT`. Si un libellé est défini dans le champ UserData d’un fichier, l’attribut `aria-label` est défini avec la valeur de ce libellé.
+La vue principale a le rôle `application`. Une brève description de la vue principale est fournie dans `aria-roledescription`, avec la valeur définie par le symbole de localisation `ROLE_DESCRIPTION` du composant de vue principal correspondant. Les conseils de navigation pour les utilisateurs de clavier sont fournis à l’aide de `aria-describedby`, le texte de l’indice d’utilisation provient du symbole de localisation `USAGE_HINT`. Si un libellé est défini dans le champ UserData d’une ressource, l’attribut `aria-label` est défini avec la valeur de ce libellé.
 
-Les zones réactives, les régions et les zones cliquables ont le rôle `button` et un texte descriptif défini avec l’attribut `aria-label`, avec la valeur de la zone réactive ou du libellé de zone cliquable. Lorsque l’utilisateur met l’accent sur les zones réactives ou les zones cliquables, des conseils de navigation pour les utilisateurs du clavier sont fournis à l’aide de `aria-describedby`, le texte du conseil d’utilisation provenant du symbole de localisation `USAGE_HINT`.
+Les zones réactives, régions et zones cliquables ont le rôle `button` et un texte descriptif défini avec l’attribut `aria-label`, avec la valeur de la zone réactive ou de l’étiquette de zone cliquable. Lorsque l’utilisateur met l’accent sur les zones réactives ou les zones cliquables, des conseils de navigation sont fournis pour les utilisateurs du clavier à l’aide de `aria-describedby`, le texte de l’indicateur d’utilisation provenant du symbole de localisation `USAGE_HINT`.
