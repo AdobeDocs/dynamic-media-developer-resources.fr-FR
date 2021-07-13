@@ -2,16 +2,15 @@
 description: ImageMapEffect.rollover
 solution: Experience Manager
 title: ImageMapEffect.rollover
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Recherche catalogue électronique
+role: Developer,User
+exl-id: 29ca3d4d-6953-4148-9b1e-01e94d1da7df
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '87'
 ht-degree: 5%
 
 ---
-
 
 # ImageMapEffect.rollover{#imagemapeffect-rollover}
 
@@ -21,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p>Indique le moment d’affichage du panneau d’informations. </p> <p>Si elle est définie sur <span class="codeph"> 1</span>, le panneau d’informations s’affiche lorsque la souris entre dans la zone de zone de zone cliquable (dans le cas où la zone de l’image n’est pas vide, attribut <span class="codeph"> rollover_key</span>). </p> <p>Si le paramètre est défini sur <span class="codeph"> 0</span>, le panneau d’informations est déclenché lorsque l’utilisateur clique sur la zone cliquable (si la zone cliquable comporte un attribut <span class="codeph"> rollover_key</span> non vide et un attribut <span class="codeph"> href</span> vide). </p> <p> Ignorée sur les périphériques tactiles, y compris les systèmes de bureau tactiles, et définie automatiquement sur <span class="codeph"> 0</span>. </p> </td> 
+   <td colname="col2"> <p>Indique le moment d’affichage du panneau d’informations. </p> <p>S’il est défini sur <span class="codeph"> 1</span>, le panneau d’informations s’affiche lorsque la souris entre dans la zone de zone cliquable (dans le cas où la zone cliquable n’est pas vide, attribut <span class="codeph"> rollover_key</span> ). </p> <p>Si la variable est définie sur <span class="codeph"> 0</span>, le panneau d’informations est déclenché lorsque l’utilisateur clique sur la zone cliquable (si la zone cliquable comporte un attribut <span class="codeph"> rollover_key</span> non vide et des attributs <span class="codeph"> href</span> vides). </p> <p> Ignoré sur les périphériques tactiles, y compris les systèmes de bureau tactiles, et est automatiquement défini sur <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
