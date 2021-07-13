@@ -1,27 +1,26 @@
 ---
-description: La zone principale de la vue est la zone occupée par l’image de zoom. Il s'adapte généralement à l'écran du périphérique disponible lorsqu'aucune taille n'est spécifiée.
+description: La zone d’affichage principale est la zone occupée par l’image de zoom. Il est généralement défini pour s’adapter à l’écran de l’appareil disponible lorsqu’aucune taille n’est spécifiée.
 solution: Experience Manager
-title: Zone du lecteur principal
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: Zone de visionneuse principale
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Zoom
+role: Developer,User
+exl-id: f51de2d6-0de2-4a4d-bbf4-185547e6c550
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '122'
 ht-degree: 2%
 
 ---
 
+# Zone de visionneuse principale{#main-viewer-area}
 
-# Zone du lecteur principal{#main-viewer-area}
-
-La zone principale de la vue est la zone occupée par l’image de zoom. Il s&#39;adapte généralement à l&#39;écran du périphérique disponible lorsqu&#39;aucune taille n&#39;est spécifiée.
+La zone d’affichage principale est la zone occupée par l’image de zoom. Il est généralement défini pour s’adapter à l’écran de l’appareil disponible lorsqu’aucune taille n’est spécifiée.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriétés CSS de la zone de visualisation principale**
+**Propriétés CSS de la zone de visionneuse principale**
 
-L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe CSS suivant :
+L’aspect de la zone d’affichage est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 ```
 .s7basiczoomviewer
@@ -30,7 +29,7 @@ L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe C
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> Propriété CSS </p> </th> 
+   <th colname="col1" class="entry"> <p> propriété CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
@@ -50,7 +49,7 @@ L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe C
  </tbody> 
 </table>
 
-Exemple : pour configurer une visionneuse avec un arrière-plan blanc ( `#FFFFFF`) et lui appliquer une taille de 512 x 288 pixels.
+Exemple : pour configurer une visionneuse avec un arrière-plan blanc ( `#FFFFFF`) et lui donner une taille de 512 x 288 pixels.
 
 ```
 .s7basiczoomviewer{ 
@@ -59,4 +58,3 @@ Exemple : pour configurer une visionneuse avec un arrière-plan blanc ( `#FFFFFF
  height: 288px;  
 }
 ```
-
