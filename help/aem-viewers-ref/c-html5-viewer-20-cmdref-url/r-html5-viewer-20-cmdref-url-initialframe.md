@@ -2,13 +2,12 @@
 description: Paramètre commun à toutes les visionneuses.
 solution: Experience Manager
 title: initialFrame
-feature: Dynamic Media Classic,Viewers,SDK/API
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visionneuses,SDK/API
+role: Developer,User
 exl-id: db77edf0-e223-4f44-b83b-b6dbe5c1abd6
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '101'
 ht-degree: 3%
 
 ---
@@ -21,17 +20,17 @@ Paramètre commun à toutes les visionneuses.
 >
 >Cette commande ne s’applique pas à la visionneuse d’images vidéo.
 
-` initialFrame= *`frameIdx`*[ *`,pageIdx`*]`
+` initialFrame= *`frameIdx`*[ *`, pageIdx`*]`
 
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> frameIdx</span> </span> </p> </td> 
-   <td colname="col2"> <p> Spécifie un index d’images de base zéro que la visionneuse affiche au chargement. </p> </td> 
+   <td colname="col2"> <p> Spécifie un index d’image de base zéro que la visionneuse affiche au chargement. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> pageIdx</span></span> </p> </td> 
-   <td colname="col2"> <p>Index de base zéro de la page dans la planche lorsque le périphérique est en orientation portrait. Dans un environnement de gauche à droite, <span class="codeph"> 0</span> signifie "page de gauche" et <span class="codeph"> 1</span> signifie "page de droite". Dans "de droite à gauche", c'est l'inverse : <span class="codeph"> 0</span> signifie "page droite" et <span class="codeph"> 1</span> signifie "page gauche". </p> <p>Si elle n’est pas spécifiée, <span class="codeph"> 0</span> est supposé par défaut. Ignoré lorsque le périphérique est en orientation paysage. </p> </td> 
+   <td colname="col2"> <p>Index de base zéro de la page dans la fenêtre lorsque l’appareil est en orientation portrait. Dans un environnement "de gauche à droite", <span class="codeph"> 0</span> signifie "page de gauche" et <span class="codeph"> 1</span> signifie "page de droite". Dans "de droite à gauche", c'est l'inverse : <span class="codeph"> 0</span> signifie "page de droite" et <span class="codeph"> 1</span> signifie "page de gauche". </p> <p>Si elle n’est pas spécifiée, <span class="codeph"> 0</span> est utilisé par défaut. Ignoré lorsque l’appareil est en orientation paysage. </p> </td> 
   </tr> 
  </tbody> 
 </table>
