@@ -1,21 +1,20 @@
 ---
-description: Ajoutez du bruit. Ajoute le bruit aléatoire aux données de l’image de premier plan ou au premier plan d’un calque d’effet.
+description: Ajoutez du bruit. Ajoute du bruit aléatoire aux données de l’image de premier plan ou au premier plan d’une couche d’effet.
 solution: Experience Manager
-title: op_noise
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: op_bruit
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: eeadd3ab-80ff-4f9b-b5b7-4f3da6feebde
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '96'
 ht-degree: 2%
 
 ---
 
+# op_bruit{#op-noise}
 
-# op_noise{#op-noise}
-
-Ajoutez du bruit. Ajoute le bruit aléatoire aux données de l’image de premier plan ou au premier plan d’un calque d’effet.
+Ajoutez du bruit. Ajoute du bruit aléatoire aux données de l’image de premier plan ou au premier plan d’une couche d’effet.
 
 `op_noise= *``*[,uniform|gaussian[, *`valmonochrome`*]]`
 
@@ -27,15 +26,15 @@ Ajoutez du bruit. Ajoute le bruit aléatoire aux données de l’image de premie
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> uniforme</span> </p> </td> 
-   <td colname="col2"> <p>Sélectionnez une répartition uniforme du bruit. </p> </td> 
+   <td colname="col2"> <p>Sélectionnez Répartition uniforme du bruit. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> gaussien</span> </p> </td> 
-   <td colname="col2"> <p>Sélectionnez la distribution du bruit gaussien. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> gausse</span> </p> </td> 
+   <td colname="col2"> <p>Sélectionnez la répartition du bruit en gausse. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> monochrome</span> </p> </td> 
-   <td colname="col2"> <p>Définissez sur 0 pour le bruit de couleur, 1 pour le bruit gris. </p> </td> 
+   <td colname="col2"> <p>Définissez cette valeur sur 0 pour le bruit de couleur, 1 pour le bruit gris. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -44,7 +43,7 @@ Ajoutez du bruit. Ajoute le bruit aléatoire aux données de l’image de premie
 
 ## Propriétés {#section-1f1a64c791f545a3bf1abd0b0e575d87}
 
-Calque, commande. S’applique au calque actif ou à l’image composite si `layer=comp`.
+Couche, commande. S’applique au calque actif ou à l’image composite si `layer=comp`.
 
 ## Par défaut {#section-d548868fa4b64a60bcb481cad1f8113e}
 
