@@ -1,25 +1,24 @@
 ---
-description: Le lecteur affiche les icônes Favoris sur la vue principale aux endroits où elle a été ajoutée à l’origine par l’utilisateur.
+description: La visionneuse affiche les icônes Favoris au-dessus de la vue principale à des endroits où elle a été ajoutée à l’origine par l’utilisateur.
 solution: Experience Manager
 title: Effet Favoris
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visionneuses,SDK/API,eCatalog
+role: Developer,User
+exl-id: e87226cf-56bf-4d54-8df5-91295eae90a8
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '188'
 ht-degree: 1%
 
 ---
 
-
 # Effet Favoris{#favorites-effect}
 
-Le lecteur affiche les icônes Favoris sur la vue principale aux endroits où elle a été ajoutée à l’origine par l’utilisateur.
+La visionneuse affiche les icônes Favoris au-dessus de la vue principale à des endroits où elle a été ajoutée à l’origine par l’utilisateur.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-L’aspect de l’icône Favori est contrôlé par le sélecteur de classe CSS suivant :
+L’aspect de l’icône Favori est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7favoriteseffect .s7icon
@@ -30,12 +29,12 @@ L’aspect de l’icône Favori est contrôlé par le sélecteur de classe CSS s
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p> Image affichée pour l’icône. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
-   <td colname="col2"> <p> Positionnez l’objet à l’intérieur de l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -48,7 +47,7 @@ L’aspect de l’icône Favori est contrôlé par le sélecteur de classe CSS s
  </tbody> 
 </table>
 
-Exemple : définissez une icône Favoris de 36 x 36 pixels.
+Exemple : configurez une icône Favoris 36 x 36 pixels.
 
 ```
 .s7ecatalogviewer .s7favoriteseffect .s7icon { 
@@ -58,7 +57,7 @@ Exemple : définissez une icône Favoris de 36 x 36 pixels.
 }
 ```
 
-Sur les systèmes de bureau, le composant prend en charge le sélecteur d&#39;attributs `cursortype` que vous pouvez appliquer à la classe `.s7favoriteseffect` et contrôle le type du curseur en fonction de l&#39;action utilisateur sélectionnée. Les valeurs `cursortype` suivantes sont prises en charge :
+Sur les systèmes de bureau, le composant prend en charge le sélecteur d’attributs `cursortype` que vous pouvez appliquer à la classe `.s7favoriteseffect` et contrôle le type de curseur en fonction de l’action utilisateur sélectionnée. Les valeurs `cursortype` suivantes sont prises en charge :
 
 <table id="table_71F8F333909247E4ACFEBDE3A1370EAB"> 
  <tbody> 
@@ -71,13 +70,13 @@ Sur les systèmes de bureau, le composant prend en charge le sélecteur d&#39;at
    <td colname="col2"> <p>L’utilisateur affiché supprime une icône Favori existante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mode_vue  </span> </p> </td> 
-   <td colname="col2"> <p>S’affiche en mode de fonctionnement normal lorsque l’édition Favoris n’est pas principale. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mode_view  </span> </p> </td> 
+   <td colname="col2"> <p>S’affiche en mode de fonctionnement normal lorsque la modification des Favoris n’est pas principale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : utilisez des curseurs de souris différents pour chaque type d&#39;état de composant.
+Exemple : utilisez des curseurs de souris différents pour chaque type d’état de composant.
 
 ```
 .s7ecatalogviewer .s7favoriteseffect[cursortype="mode_add"] { 
@@ -90,4 +89,3 @@ cursor: not-allowed;
 cursor: auto; 
 }
 ```
-
