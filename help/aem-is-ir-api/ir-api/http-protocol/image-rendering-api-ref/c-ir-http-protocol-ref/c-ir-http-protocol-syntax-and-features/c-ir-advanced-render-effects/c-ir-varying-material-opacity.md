@@ -1,24 +1,23 @@
 ---
-description: L'opacité variable est prise en charge pour les textures et les couleurs unies appliquées aux objets qui se chevauchent, ainsi que pour les décalcomanies et les matériaux de recouvrement de fenêtre.
+description: L’opacité variable est prise en charge pour les couleurs solides et les textures répétables appliquées aux objets se chevauchant, ainsi que pour les décals et les matériaux de recouvrement de fenêtre.
 solution: Experience Manager
-title: Opacité variable des matériaux
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+title: Opacité des matériaux variable
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 65f4b578-0c64-4515-8184-2908b317a983
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
 
+# Opacité des matériaux variable{#varying-material-opacity}
 
-# Opacité du matériau variable {#varying-material-opacity}
+L’opacité variable est prise en charge pour les couleurs solides et les textures répétables appliquées aux objets se chevauchant, ainsi que pour les décals et les matériaux de recouvrement de fenêtre.
 
-L&#39;opacité variable est prise en charge pour les textures et les couleurs unies appliquées aux objets qui se chevauchent, ainsi que pour les décalcomanies et les matériaux de recouvrement de fenêtre.
+Les informations d’opacité peuvent être fournies simplement en utilisant une image RVB avec un canal alpha. En outre, l’opacité globale peut être différente avec la commande `opacity=` (tant pour les images RVB que RVBA).
 
-Les informations d’opacité peuvent être fournies simplement en utilisant une image RVB avec un canal alpha. En outre, l&#39;opacité globale peut être variée avec la commande `opacity=` (pour les images RVB et RVB).
+Les bordures de mur prennent également en charge les images RGBA, principalement pour les bordures découpées.
 
-Les bordures murales prennent également en charge les images RGBA, principalement pour prendre en charge les bordures découpées.
-
-Les fichiers [!DNL vnw] qui définissent les recouvrements de fenêtre peuvent inclure un canal d&#39;opacité, qui est combiné par le rendu avec le canal alpha de la texture répétable et la valeur `opacity=` pour fournir une gamme complète d&#39;effets d&#39;opacité pour les traitements de fenêtre transparent et transparent.
+Les fichiers [!DNL vnw] qui définissent les recouvrements de fenêtre peuvent inclure un canal d’opacité, qui est combiné par le moteur de rendu avec le canal alpha de la texture répétable et la valeur `opacity=` pour fournir une gamme complète d’effets d’opacité pour les traitements de fenêtre transparent et transparent.
