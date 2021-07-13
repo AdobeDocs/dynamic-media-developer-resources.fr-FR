@@ -2,16 +2,15 @@
 description: Vous pouvez configurer des caches de données.
 solution: Experience Manager
 title: Caches de données
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Administrator,User
+exl-id: 778a6236-09f5-420c-ab31-a72063eb5326
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '40'
+source-wordcount: '36'
 ht-degree: 5%
 
 ---
-
 
 # Caches de données{#data-caches}
 
@@ -24,4 +23,4 @@ Vous pouvez configurer des caches de données.
 
 ## Voir aussi {#section-2cbf7373f54e44a48711806cf237ab9a}
 
-[Cache](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-server-caches.md#reference-f6c7f73ea10f4c3ca93acd79a856e00e) serveur, mise en grappe  [du cache](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-cache-clustering.md#reference-a24c6b99da174203947788844626b951)
+[Cache serveur](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-server-caches.md#reference-f6c7f73ea10f4c3ca93acd79a856e00e),  [mise en grappe du cache](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-cache-clustering.md#reference-a24c6b99da174203947788844626b951)
