@@ -2,16 +2,15 @@
 description: Attribut de configuration pour la visionneuse de vidéos.
 solution: Experience Manager
 title: VideoScrubber.showchaptertime
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéo
+role: Developer,User
+exl-id: 60d36054-7b60-4ab1-8220-b183390e5d84
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 11%
+source-wordcount: '40'
+ht-degree: 12%
 
 ---
-
 
 # VideoScrubber.showchaptertime{#videoscrubber-showchaptertime}
 
@@ -23,7 +22,7 @@ Attribut de configuration pour la visionneuse de vidéos.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Désactive ou active l’heure de chapitre vidéo dans la barre de titre du libellé de chapitre vidéo. </p> </td> 
+   <td colname="col2"> <p> Désactive ou active l’heure du chapitre vidéo dans la barre de titre du libellé du chapitre vidéo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -41,4 +40,3 @@ Facultatif.
 ```
 showchaptertime=0
 ```
-
