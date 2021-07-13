@@ -2,14 +2,13 @@
 description: Paramètre commun à toutes les visionneuses.
 solution: Experience Manager
 title: config
-feature: Dynamic Media Classic,Viewers,SDK/API
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visionneuses,SDK/API
+role: Developer,User
 exl-id: 503a1fc6-7a6b-4f55-bad1-11f22435276f
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 2%
+source-wordcount: '258'
+ht-degree: 4%
 
 ---
 
@@ -23,12 +22,12 @@ Paramètre commun à toutes les visionneuses.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> configId  </span> </span> </p> </td> 
-   <td colname="col2"> <p>Catalogue/ID pour la configuration de la visionneuse. </p> <p> Spécifie une entrée de catalogue d'images contenant les propriétés de configuration de la visionneuse dans <span class="codeph"> catalog::UserData </span>. Lorsque cette commande est présente, le lecteur envoie une commande <span class="codeph"> req=userdata </span> pour <span class="codeph"> configId </span> au serveur et extrait les propriétés de la réponse. Les propriétés sont utilisées pour initialiser la visionneuse. Si la chaîne URL spécifie les mêmes propriétés, elles remplacent les valeurs du <span class="codeph"> catalogue::UserData </span>. </p> </td> 
+   <td colname="col2"> <p>Catalogue/ID pour la configuration de la visionneuse. </p> <p> Spécifie une entrée de catalogue d’images contenant les propriétés de configuration de la visionneuse dans <span class="codeph"> catalog::UserData </span>. Lorsque cette commande est présente, la visionneuse envoie une commande <span class="codeph"> req=userdata </span> pour <span class="codeph"> configId </span> au serveur et extrait les propriétés de la réponse. Les propriétés sont utilisées pour initialiser la visionneuse. Si la chaîne URL spécifie les mêmes propriétés, elles remplacent les valeurs de <span class="codeph"> catalog::UserData </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Toutes les commandes de visionneuse qui peuvent être spécifiées dans `catalog::UserData` attendent `asset`, `serverUrl`, `contentUrl`, `searchServerUrl` et `config` elles-mêmes.
+Toutes les commandes de visionneuse qui peuvent être spécifiées dans `catalog::UserData` s’attendent à ce que `asset`, `serverUrl`, `contentUrl`, `searchServerUrl` et `config` elles-mêmes.
 
 ## Propriétés {#section-10ee45d637134e0fbcd943c62578cb78}
 
