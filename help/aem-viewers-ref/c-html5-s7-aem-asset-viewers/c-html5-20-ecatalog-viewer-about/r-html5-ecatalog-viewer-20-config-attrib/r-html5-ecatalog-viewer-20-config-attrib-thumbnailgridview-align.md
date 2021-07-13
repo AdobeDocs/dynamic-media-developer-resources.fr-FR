@@ -2,16 +2,15 @@
 description: ThumbnailGridView.align
 solution: Experience Manager
 title: ThumbnailGridView.align
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visionneuses,SDK/API,eCatalog
+role: Developer,User
+exl-id: e26ee733-263d-4a6b-a37b-65b9fa1376c8
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 4%
+source-wordcount: '79'
+ht-degree: 5%
 
 ---
-
 
 # ThumbnailGridView.align{#thumbnailgridview-align}
 
@@ -21,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> left|center|right</span> </p> </td> 
-   <td> <p> Indique l’alignement horizontal interne (ancrage) du conteneur de miniatures dans la zone du composant. Dans ThumbnailGridView, le conteneur de miniature interne est dimensionné de sorte que seul un nombre entier de miniatures s’affiche. En conséquence, il y a un certain remplissage entre le conteneur interne et les limites du composant externe. Ce modificateur spécifie comment le conteneur des miniatures internes est positionné horizontalement à l’intérieur du composant. </p> </td> 
+   <td> <p> Indique l’alignement horizontal interne (ancrage) du conteneur de miniatures dans la zone du composant. Dans ThumbnailGridView, le conteneur de miniatures interne est dimensionné de sorte que seul un nombre entier de miniatures s’affiche. Par conséquent, il existe une marge intérieure entre le conteneur interne et les limites du composant externe. Ce modificateur spécifie la manière dont le conteneur de miniatures internes est positionné horizontalement à l’intérieur du composant. </p> </td> 
   </tr> 
  </tbody> 
 </table>
