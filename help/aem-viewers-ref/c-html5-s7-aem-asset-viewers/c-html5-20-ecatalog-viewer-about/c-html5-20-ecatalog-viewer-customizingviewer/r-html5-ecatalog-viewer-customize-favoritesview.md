@@ -1,25 +1,24 @@
 ---
-description: La vue Favoris se compose d’une colonne d’images miniatures.
+description: La vue Favoris est composée d’une colonne d’images miniatures.
 solution: Experience Manager
 title: Vue Favoris
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visionneuses,SDK/API,eCatalog
+role: Developer,User
+exl-id: 10536242-1015-49ff-ae27-59671f30d886
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '290'
 ht-degree: 1%
 
 ---
 
-
 # Vue Favoris{#favorites-view}
 
-La vue Favoris se compose d’une colonne d’images miniatures.
+La vue Favoris est composée d’une colonne d’images miniatures.
 
 <!--<a id="section_B6EFCCADB5A5495DAE6BBE42F7F405CB"></a>-->
 
-L’aspect du conteneur de vue Favoris est contrôlé par le sélecteur de classe CSS suivant :
+L’aspect du conteneur de la vue Favoris est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7favoritesview
@@ -42,7 +41,7 @@ La position et la hauteur de la vue Favoris sont gérées par la vue ; dans CSS,
  </tbody> 
 </table>
 
-Exemple : pour configurer une vue Favoris de 100 pixels de large avec un arrière-plan gris semi-transparent.
+Exemple : pour configurer une vue Favoris d’une largeur de 100 pixels avec un arrière-plan gris semi-transparent.
 
 ```
 .s7ecatalogviewer .s7favoritesview { 
@@ -63,7 +62,7 @@ L’espacement entre les miniatures Favoris est contrôlé à l’aide du sélec
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> Taille de la marge verticale autour de chaque miniature. L’espacement réel des miniatures est égal à la somme des marges supérieure et inférieure définies pour <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> Taille de la marge verticale autour de chaque miniature. L’espacement réel des miniatures est égal à la somme de la marge supérieure et de la marge inférieure définie pour <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,7 +75,7 @@ Exemple : pour configurer l’espacement de 10 pixels.
 }
 ```
 
-L’aspect d’une miniature individuelle est contrôlé à l’aide du sélecteur de classe CSS suivant :
+L’aspect des miniatures individuelles est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7thumb
@@ -103,9 +102,9 @@ L’aspect d’une miniature individuelle est contrôlé à l’aide du sélecte
 
 >[!NOTE]
 >
->La miniature prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la miniature récemment sélectionnée par l’utilisateur. `state="default"` correspond au reste des miniatures. Et `state="over"` est utilisé lors du survol de la souris.
+>La miniature prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la miniature récemment sélectionnée par l’utilisateur. `state="default"` correspond au reste des miniatures. Et `state="over"` est utilisé lorsque vous pointez sur la souris.
 
-Exemple : pour configurer des miniatures de 75 x 75 pixels, utilisez une bordure par défaut gris clair et une bordure sélectionnée gris foncé.
+Exemple : pour configurer des miniatures de 75 x 75 pixels, vous devez définir une bordure par défaut en gris clair et une bordure sélectionnée en gris foncé.
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7thumb { 
@@ -126,7 +125,7 @@ L’aspect du libellé de la miniature est contrôlé à l’aide du sélecteur 
 .s7ecatalogviewer .s7favoritesview .s7label
 ```
 
-**Propriétés CSS du libellé Favoris**
+**Propriétés CSS de l’étiquette Favoris**
 
 <table id="table_B41339A16ACB46CB87D3EB1FD05FA2CD"> 
  <tbody> 
@@ -149,4 +148,3 @@ Exemple : pour configurer des libellés avec une police Helvetica de 14 pixels.
  font-size: 14px; 
 }
 ```
-
