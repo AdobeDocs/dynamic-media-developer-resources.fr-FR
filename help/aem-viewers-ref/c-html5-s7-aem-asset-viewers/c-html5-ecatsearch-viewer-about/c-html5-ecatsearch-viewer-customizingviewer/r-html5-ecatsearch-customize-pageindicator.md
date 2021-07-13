@@ -1,49 +1,48 @@
 ---
-description: L'indicateur de page affiche l'index de la page active et le nombre total de pages. Il apparaît dans la barre de contrôle principale sur les ordinateurs de bureau et tablettes, sur les téléphones portables, il est ajouté à la barre de contrôle secondaire. L’indicateur de page peut être dimensionné, habillé et positionné par CSS.
+description: L’indicateur Page affiche l’index de la page active et le nombre total de pages. Il apparaît dans la barre de contrôle principale des ordinateurs de bureau et des tablettes, et sur les téléphones mobiles, il est ajouté à la barre de contrôle secondaire. L’indicateur de page peut être dimensionné, peint et positionné par CSS.
 solution: Experience Manager
 title: Indicateur de page
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Recherche catalogue électronique
+role: Developer,User
+exl-id: 38241e96-ee7f-4dc1-a2a6-4a76e25b00dc
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '260'
 ht-degree: 3%
 
 ---
 
-
 # Indicateur de page{#page-indicator}
 
-L&#39;indicateur de page affiche l&#39;index de la page active et le nombre total de pages. Il apparaît dans la barre de contrôle principale sur les ordinateurs de bureau et tablettes, sur les téléphones portables, il est ajouté à la barre de contrôle secondaire. L’indicateur de page peut être dimensionné, habillé et positionné par CSS.
+L’indicateur Page affiche l’index de la page active et le nombre total de pages. Il apparaît dans la barre de contrôle principale des ordinateurs de bureau et des tablettes, et sur les téléphones mobiles, il est ajouté à la barre de contrôle secondaire. L’indicateur de page peut être dimensionné, peint et positionné par CSS.
 
-L’indicateur d’aspect de la page est contrôlé à l’aide du sélecteur de classe CSS suivant :
+L’indicateur de page d’aspect est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 `.s7ecatalogsearchviewer .s7pageindicator`
 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> Propriété CSS </p> </th> 
+   <th colname="col1" class="entry"> <p> propriété CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> haut </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure supérieure de la barre de contrôle principale (sur les ordinateurs de bureau et tablettes) ou de la barre de contrôle secondaire (sur les téléphones portables), y compris le remplissage. </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure supérieure de la barre de contrôle principale (sur les ordinateurs de bureau et tablettes) ou de la barre de contrôle secondaire (sur les téléphones mobiles), y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> droite </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure droite de la barre de contrôle principale (sur les ordinateurs de bureau et tablettes) ou de la barre de contrôle secondaire (sur les téléphones portables), y compris le remplissage. </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure droite de la barre de contrôle principale (sur les ordinateurs de bureau et tablettes) ou de la barre de contrôle secondaire (sur les téléphones mobiles), y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> gauche </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure gauche de la barre de contrôle principale (sur les ordinateurs de bureau et tablettes) ou de la barre de contrôle secondaire (sur les téléphones portables), y compris le remplissage. </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure gauche de la barre de contrôle principale (sur les ordinateurs de bureau et tablettes) ou de la barre de contrôle secondaire (sur les téléphones mobiles), y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bas </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure inférieure de la barre de contrôle principale (sur les ordinateurs de bureau et tablettes) ou de la barre de contrôle secondaire (sur les téléphones portables), y compris le remplissage. </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure inférieure de la barre de contrôle principale (sur les ordinateurs de bureau et tablettes) ou de la barre de contrôle secondaire (sur les téléphones mobiles), y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -68,7 +67,7 @@ L’indicateur d’aspect de la page est contrôlé à l’aide du sélecteur de
  </tbody> 
 </table>
 
-Exemple : pour configurer un indicateur de page de 56 x 28 pixels, centré horizontalement et positionné à 4 pixels du bas de la barre de contrôle principale, et utiliser une police Helvetica de 14 pixels.
+Exemple : pour configurer un indicateur de page de 56 x 28 pixels, centré horizontalement et positionné 4 pixels au bas de la barre de contrôle principale, et utiliser une police Helvetica de 14 pixels.
 
 ```
 .s7ecatalogsearchviewer  .s7pageindicator { 
@@ -82,4 +81,3 @@ Exemple : pour configurer un indicateur de page de 56 x 28 pixels, centré horiz
  font-size:14px; 
 }
 ```
-
