@@ -1,21 +1,20 @@
 ---
-description: Accentuer l’image de réponse. L’accentuation facultative peut être appliquée une fois l’image rendue mise à l’échelle selon wid= ou hei=.
+description: Accentuer l’image de réponse. Une accentuation facultative peut être appliquée une fois que l’image rendue est mise à l’échelle en fonction de wid= ou hei=.
 solution: Experience Manager
 title: accentuer
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 0c831ea7-fc64-484d-b3a4-4cb713b5d873
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '56'
 ht-degree: 10%
 
 ---
 
-
 # accentuer{#sharpen}
 
-Accentuer l’image de réponse. L’accentuation facultative peut être appliquée une fois l’image rendue mise à l’échelle selon wid= ou hei=.
+Accentuer l’image de réponse. Une accentuation facultative peut être appliquée une fois que l’image rendue est mise à l’échelle en fonction de wid= ou hei=.
 
 `sharpen=0|1`
 
@@ -36,4 +35,4 @@ Accentuer l’image de réponse. L’accentuation facultative peut être appliqu
 
 ## Voir aussi {#section-6172f926a0a54d7b86081784ee47470e}
 
-[attribut ::Accentuation](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharpen.md#reference-18df922f3a3f403a97ccaaa15042e30a) ,  [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)
+[attribute::Sharpen](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharpen.md#reference-18df922f3a3f403a97ccaaa15042e30a) ,  [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)
