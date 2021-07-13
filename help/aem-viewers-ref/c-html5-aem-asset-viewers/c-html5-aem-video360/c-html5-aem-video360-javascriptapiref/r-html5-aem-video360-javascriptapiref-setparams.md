@@ -1,27 +1,26 @@
 ---
-description: Référence de l’API JavaScript pour le lecteur vidéo360.
+description: Référence de l’API JavaScript pour la visionneuse Video360.
 solution: Experience Manager
 title: setParams
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visionneuses,SDK/API,vidéo 360 VR
+role: Developer,User
 exl-id: 3c228b84-fbad-434f-96b4-d52485711844
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '105'
 ht-degree: 2%
 
 ---
 
 # setParams{#setparams}
 
-Référence de l’API JavaScript pour le lecteur vidéo360.
+Référence de l’API JavaScript pour la visionneuse Video360.
 
 ` setParams( *`params`*)`
 
-Définit un ou plusieurs paramètres sur une valeur donnée. La syntaxe de l’argument de méthode est identique à une chaîne de requête d’URL. Autrement dit, il représente des paires nom=valeur séparées par `&`. Tout comme dans une chaîne de requête, les noms et les valeurs sont codés en pourcentage à l’aide du codage UTF8. Avant d&#39;appeler `init()`, ce paramètre doit être appelé.
+Définit un ou plusieurs paramètres sur une valeur donnée. La syntaxe de l’argument de méthode est identique à celle d’une chaîne de requête d’URL. En d’autres termes, il représente les paires nom=valeur séparées par `&`. Tout comme dans une chaîne de requête, les noms et les valeurs sont codés en pourcentage à l’aide du codage UTF8. Avant d’appeler `init()`, ce paramètre doit être appelé.
 
-Cette méthode est facultative si les informations de configuration de la visionneuse ont été transmises avec l’objet JSON `config` au constructeur.
+Cette méthode est facultative si les informations de configuration de la visionneuse ont été transmises au constructeur avec l’objet JSON `config`.
 
 Voir aussi [init](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-javascriptapiref/r-html5-aem-video360-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
@@ -31,7 +30,7 @@ Voir aussi [init](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> params</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string}</span> name=value parameter paires séparées par  <span class="codeph"> &amp;</span>. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string}</span> nom=valeur paires paramètre séparées par  <span class="codeph"> &amp;</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
