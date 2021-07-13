@@ -1,21 +1,20 @@
 ---
-description: Couleur et épaisseur du grillage. Simule le grout pour les carreaux de pierre naturelle et céramique.
+description: Couleur et épaisseur du sol en mosaïque. Simule le grout pour les tuiles en céramique et en pierre naturelle.
 solution: Experience Manager
-title: pâturage
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+title: grout
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 6647b459-11d2-47e4-9033-3a740f01a623
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '170'
 ht-degree: 2%
 
 ---
 
-
 # grout{#grout}
 
-Couleur et épaisseur du grillage. Simule le grout pour les carreaux de pierre naturelle et céramique.
+Couleur et épaisseur du sol en mosaïque. Simule le grout pour les tuiles en céramique et en pierre naturelle.
 
 grout= *`color`*[,*`width`*]
 
@@ -26,26 +25,26 @@ grout= *`color`*[,*`width`*]
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td> 
-  <td class="stentry"> <p>Épaisseur du sol ; unités de coordonnées de scène (généralement pouces) (réelles). </p> </td> 
+  <td class="stentry"> <p>Épaisseur du sol; unités de coordonnées de scène (généralement pouces) (réelles). </p> </td> 
  </tr> 
 </table>
 
-Pour un contrôle maximal de l&#39;apparence du grout, les exigences suivantes s&#39;appliquent :
+Pour un contrôle maximal de l’apparence du groupe, les exigences suivantes s’appliquent :
 
-* La mosaïque doit être carrée ou rectangulaire ; pour le moment, aucune autre forme n&#39;est prise en charge.
+* La mosaïque doit être carrée ou rectangulaire ; pour l’instant, aucune autre forme n’est prise en charge.
 * L’image ne doit contenir qu’une seule mosaïque.
-* Le grain par défaut de l&#39;image (s&#39;il y en a) doit avoir exactement la même épaisseur sur les quatre bords.
-* L&#39;épaisseur du grain par défaut doit être spécifiée dans le catalogue de matières ( `catalog::GroutWidth`).
+* Le motif par défaut de l’image (le cas échéant) doit avoir exactement la même épaisseur sur les quatre bords.
+* L&#39;épaisseur du sol par défaut doit être spécifiée dans le catalogue de matériaux ( `catalog::GroutWidth`).
 
 ## Propriétés {#section-de78b678245b4ffda48097c345949e77}
 
-Attribut de matériau. `*`La `*` couleur doit être une valeur de couleur RVB. `*`La `*` largeur doit être une valeur réelle de 0 ou plus.
+Attribut de matière. `*`La couleur `*`  doit être une valeur de couleur RVB. `*``*` La largeur doit être une valeur réelle de 0 ou supérieure.
 
-Ignoré si repeat = 4, 5, 7, 8, 9, 14 ou plus, ou si spécifié pour des matières autres que des textures répétables.
+Ignoré si repeat = 4, 5, 7, 8, 9, 14 ou supérieur, ou lorsqu’il est spécifié pour des matières autres que des textures répétables.
 
 ## Par défaut {#section-bfab3621f70b4489a21994ab11b20cc6}
 
-Si `grout=` n&#39;est pas spécifié, le grain de l&#39;image n&#39;est pas modifié. Si ` grout= *`color`*` est spécifié, `*`width`*` prend par défaut la valeur `catalog::GroutWidth`.
+Si `grout=` n’est pas spécifié, le grout de l’image n’est pas modifié. Si ` grout= *`color`*` est spécifié, `*`width`*` est défini par défaut sur `catalog::GroutWidth`.
 
 ## Voir aussi {#section-8d472906a44943f5a8557e98f2fbc71f}
 
