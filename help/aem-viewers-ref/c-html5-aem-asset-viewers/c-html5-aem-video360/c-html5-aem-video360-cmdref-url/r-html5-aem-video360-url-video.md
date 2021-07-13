@@ -1,21 +1,20 @@
 ---
-description: Commande d’URL pour le lecteur vidéo360.
+description: Commande URL de la visionneuse Video360.
 solution: Experience Manager
 title: vidéo
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visionneuses,SDK/API,vidéo 360 VR
+role: Developer,User
 exl-id: 704097af-f108-42f7-92e7-5dd75916a045
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 13%
+source-wordcount: '42'
+ht-degree: 16%
 
 ---
 
-# video{#video}
+# vidéo{#video}
 
-Commande d’URL pour le lecteur vidéo360.
+Commande URL de la visionneuse Video360.
 
 ` video= *`videoURL`*`
 
