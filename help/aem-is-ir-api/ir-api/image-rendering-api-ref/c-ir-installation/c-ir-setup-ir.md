@@ -1,22 +1,21 @@
 ---
-description: Le rendu d’image est configuré avec le répertoire fileinstall_folder/conf/ImageRendering.conf.
+description: Le rendu d’image est configuré avec le dossier fileinstall_folder/conf/ImageRendering.conf.
 solution: Experience Manager
 title: Configuration et configuration du rendu d’image
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 126833bf-16db-40f1-8179-7775e9063081
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
 
+# Configuration et configuration du rendu d’image{#setup-and-configure-image-rendering}
 
-# Configuration et configuration du rendu d’image {#setup-and-configure-image-rendering}
+Le rendu d’image est configuré avec le dossier fileinstall_folder/conf/ImageRendering.conf.
 
-Le rendu d’image est configuré avec le répertoire fileinstall_folder/conf/ImageRendering.conf.
+Pour plus d’informations, reportez-vous à la section Configuration de la documentation . Sous Windows uniquement, ce fichier est également accessible à partir du menu de démarrage : **[!UICONTROL Menu Démarrer]** > **[!UICONTROL Programmes]** > **[!UICONTROL Scene7]** > **[!UICONTROL Modifier le fichier de configuration de rendu d’image]**.
 
-Pour plus d’informations, reportez-vous à la section Configuration de la documentation. Sous Windows uniquement, ce fichier est également accessible à partir du menu début : **[!UICONTROL menu Début]** > **[!UICONTROL Programmes]** > **[!UICONTROL Scene7]** > **[!UICONTROL Modifier le fichier de configuration de rendu d’image]**.
-
-Pour arrêter et début le rendu des images, reportez-vous à la documentation sur la diffusion d’images. Le rendu d’image ne peut pas être arrêté ni démarré séparément à partir de la diffusion d’images.
+Pour arrêter et démarrer le rendu d’image, reportez-vous à la documentation du serveur d’images. Le rendu d’image ne peut pas être arrêté ni démarré séparément à partir du serveur d’images.
