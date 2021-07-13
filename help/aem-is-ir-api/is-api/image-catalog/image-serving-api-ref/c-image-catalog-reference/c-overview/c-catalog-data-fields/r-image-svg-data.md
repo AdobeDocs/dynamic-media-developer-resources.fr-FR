@@ -1,29 +1,28 @@
 ---
-description: Les champs suivants sont reconnus dans les fichiers d’image et de données SVG.
+description: Les champs suivants sont reconnus dans les fichiers image et données SVG.
 solution: Experience Manager
 title: Données Image_SVG
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 5392e08f-3614-4588-8846-4262d32f3ce1
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '121'
 ht-degree: 3%
 
 ---
 
-
 # Données Image_SVG{#image-svg-data}
 
-Les champs suivants sont reconnus dans les fichiers d’image et de données SVG.
+Les champs suivants sont reconnus dans les fichiers image et données SVG.
 
-## Gestion de catalogue {#section-1056bcc3b6d04166b3aa6ec48913b6b2}
+## Gestion des catalogues {#section-1056bcc3b6d04166b3aa6ec48913b6b2}
 
 <table id="table_823F89CAD494441690D28F18005F774C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-id-cat.md" type="reference" format="dita" scope="local"> Id</a></span> </p> </td> 
-   <td colname="col2"> <p>Identificateur d’enregistrement du catalogue (clé d’index). </p> </td> 
+   <td colname="col2"> <p>Identifiant de l’enregistrement du catalogue (clé d’index). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -42,34 +41,34 @@ Les champs suivants sont reconnus dans les fichiers d’image et de données SVG
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-modifier-cat.md" type="reference" format="dita" scope="local"> Modificateur</a> </span> </p> </td> 
-   <td colname="col2"> <p>Préfixe les modificateurs de requête. </p> </td> 
+   <td colname="col2"> <p>Modificateurs de requête de préfixe. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-postmodifier-cat.md" type="reference" format="dita" scope="local"> PostModificateur</a> </span> </p> </td> 
-   <td colname="col2"> <p>Modificateurs de demande de suffixe. </p> </td> 
+   <td colname="col2"> <p>Modificateurs de requête Postfix. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-timestamp-cat.md#reference-59a27b72f4cb4a53a3baba83214c4ded" type="reference" format="dita" scope="local"> TimeStamp</a></span> </p> </td> 
-   <td colname="col2"> <p>Horodatage de modification de fichier. </p> </td> 
+   <td colname="col2"> <p>Horodatage de modification du fichier. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Attributs d&#39;image {#section-74c4d124255d4218ade87d7d1677c76d}
+## Attributs d’image {#section-74c4d124255d4218ade87d7d1677c76d}
 
 <table id="table_F2A33C2EB17A4EACB00DDEF7FB1BB0D4"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-anchor-cat.md" type="reference" format="dita" scope="local"> Ancrage</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-anchor-cat.md" type="reference" format="dita" scope="local"> Ancre</a></span> </p> </td> 
    <td colname="col2"> <p>Point d’ancrage de l’image. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md" type="reference" format="dita" scope="local"> MasquePath</a></span> </p> </td> 
-   <td colname="col2"> <p>Chemin du fichier de masquage. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md" type="reference" format="dita" scope="local"> MaskPath</a></span> </p> </td> 
+   <td colname="col2"> <p>Masquer le chemin d’accès au fichier. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md" type="reference" format="dita" scope="local"> Chemin</a></span> </p> </td> 
-   <td colname="col2"> <p>Chemin d’accès au fichier image/SVG. </p> </td> 
+   <td colname="col2"> <p>Chemin du fichier image/SVG. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-printresolution-cat.md#reference-4ebb2e136995470b84b7c5e10cb8e5f5" type="reference" format="dita" scope="local"> PrintResolution</a></span> </p> </td> 
@@ -119,7 +118,7 @@ Les champs suivants sont reconnus dans les fichiers d’image et de données SVG
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md" type="reference" format="dita" scope="local"> Cibles</a></span> </p> </td> 
-   <td colname="col2"> <p>Données de cible de zoom. </p> </td> 
+   <td colname="col2"> <p>Zoom sur les données de la cible. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md" type="reference" format="dita" scope="local"> UserData</a></span> </p> </td> 
@@ -127,4 +126,3 @@ Les champs suivants sont reconnus dans les fichiers d’image et de données SVG
   </tr> 
  </tbody> 
 </table>
-
