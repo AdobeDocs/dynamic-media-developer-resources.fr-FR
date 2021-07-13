@@ -2,16 +2,15 @@
 description: Autoriser les URL absolues comme sources d’image.
 solution: Experience Manager
 title: AllowDirectUrls
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: e160101a-9bb7-452f-b892-c2aa65e26e94
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 6%
+source-wordcount: '55'
+ht-degree: 7%
 
 ---
-
 
 # AllowDirectUrls{#allowdirecturls}
 
@@ -25,7 +24,7 @@ Indicateur.
 
 ## Par défaut {#section-c2eb9ab424db41c6aac91ba2cbe00ef5}
 
-Hérité de `default::AllowDirectUrls` si elle n&#39;est pas définie ou si elle est vide.
+Hérité de `default::AllowDirectUrls` si elle n’est pas définie ou si elle est vide.
 
 ## Voir aussi {#section-604f9500749c4e1a968b260b9a3812b2}
 
