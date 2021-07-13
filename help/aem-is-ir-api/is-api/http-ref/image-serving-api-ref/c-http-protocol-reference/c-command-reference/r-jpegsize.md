@@ -1,34 +1,33 @@
 ---
-description: Taille Jpeg en kiloBytes. Indique la taille maximale de la réponse JPEG en kilo-octets.
+description: Taille Jpeg en kilo-octets. Indique la taille maximale de la réponse JPEG en kilo-octets.
 solution: Experience Manager
 title: jpegSize
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 08cecb09-100f-4671-b335-d59c88b0e1ef
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '162'
 ht-degree: 4%
 
 ---
 
-
 # jpegSize{#jpegsize}
 
-Taille Jpeg en kiloBytes. Indique la taille maximale de la réponse JPEG en kilo-octets.
+Taille Jpeg en kilo-octets. Indique la taille maximale de la réponse JPEG en kilo-octets.
 
 `jpegSize= *`taille`*`
 
 <table id="simpletable_EC2A8D8B65854B45B9CB184DA1069355"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> taille</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> size</span></span> </p> </td> 
   <td class="stentry"> <p>Taille en kilo-octets. </p></td> 
  </tr> 
 </table>
 
-Si cette valeur est définie sur une valeur positive et si la réponse JPEG avec la qualité JPEG spécifiée ne dépasse pas cette valeur, cette image est renvoyée comme réponse. Sinon, la qualité JPEG diminue jusqu’à ce qu’elle produise une image qui correspond à la taille spécifiée ou jusqu’à ce qu’elle détermine qu’elle ne peut pas tenir. Dans ce dernier cas, la requête échoue avec une erreur.
+Si cette valeur est définie sur une valeur positive et que la réponse JPEG avec la qualité JPEG spécifiée ne dépasse pas cette valeur, cette image est renvoyée comme réponse. Dans le cas contraire, la qualité JPEG diminue jusqu’à ce qu’elle génère une image adaptée à la taille spécifiée ou jusqu’à ce qu’elle détermine qu’elle ne peut pas être adaptée. Dans ce cas, la requête échoue avec une erreur.
 
-La valeur 0 signifie que la réponse n’est pas limitée par la taille.
+Une valeur de 0 signifie que la réponse n’est pas limitée par la taille.
 
 Les valeurs négatives ne sont pas autorisées.
 
@@ -42,7 +41,7 @@ Attribut de requête. S’applique quel que soit le paramètre de calque actif. 
 
 ## Exemple {#section-46bf806fd3ef4875b7726df32b6f834d}
 
-La taille de la garantie n&#39;est pas trop grande pour être livrée à un périphérique avec une mémoire limitée :
+La taille de la garantie n’est pas trop grande pour être livrée à un appareil avec une mémoire limitée :
 
 `http://server/myRoodId/myImageId?qlt=60&wid=300&jpegSize=10`
 
