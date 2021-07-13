@@ -1,21 +1,20 @@
 ---
-description: Nom de la macro. Les noms de macro peuvent être composés de toute combinaison de caractères alphabétiques, de chiffres et de caractères sûrs, à l’exclusion de $.
+description: Nom de la macro. Les noms de macro peuvent être composés de n’importe quelle combinaison de caractères alpha, de chiffres et de caractères sûrs, à l’exception de $.
 solution: Experience Manager
 title: Nom
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: ea50ddab-2a37-4f09-a9d7-ed19829dd0e6
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '55'
 ht-degree: 10%
 
 ---
 
-
 # Nom{#name}
 
-Nom de la macro. Les noms de macro peuvent être composés de toute combinaison de caractères alphabétiques, de chiffres et de caractères sûrs, à l’exclusion de $.
+Nom de la macro. Les noms de macro peuvent être composés de n’importe quelle combinaison de caractères alpha, de chiffres et de caractères sûrs, à l’exception de $.
 
 ## Propriétés {#section-03641453b5b84a27a8eb0c0688f7b8fc}
 
