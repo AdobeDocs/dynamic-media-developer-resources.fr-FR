@@ -1,25 +1,24 @@
 ---
-description: Les valeurs de commande doivent être codées au format http à l'aide des séquences d'échappement %xx, de sorte que les chaînes de valeur n'incluent pas les caractères réservés '=', '&' et '%'.
+description: Les valeurs de commande doivent être codées au format http à l’aide de séquences d’échappement %xx, de sorte que les chaînes de valeur n’incluent pas les caractères réservés '=', '&' et '%'.
 solution: Experience Manager
-title: Codage HTTP de rendu d’image
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+title: Encodage HTTP de rendu d’image
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: a1efc4ce-a170-4bdb-8584-407e07113272
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '144'
 ht-degree: 2%
 
 ---
 
+# Encodage HTTP de rendu d’image{#image-rendering-http-encoding}
 
-# Encodage HTTP de rendu d’image {#image-rendering-http-encoding}
+Les valeurs de commande doivent être codées au format http à l’aide de séquences d’échappement %xx, de sorte que les chaînes de valeur n’incluent pas les caractères réservés &#39;=&#39;, &#39;&amp;&#39; et &#39;%&#39;.
 
-Les valeurs de commande doivent être codées au format http à l&#39;aide des séquences d&#39;échappement %xx, de sorte que les chaînes de valeur n&#39;incluent pas les caractères réservés &#39;=&#39;, &#39;&amp;&#39; et &#39;%&#39;.
+Dans le cas contraire, les règles de codage HTTP standard s’appliquent. La spécification HTTP nécessite le codage de caractères non sûrs tels que &#39; (espace), &#39;&quot;&#39; (guillemet double), &#39;#&#39;, &#39;%&#39;, &#39;&lt;&#39; et &#39;>&#39;, ainsi que des caractères de contrôle, tels que `<return>` et `<tab>`.
 
-Sinon, les règles de codage HTTP standard s’appliquent. La spécification HTTP requiert le codage des caractères non sécurisés tels que &#39; (espace), &#39;&quot;&#39; (guillemet-doublon), &#39;#&#39;, &#39;%&#39;, &#39;&lt;&#39; et &#39;>&#39;, ainsi que des caractères de contrôle tels que `<return>` et `<tab>`.
-
-**Attention : Les accolades** Curly { } utilisées comme délimiteurs d’imbrication de requête ne doivent pas être codées. Certains clients de messagerie encodent malheureusement des accolades dans une requête HTTP incorporée. S’il s’agit d’un problème, le rendu d’image permet l’utilisation de parenthèses ( ) plutôt que d’accolades.
+**Attention :** Les accolades { } utilisées comme délimiteurs d’imbrication de requête ne doivent pas être codées. Certains clients de messagerie codent malheureusement des accolades dans une requête HTTP incorporée. En cas de problème, le rendu d’image permet l’utilisation de parenthèses ( ) au lieu d’accolades.
 
 ## Exemple {#section-3edc5b8ee2354220a281b01722ad337a}
 
