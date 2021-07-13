@@ -2,32 +2,31 @@
 description: Swatches.align
 solution: Experience Manager
 title: Swatches.align
-feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Fenêtre déroulante
+role: Developer,User
+exl-id: 300bbee8-29f1-444d-bf98-42aeb9c5017b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '87'
 ht-degree: 4%
 
 ---
-
 
 # Swatches.align{#swatches-align}
 
 `[Swatches.|<containerId>_swatches.]align=left|center|right,top|center|bottom`
 
-Indique l’alignement interne (ancrage) du conteneur des échantillons dans la zone du composant. Dans les échantillons, le conteneur de miniature interne est dimensionné de sorte que seul un nombre entier de nuances s’affiche. En conséquence, il y a un certain remplissage entre le conteneur interne et les limites du composant externe. Cette commande indique comment le conteneur des échantillons internes est positionné à l’intérieur du composant.
+Indique l’alignement interne (ancrage) du conteneur d’échantillons dans la zone du composant. Dans les nuanciers, le conteneur de miniatures interne est dimensionné de sorte que seul un nombre entier d’échantillons s’affiche. Par conséquent, il existe une marge intérieure entre le conteneur interne et les limites du composant externe. Cette commande spécifie le mode de positionnement du conteneur d’échantillons internes dans le composant.
 
 <table id="table_33CC037517964DA89EE0C005BB6B32BB"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> left|center|right</span> </p> </td> 
-   <td colname="col2"> <p> Définit l’alignement des nuances horizontales. </p> </td> 
+   <td colname="col2"> <p> Définit l’alignement des échantillons horizontaux. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> top|center|bottom</span> </p> </td> 
-   <td colname="col2"> <p> Définit l’alignement des nuances verticales. </p> </td> 
+   <td colname="col2"> <p> Définit l’alignement des échantillons verticaux. </p> </td> 
   </tr> 
  </tbody> 
 </table>
