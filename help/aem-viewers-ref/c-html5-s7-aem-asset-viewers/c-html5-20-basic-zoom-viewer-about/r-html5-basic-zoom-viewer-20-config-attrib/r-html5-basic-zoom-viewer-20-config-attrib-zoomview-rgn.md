@@ -2,16 +2,15 @@
 description: ZoomView.rgn
 solution: Experience Manager
 title: ZoomView.rgn
-feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Zoom
+role: Developer,User
+exl-id: fa978c5f-2473-4c2c-ac3e-6273283825e3
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 10%
+source-wordcount: '45'
+ht-degree: 11%
 
 ---
-
 
 # ZoomView.rgn{#zoomview-rgn}
 
@@ -21,7 +20,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> x,y,w,h</span> </p> </td> 
-   <td colname="col2"> <p> Région initiale présentant un intérêt pour les coordonnées en pixels. Si ces valeurs ne sont pas spécifiées, l’image entière est ajustée dans la fenêtre d’affichage initiale. </p> </td> 
+   <td colname="col2"> <p> Région initiale d’intérêt pour les coordonnées des pixels. Si cette valeur n’est pas spécifiée, l’image entière est ajustée à la fenêtre d’affichage initiale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
