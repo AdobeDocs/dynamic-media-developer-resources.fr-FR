@@ -1,42 +1,41 @@
 ---
-description: Sélectionnez Calque d’effets. Sélectionne un calque d’effets et début un nouveau segment de calque dans la chaîne de requête, qui est associé au calque actif.
+description: Sélectionnez Calque d’effet. Sélectionne un calque d’effet et lance un nouveau segment de calque dans la chaîne de requête, qui est associé au calque actif.
 solution: Experience Manager
 title: effet
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: d1eaa38d-cfd3-44d4-92b1-04d72333f867
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '176'
 ht-degree: 3%
 
 ---
 
-
 # effet{#effect}
 
-Sélectionnez Calque d’effets. Sélectionne un calque d’effets et début un nouveau segment de calque dans la chaîne de requête, qui est associé au calque actif.
+Sélectionnez Calque d’effet. Sélectionne un calque d’effet et lance un nouveau segment de calque dans la chaîne de requête, qui est associé au calque actif.
 
 `effect= *`n`*`
 
 <table id="simpletable_C48DABF486604D2B9F3CBC1CD01AC76D"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> n</span></span> </p> </td> 
-  <td class="stentry"> <p>Numéro du calque d’effet (int différent de 0). </p></td> 
+  <td class="stentry"> <p>Numéro de calque de l’effet (int différent de 0). </p></td> 
  </tr> 
 </table>
 
-Toutes les commandes du nouveau segment sont appliquées au calque d’effet spécifié. Un segment de couche d’effet est terminé par la commande suivante `layer=` ou `effect=` ou par la fin de la requête.
+Toutes les commandes du nouveau segment sont appliquées à la couche d’effet spécifiée. Un segment de calque d’effet est arrêté par la commande `layer=` ou `effect=` suivante ou à la fin de la requête.
 
-*`n`* doit être inférieur à 0 pour les effets de calque externe (c’est-à-dire les effets derrière le calque parent) et supérieur à 0 pour les effets de calque interne (c’est-à-dire les effets dans le calque parent). Les numéros des calques d’effets ne doivent pas nécessairement être consécutifs.
+*`n`* doit être inférieur à 0 pour les effets de couche externe (c’est-à-dire les effets derrière la couche parent) et supérieur à 0 pour les effets de couche interne (c’est-à-dire les effets dans la couche parent). Les numéros de calque d’effet ne doivent pas nécessairement être consécutifs.
 
-Le numéro de calque d’effet spécifie l’ordre z, en cas de plusieurs calques d’effets pour le même calque parent. Les calques à numérotation supérieure sont placés au-dessus des calques à numérotation inférieure.
+Le numéro de calque d’effet spécifie l’ordre z, dans le cas de plusieurs calques d’effet pour le même calque parent. Les calques à numéro supérieur sont placés au-dessus des calques à numéro inférieur.
 
-Les couches d&#39;effets peuvent être associées à `layer=comp`.
+Les calques d’effet peuvent être joints à `layer=comp`.
 
 ## Propriétés {#section-e11f795deff345779ce280a82cf221ca}
 
-Calque d’effet, commande. *`n`* ne doit pas être égal à 0.
+Couche d’effet, commande. *`n`* ne doit pas être égal à 0.
 
 ## Par défaut {#section-84bbe1cfe7a94040827c994323ac59d4}
 
