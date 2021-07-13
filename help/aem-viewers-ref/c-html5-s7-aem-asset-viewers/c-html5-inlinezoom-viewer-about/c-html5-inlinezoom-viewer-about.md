@@ -4,9 +4,9 @@ keywords: responsive
 solution: Experience Manager
 title: Zoom intégré
 feature: Dynamic Media Classic,Visionneuses,SDK/API,Zoom intégré
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 33e661b0-be5e-4d37-af88-47f7bc433c01
-source-git-commit: e6ff4ed80b22e10fc2bd3fac0f4e39bbf5148f8e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '2404'
 ht-degree: 0%
@@ -250,7 +250,7 @@ Un chemin relatif ressemble à ce qui suit :
    </html>
    ```
 
-## Intégration de conception réactive avec une hauteur illimitée {#section-056cb574713c4d07be6d07cf3c598839}
+## Intégration de conception réactive avec une hauteur libre {#section-056cb574713c4d07be6d07cf3c598839}
 
 Avec l’incorporation de responsive design, la page web dispose normalement d’une sorte de disposition flexible qui détermine la taille d’exécution du conteneur de la visionneuse `DIV`. Pour l’exemple suivant, supposons que la page web permette au conteneur de la visionneuse `DIV` de prendre 40 % de la taille de la fenêtre du navigateur web, en ne restreignant pas sa hauteur. Le code HTML de la page web se présente comme suit :
 
@@ -333,7 +333,7 @@ La page d’exemples suivante illustre d’autres utilisations réelles de l’i
 
 [Autre emplacement de démonstration](https://experienceleague.adobe.com/tools/vlist/vlist.html)
 
-## Intégration de taille flexible avec largeur et hauteur définies {#section-0a329016f9414d199039776645c693de}
+## Intégration flexible de taille avec définition de largeur et de hauteur {#section-0a329016f9414d199039776645c693de}
 
 Dans le cas d’une incorporation à taille flexible avec des valeurs de largeur et de hauteur définies, le style de la page web est différent. Il fournit les deux tailles à la balise `"holder"` DIV et le centre dans la fenêtre du navigateur. En outre, la page web définit la taille de l’élément `HTML` et `BODY` sur 100 %.
 
@@ -406,7 +406,7 @@ var inlineZoomViewer = new s7viewers.FlyoutViewer({
 </html>
 ```
 
-## Incorporation à l’aide de l’API Setter {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
+## Incorporation à l’aide d’une API basée sur Setter {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
 
 Au lieu d’utiliser l’initialisation basée sur JSON, il est possible d’utiliser une API basée sur un setter et un constructeur sans args. L’utilisation de ce constructeur d’API ne prend aucun paramètre et les paramètres de configuration sont spécifiés à l’aide des méthodes d’API `setContainerId()`, `setParam()` et `setAsset()`, avec des appels JavaScript distincts.
 
