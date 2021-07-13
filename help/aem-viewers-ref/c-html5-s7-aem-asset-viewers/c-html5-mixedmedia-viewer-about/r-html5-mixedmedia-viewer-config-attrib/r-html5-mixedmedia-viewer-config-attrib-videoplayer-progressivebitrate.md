@@ -3,9 +3,9 @@ description: VideoPlayer.progressivebitrate
 solution: Experience Manager
 title: VideoPlayer.progressivebitrate
 feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: b156d3f4-c4d3-45fe-b3d3-b7ed38f6eb4d
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 4%
