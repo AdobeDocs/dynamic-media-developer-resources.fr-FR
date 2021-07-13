@@ -1,17 +1,16 @@
 ---
 description: Les champs suivants sont reconnus dans les fichiers de définition de macro.
 solution: Experience Manager
-title: Définition des macros
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: Définitions des macros
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 0d95d288-8bd5-4ba8-a673-2a84f39a5dc6
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '38'
+source-wordcount: '35'
 ht-degree: 0%
 
 ---
-
 
 # Définitions des macros{#macro-definitions}
 
@@ -24,7 +23,6 @@ Les champs suivants sont reconnus dans les fichiers de définition de macro.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-macro-definition-reference/r-definition-macro.md" type="reference" format="dita" scope="local"> Définition</a></span> </p></td> 
-  <td class="stentry"> <p>Définition de macro. </p></td> 
+  <td class="stentry"> <p>Définition des macros. </p></td> 
  </tr> 
 </table>
-
