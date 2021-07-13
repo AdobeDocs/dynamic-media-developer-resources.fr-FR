@@ -3,9 +3,9 @@ description: Le bouton de lecture/pause entraîne le lecteur vidéo à lire ou �
 solution: Experience Manager
 title: Bouton Lecture/Pause
 feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 8312645f-5704-499f-b66a-cf51dd8c1ec7
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 2%
