@@ -1,31 +1,30 @@
 ---
-description: URL de la visionneuse de vidéos interactive.
+description: Commande URL de la visionneuse de vidéos interactives.
 solution: Experience Manager
 title: navigation
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéos interactives
+role: Developer,User
 exl-id: 9852e723-fd1f-4ade-921b-cfb92bf9f2ad
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '63'
 ht-degree: 12%
 
 ---
 
 # navigation{#navigation}
 
-URL de la visionneuse de vidéos interactive.
+Commande URL de la visionneuse de vidéos interactives.
 
 ` navigation= *`file`*`
 
-Le lecteur prend en charge la navigation dans les chapitres vidéo au moyen de fichiers WebVTT hébergés. Les opérateurs de positionnement des indices ne sont pas pris en charge.
+La visionneuse prend en charge la navigation par chapitre vidéo au moyen de fichiers WebVTT hébergés. Les opérateurs de positionnement des repères ne sont pas pris en charge.
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fichier</span> </span> </p> </td> 
-   <td colname="col2"> <p> Indique une URL ou un chemin d’accès au contenu de navigation WebVTT. Image Serving doit héberger le fichier WebVTT. </p> </td> 
+   <td colname="col2"> <p> Spécifie une URL ou un chemin d’accès au contenu de navigation WebVTT. Le serveur d’images doit héberger le fichier WebVTT. </p> </td> 
   </tr> 
  </tbody> 
 </table>
