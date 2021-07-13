@@ -1,33 +1,32 @@
 ---
-description: Les modèles peuvent être utilisés pour réduire la longueur et la complexité des requêtes composées de plusieurs calques d’image ou contenant du texte au format rtf.
+description: Les modèles peuvent être utilisés pour réduire la longueur et la complexité des demandes qui composent plusieurs calques d’image ou qui incluent du texte au format rtf.
 solution: Experience Manager
 title: Modèles
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: ef49cf8a-4621-4114-aae5-5178f6a5160d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
 
-
 # Modèles{#templates}
 
-Les modèles peuvent être utilisés pour réduire la longueur et la complexité des requêtes composées de plusieurs calques d’image ou contenant du texte au format rtf.
+Les modèles peuvent être utilisés pour réduire la longueur et la complexité des demandes qui composent plusieurs calques d’image ou qui incluent du texte au format rtf.
 
-Vous pouvez utiliser des variables personnalisées pour simplifier davantage l’utilisation des modèles. Les modèles sont souvent configurés pour faciliter la permutation d’images ou de texte ou la définition d’autres options au moment de l’exécution.
+Les variables personnalisées peuvent être utilisées pour simplifier davantage l’utilisation des modèles. Les modèles sont souvent configurés pour faciliter la permutation d’images ou de texte ou la définition d’autres options au moment de l’exécution.
 
-Les modèles sont stockés en tant qu’enregistrements dans les catalogues d’images, avec le corps du modèle dans le champ `catalog::Modifier` et le champ `catalog::Path` vide ou en spécifiant une image d’arrière-plan statique qui ne peut pas être modifiée dynamiquement.
+Les modèles sont stockés en tant qu’enregistrements dans les catalogues d’images, avec le corps du modèle dans le champ `catalog::Modifier` et le champ `catalog::Path` vide ou spécifiant une image d’arrière-plan statique qui ne peut pas être modifiée dynamiquement.
 
-Les modèles sont spécifiés avec la commande `template=` ou dans le composant path de l’URL de requête. Pour la plupart des applications, il est recommandé d&#39;utiliser la commande `template=` pour spécifier des modèles. La commande `template=`ne doit pas se produire dans le champ `catalog::PostModifier` et ne peut se produire que dans le champ `catalog::Modifier` d&#39;une requête IS imbriquée (c&#39;est-à-dire dans un concept `src=is{...}`). Les enregistrements de modèle ne peuvent pas être référencés dans les commandes `src=` ou `mask=`.
+Les modèles sont spécifiés avec la commande `template=` ou dans le composant de chemin de l’URL de requête. Pour la plupart des applications, il est recommandé d&#39;utiliser la commande `template=` pour spécifier les modèles. La commande `template=`ne doit pas se produire dans le champ `catalog::PostModifier` et ne peut se produire que dans le champ `catalog::Modifier` d’une requête IS imbriquée (c’est-à-dire dans un concept `src=is{...}`). Les enregistrements de modèle ne peuvent pas être référencés dans les commandes `src=` ou `mask=`.
 
-Toute commande `src=` ou `mask=`incorporée dans le modèle peut être résolue dans le catalogue principal de la demande ou dans un autre catalogue d’images. Si aucun `rootId` n&#39;est spécifié explicitement, le catalogue principal est supposé. Le modèle spécifié avec `template=` peut également se trouver dans le catalogue principal ou dans un autre catalogue d’images.
+Toute commande `src=` ou `mask=`incorporée dans le modèle peut se résoudre par le catalogue principal de la demande ou par un autre catalogue d’images. Si aucun `rootId` n’est spécifié explicitement, le catalogue principal est supposé. Le modèle spécifié avec `template=` peut également se trouver dans le catalogue principal ou dans un catalogue d’images différent.
 
-Il est vivement recommandé d’inclure toujours des définitions par défaut pour toutes les variables utilisées dans un modèle. Ainsi, la sortie d’image du modèle peut toujours être vue en spécifiant simplement ses `attribute::RootId` et `catalog::Id`, sans avoir à connaître les variables utilisées dans le modèle.
+Il est vivement recommandé de toujours inclure des définitions par défaut pour toutes les variables utilisées dans un modèle. Ainsi, la sortie de l’image du modèle peut toujours être visualisée en spécifiant simplement ses `attribute::RootId` et `catalog::Id`, sans avoir à connaître les variables utilisées dans le modèle.
 
-La variable de substitution de chemin prédéfinie `$object$` peut être utilisée pour appliquer l’objet image spécifié dans le chemin d’URL à toute source ou masque de calque ( `src=` ou `mask=`), même dans les requêtes imbriquées ou incorporées.
+La variable de substitution de chemin prédéfinie `$object$` peut être utilisée pour appliquer l’objet image spécifié dans le chemin d’URL à n’importe quelle source ou masque de calque ( `src=` ou `mask=`), même dans les requêtes imbriquées ou incorporées.
 
 * [Exemple A](r-example-a.md)
 * [Exemple B](r-example-b.md)
