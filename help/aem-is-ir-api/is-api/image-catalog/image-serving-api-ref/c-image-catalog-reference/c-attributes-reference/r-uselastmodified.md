@@ -1,35 +1,34 @@
 ---
-description: Activez les en-têtes de réponse modifiés en dernier. Active ou désactive l’inclusion de l’en-tête Dernière modification dans les réponses HTTP en mémoire cache émises par la diffusion d’images.
+description: Activez les en-têtes de réponse de dernière modification. Active ou désactive l’inclusion de l’en-tête Last-Modified dans les réponses HTTP pouvant être mises en cache émises par le serveur d’images.
 solution: Experience Manager
 title: UseLastModified
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 4908da5d-636e-44d2-bd49-40e01c8b5f79
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '222'
 ht-degree: 1%
 
 ---
 
-
 # UseLastModified{#uselastmodified}
 
-Activez les en-têtes de réponse modifiés en dernier. Active ou désactive l’inclusion de l’en-tête Dernière modification dans les réponses HTTP en mémoire cache émises par la diffusion d’images.
+Activez les en-têtes de réponse de dernière modification. Active ou désactive l’inclusion de l’en-tête Last-Modified dans les réponses HTTP pouvant être mises en cache émises par le serveur d’images.
 
-Le serveur utilise la valeur `catalog::TimeStamp` la plus récente de tous les catalogues/enregistrements de catalogue impliqués dans une réponse comme valeur d&#39;en-tête Dernière modification.
+Le serveur utilise la valeur `catalog::TimeStamp` la plus récente de tous les catalogues/enregistrements de catalogue impliqués dans une réponse comme valeur d’en-tête Last-Modified.
 
-Ne doit être activé que si un réseau de mise en cache distribué ou un autre système de mise en cache est utilisé qui ne prend pas en charge les en-têtes d&#39;balises.
+Doit être activé uniquement si un réseau de mise en cache distribué ou un autre système de mise en cache est utilisé et ne prend pas en charge les en-têtes d’etag.
 
 >[!NOTE]
 >
->Soyez prudent lorsque vous utilisez des en-têtes Dernière modification dans un environnement à charge équilibrée impliquant plusieurs hôtes de diffusion d’images. La mise en cache du client peut être annulée et la charge du serveur augmenter si, pour une raison quelconque, les serveurs disposent de tampons temporels différents pour les mêmes entrées de catalogue. Cette situation peut se présenter comme suit :
+>Soyez prudent lorsque vous utilisez des en-têtes Last-Modified dans un environnement à répartition de charge impliquant plusieurs hôtes de diffusion d’images. La mise en cache du client peut être abandonnée et la charge du serveur augmenter si, pour une raison quelconque, les serveurs disposent de différents horodatages pour les mêmes entrées de catalogue. Une telle situation peut se produire comme suit :
 >
->* Ni `catalog::TimeStamp` ni `attribute::TimeStamp`, de sorte que l’heure de modification du fichier [!DNL catalog.ini] soit utilisée comme valeur par défaut pour `catalog::TimeStamp`.
+>* Ni `catalog::TimeStamp` ni `attribute::TimeStamp`, de sorte que l’heure de modification du fichier [!DNL catalog.ini] soit utilisée par défaut pour `catalog::TimeStamp`.
    >
    >
-* Au lieu de partager les fichiers de catalogue d’images via un montage réseau, chaque serveur dispose de sa propre instance des fichiers de catalogue sur un système de fichiers local.
->* Deux instances ou plus d&#39;un même fichier [!DNL catalog.ini] ont des dates de modification de fichier différentes, peut-être en raison d&#39;une copie incorrecte des fichiers.
+* Au lieu de partager les fichiers du catalogue d’images via un montage réseau, chaque serveur possède sa propre instance des fichiers de catalogue sur un système de fichiers local.
+>* Deux instances ou plus du même fichier [!DNL catalog.ini] ont des dates de modification de fichier différentes, peut-être en raison d’une copie incorrecte des fichiers.
 
 >
 
@@ -41,7 +40,7 @@ Indicateur. 0 pour désactiver, 1 pour activer les en-têtes HTTP Dernière modi
 
 ## Par défaut {#section-4eb47aadab8b41609bef296a4115f9f4}
 
-Hérité de `default::UseLastModified` si elle n&#39;est pas définie ou si elle est vide.
+Hérité de `default::UseLastModified` si elle n’est pas définie ou si elle est vide.
 
 ## Voir aussi {#section-4211a78f8a5b45629c62fed5ae82f1cb}
 
