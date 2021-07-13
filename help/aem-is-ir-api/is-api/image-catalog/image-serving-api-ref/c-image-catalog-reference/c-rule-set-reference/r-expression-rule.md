@@ -1,21 +1,20 @@
 ---
-description: Élément de modèle d’expression régulier. Facultatif dans les éléments <rule>.
+description: Elément de modèle d’expression régulière. Facultatif dans les éléments <rule> .
 solution: Experience Manager
 title: expression
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 84b0bb22-7462-4038-9d14-2707999b5548
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '161'
 ht-degree: 3%
 
 ---
 
-
 # expression{#expression}
 
-Élément de modèle d’expression régulier. Facultatif dans les éléments `<rule>`.
+Elément de modèle d’expression régulière. Facultatif dans les éléments `<rule>`.
 
 ## Attributs {#section-2d438c889ae84b6da7e0ed84b5d021a0}
 
@@ -27,7 +26,7 @@ Chaîne de modèle d’expression régulière.
 
 ## Description {#section-759bfb738ddb45dba1f0807aba8c1113}
 
-L&#39;élément `<expression>` peut être vide ou contenir une chaîne de recherche simple ou un modèle d&#39;expression normal. Le modèle est appliqué à la chaîne de requête entière.
+L’élément `<expression>` peut être vide ou contenir une simple chaîne de recherche ou un modèle d’expression régulière. Le modèle est appliqué à l’intégralité de la chaîne de requête.
 
 Une correspondance se produit toujours lorsque `<expression>` est vide ou non spécifié ; cela équivaut à spécifier `<expression>.*</expression>`.
 
@@ -35,11 +34,11 @@ L’implémentation est basée sur le package Java [java.util.regex](https://www
 
 ## Remarques {#section-10b472a902674893b49ca49a7052c366}
 
-La chaîne d&#39;expression ne doit pas contenir de caractères littéraux &lt; et &amp;. Ces caractères réservés peuvent être codés avec `&` et `<`, respectivement, ou la chaîne entière peut être incluse dans une section XML `CDATA` :
+La chaîne d’expression ne doit pas contenir de caractères littéraux &lt; et &amp; . Ces caractères réservés peuvent être codés respectivement avec `&` et `<` ou toute la chaîne peut être incluse dans une section `CDATA` XML :
 
 `<expression><![CDATA[&fmt=custom]]></expression>`
 
-Tous les caractères compris entre les balises `<expression>` et `</expression>` sont transmis à l’analyseur d’expressions standard, y compris les caractères en dehors de la section facultative `CDATA`. Il faut prendre soin d’éviter les espaces blancs supplémentaires.
+Tous les caractères compris entre les balises `<expression>` et `</expression>` sont transmis à l’analyseur d’expressions régulières, y compris les caractères qui se trouvent en dehors de la section `CDATA` facultative. Soyez prudent afin d’éviter des espaces blancs supplémentaires.
 
 ## Voir aussi {#section-ca98548917d945f4b71f18208f0e6840}
 
