@@ -1,21 +1,20 @@
 ---
-description: Attribut de configuration pour la visionneuse de vidéos interactive.
+description: Attribut de configuration de la visionneuse de vidéos interactives.
 solution: Experience Manager
 title: CallToAction.fmt
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéos interactives
+role: Developer,User
 exl-id: 38ca592f-329c-4fd4-8dbc-a49000663e55
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '73'
 ht-degree: 5%
 
 ---
 
 # CallToAction.fmt{#calltoaction-fmt}
 
-Attribut de configuration pour la visionneuse de vidéos interactive.
+Attribut de configuration de la visionneuse de vidéos interactives.
 
 `[CallToAction.|<containerId>_callToAction.]fmt=jpg|jpeg|png|png-alpha|gif|gif-alpha`
 
@@ -23,7 +22,7 @@ Attribut de configuration pour la visionneuse de vidéos interactive.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> Indique le format d’image utilisé par le composant pour le chargement des images à partir du serveur Image Server. </p> <p>Si le format spécifié se termine par "<span class="codeph"> -alpha</span>", le composant effectue le rendu des images sous forme de contenu transparent. Pour tous les autres formats d’image, le composant traite les images comme opaques. </p> </td> 
+   <td colname="col2"> <p> Indique le format d’image que le composant utilise pour charger les images à partir du serveur d’images. </p> <p>Si le format spécifié se termine par "<span class="codeph"> -alpha</span>", le composant effectue le rendu des images en tant que contenu transparent. Pour tous les autres formats d’image, le composant traite les images comme opaques. </p> </td> 
   </tr> 
  </tbody> 
 </table>
