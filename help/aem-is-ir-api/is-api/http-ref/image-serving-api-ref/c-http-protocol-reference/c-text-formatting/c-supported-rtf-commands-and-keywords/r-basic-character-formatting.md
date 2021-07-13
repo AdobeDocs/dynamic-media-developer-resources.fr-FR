@@ -1,21 +1,20 @@
 ---
-description: Utilisez les commandes suivantes pour la mise en forme de base des caractères.
+description: Utilisez les commandes suivantes pour la mise en forme de caractères de base.
 solution: Experience Manager
 title: Formatage des caractères de base
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: d3bd6d4d-d7bd-4c9b-bc9e-7edaaac6378e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '131'
 ht-degree: 8%
 
 ---
 
-
 # Formatage des caractères de base{#basic-character-formatting}
 
-Utilisez les commandes suivantes pour la mise en forme de base des caractères.
+Utilisez les commandes suivantes pour la mise en forme de caractères de base.
 
 <table id="table_65415B84652F4E7497299AD90AE7C191"> 
  <thead> 
@@ -28,7 +27,7 @@ Utilisez les commandes suivantes pour la mise en forme de base des caractères.
  <tbody> 
   <tr> 
    <td> <span class="codeph"> \ordinaire </span> </td> 
-   <td> <p>Rétablit la mise en forme des caractères par défaut. </p> </td> 
+   <td> <p>Remplacez le formatage des caractères par défaut. </p> </td> 
    <td> <p> <span class="codeph"> textPs=  </span> uniquement. </p> </td> 
   </tr> 
   <tr> 
@@ -39,7 +38,7 @@ Utilisez les commandes suivantes pour la mise en forme de base des caractères.
   <tr> 
    <td> <span class="codeph"> \fs  <span class="varname"> N  </span> </span> </td> 
    <td> <p>Taille de police. </p> </td> 
-   <td> <p>demi-points ; la valeur par défaut est 24. </p> </td> 
+   <td> <p>demi-points; la valeur par défaut est 24. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \cf  <span class="varname"> N  </span> </span> </td> 
@@ -79,7 +78,7 @@ Utilisez les commandes suivantes pour la mise en forme de base des caractères.
       <li id="li_482CCC6F5D8544CCA69DF2A070097ABD"> <span class="codeph"> \ulth  </span> </li> 
       <li id="li_F11C79A6640B4C0684CA5D9733E49F43"> <span class="codeph"> \ulw  </span> </li> 
       <li id="li_84F94D17372B4C0494A9F8AEC951C556"> <span class="codeph"> \ulwave  </span> </li> 
-     </ul> </p> <p>Ils sont actuellement mis en oeuvre sous la forme d'un soulignement standard <span class="codeph"> \ul </span>. Toutes les autres commandes de soulignement RTF sont ignorées. </p> </td> 
+     </ul> </p> <p>Elles sont mises en oeuvre à l’heure actuelle sous la forme d’un soulignement <span class="codeph"> \ul </span> standard. Toutes les autres commandes de soulignement RTF sont ignorées. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ulnone  </span> </td> 
@@ -98,9 +97,8 @@ Utilisez les commandes suivantes pour la mise en forme de base des caractères.
   </tr> 
   <tr> 
    <td> <span class="codeph"> \scaps  </span> </td> 
-   <td> <p>minuscule ("petites majuscules") </p> </td> 
+   <td> <p>minuscules ("petites majuscules") </p> </td> 
    <td> <p> <span class="codeph"> textPs=  </span> uniquement. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
