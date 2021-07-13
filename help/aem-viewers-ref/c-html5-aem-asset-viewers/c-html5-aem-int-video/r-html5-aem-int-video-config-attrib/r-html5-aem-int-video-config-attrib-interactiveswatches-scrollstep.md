@@ -1,21 +1,20 @@
 ---
-description: Attribut de configuration pour la visionneuse de vidéos interactive.
+description: Attribut de configuration de la visionneuse de vidéos interactives.
 solution: Experience Manager
 title: InteractiveSwatches.scrollstep
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéos interactives
+role: Developer,User
 exl-id: 15bf7af8-428b-4c1c-b7ad-004563347d7c
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 7%
+source-wordcount: '73'
+ht-degree: 8%
 
 ---
 
 # InteractiveSwatches.scrollstep{#interactiveswatches-scrollstep}
 
-Attribut de configuration pour la visionneuse de vidéos interactive.
+Attribut de configuration de la visionneuse de vidéos interactives.
 
 ` [InteractiveSwatches.|<containerId>_interactiveSwatches.]scrollstep= *`étape`*`
 
@@ -23,7 +22,7 @@ Attribut de configuration pour la visionneuse de vidéos interactive.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> étape</span></span> </p> </td> 
-   <td colname="col2"> <p>Indique le nombre d’échantillons à faire défiler pour chaque pression sur le bouton de défilement correspondant. </p> <p>Si la valeur spécifiée est supérieure au nombre d’échantillons interactifs visibles, chaque pression sur l’écran défile uniquement en fonction du nombre d’échantillons visibles afin d’éviter l’omission d’une nuance. </p> </td> 
+   <td colname="col2"> <p>Indique le nombre d’échantillons à faire défiler pour chaque appui du bouton de défilement correspondant. </p> <p>Si la valeur spécifiée est supérieure au nombre d’échantillons interactifs visibles, chaque appui fait défiler uniquement le nombre d’échantillons visibles pour éviter l’omission d’un échantillon. </p> </td> 
   </tr> 
  </tbody> 
 </table>
