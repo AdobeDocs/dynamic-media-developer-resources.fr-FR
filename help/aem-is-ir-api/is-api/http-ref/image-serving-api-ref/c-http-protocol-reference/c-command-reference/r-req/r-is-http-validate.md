@@ -1,38 +1,37 @@
 ---
-description: Demande de validation.
+description: Validation de requête.
 solution: Experience Manager
 title: valider
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 88424371-45a0-43bb-af49-2e8568b7b44c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '106'
 ht-degree: 2%
 
 ---
 
-
 # valider{#validate}
 
-Demande de validation.
+Validation de requête.
 
 `req=validate[,text|javascript|xml|{json[&id= *`reqId`*]}]`
 
 <table id="simpletable_F214CDA7580A46C0B5CF14CF13AA9B0A"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> reqId</span> </span> </p> </td> 
-  <td class="stentry"> <p>Identificateur de requête unique. </p></td> 
+  <td class="stentry"> <p>Identifiant de requête unique. </p></td> 
  </tr> 
 </table>
 
-Analyse la chaîne de requête comme si `req=img` était spécifié, mais sans substituer de variables ni évaluer les objets référencés (images, profils ICC, polices, etc.). La réponse d’erreur standard est renvoyée en cas d’échec de l’analyse, sinon la propriété suivante est renvoyée :
+Analyse la chaîne de requête comme si `req=img` était spécifié, mais sans substituer de variables ni évaluer les objets référencés (images, profils ICC, polices, etc.). La réponse d’erreur standard est renvoyée si l’analyse échoue, sinon la propriété suivante est renvoyée :
 
 `request.isValid=1`
 
 La réponse HTTP ne peut pas être mise en cache.
 
-Les requêtes qui prennent en charge le format de réponse JSONP vous permettent de spécifier le nom du gestionnaire de rappel JS en utilisant la syntaxe étendue du paramètre `req=` :
+Les requêtes qui prennent en charge le format de réponse JSONP vous permettent de spécifier le nom du gestionnaire de rappel JS à l’aide de la syntaxe étendue du paramètre `req=` :
 
 `req=...,json [&handler = reqHandler ]`
 
