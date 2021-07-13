@@ -1,42 +1,41 @@
 ---
-description: Dilate/erode image. Applique un dilate morphologique (rayon > 0) ou une érode (rayon < 0) aux données image.
+description: Dilate/érode l’image. Applique un dilate morphologique (rayon > 0) ou une érode (rayon < 0) aux données de l’image.
 solution: Experience Manager
 title: op_grew
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 4c5bef4e-f80e-454d-8e93-30bf33d7ec9e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '112'
 ht-degree: 3%
 
 ---
 
-
 # op_grew{#op-grow}
 
-Dilate/erode image. Applique un dilate morphologique (rayon > 0) ou une érode (rayon &lt; 0) aux données image.
+Dilate/érode l’image. Applique un dilate morphologique (rayon > 0) ou une érode (rayon &lt; 0) aux données de l’image.
 
 `op_grow= *`radius`*`
 
 <table id="simpletable_3BAA4523D29E447FA7A4C9009B3E8344"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> radius</span></span> </p> </td> 
-  <td class="stentry"> <p>Rayon dilaté/érodé en pixels (int -100..100). </p></td> 
+  <td class="stentry"> <p>Dilate/érode le rayon en pixels (int -100..100). </p></td> 
  </tr> 
 </table>
 
-`*``*` radium en pixels par rapport à l’image composite. Si l’image est de couleur, chaque composant est traité indépendamment.
+`*``*` radiation en pixels par rapport à l’image composite. Si l’image est en couleur, chaque composant est traité indépendamment.
 
-Utilisé principalement pour modifier la taille des effets de calque. Également utile pour obtenir des effets spéciaux sur les calques de texte ou les calques de couleur unie avec des masques.
+Utilisé principalement pour modifier la taille des effets de calque. Également utile pour obtenir des effets spéciaux sur les calques de texte ou les calques de couleur unis avec des masques.
 
 ## Propriétés {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
-Attribut de couche. S’applique au calque actif ou à l’image composite si `layer=comp`.
+Attribut de calque. S’applique au calque actif ou à l’image composite si `layer=comp`.
 
 ## Par défaut {#section-14c908bb87cb42acbea709effea2f964}
 
-`op_grow=0`, sans changement.
+`op_grow=0`, pour aucune modification.
 
 ## Voir aussi {#section-ad3e5cecfc3448a38ea06093e015c88a}
 
