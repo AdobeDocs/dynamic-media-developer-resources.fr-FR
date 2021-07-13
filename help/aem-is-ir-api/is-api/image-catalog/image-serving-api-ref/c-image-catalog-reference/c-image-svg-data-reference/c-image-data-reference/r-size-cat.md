@@ -1,21 +1,20 @@
 ---
-description: Taille de l’image. Taille en pixels de l’image en résolution totale référencée par le chemin d’accès au catalogue.
+description: Taille de l’image. Taille en pixels de l’image pleine résolution référencée par le chemin du catalogue.
 solution: Experience Manager
 title: Taille
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 46f06cbb-d70f-4334-966c-624b49c3bb9b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 9%
+source-wordcount: '109'
+ht-degree: 10%
 
 ---
 
-
 # Taille{#size}
 
-Taille de l’image. Taille en pixels de l’image en résolution totale référencée par catalog::Path.
+Taille de l’image. Taille en pixels de l’image à résolution complète référencée par catalog::Path.
 
 Si cette valeur est fournie, la diffusion d’images l’utilise pour éviter d’avoir à ouvrir l’image pour obtenir la taille réelle de l’image.
 
