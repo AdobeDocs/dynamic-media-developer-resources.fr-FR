@@ -1,21 +1,20 @@
 ---
-description: Image Serving génère des en-têtes de réponse HTTP/1.1.
+description: La diffusion d’images génère des en-têtes de réponse HTTP/1.1.
 solution: Experience Manager
 title: Données de réponse
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 4ae1c345-8d55-4efc-b47f-e9dbed905695
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 11%
+source-wordcount: '24'
+ht-degree: 12%
 
 ---
 
-
 # Données de réponse{#response-data}
 
-Image Serving génère des en-têtes de réponse HTTP/1.1.
+La diffusion d’images génère des en-têtes de réponse HTTP/1.1.
 
 * [Images](c-images.md)
 * [Propriétés](c-properties/c-properties.md)
