@@ -2,18 +2,17 @@
 description: Accentuation de l’image de réponse par défaut. Indique s’il faut accentuer les images de réponse si elles sont mises à l’échelle avant le codage.
 solution: Experience Manager
 title: Accentuation
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 9a540b86-4d00-47db-8a1d-1d2b186ce87b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 10%
+source-wordcount: '53'
+ht-degree: 11%
 
 ---
 
-
-# Accentuer{#sharpen}
+# Accentuation{#sharpen}
 
 Accentuation de l’image de réponse par défaut. Indique s’il faut accentuer les images de réponse si elles sont mises à l’échelle avant le codage.
 
@@ -23,7 +22,7 @@ Indicateur.
 
 ## Par défaut {#section-e6f1f81ef5c949a488b2002581bda0d0}
 
-Hérité de `default::Sharpen` si elle n&#39;est pas définie ou si elle est vide.
+Hérité de `default::Sharpen` si elle n’est pas définie ou si elle est vide.
 
 ## Voir aussi {#section-85393c62428f49739a2510f9427d3607}
 
