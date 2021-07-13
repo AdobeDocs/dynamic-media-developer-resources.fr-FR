@@ -2,16 +2,15 @@
 description: Conversion au format du navigateur. Indique si la fonctionnalité de conversion du format de navigateur est activée ou désactivée.
 solution: Experience Manager
 title: bfc
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: d3fa2a11-339f-4c8e-9735-439c5464ab84
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '82'
 ht-degree: 4%
 
 ---
-
 
 # bfc{#bfc}
 
@@ -22,7 +21,7 @@ Conversion au format du navigateur. Indique si la fonctionnalité de conversion 
 <table id="simpletable_2D23B1B282CD4216AB5BE7E7430D1B3F"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> on|off  </span> </p> </td> 
-  <td class="stentry"> <p>Indique si la fonctionnalité de conversion de format de navigateur (images JPEG ou PNG converties en formats de fichier spécifiques au navigateur plus petits) est vraie ( <span class="codeph"> sur </span>) ou fausse ( <span class="codeph"> désactivée </span> pour aucune conversion de format spécifique au navigateur). </p> </td> 
+  <td class="stentry"> <p>Indique si la fonctionnalité de conversion de format de navigateur (conversion d’images JPEG ou PNG dans des formats de fichiers spécifiques au navigateur plus petits) est définie sur true ( <span class="codeph"> sur </span>) ou false ( <span class="codeph"> sur </span> pour aucune conversion de format spécifique au navigateur). </p> </td> 
  </tr> 
 </table>
 
