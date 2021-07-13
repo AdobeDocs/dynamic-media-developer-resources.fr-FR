@@ -1,21 +1,20 @@
 ---
-description: Si jsonp est spécifié comme format de réponse, les données de réponse sont formatées à l’aide de JSONP (JavaScript Object Notation with Padding), encapsulées dans un appel de fonction JavaScript.
+description: Si jsonp est spécifié comme format de réponse, les données de réponse sont formatées à l’aide de JSONP (JavaScript Object Notation with Padding), enveloppées dans un appel de fonction JavaScript.
 solution: Experience Manager
 title: Propriétés JSONP
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 2294eb37-b362-438f-94bc-eb24ca641752
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
 
-
 # Propriétés JSONP{#jsonp-properties}
 
-Si jsonp est spécifié comme format de réponse, les données de réponse sont formatées à l’aide de JSONP (JavaScript Object Notation with Padding), encapsulées dans un appel de fonction JavaScript.
+Si jsonp est spécifié comme format de réponse, les données de réponse sont formatées à l’aide de JSONP (JavaScript Object Notation with Padding), enveloppées dans un appel de fonction JavaScript.
 
 Le client peut spécifier un identifiant de requête unique facultatif ( *`reqId`*), qui est renvoyé dans la réponse et permet au client de distinguer plusieurs réponses reçues de manière asynchrone. Une réponse type présente la structure générale suivante :
 
@@ -48,13 +47,13 @@ S7jsonResponse(data, reqId)
 }
 ```
 
-Les requêtes qui prennent en charge le format de réponse JSONP vous permettent de spécifier le nom du gestionnaire de rappel JS en utilisant la syntaxe étendue du paramètre `req=` :
+Les requêtes qui prennent en charge le format de réponse JSONP vous permettent de spécifier le nom du gestionnaire de rappel JS à l’aide de la syntaxe étendue du paramètre `req=` :
 
 `req=...,json [&handler = reqHandler]`
 
 `<reqHandler>` est le nom du gestionnaire JS présent dans la réponse JSONP. Seuls les caractères a-z, A-Z et 0-9 sont autorisés. Facultatif. La valeur par défaut est `s7jsonResponse`.
 
-Le package des visionneuses de diffusion d’images de Dynamic Media comprend un utilitaire permettant de demander et d’analyser des données au format JSONP à partir de la diffusion d’images.
+Le package Visionneuses Dynamic Media Image Serving comprend un utilitaire permettant de demander et d’analyser des données au format JSONP à partir du serveur d’images.
 
 Voir [http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP) pour plus d’informations sur le format JSONP.
 
