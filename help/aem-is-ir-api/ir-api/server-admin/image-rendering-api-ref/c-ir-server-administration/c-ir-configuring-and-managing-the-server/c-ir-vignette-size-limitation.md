@@ -1,25 +1,23 @@
 ---
 description: Le rendu d’image impose une limite de taille de deux mégapixels pour les vignettes non pyramidales.
 solution: Experience Manager
-title: Limite de taille de vignette
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+title: Limitation de la taille des vignettes
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Administrator,User
+exl-id: 69116b7f-45c0-42ed-9114-d01db3ce16be
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
 
-
-# Limite de taille de vignette{#vignette-size-limitation}
+# Limitation de la taille des vignettes{#vignette-size-limitation}
 
 Le rendu d’image impose une limite de taille de deux mégapixels pour les vignettes non pyramidales.
 
-Modifiez la valeur de `IrMaxNonPyrVignetteSize` dans [ !DNL *[!DNL install_root]* /ImageServing/conf /ImageServerRegistry.conf] si votre application requiert la prise en charge de vignettes non pyramidales dont la zone d’image (largeur x hauteur) est supérieure à cette limite.
+Modifiez la valeur `IrMaxNonPyrVignetteSize` dans [!DNL *[!DNL install_root]* /ImageServing/conf /ImageServerRegistry.conf] si votre application nécessite la prise en charge de vignettes non pyramidales avec une zone d’image (largeur x hauteur) supérieure à cette limite.
 
 >[!NOTE]
 >
->`attribute::MaxPix` Il  `IS::MaxMessageSize` peut également s’avérer nécessaire d’ajuster la taille des images de réponse aux dimensions exceptionnellement élevées. Pour plus d’informations, reportez-vous à la documentation sur la diffusion d’images.
-
+>`attribute::MaxPix` et  `IS::MaxMessageSize` peuvent également devoir être ajustés pour permettre des tailles d’image de réponse exceptionnellement élevées. Pour plus d’informations, reportez-vous à la documentation du serveur d’images .
