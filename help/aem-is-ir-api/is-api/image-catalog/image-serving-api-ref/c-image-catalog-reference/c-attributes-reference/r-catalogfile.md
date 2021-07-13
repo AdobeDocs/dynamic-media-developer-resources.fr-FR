@@ -1,23 +1,22 @@
 ---
-description: Chemins du fichier de données image. Indique les fichiers qui contiennent les données image pour ce catalogue.
+description: Chemins du fichier de données image. Spécifie les fichiers contenant les données image pour ce catalogue.
 solution: Experience Manager
 title: CatalogFile
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 240a3884-68dd-474c-83a6-d79fc5b6c300
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '113'
 ht-degree: 4%
 
 ---
 
-
 # CatalogFile{#catalogfile}
 
-Chemins du fichier de données image. Indique les fichiers qui contiennent les données image pour ce catalogue.
+Chemins du fichier de données image. Spécifie les fichiers contenant les données image pour ce catalogue.
 
-Les fichiers de données image sont chargés dans l’ordre spécifié. Si la même valeur `catalog::Id` se produit dans plusieurs enregistrements (dans le même fichier catalogue ou dans des fichiers de catalogue différents), la dernière instance prévaut.
+Les fichiers de données image sont chargés dans l’ordre indiqué. Si la même valeur `catalog::Id` apparaît dans plusieurs enregistrements (dans le même fichier ou dans des fichiers de catalogue différents), la dernière instance prévaut.
 
 ## Propriétés {#section-6da55f145ecd4e31a5de52637a436983}
 
