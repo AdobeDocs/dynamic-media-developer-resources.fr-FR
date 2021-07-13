@@ -1,25 +1,24 @@
 ---
-description: Affiche les repères d’impression. Indique comment afficher les repères d’impression.
+description: Afficher les repères d’impression. Indique le mode d’affichage des repères d’impression.
 solution: Experience Manager
 title: printerMark
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: f61c7311-a2e9-4eb7-ae05-276a4eec980b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 30%
+source-wordcount: '120'
+ht-degree: 31%
 
 ---
 
-
 # printerMark{#printermark}
 
-Affiche les repères d’impression. Indique comment afficher les repères d’impression.
+Afficher les repères d’impression. Indique le mode d’affichage des repères d’impression.
 
-` printerMark= *`trim `*, *`marksbleed `*, *`marksenregistrement `*, *`markscolor `*, *`barspage information `*, *``*, *`styleline `*, *`pestlayer intégré`*`
+` printerMark= *`trim `*, *`marksbleed `*, *`marksenregistrement `*, *`markscolor `*, *`barspage `*, *``*, *`informationstyleline `*, *`pondértlayer embed`*`
 
-Les différentes marques peuvent être désactivées ou désactivées. Le style des repères d’impression peut également être contrôlé.
+Les différentes marques peuvent être désactivées ou désactivées. Le style des marques de l’imprimante peut également être contrôlé.
 
 Les valeurs valides sont les suivantes :
 
@@ -52,11 +51,11 @@ Les valeurs valides sont les suivantes :
  <tr class="strow"> 
   <td class="stentry"> <p>style= </p></td> 
   <td class="stentry"> <p>Par défaut </p> <p>InDesignJ1 </p> <p>InDesignJ2 </p> <p>Illustrator </p> <p>IllustratorJ </p> <p>QuarkXPress </p> </td> 
-  <td class="stentry"> <p>Par défaut : Par défaut </p></td> 
+  <td class="stentry"> <p>La valeur par défaut est </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>poids de ligne= </p></td> 
-  <td class="stentry"> <p>Toute valeur comprise entre 0,125 et 2,0. </p></td> 
+  <td class="stentry"> <p>line weight= </p></td> 
+  <td class="stentry"> <p>Toute valeur comprise entre 0,125 et 2,0 inclut les deux valeurs. </p></td> 
   <td class="stentry"> <p>Valeur par défaut : 0.25. </p></td> 
  </tr> 
  <tr class="strow"> 
