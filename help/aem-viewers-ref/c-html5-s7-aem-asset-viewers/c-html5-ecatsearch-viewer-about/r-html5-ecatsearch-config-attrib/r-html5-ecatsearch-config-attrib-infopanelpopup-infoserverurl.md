@@ -2,16 +2,15 @@
 description: InfoPanelPopup.infoServerUrl
 solution: Experience Manager
 title: InfoPanelPopup.infoServerUrl
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Recherche catalogue électronique
+role: Developer,User
+exl-id: f4bb0087-1e49-47e2-84b4-44b92fade36a
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '201'
 ht-degree: 2%
 
 ---
-
 
 # InfoPanelPopup.infoServerUrl{#infopanelpopup-infoserverurl}
 
@@ -21,14 +20,14 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> infoserverurl</span></span> </p> </td> 
-   <td> <p>Le modèle d’URL du serveur d’informations permet de récupérer les paires clé/valeur pour la substitution de variable dans le modèle de contenu du panneau d’informations. Le modèle spécifié contient généralement des espaces réservés aux macros qui sont remplacés par les données réelles avant que la demande ne soit envoyée au serveur. </p> <p><span class="codeph"> $1$</span> est remplacé par la valeur de survol qui a déclenché l’ <span class="codeph"> </span> activation InfoPanelPopupactivation. </p> <p><span class="codeph"> $2$</span> est remplacé par le numéro de séquence de l’image active dans la visionneuse d’images. </p> <p><span class="codeph"> $3$</span> est remplacé par le premier élément de chemin spécifié dans le nom du jeu parent de l'élément actif. Il correspond généralement à l’ID de catalogue. </p> <p><span class="codeph"> $4$</span> est remplacé par l’élément suivant dans le chemin d’accès et correspond à l’ID de ressource. La syntaxe de requête du serveur d’informations est dépendante du serveur d’informations et diffère d’un serveur à l’autre. Par exemple, voici un modèle type de demande de serveur d’informations Dynamic Media : </p> <p><span class="codeph"> http://server_domain/s7info/s7/$3$/$4$/$1$</span> </p> </td> 
+   <td> <p>Le modèle d’URL du serveur d’informations est utilisé pour récupérer les paires clé/valeur pour la substitution de variable dans le modèle de contenu du panneau d’informations. Le modèle spécifié contient généralement des espaces réservés de macro qui sont remplacés par les données réelles avant l’envoi de la demande au serveur. </p> <p><span class="codeph"> $1$</span> est remplacé par la valeur de survol qui a déclenché  <span class="codeph"> </span> InfoPanelPopupactivation. </p> <p><span class="codeph"> $2$</span> est remplacé par le numéro de séquence de l’image active dans la visionneuse d’images. </p> <p><span class="codeph"> $3$</span> est remplacé par le premier élément de chemin spécifié dans le nom du jeu parent de l’élément actif. Il correspond généralement à l’ID de catalogue. </p> <p><span class="codeph"> $4$</span> est remplacé par l’élément suivant dans le chemin d’accès et correspond à l’identifiant de la ressource. La syntaxe de la requête du serveur d’informations est dépendante du serveur d’informations et elle diffère d’un serveur à l’autre. Par exemple, voici un modèle de demande de serveur d’informations Dynamic Media type : </p> <p><span class="codeph"> http://server_domain/s7info/s7/$3$/$4$/$1$</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Notez que lorsque vous configurez la fenêtre contextuelle du panneau d’informations, le code HTML et le code JavaScript transmis au panneau d’informations s’exécutent sur l’ordinateur du client. Par conséquent, assurez-vous que ce code HTML et ce code JavaScript sont sécurisés.
+>Gardez à l’esprit que lorsque vous configurez la fenêtre contextuelle du panneau d’informations, le code HTML et le code JavaScript transmis au panneau d’informations s’exécutent sur l’ordinateur du client. Par conséquent, assurez-vous que ce code HTML et ce code JavaScript sont sécurisés.
 
 ## Propriétés {#section-71356e3c13244e62b0582980d9d05328}
 
