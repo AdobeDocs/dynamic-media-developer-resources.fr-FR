@@ -1,31 +1,30 @@
 ---
-description: Espace de nommage SDK du lecteur
+description: Espace de noms du SDK de la visionneuse
 solution: Experience Manager
-title: Espace de nommage SDK du lecteur
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
-role: Developer,Business Practitioner
+title: Espace de noms du SDK de la visionneuse
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Images interactives
+role: Developer,User
 exl-id: 8e37bb60-c875-48d6-8c86-93aba7f50f74
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
 
-# Espace de nommage SDK du lecteur{#viewer-sdk-namespace}
+# Espace de noms du SDK de la visionneuse{#viewer-sdk-namespace}
 
-Le lecteur est constitué de nombreux composants du kit de développement de visionneuse. Dans la plupart des cas, la page Web n’a pas besoin d’interagir directement avec l’API des composants SDK ; tous les besoins courants sont couverts dans l’API du lecteur lui-même.
+La visionneuse est composée de nombreux composants du SDK de la visionneuse. Dans la plupart des cas, la page web n’a pas besoin d’interagir directement avec l’API des composants SDK ; tous les besoins courants sont couverts dans l’API de visionneuse elle-même.
 
-Cependant, dans certains cas d’utilisation avancés, la page Web doit obtenir une référence à un composant SDK interne à l’aide de l’API de lecteur `getComponent()`, puis utiliser toute la flexibilité des API du SDK lui-même.
+Cependant, certains cas d’utilisation avancés nécessitent que la page web obtienne une référence à un composant SDK interne à l’aide de l’API de visionneuse `getComponent()`, puis utilise toute la flexibilité des API du SDK lui-même.
 
-L’espace de nommage utilisé par le lecteur pour charger et initialiser les composants du SDK dépend de l’environnement de fonctionnement du lecteur. Si le lecteur s’exécute dans AEM (Adobe Experience Manager), il charge les composants du SDK dans un espace de nommage `s7viewers.s7sdk`. Et le lecteur de contenu de Dynamic Media Classic charge le SDK dans `s7classic.s7sdk`.
+L’espace de noms utilisé pour charger et initialiser les composants du SDK par la visionneuse dépend de l’environnement dans lequel la visionneuse fonctionne. Si la visionneuse s’exécute dans AEM (Adobe Experience Manager), elle charge les composants SDK dans l’espace de noms `s7viewers.s7sdk`. Et la visionneuse fournie à partir de Dynamic Media Classic charge le SDK dans `s7classic.s7sdk`.
 
-Dans les deux cas, l’espace de nommage utilisé par le kit SDK dans le lecteur contient le préfixe `s7viewers` ou `s7classic`. De plus, il est différent de l’espace de nommage simple `s7sdk` utilisé dans le Guide de l’utilisateur du SDK ou dans la documentation de l’API du SDK.
+Dans les deux cas, l’espace de noms utilisé par le SDK dans la visionneuse comporte `s7viewers` ou `s7classic` comme préfixe. En outre, il diffère de l’espace de noms `s7sdk` simple utilisé dans le Guide de l’utilisateur du SDK ou dans la documentation de l’API du SDK.
 
-C’est pourquoi il est important d’utiliser un espace de nommage SDK complet lorsque vous écrivez un code d’application personnalisé qui communique avec les composants du lecteur interne.
+C’est pourquoi il est important d’utiliser un espace de noms SDK complet lorsque vous écrivez du code d’application personnalisé qui communique avec les composants de visionneuse internes.
 
-Par exemple, si vous prévoyez d’écouter le événement `StatusEvent.NOTF_VIEW_READY` et que le lecteur est diffusé à partir d’AEM, le type d&#39;événement complet est `s7viewers.s7sdk.event.StatusEvent.NOTF_VIEW_READY` et le code du module d’écoute de événement ressemble à ce qui suit :
+Par exemple, si vous prévoyez d’écouter l’événement `StatusEvent.NOTF_VIEW_READY` et que la visionneuse est diffusée à partir d’AEM, le type d’événement complet est `s7viewers.s7sdk.event.StatusEvent.NOTF_VIEW_READY` et le code d’écouteur d’événement ressemble à ce qui suit :
 
 ```
 <instance>.setHandlers({ 
