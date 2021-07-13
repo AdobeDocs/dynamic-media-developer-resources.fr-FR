@@ -2,16 +2,15 @@
 description: Format d’image de réponse par défaut. Indique le format par défaut des images de réponse.
 solution: Experience Manager
 title: Format
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 393264e0-4b2d-42d7-b95c-8d20770687e7
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '55'
 ht-degree: 10%
 
 ---
-
 
 # Format{#format}
 
@@ -19,13 +18,13 @@ Format d’image de réponse par défaut. Indique le format par défaut des imag
 
 ## Propriétés {#section-3cbea775a174443aaf14e9e58a3c2300}
 
-Chaîne de texte. Doit être l&#39;un des jetons de format pris en charge par la commande `fmt=` :
+Chaîne de texte. Doit être l’un des jetons de format pris en charge par la commande `fmt=` :
 
 `jpg | jpeg | png | png-alpha | tif | tif-alpha | swf | swf-alpha | pdf | eps | gif | gif-alpha`
 
 ## Par défaut {#section-256b0f8afdd846eaac68ec2019258708}
 
-Hérité de `default::Format` si elle n&#39;est pas définie ou si elle est vide.
+Hérité de `default::Format` si elle n’est pas définie ou si elle est vide.
 
 ## Voir aussi {#section-d6dc53ae28ab4133a9f8f9ec0bc159a6}
 
