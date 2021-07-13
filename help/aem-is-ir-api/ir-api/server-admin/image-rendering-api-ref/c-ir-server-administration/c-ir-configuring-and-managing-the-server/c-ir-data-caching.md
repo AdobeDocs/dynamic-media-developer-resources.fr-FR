@@ -1,20 +1,19 @@
 ---
-description: Le rendu des images utilise les fonctions de mise en cache du service d’images pour enregistrer les données d’image de réponse, les données intermédiaires pour les requêtes imbriquées/incorporées et les données d’image source (telles que les textures) obtenues à partir d’une source externe.
+description: Le rendu d’image utilise les fonctionnalités de mise en cache de la diffusion d’images pour enregistrer les données d’image de réponse, les données intermédiaires pour les demandes imbriquées et incorporées, ainsi que les données d’image source (telles que les textures) obtenues à partir d’une source externe.
 solution: Experience Manager
 title: Mise en cache des données
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Administrator,User
+exl-id: c7be9254-0dd4-4ec3-8448-86a18b9bea0d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '83'
 ht-degree: 0%
 
 ---
 
-
 # Mise en cache des données{#data-caching}
 
-Le rendu des images utilise les fonctions de mise en cache du service d’images pour enregistrer les données d’image de réponse, les données intermédiaires pour les requêtes imbriquées/incorporées et les données d’image source (telles que les textures) obtenues à partir d’une source externe.
+Le rendu d’image utilise les fonctionnalités de mise en cache de la diffusion d’images pour enregistrer les données d’image de réponse, les données intermédiaires pour les demandes imbriquées et incorporées, ainsi que les données d’image source (telles que les textures) obtenues à partir d’une source externe.
 
-Pour obtenir une description des mécanismes de mise en cache, reportez-vous à la documentation sur la diffusion d’images.
+Reportez-vous à la documentation du serveur d’images pour une description des mécanismes de mise en cache.
