@@ -2,16 +2,15 @@
 description: Référence de l’API JavaScript pour la visionneuse de vidéos.
 solution: Experience Manager
 title: setParam
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéo
+role: Developer,User
+exl-id: b28ffb51-1091-4f2e-b12d-904218daf117
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '88'
 ht-degree: 2%
 
 ---
-
 
 # setParam{#setparam}
 
@@ -19,9 +18,9 @@ Référence de l’API JavaScript pour la visionneuse de vidéos.
 
 ` setParam( *`name, value`*)`
 
-Définit le paramètre de visionneuse sur une valeur spécifiée. Le paramètre est soit une option de configuration spécifique au lecteur, soit un modificateur de kit de développement logiciel. Ce paramètre est appelé avant `init()`.
+Définit le paramètre de visionneuse sur une valeur spécifiée. Le paramètre est soit une option de configuration spécifique à la visionneuse, soit un modificateur de kit de développement logiciel. Ce paramètre est appelé avant `init()`.
 
-Cette méthode est facultative si les informations de configuration de la visionneuse ont été transmises avec l’objet JSON `config` au constructeur.
+Cette méthode est facultative si les informations de configuration de la visionneuse ont été transmises au constructeur avec l’objet JSON `config`.
 
 Voir aussi [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6).
 
@@ -47,4 +46,3 @@ Aucune
 ```
 <instance>.setParam("style", "customStyle.css")
 ```
-
