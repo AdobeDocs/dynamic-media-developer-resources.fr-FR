@@ -4,9 +4,9 @@ keywords: responsive
 solution: Experience Manager
 title: Personnalisation de la visionneuse de recherche de catalogue électronique
 feature: Dynamic Media Classic,Visionneuses,SDK/API,Recherche catalogue électronique
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 32b55fb1-1408-4264-92fa-b3a73f31df1d
-source-git-commit: 776539f14bbcd0342dac632c13a12eeb7b8efa21
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '1406'
 ht-degree: 0%
@@ -165,7 +165,7 @@ background-position: -0px -560px;
 }
 ```
 
-## Notes générales sur le style et conseils {#section-95855dccbbc444e79970f1aaa3260b7b}
+## Notes et conseils généraux sur le style {#section-95855dccbbc444e79970f1aaa3260b7b}
 
 * Lors de la personnalisation de l’interface utilisateur de la visionneuse avec CSS, l’utilisation de la règle `!IMPORTANT` n’est pas prise en charge pour appliquer un style aux éléments de la visionneuse. En particulier, la règle `!IMPORTANT` ne doit pas être utilisée pour remplacer les styles par défaut ou d’exécution fournis par la visionneuse ou le SDK de la visionneuse. La raison est qu’elle peut affecter le comportement des composants appropriés. Vous devez plutôt utiliser des sélecteurs CSS avec la précision appropriée pour définir les propriétés CSS documentées dans ce guide de référence.
 * Tous les chemins d’accès aux ressources externes dans CSS sont résolus par rapport à l’emplacement CSS, et non par rapport à l’emplacement de la page HTML de la visionneuse. Tenez compte de cette règle lorsque vous copiez le CSS par défaut vers un autre emplacement. Copiez également les ressources par défaut ou mettez à jour les chemins d’accès dans le fichier CSS personnalisé.
@@ -176,7 +176,7 @@ background-position: -0px -560px;
 * Pour supprimer un bouton de l’interface utilisateur, ajoutez `display:none` à sa classe CSS.
 * Vous pouvez utiliser différents formats pour la valeur de couleur prise en charge par CSS. Si vous avez besoin de transparence, utilisez le format `rgba(R,G,B,A)`. Sinon, vous pouvez utiliser le format `#RRGGBB`.
 
-## Éléments d’interface utilisateur courants {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
+## Éléments de l’interface utilisateur courants {#section-d6330c9be8c444aa9b2a07886e3dbc2a}
 
 Voici la documentation de référence sur les éléments de l’interface utilisateur qui s’applique à la visionneuse de recherche de catalogue électronique :
 
