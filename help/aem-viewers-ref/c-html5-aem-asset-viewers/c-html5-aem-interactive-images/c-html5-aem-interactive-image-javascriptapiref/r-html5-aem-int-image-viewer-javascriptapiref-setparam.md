@@ -2,13 +2,12 @@
 description: Référence de l’API JavaScript pour la visionneuse d’images vidéo.
 solution: Experience Manager
 title: setParam
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Images interactives
+role: Developer,User
 exl-id: ef307acb-2ff0-46df-a06b-8dbac2e412f9
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '91'
 ht-degree: 3%
 
 ---
@@ -19,9 +18,9 @@ Référence de l’API JavaScript pour la visionneuse d’images vidéo.
 
 ` setParam( *`name, value`*)`
 
-Définit le paramètre de visionneuse sur une valeur spécifiée. Le paramètre est soit une option de configuration spécifique au lecteur, soit un modificateur de kit de développement logiciel. Ce paramètre est appelé avant `init()`.
+Définit le paramètre de visionneuse sur une valeur spécifiée. Le paramètre est soit une option de configuration spécifique à la visionneuse, soit un modificateur de kit de développement logiciel. Ce paramètre est appelé avant `init()`.
 
-Cette méthode est facultative si les informations de configuration de la visionneuse ont été transmises avec l’objet JSON `config` au constructeur.
+Cette méthode est facultative si les informations de configuration de la visionneuse ont été transmises au constructeur avec l’objet JSON `config`.
 
 Voir aussi [init](../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-javascriptapiref/r-html5-aem-int-image-viewer-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
