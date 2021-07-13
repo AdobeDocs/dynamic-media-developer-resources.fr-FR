@@ -1,21 +1,20 @@
 ---
-description: Gestion des erreurs de sélection. Indique l’action à exécuter si la commande sel= échoue, car l’emplacement de pixel spécifié ne se trouve pas dans la zone de masque d’un objet sélectionnable.
+description: Gestion des erreurs de sélection. Indique l’action à effectuer si la commande sel= échoue, car l’emplacement de pixel spécifié ne se trouve pas dans la zone de masque d’un objet sélectionnable.
 solution: Experience Manager
 title: OnFailSel
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: d5485569-def8-4e16-9f0e-7dd30d38439d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '125'
 ht-degree: 12%
 
 ---
 
-
 # OnFailSel{#onfailsel}
 
-Gestion des erreurs de sélection. Indique l’action à exécuter si la commande sel= échoue, car l’emplacement de pixel spécifié ne se trouve pas dans la zone de masque d’un objet sélectionnable.
+Gestion des erreurs de sélection. Indique l’action à effectuer si la commande sel= échoue, car l’emplacement de pixel spécifié ne se trouve pas dans la zone de masque d’un objet sélectionnable.
 
 ## Propriétés {#section-cec491e6c5c744f9bfafaaa9d8774f83}
 
@@ -32,7 +31,7 @@ Enum.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>Désélectionner ; toute tentative d'application d'un matériau ou d'affichage/masquage d'objets est ignorée. </p> </td> 
+  <td class="stentry"> <p>Désélectionner ; toute tentative d’application d’un matériau ou d’affichage/masquage d’objets est ignorée. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
@@ -40,13 +39,13 @@ Enum.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>Sélectionnez le groupe par défaut (le premier groupe de la hiérarchie de vignettes qui contient des objets à rendu). </p> </td> 
+  <td class="stentry"> <p>Sélectionnez le groupe par défaut (le premier groupe de la hiérarchie de vignettes contenant les objets à rendre). </p> </td> 
  </tr> 
 </table>
 
 ## Par défaut {#section-c25f458f9f8f4236963a95779529e664}
 
-Hérité de `default::OnFailSel` si elle n&#39;est pas définie.
+Hérité de `default::OnFailSel` si elle n’est pas définie.
 
 ## Voir aussi {#section-f8b15dd64c674c5484d190dd9e3016af}
 
