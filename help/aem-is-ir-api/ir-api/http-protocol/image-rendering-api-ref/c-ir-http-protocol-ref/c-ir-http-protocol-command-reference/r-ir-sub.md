@@ -1,21 +1,20 @@
 ---
-description: Sous-sélection. Permet d'appliquer des matériaux différents à différentes zones de l'objet ou du groupe sélectionné, ainsi que de supprimer des matériaux précédemment appliqués.
+description: Sous-sélection. Permet d’appliquer différents matériaux à différentes zones de l’objet ou du groupe sélectionné, ainsi que de supprimer les matériaux précédemment appliqués.
 solution: Experience Manager
 title: sub
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: c9968fbb-c38b-4180-81be-19992fa8f347
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '159'
 ht-degree: 6%
 
 ---
 
-
 # sub{#sub}
 
-Sous-sélection. Permet d&#39;appliquer des matériaux différents à différentes zones de l&#39;objet ou du groupe sélectionné, ainsi que de supprimer des matériaux précédemment appliqués.
+Sous-sélection. Permet d’appliquer différents matériaux à différentes zones de l’objet ou du groupe sélectionné, ainsi que de supprimer les matériaux précédemment appliqués.
 
 `sub=0|1|2|3|4|5`
 
@@ -42,17 +41,17 @@ Sous-sélection. Permet d&#39;appliquer des matériaux différents à différent
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>5 </p> </td> 
-  <td class="stentry"> <p>Sélectionnez la zone de bordure inférieure du mur. </p> </td> 
+  <td class="stentry"> <p>Sélectionnez la zone de bordure du mur inférieur. </p> </td> 
  </tr> 
 </table>
 
-Actuellement uniquement pris en charge pour les objets wall. Cesse un MSS précédent et début un nouveau MSS pour le matériau à appliquer à la sous-sélection spécifiée.
+Actuellement pris en charge uniquement pour les objets wall. Termine un MSS précédent et lance un nouveau MSS pour le matériau à appliquer à la sous-sélection spécifiée.
 
-Un matériau spécifié pour la paroi supérieure ou inférieure s&#39;applique à l&#39;ensemble de la paroi à moins qu&#39;un autre matériau pour l&#39;autre moitié de la paroi n&#39;ait été spécifié également.
+Un matériau spécifique pour la paroi supérieure ou inférieure s&#39;appliquera à l&#39;ensemble du mur à moins qu&#39;un autre matériau pour l&#39;autre moitié du mur n&#39;ait été spécifié également.
 
 ## Propriétés {#section-b202139d6d0847cc8d520a154104ab9d}
 
-Sélection, commande; Délimiteur MSS.
+la commande Sélection; Délimiteur MSS.
 
 ## Par défaut {#section-5b45a167a17c451596e4c59b7d53c368}
 
