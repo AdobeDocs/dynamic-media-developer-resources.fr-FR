@@ -1,17 +1,16 @@
 ---
-description: Elément d’en-tête de réponse HTTP. Facultatif dans les éléments <rule>.
+description: Elément d’en-tête de réponse HTTP. Facultatif dans les éléments <rule> .
 solution: Experience Manager
 title: en-tête
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 40849602-16b2-471b-9128-14653e84a45a
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '142'
 ht-degree: 3%
 
 ---
-
 
 # en-tête{#header}
 
@@ -21,7 +20,7 @@ Elément d’en-tête de réponse HTTP. Facultatif dans les éléments `<rule>`.
 
 **`Name`= &quot;*text*&quot;**  : Obligatoire. Indique le nom de l’en-tête HTTP.
 
-**`Action`= &quot;set&quot; |`"add"`**: Facultatif. La valeur par défaut est `"set"`, ce qui remplace toute valeur d’en-tête active. Spécifiez `"add"` pour ajouter la valeur d’en-tête, en la séparant par une virgule.
+**`Action`= &quot;set&quot; |`"add"`**: Facultatif. La valeur par défaut est `"set"`, ce qui remplace toute valeur d’en-tête actuelle. Spécifiez `"add"` pour ajouter la valeur d’en-tête, séparée par une virgule.
 
 ## Données {#section-a387f541396c49d99c29692a38032914}
 
@@ -29,9 +28,9 @@ Valeur d’en-tête.
 
 ## Description {#section-fb2a8ad79bc5414d8bb0d0e8199f3269}
 
-Permet d’ajouter de nouveaux en-têtes de réponse HTTP, ainsi que d’ajouter ou de remplacer des valeurs d’en-têtes prédéfinis. Les noms et valeurs doivent être conformes aux normes HTTP. Aucun codage supplémentaire ne sera appliqué.
+Permet d’ajouter de nouveaux en-têtes de réponse HTTP ainsi que d’ajouter ou de remplacer des valeurs d’en-têtes prédéfinis. Les noms et valeurs doivent être conformes aux normes HTTP. Aucun codage supplémentaire ne sera appliqué.
 
-Les variables de substitution Image Serving peuvent être utilisées dans le nom de l’en-tête et la valeur de l’en-tête. Cela permet de contrôler les deux chaînes de la requête.
+Les variables de substitution de la diffusion d’images peuvent être utilisées dans le nom de l’en-tête et la valeur de l’en-tête. Cela permet de contrôler les deux chaînes de la requête.
 
 ## Exemple {#section-cb5b738b9b93407cb2f4d35af3e59c02}
 
