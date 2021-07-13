@@ -1,25 +1,24 @@
 ---
-description: L’icône de lecture est superposée sur la zone de vue principale. Il s’affiche lorsque la vidéo est en pause ou lorsque la fin de la vidéo est atteinte, et dépend également du paramètre iconeffect.
+description: L’icône de lecture est superposée sur la zone d’affichage principale. Il s’affiche lorsque la vidéo est mise en pause ou lorsque la fin de la vidéo est atteinte, et dépend également du paramètre d’effet iconique .
 solution: Experience Manager
 title: Effet Icône
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visionneuses,SDK/API,vidéo 360 VR
+role: Developer,User
 exl-id: e25a3b9d-88ef-4214-9b6b-2527ebf0f145
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '174'
 ht-degree: 1%
 
 ---
 
 # Effet Icône{#icon-effect}
 
-L’icône de lecture est superposée sur la zone de vue principale. Il s’affiche lorsque la vidéo est en pause ou lorsque la fin de la vidéo est atteinte, et dépend également du paramètre iconeffect.
+L’icône de lecture est superposée sur la zone d’affichage principale. Il s’affiche lorsque la vidéo est mise en pause ou lorsque la fin de la vidéo est atteinte, et dépend également du paramètre d’effet iconique .
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-L’aspect de l’icône de lecture est contrôlé par le sélecteur de classe CSS suivant :
+L’aspect de l’icône de lecture est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 ```
 .s7video360viewer . s7video360player .s7iconeffect
@@ -30,12 +29,12 @@ L’aspect de l’icône de lecture est contrôlé par le sélecteur de classe C
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan  </span> </p> </td> 
-   <td colname="col2"> <p> Image affichée pour l’icône de lecture. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col2"> <p> Image affichée de l’icône de lecture. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
-   <td colname="col2"> <p> Positionnez l’objet à l’intérieur de l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -48,7 +47,7 @@ L’aspect de l’icône de lecture est contrôlé par le sélecteur de classe C
  </tbody> 
 </table>
 
-L’effet Icône prend en charge le sélecteur d’attributs `state`. `state="play"` est utilisée lorsque la vidéo est en pause au milieu de la lecture et  `state="replay"` est utilisée lorsque la tête de lecture se trouve à la fin du flux.
+L’effet Icône prend en charge le sélecteur d’attributs `state`. `state="play"` est utilisée lorsque la vidéo est mise en pause au milieu de la lecture et  `state="replay"` est utilisée lorsque la tête de lecture se trouve à la fin de la diffusion.
 
 **Exemple**  : configurez une icône de lecture de 100 x 100 pixels.
 
