@@ -3,9 +3,9 @@ description: Attribut de configuration de la visionneuse de vidéos de supports 
 solution: Experience Manager
 title: VideoPlayer.loop
 feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 4945291d-0906-4f2d-b8d9-0bf542dc6804
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '40'
 ht-degree: 12%
