@@ -1,29 +1,28 @@
 ---
-description: Paramètres de rendu avancés. Les paramètres de rendu avancés sont utilisés pour contrôler les aspects de bas niveau du moteur de rendu, tels que le type d’accentuation du matériau et les paramètres ou certains paramètres des algorithmes d’éclairage.
+description: Paramètres de rendu avancés. Les paramètres de rendu avancés sont utilisés pour contrôler les aspects de bas niveau du moteur de rendu, tels que le type d’accentuation de la matière et les paramètres ou certains paramètres des algorithmes d’éclairage.
 solution: Experience Manager
 title: RenderSettings
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 37b806f8-e314-4532-a28c-1cc4ab939f09
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '115'
 ht-degree: 3%
 
 ---
 
-
 # RenderSettings{#rendersettings}
 
-Paramètres de rendu avancés. Les paramètres de rendu avancés sont utilisés pour contrôler les aspects de bas niveau du moteur de rendu, tels que le type d’accentuation du matériau et les paramètres ou certains paramètres des algorithmes d’éclairage.
+Paramètres de rendu avancés. Les paramètres de rendu avancés sont utilisés pour contrôler les aspects de bas niveau du moteur de rendu, tels que le type d’accentuation de la matière et les paramètres ou certains paramètres des algorithmes d’éclairage.
 
 ## Propriétés {#section-b4c8fe595efc4838ac598659bc820607}
 
-Chaîne de texte. Facultatif pour tous les matériaux. S’il est spécifié, il doit s’agir d’une chaîne de paramètres de rendu valide, telle que définie avec l’outil de création de vignettes (qui fait partie du pack de création d’images Dynamic Media).
+Chaîne de texte. Facultatif pour tous les matériaux. S’il est spécifié, il doit s’agir d’une chaîne de paramètres de rendu valide, telle qu’elle est définie avec l’outil de création de vignettes (qui fait partie du package Dynamic Media Image Authoring).
 
 ## Par défaut {#section-6a4d2013c1d34284b4ff21bb07485d28}
 
-`attribute::RenderSettings` si elle n’est pas spécifiée ou si elle est vide.
+`attribute::RenderSettings` s’il n’est pas spécifié ou s’il est vide.
 
 ## Voir aussi {#section-52679fc35c36439490564b4d1c515dd0}
 
