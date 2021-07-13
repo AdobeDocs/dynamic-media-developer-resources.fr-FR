@@ -1,31 +1,30 @@
 ---
-description: La visionneuse Fenêtre déroulante prend en charge le suivi Adobe Analytics prêt à l’emploi.
+description: La visionneuse déroulante prend en charge le suivi Adobe Analytics prêt à l’emploi.
 solution: Experience Manager
 title: Prise en charge du suivi Adobe Analytics
-feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
-role: Developer,Business Practitioner,Data Engineer,Data Architect
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Zoom intégré
+role: Developer,User,Data Engineer,Data Architect
+exl-id: e5ffe8a8-6c25-4fc2-8c25-90bc7e0b416c
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '176'
 ht-degree: 2%
 
 ---
 
-
 # Prise en charge du suivi Adobe Analytics{#support-for-adobe-analytics-tracking}
 
-La visionneuse Fenêtre déroulante prend en charge le suivi Adobe Analytics prêt à l’emploi.
+La visionneuse déroulante prend en charge le suivi Adobe Analytics prêt à l’emploi.
 
-## Suivi prêt à l’emploi {#section-ba994f079d0343c8ae48adffaa3195a3}
+## Suivi d’usine {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-La visionneuse de zoom en ligne prend en charge [!DNL Adobe Analytics] le suivi prêt à l’emploi. Pour activer le suivi, transmettez le nom de paramètre prédéfini de société approprié sous la forme du paramètre `config2`.
+La visionneuse de zoom en ligne prend en charge le suivi [!DNL Adobe Analytics] prêt à l’emploi. Pour activer le suivi, transmettez le nom du paramètre prédéfini de l’entreprise approprié en tant que paramètre `config2` .
 
 La visionneuse envoie également une requête HTTP de suivi unique au serveur d’images configuré avec le type de visionneuse et les informations de version.
 
 ## Suivi personnalisé {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Pour intégrer des systèmes d’analyse tiers, il est nécessaire d’écouter le rappel de la visionneuse `trackEvent` et de traiter l’argument `eventInfo` de la fonction de rappel si nécessaire. Le code suivant est un exemple de cette fonction de gestionnaire :
+Pour l’intégrer aux systèmes d’analyse tiers, il est nécessaire d’écouter le rappel de la visionneuse `trackEvent` et de traiter l’argument `eventInfo` de la fonction de rappel, le cas échéant. Le code suivant est un exemple de fonction de gestionnaire de ce type :
 
 ```
 var inlineZoomViewer = new s7viewers.FlyoutViewer({ 
@@ -51,23 +50,23 @@ var inlineZoomViewer = new s7viewers.FlyoutViewer({
 });
 ```
 
-Le lecteur effectue le suivi des événements d’utilisateur SDK suivants :
+La visionneuse effectue le suivi des événements utilisateur du SDK suivants :
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>ÉVÉNEMENT utilisateur du SDK </p> </th> 
-   <th colname="col2" class="entry"> <p>Envoyé quand... </p> </th> 
+   <th colname="col1" class="entry"> <p>Événement d’utilisateur du SDK </p> </th> 
+   <th colname="col2" class="entry"> <p>Envoyé lorsque.. </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> CHARGEMENT </span> </p> </td> 
-   <td colname="col2"> <p>le lecteur est chargé en premier. </p> </td> 
+   <td colname="col2"> <p>la visionneuse est chargée en premier. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PERMUTATION </span> </p> </td> 
-   <td colname="col2"> <p>une ressource est permutée dans le lecteur à l’aide de l’API <span class="codeph"> setAsset() </span>. </p> </td> 
+   <td colname="col2"> <p>une ressource est échangée dans la visionneuse à l’aide de l’API <span class="codeph"> setAsset() </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
@@ -75,12 +74,11 @@ Le lecteur effectue le suivi des événements d’utilisateur SDK suivants :
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PANORAMIQUE </span> </p> </td> 
-   <td colname="col2"> <p> une image est panoramique. </p> </td> 
+   <td colname="col2"> <p> une image est numérisée. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> NUANCES </span> </p> </td> 
-   <td colname="col2"> <p> une image est modifiée en cliquant ou en appuyant sur une nuance. </p> </td> 
+   <td colname="col2"> <p> une image est modifiée en cliquant ou en appuyant sur un échantillon. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
