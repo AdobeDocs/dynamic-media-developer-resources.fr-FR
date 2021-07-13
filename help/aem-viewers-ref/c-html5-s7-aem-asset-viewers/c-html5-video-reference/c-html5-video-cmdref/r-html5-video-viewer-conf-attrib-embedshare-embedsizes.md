@@ -2,34 +2,33 @@
 description: Attribut de configuration pour la visionneuse de vidéos.
 solution: Experience Manager
 title: EmbedShare.embedsizes
-feature: Dynamic Media Classic,Viewers,SDK/API,Video
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéo
+role: Developer,User
+exl-id: cf075711-1275-4eb2-8cb6-fb2609711c7a
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '64'
 ht-degree: 10%
 
 ---
-
 
 # EmbedShare.embedsizes{#embedshare-embedsizes}
 
 Attribut de configuration pour la visionneuse de vidéos.
 
-` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`largeurhauteurLargeurLargeur`*[,0|1]]`
+` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`widthheightwidthheight`*[,0|1]]`
 
-Spécifie une liste de tailles incorporées pour la zone combinée de taille dans la boîte de dialogue modale de partage incorporée.
+Indique une liste de tailles d’intégration pour la zone combinée de taille dans la boîte de dialogue modale de partage d’intégration.
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td> 
-   <td colname="col2"> <p> Largeur intégrée. </p> </td> 
+   <td colname="col2"> <p> Largeur de l’incorporation. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> height </span> </span> </p> </td> 
-   <td colname="col2"> <p>Incorporer la hauteur. </p> </td> 
+   <td colname="col2"> <p>Hauteur de l’incorporation. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
@@ -51,4 +50,3 @@ Facultatif.
 ```
 embedsizes=800,600;640,480,1
 ```
-
