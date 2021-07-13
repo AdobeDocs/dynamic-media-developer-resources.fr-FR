@@ -1,20 +1,19 @@
 ---
-description: Si cette option est activée dans la vignette, le rendu peut modifier l’algorithme d’éclairage pour simuler une variation de la brillance du matériau (principalement en contrôlant le contraste).
+description: Si cette option est activée dans la vignette, le rendu varie l’algorithme d’éclairage pour simuler une variante de brillance du matériau (principalement en contrôlant le contraste).
 solution: Experience Manager
-title: Effets de brillance
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+title: Effet d’éclat
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: e8fb5966-ed77-47af-a500-b9bd1604e7d1
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
 
+# Effet d’éclat{#gloss-effects}
 
-# Effets de brillance{#gloss-effects}
+Si cette option est activée dans la vignette, le rendu varie l’algorithme d’éclairage pour simuler une variante de brillance du matériau (principalement en contrôlant le contraste).
 
-Si cette option est activée dans la vignette, le rendu peut modifier l’algorithme d’éclairage pour simuler une variation de la brillance du matériau (principalement en contrôlant le contraste).
-
-Cet effet est indépendant du rendu de la réflexion et le complète en simulant des réflexions spéculaires. L&#39;effet est contrôlé avec les mêmes attributs `gloss=`, `glossmap=` et `type=` utilisés pour contrôler les reflets.
+Cet effet est indépendant du rendu de la réflexion et le complète en simulant des réflexions spéculaires. L’effet est contrôlé avec les mêmes attributs `gloss=`, `glossmap=` et `type=` utilisés pour contrôler les reflets.
