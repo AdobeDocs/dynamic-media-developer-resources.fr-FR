@@ -2,16 +2,15 @@
 description: ThumbnailGridView.scrollbar
 solution: Experience Manager
 title: ThumbnailGridView.scrollbar
-feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visionneuses,SDK/API,eCatalog
+role: Developer,User
+exl-id: 9185d752-1fd8-45c3-8361-e5ee803e87d5
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 18%
+source-wordcount: '24'
+ht-degree: 20%
 
 ---
-
 
 # ThumbnailGridView.scrollbar{#thumbnailgridview-scrollbar}
 
