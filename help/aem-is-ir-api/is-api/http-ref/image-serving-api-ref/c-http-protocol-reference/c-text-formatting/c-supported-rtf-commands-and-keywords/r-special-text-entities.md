@@ -1,21 +1,20 @@
 ---
-description: Utilisez les entités spéciales suivantes lors du formatage du texte.
+description: Utilisez les entités spéciales suivantes lors du formatage de texte.
 solution: Experience Manager
-title: Entités de texte spéciales
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: Entités de texte spécial
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 3798dd83-897a-441c-a7c4-ef7325b20f16
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '70'
 ht-degree: 4%
 
 ---
 
+# Entités de texte spécial{#special-text-entities}
 
-# Entités de texte spéciales{#special-text-entities}
-
-Utilisez les entités spéciales suivantes lors du formatage du texte.
+Utilisez les entités spéciales suivantes lors du formatage de texte.
 
 <table id="table_CFEB845C1B9A475CA52ECDFA9BB59A9D"> 
  <thead> 
@@ -42,30 +41,29 @@ Utilisez les entités spéciales suivantes lors du formatage du texte.
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;lacet ;  </span> </td> 
+   <td> <span class="codeph"> &amp;lbrace;  </span> </td> 
    <td> <p>Accolade ouverte. </p> </td> 
-   <td> <p>L’accolade doit être encodée en HTTP. </p> </td> 
+   <td> <p>L’accolade doit être codée en HTTP. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;accolade ;  </span> </td> 
-   <td> <p>Fermez l'accolade. </p> </td> 
-   <td> <p>L’accolade doit être encodée en HTTP. </p> </td> 
+   <td> <span class="codeph"> &amp;brace;  </span> </td> 
+   <td> <p>Accolade. </p> </td> 
+   <td> <p>L’accolade doit être codée en HTTP. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \~  </span> </td> 
    <td> <p>Espace insécable. </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
+   <td> <p><span class="codeph"> textPs=</span> uniquement. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \_</span> </td> 
-   <td> <p>Tiret insécable. </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
+   <td> <p>Tirets insécables. </p> </td> 
+   <td> <p><span class="codeph"> textPs=</span> uniquement. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \-  </span> </td> 
-   <td> <p>Tiret facultatif. </p> </td> 
-   <td> <p><span class="codeph"> textPs=</span> only. </p> </td> 
+   <td> <p>Trait d’union facultatif. </p> </td> 
+   <td> <p><span class="codeph"> textPs=</span> uniquement. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
