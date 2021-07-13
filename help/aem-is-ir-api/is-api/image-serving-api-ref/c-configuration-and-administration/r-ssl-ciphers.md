@@ -1,23 +1,22 @@
 ---
-description: La balise Connector du fichier server.xml prend en charge un attribut de chiffrement afin de limiter les chiffrement pouvant être sélectionnés pour une connexion SSL.
+description: La balise Connector du fichier server.xml prend en charge un attribut ciphers afin de limiter les chiffrements pouvant être choisis pour une connexion SSL.
 solution: Experience Manager
-title: Définition de chiffrement SSL
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: Définition des chiffrements SSL
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Administrator,User
+exl-id: 7734ba02-4442-4a3d-acbf-e14d8ad66279
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
 
+# Définition des chiffrements SSL{#defining-ssl-ciphers}
 
-# Définition de chiffrement SSL{#defining-ssl-ciphers}
+La balise Connector du fichier server.xml prend en charge un attribut ciphers afin de limiter les chiffrements pouvant être choisis pour une connexion SSL.
 
-La balise Connector du fichier server.xml prend en charge un attribut de chiffrement afin de limiter les chiffrement pouvant être sélectionnés pour une connexion SSL.
-
-Par défaut, tous les chiffrement sont disponibles. La liste est séparée par des virgules et peut contenir l’une des valeurs suivantes :
+Par défaut, tous les chiffrements sont disponibles. La liste est séparée par des virgules et peut contenir l’une des valeurs suivantes :
 
 `SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA`
 
@@ -49,8 +48,8 @@ Par défaut, tous les chiffrement sont disponibles. La liste est séparée par d
 
 `TLS_RSA_WITH_AES_128_CBC_SHA`
 
-Si l&#39;une des valeurs est incorrecte, Tomcat activera chaque chiffre. Il est donc essentiel de vérifier avec un outil externe après la configuration pour savoir quels chiffriers sont réellement activés.
+Si l’une des valeurs est incorrecte, Tomcat activera chaque chiffre. Il est donc essentiel de vérifier avec un outil externe après la configuration quels chiffrements sont réellement activés.
 
-A titre d’exemple, la configuration suivante n’activera que les suites de chiffrement &quot;128 bits&quot; et plus :
+Par exemple, la configuration suivante activera uniquement les suites de chiffrement &quot;128 bits&quot; et ultérieures :
 
 `ciphers="SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA,SSL_DHE_DSS_WITH_DES_CBC_SHA,SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA,SSL_RSA_WITH_3DES_EDE_CBC_SHA,TLS_DHE_DSS_WITH_AES_128_CBC_SHA,TLS_DHE_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_128_CBC_SHA"`
