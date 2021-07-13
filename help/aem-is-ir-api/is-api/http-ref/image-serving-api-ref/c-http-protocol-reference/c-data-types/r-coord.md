@@ -1,21 +1,20 @@
 ---
-description: Coordonnées en pixels. Utilisé pour spécifier les coordonnées de l’image, telles que les décalages d’image ou les paramètres de recadrage, sous la forme d’un décalage de pixels par rapport au coin supérieur gauche d’une image ou d’un rectangle de calque.
+description: Coordonnées de pixel. Utilisé pour spécifier les coordonnées de l’image, telles que les décalages d’image ou les paramètres de recadrage, sous la forme d’un décalage de pixels par rapport au coin supérieur gauche d’une image ou d’un rectangle de calque.
 solution: Experience Manager
 title: coord
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 12ca4002-a540-4eb9-bb11-824d7cb41d30
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
 
-
 # coord{#coord}
 
-Coordonnées en pixels. Utilisé pour spécifier les coordonnées de l’image, telles que les décalages d’image ou les paramètres de recadrage, sous la forme d’un décalage de pixels par rapport au coin supérieur gauche d’une image ou d’un rectangle de calque.
+Coordonnées de pixel. Utilisé pour spécifier les coordonnées de l’image, telles que les décalages d’image ou les paramètres de recadrage, sous la forme d’un décalage de pixels par rapport au coin supérieur gauche d’une image ou d’un rectangle de calque.
 
 <table id="simpletable_A686120953124ACB8803CB9C877252AB"> 
  <tr class="strow"> 
@@ -28,4 +27,4 @@ Coordonnées en pixels. Utilisé pour spécifier les coordonnées de l’image, 
  </tr> 
 </table>
 
-0,0 fait référence au coin supérieur gauche de l’image ou du rectangle. L’augmentation des valeurs se déplace vers l’angle inférieur droit.
+0,0 fait référence au coin supérieur gauche de l’image ou du rectangle. L’augmentation des valeurs se déplace vers le coin inférieur droit.
