@@ -1,20 +1,19 @@
 ---
-description: La commande layer= permet d’attribuer un nom à un calque et de référencer ensuite le même calque par son nom plutôt que par son numéro.
+description: La commande layer= permet d’attribuer un nom à un calque et de référencer ultérieurement le même calque par nom plutôt que par numéro de calque.
 solution: Experience Manager
-title: calques nommés
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+title: Calques nommés
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 23eab9c7-7a16-4902-920e-6ee3e78daa18
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '76'
 ht-degree: 0%
 
 ---
 
+# Calques nommés{#named-layers}
 
-# calques nommés {#named-layers}
+La commande layer= permet d’attribuer un nom à un calque et de référencer ultérieurement le même calque par nom plutôt que par numéro de calque.
 
-La commande layer= permet d’attribuer un nom à un calque et de référencer ensuite le même calque par son nom plutôt que par son numéro.
-
-Cela permet à un modèle de définir des calques nommés qui peuvent ensuite être référencés à partir de l’URL de requête sans avoir à utiliser de variables.
+Cela permet à un modèle de définir des calques nommés qui peuvent ensuite être référencés à partir de l’URL de demande sans avoir à utiliser de variables.
