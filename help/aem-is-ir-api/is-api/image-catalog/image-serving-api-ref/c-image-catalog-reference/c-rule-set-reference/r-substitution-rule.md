@@ -1,21 +1,20 @@
 ---
-description: Elément de chaîne de substitution. Facultatif dans les éléments <rule>.
+description: Elément Chaîne de substitution. Facultatif dans les éléments <rule> .
 solution: Experience Manager
 title: substitution
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: d0f1c558-b745-41dc-bf65-1bf1fdcb88d3
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 1%
+source-wordcount: '173'
+ht-degree: 2%
 
 ---
 
-
 # substitution{#substitution}
 
-Elément de chaîne de substitution. Facultatif dans les éléments `<rule>`.
+Elément Chaîne de substitution. Facultatif dans les éléments `<rule>`.
 
 ## Attributs {#section-a4506fcb765f4f128f7f1f2629b18a6c}
 
@@ -29,18 +28,18 @@ Chaîne de substitution.
 
 Définit une chaîne de remplacement pour la chaîne ou la sous-chaîne correspondante dans le chemin d’accès ou la requête.
 
-Si l’expression de modèle inclut des sous-expressions (délimitées par des parenthèses), la première sous-chaîne correspondante est remplacée par la chaîne de substitution. Si l’expression de modèle n’inclut pas de sous-expressions, la chaîne correspondante complète est remplacée.
+Si l’expression de modèle inclut des sous-expressions (délimitées par des parenthèses), la première sous-chaîne correspondante est remplacée par la chaîne de substitution. Si l’expression de modèle n’inclut pas de sous-expressions, la chaîne correspondante entière est remplacée.
 
-Si `<expression>` est vide ou absent, la chaîne de substitution est ajoutée au chemin d’accès ou à la requête.
+Si `<expression>` est vide ou absent, la chaîne de substitution est ajoutée au chemin ou à la requête.
 
-Si `<substitution>` est vide, la chaîne ou la sous-chaîne correspondante est supprimée. Si `<substitution>` n&#39;est pas spécifié, le chemin d&#39;accès ou la chaîne de requête n&#39;est pas modifié.
+Si `<substitution>` est vide, la chaîne ou la sous-chaîne correspondante est supprimée. Si `<substitution>` n’est pas spécifié, le chemin d’accès ou la chaîne de requête n’est pas modifié.
 
 >[!NOTE]
 >
->Toutes les correspondances de la chaîne d&#39;entrée sont remplacées lorsque `replace="all"` est spécifié dans l&#39;élément `<rule>`, auquel cet élément `<substitution>` appartient. Par défaut, seule la première correspondance est remplacée par la chaîne de substitution.
+>Toutes les correspondances de la chaîne d’entrée sont remplacées lorsque `replace="all"` est spécifié dans la balise `<rule>`, à laquelle appartient cet élément `<substitution>`. Par défaut, seule la première correspondance est remplacée par la chaîne de substitution.
 
 ## Note {#section-cedf2adabaaf441c9f598fb0ea180246}
 
-La chaîne de substitution ne doit pas contenir de caractères littéraux &lt; et &amp;. Ces caractères réservés peuvent être codés avec `&` et `<`, respectivement, ou la chaîne entière peut être incluse dans une section CDATA XML :
+La chaîne de substitution ne doit pas contenir de caractères littéraux &lt; et &amp; . Ces caractères réservés peuvent être codés respectivement avec `&` et `<` ou toute la chaîne peut être incluse dans une section CDATA XML :
 
 `<substitution><![CDATA[&text=<Hello, world!>]]></ substitution>`
