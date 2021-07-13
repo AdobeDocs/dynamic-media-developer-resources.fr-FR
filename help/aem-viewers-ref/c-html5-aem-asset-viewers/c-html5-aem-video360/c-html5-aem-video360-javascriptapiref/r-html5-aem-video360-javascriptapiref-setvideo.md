@@ -1,25 +1,24 @@
 ---
-description: Référence de l’API JavaScript pour le lecteur vidéo360
+description: Référence de l’API JavaScript pour la visionneuse Video360
 solution: Experience Manager
 title: setVideo
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visionneuses,SDK/API,vidéo 360 VR
+role: Developer,User
 exl-id: e1894d96-6f37-4e34-a709-5b0121bd0696
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '63'
 ht-degree: 4%
 
 ---
 
 # setVideo{#setvideo}
 
-Référence de l’API JavaScript pour le lecteur vidéo360
+Référence de l’API JavaScript pour la visionneuse Video360
 
 `setVideo(videoUrl)`
 
-Définit la nouvelle vidéo externe. Peut être appelé à tout moment, avant et après `init()`. Si elle est appelée après `init()`, le lecteur permute la vidéo au moment de l’exécution.
+Définit une nouvelle vidéo externe. Peuvent être appelées à tout moment, avant et après `init()`. S’il est appelé après `init()`, la visionneuse échange la vidéo au moment de l’exécution.
 
 Voir aussi [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6).
 
