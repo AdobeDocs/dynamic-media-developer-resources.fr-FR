@@ -2,22 +2,21 @@
 description: Cette section décrit les commandes de protocole HTTP.
 solution: Experience Manager
 title: Référence de commande
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '218'
 ht-degree: 10%
 
 ---
 
-
-# Référence de commande {#command-reference}
+# Référence de commande{#command-reference}
 
 Cette section décrit les commandes de protocole HTTP.
 
-**Pour Dynamic Media en AEM seulement** : Outre les paramètres d’image de base disponibles dans l’interface utilisateur,  [!DNL Dynamic Media] AEM (  [!DNL Adobe Experience Manager]) prend en charge de nombreuses modifications d’image avancées que vous pouvez spécifier dans le champ  **Image** Modifiersfield. Ces paramètres sont définis ci-dessous. Sachez toutefois que les fonctionnalités suivantes ne sont pas prises en charge dans Dynamic Media en AEM.
+**Pour Dynamic Media en AEM uniquement** : Outre les paramètres d’image de base disponibles dans l’interface utilisateur,  [!DNL Dynamic Media] dans AEM (  [!DNL Adobe Experience Manager]) prend en charge de nombreuses modifications d’image avancées que vous pouvez spécifier dans le champ  **Image** Modisfield. Ces paramètres sont définis ci-dessous. Notez toutefois que les fonctionnalités suivantes ne sont pas prises en charge dans Dynamic Media dans AEM.
 
 * Commandes de correction des couleurs : `icc=` et `iccEmbed=`.
 * Commandes de base de création de modèles et de rendu de texte : `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` et `textPs=`.
@@ -31,9 +30,9 @@ Cette section décrit les commandes de protocole HTTP.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-Voir aussi les [Options des paramètres d’image prédéfinis de Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) dans la documentation AEM 6.5.
+Voir également les [Options de paramètre d’image prédéfini de Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) dans la documentation AEM 6.5.
 
-* [aligner](r-align.md)
+* [align](r-align.md)
 * [ancrage](r-anchor.md)
 * [bfc](r-bfc.md)
 * [bgc](r-bgc.md)
@@ -42,15 +41,15 @@ Voir aussi les [Options des paramètres d’image prédéfinis de Dynamic Media]
 * [cache](r-is-http-cache.md)
 * [clipPath](r-clippath.md)
 * [clipXPath](r-clipxpath.md)
-* [color](r-color-commandref.md)
+* [couleur](r-color-commandref.md)
 * [Recadrer](r-crop.md)
-* [culturePathE](r-croppath.md)
+* [cropPathE](r-croppath.md)
 * [defaultImage](r-is-http-defaultimage.md)
 * [effet](r-effect.md)
-* [effectMask](r-effectmask.md)
-* [étendre](r-extend.md)
+* [effetMask](r-effectmask.md)
+* [étend](r-extend.md)
 * [ajuster](r-fit.md)
-* [retourner](r-flip.md)
+* [flip](r-flip.md)
 * [fmt](r-is-http-fmt.md)
 * [hei](r-is-http-hei.md)
 * [masquer](r-hide.md)
@@ -59,10 +58,10 @@ Voir aussi les [Options des paramètres d’image prédéfinis de Dynamic Media]
 * [id](r-id.md)
 * [imageSet](r-imageset.md)
 * [jpegSize](r-jpegsize.md)
-* [calque](r-layer.md)
-* [locale](r-locale.md)
+* [layer](r-layer.md)
+* [local](r-locale.md)
 * [carte](r-map.md)
-* [masque](r-mask.md)
+* [mask](r-mask.md)
 * [maskUse](r-maskuse.md)
 * [op_blur](r-op-blur.md)
 * [op_brightness](r-op-brightness.md)
@@ -74,7 +73,7 @@ Voir aussi les [Options des paramètres d’image prédéfinis de Dynamic Media]
 * [op_grewMaskR](r-op-growmaskr.md)
 * [op_hue](r-op-hue.md)
 * [op_invert](r-op-invert.md)
-* [op_noise](r-op-noise.md)
+* [op_bruit](r-op-noise.md)
 * [op_saturation](r-op-saturation.md)
 * [op_sharpen](r-op-sharpen.md)
 * [op_usm](r-op-usm.md)
@@ -93,8 +92,8 @@ Voir aussi les [Options des paramètres d’image prédéfinis de Dynamic Media]
 * [req](r-req/r-req.md)
 * [res](r-res.md)
 * [resMode](r-is-http-resmode.md)
-* [rg](r-rgn.md)
-* [rotate](r-rotate.md)
+* [rgn](r-rgn.md)
+* [rotation](r-rotate.md)
 * [scale](r-is-http-scale.md)
 * [scl](r-scl.md)
 * [taille](r-size-reference.md)
