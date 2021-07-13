@@ -3,9 +3,9 @@ description: Cliquez ou appuyez sur ce bouton pour agrandir une image dans la vu
 solution: Experience Manager
 title: Bouton Zoom avant
 feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 663f9bb5-c432-4b34-ac76-a62826994a81
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 2%
@@ -75,7 +75,7 @@ L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suiv
 
 L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) pour plus d’informations.
 
-Exemple : pour configurer un bouton de zoom avant de 32 x 32 pixels, positionnez six pixels à partir du bord supérieur et droit de la visionneuse et affichez une image différente pour chacun des quatre états de bouton différents.
+Exemple : pour configurer un bouton de zoom avant de 32 x 32 pixels, positionnez six pixels à partir du bord supérieur et droit de la visionneuse, puis affichez une image différente pour chacun des quatre états de bouton différents.
 
 ```
 .s7mixedmediaviewer .s7zoominbutton { 
