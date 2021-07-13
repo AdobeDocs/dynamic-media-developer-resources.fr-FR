@@ -1,25 +1,24 @@
 ---
-description: La classe principale de la visionneuse de zoom en ligne est FlyoutViewer. Elle est déclarée dans l’espace de nommage s7viewers. Cette API JavaScript couvre le constructeur, les méthodes et les rappels de cette classe particulière.
+description: La classe principale de la visionneuse de zoom intégrée est FlyoutViewer. Il est déclaré dans l’espace de noms s7viewers. Cette API JavaScript couvre le constructeur, les méthodes et les rappels de cette classe particulière.
 solution: Experience Manager
 title: Référence de l’API JavaScript pour la visionneuse de zoom intégrée
-feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Zoom intégré
+role: Developer,User
+exl-id: 0bebc7a8-c98c-4c85-a1d6-fccecccd53e0
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
 
-
 # Référence de l’API JavaScript pour la visionneuse de zoom intégrée{#javascript-api-reference-for-inline-zoom-viewer}
 
-La classe principale de la visionneuse de zoom en ligne est FlyoutViewer. Elle est déclarée dans l’espace de nommage s7viewers. Cette API JavaScript couvre le constructeur, les méthodes et les rappels de cette classe particulière.
+La classe principale de la visionneuse de zoom intégrée est FlyoutViewer. Il est déclaré dans l’espace de noms s7viewers. Cette API JavaScript couvre le constructeur, les méthodes et les rappels de cette classe particulière.
 
-Dans tous les exemples suivants, `<instance>` correspond au nom réel de l’objet de lecteur JavaScript appelé à partir de la classe `s7viewers.FlyoutViewer`.
+Dans tous les exemples suivants, `<instance>` correspond au nom réel de l’objet de visionneuse JavaScript appelé à partir de la classe `s7viewers.FlyoutViewer`.
 
-* [disposer](r-html5-inlinezoom-viewer-javascriptapiref-dispose.md)
+* [dispose](r-html5-inlinezoom-viewer-javascriptapiref-dispose.md)
 * [FlyoutViewer](r-html5-inlinezoom-viewer-javascriptapiref-inlinezoomviewer.md)
 * [getComponent](r-html5-inlinezoom-viewer-javascriptapiref-getcomponent.md)
 * [init](r-html5-inlinezoom-viewer-javascriptapiref-init.md)
