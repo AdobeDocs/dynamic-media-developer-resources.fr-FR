@@ -2,24 +2,23 @@
 description: title, commande
 solution: Experience Manager
 title: titre
-feature: Dynamic Media Classic,Viewers,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,Visionneuses,SDK/API
+role: Developer,User
+exl-id: 2aea6b2b-052d-4360-9284-68b8563da6a1
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 14%
+source-wordcount: '45'
+ht-degree: 15%
 
 ---
 
-
-# title{#title}
+# titre{#title}
 
 ` title= *`windowTitle`*`
 
 >[!NOTE]
 >
->Cette commande ne s’applique pas à la visionneuse Fenêtre déroulante, à la visionneuse de zoom de base, à la visionneuse à 360° ou à la visionneuse d’images interactive.
+>Cette commande ne s’applique pas à la visionneuse déroulante, à la visionneuse de zoom de base, à la visionneuse à 360° ou à la visionneuse d’images interactives.
 
 <table id="table_406072054CBA4A7BAC8E7AD45E361D37"> 
  <tbody> 
