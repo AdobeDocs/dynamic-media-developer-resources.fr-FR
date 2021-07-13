@@ -1,22 +1,21 @@
 ---
-description: Si cela devient nécessaire, vous pouvez désinstaller le rendu des images.
+description: Si cela s’avère nécessaire, vous pouvez désinstaller le rendu d’image.
 solution: Experience Manager
 title: Désinstallation du rendu d’image
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: d9a874ee-4d12-42f3-962b-832fb0ec2727
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---
 
+# Désinstallation du rendu d’image{#uninstalling-image-rendering}
 
-# Désinstallation du rendu d’image {#uninstalling-image-rendering}
+Si cela s’avère nécessaire, vous pouvez désinstaller le rendu d’image.
 
-Si cela devient nécessaire, vous pouvez désinstaller le rendu des images.
+La désinstallation peut supprimer certains documents utilisateur situés dans le dossier d’installation. Sauvegardez tous les fichiers que vous souhaitez conserver avant de procéder à la désinstallation.
 
-La désinstallation peut supprimer certains documents utilisateur situés dans le dossier d’installation. Sauvegardez tous les fichiers à conserver avant de désinstaller.
-
-Avant de procéder à la désinstallation, connectez-vous à l’hôte du serveur avec les droits d’administrateur ou de root.
+Avant de procéder à la désinstallation, connectez-vous à l’hôte de votre serveur avec les droits d’administrateur ou de root.
