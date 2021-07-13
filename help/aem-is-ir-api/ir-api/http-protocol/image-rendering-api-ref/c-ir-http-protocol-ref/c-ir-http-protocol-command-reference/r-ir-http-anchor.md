@@ -1,21 +1,20 @@
 ---
-description: Ancre d’image (zone réactive). Indique le point d’ancrage de texture (point d’ancrage) de la texture ou du matériau de décale répétable.
+description: Ancre d’image (zone réactive). Indique le point d’ancrage de texture (zone réactive) de la texture répétable ou de la matière décale.
 solution: Experience Manager
 title: ancrage
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: ea2c5dce-6eb1-4f05-80bd-7336deb08b9e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '207'
 ht-degree: 2%
 
 ---
 
-
 # ancrage{#anchor}
 
-Ancre d’image (zone réactive). Indique le point d’ancrage de texture (point d’ancrage) de la texture ou du matériau de décale répétable.
+Ancre d’image (zone réactive). Indique le point d’ancrage de texture (zone réactive) de la texture répétable ou de la matière décale.
 
 `anchor= *``*, *`xy`*`
 
@@ -34,17 +33,17 @@ Ancre d’image (zone réactive). Indique le point d’ancrage de texture (point
 
 Une texture répétable est appliquée à un objet de vignette, de sorte que le point d’ancrage de la texture ( `anchor=`) se trouve au point d’origine de la texture de l’objet.
 
-Une image de poubelle est appliquée à un objet de vignette, de sorte que le point d’ancrage de la poubelle se trouve au point d’origine de la poubelle de l’objet. La position de la poubelle peut être ajustée à l&#39;aide de la commande `pos=`.
+Une image de décale est appliquée à un objet de vignette, de sorte que le point d’ancrage de la décimale se trouve au point d’origine de la décimale de l’objet. La position des décimales peut être ajustée à l&#39;aide de la commande `pos=`.
 
-`anchorN=0,0` place l’ancre d’image au centre de l’image source. `anchorN=-0.5,-0.5` ou  `anchor=0,0` se trouve dans le coin supérieur gauche et  `anchorN=0.5,0.5` se trouve dans le coin inférieur droit de l’image source.
+`anchorN=0,0` place l’ancre de l’image au centre de l’image source. `anchorN=-0.5,-0.5` ou  `anchor=0,0` se trouve dans le coin supérieur gauche et  `anchorN=0.5,0.5` dans le coin inférieur droit de l’image source.
 
 ## Propriétés {#section-91f929d35cd745ab9e1eeecf45fcedae}
 
-**Attribut** de matériau. Ignoré si `align=2`, ou si le matériau n&#39;est pas une texture répétable, un papier peint ou une poubelle.
+**Attribut de matière**. Ignoré si `align=2`, ou si la matière n’est pas une texture répétable, un papier peint ou une coche.
 
 ## Par défaut {#section-b06d728c2f664c29bacf810eefcbde69}
 
-`catalog::Anchor`, si le matériau est basé sur une entrée de catalogue. Sinon, `anchor=0,0` (coin supérieur gauche de l’image) pour les textures et papiers peints répétables et `anchorN=0,0` (centre de l’image) pour les décalcomanies.
+`catalog::Anchor`, si le contenu est basé sur une entrée de catalogue. Sinon, `anchor=0,0` (coin supérieur gauche de l’image) pour les textures et les papiers peints répétables, et `anchorN=0,0` (centre de l’image) pour les décalages.
 
 ## Voir aussi {#section-b18bf0b035644ca5aedebbc64373718e}
 
