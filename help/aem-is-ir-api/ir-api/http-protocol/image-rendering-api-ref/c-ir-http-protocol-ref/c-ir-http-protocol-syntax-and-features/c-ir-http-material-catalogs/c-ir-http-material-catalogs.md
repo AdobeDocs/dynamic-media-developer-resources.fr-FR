@@ -1,37 +1,36 @@
 ---
-description: Les catalogues de matériaux offre plusieurs fonctionnalités.
+description: Les catalogues de matériaux offrent plusieurs fonctionnalités.
 solution: Experience Manager
 title: Catalogues de matières *
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 502f80f5-fdd1-468b-89a9-64cc9128d655
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
 
-
 # Catalogues de matières *{#material-catalogs}
 
-Les catalogues de matériaux offre plusieurs fonctionnalités.
+Les catalogues de matériaux offrent plusieurs fonctionnalités.
 
-* Permettre une définition permanente des matériaux, y compris toutes les propriétés des matériaux.
+* Permettre la définition persistante de matériaux, y compris toutes les propriétés matérielles.
 
-   Les matériaux définis dans le catalogue de matériaux peuvent être référencés à l’aide d’un ID simple, plutôt que d’un ensemble de propriétés matérielles.
-* Fournissez des valeurs par défaut pour certains attributs de requête, tels que la qualité JPEG ou une taille d’image de réponse par défaut.
-* Gérez les vignettes, les profils ICC et les modèles de demande.
+   Les matériaux définis dans le catalogue de matériaux peuvent être référencés à l’aide d’un simple ID, plutôt que d’un ensemble de propriétés matérielles.
+* Indiquez les valeurs par défaut de certains attributs de requête, tels que la qualité JPEG ou une taille d’image de réponse par défaut.
+* Gestion des vignettes, des profils ICC et des modèles de requête.
 
-Même si aucun catalogue de matières spécifique n&#39;est défini, toutes les caractéristiques des catalogues de matières sont disponibles par le biais du catalogue par défaut ( [!DNL default.ini]).
+Même si aucun catalogue de matériaux spécifique n&#39;est défini, toutes les caractéristiques des catalogues de matériaux sont disponibles via le catalogue par défaut ( [!DNL default.ini]).
 
-Bien que les documents de rendu puissent être explicitement spécifiés dans les demandes utilisant des attributs matériels, il est souvent plus souhaitable de masquer les détails des documents du site Web en utilisant des catalogues matériels. les commandes src= acceptent les références de catalogue plutôt que les chemins d’accès explicites aux fichiers. Une entrée de catalogue se compose de ` [ *[!DNL catId]*/] *[!DNL itemId]*`, où ` *[!DNL catId]*` identifie un catalogue de matières et ` *[!DNL itemId]*` identifie un enregistrement dans le catalogue. Si ` *[!DNL catId]*` n&#39;est pas spécifié, le catalogue de sessions est utilisé (voir ci-dessous).
+Bien que les matériaux de rendu puissent être explicitement spécifiés dans les demandes utilisant des attributs matériels, il est souvent plus souhaitable de masquer les détails des matériaux du site web à l’aide de catalogues matériels. Les commandes src= acceptent les références de catalogue au lieu des chemins d’accès explicites au fichier. Une entrée de catalogue se compose de ` [ *[!DNL catId]*/] *[!DNL itemId]*`, où ` *[!DNL catId]*` identifie un catalogue de matières et ` *[!DNL itemId]*` identifie un enregistrement dans le catalogue. Si ` *[!DNL catId]*` n’est pas spécifié, le catalogue de sessions est utilisé (voir ci-dessous).
 
-Un enregistrement de catalogue est mis en correspondance si a) ` *[!DNL catId]*` correspond à la valeur `attribute::RootId` d&#39;un catalogue de matières et b) ` *[!DNL recId]*` correspond à la valeur catalog::Id dans le même catalogue. En cas de correspondance réussie, les attributs du matériau (y compris `src=`) sont définis sur les données de l&#39;enregistrement catalogue. Si le MSS inclut des attributs supplémentaires pour ce matériel en plus de src=, ils remplacent les valeurs de l’enregistrement catalogue.
+Un enregistrement de catalogue est correctement mis en correspondance si (a) ` *[!DNL catId]*` correspond à la valeur `attribute::RootId` d’un catalogue de matières et (b) ` *[!DNL recId]*` correspond à la valeur catalog::Id dans le même catalogue. En cas de correspondance réussie, les attributs du matériau (y compris `src=`) sont définis sur les données de l’enregistrement de catalogue. Si le MSS inclut des attributs supplémentaires pour ce matériel en plus de src=, ils remplacent les valeurs de l’enregistrement de catalogue.
 
-Si ` *[!DNL recId]*` ne peut pas être associé à une entrée de catalogue, ` *[!DNL catId]*` est remplacé par `attribute::RootPath` du catalogue et le chemin d&#39;accès qui en résulte est alors supposé être un chemin d&#39;accès de fichier simple. Autres attributs par défaut (ex. `attribute::Resolution`) peut également être hérité du catalogue de matières.
+Si ` *[!DNL recId]*` ne peut pas être associé à une entrée de catalogue, ` *[!DNL catId]*` est remplacé par `attribute::RootPath` du catalogue et le chemin d’accès qui en résulte est alors supposé être un chemin d’accès de fichier simple. Autres attributs par défaut (par ex. `attribute::Resolution`) peut également être hérité du catalogue de matières.
 
-Les vignettes et les profils ICC peuvent être répertoriés dans des catalogues de matériaux similaires aux matériaux eux-mêmes, et des propriétés peuvent être attribuées. En outre, la carte des vignettes fournit également le conteneur des modèles.
+Les vignettes et les profils ICC peuvent être répertoriés dans des catalogues de matériaux similaires aux matériaux eux-mêmes et donnés des propriétés. En outre, la carte de vignette fournit également le conteneur pour les modèles.
 
 **Voir aussi**
 
