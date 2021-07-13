@@ -1,27 +1,26 @@
 ---
-description: Le bouton Lecture/Pause permet à un utilisateur de suspendre ou de reprendre le comportement de lecture automatique du carrousel.
+description: Le bouton Lecture/Pause permet à l’utilisateur de mettre en pause ou de reprendre le comportement de lecture automatique du carrousel.
 solution: Experience Manager
 title: Bouton PlayPause
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Bannières de carrousel
+role: Developer,User
 exl-id: 1b48aa7f-d1c8-4367-94c2-689991b90942
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '249'
 ht-degree: 2%
 
 ---
 
 # Bouton PlayPause{#playpause-button}
 
-Le bouton Lecture/Pause permet à un utilisateur de suspendre ou de reprendre le comportement de lecture automatique du carrousel.
+Le bouton Lecture/Pause permet à l’utilisateur de mettre en pause ou de reprendre le comportement de lecture automatique du carrousel.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
-Le bouton n&#39;est visible que si le paramètre `CarouselViewer.autoplay` est défini sur `1`; sinon, il est caché. Vous pouvez dimensionner, habiller et positionner ce bouton, par rapport à la barre de contrôle qui le contient, à l’aide de CSS.
+Le bouton n’est visible que si le paramètre `CarouselViewer.autoplay` est défini sur `1` ; sinon, il est masqué. Vous pouvez dimensionner, habiller et positionner ce bouton, par rapport à la barre de contrôle qui le contient, à l’aide d’une feuille CSS.
 
-**Propriétés CSS de la zone de visualisation principale**
+**Propriétés CSS de la zone de visionneuse principale**
 
 L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
@@ -30,7 +29,7 @@ L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suiv
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> Propriété CSS </p> </th> 
+   <th colname="col1" class="entry"> <p> propriété CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
@@ -45,7 +44,7 @@ L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suiv
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> gauche </span> </p> </td> 
-   <td colname="col2"> <p>Position à gauche du lecteur de contenu. </p> </td> 
+   <td colname="col2"> <p>Position à gauche de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bas </span> </p> </td> 
@@ -60,15 +59,15 @@ L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suiv
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
    <td colname="col2"> <p>Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
-   <td colname="col2"> <p> Positionnez l’objet à l’intérieur de l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> sprites CSS </a>. </p> </td> 
+   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> curseur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cursor  </span> </p> </td> 
    <td colname="col2"> <p>Type de curseur. </p> </td> 
   </tr> 
  </tbody> 
@@ -78,9 +77,9 @@ L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suiv
 >
 >Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
-L’info-bulle du bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) pour plus d’informations.
+L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) pour plus d’informations.
 
-Exemple : pour configurer un bouton de lecture en pause de 28 x 28 pixels, positionné à 17 pixels du bas et à 12 pixels du bord gauche de la visionneuse, et qui affiche une image différente pour chacun des quatre états de bouton différents lorsqu’il est sélectionné ou non.
+Exemple : pour configurer un bouton de pause de lecture de 28 x 28 pixels, positionné 17 pixels en bas et 12 pixels en bas à partir du bord gauche de la visionneuse, et qui affiche une image différente pour chacun des quatre états de bouton différents lorsqu’il est sélectionné ou non.
 
 ```
 .s7carouselviewer .s7playpausebutton { 
