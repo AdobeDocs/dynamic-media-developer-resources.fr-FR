@@ -3,9 +3,9 @@ description: La visionneuse prend en charge le mode de fonctionnement plein écr
 solution: Experience Manager
 title: Prise en charge du plein écran
 feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes
-role: Developer,Business Practitioner
+role: Developer,User
 exl-id: 8fb29232-e276-49fc-9b97-466dbb1914a8
-source-git-commit: bfb350e68d9b7e86cec5ee75fe9280b12ce0e54e
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 0%
