@@ -1,21 +1,20 @@
 ---
-description: Attribut de configuration pour la visionneuse Video360.
+description: Attribut de configuration de la visionneuse Video360.
 solution: Experience Manager
 title: Video360Player.autoplay
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visionneuses,SDK/API,vidéo 360 VR
+role: Developer,User
 exl-id: 12b15969-c633-4593-9674-dbb9ef36ca60
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 17%
+source-wordcount: '48'
+ht-degree: 18%
 
 ---
 
 # Video360Player.autoplay{#video-player-autoplay}
 
-Attribut de configuration pour la visionneuse Video360.
+Attribut de configuration de la visionneuse Video360.
 
 `[Video360Player.|<containerId>_video360Player.]autoplay=0|1`
 
@@ -23,7 +22,7 @@ Attribut de configuration pour la visionneuse Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Indique si la visionneuse est en début de lecture de la vidéo au chargement. Notez que certains systèmes, tels que certains périphériques mobiles, peuvent ne pas prendre en charge la lecture automatique. </p> </td> 
+   <td colname="col2"> <p> Indique si la visionneuse commence la lecture de la vidéo au chargement. Notez que certains systèmes, tels que certains appareils mobiles, ne prennent pas en charge la lecture automatique. </p> </td> 
   </tr> 
  </tbody> 
 </table>
