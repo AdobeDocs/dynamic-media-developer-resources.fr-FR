@@ -1,44 +1,43 @@
 ---
-description: Les valeurs de couleur pour les attributs color= et bgc= peuvent être spécifiées à l’aide d’une liste de valeurs de composant décimales, séparées par des virgules ou d’une notation hexadécimale, similaire au code HTML.
+description: Les valeurs de couleur des attributs color= et bgc= peuvent être spécifiées à l’aide d’une liste de valeurs de composant décimales séparées par des virgules ou d’une notation hexadécimale, similaire au code HTML.
 solution: Experience Manager
 title: Valeurs de couleur
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 608ff0f1-4fbd-4e32-af07-3a62569d14c7
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 11%
+source-wordcount: '124'
+ht-degree: 12%
 
 ---
 
+# Valeurs de couleur{#color-values}
 
-# Valeurs de couleur {#color-values}
-
-Les valeurs de couleur pour les attributs color= et bgc= peuvent être spécifiées à l’aide d’une liste de valeurs de composant décimales, séparées par des virgules ou d’une notation hexadécimale, similaire au code HTML.
+Les valeurs de couleur des attributs color= et bgc= peuvent être spécifiées à l’aide d’une liste de valeurs de composant décimales séparées par des virgules ou d’une notation hexadécimale, similaire au code HTML.
 
 <table id="simpletable_9B3A231D5BB14A3DB2B42B341E198341"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> color</span> </p></td> 
-  <td class="stentry"> <p><span class="codeph">{ {red, green, blue} | grisé } | { [ 0x ] hex6 } | { 0xhex2 }</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">{ {red, green, blue} | gray } | { [ 0x ] hex6 } | { 0xhex2 }</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><i>rouge, vert, bleu, gris</i> </p></td> 
-  <td class="stentry"> <p>Valeur du composant de couleur (0...255, entier décimal). </p></td> 
+  <td class="stentry"> <p>Valeur du composant de couleur (0...255, nombre entier décimal). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><i>hex6</i> </p></td> 
-  <td class="stentry"> <p>Valeur de couleur RVB hexadécimale à six chiffres (RRGBB) prise en charge. </p></td> 
+  <td class="stentry"> <p>Valeur de couleur RVB hexadécimale de six chiffres (RGB) compressée. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><i>hex2</i> </p></td> 
-  <td class="stentry"> <p>Valeur de couleur grise hexadécimale à deux chiffres (0...FF) prise en charge. </p></td> 
+  <td class="stentry"> <p>Valeur de couleur hexadécimale grise à deux chiffres (0...FF) empilée. </p></td> 
  </tr> 
 </table>
 
 ## Exemples {#section-a78732151d584e84abeb99f9ce8d7c24}
 
-Quelques exemples de spécificateurs de couleurs valides et leur interprétation de la valeur de couleur RVB correspondante :
+Quelques exemples de paramètres de couleurs valides et leur interprétation de valeur de couleur RVB correspondante :
 
 <table id="simpletable_837B3173020240A5B7B2DB2F4CC57352"> 
  <tr class="strow"> 
