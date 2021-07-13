@@ -1,27 +1,26 @@
 ---
-description: Référence de l’API JavaScript pour le lecteur vidéo360.
+description: Référence de l’API JavaScript pour la visionneuse Video360.
 solution: Experience Manager
 title: setContainerId
-feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visionneuses,SDK/API,vidéo 360 VR
+role: Developer,User
 exl-id: b0145fb0-2b0d-40ce-ac18-029f54bc4050
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '96'
 ht-degree: 3%
 
 ---
 
 # setContainerId{#setcontainerid}
 
-Référence de l’API JavaScript pour le lecteur vidéo360.
+Référence de l’API JavaScript pour la visionneuse Video360.
 
 ` setContainerId( *`containerId`*)`
 
-Définit l’ID du conteneur DOM (normalement un DIV) dans lequel la visionneuse est insérée. Il n’est pas nécessaire de créer l’élément de conteneur au moment de l’appel de cette méthode. Cependant, le conteneur doit exister lorsque `init()` est exécuté. Elle doit être appelée avant `init()`.
+Définit l’identifiant du conteneur DOM (normalement un DIV) dans lequel la visionneuse est insérée. Il n’est pas nécessaire de créer l’élément de conteneur au moment de l’appel de cette méthode. Cependant, le conteneur doit exister lorsque `init()` est exécuté. Elle doit être appelée avant `init()`.
 
-Cette méthode est facultative si les informations de configuration de la visionneuse sont transmises avec l’objet JSON `config` au constructeur.
+Cette méthode est facultative si les informations de configuration de la visionneuse sont transmises au constructeur avec l’objet JSON `config`.
 
 ## Paramètre {#section-fa807db629ce43bab286b1e1dc96c492}
 
