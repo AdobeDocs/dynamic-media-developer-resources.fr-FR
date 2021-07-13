@@ -2,16 +2,15 @@
 description: Couleur d’arrière-plan par défaut. Valeur RVB utilisée pour remplir toute zone d’une image de réponse qui ne contient pas de données d’image réelles.
 solution: Experience Manager
 title: BkgColor
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: f008c834-30fb-4a49-8e6c-1110e55af280
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '65'
 ht-degree: 7%
 
 ---
-
 
 # BkgColor{#bkgcolor}
 
@@ -23,7 +22,7 @@ Couleur.
 
 ## Par défaut {#section-9c2c5794b82a4ef89a09551f08d03dbc}
 
-Hérité de `default::BkgColor` si elle n&#39;est pas définie ou si elle est vide.
+Hérité de `default::BkgColor` si elle n’est pas définie ou si elle est vide.
 
 ## Voir aussi {#section-90967e515a0d46bd8a9361fd49fc43cf}
 
