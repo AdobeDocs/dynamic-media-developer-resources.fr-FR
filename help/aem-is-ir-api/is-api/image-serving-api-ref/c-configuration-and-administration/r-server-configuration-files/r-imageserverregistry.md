@@ -1,31 +1,30 @@
 ---
-description: Contient les paramètres de configuration d’Image Server.
+description: Contient les paramètres de configuration du serveur d’images.
 solution: Experience Manager
 title: ImageServerRegistry.xml
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Administrator,User
+exl-id: 4483c5e8-5123-4d0f-bf9a-4ef8d8cec5a9
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
 
-
 # ImageServerRegistry.xml{#imageserverregistry-xml}
 
-Contient les paramètres de configuration d’Image Server.
+Contient les paramètres de configuration du serveur d’images.
 
-Lors de la modification de ce fichier XML, veillez à conserver une syntaxe XML valide, sans quoi le serveur d’images risque de ne pas se début.
+Lors de la modification de ce fichier XML, veillez à conserver une syntaxe XML valide, faute de quoi le serveur d’images risque de ne pas démarrer.
 
-Pour que les modifications prennent effet, redémarrez le serveur Image Server après avoir modifié ce fichier. Seules les valeurs d’élément répertoriées ci-dessous sont prises en charge pour modification. Modifiez tout autre contenu de ce fichier uniquement si le support technique de Dynamic Media vous en informe.
+Pour que les modifications prennent effet, redémarrez le serveur d’images après avoir modifié ce fichier. Seules les valeurs d’élément répertoriées ci-dessous sont prises en charge pour modification. Modifiez tout autre contenu de ce fichier uniquement sur conseil du support technique de Dynamic Media.
 
 >[!NOTE]
 >
->Ne modifiez pas la structure de `<imageserverregistry>`, y compris l&#39;ordre des éléments. Soyez prudent lors de la modification de ce fichier, sinon le serveur d’images risque de ne pas se début.
+>Ne modifiez pas la structure de `<imageserverregistry>`, y compris l’ordre des éléments. Soyez prudent lors de la modification de ce fichier, sinon le serveur d’images risque de ne pas démarrer.
 
-La figure suivante illustre les éléments qui peuvent être modifiés. D&#39;autres éléments sont présents et ne doivent pas être modifiés. L’ordre des éléments ci-dessous ne reflète pas l’ordre dans lequel ils doivent être présents dans le fichier.
+Le tableau suivant illustre les éléments qui peuvent être modifiés. D’autres éléments sont présents et ne doivent pas être modifiés. L’ordre des éléments ci-dessous ne reflète pas l’ordre dans lequel ils doivent être présents dans le fichier.
 
 ```
 <imageserverregistry>
