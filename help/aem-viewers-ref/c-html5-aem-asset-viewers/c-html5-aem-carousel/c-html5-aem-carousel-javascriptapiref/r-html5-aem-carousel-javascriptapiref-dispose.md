@@ -1,31 +1,30 @@
 ---
-description: Référence de l’API JavaScript pour Carousel Viewer.
+description: Référence de l’API JavaScript pour la visionneuse de carrousel.
 solution: Experience Manager
-title: disposer
-feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
-role: Developer,Business Practitioner
+title: dispose
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Bannières de carrousel
+role: Developer,User
 exl-id: 64e9f83f-e17e-4544-825a-fd458e15fdb5
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 2%
+source-wordcount: '132'
+ht-degree: 3%
 
 ---
 
-# disposer{#dispose}
+# dispose{#dispose}
 
-Référence de l’API JavaScript pour Carousel Viewer.
+Référence de l’API JavaScript pour la visionneuse de carrousel.
 
 `dispose()`
 
-Dispose cette instance de visionneuse en libérant toutes les ressources utilisées par la logique de visionneuse et en supprimant tous les objets et composants internes créés par la visionneuse au moment de l’exécution.
+Dispose cette instance de visionneuse en libérant toutes les ressources utilisées par la logique de la visionneuse et en supprimant tous les objets et composants internes créés par la visionneuse au moment de l’exécution.
 
-Le code de la page Web doit également supprimer la variable d’instance du lecteur de contenu pour supprimer complètement le lecteur de la mémoire du navigateur Web.
+Le code de page web doit également supprimer la variable d’instance de la visionneuse pour supprimer complètement la visionneuse de la mémoire du navigateur web.
 
-Si le code de page Web a enregistré des écouteurs de événement directement sur les composants du kit de développement de visionneuse utilisés par le lecteur ou des références externes stockées à ces composants, ces écouteurs doivent être désenregistrés explicitement par le code de page Web et ces références de composants externes doivent être supprimées avant d&#39;appeler `dispose()`.
+Si le code de page web a enregistré des écouteurs d’événement directement sur les composants du SDK de la visionneuse utilisés par la visionneuse ou les références externes stockées à ces écouteurs de composants, ces derniers doivent être désenregistrés explicitement par le code de page web, et ces références de composants externes doivent être supprimées avant d’appeler `dispose()`.
 
-N’accédez plus à l’API du lecteur après l’appel de `dispose()`.
+N’accédez plus à l’API de visionneuse après l’appel de `dispose()`.
 
 ## Paramètres {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 
