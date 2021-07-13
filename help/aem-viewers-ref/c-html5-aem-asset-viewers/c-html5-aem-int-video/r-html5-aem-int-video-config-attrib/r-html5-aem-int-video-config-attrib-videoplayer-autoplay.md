@@ -1,21 +1,20 @@
 ---
-description: Attribut de configuration pour la visionneuse de vidéos interactive.
+description: Attribut de configuration de la visionneuse de vidéos interactives.
 solution: Experience Manager
 title: VideoPlayer.autoplay
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéos interactives
+role: Developer,User
 exl-id: 0b4fb87f-f8c6-4da8-b12a-0cde5f62fa60
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 9%
+source-wordcount: '48'
+ht-degree: 10%
 
 ---
 
 # VideoPlayer.autoplay{#videoplayer-autoplay}
 
-Attribut de configuration pour la visionneuse de vidéos interactive.
+Attribut de configuration de la visionneuse de vidéos interactives.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]autoplay=0|1`
 
@@ -23,7 +22,7 @@ Attribut de configuration pour la visionneuse de vidéos interactive.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Indique si la visionneuse est en début de lecture de la vidéo au chargement. Notez que certains systèmes, tels que certains périphériques mobiles, peuvent ne pas prendre en charge la lecture automatique. </p> </td> 
+   <td colname="col2"> <p> Indique si la visionneuse commence la lecture de la vidéo au chargement. Notez que certains systèmes, tels que certains appareils mobiles, ne prennent pas en charge la lecture automatique. </p> </td> 
   </tr> 
  </tbody> 
 </table>
