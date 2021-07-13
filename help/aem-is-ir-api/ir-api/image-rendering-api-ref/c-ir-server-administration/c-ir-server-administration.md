@@ -1,17 +1,15 @@
 ---
-description: Administration du serveur
+description: Administration des serveurs
 solution: Experience Manager
-title: Administration du serveur
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+title: Administration des serveurs
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Administrator,User
+exl-id: 1421090b-50a4-4bed-813d-f06aa48e7ac8
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '15'
+source-wordcount: '11'
 ht-degree: 0%
 
 ---
 
-
-# Administration du serveur{#server-administration}
-
+# Administration des serveurs{#server-administration}
