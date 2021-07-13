@@ -1,32 +1,31 @@
 ---
-description: Le rendu d’image fournit un préprocesseur de demande simple basé sur des règles de correspondance et de substitution d’expressions régulières.
+description: Le rendu d’image fournit un préprocesseur de requêtes simple basé sur les règles de correspondance et de substitution des expressions régulières.
 solution: Experience Manager
-title: Prétraitement de la demande *
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+title: Prétraitement des demandes *
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 79a358db-0fd6-4327-a305-b0b38ad62050
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
 
+# Prétraitement des demandes *{#request-pre-processing}
 
-# Prétraitement de la demande *{#request-pre-processing}
+Le rendu d’image fournit un préprocesseur de requêtes simple basé sur les règles de correspondance et de substitution des expressions régulières.
 
-Le rendu d’image fournit un préprocesseur de demande simple basé sur des règles de correspondance et de substitution d’expressions régulières.
+Des collections de règles (ensembles de règles) peuvent être jointes à chaque catalogue de matières, y compris le catalogue par défaut. Les règles sont spécifiées avec des fichiers au format XML.
 
-Les collections de règles (jeux de règles) peuvent être jointes à chaque catalogue de matières, y compris le catalogue par défaut. Les règles sont spécifiées avec des fichiers au format XML.
+Les règles de prétraitement des requêtes peuvent modifier les parties de chemin et de requête des requêtes avant qu’elles ne soient traitées par l’analyseur de rendu d’image, notamment en manipulant le chemin, en ajoutant des commandes, en modifiant les valeurs de commande et en appliquant des modèles ou des macros. Des règles peuvent également être utilisées pour configurer et remplacer certaines fonctionnalités normalement contrôlées uniquement avec des attributs de catalogue, comme la définition de la taille de l’image de réponse par défaut ou la limitation du service HTTP à des adresses IP client spécifiques.
 
-Les règles de prétraitement des requêtes peuvent modifier les parties de chemin et de requête des requêtes avant d’être traitées par l’analyseur de rendu d’image, notamment en manipulant le chemin, en ajoutant des commandes, en modifiant les valeurs de commande et en appliquant des modèles ou des macros. Les règles peuvent également être utilisées pour configurer et remplacer certaines fonctionnalités qui sont normalement contrôlées uniquement avec des attributs de catalogue, comme la définition de la taille d’image de réponse par défaut ou la limitation du service HTTP à des adresses IP client spécifiques.
+Les règles de prétraitement des demandes sont adaptées à diverses applications, dont certaines sont répertoriées ci-dessous :
 
-Les règles de prétraitement des demandes conviennent à diverses applications, dont certaines sont énumérées ci-dessous :
+* Implémentez un mécanisme *virtual paths* qui permet de mapper à nouveau le chemin de requête sur les chemins de fichier, FTP et HTTP.
+* Interdire l’utilisation de commandes intensives en processeur pour éviter les abus de serveur.
+* Contrôlez les paramètres de qualité de l’image (tels que la qualité JPEG ou l’accentuation) en fonction du chemin d’accès à la requête ou du nom de l’image.
 
-* Mettez en oeuvre un mécanisme *chemins virtuels* qui permet de redéfinir le chemin de requête sur les chemins de fichier, FTP et HTTP.
-* Interdire l&#39;utilisation de commandes gourmandes en CPU pour éviter les abus de serveur.
-* Contrôlez les paramètres de qualité d’image (tels que la qualité JPEG ou l’accentuation) en fonction du chemin d’accès à la demande ou du nom de l’image.
+Vous trouverez des informations détaillées sur la création, l’utilisation et la gestion des jeux de règles dans la référence du jeu de règles.
 
-Vous trouverez des informations détaillées sur la création, l&#39;utilisation et la gestion des jeux de règles dans la Référence du jeu de règles.
-
-Voir aussi Référence du jeu de règles, attribut ::RuleSetFile
+Voir aussi Référence du jeu de règles, attribut::RuleSetFile
