@@ -1,22 +1,20 @@
 ---
-description: vntc renvoie les valeurs suivantes, selon qu'une erreur est survenue pendant le traitement.
+description: vntc renvoie les valeurs suivantes, selon qu’une erreur est survenue pendant le traitement ou non.
 solution: Experience Manager
-title: Retours
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Business Practitioner
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+title: Renvoie
+feature: Dynamic Media Classic, SDK/API
+role: Developer,User
+exl-id: 822707f5-62aa-4006-bee9-12a8d12f9633
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '51'
+source-wordcount: '48'
 ht-degree: 0%
 
 ---
 
-
 # Renvoie{#returns}
 
-vntc renvoie les valeurs suivantes, selon qu&#39;une erreur est survenue pendant le traitement.
+vntc renvoie les valeurs suivantes, selon qu’une erreur est survenue pendant le traitement ou non.
 
-* 0 si aucune erreur n’est détectée.
-* 1 si des erreurs (fatales ou non fatales) sont survenues.
-
+* 0 si aucune erreur n’est survenue.
+* 1 si des erreurs (fatales ou non) sont rencontrées.
