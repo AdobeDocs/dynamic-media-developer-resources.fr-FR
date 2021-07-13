@@ -2,40 +2,39 @@
 description: Paramètres généraux du serveur
 solution: Experience Manager
 title: Généraux
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Administrator,User
+exl-id: 3e4079e7-6def-4938-bb5b-c8122502712d
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
-
 
 # Généraux{#general}
 
 Paramètres généraux du serveur
 
-## TC::PsPort - Port d&#39;écoute principal {#section-d31d3051aa994a76b60b70c3d9f7e89f}
+## TC::PsPort - Port D’Écoute Principal {#section-d31d3051aa994a76b60b70c3d9f7e89f}
 
-Spécifie le port d’écoute principal pour le serveur de plateformes. Ce port permet également d’accéder à la documentation et aux exemples de pages pour la diffusion d’images, le rendu d’images et les visionneuses Dynamic Media (si elles sont installées).
+Spécifie le port d’écoute principal du serveur Platform. Ce port est également utilisé pour accéder à la documentation et aux exemples de pages pour le serveur d’images, le rendu d’images et les visionneuses Dynamic Media (le cas échéant).
 
-## IS::CacheServerUrl - URL racine du service de mise en cache {#section-bcca227a1f91453b834db4ea050968e2}
+## IS::CacheServerUrl - Url Racine Du Service De Mise En Cache {#section-bcca227a1f91453b834db4ea050968e2}
 
-Spécifie le chemin d’accès racine HTTP pour permettre à Image Server d’accéder au service de mise en cache. Doit être défini sur [!DNL http://localhost:TC::PsPort /is/cache/secondary], avec le numéro de port correspondant à `TC::PsPort`.
+Spécifie le chemin d’accès racine HTTP pour autoriser le serveur d’images à accéder au service de mise en cache. Doit être défini sur [!DNL http://localhost:TC::PsPort /is/cache/secondary], avec le numéro de port correspondant à `TC::PsPort`.
 
-## IS::RemoteUrlDefaultExpiration - TTL par défaut de la source d&#39;image distante {#section-e4c31228b459492cacd2f482d9575f71}
+## IS::RemoteUrlDefaultExpiration - Remote Image Source Default TTL {#section-e4c31228b459492cacd2f482d9575f71}
 
-TTL pour les images mises en cache obtenues via HTTP à partir d’une source distante à l’aide de la construction `src={…}`. Utilisé uniquement lorsque le serveur distant n’inclut pas d’en-tête Expiration dans sa réponse HTTP. Valeur entière en secondes.
+TTL pour les images mises en cache obtenues via HTTP à partir d’une source distante à l’aide de la structure `src={…}`. Utilisée uniquement lorsque le serveur distant n’inclut pas d’en-tête Expiration dans sa réponse HTTP. Valeur entière en secondes.
 
-## IS::RemoteUrlTimeout - Délai d&#39;expiration de la source d&#39;image distante {#section-437646c479cc4bea81dae42100a3c50a}
+## IS::RemoteUrlTimeout - Remote Image Source Timeout {#section-437646c479cc4bea81dae42100a3c50a}
 
-Heure à laquelle le serveur d’images attend qu’un serveur distant diffuse le fichier image demandé via HTTP avant de renvoyer une erreur. Valeur entière en secondes.
+Heure pendant laquelle le serveur d’images attend qu’un serveur distant diffuse le fichier image demandé via HTTP avant de renvoyer une erreur. Valeur entière en secondes.
 
-## PS::allowDefaultCatalogRequests - Activer/désactiver les requêtes de catalogue par défaut {#section-484e442a115a49b4ac269d1718b351e1}
+## PS::allowDefaultCatalogRequests - Activer/Désactiver les requêtes de catalogue par défaut {#section-484e442a115a49b4ac269d1718b351e1}
 
-Définissez cette variable sur false pour interdire les requêtes qui n’incluent pas d’ID de catalogue valide dans le chemin d’accès. La valeur par défaut est `true`. Lorsqu’elle est définie sur `false`, une erreur est renvoyée pour les requêtes sans ID de catalogue.
+Définissez cette variable sur false pour interdire les requêtes qui n’incluent pas d’identifiant de catalogue valide dans le chemin d’accès. La valeur par défaut est `true`. Lorsqu’elle est définie sur `false`, une erreur est renvoyée pour les requêtes sans identifiant de catalogue.
 
 >[!NOTE]
 >
@@ -43,4 +42,4 @@ Définissez cette variable sur false pour interdire les requêtes qui n’inclue
 
 ## PS::saveToFile.saveTimeout - File Save Timeout {#section-d22afd8ad86144b28684ed95a59db40e}
 
-Valeur de délai d’expiration par défaut pour `req=saveToFile` lorsque `timeout=`n’est pas spécifié. `msec`. Une erreur est renvoyée si l&#39;opération d&#39;enregistrement n&#39;est pas terminée dans le délai imparti.
+Valeur de délai d’expiration par défaut pour `req=saveToFile` lorsque `timeout=`n’est pas spécifié. `msec`. Une erreur est renvoyée si l’opération de sauvegarde n’est pas terminée dans le délai spécifié.
