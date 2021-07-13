@@ -1,21 +1,20 @@
 ---
-description: Attribut de configuration pour la visionneuse de vidéos interactive.
+description: Attribut de configuration de la visionneuse de vidéos interactives.
 solution: Experience Manager
 title: InteractiveSwatches.autoscroll
-feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
-role: Developer,Business Practitioner
+feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéos interactives
+role: Developer,User
 exl-id: 5a7272fe-e753-44cd-aaf0-0811a2662279
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 9%
+source-wordcount: '48'
+ht-degree: 10%
 
 ---
 
 # InteractiveSwatches.autoscroll{#interactiveswatches-autoscroll}
 
-Attribut de configuration pour la visionneuse de vidéos interactive.
+Attribut de configuration de la visionneuse de vidéos interactives.
 
 `[InteractiveSwatches.|<containerId>_interactiveSwatches.]autoscroll=0|1`
 
@@ -23,7 +22,7 @@ Attribut de configuration pour la visionneuse de vidéos interactive.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Active ou désactive la possibilité pour les échantillons interactifs de défiler automatiquement avec chaque transition multimédia, par exemple pendant la lecture vidéo. </p> </td> 
+   <td colname="col2"> <p> Active ou désactive la possibilité pour les échantillons interactifs de défiler automatiquement avec chaque transition multimédia, comme pendant la lecture vidéo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
