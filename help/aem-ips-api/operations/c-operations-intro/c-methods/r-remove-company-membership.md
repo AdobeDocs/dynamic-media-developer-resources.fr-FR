@@ -1,25 +1,24 @@
 ---
-description: Supprime un utilisateur d’une ou de plusieurs sociétés.
+description: Supprime un utilisateur d’une ou de plusieurs entreprises.
 solution: Experience Manager
 title: removeCompanyMembership
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 1cb9a286-48a0-4542-a80a-c97fd973474e
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '105'
 ht-degree: 11%
 
 ---
 
-
 # removeCompanyMembership{#removecompanymembership}
 
-Supprime un utilisateur d’une ou de plusieurs sociétés.
+Supprime un utilisateur d’une ou de plusieurs entreprises.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-e9a16c8a7d8d4845989a1488c9ca9c98}
+## Types d’utilisateurs autorisés {#section-e9a16c8a7d8d4845989a1488c9ca9c98}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,16 +31,16 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Non | Nom d’utilisateur associé à l’adhésion que vous souhaitez supprimer. |
-| `*`companyHandleArray`*` | `types:HandleArray` | Oui | Poignée de la société à partir de laquelle vous supprimez l’utilisateur. |
+| `*`userHandle`*` | `xsd:string` | Non | Gestionnaire pour l’utilisateur avec l’appartenance que vous souhaitez supprimer. |
+| `*`companyHandleArray`*` | `types:HandleArray` | Oui | Gestionnaire de la société à laquelle vous supprimez l’utilisateur. |
 
-**Output (removeCompanyMembershipReturn)**
+**Sortie (removeCompanyMembershipReturn)**
 
-L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-6b7903195e8647a1bd0502f87387ca62}
 
-Cet exemple de code supprime un utilisateur d’une société. Omettez la poignée d&#39;utilisateur facultative pour supprimer tous les utilisateurs des sociétés spécifiées dans le tableau de poignée de société.
+Cet exemple de code supprime un utilisateur d’une société. Omettez la poignée d’utilisateur facultative pour supprimer tous les utilisateurs de la société spécifiée dans le tableau de gestionnaires de société.
 
 **Request**
 
