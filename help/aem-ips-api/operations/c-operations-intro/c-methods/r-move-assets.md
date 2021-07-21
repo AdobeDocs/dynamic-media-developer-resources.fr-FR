@@ -1,25 +1,24 @@
 ---
-description: Déplace plusieurs fichiers indépendamment les uns des autres. Pour ce faire, il utilise le type AssetMove contenu dans le tableau assetMoveArray. Chaque champ AssetMove contient un dossier de destination.
+description: Déplace plusieurs ressources indépendamment les unes des autres. Pour ce faire, utilisez le type AssetMove contenu dans le tableau assetMoveArray. Chaque champ AssetMove contient un dossier de destination.
 solution: Experience Manager
 title: moveAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+role: Developer,Admin
+exl-id: e5bb2188-d262-4324-9f71-68634b6af654
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 11%
+source-wordcount: '216'
+ht-degree: 12%
 
 ---
 
-
 # moveAssets{#moveassets}
 
-Déplace plusieurs fichiers indépendamment les uns des autres. Pour ce faire, il utilise le type AssetMove contenu dans le tableau assetMoveArray. Chaque champ AssetMove contient un dossier de destination.
+Déplace plusieurs ressources indépendamment les unes des autres. Pour ce faire, utilisez le type AssetMove contenu dans le tableau assetMoveArray. Chaque champ AssetMove contient un dossier de destination.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-4166515fd9d8487b8af37465ce61802b}
+## Types d’utilisateurs autorisés {#section-4166515fd9d8487b8af37465ce61802b}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,8 +33,8 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée vers la société avec les ressources à déplacer. |
-| `*`assetMoveArray`*` | `types:AssetMoveArray` | Oui | Tableau de déplacement des ressources. Il contient un fichier et un dossier de destination de fichier. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gestion de l’entreprise avec les ressources à déplacer. |
+| `*`assetMoveArray`*` | `types:AssetMoveArray` | Oui | Tableau de déplacement de ressources. Il contient une ressource et un dossier de destination de ressource. |
 
 **Sortie (moveAssetsReturn)**
 
@@ -53,7 +52,7 @@ Syntaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> successCount</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Décompte des ressources déplacé avec succès. </td> 
+   <td colname="col4"> Décompte des ressources correctement déplacé. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> warningCount</span> </span> </td> 
@@ -65,26 +64,26 @@ Syntaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> errorCount</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Nombre de fichiers qui ont généré des erreurs lorsque l’opération a tenté de les déplacer. </td> 
+   <td colname="col4"> Nombre de ressources ayant généré des erreurs lorsque l’opération tentait de les déplacer. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> <span class="codeph"> </span>AssetOperationFaultsqui contiennent les éléments suivants : 
+   <td colname="col4"> <span class="codeph"> </span>AssetOperationFaultsqui contient les éléments suivants : 
     <ul id="ul_689F4A87A68140F18DFB43868226A409"> 
-     <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">Fichiers qui ont déclenché les avertissements. </li> 
-     <li id="li_5CC4A9120CA94F968CAF0D0135C49E0A">Codes d'avertissement. </li> 
-     <li id="li_AEC91FA68B2E43BC8BAA108C743F5667">Raison de l'avertissement. </li> 
+     <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">Ressources qui ont déclenché les avertissements. </li> 
+     <li id="li_5CC4A9120CA94F968CAF0D0135C49E0A">Codes d’avertissement. </li> 
+     <li id="li_AEC91FA68B2E43BC8BAA108C743F5667">Motif de l’avertissement. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> <span class="codeph"> </span>AssetOperationFaultsqui contiennent les éléments suivants : 
+   <td colname="col4"> <span class="codeph"> </span>AssetOperationFaultsqui contient les éléments suivants : 
     <ul id="ul_C397BC384A134F429D01ADA28DF2E097"> 
-     <li id="li_EAEBB5F539164480BA9EAA7C8FFBF69A">Fichiers qui ont généré les erreurs. </li> 
+     <li id="li_EAEBB5F539164480BA9EAA7C8FFBF69A">Ressources qui ont généré les erreurs. </li> 
      <li id="li_F96D5FBB2F7A402AA36D8DFA3971391D">Codes d’erreur. </li> 
      <li id="li_F610415E416F43DDA4B1DBF1897E2F61">Raison des erreurs. </li> 
     </ul> </td> 
@@ -94,7 +93,7 @@ Syntaxe
 
 ## Exemples {#section-c31ed4c004ab4b3fa42c96d26ceb5ce7}
 
-Cet exemple de code déplace les ressources vers un emplacement spécifique spécifié par le `assetMoveArray`. Le tableau comprend le nom d&#39;utilisateur de la ressource et son nom d&#39;utilisateur de dossier. La réponse indique que le déplacement des ressources a réussi.
+Cet exemple de code déplace les ressources vers un emplacement spécifique spécifié par la balise `assetMoveArray`. Le tableau comprend la gestion des ressources et celle des dossiers. La réponse indique que les ressources ont été déplacées avec succès.
 
 **Request**
 
@@ -123,4 +122,3 @@ Cet exemple de code déplace les ressources vers un emplacement spécifique spé
    <errorCount>0</errorCount>
 </moveAssetsReturn>
 ```
-
