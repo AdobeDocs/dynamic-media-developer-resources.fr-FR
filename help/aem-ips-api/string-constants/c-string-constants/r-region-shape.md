@@ -2,16 +2,15 @@
 description: Utilisé par ImageMap/shapeType et saveImageMapParam/shapType.
 solution: Experience Manager
 title: Forme de région
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 84a27a16-23fc-4e58-ba05-49882dd72174
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 7%
+source-wordcount: '25'
+ht-degree: 8%
 
 ---
-
 
 # Forme de région{#region-shape}
 
@@ -23,4 +22,3 @@ Syntaxe
 
 * [!DNL `Rectangle`]
 * [!DNL `Polygon`]
-
