@@ -1,25 +1,24 @@
 ---
-description: Définit la cible de zoom associée à une image de fichier. Il remplace les cibles de zoom existantes.
+description: Définit la cible de zoom associée à une image de ressource. Il remplace les cibles de zoom existantes.
 solution: Experience Manager
 title: setZoomTargets
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 1b4ac729-00cf-4ea2-9098-60b4af3c7e6d
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '126'
 ht-degree: 13%
 
 ---
 
-
 # setZoomTargets{#setzoomtargets}
 
-Définit la cible de zoom associée à une image de fichier. Il remplace les cibles de zoom existantes.
+Définit la cible de zoom associée à une image de ressource. Il remplace les cibles de zoom existantes.
 
 Syntaxe
 
-## Types d&#39;utilisateur autorisés {#section-c5e1863e9cb1426591bfea513620b6ab}
+## Types d’utilisateurs autorisés {#section-c5e1863e9cb1426591bfea513620b6ab}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,19 +33,19 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société. |
 | `*`assetHandle`*` | `xsd:string` | Oui | Ressource avec la cible de zoom que vous souhaitez définir. |
-| `*`zoomTargetArray`*` | `types:ZoomTargetDefinitionArray` | Oui | Tableau des définitions de cible de zoom. |
+| `*`zoomTargetArray`*` | `types:ZoomTargetDefinitionArray` | Oui | Tableau des définitions de cibles de zoom. |
 
-**Output (setZoomTargetsReturn)**
+**Sortie (setZoomTargetsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`zoomTargetHandleArray`*` | `types:HandleArray` | Oui | Ensemble de poignées des cibles de zoom créées par cette opération. |
+| `*`zoomTargetHandleArray`*` | `types:HandleArray` | Oui | Ensemble de gestionnaires vers les cibles de zoom créées par cette opération. |
 
 ## Exemples {#section-a2f14c7a1499443e96d099ea8a76c182}
 
-Cet exemple de code définit un tableau de cibles de zoom par nom, position (axes x et y), largeur, hauteur et affecte le tableau à une ressource. La réponse contient des poignées pour les nouvelles cibles de zoom.
+Cet exemple de code définit un tableau de cibles de zoom par nom, position (axe x et y), largeur, hauteur et affecte le tableau à une ressource. La réponse contient des poignées pour les cibles de zoom nouvellement créées.
 
 **Request**
 
@@ -83,4 +82,3 @@ Cet exemple de code définit un tableau de cibles de zoom par nom, position (axe
    </zoomTargetHandleArray>
 </setZoomTargetsReturn>
 ```
-
