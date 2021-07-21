@@ -1,21 +1,20 @@
 ---
-description: Tableau des attributs de génération.
+description: Tableau d’attributs de génération.
 solution: Experience Manager
 title: GenerationAttributeArray
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 8b771155-5cd7-4cf2-9552-4efb114556de
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 21%
+source-wordcount: '26'
+ht-degree: 23%
 
 ---
 
-
 # GenerationAttributeArray{#generationattributearray}
 
-Tableau des attributs de génération.
+Tableau d’attributs de génération.
 
 Syntaxe
 
@@ -23,5 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`éléments`*` | `types:GenerationAttribute` | Tableau des attributs de génération. |
-
+| `*`éléments`*` | `types:GenerationAttribute` | Tableau d’attributs de génération. |
