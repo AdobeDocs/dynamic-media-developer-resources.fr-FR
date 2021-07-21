@@ -1,21 +1,20 @@
 ---
-description: Propriétés de fichier PostScript.
+description: Propriétés du fichier PostScript.
 solution: Experience Manager
 title: GenerationInfo
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 9aac2973-bbcb-4914-9bf9-203f0357527c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '54'
 ht-degree: 12%
 
 ---
 
-
 # GenerationInfo{#generationinfo}
 
-Propriétés de fichier PostScript.
+Propriétés du fichier PostScript.
 
 Syntaxe
 
@@ -23,8 +22,7 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`moteur`*` | `xsd:string` | Moteur de génération utilisé (voir &quot;Informations de génération&quot; pour les valeurs). |
-| `*`initiateur`*` | `types:Asset` | Enregistrement de l’actif Principal utilisé dans la génération. |
-| `*`généré`*` | `types:Asset` | Enregistrement de l’actif généré. |
-| `*`attributeArray`*` | `types:GenerationAttributeArray` | Tableau des attributs associés au processus de génération. |
-
+| `*`moteur`*` | `xsd:string` | Moteur de génération utilisé (voir &quot;Informations sur la génération&quot; pour les valeurs). |
+| `*`originator`*` | `types:Asset` | Enregistrement de la ressource Principale utilisée dans la génération. |
+| `*`généré`*` | `types:Asset` | Enregistrement de la ressource générée. |
+| `*`attributeArray`*` | `types:GenerationAttributeArray` | Tableau d’attributs associés au processus de génération. |
