@@ -2,16 +2,15 @@
 description: Utilisé par searchAssetsParam/sortBy.
 solution: Experience Manager
 title: Champs de tri des ressources
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+role: Developer,Admin
+exl-id: 6652fe0e-4042-40b0-b5ec-e8533ee42aa2
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '25'
+source-wordcount: '23'
 ht-degree: 8%
 
 ---
-
 
 # Champs de tri des ressources{#asset-sort-fields}
 
@@ -26,4 +25,3 @@ Syntaxe
 * [!DNL `Name`]
 * [!DNL `AssetType`]
 * [!DNL `FileSize`]
-
