@@ -1,21 +1,20 @@
 ---
-description: Publie toutes les images, modèles et visionneuses à 360° marquées prêtes à être publiées dans un répertoire de serveur.
+description: Publie toutes les images, les modèles et les visionneuses à 360° marqués comme prêts à être publiés dans un répertoire de serveur.
 solution: Experience Manager
 title: ServerDirectoryPublishJob
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: b6fe49ef-9db8-495c-9d5e-3230889f21ca
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '60'
 ht-degree: 8%
 
 ---
 
-
 # ServerDirectoryPublishJob{#serverdirectorypublishjob}
 
-Publie toutes les images, modèles et visionneuses à 360° marquées prêtes à être publiées dans un répertoire de serveur.
+Publie toutes les images, les modèles et les visionneuses à 360° marqués comme prêts à être publiés dans un répertoire de serveur.
 
 Syntaxe
 
@@ -24,5 +23,4 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | `*`emailSettings`*` | `xsd:string` | Choix des paramètres de courrier électronique. |
-| `*`httpCompletionUrl`*` | `xsd:string` | URL permettant d’envoyer un avis de fin de service. |
-
+| `*`httpCompletionUrl`*` | `xsd:string` | URL d’envoi d’un avis de fin d’exécution. |
