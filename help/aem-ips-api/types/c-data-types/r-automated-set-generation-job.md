@@ -1,21 +1,20 @@
 ---
-description: Regroupez les fichiers dans des jeux à l’aide d’un tableau de liste de descripteurs de ressources.
+description: Regroupez les fichiers en ensembles à l’aide d’un tableau de liste de gestionnaires de ressources.
 solution: Experience Manager
 title: AutomatedSetGenerationJob
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 44df6dfa-1485-40c2-8a14-bbf451b87641
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '181'
 ht-degree: 7%
 
 ---
 
-
 # AutomatedSetGenerationJob{#automatedsetgenerationjob}
 
-Regroupez les fichiers dans des jeux à l’aide d’un tableau de liste de descripteurs de ressources.
+Regroupez les fichiers en ensembles à l’aide d’un tableau de liste de gestionnaires de ressources.
 
 Syntaxe
 
@@ -33,22 +32,22 @@ Syntaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:HandleArray</span> </td> 
-   <td colname="col3">Tableau de gestionnaires de ressources utilisés pour créer la visionneuse. <p>Par défaut, 1 000 correspond au nombre maximal de ressources que vous pouvez avoir dans la baie. </p></td> 
+   <td colname="col3">Tableau de gestionnaires de ressources utilisés pour créer la visionneuse. <p>Par défaut, 1 000 est le nombre maximal de ressources que vous pouvez avoir dans le tableau. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> destFolder</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Chemin d’accès au dossier dans lequel vous souhaitez enregistrer les visionneuses. Enregistre dans le dossier racine de société par défaut. </td> 
+   <td colname="col3"> Chemin d’accès au dossier dans lequel vous souhaitez enregistrer les visionneuses. Enregistre le dossier racine de l’entreprise par défaut. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> readyForPublish</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> Définit un indicateur pour indiquer si les fichiers doivent être publiés ou non. </td> 
+   <td colname="col3"> Définit un indicateur pour indiquer si les ressources doivent être publiées ou non. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> autoSetCreationOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:AutoSetCreationOptions</span> </td> 
-   <td colname="col3">Tableau de scripts de génération de visionneuses que vous pouvez exécuter sur les fichiers téléchargés. Voir <a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> AutoSetCreationOptions</a></td> 
+   <td colname="col2"> <span class="codeph"> types:AutoSetCreationOptions</span> </td> 
+   <td colname="col3">Tableau de scripts de génération d’ensembles que vous pouvez exécuter sur les fichiers chargés. Voir <a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> AutoSetCreationOptions</a></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> emailSetting</span> </span> </td> 
@@ -62,13 +61,13 @@ Syntaxe
 
 Le paramètre `emailSetting` comprend les options suivantes :
 
-| Option | Retours |
+| Option | Renvoie |
 |---|---|
 | `All` | Toutes les notifications de tâche (erreurs, avertissements, achèvement) au destinataire spécifié. |
-| `Error` | Erreurs de tâche au destinataire spécifié. |
-| `ErrorAndWarning` | Erreurs de tâche et avertissements au destinataire spécifié. |
+| `Error` | Erreurs de tâche sur le destinataire spécifié. |
+| `ErrorAndWarning` | Erreurs et avertissements de tâche pour le destinataire spécifié. |
 | `JobCompletion` | Notification de fin de tâche au destinataire spécifié. |
-| `None` | La tâche n&#39;envoie aucune notification de tâche à l&#39;destinataire spécifié. |
+| `None` | La tâche n’envoie aucune notification de tâche au destinataire spécifié. |
 
 ## Exemple {#section-d01ee7671f274a1fa12737e8df91d2cf}
 
@@ -83,4 +82,3 @@ Le paramètre `emailSetting` comprend les options suivantes :
   </sequence>
 </complexType>
 ```
-
