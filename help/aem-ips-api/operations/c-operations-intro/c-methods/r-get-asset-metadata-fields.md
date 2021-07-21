@@ -2,16 +2,15 @@
 description: Renvoie tous les champs de métadonnées, regroupés par type de ressource.
 solution: Experience Manager
 title: getAssetMetadataFields
-feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Métadonnées,Gestion des ressources
+role: Developer,Admin
+exl-id: 5234d3ea-c333-4e35-91ae-ce3412919fda
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 20%
+source-wordcount: '71'
+ht-degree: 21%
 
 ---
-
 
 # getAssetMetadataFields{#getassetmetadatafields}
 
@@ -19,7 +18,7 @@ Renvoie tous les champs de métadonnées, regroupés par type de ressource.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-e19a9d21cc2b45469c233d4ae55ebfc2}
+## Types d’utilisateurs autorisés {#section-e19a9d21cc2b45469c233d4ae55ebfc2}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,9 +34,9 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Identifiant de la société dont vous souhaitez récupérer les métadonnées. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de l’entreprise dont vous souhaitez récupérer les métadonnées. |
 
-**Output (getAssetMetadataFieldsReturn)**
+**Sortie (getAssetMetadataFieldsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -57,7 +56,7 @@ Syntaxe
 
 >[!NOTE]
 >
->Tronqué pour la brièveté.
+>Tronquée pour la concision.
 
 ```java
 <getAssetMetadataFieldsReturn xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31">
@@ -68,4 +67,3 @@ Syntaxe
    </assetFieldsArray>
 <getAssetMetadataFieldsReturn>
 ```
-
