@@ -3,9 +3,9 @@ description: Les fichiers de données source Image Serving comprennent les fichi
 solution: Experience Manager
 title: Données source
 feature: Dynamic Media Classic, SDK/API
-role: Developer,Administrator,User
+role: Developer,Admin,User
 exl-id: d7e9c101-8d34-4241-b03c-131f31c25933
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 0%
