@@ -1,19 +1,18 @@
 ---
 description: Utilisé par searchAssetsParam/sortDirection et getJobLogsParam/sortDirection.
 solution: Experience Manager
-title: Tri des directions
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+title: Tri des instructions
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 0f31d017-3750-43e7-9c86-7c87fb6407a3
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 7%
+source-wordcount: '25'
+ht-degree: 8%
 
 ---
 
-
-# Tri des directions{#sort-directions}
+# Tri des instructions{#sort-directions}
 
 Utilisé par searchAssetsParam/sortDirection et getJobLogsParam/sortDirection.
 
@@ -23,4 +22,3 @@ Syntaxe
 
 * [!DNL `Ascending`]
 * [!DNL `Descending`]
-
