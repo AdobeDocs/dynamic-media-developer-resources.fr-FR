@@ -1,20 +1,19 @@
 ---
-description: Propriétés de la légende vidéo
+description: Propriétés de légende vidéo
 title: VideoCaptionInfo
-feature: Dynamic Media Classic,SDK/API,Video
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Vidéo
+role: Developer,Admin
+exl-id: 75788ce3-7b89-4c7a-81b0-d36b13a89463
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 28%
+source-wordcount: '40'
+ht-degree: 30%
 
 ---
 
-
 # VideoCaptionInfo{#videocaptioninfo}
 
-Propriétés de la légende vidéo
+Propriétés de légende vidéo
 
 ## Paramètres {#section-14d2cf17c4404266b6d85ffbaaee94e1}
 
@@ -30,7 +29,7 @@ Propriétés de la légende vidéo
   <tr> 
    <td colname="col1"> <p><span class="codeph"> originalPath</span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>Chemin relatif vers la vidéo téléchargée. </p> </td> 
+   <td colname="col3"> <p>Chemin d’accès relatif à la vidéo téléchargée. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> originalFile</span> </p> </td> 
@@ -44,4 +43,3 @@ Propriétés de la légende vidéo
   </tr> 
  </tbody> 
 </table>
-
