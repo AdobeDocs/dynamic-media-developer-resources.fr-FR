@@ -1,19 +1,18 @@
 ---
 description: Détermine le moteur de génération et le type de ressource généré à exclure des résultats de recherche.
 solution: Experience Manager
-title: ExclureByproductCondition
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+title: ExcludeByproductCondition
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 5b37e01b-9e9c-4d34-9d39-1f9bfe356e53
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '63'
 ht-degree: 9%
 
 ---
 
-
-# ExclureByproductCondition{#excludebyproductcondition}
+# ExcludeByproductCondition{#excludebyproductcondition}
 
 Détermine le moteur de génération et le type de ressource généré à exclure des résultats de recherche.
 
@@ -23,6 +22,5 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`moteur`*` | `xsd:string` | Moteur de génération qui a créé des ressources à exclure. Voir Informations sur la génération pour les valeurs. |
-| `*`generateAssetType`*` | `xsd:string` | Type de ressource exclu. Voir Types de fichier pour connaître les valeurs. |
-
+| `*`moteur`*` | `xsd:string` | Moteur de génération qui a créé les ressources à exclure. Voir Informations sur la génération pour connaître les valeurs. |
+| `*`generateAssetType`*` | `xsd:string` | Type de ressource exclu. Voir Types de ressources pour connaître les valeurs. |
