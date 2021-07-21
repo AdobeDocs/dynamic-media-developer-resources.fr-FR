@@ -2,16 +2,15 @@
 description: Propriétés d’un fichier Microsoft Excel.
 solution: Experience Manager
 title: ExcelInfo
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: eec7405f-58fd-4103-95ff-c35c6e86c60f
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 18%
+source-wordcount: '35'
+ht-degree: 20%
 
 ---
-
 
 # ExcelInfo{#excelinfo}
 
@@ -24,6 +23,5 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | `*`originalPath`*` | `xsd:string` | Chemin d’accès au fichier. |
-| `*`originalFile`*` | `xsd:string` | Nom de fichier. |
+| `*`originalFile`*` | `xsd:string` | Nom du fichier. |
 | `*`fileSize`*` | `xsd:int` | Taille du fichier. |
-
