@@ -1,25 +1,24 @@
 ---
-description: Supprime un type de jeu de propriétés et son jeu de propriétés et ses propriétés associés.
+description: Supprime un type de jeu de propriétés, ainsi que le jeu de propriétés et les propriétés qui lui sont associés.
 solution: Experience Manager
 title: deletePropertySetType
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 97ec0f41-794f-4340-b86d-ab07a742d447
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '98'
 ht-degree: 11%
 
 ---
 
-
 # deletePropertySetType{#deletepropertysettype}
 
-Supprime un type de jeu de propriétés et son jeu de propriétés et ses propriétés associés.
+Supprime un type de jeu de propriétés, ainsi que le jeu de propriétés et les propriétés qui lui sont associés.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-16a17b4ebf9a4639bdb2784a2e9fe00d}
+## Types d’utilisateurs autorisés {#section-16a17b4ebf9a4639bdb2784a2e9fe00d}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,15 +31,15 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`typeHandle`*` | `xsd:string` | Oui | Poignée du type de jeu de propriétés à supprimer. |
+| `*`typeHandle`*` | `xsd:string` | Oui | La gestion du type de jeu de propriétés à supprimer. |
 
-**Output (deletePropertySetTypeParam)**
+**Sortie (deletePropertySetTypeParam)**
 
-L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-85faa2e3411a4e23aa6489037f7ce078}
 
-Cet exemple de code utilise l&#39;identificateur du type comme champ dans le `deletePropertySetTypeParam` envoyé au serveur de services Web IPS afin de supprimer le type de jeu de propriétés.
+Cet exemple de code utilise la poignée du type comme champ dans la balise `deletePropertySetTypeParam` envoyée au serveur des services Web IPS afin de supprimer le type de jeu de propriétés.
 
 **Request**
 
