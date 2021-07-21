@@ -2,16 +2,15 @@
 description: Exécute une tâche spécifique.
 solution: Experience Manager
 title: executeJob
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 4b2a2a14-d785-43bd-b1fc-2812d9f21964
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '81'
 ht-degree: 19%
 
 ---
-
 
 # executeJob{#executejob}
 
@@ -19,7 +18,7 @@ Exécute une tâche spécifique.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-8199e8599ea64e7097a2acb633417b15}
+## Types d’utilisateurs autorisés {#section-8199e8599ea64e7097a2acb633417b15}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -48,24 +47,24 @@ Syntaxe
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Poignée de la société à laquelle appartient la tâche. </p> </td> 
+   <td colname="col4"> <p>Gestionnaire de la société à laquelle appartient la tâche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> jobHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Poignée de la tâche à exécuter. </p> </td> 
+   <td colname="col4"> <p>Gestionnaire de la tâche à exécuter. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (executeJobReturn)**
+**Sortie (executeJobReturn)**
 
-L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-96f71aa58a954293b9a98ff96d86f232}
 
-Cet exemple de code exécute une tâche planifiée pour une exécution dans IPS.
+Cet exemple de code exécute une tâche planifiée dans IPS.
 
 **Request**
 
