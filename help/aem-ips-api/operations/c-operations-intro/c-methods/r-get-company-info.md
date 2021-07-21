@@ -1,25 +1,24 @@
 ---
-description: Renvoie des informations sur la société spécifiée, y compris le nom d’utilisateur de la société, le nom de la société, le chemin d’accès racine et la date d’expiration. Vous devez spécifier companyHandle ou companyName dont vous souhaitez récupérer les informations.
+description: Renvoie des informations sur la société spécifiée, y compris le nom d’entreprise, le chemin d’accès racine et la date d’expiration. Vous devez spécifier companyHandle ou companyName dont vous souhaitez récupérer les informations.
 solution: Experience Manager
 title: getCompanyInfo
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 72bd223b-c99a-48a3-9c0a-d1af392d904c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '173'
 ht-degree: 10%
 
 ---
 
-
 # getCompanyInfo{#getcompanyinfo}
 
-Renvoie des informations sur la société spécifiée, y compris le nom d’utilisateur de la société, le nom de la société, le chemin d’accès racine et la date d’expiration. Vous devez spécifier companyHandle ou companyName dont vous souhaitez récupérer les informations.
+Renvoie des informations sur la société spécifiée, y compris le nom d’entreprise, le chemin d’accès racine et la date d’expiration. Vous devez spécifier companyHandle ou companyName dont vous souhaitez récupérer les informations.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-74f20fb8602e4f96810795bc4b6f7fdf}
+## Types d’utilisateurs autorisés {#section-74f20fb8602e4f96810795bc4b6f7fdf}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -48,7 +47,7 @@ Syntaxe
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> ou <span class="codeph"> <span class="varname"> companyName</span> </span> est requis. </p> </td> 
-   <td colname="col4"> <p>Poignée de la société dont vous voulez obtenir les informations. </p> </td> 
+   <td colname="col4"> <p>Le gestionnaire de la société dont vous souhaitez obtenir les informations. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
@@ -59,7 +58,7 @@ Syntaxe
  </tbody> 
 </table>
 
-**Output (getCompanyInfoReturn)**
+**Sortie (getCompanyInfoReturn)**
 
 <table id="table_634D4E274BA7494C9C917FD244286F0D"> 
  <thead> 
@@ -73,16 +72,16 @@ Syntaxe
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> type:Société</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:Société</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Traitement et autres informations descriptives sur la société. </p> </td> 
+   <td colname="col4"> <p>Gérer et d’autres informations descriptives sur l’entreprise. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Exemples {#section-3d5342aa7cb34b1fa84d7dea6e16e4aa}
 
-Cet exemple de code renvoie toutes les informations relatives à une société à l’aide d’un nom de société et d’un nom d’utilisateur. Elle renvoie des données similaires à la réponse reçue lors de la création d’une société.
+Cet exemple de code renvoie toutes les informations sur une société à l’aide d’un nom et d’un nom d’entreprise. Elle renvoie des données similaires à la réponse reçue lors de la création d’une société.
 
 **Request**
 
@@ -104,4 +103,3 @@ Cet exemple de code renvoie toutes les informations relatives à une société �
    </ns1:companyInfo>
 </ns1:getCompanyInfoReturn>
 ```
-
