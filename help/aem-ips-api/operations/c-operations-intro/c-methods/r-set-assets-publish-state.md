@@ -1,25 +1,24 @@
 ---
-description: Détermine si un lot de fichiers est prêt à être publié.
+description: Détermine si un lot de ressources est prêt à être publié.
 solution: Experience Manager
 title: setAssetsPublishState
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+role: Developer,Admin
+exl-id: dce324e4-cf86-4a65-ab00-8cd2bba20f8f
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 11%
+source-wordcount: '158'
+ht-degree: 12%
 
 ---
 
-
 # setAssetsPublishState{#setassetspublishstate}
 
-Détermine si un lot de fichiers est prêt à être publié.
+Détermine si un lot de ressources est prêt à être publié.
 
-Il s’agit de la version par lot de [setAssetState](../../../operations/c-operations-intro/c-methods/r-set-asset-publish-state.md#reference-9efc2eeea42348e0b1d5f3d1005c6563).
+Il s’agit de la version par lots de [setAssetState](../../../operations/c-operations-intro/c-methods/r-set-asset-publish-state.md#reference-9efc2eeea42348e0b1d5f3d1005c6563).
 
-## Types d’utilisateur autorisés {#section-0804726f683944dbbe9acfc3d35ccf25}
+## Types d’utilisateurs autorisés {#section-0804726f683944dbbe9acfc3d35ccf25}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -38,22 +37,22 @@ Il s’agit de la version par lot de [setAssetState](../../../operations/c-opera
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
-| `*`publishStateUpdateArray`*` | `types:PublishStateUpdateArray` | Oui | Tableau des valeurs d’état de publication pour les ressources. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société. |
+| `*`publishStateUpdateArray`*` | `types:PublishStateUpdateArray` | Oui | Tableau des valeurs d’état de publication des ressources. |
 
-**Output (setAssetsPublishStateParam)**
+**Sortie (setAssetsPublishStateParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | `*`successCount`*` | `xsd:int` | Oui | Nombre de ressources mises à jour avec succès. |
-| `*`warningCount`*` | `xsd:int` | Oui | Nombre de fichiers qui ont généré un avertissement lorsque l’opération tentait de les mettre à jour. |
-| `*`errorCount`*` | `xsd:int` | Oui | Nombre de fichiers qui ont généré une erreur lorsque l’opération a tenté de les supprimer. |
+| `*`warningCount`*` | `xsd:int` | Oui | Nombre de ressources ayant généré un avertissement lorsque l’opération tentait de les mettre à jour. |
+| `*`errorCount`*` | `xsd:int` | Oui | Nombre de ressources qui ont généré une erreur lorsque l’opération a tenté de les supprimer. |
 | `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Non | Détails associés aux mises à jour de la ressource qui ont généré un avertissement. |
 | `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Non | Détails associés aux mises à jour de la ressource qui ont généré une erreur. |
 
 ## Exemples {#section-38cfdd3436214a06a1bae16875501d51}
 
-Cet exemple de code définit l&#39;état de publication d&#39;un fichier.
+Cet exemple de code définit l’état de publication d’une ressource.
 
 **Request**
 
@@ -83,4 +82,3 @@ Cet exemple de code définit l&#39;état de publication d&#39;un fichier.
    </complexType>
 </element>
 ```
-
