@@ -2,16 +2,15 @@
 description: Tableau des détails du journal des tâches.
 solution: Experience Manager
 title: JobLogDetailArray
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: eeaa1d7a-20a7-4bdb-b728-291a2c127003
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 19%
+source-wordcount: '29'
+ht-degree: 20%
 
 ---
-
 
 # JobLogDetailArray{#joblogdetailarray}
 
@@ -23,5 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`éléments`*` | `types:JobLogDetail` | Tableau des détails du journal des tâches. |
-
+| `*`éléments`*` | `types:JobLogDetail` | Tableau de détails du journal des tâches. |
