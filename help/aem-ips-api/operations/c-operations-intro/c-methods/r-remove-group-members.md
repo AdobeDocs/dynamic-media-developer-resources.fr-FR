@@ -1,28 +1,27 @@
 ---
-description: Supprime les utilisateurs sociétés d’un groupe spécifique.
+description: Supprime les utilisateurs de l’entreprise d’un groupe spécifique.
 solution: Experience Manager
 title: removeGroupMembers
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 8a9b7d54-d11b-41a8-9783-573a316e0ac6
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '122'
 ht-degree: 9%
 
 ---
 
-
 # removeGroupMembers{#removegroupmembers}
 
-Supprime les utilisateurs sociétés d’un groupe spécifique.
+Supprime les utilisateurs de l’entreprise d’un groupe spécifique.
 
 **Différences entre les commandes de suppression**
 
 * `removeGroupMembers`: Supprime plusieurs utilisateurs d’un groupe.
-* `removeGroupMembership`: Supprime un utilisateur individuel d&#39;un tableau de groupes.
+* `removeGroupMembership`: Supprime un utilisateur individuel d’un tableau de groupes.
 
-## Types d’utilisateur autorisés {#section-2c64cdac15184fbba6c7b2945b5d87f7}
+## Types d’utilisateurs autorisés {#section-2c64cdac15184fbba6c7b2945b5d87f7}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -34,17 +33,17 @@ Supprime les utilisateurs sociétés d’un groupe spécifique.
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée vers la société avec les utilisateurs avec lesquels vous souhaitez travailler. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de l’entreprise avec les utilisateurs avec lesquels vous souhaitez travailler. |
 | `*`groupHandle`*` | `xsd:string` | Oui | Poignée de groupe. |
-| `*`userHandleArray`*` | `types:HandleArray` | Oui | Tableau de poignées pour les utilisateurs dont vous souhaitez supprimer les appartenances au groupe. |
+| `*`userHandleArray`*` | `types:HandleArray` | Oui | Tableau de gestionnaires pour les utilisateurs dont vous souhaitez supprimer des appartenances à un groupe. |
 
-**Output (removeGroupMembersParam)**
+**Sortie (removeGroupMembersParam)**
 
-L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-9eedac852cea46ec80de6a6928bf97ac}
 
-Cet exemple de code supprime un utilisateur de la société spécifiée. Supprimez plusieurs utilisateurs d’un groupe avec le tableau d’utilisateur.
+Cet exemple de code supprime un utilisateur de la société spécifiée. Supprimez plusieurs utilisateurs d’un groupe avec le tableau de gestion des utilisateurs.
 
 **Request**
 
