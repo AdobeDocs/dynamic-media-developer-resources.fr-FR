@@ -1,21 +1,20 @@
 ---
-description: Tableau de journaux des tâches.
+description: Tableau de journaux de tâches.
 solution: Experience Manager
 title: JobLogArray
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: e61f26c0-7a5d-4217-b940-0cfbb2ad96e9
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 20%
+source-wordcount: '28'
+ht-degree: 21%
 
 ---
 
-
 # JobLogArray{#joblogarray}
 
-Tableau de journaux des tâches.
+Tableau de journaux de tâches.
 
 Syntaxe
 
@@ -23,5 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`éléments`*` | `types:JobLog` | Tableau des journaux des tâches. |
-
+| `*`éléments`*` | `types:JobLog` | Tableau des journaux de tâches. |
