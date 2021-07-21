@@ -1,21 +1,20 @@
 ---
-description: Une paire nom/valeur.
+description: Une paire nom-valeur.
 solution: Experience Manager
 title: Propriété
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 7c7675e5-d85c-4320-8b7a-a49af24ac4ff
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 26%
+source-wordcount: '28'
+ht-degree: 28%
 
 ---
 
-
 # Propriété{#property}
 
-Une paire nom/valeur.
+Une paire nom-valeur.
 
 Syntaxe
 
@@ -24,5 +23,4 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | `*`name`*` | `xsd:string` | Nom de la propriété. |
-| `*`value`*` | `xsd:string` | Valeur de propriété. |
-
+| `*`value`*` | `xsd:string` | Valeur de la propriété. |
