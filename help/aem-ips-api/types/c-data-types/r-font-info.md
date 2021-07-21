@@ -1,21 +1,20 @@
 ---
-description: Propriétés des ressources de police.
+description: Propriétés de la ressource de police.
 solution: Experience Manager
 title: FontInfo
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 1ad2c3b4-32b1-4f39-869e-85ff5a0c734c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 17%
+source-wordcount: '27'
+ht-degree: 18%
 
 ---
 
-
 # FontInfo{#fontinfo}
 
-Propriétés des ressources de police.
+Propriétés de la ressource de police.
 
 Syntaxe
 
@@ -26,4 +25,3 @@ Syntaxe
 | `*`originalPath`*` | `xsd:string` | Chemin d’accès aux polices. |
 | `*`originalFile`*` | `xsd:string` | Nom de la police. |
 | `*`fileSize`*` | `xsd:int` | Taille de police. |
-
