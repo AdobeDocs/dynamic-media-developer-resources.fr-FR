@@ -1,21 +1,20 @@
 ---
-description: Objet d’enregistrement de fichier ou de fichier hiérarchique. Les dossiers peuvent contenir un ou plusieurs sous-dossiers.
+description: Objet de stockage de fichier ou de ressource hiérarchique. Les dossiers peuvent contenir un ou plusieurs sous-dossiers.
 solution: Experience Manager
 title: Dossier
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 74b44b1a-a92e-4c97-a93b-0cd4552f78ec
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '77'
 ht-degree: 10%
 
 ---
 
-
 # Dossier{#folder}
 
-Objet d’enregistrement de fichier ou de fichier hiérarchique. Les dossiers peuvent contenir un ou plusieurs sous-dossiers.
+Objet de stockage de fichier ou de ressource hiérarchique. Les dossiers peuvent contenir un ou plusieurs sous-dossiers.
 
 Syntaxe
 
@@ -26,8 +25,7 @@ Syntaxe
 | `*`folderHandle`*` | `xsd:string` | Poignée de dossier. |
 | `*`chemin`*` | `xsd:string` | Chemin du dossier. |
 | `*`lastModified`*` | `xsd:dateTime` | Date de la dernière modification. |
-| `*`childLastModified`*` | `xsd:dateTime` | Date de dernière modification des sous-dossiers et des dossiers des ressources enfants. |
-| `*`permissionsSetHandle`*` | `xsd:string` | Poignée des autorisations de dossier. |
-| `*`hasSubfolder`*` | `types:Boolean` | Détermine si un dossier comporte des sous-dossiers. |
+| `*`childLastModified`*` | `xsd:dateTime` | Date de dernière modification pour les sous-dossiers et les ressources enfants de dossier. |
+| `*`permissionsSetHandle`*` | `xsd:string` | Gestion des autorisations de dossier. |
+| `*`hasSubfolder`*` | `types:Boolean` | Détermine si un dossier contient des sous-dossiers. |
 | `*`subfolderArray`*` | `types:FolderArray` | Tableau de sous-dossiers dans un dossier. |
-
