@@ -2,16 +2,15 @@
 description: Tableau de conditions de métadonnées.
 solution: Experience Manager
 title: MetadataConditionArray
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Métadonnées
+role: Developer,Admin
+exl-id: bcc7631b-cff3-4cbb-ae3e-f6e0fb670ee0
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 19%
+source-wordcount: '29'
+ht-degree: 20%
 
 ---
-
 
 # MetadataConditionArray{#metadataconditionarray}
 
@@ -23,5 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`éléments`*` | `types:MetadataCondition` | Tableau de conditions de métadonnées. |
-
+| `*`éléments`*` | `types:MetadataCondition` | Tableau des conditions de métadonnées. |
