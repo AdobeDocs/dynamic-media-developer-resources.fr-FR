@@ -1,25 +1,24 @@
 ---
-description: Crée un compte utilisateur et l’ajoute à une ou plusieurs sociétés.
+description: Crée un compte utilisateur et l’ajoute à une ou plusieurs entreprises.
 solution: Experience Manager
 title: addUser
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: aed39e73-f528-4c26-8f62-c3d796e9101a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '181'
 ht-degree: 12%
 
 ---
 
-
 # addUser{#adduser}
 
-Crée un compte utilisateur et l’ajoute à une ou plusieurs sociétés.
+Crée un compte utilisateur et l’ajoute à une ou plusieurs entreprises.
 
-Lors de l’ajout d’un utilisateur à plusieurs sociétés, spécifiez ces sociétés en fonction de leurs poignées de société dans `companyHandleArray`. Cette opération retourne le handle à l&#39;utilisateur que vous venez d&#39;ajouter.
+Lors de l’ajout d’un utilisateur à plusieurs sociétés, spécifiez ces sociétés par les gestionnaires de leur société dans `companyHandleArray`. Cette opération renvoie le gestionnaire à l’utilisateur que vous venez d’ajouter.
 
-## Types d’utilisateur autorisés {#section-126ad42f844444fea11ecf8ad01fe1ec}
+## Types d’utilisateurs autorisés {#section-126ad42f844444fea11ecf8ad01fe1ec}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -35,21 +34,21 @@ Lors de l’ajout d’un utilisateur à plusieurs sociétés, spécifiez ces soc
 | `*`firstName`*` | `xsd:string` | Oui | Prénom de l’utilisateur. |
 | `*`lastName`*` | `xsd:string` | Oui | Nom de l’utilisateur. |
 | `*`e-mail`*` | `xsd:string` | Oui | Adresse électronique de l’utilisateur. |
-| `*`defaultRole`*` | `xsd:string` | Oui | Définit le rôle d’un utilisateur dans chaque société à laquelle il appartient. Notez toutefois que le rôle `IpsAdmin` remplace d’autres paramètres par société. |
+| `*`defaultRole`*` | `xsd:string` | Oui | Définit le rôle d’un utilisateur dans chaque société à laquelle il appartient. Notez toutefois que le rôle `IpsAdmin` remplace d’autres paramètres par entreprise. |
 | `*`mot de passe`*` | `xsd:string` | Oui | Définit le mot de passe de l’utilisateur. |
-| `*`passwordExpires`*` | `xsd:dateTime` | Non | Définit la période d’expiration du mot de passe. Indiquez le fuseau horaire lors de la transmission de la demande. Les fuseaux horaires sont ajustés à l’heure centrale. |
+| `*`passwordExpires`*` | `xsd:dateTime` | Non | Définit la période d’expiration du mot de passe. Indiquez le fuseau horaire lors de la transmission de la requête. Les fuseaux horaires sont ajustés à l’heure centrale. |
 | `*`isValid`*` | `xsd:boolean` | Oui | Détermine si l’utilisateur est valide. |
-| `*`membershipArray`*` | `xsd:CompanyMembershipUpdateArray` | Oui | Tableau de poignées de société. |
+| `*`membershipArray`*` | `xsd:CompanyMembershipUpdateArray` | Oui | Un tableau de gestionnaires de société. |
 
 **Output (addUserParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Oui | Nom d’utilisateur. |
+| `*`userHandle`*` | `xsd:string` | Oui | Poignée à l’utilisateur. |
 
 ## Exemples {#section-2547cef622734b71919eef849960b5cb}
 
-L&#39;API IPS renvoie un élément d&#39;identificateur d&#39;utilisateur qui spécifie le nouvel utilisateur.
+L’API IPS renvoie un élément user handle qui spécifie le nouvel utilisateur.
 
 **Request**
 
@@ -74,4 +73,3 @@ L&#39;API IPS renvoie un élément d&#39;identificateur d&#39;utilisateur qui sp
    <ns1:userHandle>525s|juser@scene7.com</ns1:userHandle>
 </ns1:addUserReturn>
 ```
-
