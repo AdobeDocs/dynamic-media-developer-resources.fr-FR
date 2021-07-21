@@ -2,16 +2,15 @@
 description: Options de calque d’image Photoshop.
 solution: Experience Manager
 title: PhotoshopLayerOptions
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: fae60e86-6ec5-4f19-a76f-7d179dfb5dba
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 9%
+source-wordcount: '60'
+ht-degree: 10%
 
 ---
-
 
 # PhotoshopLayerOptions{#photoshoplayeroptions}
 
@@ -23,9 +22,8 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`layerNaming`*` | `xsd:string` | Choix des modes de nommage de calque Photoshop. |
-| `*`ancrage`*` | `xsd:string` | Choix des modes d&#39;ancrage Photoshop. |
-| `*`createTemplate`*` | `xsd:boolean` | Indique s’il faut créer un modèle à partir de calques Photoshop. |
-| `*`extractText`*` | `xsd:boolean` | Extrait ou non du texte sous forme de calques de texte. |
-| `*`extendedLayers`*` | `xsd:boolean` | Indique s’il faut étendre les calques à la taille d’arrière-plan complète. |
-
+| `*`layerNaming`*` | `xsd:string` | Choix des modes de nommage des calques Photoshop. |
+| `*`ancrage`*` | `xsd:string` | Choix des modes d’ancrage Photoshop. |
+| `*`createTemplate`*` | `xsd:boolean` | La création d’un modèle à partir des calques Photoshop. |
+| `*`extractText`*` | `xsd:boolean` | Extraction de texte sous forme de calques de texte ou non. |
+| `*`extendedLayers`*` | `xsd:boolean` | S’il s’agit d’étendre les calques à la taille totale de l’arrière-plan. |
