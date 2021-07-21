@@ -2,16 +2,15 @@
 description: Créez ou modifiez un champ de métadonnées. Omettez la poignée de champ facultative pour créer un champ de métadonnées.
 solution: Experience Manager
 title: saveMetadataField
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Métadonnées
+role: Developer,Admin
+exl-id: 56a45324-5027-4375-a790-c965f682e4b9
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '223'
 ht-degree: 16%
 
 ---
-
 
 # saveMetadataField{#savemetadatafield}
 
@@ -19,9 +18,9 @@ Créez ou modifiez un champ de métadonnées. Omettez la poignée de champ facul
 
 >[!NOTE]
 >
->Cette méthode est désapprouvée.
+>Cette méthode est obsolète.
 
-## Types d’utilisateur autorisés {#section-0c1cbde0863346f8a31b32fd06ab2926}
+## Types d’utilisateurs autorisés {#section-0c1cbde0863346f8a31b32fd06ab2926}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -58,7 +57,7 @@ Créez ou modifiez un champ de métadonnées. Omettez la poignée de champ facul
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Choix des types de fichier à partir desquels enregistrer les métadonnées. </td> 
+   <td colname="col4"> Choix des types de ressources à partir desquels enregistrer les métadonnées. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
@@ -70,13 +69,13 @@ Créez ou modifiez un champ de métadonnées. Omettez la poignée de champ facul
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Choix des types de champs de métadonnées. </td> 
+   <td colname="col4"> Choix des types de champ de métadonnées. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Valeur par défaut des champs pour tous les fichiers. </td> 
+   <td colname="col4"> Valeur par défaut des champs pour toutes les ressources. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
@@ -85,15 +84,15 @@ Créez ou modifiez un champ de métadonnées. Omettez la poignée de champ facul
    <td colname="col4"> Masquer ou exposer les métadonnées spécifiques au système IPS. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"><span class="varname"> isEnded</span></span> </td> 
+   <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Indicateur booléen qui indique si le champ de métadonnées est appliqué (validé) lorsque la valeur est définie. </p> <p>Si la valeur est définie sur true, une erreur est générée si une valeur non autorisée est définie dans <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col4"> <p>Indicateur boolean qui indique si le champ de métadonnées est appliqué (validé) lorsque la valeur est définie. </p> <p>Si la valeur est définie sur true, une erreur est générée si une valeur non autorisée est définie dans <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (saveMetadataFieldReturn)**
+**Sortie (saveMetadataFieldReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -101,7 +100,7 @@ Créez ou modifiez un champ de métadonnées. Omettez la poignée de champ facul
 
 ## Exemples {#section-4441c26d1f41466ba972b43dd5189e89}
 
-Cet exemple de code crée un nouveau champ de métadonnées limité par les constantes de chaîne Type de fichier et Types de champ de métadonnées. Si l’élément `fieldHandle` a une valeur d’identificateur de champ valide, il modifie les valeurs de métadonnées et obtient le même nom d’identificateur de champ que celui spécifié dans la requête.
+Cet exemple de code crée un champ de métadonnées limité par les constantes de chaîne Type de ressource et Types de champ de métadonnées . Si l’élément `fieldHandle` possède une valeur de gestion de champ valide, il modifie les valeurs de métadonnées et obtient le même nom de champ que celui spécifié dans la requête.
 
 **Request**
 
@@ -122,4 +121,3 @@ Cet exemple de code crée un nouveau champ de métadonnées limité par les cons
    <fieldHandle>47|ALL|Resolution</fieldHandle>
 </saveMetadataFieldReturn>
 ```
-
