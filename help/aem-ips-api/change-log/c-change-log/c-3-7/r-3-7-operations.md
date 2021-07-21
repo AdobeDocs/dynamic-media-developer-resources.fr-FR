@@ -1,21 +1,20 @@
 ---
-description: Décrit les méthodes d'opérations nouvelles et modifiées pour l'API IPS version 3.7.
+description: Décrit les nouvelles méthodes d’exploitation et les méthodes modifiées pour l’API IPS version 3.7.
 solution: Experience Manager
 title: Opérations nouvelles et modifiées
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 1f11a686-7239-4922-a608-5330864184ac
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '53'
 ht-degree: 1%
 
 ---
 
+# Opérations : Nouveautés et modifications{#operations-new-and-modified}
 
-# Opérations : Nouveau et modifié{#operations-new-and-modified}
-
-Décrit les méthodes d&#39;opérations nouvelles et modifiées pour l&#39;API IPS version 3.7.
+Décrit les nouvelles méthodes d’exploitation et les méthodes modifiées pour l’API IPS version 3.7.
 
 Syntaxe
 
@@ -41,15 +40,14 @@ Syntaxe
 
 **searchAsset**
 
-* Suppression du paramètre `name`.
-* Ajouté `excludeFieldArray`.
+* Suppression du paramètre `name` .
+* Ajout de `excludeFieldArray`.
 
 **getFolders**
 
-* Ajouté `excludeFieldArray`.
+* Ajout de `excludeFieldArray`.
 
 **getFolderTree**
 
-* Ajouté `excludeFieldArray` et `getUniqueMetadataValues`.
-* Ajout de `fieldHandle` paramètre obligatoire.
-
+* Ajout de `excludeFieldArray` et `getUniqueMetadataValues`.
+* Ajout de `fieldHandle` au paramètre requis.
