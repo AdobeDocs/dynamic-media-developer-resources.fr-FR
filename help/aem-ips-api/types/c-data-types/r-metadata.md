@@ -2,16 +2,15 @@
 description: Champ de métadonnées renvoyé par searchAssets.
 solution: Experience Manager
 title: Métadonnées
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Métadonnées
+role: Developer,Admin
+exl-id: 62e3e215-31ea-49fd-937e-d136fdf84aff
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '63'
 ht-degree: 12%
 
 ---
-
 
 # Métadonnées{#metadata}
 
@@ -26,7 +25,6 @@ Syntaxe
 | `*`name`*` | `xsd:string` | Nom des métadonnées. |
 | `*`value`*` | `xsd:string` | Valeur des métadonnées. |
 | `*`boolVal`*` | `xsd:boolean` | Valeur de métadonnées booléenne (pour les champs de type booléen uniquement). |
-| `*`longVal`*` | `xsd:long` | Valeur de métadonnées longue (uniquement pour les champs à saisie). |
-| `*`doubleVal`*` | `xsd:double` | Valeur des métadonnées de doublon (pour les champs à virgule flottante uniquement). |
-| `*`dateVal`*` | `xsd:dateTime` | Valeur de métadonnées de date (pour les champs de type date uniquement). |
-
+| `*`longVal`*` | `xsd:long` | Valeur de métadonnées longue (pour les champs de type int uniquement). |
+| `*`doubleVal`*` | `xsd:double` | Valeur de métadonnées double (pour les champs de type flottant uniquement). |
+| `*`dateVal`*` | `xsd:dateTime` | Valeur des métadonnées de date (pour les champs de type date uniquement). |
