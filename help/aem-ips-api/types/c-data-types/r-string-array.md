@@ -2,16 +2,15 @@
 description: Tableau de chaînes.
 solution: Experience Manager
 title: StringArray
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 1d380460-6634-4a63-a853-5a23e54b3f67
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 22%
+source-wordcount: '25'
+ht-degree: 24%
 
 ---
-
 
 # StringArray{#stringarray}
 
@@ -24,4 +23,3 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | `*`éléments`*` | `xsd:string` | Tableau de chaînes. |
-
