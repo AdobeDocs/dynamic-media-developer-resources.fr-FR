@@ -2,16 +2,15 @@
 description: Renomme un dossier.
 solution: Experience Manager
 title: renameFolder
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+role: Developer,Admin
+exl-id: 2d4f1059-8018-4efb-a1ec-8eb560b1a58f
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '82'
 ht-degree: 20%
 
 ---
-
 
 # renameFolder{#renamefolder}
 
@@ -19,7 +18,7 @@ Renomme un dossier.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-5a252b00937d4befbec76fa23fbae9df}
+## Types d’utilisateurs autorisés {#section-5a252b00937d4befbec76fa23fbae9df}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -38,15 +37,15 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Accédez à la société avec les dossiers que vous souhaitez renommer. |
-| `*`folderHandle`*` | `xsd:string` | Oui | Pointez sur le dossier. |
-| `*`folderName`*` | `xsd:string` | Oui | Nouveau nom de dossier. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gérer la société avec les dossiers que vous souhaitez renommer. |
+| `*`folderHandle`*` | `xsd:string` | Oui | Gérer au dossier. |
+| `*`folderName`*` | `xsd:string` | Oui | Nouveau nom du dossier. |
 
-**Output (renameFolderReturn)**
+**Sortie (renameFolderReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | Oui | Accédez au dossier renommé. |
+| `*`folderHandle`*` | `xsd:string` | Oui | Gérer au dossier renommé. |
 
 ## Exemples {#section-98bdd2f88d164f488676e90aba1dc864}
 
@@ -69,4 +68,3 @@ Cet exemple de code renomme un dossier.
    <folderHandle>MyCompany/My Newly Renamed PDF Folder/</folderHandle>
 </renameFolderReturn>
 ```
-
