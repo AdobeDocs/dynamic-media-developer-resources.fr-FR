@@ -1,25 +1,24 @@
 ---
-description: Un type de jeu de propriétés spécifie divers paramètres utilisés pour aider à gérer les jeux de propriétés.
+description: Un type de jeu de propriétés spécifie divers paramètres utilisés pour faciliter la gestion des jeux de propriétés.
 solution: Experience Manager
 title: createPropertySetType
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
 exl-id: 1730ccbf-e8b0-4f92-9daf-da2fa047cbbd
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '163'
 ht-degree: 11%
 
 ---
 
 # createPropertySetType{#createpropertysettype}
 
-Un type de jeu de propriétés spécifie divers paramètres utilisés pour aider à gérer les jeux de propriétés.
+Un type de jeu de propriétés spécifie divers paramètres utilisés pour faciliter la gestion des jeux de propriétés.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-48e5f908276c4a549fd33a8828bad326}
+## Types d’utilisateurs autorisés {#section-48e5f908276c4a549fd33a8828bad326}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,20 +31,20 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Non | Poignée de la société propriétaire du type de jeu de propriétés. Si `companyHandle` n&#39;est pas transmis et que l&#39;appelant est un `IpsAdmin`, un type de jeu de propriétés global est créé. |
+| `*`companyHandle`*` | `xsd:string` | Non | Gestionnaire de l’entreprise propriétaire du type de jeu de propriétés. Si `companyHandle` n’est pas transmis et que l’appelant est une `IpsAdmin`, un type de jeu de propriétés global est créé. |
 | `*`name`*` | `xsd:string` | Oui | Nom du type de jeu de propriétés. |
 | `*`propertyType`*` | `xsd:string` | Oui | Choix des types de jeux de propriétés. |
-| `*`allowMultiple`*` | `xsd:boolean` | Oui | Détermine si votre programme peut comporter plusieurs jeux de propriétés. |
+| `*`allowMultiple`*` | `xsd:boolean` | Oui | Détermine si votre programme peut comporter plusieurs ensembles de propriétés. |
 
-**Output (createPropertySetTypeReturn)**
+**Sortie (createPropertySetTypeReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`typeHandle`*` | `xsd:string` | Oui | Poignée du type. |
+| `*`typeHandle`*` | `xsd:string` | Oui | Poignée au type . |
 
 ## Exemples {#section-13396c9639a6475190e622eae3cdb534}
 
-Cet exemple de code crée un jeu de propriétés avec un nom et un type spécifiés par la constante `PropertySet Types`. Poignée de la société propriétaire du type de jeu de propriétés. Si companyHandle n’est pas transmis et que l’appelant est un IpsAdmin, un type de jeu de propriétés global est créé.
+Cet exemple de code crée un jeu de propriétés avec un nom et un type spécifiés par la constante `PropertySet Types`. Gestionnaire de l’entreprise propriétaire du type de jeu de propriétés. Si companyHandle n’est pas transmis et que l’appelant est un IpsAdmin, un type de jeu de propriétés global est créé.
 
 **Request**
 
