@@ -1,25 +1,24 @@
 ---
-description: Définit l’appartenance au groupe des utilisateurs appartenant à une société spécifique.
+description: Définit l’appartenance à un groupe d’utilisateurs appartenant à une société spécifique.
 solution: Experience Manager
 title: setGroupMembers
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 81348da7-6733-4da9-8a0a-376fccf791ea
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '131'
 ht-degree: 9%
 
 ---
 
-
 # setGroupMembers{#setgroupmembers}
 
-Définit l’appartenance au groupe des utilisateurs appartenant à une société spécifique.
+Définit l’appartenance à un groupe d’utilisateurs appartenant à une société spécifique.
 
-L&#39;opération déclenche une erreur d&#39;authentification si vous ne disposez pas de privilèges pour effectuer cette opération. Cela est également vrai si l&#39;un des utilisateurs du tableau de pseudo n&#39;appartient pas à la société spécifiée dans le descripteur de société,
+L’opération renvoie une erreur d’authentification si vous ne disposez pas des privilèges nécessaires pour effectuer cette opération. C’est également le cas si l’un des utilisateurs du tableau de pseudo n’appartient pas à la société spécifiée dans le nom de l’entreprise,
 
-## Types d’utilisateur autorisés {#section-4523594039c24aa29c8d0d5c9c415391}
+## Types d’utilisateurs autorisés {#section-4523594039c24aa29c8d0d5c9c415391}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,17 +30,17 @@ L&#39;opération déclenche une erreur d&#39;authentification si vous ne dispose
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société. |
 | `*`groupHandle`*` | `xsd:string` | Oui | Poignée de groupe. |
-| `*`userHandleArray`*` | `types:HandleArray` | Oui | Tableau de poignées pour les utilisateurs dont vous souhaitez définir l’appartenance au groupe. |
+| `*`userHandleArray`*` | `types:HandleArray` | Oui | Tableau de poignées pour les utilisateurs dont vous souhaitez définir l’appartenance à un groupe. |
 
-**Output (setGroupMembesReturn)**
+**Sortie (setGroupMembesReturn)**
 
-L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-9c528c3f44a141ce9eaddf634f26c487}
 
-Cet exemple de code définit l&#39;appartenance à un groupe pour un seul utilisateur.
+Cet exemple de code définit l’appartenance à un groupe pour un utilisateur unique.
 
 **Request**
 
