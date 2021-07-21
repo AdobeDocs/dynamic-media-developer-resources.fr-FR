@@ -1,21 +1,20 @@
 ---
-description: Tableau de mises à jour de la valeur des balises.
+description: Tableau de mises à jour des valeurs de balise.
 solution: Experience Manager
 title: TagValueUpdateArray
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: e1f6a6bf-6c27-4465-98bf-6bfba3482b54
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 18%
+source-wordcount: '31'
+ht-degree: 19%
 
 ---
 
-
 # TagValueUpdateArray{#tagvalueupdatearray}
 
-Tableau de mises à jour de la valeur des balises.
+Tableau de mises à jour des valeurs de balise.
 
 Syntaxe
 
@@ -23,5 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`éléments`*` | `types:TagValueUpdate` | Tableau de mises à jour de la valeur des balises. |
-
+| `*`éléments`*` | `types:TagValueUpdate` | Tableau de mises à jour des valeurs de balise. |
