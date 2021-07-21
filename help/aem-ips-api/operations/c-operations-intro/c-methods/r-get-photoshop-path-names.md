@@ -1,25 +1,24 @@
 ---
-description: Renvoie un tableau de noms de chemins d’accès Photoshop pour l’image donnée.
+description: Renvoie un tableau de noms de chemin Photoshop pour l’image donnée.
 solution: Experience Manager
 title: getPhotoshopPathNames
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 11d4c0d0-a3a3-4324-a4a6-1dd7b7e673da
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '82'
 ht-degree: 19%
 
 ---
 
-
 # getPhotoshopPathNames{#getphotoshoppathnames}
 
-Renvoie un tableau de noms de chemins d’accès Photoshop pour l’image donnée.
+Renvoie un tableau de noms de chemin Photoshop pour l’image donnée.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-baa0fd4b92bc4ad89809efd659b3a629}
+## Types d’utilisateurs autorisés {#section-baa0fd4b92bc4ad89809efd659b3a629}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -35,10 +34,10 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Pointez sur la société contenant l’image à utiliser. |
-| `*`assetHandle`*` | `xsd:string` | Oui | Pointez sur le fichier d’image. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gérer l’entreprise qui contient l’image que vous souhaitez utiliser. |
+| `*`assetHandle`*` | `xsd:string` | Oui | Gérer la ressource image. |
 
-**Output (getPhotoshopPathNamesReturn)**
+**Sortie (getPhotoshopPathNamesReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -65,4 +64,3 @@ Syntaxe
   </pathNameArray>
 </getPhotoshopPathNamesReturn>
 ```
-
