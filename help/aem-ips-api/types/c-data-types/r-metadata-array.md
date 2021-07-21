@@ -2,16 +2,15 @@
 description: Tableau de métadonnées.
 solution: Experience Manager
 title: MetadataArray
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Métadonnées
+role: Developer,Admin
+exl-id: 1833237d-4ef9-4899-8d14-317db350b223
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 16%
+source-wordcount: '28'
+ht-degree: 17%
 
 ---
-
 
 # MetadataArray{#metadataarray}
 
@@ -31,10 +30,9 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> éléments</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> type:Métadonnées</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> items</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> type : métadonnées</span> </p> </td> 
    <td colname="col3"> <p>Tableau de métadonnées. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
