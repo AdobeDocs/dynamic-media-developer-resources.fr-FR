@@ -1,25 +1,24 @@
 ---
-description: Renvoie l’historique de publication d’un fichier.
+description: Renvoie l’historique de publication d’une ressource.
 solution: Experience Manager
 title: getAssetPublishHistory
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+role: Developer,Admin
+exl-id: f337e7f9-1af6-4164-b9bd-e697548e2850
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '96'
 ht-degree: 16%
 
 ---
 
-
 # getAssetPublishHistory{#getassetpublishhistory}
 
-Renvoie l’historique de publication d’un fichier.
+Renvoie l’historique de publication d’une ressource.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-3b9d6a129093458fa8890139a2718912}
+## Types d’utilisateurs autorisés {#section-3b9d6a129093458fa8890139a2718912}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,10 +36,10 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée vers la société avec l’historique de publication des ressources. |
-| `*`assetHandle`*` | `xsd:string` | Oui | Ressource dont vous souhaitez examiner l’historique de publication. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gestion de l’entreprise avec l’historique de publication des ressources. |
+| `*`assetHandle`*` | `xsd:string` | Oui | La ressource avec l’historique de publication que vous souhaitez examiner. |
 
-**Output (getAssetPublishHistoryReturn)**
+**Sortie (getAssetPublishHistoryReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -48,7 +47,7 @@ Syntaxe
 
 ## Exemples {#section-53897c51e5a047c5bd5ea5a6efb2d114}
 
-Cet exemple de code renvoie l’historique de publication d’un fichier. Un fichier n&#39;a jamais été publié si le serveur renvoie une baie vide.
+Cet exemple de code renvoie l’historique de publication d’une ressource. Une ressource n’a jamais été publiée si le serveur renvoie un tableau vide.
 
 **Request**
 
@@ -66,4 +65,3 @@ Cet exemple de code renvoie l’historique de publication d’un fichier. Un fic
    <pubHistoryArray/>
 </getAssetPublishHistoryReturn>
 ```
-
