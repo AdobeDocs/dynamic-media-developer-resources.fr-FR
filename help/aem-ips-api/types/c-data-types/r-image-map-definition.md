@@ -1,21 +1,20 @@
 ---
-description: Définition de cible pour une action de clic dans le navigateur.
+description: Définition de la cible d’une action de clic dans le navigateur.
 solution: Experience Manager
 title: ImageMapDefinition
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 58478e7c-e3a1-4dd5-8ff9-e9752301b93c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '77'
 ht-degree: 11%
 
 ---
 
-
 # ImageMapDefinition{#imagemapdefinition}
 
-Définition de cible pour une action de clic dans le navigateur.
+Définition de la cible d’une action de clic dans le navigateur.
 
 Syntaxe
 
@@ -24,8 +23,7 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | `*`name`*` | `xsd:string` | Nom de la définition de zone cliquable. |
-| `*`shapeType`*` | `xsd:string` | L’une des valeurs de forme de région. |
-| `*`région`*` | `xsd:string` | Coordonnées de la zone cliquable. Le format est basé sur les attributs de balise HTML `<area>`. |
-| `*`action`*` | `xsd:string` | Autres attributs à inclure dans la balise HTML `<area>`, y compris l’URL `href`. |
+| `*`shapeType`*` | `xsd:string` | Une des valeurs de forme régionale. |
+| `*`région`*` | `xsd:string` | Coordonnées de la zone cliquable. Le format est basé sur les attributs de balise HTML `<area>` . |
+| `*`action`*` | `xsd:string` | Autres attributs à inclure dans la balise `<area>` HTML, y compris l’URL `href`. |
 | `*`activé`*` | `xsd:boolean` | True si la zone cliquable est activée. |
-
