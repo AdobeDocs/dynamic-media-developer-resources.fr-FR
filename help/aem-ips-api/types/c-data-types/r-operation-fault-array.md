@@ -1,21 +1,20 @@
 ---
-description: Tableau de messages répondant à l’un des URL fournis dans la demande d’invalidation CDN.
+description: Tableau de messages répondant à l’une des URL fournies dans la demande d’invalidation du réseau CDN.
 solution: Experience Manager
 title: OperationFaultArray
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: b9b92686-a378-4ba0-814b-3354344aa6d2
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 6%
+source-wordcount: '57'
+ht-degree: 7%
 
 ---
 
-
 # OperationFaultArray{#operationfaultarray}
 
-Tableau de messages répondant à l’un des URL fournis dans la demande d’invalidation CDN.
+Tableau de messages répondant à l’une des URL fournies dans la demande d’invalidation du réseau CDN.
 
 **Pris en charge depuis**
 
@@ -33,10 +32,9 @@ Tableau de messages répondant à l’un des URL fournis dans la demande d’inv
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> <span class="varname"> éléments</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> items</span> </span> </p> </td> 
    <td> <p> <span class="codeph"> types:OperationFault</span> </p> </td> 
-   <td> <p> La liste des messages résultant de la demande d’invalidation du CDN invalide la requête. </p> </td> 
+   <td> <p> Liste des messages provenant de la demande d’invalidation du réseau CDN. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
