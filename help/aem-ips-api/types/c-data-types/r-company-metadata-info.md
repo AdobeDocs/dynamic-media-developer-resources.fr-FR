@@ -1,21 +1,20 @@
 ---
-description: Contient des informations sur un objet de métadonnées de société tel que l’ID, le nom et le type.
+description: Contient des informations sur un objet de métadonnées de l’entreprise, comme l’identifiant, le nom et le type.
 solution: Experience Manager
 title: CompanyMetadataInfo
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Métadonnées
+role: Developer,Admin
+exl-id: a3d4dd67-07df-47bf-b9e7-1379290654ff
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 11%
+source-wordcount: '41'
+ht-degree: 12%
 
 ---
 
-
 # CompanyMetadataInfo{#companymetadatainfo}
 
-Contient des informations sur un objet de métadonnées de société tel que l’ID, le nom et le type.
+Contient des informations sur un objet de métadonnées de l’entreprise, comme l’identifiant, le nom et le type.
 
 Syntaxe
 
@@ -25,4 +24,3 @@ Syntaxe
 |---|---|---|
 | `*`Expression de code`*` | `Code Phrase` |  |
 | `*`Expression de code`*` | `Code Phrase` |  |
-
