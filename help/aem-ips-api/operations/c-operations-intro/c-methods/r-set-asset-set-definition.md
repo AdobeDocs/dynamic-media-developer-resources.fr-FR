@@ -1,25 +1,24 @@
 ---
-description: Met à jour la définition d’ensemble pour une visionneuse de fichiers existante.
+description: Met à jour la définition du jeu pour un jeu de ressources existant.
 solution: Experience Manager
 title: setAssetSetDefinition
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+role: Developer,Admin
+exl-id: f3fbe13b-e650-4a5d-9c46-a492b11fa13e
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '211'
 ht-degree: 6%
 
 ---
 
-
 # setAssetSetDefinition{#setassetsetdefinition}
 
-Met à jour la définition d’ensemble pour une visionneuse de fichiers existante.
+Met à jour la définition du jeu pour un jeu de ressources existant.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-9d4ca3a8cfe74934b89971de01a2143c}
+## Types d’utilisateurs autorisés {#section-9d4ca3a8cfe74934b89971de01a2143c}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,29 +33,29 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée vers la société avec le jeu de ressources. |
-| `*`assetHandle`*` | `xsd:string` | Oui | Poignée de jeu de ressources |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de l’entreprise avec le jeu de ressources. |
+| `*`assetHandle`*` | `xsd:string` | Oui | Gestion des jeux de ressources |
 | `*`setDefinition`*` | `xsd:string` | Oui | Chaîne de définition. Voir ci-dessous. |
 
-**Output (setAssetSetDefinitionReturn)**
+**Sortie (setAssetSetDefinitionReturn)**
 
-L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+L’API IPS ne renvoie pas de réponse pour cette opération.
 
-## Paramètre setDefinition : À propos de {#section-f88e066bf5294b4f8c12d5d652a5c94c}
+## Paramètre setDefinition : A propos {#section-f88e066bf5294b4f8c12d5d652a5c94c}
 
-**Fonction setDefinition**
+**Fonctions setDefinition**
 
 Spécifiez les fonctions de substitution `setDefinition` en ligne. Ces problèmes sont résolus lors d’une recherche de catalogue ou lors d’une publication. Les chaînes de substitution ont le format `${<substitution_func>}` et comprennent les éléments suivants :
 
 >[!NOTE]
 >
->Les littéraux de traitement dans les listes de paramètres doivent être entourés de crochets `([])`. Le texte en dehors d’une chaîne de substitution est copié dans la chaîne de sortie lors de la résolution.
+>Les littéraux de gestion dans les listes de paramètres doivent être entourés de crochets `([])`. Le texte en dehors d’une chaîne de substitution est copié dans la chaîne de sortie lors de la résolution.
 
 <table id="table_A93D2C273B694C289208AA926B2597CD"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Fonction de substitution </th> 
-   <th colname="col2" class="entry"> Renvoie l’élément </th> 
+   <th colname="col2" class="entry"> Renvoie le </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -74,14 +73,14 @@ Spécifiez les fonctions de substitution `setDefinition` en ligne. Ces problème
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getThumbCatalogId([  <span class="varname"> asset_handle  </span>])  </span> </td> 
-   <td colname="col2"> ID de catalogue. S’applique aux fichiers basés sur les images (Image, Vue ajustée, Vue de calque). <p>Pour les autres ressources, renvoie l’identifiant de catalogue de la ressource miniature (le cas échéant). Si aucune ressource de miniature n’est associée à la ressource, la fonction renvoie une chaîne vide. </p> </td> 
+   <td colname="col2"> ID de catalogue. S’applique aux ressources basées sur des images (Image, Vue ajustée, Vue Calque). <p>Pour d’autres ressources, renvoie l’ID de catalogue de la ressource principale (le cas échéant). Si aucune ressource de miniature n’est associée à la ressource, la fonction renvoie une chaîne vide. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Exemples de setDefinition**
 
-Chaîne de définition de jeu de médias :
+Cette chaîne de définition de visionneuse de médias :
 
 ```java
 ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])}; 
@@ -89,7 +88,7 @@ ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])};
 ${getMetadata([a|1036|19|144], [m|1|ASSET|SharedDateField])}
 ```
 
-Résout les éléments suivants au moment de la recherche ou de la publication :
+Résout les problèmes suivants au moment de la recherche ou de la publication :
 
 ```java
 jcompany/myRenderSet;jcompany/myRenderSet; 
