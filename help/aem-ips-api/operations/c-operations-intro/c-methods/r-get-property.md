@@ -1,21 +1,20 @@
 ---
-description: Obtient les valeurs de chaîne des propriétés système liées à Image Portal.
+description: Obtient les valeurs string des propriétés système liées à Image Portal.
 solution: Experience Manager
 title: getProperty
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 2297b785-28c7-49c6-8891-00986f35ea88
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '137'
 ht-degree: 10%
 
 ---
 
-
 # getProperty{#getproperty}
 
-Obtient les valeurs de chaîne des propriétés système liées à Image Portal.
+Obtient les valeurs string des propriétés système liées à Image Portal.
 
 Les propriétés système prises en charge sont les suivantes :
 
@@ -23,12 +22,12 @@ Les propriétés système prises en charge sont les suivantes :
 * `IpsImageServerUrl`: Préfixe d’URL externe complet pour le serveur d’images IPS.
 * `VideoRootUrl`
 * `swfRootUrl`
-* `SvgRenderRootUrl`: Préfixe d’URL pour le rendu des fichiers SVG.
-* `SvgRenderEnabled`: True si les fichiers SVG peuvent être rendus par  `SvgRenderRootUrl`.
+* `SvgRenderRootUrl`: Préfixe d’URL pour le rendu des ressources SVG.
+* `SvgRenderEnabled`: True si les ressources SVG peuvent être générées par  `SvgRenderRootUrl`.
 
-* `UploadPostMaxFileSize`: Taille maximale (en octets) des données de fichier autorisées dans un transfert  [!DNL POST]. Le système rejette les fichiers dont la taille est supérieure à la limite maximale.
+* `UploadPostMaxFileSize`: Taille maximale (en octets) des données de fichier autorisées dans un chargement  [!DNL POST]. Le système rejette les fichiers dont la taille est supérieure à la limite maximale.
 
-## Types d’utilisateur autorisés {#section-2cd36bbd46ed414b8753569d5895530e}
+## Types d’utilisateurs autorisés {#section-2cd36bbd46ed414b8753569d5895530e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -48,11 +47,11 @@ Les propriétés système prises en charge sont les suivantes :
 |---|---|---|---|
 | `*`name`*` | `xsd:string` | Oui | Nom de la propriété à obtenir. |
 
-**Output (getPropertyReturn)**
+**Sortie (getPropertyReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`value`*` | `xsd:string` | Oui | Valeur de la propriété. |
+| `*`value`*` | `xsd:string` | Oui | La valeur de la propriété. |
 
 ## Exemples {#section-3f80a78dd60c404181b34d3a912d7a36}
 
@@ -73,4 +72,3 @@ Cet exemple de code utilise une constante de chaîne Propriétés IPS pour renvo
    <value>3.8.0</value>
 </getPropertyReturn>
 ```
-
