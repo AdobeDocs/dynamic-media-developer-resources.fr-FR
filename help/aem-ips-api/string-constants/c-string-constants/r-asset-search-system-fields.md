@@ -2,16 +2,15 @@
 description: Utilisé par SystemFieldCondition/field.
 solution: Experience Manager
 title: Champs du système de recherche de ressources
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+role: Developer,Admin
+exl-id: 4ceba799-ff4d-4671-88cc-d85650d4995c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 7%
+source-wordcount: '25'
+ht-degree: 8%
 
 ---
-
 
 # Champs du système de recherche de ressources{#asset-search-system-fields}
 
@@ -33,4 +32,3 @@ Syntaxe
 * [!DNL `CreateUser`]
 * [!DNL `LastModifyUser`]
 * [!DNL `FileName`]
-
