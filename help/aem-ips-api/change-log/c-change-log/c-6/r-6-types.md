@@ -1,21 +1,20 @@
 ---
-description: Décrit les types nouveaux et modifiés pour l'API IPS version 6.
+description: Décrit les types nouveaux et modifiés de l’API IPS version 6.
 solution: Experience Manager
 title: Types de données nouveaux et modifiés
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: d3bcd718-cf27-4d31-850f-a3205564be60
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '74'
 ht-degree: 1%
 
 ---
 
+# Types de données : Nouveautés et modifications{#data-types-new-and-modified}
 
-# Types de données : Nouveau et modifié{#data-types-new-and-modified}
-
-Décrit les types nouveaux et modifiés pour l&#39;API IPS version 6.
+Décrit les types nouveaux et modifiés de l’API IPS version 6.
 
 Syntaxe
 
@@ -39,26 +38,26 @@ Syntaxe
 
 ## Types modifiés {#section-56b834b1a3b843279d8715b4a4f3890b}
 
-**Ajouté**
+**Ajout**
 
-* Ajouté `numUrls` à `UploadUrlsJob`.
+* Ajout de `numUrls` à `UploadUrlsJob`.
 
-* `fileName` Ajouté à `Asset.`
+* Ajout de `fileName` à `Asset.`
 
-* Ajouté `isHidden` à `MetadataField`.
+* Ajout de `isHidden` à `MetadataField`.
 
-* Ajouté `taskState` à `TaskProgress`.
+* Ajout de `taskState` à `TaskProgress`.
 
-* Ajouté `exportJob` à `ActiveJob` et `ScheduledJob`.
+* Ajout de `exportJob` à `ActiveJob` et `ScheduledJob`.
 
-* Ajouté `optmizedPath` et `optimizedFile` à `PsdInfo`.
+* Ajout de `optmizedPath` et `optimizedFile` à `PsdInfo`.
 
-* Ajouté `contextHandle` à :
+* Ajout de `contextHandle` à :
 
    * `ImageRenderingPublishJob`
    * `VideoPublishJob`
 
-* Ajouté les paramètres suivants à `Asset` :
+* Ajout des paramètres suivants à `Asset` :
 
    * `animatedGifInfo`
    * `swcInfo`
@@ -72,4 +71,3 @@ Syntaxe
 * Dans `Folder`, `permissions` a été remplacé par `permissionsSetHandle`.
 
 * Dans `AssetSummary`, `type` et `name` sont désormais facultatifs.
-
