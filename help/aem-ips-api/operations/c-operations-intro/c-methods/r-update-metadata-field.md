@@ -1,25 +1,24 @@
 ---
-description: Mettre à jour les métadonnées de champ.
+description: Mise à jour des métadonnées de champ.
 solution: Experience Manager
 title: updateMetadataField
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Métadonnées
+role: Developer,Admin
+exl-id: 67506e76-aa23-46a7-a900-03d89b4266fd
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '159'
 ht-degree: 21%
 
 ---
 
-
 # updateMetadataField{#updatemetadatafield}
 
-Mettre à jour les métadonnées de champ.
+Mise à jour des métadonnées de champ.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-540e91823fee49a4920ca738f7bfeb99}
+## Types d’utilisateurs autorisés {#section-540e91823fee49a4920ca738f7bfeb99}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -43,7 +42,7 @@ Syntaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Poignée de société. </td> 
+   <td colname="col4"> Poignée de la société. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
@@ -70,21 +69,21 @@ Syntaxe
    <td colname="col4"> Masquer ou exposer les métadonnées spécifiques au système IPS. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"><span class="varname"> isEnded</span></span> </td> 
+   <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Indicateur booléen qui indique si le champ de métadonnées est appliqué (validé) lorsque la valeur est définie. </p> <p>Si la valeur est définie sur true, une erreur est générée si une valeur non autorisée est définie dans <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col4"> <p>Indicateur boolean qui indique si le champ de métadonnées est appliqué (validé) lorsque la valeur est définie. </p> <p>Si la valeur est définie sur true, une erreur est générée si une valeur non autorisée est définie dans <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> Permet de créer un ensemble de valeurs énumérées partagées vers lesquelles les balises sélectionnées peuvent pointer. </td> 
+   <td colname="col4"> Permet de créer un ensemble de valeurs énumérées partagées auxquelles les balises sélectionnées peuvent pointer. </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (updateMetadataFieldReturn)**
+**Sortie (updateMetadataFieldReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -92,7 +91,7 @@ Syntaxe
 
 ## Exemples {#section-bb7d93ab6d914ddfa294e08983e589ee}
 
-Cet exemple de code de mise à jour affecte un nouveau nom et une nouvelle valeur par défaut à un champ de métadonnées. La réponse renvoie un handle au champ mis à jour.
+Cet exemple de mise à jour de code affecte un nouveau nom et une nouvelle valeur par défaut à un champ de métadonnées. La réponse renvoie un descripteur au champ mis à jour.
 
 **Request**
 
@@ -112,4 +111,3 @@ Cet exemple de code de mise à jour affecte un nouveau nom et une nouvelle valeu
    <fieldHandle>m|21|IMAGE|updateMetadataField</fieldHandle>
 </updateMetadataFieldReturn>
 ```
-
