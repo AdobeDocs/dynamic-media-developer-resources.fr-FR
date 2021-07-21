@@ -1,21 +1,20 @@
 ---
-description: Décrit les méthodes d'opérations nouvelles et modifiées pour l'API IPS version 3.8.
+description: Décrit les nouvelles méthodes d’exploitation et les méthodes modifiées pour l’API IPS version 3.8.
 solution: Experience Manager
 title: Opérations nouvelles et modifiées
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
 exl-id: 8f4fe698-afe8-4ce6-904d-42fa67dee4dd
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '65'
 ht-degree: 1%
 
 ---
 
-# Opérations : Nouveau et modifié{#operations-new-and-modified}
+# Opérations : Nouveautés et modifications{#operations-new-and-modified}
 
-Décrit les méthodes d&#39;opérations nouvelles et modifiées pour l&#39;API IPS version 3.8.
+Décrit les nouvelles méthodes d’exploitation et les méthodes modifiées pour l’API IPS version 3.8.
 
 Syntaxe
 
@@ -33,8 +32,8 @@ Syntaxe
 
 **searchAssets**
 
-* Le paramètre facultatif `publishState` vous permet de rechercher l&#39;état de la ressource `MarkedForPublish/NotMarkedForPublish`.
+* Le paramètre facultatif `publishState` vous permet de rechercher l’état de la ressource `MarkedForPublish/NotMarkedForPublish`.
 
 **getJobLogs**
 
-* Le paramètre facultatif `userHandle` vous permet de récupérer les journaux de tâches envoyés par un utilisateur spécifique.
+* Le paramètre facultatif `userHandle` vous permet de récupérer les logs de tâches envoyés par un utilisateur spécifique.
