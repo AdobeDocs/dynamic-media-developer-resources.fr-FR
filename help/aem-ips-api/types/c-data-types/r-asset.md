@@ -2,16 +2,15 @@
 description: Objet ou conteneur dans la hiérarchie de dossiers.
 solution: Experience Manager
 title: Fichier
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+role: Developer,Admin
+exl-id: 943e653a-ed30-4c75-9bad-6ef5b72f5219
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '443'
 ht-degree: 8%
 
 ---
-
 
 # Fichier{#asset}
 
@@ -37,8 +36,8 @@ Syntaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> animatedGifInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:AnimatedGifInfo</span> </td> 
-   <td colname="col3"> Informations détaillées sur un fichier GIF animé. </td> 
+   <td colname="col2"> <span class="codeph"> types:AnimatedGifInfo</span> </td> 
+   <td colname="col3"> Détails sur un fichier GIF animé. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
@@ -52,13 +51,13 @@ Syntaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> cabinetInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:CabinetInfo</span> </td> 
-   <td colname="col3"> Propriétés d'un type de fichier CAB. </td> 
+   <td colname="col2"> <span class="codeph"> types:CabinetInfo</span> </td> 
+   <td colname="col3"> Propriétés d’un type de ressource CAB. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> créé</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> created</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Date et heure de téléchargement de la ressource. </td> 
+   <td colname="col3"> Date et heure de chargement de la ressource. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> createUser</span> </span> </td> 
@@ -67,7 +66,7 @@ Syntaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> cssInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:CssInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:CssInfo</span> </td> 
    <td colname="col3"> Informations détaillées sur un fichier CSS. </td> 
   </tr> 
   <tr> 
@@ -83,7 +82,7 @@ Syntaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fileName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Renvoie le nom de fichier virtuel. Le chemin d’accès complet au fichier virtuel est <span class="codeph"> dossier</span>+<span class="codeph"> fileName</span>. </td> 
+   <td colname="col3">Renvoie le nom du fichier virtuel. Le chemin d’accès complet au fichier virtuel est <span class="codeph"> folder</span>+<span class="codeph"> fileName</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> flashInfo</span> </span> </td> 
@@ -91,19 +90,19 @@ Syntaxe
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> dossier</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> folder</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Dossier contenant une ressource. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Accédez au dossier parent du fichier. </td> 
+   <td colname="col3"> Gérer vers le dossier parent de la ressource. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fontInfo</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> type:fontInfo</span> </td> 
-   <td colname="col3"> Propriétés d’un fichier de police. </td> 
+   <td colname="col3"> Propriétés d’une ressource de police. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> iccProfileInfo</span> </span> </td> 
@@ -117,8 +116,8 @@ Syntaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:ImageInfo</span> </td> 
-   <td colname="col3"> Propriétés d’un fichier d’image. </td> 
+   <td colname="col2"> <span class="codeph"> types:ImageInfo</span> </td> 
+   <td colname="col3"> Propriétés d’une ressource image. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> inDesignInfo</span> </span> </td> 
@@ -132,7 +131,7 @@ Syntaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> javascriptInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:JavascriptInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:JavascriptInfo</span> </td> 
    <td colname="col3"> Informations détaillées sur un fichier JavaScript. </td> 
   </tr> 
   <tr> 
@@ -147,8 +146,8 @@ Syntaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> layerViewInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:LayerViewInfo</span> </td> 
-   <td colname="col3"> Propriétés d’une ressource de vue de calques. </td> 
+   <td colname="col2"> <span class="codeph"> types:LayerViewInfo</span> </td> 
+   <td colname="col3"> Propriétés d’une ressource d’affichage de calque. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maskInfo</span> </span> </td> 
@@ -162,13 +161,13 @@ Syntaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> metadataArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:MetadataArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:MetadataArray</span> </td> 
    <td colname="col3"> Tableau des valeurs de métadonnées associées à la ressource. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Nom du fichier. </td> 
+   <td colname="col3"> Nom de la ressource. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> pdfInfo</span> </span> </td> 
@@ -178,7 +177,7 @@ Syntaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> pdfSettingsInfo</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:PdfSettingsInfo</span> </td> 
-   <td colname="col3"> Propriétés d’un fichier de paramètres PDF. </td> 
+   <td colname="col3"> Propriétés d’une ressource de paramètres PDF. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> permissions</span> </span> </td> 
@@ -196,12 +195,12 @@ Syntaxe
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> premiereExpressInfo</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> preereExpressInfo</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Expression de code  </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> projets</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> projects</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Liste des noms de projet. </td> 
   </tr> 
@@ -213,11 +212,11 @@ Syntaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> readyForPublish</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> Définit un indicateur pour indiquer si un fichier doit être publié ou non. </td> 
+   <td colname="col3"> Définit un indicateur pour indiquer si une ressource doit être publiée ou non. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> renderSceneInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:RenderSceneInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:RenderSceneInfo</span> </td> 
    <td colname="col3"> Propriétés d’une ressource de scène de rendu. </td> 
   </tr> 
   <tr> 
@@ -237,18 +236,18 @@ Syntaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> swcInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:SwcInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:SwcInfo</span> </td> 
    <td colname="col3"> Propriétés d’une ressource SWC. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> templateInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:TemplateInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:TemplateInfo</span> </td> 
    <td colname="col3"> Propriétés d’une ressource de modèle. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> trashState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Indique si un fichier se trouve dans la corbeille ou en direct (voir Etat de la corbeille pour les valeurs). </td> 
+   <td colname="col3"> Indique si une ressource se trouve dans la corbeille ou en direct (voir "État de la corbeille" pour les valeurs). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
@@ -257,8 +256,8 @@ Syntaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoCaptionInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:VideoCaptionInfo</span> </td> 
-   <td colname="col3"> <p>Propriétés d’un fichier de sous-titrage vidéo. </p> </td> 
+   <td colname="col2"> <span class="codeph"> types:VideoCaptionInfo</span> </td> 
+   <td colname="col3"> <p>Propriétés d’une ressource de sous-titrage vidéo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoInfo</span> </span> </td> 
@@ -267,28 +266,28 @@ Syntaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> viewerPresetInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:ViewerPresetInfo</span> </td> 
-   <td colname="col3"> Propriétés d’un fichier de paramètres prédéfinis de visionneuse. </td> 
+   <td colname="col2"> <span class="codeph"> types:ViewerPresetInfo</span> </td> 
+   <td colname="col3"> Propriétés d’une ressource de paramètre prédéfini de visionneuse. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> viewerSwfInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:ViewerSwfInfo</span> </td> 
-   <td colname="col3"> Propriétés d’un fichier SWf de visionneuse. </td> 
+   <td colname="col2"> <span class="codeph"> types:ViewerSwfInfo</span> </td> 
+   <td colname="col3"> Propriétés d’une ressource SWf de visionneuse. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> vignetteInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:InfoVignette</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:VignetteInfo</span> </td> 
    <td colname="col3"> Propriétés d’un fichier de vignette. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> watermarkInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:WatermarkInfo</span> </td> 
-   <td colname="col3"> Propriétés d’un fichier de filigrane. </td> 
+   <td colname="col2"> <span class="codeph"> types:WatermarkInfo</span> </td> 
+   <td colname="col3"> Propriétés d’une ressource de filigrane. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> windowCoveringInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:WindowCoveringInfo</span> </td> 
-   <td colname="col3"> Propriétés d’une fenêtre de recouvrement de fichier. </td> 
+   <td colname="col2"> <span class="codeph"> types:WindowCoveringInfo</span> </td> 
+   <td colname="col3"> Propriétés d’une fenêtre qui couvre la ressource. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> wordInfo</span> </span> </td> 
@@ -297,12 +296,12 @@ Syntaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> xmlInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:XmlInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:XmlInfo</span> </td> 
    <td colname="col3"> Propriétés d’une ressource XML. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> xslInfo</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:XslInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:XslInfo</span> </td> 
    <td colname="col3"> Propriétés d’une ressource XSL. </td> 
   </tr> 
   <tr> 
@@ -312,4 +311,3 @@ Syntaxe
   </tr> 
  </tbody> 
 </table>
-
