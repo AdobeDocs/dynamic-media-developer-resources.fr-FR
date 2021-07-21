@@ -1,21 +1,20 @@
 ---
-description: Utilisée par PermissionsUpdate/permissionType, Permission/permissionType.
+description: Utilisé par PermissionsUpdate/permissionType, Permission/permissionType.
 solution: Experience Manager
-title: Types d’autorisation
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+title: Types d’autorisations
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: f58d2606-d794-4d4f-9566-02dfda5e0654
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '25'
+source-wordcount: '23'
 ht-degree: 8%
 
 ---
 
+# Types d’autorisations{#permission-types}
 
-# Types d’autorisation{#permission-types}
-
-Utilisée par PermissionsUpdate/permissionType, Permission/permissionType.
+Utilisé par PermissionsUpdate/permissionType, Permission/permissionType.
 
 Syntaxe
 
@@ -24,4 +23,3 @@ Syntaxe
 * [!DNL `Read`]
 * [!DNL `Write`]
 * [!DNL `Delete`]
-
