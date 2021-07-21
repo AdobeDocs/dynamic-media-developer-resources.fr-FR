@@ -2,16 +2,15 @@
 description: Supprime les utilisateurs d’un tableau de groupes.
 solution: Experience Manager
 title: removeGroupMembership
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 892ee01c-e07b-4321-b0b7-5bb606036340
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '107'
 ht-degree: 10%
 
 ---
-
 
 # removeGroupMembership{#removegroupmembership}
 
@@ -20,9 +19,9 @@ Supprime les utilisateurs d’un tableau de groupes.
 **Différences entre les commandes de suppression**
 
 * `removeGroupMembers`: Supprime plusieurs utilisateurs d’un groupe.
-* `removeGroupMembership`: Supprime un utilisateur individuel d&#39;un tableau de groupes.
+* `removeGroupMembership`: Supprime un utilisateur individuel d’un tableau de groupes.
 
-## Types d’utilisateur autorisés {#section-83f3048bbe5a4f62b7b14dc9efdd951a}
+## Types d’utilisateurs autorisés {#section-83f3048bbe5a4f62b7b14dc9efdd951a}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -34,12 +33,12 @@ Supprime les utilisateurs d’un tableau de groupes.
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Non | Identifiant de la société dont vous souhaitez supprimer l’appartenance au groupe. |
-| `*`groupHandleArray`*` | `types:HandleArray` | Oui | Tableau de poignées vers des groupes à partir desquels vous souhaitez supprimer la société. |
+| `*`userHandle`*` | `xsd:string` | Non | Gestionnaire de l’entreprise dont vous souhaitez supprimer l’appartenance à un groupe. |
+| `*`groupHandleArray`*` | `types:HandleArray` | Oui | Le tableau de gestionnaires aux groupes à partir desquels vous souhaitez que la société soit supprimée. |
 
-**Output (removeGroupMembershipReturn)**
+**Sortie (removeGroupMembershipReturn)**
 
-L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-f8d4181170a243efb9faf5824ae96197}
 
