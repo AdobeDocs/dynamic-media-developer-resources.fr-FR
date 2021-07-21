@@ -2,16 +2,15 @@
 description: Met à jour un jeu de ressources.
 solution: Experience Manager
 title: updateAssetSet
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+role: Developer,Admin
+exl-id: af7899c4-a95f-42c8-858e-ed1592c6f5b6
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 19%
+source-wordcount: '84'
+ht-degree: 20%
 
 ---
-
 
 # updateAssetSet{#updateassetset}
 
@@ -25,10 +24,10 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société contenant la visionneuse d’images à modifier. |
-| `*`assetHandle`*` | `xsd:string` | Oui | Poignée de la visionneuse d’images à modifier. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de la société qui contient la visionneuse d’images à modifier. |
+| `*`assetHandle`*` | `xsd:string` | Oui | La poignée de la visionneuse d’images que vous souhaitez modifier. |
 | `*`setDefinition`*` | `xsd:string` | Non | Réinitialise les membres de la visionneuse d’images. |
-| `*`thumbAssetHandle`*` | `xsd:string` | Non | Poignée du fichier qui agit comme miniature pour la visionneuse d’images. |
+| `*`thumbAssetHandle`*` | `xsd:string` | Non | Gestionnaire de la ressource qui agit comme miniature de la visionneuse d’images. |
 
 **Sortie (updateAssetSetReturn)**
 
@@ -54,4 +53,3 @@ Syntaxe
 ```java
 <updateAssetSetReturn xmlns="http://www.scene7.com/IpsApi/xsd/2014-04-03"/>
 ```
-
