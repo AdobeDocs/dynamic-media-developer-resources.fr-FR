@@ -2,16 +2,15 @@
 description: Ajoute un terme de recherche à utiliser avec searchAssets.
 solution: Experience Manager
 title: MetadataCondition
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Métadonnées
+role: Developer,Admin
+exl-id: 9226fb81-b3ff-41e4-a3cd-d5a40f359be6
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 10%
+source-wordcount: '180'
+ht-degree: 11%
 
 ---
-
 
 # MetadataCondition{#metadatacondition}
 
@@ -53,53 +52,52 @@ Syntaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> longVal</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> Valeur de comparaison longue (pour les champs à saisie unique). </td> 
+   <td colname="col3"> Valeur de comparaison longue (pour les champs de type int uniquement). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> minLong</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> Valeur minimale longue dans la comparaison de plage (pour les champs non tapés uniquement). </td> 
+   <td colname="col3"> Valeur minimale longue dans la comparaison des plages (pour les champs de type int uniquement). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maxLong</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> Valeur maximale longue dans la comparaison de plage (pour les champs non tapés uniquement). </td> 
+   <td colname="col3"> Valeur maximale longue dans la comparaison des plages (pour les champs de type int uniquement). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> doubleVal</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:doublon</span> </td> 
-   <td colname="col3"> Valeur de comparaison des doublons (pour les champs à virgule flottante uniquement). </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
+   <td colname="col3"> Valeur de comparaison double (pour les champs de type flottant uniquement). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> minDouble</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:doublon</span> </td> 
-   <td colname="col3"> Valeur de doublon minimale dans la comparaison de la plage (pour les champs de type flottant uniquement). </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
+   <td colname="col3"> Double valeur minimale dans la comparaison des plages (pour les champs de type flottant uniquement). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maxDouble</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:doublon</span> </td> 
-   <td colname="col3"> Valeur maximale du doublon dans la comparaison de plage (pour les champs à virgule flottante uniquement). </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
+   <td colname="col3"> Double valeur maximale dans la comparaison des plages (pour les champs de type flottant uniquement). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> dateVale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Valeur de comparaison de dates (pour les champs de type date uniquement). </td> 
+   <td colname="col3"> Valeur de comparaison des dates (pour les champs de type date uniquement). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> minDate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Valeur de date minimale dans la comparaison de plage (pour les champs de type date uniquement). </td> 
+   <td colname="col3"> Valeur de date minimale dans la comparaison des plages (pour les champs de type date uniquement). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maxDate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Valeur de date maximale dans la comparaison de plage (pour les champs de type date uniquement). </td> 
+   <td colname="col3"> Valeur de date maximale dans la comparaison des plages (pour les champs de type date uniquement). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> caseSensitive</span> </span> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> Définit la sensibilité à la casse pour le serveur de métadonnées. Utilisé dans l’appel <span class="codeph"> searchAssetsByMetadata</span>. </p> <p>Voir <a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"> searchAssetsByMetadata</a>. </p> </td> 
+   <td colname="col3"> <p> Permet de respecter la casse pour le serveur de métadonnées. Utilisé dans l’appel <span class="codeph"> searchAssetsByMetadata</span>. </p> <p>Voir <a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"> searchAssetsByMetadata</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
