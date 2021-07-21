@@ -1,21 +1,20 @@
 ---
-description: Options pour les images Photoshop.
+description: Options des images Photoshop.
 solution: Experience Manager
 title: PhotoshopOptions
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 0ad8e002-4fbd-442f-84ba-89cc551ec3de
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 21%
+source-wordcount: '36'
+ht-degree: 22%
 
 ---
 
-
 # PhotoshopOptions{#photoshopoptions}
 
-Options pour les images Photoshop.
+Options des images Photoshop.
 
 Syntaxe
 
@@ -32,7 +31,7 @@ Syntaxe
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> layerOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:PhotoshopLayerOptions</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:PhotoshopLayerOptions</span> </td> 
    <td colname="col3"> Tableau des options de calque Photoshop. </td> 
   </tr> 
   <tr> 
@@ -41,9 +40,8 @@ Syntaxe
    <td colname="col3">Options de processus Photoshop : 
     <ul id="ul_DD292274043F4A5ABBBB9DB5C2D46681"> 
      <li id="li_92FA27B1887B464F8C4564FD0B59793B"><span class="codeph"> Aucun</span> </li> 
-     <li id="li_5A3B4A33F1A14BA399FC2F1E7C471FCC"><span class="codeph"> ConserverLayers</span> </li> 
+     <li id="li_5A3B4A33F1A14BA399FC2F1E7C471FCC"><span class="codeph"> Conserver les calques</span> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
-
