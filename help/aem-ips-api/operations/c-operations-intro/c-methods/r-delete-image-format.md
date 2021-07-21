@@ -1,25 +1,24 @@
 ---
-description: Supprime un format d’image. Récupérez la poignée de format d'image à partir de saveImageFormat.
+description: Supprime un format d’image. Obtenez la poignée du format d’image à partir de saveImageFormat.
 solution: Experience Manager
 title: deleteImageFormat
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: bd717c08-6da4-47f1-8614-e4ba79d8176c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '107'
 ht-degree: 11%
 
 ---
 
-
 # deleteImageFormat{#deleteimageformat}
 
-Supprime un format d’image. Récupérez la poignée de format d&#39;image à partir de saveImageFormat.
+Supprime un format d’image. Obtenez la poignée du format d’image à partir de saveImageFormat.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-827e24a3019543418b0a635d46c1edfd}
+## Types d’utilisateurs autorisés {#section-827e24a3019543418b0a635d46c1edfd}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,16 +31,16 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société contenant le format d’image à supprimer. |
-| `*`imageFormatHandle`*` | `xsd:string` | Oui | Poignée du format d’image à supprimer. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de l’entreprise qui contient le format d’image que vous souhaitez supprimer. |
+| `*`imageFormatHandle`*` | `xsd:string` | Oui | Gestion du format d’image que vous souhaitez supprimer. |
 
-**Output (deleteImageFormatParam)**
+**Sortie (deleteImageFormatParam)**
 
-L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-9ed9baaba13549bfaad1bc9cd7ec7009}
 
-Cet exemple de code supprime un format d’image d’une société. Récupérez la poignée de format d’image à partir d’une autre opération.
+Cet exemple de code supprime un format d’image d’une société. Récupérez la gestion du format d’image à partir d’une autre opération.
 
 **Request**
 
