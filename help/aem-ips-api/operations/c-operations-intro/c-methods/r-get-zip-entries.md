@@ -1,25 +1,24 @@
 ---
-description: Renvoie les données du fichier Zip.
+description: Renvoie les données du fichier zip.
 solution: Experience Manager
 title: getZipEntries
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: eb052685-b750-4a12-b00e-28e676340e98
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 20%
+source-wordcount: '75'
+ht-degree: 21%
 
 ---
 
-
 # getZipEntries{#getzipentries}
 
-Renvoie les données du fichier Zip.
+Renvoie les données du fichier zip.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-33a3f03ba8a14086922397619ce12ab8}
+## Types d’utilisateurs autorisés {#section-33a3f03ba8a14086922397619ce12ab8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,18 +36,18 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Identifiant de la société contenant le fichier Zip. |
-| `*`assetHandle`*` | `xsd:string` | Oui | Traitez le fichier Zip. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de la société qui contient le fichier ZIP. |
+| `*`assetHandle`*` | `xsd:string` | Oui | Gérez le fichier zip. |
 
-**Output (getZipEntriesReturn)**
+**Sortie (getZipEntriesReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`zipArray`*` | `types:ZipEntryArray` | Oui | Tableau des entrées dans un fichier Zip. |
+| `*`zipArray`*` | `types:ZipEntryArray` | Oui | Tableau d’entrées dans un fichier Zip. |
 
 ## Exemples {#section-1fc0ad8fa448492cb5a135d3e3d161ac}
 
-Cet exemple de code renvoie des informations sur le fichier Zip, y compris la taille compressée et non compressée.
+Cet exemple de code renvoie des informations sur le fichier zip, y compris la taille compressée et non compressée.
 
 **Request**
 
@@ -75,4 +74,3 @@ Cet exemple de code renvoie des informations sur le fichier Zip, y compris la ta
    </zipArray>
 </getZipEntriesReturn>
 ```
-
