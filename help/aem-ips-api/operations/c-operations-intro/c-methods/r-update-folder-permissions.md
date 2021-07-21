@@ -1,25 +1,24 @@
 ---
-description: Mettez à jour les autorisations du dossier.
+description: Mettez à jour les autorisations de dossier.
 solution: Experience Manager
 title: updateFolderPermissions
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 4e4f382e-4339-4b9d-a721-d33a4fa8be6b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 17%
+source-wordcount: '77'
+ht-degree: 18%
 
 ---
 
-
 # updateFolderPermissions{#updatefolderpermissions}
 
-Mettez à jour les autorisations du dossier.
+Mettez à jour les autorisations de dossier.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-e5c2217231bf4b3386e0ab3f2e9aca0b}
+## Types d’utilisateurs autorisés {#section-e5c2217231bf4b3386e0ab3f2e9aca0b}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,14 +30,14 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société. |
 | `*`folderHandle`*` | `xsd:string` | Oui | Poignée de dossier. |
 | `*`updateChildren`*` | `xsd:boolean` | Oui | Détermine s’il faut mettre à jour les enfants avec des autorisations définies pour le dossier de niveau supérieur. |
-| `*`updateArray`*` | `types:PermissionUpdateArray` | Oui | Tableau des mises à jour des autorisations que vous souhaitez appliquer au dossier. |
+| `*`updateArray`*` | `types:PermissionUpdateArray` | Oui | Tableau des mises à jour d’autorisation que vous souhaitez appliquer au dossier. |
 
-**Output (updateFolderPermissionsReturn)**
+**Sortie (updateFolderPermissionsReturn)**
 
-L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-c3fe4d4388674870a3856c35ef66b631}
 
