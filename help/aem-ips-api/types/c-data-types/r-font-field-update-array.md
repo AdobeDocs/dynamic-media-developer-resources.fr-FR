@@ -2,16 +2,15 @@
 description: Tableau de mises à jour des champs de police.
 solution: Experience Manager
 title: FontFieldUpdateArray
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 1ed5562a-90f6-483c-98ef-96bc5a5131ed
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 17%
+source-wordcount: '33'
+ht-degree: 18%
 
 ---
-
 
 # FontFieldUpdateArray{#fontfieldupdatearray}
 
@@ -23,5 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`éléments`*` | `types:FontFieldUpdate` | Elément du tableau de mise à jour des champs de police. |
-
+| `*`éléments`*` | `types:FontFieldUpdate` | Élément du tableau de mise à jour des champs de police. |
