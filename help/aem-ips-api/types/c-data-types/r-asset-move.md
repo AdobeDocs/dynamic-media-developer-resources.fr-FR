@@ -1,21 +1,20 @@
 ---
-description: Poignée d’un fichier et poignée à l’endroit où il sera déplacé.
+description: Poignée vers une ressource et poignée vers l’emplacement où elle sera déplacée.
 solution: Experience Manager
 title: AssetMove
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+role: Developer,Admin
+exl-id: dfddb436-0d58-41d2-8b5e-556517ba0c32
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '59'
 ht-degree: 8%
 
 ---
 
-
 # AssetMove{#assetmove}
 
-Poignée d’un fichier et poignée à l’endroit où il sera déplacé.
+Poignée vers une ressource et poignée vers l’emplacement où elle sera déplacée.
 
 Syntaxe
 
@@ -24,5 +23,4 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | `*`assetHandle`*` | `xsd:string` | Poignée de la ressource que vous souhaitez déplacer. |
-| `*`folderHandle`*` | `xsd:string` | Identifiant du dossier de destination. |
-
+| `*`folderHandle`*` | `xsd:string` | Gestionnaire du dossier de destination. |
