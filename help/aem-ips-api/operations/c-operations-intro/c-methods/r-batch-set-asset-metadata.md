@@ -1,12 +1,11 @@
 ---
-description: Définit les métadonnées des fichiers en mode batch.
+description: Définit les métadonnées des ressources à l’aide du mode batch.
 solution: Experience Manager
 title: batchSetAssetMetadata
-feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
-role: Developer,Administrator
+feature: Dynamic Media Classic,SDK/API,Métadonnées,Gestion des ressources
+role: Developer,Admin
 exl-id: 7393fa4f-71fb-48a5-a7f3-91eec82c88c1
-translation-type: tm+mt
-source-git-commit: f464a7adcb8035a5bdebf1a6c9b647ba04535431
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 13%
@@ -15,11 +14,11 @@ ht-degree: 13%
 
 # batchSetAssetMetadata{#batchsetassetmetadata}
 
-Définit les métadonnées des fichiers en mode batch.
+Définit les métadonnées des ressources à l’aide du mode batch.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-5310d9fd00604cbf9756944900378855}
+## Types d’utilisateurs autorisés {#section-5310d9fd00604cbf9756944900378855}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,18 +33,18 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société dont vous souhaitez définir les métadonnées dans une opération de traitement par lot. |
-| `*`updateArray`*` | `types:BatchMetadataUpdateArray` | Oui | Tableau de mises à jour des métadonnées appliquées aux ressources. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gestion de l’entreprise dont vous souhaitez définir les métadonnées dans une opération de lot. |
+| `*`updateArray`*` | `types:BatchMetadataUpdateArray` | Oui | Tableau des mises à jour de métadonnées appliquées aux ressources. |
 
-**Output (batchSetAssetMetadataParam)**
+**Sortie (batchSetAssetMetadataParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Oui | Nombre de métadonnées définies avec succès. |
+| `*`successCount`*` | `xsd:int` | Oui | Nombre de métadonnées correctement définies. |
 | `*`warningCount`*` | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de définir des métadonnées. |
 | `*`errorCount`*` | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de définir des métadonnées. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources générant des avertissements lorsque l’opération tentait de définir par lot des métadonnées pour les ressources. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux fichiers qui génèrent des erreurs lorsque l’opération tentait de définir par lot des métadonnées pour les fichiers. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau de détails associés aux ressources générant des avertissements lorsque l’opération tentait de définir des métadonnées par lot pour les ressources. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau de détails associés aux ressources qui génèrent des erreurs lorsque l’opération tentait de définir des métadonnées par lot pour les ressources. |
 
 ## Exemples {#section-2de798ac920e4b47b971b1729a64395b}
 
