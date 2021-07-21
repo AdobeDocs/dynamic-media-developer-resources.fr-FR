@@ -2,16 +2,15 @@
 description: Publie les métadonnées sur le serveur de métadonnées.
 solution: Experience Manager
 title: MetadataPublishJobType
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Métadonnées
+role: Developer,Admin
+exl-id: b90d27c0-9398-4597-bcce-3c36a371df22
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '71'
 ht-degree: 9%
 
 ---
-
 
 # MetadataPublishJobType{#metadatapublishjobtype}
 
@@ -33,8 +32,7 @@ Syntaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forcePublish</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Définissez cette variable sur <span class="codeph"> True</span> pour publier à nouveau <i>toutes</i> les données sur le serveur de métadonnées. <p>Remarque :  En fonction de la quantité de données, cette opération peut prendre plusieurs minutes à quelques heures. </p><p>Ne définissez pas ce paramètre si vous souhaitez publier uniquement des métadonnées nouvelles ou modifiées. </p></td> 
+   <td colname="col3">Définissez cette variable sur <span class="codeph"> True</span> pour publier à nouveau toutes les <i>données </i> sur le serveur de métadonnées. <p>Remarque :  Selon la quantité de données, cette opération peut prendre plusieurs minutes à quelques heures. </p><p>Ne définissez pas ce paramètre si vous souhaitez publier des métadonnées nouvelles ou modifiées uniquement. </p></td> 
   </tr> 
  </tbody> 
 </table>
-
