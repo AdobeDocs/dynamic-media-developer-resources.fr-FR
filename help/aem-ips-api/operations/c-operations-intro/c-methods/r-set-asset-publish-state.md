@@ -1,25 +1,24 @@
 ---
-description: Détermine si un fichier est prêt à être publié.
+description: Détermine si une ressource est prête à être publiée.
 solution: Experience Manager
 title: setAssetPublishState
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+role: Developer,Admin
+exl-id: 0dc195ee-9229-40a3-ad8b-8f00c2c9ff97
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '102'
 ht-degree: 18%
 
 ---
 
-
 # setAssetPublishState{#setassetpublishstate}
 
-Détermine si un fichier est prêt à être publié.
+Détermine si une ressource est prête à être publiée.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-11bec77e50b24461bb8c8aacf016eec8}
+## Types d’utilisateurs autorisés {#section-11bec77e50b24461bb8c8aacf016eec8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -61,7 +60,7 @@ Syntaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4">Etats disponibles : 
+   <td colname="col4">États disponibles : 
     <ul id="ul_A2614608DF1E4DB6BF8141D33E59D180"> 
      <li id="li_8C90BFEEE2B14A0184F342018C45EE67"><span class="codeph"> MarkedForPublish</span> </li> 
      <li id="li_C4BC12B304DA4763956C3049AF597D06"><span class="codeph"> NotMarkedForPublish</span> </li> 
@@ -78,11 +77,11 @@ Syntaxe
 
 **Sortie**
 
-L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-c31ead6d0e594317a12c120509527792}
 
-Cet exemple de code définit l&#39;état de publication d&#39;un fichier à l&#39;aide de `NotMarkedForPublish`.
+Cet exemple de code définit l’état de publication d’une ressource à l’aide de `NotMarkedForPublish`.
 
 **Request**
 
