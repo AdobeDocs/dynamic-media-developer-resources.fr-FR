@@ -1,19 +1,18 @@
 ---
 description: Utilisé par searchAssetReturn/trashState.
 solution: Experience Manager
-title: Etat de la corbeille
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+title: État de la corbeille
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: f37d7380-127e-48ef-808f-5aa36bf2c665
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '21'
-ht-degree: 9%
+source-wordcount: '19'
+ht-degree: 10%
 
 ---
 
-
-# Etat de la corbeille {#trash-state}
+# État de la corbeille{#trash-state}
 
 Utilisé par searchAssetReturn/trashState.
 
@@ -24,4 +23,3 @@ Syntaxe
 * [!DNL `NotInTrash`]
 * [!DNL `InTrash`]
 * [!DNL `InEmptiedTrash`]
-
