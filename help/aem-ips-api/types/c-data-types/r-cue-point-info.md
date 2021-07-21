@@ -2,16 +2,15 @@
 description: Propriétés d’une ressource de fichier CuePoint.
 solution: Experience Manager
 title: CuePointInfo
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: d773cce9-837d-4ac1-99e6-1033eec93b55
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '38'
+source-wordcount: '36'
 ht-degree: 13%
 
 ---
-
 
 # CuePointInfo{#cuepointinfo}
 
@@ -25,5 +24,4 @@ Syntaxe
 |---|---|---|
 | `*`originalPath`*` | `xsd:string` | Chemin d’accès au fichier CuePoint. |
 | `*`originalFile`*` | `xsd:string` | Nom du fichier CuePoint. |
-| `*`fileSize`*` | `xsd:int` | Taille du fichier CuePoint. |
-
+| `*`fileSize`*` | `xsd:int` | Taille de fichier CuePoint. |
