@@ -1,21 +1,20 @@
 ---
-description: Décrit les constantes de chaînes nouvelles et modifiées pour l'API IPS version 3.8.
+description: Décrit les constantes de chaîne nouvelles et modifiées pour l’API IPS version 3.8.
 solution: Experience Manager
 title: Constantes de chaîne nouvelles et modifiées
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
 exl-id: 38f28e0f-edda-4786-9627-c0ef49645237
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: '61'
 ht-degree: 4%
 
 ---
 
-# Constantes de chaîne : Nouveau et modifié{#string-constants-new-and-modified}
+# Constantes de chaîne : Nouveautés et modifications{#string-constants-new-and-modified}
 
-Décrit les constantes de chaînes nouvelles et modifiées pour l&#39;API IPS version 3.8.
+Décrit les constantes de chaîne nouvelles et modifiées pour l’API IPS version 3.8.
 
 Syntaxe
 
@@ -27,7 +26,7 @@ Syntaxe
 
 * Valeurs : `Rectangle` et `Polygon`.
 
-**Etat de publication**
+**État de publication**
 
 * Utilisé par : `searchAssetsParam/publishState` et `setAssetPublishStateParam/publishState`.
 
