@@ -1,25 +1,24 @@
 ---
-description: Récupère toutes les valeurs du dictionnaire de balises définies pour un ou plusieurs champs de balise.
+description: Obtient toutes les valeurs du dictionnaire de balises définies pour un ou plusieurs champs de balise.
 solution: Experience Manager
 title: getTagFieldValues
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 12836783-4f9d-41d3-9b42-6e25238d7ed5
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '90'
 ht-degree: 17%
 
 ---
 
-
 # getTagFieldValues{#gettagfieldvalues}
 
-Récupère toutes les valeurs du dictionnaire de balises définies pour un ou plusieurs champs de balise.
+Obtient toutes les valeurs du dictionnaire de balises définies pour un ou plusieurs champs de balise.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-cc36a437394c491594e704a08a161c87}
+## Types d’utilisateurs autorisés {#section-cc36a437394c491594e704a08a161c87}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,10 +36,10 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société contenant le champ de balise. |
-| `*`fieldHandleArray`*` | `types:HandleArray` | Oui | Un tableau de champs traite les valeurs de balise que vous souhaitez renvoyer. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de la société contenant le champ de balise. |
+| `*`fieldHandleArray`*` | `types:HandleArray` | Oui | Un tableau de champs gère les valeurs de balise que vous souhaitez renvoyer. |
 
-**Output (getTagFieldValuesReturn)**
+**Sortie (getTagFieldValuesReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -83,4 +82,3 @@ Syntaxe
    </fieldArray>
 </getTagFieldValuesReturn>
 ```
-
