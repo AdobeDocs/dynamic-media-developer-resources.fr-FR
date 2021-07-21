@@ -1,25 +1,24 @@
 ---
-description: Restaure les fichiers à partir de la corbeille.
+description: Restaure les ressources à partir de la corbeille.
 solution: Experience Manager
 title: restoreAssetsFromTrash
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+role: Developer,Admin
+exl-id: b1cde1a9-d726-4ebc-9d49-ee72a6b56fc9
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '164'
 ht-degree: 12%
 
 ---
 
-
 # restoreAssetsFromTrash{#restoreassetsfromtrash}
 
-Restaure les fichiers à partir de la corbeille.
+Restaure les ressources à partir de la corbeille.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-15e887782c7d4ace897ff02c6ad5baa0}
+## Types d’utilisateurs autorisés {#section-15e887782c7d4ace897ff02c6ad5baa0}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,22 +33,22 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée d’une société contenant les ressources à restaurer. |
-| `*`assetHandleArray`*` | `types:HandleArray` | Oui | Tableau de poignées pour les ressources à restaurer. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire pour une entreprise avec les ressources à restaurer. |
+| `*`assetHandleArray`*` | `types:HandleArray` | Oui | Tableau de poignées des ressources à restaurer. |
 
-**Output (restoreAssetsFromTrashReturn)**
+**Sortie (restoreAssetsFromTrashReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Oui | Nombre de fichiers supprimés de la corbeille. |
+| `*`successCount`*` | `xsd:int` | Oui | Nombre de ressources supprimées de la corbeille avec succès. |
 | `*`warningCount`*` | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de restaurer des ressources à partir de la corbeille. |
-| `*`errorCount`*` | `xsd:int` | Oui | Nombre d’erreurs générées lors de la tentative de restauration de fichiers à partir de la corbeille. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des avertissements lorsque l’opération tentait de restaurer des ressources à partir de la corbeille. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux actifs qui ont généré des erreurs lorsque l’opération tentait de restaurer des actifs à partir de la corbeille. |
+| `*`errorCount`*` | `xsd:int` | Oui | Nombre d’erreurs générées lors de la tentative de restauration de ressources à partir de la corbeille. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau de détails associés aux ressources qui ont généré des avertissements lorsque l’opération tentait de restaurer des ressources à partir de la corbeille. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des erreurs lorsque l’opération a tenté de restaurer des ressources à partir de la corbeille. |
 
 ## Exemples {#section-98fe0394b0634ca397c395f14f8a9358}
 
-Cet exemple de code restaure les fichiers de la corbeille. La réponse indique que l&#39;opération a réussi.
+Cet exemple de code restaure les ressources de la corbeille. La réponse indique que l’opération a réussi.
 
 **Request**
 
@@ -72,4 +71,3 @@ Cet exemple de code restaure les fichiers de la corbeille. La réponse indique q
    <errorCount>0</errorCount>
 </restoreAssetsFromTrashReturn
 ```
-
