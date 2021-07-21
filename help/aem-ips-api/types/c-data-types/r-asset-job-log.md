@@ -1,21 +1,20 @@
 ---
-description: Les détails d’une entrée de journal de tâches associée à une ressource particulière. Données renvoyées par getAssetJobLogs.
+description: Détails d’une entrée de journal de tâche associée à une ressource particulière. Données renvoyées par getAssetJobLogs.
 solution: Experience Manager
 title: AssetJobLog
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+role: Developer,Admin
+exl-id: 2c8ebec2-a664-46cd-b843-9893bfa0a9d1
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '112'
 ht-degree: 16%
 
 ---
 
-
 # AssetJobLog{#assetjoblog}
 
-Les détails d’une entrée de journal de tâches associée à une ressource particulière. Données renvoyées par getAssetJobLogs.
+Détails d’une entrée de journal de tâche associée à une ressource particulière. Données renvoyées par getAssetJobLogs.
 
 Syntaxe
 
@@ -43,12 +42,12 @@ Syntaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> logMessage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Message dans le journal des tâches. <p><span class="codeph"> Le champ </span> logMessageresponse est localisé en fonction du champ  <span class="codeph"> </span> authHeaderlocale. </p></td> 
+   <td colname="col3">Message dans le journal de la tâche. <p><span class="codeph"> </span> Le champ logMessageresponse est localisé en fonction du champ  <span class="codeph"> </span> authHeaderlocale . </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> logType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Type de tâche dans l'entrée de journal. </td> 
+   <td colname="col3"> Type de tâche dans l’entrée de journal. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> submitUserEmail</span> </span> </td> 
@@ -63,8 +62,7 @@ Syntaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> auxArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:JobLogDetailArray</span> </td> 
-   <td colname="col3"> Tableau des messages auxiliaires du journal des tâches pour chaque journal des tâches. </td> 
+   <td colname="col3"> Tableau des messages du journal des tâches auxiliaire pour chaque journal des tâches. </td> 
   </tr> 
  </tbody> 
 </table>
-
