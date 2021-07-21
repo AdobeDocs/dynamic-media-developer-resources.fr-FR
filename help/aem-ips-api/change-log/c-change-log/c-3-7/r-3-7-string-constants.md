@@ -1,21 +1,20 @@
 ---
-description: Décrit les constantes de chaînes nouvelles et modifiées pour l'API IPS version 3.7.
+description: Décrit les constantes de chaîne nouvelles et modifiées pour l’API IPS version 3.7.
 solution: Experience Manager
 title: Constantes de chaîne nouvelles et modifiées
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: c62cb98f-d87f-4273-bc51-30e4845d6540
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '45'
 ht-degree: 6%
 
 ---
 
+# Constantes de chaîne : Nouveautés et modifications{#string-constants-new-and-modified}
 
-# Constantes de chaîne : Nouveau et modifié{#string-constants-new-and-modified}
-
-Décrit les constantes de chaînes nouvelles et modifiées pour l&#39;API IPS version 3.7.
+Décrit les constantes de chaîne nouvelles et modifiées pour l’API IPS version 3.7.
 
 Syntaxe
 
@@ -39,5 +38,4 @@ Syntaxe
 
 **Types de fichier**
 
-* Ajouté `Zip`.
-
+* Ajout de `Zip`.
