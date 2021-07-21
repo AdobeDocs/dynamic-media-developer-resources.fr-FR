@@ -1,25 +1,24 @@
 ---
-description: Arrête une tâche en cours.
+description: Arrête un traitement en cours.
 solution: Experience Manager
 title: stopJob
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 90e61cf1-11f1-4504-8007-126ba4fe436a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 19%
+source-wordcount: '59'
+ht-degree: 20%
 
 ---
 
-
 # stopJob{#stopjob}
 
-Arrête une tâche en cours.
+Arrête un traitement en cours.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-b222f561143747f6ad089aadc0b274d8}
+## Types d’utilisateurs autorisés {#section-b222f561143747f6ad089aadc0b274d8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,12 +35,12 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
-| `*`jobHandle`*` | `xsd:string` | Oui | Traitez la tâche que vous souhaitez arrêter. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société. |
+| `*`jobHandle`*` | `xsd:string` | Oui | Gérez la tâche que vous souhaitez arrêter. |
 
-**Output (stopJobReturn0)**
+**Sortie (stopJobReturn0**
 
-L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-f7e07fa09ae24dc89685533f20ab3b81}
 
