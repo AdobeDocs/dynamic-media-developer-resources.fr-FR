@@ -1,25 +1,24 @@
 ---
-description: Définit les valeurs de métadonnées d’un fichier. Fonctionne avec un tableau de mises à jour de métadonnées pour définir des valeurs dans un lot.
+description: Définit les valeurs de métadonnées d’une ressource. Fonctionne avec un tableau de mises à jour de métadonnées pour définir des valeurs dans un lot.
 solution: Experience Manager
 title: setAssetMetadata
-feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Métadonnées,Gestion des ressources
+role: Developer,Admin
+exl-id: 811e44e1-774a-49bd-a2bd-a7504e5f7f5f
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '131'
 ht-degree: 9%
 
 ---
 
-
 # setAssetMetadata{#setassetmetadata}
 
-Définit les valeurs de métadonnées d’un fichier. Fonctionne avec un tableau de mises à jour de métadonnées pour définir des valeurs dans un lot.
+Définit les valeurs de métadonnées d’une ressource. Fonctionne avec un tableau de mises à jour de métadonnées pour définir des valeurs dans un lot.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-9dcacb0c924044648f8324bfed183dca}
+## Types d’utilisateurs autorisés {#section-9dcacb0c924044648f8324bfed183dca}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -38,13 +37,13 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée vers la société avec la ressource à mettre à jour. |
-| `*`assetHandle`*` | `xsd:string` | Oui | Poignée de la ressource. |
-| `*`updateArray`*` | `types:MetadataUpdateArray` | Oui | Mises à jour dans un tableau de mise à jour des métadonnées. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de l’entreprise avec la ressource que vous souhaitez mettre à jour. |
+| `*`assetHandle`*` | `xsd:string` | Oui | Gestionnaire de la ressource. |
+| `*`updateArray`*` | `types:MetadataUpdateArray` | Oui | Mises à jour dans un tableau de mise à jour de métadonnées. |
 
-**Output (setAssetMetadataReturn)**
+**Sortie (setAssetMetadataReturn)**
 
-L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-1ab412e7ee1d4d6d8469b0b403598c42}
 
