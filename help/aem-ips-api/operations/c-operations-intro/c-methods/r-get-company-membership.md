@@ -1,25 +1,24 @@
 ---
-description: Récupère les adhésions d’un utilisateur dans un tableau de sociétés.
+description: Obtient les appartenances d’un utilisateur dans un tableau d’entreprise.
 solution: Experience Manager
 title: getCompanyMembership
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 53af8a97-208c-4c44-93d6-aa36a459af51
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 17%
 
 ---
 
-
 # getCompanyMembership{#getcompanymembership}
 
-Récupère les adhésions d’un utilisateur dans un tableau de sociétés.
+Obtient les appartenances d’un utilisateur dans un tableau d’entreprise.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-f8bba547e1f648648be99dc48fd72b5d}
+## Types d’utilisateurs autorisés {#section-f8bba547e1f648648be99dc48fd72b5d}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -38,17 +37,17 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Non | Identifiant de l’utilisateur dont vous souhaitez obtenir les adhésions. |
+| `*`userHandle`*` | `xsd:string` | Non | Le nom d’utilisateur dont vous souhaitez obtenir les appartenances. |
 
-**Output (getCompanyMembershipReturn)**
+**Sortie (getCompanyMembershipReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`membershipArray`*` | `types:CompanyMembershipArray` | Oui | Tableau des adhésions aux sociétés. |
+| `*`membershipArray`*` | `types:CompanyMembershipArray` | Oui | Tableau des appartenances aux entreprises. |
 
 ## Exemples {#section-e4958d104ea344a4a79f57d07b46eba7}
 
-Cet exemple de code prend un nom d&#39;utilisateur et récupère tous les membres de société de l&#39;utilisateur dans un tableau. La réponse a été tronquée pour la brièveté.
+Cet exemple de code prend un nom d’utilisateur et récupère tous les membres de l’entreprise de l’utilisateur dans un tableau . La réponse a été tronquée pour la concision.
 
 **Request**
 
@@ -73,4 +72,3 @@ Cet exemple de code prend un nom d&#39;utilisateur et récupère tous les membre
     </membershipArray>
 </getCompanyMembershipReturn>
 ```
-
