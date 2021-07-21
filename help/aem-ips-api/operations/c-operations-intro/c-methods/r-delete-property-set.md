@@ -2,16 +2,15 @@
 description: Supprime un jeu de propriétés et toutes les propriétés associées.
 solution: Experience Manager
 title: deletePropertySet
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 72429030-200d-4e13-a537-10a728998a26
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '88'
 ht-degree: 12%
 
 ---
-
 
 # deletePropertySet{#deletepropertyset}
 
@@ -19,7 +18,7 @@ Supprime un jeu de propriétés et toutes les propriétés associées.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-b54aa8c854de400a989b4957412ff42c}
+## Types d’utilisateurs autorisés {#section-b54aa8c854de400a989b4957412ff42c}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,15 +31,15 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`setHandle`*` | `xsd:string` | Oui | Poignée de la propriété à supprimer. |
+| `*`setHandle`*` | `xsd:string` | Oui | La gestion de la propriété à supprimer. |
 
-**Output (deletePropertySetParam)**
+**Sortie (deletePropertySetParam)**
 
-L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-cf319fc8f86a40ab9cbd838b031973fe}
 
-Cet exemple de code utilise le nom d&#39;utilisateur de la visionneuse comme champ dans le `deletePropertySetParam` envoyé au serveur de services Web IPS pour supprimer la visionneuse de propriétés.
+Cet exemple de code utilise la poignée de l’ensemble comme champ dans la balise `deletePropertySetParam` envoyée au serveur des services Web IPS afin de supprimer l’ensemble de propriétés.
 
 **Request**
 
