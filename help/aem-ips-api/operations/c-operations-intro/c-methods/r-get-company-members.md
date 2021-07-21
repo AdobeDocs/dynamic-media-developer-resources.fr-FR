@@ -1,25 +1,24 @@
 ---
-description: Renvoie les utilisateurs d’une société spécifiée par une poignée de société.
+description: Renvoie les utilisateurs d’une société spécifiés par un pseudo de société.
 solution: Experience Manager
 title: getCompanyMembers
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: da5e5a48-2e0b-4ccc-a71e-b5b746484d4a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 16%
+source-wordcount: '94'
+ht-degree: 17%
 
 ---
 
-
 # getCompanyMembers{#getcompanymembers}
 
-Renvoie les utilisateurs d’une société spécifiée par une poignée de société.
+Renvoie les utilisateurs d’une société spécifiés par un pseudo de société.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-b2bc2fa0cc944cea8be82524838307cc}
+## Types d’utilisateurs autorisés {#section-b2bc2fa0cc944cea8be82524838307cc}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,18 +31,18 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société dont vous souhaitez obtenir les membres. |
-| `*`includeInvalid`*` | `xsd:boolean` | Oui | Incluez des sociétés non valides. |
+| `*`companyHandle`*` | `xsd:string` | Oui | La gestion de la société dont vous souhaitez obtenir les membres. |
+| `*`includeInvalid`*` | `xsd:boolean` | Oui | Inclure les entreprises non valides. |
 
-**Output (getCompanyMembersReturn)**
+**Sortie (getCompanyMembersReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`MemberArray`*` | `types:CompanyMemberArray` | Oui | Tableau des adhésions des utilisateurs. |
+| `*`memberArray`*` | `types:CompanyMemberArray` | Oui | Tableau des appartenances des utilisateurs. |
 
 ## Exemples {#section-39d8cf3653fd4fe8b842caabac9dedfc}
 
-Cet exemple de code renvoie tous les membres d&#39;une société dans un tableau d&#39;utilisateurs. La réponse a été tronquée pour la brièveté.
+Cet exemple de code renvoie tous les membres d’une société dans un tableau d’utilisateurs. La réponse a été tronquée pour la concision.
 
 **Request**
 
@@ -72,4 +71,3 @@ Cet exemple de code renvoie tous les membres d&#39;une société dans un tableau
    </memberArray>
 </getCompanyMembersReturn>
 ```
-
