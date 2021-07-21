@@ -2,16 +2,15 @@
 description: Propriétés d’une ressource de fichier de paramètres PDF.
 solution: Experience Manager
 title: PdfSettingsInfo
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 5bf316ec-7f92-4384-8a4e-b80610e5839b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 17%
+source-wordcount: '37'
+ht-degree: 18%
 
 ---
-
 
 # PdfSettingsInfo{#pdfsettingsinfo}
 
@@ -23,7 +22,6 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | Chemin d’accès au fichier. |
-| `*`originalFile`*` | `xsd:string` | Nom de fichier. |
+| `*`originalPath`*` | `xsd:string` | Chemin du fichier. |
+| `*`originalFile`*` | `xsd:string` | Nom du fichier. |
 | `*`fileSize`*` | `xsd:int` | Taille du fichier. |
-
