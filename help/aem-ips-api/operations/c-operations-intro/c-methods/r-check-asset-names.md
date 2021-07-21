@@ -1,25 +1,24 @@
 ---
-description: Recherche les conflits d’ID IPS en comparant les noms de fichier à tous les noms d’un espace de nommage de catalogue de diffusion d’images/rendu d’images de société.
+description: Vérifie les conflits d’ID IPS en comparant les noms des ressources à tous les noms d’un espace de noms du catalogue de diffusion d’images/rendu d’image d’une entreprise.
 solution: Experience Manager
 title: checkAssetNames
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 0756c4fc-64ec-4022-a6aa-fcf1542b41b0
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '121'
 ht-degree: 12%
 
 ---
 
-
 # checkAssetNames{#checkassetnames}
 
-Recherche les conflits d’ID IPS en comparant les noms de fichier à tous les noms d’un espace de nommage de catalogue de diffusion d’images/rendu d’images de société.
+Vérifie les conflits d’ID IPS en comparant les noms des ressources à tous les noms d’un espace de noms du catalogue de diffusion d’images/rendu d’image d’une entreprise.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-8efcbb3f555f417a870219e4714374db}
+## Types d’utilisateurs autorisés {#section-8efcbb3f555f417a870219e4714374db}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,18 +35,18 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Non | Identifiant de la société contenant l’utilisateur. |
-| `*`assetNamesArray`*` | `types:StringArray` | Oui | Tableau de noms de fichier à vérifier. |
+| `*`companyHandle`*` | `xsd:string` | Non | Gestionnaire de la société qui contient l’utilisateur. |
+| `*`assetNamesArray`*` | `types:StringArray` | Oui | Tableau de noms de ressources à vérifier. |
 
-**Output (checkAssetNamesReturn)**
+**Sortie (checkAssetNamesReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`inUseNameArray`*` | `types:StringArray` | Oui | Tableau de noms de fichier en cours d’utilisation. |
+| `*`inUseNameArray`*` | `types:StringArray` | Oui | Tableau de noms de ressources utilisés. |
 
 ## Exemples {#section-bc5d120d74614a63a425ca3acc337219}
 
-Cet exemple de code demande les noms de fichier utilisés pour une société spécifiée. La réponse renvoie un tableau de noms de fichier en cours d’utilisation.
+Cet exemple de code demande les noms de ressources utilisés pour une société spécifiée. La réponse renvoie un tableau de noms de ressources en cours d’utilisation.
 
 **Request**
 
@@ -70,4 +69,3 @@ Cet exemple de code demande les noms de fichier utilisés pour une société sp�
    </inUseNameArray>
 </checkAssetNamesReturn>
 ```
-
