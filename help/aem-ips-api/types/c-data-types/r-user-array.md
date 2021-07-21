@@ -2,16 +2,15 @@
 description: Tableau d’utilisateurs.
 solution: Experience Manager
 title: UserArray
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 0b06cc8e-5bc7-4d0f-bfdc-24d53cb5deea
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 22%
+source-wordcount: '25'
+ht-degree: 24%
 
 ---
-
 
 # UserArray{#userarray}
 
@@ -24,4 +23,3 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | `*`éléments`*` | `types:User` | Tableau d’utilisateurs. |
-
