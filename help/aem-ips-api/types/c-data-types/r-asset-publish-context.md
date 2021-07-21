@@ -1,21 +1,20 @@
 ---
-description: Met en correspondance un fichier avec le contexte de publication dans lequel un fichier est marqué pour publication.
+description: Met en correspondance une ressource avec PublishContexts dans laquelle une ressource est marquée pour publication.
 solution: Experience Manager
-title: AssetPublishContextes
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+title: AssetPublishContexts
+feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+role: Developer,Admin
+exl-id: fa94e3ce-b210-4d0d-88f1-0b245d5a52b5
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 7%
+source-wordcount: '61'
+ht-degree: 8%
 
 ---
 
+# AssetPublishContexts{#assetpublishcontexts}
 
-# AssetPublishContextes{#assetpublishcontexts}
-
-Met en correspondance un fichier avec le contexte de publication dans lequel un fichier est marqué pour publication.
+Met en correspondance une ressource avec PublishContexts dans laquelle une ressource est marquée pour publication.
 
 Syntaxe
 
@@ -23,6 +22,5 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Traitez le fichier. |
-| `*`publishContextArray`*` | `types:PublishContextArray` | Tableau de contextes de publication dans lesquels le fichier est marqué pour publication. |
-
+| `*`assetHandle`*` | `xsd:string` | Gérer la ressource. |
+| `*`publishContextArray`*` | `types:PublishContextArray` | Tableau de contextes de publication dans lequel la ressource est marquée pour publication. |
