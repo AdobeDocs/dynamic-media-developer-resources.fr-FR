@@ -2,16 +2,15 @@
 description: Mots-clés
 solution: Experience Manager
 title: Mots-clés
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 5eb9ca70-5971-412d-92d1-4e9898d556fd
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 31%
+source-wordcount: '46'
+ht-degree: 32%
 
 ---
-
 
 # Mots-clés{#keywords}
 
@@ -23,8 +22,7 @@ Syntaxe
 |---|---|---|
 | `*`mot-clé`*` | `xsd:string` | Mot-clé. |
 | `*`état`*` | `xsd:boolean` | Validité des mots-clés. |
-| `*`x`*` | `xsd:int` | Position du mot-clé sur l’axe des x (en pixels). |
+| `*`x`*` | `xsd:int` | Position du mot-clé sur l’axe X (en pixels). |
 | `*`y`*` | `xsd:int` | Position du mot-clé sur l’axe des ordonnées (en pixels). |
 | `*`width`*` | `xsd:int` | Largeur du mot-clé en pixels. |
 | `*`height`*` | `xsd:int` | Hauteur du mot-clé en pixels. |
-
