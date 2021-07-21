@@ -1,25 +1,24 @@
 ---
-description: Récupère tous les utilisateurs d'un tableau.
+description: Récupère tous les utilisateurs d’un tableau.
 solution: Experience Manager
 title: getAllUsers
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: db1fd5c9-80f5-463a-870f-be3e38c21bab
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '75'
 ht-degree: 22%
 
 ---
 
-
 # getAllUsers{#getallusers}
 
-Récupère tous les utilisateurs d&#39;un tableau.
+Récupère tous les utilisateurs d’un tableau.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-68ed5f5fcc5348308dfe074c590caeaa}
+## Types d’utilisateurs autorisés {#section-68ed5f5fcc5348308dfe074c590caeaa}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -44,16 +43,16 @@ Syntaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> includeInvalid</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4">Défini sur : 
+   <td colname="col4">Définissez sur : 
     <ul id="ul_FB9F59A8293B4CCA98E42EBF8412C77B"> 
-     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> </span> inclure des utilisateurs non valides. </li> 
-     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> </span> ne pas omettre les utilisateurs non valides. </li> 
+     <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> </span> pour inclure des utilisateurs non valides. </li> 
+     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> </span> omet les utilisateurs non valides. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (getAllUsersReturn)**
+**Sortie (getAllUsersReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -62,7 +61,7 @@ Syntaxe
 
 ## Exemples {#section-9c9a2d335513478da20652c1b1443731}
 
-Cet exemple de code renvoie tous les utilisateurs. La réponse est tronquée pour la brièveté.
+Cet exemple de code renvoie tous les utilisateurs. La réponse est tronquée pour la concision.
 
 **Request**
 
@@ -90,4 +89,3 @@ Cet exemple de code renvoie tous les utilisateurs. La réponse est tronquée pou
    </ns1:userArray>
 <ns1:getAllUsersReturn>
 ```
-
