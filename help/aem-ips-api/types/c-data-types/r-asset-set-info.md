@@ -1,21 +1,20 @@
 ---
-description: Propriétés des fichiers de type AssetSet.
+description: Propriétés des ressources de type Visionneuse de ressources.
 solution: Experience Manager
 title: AssetSetInfo
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+role: Developer,Admin
+exl-id: ca5e4d7d-24b3-4b4b-b350-ded83f94528b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 10%
+source-wordcount: '44'
+ht-degree: 11%
 
 ---
 
-
 # AssetSetInfo{#assetsetinfo}
 
-Propriétés des fichiers de type AssetSet.
+Propriétés des ressources de type Visionneuse de ressources.
 
 Syntaxe
 
@@ -23,5 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`setDefinition`*` | `xsd:string` | Définition du jeu de ressources formatée en fonction des exigences de la visionneuse IS ciblée. Peut contenir des paramètres de substitution IPS facultatifs. |
-
+| `*`setDefinition`*` | `xsd:string` | Définition du jeu de ressources formatée selon les exigences de la visionneuse IS ciblée. Peut contenir des paramètres de substitution IPS facultatifs. |
