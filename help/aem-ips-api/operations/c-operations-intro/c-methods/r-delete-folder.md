@@ -2,16 +2,15 @@
 description: Supprime un dossier.
 solution: Experience Manager
 title: deleteFolder
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: c042b87b-3f60-4608-8ed5-0fc031a66c03
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 10%
 
 ---
-
 
 # deleteFolder{#deletefolder}
 
@@ -19,7 +18,7 @@ Supprime un dossier.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-1c15a74c41194744a81f5ca86fe26585}
+## Types d’utilisateurs autorisés {#section-1c15a74c41194744a81f5ca86fe26585}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,24 +29,24 @@ Syntaxe
 
 >[!NOTE]
 >
->L’utilisateur doit avoir accès en lecture et en suppression au dossier et à tous ses enfants.
+>L’utilisateur doit disposer d’un accès en lecture et suppression au dossier et à tous ses enfants.
 
 ## Paramètres {#section-a793c98a481a4f26ab50bc69b16b57e7}
 
-**Entrée (deleteFolderParam)**
+**Input (deleteFolderParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Identifiant de la société à laquelle appartient le dossier. |
-| `*`folderHandle`*` | `xsd:string` | Oui | Identifiant du dossier à supprimer. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de la société à laquelle appartient le dossier. |
+| `*`folderHandle`*` | `xsd:string` | Oui | Gestionnaire du dossier à supprimer. |
 
 **Output (deleteFolderParam)**
 
-L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-9d4617b322e8442d80e59be0f8714841}
 
-Cet exemple de code supprime un dossier de la racine de la société. Il nécessite un nom d&#39;utilisateur de dossier que vous devez obtenir d&#39;une autre opération.
+Cet exemple de code supprime un dossier de la racine de l’entreprise. Elle nécessite un gestionnaire de dossier, que vous devez obtenir d’une autre opération.
 
 **Request**
 
