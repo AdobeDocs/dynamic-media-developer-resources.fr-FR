@@ -1,25 +1,24 @@
 ---
-description: Définit la liste des fichiers associés à une visionneuse d’images.
+description: Définit la liste des ressources associées à une visionneuse d’images.
 solution: Experience Manager
 title: setImageSetMembers
-feature: Dynamic Media Classic,SDK/API,Image Sets
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Visionneuses d’images
+role: Developer,Admin
+exl-id: c30df5fe-e355-45d4-8c06-e396caca0d58
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '131'
 ht-degree: 12%
 
 ---
 
-
 # setImageSetMembers{#setimagesetmembers}
 
-Définit la liste des fichiers associés à une visionneuse d’images.
+Définit la liste des ressources associées à une visionneuse d’images.
 
 Cette opération ignore le paramètre `pageReset` pour `ImageSets` et `SpinSets` et force la valeur sur true.
 
-## Types d’utilisateur autorisés {#section-8968d6a39a344cfc8521020d92ae8916}
+## Types d’utilisateurs autorisés {#section-8968d6a39a344cfc8521020d92ae8916}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -30,7 +29,7 @@ Cette opération ignore le paramètre `pageReset` pour `ImageSets` et `SpinSets`
 
 >[!NOTE]
 >
->L’utilisateur doit disposer d’un accès en lecture et en écriture au fichier de visionneuse d’images et d’un accès en lecture à chaque fichier membre.
+>L’utilisateur doit disposer d’un accès en lecture et en écriture à la ressource de visionneuse d’images et d’un accès en lecture à chaque ressource membre.
 
 ## Paramètres {#section-2f46efcd24c648aeacba738509426e46}
 
@@ -50,7 +49,7 @@ Cette opération ignore le paramètre `pageReset` pour `ImageSets` et `SpinSets`
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Poignée de société. </p> </td> 
+   <td colname="col4"> <p>Poignée de la société. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
@@ -59,17 +58,17 @@ Cette opération ignore le paramètre `pageReset` pour `ImageSets` et `SpinSets`
    <td colname="col4"> Poignée de visionneuse d’images. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> MemberArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:ImageSetMemberUpdateArray</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> types:ImageSetMemberUpdateArray</span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Tableau des membres de fichier qui appartiennent à la visionneuse d’images. </td> 
+   <td colname="col4"> Tableau des membres de ressources appartenant à la visionneuse d’images. </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (setImageSetMembersReturn)**
+**Sortie (setImageSetMembersReturn)**
 
-L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-7b87219034464aa98524178ccee27738}
 
