@@ -1,25 +1,24 @@
 ---
-description: Déplace un fichier vers un dossier spécifique.
+description: Déplace une ressource vers un dossier spécifique.
 solution: Experience Manager
 title: moveAsset
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+role: Developer,Admin
+exl-id: c5357c1a-92ac-4f9c-957e-b62cb812796c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '83'
 ht-degree: 15%
 
 ---
 
-
 # moveAsset{#moveasset}
 
-Déplace un fichier vers un dossier spécifique.
+Déplace une ressource vers un dossier spécifique.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-e4f2d2a58132450aa36da6377134211e}
+## Types d’utilisateurs autorisés {#section-e4f2d2a58132450aa36da6377134211e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,17 +33,17 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Pose la société. |
-| `*`assetHandle`*` | `xsd:string` | Oui | Gérez le fichier à déplacer. |
-| `*`folderHandle`*` | `xsd:string` | Oui | Accédez au dossier de destination. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gérer la société. |
+| `*`assetHandle`*` | `xsd:string` | Oui | Gérez la ressource à déplacer. |
+| `*`folderHandle`*` | `xsd:string` | Oui | Gérer vers le dossier de destination. |
 
 **Sortie (moveAssetReturn)**
 
-L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-78333769f4f14e2886fdf06433c9d2ad}
 
-Cet exemple de code déplace un fichier dans un dossier.
+Cet exemple de code déplace une ressource vers un dossier.
 
 **Request**
 
