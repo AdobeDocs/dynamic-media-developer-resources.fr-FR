@@ -2,16 +2,15 @@
 description: Met à jour une visionneuse d’images.
 solution: Experience Manager
 title: updateImageSet
-feature: Dynamic Media Classic,SDK/API,Image Sets
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Visionneuses d’images
+role: Developer,Admin
+exl-id: d8d5fb80-17f1-424f-8a61-27189f87d603
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '85'
 ht-degree: 18%
 
 ---
-
 
 # updateImageSet{#updateimageset}
 
@@ -25,12 +24,12 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société contenant la visionneuse d’images à modifier. |
-| `*`assetHandle`*` | `xsd:string` | Ys | Poignée de la visionneuse d’images à modifier. |
-| `*`MemberArray`*` | `types:ImageSetMemberUpdateArray` | Non | Réinitialise les membres de la visionneuse d’images. |
-| `*`thumbAssetHandle`*` | `xsd:string` | Non | Poignée du fichier qui agit comme miniature pour la visionneuse d’images. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de la société qui contient la visionneuse d’images à modifier. |
+| `*`assetHandle`*` | `xsd:string` | Oui | La poignée de la visionneuse d’images que vous souhaitez modifier. |
+| `*`memberArray`*` | `types:ImageSetMemberUpdateArray` | Non | Réinitialise les membres de la visionneuse d’images. |
+| `*`thumbAssetHandle`*` | `xsd:string` | Non | Gestionnaire de la ressource qui agit comme miniature de la visionneuse d’images. |
 
-**Output (updateImageSetReturn)**
+**Sortie (updateImageSetReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -67,4 +66,3 @@ Syntaxe
 ```java
 <updateImageSetReturn xmlns="http://www.scene7.com/IpsApi/xsd/2014-04-03"/>
 ```
-
