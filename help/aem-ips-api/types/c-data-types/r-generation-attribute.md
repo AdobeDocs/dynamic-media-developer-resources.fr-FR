@@ -1,21 +1,20 @@
 ---
-description: Paire nom-valeur contenant des informations sur une étape de génération de ressources. Voir getGenerationInfo.
+description: Une paire nom-valeur qui contient des informations sur une étape de génération de ressources. Voir getGenerationInfo.
 solution: Experience Manager
 title: GenerationAttribute
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 007fc4d8-e513-4936-a88d-4553a940cdb5
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '44'
 ht-degree: 13%
 
 ---
 
-
 # GenerationAttribute{#generationattribute}
 
-Paire nom-valeur contenant des informations sur une étape de génération de ressources. Voir getGenerationInfo.
+Une paire nom-valeur qui contient des informations sur une étape de génération de ressources. Voir getGenerationInfo.
 
 Syntaxe
 
@@ -23,6 +22,5 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`name`*` | `xsd:string` | Nom d’attribut. |
+| `*`name`*` | `xsd:string` | Nom de l’attribut. |
 | `*`value`*` | `xsd:string` | Valeur d’attribut. |
-
