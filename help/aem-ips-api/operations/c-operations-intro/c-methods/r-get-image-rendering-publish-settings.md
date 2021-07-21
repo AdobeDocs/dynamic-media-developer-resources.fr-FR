@@ -1,25 +1,24 @@
 ---
-description: Pour un usage interne uniquement. Voir la section Attributs de catalogue de références de catalogue de matériaux de rendu d’images.
+description: Pour une utilisation interne uniquement. Voir la section Attributs de catalogue de matières de rendu d’images .
 solution: Experience Manager
 title: getImageRenderingPublishSettings
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 152dfd61-2fba-47b4-8e69-fbbc8fb57f87
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '79'
 ht-degree: 16%
 
 ---
 
-
 # getImageRenderingPublishSettings{#getimagerenderingpublishsettings}
 
-Pour un usage interne uniquement. Voir la section Attributs de catalogue de références de catalogue de matériaux de rendu d’images.
+Pour une utilisation interne uniquement. Voir la section Attributs de catalogue de matières de rendu d’images .
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-1097e0563c61480a8e97822dc3527070}
+## Types d’utilisateurs autorisés {#section-1097e0563c61480a8e97822dc3527070}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,12 +31,11 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Identifiant de la société dont vous souhaitez obtenir les paramètres de publication de rendu d’image. |
-| `*`contextHandle`*` | `xsd:string` | Oui | Traitement du contexte de publication. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de l’entreprise dont vous souhaitez obtenir les paramètres de publication de rendu d’image. |
+| `*`contextHandle`*` | `xsd:string` | Oui | Gérer au contexte de publication. |
 
-**Output (getImageRenderingPublishSettingsReturn)**
+**Sortie (getImageRenderingPublishSettingsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`publishSettingsArray`*` | `type:ConfigSettingArray` | Oui | Paramètres de publication de rendu d’image. |
-
+| `*`publishSettingsArray`*` | `type:ConfigSettingArray` | Oui | Paramètres de publication du rendu des images. |
