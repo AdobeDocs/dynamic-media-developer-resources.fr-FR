@@ -1,25 +1,24 @@
 ---
-description: Obtient des informations sur un utilisateur. Utilisez l’adresse électronique et le mot de passe d’un utilisateur système comme informations d’identification pour autoriser la demande. Sinon, l’opération obtient des informations sur l’utilisateur par défaut.
+description: Obtient des informations sur un utilisateur. Utilisez l’adresse électronique et le mot de passe d’un utilisateur système comme informations d’identification pour autoriser la requête. Sinon, l’opération obtient des informations sur l’utilisateur par défaut.
 solution: Experience Manager
 title: getUserInfo
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 1981f25f-779e-4434-ab6b-0debb40521fe
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '144'
 ht-degree: 11%
 
 ---
 
-
 # getUserInfo{#getuserinfo}
 
-Obtient des informations sur un utilisateur. Utilisez l’adresse électronique et le mot de passe d’un utilisateur système comme informations d’identification pour autoriser la demande. Sinon, l’opération obtient des informations sur l’utilisateur par défaut.
+Obtient des informations sur un utilisateur. Utilisez l’adresse électronique et le mot de passe d’un utilisateur système comme informations d’identification pour autoriser la requête. Sinon, l’opération obtient des informations sur l’utilisateur par défaut.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-1c42d78e914a4b84a946b3480f29b36a}
+## Types d’utilisateurs autorisés {#section-1c42d78e914a4b84a946b3480f29b36a}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,18 +36,18 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Non | Traitez l’utilisateur dont vous souhaitez renvoyer les informations. |
+| `*`userHandle`*` | `xsd:string` | Non | Gérer l’utilisateur dont vous souhaitez renvoyer les informations. |
 | `*`e-mail`*` | `xsd:string` | Non | Adresse électronique de l’utilisateur. |
 
-**Output (getUserInfoReturn)**
+**Sortie (getUserInfoReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`userInfo`*` | `types:User` | Oui | Prénom, nom, adresse électronique et rôle d’un utilisateur, ainsi que si celui-ci est valide et à l’expiration du mot de passe de l’utilisateur. |
+| `*`userInfo`*` | `types:User` | Oui | Prénom, nom, adresse électronique et rôle d’un utilisateur, ainsi que la validité et l’expiration du mot de passe de l’utilisateur. |
 
 ## Exemples {#section-98d77a2e360a438dbe240099bea26a65}
 
-Cet exemple de code renvoie des informations pour l&#39;utilisateur IPS par défaut.
+Cet exemple de code renvoie des informations pour l’utilisateur IPS par défaut.
 
 **Request**
 
@@ -71,4 +70,3 @@ Cet exemple de code renvoie des informations pour l&#39;utilisateur IPS par déf
    </ns1:userInfo> 
 </ns1:getUserInfoReturn>
 ```
-
