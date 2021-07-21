@@ -2,16 +2,15 @@
 description: Propriétés d’une ressource de fichier RTF.
 solution: Experience Manager
 title: RTFInfo
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: f30eae15-793f-4e2e-a0dc-1987f0949bd6
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 20%
+source-wordcount: '33'
+ht-degree: 21%
 
 ---
-
 
 # RTFInfo{#rtfinfo}
 
@@ -23,7 +22,6 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | Chemin d’accès au fichier. |
-| `*`originalFile`*` | `xsd:string` | Nom de fichier. |
+| `*`originalPath`*` | `xsd:string` | Chemin du fichier. |
+| `*`originalFile`*` | `xsd:string` | Nom du fichier. |
 | `*`fileSize`*` | `xsd:int` | Taille du fichier. |
-
