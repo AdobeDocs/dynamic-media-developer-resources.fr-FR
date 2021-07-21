@@ -1,25 +1,24 @@
 ---
-description: Définit les autorisations d’un seul fichier à l’aide d’un fichier d’autorisation.
+description: Définit les autorisations d’une ressource unique à l’aide d’une ressource d’autorisation.
 solution: Experience Manager
 title: setAssetPermissions
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+role: Developer,Admin
+exl-id: 1e73c305-cda5-4c30-9380-ec4cd8309933
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 8%
+source-wordcount: '132'
+ht-degree: 9%
 
 ---
 
-
 # setAssetPermissions{#setassetpermissions}
 
-Définit les autorisations d’un seul fichier à l’aide d’un fichier d’autorisation.
+Définit les autorisations d’une ressource unique à l’aide d’une ressource d’autorisation.
 
 Les ressources héritent par défaut des autorisations de leur dossier parent. Une fois que vous avez défini des autorisations sur une ressource, elle n’hérite plus des autorisations de son parent, sauf si vous appelez `removeAssetPermissions`.
 
-## Types d’utilisateur autorisés {#section-91fafc170c734ed2a77beafda9221768}
+## Types d’utilisateurs autorisés {#section-91fafc170c734ed2a77beafda9221768}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,17 +30,17 @@ Les ressources héritent par défaut des autorisations de leur dossier parent. U
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Identifiant de la société contenant le dossier que vous souhaitez utiliser. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de l’entreprise qui contient le dossier avec lequel vous souhaitez travailler. |
 | `*`assetHandle`*` | `xsd:string` | Oui | Poignée de dossier. |
-| `*`permissionArray`*` | `types:PermissionsUpdateArray` | Oui | Tableau des autorisations. |
+| `*`permissionArray`*` | `types:PermissionsUpdateArray` | Oui | Tableau d’autorisations. |
 
-**Output (setAssetPermissionsReturn)**
+**Sortie (setAssetPermissionsReturn)**
 
-L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-38955bc330bb4909b6b06027ef2b143e}
 
-Cet exemple de code définit les autorisations sur une ressource. Il contient la société et le nom d’utilisateur du fichier, ainsi qu’un tableau d’autorisations.
+Cet exemple de code définit des autorisations sur une ressource. Il contient le gestionnaire de l’entreprise et de la ressource, ainsi qu’un tableau d’autorisations.
 
 **Request**
 
