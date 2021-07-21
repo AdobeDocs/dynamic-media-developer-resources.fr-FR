@@ -2,16 +2,15 @@
 description: Redémarre une tâche suspendue.
 solution: Experience Manager
 title: resumeJob
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: ba8818ff-3040-463c-80d3-b7cfd1e01f77
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '72'
 ht-degree: 16%
 
 ---
-
 
 # resumeJob{#resumejob}
 
@@ -19,7 +18,7 @@ Redémarre une tâche suspendue.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-eab49f4b6d1041179000326a10fee889}
+## Types d’utilisateurs autorisés {#section-eab49f4b6d1041179000326a10fee889}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,12 +35,12 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée vers la société avec la tâche que vous souhaitez redémarrer. |
-| `*`jobHandle`*` | `xsd:string` | Oui | Poignée de la tâche en pause. |
+| `*`companyHandle`*` | `xsd:string` | Oui | La gestion de la société avec la tâche que vous souhaitez redémarrer. |
+| `*`jobHandle`*` | `xsd:string` | Oui | Gestion de la tâche suspendue. |
 
 **Sortie (resumeJobReturn)**
 
-L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-d0524e031f1f43d89430eade19526162}
 
