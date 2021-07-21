@@ -2,16 +2,15 @@
 description: SetPropertySetPermissions
 solution: Experience Manager
 title: SetPropertySetPermissions
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 6c009573-0ef3-4bc2-9f9f-ff6580b32df0
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '26'
-ht-degree: 19%
+source-wordcount: '24'
+ht-degree: 20%
 
 ---
-
 
 # SetPropertySetPermissions{#setpropertysetpermissions}
 
@@ -21,6 +20,5 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`setHandle`*` | `xsd:string` | Traitez le jeu de propriétés. |
-| `*`permissionsArray`*` | `types:PermissionUpdateArray` | Tableau des autorisations. |
-
+| `*`setHandle`*` | `xsd:string` | Gérez sur le jeu de propriétés. |
+| `*`permissionsArray`*` | `types:PermissionUpdateArray` | Tableau d’autorisations. |
