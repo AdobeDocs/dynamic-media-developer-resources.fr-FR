@@ -2,16 +2,15 @@
 description: Événement MediaPortal.
 solution: Experience Manager
 title: MPEvent
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 642c82d1-aea1-4430-a599-b526fdbc8091
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '137'
 ht-degree: 13%
 
 ---
-
 
 # MPEvent{#mpevent}
 
@@ -23,25 +22,24 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`eventType`*` | `xsd:string` | Type d&#39;événement Media Portal. |
-| `*`createDate`*` | `xsd:dateTime` | Date de création du événement. |
-| `*`ipsUser`*` | `xsd:string` | Système ou utilisateur déclenchant le événement. |
-| `*`companyId`*` | `xsd:int` | ID de société. |
+| `*`eventType`*` | `xsd:string` | Type d’événement Media Portal. |
+| `*`createDate`*` | `xsd:dateTime` | Date de création de l’événement. |
+| `*`ipsUser`*` | `xsd:string` | Système ou utilisateur déclenchant l’événement. |
+| `*`companyId`*` | `xsd:int` | ID d’entreprise. |
 | `*`companyName`*` | `xsd:string` | Nom de la société. |
-| `*`jobName`*` | `xsd:string` | Nom de tâche unique. |
+| `*`jobName`*` | `xsd:string` | Nom unique de la tâche. |
 | `*`jobDescription`*` | `xsd:string` | Description utile de la tâche. |
-| `*`string1`*` | `xsd:string` | Titulaire pour les informations de chaîne (facultatif). |
-| `*`string2`*` | `xsd:string` | Titulaire pour les informations de chaîne (facultatif). |
-| `*`string3`*` | `xsd:string` | Titulaire pour les informations de chaîne (facultatif). |
-| `*`string4`*` | `xsd:string` | Titulaire pour les informations de chaîne (facultatif). |
-| `*`string5`*` | `xsd:string` | Titulaire pour les informations de chaîne (facultatif). |
-| `*`int1`*` | `xsd:int` | Titulaire pour les informations sur les entiers (facultatif). |
-| `*`int2`*` | `xsd:int` | Titulaire pour les informations sur les entiers (facultatif). |
-| `*`int3`*` | `xsd:int` | Titulaire pour les informations sur les entiers (facultatif). |
-| `*`int4`*` | `xsd:int` | Titulaire pour les informations sur les entiers (facultatif). |
-| `*`int5`*` | `xsd:int` | Titulaire pour les informations sur les entiers (facultatif). |
-| `*`float1`*` | `xsd:double` | Titulaire pour les informations sur les flotteurs (facultatif). |
-| `*`float2`*` | `xsd:double` | Titulaire pour les informations sur les flotteurs (facultatif). |
-| `*`float3`*` | `xsd:double` | Titulaire pour les informations sur les flotteurs (facultatif). |
-| `*`time1`*` | `xsd:dateTime` | Titulaire pour les informations de date/horodatage (facultatif). |
-
+| `*`string1`*` | `xsd:string` | Dossier pour les informations sur les chaînes (facultatif). |
+| `*`string2`*` | `xsd:string` | Dossier pour les informations sur les chaînes (facultatif). |
+| `*`string3`*` | `xsd:string` | Dossier pour les informations sur les chaînes (facultatif). |
+| `*`string4`*` | `xsd:string` | Dossier pour les informations sur les chaînes (facultatif). |
+| `*`string5`*` | `xsd:string` | Dossier pour les informations sur les chaînes (facultatif). |
+| `*`int1`*` | `xsd:int` | Holder pour les informations sur les entiers (facultatif). |
+| `*`int2`*` | `xsd:int` | Holder pour les informations sur les entiers (facultatif). |
+| `*`int3`*` | `xsd:int` | Holder pour les informations sur les entiers (facultatif). |
+| `*`int4`*` | `xsd:int` | Holder pour les informations sur les entiers (facultatif). |
+| `*`int5`*` | `xsd:int` | Holder pour les informations sur les entiers (facultatif). |
+| `*`float1`*` | `xsd:double` | Dossier d’informations flottantes (facultatif). |
+| `*`float2`*` | `xsd:double` | Dossier d’informations flottantes (facultatif). |
+| `*`float3`*` | `xsd:double` | Dossier d’informations flottantes (facultatif). |
+| `*`time1`*` | `xsd:dateTime` | Dossier pour les informations sur la date/l’horodatage (facultatif). |
