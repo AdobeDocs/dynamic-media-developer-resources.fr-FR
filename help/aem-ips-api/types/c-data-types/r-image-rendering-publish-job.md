@@ -1,21 +1,20 @@
 ---
-description: Publie des fichiers sur les serveurs de rendu d’image.
+description: Publie les fichiers sur les serveurs de rendu d’image.
 solution: Experience Manager
 title: ImageRenderingPublishJob
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 09d97e1f-8266-44b3-a50d-6088489712a5
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 10%
+source-wordcount: '44'
+ht-degree: 11%
 
 ---
 
-
 # ImageRenderingPublishJob{#imagerenderingpublishjob}
 
-Publie des fichiers sur les serveurs de rendu d’image.
+Publie les fichiers sur les serveurs de rendu d’image.
 
 Syntaxe
 
@@ -24,6 +23,5 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | `*`emailSetting`*` | `xsd:string` | Choix des paramètres de courrier électronique. |
-| `*`httpCompletionUrl`*` | `xsd:string` | URL permettant d’envoyer un avis de fin de service. |
-| `*`contextHandle`*` | `xsd:string` | Traitement du contexte de publication. |
-
+| `*`httpCompletionUrl`*` | `xsd:string` | URL d’envoi d’un avis de fin d’exécution. |
+| `*`contextHandle`*` | `xsd:string` | Gérer au contexte de publication. |
