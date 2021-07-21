@@ -1,21 +1,20 @@
 ---
-description: Tableau de événements MediaPortal.
+description: Tableau d’événements MediaPortal.
 solution: Experience Manager
 title: MPEventArray
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 6af68714-bdba-485c-89c4-51b79d93405a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 21%
+source-wordcount: '26'
+ht-degree: 23%
 
 ---
 
-
 # MPEventArray{#mpeventarray}
 
-Tableau de événements MediaPortal.
+Tableau d’événements MediaPortal.
 
 Syntaxe
 
@@ -23,5 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`éléments`*` | `types:MPEvent` | Tableau de événements MediaPortal. |
-
+| `*`éléments`*` | `types:MPEvent` | Tableau d’événements MediaPortal. |
