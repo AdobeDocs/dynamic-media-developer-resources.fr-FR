@@ -2,16 +2,15 @@
 description: Utilisé par PropertySetType
 solution: Experience Manager
 title: Types de jeux de propriétés
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 48c6a6fa-9d30-4318-bc7a-339a3f895006
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '21'
-ht-degree: 9%
+source-wordcount: '19'
+ht-degree: 10%
 
 ---
-
 
 # Types de jeux de propriétés{#property-set-types}
 
@@ -24,4 +23,3 @@ Syntaxe
 * [!DNL `UserProperty`]
 * [!DNL `CompanyProperty`]
 * [!DNL `UserCompanyProperty`]
-
