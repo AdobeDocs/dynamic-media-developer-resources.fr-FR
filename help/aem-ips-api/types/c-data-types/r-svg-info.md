@@ -2,16 +2,15 @@
 description: Propriétés d’une ressource de fichier SVG.
 solution: Experience Manager
 title: SvgInfo
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: b79b06e4-028b-4e04-a554-0c859144dd46
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 20%
+source-wordcount: '33'
+ht-degree: 21%
 
 ---
-
 
 # SvgInfo{#svginfo}
 
@@ -23,7 +22,6 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | Chemin d’accès au fichier. |
-| `*`originalFile`*` | `xsd:string` | Nom de fichier. |
+| `*`originalPath`*` | `xsd:string` | Chemin du fichier. |
+| `*`originalFile`*` | `xsd:string` | Nom du fichier. |
 | `*`fileSize`*` | `xsd:int` | Taille du fichier. |
-
