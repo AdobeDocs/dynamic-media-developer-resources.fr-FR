@@ -2,16 +2,15 @@
 description: Ajoute de nouvelles valeurs de balise au dictionnaire d’un champ de balise existant.
 solution: Experience Manager
 title: addTagFieldValues
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 099263e4-8214-46eb-898e-7a28c4f25598
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '95'
 ht-degree: 13%
 
 ---
-
 
 # addTagFieldValues{#addtagfieldvalues}
 
@@ -19,7 +18,7 @@ Ajoute de nouvelles valeurs de balise au dictionnaire d’un champ de balise exi
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-ba1d7040661e48b7a6b035494e065c91}
+## Types d’utilisateurs autorisés {#section-ba1d7040661e48b7a6b035494e065c91}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,13 +30,13 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société contenant le champ de balise. |
-| `*`fieldHandle`*` | `xsd:string` | Oui | Handle du champ de balise à modifier. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de la société contenant le champ de balise. |
+| `*`fieldHandle`*` | `xsd:string` | Oui | Gestionnaire du champ de balise à modifier. |
 | `*`valueArray`*` | `xsd:string` | Oui | Tableau de valeurs de balise à ajouter au dictionnaire existant du champ. |
 
-**Output (addTagFieldValuesParam)**
+**Sortie (addTagFieldValuesParam)**
 
-L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-c4049392f1c548f883b8b1f8f167bada}
 
