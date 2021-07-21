@@ -1,21 +1,20 @@
 ---
-description: Mise à jour des informations relatives aux propriétés de profil ICC.
+description: Mise à jour des informations pour les propriétés de profil ICC.
 solution: Experience Manager
 title: IccProfileFieldUpdate
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: b988a430-8ed6-456b-b37b-b4185c5d3b32
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 9%
+source-wordcount: '59'
+ht-degree: 10%
 
 ---
 
-
 # IccProfileFieldUpdate{#iccprofilefieldupdate}
 
-Mise à jour des informations relatives aux propriétés de profil ICC.
+Mise à jour des informations pour les propriétés de profil ICC.
 
 Syntaxe
 
@@ -23,8 +22,7 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Gestion de la ressource de Profil ICC à mettre à jour. |
-| `*`classe`*` | `xsd:string` | Classes de profil (voir &quot;Classes de Profil&quot; pour les valeurs). |
-| `*`colorSpace`*` | `xsd:string` | Espace colorimétrique du profil (voir la section Espaces colorimétriques pour les valeurs). |
-| `*`pcsType`*` | `xsd:string` | Espace de connexion au profil (voir la section &quot;Espaces colorimétriques&quot; pour les valeurs). |
-
+| `*`assetHandle`*` | `xsd:string` | Gestion de la ressource Profil ICC à mettre à jour. |
+| `*`classe`*` | `xsd:string` | Classes de profil (voir &quot;Classes de profil&quot; pour les valeurs). |
+| `*`colorSpace`*` | `xsd:string` | Espace colorimétrique du profil (voir &quot;Espaces colorimétriques&quot; pour les valeurs). |
+| `*`pcsType`*` | `xsd:string` | Espace de connexion du profil (voir &quot;Espaces colorimétriques&quot; pour les valeurs). |
