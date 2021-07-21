@@ -2,16 +2,15 @@
 description: Propriétés d’une ressource de modèle.
 solution: Experience Manager
 title: TemplateInfo
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 90d7f116-936d-4e04-b54f-ec9ba37d5477
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '45'
+source-wordcount: '43'
 ht-degree: 11%
 
 ---
-
 
 # TemplateInfo{#templateinfo}
 
@@ -24,6 +23,5 @@ Les modèles sont des définitions de calque paramétrées qui construisent une 
 | Nom | Type | Description |
 |---|---|---|
 | `*`url`*` | `xsd:string` | URL du serveur d’images qui représente le modèle. |
-| `*`urlModificateur`*` | `xsd:string` |  |
-| `*`urlPostApplyModificateur`*` | `xsd:string` |  |
-
+| `*`urlModifier`*` | `xsd:string` |  |
+| `*`urlPostApplyModifier`*` | `xsd:string` |  |
