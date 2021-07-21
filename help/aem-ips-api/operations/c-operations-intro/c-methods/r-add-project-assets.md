@@ -2,16 +2,15 @@
 description: Ajoute une ou plusieurs ressources à un projet.
 solution: Experience Manager
 title: addProjectAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+role: Developer,Admin
+exl-id: 60aa2846-b41e-4131-b465-82aa832434f7
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '185'
 ht-degree: 11%
 
 ---
-
 
 # addProjectAssets{#addprojectassets}
 
@@ -19,7 +18,7 @@ Ajoute une ou plusieurs ressources à un projet.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-c67e7422921047f4ab4d4e9ba5a7aafe}
+## Types d’utilisateurs autorisés {#section-c67e7422921047f4ab4d4e9ba5a7aafe}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,10 +34,10 @@ Syntaxe
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | Oui | Gérer la société associée au projet en cours. |
-| `*`projectHandle`*` | `xsd:string` | Oui | Gérer le projet auquel vous ajoutez des ressources. |
+| `*`projectHandle`*` | `xsd:string` | Oui | Gérez le projet auquel vous ajoutez des ressources. |
 | `*`projectHandleArray`*` | `xsd:HandleArray` | Oui | Tableau des ressources que vous ajoutez au projet en cours. |
 
-**Output (addProjectAssetsParam)**
+**Sortie (addProjectAssetsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -46,11 +45,11 @@ Syntaxe
 | `*`warningCount`*` | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait d’ajouter des ressources à un projet. |
 | `*`errorCount`*` | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait d’ajouter des ressources à un projet. |
 | `*`warningDetailHandle`*` | `xsd:AssetOperationFaultArray` | Non | Tableau des avertissements générés par les ressources lorsque l’opération tentait de les ajouter à un projet. |
-| `*`companyHandle`*` | `xsd:AssetOperationFaultArray` | Non | Tableau des erreurs générées par les ressources lorsque l&#39;opération tentait de les ajouter à un projet. |
+| `*`companyHandle`*` | `xsd:AssetOperationFaultArray` | Non | Tableau des erreurs générées par les ressources lorsque l’opération tentait de les ajouter à un projet. |
 
 ## Exemples {#section-bee5be2402f54cb9a3a02cc07def4135}
 
-Cet exemple montre comment ajouter un seul fichier (référencé par son nom d&#39;utilisateur) dans un tableau de descripteurs de ressources à un projet spécifié dans la demande. L&#39;opération s&#39;est terminée correctement lorsque la réponse `successCount` renvoie `1`.
+Cet exemple ajoute une ressource unique (référencée par son nom d’utilisateur) dans un tableau de gestion des ressources à un projet spécifié dans la requête. L’opération s’est terminée avec succès lorsque la réponse `successCount` renvoie `1`.
 
 **Request**
 
@@ -73,4 +72,3 @@ Cet exemple montre comment ajouter un seul fichier (référencé par son nom d&#
    <errorCount>0</errorCount>
 </addProjectAssetsReturn>
 ```
-
