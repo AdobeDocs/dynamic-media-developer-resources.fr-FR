@@ -2,16 +2,15 @@
 description: Ajoute un utilisateur à un tableau de groupes.
 solution: Experience Manager
 title: addGroupMembership
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: c5b5e155-d285-4304-98bc-1d938793e2c0
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 13%
+source-wordcount: '99'
+ht-degree: 14%
 
 ---
-
 
 # addGroupMembership{#addgroupmembership}
 
@@ -19,7 +18,7 @@ Ajoute un utilisateur à un tableau de groupes.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-fe950150718a474d8df30d0f4453c022}
+## Types d’utilisateurs autorisés {#section-fe950150718a474d8df30d0f4453c022}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -43,24 +42,24 @@ Syntaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Traitez l’utilisateur dont vous souhaitez ajouter l’appartenance au groupe. </p> </td> 
+   <td colname="col4"> <p>Gérer l’utilisateur dont vous souhaitez ajouter l’appartenance à un groupe. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> groupHandleArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:HandleArray</span> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Tableau de poignées vers les groupes auxquels la société doit appartenir. </p> </td> 
+   <td colname="col4"> <p>Tableau de poignées des groupes auxquels l’entreprise doit appartenir. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (addGroupMembershipParam)**
+**Sortie (addGroupMembershipParam)**
 
-L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-f7a1f40c3d7a40ea964b29056c734d81}
 
-Cet exemple montre comment ajouter un groupe à une société avec `*`groupHandleArray`*`. Cet exemple utilise un seul groupe.
+Cet exemple ajoute un groupe à une société avec `*`groupHandleArray`*`. Cet exemple n’utilise qu’un seul groupe.
 
 **Request**
 
