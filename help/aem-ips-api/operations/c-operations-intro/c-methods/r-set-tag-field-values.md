@@ -2,16 +2,15 @@
 description: Définit les valeurs du dictionnaire de balises pour un champ de balise existant.
 solution: Experience Manager
 title: setTagFieldValues
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 50f437d6-fec5-4961-884e-fdb75d201ab7
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 14%
+source-wordcount: '86'
+ht-degree: 15%
 
 ---
-
 
 # setTagFieldValues{#settagfieldvalues}
 
@@ -19,7 +18,7 @@ Définit les valeurs du dictionnaire de balises pour un champ de balise existant
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-8b1413654bab44cfb2b1fffbb88aa385}
+## Types d’utilisateurs autorisés {#section-8b1413654bab44cfb2b1fffbb88aa385}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,13 +30,13 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société. |
 | `*`fieldHandle`*` | `xsd:string` | Oui | Poignée de champ de balise. |
-| `*`valueArray`*` | `types:StringArray` | Oui | Tableau de valeurs de balise qui remplacent le dictionnaire existant du champ. Les associations d’actifs sont conservées lorsqu’une nouvelle valeur correspond à une valeur existante. |
+| `*`valueArray`*` | `types:StringArray` | Oui | Tableau de valeurs de balise qui remplacent le dictionnaire existant du champ. Les associations de ressources sont conservées lorsqu’une nouvelle valeur correspond à une valeur existante. |
 
-**Output (setTagFieldValuesReturn)**
+**Sortie (setTagFieldValuesReturn)**
 
-L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-b11cafd9bed54ab5836c737cc075c918}
 
