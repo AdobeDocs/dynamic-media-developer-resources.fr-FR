@@ -1,21 +1,20 @@
 ---
-description: Propriétés d’un fichier d’image.
+description: Propriétés d’une ressource image.
 solution: Experience Manager
 title: ImageInfo
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 058c74b2-634c-49b9-88ab-ab72a030983c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 20%
+source-wordcount: '195'
+ht-degree: 21%
 
 ---
 
-
 # ImageInfo{#imageinfo}
 
-Propriétés d’un fichier d’image.
+Propriétés d’une ressource image.
 
 Syntaxe
 
@@ -38,7 +37,7 @@ Syntaxe
   <tr> 
    <td colname="col1"> <span class="codeph"><span class="varname"> originalFile</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Nom de fichier. </p> </td> 
+   <td colname="col3"> <p>Nom du fichier. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"><span class="varname"> optimizedPath</span> </span> </td> 
@@ -53,7 +52,7 @@ Syntaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maskPath</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Chemin du masque de l’image. </p> </td> 
+   <td colname="col3"> <p>Chemin du masque de l'image. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> maskFile</span> </span> </td> 
@@ -73,17 +72,17 @@ Syntaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fileSize</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> <p>Taille de l'image en octets. </p> </td> 
+   <td colname="col3"> <p>Taille de l’image en octets. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> résolution</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:doublon</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> resolution</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
    <td colname="col3"> <p>Pixels par pouce. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sku</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>ID du produit. </p> </td> 
+   <td colname="col3"> <p>ID de produit. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> description</span> </span> </td> 
@@ -111,19 +110,19 @@ Syntaxe
    <td colname="col3"> <p>Point d’ancrage vertical en pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> urlModificateur</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> urlModifier</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Paramètre d’URL du serveur d’images. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> urlPostApplyModificateur</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> urlPostApplyModifier</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Paramètres concaténés à la fin de <span class="codeph"> urlModificateur</span>. Liste de format de chaîne de requête des paramètres qui sont des commandes du serveur d’images. Les valeurs se trouvent dans le guide du protocole du serveur d’images. </p> </td> 
+   <td colname="col3"> <p>Paramètres concaténés à la fin de <span class="codeph"> urlModifier</span>. Liste des paramètres au format de chaîne de requête qui sont des commandes au serveur d’images. Les valeurs se trouvent dans le guide du protocole du serveur d’images. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> zoomTargets</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:ZoomTargetArray</span> </td> 
-   <td colname="col3"> <p>Tableau de cibles de zoom (5 max.). </p> </td> 
+   <td colname="col2"> <span class="codeph"> types:ZoomTargetArray</span> </td> 
+   <td colname="col3"> <p>Tableau de cibles de zoom (5 max). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> masques</span> </span> </td> 
@@ -132,9 +131,8 @@ Syntaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageMaps</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:ImageMapsArray</span> </td> 
-   <td colname="col3"> <p>Tableau de zones cliquables. </p> </td> 
+   <td colname="col2"> <span class="codeph"> types:ImageMapsArray</span> </td> 
+   <td colname="col3"> <p>Zone cliquable. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
