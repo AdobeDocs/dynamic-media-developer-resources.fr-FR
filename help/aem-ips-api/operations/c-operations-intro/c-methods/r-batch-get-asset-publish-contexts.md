@@ -1,25 +1,24 @@
 ---
-description: Renvoie les contextes de publication des fichiers marqués pour publication.
+description: Renvoie les contextes de publication des ressources marquées pour publication.
 solution: Experience Manager
-title: batchGetAssetPublishContextes
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+title: batchGetAssetPublishContexts
+feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+role: Developer,Admin
+exl-id: ba1f62a7-2698-4300-b6de-6d07ac764b0c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '104'
 ht-degree: 15%
 
 ---
 
+# batchGetAssetPublishContexts{#batchgetassetpublishcontexts}
 
-# batchGetAssetPublishContextes{#batchgetassetpublishcontexts}
-
-Renvoie les contextes de publication des fichiers marqués pour publication.
+Renvoie les contextes de publication des ressources marquées pour publication.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-d5362ca8a6ab42949cd648ba38dbf2f8}
+## Types d’utilisateurs autorisés {#section-d5362ca8a6ab42949cd648ba38dbf2f8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -42,18 +41,18 @@ Syntaxe
 
 ## Paramètres {#section-1742fcb196224545b270eb8241f757a8}
 
-**Entrée (batchGetAssetPublishContextesParam)**
+**Entrée (batchGetAssetPublishContextsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Pose la société. |
-| `*`assetHandleArray`*` | ` `types:HandleArray&quot; | Oui | Liste de ressources que vous souhaitez requête pour les contextes principaux (marqués pour publication). |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gérer la société. |
+| `*`assetHandleArray`*` | ` `types:HandleArray&quot; | Oui | Liste des ressources que vous souhaitez interroger pour des contextes principaux (marqués pour publication). |
 
-**Sortie (batchGetAssetPublishContextesReturn)**
+**Sortie (batchGetAssetPublishContextsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`assetPublishContextesArray`*` | `types:assetPublishContextsArray` | Oui | Tableau de contextes de publication dans lesquels chaque fichier est marqué pour publication. |
+| `*`assetPublishContextsArray`*` | `types:assetPublishContextsArray` | Oui | Tableau de contextes de publication dans lequel chaque ressource est marquée pour publication. |
 
 ## Exemples {#section-457f6809ccfa425b9a0976313d613f4e}
 
@@ -102,4 +101,3 @@ Syntaxe
   </assetPublishContextsArray>
 </batchGetAssetPublishContextsReturn>
 ```
-
