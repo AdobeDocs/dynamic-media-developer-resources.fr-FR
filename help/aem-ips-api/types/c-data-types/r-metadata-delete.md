@@ -1,21 +1,20 @@
 ---
-description: Métadonnées à supprimer du fichier.
+description: Métadonnées à supprimer de la ressource.
 solution: Experience Manager
 title: MetadataDelete
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Métadonnées
+role: Developer,Admin
+exl-id: bc53bf99-bc57-4329-a213-0f8e365abe97
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '34'
-ht-degree: 20%
+source-wordcount: '32'
+ht-degree: 21%
 
 ---
 
-
 # MetadataDelete{#metadatadelete}
 
-Métadonnées à supprimer du fichier.
+Métadonnées à supprimer de la ressource.
 
 Syntaxe
 
@@ -37,4 +36,3 @@ Syntaxe
   </tr> 
  </tbody> 
 </table>
-
