@@ -1,25 +1,24 @@
 ---
-description: Obtient des projets pour un groupe d’actifs connexes.
+description: Obtient des projets pour un groupe de ressources connexes.
 solution: Experience Manager
 title: getProjects
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: d7262ed7-7419-4d6b-86ed-f3ad4657d654
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 20%
+source-wordcount: '71'
+ht-degree: 21%
 
 ---
 
-
 # getProjects{#getprojects}
 
-Obtient des projets pour un groupe d’actifs connexes.
+Obtient des projets pour un groupe de ressources connexes.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-337649866b1f4098844d1974ed7ab5d0}
+## Types d’utilisateurs autorisés {#section-337649866b1f4098844d1974ed7ab5d0}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -40,11 +39,11 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`projectArray`*` | `types:ProjectArray` | Oui | Tableau de projets associés à la société. |
+| `*`projectArray`*` | `types:ProjectArray` | Oui | Tableau des projets associés à la société. |
 
 ## Exemples {#section-8b12d0b948f644f68bf9a16060d3849a}
 
-Cet exemple de code renvoie toutes les poignées de projet dans un tableau de projet.
+Cet exemple de code renvoie toutes les gestionnaires de projet dans un tableau de projet.
 
 **Request**
 
@@ -70,4 +69,3 @@ Cet exemple de code renvoie toutes les poignées de projet dans un tableau de pr
    </projectArray>
 </getProjectsReturn>
 ```
-
