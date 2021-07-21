@@ -1,25 +1,24 @@
 ---
-description: Récupère les champs de métadonnées définis par l’utilisateur associés à un fichier.
+description: Récupère les champs de métadonnées définis par l’utilisateur associés à une ressource.
 solution: Experience Manager
 title: getMetadataFields
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Métadonnées
+role: Developer,Admin
+exl-id: 4d01e2e7-9b68-4dfa-9fe8-08a22cb4bfd5
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 14%
 
 ---
 
-
 # getMetadataFields{#getmetadatafields}
 
-Récupère les champs de métadonnées définis par l’utilisateur associés à un fichier.
+Récupère les champs de métadonnées définis par l’utilisateur associés à une ressource.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-e32e481a02674b729bfc5454a6c9ff65}
+## Types d’utilisateurs autorisés {#section-e32e481a02674b729bfc5454a6c9ff65}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,10 +34,10 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Le gérant de l&#39;entreprise. |
 | `*`assetType`*` | `xsd:string` | Oui | Types de ressources à partir desquels obtenir des métadonnées. |
 
-**Output (getMetadataFieldsParam)**
+**Sortie (getMetadataFieldsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -46,7 +45,7 @@ Syntaxe
 
 ## Exemples {#section-dbfde1483d614b5aac2b491cb32115d7}
 
-Cet exemple de code renvoie des fichiers de métadonnées pour le type et la société spécifiés. La réponse contient un tableau de champs de métadonnées dans un tableau de champs. Tous les fichiers ne possèdent pas les mêmes métadonnées. L’utilisateur IPS définit le champ de métadonnées du fichier.
+Cet exemple de code renvoie des ressources de métadonnées pour le type et la société spécifiés. La réponse contient un tableau de champs de métadonnées dans un tableau de champs. Toutes les ressources n’ont pas les mêmes métadonnées. L’utilisateur IPS définit le champ de métadonnées de la ressource.
 
 **Request**
 
@@ -73,4 +72,3 @@ Cet exemple de code renvoie des fichiers de métadonnées pour le type et la soc
    </fieldArray>
 </getMetadataFieldsReturn>
 ```
-
