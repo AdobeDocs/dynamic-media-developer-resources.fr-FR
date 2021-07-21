@@ -1,21 +1,20 @@
 ---
-description: Tableau de mises à jour des métadonnées par lot.
+description: Tableau de mises à jour des métadonnées de lot.
 solution: Experience Manager
 title: BatchMetadataUpdateArray
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Métadonnées
+role: Developer,Admin
+exl-id: 50833aba-2e2c-4562-b37c-dc560d5d6e52
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 18%
+source-wordcount: '31'
+ht-degree: 19%
 
 ---
 
-
 # BatchMetadataUpdateArray{#batchmetadataupdatearray}
 
-Tableau de mises à jour des métadonnées par lot.
+Tableau de mises à jour des métadonnées de lot.
 
 Syntaxe
 
@@ -23,5 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`éléments`*` | `types:BatchMetadataUpdate` | Tableau de mises à jour par lot. |
-
+| `*`éléments`*` | `types:BatchMetadataUpdate` | Tableau des mises à jour par lots. |
