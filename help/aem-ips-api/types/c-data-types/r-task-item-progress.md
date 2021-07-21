@@ -1,21 +1,20 @@
 ---
-description: Informations sur l'avancement de l'élément de tâche.
+description: Informations de progression de l’élément de tâche.
 solution: Experience Manager
 title: TaskItemProgress
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 568a5601-b928-447d-8297-01139f36cf73
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '40'
+source-wordcount: '38'
 ht-degree: 15%
 
 ---
 
-
 # TaskItemProgress{#taskitemprogress}
 
-Informations sur l&#39;avancement de l&#39;élément de tâche.
+Informations de progression de l’élément de tâche.
 
 Syntaxe
 
@@ -23,8 +22,7 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`itemName`*` | `xsd:string` | Nom de l&#39;élément en cours de traitement. |
-| `*`progress`*` | `xsd:double` | Progression terminée %. |
-| `*`progressMessage`*` | `xsd:string` | Message de traitement. |
+| `*`itemName`*` | `xsd:string` | Nom de l’élément en cours de traitement. |
+| `*`progress`*` | `xsd:double` | Progression %. |
+| `*`progressMessage`*` | `xsd:string` | Message du processus. |
 | `*`lastProgressUpdate`*` | `xsd:dateTime` | Heure de la dernière mise à jour. |
-
