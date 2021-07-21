@@ -2,16 +2,15 @@
 description: Obtient une liste des caractères utilisés dans un champ particulier.
 solution: Experience Manager
 title: getUserChars
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: d6b79c06-0e90-406f-bac8-3b8c2bae5480
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '180'
 ht-degree: 11%
 
 ---
-
 
 # getUserChars{#getuserchars}
 
@@ -19,7 +18,7 @@ Obtient une liste des caractères utilisés dans un champ particulier.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-7023871be4d2442daf51ff060ca06d9a}
+## Types d’utilisateurs autorisés {#section-7023871be4d2442daf51ff060ca06d9a}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -33,14 +32,14 @@ Syntaxe
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | `*`charField`*` | `xsd:string` | Oui | Détermine l’état de la corbeille à rechercher. |
-| `*`includeInactive`*` | `xsd:boolean` | Oui | Incluez ou excluez les utilisateurs inactifs. Les utilisateurs administrateurs non-IPS doivent être membres principaux d&#39;au moins une société pour être autorisés à effectuer des appels d&#39;API. Une erreur d&#39;autorisation est renvoyée si l&#39;utilisateur n&#39;a pas d&#39;abonnement à une société principale. |
-| `*`includInvalid`*` | `xsd:boolean` | Non | Incluez ou excluez des utilisateurs non valides. |
-| `*`companyHandleArray`*` | `types:HandleArray` | Non | Filtrez les résultats en fonction de la société. |
-| `*`groupHandleArray`*` | `types:HandleArray` | Non | Filtres des résultats en fonction des groupes. |
-| `*`userRoleArray`*` | `types:StringArray` | Non | Filtres des résultats en fonction du rôle utilisateur. |
-| `*`numChars`*` | `xsd:int` | Non | Activez >1 caractère. |
+| `*`includeInactive`*` | `xsd:boolean` | Oui | Incluez ou excluez les utilisateurs inactifs. Les utilisateurs non administrateurs d’IPS doivent être un membre principal d’au moins une société pour être autorisés à effectuer des appels d’API. Une erreur d’autorisation est renvoyée si l’utilisateur n’a pas d’appartenances principales à la société. |
+| `*`includeInvalid`*` | `xsd:boolean` | Non | Incluez ou excluez des utilisateurs non valides. |
+| `*`companyHandleArray`*` | `types:HandleArray` | Non | Filtrez les résultats en fonction de l’entreprise. |
+| `*`groupHandleArray`*` | `types:HandleArray` | Non | Filtre les résultats en fonction des groupes. |
+| `*`userRoleArray`*` | `types:StringArray` | Non | Filtre les résultats en fonction du rôle de l’utilisateur. |
+| `*`numChars`*` | `xsd:int` | Non | Activer >1 caractère. |
 
-**Output (getUserCharsReturn)**
+**Sortie (getUserCharsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -54,7 +53,7 @@ Cet exemple de code renvoie :
 * Ensemble de groupes.
 * Ensemble de rôles utilisateur.
 
-La constante de chaîne Champs de filtre de caractères utilisateur détermine le type de caractères d’utilisateur renvoyés.
+La constante de chaîne Champs de filtre de caractères de l’utilisateur détermine le type de caractères d’utilisateur renvoyés.
 
 **Request**
 
@@ -79,4 +78,3 @@ La constante de chaîne Champs de filtre de caractères utilisateur détermine l
    </userCharsArray>
 </getUserCharsReturn>
 ```
-
