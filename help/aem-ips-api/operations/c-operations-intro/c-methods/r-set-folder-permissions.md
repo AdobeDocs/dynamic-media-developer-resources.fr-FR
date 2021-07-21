@@ -2,16 +2,15 @@
 description: Définit les autorisations de dossier.
 solution: Experience Manager
 title: setFolderPermissions
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 0da05679-207e-4dc8-9bfe-2cf09a8c3f17
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '96'
 ht-degree: 14%
 
 ---
-
 
 # setFolderPermissions{#setfolderpermissions}
 
@@ -19,7 +18,7 @@ Définit les autorisations de dossier.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-d3eb923fcf5741b99967634db809e09e}
+## Types d’utilisateurs autorisés {#section-d3eb923fcf5741b99967634db809e09e}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,18 +30,18 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société. |
 | `*`folderHandle`*` | `xsd:string` | Oui | Poignée de dossier. |
-| `*`setChildren`*` | `xsd:boolean` | Oui | Définit les autorisations sur les enfants qui appartiennent au dossier. |
-| `*`permissionArray`*` | `types:PermissionUpdateArray` | Oui | Tableau des autorisations. |
+| `*`setChildren`*` | `xsd:boolean` | Oui | Définit des autorisations sur les enfants appartenant au dossier. |
+| `*`permissionArray`*` | `types:PermissionUpdateArray` | Oui | Tableau d’autorisations. |
 
-**Output (setFolderPermissionsReturn)**
+**Sortie (setFolderPermissionsReturn)**
 
-L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-01730da4be874553ab44e3241cdf6357}
 
-Cet exemple de code spécifie un nom d&#39;utilisateur de société, un nom d&#39;utilisateur de dossier et un tableau d&#39;autorisations contenant des informations détaillées sur le dossier. Il applique les mêmes autorisations aux enfants du dossier parent.
+Cet exemple de code spécifie un nom d’entreprise, un nom d’utilisateur de dossier et un tableau d’autorisations avec des informations détaillées sur le dossier. Il applique les mêmes autorisations aux enfants du dossier parent.
 
 **Request**
 
