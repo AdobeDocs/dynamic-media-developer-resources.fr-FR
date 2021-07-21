@@ -3,9 +3,9 @@ description: Utilisez ces paramètres de serveur pour la mise en grappe du cache
 solution: Experience Manager
 title: Mise en grappe du cache
 feature: Dynamic Media Classic, SDK/API
-role: Developer,Administrator,User
+role: Developer,Admin,User
 exl-id: bd0267e7-ebf5-4995-b55e-89cb1a58de6d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 0%
