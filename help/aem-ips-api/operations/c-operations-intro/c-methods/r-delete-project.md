@@ -1,25 +1,24 @@
 ---
-description: Supprime un projet d’une société. Les liens entre les ressources et le projet sont rompus, mais les ressources ne sont pas supprimées d'IPS.
+description: Supprime un projet d’une entreprise. Les liens entre les ressources et le projet sont rompus, mais les ressources ne sont pas supprimées d’IPS.
 solution: Experience Manager
 title: deleteProject
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: b42be3ef-c935-4548-8f92-4fc33af321b5
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 8%
+source-wordcount: '133'
+ht-degree: 9%
 
 ---
 
-
 # deleteProject{#deleteproject}
 
-Supprime un projet d’une société. Les liens entre les ressources et le projet sont rompus, mais les ressources ne sont pas supprimées d&#39;IPS.
+Supprime un projet d’une entreprise. Les liens entre les ressources et le projet sont rompus, mais les ressources ne sont pas supprimées d’IPS.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-d8a70e23c68d426e9af1357b978ae2f0}
+## Types d’utilisateurs autorisés {#section-d8a70e23c68d426e9af1357b978ae2f0}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,15 +34,15 @@ Syntaxe
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | `*`companyName`*` | `xsd:string` | Oui | Nom de la société associée au projet. |
-| `*`projectHandle`*` | `xsd:string` | Oui | Identifiant du projet à supprimer. |
+| `*`projectHandle`*` | `xsd:string` | Oui | Gestionnaire du projet à supprimer. |
 
-**Output (deleteProjectReturn)**
+**Sortie (deleteProjectReturn)**
 
-L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-e38507f1f7ec41b9a625f47390490254}
 
-Cet exemple de code utilise le nom d&#39;utilisateur de la société et le nom d&#39;utilisateur du projet en tant que champs dans deleteProjectParam envoyé au serveur des services Web IPS pour supprimer le projet.
+Cet exemple de code utilise le nom d’entreprise et le nom d’utilisateur du projet comme champs dans le paramètre deleteProjectParam envoyé au serveur des services Web IPS pour supprimer le projet.
 
 **Request**
 
