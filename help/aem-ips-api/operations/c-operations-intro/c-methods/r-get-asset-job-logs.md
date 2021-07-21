@@ -1,25 +1,24 @@
 ---
-description: Récupère les journaux de tâches d’un fichier. Les éléments renvoyés dans le tableau contiennent des informations détaillées sur chaque entrée du journal des tâches pour cette ressource. Le champ de réponse logMessage est localisé en fonction du champ authHeader.
+description: Récupère les journaux de tâches d’une ressource. Les éléments renvoyés dans le tableau contiennent des informations détaillées sur chaque entrée du journal des tâches de cette ressource. Le champ de réponse logMessage est localisé en fonction du champ authHeader .
 solution: Experience Manager
 title: getAssetJobLogs
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+role: Developer,Admin
+exl-id: 88ec5cab-7eb4-48aa-914f-21311593e463
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '163'
 ht-degree: 9%
 
 ---
 
-
 # getAssetJobLogs{#getassetjoblogs}
 
-Récupère les journaux de tâches d’un fichier. Les éléments renvoyés dans le tableau contiennent des informations détaillées sur chaque entrée du journal des tâches pour cette ressource. Le champ de réponse logMessage est localisé en fonction du champ authHeader.
+Récupère les journaux de tâches d’une ressource. Les éléments renvoyés dans le tableau contiennent des informations détaillées sur chaque entrée du journal des tâches de cette ressource. Le champ de réponse logMessage est localisé en fonction du champ authHeader .
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-72b98cdb0f6f47f5aabdc183a45ea577}
+## Types d’utilisateurs autorisés {#section-72b98cdb0f6f47f5aabdc183a45ea577}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,8 +36,8 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société à laquelle appartient le fichier. |
-| `*`assetHandle`*` | `xsd:string` | Oui | Poignée de ressource avec les journaux de tâches à récupérer. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de la société à laquelle appartient la ressource. |
+| `*`assetHandle`*` | `xsd:string` | Oui | Gestion de la ressource avec les journaux de tâches à récupérer. |
 
 **Sortie (getAssetJobLogsReturn)**
 
@@ -48,7 +47,7 @@ Syntaxe
 
 ## Exemples {#section-f03d7f3ec5d043d38227f926fb7609f6}
 
-Cet exemple de code récupère les journaux des tâches d’une ressource spécifique. La réponse renvoie un tableau du journal des tâches contenant des informations détaillées sur toutes les tâches dans lesquelles la ressource a été utilisée.
+Cet exemple de code récupère les journaux de tâches d’une ressource spécifique. La réponse renvoie un tableau de journal des tâches avec des informations détaillées sur toutes les tâches dans lesquelles la ressource a été utilisée.
 
 **Request**
 
@@ -83,4 +82,3 @@ Cet exemple de code récupère les journaux des tâches d’une ressource spéci
    </jobLogArray>
 </getAssetJobLogsReturn>
 ```
-
