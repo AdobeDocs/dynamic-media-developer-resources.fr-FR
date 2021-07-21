@@ -1,23 +1,22 @@
 ---
-description: Définissez ou mettez à jour l’état de publication pour un ou plusieurs fichiers. Vous pouvez définir des états de publication distincts pour chaque contexte de publication dans une société.
+description: Définissez ou mettez à jour l’état de publication d’une ou de plusieurs ressources. Vous pouvez définir des états de publication distincts pour chaque contexte de publication d’une entreprise.
 solution: Experience Manager
 title: setAssetsContextState
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+role: Developer,Admin
+exl-id: 28d0a67b-3e36-43fc-800d-17c841dca3a0
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '165'
 ht-degree: 10%
 
 ---
 
-
 # setAssetsContextState{#setassetscontextstate}
 
-Définissez ou mettez à jour l’état de publication pour un ou plusieurs fichiers. Vous pouvez définir des états de publication distincts pour chaque contexte de publication dans une société.
+Définissez ou mettez à jour l’état de publication d’une ou de plusieurs ressources. Vous pouvez définir des états de publication distincts pour chaque contexte de publication d’une entreprise.
 
-## Types d’utilisateur autorisés {#section-815eb031f85143278c1560c18c5e3431}
+## Types d’utilisateurs autorisés {#section-815eb031f85143278c1560c18c5e3431}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -39,7 +38,7 @@ Définissez ou mettez à jour l’état de publication pour un ou plusieurs fich
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Pose la société. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gérer la société. |
 | `*`assetsContextHandle`*` | `types:AssetsContextStateUpdateArray` | Oui | Tableau de ressources et de leurs nouveaux états de publication. |
 
 **Sortie (setAssetsContextStateReturn)**
@@ -53,7 +52,7 @@ Définissez ou mettez à jour l’état de publication pour un ou plusieurs fich
 
 ## Exemples {#section-283a073f3cb14bcda5abed863c538aa4}
 
-Cet exemple de code définit l&#39;état de publication d&#39;un fichier à l&#39;aide de `NotMarkedForPublish`.
+Cet exemple de code définit l’état de publication d’une ressource à l’aide de `NotMarkedForPublish`.
 
 **Request**
 
@@ -116,4 +115,3 @@ Cet exemple de code définit l&#39;état de publication d&#39;un fichier à l&#3
   <errorCount>0</errorCount>
 </setAssetsContextStateReturn>
 ```
-
