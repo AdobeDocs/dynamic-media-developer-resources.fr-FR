@@ -2,18 +2,17 @@
 description: Utilisé par JobLogDetial/assetType.
 solution: Experience Manager
 title: Types de fichiers journaux de tâches
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: a6dce340-0dc4-4ecf-9aa1-0ed8f446fb8c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '25'
+source-wordcount: '23'
 ht-degree: 8%
 
 ---
 
-
-# Types de fichiers du journal des tâches{#job-log-file-types}
+# Types de fichiers journaux de tâches{#job-log-file-types}
 
 Utilisé par JobLogDetial/assetType.
 
@@ -55,4 +54,3 @@ Syntaxe
 * [!DNL `Aco`]
 * [!DNL `PsdTemplate`]
 * [!DNL `Zip`]
-
