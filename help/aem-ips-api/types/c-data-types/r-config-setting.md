@@ -2,16 +2,15 @@
 description: Utilisé par les développeurs Dynamic Media uniquement.
 solution: Experience Manager
 title: ConfigSetting
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 6d6421ce-1933-4310-b691-817392631969
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 18%
+source-wordcount: '36'
+ht-degree: 19%
 
 ---
-
 
 # ConfigSetting{#configsetting}
 
@@ -26,4 +25,3 @@ Syntaxe
 | `*`name`*` | `xsd:string` | Nom de la configuration. |
 | `*`value`*` | `xsd:string` | Valeur de configuration. |
 | `*`gérer`*` | `xsd:string` | Gérer la configuration stockée. |
-
