@@ -2,16 +2,15 @@
 description: Tableau de chaînes de recherche.
 solution: Experience Manager
 title: SearchStringsArray
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 21033323-8a42-459b-a85b-97a6198dc5d4
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 20%
+source-wordcount: '28'
+ht-degree: 21%
 
 ---
-
 
 # SearchStringsArray{#searchstringsarray}
 
@@ -24,4 +23,3 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | `*`éléments`*` | `types:SearchStrings` | Tableau de chaînes de recherche. |
-
