@@ -1,21 +1,20 @@
 ---
-description: Coordonnées d’emplacement de l’image renvoyées par l’opération getPhotoshopPath.
+description: Coordonnées de l’emplacement de l’image renvoyées par l’opération getPhotoshopPath.
 solution: Experience Manager
 title: PerspectiveQuad
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: dae44565-083d-47f5-8a08-2567590315a4
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 17%
+source-wordcount: '77'
+ht-degree: 18%
 
 ---
 
-
 # PerspectiveQuad{#perspectivequad}
 
-Coordonnées d’emplacement de l’image renvoyées par l’opération getPhotoshopPath.
+Coordonnées de l’emplacement de l’image renvoyées par l’opération getPhotoshopPath.
 
 Syntaxe
 
@@ -23,14 +22,14 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`x0`*` | `xsd:double` | Coordonnée supérieure gauche de l’axe X. |
-| `*`y0`*` | `xsd:double` | Coordonnée supérieure gauche de l’axe des ordonnées. |
-| `*`x1`*` | `xsd:double` | Coordonnée supérieure droite de l’axe X. |
-| `*`y1`*` | `xsd:double` | Coordonnée supérieure droite de l’axe y. |
+| `*`x0`*` | `xsd:double` | Coordonnée de l’axe X supérieure gauche. |
+| `*`y0`*` | `xsd:double` | Coordonnée de l’axe Y supérieure gauche. |
+| `*`x1`*` | `xsd:double` | Coordonnée de l’axe X supérieur droit. |
+| `*`y1`*` | `xsd:double` | Coordonnée de l’axe y supérieure droite. |
 | `*`x2`*` | `xsd:double` | Coordonnée inférieure droite de l’axe X. |
-| `*`y2`*` | `xsd:double` | Coordonnée inférieure droite de l’axe y. |
-| `*`x3`*` | `xsd:double` | Coordonnée de l&#39;axe X inférieure gauche. |
-| `*`y3`*` | `xsd:double` | Coordonnée inférieure gauche de l’axe des ordonnées. |
+| `*`y2`*` | `xsd:double` | Coordonnée inférieure droite de l’axe Y. |
+| `*`x3`*` | `xsd:double` | Coordonnée de l’axe X inférieur gauche. |
+| `*`y3`*` | `xsd:double` | Coordonnée de l’axe Y inférieur gauche. |
 
 ## Exemple {#section-19ed4409ff3a41c9b52a9c9424612927}
 
