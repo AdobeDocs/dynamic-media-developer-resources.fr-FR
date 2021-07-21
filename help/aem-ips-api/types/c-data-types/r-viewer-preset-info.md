@@ -1,21 +1,20 @@
 ---
-description: Propriétés d’un fichier de paramètres prédéfinis de visionneuse.
+description: Propriétés d’une ressource de paramètre prédéfini de visionneuse.
 solution: Experience Manager
 title: ViewerPresetInfo
-feature: Dynamic Media Classic,SDK/API,Viewer Presets
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Paramètres prédéfinis de la visionneuse
+role: Developer,Admin
+exl-id: fe57499a-00c0-4dab-b163-ea24ea6998e8
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 15%
+source-wordcount: '36'
+ht-degree: 16%
 
 ---
 
-
 # ViewerPresetInfo{#viewerpresetinfo}
 
-Propriétés d’un fichier de paramètres prédéfinis de visionneuse.
+Propriétés d’une ressource de paramètre prédéfini de visionneuse.
 
 Syntaxe
 
@@ -24,5 +23,4 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | `*`type`*` | `xsd:string` | Choix du type de visionneuse. |
-| `*`configSettingArray`*` | `types:ConfigSettingArray` | Tableau des paramètres de configuration du lecteur de contenu. |
-
+| `*`configSettingArray`*` | `types:ConfigSettingArray` | Tableau des paramètres de configuration de la visionneuse. |
