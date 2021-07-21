@@ -2,16 +2,15 @@
 description: Crée une visionneuse d’images.
 solution: Experience Manager
 title: createImageSet
-feature: Dynamic Media Classic,SDK/API,Image Sets
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic,SDK/API,Visionneuses d’images
+role: Developer,Admin
+exl-id: 01ccc705-97e4-4e75-a322-e24bb78cb496
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '143'
 ht-degree: 14%
 
 ---
-
 
 # createImageSet{#createimageset}
 
@@ -19,7 +18,7 @@ Crée une visionneuse d’images.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-58bf5027e6d24ab5a9fcba59776d15dc}
+## Types d’utilisateurs autorisés {#section-58bf5027e6d24ab5a9fcba59776d15dc}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -38,21 +37,21 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société à laquelle appartient la visionneuse d’images. |
-| `*`folderHandle`*` | `xsd:string` | Oui | Identifiant du dossier. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de la société à laquelle appartient la visionneuse d’images. |
+| `*`folderHandle`*` | `xsd:string` | Oui | Gestionnaire du dossier. |
 | `*`name`*` | `xsd:string` | Oui | Nom de la visionneuse d’images. |
 | `*`type`*` | `xsd:string` | Oui | Type de visionneuse d’images. |
-| `*`thumbAssetHandle`*` | `xsd:string` | Non | Gestion du fichier qui agit comme miniature pour la nouvelle visionneuse d’images. S’il n’est pas spécifié, IPS tente d’utiliser le premier fichier d’image référencé par la visionneuse. |
+| `*`thumbAssetHandle`*` | `xsd:string` | Non | Gestion de la ressource qui agit comme miniature de la nouvelle visionneuse d’images. S’il n’est pas spécifié, IPS tente d’utiliser la première ressource d’image référencée par la visionneuse. |
 
 **Sortie**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Oui | Poignée de la nouvelle visionneuse d’images. |
+| `*`assetHandle`*` | `xsd:string` | Oui | Gestion de la nouvelle visionneuse d’images. |
 
 ## Exemples {#section-385fe3b0af8044b0a2451336ec137fc5}
 
-Cet exemple de code crée une visionneuse d’images spécifiée par société, dossier, nom et type. La réponse est un gestionnaire de ressources de la visionneuse d’images nouvellement créée.
+Cet exemple de code crée un jeu d’images spécifié par l’entreprise, le dossier, le nom et le type. La réponse est un gestionnaire de ressources de la visionneuse d’images nouvellement créée.
 
 **Request**
 
@@ -72,4 +71,3 @@ Cet exemple de code crée une visionneuse d’images spécifiée par société, 
    <assetHandle>25741|22|841</assetHandle>
 </createImageSetReturn>
 ```
-
