@@ -1,21 +1,20 @@
 ---
-description: Définit une cible de publication pour une société.
+description: Définit une cible de publication pour une entreprise.
 solution: Experience Manager
-title: Contexte de publication
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+title: PublishContext
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: b0656d6c-0f73-4f1d-9e1f-20b07cfe44b9
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 18%
+source-wordcount: '73'
+ht-degree: 19%
 
 ---
 
-
 # PublishContext{#publishcontext}
 
-Définit une cible de publication pour une société.
+Définit une cible de publication pour une entreprise.
 
 Syntaxe
 
@@ -35,7 +34,7 @@ Les ressources conservent un marqueur distinct pour chaque état et contexte de 
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> contextHandle</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:string </span></td>
-   <td colname="col3"> Traitement du contexte de publication. </td>
+   <td colname="col3"> Gérer au contexte de publication. </td>
   </tr>
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> contextName</span></span></td>
@@ -45,7 +44,7 @@ Les ressources conservent un marqueur distinct pour chaque état et contexte de 
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> contextType</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:string</span></td>
-   <td colname="col3">Type du contexte de publication. Comprend : 
+   <td colname="col3">Type de contexte de publication. Inclut : 
     <ul id="ul_04CA7C755E5441AA8ABBD0BA3F245A78">
      <li id="li_7F578422D38E40D1A590AB21ADD84E90"><span class="codeph"> ImageServing</span></li>
      <li id="li_C112E12028E44ED7914ED0D3D6B3A45E"><span class="codeph"> ImageRendering</span></li>
