@@ -1,21 +1,20 @@
 ---
-description: Propriétés du fichier de masquage.
+description: Masquer les propriétés du fichier.
 solution: Experience Manager
 title: MaskInfo
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 91e760c5-2c6e-47e6-9429-d37ba9d84cdb
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 17%
+source-wordcount: '26'
+ht-degree: 19%
 
 ---
 
-
 # MaskInfo{#maskinfo}
 
-Propriétés du fichier de masquage.
+Masquer les propriétés du fichier.
 
 Syntaxe
 
@@ -23,6 +22,5 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`maskPath`*` | `xsd:string` | Chemin du fichier de masquage. |
-| `*`maskFile`*` | `xsd:string` | Nom du fichier de masquage. |
-
+| `*`maskPath`*` | `xsd:string` | Masquer le chemin d’accès au fichier. |
+| `*`maskFile`*` | `xsd:string` | Masquer le nom du fichier. |
