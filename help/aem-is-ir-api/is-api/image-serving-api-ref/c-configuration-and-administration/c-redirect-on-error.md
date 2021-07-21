@@ -3,9 +3,9 @@ description: Les serveurs IS peuvent être configurés pour basculer vers d’au
 solution: Experience Manager
 title: Redirection en erreur
 feature: Dynamic Media Classic, SDK/API
-role: Developer,Administrator,User
+role: Developer,Admin,User
 exl-id: c5541bf3-3296-4ce3-a2ff-9f6336f78ea9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
