@@ -2,16 +2,15 @@
 description: Tableau de valeurs de champ de balise.
 solution: Experience Manager
 title: TagFieldValuesArray
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 68762d4c-b006-4a1a-ab0b-dafde2ab0a80
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 18%
+source-wordcount: '31'
+ht-degree: 19%
 
 ---
-
 
 # TagFieldValuesArray{#tagfieldvaluesarray}
 
@@ -24,4 +23,3 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | `*`éléments`*` | `types:TagFieldValues` | Tableau de valeurs de champ de balise. |
-
