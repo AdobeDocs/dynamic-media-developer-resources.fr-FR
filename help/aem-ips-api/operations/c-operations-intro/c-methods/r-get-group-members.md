@@ -1,25 +1,24 @@
 ---
-description: Obtient les utilisateurs qui appartiennent à une société et un groupe spécifiques.
+description: Obtient les utilisateurs appartenant à une société et à un groupe spécifiques.
 solution: Experience Manager
 title: getGroupMembers
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 81af79ee-be82-439f-9f42-a1ec09cd8ea0
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '86'
 ht-degree: 17%
 
 ---
 
-
 # getGroupMembers{#getgroupmembers}
 
-Obtient les utilisateurs qui appartiennent à une société et un groupe spécifiques.
+Obtient les utilisateurs appartenant à une société et à un groupe spécifiques.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-08a73460d122480292205bb8f2df9220}
+## Types d’utilisateurs autorisés {#section-08a73460d122480292205bb8f2df9220}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,17 +31,17 @@ Syntaxe
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | Oui | La poignée de la société. |
-| `*`groupHandle`*` | `xsd:string` |  | Poignée du groupe. |
+| `*`groupHandle`*` | `xsd:string` |  | La poignée du groupe. |
 
-**Output (getGroupMembersReturn)**
+**Sortie (getGroupMembersReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`userHandleArray`*` | `type:HandleArray` | Oui | Tableau de poignées utilisateur. |
+| `*`userHandleArray`*` | `type:HandleArray` | Oui | Tableau de gestionnaires d’utilisateurs. |
 
 ## Exemples {#section-aaa340dba6b64cce9bcd8303cf999166}
 
-Cet exemple de code renvoie un tableau d&#39;utilisateur contenant tous les utilisateurs appartenant à un groupe spécifique.
+Cet exemple de code renvoie un tableau de pseudo utilisateur contenant tous les utilisateurs appartenant à un groupe spécifique.
 
 **Request**
 
@@ -62,4 +61,3 @@ Cet exemple de code renvoie un tableau d&#39;utilisateur contenant tous les util
    </userHandleArray>
 </getGroupMembersReturn>
 ```
-
