@@ -1,25 +1,24 @@
 ---
-description: Définit ou met à jour un paquet de métadonnées XMP pour un fichier.
+description: Définit ou met à jour un paquet de métadonnées XMP pour une ressource.
 solution: Experience Manager
 title: updateXMPPacket
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 04d85dba-cc86-4069-ab5d-9a5b3fe542c9
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '73'
 ht-degree: 24%
 
 ---
 
-
 # updateXMPPacket{#updatexmppacket}
 
-Définit ou met à jour un paquet de métadonnées XMP pour un fichier.
+Définit ou met à jour un paquet de métadonnées XMP pour une ressource.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-ee88a759f4774482a4734201a971f610}
+## Types d’utilisateurs autorisés {#section-ee88a759f4774482a4734201a971f610}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,11 +34,11 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société. |
 | `*`assetHandle`*` | `xsd:string` | Oui | Poignée de ressource. |
 | `*`compresséPacket`*` | `xsd:Base 64 binary` | Oui | [!DNL zlib-compressed] XMP paquet que vous souhaitez définir ou mettre à jour. |
 
-**Output (updateXMPPacketReturn)**
+**Sortie (updateXMPPacketReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -69,4 +68,3 @@ C8bO5sugbVa5/4Hnd05blc9y1zmGCCI0zcO50PyK40+q4LbWPt3IqGmykqnONnVgUUYNvsdfOH6wzN6C
    <success>true</success>
 </updateXMPPacketReturn>
 ```
-
