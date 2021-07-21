@@ -1,21 +1,20 @@
 ---
-description: Statistiques d'espace disque pour un fichier ou un dossier.
+description: Statistiques sur l’espace disque pour une ressource ou un dossier.
 solution: Experience Manager
 title: DiskUsage
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: a3c4c1cd-0fcc-4e7a-a4aa-884d0ce2f208
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '56'
 ht-degree: 12%
 
 ---
 
-
 # DiskUsage{#diskusage}
 
-Statistiques d&#39;espace disque pour un fichier ou un dossier.
+Statistiques sur l’espace disque pour une ressource ou un dossier.
 
 Syntaxe
 
@@ -23,9 +22,8 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Poignée de société. |
+| `*`companyHandle`*` | `xsd:string` | Poignée de la société. |
 | `*`companyName`*` | `xsd:string` | Nom de la société. |
 | `*`imageCount`*` | `xsd:int` | Nombre d’images stockées. |
-| `*`diskSpaceUsage`*` | `xsd:long` | Total des fichiers côté fichier en kilo-octets. |
+| `*`diskSpaceUsage`*` | `xsd:long` | Côté fichier total en kilo-octets. |
 | `*`lastModified`*` | `xsd:dateTime` | Date, heure et fuseau horaire de la dernière modification du type `DiskUsage`. |
-
