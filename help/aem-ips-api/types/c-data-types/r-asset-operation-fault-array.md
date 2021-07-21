@@ -2,16 +2,15 @@
 description: Tableau des erreurs d’opération de ressource.
 solution: Experience Manager
 title: AssetOperationFaultArray
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+role: Developer,Admin
+exl-id: 8bc6bfaa-eecf-4346-af57-25df2a471a1f
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 16%
+source-wordcount: '34'
+ht-degree: 17%
 
 ---
-
 
 # AssetOperationFaultArray{#assetoperationfaultarray}
 
@@ -23,5 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`éléments`*` | `types:AssetOperationFault` | Tableau d&#39;éléments de défaillance d&#39;opération de ressource. |
-
+| `*`éléments`*` | `types:AssetOperationFault` | Tableau d’éléments d’erreur d’opération de ressource. |
