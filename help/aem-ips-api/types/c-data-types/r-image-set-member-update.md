@@ -1,25 +1,24 @@
 ---
-description: 'Dans ce type, le champ pageReset est significatif pour les types de fichier d’image RenderSet et Catalog. '
+description: 'Dans ce type, le champ pageReset est significatif pour les types de ressources d’image RenderSet et Catalog. '
 solution: Experience Manager
 title: ImageSetMemberUpdate
-feature: Dynamic Media Classic,SDK/API,Image Sets
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Visionneuses d’images
+role: Developer,Admin
+exl-id: 4c598afb-a80c-4fac-997f-ef1c7175430c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '109'
 ht-degree: 7%
 
 ---
 
-
 # ImageSetMemberUpdate{#imagesetmemberupdate}
 
-Dans ce type, le champ pageReset est significatif pour les types de fichier d’image RenderSet et Catalog :
+Dans ce type, le champ pageReset est significatif pour les types de ressources d’image RenderSet et Catalog :
 
-* Pour `RenderSet`, `pageReset` indique l&#39;début d&#39;un nouveau groupe de vues/échantillons de rendu.
+* Pour `RenderSet`, `pageReset` indique le début d’un nouveau groupe d’affichage/d’échantillon de rendu.
 
-* Pour le catalogue, `pageReset` indique le début d’une nouvelle vue de page. En règle générale, il existe deux images de page par vue de page, mais vous pouvez en avoir plus ou moins.
+* Pour le catalogue, `pageReset` indique le début d’une nouvelle page vue. En règle générale, il existe deux images de page par page vue, mais vous pouvez en avoir plus ou moins.
 
 ## Paramètres {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -35,7 +34,7 @@ Dans ce type, le champ pageReset est significatif pour les types de fichier d’
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Handle de ressource dans le tableau des membres de la visionneuse d’images. </td> 
+   <td colname="col3"> Poignée de ressource dans le tableau des membres de la visionneuse d’images. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> pageReset</span> </span> </td> 
@@ -44,4 +43,3 @@ Dans ce type, le champ pageReset est significatif pour les types de fichier d’
   </tr> 
  </tbody> 
 </table>
-
