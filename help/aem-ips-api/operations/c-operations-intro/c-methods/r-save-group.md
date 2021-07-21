@@ -2,16 +2,15 @@
 description: Créez ou modifiez un groupe.
 solution: Experience Manager
 title: saveGroup
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 1dd980e7-eb38-4c90-b4fc-83327d4a95f5
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '97'
 ht-degree: 19%
 
 ---
-
 
 # saveGroup{#savegroup}
 
@@ -19,7 +18,7 @@ Créez ou modifiez un groupe.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-a6c1ce4c69f44ad0bcd41bbf3893bc45}
+## Types d’utilisateurs autorisés {#section-a6c1ce4c69f44ad0bcd41bbf3893bc45}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,12 +30,12 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée vers la société avec le groupe que vous souhaitez enregistrer. |
-| `*`groupHandle`*` | `xsd:string` | Non | Poignée du groupe. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de l’entreprise avec le groupe que vous souhaitez enregistrer. |
+| `*`groupHandle`*` | `xsd:string` | Non | La poignée du groupe. |
 | `*`name`*` | `xsd:string` | Oui | Nom du groupe. |
-| `*`isSystemDefined`*` | `xsd:boolean` | Oui | `false` est définie par défaut. |
+| `*`isSystemDefined`*` | `xsd:boolean` | Oui | `false` est la valeur par défaut. |
 
-**Output (saveGroupReturn)**
+**Sortie (saveGroupReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -44,7 +43,7 @@ Syntaxe
 
 ## Exemples {#section-26eee227ff1f4edabb7fa1240b4d9999}
 
-Cet exemple de code crée un groupe qui appartient à une société spécifique. Si le groupe existe déjà, il est enregistré avec les valeurs de paramètre que vous spécifiez.
+Cet exemple de code crée un groupe qui appartient à une société spécifique. Si le groupe existe déjà, il est enregistré avec les valeurs de paramètre que vous indiquez.
 
 **Request**
 
@@ -63,4 +62,3 @@ Cet exemple de code crée un groupe qui appartient à une société spécifique.
    <groupHandle>281</groupHandle>
 </saveGroupReturn>
 ```
-
