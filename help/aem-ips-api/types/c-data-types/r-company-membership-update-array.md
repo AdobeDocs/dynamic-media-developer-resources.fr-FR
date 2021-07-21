@@ -2,16 +2,15 @@
 description: CompanyMembershipUpdateArray
 solution: Experience Manager
 title: CompanyMembershipUpdateArray
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 059c3b71-ef0f-4bab-b50c-57e4420e9566
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '16'
-ht-degree: 37%
+source-wordcount: '14'
+ht-degree: 42%
 
 ---
-
 
 # CompanyMembershipUpdateArray{#companymembershipupdatearray}
 
@@ -22,4 +21,3 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | `*`éléments`*` | `types:CompanyMembershipUpdate` |  |
-
