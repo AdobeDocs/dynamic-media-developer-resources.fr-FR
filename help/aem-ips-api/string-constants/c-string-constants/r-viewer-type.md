@@ -1,12 +1,11 @@
 ---
-description: Utilisée par ViewerPresetInfo.
+description: Utilisé par ViewerPresetInfo.
 solution: Experience Manager
 title: Type de visionneuse
-feature: Dynamic Media Classic,SDK/API,Viewers
-role: Developer,Administrator
+feature: Dynamic Media Classic,SDK/API,Visionneuses
+role: Developer,Admin
 exl-id: 35a11828-d188-4025-8133-154437ba2466
-translation-type: tm+mt
-source-git-commit: f464a7adcb8035a5bdebf1a6c9b647ba04535431
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
 source-wordcount: '18'
 ht-degree: 33%
@@ -15,7 +14,7 @@ ht-degree: 33%
 
 # Type de visionneuse{#viewer-type}
 
-Utilisée par ViewerPresetInfo.
+Utilisé par ViewerPresetInfo.
 
 Syntaxe
 
