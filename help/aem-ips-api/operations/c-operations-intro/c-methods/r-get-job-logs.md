@@ -2,16 +2,15 @@
 description: Obtient les journaux de tâches spécifiés pour la société sélectionnée. Vous pouvez trier par caractères, direction, dates de début et de fin et nombre de lignes.
 solution: Experience Manager
 title: getJobLogs
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 6239c3c4-bdbc-4e69-82d4-48a76f080eff
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 10%
+source-wordcount: '189'
+ht-degree: 11%
 
 ---
-
 
 # getJobLogs{#getjoblogs}
 
@@ -19,7 +18,7 @@ Obtient les journaux de tâches spécifiés pour la société sélectionnée. Vo
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-9df82972265d44c9ad91504a17c3ffa6}
+## Types d’utilisateurs autorisés {#section-9df82972265d44c9ad91504a17c3ffa6}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,23 +36,23 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Non | Poignée de société. |
-| `*`userHandle`*` | `xsd:string` | Non | Récupère les journaux des tâches soumises par un utilisateur spécifique. |
+| `*`companyHandle`*` | `xsd:string` | Non | Le gérant de l&#39;entreprise. |
+| `*`userHandle`*` | `xsd:string` | Non | Obtient des journaux pour les tâches envoyées par un utilisateur spécifique. |
 | `*`sortBy`*` | `xsd:string` | Non | Permet de sélectionner des champs de tri. |
 | `*`sortDirection`*` | `xsd:string` | Non | Ordre de tri (croissant ou décroissant). |
-| `*`startDate`*` | `xsd:dateTime` | Non | Date et heure du début du journal des tâches. Indiquez le fuseau horaire avec la demande de ce champ. |
-| `*`endDate`*` | `xsd:dateTime` | Non | Date et heure de fin du journal des tâches. Indiquez le fuseau horaire avec la demande de ce champ. |
+| `*`startDate`*` | `xsd:dateTime` | Non | Date et heure de début du journal de la tâche. Fournissez le fuseau horaire avec la requête pour ce champ. |
+| `*`endDate`*` | `xsd:dateTime` | Non | Date et heure de fin du journal de la tâche. Fournissez le fuseau horaire avec la requête pour ce champ. |
 | `*`numRows`*` | `xsd:int` | Non | Nombre maximal de lignes à renvoyer. |
 
-**Output (getJobLogsReturn)**
+**Sortie (getJobLogsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`jobLogArray`*` | `types: JobLogArray` | Oui | Tableau des journaux des tâches. |
+| `*`jobLogArray`*` | `types: JobLogArray` | Oui | Tableau des journaux de tâches. |
 
 ## Exemples {#section-35871c94b4a44559912577efddbc46a6}
 
-Cet exemple de code renvoie des journaux de tâches IPS pour une société spécifique. Vous pouvez également l’utiliser pour renvoyer des journaux de tâches pour un utilisateur ou une société et un utilisateur spécifiques.
+Cet exemple de code renvoie des journaux de tâches IPS pour une entreprise spécifique. Vous pouvez également l’utiliser pour renvoyer les journaux de tâches d’un utilisateur ou d’une société et d’un utilisateur spécifiques.
 
 **Request**
 
@@ -86,4 +85,3 @@ Cet exemple de code renvoie des journaux de tâches IPS pour une société spéc
    </jobLogArray>
 </getJobLogsReturn>
 ```
-
