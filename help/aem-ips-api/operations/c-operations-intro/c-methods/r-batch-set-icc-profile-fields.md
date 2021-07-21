@@ -2,16 +2,15 @@
 description: Définit les champs de métadonnées de profil ICC.
 solution: Experience Manager
 title: batchSetIccProfileFields
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: d10a30ca-afa7-4ef0-8cef-0329b0068bf3
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 13%
+source-wordcount: '142'
+ht-degree: 14%
 
 ---
-
 
 # batchSetIccProfileFields{#batchseticcprofilefields}
 
@@ -19,7 +18,7 @@ Définit les champs de métadonnées de profil ICC.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-f6f7caf9434b4f469518dab64b76c0f4}
+## Types d’utilisateurs autorisés {#section-f6f7caf9434b4f469518dab64b76c0f4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,8 +33,8 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Pointez sur la société contenant les profils ICC. |
-| `*`tableau de mise à jour`*` | `xsd:string` | Oui | Tableau des mises à jour du profil ICC. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gérer la société qui contient les profils ICC. |
+| `*`mettre à jour le tableau`*` | `xsd:string` | Oui | Tableau des mises à jour de profil ICC. |
 
 **Sortie (batchSetIccProfileFields)**
 
@@ -44,7 +43,7 @@ Syntaxe
 | `*`successCount`*` | `xsd:int` | Oui | Nombre de champs de profil ICC correctement définis. |
 | `*`warningCount`*` | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de définir les champs de profil ICC. |
 | `*`errorCount`*` | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de définir les champs de profil ICC. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des avertissements lorsque l’opération tentait d’appliquer les mises à jour. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau de détails associés aux ressources qui ont généré des avertissements lorsque l’opération a tenté d’appliquer les mises à jour. |
 | `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des erreurs lorsque l’opération a tenté d’appliquer les mises à jour. |
 
 ## Exemples {#section-5dc90cfbd9b1411485b44859032f7cb9}
@@ -74,4 +73,3 @@ Syntaxe
    <errorCount>0</errorCount>
 </batchSetIccProfileFieldsReturn>
 ```
-
