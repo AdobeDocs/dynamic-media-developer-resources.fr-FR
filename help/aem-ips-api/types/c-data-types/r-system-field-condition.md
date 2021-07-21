@@ -1,23 +1,22 @@
 ---
-description: Condition de recherche de champ système pour l'opération searchAssets.
+description: Condition de recherche de champ système pour l’opération searchAssets.
 solution: Experience Manager
 title: SystemFieldCondition
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: ebd12727-dbb3-40dc-b631-945415331be6
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '122'
 ht-degree: 5%
 
 ---
 
-
 # SystemFieldCondition{#systemfieldcondition}
 
-Condition de recherche de champ système pour l&#39;opération searchAssets.
+Condition de recherche de champ système pour l’opération searchAssets.
 
-Pour les comparaisons unaires, transmettez exactement une valeur ( `boolVal`, `longVal`, `doubleVal` ou `dateVal`) en fonction du type de champ système. Pour les plages de recherche, transmettez les paramètres `min<Type>` et `max<Type>` et transmettez une valeur `op` de `Between` ou `NotBetween`.
+Pour les comparaisons unaires, transmettez exactement une valeur ( `boolVal`, `longVal`, `doubleVal` ou `dateVal`) selon le type de champ système. Pour les plages de recherche, transmettez les paramètres `min<Type>` et `max<Type>` et transmettez une valeur `op` de `Between` ou `NotBetween`.
 
 ## Paramètres {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -28,13 +27,13 @@ Pour les comparaisons unaires, transmettez exactement une valeur ( `boolVal`, `l
 | `*`value`*` | `xsd:string` | Valeur à tester. |
 | `*`boolVal`*` | `xsd:boolean` | Valeur de comparaison booléenne. |
 | `*`longVal`*` | `xsd:long` | Valeur de comparaison longue. |
-| `*`minLong`*` | `xsd:long` | Limite inférieure de la longue plage. |
-| `*`maxLong`*` | `xsd:long` | Limite supérieure de la longue plage. |
-| `*`doubleVal`*` | `xsd:double` | Valeur de comparaison du doublon. |
-| `*`minDouble`*` | `xsd:double` | Limite inférieure de la plage de doublons. |
-| `*`maxDouble`*` | `xsd:double` | Limite supérieure de la plage de doublons. |
-| `*`dateVal`*` | `xsd:dateTime` | Valeur de comparaison de dates. |
-| `*`minDate`*` | `xsd:dateTime` | Plage de dates minimale. |
+| `*`minLong`*` | `xsd:long` | Limite inférieure d’une longue plage. |
+| `*`maxLong`*` | `xsd:long` | Limite supérieure de longue plage. |
+| `*`doubleVal`*` | `xsd:double` | Valeur de comparaison double. |
+| `*`minDouble`*` | `xsd:double` | Limite inférieure d’une plage double. |
+| `*`maxDouble`*` | `xsd:double` | Limite supérieure de la plage double. |
+| `*`dateVal`*` | `xsd:dateTime` | Valeur de comparaison des dates. |
+| `*`minDate`*` | `xsd:dateTime` | Limite de plage de dates. |
 | `*`maxDate`*` | `xsd:dateTime` | Plage de dates maximale. |
 
 ## Exemple {#section-347d4aabfff44530adba03d1dc0b9968}
@@ -49,4 +48,3 @@ Pour les comparaisons unaires, transmettez exactement une valeur ( `boolVal`, `l
    </items>
 </systemFieldConditionArray>
 ```
-
