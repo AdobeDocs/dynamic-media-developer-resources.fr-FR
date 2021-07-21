@@ -2,16 +2,15 @@
 description: Renvoie toutes les valeurs d’un champ de métadonnées.
 solution: Experience Manager
 title: getDistinctMetadataValues
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Métadonnées
+role: Developer,Admin
+exl-id: 1987d8b0-64e4-49be-af45-98e4c6542e5f
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 21%
+source-wordcount: '71'
+ht-degree: 22%
 
 ---
-
 
 # getDistinctMetadataValues{#getdistinctmetadatavalues}
 
@@ -19,7 +18,7 @@ Renvoie toutes les valeurs d’un champ de métadonnées.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-f0f44fdcb318490582dd04de8eaf745d}
+## Types d’utilisateurs autorisés {#section-f0f44fdcb318490582dd04de8eaf745d}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,10 +34,10 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société pour laquelle vous souhaitez obtenir des données. |
-| `*`metadataKey`*` | `xsd:string` | Oui | Clé de métadonnées dans la notation des points. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de la société pour laquelle vous souhaitez obtenir des données. |
+| `*`metadataKey`*` | `xsd:string` | Oui | Clé de métadonnées en notation par points. |
 
-**Output (getDistinctMetadataValuesReturn)**
+**Sortie (getDistinctMetadataValuesReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -95,4 +94,3 @@ xmlns:ns="http://www.scene7.com/IpsApi/xsd/2010-01-31">
    </soapenv:Body>
 </soapenv:Envelope>
 ```
-
