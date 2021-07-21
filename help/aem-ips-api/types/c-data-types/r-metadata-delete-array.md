@@ -2,16 +2,15 @@
 description: Tableau de métadonnées à supprimer de la ressource.
 solution: Experience Manager
 title: MetadataDeleteArray
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Métadonnées
+role: Developer,Admin
+exl-id: b04405e6-48ec-4498-b86e-83bbddeb73ab
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 14%
+source-wordcount: '39'
+ht-degree: 15%
 
 ---
-
 
 # MetadataDeleteArray{#metadatadeletearray}
 
@@ -24,4 +23,3 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | `*`éléments`*` | `type:Metadata` | Tableau de paramètres de métadonnées à supprimer. |
-
