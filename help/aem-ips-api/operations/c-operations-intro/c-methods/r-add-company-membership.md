@@ -2,16 +2,15 @@
 description: Ajoute un utilisateur à une ou plusieurs sociétés.
 solution: Experience Manager
 title: addCompanyMembership
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 6efef4fb-f2e5-4c41-b739-a36ac2f17884
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '88'
 ht-degree: 13%
 
 ---
-
 
 # addCompanyMembership{#addcompanymembership}
 
@@ -19,7 +18,7 @@ Ajoute un utilisateur à une ou plusieurs sociétés.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-ae926c7672984be79f6102748accab72}
+## Types d’utilisateurs autorisés {#section-ae926c7672984be79f6102748accab72}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,12 +31,12 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Non | Nom d’utilisateur dont vous souhaitez ajouter l’adhésion. |
-| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Oui | Tableau de sociétés auxquelles vous ajoutez l’utilisateur. |
+| `*`userHandle`*` | `xsd:string` | Non | Gestionnaire de l’utilisateur dont vous souhaitez ajouter l’adhésion. |
+| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Oui | Un ensemble d’entreprises auxquelles vous ajoutez l’utilisateur. |
 
-**Output (addCompanyMembershipReturn)**
+**Sortie (addCompanyMembershipReturn)**
 
-L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-5469f88bac7047cca131faa6b021e437}
 
