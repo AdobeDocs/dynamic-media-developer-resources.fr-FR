@@ -1,25 +1,24 @@
 ---
-description: Renvoie une région recadrée pour une image en fonction de sa couleur d’arrière-plan ou de sa transparence.
+description: Renvoie une zone recadrée pour une image en fonction de sa couleur d’arrière-plan ou de sa transparence.
 solution: Experience Manager
 title: getAutoCropRect
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: e291597a-b863-42dd-88dc-13398b734410
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '157'
 ht-degree: 14%
 
 ---
 
-
 # getAutoCropRect{#getautocroprect}
 
-Renvoie une région recadrée pour une image en fonction de sa couleur d’arrière-plan ou de sa transparence.
+Renvoie une zone recadrée pour une image en fonction de sa couleur d’arrière-plan ou de sa transparence.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-32dfe7bb68764b93ae01e05ff7a7bdd0}
+## Types d’utilisateurs autorisés {#section-32dfe7bb68764b93ae01e05ff7a7bdd0}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -39,16 +38,16 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée vers la société avec la ressource que vous souhaitez utiliser. |
-| `*`assetHandle`*` | `xsd:string` | Oui | Poignée de la ressource que vous souhaitez utiliser. |
-| `*`autoColorCropOptions`*` | `types:AutoColorCropOptions` | Non | Calcule le rectangle de recadrage en fonction de la couleur. Voir [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6). |
-| `*`autoTransparentCropOptions`*` | `types:AutoTransparentCropOptions` | Non | Calcule le rectangle de recadrage en fonction de la transparence. Voir [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b). |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de l’entreprise avec la ressource que vous souhaitez utiliser. |
+| `*`assetHandle`*` | `xsd:string` | Oui | Gestion de la ressource que vous souhaitez utiliser. |
+| `*`autoColorCropOptions`*` | `types:AutoColorCropOptions` | Non | Calculez le rectangle de recadrage en fonction de la couleur. Voir [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6). |
+| `*`autoTransparentCropOptions`*` | `types:AutoTransparentCropOptions` | Non | Calculez le rectangle de recadrage en fonction de la transparence. Voir [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b). |
 
 **Sortie (getAutoCropRectReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`xOffset`*` | `xsd:int` | Oui | Coordonnée des pixels de départ gauche de la région de recadrage calculée. |
+| `*`xOffset`*` | `xsd:int` | Oui | Coordonnée en pixels de départ gauche de la région de recadrage calculée. |
 | `*`Décalage`*` | `xsd:int` | Oui | Coordonnée du premier pixel de la région de recadrage calculée. |
 | `*`width`*` | `xsd:int` | Oui | Largeur de la région de recadrage calculée (en pixels). |
 | `*`height`*` | `xsd:int` | Oui | Hauteur de la région de recadrage calculée (en pixels). |
@@ -81,6 +80,6 @@ Syntaxe
 
 >[!MORELIKETHIS]
 >
->* [Options de recadrage automatique des couleurs](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)
->* [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)
+>* [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)
+* [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)
 
