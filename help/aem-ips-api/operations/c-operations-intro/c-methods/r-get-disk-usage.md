@@ -2,22 +2,21 @@
 description: Renvoie des informations sur la structure d’une société (nombre de fichiers, etc.).
 solution: Experience Manager
 title: getDiskUsage
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 06fdd9f5-5021-4f0b-b312-4465df9bda25
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '103'
 ht-degree: 13%
 
 ---
-
 
 # getDiskUsage{#getdiskusage}
 
 Renvoie des informations sur la structure d’une société (nombre de fichiers, etc.).
 
-## Types d’utilisateur autorisés {#authorized-user-types}
+## Types d’utilisateurs autorisés {#authorized-user-types}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,17 +29,17 @@ Renvoie des informations sur la structure d’une société (nombre de fichiers,
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société dont vous souhaitez obtenir l&#39;utilisation du disque. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Le gestionnaire à la société dont vous souhaitez obtenir l’utilisation du disque. |
 
-**Output (getDiskUsageReturn)**
+**Sortie (getDiskUsageReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`diskUsageArray`*` | `types:DiskUsageArray` | Oui | Tableau de l&#39;utilisation des disques de société. |
+| `*`diskUsageArray`*` | `types:DiskUsageArray` | Oui | Tableau de l’utilisation du disque de l’entreprise. |
 
 ## Exemples {#section-cb16a97badc94076ad5da277db5ed16a}
 
-Le nom de cette demande est trompeur. Plutôt que de renvoyer uniquement une valeur scalaire qui reflète l&#39;espace disque utilisé par une société, elle obtient d&#39;autres informations sur la structure d&#39;une société également.
+Le nom de cette demande est trompeur. Plutôt que de renvoyer uniquement une valeur scalaire qui reflète la quantité d’espace disque qu’une entreprise utilise, elle obtient d’autres informations sur la structure d’une entreprise également.
 
 **Request**
 
@@ -65,4 +64,3 @@ Le nom de cette demande est trompeur. Plutôt que de renvoyer uniquement une val
    </diskUsageArray>
 </getDiskUsageReturn>
 ```
-
