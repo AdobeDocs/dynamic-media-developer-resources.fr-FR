@@ -1,25 +1,24 @@
 ---
-description: Affecter ou mettre à jour des ressources dans un projet.
+description: Affectez ou mettez à jour des ressources dans un projet.
 solution: Experience Manager
 title: setProjectAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+role: Developer,Admin
+exl-id: b6e6e9bd-5ee2-4750-9182-49e7a3e3486c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '90'
 ht-degree: 18%
 
 ---
 
-
 # setProjectAssets{#setprojectassets}
 
-Affecter ou mettre à jour des ressources dans un projet.
+Affectez ou mettez à jour des ressources dans un projet.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-8d87939db6d547b48ca6d71771bbefa8}
+## Types d’utilisateurs autorisés {#section-8d87939db6d547b48ca6d71771bbefa8}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,19 +33,19 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | Oui | Poignée de société. |
-| `*`projectHandle`*` | `xsd:string` | Oui | Handle du projet. |
-| `*`assetHandleArray`*` | `types:HandleArray` | Oui | Tableau de gestionnaires de ressources que vous souhaitez associer au projet. |
+| `*`companyName`*` | `xsd:string` | Oui | Poignée de la société. |
+| `*`projectHandle`*` | `xsd:string` | Oui | Gestionnaire de projet. |
+| `*`assetHandleArray`*` | `types:HandleArray` | Oui | Le tableau de ressources gère les ressources que vous souhaitez associer au projet. |
 
-**Output (setProjectAssetsReturn)**
+**Sortie (setProjectAssetsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Oui | Nombre de fichiers ajoutés avec succès. |
+| `*`successCount`*` | `xsd:int` | Oui | Nombre de ressources ajoutées avec succès. |
 
 ## Exemples {#section-33c1a909c3dc4aa98da474c23a036596}
 
-Cet exemple de code affecte un fichier à un projet. La requête renvoie un nombre de succès de un.
+Cet exemple de code affecte une ressource à un projet. La requête renvoie un nombre de succès d’un.
 
 **Request**
 
@@ -69,4 +68,3 @@ Cet exemple de code affecte un fichier à un projet. La requête renvoie un nomb
    <errorCount>0</errorCount>
 </setProjectAssetsReturn>
 ```
-
