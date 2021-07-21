@@ -1,25 +1,24 @@
 ---
-description: Met à jour les autorisations de ressources.
+description: Met à jour les autorisations des ressources.
 solution: Experience Manager
 title: updateAssetPermissions
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+role: Developer,Admin
+exl-id: 12972a52-7b70-405c-9c73-e5ce6ab7dd9b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 20%
+source-wordcount: '61'
+ht-degree: 21%
 
 ---
 
-
 # updateAssetPermissions{#updateassetpermissons}
 
-Met à jour les autorisations de ressources.
+Met à jour les autorisations des ressources.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-3928e9badc3842e1859af4ed362df719}
+## Types d’utilisateurs autorisés {#section-3928e9badc3842e1859af4ed362df719}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,13 +30,13 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société. |
 | `*`assetHandle`*` | `xsd:string` | Oui | Poignée de ressource. |
 | `*`updateArray`*` | `types:PermissionUpdateArray` | Oui | Autorisations que vous souhaitez appliquer à la ressource. |
 
-**Output (updateAssetPermissionsReturn)**
+**Sortie (updateAssetPermissionsReturn)**
 
-L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-1b7b7dbfdab34c819a53f3d33004e1f9}
 
