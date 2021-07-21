@@ -1,19 +1,18 @@
 ---
 description: Utilisé par ActiveJobs/state.
 solution: Experience Manager
-title: États de travail principaux
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+title: Principaux états de tâche
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: d4a7ef64-ab7f-4f8f-9c61-2aa67e67b609
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 8%
+source-wordcount: '21'
+ht-degree: 9%
 
 ---
 
-
-# États de tâche principaux{#active-job-states}
+# Principaux états de tâche{#active-job-states}
 
 Utilisé par ActiveJobs/state.
 
@@ -28,4 +27,3 @@ Syntaxe
 * [!DNL `Running`]
 * [!DNL `Stopping`]
 * [!DNL `Done`]
-
