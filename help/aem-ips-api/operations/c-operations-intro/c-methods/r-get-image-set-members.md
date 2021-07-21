@@ -1,25 +1,24 @@
 ---
-description: Récupère un tableau de membres qui se trouvent dans une visionneuse d’images.
+description: Obtient un tableau des membres d’une visionneuse d’images.
 solution: Experience Manager
 title: getImageSetMembers
-feature: Dynamic Media Classic,SDK/API,Image Sets
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Visionneuses d’images
+role: Developer,Admin
+exl-id: 29ceef8b-127f-4460-8623-c3e26c959327
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 15%
 
 ---
 
-
 # getImageSetMembers{#getimagesetmembers}
 
-Récupère un tableau de membres qui se trouvent dans une visionneuse d’images.
+Obtient un tableau des membres d’une visionneuse d’images.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-eaa3a167fa77403ea1b374b05fff4ded}
+## Types d’utilisateurs autorisés {#section-eaa3a167fa77403ea1b374b05fff4ded}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -32,7 +31,7 @@ Syntaxe
 
 >[!NOTE]
 >
->Nécessite l’accès en lecture à l’image et au fichier de jeu de membres.
+>Nécessite un accès en lecture à l’image et à la ressource du jeu de membres.
 
 ## Paramètres {#section-a67ba98095574533980997c83ceaa316}
 
@@ -40,14 +39,14 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société contenant la visionneuse d’images. |
-| `*`assetHandle`*` | `xsd:string` | Oui | Poignée de fichier de visionneuse d’images. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de la société qui contient la visionneuse d’images. |
+| `*`assetHandle`*` | `xsd:string` | Oui | Gestionnaire de ressources de la visionneuse d’images. |
 
-**Output (getImageSetMembersReturn)**
+**Sortie (getImageSetMembersReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`MemberArray`*` | `types:ImageSetMemberArray` | Non | Tableau des membres de la visionneuse d’images. |
+| `*`memberArray`*` | `types:ImageSetMemberArray` | Non | Tableau des membres de la visionneuse d’images. |
 
 ## Exemples {#section-888a9a78033346f39b171229de93dfa0}
 
@@ -69,4 +68,3 @@ Cet exemple de code renvoie des membres de visionneuse d’images spécifiques. 
    <memberArray></memberArray>
 </getImageSetMembersReturn>
 ```
-
