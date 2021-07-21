@@ -1,25 +1,24 @@
 ---
-description: Renvoie les actifs d’IPS.
+description: Renvoie les ressources provenant d’IPS.
 solution: Experience Manager
 title: getAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+role: Developer,Admin
+exl-id: 3b63da9c-f10a-40bf-8e3c-4f0bfc53d74c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 19%
+source-wordcount: '125'
+ht-degree: 20%
 
 ---
 
-
 # getAssets{#getassets}
 
-Renvoie les actifs d’IPS.
+Renvoie les ressources provenant d’IPS.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-4673c1c9f4314160af8b165eb2dd20cc}
+## Types d’utilisateurs autorisés {#section-4673c1c9f4314160af8b165eb2dd20cc}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,7 +32,7 @@ Syntaxe
 
 >[!NOTE]
 >
->Renvoie uniquement les actifs auxquels l’utilisateur a accès.
+>Renvoie uniquement les ressources auxquelles l’utilisateur a accès.
 
 ## Paramètres {#section-bb9cf1ab19ea47acbd9ae58646dbe273}
 
@@ -53,13 +52,13 @@ Syntaxe
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Poignée de société. </p> </td> 
+   <td colname="col4"> <p>Le gérant de l'entreprise. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Personnalisez un utilisateur spécifique. Utilisé par les administrateurs uniquement. </p> </td> 
+   <td colname="col4"> <p>Empruntez l’identité d’un utilisateur spécifique. Utilisé par les administrateurs uniquement. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </p> </td> 
@@ -71,7 +70,7 @@ Syntaxe
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:HandleArray</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>dossier racine dans lequel récupérer les dossiers et tous les sous-dossiers au niveau feuille. Si elle est exclue, la racine de la société est utilisée. </p> </td> 
+   <td colname="col4"> <p>Le dossier racine pour récupérer les dossiers et tous les sous-dossiers au niveau de la feuille. Si elle est exclue, la racine de l’entreprise est utilisée. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </p> </td> 
@@ -102,11 +101,9 @@ Syntaxe
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> type:AssetArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:AssetArray</span> </p> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Tableau de ressources correspondant aux critères de filtre. </p> </td> 
+   <td colname="col4"> <p>Tableau des ressources correspondant aux critères de filtrage. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
-
