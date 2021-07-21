@@ -2,16 +2,15 @@
 description: Représente une société.
 solution: Experience Manager
 title: Entreprise
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: e831a081-145a-4fb4-a617-7eecea8d40ed
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 28%
+source-wordcount: '37'
+ht-degree: 29%
 
 ---
-
 
 # Entreprise{#company}
 
@@ -23,8 +22,7 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Poignée de société. |
+| `*`companyHandle`*` | `xsd:string` | Poignée de la société. |
 | `*`name`*` | `xsd:string` | Nom de la société. |
-| `*`rootPath`*` | `xsd:string` | Chemin racine de la société. |
+| `*`rootPath`*` | `xsd:string` | Chemin racine de l’entreprise. |
 | `*`expires`*` | `xsd:dateTime` | Date et heure d’expiration de la société. |
-
