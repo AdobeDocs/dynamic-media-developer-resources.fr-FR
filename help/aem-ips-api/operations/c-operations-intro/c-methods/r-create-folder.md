@@ -2,16 +2,15 @@
 description: Crée un dossier.
 solution: Experience Manager
 title: createFolder
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 569130ae-5515-4b14-a410-2bd6f9fc7638
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '123'
 ht-degree: 17%
 
 ---
-
 
 # [!DNL createFolder]{#createfolder}
 
@@ -19,11 +18,11 @@ Crée un dossier.
 
 >[!NOTE]
 >
->Le nouveau dossier est Secondaire au dossier Images, même si vous spécifiez `/` pour indiquer la racine de la société.
+>Le nouveau dossier est Secondaire au dossier Images , même si vous spécifiez une balise `/` pour indiquer la racine de l’entreprise.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-14ef6368056b4e8f96198c20b6d93b9b}
+## Types d’utilisateurs autorisés {#section-14ef6368056b4e8f96198c20b6d93b9b}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -42,18 +41,18 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Le Handle à la société |
-| `*`folderPath`*` | `xsd:string` | Oui | Dossier racine utilisé pour récupérer les dossiers et tous les sous-dossiers au niveau feuille. Si elle est exclue, la racine de la société est utilisée. |
+| `*`companyHandle`*` | `xsd:string` | Oui | La gestion de la société |
+| `*`folderPath`*` | `xsd:string` | Oui | Dossier racine utilisé pour récupérer les dossiers et tous les sous-dossiers au niveau de la feuille. Si elle est exclue, la racine de l’entreprise est utilisée. |
 
 **Output (createFolderParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | Oui | Gestionnaire du nouveau dossier. |
+| `*`folderHandle`*` | `xsd:string` | Oui | Gestion du nouveau dossier. |
 
 ## Exemples {#section-e596fbdb44fd43c8b30005cb2a2fdf26}
 
-Cet exemple de code crée un dossier à la racine d&#39;une société. La réponse renvoie le nom d&#39;utilisateur du dossier que vous venez de créer.
+Cet exemple de code crée un dossier à la racine d’une entreprise. La réponse renvoie le gestionnaire du dossier nouvellement créé.
 
 **Request**
 
@@ -71,4 +70,3 @@ Cet exemple de code crée un dossier à la racine d&#39;une société. La répon
    <folderHandle xmlns="http://www.scene7.com/IpsApi/xsd">MyCompany/SpinSets/</folderHandle>
 </ns1:createFolderReturn>
 ```
-
