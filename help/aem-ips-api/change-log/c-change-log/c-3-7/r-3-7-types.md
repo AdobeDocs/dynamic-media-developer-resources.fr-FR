@@ -1,21 +1,20 @@
 ---
-description: Décrit les types de données nouveaux et modifiés pour l'API IPS version 3.7.
+description: Décrit les types de données nouveaux et modifiés pour l’API IPS version 3.7.
 solution: Experience Manager
 title: Types de données nouveaux et modifiés
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 0209f3aa-204a-47bd-98ff-430bd8f3ac0e
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '44'
 ht-degree: 4%
 
 ---
 
+# Types de données : Nouveautés et modifications{#data-types-new-and-modified}
 
-# Types de données : Nouveau et modifié{#data-types-new-and-modified}
-
-Décrit les types de données nouveaux et modifiés pour l&#39;API IPS version 3.7.
+Décrit les types de données nouveaux et modifiés pour l’API IPS version 3.7.
 
 Syntaxe
 
@@ -33,5 +32,4 @@ Syntaxe
 
 **Fichier**
 
-* Ajouté `ZipInfo`.
-
+* Ajout de `ZipInfo`.
