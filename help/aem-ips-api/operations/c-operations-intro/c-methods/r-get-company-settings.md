@@ -1,25 +1,24 @@
 ---
-description: Renvoie les paramètres IPS pour une société spécifique.
+description: Renvoie les paramètres IPS d’une société spécifique.
 solution: Experience Manager
 title: getCompanySettings
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: b9f41405-8a45-416c-acec-ef22c2ee119e
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 22%
+source-wordcount: '69'
+ht-degree: 23%
 
 ---
 
-
 # getCompanySettings{#getcompanysettings}
 
-Renvoie les paramètres IPS pour une société spécifique.
+Renvoie les paramètres IPS d’une société spécifique.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-3378c9c67029473a87d5f5d8c616b1f3}
+## Types d’utilisateurs autorisés {#section-3378c9c67029473a87d5f5d8c616b1f3}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,17 +31,17 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société dont vous souhaitez récupérer les paramètres. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Le gestionnaire de la société dont vous souhaitez récupérer les paramètres. |
 
-**Output (getCompanySettingsReturn)**
+**Sortie (getCompanySettingsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`paramètres`*` | `types:CompanySettings` | Oui | Paramètres de société. |
+| `*`paramètres`*` | `types:CompanySettings` | Oui | Paramètres de l’entreprise. |
 
 ## Exemples {#section-191f78995ecf473a95eadf7296204fd7}
 
-Cet exemple de code renvoie tous les paramètres IPS pour une société spécifique.
+Cet exemple de code renvoie tous les paramètres IPS d’une société spécifique.
 
 **Request**
 
@@ -79,4 +78,3 @@ Cet exemple de code renvoie tous les paramètres IPS pour une société spécifi
    </settings>
 </getCompanySettingsReturn>
 ```
-
