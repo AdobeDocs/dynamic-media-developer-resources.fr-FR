@@ -2,16 +2,15 @@
 description: Types de données
 solution: Experience Manager
 title: Types de données
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: a8bc6fcc-fb94-4bc2-83b7-76788db15f3e
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '231'
 ht-degree: 4%
 
 ---
-
 
 # Types de données{#data-types}
 
@@ -33,31 +32,31 @@ ht-degree: 4%
 + [AssetMoveArray](r-asset-move-array.md)
 + [AssetOperationFault](r-asset-operation-fault.md)
 + [AssetOperationFaultArray](r-asset-operation-fault-array.md)
-+ [AssetPublishContextes](r-asset-publish-context.md)
++ [AssetPublishContexts](r-asset-publish-context.md)
 + [AssetPublishContextArray](r-asset-publish-context-array.md)
 + [AssetSetInfo](r-asset-set-info.md)
 + [AssetSummary](r-asset-summary.md)
 + [AssetSummaryArray](r-asset-summary-array.md)
 + [AudioInfo](r-audio-info.md)
-+ [Options de recadrage automatique des couleurs](r-auto-color-crop-options.md)
++ [AutoColorCropOptions](r-auto-color-crop-options.md)
 + [AutomatedSetGenerationJob](r-automated-set-generation-job.md)
-+ [OptionsCréationAutoSet](r-auto-set-creation-options.md)
++ [AutoSetCreationOptions](r-auto-set-creation-options.md)
 + [AutoTransparentCropOptions](r-auto-transparent-crop-options.md)
-+ [Mise à jour des métadonnées de lot](r-batch-metadata-update.md)
++ [BatchMetadataUpdate](r-batch-metadata-update.md)
 + [BatchMetadataUpdateArray](r-batch-metadata-update-array.md)
 + [CabinetInfo](r-cabinet-info.md)
-+ [OptionsGestionCouleur](r-color-management-options.md)
++ [ColorManagementOptions](r-color-management-options.md)
 + [Entreprise](r-company.md)
 + [CompanyArray](r-company-array.md)
 + [CompanyMember](r-company-member.md)
 + [CompanyMemberArray](r-company-member-array.md)
-+ [Appartenance à une société](r-company-membership.md)
++ [CompanyMembership](r-company-membership.md)
 + [CompanyMembershipArray](r-company-membership-array.md)
 + [CompanyMembershipUpdate](r-company-membership-update.md)
 + [CompanyMembershipUpdateArray](r-company-membership-update-array.md)
 + [CompanyMetadataInfo](r-company-metadata-info.md)
 + [CompanyMetadataInfoArray](r-company-metadata-info-array.md)
-+ [CompanySettings](r-company-settings.md)
++ [Paramètres de la société](r-company-settings.md)
 + [ConfigSetting](r-config-setting.md)
 + [ConfigSettingArray](r-config-settings-array.md)
 + [ContextStateUpdate](r-context-state-update.md)
@@ -69,9 +68,9 @@ ht-degree: 4%
 + [DiskUsageArray](r-disk-usage-array.md)
 + [EmailConfirmation](r-email-confirmation.md)
 + [EmailArray](r-email-array.md)
-+ [ExclureByproductArray](r-exclude-byproduct-array.md)
-+ [ExclureByproductCondition](r-exclude-byproduct-condition.md)
-+ [ExclureMasterVideoFromAVS](r-exclude-master-video-from-avs.md)
++ [ExcludeByproductArray](r-exclude-byproduct-array.md)
++ [ExcludeByproductCondition](r-exclude-byproduct-condition.md)
++ [ExcludeMasterVideoFromAVS](r-exclude-master-video-from-avs.md)
 + [ExcelInfo](r-excel-info.md)
 + [ExportJob](r-exportjob.md)
 + [FlashInfo](r-flash-info.md)
@@ -84,7 +83,7 @@ ht-degree: 4%
 + [GenerationAttributeArray](r-generation-attribute-array.md)
 + [GenerationInfo](r-generation-info.md)
 + [GenerationInfoArray](r-generation-info-array.md)
-+ [Group](r-group.md)
++ [Groupe](r-group.md)
 + [GroupArray](r-group-array.md)
 + [HandleArray](r-handle-array.md)
 + [IccProfileFieldUpdate](r-icc-profile-field-update.md)
@@ -119,7 +118,7 @@ ht-degree: 4%
 + [KeywordsArray](r-keywords-array.md)
 + [KnockoutBackgroundOptions](r-knockout-background-options.md)
 + [LayerViewInfo](r-layer-view-info.md)
-+ [Options de recadrage manuel](r-manual-crop-options.md)
++ [ManualCropOptions](r-manual-crop-options.md)
 + [Masque](r-mask.md)
 + [MaskArray](r-mask-array.md)
 + [MaskInfo](r-mask-info.md)
@@ -142,11 +141,11 @@ ht-degree: 4%
 + [OperationFaultArray](r-operation-fault-array.md)
 + [OptimizeImagesJob](r-optimize-images-job.md)
 + [PdfInfo](r-pdf-info.md)
-+ [Options PDFO](r-pdf-options.md)
++ [PDFOptions](r-pdf-options.md)
 + [PdfSettingsInfo](r-pdf-settings-info.md)
 + [Autorisation](r-permissions.md)
 + [PermissionArray](r-permission-array.md)
-+ [PermissonSet](r-permission-set.md)
++ [PermissionSet](r-permission-set.md)
 + [PermissionSetArray](r-permission-set-array.md)
 + [PermissionUpdate](r-permission-update.md)
 + [PermissionUpdateArray](r-permission-update-array.md)
@@ -166,9 +165,9 @@ ht-degree: 4%
 + [PropertySetType](r-property-set-type.md)
 + [PropertySetTypeArray](r-property-set-type-array.md)
 + [PsdInfo](r-psd-info.md)
-+ [Contexte de publication](r-publish-context.md)
++ [PublishContext](r-publish-context.md)
 + [PublishContextArray](r-publish-context-array.md)
-+ [Historique de publication](r-publish-history.md)
++ [PublishHistory](r-publish-history.md)
 + [PublishHistoryArray](r-publish-history-array.md)
 + [PublishStateUpdate](r-publish-state-update.md)
 + [PublishStateUpdateArray](r-publish-state-update-array.md)
@@ -206,10 +205,10 @@ ht-degree: 4%
 + [ThumbAssetUpdate](r-thumb-asset-update.md)
 + [ThumbAssetUpdateArray](r-thumb-asset-update-array.md)
 + [ThumbnailOptions](r-thumbnail-options.md)
-+ [AnnulerCompressionOptions](r-uncompress-options.md)
++ [UnCompressOptions](r-uncompress-options.md)
 + [UnsharpMaskOptions](r-unsharp-mask-options.md)
 + [UploadDirectoryJob](r-upload-directory-job.md)
-+ [TéléchargerPostJob](r-upload-post-job.md)
++ [UploadPostJob](r-upload-post-job.md)
 + [UploadUrl](r-upload-url.md)
 + [UploadUrlArray](r-upload-url-array.md)
 + [UploadUrlsJob](r-upload-urls-job.md)
@@ -228,7 +227,7 @@ ht-degree: 4%
 + [XmlInfo](r-xml-info.md)
 + [XmpKeywords](r-xmp-keywords.md)
 + [XslInfo](r-xsl-info.md)
-+ [EntréeZip](r-zip-entry.md)
++ [ZipEntry](r-zip-entry.md)
 + [ZipEntryArray](r-zip-entry-array.md)
 + [ZipInfo](r-zip-info.md)
 + [Cible de zoom](r-zoom-target.md)
