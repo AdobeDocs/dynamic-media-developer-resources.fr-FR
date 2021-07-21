@@ -2,16 +2,15 @@
 description: Options d’un fichier Adobe Illustrator.
 solution: Experience Manager
 title: IllustratorOptions
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: f6c06fe3-5dfa-4885-9083-c6c41ae0e0ea
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '64'
 ht-degree: 10%
 
 ---
-
 
 # IllustratorOptions{#illustratoroptions}
 
@@ -24,7 +23,6 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | `*`processus`*` | `xsd:string` | Choix des processus Illustrator. |
-| `*`résolution`*` | `xsd:string` | Résolution du fichier. |
-| `*`colorSpace`*` | `xsd:string` | Espace colorimétrique de la cible. |
-| `*`alpha`*` | `xsd:boolean` | Indique si le fichier doit être pixellisé dans une image. Si tel est le cas, créez un arrière-plan transparent si le fichier d’origine est défini de cette façon pour créer des logos superposés. |
-
+| `*`resolution`*` | `xsd:string` | Résolution du fichier. |
+| `*`colorSpace`*` | `xsd:string` | Espace colorimétrique cible. |
+| `*`alpha`*` | `xsd:boolean` | Indique s’il faut pixelliser le fichier dans une image. Si tel est le cas, créez un arrière-plan transparent si le fichier d’origine est défini de cette manière pour créer des logos superposés. |
