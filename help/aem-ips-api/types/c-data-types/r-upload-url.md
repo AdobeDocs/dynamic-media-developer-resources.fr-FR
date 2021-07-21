@@ -1,21 +1,20 @@
 ---
-description: Pour télécharger des fichiers au moyen de l’URL.
+description: Pour charger des ressources via une URL.
 solution: Experience Manager
 title: UploadUrl
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: f13fc27c-a91f-4823-8d65-664854af98ae
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '46'
 ht-degree: 10%
 
 ---
 
-
 # UploadUrl{#uploadurl}
 
-Pour télécharger des fichiers au moyen de l’URL.
+Pour charger des ressources via une URL.
 
 Syntaxe
 
@@ -23,6 +22,5 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`sourceUrl`*` | `xsd:string` | URL source à partir de laquelle le fichier est téléchargé. |
-| `*`destPath`*` | `xsd:string` | Chemin d&#39;accès au fichier IPS et nom du fichier vers lequel vous souhaitez effectuer le téléchargement. |
-
+| `*`sourceUrl`*` | `xsd:string` | URL source à partir de laquelle la ressource est chargée. |
+| `*`destPath`*` | `xsd:string` | Chemin d’accès au fichier IPS et nom du fichier vers lequel vous souhaitez effectuer le téléchargement. |
