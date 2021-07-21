@@ -1,21 +1,20 @@
 ---
-description: Propriétés des fichiers vidéo.
+description: Propriétés de la ressource vidéo.
 solution: Experience Manager
 title: VideoInfo
-feature: Dynamic Media Classic,SDK/API,Video
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Vidéo
+role: Developer,Admin
+exl-id: 4f01d54b-1799-40f8-8c46-f170ceffdd25
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: '67'
 ht-degree: 10%
 
 ---
 
-
 # VideoInfo{#videoinfo}
 
-Propriétés des fichiers vidéo.
+Propriétés de la ressource vidéo.
 
 Syntaxe
 
@@ -23,11 +22,10 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | Chemin relatif vers la vidéo téléchargée. |
+| `*`originalPath`*` | `xsd:string` | Chemin d’accès relatif à la vidéo téléchargée. |
 | `*`originalFile`*` | `xsd:string` | Nom du fichier vidéo d’origine. |
 | `*`fileSize`*` | `xsd:int` | Taille du fichier. |
 | `*`imagePath`*` | `xsd:string` | Chemin d’accès relatif au fichier vidéo. |
 | `*`imageFile`*` | `xsd:string` | Nom de fichier du fichier vidéo. |
-| `*`optimizedPath`*` | `xsd:string` | Chemin d’accès au fichier vidéo optimisé pour IPS. |
+| `*`optimizedPath`*` | `xsd:string` | Chemin d’accès au fichier vidéo optimisé par IPS. |
 | `*`optimizedFile`*` | `xsd:string` | Nom de fichier du fichier vidéo optimisé par IPS. |
-
