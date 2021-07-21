@@ -1,25 +1,24 @@
 ---
-description: Tâche exécutée sur un serveur. Il s’agit également d’une instance d’une tâche planifiée.
+description: Tâche qui s’exécute sur un serveur. Il s’agit également d’une instance d’une tâche planifiée.
 solution: Experience Manager
 title: ActiveJob
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 3d878207-99e4-4c75-ab12-b38a37c82fb7
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '380'
 ht-degree: 9%
 
 ---
 
-
 # ActiveJob{#activejob}
 
-Tâche exécutée sur un serveur. Il s’agit également d’une instance d’une tâche planifiée.
+Tâche qui s’exécute sur un serveur. Il s’agit également d’une instance d’une tâche planifiée.
 
 Les emplois existent dans 3 états :
 
-* Programmé pour exécution.
+* Planifié à exécuter.
 * En cours d’exécution.
 * Exécution terminée (et avoir déjà écrit des informations dans un journal de tâches).
 
@@ -46,7 +45,7 @@ Spécifiez une valeur de type de tâche pour renvoyer le type de tâche. Vous po
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Pose la société. </td> 
+   <td colname="col3"> Gérer la société. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
@@ -61,7 +60,7 @@ Spécifiez une valeur de type de tâche pour renvoyer le type de tâche. Vous po
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Nom original du type <span class="codeph"> ActiveJob</span> envoyé avec la tâche. </td> 
+   <td colname="col3">Nom d’origine du type <span class="codeph"> ActiveJob</span> envoyé avec la tâche. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
@@ -71,7 +70,7 @@ Spécifiez une valeur de type de tâche pour renvoyer le type de tâche. Vous po
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> state</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Choix des états de travail principaux renvoyés par le système. </td> 
+   <td colname="col3"> Choix des états de tâche principaux renvoyés par le système. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> submitUserEmail</span> </span> </td> 
@@ -81,7 +80,7 @@ Spécifiez une valeur de type de tâche pour renvoyer le type de tâche. Vous po
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Paramètres régionaux des détails du journal des tâches et de la localisation de courrier électronique. <p>Spécifiez les paramètres régionaux sous la forme <span class="codeph"> &lt;code_langue&gt;[-&lt;code_pays&gt;]</span>, où le code de langue est un code à deux lettres minuscule, comme spécifié par ISO-639, et le code de pays facultatif est un code à deux lettres majuscules, comme spécifié par ISO-3166. Par exemple, la chaîne de paramètres régionaux pour l’anglais (Etats-Unis) serait : <span class="codeph"> en-US</span>. </p></td> 
+   <td colname="col3">Paramètre régional pour les détails du journal des tâches et la localisation des emails. <p>Spécifiez les paramètres régionaux comme <span class="codeph"> &lt;code_langue&gt;[-&lt;code_pays&gt;]</span>, où le code de langue est un code à deux lettres en minuscules, comme spécifié par ISO-639, et le code de pays facultatif est un code à deux lettres en majuscules, comme spécifié par ISO-3166. Par exemple, la chaîne du paramètre régional pour l’anglais (États-Unis) serait : <span class="codeph"> en-US</span>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> description</span> </span> </td> 
@@ -106,7 +105,7 @@ Spécifiez une valeur de type de tâche pour renvoyer le type de tâche. Vous po
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> progress</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> Progression de la tâche (c.-à-d. la distance à laquelle la tâche se rapproche). </td> 
+   <td colname="col3"> Progression de la tâche (c.-à-d. la distance à laquelle la tâche se termine). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> progressMessage</span> </span> </td> 
@@ -121,36 +120,36 @@ Spécifiez une valeur de type de tâche pour renvoyer le type de tâche. Vous po
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> taskProgressArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:TaskProgressArray</span> </td> 
-   <td colname="col3"> Informations sur la progression de la tâche asynchrone. </td> 
+   <td colname="col3"> Informations de progression de la tâche asynchrone. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageServingPublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:ImageServingPublishJob</span> </td> 
-   <td colname="col3"> Détails de la tâche pour une tâche de publication avec image. </td> 
+   <td colname="col2"> <span class="codeph"> types:ImageServingPublishJob</span> </td> 
+   <td colname="col3"> Détails de la tâche pour une tâche de publication de diffusion d’image. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> imageServingRenderJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:ImageServingRenderJob</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:ImageServingRenderJob</span> </td> 
    <td colname="col3"> Détails de la tâche pour une tâche de publication de rendu d’image. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> videoPublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:VideoPublishJob</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:VideoPublishJob</span> </td> 
    <td colname="col3"> Détails de la tâche pour une tâche de publication vidéo. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> serverDirectoryPublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:ImageServingPublishJob</span> </td> 
-   <td colname="col3"> Détails de la tâche pour une tâche de publication dans l’annuaire de serveurs. </td> 
+   <td colname="col2"> <span class="codeph"> types:ImageServingPublishJob</span> </td> 
+   <td colname="col3"> Détails de la tâche pour une tâche de publication dans un répertoire de serveur. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadUrlsJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:UploadUrlsJob</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:UploadUrlsJob</span> </td> 
    <td colname="col3"> Détails de la tâche pour une tâche de téléchargement d’URL. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> ripPdfsJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:RipPdfsJob</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:RipPdfsJob</span> </td> 
    <td colname="col3"></td> 
   </tr> 
   <tr> 
@@ -165,14 +164,13 @@ Spécifiez une valeur de type de tâche pour renvoyer le type de tâche. Vous po
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadPostJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:UploadPostJob</span> </td> 
-   <td colname="col3"> Suivi des détails de la tâche lors du téléchargement sur le bureau. </td> 
+   <td colname="col2"> <span class="codeph"> types:UploadPostJob</span> </td> 
+   <td colname="col3"> Suivi des détails de la tâche lors du chargement sur le bureau. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:ExportJob</span> </td> 
-   <td colname="col3">Autoriser l’exportation autorisée de fichiers précédemment téléchargés. Voir <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> Tâche d’exportation</a>. </td> 
+   <td colname="col3">Autoriser l’exportation autorisée des fichiers précédemment chargés. Voir <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> Tâche d’exportation</a>. </td> 
   </tr> 
  </tbody> 
 </table>
-
