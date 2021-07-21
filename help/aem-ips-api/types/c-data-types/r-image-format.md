@@ -1,21 +1,20 @@
 ---
-description: Ensemble de paramètres de sortie d’image sans nom structuré.
+description: Jeu de paramètres de sortie d’image non structuré.
 solution: Experience Manager
 title: ImageFormat
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 570ada53-17d0-4c8a-8843-ace29de92bf3
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '46'
 ht-degree: 10%
 
 ---
 
-
 # ImageFormat{#imageformat}
 
-Ensemble de paramètres de sortie d’image sans nom structuré.
+Jeu de paramètres de sortie d’image non structuré.
 
 Pas un type de ressource.
 
@@ -25,5 +24,4 @@ Pas un type de ressource.
 |---|---|---|
 | `*`imageFormatHandle`*` | `xsd:string` | Poignée de format d’image. |
 | `*`name`*` | `xsd:string` | Nom du format d’image. |
-| `*`urlModificateur`*` | `xsd:string` | URL du serveur d’images qui représente le format d’image. |
-
+| `*`urlModifier`*` | `xsd:string` | URL du serveur d’images qui représente le format de l’image. |
