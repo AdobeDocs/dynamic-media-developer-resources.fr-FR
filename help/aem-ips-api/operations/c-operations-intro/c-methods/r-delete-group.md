@@ -2,16 +2,15 @@
 description: Supprime un groupe.
 solution: Experience Manager
 title: deleteGroup
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 0de188de-b4b6-4f48-9918-bcf962fa9482
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 12%
+source-wordcount: '91'
+ht-degree: 13%
 
 ---
-
 
 # deleteGroup{#deletegroup}
 
@@ -19,7 +18,7 @@ Supprime un groupe.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-ebcc67723663494db0562275b1873460}
+## Types d’utilisateurs autorisés {#section-ebcc67723663494db0562275b1873460}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,16 +30,16 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Identifiant de la société qui appartient au groupe que vous souhaitez supprimer. |
-| `*`groupHandle`*` | `xsd:string` | Oui | Identifiant du groupe à supprimer. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de la société qui appartient au groupe que vous souhaitez supprimer. |
+| `*`groupHandle`*` | `xsd:string` | Oui | Gestionnaire du groupe que vous souhaitez supprimer. |
 
-**Output (deleteGroupParam)**
+**Sortie (deleteGroupParam)**
 
-L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-8f8501af3b3348a1b5701cf9622bf6e4}
 
-Cet exemple de code supprime un groupe d&#39;une société. Il nécessite un descripteur de groupe, que vous devez obtenir d&#39;une autre opération.
+Cet exemple de code supprime un groupe d’une société. Elle nécessite un gestionnaire de groupe, que vous devez obtenir d’une autre opération.
 
 **Request**
 
