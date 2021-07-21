@@ -1,25 +1,24 @@
 ---
-description: Récupère les chemins d’accès aux fichiers d’origine d’une société.
+description: Obtient les chemins d’accès aux fichiers d’origine des ressources d’une entreprise.
 solution: Experience Manager
 title: getOriginalFilePaths
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 81d06a8c-55c1-47d5-adc9-928ab30199c6
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '104'
 ht-degree: 15%
 
 ---
 
-
 # getOriginalFilePaths{#getoriginalfilepaths}
 
-Récupère les chemins d’accès aux fichiers d’origine d’une société.
+Obtient les chemins d’accès aux fichiers d’origine des ressources d’une entreprise.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-da8d8561e9174e938f3595a5d6e50089}
+## Types d’utilisateurs autorisés {#section-da8d8561e9174e938f3595a5d6e50089}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -40,9 +39,9 @@ Syntaxe
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | Oui | La poignée de la société. |
-| `*`assetHandleArray`*` | `types:HandleArray` | Oui | Tableau de poignées pour les fichiers dont vous souhaitez obtenir le chemin d’accès au fichier d’origine. |
+| `*`assetHandleArray`*` | `types:HandleArray` | Oui | Tableau de gestionnaires des ressources dont vous souhaitez obtenir le chemin d’accès au fichier d’origine. |
 
-**Output (getOriginalFilePathsReturn)**
+**Sortie (getOriginalFilePathsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -50,7 +49,7 @@ Syntaxe
 
 ## Exemples {#section-a966e783a2ba49f5b6b0f961329ab2f8}
 
-Cet exemple de code renvoie les chemins d&#39;accès aux fichiers des ressources spécifiées avec des gestionnaires de ressources uniques dans un tableau de descripteurs de ressources.
+Cet exemple de code renvoie les chemins d’accès aux fichiers des ressources spécifiées avec des gestionnaires de ressources uniques dans un tableau de gestion des ressources.
 
 **Request**
 
@@ -74,4 +73,3 @@ Cet exemple de code renvoie les chemins d&#39;accès aux fichiers des ressources
    </originalFileArray>
 </getOriginalFilePathsReturn>
 ```
-
