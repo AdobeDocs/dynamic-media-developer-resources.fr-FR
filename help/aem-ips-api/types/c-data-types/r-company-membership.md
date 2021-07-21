@@ -1,17 +1,16 @@
 ---
-description: Appartenance à une société
+description: CompanyMembership
 solution: Experience Manager
-title: Appartenance à une société
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+title: CompanyMembership
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 10a1cd09-5cd8-48e6-93cf-da8d04d9941a
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '28'
-ht-degree: 21%
+source-wordcount: '26'
+ht-degree: 23%
 
 ---
-
 
 # CompanyMembership{#companymembership}
 
@@ -24,4 +23,3 @@ Syntaxe
 | `*`entreprise`*` | `types:Company` |  |
 | `*`rôle`*` | `xsd:string` |  |
 | `*`isActive`*` | `xsd:boolean` | Définit l’état de l’utilisateur pour chaque société à laquelle il appartient. |
-
