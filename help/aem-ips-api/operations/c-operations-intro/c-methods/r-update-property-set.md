@@ -2,16 +2,15 @@
 description: Utilise un tableau de propriétés pour mettre à jour un jeu de propriétés.
 solution: Experience Manager
 title: updatePropertySet
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: bbe6a664-b6e1-4b46-867d-a134070b13da
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '90'
 ht-degree: 14%
 
 ---
-
 
 # updatePropertySet{#updatepropertyset}
 
@@ -19,7 +18,7 @@ Utilise un tableau de propriétés pour mettre à jour un jeu de propriétés.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-116693bbfb5d44219e62bbb1ba19de96}
+## Types d’utilisateurs autorisés {#section-116693bbfb5d44219e62bbb1ba19de96}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,13 +36,13 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`setHandle`*` | `xsd:string` | Oui | Traitez le jeu de propriétés. |
-| `*`replaceProperties`*` | `xsd:string` | Non | Définissez sur `true` pour remplacer les propriétés. |
+| `*`setHandle`*` | `xsd:string` | Oui | Gérez sur le jeu de propriétés. |
+| `*`replaceProperties`*` | `xsd:string` | Non | Définissez cette variable sur `true` pour remplacer les propriétés. |
 | `*`propertyArray`*` | `types:PropertyArray` | Oui | Tableau des propriétés mises à jour pour le jeu de propriétés. |
 
-**Output (updatePropertySetReturn)**
+**Sortie (updatePropertySetReturn)**
 
-L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-55d1c9dcd0174c6b9b52b4709f7c8bf9}
 
