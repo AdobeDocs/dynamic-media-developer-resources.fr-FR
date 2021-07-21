@@ -2,16 +2,15 @@
 description: Renvoie les coordonnées du quadrilatère englobant le chemin Photoshop nommé.
 solution: Experience Manager
 title: getPhotoshopPath
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 46d88547-bb60-4370-9c79-bd281b40ba28
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '91'
 ht-degree: 18%
 
 ---
-
 
 # getPhotoshopPath{#getphotoshoppath}
 
@@ -19,7 +18,7 @@ Renvoie les coordonnées du quadrilatère englobant le chemin Photoshop nommé.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-c417a287612847cb98dd0aa9c67fd78a}
+## Types d’utilisateurs autorisés {#section-c417a287612847cb98dd0aa9c67fd78a}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -36,11 +35,11 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Pointez sur la société avec l’image que vous souhaitez utiliser. |
-| `*`assetHandle`*` | `xsd:string` | Oui | Pointez sur le fichier d’image. |
-| `*`pathName`*` | `xsd:string` | Oui | Nom du chemin Photoshop à renvoyer. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gérer l’entreprise avec l’image que vous souhaitez utiliser. |
+| `*`assetHandle`*` | `xsd:string` | Oui | Gérer la ressource image. |
+| `*`pathName`*` | `xsd:string` | Oui | Nom du chemin Photoshop que vous souhaitez renvoyer. |
 
-**Output (getPhotoshopPathReturn)**
+**Sortie (getPhotoshopPathReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
