@@ -1,21 +1,20 @@
 ---
-description: Journal des tâches après l’exécution de la tâche.
+description: Journal des tâches une fois la tâche exécutée.
 solution: Experience Manager
 title: JobLog
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 80ae6669-6fe7-45a6-9a1d-f8544dd4f878
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '194'
 ht-degree: 3%
 
 ---
 
-
 # JobLog{#joblog}
 
-Journal des tâches après l’exécution de la tâche.
+Journal des tâches une fois la tâche exécutée.
 
 Syntaxe
 
@@ -23,26 +22,25 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Poignée de société. |
+| `*`companyHandle`*` | `xsd:string` | Poignée de la société. |
 | `*`jobHandle`*` | `xsd:string` | Poignée de tâche. |
 | `*`jobName`*` | `xsd:string` | Nom de la tâche. |
-| `*`initialJobName`*` | `xsd:string` | Nom d’origine envoyé pour la tâche avec `submitJob`. |
+| `*`originalJobName`*` | `xsd:string` | Nom original envoyé pour la tâche avec `submitJob`. |
 | `*`submitUserEmail`*` | `xsd:string` | Adresse électronique de l’utilisateur qui a envoyé la tâche. |
-| `*`logType`*` | `xsd:string` | Choix des types de journaux de tâches. |
+| `*`logType`*` | `xsd:string` | Choix des types de logs de traitement. |
 | `*`jobSubType`*` | `xsd:string` | Informations supplémentaires sur la tâche. |
-| `*`startDate`*` | `xsd:dateTime` | Date, heure et fuseau horaire début de la tâche. |
+| `*`startDate`*` | `xsd:dateTime` | Date, heure et fuseau horaire de début de la tâche. |
 | `*`endDate`*` | `xsd:dateTime` | Date, heure et fuseau horaire de fin de la tâche. |
-| `*`description`*` | `xsd:string` | Description de la tâche telle que spécifiée à l&#39;origine dans `submitJob`. |
+| `*`description`*` | `xsd:string` | Description de la tâche telle qu’elle est spécifiée à l’origine dans `submitJob`. |
 | `*`fileSuccessCount`*` | `xsd:int` | Nombre de fichiers traités avec succès. |
 | `*`fileErrorCount`*` | `xsd:int` | Nombre de fichiers à l’origine d’une erreur. |
-| `*`fileWarningCount`*` | `xsd:int` | Nombre de fichiers qui ont généré un avertissement. |
-| `*`fileDuplicateCount`*` | `xsd:int` | Nombre de fichiers de duplicata. |
+| `*`fileWarningCount`*` | `xsd:int` | Nombre de fichiers ayant généré un avertissement. |
+| `*`fileDuplicateCount`*` | `xsd:int` | Nombre de fichiers dupliqués. |
 | `*`fileUpdateCount`*` | `xsd:int` | Nombre de fichiers mis à jour. |
 | `*`totalFileCount`*` | `xsd:int` | Nombre de fichiers traités par la tâche enregistrée. |
 | `*`transferSuccessCount`*` | `xsd:int` | Nombre de transferts réussis. |
 | `*`transferErrorCount`*` | `xsd:int` | Nombre d&#39;erreurs de transfert. |
-| `*`transferWarningCount`*` | `xsd:int` | Nombre d&#39;avertissements de transfert. |
-| `*`fatalError`*` | `xsd:boolean` | Indique si la tâche a généré une erreur irrécupérable. |
+| `*`transferWarningCount`*` | `xsd:int` | Nombre d’avertissements de transfert. |
+| `*`fatalError`*` | `xsd:boolean` | Si la tâche a généré une erreur fatale. |
 | `*`detailTotalRows`*` | `xsd:int` | Nombre total de lignes correspondant à la requête, qui peut être supérieur à la taille de `detailArray` en raison des limites de taille de page. |
-| `*`detailArray`*` | `types:JobLogDetailArray` | Tableau des détails sur la tâche enregistrée. |
-
+| `*`detailArray`*` | `types:JobLogDetailArray` | Tableau de détails sur la tâche consignée. |
