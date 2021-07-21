@@ -1,26 +1,24 @@
 ---
-description: Types de ressource et comptabilisation pour une société.
+description: Types de ressources et comptage pour une entreprise.
 solution: Experience Manager
 title: AssetCount
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+role: Developer,Admin
+exl-id: a5d750a3-1b76-4e91-9a2b-c91b41d0de7e
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '45'
 ht-degree: 8%
 
 ---
 
-
 # AssetCount{#assetcount}
 
-Types de ressource et comptabilisation pour une société.
+Types de ressources et comptage pour une entreprise.
 
-Les types de ressource sont [!DNL ViewerSWf], [!DNL PDF], [!DNL Cabinet] et autres.
+Les types de ressources incluent [!DNL ViewerSWf], [!DNL PDF], [!DNL Cabinet], etc.
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`assetType`*` | `xsd:string` | Type de fichier associé au décompte. |
-| `*`nombre`*` | `xsd:int` | Nombre de `assetType` actifs dans la société. |
-
+| `*`assetType`*` | `xsd:string` | Type de ressource associé au comptage. |
+| `*`nombre`*` | `xsd:int` | Nombre de `assetType` ressources dans la société. |
