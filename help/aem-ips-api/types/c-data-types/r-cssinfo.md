@@ -2,16 +2,15 @@
 description: Propriétés d’une ressource de fichier CSS.
 solution: Experience Manager
 title: CssInfo
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: b3a65c0c-b2c9-48da-9233-5fbcdd55d986
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 18%
+source-wordcount: '36'
+ht-degree: 19%
 
 ---
-
 
 # CssInfo{#cssinfo}
 
@@ -24,6 +23,5 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | `*`originalPath`*` | `xsd:string` | Chemin d’accès au fichier CSS. |
-| `*`originalFile`*` | `xsd:string` | Nom de fichier. |
+| `*`originalFile`*` | `xsd:string` | Nom du fichier. |
 | `*`fileSize`*` | `xsd:int` | Taille du fichier. |
-
