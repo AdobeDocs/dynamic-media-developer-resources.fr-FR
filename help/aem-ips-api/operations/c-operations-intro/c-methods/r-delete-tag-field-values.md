@@ -2,22 +2,21 @@
 description: Supprime les valeurs de champ de balise du dictionnaire d’un champ de balise.
 solution: Experience Manager
 title: deleteTagFieldValues
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 2694bd6d-b1ba-4146-a155-12829d9dfa47
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 12%
+source-wordcount: '92'
+ht-degree: 13%
 
 ---
-
 
 # deleteTagFieldValues{#deletetagfieldvalues}
 
 Supprime les valeurs de champ de balise du dictionnaire d’un champ de balise.
 
-## Types d’utilisateur autorisés {#section-e6f97c875c2a4cf0a7bc22096b649497}
+## Types d’utilisateurs autorisés {#section-e6f97c875c2a4cf0a7bc22096b649497}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -29,13 +28,13 @@ Supprime les valeurs de champ de balise du dictionnaire d’un champ de balise.
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société contenant le champ de balise. |
-| `*`fieldHandle`*` | `xsd:string` | Oui | Handle du champ de balise à modifier. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de la société contenant le champ de balise. |
+| `*`fieldHandle`*` | `xsd:string` | Oui | Gestionnaire du champ de balise à modifier. |
 | `*`valueArray`*` | `types:StringArray` | Oui | Tableau de valeurs de balise à supprimer du dictionnaire du champ. |
 
-**Output (deleteTagFieldValuesParam)**
+**Sortie (deleteTagFieldValuesParam)**
 
-L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-92f9e575a6da491caa09e264b4d6ee55}
 
