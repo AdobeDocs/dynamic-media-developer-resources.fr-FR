@@ -2,16 +2,15 @@
 description: Obtient les tâches planifiées pour exécution.
 solution: Experience Manager
 title: getScheduledJobs
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 7920637e-b289-410c-ae5c-e67cd7b21aba
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 20%
+source-wordcount: '80'
+ht-degree: 21%
 
 ---
-
 
 # getScheduledJobs{#getscheduledjobs}
 
@@ -19,7 +18,7 @@ Obtient les tâches planifiées pour exécution.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-bd1835ab508a429f8143b3bdb811d6a4}
+## Types d’utilisateurs autorisés {#section-bd1835ab508a429f8143b3bdb811d6a4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -40,7 +39,7 @@ Syntaxe
 | `*`jobHandle`*` | `xsd:string` | Non | Poignée de tâche. |
 | `*`originalName`*` | `xsd:string` | Non | Nom spécifié par `submitJob`. |
 
-**Output (getScheduledJobsReturn)**
+**Sortie (getScheduledJobsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -48,7 +47,7 @@ Syntaxe
 
 ## Exemples {#section-e79e7da86ba848fd9996aa36de462e6c}
 
-Cet exemple de code renvoie toutes les tâches planifiées dans un tableau de tâches. La baie elle-même contient des informations détaillées sur les tâches.
+Cet exemple de code renvoie toutes les tâches planifiées d’un tableau de tâches. Le tableau lui-même contient des informations détaillées sur les tâches.
 
 **Request**
 
@@ -78,4 +77,3 @@ Cet exemple de code renvoie toutes les tâches planifiées dans un tableau de t�
    </jobArray>
 </getScheduledJobsReturn>
 ```
-
