@@ -2,16 +2,15 @@
 description: Supprime une tâche en cours ou planifiée.
 solution: Experience Manager
 title: deleteJob
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: d38dd1e2-668e-4956-b854-54bf466d6d45
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '95'
 ht-degree: 12%
 
 ---
-
 
 # deleteJob{#deletejob}
 
@@ -19,7 +18,7 @@ Supprime une tâche en cours ou planifiée.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-1b959679dc8147c291126ddf7e061742}
+## Types d’utilisateurs autorisés {#section-1b959679dc8147c291126ddf7e061742}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,16 +35,16 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société à laquelle appartient la tâche. |
-| `*`jobHandle`*` | `xsd:string` | Oui | Poignée de la tâche à supprimer. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de la société à laquelle appartient la tâche. |
+| `*`jobHandle`*` | `xsd:string` | Oui | Gestionnaire de la tâche à supprimer. |
 
 **Sortie**
 
-L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-732d21d4dad04337b7a5ae1a0cc00eba}
 
-Cet exemple de code supprime une tâche en cours d&#39;exécution ou dont l&#39;exécution est planifiée dans IPS. Il nécessite une poignée de travail, que vous devez obtenir d&#39;une autre opération.
+Cet exemple de code supprime une tâche en cours d’exécution ou planifiée dans IPS. Elle nécessite une gestion de tâche, que vous devez obtenir d’une autre opération.
 
 **Request**
 
