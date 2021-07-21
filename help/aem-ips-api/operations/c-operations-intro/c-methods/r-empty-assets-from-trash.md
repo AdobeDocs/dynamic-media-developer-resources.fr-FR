@@ -1,25 +1,24 @@
 ---
-description: Permet d’effacer les fichiers de la corbeille IPS.
+description: Empêche les ressources de la corbeille IPS.
 solution: Experience Manager
 title: emptyAssetsFromTrash
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+role: Developer,Admin
+exl-id: 36866dc8-6a16-4445-942f-d0ea3c168272
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '251'
 ht-degree: 7%
 
 ---
 
-
 # emptyAssetsFromTrash{#emptyassetsfromtrash}
 
-Permet d’effacer les fichiers de la corbeille IPS.
+Empêche les ressources de la corbeille IPS.
 
-Les fichiers vivent dans la corbeille jusqu’à ce qu’ils soient vidés manuellement ou jusqu’à ce qu’ils soient supprimés de la corbeille. S&#39;ils sont vidés manuellement, ils vivent dans la Corbeille jusqu&#39;à la prochaine tâche de nettoyage (normalement la nuit), lorsqu&#39;ils sont finalement purgés du système. S&#39;ils sortent de la corbeille, les actifs sont nettoyés dans le cadre de cette même activité de nettoyage. Le délai d’expiration est configurable (la valeur par défaut est de 7 jours).
+Les ressources vivent dans la corbeille jusqu’à ce qu’elles soient vidées manuellement ou jusqu’à ce qu’elles sortent de la corbeille. S’ils sont vidés manuellement, ils vivent dans la corbeille jusqu’à la prochaine tâche de nettoyage (normalement de nuit), lorsqu’ils sont finalement purgés du système. S’ils expirent de la corbeille, les ressources sont nettoyées dans le cadre de cette même activité de nettoyage. Le délai d’expiration est configurable (la valeur par défaut est de 7 jours).
 
-## Types d’utilisateur autorisés {#section-24dee2bf5f9f4714a64955c80f2803b4}
+## Types d’utilisateurs autorisés {#section-24dee2bf5f9f4714a64955c80f2803b4}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,22 +34,22 @@ Les fichiers vivent dans la corbeille jusqu’à ce qu’ils soient vidés manue
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société propriétaire des actifs. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de l’entreprise propriétaire des actifs. |
 | `*`assetHandleArray`*` | `types:HandleArray` | Oui | Tableau de poignées représentant les éléments à vider de la corbeille. |
 
 **Sortie (emptyAssetsFromTrashParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:Int` | Oui | Nombre de fichiers vidés avec succès de la corbeille. |
+| `*`successCount`*` | `xsd:Int` | Oui | Nombre de ressources vidées de la corbeille avec succès. |
 | `*`warningCount`*` | `xsd:Int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de vider des ressources de la corbeille. |
-| `*`errorCount`*` | `xsd:Int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de vider des fichiers de la corbeille. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des avertissements lorsque l’opération a tenté de les vider de la corbeille. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des erreurs lorsque l’opération a tenté de les vider de la corbeille. |
+| `*`errorCount`*` | `xsd:Int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de vider des ressources de la corbeille. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau de détails associés aux ressources qui ont généré des avertissements lorsque l’opération a tenté de les vider de la corbeille. |
+| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau de détails associés aux ressources qui ont généré des erreurs lorsque l’opération a tenté de les vider de la corbeille. |
 
 ## Exemples {#section-6154a873b6c342bf92e2036280cafdcf}
 
-Cet exemple de code utilise le handle de la société et un tableau de descripteurs de ressources qui contient des poignées vers les ressources à vider de la corbeille.
+Cet exemple de code utilise le gestionnaire de l’entreprise et un tableau de gestionnaires de ressources qui contient des gestionnaires des ressources à vider de la corbeille.
 
 **Request**
 
@@ -73,4 +72,3 @@ Cet exemple de code utilise le handle de la société et un tableau de descripte
    <errorCount>0</errorCount>
 </emptyAssetsFromTrashReturn>
 ```
-
