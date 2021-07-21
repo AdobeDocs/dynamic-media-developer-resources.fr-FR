@@ -2,16 +2,15 @@
 description: Tableau de zones cliquables.
 solution: Experience Manager
 title: ImageMapArray
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: da823ee9-198f-4d52-b77f-ac7d21162fb5
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 20%
+source-wordcount: '27'
+ht-degree: 22%
 
 ---
-
 
 # ImageMapArray{#imagemaparray}
 
@@ -23,5 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`éléments`*` | `types:ImageMap` | Tableau de zones cliquables. |
-
+| `*`éléments`*` | `types:ImageMap` | Tableau de zone cliquable. |
