@@ -1,25 +1,24 @@
 ---
-description: Supprime plusieurs fichiers.
+description: Supprime plusieurs ressources.
 solution: Experience Manager
 title: deleteAssets
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+role: Developer,Admin
+exl-id: 487f83e6-f713-40e9-a442-e1179b30012c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '182'
 ht-degree: 15%
 
 ---
 
-
 # deleteAssets{#deleteassets}
 
-Supprime plusieurs fichiers.
+Supprime plusieurs ressources.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-a6bc555b8ac840c98835b73fbf838d70}
+## Types d’utilisateurs autorisés {#section-a6bc555b8ac840c98835b73fbf838d70}
 
 * `IpsUser`
 * `IspAdmin`
@@ -46,18 +45,18 @@ Syntaxe
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Poignée de la société à laquelle appartiennent les ressources. </p> </td> 
+   <td colname="col4"> <p>Gestion de l’entreprise à laquelle appartiennent les actifs. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> types:HandleArray</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Tableau de ressources à supprimer. </p> </td> 
+   <td colname="col4"> <p>Tableau des ressources à supprimer. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (deleteAssetsParam)**
+**Sortie (deleteAssetsParam)**
 
 <table id="table_0C6D8D51A79248ACA2022DBB754A9B9C"> 
  <thead> 
@@ -73,25 +72,25 @@ Syntaxe
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> successCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Nombre de fichiers supprimés. </p> </td> 
+   <td colname="col4"> <p>Nombre de ressources supprimées avec succès. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Fichiers qui généraient un avertissement lorsque l’opération tentait de les supprimer. </p> </td> 
+   <td colname="col4"> <p>Ressources ayant généré un avertissement lorsque l’opération tentait de les supprimer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Fichiers qui généraient une erreur lorsque l’opération tentait de les supprimer. </p> </td> 
+   <td colname="col4"> <p>Ressources qui ont généré une erreur lorsque l’opération a tenté de les supprimer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> types:AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Tableau des détails associés aux ressources qui ont généré un avertissement lorsque l’opération a tenté de les supprimer. </p> </td> 
+   <td colname="col4"> <p>Tableau de détails associés aux ressources qui ont généré un avertissement lorsque l’opération a tenté de les supprimer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </p> </td> 
@@ -104,7 +103,7 @@ Syntaxe
 
 ## Exemples {#section-aaad1933bf86479eb6cb476cec7d4587}
 
-Cet exemple de code envoie un handle à une société et un tableau de handles de ressources dans une requête `deleteAssetsParam` au serveur de services Web. `deleteAssetsReturn` renvoie un nombre de succès de 2, indiquant que les deux ressources ont été supprimées.
+Cet exemple de code envoie une poignée à une entreprise et un tableau de gestionnaires de ressources dans une requête `deleteAssetsParam` au serveur de services Web. `deleteAssetsReturn` renvoie un nombre de succès de 2, indiquant que les deux ressources ont été supprimées.
 
 **Request**
 
@@ -127,4 +126,3 @@ Cet exemple de code envoie un handle à une société et un tableau de handles d
    <errorCount>0</errorCount>
 </deleteAssetsReturn>
 ```
-
