@@ -2,16 +2,15 @@
 description: Met à jour les paramètres de configuration de la visionneuse SWF.
 solution: Experience Manager
 title: updateViewerConfigSettings
-feature: Dynamic Media Classic,SDK/API,Viewer Presets
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Paramètres prédéfinis de la visionneuse
+role: Developer,Admin
+exl-id: 04565e2b-bda3-4ad0-afc1-2df01e455490
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: '66'
 ht-degree: 13%
 
 ---
-
 
 # updateViewerConfigSettings{#updateviewerconfigsettings}
 
@@ -19,7 +18,7 @@ Met à jour les paramètres de configuration de la visionneuse SWF.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-0dd001da1b784aefa5eb5b50c7a2c045}
+## Types d’utilisateurs autorisés {#section-0dd001da1b784aefa5eb5b50c7a2c045}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,10 +31,10 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Pose la société. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gérer la société. |
 | `*`assetHandle`*` | `xsd:string` | Oui | Poignée de ressource. |
-| `*`configSettingArray`*` | `types:ConfigSettingArray` | Oui | Tableau des paramètres de configuration à appliquer au lecteur. |
+| `*`configSettingArray`*` | `types:ConfigSettingArray` | Oui | Tableau des paramètres de configuration que vous souhaitez appliquer à la visionneuse. |
 
 **Sortie (updateViewerConfigSettingsReturn)**
 
-L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+L’API IPS ne renvoie pas de réponse pour cette opération.
