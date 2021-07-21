@@ -1,25 +1,24 @@
 ---
-description: Définit la zone cliquable d’un fichier.
+description: Définit la zone cliquable d’une ressource.
 solution: Experience Manager
 title: setImageMaps
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 0c8e6536-0b9c-4fcc-b71f-511afc670089
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '138'
 ht-degree: 10%
 
 ---
 
-
 # setImageMaps{#setimagemaps}
 
-Définit la zone cliquable d’un fichier.
+Définit la zone cliquable d’une ressource.
 
-Vous devez avoir déjà créé les zones cliquables. Les zones cliquables sont appliquées dans l&#39;ordre de récupération de la baie. Cela signifie que la deuxième zone cliquable recouvre la première, la troisième, la seconde, etc.
+Vous devez avoir déjà créé les zones cliquables. Les zones cliquables sont appliquées dans l’ordre de récupération à partir du tableau . Cela signifie que la seconde zone cliquable s’incruste la première, la troisième, la seconde, etc.
 
-## Types d’utilisateur autorisés {#section-adb21c5b679249939dd83816e4a0ee97}
+## Types d’utilisateurs autorisés {#section-adb21c5b679249939dd83816e4a0ee97}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,19 +33,19 @@ Vous devez avoir déjà créé les zones cliquables. Les zones cliquables sont a
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société. |
 | `*`assetHandle`*` | `xsd:string` | Oui | Poignée de ressource. |
 | `*`imageMapArray`*` | `types:ImageMapDefinitionArray` | Oui | Tableau de zones cliquables prédéfinies. |
 
-**Output (setImageMapsReturn)**
+**Sortie (setImageMapsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`imageMapHandleArray`*` | `types:HandleArray` | Oui | Tableau avec des poignées de zone cliquable appliquées à la ressource. |
+| `*`imageMapHandleArray`*` | `types:HandleArray` | Oui | Un tableau avec des zones cliquables est appliqué à la ressource. |
 
 ## Exemples {#section-fe2e35662a6a4ee29cf250c9fd180371}
 
-Cet exemple de code définit 2 zones cliquables pour un fichier d’image. Le code spécifie le type de forme, la région et l’action effectuée lorsque les zones cliquables sont appelées. La réponse contient un tableau avec des poignées pour les zones cliquables.
+Cet exemple de code définit 2 zones cliquables pour une ressource image. Le code spécifie le type de forme, la région et l’action entreprise lors de l’appel des zones cliquables. La réponse contient un tableau contenant des poignées vers les zones cliquables.
 
 **Request**
 
@@ -72,4 +71,3 @@ Cet exemple de code définit 2 zones cliquables pour un fichier d’image. Le co
    </imageMapArray>
 </setImageMapsParam>
 ```
-
