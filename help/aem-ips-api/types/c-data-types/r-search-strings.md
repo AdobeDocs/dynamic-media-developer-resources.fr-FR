@@ -2,16 +2,15 @@
 description: Enregistrement de chaîne de recherche extrait d’un fichier PDF.
 solution: Experience Manager
 title: SearchStrings
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 3f67ba8a-12dd-4698-9502-7cbdec9cb25d
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '87'
 ht-degree: 11%
 
 ---
-
 
 # SearchStrings{#searchstrings}
 
@@ -23,13 +22,12 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`searchString`*` | `xsd:string` | Recherche du texte de chaîne. |
+| `*`searchString`*` | `xsd:string` | Recherche de texte de chaîne. |
 | `*`keywordsArray`*` | `types:KeywordsArray` | Tableau de mots-clés dans la chaîne de recherche. |
 | `*`état`*` | `xsd:boolean` | True si la chaîne de recherche est valide et activée. |
-| `*`x`*` | `xsd:int` | Position de l’axe X de la chaîne de recherche. |
+| `*`x`*` | `xsd:int` | Position de la chaîne de recherche sur l’axe X. |
 | `*`y`*` | `xsd:int` | Position de l’axe Y de la chaîne de recherche. |
 | `*`width`*` | `xsd:int` | Largeur de la chaîne de recherche. |
 | `*`height`*` | `xsd:int` | Hauteur de la chaîne de recherche. |
 | `*`fontName`*` | `xsd:string` | Nom de la police utilisée dans la chaîne de recherche. |
 | `*`pointSize`*` | `xsd:string` | Taille de police. |
-
