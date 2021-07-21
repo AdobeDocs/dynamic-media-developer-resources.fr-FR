@@ -2,16 +2,15 @@
 description: Propriétés d’une fenêtre recouvrant le fichier.
 solution: Experience Manager
 title: WindowCoveringInfo
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 43f7927d-6341-4d30-9a3c-de1d61b4d667
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 11%
+source-wordcount: '57'
+ht-degree: 12%
 
 ---
-
 
 # WindowCoveringInfo{#windowcoveringinfo}
 
@@ -23,11 +22,10 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | Chemin d’accès au fichier. |
-| `*`originalFile`*` | `xsd:string` | Nom de fichier. |
+| `*`originalPath`*` | `xsd:string` | Chemin du fichier. |
+| `*`originalFile`*` | `xsd:string` | Nom du fichier. |
 | `*`fileSize`*` | `xsd:int` | Taille du fichier. |
 | `*`imagePath`*` | `xsd:string` | Chemin d’accès relatif à l’image. |
 | `*`imageFile`*` | `xsd:string` | Nom de fichier de l’image de couverture de la fenêtre. |
-| `*`optimizedPath`*` | `xsd:string` | Chemin d’accès au fichier optimisé. |
+| `*`optimizedPath`*` | `xsd:string` | Chemin d’accès optimisé au fichier. |
 | `*`optimizedFile`*` | `xsd:string` | Nom de fichier optimisé. |
-
