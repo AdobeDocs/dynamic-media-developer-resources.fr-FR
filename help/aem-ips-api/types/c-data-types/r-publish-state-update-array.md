@@ -2,16 +2,15 @@
 description: Tableau de mises à jour de l’état de publication.
 solution: Experience Manager
 title: PublishStateUpdateArray
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: d78e0f53-fa2f-472c-82a1-b8435a8e4923
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 18%
+source-wordcount: '31'
+ht-degree: 19%
 
 ---
-
 
 # PublishStateUpdateArray{#publishstateupdatearray}
 
@@ -24,4 +23,3 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | `*`éléments`*` | `types:PublishStateUpdate` | Tableau des mises à jour de l’état de publication. |
-
