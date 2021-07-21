@@ -1,27 +1,25 @@
 ---
 title: Appels obsolètes
-description: Appels d’API Image Production System et leurs paramètres associés qui ne sont plus utilisés dans Dynamic Media.
+description: Les appels d’API Image Production System et leurs paramètres associés qui ne sont plus utilisés dans Dynamic Media.
 solution: Experience Manager
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: f6711780-9a96-4a61-9066-8d83316758c3
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
 
+# Appels obsolètes{#deprecated-calls}
 
-# Appels déconseillés{#deprecated-calls}
+Les appels d’API Image Production System et leurs paramètres associés qui ne sont plus utilisés.
 
-Appels d’API Image Production System et leurs paramètres associés qui ne sont plus utilisés.
+## Appels obsolètes {#topic-654c0466e6434fe4a95953322255b08c}
 
-## Appels {#topic-654c0466e6434fe4a95953322255b08c} obsolètes
+Les appels d’API Image Production System et leurs paramètres associés qui ne sont plus utilisés dans Dynamic Media.
 
-Appels d’API Image Production System et leurs paramètres associés qui ne sont plus utilisés dans Dynamic Media.
-
-* `addMediaPortalEvent` - Obsolète des opérations. Cet appel vous permet d’ajouter un Événement Media Portal à IPS.
-* `getMediaPortalEvent` - Obsolète des opérations. Cet appel vous permet d’obtenir des événements du portail multimédia correspondant à des critères spécifiés.
-* `getCdnCacheInvalidationStatus` - Obsolète des opérations. Cette API est désormais obsolète car l&#39;API `cdnCacheInvalidation` invalide le cache presque immédiatement (~5 secondes). L’interrogation de l’état d’invalidation n’est donc plus nécessaire.
-
+* `addMediaPortalEvent` - Obsolète des opérations. Cet appel vous permet d’ajouter un événement Media Portal à IPS.
+* `getMediaPortalEvent` - Obsolète des opérations. Cet appel vous permet d’obtenir des événements Media Portal qui correspondent à des critères spécifiés.
+* `getCdnCacheInvalidationStatus` - Obsolète des opérations. Cette API est désormais obsolète, car l’API `cdnCacheInvalidation` invalide le cache presque immédiatement (~5 secondes). Par conséquent, l’interrogation de l’état d’invalidation n’est plus nécessaire.
