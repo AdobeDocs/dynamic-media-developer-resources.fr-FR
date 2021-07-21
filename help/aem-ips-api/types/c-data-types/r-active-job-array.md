@@ -1,21 +1,20 @@
 ---
-description: Un ensemble de tâches principales.
+description: Un tableau de tâches principales.
 solution: Experience Manager
 title: ActiveJobArray
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 8fccfc0e-f715-4d97-ac29-c88313c3e49f
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 20%
+source-wordcount: '27'
+ht-degree: 22%
 
 ---
 
-
 # ActiveJobArray{#activejobarray}
 
-Un ensemble de tâches principales.
+Un tableau de tâches principales.
 
 Syntaxe
 
@@ -23,5 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`éléments`*` | `types:ActiveJob` | Tableau des tâches principales. |
-
+| `*`éléments`*` | `types:ActiveJob` | Tableau de tâches principales. |
