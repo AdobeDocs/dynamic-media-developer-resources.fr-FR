@@ -1,21 +1,20 @@
 ---
-description: Décrit les types de données nouveaux et modifiés pour l'API IPS version 4.2.
+description: Décrit les types de données nouveaux et modifiés pour l’API IPS version 4.2.
 solution: Experience Manager
 title: Types de données nouveaux et modifiés
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 3917e778-bd28-4047-b9f8-3063f136e492
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '56'
 ht-degree: 3%
 
 ---
 
+# Types de données : Nouveautés et modifications{#data-types-new-and-modified}
 
-# Types de données : Nouveau et modifié{#data-types-new-and-modified}
-
-Décrit les types de données nouveaux et modifiés pour l&#39;API IPS version 4.2.
+Décrit les types de données nouveaux et modifiés pour l’API IPS version 4.2.
 
 Syntaxe
 
@@ -64,4 +63,3 @@ Paramètres ajoutés :
 
 * `preservePublishState`
 * `preserveCrop`
-
