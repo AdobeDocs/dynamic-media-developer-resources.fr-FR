@@ -1,17 +1,16 @@
 ---
 description: Met à jour les métadonnées en mode batch.
 solution: Experience Manager
-title: Mise à jour des métadonnées de lot
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+title: BatchMetadataUpdate
+feature: Dynamic Media Classic,SDK/API,Métadonnées
+role: Developer,Admin
+exl-id: 07998708-f7c2-42bc-b128-c81f86fd1760
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 13%
+source-wordcount: '34'
+ht-degree: 14%
 
 ---
-
 
 # BatchMetadataUpdate{#batchmetadataupdate}
 
@@ -23,6 +22,5 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`assetHandleArray`*` | `types:HandleArray` | Tableau de gestionnaires de ressources. |
-| `*`updateArray`*` | `types:MetadataUpdateArray` | Tableau des gestionnaires de mise à jour des métadonnées. |
-
+| `*`assetHandleArray`*` | `types:HandleArray` | Tableau des gestionnaires de ressources. |
+| `*`updateArray`*` | `types:MetadataUpdateArray` | Tableau de gestionnaires de mise à jour des métadonnées. |
