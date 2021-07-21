@@ -2,16 +2,15 @@
 description: Mots-clés de plateforme de métadonnées extensibles d’une ressource.
 solution: Experience Manager
 title: XmpKeywords
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: f1ad16c8-cba2-4ef0-9558-6a4086c71393
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 18%
+source-wordcount: '72'
+ht-degree: 19%
 
 ---
-
 
 # XmpKeywords{#xmpkeywords}
 
@@ -31,10 +30,9 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> éléments</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> items</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Liste de mots-clés séparés par des virgules qui sont fusionnés dans le noeud de propriété <span class="codeph"> dc:subject=</span> XMP. Si une virgule apparaît dans l’une des valeurs individuelles, elle doit être précédée d’une barre oblique inverse (\). Une barre oblique inverse littérale est l’habituelle double-barre oblique inverse (\\). </p> </td> 
+   <td colname="col3"> <p>Liste de mots-clés séparés par des virgules qui sont fusionnés dans le noeud de propriété <span class="codeph"> dc:subject=</span> XMP . Si une virgule apparaît dans l’une des valeurs individuelles, elle doit être précédée d’une barre oblique inverse (\). Une barre oblique inverse littérale est l’habituelle double-barre oblique inverse (\\). </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
