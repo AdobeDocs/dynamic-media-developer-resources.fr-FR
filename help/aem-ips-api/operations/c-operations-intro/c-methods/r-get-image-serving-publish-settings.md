@@ -1,25 +1,24 @@
 ---
-description: Pour un usage interne uniquement. Les utilisateurs doivent se reporter à la section Référence du catalogue d’images de la diffusion d’images - Référence d’attributs.
+description: Pour une utilisation interne uniquement. Les utilisateurs doivent se référer à la section Référence du catalogue d’images du serveur d’images - Référence d’attribut .
 solution: Experience Manager
 title: getImageServingPublishSettings
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: ab7b5df6-58fb-4111-be9c-76901534d167
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 14%
+source-wordcount: '85'
+ht-degree: 15%
 
 ---
 
-
 # getImageServingPublishSettings{#getimageservingpublishsettings}
 
-Pour un usage interne uniquement. Les utilisateurs doivent se reporter à la section Référence du catalogue d’images de la diffusion d’images - Référence d’attributs.
+Pour une utilisation interne uniquement. Les utilisateurs doivent se référer à la section Référence du catalogue d’images du serveur d’images - Référence d’attribut .
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-49b7b277ba1748499121a0e90996458c}
+## Types d’utilisateurs autorisés {#section-49b7b277ba1748499121a0e90996458c}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,12 +31,11 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée vers la société avec les paramètres de publication de la diffusion d’images. |
-| `*`contextHandle`*` | `xsd:string` | Oui | Traitement du contexte de publication. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gestion de l’entreprise avec les paramètres de publication de la diffusion d’images. |
+| `*`contextHandle`*` | `xsd:string` | Oui | Gérer au contexte de publication. |
 
 **Sortie**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | `*`publishSettingArray`*` | `xsd:string` | Oui | Tableau des paramètres de publication du serveur d’images. |
-
