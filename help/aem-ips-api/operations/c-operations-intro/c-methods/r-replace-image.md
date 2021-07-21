@@ -1,25 +1,24 @@
 ---
-description: Remplace les données d’image d’un fichier d’image.
+description: Remplace les données image d’une ressource image.
 solution: Experience Manager
 title: replaceImage
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+role: Developer,Admin
+exl-id: bf8c1f5c-7829-4750-b5b7-b8b20d115d17
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '110'
 ht-degree: 15%
 
 ---
 
-
 # replaceImage{#replaceimage}
 
-Remplace les données d’image d’un fichier d’image.
+Remplace les données image d’une ressource image.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-e2aad71fb2a54612badc7b16f82ed544}
+## Types d’utilisateurs autorisés {#section-e2aad71fb2a54612badc7b16f82ed544}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,19 +33,19 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | Oui | Poignée de la société contenant l&#39;image à remplacer. |
-| `*`assetHandle`*` | `xsd:string` | Oui | Poignée de la ressource à remplacer. |
-| `*`urlModificateur`*` | `xsd:string` | Oui | Commandes du serveur d’images qui génèrent de nouvelles données d’image. |
+| `*`companyName`*` | `xsd:string` | Oui | Gestionnaire de l’entreprise avec l’image que vous souhaitez remplacer. |
+| `*`assetHandle`*` | `xsd:string` | Oui | Gestionnaire de la ressource que vous souhaitez remplacer. |
+| `*`urlModifier`*` | `xsd:string` | Oui | Commandes du serveur d’images qui génèrent de nouvelles données d’image. |
 
-**Output (replaceImageReturn)**
+**Sortie (replaceImageReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Oui | Gérer vers la nouvelle ressource. |
+| `*`assetHandle`*` | `xsd:string` | Oui | Gérer la nouvelle ressource. |
 
 ## Exemples {#section-cebb93576bde4cb98cb27356ca66783b}
 
-Cet exemple de code remplace une image et applique une commande `urlModifier` avec une commande qui spécifie que le serveur d’images n’agira pas lors du remplacement.
+Cet exemple de code remplace une image et applique une balise `urlModifier` avec une commande qui spécifie que le serveur d’images ne prendra aucune action lors du remplacement.
 
 **Request**
 
@@ -65,4 +64,3 @@ Cet exemple de code remplace une image et applique une commande `urlModifier` av
    <assetHandle>a|140626|1|102524</assetHandle>
 </replaceImageReturn>
 ```
-
