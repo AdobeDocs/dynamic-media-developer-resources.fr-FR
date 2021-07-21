@@ -1,25 +1,24 @@
 ---
-description: Obtient des jeux de propriétés associés à une poignée de type.
+description: Obtient des jeux de propriétés associés à un type handle.
 solution: Experience Manager
 title: getPropertySets
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: da6923c3-9b86-4595-8205-645fb10e03b0
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '95'
 ht-degree: 17%
 
 ---
 
-
 # getPropertySets{#getpropertysets}
 
-Obtient des jeux de propriétés associés à une poignée de type.
+Obtient des jeux de propriétés associés à un type handle.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-da858360b72941bfa8d9558b4da7d4da}
+## Types d’utilisateurs autorisés {#section-da858360b72941bfa8d9558b4da7d4da}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -37,19 +36,19 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`typeHandle`*` | `xsd:string` | Oui | poignée du type de jeu de propriétés. |
-| `*`primaryOwnerHandle`*` | `xsd:string` | Oui | Propriétaire Principal des données liées à l&#39;objet de base de données. |
+| `*`typeHandle`*` | `xsd:string` | Oui | La gestion du type de jeu de propriétés. |
+| `*`primaryOwnerHandle`*` | `xsd:string` | Oui | Propriétaire Principal des données liées à l’objet de base de données. |
 | `*`secondaryOwnerHandle`*` | `xsd:string` | Non | Propriétaire secondaire facultatif des données. |
 
-**Output (getPropertySetsReturn)**
+**Sortie (getPropertySetsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`setArray`*` | `types:PropertySetArray` | Oui | Arborescence de jeux de propriétés. |
+| `*`setArray`*` | `types:PropertySetArray` | Oui | Fichier de jeux de propriétés. |
 
 ## Exemples {#section-1358af974eab4259864910337a6f0bd2}
 
-Cet exemple de code renvoie des ensembles de propriétés de leur propriétaire Principal, spécifiés par un type handle.
+Cet exemple de code renvoie les ensembles de propriétés de leur propriétaire Principal, spécifiés par un type handle.
 
 **Request**
 
@@ -86,4 +85,3 @@ Cet exemple de code renvoie des ensembles de propriétés de leur propriétaire 
    </setArray>
 </getPropertySetsReturn>
 ```
-
