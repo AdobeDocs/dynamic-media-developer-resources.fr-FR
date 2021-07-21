@@ -2,26 +2,25 @@
 description: Crée un nouveau format de publication pour une vignette.
 solution: Experience Manager
 title: createVignettePublishFormat
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: d58e1290-8a79-4129-99ce-776b919dea13
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '523'
 ht-degree: 14%
 
 ---
-
 
 # createVignettePublishFormat{#createvignettepublishformat}
 
 Crée un nouveau format de publication pour une vignette.
 
-Les formats de vignette spécifient la taille des vignettes publiées et leurs miniatures, ainsi que les niveaux de zoom, les paramètres d’accentuation et la version du format de fichier des vignettes générées à partir de Principales vignettes publiées sur un serveur de rendu d’images à partir d’IPS.
+Les formats de vignettes spécifient la taille des vignettes publiées et leurs miniatures, ainsi que les niveaux de zoom, les paramètres d’accentuation et la version du fichier des vignettes générées à partir de Principales vignettes publiées sur un serveur de rendu d’image à partir d’IPS.
 
-Les nouvelles versions du serveur de rendu d’images peuvent prendre en charge les vignettes pyramidales, ce qui évite de définir des formats de vignettes spécifiques pour la publication.
+Les nouvelles versions du serveur de rendu d’image peuvent prendre en charge les vignettes pyramidales, ce qui évite d’avoir à définir des formats de vignettes spécifiques pour la publication.
 
-## Types d’utilisateur autorisés {#section-f5c563e3695c4dba8df41e2a965aace7}
+## Types d’utilisateurs autorisés {#section-f5c563e3695c4dba8df41e2a965aace7}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -30,7 +29,7 @@ Les nouvelles versions du serveur de rendu d’images peuvent prendre en charge 
 
 ## Paramètres {#section-3a368186ec1d4005bca056fc9d9bacc7}
 
-**Entrée (createVignettePublishFormatParam)**
+**Entrée (createViewPublishFormatParam)**
 
 <table id="table_4D5B2913FA784EC09190F25223C1A680"> 
  <thead> 
@@ -46,19 +45,19 @@ Les nouvelles versions du serveur de rendu d’images peuvent prendre en charge 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Traitez la société à laquelle appartient la vignette. </td> 
+   <td colname="col4"> Gérer la société à laquelle appartient la vignette. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Expression de code  </span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Nom permettant d’identifier le format de publication de vignettes. </td> 
+   <td colname="col4"> Nom permettant d’identifier le format de publication de la vignette. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> targetWidth</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Expression de code  </span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> <p>Indique la largeur de cible de la vue de vignette obtenue en pixels. </p> <p>Utilisez zéro pour que la vignette de sortie ait la même taille que la vignette Principale. </p> </td> 
+   <td colname="col4"> <p>Spécifie la largeur cible en pixels de la vue de vignette obtenue. </p> <p>Utilisez zéro pour que la vignette de sortie ait la même taille que la Principale vignette. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> targetHeight</span> </span> </td> 
@@ -70,13 +69,13 @@ Les nouvelles versions du serveur de rendu d’images peuvent prendre en charge 
    <td colname="col1"> <span class="codeph"> <span class="varname"> createPyramid</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Expression de code  </span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Indique la largeur de chaque miniature résultante en pixels. Ce paramètre est facultatif. Laissez la valeur zéro pour aucun fichier miniature. </td> 
+   <td colname="col4"> Spécifie la largeur de chaque miniature résultante en pixels. Ce paramètre est facultatif. Laissez le paramètre défini sur zéro pour aucun fichier de miniature. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbWidth</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Expression de code  </span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Indique le format de fichier des vignettes publiées. Compte tenu d’une nouvelle version de Image Authoring et d’une version antérieure du serveur de rendu d’images, vous devez spécifier une version de vignette lisible par votre serveur ImageRendering. Si vous spécifiez une version supérieure, le serveur de rendu des images ne peut pas lire les vignettes publiées. Définissez ce paramètre sur zéro pour publier les vignettes à la dernière version. </td> 
+   <td colname="col4"> Indique le format de fichier des vignettes publiées. Si vous disposez d’une nouvelle version de création d’images et d’une version antérieure du serveur de rendu d’images, vous devez spécifier une version de vignette que votre serveur ImageRendering peut lire. Si vous spécifiez une version supérieure, le serveur de rendu d’image ne peut pas lire les vignettes publiées. Définissez cette variable sur zéro pour publier les vignettes à la dernière version. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> saveAsVersion</span> </span> </td> 
@@ -94,38 +93,38 @@ Les nouvelles versions du serveur de rendu d’images peuvent prendre en charge 
    <td colname="col1"> <span class="codeph"> <span class="varname"> accentuer</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Expression de code  </span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> Applique l’accentuation à l’image de vue principale pour chaque taille de vignette publicitaire L’accentuation peut compenser le flou lors de l’application de l’échelle des vignettes. </td> 
+   <td colname="col4"> Applique l’accentuation à l’image de l’affichage principal pour chaque taille de vignette publicitaire. L’accentuation peut compenser le flou lors de la mise à l’échelle des vignettes. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmAmount</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Expression de code  </span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Le masquage flou numérique est un moyen flexible et puissant d’augmenter la netteté, en particulier dans les images numérisées. Ceci contrôle l'ampleur de chaque dépassement (le degré de plus en plus sombre et de plus en plus clair des bordures de bord). </td> 
+   <td colname="col4"> Le masquage flou numérique est un moyen flexible et puissant d’augmenter la netteté, en particulier dans les images numérisées. Cela contrôle l’ampleur de chaque débordement (le degré d’obscurité et de luminosité des bordures de périphérie). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmRadius</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Expression de code  </span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Affecte la taille des bords à améliorer ou la largeur des bords, de sorte qu’un rayon plus petit améliore les détails à plus petite échelle. Des valeurs de rayon plus élevées peuvent provoquer des halos aux bords. Les détails fins nécessitent un rayon plus petit, car des détails minuscules de même taille ou plus petits que le rayon sont perdus. </td> 
+   <td colname="col4"> Affecte la taille des bords à améliorer ou la largeur des bords, de sorte qu’une plus petite radium améliore les détails à plus petite échelle. Des valeurs de rayon plus élevées peuvent provoquer des halos aux bords. Un détail fin nécessite un rayon plus petit, car un détail minuscule de même taille ou plus petit que le rayon est perdu. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmThreshold</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Expression de code  </span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Contrôle le changement de luminosité minimum à accentuer ou la distance entre les valeurs tonales adjacentes avant que le filtre ne fonctionne. Ce paramètre permet d’accentuer des bords plus prononcés tout en laissant les bords plus subtils intacts. La plage autorisée de seuil de 0 à 255. </td> 
+   <td colname="col4"> Contrôle le changement de luminosité minimal à accentuer ou la distance entre les valeurs tonales adjacentes et avant que le filtre ne fonctionne. Ce paramètre peut accentuer des bords plus prononcés tout en ne modifiant pas les bords plus subtils. La plage autorisée de seuil de 0 à 255. </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Output (createVignettePublishFormatReturn)**
+**Sortie (createVignettePublishFormatReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`vignetteFormatHandle`*` | `xsd:string` | Oui | Poignée du format de vignette créé. |
+| `*`vignetteFormatHandle`*` | `xsd:string` | Oui | La poignée du format de vignette créé. |
 
 ## Exemples {#section-0564752d439642b9bb8de2903db6de1e}
 
-Ce code crée un format de publication de vignettes. La demande de création spécifie un nom, une largeur et une hauteur de cible, ainsi que d’autres valeurs requises.
+Ce code crée le format de publication de vignette. La requête de création spécifie un nom, une largeur et une hauteur de cible, ainsi que d’autres valeurs requises.
 
 **Request**
 
@@ -153,4 +152,3 @@ Ce code crée un format de publication de vignettes. La demande de création sp�
    <vignetteFormatHandle>v|21|282</vignetteFormatHandle>
 </createVignettePublishFormatReturn>
 ```
-
