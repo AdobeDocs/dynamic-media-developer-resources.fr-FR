@@ -1,25 +1,24 @@
 ---
-description: Interrompt un principal travail.
+description: Met un principal travail en pause.
 solution: Experience Manager
 title: pauseJob
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 010e969a-911e-49fc-8577-66c18cd4329c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 17%
+source-wordcount: '66'
+ht-degree: 18%
 
 ---
 
-
 # pauseJob{#pausejob}
 
-Interrompt un principal travail.
+Met un principal travail en pause.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-f2bf306ab4574871bd21f9f7dd681033}
+## Types d’utilisateurs autorisés {#section-f2bf306ab4574871bd21f9f7dd681033}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -36,16 +35,16 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Pose la société. |
-| `*`jobHandle`*` | `xsd:string` | Oui | Traitez la tâche que vous souhaitez mettre en pause. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gérer la société. |
+| `*`jobHandle`*` | `xsd:string` | Oui | Gérez la tâche que vous souhaitez mettre en pause. |
 
 **Sortie (PauseJobReturn)**
 
-L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-ee4914f9496f4bd88556728a48fb22c1}
 
-Cet exemple de code interrompt une tâche principale.
+Cet exemple de code met une tâche principale en pause.
 
 **Request**
 
