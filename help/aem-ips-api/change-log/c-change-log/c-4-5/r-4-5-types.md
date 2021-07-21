@@ -1,21 +1,20 @@
 ---
-description: Décrit les types de données nouveaux et modifiés pour l'API IPS version 4.5.
+description: Décrit les types de données nouveaux et modifiés pour l’API IPS version 4.5.
 solution: Experience Manager
 title: Types de données nouveaux et modifiés
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 45024d75-8058-40f8-b3e3-9b28b4cdc3f7
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 2%
+source-wordcount: '65'
+ht-degree: 3%
 
 ---
 
+# Types de données : Nouveautés et modifications{#data-types-new-and-modified}
 
-# Types de données : Nouveau et modifié{#data-types-new-and-modified}
-
-Décrit les types de données nouveaux et modifiés pour l&#39;API IPS version 4.5.
+Décrit les types de données nouveaux et modifiés pour l’API IPS version 4.5.
 
 Syntaxe
 
@@ -42,11 +41,10 @@ Syntaxe
 
 ## Types modifiés {#section-6ecdf752cc1a4636a583b4c546a0fccf}
 
-* Le fichier comprend un nouveau champ `fileName` qui renvoie le nom du fichier virtuel.
-* `AssetSummary` renvoie un  `type` champ et  `name` un champ
+* La ressource comprend un nouveau champ `fileName` qui renvoie le nom du fichier virtuel.
+* `AssetSummary` renvoie un  `type` champ et  `name` 
 
 * `MetadataField` inclut `isHidden`
 
 * `MetadataUpdate`
 * `UploadUrlsJob` nécessite un  `urlArray` et ajoute un  `numUrls` nombre facultatif
-
