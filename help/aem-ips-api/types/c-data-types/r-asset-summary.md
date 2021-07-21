@@ -1,21 +1,20 @@
 ---
-description: Résultats de la recherche de métadonnées contenant des informations résumées sur un fichier.
+description: Résultats de la recherche de métadonnées contenant des informations résumées sur une ressource.
 solution: Experience Manager
 title: AssetSummary
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+role: Developer,Admin
+exl-id: 25f16a2b-6cd8-485f-a6bd-2a9bc9b3243b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '129'
 ht-degree: 11%
 
 ---
 
-
 # AssetSummary{#assetsummary}
 
-Résultats de la recherche de métadonnées contenant des informations résumées sur un fichier.
+Résultats de la recherche de métadonnées contenant des informations résumées sur une ressource.
 
 Syntaxe
 
@@ -24,15 +23,14 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | `*`assetHandle`*` | `xsd:string` | Poignée de ressource. |
-| `*`type`*` | `xsd:string` | Type de fichier. La constante &quot;Types de ressource&quot; définit les valeurs possibles. Facultatif. |
-| `*`name`*` | `xsd:string` | Nom du fichier. Facultatif. |
-| `*`dossier`*` | `xsd:string` | Dossier contenant le fichier. |
-| `*`filename`*` | `xsd:string` | Nom de fichier du fichier. |
-| `*`créé`*` | `xsd:dateTime` | Date de création des ressources. |
-| `*`createUser`*` | `xsd:string` | Utilisateur qui a créé la ressource. |
+| `*`type`*` | `xsd:string` | Type de fichier. La constante &quot;Types de ressources&quot; définit les valeurs possibles. Facultatif. |
+| `*`name`*` | `xsd:string` | Nom de la ressource. Facultatif. |
+| `*`dossier`*` | `xsd:string` | Dossier contenant la ressource. |
+| `*`filename`*` | `xsd:string` | Nom de fichier de la ressource. |
+| `*`créé`*` | `xsd:dateTime` | Date de création de la ressource. |
+| `*`createUser`*` | `xsd:string` | L’utilisateur qui a créé la ressource. |
 | `*`lastModified`*` | `xsd:dateTime` | Date de la dernière mise à jour de la ressource. |
-| `*`lastModifyUser`*` | `xsd:string` | Dernier utilisateur qui a modifié la ressource. |
+| `*`lastModifyUser`*` | `xsd:string` | Dernier utilisateur à avoir modifié la ressource. |
 | `*`metadataArray`*` | `types:MetadataArray` | Tableau des valeurs de métadonnées associées à la ressource. |
 | `*`score`*` | `xsd:double` | Définit la précision en cas de recherche par analogie (0 = aucune correspondance, 1 = correspondance exacte). |
 | `*`scoreDetail`*` | `xsd:string` | Contient des informations détaillées sur des zones similaires suite à une recherche par analogie. |
-
