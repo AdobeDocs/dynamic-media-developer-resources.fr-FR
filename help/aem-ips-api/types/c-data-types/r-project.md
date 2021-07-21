@@ -2,16 +2,15 @@
 description: Jeu de ressources nommées.
 solution: Experience Manager
 title: Projet
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: be85f9b7-07a0-42e9-8391-45371a1ecaa6
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 27%
+source-wordcount: '27'
+ht-degree: 29%
 
 ---
-
 
 # Projet{#project}
 
@@ -23,6 +22,5 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`gestion de projet`*` | `xsd:string` | Handle du projet. |
+| `*`gestion de projet`*` | `xsd:string` | Gestionnaire de projet. |
 | `*`name`*` | `xsd:string` | Nom du projet. |
-
