@@ -1,25 +1,24 @@
 ---
-description: Paramètre de téléchargement pour traiter les fichiers ZIP et TAR en tant que ressources Principales (Aucun) ou pour extraire et télécharger leur contenu (UnCompress).
+description: Téléchargez le paramètre pour traiter les fichiers ZIP et TAR en tant que ressources Principales (Aucun) ou pour extraire et charger leur contenu (UnCompress).
 solution: Experience Manager
-title: AnnulerCompressionOptions
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+title: UnCompressOptions
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 89222959-3701-4ea6-bcae-98ceec93764f
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '98'
 ht-degree: 7%
 
 ---
 
-
 # UnCompressOptions{#uncompressoptions}
 
-Paramètre de téléchargement pour traiter les fichiers ZIP et TAR en tant que ressources Principales (Aucun) ou pour extraire et télécharger leur contenu (UnCompress).
+Téléchargez le paramètre pour traiter les fichiers ZIP et TAR en tant que ressources Principales (Aucun) ou pour extraire et charger leur contenu (UnCompress).
 
 >[!NOTE]
 >
->`None` est définie par défaut.
+>`None` est la valeur par défaut.
 
 ## Paramètres {#section-10e49e27f60743da970a4ff1c4587eab}
 
@@ -35,11 +34,11 @@ Paramètre de téléchargement pour traiter les fichiers ZIP et TAR en tant que 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> processus</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Contrôle le traitement des fichiers d’archives ZIP et TAR. Propose 2 options : 
+   <td colname="col3"> <p>Contrôle le traitement des fichiers d’archive ZIP et TAR. Propose 2 options : 
      <ul id="ul_F34E2F3B9B74450CA7E76BD9FD7137C2">
-      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> Aucun : </span> Traiter comme des ressources Principales. </li>
-      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> UnCompress : </span> Extrait et traite le contenu. </li>
-     </ul><p>Remarque : Les constantes de chaîne respectent la casse. Utilisez <span class="codeph"> UnCompress</span>, et non <span class="codeph"> uncompress</span> ou <span class="codeph"> unCompress</span>. </p></p> </td> 
+      <li id="li_E982468ED814446593B0C0A3F3D729FB"><span class="codeph"> Aucun : </span> Traitement en tant que Principales ressources. </li>
+      <li id="li_4A45DA99592B4EF7A1FE0A946A835104"><span class="codeph"> Décompresser : </span> extrayez et traitez le contenu. </li>
+     </ul><p>Remarque : Les constantes de chaîne sont sensibles à la casse. Utilisez <span class="codeph"> UnCompress</span>, et non <span class="codeph"> uncompress</span> ou <span class="codeph"> unCompress</span>. </p></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,6 +61,5 @@ Paramètre de téléchargement pour traiter les fichiers ZIP et TAR en tant que 
 Le type `unCompressionOptions` est utilisé par :
 
 * [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
-* [TéléchargerPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
+* [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
 * [UploadUrlsJob](../../types/c-data-types/r-upload-urls-job.md#reference-8e9bc895268c4321b233dbeadc990398)
-
