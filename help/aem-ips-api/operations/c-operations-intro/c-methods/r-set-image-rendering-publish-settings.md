@@ -1,21 +1,20 @@
 ---
-description: Pour les développeurs Scene7 uniquement. Reportez-vous à la section Attributs de catalogue de matériaux de rendu d'image de référence.
+description: Pour les développeurs Scene 7 uniquement. Reportez-vous à la section Attributs de catalogue de matières de rendu d’images .
 solution: Experience Manager
 title: setImageRenderingPublishSettings
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 7b0fe5d2-2779-417f-a5fe-577def2e0158
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 14%
+source-wordcount: '60'
+ht-degree: 15%
 
 ---
 
-
 # setImageRenderingPublishSettings{#setimagerenderingpublishsettings}
 
-Pour les développeurs Scene7 uniquement. Reportez-vous à la section Attributs de catalogue de matériaux de rendu d&#39;image de référence.
+Pour les développeurs Scene 7 uniquement. Reportez-vous à la section Attributs de catalogue de matières de rendu d’images .
 
 Syntaxe
 
@@ -25,7 +24,6 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de société. |
-| `*`publishSettingsArray`*` | `types:ConfigSettingArray` | Oui | Pour les développeurs Scene7 uniquement. |
-| `*`contextHandle`*` | `xsd:string` | Non | Traitement du contexte de publication. |
-
+| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société. |
+| `*`publishSettingsArray`*` | `types:ConfigSettingArray` | Oui | Pour les développeurs Scene 7 uniquement. |
+| `*`contextHandle`*` | `xsd:string` | Non | Gérer au contexte de publication. |
