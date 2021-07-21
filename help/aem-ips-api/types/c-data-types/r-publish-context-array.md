@@ -2,16 +2,15 @@
 description: Tableau de contextes de publication.
 solution: Experience Manager
 title: PublishContextArray
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 39ea8c8e-2e46-4b8f-ad30-5afe85ce98cb
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 16%
+source-wordcount: '28'
+ht-degree: 17%
 
 ---
-
 
 # PublishContextArray{#publishcontextarray}
 
@@ -24,4 +23,3 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | `*`PublishContextArray`*` | `types:PublishContext` | Tableau de contextes de publication. |
-
