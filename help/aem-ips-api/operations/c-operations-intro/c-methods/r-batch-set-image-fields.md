@@ -1,25 +1,24 @@
 ---
-description: Définit les champs spécifiques à l’image pour un ou plusieurs fichiers d’image.
+description: Définit des champs spécifiques à l’image pour une ou plusieurs ressources d’image.
 solution: Experience Manager
 title: batchSetImageFields
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
 exl-id: 8ea6dbb8-4d32-43e5-961f-31110f983663
-translation-type: tm+mt
-source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '197'
 ht-degree: 10%
 
 ---
 
 # batchSetImageFields{#batchsetimagefields}
 
-Définit les champs spécifiques à l’image pour un ou plusieurs fichiers d’image.
+Définit des champs spécifiques à l’image pour une ou plusieurs ressources d’image.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-6b087bdcb7874c13acf76e113a093054}
+## Types d’utilisateurs autorisés {#section-6b087bdcb7874c13acf76e113a093054}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,22 +33,22 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société contenant les fichiers d’image. |
-| `*`updateArray`*` | `types:ImageFieldUpdateArray` | Oui | Tableau des mises à jour des champs d’image. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de la société qui contient les ressources d’image. |
+| `*`updateArray`*` | `types:ImageFieldUpdateArray` | Oui | Le tableau des mises à jour des champs d’image. |
 
-**Output (batchSetImageFields)**
+**Sortie (batchSetImageFields)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Oui | Nombre de champs d’image définis avec succès. |
-| `*`warningCount`*` | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de définir les champs d’image. |
-| `*`errorCount`*` | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de définir les champs d’image. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des avertissements lorsque l’opération tentait d’appliquer les mises à jour. |
+| `*`successCount`*` | `xsd:int` | Oui | Nombre de champs d’image correctement définis. |
+| `*`warningCount`*` | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de définir les champs de l’image. |
+| `*`errorCount`*` | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de définir les champs de l’image. |
+| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau de détails associés aux ressources qui ont généré des avertissements lorsque l’opération a tenté d’appliquer les mises à jour. |
 | `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des erreurs lorsque l’opération a tenté d’appliquer les mises à jour. |
 
 ## Exemples {#section-0476e3d6516a4f8bbaac9de983bc6d1e}
 
-Cet exemple montre comment définir les données dans les champs de deux images d&#39;un tableau de mise à jour. Dans le tableau, les images sont spécifiées par leurs poignées de ressources et contiennent une résolution en pixels, des coordonnées d’ancrage de position x et y, ainsi que des données utilisateur. La réponse indique que les champs des deux images ont été définis avec succès.
+Cet exemple définit les données dans les champs de deux images dans un tableau de mise à jour. Dans le tableau , les images sont spécifiées par leurs gestionnaires de ressources et contiennent une résolution en pixels, les coordonnées d’ancrage x et y, ainsi que les données utilisateur. La réponse indique que les champs des deux images ont été définis avec succès.
 
 **Request**
 
