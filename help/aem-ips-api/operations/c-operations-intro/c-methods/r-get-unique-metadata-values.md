@@ -2,16 +2,15 @@
 description: Obtient des valeurs de champ de métadonnées uniques.
 solution: Experience Manager
 title: getUniqueMetadataValues
-feature: Dynamic Media Classic,SDK/API,Metadata
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Métadonnées
+role: Developer,Admin
+exl-id: ac5f5667-6c94-425c-bc01-f9df48d16e00
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 24%
+source-wordcount: '63'
+ht-degree: 25%
 
 ---
-
 
 # getUniqueMetadataValues{#getuniquemetadatavalues}
 
@@ -19,7 +18,7 @@ Obtient des valeurs de champ de métadonnées uniques.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-6a6b67e10a4c4e7bb18306115713380e}
+## Types d’utilisateurs autorisés {#section-6a6b67e10a4c4e7bb18306115713380e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -35,10 +34,10 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Pose la société. |
-| `*`fieldHandle`*` | `xsd:string` | Non | Gérer en fonction du champ de métadonnées. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gérer la société. |
+| `*`fieldHandle`*` | `xsd:string` | Non | Traitement du champ de métadonnées. |
 
-**Output (getUniqueMetadataValuesReturn)**
+**Sortie (getUniqueMetadataValuesReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -66,4 +65,3 @@ Cet exemple de code utilise une poignée de champ pour renvoyer des valeurs de m
    </values>
 </getUniqueMetadataValuesReturn>
 ```
-
