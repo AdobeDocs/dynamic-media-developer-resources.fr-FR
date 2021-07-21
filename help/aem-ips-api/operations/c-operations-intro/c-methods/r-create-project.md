@@ -1,25 +1,24 @@
 ---
-description: Crée un nouveau projet.
+description: Crée un projet.
 solution: Experience Manager
 title: createProject
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: dd9c07df-9a8f-4b67-9838-31dd96fd127b
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '81'
 ht-degree: 18%
 
 ---
 
-
 # createProject{#createproject}
 
-Crée un nouveau projet.
+Crée un projet.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-17878e2e4c3a44988c9a1af82c2ac319}
+## Types d’utilisateurs autorisés {#section-17878e2e4c3a44988c9a1af82c2ac319}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -34,18 +33,18 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société associée au nouveau projet. |
-| `*`projectName`*` | `xsd:string` | Oui | Nouveau nom de projet. |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de la société associée au nouveau projet. |
+| `*`projectName`*` | `xsd:string` | Oui | Nouveau nom du projet. |
 
-**Output (createProjectParam)**
+**Sortie (createProjectParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`projectHandle`*` | `xsd:string` | Oui | Poignée du nouveau projet. |
+| `*`projectHandle`*` | `xsd:string` | Oui | Gestion du nouveau projet. |
 
 ## Exemples {#section-a0cd532b67e346d088fbec141231a0e5}
 
-Cet exemple de code crée un projet appelé `ApiTestProject` dans une société spécifiée par son handle. La réponse renvoie la poignée au projet.
+Cet exemple de code crée un projet appelé `ApiTestProject` dans une société spécifiée par son nom d’utilisateur. La réponse renvoie la gestion au projet.
 
 **Request**
 
@@ -61,4 +60,3 @@ Cet exemple de code crée un projet appelé `ApiTestProject` dans une société 
    <projectHandle>p|6|ApiTestProject</projectHandle>
 </createProjectReturn>
 ```
-
