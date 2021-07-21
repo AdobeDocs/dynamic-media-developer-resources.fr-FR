@@ -1,25 +1,24 @@
 ---
-description: Obtient une liste de contextes de publication principaux pour la société spécifiée. Un contexte de publication est considéré comme principal s’il existe au moins un serveur principal défini pour ce contexte.
+description: Obtient une liste des principaux contextes de publication pour la société spécifiée. Un contexte de publication est considéré comme principal s’il existe au moins un serveur principal défini pour le contexte.
 solution: Experience Manager
 title: getActivePublishContext
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 9f450263-6877-4b32-a71a-8f67b0537a69
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '113'
 ht-degree: 10%
 
 ---
 
-
 # getActivePublishContext{#getactivepublishcontext}
 
-Obtient une liste de contextes de publication principaux pour la société spécifiée. Un contexte de publication est considéré comme principal s’il existe au moins un serveur principal défini pour ce contexte.
+Obtient une liste des principaux contextes de publication pour la société spécifiée. Un contexte de publication est considéré comme principal s’il existe au moins un serveur principal défini pour le contexte.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-eb22397744434dfe92a59ffa2883c2e7}
+## Types d’utilisateurs autorisés {#section-eb22397744434dfe92a59ffa2883c2e7}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -33,15 +32,14 @@ Syntaxe
 
 ## Paramètres {#section-a4be4024e55c472fa6728faec9c5e048}
 
-**Entrée (getActivePublishContextesParam)**
+**Entrée (getActivePublishContextsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Le handle vers la société à la requête pour les contextes de publication principaux |
+| `*`companyHandle`*` | `xsd:string` | Oui | Gestion de l’entreprise pour interroger les principaux contextes de publication |
 
-**Output (getActivePublishContextesReturn)**
+**Sortie (getActivePublishContextsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`contextArray`*` | `types:StringArray` | Oui | Tableau de principaux contextes de publication, qui peut inclure zéro ou plusieurs valeurs du contexte de publication. |
-
+| `*`contextArray`*` | `types:StringArray` | Oui | Tableau de principaux contextes de publication, qui peut inclure aucune ou plusieurs valeurs du contexte de publication. |
