@@ -1,25 +1,24 @@
 ---
-description: Obtient toutes les tâches actuellement principales.
+description: Récupère toutes les tâches actuellement principales.
 solution: Experience Manager
 title: getActiveJobs
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 55e92ebc-d153-49b5-bf2e-c69d042e15b6
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 15%
+source-wordcount: '106'
+ht-degree: 16%
 
 ---
 
-
 # getActiveJobs{#getactivejobs}
 
-Obtient toutes les tâches actuellement principales.
+Récupère toutes les tâches actuellement principales.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-125557a6ea7b4fc894d4bb468cd02118}
+## Types d’utilisateurs autorisés {#section-125557a6ea7b4fc894d4bb468cd02118}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -40,15 +39,15 @@ Syntaxe
 | `*`jobHandle`*` | `xsd:string` | Non | La poignée de la tâche. |
 | `*`originalName`*` | `xsd:string` | Non | Nom de la tâche d’origine. |
 
-**Output (getActiveJobsReturn)**
+**Sortie (getActiveJobsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`jobArray`*` | `xsd:string` | Oui | Tableau des tâches principales. |
+| `*`jobArray`*` | `xsd:string` | Oui | Tableau de tâches principales. |
 
 ## Exemples {#section-4ac5dbbf9cd94fdeb013d055f8ee7add}
 
-Cet exemple de code renvoie toutes les tâches principales d&#39;une société s&#39;exécutant dans IPS. Dans ce cas, la réponse est inhabituelle car le coordinateur de planification IPS est désactivé sans que les tâches principales soient en cours d&#39;exécution. Dans des circonstances normales, la réponse renverrait un certain nombre d&#39;emplois principaux.
+Cet exemple de code renvoie toutes les tâches principales d’une entreprise exécutant IPS. Dans ce cas, la réponse est inhabituelle car le coordinateur de planification IPS est désactivé sans tâche principale en cours d’exécution. Dans des circonstances normales, la réponse renvoie un certain nombre de tâches principales.
 
 **Request**
 
@@ -65,4 +64,3 @@ Cet exemple de code renvoie toutes les tâches principales d&#39;une société s
    <jobArray></jobArray>
 </getActiveJobsReturn>
 ```
-
