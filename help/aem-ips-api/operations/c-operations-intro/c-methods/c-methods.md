@@ -1,19 +1,18 @@
 ---
-description: Paramètres d’opération
+description: Paramètres d'opération
 solution: Experience Manager
-title: Paramètres d’opération
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 469d1a5c43a972116a8a2efb0de5708800130a99
+title: Paramètres d'opération
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 70ea84ce-10ec-4a89-bd0a-ab81b4e88f5c
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
 
-
-# Paramètres d&#39;opération {#operation-parameters}
+# Paramètres d&#39;opération{#operation-parameters}
 
 * [addCompany](r-add-company.md)
 * [addCompanyMembership](r-add-company-membership.md)
@@ -22,7 +21,7 @@ ht-degree: 0%
 * [addProjectAssets](r-add-project-assets.md)
 * [addTagFieldValues](r-add-tag-field-values.md)
 * [addUser](r-add-user.md)
-* [batchGetAssetPublishContextes](r-batch-get-asset-publish-contexts.md)
+* [batchGetAssetPublishContexts](r-batch-get-asset-publish-contexts.md)
 * [batchSetAssetMetadata](r-batch-set-asset-metadata.md)
 * [batchSetFontFields](r-batch-set-font-fields.md)
 * [batchSetIccProfileFields](r-batch-set-icc-profile-fields.md)
@@ -64,7 +63,7 @@ ht-degree: 0%
 * [generatePassword](r-generate-password.md)
 * [getActiveJobs](r-get-active-jobs.md)
 * [getActivePublishContext](r-get-active-publish-contexts.md)
-* [getAllCompanies](r-get-all-companies.md)
+* [getAllEntreprises](r-get-all-companies.md)
 * [getAllUsers](r-get-all-users.md)
 * [getAssetCounts](r-get-asset-counts.md)
 * [getAssetJobLogs](r-get-asset-job-logs.md)
@@ -101,7 +100,7 @@ ht-degree: 0%
 * [getPropertySets](r-get-property-sets.md)
 * [getPropertySetType](r-get-property-set-type.md)
 * [getPropertySetTypes](r-get-property-set-types.md)
-* [getPublishContextes](r-get-publish-contexts.md)
+* [getPublishContexts](r-get-publish-contexts.md)
 * [getScheduledJobs](r-get-scheduled-jobs.md)
 * [getSearchStrings](r-get-search-strings.md)
 * [getSystemProperties](r-get-system-properties.md)
@@ -155,7 +154,7 @@ ht-degree: 0%
 * [setPassword](r-set-password.md)
 * [setProjectAssets](r-set-project-assets.md)
 * [setTagFieldValues](r-set-tag-field-values.md)
-* [setUrlModificateur](r-set-url-modifier.md)
+* [setUrlModifier](r-set-url-modifier.md)
 * [setUserInfo](r-set-user-info.md)
 * [setViewerConfigSettings](r-set-viewer-config-settings.md)
 * [setZoomTargets](r-set-zoom-targets.md)
