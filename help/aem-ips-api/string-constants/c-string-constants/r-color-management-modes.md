@@ -2,16 +2,15 @@
 description: Utilisé par ColorManagementOptions/colorManagement.
 solution: Experience Manager
 title: Modes de gestion des couleurs
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 10e50e6b-7c20-4a31-8e1b-9fa48de74237
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 8%
+source-wordcount: '21'
+ht-degree: 9%
 
 ---
-
 
 # Modes de gestion des couleurs{#color-management-modes}
 
@@ -24,4 +23,3 @@ Syntaxe
 * [!DNL `Default`]
 * [!DNL `MaintainOriginal`]
 * [!DNL `Convert`]
-
