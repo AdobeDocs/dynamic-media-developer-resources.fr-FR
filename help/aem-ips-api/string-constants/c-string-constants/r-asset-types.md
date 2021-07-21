@@ -1,21 +1,20 @@
 ---
-description: Décrit les valeurs utilisées par divers paramètres d’entrée. Consultez la liste de cet article pour plus de détails.
+description: Décrit les valeurs utilisées par différents paramètres d’entrée. Consultez la liste de cet article pour plus de détails.
 solution: Experience Manager
 title: Types de fichier
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+role: Developer,Admin
+exl-id: efbdf214-403e-4dc8-90c1-97e6fd113265
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 12%
+source-wordcount: '45'
+ht-degree: 13%
 
 ---
 
-
 # Types de fichier{#asset-types}
 
-Décrit les valeurs utilisées par divers paramètres d’entrée. Consultez la liste de cet article pour plus de détails.
+Décrit les valeurs utilisées par différents paramètres d’entrée. Consultez la liste de cet article pour plus de détails.
 
 Syntaxe
 
@@ -77,4 +76,3 @@ Syntaxe
 * [!DNL `Xsl`]
 * [!DNL `Zip Rtf`]
 * [!DNL `ZoomTarget`]
-
