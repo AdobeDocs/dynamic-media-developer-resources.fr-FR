@@ -3,9 +3,9 @@ description: Utilisez ces paramètres de serveur pour définir les limites de ta
 solution: Experience Manager
 title: Limites de taille d’image
 feature: Dynamic Media Classic, SDK/API
-role: Developer,Administrator,User
+role: Developer,Admin,User
 exl-id: 75ec58ee-8c98-46cb-96b2-79d1c32e576f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 0%
