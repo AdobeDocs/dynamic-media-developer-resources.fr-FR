@@ -2,16 +2,15 @@
 description: Définit l’appartenance à un groupe pour un utilisateur.
 solution: Experience Manager
 title: setGroupMembership
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 0a355a34-1c2d-48c1-ba12-7d07d1673d09
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 12%
 
 ---
-
 
 # setGroupMembership{#setgroupmembership}
 
@@ -19,7 +18,7 @@ Définit l’appartenance à un groupe pour un utilisateur.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-3d6308a8a5694ed085e04d1c37982b9e}
+## Types d’utilisateurs autorisés {#section-3d6308a8a5694ed085e04d1c37982b9e}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -31,17 +30,17 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Non | Nom d’utilisateur dont vous souhaitez définir l’appartenance au groupe. |
-| `*`companyHandle`*` | `xsd:string` | Non | Poignée de société. |
-| `*`groupHandleArray`*` | `types:HandleArray` | Oui | Tableau de poignées effectuées sur des groupes auxquels appartient l’utilisateur. |
+| `*`userHandle`*` | `xsd:string` | Non | Gestionnaire de l’utilisateur dont vous souhaitez définir l’appartenance à un groupe. |
+| `*`companyHandle`*` | `xsd:string` | Non | Poignée de la société. |
+| `*`groupHandleArray`*` | `types:HandleArray` | Oui | Le tableau de gestionnaires aux groupes auxquels l’utilisateur doit appartenir. |
 
-**Output (setGroupMembershipReturn)**
+**Sortie (setGroupMembershipReturn)**
 
-L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-67b86d259df24938896fe19061845811}
 
-Cet exemple de code fait de l’utilisateur un membre d’un groupe. Ajoutez un utilisateur à plusieurs groupes à l’aide du tableau de descripteurs de groupe.
+Cet exemple de code fait de l’utilisateur un membre d’un groupe. Ajoutez un utilisateur à plusieurs groupes à l’aide du tableau de gestion des groupes.
 
 **Request**
 
