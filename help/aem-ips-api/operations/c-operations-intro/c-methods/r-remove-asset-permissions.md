@@ -2,16 +2,15 @@
 description: Supprime les autorisations des ressources sélectionnées.
 solution: Experience Manager
 title: removeAssetPermissions
-feature: Dynamic Media Classic,SDK/API,Asset Management
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+role: Developer,Admin
+exl-id: c47d9853-91b1-45fe-b8ff-aaa1239ca0d1
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 15%
+source-wordcount: '75'
+ht-degree: 16%
 
 ---
-
 
 # removeAssetPermissions{#removeassetpermissions}
 
@@ -19,7 +18,7 @@ Supprime les autorisations des ressources sélectionnées.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-239058fdb4454e519ac327e621cb3abc}
+## Types d’utilisateurs autorisés {#section-239058fdb4454e519ac327e621cb3abc}
 
 * `IpsAdmin`
 * `IpsCompanyAdmin`
@@ -32,15 +31,15 @@ Syntaxe
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | `*`companyHandle`*` | `xsd:string` | Oui | La poignée de la société. |
-| `*`assetHandle`*` | `xsd:string` | Oui | Poignée de la ressource avec les autorisations à supprimer. |
+| `*`assetHandle`*` | `xsd:string` | Oui | Gestion de la ressource avec les autorisations que vous souhaitez supprimer. |
 
-**Output (removeAssetPermissionsReturn)**
+**Sortie (removeAssetPermissionsReturn)**
 
-L&#39;API IPS ne renvoie pas de réponse pour cette opération.
+L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-238fa7bb091548f5ba72ced11fc92d4f}
 
-Cet exemple de code supprime les autorisations d’un fichier.
+Cet exemple de code supprime les autorisations d’une ressource.
 
 **Request**
 
