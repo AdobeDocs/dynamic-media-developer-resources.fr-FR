@@ -1,25 +1,24 @@
 ---
-description: Crée une copie d’un fichier d’image existant. Les commandes de protocole Image Server spécifiées sont appliquées pour générer la nouvelle copie.
+description: Crée une copie d’une ressource image existante. Les commandes de protocole Image Server spécifiées sont appliquées pour générer la nouvelle copie.
 solution: Experience Manager
 title: copyImage
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: f6c97606d7a4209427316d7367013ad9585a5cae
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 059ebbca-2341-444b-850a-1ec9582692ec
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '144'
 ht-degree: 21%
 
 ---
 
-
 # copyImage{#copyimage}
 
-Crée une copie d’un fichier d’image existant. Les commandes de protocole Image Server spécifiées sont appliquées pour générer la nouvelle copie.
+Crée une copie d’une ressource image existante. Les commandes de protocole Image Server spécifiées sont appliquées pour générer la nouvelle copie.
 
 Syntaxe
 
-## Types d’utilisateur autorisés {#section-c9fe7abb550e495f832234f845db7d6e}
+## Types d’utilisateurs autorisés {#section-c9fe7abb550e495f832234f845db7d6e}
 
 * `IpsUser`
 * `IpsAdmin`
@@ -46,19 +45,19 @@ Syntaxe
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Poignée de la société contenant l’image. </p> </td> 
+   <td colname="col4"> <p>Poignée à la société qui contient l’image. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Poignée du fichier d’image. </p> </td> 
+   <td colname="col4"> <p>Gestion de la ressource image. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> folderHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Identifiant du dossier dans lequel l’image doit être copiée. </p> </td> 
+   <td colname="col4"> <p>Gestionnaire du dossier dans lequel l’image doit être copiée. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> name</span> </span> </p> </td> 
@@ -67,7 +66,7 @@ Syntaxe
    <td colname="col4"> <p>Nom de la nouvelle image. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> urlModificateur</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> urlModifier</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
    <td colname="col4"> <p> </p> </td> 
@@ -75,7 +74,7 @@ Syntaxe
  </tbody> 
 </table>
 
-**Output (copyImageParam)**
+**Sortie (copyImageParam)**
 
 <table id="table_5E4ED83047314DFABC1BFAAC76C0EAC3"> 
  <thead> 
@@ -91,14 +90,14 @@ Syntaxe
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Poignée de l’image copiée. </p> </td> 
+   <td colname="col4"> <p>Gestionnaire de l’image copiée. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Exemples {#section-c30a4017001146e7befbbfc5ffcb7593}
 
-L’exemple de code copie une image spécifiée par société, ressource, nom d’utilisateur et nom de dossier.
+L’exemple de code copie une image spécifiée par l’entreprise, la ressource, la gestion de dossier et le nom.
 
 **Request**
 
@@ -119,4 +118,3 @@ L’exemple de code copie une image spécifiée par société, ressource, nom d�
    <assetHandle>a|943|1|580</assetHandle>
 </copyImageReturn>
 ```
-
