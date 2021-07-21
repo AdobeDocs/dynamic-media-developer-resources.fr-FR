@@ -1,19 +1,18 @@
 ---
-description: PermissonSet
+description: PermissionSet
 solution: Experience Manager
-title: PermissonSet
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+title: PermissionSet
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 39146b70-ecd8-42ce-a171-0fb7ac7dd025
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '26'
-ht-degree: 19%
+source-wordcount: '24'
+ht-degree: 20%
 
 ---
 
-
-# PermissonSet{#permissonset}
+# PermissionSet{#permissonset}
 
 Syntaxe
 
@@ -21,6 +20,5 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`PermissionSetHandle`*` | `xsd:string` | Traitez un jeu d’autorisations. |
-| `*`permissionArray`*` | `types:PermissionArray` | Tableau des autorisations. |
-
+| `*`PermissionSetHandle`*` | `xsd:string` | Gérez un jeu d’autorisations. |
+| `*`permissionArray`*` | `types:PermissionArray` | Tableau d’autorisations. |
