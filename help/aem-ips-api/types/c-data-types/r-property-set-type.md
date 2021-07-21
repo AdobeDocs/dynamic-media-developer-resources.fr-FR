@@ -1,23 +1,22 @@
 ---
-description: Valeurs valides pour les champs PropertySetType et createPropertySetTypeParam.
+description: Valeurs valides des champs PropertySetType et createPropertySetTypeParam .
 solution: Experience Manager
 title: PropertySetType
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: f0c51e67-6927-4b9f-9935-222e6a194c13
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 15%
+source-wordcount: '86'
+ht-degree: 16%
 
 ---
 
-
 # PropertySetType{#propertysettype}
 
-Valeurs valides pour les champs PropertySetType et createPropertySetTypeParam.
+Valeurs valides des champs PropertySetType et createPropertySetTypeParam .
 
-Les valeurs sont les suivantes :
+Les valeurs incluent :
 
 * `UserProperty`
 * `CompanyProperty`
@@ -37,17 +36,17 @@ Les valeurs sont les suivantes :
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> typeHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Tapez handle. </td> 
+   <td colname="col3"> Poignée de type. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Poignée de société. <p>Remarque :  Le type est global si la poignée de société est absente. </p></td> 
+   <td colname="col3">Poignée de la société. <p>Remarque :  Le type est global si le gestionnaire de l’entreprise n’est pas présent. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Saisissez name. </td> 
+   <td colname="col3"> Saisissez le nom. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> propertyType</span> </span> </td> 
@@ -57,8 +56,7 @@ Les valeurs sont les suivantes :
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> allowMultiple</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> Autoriser l’association de plusieurs instances de jeu de propriétés à un objet de ce type. </td> 
+   <td colname="col3"> Permet d’autoriser ou non l’association de plusieurs instances de jeu de propriétés à un objet pour ce type. </td> 
   </tr> 
  </tbody> 
 </table>
-
