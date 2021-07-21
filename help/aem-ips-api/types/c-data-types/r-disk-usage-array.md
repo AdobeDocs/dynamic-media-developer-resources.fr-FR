@@ -1,21 +1,20 @@
 ---
-description: Tableau de l'utilisation du disque.
+description: Tableau d’utilisation du disque.
 solution: Experience Manager
 title: DiskUsageArray
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: 8331041e-4b8e-42b4-8bda-e40ca9489704
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 20%
+source-wordcount: '27'
+ht-degree: 22%
 
 ---
 
-
 # DiskUsageArray{#diskusagearray}
 
-Tableau de l&#39;utilisation du disque.
+Tableau d’utilisation du disque.
 
 Syntaxe
 
@@ -23,5 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`éléments`*` | `types:DiskUsage` | Tableau de l&#39;utilisation des disques. |
-
+| `*`éléments`*` | `types:DiskUsage` | Tableau de l’utilisation du disque. |
