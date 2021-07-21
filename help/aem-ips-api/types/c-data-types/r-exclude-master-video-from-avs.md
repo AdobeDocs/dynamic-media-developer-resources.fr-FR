@@ -1,18 +1,17 @@
 ---
 description: Exclut la vidéo Principale de la visionneuse de vidéos adaptative.
-title: ExclureMasterVideoFromAVS
-feature: Dynamic Media Classic,SDK/API
-role: Developer,Administrator
-translation-type: tm+mt
-source-git-commit: 052bfcbcf1bd4ccf60afa7e3325bf58dd07cba85
+title: ExcludeMasterVideoFromAVS
+feature: Dynamic Media Classic, SDK/API
+role: Developer,Admin
+exl-id: e73eab03-fbda-435c-be3c-98781f8630a5
+source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '47'
 ht-degree: 14%
 
 ---
 
-
-# ExclureMasterVideoFromAVS{#excludemastervideofromavs}
+# ExcludeMasterVideoFromAVS{#excludemastervideofromavs}
 
 Exclut la vidéo Principale de la visionneuse de vidéos adaptative.
 
@@ -36,4 +35,3 @@ Syntaxe
   </tr> 
  </tbody> 
 </table>
-
