@@ -5,9 +5,9 @@ title: fmt
 feature: Dynamic Media Classic, SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 9d86f2acad638cbbcb80b48ead73443c76c895a9
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '882'
 ht-degree: 4%
 
 ---
@@ -22,33 +22,33 @@ Format d’image de réponse.
 
 | *`format`* | Description |
 |---|---|
-| `avif-alpha` | AVIF avec canal alpha <br><br>*Calendrier des versions pour ce format :* <br><b>Amérique du Nord</b> - Disponible maintenant<br><b>Europe, Moyen-Orient, Afrique</b> - 13 août 2021<br><b>Asie-Pacifique</b> - Disponible maintenant |
-| `avif` | AVIF <br><br>*Date de publication pour ce format :*<br><b> Amérique du Nord</b> - Disponible maintenant<br><b>Europe, Moyen-Orient, Afrique</b> - 13 août 2021<br><b>Asie-Pacifique</b> - Disponible maintenant |
-| `eps` | PostScript encapsulé binaire décompressé |
-| `f4m` | Format de manifeste du serveur de diffusion en continu de Flash |
-| `gif-alpha` | GIF avec 2 à 255 couleurs plus transparence couleur clé |
-| `gif` | GIF de 2 à 256 couleurs |
-| `jpeg` | Lossy JPEG |
-| `jpeg2000-alpha` | JPEG 2000 avec couche alpha avec perte et perte |
-| `jpeg2000` | JPEG 2000 sans perte |
-| `jpegxr-alpha` | JPEG XR avec couche alpha sans perte |
-| `jpegxr` | JPEG XR sans perte |
-| `jpg` | Lossy JPG |
-| `m3u8` | Format manifeste du serveur de diffusion en continu Apple |
-| `pdf` | Image incorporée dans un PDF |
-| `pjpeg` | JPEG progressif |
-| `png-alpha` | PNG 24 bits sans perte avec canal alpha |
-| `png` | PNG 24 bits sans perte |
-| `png8-alpha` | PNG 8 bits sans perte avec canal alpha |
-| `png8` | PNG 8 bits sans perte |
-| `swf-alpha` | Fichier JPEG avec perte et masque compressé avec déflation incorporé dans un fichier swf AS2 Adobe |
-| `swf` | Fichier JPEG avec perte incorporé dans un fichier swf AS2 Adobe |
+| `avif-alpha` | AVIF avec couche alpha sans perte. |
+| `avif` | AVIF sans perte. |
+| `eps` | PostScript encapsulé binaire décompressé. |
+| `f4m` | Format de manifeste du serveur de diffusion en continu de Flash. |
+| `gif-alpha` | GIF avec 2 à 255 couleurs plus transparence couleur-clé. |
+| `gif` | GIF de 2 à 256 couleurs. |
+| `jpeg` | JPEG avec perte. |
+| `jpeg2000-alpha` | JPEG 2000 avec couche alpha sans perte. |
+| `jpeg2000` | JPEG 2000 sans perte. |
+| `jpegxr-alpha` | JPEG XR sans perte et avec couche alpha. |
+| `jpegxr` | JPEG XR sans perte et avec perte. |
+| `jpg` | Perte de JPG. |
+| `m3u8` | Format de manifeste du serveur de diffusion en continu Apple. |
+| `pdf` | Image incorporée au format PDF. |
+| `pjpeg` | JPEG progressif. |
+| `png-alpha` | PNG 24 bits sans perte avec canal alpha. |
+| `png` | PNG 24 bits sans perte. |
+| `png8-alpha` | PNG 8 bits sans perte avec canal alpha. |
+| `png8` | PNG 8 bits sans perte. |
+| `swf-alpha` | JPEG avec perte et masque compressé avec déflation incorporés dans un fichier swf AS2 Adobe. |
+| `swf` | Fichier JPEG avec perte incorporé dans un fichier swf AS2 Adobe. |
 | `swf3-alpha` | JPEG avec perte et masque compressé avec déflation incorporés dans un fichier swf AS3 Adobe. **Remarque :** les formats swf et swf-alpha sont mieux utilisés pour les applications ActionScript 2 (Flash Player 8 et versions antérieures). Les formats swf3 et swf3-alpha sont recommandés pour les applications ActionScript3 (Flash Player 9 et versions ultérieures). |
-| `swf3` | Fichier JPEG avec perte incorporé dans un fichier swf AS3 Adobe |
-| `tif-alpha` | TIFF avec canal alpha |
-| `tif` | TIFF |
-| `webp-alpha` | WebP sans perte avec canal alpha |
-| `webp` | WebP sans perte |
+| `swf3` | Fichier JPEG avec perte incorporé dans un fichier swf AS3 Adobe. |
+| `tif-alpha` | TIFF avec couche alpha. |
+| `tif` | TIFF. |
+| `webp-alpha` | WebP sans perte et avec canal alpha. |
+| `webp` | WebP sans perte et sans perte. |
 
 | *`pixelType`* – rvb | gris | cmyk |
 | *`pixelType`* | Description |
@@ -60,12 +60,12 @@ Format d’image de réponse.
 | *`compression`* – none | lzw | zip | jpeg | lossy | lossless |
 | *`compression`* | Description |
 |---|---|
-| `jpeg` | Compression JPEG (perte) |
-| `lossy` | Compression WebP, JPEG 2000 et JPEG XR (perte) |
-| `lossless` | Compression WebP, JPEG 2000 et JPEG XR (sans perte) |
-| `lzw` | Compression LZW (Lempel-Ziv-Welch) (sans perte) |
-| `none` | Non compressé |
-| `zip` | Compression &quot;Deflate&quot; (sans perte) |
+| `jpeg` | Compression JPEG (perte). |
+| `lossy` | Compression WebP, JPEG 2000 et JPEG XR (perte). |
+| `lossless` | Compression WebP, JPEG 2000 et JPEG XR (sans perte). |
+| `lzw` | Compression LZW (Lempel-Ziv-Welch) (sans perte). |
+| `none` | Non compressé. |
+| `zip` | Compression &quot;Deflate&quot; (sans perte). |
 
 * *`format`* spécifie le format de codage de l’image pour les données d’image envoyées au client et le type MIME de réponse correspondant pour l’en-tête de réponse HTTP.
 * *`pixelType`* peut être utilisé pour effectuer une conversion d’espace colorimétrique de sortie lorsque n’ `icc=` est pas spécifié.
