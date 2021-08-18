@@ -5,9 +5,9 @@ title: Vidéo interactive
 feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéos interactives
 role: Developer,User
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
 workflow-type: tm+mt
-source-wordcount: '2217'
+source-wordcount: '2216'
 ht-degree: 0%
 
 ---
@@ -50,9 +50,9 @@ Sur les périphériques tactiles, la commande de volume est masquée dans l’in
 
 Lorsque la visionneuse fonctionne en mode pop-up, un bouton plein écran n’est pas disponible dans l’interface utilisateur.
 
-La visionneuse affiche un panneau avec des échantillons interactifs à droite de la zone d’affichage vidéo. La liste des échantillons avance automatiquement au fur et à mesure de la lecture de la vidéo, de sorte que les échantillons correspondant à la zone de la vidéo active s’affichent. Cliquer ou appuyer sur un échantillon déclenche une action associée à cet échantillon pendant l’heure de création. Selon la configuration utilisée, le déclencheur peut rediriger vers une autre page du site web. Il peut également renvoyer les informations sur les produits à la logique de la page web, ce qui peut à son tour déclencher l’ouverture d’un aperçu rapide qui affiche le contenu du produit associé.
+La visionneuse affiche un panneau avec des échantillons interactifs à droite de la zone d’affichage vidéo. La liste des échantillons avance automatiquement au fur et à mesure de la lecture de la vidéo, de sorte que les échantillons correspondant à la zone de la vidéo active s’affichent. Cliquer ou appuyer sur un échantillon déclenche une action associée à cet échantillon pendant l’heure de création. Selon la configuration utilisée, le déclencheur peut rediriger vers une autre page du site web. Il peut également renvoyer les informations sur les produits à la logique de la page web, ce qui peut à son tour déclencher l’ouverture d’un aperçu rapide qui affiche le contenu des produits associés.
 
-Il est possible de naviguer rapidement dans le contenu vidéo lorsque le chapitre vidéo est activé. Les chapitres vidéo s’affichent sous la forme de marqueurs dans le suivi de la barre de défilement vidéo et affichent le titre et la description du chapitre au survol (ou en appuyant une seule fois sur les systèmes tactiles). Le client peut &quot;rechercher&quot; un chapitre spécifique en cliquant sur un marqueur de chapitre ou en appuyant sur une bulle de description de chapitre.
+Il est possible de parcourir rapidement le contenu vidéo lorsque le chapitre vidéo est activé. Les chapitres vidéo s’affichent sous la forme de marqueurs dans le suivi de la barre de défilement vidéo et affichent le titre et la description du chapitre au survol (ou en appuyant une seule fois sur les systèmes tactiles). Le client peut &quot;rechercher&quot; un chapitre spécifique en cliquant sur un marqueur de chapitre ou en appuyant sur une bulle de description de chapitre.
 
 Le spectateur prend également en charge divers outils de partage sur les médias sociaux. Ils sont disponibles sous la forme d’un bouton unique dans l’interface utilisateur qui se développe dans une barre d’outils de partage lorsque l’utilisateur clique ou appuie dessus. La barre d’outils de partage contient une icône pour chaque type de canal de partage pris en charge, tel que Facebook, Twitter, partage de courrier électronique, partage de code intégré et partage de lien. Lorsque des outils de partage de courrier électronique, d’intégration de partage ou de lien sont activés, la visionneuse affiche une boîte de dialogue modale avec un formulaire de saisie de données correspondant. Lors de l’appel de Facebook ou Twitter, la visionneuse redirige l’utilisateur vers une boîte de dialogue de partage standard à partir d’un service de médias sociaux. En outre, lorsqu’un outil de partage est activé, la lecture vidéo est automatiquement suspendue. Les outils de partage ne sont pas disponibles en mode plein écran en raison des restrictions de sécurité du navigateur web.
 
@@ -280,7 +280,7 @@ La page d’exemples suivante illustre d’autres utilisations réelles de l’i
 
 [Démonstrations en direct](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Autre emplacement de démonstration](https://experienceleague.adobe.com/tools/vlist/vlist.html)
+[Autre emplacement de démonstration](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **Incorporation réactive avec largeur et hauteur définies**
 
