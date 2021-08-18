@@ -6,9 +6,9 @@ title: Spin
 feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses à 360°
 role: Developer,User
 exl-id: 4c802d42-ea5b-4f28-b6ef-2689aa16839d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
 workflow-type: tm+mt
-source-wordcount: '2135'
+source-wordcount: '2138'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Voir [Référence de commande commune à toutes les visionneuses - Attributs de 
 
 ## Interaction avec la visionneuse à 360° {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
-La visionneuse à 360° prend en charge les mouvements tactiles suivants, courants dans d’autres applications mobiles. Lorsque la visionneuse ne peut pas traiter le mouvement de glissement d’un utilisateur, elle transfère l’événement vers le navigateur web pour effectuer un défilement de page natif. Cela permet à l’utilisateur de parcourir la page même si la visionneuse occupe la majeure partie de la zone d’écran de l’appareil.
+La visionneuse à 360° prend en charge les mouvements tactiles suivants, courants dans d’autres applications mobiles. Lorsque la visionneuse ne peut pas traiter le mouvement de glissement d’un utilisateur, elle transfère l’événement vers le navigateur web pour effectuer un défilement de page natif. Cette fonctionnalité permet à l’utilisateur de parcourir la page même si la visionneuse occupe la majeure partie de la zone d’écran de l’appareil.
 
 <table id="table_ED747CC7178448919C34A4FCD18922D0"> 
  <thead> 
@@ -61,11 +61,11 @@ La visionneuse à 360° prend en charge les mouvements tactiles suivants, couran
   </tr> 
   <tr> 
    <td colname="col1"> <p>Glissement ou clic horizontal </p> </td> 
-   <td colname="col2"> <p> Si l’image est à l’état réinitialisé, elle s’étend sur la visionneuse horizontalement. </p> <p> Si l’image est agrandie, elle se déplace horizontalement. Si l’image est déplacée vers le bord de la vue et qu’un glissement est toujours effectué dans cette direction, le mouvement effectue un défilement de page natif. </p> </td> 
+   <td colname="col2"> <p> Si l’image est à l’état réinitialisé, elle passe sur la visionneuse horizontalement. </p> <p> Si l’image est agrandie, elle se déplace horizontalement. Si l’image est déplacée vers le bord de la vue et qu’un glissement est toujours effectué dans cette direction, le mouvement effectue un défilement de page natif. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Glissement ou clic vertical </p> </td> 
-   <td colname="col2"> <p> Si l’image est à l’état réinitialisé, l’angle d’affichage vertical est modifié en cas d’utilisation d’une visionneuse à 360° multidimensionnelle. Dans une visionneuse à 360° unidimensionnelle ou lorsqu’une visionneuse à 360° multidimensionnelle se trouve sur le dernier ou le premier axe, de sorte que le glissement vertical n’entraîne pas de changement de l’angle d’affichage vertical, le mouvement effectue un défilement de page natif. </p> <p> Si l’image est agrandie, elle bouge l’image verticalement. Si l’image est déplacée vers le bord de la vue et qu’un glissement est toujours effectué dans cette direction, le mouvement effectue un défilement de page natif. </p> </td> 
+   <td colname="col2"> <p> Si l’image est à l’état réinitialisé, l’angle d’affichage vertical est modifié en cas d’utilisation d’une visionneuse à 360° multidimensionnelle. Dans une visionneuse à 360° unidimensionnelle, le mouvement effectue un défilement de page natif. Ou, lorsqu’une visionneuse à 360° multidimensionnelle se trouve sur le dernier ou le premier axe de sorte que le glissement vertical n’entraîne pas de changement de l’angle d’affichage vertical, le mouvement effectue également un défilement de page natif. </p> <p> Si l’image est agrandie, elle bouge l’image verticalement. Si l’image est déplacée vers le bord de la vue et qu’un glissement est toujours effectué dans cette direction, le mouvement effectue un défilement de page natif. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -108,11 +108,11 @@ En mode incorporé, la visionneuse est ajoutée à la page web existante, qui pe
 
 Les cas d’utilisation Principaux sont les pages web orientées vers les ordinateurs de bureau ou les tablettes, ainsi que les pages de conception réactive qui ajustent automatiquement la mise en page en fonction du type d’appareil.
 
-L’incorporation des tailles fixes est utilisée lorsque la visionneuse ne modifie pas sa taille après le chargement initial. Il s’agit de la meilleure solution pour les pages web ayant une disposition statique.
+L’incorporation des tailles fixes est utilisée lorsque la visionneuse ne modifie pas sa taille après le chargement initial. Cette action est la meilleure solution pour les pages web avec une disposition statique.
 
-L’incorporation des conceptions réactives suppose que la visionneuse doit peut-être redimensionner au moment de l’exécution en réponse au changement de taille de son conteneur `DIV`. Le cas d’utilisation le plus courant consiste à ajouter une visionneuse à une page web qui utilise une mise en page flexible.
+L’incorporation des conceptions réactives suppose que la visionneuse doit être redimensionnée au moment de l’exécution en réponse au changement de taille de son conteneur `DIV`. Le cas d’utilisation le plus courant consiste à ajouter une visionneuse à une page web qui utilise une mise en page flexible.
 
-En mode d’incorporation en responsive design, la visionneuse se comporte différemment selon la façon dont la page web dimensionne son conteneur `DIV`. Si la page web définit uniquement la largeur du conteneur `DIV`, en ne limitant pas sa hauteur, la visionneuse sélectionne automatiquement sa hauteur en fonction des proportions de la ressource utilisée. Cette fonctionnalité permet de s’assurer que la ressource s’intègre parfaitement dans la vue sans marge intérieure sur les côtés. Ce cas d’utilisation est le plus courant pour les pages web qui utilisent des structures de mise en page en responsive design comme Bootstrap, Foundation, etc.
+En mode d’incorporation en responsive design, la visionneuse se comporte différemment selon la façon dont la page web dimensionne son conteneur `DIV`. Si la page web définit uniquement la largeur du conteneur `DIV`, en ne limitant pas sa hauteur, la visionneuse sélectionne automatiquement sa hauteur en fonction des proportions de la ressource utilisée. Cette fonctionnalité permet de s’assurer que la ressource s’intègre parfaitement dans la vue sans marge intérieure sur les côtés. Ce cas d’utilisation est le plus courant pour les pages web qui utilisent des structures de mise en page en responsive design comme Bootstrap ou Foundation.
 
 Dans le cas contraire, si la page web définit à la fois la largeur et la hauteur du conteneur de la visionneuse `DIV`, la visionneuse remplit uniquement cette zone et suit la taille fournie par la mise en page web. Un bon exemple peut être l’incorporation de la visionneuse dans une superposition modale, où la superposition est dimensionnée en fonction de la taille de la fenêtre du navigateur web.
 
@@ -141,7 +141,7 @@ Pour ajouter la visionneuse à 360° à une page web, procédez comme suit :
 
    >[!NOTE]
    >
-   >Vous ne devez référencer que le fichier JavaScript de la visionneuse principale `include` sur votre page. Vous ne devez pas référencer de fichiers JavaScript supplémentaires dans le code de page web qui peuvent être téléchargés selon la logique de la visionneuse au moment de l’exécution. En particulier, ne référencez pas directement la bibliothèque `Utils.js` SDK HTML5 chargée par la visionneuse à partir du chemin de contexte `/s7viewers` (appelé SDK consolidé `include`). Cela est dû au fait que l’emplacement des bibliothèques de visionneuses `Utils.js` ou d’exécution similaires est entièrement géré par la logique de la visionneuse et que l’emplacement change entre les versions de la visionneuse. Adobe ne conserve pas les anciennes versions de la visionneuse secondaire `includes` sur le serveur.
+   >Ne référencez que le fichier JavaScript de la visionneuse principale `include` sur votre page. Ne référencez pas de fichiers JavaScript supplémentaires dans le code de page web qui pourraient être téléchargés par la logique de la visionneuse au moment de l’exécution. En particulier, ne référencez pas directement la bibliothèque `Utils.js` SDK HTML5 chargée par la visionneuse à partir du chemin de contexte `/s7viewers` (appelé SDK consolidé `include`). Cela est dû au fait que l’emplacement des bibliothèques de visionneuses `Utils.js` ou d’exécution similaires est entièrement géré par la logique de la visionneuse et que l’emplacement change entre les versions de la visionneuse. Adobe ne conserve pas les anciennes versions de la visionneuse secondaire `includes` sur le serveur.
    >
    >
    >Par conséquent, l’insertion d’une référence directe à tout JavaScript secondaire `include` utilisé par la visionneuse sur la page rompt la fonctionnalité de visionneuse à l’avenir lorsqu’une nouvelle version de produit est déployée.
@@ -162,7 +162,7 @@ Pour ajouter la visionneuse à 360° à une page web, procédez comme suit :
 
    Vous pouvez définir la taille statique de la visionneuse en la déclarant pour la classe CSS de niveau supérieur `.s7spinviewer` en unités absolues ou en utilisant le modificateur `stagesize`.
 
-   Vous pouvez placer le dimensionnement dans CSS directement sur la page HTML, ou dans un fichier CSS de visionneuse personnalisé, qui est ensuite affecté à un enregistrement de paramètre prédéfini de visionneuse dans Dynamic Media Classic, ou transmis explicitement à l’aide d’une commande de style.
+   Vous pouvez placer le dimensionnement dans CSS directement sur la page HTML ou dans un fichier CSS de visionneuse personnalisé. Il est ensuite affecté à un enregistrement de paramètre prédéfini de visionneuse dans Dynamic Media Classic ou transmis explicitement à l’aide d’une commande de style.
 
    Voir [Personnalisation de la visionneuse à 360°](../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#concept-464f3bfa55764bc09c92d8c7480b0b55) pour plus d’informations sur le style de la visionneuse avec CSS.
 
@@ -175,7 +175,7 @@ Pour ajouter la visionneuse à 360° à une page web, procédez comme suit :
    }
    ```
 
-   Vous pouvez définir le modificateur `stagesize` dans l’enregistrement de paramètre prédéfini de visionneuse dans Dynamic Media Classic, ou le transmettre explicitement avec le code d’initialisation de la visionneuse avec la collection `params`, ou en tant qu’appel API comme décrit dans la section Référence de commande , comme suit :
+   Vous pouvez définir le modificateur `stagesize` dans l’enregistrement de paramètre prédéfini de visionneuse dans Dynamic Media Classic. Vous pouvez également le transmettre explicitement avec le code d’initialisation de la visionneuse avec la collection `params` ou sous la forme d’un appel API, comme décrit dans la section Référence de commande, comme suit :
 
    ```
     spinViewer.setParam("stagesize", 
@@ -295,11 +295,11 @@ La page d’exemples suivante illustre d’autres cas pratiques d’incorporatio
 
 [Démonstrations en direct](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Autre emplacement de démonstration](https://experienceleague.adobe.com/tools/vlist/vlist.html)
+[Autre emplacement de démonstration](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **Intégration flexible de taille avec définition de largeur et de hauteur**
 
-Dans le cas d’une incorporation à taille flexible avec des valeurs de largeur et de hauteur définies, le style de la page web est différent. En d’autres termes, il fournit les deux tailles au &quot;détenteur&quot; `DIV` et le centre dans la fenêtre du navigateur. En outre, la page web définit la taille de l’élément `HTML` et `BODY` sur 100 % :
+Si l’incorporation de tailles flexibles avec largeur et hauteur est définie, le style de la page web est différent. En d’autres termes, il fournit les deux tailles au &quot;détenteur&quot; `DIV` et le centre dans la fenêtre du navigateur. En outre, la page web définit la taille de l’élément `HTML` et `BODY` sur 100 % :
 
 ```
 <!DOCTYPE html> 
