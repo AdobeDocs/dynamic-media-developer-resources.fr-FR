@@ -1,21 +1,21 @@
 ---
-description: La visionneuse de vidéos est un lecteur vidéo qui lit une vidéo en flux continu et progressive codée au format H.264. Elle est fournie à partir de Dynamic Media Classic ou d’AEM Dynamic Media.
+description: La visionneuse de vidéos est un lecteur vidéo qui lit une vidéo en flux continu et progressive codée au format H.264. Elle est fournie à partir de Dynamic Media Classic ou d’Adobe Experience Manager avec Dynamic Media.
 keywords: responsive
 solution: Experience Manager
 title: Vidéo
 feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéo
 role: Developer,User
 exl-id: fa9727dc-f9e2-4d91-b500-445693dfb6aa
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
 workflow-type: tm+mt
-source-wordcount: '2388'
+source-wordcount: '2379'
 ht-degree: 0%
 
 ---
 
 # Vidéo{#video}
 
-La visionneuse de vidéos est un lecteur vidéo qui lit une vidéo en flux continu et progressive codée au format H.264. Elle est fournie à partir de Dynamic Media Classic ou d’AEM Dynamic Media.
+La visionneuse de vidéos est un lecteur vidéo qui lit une vidéo en flux continu et progressive codée au format H.264. Elle est fournie à partir de Dynamic Media Classic ou de Experience Manager avec Dynamic Media.
 
 Voir [Configuration requise et conditions préalables](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
@@ -31,7 +31,7 @@ Type de visionneuse 506.
 
 ## Utilisation de la visionneuse de vidéos {#section-f21ac23d3f6449ad9765588d69584772}
 
-La visionneuse de vidéos représente un fichier JavaScript principal et un ensemble de fichiers d’assistance. Un seul fichier JavaScript est inclus avec tous les composants du SDK de la visionneuse utilisés par cette visionneuse, ses ressources et son code CSS spécifique téléchargé par la visionneuse au moment de l’exécution.
+La visionneuse de vidéos représente un fichier JavaScript principal et un ensemble de fichiers d’assistance, un seul fichier JavaScript comprenant tous les composants du SDK de la visionneuse utilisés par cette visionneuse, ces ressources et ce fichier CSS téléchargé par la visionneuse au moment de l’exécution.
 
 Vous pouvez utiliser la visionneuse de vidéos en mode pop-up à l’aide de la page HTML prête pour la production fournie avec les visionneuses IS. Vous pouvez également utiliser la visionneuse en mode incorporé, où elle est intégrée dans une page web cible à l’aide de l’API documentée.
 
@@ -47,7 +47,7 @@ Sur les périphériques tactiles, la commande de volume est masquée dans l’in
 
 Lorsque la visionneuse fonctionne en mode pop-up, le bouton plein écran n’est pas disponible dans l’interface utilisateur.
 
-Il est possible de parcourir rapidement le contenu d’une vidéo lorsque le chapitre vidéo est activé. Les chapitres vidéo s’affichent sous la forme de marqueurs dans le suivi de la barre de défilement vidéo. Ils affichent le titre du chapitre et la description associée lors d’un survol avec la souris ou en appuyant une seule fois sur les systèmes tactiles. Les utilisateurs peuvent accéder à un chapitre spécifique en cliquant sur un marqueur de chapitre ou en appuyant sur la bulle de description du chapitre.
+Il est possible de parcourir rapidement le contenu d’une vidéo lorsque le chapitre vidéo est activé. Les chapitres vidéo s’affichent sous la forme de marqueurs dans le suivi de la barre de défilement vidéo et affichent le titre du chapitre et la description associée au survol d’une souris ou en appuyant une seule fois sur les systèmes tactiles. Les utilisateurs peuvent accéder à un chapitre spécifique en sélectionnant un marqueur de chapitre ou en sélectionnant la bulle de description du chapitre.
 
 La visionneuse prend en charge les entrées tactile et de souris sur les périphériques Windows dotés d’un écran tactile et d’une souris. Toutefois, cette prise en charge est limitée aux navigateurs Chrome, Internet Explorer 11 et Edge uniquement.
 
@@ -57,7 +57,7 @@ Voir [Accessibilité clavier et navigation](../../c-keyboard-accessibility.md#to
 
 ## Outils de partage sur les médias sociaux avec la visionneuse de vidéos {#section-907d316fe1da4b87abb9775f02464704}
 
-La visionneuse de vidéos prend en charge les outils de partage sur les médias sociaux. Ils sont disponibles sous la forme d’un bouton unique dans l’interface utilisateur qui se transforme en barre d’outils de partage lorsque l’utilisateur clique ou appuie dessus.
+La visionneuse de vidéos prend en charge les outils de partage sur les médias sociaux. Ils sont disponibles sous la forme d’un bouton unique dans l’interface utilisateur qui se développe dans une barre d’outils de partage lorsque l’utilisateur clique ou appuie dessus.
 
 La barre d’outils de partage contient une icône pour chaque type de canal de partage pris en charge, tel que Facebook, Twitter, partage d’email, partage de code incorporé et partage de lien. Lorsque des outils de partage de courrier électronique, d’intégration de partage ou de lien sont activés, la visionneuse affiche une boîte de dialogue modale avec un formulaire de saisie de données correspondant. Lors de l’appel de Facebook ou Twitter, la visionneuse redirige l’utilisateur vers une boîte de dialogue de partage standard à partir d’un service de médias sociaux. En outre, lorsqu’un outil de partage est activé, la lecture vidéo est automatiquement suspendue.
 
@@ -67,7 +67,7 @@ Les outils de partage ne sont pas disponibles en mode plein écran en raison des
 
 Le comportement de la visionneuse varie en fonction des pages web. Il arrive qu’une page web fournisse un lien qui, lorsque l’utilisateur clique dessus, ouvre la visionneuse dans une fenêtre de navigateur distincte. Dans d’autres cas, il est nécessaire d’incorporer directement la visionneuse sur la page d’hébergement. Dans ce cas, la page web peut avoir une mise en page statique ou utiliser une conception réactive qui s’affiche différemment sur différents appareils ou pour différentes tailles de fenêtre de navigateur. Pour répondre à ces besoins, la visionneuse prend en charge trois modes de fonctionnement Principaux : fenêtre contextuelle, incorporation de taille fixe et incorporation de conceptions réactives.
 
-L’incorporation de plusieurs vidéos sur la même page est prise en charge sur les tablettes et les appareils mobiles. Dans la plupart des cas, une seule vidéo peut être lue à la fois. Lorsqu’un utilisateur commence la lecture d’une vidéo, puis tente de la lire, la première vidéo est automatiquement suspendue. La vidéo qui a été mise en pause automatique mémorise son temps de lecture actuel, de sorte que l’utilisateur puisse toujours y revenir et reprendre la lecture. La seule exception à cette règle est le navigateur Chrome sur les appareils Android 4.x, qui peuvent lire des vidéos en parallèle.
+L’incorporation de plusieurs vidéos sur la même page est prise en charge sur les tablettes et les appareils mobiles. En règle générale, une seule vidéo peut être lue à la fois. Lorsqu’un utilisateur commence la lecture d’une vidéo, puis tente de la lire, la première vidéo est automatiquement suspendue. La vidéo qui a été mise en pause automatique mémorise son temps de lecture actuel, de sorte que l’utilisateur puisse toujours y revenir et reprendre la lecture. La seule exception à cette règle est le navigateur Chrome sur les appareils Android™ 4.x, qui peuvent lire des vidéos en parallèle.
 
 **A propos du mode pop-up**
 
@@ -95,9 +95,9 @@ Les cas d’utilisation Principaux sont les pages web orientées vers les ordina
 
 L’incorporation des tailles fixes est utilisée lorsque la visionneuse ne modifie pas sa taille après le chargement initial. Ce choix est idéal pour les pages web ayant une mise en page statique.
 
-L’incorporation des conceptions réactives suppose que la visionneuse doit peut-être redimensionner au moment de l’exécution en réponse au changement de taille de son conteneur `DIV`. Le cas d’utilisation le plus courant consiste à ajouter la visionneuse à une page web qui utilise une mise en page flexible.
+L’incorporation des conceptions réactives suppose que la visionneuse doit être redimensionnée au moment de l’exécution en réponse au changement de taille de son conteneur `DIV`. Le cas d’utilisation le plus courant consiste à ajouter la visionneuse à une page web qui utilise une mise en page flexible.
 
-En mode d’incorporation en responsive design, la visionneuse se comporte différemment selon la façon dont la page web dimensionne son conteneur `DIV`. Si la page web définit uniquement la largeur du conteneur `DIV`, en ne limitant pas sa hauteur, la visionneuse sélectionne automatiquement sa hauteur en fonction des proportions de la ressource utilisée. Cette méthode permet de s’assurer que la ressource s’intègre parfaitement dans la vue sans marge intérieure sur les côtés. Ce cas d’utilisation est le plus courant pour les pages web qui utilisent une structure de mise en page en responsive design comme Bootstrap, Foundation, etc.
+En mode d’incorporation en responsive design, la visionneuse se comporte différemment selon la façon dont la page web dimensionne son conteneur `DIV`. Si la page web définit uniquement la largeur du conteneur `DIV`, en ne limitant pas sa hauteur, la visionneuse sélectionne automatiquement sa hauteur en fonction des proportions de la ressource utilisée. Cette méthode permet de s’assurer que la ressource s’intègre parfaitement dans la vue sans marge intérieure sur les côtés. Ce cas d’utilisation est le plus courant pour les pages web qui utilisent une structure de mise en page en responsive design telle que Bootstrap ou Foundation.
 
 Sinon, si la page web définit la largeur et la hauteur du conteneur de la visionneuse `DIV`, la visionneuse remplit uniquement cette zone et suit la taille fournie par la mise en page web. Un bon exemple consiste à incorporer la visionneuse dans une superposition modale, où la superposition est dimensionnée en fonction de la taille de la fenêtre du navigateur web.
 
@@ -126,7 +126,7 @@ Le chemin relatif ressemble à ce qui suit :
 
 >[!NOTE]
 >
->Vous ne devez référencer que le fichier JavaScript de la visionneuse principale `include` sur votre page. Vous ne devez pas référencer de fichiers JavaScript supplémentaires dans le code de page web qui peuvent être téléchargés selon la logique de la visionneuse au moment de l’exécution. En particulier, ne référencez pas directement la bibliothèque `Utils.js` SDK HTML5 chargée par la visionneuse à partir du chemin de contexte `/s7viewers` (appelé SDK consolidé `include`). Cela est dû au fait que l’emplacement des bibliothèques de visionneuses `Utils.js` ou d’exécution similaires est entièrement géré par la logique de la visionneuse et que l’emplacement change entre les versions de la visionneuse. Adobe ne conserve pas les anciennes versions de la visionneuse secondaire `includes` sur le serveur.
+>Ne référencez que le fichier JavaScript de la visionneuse principale `include` sur votre page. Ne référencez pas de fichiers JavaScript supplémentaires dans le code de page web qui pourraient être téléchargés par la logique de la visionneuse au moment de l’exécution. En particulier, ne référencez pas directement la bibliothèque `Utils.js` SDK HTML5 chargée par la visionneuse à partir du chemin de contexte `/s7viewers` (appelé SDK consolidé `include`). Cela est dû au fait que l’emplacement des bibliothèques de visionneuses `Utils.js` ou d’exécution similaires est entièrement géré par la logique de la visionneuse et que l’emplacement change entre les versions de la visionneuse. Adobe ne conserve pas les anciennes versions de la visionneuse secondaire `includes` sur le serveur.
 >
 >
 >Par conséquent, l’insertion d’une référence directe à tout JavaScript secondaire `include` utilisé par la visionneuse sur la page rompt la fonctionnalité de visionneuse à l’avenir lorsqu’une nouvelle version de produit est déployée.
@@ -149,7 +149,7 @@ Le chemin relatif ressemble à ce qui suit :
 
    Vous pouvez définir la taille statique de la visionneuse en la déclarant pour la classe CSS de niveau supérieur `.s7videoviewer` en unités absolues ou en utilisant le modificateur `stagesize`.
 
-   Le dimensionnement en CSS peut être directement placé sur la page HTML ou dans un fichier CSS de visionneuse personnalisé, qui est ultérieurement affecté à un enregistrement de paramètre prédéfini de visionneuse dans Dynamic Media Classic ou transféré explicitement à l’aide d’une commande de style.
+   Vous pouvez placer le dimensionnement dans CSS directement sur la page HTML ou dans un fichier CSS de visionneuse personnalisé. Il est ensuite affecté à un enregistrement de paramètre prédéfini de visionneuse dans Dynamic Media Classic ou transmis explicitement à l’aide d’une commande de style.
 
    Voir [Personnalisation de la visionneuse de vidéos](../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#concept-072a52b10b5f4c0789393dc6e2134c0e) pour plus d’informations sur le style de la visionneuse à l’aide de CSS.
 
@@ -162,7 +162,7 @@ Le chemin relatif ressemble à ce qui suit :
    }
    ```
 
-   Vous pouvez définir le modificateur `stagesize` dans l’enregistrement du paramètre prédéfini de visionneuse dans Dynamic Media Classic, ou le transmettre explicitement avec le code d’initialisation de la visionneuse avec la collection `params`, ou en tant qu’appel API comme décrit dans la section Référence de commande , comme dans l’exemple suivant :
+   Vous pouvez définir le modificateur `stagesize` dans l’enregistrement du paramètre prédéfini de visionneuse dans Dynamic Media Classic ou le transmettre explicitement avec le code d’initialisation de la visionneuse avec la collection `params`. Ou, sous la forme d’un appel API, comme décrit dans la section Référence de commande, comme dans l’exemple suivant :
 
    ```
    videoViewer.setParam("stagesize", "640,480");
@@ -176,7 +176,7 @@ Le chemin relatif ressemble à ce qui suit :
 
    Il est important que le conteneur de la visionneuse soit ajouté au modèle DOM afin que le code de la visionneuse puisse trouver l’élément de conteneur en fonction de son identifiant. Certains navigateurs retardent la création du DOM jusqu’à la fin de la page web. Pour bénéficier d’une compatibilité maximale, appelez la méthode `init()` juste avant la balise `BODY` de fermeture ou sur l’événement `onload()` body .
 
-   Dans le même temps, l’élément de conteneur ne doit pas nécessairement faire partie de la mise en page de la page web pour l’instant. Par exemple, il peut être masqué à l’aide du style `display:none` qui lui est affecté. Dans ce cas, la visionneuse retarde son processus d’initialisation jusqu’au moment où la page web ramène l’élément de conteneur à la mise en page. Dans ce cas, le chargement de la visionneuse reprend automatiquement.
+   Dans le même temps, l’élément de conteneur ne doit pas nécessairement faire partie de la mise en page web pour l’instant. Par exemple, il peut être masqué à l’aide du style `display:none` qui lui est affecté. Dans ce cas, la visionneuse retarde son processus d’initialisation jusqu’au moment où la page web ramène l’élément de conteneur à la mise en page. Lorsque cette action se produit, le chargement de la visionneuse reprend automatiquement.
 
    Voici un exemple de création d’une instance de visionneuse, de transmission des options de configuration minimales nécessaires au constructeur et d’appel de la méthode `init()` . Cet exemple suppose que `videoViewer` est l’instance de visionneuse, `s7viewer` est le nom de l’espace réservé `DIV`, [!DNL http://s7d1.scene7.com/is/image/] est l’URL du serveur d’images, [!DNL http://s7d1.scene7.com/is/content/] est l’URL du serveur vidéo et [!DNL Scene7SharedAssets/Glacier_Climber_MP4] est la ressource.
 
@@ -243,7 +243,7 @@ Avec l’intégration de la conception réactive, la page web dispose normalemen
 </html> 
 ```
 
-L’ajout de la visionneuse à une telle page est très similaire à l’incorporation à taille fixe. la seule différence est que vous n’avez pas besoin de définir explicitement la taille de la visionneuse.
+L’ajout de la visionneuse à une telle page est similaire à l’incorporation de tailles fixes ; la seule différence est que vous n’avez pas besoin de définir explicitement la taille de la visionneuse.
 
 1. Ajout du fichier JavaScript de la visionneuse à votre page web.
 1. Définition du conteneur DIV.
@@ -284,11 +284,11 @@ La page d’exemples suivante illustre une utilisation plus concrète de l’inc
 
 [Démonstrations en direct](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Autre emplacement de démonstration](https://experienceleague.adobe.com/tools/vlist/vlist.html)
+[Autre emplacement de démonstration](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 **Intégration de conception réactive avec définition de la largeur et de la hauteur**
 
-Dans le cas d’une incorporation en responsive design avec des valeurs de largeur et de hauteur définies, le style de la page web est différent. il fournit les deux tailles au &quot;détenteur&quot; `DIV` et le centre dans la fenêtre du navigateur. En outre, la page web définit la taille de l’élément `HTML` et `BODY` sur 100 % :
+Si une conception réactive est incorporée avec des valeurs de largeur et de hauteur définies, le style de la page web est différent ; il fournit les deux tailles au &quot;détenteur&quot; `DIV` et le centre dans la fenêtre du navigateur. En outre, la page web définit la taille de l’élément `HTML` et `BODY` sur 100 % :
 
 ```
 <!DOCTYPE html> 
