@@ -2,21 +2,21 @@
 description: Diffusion vidéo HTTPS
 solution: Experience Manager
 title: Diffusion vidéo HTTPS
-feature: Dynamic Media Classic,Visionneuses,SDK/API,vidéo 360 VR
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 79f7e356-55d1-46e1-b85a-2e73633c9404
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c58199c5884c368e92e50fe0ef9d6ad523e36266
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
 
 # Diffusion vidéo HTTPS{#https-video-delivery}
 
->[!NOTE]
+<!-- >[!NOTE]
 >
->La diffusion vidéo sécurisée HTTP s’applique uniquement à AEM 6.2 avec l’installation du [Feature Pack-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) et à AEM 6.1 avec l’installation du [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011).
+>HTTP Secure Video Delivery applies only to AEM 6.2 with the installation of [Feature Pack-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) and to AEM 6.1 with installation of [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011). -->
 
 Si la visionneuse fonctionne comme indiqué au début de cette section, la diffusion vidéo publiée peut avoir lieu en mode HTTPS (sécurisé) et HTTP (non sécurisé). Dans une configuration par défaut, le protocole de diffusion vidéo suit strictement le protocole de diffusion de la page web d’intégration. Cependant, il est possible de forcer la diffusion vidéo HTTPS sans tenir compte du protocole utilisé en incorporant la page web à l’aide de l’attribut de configuration [Video360Player.ssl](/help/aem-viewers-ref/c-html5-aem-asset-viewers/c-html5-aem-video360/r-html5-aem-video360-config-attrib/r-html5-aem-video360-config-attrib-video360player-ssl.md). (Notez que l’aperçu vidéo en mode création est toujours diffusé en toute sécurité via HTTPS.)
 

@@ -2,13 +2,13 @@
 description: Attribut de configuration de la visionneuse Video360.
 solution: Experience Manager
 title: Video360Player.ssl
-feature: Dynamic Media Classic,Visionneuses,SDK/API,vidéo 360 VR
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 44efa378-c911-4449-8a10-61212d4392c6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c58199c5884c368e92e50fe0ef9d6ad523e36266
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 4%
+source-wordcount: '124'
+ht-degree: 6%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 4%
 
 Attribut de configuration de la visionneuse Video360.
 
->[!NOTE]
+<!-- >[!NOTE]
 >
->Cet attribut de configuration s’applique uniquement à AEM 6.2 avec l’installation du [Feature Pack NPR-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) et à AEM 6.1 avec l’installation du [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011).
+>This configuration attribute only applies to AEM 6.2 with installation of [Feature Pack NPR-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) and to AEM 6.1 with installation of [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011). -->
 
 `[Video360Player.|<containerId>_video360Player.]ssl=auto|on`
 

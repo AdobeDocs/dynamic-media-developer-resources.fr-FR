@@ -2,12 +2,12 @@
 description: Avant d’utiliser Dynamic Media Image Serving, assurez-vous que votre système respecte la configuration requise.
 solution: Experience Manager
 title: Configuration requise et conditions préalables
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ea2dfec9-0a42-4ccb-8442-6f7c4a39eda1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c58199c5884c368e92e50fe0ef9d6ad523e36266
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,4 @@ La diffusion d’images Dynamic Media requiert le logiciel serveur suivant.
 * Red Hat® Enterprise 5 ou CentOS 5.5 et versions ultérieures, avec les derniers correctifs.
 * Système d’exploitation 64 bits.
 
-**Remarque :** Pour utiliser Image Serving sous Windows, vous devez installer le redistribuable Microsoft Visual Studio 2010. Le redistribuable est disponible à l’emplacement suivant :
-
-[http://www.microsoft.com/en-us/download/details.aspx?id=13523](http://www.microsoft.com/en-us/download/details.aspx?id=13523)
+**Remarque :** Pour utiliser Image Serving sous Windows, vous devez installer le redistribuable Microsoft Visual Studio 2010.
