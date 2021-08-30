@@ -5,10 +5,10 @@ title: Exemples de serveurs d’images
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 17c933f1-5f61-4f22-88d4-6295a2d13a01
-source-git-commit: c58199c5884c368e92e50fe0ef9d6ad523e36266
+source-git-commit: a660ceec483a6d89ad4656639bdd8368b3d23a41
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,8 @@ Cette page renvoie à plusieurs exemples de serveur d’images.
 * [adapt1](http://crc.scene7.com/is-docs/examples/adjust1.htm)
 * [adapt2](http://crc.scene7.com/is-docs/examples/adjust2.htm)
 * [avancé](http://crc.scene7.com/is-docs/examples/advanced.htm)
-* [ancres](http://crc.scene7.com/is-docs/examples/anchors.htm)
+
+<!-- * [anchors](http://crc.scene7.com/is-docs/examples/anchors.htm) -->
 * [catalog1](http://crc.scene7.com/is-docs/examples/catalog1.htm)
 * [colorize](http://crc.scene7.com/is-docs/examples/colorize.htm)
 * [layering1](http://crc.scene7.com/is-docs/examples/layering1.htm)
