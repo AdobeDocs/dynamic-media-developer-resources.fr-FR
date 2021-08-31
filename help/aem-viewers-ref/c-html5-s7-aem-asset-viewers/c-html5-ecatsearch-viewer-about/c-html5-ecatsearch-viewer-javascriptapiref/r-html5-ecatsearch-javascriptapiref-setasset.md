@@ -2,12 +2,12 @@
 description: Référence de l’API JavaScript pour la visionneuse de vidéos.
 solution: Experience Manager
 title: setAsset
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Recherche catalogue électronique
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 5fd80f8d-321e-47f4-9fb2-65e7bd63be58
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '115'
 ht-degree: 2%
 
 ---

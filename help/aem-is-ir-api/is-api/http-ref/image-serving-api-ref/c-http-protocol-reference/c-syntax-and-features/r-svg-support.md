@@ -2,12 +2,12 @@
 description: La diffusion d’images prend en charge les fichiers SVG (Scalable Vector Graphics) en tant que données source. La conformité avec SVG 1.1 est requise.
 solution: Experience Manager
 title: Prise en charge SVG
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 60e40195-710f-4f03-b152-52eaa10c5b21
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -74,4 +74,4 @@ Les spécifications de couleur basées sur un profil ICC ne sont pas prises en c
 
 ## Voir aussi {#section-901dd1775fd24154a766dcfbe5032b67}
 
-[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) ,  [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e),  [SVG 1.1 Specification](http://www.w3.org/TR/SVG11/)
+[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) ,  [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e),  [SVG 1.1 Specification](https://www.w3.org/TR/SVG11/)

@@ -2,12 +2,12 @@
 description: La visionneuse de catalogue électronique prend en charge le suivi Adobe Analytics prêt à l’emploi.
 solution: Experience Manager
 title: Prise en charge du suivi Adobe Analytics
-feature: Dynamic Media Classic,Visionneuses,SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 714e8001-06dc-49b1-838f-ab9772f2527c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '192'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,7 @@ var eCatalogViewer = new s7viewers.eCatalogViewer({
  "containerId":"s7viewer", 
 "params":{ 
  "asset":"Viewers/Pluralist", 
- "serverurl":"http://s7d1.scene7.com/is/image/" 
+ "serverurl":"https://s7d1.scene7.com/is/image/" 
 }, 
 "handlers":{ 
  "trackEvent":function(objID, compClass, instName, timeStamp, eventInfo) { 

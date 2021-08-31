@@ -2,12 +2,12 @@
 description: Les valeurs de commande doivent être codées au format http à l’aide de séquences d’échappement %xx, de sorte que les chaînes de valeur n’incluent pas les caractères réservés '=', '&' et '%'.
 solution: Experience Manager
 title: Encodage HTTP du serveur d’images
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: aec8463f-f72a-4203-89ab-8a4f0ad9d6f9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '229'
 ht-degree: 23%
 
 ---
@@ -183,4 +183,4 @@ Si l’obscurcissement est appliqué, le codage peut être limité à la suppres
 
 ## Voir aussi {#section-295476ec34c74973962d07dfa9eb2180}
 
-[Obscurcissement des requêtes](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d), spécification  [HTTP/1.1 (RFC 2616)](http://www.w3.org/Protocols/rfc2616/rfc2616.html)
+[Obscurcissement des requêtes](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d), spécification  [HTTP/1.1 (RFC 2616)](https://www.w3.org/Protocols/rfc2616/rfc2616.html)

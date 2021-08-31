@@ -2,12 +2,12 @@
 description: Si jsonp est spécifié comme format de réponse, les données de réponse sont formatées à l’aide de JSONP (JavaScript Object Notation with Padding), enveloppées dans un appel de fonction JavaScript.
 solution: Experience Manager
 title: Propriétés JSONP
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2294eb37-b362-438f-94bc-eb24ca641752
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -55,8 +55,8 @@ Les requêtes qui prennent en charge le format de réponse JSONP vous permettent
 
 Le package Visionneuses Dynamic Media Image Serving comprend un utilitaire permettant de demander et d’analyser des données au format JSONP à partir du serveur d’images.
 
-Voir [http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP) pour plus d’informations sur le format JSONP.
+Voir [https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP) pour plus d’informations sur le format JSONP.
 
-Voir [www.json.org](http://www.json.org) pour plus d’informations sur le format JSON.
+Voir [www.json.org](https://www.json.org) pour plus d’informations sur le format JSON.
 
 Voir aussi [req](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76).

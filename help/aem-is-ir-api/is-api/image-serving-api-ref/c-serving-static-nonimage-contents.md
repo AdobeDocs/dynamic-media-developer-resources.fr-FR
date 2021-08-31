@@ -2,12 +2,12 @@
 description: Vous pouvez utiliser le service d’images pour gérer le contenu non image dans les catalogues et l’afficher via un contexte /is/content distinct.
 solution: Experience Manager
 title: Diffusion de contenu statique (hors image)
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '462'
 ht-degree: 1%
 
 ---
@@ -125,9 +125,9 @@ Vous pouvez encapsuler des fichiers de sous-titres vidéo (WebVTT), CSS ou tout 
 
 Vous pouvez également utiliser des traces pour d’autres types de métadonnées minutées. Les données source de chaque élément de suivi sont un fichier texte constitué d’une liste de repères minutés. Les repères peuvent inclure des données dans des formats tels que JSON ou CSV.
 
-Voir [http://en.wikipedia.org/wiki/JSONP](http://en.wikipedia.org/wiki/JSONP) pour plus d’informations sur le format JSONP.
+Voir [https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP) pour plus d’informations sur le format JSONP.
 
-Voir [www.json.org](http://www.json.org) pour plus d’informations sur le format JSON.
+Voir [www.json.org](https://www.json.org) pour plus d’informations sur le format JSON.
 
 ## Voir aussi {#section-7b28631016044a22a3a6762fd64771e9}
 

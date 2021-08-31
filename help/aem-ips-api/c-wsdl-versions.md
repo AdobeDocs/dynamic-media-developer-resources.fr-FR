@@ -2,12 +2,12 @@
 description: Le service Web IPS est pris en charge par un ensemble de documents WSDL (Web Services Description Language) accessibles à partir de toute installation IPS sur laquelle le composant Service Web IPS est installé. Chaque version de l’API IPS comprend un nouveau fichier WSDL qui référence un espace de noms XML cible versionné. Les versions antérieures de l’espace de noms WSDL sont également prises en charge pour garantir une compatibilité descendante avec les applications existantes.
 solution: Experience Manager
 title: Versions WSDL du service Web IPS
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d7a6079e-286e-4e62-b2ff-551ef4a5815c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '954'
 ht-degree: 1%
 
 ---
@@ -139,7 +139,7 @@ Pour traiter une requête, définissez l’en-tête HTTP SOAPAction sur le nom d
 
 **Format du message**
 
-Le style document/littéral est utilisé pour tous les messages d’entrée et de sortie avec des types basés sur le langage de définition de schéma XML ( [http://www.w3.org/TR/xmlschema-0/](http://www.w3.org/TR/xmlschema-0/)) et spécifiés dans le fichier WSDL. Tous les types nécessitent des noms qualifiés à l’aide de la valeur d’espace de noms cible spécifiée dans le fichier WSDL.
+Le style document/littéral est utilisé pour tous les messages d’entrée et de sortie avec des types basés sur le langage de définition de schéma XML ( [https://www.w3.org/TR/xmlschema-0/](https://www.w3.org/TR/xmlschema-0/)) et spécifiés dans le fichier WSDL. Tous les types nécessitent des noms qualifiés à l’aide de la valeur d’espace de noms cible spécifiée dans le fichier WSDL.
 
 **Authentification de demande**
 
