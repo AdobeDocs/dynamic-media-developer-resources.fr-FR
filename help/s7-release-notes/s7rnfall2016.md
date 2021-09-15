@@ -5,9 +5,9 @@ title: Version de Scene7 à l’automne 2016
 feature: Dynamic Media Classic
 role: Developer,User
 exl-id: 23091ef7-750a-4ec2-9d03-1d713f436991
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 06ea55bebbb16de643fec96147ec2b648bb5783b
 workflow-type: tm+mt
-source-wordcount: '2235'
+source-wordcount: '2238'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Pour obtenir une documentation complète, voir [https://experienceleague.adobe.c
 
 ## Visionneuses (Image Serving 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Pour obtenir une documentation complète, reportez-vous au [Guide de référence des visionneuses](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html).
+Pour obtenir une documentation complète, reportez-vous au [Guide de référence des visionneuses](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Correctifs de bogues pour Image Serving 5.5.3**
 
@@ -68,7 +68,7 @@ Pour obtenir une documentation complète, reportez-vous au [Guide de référence
 
 ## Visionneuses (Image Serving 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Pour obtenir une documentation complète, reportez-vous au [Guide de référence des visionneuses](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html).
+Pour obtenir une documentation complète, reportez-vous au [Guide de référence des visionneuses](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Correctifs de bogues pour Image Serving 5.5.2**
 
@@ -77,7 +77,7 @@ Pour obtenir une documentation complète, reportez-vous au [Guide de référence
 
 ## Visionneuses (Image Serving 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Pour obtenir une documentation complète, reportez-vous au [Guide de référence des visionneuses](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html).
+Pour obtenir une documentation complète, reportez-vous au [Guide de référence des visionneuses](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Nouvelles fonctionnalités, améliorations et correctifs pour Image Serving 5.5.1**
 
