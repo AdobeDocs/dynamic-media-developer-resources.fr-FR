@@ -1,13 +1,13 @@
 ---
+title: Indicateur de définition
 description: L’indicateur Set est une série de points rendus au bas de la visionneuse. Elle affiche la position actuelle dans la visionneuse.
 solution: Experience Manager
-title: Indicateur de définition
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Bannières de carrousel
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 7d0827c5-f420-4804-983c-5298ee92b276
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '336'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ L’aspect du conteneur d’indicateur défini est contrôlé à l’aide du sé
 >
 >L’indicateur Set prend en charge le sélecteur d’attributs de mode, que vous pouvez utiliser pour appliquer différents styles aux modes d’opération pointillés et numériques. `mode="numeric"` correspond notamment au mode de fonctionnement numérique ; `mode="dotted"` correspond à l’état du point par défaut.
 
-Exemple : pour configurer un indicateur avec un arrière-plan blanc :
+Par exemple, supposons que vous souhaitiez configurer un indicateur défini avec un arrière-plan blanc :
 
 ```
 .s7carouselviewer .s7setindicator { 
@@ -124,7 +124,7 @@ L’aspect d’un point indicateur de définition individuel est contrôlé à l
 >
 >Les éléments d’indicateur de définition prennent en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à l’élément actif dans l’ensemble ; `state="unselected"` correspond à l’état de l’élément par défaut.
 
-Exemple : pour configurer l’indicateur en mode pointillé afin que les systèmes de bureau soient positionnés à 20 pixels à partir du bas de la visionneuse. Les points non sélectionnés sont noirs avec une transparence de 50 %, 15 x 15 pixels avec 7 pixels aux coins arrondis. Les points sélectionnés sont noirs avec une transparence de 90 %, 18 x 18 pixels avec 9 pixels aux coins arrondis. L’espacement entre les points est de 5 pixels.
+Par exemple, supposons que vous souhaitiez configurer un indicateur défini en mode pointillé pour les systèmes de bureau. Vous souhaitez qu’il soit positionné à 20 pixels à partir du bas de la visionneuse. De plus, vous souhaitez que les points non sélectionnés soient noirs avec une transparence de 50 %, 15 x 15 pixels avec sept coins arrondis. Les points sélectionnés sont noirs avec une transparence de 90 %, 18 x 18 pixels avec neuf pixels aux coins arrondis. L’espacement entre les points est de cinq pixels.
 
 ```
 .s7carouselviewer.s7mouseinput .s7setindicator { 

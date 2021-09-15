@@ -1,13 +1,13 @@
 ---
+title: Mise en évidence de la cible
 description: La mise en surbrillance de la cible d’action affichée autour de l’élément d’interface utilisateur de la visionneuse ciblée est contrôlée avec le sélecteur de classe CSS.
 solution: Experience Manager
-title: Mise en évidence de la cible
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Bannières de carrousel
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: f9343055-9fd9-4b19-bba3-1f742acb6193
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '80'
 ht-degree: 1%
 
 ---

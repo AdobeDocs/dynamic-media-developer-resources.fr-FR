@@ -1,13 +1,13 @@
 ---
+title: Bouton PlayPause
 description: Le bouton Lecture/Pause permet à l’utilisateur de mettre en pause ou de reprendre le comportement de lecture automatique du carrousel.
 solution: Experience Manager
-title: Bouton PlayPause
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Bannières de carrousel
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 1b48aa7f-d1c8-4367-94c2-689991b90942
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '251'
 ht-degree: 2%
 
 ---
@@ -79,7 +79,7 @@ L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suiv
 
 L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) pour plus d’informations.
 
-Exemple : pour configurer un bouton de pause de lecture de 28 x 28 pixels, positionné 17 pixels en bas et 12 pixels en bas à partir du bord gauche de la visionneuse, et qui affiche une image différente pour chacun des quatre états de bouton différents lorsqu’il est sélectionné ou non.
+Par exemple, supposons que vous souhaitiez configurer un bouton de pause de lecture de 28 x 28 pixels. Vous souhaitez que le bouton soit positionné à 17 pixels du bas et 12 pixels du bord gauche de la visionneuse. Vous souhaitez également qu’il affiche une image différente pour chacun des quatre états de bouton différents lorsqu’il est sélectionné ou non.
 
 ```
 .s7carouselviewer .s7playpausebutton { 

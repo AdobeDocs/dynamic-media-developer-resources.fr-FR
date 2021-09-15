@@ -1,13 +1,13 @@
 ---
+title: caption
 description: Paramètre commun à toutes les visionneuses.
 solution: Experience Manager
-title: caption
-feature: Dynamic Media Classic,Visionneuses,SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 06ce5520-944b-4ab0-8f59-67c273bd8314
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '261'
 ht-degree: 6%
 
 ---
@@ -69,12 +69,12 @@ Cette visionneuse prend en charge le sous-titrage par le biais de fichiers WebVT
    <td colname="col1"> <p> <span class="codeph"> L </span> </p> </td> 
    <td colname="col2"> <p>position ligne </p> </td> 
    <td colname="col3"> <p> 0%-100%|integer </p> </td> 
-   <td colname="col4"> <p> Détermine la position de la ligne sur la page. </p> <p>S’il est exprimé sous la forme d’un entier sans signe de pourcentage, il s’agit du nombre de lignes du haut où le texte est affiché. </p> <p>S’il est exprimé sous la forme d’un pourcentage, le signe pourcentage est le dernier caractère, le texte de la légende s’affiche sous la forme d’un pourcentage dans la zone d’affichage. </p> <p>La valeur par défaut est <span class="codeph"> 100 % </span>. </p> </td> 
+   <td colname="col4"> <p> Détermine la position de la ligne sur la page. </p> <p>S’il est exprimé sous la forme d’un entier sans signe de pourcentage, il s’agit du nombre de lignes du haut où le texte est affiché. </p> <p>S’il est exprimé sous la forme d’un pourcentage (le signe pourcentage est le dernier caractère), le texte de la légende s’affiche sous forme de pourcentage dans la zone d’affichage. </p> <p>La valeur par défaut est <span class="codeph"> 100 % </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Notez que si d’autres fonctionnalités WebVTT sont présentes dans le fichier WebVTT, elles ne sont pas prises en charge ; cependant, elles ne perturberont pas le sous-titrage.
+Si d’autres fonctionnalités WebVTT sont présentes dans le fichier WebVTT, elles ne sont pas prises en charge ; cependant, elles ne perturbent pas le sous-titrage.
 
 <table id="table_CB7B4DFC6B654AECA1AF6594E3FD5C46"> 
  <tbody> 

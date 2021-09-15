@@ -1,13 +1,13 @@
 ---
+title: config
 description: Paramètre commun à toutes les visionneuses.
 solution: Experience Manager
-title: config
-feature: Dynamic Media Classic,Visionneuses,SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 503a1fc6-7a6b-4f55-bad1-11f22435276f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '257'
 ht-degree: 4%
 
 ---
@@ -51,7 +51,7 @@ Chargez la visionneuse à l’aide de la commande suivante :
 config=2020/preset-oct
 ```
 
-Cela équivaut aux commandes suivantes spécifiées explicitement dans l’URL :
+Cet exemple équivaut à la commande suivante spécifiée explicitement dans l’URL :
 
 ```
 style=customStyle.css
@@ -72,7 +72,7 @@ Chargez la visionneuse à l’aide de la commande suivante :
 config=2019/spin-oct
 ```
 
-Cela équivaut aux commandes suivantes spécifiées explicitement dans l’URL :
+Cet exemple équivaut à la commande suivante spécifiée explicitement dans l’URL :
 
 ```
 zoomStep=3&maxZoom=200
@@ -92,7 +92,7 @@ Chargez la visionneuse à l’aide de la commande suivante :
 config=/etc/dam/presets/viewer/Shoppable_Banner
 ```
 
-Cela équivaut aux commandes suivantes spécifiées explicitement dans l’URL :
+Cet exemple équivaut aux commandes suivantes spécifiées explicitement dans l’URL :
 
 `style=etc/dam/presets/css/html5_interactiveimage.css`
 
@@ -110,7 +110,7 @@ Chargez la visionneuse à l’aide de la commande suivante :
 config=/etc/dam/presets/viewer/Shoppable_Video_Dark
 ```
 
-Cela équivaut aux commandes suivantes spécifiées explicitement dans l’URL :
+Cet exemple équivaut aux commandes suivantes spécifiées explicitement dans l’URL :
 
 ```
 style=etc/dam/presets/css/html5_interactivevideo_dark.css
@@ -130,7 +130,7 @@ Chargez la visionneuse à l’aide de la commande suivante :
 config=/etc/dam/presets/viewer/Carousel_Dotted_light
 ```
 
-Cela équivaut aux commandes suivantes spécifiées explicitement dans l’URL :
+Cet exemple équivaut aux commandes suivantes spécifiées explicitement dans l’URL :
 
 ```
 style= etc/dam/presets/css/html5_carouselviewer_dotted_light.css

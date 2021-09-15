@@ -1,20 +1,20 @@
 ---
-description: La zone d’affichage principale est la zone occupée par l’image de bannière de carrousel. Il est généralement défini pour s’adapter à l’écran de l’appareil disponible lorsqu’aucune taille n’est spécifiée.
-solution: Experience Manager
 title: Zone de visionneuse principale
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Bannières de carrousel
+description: La zone d’affichage principale est la zone occupée par l’image de bannière de carrousel. Il est défini pour s’adapter à l’écran de l’appareil disponible lorsqu’aucune taille n’est spécifiée.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: bdac54f5-79e3-4d3d-9c7e-d9a7cec61c73
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '118'
 ht-degree: 2%
 
 ---
 
 # Zone de visionneuse principale{#main-viewer-area}
 
-La zone d’affichage principale est la zone occupée par l’image de bannière de carrousel. Il est généralement défini pour s’adapter à l’écran de l’appareil disponible lorsqu’aucune taille n’est spécifiée.
+La zone d’affichage principale est la zone occupée par l’image de bannière de carrousel. Il est défini pour s’adapter à l’écran de l’appareil disponible lorsqu’aucune taille n’est spécifiée.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

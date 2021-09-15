@@ -1,12 +1,12 @@
 ---
 title: Ressources pour les développeurs Adobe Dynamic Media
 description: Ressources pour les développeurs Adobe Dynamic Media
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: be0763ba-f343-4dd0-8146-1facb4cd5b0b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '136'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 * [Guide de référence des visionneuses ](/help/aem-viewers-ref/homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html?lang=en) -->
 Personnalisez les visionneuses Dynamic Media à utiliser sur les ordinateurs de bureau et les appareils à écran tactile. Certains des types de médias que vous pouvez utiliser sont les suivants : images et vidéos interactives, vidéo à 360 degrés, carrousels, zoom d’image, vidéo, catalogues, vidéos, fichiers, supports variés et visionneuses à 360°.
 * [Image Serving/Image Rendering ](/help/aem-is-ir-api/homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html?lang=en) -->
-APIDocumentation sur les API IS (Image Serving) et IR (Image Rendering) et les technologies associées. Si vous travaillez sur l’intégration de Dynamic Media Classic avec AEM, vous devez vous référer à la partie IS de l’API.
+APIDocumentation sur les API IS (Image Serving) et IR (Image Rendering) et les technologies associées. Si vous travaillez sur l’intégration de Dynamic Media Classic avec Adobe Experience Manager, vous devez vous référer à la partie IS de l’API.
 * [Image Production System ](/help/aem-ips-api/c-overview.md)
 APIT L’API de service Web IPS (Image Production System) permet aux applications externes et aux développeurs tiers d’accéder par programmation aux ressources et fonctionnalités d’IPS.
 * [](/help/s7-release-notes/s7rn2017.md)

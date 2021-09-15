@@ -2,12 +2,12 @@
 description: Notes de compatibilité pour les systèmes d’exploitation, les navigateurs et les appareils mobiles.
 solution: Experience Manager
 title: Remarques sur la compatibilité
-feature: Dynamic Media Classic,Visionneuses,SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---

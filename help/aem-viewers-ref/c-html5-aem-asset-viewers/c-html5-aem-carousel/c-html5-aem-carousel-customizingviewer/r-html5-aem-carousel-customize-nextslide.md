@@ -1,20 +1,20 @@
 ---
-description: Cliquez ou appuyez sur le bouton de diapositive Suivant pour déplacer un utilisateur vers la diapositive suivante de l’ensemble de carrousel.
-solution: Experience Manager
 title: Diapositive suivante
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Bannières de carrousel
+description: Lorsque vous sélectionnez le bouton de diapositive Suivant , l’utilisateur passe à la diapositive suivante de l’ensemble de carrousel.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: c64889bb-bcbe-49c6-a0be-b4013ead7b90
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '233'
 ht-degree: 3%
 
 ---
 
 # Diapositive suivante{#next-slide}
 
-Cliquez ou appuyez sur le bouton de diapositive Suivant pour déplacer un utilisateur vers la diapositive suivante de l’ensemble de carrousel.
+Lorsque vous sélectionnez le bouton de diapositive Suivant , l’utilisateur passe à la diapositive suivante de l’ensemble de carrousel.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
@@ -79,7 +79,7 @@ L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suiv
 
 L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) pour plus d’informations.
 
-Exemple : pour configurer un bouton de diapositive précédent de 60 x 60 pixels, positionné 10 pixels à partir de la bordure droite de la visionneuse et centré verticalement, et affiche une image différente pour chacun des quatre états de bouton différents.
+Par exemple, supposons que vous souhaitiez configurer un bouton de diapositive précédent de 60 x 60 pixels. Vous souhaitez que le bouton soit positionné à dix pixels de la bordure droite de la visionneuse et centré verticalement. Et vous souhaitez qu’il affiche une image différente pour chacun des quatre états de bouton différents.
 
 ```
 .s7carouselviewer .s7panrightbutton{ 

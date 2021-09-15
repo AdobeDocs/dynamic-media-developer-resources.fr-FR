@@ -1,14 +1,14 @@
 ---
+title: Personnalisation de la visionneuse de carrousel
 description: Toutes les personnalisations visuelles et la plupart des personnalisations de comportement pour la visionneuse de carrousel sont effectuées par la création d’une page CSS personnalisée.
 keywords: responsive
 solution: Experience Manager
-title: Personnalisation de la visionneuse de carrousel
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Bannières de carrousel
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: f392d830-5c75-45dd-bab8-29a38218790d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1337'
 ht-degree: 0%
 
 ---
@@ -35,23 +35,23 @@ Le fichier CSS personnalisé doit contenir les mêmes déclarations de classe qu
 
 Une autre manière de fournir des règles CSS personnalisées consiste à utiliser des styles incorporés directement sur la page web ou dans l’une des règles CSS externes liées.
 
-Lors de la création d’une page CSS personnalisée, gardez à l’esprit que la visionneuse affecte la classe `.s7carouselviewer` à son élément DOM de conteneur. Si vous utilisez un fichier CSS externe transmis avec la commande `style=`, utilisez la classe `.s7carouselviewer` en tant que classe parente dans le sélecteur descendant pour vos règles CSS. Si vous ajoutez des styles intégrés à la page web, qualifiez en outre ce sélecteur avec un identifiant de l’élément DOM du conteneur comme suit :
+Lors de la création d’une page CSS personnalisée, gardez à l’esprit que la visionneuse affecte la classe `.s7carouselviewer` à son élément DOM de conteneur. Si vous utilisez un fichier CSS externe transmis avec la commande `style=`, utilisez la classe `.s7carouselviewer` en tant que classe parente dans le sélecteur descendant pour vos règles CSS. Si vous ajoutez des styles intégrés à la page web, qualifiez également ce sélecteur avec un identifiant de l’élément DOM du conteneur comme suit :
 
 `#<containerId>.s7carouselviewer`
 
 ## Création d’une page CSS adaptée {#section-0bb49aca42d242d9b01879d5ba59d33b}
 
-Il est possible de cibler différents appareils et d’incorporer des tailles différentes dans une feuille CSS afin de rendre l’affichage de votre contenu différent, en fonction de l’appareil d’un utilisateur ou d’une mise en page web spécifique. Cela inclut, sans s’y limiter, différentes mises en page, tailles d’éléments de l’interface utilisateur et résolution des illustrations.
+Il est possible de cibler différents appareils et d’incorporer des tailles différentes dans une feuille CSS afin de rendre l’affichage de votre contenu différent, en fonction de l’appareil d’un utilisateur ou d’une mise en page web spécifique. Cette technique comprend, sans s’y limiter, différentes mises en page, tailles d’éléments de l’interface utilisateur et résolution des illustrations.
 
-La visionneuse prend en charge deux mécanismes de création d’une page CSS réactive : Marqueurs CSS et requêtes multimédias CSS standard. Vous pouvez les utiliser indépendamment ou ensemble.
+La visionneuse prend en charge deux mécanismes de création d’une page CSS réactive : Marqueurs CSS et requêtes multimédias CSS standard. Vous pouvez utiliser ces deux mécanismes séparément ou ensemble.
 
 **Marqueurs CSS**
 
-Pour faciliter la création de CSS responsive design, la visionneuse prend en charge les marqueurs CSS. Il s’agit de classes CSS spéciales qui sont attribuées dynamiquement à l’élément de conteneur de visionneuse de niveau supérieur. Elles sont basées sur la taille de la visionneuse d’exécution et le type d’entrée utilisé sur l’appareil actuel.
+Pour faciliter la création de CSS responsive design, la visionneuse prend en charge les marqueurs CSS. Ces marqueurs sont des classes CSS spéciales qui sont attribuées dynamiquement à l’élément de conteneur de visionneuse de niveau supérieur. Elles sont basées sur la taille de la visionneuse d’exécution et le type d’entrée utilisé sur l’appareil actuel.
 
 Le premier groupe de marqueurs CSS contient les classes `.s7size_large`, `.s7size_medium` et `.s7size_small`. Elles sont appliquées en fonction de la zone d’exécution du conteneur de la visionneuse. Par exemple, si la zone de visionneuse est égale ou supérieure à la taille d’un écran de bureau commun, utilisez `.s7size_large`. Si la zone est proche d’une tablette commune, affectez `.s7size_medium`. Pour les zones similaires aux écrans de téléphone mobile, utilisez `.s7size_small`. L’objectif Principal de ces marqueurs CSS est de créer différentes mises en page d’interface utilisateur pour différents écrans et tailles de visionneuse.
 
-Le deuxième groupe de marqueurs CSS contient `.s7mouseinput` et `.s7touchinput`. Le marqueur CSS `.s7touchinput` est défini si l’appareil actuel est capable de saisir du contenu tactile. Sinon, `.s7mouseinput` est utilisé. Ces marqueurs sont principalement destinés à créer des éléments d’entrée de l’interface utilisateur avec des tailles d’écran différentes pour différents types d’entrée, car la saisie tactile nécessite normalement des éléments plus volumineux.
+Le deuxième groupe de marqueurs CSS contient `.s7mouseinput` et `.s7touchinput`. Le marqueur CSS `.s7touchinput` est défini si l’appareil actuel est une entrée tactile. Sinon, `.s7mouseinput` est utilisé. Ces marqueurs sont principalement destinés à créer des éléments d’entrée de l’interface utilisateur avec des tailles d’écran différentes pour différents types d’entrée, car la saisie tactile nécessite normalement des éléments plus volumineux.
 
 L’exemple de page CSS suivant définit la taille du bouton de zoom sur 28 x 28 pixels sur les systèmes avec une entrée de souris et sur 56 x 56 pixels sur les périphériques d’entrée tactile. Si la taille de la visionneuse est encore plus petite, elle est définie sur 20 x 20 pixels.
 

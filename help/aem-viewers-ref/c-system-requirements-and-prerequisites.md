@@ -3,12 +3,12 @@ title: Configuration requise pour les visionneuses HTML5 Dynamic Media
 description: Configuration requise pour les visionneuses HTML5 Dynamic Media.
 solution: Experience Manager
 contentOwner: Rick Brough
-feature: Dynamic Media Classic,Visionneuses,SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '305'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Configuration requise pour les visionneuses HTML5 Dynamic Media.
 ## Matériel et logiciels du serveur {#section-05099146f1f0418988c196635110bee6}
 
 * Dynamic Media Classic Image Serving 6.7.1 ou version ultérieure.
-* Les visionneuses HTML5 requièrent des bibliothèques SDK JavaScript™ côté serveur 3.11.1 ou ultérieures.
+* Les visionneuses HTML5 requièrent des bibliothèques SDK JavaScript côté serveur 3.11.1 ou ultérieures.
 * Les fonctions sociales &quot;Envoyer un courrier électronique à un ami&quot; requièrent s7ondemand 5.0.9 ou version ultérieure.
 * Visionneuse de catalogue électronique : la prise en charge du panneau Informations nécessite le serveur d’informations 2.1.8 ou version ultérieure.
 * Les composants des fonctionnalités de recherche requièrent s7search 2.3.0 ou version ultérieure.

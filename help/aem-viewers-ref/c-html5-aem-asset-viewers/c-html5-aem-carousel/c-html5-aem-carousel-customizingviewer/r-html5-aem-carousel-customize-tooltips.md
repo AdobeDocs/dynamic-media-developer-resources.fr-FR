@@ -1,20 +1,20 @@
 ---
-description: Sur les systèmes de bureau, certains éléments de l’interface utilisateur, tels que les boutons, comportent des info-bulles qui s’affichent lorsque vous pointez dessus.
-solution: Experience Manager
 title: Infobulles
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Bannières de carrousel
+description: Sur les systèmes de bureau, certains éléments de l’interface utilisateur tels que les boutons comportent des info-bulles qui s’affichent lorsque vous pointez dessus.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: b4604528-93f6-440c-b676-7b4c89fff6c8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '140'
 ht-degree: 2%
 
 ---
 
 # Infobulles{#tooltips}
 
-Sur les systèmes de bureau, certains éléments de l’interface utilisateur, tels que les boutons, comportent des info-bulles qui s’affichent lorsque vous pointez dessus.
+Sur les systèmes de bureau, certains éléments de l’interface utilisateur tels que les boutons comportent des info-bulles qui s’affichent lorsque vous pointez dessus.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -63,9 +63,9 @@ L’aspect des info-bulles est contrôlé à l’aide du sélecteur de classe CS
 
 >[!NOTE]
 >
->Si les styles d’info-bulle sont personnalisés dans la page web d’intégration, toutes les propriétés doivent contenir la règle `!IMPORTANT` . Cela n’est pas nécessaire si les info-bulles sont personnalisées dans le fichier CSS de la visionneuse.
+>Si les styles d’info-bulle sont personnalisés dans la page web d’intégration, toutes les propriétés doivent contenir la règle `!IMPORTANT` . Cette étape n’est pas nécessaire si les info-bulles sont personnalisées dans le fichier CSS de la visionneuse.
 
-Exemple : pour configurer des info-bulles dont la bordure est grise avec un rayon d’angle de 3 pixels, un arrière-plan noir et un texte blanc en Arial, d’une taille de 11 pixels :
+Exemple : pour configurer des info-bulles dont la bordure est grise avec un rayon d’angle de 3 pixels, un arrière-plan noir et un texte blanc en Arial® d’une taille de 11 pixels :
 
 ```
 .s7tooltip { 
