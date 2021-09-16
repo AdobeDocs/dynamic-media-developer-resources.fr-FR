@@ -1,14 +1,14 @@
 ---
+title: SetIndicator.autohide
 description: SetIndicator.autohide
 solution: Experience Manager
-title: SetIndicator.autohide
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Bannières de carrousel
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 75521239-a0be-4aa0-b65d-9a1f7d902cf2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 5%
+source-wordcount: '78'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">0|1[,<span class="varname"> limit</span>]</span> </p> </td> 
-   <td colname="col2"> <p> Configure le comportement de masquage automatique en fonction du nombre de pages et de la taille du composant d’exécution. </p> <p> <span class="codeph"> 0</span> désactive la masquage automatique. </p> <p> <span class="codeph"> 1</span> active le masquage automatique. Le composant masque ses points si au moins l’une des conditions suivantes devient vraie : </p> <p> 
+   <td colname="col2"> <p> Configure le comportement de masquage automatique en fonction du nombre de pages et de la taille du composant d’exécution. </p> <p> <span class="codeph"> 0</span> désactive le masquage automatique. </p> <p> <span class="codeph"> 1</span> active le masquage automatique. Le composant masque ses points si au moins l’une des conditions suivantes devient vraie : </p> <p> 
      <ul id="ul_A7F9C1DDC6AE44BAA348B3AD440A4EDD"> 
       <li id="li_39332158806445DF874C5A52F1331B8B">la ligne contenant des points devient plus large que la largeur du composant d’exécution, ou </li> 
       <li id="li_E30BAC8B609147ADB8824000F5729B21">Le nombre de pages défini pour ce composant dépasse la limite configurée par le paramètre <span class="codeph"><span class="varname"> limit</span></span> . </li> 

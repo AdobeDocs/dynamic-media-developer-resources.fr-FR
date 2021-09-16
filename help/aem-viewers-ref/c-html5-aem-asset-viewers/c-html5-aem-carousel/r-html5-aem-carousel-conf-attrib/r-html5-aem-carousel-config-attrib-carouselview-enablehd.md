@@ -1,13 +1,13 @@
 ---
+title: CarouselView.enableHD
 description: CarouselView.enableHD
 solution: Experience Manager
-title: CarouselView.enableHD
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Bannières de carrousel
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: c94ac151-3115-42ac-8a76-13b8769293cb
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '87'
 ht-degree: 6%
 
 ---

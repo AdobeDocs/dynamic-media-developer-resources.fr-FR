@@ -1,13 +1,13 @@
 ---
+title: CarouselView.fmt
 description: CarouselView.fmt
 solution: Experience Manager
-title: CarouselView.fmt
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Bannières de carrousel
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: a43ca095-2a59-4a0c-a460-f465cbd4ed5f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '72'
 ht-degree: 5%
 
 ---
