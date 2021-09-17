@@ -1,20 +1,20 @@
 ---
-description: Certains contenus affichés par la visionneuse de carrousel peuvent être localisés. Cela inclut les boutons de navigation dans les diapositives.
-solution: Experience Manager
 title: Localisation des éléments de l’interface utilisateur
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Bannières de carrousel
+description: Certains contenus affichés par la visionneuse de carrousel peuvent être localisés. Ce contenu comprend des boutons de navigation par diapositives.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 05f5abe0-1124-4114-864d-440699bcdc39
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
 
 # Localisation des éléments de l’interface utilisateur{#localization-of-user-interface-elements}
 
-Certains contenus affichés par la visionneuse de carrousel peuvent être localisés. Cela inclut les boutons de navigation dans les diapositives.
+Certains contenus affichés par la visionneuse de carrousel peuvent être localisés. Ce contenu comprend des boutons de navigation par diapositives.
 
 Chaque contenu textuel de la visionneuse qui peut être localisé est représenté par l’identifiant spécial du SDK de la visionneuse appelé SYMBOL. Une valeur de texte associée par défaut pour un paramètre régional anglais ( `"en"`) est fournie avec la visionneuse prête à l’emploi et peut également avoir des valeurs définies par l’utilisateur pour autant de paramètres régionaux que nécessaire.
 

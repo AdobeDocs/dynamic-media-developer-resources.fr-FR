@@ -1,20 +1,20 @@
 ---
-description: Visionneuse de carrousel est une visionneuse qui affiche un carrousel d’images de bannière non zoomables avec des zones réactives ou des régions cliquables. Cette visionneuse a pour objectif de mettre en oeuvre une expérience de "carrousel pouvant faire l’objet d’un achat" dans laquelle les utilisateurs peuvent sélectionner une zone réactive ou une région au-dessus de l’image de bannière et être redirigés vers un aperçu rapide ou une page des détails du produit sur le site web du client. Il est conçu pour fonctionner sur les ordinateurs de bureau et les appareils mobiles.
-solution: Experience Manager
 title: Carrousel
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Bannières de carrousel
+description: Visionneuse de carrousel est une visionneuse qui affiche un carrousel d’images de bannière non zoomables avec des zones réactives ou des régions cliquables. Cette visionneuse peut vous aider à mettre en oeuvre une expérience de "carrousel pouvant faire l’objet d’un achat" dans laquelle les utilisateurs peuvent sélectionner une zone réactive ou une région sur l’image de bannière. Ils peuvent être redirigés vers un aperçu rapide ou une page des détails du produit sur le site web du client. Il est conçu pour fonctionner sur les ordinateurs de bureau et les appareils mobiles.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: d506dc6e-8929-4f7f-a205-1683e77681f1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '1888'
 ht-degree: 0%
 
 ---
 
 # Carrousel{#carousel}
 
-Visionneuse de carrousel est une visionneuse qui affiche un carrousel d’images de bannière non zoomables avec des zones réactives ou des régions cliquables. Cette visionneuse a pour objectif de mettre en oeuvre une expérience de &quot;carrousel pouvant faire l’objet d’un achat&quot; dans laquelle les utilisateurs peuvent sélectionner une zone réactive ou une région au-dessus de l’image de bannière et être redirigés vers un aperçu rapide ou une page des détails du produit sur le site web du client. Il est conçu pour fonctionner sur les ordinateurs de bureau et les appareils mobiles.
+Visionneuse de carrousel est une visionneuse qui affiche un carrousel d’images de bannière non zoomables avec des zones réactives ou des régions cliquables. Cette visionneuse peut vous aider à mettre en oeuvre une expérience de &quot;carrousel pouvant faire l’objet d’un achat&quot; dans laquelle les utilisateurs peuvent sélectionner une zone réactive ou une région sur l’image de bannière. Ils peuvent être redirigés vers un aperçu rapide ou une page des détails du produit sur le site web du client. Il est conçu pour fonctionner sur les ordinateurs de bureau et les appareils mobiles.
 
 >[!NOTE]
 >
@@ -78,11 +78,11 @@ En mode incorporé, la visionneuse est ajoutée à la page web existante. Cette 
 
 Les cas d’utilisation Principaux sont les pages web orientées vers les ordinateurs de bureau ou les tablettes, ainsi que les pages réactives qui ajustent automatiquement la mise en page en fonction du type d’appareil.
 
-L’incorporation des tailles fixes est utilisée lorsque la visionneuse ne modifie pas sa taille après le chargement initial. Il s’agit de la meilleure solution pour les pages web ayant une disposition statique.
+L’incorporation des tailles fixes est utilisée lorsque la visionneuse ne modifie pas sa taille après le chargement initial. Cette méthode est la meilleure solution pour les pages web avec une disposition statique.
 
-L’incorporation des conceptions réactives suppose que la visionneuse doit peut-être redimensionner au moment de l’exécution en réponse au changement de taille de son conteneur `DIV`. Le cas d’utilisation le plus courant consiste à ajouter une visionneuse à une page web qui utilise une mise en page flexible.
+L’incorporation des conceptions réactives suppose que la visionneuse doit être redimensionnée au moment de l’exécution en réponse au changement de taille de son conteneur `DIV`. Le cas d’utilisation le plus courant consiste à ajouter une visionneuse à une page web qui utilise une mise en page flexible.
 
-En mode d’incorporation en responsive design, la visionneuse se comporte différemment selon la façon dont la page web dimensionne son conteneur `DIV`. Si la page web définit uniquement la largeur du conteneur `DIV`, sans restriction de hauteur, la visionneuse choisit automatiquement sa hauteur en fonction des proportions de la ressource utilisée. Cette fonctionnalité permet de s’assurer que la ressource s’intègre parfaitement dans la vue sans marge intérieure sur les côtés. Ce cas d’utilisation est le plus courant pour les pages web utilisant des structures de mise en page de conception web réactive telles que Bootstrap, Foundation, etc.
+En mode d’incorporation en responsive design, la visionneuse se comporte différemment selon la façon dont la page web dimensionne son conteneur `DIV`. Si la page web définit uniquement la largeur du conteneur `DIV`, sans restriction de hauteur, la visionneuse choisit automatiquement sa hauteur en fonction des proportions de la ressource utilisée. Cette fonctionnalité permet de s’assurer que la ressource s’intègre parfaitement dans la vue sans marge intérieure sur les côtés. Ce cas d’utilisation est le plus courant pour les pages web utilisant des structures de mise en page de conception web réactive comme Bootstrap et Foundation.
 
 Dans le cas contraire, si la page web définit à la fois la largeur et la hauteur du conteneur de la visionneuse `DIV`, la visionneuse remplit uniquement cette zone. Il correspond également à la taille fournie par la mise en page web. Un bon exemple consiste à incorporer la visionneuse dans une superposition modale, où la superposition est dimensionnée en fonction de la taille de la fenêtre du navigateur web.
 
@@ -111,7 +111,7 @@ Le chemin relatif ressemble à ce qui suit :
 
 >[!NOTE]
 >
->Vous ne devez référencer que le fichier JavaScript de la visionneuse principale `include` sur votre page. Vous ne devez pas référencer de fichiers JavaScript supplémentaires dans le code de page web qui peuvent être téléchargés selon la logique de la visionneuse au moment de l’exécution. En particulier, ne référencez pas directement la bibliothèque `Utils.js` SDK HTML5 chargée par la visionneuse à partir du chemin de contexte `/s7viewers` (appelé SDK consolidé `include`). Cela est dû au fait que l’emplacement des bibliothèques de visionneuses `Utils.js` ou d’exécution similaires est entièrement géré par la logique de la visionneuse et que l’emplacement change entre les versions de la visionneuse. Adobe ne conserve pas les anciennes versions de la visionneuse secondaire `includes` sur le serveur.
+>Ne référencez que le fichier JavaScript de la visionneuse principale `include` sur votre page. Ne référencez pas de fichiers JavaScript supplémentaires dans le code de page web qui pourraient être téléchargés par la logique de la visionneuse au moment de l’exécution. En particulier, ne référencez pas directement la bibliothèque `Utils.js` SDK HTML5 chargée par la visionneuse à partir du chemin de contexte `/s7viewers` (appelé SDK consolidé `include`). Cela est dû au fait que l’emplacement des bibliothèques de visionneuses `Utils.js` ou d’exécution similaires est entièrement géré par la logique de la visionneuse et que l’emplacement change entre les versions de la visionneuse. Adobe ne conserve pas les anciennes versions de la visionneuse secondaire `includes` sur le serveur.
 >
 >
 >Par conséquent, l’insertion d’une référence directe à tout JavaScript secondaire `include` utilisé par la visionneuse sur la page rompt la fonctionnalité de visionneuse à l’avenir lorsqu’une nouvelle version de produit est déployée.
@@ -132,7 +132,7 @@ Le chemin relatif ressemble à ce qui suit :
 
    Vous pouvez définir la taille statique de la visionneuse en la déclarant pour la classe CSS de niveau supérieur `.s7carouselviewer` en unités absolues ou en utilisant le modificateur `stagesize`.
 
-   Vous pouvez placer le dimensionnement dans CSS directement sur la page HTML, ou dans un fichier CSS de visionneuse personnalisé, qui est ensuite affecté à un enregistrement de paramètre prédéfini de visionneuse dans AEM Assets - à la demande, ou transmis explicitement à l’aide de la commande `style`.
+   Vous pouvez placer le dimensionnement dans CSS directement sur la page HTML. Vous pouvez également placer le dimensionnement dans un fichier CSS de visionneuse personnalisé, qui est ensuite affecté à un enregistrement de paramètre prédéfini de visionneuse dans AEM Assets - On-demand, ou transmis explicitement à l’aide de la commande `style`.
 
    Voir [Personnalisation de la visionneuse de carrousel](../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) pour plus d’informations sur le style de la visionneuse avec CSS.
 
@@ -159,7 +159,7 @@ Le chemin relatif ressemble à ce qui suit :
 
    Il est important que le conteneur de la visionneuse soit ajouté au modèle DOM afin que le code de la visionneuse puisse trouver l’élément de conteneur en fonction de son identifiant. Certains navigateurs retardent la création du DOM jusqu’à la fin de la page web. Pour bénéficier d’une compatibilité maximale, appelez la méthode `init()` juste avant la balise `BODY` de fermeture ou sur l’événement `onload()` body .
 
-   Dans le même temps, l’élément de conteneur ne doit pas nécessairement faire partie de la mise en page de la page web pour l’instant. Par exemple, il peut être masqué à l’aide du style `display:none` qui lui est affecté. Dans ce cas, la visionneuse retarde son processus d’initialisation jusqu’au moment où la page web ramène l’élément de conteneur à la mise en page. Dans ce cas, le chargement de la visionneuse reprend automatiquement.
+   Dans le même temps, l’élément de conteneur ne doit pas nécessairement faire partie de la mise en page web pour l’instant. Par exemple, il peut être masqué à l’aide du style `display:none` qui lui est affecté. Dans ce cas, la visionneuse retarde son processus d’initialisation jusqu’au moment où la page web ramène l’élément de conteneur à la mise en page. Lorsque cette fonctionnalité se produit, le chargement de la visionneuse reprend automatiquement.
 
    Voici un exemple de création d’une instance de visionneuse, de transmission des options de configuration minimales nécessaires au constructeur et d’appel de la méthode `init()` . L’exemple suppose que `carouselViewer` est l’instance de visionneuse ; `s7viewer` est le nom de l’espace réservé `DIV` ; `https://adobedemo62-h.assetsadobe.com/is/image` est l’URL du serveur d’images et `/content/dam/dm-public-facing-live-demo-page/04_shoppable_carousel/05_shoppable_banner` est la ressource :
 
@@ -266,7 +266,7 @@ La page d’exemples suivante illustre d’autres utilisations réelles de l’i
 
 **Incorporation de taille flexible avec largeur et hauteur définie**
 
-Dans le cas d’une incorporation à taille flexible avec des valeurs de largeur et de hauteur définies, le style de la page web est différent. Il fournit les deux tailles à la balise `"holder"` DIV et le centre dans la fenêtre du navigateur. En outre, la page web définit la taille de l’élément `HTML` et `BODY` sur 100 %.
+Dans le cadre d’une incorporation à taille flexible avec des valeurs de largeur et de hauteur définies, le style de la page web est différent. Il fournit les deux tailles à la balise `"holder"` DIV et le centre dans la fenêtre du navigateur. En outre, la page web définit la taille de l’élément `HTML` et `BODY` sur 100 %.
 
 ```
 <!DOCTYPE html> 
