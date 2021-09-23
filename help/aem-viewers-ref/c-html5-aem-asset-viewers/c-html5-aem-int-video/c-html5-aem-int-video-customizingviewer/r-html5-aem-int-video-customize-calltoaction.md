@@ -1,11 +1,11 @@
 ---
+title: Appel à l'action
 description: Le panneau Appel à l’action s’affiche lorsque la vidéo se termine et affiche tous les échantillons interactifs associés à la vidéo particulière.
 solution: Experience Manager
-title: Appel à l'action
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéos interactives
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 43e0ffb3-d650-4b79-ab48-2f32b313b832
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 2%
@@ -191,7 +191,7 @@ Le sélecteur de classe CSS suivant contrôle l’aspect du bouton de fermeture 
 
 ## Exemple {#example-3}
 
-Pour configurer un bouton de relecture de 28 x 28 pixels ; positionné à 20 pixels du haut et du bord droit de l’en-tête ; affiche une image différente pour chacun des quatre états de bouton différents ; prend l’illustration à partir de l’image sprite du composant :
+Pour configurer un bouton de relecture de 28 x 28 pixels. Le bouton doit être positionné à 20 pixels du haut et du bord droit de l’en-tête. Il doit également afficher une image différente pour chacun des quatre états de bouton différents. prend l’illustration à partir de l’image sprite du composant :
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7closebutton { 
@@ -255,7 +255,7 @@ Le sélecteur de classe CSS suivant contrôle l’aspect de la cellule de pouce 
 .s7interactivevideoviewer .s7calltoaction .s7thumbcell
 ```
 
-## Propriétés CSS de la miniature dans le panneau d’appel à l’action : {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
+## Propriétés CSS de la cellule de miniature dans le panneau d’appel à l’action : {#css-properties-of-the-thumbcell-in-the-call-to-action-panel}
 
 <table id="table_9CEBEF6FC7024F02840A581AEEF612B4"> 
  <tbody> 
@@ -354,7 +354,7 @@ Le sélecteur de classe CSS suivant contrôle l’aspect du libellé de la minia
 
 ## Exemple {#example-7}
 
-Pour configurer des libellés qui utilisent une couleur blanche, positionnez-les de 15 pixels au centre et utilisez une police Arial :
+Pour configurer des libellés qui utilisent une couleur blanche, positionnez-les de 15 pixels au centre et utilisez une police Arial® :
 
 ```
 .s7interactivevideoviewer .s7calltoaction .s7label { 

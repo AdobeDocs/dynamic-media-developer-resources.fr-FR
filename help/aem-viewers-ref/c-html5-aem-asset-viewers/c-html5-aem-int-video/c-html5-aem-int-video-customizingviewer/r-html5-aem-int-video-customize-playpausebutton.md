@@ -1,13 +1,13 @@
 ---
+title: Bouton Lecture/Pause
 description: Le bouton de lecture/pause entraîne le lecteur vidéo à lire ou à suspendre le contenu vidéo lorsqu’un utilisateur clique dessus.
 solution: Experience Manager
-title: Bouton Lecture/Pause
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéos interactives
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: bbf34037-b571-4dc9-be52-070aef014c31
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '263'
 ht-degree: 2%
 
 ---
@@ -69,13 +69,13 @@ Le sélecteur de classe CSS suivant contrôle l’aspect du bouton :
 >
 >Ce bouton prend en charge les sélecteurs d’attributs `state`, `selected` et `replay`, qui peuvent être utilisés pour appliquer différents habillages à différents états de bouton. `selected='true'` correspond en particulier à l’état &quot;play&quot; et `selected='false'` à l’état &quot;pause&quot; ;
 >
->`replay='true'` est défini lorsque la vidéo a atteint la fin et que le fait de cliquer sur le bouton redémarre la lecture à partir du début.
+>L’attribut `replay='true'` est défini lorsque la vidéo a atteint la fin et que la sélection du bouton redémarre la lecture à partir du début.
 
 L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 
 ## Exemple {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Pour configurer un bouton de lecture/pause de 32 x 32 pixels ; il est positionné à six pixels du bord supérieur et gauche de la barre de contrôle et affiche une image différente pour chacun des quatre états de bouton différents lorsqu’il est sélectionné ou non.
+Pour configurer un bouton de lecture/pause de 32 x 32 pixels et positionné de six pixels à partir des bords supérieur et gauche de la barre de contrôle. Enfin, il affiche une image différente pour chacun des quatre états de bouton différents lorsqu’il est sélectionné ou non.
 
 ```
 .s7interactivevideoviewer .s7playpausebutton { 

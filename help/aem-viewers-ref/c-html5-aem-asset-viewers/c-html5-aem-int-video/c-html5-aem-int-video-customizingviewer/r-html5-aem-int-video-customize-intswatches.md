@@ -1,13 +1,13 @@
 ---
+title: Échantillons interactifs
 description: Le panneau d’échantillons interactifs s’affiche en regard du contenu vidéo si des données interactives ont été transmises à la visionneuse dans la configuration. Il s’agit d’une bannière dans la partie supérieure qui effectue le rendu du texte tel que "Clic pour affichage", d’une colonne d’un ou plusieurs échantillons interactifs et de deux boutons de défilement (disponibles uniquement sur les systèmes de bureau).
 solution: Experience Manager
-title: Échantillons interactifs
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéos interactives
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: c9ef02eb-f5db-474b-b234-c49508e2af35
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '884'
 ht-degree: 2%
 
 ---
@@ -62,11 +62,11 @@ L’emplacement et l’orientation d’exécution du panneau des échantillons i
 * Pour effectuer le rendu des échantillons interactifs horizontalement au bas de la visionneuse, définissez la hauteur sur une valeur de pixel absolue. gauche et bas à 0 px ; largeur, droite et haut vers auto.
 * Pour effectuer le rendu des échantillons interactifs verticalement à droite du contenu vidéo, définissez la largeur sur un pixel absolu. droite et haut à 0 px ; hauteur, gauche et bas à auto.
 
-Il est possible d’utiliser des marqueurs CSS conjointement avec ce style pour obtenir le positionnement adaptatif du panneau des échantillons interactifs.
+Il est possible d’utiliser des marqueurs CSS avec ce style pour obtenir le positionnement adaptatif du panneau des échantillons interactifs.
 
 ## Exemple {#example}
 
-Pour configurer un panneau d’échantillons interactifs afin d’effectuer un rendu horizontal au bas de la visionneuse sur les périphériques tactiles en orientation paysage et d’afficher verticalement à droite du contenu vidéo dans tous les autres cas :
+Pour configurer un panneau d’échantillons interactifs afin qu’il s’affiche horizontalement au bas de la visionneuse sur des périphériques tactiles en orientation paysage. Et, pour l’afficher verticalement à droite du contenu vidéo dans tous les autres cas :
 
 ```
 .s7interactivevideoviewer.s7touchinput.s7device_landscape .s7interactiveswatches, 
@@ -192,7 +192,7 @@ Le sélecteur de classe CSS suivant contrôle l’espacement entre les miniature
 
 ## Exemple {#section-39fb270b7e494a9d99e6e8f6890ec53c}
 
-Pour configurer l’espacement vertical sur 10 pixels :
+Pour configurer l’espacement vertical à dix pixels :
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7thumbcell { 
@@ -267,7 +267,7 @@ Le sélecteur de classe CSS suivant contrôle l’aspect du libellé de la minia
 
 ## Exemple {#section-eb141eb6c1154183baa69796edb90536}
 
-Pour configurer des libellés de 12 pixels alignés à gauche, en blanc, dans une police Helvetica et une bordure inférieure :
+Pour configurer des libellés de 12 pixels alignés à gauche, en blanc, dans la police Helvetica® et une bordure inférieure :
 
 ```
 .s7interactivevideoviewer .s7interactiveswatches .s7swatches .s7label { 

@@ -1,13 +1,13 @@
 ---
+title: Bouton Légende
 description: Ce bouton active et désactive l’affichage des sous-titres fermés. Elle n’est pas visible si le paramètre de légende n’est pas spécifié.
 solution: Experience Manager
-title: Bouton Légende
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéos interactives
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 322062a5-1741-45ce-96d7-8710a8246cd6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '257'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ L’info-bulle de bouton peut être localisée. Voir [Localisation des élément
 
 ## Exemple {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Pour configurer un bouton de sous-titrage codé de 28 x 28 pixels, positionnez quatre pixels du haut et 68 pixels du bord droit de la barre de contrôle, puis affichez une image différente pour chacun des quatre états de bouton différents lorsque cette option est sélectionnée ou non.
+Pour configurer un bouton de sous-titrage codé de 28 x 28 pixels. Le bouton doit être positionné à quatre pixels du haut et à 68 pixels du bord droit de la barre de contrôle. Il doit également afficher une image différente pour chacun des quatre états de bouton différents lorsqu’il est sélectionné ou non.
 
 ```
 .s7interactivevideoviewer .s7closedcaptionbutton { 

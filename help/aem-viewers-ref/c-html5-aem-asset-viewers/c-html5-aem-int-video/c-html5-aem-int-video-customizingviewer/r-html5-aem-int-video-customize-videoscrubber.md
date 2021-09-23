@@ -1,13 +1,13 @@
 ---
+title: Défilement vidéo
 description: La barre de défilement vidéo est la commande de curseur horizontale qui permet à un utilisateur de rechercher dynamiquement n’importe quelle position temporelle dans la vidéo en cours de lecture.
 solution: Experience Manager
-title: Défilement vidéo
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéos interactives
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 9d11f2e9-315c-44d8-beb1-530d2b316604
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14ca8cd5e1ce60d59806765e573e50417d0ccc50
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1022'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ La barre de défilement vidéo est la commande de curseur horizontale qui permet
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-La barre de défilement se déplace également au fur et à mesure que la vidéo est lue pour indiquer la position de l’heure actuelle de la vidéo pendant la lecture. La barre de défilement vidéo prend toujours toute la largeur de la barre de contrôle. Il est possible d’appliquer l’habillage de la barre de défilement vidéo. modifier sa hauteur et sa position verticale, par CSS ;
+La barre de défilement se déplace également au fur et à mesure que la vidéo est lue pour indiquer la position de l’heure actuelle de la vidéo pendant la lecture. La barre de défilement vidéo prend toujours toute la largeur de la barre de contrôle. Il est possible d’appliquer un habillage à la barre de défilement vidéo et de modifier sa hauteur et sa position verticale, par CSS.
 
 L’aspect général du défilement vidéo est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
@@ -158,7 +158,7 @@ Le sélecteur de classe CSS suivant contrôle la bulle de durée de lecture :
 
 L’info-bulle de la barre de défilement vidéo peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 
-**Exemple**  : configuration d’une visionneuse de vidéos avec défilement vidéo avec des couleurs de suivi personnalisées de 10 pixels de haut et positionnées de 10 pixels et 35 pixels sur les bords supérieur et gauche de la barre de contrôle.
+**Exemple**  : pour configurer une visionneuse de vidéos avec un défilement vidéo et avec des couleurs de suivi personnalisées de dix pixels de haut. Positionnez-la à dix pixels et 35 pixels des bords supérieur et gauche de la barre de contrôle.
 
 ```
 .s7interactivevideoviewer .s7videoscrubber  { 
@@ -181,7 +181,7 @@ background-color:#888888;
 }
 ```
 
-Lorsque le chapitre vidéo est activé avec le paramètre `navigation` , les emplacements de chapitre s’affichent sous la forme de marqueurs au-dessus du suivi de la barre de défilement vidéo.
+Lorsque le marqueur de chapitre vidéo est activé avec le paramètre `navigation` , les emplacements de chapitre s’affichent sous la forme de marqueurs au-dessus du suivi de la barre de défilement vidéo.
 
 Le marqueur de chapitre vidéo est contrôlé par le sélecteur de classe CSS suivant :
 
@@ -430,7 +430,7 @@ La description du chapitre vidéo est contrôlée par le sélecteur de classe CS
  </tbody> 
 </table>
 
-**Exemple**  : pour configurer la description du chapitre vidéo à l’aide d’une police Verdana de 11 pixels de gris foncé, avec un arrière-plan gris clair ; Hauteur de ligne de 5 pixels, remplissage horizontal de 12 pixels, remplissage supérieur de 12 pixels et remplissage inférieur de 9 pixels.
+**Exemple**  : pour configurer la description du chapitre vidéo à l’aide d’une police Verdana de 11 pixels de gris foncé, avec un arrière-plan gris clair. Hauteur de ligne de cinq pixels, remplissage horizontal de 12 pixels, remplissage supérieur de 12 pixels et remplissage inférieur de neuf pixels.
 
 ```
 .s7interactivevideoviewer .s7videoscrubber .s7chapter .s7description { 
@@ -463,7 +463,7 @@ Le connecteur de coin au bas de la bulle de chapitre est contrôlé par le séle
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> Définit une marge inférieure négative uniquement. Elle doit avoir la même valeur que celle de <span class="codeph"> border-width </span>. </p> </td> 
+   <td colname="col2"> <p> Définit une marge inférieure négative uniquement. Elle doit avoir la même valeur que <span class="codeph"> border-width </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

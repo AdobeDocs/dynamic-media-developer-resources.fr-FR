@@ -1,13 +1,13 @@
 ---
+title: Infobulles
 description: Sur les systèmes de bureau, certains éléments de l’interface utilisateur, tels que les boutons, comportent des info-bulles qui s’affichent lorsque vous pointez dessus.
 solution: Experience Manager
-title: Infobulles
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéos interactives
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 430809d8-3d51-49b7-b6bf-c3c3c77501ff
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '138'
 ht-degree: 3%
 
 ---
@@ -63,11 +63,11 @@ L’aspect des info-bulles est contrôlé à l’aide du sélecteur de classe CS
 
 >[!NOTE]
 >
->Si les styles d’info-bulle sont personnalisés dans la page web d’intégration, toutes les propriétés doivent contenir la règle `!IMPORTANT`. Cela n’est pas nécessaire si les info-bulles sont personnalisées dans le fichier CSS de la visionneuse.
+>Si les styles d’info-bulle sont personnalisés dans la page web d’intégration, toutes les propriétés doivent contenir la règle `!IMPORTANT`. Cette note n’est pas nécessaire si les info-bulles sont personnalisées dans le fichier CSS de la visionneuse.
 
 ## Exemple {#section-59e009fd05b14019936aba04d7ca779d}
 
-Pour configurer des info-bulles avec une bordure grise avec un rayon d’angle de trois pixels, un arrière-plan noir et un texte blanc en Arial, 11 pixels :
+Pour configurer des info-bulles avec une bordure grise avec un rayon d’angle de trois pixels, un arrière-plan noir et un texte blanc en Arial®, 11 pixels :
 
 ```
 .s7tooltip { 

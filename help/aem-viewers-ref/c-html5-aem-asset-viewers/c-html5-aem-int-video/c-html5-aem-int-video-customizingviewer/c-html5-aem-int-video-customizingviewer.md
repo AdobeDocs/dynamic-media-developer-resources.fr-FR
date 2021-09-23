@@ -1,14 +1,14 @@
 ---
+title: Personnalisation de la visionneuse de vidéo interactive
 description: Toutes les personnalisations visuelles et la plupart des personnalisations de comportement pour la visionneuse de vidéos interactives sont effectuées par la création d’une page CSS personnalisée.
 keywords: responsive
 solution: Experience Manager
-title: Personnalisation de la visionneuse de vidéo interactive
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéos interactives
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: c428c3e6-81be-4708-b064-f9d794183209
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1391'
 ht-degree: 0%
 
 ---
@@ -31,25 +31,25 @@ Le fichier CSS personnalisé doit contenir les mêmes déclarations de classe qu
 
 Une autre manière de fournir des règles CSS personnalisées consiste à utiliser des styles incorporés directement sur la page web ou dans l’une des règles CSS externes liées.
 
-Lors de la création d’une page CSS personnalisée, gardez à l’esprit que la visionneuse affecte la classe `.s7interactivevideoviewer` à son élément DOM de conteneur. Si vous utilisez un fichier CSS externe transmis avec la commande `style=`, utilisez la classe `.s7interactivevideoviewer` en tant que classe parente dans le sélecteur descendant pour vos règles CSS. Si vous effectuez des styles intégrés sur la page web, qualifiez en outre ce sélecteur avec un identifiant de l’élément DOM du conteneur comme suit :
+Lors de la création d’une page CSS personnalisée, gardez à l’esprit que la visionneuse affecte la classe `.s7interactivevideoviewer` à son élément DOM de conteneur. Si vous utilisez un fichier CSS externe transmis avec la commande `style=`, utilisez la classe `.s7interactivevideoviewer` en tant que classe parente dans le sélecteur descendant pour vos règles CSS. Si vous effectuez des styles intégrés sur la page web, qualifiez ce sélecteur avec un identifiant de l’élément DOM du conteneur comme suit :
 
 `#<containerId>.s7interactivevideoviewer`
 
 ## Création d’une page CSS adaptée {#section-0bb49aca42d242d9b01879d5ba59d33b}
 
-Il est possible de cibler différents appareils et d’incorporer des tailles différentes dans une page CSS afin de faire afficher votre contenu différemment selon le périphérique ou la mise en page d’un utilisateur. Cela inclut, sans s’y limiter, différentes mises en page, tailles d’éléments de l’interface utilisateur et résolution des illustrations.
+Il est possible de cibler différents appareils et d’incorporer des tailles différentes dans une page CSS afin de faire afficher votre contenu différemment selon le périphérique ou la mise en page d’un utilisateur. Cette méthode comprend, sans s’y limiter, différentes mises en page, tailles d’éléments de l’interface utilisateur et résolution des illustrations.
 
-La visionneuse prend en charge deux mécanismes de création d’une page CSS réactive : Marqueurs CSS et requêtes multimédias CSS standard. Vous pouvez les utiliser indépendamment ou ensemble.
+La visionneuse prend en charge deux mécanismes de création d’une page CSS réactive : Marqueurs CSS et requêtes multimédias CSS standard. Vous pouvez utiliser ces mécanismes indépendamment ou ensemble.
 
 **Marqueurs CSS**
 
-Pour faciliter la création de CSS responsive design, la visionneuse prend en charge les marqueurs CSS. Il s’agit de classes CSS spéciales qui sont attribuées dynamiquement à l’élément de conteneur de la visionneuse de niveau supérieur en fonction de la taille de la visionneuse au moment de l’exécution et du type d’entrée utilisé sur l’appareil actuel.
+Pour faciliter la création de CSS responsive design, la visionneuse prend en charge les marqueurs CSS. Ces marqueurs sont des classes CSS spéciales. Ils sont dynamiquement affectés à l’élément conteneur de la visionneuse de niveau supérieur en fonction de la taille de la visionneuse au moment de l’exécution et du type d’entrée utilisé sur l’appareil actuel.
 
 Le premier groupe de marqueurs CSS comprend les classes `.s7size_large`, `.s7size_medium` et `.s7size_small`. Elles sont appliquées en fonction de la zone d’exécution du conteneur de la visionneuse. Si la zone de visionneuse est égale ou supérieure à la taille d’un écran de bureau commun, `.s7size_large` est utilisé. si la zone est proche d’une tablette commune, `.s7size_medium` est affecté. Pour les zones similaires aux écrans de téléphone mobile, `.s7size_small` est défini. L’objectif Principal de ces marqueurs CSS est de créer différentes mises en page d’interface utilisateur pour différents écrans et tailles de visionneuse.
 
-Le deuxième groupe de marqueurs CSS contient `.s7mouseinput` et `.s7touchinput`. `.s7touchinput` est défini si l’appareil actuel dispose de fonctionnalités d’entrée tactile ; dans le cas contraire,  `.s7mouseinput` est utilisé. Ces marqueurs sont principalement destinés à créer des éléments d’entrée de l’interface utilisateur avec des tailles d’écran différentes pour différents types d’entrée, car la saisie tactile nécessite normalement des éléments plus volumineux.
+Le deuxième groupe de marqueurs CSS contient `.s7mouseinput` et `.s7touchinput`. Le marqueur `.s7touchinput` est défini si l’appareil actuel dispose de fonctionnalités d’entrée tactile ; sinon, `.s7mouseinput` est utilisé. Ces marqueurs sont principalement destinés à créer des éléments d’entrée de l’interface utilisateur avec des tailles d’écran différentes pour différents types d’entrée, car la saisie tactile nécessite normalement des éléments plus volumineux.
 
-Le troisième groupe de marqueurs CSS contient `.s7device_landscape` et `.s7device_portrait`. `.s7device_landscape` est défini si l’appareil tactile est en orientation paysage ;  `.s7device_portrait` est utilisé lorsque le périphérique tactile est pivoté vers l’orientation portrait. Ces marqueurs CSS sont destinés uniquement aux systèmes de bureau.
+Le troisième groupe de marqueurs CSS contient `.s7device_landscape` et `.s7device_portrait`. Le marqueur `.s7device_landscape` est défini si l’appareil tactile est en orientation paysage ; `.s7device_portrait` est utilisé lorsque l’appareil tactile est pivoté vers l’orientation portrait. Ces marqueurs CSS sont destinés uniquement aux systèmes de bureau.
 
 L’exemple de page CSS suivant définit la taille du bouton de lecture/pause sur 28x28 pixels sur les systèmes avec une entrée de souris et 56x56 pixels sur les appareils tactiles. En outre, le bouton est entièrement masqué si la taille de la visionneuse est réduite de manière significative :
 
@@ -67,7 +67,7 @@ L’exemple de page CSS suivant définit la taille du bouton de lecture/pause su
 }
 ```
 
-Dans l’exemple suivant, la barre de contrôle vidéo est positionnée à 138 pixels au-dessus du bas de la visionneuse si l’appareil tactile est en orientation portrait, puis déplacez-le tout en bas de la visionneuse dans tous les autres cas :
+Dans l’exemple suivant, la barre de contrôle vidéo est positionnée à 138 pixels au-dessus du bas de la visionneuse si l’appareil tactile est en orientation portrait. Il est déplacé au bas de la visionneuse dans tous les autres cas :
 
 ```
 .s7interactivevideoviewer.s7touchinput.s7device_landscape .s7controlbar, 
@@ -144,7 +144,7 @@ Il n’est pas nécessaire de dupliquer l’intégralité du CSS de la visionneu
 
 ## Sprites CSS {#section-9b6d8d601cb441d08214dada7bb4eddc}
 
-De nombreux éléments de l’interface utilisateur de la visionneuse sont stylisés à l’aide d’illustrations bitmap et possèdent plusieurs états visuels distincts. Un bon exemple est un bouton qui comporte normalement au moins 3 états différents : &quot;vers le haut&quot;, &quot;vers le bas&quot; et &quot;vers le bas&quot;. Chaque état nécessite l’attribution de sa propre illustration bitmap.
+De nombreux éléments de l’interface utilisateur de la visionneuse sont stylisés à l’aide d’illustrations bitmap et possèdent plusieurs états visuels distincts. Un bon exemple est un bouton qui comporte normalement au moins trois états différents : &quot;vers le haut&quot;, &quot;vers le bas&quot; et &quot;vers le bas&quot;. Chaque état nécessite l’attribution de sa propre illustration bitmap.
 
 Avec une approche classique de la mise en forme, le CSS dispose d’une référence distincte au fichier image individuel sur le serveur pour chaque état de l’élément d’interface utilisateur. Voici un exemple de page CSS pour le style d’un bouton plein écran :
 

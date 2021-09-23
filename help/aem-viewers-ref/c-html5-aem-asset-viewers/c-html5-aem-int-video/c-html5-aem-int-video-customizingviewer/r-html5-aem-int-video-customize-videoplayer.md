@@ -1,13 +1,13 @@
 ---
+title: Lecteur vidéo
 description: Le lecteur vidéo est la zone rectangulaire dans laquelle le contenu vidéo est affiché dans la visionneuse.
 solution: Experience Manager
-title: Lecteur vidéo
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéos interactives
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 9cfeceff-f6bd-42d9-9b85-456bbaa278fd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '293'
 ht-degree: 1%
 
 ---
@@ -82,7 +82,7 @@ Les sous-titres codés sont placés dans un conteneur interne du lecteur vidéo.
 
 ## Exemple {#section-5b82913ff3c44b7b8187969cb15e9560}
 
-Pour configurer le texte des sous-titres à 14 pixels, gris clair, Arial, sur un arrière-plan noir semi-transparent :
+Pour configurer le texte des sous-titres à 14 pixels, gris clair, Arial®, sur un arrière-plan noir semi-transparent :
 
 ```
 .s7interactivevideoviewer .s7videoplayer .s7caption { 

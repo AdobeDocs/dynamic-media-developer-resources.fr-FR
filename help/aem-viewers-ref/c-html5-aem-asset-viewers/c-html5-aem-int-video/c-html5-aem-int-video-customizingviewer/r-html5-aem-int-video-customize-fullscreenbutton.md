@@ -1,13 +1,13 @@
 ---
+title: Bouton Plein écran
 description: Le bouton Plein écran permet au lecteur vidéo d’entrer ou de quitter le mode Plein écran lorsqu’un utilisateur clique dessus.
 solution: Experience Manager
-title: Bouton Plein écran
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéos interactives
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: ed9c9d37-f871-4094-9c6e-931d0f6edff1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '250'
 ht-degree: 2%
 
 ---
