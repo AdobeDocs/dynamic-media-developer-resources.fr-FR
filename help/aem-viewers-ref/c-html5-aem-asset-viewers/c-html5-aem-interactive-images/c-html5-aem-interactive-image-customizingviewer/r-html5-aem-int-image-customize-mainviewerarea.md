@@ -1,20 +1,20 @@
 ---
-description: La zone d’affichage principale est la zone occupée par l’image de zoom. Il est généralement défini pour s’adapter à l’écran de l’appareil disponible lorsqu’aucune taille n’est spécifiée.
-solution: Experience Manager
 title: Zone de visionneuse principale
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Images interactives
+description: La zone d’affichage principale est la zone occupée par l’image de zoom. Il est défini pour s’adapter à l’écran de l’appareil disponible lorsqu’aucune taille n’est spécifiée.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: c8005e7e-dff6-4f40-a94c-6fb6640e827f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '116'
 ht-degree: 2%
 
 ---
 
 # Zone de visionneuse principale{#main-viewer-area}
 
-La zone d’affichage principale est la zone occupée par l’image de zoom. Il est généralement défini pour s’adapter à l’écran de l’appareil disponible lorsqu’aucune taille n’est spécifiée.
+La zone d’affichage principale est la zone occupée par l’image de zoom. Il est défini pour s’adapter à l’écran de l’appareil disponible lorsqu’aucune taille n’est spécifiée.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

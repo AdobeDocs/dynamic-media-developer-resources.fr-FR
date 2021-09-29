@@ -1,13 +1,13 @@
 ---
+title: init
 description: Référence de l’API JavaScript pour la visionneuse d’images interactives.
 solution: Experience Manager
-title: init
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Images interactives
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 675031ab-21bb-49a5-abbc-eca8d2619e49
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '126'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ Référence de l’API JavaScript pour la visionneuse d’images interactives.
 
 Commence l’initialisation de la visionneuse d’images interactives. D’ici là, l’élément DOM du conteneur doit être créé afin que le code de la visionneuse puisse le trouver par son identifiant.
 
-Si l’élément de conteneur ne fait pas encore partie de la mise en page web (il peut par exemple être masqué à l’aide du style `display:none` qui lui est affecté), la visionneuse suspend son processus d’initialisation jusqu’au moment où la page web ramène l’élément de conteneur à la mise en page. Dans ce cas, le chargement de la visionneuse reprend automatiquement.
+Si l’élément de conteneur ne fait pas encore partie de la mise en page web (par exemple, il peut être masqué à l’aide du style `display:none` qui lui est affecté), la visionneuse suspend son processus d’initialisation. Il le fait jusqu’au moment où la page web ramène l’élément de conteneur à la mise en page. Lorsque cette action se produit, le chargement de la visionneuse reprend automatiquement.
 
 Appelez cette méthode une seule fois pendant le cycle de vie de la visionneuse ; les appels suivants sont ignorés.
 

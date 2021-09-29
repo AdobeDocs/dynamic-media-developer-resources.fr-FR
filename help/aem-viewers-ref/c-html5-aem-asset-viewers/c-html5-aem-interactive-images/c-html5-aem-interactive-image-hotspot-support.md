@@ -1,13 +1,13 @@
 ---
+title: Prise en charge des zones réactives
 description: Prise en charge des zones réactives
 solution: Experience Manager
-title: Prise en charge des zones réactives
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Images interactives
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 9b9ccdf4-4639-4ba8-988c-c68d81192619
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -20,10 +20,10 @@ Voir [Zones réactives](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-
 
 Les zones réactives peuvent activer une fonction d’aperçu rapide sur la page web d’hébergement en déclenchant un rappel JavaScript ou en redirigeant un utilisateur vers une page web externe.
 
-## Zones réactives de l’aperçu rapide {#section-cda48fc9730142d0bb3326bac7df3271}
+## Zones réactives d’aperçu rapide {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Ces types de zones réactives doivent être créés à l’aide du type d’action &quot;Aperçu rapide&quot; dans Dynamic Media, d’AEM Assets - on Demand. Lorsqu’un utilisateur active une telle zone réactive, la visionneuse exécute le rappel JavaScript `quickViewActivate` et lui transmet les données de zone réactive. Il est prévu que la page web d’incorporation écoute ce rappel. Lorsqu’il déclenche la page, il ouvre sa propre mise en oeuvre d’aperçu rapide.
+Ces types de zones réactives doivent être créés à l’aide du type d’action &quot;Aperçu rapide&quot; dans Dynamic Media, dans Adobe Experience Manager Assets - On-demand. Lorsqu’un utilisateur active une telle zone réactive, la visionneuse exécute le rappel JavaScript `quickViewActivate` et lui transmet les données de zone réactive. Il est prévu que la page web d’incorporation écoute ce rappel. Lorsqu’il déclenche la page, il ouvre sa propre mise en oeuvre d’aperçu rapide.
 
 ## Redirection vers une page web externe {#section-ef820c71251e4215800bb99c0c9ebe16}
 
-Les zones réactives créées pour le type d’action &quot;Aperçu rapide&quot; dans Dynamic Media d’AEM Assets - sur demande redirige l’utilisateur vers une URL externe. Selon les paramètres définis lors de la création, l’URL s’ouvre dans un nouvel onglet du navigateur, dans la même fenêtre ou dans la fenêtre du navigateur nommé.
+Les zones réactives créées pour le type d’action &quot;Aperçu rapide&quot; dans Dynamic Media des ressources du Experience Manager - On-demand redirige l’utilisateur vers une URL externe. Selon les paramètres définis lors de la création, l’URL s’ouvre dans un nouvel onglet du navigateur, dans la même fenêtre ou dans la fenêtre du navigateur nommé.

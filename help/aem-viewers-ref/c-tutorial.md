@@ -1,13 +1,13 @@
 ---
+title: Tutoriel du SDK de la visionneuse
 description: Le SDK de la visionneuse fournit un ensemble de composants JavaScript pour le développement de visionneuses personnalisées. Les visionneuses sont des applications web qui permettent l’incorporation de contenu multimédia enrichi diffusé par Adobe Dynamic Media dans des pages web.
 solution: Experience Manager
-title: Tutoriel du SDK de la visionneuse
-feature: Dynamic Media Classic,Visionneuses,SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ Le SDK de la visionneuse fournit un ensemble de composants JavaScript pour le d�
 
 Par exemple, le SDK fournit un zoom et un panoramique interactifs. Il fournit également une lecture vidéo et d’affichage 360° des ressources qui ont été chargées vers Adobe Dynamic Media via l’application principale appelée Dynamic Media Classic.
 
-Bien que les composants reposent sur la fonctionnalité HTML5, ils sont conçus pour fonctionner sur les appareils Android et Apple iOS, ainsi que sur les ordinateurs de bureau, y compris Internet Explorer et versions ultérieures. Ce type d’expérience signifie que vous pouvez fournir un seul workflow pour toutes les plateformes prises en charge.
+Bien que les composants reposent sur la fonctionnalité HTML5, ils sont conçus pour fonctionner sur les appareils Android™ et Apple iOS, ainsi que sur les ordinateurs de bureau, y compris Internet Explorer et versions ultérieures. Ce type d’expérience signifie que vous pouvez fournir un seul workflow pour toutes les plateformes prises en charge.
 
-Le SDK est constitué de composants d’interface utilisateur qui constituent le contenu de la visionneuse. Vous pouvez mettre en forme ces composants par le biais de CSS et de composants non-UI qui ont un rôle de prise en charge, comme la récupération et l’analyse des définitions ou le suivi. Tous les comportements de composant sont personnalisables à l’aide de modificateurs que vous pouvez spécifier de différentes manières, par exemple sous la forme de paires `name=value` dans l’URL.
+Le SDK est constitué de composants d’interface utilisateur qui constituent le contenu de la visionneuse. Vous pouvez mettre en forme ces composants par le biais de CSS et de composants non-UI qui ont un rôle de prise en charge, comme la récupération et l’analyse des définitions ou le suivi. Tous les comportements de composant sont personnalisables au moyen de modificateurs que vous pouvez spécifier de différentes manières, par exemple sous la forme de paires `name=value` dans l’URL.
 
 Ce tutoriel comprend l’ordre de tâches suivant pour vous aider à créer une visionneuse de zoom de base :
 
@@ -38,13 +38,13 @@ Ce tutoriel comprend l’ordre de tâches suivant pour vous aider à créer une 
 
    >[!NOTE]
    >
-   >Vous pouvez suivre ce tutoriel sans avoir à télécharger le package du SDK de visionneuse, car le SDK est en fait chargé à distance. Cependant, le module de visionneuse comprend des exemples supplémentaires et un guide de référence d’API que vous trouverez utiles lors de la création de vos propres visionneuses.
+   >Vous pouvez suivre ce tutoriel sans avoir à télécharger le package du SDK de visionneuse, car le SDK est chargé à distance. Cependant, le package Visionneuse comprend des exemples supplémentaires et un guide de référence API qui peuvent vous aider à créer vos propres visionneuses.
 
 ## Chargement du SDK de la visionneuse {#section-98596c276faf4cf79ccf558a9f4432c6}
 
 1. Commencez par configurer une nouvelle page pour développer la visionneuse de zoom de base que vous allez créer.
 
-   Prenez en compte le code de démarrage (ou chargeur) pour configurer une application SDK vide. Ouvrez votre éditeur de texte préféré et collez-y les balises HTML suivantes :
+   Tenez compte de cette nouvelle page dans le code du Bootstrap - ou chargeur - que vous utilisez pour configurer une application SDK vide. Ouvrez votre éditeur de texte préféré et collez-y les balises HTML suivantes :
 
    ```
    <!DOCTYPE html> 
@@ -79,7 +79,7 @@ Ce tutoriel comprend l’ordre de tâches suivant pour vous aider à créer une 
    </html>
    ```
 
-   Ajoutez le code JavaScript suivant à l’intérieur de la balise `script` pour initialiser la balise `ParameterManager`. Vous pouvez ainsi vous préparer à créer et instancier des composants SDK dans la fonction `initViewer` :
+   Ajoutez le code JavaScript suivant à l’intérieur de la balise `script` afin d’initialiser la balise `ParameterManager`. Cela vous permet de vous préparer à créer et à instancier des composants SDK dans la fonction `initViewer` :
 
    ```
    /* We create a self-running anonymous function to encapsulate variable scope. Placing code inside such 
@@ -115,9 +115,9 @@ Ce tutoriel comprend l’ordre de tâches suivant pour vous aider à créer une 
 
 1. Enregistrez le fichier comme modèle vide. Vous pouvez utiliser n’importe quel nom de fichier.
 
-   Vous utiliserez ce fichier de modèle vide comme référence lors de la création de visionneuses ultérieurement. Ce modèle fonctionne localement et lorsqu’il est diffusé à partir d’un serveur web.
+   Vous utiliserez ce fichier de modèle vide comme référence lorsque vous créerez des visionneuses ultérieurement. Ce modèle fonctionne localement et lorsqu’il est diffusé à partir d’un serveur web.
 
-Vous allez maintenant ajouter un style à votre visionneuse.
+Ajoutez maintenant un style à votre visionneuse.
 
 ## Ajout d’un style à la visionneuse {#section-3783125360a1425eae5a5a334867cc32}
 
@@ -142,7 +142,7 @@ Vous allez maintenant ajouter un style à votre visionneuse.
    </style>
    ```
 
-Vous allez maintenant inclure les composants `Container` et `ZoomView`.
+Maintenant, incluez les composants `Container` et `ZoomView`.
 
 ## Inclusion de Container et ZoomView {#section-1a01730663154a508b88cc40c6f35539}
 
@@ -169,7 +169,7 @@ Vous allez maintenant inclure les composants `Container` et `ZoomView`.
    var container, zoomView;
    ```
 
-1. Insérez les éléments suivants dans la fonction `initViewer` pour définir certains modificateurs et instancier les composants respectifs :
+1. Insérez les éléments suivants dans la fonction `initViewer` afin de pouvoir définir certains modificateurs et instancier les composants respectifs :
 
    ```
    /* Modifiers can be added directly to ParameterManager instance */ 
@@ -205,11 +205,11 @@ Vous allez maintenant inclure les composants `Container` et `ZoomView`.
    }
    ```
 
-1. Prévisualisez la page pour voir ce que vous avez créé. La page se présente comme suit :
+1. Prévisualisez la page pour voir ce que vous avez créé. Votre page doit se présenter comme suit :
 
-   ![](assets/viewer-1.jpg)
+   ![Exemple de visionneuse pour une image](assets/viewer-1.jpg)
 
-Vous allez maintenant ajouter les composants `MediaSet` et `Swatches` à votre visionneuse.
+Ajoutez maintenant les composants `MediaSet` et `Swatches` à votre visionneuse.
 
 ## Ajout de composants MediaSet et Nuancier à la visionneuse {#section-02b8c21dd842400e83eae2a48ec265b7}
 
@@ -288,9 +288,9 @@ Vous allez maintenant ajouter les composants `MediaSet` et `Swatches` à votre v
 
    Votre visionneuse ressemble désormais à l’image suivante. Essayez de redimensionner la fenêtre du navigateur de la visionneuse et notez le comportement qui en résulte.
 
-   ![](assets/viewer-2.jpg)
+   ![Exemple de visionneuse deux images](assets/viewer-2.jpg)
 
-Vous allez maintenant ajouter des boutons de zoom avant, de zoom arrière et de réinitialisation du zoom à votre visionneuse.
+Ajoutez maintenant des boutons de zoom avant, de zoom arrière et de réinitialisation du zoom à votre visionneuse.
 
 ## Ajout de boutons à la visionneuse {#section-1fc334fa0d2b47eb9cdad461725c07be}
 
@@ -350,17 +350,17 @@ Vous allez maintenant ajouter des boutons de zoom avant, de zoom arrière et de 
     }
    ```
 
-1. Prévisualisez votre visionneuse. Il ressemblera à ce qui suit :
+1. Prévisualisez votre visionneuse. Il doit se présenter comme suit :
 
-   ![](assets/viewer-3.jpg)
+   ![Exemple de visionneuse trois images](assets/viewer-3.jpg)
 
-   Vous allez maintenant configurer les nuanciers afin qu’ils soient alignés verticalement à droite.
+   Maintenant, configurez les Nuanciers de sorte qu’ils soient alignés verticalement à droite.
 
 ## Configuration verticale des nuanciers {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
 
 1. Vous pouvez configurer des modificateurs directement sur l’instance `ParameterManager`.
 
-   Ajoutez le code suivant en haut de la fonction `initViewer` pour configurer la disposition de miniature `Swatches` en une seule ligne :
+   Ajoutez le code suivant en haut de la fonction `initViewer` afin de pouvoir configurer la mise en page de la miniature `Swatches` en une seule ligne :
 
    ```
    params.push("Swatches.tmblayout", "1,0");
@@ -383,9 +383,9 @@ Vous allez maintenant ajouter des boutons de zoom avant, de zoom arrière et de 
    }
    ```
 
-1. Prévisualisez votre visionneuse. Il ressemblera à ce qui suit :
+1. Prévisualisez votre visionneuse. Il ressemble à ce qui suit :
 
-   ![](assets/viewer-4.jpg)
+   ![Exemple de visualisation de quatre images](assets/viewer-4.jpg)
 
    La visionneuse de zoom de base est maintenant terminée.
 

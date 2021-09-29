@@ -1,13 +1,13 @@
 ---
+title: Zones réactives
 description: La visionneuse affiche des icônes de zone réactive au-dessus de la vue principale dans les endroits où des zones réactives ont été créées à l’origine dans Dynamic Media d’AEM Assets - on Demand.
 solution: Experience Manager
-title: Zones réactives
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Images interactives
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: ec1d9a91-e189-470a-abe2-4f33686905e7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '119'
 ht-degree: 2%
 
 ---

@@ -1,14 +1,14 @@
 ---
+title: Protocole du serveur FXG
 description: Pour manipuler un graphique, vous pouvez utiliser les points de référence qui rappellent les points cardinaux.
 solution: Experience Manager
-title: Protocole du serveur FXG
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 57d9ba37-819e-455f-9b22-bd7aabffe007
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 48%
+source-wordcount: '268'
+ht-degree: 42%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 48%
 
 Pour manipuler un graphique, vous pouvez utiliser les points de référence qui rappellent les points cardinaux.
 
-Avec les points de référence, vous pouvez faire pivoter, mettre à l’échelle ou redimensionner un graphique par rapport à un point de référence particulier. Les points de référence sont `northWest`, `north`, `northEast`, `west`, `center`, `east`, `southWest`, `south` et `southeast`. Par exemple, avec le point de référence centre, vous pouvez faire pivoter un graphique de 45 degrés sur son centre. Cette illustration indique l’emplacement des points de référence, un graphique, le graphique a pivoté de 20 degrés par rapport à son point de référence `northWest` et le graphique a pivoté de 20 degrés par rapport à son point de référence `east`.
+Avec les points de référence, vous pouvez faire pivoter, mettre à l’échelle ou redimensionner un graphique par rapport à un point de référence particulier. Les points de référence sont `northWest`, `north`, `northEast`, `west`, `center`, `east`, `southWest`, `south` et `southeast`. Par exemple, en utilisant le point de référence central, vous pouvez faire pivoter un graphique de 45° sur son centre. L’image suivante montre l’emplacement des points de référence, un graphique, le graphique a pivoté de 20° à partir de son point de référence `northWest` et le graphique a pivoté de 20° à partir de son point de référence `east`.
 
-![](assets/wp_ref_points.png)
+![Image des points de référence](assets/wp_ref_points.png)
 
 * A. Emplacements des points de référence
 * B. Un graphique
-* C. Le graphique a pivoté de 20 degrés par rapport à son point de référence `northWest`
-* D. Le graphique a pivoté de 20 degrés par rapport à son point de référence `east`
+* C. Le graphique a pivoté de 20° à partir de son point de référence `northWest`
+* D. Le graphique a pivoté de 20° à partir de son point de référence `east`
 
 La syntaxe est la suivante :
 

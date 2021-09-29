@@ -1,14 +1,14 @@
 ---
+title: videoServerUrl
 description: Commande URL de la visionneuse Video360.
 solution: Experience Manager
-title: videoServerUrl
-feature: Dynamic Media Classic,Visionneuses,SDK/API,vidéo 360 VR
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 76204d0a-449b-4fe5-a2aa-36739fab482f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 6%
+source-wordcount: '51'
+ht-degree: 7%
 
 ---
 

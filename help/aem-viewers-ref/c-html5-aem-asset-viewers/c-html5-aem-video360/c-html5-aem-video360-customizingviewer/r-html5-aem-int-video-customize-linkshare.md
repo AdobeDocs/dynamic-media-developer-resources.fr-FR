@@ -1,13 +1,13 @@
 ---
+title: Partage de liens
 description: L’outil Partage de liens est constitué d’un bouton ajouté au panneau Partage sur les réseaux sociaux et de la boîte de dialogue modale qui s’affiche lorsque l’outil est activé. La position du bouton est entièrement gérée par l’outil Partage sur les réseaux sociaux .
 solution: Experience Manager
-title: Partage de liens
-feature: Dynamic Media Classic,Visionneuses,SDK/API,vidéo 360 VR
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 9eb2ef38-9b86-4c60-90a2-6609cb3fcc39
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1385'
 ht-degree: 2%
 
 ---
@@ -284,7 +284,7 @@ Propriétés **CSS du bouton de fermeture **
 
 L’info-bulle du bouton Fermer et le titre de la boîte de dialogue peuvent être localisés. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Exemple**  : pour configurer un en-tête de boîte de dialogue avec marge intérieure, une icône de 22 x 12 pixels, un titre en gras de 16 points et un bouton de fermeture de 28 x 28 pixels qui est positionné à deux pixels du haut et à deux pixels de la droite du conteneur de la boîte de dialogue :
+**Exemple**  : pour configurer un en-tête de boîte de dialogue avec marge intérieure, une icône de 22 x 12 pixels et un titre de 16 points en gras. Enfin, un bouton Fermer de 28 x 28 pixels qui est positionné à deux pixels du haut et à deux pixels à droite du conteneur de la boîte de dialogue :
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogheader { 
@@ -426,7 +426,7 @@ Le bouton Annuler est contrôlé à l’aide du sélecteur de classe CSS suivant
 >
 >Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
-En outre, les deux boutons partagent la même classe CSS commune, qui peut contenir des paramètres CSS identiques pour les autres boutons de boîte de dialogue :
+En outre, les deux boutons partagent une classe CSS commune, qui peut contenir des paramètres CSS identiques pour les autres boutons de boîte de dialogue :
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogfooter .s7button
@@ -560,7 +560,7 @@ Propriétés **CSS de la zone d’affichage de la boîte de dialogue **
 }
 ```
 
-Tout le contenu d’un formulaire, tel que les libellés et les champs de saisie, réside à l’intérieur d’un conteneur contrôlé par le sélecteur de classe CSS suivant :
+Tout le contenu du formulaire, tel que les libellés et les champs de saisie, réside dans un conteneur contrôlé par le sélecteur de classe CSS suivant :
 
 ```
 .s7video360viewer .s7linkdialog .s7dialogbody
@@ -577,7 +577,7 @@ Propriétés **CSS du corps de la boîte de dialogue **
  </tbody> 
 </table>
 
-**Exemple**  : pour configurer le contenu d’un formulaire avec une marge intérieure de 10 pixels :
+**Exemple**  : pour configurer le contenu du formulaire avec une marge intérieure de dix pixels :
 
 ```
 .s7interactivevideoviewer .s7linkdialog .s7dialogbody { 
@@ -634,7 +634,7 @@ La taille de la copie de texte affichée en haut du lien est contrôlée par le 
 .s7video360viewer .s7linkdialog .s7dialoginputwide
 ```
 
-**Propriétés CSS de la boîte de dialogue saisie champ large**
+**Propriétés CSS du champ d’entrée de la boîte de dialogue**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 

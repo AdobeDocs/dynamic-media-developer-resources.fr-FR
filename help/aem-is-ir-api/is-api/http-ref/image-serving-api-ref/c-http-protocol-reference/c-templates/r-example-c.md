@@ -1,13 +1,13 @@
 ---
+title: Exemple C
 description: Créez une application de calque "poupée de papier".
 solution: Experience Manager
-title: Exemple C
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 70232055-2a4c-4e56-8076-3cd56a9004c5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ Une image d’arrière-plan contient la photo d’un modèle ou d’un mannequin
 
 Chaque photo d’habillement/accessoires est masquée et recadrée sur le cadre de sélection du masque afin de minimiser la taille de l’image. Les ancres et résolutions des images sont soigneusement contrôlées afin de maintenir l’alignement entre les calques et l’image d’arrière-plan. Toutes les images sont alors ajoutées à un catalogue d’images, avec les valeurs appropriées stockées dans les répertoires `catalog::Resolution` et `catalog::Anchor`.
 
-Outre le calque, nous voulons également modifier la couleur des éléments sélectionnés. Les enregistrements de ces éléments sont prétraités afin de supprimer la couleur d’origine et d’ajuster la luminosité et le contraste d’une manière adaptée à la commande de coloration. Ce prétraitement peut être effectué hors ligne à l’aide d’un outil d’édition d’images tel que Photoshop ou, dans des cas simples, il peut être effectué de manière triviale en ajoutant `op_brightness=` et `op_contrast=` au champ `catalog::Modifier`.
+Outre le calque, vous souhaitez également modifier la couleur des éléments sélectionnés. Les enregistrements de ces éléments sont prétraités afin de supprimer la couleur d’origine et d’ajuster la luminosité et le contraste d’une manière adaptée à la commande de coloration. Ce prétraitement peut être effectué hors ligne à l’aide d’un outil d’édition d’images tel qu’Adobe Photoshop ou, dans des cas simples, il peut être effectué de manière triviale en ajoutant `op_brightness=` et `op_contrast=` au champ `catalog::Modifier`.
 
-Cette application ne justifie pas un modèle distinct, car tous les objets sont déjà correctement alignés par leurs ancres d’image ( `catalog::Anchor`) et mis à l’échelle ( `catalog::Resolution`). Nous laissons au client le soin d’assurer l’ordre de calque approprié.
+Cette application ne justifie pas un modèle distinct, car tous les objets sont déjà correctement alignés par leurs ancres d’image ( `catalog::Anchor`) et mis à l’échelle ( `catalog::Resolution`). Il appartient au client de veiller à l’ordre approprié des calques.
 
 Voici une requête type :
 

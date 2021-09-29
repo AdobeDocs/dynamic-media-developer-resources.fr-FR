@@ -1,13 +1,13 @@
 ---
+title: Référence de l’API JavaScript pour la visionneuse d’images interactives
 description: La classe principale de la visionneuse d’images interactives est InteractiveImage. Il est déclaré dans l’espace de noms s7viewers. Cette API JavaScript couvre le constructeur, les méthodes et les rappels de cette classe particulière.
 solution: Experience Manager
-title: Référence de l’API JavaScript pour la visionneuse d’images interactives
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Images interactives
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 40a3554c-633f-418e-b365-2cae4eebe878
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---

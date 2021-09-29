@@ -1,13 +1,13 @@
 ---
+title: setHandlers
 description: Référence de l’API JavaScript pour la visionneuse d’images interactives
 solution: Experience Manager
-title: setHandlers
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Images interactives
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: a5e42842-dc88-454b-8229-33a65c01bf88
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '87'
 ht-degree: 3%
 
 ---

@@ -1,21 +1,21 @@
 ---
-description: Certains contenus affichés par la visionneuse d’images interactives peuvent être localisés. Cela inclut les info-bulles des éléments de l’interface utilisateur et un message d’information affiché par le zoom déroulant au chargement.
 title: Localisation des éléments de l’interface utilisateur
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Images interactives
+description: Certains contenus affichés par la visionneuse d’images interactives peuvent être localisés. Ce contenu comprend des info-bulles sur les éléments de l’interface utilisateur et un message d’information affiché par le zoom déroulant au chargement.
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
 exl-id: 19749c74-5c31-4dcf-ab07-0e7f10176a86
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
 
 # Localisation des éléments de l’interface utilisateur{#localization-of-user-interface-elements}
 
-Certains contenus affichés par la visionneuse d’images interactives peuvent être localisés. Cela inclut les info-bulles des éléments de l’interface utilisateur et un message d’information affiché par le zoom déroulant au chargement.
+Certains contenus affichés par la visionneuse d’images interactives peuvent être localisés. Ce contenu comprend des info-bulles sur les éléments de l’interface utilisateur et un message d’information affiché par le zoom déroulant au chargement.
 
-Chaque contenu textuel de la visionneuse qui peut être localisé est représenté par l’identifiant spécial du SDK de la visionneuse appelé SYMBOL. Une valeur de texte associée par défaut pour un paramètre régional anglais ( `"en"`) est fournie avec la visionneuse prête à l’emploi et peut également avoir des valeurs définies par l’utilisateur pour autant de paramètres régionaux que nécessaire.
+Chaque contenu textuel de la visionneuse qui peut être localisé est représenté par l’identifiant spécial du SDK de la visionneuse appelé SYMBOL. Une valeur de texte associée par défaut pour un paramètre régional anglais ( `"en"`) est fournie avec la visionneuse prête à l’emploi et peut avoir des valeurs définies par l’utilisateur pour autant de paramètres régionaux que nécessaire.
 
 Lorsque la visionneuse démarre, elle vérifie les paramètres régionaux actuels afin de déterminer s’il existe une valeur définie par l’utilisateur pour chaque SYMBOL pris en charge pour ces paramètres régionaux. Si tel est le cas, elle utilise la valeur définie par l’utilisateur ; dans le cas contraire, il revient au texte par défaut d’usine.
 

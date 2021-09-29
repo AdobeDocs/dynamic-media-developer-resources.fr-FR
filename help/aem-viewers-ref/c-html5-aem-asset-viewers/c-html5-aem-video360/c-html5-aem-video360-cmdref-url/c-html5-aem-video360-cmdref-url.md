@@ -1,13 +1,13 @@
 ---
+title: Référence de commande - URL
 description: Documentation de référence des commandes pour la visionneuse Video360.
 solution: Experience Manager
-title: Référence de commande - URL
-feature: Dynamic Media Classic,Visionneuses,SDK/API,vidéo 360 VR
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: eb7026cf-f28b-4426-ba64-b3472946d5d4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---

@@ -1,13 +1,13 @@
 ---
+title: Incorporer le partage
 description: L’outil de partage intégré est constitué d’un bouton ajouté au panneau Partage sur les réseaux sociaux et de la boîte de dialogue modale qui s’affiche lorsque l’outil est activé. La position du bouton est entièrement gérée par l’outil Partage sur les réseaux sociaux .
 solution: Experience Manager
-title: Incorporer le partage
-feature: Dynamic Media Classic,Visionneuses,SDK/API,vidéo 360 VR
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 08ba7a29-8b17-4167-a9f3-82aa4cf65556
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '2603'
+source-wordcount: '2599'
 ht-degree: 2%
 
 ---
@@ -284,7 +284,7 @@ Propriétés **CSS du bouton de fermeture **
 
 L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) pour plus d’informations.
 
-**Exemple**  : pour configurer l’en-tête de la boîte de dialogue avec marge intérieure, icône de 24 x 14 pixels, titre en gras de 16 points et bouton de fermeture de 28 x 28 pixels, positionné deux pixels du haut et deux pixels à droite du conteneur de la boîte de dialogue :
+**Exemple**  : pour configurer l’en-tête de la boîte de dialogue avec marge intérieure, une icône de 24 x 14 pixels et un titre de 16 points en gras. Enfin, un bouton Fermer de 28 x 28 pixels, positionné deux pixels du haut, et deux pixels à droite du conteneur de la boîte de dialogue :
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogheader { 
@@ -426,7 +426,7 @@ Le bouton Annuler est contrôlé à l’aide du sélecteur de classe CSS suivant
 >
 >Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
-En outre, les deux boutons partagent la même classe CSS commune, qui peut contenir des paramètres CSS identiques pour les autres boutons de boîte de dialogue :
+En outre, les deux boutons partagent une classe CSS commune, qui peut contenir des paramètres CSS identiques pour les autres boutons de boîte de dialogue :
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogfooter .s7button
@@ -636,7 +636,7 @@ La taille de la copie de texte affichée en haut du code incorporé est contrôl
 .s7video360viewer .s7embeddialog .s7dialoginputwide
 ```
 
-**Propriétés CSS de la boîte de dialogue saisie champ large**
+**Propriétés CSS du champ d’entrée de la boîte de dialogue**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
@@ -712,7 +712,7 @@ Le texte du code incorporé réel est contrôlé à l’aide du sélecteur de cl
  </tbody> 
 </table>
 
-**Exemple**  : pour configurer le code incorporé afin d’utiliser l’ `break-word` encapsulage de mot :
+**Exemple**  - Pour configurer le code incorporé de manière à utiliser l’ `break-word` encapsulage de mot :
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogmessage { 
@@ -720,7 +720,7 @@ Le texte du code incorporé réel est contrôlé à l’aide du sélecteur de cl
 }
 ```
 
-Le libellé de taille d’incorporation et la liste déroulante se trouvent au bas de la boîte de dialogue et sont placés dans un conteneur contrôlé à l’aide du sélecteur de classe CSS suivant :
+Le libellé de taille d’incorporation et le menu déroulant se trouvent au bas de la boîte de dialogue et sont placés dans un conteneur contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogembedsizepanel
@@ -794,7 +794,7 @@ La largeur de la zone combinée de taille d’intégration est contrôlée avec 
 
 >[!NOTE]
 >
->La zone de liste modifiable prend en charge le sélecteur d’attributs `expanded` avec les valeurs possibles de `true` et `false`. `true` est utilisée lorsque la zone de liste modifiable affiche l’une des tailles incorporées prédéfinies. Elle doit donc prendre toute la largeur disponible. `false` est utilisée lorsque l’option de taille personnalisée est sélectionnée dans la zone combinée. Elle doit donc être réduite pour libérer de l’espace pour les champs de saisie de largeur et de hauteur personnalisés.
+>La zone de liste modifiable prend en charge le sélecteur d’attributs `expanded` avec les valeurs possibles de `true` et `false`. La valeur `true` est utilisée lorsque la zone de liste modifiable affiche l’une des tailles d’intégration prédéfinies, qui doit donc prendre toute la largeur disponible. La valeur `false` est utilisée lorsque l’option de taille personnalisée est sélectionnée dans la zone de liste modifiable. Elle doit donc être réduite pour libérer de l’espace pour les champs de saisie de largeur et de hauteur personnalisés.
 
 **Exemple**  : pour définir la zone combinée de taille d’intégration sur 300 pixels de large lors de l’affichage d’un élément prédéfini et 110 pixels de large lors de l’affichage d’une taille personnalisée :
 
