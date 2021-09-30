@@ -1,14 +1,14 @@
 ---
+title: dispose
 description: Référence de l’API JavaScript pour la visionneuse de vidéos interactives.
 solution: Experience Manager
-title: dispose
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéos interactives
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 55418b97-3d18-4c1d-b0e3-aefd71f46616
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 2%
+source-wordcount: '126'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ Dispose cette instance de visionneuse en libérant toutes les ressources utilis�
 
 Le code de page web doit également supprimer la variable d’instance de la visionneuse pour supprimer complètement la visionneuse de la mémoire du navigateur web.
 
-Si le code de page web a enregistré des écouteurs d’événement directement sur les composants du SDK de la visionneuse utilisés par la visionneuse ou les références externes stockées à ces écouteurs de composants, ces derniers doivent être désenregistrés explicitement par le code de page web, et ces références de composants externes doivent être supprimées avant d’appeler `dispose()`.
+Si le code de page web a enregistré des écouteurs d’événement directement sur les composants du SDK de la visionneuse utilisés par la visionneuse - ou si des références externes stockées à ces composants - ces écouteurs doivent être désenregistrés explicitement par le code de page web. De plus, ces références de composants externes doivent être supprimées avant d’appeler `dispose()`.
 
 N’accédez plus à l’API de visionneuse après l’appel de `dispose()`.
 

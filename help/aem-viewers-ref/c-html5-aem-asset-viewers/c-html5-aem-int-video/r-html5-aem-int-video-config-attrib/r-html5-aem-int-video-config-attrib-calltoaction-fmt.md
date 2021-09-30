@@ -1,14 +1,14 @@
 ---
+title: CallToAction.fmt
 description: Attribut de configuration de la visionneuse de vidéos interactives.
 solution: Experience Manager
-title: CallToAction.fmt
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéos interactives
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 38ca592f-329c-4fd4-8dbc-a49000663e55
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 5%
+source-wordcount: '65'
+ht-degree: 6%
 
 ---
 

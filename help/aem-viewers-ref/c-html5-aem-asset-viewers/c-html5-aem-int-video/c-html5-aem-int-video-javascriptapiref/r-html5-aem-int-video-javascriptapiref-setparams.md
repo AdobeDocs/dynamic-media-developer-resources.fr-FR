@@ -1,14 +1,14 @@
 ---
+title: setParams
 description: Référence de l’API JavaScript pour la visionneuse de vidéos interactives.
 solution: Experience Manager
-title: setParams
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéos interactives
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 32d26999-7815-4c71-ad4c-b7db99ec3d3b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 2%
+source-wordcount: '98'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +18,7 @@ Référence de l’API JavaScript pour la visionneuse de vidéos interactives.
 
 ` setParams( *`params`*)`
 
-Définit un ou plusieurs paramètres sur une valeur donnée. La syntaxe de l’argument de méthode est identique à celle d’une chaîne de requête d’URL. En d’autres termes, il représente les paires nom=valeur séparées par `&`. Tout comme dans une chaîne de requête, les noms et les valeurs sont codés en pourcentage à l’aide du codage UTF8. Avant d’appeler `init()`, ce paramètre doit être appelé.
+Définit un ou plusieurs paramètres sur une valeur donnée. La syntaxe de l’argument de méthode est identique à celle d’une chaîne de requête d’URL. En d’autres termes, il représente les paires nom=valeur séparées par `&`. Comme dans une chaîne de requête, les noms et les valeurs sont codés en pourcentage à l’aide du codage UTF8. Avant d’appeler `init()`, ce paramètre doit être appelé.
 
 Cette méthode est facultative si les informations de configuration de la visionneuse ont été transmises au constructeur avec l’objet JSON `config`.
 

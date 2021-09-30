@@ -1,13 +1,13 @@
 ---
+title: Prise en charge du suivi Adobe Analytics
 description: La visionneuse de vidéos HTML5 360 prend en charge le suivi Adobe Analytics prêt à l’emploi.
 solution: Experience Manager
-title: Prise en charge du suivi Adobe Analytics
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéos interactives
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 74a69d01-fa58-4d36-8598-992baf6ae11d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '152'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ Par défaut, la visionneuse envoie une requête HTTP de suivi unique au serveur 
 
 ## Suivi personnalisé {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Pour l’intégrer aux systèmes d’analyse tiers, il est nécessaire d’écouter le rappel de la visionneuse `trackEvent` et de traiter l’argument `eventInfo` de la fonction de rappel, le cas échéant. Le code suivant est un exemple de fonction de gestionnaire de ce type :
+Pour s’intégrer à des systèmes d’analyse tiers, il est nécessaire d’écouter le rappel de la visionneuse `trackEvent` et de traiter l’argument `eventInfo` de la fonction de rappel si nécessaire. Le code suivant est un exemple de fonction de gestionnaire de ce type :
 
 ```
 var video360Viewer = new s7viewers.Video360Viewer({ 

@@ -1,13 +1,13 @@
 ---
+title: VideoPlayer.playback
 description: Attribut de configuration de la visionneuse de vidéos interactives.
 solution: Experience Manager
-title: VideoPlayer.playback
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéos interactives
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: fa49e025-1a46-4be7-ad1e-eda3b31bdc8d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '110'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ Attribut de configuration de la visionneuse de vidéos interactives.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|progressif</span> </p> </td> 
-   <td colname="col2"> <p> Définit le type de lecture utilisé par la visionneuse. </p> <p>Lorsque <span class="codeph"> auto</span> est défini, dans la plupart des navigateurs de bureau et sur tous les appareils iOS, la visionneuse utilise la vidéo en flux continu HTML5 au format HLS et revient à la lecture HTML5 progressive sur certains systèmes tels qu’Internet Explorer plus ancien et Android. </p> <p>Lorsque <span class="codeph"> progressif</span> est défini, la visionneuse ne s’appuie que sur la lecture HTML5 comme prise en charge en mode natif par les navigateurs et lit la vidéo progressivement sur tous les systèmes. </p> <p>Pour plus d’informations sur la sélection de la lecture en <span class="codeph"> auto</span> et <span class="codeph"> progressif</span> modes natifs, consultez le Guide de l’utilisateur du kit de développement de visionneuses HTML5. </p> </td> 
+   <td colname="col2"> <p> Définit le type de lecture utilisé par la visionneuse. </p> <p>Lorsque la variable <span class="codeph"> auto</span> est définie, dans la plupart des navigateurs de bureau et sur tous les appareils iOS, la visionneuse utilise la vidéo en flux continu HTML5 au format HLS. Et il revient à la lecture HTML5 progressive sur certains systèmes tels qu’Internet Explorer et Android™. </p> <p>Lorsque <span class="codeph"> progressif</span> est défini, la visionneuse ne s’appuie que sur la lecture HTML5 comme prise en charge en mode natif par les navigateurs et lit la vidéo progressivement sur tous les systèmes. </p> <p>Pour plus d’informations sur la sélection de la lecture en <span class="codeph"> auto</span> et <span class="codeph"> progressif</span> modes natifs, consultez le Guide de l’utilisateur du kit de développement de visionneuses HTML5. </p> </td> 
   </tr> 
  </tbody> 
 </table>

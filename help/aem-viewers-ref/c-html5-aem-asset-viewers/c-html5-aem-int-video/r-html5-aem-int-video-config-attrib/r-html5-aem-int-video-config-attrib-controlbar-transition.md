@@ -1,13 +1,13 @@
 ---
+title: ControlBar.transition
 description: Attribut de configuration de la visionneuse de vidéos interactives.
 solution: Experience Manager
-title: ControlBar.transition
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéos interactives
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: a8bb32b4-0fd9-4887-98ef-31c3426092b6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '114'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ Attribut de configuration de la visionneuse de vidéos interactives.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|fade</span> </p> </td> 
-   <td colname="col2"> <p> Indique le type d’effet qui sera utilisé pour afficher/masquer la barre de contrôle et son contenu. </p> <p>Définissez cette variable sur <span class="codeph"> none</span> pour l’affichage/le masquage instantanés. </p> <p>Définissez cette variable sur <span class="codeph"> fondu</span> pour fournir un effet de fondu progressif dans/hors. Non pris en charge sur Internet Explorer 8. </p> </td> 
+   <td colname="col2"> <p> Indique le type d’effet utilisé pour afficher/masquer la barre de contrôle et son contenu. </p> <p>Définissez cette variable sur <span class="codeph"> none</span> pour l’affichage/le masquage instantanés. </p> <p>Définissez cette variable sur <span class="codeph"> fondu</span> pour fournir un effet de fondu progressif dans/hors. Non pris en charge sur Internet Explorer 8. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> delaytohide</span></span> </p> </td> 

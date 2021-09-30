@@ -1,13 +1,13 @@
 ---
+title: getComponent
 description: Référence de l’API JavaScript pour la visionneuse de vidéos interactives.
 solution: Experience Manager
-title: getComponent
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéos interactives
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: a760bc86-b700-4ffe-9983-ef55d88677d6
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '214'
 ht-degree: 1%
 
 ---
@@ -103,7 +103,7 @@ Renvoie une référence au composant SDK de la visionneuse utilisé par la visio
  </tbody> 
 </table>
 
-Lorsque vous utilisez des API SDK, il est important d’utiliser un espace de noms SDK complet correct, comme décrit dans [Espace de noms du SDK de la visionneuse](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-html5-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621).
+Lorsque vous utilisez des API SDK, il est important que vous utilisiez un espace de noms SDK correct, complet, comme décrit dans la section [Espace de noms du SDK de la visionneuse](../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-html5-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621).
 
 Pour plus d’informations sur un composant particulier, voir la documentation *API du SDK de visionneuse* .
 

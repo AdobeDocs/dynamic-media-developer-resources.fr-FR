@@ -1,13 +1,13 @@
 ---
+title: VideoPlayer.posterimage
 description: Attribut de configuration de la visionneuse de vidéos interactives.
 solution: Experience Manager
-title: VideoPlayer.posterimage
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéos interactives
+feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 17c1220d-f2a4-4729-84e2-b9f6f5732423
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '177'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Attribut de configuration de la visionneuse de vidéos interactives.
       <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> as  <span class="codeph"> %3F</span> </p> </li> 
       <li id="li_391CCF067F734480B2B4AFC9760C479A"> <p> <span class="codeph"> &amp;</span> as  <span class="codeph"> %26</span> </p> </li> 
       <li id="li_6824B66A55554C5A8B12874DCF5BFAEE"> <p> <span class="codeph"> =</span> as  <span class="codeph"> %3D</span> </p> </li> 
-     </ul> </p> <p>Si la valeur <span class="codeph"><span class="varname"> image_id</span></span> est omise, le composant tente d’utiliser l’image d’affiche par défaut pour cette ressource à la place. </p> <p>Lorsque la vidéo est spécifiée comme chemin d’accès, l’ID de catalogue d’images d’affiche par défaut est dérivé du chemin d’accès de la vidéo en tant que paire <span class="codeph"> catalog_id/image_id</span> où <span class="codeph"> catalog_id</span> correspond au premier jeton du chemin et <span class="codeph"> image_id</span> est le nom de la vidéo dont l’extension a supprimée. Si l’image avec cet ID n’existe pas, l’image d’affiche n’est pas affichée. </p> <p>Pour empêcher l’affichage de l’image d’affiche par défaut, indiquez <span class="codeph"> none</span> comme valeur d’image d’affiche. Si seule la valeur <span class="codeph"><span class="varname"> isCommands</span></span> est spécifiée, les commandes sont appliquées à l’image d’affiche par défaut avant l’affichage de l’image. </p> </td> 
+     </ul> </p> <p>Si la valeur <span class="codeph"><span class="varname"> image_id</span></span> est omise, le composant tente d’utiliser l’image d’affiche par défaut pour cette ressource à la place. </p> <p>Lorsque la vidéo est spécifiée comme chemin d’accès, l’ID de catalogue des images d’affiche par défaut est dérivé du chemin d’accès de la vidéo en tant que paire <span class="codeph"> catalog_id/image_id</span> où <span class="codeph"> catalog_id</span> correspond au premier jeton du chemin. Et <span class="codeph"> image_id</span> est le nom de la vidéo dont l’extension a été supprimée. Si l’image avec cet ID n’existe pas, l’image d’affiche n’est pas affichée. </p> <p>Pour empêcher l’affichage de l’image d’affiche par défaut, indiquez <span class="codeph"> none</span> comme valeur d’image d’affiche. Si seules les commandes <span class="codeph"><span class="varname"> isCommands</span></span> sont spécifiées, les commandes sont appliquées à l’image d’affiche par défaut avant l’affichage de l’image. </p> </td> 
   </tr> 
  </tbody> 
 </table>
