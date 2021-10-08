@@ -1,14 +1,14 @@
 ---
+title: Video360Player.singleclick
 description: Attribut de configuration de la visionneuse Video360.
 solution: Experience Manager
-title: Video360Player.singleclick
-feature: Dynamic Media Classic,Visionneuses,SDK/API,vidéo 360 VR
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: dfb44ed5-5f4f-4a2c-a3b4-d49502556399
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 10%
+source-wordcount: '70'
+ht-degree: 11%
 
 ---
 
@@ -22,7 +22,7 @@ Attribut de configuration de la visionneuse Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|playPause</span> </p> </td> 
-   <td colname="col2"> <p> Configure le mappage d’un clic/d’un clic pour activer/désactiver la lecture/la pause. La définition de sur <span class="codeph"> none</span> désactive la fonction cliquer/appuyer une seule fois pour lancer la lecture/la pause. Si elle est définie sur <span class="codeph"> playPause</span>, un clic sur la vidéo fait basculer entre la lecture et la mise en pause de la vidéo. Sur certains périphériques, vous pouvez utiliser des contrôles natifs. Dans ce cas, un comportement <span class="codeph"> singleclick</span> est désactivé. </p> </td> 
+   <td colname="col2"> <p> Configure le mappage d’un clic/d’un clic pour activer/désactiver la lecture/la pause. La définition de sur <span class="codeph"> none</span> désactive la fonction cliquer/appuyer une seule fois pour lancer la lecture/la pause. Si elle est définie sur <span class="codeph"> playPause</span>, la sélection de la vidéo fait basculer entre la lecture et la mise en pause de la vidéo. Sur certains périphériques, vous pouvez utiliser des contrôles natifs. Dans ce cas, un comportement <span class="codeph"> singleclick</span> est désactivé. </p> </td> 
   </tr> 
  </tbody> 
 </table>

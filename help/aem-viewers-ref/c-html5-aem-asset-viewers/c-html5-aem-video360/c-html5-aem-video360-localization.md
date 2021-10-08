@@ -1,20 +1,20 @@
 ---
-description: Certains contenus affichés par la visionneuse peuvent être localisés. Cela inclut les info-bulles des éléments de l’interface utilisateur et un message d’erreur s’affiche lorsque la vidéo ne peut pas être lue.
-solution: Experience Manager
 title: Localisation des éléments de l’interface utilisateur
-feature: Dynamic Media Classic,Visionneuses,SDK/API,vidéo 360 VR
+description: Certains contenus affichés par la visionneuse peuvent être localisés. Ce contenu comprend des info-bulles d’éléments de l’interface utilisateur et un message d’erreur s’affiche lorsque la vidéo ne peut pas être lue.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: d54fd841-2246-4d2e-8bf9-7da56f2487f3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
 
 # Localisation des éléments de l’interface utilisateur{#localization-of-user-interface-elements}
 
-Certains contenus affichés par la visionneuse peuvent être localisés. Cela inclut les info-bulles des éléments de l’interface utilisateur et un message d’erreur s’affiche lorsque la vidéo ne peut pas être lue.
+Certains contenus affichés par la visionneuse peuvent être localisés. Ce contenu comprend des info-bulles d’éléments de l’interface utilisateur et un message d’erreur s’affiche lorsque la vidéo ne peut pas être lue.
 
 Chaque contenu textuel de la visionneuse qui peut être localisé est représenté par un identifiant spécial du SDK de la visionneuse appelé SYMBOL. Tout SYMBOL est associé par défaut à une valeur de texte pour le paramètre régional anglais ( `"en"`), fournie avec la visionneuse prête à l’emploi. Il peut également y avoir des valeurs définies par l’utilisateur définies pour autant de paramètres régionaux que nécessaire.
 

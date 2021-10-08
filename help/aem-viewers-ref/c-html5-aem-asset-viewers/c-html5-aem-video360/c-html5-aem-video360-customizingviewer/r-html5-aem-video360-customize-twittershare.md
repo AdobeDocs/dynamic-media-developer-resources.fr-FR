@@ -1,20 +1,20 @@
 ---
-description: L’outil de partage twitter se compose d’un bouton ajouté au panneau Partage sur les réseaux sociaux. Lorsque l’utilisateur clique sur le bouton, il est redirigé vers une boîte de dialogue de partage fournie par un service social. La position du bouton est entièrement gérée par l’outil Partage sur les réseaux sociaux .
-solution: Experience Manager
 title: Partage twitter
-feature: Dynamic Media Classic,Visionneuses,SDK/API,vidéo 360 VR
+description: L’outil de partage twitter se compose d’un bouton ajouté au panneau Partage sur les réseaux sociaux. Lorsque le bouton est sélectionné, l’utilisateur est redirigé vers une boîte de dialogue de partage fournie par un service social. La position du bouton est entièrement gérée par l’outil Partage sur les réseaux sociaux .
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: a90a4c82-b51a-4fb0-9196-44ae4ba8e0cd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
 
 # Partage twitter{#twitter-share}
 
-L’outil de partage twitter se compose d’un bouton ajouté au panneau Partage sur les réseaux sociaux. Lorsque l’utilisateur clique sur le bouton, il est redirigé vers une boîte de dialogue de partage fournie par un service social. La position du bouton est entièrement gérée par l’outil Partage sur les réseaux sociaux .
+L’outil de partage twitter se compose d’un bouton ajouté au panneau Partage sur les réseaux sociaux. Lorsque le bouton est sélectionné, l’utilisateur est redirigé vers une boîte de dialogue de partage fournie par un service social. La position du bouton est entièrement gérée par l’outil Partage sur les réseaux sociaux .
 
 <!--<a id="section_ADDF98E91AF24F618289D1682A5FB13A"></a>-->
 

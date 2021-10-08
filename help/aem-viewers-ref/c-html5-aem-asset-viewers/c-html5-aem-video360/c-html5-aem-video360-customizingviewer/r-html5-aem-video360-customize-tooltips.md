@@ -1,13 +1,13 @@
 ---
+title: Infobulles
 description: Sur les systèmes de bureau, certains éléments de l’interface utilisateur, tels que les boutons, comportent des info-bulles qui s’affichent lorsque vous pointez dessus.
 solution: Experience Manager
-title: Infobulles
-feature: Dynamic Media Classic,Visionneuses,SDK/API,vidéo 360 VR
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 051bfbed-103e-4fcf-9f01-93f03730397a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '138'
 ht-degree: 2%
 
 ---
@@ -63,9 +63,9 @@ L’aspect des info-bulles est contrôlé à l’aide du sélecteur de classe CS
 
 >[!NOTE]
 >
->Si les styles d’info-bulle sont personnalisés dans la page web d’intégration, toutes les propriétés doivent contenir la règle `!IMPORTANT`. Cela n’est pas nécessaire si les info-bulles sont personnalisées dans le fichier CSS de la visionneuse.
+>Si les styles d’info-bulle sont personnalisés dans la page web d’intégration, toutes les propriétés doivent contenir la règle `!IMPORTANT`. Cette règle n’est pas nécessaire si les info-bulles sont personnalisées dans le fichier CSS de la visionneuse.
 
-Exemple : pour configurer des info-bulles avec une bordure grise avec un rayon d’angle de trois pixels, un arrière-plan noir et un texte blanc en Arial, 11 pixels :
+Exemple : pour configurer des info-bulles avec une bordure grise avec un rayon d’angle de trois pixels, un arrière-plan noir et un texte blanc en Arial®, 11 pixels :
 
 ```
 .s7tooltip { 

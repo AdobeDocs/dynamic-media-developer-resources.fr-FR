@@ -1,13 +1,13 @@
 ---
+title: Référence de l’API JavaScript pour la visionneuse Video360
 description: La classe principale de la visionneuse Video360Viewer est Video360Viewer. Il est déclaré dans l’espace de noms s7viewers. Cette API JavaScript couvre le constructeur, les méthodes et les rappels de cette classe particulière.
 solution: Experience Manager
-title: Référence de l’API JavaScript pour la visionneuse Video360
-feature: Dynamic Media Classic,Visionneuses,SDK/API,vidéo 360 VR
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: b4feada6-c12a-4c44-b560-286f87d88d2c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---

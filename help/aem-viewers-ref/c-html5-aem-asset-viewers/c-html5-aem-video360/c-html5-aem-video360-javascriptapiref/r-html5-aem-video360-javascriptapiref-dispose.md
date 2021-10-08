@@ -1,13 +1,13 @@
 ---
+title: dispose
 description: Référence de l’API JavaScript pour la visionneuse Video360.
 solution: Experience Manager
-title: dispose
-feature: Dynamic Media Classic,Visionneuses,SDK/API,vidéo 360 VR
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 4e6ad465-36df-49e2-8c9e-722e8aa9063e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '124'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ Dispose cette instance de visionneuse en libérant toutes les ressources utilis�
 
 Le code de page web doit également supprimer la variable d’instance de la visionneuse pour supprimer complètement la visionneuse de la mémoire du navigateur web.
 
-Si le code de page web a enregistré des écouteurs d’événement directement sur les composants du SDK de la visionneuse utilisés par la visionneuse ou les références externes stockées à ces écouteurs de composants, ces derniers doivent être désenregistrés explicitement par le code de page web, et ces références de composants externes doivent être supprimées avant d’appeler `dispose()`.
+Si le code de page web a enregistré des écouteurs d’événement directement sur les composants du SDK de la visionneuse utilisés par la visionneuse - ou si des références externes stockées à ces composants - ces écouteurs doivent être désenregistrés explicitement par le code de page web. De plus, ces références de composants externes doivent être supprimées avant d’appeler `dispose()`.
 
 N’accédez plus à l’API de visionneuse après l’appel de `dispose()`.
 

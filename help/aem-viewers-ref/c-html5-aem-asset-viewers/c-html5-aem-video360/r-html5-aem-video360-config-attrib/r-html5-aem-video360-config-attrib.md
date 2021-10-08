@@ -1,13 +1,13 @@
 ---
+title: Référence de commande - Attributs de configuration
 description: Documentation sur les attributs de configuration pour la visionneuse Video360.
 solution: Experience Manager
-title: Référence de commande - Attributs de configuration
-feature: Dynamic Media Classic,Visionneuses,SDK/API,vidéo 360 VR
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 75a9e83a-2f6e-4bfa-8881-52f8fe06f2fd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Certaines commandes de configuration peuvent comporter le préfixe du nom de cla
 
 `[VideoPlayer.|<containerId>_videoPlayer].playback`
 
-Cela signifie que vous pouvez utiliser cette commande comme suit :
+Cela signifie que vous pouvez utiliser cette commande dans les cas suivants :
 
 * `playback` (syntaxe courte)
 * `VideoPlayer.playback` (qualifié avec le nom de classe du composant)

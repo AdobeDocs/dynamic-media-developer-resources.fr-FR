@@ -1,13 +1,13 @@
 ---
+title: Prise en charge des technologies d’assistance
 description: Tous les composants de visionneuse prennent en charge les rôles et attributs ARIA (Accessible Rich Internet Applications) pour améliorer l’intégration aux technologies d’assistance telles que les lecteurs d’écran.
 solution: Experience Manager
-title: Prise en charge des technologies d’assistance
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéo 360 VR,Accessibilité
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video,Accessibility
 role: Developer,User
 exl-id: 0d6bc444-a4c2-47e4-b408-a6df85ebff72
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '177'
 ht-degree: 0%
 
 ---

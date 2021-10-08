@@ -1,13 +1,13 @@
 ---
+title: Effet Icône
 description: L’icône de lecture est superposée sur la zone d’affichage principale. Il s’affiche lorsque la vidéo est mise en pause ou lorsque la fin de la vidéo est atteinte, et dépend également du paramètre d’effet iconique .
 solution: Experience Manager
-title: Effet Icône
-feature: Dynamic Media Classic,Visionneuses,SDK/API,vidéo 360 VR
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: e25a3b9d-88ef-4214-9b6b-2527ebf0f145
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '169'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ L’aspect de l’icône de lecture est contrôlé à l’aide du sélecteur de 
  </tbody> 
 </table>
 
-L’effet Icône prend en charge le sélecteur d’attributs `state`. `state="play"` est utilisée lorsque la vidéo est mise en pause au milieu de la lecture et  `state="replay"` est utilisée lorsque la tête de lecture se trouve à la fin de la diffusion.
+L’effet Icône prend en charge le sélecteur d’attributs `state`. Le sélecteur d’attributs `state="play"` est utilisé lorsque la vidéo est mise en pause au milieu de la lecture et `state="replay"` est utilisé lorsque la tête de lecture se trouve à la fin de la diffusion.
 
 **Exemple**  : configurez une icône de lecture de 100 x 100 pixels.
 

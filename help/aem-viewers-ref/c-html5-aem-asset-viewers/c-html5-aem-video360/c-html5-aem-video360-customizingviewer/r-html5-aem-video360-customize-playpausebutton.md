@@ -1,13 +1,13 @@
 ---
+title: Bouton Lecture/Pause
 description: Le bouton de lecture/pause entraîne le lecteur vidéo à lire ou à suspendre le contenu vidéo lorsqu’un utilisateur clique dessus.
 solution: Experience Manager
-title: Bouton Lecture/Pause
-feature: Dynamic Media Classic,Visionneuses,SDK/API,vidéo 360 VR
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 5f8741a4-d286-4b2d-8a11-23bce119209a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '264'
 ht-degree: 2%
 
 ---
@@ -69,11 +69,11 @@ Le sélecteur de classe CSS suivant contrôle l’aspect du bouton :
 >
 >Ce bouton prend en charge les sélecteurs d’attributs `state`, `selected` et `replay`, qui peuvent être utilisés pour appliquer différents habillages à différents états de bouton. `selected='true'` correspond en particulier à l’état &quot;play&quot; et `selected='false'` à l’état &quot;pause&quot; ;
 >
->`replay='true'` est défini lorsque la vidéo a atteint la fin et que le fait de cliquer sur le bouton redémarre la lecture à partir du début.
+>Le sélecteur d’attributs `replay='true'` est défini lorsque la vidéo a atteint la fin et que la sélection du bouton redémarre la lecture à partir du début.
 
 L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) pour plus d’informations.
 
-**Exemple**  : pour configurer un bouton de lecture/pause de 32 x 32 pixels ; il est positionné à six pixels du bord supérieur et gauche de la barre de contrôle et affiche une image différente pour chacun des quatre états de bouton différents lorsqu’il est sélectionné ou non.
+**Exemple**  : pour configurer un bouton de lecture/pause de 32 x 32 pixels. Faites en sorte qu’il soit positionné à six pixels du bord supérieur et gauche de la barre de contrôle. Enfin, affiche une image différente pour chacun des quatre états de bouton différents lorsqu’il est sélectionné ou non.
 
 ```
 .s7video360viewer .s7playpausebutton { 

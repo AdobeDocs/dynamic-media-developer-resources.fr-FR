@@ -1,20 +1,20 @@
 ---
-description: La zone d'affichage principale est la zone occupée par la vidéo 360. Il est généralement défini pour s’adapter à l’écran de l’appareil disponible lorsqu’aucune taille n’est spécifiée.
-solution: Experience Manager
 title: Zone de visionneuse principale
-feature: Dynamic Media Classic,Visionneuses,SDK/API,vidéo 360 VR
+description: La zone d'affichage principale est la zone occupée par la vidéo 360. Il est défini pour s’adapter à l’écran de l’appareil disponible lorsqu’aucune taille n’est spécifiée.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 912cb4b3-6409-48ed-9b9c-968b63718a1b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '114'
 ht-degree: 3%
 
 ---
 
 # Zone de visionneuse principale{#main-viewer-area}
 
-La zone d&#39;affichage principale est la zone occupée par la vidéo 360. Il est généralement défini pour s’adapter à l’écran de l’appareil disponible lorsqu’aucune taille n’est spécifiée.
+La zone d&#39;affichage principale est la zone occupée par la vidéo 360. Il est défini pour s’adapter à l’écran de l’appareil disponible lorsqu’aucune taille n’est spécifiée.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 

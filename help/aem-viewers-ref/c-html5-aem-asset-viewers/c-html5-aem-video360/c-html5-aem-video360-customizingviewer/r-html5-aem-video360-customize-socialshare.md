@@ -1,13 +1,13 @@
 ---
+title: Partage sur les réseaux sociaux
 description: Par défaut, l’outil de partage sur les réseaux sociaux s’affiche dans le coin supérieur droit. Il se compose d’un bouton et d’un panneau qui se développe lorsque l’utilisateur clique ou appuie sur un bouton et qui contient des outils de partage individuels.
 solution: Experience Manager
-title: Partage sur les réseaux sociaux
-feature: Dynamic Media Classic,Visionneuses,SDK/API,vidéo 360 VR
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 4bc951ae-2b9a-4cbe-9288-170c576b3b7b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '317'
 ht-degree: 1%
 
 ---
@@ -85,7 +85,7 @@ L’aspect du bouton de l’outil de partage sur les réseaux sociaux est contr�
 
 L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Exemple**  : pour configurer un bouton de l’outil de partage sur les réseaux sociaux qui affiche une image différente pour chacun des quatre états de bouton différents.
+**Example** - To set up a social sharing tool button that displays a different image for each of the four different button states.
 
 ```
 .s7video360viewer .s7socialshare .s7socialbutton[state='up'] { 

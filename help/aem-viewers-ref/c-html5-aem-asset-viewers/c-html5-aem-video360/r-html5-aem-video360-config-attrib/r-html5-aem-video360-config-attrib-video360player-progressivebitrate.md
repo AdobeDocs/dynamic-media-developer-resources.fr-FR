@@ -1,14 +1,14 @@
 ---
+title: Video360Player.progressivebitrate
 description: Attribut de configuration de la visionneuse Video360.
 solution: Experience Manager
-title: Video360Player.progressivebitrate
-feature: Dynamic Media Classic,Visionneuses,SDK/API,vidéo 360 VR
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: a253ef01-19ae-4de4-a4fc-b10b28e72c00
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 7%
+source-wordcount: '96'
+ht-degree: 8%
 
 ---
 
@@ -22,7 +22,7 @@ Attribut de configuration de la visionneuse Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> value</span> </p> </td> 
-   <td colname="col2"> <p> Indique, en Kbits/s (ou Kbits/s), le débit vidéo souhaité à lire à partir d’une visionneuse de vidéos adaptative au cas où le système actuel ne prendrait pas en charge la lecture de vidéos adaptatives. </p> <p>Le composant récupère le flux vidéo avec le débit le plus proche possible (mais ne dépassant pas) par rapport à la valeur spécifiée. Si tous les flux vidéo de la visionneuse de vidéos adaptative ont une qualité supérieure à la valeur spécifiée, la logique choisit le débit avec la qualité la plus faible. </p> </td> 
+   <td colname="col2"> <p> Indique, en kilobits par seconde (ou Kbits/s), le débit vidéo souhaité à lire à partir d’une visionneuse de vidéos adaptative, au cas où le système actuel ne prendrait pas en charge la lecture de vidéos adaptatives. </p> <p>Le composant récupère le flux vidéo avec le débit le plus proche possible (mais ne dépassant pas) par rapport à la valeur spécifiée. Si tous les flux vidéo de la visionneuse de vidéos adaptative ont une qualité supérieure à la valeur spécifiée, la logique choisit le débit avec la qualité la plus faible. </p> </td> 
   </tr> 
  </tbody> 
 </table>

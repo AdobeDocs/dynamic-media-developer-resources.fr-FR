@@ -1,13 +1,13 @@
 ---
+title: getComponent
 description: Référence de l’API JavaScript pour la visionneuse Video360.
 solution: Experience Manager
-title: getComponent
-feature: Dynamic Media Classic,Visionneuses,SDK/API,vidéo 360 VR
+feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: bc5f0046-8e20-4ff0-a90f-05c38f686ad2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '209'
 ht-degree: 1%
 
 ---
@@ -97,11 +97,11 @@ Renvoie une référence au composant SDK de la visionneuse utilisé par la visio
 
 Lorsque vous utilisez des API SDK, il est important d’utiliser un espace de noms SDK complet correct, comme décrit dans [Espace de noms du SDK de la visionneuse](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-viewer-sdk-namespace.md#concept-4ee8657c7d67421f8e7880130a246621).
 
-Pour plus d’informations sur un composant particulier, consultez la documentation *API du kit de développement de visionneuse HTML5* .
+Pour plus d’informations sur un composant particulier, consultez la documentation *API du SDK de la visionneuse HTML5* .
 
 ## Renvoie {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` Référence au composant SDK de visionneuse. La méthode renvoie `null` si `componentId` n’est pas un composant de visionneuse pris en charge ou si le composant n’a pas encore été créé par la logique de la visionneuse.
+`{Object}` est une référence au composant SDK de visionneuse. La méthode renvoie `null` si `componentId` n’est pas un composant de visionneuse pris en charge ou si le composant n’a pas encore été créé par la logique de la visionneuse.
 
 ## Exemple {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
