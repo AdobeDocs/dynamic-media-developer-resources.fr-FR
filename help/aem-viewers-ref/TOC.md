@@ -3,9 +3,9 @@ cloud: Experience Cloud
 user-guide-title: Guide de référence des visionneuses Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: Personnalisez les visionneuses Dynamic Media pour les appareils de bureau et tactiles. Incluez des images et des vidéos interactives, des carrousels, des visionneuses à 360°, etc.
-source-git-commit: 06ea55bebbb16de643fec96147ec2b648bb5783b
+source-git-commit: b061c9f742b32ba48e6970a029e228afd7e36554
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '1928'
 ht-degree: 6%
 
 ---
@@ -478,7 +478,7 @@ ht-degree: 6%
          + [setParam](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-setparam.md)
          + [setParams](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-javascriptapiref/r-html5-mixedmedia-javascriptapiref-setparams.md)
       + [Rappels d’événement](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-event-callbacks.md)
-      + Personnalisation de la visionneuse de médias mixtes {#customing-mixed-media}
+      + Personnalisation de la visionneuse de supports variés {#customing-mixed-media}
          + [Personnalisation de la visionneuse de supports variés](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md)
          + [Bouton Légende](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-captionbutton.md)
          + [Bouton Fermer](c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/r-html5-mixedmedia-viewer-customize-closebutton.md)
@@ -820,7 +820,7 @@ ht-degree: 6%
          + [interactivedata](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-cmdref-url/r-html5-aem-int-video-cmdref-url-interactivedata.md)
          + [navigation](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-cmdref-url/r-html5-aem-int-video-cmdref-url-navigation.md)
          + [videoServerUrl](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-cmdref-url/r-html5-aem-int-video-cmdref-url-videoserverurl.md)
-      + Référence de l’API JavaScript pour la vidéo interactive {#jsapi-interactive-video}
+      + Référence de l’API JavaScript pour la visionneuse de vidéos interactive {#jsapi-interactive-video}
          + [Référence de l’API JavaScript pour la visionneuse de vidéos interactive](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/c-html5-aem-int-video-javascriptapiref.md)
          + [dispose](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-dispose.md)
          + [getComponent](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-getcomponent.md)
@@ -834,7 +834,7 @@ ht-degree: 6%
          + [setParams](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-setparams.md)
       + [Rappels d’événement](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-event-callbacks.md)
       + Personnalisation de la visionneuse de vidéos interactives {#customizing-interactive-video}
-         + [Personnalisation de la visionneuse de vidéo interactive](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md)
+         + [Personnalisation de la visionneuse de vidéos interactives](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md)
          + [Appel à l&#39;action](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-calltoaction.md)
          + [Bouton Légende](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-captionbutton.md)
          + [Barre de contrôle](c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/r-html5-aem-int-video-customize-controlbar.md)
