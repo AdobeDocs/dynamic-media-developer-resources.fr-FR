@@ -1,20 +1,20 @@
 ---
-description: Sur les systèmes de bureau, certains éléments de l’interface utilisateur, tels que les boutons, comportent des infobulles qui s’affichent lorsque vous pointez dessus.
-solution: Experience Manager
 title: Infobulles
+description: Sur les systèmes de bureau, certains éléments de l’interface utilisateur tels que les boutons comportent des infobulles qui s’affichent lorsque vous pointez dessus.
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 706b27a1-99e8-4596-8bd1-af4455501e29
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '137'
 ht-degree: 2%
 
 ---
 
 # Infobulles{#tooltips}
 
-Sur les systèmes de bureau, certains éléments de l’interface utilisateur, tels que les boutons, comportent des infobulles qui s’affichent lorsque vous pointez dessus.
+Sur les systèmes de bureau, certains éléments de l’interface utilisateur tels que les boutons comportent des infobulles qui s’affichent lorsque vous pointez dessus.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -63,9 +63,9 @@ L’aspect des info-bulles est contrôlé à l’aide du sélecteur de classe CS
 
 >[!NOTE]
 >
->Si les styles d’info-bulle sont personnalisés dans la page web d’intégration, toutes les propriétés doivent contenir `!IMPORTANT` règle. Cela n’est pas nécessaire si les info-bulles sont personnalisées dans le fichier CSS de la visionneuse.
+>Si les styles d’info-bulle sont personnalisés à partir de la page web d’intégration, toutes les propriétés doivent contenir une `!IMPORTANT` règle. Cette règle n’est pas nécessaire si des info-bulles sont personnalisées dans le fichier CSS de la visionneuse.
 
-Exemple : pour configurer des info-bulles avec une bordure grise avec un rayon d’angle 3px, un arrière-plan noir et un texte blanc écrits en Arial, d’une taille de 11 pixels :
+Exemple : pour configurer des info-bulles avec une bordure grise avec un rayon d’angle de 3 pixels, un arrière-plan noir et un texte blanc écrits en Arial® d’une taille de 11 pixels :
 
 ```
 .s7tooltip { 

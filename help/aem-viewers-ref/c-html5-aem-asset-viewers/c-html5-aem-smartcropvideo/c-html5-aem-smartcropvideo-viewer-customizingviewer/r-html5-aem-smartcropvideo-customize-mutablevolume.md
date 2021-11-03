@@ -1,11 +1,11 @@
 ---
+title: Volume en sourdine
 description: La commande de volume modifiable s’affiche initialement sous la forme d’un bouton qui permet à l’utilisateur de mettre en sourdine le son du lecteur vidéo de recadrage intelligent.
 solution: Experience Manager
-title: Volume en sourdine
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: bd86af60-a9a0-4f2e-9d36-f7ee22bd8c8e
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 2%

@@ -1,13 +1,13 @@
 ---
+title: Diffusion vidéo HTTP
 description: Diffusion vidéo HTTP
 solution: Experience Manager
-title: Diffusion vidéo HTTP
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 33907e22-107b-4345-82bb-cad47cb7a839
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 >
 >Secure Video Delivery only applies to AEM 6.2 with the installation of [Feature Pack-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480) and to AEM 6.1 with installation of [Feature Pack NPR-15011](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/cq-6.1.0-featurepack-15011). -->
 
-Si la visionneuse fonctionne comme indiqué au début de cette section, la diffusion vidéo publiée peut avoir lieu en mode HTTPS (sécurisé) et HTTP (non sécurisé). Dans une configuration par défaut, le protocole de diffusion vidéo suit strictement le protocole de diffusion de la page web d’intégration. Cependant, il est possible de forcer la diffusion de vidéos HTTPS sans tenir compte du protocole utilisé par l’incorporation de la page web à l’aide de la variable [SmartCropVideoPlayer.ssl](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-ssl.md#reference-df0a29aa8a584cebaaa1c7bb6fab362e) attribut configuration . (Notez que l’aperçu vidéo en mode création est toujours diffusé en toute sécurité via HTTPS.)
+Si la visionneuse fonctionne en configuration comme indiqué au début de cette section, la diffusion vidéo publiée peut avoir lieu en mode HTTPS (sécurisé) et HTTP (non sécurisé). Dans une configuration par défaut, le protocole de diffusion vidéo suit strictement le protocole de diffusion de la page web d’intégration. Cependant, il est possible de forcer la diffusion de vidéos HTTPS sans tenir compte du protocole utilisé par l’incorporation de la page web à l’aide de la variable [SmartCropVideoPlayer.ssl](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-ssl.md#reference-df0a29aa8a584cebaaa1c7bb6fab362e) attribut configuration . (L’aperçu vidéo en mode création est toujours diffusé en toute sécurité via HTTPS.)
 
-Selon la méthode de publication de vidéo Dynamic Media que vous utilisez dans AEM, la variable `SmartCropVideoPlayer.ssl` l’attribut configuration est appliqué différemment, comme illustré dans les exemples suivants :
+Selon la méthode de publication de vidéo Dynamic Media que vous utilisez dans Adobe Experience Manager, la variable `SmartCropVideoPlayer.ssl` l’attribut configuration est appliqué différemment, comme illustré dans les exemples suivants :
 
 * Si vous publiez une vidéo Dynamic Media avec une URL, vous ajoutez `SmartCropVideoPlayer.ssl` à l’URL. Par exemple, pour forcer la diffusion vidéo sécurisée, vous ajoutez `&SmartCropVideoPlayer.ssl=on` à la fin de l’exemple d’URL de visionneuse suivant :
 

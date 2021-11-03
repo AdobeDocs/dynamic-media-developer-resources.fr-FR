@@ -1,14 +1,14 @@
 ---
+title: dispose
 description: Référence de l’API JavaScript pour la visionneuse de vidéos avec recadrage intelligent.
 solution: Experience Manager
-title: dispose
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: c4bcccdc-6f23-4213-a1d1-03c5c62ba484
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Dispose cette instance de visionneuse en libérant toutes les ressources utilis�
 
 Le code de page web doit également supprimer la variable d’instance de la visionneuse pour supprimer complètement la visionneuse de la mémoire du navigateur web.
 
-Si le code de page web a enregistré des écouteurs d’événement directement sur les composants du SDK de la visionneuse utilisés par la visionneuse ou les références externes stockées à ces composants, ces écouteurs doivent être désenregistrés explicitement par le code de page web, et ces références de composant externe doivent être supprimées avant d’appeler `dispose()`.
+Si le code de page web a enregistré des écouteurs d’événement directement sur les composants du SDK de la visionneuse utilisés par la visionneuse - ou si des références externes stockées à ces composants - ces écouteurs doivent être désenregistrés explicitement par le code de page web. De plus, ces références de composants externes doivent être supprimées avant d’appeler `dispose()`.
 
 Ne plus accéder à l’API de visionneuse après `dispose()` est appelée.
 

@@ -1,14 +1,14 @@
 ---
+title: Personnalisation de la visionneuse de vidéos avec recadrage intelligent
 description: Personnalisation de la visionneuse de vidéos avec recadrage intelligent
 keywords: responsive
 solution: Experience Manager
-title: Personnalisation de la visionneuse de vidéos avec recadrage intelligent
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 90dc93ee-fdd0-41c9-9eef-4c9952198356
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Le fichier CSS personnalisé doit contenir les mêmes déclarations de classe qu
 
 Une autre manière de fournir des règles CSS personnalisées consiste à utiliser des styles incorporés directement sur la page web ou dans l’une des règles CSS externes liées.
 
-Lorsque vous créez une page CSS personnalisée, souvenez-vous que la visionneuse affecte `.s7smartcropvideoviewer` à son élément DOM de conteneur. Si vous utilisez un fichier CSS externe qui est transmis avec la variable `style=` commande, utiliser `.s7smartcropvideoviewer` classe en tant que classe parente dans le sélecteur descendant pour vos règles CSS. Si vous incorporez des styles à la page web, qualifiez en outre ce sélecteur avec un identifiant de l’élément DOM du conteneur comme suit :
+Lorsque vous créez une page CSS personnalisée, n’oubliez pas que la visionneuse affecte `.s7smartcropvideoviewer` à son élément DOM de conteneur. Si vous utilisez un fichier CSS externe qui est transmis avec la variable `style=` commande, utiliser `.s7smartcropvideoviewer` classe en tant que classe parente dans le sélecteur descendant pour vos règles CSS. Si vous incorporez des styles à la page web, qualifiez également ce sélecteur avec un identifiant de l’élément DOM du conteneur comme suit :
 
 `#<containerId>.s7smartcropvideoviewer`
 
@@ -35,17 +35,17 @@ Lorsque vous créez une page CSS personnalisée, souvenez-vous que la visionneus
 
 Il est possible de cibler différents appareils dans CSS pour que votre contenu s’affiche différemment selon l’appareil d’un utilisateur. Ce ciblage comprend, sans s’y limiter, différentes tailles d’éléments de l’interface utilisateur et une résolution d’illustration.
 
-La visionneuse prend en charge deux mécanismes de création d’une page CSS réactive : Marqueurs CSS et requêtes multimédias CSS standard. Vous pouvez les utiliser indépendamment ou ensemble.
+La visionneuse prend en charge deux mécanismes de création d’une page CSS réactive : Marqueurs CSS et requêtes multimédias CSS standard. Vous pouvez utiliser ces deux mécanismes séparément ou ensemble.
 
 **Marqueurs CSS**
 
-Pour faciliter la création de CSS responsive design, la visionneuse prend en charge les marqueurs CSS qui sont des classes CSS spéciales dynamiquement affectées à l’élément de conteneur de la visionneuse de niveau supérieur en fonction de la taille de la visionneuse d’exécution et du type d’entrée utilisé sur l’appareil actuel.
+Pour faciliter la création de CSS responsive design, la visionneuse prend en charge les marqueurs CSS qui sont des classes CSS spéciales dynamiquement affectées à l’élément de conteneur de la visionneuse de niveau supérieur. Cette affectation est basée sur la taille de la visionneuse au moment de l’exécution et le type d’entrée utilisé sur l’appareil actuel.
 
-Le premier groupe de marqueurs CSS comprend `.s7size_large`, `.s7size_medium`, et `.s7size_small` classes. Elles sont appliquées en fonction de la zone d’exécution du conteneur de la visionneuse. En d’autres termes, si la zone de visionneuse est égale ou supérieure à la taille d’un écran de bureau commun `.s7size_large` est utilisé ; si la zone est proche de la taille d’un tablette commun ; `.s7size_medium` est affectée. Pour les zones similaires aux écrans de téléphone mobile `.s7size_small` est définie. L’objectif Principal de ces marqueurs CSS est de créer différentes mises en page d’interface utilisateur pour différents écrans et tailles de visionneuse.
+Le premier groupe de marqueurs CSS comprend `.s7size_large`, `.s7size_medium`, et `.s7size_small` classes. Elles sont appliquées en fonction de la zone d’exécution du conteneur de la visionneuse. En d’autres termes, si la zone de visionneuse est égale ou supérieure à la taille d’un écran de bureau commun `.s7size_large` est utilisé ; si la zone est proche de la taille d’un tablette commun ; `.s7size_medium` est affectée. Pour les zones similaires aux écrans de téléphone mobile, `.s7size_small` est définie. L’objectif Principal de ces marqueurs CSS est de créer différentes mises en page d’interface utilisateur pour différents écrans et tailles de visionneuse.
 
-Le deuxième groupe de marqueurs CSS comprend `.s7mouseinput` et `.s7touchinput`. `.s7touchinput` est défini si l’appareil actuel dispose de fonctionnalités d’entrée tactile ; sinon, `.s7mouseinput` est utilisée. Ces marqueurs sont destinés à créer des éléments d’entrée de l’interface utilisateur avec des tailles d’écran différentes pour différents types d’entrée, car la saisie tactile nécessite normalement des éléments plus volumineux. Si l’appareil dispose de fonctionnalités d’entrée de souris et de tactile, `.s7touchinput` est définie et la visionneuse effectue le rendu d’une interface utilisateur tactile.
+Le deuxième groupe de marqueurs CSS comprend `.s7mouseinput` et `.s7touchinput`. Le marqueur `.s7touchinput` est défini si l’appareil actuel dispose de fonctionnalités d’entrée tactile ; sinon, `.s7mouseinput` est utilisée. Ces marqueurs sont destinés à créer des éléments d’entrée de l’interface utilisateur avec des tailles d’écran différentes pour différents types d’entrée, car la saisie tactile nécessite normalement des éléments plus volumineux. Si l’appareil dispose de fonctionnalités d’entrée de souris et de tactile, `.s7touchinput` est définie et la visionneuse effectue le rendu d’une interface utilisateur tactile.
 
-L’exemple de page CSS suivant définit la taille du bouton de lecture/pause sur 28 x 28 pixels sur les systèmes avec entrée de la souris et 56 x 56 pixels sur les appareils tactiles. En outre, il masque complètement le bouton si la taille de la visionneuse devient vraiment réduite :
+L’exemple de page CSS suivant définit la taille du bouton de lecture/pause sur 28 x 28 pixels sur les systèmes avec entrée de la souris et 56 x 56 pixels sur les appareils tactiles. En outre, il masque complètement le bouton si la taille de la visionneuse devient petite :
 
 ```
 .s7smartcropvideoviewer.s7mouseinput .s7playpausebutton { 
@@ -61,7 +61,7 @@ L’exemple de page CSS suivant définit la taille du bouton de lecture/pause su
 }
 ```
 
-Pour cibler des appareils avec une densité de pixels différente, utilisez des requêtes multimédias CSS. Le bloc de requête multimédia suivant contiendrait une feuille CSS spécifique aux écrans à haute densité :
+Pour cibler des appareils avec une densité de pixels différente, utilisez des requêtes multimédias CSS. Le bloc de requête multimédia suivant contient une feuille CSS spécifique aux écrans à haute densité :
 
 ```
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) 
@@ -69,7 +69,7 @@ Pour cibler des appareils avec une densité de pixels différente, utilisez des 
 }
 ```
 
-L’utilisation de marqueurs CSS est la méthode la plus souple pour créer des CSS réactives, car elle vous permet de cibler non seulement la taille de l’écran de l’appareil, mais aussi la taille réelle de la visionneuse, ce qui peut s’avérer utile pour les mises en page de conception réactive.
+L’utilisation de marqueurs CSS est la méthode la plus souple pour créer des CSS réactives. Cette flexibilité vous permet de cibler non seulement la taille de l’écran de l’appareil, mais aussi la taille réelle de la visionneuse, ce qui peut s’avérer utile pour les mises en page en responsive design.
 
 Utilisez le fichier CSS de visionneuse par défaut comme exemple d’approche des marqueurs CSS.
 
@@ -124,7 +124,7 @@ Il n’est pas nécessaire de dupliquer l’intégralité du CSS de la visionneu
 
 ## Sprites CSS {#section-9b6d8d601cb441d08214dada7bb4eddc}
 
-De nombreux éléments de l’interface utilisateur de la visionneuse sont stylisés à l’aide d’illustrations bitmap et possèdent plusieurs états visuels distincts. Un bon exemple est un bouton qui comporte normalement au moins 3 états différents : &quot;vers le haut&quot;, &quot;vers le bas&quot; et &quot;vers le bas&quot;. Chaque état nécessite l’attribution de sa propre illustration bitmap.
+De nombreux éléments de l’interface utilisateur de la visionneuse sont stylisés à l’aide d’illustrations bitmap et possèdent plusieurs états visuels distincts. Un bon exemple est un bouton qui comporte normalement au moins trois états différents : &quot;vers le haut&quot;, &quot;vers le bas&quot; et &quot;vers le bas&quot;. Chaque état nécessite l’attribution de sa propre illustration bitmap.
 
 Avec une approche classique de la mise en forme, le CSS dispose d’une référence distincte au fichier image individuel sur le serveur pour chaque état de l’élément d’interface utilisateur. Voici un exemple de page CSS pour la mise en forme d’un bouton plein écran :
 
@@ -203,7 +203,7 @@ background-position: -0px -1120px;
 
 ## Notes et conseils généraux sur le style {#section-097418bd618740bba36352629e4d88e1}
 
-* Tous les chemins d’accès aux ressources externes dans CSS sont résolus par rapport à l’emplacement CSS et non à l’emplacement de la page de HTML de la visionneuse. N’oubliez pas de prendre en compte cette règle lorsque vous copiez le CSS par défaut vers un autre emplacement. Copiez les ressources par défaut ou mettez à jour les chemins dans le fichier CSS personnalisé.
+* Tous les chemins d’accès aux ressources externes dans CSS sont résolus par rapport à l’emplacement CSS et non à l’emplacement de la page de HTML de la visionneuse. Souvenez-vous de cette règle lorsque vous copiez le CSS par défaut vers un autre emplacement. Copiez les ressources par défaut ou mettez à jour les chemins dans le fichier CSS personnalisé.
 * Le format préféré des illustrations bitmap est PNG.
 * Les illustrations bitmap sont affectées aux éléments de l’interface utilisateur à l’aide de la fonction `background-image` .
 * Le `width` et `height` les propriétés d’un élément d’interface utilisateur définissent sa taille logique. Taille de l’image bitmap transmise à `background-image` n’affecte pas la taille logique.

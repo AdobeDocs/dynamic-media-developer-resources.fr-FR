@@ -1,11 +1,11 @@
 ---
+title: SmartCropVideoPlayer.mutevolume
 description: Attribut de configuration de la visionneuse de vidéos avec recadrage intelligent.
 solution: Experience Manager
-title: SmartCropVideoPlayer.mutevolume
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 8f644a40-7fd9-4edd-be29-698635b46507
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 8%
@@ -22,7 +22,7 @@ Attribut de configuration de la visionneuse de vidéos avec recadrage intelligen
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Définit le mode silencieux pour la lecture vidéo au chargement initial. Si la variable est définie sur <span class="codeph"> 1 </span> le volume est coupé; sinon, la vidéo est lue avec le son. Sur certains appareils, le fait de désactiver la lecture vidéo au chargement permet également la lecture automatique de la vidéo. </p> </td> 
+   <td colname="col2"> <p> Définit le mode silencieux pour la lecture vidéo au chargement initial. Si la variable est définie sur <span class="codeph"> 1 </span> le volume est coupé; sinon, la vidéo est lue avec le son. Sur certains appareils, la mise en mode muet de la lecture vidéo au chargement permet également à la vidéo d’être lue automatiquement. </p> </td> 
   </tr> 
  </tbody> 
 </table>

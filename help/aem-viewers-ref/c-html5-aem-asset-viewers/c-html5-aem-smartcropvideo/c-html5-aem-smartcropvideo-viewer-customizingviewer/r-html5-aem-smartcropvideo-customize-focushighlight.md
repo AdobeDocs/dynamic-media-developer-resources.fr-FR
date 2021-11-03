@@ -1,11 +1,11 @@
 ---
+title: Mise en évidence de la cible
 description: La mise en surbrillance de la cible d’action affichée autour de l’élément d’interface utilisateur de la visionneuse ciblée est contrôlée avec le sélecteur de classe CSS.
 solution: Experience Manager
-title: Mise en évidence de la cible
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 9968c67b-02cc-4ac0-8ab1-c7eda565912d
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 1%

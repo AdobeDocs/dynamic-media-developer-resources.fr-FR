@@ -1,13 +1,13 @@
 ---
+title: Localisation des éléments de l’interface utilisateur
 description: Le contenu affiché par la visionneuse de vidéos de recadrage intelligent peut être localisé. Ce contenu comprend des info-bulles sur les éléments de l’interface utilisateur et un message d’erreur qui s’affiche lorsque la vidéo ne peut pas être lue.
 solution: Experience Manager
-title: Localisation des éléments de l’interface utilisateur
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 4748d04e-7f9d-413f-9e9a-a0fad129c5fc
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Le contenu affiché par la visionneuse de vidéos de recadrage intelligent peut être localisé. Ce contenu comprend des info-bulles sur les éléments de l’interface utilisateur et un message d’erreur qui s’affiche lorsque la vidéo ne peut pas être lue.
 
-Chaque contenu textuel de la visionneuse qui peut être localisé est représenté par un identifiant spécial du SDK de la visionneuse appelé SYMBOL. Tout SYMBOL est associé par défaut à une valeur de texte par le paramètre régional anglais ( `"en"`) fourni avec la visionneuse prête à l’emploi. Il se peut également que des valeurs définies par l’utilisateur soient définies pour autant de paramètres régionaux que nécessaire.
+Chaque contenu textuel de la visionneuse qui peut être localisé est représenté par un identifiant spécial du SDK de la visionneuse appelé SYMBOL. Tout SYMBOL est associé par défaut à une valeur de texte par le paramètre régional anglais ( `"en"`) fourni avec la visionneuse prête à l’emploi. Il peut également y avoir des valeurs définies par l’utilisateur définies pour autant de paramètres régionaux que nécessaire.
 
 Lorsque la visionneuse démarre, elle vérifie les paramètres régionaux actuels afin de déterminer s’il existe une valeur définie par l’utilisateur pour chaque SYMBOL pris en charge pour le paramètre régional. Si tel est le cas, elle utilise la valeur définie par l’utilisateur ; dans le cas contraire, il revient au texte par défaut d’usine.
 

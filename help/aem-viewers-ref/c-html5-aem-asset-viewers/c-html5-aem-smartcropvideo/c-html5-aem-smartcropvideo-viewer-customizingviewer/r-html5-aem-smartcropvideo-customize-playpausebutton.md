@@ -1,13 +1,13 @@
 ---
+title: Bouton Lecture/Pause
 description: Le bouton de lecture/pause permet au lecteur vidéo de recadrage intelligent de lire ou de suspendre le contenu vidéo lorsqu’un utilisateur clique dessus.
 solution: Experience Manager
-title: Bouton Lecture/Pause
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 174ddf15-e6be-4a65-8c82-5c9edf061a6c
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '267'
 ht-degree: 2%
 
 ---
@@ -69,13 +69,13 @@ Le sélecteur de classe CSS suivant contrôle l’aspect du bouton :
 >
 >Ce bouton prend en charge les deux `state`, `selected`, et `replay` sélecteurs d’attributs, qui peuvent être utilisés pour appliquer différents habillages à différents états de bouton. En particulier, `selected='true'` correspond à l’état &quot;play&quot; et `selected='false'` correspond à l’état &quot;pause&quot; ;
 >
->`replay='true'` est défini lorsque la vidéo a atteint la fin et que le fait de cliquer sur le bouton redémarre la lecture à partir du début.
+>Sélecteur d’attributs `replay='true'` est définie lorsque la vidéo a atteint la fin, et si vous sélectionnez le bouton , la lecture reprend à partir du début.
 
 L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) pour plus d’informations.
 
 ## Exemple {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Pour configurer un bouton de lecture/pause de 32 x 32 pixels ; il est positionné à six pixels du bord supérieur et gauche de la barre de contrôle et affiche une image différente pour chacun des quatre états de bouton différents lorsqu’il est sélectionné ou non.
+Pour configurer un bouton Lecture/Pause de 32 x 32 pixels. Faites en sorte qu’il soit positionné à six pixels du bord supérieur et gauche de la barre de contrôle. Enfin, affichez une image différente pour chacun des quatre états de bouton différents lorsque cette option est sélectionnée ou non.
 
 ```
 .s7smartcropvideoviewer .s7playpausebutton { 

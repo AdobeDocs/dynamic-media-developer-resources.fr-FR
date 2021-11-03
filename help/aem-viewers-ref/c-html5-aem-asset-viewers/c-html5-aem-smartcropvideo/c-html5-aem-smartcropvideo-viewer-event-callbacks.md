@@ -1,13 +1,13 @@
 ---
+title: Rappels d’événement
 description: Rappels d’événement
 solution: Experience Manager
-title: Rappels d’événement
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 2493208b-9030-49fa-b1fd-2f2bd524bce6
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,6 @@ Les événements de visionneuse pris en charge sont les suivants :
    * `objID {String}` n’est actuellement pas utilisé.
    * `compClass {String}` n’est actuellement pas utilisé.
    * `instName {String}` nom d’instance du composant SDK de la visionneuse qui a déclenché l’événement.
-   * `timeStamp {Number}` horodatage de l’événement.
    * `eventInfo {String}` payload d’événement.
 
 Voir aussi [SmartCropVideoViewer]

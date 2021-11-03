@@ -1,13 +1,13 @@
 ---
+title: Partage de liens
 description: L’outil Partage de liens est constitué d’un bouton ajouté au panneau Partage sur les réseaux sociaux et de la boîte de dialogue modale qui s’affiche lorsque l’outil est activé. La position du bouton est entièrement gérée par l’outil Partage sur les réseaux sociaux .
 solution: Experience Manager
-title: Partage de liens
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: a80b47fd-0399-4d0a-8c11-cfa4acc5a713
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1374'
 ht-degree: 2%
 
 ---
@@ -284,7 +284,7 @@ Propriétés **CSS du bouton de fermeture **
 
 L’info-bulle du bouton Fermer et le titre de la boîte de dialogue peuvent être localisés. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) pour plus d’informations.
 
-Exemple : pour configurer un en-tête de boîte de dialogue avec marge intérieure, une icône de 22 x 12 pixels, un titre en gras de 16 points et un bouton Fermer de 28 x 28 pixels qui est positionné à deux pixels du haut et à deux pixels à droite du conteneur de la boîte de dialogue :
+Exemple : pour configurer un en-tête de boîte de dialogue avec marge intérieure, une icône de 22 x 12 pixels et un titre de 16 points en gras. Enfin, un bouton Fermer de 28 x 28 pixels qui est positionné à deux pixels du haut et à deux pixels à droite du conteneur de la boîte de dialogue :
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogheader { 
@@ -426,7 +426,7 @@ Le bouton Annuler est contrôlé à l’aide du sélecteur de classe CSS suivant
 >
 >Ce bouton prend en charge `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
-En outre, les deux boutons partagent la même classe CSS commune, qui peut contenir des paramètres CSS identiques pour les autres boutons de boîte de dialogue :
+En outre, les deux boutons partagent une classe CSS commune, qui peut contenir des paramètres CSS identiques pour les autres boutons de boîte de dialogue :
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7dialogfooter .s7button
@@ -634,7 +634,7 @@ La taille de la copie de texte affichée en haut du lien est contrôlée par le 
 .s7smartcropvideoviewer .s7linkdialog .s7dialoginputwide
 ```
 
-**Propriétés CSS de la boîte de dialogue saisie champ large**
+**Propriétés CSS du champ d’entrée de la boîte de dialogue**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 

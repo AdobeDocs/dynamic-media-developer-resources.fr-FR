@@ -1,12 +1,12 @@
 ---
+title: Recadrage intelligent de la vidéo
 description: La visionneuse de vidéos de recadrage intelligent est un lecteur vidéo qui lit la vidéo en flux continu et progressive codée au format H.264 avec l’ajout de la prise en charge du recadrage intelligent. Elle est fournie à partir de Dynamic Media Classic ou d’Adobe Experience Manager avec Dynamic Media.
 keywords: responsive
 solution: Experience Manager
-title: Recadrage intelligent de la vidéo
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: fa9727dc-f9e2-4d91-b500-445693dfb6aa
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '2410'
 ht-degree: 0%
@@ -41,7 +41,16 @@ Voir [Référence de commande commune à toutes les visionneuses - Attributs de 
 
 ## Interaction avec la visionneuse de vidéos avec recadrage intelligent {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
-La visionneuse de vidéos avec recadrage intelligent fournit un ensemble de commandes standard de l’interface utilisateur pour la lecture vidéo, telles qu’un bouton de lecture/pause, une bulle de temps vidéo avec défilement vidéo, un indicateur de temps de lecture/durée totale, un contrôle du volume, un bouton plein écran et un bouton de sous-titrage fermé. Tous ces contrôles sont regroupés dans une barre de contrôle au bas de l’interface utilisateur de la visionneuse.
+La visionneuse de vidéos avec recadrage intelligent fournit un ensemble de commandes d’interface utilisateur standard pour la lecture vidéo, telles que :
+
+* Bouton Lecture/Pause .
+* Blocage vidéo : bulle de temps vidéo.
+* Indicateur de temps de lecture/temps total.
+* Contrôle du volume.
+* Bouton Plein écran.
+* Bascule des sous-titres codés.
+
+Tous ces contrôles sont regroupés dans une barre de contrôle au bas de l’interface utilisateur de la visionneuse.
 
 Sur les périphériques tactiles, la commande de volume est masquée dans l’interface utilisateur, car il est uniquement possible de contrôler le volume à l’aide des boutons matériels.
 
@@ -225,7 +234,7 @@ Le chemin relatif ressemble à ce qui suit :
 
 **Intégration de conception réactive avec une hauteur libre**
 
-Avec l’intégration de la conception réactive, la page web dispose normalement d’une sorte de disposition flexible qui détermine la taille d’exécution du conteneur de la visionneuse. `DIV`. Dans cet exemple, supposons que la page web autorise le conteneur de la visionneuse. `DIV` pour prendre 40 % de la taille de la fenêtre du navigateur web, en ne limitant pas sa hauteur. Le code de HTML de la page web se présente comme suit :
+Avec l’intégration de la conception réactive, la page web dispose normalement d’une sorte de disposition flexible qui détermine la taille d’exécution du conteneur de la visionneuse. `DIV`. Dans cet exemple, supposons que la page web autorise le conteneur de la visionneuse. `DIV` pour prendre 40 % de la taille de la fenêtre du navigateur web, sans restriction de sa hauteur. Le code de HTML de la page web se présente comme suit :
 
 ```
 <!DOCTYPE html> 

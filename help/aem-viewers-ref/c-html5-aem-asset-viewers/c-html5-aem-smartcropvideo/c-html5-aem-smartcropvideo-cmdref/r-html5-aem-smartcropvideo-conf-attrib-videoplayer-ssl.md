@@ -1,13 +1,13 @@
 ---
+title: SmartCropVideoPlayer.ssl
 description: Attribut de configuration de la visionneuse de vidéos avec recadrage intelligent.
 solution: Experience Manager
-title: SmartCropVideoPlayer.ssl
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: f7d832f3-e9b1-4161-a572-851e538bb245
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '125'
 ht-degree: 3%
 
 ---
@@ -26,7 +26,7 @@ Attribut de configuration de la visionneuse de vidéos avec recadrage intelligen
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|on</span> </p> </td> 
-   <td colname="col2"> <p> Contrôle si la vidéo est diffusée via une connexion SSL sécurisée (HTTPS) ou une connexion non sécurisée (HTTP). </p> <p>Lorsque la variable est définie sur <span class="codeph"> auto</span> le protocole de diffusion vidéo est hérité du protocole de la page web d’incorporation. Si la page web est chargée via HTTPS, la vidéo est également diffusée via HTTPS, et vice versa. Si la page web est sur HTTP, la vidéo est diffusée sur HTTP. </p> <p>Lorsque la variable est définie sur <span class="codeph"> on</span>, la diffusion vidéo s’effectue toujours sur une connexion sécurisée sans tenir compte du protocole de la page web. </p> <p>Concerne uniquement la diffusion vidéo publiée et est ignoré pour la prévisualisation vidéo en mode création. </p> </td> 
+   <td colname="col2"> <p> Contrôle si la vidéo est diffusée via une connexion SSL sécurisée (HTTPS) ou une connexion non sécurisée (HTTP). </p> <p>Lorsque la variable est définie sur <span class="codeph"> auto</span> le protocole de diffusion vidéo est hérité du protocole de la page web d’incorporation. Si la page web est chargée via HTTPS, la vidéo est également diffusée via HTTPS, et inversement. Si la page web est sur HTTP, la vidéo est diffusée sur HTTP. </p> <p>Lorsque la variable est définie sur <span class="codeph"> on</span>, la diffusion vidéo s’effectue toujours sur une connexion sécurisée sans tenir compte du protocole de la page web. </p> <p>Concerne uniquement la diffusion vidéo publiée et est ignoré pour la prévisualisation vidéo en mode création. </p> </td> 
   </tr> 
  </tbody> 
 </table>

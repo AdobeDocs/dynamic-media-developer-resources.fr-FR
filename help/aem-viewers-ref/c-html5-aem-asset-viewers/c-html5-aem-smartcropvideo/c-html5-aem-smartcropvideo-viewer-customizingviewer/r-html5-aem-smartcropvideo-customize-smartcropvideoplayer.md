@@ -1,11 +1,11 @@
 ---
+title: Lecteur vidéo
 description: Le lecteur vidéo avec recadrage intelligent est la zone rectangulaire dans laquelle le contenu vidéo est affiché dans la visionneuse.
 solution: Experience Manager
-title: Lecteur vidéo
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 2741821f-78fe-44d4-8604-fee10086e0a0
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 1%
@@ -78,7 +78,7 @@ Les sous-titres codés sont placés dans un conteneur interne au sein du lecteur
  </tbody> 
 </table>
 
-Exemple : pour configurer le texte des sous-titres à 14 pixels, gris clair, Arial, sur un arrière-plan noir semi-transparent :
+Exemple : pour configurer le texte des sous-titres à 14 pixels, gris clair, Arial®, sur un arrière-plan noir semi-transparent :
 
 ```
 .s7smartcropvideoviewer .s7smartcropvideoplayer .s7caption { 

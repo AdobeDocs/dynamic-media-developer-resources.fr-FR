@@ -1,13 +1,13 @@
 ---
+title: Incorporer le partage
 description: L’outil de partage intégré est constitué d’un bouton ajouté au panneau Partage sur les réseaux sociaux et de la boîte de dialogue modale qui s’affiche lorsque l’outil est activé. La position du bouton est entièrement gérée par l’outil Partage sur les réseaux sociaux .
 solution: Experience Manager
-title: Incorporer le partage
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: e29a81b8-67f3-4367-b21c-d5902420bc85
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '2580'
+source-wordcount: '2590'
 ht-degree: 2%
 
 ---
@@ -55,7 +55,7 @@ Il est possible de supprimer le bouton du panneau Partage sur les réseaux socia
 
 L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) pour plus d’informations.
 
-Exemple : pour configurer un bouton de partage incorporé de 28 x 28 pixels et afficher une image différente pour chacun des quatre états de bouton différents :
+Exemple : pour configurer un bouton Partager incorporé de 28 x 28 pixels et afficher une image différente pour chacun des quatre états de bouton différents :
 
 ```
 .s7smartcropvideoviewer .s7embedshare { 
@@ -284,7 +284,7 @@ Propriétés **CSS du bouton de fermeture **
 
 L’info-bulle du bouton Fermer et le titre de la boîte de dialogue peuvent être localisés. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) pour plus d’informations.
 
-Exemple : pour configurer l’en-tête de la boîte de dialogue avec marge intérieure, icône de 24 x 14 pixels, titre en gras de 16 points et bouton de fermeture de 28 x 28 pixels, positionné deux pixels du haut et deux pixels à droite du conteneur de la boîte de dialogue :
+Exemple : pour configurer un en-tête de boîte de dialogue avec remplissage, cliquez sur une icône de 24 x 14 pixels, un titre en gras de 16 points et un bouton Fermer de 28 x 28 pixels. Enfin, faites-le positionner deux pixels à partir du haut et deux pixels à partir de la droite du conteneur de la boîte de dialogue :
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogheader { 
@@ -426,7 +426,7 @@ Le bouton Annuler est contrôlé à l’aide du sélecteur de classe CSS suivant
 >
 >Le bouton Annuler prend en charge la variable `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
-En outre, les deux boutons partagent la même classe CSS commune, qui peut contenir des paramètres CSS identiques pour les autres boutons de boîte de dialogue :
+En outre, les deux boutons partagent une classe CSS commune, qui peut contenir des paramètres CSS identiques pour les autres boutons de boîte de dialogue :
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogfooter .s7button
@@ -579,7 +579,7 @@ Propriétés **CSS du corps de la boîte de dialogue **
  </tbody> 
 </table>
 
-Exemple : pour configurer le contenu d’un formulaire avec une marge intérieure de dix pixels :
+Exemple - Pour configurer le contenu d’un formulaire avec une marge intérieure de dix pixels :
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogbody { 
@@ -636,7 +636,7 @@ La taille de la copie de texte affichée en haut du code incorporé est contrôl
 .s7smartcropvideoviewer .s7embeddialog .s7dialoginputwide
 ```
 
-**Propriétés CSS de la boîte de dialogue saisie champ large**
+**Propriétés CSS du champ d’entrée de la boîte de dialogue**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
@@ -712,7 +712,7 @@ Le texte du code incorporé réel est contrôlé à l’aide du sélecteur de cl
  </tbody> 
 </table>
 
-Exemple : configuration du code incorporé à utiliser `break-word` retour à la ligne :
+Exemple - Pour configurer le code incorporé à utiliser `break-word` retour à la ligne :
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogmessage { 
@@ -794,7 +794,7 @@ La largeur de la zone combinée de taille d’intégration est contrôlée avec 
 
 >[!NOTE]
 >
->La zone de liste modifiable prend en charge la variable `expanded` sélecteur d’attributs avec les valeurs possibles de `true` et `false`. `true` est utilisée lorsque la zone de liste modifiable affiche l’une des tailles incorporées prédéfinies. Elle doit donc prendre toute la largeur disponible. `false` est utilisée lorsque l’option de taille personnalisée est sélectionnée dans la zone combinée. Elle doit donc être réduite pour libérer de l’espace pour les champs de saisie de largeur et de hauteur personnalisés.
+>La zone de liste modifiable prend en charge la variable `expanded` sélecteur d’attributs avec les valeurs possibles de `true` et `false`. Le `true` est utilisée lorsque la zone de liste modifiable affiche l’une des tailles incorporées prédéfinies. Elle doit donc prendre toute la largeur disponible. Le `false` est utilisée lorsque l’option de taille personnalisée est sélectionnée dans la zone combinée. Elle doit donc être réduite pour libérer de l’espace pour les champs de saisie de largeur et de hauteur personnalisés.
 
 Exemple : pour définir la zone combinée de taille d’intégration sur 300 pixels de large lors de l’affichage d’un élément prédéfini et 110 pixels de large lors de l’affichage d’une taille personnalisée :
 
@@ -892,7 +892,7 @@ Exemple : pour définir un bouton &quot;déroulant&quot; sur 28 x 28 pixels et d
 }
 ```
 
-Le panneau avec la liste des tailles d’intégration affichée à l’ouverture d’une zone de liste modifiable est contrôlé à l’aide du sélecteur de classe CSS suivant :
+Le panneau avec la liste des tailles d’intégration affichée à l’ouverture de la zone combinée est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7comboboxdropdown
@@ -1037,7 +1037,7 @@ Chaque champ d’entrée de taille personnalisée est encapsulé dans un contene
  </tbody> 
 </table>
 
-Exemple : pour définir la taille personnalisée des champs de saisie sur une bordure grise d’un pixel, une marge, une marge intérieure et une largeur de 70 pixels :
+Exemple : pour définir la taille personnalisée des champs d’entrée sur une bordure grise d’un pixel, une marge, une marge intérieure et une largeur de 70 pixels :
 
 ```
 .s7smartcropvideoviewer .s7embeddialog .s7dialogcustomsize { 

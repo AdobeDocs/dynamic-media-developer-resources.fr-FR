@@ -1,14 +1,14 @@
 ---
+title: init
 description: Référence de l’API JavaScript pour la visionneuse de vidéos avec recadrage intelligent.
 solution: Experience Manager
-title: init
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: d46a9c8b-064a-4928-b30e-885b12d287ab
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ Référence de l’API JavaScript pour la visionneuse de vidéos avec recadrage 
 
 Commence l’initialisation de la visionneuse de vidéos avec recadrage intelligent. D’ici là, l’élément DOM du conteneur doit être créé afin que le code de la visionneuse puisse le trouver par son identifiant.
 
-Si l’élément de conteneur ne fait pas encore partie de la mise en page web, par exemple, il peut être masqué à l’aide de la fonction `display:none` style qui lui est affecté : la visionneuse suspend son processus d’initialisation jusqu’au moment où la page web ramène l’élément de conteneur à la mise en page. Dans ce cas, le chargement de la visionneuse reprend automatiquement.
+Si l’élément de conteneur ne fait pas encore partie de la mise en page web, il peut, par exemple, être masqué à l’aide de `display:none` style qui lui est affecté : la visionneuse suspend son processus d’initialisation. Il le fait jusqu’au moment où la page web ramène l’élément de conteneur à la mise en page. Lorsque cette action se produit, le chargement de la visionneuse reprend automatiquement.
 
 Appelez cette méthode une seule fois pendant le cycle de vie de la visionneuse ; les appels suivants sont ignorés.
 

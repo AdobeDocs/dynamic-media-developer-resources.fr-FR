@@ -1,13 +1,13 @@
 ---
+title: SocialShare.bearing
 description: Attribut de configuration de la visionneuse de vidéos avec recadrage intelligent.
 solution: Experience Manager
-title: SocialShare.bearing
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 391efc4e-23f6-4159-8b03-ad1c9a887ec3
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '185'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Attribut de configuration de la visionneuse de vidéos avec recadrage intelligen
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> up|down|left|right|fit-vertical|fit-latéral</span> </p> </td> 
-   <td colname="col2"> <p> Indique la direction de l’animation de diapositives pour le conteneur de boutons. </p> <p> Lorsque la variable est définie sur <span class="codeph"> up</span>, <span class="codeph"> down</span>, <span class="codeph"> left</span>ou <span class="codeph"> right</span>, le panneau se déploie dans une direction spécifiée sans vérification des limites supplémentaire, ce qui peut entraîner un écrêtage du panneau par un conteneur externe. </p> <p>Lorsque la variable est définie sur <span class="codeph"> ajusté vertical</span>, le composant déplace d’abord la position du panneau de base vers le bas de SocialShare et tente de déployer le panneau depuis le bas, la droite ou la gauche de cet emplacement de base. À chaque tentative, le composant vérifie si le panneau est tronqué par un conteneur externe. Si toutes les tentatives échouent, le composant tente de déplacer la position du panneau de base vers le haut et répète les tentatives de déploiement en haut, à droite et à gauche. </p> <p>Lorsque la variable est définie sur <span class="codeph"> ajusté latéral</span>, le composant utilise une logique similaire. Cependant, il déplace d’abord la base vers la droite, en essayant vers la droite, vers le bas et vers le haut, puis déplace la base vers la gauche, en essayant vers la gauche, vers le bas et vers le haut, vers le haut, vers le haut. </p> </td> 
+   <td colname="col2"> <p> Indique la direction de l’animation de diapositives pour le conteneur de boutons. </p> <p> Lorsque la variable est définie sur <span class="codeph"> up</span>, <span class="codeph"> down</span>, <span class="codeph"> left</span>ou <span class="codeph"> right</span>, le panneau se déploie dans une direction spécifiée sans vérification des limites supplémentaires, ce qui peut entraîner l’écrêtement du panneau par un conteneur externe. </p> <p>Lorsque la variable est définie sur <span class="codeph"> ajusté vertical</span>, le composant déplace d’abord la position du panneau de base vers le bas de SocialShare et tente de déployer le panneau depuis le bas, la droite ou la gauche de cet emplacement de base. À chaque tentative, le composant vérifie si le panneau est tronqué par un conteneur externe. Si toutes les tentatives échouent, le composant tente de déplacer la position du panneau de base vers le haut et de répéter les tentatives de déploiement dans la direction supérieure, droite et gauche. </p> <p>Lorsque la variable est définie sur <span class="codeph"> ajusté latéral</span>, le composant utilise une logique similaire. Cependant, il déplace d’abord la base vers la droite, en essayant vers la droite, vers le bas et vers le haut, puis déplace la base vers la gauche, en essayant vers la gauche, vers le bas et vers le haut, vers le haut, vers le haut. </p> </td> 
   </tr> 
  </tbody> 
 </table>

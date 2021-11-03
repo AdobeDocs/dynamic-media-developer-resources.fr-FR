@@ -1,11 +1,11 @@
 ---
+title: Prise en charge du suivi Adobe Analytics
 description: La visionneuse vidéo avec recadrage intelligent prend en charge le suivi Adobe Analytics prêt à l’emploi.
 solution: Experience Manager
-title: Prise en charge du suivi Adobe Analytics
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 2cc7087d-ed02-4560-b9ce-533af2b11a24
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 3%
@@ -26,7 +26,7 @@ La visionneuse envoie également une requête HTTP de suivi unique au serveur d�
 
 ## Suivi personnalisé {#section-ab10bd7caf184721a366cf3953071934}
 
-Pour intégrer des systèmes d’analyse tiers, il est nécessaire d’écouter `trackEvent` rappel et processus de visionneuse `eventInfo` de la fonction de rappel, le cas échéant. Le code suivant est un exemple de fonction de gestionnaire de ce type :
+Pour s’intégrer à des systèmes d’analyse tiers, il est nécessaire d’écouter `trackEvent` rappel et processus de visionneuse `eventInfo` de la fonction de rappel, le cas échéant. Le code suivant est un exemple de fonction de gestionnaire de ce type :
 
 ```
 var smartCropVideoViewer = new s7viewers.SmartCropVideoViewer({ 

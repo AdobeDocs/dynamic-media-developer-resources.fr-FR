@@ -1,13 +1,13 @@
 ---
+title: Partage des emails
 description: L’outil de partage de courrier électronique est constitué d’un bouton ajouté au panneau Partage sur les réseaux sociaux et de la boîte de dialogue modale qui s’affiche lorsque l’outil est activé. La position du bouton est entièrement gérée par l’outil Partage sur les réseaux sociaux .
 solution: Experience Manager
-title: Partage des emails
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 1788e069-68dd-4960-bc49-34ffdf29991a
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '2980'
+source-wordcount: '2994'
 ht-degree: 2%
 
 ---
@@ -74,7 +74,7 @@ background-image:url(images/v2/EmailShare_dark_disabled.png);
 }
 ```
 
-La superposition d’arrière-plan qui couvre la page web lorsque la boîte de dialogue est principale est contrôlée avec le sélecteur de classe CSS suivant :
+La superposition d’arrière-plan qui couvre une page web lorsque la boîte de dialogue est principale est contrôlée avec le sélecteur de classe CSS suivant :
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7backoverlay
@@ -143,7 +143,7 @@ background-color: #ffffff;
 }
 ```
 
-L’en-tête de la boîte de dialogue se compose d’une icône, d’un texte de titre et d’un bouton de fermeture. Le conteneur d’en-tête est contrôlé à l’aide du sélecteur de classe CSS suivant.
+L’en-tête de la boîte de dialogue se compose d’une icône, d’un texte de titre et d’un bouton Fermer. Le conteneur d’en-tête est contrôlé à l’aide du sélecteur de classe CSS suivant.
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogheader
@@ -282,7 +282,7 @@ Propriétés **CSS du bouton de fermeture **
 
 L’info-bulle du bouton Fermer et le titre de la boîte de dialogue peuvent être localisés. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) pour plus d’informations.
 
-Exemple : pour configurer l’en-tête de la boîte de dialogue avec marge intérieure, icône de 24 x 17 pixels, titre en gras de 16 pt et bouton de fermeture de 28 x 28 pixels positionnés à 2 pixels du haut et 2 pixels à droite du conteneur de la boîte de dialogue :
+Exemple : pour configurer l’en-tête de la boîte de dialogue avec marge intérieure, une icône de 24 x 17 pixels et un titre de 16 points en gras. Enfin, un bouton Fermer de 28 x 28 pixels, positionné deux pixels du haut, et deux pixels à droite du conteneur de la boîte de dialogue :
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogheader { 
@@ -422,7 +422,7 @@ Le bouton Envoyer un courrier électronique est contrôlé à l’aide du sélec
 >
 >Ce bouton prend en charge `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
-En outre, les deux boutons partagent la même classe CSS commune, qui peut contenir des paramètres CSS identiques pour les autres boutons de boîte de dialogue :
+En outre, les deux boutons partagent une classe CSS commune, qui peut contenir des paramètres CSS identiques pour les autres boutons de boîte de dialogue :
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogfooter .s7button
@@ -461,7 +461,7 @@ En outre, les deux boutons partagent la même classe CSS commune, qui peut conte
 
 Les info-bulles des boutons peuvent être localisées. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) pour plus d’informations.
 
-Exemple : pour configurer un pied de page de boîte de dialogue avec un bouton Annuler 64 x 34 et un bouton Envoyer un email 82 x 34, avec la couleur du texte et la couleur d’arrière-plan différentes pour chaque état de bouton :
+Exemple : pour configurer un pied de page de boîte de dialogue avec un bouton Annuler 64 x 34 et un bouton Envoyer un courrier électronique 82 x 34. Enfin, la couleur du texte et la couleur d’arrière-plan sont différentes pour chaque état de bouton :
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogfooter { 
@@ -729,7 +729,7 @@ La plupart des champs de saisie qui s’étendent du libellé à gauche au bord 
 .s7smartcropvideoviewer .s7emaildialog .s7dialoginputwide
 ```
 
-**Propriétés CSS de la boîte de dialogue saisie champ large**
+**Propriétés CSS du champ d’entrée de la boîte de dialogue**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
@@ -757,7 +757,7 @@ Le champ de saisie &quot;A&quot; est plus étroit, car il alloue de l’espace p
  </tbody> 
 </table>
 
-Exemple : pour configurer un formulaire avec une bordure grise d’un pixel avec une marge intérieure de neuf pixels autour de tous les champs de saisie ; pour avoir la même bordure en rouge pour les champs dont la validation a échoué, pour avoir un champ d’entrée &quot;A&quot; de 250 pixels de large et le reste des champs d’entrée de 300 pixels de large :
+Exemple : pour configurer un formulaire avec une bordure grise d’un pixel avec une marge intérieure de neuf pixels autour de tous les champs de saisie. Pour avoir la même bordure en rouge pour les champs dont la validation a échoué, disposer d’un champ d’entrée &quot;A&quot; de 250 pixels de large et le reste des champs d’entrée de 300 pixels de large :
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialoginputcontainer { 
@@ -775,7 +775,7 @@ Exemple : pour configurer un formulaire avec une bordure grise d’un pixel avec
 }
 ```
 
-Le champ de saisie des emails est en outre contrôlé par :
+Le champ de saisie des emails est également contrôlé avec :
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogmessage
@@ -1117,7 +1117,7 @@ L’origine du contenu est contrôlée avec le sélecteur de classe CSS suivant 
  </tbody> 
 </table>
 
-Exemple : pour configurer l’origine du contenu avec une marge de dix pixels :
+Exemple : pour configurer l’origine du contenu pour une marge de dix pixels :
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogorigin { 
@@ -1210,11 +1210,11 @@ Lorsqu’un utilisateur saisit des données d’entrée incorrectes et que la va
 
 >[!NOTE]
 >
->Ce message prend en charge la variable `state` sélecteur d’attributs avec les valeurs possibles suivantes : `verifyerror`, `senderror`, et `sendsuccess`. `verifyerror` est défini lorsqu’un message s’affiche en raison d’un échec de validation d’entrée en ligne ; `senderror` est défini lorsqu’un service de messagerie principal signale une erreur ; `sendsuccess` est définie lorsque l’email est envoyé avec succès. Il est ainsi possible de mettre le message dans un style différent en fonction de l’état de la boîte de dialogue.
+>Ce message prend en charge la variable `state` sélecteur d’attributs avec les valeurs possibles suivantes : `verifyerror`, `senderror`, et `sendsuccess`. La valeur `verifyerror` est défini lorsqu’un message s’affiche en raison d’un échec de validation d’entrée en ligne. La valeur `senderror` est définie lorsqu’un service de messagerie principal signale une erreur. Le `sendsuccess` est définie lorsque l’email est envoyé avec succès. Il est ainsi possible de mettre le message dans un style différent en fonction de l’état de la boîte de dialogue.
 
 Le message d’erreur peut être localisé. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) pour plus d’informations.
 
-Exemple : pour configurer un message de sorte qu’il utilise une police en gras de dix points, avoir une hauteur de ligne de 25 pixels, une marge intérieure de 20 pixels à gauche, utiliser une icône de point d’exclamation, du texte rouge en cas d’erreur et pas d’icône ni de texte vert en cas de succès :
+Exemple : pour configurer un message afin d’utiliser une police en gras de dix points, définissez une hauteur de ligne de 25 pixels et une marge intérieure de 20 pixels sur la gauche. Utilisez également une icône en forme de point d’exclamation, un texte rouge en cas d’erreur, et aucune icône ni texte vert en cas de réussite :
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogerrormessage[state="verifyerror"] { 

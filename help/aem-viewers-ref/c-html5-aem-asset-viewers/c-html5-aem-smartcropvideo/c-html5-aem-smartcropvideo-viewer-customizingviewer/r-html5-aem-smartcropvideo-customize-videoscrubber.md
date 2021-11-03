@@ -1,13 +1,13 @@
 ---
+title: Défilement vidéo
 description: La barre de défilement vidéo est la commande de curseur horizontale qui permet à un utilisateur de rechercher dynamiquement n’importe quelle position temporelle dans la vidéo en cours de lecture.
 solution: Experience Manager
-title: Défilement vidéo
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 404e39d4-565e-4dde-b2bd-fa83a895d001
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '360'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ La barre de défilement vidéo est la commande de curseur horizontale qui permet
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-La barre de défilement se déplace également au fur et à mesure que la vidéo est lue pour indiquer la position de l’heure actuelle de la vidéo pendant la lecture. La barre de défilement vidéo prend toujours toute la largeur de la barre de contrôle. Il est possible d’appliquer l’habillage de la barre de défilement vidéo. modifier sa hauteur et sa position verticale, par CSS ;
+La barre de défilement se déplace également au fur et à mesure que la vidéo est lue pour indiquer la position de l’heure actuelle de la vidéo pendant la lecture. La barre de défilement vidéo prend toujours toute la largeur de la barre de contrôle. Il est possible d’appliquer un habillage au défilement vidéo, de modifier sa hauteur et sa position verticale, par CSS.
 
 L’aspect général du défilement vidéo est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
@@ -158,7 +158,7 @@ Le sélecteur de classe CSS suivant contrôle la bulle de durée de lecture :
 
 L’info-bulle de la barre de défilement vidéo peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) pour plus d’informations.
 
-**Exemple** - Pour configurer une visionneuse de vidéos avec défilement vidéo avec des couleurs de suivi personnalisées de 10 pixels de haut et positionnées de 10 et 35 pixels sur les bords supérieur et gauche de la barre de contrôle.
+**Exemple** - Pour configurer une visionneuse de vidéos avec un défilement vidéo avec des couleurs de suivi personnalisées de dix pixels de haut. Enfin, faites-le positionner de 10 pixels et 35 pixels à partir des bords supérieur et gauche de la barre de contrôle.
 
 ```
 .s7smartcropvideoviewer .s7videoscrubber  { 

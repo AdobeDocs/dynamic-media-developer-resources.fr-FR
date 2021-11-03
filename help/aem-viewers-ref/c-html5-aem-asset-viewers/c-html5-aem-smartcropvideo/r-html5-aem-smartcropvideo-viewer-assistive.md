@@ -1,11 +1,11 @@
 ---
+title: Prise en charge des technologies d’assistance
 description: Tous les composants de visionneuse prennent en charge les rôles et attributs ARIA (Accessible Rich Internet Applications) pour améliorer l’intégration aux technologies d’assistance telles que les lecteurs d’écran.
 solution: Experience Manager
-title: Prise en charge des technologies d’assistance
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video,Accessibility
 role: Developer,User
 exl-id: e0652730-60ee-41db-890b-e223b279e47d
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 0%
@@ -22,6 +22,6 @@ Les boutons ont un rôle `button` et texte descriptif avec `aria-label` attribut
 
 Les composants de curseur ont un rôle `slider` avec des attributs `aria-valuenow`, `aria-valuemin`, et `aria-valuemax` pour décrire la position actuelle du curseur.
 
-Les listes déroulantes sont activées par des boutons avec des `aria-haspopup` définie sur `true` et `aria-controls` faisant référence à l’élément de panneau déroulant réel. Le panneau déroulant lui-même a le rôle `menu` avec des sous-éléments ayant le rôle `menuitem`. Chaque élément de menu comporte la variable `aria-label` spécifié.
+Les listes déroulantes sont activées par des boutons avec des `aria-haspopup` définie sur `true` et `aria-controls` faisant référence à l’élément de panneau déroulant réel. Le panneau déroulant lui-même a le rôle `menu` avec des sous-éléments ayant un rôle `menuitem`. Chaque élément de menu comporte la variable `aria-label` spécifié.
 
 Les boîtes de dialogue modales ont un rôle `dialog`. L’élément d’en-tête de la boîte de dialogue est référencé par le `aria-labelledby` attribut.

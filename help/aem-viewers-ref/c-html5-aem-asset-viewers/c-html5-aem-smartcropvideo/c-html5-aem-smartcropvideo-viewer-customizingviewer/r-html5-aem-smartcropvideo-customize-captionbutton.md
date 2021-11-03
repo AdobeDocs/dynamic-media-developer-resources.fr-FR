@@ -1,13 +1,13 @@
 ---
+title: Bouton Légende
 description: Ce bouton active et désactive l’affichage des sous-titres fermés. Elle n’est pas visible si le paramètre de légende n’est pas spécifié.
 solution: Experience Manager
-title: Bouton Légende
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
 role: Developer,User
 exl-id: 47d4a33b-e2bc-4a32-be45-5320d3de1955
-source-git-commit: bdef251dcbb7c135d02813e9fd82e2e5e32300cc
+source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '254'
 ht-degree: 2%
 
 ---
@@ -73,7 +73,7 @@ L’info-bulle de bouton peut être localisée. Voir [Localisation des élément
 
 ## Exemple {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Pour configurer un bouton de sous-titrage codé de 28 x 28 pixels, positionnez quatre pixels du haut et 68 pixels du bord droit de la barre de contrôle, puis affichez une image différente pour chacun des quatre états de bouton différents lorsque cette option est sélectionnée ou non.
+Pour configurer un bouton de sous-titrage codé de 28 x 28 pixels. Il est positionné à quatre pixels du haut et à 68 pixels du bord droit de la barre de contrôle. Enfin, affiche une image différente pour chacun des quatre états de bouton différents lorsqu’il est sélectionné ou non.
 
 ```
 .s7smartcropvideoviewer .s7closedcaptionbutton { 
