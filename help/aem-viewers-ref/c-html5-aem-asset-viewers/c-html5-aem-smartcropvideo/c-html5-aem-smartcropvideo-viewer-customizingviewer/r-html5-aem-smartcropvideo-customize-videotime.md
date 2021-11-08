@@ -2,10 +2,10 @@
 title: Temps de la vidéo
 description: L’heure de la vidéo est l’affichage numérique qui indique l’heure et la durée actuelles de la vidéo en cours de lecture.
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 83491281-aff4-411a-a5a2-42e2454fd375
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 2%

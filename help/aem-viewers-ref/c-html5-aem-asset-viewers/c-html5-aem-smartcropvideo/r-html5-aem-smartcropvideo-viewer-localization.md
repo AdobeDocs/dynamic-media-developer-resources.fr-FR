@@ -2,10 +2,10 @@
 title: Localisation des éléments de l’interface utilisateur
 description: Le contenu affiché par la visionneuse de vidéos de recadrage intelligent peut être localisé. Ce contenu comprend des info-bulles sur les éléments de l’interface utilisateur et un message d’erreur qui s’affiche lorsque la vidéo ne peut pas être lue.
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 4748d04e-7f9d-413f-9e9a-a0fad129c5fc
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%

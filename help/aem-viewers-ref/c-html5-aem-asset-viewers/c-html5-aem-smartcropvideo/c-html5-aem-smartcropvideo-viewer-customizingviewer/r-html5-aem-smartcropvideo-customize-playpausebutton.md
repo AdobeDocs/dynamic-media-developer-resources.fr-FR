@@ -2,10 +2,10 @@
 title: Bouton Lecture/Pause
 description: Le bouton de lecture/pause permet au lecteur vidéo de recadrage intelligent de lire ou de suspendre le contenu vidéo lorsqu’un utilisateur clique dessus.
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: 174ddf15-e6be-4a65-8c82-5c9edf061a6c
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 2%

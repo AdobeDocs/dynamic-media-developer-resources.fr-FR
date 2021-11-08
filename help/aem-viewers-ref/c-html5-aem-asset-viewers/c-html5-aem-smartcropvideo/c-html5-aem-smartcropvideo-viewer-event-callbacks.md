@@ -1,5 +1,5 @@
 ---
-title: Event callbacks
+title: Rappels d’événement
 description: Rappels d’événement
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
@@ -14,18 +14,18 @@ ht-degree: 0%
 
 # Rappels d’événement{#event-callbacks}
 
-The viewer supports JavaScript event callbacks that the web page uses to track the viewer initialization process or runtime behavior.
+La visionneuse prend en charge les rappels d’événement JavaScript que la page web utilise pour suivre le processus d’initialisation de la visionneuse ou le comportement d’exécution.
 
 Les gestionnaires de rappel sont affectés en transmettant les noms d’événement et les fonctions de gestionnaire correspondantes avec `handlers` de `config` Objet JSON dans le constructeur de la visionneuse. Vous pouvez également utiliser `setHandlers()` méthode API.
 
 Les événements de visionneuse pris en charge sont les suivants :
 
-* `initComplete` - triggers when viewer initialization is complete and all internal components are created, so that it is possible to use `getComponent()` API. Le gestionnaire de rappel ne prend aucun argument.
+* `initComplete` : se déclenche lorsque l’initialisation de la visionneuse est terminée et que tous les composants internes sont créés, de sorte qu’il soit possible d’utiliser `getComponent()` API. Le gestionnaire de rappel ne prend aucun argument.
 
-* `trackEvent` - triggers each time an event occurs inside the viewer which may be handled by an event tracking system, such as Adobe Analytics. Le gestionnaire de rappel utilise les arguments suivants :
+* `trackEvent` : se déclenche chaque fois qu’un événement se produit dans la visionneuse et qu’il peut être géré par un système de suivi des événements, tel qu’Adobe Analytics. Le gestionnaire de rappel utilise les arguments suivants :
 
-   * `objID {String}` not currently used.
-   * `compClass {String}` not currently used.
+   * `objID {String}` n’est actuellement pas utilisé.
+   * `compClass {String}` n’est actuellement pas utilisé.
    * `instName {String}` nom d’instance du composant SDK de la visionneuse qui a déclenché l’événement.
    * `eventInfo {String}` payload d’événement.
 

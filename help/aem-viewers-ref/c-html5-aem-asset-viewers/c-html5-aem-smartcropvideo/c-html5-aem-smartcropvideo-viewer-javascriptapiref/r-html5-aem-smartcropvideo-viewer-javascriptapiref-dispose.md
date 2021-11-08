@@ -2,13 +2,13 @@
 title: dispose
 description: Référence de l’API JavaScript pour la visionneuse de vidéos avec recadrage intelligent.
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop Video
+feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: c4bcccdc-6f23-4213-a1d1-03c5c62ba484
-source-git-commit: b6ebc938f55117c4144ff921bed7f8742cf3a8a7
+exl-id: null
+source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '128'
+ht-degree: 3%
 
 ---
 

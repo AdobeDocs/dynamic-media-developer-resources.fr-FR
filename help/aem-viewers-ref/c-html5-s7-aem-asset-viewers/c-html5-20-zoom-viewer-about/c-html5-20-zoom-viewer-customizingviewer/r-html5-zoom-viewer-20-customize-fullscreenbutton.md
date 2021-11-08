@@ -1,20 +1,20 @@
 ---
-description: Permet à la visionneuse d’entrer ou de quitter le mode plein écran lorsqu’elle clique sur l’utilisateur. Ce bouton ne s’affiche pas si la visionneuse fonctionne en mode contextuel et que le système ne prend pas en charge le mode Plein écran natif. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
+description: Permet à la visionneuse d’entrer ou de quitter le mode plein écran lorsqu’elle est sélectionnée par l’utilisateur. Ce bouton ne s’affiche pas si la visionneuse fonctionne en mode contextuel et que le système ne prend pas en charge le mode Plein écran natif. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
 solution: Experience Manager
 title: Bouton Plein écran
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: bbbf32db-15ce-4273-acc0-b6725b5405fb
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '278'
 ht-degree: 2%
 
 ---
 
 # Bouton Plein écran{#full-screen-button}
 
-Permet à la visionneuse d’entrer ou de quitter le mode plein écran lorsqu’elle clique sur l’utilisateur. Ce bouton ne s’affiche pas si la visionneuse fonctionne en mode contextuel et que le système ne prend pas en charge le mode Plein écran natif. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
+Permet à la visionneuse d’entrer ou de quitter le mode plein écran lorsqu’elle est sélectionnée par l’utilisateur. Ce bouton ne s’affiche pas si la visionneuse fonctionne en mode contextuel et que le système ne prend pas en charge le mode Plein écran natif. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -59,19 +59,19 @@ L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suiv
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
-   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ce bouton prend en charge les sélecteurs d’attributs `state` et `selected`, qui peuvent être utilisés pour appliquer différents habillages à différents états de bouton. `selected='true'` correspond en particulier à l’état &quot;plein écran&quot; et `selected='false'` à l’état &quot;normal&quot;.
+>Ce bouton prend en charge les deux `state` et `selected` sélecteurs d’attributs, qui peuvent être utilisés pour appliquer différents habillages à différents états de bouton. En particulier, `selected='true'` correspond à l’état &quot;plein écran&quot; et `selected='false'` correspond à l’état &quot;normal&quot;.
 
 L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
