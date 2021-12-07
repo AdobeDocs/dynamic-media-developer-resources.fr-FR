@@ -4,8 +4,7 @@ description: L’outil de partage de courrier électronique est constitué d’u
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
 source-wordcount: '2994'
 ht-degree: 2%
@@ -1117,7 +1116,7 @@ L’origine du contenu est contrôlée avec le sélecteur de classe CSS suivant 
  </tbody> 
 </table>
 
-Exemple : pour configurer l’origine du contenu pour une marge de dix pixels :
+Exemple : pour configurer l’origine du contenu avec une marge de dix pixels :
 
 ```
 .s7smartcropvideoviewer .s7emaildialog .s7dialogorigin { 

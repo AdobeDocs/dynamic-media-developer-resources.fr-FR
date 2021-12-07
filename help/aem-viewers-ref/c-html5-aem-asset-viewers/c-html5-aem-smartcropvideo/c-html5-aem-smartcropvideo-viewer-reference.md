@@ -5,8 +5,7 @@ keywords: responsive
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
-source-git-commit: bcd7f90ea2dbb77b300407adeb7725990d9c9a12
+source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
 source-wordcount: '2413'
 ht-degree: 0%
@@ -234,7 +233,7 @@ Le chemin relatif ressemble à ce qui suit :
 
 **Intégration de conception réactive avec une hauteur libre**
 
-Avec l’intégration de la conception réactive, la page web dispose normalement d’une sorte de disposition flexible qui détermine la taille d’exécution du conteneur de la visionneuse. `DIV`. Dans cet exemple, supposons que la page web autorise le conteneur de la visionneuse. `DIV` pour prendre 40 % de la taille de la fenêtre du navigateur web, en ne limitant pas sa hauteur. Le code de HTML de la page web se présente comme suit :
+Avec l’intégration de la conception réactive, la page web dispose normalement d’une sorte de disposition flexible qui détermine la taille d’exécution du conteneur de la visionneuse. `DIV`. Dans cet exemple, supposons que la page web autorise le conteneur de la visionneuse. `DIV` pour prendre 40 % de la taille de la fenêtre du navigateur web, sans restriction de sa hauteur. Le code de HTML de la page web se présente comme suit :
 
 ```
 <!DOCTYPE html> 

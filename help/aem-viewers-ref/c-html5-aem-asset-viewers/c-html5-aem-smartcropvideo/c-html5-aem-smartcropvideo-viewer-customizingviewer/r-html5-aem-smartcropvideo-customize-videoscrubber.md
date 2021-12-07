@@ -4,8 +4,7 @@ description: La barre de défilement vidéo est la commande de curseur horizonta
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-exl-id: null
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 3%
@@ -20,7 +19,7 @@ La barre de défilement vidéo est la commande de curseur horizontale qui permet
 
 La barre de défilement se déplace également au fur et à mesure que la vidéo est lue pour indiquer la position de l’heure actuelle de la vidéo pendant la lecture. La barre de défilement vidéo prend toujours toute la largeur de la barre de contrôle. Il est possible d’appliquer un habillage au défilement vidéo, de modifier sa hauteur et sa position verticale, par CSS.
 
-L’aspect général du défilement vidéo est contrôlé à l’aide du sélecteur de classe CSS suivant :
+L’aspect général de la barre de défilement vidéo est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 ```
 .s7smartcropvideoviewer .s7videoscrubber 

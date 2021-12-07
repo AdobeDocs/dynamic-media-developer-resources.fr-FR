@@ -4,8 +4,7 @@ description: Référence de l’API JavaScript pour la visionneuse panoramique.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-exl-id: null
-source-git-commit: 8aebcacd5abdc23565aab1bc3506c36f055b6439
+source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 2%

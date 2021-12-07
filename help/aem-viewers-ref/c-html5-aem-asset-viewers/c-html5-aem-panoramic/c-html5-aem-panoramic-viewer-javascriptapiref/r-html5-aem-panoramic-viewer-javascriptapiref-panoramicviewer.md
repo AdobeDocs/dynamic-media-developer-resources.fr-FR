@@ -4,8 +4,7 @@ description: Constructeur, crée une instance de visionneuse de carrousel HTML5.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-exl-id: null
-source-git-commit: 13d15bd9483d939de8391d5cfe814c48fed30f22
+source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 3%
