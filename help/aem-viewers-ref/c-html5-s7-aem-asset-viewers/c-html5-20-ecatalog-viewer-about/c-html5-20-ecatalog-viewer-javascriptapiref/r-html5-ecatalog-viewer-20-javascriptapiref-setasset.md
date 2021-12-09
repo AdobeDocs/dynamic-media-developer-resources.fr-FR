@@ -1,14 +1,14 @@
 ---
+title: setAsset
 description: Référence de l’API JavaScript pour la visionneuse de vidéos.
 solution: Experience Manager
-title: setAsset
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 04b6bf4d-5c42-49e9-b585-de75ebf6c89f
-source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ Référence de l’API JavaScript pour la visionneuse de vidéos.
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ressource  </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ressource </span> </span> </p> </td> 
    <td colname="col2"> <p>{ <span class="codeph"> Chaîne </span>} nouvel ID de ressource ou jeu d’images explicites avec des modificateurs de diffusion d’images facultatifs ajoutés après <span class="codeph"> ? </span>. </p> <p> Les images qui utilisent IR (Image Rendering) ou UGC (User-Generated Content) ne sont pas prises en charge par cette visionneuse. </p> </td> 
   </tr> 
  </tbody> 

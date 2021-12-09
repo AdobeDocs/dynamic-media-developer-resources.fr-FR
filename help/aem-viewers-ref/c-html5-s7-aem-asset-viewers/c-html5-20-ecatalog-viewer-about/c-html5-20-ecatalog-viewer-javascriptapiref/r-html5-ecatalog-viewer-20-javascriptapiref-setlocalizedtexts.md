@@ -1,13 +1,13 @@
 ---
+title: setLocalizedTexts
 description: Référence de l’API JavaScript pour la visionneuse de vidéos.
 solution: Experience Manager
-title: setLocalizedTexts
-feature: Dynamic Media Classic,Visionneuses,SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 89d6231d-8063-435f-864e-c352287e4764
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '69'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Référence de l’API JavaScript pour la visionneuse de vidéos.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo</span> </span> </p> </td> 
-   <td colname="col2"> <p> {<span class="codeph"> Objet JSON</span>} avec des données de localisation. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74" format="dita" scope="local"> Localisation des éléments de l’interface utilisateur</a> pour plus d’informations. </p> <p>Voir également le <i>Guide de l’utilisateur du SDK de la visionneuse</i> et l’exemple pour plus d’informations sur le contenu de l’objet. </p> </td> 
+   <td colname="col2"> <p> {<span class="codeph"> Objet</span>} objet JSON avec données de localisation. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74" format="dita" scope="local"> Localisation des éléments de l’interface utilisateur</a> pour plus d’informations. </p> <p>Voir aussi <i>Guide de l’utilisateur du SDK de la visionneuse</i> et l’exemple pour plus d’informations sur le contenu de l’objet. </p> </td> 
   </tr> 
  </tbody> 
 </table>

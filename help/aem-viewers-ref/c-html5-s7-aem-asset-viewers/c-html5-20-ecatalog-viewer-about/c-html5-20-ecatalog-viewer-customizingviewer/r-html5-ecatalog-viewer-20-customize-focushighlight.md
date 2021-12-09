@@ -1,13 +1,13 @@
 ---
+title: Mise en évidence de la cible
 description: Mise en surbrillance de la cible d’action affichée autour de l’élément d’interface utilisateur de la visionneuse sélectionnée.
 solution: Experience Manager
-title: Mise en évidence de la cible
-feature: Dynamic Media Classic,Visionneuses,SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 3d5737d7-1295-46a9-9b84-c43269e5a914
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '74'
 ht-degree: 0%
 
 ---
@@ -29,13 +29,13 @@ L’aspect de la mise en surbrillance de la mise au point est contrôlé à l’
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> composition  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> composition </span> </p> </td> 
    <td colname="col2"> <p> Style de mise en surbrillance du focus. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : pour désactiver la mise en surbrillance par défaut du focus du navigateur pour tous les éléments de l’interface utilisateur de la visionneuse, ajoutez le sélecteur CSS suivant à la feuille de style de la visionneuse :
+Exemple : pour désactiver la mise en surbrillance par défaut du navigateur pour tous les éléments de l’interface utilisateur de la visionneuse, ajoutez le sélecteur CSS suivant à la feuille de style de la visionneuse :
 
 ```
 .s7ecatalogviewer *:focus { 

@@ -1,13 +1,13 @@
 ---
+title: Partage sur les réseaux sociaux
 description: Par défaut, l’outil de partage sur les réseaux sociaux s’affiche dans le coin supérieur gauche. Il se compose d’un bouton et d’un panneau qui se développe lorsque l’utilisateur clique ou appuie sur un bouton et contient des outils de partage individuels.
 solution: Experience Manager
-title: Partage sur les réseaux sociaux
-feature: Dynamic Media Classic,Visionneuses,SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: b65b8846-3287-47ae-bdb6-6cac768cece0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -29,12 +29,12 @@ La position et la taille de l’outil de partage sur les réseaux sociaux dans l
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
    <td colname="col2"> <p> Décalage par rapport au haut de la barre de contrôle. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin=left  </span> </p> </td> 
-   <td colname="col2"> <p> Distance du bouton suivant à gauche ou du côté gauche de la barre de contrôle s’il s’agit du premier bouton d’une ligne. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin=left </span> </p> </td> 
+   <td colname="col2"> <p> Distance au bouton suivant sur la gauche ou sur le côté gauche de la barre de contrôle s’il s’agit du premier bouton d’une ligne. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -47,7 +47,7 @@ La position et la taille de l’outil de partage sur les réseaux sociaux dans l
  </tbody> 
 </table>
 
-Exemple : configurez un outil de partage sur les réseaux sociaux qui est positionné à quatre pixels du haut et à cinq pixels de la droite du conteneur de la visionneuse et qui est dimensionné à 28 x 28 pixels.
+Exemple - Pour configurer un outil de partage sur les réseaux sociaux qui est positionné à quatre pixels du haut et à cinq pixels de la droite du conteneur de la visionneuse et qui est dimensionné à 28 x 28 pixels :
 
 ```
 .s7ecatalogviewer .s7socialshare { 
@@ -68,23 +68,23 @@ L’aspect du bouton de l’outil de partage sur les réseaux sociaux est contr�
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
-   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
 L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 
-Exemple : configurez un bouton de l’outil de partage sur les réseaux sociaux qui affiche une image différente pour chacun des quatre états de bouton différents.
+Exemple - Pour configurer un bouton de l’outil de partage sur les réseaux sociaux qui affiche une image différente pour chacun des quatre états de bouton différents :
 
 ```
 .s7ecatalogviewer .s7socialshare .s7socialbutton[state='up'] { 
@@ -112,13 +112,13 @@ L’aspect du panneau qui contient les icônes de partage sur les réseaux socia
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
    <td colname="col2"> <p>Couleur d’arrière-plan du panneau. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : configurez un panneau pour obtenir une couleur transparente :
+Exemple - Pour configurer un panneau avec une couleur transparente :
 
 ```
 .s7ecatalogviewer .s7socialshare .s7socialsharepanel { 

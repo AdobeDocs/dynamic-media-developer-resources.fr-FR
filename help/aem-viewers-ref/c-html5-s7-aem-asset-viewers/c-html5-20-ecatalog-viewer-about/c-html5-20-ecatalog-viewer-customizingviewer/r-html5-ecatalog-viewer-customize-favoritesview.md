@@ -1,13 +1,13 @@
 ---
+title: Vue Favoris
 description: La vue Favoris est composée d’une colonne d’images miniatures.
 solution: Experience Manager
-title: Vue Favoris
-feature: Dynamic Media Classic,Visionneuses,SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 10536242-1015-49ff-ae27-59671f30d886
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '288'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ La position et la hauteur de la vue Favoris sont gérées par la vue ; dans CSS,
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan de la vue Favoris. </p> </td> 
   </tr> 
   <tr> 
@@ -41,7 +41,7 @@ La position et la hauteur de la vue Favoris sont gérées par la vue ; dans CSS,
  </tbody> 
 </table>
 
-Exemple : pour configurer une vue Favoris d’une largeur de 100 pixels avec un arrière-plan gris semi-transparent.
+Exemple : pour configurer une vue Favoris d’une largeur de 100 pixels avec un arrière-plan gris semi-transparent :
 
 ```
 .s7ecatalogviewer .s7favoritesview { 
@@ -62,12 +62,12 @@ L’espacement entre les miniatures Favoris est contrôlé à l’aide du sélec
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> Taille de la marge verticale autour de chaque miniature. L’espacement réel des miniatures est égal à la somme de la marge supérieure et de la marge inférieure définie pour <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> Taille de la marge verticale autour de chaque miniature. L’espacement réel des miniatures est égal à la somme de la marge supérieure et inférieure définie pour <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : pour configurer l’espacement de 10 pixels.
+Exemple - Pour configurer l’espacement de dix pixels :
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7thumbcell { 
@@ -86,7 +86,7 @@ L’aspect des miniatures individuelles est contrôlé à l’aide du sélecteur
 <table id="table_6F5B1438CAFA49E9B33400C6970ABDA1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Largeur de la miniature. </p> </td> 
   </tr> 
   <tr> 
@@ -102,9 +102,9 @@ L’aspect des miniatures individuelles est contrôlé à l’aide du sélecteur
 
 >[!NOTE]
 >
->La miniature prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la miniature récemment sélectionnée par l’utilisateur. `state="default"` correspond au reste des miniatures. Et `state="over"` est utilisé lorsque vous pointez sur la souris.
+>La miniature prend en charge le `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la miniature récemment sélectionnée par l’utilisateur. L’attribut `state="default"` correspond au reste des miniatures. Et, l’attribut `state="over"` est utilisée lorsque vous pointez avec la souris.
 
-Exemple : pour configurer des miniatures de 75 x 75 pixels, vous devez définir une bordure par défaut en gris clair et une bordure sélectionnée en gris foncé.
+Exemple : pour configurer des miniatures de 75 x 75 pixels, vous devez définir une bordure par défaut en gris clair et une bordure sélectionnée en gris foncé :
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7thumb { 
@@ -130,17 +130,17 @@ L’aspect du libellé de la miniature est contrôlé à l’aide du sélecteur 
 <table id="table_B41339A16ACB46CB87D3EB1FD05FA2CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Nom de la police. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Taille de police. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : pour configurer des libellés avec une police Helvetica de 14 pixels.
+Exemple - Pour configurer des libellés avec une police Helvetica® de 14 pixels :
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7label { 
