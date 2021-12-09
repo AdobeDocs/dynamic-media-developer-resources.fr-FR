@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 3c451400-4f44-4887-a045-46b064570b01
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 6744aa987cd3d29ffd2e6959c0694c3561100fcf
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1289'
 ht-degree: 0%
 
 ---
@@ -33,15 +33,15 @@ Lors de la création d’une page CSS personnalisée, gardez à l’esprit que l
 
 ## Création d’une page CSS adaptée {#section-c1e74f5114ad418884ca1c95f5ea5b63}
 
-Il est possible de cibler différents appareils et d’incorporer des tailles différentes dans une feuille CSS afin de rendre l’affichage de votre contenu différent, en fonction de l’appareil d’un utilisateur ou d’une mise en page web spécifique. Ce ciblage comprend, sans s’y limiter, différentes mises en page web, tailles des éléments de l’interface utilisateur et résolution des illustrations.
+Il est possible de cibler différents appareils et d’incorporer des tailles différentes dans une feuille CSS afin de rendre l’affichage de votre contenu différent, en fonction de l’appareil d’un utilisateur ou d’une mise en page web spécifique. Cette cible comprend, sans s’y limiter, différentes mises en page de pages web, tailles d’éléments de l’interface utilisateur et résolution des illustrations.
 
 La visionneuse prend en charge deux méthodes pour créer une page CSS réactive : Marqueurs CSS et requêtes multimédias CSS standard. Vous pouvez utiliser ces méthodes indépendamment ou ensemble.
 
 **Marqueurs CSS**
 
-Pour aider à créer une page CSS réactive, la visionneuse prend en charge les marqueurs CSS qui sont des classes CSS spéciales dynamiquement affectées à l’élément de conteneur de la visionneuse de niveau supérieur. Le conteneur de la visionneuse est basé sur la taille de la visionneuse au moment de l’exécution et le type d’entrée utilisé sur l’appareil actuel.
+Pour faciliter la création de CSS responsive design, la visionneuse prend en charge les marqueurs CSS. Des classes CSS spéciales sont attribuées dynamiquement à l’élément de conteneur de la visionneuse de niveau supérieur en fonction de la taille de la visionneuse au moment de l’exécution et du type d’entrée utilisé sur l’appareil actuel.
 
-Le premier groupe de marqueurs CSS comprend `.s7size_large`, `.s7size_medium`, et `.s7size_small` classes. Elles sont appliquées en fonction de la zone d’exécution du conteneur de la visionneuse. En d’autres termes, si la zone de visionneuse est égale ou supérieure à la taille d’un écran de bureau commun `.s7size_large` est utilisé ; si la zone est proche de la taille d’un tablette commun ; `.s7size_medium` est affectée. Pour les zones similaires aux écrans de téléphone mobile, le marqueur `.s7size_small` est définie. L’objectif Principal de ces marqueurs CSS est de créer différentes mises en page d’interface utilisateur pour différents écrans et tailles de visionneuse.
+Le premier groupe de marqueurs CSS comprend `.s7size_large`, `.s7size_medium`, et `.s7size_small` classes. Elles sont appliquées en fonction de la zone d’exécution du conteneur de la visionneuse. En d’autres termes, si la zone de visionneuse est égale ou supérieure à la taille d’un écran de bureau commun `.s7size_large` est utilisé ; si la zone est proche de la taille d’un tablette commun ; `.s7size_medium` est affectée. Pour les zones similaires aux écrans de téléphone mobile, `.s7size_small` est définie. L’objectif Principal de ces marqueurs CSS est de créer différentes mises en page d’interface utilisateur pour différents écrans et tailles de visionneuse.
 
 Le deuxième groupe de marqueurs CSS comprend `.s7mouseinput` et `.s7touchinput`. Le marqueur `.s7touchinput` est défini si l’appareil actuel dispose de fonctionnalités d’entrée tactile ; sinon, `.s7mouseinput` est utilisée. Ces marqueurs sont destinés à créer des éléments d’entrée de l’interface utilisateur avec des tailles d’écran différentes pour différents types d’entrée, car la saisie tactile nécessite normalement des éléments plus volumineux. Si l’appareil dispose de fonctionnalités d’entrée de souris et de tactile, `.s7touchinput` est définie et la visionneuse effectue le rendu d’une interface utilisateur tactile.
 
@@ -69,7 +69,7 @@ Pour cibler des appareils avec une densité de pixels différente, utilisez des 
 }
 ```
 
-L’utilisation de marqueurs CSS est la méthode la plus souple pour créer des CSS réactives. Cela est dû au fait qu’il vous permet de cibler non seulement la taille de l’écran de l’appareil, mais aussi la taille réelle de la visionneuse, ce qui peut s’avérer utile pour les mises en page adaptées.
+L’utilisation de marqueurs CSS est la méthode la plus souple pour créer des CSS réactives. Il vous permet de cibler non seulement la taille de l’écran de l’appareil, mais aussi la taille réelle de la visionneuse, ce qui peut s’avérer utile pour les mises en page adaptées.
 
 Utilisez le fichier CSS de visionneuse par défaut comme exemple d’approche des marqueurs CSS.
 
