@@ -1,14 +1,14 @@
 ---
+title: TableOfContents.showdefault
 description: TableOfContents.showdefault
 solution: Experience Manager
-title: TableOfContents.showdefault
-feature: Dynamic Media Classic,Visionneuses,SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 1c700d12-4bea-4b87-91c1-f615c3dceb79
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 9%
+source-wordcount: '44'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> Lorsqu’il est défini sur <span class="codeph"> 1</span>, le composant remplit le panneau déroulant avec des éléments pour toutes les pages, même pour celles dont le libellé n’est pas défini. </p> <p>Lorsqu’elle est définie sur <span class="codeph"> 0</span>, seuls les éléments avec des libellés explicites s’affichent dans le panneau déroulant. </p> </td> 
+   <td> <p> Lorsque la variable est définie sur <span class="codeph"> 1</span>, le composant renseigne le panneau déroulant avec des éléments pour toutes les pages, même pour les pages pour lesquelles aucun libellé n’est défini. </p> <p>Lorsque la variable est définie sur <span class="codeph"> 0</span> seuls les éléments avec des libellés explicites s’affichent dans le panneau déroulant. </p> </td> 
   </tr> 
  </tbody> 
 </table>

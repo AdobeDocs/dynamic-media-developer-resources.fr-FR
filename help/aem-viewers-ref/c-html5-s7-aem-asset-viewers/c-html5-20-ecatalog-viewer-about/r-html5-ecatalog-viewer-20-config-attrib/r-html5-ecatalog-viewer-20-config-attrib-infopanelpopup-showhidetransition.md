@@ -1,14 +1,14 @@
 ---
+title: InfoPanelPopup.showhidetransition
 description: InfoPanelPopup.showhidetransition
 solution: Experience Manager
-title: InfoPanelPopup.showhidetransition
-feature: Dynamic Media Classic,Visionneuses,SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 5f7ce5e7-7351-42e0-88ce-6783b5c2e507
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 16%
+source-wordcount: '29'
+ht-degree: 20%
 
 ---
 

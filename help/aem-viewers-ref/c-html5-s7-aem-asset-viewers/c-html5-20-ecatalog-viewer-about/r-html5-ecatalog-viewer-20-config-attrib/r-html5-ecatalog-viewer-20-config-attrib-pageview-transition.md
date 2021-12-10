@@ -1,20 +1,20 @@
 ---
+title: PageView.transition
 description: PageView.transition
 solution: Experience Manager
-title: PageView.transition
-feature: Dynamic Media Classic,Visionneuses,SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: aa12a210-88d9-4b96-b598-6967496ac668
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '102'
 ht-degree: 4%
 
 ---
 
 # PageView.transition{#pageview-transition}
 
-` [PageView.|<containerId>_pageView.]transition= *``*[, *`temporisation`*]`
+` [PageView.|<containerId>_pageView.]transition= *`time`*[, *`assouplissement`*]`
 
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 

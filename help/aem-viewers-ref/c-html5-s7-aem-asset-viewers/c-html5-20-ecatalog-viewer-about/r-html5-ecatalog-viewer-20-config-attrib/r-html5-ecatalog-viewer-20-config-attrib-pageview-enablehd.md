@@ -1,13 +1,13 @@
 ---
+title: PageView.enableHD
 description: PageView.enableHD
 solution: Experience Manager
-title: PageView.enableHD
-feature: Dynamic Media Classic,Visionneuses,SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: f03762f2-87db-4284-ba59-9ece8caa0d09
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '280'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
-   <td colname="col2"> <p> Activez, limitez ou désactivez l’optimisation pour les appareils pour lesquels la valeur <span class="codeph"> devicePixelRatio</span> est supérieure à <span class="codeph"> 1</span>, c’est-à-dire les appareils avec un affichage haute densité comme l’iPhone4 et les appareils similaires. Si principal, le composant limite la taille de la demande d’image IS comme si le périphérique n’avait qu’un rapport de pixels de <span class="codeph"> 1</span> et réduisait ainsi la bande passante. </p> <p>Voir l’exemple ci-dessous </p> </td> 
+   <td colname="col2"> <p> Activation, limitation ou désactivation de l’optimisation pour les périphériques où <span class="codeph"> devicePixelRatio</span> est supérieur à <span class="codeph"> 1</span>, c’est-à-dire les appareils avec un affichage haute densité comme iPhone4 et les appareils similaires. Si principal, le composant limite la taille de la demande d’image IS comme si l’appareil avait uniquement un rapport de pixels de <span class="codeph"> 1</span> et ainsi réduire la bande passante. </p> <p>Voir l’exemple ci-dessous </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> nombre</span></span> </p> </td> 
@@ -68,7 +68,7 @@ Voici les résultats attendus lorsque vous utilisez cet attribut de configuratio
      <ul id="ul_CEC06B2280164951BA1A0ADED99E8050"> 
       <li id="li_CA7A0980ACC54690A4F212DF53E2DC8A"> <p>Si la limite est de 1 600 et que la densité de pixels est de 1,5, l’image de 1 500 x 1 500 est diffusée. </p> </li> 
       <li id="li_A4AAD7FBFA0347B082789511CA6768A5"> <p>Si la limite est de 1 600 et que la densité en pixels est de 2, l’image de 1 000 x 1 000 est diffusée, car l’image de 2 000 x 2 000 dépasse la limite. </p> </li> 
-     </ul> </p> <p><b>Bonne pratique</b> : Le nombre limite doit fonctionner conjointement avec le paramètre de l’entreprise pour la taille maximale de l’image. Par conséquent, définissez le nombre limite pour qu’il soit égal au paramètre de taille d’image maximale de l’entreprise. </p> </td> 
+     </ul> </p> <p><b>Bonne pratique</b>: Le nombre limite doit fonctionner avec le paramètre de l’entreprise pour la taille maximale de l’image. Par conséquent, définissez le nombre limite pour qu’il soit égal au paramètre de taille d’image maximale de l’entreprise. </p> </td> 
   </tr> 
  </tbody> 
 </table>

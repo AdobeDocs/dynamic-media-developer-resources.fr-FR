@@ -1,11 +1,11 @@
 ---
+title: ImageMapEffect.rollover
 description: ImageMapEffect.rollover
 solution: Experience Manager
-title: ImageMapEffect.rollover
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 3d5eb17d-668a-4ad8-9f84-5684941d450d
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 6%

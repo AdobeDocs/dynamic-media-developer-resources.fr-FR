@@ -1,13 +1,13 @@
 ---
+title: TableOfContents.maxitems
 description: TableOfContents.maxitems
 solution: Experience Manager
-title: TableOfContents.maxitems
-feature: Dynamic Media Classic,Visionneuses,SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: d3196158-5eab-46de-8a29-8f08f4797185
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: '59'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> maxitems</span></span> </p> </td> 
-   <td> <p>Nombre maximal d’éléments dans la table des matières de la liste déroulante. </p> <p>En outre, vous pouvez réduire le nombre d’éléments visibles dans la liste déroulante au cas où il serait recadré par le conteneur externe. </p> <p>Lorsqu’il est défini sur <span class="codeph"> 0</span>, ce composant affiche autant d’éléments que possible, étant donné le conteneur auquel il est ajouté. </p> </td> 
+   <td> <p>Nombre maximal d’éléments dans la table des matières de la liste déroulante. </p> <p>Vous pouvez également réduire le nombre d’éléments visibles dans la liste déroulante au cas où il serait recadré par le conteneur externe. </p> <p>Lorsque la variable est définie sur <span class="codeph"> 0</span> ce composant affiche autant d’éléments que possible en fonction du conteneur auquel il est ajouté. </p> </td> 
   </tr> 
  </tbody> 
 </table>

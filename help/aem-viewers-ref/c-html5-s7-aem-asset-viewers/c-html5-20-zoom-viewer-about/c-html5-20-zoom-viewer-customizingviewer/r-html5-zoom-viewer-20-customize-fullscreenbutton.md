@@ -1,13 +1,13 @@
 ---
+title: Bouton Plein écran
 description: Permet à la visionneuse d’entrer ou de quitter le mode plein écran lorsqu’elle est sélectionnée par l’utilisateur. Ce bouton ne s’affiche pas si la visionneuse fonctionne en mode contextuel et que le système ne prend pas en charge le mode Plein écran natif. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
 solution: Experience Manager
-title: Bouton Plein écran
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: bbbf32db-15ce-4273-acc0-b6725b5405fb
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '280'
 ht-degree: 2%
 
 ---
@@ -75,7 +75,7 @@ L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suiv
 
 L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
-Exemple : pour configurer un bouton plein écran de 32 x 32 pixels, positionnez six pixels à partir du bord supérieur et droit de la visionneuse et affiche une image différente pour chacun des quatre états de bouton différents lorsqu’il est sélectionné ou non :
+Exemple : pour configurer un bouton plein écran de 32 x 32 pixels et positionner six pixels à partir des bords supérieur et droit de la visionneuse. Enfin, affiche une image différente pour chacun des quatre états de bouton différents lorsqu’il est sélectionné ou non :
 
 ```
 .s7zoomviewer .s7fullscreenbutton { 

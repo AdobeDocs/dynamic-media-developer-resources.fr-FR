@@ -1,20 +1,20 @@
 ---
-description: Les nuanciers se composent d’une ligne d’images miniatures avec des boutons de défilement facultatifs à gauche et à droite. Les boutons de défilement ne sont visibles sur le bureau que si toutes les miniatures ne peuvent pas tenir dans la largeur du conteneur. Sur les appareils mobiles, ou si les miniatures peuvent tenir dans la largeur du conteneur, les boutons de défilement ne s’affichent pas.
-solution: Experience Manager
 title: Echantillons
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Zoom
+description: Les nuanciers se composent d’une ligne d’images miniatures avec des boutons de défilement facultatifs sur les côtés gauche et droit. Les boutons de défilement ne sont visibles sur le bureau que si toutes les miniatures ne peuvent pas tenir dans la largeur du conteneur. Sur les appareils mobiles, ou si les miniatures peuvent tenir dans la largeur du conteneur, les boutons de défilement ne s’affichent pas.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 7eaa4a6e-98e8-477b-9f45-66f8a79dfd85
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '446'
 ht-degree: 3%
 
 ---
 
 # Echantillons{#swatches}
 
-Les nuanciers se composent d’une ligne d’images miniatures avec des boutons de défilement facultatifs à gauche et à droite. Les boutons de défilement ne sont visibles sur le bureau que si toutes les miniatures ne peuvent pas tenir dans la largeur du conteneur. Sur les appareils mobiles, ou si les miniatures peuvent tenir dans la largeur du conteneur, les boutons de défilement ne s’affichent pas.
+Les nuanciers se composent d’une ligne d’images miniatures avec des boutons de défilement facultatifs sur les côtés gauche et droit. Les boutons de défilement ne sont visibles sur le bureau que si toutes les miniatures ne peuvent pas tenir dans la largeur du conteneur. Sur les appareils mobiles, ou si les miniatures peuvent tenir dans la largeur du conteneur, les boutons de défilement ne s’affichent pas.
 
 `.s7zoomviewer .s7swatches`
 
@@ -102,11 +102,11 @@ L’aspect de la miniature individuelle est contrôlé à l’aide du sélecteur
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Largeur de la miniature. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hauteur de la miniature. </p> </td> 
   </tr> 
   <tr> 
@@ -118,7 +118,7 @@ L’aspect de la miniature individuelle est contrôlé à l’aide du sélecteur
 
 >[!NOTE]
 >
->La miniature prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la miniature de l’image actuellement affichée dans la vue principale, `state="default"` correspond au reste des miniatures et `state="over"` est utilisé au survol de la souris.
+>La miniature prend en charge le `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la miniature de l’image actuellement affichée dans la vue principale, `state="default"` correspond au reste des miniatures, et `state="over"` est utilisée lorsque vous pointez avec la souris.
 
 Exemple : pour configurer des miniatures de 56 x 56 pixels, vous devez définir une bordure par défaut en gris clair et une bordure sélectionnée en gris foncé.
 
@@ -152,27 +152,27 @@ Il n’est pas possible de positionner les boutons de défilement à l’aide de
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Largeur du bouton de défilement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton de défilement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
-   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton : `up`, `down`, `over` et `disabled`.
+>Ce bouton prend en charge `state` le sélecteur d’attributs, qui peut être utilisé pour appliquer différents habillages à différents états de bouton : `up`, `down`, `over`, et `disabled`.
 
 Les info-bulles des boutons peuvent être localisées. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 

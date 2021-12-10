@@ -1,20 +1,20 @@
 ---
+title: EmbedShare.embedsizes
 description: EmbedShare.embedsizes
 solution: Experience Manager
-title: EmbedShare.embedsizes
-feature: Dynamic Media Classic,Visionneuses,SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: dd1f1b9e-f710-4641-b44b-2d6e3d3e20c4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 5432393e265fba888579d700cf2f414dc4f680af
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 18%
+source-wordcount: '31'
+ht-degree: 22%
 
 ---
 
 # EmbedShare.embedsizes{#embedshare-embedsizes}
 
-` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *``*[,0|1][; *``*, *`widthheightwidthheight`*[,0|1]]`
+` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`width`*, *`height`*[,0|1][; *`width`*, *`height`*[,0|1]]`
 
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 

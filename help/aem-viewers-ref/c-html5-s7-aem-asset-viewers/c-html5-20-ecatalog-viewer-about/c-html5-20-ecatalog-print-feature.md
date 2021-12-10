@@ -1,13 +1,13 @@
 ---
+title: Fonction d’impression
 description: La visionneuse vous permet de générer le contenu du catalogue sur une imprimante.
 solution: Experience Manager
-title: Fonction d’impression
-feature: Dynamic Media Classic,Visionneuses,SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: d7c8a0da-ad8b-440e-b27b-ea85dd975d9d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ La visionneuse vous permet de générer le contenu du catalogue sur une impriman
 
 La fonction d’impression est déclenchée par un bouton dédié dans la barre d’outils. Cliquer sur le bouton permet à l&#39;utilisateur de choisir une plage d&#39;impression et le nombre de pages par feuille.
 
-La qualité de l&#39;impression peut être ajustée à l&#39;aide du paramètre de configuration `printquality`. Notez que la définition de `printquality` sur des valeurs significativement plus élevées que la valeur par défaut n’est pas recommandée. Cela est dû au fait que le navigateur web consomme beaucoup de mémoire sur le système du client. Assurez-vous également que la taille maximale de réponse de l’image définie pour votre société Dynamic Media Classic est supérieure à la valeur `printquality` configurée.
+La qualité de l’impression peut être ajustée à l’aide du `printquality` paramètre de configuration . Paramètre `printquality` Il n’est pas recommandé d’utiliser des valeurs supérieures à la valeur par défaut. Cela est dû au fait que le navigateur Web consomme beaucoup de mémoire sur le système du client. Assurez-vous également que la taille maximale de réponse de l’image définie pour votre société Dynamic Media Classic est supérieure à la taille configurée `printquality` .
 
 >[!NOTE]
 >

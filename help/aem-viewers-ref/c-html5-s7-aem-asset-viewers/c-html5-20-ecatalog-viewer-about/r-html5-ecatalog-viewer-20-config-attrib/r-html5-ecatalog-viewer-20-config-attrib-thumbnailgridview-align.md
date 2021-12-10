@@ -1,13 +1,13 @@
 ---
+title: ThumbnailGridView.align
 description: ThumbnailGridView.align
 solution: Experience Manager
-title: ThumbnailGridView.align
-feature: Dynamic Media Classic,Visionneuses,SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: e26ee733-263d-4a6b-a37b-65b9fa1376c8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '72'
 ht-degree: 5%
 
 ---

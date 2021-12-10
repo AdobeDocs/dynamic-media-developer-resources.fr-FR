@@ -1,14 +1,14 @@
 ---
+title: FavoritesView.maxloadradius
 description: FavoritesView.maxloadradius
 solution: Experience Manager
-title: FavoritesView.maxloadradius
-feature: Dynamic Media Classic,Visionneuses,SDK/API,eCatalog
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 6bbf75f1-96e7-496d-9f5c-6f449f76bfdd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> Indique le comportement de préchargement du composant. </p> <p>Lorsqu’elle est définie sur <span class="codeph"> -1</span>, toutes les miniatures sont chargées simultanément lorsque le composant est initialisé ou que la ressource est modifiée. </p> <p>Lorsqu’elle est définie sur <span class="codeph"> 0</span>, seules les miniatures visibles sont chargées. </p> <p> Lorsqu’elle est définie sur <span class="codeph"><span class="varname"> preloadnbr</span></span>, vous pouvez spécifier le nombre de lignes invisibles autour de la zone visible qui sont préchargées. </p> </td> 
+   <td colname="col2"> <p> Indique le comportement de préchargement du composant. </p> <p>Lorsque la variable est définie sur <span class="codeph"> -1</span>, toutes les miniatures sont chargées simultanément lorsque le composant est initialisé ou que la ressource est modifiée. </p> <p>Lorsque la variable est définie sur <span class="codeph"> 0</span>, seules les miniatures visibles sont chargées. </p> <p> Lorsque la variable est définie sur <span class="codeph"><span class="varname"> preloadnbr</span></span>, vous pouvez spécifier le nombre de lignes invisibles autour de la zone visible qui sont préchargées. </p> </td> 
   </tr> 
  </tbody> 
 </table>

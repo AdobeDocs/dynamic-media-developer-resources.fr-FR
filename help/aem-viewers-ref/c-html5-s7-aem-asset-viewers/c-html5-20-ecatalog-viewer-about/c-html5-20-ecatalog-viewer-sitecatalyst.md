@@ -1,11 +1,11 @@
 ---
+title: Prise en charge du suivi Adobe Analytics
 description: La visionneuse de catalogue électronique prend en charge le suivi Adobe Analytics prêt à l’emploi.
 solution: Experience Manager
-title: Prise en charge du suivi Adobe Analytics
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 714e8001-06dc-49b1-838f-ab9772f2527c
-source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 4%
@@ -18,13 +18,13 @@ La visionneuse de catalogue électronique prend en charge le suivi Adobe Analyti
 
 ## Suivi d’usine {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-La visionneuse de catalogue électronique prend en charge le suivi [!DNL Adobe Analytics] prêt à l’emploi. Pour activer le suivi, transmettez le nom du paramètre prédéfini de l’entreprise approprié en tant que paramètre `config2` .
+La visionneuse de catalogue électronique prend en charge [!DNL Adobe Analytics] suivi prêt à l’emploi. Pour activer le suivi, transmettez le nom de paramètre prédéfini d’entreprise approprié en tant que `config2` .
 
 La visionneuse envoie également une requête HTTP de suivi unique au serveur d’images configuré avec le type de visionneuse et les informations de version.
 
 ## Suivi personnalisé {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Pour l’intégrer aux systèmes d’analyse tiers, il est nécessaire d’écouter le rappel de la visionneuse `trackEvent` et de traiter l’argument `eventInfo` de la fonction de rappel, le cas échéant. Le code suivant est un exemple de fonction de gestionnaire de ce type :
+Pour s’intégrer à des systèmes d’analyse tiers, il est nécessaire d’écouter la `trackEvent` rappel de la visionneuse et traitement de la `eventInfo` de la fonction de rappel, le cas échéant. Le code suivant est un exemple de fonction de gestionnaire de ce type :
 
 ```
 var eCatalogViewer = new s7viewers.eCatalogViewer({ 
@@ -64,7 +64,7 @@ La visionneuse effectue le suivi des événements utilisateur du SDK suivants :
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PERMUTATION </span> </p> </td> 
-   <td colname="col2"> <p>une ressource est échangée dans la visionneuse à l’aide de l’API <span class="codeph"> setAsset() </span> . </p> </td> 
+   <td colname="col2"> <p>une ressource est permutée dans la visionneuse à l’aide de la fonction <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 

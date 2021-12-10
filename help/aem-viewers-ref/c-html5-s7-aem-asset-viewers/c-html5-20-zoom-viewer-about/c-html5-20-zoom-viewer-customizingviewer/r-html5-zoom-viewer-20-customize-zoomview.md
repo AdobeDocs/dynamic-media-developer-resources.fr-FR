@@ -1,13 +1,13 @@
 ---
+title: Mode Zoom
 description: La vue principale se compose de l’image agrandie.
 solution: Experience Manager
-title: Mode Zoom
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: ae6c7f6f-5d71-49b5-adbb-782520961acf
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,11 @@ L’aspect de la zone d’affichage est contrôlé à l’aide du sélecteur de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan au format hexadécimal de la vue principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cursor  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cursor </span> </p> </td> 
    <td colname="col2"> <p>Curseur affiché au-dessus de la vue principale. </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +53,7 @@ Exemple : pour rendre la vue principale transparente.
 }
 ```
 
-Sur les systèmes de bureau, le composant prend en charge le sélecteur d’attributs `cursortype` qui peut être appliqué à la classe `.s7zoomview`. Il contrôle le type de curseur en fonction de l’état du composant et de l’action de l’utilisateur. Les valeurs `cursortype` suivantes sont prises en charge :
+Sur les systèmes de bureau, le composant prend en charge `cursortype` sélecteur d’attributs qui peut être appliqué au `.s7zoomview` classe . Il contrôle le type de curseur en fonction de l’état du composant et de l’action de l’utilisateur. Les éléments suivants `cursortype` sont prises en charge :
 
 * `default`
 
