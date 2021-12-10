@@ -1,13 +1,13 @@
 ---
+title: Indicateur de page
 description: L’indicateur Page affiche l’index de la page active et le nombre total de pages. Il apparaît dans la barre de contrôle principale des ordinateurs de bureau et des tablettes, et sur les téléphones mobiles, il est ajouté à la barre de contrôle secondaire. L’indicateur de page peut être dimensionné, peint et positionné par CSS.
 solution: Experience Manager
-title: Indicateur de page
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Recherche catalogue électronique
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 38241e96-ee7f-4dc1-a2a6-4a76e25b00dc
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '252'
 ht-degree: 3%
 
 ---
@@ -57,17 +57,17 @@ L’indicateur de page d’aspect est contrôlé à l’aide du sélecteur de cl
    <td colname="col2"> <p>Police - Couleur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Nom de la police. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Taille de police. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : pour configurer un indicateur de page de 56 x 28 pixels, centré horizontalement et positionné 4 pixels au bas de la barre de contrôle principale, et utiliser une police Helvetica de 14 pixels.
+Exemple : pour configurer un indicateur de page de 56 x 28 pixels, centré horizontalement et positionné 4 pixels au bas de la barre de contrôle principale, et utiliser une police Helvetica® de 14 pixels.
 
 ```
 .s7ecatalogsearchviewer  .s7pageindicator { 

@@ -1,13 +1,13 @@
 ---
+title: setAsset
 description: Référence de l’API JavaScript pour la visionneuse de vidéos.
 solution: Experience Manager
-title: setAsset
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 4fc94f30-e330-4c8a-b6da-d870e4f8e4ab
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '135'
 ht-degree: 2%
 
 ---
@@ -21,8 +21,8 @@ Référence de l’API JavaScript pour la visionneuse de vidéos.
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ressource  </span> </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph"> Chaîne </span>} nouvel identifiant de ressource, jeu d’images explicite ou jeu d’images explicites avec des modificateurs de diffusion d’images spécifiques au cadre, avec des modificateurs de diffusion d’images globaux facultatifs ajoutés après "?". </p> <p> Les images qui utilisent IR (Image Rendering) ou UGC (User-Generated Content) ne sont pas prises en charge par cette visionneuse. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ressource </span> </span> </p> </td> 
+   <td colname="col2"> <p>{ <span class="codeph"> Chaîne </span>} nouvel identifiant de ressource, jeu d’images explicite ou jeu d’images explicite avec des modificateurs de diffusion d’images spécifiques au cadre, avec les modificateurs globaux de diffusion d’images facultatifs ajoutés après "?". </p> <p> Les images qui utilisent IR (Image Rendering) ou UGC (User-Generated Content) ne sont pas prises en charge par cette visionneuse. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -37,31 +37,31 @@ Aucune
 
 ## Exemple {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
-Référence d’image unique :
+Référence d’image unique comme suit :
 
 ```
  <instance>.setAsset("Scene7SharedAssets/Backpack_B")
 ```
 
-Référence unique à une visionneuse d’images définie dans un catalogue :
+Référence unique à une visionneuse d’images définie dans un catalogue comme suit :
 
 ```
  <instance>.setAsset("Scene7SharedAssets/ImageSet-Views-Sample")
 ```
 
-Visionneuse d’images explicite :
+Visionneuse d’images explicite comme suit :
 
 ```
 <instance>.setAsset("Scene7SharedAssets/Backpack_B,Scene7SharedAssets/Backpack_C")
 ```
 
-Visionneuse d’images explicite avec modificateurs de diffusion d’images spécifiques au cadre :
+Visionneuse d’images explicite avec des modificateurs de diffusion d’images spécifiques au cadre comme suit :
 
 ```
  <instance>.setAsset("(Scene7SharedAssets/Backpack_B?op_colorize=255%2C0%2C0,Scene7SharedAssets/Backpack_B?op_colorize=0x00ff00)")
 ```
 
-Modificateur d’accentuation ajouté à toutes les images de la visionneuse :
+Modificateur d’accentuation ajouté à toutes les images de la visionneuse comme suit :
 
 ```
  <instance>.setAsset("Scene7SharedAssets/ImageSet-Views-Sample?op_sharpen=1")

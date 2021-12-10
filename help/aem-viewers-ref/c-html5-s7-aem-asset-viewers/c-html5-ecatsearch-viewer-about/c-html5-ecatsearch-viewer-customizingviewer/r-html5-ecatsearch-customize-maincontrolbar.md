@@ -1,13 +1,13 @@
 ---
+title: Barre de contrôle principale
 description: La barre de contrôle principale est la zone rectangulaire des ordinateurs de bureau et des tablettes qui contiennent tous les contrôles de l’interface utilisateur (à l’exception des boutons Grande page) disponibles pour la visionneuse de recherche eCatalog.
 solution: Experience Manager
-title: Barre de contrôle principale
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Recherche catalogue électronique
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: cee6a4d4-4099-4bc8-9d67-00a1e963a139
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '659'
 ht-degree: 1%
 
 ---
@@ -43,13 +43,13 @@ L’aspect de la barre de contrôle principale est contrôlé à l’aide du sé
    <td colname="col2"> <p>Hauteur de la barre de contrôle principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
    <td colname="col2"> <p>Couleur d’arrière-plan de la barre de contrôle principale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exemple**  : pour configurer une barre de contrôle principale grise de 36 pixels et positionnée en haut du conteneur de la visionneuse.
+**Exemple** : pour configurer une barre de contrôle principale grise de 36 pixels et positionnée en haut du conteneur de la visionneuse.
 
 ```
 .s7ecatalogsearchviewer .s7controlbar { 
@@ -59,7 +59,7 @@ L’aspect de la barre de contrôle principale est contrôlé à l’aide du sé
 }
 ```
 
-La barre de contrôle principale prend en charge une fonction de défilement facultative. Cette option est activée si la largeur de la visionneuse est trop petite et qu’il n’y a pas assez d’espace pour que tous les boutons prédéfinis de la barre de contrôle s’adaptent. Dans ce cas, une flèche à deux états s’affiche dans la partie droite de la barre de contrôle. Cliquez ou appuyez sur ce bouton pour faire défiler tous les éléments de la barre de contrôle vers la gauche ou vers la droite, selon l’état du bouton de défilement. Les Principaux cas d’utilisation de cette fonctionnalité sont les appareils mobiles avec de petits écrans en orientation portrait.
+La barre de contrôle principale prend en charge une fonction de défilement facultative. Cette option est activée si la largeur de la visionneuse est trop petite et qu’il n’y a pas assez d’espace pour que tous les boutons prédéfinis de la barre de contrôle s’adaptent. Dans ce cas, une flèche à deux états s’affiche dans la partie droite de la barre de contrôle. Cliquez ou appuyez sur ce bouton pour faire défiler tous les éléments de la barre de contrôle vers la gauche ou vers la droite, selon l’état du bouton de défilement. Le cas d’utilisation Principal de cette fonctionnalité est celui des appareils mobiles avec de petits écrans en orientation portrait.
 
 La fonction de défilement est activée pour la barre de contrôle principale et désactivée pour la barre de contrôle secondaire. La fonctionnalité est activée et désactivée à l’aide du sélecteur de classe CSS suivant :
 
@@ -75,12 +75,12 @@ La fonction de défilement est activée pour la barre de contrôle principale et
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> position </span> </p> </td> 
-   <td colname="col2"> <p>Lorsqu’elle est définie sur <span class="codeph"> statique </span>, la fonction de défilement est désactivée. </p> <p>Définissez cette propriété sur <span class="codeph"> absolu </span> pour activer la fonction de défilement. </p> </td> 
+   <td colname="col2"> <p>Lorsque la variable est définie sur <span class="codeph"> static </span> la fonction de défilement est désactivée. </p> <p>Définissez cette propriété sur <span class="codeph"> absolute </span> pour activer la fonction de défilement. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Le bouton de défilement est ajouté à un élément de conteneur spécial qui positionne correctement le bouton et permet de mettre en forme la zone autour du bouton différemment du reste de l’arrière-plan de la barre de contrôle, au cas où la hauteur du bouton de défilement serait inférieure à la hauteur de la barre de contrôle.
+Le bouton de défilement est ajouté à un élément de conteneur spécial qui positionne correctement le bouton. Il vous permet de mettre en forme la zone autour du bouton différemment du reste de l’arrière-plan de la barre de contrôle si la hauteur du bouton de défilement est inférieure à celle de la barre de contrôle.
 
 L’aspect de ce conteneur de boutons de défilement est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
@@ -99,7 +99,7 @@ L’aspect de ce conteneur de boutons de défilement est contrôlé à l’aide 
    <td colname="col2"> <p>Normalement, doit être égal ou supérieur à la largeur du bouton de défilement lui-même. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
    <td colname="col2"> <p>Couleur d’arrière-plan du conteneur. </p> </td> 
   </tr> 
  </tbody> 
@@ -120,31 +120,31 @@ L’aspect de ce bouton est contrôlé à l’aide du sélecteur de classe CSS s
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Largeur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
-   <td colname="col2"> <p>Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col2"> <p>Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ce bouton prend en charge les sélecteurs d’attributs `state` et `selected`, qui peuvent être utilisés pour appliquer différents habillages à différents états de bouton. En particulier, `state="selected"` correspond à l’état initial du bouton de défilement lorsqu’il est possible de faire défiler le contenu de la barre de contrôle vers la gauche ; `state="default"` correspond à l’état lorsque le contenu est défilé jusqu’à la gauche et que le bouton de défilement suggère de le renvoyer à l’état initial.
+>Ce bouton prend en charge `state` et `selected` sélecteurs d’attributs, qui peuvent être utilisés pour appliquer différents habillages à différents états de bouton. En particulier, `state="selected"` correspond à l’état initial du bouton de défilement lorsqu’il est possible de faire défiler le contenu de la barre de contrôle vers la gauche. Le `state="default"` correspond à l’état lorsque le contenu est défilé jusqu’à la gauche et que le bouton de défilement suggère de le renvoyer à l’état initial.
 
 L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 
-**Exemple**  : pour activer la fonction de défilement dans la barre de contrôle principale pour les téléphones mobiles, configurez un bouton de défilement de 64 x 64 pixels qui affiche une image différente pour chacun des 4 états de bouton différents lorsqu’il est sélectionné ou non :
+**Exemple** - Pour activer la fonction de défilement dans la barre de contrôle principale pour les téléphones mobiles. Configurez également un bouton de défilement de 64 x 64 pixels qui affiche une image différente pour chacun des quatre états de bouton différents lorsqu’il est sélectionné ou non :
 
 ```
 .s7ecatalogsearchviewer.s7size_small .s7controlbar .s7innercontrolbarcontainer { 

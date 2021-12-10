@@ -1,13 +1,13 @@
 ---
+title: Fenêtre contextuelle du panneau Infos
 description: La fenêtre contextuelle du panneau d’informations s’affiche au milieu de la zone de visionneuse lorsqu’un utilisateur active une zone cliquable dont la propriété rollover_key est définie dans Dynamic Media Classic et si la fonction du panneau d’informations est correctement configurée pour la visionneuse.
 solution: Experience Manager
-title: Fenêtre contextuelle du panneau Infos
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Recherche catalogue électronique
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 907b7bd5-3f87-4918-ad62-8a28249ea023
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '458'
 ht-degree: 3%
 
 ---
@@ -29,12 +29,12 @@ L’arrière-plan du panneau Informations couvre toute la zone de la visionneuse
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Remplir l’arrière-plan du panneau Informations. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
-   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés.</p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,11 +76,11 @@ La boîte de dialogue du panneau d’informations s’affiche par défaut au mil
    <td colname="col2"> <p>Hauteur de la boîte de dialogue. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
    <td colname="col2"> <p>La marge gauche de la boîte de dialogue du panneau d’informations peut être utilisée à des fins de centrage. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
    <td colname="col2"> <p>La marge supérieure de la boîte de dialogue du panneau d’informations peut être utilisée à des fins de centrage. </p> </td> 
   </tr> 
   <tr> 
@@ -88,15 +88,15 @@ La boîte de dialogue du panneau d’informations s’affiche par défaut au mil
    <td colname="col2"> <p>Marge intérieure de la boîte de dialogue interne. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
    <td colname="col2"> <p>Couleur d’arrière-plan de la boîte de dialogue. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p>Rayon de la bordure de la boîte de dialogue. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> box-shadow  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> box-shadow </span> </p> </td> 
    <td colname="col2"> <p>Ombre de la boîte de dialogue. </p> </td> 
   </tr> 
  </tbody> 
@@ -153,27 +153,27 @@ L’aspect de ce bouton est contrôlé à l’aide du sélecteur de classe CSS s
    <td colname="col2"> <p>Position à partir de la bordure inférieure de la boîte de dialogue. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Largeur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
-   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ce bouton prend en charge le sélecteur d’attributs `state` que vous pouvez utiliser pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge `state` sélecteur d’attributs que vous pouvez utiliser pour appliquer différents habillages à différents états de bouton.
 
 L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 

@@ -1,20 +1,20 @@
 ---
+title: ZoomView.transition
 description: ZoomView.transition
 solution: Experience Manager
-title: ZoomView.transition
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: f1b4faa3-14d1-4eef-acc2-214c7be4a5ab
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '102'
 ht-degree: 4%
 
 ---
 
 # ZoomView.transition{#zoomview-transition}
 
-` [ZoomView.|<containerId>_zoomView.]transition= *``*[, *`temporisation`*]`
+` [ZoomView.|<containerId>_zoomView.]transition= *`time`*[, *`assouplissement`*]`
 
 <table id="table_9E7BB12BF371419F88DD4D24EF04632C"> 
  <tbody> 

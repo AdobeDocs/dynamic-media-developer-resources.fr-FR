@@ -1,14 +1,14 @@
 ---
+title: Swatches.fmt
 description: Swatches.fmt
 solution: Experience Manager
-title: Swatches.fmt
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 8b47839a-ef3b-45ae-8e8d-5c9391d71d44
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 4%
+source-wordcount: '73'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td> <p>Indique le format d’image que le composant utilise pour charger les images à partir du serveur d’images. Si le format spécifié se termine par <span class="codeph"> -alpha</span>, le composant effectue le rendu des images en tant que contenu transparent. Pour tous les autres formats d’image, le composant traite les images comme opaques. Notez que le composant a par défaut un arrière-plan blanc. Par conséquent, pour rendre l’arrière-plan transparent, définissez la propriété CSS <span class="codeph"> background-color</span> sur <span class="codeph"> transparent</span>. </p> </td> 
+   <td> <p>Indique le format d’image que le composant utilise pour charger les images à partir du serveur d’images. Si le format spécifié se termine par <span class="codeph"> -alpha</span>, le composant effectue le rendu des images en tant que contenu transparent. Pour tous les autres formats d’image, le composant traite les images comme opaques. Par défaut, l’arrière-plan du composant est blanc. Par conséquent, pour rendre l’arrière-plan transparent, définissez la variable <span class="codeph"> arrière-plan-couleur</span> Propriété CSS à <span class="codeph"> transparent</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

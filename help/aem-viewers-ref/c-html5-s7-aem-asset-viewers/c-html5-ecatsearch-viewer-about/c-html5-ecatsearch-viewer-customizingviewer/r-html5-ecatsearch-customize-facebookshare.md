@@ -1,11 +1,11 @@
 ---
+title: Partage facebook
 description: L’outil de partage facebook se compose d’un bouton ajouté au panneau Partage sur les réseaux sociaux. Lorsque le bouton est sélectionné, l’utilisateur est redirigé vers une boîte de dialogue de partage fournie par un service social. La position du bouton est entièrement gérée par l’outil Partage sur les réseaux sociaux .
 solution: Experience Manager
-title: Partage facebook
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 792d53de-5561-48bb-85d7-fbf3b6377673
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%

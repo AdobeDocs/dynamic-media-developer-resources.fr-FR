@@ -1,13 +1,13 @@
 ---
+title: Prise en charge du suivi Adobe Analytics
 description: Prise en charge du suivi Adobe Analytics
 solution: Experience Manager
-title: Prise en charge du suivi Adobe Analytics
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 5f927a4b-b9c8-4750-9d1c-c252d87fd236
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '144'
 ht-degree: 3%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 3%
 
 ## Suivi d’usine {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-La visionneuse vidéo prend en charge le suivi [!DNL Adobe Analytics] prêt à l’emploi. Pour activer le suivi, transmettez le nom du paramètre prédéfini de l’entreprise approprié en tant que paramètre `config2` .
+La visionneuse de vidéos prend en charge [!DNL Adobe Analytics] suivi prêt à l’emploi. Pour activer le suivi, transmettez le nom de paramètre prédéfini d’entreprise approprié en tant que `config2` .
 
 La visionneuse envoie également une requête HTTP de suivi unique au serveur d’images configuré avec le type de visionneuse et les informations de version.
 
 ## Suivi personnalisé {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Pour l’intégrer aux systèmes d’analyse tiers, il est nécessaire d’écouter le rappel de la visionneuse `trackEvent` et de traiter l’argument `eventInfo` de la fonction de rappel, le cas échéant. Le code suivant est un exemple de fonction de gestionnaire de ce type :
+Pour s’intégrer à des systèmes d’analyse tiers, il est nécessaire d’écouter la `trackEvent` rappel de la visionneuse et traitement de la `eventInfo` de la fonction de rappel, le cas échéant. Le code suivant est un exemple de fonction de gestionnaire de ce type :
 
 ```
 var zoomViewer = new s7viewers.ZoomViewer({ 
@@ -62,7 +62,7 @@ La visionneuse effectue le suivi des événements utilisateur du SDK suivants :
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PERMUTATION </span> </p> </td> 
-   <td colname="col2"> <p>une ressource est échangée dans la visionneuse à l’aide de l’API <span class="codeph"> setAsset() </span> . </p> </td> 
+   <td colname="col2"> <p>une ressource est permutée dans la visionneuse à l’aide de la fonction <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 

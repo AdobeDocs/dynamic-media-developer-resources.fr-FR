@@ -1,13 +1,13 @@
 ---
+title: Swatches.enabledragging
 description: Swatches.enabledragging
 solution: Experience Manager
-title: Swatches.enabledragging
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 6ae18f94-7a0f-429e-9684-eff43f523b1d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '75'
 ht-degree: 6%
 
 ---
@@ -23,8 +23,8 @@ ht-degree: 6%
    <td> <p> Permet ou désactive la possibilité pour un utilisateur de faire défiler les échantillons avec la souris ou à l’aide de mouvements tactiles. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> overdragvalue  </span> </span> </p> </td> 
-   <td> <p> Fonctions comprises dans la plage <span class="codeph"> 0-1 </span>. Il s’agit d’une valeur <span class="codeph"> % </span> pour le mouvement dans la mauvaise direction de la vitesse réelle. Si elle est définie sur <span class="codeph"> 1 </span>, elle se déplace avec la souris. S’il est défini sur <span class="codeph"> 0 </span>, il ne vous permet pas du tout de vous diriger dans la mauvaise direction. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> overdragvalue </span> </span> </p> </td> 
+   <td> <p> Fonctions au sein de <span class="codeph"> 0-1 </span> plage. Il s’agit d’une <span class="codeph"> % </span> valeur pour le mouvement dans la mauvaise direction de la vitesse réelle. Si elle est définie sur <span class="codeph"> 1 </span>, il bouge avec la souris. Si elle est définie sur <span class="codeph"> 0 </span>, cela ne vous permet pas du tout de vous diriger dans la mauvaise direction. </p> </td> 
   </tr> 
  </tbody> 
 </table>

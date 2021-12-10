@@ -1,13 +1,13 @@
 ---
+title: Zone de visionneuse principale
 description: La zone d’affichage principale est la zone occupée par l’image du catalogue. Il est généralement défini pour s’adapter à l’écran de l’appareil disponible lorsqu’aucune taille n’est spécifiée.
 solution: Experience Manager
-title: Zone de visionneuse principale
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Recherche catalogue électronique
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 854f5fa7-f46d-4c4f-9a44-886fec93f606
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '116'
 ht-degree: 2%
 
 ---
@@ -43,13 +43,13 @@ L’aspect de la zone d’affichage est contrôlé à l’aide du sélecteur de 
    <td colname="col2"> <p>Hauteur de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan au format hexadécimal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : pour configurer une visionneuse avec un arrière-plan blanc ( `#FFFFFF`) et lui donner une taille de 512 x 288 pixels.
+Exemple : pour configurer une visionneuse avec un arrière-plan blanc ( `#FFFFFF`) et sa taille est de 512 x 288 pixels.
 
 ```
 .s7ecatalogsearchviewer { 

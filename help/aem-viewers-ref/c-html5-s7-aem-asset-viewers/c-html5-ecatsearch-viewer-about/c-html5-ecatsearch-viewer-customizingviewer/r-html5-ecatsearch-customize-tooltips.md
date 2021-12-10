@@ -1,20 +1,20 @@
 ---
-description: Sur les systèmes de bureau, certains éléments de l’interface utilisateur, tels que les boutons, comportent des info-bulles qui s’affichent lorsque vous pointez dessus.
-solution: Experience Manager
 title: Infobulles
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Recherche catalogue électronique
+description: Sur les systèmes de bureau, certains éléments de l’interface utilisateur tels que les boutons comportent des info-bulles qui s’affichent lorsque vous pointez dessus.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 0350bdbc-3e3d-4bc0-98f6-5d7bf4121d9a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '142'
 ht-degree: 2%
 
 ---
 
 # Infobulles{#tooltips}
 
-Sur les systèmes de bureau, certains éléments de l’interface utilisateur, tels que les boutons, comportent des info-bulles qui s’affichent lorsque vous pointez dessus.
+Sur les systèmes de bureau, certains éléments de l’interface utilisateur tels que les boutons comportent des info-bulles qui s’affichent lorsque vous pointez dessus.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,15 +35,15 @@ L’aspect des info-bulles est contrôlé à l’aide du sélecteur de classe CS
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p> Rayon de la bordure de fond. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-color </span> </p> </td> 
    <td colname="col2"> <p> Couleur de bordure de l’arrière-plan. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
    <td colname="col2"> <p> Couleur de fond. </p> </td> 
   </tr> 
   <tr> 
@@ -51,11 +51,11 @@ L’aspect des info-bulles est contrôlé à l’aide du sélecteur de classe CS
    <td colname="col2"> <p>Couleur du texte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Nom de la police de texte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Taille de police du texte. </p> </td> 
   </tr> 
  </tbody> 
@@ -63,9 +63,9 @@ L’aspect des info-bulles est contrôlé à l’aide du sélecteur de classe CS
 
 >[!NOTE]
 >
->Si les styles d’info-bulle sont personnalisés dans la page web d’intégration, toutes les propriétés doivent contenir la règle `!IMPORTANT` . Cela n’est pas nécessaire si les info-bulles sont personnalisées dans le fichier CSS de la visionneuse.
+>Si les styles d’info-bulle sont personnalisés dans la page web d’intégration, toutes les propriétés doivent contenir `!IMPORTANT` règle. Cette règle n’est pas nécessaire si les info-bulles sont personnalisées dans le fichier CSS de la visionneuse.
 
-Exemple : pour configurer des info-bulles dont la bordure est grise avec un rayon d’angle 3px, un arrière-plan noir et du texte blanc écrits en Arial, d’une taille de 11 pixels :
+Exemple : pour configurer des info-bulles dont la bordure est grise avec un rayon d’angle de 3 pixels, un arrière-plan noir et un texte blanc écrits avec Arial®, taille de 11 pixels :
 
 ```
 .s7tooltip { 

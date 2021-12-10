@@ -1,14 +1,14 @@
 ---
+title: Swatches.partialswatches
 description: Swatches.partialswatches
 solution: Experience Manager
-title: Swatches.partialswatches
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: b2a65077-c322-446a-8d71-bded292215bf
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 12%
+source-wordcount: '34'
+ht-degree: 14%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 12%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> Indique si le composant permet l’arrêt du défilement lorsque l’un des échantillons est partiellement visible (le défilement n’est pas aligné). La valeur recommandée est <span class="codeph"> false</span> ou <span class="codeph"> 0</span>. </p> </td> 
+   <td> <p> Indique si le composant permet l’arrêt du défilement lorsque l’un des échantillons est partiellement visible (le défilement n’est pas aligné). La valeur recommandée est la suivante : <span class="codeph"> false</span> ou <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

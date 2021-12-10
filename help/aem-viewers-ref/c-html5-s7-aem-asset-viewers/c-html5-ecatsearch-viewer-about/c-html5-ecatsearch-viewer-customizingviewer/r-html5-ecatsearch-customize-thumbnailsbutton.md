@@ -1,20 +1,20 @@
 ---
-description: Cliquez ou appuyez sur ce bouton pour réinitialiser la visionneuse entre la vue principale et les miniatures. Ce bouton apparaît dans la barre de contrôle principale. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
-solution: Experience Manager
 title: Bouton Miniatures
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Recherche catalogue électronique
+description: La sélection de ce bouton réinitialise la visionneuse entre la vue principale et les miniatures. Ce bouton apparaît dans la barre de contrôle principale. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 465d4320-14ea-4f07-97c0-41f53034a7df
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '270'
 ht-degree: 1%
 
 ---
 
 # Bouton Miniatures{#thumbnails-button}
 
-Cliquez ou appuyez sur ce bouton pour réinitialiser la visionneuse entre la vue principale et les miniatures. Ce bouton apparaît dans la barre de contrôle principale. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
+La sélection de ce bouton réinitialise la visionneuse entre la vue principale et les miniatures. Ce bouton apparaît dans la barre de contrôle principale. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
@@ -33,12 +33,12 @@ L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suiv
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
    <td colname="col2"> <p> Décalage par rapport au haut de la barre de contrôle. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
-   <td colname="col2"> <p> Distance du bouton suivant à gauche ou du côté gauche de la barre de contrôle s’il s’agit du premier bouton d’une ligne. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col2"> <p> Distance du bouton suivant à gauche ou du côté gauche de la barre de contrôle si ce bouton est le premier de la rangée. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -49,23 +49,23 @@ L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suiv
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
-   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ce bouton prend en charge les sélecteurs d’attributs `state` et `selected`, qui peuvent être utilisés pour appliquer différents habillages à différents états de bouton. En particulier, `selected='true'` correspond à l’état de la visionneuse lorsque le mode de miniature est principal et `selected='false'` correspond à l’état par défaut avec la vue principale.
+>Ce bouton prend en charge les deux `state` et `selected` sélecteurs d’attributs, qui peuvent être utilisés pour appliquer différents habillages à différents états de bouton. En particulier, `selected='true'` correspond à l’état de la visionneuse lorsque le mode de miniature est principal et `selected='false'` correspond à l’état par défaut avec la vue principale.
 
 L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 
-Exemple : pour configurer un bouton de miniatures de 28 x 28 pixels, positionné 4 pixels en bas et 5 pixels à partir du bord gauche de la barre de contrôle principale, et affiche une image différente pour chacun des quatre états de bouton différents lorsqu’il est sélectionné ou non.
+Exemple : pour configurer un bouton de miniatures de 28 x 28 pixels et positionné 4 pixels à partir du bas et 5 pixels à partir du bord gauche de la barre de contrôle principale. Enfin, affiche une image différente pour chacun des quatre états de bouton différents lorsqu’il est sélectionné ou non.
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailpagebutton{ 

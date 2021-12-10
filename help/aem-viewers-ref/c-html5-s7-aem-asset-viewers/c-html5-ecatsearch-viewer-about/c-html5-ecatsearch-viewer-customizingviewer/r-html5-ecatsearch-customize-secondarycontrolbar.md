@@ -1,13 +1,13 @@
 ---
+title: Barre de contrôle Secondaire
 description: La barre de contrôle secondaire est la zone rectangulaire qui contient les boutons Première et Dernière page et un Indicateur de page lorsqu’il est disponible dans CSS.
 solution: Experience Manager
-title: Barre de contrôle Secondaire
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Recherche catalogue électronique
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: e5d6abe8-0ae9-4ccd-b311-5895e09310b2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '169'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 La barre de contrôle secondaire est la zone rectangulaire qui contient les boutons Première et Dernière page et un Indicateur de page lorsqu’il est disponible dans CSS.
 
-Par défaut, elle s’affiche uniquement sur les téléphones mobiles et se trouve au bas de la visionneuse. Il prend toujours toute la largeur disponible de la visionneuse. Il est possible de modifier sa couleur, sa hauteur et sa position verticale par CSS, par rapport au conteneur de la visionneuse.
+Par défaut, elle s’affiche uniquement sur les téléphones mobiles, dans la partie inférieure de la visionneuse. Il prend toujours toute la largeur disponible de la visionneuse. Il est possible de modifier sa couleur, sa hauteur et sa position verticale par CSS, par rapport au conteneur de la visionneuse.
 
 L’aspect de la barre de contrôle secondaire est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
@@ -43,7 +43,7 @@ L’aspect de la barre de contrôle secondaire est contrôlé à l’aide du sé
    <td colname="col2"> <p>Hauteur de la barre de contrôle principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
    <td colname="col2"> <p>Couleur d’arrière-plan de la barre de contrôle secondaire. </p> </td> 
   </tr> 
  </tbody> 

@@ -1,13 +1,13 @@
 ---
+title: ZoomView.singleclick
 description: ZoomView.singleclick
 solution: Experience Manager
-title: ZoomView.singleclick
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 3fd5b907-faf6-4d36-8ee1-79f3ace781d4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '92'
 ht-degree: 4%
 
 ---
@@ -19,8 +19,8 @@ ht-degree: 4%
 <table id="table_82C9252157DB41B5B98505855975D2F5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoomReset  </span> </p> </td> 
-   <td colname="col2"> <p> Configure le mappage des actions de zoom d’un simple clic/d’un simple clic. La définition de sur <span class="codeph"> none </span> désactive le zoom par clic/pression. Si la valeur est <span class="codeph"> zoom </span>, cliquez sur l’image pour effectuer un zoom avant sur une étape de zoom ; CTRL+Clic permet d’afficher un zoom arrière sur une étape de zoom. Si vous définissez cette valeur sur <span class="codeph"> et réinitialiser </span>, un seul clic sur l’image réinitialise le zoom au niveau de zoom initial. Pour <span class="codeph"> zoomReset </span>, la réinitialisation est appliquée si le facteur de zoom actuel est à la limite spécifiée ou au-delà de cette dernière, sinon un zoom est appliqué. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoomReset </span> </p> </td> 
+   <td colname="col2"> <p> Configure le mappage des actions de zoom d’un simple clic/d’un simple clic. Définir sur <span class="codeph"> none </span> désactive le zoom en un clic/en un clic. Si la variable est définie sur <span class="codeph"> zoom </span> le fait de cliquer sur l’image agrandit une étape de zoom ; CTRL+Clic permet d’afficher un zoom arrière sur une étape de zoom. Définir sur <span class="codeph"> reset </span> fait qu’un seul clic sur l’image réinitialise le zoom sur le niveau de zoom initial. Pour <span class="codeph"> zoomReset </span>, la réinitialisation est appliquée si le facteur de zoom actuel se situe à la limite spécifiée ou au-delà de cette dernière ; dans le cas contraire, un zoom est appliqué. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -31,7 +31,7 @@ Facultatif.
 
 ## Par défaut {#section-71fb773f814649b2885aefee68073641}
 
-`zoomReset` sur les ordinateurs de bureau ;  `none` sur les périphériques tactiles.
+`zoomReset` - Sur les ordinateurs de bureau ; `none` sur les périphériques tactiles.
 
 ## Exemple {#section-bce98c31f08a4a0ab262fab7f95ba020}
 
