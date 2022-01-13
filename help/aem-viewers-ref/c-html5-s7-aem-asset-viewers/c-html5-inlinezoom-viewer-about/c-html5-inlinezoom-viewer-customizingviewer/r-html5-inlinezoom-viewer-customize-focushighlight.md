@@ -1,13 +1,13 @@
 ---
+title: Mise en évidence de la cible
 description: La mise en surbrillance de la cible d’action affichée autour de l’élément d’interface utilisateur de la visionneuse ciblée est contrôlée avec le sélecteur de classe CSS.
 solution: Experience Manager
-title: Mise en évidence de la cible
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Zoom intégré
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 5849dc2f-d4df-40a2-82c9-454284308a04
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '78'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ L’aspect est contrôlé à l’aide du sélecteur de classe CSS suivant :
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> composition  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> composition </span> </p> </td> 
    <td colname="col2"> <p>Style de mise en surbrillance du focus. </p> </td> 
   </tr> 
  </tbody> 

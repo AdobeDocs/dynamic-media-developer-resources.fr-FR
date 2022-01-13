@@ -1,13 +1,13 @@
 ---
+title: setAsset
 description: Référence de l’API JavaScript pour la visionneuse de zoom intégrée.
 solution: Experience Manager
-title: setAsset
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Zoom intégré
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 62b46ad5-90b7-49e1-a426-87fbe956f07e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '127'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Référence de l’API JavaScript pour la visionneuse de zoom intégrée.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ressource</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> Chaîne</span>} nouvel identifiant de ressource, jeu d’images explicites ou jeu d’images explicites avec des modificateurs de diffusion d’images spécifiques au cadre, avec des modificateurs de diffusion d’images globaux facultatifs ajoutés après <span class="codeph"> ?</span>. </p> <p> Les images qui utilisent IR (Image Rendering) ou UGC (User-Generated Content) ne sont pas prises en charge par cette visionneuse. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> Chaîne</span>} nouvel identifiant de ressource, jeu d’images explicite ou jeu d’images explicite avec des modificateurs de diffusion d’images spécifiques au cadre, avec les modificateurs globaux de diffusion d’images facultatifs ajoutés après <span class="codeph"> ?</span>. </p> <p> Les images qui utilisent IR (Image Rendering) ou UGC (User-Generated Content) ne sont pas prises en charge par cette visionneuse. </p> </td> 
   </tr> 
  </tbody> 
 </table>

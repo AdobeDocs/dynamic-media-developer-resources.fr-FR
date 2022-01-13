@@ -1,13 +1,13 @@
 ---
+title: Swatches.pagemode
 description: Swatches.pagemode
 solution: Experience Manager
-title: Swatches.pagemode
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Fenêtre déroulante
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 6d6aa024-2a31-4119-8bb3-feb02d838941
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '63'
 ht-degree: 7%
 
 ---

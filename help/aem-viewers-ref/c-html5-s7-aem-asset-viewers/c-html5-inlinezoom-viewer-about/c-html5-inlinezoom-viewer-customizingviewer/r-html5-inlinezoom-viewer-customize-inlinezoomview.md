@@ -1,11 +1,11 @@
 ---
-description: La vue principale est composée de l’image statique, de l’image agrandie affichée dans la vue déroulante au-dessus de l’image statique et du message d’info-bulle affiché au-dessus de l’image statique.
-solution: Experience Manager
 title: Zoom déroulant
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Zoom intégré
+description: La vue principale se compose de l’image statique et de l’image agrandie affichée dans la vue déroulante au-dessus de l’image statique. Il se compose également du message d’info-bulle affiché au-dessus d’une image statique.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 7b4b5cc9-68ad-4e7a-a2d9-3bbced929145
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 1%
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Zoom déroulant{#flyout-zoom-view}
 
-La vue principale est composée de l’image statique, de l’image agrandie affichée dans la vue déroulante au-dessus de l’image statique et du message d’info-bulle affiché au-dessus de l’image statique.
+La vue principale se compose de l’image statique et de l’image agrandie affichée dans la vue déroulante au-dessus de l’image statique. Il se compose également du message d’info-bulle affiché au-dessus d’une image statique.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -35,7 +35,7 @@ L’aspect de la vue principale est contrôlé à l’aide du sélecteur de clas
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan de la vue principale. </p> </td> 
   </tr> 
  </tbody> 
@@ -57,7 +57,7 @@ L’aspect du message d’info-bulle est contrôlé à l’aide du sélecteur de
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-Il est possible de configurer le style de police, l’aspect de la taille et le décalage vertical au moyen de CSS. Toutefois, l’alignement horizontal est géré par la logique de la visionneuse. Le remplacement de cet élément par une page CSS à l’aide des propriétés `left` ou `right` n’est pas pris en charge.
+Il est possible de configurer le style, la taille, l’aspect et le décalage vertical de la police au moyen de CSS. Cependant, l’alignement horizontal est géré par la logique de la visionneuse. Le remplacer par CSS à l’aide de `left` ou `right` ne sont pas prises en charge.
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
@@ -76,11 +76,11 @@ Il est possible de configurer le style de police, l’aspect de la taille et le 
    <td colname="col2"> <p>Couleur du texte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Nom de la police. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Taille de police. </p> </td> 
   </tr> 
   <tr> 
@@ -88,16 +88,16 @@ Il est possible de configurer le style de police, l’aspect de la taille et le 
    <td colname="col2"> <p>Marge intérieure autour du texte du message. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
    <td colname="col2"> <p>Couleur de fond du texte du message. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p>Rayon de la bordure d’arrière-plan du texte du message. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacité  </span> </p> </td> 
-   <td colname="col2"> <p>Opacité de l’arrière-plan du texte du message. </p> <p>Pour Internet Explorer 8, utilisez <span class="codeph"> filter:alpha(opacity-..) ) </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacité </span> </p> </td> 
+   <td colname="col2"> <p>Opacité de l’arrière-plan du texte du message. </p> <p>Pour Internet Explorer 8, utilisez <span class="codeph"> filter:alpha(opacity-...) ) </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -106,7 +106,7 @@ Le message de conseil peut être localisé. Voir [Localisation des éléments de
 
 .
 
-Exemple : pour configurer un message d’info-bulle semi-transparent avec une police Arial blanche de 12 px, un décalage de 50 pixels par rapport au bas de la vue principale, de la marge intérieure et d’une bordure arrondie :
+Exemple : pour configurer un message d’info-bulle semi-transparent avec une police Arial® de 12 pixels, un décalage de 50 pixels par rapport au bas de l’affichage principal, une marge intérieure et une bordure arrondie :
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7tip { 

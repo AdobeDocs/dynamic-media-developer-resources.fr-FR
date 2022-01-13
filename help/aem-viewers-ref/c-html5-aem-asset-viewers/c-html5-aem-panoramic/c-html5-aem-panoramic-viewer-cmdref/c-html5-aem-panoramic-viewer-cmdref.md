@@ -4,9 +4,9 @@ description: Documentation des attributs de configuration pour la visionneuse pa
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 Documentation des attributs de configuration pour la visionneuse panoramique.
 
-Toute commande de configuration peut être définie dans une URL ou à l’aide de `setParam()` et/ou `setParams()` méthodes API. Tout attribut de configuration peut également être spécifié dans l’enregistrement de configuration côté serveur.
+Toute commande de configuration peut être définie dans une URL ou à l’aide de `setParam()` et/ou `setParams()` méthodes API. Any config attribute can be also specified in server-side configuration record.
 
-Certaines commandes de configuration peuvent comporter le préfixe du nom de classe ou du nom d’instance du composant SDK HTML5 correspondant. Un nom d’instance du composant est dynamique et dépend de l’identifiant de l’élément DOM du conteneur de visionneuses transmis à `setContainerId()` méthode API. La documentation inclura un préfixe facultatif pour ces commandes. Par exemple : `vrrender` La commande sera documentée comme suit :
+Some configuration commands may be prefixed with the class name or instance name of corresponding HTML5 SDK component. Un nom d’instance du composant est dynamique et dépend de l’identifiant de l’élément DOM du conteneur de visionneuses transmis à `setContainerId()` méthode API. La documentation inclura un préfixe facultatif pour ces commandes. Par exemple : `vrrender` La commande est documentée comme suit :
 
 ```
 [PanoramicView.|<containerId>_panoramicView].vrrender

@@ -1,14 +1,14 @@
 ---
+title: Fenêtre déroulante
 description: Visionneuse déroulante est une visionneuse d’images. Il affiche une image statique avec la version agrandie affichée dans la vue déroulante qu’un utilisateur active. Cette visionneuse fonctionne avec des visionneuses d’images et la navigation est effectuée à l’aide d’échantillons. Il est conçu pour fonctionner sur les ordinateurs de bureau et les appareils mobiles.
 keywords: responsive
 solution: Experience Manager
-title: Fenêtre déroulante
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Fenêtre déroulante
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 9b60330f-5348-431d-9682-cf97aace3679
-source-git-commit: f77dc0c1ac8305037bbb561451317c8e62209cec
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '2072'
+source-wordcount: '2065'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ La visionneuse prend également en charge les entrées tactile et de souris sur 
 
 Cette visionneuse est entièrement accessible au clavier.
 
-Voir [Accessibilité clavier et navigation](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
+Voir [Accessibilité du clavier et navigation](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
 ## Intégration de la visionneuse déroulante {#section-6bb5d3c502544ad18a58eafe12a13435}
 
@@ -78,26 +78,26 @@ Le comportement de la visionneuse varie en fonction des pages web. La page web p
 
 Le mode d’incorporation des tailles fixe est utilisé lorsque la visionneuse ne modifie pas sa taille après son chargement initial. Ce choix est préférable pour les pages web ayant une mise en page statique.
 
-Le mode d’incorporation des conceptions réactives suppose que la visionneuse doit être redimensionnée au moment de l’exécution en réponse au changement de taille de son conteneur `DIV`. Le cas d’utilisation le plus courant consiste à ajouter une visionneuse à une page web qui utilise une mise en page flexible.
+Le mode d’incorporation des conceptions réactives suppose que la visionneuse doit être redimensionnée lors de l’exécution en réponse au changement de taille de son conteneur. `DIV`. Le cas d’utilisation le plus courant consiste à ajouter une visionneuse à une page web qui utilise une mise en page flexible.
 
-Lors de l’utilisation du mode d’incorporation de Responsive Design avec la visionneuse Fenêtre déroulante, veillez à spécifier des points d’arrêt explicites pour l’image de la vue principale à l’aide du paramètre `imagereload` . Idéalement, faites correspondre vos points d’arrêt avec les points d’arrêt de largeur de la visionneuse comme dicté par la page web CSS.
+Lors de l’utilisation du mode d’incorporation Responsive Design avec la visionneuse Fenêtre déroulante, veillez à spécifier des points d’arrêt explicites pour l’image de la vue principale à l’aide de la fonction `imagereload` . Idéalement, faites correspondre vos points d’arrêt avec les points d’arrêt de largeur de la visionneuse comme dicté par la page web CSS.
 
-En mode d’incorporation en responsive design, la visionneuse se comporte différemment selon la taille d’un conteneur de pages web `DIV`. Si la page web définit uniquement la largeur du conteneur `DIV`, en ne limitant pas sa hauteur, la visionneuse choisit automatiquement sa hauteur en fonction des proportions de la ressource utilisée. Cette fonctionnalité signifie que la ressource s’intègre parfaitement à la vue sans marge intérieure sur les côtés. Ce cas d’utilisation particulier est le plus courant pour les pages web qui utilisent des structures de mise en page en responsive design comme Bootstrap et Foundation.
+En mode d’incorporation de responsive design, la visionneuse se comporte différemment selon la manière dont un conteneur de pages web est utilisé. `DIV` est dimensionnée. Si la page web définit uniquement la largeur du conteneur `DIV`, sans restriction de hauteur, la visionneuse choisit automatiquement sa hauteur en fonction des proportions de la ressource utilisée. Cette fonctionnalité signifie que la ressource s’intègre parfaitement à la vue sans marge intérieure sur les côtés. Ce cas d’utilisation particulier est le plus courant pour les pages web qui utilisent des structures de mise en page en responsive design comme Bootstrap et Foundation.
 
-Dans le cas contraire, si la page web définit à la fois la largeur et la hauteur du conteneur de la visionneuse `DIV`, la visionneuse ne remplit que cette zone et suit la taille fournie par la mise en page web. Un bon exemple de cas d’utilisation consiste à incorporer la visionneuse dans une superposition modale, où la superposition est dimensionnée en fonction de la taille de la fenêtre du navigateur web.
+Sinon, si la page web définit la largeur et la hauteur du conteneur de la visionneuse. `DIV`, la visionneuse ne remplit que cette zone et suit la taille fournie par la mise en page web. Un bon exemple de cas d’utilisation consiste à incorporer la visionneuse dans une superposition modale, où la superposition est dimensionnée en fonction de la taille de la fenêtre du navigateur web.
 
 **Incorporation de taille fixe**
 
 Pour ajouter la visionneuse à une page web, procédez comme suit :
 
 1. Ajout du fichier JavaScript de la visionneuse à votre page web.
-1. Définition du conteneur `DIV`.
+1. Définir le conteneur `DIV`.
 1. Définition de la taille de la visionneuse.
 1. Création et initialisation de la visionneuse.
 
 1. Ajout du fichier JavaScript de la visionneuse à votre page web.
 
-   Pour créer une visionneuse, vous devez ajouter une balise de script dans l’en-tête HTML. Avant d’utiliser l’API de visionneuse, veillez à inclure `FlyoutViewer.js`. `FlyoutViewer.js` se trouve dans le sous- [!DNL html5/js/] dossier suivant de votre déploiement IS-Viewers standard :
+   Pour créer une visionneuse, vous devez ajouter une balise de script dans l’en-tête du HTML. Avant d’utiliser l’API de visionneuse, veillez à inclure `FlyoutViewer.js`. `FlyoutViewer.js` se trouve dans la variable [!DNL html5/js/] sous-dossier de votre déploiement IS-Viewers standard :
 
 [!DNL <s7viewers_root>/html5/js/FlyoutViewer.js]
 
@@ -111,7 +111,7 @@ Un chemin relatif ressemble à ce qui suit :
 
 >[!NOTE]
 >
->Ne référencez que le fichier JavaScript de la visionneuse principale `include` sur votre page. Ne référencez pas de fichiers JavaScript supplémentaires dans le code de page web qui pourraient être téléchargés par la logique de la visionneuse au moment de l’exécution. En particulier, ne référencez pas directement la bibliothèque `Utils.js` SDK HTML5 chargée par la visionneuse à partir du chemin de contexte `/s7viewers` (appelé SDK consolidé `include`). Cela est dû au fait que l’emplacement des bibliothèques de visionneuses `Utils.js` ou d’exécution similaires est entièrement géré par la logique de la visionneuse et que l’emplacement change entre les versions de la visionneuse. Adobe ne conserve pas les anciennes versions de la visionneuse secondaire `includes` sur le serveur.
+>Ne référencez que le code JavaScript de la visionneuse principale `include` sur votre page. Ne référencez pas de fichiers JavaScript supplémentaires dans le code de page web qui pourraient être téléchargés par la logique de la visionneuse au moment de l’exécution. En particulier, ne référencez pas directement le SDK HTML5. `Utils.js` bibliothèque chargée par la visionneuse depuis `/s7viewers` chemin d’accès au contexte (appelé SDK consolidé) `include`). La raison en est que l’emplacement de la variable `Utils.js` ou des bibliothèques de visionneuses d’exécution similaires sont entièrement gérées par la logique de la visionneuse et l’emplacement change entre les versions de la visionneuse. Adobe ne conserve pas les anciennes versions de la visionneuse secondaire `includes` sur le serveur.
 >
 >
 >Par conséquent, l’insertion d’une référence directe à tout JavaScript secondaire `include` utilisé par la visionneuse sur la page rompt la fonctionnalité de visionneuse à l’avenir lorsqu’une nouvelle version de produit est déployée.
@@ -120,9 +120,9 @@ Un chemin relatif ressemble à ce qui suit :
 
    Ajoutez un élément DIV vide à la page sur laquelle vous souhaitez que la visionneuse apparaisse. L’ID de l’élément DIV doit être défini, car cet ID est ensuite transmis à l’API de visionneuse.
 
-   L’espace réservé DIV est un élément positionné, ce qui signifie que la propriété CSS `position` est définie sur `relative` ou `absolute`.
+   L’espace réservé DIV est un élément positionné, ce qui signifie que la variable `position` La propriété CSS est définie sur `relative` ou `absolute`.
 
-   Il est de la responsabilité de la page web de spécifier la balise `z-index` appropriée pour l’élément DIV de l’espace réservé. Cela garantit que la partie fenêtre déroulante de la visionneuse s’affiche au-dessus des autres éléments de la page web.
+   Il est de la responsabilité de la page web de spécifier les `z-index` pour l’élément d’espace réservé DIV. Cela garantit que la partie fenêtre déroulante de la visionneuse s’affiche au-dessus des autres éléments de la page web.
 
    Voici un exemple d’élément DIV d’espace réservé défini :
 
@@ -132,13 +132,13 @@ Un chemin relatif ressemble à ce qui suit :
 
 1. Définition de la taille de la visionneuse.
 
-   Cette visionneuse affiche des miniatures lorsque vous utilisez des jeux de plusieurs éléments. Sur les systèmes de bureau, les miniatures sont placées sous la vue principale. En même temps, la visionneuse permet la permutation de la ressource principale lors de l’exécution à l’aide de l’API `setAsset()`. En tant que développeur, vous contrôlez la manière dont la visionneuse gère la zone des miniatures dans la zone inférieure lorsque la nouvelle ressource ne comporte qu’un seul élément. Il est possible de conserver la taille de la visionneuse externe intacte et de laisser la vue principale augmenter sa hauteur et occuper la zone des miniatures. Vous pouvez également conserver la taille d’affichage principale statique et réduire la zone de la visionneuse extérieure, en laissant le contenu de la page web se déplacer vers le haut, puis utiliser l’espace libre de la page laissé par les miniatures.
+   Cette visionneuse affiche des miniatures lorsque vous utilisez des jeux de plusieurs éléments. Sur les systèmes de bureau, les miniatures sont placées sous la vue principale. En même temps, la visionneuse permet la permutation de la ressource principale lors de l’exécution à l’aide de `setAsset()` API. En tant que développeur, vous contrôlez la manière dont la visionneuse gère la zone des miniatures dans la zone inférieure lorsque la nouvelle ressource ne comporte qu’un seul élément. Il est possible de conserver la taille de la visionneuse externe intacte et de laisser la vue principale augmenter sa hauteur et occuper la zone des miniatures. Vous pouvez également conserver la taille d’affichage principale statique et réduire la zone de la visionneuse extérieure, en laissant le contenu de la page web se déplacer vers le haut, puis utiliser l’espace libre de la page laissé par les miniatures.
 
-   Pour conserver les limites de la visionneuse externe intactes, définissez la taille de la classe CSS de niveau supérieur `.s7flyoutviewer` en unités absolues. Le dimensionnement en CSS peut être directement placé sur la page HTML ou dans un fichier CSS de visionneuse personnalisé, affecté ultérieurement à un enregistrement de paramètre prédéfini de visionneuse dans Dynamic Media Classic ou transmis explicitement à l’aide de la commande de style.
+   Pour conserver les limites de la visionneuse externe intactes, définissez la taille de `.s7flyoutviewer` classe CSS de niveau supérieur en unités absolues. Le dimensionnement en CSS peut être placé directement sur la page de HTML ou dans un fichier CSS de visionneuse personnalisé, affecté ultérieurement à un enregistrement de paramètre prédéfini de visionneuse dans Dynamic Media Classic, ou transmis explicitement à l’aide de la commande de style.
 
    Voir [Personnalisation de la visionneuse déroulante](../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#concept-82f8c71adbe54680a0c2f83f81e5f451) pour plus d’informations sur le style de la visionneuse avec CSS.
 
-   Voici un exemple de définition de la taille statique de la visionneuse externe dans une page HTML :
+   Voici un exemple de définition de la taille statique de la visionneuse externe dans une page de HTML :
 
    ```
    #s7viewer.s7flyoutviewer { 
@@ -151,9 +151,9 @@ Un chemin relatif ressemble à ce qui suit :
 
    [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html)
 
-   Pour rendre les dimensions d’affichage principales statiques, définissez la taille de la visionneuse en unités absolues pour le composant SDK interne `Container` à l’aide du sélecteur CSS `.s7flyoutviewer .s7container`. En outre, vous devez remplacer la taille fixe définie pour la classe CSS de niveau supérieur `.s7flyoutviewer` dans le CSS de la visionneuse par défaut, en la définissant sur `auto`.
+   Pour rendre les dimensions d’affichage principales statiques, définissez la taille de la visionneuse en unités absolues pour le contenu `Container` Composant SDK à l’aide de `.s7flyoutviewer .s7container` Sélecteur CSS. En outre, vous devez remplacer la taille fixe définie pour la variable `.s7flyoutviewer` classe CSS de niveau supérieur dans le CSS de visionneuse par défaut, en la définissant sur `auto`.
 
-   Voici un exemple de définition de la taille de la visionneuse pour le composant SDK interne `Container` afin que la zone d’affichage principale ne change pas sa taille lors du changement de ressource :
+   Voici un exemple de définition de la taille de la visionneuse pour le contenu `Container` Le composant SDK de sorte que la zone d’affichage principale ne modifie pas sa taille lors du changement de ressource :
 
    ```
    #s7viewer.s7flyoutviewer { 
@@ -174,13 +174,13 @@ Un chemin relatif ressemble à ce qui suit :
 
 1. Création et initialisation de la visionneuse.
 
-   Une fois les étapes ci-dessus terminées, vous créez une instance de la classe `s7viewers.FlyoutViewer`, transmettez toutes les informations de configuration à son constructeur et appelez la méthode `init()` sur une instance de visionneuse. Les informations de configuration sont transmises au constructeur sous la forme d’un objet JSON. Au minimum, cet objet doit comporter le champ `containerId` qui contient le nom de l’ID de conteneur de la visionneuse et l’objet JSON `params` imbriqué avec les paramètres de configuration pris en charge par la visionneuse. Dans ce cas, l’objet `params` doit avoir au moins la propriété URL de diffusion d’images transmise en tant que propriété `serverUrl` et la ressource initiale en tant que paramètre `asset`. L’API d’initialisation basée sur JSON vous permet de créer et de démarrer la visionneuse avec une seule ligne de code.
+   Une fois les étapes ci-dessus terminées, vous créez une instance de `s7viewers.FlyoutViewer` , transmettez toutes les informations de configuration à son constructeur et appelez . `init()` sur une instance de visionneuse. Les informations de configuration sont transmises au constructeur sous la forme d’un objet JSON. Au minimum, cet objet doit avoir la propriété `containerId` champ contenant le nom de l’identifiant de conteneur de la visionneuse et imbriqué `params` Objet JSON avec des paramètres de configuration pris en charge par la visionneuse. Dans ce cas, la variable `params` doit comporter au moins l’URL du serveur d’images transmise comme `serverUrl` et la ressource initiale en tant que `asset` . L’API d’initialisation basée sur JSON vous permet de créer et de démarrer la visionneuse avec une seule ligne de code.
 
-   Il est important que le conteneur de la visionneuse soit ajouté au modèle DOM afin que le code de la visionneuse puisse trouver l’élément de conteneur en fonction de son identifiant. Certains navigateurs retardent la création du DOM jusqu’à la fin de la page web. Pour bénéficier d’une compatibilité maximale, appelez la méthode `init()` juste avant la balise `BODY` de fermeture ou sur l’événement `onload()` body .
+   Il est important que le conteneur de la visionneuse soit ajouté au modèle DOM afin que le code de la visionneuse puisse trouver l’élément de conteneur en fonction de son identifiant. Certains navigateurs retardent la création du DOM jusqu’à la fin de la page web. Pour une compatibilité maximale, appelez la méthode `init()` juste avant la fermeture `BODY` ou sur le corps `onload()` .
 
-   Dans le même temps, l’élément de conteneur ne doit pas nécessairement faire partie de la mise en page web pour l’instant. Par exemple, il peut être masqué à l’aide du style `display:none` qui lui est affecté. Dans ce cas, la visionneuse retarde son processus d’initialisation jusqu’au moment où la page web ramène l’élément de conteneur à la mise en page. Lorsque cette action se produit, le chargement de la visionneuse reprend automatiquement.
+   Dans le même temps, l’élément de conteneur ne doit pas nécessairement faire partie de la mise en page web pour l’instant. Par exemple, il peut être masqué à l’aide de `display:none` style qui lui est affecté. Dans ce cas, la visionneuse retarde son processus d’initialisation jusqu’au moment où la page web ramène l’élément de conteneur à la mise en page. Lorsque cette action se produit, le chargement de la visionneuse reprend automatiquement.
 
-   Voici un exemple de création d’une instance de visionneuse, en transmettant les options de configuration minimales nécessaires au constructeur et en appelant la méthode `init()` . L’exemple suppose que `flyoutViewer` est l’instance de visionneuse ; `s7viewer` est le nom de l’espace réservé `DIV` ; `http://s7d1.scene7.com/is/image/` est l’URL du serveur d’images ; et `Scene7SharedAssets/ImageSet-Views-Sample` correspond à la ressource :
+   Voici un exemple de création d’une instance de visionneuse, de transmission des options de configuration minimales nécessaires au constructeur et d’appel de la fonction `init()` . L’exemple suppose que `flyoutViewer` est l’instance de visionneuse ; `s7viewer` est le nom de l’espace réservé. `DIV`; `http://s7d1.scene7.com/is/image/` est l’URL du serveur d’images ; et `Scene7SharedAssets/ImageSet-Views-Sample` est la ressource :
 
    ```
    <script type="text/javascript"> 
@@ -225,7 +225,7 @@ Un chemin relatif ressemble à ce qui suit :
 
 ## Intégration de conception réactive avec une hauteur libre {#section-056cb574713c4d07be6d07cf3c598839}
 
-Avec l’incorporation de responsive design, la page web dispose normalement d’une sorte de disposition flexible qui détermine la taille d’exécution du conteneur de la visionneuse `DIV`. Pour l’exemple suivant, supposons que la page web permette au conteneur de la visionneuse `DIV` de prendre 40 % de la taille de la fenêtre du navigateur web, en ne restreignant pas sa hauteur. Le code HTML de la page web se présente comme suit :
+Avec l’incorporation de responsive design, la page web dispose normalement d’une sorte de disposition flexible qui détermine la taille d’exécution du conteneur de la visionneuse. `DIV`. Dans l’exemple suivant, supposons que la page web autorise le conteneur de la visionneuse. `DIV` pour prendre 40 % de la taille de la fenêtre du navigateur web, sans restriction de sa hauteur. Le code de HTML de la page web se présente comme suit :
 
 ```
 <!DOCTYPE html> 
@@ -246,14 +246,14 @@ Avec l’incorporation de responsive design, la page web dispose normalement d�
 L’ajout de la visionneuse à une telle page est similaire aux étapes d’incorporation à taille fixe. La seule différence est que vous devez remplacer le dimensionnement fixe du CSS de la visionneuse par défaut par la taille définie en unités relatives.
 
 1. Ajout du fichier JavaScript de la visionneuse à votre page web.
-1. Définition du conteneur `DIV`.
+1. Définir le conteneur `DIV`.
 1. Définition de la taille de la visionneuse.
 1. Création et initialisation de la visionneuse.
 
 Toutes les étapes ci-dessus sont identiques à celles de l’incorporation d’une taille fixe avec les trois exceptions suivantes :
 
-* ajouter le conteneur `DIV` au &quot;détenteur&quot; existant `DIV` ;
-* ajout du paramètre `imagereload` avec des points d’arrêt explicites ;
+* ajouter le conteneur ; `DIV` au &quot;titulaire&quot; existant `DIV`;
+* ajouté `imagereload` avec des points d’arrêt explicites ;
 * au lieu de définir une taille de visionneuse fixe à l’aide d’unités absolues, utilisez une feuille CSS qui définit la largeur et la hauteur de la visionneuse à 100 %, comme dans l’exemple suivant :
 
 ```
@@ -306,7 +306,7 @@ La page d’exemples suivante illustre d’autres utilisations réelles de l’i
 
 ## Intégration flexible de taille avec définition de largeur et de hauteur {#section-0a329016f9414d199039776645c693de}
 
-Si l’incorporation de tailles flexibles avec largeur et hauteur est définie, le style de la page web est différent. Il fournit les deux tailles à la balise `"holder"` DIV et le centre dans la fenêtre du navigateur. En outre, la page web définit la taille de l’élément `HTML` et `BODY` sur 100 %.
+Si l’incorporation de tailles flexibles avec largeur et hauteur est définie, le style de la page web est différent. Elle fournit les deux tailles au `"holder"` DIV et le centre dans la fenêtre du navigateur. En outre, la page web définit la taille de la variable `HTML` et `BODY` à 100 %.
 
 ```
 <!DOCTYPE html> 
@@ -377,7 +377,7 @@ var flyoutViewer = new s7viewers.FlyoutViewer({
 
 ## Incorporation à l’aide d’une API basée sur Setter {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
 
-Au lieu d’utiliser l’initialisation basée sur JSON, il est possible d’utiliser une API basée sur un setter et un constructeur sans args. L’utilisation de ce constructeur d’API ne prend aucun paramètre et les paramètres de configuration sont spécifiés à l’aide des méthodes d’API `setContainerId()`, `setParam()` et `setAsset()`, avec des appels JavaScript distincts.
+Au lieu d’utiliser l’initialisation basée sur JSON, il est possible d’utiliser une API basée sur un setter et un constructeur sans args. L’utilisation de ce constructeur d’API ne prend aucun paramètre et les paramètres de configuration sont spécifiés à l’aide de `setContainerId()`, `setParam()`, et `setAsset()` méthodes d’API, avec des appels JavaScript distincts.
 
 L’exemple suivant illustre l’utilisation de l’incorporation de tailles fixes avec une API basée sur setter :
 

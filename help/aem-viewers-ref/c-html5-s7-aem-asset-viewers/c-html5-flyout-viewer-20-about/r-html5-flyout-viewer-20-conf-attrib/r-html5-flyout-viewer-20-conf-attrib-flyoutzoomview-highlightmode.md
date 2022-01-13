@@ -1,13 +1,13 @@
 ---
+title: FlyoutZoomView.highlightmode
 description: FlyoutZoomView.highlightmode
 solution: Experience Manager
-title: FlyoutZoomView.highlightmode
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Fenêtre déroulante
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: b35285a2-7319-4ed7-9681-12a6acda8fa5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '256'
 ht-degree: 1%
 
 ---
@@ -19,16 +19,16 @@ ht-degree: 1%
 <table id="table_C6F4C663099F40698874731590A22924"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> highlight|cursor  </span> </p> </td> 
-   <td colname="col2"> <p> Indique le type de cadre de navigation à utiliser. Lorsqu’il est défini sur <span class="codeph"> curseur </span>, le composant utilise un curseur de référence à taille fixe. Il est possible d’avoir différentes formes de curseur pour les systèmes de bureau et les appareils tactiles. Elles sont contrôlées avec la classe CSS <span class="codeph"> .s7cursor </span> et le sélecteur d’attributs <span class="codeph"> input=mouse|touch </span> . Sur les ordinateurs de bureau, un point d’ancrage est défini au milieu de la zone du curseur, tandis que sur les périphériques tactiles, il se trouve au centre inférieur du curseur. Lorsqu’il est défini sur <span class="codeph"> surligner </span>, le composant utilise un cadre de navigation de taille variable ; la taille et la forme du cadre dépendent du facteur de zoom et de la taille de la vue déroulante. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> highlight|cursor </span> </p> </td> 
+   <td colname="col2"> <p> Indique le type de cadre de navigation à utiliser. Lorsque la variable est définie sur <span class="codeph"> cursor </span>, le composant utilise un curseur de référence à taille fixe. Il est possible d’avoir différentes formes de curseur pour les ordinateurs de bureau et les appareils tactiles. Cette fonctionnalité est contrôlée par <span class="codeph"> .s7cursor </span> Classe CSS et <span class="codeph"> input=mouse|touch </span> sélecteur d’attributs. Sur les ordinateurs de bureau, un point d’ancrage est défini au milieu de la zone du curseur, tandis que sur les périphériques tactiles, il se trouve au centre inférieur du curseur. Lorsque la variable est définie sur <span class="codeph"> highlight </span>, le composant utilise un cadre de navigation de taille variable ; la taille et la forme du cadre dépendent du facteur de zoom et de la taille de la vue déroulante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showtime  </span> </span> </p> </td> 
-   <td colname="col2"> <p> Définit le temps (en secondes) nécessaire à la mise en surbrillance ou au fondu du curseur après son activation par l’utilisateur. L’option Fondu n’est appliquée que sur les appareils tactiles. sur les systèmes de bureau, il est ignoré par le composant. </p> <p>L’option Fondu s’applique aux éléments de l’interface utilisateur suivants : cadre de surbrillance, curseur fixe, superposition (au cas où le paramètre <span class="codeph"> superposition </span> est défini sur <span class="codeph"> 1 </span>). L’animation de la vue déroulante ne commence qu’une fois le surlignage/le fondu du curseur terminé dans l’animation. Il n'y a pas d'animation fondue. Lorsque l’utilisateur désactive la fenêtre déroulante, les éléments d’IU correspondants (curseur, surbrillance et recouvrement) se masquent instantanément. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showtime </span> </span> </p> </td> 
+   <td colname="col2"> <p> Définit le temps (en secondes) nécessaire à la mise en surbrillance ou au fondu du curseur après son activation par l’utilisateur. L’option Fondu n’est appliquée que sur les appareils tactiles. sur les systèmes de bureau, il est ignoré par le composant. </p> <p>L’option Fondu s’applique aux éléments de l’interface utilisateur suivants : cadre de surbrillance, curseur fixe, superposition (au cas où <span class="codeph"> superposition </span> est défini sur <span class="codeph"> 1 </span>). L’animation de la vue déroulante ne commence qu’une fois le surlignage/le fondu du curseur terminé dans l’animation. Il n'y a pas d'animation fondue. Lorsque l’utilisateur désactive la fenêtre déroulante, les éléments d’IU correspondants (curseur, surbrillance et recouvrement) se masquent instantanément. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> onimage|free  </span> </p> </td> 
-   <td colname="col2"> <p> Contrôle le positionnement du cadre de navigation. </p> <p>Si elle est définie sur <span class="codeph"> onimage </span>, l’image de navigation ne peut être positionnée que dans la zone de l’image réelle dans la vue principale. </p> <p>S’il est défini sur <span class="codeph"> free </span> , un utilisateur peut déplacer le cadre de navigation n’importe où dans la zone d’affichage principale logique, même en dehors du contenu de l’image. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> onimage|free </span> </p> </td> 
+   <td colname="col2"> <p> Contrôle le positionnement du cadre de navigation. </p> <p>Si la variable est définie sur <span class="codeph"> onimage </span>, le cadre de navigation ne peut être positionné que dans la zone de l’image dans la vue principale. </p> <p>Si la variable est définie sur <span class="codeph"> free </span> un utilisateur peut déplacer le cadre de navigation n’importe où dans la zone d’affichage principale logique, même en dehors du contenu de l’image. </p> </td> 
   </tr> 
  </tbody> 
 </table>

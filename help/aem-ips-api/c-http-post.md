@@ -1,20 +1,20 @@
 ---
-description: Le téléchargement de ressources dans Dynamic Media Classic implique une ou plusieurs requêtes de POST HTTP qui configurent une tâche afin de coordonner toutes les activités de journal associées aux fichiers chargés.
-solution: Experience Manager
 title: Téléchargement de ressources au moyen de HTTP POST vers le servlet UploadFile
-feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+description: Le chargement de ressources dans Dynamic Media Classic implique une ou plusieurs requêtes de POST HTTP qui configurent une tâche afin de coordonner toutes les activités de journal associées aux fichiers chargés.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e40293be-d00f-44c1-8ae7-521ce3312ca8
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '725'
 ht-degree: 3%
 
 ---
 
 # Téléchargement de ressources au moyen de HTTP POST vers le servlet UploadFile{#uploading-assets-by-way-of-http-posts-to-the-uploadfile-servlet}
 
-Le téléchargement de ressources dans Dynamic Media Classic implique une ou plusieurs requêtes de POST HTTP qui configurent une tâche afin de coordonner toutes les activités de journal associées aux fichiers chargés.
+Le chargement de ressources dans Dynamic Media Classic implique une ou plusieurs requêtes de POST HTTP qui configurent une tâche afin de coordonner toutes les activités de journal associées aux fichiers chargés.
 
 Utilisez l’URL suivante pour accéder au servlet UploadFile :
 
@@ -57,7 +57,7 @@ https://<server>/scene7/UploadFile
 
 ## Workflow de la tâche de téléchargement {#section-873625b9512f477c992f5cdd77267094}
 
-La tâche de téléchargement consiste en une ou plusieurs instructions HTTP POST qui utilisent une `jobHandle` commune pour corréler le traitement dans la même tâche. Chaque requête est `multipart/form-data` codée et se compose des parties de formulaire suivantes :
+La tâche de téléchargement consiste en une ou plusieurs instructions HTTP POST qui utilisent une méthode `jobHandle` pour corréler le traitement dans la même tâche. Chaque requête est `multipart/form-data` codé et se compose des parties de formulaire suivantes :
 
 >[!NOTE]
 >
@@ -65,34 +65,34 @@ La tâche de téléchargement consiste en une ou plusieurs instructions HTTP POS
 
 |  Partie de formulaire de POST HTTP  |  Description  |
 |---|---|
-| `auth`  |   Obligatoire. Un document XML authHeader spécifiant les informations d’authentification et de client. Voir **Demander l’authentification** sous [SOAP](/help/aem-ips-api/c-wsdl-versions.md). |
-| `file params`  |   Facultatif. Vous pouvez inclure un ou plusieurs fichiers à charger avec chaque requête de POST. Chaque partie du fichier peut inclure un paramètre de nom de fichier dans l’en-tête Content-Disposition utilisé comme nom de fichier cible dans IPS si aucun paramètre `uploadPostParams/fileName` n’est spécifié. |
+| `auth`  |   Obligatoire. Un document XML authHeader spécifiant les informations d’authentification et de client. Voir **Authentification de demande** under [SOAP](/help/aem-ips-api/c-wsdl-versions.md). |
+| `file params`  |   Facultatif. Vous pouvez inclure un ou plusieurs fichiers à charger avec chaque requête de POST. Chaque partie du fichier peut inclure un paramètre de nom de fichier dans l’en-tête Content-Disposition utilisé comme nom de fichier cible dans IPS en l’absence de `uploadPostParams/fileName` est spécifié. |
 
 |  Partie de formulaire de POST HTTP   |  Nom de l’élément uploadPostParams   |  Type   |  Description   |
 |---|---|---|---|
-| `uploadParams` (Obligatoire. Un document XML `uploadParams` spécifiant les paramètres de chargement)   |   `companyHandle`  |  `xsd:string`  | Obligatoire. Gérez vers la société à laquelle le fichier est chargé.  |
-| `uploadParams` (Obligatoire. Un document XML `uploadParams` spécifiant les paramètres de chargement) | `jobName`  |  `xsd:string`  | `jobName` ou `jobHandle` est requis. Nom de la tâche de téléchargement.  |
-| `uploadParams` (Obligatoire. Un document XML `uploadParams` spécifiant les paramètres de chargement) | `jobHandle`  |  `xsd:string`  | `jobName` ou `jobHandle` est requis. Traitement d’une tâche de chargement démarrée dans une requête précédente.  |
-| `uploadParams` (Obligatoire. Un document XML `uploadParams` spécifiant les paramètres de chargement) | `locale`  |  `xsd:string`  | Facultatif. Code de langue et de pays pour la localisation.  |
-| `uploadParams` (Obligatoire. Un document XML `uploadParams` spécifiant les paramètres de chargement) | `description`  |  `xsd:string`  | Facultatif. Description de la tâche.  |
-| `uploadParams` (Obligatoire. Un document XML `uploadParams` spécifiant les paramètres de chargement) | `destFolder`  |  `xsd:string`  | Facultatif. Chemin d’accès au dossier cible vers un préfixe de propriété de nom de fichier, en particulier pour les navigateurs et autres clients qui ne prennent pas en charge les chemins d’accès complets dans un nom de fichier.  |
-| `uploadParams` (Obligatoire. Un document XML `uploadParams` spécifiant les paramètres de chargement) | `fileName`  |  `xsd:string`  | Facultatif. Nom du fichier cible. Permet de remplacer la propriété filename. |
-| `uploadParams` (Obligatoire. Un document XML `uploadParams` spécifiant les paramètres de chargement) | `endJob`  |  `xsd:boolean`  | Facultatif. Faux par défaut. |
-| `uploadParams` (Obligatoire. Un document XML `uploadParams` spécifiant les paramètres de chargement) | `uploadParams`  |  `types:UploadPostJob`  | Facultatif s’il s’agit d’une requête ultérieure pour une tâche principale existante. S’il existe une tâche existante, `uploadParams` est ignoré et les paramètres de chargement de tâche existants sont utilisés. Voir [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
+| `uploadParams` (Obligatoire. Un XML `uploadParams` document spécifiant les paramètres de chargement)   |   `companyHandle`  |  `xsd:string`  | Obligatoire. Gérez vers la société à laquelle le fichier est chargé.  |
+| `uploadParams` (Obligatoire. Un XML `uploadParams` document spécifiant les paramètres de chargement) | `jobName`  |  `xsd:string`  | Soit `jobName` ou `jobHandle` est obligatoire. Nom de la tâche de téléchargement.  |
+| `uploadParams` (Obligatoire. Un XML `uploadParams` document spécifiant les paramètres de chargement) | `jobHandle`  |  `xsd:string`  | Soit `jobName` ou `jobHandle` est obligatoire. Traitement d’une tâche de chargement démarrée dans une requête précédente.  |
+| `uploadParams` (Obligatoire. Un XML `uploadParams` document spécifiant les paramètres de chargement) | `locale`  |  `xsd:string`  | Facultatif. Code de langue et de pays pour la localisation.  |
+| `uploadParams` (Obligatoire. Un XML `uploadParams` document spécifiant les paramètres de chargement) | `description`  |  `xsd:string`  | Facultatif. Description de la tâche.  |
+| `uploadParams` (Obligatoire. Un XML `uploadParams` document spécifiant les paramètres de chargement) | `destFolder`  |  `xsd:string`  | Facultatif. Chemin d’accès au dossier cible vers un préfixe de propriété de nom de fichier, en particulier pour les navigateurs et autres clients qui ne prennent pas en charge les chemins d’accès complets dans un nom de fichier.  |
+| `uploadParams` (Obligatoire. Un XML `uploadParams` document spécifiant les paramètres de chargement) | `fileName`  |  `xsd:string`  | Facultatif. Nom du fichier cible. Permet de remplacer la propriété filename. |
+| `uploadParams` (Obligatoire. Un XML `uploadParams` document spécifiant les paramètres de chargement) | `endJob`  |  `xsd:boolean`  | Facultatif. Faux par défaut. |
+| `uploadParams` (Obligatoire. Un XML `uploadParams` document spécifiant les paramètres de chargement) | `uploadParams`  |  `types:UploadPostJob`  | Facultatif s’il s’agit d’une requête ultérieure pour une tâche principale existante. S’il existe une tâche existante, `uploadParams` est ignorée et les paramètres de chargement de tâche existants sont utilisés. Voir [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
 
-Le bloc `<uploadPostParams>` contient le bloc `<uploadParams>` qui désigne le traitement des fichiers inclus.
+Dans le `<uploadPostParams>` block est la `<uploadParams>` qui désigne le traitement des fichiers inclus.
 
 Voir [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4).
 
-Bien que vous puissiez supposer que le paramètre `uploadParams` peut changer pour des fichiers individuels dans le cadre d’une même tâche, ce n’est pas le cas. Utilisez les mêmes paramètres `uploadParams` pour l’ensemble de la tâche.
+Bien que vous puissiez supposer que la variable `uploadParams` peut changer pour des fichiers individuels dans le cadre d’une même tâche, ce qui n’est pas le cas. Utilisez la même `uploadParams` des paramètres pour l’ensemble de la tâche.
 
-La requête de POST initiale pour une nouvelle tâche de chargement doit spécifier le paramètre `jobName`, de préférence en utilisant un nom de tâche unique afin de simplifier l’interrogation de l’état de la tâche et les requêtes de journal de tâches suivantes. Les requêtes de POST supplémentaires pour la même tâche de chargement doivent spécifier le paramètre `jobHandle` au lieu de `jobName`, en utilisant la valeur `jobHandle` renvoyée par la requête initiale.
+La requête de POST initiale pour une nouvelle tâche de chargement doit spécifier la variable `jobName` de préférence en utilisant un nom de tâche unique afin de simplifier l’interrogation de l’état de la tâche et les requêtes de journal des tâches suivantes. D’autres requêtes de POST pour la même tâche de téléchargement doivent spécifier le `jobHandle` au lieu de `jobName`, à l’aide de la fonction `jobHandle` valeur renvoyée par la requête initiale.
 
-La requête de POST finale pour une tâche de téléchargement doit définir le paramètre `endJob` sur true afin qu’aucun fichier futur ne soit POSTed pour cette tâche. En retour, cela permet à la tâche de se terminer immédiatement après l’ingestion de tous les fichiers POSTed. Sinon, la tâche expire si aucune autre demande de POST n’est reçue dans les 30 minutes.
+La requête de POST finale pour une tâche de téléchargement doit définir la variable `endJob` sur true afin qu’aucun fichier futur ne soit POSTed pour cette tâche. En retour, cela permet à la tâche de se terminer immédiatement après l’ingestion de tous les fichiers POSTed. Sinon, la tâche expire si aucune autre demande de POST n’est reçue dans les 30 minutes.
 
 ## Réponse UploadPOST {#section-421df5cc04d44e23a464059aad86d64e}
 
-Pour une requête de POST réussie, le corps de la réponse est un document XML `uploadPostReturn`, comme le spécifie le schéma XSD dans :
+Pour une requête de POST réussie, le corps de la réponse est un XML `uploadPostReturn` , comme l’indique le schéma XSD dans :
 
 ```
 <element name="uploadPostReturn"> 
@@ -104,9 +104,9 @@ Pour une requête de POST réussie, le corps de la réponse est un document XML 
     </element>
 ```
 
-La valeur `jobHandle` renvoyée est transmise dans le paramètre `uploadPostParams`/ `jobHandle` pour toutes les demandes de POST suivantes pour la même tâche. Vous pouvez également l’utiliser pour interroger l’état de la tâche avec l’opération `getActiveJobs` ou pour interroger les logs de la tâche avec l’opération `getJobLogDetails`.
+Le `jobHandle` renvoyé est transmis dans la variable `uploadPostParams`/ `jobHandle` pour toutes les demandes de POST suivantes pour la même tâche. Vous pouvez également l’utiliser pour interroger l’état de la tâche avec le `getActiveJobs` ou pour interroger les journaux de tâches avec la fonction `getJobLogDetails` opération.
 
-En cas d’erreur lors du traitement de la requête du POST, le corps de la réponse est constitué de l’un des types d’erreurs de l’API, comme décrit dans [Faults](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b).
+En cas d’erreur lors du traitement de la requête du POST, le corps de la réponse est constitué de l’un des types d’erreurs de l’API, comme décrit dans la section [Valeurs par défaut](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b).
 
 ## Exemple de requête de POST {#section-810fe32abdb9426ba0fea488dffadd1e}
 

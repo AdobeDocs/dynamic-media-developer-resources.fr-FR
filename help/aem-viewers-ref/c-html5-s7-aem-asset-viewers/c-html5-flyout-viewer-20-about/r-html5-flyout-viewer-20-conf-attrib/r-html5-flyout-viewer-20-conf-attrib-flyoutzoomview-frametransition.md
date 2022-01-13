@@ -1,14 +1,14 @@
 ---
+title: FlyoutZoomView.frametransition
 description: FlyoutZoomView.frametransition
 solution: Experience Manager
-title: FlyoutZoomView.frametransition
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Fenêtre déroulante
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 0b0a88a0-d736-4ab8-a25f-15d1689b0a48
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 10%
+source-wordcount: '62'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|fade</span> </p> </td> 
-   <td colname="col2"> <p> Indique le type d’effet appliqué à la vue principale lors du changement de ressource. <span class="codeph"> none</span> signifie aucune transition, le changement d’affichage principal se produit instantanément. La balise <span class="codeph"> fade</span> active la transition de fondu croisé lorsque l’ancienne image s’atténue et que la nouvelle image s’atténue. </p> </td> 
+   <td colname="col2"> <p> Indique le type d’effet appliqué à la vue principale lors du changement de ressource. Le <span class="codeph"> none</span> signifie pas de transition, le changement de vue principal se produit instantanément. Le <span class="codeph"> fade</span> active une transition entre les fondus lorsque l’ancienne image s’estompe et que la nouvelle image s’estompe </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> durée</span></span> </p> </td> 

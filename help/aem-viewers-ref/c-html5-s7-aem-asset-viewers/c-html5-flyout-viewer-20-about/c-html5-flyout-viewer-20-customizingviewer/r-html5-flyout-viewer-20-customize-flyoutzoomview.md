@@ -1,20 +1,20 @@
 ---
-description: La vue principale se compose de l’image statique, de l’image agrandie affichée dans la vue déroulante, de la zone de navigation de surbrillance affichée au-dessus de l’image statique et du message d’info-bulle affiché au-dessus de l’image statique.
-solution: Experience Manager
 title: Zoom déroulant
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Fenêtre déroulante
+description: La vue principale se compose de l’image statique et de l’image agrandie affichée dans la vue déroulante. Il comprend également la zone de navigation en surbrillance qui s’affiche sur l’image statique et le message d’info-bulle qui s’affiche au-dessus de l’image statique.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: c04c4b8f-4e63-4e84-98c0-aa0781608130
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '635'
 ht-degree: 2%
 
 ---
 
 # Zoom déroulant{#flyout-zoom-view}
 
-La vue principale se compose de l’image statique, de l’image agrandie affichée dans la vue déroulante, de la zone de navigation de surbrillance affichée au-dessus de l’image statique et du message d’info-bulle affiché au-dessus de l’image statique.
+La vue principale se compose de l’image statique et de l’image agrandie affichée dans la vue déroulante. Il comprend également la zone de navigation en surbrillance qui s’affiche sur l’image statique et le message d’info-bulle qui s’affiche au-dessus de l’image statique.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -37,7 +37,7 @@ L’aspect de la vue principale est contrôlé à l’aide du sélecteur de clas
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan de la vue principale. </p> </td> 
   </tr> 
  </tbody> 
@@ -120,11 +120,11 @@ Il est possible de contrôler l’arrière-plan, la bordure, la transparence et 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
    <td colname="col2"> <p> Couleur du surlignage. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacité  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacité </span> </p> </td> 
    <td colname="col2"> <p> Mettre l’opacité en surbrillance. </p> <p>Pour Internet Explorer 8, utilisez <span class="codeph"> filter:alpha(opacity-..) ); </span> </p> </td> 
   </tr> 
   <tr> 
@@ -147,7 +147,7 @@ Exemple : pour configurer une mise en surbrillance verte avec une transparence d
 
 **Propriétés CSS du curseur**
 
-Lorsque le paramètre `highlightmode` est défini sur `cursor`, les mises en surbrillance sont remplacées dans la vue principale par l’illustration du curseur à taille fixe, qui est contrôlée par le sélecteur de classe CSS :
+When `highlightmode` est défini sur `cursor`, les mises en surbrillance se trouvent dans la vue principale et sont remplacées par l’illustration du curseur à taille fixe, qui est contrôlée par le sélecteur de classe CSS :
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
@@ -167,15 +167,15 @@ Les propriétés CSS applicables incluent :
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Illustration du curseur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Largeur du curseur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hauteur du curseur. </p> </td> 
   </tr> 
  </tbody> 
@@ -183,11 +183,11 @@ Les propriétés CSS applicables incluent :
 
 >[!NOTE]
 >
->Le curseur prend en charge le sélecteur d’attributs `input`, qui peut être utilisé pour appliquer une illustration et une taille de curseur différentes pour différents appareils. `input="mouse"` correspond notamment aux systèmes de bureau et `input="touch"` aux appareils tactiles.
+>Le curseur prend en charge la fonction `input` le sélecteur d’attributs, qui peut être utilisé pour appliquer une illustration et une taille de curseur différentes pour différents appareils. En particulier, `input="mouse"` correspond aux systèmes de bureau et `input="touch"` correspond aux appareils tactiles.
 
 **Propriétés CSS de la superposition**
 
-Lorsque le paramètre `overlay` est défini sur `1`, la zone autour du cadre de mise en surbrillance ou de l’image du curseur est contrôlée avec le sélecteur de classe CSS :
+Lorsque la variable `overlay` est défini sur `1`, la zone autour du cadre de surbrillance ou de l’image du curseur est contrôlée par le sélecteur de classe CSS :
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
@@ -203,11 +203,11 @@ Lorsque le paramètre `overlay` est défini sur `1`, la zone autour du cadre de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
    <td colname="col2"> <p>Couleur de la superposition. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacité  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacité </span> </p> </td> 
    <td colname="col2"> <p>Opacité de la superposition. </p> </td> 
   </tr> 
  </tbody> 
@@ -221,7 +221,7 @@ L’aspect du message d’info-bulle est contrôlé à l’aide du sélecteur de
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-Il est possible de configurer le style de police, l’aspect de la taille et le décalage vertical au moyen de CSS. Toutefois, l’alignement horizontal est géré par la logique de la visionneuse. Le remplacement de cet élément par une page CSS à l’aide des propriétés `left` ou `right` n’est pas pris en charge.
+Il est possible de configurer le style, la taille, l’aspect et le décalage vertical de la police au moyen de CSS. Cependant, l’alignement horizontal est géré par la logique de la visionneuse. Le remplacer par CSS à l’aide de `left` ou `right` ne sont pas prises en charge.
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
@@ -240,11 +240,11 @@ Il est possible de configurer le style de police, l’aspect de la taille et le 
    <td colname="col2"> <p>Couleur du texte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Nom de la police. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Taille de police. </p> </td> 
   </tr> 
   <tr> 
@@ -252,23 +252,23 @@ Il est possible de configurer le style de police, l’aspect de la taille et le 
    <td colname="col2"> <p>Marge intérieure autour du texte du message. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
    <td colname="col2"> <p>Couleur de fond du texte du message. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p>Rayon de la bordure d’arrière-plan du texte du message. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> opacité  </span> </p> </td> 
-   <td colname="col2"> <p>Opacité de l’arrière-plan du texte du message. </p> <p>Pour Internet Explorer 8, utilisez <span class="codeph"> filter:alpha(opacity-..) ) </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> opacité </span> </p> </td> 
+   <td colname="col2"> <p>Opacité de l’arrière-plan du texte du message. </p> <p>Pour Internet Explorer 8, utilisez <span class="codeph"> filter:alpha(opacity-...) ) </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 Le message de conseil peut être localisé. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) pour plus d’informations.
 
-Exemple : pour configurer un message d’info-bulle semi-transparent avec une police Arial blanche de 12 px, un décalage de 50 pixels par rapport au bas de la vue principale, de la marge intérieure et d’une bordure arrondie :
+Exemple : pour configurer un message d’info-bulle semi-transparent avec une police Arial® de 12 pixels, un décalage de 50 pixels par rapport au bas de l’affichage principal, une marge intérieure et une bordure arrondie :
 
 ```
 .s7flyoutviewer .s7flyoutzoomview .s7tip { 

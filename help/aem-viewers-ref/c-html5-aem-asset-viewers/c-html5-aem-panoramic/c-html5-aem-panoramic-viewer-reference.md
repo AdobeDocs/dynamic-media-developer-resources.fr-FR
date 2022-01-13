@@ -1,20 +1,20 @@
 ---
 title: Visionneuse panoramique
-description: La visionneuse panoramique HTML5 est une visionneuse d’images qui affiche une image panoramique. L’objectif de cette visionneuse est d’afficher un panorama sphérique, également appelé image équirectangulaire. Il prend en charge le panoramique et le panoramique automatiques par mouvement gyroscopique.  Il est conçu pour fonctionner sur les ordinateurs de bureau et les appareils mobiles.  Le mode d’affichage de la réalité virtuelle est disponible sur les appareils mobiles pris en charge.
+description: La visionneuse panoramique HTML5 est une visionneuse d’images qui affiche une image panoramique. L’objectif de cette visionneuse est d’afficher un panorama sphérique, également appelé image équirectangulaire. Il prend en charge le panoramique et le panoramique automatiques par mouvement gyroscopique. Il est conçu pour fonctionner sur les ordinateurs de bureau et les appareils mobiles. Le mode d’affichage de la réalité virtuelle est disponible sur les appareils mobiles pris en charge.
 keywords: responsive
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '1961'
+source-wordcount: '1953'
 ht-degree: 0%
 
 ---
 
 # Panoramique{#panoramic}
 
-La visionneuse panoramique HTML5 est une visionneuse d’images qui affiche une image panoramique. L’objectif de cette visionneuse est d’afficher un panorama sphérique, également appelé image équirectangulaire. Il prend en charge le panoramique et le panoramique automatiques par mouvement gyroscopique.  Il est conçu pour fonctionner sur les ordinateurs de bureau et les appareils mobiles.  Le mode d’affichage de la réalité virtuelle est disponible sur les appareils mobiles pris en charge.
+La visionneuse panoramique HTML5 est une visionneuse d’images qui affiche une image panoramique. L’objectif de cette visionneuse est d’afficher un panorama sphérique, également appelé image équirectangulaire. Il prend en charge le panoramique et le panoramique automatiques par mouvement gyroscopique. Il est conçu pour fonctionner sur les ordinateurs de bureau et les appareils mobiles. Le mode d’affichage de la réalité virtuelle est disponible sur les appareils mobiles pris en charge.
 
 Voir [Configuration requise et conditions préalables](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
@@ -27,7 +27,7 @@ Type de visionneuse 514.
 
 ## Utilisation de la visionneuse panoramique {#section-f21ac23d3f6449ad9765588d69584772}
 
-La visionneuse panoramique HTML5 représente un fichier JavaScript principal et un ensemble de fichiers d’assistance (un seul script JavaScript inclus avec tous les composants du SDK de la visionneuse HTML5 utilisés par cette visionneuse, ressources et CSS particulière) téléchargés par la visionneuse au moment de l’exécution.
+La visionneuse panoramique HTML5 représente un fichier JavaScript principal et un ensemble de fichiers d’assistance téléchargés par la visionneuse au moment de l’exécution. L’ensemble de fichiers d’assistance est une seule inclusion JavaScript avec tous les composants SDK de visionneuse HTML5 utilisés par cette visionneuse, ressources et CSS particulière.
 La visionneuse panoramique HTML5 peut être utilisée en mode contextuel à l’aide d’une page de HTML prête pour la production fournie avec les visionneuses IS ou en mode intégré, où elle est intégrée à la page web cible à l’aide d’une API documentée.
 La configuration et l’habillage sont similaires à ceux des autres visionneuses HTML5. L’ensemble de l’habillage peut être réalisé via une page CSS personnalisée.
 
@@ -58,17 +58,17 @@ La visionneuse panoramique HTML5 prend en charge le panoramique automatique et l
 </table>
 
 La visionneuse prend en charge les entrées tactiles et de souris sur les appareils Windows dotés d’un écran tactile et d’une souris. Toutefois, cette prise en charge est limitée aux navigateurs web Chrome, Internet Explorer 11 et Edge uniquement.
-La visionneuse panoramique a la possibilité de rendre des images panoramiques en mode réalité virtuelle (VR) en spécifiant le modificateur de rendu.  Lorsque le rendu est activé, une image panoramique s’affiche dans des écrans fractionnés.  Un cas pratique courant serait de diffuser l&#39;image dans un téléphone portable monté dans un casque de réalité virtuelle, fournissant des images distinctes pour chaque oeil.  La visionneuse réagit au mouvement gyroscopique de la tête et navigue dans l’image.
+La visionneuse panoramique peut afficher des images panoramiques en mode réalité virtuelle (VR) en spécifiant le modificateur de rendu. Lorsque le rendu est activé, une image panoramique s’affiche dans des écrans fractionnés. Un cas pratique courant serait de diffuser l&#39;image dans un téléphone portable monté dans un casque de réalité virtuelle, fournissant des images distinctes pour chaque oeil. La visionneuse répond au mouvement gyroscopique de la tête et navigue à travers l’image.
 
 ## Incorporation de la visionneuse panoramique HTML5 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Le comportement de la visionneuse varie en fonction des pages web. Il arrive qu’une page web fournisse un lien et qu’un clic sur ce lien ouvre la visionneuse dans une fenêtre de navigateur distincte. Dans d’autres cas, il peut être nécessaire d’incorporer le droit de visionneuse dans la page d’hébergement. Dans ce cas, la page web peut avoir une mise en page statique ou être &quot;réactive&quot; et s’afficher différemment sur différents appareils ou pour différentes tailles de fenêtre de navigateur. Pour répondre à ces besoins, la visionneuse prend en charge trois modes de fonctionnement Principaux : fenêtre contextuelle, incorporation de taille fixe et incorporation réactive.
+Le comportement de la visionneuse varie en fonction des pages web. Il arrive qu’une page web fournisse un lien. La sélection de ce lien ouvre la visionneuse dans une fenêtre de navigateur distincte. Dans d’autres cas, il peut être nécessaire d’incorporer la visionneuse dans la page d’hébergement. Dans ce cas, la page web peut avoir une mise en page statique ou être &quot;réactive&quot; et s’afficher différemment sur différents appareils ou pour différentes tailles de fenêtre de navigateur. Pour répondre à ces besoins, la visionneuse prend en charge trois modes de fonctionnement Principaux : fenêtre contextuelle, incorporation de taille fixe et incorporation réactive.
 
 **A propos du mode pop-up**
 
 En mode contextuel, la visionneuse s’ouvre dans une fenêtre ou un onglet de navigateur Web distinct. Elle prend toute la zone de la fenêtre du navigateur et s’ajuste au cas où le navigateur serait redimensionné ou l’orientation du périphérique modifiée.
 
-Ce mode est le plus courant pour les appareils mobiles. La page web charge la visionneuse à l’aide de l’appel JavaScript window.open() , correctement configuré Un élément de HTML ou de toute autre manière appropriée.
+Ce mode est le plus courant pour les appareils mobiles. La page web charge la visionneuse à l’aide de `window.open()` Appel JavaScript, configuration correcte d’un élément de HTML ou de toute autre manière appropriée.
 
 Il est recommandé d’utiliser une page de HTML d’usine pour le mode de fonctionnement de la fenêtre contextuelle. Elle s’appelle [!DNL PanoramicViewer.html] et se trouve sous le noeud [!DNL html5/] sous-dossier de votre déploiement IS-Viewers standard :
 
@@ -88,14 +88,13 @@ En mode incorporé, la visionneuse est ajoutée à la page web existante, qui pe
 
 Les cas d’utilisation Principaux sont les pages web orientées vers les ordinateurs de bureau ou les tablettes, ainsi que les pages web réactives qui ajustent automatiquement la mise en page en fonction du type de périphérique.
 
-L’incorporation des tailles fixes est utilisée lorsque la visionneuse ne modifie pas sa taille après le chargement initial. Il s’agit de la meilleure solution pour les pages web ayant une mise en page statique.
+L’incorporation des tailles fixes est utilisée lorsque la visionneuse ne modifie pas sa taille après le chargement initial. Cette méthode est la meilleure solution pour les pages web avec une mise en page statique.
 
-L’incorporation réactive suppose que la visionneuse doit peut-être redimensionner au moment de l’exécution en réponse au changement de taille de son conteneur DIV. Le cas d’utilisation le plus courant consiste à ajouter une visionneuse à une page web qui utilise une mise en page flexible.
+L’incorporation réactive suppose que la visionneuse doit être redimensionnée au moment de l’exécution en réponse au changement de taille de son conteneur DIV. Le cas d’utilisation le plus courant consiste à ajouter une visionneuse à une page web qui utilise une mise en page flexible.
 
-En mode réactif, la visionneuse se comporte différemment selon la manière dont la page web dimensionne son conteneur DIV. Si la page web définit uniquement la largeur du conteneur DIV, en ne limitant pas sa hauteur, la visionneuse sélectionne automatiquement sa hauteur en fonction des proportions de la ressource utilisée. cela permet de s’assurer que la ressource est parfaitement adaptée à la vue sans marge intérieure sur les côtés. Ce cas d’utilisation est le plus courant pour les pages web qui utilisent des structures de mise en page réactive telles que Bootstrap, Foundation, etc.
+En mode réactif, la visionneuse se comporte différemment selon la manière dont la page web dimensionne son conteneur DIV. Si la page web définit uniquement la largeur du conteneur DIV, sans restriction de hauteur, la visionneuse choisit automatiquement sa hauteur en fonction des proportions de la ressource utilisée. Cette méthode permet de s’assurer que la ressource s’intègre parfaitement dans la vue sans marge intérieure sur les côtés. Ce cas d’utilisation est le plus courant pour les pages web qui utilisent des structures de mise en page réactive telles que Bootstrap, Foundation, etc.
 
-Dans le cas contraire, si la page web définit à la fois la largeur et la hauteur du conteneur DIV de la visionneuse, celle-ci remplit cette zone et suit la taille fournie par la mise en page web. Un bon exemple peut être l’incorporation de la visionneuse dans une superposition modale, où la superposition est dimensionnée en fonction de la taille de la fenêtre du navigateur web.
-
+Dans le cas contraire, si la page web définit la largeur et la hauteur du conteneur DIV de la visionneuse, celle-ci remplit cette zone et suit la taille fournie par la mise en page de la page web. Un bon exemple consiste à incorporer la visionneuse dans une superposition modale, où la superposition est dimensionnée en fonction de la taille de la fenêtre du navigateur web.
 
 **Incorporation de taille fixe**
 
@@ -159,8 +158,7 @@ Le chemin relatif ressemble à ce qui suit :
    panoramicViewer.setParam("stagesize", "512,256");
    ```
 
-   L’approche basée sur CSS est recommandée et sera utilisée dans cet exemple.
-
+   L’approche basée sur CSS est recommandée et est utilisée dans cet exemple.
 
 1. Création et initialisation de la visionneuse.
 
@@ -233,7 +231,7 @@ Avec l’incorporation réactive, la page web dispose normalement d’une sorte 
 </html> 
 ```
 
-L’ajout de la visionneuse à une telle page est très similaire à l’incorporation de taille fixe, avec la seule différence que vous n’avez pas besoin de définir explicitement la taille de la visionneuse :
+L’ajout de la visionneuse à cette page est similaire à l’incorporation de taille fixe, à la seule différence que vous n’avez pas besoin de définir explicitement la taille de la visionneuse :
 
 1. Ajout du fichier JavaScript de la visionneuse à votre page web.
 1. Définition du conteneur DIV.

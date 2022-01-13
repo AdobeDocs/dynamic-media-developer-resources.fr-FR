@@ -1,14 +1,14 @@
 ---
+title: Swatches.align
 description: Swatches.align
 solution: Experience Manager
-title: Swatches.align
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Fenêtre déroulante
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 300bbee8-29f1-444d-bf98-42aeb9c5017b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 4%
+source-wordcount: '80'
+ht-degree: 5%
 
 ---
 
