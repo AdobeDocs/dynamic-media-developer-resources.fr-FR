@@ -1,20 +1,20 @@
 ---
+title: Bouton de rotation à gauche
 description: Cliquez ou appuyez sur ce bouton pour faire pivoter l’image vers la gauche dans la vue principale. Ce bouton n’est pas affiché sur les téléphones mobiles pour économiser de l’espace sur l’écran. En outre, le bouton est masqué lorsqu’une visionneuse à 360° multidimensionnelle est utilisée. Vous pouvez dimensionner, habiller et positionner le bouton à l’aide de CSS.
 solution: Experience Manager
-title: Bouton de rotation à gauche
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 0c7ca422-f4ac-4ad1-ab51-8521b4d4b20e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '328'
 ht-degree: 4%
 
 ---
 
 # Bouton de rotation à gauche{#spin-left-button}
 
-Cliquez ou appuyez sur ce bouton pour faire pivoter l’image vers la gauche dans la vue principale. Ce bouton n’est pas affiché sur les téléphones mobiles pour économiser de l’espace sur l’écran. En outre, le bouton est masqué lorsqu’une visionneuse à 360° multidimensionnelle est utilisée. Vous pouvez dimensionner, habiller et positionner le bouton à l’aide de CSS.
+Lorsque vous sélectionnez ce bouton, l’image est décalée vers la gauche dans la vue principale. Ce bouton n’est pas affiché sur les téléphones mobiles pour économiser de l’espace sur l’écran. En outre, le bouton est masqué lorsqu’une visionneuse à 360° multidimensionnelle est utilisée. Vous pouvez dimensionner, habiller et positionner le bouton à l’aide de CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -92,31 +92,31 @@ L’aspect de ce bouton à l’intérieur du conteneur est contrôlé à l’aid
    <td colname="col2"> <p>Position à partir de la bordure inférieure, y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
    <td colname="col2"> <p>Largeur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
-   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
 Les info-bulles des boutons peuvent être localisées. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) pour plus d’informations.
 
-Exemple : pour configurer un bouton de gauche à 360° de 28 x 28 pixels, positionné sur le bord gauche du conteneur intérieur, et qui affiche une image différente pour chacun des quatre états de bouton différents :
+Exemple : pour configurer un bouton de gauche à 360° de 28 x 28 pixels et positionné sur le bord gauche du conteneur intérieur. Enfin, affiche une image différente pour chacun des quatre états de bouton différents :
 
 ```
 .s7mixedmediaviewer .s7spinbuttons .s7panleftbutton { 

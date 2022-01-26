@@ -1,11 +1,11 @@
 ---
-description: Le bouton Plein écran permet à la visionneuse d’entrer ou de quitter le mode Plein écran lorsqu’elle est sélectionnée par l’utilisateur. Elle est utilisée lorsque la visionneuse affiche la vidéo et se trouve dans la barre de contrôle. Ce bouton ne s’affiche pas si la visionneuse fonctionne en mode pop-up et que le système ne prend pas en charge le mode plein écran natif.
-solution: Experience Manager
 title: Bouton Plein écran de la vidéo
+description: Le bouton Plein écran permet à la visionneuse d’entrer ou de quitter le mode Plein écran lorsqu’elle est sélectionnée par l’utilisateur. Elle est utilisée lorsque la visionneuse affiche la vidéo et est positionnée dans la barre de contrôle. Ce bouton ne s’affiche pas si la visionneuse fonctionne en mode pop-up et que le système ne prend pas en charge le mode plein écran natif.
+solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 45811efa-95f6-4b6d-96f8-9e5437a55f0e
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Bouton Plein écran de la vidéo{#video-full-screen-button}
 
-Le bouton Plein écran permet à la visionneuse d’entrer ou de quitter le mode Plein écran lorsqu’elle est sélectionnée par l’utilisateur. Elle est utilisée lorsque la visionneuse affiche la vidéo et se trouve dans la barre de contrôle. Ce bouton ne s’affiche pas si la visionneuse fonctionne en mode pop-up et que le système ne prend pas en charge le mode plein écran natif.
+Le bouton Plein écran permet à la visionneuse d’entrer ou de quitter le mode Plein écran lorsqu’elle est sélectionnée par l’utilisateur. Elle est utilisée lorsque la visionneuse affiche la vidéo et est positionnée dans la barre de contrôle. Ce bouton ne s’affiche pas si la visionneuse fonctionne en mode pop-up et que le système ne prend pas en charge le mode plein écran natif.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
