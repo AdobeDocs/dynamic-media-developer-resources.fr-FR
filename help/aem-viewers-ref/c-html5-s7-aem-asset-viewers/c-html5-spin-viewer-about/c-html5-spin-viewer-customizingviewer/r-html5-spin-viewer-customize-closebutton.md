@@ -1,20 +1,20 @@
 ---
+title: Bouton Fermer
 description: Cliquez ou appuyez sur ce bouton pour fermer la page web contenante. Ce bouton ne s’affiche que si le paramètre close est défini sur 1. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
 solution: Experience Manager
-title: Bouton Fermer
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses à 360°
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: e2f8e45a-5b24-45fa-a009-fc3221a65c15
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 2%
+source-wordcount: '227'
+ht-degree: 3%
 
 ---
 
 # Bouton Fermer{#close-button}
 
-Cliquez ou appuyez sur ce bouton pour fermer la page web contenante. Ce bouton ne s’affiche que si le paramètre close est défini sur 1. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
+Lorsque vous sélectionnez ce bouton, la page web contenant est fermée. Ce bouton ne s’affiche que si le paramètre close est défini sur 1. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -59,23 +59,23 @@ L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suiv
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
-   <td colname="col2"> <p>Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col2"> <p>Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
 L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98) pour plus d’informations.
 
-Exemple : pour configurer un bouton de fermeture de 32 x 32 pixels, positionnez six pixels à partir du bord supérieur et droit de la visionneuse et affiche une image différente pour chacun des quatre états de bouton différents.
+Exemple : pour configurer un bouton Fermer de 32 x 32 pixels et positionner six pixels à partir des bords supérieur et droit de la visionneuse. Et enfin, affiche une image différente pour chacun des quatre états de bouton différents.
 
 ```
 .s7spinviewer .s7closebutton { 

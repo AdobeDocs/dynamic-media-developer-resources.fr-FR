@@ -1,14 +1,14 @@
 ---
+title: SpinView.enableHD
 description: SpinView.enableHD
 solution: Experience Manager
-title: SpinView.enableHD
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 0a2abdc6-eae5-4dda-b749-599cd8a07a98
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 6%
+source-wordcount: '81'
+ht-degree: 7%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
-   <td colname="col2"> <p> Activez, limitez ou désactivez l’optimisation pour les appareils pour lesquels la valeur <span class="codeph"> devicePixelRatio</span> est supérieure à <span class="codeph"> 1</span>, c’est-à-dire les appareils avec un affichage haute densité comme l’iPhone4 et les appareils similaires. Si principal, le composant limite la taille de la demande d’image IS comme si l’appareil avait uniquement un rapport de pixels de <span class="codeph"> 1</span> et réduisait donc la bande passante. </p> </td> 
+   <td colname="col2"> <p> Activation, limitation ou désactivation de l’optimisation pour les périphériques où <span class="codeph"> devicePixelRatio</span> est supérieur à <span class="codeph"> 1</span>, c’est-à-dire les appareils avec un affichage haute densité comme iPhone4 et les appareils similaires. Si principal, le composant limite la taille de la demande d’image IS comme si l’appareil avait uniquement un rapport de pixels de <span class="codeph"> 1</span> et donc réduire la bande passante. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> nombre</span></span> </p> </td> 
-   <td colname="col2"> <p> Si vous utilisez le paramètre <span class="codeph"> limit</span> , le composant n’active la haute densité en pixels que jusqu’à la limite spécifiée. </p> </td> 
+   <td colname="col2"> <p> Si vous utilisez la variable <span class="codeph"> limit</span> , le composant active la haute densité de pixels uniquement jusqu’à la limite spécifiée. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,13 +1,13 @@
 ---
+title: getComponent
 description: Référence de l’API JavaScript pour la visionneuse à 360°
 solution: Experience Manager
-title: getComponent
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses à 360°
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: f0cb5a99-814f-4c4d-bfe3-bb670c8f9926
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '192'
 ht-degree: 1%
 
 ---
@@ -18,11 +18,11 @@ Référence de l’API JavaScript pour la visionneuse à 360°
 
 `getComponent(componentId)`
 
-Renvoie une référence au composant SDK de la visionneuse utilisé par la visionneuse. La page web peut utiliser cette méthode pour étendre ou personnaliser le comportement de la visionneuse prête à l’emploi. Appelez cette méthode uniquement après l’exécution du rappel de la visionneuse `initComplete`. Sinon, le composant ne peut pas encore être créé par la logique de la visionneuse.
+Renvoie une référence au composant SDK de la visionneuse utilisé par la visionneuse. La page web peut utiliser cette méthode pour étendre ou personnaliser le comportement de la visionneuse prête à l’emploi. Appelez cette méthode uniquement après la `initComplete` le rappel de la visionneuse a été exécuté, sinon le composant ne peut pas encore être créé par la logique de la visionneuse.
 
 ## Paramètres {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`componentID`*`  :  `{String}` identifiant du composant SDK de visionneuse utilisé par la visionneuse. Cette visionneuse prend en charge les identifiants de composant suivants :
+`*`componentID`*` - `{String}` Identifiant du composant SDK de la visionneuse utilisé par la visionneuse. Cette visionneuse prend en charge les identifiants de composant suivants :
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
@@ -33,48 +33,48 @@ Renvoie une référence au composant SDK de la visionneuse utilisé par la visio
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> parameterManager  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> parameterManager </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> conteneur </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mediaSet  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.MediaSet  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mediaSet </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.MediaSet </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spinView  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.SpinView  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spinView </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.SpinView </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomInButton  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomInButton  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomInButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomInButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomOutButton  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomOutButton  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomOutButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomOutButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomResetButton  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomResetButton  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomResetButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomResetButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> fullScreenButton  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.FullScreenButton  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> fullScreenButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.FullScreenButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> closeButton  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.CloseButton  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> closeButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.CloseButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spinLeftButton  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanLeftButton  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spinLeftButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanLeftButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> spinRightButton  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanRightButton  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> spinRightButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanRightButton </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -85,7 +85,7 @@ Pour plus d’informations sur un composant particulier, consultez la documentat
 
 ## Renvoie {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` Référence au composant SDK de visionneuse. La méthode renvoie `null` si `componentId` n’est pas un composant de visionneuse pris en charge ou si le composant n’a pas encore été créé par la logique de la visionneuse.
+`{Object}` Référence au composant SDK de visionneuse. La méthode renvoie `null` si la variable `componentId` n’est pas un composant de visionneuse pris en charge ou si le composant n’a pas encore été créé par la logique de visionneuse.
 
 ## Exemple {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

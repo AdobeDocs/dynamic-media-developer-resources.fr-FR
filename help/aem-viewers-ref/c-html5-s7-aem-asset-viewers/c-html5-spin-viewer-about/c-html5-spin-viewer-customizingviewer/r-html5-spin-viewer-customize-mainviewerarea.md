@@ -1,13 +1,13 @@
 ---
+title: Zone de visionneuse principale
 description: La zone d’affichage principale est la zone occupée par l’image à 360°. Il est généralement défini pour s’adapter à l’écran de l’appareil disponible lorsqu’aucune taille n’est spécifiée.
 solution: Experience Manager
-title: Zone de visionneuse principale
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses à 360°
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 6cd9c375-8890-4033-b187-b95b26dd6009
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '116'
 ht-degree: 2%
 
 ---
@@ -43,13 +43,13 @@ L’aspect de la zone d’affichage est contrôlé à l’aide du sélecteur de 
    <td colname="col2"> <p>Hauteur de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan au format hexadécimal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : pour configurer une visionneuse avec un arrière-plan blanc ( `#FFFFFF`) et lui donner une taille de 512 x 288 pixels.
+Exemple : pour configurer une visionneuse avec un arrière-plan blanc ( `#FFFFFF`) et sa taille est de 512 x 288 pixels.
 
 ```
 .s7spinviewer { 

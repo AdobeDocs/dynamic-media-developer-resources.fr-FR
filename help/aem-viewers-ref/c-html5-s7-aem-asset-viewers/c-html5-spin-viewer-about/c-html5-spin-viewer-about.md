@@ -1,12 +1,12 @@
 ---
+title: Spin
 description: Visionneuse à 360° est une visionneuse d’images qui fournit une vue à 360 degrés de l’image, voire multidimensionnelle, si une visionneuse à 360° appropriée est utilisée. Il comporte des outils de zoom et de rotation, une prise en charge du plein écran et un bouton de fermeture facultatif. Il est conçu pour fonctionner sur les ordinateurs de bureau et les appareils mobiles.
 keywords: responsive
 solution: Experience Manager
-title: Spin
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 4c802d42-ea5b-4f28-b6ef-2689aa16839d
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '2130'
 ht-degree: 0%
@@ -88,7 +88,7 @@ En mode contextuel, la visionneuse s’ouvre dans une fenêtre ou un onglet de n
 
 Le mode pop-up est le plus courant pour les appareils mobiles. La page web charge la visionneuse à l’aide de `window.open()` Appel JavaScript, correctement configuré `A` élément de HTML ou toute autre méthode appropriée.
 
-Il est recommandé d’utiliser une page de HTML d’usine pour le mode de fonctionnement pop-up. Dans ce cas, il est appelé [!DNL SpinViewer.html] et se trouve dans la variable [!DNL html5/] sous-dossier de votre déploiement IS-Viewers standard :
+Il est recommandé d’utiliser une page de HTML d’usine pour le mode de fonctionnement de la fenêtre contextuelle. Dans ce cas, il est appelé [!DNL SpinViewer.html] et se trouve dans la variable [!DNL html5/] sous-dossier de votre déploiement IS-Viewers standard :
 
 [!DNL <s7viewers_root>/html5/SpinViewer.html]
 
@@ -237,7 +237,7 @@ Pour ajouter la visionneuse à 360° à une page web, procédez comme suit :
 
 **Intégration de conception réactive avec une hauteur libre**
 
-Avec l’incorporation de responsive design, la page web dispose normalement d’une sorte de disposition flexible qui détermine la taille d’exécution du conteneur de la visionneuse. `DIV`. Dans cet exemple, supposons que la page web autorise le conteneur de la visionneuse. `DIV` pour prendre 40 % de la taille de la fenêtre du navigateur web, en ne limitant pas sa hauteur. Le code de HTML de page web qui en résulte ressemble à ce qui suit :
+Avec l’incorporation de responsive design, la page web dispose normalement d’une sorte de disposition flexible qui détermine la taille d’exécution du conteneur de la visionneuse. `DIV`. Dans cet exemple, supposons que la page web autorise le conteneur de la visionneuse. `DIV` pour prendre 40 % de la taille de la fenêtre du navigateur web, sans restriction de sa hauteur. Le code de HTML de page web qui en résulte ressemble à ce qui suit :
 
 ```
 <!DOCTYPE html> 

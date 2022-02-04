@@ -1,14 +1,14 @@
 ---
+title: Swatches.buttonsnapmode
 description: Swatches.buttonsnapmode
 solution: Experience Manager
-title: Swatches.buttonsnapmode
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 3be4a886-cc33-42f8-8f0a-e41d8dd5da33
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 8%
+source-wordcount: '39'
+ht-degree: 10%
 
 ---
 

@@ -1,14 +1,14 @@
 ---
+title: VideoPlayer.mutevolume
 description: Attribut de configuration pour la visionneuse de vidéos.
 solution: Experience Manager
-title: VideoPlayer.mutevolume
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéo
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 8f644a40-7fd9-4edd-be29-698635b46507
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 8%
+source-wordcount: '54'
+ht-degree: 9%
 
 ---
 
@@ -22,7 +22,7 @@ Attribut de configuration pour la visionneuse de vidéos.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Définit le mode silencieux pour la lecture vidéo au chargement initial. S’il est défini sur <span class="codeph"> 1 </span>, le volume est muet. sinon, la vidéo est lue avec le son. Sur certains appareils, le fait de désactiver la lecture vidéo au chargement permet également la lecture automatique de la vidéo. </p> </td> 
+   <td colname="col2"> <p> Définit le mode silencieux pour la lecture vidéo au chargement initial. Si la variable est définie sur <span class="codeph"> 1 </span> le volume est coupé; sinon, la vidéo est lue avec le son. Sur certains appareils, la mise en mode muet de la lecture vidéo au chargement permet également à la vidéo d’être lue automatiquement. </p> </td> 
   </tr> 
  </tbody> 
 </table>

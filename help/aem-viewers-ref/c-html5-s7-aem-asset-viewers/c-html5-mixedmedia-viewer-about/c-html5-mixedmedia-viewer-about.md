@@ -1,12 +1,12 @@
 ---
+title: Supports variés
 description: Visionneuse de médias mixtes est une visionneuse de médias. Il prend en charge les visionneuses de médias qui contiennent des images, des visionneuses d’échantillons, des visionneuses à 360°, des vidéos et des visionneuses de vidéos adaptatives.
 keywords: responsive
 solution: Experience Manager
-title: Supports variés
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 65a54308-f9db-4458-a9c3-ccb1433af43c
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '2645'
 ht-degree: 0%
@@ -98,7 +98,7 @@ En mode contextuel, la visionneuse s’ouvre dans une fenêtre ou un onglet de n
 
 Le mode pop-up est le plus courant pour les appareils mobiles. La page web charge la visionneuse à l’aide de `window.open()` Appel JavaScript, correctement configuré `A` élément de HTML ou toute autre méthode appropriée.
 
-Il est recommandé d’utiliser une page de HTML d’usine pour le mode de fonctionnement pop-up. Dans ce cas, il est appelé [!DNL MixedMediaViewer.html] et se trouve dans la variable [!DNL html5/] sous-dossier de votre déploiement IS-Viewers standard :
+Il est recommandé d’utiliser une page de HTML d’usine pour le mode de fonctionnement de la fenêtre contextuelle. Dans ce cas, il est appelé [!DNL MixedMediaViewer.html] et se trouve dans la variable [!DNL html5/] sous-dossier de votre déploiement IS-Viewers standard :
 
 [!DNL <s7viewers_root>/html5/MixedMediaViewer.html]
 

@@ -1,13 +1,13 @@
 ---
+title: FlyoutZoomView.fmt
 description: Indique le format d’image que le composant utilise pour charger les images à partir du serveur d’images.
 solution: Experience Manager
-title: FlyoutZoomView.fmt
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 6e3bf609-eae7-4db9-b922-cba3a9f7634b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '85'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,7 @@ Indique le format d’image que le composant utilise pour charger les images à 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> Si le format spécifié se termine par <span class="codeph"> -alpha</span>, le composant effectue le rendu des images en tant que contenu transparent. Pour tous les autres formats d’image, le composant traite les images comme opaques. </p> <p>Notez que le composant a par défaut un arrière-plan blanc. Par conséquent, pour le rendre complètement transparent, définissez la propriété CSS <span class="codeph"> background-color</span> sur <span class="codeph"> transparent</span>. </p> </td> 
+   <td colname="col2"> <p> Si le format spécifié se termine par <span class="codeph"> -alpha</span>, le composant effectue le rendu des images en tant que contenu transparent. Pour tous les autres formats d’image, le composant traite les images comme opaques. </p> <p>Par défaut, l’arrière-plan du composant est blanc. Par conséquent, pour la rendre transparente, définissez la variable <span class="codeph"> arrière-plan-couleur</span> Propriété CSS à <span class="codeph"> transparent</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

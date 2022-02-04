@@ -1,13 +1,13 @@
 ---
+title: Swatches.align
 description: Swatches.align
 solution: Experience Manager
-title: Swatches.align
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 4f25112b-9e51-4a0e-9500-1b5ab0f4de87
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '84'
 ht-degree: 4%
 
 ---

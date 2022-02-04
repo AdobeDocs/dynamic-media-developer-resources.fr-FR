@@ -1,14 +1,14 @@
 ---
+title: VideoPlayer.autoplay
 description: Attribut de configuration pour la visionneuse de vidéos.
 solution: Experience Manager
-title: VideoPlayer.autoplay
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéo
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: ec0bb98a-7c0b-4ed7-b47d-7c103b6a5943
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 13%
+source-wordcount: '38'
+ht-degree: 15%
 
 ---
 

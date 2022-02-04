@@ -1,13 +1,13 @@
 ---
+title: VideoPlayer.iconeffect
 description: Attribut de configuration pour la visionneuse de vidéos.
 solution: Experience Manager
-title: VideoPlayer.iconeffect
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéo
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: b283b495-ee28-4f9d-ad4d-b14ac2f9a1a2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '115'
 ht-degree: 4%
 
 ---
@@ -16,17 +16,17 @@ ht-degree: 4%
 
 Attribut de configuration pour la visionneuse de vidéos.
 
-` [VideoPlayer.|<containerId>_videoPlayer.]iconeffect= *`0|1`*[, *``*][, *``*][, *`countfadeautoHide`*]`
+` [VideoPlayer.|<containerId>_videoPlayer.]iconeffect= *`0|1`*[, *`count`*][, *`fade`*][, *`autoHide`*]`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 0|1</span> </span> </p> </td> 
-   <td colname="col2"> <p> Permet à IconEffect de s’afficher en haut de la vidéo lorsque celle-ci est en pause. Sur certains périphériques, des contrôles natifs sont utilisés. Dans ce cas, le modificateur <span class="codeph"> iconEffet</span> est ignoré. </p> </td> 
+   <td colname="col2"> <p> Permet à IconEffect de s’afficher en haut de la vidéo lorsque celle-ci est en pause. Sur certains périphériques, des contrôles natifs sont utilisés. Dans ce cas, la variable <span class="codeph"> iconEffet</span> est ignoré. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> count</span> </span> </p> </td> 
-   <td colname="col2"> <p> Indique le nombre maximal de fois où IconEffect apparaît et réapparaît. Une valeur <span class="codeph"> -1</span> indique que l’icône réapparaît indéfiniment. </p> </td> 
+   <td colname="col2"> <p> Indique le nombre maximal de fois où IconEffect apparaît et réapparaît. Une valeur de <span class="codeph"> -1</span> indique que l’icône réapparaît indéfiniment. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fade</span> </span> </p> </td> 
@@ -34,7 +34,7 @@ Attribut de configuration pour la visionneuse de vidéos.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> autoHide</span> </span> </p> </td> 
-   <td colname="col2"> <p> Définit le nombre de secondes pendant lesquelles IconEffect reste visible avant de se masquer automatiquement. C’est-à-dire le temps qui s’écoule après la fin de l’animation avec fondu avant le début de l’animation avec fondu. Un paramètre de <span class="codeph"> 0</span> désactive le comportement de masquage automatique. </p> </td> 
+   <td colname="col2"> <p> Définit le nombre de secondes pendant lesquelles IconEffect reste visible avant de se masquer automatiquement. C’est-à-dire le temps qui s’écoule après la fin de l’animation avec fondu avant le début de l’animation avec fondu. Un paramètre de <span class="codeph"> 0</span> désactive le masquage automatique du comportement. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,13 +1,13 @@
 ---
+title: Vue à 360°
 description: La vue principale se compose de l’image à 360°.
 solution: Experience Manager
-title: Vue à 360°
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses à 360°
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: d3274fe3-1a47-448e-acc6-6df77c6a4211
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '59'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ L’aspect de la zone d’affichage est contrôlé à l’aide du sélecteur de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan au format hexadécimal de la vue principale. </p> </td> 
   </tr> 
  </tbody> 

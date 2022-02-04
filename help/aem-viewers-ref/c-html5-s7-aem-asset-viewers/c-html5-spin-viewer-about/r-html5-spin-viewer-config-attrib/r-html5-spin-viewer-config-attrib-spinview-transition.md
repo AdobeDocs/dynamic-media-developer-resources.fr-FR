@@ -1,20 +1,20 @@
 ---
+title: SpinView.transition
 description: SpinView.transition
 solution: Experience Manager
-title: SpinView.transition
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses à 360°
+feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 85dbd5cd-b212-4c77-8f5a-ffbdaca27fdb
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '110'
+source-wordcount: '102'
 ht-degree: 4%
 
 ---
 
 # SpinView.transition{#spinview-transition}
 
-` [SpinView.|<containerId>_spinView.]transition= *``*[, *`temporisation`*]`
+` [SpinView.|<containerId>_spinView.]transition= *`time`*[, *`assouplissement`*]`
 
 <table id="table_9E7BB12BF371419F88DD4D24EF04632C"> 
  <tbody> 

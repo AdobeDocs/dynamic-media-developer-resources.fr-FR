@@ -1,13 +1,13 @@
 ---
+title: Bouton Plein écran
 description: Ce bouton permet à la visionneuse d’entrer ou de quitter le mode plein écran lorsqu’elle est sélectionnée par l’utilisateur. Ce bouton ne s’affiche pas si la visionneuse fonctionne en mode pop-up et que le système ne prend pas en charge le mode plein écran natif. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
 solution: Experience Manager
-title: Bouton Plein écran
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: c57f42e1-93c0-44fa-9734-9599786ee246
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '287'
 ht-degree: 2%
 
 ---
@@ -75,7 +75,7 @@ L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suiv
 
 L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-localization.md#concept-e35c15c9e82648328806cdc6aa255d98) pour plus d’informations.
 
-Exemple : pour configurer un bouton plein écran de 32 x 32 pixels, positionnez six pixels à partir du bord supérieur et droit de la visionneuse et affiche une image différente pour chacun des quatre états de bouton différents lorsqu’il est sélectionné ou non :
+Exemple : pour configurer un bouton plein écran de 32 x 32 pixels et positionner six pixels à partir des bords supérieur et droit de la visionneuse. Enfin, affiche une image différente pour chacun des quatre états de bouton différents lorsqu’il est sélectionné ou non :
 
 ```
 .s7spinviewer .s7fullscreenbutton { 

@@ -1,14 +1,14 @@
 ---
+title: videoServerUrl
 description: Commande URL de la visionneuse de vidéos.
 solution: Experience Manager
-title: videoServerUrl
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéo
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 945c32e0-a67b-4c27-b661-26510615d757
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 6%
+source-wordcount: '51'
+ht-degree: 7%
 
 ---
 

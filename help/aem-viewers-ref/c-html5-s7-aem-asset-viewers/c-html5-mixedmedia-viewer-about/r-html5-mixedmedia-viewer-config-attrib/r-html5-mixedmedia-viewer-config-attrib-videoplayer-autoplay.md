@@ -1,14 +1,14 @@
 ---
+title: VideoPlayer.autoplay
 description: VideoPlayer.autoplay
 solution: Experience Manager
-title: VideoPlayer.autoplay
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Visionneuses de médias mixtes
+feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 75ac93b4-fd76-4a2c-ba6a-c99baefaecec
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 15%
+source-wordcount: '29'
+ht-degree: 20%
 
 ---
 
