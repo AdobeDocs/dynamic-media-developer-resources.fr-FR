@@ -1,20 +1,20 @@
 ---
-description: La barre de contrôle est la zone rectangulaire qui contient tous les commandes de l’interface utilisateur disponibles pour la visionneuse de vidéos, telles que le bouton de lecture/pause, les commandes de volume, etc.
-solution: Experience Manager
 title: Barre de contrôle
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéo
+description: La barre de contrôle est la zone rectangulaire qui contient et se trouve derrière tous les contrôles d’interface utilisateur disponibles pour la visionneuse de vidéos, tels que les commandes de lecture/pause et de volume.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 2239307a-4a05-4392-b35c-a64ea6c938ad
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '166'
 ht-degree: 2%
 
 ---
 
 # Barre de contrôle{#control-bar}
 
-La barre de contrôle est la zone rectangulaire qui contient tous les commandes de l’interface utilisateur disponibles pour la visionneuse de vidéos, telles que le bouton de lecture/pause, les commandes de volume, etc.
+La barre de contrôle est la zone rectangulaire qui contient et se trouve derrière tous les contrôles d’interface utilisateur disponibles pour la visionneuse de vidéos, tels que les commandes de lecture/pause et de volume.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -43,7 +43,7 @@ Le sélecteur de classe CSS suivant contrôle l’aspect de la barre de contrôl
    <td colname="col2"> <p>Hauteur de la barre de contrôle. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
    <td colname="col2"> <p>Couleur d’arrière-plan de la barre de contrôle. </p> </td> 
   </tr> 
  </tbody> 

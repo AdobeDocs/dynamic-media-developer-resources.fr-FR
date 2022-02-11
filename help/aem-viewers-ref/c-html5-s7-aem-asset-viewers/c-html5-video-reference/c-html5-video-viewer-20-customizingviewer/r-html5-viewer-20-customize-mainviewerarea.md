@@ -1,13 +1,13 @@
 ---
+title: Zone de visionneuse principale
 description: La zone d’affichage principale est occupée par la vidéo. Il est généralement défini pour s’adapter à l’écran de l’appareil disponible lorsqu’aucune taille n’est spécifiée.
 solution: Experience Manager
-title: Zone de visionneuse principale
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéo
+feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 7d1379c1-7746-4f61-92df-e8ac4ab7d506
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '101'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ Le sélecteur de classe CSS suivant contrôle l’aspect de la zone d’affichag
    <td colname="col2"> <p>Hauteur de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan au format hexadécimal. </p> </td> 
   </tr> 
  </tbody> 
