@@ -1,13 +1,13 @@
 ---
+title: Accessibilité du clavier et navigation
 description: Toutes les fonctionnalités exposées dans l’interface de la visionneuse à 360°, Zoom de base, Catalogue électronique, Recherche catalogue électronique, Fenêtre déroulante, Zoom intégré, Média mixte, Rotation, Vidéo, Zoom, Dimensionnel (3D), Carrousel, Image interactive, Vidéo interactive et Vidéo360 sont accessibles au clavier.
 solution: Experience Manager
-title: Accessibilité du clavier et navigation
-feature: Dynamic Media Classic,Visionneuses,SDK/API
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 0bdf172a-0bde-42d2-900f-f207538fe588
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ Toutes les fonctionnalités exposées dans l’interface de la visionneuse à 36
 
 Toutes les fonctionnalités exposées dans l’interface de la visionneuse à 360°, Zoom de base, Catalogue électronique, Recherche catalogue électronique, Fenêtre déroulante, Zoom intégré, Média mixte, Rotation, Vidéo, Zoom, Carrousel, Dimensionnel (3D), Image interactive, Vidéo interactive et Vidéo 360 sont accessibles au clavier.
 
-Un utilisateur final peut naviguer entre les éléments de l’interface utilisateur de la visionneuse à l’aide des touches **[!UICONTROL Tab]** et **[!UICONTROL Maj+Tab]**. L’utilisation de **[!UICONTROL l’onglet]** met la cible d’action sur l’élément d’interface utilisateur suivant dans l’ordre de tabulation. l’utilisation de la commande **[!UICONTROL Maj+Tab]** rétablit le focus des entrées sur l’élément d’interface utilisateur précédent. La traversée de sélection suit l’emplacement de l’élément d’interface utilisateur naturel à l’écran et se déplace de gauche à droite, puis de haut en bas.
+Un utilisateur final peut naviguer entre les éléments de l’interface utilisateur de la visionneuse à l’aide de **[!UICONTROL Onglet]** et **[!UICONTROL Maj+Tab]** touches. Utilisation **[!UICONTROL Onglet]** insère la mise au point de l’entrée sur l’élément d’interface utilisateur suivant dans l’ordre de tabulation ; using **[!UICONTROL Maj+Tab]** rétablit la mise au point des entrées sur l’élément d’interface utilisateur précédent. La traversée de sélection suit l’emplacement de l’élément d’interface utilisateur naturel à l’écran et se déplace de gauche à droite, puis de haut en bas.
 
 Selon les paramètres du système d’exploitation et du navigateur web, l’élément d’interface utilisateur qui a le focus d’entrée reçoit une indication visuelle de focus. Par exemple, l’indicateur visuel peut être une bordure mince générée autour de l’élément d’interface utilisateur.
 
-Il est possible de désactiver ou de personnaliser cette mise en surbrillance dans le CSS de la visionneuse. Dans la table des matières de ce système d’aide, sous un nom de visionneuse spécifique (par exemple, Zoom de base ou Vidéo interactive), cliquez sur **Personnalisation de *nom de la visionneuse*** >** Mise en surbrillance du focus **.
+Il est possible de désactiver ou de personnaliser cette mise en surbrillance dans le CSS de la visionneuse. Dans la table des matières de ce système d’aide, sous un nom de visionneuse spécifique (par exemple, Zoom de base ou Vidéo interactive), cliquez sur **Personnalisation *nom de la visionneuse*** >** Mise en évidence de la cible **.
 
 Les touches prises en charge par les éléments de l’interface utilisateur de la visionneuse individuelle sont, dans la plupart des cas, évidentes et faciles à découvrir.
 
@@ -44,7 +44,7 @@ Les touches prises en charge par les éléments de l’interface utilisateur de 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zoom avant ou arrière </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> +  </span> ou  <span class="uicontrol"> -  </span>, respectivement. </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> + </span> ou <span class="uicontrol"> - </span>, respectivement. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Réinitialisation du zoom </p> </td> 

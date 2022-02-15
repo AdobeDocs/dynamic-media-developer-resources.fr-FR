@@ -1,13 +1,13 @@
 ---
+title: Prise en charge des technologies d’assistance
 description: Tous les composants de visionneuse prennent en charge les rôles et attributs ARIA (Accessible Rich Internet Applications) pour améliorer l’intégration aux technologies d’assistance telles que les lecteurs d’écran.
 solution: Experience Manager
-title: Prise en charge des technologies d’assistance
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Vidéo,Accessibilité
+feature: Dynamic Media Classic,Viewers,SDK/API,Video,Accessibility
 role: Developer,User
 exl-id: e0652730-60ee-41db-890b-e223b279e47d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '177'
 ht-degree: 0%
 
 ---
@@ -16,12 +16,12 @@ ht-degree: 0%
 
 Tous les composants de visionneuse prennent en charge les rôles et attributs ARIA (Accessible Rich Internet Applications) pour améliorer l’intégration aux technologies d’assistance telles que les lecteurs d’écran.
 
-L’élément de visionneuse de niveau supérieur a un rôle `region` et un attribut `aria-label` défini par défaut sur le nom de la visionneuse. Vous pouvez contrôler le libellé avec le symbole de localisation `Container.LABEL`.
+L’élément de visionneuse de niveau supérieur a un rôle `region` et `aria-label` définie par défaut sur le nom de la visionneuse. Vous pouvez contrôler le libellé à l’aide de la fonction `Container.LABEL` symbole de localisation.
 
-Les boutons ont le rôle `button` et un texte descriptif défini avec l’attribut `aria-label` . La valeur de l’attribut `aria-label` est renseignée à partir de la valeur du symbole de localisation du bouton. Lorsqu’un bouton est désactivé, l’attribut `aria-disabled` est défini en conséquence.
+Les boutons ont un rôle `button` et texte descriptif avec `aria-label` attribut. La valeur de `aria-label` est renseigné à partir de la valeur du symbole de localisation du bouton. Lorsqu’un bouton est désactivé, `aria-disabled` est défini en conséquence.
 
-Les composants de curseur ont le rôle `slider` avec les attributs `aria-valuenow`, `aria-valuemin` et `aria-valuemax` pour décrire la position actuelle du curseur.
+Les composants de curseur ont un rôle `slider` avec des attributs `aria-valuenow`, `aria-valuemin`, et `aria-valuemax` pour décrire la position actuelle du curseur.
 
-Les listes déroulantes sont activées par des boutons avec un attribut `aria-haspopup` supplémentaire défini sur `true` et un attribut `aria-controls` référençant l’élément réel du panneau déroulant. Le panneau déroulant lui-même a le rôle `menu` avec des sous-éléments ayant le rôle `menuitem`. L’attribut `aria-label` est spécifié pour chaque élément de menu.
+Les listes déroulantes sont activées par des boutons avec des `aria-haspopup` définie sur `true` et `aria-controls` faisant référence à l’élément de panneau déroulant réel. Le panneau déroulant lui-même a le rôle `menu` avec des sous-éléments ayant un rôle `menuitem`. Chaque élément de menu comporte la variable `aria-label` spécifié.
 
-Les boîtes de dialogue modales ont le rôle `dialog`. L’élément d’en-tête de la boîte de dialogue est référencé par l’attribut `aria-labelledby` .
+Les boîtes de dialogue modales ont un rôle `dialog`. L’élément d’en-tête de la boîte de dialogue est référencé par le `aria-labelledby` attribut.

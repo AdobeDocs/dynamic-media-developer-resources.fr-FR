@@ -3,7 +3,7 @@ cloud: Experience Cloud
 user-guide-title: Guide de référence des visionneuses Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: Personnalisez les visionneuses Dynamic Media pour les appareils de bureau et tactiles. Incluez des images et des vidéos interactives, des carrousels, des visionneuses à 360°, etc.
-source-git-commit: 254d1ef05c73e19618b7ad4743c6a242fa177929
+source-git-commit: a106c13770fcb342d7b12ca1593728072141e289
 workflow-type: tm+mt
 source-wordcount: '2074'
 ht-degree: 6%
@@ -19,8 +19,8 @@ ht-degree: 6%
 + [Installation de plusieurs visionneuses sur le même serveur](t-installing-the-viewers.md)
 + Notes de mise à jour des visionneuses {#viewers-release-notes}
    + [Notes de mise à jour des visionneuses (5.16.1)](c-release-notes/c-rn-04-06-21.md)
-   + [Notes de mise à jour des visionneuses (5.15.3)](c-release-notes/c-rn-01-13-21.md)
    + Archiver {#archive}
+      + [Notes de mise à jour des visionneuses (5.15.3)](c-release-notes/c-archive/c-rn-01-13-21.md)
       + [Notes de mise à jour des visionneuses (5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
       + [Notes de mise à jour des visionneuses (5.13.1)](c-release-notes/c-archive/c-rn-07-08-19.md)
       + [Notes de mise à jour des visionneuses (5.12.1)](c-release-notes/c-archive/c-rn-04-01-19.md)
