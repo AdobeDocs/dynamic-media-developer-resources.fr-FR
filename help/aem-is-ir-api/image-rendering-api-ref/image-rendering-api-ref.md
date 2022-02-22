@@ -1,12 +1,12 @@
 ---
-description: Vue de l’aide de référence de l’API de rendu d’image Dynamic Media.
 title: Référence de l’API de rendu d’image
-feature: null
-role: null
-translation-type: tm+mt
-source-git-commit: d0bc88f55f857762b3bab4c76d1e3f3dd2733d60
+description: Affichez l’aide de référence de l’API de rendu d’image Dynamic Media.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
+role: Developer,User
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '26'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -14,5 +14,4 @@ ht-degree: 0%
 
 # Référence de l’API de rendu d’image {#image-rendering-api-reference}
 
-Vue de l’aide de référence de l’API de rendu d’image Dynamic Media.
-
+Affichez l’aide de référence de l’API de rendu d’image Dynamic Media.

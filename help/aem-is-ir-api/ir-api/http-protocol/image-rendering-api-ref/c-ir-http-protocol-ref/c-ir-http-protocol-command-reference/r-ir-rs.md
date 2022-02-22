@@ -1,20 +1,20 @@
 ---
-description: Paramètres de rendu avancés. Spécifie des paramètres de rendu avancés à appliquer lors du rendu de la sélection en cours.
-solution: Experience Manager
 title: rs
-feature: Dynamic Media Classic, SDK/API
+description: Paramètres de rendu avancés. Spécifie les paramètres de rendu avancés à appliquer lors du rendu de la sélection actuelle.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 419baeb7-e06e-4753-a487-a1f407845f6d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # rs{#rs}
 
-Paramètres de rendu avancés. Spécifie des paramètres de rendu avancés à appliquer lors du rendu de la sélection en cours.
+Paramètres de rendu avancés. Spécifie les paramètres de rendu avancés à appliquer lors du rendu de la sélection actuelle.
 
 `rs= *`val`*`
 
@@ -25,7 +25,7 @@ Paramètres de rendu avancés. Spécifie des paramètres de rendu avancés à ap
  </tr> 
 </table>
 
-Utilisé pour affiner l’aspect du rendu. Utilisez la fonction de rendu de l’outil de création de vignettes (qui fait partie du package Dynamic Media Image Authoring) pour créer des chaînes de paramètres de rendu.
+Utilisé pour affiner l’aspect du rendu. Pour créer des chaînes de paramètres de rendu, utilisez la fonction de rendu de l’outil de création de vignettes (qui fait partie du package Dynamic Media Image Authoring).
 
 ## Propriétés {#section-9a2b2228789046658cb80eddf343af75}
 
@@ -37,7 +37,7 @@ Attribut de matière.
 
 ## Exemple {#section-47e4811882574441a4d517e42a35f352}
 
-Après une certaine expérience dans la création d’images, il est déterminé que le masquage flou (USM) fournit la bonne quantité d’accentuation pour l’application et le matériel donnés. La chaîne des paramètres de rendu qui configure USM est copiée dans la commande `rs=` à utiliser avec ce matériel :
+Après une certaine expérience dans la création d’images, il est déterminé que le masquage flou (USM) fournit la bonne quantité d’accentuation pour l’application et le matériel donnés. La chaîne des paramètres de rendu qui configure USM est copiée dans la variable `rs=` à utiliser avec ce matériel :
 
 `…&rs=U2V20W50X2&…`
 

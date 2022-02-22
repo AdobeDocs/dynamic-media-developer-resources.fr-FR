@@ -1,18 +1,18 @@
 ---
+title: indicateurs
 description: Appliquez des indicateurs. Spécifie les options de rendu supplémentaires.
 solution: Experience Manager
-title: indicateurs
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d0c3f65e-2dec-4c35-8df4-8d111e81f3f0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '70'
 ht-degree: 5%
 
 ---
 
-# indicateurs{#flags}
+# indicateurs {#flags}
 
 Appliquez des indicateurs. Spécifie les options de rendu supplémentaires.
 
@@ -27,9 +27,9 @@ Appliquez des indicateurs. Spécifie les options de rendu supplémentaires.
 
 Actuellement utilisé uniquement pour les documents de l’armoire.
 
-`flags=0` (par défaut) effectue le rendu des armoires supérieures à l’aide de portes solides.
+`flags=0` (par défaut) Rendu des armoires supérieures avec des portes solides.
 
-`flags=1` rend les armoires supérieures avec des portes en verre (si la vignette a été faite avec des portes en verre).
+`flags=1` Rend les armoires supérieures avec des portes en verre (si la vignette a été créée avec des portes en verre).
 
 ## Propriétés {#section-a2b00d7bb15e449ea85178acb92d8285}
 
@@ -37,4 +37,4 @@ Attribut de matière. Ignoré s’il ne s’agit pas d’un document de l’armo
 
 ## Par défaut {#section-4c134b02a1da4ffb9841233f98f6e97c}
 
-`flags=0` sans portes en verre.
+`flags=0` Pour pas de portes en verre.

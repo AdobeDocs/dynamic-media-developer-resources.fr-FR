@@ -1,13 +1,13 @@
 ---
+title: masquer
 description: Masquer l’objet de chevauchement. Masque dans la sélection actuelle tous les objets ou recouvrements de fenêtre appliqués aux cadres de recouvrement de fenêtre.
 solution: Experience Manager
-title: masquer
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 70c96b62-d6bd-4f12-9ee8-abac5d97e876
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '91'
 ht-degree: 7%
 
 ---

@@ -1,22 +1,22 @@
 ---
-description: Il existe deux options pour démarrer ou arrêter Image Serving sous Linux.
+title: Démarrage ou arrêt sous Linux®
+description: Il existe deux options pour démarrer ou arrêter Image Serving sous Linux®.
 solution: Experience Manager
-title: Démarrage ou arrêt sous Linux
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: eb4c60b2-5491-40e9-b105-d4b05006a9ca
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 0%
 
 ---
 
-# Démarrage ou arrêt sous Linux{#starting-or-stopping-on-linux}
+# Démarrage ou arrêt sous Linux® {#starting-or-stopping-on-linux}
 
-Il existe deux options pour démarrer ou arrêter Image Serving sous Linux.
+Il existe deux options pour démarrer ou arrêter Image Serving sous Linux®.
 
-* Le script permettant de démarrer, arrêter et vérifier l’état du serveur d’images se trouve dans le dossier [!DNL ImageServing/bin] :
+* Le script permettant de vérifier l’état du serveur d’images ou de démarrer et arrêter le serveur d’images se trouve dans la variable [!DNL ImageServing/bin] folder:
 
    `ImageServing.sh {start|stop|restart|status}`
 * L’alternative suivante doit être familière aux administrateurs système :

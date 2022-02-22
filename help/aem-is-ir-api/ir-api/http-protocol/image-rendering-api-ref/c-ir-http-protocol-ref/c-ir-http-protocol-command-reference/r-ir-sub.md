@@ -1,20 +1,20 @@
 ---
-description: Sous-sélection. Permet d’appliquer différents matériaux à différentes zones de l’objet ou du groupe sélectionné, ainsi que de supprimer les matériaux précédemment appliqués.
-solution: Experience Manager
 title: sub
-feature: Dynamic Media Classic, SDK/API
+description: Sous-sélection. Permet d’appliquer des matériaux différents à différentes zones de l’objet ou du groupe sélectionné et de supprimer les matériaux précédemment appliqués.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c9968fbb-c38b-4180-81be-19992fa8f347
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 6%
+source-wordcount: '149'
+ht-degree: 7%
 
 ---
 
 # sub{#sub}
 
-Sous-sélection. Permet d’appliquer différents matériaux à différentes zones de l’objet ou du groupe sélectionné, ainsi que de supprimer les matériaux précédemment appliqués.
+Sous-sélection. Permet d’appliquer des matériaux différents à différentes zones de l’objet ou du groupe sélectionné et de supprimer les matériaux précédemment appliqués.
 
 `sub=0|1|2|3|4|5`
 
@@ -47,7 +47,7 @@ Sous-sélection. Permet d’appliquer différents matériaux à différentes zon
 
 Actuellement pris en charge uniquement pour les objets wall. Termine un MSS précédent et lance un nouveau MSS pour le matériau à appliquer à la sous-sélection spécifiée.
 
-Un matériau spécifique pour la paroi supérieure ou inférieure s&#39;appliquera à l&#39;ensemble du mur à moins qu&#39;un autre matériau pour l&#39;autre moitié du mur n&#39;ait été spécifié également.
+Un matériau spécifique pour la paroi supérieure ou inférieure s’applique à l’ensemble du mur à moins qu’un autre matériau pour l’autre moitié du mur n’ait également été spécifié.
 
 ## Propriétés {#section-b202139d6d0847cc8d520a154104ab9d}
 

@@ -1,13 +1,13 @@
 ---
+title: répéter
 description: Mode de répétition des textures. Spécifie le mode de répétition pour les matériaux de texture répétables.
 solution: Experience Manager
-title: répéter
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6cc82742-4ba0-4524-a87b-586539d7fe38
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '154'
 ht-degree: 16%
 
 ---
@@ -73,7 +73,7 @@ Mode de répétition des textures. Spécifie le mode de répétition pour les ma
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>13 </p> </td> 
-  <td class="stentry"> <p>Miroir (bookmatch). </p> </td> 
+  <td class="stentry"> <p>Miroir (correspondance de livre). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>14 </p> </td> 
@@ -109,7 +109,7 @@ Attribut de matière. Ignoré par les matériaux couleur unie, décal et armoire
 
 ## Par défaut {#section-e5bbd7d9fbb74852849e605d20f550bb}
 
-`catalog::Repeat`, si le matériau est basé sur une entrée de catalogue, sinon  `0` (répétition directe).
+`catalog::Repeat`, si le matériau est basé sur une entrée de catalogue, sinon `0` (répétition droite).
 
 ## Voir aussi {#section-ac99113b64654d75a3a86e41db546269}
 

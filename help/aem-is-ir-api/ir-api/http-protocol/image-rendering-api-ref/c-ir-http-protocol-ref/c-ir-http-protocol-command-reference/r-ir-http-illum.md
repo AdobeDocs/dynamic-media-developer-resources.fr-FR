@@ -1,14 +1,14 @@
 ---
+title: illum
 description: Sélecteur de carte d’éclairage. Spécifie la carte d’éclairage avec laquelle ce matériau préfère être rendu.
 solution: Experience Manager
-title: illum
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e1af2397-8eae-4b77-abb1-61ba8cb866f3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 4%
+source-wordcount: '78'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ Sélecteur de carte d’éclairage. Spécifie la carte d’éclairage avec laque
 
 Si la carte d’éclairage spécifiée n’est pas disponible dans la vignette cible, la carte disponible la plus proche est utilisée à la place.
 
-`illum=-1` indique que la carte d’éclairage est sélectionnée automatiquement en fonction de la  `gloss=` valeur.
+`illum=-1` Indique que la carte d’éclairage est sélectionnée automatiquement en fonction de la variable `gloss=` .
 
 ## Propriétés {#section-aace8466566e4cf1a0c5a6c0167245c9}
 
