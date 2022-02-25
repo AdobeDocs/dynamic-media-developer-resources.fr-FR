@@ -1,13 +1,13 @@
 ---
+title: ZoomView.fmt
 description: ZoomView.fmt
 solution: Experience Manager
-title: ZoomView.fmt
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 7cb75d38-a577-4e06-b679-c4e00db5059a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '72'
 ht-degree: 5%
 
 ---

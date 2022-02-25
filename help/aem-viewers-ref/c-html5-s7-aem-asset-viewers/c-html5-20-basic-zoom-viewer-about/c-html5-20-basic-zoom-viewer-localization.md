@@ -1,13 +1,13 @@
 ---
+title: Localisation des éléments de l’interface utilisateur
 description: Certains contenus affichés par la visionneuse de zoom de base peuvent être localisés, notamment des boutons de zoom et un bouton plein écran.
 solution: Experience Manager
-title: Localisation des éléments de l’interface utilisateur
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 8c399b64-e278-41bc-a9eb-692812979fea
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Certains contenus affichés par la visionneuse de zoom de base peuvent être localisés, notamment des boutons de zoom et un bouton plein écran.
 
-Chaque contenu textuel de la visionneuse qui peut être localisé est représenté par un identifiant spécial du SDK de la visionneuse appelé SYMBOL. Une valeur de texte associée par défaut pour le paramètre régional anglais ( `"en"`) est fournie avec la visionneuse prête à l’emploi et peut également avoir des valeurs définies par l’utilisateur pour autant de paramètres régionaux que nécessaire.
+Chaque contenu textuel de la visionneuse qui peut être localisé est représenté par un identifiant spécial du SDK de la visionneuse appelé SYMBOL. Tout SYMBOL est associé par défaut à une valeur de texte par le paramètre régional anglais ( `"en"`) fourni avec la visionneuse prête à l’emploi et peut également avoir des valeurs définies par l’utilisateur pour autant de paramètres régionaux que nécessaire.
 
 Lorsque la visionneuse démarre, elle vérifie les paramètres régionaux actuels afin de déterminer s’il existe une valeur définie par l’utilisateur pour chaque SYMBOL pris en charge dans les paramètres régionaux. Si tel est le cas, elle utilise la valeur définie par l’utilisateur ; dans le cas contraire, il revient au texte par défaut d’usine.
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-Dans l’exemple ci-dessus, l’objet de localisation définit deux paramètres régionaux ( `"en"` et `"fr"`) et permet de localiser deux éléments de l’interface utilisateur dans chaque paramètre régional.
+Dans l’exemple ci-dessus, l’objet de localisation définit deux paramètres régionaux ( `"en"` et `"fr"`) et permet de localiser deux éléments de l’interface utilisateur dans chaque langue.
 
-Le code de page web doit transmettre cet objet de localisation au constructeur de la visionneuse sous la forme d’une valeur du champ `localizedTexts` de l’objet de configuration. Une autre option consiste à transmettre l’objet de localisation en appelant la méthode `setLocalizedTexts(localizationInfo)` .
+Le code de page web doit transmettre cet objet de localisation au constructeur de visionneuse en tant que valeur de `localizedTexts` de l’objet de configuration. Une autre option consiste à transmettre l’objet de localisation en appelant `setLocalizedTexts(localizationInfo)` .
 
 Les SYMBOLES suivants sont pris en charge :
 
@@ -53,39 +53,39 @@ Les SYMBOLES suivants sont pris en charge :
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Container.LABEL  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Container.LABEL </span> </p> </td> 
    <td colname="col2"> <p>Libellé ARIA pour l’élément de visionneuse de niveau supérieur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ZoomView.ROLE_DESCRIPTION  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ZoomView.ROLE_DESCRIPTION </span> </p> </td> 
    <td colname="col2"> <p>Description du rôle ARIA pour le composant d’affichage principal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ZoomView.USAGE_HINT  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ZoomView.USAGE_HINT </span> </p> </td> 
    <td colname="col2"> <p>Conseils d’utilisation ARIA pour les utilisateurs de clavier. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CloseButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Bouton Fermer . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ZoomInButton.TOOLTIP  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ZoomInButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Bouton Zoom avant. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ZoomOutButton.TOOLTIP  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ZoomOutButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Bouton Zoom arrière. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ZoomResetButton.TOOLTIP  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ZoomResetButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Bouton Réinitialiser le zoom . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
    <td colname="col2"> <p>Bouton Plein écran en état normal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED </span> </p> </td> 
    <td colname="col2"> <p>Bouton Plein écran en mode Plein écran. </p> </td> 
   </tr> 
  </tbody> 

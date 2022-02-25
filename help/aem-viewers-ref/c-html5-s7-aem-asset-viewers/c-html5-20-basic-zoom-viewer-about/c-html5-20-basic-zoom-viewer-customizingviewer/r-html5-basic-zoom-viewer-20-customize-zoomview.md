@@ -1,13 +1,13 @@
 ---
+title: Mode Zoom
 description: La vue principale se compose de l’image agrandie.
 solution: Experience Manager
-title: Mode Zoom
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 286b9df4-88db-4e5d-aab4-9cbe01195e57
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '164'
 ht-degree: 3%
 
 ---
@@ -35,11 +35,11 @@ L’aspect de la zone d’affichage est contrôlé à l’aide du sélecteur de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan au format hexadécimal de la vue principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cursor  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> cursor </span> </p> </td> 
    <td colname="col2"> <p>Le curseur s’affiche au-dessus de la vue principale. </p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +53,7 @@ Exemple : pour rendre la vue principale transparente.
 }
 ```
 
-Sur les systèmes de bureau, le composant prend en charge le sélecteur d’attributs `cursortype` qui peut être appliqué à la classe `.s7zoomview` et contrôle le type de curseur en fonction de l’état du composant et de l’action de l’utilisateur. Les valeurs `cursortype` suivantes sont prises en charge :
+Sur les systèmes de bureau, le composant prend en charge la variable `cursortype` sélecteur d’attributs qui peut être appliqué au `.s7zoomview` et contrôle le type de curseur en fonction de l’état du composant et de l’action de l’utilisateur. Les éléments suivants `cursortype` sont prises en charge :
 
 <table id="table_BC9FC40DA27B4A85995F4E9431AABF33"> 
  <thead> 
@@ -68,7 +68,7 @@ Sur les systèmes de bureau, le composant prend en charge le sélecteur d’attr
    <td colname="col2"> <p>S’affiche lorsque l’image n’est pas agrandie en raison d’une petite résolution d’image, de paramètres de composant ou des deux. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomin  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomin </span> </p> </td> 
    <td colname="col2"> <p>S’affiche lorsque l’image peut être agrandie. </p> </td> 
   </tr> 
   <tr> 

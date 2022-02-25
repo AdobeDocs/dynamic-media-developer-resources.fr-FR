@@ -1,13 +1,13 @@
 ---
+title: Prise en charge du suivi Adobe Analytics
 description: La visionneuse de zoom de base prend en charge le suivi Adobe Analytics prêt à l’emploi.
 solution: Experience Manager
-title: Prise en charge du suivi Adobe Analytics
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Zoom
+feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 5b9d871d-9f37-4908-900e-3f0ecc98bc0c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '152'
 ht-degree: 2%
 
 ---
@@ -18,13 +18,13 @@ La visionneuse de zoom de base prend en charge le suivi Adobe Analytics prêt à
 
 ## Suivi d’usine {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-La visionneuse de zoom de base prend en charge le suivi [!DNL Adobe Analytics] prêt à l’emploi. Pour activer le suivi, transmettez le nom du paramètre prédéfini de l’entreprise approprié en tant que paramètre `config2` .
+La visionneuse de zoom de base prend en charge [!DNL Adobe Analytics] suivi prêt à l’emploi. Pour activer le suivi, transmettez le nom de paramètre prédéfini d’entreprise approprié en tant que `config2` .
 
 La visionneuse envoie également une requête HTTP de suivi unique au serveur d’images configuré avec le type de visionneuse et les informations de version.
 
 ## Suivi personnalisé {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Pour l’intégrer aux systèmes d’analyse tiers, il est nécessaire d’écouter le rappel de la visionneuse `trackEvent` et de traiter l’argument `eventInfo` de la fonction de rappel, le cas échéant. Le code suivant est un exemple de fonction de gestionnaire de ce type :
+Pour s’intégrer à des systèmes d’analyse tiers, il est nécessaire d’écouter la `trackEvent` rappel de la visionneuse et traitement de la `eventInfo` de la fonction de rappel, le cas échéant. Le code suivant est un exemple de fonction de gestionnaire de ce type :
 
 ```
 var basicZoomViewer = new s7viewers.BasicZoomViewer({ 
@@ -64,7 +64,7 @@ La visionneuse effectue le suivi des événements utilisateur du SDK suivants :
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PERMUTATION </span> </p> </td> 
-   <td colname="col2"> <p>une ressource est échangée dans la visionneuse à l’aide de l’API <span class="codeph"> setAsset() </span> . </p> </td> 
+   <td colname="col2"> <p>une ressource est permutée dans la visionneuse à l’aide de la fonction <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
