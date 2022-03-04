@@ -1,13 +1,13 @@
 ---
+title: Paramètres de rendu avancés
 description: L’outil de création de vignettes (qui fait partie du module de création d’images de Dynamic Media) fournit des mécanismes de contrôle des aspects de bas niveau du moteur de rendu de vignette.
 solution: Experience Manager
-title: Paramètres de rendu avancés
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0ad8f4b4-dd9c-43f5-aacc-67a564e34d92
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '607'
 ht-degree: 25%
 
 ---
@@ -18,9 +18,9 @@ L’outil de création de vignettes (qui fait partie du module de création d’
 
 >[!NOTE]
 >
->Les paramètres de rendu sont une fonctionnalité avancée de rendu d’image et de création d’images. Contactez l’assistance technique d’Adobe ou votre représentant-conseil d’Adobe pour la formation, la consultation ou les deux, sur l’utilisation des paramètres de rendu.
+>Les paramètres de rendu sont une fonctionnalité avancée de rendu d’image et de création d’images. Contactez le support technique d’Adobe ou votre représentant de conseil Adobe pour la formation, la consultation ou les deux, sur l’utilisation des paramètres de rendu.
 
-Ces paramètres sont contrôlés de manière interactive dans la création d’images. Il est possible d&#39;appliquer les mêmes paramètres dans le rendu d&#39;image à l&#39;aide de la commande `rs=` (ou avec la valeur `catalog::RenderSettings`). Ce mécanisme permet de sélectionner différentes options d’accentuation pour chaque matériau et de modifier le comportement des algorithmes de rendu de l’éclairage, comme la saturation des surbrillances ou le contraste des ombres.
+Ces paramètres sont contrôlés de manière interactive dans la création d’images. Il est possible d’appliquer les mêmes paramètres dans le rendu d’image à l’aide de la variable `rs=` (ou avec la fonction `catalog::RenderSettings` ). Ce mécanisme permet de sélectionner différentes options d’accentuation pour chaque matériau et de modifier le comportement des algorithmes de rendu de l’éclairage, comme la saturation des surbrillances ou le contraste des ombres.
 
 ## Valeurs du paramètre de rendu avancé (rs=) {#section-d9e7f341ebd44f07a4e90f1f5910726b}
 

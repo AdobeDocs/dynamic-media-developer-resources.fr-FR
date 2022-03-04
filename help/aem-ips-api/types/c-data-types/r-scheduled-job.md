@@ -2,12 +2,12 @@
 description: Tâche planifiée.
 solution: Experience Manager
 title: ScheduledJob
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c0084d10-ce38-4a01-9246-aaec44abc8eb
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '255'
 ht-degree: 4%
 
 ---
@@ -28,7 +28,7 @@ Syntaxe
 | `*`originalName`*` | `xsd:string` | Nom original de la tâche planifiée. |
 | `*`type`*` | `xsd:string` | Type de tâche. |
 | `*`submitUserEmail`*` | `xsd:string` | Adresse électronique de l’utilisateur qui a planifié la tâche. |
-| `*`locale`*` | `xsd:string` | Paramètre régional à utiliser pour les détails du journal des tâches et la localisation des emails. Les paramètres régionaux sont spécifiés sous la forme `<language_code>[- <country_code>]`, où le code de langue est un code à deux lettres minuscules, spécifié par la norme ISO-639, et le code de pays facultatif est un code à deux lettres majuscules, spécifié par la norme ISO-3166. Par exemple, la chaîne du paramètre régional pour l’anglais (États-Unis) serait : `en-US`. |
+| `*`locale`*` | `xsd:string` | Paramètre régional à utiliser pour les détails du journal des tâches et la localisation des emails. Les paramètres régionaux sont spécifiés comme suit : `<language_code>[- <country_code>]`, où le code de langue est un code à deux lettres en minuscules, comme spécifié par la norme ISO-639, et le code de pays facultatif est un code à deux lettres en majuscules, comme spécifié par la norme ISO-3166. Par exemple, la chaîne du paramètre régional pour l’anglais (États-Unis) serait : `en-US`. |
 | `*`description`*` | `xsd:string` | Description de la tâche telle qu’elle est spécifiée à l’origine dans `submitJob`. |
 | `*`execSchedule`*` | `xsd:string` | Lorsque l’exécution de la tâche est planifiée. |
 | `*`nextFireTime`*` | `xsd:dateTime` | Date, heure et fuseau horaire du déclenchement de la tâche. |

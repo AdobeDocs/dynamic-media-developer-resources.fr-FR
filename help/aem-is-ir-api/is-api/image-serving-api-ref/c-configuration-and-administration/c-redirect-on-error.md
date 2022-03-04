@@ -2,12 +2,12 @@
 description: Les serveurs IS peuvent être configurés pour basculer vers d’autres serveurs pour les demandes impliquant une image source qui ne peut pas être ouverte ni lue correctement.
 solution: Experience Manager
 title: Redirection en erreur
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: c5541bf3-3296-4ce3-a2ff-9f6336f78ea9
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ Les types de requêtes suivants sont redirigés :
 
 La redirection d’erreur ne se produira dans aucun autre cas.
 
-Lorsqu’elle est activée et qu’une telle erreur se produit pendant le traitement de la demande, le serveur Principal envoie la demande au serveur secondaire pour traitement. La réponse, qu’elle indique un succès ou un échec, est ensuite transmise directement au client. Le serveur Principal marque les entrées de journal de ces requêtes transférées avec le cache en utilisant `REMOTE`. Les données de réponse ne sont pas mises en cache localement par le serveur Principal.
+Lorsqu’elle est activée et qu’une telle erreur se produit pendant le traitement de la demande, le serveur Principal envoie la demande au serveur secondaire pour traitement. La réponse, qu’elle indique un succès ou un échec, est ensuite transmise directement au client. Le serveur Principal marque les entrées de journal de ces requêtes transférées avec l’utilisation du cache `REMOTE`. Les données de réponse ne sont pas mises en cache localement par le serveur Principal.
 
-La redirection d’erreur est activée en définissant `PS::errorRedirect.rootUrl` sur le nom de domaine HTTP et le numéro de port du serveur secondaire. En outre, le délai de connexion est configuré avec `PS::errorRedirect.connectTimeout` et la durée maximale pendant laquelle le serveur Principal attend une réponse du serveur secondaire avant de renvoyer une erreur au client est configuré avec `PS::errorRedirect.socketTimeout`.
+La redirection d’erreur est activée en définissant `PS::errorRedirect.rootUrl` au nom de domaine HTTP et au numéro de port du serveur secondaire. En outre, le délai de connexion est configuré avec `PS::errorRedirect.connectTimeout` et la durée maximale pendant laquelle le serveur Principal attend une réponse du serveur secondaire avant de renvoyer une erreur au client est configuré avec `PS::errorRedirect.socketTimeout`.
 
 >[!NOTE]
 >

@@ -1,14 +1,14 @@
 ---
+title: Syntaxe de base du protocole HTTP de rendu d’image
 description: Cette section décrit la syntaxe de base du protocole HTTP de rendu d’image Dynamic Media.
 solution: Experience Manager
-title: Syntaxe de base du protocole HTTP de rendu d’image
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8bf5920a-7ada-4db5-9796-05c5a17532c8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 3%
+source-wordcount: '224'
+ht-degree: 4%
 
 ---
 
@@ -33,31 +33,31 @@ Cette section décrit la syntaxe de base du protocole HTTP de rendu d’image Dy
    <td colname="col2"> <p><span class="varname"> server_address</span> [ :<span class="varname"> port</span> ] </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> vignette  </span> </p> </td> 
+   <td colname="col1"> <p><span class="varname"> vignette </span> </p> </td> 
    <td colname="col2"> <p>Spécificateur de vignette (chemin de fichier relatif ou entrée de catalogue de vignettes). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> modificateurs </span> </p> </td> 
-   <td colname="col2"> <p><span class="varname"> modifier</span> *[ &amp;  <span class="varname"> modifier</span> ] </p> </td> 
+   <td colname="col2"> <p><span class="varname"> modifier</span> *[ &amp; <span class="varname"> modifier</span> ] </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> modificateur </span> </p> </td> 
-   <td colname="col2"> <p><span class="varname"> command</span> | { $  <span class="varname"> macro</span> $ } | { .<span class="varname"> comment</span> } </p> </td> 
+   <td colname="col2"> <p><span class="varname"> command</span> | { $ <span class="varname"> macro</span> $ } | { .<span class="varname"> comment</span> } </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> command  </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } } [ = <span class="varname"> valeur</span> ] </p> </td> 
+   <td colname="col1"> <p><span class="varname"> command </span> </p> </td> 
+   <td colname="col2"> <p>{ <span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } [ = <span class="varname"> value</span> ] </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> macro  </span> </p> </td> 
+   <td colname="col1"> <p><span class="varname"> macro </span> </p> </td> 
    <td colname="col2"> <p>Nom d’une macro de commande. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> comment  </span> </p> </td> 
+   <td colname="col1"> <p><span class="varname"> comment </span> </p> </td> 
    <td colname="col2"> <p>Chaîne de commentaire (ignorée par le serveur). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> cmdName  </span> </p> </td> 
+   <td colname="col1"> <p><span class="varname"> cmdName </span> </p> </td> 
    <td colname="col2"> <p>Nom d’une commande ou d’un attribut. </p> </td> 
   </tr> 
   <tr> 
@@ -65,22 +65,22 @@ Cette section décrit la syntaxe de base du protocole HTTP de rendu d’image Dy
    <td colname="col2"> <p>Nom d’une variable personnalisée. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="varname"> value  </span> </p> </td> 
+   <td colname="col1"> <p><span class="varname"> value </span> </p> </td> 
    <td colname="col2"> <p>Valeur de commande ou de variable. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*`server`*,  *`cmdName`*,  *`macro`* et  *`var`* ne sont pas sensibles à la casse. Le serveur conserve la casse de toutes les autres valeurs string.
+*`server`*, *`cmdName`*, *`macro`*, et *`var`* ne sont pas sensibles à la casse. Le serveur conserve la casse de toutes les autres valeurs string.
 
 **Identifiant du serveur**
 
-Le contexte racine &quot; `/ir/render`&quot; est requis pour toutes les requêtes HTTP vers le rendu d’image.
+Le &quot; `/ir/render`Le contexte racine est requis pour toutes les requêtes HTTP vers le rendu d’image.
 
 **Commentaires**
 
-Les commentaires peuvent être incorporés dans des chaînes de requête n’importe où et sont identifiés par un point (.) juste après le séparateur de commande (&amp;). Le commentaire est terminé par l’occurrence suivante d’un séparateur de commande (non codé). Cette fonctionnalité peut être utilisée pour ajouter des informations à la requête qui ne sont pas destinées à un usage de serveur d’images, telles que les horodatages, les identifiants de base de données, etc.
+Les commentaires peuvent être incorporés dans des chaînes de requête n’importe où et sont identifiés par un point (.) juste après le séparateur de commande (&amp;). Le commentaire est terminé par l’occurrence suivante d’un séparateur de commande (non codé). Cette fonctionnalité peut être utilisée pour ajouter des informations à la requête qui ne sont pas destinées à un usage du serveur d’images, telles que les horodatages et les identifiants de base de données.
 
 **Décodage HTTP**
 
-Le rendu d’image extrait d’abord *`object`* et *`modifiers`* de la requête entrante. *`object`* est ensuite séparé en éléments de chemin d’accès qui sont individuellement décodés par HTTP. La chaîne *`modifiers`* est séparée en paires *`command`*= *`value`* et *`value`* est ensuite décodée via HTTP avant le traitement spécifique à la commande.
+Premiers extractions du rendu d’image *`object`* et *`modifiers`* de la requête entrante. Le *`object`* est ensuite séparé en éléments de chemin d’accès qui sont individuellement décodés par HTTP. Le *`modifiers`* chaîne est séparée en *`command`*= *`value`* paires et *`value`* est alors décodé via HTTP avant traitement spécifique à la commande.

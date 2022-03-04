@@ -1,13 +1,13 @@
 ---
+title: Propriétés
 description: 'Les données de propriété sont renvoyées en réponse aux types req= suivants : imageprops et props.'
 solution: Experience Manager
-title: Propriétés
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a27ec5e4-7499-44ac-8db1-bf5d67f59632
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '99'
 ht-degree: 4%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Les données de propriété sont renvoyées en réponse aux types req= suivants : Imageprops et props.
 
-Les données de réponse sont formatées pour être lisibles en tant que propriétés Java. Une réponse de propriétés de texte standard présente la structure générale suivante :
+Les données de réponse sont formatées pour être lisibles en tant que propriétés Java™. Une réponse de propriétés de texte standard présente la structure générale suivante :
 
 `#S7Z OK`
 
@@ -26,9 +26,9 @@ Les données de réponse sont formatées pour être lisibles en tant que propri�
 
 ...
 
-` *[!DNL propertyValue]*` peut être vide. L’espace blanc est facultatif au début et à la fin de chaque ligne, avant et après le séparateur &quot;=&quot;. Les valeurs de chaîne peuvent être entourées de guillemets simples ou doubles, mais ils ne sont pas obligatoires.
+` *[!DNL propertyValue]*` Peut être vide. L’espace blanc est facultatif au début et à la fin de chaque ligne, avant et après le séparateur &quot;=&quot;. Les valeurs de chaîne peuvent être entourées de guillemets simples ou doubles, mais ils ne sont pas obligatoires.
 
-Les valeurs de chaîne peuvent contenir des caractères d’échappement de style JAVA, tels que `\n`, `\t`, `\:`. ou `\\`.
+Les valeurs de chaîne peuvent contenir des caractères d’échappement de style JAVA, tels que `\n`, `\t`, `\:`ou `\\`.
 
 **Voir aussi**
 

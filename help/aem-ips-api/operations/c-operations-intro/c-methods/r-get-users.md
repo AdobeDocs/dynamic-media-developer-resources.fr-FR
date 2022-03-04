@@ -2,12 +2,12 @@
 description: Obtient un tableau d’utilisateurs tel que spécifié par les gestionnaires de rôles d’entreprise, de groupe et d’utilisateur. Cette opération permet de trier les utilisateurs renvoyés et les filtrer par caractère.
 solution: Experience Manager
 title: getUsers
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dfdcbcdd-232f-4c73-9520-c7c958eedf54
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '208'
 ht-degree: 10%
 
 ---

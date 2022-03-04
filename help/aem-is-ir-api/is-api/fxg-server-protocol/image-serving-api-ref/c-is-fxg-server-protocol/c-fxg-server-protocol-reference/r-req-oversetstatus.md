@@ -2,12 +2,12 @@
 description: Type de requête. Indique le type de requête.
 solution: Experience Manager
 title: req
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9242c873-5a85-4ede-82b6-4ef15feecf50
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '240'
 ht-degree: 2%
 
 ---
@@ -32,11 +32,11 @@ Type de requête. Indique le type de requête.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> contenu</span> </p> </td> 
-   <td colname="col2"> <p> Renvoie la liste xml de tous les éléments avec une valeur d’attribut <span class="codeph"> s7:element</span> et une liste de toutes les pages du document fxg. </p> </td> 
+   <td colname="col2"> <p> Renvoie la liste xml de tous les éléments avec une <span class="codeph"> s7:element</span> et une liste de toutes les pages du document fxg. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> overversetstatus</span> </p> </td> 
-   <td colname="col2"> <p>Renvoie la liste XML dont les éléments <span class="codeph"> &lt;RichText/&gt;</span> sont superposés. </p> <p>Renvoie une liste xml des éléments <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> surconfigurés pour le traitement côté client. Seuls les éléments <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> superposés seront renvoyés. <span class="+ topic/ph pr-d/codeph codeph"> s7 : </span> elmentidis un  <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> attribut obligatoire lors de l’utilisation de  <span class="+ topic/ph pr-d/codeph codeph"> req=overetstatus</span>. Les éléments <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> superposés sans <span class="+ topic/ph pr-d/codeph codeph"> s7:elementd</span> ne sont pas répertoriés. Chaque élément <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> de la liste possède <span class="+ topic/ph pr-d/codeph codeph"> s7:elementd</span>, <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span> et le cadre de sélection du cadre de texte de remplacement. L’attribut <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span> indique l’index de texte dans l’article, jusqu’auquel le texte a pu s’insérer dans le cadre. <span class="+ topic/ph pr-d/codeph codeph"> Req=</span> overetstatusonly s’applique uniquement aux  <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> éléments du FXG demandé. Il ne répertorie aucun élément <span class="+ topic/ph pr-d/codeph codeph"> &lt;RichText/&gt;</span> des FXG incorporés. </p> </td> 
+   <td colname="col2"> <p>Renvoie la liste XML de laquelle <span class="codeph"> &lt;richtext /&gt;</span> Les éléments sont exagérés. </p> <p>Renvoie une liste xml de <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> éléments surconfigurés pour le traitement côté client. Uniquement <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> les éléments surconfigurés sont renvoyés. <span class="+ topic/ph pr-d/codeph codeph"> s7:elementd</span> est obligatoire <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> lors de l’utilisation de <span class="+ topic/ph pr-d/codeph codeph"> req=oversetstatus</span>. Tout excès <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> éléments sans <span class="+ topic/ph pr-d/codeph codeph"> s7:elementd</span> n’est pas répertoriée. Chaque <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> La propriété <span class="+ topic/ph pr-d/codeph codeph"> s7:elementd</span>, <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span>et le cadre de sélection du cadre de texte en excès. Le <span class="+ topic/ph pr-d/codeph codeph"> s7:endCharIndex</span> indique l’index de texte dans l’article à la hauteur du texte pouvant tenir dans le cadre. <span class="+ topic/ph pr-d/codeph codeph"> Req=oversetstatus</span> s’applique uniquement à <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> dans le FXG demandé. Elle ne contiendra aucune liste <span class="+ topic/ph pr-d/codeph codeph"> &lt;richtext /&gt;</span> des éléments de tout FXG incorporé. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> existe</span> </p> </td> 

@@ -1,13 +1,13 @@
 ---
+title: Attributs de matière
 description: Ces attributs définissent les matériaux à appliquer à l’objet sélectionné.
 solution: Experience Manager
-title: Attributs de matière
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 77801376-5bc5-4fd4-95d6-8c80b31c779d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---

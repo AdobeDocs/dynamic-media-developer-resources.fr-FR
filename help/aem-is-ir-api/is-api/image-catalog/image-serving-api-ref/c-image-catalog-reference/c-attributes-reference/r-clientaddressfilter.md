@@ -2,12 +2,12 @@
 description: Filtre d’adresses IP du client. Permet la spécification d’une ou de plusieurs adresses IP ou plages d’adresses.
 solution: Experience Manager
 title: ClientAddressFilter
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 028cef35-2862-452c-872c-b953e8ccb195
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '127'
 ht-degree: 4%
 
 ---
@@ -22,12 +22,12 @@ Lorsqu’elles sont spécifiées, les demandes adressées à ce catalogue d’im
 
 Liste séparée par des virgules d’adresses IP avec des netmasques facultatifs (la notation CIDR est utilisée) :
 
-`*`ipAddress`*` `[`/  *`netmask`*`]`*  `[`,*`ipAddress`*`[`/*`netmask`*`]]`
+`*`ipAddress`*` `[`/ *`netmask`*`]`* `[`,*`ipAddress`*`[`/*`netmask`*`]]`
 
 <table id="simpletable_9F82BB0D42A9434883F2F70A2A92898C"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> ipAddress</span> </p> </td> 
-  <td class="stentry"> <p>Adresse IP au format <span class="varname"> ddd.ddd.ddd.ddd</span> . </p></td> 
+  <td class="stentry"> <p>Adresse IP dans <span class="varname"> ddd.ddd.ddd.ddd.ddd</span> format. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> netmask</span> </p></td> 
@@ -35,11 +35,11 @@ Liste séparée par des virgules d’adresses IP avec des netmasques facultatifs
  </tr> 
 </table>
 
-Cet attribut est ignoré lorsqu’une règle de prétraitement avec un élément `<addressfilter>` est appliquée.
+Cet attribut est ignoré lorsqu’une règle de prétraitement avec une `<addressfilter>` est appliqué.
 
 ## Par défaut {#section-de26e8c9225745e985e4beac1f03f4f6}
 
-Hérité de `default::AddressFilter` si elle n’est pas définie ou si elle est vide.
+Hérité de `default::AddressFilter` s’il n’est pas défini ou s’il est vide.
 
 ## Exemples {#section-a955314d2b6a4213a16c12a8b18d8627}
 

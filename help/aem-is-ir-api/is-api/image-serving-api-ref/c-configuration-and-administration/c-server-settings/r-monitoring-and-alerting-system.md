@@ -2,12 +2,12 @@
 description: Utilisez ces paramètres de serveur pour configurer le système de surveillance et d’alerte.
 solution: Experience Manager
 title: Système de surveillance et d'alerte
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: fe672d1b-93e5-466a-a329-3032095c6ba8
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Utilisez ces paramètres de serveur pour configurer le système de surveillance 
 
 ## AS::monitorAlertGenerator.enableGlobalAlerting - Système d’alertes Activé {#section-612f8ea61794426ab205e22e5f665fa9}
 
-Activez la notification électronique en définissant sur &quot;true&quot; et en configurant les paramètres de notification électronique. La définition de sur `false` désactive toutes les alertes par e-mail, ce qui peut s’avérer utile lorsque vous désactivez un serveur hors ligne pour la maintenance. Booléenne.
+Activez la notification électronique en définissant sur &quot;true&quot; et en configurant les paramètres de notification électronique. Définir sur `false` désactive toutes les alertes par e-mail, ce qui peut s’avérer utile lors de la désactivation d’un serveur pour la maintenance. Booléenne.
 
 ## AS::mailSender.host - SMTP Host {#section-151df07e7b44446581339bb7abeeba7a}
 
@@ -34,7 +34,7 @@ Une ou plusieurs adresses électroniques auxquelles des alertes doivent être en
 
 ## AS::monitorAlertGenerator.messageFrom - Message Sender {#section-db320cba4ac2438ca1cfe6abce4aed87}
 
-Adresse électronique à utiliser dans le champ **[!UICONTROL De]**.
+L’adresse électronique à utiliser dans la variable **[!UICONTROL De]** champ email .
 
 ## AS::monitorAlertGenerator.alertInterval - Intervalle de surveillance {#section-99cb2e3380c1499e9d5aec3671ed73c7}
 
@@ -42,8 +42,8 @@ Le système de surveillance accumule les conditions d’alerte pendant l’inter
 
 ## AS::monitorAlertGenerator.heapSpaceResetInterval - Intervalle d’alerte de l’espace de tas {#section-fd5a2bf04ed44fdcaef20f77084151a8}
 
-Durée minimale après l’émission d’une alerte d’espace de tas avant une autre alerte. Intervalle en msec. Valeur entière, 0 ou plus.
+Durée minimale après l’émission d’une alerte d’espace de tas avant l’émission d’une autre alerte. Intervalle en msec. Valeur entière, 0 ou plus.
 
 ## AS::monitorAlertGenerator.minTrafficForAlerts - Trafic minimum pour activer les alertes {#section-8b4db2d6f96642309ca35c49eb3ab230}
 
-Demandes par seconde. Aucune alerte de temps de réponse et d’erreur ne sera émise si le trafic tombe en dessous de ce seuil. Définissez cette variable sur 0 pour envoyer des alertes de temps de réponse et d’erreur, quel que soit le volume de trafic. Valeur réelle 0 ou supérieure.
+Demandes par seconde. Aucune alerte de temps de réponse ou d’erreur n’est émise si le trafic tombe en dessous de ce seuil. Définissez cette variable sur 0 pour envoyer des alertes de temps de réponse et d’erreur, quel que soit le volume de trafic. Valeur réelle 0 ou supérieure.

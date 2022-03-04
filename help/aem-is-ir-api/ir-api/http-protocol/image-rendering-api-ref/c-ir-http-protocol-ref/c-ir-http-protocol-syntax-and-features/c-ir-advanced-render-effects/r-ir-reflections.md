@@ -1,13 +1,13 @@
 ---
+title: Réflexions
 description: Il est possible de créer des vignettes pour inclure des données de réflexion quasiment 3D.
 solution: Experience Manager
-title: Réflexions
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f67ede68-03c0-461f-a16d-a308f76fd24c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '136'
 ht-degree: 3%
 
 ---
@@ -33,12 +33,12 @@ Si c’est le cas, les attributs de matériau suivants sont utilisés pour défi
    <td> <p>À partir de la vignette </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-glossmap.md#reference-99940148ae6a401482b2d03c68530f3a" type="reference" format="dita" scope="local"> <span class="codeph"> glossmap=  </span> </a> </p> </td> 
+   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-glossmap.md#reference-99940148ae6a401482b2d03c68530f3a" type="reference" format="dita" scope="local"> <span class="codeph"> glossmap= </span> </a> </p> </td> 
    <td> <p>Variation de la luminosité (image en niveaux de gris) </p> </td> 
    <td> <p>Aucun </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> <span class="codeph"> ough=  </span> </a> </p> </td> 
+   <td> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> <span class="codeph"> ough= </span> </a> </p> </td> 
    <td> <p>Rupture de surface </p> </td> 
    <td> <p>40 % </p> </td> 
   </tr> 
@@ -50,6 +50,6 @@ Si c’est le cas, les attributs de matériau suivants sont utilisés pour défi
  </tbody> 
 </table>
 
-Le moteur de rendu ajuste la plage de l’attribut `gloss=` et `rough=` en fonction de `type=`. Certains types de matériaux tels que les tissus sont généralement moins réfléchissants que les types de matériaux tels que la pierre ou le métal, et la même quantité de brillant spécifiée pour l&#39;un produit un effet de reflet différent de l&#39;autre. `gloss=`et la rugosité ont une gamme assez large si  `type=` n’est pas spécifié ou si est défini sur 0.
+Le moteur de rendu ajuste la plage de la variable `gloss=` et `rough=` en fonction de `type=`. Certains types de matériaux tels que les tissus sont moins réfléchissants que les types de matériaux tels que la pierre ou le métal. En outre, la même quantité de brillance que celle spécifiée pour l’un produit souvent un effet de reflet différent de celui de l’autre. L’attribut `gloss=` et la rugosité ont une gamme assez large si `type=` n’est pas spécifié ou est défini sur `0`.
 
-`glossmap=` peut être utilisé pour contrôler la brillance d’un matériau pixel par pixel.
+`glossmap=` Utilisé pour contrôler la brillance d’un matériau pixel par pixel.

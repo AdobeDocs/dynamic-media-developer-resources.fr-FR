@@ -2,12 +2,12 @@
 description: Taille des décimales. Largeur, hauteur et épaisseur d’un objet de matériau décal.
 solution: Experience Manager
 title: Taille
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 964cb4c1-5256-40eb-94ea-761916174b79
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '211'
 ht-degree: 5%
 
 ---
@@ -20,13 +20,13 @@ Taille des décimales. Largeur, hauteur et épaisseur d’un objet de matériau 
 
 Trois nombres réels séparés par des virgules. Ne doit pas être négatif. Définissez les valeurs inutilisées sur 0. Des zéros de fin peuvent être omis.
 
-Spécifiez la largeur et la hauteur uniquement si l’image doit être étirée pour l’adapter à la taille spécifiée (le rapport d’aspect peut changer). Définissez la largeur ou la hauteur pour mettre l’image à l’échelle proportionnellement. Définissez la largeur et la hauteur sur 0 pour utiliser `catalog::Resolution`afin de déterminer la taille de l’objet.
+Spécifiez la largeur et la hauteur uniquement si l’image doit être étirée pour l’adapter à la taille spécifiée (le rapport d’aspect peut changer). Définissez la largeur ou la hauteur pour mettre l’image à l’échelle proportionnellement. Définissez la largeur et la hauteur sur 0 pour utiliser `catalog::Resolution`pour déterminer la taille de l’objet.
 
 Fournissez une valeur d’épaisseur pour ajouter une ombre portée à l’objet de décal. Facultatif pour les matériaux décals, ignorés par tous les autres matériaux.
 
 ## Par défaut {#section-8029fe4dcbd1427db94a4fef1ccbbfd0}
 
-0,0,0. Cela indique que la taille des décimales doit être déterminée en fonction de catalog::Resolution et que l’objet n’a pas d’épaisseur (aucune ombre portée ne sera donc générée).
+0,0,0. Cela indique que la taille des décimales doit être déterminée en fonction de catalog::Resolution et que l’objet n’a pas d’épaisseur (aucune ombre portée n’est donc générée).
 
 ## Exemples {#section-7e7166ec9a1e4f4cb026de3342fcddc3}
 

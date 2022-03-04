@@ -2,12 +2,12 @@
 description: Cette section contient des solutions aux problèmes qui se sont parfois produits avec Image Serving.
 solution: Experience Manager
 title: Résolution des incidents
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b80d3c9a-a0c4-4944-9f91-e791a072cd5f
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '525'
 ht-degree: 1%
 
 ---
@@ -24,22 +24,22 @@ ImageServer conserve désormais un journal d’installation et un dossier de sau
 
 Cela peut indiquer un problème avec la licence de diffusion d’images, tel qu’un fichier de licence manquant ou une licence temporaire expirée. Un fichier de licence valide doit se trouver dans [!DNL /usr/local/scene7/licenses].
 
-**Le serveur d’images bloque ou se bloque et le fichier journal du serveur d’images indique qu’il n’y a pas suffisamment d’espace ou que &quot;la ressource est temporairement indisponible dans le fichier  [!DNL IgcVirtualMemory.cpp]&quot;.**
+**Le serveur d’images bloque ou se bloque et le fichier journal du serveur d’images indique qu’il n’y a pas suffisamment d’espace ou que &quot;la ressource est temporairement indisponible dans le fichier . [!DNL IgcVirtualMemory.cpp]&quot;**
 
 La raison de ce message d’erreur est que le serveur d’images n’a pas pu allouer la quantité de mémoire qu’il a été configuré pour utiliser.
 
 * Vérifiez le paramètre Mémoire physique dans [!DNL ImageServerRegistry.xml]. Elle ne doit pas dépasser 50 % si d’autres applications gourmandes en mémoire sont exécutées sur le même système. La valeur par défaut est de 20%.
 * Assurez-vous que l’espace de permutation sur le serveur est au moins le double de la taille de la mémoire vive physique. Les paramètres d’espace de permutation bas peuvent provoquer ce problème.
 
-**L’espace disque réel utilisé par le dossier de cache dépasse  ` *[!DNL cache.maxSize]*`l’espace défini dans[!DNL PlatformServer.conf]**
+**L’espace disque réel utilisé par le dossier de cache dépasse ` *[!DNL cache.maxSize]*`set in[!DNL PlatformServer.conf]**
 
 Cela n’indique pas de problème. La surcharge du système de fichiers n’est pas incluse dans le paramètre de cache disque du serveur Platform. Le montant total signalé par le système peut être considérablement supérieur au paramètre . Il est recommandé de réserver deux fois plus d’espace disque que celui spécifié dans ` *[!DNL cache.maxSize]*`.
 
 **Images rompues dans les exemples is-docs**
 
-Cela se produit si Image Server n’est pas en cours d’exécution. Cela se produit également si le chemin racine du catalogue ou le chemin racine de l’image a été modifié par défaut de l’installation, mais que les exemples d’images et de catalogues n’ont pas été déplacés vers les nouveaux emplacements. Vérifiez la valeur Chemin racine du serveur d’images dans les fichiers de configuration. Si nécessaire, déplacez le dossier de démonstration contenant les exemples d’images vers la racine de l’image actuelle, puis déplacez [!DNL sample*.*] vers la racine du catalogue actuel.
+Cela se produit si Image Server n’est pas en cours d’exécution. Cela se produit également si le chemin racine du catalogue ou le chemin racine de l’image a été modifié par défaut de l’installation, mais que les exemples d’images et de catalogues n’ont pas été déplacés vers les nouveaux emplacements. Vérifiez la valeur Chemin racine du serveur d’images dans les fichiers de configuration. Si nécessaire, déplacez le dossier de démonstration contenant les exemples d’images vers la racine de l’image active, puis déplacez [!DNL sample*.*] à la racine de catalogue actuelle.
 
-Les exemples supposent également que certains paramètres de [!DNL default.ini] sont standard (par exemple, l’obscurcissement ou le verrouillage ne doit pas être activé).
+Les exemples supposent également que certains paramètres de la variable [!DNL default.ini] sont standard (par exemple, l’obscurcissement ou le verrouillage ne doit pas être activé).
 
 **Trop de pertes de cache après une disponibilité importante**
 
@@ -55,4 +55,4 @@ Il est recommandé de désactiver la numérisation des répertoires de diffusion
 
 **Digimarc entraîne des problèmes de performances pour les images de zoom.**
 
-N’utilisez pas Digimarc sur les images qui seront agrandies. Les performances ne seront pas acceptables. Si nécessaire, créez un catalogue distinct pour les images à utiliser pour le zoom et désactivez Digimarc pour ce catalogue.
+N’utilisez pas Digimarc sur les images agrandies. Les performances ne seront pas acceptables. Si nécessaire, créez un catalogue distinct pour les images à utiliser pour le zoom et désactivez Digimarc pour ce catalogue.

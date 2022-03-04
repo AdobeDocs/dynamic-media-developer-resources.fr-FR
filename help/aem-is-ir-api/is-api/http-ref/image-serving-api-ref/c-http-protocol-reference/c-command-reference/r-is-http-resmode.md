@@ -2,13 +2,13 @@
 description: Mode Rééchantillonnage. Choisit l’algorithme de rééchantillonnage et/ou d’interpolation à utiliser pour le dimensionnement des données d’image. S’applique également à la rotation des calques de texte et au redimensionnement des images composites lors de la transformation de la vue.
 solution: Experience Manager
 title: resMode
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 63c1c028-0378-4a38-8018-e358491786d8
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 2%
+source-wordcount: '262'
+ht-degree: 3%
 
 ---
 
@@ -21,19 +21,19 @@ Mode Rééchantillonnage. Choisit l’algorithme de rééchantillonnage et/ou d�
 <table id="table_FD658AC521E24EB9ADBB87F98549BC3B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bilin  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bilin </span> </p> </td> 
    <td colname="col2"> <p>Sélection de l’interpolation binaire standard. méthode de rééchantillonnage la plus rapide; certains artefacts de crénelage sont visibles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bicub  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bicub </span> </p> </td> 
    <td colname="col2"> <p>Sélectionne l’interpolation bicubique. Plus intensif en processeur que l’interpolation bi-linéaire, mais produit des images plus nettes avec des artefacts de crénelage plus discrets. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> sharp2  </span> </p> </td> 
-   <td colname="col2"> <p>Sélectionne une fonction Lanczos Window modifiée comme algorithme d’interpolation. Peut produire des résultats légèrement plus nets que le bi-cube à un coût CPU plus élevé. <span class="codeph"> sharp  </span> a été remplacé par  <span class="codeph"> sharp2  </span>, qui a une moindre probabilité de provoquer des artefacts de crénelage (Moiré). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> sharp2 </span> </p> </td> 
+   <td colname="col2"> <p>Sélectionne une fonction Lanczos Window modifiée comme algorithme d’interpolation. Peut produire des résultats légèrement plus nets que le bi-cube à un coût CPU plus élevé. <span class="codeph"> sharp </span> a été remplacé par <span class="codeph"> sharp2 </span>, qui a une probabilité moindre de provoquer des artefacts de crénelage (Moiré). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bisharp  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bisharp </span> </p> </td> 
    <td colname="col2"> <p>Sélectionnez le rééchantillonneur Photoshop par défaut pour réduire la taille de l’image, appelé "Bicubique plus net" dans Adobe Photoshop. </p> </td> 
   </tr> 
  </tbody> 
@@ -41,7 +41,7 @@ Mode Rééchantillonnage. Choisit l’algorithme de rééchantillonnage et/ou d�
 
 >[!IMPORTANT]
 >
->Pour conserver les proportions d’une image lorsque vous utilisez à la fois `resMode=bisharp` et `fit=stretch`, il est recommandé d’utiliser le paramètre de largeur ou de hauteur. Si les deux paramètres doivent être définis, vous pouvez les encapsuler dans un autre calque, comme illustré dans l’exemple suivant :
+>Pour conserver les proportions d’une image lorsque vous utilisez les deux `resMode=bisharp` et `fit=stretch`, il est recommandé d’utiliser le paramètre de largeur ou de hauteur. Si les deux paramètres doivent être définis, vous pouvez les encapsuler dans un autre calque, comme illustré dans l’exemple suivant :
 >
 >`/is/image/is/image/companyname?layer=0&src=is(companyname/imagename?wid=30&hei=30&fit=stretch)&resmode=bisharp`
 
@@ -55,7 +55,7 @@ Attribut de requête. S’applique à toutes les opérations de mise à l’éch
 
 ## Exemple {#section-ee8c3e5a2e3845fe81de5073a8ab7efe}
 
-Récupérez un rendu de meilleure qualité d’une image superposée stockée dans un catalogue d’images. L’image peut contenir du texte. L&#39;image sera ensuite traitée dans une application d&#39;édition d&#39;image, et demandera donc un canal alpha avec l&#39;image.
+Récupérez un rendu de meilleure qualité d’une image superposée stockée dans un catalogue d’images. L’image peut contenir du texte. L’image est ensuite traitée dans une application d’édition d’image et demande donc un canal alpha avec l’image.
 
 ` http:// *`server`*/myLayeredImage?fmt=tif-alpha,,lzw&resMode=sharp2&wid=1800`
 

@@ -2,12 +2,12 @@
 description: Les fonctionnalités et la syntaxe des catalogues d'images sont décrites dans cette section.
 solution: Experience Manager
 title: Catalogues d’images
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 54c83ad2-a932-4df2-92ff-ab34d4a5b1a7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -20,15 +20,15 @@ Les catalogues d’images offrent les fonctionnalités suivantes :
 
 * Autoriser l’association persistante des images avec certaines commandes de métadonnées et de modificateur.
 
-   Les entrées dans les catalogues d’images sont référencées à l’aide d’une notation de raccourci `*`rootId/objId`*`, où `*`rootId`*` identifie le catalogue d’images et `*`objId`*` identifie un enregistrement de données dans le catalogue.
-* Indiquez les valeurs par défaut de certains attributs de requête, tels que la qualité JPEG ou l’application d’un filigrane.
+   Les entrées des catalogues d’images sont référencées à l’aide d’une notation par raccourci. `*`rootId/objId`*`où `*`rootId`*` identifie le catalogue d’images et `*`objId`*` identifie un enregistrement de données dans le catalogue.
+* Indiquez les valeurs par défaut de certains attributs de requête, tels que la qualité du JPEG ou l’application d’un filigrane.
 * Gestion des polices, des profils ICC, des définitions de macro et des modèles de requête
 
 Même si aucun catalogue d’images spécifique n’est défini, toutes les fonctionnalités des catalogues d’images sont disponibles via le catalogue par défaut ( [!DNL default.ini]).
 
-Si `*`rootId`*` dans le chemin d’URL de la requête correspond à `attribute::RootId` d’un catalogue d’images spécifique, ce catalogue deviendra le catalogue principal de cette requête. Le catalogue principal fournit les attributs et paramètres par défaut pour l’ensemble de la requête. Si aucune correspondance n’est trouvée, le catalogue par défaut est utilisé à la place.
+If `*`rootId`*` dans les correspondances du chemin d’URL de la requête `attribute::RootId` d’un catalogue d’images spécifique, ce catalogue devient le catalogue principal de cette demande. Le catalogue principal fournit les attributs et paramètres par défaut pour l’ensemble de la requête. Si aucune correspondance n’est trouvée, le catalogue par défaut est utilisé à la place.
 
-Un catalogue identifié dans une commande `src=` ou `mask=` fournit les attributs et données de catalogue suivants à la couche actuelle :
+Un catalogue identifié dans un `src=` ou `mask=` fournit les attributs et données de catalogue suivants à la couche actuelle :
 
 <table id="table_D3FA66EA5D054745900DE5A120885AA8"> 
  <thead> 
@@ -44,7 +44,7 @@ Un catalogue identifié dans une commande `src=` ou `mask=` fournit les attribut
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::Expiration</span> </p> </td> 
-   <td> <p> valeur par défaut pour le <span class="codeph"> catalogue ::Expiration</span> ou expiration du calque actif si aucun enregistrement de catalogue n’est impliqué </p> </td> 
+   <td> <p> valeur par défaut pour <span class="codeph"> catalogue : Expiration</span> ou expiration du calque actif si aucun enregistrement de catalogue n’est impliqué </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::Icc*</span> </p> </td> 
@@ -56,11 +56,11 @@ Un catalogue identifié dans une commande `src=` ou `mask=` fournit les attribut
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::Resolution</span> </p> </td> 
-   <td> <p> par défaut pour le catalogue <span class="codeph"> ::Resolution</span> uniquement </p> </td> 
+   <td> <p> valeur par défaut pour <span class="codeph"> catalogue : résolution</span> only </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalogue : Ancre</span> </p> </td> 
-   <td> <p> valeur par défaut de la valeur <span class="codeph"> anchor=</span> du calque actif </p> </td> 
+   <td> <p> valeur par défaut de la variable <span class="codeph"> anchor=</span> valeur du calque actif </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalogue : Expiration</span> </p> </td> 
@@ -76,11 +76,11 @@ Un catalogue identifié dans une commande `src=` ou `mask=` fournit les attribut
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalogue ::MaskPath</span> </p> </td> 
-   <td> <p> valeur par défaut de <span class="codeph"> mask=</span> pour le calque actif </p> </td> 
+   <td> <p> valeur par défaut pour <span class="codeph"> mask=</span> pour le calque actif </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalogue : Modificateur</span> </p> </td> 
-   <td> <p> les commandes de préfixe pour le calque actif (chaque commande du <span class="codeph"> catalogue ::Modifier</span> peut être remplacée par la même commande de l’URL, si elle est spécifiée pour le même calque). </p> </td> 
+   <td> <p> commandes de préfixe pour le calque actif (chaque commande dans <span class="codeph"> catalogue : Modificateur</span> peut être remplacé par la même commande dans l’URL, si elle est spécifiée pour le même calque). </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog::Path</span> </p> </td> 
@@ -88,7 +88,7 @@ Un catalogue identifié dans une commande `src=` ou `mask=` fournit les attribut
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalogue : PostModificateur</span> </p> </td> 
-   <td> <p> les commandes postfix pour la couche actuelle (similaires au catalogue <span class="codeph"> ::Modifier</span>, mais les commandes dans le <span class="codeph"> catalogue ::PostModifier</span> remplacent les mêmes commandes spécifiées dans l’URL ou dans le catalogue <span class="codeph"> ::Modifier</span>). </p> </td> 
+   <td> <p> commandes postfix pour le calque actif (similaires à <span class="codeph"> catalogue : Modificateur</span>, mais les commandes dans <span class="codeph"> catalogue : PostModificateur</span> remplacer les commandes spécifiées dans l’URL ou dans <span class="codeph"> catalogue : Modificateur</span>) </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalogue : résolution</span> </p> </td> 
@@ -97,14 +97,14 @@ Un catalogue identifié dans une commande `src=` ou `mask=` fournit les attribut
  </tbody> 
 </table>
 
-Dans le même calque, `src=` et `mask=` doivent faire référence au même catalogue d’images (le cas échéant).
+Dans la même couche, `src=` et `mask=` doit référencer le même catalogue d’images (le cas échéant).
 
-Un catalogue identifié dans une commande `icc=` n’est utilisé que pour rechercher une entrée à partir de la table de profils ICC du catalogue. Aucun autre attribut ou donnée de catalogue n’est impliqué.
+Un catalogue identifié dans un `icc=` n’est utilisée que pour rechercher une entrée à partir de la table de profils ICC du catalogue. Aucun autre attribut ou donnée de catalogue n’est impliqué.
 
-Si `*`rootId`*` correspond à un catalogue et que `*`objId`*` correspond à `catalog::Id` dans ce catalogue, `*`rootId/objId`*` est remplacé de manière efficace par l’entrée de catalogue quelque peu comme ceci :
+Si : `*`rootId`*` est résolu sur un catalogue, et `*`objId`*` est mis en correspondance avec un `catalog::Id` dans ce catalogue, puis `*`rootId/objId`*` est effectivement remplacé par l’entrée de catalogue de la manière suivante :
 
 `src=attribute::RootPath/catalog::Path& mask=attribute::RootPath/catalog::MaskPath& anchor=catalog::Anchor& catalog::Modifier& catalog::PostModifier`
 
 ## Voir aussi {#section-00e4f6b39cd14244bcce537a3f831259}
 
-[Référence du catalogue d’images](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3),  [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1),  [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e),  [anchor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c)
+[Référence du catalogue d’images](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3), [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1), [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [anchor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c)

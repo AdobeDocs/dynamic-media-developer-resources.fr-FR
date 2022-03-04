@@ -2,13 +2,13 @@
 description: Obtient les détails d’un journal des tâches de l’entreprise.
 solution: Experience Manager
 title: getJobLogDetails
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d2e4eea6-041b-4a80-beda-cbb8d74cd50b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 17%
+source-wordcount: '214'
+ht-degree: 18%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 17%
 
 Obtient les détails d’un journal des tâches de l’entreprise.
 
-Le champ de réponse `logMessage` est localisé en fonction du champ `authHeader` `locale` .
+Le `logMessage` le champ de réponse est localisé en fonction des `authHeader` `locale` champ .
 
 ## Types d’utilisateurs autorisés {#section-6f720a7baad64eb3805868c88af9a960}
 
@@ -71,13 +71,13 @@ Le champ de réponse `logMessage` est localisé en fonction du champ `authHeader
    <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4">Nombre maximal d’éléments <span class="codeph"> detailArray</span> à renvoyer. La valeur maximale et la valeur par défaut sont 1 000. </td> 
+   <td colname="col4">Nombre maximal de <span class="codeph"> detailArray</span> éléments à renvoyer. La valeur maximale et la valeur par défaut sont 1 000. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4">Numéro de page de <span class="codeph"> recordsPerPage</span>-results à renvoyer. La valeur par défaut est 1. </td> 
+   <td colname="col4">Numéro de page de <span class="codeph"> recordsPerPage</span>- résultats à renvoyer. La valeur par défaut est 1. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 

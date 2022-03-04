@@ -1,13 +1,13 @@
 ---
+title: Commandes diverses
 description: Ces commandes sont également disponibles.
 solution: Experience Manager
-title: Commandes diverses
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b77f30bf-6991-45e5-a0c0-43db7f4130bd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '35'
+source-wordcount: '30'
 ht-degree: 0%
 
 ---

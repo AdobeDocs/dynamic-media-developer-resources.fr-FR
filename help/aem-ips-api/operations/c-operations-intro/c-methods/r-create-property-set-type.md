@@ -2,13 +2,13 @@
 description: Un type de jeu de propriétés spécifie divers paramètres utilisés pour faciliter la gestion des jeux de propriétés.
 solution: Experience Manager
 title: createPropertySetType
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1730ccbf-e8b0-4f92-9daf-da2fa047cbbd
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 11%
+source-wordcount: '156'
+ht-degree: 12%
 
 ---
 
@@ -31,7 +31,7 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Non | Gestionnaire de l’entreprise propriétaire du type de jeu de propriétés. Si `companyHandle` n’est pas transmis et que l’appelant est une `IpsAdmin`, un type de jeu de propriétés global est créé. |
+| `*`companyHandle`*` | `xsd:string` | Non | Gestionnaire de l’entreprise propriétaire du type de jeu de propriétés. If `companyHandle` n’est pas transmis et l’appelant est un `IpsAdmin`, un type de jeu de propriétés global est créé. |
 | `*`name`*` | `xsd:string` | Oui | Nom du type de jeu de propriétés. |
 | `*`propertyType`*` | `xsd:string` | Oui | Choix des types de jeux de propriétés. |
 | `*`allowMultiple`*` | `xsd:boolean` | Oui | Détermine si votre programme peut comporter plusieurs ensembles de propriétés. |
@@ -44,7 +44,7 @@ Syntaxe
 
 ## Exemples {#section-13396c9639a6475190e622eae3cdb534}
 
-Cet exemple de code crée un jeu de propriétés avec un nom et un type spécifiés par la constante `PropertySet Types`. Gestionnaire de l’entreprise propriétaire du type de jeu de propriétés. Si companyHandle n’est pas transmis et que l’appelant est un IpsAdmin, un type de jeu de propriétés global est créé.
+Cet exemple de code crée un jeu de propriétés avec un nom et un type spécifiés par la propriété `PropertySet Types` constante. Gestionnaire de l’entreprise propriétaire du type de jeu de propriétés. Si companyHandle n’est pas transmis et que l’appelant est un IpsAdmin, un type de jeu de propriétés global est créé.
 
 **Request**
 
