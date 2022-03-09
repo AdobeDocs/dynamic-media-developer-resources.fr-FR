@@ -5,7 +5,7 @@ keywords: responsive
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '1953'
 ht-degree: 0%
@@ -78,7 +78,7 @@ La personnalisation visuelle peut être réalisée en appliquant une page CSS pe
 
 Voici un exemple de code de HTML qui ouvre la visionneuse dans la nouvelle fenêtre :
 
-```
+```html {.line-numbers}
 <a href="http://s7d1.scene7.com/s7viewers/html5/PanoramicViewer.html?asset=Scene7SharedAssets/PanoramicImage-Sample" target="_blank">Open popup viewer</a>
 ```
 
@@ -115,7 +115,7 @@ Vous pouvez utiliser un chemin relatif si la visionneuse est déployée sur l’
 
 Le chemin relatif ressemble à ce qui suit :
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/PanoramicViewer.js"></script>
 ```
 
@@ -135,7 +135,7 @@ Le chemin relatif ressemble à ce qui suit :
 
    Voici un exemple d’élément DIV d’espace réservé défini :
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div> 
    ```
 
@@ -145,7 +145,7 @@ Le chemin relatif ressemble à ce qui suit :
 
    Le dimensionnement en CSS peut être placé directement sur la page de HTML ou dans un fichier CSS de visionneuse personnalisé, qui est ultérieurement affecté à un enregistrement de paramètre prédéfini de visionneuse dans AOD ou transmis explicitement à l’aide de la commande de style. Pour plus d’informations sur le style de la visionneuse avec CSS, voir Personnalisation de la visionneuse . Vous trouverez ci-dessous un exemple de définition de la taille de la visionneuse statique dans la page HTML :
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7panoramicviewer {
      width: 1024px;
      height: 512px;
@@ -154,7 +154,7 @@ Le chemin relatif ressemble à ce qui suit :
 
    `stagesize` Le modificateur peut être transmis explicitement avec le code d’initialisation de la visionneuse avec la collection params ou sous la forme d’un appel API, comme décrit dans la section Référence de commande, comme suit :
 
-   ```
+   ```html {.line-numbers}
    panoramicViewer.setParam("stagesize", "512,256");
    ```
 
@@ -170,7 +170,7 @@ Le chemin relatif ressemble à ce qui suit :
 
    Voici un exemple de création d’une instance de visionneuse, de transmission des options de configuration minimales nécessaires au constructeur et d’appel de la fonction `init()` . Cet exemple suppose que `panoramicViewer` est l’instance de visionneuse, `s7viewer` est le nom de l’espace réservé. `DIV`, [!DNL http://s7d1.scene7.com/is/image/] est l’URL du serveur d’images, et [!DNL Scene7SharedAssets/PanoramicImage-Sample] est la ressource.
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var panoramicViewer = new s7viewers.PanoramicViewer({ 
     "containerId":"s7viewer", 
@@ -184,7 +184,7 @@ Le chemin relatif ressemble à ce qui suit :
 
    Le code suivant est un exemple complet d’une page web triviale qui incorpore la visionneuse panoramique à une taille fixe :
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
     <head>
@@ -215,7 +215,7 @@ Le chemin relatif ressemble à ce qui suit :
 
 Avec l’incorporation réactive, la page web dispose normalement d’une sorte de disposition flexible qui détermine la taille d’exécution du conteneur DIV de la visionneuse. Pour les besoins de cet exemple, supposons que la page web autorise le conteneur DIV du visiteur à prendre 80 % de la taille de la fenêtre du navigateur web, en ne restreignant pas sa hauteur. Le code de HTML de la page web peut se présenter comme suit :
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -239,7 +239,7 @@ L’ajout de la visionneuse à cette page est similaire à l’incorporation de 
 
 Toutes les étapes ci-dessus sont identiques à l’incorporation de tailles fixes. Les balises DIV du conteneur doivent être ajoutées au DIV &quot;détenteur&quot; existant. Le code suivant est un exemple complet. Vous pouvez voir comment la taille de la visionneuse change lorsque le navigateur est redimensionné et comment le rapport d’aspect de la visionneuse correspond à la ressource.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html>
 <html>
 <head>
@@ -277,7 +277,7 @@ La page d’exemples suivante illustre une utilisation plus concrète de l’inc
 
 Si une conception réactive est incorporée avec des valeurs de largeur et de hauteur définies, le style de la page web est différent ; il fournit les deux tailles au &quot;détenteur&quot; `DIV` et centrez-le dans la fenêtre du navigateur. En outre, la page web définit la taille de la variable `HTML` et `BODY` à 100 % :
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -303,7 +303,7 @@ height: 60%;
 
 Les autres étapes d’incorporation sont identiques à l’incorporation réactive avec une hauteur libre. L’exemple qui en résulte est le suivant :
 
-```
+```html {.line-numbers}
 <!DOCTYPE html>
 <html>
 <head>
@@ -345,7 +345,7 @@ Au lieu d’utiliser l’initialisation basée sur JSON, il est possible d’uti
 
 L’exemple suivant illustre l’incorporation de tailles fixes avec l’API basée sur setter :
 
-```
+```html {.line-numbers}
 <!DOCTYPE html>
 <html>
 <head>

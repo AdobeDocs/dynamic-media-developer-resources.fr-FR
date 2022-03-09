@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 30762700-6d69-4299-9492-57893232abe1
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 3%
@@ -28,7 +28,7 @@ La visionneuse envoie également une requête HTTP de suivi unique au serveur d�
 
 Pour s’intégrer à des systèmes d’analyse tiers, il est nécessaire d’écouter la `trackEvent` rappel de la visionneuse et traitement de la `eventInfo` de la fonction de rappel, selon les besoins. Le code suivant est un exemple de fonction de gestionnaire de ce type :
 
-```
+```javascript {.line-numbers}
 var spinViewer = new s7viewers.SpinViewer({ 
  "containerId":"s7viewer", 
 "params":{ 

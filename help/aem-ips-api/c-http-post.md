@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e40293be-d00f-44c1-8ae7-521ce3312ca8
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 3%
@@ -94,7 +94,7 @@ La requête de POST finale pour une tâche de téléchargement doit définir la 
 
 Pour une requête de POST réussie, le corps de la réponse est un XML `uploadPostReturn` , comme l’indique le schéma XSD dans :
 
-```
+```xml {.line-numbers}
 <element name="uploadPostReturn"> 
         <complexType> 
             <sequence> 
@@ -110,7 +110,7 @@ En cas d’erreur lors du traitement de la requête du POST, le corps de la rép
 
 ## Exemple de requête de POST {#section-810fe32abdb9426ba0fea488dffadd1e}
 
-```
+```{.line-numbers}
 POST /scene7/UploadFile HTTP/1.1 
 User-Agent: Jakarta Commons-HttpClient/3.1 
 Host: localhost 
@@ -180,7 +180,7 @@ Content-Transfer-Encoding: binary
 
 ## Exemple de réponse de POST - succès {#section-0d515ba14c454ed0b5196ac8d1bb156e}
 
-```
+```{.line-numbers}
 HTTP/1.1 200 OK 
 Content-Type: text/xml;﻿charset=utf-8 
 Content-Length: 204 
@@ -194,7 +194,7 @@ Server: Unknown
 
 ## Exemple de réponse du POST - erreur {#section-efc32bb371554982858b8690b05090ec}
 
-```
+```{.line-numbers}
 HTTP/1.1 200 OK 
 Content-Type: text/xml;charset=utf-8 
 Content-Length: 210 

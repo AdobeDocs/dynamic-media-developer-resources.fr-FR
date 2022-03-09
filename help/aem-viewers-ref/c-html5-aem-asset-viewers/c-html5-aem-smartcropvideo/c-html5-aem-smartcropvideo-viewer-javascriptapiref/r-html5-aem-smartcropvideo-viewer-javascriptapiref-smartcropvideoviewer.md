@@ -4,7 +4,8 @@ description: Référence de l’API JavaScript pour la visionneuse de vidéos av
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 55885e57-4a21-43bb-86b0-9ac34bd29bd0
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 3%
@@ -42,7 +43,7 @@ Aucune
 
 ## Exemple {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
-```
+```javascript {.line-numbers}
 var smartCropVideoViewer = new s7viewers.SmartCropVideoViewer({ 
  "containerId":"s7viewer", 
 "params":{ 

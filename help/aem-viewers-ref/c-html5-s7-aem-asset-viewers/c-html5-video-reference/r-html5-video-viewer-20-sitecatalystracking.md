@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 2cc7087d-ed02-4560-b9ce-533af2b11a24
-source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 3%
@@ -28,7 +28,7 @@ La visionneuse envoie également une requête HTTP de suivi unique au serveur d�
 
 Pour s’intégrer à des systèmes d’analyse tiers, il est nécessaire d’écouter `trackEvent` rappel et processus de visionneuse `eventInfo` de la fonction de rappel, le cas échéant. Le code suivant est un exemple de fonction de gestionnaire de ce type :
 
-```
+```javascript {.line-numbers}
 var videoViewer = new s7viewers.VideoViewer({ 
  "containerId":"s7viewer", 
 "params":{ 

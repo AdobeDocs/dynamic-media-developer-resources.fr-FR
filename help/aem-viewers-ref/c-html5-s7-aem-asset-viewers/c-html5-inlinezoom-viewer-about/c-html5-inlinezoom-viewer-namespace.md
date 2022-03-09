@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 62b61a17-f9ae-4e71-bd78-276674193044
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 0%
@@ -26,7 +26,7 @@ C’est pourquoi il est important d’utiliser un espace de noms SDK complet lor
 
 Par exemple, si vous prévoyez d’écouter `StatusEvent.NOTF_VIEW_READY` et que la visionneuse est diffusée à partir de Experience Manager, le type d’événement complet est `s7viewers.s7sdk.event.StatusEvent.NOTF_VIEW_READY`et le code de l’écouteur d’événement ressemble à ce qui suit :
 
-```
+```javascript {.line-numbers}
 <instance>.setHandlers({ 
  "initComplete":function() { 
   var flyout = <instance>.getComponent("flyout"); 

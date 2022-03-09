@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 9e321684-4861-4d81-b55c-66c77635930e
-source-git-commit: 4aaa77b1fb58b30b02ee15f6080169fa354d5907
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 1%
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 Par défaut, la visionneuse envoie une requête HTTP de suivi unique au serveur d’images configuré avec le type de visionneuse et les informations de version.
 
-Pour s’intégrer à des systèmes d’analyse tiers, il est nécessaire d’écouter le rappel de la visionneuse `trackEvent` et de traiter l’argument `eventInfo` de la fonction de rappel si nécessaire. Le code suivant est un exemple de fonction de gestionnaire de ce type :
+Pour s’intégrer à des systèmes d’analyse tiers, il est nécessaire d’écouter la `trackEvent` rappel de la visionneuse et traitement de la `eventInfo` de la fonction de rappel, le cas échéant. Le code suivant est un exemple de fonction de gestionnaire de ce type :
 
-```
+```java {.line-numbers}
 var carouselViewer = new s7viewers.CarouselViewer({ 
  "containerId":"s7viewer", 
 "params":{ 
@@ -57,7 +57,7 @@ La visionneuse effectue le suivi des événements utilisateur du SDK suivants :
    <td colname="col2"> <p>la visionneuse est chargée en premier. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> BANNIÈRE  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> BANNIÈRE </span> </p> </td> 
    <td colname="col2"> <p>l’image de bannière de carrousel a été modifiée. </p> </td> 
   </tr> 
   <tr> 

@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 4c802d42-ea5b-4f28-b6ef-2689aa16839d
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2130'
 ht-degree: 0%
@@ -96,9 +96,8 @@ Vous pouvez effectuer une personnalisation visuelle en appliquant une page CSS p
 
 Voici un exemple de code de HTML qui ouvre la visionneuse dans une nouvelle fenêtre :
 
-```
-<a 
-href="https://s7d1.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&stagesize=500,400" 
+```html {.line-numbers}
+<a href="https://s7d1.scene7.com/s7viewers/html5/SpinViewer.html?asset=Scene7SharedAssets/SpinSet_Sample&stagesize=500,400" 
 target="_blank">Open popup viewer</a>
 ```
 
@@ -135,7 +134,7 @@ Pour ajouter la visionneuse à 360° à une page web, procédez comme suit :
 
    Le chemin relatif ressemble à ce qui suit :
 
-   ```
+   ```html {.line-numbers}
     <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/SpinViewer.js"></script>
    ```
 
@@ -154,7 +153,7 @@ Pour ajouter la visionneuse à 360° à une page web, procédez comme suit :
 
    Voici un exemple d’élément DIV d’espace réservé défini :
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div>
    ```
 
@@ -168,7 +167,7 @@ Pour ajouter la visionneuse à 360° à une page web, procédez comme suit :
 
    Voici un exemple de définition d’une taille de visionneuse statique dans une page de HTML :
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7spinviewer { 
     width: 640px; 
     height: 480px; 
@@ -177,7 +176,7 @@ Pour ajouter la visionneuse à 360° à une page web, procédez comme suit :
 
    Vous pouvez définir la variable `stagesize` modifier dans l’enregistrement de paramètre prédéfini de visionneuse dans Dynamic Media Classic. Vous pouvez également le transmettre explicitement avec le code d’initialisation de la visionneuse avec `params` ou sous la forme d’un appel API, comme décrit dans la section Référence de commande , comme suit :
 
-   ```
+   ```html {.line-numbers}
     spinViewer.setParam("stagesize", 
    "640,480");
    ```
@@ -194,7 +193,7 @@ Pour ajouter la visionneuse à 360° à une page web, procédez comme suit :
 
    Voici un exemple de création d’une instance de visionneuse, de transmission des options de configuration minimales nécessaires au constructeur et d’appel de la fonction `init()` . L’exemple suppose que `spinViewer` est l’instance de visionneuse, `s7viewer` est le nom de l’espace réservé. `DIV`, [!DNL http://s7d1.scene7.com/is/image/] est l’URL du serveur d’images, et [!DNL Scene7SharedAssets/SpinSet_Sample] est la ressource.
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var spinViewer = new s7viewers.SpinViewer({ 
     "containerId":"s7viewer", 
@@ -208,7 +207,7 @@ Pour ajouter la visionneuse à 360° à une page web, procédez comme suit :
 
    Le code suivant est un exemple complet d’une page web triviale qui incorpore la visionneuse à 360° avec une taille fixe :
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -239,7 +238,7 @@ Pour ajouter la visionneuse à 360° à une page web, procédez comme suit :
 
 Avec l’incorporation de responsive design, la page web dispose normalement d’une sorte de disposition flexible qui détermine la taille d’exécution du conteneur de la visionneuse. `DIV`. Dans cet exemple, supposons que la page web autorise le conteneur de la visionneuse. `DIV` pour prendre 40 % de la taille de la fenêtre du navigateur web, sans restriction de sa hauteur. Le code de HTML de page web qui en résulte ressemble à ce qui suit :
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -263,7 +262,7 @@ L’ajout de la visionneuse à une telle page est similaire à l’incorporation
 
 Toutes les étapes ci-dessus sont identiques à l’incorporation à taille fixe. Ajouter le conteneur `DIV` au &quot;détenteur&quot; existant `DIV`. Le code suivant est un exemple complet. Vous pouvez voir comment la taille de la visionneuse change lorsque le navigateur est redimensionné et comment le rapport d’aspect de la visionneuse correspond à la ressource.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -301,7 +300,7 @@ La page d’exemples suivante illustre d’autres cas pratiques d’incorporatio
 
 Si l’incorporation de tailles flexibles avec largeur et hauteur est définie, le style de la page web est différent. En d’autres termes, il fournit les deux tailles au &quot; détenteur &quot;. `DIV` et le centre dans la fenêtre du navigateur. En outre, la page web définit la taille de la variable `HTML` et `BODY` à 100 % :
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -327,7 +326,7 @@ height: 60%;
 
 Les étapes d’incorporation restantes sont identiques à l’incorporation en responsive design avec une hauteur libre. L’exemple qui en résulte est le suivant :
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -369,7 +368,7 @@ Au lieu d’utiliser l’initialisation basée sur JSON, il est possible d’uti
 
 L’exemple suivant illustre l’incorporation de tailles fixes avec une API basée sur setter :
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

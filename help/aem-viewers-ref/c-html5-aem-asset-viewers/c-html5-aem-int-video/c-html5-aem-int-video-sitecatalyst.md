@@ -1,11 +1,11 @@
 ---
 title: Prise en charge du suivi Adobe Analytics
-description: La visionneuse de vidéos HTML5 360 prend en charge le suivi Adobe Analytics prêt à l’emploi.
+description: La visionneuse HTML5 Video360 prend en charge le suivi Adobe Analytics prêt à l’emploi.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 74a69d01-fa58-4d36-8598-992baf6ae11d
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 3%
@@ -14,17 +14,17 @@ ht-degree: 3%
 
 # Prise en charge du suivi Adobe Analytics{#support-for-adobe-analytics-tracking}
 
-La visionneuse de vidéos HTML5 360 prend en charge le suivi Adobe Analytics prêt à l’emploi.
+La visionneuse HTML5 Video360 prend en charge le suivi Adobe Analytics prêt à l’emploi.
 
-Pour activer le suivi, transmettez le nom du paramètre prédéfini de l’entreprise approprié en tant que paramètre `config2` .
+Pour activer le suivi, transmettez le nom de paramètre prédéfini d’entreprise approprié en tant que `config2` .
 
 Par défaut, la visionneuse envoie une requête HTTP de suivi unique au serveur d’images configuré avec le type de visionneuse et les informations de version.
 
 ## Suivi personnalisé {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Pour s’intégrer à des systèmes d’analyse tiers, il est nécessaire d’écouter le rappel de la visionneuse `trackEvent` et de traiter l’argument `eventInfo` de la fonction de rappel si nécessaire. Le code suivant est un exemple de fonction de gestionnaire de ce type :
+Pour s’intégrer à des systèmes d’analyse tiers, il est nécessaire d’écouter la `trackEvent` rappel de la visionneuse et traitement de la `eventInfo` de la fonction de rappel, le cas échéant. Le code suivant est un exemple de fonction de gestionnaire de ce type :
 
-```
+```javascript {.line-numbers}
 var video360Viewer = new s7viewers.Video360Viewer({ 
  "containerId":"s7viewer", 
 "params":{ 
@@ -63,7 +63,7 @@ La visionneuse effectue le suivi des événements utilisateur du SDK suivants :
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PERMUTATION </span> </p> </td> 
-   <td colname="col2"> <p>lorsqu’une ressource est échangée dans la visionneuse à l’aide de l’API <span class="codeph"> setAsset() </span>. </p> </td> 
+   <td colname="col2"> <p>lorsqu’une ressource est permutée dans la visionneuse à l’aide de <span class="codeph"> setAsset() </span> API. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LECTURE </span> </p> </td> 

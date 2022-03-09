@@ -4,7 +4,8 @@ description: La visionneuse vidéo avec recadrage intelligent prend en charge le
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User,Data Engineer,Data Architect
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 0d91ca94-79fc-40de-8095-0252688ebe76
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 3%
@@ -27,7 +28,7 @@ La visionneuse envoie également une requête HTTP de suivi unique au serveur d�
 
 Pour s’intégrer à des systèmes d’analyse tiers, il est nécessaire d’écouter `trackEvent` rappel et processus de visionneuse `eventInfo` de la fonction de rappel, le cas échéant. Le code suivant est un exemple de fonction de gestionnaire de ce type :
 
-```
+```javascript {.line-numbers}
 var smartCropVideoViewer = new s7viewers.SmartCropVideoViewer({ 
  "containerId":"s7viewer", 
 "params":{ 

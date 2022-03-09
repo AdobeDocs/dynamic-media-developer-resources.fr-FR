@@ -1,12 +1,12 @@
 ---
-description: La visionneuse de recherche de catalogue électronique est une visionneuse de catalogue qui affiche les brochures électroniques dans une diffusion ou page par page. Elle permet aux utilisateurs de parcourir le catalogue à l’aide d’éléments d’interface utilisateur supplémentaires ou d’un mode de miniatures dédié. Les utilisateurs peuvent également zoomer sur chaque page pour obtenir des détails plus détaillés.
+description: La visionneuse de recherche de catalogue électronique est une visionneuse de catalogue qui affiche les brochures électroniques dans une diffusion ou page par page. Elle permet aux utilisateurs de parcourir le catalogue à l’aide d’éléments d’interface utilisateur supplémentaires ou de modes de miniatures dédiés. Les utilisateurs peuvent également zoomer sur chaque page pour obtenir des détails plus détaillés.
 keywords: responsive
 solution: Experience Manager
 title: Recherche catalogue électronique
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 915e628e-65e7-44c6-a2aa-d4ae7ed03b8e
-source-git-commit: fd3a1fe47da5ba26b53ea9414bfec1e4c11d7392
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2180'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Recherche catalogue électronique{#ecatalog-search}
 
-La visionneuse de recherche de catalogue électronique est une visionneuse de catalogue qui affiche les brochures électroniques dans une diffusion ou page par page. Elle permet aux utilisateurs de parcourir le catalogue à l’aide d’éléments d’interface utilisateur supplémentaires ou d’un mode de miniatures dédié. Les utilisateurs peuvent également zoomer sur chaque page pour obtenir des détails plus détaillés.
+La visionneuse de recherche de catalogue électronique est une visionneuse de catalogue qui affiche les brochures électroniques dans une diffusion ou page par page. Elle permet aux utilisateurs de parcourir le catalogue à l’aide d’éléments d’interface utilisateur supplémentaires ou de modes de miniatures dédiés. Les utilisateurs peuvent également zoomer sur chaque page pour obtenir des détails plus détaillés.
 
 Cette visionneuse fonctionne avec des catalogues électroniques et prend en charge les zones cliquables et les outils de partage sur les réseaux sociaux en option. Il contient des outils de zoom, des outils de navigation de catalogue, la prise en charge du plein écran, des miniatures et un bouton de fermeture facultatif. La visionneuse prend également en charge les outils de partage sur les réseaux sociaux, l’impression, le téléchargement et les favoris. Il est conçu pour fonctionner sur les ordinateurs de bureau et les appareils mobiles.
 
@@ -84,7 +84,7 @@ Cette visionneuse prend également en charge les entrées tactile et de souris s
 
 ## Outils de partage sur les médias sociaux avec la visionneuse de recherche de catalogue électronique {#section-eb575084a99647c3a9591f439f40b412}
 
-La visionneuse de recherche de catalogue électronique prend en charge les outils de partage sur les réseaux sociaux. Elle est disponible sous forme de bouton dans la barre de contrôle principale, qui se transforme en barre d’outils de partage lorsqu’un utilisateur clique ou appuie dessus.
+La visionneuse de recherche eCatalog prend en charge les outils de partage sur les réseaux sociaux. Ils sont disponibles sous forme de bouton dans la barre de contrôle principale, qui se transforme en barre d’outils de partage lorsqu’un utilisateur clique ou appuie dessus.
 
 La barre d’outils de partage contient des icônes pour chaque type de canal de partage pris en charge, notamment Facebook, Twitter, le partage de courrier électronique, le partage de code incorporé et le partage de lien. Lorsque des outils de partage de courrier électronique, d’intégration de partage ou de lien sont activés, la visionneuse affiche une boîte de dialogue modale avec un formulaire de saisie de données correspondant. Lorsque Facebook ou Twitter est appelé, la visionneuse redirige l’utilisateur vers une boîte de dialogue de partage standard à partir d’un service social. Les outils de partage ne sont pas disponibles en mode plein écran en raison des restrictions de sécurité du navigateur web.
 
@@ -100,7 +100,7 @@ En mode contextuel, la visionneuse s’ouvre dans une fenêtre ou un onglet de n
 
 Le mode pop-up est le plus courant pour les appareils mobiles. La page web charge la visionneuse à l’aide de `window.open()` Appel JavaScript, correctement configuré `A` élément de HTML ou toute autre méthode appropriée.
 
-Il est recommandé d’utiliser une page de HTML d’usine pour le mode de fonctionnement pop-up. Dans ce cas, il est appelé [!DNL eCatalogSearchViewer.html] et se trouve dans la variable [!DNL html5/] sous-dossier de votre déploiement IS-Viewers standard :
+Il est recommandé d’utiliser une page de HTML d’usine pour le mode de fonctionnement de la fenêtre contextuelle. Dans ce cas, il est appelé [!DNL eCatalogSearchViewer.html] et se trouve dans la variable [!DNL html5/] sous-dossier de votre déploiement IS-Viewers standard :
 
 [!DNL <s7viewers_root>/html5/eCatalogSearchViewer.html]
 
@@ -108,7 +108,7 @@ Vous pouvez effectuer une personnalisation visuelle en appliquant une page CSS p
 
 Voici un exemple de code de HTML qui ouvre la visionneuse dans une nouvelle fenêtre :
 
-```
+```html {.line-numbers}
 <a href="https://s7d9.scene7.com/s7viewers/html5/eCatalogSearchViewer.html?emailurl=https://s7d9.scene7.com/s7/emailFriend&serverUrl=https://s7d9.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_eCatalog_Search&contenturl=https://s7d9.scene7.com/skins/&asset=Viewers/Pluralist&searchserverurl=https://s7search1.scene7.com/s7search/" target="_blank">Open pop-up viewer</a>
 ```
 
@@ -145,7 +145,7 @@ Vous pouvez utiliser un chemin relatif si la visionneuse est déployée sur l’
 
 Le chemin relatif ressemble à ce qui suit :
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/eCatalogSearchViewer.js"></script>
 ```
 
@@ -157,7 +157,7 @@ Le chemin relatif ressemble à ce qui suit :
 
    Voici un exemple d’élément DIV d’espace réservé défini :
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div>
    ```
 
@@ -171,7 +171,7 @@ Le chemin relatif ressemble à ce qui suit :
 
    Voici un exemple de définition d’une taille de visionneuse statique dans une page de HTML :
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7ecatalogsearchviewer { 
     width: 640px; 
     height: 480px; 
@@ -180,7 +180,7 @@ Le chemin relatif ressemble à ce qui suit :
 
    Vous pouvez définir la variable `stagesize` modifier soit dans l’enregistrement de paramètre prédéfini de visionneuse dans Dynamic Media Classic, soit le transmettre explicitement avec le code d’initialisation de la visionneuse avec `params` ou sous la forme d’un appel API, comme décrit dans la section Référence de commande , comme suit :
 
-   ```
+   ```html {.line-numbers}
    eCatalogSearchViewer.setParam("stagesize", 
    "640,480");
    ```
@@ -195,7 +195,7 @@ Le chemin relatif ressemble à ce qui suit :
 
    Voici un exemple de création d’une instance de visionneuse, de transmission des options de configuration minimales nécessaires au constructeur et d’appel de la fonction `init()` . L’exemple suppose que `eCatalogSearchViewer` est l’instance de visionneuse ; `s7viewer` est le nom de l’espace réservé. `DIV`; `https://s7d1.scene7.com/is/image/` est l’URL du serveur d’images, et `Viewers/Pluralist` est la ressource :
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var eCatalogSearchViewer = new s7viewers.eCatalogSearchViewer({ 
     "containerId":"s7viewer", 
@@ -210,7 +210,7 @@ Le chemin relatif ressemble à ce qui suit :
 
    Le code suivant est un exemple complet d’une page web triviale qui incorpore la visionneuse de recherche de catalogue électronique avec une taille fixe :
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -240,9 +240,9 @@ Le chemin relatif ressemble à ce qui suit :
 
 **Intégration de conception réactive avec une hauteur libre**
 
-Avec l’incorporation de responsive design, la page web dispose normalement d’une sorte de disposition flexible qui détermine la taille d’exécution du conteneur de la visionneuse. `DIV`. Dans cet exemple, supposons que la page web autorise le conteneur de la visionneuse. `DIV` pour prendre 40 % de la taille de la fenêtre du navigateur web, en ne limitant pas sa hauteur. Le code de HTML de page web qui en résulte ressemble à ce qui suit :
+Avec l’incorporation de responsive design, la page web dispose normalement d’une sorte de disposition flexible qui détermine la taille d’exécution du conteneur de la visionneuse. `DIV`. Dans cet exemple, supposons que la page web autorise le conteneur de la visionneuse. `DIV` pour prendre 40 % de la taille de la fenêtre du navigateur web, sans restriction de sa hauteur. Le code de HTML de page web qui en résulte ressemble à ce qui suit :
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -266,7 +266,7 @@ L’ajout de la visionneuse à une telle page est similaire à l’incorporation
 
 Toutes les étapes ci-dessus sont identiques à l’incorporation à taille fixe. Ajouter le conteneur `DIV` au &quot;détenteur&quot; existant `DIV`. Le code suivant est un exemple complet. Vous pouvez voir comment la taille de la visionneuse change lorsque le navigateur est redimensionné et comment le rapport d’aspect de la visionneuse correspond à la ressource.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -303,7 +303,7 @@ La page d’exemples suivante illustre d’autres cas pratiques d’incorporatio
 
 Dans le cas d’une incorporation à taille flexible avec des valeurs de largeur et de hauteur définies, le style de la page web est différent. En d’autres termes, il fournit les deux tailles au &quot; détenteur &quot;. `DIV` et le centre dans la fenêtre du navigateur. En outre, la page web définit la taille de la variable `HTML` et `BODY` à 100 % :
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -329,7 +329,7 @@ height: 60%;
 
 Les étapes d’incorporation restantes sont identiques à l’incorporation en responsive design avec une hauteur libre. L’exemple qui en résulte est le suivant :
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -372,7 +372,7 @@ Au lieu d’utiliser l’initialisation basée sur JSON, il est possible d’uti
 
 L’exemple suivant illustre l’incorporation de tailles fixes avec une API basée sur setter :
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

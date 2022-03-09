@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: 33e661b0-be5e-4d37-af88-47f7bc433c01
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '2385'
 ht-degree: 0%
@@ -90,7 +90,7 @@ Le composant FlyoutZoomView doit également être configuré pour fonctionner en
 
 Voici un exemple de code de HTML qui ouvre la visionneuse dans une nouvelle fenêtre :
 
-```
+```html {.line-numbers}
  <a href="http://s7d1.scene7.com/s7viewers/html5/FlyoutViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&config=Scene7SharedAssets/Universal_HTML5_Zoom_Inline"target="_blank">Open popup viewer</a>
 ```
 
@@ -129,7 +129,7 @@ Vous pouvez utiliser un chemin relatif si la visionneuse est déployée sur l’
 
 Un chemin relatif ressemble à ce qui suit :
 
-```
+```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/FlyoutViewer.js"></script>
 ```
 
@@ -150,7 +150,7 @@ Un chemin relatif ressemble à ce qui suit :
 
    Voici un exemple d’élément DIV d’espace réservé défini :
 
-   ```
+   ```html {.line-numbers}
    <div id="s7viewer" style="position:relative;z-index:1"></div> 
    ```
 
@@ -164,7 +164,7 @@ Un chemin relatif ressemble à ce qui suit :
 
    Voici un exemple de définition de la taille statique de la visionneuse externe dans une page de HTML :
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7flyoutviewer { 
     width: 640px; 
     height: 480px; 
@@ -179,7 +179,7 @@ Un chemin relatif ressemble à ce qui suit :
 
    Voici un exemple de définition de la taille de la visionneuse pour le contenu `Container` Le composant SDK de sorte que la zone d’affichage principale ne modifie pas sa taille lors du changement de ressource :
 
-   ```
+   ```html {.line-numbers}
    #s7viewer.s7flyoutviewer { 
     width: auto; 
     height: auto; 
@@ -206,7 +206,7 @@ Un chemin relatif ressemble à ce qui suit :
 
    Voici un exemple de création d’une instance de visionneuse, de transmission des options de configuration minimales nécessaires au constructeur et d’appel de la fonction `init()` . L’exemple suppose que `inlineZoomViewer` est l’instance de visionneuse ; `s7viewer` est le nom de l’espace réservé. `DIV`; `http://s7d1.scene7.com/is/image/` est l’URL du serveur d’images ; et `Scene7SharedAssets/ImageSet-Views-Sample` est la ressource :
 
-   ```
+   ```html {.line-numbers}
    <script type="text/javascript"> 
    var inlineZoomViewer = new s7viewers.FlyoutViewer({ 
     "containerId":"s7viewer", 
@@ -222,7 +222,7 @@ Un chemin relatif ressemble à ce qui suit :
 
    Le code suivant est un exemple complet d’une page web triviale qui incorpore la visionneuse de zoom intégrée à une taille fixe :
 
-   ```
+   ```html {.line-numbers}
    <!DOCTYPE html> 
    <html> 
    <head> 
@@ -254,7 +254,7 @@ Un chemin relatif ressemble à ce qui suit :
 
 Avec l’incorporation de responsive design, la page web dispose normalement d’une sorte de disposition flexible qui détermine la taille d’exécution du conteneur de la visionneuse. `DIV`. Dans l’exemple suivant, supposons que la page web autorise le conteneur de la visionneuse. `DIV` pour prendre 40 % de la taille de la fenêtre du navigateur web, sans restriction de sa hauteur. Le code de HTML de la page web se présente comme suit :
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -283,7 +283,7 @@ Toutes les étapes ci-dessus sont identiques à celles de l’incorporation d’
 * ajouté `imagereload` avec des points d’arrêt explicites ;
 * au lieu de définir une taille de visionneuse fixe à l’aide d’unités absolues, utilisez CSS qui définit la visionneuse. `width` et `height` à 100 %, comme dans l’exemple suivant :
 
-```
+```html {.line-numbers}
 #s7viewer.s7flyoutviewer { 
  width: 100%; 
  height: 100%; 
@@ -292,7 +292,7 @@ Toutes les étapes ci-dessus sont identiques à celles de l’incorporation d’
 
 Le code suivant est un exemple complet. Notez comment la taille de la visionneuse change lorsque le navigateur est redimensionné et comment le rapport d’aspect de la visionneuse correspond à la ressource.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -337,7 +337,7 @@ La page d’exemples suivante illustre d’autres utilisations réelles de l’i
 
 Si l’incorporation de tailles flexibles avec largeur et hauteur est définie, le style de la page web est différent. Elle fournit les deux tailles au `"holder"` DIV et le centre dans la fenêtre du navigateur. En outre, la page web définit la taille de la variable `HTML` et `BODY` à 100 %.
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -363,7 +363,7 @@ height: 60%;
 
 Les autres étapes d’incorporation sont identiques aux étapes utilisées pour l’incorporation en responsive design avec une hauteur illimitée. L’exemple qui en résulte est le suivant :
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -412,7 +412,7 @@ Au lieu d’utiliser l’initialisation basée sur JSON, il est possible d’uti
 
 L’exemple suivant illustre l’utilisation de l’incorporation de tailles fixes avec une API basée sur setter :
 
-```
+```html {.line-numbers}
 <!DOCTYPE html> 
 <html> 
 <head> 

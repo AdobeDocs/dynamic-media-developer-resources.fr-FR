@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: d1f12c9d-9b00-44ee-bd91-76a4d882fecf
-source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
+source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Dans les deux cas, l’espace de noms utilisé par le SDK dans la visionneuse co
 
 Par exemple, si vous prévoyez d’écouter `StatusEvent.NOTF_VIEW_READY` et que la visionneuse est diffusée à partir de Experience Manager, le type d’événement complet est `s7viewers.s7sdk.event.StatusEvent.NOTF_VIEW_READY`et le code de l’écouteur d’événement ressemble à ce qui suit :
 
-```
+```javascript {.line-numbers}
 <instance>.setHandlers({ 
  "initComplete":function() { 
   var videoPlayer = <instance>.getComponent("videoPlayer"); 
