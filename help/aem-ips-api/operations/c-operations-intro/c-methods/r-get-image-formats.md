@@ -1,20 +1,20 @@
 ---
-description: Renvoie les formats d’image, tels que PDF, EPS, SWF, etc.
+description: Renvoie les formats d’image (PDF, EPS, SWF, etc.).
 solution: Experience Manager
 title: getImageFormats
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c2fa4cdd-fb4f-4e6a-8197-8f64c986c3a0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 18%
+source-wordcount: '74'
+ht-degree: 20%
 
 ---
 
 # getImageFormats{#getimageformats}
 
-Renvoie les formats d’image, tels que PDF, EPS, SWF, etc.
+Renvoie les formats d’image (PDF, EPS, SWF, etc.).
 
 Syntaxe
 
@@ -34,13 +34,13 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Gestion de l’entreprise avec les formats d’image que vous souhaitez obtenir. |
+| companyHandle | `xsd:string` | Oui | Gestion de l’entreprise avec les formats d’image que vous souhaitez obtenir. |
 
 **Sortie (getImageFormatsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`imageFormatArray`*` | `types:ImageFormatArray` | Oui | Tableau du format d’image. |
+| imageFormatArray | `types:ImageFormatArray` | Oui | Tableau du format d’image. |
 
 ## Exemples {#section-73881e12839b4904bf3299b0920bdd0c}
 

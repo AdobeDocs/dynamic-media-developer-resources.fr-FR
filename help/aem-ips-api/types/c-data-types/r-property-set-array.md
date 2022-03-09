@@ -2,13 +2,13 @@
 description: Tableau de jeux de propriétés.
 solution: Experience Manager
 title: PropertySetArray
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9b8c4960-bced-4b37-b072-a713c4b20bfa
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '26'
-ht-degree: 23%
+source-wordcount: '21'
+ht-degree: 28%
 
 ---
 
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`éléments`*` | `types:PropertySet` | Tableau du jeu de propriétés. |
+| éléments | `types:PropertySet` | Tableau du jeu de propriétés. |

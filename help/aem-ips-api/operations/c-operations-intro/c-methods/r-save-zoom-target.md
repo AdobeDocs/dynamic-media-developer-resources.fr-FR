@@ -2,13 +2,13 @@
 description: Créez ou modifiez une cible de zoom.
 solution: Experience Manager
 title: saveZoomTarget
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 595fd5c8-4e98-4c1a-b396-c8e170aaf454
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 20%
+source-wordcount: '124'
+ht-degree: 21%
 
 ---
 
@@ -33,21 +33,21 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée à l’entreprise avec la cible de zoom que vous souhaitez enregistrer. |
-| `*`assetHandle`*` | `xsd:string` | Oui | Poignée de la cible de zoom. |
-| `*`zoomTargetHandle`*` | `xsd:string` | Non | Modifie ou crée une cible de zoom. |
-| `*`name`*` | `xsd:string` | Oui | Nom de la cible de zoom. |
-| `*`xPosition`*` | `xsd:int` | Oui | Emplacement du pixel gauche. |
-| `*`yPosition`*` | `xsd:int` | Oui | Emplacement du pixel supérieur. |
-| `*`width`*` | `xsd:int` | Oui | Largeur de la cible de zoom. |
-| `*`height`*` | `xsd:int` | Oui | Hauteur de la cible de zoom. |
-| `*`Données utilisateur`*` | `xsd:string` | Oui | Pour obtenir des informations spécifiques au client. Peut contenir n’importe quel type de données. |
+| companyHandle | `xsd:string` | Oui | Poignée à l’entreprise avec la cible de zoom que vous souhaitez enregistrer. |
+| assetHandle | `xsd:string` | Oui | Poignée de la cible de zoom. |
+| zoomTargetHandle | `xsd:string` | Non | Modifie ou crée une cible de zoom. |
+| name | `xsd:string` | Oui | Nom de la cible de zoom. |
+| xPosition | `xsd:int` | Oui | Emplacement du pixel gauche. |
+| yPosition | `xsd:int` | Oui | Emplacement du pixel supérieur. |
+| largeur | `xsd:int` | Oui | Largeur de la cible de zoom. |
+| hauteur | `xsd:int` | Oui | Hauteur de la cible de zoom. |
+| Données utilisateur | `xsd:string` | Oui | Pour obtenir des informations spécifiques au client. Peut contenir n’importe quel type de données. |
 
 **Sortie (saveZoomTargetReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`zoomTargetHandle`*` | `xsd:string` | Oui | Gérer la cible de zoom nouvellement créée. |
+| zoomTargetHandle | `xsd:string` | Oui | Gérer la cible de zoom nouvellement créée. |
 
 ## Exemples {#section-509c472c316549cdb228d7e1cfa8400a}
 

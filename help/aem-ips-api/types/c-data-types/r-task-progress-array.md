@@ -2,13 +2,13 @@
 description: Tableau de progression de la tâche. Contient des informations sur les tâches de transcodage vidéo.
 solution: Experience Manager
 title: TaskProgressArray
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ac86ddcb-dc10-44b8-b007-4f54f7367c41
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 13%
+source-wordcount: '39'
+ht-degree: 15%
 
 ---
 
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`élément`*` | `types:TaskProgress` | Éléments de progression de la tâche. L’occurrence minimale est zéro. L’occurrence maximale est illimitée. |
+| élément | `types:TaskProgress` | Éléments de progression de la tâche. L’occurrence minimale est zéro. L’occurrence maximale est illimitée. |

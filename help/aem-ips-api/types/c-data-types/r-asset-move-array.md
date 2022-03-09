@@ -1,14 +1,14 @@
 ---
+title: AssetMoveArray
 description: Tableau des déplacements de ressources.
 solution: Experience Manager
-title: AssetMoveArray
-feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 9d3f0c27-7414-46d9-888a-85226b0fbac6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 22%
+source-wordcount: '20'
+ht-degree: 30%
 
 ---
 
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`éléments`*` | `type:AssetMove` | Tableau des déplacements de ressources. |
+| éléments | `type:AssetMove` | Tableau des déplacements de ressources. |

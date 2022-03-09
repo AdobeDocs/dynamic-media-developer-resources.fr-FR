@@ -1,14 +1,14 @@
 ---
+title: AssetJobLog
 description: Détails d’une entrée de journal de tâche associée à une ressource particulière. Données renvoyées par getAssetJobLogs.
 solution: Experience Manager
-title: AssetJobLog
-feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 2c8ebec2-a664-46cd-b843-9893bfa0a9d1
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 16%
+source-wordcount: '105'
+ht-degree: 18%
 
 ---
 
@@ -42,7 +42,7 @@ Syntaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> logMessage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Message dans le journal de la tâche. <p><span class="codeph"> </span> Le champ logMessageresponse est localisé en fonction du champ  <span class="codeph"> </span> authHeaderlocale . </p></td> 
+   <td colname="col3">Message dans le journal de la tâche. <p><span class="codeph"> logMessage</span> le champ de réponse est localisé en fonction de <span class="codeph"> authHeader</span> locale. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> logType</span> </span> </td> 

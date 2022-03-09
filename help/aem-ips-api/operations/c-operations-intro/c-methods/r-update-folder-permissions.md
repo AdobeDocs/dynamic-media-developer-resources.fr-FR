@@ -2,13 +2,13 @@
 description: Mettez à jour les autorisations de dossier.
 solution: Experience Manager
 title: updateFolderPermissions
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 4e4f382e-4339-4b9d-a721-d33a4fa8be6b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 18%
+source-wordcount: '72'
+ht-degree: 19%
 
 ---
 
@@ -30,10 +30,10 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société. |
-| `*`folderHandle`*` | `xsd:string` | Oui | Poignée de dossier. |
-| `*`updateChildren`*` | `xsd:boolean` | Oui | Détermine s’il faut mettre à jour les enfants avec des autorisations définies pour le dossier de niveau supérieur. |
-| `*`updateArray`*` | `types:PermissionUpdateArray` | Oui | Tableau des mises à jour d’autorisation que vous souhaitez appliquer au dossier. |
+| companyHandle | `xsd:string` | Oui | Poignée de la société. |
+| folderHandle | `xsd:string` | Oui | Poignée de dossier. |
+| updateChildren | `xsd:boolean` | Oui | Détermine s’il faut mettre à jour les enfants avec des autorisations définies pour le dossier de niveau supérieur. |
+| updateArray | `types:PermissionUpdateArray` | Oui | Tableau des mises à jour d’autorisation que vous souhaitez appliquer au dossier. |
 
 **Sortie (updateFolderPermissionsReturn)**
 

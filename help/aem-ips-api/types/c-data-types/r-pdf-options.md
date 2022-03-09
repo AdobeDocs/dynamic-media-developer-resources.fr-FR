@@ -1,20 +1,20 @@
 ---
-description: Options de fichier PDF.
+description: Options de fichier du PDF.
 solution: Experience Manager
 title: PDFOptions
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 140c9261-e590-4889-9be4-29afd19ffa86
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 9%
+source-wordcount: '68'
+ht-degree: 11%
 
 ---
 
 # PDFOptions{#pdfoptions}
 
-Options de fichier PDF.
+Options de fichier du PDF.
 
 Syntaxe
 
@@ -22,9 +22,9 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`processus`*` | `xsd:string` | Choix des &quot;processus PDF&quot;. |
-| `*`resolution`*` | `xsd:double` | Résolution du fichier. |
-| `*`Espace colorimétrique`*` | `xsd:string` | Choix du mode Colorspace post-script. |
-| `*`pdfCatalog`*` | `xsd:boolean` | Si vous souhaitez combiner un PDF de plusieurs pages dans un catalogue électronique après le rendu (la valeur par défaut est true). |
-| `*`extractSearchWords`*` | `xsd:boolean` | Extraction ou non des mots de recherche à partir du fichier PDF. |
-| `*`extractLinks`*` | `xsd:boolean` | Extraction ou non de liens PDF dans des zones cliquables affectées aux pages pixelisées dans IPS. |
+| processus | `xsd:string` | Choix des &quot;processus PDF&quot;. |
+| résolution | `xsd:double` | Résolution du fichier. |
+| Espace colorimétrique | `xsd:string` | Choix du mode Colorspace post-script. |
+| pdfCatalog | `xsd:boolean` | Il est possible de combiner plusieurs PDF de page dans un catalogue électronique après le rendu (la valeur par défaut est true). |
+| extractSearchWords | `xsd:boolean` | Extraction ou non des mots de recherche à partir du fichier du PDF. |
+| extractLinks | `xsd:boolean` | Extraction ou non de liens de PDF dans des zones cliquables affectées aux pages pixellisées dans IPS. |

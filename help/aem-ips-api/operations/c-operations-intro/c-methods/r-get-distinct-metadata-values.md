@@ -2,13 +2,13 @@
 description: Renvoie toutes les valeurs d’un champ de métadonnées.
 solution: Experience Manager
 title: getDistinctMetadataValues
-feature: Dynamic Media Classic,SDK/API,Métadonnées
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 1987d8b0-64e4-49be-af45-98e4c6542e5f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 22%
+source-wordcount: '65'
+ht-degree: 24%
 
 ---
 
@@ -34,14 +34,14 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de la société pour laquelle vous souhaitez obtenir des données. |
-| `*`metadataKey`*` | `xsd:string` | Oui | Clé de métadonnées en notation par points. |
+| companyHandle | `xsd:string` | Oui | Gestionnaire de la société pour laquelle vous souhaitez obtenir des données. |
+| metadataKey | `xsd:string` | Oui | Clé de métadonnées en notation par points. |
 
 **Sortie (getDistinctMetadataValuesReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`valueArray`*` | `types:ValueArray` | Oui | Valeurs du champ de métadonnées demandé. |
+| valueArray | `types:ValueArray` | Oui | Valeurs du champ de métadonnées demandé. |
 
 ## Exemples {#section-0189fa6fb31646cda5ce1b0bc4fcdf46}
 

@@ -2,13 +2,13 @@
 description: Obtient des projets pour un groupe de ressources connexes.
 solution: Experience Manager
 title: getProjects
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d7262ed7-7419-4d6b-86ed-f3ad4657d654
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 21%
+source-wordcount: '66'
+ht-degree: 22%
 
 ---
 
@@ -33,13 +33,13 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | La poignée de la société. |
+| companyHandle | `xsd:string` | Oui | La poignée de la société. |
 
 **Sortie (getProjectsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`projectArray`*` | `types:ProjectArray` | Oui | Tableau des projets associés à la société. |
+| projectArray | `types:ProjectArray` | Oui | Tableau des projets associés à la société. |
 
 ## Exemples {#section-8b12d0b948f644f68bf9a16060d3849a}
 

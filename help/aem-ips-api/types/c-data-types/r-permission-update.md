@@ -2,13 +2,13 @@
 description: Décrit les modifications apportées aux autorisations.
 solution: Experience Manager
 title: PermissionUpdate
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a21b9d66-14bd-4983-9eb9-54ab1be1261e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 12%
+source-wordcount: '34'
+ht-degree: 14%
 
 ---
 
@@ -22,7 +22,7 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`groupHandle`*` | `xsd:string` | Poignée de groupe. |
-| `*`permissionType`*` | `xsd:string` | Type d’autorisation. |
-| `*`isAllowed`*` | `xsd:boolean` | Détermine si la mise à jour des autorisations est autorisée. |
-| `*`isOverride`*` | `xsd:boolean` | Détermine si l’autorisation remplace une autre. |
+| groupHandle | `xsd:string` | Poignée de groupe. |
+| permissionType | `xsd:string` | Type d’autorisation. |
+| isAllowed | `xsd:boolean` | Détermine si la mise à jour des autorisations est autorisée. |
+| isOverride | `xsd:boolean` | Détermine si l’autorisation remplace une autre. |

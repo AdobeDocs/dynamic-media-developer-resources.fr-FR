@@ -2,12 +2,12 @@
 description: Recherche le référentiel d’index de métadonnées pour les termes de recherche donnés. Renvoie des données de ressources telles que la méthode searchAssets.
 solution: Experience Manager
 title: searchAssetsByMetadata
-feature: Dynamic Media Classic,SDK/API,Métadonnées,Gestion des ressources
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: a0e01edb-c52b-436d-a166-e24cc6861c49
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '328'
 ht-degree: 11%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 Recherche le référentiel d’index de métadonnées pour les termes de recherche donnés. Renvoie des données de ressources telles que la méthode searchAssets.
 
-Bien que `searchAssetsByMetadata` vous permette de rechercher par rapport aux champs de métadonnées définis par l’utilisateur, ces champs ne sont pas renvoyés s’ils sont spécifiés dans la balise `responseMetadataArray`. Pour illustrer ce point, l’exemple de code suivant :
+while `searchAssetsByMetadata` vous permet de rechercher par rapport aux champs de métadonnées définis par l’utilisateur. Ces champs ne sont pas renvoyés s’ils sont spécifiés dans la variable `responseMetadataArray`. Pour illustrer ce point, l’exemple de code suivant :
 
 ```java
 <ns:responseMetadataArray>
@@ -33,7 +33,7 @@ renvoie une valeur null :
 </items>
 ```
 
-Pour contourner ce problème, vous pouvez utiliser la balise `fieldHandles` des ressources renvoyées par la recherche pour exécuter `getAssets` (voir également [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Cette méthode récupère les valeurs des champs définis par l’utilisateur pour les ressources en question. Utilisez l’exemple de syntaxe suivant pour effectuer une recherche par rapport aux champs de métadonnées définis par l’utilisateur :
+Pour contourner ce problème, vous pouvez utiliser la variable `fieldHandles` des ressources renvoyées par la recherche à exécuter `getAssets` (voir également [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Cette méthode récupère les valeurs des champs définis par l’utilisateur pour les ressources en question. Utilisez l’exemple de syntaxe suivant pour effectuer une recherche par rapport aux champs de métadonnées définis par l’utilisateur :
 
 ```java
 <ns:metadataConditionArray>
@@ -103,7 +103,7 @@ Pour contourner ce problème, vous pouvez utiliser la balise `fieldHandles` des 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Spécifie la page de résultats à renvoyer, en fonction de la taille de page <span class="codeph"> recordsPerPage</span>. </p> </td> 
+   <td colname="col4"> <p>Spécifie la page de résultats à renvoyer, en fonction de <span class="codeph"> recordsPerPage</span> taille de la page. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> sortBy</span> </span> </p> </td> 
@@ -124,8 +124,8 @@ Pour contourner ce problème, vous pouvez utiliser la balise `fieldHandles` des 
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`totalRows`*` | `xsd:int` | Non | Nombre de correspondances. |
-| `*`assetArray`*` | `types:AssetArray` | Non | Tableau des ressources renvoyées par la recherche. |
+| totalRows | `xsd:int` | Non | Nombre de correspondances. |
+| assetArray | `types:AssetArray` | Non | Tableau des ressources renvoyées par la recherche. |
 
 ## metadataConditionArray Details {#section-1af4a4a22f82451eabdf6dfe13d9f27d}
 
@@ -156,13 +156,13 @@ Pour contourner ce problème, vous pouvez utiliser la balise `fieldHandles` des 
 * `sku`
 * `modified_at`
 * `modified_by`
-* `created_at` (identique à  `modified_at` (Date dans le formulaire) : 25 juillet 2014 22:13:45 GMT-0500 (CDT)
+* `created_at` (identique à `modified_at` (Date dans le formulaire : 25 juillet 2014 22:13:45 GMT-0500 (CDT))
 
 * `created_by`
 
 **Opérateurs autorisés**
 
-[!DNL operator] définit comment comparer la valeur et inclure :
+Le [!DNL operator] définit comment comparer la valeur et inclure :
 
 * `Equals`
 * `NotEquals`
@@ -171,15 +171,15 @@ Pour contourner ce problème, vous pouvez utiliser la balise `fieldHandles` des 
 * `StartsWith`
 * `EndsWith`
 
-`comparison_value` est le terme à rechercher.
+Le `comparison_value` est le terme à rechercher.
 
 ## Exemples {#section-53a12b9c023e4e629eddf5719c955ad4}
 
 Cet exemple de code effectue une recherche avec les critères de métadonnées suivants :
 
-* `name` contient  `1000801`.
+* `name` Le champ contient `1000801`.
 
-* `dc.rights` champ est égal à  `Per Jessen Schmidt`.
+* `dc.rights` champ est égal à `Per Jessen Schmidt`.
 
 **Request**
 

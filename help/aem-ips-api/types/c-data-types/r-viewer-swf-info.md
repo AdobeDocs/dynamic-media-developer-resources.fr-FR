@@ -1,20 +1,20 @@
 ---
-description: Propriétés d’une ressource de fichier SWF de visionneuse.
+description: Propriétés d’une ressource de fichier de SWF de visionneuse.
 solution: Experience Manager
 title: ViewerSwfInfo
-feature: Dynamic Media Classic,SDK/API,Visionneuses
+feature: Dynamic Media Classic,SDK/API,Viewers
 role: Developer,Admin
 exl-id: 55d5cd83-7c7d-42a5-84ab-35e0c410a8ef
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 14%
+source-wordcount: '43'
+ht-degree: 16%
 
 ---
 
 # ViewerSwfInfo{#viewerswfinfo}
 
-Propriétés d’une ressource de fichier SWF de visionneuse.
+Propriétés d’une ressource de fichier de SWF de visionneuse.
 
 Syntaxe
 
@@ -22,6 +22,6 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | Chemin d’accès relatif au fichier SWF de la visionneuse initialement chargé. |
-| `*`originalFile`*` | `xsd:string` | Nom de fichier du fichier SWF de la visionneuse d’origine. |
-| `*`fileSize`*` | `xsd:int` | Taille du fichier. |
+| originalPath | `xsd:string` | Chemin d’accès relatif au fichier du SWF de visionneuse initialement chargé. |
+| originalFile | `xsd:string` | Nom de fichier du fichier du SWF de la visionneuse d’origine. |
+| fileSize | `xsd:int` | Taille du fichier. |

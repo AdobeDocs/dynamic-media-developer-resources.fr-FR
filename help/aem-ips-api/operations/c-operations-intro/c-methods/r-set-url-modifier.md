@@ -5,7 +5,7 @@ title: setUrlModifier
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9e96ffc8-5a38-46b8-9ba8-956c86b32c7a
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 7%
@@ -33,10 +33,10 @@ Pour la diffusion d’images, les commandes de la fonction `urlModifier` sont pu
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société. |
-| `*`assetHandle`*` | `xsd:string` | Oui | Poignée de ressource. |
-| `*`urlModifier`*` | `xsd:string` | Non | Commandes du protocole de diffusion d’images ou de rendu d’images à appliquer avant une demande ou `urlPostApplyModifier` des commandes. |
-| `*`urlPostApplyModifier`*` | `xsd:string` | Non | Commandes du protocole Image Serving ou Image Rendering à appliquer après `urlModifier` et les commandes de requête. |
+| companyHandle | `xsd:string` | Oui | Poignée de la société. |
+| assetHandle | `xsd:string` | Oui | Poignée de ressource. |
+| urlModifier | `xsd:string` | Non | Commandes du protocole de diffusion d’images ou de rendu d’images à appliquer avant une demande ou `urlPostApplyModifier` des commandes. |
+| urlPostApplyModifier | `xsd:string` | Non | Commandes du protocole Image Serving ou Image Rendering à appliquer après `urlModifier` et les commandes de requête. |
 
 **Sortie (setUrlModifierReturn)**
 

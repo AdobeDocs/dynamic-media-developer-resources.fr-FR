@@ -2,13 +2,13 @@
 description: Supprime un utilisateur d’une ou de plusieurs entreprises.
 solution: Experience Manager
 title: removeCompanyMembership
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1cb9a286-48a0-4542-a80a-c97fd973474e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 11%
+source-wordcount: '100'
+ht-degree: 12%
 
 ---
 
@@ -31,8 +31,8 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Non | Gestionnaire pour l’utilisateur avec l’appartenance que vous souhaitez supprimer. |
-| `*`companyHandleArray`*` | `types:HandleArray` | Oui | Gestionnaire de la société à laquelle vous supprimez l’utilisateur. |
+| userHandle | `xsd:string` | Non | Gestionnaire pour l’utilisateur avec l’appartenance que vous souhaitez supprimer. |
+| companyHandleArray | `types:HandleArray` | Oui | Gestionnaire de la société à laquelle vous supprimez l’utilisateur. |
 
 **Sortie (removeCompanyMembershipReturn)**
 

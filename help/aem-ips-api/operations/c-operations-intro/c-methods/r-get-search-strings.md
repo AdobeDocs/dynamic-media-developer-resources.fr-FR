@@ -2,12 +2,12 @@
 description: Récupère les chaînes de recherche, les mots-clés et d’autres informations sur une ressource. La réponse contient des informations supplémentaires sur la ressource.
 solution: Experience Manager
 title: getSearchStrings
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e94215b8-1121-4be6-a8a9-e9444c57495d
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: '95'
 ht-degree: 17%
 
 ---
@@ -31,14 +31,14 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Gérer la société. |
-| `*`assetHandle`*` | `xsd:string` | Oui | Gérer la ressource. |
+| companyHandle | `xsd:string` | Oui | Gérer la société. |
+| assetHandle | `xsd:string` | Oui | Gérer la ressource. |
 
 **Sortie (getSearchStringsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`searchStringArray`*` | `types:SearchStrings` | Oui | Tableau de chaînes de recherche de ressources. |
+| searchStringArray | `types:SearchStrings` | Oui | Tableau de chaînes de recherche de ressources. |
 
 ## Exemples {#section-e1f73bff6e4440c489d59cb9aa5384d8}
 

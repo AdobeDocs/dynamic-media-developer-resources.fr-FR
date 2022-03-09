@@ -2,13 +2,13 @@
 description: Statistiques sur l’espace disque pour une ressource ou un dossier.
 solution: Experience Manager
 title: DiskUsage
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a3c4c1cd-0fcc-4e7a-a4aa-884d0ce2f208
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 12%
+source-wordcount: '51'
+ht-degree: 13%
 
 ---
 
@@ -22,8 +22,8 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Poignée de la société. |
-| `*`companyName`*` | `xsd:string` | Nom de la société. |
-| `*`imageCount`*` | `xsd:int` | Nombre d’images stockées. |
-| `*`diskSpaceUsage`*` | `xsd:long` | Côté fichier total en kilo-octets. |
-| `*`lastModified`*` | `xsd:dateTime` | Date, heure et fuseau horaire de la dernière modification du type `DiskUsage`. |
+| companyHandle | `xsd:string` | Poignée de la société. |
+| companyName | `xsd:string` | Nom de la société. |
+| imageCount | `xsd:int` | Nombre d’images stockées. |
+| diskSpaceUsage | `xsd:long` | Côté fichier total en kilo-octets. |
+| lastModified | `xsd:dateTime` | Date, heure et fuseau horaire de la variable `DiskUsage` a été modifié pour la dernière fois. |

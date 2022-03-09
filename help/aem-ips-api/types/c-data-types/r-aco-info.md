@@ -1,14 +1,14 @@
 ---
+title: AcoInfo
 description: Propriétés d’une ressource ACO.
 solution: Experience Manager
-title: AcoInfo
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dfec2e24-05a2-4a9c-bd78-9ee35dd8b1b6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 16%
+source-wordcount: '29'
+ht-degree: 17%
 
 ---
 
@@ -22,6 +22,6 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `originalPath` | `xsd:string` | Chemin du fichier ACO. |
-| `originalFile` | `xsd:string` | Nom du fichier ACO. |
-| `fileSize` | `xsd:int` | Taille de fichier ACO. |
+| originalPath | `xsd:string` | Chemin du fichier ACO. |
+| originalFile | `xsd:string` | Nom du fichier ACO. |
+| fileSize | `xsd:int` | Taille de fichier ACO. |

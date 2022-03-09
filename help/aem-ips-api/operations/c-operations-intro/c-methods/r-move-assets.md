@@ -2,12 +2,12 @@
 description: Déplace plusieurs ressources indépendamment les unes des autres. Pour ce faire, utilisez le type AssetMove contenu dans le tableau assetMoveArray. Chaque champ AssetMove contient un dossier de destination.
 solution: Experience Manager
 title: moveAssets
-feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e5bb2188-d262-4324-9f71-68634b6af654
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '209'
 ht-degree: 12%
 
 ---
@@ -33,8 +33,8 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Gestion de l’entreprise avec les ressources à déplacer. |
-| `*`assetMoveArray`*` | `types:AssetMoveArray` | Oui | Tableau de déplacement de ressources. Il contient une ressource et un dossier de destination de ressource. |
+| companyHandle | `xsd:string` | Oui | Gestion de l’entreprise avec les ressources à déplacer. |
+| assetMoveArray | `types:AssetMoveArray` | Oui | Tableau de déplacement de ressources. Il contient une ressource et un dossier de destination de ressource. |
 
 **Sortie (moveAssetsReturn)**
 
@@ -70,7 +70,7 @@ Syntaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> <span class="codeph"> </span>AssetOperationFaultsqui contient les éléments suivants : 
+   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>qui contiennent les éléments suivants : 
     <ul id="ul_689F4A87A68140F18DFB43868226A409"> 
      <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">Ressources qui ont déclenché les avertissements. </li> 
      <li id="li_5CC4A9120CA94F968CAF0D0135C49E0A">Codes d’avertissement. </li> 
@@ -81,7 +81,7 @@ Syntaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> <span class="codeph"> </span>AssetOperationFaultsqui contient les éléments suivants : 
+   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>qui contiennent les éléments suivants : 
     <ul id="ul_C397BC384A134F429D01ADA28DF2E097"> 
      <li id="li_EAEBB5F539164480BA9EAA7C8FFBF69A">Ressources qui ont généré les erreurs. </li> 
      <li id="li_F96D5FBB2F7A402AA36D8DFA3971391D">Codes d’erreur. </li> 
@@ -93,7 +93,7 @@ Syntaxe
 
 ## Exemples {#section-c31ed4c004ab4b3fa42c96d26ceb5ce7}
 
-Cet exemple de code déplace les ressources vers un emplacement spécifique spécifié par la balise `assetMoveArray`. Le tableau comprend la gestion des ressources et celle des dossiers. La réponse indique que les ressources ont été déplacées avec succès.
+Cet exemple de code déplace les ressources vers un emplacement spécifique spécifié par la fonction `assetMoveArray`. Le tableau comprend la gestion des ressources et celle des dossiers. La réponse indique que les ressources ont été déplacées avec succès.
 
 **Request**
 

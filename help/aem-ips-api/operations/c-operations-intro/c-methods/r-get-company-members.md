@@ -2,12 +2,12 @@
 description: Renvoie les utilisateurs d’une société spécifiés par un pseudo de société.
 solution: Experience Manager
 title: getCompanyMembers
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: da5e5a48-2e0b-4ccc-a71e-b5b746484d4a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '89'
 ht-degree: 17%
 
 ---
@@ -31,14 +31,14 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | La gestion de la société dont vous souhaitez obtenir les membres. |
-| `*`includeInvalid`*` | `xsd:boolean` | Oui | Inclure les entreprises non valides. |
+| companyHandle | `xsd:string` | Oui | La gestion de la société dont vous souhaitez obtenir les membres. |
+| includeInvalid | `xsd:boolean` | Oui | Inclure les entreprises non valides. |
 
 **Sortie (getCompanyMembersReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`memberArray`*` | `types:CompanyMemberArray` | Oui | Tableau des appartenances des utilisateurs. |
+| memberArray | `types:CompanyMemberArray` | Oui | Tableau des appartenances des utilisateurs. |
 
 ## Exemples {#section-39d8cf3653fd4fe8b842caabac9dedfc}
 

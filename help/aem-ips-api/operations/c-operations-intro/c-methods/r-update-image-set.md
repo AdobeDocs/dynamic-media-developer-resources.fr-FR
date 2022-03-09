@@ -2,13 +2,13 @@
 description: Met à jour une visionneuse d’images.
 solution: Experience Manager
 title: updateImageSet
-feature: Dynamic Media Classic,SDK/API,Visionneuses d’images
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: d8d5fb80-17f1-424f-8a61-27189f87d603
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 18%
+source-wordcount: '78'
+ht-degree: 20%
 
 ---
 
@@ -24,16 +24,16 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de la société qui contient la visionneuse d’images à modifier. |
-| `*`assetHandle`*` | `xsd:string` | Oui | La poignée de la visionneuse d’images que vous souhaitez modifier. |
-| `*`memberArray`*` | `types:ImageSetMemberUpdateArray` | Non | Réinitialise les membres de la visionneuse d’images. |
-| `*`thumbAssetHandle`*` | `xsd:string` | Non | Gestionnaire de la ressource qui agit comme miniature de la visionneuse d’images. |
+| companyHandle | `xsd:string` | Oui | Gestionnaire de la société qui contient la visionneuse d’images à modifier. |
+| assetHandle | `xsd:string` | Oui | La poignée de la visionneuse d’images que vous souhaitez modifier. |
+| memberArray | `types:ImageSetMemberUpdateArray` | Non | Réinitialise les membres de la visionneuse d’images. |
+| thumbAssetHandle | `xsd:string` | Non | Gestionnaire de la ressource qui agit comme miniature de la visionneuse d’images. |
 
 **Sortie (updateImageSetReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`séquence`*` |  |  |  |
+| séquence |  |  |  |
 
 ## Exemples {#section-ce47a4b6e062423fa55ed3a0fd26d7ff}
 

@@ -5,7 +5,7 @@ title: getUserChars
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d6b79c06-0e90-406f-bac8-3b8c2bae5480
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 12%
@@ -31,19 +31,19 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`charField`*` | `xsd:string` | Oui | Détermine l’état de la corbeille à rechercher. |
-| `*`includeInactive`*` | `xsd:boolean` | Oui | Incluez ou excluez les utilisateurs inactifs. Les utilisateurs non administrateurs d’IPS doivent être un membre principal d’au moins une société pour être autorisés à effectuer des appels d’API. Une erreur d’autorisation est renvoyée si l’utilisateur n’a pas d’appartenances principales à la société. |
-| `*`includeInvalid`*` | `xsd:boolean` | Non | Incluez ou excluez des utilisateurs non valides. |
-| `*`companyHandleArray`*` | `types:HandleArray` | Non | Filtrez les résultats en fonction de l’entreprise. |
-| `*`groupHandleArray`*` | `types:HandleArray` | Non | Filtre les résultats en fonction des groupes. |
-| `*`userRoleArray`*` | `types:StringArray` | Non | Filtre les résultats en fonction du rôle de l’utilisateur. |
-| `*`numChars`*` | `xsd:int` | Non | Activer >1 caractère. |
+| charField | `xsd:string` | Oui | Détermine l’état de la corbeille à rechercher. |
+| includeInactive | `xsd:boolean` | Oui | Incluez ou excluez les utilisateurs inactifs. Les utilisateurs non administrateurs d’IPS doivent être un membre principal d’au moins une société pour être autorisés à effectuer des appels d’API. Une erreur d’autorisation est renvoyée si l’utilisateur n’a pas d’appartenances principales à la société. |
+| includeInvalid | `xsd:boolean` | Non | Incluez ou excluez des utilisateurs non valides. |
+| companyHandleArray | `types:HandleArray` | Non | Filtrez les résultats en fonction de l’entreprise. |
+| groupHandleArray | `types:HandleArray` | Non | Filtre les résultats en fonction des groupes. |
+| userRoleArray | `types:StringArray` | Non | Filtre les résultats en fonction du rôle de l’utilisateur. |
+| numChars | `xsd:int` | Non | Activer >1 caractère. |
 
 **Sortie (getUserCharsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`userCharsArray`*` | `types:StringArray` | Oui | Tableau de préfixes de caractères. |
+| userCharsArray | `types:StringArray` | Oui | Tableau de préfixes de caractères. |
 
 ## Exemples {#section-3702f165e8b041139a6144f4a76ca25f}
 

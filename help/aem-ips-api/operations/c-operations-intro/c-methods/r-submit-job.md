@@ -2,12 +2,12 @@
 description: Envoie une tâche au système.
 solution: Experience Manager
 title: submitJob
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b1dc7a0e-da9a-4086-822b-5274bd62eadf
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '407'
 ht-degree: 12%
 
 ---
@@ -52,7 +52,7 @@ Syntaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> <p>Gérer l’utilisateur qui a envoyé la tâche. </p> <p> <p>Remarque : Le système envoie le courrier électronique à l’utilisateur spécifié par <span class="codeph"> userHandle</span>. Si <span class="codeph"> userHandle</span> n’est pas fourni, la personne qui a envoyé la tâche reçoit les e-mails. </p> </p> </td> 
+   <td colname="col4"> <p>Gérer l’utilisateur qui a envoyé la tâche. </p> <p> <p>Remarque : Le système envoie un courrier électronique à l’utilisateur spécifié par <span class="codeph"> userHandle</span>. If <span class="codeph"> userHandle</span> n’est pas fourni, la personne qui a envoyé la tâche reçoit les courriers électroniques. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobName</span> </span> </td> 
@@ -64,19 +64,19 @@ Syntaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> <p>Paramètre régional utilisé pour les détails du journal des tâches et la localisation des emails. </p> <p>Les paramètres régionaux sont spécifiés sous la forme <span class="codeph"> &lt;code_langue&gt;</span> et <span class="codeph"> [&lt;code_pays&gt;]</span>, où le code de langue est un code à deux lettres en minuscules, comme spécifié par ISO-639, et le code de pays facultatif est un code à deux lettres majuscules, comme spécifié par ISO-3166. Par exemple, la chaîne du paramètre régional pour l’anglais (États-Unis) serait : en-US. </p> </td> 
+   <td colname="col4"> <p>Paramètre régional utilisé pour les détails du journal des tâches et la localisation des emails. </p> <p>Les paramètres régionaux sont spécifiés comme suit : <span class="codeph"> &lt;language_code&gt;</span> et <span class="codeph"> [&lt;country_code&gt;]</span>, où le code de langue est un code à deux lettres en minuscules, comme spécifié par la norme ISO-639, et le code de pays facultatif est un code à deux lettres en majuscules, comme spécifié par la norme ISO-3166. Par exemple, la chaîne du paramètre régional pour l’anglais (États-Unis) serait : en-US. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> execTime</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> <p>Date et heure d’exécution de la tâche. </p> <p>Remarque :  Indiquez le fuseau horaire avec la requête. Les fuseaux horaires sont ajustés au fuseau horaire du serveur IPS cible. </p> </td> 
+   <td colname="col4"> <p>Date et heure d’exécution de la tâche. </p> <p>Remarque : Indiquez le fuseau horaire avec la requête. Les fuseaux horaires sont ajustés au fuseau horaire du serveur IPS cible. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> execSchedule</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> <p>Détermine le moment d’exécution de la tâche. </p> <p> Peut être une chaîne <span class="codeph"> cron</span> qui exécute la tâche de manière récurrente. </p> <p>Le planning est toujours relatif au fuseau horaire local du serveur. Consultez la documentation IPS pour connaître le format de planification personnalisé. </p> </td> 
+   <td colname="col4"> <p>Détermine le moment d’exécution de la tâche. </p> <p> Peut être <span class="codeph"> cron</span> chaîne qui exécute la tâche de manière récurrente. </p> <p>Le planning est toujours relatif au fuseau horaire local du serveur. Consultez la documentation IPS pour connaître le format de planification personnalisé. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> description</span> </span> </td> 
@@ -157,11 +157,11 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`jobHandle`*` | `xsd:string` | Oui | Poignée de tâche. |
+| jobHandle | `xsd:string` | Oui | Poignée de tâche. |
 
 ## Exemples {#section-40ac77d14adf4588ba2575be6879b2d2}
 
-Cet exemple de code envoie une tâche de publication de diffusion d’image à IPS et renvoie un gestionnaire de tâche. Sélectionnez un seul type de tâche dans la requête. Comme `userHandle` a été omis, des notifications par courrier électronique sont envoyées à l’utilisateur qui a envoyé la tâche. Cet exemple de tâche s’exécute immédiatement car `execTime` et `execSchedule` ont été omis.
+Cet exemple de code envoie une tâche de publication de diffusion d’image à IPS et renvoie un gestionnaire de tâche. Sélectionnez un seul type de tâche dans la requête. Parce que `userHandle` a été omis, des notifications électroniques sont envoyées à l’utilisateur qui a envoyé la tâche. Cet exemple de tâche s’exécute immédiatement car `execTime` et `execSchedule` ont été omis.
 
 **Request**
 
@@ -186,7 +186,7 @@ Cet exemple de code envoie une tâche de publication de diffusion d’image à I
 
 ## Remarques {#section-0f3078e503a249aeb6f3d662a51f036a}
 
-Vous pouvez spécifier au plus l’une des valeurs `execTime` et `execSchedule`. Si aucun des deux n’est transmis, la tâche s’exécute immédiatement. Vous ne pouvez utiliser que l’une des méthodes suivantes :
+Vous pouvez spécifier au plus l’une des `execTime` et `execSchedule`. Si aucun des deux n’est transmis, la tâche s’exécute immédiatement. Vous ne pouvez utiliser que l’une des méthodes suivantes :
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`

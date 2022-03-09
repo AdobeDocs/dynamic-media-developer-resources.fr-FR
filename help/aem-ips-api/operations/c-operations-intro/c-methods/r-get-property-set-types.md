@@ -2,13 +2,13 @@
 description: Obtient les types de jeux de propriétés associés à la société spécifiée ou les types de jeux de propriétés globaux si aucune société n’est spécifiée.
 solution: Experience Manager
 title: getPropertySetTypes
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7686d30b-e071-4950-8af1-4dd25312ce4b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 14%
+source-wordcount: '113'
+ht-degree: 15%
 
 ---
 
@@ -57,7 +57,7 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`typeArray`*` | `types:PropertySetTypeArray` | Oui | Tableau de types de jeux de propriétés associés à la société spécifiée ou aux types de jeux de propriétés globaux si aucune société n’a été spécifiée. |
+| typeArray | `types:PropertySetTypeArray` | Oui | Tableau de types de jeux de propriétés associés à la société spécifiée ou aux types de jeux de propriétés globaux si aucune société n’a été spécifiée. |
 
 ## Exemples {#section-280c406a90864409856aee44d4069a52}
 

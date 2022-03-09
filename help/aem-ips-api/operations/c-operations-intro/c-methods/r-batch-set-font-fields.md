@@ -2,13 +2,13 @@
 description: Définit les champs de métadonnées de police.
 solution: Experience Manager
 title: batchSetFontFields
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f38aa861-2a81-4663-967e-72611122f51b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 14%
+source-wordcount: '125'
+ht-degree: 15%
 
 ---
 
@@ -30,18 +30,18 @@ Définit les champs de métadonnées de police.
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Gérer la société qui contient les polices. |
-| `*`updateArray`*` | `types:FontFieldUpdateArray` | Oui | Tableau des mises à jour des champs de police. |
+| companyHandle | `xsd:string` | Oui | Gérer la société qui contient les polices. |
+| updateArray | `types:FontFieldUpdateArray` | Oui | Tableau des mises à jour des champs de police. |
 
 **Sortie (batchSetFontFieldsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Oui | Nombre de champs de police correctement définis. |
-| `*`warningCount`*` | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de définir des champs de police. |
-| `*`errorCount`*` | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de définir des champs de police. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau de détails associés aux ressources qui ont généré des avertissements lorsque l’opération a tenté d’appliquer les mises à jour. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des erreurs lorsque l’opération a tenté d’appliquer les mises à jour. |
+| successCount | `xsd:int` | Oui | Nombre de champs de police correctement définis. |
+| warningCount | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de définir des champs de police. |
+| errorCount | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de définir des champs de police. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Non | Tableau de détails associés aux ressources qui ont généré des avertissements lorsque l’opération a tenté d’appliquer les mises à jour. |
+| errorDetailArray | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des erreurs lorsque l’opération a tenté d’appliquer les mises à jour. |
 
 ## Exemples {#section-0449c2e4ec534f4b8ee849ec4fe12c4e}
 

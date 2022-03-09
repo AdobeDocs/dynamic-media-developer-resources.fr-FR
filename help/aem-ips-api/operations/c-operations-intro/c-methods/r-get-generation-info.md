@@ -2,13 +2,13 @@
 description: Renvoie 2 types d’informations différents en fonction des paramètres transmis. originatorHandle renvoie des informations sur les ressources générées à partir de la ressource spécifiée. generateHandle renvoie des informations sur les étapes utilisées pour générer la ressource ou le fichier spécifié.
 solution: Experience Manager
 title: getGenerationInfo
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fa098e3c-8145-4238-a84c-c545f1c53341
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 9%
+source-wordcount: '196'
+ht-degree: 10%
 
 ---
 
@@ -36,18 +36,18 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`Expression de code`*` | `xsd:string` | Oui | La poignée de la société. |
-| `*`Expression de code`*` | `xsd:string` | Non | Moteur utilisé dans la génération. Voir Styles de police. |
-| `*`Expression de code`*` | `xsd:string` | Non | Gestionnaire de la ressource à interroger pour les ressources générées. |
-| `*`Expression de code`*` | `xsd:string` | Non | Gestionnaire de la ressource à interroger pour les ressources et les moteurs utilisés dans sa génération. |
-| `*`Expression de code`*` | `xsd:StringArray` | Non | Propriétés incluses dans l’opération. |
-| `*`Expression de code`*` | `xsd:StringArray` | Non | Propriétés exclues de l’opération. |
+| Expression de code | `xsd:string` | Oui | La poignée de la société. |
+| Expression de code | `xsd:string` | Non | Moteur utilisé dans la génération. Voir Styles de police. |
+| Expression de code | `xsd:string` | Non | Gestionnaire de la ressource à interroger pour les ressources générées. |
+| Expression de code | `xsd:string` | Non | Gestionnaire de la ressource à interroger pour les ressources et les moteurs utilisés dans sa génération. |
+| Expression de code | `xsd:StringArray` | Non | Propriétés incluses dans l’opération. |
+| Expression de code | `xsd:StringArray` | Non | Propriétés exclues de l’opération. |
 
 **Sortie (getGenerationInfoReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`generateArray`*` | `types:GenerationInfoArray` | Oui | Tableau d’informations sur la génération. |
+| generateArray | `types:GenerationInfoArray` | Oui | Tableau d’informations sur la génération. |
 
 ## Exemples {#section-fdffe6ed82d94c7aa90e47f7ce889403}
 

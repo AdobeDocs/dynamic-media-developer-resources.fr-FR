@@ -2,13 +2,13 @@
 description: Renvoie un tableau de toutes les entreprises.
 solution: Experience Manager
 title: getAllEntreprises
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0e339ecf-83b5-410c-8683-f3d73bd92339
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 20%
+source-wordcount: '70'
+ht-degree: 21%
 
 ---
 
@@ -28,13 +28,13 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`includeExpired`*` | `xsd:boolean` | Oui | Définissez cette variable sur true pour renvoyer les sociétés expirées et non expirées. |
+| includeExpired | `xsd:boolean` | Oui | Définissez cette variable sur true pour renvoyer les sociétés expirées et non expirées. |
 
 **Sortie (getAllEntreprisesReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyArray`*` | `types:CompanyArray` | Oui | Le tableau d’entreprises. |
+| companyArray | `types:CompanyArray` | Oui | Le tableau d’entreprises. |
 
 ## Exemples {#section-3eecf4e6900b41fb92a0e3214791c6b9}
 

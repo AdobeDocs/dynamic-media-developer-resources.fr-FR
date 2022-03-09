@@ -2,12 +2,12 @@
 description: Définit les champs de métadonnées de profil ICC.
 solution: Experience Manager
 title: batchSetIccProfileFields
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d10a30ca-afa7-4ef0-8cef-0329b0068bf3
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '137'
 ht-degree: 14%
 
 ---
@@ -33,18 +33,18 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Gérer la société qui contient les profils ICC. |
-| `*`mettre à jour le tableau`*` | `xsd:string` | Oui | Tableau des mises à jour de profil ICC. |
+| companyHandle | `xsd:string` | Oui | Gérer la société qui contient les profils ICC. |
+| mettre à jour le tableau | `xsd:string` | Oui | Tableau des mises à jour de profil ICC. |
 
 **Sortie (batchSetIccProfileFields)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Oui | Nombre de champs de profil ICC correctement définis. |
-| `*`warningCount`*` | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de définir les champs de profil ICC. |
-| `*`errorCount`*` | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de définir les champs de profil ICC. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau de détails associés aux ressources qui ont généré des avertissements lorsque l’opération a tenté d’appliquer les mises à jour. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des erreurs lorsque l’opération a tenté d’appliquer les mises à jour. |
+| successCount | `xsd:int` | Oui | Nombre de champs de profil ICC correctement définis. |
+| warningCount | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de définir les champs de profil ICC. |
+| errorCount | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de définir les champs de profil ICC. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Non | Tableau de détails associés aux ressources qui ont généré des avertissements lorsque l’opération a tenté d’appliquer les mises à jour. |
+| errorDetailArray | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des erreurs lorsque l’opération a tenté d’appliquer les mises à jour. |
 
 ## Exemples {#section-5dc90cfbd9b1411485b44859032f7cb9}
 

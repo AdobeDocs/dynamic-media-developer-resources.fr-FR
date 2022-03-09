@@ -2,13 +2,13 @@
 description: Met à jour les autorisations des ressources.
 solution: Experience Manager
 title: updateAssetPermissions
-feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 12972a52-7b70-405c-9c73-e5ce6ab7dd9b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 21%
+source-wordcount: '54'
+ht-degree: 24%
 
 ---
 
@@ -30,9 +30,9 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société. |
-| `*`assetHandle`*` | `xsd:string` | Oui | Poignée de ressource. |
-| `*`updateArray`*` | `types:PermissionUpdateArray` | Oui | Autorisations que vous souhaitez appliquer à la ressource. |
+| companyHandle | `xsd:string` | Oui | Poignée de la société. |
+| assetHandle | `xsd:string` | Oui | Poignée de ressource. |
+| updateArray | `types:PermissionUpdateArray` | Oui | Autorisations que vous souhaitez appliquer à la ressource. |
 
 **Sortie (updateAssetPermissionsReturn)**
 

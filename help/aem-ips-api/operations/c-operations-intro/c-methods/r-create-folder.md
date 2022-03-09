@@ -2,13 +2,13 @@
 description: Crée un dossier.
 solution: Experience Manager
 title: createFolder
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 569130ae-5515-4b14-a410-2bd6f9fc7638
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 17%
+source-wordcount: '118'
+ht-degree: 18%
 
 ---
 
@@ -18,7 +18,7 @@ Crée un dossier.
 
 >[!NOTE]
 >
->Le nouveau dossier est Secondaire au dossier Images , même si vous spécifiez une balise `/` pour indiquer la racine de l’entreprise.
+>Le nouveau dossier est Secondaire au dossier Images , même si vous spécifiez une `/` pour indiquer la racine de la société.
 
 Syntaxe
 
@@ -41,14 +41,14 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | La gestion de la société |
-| `*`folderPath`*` | `xsd:string` | Oui | Dossier racine utilisé pour récupérer les dossiers et tous les sous-dossiers au niveau de la feuille. Si elle est exclue, la racine de l’entreprise est utilisée. |
+| companyHandle | `xsd:string` | Oui | La gestion de la société |
+| folderPath | `xsd:string` | Oui | Dossier racine utilisé pour récupérer les dossiers et tous les sous-dossiers au niveau de la feuille. Si elle est exclue, la racine de l’entreprise est utilisée. |
 
 **Output (createFolderParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | Oui | Gestion du nouveau dossier. |
+| folderHandle | `xsd:string` | Oui | Gestion du nouveau dossier. |
 
 ## Exemples {#section-e596fbdb44fd43c8b30005cb2a2fdf26}
 

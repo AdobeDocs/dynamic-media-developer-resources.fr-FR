@@ -2,13 +2,13 @@
 description: Renvoie les groupes d’entreprises.
 solution: Experience Manager
 title: getGroups
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d98c08a6-4c20-4538-9598-c905078ab7de
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 21%
+source-wordcount: '61'
+ht-degree: 22%
 
 ---
 
@@ -30,13 +30,13 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | La poignée de la société. |
+| companyHandle | `xsd:string` | Oui | La poignée de la société. |
 
 **Sortie (getGroupsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`groupArray`*` | `types:GroupArray` | Oui | Tableau de groupes. |
+| groupArray | `types:GroupArray` | Oui | Tableau de groupes. |
 
 ## Exemples {#section-ed0708f611574354bf0c6ea83912b531}
 

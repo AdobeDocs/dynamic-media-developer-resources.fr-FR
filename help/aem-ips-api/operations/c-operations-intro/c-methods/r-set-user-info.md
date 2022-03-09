@@ -2,13 +2,13 @@
 description: Définit des attributs utilisateur (par exemple, nom, courrier électronique, rôle, etc.)
 solution: Experience Manager
 title: setUserInfo
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d8f8fe53-a874-4b77-9084-9a369862a672
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 20%
+source-wordcount: '107'
+ht-degree: 21%
 
 ---
 
@@ -31,14 +31,14 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Non | Identifiant utilisateur. |
-| `*`firstName`*` | `xsd:string` | Oui | Prénom. |
-| `*`lastName`*` | `xsd:string` | Oui | Nom. |
-| `*`e-mail`*` | `xsd:string` | Oui | Adresse électronique de l’utilisateur. |
-| `*`defaultRole`*` | `xsd:string` | Oui | Définit le rôle d’un utilisateur dans chaque société à laquelle il appartient. Notez toutefois que le rôle `IpsAdmin` remplace d’autres paramètres par entreprise. |
-| `*`passwordExpires`*` | `xsd:dateTime` | Non | Définissez la date d’expiration du mot de passe. |
-| `*`isValid`*` | `xsd:boolean` | Oui | Détermine si l’utilisateur est un utilisateur IPS valide. |
-| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Oui | Un tableau de gestionnaires de société. |
+| userHandle | `xsd:string` | Non | Identifiant utilisateur. |
+| firstName | `xsd:string` | Oui | Prénom. |
+| lastName | `xsd:string` | Oui | Nom. |
+| e-mail | `xsd:string` | Oui | Adresse électronique de l’utilisateur. |
+| defaultRole | `xsd:string` | Oui | Définit le rôle d’un utilisateur dans chaque société à laquelle il appartient. Notez toutefois que la variable `IpsAdmin` Le rôle remplace les autres paramètres par entreprise. |
+| passwordExpires | `xsd:dateTime` | Non | Définissez la date d’expiration du mot de passe. |
+| isValid | `xsd:boolean` | Oui | Détermine si l’utilisateur est un utilisateur IPS valide. |
+| membershipArray | `types:CompanyMembershipUpdateArray` | Oui | Un tableau de gestionnaires de société. |
 
 **Sortie (setUserInfoReturn)**
 

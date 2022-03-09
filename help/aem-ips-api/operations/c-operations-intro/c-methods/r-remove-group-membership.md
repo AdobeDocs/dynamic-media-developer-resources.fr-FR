@@ -2,12 +2,12 @@
 description: Supprime les utilisateurs d’un tableau de groupes.
 solution: Experience Manager
 title: removeGroupMembership
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 892ee01c-e07b-4321-b0b7-5bb606036340
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '102'
 ht-degree: 10%
 
 ---
@@ -33,8 +33,8 @@ Supprime les utilisateurs d’un tableau de groupes.
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Non | Gestionnaire de l’entreprise dont vous souhaitez supprimer l’appartenance à un groupe. |
-| `*`groupHandleArray`*` | `types:HandleArray` | Oui | Le tableau de gestionnaires aux groupes à partir desquels vous souhaitez que la société soit supprimée. |
+| userHandle | `xsd:string` | Non | Gestionnaire de l’entreprise dont vous souhaitez supprimer l’appartenance à un groupe. |
+| groupHandleArray | `types:HandleArray` | Oui | Le tableau de gestionnaires aux groupes à partir desquels vous souhaitez que la société soit supprimée. |
 
 **Sortie (removeGroupMembershipReturn)**
 

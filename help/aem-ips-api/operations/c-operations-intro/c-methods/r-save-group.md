@@ -2,13 +2,13 @@
 description: Créez ou modifiez un groupe.
 solution: Experience Manager
 title: saveGroup
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1dd980e7-eb38-4c90-b4fc-83327d4a95f5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 19%
+source-wordcount: '92'
+ht-degree: 20%
 
 ---
 
@@ -30,16 +30,16 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de l’entreprise avec le groupe que vous souhaitez enregistrer. |
-| `*`groupHandle`*` | `xsd:string` | Non | La poignée du groupe. |
-| `*`name`*` | `xsd:string` | Oui | Nom du groupe. |
-| `*`isSystemDefined`*` | `xsd:boolean` | Oui | `false` est la valeur par défaut. |
+| companyHandle | `xsd:string` | Oui | Gestionnaire de l’entreprise avec le groupe que vous souhaitez enregistrer. |
+| groupHandle | `xsd:string` | Non | La poignée du groupe. |
+| name | `xsd:string` | Oui | Nom du groupe. |
+| isSystemDefined | `xsd:boolean` | Oui | `false` est la valeur par défaut. |
 
 **Sortie (saveGroupReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`groupHandle`*` | `xsd:string` | Oui | Poignée de groupe. |
+| groupHandle | `xsd:string` | Oui | Poignée de groupe. |
 
 ## Exemples {#section-26eee227ff1f4edabb7fa1240b4d9999}
 

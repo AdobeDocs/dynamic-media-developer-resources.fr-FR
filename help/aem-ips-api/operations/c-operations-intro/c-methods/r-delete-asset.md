@@ -2,13 +2,13 @@
 description: Supprime une ressource.
 solution: Experience Manager
 title: deleteAsset
-feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: dacea36e-3d40-4aaf-94fd-f0709830caf9
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 12%
+source-wordcount: '92'
+ht-degree: 13%
 
 ---
 
@@ -37,8 +37,8 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de la société à laquelle appartient le dossier. |
-| `*`assetHandle`*` | `xsd:string` | Oui | Gestionnaire de la ressource à supprimer. |
+| companyHandle | `xsd:string` | Oui | Gestionnaire de la société à laquelle appartient le dossier. |
+| assetHandle | `xsd:string` | Oui | Gestionnaire de la ressource à supprimer. |
 
 **Sortie (deleteAssetParam)**
 

@@ -2,12 +2,12 @@
 description: Vérifie les conflits d’ID IPS en comparant les noms des ressources à tous les noms d’un espace de noms du catalogue de diffusion d’images/rendu d’image d’une entreprise.
 solution: Experience Manager
 title: checkAssetNames
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0756c4fc-64ec-4022-a6aa-fcf1542b41b0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '116'
 ht-degree: 12%
 
 ---
@@ -35,14 +35,14 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Non | Gestionnaire de la société qui contient l’utilisateur. |
-| `*`assetNamesArray`*` | `types:StringArray` | Oui | Tableau de noms de ressources à vérifier. |
+| companyHandle | `xsd:string` | Non | Gestionnaire de la société qui contient l’utilisateur. |
+| assetNamesArray | `types:StringArray` | Oui | Tableau de noms de ressources à vérifier. |
 
 **Sortie (checkAssetNamesReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`inUseNameArray`*` | `types:StringArray` | Oui | Tableau de noms de ressources utilisés. |
+| inUseNameArray | `types:StringArray` | Oui | Tableau de noms de ressources utilisés. |
 
 ## Exemples {#section-bc5d120d74614a63a425ca3acc337219}
 

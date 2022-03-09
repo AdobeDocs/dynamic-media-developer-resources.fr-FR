@@ -2,13 +2,13 @@
 description: Définition de la cible de zoom.
 solution: Experience Manager
 title: ZoomTargetDefinition
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 57916dec-8676-41aa-834b-37775a0f6d02
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 22%
+source-wordcount: '44'
+ht-degree: 25%
 
 ---
 
@@ -22,9 +22,9 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`name`*` | `xsd:string` | Nom de la cible. |
-| `*`xPosition`*` | `xsd:int` | Position X de la cible de zoom. |
-| `*`yPosition`*` | `xsd:int` | Position Y de la cible de zoom. |
-| `*`width`*` | `xsd:int` | Largeur de la cible de zoom. |
-| `*`height`*` | `xsd:int` | Hauteur de la cible de zoom. |
-| `*`Données utilisateur`*` | `xsd:string` | Données utilisateur associées. |
+| name | `xsd:string` | Nom de la cible. |
+| xPosition | `xsd:int` | Position X de la cible de zoom. |
+| yPosition | `xsd:int` | Position Y de la cible de zoom. |
+| largeur | `xsd:int` | Largeur de la cible de zoom. |
+| hauteur | `xsd:int` | Hauteur de la cible de zoom. |
+| Données utilisateur | `xsd:string` | Données utilisateur associées. |

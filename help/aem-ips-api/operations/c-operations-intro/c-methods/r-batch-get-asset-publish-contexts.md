@@ -2,13 +2,13 @@
 description: Renvoie les contextes de publication des ressources marquées pour publication.
 solution: Experience Manager
 title: batchGetAssetPublishContexts
-feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: ba1f62a7-2698-4300-b6de-6d07ac764b0c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 15%
+source-wordcount: '97'
+ht-degree: 16%
 
 ---
 
@@ -34,9 +34,7 @@ Syntaxe
 >
 >* L’utilisateur doit disposer d’un accès en lecture pour renvoyer les ressources.
 >* Tous les utilisateurs ont accès à la société partagée.
-
 >
-
 
 
 ## Paramètres {#section-1742fcb196224545b270eb8241f757a8}
@@ -45,14 +43,14 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Gérer la société. |
-| `*`assetHandleArray`*` | ` `types:HandleArray&quot; | Oui | Liste des ressources que vous souhaitez interroger pour des contextes principaux (marqués pour publication). |
+| companyHandle | `xsd:string` | Oui | Gérer la société. |
+| assetHandleArray | ` `types:HandleArray&quot; | Oui | Liste des ressources que vous souhaitez interroger pour des contextes principaux (marqués pour publication). |
 
 **Sortie (batchGetAssetPublishContextsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`assetPublishContextsArray`*` | `types:assetPublishContextsArray` | Oui | Tableau de contextes de publication dans lequel chaque ressource est marquée pour publication. |
+| assetPublishContextsArray | `types:assetPublishContextsArray` | Oui | Tableau de contextes de publication dans lequel chaque ressource est marquée pour publication. |
 
 ## Exemples {#section-457f6809ccfa425b9a0976313d613f4e}
 

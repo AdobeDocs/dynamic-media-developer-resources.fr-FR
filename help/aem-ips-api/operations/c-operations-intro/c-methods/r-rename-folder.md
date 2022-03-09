@@ -2,13 +2,13 @@
 description: Renomme un dossier.
 solution: Experience Manager
 title: renameFolder
-feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 2d4f1059-8018-4efb-a1ec-8eb560b1a58f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 20%
+source-wordcount: '75'
+ht-degree: 22%
 
 ---
 
@@ -37,15 +37,15 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Gérer la société avec les dossiers que vous souhaitez renommer. |
-| `*`folderHandle`*` | `xsd:string` | Oui | Gérer au dossier. |
-| `*`folderName`*` | `xsd:string` | Oui | Nouveau nom du dossier. |
+| companyHandle | `xsd:string` | Oui | Gérer la société avec les dossiers que vous souhaitez renommer. |
+| folderHandle | `xsd:string` | Oui | Gérer au dossier. |
+| folderName | `xsd:string` | Oui | Nouveau nom du dossier. |
 
 **Sortie (renameFolderReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | Oui | Gérer au dossier renommé. |
+| folderHandle | `xsd:string` | Oui | Gérer au dossier renommé. |
 
 ## Exemples {#section-98bdd2f88d164f488676e90aba1dc864}
 

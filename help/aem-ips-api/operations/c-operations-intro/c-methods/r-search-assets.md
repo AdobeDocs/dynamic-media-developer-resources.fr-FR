@@ -2,12 +2,12 @@
 description: Recherchez des ressources en fonction de vos critères spécifiés.
 solution: Experience Manager
 title: searchAssets
-feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 58bd80e4-e9eb-43e4-8508-04e330f0ad26
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '628'
 ht-degree: 12%
 
 ---
@@ -24,11 +24,11 @@ Syntaxe
 
 **Taille de réponse**
 
-`searchAssets` renvoie jusqu’à 1 000 ressources en un seul appel. Pour renvoyer jusqu’à 10 000 ressources par appel, limitez les données de réponse à un sous-ensemble des champs `totalRows`, `name`, `handle`, `type` et `subType`. Pour renvoyer des jeux plus volumineux, configurez la pagination avec le paramètre `resultPage` .
+`searchAssets` renvoie jusqu’à 1 000 ressources en un seul appel. Pour renvoyer jusqu’à 10 000 ressources par appel, limitez les données de réponse à un sous-ensemble de la variable `totalRows`, `name`, `handle`, `type`, et `subType` champs. Pour renvoyer des jeux plus volumineux, configurez la pagination avec la variable `resultPage` .
 
 **Limiter la taille du fichier de résultat avec responseFieldArray ou excludeFieldArray**
 
-Limitez la taille de votre jeu de données avec les paramètres `responseFieldArray` ou `excludFieldArray` . Ces paramètres réduisent l’utilisation de la mémoire et de la bande passante et peuvent améliorer les temps de réponse du serveur.
+Limitez la taille de votre jeu de données à l’aide de la variable `responseFieldArray` ou `excludFieldArray` paramètres. Ces paramètres réduisent l’utilisation de la mémoire et de la bande passante et peuvent améliorer les temps de réponse du serveur.
 
 ## Types d’utilisateurs autorisés {#section-9c4bc41bb8b4493982197eb13c7cdc55}
 
@@ -90,7 +90,7 @@ Limitez la taille de votre jeu de données avec les paramètres `responseFieldAr
    <td colname="col1"> <span class="codeph"> <span class="varname"> includeSubfolders</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4">Définissez cette variable sur <span class="codeph"> true</span> pour rechercher des sous-dossiers. </td> 
+   <td colname="col4">Définissez sur . <span class="codeph"> true</span> pour rechercher des sous-dossiers. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
@@ -108,19 +108,19 @@ Limitez la taille de votre jeu de données avec les paramètres `responseFieldAr
    <td colname="col1"> <span class="codeph"> <span class="varname"> conditionMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> <p>Choix des modes de recherche pour la combinaison des résultats de <span class="codeph"> keywordArray</span>, </p> <p> <span class="codeph"> conditionMatchMode</span> </p> <p> <span class="codeph"> systemFieldConditionArray</span> et  <span class="codeph"> metadataConditionArray</span>. La valeur par défaut est <span class="codeph"> MatchAll</span>. </p> </td> 
+   <td colname="col4"> <p>Choix des modes de recherche pour la combinaison des résultats de <span class="codeph"> keywordArray</span>, </p> <p> <span class="codeph"> conditionMatchMode</span> </p> <p> <span class="codeph"> systemFieldConditionArray</span>, et <span class="codeph"> metadataConditionArray</span>. La valeur par défaut est <span class="codeph"> MatchAll</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> keywordArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> <p> <p>Remarque :  Paramètre obsolète. Il est conseillé de ne pas l’utiliser. </p> </p> <p>Tableau de chaînes de mots-clés à faire correspondre. </p> </td> 
+   <td colname="col4"> <p> <p>Remarque : Paramètre obsolète. Il est conseillé de ne pas l’utiliser. </p> </p> <p>Tableau de chaînes de mots-clés à faire correspondre. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> systemFieldMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> <p>Choix des modes de correspondance de recherche pour la combinaison des correspondances <span class="codeph"> systemFieldCondition</span> . La valeur par défaut est <span class="codeph"> MatchAll</span> </p>. </td> 
+   <td colname="col4"> <p>Choix des modes de correspondance de recherche à combiner <span class="codeph"> systemFieldCondition</span> correspond à . La valeur par défaut est <span class="codeph"> MatchAll</span> </p>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> systemFieldConditionArray</span> </span> </p> </td> 
@@ -138,13 +138,13 @@ Limitez la taille de votre jeu de données avec les paramètres `responseFieldAr
    <td colname="col1"> <span class="codeph"> <span class="varname"> tagConditionArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:TagConditionArray</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> <p>Tableau de prédicats de recherche de champs de balise. </p> <p>Les prédicats sont combinés en fonction du paramètre <span class="codeph"> tagMatchMode</span>, puis combinés à tous les termes de <span class="codeph"> keywordArray</span>, <span class="codeph"> systemFieldConditionArray</span> et <span class="codeph"> metadataConditionArray</span> en fonction de <span class="codeph"> conditionMatchMode</span> . </p> </td> 
+   <td colname="col4"> <p>Tableau de prédicats de recherche de champs de balise. </p> <p>Les prédicats sont combinés en fonction des <span class="codeph"> tagMatchMode</span> puis combinée avec tous les termes de la variable <span class="codeph"> keywordArray</span>, <span class="codeph"> systemFieldConditionArray</span>, et <span class="codeph"> metadataConditionArray</span> selon la variable <span class="codeph"> conditionMatchMode</span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> metadataMatchMode</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4">Modes de correspondance de recherche pour combiner des correspondances <span class="codeph"> metadataCondition</span>. La valeur par défaut est <span class="codeph"> MatchAll</span>. </td> 
+   <td colname="col4">Modes de recherche à combiner <span class="codeph"> metadataCondition</span> correspond à . La valeur par défaut est <span class="codeph"> MatchAll</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </td> 
@@ -174,13 +174,13 @@ Limitez la taille de votre jeu de données avec les paramètres `responseFieldAr
    <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4">Si <span class="codeph"> true</span> et <span class="codeph"> assetSubTypeArray</span> n’est pas vide, seules les ressources dont les sous-types se trouvent dans <span class="codeph"> assetSubTypeArray</span> sont renvoyées. Si <span class="codeph"> false</span> (valeur par défaut), les ressources sans sous-type défini sont renvoyées. </td> 
+   <td colname="col4">If <span class="codeph"> true</span> et <span class="codeph"> assetSubTypeArray</span> n’est pas vide, seules les ressources dont les sous-types se trouvent dans <span class="codeph"> assetSubTypeArray</span> sont renvoyées. If <span class="codeph"> false</span> (par défaut), les ressources sans sous-type défini sont renvoyées. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludeByproducts</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> Si la valeur est true, les sous-produits générés lors de l’ingestion d’une ressource Principale, tels que les images de page PDF tronquées, sont exclus des résultats de recherche. Faux par défaut. </td> 
+   <td colname="col4"> Si la valeur est true, les sous-produits générés lors de l’ingestion d’une ressource Principale, tels que les images de page de PDF tronquées, sont exclus des résultats de recherche. Faux par défaut. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> excludByproductArray</span> </span> </td> 
@@ -204,7 +204,7 @@ Limitez la taille de votre jeu de données avec les paramètres `responseFieldAr
    <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4">Spécifie la page de résultats à renvoyer, en fonction de la taille de page <span class="codeph"> recordsPerPage</span>. </td> 
+   <td colname="col4">Spécifie la page de résultats à renvoyer, en fonction de <span class="codeph"> recordsPerPage</span> taille de la page. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
@@ -237,8 +237,8 @@ Limitez la taille de votre jeu de données avec les paramètres `responseFieldAr
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`totalRows`*` | `xsd:int` | Non | Nombre de lignes renvoyé par une recherche lorsque les enregistrements par page ne sont pas limités. |
-| `*`assetArray`*` | `types:AssetArray` | Non | Ressources renvoyées par la recherche. |
+| totalRows | `xsd:int` | Non | Nombre de lignes renvoyé par une recherche lorsque les enregistrements par page ne sont pas limités. |
+| assetArray | `types:AssetArray` | Non | Ressources renvoyées par la recherche. |
 
 ## Exemples {#section-725484cc09b54772a838ad2cc930b94b}
 

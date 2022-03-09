@@ -2,13 +2,13 @@
 description: Définit les valeurs du dictionnaire de balises pour un champ de balise existant.
 solution: Experience Manager
 title: setTagFieldValues
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 50f437d6-fec5-4961-884e-fdb75d201ab7
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 15%
+source-wordcount: '81'
+ht-degree: 16%
 
 ---
 
@@ -30,9 +30,9 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société. |
-| `*`fieldHandle`*` | `xsd:string` | Oui | Poignée de champ de balise. |
-| `*`valueArray`*` | `types:StringArray` | Oui | Tableau de valeurs de balise qui remplacent le dictionnaire existant du champ. Les associations de ressources sont conservées lorsqu’une nouvelle valeur correspond à une valeur existante. |
+| companyHandle | `xsd:string` | Oui | Poignée de la société. |
+| fieldHandle | `xsd:string` | Oui | Poignée de champ de balise. |
+| valueArray | `types:StringArray` | Oui | Tableau de valeurs de balise qui remplacent le dictionnaire existant du champ. Les associations de ressources sont conservées lorsqu’une nouvelle valeur correspond à une valeur existante. |
 
 **Sortie (setTagFieldValuesReturn)**
 

@@ -2,13 +2,13 @@
 description: Récupère les journaux de tâches d’une ressource. Les éléments renvoyés dans le tableau contiennent des informations détaillées sur chaque entrée du journal des tâches de cette ressource. Le champ de réponse logMessage est localisé en fonction du champ authHeader .
 solution: Experience Manager
 title: getAssetJobLogs
-feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 88ec5cab-7eb4-48aa-914f-21311593e463
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 9%
+source-wordcount: '156'
+ht-degree: 10%
 
 ---
 
@@ -36,14 +36,14 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de la société à laquelle appartient la ressource. |
-| `*`assetHandle`*` | `xsd:string` | Oui | Gestion de la ressource avec les journaux de tâches à récupérer. |
+| companyHandle | `xsd:string` | Oui | Gestionnaire de la société à laquelle appartient la ressource. |
+| assetHandle | `xsd:string` | Oui | Gestion de la ressource avec les journaux de tâches à récupérer. |
 
 **Sortie (getAssetJobLogsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`jobLogArray`*` | `types:AssetJobLogArray` | Oui | Tableau du journal des tâches. |
+| jobLogArray | `types:AssetJobLogArray` | Oui | Tableau du journal des tâches. |
 
 ## Exemples {#section-f03d7f3ec5d043d38227f926fb7609f6}
 

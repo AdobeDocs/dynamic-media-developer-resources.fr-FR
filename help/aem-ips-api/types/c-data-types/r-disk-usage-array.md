@@ -2,13 +2,13 @@
 description: Tableau d’utilisation du disque.
 solution: Experience Manager
 title: DiskUsageArray
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 8331041e-4b8e-42b4-8bda-e40ca9489704
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 22%
+source-wordcount: '22'
+ht-degree: 27%
 
 ---
 
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`éléments`*` | `types:DiskUsage` | Tableau de l’utilisation du disque. |
+| éléments | `types:DiskUsage` | Tableau de l’utilisation du disque. |

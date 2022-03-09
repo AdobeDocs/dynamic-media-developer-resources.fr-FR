@@ -2,13 +2,13 @@
 description: Obtient un type de jeu de propriétés à l’aide d’une poignée pour une société et du nom du type de jeu de propriétés. Il obtient une structure de type avec la poignée pour le type ainsi que le type de propriété.
 solution: Experience Manager
 title: getPropertySetType
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ff9c3d24-577c-4a9c-8820-60c2a33773bc
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 10%
+source-wordcount: '153'
+ht-degree: 11%
 
 ---
 
@@ -36,8 +36,8 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Non | La poignée de la société. Facultatif, car un type de jeu de propriétés peut appartenir à plusieurs entreprises. |
-| `*`name`*` | `xsd:string` | Oui | Nom du type de jeu de propriétés. |
+| companyHandle | `xsd:string` | Non | La poignée de la société. Facultatif, car un type de jeu de propriétés peut appartenir à plusieurs entreprises. |
+| name | `xsd:string` | Oui | Nom du type de jeu de propriétés. |
 
 **Sortie (getPropertySetTypeReturn)**
 

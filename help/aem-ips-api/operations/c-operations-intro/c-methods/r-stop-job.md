@@ -2,13 +2,13 @@
 description: Arrête un traitement en cours.
 solution: Experience Manager
 title: stopJob
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 90e61cf1-11f1-4504-8007-126ba4fe436a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 20%
+source-wordcount: '54'
+ht-degree: 22%
 
 ---
 
@@ -35,8 +35,8 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société. |
-| `*`jobHandle`*` | `xsd:string` | Oui | Gérez la tâche que vous souhaitez arrêter. |
+| companyHandle | `xsd:string` | Oui | Poignée de la société. |
+| jobHandle | `xsd:string` | Oui | Gérez la tâche que vous souhaitez arrêter. |
 
 **Sortie (stopJobReturn0**
 

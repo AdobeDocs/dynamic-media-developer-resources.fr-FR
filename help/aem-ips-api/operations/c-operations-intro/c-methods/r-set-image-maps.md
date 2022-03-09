@@ -2,13 +2,13 @@
 description: Définit la zone cliquable d’une ressource.
 solution: Experience Manager
 title: setImageMaps
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0c8e6536-0b9c-4fcc-b71f-511afc670089
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 10%
+source-wordcount: '133'
+ht-degree: 11%
 
 ---
 
@@ -33,15 +33,15 @@ Vous devez avoir déjà créé les zones cliquables. Les zones cliquables sont a
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société. |
-| `*`assetHandle`*` | `xsd:string` | Oui | Poignée de ressource. |
-| `*`imageMapArray`*` | `types:ImageMapDefinitionArray` | Oui | Tableau de zones cliquables prédéfinies. |
+| companyHandle | `xsd:string` | Oui | Poignée de la société. |
+| assetHandle | `xsd:string` | Oui | Poignée de ressource. |
+| imageMapArray | `types:ImageMapDefinitionArray` | Oui | Tableau de zones cliquables prédéfinies. |
 
 **Sortie (setImageMapsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`imageMapHandleArray`*` | `types:HandleArray` | Oui | Un tableau avec des zones cliquables est appliqué à la ressource. |
+| imageMapHandleArray | `types:HandleArray` | Oui | Un tableau avec des zones cliquables est appliqué à la ressource. |
 
 ## Exemples {#section-fe2e35662a6a4ee29cf250c9fd180371}
 

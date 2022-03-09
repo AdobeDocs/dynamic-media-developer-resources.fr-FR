@@ -2,13 +2,13 @@
 description: Supprime le champ de métadonnées d’une entreprise.
 solution: Experience Manager
 title: deleteMetadataField
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1922fc1b-2abc-4d31-985a-65c788af4d46
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 10%
+source-wordcount: '98'
+ht-degree: 11%
 
 ---
 
@@ -30,8 +30,8 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de la société qui contient le champ de métadonnées à supprimer. |
-| `*`fieldHandle`*` | `xsd:string` | Oui | La gestion du champ de métadonnées à supprimer. |
+| companyHandle | `xsd:string` | Oui | Gestionnaire de la société qui contient le champ de métadonnées à supprimer. |
+| fieldHandle | `xsd:string` | Oui | La gestion du champ de métadonnées à supprimer. |
 
 **Sortie (deleteMetadataFieldParam)**
 
@@ -39,7 +39,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-e1c474ea91a040609ecd7c2400f4fa3c}
 
-Cet exemple de code supprime le champ de métadonnées d’une entreprise. Il utilise le nom d’entreprise et le nom de métadonnées comme champs dans la balise `deleteMetadataFieldParam` transmise au serveur des services Web IPS pour effectuer cette action.
+Cet exemple de code supprime le champ de métadonnées d’une entreprise. Elle utilise le nom d’entreprise et le nom de métadonnées comme champs dans la variable `deleteMetadataFieldParam` transmis au serveur des services Web IPS pour effectuer cette action.
 
 **Request**
 

@@ -2,12 +2,12 @@
 description: Créez ou modifiez un champ de métadonnées. Omettez la poignée de champ facultative pour créer un champ de métadonnées.
 solution: Experience Manager
 title: saveMetadataField
-feature: Dynamic Media Classic,SDK/API,Métadonnées
+feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 56a45324-5027-4375-a790-c965f682e4b9
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '217'
 ht-degree: 16%
 
 ---
@@ -96,11 +96,11 @@ Créez ou modifiez un champ de métadonnées. Omettez la poignée de champ facul
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`fieldHandle`*` | `xsd:string` | Oui | Gestion du nouveau champ de métadonnées. |
+| fieldHandle | `xsd:string` | Oui | Gestion du nouveau champ de métadonnées. |
 
 ## Exemples {#section-4441c26d1f41466ba972b43dd5189e89}
 
-Cet exemple de code crée un champ de métadonnées limité par les constantes de chaîne Type de ressource et Types de champ de métadonnées . Si l’élément `fieldHandle` possède une valeur de gestion de champ valide, il modifie les valeurs de métadonnées et obtient le même nom de champ que celui spécifié dans la requête.
+Cet exemple de code crée un champ de métadonnées limité par les constantes de chaîne Type de ressource et Types de champ de métadonnées . Si la variable `fieldHandle` possède une valeur de gestion de champ valide, elle modifie les valeurs de métadonnées et obtient le même nom de champ que celui spécifié dans la requête.
 
 **Request**
 

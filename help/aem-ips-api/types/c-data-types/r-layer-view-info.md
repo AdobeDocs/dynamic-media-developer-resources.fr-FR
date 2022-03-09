@@ -2,13 +2,13 @@
 description: Propriétés d’affichage des calques.
 solution: Experience Manager
 title: LayerViewInfo
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 25199c86-1df0-41af-b210-e7668a60295e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 11%
+source-wordcount: '47'
+ht-degree: 12%
 
 ---
 
@@ -22,6 +22,6 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`url`*` | `xsd:string` | URL du serveur d’images qui représente le modèle. Combine les champs `urlModifier` et `urlPostAp- plyModifier`. |
-| `*`urlModifier`*` | `xsd:string` | Commandes du protocole de diffusion d’images à appliquer avant les commandes request ou `urlPostApplyModifier`. |
-| `*`urlPostApplyModifier`*` | `xsd:string` | Commandes du protocole de diffusion d’images à appliquer après les commandes `urlModifier` et de requête. |
+| url | `xsd:string` | URL du serveur d’images qui représente le modèle. Combinaisons `urlModifier` et `urlPostAp- plyModifier` champs. |
+| urlModifier | `xsd:string` | Commandes du protocole de diffusion d’images à appliquer avant la demande ou `urlPostApplyModifier` des commandes. |
+| urlPostApplyModifier | `xsd:string` | Commandes du protocole de diffusion d’images à appliquer après `urlModifier` et les commandes de requête. |

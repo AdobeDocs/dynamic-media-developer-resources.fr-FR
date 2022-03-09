@@ -2,12 +2,12 @@
 description: Obtient les journaux de tâches spécifiés pour la société sélectionnée. Vous pouvez trier par caractères, direction, dates de début et de fin et nombre de lignes.
 solution: Experience Manager
 title: getJobLogs
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6239c3c4-bdbc-4e69-82d4-48a76f080eff
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '184'
 ht-degree: 11%
 
 ---
@@ -36,19 +36,19 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Non | Le gérant de l&#39;entreprise. |
-| `*`userHandle`*` | `xsd:string` | Non | Obtient des journaux pour les tâches envoyées par un utilisateur spécifique. |
-| `*`sortBy`*` | `xsd:string` | Non | Permet de sélectionner des champs de tri. |
-| `*`sortDirection`*` | `xsd:string` | Non | Ordre de tri (croissant ou décroissant). |
-| `*`startDate`*` | `xsd:dateTime` | Non | Date et heure de début du journal de la tâche. Fournissez le fuseau horaire avec la requête pour ce champ. |
-| `*`endDate`*` | `xsd:dateTime` | Non | Date et heure de fin du journal de la tâche. Fournissez le fuseau horaire avec la requête pour ce champ. |
-| `*`numRows`*` | `xsd:int` | Non | Nombre maximal de lignes à renvoyer. |
+| companyHandle | `xsd:string` | Non | Le gérant de l&#39;entreprise. |
+| userHandle | `xsd:string` | Non | Obtient des journaux pour les tâches envoyées par un utilisateur spécifique. |
+| sortBy | `xsd:string` | Non | Permet de sélectionner des champs de tri. |
+| sortDirection | `xsd:string` | Non | Ordre de tri (croissant ou décroissant). |
+| startDate | `xsd:dateTime` | Non | Date et heure de début du journal de la tâche. Fournissez le fuseau horaire avec la requête pour ce champ. |
+| endDate | `xsd:dateTime` | Non | Date et heure de fin du journal de la tâche. Fournissez le fuseau horaire avec la requête pour ce champ. |
+| numRows | `xsd:int` | Non | Nombre maximal de lignes à renvoyer. |
 
 **Sortie (getJobLogsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`jobLogArray`*` | `types: JobLogArray` | Oui | Tableau des journaux de tâches. |
+| jobLogArray | `types: JobLogArray` | Oui | Tableau des journaux de tâches. |
 
 ## Exemples {#section-35871c94b4a44559912577efddbc46a6}
 

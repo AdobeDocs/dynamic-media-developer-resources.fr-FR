@@ -2,12 +2,12 @@
 description: Détermine si un lot de ressources est prêt à être publié.
 solution: Experience Manager
 title: setAssetsPublishState
-feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: dce324e4-cf86-4a65-ab00-8cd2bba20f8f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '151'
 ht-degree: 12%
 
 ---
@@ -37,18 +37,18 @@ Il s’agit de la version par lots de [setAssetState](../../../operations/c-oper
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société. |
-| `*`publishStateUpdateArray`*` | `types:PublishStateUpdateArray` | Oui | Tableau des valeurs d’état de publication des ressources. |
+| companyHandle | `xsd:string` | Oui | Poignée de la société. |
+| publishStateUpdateArray | `types:PublishStateUpdateArray` | Oui | Tableau des valeurs d’état de publication des ressources. |
 
 **Sortie (setAssetsPublishStateParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Oui | Nombre de ressources mises à jour avec succès. |
-| `*`warningCount`*` | `xsd:int` | Oui | Nombre de ressources ayant généré un avertissement lorsque l’opération tentait de les mettre à jour. |
-| `*`errorCount`*` | `xsd:int` | Oui | Nombre de ressources qui ont généré une erreur lorsque l’opération a tenté de les supprimer. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Non | Détails associés aux mises à jour de la ressource qui ont généré un avertissement. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Non | Détails associés aux mises à jour de la ressource qui ont généré une erreur. |
+| successCount | `xsd:int` | Oui | Nombre de ressources mises à jour avec succès. |
+| warningCount | `xsd:int` | Oui | Nombre de ressources ayant généré un avertissement lorsque l’opération tentait de les mettre à jour. |
+| errorCount | `xsd:int` | Oui | Nombre de ressources qui ont généré une erreur lorsque l’opération a tenté de les supprimer. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Non | Détails associés aux mises à jour de la ressource qui ont généré un avertissement. |
+| errorDetailArray | `types:AssetOperationFaultArray` | Non | Détails associés aux mises à jour de la ressource qui ont généré une erreur. |
 
 ## Exemples {#section-38cfdd3436214a06a1bae16875501d51}
 

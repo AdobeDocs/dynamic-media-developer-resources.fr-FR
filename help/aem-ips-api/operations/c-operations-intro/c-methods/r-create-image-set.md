@@ -2,13 +2,13 @@
 description: Crée une visionneuse d’images.
 solution: Experience Manager
 title: createImageSet
-feature: Dynamic Media Classic,SDK/API,Visionneuses d’images
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: 01ccc705-97e4-4e75-a322-e24bb78cb496
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 14%
+source-wordcount: '136'
+ht-degree: 15%
 
 ---
 
@@ -37,17 +37,17 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de la société à laquelle appartient la visionneuse d’images. |
-| `*`folderHandle`*` | `xsd:string` | Oui | Gestionnaire du dossier. |
-| `*`name`*` | `xsd:string` | Oui | Nom de la visionneuse d’images. |
-| `*`type`*` | `xsd:string` | Oui | Type de visionneuse d’images. |
-| `*`thumbAssetHandle`*` | `xsd:string` | Non | Gestion de la ressource qui agit comme miniature de la nouvelle visionneuse d’images. S’il n’est pas spécifié, IPS tente d’utiliser la première ressource d’image référencée par la visionneuse. |
+| companyHandle | `xsd:string` | Oui | Gestionnaire de la société à laquelle appartient la visionneuse d’images. |
+| folderHandle | `xsd:string` | Oui | Gestionnaire du dossier. |
+| name | `xsd:string` | Oui | Nom de la visionneuse d’images. |
+| type | `xsd:string` | Oui | Type de visionneuse d’images. |
+| thumbAssetHandle | `xsd:string` | Non | Gestion de la ressource qui agit comme miniature de la nouvelle visionneuse d’images. S’il n’est pas spécifié, IPS tente d’utiliser la première ressource d’image référencée par la visionneuse. |
 
 **Sortie**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Oui | Gestion de la nouvelle visionneuse d’images. |
+| assetHandle | `xsd:string` | Oui | Gestion de la nouvelle visionneuse d’images. |
 
 ## Exemples {#section-385fe3b0af8044b0a2451336ec137fc5}
 

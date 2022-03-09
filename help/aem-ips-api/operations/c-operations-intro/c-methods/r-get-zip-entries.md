@@ -2,13 +2,13 @@
 description: Renvoie les données du fichier zip.
 solution: Experience Manager
 title: getZipEntries
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: eb052685-b750-4a12-b00e-28e676340e98
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 21%
+source-wordcount: '70'
+ht-degree: 22%
 
 ---
 
@@ -36,14 +36,14 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de la société qui contient le fichier ZIP. |
-| `*`assetHandle`*` | `xsd:string` | Oui | Gérez le fichier zip. |
+| companyHandle | `xsd:string` | Oui | Gestionnaire de la société qui contient le fichier ZIP. |
+| assetHandle | `xsd:string` | Oui | Gérez le fichier zip. |
 
 **Sortie (getZipEntriesReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`zipArray`*` | `types:ZipEntryArray` | Oui | Tableau d’entrées dans un fichier Zip. |
+| zipArray | `types:ZipEntryArray` | Oui | Tableau d’entrées dans un fichier Zip. |
 
 ## Exemples {#section-1fc0ad8fa448492cb5a135d3e3d161ac}
 

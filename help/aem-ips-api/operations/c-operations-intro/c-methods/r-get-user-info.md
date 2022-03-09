@@ -2,13 +2,13 @@
 description: Obtient des informations sur un utilisateur. Utilisez l’adresse électronique et le mot de passe d’un utilisateur système comme informations d’identification pour autoriser la requête. Sinon, l’opération obtient des informations sur l’utilisateur par défaut.
 solution: Experience Manager
 title: getUserInfo
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1981f25f-779e-4434-ab6b-0debb40521fe
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 11%
+source-wordcount: '139'
+ht-degree: 12%
 
 ---
 
@@ -36,14 +36,14 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Non | Gérer l’utilisateur dont vous souhaitez renvoyer les informations. |
-| `*`e-mail`*` | `xsd:string` | Non | Adresse électronique de l’utilisateur. |
+| userHandle | `xsd:string` | Non | Gérer l’utilisateur dont vous souhaitez renvoyer les informations. |
+| e-mail | `xsd:string` | Non | Adresse électronique de l’utilisateur. |
 
 **Sortie (getUserInfoReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`userInfo`*` | `types:User` | Oui | Prénom, nom, adresse électronique et rôle d’un utilisateur, ainsi que la validité et l’expiration du mot de passe de l’utilisateur. |
+| userInfo | `types:User` | Oui | Prénom, nom, adresse électronique et rôle d’un utilisateur, ainsi que la validité et l’expiration du mot de passe de l’utilisateur. |
 
 ## Exemples {#section-98d77a2e360a438dbe240099bea26a65}
 

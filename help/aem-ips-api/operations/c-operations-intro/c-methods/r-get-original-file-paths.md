@@ -2,13 +2,13 @@
 description: Obtient les chemins d’accès aux fichiers d’origine des ressources d’une entreprise.
 solution: Experience Manager
 title: getOriginalFilePaths
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 81d06a8c-55c1-47d5-adc9-928ab30199c6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 15%
+source-wordcount: '99'
+ht-degree: 16%
 
 ---
 
@@ -38,14 +38,14 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | La poignée de la société. |
-| `*`assetHandleArray`*` | `types:HandleArray` | Oui | Tableau de gestionnaires des ressources dont vous souhaitez obtenir le chemin d’accès au fichier d’origine. |
+| companyHandle | `xsd:string` | Oui | La poignée de la société. |
+| assetHandleArray | `types:HandleArray` | Oui | Tableau de gestionnaires des ressources dont vous souhaitez obtenir le chemin d’accès au fichier d’origine. |
 
 **Sortie (getOriginalFilePathsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`originalFileArray`*` | `types:StringArray` | Oui | Tableau de chaînes représentant les chemins d’accès aux fichiers d’origine. |
+| originalFileArray | `types:StringArray` | Oui | Tableau de chaînes représentant les chemins d’accès aux fichiers d’origine. |
 
 ## Exemples {#section-a966e783a2ba49f5b6b0f961329ab2f8}
 

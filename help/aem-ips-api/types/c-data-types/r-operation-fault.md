@@ -2,13 +2,13 @@
 description: Message détaillé répondant à l’une des URL fournies dans la requête d’invalidation du réseau CDN.
 solution: Experience Manager
 title: OperationFault
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e1fa7f66-f9d9-45cd-a9b3-d0ff344b137d
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 11%
+source-wordcount: '49'
+ht-degree: 12%
 
 ---
 
@@ -24,5 +24,5 @@ Message détaillé répondant à l’une des URL fournies dans la requête d’i
 
 | ** Nom** | ** Type** | ** Description** |
 |---|---|---|
-| `*`code`*` | `xsd:int` | Code d’erreur fourni à partir du CDN |
-| `*`motif`*` | `xsd:string` | Message d’erreur fourni par le réseau de diffusion de contenu |
+| code | `xsd:int` | Code d’erreur fourni à partir du CDN |
+| motif | `xsd:string` | Message d’erreur fourni par le réseau de diffusion de contenu |

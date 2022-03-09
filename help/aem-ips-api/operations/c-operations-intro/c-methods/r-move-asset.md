@@ -2,13 +2,13 @@
 description: Déplace une ressource vers un dossier spécifique.
 solution: Experience Manager
 title: moveAsset
-feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: c5357c1a-92ac-4f9c-957e-b62cb812796c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 15%
+source-wordcount: '76'
+ht-degree: 17%
 
 ---
 
@@ -33,9 +33,9 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Gérer la société. |
-| `*`assetHandle`*` | `xsd:string` | Oui | Gérez la ressource à déplacer. |
-| `*`folderHandle`*` | `xsd:string` | Oui | Gérer vers le dossier de destination. |
+| companyHandle | `xsd:string` | Oui | Gérer la société. |
+| assetHandle | `xsd:string` | Oui | Gérez la ressource à déplacer. |
+| folderHandle | `xsd:string` | Oui | Gérer vers le dossier de destination. |
 
 **Sortie (moveAssetReturn)**
 

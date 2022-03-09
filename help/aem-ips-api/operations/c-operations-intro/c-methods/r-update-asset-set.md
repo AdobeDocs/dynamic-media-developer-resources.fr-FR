@@ -2,13 +2,13 @@
 description: Met à jour un jeu de ressources.
 solution: Experience Manager
 title: updateAssetSet
-feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: af7899c4-a95f-42c8-858e-ed1592c6f5b6
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 20%
+source-wordcount: '77'
+ht-degree: 22%
 
 ---
 
@@ -24,10 +24,10 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de la société qui contient la visionneuse d’images à modifier. |
-| `*`assetHandle`*` | `xsd:string` | Oui | La poignée de la visionneuse d’images que vous souhaitez modifier. |
-| `*`setDefinition`*` | `xsd:string` | Non | Réinitialise les membres de la visionneuse d’images. |
-| `*`thumbAssetHandle`*` | `xsd:string` | Non | Gestionnaire de la ressource qui agit comme miniature de la visionneuse d’images. |
+| companyHandle | `xsd:string` | Oui | Gestionnaire de la société qui contient la visionneuse d’images à modifier. |
+| assetHandle | `xsd:string` | Oui | La poignée de la visionneuse d’images que vous souhaitez modifier. |
+| setDefinition | `xsd:string` | Non | Réinitialise les membres de la visionneuse d’images. |
+| thumbAssetHandle | `xsd:string` | Non | Gestionnaire de la ressource qui agit comme miniature de la visionneuse d’images. |
 
 **Sortie (updateAssetSetReturn)**
 

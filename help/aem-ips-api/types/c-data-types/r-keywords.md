@@ -2,13 +2,13 @@
 description: Mots-clés
 solution: Experience Manager
 title: Mots-clés
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 5eb9ca70-5971-412d-92d1-4e9898d556fd
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '46'
-ht-degree: 32%
+source-wordcount: '41'
+ht-degree: 36%
 
 ---
 
@@ -20,9 +20,9 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`mot-clé`*` | `xsd:string` | Mot-clé. |
-| `*`état`*` | `xsd:boolean` | Validité des mots-clés. |
-| `*`x`*` | `xsd:int` | Position du mot-clé sur l’axe X (en pixels). |
-| `*`y`*` | `xsd:int` | Position du mot-clé sur l’axe des ordonnées (en pixels). |
-| `*`width`*` | `xsd:int` | Largeur du mot-clé en pixels. |
-| `*`height`*` | `xsd:int` | Hauteur du mot-clé en pixels. |
+| mot-clé | `xsd:string` | Mot-clé. |
+| état | `xsd:boolean` | Validité des mots-clés. |
+| x | `xsd:int` | Position du mot-clé sur l’axe X (en pixels). |
+| y | `xsd:int` | Position du mot-clé sur l’axe des ordonnées (en pixels). |
+| largeur | `xsd:int` | Largeur du mot-clé en pixels. |
+| hauteur | `xsd:int` | Hauteur du mot-clé en pixels. |

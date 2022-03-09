@@ -2,12 +2,12 @@
 description: Les ensembles de propriétés sont des ensembles de paires nom-valeur spécifiques à l’application qui peuvent être joints à divers objets IPS, selon le type de jeu de propriétés. Si le type de jeu de propriétés ne permet pas que plusieurs jeux soient joints à un objet (PropertySetType/allowMultipleisfalse) et que l’objet a déjà un jeu associé du même type, le nouveau jeu remplace celui existant.
 solution: Experience Manager
 title: createPropertySet
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e9f85e65-4a2f-4b82-b7b8-d0d60b8345cd
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '215'
 ht-degree: 8%
 
 ---
@@ -31,17 +31,17 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`typeHandle`*` | `xsd:string` | Oui | La gestion du type de jeu de propriétés. |
-| `*`primaryOwnerHandle`*` | `xsd:string` | Oui | Gestionnaire du propriétaire Principal de l’ensemble de propriétés. |
-| `*`secondaryOwnerHandle`*` | `xsd:string` | Non | Gestionnaire du propriétaire secondaire du jeu de propriétés. |
-| `*`propertyArray`*` | `types:PropertyArray` | Oui | Tableau de propriétés. |
-| `*`permissionArray`*` | `types:PermissionUpdateArray` |  |  |
+| typeHandle | `xsd:string` | Oui | La gestion du type de jeu de propriétés. |
+| primaryOwnerHandle | `xsd:string` | Oui | Gestionnaire du propriétaire Principal de l’ensemble de propriétés. |
+| secondaryOwnerHandle | `xsd:string` | Non | Gestionnaire du propriétaire secondaire du jeu de propriétés. |
+| propertyArray | `types:PropertyArray` | Oui | Tableau de propriétés. |
+| permissionArray | `types:PermissionUpdateArray` |  |  |
 
 **Sortie (createPropertySetParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`setHandle`*` | `xsd:string` | Oui | La gestion du nouveau jeu de propriétés. |
+| setHandle | `xsd:string` | Oui | La gestion du nouveau jeu de propriétés. |
 
 ## Exemples {#section-4e1f5b2883664bc88f590fcd253df22b}
 

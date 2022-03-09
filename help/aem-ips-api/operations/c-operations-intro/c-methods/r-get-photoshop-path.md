@@ -2,13 +2,13 @@
 description: Renvoie les coordonnées du quadrilatère englobant le chemin Photoshop nommé.
 solution: Experience Manager
 title: getPhotoshopPath
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 46d88547-bb60-4370-9c79-bd281b40ba28
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 18%
+source-wordcount: '86'
+ht-degree: 19%
 
 ---
 
@@ -35,15 +35,15 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Gérer l’entreprise avec l’image que vous souhaitez utiliser. |
-| `*`assetHandle`*` | `xsd:string` | Oui | Gérer la ressource image. |
-| `*`pathName`*` | `xsd:string` | Oui | Nom du chemin Photoshop que vous souhaitez renvoyer. |
+| companyHandle | `xsd:string` | Oui | Gérer l’entreprise avec l’image que vous souhaitez utiliser. |
+| assetHandle | `xsd:string` | Oui | Gérer la ressource image. |
+| pathName | `xsd:string` | Oui | Nom du chemin Photoshop que vous souhaitez renvoyer. |
 
 **Sortie (getPhotoshopPathReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`perspectiveQuad`*` | `types:PerspectiveQuad` | Oui | Renvoie les coordonnées de l’image en fonction du chemin d’accès. Voir [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204). |
+| perspectiveQuad | `types:PerspectiveQuad` | Oui | Renvoie les coordonnées de l’image en fonction du chemin d’accès. Voir [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204). |
 
 ## Exemples {#section-1f0461cbdc184c8d8925336d5279db47}
 

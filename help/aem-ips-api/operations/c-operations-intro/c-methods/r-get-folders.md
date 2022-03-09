@@ -2,12 +2,12 @@
 description: Renvoie tous les dossiers et sous-dossiers, en commençant par le chemin du dossier. La réponse getFolders renvoie un maximum de 100 000 dossiers.
 solution: Experience Manager
 title: getFolders
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 71fe3343-2560-4d74-8ec3-1229d83a62e1
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '237'
 ht-degree: 8%
 
 ---
@@ -43,20 +43,20 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | La poignée de la société. |
-| `*`accessUserHandle`*` | `xsd:string` | Non | Utilisé par les administrateurs pour emprunter l’identité d’un utilisateur spécifique. |
-| `*`accessGroupHandle`*` | `xsd:string` | Non | Filtrez selon un groupe spécifique. |
-| `*`folderPath`*` | `xsd:string` | Non | Le dossier racine pour récupérer les dossiers et tous les sous-dossiers au niveau de la feuille. Si elle est exclue, la racine de l’entreprise est utilisée. |
-| `*`assetTypeArray`*` | `types:StringArray` | Non | Renvoie les dossiers contenant uniquement des types de ressources spécifiés. |
-| `*`responseFieldArray`*` | `types:StringArray` | Non | Contient la liste des champs que vous souhaitez inclure dans la réponse. |
-| `*`excludeFieldArray`*` | `types:StringArray` | Non | Contient une liste des champs que vous souhaitez exclure de la réponse. |
+| companyHandle | `xsd:string` | Oui | La poignée de la société. |
+| accessUserHandle | `xsd:string` | Non | Utilisé par les administrateurs pour emprunter l’identité d’un utilisateur spécifique. |
+| accessGroupHandle | `xsd:string` | Non | Filtrez selon un groupe spécifique. |
+| folderPath | `xsd:string` | Non | Le dossier racine pour récupérer les dossiers et tous les sous-dossiers au niveau de la feuille. Si elle est exclue, la racine de l’entreprise est utilisée. |
+| assetTypeArray | `types:StringArray` | Non | Renvoie les dossiers contenant uniquement des types de ressources spécifiés. |
+| responseFieldArray | `types:StringArray` | Non | Contient la liste des champs que vous souhaitez inclure dans la réponse. |
+| excludeFieldArray | `types:StringArray` | Non | Contient une liste des champs que vous souhaitez exclure de la réponse. |
 
 **Sortie (getFoldersReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`folderArray`*` | `types:FolderArray` | Non | Tableau de dossiers correspondant aux critères de filtrage. La réponse est limitée à 100 000 dossiers au maximum. |
-| `*`permissionsSetArray`*` | `types:PermissionSetArray` |  |  |
+| folderArray | `types:FolderArray` | Non | Tableau de dossiers correspondant aux critères de filtrage. La réponse est limitée à 100 000 dossiers au maximum. |
+| permissionsSetArray | `types:PermissionSetArray` |  |  |
 
 ## Exemples {#section-b5cb06e9fb9945ad898dbdc3692b754e}
 

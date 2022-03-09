@@ -2,13 +2,13 @@
 description: Obtient une liste des principaux contextes de publication pour la société spécifiée. Un contexte de publication est considéré comme principal s’il existe au moins un serveur principal défini pour le contexte.
 solution: Experience Manager
 title: getActivePublishContext
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9f450263-6877-4b32-a71a-8f67b0537a69
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 10%
+source-wordcount: '108'
+ht-degree: 11%
 
 ---
 
@@ -36,10 +36,10 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Gestion de l’entreprise pour interroger les principaux contextes de publication |
+| companyHandle | `xsd:string` | Oui | Gestion de l’entreprise pour interroger les principaux contextes de publication |
 
 **Sortie (getActivePublishContextsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`contextArray`*` | `types:StringArray` | Oui | Tableau de principaux contextes de publication, qui peut inclure aucune ou plusieurs valeurs du contexte de publication. |
+| contextArray | `types:StringArray` | Oui | Tableau de principaux contextes de publication, qui peut inclure aucune ou plusieurs valeurs du contexte de publication. |

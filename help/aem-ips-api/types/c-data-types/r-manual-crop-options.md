@@ -2,13 +2,13 @@
 description: Options de recadrage manuel pour les images.
 solution: Experience Manager
 title: ManualCropOptions
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 829147b9-de78-4e8f-814c-ed44f714cb2e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 14%
+source-wordcount: '57'
+ht-degree: 15%
 
 ---
 
@@ -22,7 +22,7 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`gauche`*` | `xsd:int` | Position gauche du recadrage manuel en pixels. |
-| `*`droite`*` | `xsd:int` | Position appropriée du recadrage manuel en pixels. |
-| `*`haut`*` | `xsd:int` | Position supérieure du recadrage manuel en pixels. |
-| `*`bas`*` | `xsd:int` | Position inférieure du recadrage manuel en pixels. |
+| gauche | `xsd:int` | Position gauche du recadrage manuel en pixels. |
+| droite | `xsd:int` | Position appropriée du recadrage manuel en pixels. |
+| haut | `xsd:int` | Position supérieure du recadrage manuel en pixels. |
+| bas | `xsd:int` | Position inférieure du recadrage manuel en pixels. |

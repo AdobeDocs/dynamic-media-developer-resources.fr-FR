@@ -2,13 +2,13 @@
 description: Renvoie l’historique de publication d’une ressource.
 solution: Experience Manager
 title: getAssetPublishHistory
-feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: f337e7f9-1af6-4164-b9bd-e697548e2850
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 16%
+source-wordcount: '89'
+ht-degree: 17%
 
 ---
 
@@ -36,14 +36,14 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Gestion de l’entreprise avec l’historique de publication des ressources. |
-| `*`assetHandle`*` | `xsd:string` | Oui | La ressource avec l’historique de publication que vous souhaitez examiner. |
+| companyHandle | `xsd:string` | Oui | Gestion de l’entreprise avec l’historique de publication des ressources. |
+| assetHandle | `xsd:string` | Oui | La ressource avec l’historique de publication que vous souhaitez examiner. |
 
 **Sortie (getAssetPublishHistoryReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`pubHistoryArray`*` | `types:PublishHistoryArray` | Oui | Historique de publication de la ressource. |
+| pubHistoryArray | `types:PublishHistoryArray` | Oui | Historique de publication de la ressource. |
 
 ## Exemples {#section-53897c51e5a047c5bd5ea5a6efb2d114}
 

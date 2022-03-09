@@ -2,13 +2,13 @@
 description: Obtient les valeurs string des propriétés système liées à Image Portal.
 solution: Experience Manager
 title: getProperty
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2297b785-28c7-49c6-8891-00986f35ea88
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 10%
+source-wordcount: '132'
+ht-degree: 12%
 
 ---
 
@@ -22,10 +22,10 @@ Les propriétés système prises en charge sont les suivantes :
 * `IpsImageServerUrl`: Préfixe d’URL externe complet pour le serveur d’images IPS.
 * `VideoRootUrl`
 * `swfRootUrl`
-* `SvgRenderRootUrl`: Préfixe d’URL pour le rendu des ressources SVG.
-* `SvgRenderEnabled`: True si les ressources SVG peuvent être générées par  `SvgRenderRootUrl`.
+* `SvgRenderRootUrl`: Préfixe d’URL pour le rendu des ressources du SVG.
+* `SvgRenderEnabled`: True si les ressources SVG peuvent être rendues par `SvgRenderRootUrl`.
 
-* `UploadPostMaxFileSize`: Taille maximale (en octets) des données de fichier autorisées dans un chargement  [!DNL POST]. Le système rejette les fichiers dont la taille est supérieure à la limite maximale.
+* `UploadPostMaxFileSize`: Taille maximale (en octets) des données de fichier autorisées dans un chargement [!DNL POST]. Le système rejette les fichiers dont la taille est supérieure à la limite maximale.
 
 ## Types d’utilisateurs autorisés {#section-2cd36bbd46ed414b8753569d5895530e}
 
@@ -45,13 +45,13 @@ Les propriétés système prises en charge sont les suivantes :
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`name`*` | `xsd:string` | Oui | Nom de la propriété à obtenir. |
+| name | `xsd:string` | Oui | Nom de la propriété à obtenir. |
 
 **Sortie (getPropertyReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`value`*` | `xsd:string` | Oui | La valeur de la propriété. |
+| valeur | `xsd:string` | Oui | La valeur de la propriété. |
 
 ## Exemples {#section-3f80a78dd60c404181b34d3a912d7a36}
 

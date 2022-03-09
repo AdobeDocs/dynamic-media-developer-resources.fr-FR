@@ -2,12 +2,12 @@
 description: Obtient les ressources et le nombre de ressources associées à une société spécifique.
 solution: Experience Manager
 title: getAssetCounts
-feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 21cb8023-d6fe-416a-b16f-636df8a37958
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '141'
 ht-degree: 10%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 Obtient les ressources et le nombre de ressources associées à une société spécifique.
 
-`countArray` renvoyé est constitué d’un tableau de `assetTypes` (type de données `xsd:string`), chacun ayant son propre champ de comptage (type de données `xsd:int`), permettant de représenter plusieurs types de ressources par élément du tableau.
+Le `countArray` renvoyé se compose d’un tableau de `assetTypes` (type de données `xsd:string`), chacune ayant son propre champ de comptage (type de données `xsd:int`), permettant la représentation de plusieurs types de ressources par élément du tableau .
 Syntaxe
 
 ## Types d’utilisateurs autorisés {#section-6234754722184e828352f10eb18fbce9}
@@ -37,17 +37,17 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Gestion de l’entreprise avec les ressources que vous souhaitez compter. |
+| companyHandle | `xsd:string` | Oui | Gestion de l’entreprise avec les ressources que vous souhaitez compter. |
 
 **Sortie (getAssetCountsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`countArray`*` | `types:AssetCountArray` | Non | Tableau de types de ressources, chacun avec son propre champ de comptage, permettant de représenter plusieurs types de ressources par élément du tableau. |
+| countArray | `types:AssetCountArray` | Non | Tableau de types de ressources, chacun avec son propre champ de comptage, permettant de représenter plusieurs types de ressources par élément du tableau. |
 
 ## Exemples {#section-6052a503eb3843f6adb99e200fdba280}
 
-Cet exemple de code utilise le nom d’utilisateur de la société comme champ dans la balise `getAssetCountsParam` envoyée au serveur des services Web IPS afin d’obtenir le nombre de ressources.
+Cet exemple de code utilise le nom d’utilisateur de l’entreprise comme champ dans la variable `getAssetCountsParam` envoyé au serveur des services Web IPS pour obtenir le nombre de ressources.
 
 **Request**
 

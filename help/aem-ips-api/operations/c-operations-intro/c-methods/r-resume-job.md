@@ -2,13 +2,13 @@
 description: Redémarre une tâche suspendue.
 solution: Experience Manager
 title: resumeJob
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ba8818ff-3040-463c-80d3-b7cfd1e01f77
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 16%
+source-wordcount: '67'
+ht-degree: 17%
 
 ---
 
@@ -35,8 +35,8 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | La gestion de la société avec la tâche que vous souhaitez redémarrer. |
-| `*`jobHandle`*` | `xsd:string` | Oui | Gestion de la tâche suspendue. |
+| companyHandle | `xsd:string` | Oui | La gestion de la société avec la tâche que vous souhaitez redémarrer. |
+| jobHandle | `xsd:string` | Oui | Gestion de la tâche suspendue. |
 
 **Sortie (resumeJobReturn)**
 

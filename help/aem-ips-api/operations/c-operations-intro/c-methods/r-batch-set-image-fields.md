@@ -2,12 +2,12 @@
 description: Définit des champs spécifiques à l’image pour une ou plusieurs ressources d’image.
 solution: Experience Manager
 title: batchSetImageFields
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 8ea6dbb8-4d32-43e5-961f-31110f983663
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '192'
 ht-degree: 10%
 
 ---
@@ -33,18 +33,18 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de la société qui contient les ressources d’image. |
-| `*`updateArray`*` | `types:ImageFieldUpdateArray` | Oui | Le tableau des mises à jour des champs d’image. |
+| companyHandle | `xsd:string` | Oui | Gestionnaire de la société qui contient les ressources d’image. |
+| updateArray | `types:ImageFieldUpdateArray` | Oui | Le tableau des mises à jour des champs d’image. |
 
 **Sortie (batchSetImageFields)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Oui | Nombre de champs d’image correctement définis. |
-| `*`warningCount`*` | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de définir les champs de l’image. |
-| `*`errorCount`*` | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de définir les champs de l’image. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau de détails associés aux ressources qui ont généré des avertissements lorsque l’opération a tenté d’appliquer les mises à jour. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des erreurs lorsque l’opération a tenté d’appliquer les mises à jour. |
+| successCount | `xsd:int` | Oui | Nombre de champs d’image correctement définis. |
+| warningCount | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de définir les champs de l’image. |
+| errorCount | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de définir les champs de l’image. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Non | Tableau de détails associés aux ressources qui ont généré des avertissements lorsque l’opération a tenté d’appliquer les mises à jour. |
+| errorDetailArray | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des erreurs lorsque l’opération a tenté d’appliquer les mises à jour. |
 
 ## Exemples {#section-0476e3d6516a4f8bbaac9de983bc6d1e}
 

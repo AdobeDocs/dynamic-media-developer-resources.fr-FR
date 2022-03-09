@@ -5,7 +5,7 @@ title: createPropertySetType
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1730ccbf-e8b0-4f92-9daf-da2fa047cbbd
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 12%
@@ -31,16 +31,16 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Non | Gestionnaire de l’entreprise propriétaire du type de jeu de propriétés. If `companyHandle` n’est pas transmis et l’appelant est un `IpsAdmin`, un type de jeu de propriétés global est créé. |
-| `*`name`*` | `xsd:string` | Oui | Nom du type de jeu de propriétés. |
-| `*`propertyType`*` | `xsd:string` | Oui | Choix des types de jeux de propriétés. |
-| `*`allowMultiple`*` | `xsd:boolean` | Oui | Détermine si votre programme peut comporter plusieurs ensembles de propriétés. |
+| companyHandle | `xsd:string` | Non | Gestionnaire de l’entreprise propriétaire du type de jeu de propriétés. If `companyHandle` n’est pas transmis et l’appelant est un `IpsAdmin`, un type de jeu de propriétés global est créé. |
+| name | `xsd:string` | Oui | Nom du type de jeu de propriétés. |
+| propertyType | `xsd:string` | Oui | Choix des types de jeux de propriétés. |
+| allowMultiple | `xsd:boolean` | Oui | Détermine si votre programme peut comporter plusieurs ensembles de propriétés. |
 
 **Sortie (createPropertySetTypeReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`typeHandle`*` | `xsd:string` | Oui | Poignée au type . |
+| typeHandle | `xsd:string` | Oui | Poignée au type . |
 
 ## Exemples {#section-13396c9639a6475190e622eae3cdb534}
 

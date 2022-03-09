@@ -5,7 +5,7 @@ title: createDerivedAsset
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: a3b20a8a-ed0d-40be-9a8c-41ba09b1d724
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 8%
@@ -39,19 +39,19 @@ Contrairement à une copie d’image (voir [copyImage](../../../operations/c-ope
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de la société qui contient la ressource à partir de laquelle vous dérirez la nouvelle ressource. |
-| `*`ownerHandle`*` | `xsd:string` | Oui | Gestion de la ressource d’image Principale à partir de laquelle la nouvelle image est dérivée. |
-| `*`folderHandle`*` | `xsd:string` | Oui | Gestion du dossier dans lequel la nouvelle ressource dérivée est créée. |
-| `*`name`*` | `xsd:string` | Oui | Nom de la ressource dérivée. |
-| `*`type`*` | `xsd:string` | Oui | Type de ressource de la nouvelle ressource dérivée : `AdjustedView` ou `LayerView`. |
-| `*`urlModifier`*` | `xsd:string` | Non | Commandes de protocole de traitement d’images ou de rendu d’images appliquées *before* la demande ou `urlPostApplyModifier` des commandes. |
-| `*`urlPostApplyModifier`*` | `xsd:string` | Non | Commandes de protocole de traitement d’images ou de rendu d’images appliquées *after* à la requête ou `urlPostApplyModifier` des commandes. |
+| companyHandle | `xsd:string` | Oui | Gestionnaire de la société qui contient la ressource à partir de laquelle vous dérirez la nouvelle ressource. |
+| ownerHandle | `xsd:string` | Oui | Gestion de la ressource d’image Principale à partir de laquelle la nouvelle image est dérivée. |
+| folderHandle | `xsd:string` | Oui | Gestion du dossier dans lequel la nouvelle ressource dérivée est créée. |
+| name | `xsd:string` | Oui | Nom de la ressource dérivée. |
+| type | `xsd:string` | Oui | Type de ressource de la nouvelle ressource dérivée : `AdjustedView` ou `LayerView`. |
+| urlModifier | `xsd:string` | Non | Commandes de protocole de traitement d’images ou de rendu d’images appliquées *before* la demande ou `urlPostApplyModifier` des commandes. |
+| urlPostApplyModifier | `xsd:string` | Non | Commandes de protocole de traitement d’images ou de rendu d’images appliquées *after* à la requête ou `urlPostApplyModifier` des commandes. |
 
 **Sortie (createDerivedAssetParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`assetHandle`*` | `xsd:string` | Oui | Gestion de la ressource dérivée. |
+| assetHandle | `xsd:string` | Oui | Gestion de la ressource dérivée. |
 
 ## Exemples {#section-5d5ea893a1ef4edc8b3a396f1936e8c9}
 

@@ -2,13 +2,13 @@
 description: Définit l’appartenance d’un utilisateur à une ou plusieurs sociétés.
 solution: Experience Manager
 title: setCompanyMembership
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 43144c75-1d83-4e1d-8319-c3275d349a2f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 14%
+source-wordcount: '76'
+ht-degree: 15%
 
 ---
 
@@ -31,8 +31,8 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:sting` | Non | Identifiant utilisateur. |
-| `*`membershipArray`*` | `types:CompanyMembershipUpdateArray` | Oui | Tableau d&#39;entreprises. |
+| userHandle | `xsd:sting` | Non | Identifiant utilisateur. |
+| membershipArray | `types:CompanyMembershipUpdateArray` | Oui | Tableau d&#39;entreprises. |
 
 **Sortie (setCompanyMembershipParam)**
 

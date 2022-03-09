@@ -2,13 +2,13 @@
 description: Déplacez un dossier vers un nouvel emplacement.
 solution: Experience Manager
 title: moveFolder
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fa31c2d8-912c-4965-8535-cae42f4fcfd9
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 26%
+source-wordcount: '60'
+ht-degree: 28%
 
 ---
 
@@ -33,15 +33,15 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Gérer la société. |
-| `*`folderHandle`*` | `xsd:string` | Oui | Poignée de dossier. |
-| `*`destFolderHandle`*` | `xsd:string` | Oui | Gérer vers le dossier de destination. |
+| companyHandle | `xsd:string` | Oui | Gérer la société. |
+| folderHandle | `xsd:string` | Oui | Poignée de dossier. |
+| destFolderHandle | `xsd:string` | Oui | Gérer vers le dossier de destination. |
 
 **Sortie (moveFolderReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`folderHandle`*` | `xsd:string` | Oui | Gérer au dossier déplacé. |
+| folderHandle | `xsd:string` | Oui | Gérer au dossier déplacé. |
 
 ## Exemples {#section-6571c6ab89ce4cb9a139abdb29c6b279}
 

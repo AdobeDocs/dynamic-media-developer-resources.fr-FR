@@ -2,13 +2,13 @@
 description: Propriétés d’un fichier Word.
 solution: Experience Manager
 title: WordInfo
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 998988bc-4842-4153-8b6a-af21a80c4e8b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 22%
+source-wordcount: '26'
+ht-degree: 26%
 
 ---
 
@@ -22,6 +22,6 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`originalPath`*` | `xsd:string` | Chemin du fichier. |
-| `*`originalFile`*` | `xsd:string` | Nom du fichier. |
-| `*`fileSize`*` | `xsd:int` | Taille du fichier. |
+| originalPath | `xsd:string` | Chemin du fichier. |
+| originalFile | `xsd:string` | Nom du fichier. |
+| fileSize | `xsd:int` | Taille du fichier. |

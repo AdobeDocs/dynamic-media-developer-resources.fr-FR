@@ -2,13 +2,13 @@
 description: Définit l’appartenance à un groupe pour un utilisateur.
 solution: Experience Manager
 title: setGroupMembership
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0a355a34-1c2d-48c1-ba12-7d07d1673d09
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 12%
+source-wordcount: '96'
+ht-degree: 13%
 
 ---
 
@@ -30,9 +30,9 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`userHandle`*` | `xsd:string` | Non | Gestionnaire de l’utilisateur dont vous souhaitez définir l’appartenance à un groupe. |
-| `*`companyHandle`*` | `xsd:string` | Non | Poignée de la société. |
-| `*`groupHandleArray`*` | `types:HandleArray` | Oui | Le tableau de gestionnaires aux groupes auxquels l’utilisateur doit appartenir. |
+| userHandle | `xsd:string` | Non | Gestionnaire de l’utilisateur dont vous souhaitez définir l’appartenance à un groupe. |
+| companyHandle | `xsd:string` | Non | Poignée de la société. |
+| groupHandleArray | `types:HandleArray` | Oui | Le tableau de gestionnaires aux groupes auxquels l’utilisateur doit appartenir. |
 
 **Sortie (setGroupMembershipReturn)**
 

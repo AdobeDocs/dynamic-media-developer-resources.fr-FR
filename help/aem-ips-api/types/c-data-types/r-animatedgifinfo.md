@@ -1,20 +1,20 @@
 ---
-description: Propriétés d’une ressource de fichier GIF animé.
-solution: Experience Manager
 title: AnimatedGifInfo
-feature: Dynamic Media Classic, SDK/API
+description: Propriétés d’une ressource de fichier de GIF animé.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b50b39b4-3055-43e3-a8bb-50f8b2f0d1fc
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 28%
+source-wordcount: '55'
+ht-degree: 30%
 
 ---
 
 # AnimatedGifInfo{#animatedgifinfo}
 
-Propriétés d’une ressource de fichier GIF animé.
+Propriétés d’une ressource de fichier de GIF animé.
 
 Syntaxe
 
@@ -32,7 +32,7 @@ Syntaxe
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> originalPath</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>Chemin d’accès au fichier GIF. </p> </td> 
+   <td colname="col3"> <p>Chemin d’accès au fichier de GIF. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> originalFile</span> </span> </p> </td> 

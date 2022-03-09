@@ -2,13 +2,13 @@
 description: Obtient toutes les valeurs du dictionnaire de balises définies pour un ou plusieurs champs de balise.
 solution: Experience Manager
 title: getTagFieldValues
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 12836783-4f9d-41d3-9b42-6e25238d7ed5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 17%
+source-wordcount: '85'
+ht-degree: 18%
 
 ---
 
@@ -36,14 +36,14 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de la société contenant le champ de balise. |
-| `*`fieldHandleArray`*` | `types:HandleArray` | Oui | Un tableau de champs gère les valeurs de balise que vous souhaitez renvoyer. |
+| companyHandle | `xsd:string` | Oui | Gestionnaire de la société contenant le champ de balise. |
+| fieldHandleArray | `types:HandleArray` | Oui | Un tableau de champs gère les valeurs de balise que vous souhaitez renvoyer. |
 
 **Sortie (getTagFieldValuesReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`fieldArray`*` | `types:TagFieldValuesArray` | Oui | Tableau des valeurs de balise dans le dictionnaire pour chaque champ demandé. |
+| fieldArray | `types:TagFieldValuesArray` | Oui | Tableau des valeurs de balise dans le dictionnaire pour chaque champ demandé. |
 
 ## Exemples {#section-4492742614e44bb191a7d397dc1a1407}
 

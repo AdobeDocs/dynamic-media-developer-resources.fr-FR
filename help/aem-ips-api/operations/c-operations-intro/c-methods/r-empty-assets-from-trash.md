@@ -1,14 +1,14 @@
 ---
+title: emptyAssetsFromTrash
 description: Empêche les ressources de la corbeille IPS.
 solution: Experience Manager
-title: emptyAssetsFromTrash
-feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 36866dc8-6a16-4445-942f-d0ea3c168272
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 7%
+source-wordcount: '258'
+ht-degree: 8%
 
 ---
 
@@ -26,7 +26,6 @@ Les ressources vivent dans la corbeille jusqu’à ce qu’elles soient vidées 
 * `ImagePortalAdmin`
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
-* &quot;
 
 ## Paramètres {#section-8e1fb0ee3aae453581e99ef76e298569}
 
@@ -34,18 +33,18 @@ Les ressources vivent dans la corbeille jusqu’à ce qu’elles soient vidées 
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de l’entreprise propriétaire des actifs. |
-| `*`assetHandleArray`*` | `types:HandleArray` | Oui | Tableau de poignées représentant les éléments à vider de la corbeille. |
+| companyHandle | xsd:string | Oui | Gestionnaire de l’entreprise propriétaire des actifs. |
+| assetHandleArray | types:HandleArray | Oui | Tableau de poignées représentant les éléments à vider de la corbeille. |
 
 **Sortie (emptyAssetsFromTrashParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:Int` | Oui | Nombre de ressources vidées de la corbeille avec succès. |
-| `*`warningCount`*` | `xsd:Int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de vider des ressources de la corbeille. |
-| `*`errorCount`*` | `xsd:Int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de vider des ressources de la corbeille. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau de détails associés aux ressources qui ont généré des avertissements lorsque l’opération a tenté de les vider de la corbeille. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau de détails associés aux ressources qui ont généré des erreurs lorsque l’opération a tenté de les vider de la corbeille. |
+| successCount | xsd:Int | Oui | Nombre de ressources vidées avec succès de la corbeille. |
+| warningCount | xsd:Int | Oui | Nombre d’avertissements générés lorsque l’opération tentait de vider des ressources de la corbeille. |
+| errorCount | xsd:Int | Oui | Nombre d’erreurs générées lorsque l’opération tentait de vider des ressources de la corbeille. |
+| warningDetailArray | types:AssetOperationFaultArray | Non | Tableau de détails associés aux ressources qui ont généré des avertissements lorsque l’opération a tenté de les vider de la corbeille. |
+| errorDetailArray | types:AssetOperationFaultArray | Non | Tableau de détails associés aux ressources qui ont généré des erreurs lorsque l’opération a tenté de les vider de la corbeille. |
 
 ## Exemples {#section-6154a873b6c342bf92e2036280cafdcf}
 
@@ -54,7 +53,7 @@ Cet exemple de code utilise le gestionnaire de l’entreprise et un tableau de g
 **Request**
 
 ```java
-<emptyAssetsFromTrashParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
+<emptyAssetsFromTrashParam xmlns="http://www.scene7.com/IpsApi/xsd/2023-01-15">
    <companyHandle>c|6</companyHandle>
    <assetHandleArray>
       <items>a|942|1|579</items>
@@ -66,7 +65,7 @@ Cet exemple de code utilise le gestionnaire de l’entreprise et un tableau de g
 **Réponse**
 
 ```java
-<emptyAssetsFromTrashReturn xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
+<emptyAssetsFromTrashReturn xmlns="http://www.scene7.com/IpsApi/xsd/2023-01-15">
    <successCount>2</successCount>
    <warningCount>0</warningCount>
    <errorCount>0</errorCount>

@@ -2,13 +2,13 @@
 description: Renomme un projet.
 solution: Experience Manager
 title: renameProject
-feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 1bf74ebf-1fce-408b-9953-7fdf2ae9d10b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 21%
+source-wordcount: '71'
+ht-degree: 23%
 
 ---
 
@@ -33,15 +33,15 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | Oui | Gérer l’entreprise avec le projet que vous souhaitez renommer. |
-| `*`projectHandle`*` | `xsd:string` | Oui | Gérer au projet. |
-| `*`projectName`*` | `xsd:string` | Oui | Nouveau nom du projet. |
+| companyName | `xsd:string` | Oui | Gérer l’entreprise avec le projet que vous souhaitez renommer. |
+| projectHandle | `xsd:string` | Oui | Gérer au projet. |
+| projectName | `xsd:string` | Oui | Nouveau nom du projet. |
 
 **Sortie (renameProjectParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`projectHandle`*` | `xsd:string` | Oui | Gestionnaire du projet renommé. |
+| projectHandle | `xsd:string` | Oui | Gestionnaire du projet renommé. |
 
 ## Exemples {#section-a0a06d9244774795b695a10b92b2a5e7}
 

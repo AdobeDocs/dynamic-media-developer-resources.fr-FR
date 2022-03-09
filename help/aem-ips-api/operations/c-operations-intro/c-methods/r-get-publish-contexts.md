@@ -2,13 +2,13 @@
 description: getPublishContexts
 solution: Experience Manager
 title: getPublishContexts
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7b26e659-71b9-40c4-9df4-94e78c3e4baf
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 23%
+source-wordcount: '85'
+ht-degree: 24%
 
 ---
 
@@ -32,9 +32,7 @@ Syntaxe
 >
 >* L’utilisateur doit disposer d’un accès en lecture pour renvoyer les ressources.
 >* Tous les utilisateurs ont accès à la société partagée.
-
 >
-
 
 
 ## Paramètres {#section-d08e2175d3f84774b55b91bc590b8b3f}
@@ -76,7 +74,7 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`publishContextArray`*` | types:PublishContextArray | Oui | Tableau de contextes de publication pour une entreprise, filtré par type de contexte si nécessaire. |
+| publishContextArray | types:PublishContextArray | Oui | Tableau de contextes de publication pour une entreprise, filtré par type de contexte si nécessaire. |
 
 ## Exemples {#section-23fb7d6a15004b7eb4c3d3bcb37ceb04}
 

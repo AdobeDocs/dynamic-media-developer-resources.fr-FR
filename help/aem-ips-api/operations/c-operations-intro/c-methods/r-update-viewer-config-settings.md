@@ -1,20 +1,20 @@
 ---
-description: Met à jour les paramètres de configuration de la visionneuse SWF.
+description: Met à jour les paramètres de configuration de la visionneuse du SWF.
 solution: Experience Manager
 title: updateViewerConfigSettings
-feature: Dynamic Media Classic,SDK/API,Paramètres prédéfinis de la visionneuse
+feature: Dynamic Media Classic,SDK/API,Viewer Presets
 role: Developer,Admin
 exl-id: 04565e2b-bda3-4ad0-afc1-2df01e455490
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 13%
+source-wordcount: '59'
+ht-degree: 15%
 
 ---
 
 # updateViewerConfigSettings{#updateviewerconfigsettings}
 
-Met à jour les paramètres de configuration de la visionneuse SWF.
+Met à jour les paramètres de configuration de la visionneuse du SWF.
 
 Syntaxe
 
@@ -31,9 +31,9 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Gérer la société. |
-| `*`assetHandle`*` | `xsd:string` | Oui | Poignée de ressource. |
-| `*`configSettingArray`*` | `types:ConfigSettingArray` | Oui | Tableau des paramètres de configuration que vous souhaitez appliquer à la visionneuse. |
+| companyHandle | `xsd:string` | Oui | Gérer la société. |
+| assetHandle | `xsd:string` | Oui | Poignée de ressource. |
+| configSettingArray | `types:ConfigSettingArray` | Oui | Tableau des paramètres de configuration que vous souhaitez appliquer à la visionneuse. |
 
 **Sortie (updateViewerConfigSettingsReturn)**
 

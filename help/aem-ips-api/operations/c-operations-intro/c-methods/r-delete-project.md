@@ -2,12 +2,12 @@
 description: Supprime un projet d’une entreprise. Les liens entre les ressources et le projet sont rompus, mais les ressources ne sont pas supprimées d’IPS.
 solution: Experience Manager
 title: deleteProject
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b42be3ef-c935-4548-8f92-4fc33af321b5
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '128'
 ht-degree: 9%
 
 ---
@@ -33,8 +33,8 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyName`*` | `xsd:string` | Oui | Nom de la société associée au projet. |
-| `*`projectHandle`*` | `xsd:string` | Oui | Gestionnaire du projet à supprimer. |
+| companyName | `xsd:string` | Oui | Nom de la société associée au projet. |
+| projectHandle | `xsd:string` | Oui | Gestionnaire du projet à supprimer. |
 
 **Sortie (deleteProjectReturn)**
 

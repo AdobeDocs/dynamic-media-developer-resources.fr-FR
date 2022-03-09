@@ -2,13 +2,13 @@
 description: Supprime des ressources d’un projet. Ne détruit pas les ressources.
 solution: Experience Manager
 title: removeProjectAssets
-feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 6bf169ec-c724-4ac0-a2bf-67af2ebba21a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 10%
+source-wordcount: '178'
+ht-degree: 11%
 
 ---
 
@@ -32,19 +32,19 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Gestion de l’entreprise avec les ressources que vous souhaitez déplacer. |
-| `*`projectHandle`*` | `xsd:string` | Oui | Gestion des ressources du projet que vous souhaitez déplacer. |
-| `*`assetHandleArray`*` | `types:HandleArray` | Oui | Tableau de poignées vers les ressources que vous souhaitez déplacer. |
+| companyHandle | `xsd:string` | Oui | Gestion de l’entreprise avec les ressources que vous souhaitez déplacer. |
+| projectHandle | `xsd:string` | Oui | Gestion des ressources du projet que vous souhaitez déplacer. |
+| assetHandleArray | `types:HandleArray` | Oui | Tableau de poignées vers les ressources que vous souhaitez déplacer. |
 
 **Sortie (removeProjectAssetsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Oui | Suppression réussie du nombre de ressources. |
-| `*`warningCount`*` | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de supprimer des ressources du projet. |
-| `*`errorCount`*` | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de supprimer des ressources du projet. |
-| `*`warningDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des avertissements lorsque l’opération tentait de les supprimer du projet. |
-| `*`errorDetailArray`*` | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des erreurs lorsque l’opération a tenté de les supprimer du projet. |
+| successCount | `xsd:int` | Oui | Suppression réussie du nombre de ressources. |
+| warningCount | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de supprimer des ressources du projet. |
+| errorCount | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de supprimer des ressources du projet. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des avertissements lorsque l’opération tentait de les supprimer du projet. |
+| errorDetailArray | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des erreurs lorsque l’opération a tenté de les supprimer du projet. |
 
 ## Exemples {#section-13546cf0a98e4e1b91b8b7cd5724ced8}
 

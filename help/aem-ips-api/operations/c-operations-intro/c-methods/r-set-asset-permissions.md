@@ -2,12 +2,12 @@
 description: Définit les autorisations d’une ressource unique à l’aide d’une ressource d’autorisation.
 solution: Experience Manager
 title: setAssetPermissions
-feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 1e73c305-cda5-4c30-9380-ec4cd8309933
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '125'
 ht-degree: 9%
 
 ---
@@ -30,9 +30,9 @@ Les ressources héritent par défaut des autorisations de leur dossier parent. U
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de l’entreprise qui contient le dossier avec lequel vous souhaitez travailler. |
-| `*`assetHandle`*` | `xsd:string` | Oui | Poignée de dossier. |
-| `*`permissionArray`*` | `types:PermissionsUpdateArray` | Oui | Tableau d’autorisations. |
+| companyHandle | `xsd:string` | Oui | Gestionnaire de l’entreprise qui contient le dossier avec lequel vous souhaitez travailler. |
+| assetHandle | `xsd:string` | Oui | Poignée de dossier. |
+| permissionArray | `types:PermissionsUpdateArray` | Oui | Tableau d’autorisations. |
 
 **Sortie (setAssetPermissionsReturn)**
 

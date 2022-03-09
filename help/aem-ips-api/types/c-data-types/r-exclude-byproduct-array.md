@@ -2,13 +2,13 @@
 description: Prend en charge le filtrage par sous-produit dans l’opération searchAssets.
 solution: Experience Manager
 title: ExcludeByproductArray
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0d238e6a-175d-4efc-b8a9-6b8bc3b65c34
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 19%
+source-wordcount: '26'
+ht-degree: 23%
 
 ---
 
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`éléments`*` | `types:ExcludeByproductCondition` | Élément du tableau . |
+| éléments | `types:ExcludeByproductCondition` | Élément du tableau . |

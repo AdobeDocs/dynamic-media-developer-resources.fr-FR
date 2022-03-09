@@ -2,13 +2,13 @@
 description: Récupère toutes les propriétés système dans une seule requête.
 solution: Experience Manager
 title: getSystemProperties
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b0ef16fd-1645-4e22-99bb-8c9269623168
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 18%
+source-wordcount: '55'
+ht-degree: 20%
 
 ---
 
@@ -40,7 +40,7 @@ Aucune
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`propertyArray`*` | `types:PropertyArray` | Oui | Tableau de propriétés système. |
+| propertyArray | `types:PropertyArray` | Oui | Tableau de propriétés système. |
 
 ## Exemples {#section-728cc16fe9954b2daa035b4d4d4b4ce6}
 

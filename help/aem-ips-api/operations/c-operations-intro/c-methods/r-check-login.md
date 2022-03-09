@@ -2,13 +2,13 @@
 description: Vérifie si un utilisateur disposant d’une société spécifique (identifié par son nom d’utilisateur), de son adresse électronique et de son mot de passe peut se connecter.
 solution: Experience Manager
 title: checkLogin
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1f96f376-574c-464b-9c89-c215f6454b81
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 12%
+source-wordcount: '145'
+ht-degree: 13%
 
 ---
 
@@ -38,19 +38,19 @@ Vérifie si un utilisateur disposant d’une société spécifique (identifié p
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Non | Gestionnaire de la société qui contient l’utilisateur. |
-| `*`e-mail`*` | `xsd:string` | Oui | Adresse électronique de l’utilisateur. |
-| `*`mot de passe`*` | `xsd:string` | Oui | Mot de passe de l’utilisateur. |
+| companyHandle | `xsd:string` | Non | Gestionnaire de la société qui contient l’utilisateur. |
+| e-mail | `xsd:string` | Oui | Adresse électronique de l’utilisateur. |
+| mot de passe | `xsd:string` | Oui | Mot de passe de l’utilisateur. |
 
 **Sortie (checkLoginParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`état`*` | `xsd:string` | Oui | État de connexion de l’utilisateur. |
+| état | `xsd:string` | Oui | État de connexion de l’utilisateur. |
 
 ## Exemples {#section-23f90100a9d94bc7b4045634cccd1b98}
 
-Cet exemple de code utilise un paramètre de nom d’entreprise, une adresse électronique et un mot de passe pour déterminer si un utilisateur peut se connecter à IPS. Si l’utilisateur *peut* se connecter, cette méthode renvoie la chaîne `ValidLogin`. Si l’utilisateur *ne peut pas* se connecter, cette méthode renvoie la chaîne `InvalidLogin`.
+Cet exemple de code utilise un paramètre de nom d’entreprise, une adresse électronique et un mot de passe pour déterminer si un utilisateur peut se connecter à IPS. Si l’utilisateur *can* se connecter, cette méthode renvoie la chaîne, `ValidLogin`. Si l’utilisateur *cannot* se connecter, cette méthode renvoie la chaîne, `InvalidLogin`.
 
 **Request**
 

@@ -2,13 +2,13 @@
 description: Renvoie un tableau de noms de chemin Photoshop pour l’image donnée.
 solution: Experience Manager
 title: getPhotoshopPathNames
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 11d4c0d0-a3a3-4324-a4a6-1dd7b7e673da
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 19%
+source-wordcount: '77'
+ht-degree: 20%
 
 ---
 
@@ -34,14 +34,14 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Gérer l’entreprise qui contient l’image que vous souhaitez utiliser. |
-| `*`assetHandle`*` | `xsd:string` | Oui | Gérer la ressource image. |
+| companyHandle | `xsd:string` | Oui | Gérer l’entreprise qui contient l’image que vous souhaitez utiliser. |
+| assetHandle | `xsd:string` | Oui | Gérer la ressource image. |
 
 **Sortie (getPhotoshopPathNamesReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`pathNameArray`*` | `types:StringArray` | Oui | Tableau de noms de chemins d’accès Photoshop dans une image. |
+| pathNameArray | `types:StringArray` | Oui | Tableau de noms de chemins d’accès Photoshop dans une image. |
 
 ## Exemples {#section-6d316f14b4184d42af4ca3f717b042dd}
 

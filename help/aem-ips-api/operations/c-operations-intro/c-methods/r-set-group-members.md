@@ -2,12 +2,12 @@
 description: Définit l’appartenance à un groupe d’utilisateurs appartenant à une société spécifique.
 solution: Experience Manager
 title: setGroupMembers
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 81348da7-6733-4da9-8a0a-376fccf791ea
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '126'
 ht-degree: 9%
 
 ---
@@ -30,9 +30,9 @@ L’opération renvoie une erreur d’authentification si vous ne disposez pas d
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Poignée de la société. |
-| `*`groupHandle`*` | `xsd:string` | Oui | Poignée de groupe. |
-| `*`userHandleArray`*` | `types:HandleArray` | Oui | Tableau de poignées pour les utilisateurs dont vous souhaitez définir l’appartenance à un groupe. |
+| companyHandle | `xsd:string` | Oui | Poignée de la société. |
+| groupHandle | `xsd:string` | Oui | Poignée de groupe. |
+| userHandleArray | `types:HandleArray` | Oui | Tableau de poignées pour les utilisateurs dont vous souhaitez définir l’appartenance à un groupe. |
 
 **Sortie (setGroupMembesReturn)**
 

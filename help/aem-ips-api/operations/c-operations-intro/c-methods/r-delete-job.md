@@ -2,13 +2,13 @@
 description: Supprime une tâche en cours ou planifiée.
 solution: Experience Manager
 title: deleteJob
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d38dd1e2-668e-4956-b854-54bf466d6d45
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 12%
+source-wordcount: '90'
+ht-degree: 13%
 
 ---
 
@@ -35,8 +35,8 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de la société à laquelle appartient la tâche. |
-| `*`jobHandle`*` | `xsd:string` | Oui | Gestionnaire de la tâche à supprimer. |
+| companyHandle | `xsd:string` | Oui | Gestionnaire de la société à laquelle appartient la tâche. |
+| jobHandle | `xsd:string` | Oui | Gestionnaire de la tâche à supprimer. |
 
 **Sortie**
 

@@ -2,13 +2,13 @@
 description: Décrit les différentes entreprises auxquelles appartient un utilisateur.
 solution: Experience Manager
 title: CompanyMember
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: bce5e6a2-b866-4a54-8e0b-9bc99bf12988
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 11%
+source-wordcount: '48'
+ht-degree: 12%
 
 ---
 
@@ -22,6 +22,6 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`utilisateur`*` | `types:User` | Nom d’utilisateur. |
-| `*`rôle`*` | `xsd:string` | Rôle de l’utilisateur pour chaque entreprise à laquelle il appartient. |
-| `*`isActive`*` | `xsd:boolean` | Définit l’état de l’utilisateur pour chaque société à laquelle il appartient. |
+| utilisateur | `types:User` | Nom d’utilisateur. |
+| rôle | `xsd:string` | Rôle de l’utilisateur pour chaque entreprise à laquelle il appartient. |
+| isActive | `xsd:boolean` | Définit l’état de l’utilisateur pour chaque société à laquelle il appartient. |

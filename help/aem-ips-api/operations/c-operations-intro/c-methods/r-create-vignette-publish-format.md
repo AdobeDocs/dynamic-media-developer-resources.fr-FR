@@ -2,12 +2,12 @@
 description: Crée un nouveau format de publication pour une vignette.
 solution: Experience Manager
 title: createVignettePublishFormat
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d58e1290-8a79-4129-99ce-776b919dea13
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '518'
 ht-degree: 14%
 
 ---
@@ -49,67 +49,67 @@ Les nouvelles versions du serveur de rendu d’image peuvent prendre en charge l
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Expression de code  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Expression de code </span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"> Nom permettant d’identifier le format de publication de la vignette. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> targetWidth</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Expression de code  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Expression de code </span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"> <p>Spécifie la largeur cible en pixels de la vue de vignette obtenue. </p> <p>Utilisez zéro pour que la vignette de sortie ait la même taille que la Principale vignette. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> targetHeight</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Expression de code  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Expression de code </span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"> Crée une vignette pyramidale optimisée pour le zoom sur le serveur Image Rendering. En commençant à la taille maximale, comme défini dans les champs Taille de vignette cible, il est possible de créer des vues de taille multiple dans un même fichier cible de vignette. Chaque taille de vue suivante sera diminuée de moitié jusqu'à ce que la largeur et la hauteur soient comprises dans un format 128 x 128 pixels. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> createPyramid</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Expression de code  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Expression de code </span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"> Spécifie la largeur de chaque miniature résultante en pixels. Ce paramètre est facultatif. Laissez le paramètre défini sur zéro pour aucun fichier de miniature. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbWidth</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Expression de code  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Expression de code </span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"> Indique le format de fichier des vignettes publiées. Si vous disposez d’une nouvelle version de création d’images et d’une version antérieure du serveur de rendu d’images, vous devez spécifier une version de vignette que votre serveur ImageRendering peut lire. Si vous spécifiez une version supérieure, le serveur de rendu d’image ne peut pas lire les vignettes publiées. Définissez cette variable sur zéro pour publier les vignettes à la dernière version. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> saveAsVersion</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Expression de code  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Expression de code </span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"> Indique le caractère qui sépare le nom de la vignette et le suffixe indiquant sa largeur. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sizeSuffixSeparator</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Expression de code  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Expression de code </span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"> Indique le caractère qui sépare le nom de la vignette et le suffixe indiquant sa largeur. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> accentuer</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Expression de code  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Expression de code </span> </td> 
    <td colname="col3"> Non </td> 
    <td colname="col4"> Applique l’accentuation à l’image de l’affichage principal pour chaque taille de vignette publicitaire. L’accentuation peut compenser le flou lors de la mise à l’échelle des vignettes. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmAmount</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Expression de code  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Expression de code </span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"> Le masquage flou numérique est un moyen flexible et puissant d’augmenter la netteté, en particulier dans les images numérisées. Cela contrôle l’ampleur de chaque débordement (le degré d’obscurité et de luminosité des bordures de périphérie). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmRadius</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Expression de code  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Expression de code </span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"> Affecte la taille des bords à améliorer ou la largeur des bords, de sorte qu’une plus petite radium améliore les détails à plus petite échelle. Des valeurs de rayon plus élevées peuvent provoquer des halos aux bords. Un détail fin nécessite un rayon plus petit, car un détail minuscule de même taille ou plus petit que le rayon est perdu. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> usmThreshold</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Expression de code  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Expression de code </span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"> Contrôle le changement de luminosité minimal à accentuer ou la distance entre les valeurs tonales adjacentes et avant que le filtre ne fonctionne. Ce paramètre peut accentuer des bords plus prononcés tout en ne modifiant pas les bords plus subtils. La plage autorisée de seuil de 0 à 255. </td> 
   </tr> 
@@ -120,7 +120,7 @@ Les nouvelles versions du serveur de rendu d’image peuvent prendre en charge l
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`vignetteFormatHandle`*` | `xsd:string` | Oui | La poignée du format de vignette créé. |
+| vignetteFormatHandle | `xsd:string` | Oui | La poignée du format de vignette créé. |
 
 ## Exemples {#section-0564752d439642b9bb8de2903db6de1e}
 

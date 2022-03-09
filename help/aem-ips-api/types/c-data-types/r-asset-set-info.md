@@ -2,13 +2,13 @@
 description: Propriétés des ressources de type Visionneuse de ressources.
 solution: Experience Manager
 title: AssetSetInfo
-feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: ca5e4d7d-24b3-4b4b-b350-ded83f94528b
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 11%
+source-wordcount: '37'
+ht-degree: 13%
 
 ---
 
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| `*`setDefinition`*` | `xsd:string` | Définition du jeu de ressources formatée selon les exigences de la visionneuse IS ciblée. Peut contenir des paramètres de substitution IPS facultatifs. |
+| setDefinition | `xsd:string` | Définition du jeu de ressources formatée selon les exigences de la visionneuse IS ciblée. Peut contenir des paramètres de substitution IPS facultatifs. |

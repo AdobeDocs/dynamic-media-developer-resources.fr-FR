@@ -2,12 +2,12 @@
 description: Supprime un format d’image. Obtenez la poignée du format d’image à partir de saveImageFormat.
 solution: Experience Manager
 title: deleteImageFormat
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: bd717c08-6da4-47f1-8614-e4ba79d8176c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '102'
 ht-degree: 11%
 
 ---
@@ -31,8 +31,8 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de l’entreprise qui contient le format d’image que vous souhaitez supprimer. |
-| `*`imageFormatHandle`*` | `xsd:string` | Oui | Gestion du format d’image que vous souhaitez supprimer. |
+| companyHandle | `xsd:string` | Oui | Gestionnaire de l’entreprise qui contient le format d’image que vous souhaitez supprimer. |
+| imageFormatHandle | `xsd:string` | Oui | Gestion du format d’image que vous souhaitez supprimer. |
 
 **Sortie (deleteImageFormatParam)**
 

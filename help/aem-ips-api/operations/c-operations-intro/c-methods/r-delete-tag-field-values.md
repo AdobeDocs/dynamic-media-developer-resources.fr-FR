@@ -2,12 +2,12 @@
 description: Supprime les valeurs de champ de balise du dictionnaire d’un champ de balise.
 solution: Experience Manager
 title: deleteTagFieldValues
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2694bd6d-b1ba-4146-a155-12829d9dfa47
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '87'
 ht-degree: 13%
 
 ---
@@ -28,9 +28,9 @@ Supprime les valeurs de champ de balise du dictionnaire d’un champ de balise.
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`companyHandle`*` | `xsd:string` | Oui | Gestionnaire de la société contenant le champ de balise. |
-| `*`fieldHandle`*` | `xsd:string` | Oui | Gestionnaire du champ de balise à modifier. |
-| `*`valueArray`*` | `types:StringArray` | Oui | Tableau de valeurs de balise à supprimer du dictionnaire du champ. |
+| companyHandle | `xsd:string` | Oui | Gestionnaire de la société contenant le champ de balise. |
+| fieldHandle | `xsd:string` | Oui | Gestionnaire du champ de balise à modifier. |
+| valueArray | `types:StringArray` | Oui | Tableau de valeurs de balise à supprimer du dictionnaire du champ. |
 
 **Sortie (deleteTagFieldValuesParam)**
 

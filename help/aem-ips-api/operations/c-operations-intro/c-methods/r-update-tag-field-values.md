@@ -2,12 +2,12 @@
 description: Met à jour les valeurs du dictionnaire de balises pour un champ de balise.
 solution: Experience Manager
 title: updateTagFieldValues
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6de49217-2d15-49d9-9357-b058b2564686
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '157'
 ht-degree: 15%
 
 ---
@@ -54,7 +54,7 @@ Syntaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> updateArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:TagValueUpdateArray</span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4">Tableau des valeurs de champ de balise que vous souhaitez mettre à jour. <p>Remarque :  Met à jour les valeurs de chaîne de balise uniquement. N’affecte pas les associations de ressources. </p> </td> 
+   <td colname="col4">Tableau des valeurs de champ de balise que vous souhaitez mettre à jour. <p>Remarque : Met à jour les valeurs de chaîne de balise uniquement. N’affecte pas les associations de ressources. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,11 +63,11 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| `*`successCount`*` | `xsd:int` | Oui | Le nombre de champs de balise mis à jour avec succès. |
-| `*`warningCount`*` | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de mettre à jour les champs de balise. |
-| `*`errorCount`*` | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de mettre à jour les champs de balise. |
-| `*`warningDetailArray`*` | `types:TagValueUpdateFaultArray` | Non | Tableau de détails associés aux ressources qui ont généré des avertissements lorsque l’opération tentait de mettre à jour les champs de balise. |
-| `*`errorDetailArray`*` | `types:TagValueUpdateFaultArray` | Non | Tableau de détails associés aux ressources qui ont généré des erreurs lorsque l’opération a tenté de mettre à jour les champs de balise. |
+| successCount | `xsd:int` | Oui | Le nombre de champs de balise mis à jour avec succès. |
+| warningCount | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de mettre à jour les champs de balise. |
+| errorCount | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de mettre à jour les champs de balise. |
+| warningDetailArray | `types:TagValueUpdateFaultArray` | Non | Tableau de détails associés aux ressources qui ont généré des avertissements lorsque l’opération tentait de mettre à jour les champs de balise. |
+| errorDetailArray | `types:TagValueUpdateFaultArray` | Non | Tableau de détails associés aux ressources qui ont généré des erreurs lorsque l’opération a tenté de mettre à jour les champs de balise. |
 
 ## Exemples {#section-bb4dcf97044c4675974c9b8d27674001}
 
