@@ -1,13 +1,13 @@
 ---
 title: Appels obsolètes
-description: Les appels d’API Image Production System et leurs paramètres associés qui ne sont plus utilisés dans Dynamic Media.
+description: Les appels d’API Image Production System et leurs paramètres associés qui ne sont plus utilisés ou pris en charge dans Dynamic Media.
 solution: Experience Manager
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f6711780-9a96-4a61-9066-8d83316758c3
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 10eb6887663fe335be3abcc311b2d3eb4a241745
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '139'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,10 @@ Les appels d’API Image Production System et leurs paramètres associés qui ne
 
 Les appels d’API Image Production System et leurs paramètres associés qui ne sont plus utilisés dans Dynamic Media.
 
-* `addMediaPortalEvent` - Obsolète des opérations. Cet appel vous permet d’ajouter un événement Media Portal à IPS.
-* `getMediaPortalEvent` - Obsolète des opérations. Cet appel vous permet d’obtenir des événements Media Portal qui correspondent à des critères spécifiés.
-* `getCdnCacheInvalidationStatus` - Obsolète des opérations. Cette API est désormais obsolète, car l’API `cdnCacheInvalidation` invalide le cache presque immédiatement (~5 secondes). Par conséquent, l’interrogation de l’état d’invalidation n’est plus nécessaire.
+* `ExcludeMasterVideoFromAVS` - Obsolète de [Types de données](/help/aem-ips-api/types/c-data-types/c-data-types.md). Ce paramètre a exclu la vidéo Principale de la visionneuse de vidéos adaptative.
+   >[!IMPORTANT]
+   >
+   >Adobe ne prendra plus en charge ce paramètre le 1er septembre 2022. Voir aussi [ExcludeMasterVideoFromAVS](/help/aem-ips-api/types/c-data-types/r-exclude-master-video-from-avs.md).
+* `addMediaPortalEvent` - Obsolète de [Opérations](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md). Ce paramètre vous permet d’ajouter un événement Media Portal à IPS.
+* `getMediaPortalEvent` - Obsolète de [Opérations](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md). Ce paramètre vous permet d’obtenir des événements Media Portal correspondant à des critères spécifiés.
+* `getCdnCacheInvalidationStatus` - Obsolète de [Opérations](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md). Ce paramètre est désormais obsolète, car la variable `cdnCacheInvalidation` invalide presque immédiatement le cache (~5 secondes). Par conséquent, l’interrogation de l’état d’invalidation n’est plus nécessaire.
