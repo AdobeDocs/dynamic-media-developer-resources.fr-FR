@@ -4,7 +4,7 @@ description: Exclut la vidéo Principale de la visionneuse de vidéos adaptative
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e73eab03-fbda-435c-be3c-98781f8630a5
-source-git-commit: 10eb6887663fe335be3abcc311b2d3eb4a241745
+source-git-commit: 6ec990016827895e136d41f3ae1e87ffd826647e
 workflow-type: tm+mt
 source-wordcount: '54'
 ht-degree: 12%
@@ -18,6 +18,8 @@ ht-degree: 12%
 >Adobe met fin à la prise en charge de la variable `ExcludeMasterVideoFromAVS` du 1er septembre 2022. Voir aussi [Appels obsolètes](/help/aem-ips-api/c-deprecated-calls.md).
 
 Exclut la vidéo Principale de la visionneuse de vidéos adaptative.
+
+<!-- REMOVE TOPIC MAY 2022 AS PER CQDOC-19165 AND REMOVED FROM TOC -->
 
 Syntaxe
 
