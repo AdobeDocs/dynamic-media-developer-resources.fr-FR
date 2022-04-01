@@ -2,12 +2,12 @@
 description: Types de données
 solution: Experience Manager
 title: Types de données
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a8bc6fcc-fb94-4bc2-83b7-76788db15f3e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '225'
 ht-degree: 4%
 
 ---
@@ -70,7 +70,6 @@ ht-degree: 4%
 + [EmailArray](r-email-array.md)
 + [ExcludeByproductArray](r-exclude-byproduct-array.md)
 + [ExcludeByproductCondition](r-exclude-byproduct-condition.md)
-+ [ExcludeMasterVideoFromAVS](r-exclude-master-video-from-avs.md)
 + [ExcelInfo](r-excel-info.md)
 + [ExportJob](r-exportjob.md)
 + [FlashInfo](r-flash-info.md)
