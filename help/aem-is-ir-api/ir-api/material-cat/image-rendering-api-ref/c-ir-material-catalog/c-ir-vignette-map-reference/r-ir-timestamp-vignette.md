@@ -5,9 +5,9 @@ title: TimeStamp
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6a163727-9ac6-43ca-9afd-169ac6306124
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '226'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ If `attribute::UseLastModified` est défini, le plus récent `vignette::TimeStam
 >
 >L’heure réelle du fichier de vignette n’est jamais utilisée à cette fin.
 
-`catalog::TimeStamp` est également utilisé pour la validation du cache basée sur le catalogue (voir ` [attribute::CacheValidationPolicy](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md#reference-2d71679733474d8aa116db6ceba87fa4)`).
+`catalog::TimeStamp` est également utilisé pour la validation du cache basée sur le catalogue (voir [attribute::CacheValidationPolicy](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md).
 
 ## Propriétés {#section-c4a42c64e44d49238ef2ec31ebd82ac1}
 

@@ -1,14 +1,14 @@
 ---
+title: CacheValidationPolicy
 description: Stratégie de validation du cache du serveur. Indique le moment où les entrées du cache côté serveur sont validées.
 solution: Experience Manager
-title: CacheValidationPolicy
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d54a8ab9-d6b3-4eae-95c6-c4ab6f00ebde
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 3%
+source-wordcount: '98'
+ht-degree: 4%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Stratégie de validation du cache du serveur. Indique le moment où les entrées du cache côté serveur sont validées.
 
-Avec la validation basée sur l’expiration, les images sources sont régulièrement vérifiées si elles ont changé. Avec la validation basée sur un catalogue, les images sources ne sont vérifiées qu’après modification de la valeur `catalog::TimeStamp`.
+Avec la validation basée sur l’expiration, les images sources sont régulièrement vérifiées si elles ont changé. Avec la validation basée sur un catalogue, les images source sont vérifiées uniquement après la `catalog::TimeStamp` a changé.
 
 La validation basée sur un catalogue est recommandée lorsque des catalogues d’images sont utilisés. La validation basée sur l’expiration doit être utilisée lorsque les images sont référencées directement, sans utiliser de catalogue d’images.
 
@@ -26,7 +26,7 @@ Enum. 0 pour sélectionner la validation basée sur l’expiration, 1 pour séle
 
 ## Par défaut {#section-0ce22732e0e9431d8a05d8b9158c0b5a}
 
-Hérité de `default::CacheValidationPolicy` si elle n’est pas définie ou si elle est vide.
+Hérité de `default::CacheValidationPolicy` s’il n’est pas défini ou s’il est vide.
 
 ## Voir aussi {#section-a0c922fa519641f2bce05e75e4eb51d0}
 

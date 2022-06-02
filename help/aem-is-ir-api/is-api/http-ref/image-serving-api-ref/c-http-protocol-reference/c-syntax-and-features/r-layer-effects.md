@@ -1,13 +1,13 @@
 ---
+title: Effets de calque
 description: Les effets d’ombre et d’éclat de calque de style Photoshop sont implémentés à l’aide de sous-calques spéciaux (calques d’effet) qui peuvent être joints à n’importe quel calque (calque parent), y compris layer=0 et layer=comp.
 solution: Experience Manager
-title: Effets de calque
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8f99bb3d-c5d6-4215-a76b-58ba7689ff02
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '482'
 ht-degree: 2%
 
 ---
@@ -22,11 +22,11 @@ Un seul calque parent peut contenir un nombre indéfini d’effets de calque.
 
 ## Effets internes et externes {#section-2dade7ee98e041d1b4d1725e6f98a515}
 
-*Les* effets internes sont rendus au-dessus du calque parent et ne sont visibles que dans les zones opaques du calque parent. *Les* effets externes sont rendus derrière le calque parent (ils ne seront donc jamais visibles dans les zones opaques du calque parent) et peuvent être positionnés n’importe où dans la zone de travail du compositeur. Un effet intérieur ou extérieur est choisi en attribuant un numéro de couche d’effet positif ou négatif avec la commande `effect=`. La commande `effect=` contrôle également l’ordre z parmi plusieurs calques d’effet attachés à la même couche parent.
+*Effets internes* sont rendues au-dessus du calque parent et ne sont visibles que dans les zones opaques du calque parent. *Effets externes* sont rendues derrière le calque parent (elles ne seront donc jamais visibles dans les zones opaques du calque parent) et peuvent être positionnées n’importe où dans la zone de travail du compositeur. Un effet interne ou externe est sélectionné en attribuant un numéro de calque d’effet positif ou négatif au paramètre `effect=` . Le `effect=` contrôle également l’ordonnancement z entre plusieurs calques d’effet associés à la même couche parent.
 
 ## Relation avec le calque parent {#section-eb8bfc4f754a42fc973b562821d6f2d3}
 
-Les calques d’effet sont automatiquement dimensionnés et positionnés pour coïncider avec le calque parent (c’est-à-dire que le calque d’effet hérite des valeurs `size=` et `origin=` du calque parent). `pos=` peut être utilisé pour éloigner le calque d’effet du calque parent, comme cela est généralement nécessaire pour les effets de chute et d’ombre intérieure. Tandis que pour les calques standard `pos=` spécifie un décalage entre les origines de ce calque et le calque 0, pour les calques d’effet `pos=` spécifie le décalage entre les origines du calque d’effet et le calque parent.
+Les calques d’effet sont automatiquement dimensionnés et positionnés pour coïncider avec le calque parent (c’est-à-dire que le calque d’effet hérite de la propriété `size=` et `origin=` des valeurs du calque parent). `pos=` peut être utilisé pour éloigner le calque d’effet du calque parent, comme cela est généralement nécessaire pour les effets de chute et d’ombre intérieure. Tandis que pour les calques standard `pos=` spécifie un décalage entre les origines de ce calque et le calque 0, pour les calques d’effet `pos=` spécifie le décalage entre l’origine du calque d’effet et le calque parent.
 
 ## Commandes et attributs pris en charge {#section-035fc6bcba7d4e7ab4bd46687c1d8879}
 
@@ -81,7 +81,7 @@ Ajoutez une bordure rouge de trois pixels de large avec une opacité de 50 % à 
 
 `…&effect=-1&op_grow=3&color=255,0,0,128&…`
 
-La bordure suit les contours du canal alpha ou masque de l&#39;image. Si vous définissez `effect=1`, la bordure est placée sur le bord intérieur.
+La bordure suit les contours du canal alpha ou masque de l&#39;image. Paramètre `effect=1` placerait la bordure à l’intérieur du bord.
 
 Ajoutez une ombre portée bleue à une image à l’aide des paramètres d’effet par défaut (sauf pour la couleur) :
 
@@ -91,4 +91,4 @@ Ajoutez une ombre portée bleue à une image à l’aide des paramètres d’eff
 
 ## Voir aussi {#section-1acccccf534549aea23d4c008c17e7c0}
 
-[effet=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effect.md#reference-b1296c4afed047fb921bbc1e33752135), Macros  [de commande%l94560](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-command-macros.md#reference-ea2a9571c65a46da83eca27d0013cbf9)
+[effet=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effect.md#reference-b1296c4afed047fb921bbc1e33752135), [Macros de commande%l94560](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-command-macros.md#reference-ea2a9571c65a46da83eca27d0013cbf9)

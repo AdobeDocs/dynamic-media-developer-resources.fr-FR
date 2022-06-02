@@ -1,14 +1,14 @@
 ---
+title: DigimarcInfo
 description: Informations sur l’image Digimarc. Active l’incorporation Digimarc et spécifie le type de filigrane et les données associées spécifiques à l’image.
 solution: Experience Manager
-title: DigimarcInfo
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 87f4d8f0-02b9-4511-9151-89c58116c78d
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 12%
+source-wordcount: '230'
+ht-degree: 13%
 
 ---
 
@@ -20,9 +20,9 @@ Informations sur l’image Digimarc. Active l’incorporation Digimarc et spéci
 
 Quatre valeurs entières, séparées par des virgules.
 
-`*``*, *``*, *`typeflagsval1`*, *`val2`*`
+`*`type`*, *`flags`*, *`val1`*, *`val2`*`
 
-`*``*` permet l’incorporation de Digimarc et spécifie le type de filigrane :
+`*`type`*` permet l’incorporation de Digimarc et spécifie le type de filigrane :
 
 <table id="table_3648951F14D94C5BAD097CFB783F1EE7"> 
  <thead> 
@@ -55,7 +55,7 @@ Quatre valeurs entières, séparées par des virgules.
  </tbody> 
 </table>
 
-`*``*` flagse un champ bit avec trois valeurs. Définissez bit 0 pour indiquer le contenu protégé par copie, bit 1 pour indiquer le contenu restreint et bit 2 pour indiquer le contenu adulte :
+`*`flags`*` est un champ bit avec trois valeurs. Définissez bit 0 pour indiquer le contenu protégé par copie, bit 1 pour indiquer le contenu restreint et bit 2 pour indiquer le contenu adulte :
 
 <table id="table_00F218515FBE484F9D05CBAF14F9D045"> 
  <thead> 
@@ -78,7 +78,7 @@ Quatre valeurs entières, séparées par des virgules.
    <td> <p>Restreinte. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>Protégé contre la copie, restreint. </p> </td> 
   </tr> 
   <tr> 
@@ -100,14 +100,14 @@ Quatre valeurs entières, séparées par des virgules.
  </tbody> 
 </table>
 
-L’interprétation de `*`val1`*` et `*`val2`*` dépend de `*`type`*` :
+L&#39;interprétation de `*`val1`*` et `*`val2`*` dépendre de `*`type`*`:
 
 <table id="table_6B29F76BC1974C12AB7124BF84B29EC2"> 
  <thead> 
   <tr> 
    <th class="entry"> <p><span class="codeph"> <span class="varname"> type</span> </span> </p> </th> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> val1  </span> </span> </p> </th> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> val2  </span> </span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> val1 </span> </span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> val2 </span> </span> </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -127,7 +127,7 @@ L’interprétation de `*`val1`*` et `*`val2`*` dépend de `*`type`*` :
    <td> <p>Inutilisée. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>1</b> </p> </td> 
+   <td> <p><b>3</b> </p> </td> 
    <td> <p>ID de transaction. </p> </td> 
    <td> <p>Inutilisée. </p> </td> 
   </tr> 
@@ -157,4 +157,4 @@ Hérité de l’attribut ::DigimarcInfo si le champ n’est pas présent ou s’
 
 ## Voir aussi {#section-4bd3e7272c5c4b8cb8c5ca1ac7ed1012}
 
-[attribute::DigimarcInfo](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcinfo.md#reference-de88636cb9b4435a94e3d0a80f072667) ,  [attribute::DigimarcId](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcid.md#reference-33e3eca7f1874510904e5c8645cecd68)
+[attribute::DigimarcInfo](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcinfo.md#reference-de88636cb9b4435a94e3d0a80f072667) , [attribute::DigimarcId](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-digimarcid.md#reference-33e3eca7f1874510904e5c8645cecd68)

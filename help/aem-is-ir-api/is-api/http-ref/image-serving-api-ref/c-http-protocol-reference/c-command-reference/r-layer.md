@@ -1,13 +1,13 @@
 ---
+title: layer
 description: Sélectionnez Calque. Sélectionne un calque et lance un nouveau segment de définition de calque dans la séquence de commandes.
 solution: Experience Manager
-title: layer
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f1200d86-d88c-4990-ae36-2ce96ae94343
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '380'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Sélectionnez Calque. Sélectionne un calque et lance un nouveau segment de définition de calque dans la séquence de commandes.
 
-`layer= *``*|comp[, *`nname`*]`
+`layer= *`n`*|comp[, *`name`*]`
 
 `layer= *`name`*`
 
@@ -35,15 +35,15 @@ Sélectionnez Calque. Sélectionne un calque et lance un nouveau segment de déf
  </tr> 
 </table>
 
-Toutes les commandes du segment de calque sont appliquées au calque spécifié. Un segment de calque est arrêté par la commande `layer=` ou `effect=` suivante ou la fin de la requête.
+Toutes les commandes du segment de calque sont appliquées au calque spécifié. Un segment de calque est arrêté par le suivant `layer=` ou `effect=` ou la fin de la requête.
 
-Spécifiez `layer=comp` pour sélectionner l’image composite (ou la vue, pour certaines commandes).
+Spécifier `layer=comp` pour sélectionner l’image composite (ou la vue, pour certaines commandes).
 
 Le numéro de calque spécifie l’ordre z du calque. Les calques à numéro supérieur sont placés au-dessus des calques à numéro inférieur.
 
 Les numéros de calque ne doivent pas nécessairement être consécutifs. La couche 0 est requise.
 
-Un nom peut être attribué à un calque avec la variante de commande `layer= *`n`*, *`name`*`. Une fois défini, un calque nommé peut être référencé avec ` layer= *`name`*`, sans avoir à connaître le numéro du calque. Plusieurs noms peuvent être attribués à la même couche à l’aide de plusieurs commandes `layer= *`n`*, *`name`*`.
+Un nom peut être attribué à un calque avec la propriété `layer= *`n`*, *`name`*` variante de commande. Une fois défini, un calque nommé peut être référencé avec ` layer= *`name`*`, sans avoir à connaître le numéro du calque. Plusieurs noms peuvent être attribués à la même couche, en utilisant plusieurs `layer= *`n`*, *`name`*` des commandes.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Un nom peut être attribué à un calque avec la variante de commande `layer= *`
 
 Couche, commande. Les références de variables de substitution ne sont pas prises en charge dans `layer=`.
 
-`comp` n’est pas autorisé en tant que  *`name`* chaîne. Une erreur est renvoyée si le même *`name`* est affecté à plusieurs calques ou si un calque est référencé par *`name`* qui n’a pas été défini précédemment.
+`comp` n’est pas autorisé en tant que *`name`* chaîne. Une erreur est renvoyée si la même *`name`* est affecté à plusieurs calques ou si un calque est référencé par *`name`* qui n’a pas été défini précédemment.
 
 ## Par défaut {#section-091859a03f8048c2b7092f0fec9c1006}
 
@@ -75,4 +75,4 @@ Couche, commande. Les références de variables de substitution ne sont pas pris
 
 ## Exemple {#section-cc40de6a0a754178aa752601539c815b}
 
-Voir les exemples dans [Modèles](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).
+Voir les exemples de la section [Modèles](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).
