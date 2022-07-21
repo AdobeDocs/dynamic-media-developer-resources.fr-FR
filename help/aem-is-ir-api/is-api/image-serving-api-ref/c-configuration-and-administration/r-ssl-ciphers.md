@@ -2,12 +2,12 @@
 description: La balise Connector du fichier server.xml prend en charge un attribut ciphers afin de limiter les chiffrements pouvant être choisis pour une connexion SSL.
 solution: Experience Manager
 title: Définition des chiffrements SSL
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 7734ba02-4442-4a3d-acbf-e14d8ad66279
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 370444b85cb2636d109df4e2681e3e078d6f1e1a
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Par défaut, tous les chiffrements sont disponibles. La liste est séparée par 
 
 `SSL_RSA_EXPORT_WITH_RC4_40_MD5`
 
-`SSL_RSA_WITH_3DES_EDE_CBC_SHA`
+<!-- WEAK CQDOC-19433 `SSL_RSA_WITH_3DES_EDE_CBC_SHA` -->
 
 `SSL_RSA_WITH_DES_CBC_SHA`
 
@@ -46,10 +46,10 @@ Par défaut, tous les chiffrements sont disponibles. La liste est séparée par 
 
 `TLS_DHE_RSA_WITH_AES_128_CBC_SHA`
 
-`TLS_RSA_WITH_AES_128_CBC_SHA`
+<!-- WEAK CQDOC-19433 `TLS_RSA_WITH_AES_128_CBC_SHA` -->
 
 Si l’une des valeurs est incorrecte, Tomcat activera chaque chiffre. Il est donc essentiel de vérifier avec un outil externe après la configuration quels chiffrements sont réellement activés.
 
-Par exemple, la configuration suivante activera uniquement les suites de chiffrement &quot;128 bits&quot; et ultérieures :
+Par exemple, la configuration suivante active uniquement les suites de chiffrement &quot;128 bits&quot; et ultérieures :
 
-`ciphers="SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA,SSL_DHE_DSS_WITH_DES_CBC_SHA,SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA,SSL_RSA_WITH_3DES_EDE_CBC_SHA,TLS_DHE_DSS_WITH_AES_128_CBC_SHA,TLS_DHE_RSA_WITH_AES_128_CBC_SHA,TLS_RSA_WITH_AES_128_CBC_SHA"`
+`ciphers="SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA,SSL_DHE_DSS_WITH_DES_CBC_SHA,SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA,TLS_DHE_DSS_WITH_AES_128_CBC_SHA,TLS_DHE_RSA_WITH_AES_128_CBC_SHA"`
