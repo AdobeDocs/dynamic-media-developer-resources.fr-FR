@@ -5,8 +5,8 @@ feature-set: Experience Manager Assets
 user-guide-description: Personnalisez les visionneuses Dynamic Media pour les appareils de bureau et tactiles. Incluez des images et des vidéos interactives, des carrousels, des visionneuses à 360°, etc.
 source-git-commit: 6087b48b898e93e605c3873cbd5132b74d04225f
 workflow-type: tm+mt
-source-wordcount: '2077'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
