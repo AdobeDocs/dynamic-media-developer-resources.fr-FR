@@ -1,24 +1,24 @@
 ---
+title: TimeStamp
 description: Horodatage de modification par défaut. Fournit une valeur par défaut pour catalog TimeStamp et la vignette TimeStamp. Si elle n’est pas spécifiée, le serveur utilise la date/l’heure de modification de ce fichier catalog.ini.
 solution: Experience Manager
-title: TimeStamp
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0b6d8fa6-0ad9-4f72-8d6d-1427e5d59df3
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '213'
 ht-degree: 1%
 
 ---
 
 # TimeStamp{#timestamp}
 
-Horodatage de modification par défaut. Fournit une valeur par défaut pour catalog::TimeStamp et vignette::TimeStamp. Si elle n’est pas spécifiée, le serveur utilise la date/l’heure de modification de ce fichier catalog.ini.
+Horodatage de modification par défaut. Fournit une valeur par défaut pour `catalog::TimeStamp` et `vignette::TimeStamp`. Si elle n’est pas spécifiée, le serveur utilise la date/l’heure de modification de ce fichier catalog.ini.
 
 ## Propriétés {#section-910e2562b41c47b78ee6216deeabbbd5}
 
-Date/heure au format Java. Peut être soit le nombre entier de millisecondes écoulées depuis minuit, le 1er janvier 1970 UTC/GMT, soit une valeur de chaîne date/heure avec l’un des formats suivants :
+Valeur de date/heure au format Java™. Il peut s’agir du nombre entier de millisecondes écoulées depuis minuit, le 1er janvier 1970 UTC/GMT, ou d’une valeur de chaîne date/heure avec l’un des formats suivants :
 
 * *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]* *[!DNL zzz]*
 
@@ -26,11 +26,11 @@ Date/heure au format Java. Peut être soit le nombre entier de millisecondes éc
 
 *[!DNL hh]* se trouve dans la plage 0 à 23.
 
-*[!DNL zzz]* est un code de fuseau horaire de 3 ou 4 caractères tel que &quot;GMT&quot; ou &quot;PST&quot;. L’heure d’été doit être prise en compte dans le code de fuseau horaire (par exemple, &quot;PST&quot; pour l’heure normale du Pacifique, et &quot;PDT&quot; pour l’heure d’été du Pacifique).
+*[!DNL zzz]* est un code de fuseau horaire de trois ou quatre caractères tel que &quot;GMT&quot; ou &quot;PST&quot;. L’heure d’été doit être prise en compte dans le code de fuseau horaire (par exemple, &quot;PST&quot; pour l’heure normale du Pacifique, et &quot;PDT&quot; pour l’heure d’été du Pacifique).
 
 *[!DNL offset]* est un décalage de fuseau horaire en heures ou heures:minutes, par rapport à GMT. Par exemple, &quot;PDT&quot; équivaut à &quot;GMT -7&quot;.
 
-Tous les éléments de valeurs date/heure formatées sous forme de chaîne doivent être présents. Si la valeur date/heure n’est pas correctement formatée, elle est ignorée et l’heure de modification de [!DNL *[!DNL catalog]*.ini] est utilisé à la place.
+Tous les éléments de valeurs date/heure au format chaîne doivent être présents. Si la valeur date/heure n’est pas correctement formatée, elle est ignorée et l’heure de modification de [!DNL *[!DNL catalog]*.ini] est utilisé à la place.
 
 ## Par défaut {#section-65fb29a9ea2044df8cb9fe295eb14872}
 

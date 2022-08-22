@@ -1,13 +1,13 @@
 ---
+title: Licences
 description: Une clé de licence de rendu d’image Dynamic Media est requise et doit être installée sur chaque système sur lequel le rendu d’image est installé.
 solution: Experience Manager
-title: Licences
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c5e7e43a-1d98-43d6-909d-62e13e761dde
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---

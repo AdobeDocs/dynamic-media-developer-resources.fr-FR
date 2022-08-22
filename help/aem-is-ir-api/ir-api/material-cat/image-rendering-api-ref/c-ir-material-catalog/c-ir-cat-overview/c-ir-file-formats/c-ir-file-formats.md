@@ -1,14 +1,14 @@
 ---
+title: Formats de fichier
 description: Les fichiers d’attributs de catalogue et les fichiers de données de catalogue sont des fichiers de texte brut.
 solution: Experience Manager
-title: Formats de fichier
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 590bb485-eaf8-413a-a49a-07029e6c9789
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 12%
+source-wordcount: '28'
+ht-degree: 14%
 
 ---
 

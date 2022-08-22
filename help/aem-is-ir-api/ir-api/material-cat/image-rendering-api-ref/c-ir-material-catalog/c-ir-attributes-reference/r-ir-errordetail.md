@@ -1,13 +1,13 @@
 ---
+title: ErrorDetail
 description: Détails du message d’erreur. Indique le niveau de détail des messages d’erreur renvoyés via HTTP comme valeur error.message.
 solution: Experience Manager
-title: ErrorDetail
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 39d7fc44-7605-4f93-b2f9-0a6e8bc76ec7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '162'
 ht-degree: 5%
 
 ---
@@ -35,7 +35,7 @@ Les valeurs suivantes sont autorisées :
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>Informations de débogage complètes. Ajoute des traces de pile Java, le cas échéant. Les images d’erreur n’incluent jamais de traces de pile, mais renvoient des informations de niveau 2 dans <span class="codeph"> $error.message</span>. </p></td> 
+  <td class="stentry"> <p>Informations de débogage complètes. Ajoute des traces de pile Java™ le cas échéant. Les images d’erreur n’incluent jamais de traces de pile et renvoient plutôt des informations de niveau 2 dans <span class="codeph"> $error.message</span>. </p></td> 
  </tr> 
 </table>
 
@@ -49,7 +49,7 @@ La valeur énumérée doit être 0, 1, 2 ou 3.
 
 ## Par défaut {#section-5e78d550050840cc9a1de811c581b94f}
 
-Hérité de `default::ErrorDetail` si elle n’est pas spécifiée ou si elle est vide.
+Hérité de `default::ErrorDetail` s’il n’est pas spécifié ou s’il est vide.
 
 ## Voir aussi {#section-474e71922d194c7ca06f2aad3b30e025}
 

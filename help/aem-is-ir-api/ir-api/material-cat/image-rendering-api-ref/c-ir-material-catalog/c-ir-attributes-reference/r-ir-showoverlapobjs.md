@@ -1,14 +1,14 @@
 ---
+title: ShowOverlapObjs
 description: Afficher les objets de chevauchement. Indique si les objets de chevauchement doivent être initialement affichés ou masqués.
 solution: Experience Manager
-title: ShowOverlapObjs
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7fdf1c2d-9db9-4f37-a6d0-b6692b51155c
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 4%
+source-wordcount: '39'
+ht-degree: 5%
 
 ---
 
@@ -22,4 +22,4 @@ Indicateur.
 
 ## Par défaut {#section-e6f7e33a629b4592979bab6d14700e8f}
 
-Hérité de `default::ShowOverlapObjs` si elle n’est pas définie ou si elle est vide.
+Hérité de `default::ShowOverlapObjs` s’il n’est pas défini ou s’il est vide.

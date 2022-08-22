@@ -1,11 +1,11 @@
 ---
+title: IccProfileSrcCmyk
 description: Profil colorimétrique d’entrée par défaut CMJN. Spécifie le nom du profil de couleurs ICC à utiliser pour les images de matériaux CMJN qui n’incorporent pas de profil de couleurs.
 solution: Experience Manager
-title: IccProfileSrcCmyk
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 09be34c8-facc-40c3-ba15-c48bd93b3be1
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 3%

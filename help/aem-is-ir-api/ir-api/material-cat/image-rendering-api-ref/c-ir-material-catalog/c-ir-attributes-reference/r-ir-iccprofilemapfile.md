@@ -1,13 +1,13 @@
 ---
+title: IccProfileMapFile
 description: Chemin du fichier de mappage de profil ICC. Indique le fichier contenant le mappage de profil ICC pour ce catalogue d’images.
 solution: Experience Manager
-title: IccProfileMapFile
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 595a89e3-dc8d-49f1-80fe-83dee9da466a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '71'
 ht-degree: 5%
 
 ---
