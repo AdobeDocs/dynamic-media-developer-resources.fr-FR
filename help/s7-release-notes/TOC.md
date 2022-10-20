@@ -1,6 +1,6 @@
 ---
 title: Notes de mise à jour d’Adobe Dynamic Media Classic
-description: '"Notes de mise à jour d’Adobe Dynamic Media Classic, composant de la solution Adobe Experience Manager dans Adobe Experience Cloud."'
+description: "Notes de mise à jour d’Adobe Dynamic Media Classic, composant de la solution Adobe Experience Manager dans Adobe Experience Cloud."
 author: Rick Brough
 cloud: Experience Cloud
 product: adobe dynamic media classic
