@@ -2,13 +2,13 @@
 description: Renvoie les ressources provenant d’IPS.
 solution: Experience Manager
 title: getAssets
-feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 3b63da9c-f10a-40bf-8e3c-4f0bfc53d74c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: e7370f699fea8a2c248a33ebc8925d98231e6b26
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 20%
+source-wordcount: '118'
+ht-degree: 21%
 
 ---
 
@@ -36,7 +36,7 @@ Syntaxe
 
 ## Paramètres {#section-bb9cf1ab19ea47acbd9ae58646dbe273}
 
-**Entrée (getAssetParam)**
+**Entrée (getAssetsParam)**
 
 <table id="table_15CDEFC7F836411C80AA122E3A701C77"> 
  <thead> 
