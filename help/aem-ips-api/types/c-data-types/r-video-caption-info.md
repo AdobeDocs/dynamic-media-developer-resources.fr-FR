@@ -1,17 +1,17 @@
 ---
 description: Propriétés de légende vidéo
 title: VideoCaptionInfo
-feature: Dynamic Media Classic,SDK/API,Vidéo
+feature: Dynamic Media Classic,SDK/API,Video
 role: Developer,Admin
 exl-id: 75788ce3-7b89-4c7a-81b0-d36b13a89463
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '40'
-ht-degree: 30%
+source-wordcount: '33'
+ht-degree: 36%
 
 ---
 
-# VideoCaptionInfo{#videocaptioninfo}
+# [!DNL VideoCaptionInfo]{#videocaptioninfo}
 
 Propriétés de légende vidéo
 

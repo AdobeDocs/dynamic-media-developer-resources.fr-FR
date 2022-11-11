@@ -5,14 +5,14 @@ title: Groupe
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 843b3fa5-93d3-43db-b6c7-194e7fa4d31a
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 19%
+source-wordcount: '38'
+ht-degree: 15%
 
 ---
 
-# Groupe{#group}
+# [!DNL Group]{#group}
 
 Jeu d’utilisateurs nommé utilisé pour attribuer des autorisations.
 
@@ -24,5 +24,5 @@ Syntaxe
 |---|---|---|
 | groupHandle | `xsd:string` | Poignée de groupe. |
 | companyHandle | `xsd:string` | Poignée de la société. |
-| name | `xsd:string` | Nom du groupe. |
-| isSystemDefined | `xsd:string` | Si le groupe est défini par le système. |
+| [!DNL name] | `xsd:string` | Nom du groupe. |
+| [!DNL is SystemDefined] | `xsd:string` | Si le groupe est défini par le système. |

@@ -1,20 +1,20 @@
 ---
-description: Type de tâche pour permettre le retraitement des fichiers Principaux précédemment téléchargés, y compris la réactualisation des fichiers PDF et la réoptimisation des images.
+description: Type de tâche pour permettre le retraitement des fichiers Principaux précédemment téléchargés, y compris la réactualisation des PDF et la réoptimisation des images.
 solution: Experience Manager
 title: ReprocessAssetsJob
-feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: b6078246-54e1-4119-b4f8-ba6a28577cff
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '464'
 ht-degree: 5%
 
 ---
 
-# ReprocessAssetsJob{#reprocessassetsjob}
+# [!DNL ReprocessAssetsJob]{#reprocessassetsjob}
 
-Type de tâche pour permettre le retraitement des fichiers Principaux précédemment téléchargés, y compris la réactualisation des fichiers PDF et la réoptimisation des images.
+Type de tâche pour permettre le retraitement des fichiers Principaux précédemment téléchargés, y compris la réactualisation des PDF et la réoptimisation des images.
 
 Syntaxe
 
@@ -52,7 +52,7 @@ Syntaxe
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> preserveCrop</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3"> <p>Contrôle la conservation de toute définition de recadrage existante. Vrai par défaut.</p> <p>Si vous fournissez le paramètre manualCropOptions et les valeurs correspondantes, les nouvelles valeurs (à l’exception de 0,0,0,0) sont appliquées à la ressource, quelle que soit la valeur preserveCrop .</p><p>Si vous ne fournissez pas <i>le paramètre manualCropOptions , la valeur de preserveCrop est conservée. </i> Et, en cas de valeur true, les valeurs preserveCrop existantes sont conservées ; en cas de valeur false, les valeurs preserveCrop sont supprimées.</p><p>Par exemple :</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />    &lt;left&gt;190&lt;/left&gt;<br />    &lt;right&gt;310&lt;/right&gt;<br />    &lt;top&gt;160&lt;/top&gt;<br />    &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p> </td> 
+   <td colname="col3"> <p>Contrôle la conservation de toute définition de recadrage existante. Vrai par défaut.</p> <p>Si vous fournissez le paramètre manualCropOptions et les valeurs correspondantes, les nouvelles valeurs (à l’exception de 0,0,0,0) sont appliquées à la ressource, quelle que soit la valeur preserveCrop .</p><p>Si vous le faites <i>not</i> Si vous indiquez le paramètre manualCropOptions , la valeur de preserveCrop est conservée. Et, en cas de valeur true, les valeurs preserveCrop existantes sont conservées ; en cas de valeur false, les valeurs preserveCrop sont supprimées.</p><p>Par exemple :</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />   &lt;left&gt;190&lt;/left&gt;<br />   &lt;right&gt;310&lt;/right&gt;<br />   &lt;top&gt;160&lt;/top&gt;<br />   &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
@@ -82,7 +82,7 @@ Syntaxe
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> types:PDFOptions</span> </p> </td> 
-   <td colname="col3"> <p>Options de téléchargement de fichiers PDF vers le serveur d’images. </p> </td> 
+   <td colname="col3"> <p>Options de téléchargement de fichiers de PDF vers le serveur d’images. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> mediaOptions</span> </span> </p> </td> 
@@ -159,13 +159,13 @@ Syntaxe
 
 **Remarques**
 
-Les choix pour `*CropOptions` incluent :
+Choix pour `*CropOptions` inclure :
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-Les choix pour `*PublishJob` incluent :
+Choix pour `*PublishJob` inclure :
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

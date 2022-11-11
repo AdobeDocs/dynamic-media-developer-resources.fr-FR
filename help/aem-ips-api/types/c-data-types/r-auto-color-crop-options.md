@@ -2,17 +2,17 @@
 description: Options de recadrage automatique des images en fonction de la couleur.
 solution: Experience Manager
 title: AutoColorCropOptions
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 29d3dcfe-fddb-4806-b2aa-b96e9bbcff98
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 13%
+source-wordcount: '46'
+ht-degree: 15%
 
 ---
 
-# AutoColorCropOptions{#autocolorcropoptions}
+# [!DNL AutoColorCropOptions]{#autocolorcropoptions}
 
 Options de recadrage automatique des images en fonction de la couleur.
 

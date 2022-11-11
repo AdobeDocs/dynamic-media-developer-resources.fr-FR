@@ -1,22 +1,22 @@
 ---
-description: 'Dans ce type, le champ pageReset est significatif pour les types de ressources d’image RenderSet et Catalog. '
+description: Dans ce type, le champ pageReset est significatif pour les types de ressources d’image RenderSet et Catalog.
 solution: Experience Manager
 title: ImageSetMemberUpdate
-feature: Dynamic Media Classic,SDK/API,Visionneuses d’images
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: 4c598afb-a80c-4fac-997f-ef1c7175430c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '101'
 ht-degree: 7%
 
 ---
 
-# ImageSetMemberUpdate{#imagesetmemberupdate}
+# [!DNL ImageSetMemberUpdate]{#imagesetmemberupdate}
 
 Dans ce type, le champ pageReset est significatif pour les types de ressources d’image RenderSet et Catalog :
 
-* Pour `RenderSet`, `pageReset` indique le début d’un nouveau groupe d’affichage/d’échantillon de rendu.
+* Pour `RenderSet`, `pageReset` indique le début d’une nouvelle vue de rendu/groupe d’échantillons.
 
 * Pour le catalogue, `pageReset` indique le début d’une nouvelle page vue. En règle générale, il existe deux images de page par page vue, mais vous pouvez en avoir plus ou moins.
 
@@ -39,7 +39,7 @@ Dans ce type, le champ pageReset est significatif pour les types de ressources d
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> pageReset</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Réinitialise la page. <p>Le paramètre est ignoré et la valeur est forcée à true pour <span class="codeph"> ImageSet</span> et <span class="codeph"> SpinSet</span>. </p></td> 
+   <td colname="col3">Réinitialise la page. <p>La définition de est ignorée et la valeur est forcée à true pour <span class="codeph"> ImageSet</span> et <span class="codeph"> SpinSet</span>. </p></td> 
   </tr> 
  </tbody> 
 </table>

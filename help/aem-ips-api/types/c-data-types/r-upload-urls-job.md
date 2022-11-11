@@ -2,17 +2,17 @@
 description: Télécharge les URL à partir de l’emplacement où vous souhaitez obtenir les fichiers.
 solution: Experience Manager
 title: UploadUrlsJob
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 28bca473-670f-4588-93fb-a6d6a692ce30
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '440'
 ht-degree: 5%
 
 ---
 
-# UploadUrlsJob{#uploadurlsjob}
+# [!DNL UploadUrlsJob]{#uploadurlsjob}
 
 Télécharge les URL à partir de l’emplacement où vous souhaitez obtenir les fichiers.
 
@@ -97,7 +97,7 @@ Syntaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> pdfOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:PDFOptions</span> </td> 
-   <td colname="col3"> Options de téléchargement de fichiers PDF vers le serveur d’images. </td> 
+   <td colname="col3"> Options de téléchargement de fichiers de PDF vers le serveur d’images. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </td> 

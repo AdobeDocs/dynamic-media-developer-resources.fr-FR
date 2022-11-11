@@ -2,17 +2,17 @@
 description: Options des images Photoshop.
 solution: Experience Manager
 title: PhotoshopOptions
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0ad8e002-4fbd-442f-84ba-89cc551ec3de
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 22%
+source-wordcount: '30'
+ht-degree: 26%
 
 ---
 
-# PhotoshopOptions{#photoshopoptions}
+# [!DNL PhotoshopOptions]{#photoshopoptions}
 
 Options des images Photoshop.
 

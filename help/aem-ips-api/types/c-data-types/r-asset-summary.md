@@ -5,14 +5,14 @@ title: AssetSummary
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 25f16a2b-6cd8-485f-a6bd-2a9bc9b3243b
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '121'
 ht-degree: 12%
 
 ---
 
-# AssetSummary{#assetsummary}
+# [!DNL AssetSummary]{#assetsummary}
 
 Résultats de la recherche de métadonnées contenant des informations résumées sur une ressource.
 

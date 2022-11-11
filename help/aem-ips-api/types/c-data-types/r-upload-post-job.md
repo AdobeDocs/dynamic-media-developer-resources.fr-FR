@@ -2,21 +2,21 @@
 description: Utilise getActiveJobs pour effectuer le suivi des téléchargements de bureau.
 solution: Experience Manager
 title: UploadPostJob
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 60163016-fe96-4ac2-9208-da8192042d0f
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '465'
 ht-degree: 10%
 
 ---
 
-# UploadPostJob{#uploadpostjob}
+# [!DNL UploadPostJob]{#uploadpostjob}
 
 Utilise getActiveJobs pour effectuer le suivi des téléchargements de bureau.
 
-Voir aussi [Téléchargement de ressources au moyen de HTTP POST vers Télécharger..](../../c-http-post.md#concept-457855c0cdc943339ca1f1bed356991d).
+Voir aussi [Téléchargement de ressources au moyen de HTTP POST vers le lien Télécharger...](../../c-http-post.md#concept-457855c0cdc943339ca1f1bed356991d).
 
 >[!NOTE]
 >
@@ -110,7 +110,7 @@ Voir aussi [Téléchargement de ressources au moyen de HTTP POST vers Téléchar
    <td colname="col1"> <span class="codeph"> <span class="varname"> pdfOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:PDFOptions</span> </td> 
    <td colname="col3"> <p>Non</p> </td> 
-   <td colname="col4"> <p>Options de téléchargement de fichiers PDF vers le serveur d’images. </p> </td> 
+   <td colname="col4"> <p>Options de téléchargement de fichiers de PDF vers le serveur d’images. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </td> 
@@ -134,7 +134,7 @@ Voir aussi [Téléchargement de ressources au moyen de HTTP POST vers Téléchar
    <td colname="col1"> <span class="codeph"> <span class="varname"> preserveCrop</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Contrôle la conservation de toute définition de recadrage existante. Vrai par défaut.</p> <p>Si vous fournissez le paramètre manualCropOptions et les valeurs correspondantes, les nouvelles valeurs (à l’exception de 0,0,0,0) sont appliquées à la ressource, quelle que soit la valeur preserveCrop .</p><p>Si vous ne fournissez pas <i>le paramètre manualCropOptions , la valeur de preserveCrop est conservée. </i> Et, en cas de valeur true, les valeurs preserveCrop existantes sont conservées ; en cas de valeur false, les valeurs preserveCrop sont supprimées.</p><p>Par exemple :</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />    &lt;left&gt;190&lt;/left&gt;<br />    &lt;right&gt;310&lt;/right&gt;<br />    &lt;top&gt;160&lt;/top&gt;<br />    &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p></td> 
+   <td colname="col4"> <p>Contrôle la conservation de toute définition de recadrage existante. Vrai par défaut.</p> <p>Si vous fournissez le paramètre manualCropOptions et les valeurs correspondantes, les nouvelles valeurs (à l’exception de 0,0,0,0) sont appliquées à la ressource, quelle que soit la valeur preserveCrop .</p><p>Si vous le faites <i>not</i> Si vous indiquez le paramètre manualCropOptions , la valeur de preserveCrop est conservée. Et, en cas de valeur true, les valeurs preserveCrop existantes sont conservées ; en cas de valeur false, les valeurs preserveCrop sont supprimées.</p><p>Par exemple :</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />   &lt;left&gt;190&lt;/left&gt;<br />   &lt;right&gt;310&lt;/right&gt;<br />   &lt;top&gt;160&lt;/top&gt;<br />   &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> preservePublishState</span> </span> </td> 

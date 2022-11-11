@@ -1,20 +1,20 @@
 ---
-description: Processus qui récupère une ressource PDF existante.
+description: Processus qui récupère une ressource de PDF existante.
 solution: Experience Manager
 title: RipPdfsJob
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7a787b45-3cda-44f2-8357-8b6217b679e0
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '213'
 ht-degree: 5%
 
 ---
 
-# RipPdfsJob{#rippdfsjob}
+# [!DNL RipPdfsJob]{#rippdfsjob}
 
-Processus qui récupère une ressource PDF existante.
+Processus qui récupère une ressource de PDF existante.
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Processus qui récupère une ressource PDF existante.
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfHandleArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> types:HandleArray</span> </p> </td> 
-   <td colname="col3"> <p>Gérer le tableau de fichiers PDF à extraire. </p> </td> 
+   <td colname="col3"> <p>Gérez le tableau des fichiers de PDF à extraire. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> createMask</span> </span> </p> </td> 
@@ -121,13 +121,13 @@ Processus qui récupère une ressource PDF existante.
 
 ## Remarques {#section-0822e70fa4784131baa5ad0ba8c0fb3b}
 
-Les choix pour `*CropOptions` incluent :
+Choix pour `*CropOptions` inclure :
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-Les choix pour `*PublishJob` incluent :
+Choix pour `*PublishJob` inclure :
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

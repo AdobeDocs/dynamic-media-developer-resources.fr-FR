@@ -2,17 +2,17 @@
 description: Télécharge de manière récurrente des fichiers à partir de répertoires de serveur spécifiés.
 solution: Experience Manager
 title: UploadDirectoryJob
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a23f1bc2-aa6a-4c1d-aab5-7f6dbd08682c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 6%
+source-wordcount: '467'
+ht-degree: 7%
 
 ---
 
-# UploadDirectoryJob{#uploaddirectoryjob}
+# [!DNL UploadDirectoryJob]{#uploaddirectoryjob}
 
 Télécharge de manière récurrente des fichiers à partir de répertoires de serveur spécifiés.
 
@@ -102,7 +102,7 @@ Syntaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> pdfOptions</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:PDFOptions</span> </td> 
-   <td colname="col3"> <p>Options de téléchargement de fichiers PDF vers le serveur d’images. </p> </td> 
+   <td colname="col3"> <p>Options de téléchargement de fichiers de PDF vers le serveur d’images. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </td> 
@@ -115,7 +115,7 @@ Syntaxe
    <td colname="col3"> <p>URL de la destination de téléchargement du fichier. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> </span> </span>postImageRenderingPublishJob </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> postImageRenderingPublish</span> </span>Tâche </td> 
    <td colname="col2"> <span class="codeph"> types:ImageRendingPublishJob</span> </td> 
    <td colname="col3"> <p>Détails d’une tâche de publication de rendu d’image qui s’exécute une fois le transfert terminé. </p> </td> 
   </tr> 

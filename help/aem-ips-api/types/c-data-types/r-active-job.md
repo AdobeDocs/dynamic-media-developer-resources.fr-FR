@@ -5,14 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 3d878207-99e4-4c75-ab12-b38a37c82fb7
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '375'
 ht-degree: 9%
 
 ---
 
-# ActiveJob{#activejob}
+# [!DNL ActiveJob]{#activejob}
 
 Tâche qui s’exécute sur un serveur. Il s’agit également d’une instance d’une tâche planifiée.
 
@@ -45,12 +45,12 @@ Pour renvoyer le type de tâche, spécifiez une valeur de type de tâche. Vous p
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Handle to the company. </td> 
+   <td colname="col3"> Gérer la société. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Handle to the job. </td> 
+   <td colname="col3"> Traitez la tâche. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 

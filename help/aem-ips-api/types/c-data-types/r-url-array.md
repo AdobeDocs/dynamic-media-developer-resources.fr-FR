@@ -2,17 +2,17 @@
 description: Tableau d’URL pour invalider le cache du réseau de diffusion de contenu.
 solution: Experience Manager
 title: UrlArray
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 61225fb2-7c25-4f9c-82c9-02bf69995028
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 12%
+source-wordcount: '42'
+ht-degree: 14%
 
 ---
 
-# UrlArray{#urlarray}
+# [!DNL UrlArray]{#urlarray}
 
 Tableau d’URL pour invalider le cache du réseau de diffusion de contenu.
 

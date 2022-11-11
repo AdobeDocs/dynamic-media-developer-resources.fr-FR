@@ -5,14 +5,14 @@ title: CompanyMetadataInfo
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: a3d4dd67-07df-47bf-b9e7-1379290654ff
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '35'
-ht-degree: 14%
+source-wordcount: '30'
+ht-degree: 16%
 
 ---
 
-# CompanyMetadataInfo{#companymetadatainfo}
+# [!DNL CompanyMetadataInfo]{#companymetadatainfo}
 
 Contient des informations sur un objet de métadonnées de l’entreprise, comme l’identifiant, le nom et le type.
 
@@ -22,5 +22,5 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| Expression de code | `Code Phrase` |  |
-| Expression de code | `Code Phrase` |  |
+| [!DNL Code Phrase] | `Code Phrase` |  |
+
