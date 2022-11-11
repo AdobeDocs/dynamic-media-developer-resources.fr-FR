@@ -1,24 +1,24 @@
 ---
-description: Contrôle du cache. Permet de désactiver de manière sélective la mise en cache côté client (navigateur, serveurs proxy, systèmes de mise en cache réseau) et la mise en cache dans le cache interne du serveur Platform.
+description: Contrôle du cache. Permet de désactiver de manière sélective la mise en cache côté client (navigateur, serveurs proxy, systèmes de mise en cache réseau) et la mise en cache dans les [!DNL Platform Server] cache.
 solution: Experience Manager
 title: cache
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 622c36fa-c209-4149-a7db-85067215b5e5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 1%
+source-wordcount: '97'
+ht-degree: 2%
 
 ---
 
 # cache{#cache}
 
-Contrôle du cache. Permet de désactiver de manière sélective la mise en cache côté client (navigateur, serveurs proxy, systèmes de mise en cache réseau) et la mise en cache dans le cache interne du serveur Platform.
+Contrôle du cache. Permet de désactiver de manière sélective la mise en cache côté client (navigateur, serveurs proxy, systèmes de mise en cache réseau) et la mise en cache dans les [!DNL Platform Server] cache.
 
 `&cache= *`cacheControl`*`
 
-`&cache= *``*, *`clientControlServer`*`
+`&cache= *`clientControl`*, *`serverControl`*`
 
 <table id="simpletable_DA4D92F0AEF84FD49953876796058B7F"> 
  <tr class="strow"> 
@@ -35,8 +35,8 @@ Contrôle du cache. Permet de désactiver de manière sélective la mise en cach
  </tr> 
 </table>
 
-Si une seule valeur *`cacheControl`* est spécifiée, elle est appliquée aux caches client et serveur.
+Si seulement un *`cacheControl`* est spécifiée, elle est appliquée aux caches client et serveur.
 
-Attribut de requête. Ignoré lorsque la requête ne renvoie pas d’image de réponse. *`clientControl`* est ignorée lorsque la mise en cache côté client est désactivée par le catalogue d’images (si  `catalog::Expiration` comporte une valeur négative).
+Attribut de requête. Ignoré lorsque la requête ne renvoie pas d’image de réponse. *`clientControl`* est ignoré lorsque la mise en cache côté client est désactivée par le catalogue d’images (si `catalog::Expiration` a une valeur négative).
 
 Defaults to `cache=on,on`.

@@ -5,9 +5,9 @@ title: Caches serveur
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 6a8d44d3-ecac-4fe0-9f81-28b1cd55e7e1
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Utilisez ces paramètres de serveur pour les caches de serveur.
 
 ## PS::cache.rootPaths - Cache Data Folders {#section-f0aa808304d74ecdb0c3644f11906c53}
 
-Dossier(s) racine(s) du cache disque du serveur Platform. Un ou plusieurs chemins ou chemins de fichier absolus relatifs à *[!DNL install_folder]*, séparés par des points-virgules (;). Les données du cache de réponse HTTP sont réparties uniformément dans tous les dossiers spécifiés. Les caches des caches auxiliaires (catalogues d’images compilés et données d’images étrangères) se trouvent dans le dossier de cache Principal (le premier dossier de la liste).
+Le(s) dossier(s) racine(s) du [!DNL Platform Server]du cache disque de . Un ou plusieurs chemins ou chemins de fichier absolus relatifs à *[!DNL install_folder]*, séparés par des points-virgules (;). Les données du cache de réponse HTTP sont réparties uniformément dans tous les dossiers spécifiés. Les caches des caches auxiliaires (catalogues d’images compilés et données d’images étrangères) se trouvent dans le dossier de cache Principal (le premier dossier de la liste).
 
 ## PS::cache.maxSize - taille du cache des données de réponse {#section-ed2e1e7ba4bd4e13b77bb20c4cacddb4}
 

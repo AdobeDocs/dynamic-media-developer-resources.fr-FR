@@ -2,13 +2,13 @@
 description: Utilisez ces paramètres de serveur pour l’accès à la journalisation.
 solution: Experience Manager
 title: Journalisation des accès
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: e677a617-115d-4f6e-9eb5-bdc14ad7ff24
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 3%
+source-wordcount: '674'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ Syntaxe
 
 ## TC::directory - Log File Folder {#section-5d9e2168d4504bbe9868b7d6051c9d67}
 
-Dossier dans lequel le serveur Platform écrit les fichiers journaux. Il peut s’agir d’un chemin absolu ou d’un chemin relatif à *`install_folder`*. La valeur par défaut est [!DNL  *`install_folder`*/logs].
+Le dossier auquel la variable [!DNL Platform Server] écrit les fichiers journaux. Il peut s’agir d’un chemin absolu ou d’un chemin relatif à *`install_folder`*. La valeur par défaut est [!DNL  *`install_folder`*/logs].
 
 >[!NOTE]
 >
@@ -32,13 +32,13 @@ Le nombre de jours pendant lesquels les fichiers journaux doivent être conserv�
 
 ## TC::prefix - Nom du fichier journal d’accès {#section-1003856323b844049632710a5a056aa7}
 
-Préfixe du nom du fichier auquel les données du journal d’accès sont écrites. La date et le suffixe du fichier ( [!DNL  *`yyyy`*-*`mm`*-*`dd`*.log]) sont ajoutés à la chaîne spécifiée. Le nom du fichier journal d’accès doit être différent de celui du fichier journal de trace. La valeur par défaut est &quot;`access-`&quot;.
+Préfixe du nom du fichier auquel les données du journal d’accès sont écrites. La date et le suffixe du fichier ( [!DNL  *`yyyy`*-*`mm`*-*`dd`*.log]) sont ajoutées à la chaîne spécifiée. Le nom du fichier journal d’accès doit être différent de celui du fichier journal de trace. La valeur par défaut est &quot; `access-`&quot;.
 
 ## TC::pattern - Modèle de journal d’accès {#section-22775ea85cee444d8a7d7336a3b1feef}
 
-Spécifie le modèle de données pour les enregistrements de journaux d’accès à Platform Server. La chaîne de modèle spécifie les variables qui sont remplacées par leurs valeurs correspondantes. Tous les autres caractères de la chaîne de modèle sont transférés littéralement vers l’enregistrement de journal.
+Spécifie le modèle de données pour [!DNL Platform Server] accéder aux enregistrements du journal. La chaîne de modèle spécifie les variables qui sont remplacées par leurs valeurs correspondantes. Tous les autres caractères de la chaîne de modèle sont transférés littéralement vers l’enregistrement de journal.
 
-Pour utiliser l’utilitaire de nettoyage du cache, les espaces doivent être utilisés comme séparateurs de champ. Le serveur Platform remplace tous les espaces et les caractères &#39;%&#39; dans les valeurs de champ par `%20` et `%25`, respectivement.
+Pour utiliser l’utilitaire de nettoyage du cache, les espaces doivent être utilisés comme séparateurs de champ. Le [!DNL Platform Server] remplace tous les espaces et les caractères &quot;%&quot; dans les valeurs de champ par `%20` et `%25`, respectivement.
 
 Les variables de modèle suivantes sont prises en charge :
 
@@ -76,7 +76,7 @@ Les variables de modèle suivantes sont prises en charge :
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %G </span> </p> </td> 
-   <td> <p>date et heure, au format <span class="codeph"> <span class="varname"> aaaa </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span> : <span class="varname"> mm </span> : <span class="varname"> ss </span>. <span class="varname"> Décalage  </span> SSS  </span> </p> <p> ( <span class="varname"> SSS </span> sont msec, <span class="varname"> offset </span> est le décalage horaire GMT) ; la valeur time est capturée lorsque la réponse est envoyée au client. </p> </td> 
+   <td> <p>date et heure, au format <span class="codeph"> <span class="varname"> aaaa </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>: <span class="varname"> mm </span>: <span class="varname"> ss </span>. <span class="varname"> SSS </span> offset </span> </p> <p> ( <span class="varname"> SSS </span> sont msec, <span class="varname"> offset </span> est le décalage horaire GMT); la valeur time est capturée lorsque la réponse est envoyée au client. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %m </span> </p> </td> 
@@ -100,7 +100,7 @@ Les variables de modèle suivantes sont prises en charge :
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %R </span> </p> </td> 
-   <td> <p>Identique à <span class="codeph"> %r </span>, mais applique un codage HTTP limité à l’URI pour éviter les problèmes d’analyse des journaux. </p> </td> 
+   <td> <p>Identique à <span class="codeph"> %r </span>, mais applique un codage HTTP limité à l’URI pour éviter des problèmes d’analyse des journaux. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %s </span> </p> </td> 
@@ -131,15 +131,15 @@ Les variables de modèle suivantes sont prises en charge :
    <td> <p>Temps de traitement des demandes en secondes. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{CacheKey}r  </span> </p> </td> 
-   <td> <p>Clé de cache du serveur de plateforme (nom/dossier du fichier de cache). </p> </td> 
+   <td> <p> <span class="codeph"> %{CacheKey}r </span> </p> </td> 
+   <td> <p>[!DNL Platform Server] clé de cache (nom/dossier de fichier de cache). </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{CacheUse}r  </span> </p> </td> 
-   <td> <p>Mot-clé de gestion du cache du serveur Platform : <span class="codeph"> { REUSED | CRÉÉ | MISE À JOUR | REMOTE | REMOTE_CREATED | REMOTE_UPDATED | REMOTE_CACHE | VALIDÉ | IGNORÉ | UNDEFINED } </span>. </p> </td> 
+   <td> <p> <span class="codeph"> %{CacheUse}r </span> </p> </td> 
+   <td> <p>[!DNL Platform Server] mot-clé de gestion du cache : <span class="codeph"> { REUSED | CRÉÉ | MISE À JOUR | REMOTE | REMOTE_CREATED | REMOTE_UPDATED | REMOTE_CACHE | VALIDÉ | IGNORÉ | UNDEFINED } </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{ContentType}r  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{ContentType}r </span> </p> </td> 
    <td> <p>Type MIME de réponse. </p> </td> 
   </tr> 
   <tr> 
@@ -147,31 +147,31 @@ Les variables de modèle suivantes sont prises en charge :
    <td> <p>Contexte de destination si un contexte se produit vers l’avant. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{Digest}r  </span> </p> </td> 
-   <td> <p>Valeur de l’en-tête de réponse <span class="codeph"> etag </span> (signature MD5 des données de réponse). </p> </td> 
+   <td> <p> <span class="codeph"> %{Digest}r </span> </p> </td> 
+   <td> <p>Le <span class="codeph"> etag </span> valeur de l’en-tête de réponse (signature MD5 des données de réponse). </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{Exception}r  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{Exception}r </span> </p> </td> 
    <td> <p>Message d’erreur. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{FetchTime}r  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{FetchTime}r </span> </p> </td> 
    <td> <p>Temps nécessaire pour récupérer l’entrée ou les données du cache à partir du serveur d’images. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{ParseTime}r  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{ParseTime}r </span> </p> </td> 
    <td> <p>Temps nécessaire pour l’analyse des demandes et la recherche de catalogue d’images. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{PathBasedAccess}r  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{PathBasedAccess}r </span> </p> </td> 
    <td> <p>Indique si cette requête a tenté ou non un accès basé sur un chemin en dehors du système de catalogue. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{PeerServer}r  </span> </p> </td> 
-   <td> <p>Adresse IP du serveur homologue dans la grappe de cache qui a fourni l’entrée de cache ou "-" si <span class="codeph"> CacheUse </span> n’est pas <span class="codeph"> REMOTE_CREATED </span> ni <span class="codeph"> REMOTE_UPDATED </span>. </p> </td> 
+   <td> <p> <span class="codeph"> %{PeerServer}r </span> </p> </td> 
+   <td> <p>Adresse IP du serveur homologue dans la grappe de cache qui a diffusé l’entrée de cache ou "-" si <span class="codeph"> CacheUse </span> n’est pas <span class="codeph"> REMOTE_CREATED </span> nor <span class="codeph"> REMOTE_UPDATED </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{ProcessingStatus}r  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{ProcessingStatus}r </span> </p> </td> 
    <td> <p>Catégorie d'erreur : </p> <p> 
      <ul id="ul_BA2A18337D374939AC9BF2424247E40F"> 
       <li id="li_0A2410F03E1A41078F8E8FDF34531810"> <p>0 = aucune erreur. </p> </li> 
@@ -182,31 +182,31 @@ Les variables de modèle suivantes sont prises en charge :
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{ReqType}r  </span> </p> </td> 
-   <td> <p>La valeur de la limite supérieure de <span class="codeph"> req= </span>. </p> </td> 
+   <td> <p> <span class="codeph"> %{ReqType}r </span> </p> </td> 
+   <td> <p>La valeur de la casse supérieure de <span class="codeph"> req= </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{RootId}r  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{RootId}r </span> </p> </td> 
    <td> <p>ID racine du catalogue principal de la requête. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{SendTime}r  </span> </p> </td> 
-   <td> <p>Temps nécessaire à Platform Server pour envoyer une réponse après avoir écrit des données dans le flux de sortie. </p> </td> 
+   <td> <p> <span class="codeph"> %{SendTime}r </span> </p> </td> 
+   <td> <p>Le temps nécessaire [!DNL Platform Server] pour envoyer une réponse après avoir écrit des données dans le flux de sortie. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{Size}r  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{Size}r </span> </p> </td> 
    <td> <p>Comme <span class="codeph"> %B </span>, mais inclut des valeurs pour les réponses 304 (non modifiées). </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{TransformedUrl}r  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{TransformedUrl}r </span> </p> </td> 
    <td> <p>L’URL finale après toutes les transformations d’ensemble de règles. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{  <span class="varname"> httpRequestHeader  </span>}i  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{ <span class="varname"> httpRequestHeader </span>}i </span> </p> </td> 
    <td> <p>La valeur de l’en-tête de requête HTTP spécifié. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{  <span class="varname"> httpResponseHeader  </span>}  </span> </p> </td> 
+   <td> <p> <span class="codeph"> %{ <span class="varname"> httpResponseHeader </span>} </span> </p> </td> 
    <td> <p>La valeur de l’en-tête de réponse HTTP spécifié. </p> </td> 
   </tr> 
  </tbody> 

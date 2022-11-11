@@ -4,20 +4,20 @@ description: Ressources pour les développeurs Adobe Dynamic Media
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: be0763ba-f343-4dd0-8146-1facb4cd5b0b
-source-git-commit: d425ac8cf46343fe861cee1ea0471ffe58eca9a9
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 2%
+source-wordcount: '129'
+ht-degree: 0%
 
 ---
 
-# Ressources du développeur de Dynamic Media{#dynamic-media-developer-resource}
+# [!DNL Dynamic Media] Ressources pour les développeurs{#dynamic-media-developer-resource}
 
-* [Guide de référence des visionneuses ](/help/aem-viewers-ref/homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html) -->
-Personnalisez les visionneuses Dynamic Media à utiliser sur les ordinateurs de bureau et les appareils à écran tactile. Certains des types de médias que vous pouvez utiliser sont les suivants : images et vidéos interactives, vidéo à 360 degrés, carrousels, zoom d’image, vidéo, catalogues, vidéos, fichiers, supports variés et visionneuses à 360°.
-* [Image Serving/Image Rendering ](/help/aem-is-ir-api/homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html) -->
-APIDocumentation sur les API IS (Image Serving) et IR (Image Rendering) et les technologies associées. Si vous travaillez sur l’intégration de Dynamic Media Classic avec Adobe Experience Manager, vous devez vous référer à la partie IS de l’API.
-* [Image Production System ](/help/aem-ips-api/c-overview.md)
-APIT L’API de service Web IPS (Image Production System) permet aux applications externes et aux développeurs tiers d’accéder par programmation aux ressources et fonctionnalités d’IPS.
-* [](/help/s7-release-notes/s7rn2017.md)
-Notes de mise à jour de Dynamic Media ClassicNotes de mise à jour les plus récentes pour  [!DNL Adobe Dynamic Media Classic]une partie de la  [!DNL Adobe Experience Manager] solution dans  [!DNL Adobe Experience Cloud].
+* [Guide de référence des visionneuses](/help/aem-viewers-ref/homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html) -->
+Personnaliser [!DNL Dynamic Media] visionneuses à utiliser sur les ordinateurs de bureau et les appareils à écran tactile. Certains des types de médias que vous pouvez utiliser sont les suivants : images et vidéos interactives, vidéo à 360 degrés, carrousels, zoom d’image, vidéo, catalogues, vidéos, fichiers, supports variés et visionneuses à 360°.
+* [API de diffusion d’images/rendu d’images](/help/aem-is-ir-api/homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html) -->
+Documentation sur les API IS (Image Serving) et IR (Image Rendering) et les technologies associées. Si vous travaillez sur [!DNL Dynamic Media] Intégration classique avec Adobe Experience Manager, vous devez vous référer à la partie IS de l’API.
+* [API du système de production d’images](/help/aem-ips-api/c-overview.md)
+L’API de service Web IPS (Image Production System) permet aux applications externes et aux développeurs tiers d’accéder par programmation aux ressources et fonctionnalités d’IPS.
+* [[!DNL Dynamic Media] Notes de mise à jour classiques](/help/s7-release-notes/s7rn2017.md)
+Notes de mise à jour les plus récentes pour Adobe [!DNL Dynamic Media] Partie classique de la [!DNL Adobe Experience Manager] dans la [!DNL Adobe Experience Cloud].

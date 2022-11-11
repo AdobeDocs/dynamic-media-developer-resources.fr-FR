@@ -5,9 +5,9 @@ title: Référence d’ensemble de règles
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: dfbb5f5e-d75a-496a-8b97-f102ad1a34d5
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ La diffusion d’images prend en charge un mécanisme de prétraitement des requ
 
 Collections de règles de prétraitement (*ensembles de règles*) peut être joint aux catalogues d’images ou au catalogue par défaut. Les règles du catalogue par défaut s’appliquent uniquement si la requête n’identifie pas un catalogue d’images principal spécifique.
 
-Les règles de prétraitement des requêtes peuvent modifier les parties de chemin et de requête des requêtes avant qu’elles ne soient traitées par l’analyseur du serveur Platform, notamment en manipulant le chemin, en ajoutant des commandes, en modifiant les valeurs de commande et en appliquant des modèles ou des macros. Des règles peuvent également être utilisées pour configurer et remplacer certaines fonctionnalités de sécurité qui sont normalement contrôlées uniquement avec des attributs de catalogue, comme l’obscurcissement des demandes, le marquage à l’eau, ainsi que la limitation du service à des adresses IP client spécifiques.
+Les règles de prétraitement des requêtes peuvent modifier les parties de chemin et de requête des requêtes avant qu’elles ne soient traitées par la variable [!DNL Platform Server]l’analyseur d’ , y compris la manipulation du chemin, l’ajout de commandes, la modification des valeurs de commande et l’application de modèles ou de macros. Des règles peuvent également être utilisées pour configurer et remplacer certaines fonctionnalités de sécurité qui sont normalement contrôlées uniquement avec des attributs de catalogue, comme l’obscurcissement des demandes, le marquage à l’eau, ainsi que la limitation du service à des adresses IP client spécifiques.
 
 Les ensembles de règles sont stockés sous la forme de fichiers de document XML. Le chemin relatif ou absolu du fichier d’ensemble de règles doit être spécifié dans `attribute::RuleSetFile`.
 

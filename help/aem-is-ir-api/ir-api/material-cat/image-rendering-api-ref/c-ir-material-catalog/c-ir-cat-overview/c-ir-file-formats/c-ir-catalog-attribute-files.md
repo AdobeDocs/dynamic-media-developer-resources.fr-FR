@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8b5afb99-3201-4e43-93e7-e8998354204f
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Les fichiers d’attributs du catalogue se composent d’un ensemble d’enregis
 </table>
 
 * L’espace entre les jetons est facultatif.
-* Les enregistrements avec des noms d’attribut inconnus sont ignorés par le serveur Platform.
+* Les enregistrements dont les noms d’attribut sont inconnus sont ignorés par [!DNL Platform Server].
 * Les noms d’attribut peuvent être composés de n’importe quelle combinaison de lettres ASCII, de nombres et de &quot;-&quot;, &quot;_&quot; et &quot;.&quot;
 * Si le même nom d’attribut apparaît plusieurs fois dans le même fichier d’attributs, c’est le dernier qui se produit qui prévaut.
 * Utilisez &quot;#&quot; comme premier caractère pour marquer un enregistrement comme commentaire, ce que l’analyseur ignore.

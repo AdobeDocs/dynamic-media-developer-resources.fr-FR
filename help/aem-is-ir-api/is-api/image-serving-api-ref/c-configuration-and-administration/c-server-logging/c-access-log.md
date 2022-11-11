@@ -1,25 +1,25 @@
 ---
-description: Il s’agit du Principal journal qui effectue le suivi de toutes les requêtes HTTP envoyées au serveur Platform. S’il est activé, le rendu d’image écrit ses données de journal d’accès dans le même fichier.
+description: Il s’agit du Principal journal qui effectue le suivi de toutes les requêtes HTTP envoyées au [!DNL Platform Server]. S’il est activé, le rendu d’image écrit ses données de journal d’accès dans le même fichier.
 solution: Experience Manager
 title: Journal d’accès
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: e7f9d935-cb98-404c-8922-6420a4217733
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
 
 # Journal d’accès{#access-log}
 
-Il s’agit du Principal journal qui effectue le suivi de toutes les requêtes HTTP envoyées au serveur Platform. S’il est activé, le rendu d’image écrit ses données de journal d’accès dans le même fichier.
+Il s’agit du Principal journal qui effectue le suivi de toutes les requêtes HTTP envoyées au [!DNL Platform Server]. S’il est activé, le rendu d’image écrit ses données de journal d’accès dans le même fichier.
 
 Le journal des accès est configuré dans server.xml.
 
 >[!NOTE]
 >
->Outre le trafic client pour la diffusion d’images ( [!DNL /is/image/*]) et le rendu d’images ( [!DNL /ir/render/*]), le journal des accès peut inclure un certain trafic interne : l’accès au système de catalogue de Platform Server ( [!DNL /is-catalog/*]), le partage du cache et les demandes de redirection d’erreur ( [!DNL /is/cache/*]), l’accès à d’autres packages déployés sur le serveur Platform, tels que les visionneuses Dynamic Media ( [!DNL /is-viewers/*]), le trafic statique et les demandes de contenu statique fournies par le serveur Platform (par exemple, [!DNL /is-docs/*]).
+>Outre le trafic client pour la diffusion d’images ( [!DNL /is/image/*]) et rendu d’image ( [!DNL /ir/render/*]), le journal des accès peut contenir un certain trafic interne : accès au [!DNL Platform Server] système de catalogue ( [!DNL /is-catalog/*]), partage du cache et demandes de redirection d’erreur ( [!DNL /is/cache/*]), accès aux autres modules déployés sur le [!DNL Platform Server], comme les visionneuses Dynamic Media ( [!DNL /is-viewers/*]), les demandes de trafic statique et de contenu statique traitées par le [!DNL Platform Server] (par exemple, [!DNL /is-docs/*]).
 
-Les requêtes avec les chemins racine [!DNL /is-catalog] et [!DNL /is/cache] doivent toujours être exclues de toute analyse du trafic client.
+Requêtes avec [!DNL /is-catalog] et [!DNL /is/cache] les chemins racine doivent toujours être exclus de toute analyse du trafic client.

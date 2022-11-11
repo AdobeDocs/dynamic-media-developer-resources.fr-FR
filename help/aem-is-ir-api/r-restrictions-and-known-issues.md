@@ -5,9 +5,9 @@ title: Restrictions et problèmes connus
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fd32456b-9d99-4e82-a61c-2fc4d7030630
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1222'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,9 @@ Certaines restrictions et problèmes connus doivent être pris en compte lors de
 * Si la dernière ligne de texte ne tient pas, la ligne entière est supprimée au lieu d’apparaître comme coupure.
 * `\slmult` et `\sl` se comportent différemment de MS Word et de `text=`, elles prennent simplement effet pour les paragraphes actuels et suivants.
 
-* `\sb` s’applique au premier paragraphe pour MS Word et `text=`, Adobe InDesign et Photoshop ne le font pas.
+* `\sb` s’applique au premier paragraphe pour MS Word et `text=`, Adobe InDesign et [!DNL Photoshop] ne faites pas cela.
 
-* `\sa` s’applique au dernier paragraphe pour MS Word et `text=`, Adobe InDesign et Photoshop ne le font pas.
+* `\sa` s’applique au dernier paragraphe pour MS Word et `text=`, Adobe InDesign et [!DNL Photoshop] ne faites pas cela.
 
 ## Compatibilité descendante {#section-a76842f751944f4fb664af296d064122}
 
@@ -90,15 +90,15 @@ La bibliothèque Digimarc refuse d’appliquer un filigrane Digimarc à une imag
 
    Pour les TIFFs non pyramidaux de diffusion d’images, augmentez la valeur de propriété pour `MaxNonDsfSize` dans le [!DNL install_root/ImageServing/bin/ImageServerRegistry.xml] fichier de configuration.
 
-* Adobe Photoshop CS3 n’enregistre pas par défaut les fichiers de PSD superposés d’une image composite.
+* Adobe [!DNL Photoshop] CS3 n’enregistre pas par défaut les fichiers de PSD superposés d’une image composite.
 
    *Symptômes*:
 
-   Le fichier de PSD en couches Adobe Photoshop CS3 s’affiche en noir avec le texte indiquant &quot;Ce fichier Photoshop en couches n’a pas été enregistré avec une image composite.&quot; pour l’image de réponse du serveur d’images ou dans IPS.
+   L&#39;Adobe [!DNL Photoshop] Le fichier de PSD en couches CS3 s’affiche en noir avec le texte indiquant : &quot;Cette couche [!DNL Photoshop] n’a pas été enregistré avec une image composite.&quot; pour l’image de réponse du serveur d’images ou dans IPS.
 
    *Solution* :
 
-   Enregistrez le fichier Adobe Photoshop CS3 avec la compatibilité maximale activée.
+   Enregistrer l’Adobe [!DNL Photoshop] Fichier CS3 avec une compatibilité maximale activée.
 
 * L’affectation d’un profil ICC à une image de réponse CMJN/JPEG entraîne l’inversion des couleurs dans certains navigateurs.*Solution*:
 
@@ -116,7 +116,7 @@ La bibliothèque Digimarc refuse d’appliquer un filigrane Digimarc à une imag
 * Les images PNG 16 bpc ne sont pas prises en charge pour le texte PhotoFont.
 * Les corrections de couleurs pour les images PNG avec profils de couleurs incorporés utilisent des options codées en dur. L’intention de rendu est colorimétrique relatif et la compensation du point noir est activée pour le texte PhotoFont.
 * La recherche basée sur des fichiers n’est pas prise en charge lorsque la traduction des paramètres régionaux est activée dans l’entreprise. [!DNL ini] fichier .
-* La diffusion d’images n’écrit pas correctement les chemins Photoshop non fermés.
+* Le serveur d’images n’écrit pas non fermé [!DNL Photoshop] chemins d’accès correctement.
 * Le service d’images ne prend actuellement pas en charge le traitement des fichiers de TIFF exportés à l’aide de Adobe Media Encoder 4.0.1 ou version antérieure. Adobe Media Encoder est fourni avec Premiere Pro CS4, After Effects CS4 et Creative Suite 4 Production Premium.
 * Utilisation `text=` avec les calques auto-dimensionnés ne prend pas en charge les chaînes RTF qui utilisent plusieurs paramètres pour la justification de ligne.
 

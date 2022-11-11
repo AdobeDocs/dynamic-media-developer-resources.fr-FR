@@ -2,12 +2,12 @@
 description: Tous les fichiers journaux sont écrits dans le même dossier de journaux que celui spécifié dans le répertoire TC.
 solution: Experience Manager
 title: Journalisation du serveur
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 5be30dd6-e540-4189-9379-7465ac7198ce
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '167'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ Les fichiers journaux sont généralement créés et pivotés quotidiennement. L
 
 Important : Une quantité suffisante d’espace disque doit être réservée aux fichiers journaux pour éviter que l’espace disque ne manque. 1 à 2 Go/jour peut être nécessaire pour un serveur très utilisé et les paramètres de journal par défaut.
 
-Platform Server et Image Server créent les trois types de fichiers journaux décrits ci-dessous.
+Le [!DNL Platform Server] et le serveur d’images créent les trois types de fichiers journaux décrits ci-dessous.
 
 D’autres composants de diffusion d’images et certains autres modules Dynamic Media, tels que les visionneuses Dynamic Media, peuvent également créer des fichiers journaux dans le même dossier. Ces fichiers journaux sont destinés à un usage interne de Dynamic Media et peuvent être demandés par le support technique de Dynamic Media à des fins de dépannage.
 
@@ -30,4 +30,4 @@ D’autres composants de diffusion d’images et certains autres modules Dynamic
 
 ## Voir aussi {#section-5ff5e46031b1461c92de24e632610d6d}
 
-[Journalisation des accès](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-access-logging.md#reference-5d175921c12a48a6be7f722517615d0f),  [débogage/suivi](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-debug-trace-logging.md#reference-4b372f81001849f5b495457da7af8e82)
+[Journalisation des accès](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-access-logging.md#reference-5d175921c12a48a6be7f722517615d0f), [Journalisation de débogage/suivi](../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-server-settings/r-debug-trace-logging.md#reference-4b372f81001849f5b495457da7af8e82)

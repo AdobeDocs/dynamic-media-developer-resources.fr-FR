@@ -1,13 +1,13 @@
 ---
 title: Téléchargement de ressources au moyen de HTTP POST vers le servlet UploadFile
-description: Le chargement de ressources dans Dynamic Media Classic implique une ou plusieurs requêtes de POST HTTP qui configurent une tâche afin de coordonner toutes les activités de journal associées aux fichiers chargés.
+description: Chargement de ressources dans [!DNL Dynamic Media] Classic implique une ou plusieurs requêtes de POST HTTP qui configurent une tâche pour coordonner toutes les activités de journal associées aux fichiers chargés.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e40293be-d00f-44c1-8ae7-521ce3312ca8
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '723'
 ht-degree: 3%
 
 ---

@@ -2,12 +2,12 @@
 description: Contient les paramètres de configuration du superviseur du serveur.
 solution: Experience Manager
 title: SupervisorRegistry.xml
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: cc6a16fb-fd70-431f-aad6-adb99d4da062
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Redémarrez le service d’images après avoir modifié ce fichier pour vous ass
             <stopTimeout>60</stopTimeout>
         </server>
         <server id="ps">
-            <description>Dynamic Media Platform Server</description>
+            <description>Dynamic Media [!DNL Platform Server]</description>
             <profile ref="Java32"/>
             <profile ref="PlatformServer"/>
             <profile ref="Tomcat"/>

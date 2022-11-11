@@ -2,12 +2,12 @@
 description: Le catalogue par défaut fournit des valeurs par défaut pour tous les attributs de catalogue pour tous les catalogues d’images.
 solution: Experience Manager
 title: Catalogue par défaut
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: db42fb67-aa6f-4217-bc69-45b01bbd0b10
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,8 @@ Si un attribut particulier est introuvable dans un catalogue d’images spécifi
 
 En outre, le catalogue par défaut fournit tous les attributs et enregistrements de données (macros, polices, profils ICC, règles de prétraitement des demandes) lorsqu’aucun catalogue d’images spécifique n’est impliqué dans une opération.
 
-Pour que le serveur Platform fonctionne correctement, le fichier d’attributs du catalogue pour le catalogue par défaut doit être nommé [!DNL default.ini], doit toujours exister dans le dossier du catalogue et doit être entièrement renseigné avec tous les attributs requis, à l’exclusion de `attribute::RootId` et les références aux différents fichiers de données du catalogue, qui sont tous facultatifs.
+Pour un bon fonctionnement de la fonction [!DNL Platform Server] le fichier d’attributs de catalogue du catalogue par défaut doit être nommé [!DNL default.ini], doit toujours exister dans le dossier de catalogue et doit être entièrement renseigné avec tous les attributs requis, à l’exception de `attribute::RootId` et les références aux différents fichiers de données de catalogue, qui sont tous facultatifs.
 
 >[!NOTE]
 >
->Tous les fichiers d’attributs du catalogue à l’exception de [!DNL default.ini] doivent contenir une valeur `attribute::RootId` unique. `attribute::RootId` dans  [!DNL default.ini] doit être vide.
+>Tous les fichiers d’attributs du catalogue sauf [!DNL default.ini] doit contenir une variable unique `attribute::RootId` . `attribute::RootId` in [!DNL default.ini] doit être vide.

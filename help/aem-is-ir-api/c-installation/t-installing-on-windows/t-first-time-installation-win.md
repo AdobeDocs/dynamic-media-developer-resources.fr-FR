@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4e34d78c-1b5b-45cf-acc5-ff12cbc6ed01
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -33,14 +33,14 @@ Pour installer Image Serving pour la première fois sous Windows, procédez comm
    **Important :** La licence est basée sur l’adresse MAC de l’une des cartes d’interface réseau installées sur cet hôte. Si vous désactivez, supprimez ou remplacez cette carte, la licence n’est plus reconnue comme valide. Veillez à obtenir une licence pour la configuration matérielle que vous utilisez pour la diffusion d’images.
 
    Vous pouvez continuer à installer IS sans licence valide et installer la licence ultérieurement. Pour continuer, sélectionnez **[!UICONTROL Précédent]** pour revenir au [!DNL Authentication] , puis sélectionnez **[!UICONTROL Suivant]**.
-1. Accédez à la page &quot;Paramètres d’administration du serveur de plateforme&quot;. Saisissez de nouvelles valeurs si nécessaire ou acceptez les valeurs par défaut.
+1. Accédez au[!DNL Platform Server] Paramètres d’administration&quot;. Saisissez de nouvelles valeurs si nécessaire ou acceptez les valeurs par défaut.
 
    Vous pouvez configurer les éléments suivants :
 
    <table id="table_AA5D7674BBBE4AD4B373066AEF413FFD"> 
    <tbody> 
    <tr> 
-      <td> <p> Port de connexion HTTP du serveur de plateformes </p> </td>
+      <td> <p> [!DNL Platform Server] Port de connexion HTTP </p> </td>
       <td> <p>Port d’écoute HTTP principal pour la diffusion d’images et le rendu d’images </p> </td>
    </tr> 
    <tr> 
@@ -48,11 +48,11 @@ Pour installer Image Serving pour la première fois sous Windows, procédez comm
       <td> <p>Port d’écoute de l’administrateur </p> </td>
    </tr> 
    <tr> 
-      <td> <p> Taille du cache du serveur de plateformes en Mo </p> </td>
+      <td> <p> [!DNL Platform Server] Taille du cache en Mo </p> </td>
       <td> <p>Taille initiale du cache de réponse principal </p> </td>
    </tr>
    <tr> 
-      <td> <p> Emplacement du cache du serveur de plateformes </p> </td>
+      <td> <p> [!DNL Platform Server] Emplacement du cache </p> </td>
       <td> <p>Dossier de cache PS </p> </td>
    </tr>
    </tbody>

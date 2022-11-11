@@ -5,9 +5,9 @@ title: Résolution des incidents
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b80d3c9a-a0c4-4944-9f91-e791a072cd5f
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '520'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ La raison de ce message d’erreur est que le serveur d’images n’a pas pu al
 
 **L’espace disque réel utilisé par le dossier de cache dépasse ` *[!DNL cache.maxSize]*`set in[!DNL PlatformServer.conf]**
 
-Cela n’indique pas de problème. La surcharge du système de fichiers n’est pas incluse dans le paramètre de cache disque du serveur Platform. Le montant total signalé par le système peut être considérablement supérieur au paramètre . Il est recommandé de réserver deux fois plus d’espace disque que celui spécifié dans ` *[!DNL cache.maxSize]*`.
+Cela n’indique pas de problème. La surcharge du système de fichiers n’est pas incluse dans la variable [!DNL Platform Server]Paramètre du cache disque de . Le montant total signalé par le système peut être considérablement supérieur au paramètre . Il est recommandé de réserver deux fois plus d’espace disque que celui spécifié dans ` *[!DNL cache.maxSize]*`.
 
 **Images rompues dans les exemples is-docs**
 
@@ -43,11 +43,11 @@ Les exemples supposent également que certains paramètres de la variable [!DNL 
 
 **Trop de pertes de cache après une disponibilité importante**
 
-Selon l’utilisation du serveur, les performances peuvent être améliorées en augmentant la taille du cache disque de Platform Server si de l’espace disque est disponible. Vous pouvez modifier les paramètres en modifiant manuellement les fichiers de configuration. Voir la documentation .
+En fonction de l’utilisation du serveur, les performances peuvent être améliorées en augmentant [!DNL Platform Server] taille du cache disque si de l’espace disque est disponible. Vous pouvez modifier les paramètres en modifiant manuellement les fichiers de configuration. Voir la documentation .
 
 **Les fichiers journaux occupent trop d’espace disque**
 
-Le serveur d’images et le serveur de plateforme démarrent un nouveau fichier journal tous les jours. Par défaut, elles sont placées dans [!DNL *[!DNL install_root]*/ImageServing/logs]. La taille du fichier journal, le nombre de journaux conservés et le contenu du journal peuvent être configurés. Voir la documentation .
+Serveur d’images et [!DNL Platform Server] lancez un nouveau fichier journal tous les jours. Par défaut, elles sont placées dans [!DNL *[!DNL install_root]*/ImageServing/logs]. La taille du fichier journal, le nombre de journaux conservés et le contenu du journal peuvent être configurés. Voir la documentation .
 
 **Si un logiciel anti-virus est installé sur votre serveur**
 

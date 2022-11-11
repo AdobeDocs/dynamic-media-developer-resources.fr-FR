@@ -2,12 +2,12 @@
 description: Contient les paramètres relatifs à la gestion des catalogues d’images.
 solution: Experience Manager
 title: catalog-server.conf
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 55e55381-3828-4937-8746-a74e82d6ca38
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Contient les paramètres relatifs à la gestion des catalogues d’images.
 
-Ce fichier est un fichier de propriétés JAVA. Il faut veiller à respecter les conventions appropriées ; dans le cas contraire, il se peut que le serveur Platform ne démarre pas. Utilisez une double barre oblique inverse &quot;\\&quot; ou une seule barre oblique inverse &quot;/&quot; au lieu d’une barre oblique inverse &quot;\&quot; dans les chemins d’accès aux fichiers Windows. La barre oblique inverse est utilisée comme caractère d’échappement dans ce type de fichier.
+Ce fichier est un fichier de propriétés JAVA. Il faut veiller à respecter les conventions appropriées ; dans le cas contraire, [!DNL Platform Server] peut ne pas démarrer. Utilisez une double barre oblique inverse &quot;\\&quot; ou une seule barre oblique inverse &quot;/&quot; au lieu d’une barre oblique inverse &quot;\&quot; dans les chemins d’accès aux fichiers Windows. La barre oblique inverse est utilisée comme caractère d’échappement dans ce type de fichier.
 
 Les modifications apportées à ce fichier prennent effet peu de temps après l’enregistrement du fichier.
 

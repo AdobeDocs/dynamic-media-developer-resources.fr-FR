@@ -2,12 +2,12 @@
 description: Utilisez ces paramètres de serveur pour configurer les seuils d’alerte.
 solution: Experience Manager
 title: Seuils d'alerte
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 1ae76692-2688-4902-82a0-d0751408eee7
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Une alerte de trafic minimale est envoyée lorsque le nombre moyen de demandes r
 
 ## AS::monitorAlertGenerator.minFreeHeapSpace - Seuil d’espace-tas libre {#section-ce6705045f6842769030ccb1894594cc}
 
-Spécifie l’espace de tas Java libre minimum. Une alerte de priorité est envoyée immédiatement après un cycle de nettoyage de la mémoire Java lorsque l’espace de tas disponible est inférieur à ce seuil. 50 Mo est recommandé pour un bon fonctionnement de Platform Server. Le fait de conserver un espace de tas libre au-dessus de cette valeur réduit la fréquence des cycles de nettoyage de la mémoire, ce qui peut améliorer les performances globales du serveur. Valeur entière en octets, 0 ou plus.
+Spécifie l’espace de tas Java libre minimum. Une alerte de priorité est envoyée immédiatement après un cycle de nettoyage de la mémoire Java lorsque l’espace de tas disponible est inférieur à ce seuil. 50 Mo est recommandé pour un fonctionnement sécurisé de la variable [!DNL Platform Server]. Le fait de conserver un espace de tas libre au-dessus de cette valeur réduit la fréquence des cycles de nettoyage de la mémoire, ce qui peut améliorer les performances globales du serveur. Valeur entière en octets, 0 ou plus.
 
 ## AS::monitorAlertGenerator.maxOverlap - Nombre maximal de requêtes simultanées {#section-ddc6925bff944758ab19bcc9cf3f2589}
 

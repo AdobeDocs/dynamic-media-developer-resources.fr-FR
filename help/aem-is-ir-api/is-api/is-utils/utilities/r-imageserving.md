@@ -2,12 +2,12 @@
 description: Script de contrôle du serveur d’images. Ce script est utilisé pour démarrer, arrêter ou redémarrer le superviseur du serveur de diffusion d’images, qui à son tour démarre, arrête ou redémarre tous les autres composants de diffusion d’images.
 solution: Experience Manager
 title: ImageServing
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 252e12d9-703e-4fbb-a156-8dcdc3bc4f2e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '147'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ Script de contrôle du serveur d’images. Ce script est utilisé pour démarrer
    <td colname="col2"> <p> Démarrez le responsable serveur et tous les autres composants de la diffusion d’images. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> stop  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> stop </span> </p> </td> 
    <td colname="col2"> <p> Arrêtez tous les composants du serveur d’images, y compris le responsable du serveur. </p> </td> 
   </tr> 
   <tr> 
@@ -43,12 +43,12 @@ Script de contrôle du serveur d’images. Ce script est utilisé pour démarrer
    <td colname="col2"> <p>Redémarrez tous les composants du serveur d’images, y compris le responsable du serveur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> restart { ps | is | svg }  </span> </p> </td> 
-   <td colname="col2"> <p> Redémarre Tomcat/Platform Server, Image Server ou SVG. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> restart { ps | is | svg } </span> </p> </td> 
+   <td colname="col2"> <p> Redémarre Tomcat/[!DNL Platform Server], le serveur d’images ou le SVG. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> status [ ps | is | svg ]  </span> </p> </td> 
-   <td colname="col2"> <p>Renvoie les informations de disponibilité et d’utilisation actuelle de la mémoire pour le serveur d’images, Tomcat/Platform Server et le serveur SVGserver, ou l’état pour le serveur spécifié uniquement ; un message d’information est renvoyé si le responsable du serveur n’est pas en cours d’exécution. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> status [ ps | is | svg ] </span> </p> </td> 
+   <td colname="col2"> <p>Renvoie les informations de disponibilité et d’utilisation actuelle de la mémoire pour Image Server, Tomcat/[!DNL Platform Server], et SVGserver, ou statut pour le seul serveur spécifié ; un message d’information est renvoyé si le responsable du serveur n’est pas en cours d’exécution. </p> </td> 
   </tr> 
  </tbody> 
 </table>

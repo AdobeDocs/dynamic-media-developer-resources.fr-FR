@@ -2,12 +2,12 @@
 description: 'La diffusion d’images Scene 7 se compose des composants suivants : '
 solution: Experience Manager
 title: Composants de diffusion d’images
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67dd37f3-b11e-42d6-b308-7c1e76a8f2a9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '200'
 ht-degree: 2%
 
 ---
@@ -37,12 +37,12 @@ La diffusion d’images Scene 7 se compose des composants suivants :
    <td colname="col2"> <p>Application J2EE. Permet la surveillance du serveur et les alertes par e-mail. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Serveur de plateformes </p> </td> 
+   <td colname="col1"> <p>[!DNL Platform Server] </p> </td> 
    <td colname="col2"> <p>Application J2EE. Gère les connexions client, la journalisation et les communications avec d’autres composants. Accès HTTP à <span class="filepath"> /is/image</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Service de mise en cache </p> </td> 
-   <td colname="col2"> <p>Application J2EE. Gère les caches de données du serveur Platform. Accès HTTP à /is/cache. </p> </td> 
+   <td colname="col2"> <p>Application J2EE. Gère la variable [!DNL Platform Server]des caches de données de . Accès HTTP à /is/cache. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Image Server </p> </td> 
@@ -50,7 +50,7 @@ La diffusion d’images Scene 7 se compose des composants suivants :
   </tr> 
   <tr> 
    <td colname="col1"> <p>Composant de rendu de texte ATE </p> </td> 
-   <td colname="col2"> <p>Une ou plusieurs instances du service de rendu de texte peuvent être principales lorsque les opérations <span class="codeph"> textPs=</span> sont exécutées. </p> </td> 
+   <td colname="col2"> <p>Une ou plusieurs instances du service de rendu de texte peuvent être principales lorsque <span class="codeph"> textPs=</span> Les opérations sont exécutées. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Composant de rendu SVG </p> </td> 
@@ -58,9 +58,9 @@ La diffusion d’images Scene 7 se compose des composants suivants :
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rendu d’image Dynamic Media (alias Render Server) </p> </td> 
-   <td colname="col2"> <p>Nécessite une licence distincte à activer. Accès HTTP à <span class="filepath"> /ir/render</span>. Toutes les fonctionnalités de rendu d’image sont intégrées au serveur Platform et au serveur d’images, sans composants exécutables distincts. </p> </td> 
+   <td colname="col2"> <p>Nécessite une licence distincte à activer. Accès HTTP à <span class="filepath"> /ir/render</span>. Toutes les fonctionnalités de rendu d’image sont intégrées à la fonction [!DNL Platform Server] et le serveur d’images, sans composants exécutables distincts. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-D’autres paramètres de configuration sont fournis par le catalogue par défaut ( [!DNL default.ini]) ou des catalogues d’images spécifiques (voir [Catalogues d’images](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) pour plus d’informations).
+D’autres paramètres de configuration sont fournis par le catalogue par défaut ( [!DNL default.ini]) ou des catalogues d’images spécifiques (voir [Catalogues d’images](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) pour plus de détails).

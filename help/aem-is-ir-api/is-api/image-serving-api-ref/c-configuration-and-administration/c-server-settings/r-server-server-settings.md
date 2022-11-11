@@ -2,12 +2,12 @@
 description: Utilisez ces paramètres de serveur pour configurer votre serveur.
 solution: Experience Manager
 title: Serveur
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 10970ca8-b209-4adf-b027-6eb8d7a15db6
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,15 @@ Les versions 32 et 64 bits du serveur d’images sont disponibles pour Linux. Sp
 
 >[!NOTE]
 >
->Le mode 64 bits n’est pas pris en charge sous Windows. Seul `ImageServer32` peut être spécifié. Sinon, la diffusion d’images ne démarrera pas.
+>Le mode 64 bits n’est pas pris en charge sous Windows. Uniquement `ImageServer32` peut être spécifié. Sinon, la diffusion d’images ne démarrera pas.
 
-## SV::PsHeapSize - Platform Server Heap Size {#section-fd83715948764aeda58d6b3a9f9f8be9}
+## SV::PsHeapSize - [!DNL Platform Server] Taille du tas {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
-Taille du tas Java pour le serveur Platform. La valeur par défaut est &quot;`512m`&quot; (512 Mo).
+La taille du tas Java de la variable [!DNL Platform Server]. La valeur par défaut est &quot; `512m`&quot; (512 Mo).
 
 ## IS::TcpPort, PS::isConnection.port - Image Server Listening Port {#section-5421bfd2ca2a4a979faf812b6fdb2887}
 
-Indique le port utilisé pour la communication entre le serveur de plateformes et le serveur d’images. Veillez à spécifier un numéro de port qui n’est pas utilisé autrement sur le système hôte.
+Spécifie le port utilisé pour la communication entre le [!DNL Platform Server] et le serveur d’images. Veillez à spécifier un numéro de port qui n’est pas utilisé autrement sur le système hôte.
 
 >[!NOTE]
 >
