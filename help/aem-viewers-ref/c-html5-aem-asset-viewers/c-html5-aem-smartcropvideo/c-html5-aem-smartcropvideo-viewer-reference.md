@@ -6,16 +6,16 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 937be8a2-307e-47bb-9fc8-d354f780a214
-source-git-commit: fbc7d7394614c0c22ab70207f2b55cd062bcd4e7
+source-git-commit: 96504ebdc86ff81e9ce69e2d708ede1d0a88d9b5
 workflow-type: tm+mt
-source-wordcount: '2408'
+source-wordcount: '2403'
 ht-degree: 0%
 
 ---
 
 # Recadrage intelligent de la vidéo{#smart-crop-video}
 
-La visionneuse de vidéos de recadrage intelligent est un lecteur vidéo qui lit la vidéo en flux continu et progressive codée au format H.264 avec l’ajout de la prise en charge du recadrage intelligent. Elle est fournie à partir de Dynamic Media Classic ou de Experience Manager avec Dynamic Media.
+La visionneuse de vidéos de recadrage intelligent lit la diffusion en continu et la vidéo progressive codée au format H.264 avec la prise en charge du recadrage intelligent. Elle est fournie à partir de Dynamic Media Classic ou de Experience Manager avec Dynamic Media.
 
 Voir [Configuration requise et conditions préalables](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
