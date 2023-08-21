@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 959cb193-d0b7-4aa9-a747-fa17484f80c7
-source-git-commit: 187de979d7d1f7ce92b7b4c8b7661a787ab6889f
+source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '324'
 ht-degree: 6%
 
 ---
@@ -18,7 +18,7 @@ Cette section décrit les commandes de protocole HTTP.
 
 >[!TIP]
 >
->Testez et découvrez les avantages des modificateurs d’image Dynamic Media et de l’imagerie dynamique à l’aide de Dynamic Media. [_Instantané_](https://snapshot.scene7.com/).
+>Testez et découvrez les avantages des modificateurs d’image Dynamic Media et de l’imagerie dynamique à l’aide de Dynamic Media [_Instantané_](https://snapshot.scene7.com/).
 >
 > L’instantané est un outil de démonstration visuel, conçu pour illustrer la puissance de Dynamic Media pour une diffusion d’images optimisée et dynamique. Testez des images de test ou des URL Dynamic Media afin d’observer visuellement la sortie de divers modificateurs d’image Dynamic Media et d’optimiser l’imagerie dynamique pour les éléments suivants :
 >* Taille de fichier (avec diffusion WebP et AVIF)
@@ -42,7 +42,7 @@ Cette section décrit les commandes de protocole HTTP.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-Voir aussi Dynamic Media [Options des paramètres d’image prédéfinis](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) dans la documentation AEM 6.5.
+Voir aussi Dynamic Media [Options des paramètres d’image prédéfinis](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) dans la documentation d’AEM 6.5.
 
 * [align](r-align.md)
 * [ancrage](r-anchor.md)
@@ -57,6 +57,7 @@ Voir aussi Dynamic Media [Options des paramètres d’image prédéfinis](https:
 * [recadrer](r-crop.md)
 * [cropPathE](r-croppath.md)
 * [defaultImage](r-is-http-defaultimage.md)
+* [dpr](r-dpr.md)
 * [effet](r-effect.md)
 * [effetMask](r-effectmask.md)
 * [étend](r-extend.md)
@@ -75,6 +76,7 @@ Voir aussi Dynamic Media [Options des paramètres d’image prédéfinis](https:
 * [carte](r-map.md)
 * [mask](r-mask.md)
 * [maskUse](r-maskuse.md)
+* [réseau](r-network.md)
 * [op_blur](r-op-blur.md)
 * [op_brightness](r-op-brightness.md)
 * [op_colorbalance](r-op-colorbalance.md)
