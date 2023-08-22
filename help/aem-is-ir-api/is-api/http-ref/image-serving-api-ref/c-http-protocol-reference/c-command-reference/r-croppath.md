@@ -1,14 +1,14 @@
 ---
+title: cropPathE
 description: Permet de recadrer le cadre de sélection d’un chemin nommé incorporé. Ce recadrage, à son tour, modifie la taille de l’image.
 solution: Experience Manager
-title: cropPathE
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 78e9f994-d638-49a7-ac42-3146e47210e3
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 2%
+source-wordcount: '174'
+ht-degree: 1%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 2%
 
 Permet de recadrer le cadre de sélection d’un chemin nommé incorporé. Ce recadrage, à son tour, modifie la taille de l’image.
 
-`cropPathE= *``*&#42;[, *`pathNamepathName`*]`
+`cropPathE= *`pathName`*&#42;[, *`pathName`*]`
 
 <table id="table_598304852E844456AB3AC9FF1F178B71"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> pathName</span></span> </p> </td> 
-   <td colname="col2"> <p>Nom du chemin d’accès incorporé dans l’image source du calque (ASCII uniquement). </p> <p> <span class="codeph"><span class="varname"> </span></span> pathName est le nom d’un chemin incorporé dans l’image source du calque. Le chemin est automatiquement transformé, si nécessaire, afin de conserver un alignement relatif avec le contenu de l’image. Si plusieurs <span class="codeph"><span class="varname"> pathName</span></span> sont spécifiés, le serveur rogne le cadre de sélection de chaque chemin, un par un. Tout <span class="codeph"><span class="varname"> cheminName</span></span> introuvable dans l’image source est ignoré. </p> </td> 
+   <td colname="col2"> <p>Nom du chemin d’accès incorporé dans l’image source du calque (ASCII uniquement). </p> <p> <span class="codeph"><span class="varname"> pathName</span></span> est le nom d’un chemin incorporé dans l’image source du calque. Le chemin est automatiquement transformé, si nécessaire, afin de conserver un alignement relatif avec le contenu de l’image. Si plusieurs <span class="codeph"><span class="varname"> pathName</span></span> est spécifié, le serveur recadre le cadre de sélection de chaque chemin, un par un. Quelconque <span class="codeph"><span class="varname"> pathName</span></span> L’image source introuvable est ignorée. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -39,4 +39,4 @@ Aucun, pour aucun recadrage supplémentaire du calque.
 
 ## Voir aussi {#section-a60f6e37ebf14e458519fcc4d2cc911d}
 
-[crop](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab),  [clipPathE](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)
+[recadrer](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab), [clipPathE](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d)

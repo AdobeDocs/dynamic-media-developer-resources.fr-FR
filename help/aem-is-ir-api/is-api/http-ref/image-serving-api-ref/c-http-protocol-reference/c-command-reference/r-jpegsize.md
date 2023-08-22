@@ -1,20 +1,20 @@
 ---
-description: Taille Jpeg en kilo-octets. Indique la taille maximale de la réponse JPEG en kilo-octets.
-solution: Experience Manager
 title: jpegSize
-feature: Dynamic Media Classic, SDK/API
+description: Taille Jpeg en kilo-octets. Indique la taille maximale de la réponse du JPEG en kilo-octets.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 08cecb09-100f-4671-b335-d59c88b0e1ef
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 4%
+source-wordcount: '157'
+ht-degree: 3%
 
 ---
 
 # jpegSize{#jpegsize}
 
-Taille Jpeg en kilo-octets. Indique la taille maximale de la réponse JPEG en kilo-octets.
+Taille Jpeg en kilo-octets. Indique la taille maximale de la réponse du JPEG en kilo-octets.
 
 `jpegSize= *`taille`*`
 
@@ -25,7 +25,7 @@ Taille Jpeg en kilo-octets. Indique la taille maximale de la réponse JPEG en ki
  </tr> 
 </table>
 
-Si cette valeur est définie sur une valeur positive et que la réponse JPEG avec la qualité JPEG spécifiée ne dépasse pas cette valeur, cette image est renvoyée comme réponse. Dans le cas contraire, la qualité JPEG diminue jusqu’à ce qu’elle génère une image adaptée à la taille spécifiée ou jusqu’à ce qu’elle détermine qu’elle ne peut pas être adaptée. Dans ce cas, la requête échoue avec une erreur.
+Si cette valeur est définie sur une valeur positive et que la réponse du JPEG avec la qualité de JPEG spécifiée ne dépasse pas cette valeur, cette image est renvoyée comme réponse. Dans le cas contraire, la qualité du JPEG diminue jusqu’à ce qu’il génère une image adaptée à la taille spécifiée ou jusqu’à ce qu’il détermine qu’elle ne peut pas être adaptée. Dans ce cas, la requête échoue avec une erreur.
 
 Une valeur de 0 signifie que la réponse n’est pas limitée par la taille.
 
@@ -47,4 +47,4 @@ La taille de la garantie n’est pas trop grande pour être livrée à un appare
 
 ## Voir aussi {#section-98d472b39d6547969fce6dd86748c153}
 
-[fmt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) ,  [attribut::JpegQuality](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-jpegquality.md#reference-4a879e7c46024c8a898a9fd226f9eb09)
+[fmt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) , [attribute::JpegQuality](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-jpegquality.md#reference-4a879e7c46024c8a898a9fd226f9eb09)

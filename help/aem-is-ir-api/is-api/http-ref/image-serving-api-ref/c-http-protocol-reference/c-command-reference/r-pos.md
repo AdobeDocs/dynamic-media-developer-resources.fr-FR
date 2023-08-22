@@ -1,14 +1,14 @@
 ---
+title: pos
 description: Position du calque.
 solution: Experience Manager
-title: pos
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c2e9a1f3-7216-4ab0-9c37-57f083119cef
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 3%
+source-wordcount: '157'
+ht-degree: 2%
 
 ---
 
@@ -31,9 +31,9 @@ posN= *`coordN`*
  </tr> 
 </table>
 
-En cas de calques d’image, de texte et de couleur uni, `pos=` spécifie la position d’une ancre de calque par rapport à l’ancre de calque 0. `posN=` les valeurs de coordonnée sont normalisées par rapport à la taille réelle de la couche 0 rect.
+En cas de calques d’image, de texte et de couleur unie, `pos=` spécifie la position d’une ancre de calque par rapport à l’ancre de calque 0. `posN=` les valeurs de coordonnée sont normalisées par rapport à la taille réelle de la couche 0 rect.
 
-Dans le cas des calques d’effet, `pos=` déplace la couche d’effet par rapport au calque parent.
+En cas de calques d’effet, `pos=` déplace le calque d’effet par rapport au calque parent.
 
 Les valeurs positives déplacent le calque vers la droite/le bas, les valeurs négatives vers la gauche/le haut. `posN=0.5,0.5` déplace le calque de la moitié de la largeur et de la hauteur du calque vers le bas et la droite.
 

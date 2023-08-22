@@ -1,14 +1,14 @@
 ---
+title: op_grewMask
 description: Dilate/érode l’image. Applique un dilate morphologique (rayon > 0) ou une érode (rayon < 0) aux données du masque.
 solution: Experience Manager
-title: op_grewMask
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 322d97af-bb1b-44bb-90f1-cda9984b78b5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 3%
+source-wordcount: '101'
+ht-degree: 2%
 
 ---
 
@@ -29,7 +29,7 @@ Utilisé principalement pour faire légèrement pousser ou rétrécir un masque 
 
 ## Propriétés {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
-S’applique au calque actif ou au calque `0` si `layer=comp`.
+S’applique au calque actif ou au calque `0` if `layer=comp`.
 
 ## Par défaut {#section-14c908bb87cb42acbea709effea2f964}
 

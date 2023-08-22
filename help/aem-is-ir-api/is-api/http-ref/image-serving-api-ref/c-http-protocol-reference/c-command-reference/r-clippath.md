@@ -1,13 +1,13 @@
 ---
+title: clipPath
 description: Chemin d’accès au clip de calque. Spécifie un chemin d’accès à l’élément pour le calque actif.
 solution: Experience Manager
-title: clipPath
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 86c87cd1-6e08-40cb-80e6-35a9f49b6572
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '544'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ Chemin d’accès au clip de calque. Spécifie un chemin d’accès à l’élé
 
 `clipPath= *`pathDefinition`*`
 
-`clipPathE= *``*&#42;[, *`pathNamepathName`*]`
+`clipPathE= *`pathName`*&#42;[, *`pathName`*]`
 
 <table id="simpletable_275E2A5FAB804C6388BD110D2ACA3C82"> 
  <tr class="strow"> 
@@ -31,27 +31,27 @@ Chemin d’accès au clip de calque. Spécifie un chemin d’accès à l’élé
  </tr> 
 </table>
 
-Toutes les parties du calque situées en dehors de la zone définie par `clipPath=` sont rendues transparentes.
+Toute partie du calque située en dehors de la zone définie par `clipPath=` sont rendues transparentes.
 
-`*``*` pathName est le nom d’un chemin incorporé dans l’image source du calque. Le chemin est automatiquement transformé afin de conserver un alignement relatif avec le contenu de l’image. Si plusieurs `*`pathName`*` sont spécifiés, le serveur cliente l’image à l’intersection de ces chemins. Tout `*`pathName`*` introuvable dans l’image source est ignoré.
+`*`pathName`*` est le nom d’un chemin incorporé dans l’image source du calque. Le chemin est automatiquement transformé afin de conserver un alignement relatif avec le contenu de l’image. Si plusieurs `*`pathName`*` est spécifié, le serveur cliente l’image à l’intersection de ces chemins. Quelconque `*`pathName`*` L’image source introuvable est ignorée.
 
 >[!NOTE]
 >
 >Seules les chaînes ASCII sont prises en charge pour `*`pathName`*`.
 
-`*``*` pathDefinitionpermet de spécifier des données de chemin d’accès explicites dans les coordonnées de pixels de couche.
+`*`pathDefinition`*` permet de spécifier des données de chemin d’accès explicites dans les coordonnées des pixels de couche.
 
-Si `size=` est spécifié et non 0,0, le calque est prédimensionné. Dans ce cas, les coordonnées du chemin sont relatives au coin supérieur gauche du rectangle du calque et le calque est positionné selon `origin=` ou sa valeur par défaut. Toutes les zones du chemin en dehors du rectangle du calque restent transparentes.
+If `size=` est spécifié et non 0,0, le calque est prédimensionné. Dans ce cas, les coordonnées du chemin sont relatives au coin supérieur gauche du rectangle du calque et le calque est positionné en fonction de `origin=` ou sa valeur par défaut. Toutes les zones du chemin en dehors du rectangle du calque restent transparentes.
 
-Si `size=` n’est pas spécifié pour une couleur ou un calque de texte uni, le calque est considéré comme auto-dimensionnant, l’étendue du chemin déterminant sa taille. Si `origin=` n’est pas spécifié, l’espace de coordonnées du chemin est défini par défaut sur (0,0). Cela permet de spécifier les coordonnées du chemin par rapport à l’origine du calque 0.
+If `size=` n’est pas spécifié pour une couleur ou un calque de texte uni, le calque est considéré comme se dimensionnant avec l’étendue du chemin déterminant sa taille. If `origin=` n’est pas spécifié, il est défini par défaut sur (0,0) de l’espace de coordonnées du chemin. Cela permet de spécifier les coordonnées du chemin par rapport à l’origine du calque 0.
 
 >[!NOTE]
 >
->`scale=`Les  `rotate=`commandes ,  `anchor=`  et ne sont pas autorisées pour le dimensionnement automatique des calques de couleur unis.
+>`scale=`, `rotate=`, et `anchor=` Les commandes ne sont pas autorisées pour les calques de couleur unitaires auto-dimensionnés.
 
-`*``*` pathDefinitionaccepte une chaîne similaire à la valeur de l’ `d=` attribut de l’ `<path>` élément SVG, sauf que des virgules sont utilisées à la place d’espaces pour séparer les valeurs. `*``*` pathDefinitionpeut inclure un ou plusieurs sous-chemins de boucle fermée.
+`*`pathDefinition`*` accepte une chaîne similaire à la valeur de la variable `d=` de l’attribut du SVG `<path>` , sauf que des virgules sont utilisées à la place d’espaces pour séparer les valeurs. `*`pathDefinition`*` peut inclure un ou plusieurs sous-chemins de boucle fermée.
 
-Les commandes de chemin suivantes sont prises en charge dans `*`pathDefinition`*` :
+Les commandes de chemin d’accès suivantes sont prises en charge dans `*`pathDefinition`*`:
 
 <table id="table_A74DD7A48B1C417D9D4BA46BECEAB981"> 
  <thead> 
@@ -63,12 +63,12 @@ Les commandes de chemin suivantes sont prises en charge dans `*`pathDefinition`*
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td> <b> </b> <span class="varname"> Mx,y</span> </td> 
+   <td> <b> M</b> <span class="varname"> x,y</span> </td> 
    <td> <p> moveto absolute </p> </td> 
    <td> <p> Démarrez un nouveau sous-chemin à x,y. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <b> </b> <span class="varname"> mx,y</span> </td> 
+   <td> <b> m</b> <span class="varname"> x,y</span> </td> 
    <td> <p> moveto relatif </p> </td> 
   </tr> 
   <tr valign="top"> 
@@ -90,7 +90,7 @@ Les commandes de chemin suivantes sont prises en charge dans `*`pathDefinition`*
    <td> <p> curveto relatif </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <b> Z</b> |  <b>z</b> </td> 
+   <td> <b> z</b> | <b>z</b> </td> 
    <td> <p> closepath </p> </td> 
    <td> <p> Fermez le sous-chemin actuel avec une ligne droite. </p> </td> 
   </tr> 
@@ -119,4 +119,4 @@ Aucun, pour aucun autre écrêtage du calque.
 
 ## Voir aussi {#section-dd8110fb6f5c45eba6284c5ec5f49056}
 
-[clipXpath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clipxpath.md#reference-17e5e4da3e044943af8f963f58a45f53) ,  [textFlowPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef) ,  [extension=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac)
+[clipXpath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clipxpath.md#reference-17e5e4da3e044943af8f963f58a45f53) , [textFlowPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textflowpath.md#reference-0b8d9493d71342f0b6a64a6d221584ef) , [extended=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac)

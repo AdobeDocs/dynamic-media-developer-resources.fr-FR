@@ -1,22 +1,22 @@
 ---
-description: Ajuster l’équilibre des couleurs. Ajuste séparément la valeur de chaque composant de couleur RVB.
-solution: Experience Manager
 title: op_colorbalance
-feature: Dynamic Media Classic, SDK/API
+description: Ajuster l’équilibre des couleurs. Ajuste séparément la valeur de chaque composant de couleur de RGB.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 93476778-97b0-4ad5-b22a-093239e845f0
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 2%
+source-wordcount: '112'
+ht-degree: 1%
 
 ---
 
 # op_colorbalance{#op-colorbalance}
 
-Ajuster l’équilibre des couleurs. Ajuste séparément la valeur de chaque composant de couleur RVB.
+Ajuster l’équilibre des couleurs. Ajuste séparément la valeur de chaque composant de couleur de RGB.
 
-`op_colorbalance= *``*, *``*, *`redAdjgreenAdjblueAdj`*`
+`op_colorbalance= *`redAdj`*, *`greenAdj`*, *`blueAdj`*`
 
 <table id="simpletable_BBDAA6FE9A0E48E3BD8304BDED776713"> 
  <tr class="strow"> 
@@ -33,11 +33,11 @@ Ajuster l’équilibre des couleurs. Ajuste séparément la valeur de chaque com
  </tr> 
 </table>
 
-Les données d’image d’entrée en gris et CMJN sont converties en RVB à l’aide d’une conversion naïve qui n’est pas exacte lorsque la gestion des couleurs est activée.
+Les données d’image d’entrée en gris et CMJN sont converties en RGB à l’aide d’une conversion naïve, qui n’est pas exacte lorsque la gestion des couleurs est activée.
 
 ## Propriétés {#section-dff9c934f7c1442bbd02379b688d82e2}
 
-Couche, commande. S’applique au calque actif ou à l’image composite si `layer=comp`. Ignoré par les calques d’effet. Les images et calques CMJN sont convertis en RVB avant l’application de l’opération.
+Couche, commande. S’applique au calque actif ou à l’image composite si `layer=comp`. Ignoré par les calques d’effet. Les images et calques CMJN sont convertis en RGB avant l’application de l’opération.
 
 ## Par défaut {#section-08d84ef715964f7daea86f5ef237d199}
 
@@ -47,4 +47,4 @@ Couche, commande. S’applique au calque actif ou à l’image composite si `lay
 
 Poussez la balance des couleurs vers le rouge :
 
-... `&op_colorBalance=100,0,0&`...
+… `&op_colorBalance=100,0,0&`…

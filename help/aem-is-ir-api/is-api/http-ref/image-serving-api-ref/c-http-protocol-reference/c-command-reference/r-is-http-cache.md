@@ -1,11 +1,11 @@
 ---
+title: cache
 description: Contrôle du cache. Permet de désactiver de manière sélective la mise en cache côté client (navigateur, serveurs proxy, systèmes de mise en cache réseau) et la mise en cache dans les [!DNL Platform Server] cache.
 solution: Experience Manager
-title: cache
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8b631836-e5a8-4a56-a09a-35bb2474cc84
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 1%
@@ -37,9 +37,9 @@ Contrôle du cache. Permet de désactiver de manière sélective la mise en cach
 
 Si seulement un `*`cacheControl`*` est spécifiée, elle est appliquée aux caches client et serveur.
 
-Le `validate` Le mot-clé permet de mettre à jour les entrées du cache après la modification des fichiers image, sans avoir à attendre que l’entrée du cache expire automatiquement. La mise en cache du client n’est pas affectée par cette commande.
+La variable `validate` Le mot-clé permet de mettre à jour les entrées du cache après la modification des fichiers image, sans avoir à attendre que l’entrée du cache expire automatiquement. La mise en cache du client n’est pas affectée par cette commande.
 
-Le `update` Vous pouvez utiliser ce mot-clé pour forcer la mise à jour des entrées du cache côté serveur. Cela s’avère utile une fois les ressources modifiées qui ne sont pas directement suivies par le mécanisme de validation du cache, par exemple lorsqu’un fichier de police est modifié sans modifier son nom de fichier ou l’ID de police associé.
+La variable `update` Vous pouvez utiliser ce mot-clé pour forcer la mise à jour des entrées du cache côté serveur. Cela s’avère utile une fois les ressources modifiées qui ne sont pas directement suivies par le mécanisme de validation du cache, par exemple lorsqu’un fichier de police est modifié sans modifier son nom de fichier ou l’ID de police associé.
 
 Si spécifié dans une requête imbriquée, `cache=on` active la mise en cache persistante côté serveur de l’image générée par la requête imbriquée. Vous devez veiller à activer la mise en cache des requêtes imbriquées uniquement lorsque la même requête imbriquée doit être appelée de manière répétée avec exactement les mêmes paramètres.
 

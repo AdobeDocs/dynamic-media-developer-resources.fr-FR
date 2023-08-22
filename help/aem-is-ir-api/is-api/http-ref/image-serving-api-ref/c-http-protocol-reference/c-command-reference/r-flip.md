@@ -1,14 +1,14 @@
 ---
+title: flip
 description: Retourner le calque. Fait pivoter le calque horizontalement, verticalement ou les deux, après avoir appliqué crop= et avant rotate= et extended=.
 solution: Experience Manager
-title: flip
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 451d8b4d-0f22-41f3-ac86-435797c23ea3
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 

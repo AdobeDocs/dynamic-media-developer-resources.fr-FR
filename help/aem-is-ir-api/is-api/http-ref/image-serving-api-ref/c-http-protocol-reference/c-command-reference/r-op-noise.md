@@ -1,14 +1,14 @@
 ---
+title: op_bruit
 description: Ajoutez du bruit. Ajoute du bruit aléatoire aux données de l’image de premier plan ou au premier plan d’une couche d’effet.
 solution: Experience Manager
-title: op_bruit
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: eeadd3ab-80ff-4f9b-b5b7-4f3da6feebde
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 2%
+source-wordcount: '91'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Ajoutez du bruit. Ajoute du bruit aléatoire aux données de l’image de premier plan ou au premier plan d’une couche d’effet.
 
-`op_noise= *``*[,uniform|gaussian[, *`valmonochrome`*]]`
+`op_noise= *`val`*[,uniform|gaussian[, *`monochrome`*]]`
 
 <table id="table_40675464E5824D52BF392ECCE2DDC03C"> 
  <tbody> 

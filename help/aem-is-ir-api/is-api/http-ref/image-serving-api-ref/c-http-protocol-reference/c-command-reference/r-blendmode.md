@@ -1,14 +1,14 @@
 ---
+title: blendMode
 description: Mode de fusion. Indique le type de fusion utilisé lorsque le calque est composé. Simule les modes de fusion couramment utilisés disponibles dans Photoshop. Pour plus d’informations, reportez-vous à la documentation Photoshop .
 solution: Experience Manager
-title: blendMode
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8f0b8b0a-a8ac-4932-986c-5d14d3311f1b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 15%
+source-wordcount: '67'
+ht-degree: 14%
 
 ---
 

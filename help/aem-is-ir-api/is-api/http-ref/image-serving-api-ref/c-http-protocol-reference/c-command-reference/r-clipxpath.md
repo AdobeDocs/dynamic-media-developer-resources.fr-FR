@@ -1,13 +1,13 @@
 ---
+title: clipXPath
 description: Chemin du clip de calque inversé. Indique un chemin d’exclusion du calque actif. Toutes les parties du calque se trouvant dans la zone définie par clipXPath= sont rendues transparentes.
 solution: Experience Manager
-title: clipXPath
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7d7e92f5-856f-4d62-a5d3-4726d7b43792
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '117'
 ht-degree: 5%
 
 ---
@@ -18,7 +18,7 @@ Chemin du clip de calque inversé. Indique un chemin d’exclusion du calque act
 
 `clipXPath= *`pathDefinition`*`
 
-`clipXPathE= *``*&#42;[, *`pathNamepathName`*]`
+`clipXPathE= *`pathName`*&#42;[, *`pathName`*]`
 
 <table id="simpletable_27AFC3A694874CF8B673460820EFD90D"> 
  <tr class="strow"> 
@@ -31,7 +31,7 @@ Chemin du clip de calque inversé. Indique un chemin d’exclusion du calque act
  </tr> 
 </table>
 
-Voir [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) pour plus d’informations, notamment une description de `*`pathName`*` et `*`pathDefinition`*`.
+Voir [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) pour plus d’informations, y compris une description de `*`pathName`*` et `*`pathDefinition`*`.
 
 ## Propriétés {#section-acf7272ba93a4bbba818b8e6aa4dcea5}
 

@@ -1,11 +1,11 @@
 ---
+title: taille
 description: Taille de calque. Indique la taille ou la taille maximale du calque, avant l’application des paramètres rotate=, perspective= et extended= au calque.
 solution: Experience Manager
-title: taille
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 55feeb32-b69d-4b95-80fb-c77f2612d255
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 1%
@@ -33,7 +33,7 @@ Taille de calque. Indique la taille ou la taille maximale du calque, avant l’a
 
 Lorsqu’il est spécifié pour un calque d’image, size= limite la largeur, la hauteur ou les deux de l’image de calque. L’image n’est pas plus grande que `size=`. Si une taille normalisée est spécifiée, elle est relative à la taille du calque 0. Si les deux *`width`* et *`height`* sont spécifiées, l’image source est mise à l’échelle (après `crop=` est appliquée) de sorte qu’aucune dimension ne dépasse la taille spécifiée. Les proportions du rectangle source sont conservées dans tous les cas. Soit *`width`* ou *`height`* peut être défini sur 0 ; dans ce cas, la valeur est calculée par le serveur en fonction des proportions de l’image.
 
-Lorsqu’il est spécifié pour un calque de texte, `size=` indique la taille de la zone de texte. *`width`* est requis ; *`height`* peut être défini sur 0, auquel cas la hauteur du texte disposé est utilisée comme hauteur du calque. Par défaut, les moteurs de mise en page de texte insèrent des sauts de ligne pour s’assurer que le texte s’insère toujours horizontalement dans l’espace disponible. If *`height`* est spécifié, les lignes qui ne correspondent pas à l’espace disponible sont tronquées ( `text=`) ou omis ( `textPs=`). `text=` prend en charge des modes d’ajustement supplémentaires ; voir `textAttr=` pour plus d’informations.
+Lorsque spécifié pour un calque de texte, `size=` indique la taille de la zone de texte. *`width`* est requis ; *`height`* peut être défini sur 0, auquel cas la hauteur du texte disposé est utilisée comme hauteur du calque. Par défaut, les moteurs de mise en page de texte insèrent des sauts de ligne pour s’assurer que le texte s’insère toujours horizontalement dans l’espace disponible. If *`height`* est spécifié, les lignes qui ne correspondent pas à l’espace disponible sont tronquées ( `text=`) ou omis ( `textPs=`). `text=` prend en charge les modes d’ajustement supplémentaires ; voir `textAttr=` pour plus d’informations.
 
 Lorsqu’elle est spécifiée pour une couche de couleur unie, `size=` définit la taille exacte du calque ; les deux valeurs doivent être spécifiées (sauf si un masque est fourni). If `mask=` est également spécifié, la taille de l’image de masque est adaptée. `size=` de la même manière que les images sont mises à l’échelle dans les calques d’image.
 
@@ -43,9 +43,9 @@ Attribut de calque. S’applique au calque 0 si `layer=comp`. `sizeN=` n’est p
 
 ## Par défaut {#section-43d129deba6a441da66a1fdb63d1c85c}
 
-`size=0,0`, la taille du calque n’est pas contrainte. Pour les calques d’image, la taille du calque est déterminée en fonction de la taille de l’image du calque, après toute `crop=`, `scale=`ou `res=` ont été appliquées. Pour les calques de texte, si `size=` n’est pas spécifié, le calque est dimensionné automatiquement pour s’adapter au texte rendu.
+`size=0,0`, la taille du calque n’est pas contrainte. Pour les calques d’image, la taille du calque est déterminée en fonction de la taille de l’image du calque, après toute `crop=`, `scale=`, ou `res=` ont été appliquées. Pour les calques de texte, si `size=` n’est pas spécifié, le calque est dimensionné automatiquement pour s’adapter au texte rendu.
 
-Les calques de couleur unie nécessitent une spécification complète. `size=`, un `mask=`ou `clipPath=`.
+Les calques de couleur unie nécessitent une spécification complète. `size=`, un `mask=`, ou `clipPath=`.
 
 ## Exemple {#section-d1adaddd9e0b4ca881fd8e0a7541e5d9}
 

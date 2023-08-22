@@ -1,14 +1,14 @@
 ---
+title: op_grew
 description: Dilate/érode l’image. Applique un dilate morphologique (rayon > 0) ou une érode (rayon < 0) aux données de l’image.
 solution: Experience Manager
-title: op_grew
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4c5bef4e-f80e-454d-8e93-30bf33d7ec9e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 3%
+source-wordcount: '107'
+ht-degree: 2%
 
 ---
 
@@ -25,7 +25,7 @@ Dilate/érode l’image. Applique un dilate morphologique (rayon > 0) ou une ér
  </tr> 
 </table>
 
-`*``*` radiation en pixels par rapport à l’image composite. Si l’image est en couleur, chaque composant est traité indépendamment.
+`*`radius`*` est en pixels par rapport à l’image composite. Si l’image est en couleur, chaque composant est traité indépendamment.
 
 Utilisé principalement pour modifier la taille des effets de calque. Également utile pour obtenir des effets spéciaux sur les calques de texte ou les calques de couleur unis avec des masques.
 

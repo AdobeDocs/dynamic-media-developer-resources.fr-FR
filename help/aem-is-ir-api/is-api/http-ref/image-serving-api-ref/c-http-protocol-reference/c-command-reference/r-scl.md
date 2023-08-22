@@ -1,13 +1,13 @@
 ---
+title: scl
 description: Vue Échelle. Met à l’échelle l’image composite par l’inverse de l’attribut d’événement d’événement.
 solution: Experience Manager
-title: scl
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 297d187c-3a52-45ff-b73d-0b0e4b956080
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '129'
 ht-degree: 8%
 
 ---
@@ -27,7 +27,7 @@ Vue Échelle. Met à l’échelle l’image composite par l’inverse de l’att
 
 Aucune mise à l’échelle n’est appliquée lorsque `scl=1`. *`invFactor`* plus grande que 1,0, plus petite que 1,0 agrandit l’image composite.
 
-Si `scl=` est spécifié et que `wid=` et/ou `hei=` sont également présents, l’image est recadrée sur `wid=` et/ou `hei=` après la mise à l’échelle.
+If `scl=` est spécifié, et `wid=` et/ou `hei=` sont également présentes, l’image est recadrée sur `wid=` et/ou `hei=` après mise à l’échelle.
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Afficher l’attribut. S’applique quel que soit le paramètre de calque actif.
 
 ## Par défaut {#section-32502fa218a24e1f9c65f41c0260b56a}
 
-Si aucun `wid=`, `hei=` ou `scl=` n’est spécifié, l’image de réponse aura la taille de l’image composite ou `attribute::DefaultPix`, selon la valeur la plus petite.
+Si aucun `wid=`, `hei=`, ou `scl=` sont spécifiées, l’image de réponse aura la taille de l’image composite ou `attribute::DefaultPix`, le plus petit.
 
 ## Exemple {#section-a33f6239476a4b438d939656ad99aa76}
 
@@ -47,4 +47,4 @@ Voir l’exemple dans [rotate=](../../../../../is-api/http-ref/image-serving-api
 
 ## Voir aussi {#section-ccefd5de59924059903d66d4974ce317}
 
-[wid=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47) ,  [hei=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96),  [attribute::DefaultPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultpix.md#reference-996b2c22b30f4fd9b970c84063306df1)
+[wid=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-wid.md#reference-bfeadcb67bf4485f851eb21345527e47) , [hei=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-hei.md#reference-6d6f556ccc0e4b98a815e8a5c1944a96), [attribute::DefaultPix](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultpix.md#reference-996b2c22b30f4fd9b970c84063306df1)

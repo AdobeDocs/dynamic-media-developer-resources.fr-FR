@@ -1,14 +1,14 @@
 ---
+title: op_saturation
 description: Réglez la saturation. Modifie la saturation de chaque pixel visible du calque ou de l’image composite.
 solution: Experience Manager
-title: op_saturation
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: cd71e27e-6ccc-4ade-9bcf-af8e41bcf381
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 3%
+source-wordcount: '90'
+ht-degree: 2%
 
 ---
 
@@ -33,7 +33,7 @@ Couche, commande. S’applique au calque actif ou à l’image composite si `lay
 
 ## Par défaut {#section-ef0e78f55c8b4d22aee09104dad6410a}
 
-`op_saturation=0`, pour aucune modification de la saturation. Les images ou calques CMJN sont convertis en RVB avant l’application de l’opération.
+`op_saturation=0`, sans changement de saturation. Les images ou calques CMJN sont convertis en RGB avant l’application de l’opération.
 
 ## Exemple {#section-033b272f1b7e4efeb94e841fd8095357}
 

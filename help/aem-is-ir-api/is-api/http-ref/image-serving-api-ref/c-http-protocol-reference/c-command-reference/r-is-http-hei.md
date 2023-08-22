@@ -1,11 +1,11 @@
 ---
+title: hei
 description: Hauteur de l’affichage. Indique la hauteur de l’image de réponse (image d’affichage) lorsque l’ajustement n’est pas présent dans la requête.
 solution: Experience Manager
-title: hei
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c812c7f0-4ac1-42cb-be47-7baebd8caf60
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 2%
@@ -25,9 +25,9 @@ Hauteur de l’affichage. Indique la hauteur de l’image de réponse (image d�
  </tr> 
 </table>
 
-Si les deux `wid=` et `scl=` sont spécifiés, l’image composite peut être recadrée selon les `align=`attribut. When `fit=` est présent, `hei=` spécifie la hauteur exacte, le minimum ou la hauteur maximale de l’image de réponse ; voir la description de [fit=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md) pour plus d’informations.
+Si les deux `wid=` et `scl=` sont spécifiés, l’image composite peut être recadrée selon les `align=`attribut. When `fit=` est présent, `hei=` spécifie la hauteur exacte, minimale ou maximale de l’image de réponse ; voir la description de [fit=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md) pour plus d’informations.
 
-If `scl=` n’est pas spécifié, l’image composite est mise à l’échelle de manière à s’adapter. Si les deux `wid=` et `hei=` sont spécifiés, et `scl=` n’est pas spécifié, l’image est mise à l’échelle de manière à s’adapter entièrement au rectangle large/hauteur, en laissant une zone d’arrière-plan aussi petite que possible ; dans ce cas, l’image est positionnée dans le rectangle de l’affichage en fonction de la variable `align=` attribut. La zone d’arrière-plan est remplie de `bgc=`, ou, le cas échéant, avec `attribute::BkgColor`.
+If `scl=` n’est pas spécifié, l’image composite est mise à l’échelle de manière à s’adapter. Si les deux `wid=` et `hei=` sont spécifiés, et `scl=` n’est pas spécifié, l’image est mise à l’échelle de manière à s’adapter entièrement au rectangle large/hauteur, en laissant le moins de zone d’arrière-plan exposée possible ; dans ce cas, l’image est positionnée dans le rectangle de l’affichage en fonction de la variable `align=` attribut. La zone d’arrière-plan est remplie de `bgc=`, ou, si elle n’est pas spécifiée avec `attribute::BkgColor`.
 
 >[!NOTE]
 >

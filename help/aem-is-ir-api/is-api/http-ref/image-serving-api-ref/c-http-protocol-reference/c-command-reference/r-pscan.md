@@ -1,32 +1,32 @@
 ---
-description: Analyse JPEG progressive. Le format JPEG progressif affiche une image de telle sorte qu’elle affiche initialement une photo floue/de mauvaise qualité dans son intégralité. Au fur et à mesure que la numérisation se poursuit, elle devient plus claire à mesure que les données de l’image sont téléchargées plus complètement. Ce paramètre permet de définir le nombre d’analyses nécessaires (3, 4 ou 5) pour que l’image entière s’affiche.
-solution: Experience Manager
 title: pscan
-feature: Dynamic Media Classic, SDK/API
+description: Analyse JPEG progressive. Le JPEG progressif affiche une image de telle sorte qu’elle affiche initialement une photo floue/de mauvaise qualité dans son intégralité.
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1afd3a60-e0b6-47d1-b7e4-98a3145782a2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '178'
 ht-degree: 2%
 
 ---
 
 # pscan{#pscan}
 
-Analyse JPEG progressive. Le format JPEG progressif affiche une image de telle sorte qu’elle affiche initialement une photo floue/de mauvaise qualité dans son intégralité. Au fur et à mesure que la numérisation se poursuit, elle devient plus claire à mesure que les données de l’image sont téléchargées plus complètement. Ce paramètre permet de définir le nombre d’analyses nécessaires (3, 4 ou 5) pour que l’image entière s’affiche.
+Analyse JPEG progressive. Le JPEG progressif affiche une image de telle sorte qu’elle affiche initialement une photo floue/de mauvaise qualité dans son intégralité. Au fur et à mesure que la numérisation se poursuit, elle devient plus claire à mesure que les données de l’image sont téléchargées plus complètement. Ce paramètre permet de définir le nombre d’analyses nécessaires (3, 4 ou 5) pour que l’image entière s’affiche.
 
 `pscan=auto|3|4|5`
 
 La vitesse réelle de chaque analyse dépend de la vitesse de transmission du système de l’utilisateur et de l’ordinateur qui reçoit et décompresse les données.
 
-`Auto` utilise les paramètres d’analyse calculés par la bibliothèque JPEG indépendante et qui dépendent du modèle de couleur. Les valeurs `3`, `4`, `5` correspondent au paramètre d’analyse d’Adobe Photoshop lorsque vous enregistrez un fichier JPEG en tant que pjpeg (JPEG progressif).
+`Auto` utilise les paramètres d’analyse calculés par la bibliothèque de JPEG indépendants et dépendent du modèle de couleur. Les valeurs de `3`, `4`, `5` correspondent au paramètre d’analyse d’Adobe Photoshop lorsque vous enregistrez un fichier de JPEG en tant que pjpeg (JPEG progressif).
 
-Si `pscan` n’est pas défini, la valeur par défaut est `auto`.
+If `pscan` n’est pas défini, sa valeur par défaut est `auto`.
 
 ## Propriétés {#section-e36aa3c63a974b969d9e4f43fe5a37ab}
 
-Attribut de requête. S’applique quel que soit le paramètre de calque actif. Ignoré si le format de sortie n’est pas JPEG progressif.
+Attribut de requête. S’applique quel que soit le paramètre de calque actif. Ignoré si le format de sortie n’est pas un JPEG progressif.
 
 ## Par défaut {#section-01948f6cd7a2415091004cd7526436c7}
 
