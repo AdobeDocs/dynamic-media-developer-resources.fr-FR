@@ -4,10 +4,10 @@ description: Device Pixel Ratio (DPR)&mdash;également appelé CSS pixel ratio&m
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
-source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
+source-git-commit: 21d6aed6baee24922732461fe680f6cc93bd0d06
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 3%
+source-wordcount: '311'
+ht-degree: 2%
 
 ---
 
@@ -44,6 +44,8 @@ En raison de l’optimisation du RPD, lorsque l’image créée est supérieure 
 | 816 x 500 | 3 | 2 448 x 1 500 |
 | 816 x 500 | 4 | 3 264 x 2 000 |
 
+Les valeurs DPR sont basées sur les valeurs côté client détectées du réseau de diffusion de contenu groupé. Ces valeurs sont parfois inexactes. Par exemple, iPhone5 avec `dpr=2`, et iPhone12 avec dpr=3, les deux affichent `dpr=2`. Toujours pour les appareils haute résolution, l’envoi `dpr=2` est préférable à l’envoi `dpr=1`. La meilleure façon de surmonter cette inexactitude consiste toutefois à utiliser le RPD côté client pour vous donner des valeurs entièrement précises. Et ça marche pour n&#39;importe quel appareil, qu&#39;il s&#39;agisse d&#39;Apple ou de tout autre appareil qui a été lancé. Voir [Utilisation de l’imagerie dynamique avec rapport des pixels côté client](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/client-side-dpr.html?lang=en).
+
 ## Propriétés
 
 
@@ -60,4 +62,4 @@ En raison de l’optimisation du RPD, lorsque l’image créée est supérieure 
 
 ## Voir aussi
 
-[network](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md), [Imagerie dynamique](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)
+[bfc](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md), [network](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md), [Imagerie dynamique](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)
