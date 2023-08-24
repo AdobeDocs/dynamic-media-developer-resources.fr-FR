@@ -4,9 +4,9 @@ description: Device Pixel Ratio (DPR)&mdash;également appelé CSS pixel ratio&m
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
-source-git-commit: 21d6aed6baee24922732461fe680f6cc93bd0d06
+source-git-commit: a6e0db8238ba5f2209089c6eda7b42c42f66b25f
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '323'
 ht-degree: 2%
 
 ---
@@ -48,7 +48,7 @@ Les valeurs DPR sont basées sur les valeurs côté client détectées du résea
 
 ## Propriétés
 
-
+Attribut de requête. Elle n’a aucun effet si `dpr` est désactivé ou si `dprValue=1`.
 
 ## Par défaut
 
