@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c2e9a1f3-7216-4ab0-9c37-57f083119cef
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '163'
 ht-degree: 2%
 
 ---
@@ -31,11 +31,11 @@ posN= *`coordN`*
  </tr> 
 </table>
 
-En cas de calques d’image, de texte et de couleur unie, `pos=` spécifie la position d’une ancre de calque par rapport à l’ancre de calque 0. `posN=` les valeurs de coordonnée sont normalisées par rapport à la taille réelle de la couche 0 rect.
+S’il existe une image, un texte et des calques de couleur unis, `pos=` spécifie la position d’une ancre de calque par rapport à l’ancre de calque 0. La variable `posN=` les valeurs de coordonnée sont normalisées par rapport à la taille réelle de la couche 0 rect.
 
-En cas de calques d’effet, `pos=` déplace le calque d’effet par rapport au calque parent.
+S’il existe des calques d’effet, `pos=` déplace le calque d’effet par rapport au calque parent.
 
-Les valeurs positives déplacent le calque vers la droite/le bas, les valeurs négatives vers la gauche/le haut. `posN=0.5,0.5` déplace le calque de la moitié de la largeur et de la hauteur du calque vers le bas et la droite.
+Les valeurs positives déplacent le calque vers la droite/le bas et les valeurs négatives vers la gauche/le haut. Dans `posN=0.5,0.5`, il déplace le calque de la moitié de la largeur et de la hauteur du calque de 0 vers le bas et vers la droite.
 
 ## Propriétés {#section-51a60cdc52d040538fef378ace7c2e7d}
 
@@ -43,7 +43,7 @@ Attribut de calque. Ignoré si `layer=0` ou `layer=comp`.
 
 ## Par défaut {#section-70a6bc71ded5494e843194dfb6bf5a6c}
 
-`posN=0,0`. Cela place l’ancre de calque au même emplacement que l’ancre de calque 0 s’il s’agit d’une image, d’un texte ou d’un calque de couleur uni. Place un calque d’effet directement sur ou sous son calque parent.
+`posN=0,0`. Cette coordonnée place l’ancre de calque au même emplacement que l’ancre de calque 0 s’il s’agit d’une image, d’un texte ou d’un calque de couleur uni. Place un calque d’effet directement sur ou sous son calque parent.
 
 ## Exemple {#section-a89a02c22f6b4260bfcf7c842cd6069d}
 

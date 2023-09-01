@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b937e699-8e1e-4211-86a6-fdc155a0e3ed
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 4%
+source-wordcount: '195'
+ht-degree: 3%
 
 ---
 
@@ -25,21 +25,21 @@ Couleur du calque. Indique la couleur de premier plan et l’opacité des calque
  </tr> 
 </table>
 
-En cas de calques d’image et de texte, `color=` remplit les zones transparentes et semi-opaques dans le rectangle de délimitation du calque avec la couleur spécifiée* avant* `rotate=` et `extend=` sont appliquées.
+Si des calques d’image et de texte existent, `color=` remplit les zones transparentes et semi-opaques dans le rectangle de délimitation du calque avec la couleur spécifiée* avant* `rotate=` et `extend=` sont appliquées.
 
 ## Propriétés {#section-d6e74c36a49547849212e4db8927e678}
 
 Attribut de calque. S’applique au calque actif ou au calque 0 si `layer=comp`.
 
-*`color`* est supposé exister dans l’espace colorimétrique de travail correspondant au type de pixel de *`color`*. *`color`* est converti avec précision si l’image de calque a un type de pixel différent au moment de la fusion.
+Le modificateur *`color`* est supposé exister dans l’espace colorimétrique de travail correspondant au type de pixel de *`color`*. Et *`color`* est converti avec précision si l’image de calque a un type de pixel différent au moment de la fusion.
 
 ## Par défaut {#section-60611c72876b4c45b5c85ce35608e5ec}
 
-Aucune valeur par défaut pour les calques couleur et effet uni ; une couleur doit être spécifiée. La valeur par défaut est 0,0,0,0 (entièrement transparent) pour les calques d’image et de texte.
+Aucune valeur par défaut n’est définie pour les calques de couleur et d’effet uni. Une couleur doit être spécifiée. La valeur par défaut est 0,0,0,0 (entièrement transparent) pour les calques d’image et de texte.
 
 ## Exemple {#section-2d090493f4ec4e188bbc5565aa151a05}
 
-Dans le fragment de modèle suivant, nous définissons l’arrière-plan du texte sur une couleur opaque de 50 % et utilisons la même couleur pour ajouter une bordure de 10 pixels semi-transparente autour de l’image du calque 2 :
+Dans le fragment de modèle suivant, l’arrière-plan du texte est défini sur une couleur opaque de 50 % et utilise la même couleur pour ajouter une bordure de 10 pixels semi-transparente autour de l’image du calque 2 :
 
 `…&$color=214,245,130,128& layer=1&text=my-text-string&color=$color$&… layer=2&src=myRootId/myImageId&extend=10,10,10,10&bgColor=$color$&…`
 

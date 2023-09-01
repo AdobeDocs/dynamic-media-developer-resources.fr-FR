@@ -1,20 +1,20 @@
 ---
-description: Permet aux administrateurs de créer de nouveaux champs de métadonnées à coordonner avec les systèmes de gestion de contenu ou pour les opérations de modèle. Parmi les exemples de champs de métadonnées créés, citons les mots-clés, les informations sur l’auteur de l’image ou les informations sur le titulaire du copyright.
-solution: Experience Manager
 title: createMetadataField
+description: Il permet aux administrateurs de créer des champs de métadonnées pour les coordonner avec les systèmes de gestion de contenu ou pour les opérations de modèle. Parmi les exemples de champs de métadonnées créés, citons les mots-clés, les informations sur l’auteur de l’image ou les informations sur le titulaire du copyright.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: eac7fa54-ebe2-4f42-a478-d9a6fb54d1b6
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '284'
 ht-degree: 13%
 
 ---
 
 # createMetadataField{#createmetadatafield}
 
-Permet aux administrateurs de créer de nouveaux champs de métadonnées à coordonner avec les systèmes de gestion de contenu ou pour les opérations de modèle. Parmi les exemples de champs de métadonnées créés, citons les mots-clés, les informations sur l’auteur de l’image ou les informations sur le titulaire du copyright.
+Il permet aux administrateurs de créer des champs de métadonnées pour les coordonner avec les systèmes de gestion de contenu ou pour les opérations de modèle. Parmi les exemples de champs de métadonnées créés, citons les mots-clés, les informations sur l’auteur de l’image ou les informations sur le titulaire du copyright.
 
 Syntaxe
 
@@ -82,7 +82,7 @@ Syntaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> Permet de créer un ensemble de valeurs énumérées partagées auxquelles les balises sélectionnées peuvent pointer. </td> 
+   <td colname="col4"> Il vous permet de créer un ensemble de valeurs spécifiques partagées auxquelles les balises sélectionnées peuvent pointer. </td> 
   </tr> 
  </tbody> 
 </table>

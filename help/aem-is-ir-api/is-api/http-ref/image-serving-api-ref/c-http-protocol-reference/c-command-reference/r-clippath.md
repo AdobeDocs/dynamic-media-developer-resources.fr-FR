@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 86c87cd1-6e08-40cb-80e6-35a9f49b6572
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '548'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ Toute partie du calque située en dehors de la zone définie par `clipPath=` son
 
 If `size=` est spécifié et non 0,0, le calque est prédimensionné. Dans ce cas, les coordonnées du chemin sont relatives au coin supérieur gauche du rectangle du calque et le calque est positionné en fonction de `origin=` ou sa valeur par défaut. Toutes les zones du chemin en dehors du rectangle du calque restent transparentes.
 
-If `size=` n’est pas spécifié pour une couleur ou un calque de texte uni, le calque est considéré comme se dimensionnant avec l’étendue du chemin déterminant sa taille. If `origin=` n’est pas spécifié, il est défini par défaut sur (0,0) de l’espace de coordonnées du chemin. Cela permet de spécifier les coordonnées du chemin par rapport à l’origine du calque 0.
+If `size=` n’est pas spécifié pour une couleur ou un calque de texte uni, le calque est considéré comme se dimensionnant avec l’étendue du chemin déterminant sa taille. If `origin=` n’est pas spécifié, il est défini par défaut sur (0,0) de l’espace de coordonnées du chemin. Ce processus de workflow permet de spécifier les coordonnées du chemin par rapport à l’origine de la couche 0.
 
 >[!NOTE]
 >
@@ -111,7 +111,7 @@ Si un sous-chemin commence par un mouvement relatif (&#39;m&#39;), il est relati
 
 Attribut de calque. S’applique au calque actif ou à l’image composite si `layer=comp`. Les calques d’effet l’ignorent.
 
-`clipPathE=` est ignoré si aucun chemin d’accès portant le nom spécifié n’est trouvé dans l’image source du calque ou si la source du calque n’est pas une image.
+Le modificateur `clipPathE=` est ignoré si aucun chemin d’accès portant le nom spécifié n’est trouvé dans l’image source du calque ou si la source du calque n’est pas une image.
 
 ## Par défaut {#section-076c35ea37fa4a44ada253b4c2dec1dd}
 

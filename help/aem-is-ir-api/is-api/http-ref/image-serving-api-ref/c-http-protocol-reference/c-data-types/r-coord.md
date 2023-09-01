@@ -1,20 +1,20 @@
 ---
 title: coord
-description: Coordonnées des pixels. Utilisé pour spécifier les coordonnées de l’image sous la forme d’un décalage de pixels par rapport au coin supérieur gauche d’une image ou d’un rectangle de calque. Elles sont souvent utilisées dans les décalages d’image ou les paramètres de recadrage.
+description: Coordonnées des pixels. Utilisé pour spécifier les coordonnées de l’image sous la forme d’un décalage de pixels par rapport au coin supérieur gauche d’une image ou d’un rectangle de calque. Ces coordonnées sont souvent utilisées dans les décalages d’image ou les paramètres de recadrage.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 12ca4002-a540-4eb9-bb11-824d7cb41d30
-source-git-commit: 13991f71ab54d1003a79a496b861d53a61899bdc
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
 
 # coord{#coord}
 
-Coordonnées des pixels. Utilisé pour spécifier les coordonnées de l’image sous la forme d’un décalage de pixels par rapport au coin supérieur gauche d’une image ou d’un rectangle de calque. Elles sont souvent utilisées dans les décalages d’image ou les paramètres de recadrage.
+Coordonnées des pixels. Utilisé pour spécifier les coordonnées de l’image sous la forme d’un décalage de pixels par rapport au coin supérieur gauche d’une image ou d’un rectangle de calque. Ces coordonnées sont souvent utilisées dans les décalages d’image ou les paramètres de recadrage.
 
 <table id="simpletable_A686120953124ACB8803CB9C877252AB"> 
  <tr class="strow"> 

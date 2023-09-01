@@ -1,84 +1,86 @@
 ---
-source-git-commit: 70fe30f1fc89a52be8984832a4ba184fda8e7380
-translation-type: tm+mt
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+workflow-type: tm+mt
+source-wordcount: '683'
+ht-degree: 0%
 
 ---
 # Instructions relatives à la contribution à la documentation des ressources du développeur Adobe Dynamic Media
 
 ## Philosophie de la documentation
 
-Nous savons que les utilisateurs d’Adobe Dynamic Media travaillent dans des  de  hautement compétitifs, en s’efforçant de créer des expériences numériques qui les distingueront de leur. Par conséquent, il est essentiel que, lorsque Adobe fournit de nouveaux outils avancés, ces outils soient complétés par une documentation précise et claire afin de permettre au client de tirer immédiatement parti de son investissement dans les médias dynamiques et d’optimiser son retour sur investissement.
+Adobe sait que les utilisateurs d’Adobe Dynamic Media travaillent dans des environnements très concurrentiels, afin de créer des expériences numériques qui les distinguent de leurs concurrents. Par conséquent, il est essentiel que, lorsque Adobe fournit de nouveaux outils avancés, ces outils soient complétés par une documentation précise et claire pour permettre au client d’exploiter immédiatement son investissement Dynamic Media et maximiser le ROI.
 
-Le but de la documentation est de mettre à jour la documentation dans les plus brefs délais. C&#39;est pourquoi nous donnons la priorité à la documentation exacte et utilisable et nous nous efforçons de continuellement la mettre à jour et l&#39;améliorer.
+L’objectif de cette documentation est de mettre la documentation à jour entre les mains des utilisateurs dès que possible. Par conséquent, nous donnons la priorité à une documentation précise et utilisable et nous nous efforçons de la mettre à jour et de l’améliorer continuellement.
 
 ## Contributions à la documentation
 
-Afin d&#39;améliorer continuellement la documentation, toute la communauté des utilisateurs est invitée à contribuer à la documentation. Que ce soit par le biais de demandes ou de problèmes, les améliorations apportées à la documentation peuvent être des corrections, des clarifications, des extensions et d’autres exemples.
+Afin d’améliorer continuellement la documentation, toute la communauté des utilisateurs est la bienvenue pour contribuer à la documentation. Qu’il s’agisse de demandes d’extraction ou de problèmes, les améliorations apportées à la documentation peuvent être des corrections, des clarifications, des extensions et des exemples supplémentaires.
 
-## Normes de documentation
+## Normes de la documentation
 
-Bien que nous nous réjouissions des contributions à notre documentation, toute contribution à la documentation, sous la forme d&#39;une demande d&#39;appel ou d&#39;un problème, devrait être conforme à nos normes de contribution et de documentation.
+Bien que nous nous félicitions des contributions à notre documentation, toute contribution à la documentation, sous la forme d’une demande d’extraction ou d’un problème, doit être conforme à nos normes de contribution et de documentation.
 
-Les contributions qui ne respectent pas ces normes peuvent être rejetées.
+Les contributions qui ne satisfont pas à ces normes peuvent être rejetées.
 
-### Nous  des cas d&#39;utilisation standard.
+### Nous documentons les cas d’utilisation standard.
 
-La documentation porte sur les cas d&#39;utilisation standard. Les cas d’utilisation hors du cadre de l’installation et de l’utilisation standard du produit ne font pas partie de la documentation.
+La documentation couvre les cas d’utilisation standard. Les cas d’utilisation au-delà de la portée de l’installation et de l’utilisation standard du produit ne font pas partie de la documentation.
 
-### Nous n&#39;avons généralement pas de problèmes  ou leurs solutions.
+### En règle générale, nous ne documentons pas les bogues ni leurs solutions.
 
-La documentation porte sur les cas d&#39;utilisation standard. Pour cette raison, les bogues, les effets causés par les bogues et les solutions de contournement des bogues ne sont généralement pas documentés.
+La documentation couvre les cas d’utilisation standard. Pour cette raison, les bogues, les effets causés par les bogues et les solutions aux bogues ne sont pas documentés.
 
-Les exceptions à cette règle s’appliquent aux notes de mise à jour où les problèmes connus peuvent être répertoriés avec les solutions possibles qui ont été approuvées par la gestion des produits.
+Les exceptions à cette règle s’appliquent aux notes de mise à jour qui répertorient les problèmes connus ainsi que les solutions possibles qui ont été approuvées par la gestion des produits.
 
-### Les contributions à la documentation ne sont pas destinées à répondre aux questions techniques.
+### Les contributions à la documentation ne sont pas destinées à répondre à des questions techniques.
 
-Toutes les idées que vous pourriez avoir à améliorer la documentation sont les bienvenues à titre de contribution. Toutefois, les commentaires, les problèmes et les demandes d’extraction ne sont destinés qu’aux *contributions* . Elles ne sont pas destinées à être utilisées pour répondre à vos questions sur l’utilisation de Contenu multimédia dynamique, la mise en oeuvre de votre projet ou la résolution de problèmes techniques.
+Toutes les idées susceptibles d’améliorer la documentation sont les bienvenues sous forme de contributions. Toutefois, les commentaires, les problèmes et les demandes d’extraction sont destinés à *contributions* uniquement. Elles ne sont pas destinées à être utilisées pour répondre à vos questions sur l’utilisation de Dynamic Media, mettre en oeuvre votre projet ou résoudre des problèmes techniques.
 
-Toute question concernant l’utilisation de Contenu multimédia dynamique ou les erreurs techniques que vous pourriez rencontrer doit être signalée via le portail [d’assistance aux entreprises](https://helpx.adobe.com/contact/enterprise-support.ec.html) Experience Cloud ou traitée dans la communauté [Experience Manager.](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager)
+Toute question relative à l’utilisation de Dynamic Media ou à la résolution d’erreurs techniques doit être soumise au moyen de la variable [Portail d’assistance aux entreprises Experience Cloud](https://experienceleague.adobe.com/?support-solution=General&amp;support-tab=home#support) ou discutés dans la section [communauté des Experience Manager.](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
 
-***Les contributions à la documentation ne remplacent pas celles du service d’assistance*** clientèle d’Adobe et toute contribution de ce type demandant des réponses à des questions d’assistance sera rejetée.
+***Les contributions à la documentation ne remplacent pas l’assistance clientèle Adobe.*** et toute contribution de ce type visant à obtenir des réponses à des questions d’assistance est refusée.
 
-### Les contributions doivent clairement faire référence aux pages de documentation affectées.
+### Les contributions doivent clairement référencer les pages de documentation concernées.
 
-Si vous créez un problème pour suggérer des améliorations à la documentation, vous devez inclure des liens vers les pages concernées. Si vous créez un problème en cliquant sur le lien **Modifier cette page** sur une page de documentation, celui-ci est automatiquement créé avec un lien vers la page.
+Si vous créez un problème pour suggérer des améliorations à la documentation, vous devez inclure des liens vers les pages concernées. Si vous créez un problème en utilisant la variable **Modifier cette page** sur une page de documentation, le problème est automatiquement créé avec un lien vers la page.
 
-Cela ne s’applique pas aux demandes d’extraction, car les demandes d’extraction par nature référencent la ou les pages concernées.
+Ce processus ne s’applique pas aux requêtes d’extraction, car les requêtes d’extraction, par nature, référencent les pages concernées.
 
 ## Instructions relatives à la documentation
 
-Nous demandons que toute contribution à notre documentation soit conforme à certaines directives de style.
+Nous vous demandons de bien vouloir respecter certaines directives de style pour toutes les contributions à notre documentation.
 
-Le respect de ces lignes directrices facilite l&#39;examen de votre contribution et, par conséquent, l&#39;intégration dans notre documentation est plus rapide.
+Suivez ces instructions pour simplifier la révision de votre contribution et, par conséquent, l’intégration dans notre documentation est plus rapide.
 
 ### Langue et style
 
 #### Langue
 
-* La documentation est rédigée et mise à jour en anglais américain.
-* Conserver les phrases aussi simples que possible.
+* La documentation est créée et conservée en anglais américain.
+* Faites en sorte que les phrases soient aussi simples que possible.
 * Gardez le langage clair et concis.
 
-N&#39;oubliez pas que les lecteurs de la documentation sont partout dans le monde et qu&#39;on ne peut pas s&#39;attendre à ce qu&#39;ils parlent l&#39;anglais de langue maternelle ou couramment. Évitez les expressions familières et gardez la langue aussi claire et simple que possible.
+N’oubliez pas que les lecteurs de la documentation sont internationaux et ne peuvent pas être des locuteurs anglais natifs ou bilingues. Évitez les expressions familières et gardez la langue aussi claire et simple que possible.
 
-#### Suivre le manuel de style Microsoft
+#### Suivez le guide de style de Microsoft®
 
-[Le Manuel de style](https://docs.microsoft.com/en-us/style-guide/welcome/) de Microsoft est un guide de style de documentation disponible gratuitement qui se concentre sur la documentation logicielle et la documentation sur les médias dynamiques suit ce guide chaque fois que possible.
+[Le guide de style de Microsoft®](https://learn.microsoft.com/en-us/style-guide/welcome/) est un guide de style de documentation gratuit qui se concentre sur la documentation logicielle et la documentation Dynamic Media suit ce guide dans la mesure du possible.
 
 ### Formatage
 
 | Article | Style |
 |---|---|
 | Elément ou option de l’interface utilisateur | **gras** |
-| Nom de fichier, chemin, entrée utilisateur, valeurs de paramètre | `monospaced` |
+| Nom de fichier, chemin, entrée utilisateur, paramètre-valeurs | `monospaced` |
 | Code, ligne de commande | ```Code Block``` |
 
 ### Captures d’écran
 
-Les captures d&#39;écran doivent être utilisées judicieusement et uniquement lorsqu&#39;une description textuelle est insuffisante.
+Les captures d’écran doivent être utilisées de manière judicieuse et uniquement lorsqu’une description textuelle est insuffisante.
 
-Les marqueurs ou autres annotations dans les captures d’écran (comme les cadres rouges, les flèches ou le texte) ne doivent pas être utilisés. Ainsi, les captures d’écran sont plus faciles à réutiliser ou à répliquer dans les versions localisées de la documentation.
+Les marqueurs ou autres annotations dans les captures d’écran (comme les cadres rouges, les flèches ou le texte) ne doivent pas être utilisés. Cela est dû au fait que les captures d’écran sont plus faciles à réutiliser ou à répliquer dans les versions localisées de la documentation.
 
-### Références spécifiques aux versions
+### Références spécifiques à la version
 
-Evitez autant que possible toute référence directe à une version spécifique dans le contenu de la documentation. Cela rend la documentation plus flexible et plus extensible pour les versions ultérieures.
+Dans la mesure du possible, évitez toute référence directe à une version spécifique dans tout le contenu de la documentation. Cela rend la documentation plus flexible et extensible pour les versions ultérieures.

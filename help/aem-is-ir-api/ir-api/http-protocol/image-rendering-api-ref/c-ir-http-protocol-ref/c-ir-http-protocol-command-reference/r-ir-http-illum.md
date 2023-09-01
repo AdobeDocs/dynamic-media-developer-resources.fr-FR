@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e1af2397-8eae-4b77-abb1-61ba8cb866f3
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 5%
+source-wordcount: '80'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ Sélecteur de carte d’éclairage. Spécifie la carte d’éclairage avec laque
 
 Si la carte d’éclairage spécifiée n’est pas disponible dans la vignette cible, la carte disponible la plus proche est utilisée à la place.
 
-`illum=-1` Indique que la carte d’éclairage est sélectionnée automatiquement en fonction de la variable `gloss=` .
+`illum=-1` Indique que la carte d’éclairage est sélectionnée automatiquement en fonction du `gloss=` .
 
 ## Propriétés {#section-aace8466566e4cf1a0c5a6c0167245c9}
 

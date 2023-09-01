@@ -1,13 +1,13 @@
 ---
+title: MetadataField
 description: Définitions de champ définies par l’utilisateur pour des ressources spécifiques.
 solution: Experience Manager
-title: MetadataField
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 97175076-9078-4bc4-b3ea-73c3ea772f6a
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '145'
 ht-degree: 15%
 
 ---
@@ -32,7 +32,7 @@ Récupération des définitions de champ de balise avec la méthode `getMetadata
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Poignée de champ de métadonnées. </td> 
+   <td colname="col3"> Gestion des champs de métadonnées. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
@@ -72,7 +72,7 @@ Récupération des définitions de champ de balise avec la méthode `getMetadata
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Permet de créer un ensemble de valeurs énumérées partagées auxquelles les balises sélectionnées peuvent pointer. </td> 
+   <td colname="col3"> Il vous permet de créer un ensemble de valeurs spécifiées partagées auxquelles les balises sélectionnées peuvent pointer. </td> 
   </tr> 
  </tbody> 
 </table>

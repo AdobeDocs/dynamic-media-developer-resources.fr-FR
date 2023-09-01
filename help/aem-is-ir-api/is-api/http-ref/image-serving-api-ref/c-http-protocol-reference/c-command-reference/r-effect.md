@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d1eaa38d-cfd3-44d4-92b1-04d72333f867
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 4%
+source-wordcount: '178'
+ht-degree: 3%
 
 ---
 
@@ -27,15 +27,15 @@ Sélectionnez Calque d’effet. Sélectionne un calque d’effet et lance un nou
 
 Toutes les commandes du nouveau segment sont appliquées à la couche d’effet spécifiée. Un segment de calque d’effet est arrêté par le suivant `layer=` ou `effect=` ou à la fin de la requête.
 
-*`n`* doit être inférieur à 0 pour les effets de couche externe (c’est-à-dire les effets derrière la couche parent) et supérieur à 0 pour les effets de couche interne (c’est-à-dire les effets dans la couche parent). Les numéros de calque d’effet ne doivent pas nécessairement être consécutifs.
+La valeur *`n`* doit être inférieur à 0 pour les effets de couche externe (c’est-à-dire les effets derrière la couche parent) et supérieur à 0 pour les effets de couche interne (c’est-à-dire les effets dans la couche parent). Les numéros de calque d’effet ne doivent pas nécessairement être consécutifs.
 
-Le numéro de calque d’effet spécifie l’ordre z, dans le cas de plusieurs calques d’effet pour le même calque parent. Les calques à numéro supérieur sont placés au-dessus des calques à numéro inférieur.
+Le numéro de calque d’effet spécifie l’ordre z, s’il existe plusieurs calques d’effet pour le même calque parent. Les calques à numéro supérieur sont placés au-dessus des calques à numéro inférieur.
 
 Les calques d’effet peuvent être associés à `layer=comp`.
 
 ## Propriétés {#section-e11f795deff345779ce280a82cf221ca}
 
-Couche d’effet, commande. *`n`* ne doit pas être égal à 0.
+Couche d’effet, commande. La valeur *`n`* ne doit pas être égal à 0.
 
 ## Par défaut {#section-84bbe1cfe7a94040827c994323ac59d4}
 

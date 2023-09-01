@@ -1,20 +1,20 @@
 ---
-description: Elément Chaîne de substitution. Facultatif dans les éléments <rule> .
-solution: Experience Manager
 title: substitution
-feature: Dynamic Media Classic, SDK/API
+description: Elément Chaîne de substitution. Facultatif dans <rule> éléments .
+solution: Experience Manager
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ea44d940-e8dd-4a25-a082-3ed3c0f57e45
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '136'
 ht-degree: 2%
 
 ---
 
 # substitution{#substitution}
 
-Elément Chaîne de substitution. Facultatif dans les éléments `<rule>`.
+Elément Chaîne de substitution. Facultatif dans `<rule>` éléments .
 
 ## Attributs {#section-d955eefc53eb4274861270669c01f9ca}
 
@@ -30,12 +30,12 @@ Définit une chaîne de remplacement pour la chaîne ou la sous-chaîne correspo
 
 Si l’expression de modèle inclut des sous-expressions (délimitées par des parenthèses), la première sous-chaîne correspondante est remplacée par la chaîne de substitution. Si l’expression de modèle n’inclut pas de sous-expressions, la chaîne correspondante entière est remplacée.
 
-Si `<expression>` est vide ou absent, la chaîne de substitution est ajoutée au chemin ou à la requête.
+If `<expression>` est vide ou absent, la chaîne de substitution est ajoutée au chemin ou à la requête.
 
-Si `<substitution>` est vide, la chaîne ou la sous-chaîne correspondante est supprimée. Si `<substitution>` n’est pas spécifié, le chemin d’accès ou la chaîne de requête n’est pas modifié.
+If `<substitution>` est vide, la chaîne ou la sous-chaîne correspondante est supprimée. If `<substitution>` n’est pas spécifié, le chemin ou la chaîne de requête n’est pas modifiée.
 
 ## Note {#section-90fe89bb17a04804b7ff3c93df082892}
 
-La chaîne de substitution ne doit pas contenir de caractères littéraux &lt; et &amp; . Ces caractères réservés peuvent être codés respectivement avec `&` et `<` ou toute la chaîne peut être incluse dans une section `CDATA` XML :
+La chaîne de substitution ne doit pas contenir de caractères littéraux &lt; et &amp; . Ces caractères réservés peuvent être codés avec `&` et `<`, ou la chaîne entière peut être incluse dans un fichier XML `CDATA` section :
 
 `<substitution><![CDATA[&text=<Hello, world!>]]></ substitution>`

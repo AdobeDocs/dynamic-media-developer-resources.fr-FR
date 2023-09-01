@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9f1b2d6f-4e67-4530-9ec6-870b97687ce0
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '255'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Rotation de l’image. Fait pivoter l’image, le texte ou la couche de couleur 
  </tr> 
 </table>
 
-Les angles positifs tournent dans le sens des aiguilles d&#39;une montre. Point d’ancrage du calque ( `anchor=` ou `catalog::Anchor`) sert de centre de rotation. Le rectangle du calque est agrandi et ajusté autour des données pivotées selon les besoins pour éviter le recadrage. La rotation est appliquée après le remplissage de la zone d’arrière-plan du calque avec `color=`. `bgColor=` peut être utilisé pour ajouter une couleur d’arrière-plan au rectangle de sélection après la rotation.
+Les angles positifs tournent dans le sens des aiguilles d&#39;une montre. Point d’ancrage du calque ( `anchor=` ou `catalog::Anchor`) sert de centre de rotation. Le rectangle du calque est agrandi et ajusté autour des données pivotées selon les besoins pour éviter le recadrage. La rotation est appliquée après le remplissage de la zone d’arrière-plan du calque avec `color=`. Le modificateur `bgColor=` peut être utilisé pour ajouter une couleur d’arrière-plan au rectangle de sélection après la rotation.
 
 ## Propriétés {#section-8b5a9bb9062f48dbb8d4e9953ff39e39}
 
@@ -37,13 +37,13 @@ Couche, commande. S’applique au calque actif ou au calque 0 si `layer=comp`. I
 
 ## Exemple {#section-e8ab3ba8a8624b43aeaaa8f089fc2f00}
 
-Placez une étiquette &quot;À la vente&quot; près du coin supérieur gauche des images dans un catalogue d’images. L’image d’étiquette est déjà dimensionnée correctement pour la vue 300x300 et doit être pivotée de 30 degrés vers la gauche. Remplissez la zone de texte d’une couleur blanche semi-opaque pour améliorer le libellé.
+Placez une étiquette &quot;À la vente&quot; près du coin supérieur gauche des images dans un catalogue d’images. L’image d’étiquette est déjà dimensionnée correctement pour la vue 300x300 et doit être pivotée de 30° vers la gauche. Pour améliorer le libellé, remplissez la zone de texte d’une couleur blanche semi-opaque.
 
 `http:// *`server`*/myRootId/myImageId?scl=1&size=300,300&origin=-0.5,-0.5 &layer=1&src=labelImage&origin=-0.5,-0.5&rotate=-30&color=ffffff40`
 
-Nous appliquons `size=` au calque 0 pour définir la taille de l’affichage, plutôt que d’utiliser `wid=` et `hei=`. Cela permet `myImageId` à redimensionner sans modifier la taille finale de `labelImage`. Nous devons également spécifier `scl=1`, sinon l’image composite peut être mise à l’échelle en `attribute::DefaultPix` (sauf si la valeur est définie sur 0,0). `color=` ajoute la couleur d’arrière-plan semi-opaque à la zone de texte avant la rotation.
+Appliquer `size=` au calque 0 pour définir la taille de l’affichage, plutôt que d’utiliser `wid=` et `hei=`. Cette méthode permet `myImageId` à redimensionner sans modifier la taille finale de `labelImage`. Spécifiez également `scl=1`, sinon l’image composite peut être mise à l’échelle en `attribute::DefaultPix` (sauf si la valeur est définie sur 0,0). Le modificateur `color=` ajoute la couleur d’arrière-plan semi-opaque à la zone de texte avant la rotation.
 
-L’origine des deux calques est définie sur les coins supérieurs gauche, afin d’obtenir l’alignement souhaité. Notez que le point d’origine du calque 1 s’applique à `labelImage`après avoir été pivoté.
+L’origine des deux calques est définie dans le coin supérieur gauche pour obtenir l’alignement souhaité. Le point d’origine du calque 1 s’applique à `labelImage`après sa rotation.
 
 Voir [Exemple A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac) in [Modèles](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e) exemple de texte pivoté.
 

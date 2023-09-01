@@ -1,20 +1,20 @@
 ---
-description: Renvoie les ressources provenant d’IPS.
-solution: Experience Manager
 title: getAssets
+description: Renvoie les ressources du système de production d’images (IPS).
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 3b63da9c-f10a-40bf-8e3c-4f0bfc53d74c
-source-git-commit: e7370f699fea8a2c248a33ebc8925d98231e6b26
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 21%
+source-wordcount: '131'
+ht-degree: 19%
 
 ---
 
 # getAssets{#getassets}
 
-Renvoie les ressources provenant d’IPS.
+Renvoie les ressources du système de production d’images (IPS).
 
 Syntaxe
 
@@ -82,12 +82,12 @@ Syntaxe
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> types:StringArray</span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
-   <td colname="col4"> <p>Champs et sous-champs exclus de la réponse. </p> </td> 
+   <td colname="col4"> <p>Champs et sous-champs qui sont exclus de la réponse. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Outpub (getAssetsReturn)**
+**Sortie (getAssetsReturn)**
 
 <table id="table_694932BBBD2C4167871380B2CF514BEA"> 
  <thead> 

@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 71d59961-848e-4d78-875e-066e842ac1bf
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 3%
+source-wordcount: '228'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ Quantification des couleurs. Spécifie les attributs de quantification des coule
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> type </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {adaptive|web|mac} </span> </p> <p>Indique le type de palette. </p> <p>Définissez sur . <span class="codeph"> adaptatif </span> pour calculer une palette optimale pour l’image. </p> <p>Définissez sur . <span class="codeph"> web </span> ou <span class="codeph"> mac </span> pour choisir une palette prédéfinie. </p> <p> <p>Remarque : Le <span class="codeph"> mac </span> Le type de palette est uniquement pris en charge pour les formats GIF et PNG8, mais pas pour les formats GIF-Alpha et PNG8-Alpha. </p> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {adaptive|web|mac} </span> </p> <p>Indique le type de palette. </p> <p>Définissez sur . <span class="codeph"> adaptatif </span> pour calculer une palette optimale pour l’image. </p> <p>Définissez sur . <span class="codeph"> web </span> ou <span class="codeph"> mac </span> pour choisir une palette prédéfinie. </p> <p> <p>Remarque : La variable <span class="codeph"> mac </span> Le type de palette est uniquement pris en charge pour les formats GIF et PNG8, mais pas pour les formats GIF-Alpha et PNG8-Alpha. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> dither </span> </span> </p> </td> 
@@ -41,9 +41,9 @@ Quantification des couleurs. Spécifie les attributs de quantification des coule
 
 ## Propriétés {#section-8ab5035055b24b858270d260912a7f3d}
 
-Attribut de requête. S’applique quel que soit le paramètre de calque actif. Utilisé uniquement si `fmt=gif`, `fmt=gif-alpha`, `fmt=png8`ou `fmt=png8-alpha`. Ignoré dans le cas contraire.
+Attribut de requête. Elle s’applique quel que soit le paramètre de calque actuel. Utilisé uniquement si `fmt=gif`, `fmt=gif-alpha`, `fmt=png8`, ou `fmt=png8-alpha`. Ignoré autrement.
 
-Les couleurs spécifiées avec *`colorList`* doit être composé de valeurs RGB au format hex6 (voir [color](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md) without `0x` préfixe. Aucun autre spécificateur de couleur n’est autorisé. *`numColors`* doit être compris entre 2 et 256.
+Les couleurs spécifiées avec *`colorList`* doit être composé de valeurs RGB au format hex6 (voir [color](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-color-commandref.md) without `0x` préfixe. Aucun autre spécificateur de couleur n’est autorisé. Le modificateur *`numColors`* doit être comprise entre 2 et 256.
 
 ## Par défaut {#section-ca3e817617244e8798ccff67b2023a32}
 
@@ -53,11 +53,11 @@ Les couleurs spécifiées avec *`colorList`* doit être composé de valeurs RGB 
 
 Générez une miniature de GIF à l’aide du `web` palette et aucun tramage :
 
-` http:// *`server`*/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off`
+`http:// *`*Serveur*`*/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off`
 
-Convertir l’image en GIF bimensuel avec transparence couleur-clé et forcer les couleurs en noir et blanc :
+Convertissez l’image en GIF bonal avec transparence couleur clé et forcer les couleurs en noir et blanc :
 
-` http:// *`server`*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
+`http:// *`*Serveur*`*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
 
 ## Voir aussi {#section-ea5e8de6084540cf86010370a4d0f01f}
 

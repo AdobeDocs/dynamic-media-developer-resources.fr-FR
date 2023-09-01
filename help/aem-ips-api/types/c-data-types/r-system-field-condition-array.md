@@ -1,11 +1,11 @@
 ---
+title: SystemFieldConditionArray
 description: Tableau de conditions de champ système.
 solution: Experience Manager
-title: SystemFieldConditionArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: bc6fd6c6-acb9-4a90-830b-e964af04abd2
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '23'
 ht-degree: 26%

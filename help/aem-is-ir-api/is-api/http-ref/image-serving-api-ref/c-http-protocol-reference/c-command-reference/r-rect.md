@@ -1,20 +1,20 @@
 ---
 title: rect
-description: Rectangle de la vue finale. Permet le démontage de l’image d’affichage final en plusieurs bandes ou mosaïques, qui peuvent être diffusées séparément et reassemblées par le client de manière transparente, sans artefacts le long des bords.
+description: Rectangle de la vue finale. Elle permet de démonter l’image de la vue finale en plusieurs bandes ou mosaïques, qui peuvent être diffusées séparément et reassemblées par le client de manière transparente, sans artefacts le long des bords.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1870001b-7904-470f-9582-984d453509ca
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '361'
 ht-degree: 1%
 
 ---
 
 # rect{#rect}
 
-Rectangle de la vue finale. Permet le démontage de l’image d’affichage final en plusieurs bandes ou mosaïques, qui peuvent être diffusées séparément et reassemblées par le client de manière transparente, sans artefacts le long des bords.
+Rectangle de la vue finale. Elle permet de démonter l’image de la vue finale en plusieurs bandes ou mosaïques, qui peuvent être diffusées séparément et reassemblées par le client de manière transparente, sans artefacts le long des bords.
 
 `rect= *`coord`*, *`size`*[, *`scale`*]`
 
@@ -37,11 +37,11 @@ Avec cette commande, la diffusion d’images peut diffuser des images de grande 
 
 >[!NOTE]
 >
->Pour de meilleurs résultats lorsque la compression JPEG est utilisée, la taille de la bande ou de la mosaïque doit correspondre à un multiple de la taille de la mosaïque de codage du JPEG (16x16 pixels).
+>Pour de meilleurs résultats, lorsque la compression JPEG est utilisée, la taille de la bande ou de la mosaïque doit correspondre à un multiple de la taille de la mosaïque de codage du JPEG (16x16 pixels).
 
 ## Exemple {#section-932fcfcb41d74a29bc929e4430c49601}
 
-Séparez une image CMJN imprimable en plusieurs bandes pleine résolution afin de réduire la taille des fichiers de téléchargement. Si nous devions demander une image contiguë :
+Séparez une image CMJN imprimable en plusieurs bandes pleine résolution afin de réduire la taille des fichiers de téléchargement. Si vous avez demandé une image contiguë :
 
 `http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&fmt=tif&icc=WebCoated`
 
@@ -53,15 +53,15 @@ La réponse textuelle comprend les propriétés suivantes :
 
 `image.width=2000 image.height=2400 image.version=37JK6NTvpvC42F5gOuLEVY`
 
-Sur la base de ces informations, nous décidons que nous voulons quatre bandes de 600x2000 pixels. La variable `rect=` sert à décrire les tailles et les positions des bandes.
+Sur la base de ces informations, quatre bandes de 600 x 2 000 pixels sont souhaitées. La variable `rect=` sert à décrire les tailles et les positions des bandes.
 
-Comme cette image est fréquemment modifiée, nous inclurons la variable `id=` afin de minimiser les risques que nous ayons une ou plusieurs bandes d’une ancienne version de l’image qui ont pu être mises en cache dans un réseau de diffusion de contenu ou un serveur proxy. La valeur de la variable `image.version` est utilisée à cette fin.
+Comme cette image est fréquemment modifiée, la variable `id=` est incluse. Cela permet de réduire les risques d’obtenir une ou plusieurs bandes d’une ancienne version de l’image qui peut avoir été mise en cache dans un réseau de diffusion de contenu ou un serveur proxy. La valeur de la variable `image.version` est utilisée à cette fin.
 
 `http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,0,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,600,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,1200,2000,600 http://server/is/image/cat/imageId?scl=1&op_usm=.9,2&bgc=ffffff&id=37JK6NTvpvC42F5gOuLEVY&rect=0,1800,2000,600`
 
 ## Propriétés {#section-aae223cee13e46d38b74680c048d945b}
 
-Attribut d’affichage. S’applique quel que soit le paramètre de calque actif.
+Attribut d’affichage. Elle s’applique quel que soit le paramètre de calque actuel.
 
 Toutes les zones du ROI situées en dehors de l’image d’affichage sont remplies par `bgc=`.
 
