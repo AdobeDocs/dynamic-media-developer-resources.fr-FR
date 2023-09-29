@@ -5,37 +5,37 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User,Data Engineer,Data Architect
 exl-id: fb58a388-e4da-475d-b726-d5a32e99cce0
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '91'
 ht-degree: 1%
 
 ---
 
 # Prise en charge du suivi Adobe Analytics{#support-for-adobe-analytics-tracking}
 
-Par défaut, la visionneuse envoie une requête HTTP de suivi unique au serveur d’images configuré avec le type de visionneuse et les informations de version.
+Par défaut, la visionneuse envoie une requête HTTP de suivi unique à un serveur d’images configuré avec le type de visionneuse et les informations de version.
 
 ## Suivi personnalisé {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Pour s’intégrer au système d’analyse tiers, il est nécessaire d’écouter `trackEvent` rappel et processus de visionneuse `eventInfo` de la fonction de rappel, le cas échéant. Le code suivant est un exemple de fonction de gestionnaire de ce type :
+Pour s’intégrer à des systèmes d’analyse tiers, il est nécessaire d’écouter `trackEvent` rappel et traitement de la visionneuse `eventInfo` de la fonction de rappel, le cas échéant. Le code suivant est un exemple de fonction de gestionnaire de ce type :
 
 ```javascript {.line-numbers}
 var panoramicViewer = new s7viewers.PanoramicViewer({
-	"containerId":"s7viewer",
+    "containerId":"s7viewer",
 "params":{
-	"asset":"Scene7SharedAssets/PanoramicImage-Sample",
-	"serverurl":"http://s7d1.scene7.com/is/image/"
+    "asset":"Scene7SharedAssets/PanoramicImage-Sample",
+    "serverurl":"http://s7d1.scene7.com/is/image/"
 },
 "handlers":{
-	"trackEvent":function(objID, compClass, instName, timeStamp, eventInfo) {
-		//identify event type
-		var eventType = eventInfo.split(",")[0];
-		switch (eventType) {
-			case "LOAD":
-				//custom event processing code
-				break;
-			//additional cases for other events
+    "trackEvent":function(objID, compClass, instName, timeStamp, eventInfo) {
+        //identify event type
+        var eventType = eventInfo.split(",")[0];
+        switch (eventType) {
+            case "LOAD":
+                //custom event processing code
+                break;
+            //additional cases for other events
 }
 }
 }

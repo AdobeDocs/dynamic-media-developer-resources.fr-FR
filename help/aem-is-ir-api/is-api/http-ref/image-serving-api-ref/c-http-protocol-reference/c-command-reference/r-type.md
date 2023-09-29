@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9015d5f4-e42c-43e0-af85-fc9c278448e7
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '105'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ Filtre de type contenu statique. Spécifie une chaîne de filtre pour le contenu
  </tr> 
 </table>
 
-Le serveur compare la valeur de `catalog::Type` de l’élément de contenu statique demandé. L’élément est renvoyé au client si les valeurs correspondent (sensible à la casse), sinon une erreur est renvoyée.
+Le serveur compare `val` avec la valeur de `catalog::Type` de l’élément de contenu statique demandé. L’élément est renvoyé au client si les valeurs correspondent (sensible à la casse), sinon une erreur est renvoyée.
 
 ## Propriétés {#section-529b088434a44a9f86a64ef548d2925b}
 

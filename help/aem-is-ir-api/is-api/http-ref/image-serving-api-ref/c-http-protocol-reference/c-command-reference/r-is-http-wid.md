@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ba22c79b-da59-4993-aa1c-2c990a0c4be5
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '271'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Largeur de l’affichage. Indique la largeur de l’image de réponse (image d’affichage) lorsque l’attribut fit= n’est pas présent dans la requête.
 
-` wid= *`val`*`
+`wid= *`val`*`
 
 <table id="simpletable_E217453246F5441C896C1F69EA4D4218"> 
  <tr class="strow"> 
@@ -35,21 +35,21 @@ If `scl=` n’est pas spécifié, l’image composite est mise à l’échelle d
 
 ## Par défaut {#section-976d4c8554a34c899f85d172f6ac6f58}
 
-Si aucun `wid=`, `hei=`, ou `scl=` sont spécifiées, l’image de réponse aura la taille de l’image composite ou `attribute::DefaultPix`, le plus petit.
+Si aucun `wid=`, `hei=`, ou `scl=` sont spécifiées, l’image de réponse a la taille de l’image composite ou `attribute::DefaultPix`, le plus petit.
 
 ## Propriétés {#section-c93b7ce1b0d2475f80b06264b45d1285}
 
-Attribut d’affichage. S’applique quel que soit le paramètre de calque actif.
+Attribut d’affichage. Elle s’applique quel que soit le paramètre de calque actuel.
 
 ## Exemple {#section-82bc98b7c15a451bbe9b915d414c0470}
 
-Demandez une image pour l’adapter à un rectangle de 200 x 200 ; alignez l’image en haut à droite si elle n’est pas carrée. N’importe quelle zone d’arrière-plan est remplie de `attribute::BkgColor`.
+Demandez une image afin qu’elle s’adapte à un rectangle de 200 x 200 ; alignez l’image en haut à droite si elle n’est pas carrée. N’importe quelle zone d’arrière-plan est remplie de `attribute::BkgColor`.
 
-` http:// *`server`*/myRootId/myImageId?wid=200&hei=200&align=1,-1`
+` http:// *`Serveur`*/myRootId/myImageId?wid=200&hei=200&align=1,-1`
 
-Même image, diffusée à une largeur fixe de 200 pixels, mais avec une hauteur variable pour conserver les proportions de l’image. Dans ce cas, l’image renvoyée ne comporte aucune zone de fond. Notez que dans ce cas, align= n’aurait aucun effet.
+Même image, diffusée à une largeur fixe de 200 pixels, mais avec une hauteur variable pour conserver les proportions de l’image. Dans ce cas, l’image renvoyée ne comporte aucune zone de fond. Dans ce cas, `align=` n&#39;aurait aucun effet.
 
-` http:// *`server`*/myRootId/myImageId?wid=200`
+` http:// *`Serveur`*/myRootId/myImageId?wid=200`
 
 ## Voir aussi {#section-4e9659238d6545498378ca8b1f3ec4ae}
 

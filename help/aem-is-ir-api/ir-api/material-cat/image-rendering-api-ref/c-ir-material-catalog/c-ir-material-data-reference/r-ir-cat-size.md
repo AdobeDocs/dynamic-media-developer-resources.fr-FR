@@ -1,14 +1,14 @@
 ---
+title: Taille
 description: Taille des décimales. Largeur, hauteur et épaisseur d’un objet de matériau décal.
 solution: Experience Manager
-title: Taille
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 964cb4c1-5256-40eb-94ea-761916174b79
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 5%
+source-wordcount: '212'
+ht-degree: 4%
 
 ---
 
@@ -18,7 +18,7 @@ Taille des décimales. Largeur, hauteur et épaisseur d’un objet de matériau 
 
 ## Propriétés {#section-967bf1112eec4032a91ed0c8a7b10a07}
 
-Trois nombres réels séparés par des virgules. Ne doit pas être négatif. Définissez les valeurs inutilisées sur 0. Des zéros de fin peuvent être omis.
+Trois nombres réels séparés par des virgules. Elle ne doit pas être négative. Définissez les valeurs inutilisées sur 0. Des zéros de fin peuvent être omis.
 
 Spécifiez la largeur et la hauteur uniquement si l’image doit être étirée pour l’adapter à la taille spécifiée (le rapport d’aspect peut changer). Définissez la largeur ou la hauteur pour mettre l’image à l’échelle proportionnellement. Définissez la largeur et la hauteur sur 0 pour utiliser `catalog::Resolution`pour déterminer la taille de l’objet.
 
@@ -40,7 +40,7 @@ Fournissez une valeur d’épaisseur pour ajouter une ombre portée à l’objet
   <td class="stentry"> <p>La décimale fait 5 pouces de large, la hauteur est déterminée par le rapport d’aspect de l’image et une ombre portée est générée selon une épaisseur de 1 pouce. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>0,0,5 </p></td> 
+  <td class="stentry"> <p>0,0,.5 </p></td> 
   <td class="stentry"> <p>La largeur et la hauteur des décimales sont déterminées par le catalogue ::résolution, et qu’elles sont d’une épaisseur d’un demi-pouce. </p></td> 
  </tr> 
 </table>

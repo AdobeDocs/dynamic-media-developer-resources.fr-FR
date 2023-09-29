@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 451d8b4d-0f22-41f3-ac86-435797c23ea3
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 2%
@@ -33,13 +33,13 @@ Retourner le calque. Fait pivoter le calque horizontalement, verticalement ou le
  </tr> 
 </table>
 
-Peut également être appliqué aux calques de texte.
+Elle peut également être appliquée aux calques de texte.
 
 Certaines commandes, notamment `extend=`, s’applique implicitement au calque 0 au lieu du calque composite lors de la `layer=comp` est sélectionnée. Dans ce cas de figure, toutes les commandes attribuées automatiquement à la couche 0 sont appliquées avant les commandes qui s’appliquent à `layer=comp`. Ainsi, lorsque `layer=comp`, `extend=` est appliqué avant `flip=`.
 
 >[!NOTE]
 >
->Le calque inversé est positionné en fonction de l’ancrage du calque ; différentes valeurs flip= entraînent des positions de calque différentes lorsque l’ancre n’est pas située au centre du calque.
+>Le calque inversé est positionné en fonction de l’ancrage du calque. Différent `flip=` les valeurs entraînent des positions de calque différentes lorsque l’ancre n’est pas au centre du calque.
 
 ## Propriétés {#section-294da2af7be746b5adfc35e29ee68217}
 

@@ -1,24 +1,24 @@
 ---
-description: Tous les fichiers de configuration se trouvent dans install_folder/conf et sont modifiables avec la plupart des éditeurs de texte. Il se peut que le serveur doive être redémarré pour que les modifications soient prises en compte.
-solution: Experience Manager
 title: Fichiers de configuration du serveur
+description: Tous les fichiers de configuration se trouvent dans le dossier install/conf et sont modifiables avec la plupart des éditeurs de texte. Redémarrez le serveur pour que les modifications prennent effet.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 6261844c-b63d-477b-8a48-963be868aa22
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '133'
 ht-degree: 1%
 
 ---
 
 # Fichiers de configuration du serveur{#server-configuration-files}
 
-Tous les fichiers de configuration se trouvent dans install_folder/conf et sont modifiables avec la plupart des éditeurs de texte. Il se peut que le serveur doive être redémarré pour que les modifications soient prises en compte.
+Tous les fichiers de configuration se trouvent dans la variable `install_folder/conf` et sont modifiables avec la plupart des éditeurs de texte. Redémarrez le serveur pour que les modifications prennent effet.
 
 >[!NOTE]
 >
->La plupart des fichiers de configuration de serveur contiennent des propriétés et des valeurs supplémentaires qui ne sont pas décrites dans ce document. Ces propriétés sont destinées à un usage interne du serveur et ne doivent pas être modifiées, sauf si le support technique de Dynamic Media vous a spécifiquement demandé.
+>La plupart des fichiers de configuration de serveur contiennent des propriétés et des valeurs supplémentaires qui ne sont pas décrites dans ce document. Ces propriétés sont destinées à un usage interne du serveur et ne doivent pas être modifiées si le support technique de Dynamic Media ne vous en a pas demandé.
 
 Ce document décrit les paramètres des fichiers de configuration suivants :
 

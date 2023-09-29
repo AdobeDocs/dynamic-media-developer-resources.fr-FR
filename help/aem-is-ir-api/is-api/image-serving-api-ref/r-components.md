@@ -1,20 +1,20 @@
 ---
-description: 'La diffusion d’images Scene 7 se compose des composants suivants : '
-solution: Experience Manager
 title: Composants de diffusion d’images
+description: La diffusion d’images Dynamic Media se compose des composants suivants.
+solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67dd37f3-b11e-42d6-b308-7c1e76a8f2a9
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '206'
 ht-degree: 2%
 
 ---
 
 # Composants de diffusion d’images{#image-serving-components}
 
-La diffusion d’images Scene 7 se compose des composants suivants :
+Dynamic Media Image Serving se compose des composants suivants :
 
 <table id="table_534AF33FE5C4453EACAE0DF35E8E3B63"> 
  <thead> 
@@ -26,11 +26,11 @@ La diffusion d’images Scene 7 se compose des composants suivants :
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Superviseur de serveur </p> </td> 
-   <td colname="col2"> <p>Exécutable autonome chargé de démarrer, arrêter et assurer l’intégrité des autres composants. </p> </td> 
+   <td colname="col2"> <p>Exécutable autonome chargé de démarrer, d’arrêter et d’assurer l’intégrité des autres composants. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Apache Tomcat </p> </td> 
-   <td colname="col2"> <p>Fournit l’environnement pour la plupart des composants Java. </p> </td> 
+   <td colname="col2"> <p>Il fournit l’environnement pour la plupart des composants Java. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Service de surveillance/d’alerte </p> </td> 
@@ -46,19 +46,19 @@ La diffusion d’images Scene 7 se compose des composants suivants :
   </tr> 
   <tr> 
    <td colname="col1"> <p>Image Server </p> </td> 
-   <td colname="col2"> <p>Exécute toutes les opérations d’E/S de traitement d’image et de fichier image. Les exécutables 32 bits et 64 bits sont disponibles pour Linux (32 bits uniquement pour Windows). </p> </td> 
+   <td colname="col2"> <p>Il effectue toutes les opérations d’E/S de traitement d’image et de fichier image. Les exécutables 32 bits et 64 bits sont disponibles pour Linux® (32 bits uniquement pour Windows). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Composant de rendu de texte ATE </p> </td> 
-   <td colname="col2"> <p>Une ou plusieurs instances du service de rendu de texte peuvent être principales lorsque <span class="codeph"> textPs=</span> Les opérations sont exécutées. </p> </td> 
+   <td colname="col2"> <p>Une ou plusieurs instances du service de rendu de texte peuvent être actives lorsque <span class="codeph"> textPs=</span> Les opérations sont exécutées. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Composant de rendu SVG </p> </td> 
-   <td colname="col2"> <p>Application Java autonome (non hébergée par Tomcat). </p> </td> 
+   <td colname="col2"> <p>Application Java™ autonome (non hébergée par Tomcat). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rendu d’image Dynamic Media (alias Render Server) </p> </td> 
-   <td colname="col2"> <p>Nécessite une licence distincte à activer. Accès HTTP à <span class="filepath"> /ir/render</span>. Toutes les fonctionnalités de rendu d’image sont intégrées à la fonction [!DNL Platform Server] et le serveur d’images, sans composants exécutables distincts. </p> </td> 
+   <td colname="col2"> <p>Elle nécessite une licence distincte pour être activée. Accès HTTP à <span class="filepath"> /ir/render</span>. Toutes les fonctionnalités de rendu d’image sont intégrées à la fonction [!DNL Platform Server] et le serveur d’images, sans composants exécutables distincts. </p> </td> 
   </tr> 
  </tbody> 
 </table>

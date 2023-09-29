@@ -1,13 +1,13 @@
 ---
-description: Référence de l’API JavaScript pour la visionneuse déroulante.
-solution: Experience Manager
 title: init
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Fenêtre déroulante
+description: Référence de l’API JavaScript pour l’initialisation de la visionneuse déroulante.
+solution: Experience Manager
+feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: e86f8c0f-c130-43c5-8c3a-07c6bc49e2f7
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '126'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ Référence de l’API JavaScript pour la visionneuse déroulante.
 
 Commence l’initialisation de la visionneuse de fenêtre déroulante. D’ici là, l’élément DOM du conteneur doit être créé afin que le code de la visionneuse puisse le trouver par son identifiant.
 
-Si l’élément de conteneur ne fait pas encore partie de la mise en page web (il peut par exemple être masqué à l’aide du style `display:none` qui lui est affecté), la visionneuse suspend son processus d’initialisation jusqu’au moment où la page web ramène l’élément de conteneur à la mise en page. Dans ce cas, le chargement de la visionneuse reprend automatiquement.
+Si l’élément de conteneur ne fait pas encore partie de la mise en page web, par exemple, il peut être masqué à l’aide de la fonction `display:none` style qui lui est affecté : la visionneuse suspend son processus d’initialisation. Il le fait jusqu’au moment où la page web ramène l’élément de conteneur à la mise en page. Dans ce cas, le chargement de la visionneuse reprend automatiquement.
 
 Cette méthode ne doit être appelée qu’une seule fois pendant le cycle de vie de la visionneuse. Les appels consécutifs sont ignorés.
 

@@ -4,7 +4,7 @@ description: Indique le format d’image utilisé par le composant pour charger 
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 2%
@@ -13,7 +13,7 @@ ht-degree: 2%
 
 # PanoramicView.fmt{#panoramicview-fmt}
 
-Indique le format d’image utilisé par le composant pour charger les images à partir du serveur d’images. Si le format spécifié se termine par &quot;-alpha&quot;, le composant rend les images comme transparentes. Pour tous les autres formats d’image, le composant traite les images comme opaques. Notez que le composant dispose par défaut d’un arrière-plan transparent. Par conséquent, pour le rendre opaque, définissez la variable `background-color` Propriété CSS à `desired_color`
+Indique le format d’image utilisé par le composant pour charger les images à partir du serveur d’images. Si le format spécifié se termine par &quot;-alpha&quot;, le composant rend les images comme transparentes. Pour tous les autres formats d’image, le composant traite les images comme opaques. Par défaut, le composant dispose d’un arrière-plan transparent. Par conséquent, pour le rendre opaque, définissez la variable `background-color` Propriété CSS à `desired_color`
 
 `[PanoramicView.|<containerId>_panoramicView.]fmt=jpg|jpeg|png|png-alpha|gif|gif-alpha`
 
@@ -21,7 +21,7 @@ Indique le format d’image utilisé par le composant pour charger les images à
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha </span> </p> </td> 
-   <td colname="col2"> <p> Spécifie le format d’image à utiliser par le composant pour le chargement des images à partir du serveur d’images. Si le format spécifié se termine par "-alpha", le composant effectue le rendu des images en tant que contenu transparent ; pour tous les autres formats d’image, le composant traite les images comme opaques. Notez que le composant dispose par défaut d’un arrière-plan transparent. Par conséquent, pour opaque, définissez la propriété CSS de couleur d’arrière-plan sur la couleur souhaitée. </p> </td> 
+   <td colname="col2"> <p> Indique le format d’image à utiliser par le composant pour le chargement des images à partir du serveur d’images. Si le format spécifié se termine par "-alpha", le composant effectue le rendu des images en tant que contenu transparent ; pour tous les autres formats d’image, le composant traite les images comme opaques. Par défaut, le composant dispose d’un arrière-plan transparent. Par conséquent, pour opaque, définissez la propriété CSS de couleur d’arrière-plan sur la couleur souhaitée. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,20 +1,20 @@
 ---
 title: op_hue
-description: Ajustez la couleur. Permet de changer la teinte de chaque pixel visible du calque ou de l’image composite selon la quantité spécifiée.
+description: Ajuste la couleur de l’image. Permet de changer la teinte de chaque pixel visible du calque ou de l’image composite selon la quantité spécifiée.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b436bd31-12a9-42ed-9ad3-5ff91e3ccce9
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '96'
 ht-degree: 1%
 
 ---
 
 # op_hue{#op-hue}
 
-Ajustez la couleur. Permet de changer la teinte de chaque pixel visible du calque ou de l’image composite selon la quantité spécifiée.
+Ajuste la couleur de l’image. Permet de changer la teinte de chaque pixel visible du calque ou de l’image composite selon la quantité spécifiée.
 
 `op_hue= *`adj`*`
 
@@ -25,7 +25,7 @@ Ajustez la couleur. Permet de changer la teinte de chaque pixel visible du calqu
  </tr> 
 </table>
 
-Basée sur une plage de 360 degrés.
+Basée sur une plage de nuances de 360 degrés.
 
 ## Propriétés {#section-55779644700b4c808a624cdf5a04447e}
 

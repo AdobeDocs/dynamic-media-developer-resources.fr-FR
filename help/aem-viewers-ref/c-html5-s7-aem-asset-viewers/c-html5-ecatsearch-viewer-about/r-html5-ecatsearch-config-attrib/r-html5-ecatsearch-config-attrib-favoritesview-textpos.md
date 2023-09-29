@@ -1,14 +1,14 @@
 ---
+title: FavoritesView.textpos
 description: FavoritesView.textpos
 solution: Experience Manager
-title: FavoritesView.textpos
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Recherche catalogue électronique
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: c76c0386-0ccf-4551-8573-dad165359cba
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 5%
+source-wordcount: '66'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td colname="col2"> <p> Indique l’endroit où le libellé est tracé par rapport à l’image miniature. En d’autres termes, le libellé est centré à l’emplacement spécifié par rapport à la miniature. </p> <p>Lorsque <span class="codeph"> tooltip</span> est spécifié, le texte du libellé s’affiche sous la forme d’une info-bulle flottante sur l’image miniature. </p> <p>Lorsqu’elle est définie sur <span class="codeph"> none</span>, l’affichage des étiquettes est désactivé. </p> </td> 
+   <td colname="col2"> <p> Indique l’endroit où le libellé est tracé par rapport à l’image miniature. En d’autres termes, le libellé est centré à l’emplacement spécifié par rapport à la miniature. </p> <p>Lorsqu’une <span class="codeph"> tooltip</span> est spécifiée, le texte du libellé s’affiche sous la forme d’une info-bulle flottante sur l’image miniature. </p> <p>Lorsque la variable est définie sur <span class="codeph"> none</span>, cela désactive l’affichage des libellés. </p> </td> 
   </tr> 
  </tbody> 
 </table>

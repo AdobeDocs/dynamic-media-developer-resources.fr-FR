@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0c8a3d2a-2524-436a-8bc7-60241af0fd17
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '449'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Attributs de calque de texte. Spécifie des attributs supplémentaires pour les 
 <table id="simpletable_0072BF7DF52B4959A14EDEF60A6EBDEE"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> res </span> </span> </p> </td> 
-  <td class="stentry"> <p>Permet de mettre le calque de texte à l’échelle sans modifier les tailles de police. Des valeurs de résolution plus élevées augmentent la taille du texte rendu par rapport à la taille de la zone de travail ; des valeurs plus petites réduisent la taille du texte. Résolution du texte en points par pouce (int supérieur à 0). </p> </td> 
+  <td class="stentry"> <p>Il permet de mettre le calque de texte à l’échelle sans modifier la taille des polices. Des valeurs de résolution plus élevées augmentent la taille du texte rendu par rapport à la taille de la zone de travail ; des valeurs plus petites réduisent la taille du texte. Résolution du texte en points par pouce (int supérieur à 0). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> antiAliasing </span> </span> </p> </td> 
@@ -55,17 +55,17 @@ Attributs de calque de texte. Spécifie des attributs supplémentaires pour les 
     <table id="simpletable_2CFC06DB37154C7C92614FDF7A818DB5"> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> fixedRes </span> </p> </td> 
-      <td class="stentry"> <p>Utilisez la résolution spécifiée. </p> <p>Utilisez cette option si le texte doit être rendu dans une taille exacte par rapport à la zone de travail de composition. Le texte peut être tronqué à la taille du calque (le cas échéant) si la zone de texte est trop petite. Il s’agit du seul <span class="varname"> resMode </span> option prise en charge par <span class="codeph"> textPs= </span>. </p> </td> 
+      <td class="stentry"> <p>Utilisez la résolution spécifiée. </p> <p>Utilisez cette option si le texte doit être rendu avec une taille exacte par rapport à la zone de travail composite. Le texte peut être tronqué à la taille du calque (le cas échéant) si la zone de texte est trop petite. Il s’agit du seul <span class="varname"> resMode </span> option prise en charge par <span class="codeph"> textPs= </span>. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> autoRes </span> </p> </td> 
-      <td class="stentry"> <p>Ajustez automatiquement la résolution pour remplir au mieux le recto du calque avec le texte. </p> <p>Utilisez pour ajuster automatiquement la taille du texte afin que la zone de texte soit remplie autant que possible, sans risque de troncature. Si le retour automatique à la ligne est activé, le texte peut être réencapsulé à la résolution finale. <span class="varname"> res </span> est ignoré si <span class="codeph"> autoRes </span> est sélectionnée. Non pris en charge par <span class="codeph"> textPs= </span>. </p> </td> 
+      <td class="stentry"> <p>Ajustez automatiquement la résolution pour remplir au mieux le recto du calque avec le texte. </p> <p>Utilisez pour ajuster automatiquement la taille du texte afin que la zone de texte soit remplie autant que possible, sans risque de troncature. Si le retour automatique à la ligne est activé, le texte peut être réencapsulé à la résolution finale. La variable <span class="varname"> res </span> est ignoré si <span class="codeph"> autoRes </span> est sélectionnée. Non pris en charge par <span class="codeph"> textPs= </span>. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> maxRes </span> </p> </td> 
-      <td class="stentry"> <p>Utilisez la résolution spécifiée ; réduisez-la si nécessaire afin d’empêcher que le texte ne soit tronqué dans la recette du calque. </p> <p>Utilisez pour effectuer le rendu du texte à la résolution exacte spécifiée, tant qu’aucun détourage n’a lieu. En cas de détourage, la résolution est automatiquement réduite afin de garantir que tout le texte est contenu entièrement dans la zone de texte. Si le retour automatique à la ligne est activé, le texte peut être réencapsulé à la résolution finale. Non pris en charge par <span class="codeph"> textPs= </span>. </p> </td> 
+      <td class="stentry"> <p>Utilisez la résolution spécifiée ; réduisez-la si nécessaire afin d’empêcher que le texte ne soit tronqué dans la recette du calque. </p> <p>Utilisez pour effectuer le rendu du texte à la résolution spécifiée, à condition qu’aucun détourage ne se produise. En cas de détourage, la résolution est automatiquement réduite afin de garantir que tout le texte est contenu entièrement dans la zone de texte. Si le retour automatique à la ligne est activé, le texte peut être réencapsulé à la résolution finale. Non pris en charge par <span class="codeph"> textPs= </span>. </p> </td> 
      </tr> 
-    </table> </p> <p>Si la taille du calque de texte n’est pas spécifiée avec size= ou si seule la largeur est spécifiée, les paramètres "autoRes" et "maxRes" sont ignorés et la résolution spécifiée est utilisée pour le rendu du texte. </p> </td> 
+    </table> </p> <p>Si la taille du calque de texte n’est pas spécifiée avec size= ou si seule la largeur est spécifiée, les paramètres "autoRes" et "maxRes" sont ignorés. Dans ce cas, la résolution spécifiée est utilisée pour le rendu du texte. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> wordWrap </span> </span> </p> </td> 
@@ -77,11 +77,11 @@ Attributs de calque de texte. Spécifie des attributs supplémentaires pour les 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> inclusion </span> </p> </td> 
-      <td class="stentry"> <p>Activez le retour automatique à la ligne standard. </p> <p>Rompt les mots longs si nécessaire. <span class="codeph"> textPs= </span> uniquement prend en charge <span class="codeph"> wrap </span>. </p> </td> 
+      <td class="stentry"> <p>Activez le retour automatique à la ligne standard. </p> <p>Cela casse les mots longs, si nécessaire. <span class="codeph"> textPs= </span> uniquement prend en charge <span class="codeph"> wrap </span>. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> nbWrap </span> </p> </td> 
-      <td class="stentry"> <p>Activez le retour automatique à la ligne incessant. </p> <p>Ne casse jamais un mot, même s'il est tronqué à la fin. Généralement utilisé conjointement avec <span class="codeph"> autoRes </span> ou <span class="codeph"> maxRes </span> pour s'assurer que les longs mots ne soient jamais rompus. </p> </td> 
+      <td class="stentry"> <p>Activez le retour automatique à la ligne incessant. </p> <p>Ne casse jamais un mot, même s'il est tronqué à la fin. Généralement utilisé avec <span class="codeph"> autoRes </span> ou <span class="codeph"> maxRes </span> pour s'assurer que les longs mots ne soient jamais rompus. </p> </td> 
      </tr> 
     </table> </p> <p>Les deux <span class="codeph"> wrap </span> et <span class="codeph"> nbwrap </span> retour automatique à la ligne sur les limites de mots et les tirets. </p> </td> 
  </tr> 

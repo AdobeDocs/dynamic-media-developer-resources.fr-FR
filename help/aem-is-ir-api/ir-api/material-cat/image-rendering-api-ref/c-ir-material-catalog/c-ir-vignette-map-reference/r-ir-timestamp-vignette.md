@@ -1,13 +1,13 @@
 ---
+title: TimeStamp
 description: Horodatage de modification. Indique la date et l’heure de la dernière modification de cette vignette.
 solution: Experience Manager
-title: TimeStamp
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6a163727-9ac6-43ca-9afd-169ac6306124
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '230'
 ht-degree: 1%
 
 ---
@@ -22,25 +22,25 @@ If `attribute::UseLastModified` est défini, le plus récent `vignette::TimeStam
 >
 >L’heure réelle du fichier de vignette n’est jamais utilisée à cette fin.
 
-`catalog::TimeStamp` est également utilisé pour la validation du cache basée sur le catalogue (voir [attribute::CacheValidationPolicy](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md).
+La variable `catalog::TimeStamp` est également utilisé pour la validation du cache basée sur le catalogue. Voir [attribute::CacheValidationPolicy](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cachevalidationpolicy.md).
 
 ## Propriétés {#section-c4a42c64e44d49238ef2ec31ebd82ac1}
 
-Date/heure au format Java. Peut être soit le nombre entier de millisecondes écoulées depuis minuit, le 1er janvier 1970 UTC/GMT, soit une valeur de chaîne date/heure avec l’un des formats suivants :
+Valeur de date/heure au format Java™. Il peut s’agir du nombre entier de millisecondes écoulées depuis minuit, le 1er janvier 1970 UTC/GMT, ou d’une valeur de chaîne date/heure avec l’un des formats suivants :
 
 *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]* *[!DNL zzz]*
 
 *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]*: *[!DNL mm]*: *[!DNL ss]*GMT *[!DNL offset]*
 
-* *[!DNL hh]* se trouve dans la plage 0 à 23.
-* *[!DNL zzz]* est un code de fuseau horaire de 3 ou 4 caractères tel que &quot;GMT&quot; ou &quot;PST&quot;. L’heure d’été doit être prise en compte dans le code de fuseau horaire (par exemple, &quot;PST&quot; pour l’heure normale du Pacifique, et &quot;PDT&quot; pour l’heure d’été du Pacifique).
+* *[!DNL hh]* est compris entre 0 et 23.
+* *[!DNL zzz]* est un code de fuseau horaire de trois ou quatre caractères tel que &quot;GMT&quot; ou &quot;PST&quot;. L’heure d’été doit être prise en compte dans le code de fuseau horaire (par exemple, &quot;PST&quot; pour l’heure normale du Pacifique, et &quot;PDT&quot; pour l’heure d’été du Pacifique).
 * *[!DNL offset]* est un décalage de fuseau horaire en heures ou heures:minutes, par rapport à GMT. Par exemple, &quot;PDT&quot; équivaut à &quot;GMT -7&quot;.
 
-Tous les éléments de valeurs date/heure formatées sous forme de chaîne doivent être présents. Si la valeur date/heure n’est pas correctement formatée, elle est ignorée et l’heure de modification de [!DNL *[!DNL catalog]*.ini] est utilisé à la place.
+Tous les éléments de valeurs date/heure au format chaîne doivent être présents. Si la valeur date/heure n’est pas correctement formatée, elle est ignorée et l’heure de modification de [!DNL *[!DNL catalog]*.ini] est utilisé à la place.
 
 ## Par défaut {#section-562c221d2e8b4a97ab5e9a3605f22140}
 
-`attribute::TimeStamp` est que le champ est vide ou n’est pas présent.
+La variable `attribute::TimeStamp` est le champ vide ou non présent.
 
 ## Voir aussi {#section-ffa82b202be04dd9b87cba3c61d1ee24}
 
