@@ -1,20 +1,20 @@
 ---
 title: Bouton Plein écran de la vidéo
-description: Le bouton Plein écran permet à la visionneuse d’entrer ou de quitter le mode Plein écran lorsqu’elle est sélectionnée par l’utilisateur. Elle est utilisée lorsque la visionneuse affiche la vidéo et est positionnée dans la barre de contrôle. Ce bouton ne s’affiche pas si la visionneuse fonctionne en mode pop-up et que le système ne prend pas en charge le mode plein écran natif.
+description: Le bouton plein écran permet à la visionneuse d’entrer ou de quitter le mode plein écran lorsqu’elle est sélectionnée par l’utilisateur. Elle est utilisée lorsque la visionneuse affiche la vidéo et est positionnée dans la barre de contrôle. Ce bouton ne s’affiche pas si la visionneuse fonctionne en mode pop-up et que le système ne prend pas en charge le mode plein écran natif.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 45811efa-95f6-4b6d-96f8-9e5437a55f0e
-source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '309'
 ht-degree: 2%
 
 ---
 
 # Bouton Plein écran de la vidéo{#video-full-screen-button}
 
-Le bouton Plein écran permet à la visionneuse d’entrer ou de quitter le mode Plein écran lorsqu’elle est sélectionnée par l’utilisateur. Elle est utilisée lorsque la visionneuse affiche la vidéo et est positionnée dans la barre de contrôle. Ce bouton ne s’affiche pas si la visionneuse fonctionne en mode pop-up et que le système ne prend pas en charge le mode plein écran natif.
+Le bouton plein écran permet à la visionneuse d’entrer ou de quitter le mode plein écran lorsqu’elle est sélectionnée par l’utilisateur. Elle est utilisée lorsque la visionneuse affiche la vidéo et est positionnée dans la barre de contrôle. Ce bouton ne s’affiche pas si la visionneuse fonctionne en mode pop-up et que le système ne prend pas en charge le mode plein écran natif.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -26,7 +26,7 @@ L’aspect du bouton plein écran est contrôlé à l’aide du sélecteur de cl
 .s7mixedmediaviewer .s7fullscreenbutton
 ```
 
-**Propriétés CSS du bouton Plein écran**
+**Propriétés CSS du bouton plein écran**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -40,7 +40,7 @@ L’aspect du bouton plein écran est contrôlé à l’aide du sélecteur de cl
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> gauche </span> </p> </td> 
-   <td colname="col2"> <p> Position à partir de la bordure gauche, y compris la marge intérieure. </p> </td> 
+   <td colname="col2"> <p> Position depuis la bordure gauche, y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bas </span> </p> </td> 

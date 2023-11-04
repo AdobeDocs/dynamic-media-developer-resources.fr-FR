@@ -1,11 +1,11 @@
 ---
-description: La diffusion d’images fournit un mécanisme pour traduire les identifiants d’objet externe en identifiants d’objet (catalogue) spécifiques aux paramètres régionaux. L’application Principale est destinée à fournir du contenu et du contenu propres aux paramètres régionaux partagés entre plusieurs paramètres régionaux, sans que l’application cliente ait besoin de connaître les identifiants d’objet spécifiques aux paramètres régionaux.
+description: La diffusion d’images fournit un mécanisme pour traduire les identifiants d’objet externe en identifiants d’objet (catalogue) spécifiques aux paramètres régionaux. L’application principale est de fournir du contenu et du contenu propres aux paramètres régionaux partagés entre plusieurs paramètres régionaux sans que l’application cliente ait besoin de connaître les ID d’objet spécifiques aux paramètres régionaux.
 solution: Experience Manager
 title: Traduction de l’ID d’objet
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7a3bd6a1-2ad4-4da2-944c-489b7d18fdc1
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 9%
@@ -14,25 +14,25 @@ ht-degree: 9%
 
 # Traduction de l’ID d’objet{#object-id-translation}
 
-La diffusion d’images fournit un mécanisme pour traduire les identifiants d’objet externe en identifiants d’objet (catalogue) spécifiques aux paramètres régionaux. L’application Principale est destinée à fournir du contenu et du contenu propres aux paramètres régionaux partagés entre plusieurs paramètres régionaux, sans que l’application cliente ait besoin de connaître les identifiants d’objet spécifiques aux paramètres régionaux.
+La diffusion d’images fournit un mécanisme pour traduire les identifiants d’objet externe en identifiants d’objet (catalogue) spécifiques aux paramètres régionaux. L’application principale est de fournir du contenu et du contenu propres aux paramètres régionaux partagés entre plusieurs paramètres régionaux sans que l’application cliente ait besoin de connaître les ID d’objet spécifiques aux paramètres régionaux.
 
-L’application peut être écrite à l’aide de uniquement des identifiants d’objet globaux. Le serveur d’images remplace automatiquement les images propres aux paramètres régionaux et tout autre contenu, le cas échéant.
+L’application peut être écrite à l’aide des ID d’objet global uniquement et du serveur d’images remplace automatiquement les images propres aux paramètres régionaux et tout autre contenu, le cas échéant.
 
-Le *`locale`* est spécifié dans les demandes de diffusion d’images avec le `locale=` .
+La variable *`locale`* est spécifié dans les demandes de diffusion d’images avec le `locale=` .
 
 >[!NOTE]
 >
->La traduction des ID d’objet s’applique uniquement à l’utilisation du serveur d’images basée sur les catalogues. Les noms de fichier ne peuvent pas être traduits.
+>La traduction de l’ID d’objet s’applique uniquement à l’utilisation du serveur d’images basée sur les catalogues. Les noms de fichier ne peuvent pas être traduits.
 
-## Etendue {#section-66fcd5bd467c4eeaa1574583cbe9756d}
+## Portée {#section-66fcd5bd467c4eeaa1574583cbe9756d}
 
-Toutes les références aux entrées dans les catalogues d’images, de SVG et de contenu statique sont prises en compte pour les polices de traduction et les références de profil ICC ne sont pas traduites. En plus de la variable *`object`* dans le chemin de [!DNL /is/image] et [!DNL /is/static requests], ces commandes et attributs de catalogue sont soumis à la traduction des identifiants : `src=`, `mask=`, `template=`, `defaultImage=`, `attribute::DefaultImage`, et `attribute::Watermark`.
+Toutes les références aux entrées dans les catalogues d’images, de SVG et de contenu statique sont prises en compte pour les polices de traduction et les références de profil ICC ne sont pas traduites. En plus de la variable *`object`* dans le chemin d’accès de [!DNL /is/image] et [!DNL /is/static requests], ces commandes et attributs de catalogue sont soumis à la traduction des identifiants : `src=`, `mask=`, `template=`, `defaultImage=`, `attribute::DefaultImage`, et `attribute::Watermark`.
 
 ## Carte de traduction des identifiants {#section-9e417b352c314dfe94e831fdd62cddc8}
 
 `attribute::LocaleMap` définit les règles utilisées par le serveur pour déterminer l’identifiant du contenu localisé, étant donné que en entrée, l’identifiant d’objet générique et la variable `locale=` .
 
-`attribute::LocaleMap` se compose d’une liste d’entrées. *locales* (correspondant aux valeurs spécifiées avec `locale=`), chacun ne disposant d’aucun ou de plusieurs suffixes de paramètres régionaux de sortie ( `*`locSuffixes`*`).
+`attribute::LocaleMap` se compose d’une liste d’entrées. *locales* (correspondant aux valeurs spécifiées avec `locale=`), chacun sans suffixe de paramètres régionaux de sortie ( `*`locSuffixes`*`).
 
 Par exemple : `attribute::LocaleMap` peut se présenter comme suit :
 
@@ -48,7 +48,7 @@ Dans l’exemple ci-dessus, le serveur commence par rechercher la variable *`loc
 
 ## Paramètres régionaux inconnus {#section-b2f3c83f2dc845d69b5908107b775537}
 
-Dans l’exemple ci-dessus, `attribute::LocaleMap` inclut une valeur vide *`locale`* qui définit la règle de traduction par défaut, utilisée pour les variables inconnues `locale=` (c’est-à-dire celles qui ne sont pas explicitement répertoriées dans la carte de traduction). Si cette carte de traduction a été appliquée à la requête `/is/image/myCat/myImg?locale=ja`, la résolution est `myCat/myImg_E`, s’il existe, ou autrement `myCat/myImg`.
+Dans l’exemple ci-dessus, `attribute::LocaleMap` inclut une valeur vide *`locale`* qui définit la règle de traduction par défaut, utilisée pour les variables inconnues `locale=` (c’est-à-dire, ceux qui ne sont pas explicitement répertoriés dans la carte de traduction). Si cette carte de traduction a été appliquée à la requête `/is/image/myCat/myImg?locale=ja`, la résolution est `myCat/myImg_E`, s’il existe, ou autrement `myCat/myImg`.
 
 Si une carte de traduction ne spécifie pas de règle de traduction par défaut, une erreur est renvoyée pour toutes les requêtes avec une valeur inconnue. `locale=` valeurs.
 
@@ -99,7 +99,7 @@ Le tableau suivant illustre les entrées de catalogue prises en compte et l’or
 
 Certaines conventions de dénomination d’image peuvent ne pas prendre en charge les ID d’image génériques en interne. Les identifiants génériques de la requête doivent toujours être mappés à un identifiant spécifique dans le catalogue ; il arrive souvent que l’identifiant spécifique exact ne soit pas connu.
 
-Pour cet exemple, les images pour toutes les langues peuvent avoir `_1`, `_2`ou `_3` suffixe. Les images propres aux paramètres régionaux français peuvent avoir `_22` ou `_23` suffixe et les images spécifiques aux paramètres régionaux allemands peuvent avoir `_470` ou `_480` suffixe.
+Pour cet exemple, les images pour toutes les langues peuvent avoir `_1`, `_2`, ou `_3` suffixe. Les images propres aux paramètres régionaux français peuvent avoir `_22` ou `_23` suffixe et les images spécifiques aux paramètres régionaux allemands peuvent avoir `_470` ou `_480` suffixe.
 
 `attribute::LocaleMap: ,_1,_2,_3|fr,_22,_23,_1,_2,_3|de,_470,_480,_1,_2,_3| de_at,_470,_480,_1,_2,_3| de_de,_470,_480,_1,_2,_3`
 

@@ -5,9 +5,9 @@ title: createPropertySet
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e9f85e65-4a2f-4b82-b7b8-d0d60b8345cd
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '213'
 ht-degree: 8%
 
 ---
@@ -32,7 +32,7 @@ Syntaxe
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | typeHandle | `xsd:string` | Oui | La gestion du type de jeu de propriétés. |
-| primaryOwnerHandle | `xsd:string` | Oui | Gestionnaire du propriétaire Principal de l’ensemble de propriétés. |
+| primaryOwnerHandle | `xsd:string` | Oui | Gestionnaire du propriétaire principal de l’ensemble de propriétés. |
 | secondaryOwnerHandle | `xsd:string` | Non | Gestionnaire du propriétaire secondaire du jeu de propriétés. |
 | propertyArray | `types:PropertyArray` | Oui | Tableau de propriétés. |
 | permissionArray | `types:PermissionUpdateArray` |  |  |

@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 638ca6c2-375c-4162-b640-68aed6a8a9c6
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '1385'
 ht-degree: 2%
@@ -76,7 +76,7 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
 }
 ```
 
-Superposition en arrière-plan qui couvre la page web lorsque la boîte de dialogue principale est contrôlée avec le sélecteur de classe CSS suivant :
+Superposition en arrière-plan qui couvre la page web lorsque la boîte de dialogue active est contrôlée avec le sélecteur de classe CSS suivant :
 
 ```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7backoverlay
@@ -88,7 +88,7 @@ Superposition en arrière-plan qui couvre la page web lorsque la boîte de dialo
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opacité </span> </p> </td> 
-   <td colname="col2"> <p>Opacité de la superposition en arrière-plan. </p> </td> 
+   <td colname="col2"> <p>Opacité du recouvrement en arrière-plan. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
@@ -122,7 +122,7 @@ Par défaut, la boîte de dialogue modale s’affiche centrée dans l’écran s
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
-   <td colname="col2"> <p>Couleur d’arrière-plan de la boîte de dialogue. </p> </td> 
+   <td colname="col2"> <p>Couleur de fond de la boîte de dialogue. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -168,7 +168,7 @@ L’icône et le texte du titre sont placés dans un conteneur supplémentaire c
 .s7video360viewer .s7linkdialog .s7dialogheader .s7dialogline
 ```
 
-**Propriétés CSS de la ligne de boîte de dialogue**
+**Propriétés CSS de la ligne de dialogue**
 
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
@@ -336,7 +336,7 @@ Le pied de page de la boîte de dialogue se compose d’un bouton Annuler . Le c
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bordure </span> </p> </td> 
-   <td colname="col2"> <p> Bordure que vous pouvez utiliser pour séparer visuellement le pied de page du reste de la boîte de dialogue. </p> </td> 
+   <td colname="col2"> <p> Bordure permettant de séparer visuellement le pied de page du reste de la boîte de dialogue. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,9 +5,9 @@ title: Serveur
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 10970ca8-b209-4adf-b027-6eb8d7a15db6
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Les versions 32 et 64 bits du serveur d’images sont disponibles pour Linux. Sp
 
 >[!NOTE]
 >
->Le mode 64 bits n’est pas pris en charge sous Windows. Uniquement `ImageServer32` peut être spécifié. Sinon, la diffusion d’images ne démarrera pas.
+>Le mode 64 bits n’est pas pris en charge sous Windows. Uniquement `ImageServer32` peut être spécifié. Sinon, la diffusion d’images ne démarre pas.
 
 ## SV::PsHeapSize - [!DNL Platform Server] Taille du tas {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
@@ -42,9 +42,9 @@ Spécifie le port utilisé pour la communication entre le [!DNL Platform Server]
 
 ## IS::PhysicalMemory - Limite de mémoire du serveur d’images {#section-85e37aa2ac6e456eb698da716dd3247d}
 
-Limite approximative des données d’image en mémoire, exprimée en pourcentage de mémoire physique. La plage valide est comprise entre 10 % et 90 %. Si possible, le serveur d’images tente de limiter son utilisation de la mémoire d’image à la quantité spécifiée. La limite peut être temporairement dépassée lors d&#39;une activité de traitement intensif.
+Limite approximative des données image en mémoire, exprimée en pourcentage de mémoire physique. La plage valide est comprise entre 10 % et 90 %. Si possible, le serveur d’images tente de limiter son utilisation de la mémoire d’image à la quantité spécifiée. La limite peut être temporairement dépassée lors d&#39;une activité de traitement intensif.
 
-## IS::WorkerThreads - Nombre de threads de traitement du serveur d’images {#section-e2946063b13c4f728cdf5dba3d8b4de1}
+## IS::WorkerThreads - Nombre de travaux de serveur d’images Threads {#section-e2946063b13c4f728cdf5dba3d8b4de1}
 
 Nombre maximal de threads que le serveur d’images utilise pour traiter les données image. La valeur par défaut est 0, ce qui permet au serveur d’images d’optimiser automatiquement le nombre de threads.
 
@@ -52,7 +52,7 @@ Certains systèmes d’exploitation ont des modèles de thread avec une surcharg
 
 ## IS::NumberOfTextServers - Nombre d’instances de serveur de texte {#section-971e20a90c1a473598fba738ed95671a}
 
-Nombre maximal de rendus de texte à principal simultanément. 0 (par défaut) équivaut à 1,5 fois le nombre de coeurs de processeur disponibles.
+Nombre maximal de rendus de texte à activer simultanément. 0 (par défaut) équivaut à 1,5 fois le nombre de coeurs de processeur disponibles.
 
 ## IS::TextServerTcpPortRange - Ports de communication du serveur de texte {#section-a13465de88ed4df09931e5ba840c1942}
 

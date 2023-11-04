@@ -1,7 +1,7 @@
 ---
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Les responsables du projet ont le droit et la responsabilité de supprimer, modi
 
 ## Portée
 
-Ce code de conduite s’applique à la fois aux espaces du projet et aux espaces publics lorsqu’une personne représente le projet ou sa communauté. Parmi les exemples de représentation d’un projet ou d’une communauté, citons l’utilisation d’une adresse électronique officielle du projet, la publication via un compte de médias sociaux officiel ou le fait d’agir en tant que représentant désigné lors d’un événement en ligne ou hors ligne. La représentation d’un projet peut être définie plus précisément et clarifiée par les responsables du projet.
+Ce code de conduite s’applique à la fois aux espaces du projet et aux espaces publics lorsqu’une personne représente le projet ou sa communauté. Parmi les exemples de représentation d’un projet ou d’une communauté, citons l’utilisation d’une adresse électronique officielle du projet, la publication par le biais d’un compte de médias sociaux officiel ou le fait d’agir en tant que représentant désigné lors d’un événement en ligne ou hors ligne. La représentation d’un projet peut être définie plus précisément et clarifiée par les responsables du projet.
 
 ## Application
 

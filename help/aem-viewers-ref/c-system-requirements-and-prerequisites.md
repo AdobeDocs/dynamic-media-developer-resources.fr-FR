@@ -6,14 +6,14 @@ contentOwner: Rick Brough
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
-source-git-commit: 7793e9befcf3050b9f4e12deeffa018d7c91aaf7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 1%
 
 ---
 
-# Configuration requise des visionneuses Dynamic Media HTML5{#system-requirements}
+# Configuration requise pour les visionneuses Dynamic Media HTML5{#system-requirements}
 
 Configuration requise pour les visionneuses Dynamic Media HTML5.
 
@@ -28,7 +28,7 @@ Configuration requise pour les visionneuses Dynamic Media HTML5.
 * Adobe Dynamic Media Image Serving 6.7.1 ou version ultérieure.
 * Les visionneuses HTML5 requièrent des bibliothèques SDK JavaScript côté serveur 3.11.5 ou version ultérieure.
 * *Envoyer un courrier électronique à un ami* les fonctions sociales requièrent s7ondemand 5.0.9 ou version ultérieure.
-* Visionneuse de catalogue électronique - [Fenêtre contextuelle du panneau Infos](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) La prise en charge nécessite info server 2.1.8 ou version ultérieure.
+* Visionneuse de catalogue électronique - [Fenêtre contextuelle du panneau Informations](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) La prise en charge nécessite info server 2.1.8 ou version ultérieure.
 * Les composants des fonctionnalités de recherche requièrent s7search 2.3.0 ou version ultérieure.
 
 ## Configuration requise des visionneuses {#section-cc72b1e209524d038b4d5b92b35e998e}
@@ -49,7 +49,7 @@ Configuration requise pour les visionneuses Dynamic Media HTML5.
    * iPad 2 (navigateurs Safari et Chrome uniquement)
    * iPhone 3GS
    * Safari 11
-* Internet Explorer sur les périphériques mobiles n’est pas pris en charge.
+* Internet Explorer sur les appareils mobiles n’est pas pris en charge.
 * *PanoramicViewer* est pris en charge sur les versions de navigateur/plateforme suivantes ou ultérieures :
    * Android™ 4.4 (appareils mobiles uniquement)
    * Chrome 82
@@ -119,19 +119,19 @@ Les visionneuses Dynamic Media Adobe ne prennent pas en charge les combinaisons 
 NOTE
 Effective September 30, 2018, Adobe Dynamic Media Classic Viewers ended support of Transport Layer Security 1.0 (TLS 1.0). As such, Dynamic Media Classic no longer supports viewers on the following browsers/platforms that support TLS 1.0 (Adobe recommends using TLS 1.2 or later):
 
-* Android™ 2.3.7
-* Android™ 4.0.4
-* Android™ 4.1.1
-* Android™ 4.2.2
-* Android™ 4.3
-* Internet Explorer 7 on Window Vista®
-* Internet Explorer 8 on Windows® XP
-* Internet Explorer 8-10 on Windows® 7
-* Internet Explorer 10 on Windows® Phone 8.0
+* Android&trade; 2.3.7
+* Android&trade; 4.0.4
+* Android&trade; 4.1.1
+* Android&trade; 4.2.2
+* Android&trade; 4.3
+* Internet Explorer 7 on Window Vista&reg;
+* Internet Explorer 8 on Windows&reg; XP
+* Internet Explorer 8-10 on Windows&reg; 7
+* Internet Explorer 10 on Windows&reg; Phone 8.0
 * Safari 5.1.9 on Apple OS X 10.6.8
 * Safari 6.0.4 on Apple OS X 10.8.4
-* Java™ 6u45
-* Java™ 7u25
+* Java&trade; 6u45
+* Java&trade; 7u25
 * OpenSSL 0.9.8y
 * Baidu January 2015
 

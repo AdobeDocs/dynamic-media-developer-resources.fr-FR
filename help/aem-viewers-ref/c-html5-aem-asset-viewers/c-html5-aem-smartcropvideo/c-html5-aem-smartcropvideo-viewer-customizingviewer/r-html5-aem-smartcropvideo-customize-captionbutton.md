@@ -4,9 +4,10 @@ description: Ce bouton active et désactive l’affichage des sous-titres fermé
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 86b610e9-fea2-45b3-9b74-7ddd558fc267
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '252'
 ht-degree: 2%
 
 ---
@@ -39,7 +40,7 @@ L’aspect de ce bouton est contrôlé à l’aide du sélecteur de classe CSS s
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> gauche </span> </p> </td> 
-   <td colname="col2"> <p> Position à partir de la bordure gauche, y compris la marge intérieure. </p> </td> 
+   <td colname="col2"> <p> Position depuis la bordure gauche, y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bas </span> </p> </td> 

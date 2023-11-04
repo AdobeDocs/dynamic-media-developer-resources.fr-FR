@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: b35285a2-7319-4ed7-9681-12a6acda8fa5
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '255'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showtime </span> </span> </p> </td> 
-   <td colname="col2"> <p> Définit le temps (en secondes) nécessaire à la mise en surbrillance ou au fondu du curseur après son activation par l’utilisateur. L’option Fondu n’est appliquée que sur les appareils tactiles. sur les systèmes de bureau, il est ignoré par le composant. </p> <p>L’option Fondu s’applique aux éléments de l’interface utilisateur suivants : cadre de surbrillance, curseur fixe, superposition (au cas où <span class="codeph"> superposition </span> est défini sur <span class="codeph"> 1 </span>). L’animation de la vue déroulante ne commence qu’une fois le surlignage/le fondu du curseur terminé dans l’animation. Il n'y a pas d'animation fondue. Lorsque l’utilisateur désactive la fenêtre déroulante, les éléments d’IU correspondants (curseur, surbrillance et recouvrement) se masquent instantanément. </p> </td> 
+   <td colname="col2"> <p> Définit le temps (en secondes) nécessaire à la mise en surbrillance ou au fondu du curseur après son activation par l’utilisateur. L’option Fondu n’est appliquée que sur les appareils tactiles ; sur les ordinateurs de bureau, elle est ignorée par le composant. </p> <p>Le fondu s’applique aux éléments de l’interface utilisateur suivants : cadre de surbrillance, curseur fixe, superposition (au cas où <span class="codeph"> superposition </span> est défini sur <span class="codeph"> 1 </span>). L’animation de la vue déroulante ne commence qu’une fois le surlignage/le fondu du curseur terminé dans l’animation. Il n'y a pas d'animation en fondu. Lorsque l’utilisateur désactive la fenêtre déroulante, les éléments d’IU correspondants (curseur, surbrillance et recouvrement) se masquent instantanément. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> onimage|free </span> </p> </td> 

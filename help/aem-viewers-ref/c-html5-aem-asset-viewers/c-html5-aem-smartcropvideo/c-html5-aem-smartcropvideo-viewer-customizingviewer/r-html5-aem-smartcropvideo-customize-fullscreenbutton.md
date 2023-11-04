@@ -1,17 +1,18 @@
 ---
-title: Bouton Plein écran
+title: bouton plein écran
 description: Le bouton Plein écran permet au lecteur vidéo de recadrage intelligent d’entrer ou de quitter le mode Plein écran lorsqu’un utilisateur clique dessus.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 79b57f6d-17d2-48af-9414-b0ab9d24fbdc
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '241'
 ht-degree: 2%
 
 ---
 
-# Bouton Plein écran{#full-screen-button}
+# bouton plein écran{#full-screen-button}
 
 Le bouton Plein écran permet au lecteur vidéo de recadrage intelligent d’entrer ou de quitter le mode Plein écran lorsqu’un utilisateur clique dessus.
 
@@ -25,7 +26,7 @@ L’aspect du bouton plein écran est contrôlé à l’aide du sélecteur de cl
 .s7smartcropvideoviewer .s7fullscreenbutton
 ```
 
-**Propriétés CSS du bouton Plein écran**
+**Propriétés CSS du bouton plein écran**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -39,7 +40,7 @@ L’aspect du bouton plein écran est contrôlé à l’aide du sélecteur de cl
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> gauche </span> </p> </td> 
-   <td colname="col2"> <p> Position à partir de la bordure gauche, y compris la marge intérieure. </p> </td> 
+   <td colname="col2"> <p> Position depuis la bordure gauche, y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bas </span> </p> </td> 

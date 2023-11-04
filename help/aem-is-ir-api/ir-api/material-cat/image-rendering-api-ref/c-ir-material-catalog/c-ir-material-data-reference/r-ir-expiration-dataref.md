@@ -1,28 +1,28 @@
 ---
 title: Expiration
-description: Durée de vie du cache client. Nombre d’heures jusqu’à l’expiration. Utilisé pour gérer la mise en cache du client et du serveur proxy.
+description: Durée de vie du cache client. Nombre d’heures avant expiration. Utilisé pour gérer la mise en cache du client et du serveur proxy.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e4f7e5a8-0021-4dd3-be1b-8cb656cabdac
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '311'
 ht-degree: 1%
 
 ---
 
 # Expiration{#expiration}
 
-Durée de vie du cache client. Nombre d’heures jusqu’à l’expiration. Utilisé pour gérer la mise en cache du client et du serveur proxy.
+Durée de vie du cache client. Nombre d’heures avant expiration. Utilisé pour gérer la mise en cache du client et du serveur proxy.
 
 Le serveur calcule le délai d’expiration/la date des données de réponse NTTP en ajoutant cette valeur à l’heure/la date de transmission.
 
-Les navigateurs gèrent les caches à l’aide des délais d’expiration des fichiers. Avant de transmettre une requête au serveur, le navigateur vérifie son cache pour voir si le fichier a déjà été téléchargé. Si tel est le cas, et si le fichier n’a pas encore expiré, le navigateur envoie une requête de GET conditionnelle (par exemple avec l’en-tête de requête HTTP If-Modified-Since ) plutôt qu’une requête de GET normale. Le serveur a la possibilité de répondre avec un état &#39;304&#39; et de ne pas transmettre l&#39;image. Le navigateur se contente alors de charger le fichier à partir de son cache. Cela peut considérablement accroître les performances globales pour les données fréquemment consultées.
+Les navigateurs gèrent les caches à l’aide des délais d’expiration des fichiers. Avant de transmettre une requête au serveur, le navigateur vérifie son cache pour voir si le fichier a déjà été téléchargé. Si tel est le cas, et si le fichier n’a pas encore expiré, le navigateur envoie une requête de GET conditionnelle (par exemple avec l’en-tête de requête HTTP If-Modified-Since ) plutôt qu’une requête de GET normale. Le serveur a la possibilité de répondre avec un état &#39;304&#39; et de ne pas transmettre l&#39;image. Le navigateur charge ensuite simplement le fichier à partir de son cache. Cela peut considérablement accroître les performances globales pour les données fréquemment consultées.
 
 Le serveur définit l’en-tête de réponse HTTP d’expiration sur la date/l’heure courante, plus le plus petit de la vignette ::Expiration et toutes les valeurs catalog::Expiration pour la vignette et tous les matériaux impliqués dans l’opération de rendu.
 
-L’expiration est définie principalement pour les réponses de données d’image. Certains types de réponses seront toujours marqués pour une expiration immédiate (ou marqués comme non pouvant être mis en cache), y compris toutes les réponses d’erreur ou de propriété.
+L’expiration est définie principalement pour les réponses de données d’image. Certains types de réponses sont toujours marqués pour une expiration immédiate (ou marqués comme non pouvant être mis en cache), y compris toutes les réponses d’erreur ou les réponses de propriété.
 
 ## Propriétés {#section-e87e8f6b6d224c6ea2eeaad695c04be8}
 

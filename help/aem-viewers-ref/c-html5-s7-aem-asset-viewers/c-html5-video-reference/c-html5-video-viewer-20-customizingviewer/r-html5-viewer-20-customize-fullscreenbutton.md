@@ -1,20 +1,20 @@
 ---
-title: Bouton Plein écran
-description: Le bouton Plein écran permet au lecteur vidéo d’entrer ou de quitter le mode Plein écran lorsqu’un utilisateur clique dessus.
+title: bouton plein écran
+description: Le bouton plein écran permet au lecteur vidéo d’entrer ou de quitter le mode plein écran lorsqu’un utilisateur clique dessus.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 120f0ee9-e76b-48d5-8ea7-8be5a8f52edc
-source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '237'
 ht-degree: 2%
 
 ---
 
-# Bouton Plein écran{#full-screen-button}
+# bouton plein écran{#full-screen-button}
 
-Le bouton Plein écran permet au lecteur vidéo d’entrer ou de quitter le mode Plein écran lorsqu’un utilisateur le sélectionne.
+Le bouton plein écran permet au lecteur vidéo d’entrer ou de quitter le mode plein écran lorsqu’un utilisateur le sélectionne.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -26,7 +26,7 @@ L’aspect du bouton plein écran est contrôlé à l’aide du sélecteur de cl
 .s7videoviewer .s7fullscreenbutton
 ```
 
-**Propriétés CSS du bouton Plein écran**
+**Propriétés CSS du bouton plein écran**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -40,7 +40,7 @@ L’aspect du bouton plein écran est contrôlé à l’aide du sélecteur de cl
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> gauche </span> </p> </td> 
-   <td colname="col2"> <p> Position à partir de la bordure gauche, y compris la marge intérieure. </p> </td> 
+   <td colname="col2"> <p> Position depuis la bordure gauche, y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bas </span> </p> </td> 

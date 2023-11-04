@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 32b55fb1-1408-4264-92fa-b3a73f31df1d
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1395'
 ht-degree: 0%
 
 ---
@@ -35,15 +35,15 @@ Lors de la création d’une page CSS personnalisée, gardez à l’esprit que l
 
 Il est possible de cibler différents appareils et d’incorporer des tailles différentes dans une feuille CSS afin de rendre l’affichage de votre contenu différent, en fonction de l’appareil d’un utilisateur ou d’une mise en page web spécifique. Ce ciblage comprend, sans s’y limiter, différentes mises en page web, tailles des éléments de l’interface utilisateur et résolution des illustrations.
 
-La visionneuse prend en charge deux méthodes pour créer une page CSS réactive : Marqueurs CSS et requêtes multimédias CSS standard. Vous pouvez utiliser ces méthodes indépendamment ou ensemble.
+La visionneuse prend en charge deux méthodes pour créer une page CSS réactive : les marqueurs CSS et les requêtes multimédias CSS standard. Vous pouvez utiliser ces méthodes indépendamment ou ensemble.
 
 **Marqueurs CSS**
 
 Pour créer une page CSS réactive, la visionneuse prend en charge les marqueurs CSS qui sont affectés dynamiquement aux classes CSS spéciales à l’élément de conteneur de la visionneuse de niveau supérieur en fonction de la taille de la visionneuse d’exécution et du type d’entrée sur l’appareil actuel.
 
-Le premier groupe de marqueurs CSS comprend `.s7size_large`, `.s7size_medium`, et `.s7size_small` classes. Elles sont appliquées en fonction de la zone d’exécution du conteneur de la visionneuse. En d’autres termes, si la zone de visionneuse est égale ou supérieure à la taille d’un écran de bureau commun `.s7size_large` est utilisé ; si la zone est proche de la taille d’un tablette commun ; `.s7size_medium` est affectée. Pour les zones similaires aux écrans de téléphone mobile. Le marqueur `.s7size_small` est définie. L’objectif Principal de ces marqueurs CSS est de créer différentes mises en page d’interface utilisateur pour différents écrans et tailles de visionneuse.
+Le premier groupe de marqueurs CSS comprend `.s7size_large`, `.s7size_medium`, et `.s7size_small` classes. Elles sont appliquées en fonction de la zone d’exécution du conteneur de la visionneuse. En d’autres termes, si la zone de visionneuse est égale ou supérieure à la taille d’un écran de bureau commun `.s7size_large` est utilisé ; si la zone est proche de la taille d’un périphérique de tablette commun `.s7size_medium` est affectée. Pour les zones similaires aux écrans de téléphone mobile. Le marqueur `.s7size_small` est définie. L’objectif principal de ces marqueurs CSS est de créer différentes mises en page d’interface utilisateur pour différents écrans et tailles de visionneuse.
 
-Le deuxième groupe de marqueurs CSS comprend `.s7mouseinput` et `.s7touchinput`. Le marqueur `.s7touchinput` est défini si l’appareil actuel dispose de fonctionnalités d’entrée tactile ; sinon, `.s7mouseinput` est utilisée. Ces marqueurs sont destinés à créer des éléments d’entrée de l’interface utilisateur avec des tailles d’écran différentes pour différents types d’entrée, car la saisie tactile nécessite normalement des éléments plus volumineux. Si l’appareil dispose de fonctionnalités d’entrée de souris et de tactile, `.s7touchinput` est définie et la visionneuse effectue le rendu d’une interface utilisateur tactile.
+Le deuxième groupe de marqueurs CSS comprend `.s7mouseinput` et `.s7touchinput`. Le marqueur `.s7touchinput` est défini si l’appareil actuel dispose de fonctionnalités d’entrée tactile ; dans le cas contraire, `.s7mouseinput` est utilisée. Ces marqueurs sont destinés à créer des éléments d’entrée de l’interface utilisateur avec des tailles d’écran différentes pour différents types d’entrée, car la saisie tactile nécessite normalement des éléments plus volumineux. Si l’appareil dispose de fonctionnalités d’entrée de souris et de tactile, `.s7touchinput` est définie et la visionneuse effectue le rendu d’une interface utilisateur tactile.
 
 L’exemple de page CSS suivant définit la taille du bouton de zoom sur 28 x 28 pixels sur les systèmes avec saisie de la souris et 56 x 56 pixels sur les appareils tactiles. En outre, il masque complètement le bouton si la taille de la visionneuse devient trop petite :
 
@@ -124,9 +124,9 @@ Il n’est pas nécessaire de dupliquer l’intégralité du CSS de la visionneu
 
 ## Sprites CSS {#section-9d570f95eb2443aca74c1b02f6e89aff}
 
-De nombreux éléments de l’interface utilisateur de la visionneuse sont stylisés à l’aide d’illustrations bitmap et possèdent plusieurs états visuels distincts. Un bon exemple est un bouton qui comporte normalement au moins trois états différents : &quot;vers le haut&quot;, &quot;vers le bas&quot; et &quot;vers le bas&quot;. Chaque état nécessite l’attribution de sa propre illustration bitmap.
+De nombreux éléments de l’interface utilisateur de la visionneuse sont stylisés à l’aide d’illustrations bitmap et possèdent plusieurs états visuels distincts. Un bon exemple est un bouton qui a normalement au moins trois états différents : &quot;haut&quot;, &quot;sur&quot; et &quot;bas&quot;. Chaque état nécessite l’attribution de sa propre illustration bitmap.
 
-Avec une approche classique de la mise en forme, le CSS dispose d’une référence distincte au fichier image individuel sur le serveur pour chaque état de l’élément d’interface utilisateur. Voici un exemple de page CSS pour la mise en forme d’un bouton de zoom avant :
+Avec une approche classique de la mise en forme, le CSS dispose d’une référence distincte au fichier image individuel sur le serveur pour chaque état de l’élément d’interface utilisateur. Voici un exemple de page CSS permettant de mettre en forme un bouton de zoom avant :
 
 ```
 .s7ecatalogsearchviewer.s7mouseinput .s7zoominbutton[state='up'] {  
@@ -145,7 +145,7 @@ background-image:url(images/v2/ZoomInButton_dark_disabled.png);
 
 L’inconvénient de cette approche est que l’utilisateur final subit un scintillement ou une réponse de l’interface utilisateur différée lorsque l’élément est interagi pour la première fois. Cette action se produit car l’illustration de l’image pour le nouvel état d’élément n’est pas encore téléchargée. En outre, cette approche peut avoir un léger impact négatif sur les performances en raison d’une augmentation du nombre d’appels HTTP au serveur.
 
-Les sprites CSS constituent une approche différente selon laquelle l’illustration d’image pour tous les états d’élément est combinée dans un seul fichier PNG appelé &quot;sprite&quot;. Un tel &quot;sprite&quot; a tous les états visuels pour l’élément donné positionnés l’un après l’autre. Lors du style d’un élément d’interface utilisateur avec des sprites, la même image de sprite est référencée pour tous les états différents du CSS. En outre, la variable `background-position` est utilisée pour chaque état afin de spécifier la partie de l’image &quot;sprite&quot; utilisée. Vous pouvez structurer une image &quot;sprite&quot; de n’importe quelle manière appropriée. Les visionneuses sont normalement empilées verticalement. Vous trouverez ci-dessous un exemple de style basé sur un &quot;sprite&quot; du même bouton de zoom avant :
+Les sprites CSS constituent une approche différente selon laquelle l’illustration d’image pour tous les états d’élément est combinée dans un seul fichier PNG appelé &quot;sprite&quot;. Un tel &quot;sprite&quot; a tous les états visuels pour l’élément donné positionnés l’un après l’autre. Lors du style d’un élément d’interface utilisateur avec des sprites, la même image de sprite est référencée pour tous les états différents du CSS. En outre, la variable `background-position` est utilisée pour chaque état afin de spécifier la partie de l’image &quot;sprite&quot; utilisée. Vous pouvez structurer une image &quot;sprite&quot; de n’importe quelle manière appropriée. Les visionneuses disposent normalement d’un empilement vertical. Vous trouverez ci-dessous un exemple de style basé sur un &quot;sprite&quot; du même bouton de zoom avant :
 
 ```
 .s7ecatalogsearchviewer .s7zoominbutton[state]  { 
@@ -171,7 +171,7 @@ background-position: -0px -560px;
 * Tous les chemins d’accès aux ressources externes dans CSS sont résolus par rapport à l’emplacement CSS, et non par rapport à l’emplacement de la page de HTML de la visionneuse. Tenez compte de cette règle lorsque vous copiez le CSS par défaut vers un autre emplacement. Copiez également les ressources par défaut ou mettez à jour les chemins d’accès dans le fichier CSS personnalisé.
 * Le format préféré des illustrations bitmap est PNG.
 * Les illustrations bitmap sont affectées aux éléments de l’interface utilisateur à l’aide de la fonction `background-image` .
-* Le `width` et `height` les propriétés d’un élément d’interface utilisateur définissent sa taille logique. Taille de l’image bitmap transmise à `background-image` n’affecte pas la taille logique.
+* La variable `width` et `height` les propriétés d’un élément d’interface utilisateur définissent sa taille logique. Taille de l’image bitmap transmise à `background-image` n’affecte pas la taille logique.
 * Pour utiliser la haute densité en pixels d’écrans haute résolution comme Retina, spécifiez une illustration bitmap deux fois plus grande que la taille de l’élément logique de l’interface utilisateur. Ensuite, appliquez la variable `-webkit-background-size:contain` pour réduire l’arrière-plan à la taille de l’élément de l’interface utilisateur logique.
 * Pour supprimer un bouton de l’interface utilisateur, ajoutez `display:none` à sa classe CSS.
 * Vous pouvez utiliser différents formats pour la valeur de couleur prise en charge par CSS. Si vous avez besoin de transparence, utilisez le format `rgba(R,G,B,A)`. Sinon, vous pouvez utiliser le format `#RRGGBB`.
@@ -191,9 +191,9 @@ Voici la documentation de référence sur les éléments de l’interface utilis
 * [Vue Favoris](r-html5-ecatsearch-customize-favoritesview.md)
 * [Bouton Première page](r-html5-ecatsearch-customize-firstpagebutton.md)
 * [Mise en évidence de la cible](r-html5-ecatsearch-customize-focushighlight.md)
-* [Bouton Plein écran](r-html5-ecatsearch-customize-fullscreenbutton.md)
+* [bouton plein écran](r-html5-ecatsearch-customize-fullscreenbutton.md)
 * [Effet Icône](r-html5-ecatsearch-customize-iconeffect.md)
-* [Fenêtre contextuelle du panneau Infos](r-html5-ecatsearch-customize-infopanelpopup.md)
+* [Fenêtre contextuelle du panneau Informations](r-html5-ecatsearch-customize-infopanelpopup.md)
 * [Effet de zone cliquable](r-html5-ecatsearch-customize-imagemapeffect.md)
 * [Bouton Grande page suivante](r-html5-ecatsearch-customize-largenextpagebutton.md)
 * [Bouton Grande page précédente](r-html5-ecatsearch-customize-largepreviouspagebutton.md)
@@ -211,12 +211,12 @@ Voici la documentation de référence sur les éléments de l’interface utilis
 * [Effet de recherche](r-html5-ecatsearch-customize-searcheffect.md)
 * [Panneau des résultats de recherche](r-html5-ecatsearch-customize-searchresultspanel.md)
 * [Barre de contrôle Secondaire](r-html5-ecatsearch-customize-secondarycontrolbar.md)
-* [Partage sur les réseaux sociaux](r-html5-ecatsearch-customize-socialshare.md)
+* [Partage social](r-html5-ecatsearch-customize-socialshare.md)
 * [Table des matières](r-html5-ecatsearch-customize-tableofcontents.md)
 * [Miniatures](r-html5-ecatsearch-customize-thumbnails.md)
 * [Bouton Miniatures](r-html5-ecatsearch-customize-thumbnailsbutton.md)
 * [Infobulles](r-html5-ecatsearch-customize-tooltips.md)
-* [Partage twitter](r-html5-ecatsearch-customize-twittershare.md)
+* [partage de twitter](r-html5-ecatsearch-customize-twittershare.md)
 * [Bouton Afficher tous les favoris](r-html5-ecatsearch-customize-viewallfavorites.md)
 * [Bouton Zoom avant](r-html5-ecatsearch-customize-zoominbutton.md)
 * [Bouton Zoom arrière](r-html5-ecatsearch-customize-zoomoutbutton.md)

@@ -5,9 +5,9 @@ title: Définition des chiffrements SSL
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 7734ba02-4442-4a3d-acbf-e14d8ad66279
-source-git-commit: 370444b85cb2636d109df4e2681e3e078d6f1e1a
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Par défaut, tous les chiffrements sont disponibles. La liste est séparée par 
 
 <!-- WEAK CQDOC-19433 `TLS_RSA_WITH_AES_128_CBC_SHA` -->
 
-Si l’une des valeurs est incorrecte, Tomcat activera chaque chiffre. Il est donc essentiel de vérifier avec un outil externe après la configuration quels chiffrements sont réellement activés.
+Si l’une des valeurs est incorrecte, Tomcat active chaque chiffre. Il est donc essentiel de vérifier avec un outil externe après la configuration quels chiffrements sont réellement activés.
 
 Par exemple, la configuration suivante active uniquement les suites de chiffrement &quot;128 bits&quot; et ultérieures :
 

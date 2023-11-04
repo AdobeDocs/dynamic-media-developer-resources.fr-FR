@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
 exl-id: 57d26a76-f4ee-44d5-b7a5-f3eb5c2a8759
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 2%
@@ -65,7 +65,7 @@ L’aspect des info-bulles est contrôlé à l’aide du sélecteur de classe CS
 >
 >Si les styles d’info-bulle sont personnalisés dans la page web d’intégration, toutes les propriétés doivent contenir `!IMPORTANT` règle. Toutefois, il n’est pas nécessaire que les info-bulles soient personnalisées dans le fichier CSS de la visionneuse.
 
-Exemple : pour configurer des info-bulles avec une bordure grise avec un rayon d’angle de 3 pixels, un arrière-plan noir et un texte blanc écrits en Arial® d’une taille de 11 pixels :
+Exemple : pour configurer des infobulles dont la bordure est grise avec un rayon d’angle de 3 pixels, un arrière-plan noir et un texte blanc écrits avec Arial®, taille de 11 pixels :
 
 ```
 .s7tooltip { 

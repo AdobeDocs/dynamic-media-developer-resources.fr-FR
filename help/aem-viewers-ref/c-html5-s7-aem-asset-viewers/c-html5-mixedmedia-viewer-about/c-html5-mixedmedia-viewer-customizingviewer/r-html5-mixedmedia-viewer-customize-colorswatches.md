@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 0a73d1c9-362d-48a5-96c9-3d543e68ebec
-source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 3%
@@ -111,7 +111,7 @@ L’aspect de la miniature individuelle est contrôlé à l’aide du sélecteur
 >
 >La miniature prend en charge le `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la miniature de l’image actuellement affichée dans la vue principale, `state="default"` correspond au reste des miniatures, et `state="over"` est utilisée lorsque vous pointez avec la souris.
 
-Exemple : pour configurer des miniatures de 56 x 56 pixels, vous devez définir une bordure par défaut en gris clair et une bordure sélectionnée en gris foncé.
+Exemple : pour configurer des miniatures de 56 x 56 pixels, utilisez une bordure grise claire par défaut et une bordure sélectionnée gris foncé.
 
 ```
 .s7mixedmediaviewer .s7colorswatches .s7swatches .s7thumb { 
@@ -132,7 +132,7 @@ L’aspect des boutons de défilement gauche et droite est contrôlé à l’aid
 
 `.s7mixedmediaviewer .s7colorswatches .s7swatches .s7scrollrightbutton`
 
-Il n’est pas possible de positionner des boutons de défilement à l’aide de CSS `top`, `left`, `bottom`, et `right` propriétés. À la place, la logique de la visionneuse les positionne automatiquement.
+Il n’est pas possible de positionner des boutons de défilement à l’aide de CSS `top`, `left`, `bottom`, et `right` propriétés. La logique de la visionneuse les positionne automatiquement.
 
 <table id="table_A5663C4AAC4446168CAD8DBA2894BB9C"> 
  <thead> 

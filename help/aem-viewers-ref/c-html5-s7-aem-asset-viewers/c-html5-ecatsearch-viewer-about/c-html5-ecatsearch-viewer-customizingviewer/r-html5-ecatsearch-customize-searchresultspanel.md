@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: ffbbc2ae-60da-4c3d-a350-6dbcb64e189d
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 1%
@@ -20,7 +20,7 @@ Le panneau des résultats de recherche se compose de la zone de saisie de recher
 
 **Propriétés CSS de la zone de visionneuse principale**
 
-Lorsque le panneau est principal, l’interface utilisateur de la visionneuse est recouverte d’un remplissage semi-transparent. La couleur et l’opacité de ce remplissage sont contrôlées avec le sélecteur de classe CSS suivant :
+Lorsque le panneau est actif, l’interface utilisateur de la visionneuse est recouverte d’un remplissage semi-transparent. La couleur et l’opacité de ce remplissage sont contrôlées avec le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7searchpanel .s7backoverlay
@@ -36,7 +36,7 @@ Lorsque le panneau est principal, l’interface utilisateur de la visionneuse es
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
-   <td colname="col2"> <p>Couleur de la superposition. </p> </td> 
+   <td colname="col2"> <p>Couleur du recouvrement. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opacité </span> </p> </td> 
@@ -170,7 +170,7 @@ Le bouton de recherche situé à gauche du champ de saisie de recherche sous la 
  </tbody> 
 </table>
 
-Exemple : pour configurer un bouton de recherche avec une icône &quot;en forme de verre&quot; de 26 x 26 pixels ; Taille de 30 pixels avec une bordure de 1 pixel :
+Exemple : pour configurer un bouton de recherche avec une icône &quot;en forme de verre&quot; de 26 x 26 pixels ; 30 pixels de taille avec une bordure de 1 pixel :
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinputbutton { 
@@ -214,7 +214,7 @@ Le panneau des résultats de recherche peut afficher une invite textuelle lors d
 
 >[!NOTE]
 >
->Ce panneau de texte prend en charge les `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents styles à différents messages texte. En particulier, `state='prompt'` correspond à l’invite de texte affichée lorsque le panneau est appelé pour la première fois. Le `state='results'` correspond au texte contenant des informations sur les accès à la recherche. Et enfin, le `state='no_results'` correspond au texte affiché lorsque la requête de recherche ne renvoyait aucun résultat.
+>Ce panneau de texte prend en charge les `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents styles à différents messages texte. En particulier, `state='prompt'` correspond à l’invite de texte affichée lorsque le panneau est appelé pour la première fois. La variable `state='results'` correspond au texte contenant des informations sur les accès à la recherche. Et enfin, le `state='no_results'` correspond au texte affiché lorsque la requête de recherche ne renvoyait aucun résultat.
 
 Le texte du message peut être localisé. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 
@@ -277,7 +277,7 @@ L’aspect des miniatures individuelles est contrôlé à l’aide du sélecteur
  </tbody> 
 </table>
 
-Exemple : pour configurer des miniatures de 215 x 129 pixels, vous devez définir une bordure par défaut en gris clair et une bordure sélectionnée en gris foncé :
+Exemple : pour configurer des miniatures de 215 x 129 pixels, vous devez définir une bordure grise claire et une bordure sélectionnée en gris foncé :
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7thumb { 
@@ -312,7 +312,7 @@ L’aspect du libellé de la miniature est contrôlé à l’aide du sélecteur 
  </tbody> 
 </table>
 
-Exemple - Pour configurer des libellés de 12 pixels, gris, police Helvetica® :
+Exemple - Pour configurer des libellés qui utilisent la police 12 pixels, gris, Helvetica® :
 
 ```
 .s7ecatalogsearchviewer .s7searchpanel .s7swatches .s7label { 
@@ -329,7 +329,7 @@ Sur les systèmes qui utilisent la saisie de la souris, deux boutons de défilem
 .s7ecatalogsearchviewer .s7searchpanel .s7scrolldownbutton
 ```
 
-Il n’est pas possible de positionner les boutons de défilement à l’aide des propriétés CSS supérieure, gauche, inférieure et droite. À la place, la logique de la visionneuse les positionne automatiquement.
+Il n’est pas possible de positionner les boutons de défilement à l’aide des propriétés CSS supérieure, gauche, inférieure et droite. La logique de la visionneuse les positionne automatiquement.
 
 **Propriétés CSS des boutons de défilement vers le haut et vers le bas**
 

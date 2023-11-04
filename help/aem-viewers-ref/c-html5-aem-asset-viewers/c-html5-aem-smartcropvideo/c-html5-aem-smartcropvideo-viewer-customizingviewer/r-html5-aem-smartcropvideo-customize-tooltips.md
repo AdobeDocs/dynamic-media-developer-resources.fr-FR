@@ -4,7 +4,8 @@ description: Sur les systèmes de bureau, certains éléments de l’interface u
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 78cc0f11-bec2-495e-b3c9-a91b6bd1b1f0
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 2%
@@ -64,7 +65,7 @@ L’aspect des info-bulles est contrôlé à l’aide du sélecteur de classe CS
 >
 >Si les styles d’info-bulle sont personnalisés à partir de la page web d’intégration, toutes les propriétés doivent contenir une `!IMPORTANT` règle. Cette règle n’est pas nécessaire si des info-bulles sont personnalisées dans le fichier CSS de la visionneuse.
 
-Exemple : pour configurer des info-bulles avec une bordure grise avec un rayon d’angle de 3 pixels, un arrière-plan noir et un texte blanc écrits en Arial® d’une taille de 11 pixels :
+Exemple : pour configurer des infobulles dont la bordure est grise avec un rayon d’angle de 3 pixels, un arrière-plan noir et un texte blanc écrits avec Arial®, taille de 11 pixels :
 
 ```
 .s7tooltip { 

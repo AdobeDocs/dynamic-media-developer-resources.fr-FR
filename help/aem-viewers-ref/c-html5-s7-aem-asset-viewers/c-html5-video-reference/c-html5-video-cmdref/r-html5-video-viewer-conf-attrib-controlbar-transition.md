@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 133717c7-38d9-47b6-86bb-e23ebd8f147a
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 3%
+source-wordcount: '117'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ Attribut de configuration pour la visionneuse de vidéos.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|fade</span> </p> </td> 
-   <td colname="col2"> <p> Indique le type d’effet utilisé pour afficher ou masquer la barre de contrôle et son contenu. </p> <p>Utilisation <span class="codeph"> none</span> pour un spectacle et un masquage instantanés. Utilisation <span class="codeph"> fade</span> afin de créer un effet de fondu progressif et de fondu. </p> <p>Le fondu n’est pas pris en charge sur Internet Explorer 8. </p> </td> 
+   <td colname="col2"> <p> Indique le type d’effet utilisé pour afficher ou masquer la barre de contrôle et son contenu. </p> <p>Utilisation <span class="codeph"> none</span> pour un spectacle et un masquage instantanés. Utilisation <span class="codeph"> fade</span> afin d’obtenir un effet de fondu progressif et d’atténué. </p> <p>Le fondu n’est pas pris en charge sur Internet Explorer 8. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> delaytohide</span> </span> </p> </td> 
@@ -30,7 +30,7 @@ Attribut de configuration pour la visionneuse de vidéos.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> durée</span> </span> </p> </td> 
-   <td colname="col2"> <p>Définit la durée de l’animation de fondu et de fondu, en secondes. </p> </td> 
+   <td colname="col2"> <p>Définit la durée en secondes de l’animation de fondu et de fondu. </p> </td> 
   </tr> 
  </tbody> 
 </table>

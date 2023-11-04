@@ -1,18 +1,18 @@
 ---
-title: Bouton Plein écran
+title: bouton plein écran
 description: Permet à la visionneuse d’entrer ou de quitter le mode plein écran lorsqu’elle clique sur l’utilisateur. Ce bouton ne s’affiche pas si la visionneuse fonctionne en mode pop-up et que le système ne prend pas en charge le mode plein écran natif. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: ec8ebf24-c8ae-43f1-86b9-0b30d529d277
-source-git-commit: d5f1f05c36c1cb8a57b5a4bb8a9d066c20e32e75
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '275'
 ht-degree: 2%
 
 ---
 
-# Bouton Plein écran{#full-screen-button}
+# bouton plein écran{#full-screen-button}
 
 Permet à la visionneuse d’entrer ou de quitter le mode plein écran lorsqu’elle est sélectionnée par l’utilisateur. Ce bouton ne s’affiche pas si la visionneuse fonctionne en mode pop-up et que le système ne prend pas en charge le mode plein écran natif. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
 
@@ -44,7 +44,7 @@ L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suiv
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> gauche </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure gauche, y compris la marge intérieure. </p> </td> 
+   <td colname="col2"> <p>Position depuis la bordure gauche, y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bas </span> </p> </td> 

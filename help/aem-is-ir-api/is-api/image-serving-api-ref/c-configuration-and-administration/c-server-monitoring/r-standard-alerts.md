@@ -2,12 +2,12 @@
 description: Les alertes standard sont envoyées avec un message électronique consolidé à la fin de l’intervalle de moyenne configuré.
 solution: Experience Manager
 title: Alertes standard
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: eb691988-9f03-463f-bed5-2c230431f537
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Le tableau suivant décrit chaque type d’alerte standard.
   <tr> 
    <td> <p>Concurrence élevée </p> </td> 
    <td> <p>Conc </p> </td> 
-   <td> Émis lorsque le nombre de requêtes qui sont traitées simultanément (le <i>chevauchement</i>) dépasse le seuil spécifié. Peut indiquer une condition de surcharge du serveur. </td> 
+   <td> Émis lorsque le nombre de requêtes qui sont traitées simultanément (le <i>chevauchement</i>) dépasse le seuil spécifié. Peut être un indicateur d’une condition de surcharge du serveur. </td> 
   </tr> 
   <tr> 
    <td> <p>Trafic minimal </p> </td> 
@@ -50,7 +50,7 @@ Le tableau suivant décrit chaque type d’alerte standard.
   <tr> 
    <td> <p>Temps de réponse </p> </td> 
    <td> <p>RTime </p> </td> 
-   <td> <p>Envoyé lorsque la durée moyenne de traitement des demandes au cours de l’intervalle d’échantillonnage dépasse le seuil spécifié. Indique généralement une condition de surcharge temporaire ou persistante du serveur ou du système de stockage d’images principal. </p> <p>Les réponses d’erreur ne sont pas prises en compte lors du calcul du temps de réponse moyen. </p> </td> 
+   <td> <p>Envoyé lorsque la durée moyenne de traitement des demandes au cours de l’intervalle d’échantillonnage dépasse le seuil spécifié. Indique généralement une condition de surcharge temporaire ou persistante du serveur ou du système de stockage des images d’arrière-plan. </p> <p>Les réponses d’erreur ne sont pas prises en compte lors du calcul du temps de réponse moyen. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,7 +5,7 @@ title: Prise en charge du suivi Adobe Analytics
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User,Data Engineer,Data Architect
 exl-id: b35e52f5-fa08-4945-aa52-9fdf41a6081a
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 4%
@@ -18,7 +18,7 @@ La visionneuse de recherche de catalogue électronique prend en charge le suivi 
 
 ## Suivi d’usine {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-La visionneuse de recherche eCatalog prend en charge [!DNL Adobe Analytics] suivi prêt à l’emploi. Pour activer le suivi, transmettez le nom de paramètre prédéfini d’entreprise approprié en tant que `config2` .
+La visionneuse de recherche eCatalog prend en charge [!DNL Adobe Analytics] suivi d’usine. Pour activer le suivi, transmettez le nom de paramètre prédéfini d’entreprise approprié en tant que `config2` .
 
 La visionneuse envoie également une requête HTTP de suivi unique au serveur d’images configuré avec le type de visionneuse et les informations de version.
 

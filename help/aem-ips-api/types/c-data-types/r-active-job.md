@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 3d878207-99e4-4c75-ab12-b38a37c82fb7
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '376'
 ht-degree: 9%
 
 ---
@@ -45,7 +45,7 @@ Pour renvoyer le type de tâche, spécifiez une valeur de type de tâche. Vous p
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Gérer la société. </td> 
+   <td colname="col3"> Traitez la société. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
@@ -60,7 +60,7 @@ Pour renvoyer le type de tâche, spécifiez une valeur de type de tâche. Vous p
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Nom d’origine de la variable <span class="codeph"> ActiveJob</span> type envoyé avec la tâche. </td> 
+   <td colname="col3">Nom d’origine du <span class="codeph"> ActiveJob</span> type envoyé avec la tâche. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
@@ -70,7 +70,7 @@ Pour renvoyer le type de tâche, spécifiez une valeur de type de tâche. Vous p
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> state</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Choix des états de tâche principaux renvoyés par le système. </td> 
+   <td colname="col3"> Choix des états de tâche actifs renvoyés par le système. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> submitUserEmail</span> </span> </td> 
@@ -95,17 +95,17 @@ Pour renvoyer le type de tâche, spécifiez une valeur de type de tâche. Vous p
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> startDate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Date, heure et fuseau horaire de la tâche principale. </td> 
+   <td colname="col3"> Date, heure et fuseau horaire de la tâche active. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> totalSize</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Taille totale de la tâche principale. </td> 
+   <td colname="col3"> Taille totale de la tâche active. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> progress</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
-   <td colname="col3"> Progression de la tâche (c.-à-d. la distance à laquelle la tâche se termine). </td> 
+   <td colname="col3"> Progression de la tâche (c’est-à-dire la distance à laquelle la tâche se termine). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> progressMessage</span> </span> </td> 

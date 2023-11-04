@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 4db16599-ede0-47ae-bb5a-840655d3620b
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '657'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ L’aspect de la barre de contrôle principale est contrôlé à l’aide du sé
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> haut </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir du haut de la visionneuse. </p> </td> 
+   <td colname="col2"> <p>Position en haut de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bas </span> </p> </td> 
@@ -59,7 +59,7 @@ L’aspect de la barre de contrôle principale est contrôlé à l’aide du sé
 }
 ```
 
-La barre de contrôle principale prend en charge une fonction de défilement facultative. Cette option est activée si la largeur de la visionneuse est trop petite et qu’il n’y a pas assez d’espace pour que tous les boutons prédéfinis de la barre de contrôle s’adaptent. Dans ce cas, une flèche à deux états s’affiche dans la partie droite de la barre de contrôle. Cliquez ou appuyez sur ce bouton pour faire défiler tous les éléments de la barre de contrôle vers la gauche ou vers la droite, selon l’état du bouton de défilement. Le cas d’utilisation Principal de cette fonctionnalité est celui des appareils mobiles avec de petits écrans en orientation portrait.
+La barre de contrôle principale prend en charge une fonction de défilement facultative. Cette option est activée si la largeur de la visionneuse est trop petite et qu’il n’y a pas assez d’espace pour que tous les boutons prédéfinis de la barre de contrôle s’adaptent. Dans ce cas, une flèche à deux états s’affiche dans la partie droite de la barre de contrôle. Cliquez ou appuyez sur ce bouton pour faire défiler tous les éléments de la barre de contrôle vers la gauche ou vers la droite, selon l’état du bouton de défilement. Le cas d’utilisation principal de cette fonctionnalité est celui des appareils mobiles avec de petits écrans en orientation portrait.
 
 La fonction de défilement est activée pour la barre de contrôle principale et désactivée pour la barre de contrôle secondaire. La fonctionnalité est activée et désactivée à l’aide du sélecteur de classe CSS suivant :
 

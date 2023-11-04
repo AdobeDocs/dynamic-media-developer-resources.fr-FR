@@ -1,20 +1,20 @@
 ---
-description: Renvoie des informations sur la structure d’une société (nombre de fichiers, etc.).
+description: Renvoie des informations sur la structure d’une entreprise (nombre de fichiers, etc.).
 solution: Experience Manager
 title: getDiskUsage
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 06fdd9f5-5021-4f0b-b312-4465df9bda25
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 14%
+source-wordcount: '102'
+ht-degree: 13%
 
 ---
 
 # getDiskUsage{#getdiskusage}
 
-Renvoie des informations sur la structure d’une société (nombre de fichiers, etc.).
+Renvoie des informations sur la structure d’une entreprise (nombre de fichiers, etc.).
 
 ## Types d’utilisateurs autorisés {#authorized-user-types}
 

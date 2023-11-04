@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
-source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Notes de compatibilité pour les systèmes d’exploitation, les navigateurs et 
 
 ## Généraux {#section-7b9a9fcba85148d1802b7b3016b48e02}
 
-* La mise à l’échelle côté navigateur rend l’interface utilisateur et les images floues lorsque l’utilisateur effectue un zoom sur la page. La mise en forme de l’interface utilisateur s’affiche également incorrectement en fonction du zoom et s’affiche en mode plein écran.
+* La mise à l’échelle côté navigateur rend l’interface utilisateur et les images floues lorsque l’utilisateur effectue un zoom sur la page. La mise en forme de l’interface utilisateur s’affiche également de manière incorrecte en fonction du zoom et s’affiche en mode plein écran.
 * En raison de la taille limitée sur les appareils mobiles, la visionneuse de supports variés utilise le mouvement des diapositives pour permuter des images dans des visionneuses d’images incorporées au lieu d’appuyer sur le composant d’échantillons incorporés. Le composant est présent en tant qu’indicateur visuel.
 * Dans les navigateurs Internet Explorer et certains périphériques tactiles, le mode plein écran n’occupe pas tout l’écran du périphérique. Il redimensionne l’application à la taille de la fenêtre du navigateur.
 * Le bouton Fermer ne fonctionne pas sous iOS 8.0 et iOS 8.1, mais fonctionne sous iOS 8.2.
@@ -36,7 +36,7 @@ Notes de compatibilité pour les systèmes d’exploitation, les navigateurs et 
 
 ## Galaxy S4 {#section-7effabfea75b488399e0f71cab4ce76b}
 
-* Appareil détecté comme tablette en mode portrait avec le plein écran coché dans les paramètres du navigateur.
+* Appareil détecté comme tablette en mode portrait avec le mode Plein écran vérifié dans les paramètres du navigateur.
 
 ## Galaxy Nexus {#section-9340b0b026bd48e8a8a6b837b59c6dc5}
 
@@ -70,6 +70,6 @@ Notes de compatibilité pour les systèmes d’exploitation, les navigateurs et 
 
 ## Safari {#section-f8de598293d349188aa02c82cd3af8b6}
 
-* Safari 6.1 ou version ultérieure : Les paramètres du module externe Internet empêchent la lecture vidéo par Flash.
+* Safari 6.1 ou version ultérieure : les paramètres du module externe Internet empêchent la lecture vidéo par Flash.
 * La recherche de vidéos à l’aide de la diffusion HLS en continu sur Safari est incohérente.
 * Impossible de rechercher la fin de la vidéo sur Safari 6 à l’aide de la diffusion HLS en continu.

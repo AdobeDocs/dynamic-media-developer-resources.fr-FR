@@ -1,22 +1,22 @@
 ---
 description: Données utilisateur. Le serveur renvoie le contenu de ce champ au client en réponse à req=userdata.
 solution: Experience Manager
-title: Données utilisateur *
-feature: Dynamic Media Classic, SDK/API
+title: UserData *
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e8ec11af-9448-4796-a43d-0fb9841469dd
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 17%
+source-wordcount: '63'
+ht-degree: 7%
 
 ---
 
-# Données utilisateur *{#userdata}
+# UserData *{#userdata}
 
 Données utilisateur. Le serveur renvoie le contenu de ce champ au client en réponse à req=userdata.
 
-Les nouvelles lignes peuvent être échappées avec &quot;??&quot;. Le serveur remplacera &#39;??&#39; avec `<cr><lf>` avant de renvoyer le contenu de ce champ.
+Les nouvelles lignes peuvent être placées dans une séquence d’échappement avec &quot;??&quot;. Le serveur remplace ?? par `<cr><lf>` avant de renvoyer le contenu de ce champ.
 
 ## Propriétés {#section-4e3904e047a84cc790ce77c56d3e0b21}
 

@@ -1,22 +1,22 @@
 ---
-description: textPs= met en oeuvre un algorithme d’ajustement de copie propriétaire qui ajustera automatiquement la ou les tailles de police pour remplir de manière optimale la zone de texte avec du texte, en minimisant l’espace supplémentaire en bas tout en évitant le débordement.
+description: textPs= met en oeuvre un algorithme d’ajustement de copie propriétaire qui ajuste automatiquement les tailles de police pour remplir de manière optimale la zone de texte avec du texte, en minimisant l’espace supplémentaire en bas tout en évitant le débordement.
 solution: Experience Manager
 title: Correspondance
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d1a560f3-f92c-4143-b80a-e1674c8a4207
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
 
 # Correspondance{#copy-fitting}
 
-textPs= met en oeuvre un algorithme d’ajustement de copie propriétaire qui ajustera automatiquement la ou les tailles de police pour remplir de manière optimale la zone de texte avec du texte, en minimisant l’espace supplémentaire en bas tout en évitant le débordement.
+textPs= met en oeuvre un algorithme d’ajustement de copie propriétaire qui ajuste automatiquement les tailles de police pour remplir de manière optimale la zone de texte avec du texte, en minimisant l’espace supplémentaire en bas tout en évitant le débordement.
 
-L’ajustement de la copie peut être activé et contrôlé collectivement pour l’ensemble du calque de texte, sur la base d’un paragraphe, même pour une plage de texte individuelle.
+L’ajustement de la copie peut être activé et contrôlé collectivement pour l’ensemble du calque de texte, sur une base de paragraphe, même pour une plage de texte individuelle.
 
 Définissez la taille de police minimale avec `\fs` et la taille de police maximale avec `\copyfit`. Un nombre illimité de plages est autorisé dans la même chaîne RTF. Les tailles de toutes les plages sont variables proportionnellement, ce qui permet de conserver les proportions souhaitées.
 
@@ -26,11 +26,11 @@ Le correctif de copie est désactivé en spécifiant `\copyfit` avec une taille 
 
 ## Limiter le nombre de lignes {#section-e5aee0f039e04842afc3d6884ed681ac}
 
-Outre la définition de la plage de tailles de police, le comportement de l’algorithme d’ajustement de copie peut être contrôlé avec la variable `\copyfitlines` ou `\copyfitmaxlines` , qui limite le nombre de lignes générées par l’algorithme. Les deux commandes acceptent un paramètre de comptage de ligne ou 0, afin de ne pas limiter le nombre de lignes dans la région ajustée à la copie.
+Outre la définition de la plage de tailles de police, le comportement de l’algorithme d’ajustement de copie peut être contrôlé avec la variable `\copyfitlines` ou `\copyfitmaxlines` , qui limitent le nombre de lignes générées par l’algorithme. Les deux commandes acceptent un paramètre de comptage de ligne ou 0, afin de ne pas limiter le nombre de lignes dans la région ajustée à la copie.
 
 `\copyfitlines` permet au texte de déborder sur des lignes supplémentaires lorsqu’il ne correspond pas au nombre spécifié de lignes. Les sauts de ligne explicites dans le segment de texte à copier sont toujours honorés.
 
-`\copyfitmaxlines` tronque toujours les lignes de sortie supplémentaires qui dépassent la limite spécifiée. Le nombre spécifié de lignes ne sera jamais dépassé, même en présence de sauts de ligne explicites. Pour cette version de Image Serving, pas plus que N-1 `\line` les marqueurs peuvent être présents dans la plage de texte ajustée à la copie. Le comportement n’est pas défini si cette limite est dépassée.
+`\copyfitmaxlines` tronque toujours les lignes de sortie supplémentaires qui dépassent la limite spécifiée. Le nombre de lignes spécifié ne sera jamais dépassé, même en présence de sauts de ligne explicites. Pour cette version de Image Serving, pas plus que N-1 `\line` les marqueurs peuvent être présents dans la plage de texte ajustée à la copie. Le comportement n’est pas défini si cette limite est dépassée.
 
 ## Exemples {#section-f4ddbbfade444560be30a813d90c2c1b}
 
@@ -40,7 +40,7 @@ Les exemples suivants supposent que des corps de texte sont fournis avec des var
 
 `{\fs10\copyfit100 $A${\fs20\copyfit200 $B$}$C$}`
 
-*[!DNL $B$]* est toujours rendu deux fois plus grand que le reste du texte. Lorsque beaucoup de texte est spécifié, *[!DNL $A$]* et *[!DNL $C$]* est rendu avec `\fs10` et *[!DNL $B$]* avec `\fs20`. Avec peu de texte, *[!DNL $A$]* et *[!DNL $C$]* utilisera `\fs100` et *[!DNL $B$]* `\fs200`.
+*[!DNL $B$]* est toujours rendu deux fois plus grand que le reste du texte. Lorsque beaucoup de texte est spécifié, *[!DNL $A$]* et *[!DNL $C$]* est rendu avec `\fs10` et *[!DNL $B$]* avec `\fs20`. Avec peu de texte, *[!DNL $A$]* et *[!DNL $C$]* use `\fs100` et *[!DNL $B$]* `\fs200`.
 
 **Effectuez une conversion vers une grande taille de police commune si seule une petite quantité de texte est dessinée :**
 

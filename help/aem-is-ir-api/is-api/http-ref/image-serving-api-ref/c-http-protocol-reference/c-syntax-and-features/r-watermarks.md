@@ -5,10 +5,10 @@ title: Filigranes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e744be3f-9753-4513-8f37-055fa03077cc
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 1%
+source-wordcount: '455'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Le service d’images met en oeuvre une fonction de filigrane visuelle simple.
 
-Un filigrane est généralement une image semi-transparente, mais il peut s’agir de texte ou d’une image composite à couches plus complexes. Le serveur calque le filigrane sur l’image de réponse après tous les attributs d’affichage ( `wid=`, `hei=`, `align=`, `scl=`, `bgc=`) ont été appliquées.
+Un filigrane est généralement une image semi-transparente, mais il peut s’agir de texte ou d’une image composite à couches plus complexes. Le serveur place le filigrane au-dessus de l’image de réponse après tous les attributs d’affichage ( `wid=`, `hei=`, `align=`, `scl=`, `bgc=`) ont été appliquées.
 
 Le filigrane est activé en définissant `attribute::Watermark` à une entrée de catalogue valide contenant l’image ou le modèle de filigrane. If `attribute::Watermark` est défini dans un catalogue nommé, le serveur ajoute le filigrane à toutes les demandes d’image qui référencent l’ID de catalogue dans l’URL de la demande. If `default::Watermark` est défini (dans le catalogue par défaut, [!DNL default.ini]), le filigrane est appliqué à toutes les demandes d’image, qu’elles fassent référence à un catalogue ou non.
 
@@ -30,7 +30,7 @@ Contrairement aux images standard, `sizeN=` peut être spécifié pour layer=0 o
 
 Commandes de requête (telles que `fmt=`) et les commandes d’affichage (telles que `wid=`) sont ignorées dans les enregistrements de filigrane, à l’exception de `align=`. `align=` peut être utilisé pour positionner l’image du filigrane par rapport à l’image cible. Cela permet de positionner le filigrane par rapport à un coin ou à un bord de l’image cible.
 
-Après la mise à l’échelle et l’alignement, le serveur superpose l’image du filigrane sur l’image cible à l’aide de la fonction `blendMode=` et `opac=` valeurs spécifiées pour `layer=0` ou `layer=comp` de l’image de filigrane. Enfin, les commandes de requête et d’affichage spécifiées pour l’image cible sont appliquées pour construire l’image de réponse.
+Après la mise à l’échelle et l’alignement, le serveur calque l’image du filigrane sur l’image cible à l’aide de la propriété `blendMode=` et `opac=` valeurs spécifiées pour `layer=0` ou `layer=comp` de l’image de filigrane. Enfin, les commandes de requête et d’affichage spécifiées pour l’image cible sont appliquées pour construire l’image de réponse.
 
 Notez que l’image de filigrane ne s’étend jamais sur un espace vide ajouté à l’image de réponse par la fonction `wid=` et `hei=` des commandes.
 

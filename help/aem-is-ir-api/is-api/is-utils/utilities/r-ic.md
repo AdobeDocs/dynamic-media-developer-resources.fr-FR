@@ -5,10 +5,10 @@ title: ic
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ab653aae-532b-4f3d-8541-f6296fbf9172
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 2%
+source-wordcount: '1204'
+ht-degree: 1%
 
 ---
 
@@ -81,7 +81,7 @@ Si vous ne convertissez pas d’images volumineuses, il n’est pas nécessaire 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -jpegquality &lt; <span class="varname"> qualité </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Qualité du JPEG (0 à 100); La valeur par défaut est 95). </p> </td> 
+   <td colname="col2"> <p>Qualité du JPEG (0 à 100 ; la valeur par défaut est 95). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -fullsamplechrominance </span> </p> </td> 
@@ -101,13 +101,13 @@ Si vous ne convertissez pas d’images volumineuses, il n’est pas nécessaire 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -autocrop &lt; <span class="varname"> corner </span>&gt; &lt; <span class="varname"> mode </span>&gt; &lt; <span class="varname"> tolérance </span>&gt; &lt; <span class="varname"> infoFile </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Calculez un rectangle de recadrage afin de minimiser l’arrière-plan en couleur unie. Aucune information de recadrage n’est générée si l’algorithme de recadrage automatique entraîne le recadrage de l’image entière. </p> <p>Pour calculer le rectangle de recadrage sans convertir l’image, spécifiez <span class="codeph"> -autocrop </span> without <span class="codeph"> -convert </span> et sans <span class="codeph"> <span class="varname"> destFile.</span> </span></p>
+   <td colname="col2"> <p>Calculez un rectangle de recadrage afin de minimiser un arrière-plan en couleur uni. Aucune information de recadrage n’est générée si l’algorithme de recadrage automatique entraîne le recadrage de l’image entière. </p> <p>Pour calculer le rectangle de recadrage sans convertir l’image, spécifiez <span class="codeph"> -autocrop </span> without <span class="codeph"> -convert </span> et sans <span class="codeph"> <span class="varname"> destFile.</span> </span></p>
 
 <p><i><b>corner</b></i> - ul | ur | tout | lr </p>
    <p> Indique le coin de l’image à utiliser comme point de départ. Ignoré si le mode est 1.</p>
    <p><i><b>mode</b></i> - 0 | 1</p>
-   <p>Définissez cette variable sur 0 pour recadrer en fonction de la couleur du pixel d’angle spécifié. fonctionne sur des données de couleur prémultipliées si des données alpha sont associées à l’image source.</p>
-   <p>Définissez cette variable sur 1 pour effectuer un recadrage en fonction des données alpha. corner est ignoré et 0 est toujours la valeur de départ ; aucun recadrage n’est appliqué si aucune donnée alpha n’est associée à l’image source.</p> 
+   <p>Définissez cette variable sur 0 pour effectuer un recadrage en fonction de la couleur du pixel d’angle spécifié ; fonctionne sur les données de couleur prémultipliées si des données alpha sont associées à l’image source.</p>
+   <p>Définissez cette variable sur 1 pour effectuer un recadrage en fonction des données alpha ; un coin est ignoré et 0 est toujours la valeur de départ ; aucun recadrage n’est appliqué si aucune donnée alpha n’est associée à l’image source.</p> 
    <p><i><b>tolérance</b></i> - Tolérance de correspondance. Valeur réelle comprise entre 0,0 et 1,0. Spécifie la tolérance pour les valeurs de composant de pixel correspondantes. Définissez cette variable sur 0 pour connaître les correspondances exactes.</p>
    <p><i><b>infoFile</b></i> - Chemin et nom du fichier de sortie XML dans lequel les données d’informations de recadrage sont écrites.</p>
 
@@ -222,7 +222,7 @@ Si vous ne convertissez pas d’images volumineuses, il n’est pas nécessaire 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -maxmem &lt; <span class="varname"> octets </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Limite d’utilisation de la mémoire. Doit être d’au moins 10 Mo. </p> </td> 
+   <td colname="col2"> <p>Limite d’utilisation de la mémoire. Doit contenir au moins 10 Mo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -maxmempercent &lt; <span class="varname"> percent </span>&gt; </span> </p> </td> 
@@ -259,7 +259,7 @@ Le tableau suivant répertorie les formats de fichiers image et les options de f
   </tr> 
   <tr> 
    <td> <b> EPS</b> <p> (Encapsulated Postscript) </p> </td> 
-   <td> <p> CMJN | RGB | gris </p> </td> 
+   <td> <p> CMJN | RGB | grise </p> </td> 
    <td> <p> 8 </p> </td> 
    <td> <p> ASCII | ASCII85 | Binaire | JPEG </p> </td> 
    <td> <p> Seuls les fichiers EPS générés par Photoshop sont pris en charge. </p> </td> 
@@ -280,35 +280,35 @@ Le tableau suivant répertorie les formats de fichiers image et les options de f
   </tr> 
   <tr> 
    <td> <b> JPG</b> <p> (JFIF/JPEG) </p> </td> 
-   <td> <p> CMJN | RGB | gris </p> </td> 
+   <td> <p> CMJN | RGB | grise </p> </td> 
    <td> <p> 8 </p> </td> 
    <td> <p> JPEG </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Photoshop </p> <b>PSD</b> </td> 
-   <td> <p> CMJN | CMJN | RGB | RGBA | gris | grayA </p> </td> 
+   <td> <p> CMJN | CMJN | RGB | RGBA | grise | grayA </p> </td> 
    <td> <p> 1 | 8 | 16 </p> </td> 
    <td> <p> décompressé | compressé </p> </td> 
-   <td> <p> Image fusionnée uniquement ; Les calques et les autres canaux sont ignorés. </p> </td> 
+   <td> <p> Image fusionnée uniquement ; les calques et les autres canaux sont ignorés. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Macintosh </p> <b>PICT</b> </td> 
    <td> <p> RVB </p> </td> 
    <td> <p> 8 </p> </td> 
    <td> <p> RLE </p> </td> 
-   <td> <p> Bitmap data uniquement ; les données vectorielles sont ignorées. </p> </td> 
+   <td> <p> Données bitmap uniquement ; les données vectorielles sont ignorées. </p> </td> 
   </tr> 
   <tr> 
    <td> <b> PNG</b> </td> 
-   <td> <p> RGB | RGBA | gris | grayA | indexé </p> </td> 
+   <td> <p> RGB | RGBA | grise | grayA | indexé </p> </td> 
    <td> <p> 1 | 2 | 4 | 8 | 16 </p> </td> 
    <td> <p> compressé </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <b> TIFF</b> </td> 
-   <td> <p> CMJN | CMJN | RGB | RGBA | gris | grayA | indexé </p> </td> 
+   <td> <p> CMJN | CMJN | RGB | RGBA | grise | grayA | indexé </p> </td> 
    <td> <p> 1 | 8 | 16 </p> </td> 
    <td> <p> décompressé | ZIP | LZW | JPEG | RLE CCITT | CCITT G3 | CCITT G4 | Packages </p> </td> 
    <td> <p> A l’exception du premier canal alpha associé, les canaux supplémentaires sont ignorés. </p> </td> 

@@ -5,10 +5,10 @@ title: PostScriptOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fd2093b5-9856-4f31-8853-1027194a71df
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 13%
+source-wordcount: '65'
+ht-degree: 12%
 
 ---
 
@@ -24,6 +24,6 @@ Syntaxe
 |---|---|---|
 | processus | `xsd:string` | Choix du processus PostScript. |
 | résolution | `xsd:double` | Résolution du fichier. |
-| Espace colorimétrique | `xsd:string` | Mode colorspace PostScript. |
-| alpha | `xsd:boolean` | Indique s’il faut pixelliser le fichier dans une image. Si tel est le cas, il crée un arrière-plan transparent si le fichier d’origine est défini de cette manière. Généralement utilisé pour créer des logos superposés. |
+| colorspace | `xsd:string` | Mode colorspace PostScript. |
+| alpha | `xsd:boolean` | Indique s’il faut pixelliser le fichier dans une image. Si tel est le cas, cela crée un arrière-plan transparent si le fichier d’origine est défini de cette manière. Généralement utilisé pour créer des logos superposés. |
 | extractSearchWords | `xsd:boolean` | Extraction ou non des mots de recherche à partir du fichier PostScript. |

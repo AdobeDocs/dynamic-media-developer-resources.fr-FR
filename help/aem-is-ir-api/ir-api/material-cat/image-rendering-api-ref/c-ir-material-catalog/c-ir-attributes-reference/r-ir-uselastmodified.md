@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 31dfbc55-0efd-417b-be4a-67c878772388
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '227'
 ht-degree: 1%
 
 ---
@@ -24,9 +24,9 @@ Doit être activé uniquement si un réseau de mise en cache distribué, tel qu�
 >
 >Il faut être prudent lors de l’utilisation d’en-têtes Last-Modified dans un environnement à répartition de charge impliquant plusieurs hôtes de diffusion/rendu d’images. La mise en cache du client peut être abandonnée et la charge du serveur augmenter si, pour une raison quelconque, les serveurs disposent de différents horodatages pour les mêmes entrées de catalogue. Une telle situation peut se produire comme suit :
 
-* `catalog::TimeStamp`, `vignette::TimeStamp`ou `attribute::TimeStamp` n’est pas défini, de sorte que l’heure de modification de la variable [!DNL catalog.ini] est utilisé comme fichier par défaut pour `catalog::TimeStamp`.
+* `catalog::TimeStamp`, `vignette::TimeStamp`, ou `attribute::TimeStamp` n’est pas défini, de sorte que l’heure de modification de la variable [!DNL catalog.ini] est utilisé comme fichier par défaut pour `catalog::TimeStamp`.
 
-* Au lieu de partager les fichiers de catalogue de matériaux via un montage réseau, chaque serveur possède sa propre instance des fichiers de catalogue sur un système de fichiers local.
+* Au lieu de partager les fichiers de catalogue matériels par le biais d&#39;un montage réseau, chaque serveur possède sa propre instance des fichiers de catalogue sur un système de fichiers local.
 * Deux instances ou plus de la même [!DNL catalog.ini] ont des dates de modification de fichier différentes, peut-être en raison d’une copie incorrecte des fichiers.
 
 ## Propriétés {#section-453952244193452caccfaf7f601007c1}

@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 17387203-f7a7-4876-a15b-2084894f981d
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '140'
+ht-degree: 4%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Sélectionnez l’objet par nom. Sélectionne le groupe de vignettes spécifié par son nom et lance un nouveau MSS.
 
-` obj= *`name`*`
+` obj= *`nom`*`
 
 <table id="simpletable_6E0DA6CBCDCF4CDDAFA5A4C38E0D5FC5"> 
  <tr class="strow"> 
@@ -31,7 +31,7 @@ Si aucun groupe/objet portant le nom spécifié n’est trouvé, l’action spé
 
 ## Propriétés {#section-9463b36e8ff74c81a70c7c2b58927430}
 
-la commande Sélection; Délimiteur MSS. La sélection d’objet est persistante jusqu’à ce qu’un autre objet soit sélectionné, avec la méthode `obj=` ou `sel=`.
+Commande de sélection ; délimiteur MSS. La sélection d’objet est persistante jusqu’à ce qu’un autre objet soit sélectionné, avec la méthode `obj=` ou `sel=`.
 
 Les noms et les chemins d’accès aux groupes/objets ne sont pas sensibles à la casse.
 

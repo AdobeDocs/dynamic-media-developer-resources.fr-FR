@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 0%
@@ -20,17 +20,17 @@ Par exemple, le SDK fournit un zoom et un panoramique interactifs. Il fournit é
 
 Bien que les composants reposent sur la fonctionnalité HTML5, ils sont conçus pour fonctionner sur les appareils Android™ et Apple iOS, ainsi que sur les ordinateurs de bureau, y compris Internet Explorer et versions ultérieures. Ce type d’expérience signifie que vous pouvez fournir un seul workflow pour toutes les plateformes prises en charge.
 
-Le SDK est constitué de composants d’interface utilisateur qui constituent le contenu de la visionneuse. Vous pouvez mettre en forme ces composants par le biais de CSS et de composants non-UI qui ont un rôle de prise en charge, comme la récupération et l’analyse des définitions ou le suivi. Tous les comportements de composant peuvent être personnalisés au moyen de modificateurs que vous pouvez spécifier de différentes manières, par exemple, comme `name=value` dans l’URL.
+Le SDK est constitué de composants d’interface utilisateur qui constituent le contenu de la visionneuse. Vous pouvez mettre en forme ces composants par le biais de CSS et de composants non-UI qui ont un rôle de prise en charge, comme la récupération et l’analyse des définitions ou le suivi. Tous les comportements de composant sont personnalisables au moyen de modificateurs que vous pouvez spécifier de différentes manières, par exemple, comme `name=value` dans l’URL.
 
 Ce tutoriel comprend l’ordre de tâches suivant pour vous aider à créer une visionneuse de zoom de base :
 
 * [Télécharger le dernier SDK de visionneuse à partir de Adobe Developer Connection](c-tutorial.md#section-84dc74c9d8e24a2380b6cf8fc28d7127)
 * [Chargement du SDK de la visionneuse](c-tutorial.md#section-98596c276faf4cf79ccf558a9f4432c6)
-* [Ajout d’un style à la visionneuse](c-tutorial.md#section-3783125360a1425eae5a5a334867cc32)
+* [Ajout de style à la visionneuse](c-tutorial.md#section-3783125360a1425eae5a5a334867cc32)
 * [Inclusion de Container et ZoomView](c-tutorial.md#section-1a01730663154a508b88cc40c6f35539)
 * [Ajout de composants MediaSet et Nuancier à la visionneuse](c-tutorial.md#section-02b8c21dd842400e83eae2a48ec265b7)
 * [Ajout de boutons à la visionneuse](c-tutorial.md#section-1fc334fa0d2b47eb9cdad461725c07be)
-* [Configuration verticale des nuanciers](c-tutorial.md#section-91a8829d5b5a4d45a35b7faeb097fcc9)
+* [Configuration verticale des échantillons](c-tutorial.md#section-91a8829d5b5a4d45a35b7faeb097fcc9)
 
 ## Télécharger le dernier SDK de visionneuse à partir de Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
 
@@ -115,11 +115,11 @@ Ce tutoriel comprend l’ordre de tâches suivant pour vous aider à créer une 
 
 1. Enregistrez le fichier comme modèle vide. Vous pouvez utiliser n’importe quel nom de fichier.
 
-   Vous utiliserez ce fichier de modèle vide comme référence lorsque vous créerez des visionneuses ultérieurement. Ce modèle fonctionne localement et lorsqu’il est diffusé à partir d’un serveur web.
+   Vous pouvez utiliser ce fichier de modèle vide comme référence lorsque vous créez des visionneuses à l’avenir. Ce modèle fonctionne localement et lorsqu’il est diffusé à partir d’un serveur web.
 
 Ajoutez maintenant un style à votre visionneuse.
 
-## Ajout d’un style à la visionneuse {#section-3783125360a1425eae5a5a334867cc32}
+## Ajout de style à la visionneuse {#section-3783125360a1425eae5a5a334867cc32}
 
 1. Pour cette visionneuse de page complète que vous créez, vous pouvez ajouter des styles de base.
 
@@ -178,8 +178,8 @@ Maintenant, incluez les composants `Container` et `ZoomView`.
    
    /* Create a viewer container as a parent component for other user interface components that  
       are part of the viewer application and associate event handlers for resize and  
-      full screen notification. The advantage of using Container as the parent is the  
-      component's ability to resize and bring itself and its children to full screen. */ 
+      full-screen notification. The advantage of using Container as the parent is the  
+      component's ability to resize and bring itself and its children to full-screen. */ 
    container = new s7sdk.common.Container(null, params, "s7container"); 
    container.addEventListener(s7sdk.event.ResizeEvent.COMPONENT_RESIZE, containerResize, false); 
    
@@ -228,7 +228,7 @@ Ajoutez maintenant les composants. `MediaSet` et `Swatches` à votre visionneuse
    var mediaSet, container, zoomView, swatches;
    ```
 
-1. Instanciation `MediaSet` et `Swatches` composants à l’intérieur de `initViewer` fonction .
+1. Instanciation `MediaSet` et `Swatches` composants dans la `initViewer` de la fonction
 
    Veillez à instancier la variable `Swatches` après l’instance `ZoomView` et `Container` , sinon l’ordre d’empilement masque la variable `Swatches`:
 
@@ -308,7 +308,7 @@ Ajoutez maintenant des boutons de zoom avant, de zoom arrière et de réinitiali
    var mediaSet, container, zoomView, swatches, zoomInButton, zoomOutButton, zoomResetButton;
    ```
 
-1. Instanciation des boutons en bas de page `initViewer` fonction .
+1. Instanciation des boutons en bas de page `initViewer` de la fonction
 
    N’oubliez pas que l’ordre est important, sauf si vous spécifiez la variable `z-index` dans CSS :
 
@@ -324,7 +324,7 @@ Ajoutez maintenant des boutons de zoom avant, de zoom arrière et de réinitiali
    zoomResetButton.addEventListener("click", function() { zoomView.zoomReset(); });
    ```
 
-1. Définissez maintenant certains styles de base pour les boutons en ajoutant ce qui suit au `style` bloc en haut du fichier :
+1. Définissez maintenant certains styles de base pour les boutons en ajoutant ce qui suit au `style` bloquez en haut de votre fichier :
 
    ```CSS {.line-numbers}
    /* define styles common to all button components and their sub-classes */ 
@@ -356,7 +356,7 @@ Ajoutez maintenant des boutons de zoom avant, de zoom arrière et de réinitiali
 
    Maintenant, configurez les Nuanciers de sorte qu’ils soient alignés verticalement à droite.
 
-## Configuration verticale des nuanciers {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
+## Configuration verticale des échantillons {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
 
 1. Vous pouvez configurer les modificateurs directement sur la page `ParameterManager` instance.
 

@@ -5,9 +5,9 @@ title: Gestion des couleurs de rendu d’image *
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fa772ab2-8a32-4c1a-9ee3-c1cf4a0b3095
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Fichiers de style de Cabinet (.vnc) et fichiers de style de recouvrement de fen�
 
 **Voir aussi**
 
-[Consortium de couleurs international](https://www.color.org/index.xalter) , [ `icc=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-icc.md#reference-86a2fff3cef24982ad2063d977a16e06) , [ `iccEmbed=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f) , `attribute::IccProfile*` , `attribute::IccProfileSrc*`, `attribute::IccRenderIntent` , `attribute::IccBlackPointCompensation` , `attribute::IccDither` , Cartes de profil ICC
+[Consortium de couleurs international](https://www.color.org/index.xalter) , [`icc=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-icc.md#reference-86a2fff3cef24982ad2063d977a16e06) , [`iccEmbed=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f) , `attribute::IccProfile*` , `attribute::IccProfileSrc*`, `attribute::IccRenderIntent` , `attribute::IccBlackPointCompensation` , `attribute::IccDither` , Cartes de profil ICC
 
 ## Espaces colorimétriques par défaut {#section-8ce27edf42e746febe4654f8f19b9c0c}
 
@@ -34,15 +34,15 @@ L’espace colorimétrique par défaut d’une image ou d’un autre objet est s
 
 ## Espace colorimétrique d’entrée {#section-660f661a7e954df4b451e34134195276}
 
-Les images de matière peuvent incorporer des profils ICC pour définir l’espace colorimétrique d’entrée. Si aucun profil n’est incorporé dans une image source, `attribute::IccProfileSrc*` du catalogue d’images correspondant au type de pixel de l’image source est utilisé. Si cet attribut n&#39;est pas défini dans le catalogue d&#39;images, `attribute::IccProfile*` est utilisée. Si cet attribut de catalogue n’est pas défini non plus, l’image n’est pas gérée par les couleurs et seules les transformations naïves sont appliquées.
+Les images de matière peuvent incorporer des profils ICC pour définir l’espace colorimétrique d’entrée. Si aucun profil n’est incorporé dans une image source, `attribute::IccProfileSrc*` du catalogue d’images applicable correspondant au type de pixel de l’image source est utilisé. Si cet attribut n&#39;est pas défini dans le catalogue d&#39;images, `attribute::IccProfile*` est utilisée. Si cet attribut de catalogue n’est pas défini non plus, l’image n’est pas gérée par les couleurs et seules les transformations naïves sont appliquées.
 
-## Espace colorimétrique de travail {#section-645d9cfa5b0347a190a0ece218f5b5e1}
+## Espace de couleurs de travail {#section-645d9cfa5b0347a190a0ece218f5b5e1}
 
 En règle générale, l’espace colorimétrique de travail est défini par le profil de couleur ICC incorporé dans la vignette. Si la vignette ne contient pas de profil, le profil d’entrée de RGB par défaut ( `attribute::IccProfileSrcRgb` du catalogue de sessions) est utilisé pour l’espace colorimétrique de travail.
 
 Toutes les opérations de rendu sont exécutées dans l’espace colorimétrique de travail.
 
-**Important :** Le profil ICC de l’espace colorimétrique de travail doit prendre en charge les transformations d’entrée et de sortie. Si un profil en sortie seule est utilisé comme espace colorimétrique de travail IR ne sera pas en mesure de convertir les matériaux en son sein. Un tel profil colorimétrique peut encore être utilisé s’il existe des matériaux dans le même espace colorimétrique de travail. Toute tentative d’application de matériaux dans d’autres espaces colorimétriques échouera.
+**Important :** Le profil ICC de l’espace colorimétrique de travail doit prendre en charge les transformations d’entrée et de sortie. Si un profil en sortie seule est utilisé comme espace colorimétrique de travail, IR ne peut pas convertir les matériaux en celui-ci. Un tel profil colorimétrique peut encore être utilisé s’il existe des matériaux dans le même espace colorimétrique de travail. Les tentatives d’application de matériaux dans d’autres espaces colorimétriques échouent.
 
 ## Valeurs de couleur explicites {#section-31727bf1b23e477ca92572fbbf422d2f}
 
@@ -50,7 +50,7 @@ Valeurs de couleur RGB spécifiées avec `color=`, `bgc=`, `catalog::BgColor`, e
 
 ## Fichiers de données de matériaux {#section-33f7a170a6664c02b8479fb89cc0aea3}
 
-Les fichiers d’image de matière (images de texture et de décal) peuvent avoir un type de pixel RGB, niveaux de gris ou CMJN et peuvent incorporer un profil colorimétrique. Si aucun profil colorimétrique n’est incorporé, l’espace colorimétrique d’entrée par défaut est associé à l’image (par exemple, le profil colorimétrique du catalogue de matériaux qui correspond au type de pixel de l’image).
+Les fichiers d’image de matière (images de texture et de décal) peuvent avoir un type de pixel RGB, niveaux de gris ou CMJN et peuvent incorporer un profil de couleur. Si aucun profil colorimétrique n’est incorporé, l’espace colorimétrique d’entrée par défaut est associé à l’image (par exemple, le profil colorimétrique du catalogue de matériaux qui correspond au type de pixel de l’image).
 
 Les images matérielles obtenues à partir des demandes de diffusion d’images ou de rendu d’images imbriquées incluent généralement un profil colorimétrique. Si ce n’est pas le cas, les images sont associées à l’espace colorimétrique d’entrée par défaut correspondant au type de pixel.
 
@@ -72,6 +72,6 @@ If `icc=` n’est pas spécifié, le profil ICC de l’espace colorimétrique de
 
 Tous les profils de couleurs utilisés par le serveur doivent être conformes à la spécification ICC. Les fichiers de profil ICC comportent généralement une [!DNL .icc] ou [!DNL .icm] suffixe du fichier et sont colocalisés avec des fichiers de données matériels.
 
-Bien que les profils de sortie puissent être spécifiés par chemin/nom de fichier dans la variable `icc=` , il est recommandé d’enregistrer tous les fichiers de profil dans la carte de profil ICC du catalogue par défaut ou d’un catalogue de matières spécifique et d’utiliser des identifiants de raccourci ( `icc::Name`) plutôt que les chemins d’accès aux fichiers.
+Les profils de sortie peuvent être spécifiés par chemin/nom de fichier dans la variable `icc=` , il est recommandé d’enregistrer tous les fichiers de profil dans la carte de profil ICC du catalogue par défaut ou d’un catalogue de matières spécifique et d’utiliser des identifiants de raccourci ( `icc::Name`) plutôt que les chemins d’accès aux fichiers.
 
 Les profils de travail doivent être enregistrés dans la carte de profil ICC du catalogue de matières ou du catalogue par défaut.

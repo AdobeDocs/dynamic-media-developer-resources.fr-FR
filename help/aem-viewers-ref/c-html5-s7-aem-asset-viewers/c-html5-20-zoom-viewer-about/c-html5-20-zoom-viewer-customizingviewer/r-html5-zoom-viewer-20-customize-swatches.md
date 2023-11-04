@@ -1,18 +1,18 @@
 ---
-title: Echantillons
+title: Nuancier
 description: Les nuanciers se composent d’une ligne d’images miniatures avec des boutons de défilement facultatifs sur les côtés gauche et droit. Les boutons de défilement ne sont visibles sur le bureau que si toutes les miniatures ne peuvent pas tenir dans la largeur du conteneur. Sur les appareils mobiles, ou si les miniatures peuvent tenir dans la largeur du conteneur, les boutons de défilement ne s’affichent pas.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 7eaa4a6e-98e8-477b-9f45-66f8a79dfd85
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 3%
 
 ---
 
-# Echantillons{#swatches}
+# Nuancier{#swatches}
 
 Les nuanciers se composent d’une ligne d’images miniatures avec des boutons de défilement facultatifs sur les côtés gauche et droit. Les boutons de défilement ne sont visibles sur le bureau que si toutes les miniatures ne peuvent pas tenir dans la largeur du conteneur. Sur les appareils mobiles, ou si les miniatures peuvent tenir dans la largeur du conteneur, les boutons de défilement ne s’affichent pas.
 
@@ -74,7 +74,7 @@ L’espacement entre les miniatures d’échantillon est contrôlé à l’aide 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> Taille de la marge horizontale et verticale autour de chaque miniature. L’espacement réel des miniatures est égal à la somme des marges gauche et droite définies pour <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> Taille de la marge horizontale et verticale autour de chaque miniature. L’espacement des miniatures réel est égal à la somme des marges gauche et droite définies pour <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -120,7 +120,7 @@ L’aspect de la miniature individuelle est contrôlé à l’aide du sélecteur
 >
 >La miniature prend en charge le `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la miniature de l’image actuellement affichée dans la vue principale, `state="default"` correspond au reste des miniatures, et `state="over"` est utilisée lorsque vous pointez avec la souris.
 
-Exemple : pour configurer des miniatures de 56 x 56 pixels, vous devez définir une bordure par défaut en gris clair et une bordure sélectionnée en gris foncé.
+Exemple : pour configurer des miniatures de 56 x 56 pixels, utilisez une bordure grise claire par défaut et une bordure sélectionnée gris foncé.
 
 ```
 .s7zoomviewer .s7swatches .s7thumb { 
@@ -141,7 +141,7 @@ L’aspect des boutons de défilement gauche et droite est contrôlé à l’aid
 
 `.s7zoomviewer .s7swatches .s7scrollrightbutton`
 
-Il n’est pas possible de positionner les boutons de défilement à l’aide des propriétés CSS supérieure, gauche, inférieure et droite. À la place, la logique de la visionneuse les positionne automatiquement.
+Il n’est pas possible de positionner les boutons de défilement à l’aide des propriétés CSS supérieure, gauche, inférieure et droite. La logique de la visionneuse les positionne automatiquement.
 
 <table id="table_A5663C4AAC4446168CAD8DBA2894BB9C"> 
  <thead> 

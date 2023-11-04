@@ -1,32 +1,32 @@
 ---
-description: Transfère la liste fournie des URL au fournisseur Dynamic Media CDN (Content Distribution Network) pour invalider le cache existant de réponses HTTP.
+description: Transfère la liste fournie d’URL au fournisseur Dynamic Media CDN (Content Distribution Network) pour invalider le cache existant de réponses HTTP.
 solution: Experience Manager
 title: cdnCacheInvalidation
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 65b758f2-b49a-4616-b657-a64808c9202a
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 4%
+source-wordcount: '472'
+ht-degree: 5%
 
 ---
 
 # cdnCacheInvalidation{#cdncacheinvalidation}
 
-Transfère la liste fournie des URL au fournisseur Dynamic Media CDN (Content Distribution Network) pour invalider le cache existant de réponses HTTP.
+Transfère la liste fournie d’URL au fournisseur Dynamic Media CDN (Content Distribution Network) pour invalider le cache existant de réponses HTTP.
 
-## cdnCacheInvalidation : A propos {#section-4f70d2bc79d64288b961836ab17e9690}
+## cdnCacheInvalidation : à propos {#section-4f70d2bc79d64288b961836ab17e9690}
 
-L’invalidation du cache CDN force toutes les requêtes HTTP pour que ces URL soient revalidées par rapport aux données publiées actuelles sur le réseau Dynamic Media après le traitement de cette demande d’invalidation par le biais du réseau CDN. Toute URL qui n’est pas connectée à la structure d’URL du service Dynamic Media et qui correspond directement à l’ID racine de l’entreprise Dynamic Media affecté lors de la création de l’entreprise entraînera une erreur d’API pour l’ensemble de la requête. Toute URL non valide que le réseau de diffusion de contenu ne prend pas en charge et qu’il considère non valide entraînera également une erreur d’API pour l’ensemble de la requête.
+L’invalidation du cache CDN force toutes les requêtes HTTP pour que ces URL soient revalidées par rapport aux données publiées actuelles sur le réseau Dynamic Media après le traitement de cette demande d’invalidation par le biais du réseau CDN. Toute URL qui n’est pas connectée à la structure d’URL du service Dynamic Media et qui correspond directement à l’ID racine de l’entreprise Dynamic Media affecté lors de la création de l’entreprise entraîne une erreur d’API pour l’ensemble de la requête. Toute URL non valide que le réseau de diffusion de contenu ne prend pas en charge et qu’il considère comme non valide entraîne également une erreur d’API pour l’ensemble de la requête.
 
-**Fréquence d’utilisation : Règles**
+**Fréquence d’utilisation : règles**
 
-Les règles régissant la fréquence d’utilisation de cette fonctionnalité sont contrôlées par les partenaires CDN de Dynamic Media. Le réseau de diffusion de contenu conserve la discrétion de dégrader la réactivité de ces invalidations afin de maintenir des performances optimales de son service à ses utilisateurs. Si Dynamic Media est averti de l’utilisation abusive de cette fonctionnalité, il devra recourir à la désactivation de cette dernière, soit pour chaque entreprise, soit pour l’ensemble du service.
+Les règles régissant la fréquence d’utilisation de cette fonctionnalité sont contrôlées par les partenaires CDN de Dynamic Media. Le réseau de diffusion de contenu conserve la discrétion de dégrader la réactivité de ces invalidations afin de maintenir des performances optimales de son service à ses utilisateurs. Si Dynamic Media est averti de l’utilisation abusive de cette fonctionnalité, l’Adobe doit recourir à la désactivation de cette fonction pour chaque entreprise ou entièrement pour l’ensemble du service.
 
 **Courriers électroniques de confirmation**
 
-Les emails de confirmation du partenaire Dynamic Media CDN peuvent être envoyés à l’auteur de la liste ou à 5 autres adresses électroniques au maximum. L’API envoie la confirmation lorsque l’ensemble du réseau CDN a été informé que les URL référencées dans l’email ont été effacées. Un seul appel à `cdnCacheInvalidation` peut envoyer plusieurs emails si le nombre d’URL fournies dépasse le nombre que Dynamic Media peut fournir au partenaire CDN sur une seule notification. Actuellement, cela se produit si la requête dépasse 100 URL, mais qu’elle peut être modifiée sur la base de la requête du partenaire CDN.
+Les emails de confirmation du partenaire Dynamic Media CDN peuvent être envoyés à l’auteur de la liste ou à 5 autres adresses électroniques au maximum. L’API envoie la confirmation lorsque l’ensemble du réseau CDN a été informé que les URL référencées dans l’email ont été effacées. Un seul appel à `cdnCacheInvalidation` peut envoyer plusieurs emails si le nombre d’URL fournies dépasse le nombre que Dynamic Media peut envoyer au partenaire CDN sur une seule notification. Actuellement, cela se produit si la requête dépasse 100 URL, mais qu’elle peut être modifiée sur la base de la requête du partenaire CDN.
 
 **Pris en charge depuis**
 
@@ -39,7 +39,7 @@ Les emails de confirmation du partenaire Dynamic Media CDN peuvent être envoyé
 
 ## Paramètres {#section-bd1ed2b7419945d19a2ebd5668499f72}
 
-**Input** (  `cdnCacheInvalidationParam`)
+**Entrée** ( `cdnCacheInvalidationParam`)
 
 <table id="table_EDD1875264C846BE951869D528A90D73"> 
  <thead> 
@@ -66,7 +66,7 @@ Les emails de confirmation du partenaire Dynamic Media CDN peuvent être envoyé
  </tbody> 
 </table>
 
-**Sortie**(  `cdnCacheInvalidationReturn`)
+**Sortie**( `cdnCacheInvalidationReturn`)
 
 <table id="table_1D947C1BF8864820AD7BA0CDC0F076F9"> 
  <thead> 
@@ -82,7 +82,7 @@ Les emails de confirmation du partenaire Dynamic Media CDN peuvent être envoyé
    <td colname="col1"> <p><span class="codeph"><span class="varname"> invalidationHandle</span></span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Gestionnaire référençant la requête de purge. </p> <p>L’API <span class="codeph"> cdnCacheInvalidation</span> invalide désormais le cache presque immédiatement (~5 secondes). Par conséquent, l’interrogation de l’état d’invalidation n’est généralement plus nécessaire. </p> 
+   <td colname="col4"> <p>Gestionnaire référençant la requête de purge. </p> <p>La variable <span class="codeph"> cdnCacheInvalidation</span> L’API invalide désormais le cache presque immédiatement (~5 secondes). Par conséquent, l’interrogation de l’état d’invalidation n’est généralement plus nécessaire. </p> 
     <!--<p>The next three paragraphs were added as per CQDOC-13840 With the migration from Akamai v2 API's to fast purge, purging time is now approximately 5 seconds. You are no longer required to poll on the purge URL to find out the status of the purge request.</p>--> 
     <!--<p>The cache invalidation handle used to contained the company ID, the user account type used (small or large), and the purge url. With the release of 2019R1, <codeph>invalidationHandle</codeph> now contains just the company ID and the purge ID. </p>--> 
     <!--<p>Prior to 2019R1, two different Akamai users were being used for each geography (for example, <codeph>cdninvalidatesmallemea</codeph> and <codeph>cdninvalidatelargeemea</codeph>) to invalidate requests, depending on the number of URLs in each request. This functionality was done so that a small request was not blocked because of a large request. Now, with fast purge in 2019R1, the purge is nearly instantaneous, two users are no longer needed, and only one account is used. </p>--> </td> 

@@ -5,9 +5,9 @@ title: replaceImage
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: bf8c1f5c-7829-4750-b5b7-b8b20d115d17
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 16%
 
 ---
@@ -34,18 +34,18 @@ Syntaxe
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | companyName | `xsd:string` | Oui | Gestionnaire de l’entreprise avec l’image que vous souhaitez remplacer. |
-| assetHandle | `xsd:string` | Oui | Gestionnaire de la ressource que vous souhaitez remplacer. |
+| assetHandle | `xsd:string` | Oui | Gestionnaire de la ressource à remplacer. |
 | urlModifier | `xsd:string` | Oui | Commandes du serveur d’images qui génèrent de nouvelles données d’image. |
 
 **Sortie (replaceImageReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| assetHandle | `xsd:string` | Oui | Gérer la nouvelle ressource. |
+| assetHandle | `xsd:string` | Oui | Traitement de la nouvelle ressource. |
 
 ## Exemples {#section-cebb93576bde4cb98cb27356ca66783b}
 
-Cet exemple de code remplace une image et applique une `urlModifier` avec une commande qui spécifie que le serveur d’images ne prendra aucune action lors du remplacement.
+Cet exemple de code remplace une image et applique une `urlModifier` avec une commande qui spécifie que le serveur d’images n’effectue aucune action lors du remplacement.
 
 **Request**
 

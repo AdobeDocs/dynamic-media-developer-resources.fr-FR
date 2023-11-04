@@ -1,20 +1,20 @@
 ---
 title: Diffusion de contenu statique (hors image)
-description: Vous pouvez utiliser le service d’images pour gérer le contenu non image dans les catalogues et l’afficher via un contexte /is/content distinct.
+description: Vous pouvez utiliser le service d’images pour gérer le contenu non-image dans les catalogues et l’afficher par le biais d’un contexte /is/content distinct.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
-source-git-commit: d1df6e943747f9db12c08003647aee840fdfcc0a
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '467'
 ht-degree: 1%
 
 ---
 
 # Diffusion de contenu statique (hors image){#serving-static-non-image-contents}
 
-Vous pouvez utiliser le service d’images pour gérer le contenu non image dans les catalogues et l’afficher via un contexte /is/content distinct.
+Vous pouvez utiliser le service d’images pour gérer le contenu non-image dans les catalogues et l’afficher par le biais d’un contexte /is/content distinct.
 
 Cette fonctionnalité permet de configurer le délai d’activation séparément pour chaque élément.
 
@@ -52,7 +52,7 @@ La diffusion d’images prend en charge les commandes suivantes à l’adresse [
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> item </span> </span> </p> </td> 
-  <td class="stentry"> <p>Identifiant de l’élément de contenu statique. </p> </td> 
+  <td class="stentry"> <p>ID d’élément de contenu statique. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> modificateurs </span> </span> </p> </td> 
@@ -64,7 +64,7 @@ La diffusion d’images prend en charge les commandes suivantes à l’adresse [
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> cmdName </span> </span> </p> </td> 
-  <td class="stentry"> <p>L’un des noms de commande pris en charge. </p> </td> 
+  <td class="stentry"> <p>Un des noms de commande pris en charge. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> value </span> </span> </p> </td> 
@@ -102,11 +102,11 @@ Les catalogues de contenu statique sont similaires aux catalogues d’images, ma
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> catalogue ::UserData </span> </p> </td> 
-   <td colname="col2"> <p>Métadonnées facultatives associées à cet élément de contenu statique ; disponible pour le client avec <span class="codeph"> req=userdata </span>. </p> </td> 
+   <td colname="col2"> <p>Métadonnées facultatives associées à cet élément de contenu statique ; disponibles pour le client avec <span class="codeph"> req=userdata </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> catalog::UserType </span> </p> </td> 
-   <td colname="col2"> <p>Type de données facultatif ; peut être utilisé pour filtrer les requêtes de contenu statique avec la variable <span class="codeph"> type= commande </span>. </p> </td> 
+   <td colname="col2"> <p>Type de données facultatif ; peut être utilisé pour filtrer les requêtes de contenu statique avec le <span class="codeph"> type= commande </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -119,7 +119,7 @@ Ce mécanisme peut permettre de s’assurer que les clients ne reçoivent que le
 
 Vous pouvez encapsuler des fichiers de sous-titres vidéo (WebVTT), CSS ou tout fichier texte au format JSONP. La réponse JSON est décrite ci-dessous.
 
-* Pour les fichiers WebVTT, le type MIME de la réponse est text/javascript. JSON n’est pas renvoyé ; JavaScript est alors renvoyé, qui appelle une méthode avec JSON. L’identifiant et le gestionnaire sont facultatifs.
+* Pour les fichiers WebVTT, le type MIME de la réponse est text/javascript. JSON n’est pas renvoyé. Au lieu de cela, JavaScript est renvoyé qui appelle une méthode avec JSON. L’identifiant et le gestionnaire sont facultatifs.
 * Pour les fichiers CSS, le type MIME de la réponse est text/javascript. L’identifiant et le gestionnaire sont facultatifs.
 * Par défaut, le codage UTF-8 est appliqué pour s’assurer qu’il est décodé correctement. La taille par défaut est limitée à 2 Mo.
 

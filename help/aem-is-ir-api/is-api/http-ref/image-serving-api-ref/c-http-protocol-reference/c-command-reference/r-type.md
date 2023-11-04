@@ -1,20 +1,20 @@
 ---
 title: type
-description: Filtre de type contenu statique. Spécifie une chaîne de filtre pour le contenu statique diffusé via /is/content.
+description: Filtre de type contenu statique. Spécifie une chaîne de filtre pour le contenu statique diffusé sous /is/content.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9015d5f4-e42c-43e0-af85-fc9c278448e7
-source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '111'
 ht-degree: 4%
 
 ---
 
 # type{#type}
 
-Filtre de type contenu statique. Spécifie une chaîne de filtre pour le contenu statique diffusé via /is/content.
+Filtre de type contenu statique. Spécifie une chaîne de filtre pour le contenu statique diffusé sous /is/content.
 
 `type= *`val`*`
 
@@ -29,7 +29,7 @@ Le serveur compare `val` avec la valeur de `catalog::Type` de l’élément de c
 
 ## Propriétés {#section-529b088434a44a9f86a64ef548d2925b}
 
-Prise en charge uniquement pour les demandes de contenu statique (autres que des images) diffusées via . Ignoré si `catalog::Type` est vide ou non défini.
+Prise en charge uniquement pour les demandes de contenu statique (autres que des images) diffusées par le biais de . Ignoré si `catalog::Type` est vide ou non défini.
 
 ## Par défaut {#section-e9e8f51d0a01452183ccb510efd87d46}
 

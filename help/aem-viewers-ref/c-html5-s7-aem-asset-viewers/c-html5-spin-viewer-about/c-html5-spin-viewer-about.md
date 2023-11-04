@@ -1,21 +1,21 @@
 ---
 title: Spin
-description: Visionneuse à 360° est une visionneuse d’images qui fournit une vue à 360 degrés de l’image, voire multidimensionnelle, si une visionneuse à 360° appropriée est utilisée. Il comporte des outils de zoom et de rotation, une prise en charge du plein écran et un bouton de fermeture facultatif. Il est conçu pour fonctionner sur les ordinateurs de bureau et les appareils mobiles.
+description: Visionneuse à 360° est une visionneuse d’images qui fournit une vue à 360 degrés de l’image, voire multidimensionnelle, si une visionneuse à 360° appropriée est utilisée. Il comporte des outils de zoom et de rotation, la prise en charge du mode plein écran et un bouton de fermeture facultatif. Il est conçu pour fonctionner sur les ordinateurs de bureau et les appareils mobiles.
 keywords: responsive
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 4c802d42-ea5b-4f28-b6ef-2689aa16839d
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '2130'
 ht-degree: 0%
 
 ---
 
-# Rotation{#spin}
+# Spin{#spin}
 
-Visionneuse à 360° est une visionneuse d’images qui fournit une vue à 360 degrés de l’image, voire multidimensionnelle, si une visionneuse à 360° appropriée est utilisée. Il comporte des outils de zoom et de rotation, une prise en charge du plein écran et un bouton de fermeture facultatif. Il est conçu pour fonctionner sur les ordinateurs de bureau et les appareils mobiles.
+Visionneuse à 360° est une visionneuse d’images qui fournit une vue à 360 degrés de l’image, voire multidimensionnelle, si une visionneuse à 360° appropriée est utilisée. Il comporte des outils de zoom et de rotation, la prise en charge du mode plein écran et un bouton de fermeture facultatif. Il est conçu pour fonctionner sur les ordinateurs de bureau et les appareils mobiles.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ Visionneuse à 360° représente un fichier JavaScript principal et un ensemble 
 
 La visionneuse à 360° peut être utilisée en mode pop-up à l’aide de la page de HTML prête pour la production fournie avec les visionneuses IS ou en mode incorporé, où elle est intégrée à la page web cible à l’aide d’une API documentée.
 
-La configuration et l’habillage sont similaires à ceux des autres visionneuses. L’ensemble de l’habillage peut être réalisé via une page CSS personnalisée.
+La configuration et l’habillage sont similaires à ceux des autres visionneuses. L’habillage peut être effectué au moyen d’une feuille CSS personnalisée.
 
 Voir [Référence de commande commune à toutes les visionneuses - Attributs de configuration](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) et [Référence de commande commune à toutes les visionneuses - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
@@ -80,7 +80,7 @@ Voir [Accessibilité du clavier et navigation](../../c-keyboard-accessibility.md
 
 ## Incorporation de la visionneuse à 360° {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Le comportement de la visionneuse varie en fonction des pages web. Il arrive qu’une page web fournisse un lien qui, lorsqu’il est sélectionné, ouvre la visionneuse dans une fenêtre de navigateur distincte. Dans d’autres cas, il est nécessaire d’incorporer le droit de visionneuse dans la page d’hébergement. Dans ce cas, la page web peut avoir une mise en page statique ou utiliser une conception réactive qui s’affiche différemment sur différents appareils ou pour différentes tailles de fenêtre de navigateur. Pour répondre à ces besoins, la visionneuse prend en charge trois modes de fonctionnement Principaux : pop-up, incorporation de taille fixe et incorporation de conceptions réactives.
+Le comportement de la visionneuse varie en fonction des pages web. Il arrive qu’une page web fournisse un lien qui, lorsqu’il est sélectionné, ouvre la visionneuse dans une fenêtre de navigateur distincte. Dans d’autres cas, il est nécessaire d’incorporer le droit de visionneuse dans la page d’hébergement. Dans ce cas, la page web peut avoir une mise en page statique ou utiliser une conception réactive qui s’affiche différemment sur différents appareils ou pour différentes tailles de fenêtre de navigateur. Pour répondre à ces besoins, la visionneuse prend en charge trois modes de fonctionnement principaux : pop-up, incorporation des tailles fixes et incorporation des conceptions réactives.
 
 **A propos du mode pop-up**
 
@@ -88,7 +88,7 @@ En mode contextuel, la visionneuse s’ouvre dans une fenêtre ou un onglet de n
 
 Le mode pop-up est le plus courant pour les appareils mobiles. La page web charge la visionneuse à l’aide de `window.open()` Appel JavaScript, correctement configuré `A` élément de HTML ou toute autre méthode appropriée.
 
-Il est recommandé d’utiliser une page de HTML d’usine pour le mode de fonctionnement de la fenêtre contextuelle. Dans ce cas, il est appelé [!DNL SpinViewer.html] et se trouve dans la variable [!DNL html5/] sous-dossier de votre déploiement IS-Viewers standard :
+Il est recommandé d’utiliser une page de HTML d’usine pour le mode de fonctionnement pop-up. Dans ce cas, il est appelé [!DNL SpinViewer.html] et se trouve dans la variable [!DNL html5/] sous-dossier de votre déploiement IS-Viewers standard :
 
 [!DNL <s7viewers_root>/html5/SpinViewer.html]
 
@@ -105,7 +105,7 @@ target="_blank">Open popup viewer</a>
 
 En mode incorporé, la visionneuse est ajoutée à la page web existante, qui peut déjà comporter du contenu client non lié à la visionneuse. Normalement, la visionneuse occupe uniquement une partie de l’espace d’une page web.
 
-Les cas d’utilisation Principaux sont les pages web orientées vers les ordinateurs de bureau ou les tablettes, ainsi que les pages de conception réactive qui ajustent automatiquement la mise en page en fonction du type d’appareil.
+Les principaux cas d’utilisation sont les pages web orientées vers les ordinateurs de bureau ou les tablettes, ainsi que les pages de conception réactive qui ajustent automatiquement la mise en page en fonction du type d’appareil.
 
 L’incorporation des tailles fixes est utilisée lorsque la visionneuse ne modifie pas sa taille après le chargement initial. Cette action est la meilleure solution pour les pages web avec une disposition statique.
 
@@ -140,7 +140,7 @@ Pour ajouter la visionneuse à 360° à une page web, procédez comme suit :
 
    >[!NOTE]
    >
-   >Ne référencez que le code JavaScript de la visionneuse principale `include` sur votre page. Ne référencez pas de fichiers JavaScript supplémentaires dans le code de page web qui pourraient être téléchargés par la logique de la visionneuse au moment de l’exécution. En particulier, ne référencez pas directement le SDK HTML5. `Utils.js` bibliothèque chargée par la visionneuse depuis `/s7viewers` chemin d’accès au contexte (appelé SDK consolidé) `include`). La raison en est que l’emplacement de la variable `Utils.js` ou des bibliothèques de visionneuses d’exécution similaires sont entièrement gérées par la logique de la visionneuse et l’emplacement change entre les versions de la visionneuse. Adobe ne conserve pas les anciennes versions de la visionneuse secondaire `includes` sur le serveur.
+   >Ne référencez que le code JavaScript de la visionneuse principale `include` sur votre page. Ne référencez pas de fichiers JavaScript supplémentaires dans le code de page web qui pourraient être téléchargés par la logique de la visionneuse au moment de l’exécution. En particulier, ne référencez pas directement le SDK HTML5 `Utils.js` bibliothèque chargée par la visionneuse depuis `/s7viewers` chemin d’accès au contexte (appelé SDK consolidé) `include`). La raison en est que l’emplacement de `Utils.js` ou des bibliothèques de visionneuses d’exécution similaires sont entièrement gérées par la logique de la visionneuse et l’emplacement change entre les versions de la visionneuse. Adobe ne conserve pas les anciennes versions de la visionneuse secondaire `includes` sur le serveur.
    >
    >
    >Par conséquent, l’insertion d’une référence directe à tout JavaScript secondaire `include` utilisé par la visionneuse sur la page rompt la fonctionnalité de visionneuse à l’avenir lorsqu’une nouvelle version de produit est déployée.
@@ -189,9 +189,9 @@ Pour ajouter la visionneuse à 360° à une page web, procédez comme suit :
 
    Il est important que le conteneur de la visionneuse soit ajouté au modèle DOM afin que le code de la visionneuse puisse trouver l’élément de conteneur en fonction de son identifiant. Certains navigateurs retardent la création du DOM jusqu’à la fin de la page web. Pour une compatibilité maximale, appelez la méthode `init()` juste avant la fermeture `BODY` ou sur le corps `onload()` .
 
-   Dans le même temps, l’élément de conteneur ne doit pas nécessairement faire partie de la mise en page de la page web pour l’instant. Par exemple, il peut être masqué à l’aide de la fonction `display:none` style qui lui est affecté. Dans ce cas, la visionneuse retarde son processus d’initialisation jusqu’au moment où la page web ramène l’élément de conteneur à la mise en page. Lorsque cette action se produit, le chargement de la visionneuse reprend automatiquement.
+   Dans le même temps, l’élément de conteneur ne doit pas nécessairement faire partie de la mise en page de la page web pour le moment. Par exemple, il peut être masqué à l’aide de la fonction `display:none` style qui lui est affecté. Dans ce cas, la visionneuse retarde son processus d’initialisation jusqu’au moment où la page web ramène l’élément de conteneur à la mise en page. Lorsque cette action se produit, le chargement de la visionneuse reprend automatiquement.
 
-   Voici un exemple de création d’une instance de visionneuse, de transmission des options de configuration minimales nécessaires au constructeur et d’appel de la fonction `init()` . L’exemple suppose que `spinViewer` est l’instance de visionneuse, `s7viewer` est le nom de l’espace réservé. `DIV`, [!DNL http://s7d1.scene7.com/is/image/] est l’URL du serveur d’images, et [!DNL Scene7SharedAssets/SpinSet_Sample] est la ressource.
+   Voici un exemple de création d’une instance de visionneuse, de transmission des options de configuration minimales nécessaires au constructeur et d’appel de la fonction `init()` . L’exemple prend la valeur `spinViewer` est l’instance de visionneuse, `s7viewer` est le nom de l’espace réservé. `DIV`, [!DNL http://s7d1.scene7.com/is/image/] est l’URL du serveur d’images, et [!DNL Scene7SharedAssets/SpinSet_Sample] est la ressource.
 
    ```html {.line-numbers}
    <script type="text/javascript"> 
@@ -236,7 +236,7 @@ Pour ajouter la visionneuse à 360° à une page web, procédez comme suit :
 
 **Intégration de conception réactive avec une hauteur libre**
 
-Avec l’incorporation de responsive design, la page web dispose normalement d’une sorte de disposition flexible qui détermine la taille d’exécution du conteneur de la visionneuse. `DIV`. Dans cet exemple, supposons que la page web autorise le conteneur de la visionneuse. `DIV` pour prendre 40 % de la taille de la fenêtre du navigateur web, sans restriction de sa hauteur. Le code de HTML de page web qui en résulte ressemble à ce qui suit :
+Avec l’incorporation de responsive design, la page web dispose normalement d’une sorte de disposition flexible qui détermine la taille d’exécution du conteneur de la visionneuse. `DIV`. Dans cet exemple, supposons que la page web autorise le conteneur de la visionneuse. `DIV` pour prendre 40 % de la taille de la fenêtre du navigateur web, en ne limitant pas sa hauteur. Le code de HTML de page web qui en résulte ressemble à ce qui suit :
 
 ```html {.line-numbers}
 <!DOCTYPE html> 

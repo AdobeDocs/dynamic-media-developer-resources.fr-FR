@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 10536242-1015-49ff-ae27-59671f30d886
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 1%
@@ -41,7 +41,7 @@ La position et la hauteur de la vue Favoris sont gérées par la vue ; dans CSS,
  </tbody> 
 </table>
 
-Exemple : pour configurer une vue Favoris d’une largeur de 100 pixels avec un arrière-plan gris semi-transparent :
+Exemple - Pour configurer une vue Favoris d’une largeur de 100 pixels avec un arrière-plan gris semi-transparent :
 
 ```
 .s7ecatalogviewer .s7favoritesview { 
@@ -104,7 +104,7 @@ L’aspect des miniatures individuelles est contrôlé à l’aide du sélecteur
 >
 >La miniature prend en charge le `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la miniature récemment sélectionnée par l’utilisateur. L’attribut `state="default"` correspond au reste des miniatures. Et, l’attribut `state="over"` est utilisée lorsque vous pointez avec la souris.
 
-Exemple : pour configurer des miniatures de 75 x 75 pixels, vous devez définir une bordure par défaut en gris clair et une bordure sélectionnée en gris foncé :
+Exemple : pour configurer des miniatures de 75 x 75 pixels, utilisez une bordure grise claire et une bordure sélectionnée en gris foncé :
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7thumb { 

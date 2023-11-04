@@ -5,9 +5,9 @@ title: Catalogue par défaut
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: db42fb67-aa6f-4217-bc69-45b01bbd0b10
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -24,4 +24,4 @@ Pour un bon fonctionnement de la fonction [!DNL Platform Server] le fichier d’
 
 >[!NOTE]
 >
->Tous les fichiers d’attributs du catalogue sauf [!DNL default.ini] doit contenir une variable unique `attribute::RootId` . `attribute::RootId` in [!DNL default.ini] doit être vide.
+>Tous les fichiers d’attributs du catalogue sauf [!DNL default.ini] doit contenir une variable `attribute::RootId` . `attribute::RootId` in [!DNL default.ini] doit être vide.

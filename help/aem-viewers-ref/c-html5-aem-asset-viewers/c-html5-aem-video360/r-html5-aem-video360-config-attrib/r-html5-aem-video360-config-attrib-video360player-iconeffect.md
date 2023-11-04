@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 818ea14b-4dab-4447-9645-46f2ba82547b
-source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '126'
 ht-degree: 7%
 
 ---
@@ -16,17 +16,17 @@ ht-degree: 7%
 
 Attribut de configuration de la visionneuse Video360.
 
-` [Video360Player.|<containerId>_video360Player.]iconeffect=0|1[, *``*][, *``*][, *`countfadeautoHide`*]`
+` [Video360Player.|<containerId>_video360Player.]iconeffect=0|1[, *`count`*][, *`fade`*][, *`autoHide`*]`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td colname="col2"> <p> Permet à IconEffect d’être affiché en haut de la vidéo lorsque la vidéo est en pause. Sur certains périphériques, des contrôles natifs sont utilisés. Dans ce cas, le modificateur <span class="codeph">iconEffet</span> est ignoré. </p> </td> 
+   <td colname="col2"> <p> Permet à IconEffect d’être affiché en haut de la vidéo lorsque la vidéo est en pause. Sur certains périphériques, des contrôles natifs sont utilisés. Dans ce cas, la variable <span class="codeph">iconEffet</span> est ignoré. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> nombre</span></span> </p> </td> 
-   <td colname="col2"> <p> Indique le nombre maximal de fois où IconEffect apparaît et réapparaît. Une valeur <span class="codeph"> -1</span> indique que l’icône réapparaît indéfiniment. </p> </td> 
+   <td colname="col2"> <p> Indique le nombre maximal de fois où IconEffect apparaît et réapparaît. Une valeur de <span class="codeph"> -1</span> indique que l’icône réapparaît indéfiniment. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> fade</span></span> </p> </td> 
@@ -34,7 +34,7 @@ Attribut de configuration de la visionneuse Video360.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p> Définit le nombre de secondes pendant lesquelles IconEffect reste entièrement visible avant son masquage automatique. C’est-à-dire le temps qui suit la fin du fondu dans l’animation et avant le début de l’animation de fondu. Définissez cette variable sur <span class="codeph"> 0</span> pour désactiver le comportement de masquage automatique. </p> </td> 
+   <td colname="col2"> <p> Définit le nombre de secondes pendant lesquelles IconEffect reste entièrement visible avant son masquage automatique. C’est-à-dire le temps qui suit la fin du fondu dans l’animation et avant le début de l’animation de fondu. Définissez sur . <span class="codeph"> 0</span> pour désactiver le comportement de masquage automatique. </p> </td> 
   </tr> 
  </tbody> 
 </table>

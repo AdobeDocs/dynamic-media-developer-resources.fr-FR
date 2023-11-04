@@ -1,24 +1,24 @@
 ---
 title: Video360
-description: La visionneuse de vidéos 360 HTML5 est un lecteur vidéo 360 degrés qui lit des vidéos 360 en flux continu et progressives codées au format H.264, diffusées depuis Dynamic Media Classic ou Adobe Experience Manager, Dynamic Media.
+description: La visionneuse de vidéos HTML5360 est un lecteur vidéo 360 degrés qui lit des vidéos 360 en flux continu et progressives codées au format H.264, diffusées depuis Dynamic Media Classic ou Adobe Experience Manager, Dynamic Media.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 74dca3f6-ce89-4c5b-8459-c2c4ca8ed27c
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2569'
+source-wordcount: '2568'
 ht-degree: 0%
 
 ---
 
 # Video360{#video}
 
-La visionneuse de vidéos 360 HTML5 est un lecteur vidéo 360 degrés qui lit des vidéos 360 en flux continu et progressives codées au format H.264, diffusées depuis Dynamic Media Classic ou Adobe Experience Manager, Dynamic Media.
+La visionneuse de vidéos HTML5360 est un lecteur vidéo 360 degrés qui lit des vidéos 360 en flux continu et progressives codées au format H.264, diffusées depuis Dynamic Media Classic ou Adobe Experience Manager, Dynamic Media.
 
 Les vidéos 360 degrés, également appelées vidéos immersives ou vidéos sphériques, sont des enregistrements vidéo où une vue dans chaque direction est enregistrée en même temps, filmée à l’aide d’une caméra omnidirectionnelle ou d’une collection de caméras. Les visionneuses de vidéos uniques et adaptatives sont prises en charge. La visionneuse prend également en charge l’utilisation de flux vidéo progressive et HLS hébergés sur un emplacement externe.
 
-Le rapport d’aspect recommandé pour la vidéo 360 est de 2:1. Le son spatial n’est pas pris en charge. La visionneuse est conçue pour fonctionner uniquement avec la vidéo 360 ; une tentative de lecture d’une vidéo non-360 entraîne une lecture vidéo déformée.
+Le rapport d’aspect recommandé pour la vidéo 360 est de 2:1. Le son spatial n’est pas pris en charge. La visionneuse est conçue pour fonctionner uniquement avec la vidéo 360 ; une tentative de lecture d’une vidéo non 360 entraîne une lecture vidéo déformée.
 
 La visionneuse est conçue pour fonctionner à la fois sur les navigateurs web mobiles et de bureau qui prennent en charge la vidéo HTML5. La visionneuse prend en charge les outils de partage sur les réseaux sociaux facultatifs.
 
@@ -54,13 +54,13 @@ Notez toutefois que la diffusion de vidéos codées avec des paramètres de haut
 
 ## Interaction avec la visionneuse Video360 {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
-La visionneuse vidéo HTML5 Video360 fournit un ensemble de commandes standard de l’interface utilisateur pour la lecture vidéo, telles que le bouton de lecture/pause, la bulle temporelle vidéo de la barre de défilement, l’indicateur de temps de lecture/total, le contrôle du volume et le bouton Plein écran. Tous ces contrôles sont regroupés dans une barre de contrôle au bas de l’interface utilisateur de la visionneuse.
+La visionneuse vidéo HTML5360 fournit un ensemble de commandes standard de l’interface utilisateur pour la lecture vidéo, telles que le bouton de lecture/pause, la bulle temporelle vidéo de la barre de défilement, l’indicateur de temps de lecture/total, le contrôle du volume et le bouton plein écran. Tous ces contrôles sont regroupés dans une barre de contrôle au bas de l’interface utilisateur de la visionneuse.
 
 Sur les périphériques tactiles, la commande de volume est masquée dans l’interface utilisateur, car il est uniquement possible de contrôler le volume à l’aide des boutons matériels de l’appareil.
 
 Lorsque la visionneuse fonctionne en mode pop-up, un bouton plein écran n’est pas disponible dans l’interface utilisateur.
 
-Le spectateur prend également en charge divers outils de partage sur les médias sociaux. Ils sont disponibles sous la forme d’un bouton unique dans l’interface utilisateur qui se développe dans une barre d’outils de partage lorsque l’utilisateur clique ou appuie dessus. La barre d’outils de partage contient une icône pour chaque type de canal de partage pris en charge, tel que Facebook, Twitter, partage de courrier électronique, partage de code intégré et partage de lien. Lorsque des outils de partage de courrier électronique, d’intégration de partage ou de lien sont activés, la visionneuse affiche une boîte de dialogue modale avec un formulaire de saisie de données correspondant. Lors de l’appel de Facebook ou Twitter, la visionneuse redirige l’utilisateur vers une boîte de dialogue de partage standard à partir d’un service de médias sociaux. En outre, lorsqu’un outil de partage est activé, la lecture vidéo est automatiquement suspendue. Les outils de partage ne sont pas disponibles en mode plein écran en raison des restrictions de sécurité du navigateur web.
+Le spectateur prend également en charge divers outils de partage sur les médias sociaux. Ils sont disponibles sous la forme d’un bouton unique dans l’interface utilisateur qui se développe dans une barre d’outils de partage lorsque l’utilisateur clique ou appuie dessus. La barre d’outils de partage contient une icône pour chaque type de canal de partage pris en charge, comme Facebook, le Twitter, le partage de courrier électronique, le partage de code incorporé et le partage de lien. Lorsque des outils de partage de courrier électronique, d’intégration de partage ou de lien sont activés, la visionneuse affiche une boîte de dialogue modale avec un formulaire de saisie de données correspondant. Lorsque Facebook ou Twitter est appelé, la visionneuse redirige l’utilisateur vers une boîte de dialogue de partage standard à partir d’un service de médias sociaux. En outre, lorsqu’un outil de partage est activé, la lecture vidéo est automatiquement suspendue. Les outils de partage ne sont pas disponibles en mode plein écran en raison des restrictions de sécurité du navigateur web.
 
 La visionneuse prend en charge la lecture vidéo 360 sur les éléments suivants :
 
@@ -80,9 +80,9 @@ La visionneuse prend en charge les entrées tactiles et de souris sur les appare
 
 La visionneuse est entièrement accessible au clavier. Voir [Accessibilité du clavier et navigation](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## Intégration de la visionneuse Video360 {#section-6bb5d3c502544ad18a58eafe12a13435}
+## Incorporation de la visionneuse Video360 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Le comportement de la visionneuse varie en fonction des pages web. Il arrive qu’une page web fournisse un lien qui, lorsqu’il est sélectionné, ouvre la visionneuse dans une fenêtre de navigateur distincte. Dans d’autres cas, il est nécessaire d’incorporer directement la visionneuse sur la page d’hébergement. Dans ce cas, la page web peut avoir une mise en page statique ou utiliser une conception réactive qui s’affiche différemment sur différents appareils ou pour différentes tailles de fenêtre de navigateur. Pour répondre à ces besoins, la visionneuse prend en charge trois modes de fonctionnement Principaux : fenêtre contextuelle, incorporation de taille fixe et incorporation de conceptions réactives.
+Le comportement de la visionneuse varie en fonction des pages web. Il arrive qu’une page web fournisse un lien qui, lorsqu’il est sélectionné, ouvre la visionneuse dans une fenêtre de navigateur distincte. Dans d’autres cas, il est nécessaire d’incorporer directement la visionneuse sur la page d’hébergement. Dans ce cas, la page web peut avoir une mise en page statique ou utiliser une conception réactive qui s’affiche différemment sur différents appareils ou pour différentes tailles de fenêtre de navigateur. Pour répondre à ces besoins, la visionneuse prend en charge trois modes de fonctionnement principaux : fenêtre contextuelle, incorporation des tailles fixes et incorporation des conceptions réactives.
 
 L’incorporation de plusieurs vidéos sur la même page est prise en charge sur les tablettes et les appareils mobiles. En règle générale, une seule vidéo peut être lue à la fois. Lorsqu’un utilisateur commence la lecture d’une vidéo, puis tente de la lire, la première vidéo est automatiquement suspendue. La vidéo qui a été mise en pause automatique mémorise son temps de lecture actuel, de sorte que l’utilisateur puisse toujours y revenir et reprendre la lecture. La seule exception à cette règle est le navigateur Chrome sur les appareils Android™ 4.x, qui peuvent lire des vidéos en parallèle.
 
@@ -108,7 +108,7 @@ Voici un exemple de code de HTML qui ouvre la visionneuse dans une nouvelle fen�
 
 En mode incorporé, la visionneuse est ajoutée à la page web existante, qui peut déjà comporter du contenu client non lié à la visionneuse. Normalement, la visionneuse occupe uniquement une partie de l’espace d’une page web.
 
-Les cas d’utilisation Principaux sont les pages web orientées vers les ordinateurs de bureau ou les tablettes, ainsi que les pages réactives qui ajustent automatiquement la mise en page en fonction du type d’appareil.
+Les principaux cas d’utilisation sont les pages web orientées vers les ordinateurs de bureau ou les tablettes, ainsi que les pages réactives qui ajustent automatiquement la mise en page en fonction du type d’appareil.
 
 L’incorporation des tailles fixes est utilisée lorsque la visionneuse ne modifie pas sa taille après le chargement initial. Cette méthode est la meilleure solution pour les pages web avec une disposition statique.
 
@@ -129,7 +129,7 @@ Pour ajouter la visionneuse à une page web, procédez comme suit :
 
 1. Ajout du fichier JavaScript de la visionneuse à votre page web.
 
-   Pour créer une visionneuse, vous devez ajouter une balise de script dans l’en-tête du HTML. Avant d’utiliser l’API de visionneuse, veillez à inclure [!DNL Video360Viewer.js]. Le [!DNL Video360Viewer.js] se trouve sous le fichier [!DNL html5/js/] sous-dossier de votre déploiement IS-Viewers standard :
+   Pour créer une visionneuse, vous devez ajouter une balise de script dans l’en-tête du HTML. Avant d’utiliser l’API de visionneuse, veillez à inclure [!DNL Video360Viewer.js]. La variable [!DNL Video360Viewer.js] se trouve sous le fichier [!DNL html5/js/] sous-dossier de votre déploiement IS-Viewers standard :
 
 [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/Video360Viewer.js]
 
@@ -143,14 +143,14 @@ Le chemin relatif ressemble à ce qui suit :
 
 >[!NOTE]
 >
->Ne référencez que le code JavaScript de la visionneuse principale `include` sur votre page. Ne référencez pas de fichiers JavaScript supplémentaires dans le code de page web qui pourraient être téléchargés par la logique de la visionneuse au moment de l’exécution. En particulier, ne référencez pas directement le SDK HTML5. `Utils.js` bibliothèque chargée par la visionneuse depuis `/s7viewers` chemin d’accès au contexte (appelé SDK consolidé) `include`). La raison en est que l’emplacement de la variable `Utils.js` ou des bibliothèques de visionneuses d’exécution similaires sont entièrement gérées par la logique de la visionneuse et l’emplacement change entre les versions de la visionneuse. Adobe ne conserve pas les anciennes versions de la visionneuse secondaire `includes` sur le serveur.
+>Ne référencez que le code JavaScript de la visionneuse principale `include` sur votre page. Ne référencez pas de fichiers JavaScript supplémentaires dans le code de page web qui pourraient être téléchargés par la logique de la visionneuse au moment de l’exécution. En particulier, ne référencez pas directement le SDK HTML5 `Utils.js` bibliothèque chargée par la visionneuse depuis `/s7viewers` chemin d’accès au contexte (appelé SDK consolidé) `include`). La raison en est que l’emplacement de `Utils.js` ou des bibliothèques de visionneuses d’exécution similaires sont entièrement gérées par la logique de la visionneuse et l’emplacement change entre les versions de la visionneuse. Adobe ne conserve pas les anciennes versions de la visionneuse secondaire `includes` sur le serveur.
 >
 >
 >Par conséquent, l’insertion d’une référence directe à tout JavaScript secondaire `include` utilisé par la visionneuse sur la page rompt la fonctionnalité de visionneuse à l’avenir lorsqu’une nouvelle version de produit est déployée.
 
 1. Définir le conteneur `DIV`.
 
-   Ajouter un champ vide `DIV` sur la page dans laquelle vous souhaitez que la visionneuse s’affiche. Le `DIV` L’ID de l’élément doit être défini, car cet ID est transmis ultérieurement à l’API de visionneuse. La taille du DIV est spécifiée via CSS.
+   Ajouter un champ vide `DIV` sur la page dans laquelle vous souhaitez que la visionneuse s’affiche. La variable `DIV` L’ID de l’élément doit être défini, car cet ID est transmis ultérieurement à l’API de visionneuse. La taille du DIV est spécifiée via CSS.
 
    Espace réservé `DIV` est un élément positionné, ce qui signifie que la variable `position` La propriété CSS est définie sur `relative` ou `absolute`.
 
@@ -166,7 +166,7 @@ Le chemin relatif ressemble à ce qui suit :
 
    Vous pouvez définir la taille statique de la visionneuse en la déclarant pour `.s7video360viewer` classe CSS de niveau supérieur en unités absolues ou en utilisant `stagesize` modifier.
 
-   Vous pouvez placer le dimensionnement dans CSS directement sur la page de HTML ou dans un fichier CSS de visionneuse personnalisé, qui est ultérieurement affecté à un enregistrement de paramètre prédéfini de visionneuse dans Adobe Experience Manager Assets - On-demand, ou transmis explicitement à l’aide de `style` .
+   Vous pouvez placer le dimensionnement dans CSS directement sur la page de HTML ou dans un fichier CSS de visionneuse personnalisé, qui est ultérieurement affecté à un enregistrement de paramètre prédéfini de visionneuse dans Adobe Experience Manager Assets - On-demand, ou transféré explicitement à l’aide de `style` .
 
    Voir [Personnalisation de la visionneuse Video360](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) pour plus d’informations sur le style de la visionneuse avec CSS.
 
@@ -250,7 +250,7 @@ Le chemin relatif ressemble à ce qui suit :
 
 **Intégration de conception réactive avec une hauteur libre**
 
-Avec l’incorporation de responsive design, la page web dispose normalement d’une sorte de disposition flexible qui détermine la taille d’exécution du conteneur de la visionneuse. `DIV`. Dans l’exemple suivant, supposons que la page web autorise le conteneur de la visionneuse. `DIV` pour prendre 40 % de la taille de la fenêtre du navigateur web, sans restriction de sa hauteur. Le code de HTML de la page web se présente comme suit :
+Avec l’incorporation de responsive design, la page web dispose normalement d’une sorte de disposition flexible qui détermine la taille d’exécution du conteneur de la visionneuse. `DIV`. Dans l’exemple suivant, supposons que la page web autorise le conteneur de la visionneuse. `DIV` pour prendre 40 % de la taille de la fenêtre du navigateur web, en ne limitant pas sa hauteur. Le code de HTML de la page web se présente comme suit :
 
 ```html {.line-numbers}
 <!DOCTYPE html> 

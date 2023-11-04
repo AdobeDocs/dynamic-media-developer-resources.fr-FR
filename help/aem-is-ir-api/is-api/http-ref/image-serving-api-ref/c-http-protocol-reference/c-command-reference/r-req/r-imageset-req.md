@@ -2,12 +2,12 @@
 description: Données de visionneuse d’images issues du catalogue d’images. Renvoie les données de visionneuse d’images pour l’entrée de catalogue d’images spécifiée dans le chemin d’accès à l’URL.
 solution: Experience Manager
 title: imageset
-feature: Dynamic Media Classic,SDK/API,Visionneuses d’images
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,User
 exl-id: 730e7db9-47f0-4e96-8948-18b8185a5b7a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '160'
 ht-degree: 7%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 Données de visionneuse d’images issues du catalogue d’images. Renvoie les données de visionneuse d’images pour l’entrée de catalogue d’images spécifiée dans le chemin d’accès à l’URL.
 
-`req=imageset[,text|javascript|{xml[, *``*]}|{json[&id= *`encodingreqId`*]}]`
+`req=imageset[,text|javascript|{xml[, *`encoding`*]}|{json[&id= *`reqId`*]}]`
 
 <table id="simpletable_86FF9E59B11D4C408F0D932D46CC2F8E"> 
  <tr class="strow"> 
@@ -29,12 +29,12 @@ Données de visionneuse d’images issues du catalogue d’images. Renvoie les d
  </tr> 
 </table>
 
-Le contenu de `catalog::ImageSet` est renvoyé sans autre modification (sauf la localisation de chaîne, le cas échéant), suivi d’un terminateur de ligne unique (CR/LF). Si le chemin d’URL ne se résout pas en une entrée de catalogue valide, la réponse se compose uniquement d’un terminateur de ligne unique.
+Le contenu de `catalog::ImageSet` est renvoyé sans autre modification (à l’exception de la localisation de chaîne, le cas échéant), suivi d’un terminateur d’une seule ligne (CR/LF). Si le chemin d’URL ne se résout pas en une entrée de catalogue valide, la réponse se compose uniquement d’un terminateur d’une seule ligne.
 
 Les autres commandes de la chaîne de requête sont ignorées. La réponse HTTP peut être placée en mémoire cache via le TTL basé sur `catalog::NonImgExpiration`.
 
-Les requêtes qui prennent en charge le format de réponse JSONP vous permettent de spécifier le nom du gestionnaire de rappel JS à l’aide de la syntaxe étendue du paramètre `req=` :
+Les requêtes qui prennent en charge le format de réponse JSONP vous permettent de spécifier le nom du gestionnaire de rappel JS à l’aide de la syntaxe étendue de `req=` parameter:
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` est le nom du gestionnaire JS présent dans la réponse JSONP. Seuls les caractères a-z, A-Z et 0-9 sont autorisés. Facultatif. La valeur par défaut est `s7jsonResponse`.
+`<reqHandler>` est le nom du gestionnaire JS présent dans la réponse JSONP. Seuls les caractères a-z, A-Z et 0-9 sont autorisés. Facultatif. Par défaut : `s7jsonResponse`.

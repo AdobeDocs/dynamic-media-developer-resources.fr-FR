@@ -5,16 +5,16 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9f273f32-1699-4bc3-8dd0-f1dfefaa6e27
-source-git-commit: c1a4dad7888d31e0b78f0fc5091700ad8104e685
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '139'
 ht-degree: 4%
 
 ---
 
 # Chemin{#path}
 
-Le serveur utilise les règles de résolution de chemin décrites dans la section [Gestion des données source](../../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173) pour trouver le fichier de données.
+Le serveur utilise les règles de résolution de chemin décrites dans la section [Gestion des données source](../../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173) pour rechercher le fichier de données.
 
 ## Propriétés {#section-72d9edc532ad43349afcb4df22e1c692}
 
@@ -24,7 +24,7 @@ Chaîne de texte. Requis pour les enregistrements d’image et de SVG, peut êtr
 
 Reportez-vous à la description de l’utilitaire de conversion d’images (IC) pour obtenir la liste complète des formats de fichiers image pris en charge.
 
-Les applications qui nécessitent des données d’image à plusieurs résolutions différentes fonctionnent mieux avec le format PTIFF (Dynamic Media pyramid TIFF) à plusieurs résolutions. L’utilitaire IC est utilisé pour créer des images PTIFF à partir de n’importe quel format d’image pris en charge.
+Les applications qui nécessitent des données d’image à plusieurs résolutions différentes fonctionnent mieux avec le format PTIFF (Dynamic Media pyramid TIFF) à résolution multiple. L’utilitaire IC est utilisé pour créer des images PTIFF à partir de n’importe quel format d’image pris en charge.
 
 ## Par défaut {#section-82dad83ec3f84ae8bf2f850b4139f63e}
 

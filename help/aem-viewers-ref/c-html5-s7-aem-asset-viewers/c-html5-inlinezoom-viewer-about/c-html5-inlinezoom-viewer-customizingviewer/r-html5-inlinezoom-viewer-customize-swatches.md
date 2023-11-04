@@ -1,18 +1,18 @@
 ---
-title: Echantillons
+title: Nuancier
 description: Les nuanciers se composent d’une ligne d’images miniatures avec des boutons de défilement facultatifs à gauche et à droite.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: bd385b06-b8d6-4c6e-83fd-65a3d1c105c5
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
-# Echantillons{#swatches}
+# Nuancier{#swatches}
 
 Les nuanciers se composent d’une ligne d’images miniatures avec des boutons de défilement facultatifs à gauche et à droite.
 
@@ -126,7 +126,7 @@ L’aspect des miniatures individuelles est contrôlé à l’aide du sélecteur
 >
 >La miniature prend en charge le `state` sélecteur d’attributs, utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la miniature de l’image actuellement affichée dans la vue principale, `state="default"` correspond au reste des miniatures, et `state="over"` est utilisée lorsque vous pointez avec la souris.
 
-Exemple : pour configurer des miniatures de 56 x 56 pixels, vous devez définir une bordure par défaut en gris clair et une bordure sélectionnée en gris foncé :
+Exemple : pour configurer des miniatures de 56 x 56 pixels, utilisez une bordure grise claire et une bordure sélectionnée en gris foncé :
 
 ```
 .s7flyoutviewer .s7swatches .s7thumb { 
@@ -150,7 +150,7 @@ L’aspect des boutons de défilement gauche et droite est contrôlé à l’aid
 .s7flyoutviewer .s7swatches .s7scrollrightbutton
 ```
 
-Il n’est pas possible de positionner des boutons de défilement à l’aide de CSS `top`, `left`, `bottom`, et `right` propriétés. À la place, la logique de la visionneuse les positionne automatiquement.
+Il n’est pas possible de positionner des boutons de défilement à l’aide de CSS `top`, `left`, `bottom`, et `right` propriétés. La logique de la visionneuse les positionne automatiquement.
 
 <table id="table_F957367566C542829E2F6D296F9DAAC5"> 
  <thead> 

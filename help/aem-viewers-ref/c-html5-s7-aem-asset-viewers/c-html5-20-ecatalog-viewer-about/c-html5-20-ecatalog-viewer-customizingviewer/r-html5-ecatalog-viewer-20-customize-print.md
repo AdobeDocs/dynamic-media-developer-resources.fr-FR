@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 25057e72-f079-4221-91c2-760d99d30633
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '1469'
 ht-degree: 2%
@@ -84,7 +84,7 @@ background-image:url(images/v2/Print_dark_disabled.png);
 }
 ```
 
-La superposition en arrière-plan qui couvre la page web lorsque la boîte de dialogue est principale est contrôlée avec le sélecteur de classe CSS suivant :
+La superposition en arrière-plan qui couvre la page web lorsque la boîte de dialogue est active est contrôlée avec le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7backoverlay
@@ -96,7 +96,7 @@ La superposition en arrière-plan qui couvre la page web lorsque la boîte de di
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opacité </span> </p> </td> 
-   <td colname="col2"> <p> Opacité de la superposition en arrière-plan. </p> </td> 
+   <td colname="col2"> <p> Opacité du recouvrement en arrière-plan. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
@@ -166,7 +166,7 @@ L’icône et le texte du titre sont placés dans un conteneur supplémentaire c
 .s7ecatalogsearchviewer .s7printdialog .s7dialogheader .s7dialogline
 ```
 
-**Propriétés CSS de la ligne de boîte de dialogue**
+**Propriétés CSS de la ligne de dialogue**
 
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
@@ -282,7 +282,7 @@ Propriétés **CSS du bouton de fermeture **
 
 L’info-bulle du bouton Fermer et le titre de la boîte de dialogue peuvent être localisés. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 
-Exemple : pour configurer l’en-tête de la boîte de dialogue avec marge intérieure, une icône de 22 x 22 pixels et un titre de 16 points en gras. Enfin, un bouton Fermer de 28 x 28 pixels a positionné deux pixels à partir du haut et deux pixels à partir de la droite du conteneur de la boîte de dialogue :
+Exemple : pour configurer l’en-tête de la boîte de dialogue avec marge intérieure, une icône de 22 x 22 pixels et un titre de 16 points en gras. Enfin, un bouton Fermer de 28 x 28 pixels a positionné deux pixels du haut et deux pixels à droite du conteneur de la boîte de dialogue :
 
 ```
 .s7ecatalogsearchviewer .s7printdialog .s7dialogheader { 
@@ -334,7 +334,7 @@ Propriétés **CSS du pied de page de la boîte de dialogue **
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bordure </span> </p> </td> 
-   <td colname="col2"> <p> Bordure que vous pouvez utiliser pour séparer visuellement le pied de page du reste de la boîte de dialogue. </p> </td> 
+   <td colname="col2"> <p> Bordure permettant de séparer visuellement le pied de page du reste de la boîte de dialogue. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -362,7 +362,7 @@ Le bouton Annuler est contrôlé à l’aide du sélecteur de classe CSS suivant
 .s7ecatalogsearchviewer .s7printdialog .s7dialogcancelbutton
 ```
 
-**Propriétés CSS du bouton d’annulation de la boîte de dialogue**
+**Propriétés CSS du bouton Annuler de la boîte de dialogue**
 
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
@@ -731,7 +731,7 @@ L’espacement entre le bouton radio et sa légende est contrôlé à l’aide d
 .s7ecatalogsearchviewer .s7printdialog .s7dialogoptioninput
 ```
 
-**Propriétés CSS de l’option de saisie de la boîte de dialogue**
+**Propriétés CSS de l’option de boîte de dialogue entrée**
 
 <table id="table_BDD03247E594416D93CDF8604DCE937B"> 
  <tbody> 

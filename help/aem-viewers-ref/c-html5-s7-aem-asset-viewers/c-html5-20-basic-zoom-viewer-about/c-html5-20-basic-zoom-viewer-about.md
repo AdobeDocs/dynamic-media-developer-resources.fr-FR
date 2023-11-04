@@ -1,21 +1,21 @@
 ---
 title: Zoom de base
-description: La visionneuse de zoom de base est une visionneuse d’images qui affiche une seule image agrandie. Il comprend des outils de zoom, une prise en charge du plein écran et un bouton de fermeture facultatif. Cette visionneuse est la plus légère. Il est conçu pour fonctionner sur les ordinateurs de bureau et les appareils mobiles.
+description: La visionneuse de zoom de base est une visionneuse d’images qui affiche une seule image agrandie. Il comprend des outils de zoom, une prise en charge du mode plein écran et un bouton de fermeture facultatif. Cette visionneuse est la plus légère. Il est conçu pour fonctionner sur les ordinateurs de bureau et les appareils mobiles.
 keywords: responsive
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: ee15ce21-20c4-428b-9512-050115e4c322
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2028'
+source-wordcount: '2026'
 ht-degree: 0%
 
 ---
 
 # Zoom de base{#basic-zoom}
 
-La visionneuse de zoom de base est une visionneuse d’images qui affiche une seule image agrandie. Il comprend des outils de zoom, une prise en charge du plein écran et un bouton de fermeture facultatif. Cette visionneuse est la plus légère. Il est conçu pour fonctionner sur les ordinateurs de bureau et les appareils mobiles.
+La visionneuse de zoom de base est une visionneuse d’images qui affiche une seule image agrandie. Il comprend des outils de zoom, une prise en charge du mode plein écran et un bouton de fermeture facultatif. Cette visionneuse est la plus légère. Il est conçu pour fonctionner sur les ordinateurs de bureau et les appareils mobiles.
 
 >[!NOTE]
 >
@@ -80,7 +80,7 @@ Voir [Accessibilité du clavier et navigation](../../c-keyboard-accessibility.md
 
 ## Incorporation de la visionneuse de zoom de base {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Le comportement de la visionneuse varie en fonction des pages web. Il arrive qu’une page web fournisse un lien qui, lorsqu’il est sélectionné, ouvre la visionneuse dans une fenêtre de navigateur distincte. Dans d’autres cas, il est nécessaire d’incorporer le droit de visionneuse dans la page d’hébergement. Dans ce cas, la page web peut avoir une mise en page statique ou utiliser une conception réactive qui s’affiche différemment sur différents appareils ou pour différentes tailles de fenêtre de navigateur. Pour répondre à ces besoins, la visionneuse prend en charge trois modes de fonctionnement Principaux : pop-up, incorporation de taille fixe et incorporation de conceptions réactives.
+Le comportement de la visionneuse varie en fonction des pages web. Il arrive qu’une page web fournisse un lien qui, lorsqu’il est sélectionné, ouvre la visionneuse dans une fenêtre de navigateur distincte. Dans d’autres cas, il est nécessaire d’incorporer le droit de visionneuse dans la page d’hébergement. Dans ce cas, la page web peut avoir une mise en page statique ou utiliser une conception réactive qui s’affiche différemment sur différents appareils ou pour différentes tailles de fenêtre de navigateur. Pour répondre à ces besoins, la visionneuse prend en charge trois modes de fonctionnement principaux : pop-up, incorporation des tailles fixes et incorporation des conceptions réactives.
 
 **A propos du mode pop-up**
 
@@ -88,7 +88,7 @@ En mode contextuel, la visionneuse s’ouvre dans une fenêtre ou un onglet de n
 
 Le mode pop-up est le plus courant pour les appareils mobiles. La page web charge la visionneuse à l’aide de la fonction `window.open()` Appel JavaScript, correctement configuré `A` élément de HTML ou toute autre méthode appropriée.
 
-Il est recommandé d’utiliser une page de HTML d’usine pour le mode de fonctionnement de la fenêtre contextuelle. Dans ce cas, il est appelé [!DNL BasicZoomViewer.html] et se trouve dans la variable [!DNL html5/] sous-dossier de votre déploiement IS-Viewers standard :
+Il est recommandé d’utiliser une page de HTML d’usine pour le mode de fonctionnement pop-up. Dans ce cas, il est appelé [!DNL BasicZoomViewer.html] et se trouve dans la variable [!DNL html5/] sous-dossier de votre déploiement IS-Viewers standard :
 
 [!DNL <s7viewers_root>/html5/BasicZoomViewer.html]
 
@@ -104,7 +104,7 @@ Voici un exemple de code de HTML qui ouvre la visionneuse dans une nouvelle fen�
 
 En mode incorporé, la visionneuse est ajoutée à la page web existante, qui peut déjà comporter du contenu client non lié à la visionneuse. Normalement, la visionneuse occupe uniquement une partie de l’espace d’une page web.
 
-Les cas d’utilisation Principaux sont les pages web orientées vers les ordinateurs de bureau ou les tablettes, ainsi que les pages réactives qui ajustent automatiquement la mise en page en fonction du type d’appareil.
+Les principaux cas d’utilisation sont les pages web orientées vers les ordinateurs de bureau ou les tablettes, ainsi que les pages réactives qui ajustent automatiquement la mise en page en fonction du type d’appareil.
 
 L’incorporation des tailles fixes est utilisée lorsque la visionneuse ne modifie pas sa taille après le chargement initial. Cette méthode est la meilleure solution pour les pages web avec une disposition statique.
 
@@ -125,7 +125,7 @@ Pour ajouter la visionneuse à une page web, procédez comme suit :
 
 1. Ajout du fichier JavaScript de la visionneuse à votre page web.
 
-   Pour créer une visionneuse, vous devez ajouter une balise de script dans l’en-tête du HTML. Avant d’utiliser l’API de visionneuse, veillez à inclure [!DNL BasicZoomViewer.js]. Le [!DNL BasicZoomViewer.js] se trouve sous le fichier [!DNL html5/js/] sous-dossier de votre déploiement IS-Viewers standard :
+   Pour créer une visionneuse, vous devez ajouter une balise de script dans l’en-tête du HTML. Avant d’utiliser l’API de visionneuse, veillez à inclure [!DNL BasicZoomViewer.js]. La variable [!DNL BasicZoomViewer.js] se trouve sous le fichier [!DNL html5/js/] sous-dossier de votre déploiement IS-Viewers standard :
 
 [!DNL <s7viewers_root>/html5/js/BasicZoomViewer.js]
 
@@ -139,7 +139,7 @@ Le chemin relatif ressemble à ce qui suit :
 
 >[!NOTE]
 >
->Ne référencez que le code JavaScript de la visionneuse principale `include` sur votre page. Ne référencez pas de fichiers JavaScript supplémentaires dans le code de page web qui pourraient être téléchargés par la logique de la visionneuse au moment de l’exécution. En particulier, ne référencez pas directement le SDK HTML5. `Utils.js` bibliothèque chargée par la visionneuse depuis `/s7viewers` chemin d’accès au contexte (appelé SDK consolidé) `include`). La raison en est que l’emplacement de la variable `Utils.js` ou des bibliothèques de visionneuses d’exécution similaires sont entièrement gérées par la logique de la visionneuse et l’emplacement change entre les versions de la visionneuse. Adobe ne conserve pas les anciennes versions de la visionneuse secondaire `includes` sur le serveur.
+>Ne référencez que le code JavaScript de la visionneuse principale `include` sur votre page. Ne référencez pas de fichiers JavaScript supplémentaires dans le code de page web qui pourraient être téléchargés par la logique de la visionneuse au moment de l’exécution. En particulier, ne référencez pas directement le SDK HTML5 `Utils.js` bibliothèque chargée par la visionneuse depuis `/s7viewers` chemin d’accès au contexte (appelé SDK consolidé) `include`). La raison en est que l’emplacement de `Utils.js` ou des bibliothèques de visionneuses d’exécution similaires sont entièrement gérées par la logique de la visionneuse et l’emplacement change entre les versions de la visionneuse. Adobe ne conserve pas les anciennes versions de la visionneuse secondaire `includes` sur le serveur.
 >
 >
 >Par conséquent, l’insertion d’une référence directe à tout JavaScript secondaire `include` utilisé par la visionneuse sur la page rompt la fonctionnalité de visionneuse à l’avenir lorsqu’une nouvelle version de produit est déployée.
@@ -173,7 +173,7 @@ Le chemin relatif ressemble à ce qui suit :
    }
    ```
 
-   Vous pouvez définir `stagesize` modifier dans l’enregistrement de paramètre prédéfini de visionneuse dans Dynamic Media Classic. Vous pouvez également le transmettre explicitement avec le code d’initialisation de la visionneuse avec `params` ou, comme appel API, comme décrit dans la section Référence de commande, comme suit :
+   Vous pouvez définir `stagesize` modifier dans l’enregistrement de paramètre prédéfini de visionneuse dans Dynamic Media Classic. Vous pouvez également le transmettre explicitement avec le code d’initialisation de la visionneuse avec `params` ou, en tant qu’appel API, comme décrit dans la section Référence de commande, comme suit :
 
    ```html {.line-numbers}
    basicZoomViewer.setParam("stagesize", "640,480");
@@ -189,7 +189,7 @@ Le chemin relatif ressemble à ce qui suit :
 
    Dans le même temps, l’élément de conteneur ne doit pas nécessairement faire partie de la mise en page web pour l’instant. Par exemple, il peut être masqué à l’aide de `display:none` style qui lui est affecté. Dans ce cas, la visionneuse retarde son processus d’initialisation jusqu’au moment où la page web ramène l’élément de conteneur à la mise en page. Lorsque cet événement se produit, le chargement de la visionneuse reprend automatiquement.
 
-   Voici un exemple de création d’une instance de visionneuse, en transmettant au constructeur le minimum d’options de configuration nécessaires et en appelant la fonction `init()` . L’exemple suppose que `basicZoomViewer` est l’instance de visionneuse ; `s7viewer` est le nom de l’espace réservé. `DIV`; `http://s7d1.scene7.com/is/image/` est l’URL du serveur d’images, et `Scene7SharedAssets/Backpack_B` est la ressource :
+   Voici un exemple de création d’une instance de visionneuse, en transmettant au constructeur le minimum d’options de configuration nécessaires et en appelant la fonction `init()` . L’exemple prend la valeur `basicZoomViewer` est l’instance de visionneuse ; `s7viewer` est le nom de l’espace réservé. `DIV`; `http://s7d1.scene7.com/is/image/` est l’URL du serveur d’images, et `Scene7SharedAssets/Backpack_B` est la ressource :
 
    ```html {.line-numbers}
    <script type="text/javascript"> 
@@ -234,7 +234,7 @@ Le chemin relatif ressemble à ce qui suit :
 
 **Intégration de conception réactive avec une hauteur libre**
 
-Avec l’incorporation de responsive design, la page web dispose normalement d’une sorte de disposition flexible qui détermine la taille d’exécution du conteneur de la visionneuse. `DIV`. Dans l’exemple suivant, supposons que la page web autorise le conteneur de la visionneuse. `DIV` pour prendre 40 % de la taille de la fenêtre du navigateur web, sans restriction de sa hauteur. Le code de HTML de la page web se présente comme suit :
+Avec l’incorporation de responsive design, la page web dispose normalement d’une sorte de disposition flexible qui détermine la taille d’exécution du conteneur de la visionneuse. `DIV`. Dans l’exemple suivant, supposons que la page web autorise le conteneur de la visionneuse. `DIV` pour prendre 40 % de la taille de la fenêtre du navigateur web, en ne limitant pas sa hauteur. Le code de HTML de la page web se présente comme suit :
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -362,7 +362,7 @@ var basicZoomViewer = new s7viewers.BasicZoomViewer({
 
 Au lieu d’utiliser l’initialisation basée sur JSON, il est possible d’utiliser une API basée sur un setter et un constructeur sans args. L’utilisation de ce constructeur d’API ne prend aucun paramètre et les paramètres de configuration sont spécifiés à l’aide de `setContainerId()`, `setParam()`, et `setAsset()` Méthodes d’API avec des appels JavaScript distincts.
 
-L’exemple suivant illustre l’utilisation de l’incorporation de tailles fixes avec une API basée sur setter :
+L’exemple suivant illustre l’utilisation de l’incorporation de tailles fixes avec l’API basée sur setter :
 
 ```html {.line-numbers}
 <!DOCTYPE html> 

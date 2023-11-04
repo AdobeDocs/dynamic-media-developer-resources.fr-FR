@@ -5,9 +5,9 @@ title: Suppression ou remplacement de fichiers de données
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 1624e1b5-ba79-45db-8309-457a44fddab8
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,10 @@ Bien que l’ajout de nouveaux fichiers de données soit simple et direct, le re
 
 >[!NOTE]
 >
->Les fichiers de données ne doivent jamais être remplacés ou supprimés lors d’une utilisation principale par le serveur d’images. Des erreurs, voire un blocage du serveur, peuvent se produire dans le cas contraire.
+>Les fichiers de données ne doivent jamais être remplacés ou supprimés lors d’une utilisation active par le serveur d’images. Des erreurs, voire un blocage du serveur, peuvent se produire dans le cas contraire.
 
 Dans tous les cas, n’oubliez pas que la variable [!DNL Platform Server] et les entrées du cache client doivent devenir obsolètes avant que les données mises à jour ne soient visibles par le client. Des entrées de cache spécifiques peuvent être mises à jour immédiatement à l’aide de la variable `cache=validate` .
 
-Les modifications apportées aux fichiers de polices et de profil ICC ne sont pas suivies directement par le gestionnaire de cache. Si une telle ressource est modifiée sans modifier son identifiant, le cache du serveur ne sera pas informé de la modification, et `cache=validate` ne provoque pas la mise à jour de l’entrée du cache. `cache=update` peut être utilisé pour forcer la régénération de ces entrées de cache.
+Les modifications apportées aux fichiers de polices et de profil ICC ne sont pas suivies directement par le gestionnaire de cache. Si une telle ressource est modifiée sans modifier son identifiant, le cache du serveur ne connaît pas la modification, et `cache=validate` ne provoque pas la mise à jour de l’entrée du cache. `cache=update` peut être utilisé pour forcer la régénération de ces entrées de cache.
 
-Pour éviter toute difficulté liée au remplacement de fichiers, il est recommandé de donner un nouveau nom à un fichier de remplacement et de mettre à jour les entrées de catalogue correspondantes. Cela permet de remplacer n’importe quel fichier de données pendant que le serveur est en ligne et entraîne l’obsolescence immédiate des entrées du cache du serveur sans intervention supplémentaire. Cette approche peut être utilisée pour les profils ICC, les polices et toutes les images gérées par les catalogues d’images.
+Pour éviter toute difficulté liée au remplacement de fichiers, il est recommandé de donner un nouveau nom à un fichier de remplacement et de mettre à jour les entrées de catalogue correspondantes. Cela permet de remplacer un fichier de données pendant que le serveur est en ligne et de rendre les entrées de cache du serveur obsolètes immédiatement sans intervention supplémentaire. Cette approche peut être utilisée pour les profils ICC, les polices et toutes les images gérées par les catalogues d’images.

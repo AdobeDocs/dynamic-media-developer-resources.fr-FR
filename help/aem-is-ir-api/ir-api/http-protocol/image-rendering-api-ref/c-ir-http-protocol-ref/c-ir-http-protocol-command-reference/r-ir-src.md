@@ -1,24 +1,24 @@
 ---
 title: src
-description: Fichier matière. Spécifie les données de matériau, sous la forme d’une référence de catalogue de matériaux unique, ou sous la forme d’une ou deux images ou de fichiers de données de matériau, séparés par une virgule.
+description: Fichier de matière. Spécifie les données de matériau, sous la forme d’une référence de catalogue de matériaux unique, ou sous la forme d’une ou deux images ou de fichiers de données de matériau, séparés par une virgule.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: aff45f0f-e672-40da-9cc8-db83cf3922ff
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
 # src{#src}
 
-Fichier matière. Spécifie les données de matériau, sous la forme d’une référence de catalogue de matériaux unique, ou sous la forme d’une ou deux images ou de fichiers de données de matériau, séparés par une virgule.
+Fichier de matière. Spécifie les données de matériau, sous la forme d’une référence de catalogue de matériaux unique, ou sous la forme d’une ou deux images ou de fichiers de données de matériau, séparés par une virgule.
 
 `src = *`catalogEntry`*|{{ *`MatériauFile`*| *`embeddedReq`*}[, *`MatériauFile`*]`
 
-`srcE= *`name`*`
+`srcE= *`nom`*`
 
 `srcN= *`index`*`
 
@@ -33,7 +33,7 @@ Fichier matière. Spécifie les données de matériau, sous la forme d’une ré
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> embeddedReq</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph">&amp;lbrace;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'ir&amp;lbrace;'<span class="varname"> irReq</span>'&amp;rbrace;'|&amp;lbrace;'&amp;lbrace;'<span class="varname"> ForeignReq</span>'&amp;brace;'</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&amp;lbrace;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'ir&amp;lbrace;'<span class="varname"> irReq</span>'&amp;rbrace;'|&amp;lbrace;'&amp;lbrace;'<span class="varname"> ForeignReq</span>'&amp;rbrace;'</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 
@@ -64,7 +64,7 @@ Fichier matière. Spécifie les données de matériau, sous la forme d’une ré
   <td class="stentry"> <p>Demande à un serveur étranger. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> name</span> </p></td> 
+  <td class="stentry"> <p><span class="varname"> nom</span> </p></td> 
   <td class="stentry"> <p>Nom d’un matériau incorporé. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -79,11 +79,11 @@ Les documents du Cabinet requièrent un fichier de style Cabinet ( [!DNL .vnc]),
 
 Les matériaux de recouvrement des fenêtres nécessitent un fichier de style de recouvrement des fenêtres ( [!DNL .vnw]), qui ne peut pas être spécifié en tant que requête imbriquée. Un fichier de texture est facultatif et, s’il est spécifié, il peut s’agir d’un fichier ou d’une requête incorporée.
 
-Le rendu d’image utilise les mêmes règles que le service d’images pour rechercher des catalogues de matériaux, des entrées de catalogue et des fichiers de données. Reportez-vous à la description du *`object`* Type de données dans la documentation du serveur d’images pour plus d’informations.
+Le rendu d’image utilise les mêmes règles que le service d’images pour rechercher des catalogues de matériaux, des entrées de catalogue et des fichiers de données. Voir la description de la *`object`* Type de données dans la documentation du serveur d’images pour plus d’informations.
 
 *`materialFile`* Est un chemin relatif à `attribute::RootPath`.
 
-*`foreignReq`* Peut être soit une URL relative à `attribute::RootUrl`ou une URL absolue si `attribute::AllowDirectUrls` est définie.
+*`foreignReq`* Peut être soit une URL relative à `attribute::RootUrl`, ou une URL absolue si `attribute::AllowDirectUrls` est définie.
 
 If *`catId`* n’est pas spécifié, le catalogue de sessions est utilisé.
 
@@ -99,7 +99,7 @@ Pour obtenir la liste complète des formats de fichiers pris en charge, reportez
 
 ## Propriétés {#section-e68d03788d534e2184147987d51dfd0f}
 
-Attribut de matière. Requis pour tous les matériaux, à l&#39;exception des couleurs solides (non autorisées pour les matériaux de couleur solides). Toutes les chaînes sont sensibles à la casse. *`index`* Doit être supérieur ou égal à 0.
+Attribut de matière. Requis pour tous les matériaux, à l&#39;exception des couleurs solides (non autorisées pour les matériaux de couleur solides). Toutes les chaînes respectent la casse. *`index`* Doit être supérieur ou égal à 0.
 
 ## Par défaut {#section-dde549c1917540dc8f9555962202da3c}
 

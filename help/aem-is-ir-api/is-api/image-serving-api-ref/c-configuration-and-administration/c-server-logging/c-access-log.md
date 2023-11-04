@@ -1,20 +1,20 @@
 ---
-description: Il s’agit du Principal journal qui effectue le suivi de toutes les requêtes HTTP envoyées au [!DNL Platform Server]. S’il est activé, le rendu d’image écrit ses données de journal d’accès dans le même fichier.
+description: Il s’agit du journal principal qui effectue le suivi de toutes les requêtes HTTP envoyées au [!DNL Platform Server]. S’il est activé, le rendu d’image écrit ses données de journal d’accès dans le même fichier.
 solution: Experience Manager
 title: Journal d’accès
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: e7f9d935-cb98-404c-8922-6420a4217733
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
 
 # Journal d’accès{#access-log}
 
-Il s’agit du Principal journal qui effectue le suivi de toutes les requêtes HTTP envoyées au [!DNL Platform Server]. S’il est activé, le rendu d’image écrit ses données de journal d’accès dans le même fichier.
+Il s’agit du journal principal qui effectue le suivi de toutes les requêtes HTTP envoyées au [!DNL Platform Server]. S’il est activé, le rendu d’image écrit ses données de journal d’accès dans le même fichier.
 
 Le journal des accès est configuré dans server.xml.
 

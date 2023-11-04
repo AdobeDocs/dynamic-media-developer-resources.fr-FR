@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5ea8eb18-d169-4255-b4b1-dda849246485
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '160'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ Origine du calque.
 >
 >Le calque recette inclut toujours toute modification apportée par `extend=`.
 
-Définit le point d’alignement du rectangle du calque, utilisé pour positionner le rectangle du calque par rapport au calque 0 via `pos=`. `originN=0,0` positionne l’origine du calque au centre du rectangle du calque. `originN=-0.5,-0.5` et `origin=0,0` est le coin supérieur gauche, et `originN=0.5,0.5` est le coin inférieur droit du rectangle du calque.
+Définit le point d’alignement du rectangle du calque, utilisé pour positionner le rectangle du calque par rapport au calque 0 au moyen de la propriété `pos=`. `originN=0,0` positionne l’origine du calque au centre du rectangle du calque. `originN=-0.5,-0.5` et `origin=0,0` est le coin supérieur gauche, et `originN=0.5,0.5` est le coin inférieur droit du rectangle du calque.
 
 ## Propriétés {#section-60f639e36ada43d1abc6bfc100afc925}
 

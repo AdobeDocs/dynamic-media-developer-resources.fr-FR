@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 82117b6e-c0be-4538-90ab-8def7521b49c
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '2606'
 ht-degree: 2%
@@ -76,7 +76,7 @@ background-image:url(images/v2/EmbedShare_dark_disabled.png);
 }
 ```
 
-La superposition en arrière-plan qui couvre la page web lorsque la boîte de dialogue est principale est contrôlée avec le sélecteur de classe CSS suivant :
+La superposition en arrière-plan qui couvre la page web lorsque la boîte de dialogue est active est contrôlée avec le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogsearchviewer .s7embeddialog .s7backoverlay
@@ -88,7 +88,7 @@ La superposition en arrière-plan qui couvre la page web lorsque la boîte de di
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opacité </span> </p> </td> 
-   <td colname="col2"> <p>Opacité de la superposition en arrière-plan. </p> </td> 
+   <td colname="col2"> <p>Opacité du recouvrement en arrière-plan. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
@@ -122,7 +122,7 @@ Par défaut, la boîte de dialogue modale s’affiche centrée dans l’écran s
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
-   <td colname="col2"> <p>Couleur d’arrière-plan de la boîte de dialogue. </p> </td> 
+   <td colname="col2"> <p>Couleur de fond de la boîte de dialogue. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -168,7 +168,7 @@ L’icône et le texte du titre sont placés dans un conteneur supplémentaire c
 .s7ecatalogsearchviewer .s7embeddialog .s7dialogheader .s7dialogline
 ```
 
-**Propriétés CSS de la ligne de boîte de dialogue**
+**Propriétés CSS de la ligne de dialogue**
 
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
@@ -336,7 +336,7 @@ Propriétés **CSS du pied de page de la boîte de dialogue **
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bordure </span> </p> </td> 
-   <td colname="col2"> <p> Bordure que vous pouvez utiliser pour séparer visuellement le pied de page du reste de la boîte de dialogue. </p> </td> 
+   <td colname="col2"> <p> Bordure permettant de séparer visuellement le pied de page du reste de la boîte de dialogue. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -399,7 +399,7 @@ Le bouton Annuler est contrôlé à l’aide du sélecteur de classe CSS suivant
 .s7ecatalogsearchviewer .s7embeddialog .s7dialogcancelbutton
 ```
 
-**Propriétés CSS du bouton d’annulation de la boîte de dialogue**
+**Propriétés CSS du bouton Annuler de la boîte de dialogue**
 
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
@@ -685,7 +685,7 @@ Le code incorporé est encapsulé dans un conteneur et contrôlé à l’aide du
  </tbody> 
 </table>
 
-Exemple : pour définir une bordure grise d’un pixel autour du texte du code incorporé, faites-la 430 pixels de large et ajoutez une marge intérieure de dix pixels :
+Exemple : pour définir une bordure grise d’un pixel autour du texte du code incorporé, faites-la 430 pixels de large et faites dix pixels de remplissage :
 
 ```
 .s7ecatalogsearchviewer .s7embeddialog .s7dialoginputcontainer { 
@@ -726,7 +726,7 @@ Le libellé de taille d’incorporation et la liste déroulante se trouvent au b
 .s7ecatalogsearchviewer .s7embeddialog .s7dialogembedsizepanel
 ```
 
-**Propriétés CSS du panneau Taille de la boîte de dialogue**
+**Propriétés CSS du panneau Taille de la boîte de dialogue intégrée**
 
 <table id="table_6BA2769361BA4EC4AB7D250EC9486CB2"> 
  <tbody> 
@@ -751,7 +751,7 @@ La taille et l’alignement du libellé de taille d’intégration sont contrôl
 .s7ecatalogsearchviewer .s7embeddialog .s7dialogembedsizepanel
 ```
 
-**Propriétés CSS du panneau Taille de la boîte de dialogue**
+**Propriétés CSS du panneau Taille de la boîte de dialogue intégrée**
 
 <table id="table_8E50C63C9B1349999251CDB5E5AD3D1D"> 
  <tbody> 
@@ -781,7 +781,7 @@ La largeur de la zone combinée de taille d’intégration est contrôlée avec 
 .s7ecatalogsearchviewer .s7embeddialog .s7combobox
 ```
 
-**Propriétés CSS de la zone de liste modifiable**
+**Propriétés CSS de la zone combinée**
 
 <table id="table_C0FEA0C7353F40039204641BB3F1AE14"> 
  <tbody> 
@@ -902,7 +902,7 @@ Le panneau avec la liste des tailles d’intégration affichée à l’ouverture
 
 La taille et la position du panneau sont contrôlées par le composant. Il n’est pas possible de le modifier via CSS.
 
-**Propriétés CSS de la liste déroulante de zone de liste modifiable**
+**Propriétés CSS de la liste déroulante de zone combinée**
 
 <table id="table_FA7345321C6A4E63B4B78ECF81CE18DB"> 
  <tbody> 
@@ -1002,7 +1002,7 @@ Lorsque l’option &quot;Taille personnalisée&quot; est sélectionnée dans la 
  </tbody> 
 </table>
 
-Exemple : pour définir la taille personnalisée du panneau des champs d’entrée sur 20 pixels à droite de la zone de liste modifiable :
+Exemple : pour définir la taille personnalisée du panneau des champs d’entrée sur 20 pixels à droite de la zone combinée :
 
 ```
 .s7ecatalogsearchviewer .s7embeddialog .s7dialogcustomsizepanel { 
@@ -1039,7 +1039,7 @@ Chaque champ d’entrée de taille personnalisée est encapsulé dans un contene
  </tbody> 
 </table>
 
-Exemple : pour définir la taille personnalisée des champs de saisie sur une bordure grise d’un pixel, une marge, une marge intérieure et une largeur de 70 pixels :
+Exemple : pour définir la taille personnalisée des champs d’entrée pour qu’ils aient une bordure grise d’un pixel, une marge, une marge intérieure et une largeur de 70 pixels :
 
 ```
 .s7ecatalogsearchviewer .s7embeddialog .s7dialogcustomsize { 
@@ -1051,7 +1051,7 @@ Exemple : pour définir la taille personnalisée des champs de saisie sur une bo
 }
 ```
 
-Si un défilement vertical est nécessaire, la barre de défilement est rendue dans le panneau près du bord droit de la boîte de dialogue, qui est contrôlée avec le sélecteur de classe CSS suivant :
+Si un défilement vertical est nécessaire, la barre de défilement s’affiche dans le panneau près du bord droit de la boîte de dialogue, qui est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogsearchviewer .s7embeddialog .s7dialogscrollpanel
@@ -1116,13 +1116,13 @@ Exemple : pour configurer une barre de défilement de 28 pixels de large et dont
 }
 ```
 
-Le suivi de la barre de défilement est la zone entre les boutons de défilement supérieur et inférieur. Le composant définit automatiquement la position et la hauteur du suivi. Le suivi est contrôlé à l’aide du sélecteur de classe CSS suivant
+Le suivi de la barre de défilement est la zone entre les boutons de défilement supérieur et inférieur. Le composant définit automatiquement la position et la hauteur du suivi. Le suivi est contrôlé par le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogsearchviewer .s7embeddialog .s7scrollbar .s7scrolltrack
 ```
 
-**Propriétés CSS du suivi de la barre de défilement**
+**Propriétés CSS de la barre de défilement**
 
 <table id="table_19CF5503C1D34ED9998D4F4A6DA7D5D5"> 
  <tbody> 
@@ -1132,7 +1132,7 @@ Le suivi de la barre de défilement est la zone entre les boutons de défilement
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
-   <td colname="col2"> <p> Suivi de la couleur d’arrière-plan. </p> </td> 
+   <td colname="col2"> <p> Suivi de la couleur de fond. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1146,7 +1146,7 @@ background-color: #B2B2B2;
 }
 ```
 
-La barre de défilement se déplace verticalement dans une zone de suivi de défilement. Sa position verticale est entièrement contrôlée par la logique du composant. Toutefois, la hauteur de la miniature ne change pas dynamiquement en fonction de la quantité de contenu. La hauteur du pouce et d’autres aspects peuvent être configurés avec le sélecteur de classe CSS suivant :
+Le curseur de la barre de défilement se déplace verticalement dans une zone de suivi de défilement. Sa position verticale est entièrement contrôlée par la logique du composant. Toutefois, la hauteur de la miniature ne change pas dynamiquement en fonction de la quantité de contenu. La hauteur du pouce et d’autres aspects peuvent être configurés avec le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogsearchviewer .s7embeddialog .s7scrollbar .s7scrollthumb
@@ -1220,7 +1220,7 @@ L’aspect des boutons de défilement haut et bas est contrôlé à l’aide des
 .s7ecatalogsearchviewer .s7embeddialog .s7scrollbar .s7scrolldownbutton
 ```
 
-Il n’est pas possible de positionner des boutons de défilement à l’aide de CSS `top`, `left`, `bottom`, et `right` propriétés. À la place, la logique de la visionneuse les positionne automatiquement.
+Il n’est pas possible de positionner des boutons de défilement à l’aide de CSS `top`, `left`, `bottom`, et `right` propriétés. La logique de la visionneuse les positionne automatiquement.
 
 **Propriétés CSS des boutons de défilement haut et bas**
 
@@ -1247,7 +1247,7 @@ Il n’est pas possible de positionner des boutons de défilement à l’aide de
 
 >[!NOTE]
 >
->Ces boutons prennent en charge la fonction `state` le sélecteur d’attributs, qui peut être utilisé pour appliquer différents habillages à différents états de bouton : `up`, `down`, `over`, et `disabled`.
+>Ces boutons prennent en charge les `state` le sélecteur d’attributs, qui peut être utilisé pour appliquer différents habillages à différents états de bouton : `up`, `down`, `over`, et `disabled`.
 
 Les info-bulles des boutons peuvent être localisées. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 

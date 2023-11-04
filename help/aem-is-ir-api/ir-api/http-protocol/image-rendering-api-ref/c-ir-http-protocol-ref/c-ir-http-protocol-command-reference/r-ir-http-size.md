@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 756d8b9f-076a-48d6-95c9-e0d6caeed3dd
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -35,11 +35,11 @@ If *`thickness`* est spécifié, une ombre portée est générée si l’objet d
 
 ## Propriétés {#section-818e01e91fed4015951189c818ef28d8}
 
-Attribut de matière. Uniquement utilisée par les décalques ; ignoré par tous les autres matériaux. `res=` est ignorée si la largeur ou la hauteur est supérieure à 0. Les valeurs ne doivent pas être négatives.
+Attribut de matière. Uniquement utilisée par les décalcomanies ; ignorée de tous les autres matériaux. `res=` est ignorée si la largeur ou la hauteur est supérieure à 0. Les valeurs ne doivent pas être négatives.
 
 ## Par défaut {#section-f91f516c6af54f0eb4d8c964b923cae0}
 
-`catalog::Size` si le matériau de la décomposition est basé sur une entrée de catalogue ; other `size=0,0,0`. La taille de la décimale est calculée à partir de `res=` if *`wid`* et *`hei`* ne sont pas spécifiées ou sont définies sur 0. Aucune ombre portée n’est générée si *`thickness`* n’est pas spécifié ou défini sur 0.
+`catalog::Size` si le contenu de la cale est basé sur une entrée de catalogue ; autrement `size=0,0,0`. La taille de la décimale est calculée à partir de `res=` if *`wid`* et *`hei`* ne sont pas spécifiées ou sont définies sur 0. Aucune ombre portée n’est générée si *`thickness`* n’est pas spécifié ou défini sur 0.
 
 ## Exemple {#section-04fdc2b60b9e4071b672bf6a913738ad}
 

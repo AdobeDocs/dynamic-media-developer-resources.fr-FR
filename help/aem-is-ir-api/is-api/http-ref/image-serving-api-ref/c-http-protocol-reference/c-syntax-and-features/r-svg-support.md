@@ -5,9 +5,9 @@ title: Prise en charge des SVG
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 60e40195-710f-4f03-b152-52eaa10c5b21
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 La diffusion d’images prend en charge les fichiers Vector Graphics (SVG) évolutifs en tant que données source. La conformité à SVG 1.1 est requise.
 
-La diffusion d’images ne reconnaît que les contenus des SVG statiques ; les animations, les scripts et autres contenus interactifs ne sont pas pris en charge.
+La diffusion d’images ne reconnaît que les contenus de SVG statiques ; les animations, les scripts et autres contenus interactifs ne sont pas pris en charge.
 
 SVG peut être spécifié partout où les fichiers image sont autorisés (chemin d’accès URL, `src=`, et `mask=`). Une fois le contenu du fichier du SVG pixellisé, il est géré comme une image.
 
@@ -64,11 +64,11 @@ Ce modèle de SVG peut être utilisé comme suit :
 
 ## Restrictions {#section-daa5eccd07204aaf993be41e87822d54}
 
-Les fichiers du SVG doivent être autonomes et ne doivent pas référencer de fichiers ou de ressources secondaires, à l’exception des images externes référencées avec les demandes de diffusion d’images ou de rendu d’images (voir ci-dessus).
+Les fichiers du SVG doivent être autonomes et ne doivent référencer aucun fichier ou ressource secondaire, à l’exception des images externes référencées avec les demandes de diffusion d’images ou de rendu d’images (voir ci-dessus).
 
-Seul le contenu statique est rendu. Animation, fonctions interactives, telles que des boutons, etc. peut être présent, mais peut ne pas être rendu comme prévu.
+Seul le contenu statique est rendu. Animation, fonctions interactives, telles que les boutons, etc. peut être présent, mais peut ne pas être rendu comme prévu.
 
-Les spécifications de couleur basées sur un profil ICC ne sont pas prises en charge pour le moment.
+Les spécifications de couleur basées sur un profil ICC ne sont pas prises en charge pour l’instant.
 
 `<script>` peuvent être présents, mais ils sont toujours ignorés.
 

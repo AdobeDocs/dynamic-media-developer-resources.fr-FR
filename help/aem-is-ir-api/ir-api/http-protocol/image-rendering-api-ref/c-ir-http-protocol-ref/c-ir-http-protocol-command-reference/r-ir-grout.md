@@ -1,20 +1,20 @@
 ---
 title: grout
-description: 'Mosaïque : couleur et épaisseur du sol. Simule le grout pour les tuiles en céramique et en pierre naturelle.'
+description: Couleur et épaisseur du sol en mosaïque. Simule le grout pour les tuiles en céramique et en pierre naturelle.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6647b459-11d2-47e4-9033-3a740f01a623
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
 # grout {#grout}
 
-Mosaïque : couleur et épaisseur du sol. Simule le grout pour les tuiles en céramique et en pierre naturelle.
+Couleur et épaisseur du sol en mosaïque. Simule le grout pour les tuiles en céramique et en pierre naturelle.
 
 grout= *`color`*[,*`width`*]
 
@@ -25,7 +25,7 @@ grout= *`color`*[,*`width`*]
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td>
-  <td class="stentry"> <p>Épaisseur du sol; unités de coordonnées de scène (généralement pouces) (réelles). </p> </td>
+  <td class="stentry"> <p>Epaisseur du sol ; unités de coordonnées de scène (généralement pouces) (réelles). </p> </td>
  </tr> 
 </table>
 

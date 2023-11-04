@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f1200d86-d88c-4990-ae36-2ce96ae94343
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 1%
+source-wordcount: '382'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ Sélectionnez Calque. Sélectionne un calque et lance un nouveau segment de déf
 
 `layer= *`n`*|comp[, *`name`*]`
 
-`layer= *`name`*`
+`layer= *`nom`*`
 
 <table id="simpletable_22DE3365A6454949B0D30C6D7110476E"> 
  <tr class="strow"> 
@@ -31,7 +31,7 @@ Sélectionnez Calque. Sélectionne un calque et lance un nouveau segment de déf
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> name</span></span> </p></td> 
-  <td class="stentry"> <p>Nom de couche. </p></td> 
+  <td class="stentry"> <p>Nom du calque. </p></td> 
  </tr> 
 </table>
 
@@ -65,11 +65,11 @@ Couche, commande. Les références de variables de substitution ne sont pas pris
 * Si le même nom est mappé sur un seul calque plusieurs fois (par exemple : `layer=1,image&layer=1,image`), la portée est définie comme d’habitude, sans erreur.
 * Plusieurs noms pour le même calque sont pris en charge.
 
-   N’importe quel nom peut être utilisé pour référencer le calque (par exemple : `layer=1,image&layer=1,picture`).
+  N’importe quel nom peut être utilisé pour référencer le calque (par exemple : `layer=1,image&layer=1,picture`).
 * Si un nom référencé n’est jamais mappé à un numéro de calque (par exemple : `layer=1,image&layer=picture`), une erreur se produit.
 * Les variables de substitution ne sont pas prises en charge dans les modificateurs de calque (par exemple : `layer=$image$`).
 
-   Cela s’applique à toutes les permutations, non seulement aux noms de calque, mais aussi aux modificateurs de calque en général.
+  Cela s’applique à toutes les permutations, non seulement aux noms de calque, mais aussi aux modificateurs de calque en général.
 
 * Toutes les règles de fusion et de remplacement doivent fonctionner exactement comme lorsqu’une même couche est référencée dans plusieurs sources (enregistrements de catalogue de modificateurs de requête, de pré-modification ou de publication, macros, etc.).
 

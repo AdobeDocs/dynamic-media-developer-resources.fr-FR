@@ -2,12 +2,12 @@
 description: Quatre types de calques sont pris en charge.
 solution: Experience Manager
 title: Types de calques
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9819a73d-1108-414a-831f-37ba94c3feb9
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,15 @@ Quatre types de calques sont pris en charge.
 
 ## Calques d’image {#section-3e53df1437694272aca03f927fc0db07}
 
-Les calques d’image doivent comporter une commande `src=` qui spécifie l’image à utiliser comme calque. Une image distincte peut être spécifiée avec `mask=` à utiliser comme masque de calque ou l’image peut déjà avoir un canal alpha. La taille des calques d’image est toujours dérivée de l’image, mais l’image est souvent mise à l’échelle pour s’adapter à l’aide de la commande `size=`. Un chemin de clip peut être appliqué avec `clipPath=`.
+Les calques d’image doivent avoir une `src=` qui spécifie l’image à utiliser comme calque. Une image distincte peut être spécifiée avec `mask=` à utiliser comme masque de calque ou l&#39;image peut déjà avoir un canal alpha. La taille des calques d’image est toujours dérivée de l’image, mais l’image est souvent mise à l’échelle de manière à s’adapter à l’aide de la fonction `size=` . Un chemin de clip peut être appliqué avec `clipPath=`.
 
 ## Calques de texte {#section-dc2aec6416a340bcb20c1f884323c8d0}
 
-Doit comporter une commande `text=` ou `textPs=` qui fournit le contenu texte sous la forme d’un fragment de texte au format texte enrichi (RTF). Les calques de texte peuvent être redimensionnés automatiquement en fonction de leur contenu ou peuvent se voir attribuer des tailles explicites (par exemple, si le texte doit être encapsulé sur une largeur spécifique ou si le texte doit être limité dans une zone spécifique). `textPs=` prise en charge du flux de texte en formes arbitraires définies avec  `textFlowPath=` et sur des chemins arbitraires définis avec  `textPath=`. `textPs=` prend également en charge le rendu du texte dans la zone de texte ou la forme spécifiée à des angles arbitraires (  `textAngle=`).
+Doit comporter un `text=` ou `textPs=` qui fournit le contenu texte sous la forme d’un fragment de texte au format texte enrichi (RTF). Les calques de texte peuvent être redimensionnés automatiquement en fonction de leur contenu ou leur donner des tailles explicites. Par exemple, si le texte doit être encapsulé sur une largeur spécifique ou s’il doit être limité dans une zone spécifique. `textPs=` prise en charge du flux de texte en formes arbitraires définies avec `textFlowPath=` et sur des chemins arbitraires définis avec `textPath=`. `textPs=` prend également en charge le rendu du texte dans la zone de texte ou la forme spécifiée à des angles arbitraires ( `textAngle=`).
 
 ## Calques de couleur unie {#section-56dfb672756643dda08dc93294809eb0}
 
-Les calques de couleur unie sont souvent utilisés pour le calque 0 dans les modèles, de sorte que la taille de l’image composite est fixe et indépendante de tout contenu d’image. Les calques de couleur unie requièrent un attribut `color=` et `size=` ou `mask=`. Ils prennent également en charge la plupart des autres commandes et attributs pour modifier l’aspect. Les calques de couleur unie peuvent recevoir des formes arbitraires avec `clipPath=`.
+Les calques de couleur unie sont souvent utilisés pour le calque 0 dans les modèles, de sorte que la taille de l’image composite est fixe et indépendante de tout contenu d’image. Les calques de couleur solides nécessitent une `color=` et `size=` ou `mask=`et prennent en charge la plupart des autres commandes et attributs pour modifier l’aspect. Les calques de couleur solides peuvent se voir attribuer des formes arbitraires avec `clipPath=`.
 
 ## Calques d’effet {#section-dd3b628bc6734077af4c0ddcebcee05f}
 

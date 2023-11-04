@@ -2,13 +2,13 @@
 description: Type de matériau. Type de surface du matériau. Utilisé conjointement avec l’éclat du catalogue et la rugosité du catalogue pour contrôler les effets de rendu de reflet 3D.
 solution: Experience Manager
 title: Type
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 912e2535-9980-4174-bca7-f44789eb39b4
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 26%
+source-wordcount: '132'
+ht-degree: 19%
 
 ---
 
@@ -47,7 +47,7 @@ Enum. Facultatif pour tous les matériaux. Ignoré si la vignette ne possède pa
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>6 </p> </td> 
-  <td class="stentry"> <p>Peinture. </p> </td> 
+  <td class="stentry"> <p>Peindre. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>7 </p> </td> 
@@ -67,15 +67,15 @@ Enum. Facultatif pour tous les matériaux. Ignoré si la vignette ne possède pa
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>11 </p> </td> 
-  <td class="stentry"> <p>Stratifié. </p> </td> 
+  <td class="stentry"> <p>aminé. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>12 </p> </td> 
-  <td class="stentry"> <p>Vinyle. </p> </td> 
+  <td class="stentry"> <p>Vinyl. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>13 </p> </td> 
-  <td class="stentry"> <p>Céramique. </p> </td> 
+  <td class="stentry"> <p>De la céramique. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>14 </p> </td> 
@@ -91,7 +91,7 @@ Enum. Facultatif pour tous les matériaux. Ignoré si la vignette ne possède pa
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>17 </p> </td> 
-  <td class="stentry"> <p>Tissu. </p> </td> 
+  <td class="stentry"> <p>Fabric. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>18 </p> </td> 
@@ -105,8 +105,8 @@ Enum. Facultatif pour tous les matériaux. Ignoré si la vignette ne possède pa
 
 ## Par défaut {#section-247f73b22cb846b7b7d7cc6e8af949ca}
 
-0; le serveur détermine une valeur par défaut appropriée en fonction d’autres attributs matériels.
+0 ; le serveur détermine une valeur par défaut appropriée en fonction d’autres attributs matériels.
 
 ## Voir aussi {#section-a51850093b7140e683a0f8b07845843c}
 
-[catalogue ::Glessure](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-gloss.md#reference-5277f62a67e2408ab94699aa712f1eeb) ,  [catalogue ::Roghness](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-roughness.md#reference-79f748ac642745e3b81795a99f61fa99),  [type=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md#reference-128c7de89e2d46838019b560f3f84a35)
+[catalogue : Glessé](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-gloss.md#reference-5277f62a67e2408ab94699aa712f1eeb) , [catalogue : Roghness](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-roughness.md#reference-79f748ac642745e3b81795a99f61fa99), [type=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-type.md#reference-128c7de89e2d46838019b560f3f84a35)

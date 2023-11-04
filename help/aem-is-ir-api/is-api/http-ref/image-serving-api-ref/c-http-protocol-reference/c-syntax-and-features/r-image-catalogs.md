@@ -5,9 +5,9 @@ title: Catalogues d’images
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 54c83ad2-a932-4df2-92ff-ab34d4a5b1a7
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ Les catalogues d’images offrent les fonctionnalités suivantes :
 
 * Autoriser l’association persistante des images avec certaines commandes de métadonnées et de modificateur.
 
-   Les entrées des catalogues d’images sont référencées à l’aide d’une notation par raccourci. `*`rootId/objId`*`où `*`rootId`*` identifie le catalogue d’images et `*`objId`*` identifie un enregistrement de données dans le catalogue.
+  Les entrées des catalogues d’images sont référencées à l’aide d’une notation par raccourci. `*`rootId/objId`*`, où `*`rootId`*` identifie le catalogue d’images et `*`objId`*` identifie un enregistrement de données dans le catalogue.
 * Indiquez les valeurs par défaut de certains attributs de requête, tels que la qualité du JPEG ou l’application d’un filigrane.
 * Gestion des polices, des profils ICC, des définitions de macro et des modèles de requête
 
-Même si aucun catalogue d’images spécifique n’est défini, toutes les fonctionnalités des catalogues d’images sont disponibles via le catalogue par défaut ( [!DNL default.ini]).
+Même si aucun catalogue d’images spécifique n’est défini, toutes les fonctionnalités des catalogues d’images sont disponibles par le biais du catalogue par défaut ( [!DNL default.ini]).
 
 If `*`rootId`*` dans les correspondances du chemin d’URL de la requête `attribute::RootId` d’un catalogue d’images spécifique, ce catalogue devient le catalogue principal de cette demande. Le catalogue principal fournit les attributs et paramètres par défaut pour l’ensemble de la requête. Si aucune correspondance n’est trouvée, le catalogue par défaut est utilisé à la place.
 
@@ -44,7 +44,7 @@ Un catalogue identifié dans un `src=` ou `mask=` fournit les attributs et donn�
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::Expiration</span> </p> </td> 
-   <td> <p> valeur par défaut pour <span class="codeph"> catalogue : Expiration</span> ou expiration du calque actif si aucun enregistrement de catalogue n’est impliqué </p> </td> 
+   <td> <p> valeur par défaut <span class="codeph"> catalogue : Expiration</span> ou expiration du calque actif si aucun enregistrement de catalogue n’est impliqué </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::Icc*</span> </p> </td> 
@@ -56,7 +56,7 @@ Un catalogue identifié dans un `src=` ou `mask=` fournit les attributs et donn�
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::Resolution</span> </p> </td> 
-   <td> <p> valeur par défaut pour <span class="codeph"> catalogue : résolution</span> only </p> </td> 
+   <td> <p> valeur par défaut <span class="codeph"> catalogue : résolution</span> only </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalogue : Ancre</span> </p> </td> 
@@ -68,7 +68,7 @@ Un catalogue identifié dans un `src=` ou `mask=` fournit les attributs et donn�
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalogue : IccProfile</span> </p> </td> 
-   <td> <p> le profil colorimétrique de l’image source pour le calque actif ; </p> </td> 
+   <td> <p> le profil de couleur de l’image source pour le calque actif ; </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalogue : Carte</span> </p> </td> 
@@ -76,7 +76,7 @@ Un catalogue identifié dans un `src=` ou `mask=` fournit les attributs et donn�
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalogue ::MaskPath</span> </p> </td> 
-   <td> <p> valeur par défaut pour <span class="codeph"> mask=</span> pour le calque actif </p> </td> 
+   <td> <p> valeur par défaut <span class="codeph"> mask=</span> pour le calque actif </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalogue : Modificateur</span> </p> </td> 

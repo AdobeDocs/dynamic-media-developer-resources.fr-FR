@@ -5,9 +5,9 @@ title: Cartes d’images
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9a685f9d-205d-43b3-b5fe-3ae324fe153e
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 IS fournit des mécanismes pour simplifier l’utilisation des zones cliquables de HTML. Les visionneuses JAVA et par Flash dans IS incluent également une prise en charge limitée des zones cliquables.
 
-Les zones cliquables source sont fournies à IS via `catalog::Map` ou avec la fonction `map=` et les mappages traités sont récupérés à l’aide de la commande `req=map` .
+Les zones cliquables source sont fournies à IS par le biais de `catalog::Map` ou avec la fonction `map=` et les mappages traités sont récupérés à l’aide de la commande `req=map` .
 
-Une zone cliquable se compose d’un ou de plusieurs éléments de zone de HTML, délimités de manière appropriée par &quot;&lt;&quot; et &quot;>&quot;. Si elles sont fournies par catalog::Map, toutes les valeurs de coordonnées en pixels sont supposées se trouver dans la résolution de l’image d’origine et relatives par rapport au coin supérieur gauche de l’image source (non modifiée). Lorsqu’il est fourni via un `map=` , les valeurs de coordonnée sont supposées être des coordonnées de calque, par rapport au coin supérieur gauche du calque (après `rotate=` et `extend=`).
+Une zone cliquable se compose d’un ou de plusieurs éléments de zone de HTML, délimités de manière appropriée par &quot;&lt;&quot; et &quot;>&quot;. Si elles sont fournies par le biais de catalog::Map, toutes les valeurs de coordonnées en pixels sont supposées se trouver dans la résolution de l’image d’origine et relatives par rapport au coin supérieur gauche de l’image source (non modifiée). Lorsqu’il est fourni au moyen d’une `map=` , les valeurs de coordonnée sont supposées être des coordonnées de calque, par rapport au coin supérieur gauche du calque (après `rotate=` et `extend=`).
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Une zone cliquable se compose d’un ou de plusieurs éléments de zone de HTML,
 
 IS génère une zone cliquable composite à partir des zones cliquables source de chaque couche constituante en appliquant les transformations spatiales (telles que la mise à l’échelle et la rotation) aux coordonnées de la carte, puis en assemblant les zones cliquables traitées dans l’ordre z approprié (avant vers l’arrière) et avec le positionnement approprié.
 
-Les commandes suivantes sont prises en compte pour le traitement de la zone cliquable lorsqu’elles sont fournies conjointement avec `req=map` (directement dans la requête, via des modèles de catalogue, ou dans `catalog::Modifier` chaînes) :
+Les commandes suivantes sont prises en compte pour le traitement de la zone cliquable lorsqu’elles sont fournies conjointement avec `req=map` (directement dans la requête, au moyen de modèles de catalogue, ou dans `catalog::Modifier` chaînes) :
 
 * `align=`
 * `wid=`
@@ -47,11 +47,11 @@ Les commandes suivantes sont prises en compte pour le traitement de la zone cliq
 
 Toutes les autres commandes sont effectivement ignorées.
 
-Le `SHAPE` et `COORDS` attributs d’un `AREA` peut être modifié lors du traitement d’une `req=map` requête, tous les autres attributs de la fonction `AREA` sont transmis sans modification. Dans la plupart des cas, cela implique de modifier la variable `SHAPE` de `DEFAULT` to `RECT` Cela ajouterait également la variable `COORDS` ) ou en modifiant la variable `COORDS` valeurs.
+La variable `SHAPE` et `COORDS` attributs d’un `AREA` peut être modifié lors du traitement d’une `req=map` requête, tous les autres attributs de la fonction `AREA` sont transmis sans modification. Dans la plupart des cas, cela implique de modifier la variable `SHAPE` valeur de `DEFAULT` to `RECT` (cela ajouterait également la variable `COORDS` ) ou en modifiant la variable `COORDS` valeurs.
 
 Quelconque `AREA` les éléments qui deviennent vides lors du traitement sont entièrement supprimés. Si une map est associée à `layer=comp` il est placé derrière toutes les autres cartes. Les données sont renvoyées sous forme texte un par HTML ou plus. `AREA` éléments . Une chaîne de réponse vide indique qu’il n’existe aucune zone cliquable pour le ou les objets spécifiés.
 
-La transparence des calques n’est pas prise en compte pour le traitement des cartes. Un calque entièrement transparent peut toujours être associé à une zone cliquable. La carte d’un calque partiellement transparent ne sera pas tronquée dans les régions transparentes.
+La transparence des calques n’est pas prise en compte pour le traitement des cartes. Un calque entièrement transparent peut toujours être associé à une zone cliquable. La carte d’un calque partiellement transparent n’est pas tronquée dans les régions transparentes.
 
 ## Voir aussi {#see-also}
 

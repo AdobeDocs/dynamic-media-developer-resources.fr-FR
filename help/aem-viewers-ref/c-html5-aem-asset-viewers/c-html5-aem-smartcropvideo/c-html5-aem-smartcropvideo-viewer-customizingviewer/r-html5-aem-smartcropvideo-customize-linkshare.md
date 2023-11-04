@@ -4,7 +4,8 @@ description: L’outil Partage de liens est constitué d’un bouton ajouté au 
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 6f2b832f-e627-428a-8673-129bfa58c7e2
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '1374'
 ht-degree: 2%
@@ -75,7 +76,7 @@ background-image:url(images/v2/LinkShare_dark_disabled.png);
 }
 ```
 
-La superposition en arrière-plan qui couvre la page web lorsque la boîte de dialogue est principale est contrôlée avec le sélecteur de classe CSS suivant :
+La superposition en arrière-plan qui couvre la page web lorsque la boîte de dialogue est active est contrôlée avec le sélecteur de classe CSS suivant :
 
 ```
 .s7smartcropvideoviewer .s7linkdialog .s7backoverlay
@@ -87,7 +88,7 @@ La superposition en arrière-plan qui couvre la page web lorsque la boîte de di
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opacité </span> </p> </td> 
-   <td colname="col2"> <p>Opacité de la superposition en arrière-plan. </p> </td> 
+   <td colname="col2"> <p>Opacité du recouvrement en arrière-plan. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
@@ -121,7 +122,7 @@ Par défaut, la boîte de dialogue modale s’affiche centrée dans l’écran s
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
-   <td colname="col2"> <p>Couleur d’arrière-plan de la boîte de dialogue. </p> </td> 
+   <td colname="col2"> <p>Couleur de fond de la boîte de dialogue. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -167,7 +168,7 @@ L’icône et le texte du titre sont placés dans un conteneur supplémentaire c
 .s7smartcropvideoviewer .s7linkdialog .s7dialogheader .s7dialogline
 ```
 
-**Propriétés CSS de la ligne de boîte de dialogue**
+**Propriétés CSS de la ligne de dialogue**
 
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
@@ -335,7 +336,7 @@ Propriétés **CSS du pied de page de la boîte de dialogue **
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bordure </span> </p> </td> 
-   <td colname="col2"> <p> Bordure que vous pouvez utiliser pour séparer visuellement le pied de page du reste de la boîte de dialogue. </p> </td> 
+   <td colname="col2"> <p> Bordure permettant de séparer visuellement le pied de page du reste de la boîte de dialogue. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -398,7 +399,7 @@ Le bouton Annuler est contrôlé à l’aide du sélecteur de classe CSS suivant
 .s7smartcropvideoviewer .s7linkdialog .s7dialogcancelbutton
 ```
 
-**Propriétés CSS du bouton d’annulation de la boîte de dialogue**
+**Propriétés CSS du bouton Annuler de la boîte de dialogue**
 
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 

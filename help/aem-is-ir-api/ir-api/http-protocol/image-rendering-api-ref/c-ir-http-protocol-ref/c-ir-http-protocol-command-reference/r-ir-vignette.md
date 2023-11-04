@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8419d68d-7579-4e62-abbd-7dc0a736ae23
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 5%
+source-wordcount: '121'
+ht-degree: 4%
 
 ---
 
@@ -35,7 +35,7 @@ Fichier vignette. Indique la vignette à utiliser pour la requête.
 
 Peut spécifier une entrée de vignette ou un fichier de vignette. Les URL distantes ne sont pas autorisées.
 
-`vignette=` Peut être utilisé comme alternative à la spécification de la vignette dans le chemin de l’URL de requête. Permet de spécifier des vignettes via des variables dans des modèles.
+`vignette=` Peut être utilisé comme alternative à la spécification de la vignette dans le chemin de l’URL de requête. Permet de spécifier des vignettes au moyen de variables dans les modèles.
 
 If *`catId`* n’est pas spécifié, le catalogue de sessions est utilisé.
 

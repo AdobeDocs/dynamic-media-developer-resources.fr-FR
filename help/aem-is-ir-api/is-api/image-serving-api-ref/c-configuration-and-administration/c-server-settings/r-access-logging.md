@@ -5,10 +5,10 @@ title: Journalisation des accès
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: e677a617-115d-4f6e-9eb5-bdc14ad7ff24
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 4%
+source-wordcount: '673'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ Syntaxe
 
 ## TC::directory - Log File Folder {#section-5d9e2168d4504bbe9868b7d6051c9d67}
 
-Le dossier auquel la variable [!DNL Platform Server] écrit les fichiers journaux. Il peut s’agir d’un chemin absolu ou d’un chemin relatif à *`install_folder`*. La valeur par défaut est [!DNL  *`install_folder`*/logs].
+Le dossier auquel la variable [!DNL Platform Server] écrit les fichiers journaux. Il peut s’agir d’un chemin absolu ou relatif à *`install_folder`*. Par défaut : [!DNL  *`install_folder`*/logs].
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Le dossier auquel la variable [!DNL Platform Server] écrit les fichiers journau
 
 ## TC::maxDays - Nombre de jours pour conserver les fichiers journaux {#section-45cbecffc5694c87b7d5c176a44a4885}
 
-Le nombre de jours pendant lesquels les fichiers journaux doivent être conservés. De nouveaux fichiers journaux sont créés tous les jours à minuit. À l’heure actuelle, le serveur supprime tous les fichiers du dossier de fichiers journaux qui sont antérieurs au nombre de jours spécifié, y compris ceux écrits par le serveur d’images ou le serveur de rendu. Valeur par défaut : 10.
+Le nombre de jours pendant lesquels les fichiers journaux doivent être conservés. De nouveaux fichiers journaux sont créés tous les jours à minuit. Actuellement, le serveur supprime tous les fichiers du dossier de fichiers journaux qui sont antérieurs au nombre de jours spécifié, y compris ceux écrits par le serveur d’images ou le serveur de rendu. Valeur par défaut : 10.
 
 ## TC::prefix - Nom du fichier journal d’accès {#section-1003856323b844049632710a5a056aa7}
 
@@ -38,14 +38,14 @@ Préfixe du nom du fichier auquel les données du journal d’accès sont écrit
 
 Spécifie le modèle de données pour [!DNL Platform Server] accéder aux enregistrements du journal. La chaîne de modèle spécifie les variables qui sont remplacées par leurs valeurs correspondantes. Tous les autres caractères de la chaîne de modèle sont transférés littéralement vers l’enregistrement de journal.
 
-Pour utiliser l’utilitaire de nettoyage du cache, les espaces doivent être utilisés comme séparateurs de champ. Le [!DNL Platform Server] remplace tous les espaces et les caractères &quot;%&quot; dans les valeurs de champ par `%20` et `%25`, respectivement.
+Pour utiliser l’utilitaire de nettoyage du cache, les espaces doivent être utilisés comme séparateurs de champ. La variable [!DNL Platform Server] remplace tous les espaces et les caractères &quot;%&quot; dans les valeurs de champ par `%20` et `%25`, respectivement.
 
 Les variables de modèle suivantes sont prises en charge :
 
 <table id="table_7A07AFF34B5040A5B30F5735CFE9428F"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b>Motif</b> </th> 
+   <th class="entry"> <b>Modèle</b> </th> 
    <th class="entry"> <b>Description</b> </th> 
   </tr> 
  </thead>
@@ -76,7 +76,7 @@ Les variables de modèle suivantes sont prises en charge :
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %G </span> </p> </td> 
-   <td> <p>date et heure, au format <span class="codeph"> <span class="varname"> aaaa </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>: <span class="varname"> mm </span>: <span class="varname"> ss </span>. <span class="varname"> SSS </span> offset </span> </p> <p> ( <span class="varname"> SSS </span> sont msec, <span class="varname"> offset </span> est le décalage horaire GMT); la valeur time est capturée lorsque la réponse est envoyée au client. </p> </td> 
+   <td> <p>date et heure, au format <span class="codeph"> <span class="varname"> aaaa </span>- <span class="varname"> MM </span>- <span class="varname"> dd </span> <span class="varname"> HH </span>: <span class="varname"> mm </span>: <span class="varname"> ss </span>. <span class="varname"> SSS </span> offset </span> </p> <p> ( <span class="varname"> SSS </span> sont msec, <span class="varname"> offset </span> est le décalage horaire GMT) ; la valeur de délai est capturée lorsque la réponse est envoyée au client. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %m </span> </p> </td> 
@@ -148,7 +148,7 @@ Les variables de modèle suivantes sont prises en charge :
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Digest}r </span> </p> </td> 
-   <td> <p>Le <span class="codeph"> etag </span> valeur de l’en-tête de réponse (signature MD5 des données de réponse). </p> </td> 
+   <td> <p>La variable <span class="codeph"> etag </span> valeur de l’en-tête de réponse (signature MD5 des données de réponse). </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> %{Exception}r </span> </p> </td> 

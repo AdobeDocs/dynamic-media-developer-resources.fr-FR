@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: e3d3d33b-f6bb-4c5b-820c-028bfb6b2594
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 2%
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Les miniatures se composent d’une grille d’images miniatures avec une barre de défilement facultative sur le côté droit pour permettre le défilement vertical.
 
-Les miniatures sont activées en cliquant sur le bouton de miniature dans la barre de contrôle principale. Lorsque les miniatures sont principales, elles s’affichent en mode modal superposé sur l’interface utilisateur de la visionneuse. La logique de la visionneuse redimensionne automatiquement le conteneur de miniatures sur l’ensemble de la zone de visionneuse.
+Les miniatures sont activées en cliquant sur le bouton de miniature dans la barre de contrôle principale. Lorsque les miniatures sont actives, elles s’affichent en mode modal superposé sur l’interface utilisateur de la visionneuse. La logique de la visionneuse redimensionne automatiquement le conteneur de miniatures sur l’ensemble de la zone de visionneuse.
 
 L’aspect du conteneur de miniatures est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
@@ -133,7 +133,7 @@ Sur les appareils tactiles, lorsqu’ils sont pivotés en mode portrait, la visi
 >
 >La miniature prend en charge le `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la miniature de l’image actuellement affichée dans la vue principale, `state="default"` correspond au reste des miniatures, et `state="over"` est utilisée lorsque vous pointez avec la souris.
 
-Exemple : pour configurer des miniatures de 120 x 85 pixels, elles ont un arrière-plan blanc, une bordure standard gris clair et une bordure sélectionnée grise foncée.
+Exemple : pour configurer des miniatures de 120 x 85 pixels, elles ont un arrière-plan blanc, une bordure standard en gris clair et une bordure sélectionnée en gris foncé.
 
 ```
 .s7ecatalogviewer .s7thumbnailgridview .s7thumb { 
@@ -327,7 +327,7 @@ L’aspect des boutons de défilement haut et bas est contrôlé à l’aide des
 
 `.s7ecatalogviewer .s7thumbnailgridview .s7scrollbar .s7scrolldownbutton`
 
-Il n’est pas possible de positionner les boutons de défilement à l’aide de CSS `top`, `left`, `bottom`, et `right` propriétés. À la place, la logique de la visionneuse les positionne automatiquement.
+Il n’est pas possible de positionner les boutons de défilement à l’aide de CSS `top`, `left`, `bottom`, et `right` propriétés. La logique de la visionneuse les positionne automatiquement.
 
 <table id="table_89E64A138ABF463F9650BB454F22D530"> 
  <thead> 
@@ -358,7 +358,7 @@ Il n’est pas possible de positionner les boutons de défilement à l’aide de
 
 >[!NOTE]
 >
->Ces boutons prennent en charge la fonction `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents habillages aux différents états de bouton. `up`, `down`, `over`, et `disabled`.
+>Ces boutons prennent en charge les `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents habillages aux différents états de bouton. `up`, `down`, `over`, et `disabled`.
 
 L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 

@@ -2,12 +2,12 @@
 description: La diffusion d’images offre plusieurs alternatives au rendu du texte, accessibles par les commandes text= et textPs=.
 solution: Experience Manager
 title: Formatage de texte
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2c120ed1-b556-4caf-a30e-63ae48cc2104
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '558'
 ht-degree: 7%
 
 ---
@@ -153,11 +153,11 @@ Certains traitements de texte génèrent des fichiers plutôt volumineux, qui in
 
 L’encodage de langue basé sur les normes UTF-8 et ISO est pris en charge dans les chaînes RTF en tant qu’alternative aux mécanismes d’encodage de caractères RTF standard. Cela permet aux applications d’envoyer du texte non anglais au serveur sans connaissance du codage RTF.
 
-Tous les caractères non compatibles HTTP doivent être correctement échappés si la chaîne doit être transmise via http. Seuls &quot;=&quot;, &quot;&amp;&quot; et &quot;%&quot; doivent être précédés d’une séquence d’échappement si la chaîne est incorporée dans le champ `catalog::Modifiers` d’un enregistrement de catalogue d’images. Les caractères de contrôle, y compris `<CR>`, `<LF>` et `<TAB>`, doivent toujours être supprimés.
+Tous les caractères non compatibles HTTP doivent être correctement échappés si la chaîne doit être transmise par http. Seuls &quot;=&quot;, &quot;&amp;&quot; et &quot;%&quot; doivent être précédés d’une séquence d’échappement si la chaîne est incorporée dans la variable `catalog::Modifiers` champ d’un enregistrement de catalogue d’images. Les caractères de contrôle, y compris `<CR>`, `<LF>`, et `<TAB>` doit toujours être supprimé.
 
-Les moteurs de texte du serveur d’images interprètent un sous-ensemble de commandes définies par la spécification RTF (Rich Text Format), version 1.6. Ce sous-ensemble est axé sur le formatage des polices/caractères, le formatage simple des paragraphes, ainsi que sur la prise en charge des polices internationales et des jeux de caractères. Les éléments de mise en forme plus avancés, tels que les feuilles de style et les tableaux, ne sont pas pris en charge pour le moment.
+Les moteurs de texte du serveur d’images interprètent un sous-ensemble de commandes définies par la spécification RTF (Rich Text Format), version 1.6. Ce sous-ensemble est axé sur le formatage des polices et des caractères, le formatage simple des paragraphes et la prise en charge des polices et des jeux de caractères internationaux. Les éléments de mise en forme plus avancés, tels que les feuilles de style et les tableaux, ne sont pas pris en charge pour le moment.
 
-Une connaissance de la spécification RTF (Rich Text Format), telle que publiée par Microsoft, est requise lorsque vous tentez de construire manuellement des chaînes de texte codées en RTF.
+La familiarité avec la spécification RTF (Rich Text Format), telle que publiée par Microsoft, est requise lorsque vous tentez de construire manuellement des chaînes de texte codées en RTF.
 
 * [Gestion des polices](r-font-handling.md)
 * [Gestion des couleurs](r-color-handling.md)

@@ -2,13 +2,13 @@
 description: Données utilisateur du catalogue d’images. Renvoie les données utilisateur pour l’entrée de catalogue d’images spécifiée dans le chemin d’accès à l’URL.
 solution: Experience Manager
 title: userdata
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b1d85ea6-0e12-49a8-b1dc-4c64a672770b
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 6%
+source-wordcount: '183'
+ht-degree: 7%
 
 ---
 
@@ -25,7 +25,7 @@ Données utilisateur du catalogue d’images. Renvoie les données utilisateur p
  </tr> 
 </table>
 
-Le contenu de `catalog::UserData` est renvoyé. Lorsque le format &quot;texte&quot; est spécifié, toutes les instances de `??` dans `catalog::UserData`sont remplacées par des terminateurs de ligne, et un terminateur de ligne unique (CR/LF) est ajouté à la fin. Si le chemin d’URL ne se résout pas en une entrée de catalogue valide, la réponse se compose uniquement d’un terminateur de ligne unique. La mise en forme appropriée est appliquée lorsque le format &quot;xml&quot; ou &quot;json&quot; est demandé.
+Le contenu de `catalog::UserData` sont renvoyées. Lorsque le format &quot;texte&quot; est spécifié, toutes les instances de `??` in `catalog::UserData`sont remplacés par des terminateurs de ligne, et un terminateur d’une seule ligne (CR/LF) est ajouté à la fin. Si le chemin d’URL ne se résout pas en une entrée de catalogue valide, la réponse se compose uniquement d’un terminateur d’une seule ligne. La mise en forme appropriée est appliquée lorsque le format &quot;xml&quot; ou &quot;json&quot; est demandé.
 
 Les autres commandes de la chaîne de requête sont ignorées.
 
@@ -35,8 +35,8 @@ La réponse HTTP peut être placée en mémoire cache via le TTL basé sur `cata
 >
 >Le caractère deux-points n’est pas autorisé dans les noms de clés de propriété userdata .
 
-Les requêtes qui prennent en charge le format de réponse JSONP vous permettent de spécifier le nom du gestionnaire de rappel JS à l’aide de la syntaxe étendue du paramètre `req=` :
+Les requêtes qui prennent en charge le format de réponse JSONP vous permettent de spécifier le nom du gestionnaire de rappel JS à l’aide de la syntaxe étendue de `req=` parameter:
 
 `req=...,json [&handler = reqHandler ]`
 
-`<reqHandler>` est le nom du gestionnaire JS présent dans la réponse JSONP. Seuls les caractères a-z, A-Z et 0-9 sont autorisés. Facultatif. La valeur par défaut est `s7jsonResponse`.
+`<reqHandler>` est le nom du gestionnaire JS présent dans la réponse JSONP. Seuls les caractères a-z, A-Z et 0-9 sont autorisés. Facultatif. Par défaut : `s7jsonResponse`.

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3cdd27e4-14d2-42ef-aedb-9c1f7c39b4c6
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '265'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ Version de l’image/des métadonnées. Lorsque vous travaillez avec du contenu 
 
 La diffusion d’images comprend un mécanisme de contrôle de version qui peut contribuer à réduire les risques qu’une entrée de cache obsolète soit utilisée par une application. Ce mécanisme implique l’utilisation de `req=props` pour obtenir des chaînes d’identifiant de version pour les données d’image et les métadonnées (telles que la zone cliquable ou les données de la cible de zoom). La chaîne d’identifiant de version est ensuite ajoutée aux demandes de diffusion d’images pouvant être mises en cache avec l’événement `id=` .
 
-Lorsqu’une image source ou des métadonnées sont modifiées, la valeur d’ID de version correspondante change également. Inclusion d’une valeur d’identifiant de version à jour avec la variable `id=` garantit que les anciennes entrées de cache ne seront plus accessibles.
+Lorsqu’une image source ou des métadonnées sont modifiées, la valeur d’ID de version correspondante change également. Inclusion d’une valeur d’identifiant de version à jour avec la variable `id=` s’assure que les anciennes entrées de cache ne sont plus accessibles.
 
 Le tableau suivant répertorie les chaînes d’identifiant de version à utiliser pour chaque `req=` type :
 

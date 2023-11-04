@@ -5,9 +5,9 @@ title: Requêtes de visionneuse de médias
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 71efed33-6248-4d23-ab4e-2caec3449171
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '956'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Le mécanisme d’ensemble prend en charge les types de réponses suivants :
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>jeux de pages </p></td> 
-  <td class="stentry"> <p>Un ensemble d’éléments constitué d’une liste de trois images de page au maximum. </p></td> 
+  <td class="stentry"> <p>Un ensemble d’éléments constitué d’une liste de trois images de page au maximum </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>visionneuses de médias </p></td> 
@@ -71,7 +71,7 @@ Lorsqu’une `req=set` est reçue, le type de réponse à générer est détermi
 
 * Si l’enregistrement se trouve dans le catalogue d’images ET `catalog::ImageSet` est défini
 
-   * Supposons qu’un jeu de catalogues électroniques soit défini si au moins une entrée dans le champ Visionneuse d’images d’enregistrement contient un deux-points.
+   * Supposons qu’un jeu de catalogues électroniques soit défini si au moins une entrée dans le champ Visionneuse d’images d’enregistrement contient deux points
    * Supposons qu’un jeu de médias contienne au moins une entrée dans le champ Visionneuse d’images d’enregistrement contenant deux points-virgules.
    * Supposons que la visionneuse d’images contienne au moins une entrée dans le champ Visionneuse d’images d’enregistrement avec un point-virgule.
    * Supposons qu’une visionneuse à 360° ne contienne aucun signe deux-points ou point-virgule, mais qu’au moins une entrée contienne un jeu référencé ou un jeu en ligne (il s’agit d’une visionneuse à 360° en 2D).
@@ -89,14 +89,14 @@ Lorsqu’une `req=set` est reçue, le type de réponse à générer est détermi
 
 * Si l’enregistrement se trouve dans le catalogue d’images mais PAS dans le catalogue de contenu statique
 
-   * Impression d’une image
+   * Image d’hypothèse
 
 * Si l’enregistrement est introuvable dans le catalogue d’images et INTROUVABLE dans le catalogue de contenu statique
 
-   * Supposons que l’extension de fichier soit basée sur un fichier vidéo si l’extension se trouve dans l’ensemble suivant : mp3, mp4, flv, f4v, swf, xml
+   * Supposons que l’extension de fichier vidéo basée sur fichier soit dans l’ensemble suivant : mp3, mp4, flv, f4v, swf, xml
    * Exemple d’une image basée sur un fichier
 
-Dans tous les cas, la réponse XML obtenue sera conforme au document XML spécifié avec le noeud racine défini correspondant au type détecté.
+Dans tous les cas, la réponse XML obtenue est conforme au document XML spécifié avec le noeud racine défini correspondant au type détecté.
 
 ## Détection du type d’ensemble interne {#section-8f46490e467247e69ce284704def06f3}
 
@@ -126,7 +126,7 @@ La réponse xml renvoyée est conforme à la spécification suivante :
 
 ## LabelKey {#section-bf565de6f7294cf89620343c9071f415}
 
-Le `labelkey=` est utilisé avec la propriété `catalog::UserData`pour générer des libellés pour les images et les échantillons. Le `catalog:UserData` est analysé sous la forme d’un ensemble de paires clé/valeur et les index de clé de libellé dans cet ensemble pour récupérer la valeur de la clé donnée. Cette valeur est alors renvoyée dans la variable *`l`* pour l’attribut *`s`* et *`i`*.
+La variable `labelkey=` est utilisé avec la propriété `catalog::UserData`pour générer des libellés pour les images et les échantillons. La variable `catalog:UserData` est analysé sous la forme d’un ensemble de paires clé/valeur et les index de clé de libellé dans cet ensemble pour récupérer la valeur de la clé donnée. Cette valeur est alors renvoyée dans la variable *`l`* pour l’attribut *`s`* et *`i`*.
 
 ## Restrictions appliquées {#section-b9f042873bee45a5ae11b69fd42f2bca}
 
@@ -138,7 +138,7 @@ Les visionneuses de médias imbriquées ne sont pas prises en charge. Une vision
 
 ## Exemples {#section-588c9d33aa05482c86cd2b1936887228}
 
-Pour les exemples de réponses XML pour `req=set` Voir la page Propriétés sous l’en-tête Exemples de HTML .
+Pour les exemples de réponses XML pour `req=set` Voir à ce sujet la page Propriétés sous l’en-tête Exemples de HTML .
 
 `http://crc.scene7.com/is-docs/examples/properties.htm`
 

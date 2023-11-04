@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: cee6a4d4-4099-4bc8-9d67-00a1e963a139
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '658'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ L’aspect de la barre de contrôle principale est contrôlé à l’aide du sé
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> haut </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir du haut de la visionneuse. </p> </td> 
+   <td colname="col2"> <p>Position en haut de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bas </span> </p> </td> 
@@ -59,7 +59,7 @@ L’aspect de la barre de contrôle principale est contrôlé à l’aide du sé
 }
 ```
 
-La barre de contrôle principale prend en charge une fonction de défilement facultative. Cette option est activée si la largeur de la visionneuse est trop petite et qu’il n’y a pas assez d’espace pour que tous les boutons prédéfinis de la barre de contrôle s’adaptent. Dans ce cas, une flèche à deux états s’affiche dans la partie droite de la barre de contrôle. Cliquez ou appuyez sur ce bouton pour faire défiler tous les éléments de la barre de contrôle vers la gauche ou vers la droite, selon l’état du bouton de défilement. Le cas d’utilisation Principal de cette fonctionnalité est celui des appareils mobiles avec de petits écrans en orientation portrait.
+La barre de contrôle principale prend en charge une fonction de défilement facultative. Cette option est activée si la largeur de la visionneuse est trop petite et qu’il n’y a pas assez d’espace pour que tous les boutons prédéfinis de la barre de contrôle s’adaptent. Dans ce cas, une flèche à deux états s’affiche dans la partie droite de la barre de contrôle. Cliquez ou appuyez sur ce bouton pour faire défiler tous les éléments de la barre de contrôle vers la gauche ou vers la droite, selon l’état du bouton de défilement. Le cas d’utilisation principal de cette fonctionnalité est celui des appareils mobiles avec de petits écrans en orientation portrait.
 
 La fonction de défilement est activée pour la barre de contrôle principale et désactivée pour la barre de contrôle secondaire. La fonctionnalité est activée et désactivée à l’aide du sélecteur de classe CSS suivant :
 
@@ -140,7 +140,7 @@ L’aspect de ce bouton est contrôlé à l’aide du sélecteur de classe CSS s
 
 >[!NOTE]
 >
->Ce bouton prend en charge `state` et `selected` sélecteurs d’attributs, qui peuvent être utilisés pour appliquer différents habillages à différents états de bouton. En particulier, `state="selected"` correspond à l’état initial du bouton de défilement lorsqu’il est possible de faire défiler le contenu de la barre de contrôle vers la gauche. Le `state="default"` correspond à l’état lorsque le contenu est défilé jusqu’à la gauche et que le bouton de défilement suggère de le renvoyer à l’état initial.
+>Ce bouton prend en charge `state` et `selected` sélecteurs d’attributs, qui peuvent être utilisés pour appliquer différents habillages à différents états de bouton. En particulier, `state="selected"` correspond à l’état initial du bouton de défilement lorsqu’il est possible de faire défiler le contenu de la barre de contrôle vers la gauche. La variable `state="default"` correspond à l’état lorsque le contenu est défilé jusqu’à la gauche et que le bouton de défilement suggère de le renvoyer à l’état initial.
 
 L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 

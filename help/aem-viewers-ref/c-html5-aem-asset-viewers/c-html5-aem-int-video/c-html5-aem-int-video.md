@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: e54b0b1f-b015-4592-82e2-99f5080543e3
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2211'
+source-wordcount: '2212'
 ht-degree: 0%
 
 ---
@@ -50,11 +50,11 @@ Sur les périphériques tactiles, la commande de volume est masquée dans l’in
 
 Lorsque la visionneuse fonctionne en mode pop-up, un bouton plein écran n’est pas disponible dans l’interface utilisateur.
 
-La visionneuse affiche un panneau avec des échantillons interactifs à droite de la zone d’affichage vidéo. La liste des échantillons avance automatiquement au fur et à mesure de la lecture de la vidéo, de sorte que les échantillons correspondant à la zone de la vidéo active s’affichent. Cliquer ou appuyer sur un échantillon déclenche une action associée à cet échantillon pendant l’heure de création. Selon la configuration utilisée, le déclencheur peut rediriger vers une autre page du site web. Il peut également renvoyer les informations sur les produits à la logique de la page web, ce qui peut à son tour déclencher l’ouverture d’un aperçu rapide qui affiche le contenu des produits associés.
+La visionneuse affiche un panneau avec des échantillons interactifs à droite de la zone d’affichage vidéo. La liste des échantillons avance automatiquement au fur et à mesure de la lecture de la vidéo, de sorte que les échantillons correspondant à la zone de la vidéo active s’affichent. Cliquer ou appuyer sur un échantillon déclenche une action associée à cet échantillon pendant l’heure de création. Selon la manière dont vous l’avez configurée, le déclencheur peut rediriger vers une autre page du site web. Il peut également renvoyer les informations sur les produits à la logique de la page web, ce qui peut à son tour déclencher l’ouverture d’un aperçu rapide qui affiche le contenu des produits associés.
 
 Il est possible de parcourir rapidement le contenu vidéo lorsque le chapitre vidéo est activé. Les chapitres vidéo s’affichent sous la forme de marqueurs dans le suivi de la barre de défilement vidéo et affichent le titre et la description du chapitre au survol (ou en appuyant une seule fois sur les systèmes tactiles). Le client peut &quot;rechercher&quot; un chapitre spécifique en cliquant sur un marqueur de chapitre ou en appuyant sur une bulle de description de chapitre.
 
-Le spectateur prend également en charge divers outils de partage sur les médias sociaux. Ils sont disponibles sous la forme d’un bouton unique dans l’interface utilisateur qui se développe dans une barre d’outils de partage lorsque l’utilisateur clique ou appuie dessus. La barre d’outils de partage contient une icône pour chaque type de canal de partage pris en charge, tel que Facebook, Twitter, partage de courrier électronique, partage de code intégré et partage de lien. Lorsque des outils de partage de courrier électronique, d’intégration de partage ou de lien sont activés, la visionneuse affiche une boîte de dialogue modale avec un formulaire de saisie de données correspondant. Lors de l’appel de Facebook ou Twitter, la visionneuse redirige l’utilisateur vers une boîte de dialogue de partage standard à partir d’un service de médias sociaux. En outre, lorsqu’un outil de partage est activé, la lecture vidéo est automatiquement suspendue. Les outils de partage ne sont pas disponibles en mode plein écran en raison des restrictions de sécurité du navigateur web.
+Le spectateur prend également en charge divers outils de partage sur les médias sociaux. Ils sont disponibles sous la forme d’un bouton unique dans l’interface utilisateur qui se développe dans une barre d’outils de partage lorsque l’utilisateur clique ou appuie dessus. La barre d’outils de partage contient une icône pour chaque type de canal de partage pris en charge, comme Facebook, le Twitter, le partage de courrier électronique, le partage de code incorporé et le partage de lien. Lorsque des outils de partage de courrier électronique, d’intégration de partage ou de lien sont activés, la visionneuse affiche une boîte de dialogue modale avec un formulaire de saisie de données correspondant. Lorsque Facebook ou Twitter est appelé, la visionneuse redirige l’utilisateur vers une boîte de dialogue de partage standard à partir d’un service de médias sociaux. En outre, lorsqu’un outil de partage est activé, la lecture vidéo est automatiquement suspendue. Les outils de partage ne sont pas disponibles en mode plein écran en raison des restrictions de sécurité du navigateur web.
 
 La visionneuse est entièrement accessible au clavier. Voir [Accessibilité du clavier et navigation](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
@@ -62,13 +62,13 @@ La visionneuse est entièrement accessible au clavier. Voir [Accessibilité du c
 
 La visionneuse de vidéo interactive est incorporée dans la page d’hébergement. Une telle page web peut avoir une mise en page statique ou être &quot;réactive&quot; et s’afficher différemment sur différents appareils ou pour différentes tailles de fenêtre de navigateur.
 
-Pour répondre à ces besoins, la visionneuse prend en charge deux modes de fonctionnement Principaux : incorporation de taille fixe et incorporation réactive.
+Pour répondre à ces besoins, la visionneuse prend en charge deux modes de fonctionnement principaux : l’incorporation à taille fixe et l’incorporation réactive.
 
 **À propos du mode d’incorporation à taille fixe et du mode d’incorporation de responsive design**
 
 En mode incorporé, la visionneuse est ajoutée à la page web existante, qui peut déjà comporter du contenu client non lié à la visionneuse. Normalement, la visionneuse occupe uniquement une partie de l’espace d’une page web.
 
-Les cas d’utilisation Principaux sont les pages web orientées vers les ordinateurs de bureau ou les tablettes, ainsi que les pages réactives qui ajustent automatiquement la mise en page en fonction du type d’appareil.
+Les principaux cas d’utilisation sont les pages web orientées vers les ordinateurs de bureau ou les tablettes, ainsi que les pages réactives qui ajustent automatiquement la mise en page en fonction du type d’appareil.
 
 L’incorporation des tailles fixes est utilisée lorsque la visionneuse ne modifie pas sa taille après le chargement initial. Cette fonctionnalité est la meilleure solution pour les pages web avec une disposition statique.
 
@@ -89,7 +89,7 @@ Pour ajouter la visionneuse à une page web, procédez comme suit :
 
 1. Ajout du fichier JavaScript de la visionneuse à votre page web.
 
-   Pour créer une visionneuse, vous devez ajouter une balise de script dans l’en-tête du HTML. Avant d’utiliser l’API de visionneuse, veillez à inclure [!DNL InterativeVideoViewer.js]. Le [!DNL InteractiveVideoViewer.js] se trouve sous le fichier [!DNL html5/js/] sous-dossier de votre déploiement IS-Viewers standard :
+   Pour créer une visionneuse, vous devez ajouter une balise de script dans l’en-tête du HTML. Avant d’utiliser l’API de visionneuse, veillez à inclure [!DNL InterativeVideoViewer.js]. La variable [!DNL InteractiveVideoViewer.js] se trouve sous le fichier [!DNL html5/js/] sous-dossier de votre déploiement IS-Viewers standard :
 
 [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/InteractiveVideoViewer.js]
 
@@ -103,14 +103,14 @@ Le chemin relatif ressemble à ce qui suit :
 
 >[!NOTE]
 >
->Ne référencez que le code JavaScript de la visionneuse principale `include` sur votre page. Ne référencez pas de fichiers JavaScript supplémentaires dans le code de page web qui pourraient être téléchargés par la logique de la visionneuse au moment de l’exécution. En particulier, ne référencez pas directement le SDK HTML5. `Utils.js` bibliothèque chargée par la visionneuse depuis `/s7viewers` chemin d’accès au contexte (appelé SDK consolidé) `include`). La raison en est que l’emplacement de la variable `Utils.js` ou des bibliothèques de visionneuses d’exécution similaires sont entièrement gérées par la logique de la visionneuse et l’emplacement change entre les versions de la visionneuse. Adobe ne conserve pas les anciennes versions de la visionneuse secondaire `includes` sur le serveur.
+>Ne référencez que le code JavaScript de la visionneuse principale `include` sur votre page. Ne référencez pas de fichiers JavaScript supplémentaires dans le code de page web qui pourraient être téléchargés par la logique de la visionneuse au moment de l’exécution. En particulier, ne référencez pas directement le SDK HTML5 `Utils.js` bibliothèque chargée par la visionneuse depuis `/s7viewers` chemin d’accès au contexte (appelé SDK consolidé) `include`). La raison en est que l’emplacement de `Utils.js` ou des bibliothèques de visionneuses d’exécution similaires sont entièrement gérées par la logique de la visionneuse et l’emplacement change entre les versions de la visionneuse. Adobe ne conserve pas les anciennes versions de la visionneuse secondaire `includes` sur le serveur.
 >
 >
 >Par conséquent, l’insertion d’une référence directe à tout JavaScript secondaire `include` utilisé par la visionneuse sur la page rompt la fonctionnalité de visionneuse à l’avenir lorsqu’une nouvelle version de produit est déployée.
 
 1. Définir le conteneur `DIV`.
 
-   Ajouter un champ vide `DIV` sur la page dans laquelle vous souhaitez que la visionneuse s’affiche. Le `DIV` L’ID de l’élément doit être défini, car cet ID est transmis ultérieurement à l’API de visionneuse. La taille du DIV est spécifiée via CSS.
+   Ajouter un champ vide `DIV` sur la page dans laquelle vous souhaitez que la visionneuse s’affiche. La variable `DIV` L’ID de l’élément doit être défini, car cet ID est transmis ultérieurement à l’API de visionneuse. La taille du DIV est spécifiée via CSS.
 
    Espace réservé `DIV` est un élément positionné, ce qui signifie que la variable `position` La propriété CSS est définie sur `relative` ou `absolute`.
 
@@ -165,7 +165,7 @@ Le chemin relatif ressemble à ce qui suit :
    * L’URL du serveur vidéo est `https://gateway-na.assetsadobe.com/DMGateway/public/aodmarketingna`.
    * L’URL de contenu est `https://aodmarketingna.assetsadobe.com/`.
    * La ressource est `/content/dam/mac/aodmarketingna/dm-viewers-content/video/Glacier.mp4`.
-   * Les données interactives sont les suivantes : `is/content/content/dam/mac/aodmarketingna/_VTT/dm-viewers-content/video/Glacier.mp4.svideo.vtt`.
+   * Les données interactives sont : `is/content/content/dam/mac/aodmarketingna/_VTT/dm-viewers-content/video/Glacier.mp4.svideo.vtt`.
 
    ```html {.line-numbers}
    <script type="text/javascript"> 
@@ -218,7 +218,7 @@ Le chemin relatif ressemble à ce qui suit :
 
 **Intégration de conception réactive avec une hauteur libre**
 
-Avec l’incorporation de responsive design, la page web dispose normalement d’une sorte de disposition flexible qui détermine la taille d’exécution du conteneur de la visionneuse. `DIV`. Dans l’exemple suivant, supposons que la page web autorise le conteneur de la visionneuse. `DIV` pour prendre 40 % de la taille de la fenêtre du navigateur web, sans restriction de sa hauteur. Le code de HTML de la page web se présente comme suit :
+Avec l’incorporation de responsive design, la page web dispose normalement d’une sorte de disposition flexible qui détermine la taille d’exécution du conteneur de la visionneuse. `DIV`. Dans l’exemple suivant, supposons que la page web autorise le conteneur de la visionneuse. `DIV` pour prendre 40 % de la taille de la fenêtre du navigateur web, en ne limitant pas sa hauteur. Le code de HTML de la page web se présente comme suit :
 
 ```html {.line-numbers}
 <!DOCTYPE html> 

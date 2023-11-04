@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d3fa2a11-339f-4c8e-9735-439c5464ab84
-source-git-commit: 21d6aed6baee24922732461fe680f6cc93bd0d06
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '89'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,7 @@ Conversion au format du navigateur. Indique si la fonctionnalité de conversion 
 <table id="simpletable_2D23B1B282CD4216AB5BE7E7430D1B3F"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> on|off </span> </p> </td> 
-  <td class="stentry"> <p>Indique si la fonctionnalité de conversion de format de navigateur des images de JPEG ou PNG convertissant des formats de fichiers spécifiques aux navigateurs plus petits est définie sur true ( <span class="codeph"> on </span>) ou false ( <span class="codeph"> off </span> pour aucune conversion de format spécifique au navigateur). </p> </td> 
+  <td class="stentry"> <p>Indique si la fonctionnalité de conversion de format de navigateur des images de JPEG de conversion ou PNG aux formats de fichiers spécifiques au navigateur plus petits est définie sur true ( <span class="codeph"> on </span>) ou false ( <span class="codeph"> off </span> pour aucune conversion de format spécifique au navigateur). </p> </td> 
  </tr> 
 </table>
 

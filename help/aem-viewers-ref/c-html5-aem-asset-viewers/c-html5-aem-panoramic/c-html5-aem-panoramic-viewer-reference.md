@@ -5,9 +5,9 @@ keywords: responsive
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1955'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Type de visionneuse 514.
 
 La visionneuse panoramique HTML5 représente un fichier JavaScript principal et un ensemble de fichiers d’assistance téléchargés par la visionneuse au moment de l’exécution. L’ensemble de fichiers d’assistance est une seule inclusion JavaScript avec tous les composants SDK de visionneuse HTML5 utilisés par cette visionneuse, ressources et CSS particulière.
 La visionneuse panoramique HTML5 peut être utilisée en mode contextuel à l’aide d’une page de HTML prête pour la production fournie avec les visionneuses IS ou en mode intégré, où elle est intégrée à la page web cible à l’aide d’une API documentée.
-La configuration et l’habillage sont similaires à ceux des autres visionneuses HTML5. L’ensemble de l’habillage peut être réalisé via une page CSS personnalisée.
+La configuration et l’habillage sont similaires à ceux des autres visionneuses HTML5. L’habillage peut être effectué au moyen d’une feuille CSS personnalisée.
 
 Voir [Référence de commande commune à toutes les visionneuses - Attributs de configuration](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) et [Référence de commande commune à toutes les visionneuses - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
@@ -58,11 +58,11 @@ La visionneuse panoramique HTML5 prend en charge le panoramique automatique et l
 </table>
 
 La visionneuse prend en charge les entrées tactiles et de souris sur les appareils Windows dotés d’un écran tactile et d’une souris. Toutefois, cette prise en charge est limitée aux navigateurs web Chrome, Internet Explorer 11 et Edge uniquement.
-La visionneuse panoramique peut afficher des images panoramiques en mode réalité virtuelle (VR) en spécifiant le modificateur de rendu. Lorsque le rendu est activé, une image panoramique s’affiche dans des écrans fractionnés. Un cas pratique courant serait de diffuser l&#39;image dans un téléphone portable monté dans un casque de réalité virtuelle, fournissant des images distinctes pour chaque oeil. La visionneuse répond au mouvement gyroscopique de la tête et navigue à travers l’image.
+La visionneuse panoramique peut afficher des images panoramiques en mode réalité virtuelle (VR) en spécifiant le modificateur de rendu. Lorsque le rendu est activé, une image panoramique s’affiche dans des écrans fractionnés. Un cas d’utilisation courant serait de diffuser l’image dans un téléphone portable monté dans un casque de réalité virtuelle, fournissant des images distinctes pour chaque oeil. La visionneuse répond au mouvement gyroscopique de la tête et navigue à travers l’image.
 
 ## Incorporation de la visionneuse panoramique HTML5 {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Le comportement de la visionneuse varie en fonction des pages web. Il arrive qu’une page web fournisse un lien. La sélection de ce lien ouvre la visionneuse dans une fenêtre de navigateur distincte. Dans d’autres cas, il peut être nécessaire d’incorporer la visionneuse dans la page d’hébergement. Dans ce cas, la page web peut avoir une mise en page statique ou être &quot;réactive&quot; et s’afficher différemment sur différents appareils ou pour différentes tailles de fenêtre de navigateur. Pour répondre à ces besoins, la visionneuse prend en charge trois modes de fonctionnement Principaux : fenêtre contextuelle, incorporation de taille fixe et incorporation réactive.
+Le comportement de la visionneuse varie en fonction des pages web. Il arrive qu’une page web fournisse un lien. La sélection de ce lien ouvre la visionneuse dans une fenêtre de navigateur distincte. Dans d’autres cas, il peut être nécessaire d’incorporer la visionneuse dans la page d’hébergement. Dans ce cas, la page web peut avoir une mise en page statique ou être &quot;réactive&quot; et s’afficher différemment sur différents appareils ou pour différentes tailles de fenêtre de navigateur. Pour répondre à ces besoins, la visionneuse prend en charge trois modes de fonctionnement principaux : fenêtre contextuelle, incorporation des tailles fixes et incorporation réactive.
 
 **A propos du mode pop-up**
 
@@ -86,7 +86,7 @@ Voici un exemple de code de HTML qui ouvre la visionneuse dans la nouvelle fenê
 
 En mode incorporé, la visionneuse est ajoutée à la page web existante, qui peut déjà comporter du contenu client qui n’est pas lié à la visionneuse. Normalement, la visionneuse occupe uniquement une partie de l’espace des pages web.
 
-Les cas d’utilisation Principaux sont les pages web orientées vers les ordinateurs de bureau ou les tablettes, ainsi que les pages web réactives qui ajustent automatiquement la mise en page en fonction du type de périphérique.
+Les principaux cas d’utilisation sont les pages web orientées vers les ordinateurs de bureau ou les tablettes, ainsi que les pages web réactives qui ajustent automatiquement la mise en page en fonction du type de périphérique.
 
 L’incorporation des tailles fixes est utilisée lorsque la visionneuse ne modifie pas sa taille après le chargement initial. Cette méthode est la meilleure solution pour les pages web avec une mise en page statique.
 
@@ -107,7 +107,7 @@ Pour ajouter la visionneuse à une page web, procédez comme suit :
 
 1. Ajout du fichier JavaScript de la visionneuse à votre page web.
 
-   Pour créer une visionneuse, vous devez ajouter une balise de script dans l’en-tête du HTML. Avant d’utiliser l’API de visionneuse, veillez à inclure [!DNL PanoramicViewer.js]. Le [!DNL PanoramicViewer.js] se trouve sous le fichier [!DNL html5/js/] sous-dossier de votre déploiement IS-Viewers standard :
+   Pour créer une visionneuse, vous devez ajouter une balise de script dans l’en-tête du HTML. Avant d’utiliser l’API de visionneuse, veillez à inclure [!DNL PanoramicViewer.js]. La variable [!DNL PanoramicViewer.js] se trouve sous le fichier [!DNL html5/js/] sous-dossier de votre déploiement IS-Viewers standard :
 
 [!DNL <s7viewers_root>/html5/js/PanoramicViewer.js]
 
@@ -121,7 +121,7 @@ Le chemin relatif ressemble à ce qui suit :
 
 >[!NOTE]
 >
->Ne référencez que le code JavaScript de la visionneuse principale `include` sur votre page. Ne référencez pas de fichiers JavaScript supplémentaires dans le code de page web qui pourraient être téléchargés par la logique de la visionneuse au moment de l’exécution. En particulier, ne référencez pas directement le SDK HTML5. `Utils.js` bibliothèque chargée par la visionneuse depuis `/s7viewers` chemin d’accès au contexte (appelé SDK consolidé) `include`). La raison en est que l’emplacement de la variable `Utils.js` ou des bibliothèques de visionneuses d’exécution similaires sont entièrement gérées par la logique de la visionneuse et l’emplacement change entre les versions de la visionneuse. Adobe ne conserve pas les anciennes versions de la visionneuse secondaire `includes` sur le serveur.
+>Ne référencez que le code JavaScript de la visionneuse principale `include` sur votre page. Ne référencez pas de fichiers JavaScript supplémentaires dans le code de page web qui pourraient être téléchargés par la logique de la visionneuse au moment de l’exécution. En particulier, ne référencez pas directement le SDK HTML5 `Utils.js` bibliothèque chargée par la visionneuse depuis `/s7viewers` chemin d’accès au contexte (appelé SDK consolidé) `include`). La raison en est que l’emplacement de `Utils.js` ou des bibliothèques de visionneuses d’exécution similaires sont entièrement gérées par la logique de la visionneuse et l’emplacement change entre les versions de la visionneuse. Adobe ne conserve pas les anciennes versions de la visionneuse secondaire `includes` sur le serveur.
 >
 >
 >Par conséquent, l’insertion d’une référence directe à tout JavaScript secondaire `include` utilisé par la visionneuse sur la page rompt la fonctionnalité de visionneuse à l’avenir lorsqu’une nouvelle version de produit est déployée.
@@ -275,7 +275,7 @@ La page d’exemples suivante illustre une utilisation plus concrète de l’inc
 
 **Intégration de conception réactive avec définition de la largeur et de la hauteur**
 
-Si une conception réactive est incorporée avec des valeurs de largeur et de hauteur définies, le style de la page web est différent ; il fournit les deux tailles au &quot;détenteur&quot; `DIV` et centrez-le dans la fenêtre du navigateur. En outre, la page web définit la taille de la variable `HTML` et `BODY` à 100 % :
+Si une conception réactive est incorporée avec une largeur et une hauteur définies, le style de la page web est différent ; il fournit les deux tailles au &quot;titulaire&quot;. `DIV` et centrez-le dans la fenêtre du navigateur. En outre, la page web définit la taille de la variable `HTML` et `BODY` à 100 % :
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -301,7 +301,7 @@ height: 60%;
 </html> 
 ```
 
-Les autres étapes d’incorporation sont identiques à l’incorporation réactive avec une hauteur libre. L’exemple qui en résulte est le suivant :
+Les autres étapes d’incorporation sont identiques à l’incorporation réactive avec une hauteur libre. L’exemple qui en résulte est :
 
 ```html {.line-numbers}
 <!DOCTYPE html>

@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 1788e069-68dd-4960-bc49-34ffdf29991a
-source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '2987'
 ht-degree: 2%
@@ -74,7 +74,7 @@ background-image:url(images/v2/EmailShare_dark_disabled.png);
 }
 ```
 
-La superposition d’arrière-plan qui couvre la page web lorsque la boîte de dialogue est principale est contrôlée avec le sélecteur de classe CSS suivant :
+La superposition d’arrière-plan qui couvre la page web lorsque la boîte de dialogue est active est contrôlée avec le sélecteur de classe CSS suivant :
 
 ```
 .s7videoviewer .s7emaildialog .s7backoverlay
@@ -86,7 +86,7 @@ La superposition d’arrière-plan qui couvre la page web lorsque la boîte de d
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opacité </span> </p> </td> 
-   <td colname="col2"> <p> Opacité de la superposition en arrière-plan. </p> </td> 
+   <td colname="col2"> <p> Opacité du recouvrement en arrière-plan. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
@@ -143,7 +143,7 @@ background-color: #ffffff;
 }
 ```
 
-L’en-tête de la boîte de dialogue se compose d’une icône, d’un texte de titre et d’un bouton de fermeture. Le conteneur d’en-tête est contrôlé à l’aide du sélecteur de classe CSS suivant.
+L’en-tête de la boîte de dialogue se compose d’une icône, d’un texte de titre et d’un bouton de fermeture. Le conteneur d’en-tête est contrôlé avec le sélecteur de classe CSS suivant
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogheader
@@ -166,7 +166,7 @@ L’icône et le texte du titre sont placés dans un conteneur supplémentaire c
 .s7videoviewer .s7emaildialog .s7dialogheader .s7dialogline
 ```
 
-**Propriétés CSS de la ligne de boîte de dialogue**
+**Propriétés CSS de la ligne de dialogue**
 
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
@@ -362,7 +362,7 @@ Le bouton Annuler est contrôlé à l’aide du sélecteur de classe CSS suivant
 .s7videoviewer .s7emaildialog .s7dialogcancelbutton
 ```
 
-**Propriétés CSS du bouton d’annulation de la boîte de dialogue**
+**Propriétés CSS du bouton Annuler de la boîte de dialogue**
 
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
@@ -550,7 +550,7 @@ Propriétés **CSS de la zone d’affichage de la boîte de dialogue **
 >
 >La zone de boîte de dialogue principale prend en charge les options facultatives. `state` sélecteur d’attributs. Elle est définie sur `sendsuccess` lorsque le formulaire de courrier électronique est envoyé et que la boîte de dialogue affiche un message de confirmation. Tant que le message de confirmation est petit, ce sélecteur d’attributs peut être utilisé pour réduire la hauteur de la boîte de dialogue lorsque ce message de confirmation s’affiche.
 
-Exemple : pour configurer initialement la zone de boîte de dialogue principale avec une hauteur de 300 pixels et une hauteur de 100 pixels lors de l’affichage du message de confirmation, une marge de dix pixels et un arrière-plan blanc :
+Exemple : pour configurer la zone de boîte de dialogue principale de sorte qu’elle ait initialement une hauteur de 300 pixels et une hauteur de 100 pixels lors de l’affichage du message de confirmation, une marge de dix pixels et un arrière-plan blanc :
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogviewarea { 
@@ -721,7 +721,7 @@ Chaque champ de saisie de formulaire est encapsulé dans le conteneur, ce qui vo
 
 >[!NOTE]
 >
->Le conteneur de champs de saisie prend en charge les options facultatives `state` sélecteur d’attributs. Elle est définie sur `verifyerror` lorsque l’utilisateur commet une erreur dans le format des données d’entrée et que la validation en ligne échoue. Ce sélecteur d’attributs peut être utilisé pour mettre en surbrillance des entrées utilisateur incorrectes dans le formulaire.
+>Le conteneur de champs d’entrée prend en charge les options facultatives `state` sélecteur d’attributs. Elle est définie sur `verifyerror` lorsque l’utilisateur commet une erreur dans le format des données d’entrée et que la validation en ligne échoue. Ce sélecteur d’attributs peut être utilisé pour mettre en surbrillance des entrées utilisateur incorrectes dans le formulaire.
 
 La plupart des champs de saisie qui s’étendent du libellé à gauche au bord droit du corps de la boîte de dialogue (qui comprend le champ &quot;de&quot; et le champ &quot;message&quot;) sont contrôlés par :
 
@@ -746,7 +746,7 @@ Le champ de saisie &quot;A&quot; est plus étroit, car il alloue de l’espace p
 .s7videoviewer .s7emaildialog .s7dialoginputshort
 ```
 
-**Propriétés CSS du champ court de saisie de la boîte de dialogue**
+**Propriétés CSS de la boîte de dialogue saisie champ court**
 
 <table id="table_DFA9059209FF4184BD483A529424E97F"> 
  <tbody> 
@@ -757,7 +757,7 @@ Le champ de saisie &quot;A&quot; est plus étroit, car il alloue de l’espace p
  </tbody> 
 </table>
 
-Exemple : pour configurer un formulaire avec une bordure grise d’un pixel avec une marge intérieure de neuf pixels autour de tous les champs de saisie. Pour avoir la même bordure en rouge pour les champs dont la validation a échoué, disposer d’un champ d’entrée &quot;A&quot; de 250 pixels de large et le reste des champs d’entrée de 300 pixels de large :
+Exemple : pour configurer un formulaire de sorte qu’il ait une bordure grise d’un pixel avec une marge intérieure de neuf pixels autour de tous les champs de saisie. Pour avoir la même bordure en rouge pour les champs dont la validation a échoué, disposer d’un champ d’entrée &quot;A&quot; de 250 pixels de large et le reste des champs d’entrée de 300 pixels de large :
 
 ```
 .s7videoviewer .s7emaildialog .s7dialoginputcontainer { 
@@ -989,7 +989,7 @@ L’image miniature est contrôlée avec le sélecteur de classe CSS suivant :
 .s7videoviewer .s7emaildialog .s7dialogthumbnail
 ```
 
-Le `background-image` est définie par la logique du composant.
+La variable `background-image` est définie par la logique du composant.
 
 **Propriétés CSS de la miniature de la boîte de dialogue**
 
@@ -1079,7 +1079,7 @@ Le titre du contenu est contrôlé à l’aide du sélecteur de classe CSS suiva
  </tbody> 
 </table>
 
-Exemple : pour configurer un titre de contenu afin d’utiliser la police gras et d’avoir une marge de dix pixels :
+Exemple : pour configurer un titre de contenu afin d’utiliser une police en gras et d’avoir une marge de dix pixels :
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogtitle { 
@@ -1117,7 +1117,7 @@ L’origine du contenu est contrôlée avec le sélecteur de classe CSS suivant 
  </tbody> 
 </table>
 
-Exemple : pour configurer l’origine du contenu avec une marge de dix pixels :
+Exemple : pour configurer l’origine du contenu pour une marge de dix pixels :
 
 ```
 .s7videoviewer .s7emaildialog .s7dialogorigin { 
@@ -1435,7 +1435,7 @@ L’aspect des boutons de défilement haut et bas est contrôlé à l’aide des
 
 >[!NOTE]
 >
->Ces boutons prennent en charge la fonction `state` le sélecteur d’attributs, qui peut être utilisé pour appliquer différents habillages à différents états de bouton : `up`, `down`, `over`, et `disabled`.
+>Ces boutons prennent en charge les `state` le sélecteur d’attributs, qui peut être utilisé pour appliquer différents habillages à différents états de bouton : `up`, `down`, `over`, et `disabled`.
 
 Exemple : pour configurer des boutons de défilement de 28 x 32 pixels et dont l’illustration est différente pour chaque état :
 

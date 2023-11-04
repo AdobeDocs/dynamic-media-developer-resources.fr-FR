@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8b5afb99-3201-4e43-93e7-e8998354204f
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ Les fichiers d’attributs du catalogue se composent d’un ensemble d’enregis
 <table id="simpletable_8454AD549FDA421BA1469CDA44132773"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> name </span> </span> </p> </td> 
-  <td class="stentry"> <p>Nom de l’attribut ; peut contenir une ou plusieurs lettres, le nombre, "-" et "_"; non sensible à la casse. </p> </td> 
+  <td class="stentry"> <p>Nom de l’attribut ; peut être composé d’une ou plusieurs lettres, nombre, "-" et "_" ; non sensible à la casse. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> value </span> </span> </p> </td> 
-  <td class="stentry"> <p>Valeur d’attribut ; ne doit pas inclure <span class="codeph"> &lt;cr&gt; </span>ou <span class="codeph"> &lt;lf&gt; </span> , sauf si une seule barre oblique inverse s’affiche juste avant le caractère de saut de page. </p> </td> 
+  <td class="stentry"> <p>Valeur d’attribut ; ne doit pas inclure <span class="codeph"> &lt;cr&gt; </span>, ou <span class="codeph"> &lt;lf&gt; </span> , sauf si une seule barre oblique inverse s’affiche juste avant le caractère de saut de page. </p> </td> 
  </tr> 
 </table>
 

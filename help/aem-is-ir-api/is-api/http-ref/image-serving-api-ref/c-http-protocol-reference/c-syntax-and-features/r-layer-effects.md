@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8f99bb3d-c5d6-4215-a76b-58ba7689ff02
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '481'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Un seul calque parent peut contenir un nombre indéfini d’effets de calque.
 
 ## Effets internes et externes {#section-2dade7ee98e041d1b4d1725e6f98a515}
 
-*Effets internes* sont rendues au-dessus du calque parent et ne sont visibles que dans les zones opaques du calque parent. *Effets externes* sont rendues derrière le calque parent (elles ne seront donc jamais visibles dans les zones opaques du calque parent) et peuvent être positionnées n’importe où dans la zone de travail du compositeur. Un effet interne ou externe est sélectionné en attribuant un numéro de calque d’effet positif ou négatif au paramètre `effect=` . Le `effect=` contrôle également l’ordonnancement z entre plusieurs calques d’effet associés à la même couche parent.
+*Effets internes* sont rendues au-dessus du calque parent et ne sont visibles que dans les zones opaques du calque parent. *Effets externes* sont rendues derrière le calque parent (elles ne sont donc jamais visibles dans les zones opaques du calque parent) et peuvent être positionnées n’importe où dans la zone de travail de composition. Un effet interne ou externe est sélectionné en attribuant un numéro de calque d’effet positif ou négatif au paramètre `effect=` . La variable `effect=` contrôle également l’ordonnancement z entre plusieurs calques d’effet associés à la même couche parent.
 
 ## Relation avec le calque parent {#section-eb8bfc4f754a42fc973b562821d6f2d3}
 

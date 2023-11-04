@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1b4a78a1-4f03-47ce-b523-10975e83f0ea
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '947'
 ht-degree: 4%
 
 ---
@@ -102,7 +102,7 @@ Renvoie les propriétés sélectionnées du fichier de vignette ou de l’entré
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> image.embedded PhotoshopPaths </span> </p> </td> 
-   <td colname="col2"> <p>Booléen </p> </td> 
+   <td colname="col2"> <p>Boolean </p> </td> 
    <td colname="col3"> <p>1 si la vignette incorpore les données de chemin. </p> </td> 
   </tr> 
   <tr> 
@@ -180,7 +180,7 @@ Exécute les commandes spécifiées et renvoie l’image rendue masquée par la 
 
 `props`
 
-Exécute les commandes spécifiées et renvoie les propriétés de vignette et les propriétés de groupe ou d’objet, plutôt que l’image rendue. Voir [Propriétés](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a) pour une description de la syntaxe de la réponse et du type MIME de la réponse. La sélection par défaut s’applique sauf `obj=` ou `sel=` est également spécifié (voir [ `obj=` ](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a)).
+Exécute les commandes spécifiées et renvoie les propriétés de vignette et les propriétés de groupe ou d’objet, plutôt que l’image rendue. Voir [Propriétés](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-response-data/c-ir-properties.md#concept-e99f1a373eae4af9b41842ca0088ad3a) pour une description de la syntaxe de la réponse et du type MIME de la réponse. La sélection par défaut s’applique sauf `obj=` ou `sel=` est également spécifié (voir [`obj=`](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-obj.md#reference-31e7dac7931b4e0eb3c7589f120a1e6a)).
 
 Les propriétés suivantes peuvent être incluses dans la réponse :
 
@@ -196,7 +196,7 @@ Les propriétés suivantes peuvent être incluses dans la réponse :
   <tr> 
    <td> <p> <span class="codeph"> image.bgc </span> </p> </td> 
    <td> <p> Chaîne </p> </td> 
-   <td> <p> Couleur d’arrière-plan de l’image de réponse. </p> </td> 
+   <td> <p> Couleur de fond de l’image de réponse. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.height </span> </p> </td> 
@@ -205,7 +205,7 @@ Les propriétés suivantes peuvent être incluses dans la réponse :
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.iccEmbed </span> </p> </td> 
-   <td> <p> Booléen </p> </td> 
+   <td> <p> Boolean </p> </td> 
    <td> <p>True si le profil ICC est incorporé dans l’image de réponse (voir <span class="codeph"> <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f" type="reference" format="dita" scope="local"> iccEmbed= </a> </span>). </p> </td> 
   </tr> 
   <tr> 
@@ -215,18 +215,18 @@ Les propriétés suivantes peuvent être incluses dans la réponse :
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.mask </span> </p> </td> 
-   <td> <p> Booléen </p> </td> 
+   <td> <p> Boolean </p> </td> 
    <td> <p> True si l’image de réponse contient alpha. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.pathEmbed </span> </p> </td> 
-   <td> <p> Booléen </p> </td> 
+   <td> <p> Boolean </p> </td> 
    <td> <p> True si l’image de réponse inclut des données de chemin d’accès (voir <span class="codeph"> <a href="../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-pathembed.md#reference-dfff01079fc74dbd896362cc740d7f5f" type="reference" format="dita" scope="local"> pathEmbed= </a> </span>). </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.pixType </span> </p> </td> 
    <td> <p> Chaîne </p> </td> 
-   <td> <p> Type d’image de réponse, peut être "CMJN", "RGB" ou "BW" (pour les images en niveaux de gris). </p> </td> 
+   <td> <p> Type d’image de réponse, peut être "CMJN", "RGB" ou "BW" (pour les images en niveaux de gris) </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> image.printRes </span> </p> </td> 
@@ -300,7 +300,7 @@ Les propriétés suivantes peuvent être incluses dans la réponse :
 
 Renvoie le contenu de `vignette::UserData`. Le serveur remplace toutes les occurrences de `'??'` in `vignette::UserData` avec les terminateurs de ligne ( `<cr><lf>`). La réponse est formatée en tant que données texte avec le type MIME de réponse défini sur &lt;text plain=&quot;&quot;>.
 
-Si l’objet spécifié dans le chemin d’URL ne se résout pas en une entrée de mappage de vignette valide, ou si la variable `vignette::UserData` est vide, la réponse ne contient qu’un terminateur de ligne ( `CR/LF`).
+Si l’objet spécifié dans le chemin d’URL ne se résout pas en une entrée de mappage de vignette valide, ou si la variable `vignette::UserData` est vide, la réponse contient uniquement un terminateur de ligne ( `CR/LF`).
 
 Toutes les autres commandes de la chaîne de requête sont ignorées.
 

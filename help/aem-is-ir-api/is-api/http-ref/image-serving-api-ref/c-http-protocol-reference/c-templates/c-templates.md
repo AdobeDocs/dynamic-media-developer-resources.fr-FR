@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ef49cf8a-4621-4114-aae5-5178f6a5160d
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Les variables personnalisées peuvent être utilisées pour simplifier davantage
 
 Les modèles sont stockés en tant qu’enregistrements dans les catalogues d’images, avec le corps du modèle dans la variable `catalog::Modifier` et la variable `catalog::Path` champ vide ou spécification d’une image d’arrière-plan statique qui ne peut pas être modifiée dynamiquement.
 
-Les modèles sont spécifiés avec la variable `template=` ou dans le composant de chemin d’accès de l’URL de requête. Pour la plupart des applications, il est recommandé d’utiliser la variable `template=` pour spécifier des modèles. Le `template=`ne doit pas se produire dans la fonction `catalog::PostModifier` et ne peut se produire que dans le champ `catalog::Modifier` dans une requête IS imbriquée (c’est-à-dire dans une `src=is{...}` ). Les enregistrements de modèle ne peuvent pas être référencés dans `src=` ou `mask=`des commandes.
+Les modèles sont spécifiés à l’aide de la propriété `template=` ou dans le composant de chemin d’accès de l’URL de requête. Pour la plupart des applications, il est recommandé d’utiliser la variable `template=` pour spécifier des modèles. La variable `template=`ne doit pas se produire dans la fonction `catalog::PostModifier` et ne peut se produire que dans le champ `catalog::Modifier` dans une requête IS imbriquée (c’est-à-dire dans une `src=is{...}` ). Les enregistrements de modèle ne peuvent pas être référencés dans `src=` ou `mask=`des commandes.
 
 Quelconque `src=` ou `mask=`les commandes incorporées dans le modèle peuvent se résoudre par le catalogue principal de la requête ou par un catalogue d’images différent. Si non `rootId` est spécifiée explicitement, le catalogue principal est supposé. Le modèle spécifié avec `template=` peut également se trouver dans le catalogue principal ou dans un catalogue d’images différent.
 

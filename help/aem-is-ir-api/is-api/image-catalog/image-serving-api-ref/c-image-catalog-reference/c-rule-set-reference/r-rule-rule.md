@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4fabd469-c80c-422a-80b0-3d31ce191d58
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 6%
+source-wordcount: '296'
+ht-degree: 5%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 6%
 
 `Replace = "first" | "all"`: Facultatif. La valeur par défaut est &quot;first&quot;.
 
-`RequestType` = *&quot;`types`&quot;*: Facultatif. Indique le contexte d’entrée auquel la règle s’applique. *`types`* est une liste séparée par des virgules, qui peut inclure un ou plusieurs jetons répertoriés dans le tableau suivant. If `RequestType` n’est pas spécifiée, la règle s’applique aux requêtes reçues sur tous les contextes pris en charge.
+`RequestType` = *&quot;`types`&quot;*: facultatif. Indique le contexte d’entrée auquel la règle s’applique. *`types`* est une liste séparée par des virgules, qui peut inclure un ou plusieurs jetons répertoriés dans le tableau suivant. If `RequestType` n’est pas spécifiée, la règle s’applique aux requêtes reçues sur tous les contextes pris en charge.
 
 <table id="table_4935E1ED03624DA6AF3F8DC9AAA10237"> 
  <thead> 
@@ -53,7 +53,7 @@ ht-degree: 6%
 
 **`Name = "text"`**: Facultatif. Utilisé pour identifier la variable `<rule>` dans les journaux de débogage et les messages d’erreur.
 
-`  *`Attribut`* ="value"`: Facultatif. `<rule>` peuvent définir n’importe quel attribut suivant, quelle que soit la combinaison. Si spécifié, et que la règle est correctement mise en correspondance, ils remplaceront les attributs de catalogue correspondants pour cette requête. La valeur par défaut est `RequestType="is"`.
+`  *`Attribut`* ="value"`: facultatif. `<rule>` peuvent définir n’importe quel attribut suivant, quelle que soit la combinaison. Si spécifié, et que la règle est correctement mise en correspondance, ils remplacent les attributs de catalogue correspondants pour cette requête. Par défaut : `RequestType="is"`.
 
 <table id="table_67AED5BEADDF4DAC99B5EF46438C1ABC"> 
  <thead> 
@@ -88,7 +88,7 @@ ht-degree: 6%
    <td> <p> <a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestobfuscation.md#reference-730a3330253343f893419ebd52baf0bd" type="reference" format="dita" scope="local"> attribute::RequestObfuscation</a> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> RootUrl</span> </p> </td> 
+   <td> <p> <span class="codeph"> RootURL</span> </p> </td> 
    <td> <p> <a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rooturl.md#reference-3b0e43881020409cbe642366913cf137" type="reference" format="dita" scope="local"> attribute::RootUrl</a> </p> </td> 
   </tr> 
   <tr> 
@@ -135,4 +135,4 @@ If `<expression>` n’est pas spécifié, aucun chemin ne correspond à et `<sub
 
 If `<substitution>` n’est pas spécifié, aucun chemin d’accès ou transformation de requête n’a lieu, mais tous les attributs de catalogue spécifiés sont remplacés. If `<substitution>` est vide, la sous-chaîne correspondante est supprimée.
 
-Le `<addressfilter>` n’est appliquée que lorsqu’une correspondance se produit et avant l’application des règles de requête.
+La variable `<addressfilter>` n’est appliquée que lorsqu’une correspondance se produit et avant l’application des règles de requête.

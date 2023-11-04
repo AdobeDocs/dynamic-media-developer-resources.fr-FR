@@ -5,9 +5,9 @@ title: Fichiers d’attributs du catalogue
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 79d9439d-7749-4ae1-aa73-e88e01cf7555
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '194'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Les fichiers d’attributs du catalogue se composent d’un ensemble d’enregis
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> val</span>[,<span class="varname"> values</span>]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> name</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> nom</span> </p> </td> 
   <td class="stentry"> <p>Nom de l’attribut. Peut se composer d’une ou de plusieurs lettres, nombre, - et _. Non sensible à la casse. </p></td> 
  </tr> 
  <tr class="strow"> 

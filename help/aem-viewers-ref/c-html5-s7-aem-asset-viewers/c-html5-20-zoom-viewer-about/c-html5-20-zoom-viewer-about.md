@@ -1,21 +1,21 @@
 ---
 title: Zoom
-description: La visionneuse de zoom est une visionneuse d’images qui affiche une image agrandie. Cette visionneuse fonctionne avec des visionneuses d’images et la navigation est effectuée à l’aide d’échantillons. Il comprend des outils de zoom, la prise en charge du plein écran, des échantillons et un bouton de fermeture facultatif. Il est conçu pour fonctionner sur les ordinateurs de bureau et les appareils mobiles.
+description: La visionneuse de zoom est une visionneuse d’images qui affiche une image agrandie. Cette visionneuse fonctionne avec des visionneuses d’images et la navigation est effectuée à l’aide d’échantillons. Il comprend des outils de zoom, une prise en charge du mode plein écran, des échantillons et un bouton de fermeture facultatif. Il est conçu pour fonctionner sur les ordinateurs de bureau et les appareils mobiles.
 keywords: responsive
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 81a74026-fb15-4f57-a4c7-1ab005950245
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2395'
+source-wordcount: '2393'
 ht-degree: 0%
 
 ---
 
 # Zoom{#zoom}
 
-La visionneuse de zoom est une visionneuse d’images qui affiche une image agrandie. Cette visionneuse fonctionne avec des visionneuses d’images et la navigation est effectuée à l’aide d’échantillons. Il comprend des outils de zoom, la prise en charge du plein écran, des échantillons et un bouton de fermeture facultatif. Il est conçu pour fonctionner sur les ordinateurs de bureau et les appareils mobiles.
+La visionneuse de zoom est une visionneuse d’images qui affiche une image agrandie. Cette visionneuse fonctionne avec des visionneuses d’images et la navigation est effectuée à l’aide d’échantillons. Il comprend des outils de zoom, une prise en charge du mode plein écran, des échantillons et un bouton de fermeture facultatif. Il est conçu pour fonctionner sur les ordinateurs de bureau et les appareils mobiles.
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ Voir [Accessibilité du clavier et navigation](../../c-keyboard-accessibility.md
 
 ## Incorporation de la visionneuse de zoom {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Le comportement de la visionneuse varie en fonction des pages web. Il arrive qu’une page web fournisse un lien qui, lorsqu’il est sélectionné, ouvre la visionneuse dans une fenêtre de navigateur distincte. Dans d’autres cas, il est nécessaire d’incorporer directement la visionneuse dans la page d’hébergement. Dans ce cas, la page web peut avoir une mise en page statique ou utiliser une conception réactive qui s’affiche différemment sur différents appareils ou pour différentes tailles de fenêtre de navigateur. Pour répondre à ces besoins, la visionneuse prend en charge trois modes de fonctionnement Principaux : pop-up, incorporation de taille fixe et incorporation de conceptions réactives.
+Le comportement de la visionneuse varie en fonction des pages web. Il arrive qu’une page web fournisse un lien qui, lorsqu’il est sélectionné, ouvre la visionneuse dans une fenêtre de navigateur distincte. Dans d’autres cas, il est nécessaire d’incorporer directement la visionneuse dans la page d’hébergement. Dans ce cas, la page web peut avoir une mise en page statique ou utiliser une conception réactive qui s’affiche différemment sur différents appareils ou pour différentes tailles de fenêtre de navigateur. Pour répondre à ces besoins, la visionneuse prend en charge trois modes de fonctionnement principaux : pop-up, incorporation des tailles fixes et incorporation des conceptions réactives.
 
 **A propos du mode pop-up**
 
@@ -105,9 +105,9 @@ target="_blank">Open popup viewer</a>
 
 **À propos du mode d’incorporation à taille fixe et du mode d’incorporation de responsive design**
 
-En mode incorporé, la visionneuse est ajoutée à la page web existante, qui peut déjà comporter du contenu client qui n’est pas lié à la visionneuse. Normalement, la visionneuse n’occupe qu’une partie de l’emplacement de la page web.
+En mode incorporé, la visionneuse est ajoutée à la page web existante, qui peut déjà comporter du contenu client qui n’est pas lié à la visionneuse. Normalement, la visionneuse n’occupe qu’une partie de l’espace de la page web.
 
-Les cas d’utilisation Principaux sont les pages web orientées vers les ordinateurs de bureau ou les tablettes, ainsi que les pages réactives qui ajustent automatiquement la mise en page en fonction du type d’appareil.
+Les principaux cas d’utilisation sont les pages web orientées vers les ordinateurs de bureau ou les tablettes, ainsi que les pages réactives qui ajustent automatiquement la mise en page en fonction du type d’appareil.
 
 L’incorporation des tailles fixes est utilisée lorsque la visionneuse ne modifie pas sa taille après le chargement initial. Cette option est la meilleure option pour les pages web avec une disposition statique.
 
@@ -128,7 +128,7 @@ Pour ajouter la visionneuse à une page web, procédez comme suit :
 
 1. Ajout du fichier JavaScript de la visionneuse à votre page web.
 
-   Pour créer une visionneuse, vous devez ajouter une balise de script dans l’en-tête du HTML. Avant d’utiliser l’API de visionneuse, veillez à inclure [!DNL ZoomViewer.js]. Le [!DNL ZoomViewer.js] se trouve sous le fichier [!DNL html5/js/] sous-dossier de votre déploiement IS-Viewers standard :
+   Pour créer une visionneuse, vous devez ajouter une balise de script dans l’en-tête du HTML. Avant d’utiliser l’API de visionneuse, veillez à inclure [!DNL ZoomViewer.js]. La variable [!DNL ZoomViewer.js] se trouve sous le fichier [!DNL html5/js/] sous-dossier de votre déploiement IS-Viewers standard :
 
 [!DNL <s7viewers_root>/html5/js/ZoomViewer.js]
 
@@ -142,7 +142,7 @@ Le chemin relatif ressemble à ce qui suit :
 
 >[!NOTE]
 >
->Ne référencez que le code JavaScript de la visionneuse principale `include` sur votre page. Ne référencez pas de fichiers JavaScript supplémentaires dans le code de page web qui pourraient être téléchargés par la logique de la visionneuse au moment de l’exécution. En particulier, ne référencez pas directement le SDK HTML5. `Utils.js` bibliothèque chargée par la visionneuse depuis `/s7viewers` chemin d’accès au contexte (appelé SDK consolidé) `include`). La raison en est que l’emplacement de la variable `Utils.js` ou des bibliothèques de visionneuses d’exécution similaires sont entièrement gérées par la logique de la visionneuse et l’emplacement change entre les versions de la visionneuse. Adobe ne conserve pas les anciennes versions de la visionneuse secondaire `includes` sur le serveur.
+>Ne référencez que le code JavaScript de la visionneuse principale `include` sur votre page. Ne référencez pas de fichiers JavaScript supplémentaires dans le code de page web qui pourraient être téléchargés par la logique de la visionneuse au moment de l’exécution. En particulier, ne référencez pas directement le SDK HTML5 `Utils.js` bibliothèque chargée par la visionneuse depuis `/s7viewers` chemin d’accès au contexte (appelé SDK consolidé) `include`). La raison en est que l’emplacement de `Utils.js` ou des bibliothèques de visionneuses d’exécution similaires sont entièrement gérées par la logique de la visionneuse et l’emplacement change entre les versions de la visionneuse. Adobe ne conserve pas les anciennes versions de la visionneuse secondaire `includes` sur le serveur.
 >
 >
 >Par conséquent, l’insertion d’une référence directe à tout JavaScript secondaire `include` utilisé par la visionneuse sur la page rompt la fonctionnalité de visionneuse à l’avenir lorsqu’une nouvelle version de produit est déployée.
@@ -161,7 +161,7 @@ Le chemin relatif ressemble à ce qui suit :
 
 1. Définition de la taille de la visionneuse.
 
-   Cette visionneuse affiche des miniatures lorsque vous utilisez des jeux de plusieurs éléments. Sur les systèmes de bureau, les miniatures sont placées sous la vue principale. En même temps, la visionneuse permet la permutation de la ressource principale au moment de l’exécution à l’aide de `setAsset()` API. En tant que développeur, vous contrôlez la manière dont la visionneuse gère la zone des miniatures située en bas lorsque la nouvelle ressource ne comporte qu’un seul élément. Il est possible de conserver la taille de la visionneuse externe intacte et de laisser la vue principale augmenter sa hauteur et occuper la zone des miniatures. Vous pouvez également conserver la taille d’affichage principale statique et réduire la zone de la visionneuse extérieure, en laissant le contenu de la page web se déplacer vers le haut et en utilisant les restes d’espace en plein écran des miniatures.
+   Cette visionneuse affiche des miniatures lorsque vous utilisez des jeux de plusieurs éléments. Sur les systèmes de bureau, les miniatures sont placées sous la vue principale. En même temps, la visionneuse permet la permutation de la ressource principale au moment de l’exécution à l’aide de `setAsset()` API. En tant que développeur, vous contrôlez la manière dont la visionneuse gère la zone des miniatures située en bas lorsque la nouvelle ressource ne comporte qu’un seul élément. Il est possible de conserver la taille de la visionneuse externe intacte et de laisser la vue principale augmenter sa hauteur et occuper la zone des miniatures. Vous pouvez également conserver la taille d’affichage principale statique et réduire la zone de la visionneuse externe, en laissant le contenu de la page web se déplacer vers le haut et utiliser les restes d’espace en plein écran des miniatures.
 
    Pour conserver les limites de la visionneuse externe intactes, définissez la taille de la `.s7zoomviewer` classe CSS de niveau supérieur en unités absolues. Le dimensionnement dans CSS peut être placé directement sur la page de HTML. Vous pouvez également le placer dans un fichier CSS de visionneuse personnalisé, qui sera ultérieurement affecté à un enregistrement de paramètre prédéfini de visionneuse dans Dynamic Media Classic ou transmis explicitement à l’aide d’une commande de style.
 
@@ -259,7 +259,7 @@ Le chemin relatif ressemble à ce qui suit :
 
 ## Intégration de conception réactive avec une hauteur libre {#section-b9ca11a7e7aa4f74ab43244cbca37ae0}
 
-Avec l’incorporation de responsive design, la page web dispose normalement d’une sorte de disposition flexible qui détermine la taille d’exécution du conteneur de la visionneuse. `DIV`. Dans l’exemple suivant, supposons que la page web autorise le conteneur de la visionneuse. `DIV` pour prendre 40 % de la taille de la fenêtre du navigateur web, sans restriction de sa hauteur. Le code de HTML de la page web se présente comme suit :
+Avec l’incorporation de responsive design, la page web dispose normalement d’une sorte de disposition flexible qui détermine la taille d’exécution du conteneur de la visionneuse. `DIV`. Dans l’exemple suivant, supposons que la page web autorise le conteneur de la visionneuse. `DIV` pour prendre 40 % de la taille de la fenêtre du navigateur web, en ne limitant pas sa hauteur. Le code de HTML de la page web se présente comme suit :
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -317,7 +317,7 @@ La page d’exemples suivante illustre d’autres utilisations réelles de l’i
 
 [Démonstrations en direct](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-## Incorporation de taille flexible avec définition de la largeur et de la hauteur {#section-3674e6c032594441a6576b7fb1de6e64}
+## Intégration flexible avec définition de la largeur et de la hauteur {#section-3674e6c032594441a6576b7fb1de6e64}
 
 Si l’incorporation de tailles flexibles avec largeur et hauteur est définie, le style de la page web est différent. Elle fournit les deux tailles au `"holder"` DIV et centrez-le dans la fenêtre du navigateur. En outre, la page web définit la taille de la variable `HTML` et `BODY` à 100 %.
 
@@ -387,7 +387,7 @@ var zoomViewer = new s7viewers.ZoomViewer({
 
 Au lieu d’utiliser l’initialisation basée sur JSON, il est possible d’utiliser une API basée sur un setter et un constructeur sans args. L’utilisation de ce constructeur d’API ne prend aucun paramètre et les paramètres de configuration sont spécifiés à l’aide de `setContainerId()`, `setParam()`, et `setAsset()` Méthodes d’API avec des appels JavaScript distincts.
 
-L’exemple suivant illustre l’utilisation de l’incorporation de tailles fixes avec une API basée sur setter :
+L’exemple suivant illustre l’utilisation de l’incorporation de tailles fixes avec l’API basée sur setter :
 
 ```html {.line-numbers}
 <!DOCTYPE html> 

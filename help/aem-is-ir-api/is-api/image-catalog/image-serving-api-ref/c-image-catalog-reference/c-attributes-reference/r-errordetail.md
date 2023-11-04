@@ -1,20 +1,20 @@
 ---
-description: Détails du message d’erreur. Indique le niveau de détail des messages d’erreur renvoyés via HTTP comme valeur error.message.
+description: Détails du message d’erreur. Indique le niveau de détail des messages d’erreur renvoyés par HTTP comme valeur error.message.
 solution: Experience Manager
 title: ErrorDetail
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 08a363d0-918d-48e9-aef0-5a8554c2708a
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '161'
 ht-degree: 4%
 
 ---
 
 # ErrorDetail{#errordetail}
 
-Détails du message d’erreur. Indique le niveau de détail des messages d’erreur renvoyés via HTTP comme valeur error.message.
+Détails du message d’erreur. Indique le niveau de détail des messages d’erreur renvoyés par HTTP comme valeur error.message.
 
 Les valeurs suivantes sont autorisées :
 
@@ -33,7 +33,7 @@ Les valeurs suivantes sont autorisées :
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>Informations de débogage complètes. Ajoute des traces de pile Java, le cas échéant. Les images d’erreur n’incluent jamais de traces de pile, mais renvoient des informations de niveau 2 dans <span class="codeph"> $error.message</span>. Ces informations peuvent s’avérer utiles lorsque vous signalez des problèmes au support technique de Dynamic Media. </p></td> 
+  <td class="stentry"> <p>Informations de débogage complètes. Ajoute des traces de pile Java, le cas échéant. Les images d’erreur n’incluent jamais de traces de pile et renvoient plutôt des informations de niveau 2 dans <span class="codeph"> $error.message</span>. Ces informations peuvent s’avérer utiles lorsque vous signalez des problèmes au support technique de Dynamic Media. </p></td> 
  </tr> 
 </table>
 
@@ -43,7 +43,7 @@ La valeur énumérée doit être 0, 1, 2 ou 3.
 
 ## Par défaut {#section-8f27098e509945a18676aca0675c8f41}
 
-Hérité de `default::ErrorDetail` si elle n’est pas spécifiée ou si elle est vide.
+Hérité de `default::ErrorDetail` s’il n’est pas spécifié ou s’il est vide.
 
 ## Voir aussi {#section-5451b0525ed74121950bfc34726c3970}
 
