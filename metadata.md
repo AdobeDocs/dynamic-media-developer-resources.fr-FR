@@ -6,9 +6,10 @@ product: adobe dynamic media classic
 type: Documentation
 git-repo: https://github.com/AdobeDocs/dynamic-media-developer-resources.fr-FR
 index: true
-source-git-commit: 3598b0247406d942b0f58b1c74aae4956590f5f8
+recommendations: noDisplay
+source-git-commit: 0803dd4f2eb0002e50ab2c506d0e9cb203f3d456
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
@@ -26,4 +27,4 @@ Le fichier metadata.md comprend des métadonnées au niveau du référentiel qui
 | getting-started-url | Lien vers la page de prise en main de helpx |
 | tutorials-url | Lien vers des tutoriels vidéo : tutoriels helpx ou KT |
 | mini-toc-levels | Détermine le nombre de niveaux d’en-tête qui apparaissent dans le rail droit. la valeur par défaut est 2 |
-| git-repo | Spécifie l’emplacement du référentiel source Principal pour une utilisation interne. |
+| git-repo | Spécifie l’emplacement du référentiel de source principale pour une utilisation interne. |
