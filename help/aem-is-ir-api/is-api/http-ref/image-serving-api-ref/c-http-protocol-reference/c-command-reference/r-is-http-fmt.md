@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+source-git-commit: 9ed415c5ab4444a2d404782bfd96ded3c47c26cd
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 4%
+source-wordcount: '904'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ Format d’image de réponse.
 
 `fmt=format[,` `[`*`pixelType`*`]`,`[`*`compression`*`]]`
 
-*`format`* - avif-alpha | avif | eps | f4m | gif-alpha | gif | jpeg | jpeg2000-alpha | jpeg2000 | jpegxx-alpha | jpegxx | jpg | m3u8 | pdf | pjpeg | png-alpha | png | png8-alpha | png8 | swf-alpha | swf | swf3-alpha | swf3 | tif-alpha | tif | web-alpha | webp
+*`format`* - avif-alpha | avif | eps | f4m | gif-alpha | gif | hic | jpeg | jpeg2000-alpha | jpeg2000 | jpegxx-alpha | jpegxx | jpg | m3u8 | pdf | pjpeg | png-alpha | png | png8-alpha | png8 | swf-alpha | swf | swf3-alpha | swf3 | tif-alpha | tif | web-alpha | webp
 
 | *`format`* | Description |
 |---|---|
@@ -28,6 +28,7 @@ Format d’image de réponse.
 | `f4m` | Format de manifeste du serveur de diffusion en continu de Flash. |
 | `gif-alpha` | GIF de 2 à 255 couleurs plus transparence couleur-clé. |
 | `gif` | GIF de 2 à 256 couleurs. |
+| `heic` | HEIC sans perte. Ce format est téléchargé par défaut à partir du navigateur s’il n’est pas pris en charge. |
 | `jpeg` | JPEG perdant. |
 | `jpeg2000-alpha` | JPEG 2000 sans perte avec canal alpha. |
 | `jpeg2000` | JPEG sans perte 2000. |
@@ -50,14 +51,14 @@ Format d’image de réponse.
 | `webp-alpha` | WebP sans perte et avec canal alpha. |
 | `webp` | WebP sans perte et sans perte. |
 
-| *`pixelType`* – rvb | gris | cmyk |
+| *`pixelType`* - rgb | gris | cmyk |
 | *`pixelType`* | Description |
 |---|---|
 | `cmyk` | Renvoie les données image CMJN. |
 | `gray` | Renvoie les données image en niveaux de gris. |
 | `rgb` | Renvoie les données image du RGB. |
 
-| *`compression`* – none | lzw | zip | jpeg | perte | lossless |
+| *`compression`* - jpeg | perte | lossless | lzw | aucun | zip |
 | *`compression`* | Description |
 |---|---|
 | `jpeg` | Compression des JPEG (perte). |
