@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 17ccca8fcf75eaa902527837d83b03776c1386b9
+source-git-commit: b861d383d0a1af63ae18eb1e73231758c3352a55
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '1017'
 ht-degree: 2%
 
 ---
@@ -93,18 +93,60 @@ Le tableau suivant répertorie les combinaisons valides de *`format`*et *`pixelT
  </thead>
  <tbody> 
   <tr valign="top"> 
+   <td> <p> avif, avif-alpha </p> </td> 
+   <td> <p>rvb</p> </td> 
+   <td> <p> <span class="codeph"> &lt;image/avif&gt; </span> </p> </td> 
+   <td> <p>Non </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> compression </span> </span> ( <span class="codeph"> perte </span>, <span class="codeph"> lossless </span>) </p> <p> <span class="codeph"> qlt= </span> est ignoré pour <span class="codeph"> lossless </span>. </p> <p>Puisqu’il n’existe aucun concept de sous-échantillonnage de chrominance avec le format WebP, si vous utilisez une seconde valeur avec <span class="codeph"> qlt </span> (par exemple, <span class="codeph"> qlt=80,1 </span>) de la seconde valeur ( <span class="codeph"> 1 </span>) est ignorée. </p> </td> 
+  </tr>
+  <tr valign="top"> 
+   <td colname="col1"> <p> eps </p> </td> 
+   <td colname="col2"> <p>rgb, gray, cmyk </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image/eps&gt; </span> </p> </td> 
+   <td colname="col4"> <p>Oui </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> pathEmbed= </span> </p> </td> 
+  </tr>
+  <tr valign="top"> 
+   <td colname="col1"> <p> gif, gif-alpha </p> </td> 
+   <td colname="col2"> <p>rgb, gris </p> <p>Les données sont converties en palette après la conversion en gris ou en rgb. </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image/gif&gt; </span> </p> </td> 
+   <td colname="col4"> <p>Non </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> quantifier= </span> </p> </td> 
+  </tr>
+  <tr valign="top"> 
+   <td colname="col1"> <p> hic </p> </td> 
+   <td colname="col2"> <p>rvb </p> <p> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image/heic&gt; </span> </p> </td> 
+   <td colname="col4"> <p>Non </p> </td> 
+   <td colname="col5"> <p> </p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td> <p>jpeg2000, jpeg2000-alpha </p> </td> 
+   <td> <p>rgb, gris </p> </td> 
+   <td> <p> <span class="codeph"> &lt;image/jp2&gt; </span> </p> </td> 
+   <td> <p>Non </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> compression </span> </span> ( <span class="codeph"> perte </span>, <span class="codeph"> lossless </span>) </p> <p> <span class="codeph"> qlt= </span> est ignoré pour <span class="codeph"> lossless </span>. </p> <p>Puisqu’il n’existe aucun concept de sous-échantillonnage de chrominance avec le format WebP, si vous utilisez une seconde valeur avec <span class="codeph"> qlt </span> (par exemple, <span class="codeph"> qlt=80,1 </span>) de la seconde valeur ( <span class="codeph"> 1 </span>) est ignorée. </p> </td> 
+  </tr>
+  <tr valign="top"> 
    <td colname="col1"> <p> jpeg, jpg, pjpeg </p> </td> 
    <td colname="col2"> <p>rgb, gray, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/jpeg&gt; </span> </p> </td> 
    <td colname="col4"> <p>Oui </p> </td> 
    <td colname="col5"> <p> <span class="codeph"> pathEmbed= </span>, <span class="codeph"> pscan= </span>, <span class="codeph"> qlt= </span>, <span class="codeph"> xmpEmbed= </span> </p> <p>La variable <span class="codeph"> pscan= </span> s’applique uniquement au format pjpeg. </p> </td> 
-  </tr> 
+  </tr>
   <tr valign="top"> 
-   <td colname="col1"> <p> png, png-alpha </p> </td> 
-   <td colname="col2"> <p>rgb, gris </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;image/png&gt; </span> </p> </td> 
+   <td> <p>jpegxx, jpegxx-alpha </p> </td> 
+   <td> <p>rvb </p> </td> 
+   <td> <p> <span class="codeph"> &lt;image/vnd.ms-photo&gt; </span> </p> </td> 
+   <td> <p>Non </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> compression </span> </span> ( <span class="codeph"> perte </span>, <span class="codeph"> lossless </span>) </p> <p> <span class="codeph"> qlt= </span> est ignoré pour <span class="codeph"> lossless </span>. </p> <p>Puisqu’il n’existe aucun concept de sous-échantillonnage de chrominance avec le format WebP, si vous utilisez une seconde valeur avec <span class="codeph"> qlt </span> (par exemple, <span class="codeph"> qlt=80,1 </span>) de la seconde valeur ( <span class="codeph"> 1 </span>) est ignorée. </p> </td> 
+  </tr>
+  <tr valign="top"> 
+   <td colname="col1"> <p> pdf </p> </td> 
+   <td colname="col2"> <p>rgb, gray, cmyk </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;application/pdf&gt; </span> </p> </td> 
    <td colname="col4"> <p>Oui </p> </td> 
-   <td colname="col5"> <p> </p> </td> 
+   <td colname="col5"> <span class="codeph"> <span class="varname"> compression </span> </span> <p> ( <span class="codeph"> none|zip|jpeg </span>), <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> est ignoré sauf <span class="codeph"> <span class="varname"> compression </span> </span> est défini sur <span class="codeph"> jpeg </span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>png8, png8-alpha </p> </td> 
@@ -114,6 +156,20 @@ Le tableau suivant répertorie les combinaisons valides de *`format`*et *`pixelT
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr valign="top"> 
+   <td colname="col1"> <p> png, png-alpha </p> </td> 
+   <td colname="col2"> <p>rgb, gris </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;image/png&gt; </span> </p> </td> 
+   <td colname="col4"> <p>Oui </p> </td> 
+   <td colname="col5"> <p> </p> </td> 
+  </tr>
+  <tr valign="top"> 
+   <td colname="col1"> <p> swf,swf3, swf-alpha, swf-alpha3 </p> </td> 
+   <td colname="col2"> <p>rgb, gris </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
+   <td colname="col4"> <p>Non </p> <p> <p>Remarque : Le Flash Player Adobe ignore les profils ICC incorporés. </p> </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> attribute::TrustedDomains </span> </p> </td> 
+  </tr>
+  <tr valign="top"> 
    <td colname="col1"> <p> tif, tif-alpha </p> </td> 
    <td colname="col2"> <p>rgb, gray, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/tiff&gt; </span> </p> </td> 
@@ -121,60 +177,11 @@ Le tableau suivant répertorie les combinaisons valides de *`format`*et *`pixelT
    <td colname="col5"> <span class="codeph"> <span class="varname"> compression </span> </span> <p> ( <span class="codeph"> none|lzw|zip|jpeg </span>) </p> <p>'tiff' uniquement ; 'tiff-alpha' ne prend pas en charge la compression jpeg. </p> <p> <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> est ignoré sauf <span class="varname"> compression </span> est défini sur <span class="codeph"> jpeg </span>. </p> <p>, pathEmbed=, xmpEmbed= </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> swf,swf3, swf-alpha, swf-alpha3 </p> </td> 
-   <td colname="col2"> <p>rgb, gris </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Non </p> <p> <p>Remarque : Le Flash Player Adobe ignore les profils ICC incorporés. </p> </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> attribute::TrustedDomains </span> </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <p> pdf </p> </td> 
-   <td colname="col2"> <p>rgb, gray, cmyk </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;application/pdf&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Oui </p> </td> 
-   <td colname="col5"> <span class="codeph"> <span class="varname"> compression </span> </span> <p> ( <span class="codeph"> none|zip|jpeg </span>), <span class="codeph"> qlt= </span> </p> <p> <span class="codeph"> qlt= </span> est ignoré sauf <span class="codeph"> <span class="varname"> compression </span> </span> est défini sur <span class="codeph"> jpeg </span>. </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <p> eps </p> </td> 
-   <td colname="col2"> <p>rgb, gray, cmyk </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;image/eps&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Oui </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> pathEmbed= </span> </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td colname="col1"> <p> gif, gif-alpha </p> </td> 
-   <td colname="col2"> <p>rgb, gris </p> <p>Les données sont converties en palette après la conversion en gris ou en rgb. </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;image/gif&gt; </span> </p> </td> 
-   <td colname="col4"> <p>Non </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> quantifier= </span> </p> </td> 
-  </tr> 
-  <tr valign="top"> 
    <td> <p>webp, webp-alpha </p> </td> 
    <td> <p>rvb </p> </td> 
    <td> <p> <span class="codeph"> &lt;image/webp&gt; </span> </p> </td> 
    <td> <p>Non </p> </td> 
    <td> <p> <span class="codeph"> <span class="varname"> compression </span> </span> ( <span class="codeph"> perte </span>, <span class="codeph"> lossless </span>) </p> <p> <span class="codeph"> qlt= </span> est ignoré pour <span class="codeph"> lossless </span>. </p> <p>Puisqu’il n’existe aucun concept de sous-échantillonnage de chrominance avec le format WebP, si vous utilisez une seconde valeur avec <span class="codeph"> qlt </span> (par exemple, <span class="codeph"> qlt=80,1 </span>) de la seconde valeur ( <span class="codeph"> 1 </span>) est ignorée. </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> <p>jpeg2000, jpeg2000-alpha </p> </td> 
-   <td> <p>rgb, gris </p> </td> 
-   <td> <p> <span class="codeph"> &lt;image/jp2&gt; </span> </p> </td> 
-   <td> <p>Non </p> </td> 
-   <td> <p>Comme ci-dessus. </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> <p>jpegxx, jpegxx-alpha </p> </td> 
-   <td> <p>rvb </p> </td> 
-   <td> <p> <span class="codeph"> &lt;image/vnd.ms-photo&gt; </span> </p> </td> 
-   <td> <p>Non </p> </td> 
-   <td> <p>Comme ci-dessus. </p> </td> 
-  </tr>
-  <tr valign="top"> 
-   <td> <p> avif, avif-alpha </p> </td> 
-   <td> <p>rvb</p> </td> 
-   <td> <p> <span class="codeph"> &lt;image/avif&gt; </span> </p> </td> 
-   <td> <p>Non </p> </td> 
-   <td> <p>Comme ci-dessus. </p> </td> 
   </tr> 
  </tbody> 
 </table>
