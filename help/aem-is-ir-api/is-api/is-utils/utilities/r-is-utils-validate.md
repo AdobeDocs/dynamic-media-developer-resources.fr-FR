@@ -1,20 +1,20 @@
 ---
-description: Utilitaire de validation des images. Cet utilitaire de ligne de commande vérifie les fichiers image pour s’assurer qu’ils sont valides et qu’ils peuvent être lus sans difficulté par le serveur d’images.
+description: Utilitaire de validation des images. Cet utilitaire de ligne de commande vérifie les fichiers image pour s’assurer qu’ils sont valides et que le serveur d’images peut les lire sans difficulté.
 solution: Experience Manager
 title: valider
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 78d50fe9-95c6-4335-98d8-3322839ee02d
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '279'
 ht-degree: 1%
 
 ---
 
 # valider{#validate}
 
-Utilitaire de validation des images. Cet utilitaire de ligne de commande vérifie les fichiers image pour s’assurer qu’ils sont valides et qu’ils peuvent être lus sans difficulté par le serveur d’images.
+Utilitaire de validation des images. Cet utilitaire de ligne de commande vérifie les fichiers image pour s’assurer qu’ils sont valides et qu’ils peuvent être lus par le serveur d’images sans difficulté.
 
 Tous les fichiers image non PTIFF doivent être validés avant que le fichier ne soit mis à disposition du serveur d’images en tant qu’image source. Les images PTIFF doivent être validées après des opérations de copie potentiellement non fiables.
 
@@ -54,7 +54,7 @@ Tous les fichiers image non PTIFF doivent être validés avant que le fichier ne
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -validatecolorprofile </span> </p> </td> 
-  <td class="stentry"> <p>Vérifie la validité du profil colorimétrique incorporé. Par défaut, le corps du profil n’est pas coché. </p> </td> 
+  <td class="stentry"> <p>Vérifie la validité du profil colorimétrique incorporé. Par défaut, le profil du corps n’est pas coché. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -reject16BitPerComponent </span> </p> </td> 

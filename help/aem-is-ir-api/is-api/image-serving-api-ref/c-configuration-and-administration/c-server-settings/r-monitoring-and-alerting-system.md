@@ -5,9 +5,9 @@ title: Système de surveillance et d'alerte
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: fe672d1b-93e5-466a-a329-3032095c6ba8
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Utilisez ces paramètres de serveur pour configurer le système de surveillance 
 
 ## AS::monitorAlertGenerator.enableGlobalAlerting - Système d’alertes Activé {#section-612f8ea61794426ab205e22e5f665fa9}
 
-Activez la notification électronique en définissant sur &quot;true&quot; et en configurant les paramètres de notification électronique. Définir sur `false` désactive toutes les alertes par e-mail, ce qui peut s’avérer utile lors de la désactivation d’un serveur pour la maintenance. Booléenne.
+Activez la notification électronique en définissant sur &quot;true&quot; et en configurant les paramètres de notification électronique. Définir sur `false` désactive toutes les alertes par e-mail, ce qui peut s’avérer utile lors de la désactivation d’un serveur pour la maintenance. Booléen.
 
 ## AS::mailSender.host - SMTP Host {#section-151df07e7b44446581339bb7abeeba7a}
 

@@ -1,18 +1,18 @@
 ---
+title: nom
 description: Nom de la macro de commande.
 solution: Experience Manager
-title: name
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b5aa907b-aa95-4573-bc05-65d84c173f25
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+source-git-commit: d41865c6263a6a97a358e116e8c21d36b11c1d1b
 workflow-type: tm+mt
 source-wordcount: '33'
-ht-degree: 12%
+ht-degree: 6%
 
 ---
 
-# name{#name}
+# nom{#name}
 
 Nom de la macro de commande.
 
@@ -25,4 +25,4 @@ Nom de la macro de commande.
  </tr> 
 </table>
 
-*`name`* n’est pas sensible à la casse et peut se composer de n’importe quelle combinaison de lettres, de nombres, de &quot;-&quot;, de &quot;_&quot; et de &quot;.&quot; caractères.
+La commande *`name`* n’est pas sensible à la casse et peut se composer de n’importe quelle combinaison de lettres, de chiffres, de `-` (tiret), `_` (trait de soulignement) et `.` (point).

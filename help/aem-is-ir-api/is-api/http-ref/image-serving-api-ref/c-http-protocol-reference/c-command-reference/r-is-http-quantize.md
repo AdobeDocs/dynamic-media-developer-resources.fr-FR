@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 71d59961-848e-4d78-875e-066e842ac1bf
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 2%
+source-wordcount: '231'
+ht-degree: 1%
 
 ---
 
@@ -22,19 +22,19 @@ Quantification des couleurs. Spécifie les attributs de quantification des coule
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> type </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {adaptive|web|mac} </span> </p> <p>Indique le type de palette. </p> <p>Définissez sur . <span class="codeph"> adaptatif </span> pour calculer une palette optimale pour l’image. </p> <p>Définissez sur . <span class="codeph"> web </span> ou <span class="codeph"> mac </span> pour choisir une palette prédéfinie. </p> <p> <p>Remarque : La variable <span class="codeph"> mac </span> Le type de palette est uniquement pris en charge pour les formats GIF et PNG8, mais pas pour les formats GIF-Alpha et PNG8-Alpha. </p> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {adaptive|web|mac} </span> </p> <p>Indique le type de palette. </p> <p>Définissez sur . <span class="codeph"> adaptatif </span> pour calculer une palette optimale pour l’image. </p> <p>Définissez sur . <span class="codeph"> web </span> ou <span class="codeph"> mac </span> pour choisir une palette prédéfinie. </p> <p> <p>Remarque : La variable <span class="codeph"> mac </span> Le type de palette n’est pris en charge que pour les formats GIF et PNG8, mais pas pour les formats d’Alpha GIF et PNG8.</p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> dither </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {diffusion|off} </span> </p> <p>Spécifie les options de tramage. </p> <p>Définissez sur . <span class="codeph"> diffus </span> pour la diffusion des erreurs de Floyd-Steinberg </p> <p>Définissez sur . <span class="codeph"> off </span> pour désactiver le tramage. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {diffusion|off} </span> </p> <p>Spécifie les options de tramage. </p> <p>Définissez sur . <span class="codeph"> diffus </span> pour la diffusion des erreurs de Floyd-Steinberg </p> <p>Définissez sur . <span class="codeph"> off </span> pour désactiver le tramage.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> numColors </span> </span> </p> </td> 
-   <td colname="col2"> <p>Nombre de couleurs de sortie (2-256) </p> <p>Indique le nombre de couleurs incluses dans la variable <span class="codeph"> adaptatif </span> palette. </p> </td> 
+   <td colname="col2"> <p>Nombre de couleurs de sortie (2-256) </p> <p>Indique le nombre de couleurs incluses dans la variable <span class="codeph"> adaptatif </span> palette.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> colorList </span> </span> </p> </td> 
-   <td colname="col2"> <p>Liste séparée par des virgules de couleurs de RGB forcées au format hexadécimal6 </p> <p>Permet de spécifier les couleurs à inclure dans un <span class="codeph"> adaptatif </span> palette. Si le nombre de couleurs spécifié est inférieur à <span class="codeph"> <span class="varname"> numColors </span> </span>, les couleurs supplémentaires sont calculées en fonction du contenu de l’image. </p> </td> 
+   <td colname="col2"> <p>Liste séparée par des virgules de couleurs de RGB forcées au format hexadécimal6 </p> <p>Permet de spécifier les couleurs à inclure dans un <span class="codeph"> adaptatif </span> palette. Si le nombre de couleurs spécifié est inférieur à <span class="codeph"> <span class="varname"> numColors </span> </span>, les couleurs supplémentaires sont calculées en fonction du contenu de l’image.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,7 +55,7 @@ Générez une miniature de GIF à l’aide du `web` palette et aucun tramage :
 
 `http:// *`*Serveur*`*/myRootId/myImageId?req=tmb&fmt=gif&quantize=web,off`
 
-Convertissez l’image en GIF bonal avec transparence couleur clé et forcer les couleurs en noir et blanc :
+Convertissez l’image en GIF bimensuel avec transparence couleur-clé. Et forcer les couleurs au noir et blanc :
 
 `http:// *`*Serveur*`*/myRootId/myImageId?fmt=gif-alpha&wid=100&quantize=adaptive,off,2,000000,ffffff`
 

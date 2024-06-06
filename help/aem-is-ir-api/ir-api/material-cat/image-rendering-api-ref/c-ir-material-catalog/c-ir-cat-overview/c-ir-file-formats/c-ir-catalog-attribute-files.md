@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8b5afb99-3201-4e43-93e7-e8998354204f
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Les fichiers d’attributs du catalogue se composent d’un ensemble d’enregis
 <table id="simpletable_8454AD549FDA421BA1469CDA44132773"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> name </span> </span> </p> </td> 
-  <td class="stentry"> <p>Nom de l’attribut ; peut être composé d’une ou plusieurs lettres, nombre, "-" et "_" ; non sensible à la casse. </p> </td> 
+  <td class="stentry"> <p>Nom de l’attribut ; peut être composé d’une ou de plusieurs lettres, nombre, - (trait d’union) et _ (trait de soulignement) ; non sensible à la casse.</p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> value </span> </span> </p> </td> 
@@ -32,7 +32,7 @@ Les fichiers d’attributs du catalogue se composent d’un ensemble d’enregis
 </table>
 
 * L’espace entre les jetons est facultatif.
-* Les enregistrements dont les noms d’attribut sont inconnus sont ignorés par [!DNL Platform Server].
-* Les noms d’attribut peuvent être composés de n’importe quelle combinaison de lettres ASCII, de nombres et de &quot;-&quot;, &quot;_&quot; et &quot;.&quot;
+* La variable [!DNL Platform Server] ignore les enregistrements avec des noms d’attribut inconnus.
+* Les noms d’attribut peuvent être constitués de n’importe quelle combinaison de lettres ASCII, de nombres et de `-`, `_`, et `.` caractères.
 * Si le même nom d’attribut apparaît plusieurs fois dans le même fichier d’attributs, c’est le dernier qui se produit qui prévaut.
-* Utilisez &quot;#&quot; comme premier caractère pour marquer un enregistrement comme commentaire, ce que l’analyseur ignore.
+* Utilisation `#` comme premier caractère pour marquer un enregistrement comme commentaire ignoré par l’analyseur.

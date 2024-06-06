@@ -2,12 +2,12 @@
 description: Dossier racine du cache du système de catalogue.
 solution: Experience Manager
 title: Dossier de cache du catalogue (ir.catalogCacheRoot)
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 060c8b49-f9d9-498a-a07a-5ecd61af2677
-source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
+source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '43'
 ht-degree: 0%
 
 ---
@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Dossier racine du cache du système de catalogue.
 
-Peut être un chemin absolu ou un chemin relatif à [!DNL *[!DNL install_folder]*]. La valeur par défaut est [!DNL ./cache], ce qui correspond à [!DNL *[!DNL install_folder]*/cache].
+Peut être un chemin absolu ou un chemin relatif à [!DNL] *[!DNL install_folder]*]. Par défaut : [!DNL ./cache], qui correspond à [!DNL *[!DNL install_folder]*/cache].
