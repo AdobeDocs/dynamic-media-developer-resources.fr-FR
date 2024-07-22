@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: a03f08f7-e9cc-458f-9ff0-7721f1dbc4cc
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '88'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ Utilisez les commandes suivantes pour le codage des caractères.
   <tr> 
    <td> <span class="codeph">\u<span class="varname"> N</span></span> </td> 
    <td> <p>Caractère Unicode unique. </p> </td> 
-   <td> <p><span class="varname"> N</span> est un entier signé sur 2 octets, donc une valeur Unicode supérieure à 32767 doit être exprimée en nombre négatif. </p> </td> 
+   <td> <p><span class="varname"> N</span> est un entier signé de 2 octets. Par conséquent, une valeur Unicode supérieure à 32767 doit être exprimée en nombre négatif. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph">\uc<span class="varname"> N</span></span> </td> 

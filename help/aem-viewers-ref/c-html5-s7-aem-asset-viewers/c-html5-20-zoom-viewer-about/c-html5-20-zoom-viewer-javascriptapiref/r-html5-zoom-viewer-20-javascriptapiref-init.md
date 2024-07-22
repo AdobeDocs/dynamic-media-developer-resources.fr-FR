@@ -20,7 +20,7 @@ Référence de l’API JavaScript pour la visionneuse de vidéos.
 
 Commence l’initialisation de la visionneuse de vidéos. D’ici là, l’élément DOM du conteneur doit être créé afin que le code de la visionneuse puisse le trouver par son identifiant.
 
-Si l’élément de conteneur ne fait pas encore partie de la mise en page web (par exemple, il peut être masqué à l’aide de la fonction `display:none` style), la visionneuse suspend son processus d’initialisation. Il le fait jusqu’au moment où la page web ramène l’élément de conteneur à la mise en page. Lorsque ce processus se produit, le chargement de la visionneuse reprend automatiquement.
+Si l’élément de conteneur ne fait pas encore partie de la mise en page web (par exemple, il peut être masqué avec le style `display:none`), la visionneuse suspend son processus d’initialisation. Il le fait jusqu’au moment où la page web ramène l’élément de conteneur à la mise en page. Lorsque ce processus se produit, le chargement de la visionneuse reprend automatiquement.
 
 Appelez cette méthode une seule fois pendant le cycle de vie de la visionneuse ; les appels suivants sont ignorés.
 

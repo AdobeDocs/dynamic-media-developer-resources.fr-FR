@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 84deb0d4-ac7e-4ba0-884f-675a0dcc827b
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 8%
+source-wordcount: '58'
+ht-degree: 5%
 
 ---
 
@@ -21,8 +21,8 @@ Attribut de configuration de la visionneuse de vidéos interactives.
 <table id="table_2A4F898BBF88417DB0834B7F78637F5D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Définit le mode silencieux pour la lecture vidéo au chargement initial. S’il est défini sur <span class="codeph"> 1 </span>, le volume est muet. sinon, la vidéo est lue avec le son. Sur certains appareils, la mise en mode muet de la lecture vidéo au chargement permet également à la vidéo d’être lue automatiquement. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> Définit le mode silencieux pour la lecture vidéo au chargement initial. Si elle est définie sur <span class="codeph"> 1 </span>, le volume est muté ; dans le cas contraire, la vidéo est lue avec le son. Sur certains appareils, la mise en mode muet de la lecture vidéo au chargement permet également à la vidéo d’être lue automatiquement. </p> </td> 
   </tr> 
  </tbody> 
 </table>

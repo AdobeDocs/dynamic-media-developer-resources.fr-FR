@@ -8,7 +8,7 @@ exl-id: 56a45324-5027-4375-a790-c965f682e4b9
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 16%
+ht-degree: 8%
 
 ---
 
@@ -100,9 +100,9 @@ Créez ou modifiez un champ de métadonnées. Omettez la poignée de champ facul
 
 ## Exemples {#section-4441c26d1f41466ba972b43dd5189e89}
 
-Cet exemple de code crée un champ de métadonnées limité par les constantes de chaîne Type de ressource et Types de champ de métadonnées . Si la variable `fieldHandle` possède une valeur de gestion de champ valide, elle modifie les valeurs de métadonnées et obtient le même nom de champ que celui spécifié dans la requête.
+Cet exemple de code crée un champ de métadonnées limité par les constantes de chaîne Type de ressource et Types de champ de métadonnées . Si l’élément `fieldHandle` a une valeur de gestion de champ valide, il modifie les valeurs de métadonnées et obtient le même nom de champ que celui spécifié dans la requête.
 
-**Request**
+**Requête**
 
 ```java
 <ns1:saveMetadataFieldParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

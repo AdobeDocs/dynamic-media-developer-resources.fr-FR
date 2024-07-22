@@ -101,7 +101,7 @@ Les valeurs suivantes sont autorisées pour les matériaux de texture répétabl
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>19 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Optimiseur de périphérie. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Gestionnaire aléatoire Edge. </p></td> 
  </tr> 
 </table>
 

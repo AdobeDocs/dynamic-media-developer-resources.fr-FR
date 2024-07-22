@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 24046950-1dba-4352-a549-43994e799748
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 3%
+source-wordcount: '149'
+ht-degree: 2%
 
 ---
 
@@ -16,29 +16,29 @@ ht-degree: 3%
 
 Filtre d’adresses IP du client. Permet la spécification d’une ou de plusieurs adresses IP ou plages d’adresses.
 
-Lorsqu’elles sont spécifiées, les demandes adressées à ce catalogue d’images provenant d’un client à une adresse IP non répertoriée sont rejetées. `localhost` fait toujours implicitement partie de la variable `ClientAddressFilter` , même si elle n’est pas spécifiée explicitement. Demandes provenant de `localhost` ne sont jamais rejetés, quelle que soit la variable `ClientAddressFilter` spécification.
+Lorsqu’elles sont spécifiées, les demandes adressées à ce catalogue d’images provenant d’un client à une adresse IP non répertoriée sont rejetées. `localhost` fait toujours implicitement partie de la définition `ClientAddressFilter`, même si elle n’est pas spécifiée explicitement. Les requêtes provenant de `localhost` ne sont jamais rejetées, quelle que soit la spécification `ClientAddressFilter`.
 
 ## Propriétés {#section-21a2992f108d42fb8660c0d65aa61e13}
 
-Liste séparée par des virgules des adresses IP avec des netmasques facultatifs ([Notation CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation) est utilisé) :
+Liste séparée par des virgules d’adresses IP avec des netmasques facultatifs ([la notation CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#CIDR_notation) est utilisée) :
 
 ` *[!DNL ipAddress]*[/ *[!DNL netmask]*]&#42;[, *[!DNL ipAddress]*[/ *[!DNL netmask]*]]`
 
-* *[!DNL ipAddress]* Adresse IP dans *[!DNL ddd.ddd.ddd.ddd]* format
+* *[!DNL ipAddress]* Adresse IP au format *[!DNL ddd.ddd.ddd.ddd]*
 
-* *[!DNL netmask]* Masque net (0...32)
+* *[!DNL netmask]* masque net (0...32)
 
-Cet attribut est ignoré lorsqu’une règle de prétraitement avec une `<addressfilter>` est appliqué.
+Cet attribut est ignoré lorsqu’une règle de prétraitement avec un élément `<addressfilter>` est appliquée.
 
 ## Par défaut {#section-beddaa18ed6c4f3ba1eb2d4471267712}
 
-Hérité de `default::AddressFilter` s’il n’est pas défini ou s’il est vide.
+Hérité de `default::AddressFilter` si elle n’est pas définie ou si elle est vide.
 
 ## Exemples {#section-72b4a3615bff4a5f8b03d83c6489aaba}
 
 * Aucune restriction d’accès : `0.0.0.0/0`
 * Accorder l’accès à toutes les adresses commençant par `192: 192.0.0.0/8`
-* Accorder l’accès aux 512 hôtes avec des adresses entre `192.168.12.0` et `192.168.13.255: 192.168.12.0/23`
+* Accorder l’accès aux 512 hôtes avec des adresses comprises entre `192.168.12.0` et `192.168.13.255: 192.168.12.0/23`
 
 * Accorder l’accès à une seule adresse IP : `192.168.2.117` ou `192.168.2.117/32`
 

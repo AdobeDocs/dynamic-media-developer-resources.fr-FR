@@ -18,7 +18,7 @@ Après avoir installé Image Serving sous Linux®, vérifiez l’installation.
 
 Le serveur d’images est installé en tant que démon Linux®.
 
-**Vérification de l’installation**
+**Pour vérifier l’installation**
 
 1. Vérifiez que le serveur d’images est configuré pour démarrer automatiquement et qu’il est en cours d’exécution :
 
@@ -34,6 +34,6 @@ Le serveur d’images est installé en tant que démon Linux®.
 
 [!DNL  http:// *[!DNL server:port]*/ir/render]
 
-Dans les réponses, vérifiez la présence d’éléments commençant par `imageServer`, qui indiquent que la variable [!DNL Platform Server] peut communiquer avec le serveur d’images.
+Dans les réponses, vérifiez la présence d’éléments commençant par `imageServer`, qui indiquent que [!DNL Platform Server] a pu communiquer avec le serveur d’images.
 
 >Une vérification supplémentaire peut être effectuée à l’aide des exemples de pages des packages Documentation et Demo , le cas échéant.

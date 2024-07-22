@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 2741821f-78fe-44d4-8604-fee10086e0a0
 source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 1%
+source-wordcount: '301'
+ht-degree: 0%
 
 ---
 
@@ -31,8 +31,8 @@ Le sélecteur de classe CSS suivant contrôle l’aspect du lecteur vidéo :
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
-   <td colname="col2"> <p>Couleur d’arrière-plan de la vue principale. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>Couleur de fond de la vue principale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,7 +47,7 @@ background-color: transparent;
 }
 ```
 
-Les sous-titres codés sont placés dans un conteneur interne du lecteur vidéo. La position de ce conteneur est contrôlée par les opérateurs de positionnement WebVTT pris en charge. Le texte de la légende se trouve à l’intérieur de ce conteneur et son style est contrôlé à l’aide du sélecteur de classe CSS suivant :
+Les sous-titres codés sont placés dans un conteneur interne à l’intérieur du lecteur vidéo. La position de ce conteneur est contrôlée par les opérateurs de positionnement WebVTT pris en charge. Le texte de la légende se trouve à l’intérieur de ce conteneur et son style est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 `. s7videoviewer .s7 videoplayer .s7caption`
 
@@ -56,7 +56,7 @@ Les sous-titres codés sont placés dans un conteneur interne du lecteur vidéo.
 <table id="table_960E0D4FB91748FF9FC73C925B81879C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Arrière-plan du texte de la légende codée. </p> </td> 
   </tr> 
   <tr> 
@@ -69,7 +69,7 @@ Les sous-titres codés sont placés dans un conteneur interne du lecteur vidéo.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
-   <td colname="col2"> <p> Taille de police de la légende fermée. </p> </td> 
+   <td colname="col2"> <p> Taille de police des sous-titres codés. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 

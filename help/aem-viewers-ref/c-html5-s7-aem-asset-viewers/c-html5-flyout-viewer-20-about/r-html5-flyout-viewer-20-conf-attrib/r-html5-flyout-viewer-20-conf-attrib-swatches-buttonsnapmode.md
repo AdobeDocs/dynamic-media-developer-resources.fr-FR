@@ -8,7 +8,7 @@ exl-id: 06ff32fb-71a8-4e10-b82b-494cca05068d
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '39'
-ht-degree: 10%
+ht-degree: 7%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 10%
 <table id="table_4322E3ECE9354016B891F5E7A35D6A2A"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> instantané</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> instantanin</span> </span> </p> </td> 
    <td> <p>Permet aux boutons de s’aligner en regard des échantillons. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> instantané</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> instantanout</span> </span> </p> </td> 
    <td> <p>Permet aux boutons de s’aligner en regard de la bordure du composant. </p> </td> 
   </tr> 
   <tr> 

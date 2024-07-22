@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 38241e96-ee7f-4dc1-a2a6-4a76e25b00dc
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 3%
+source-wordcount: '256'
+ht-degree: 0%
 
 ---
 
@@ -29,19 +29,19 @@ L’indicateur de page d’aspect est contrôlé à l’aide du sélecteur de cl
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> haut </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Position à partir de la bordure supérieure de la barre de contrôle principale (sur les ordinateurs de bureau et tablettes) ou de la barre de contrôle secondaire (sur les téléphones mobiles), y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> droite </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> droit </span> </p> </td> 
    <td colname="col2"> <p>Position à partir de la bordure droite de la barre de contrôle principale (sur les ordinateurs de bureau et tablettes) ou de la barre de contrôle secondaire (sur les téléphones mobiles), y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> gauche </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p>Position à partir de la bordure gauche de la barre de contrôle principale (sur les ordinateurs de bureau et tablettes) ou de la barre de contrôle secondaire (sur les téléphones mobiles), y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bas </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p>Position à partir de la bordure inférieure de la barre de contrôle principale (sur les ordinateurs de bureau et tablettes) ou de la barre de contrôle secondaire (sur les téléphones mobiles), y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
@@ -54,7 +54,7 @@ L’indicateur de page d’aspect est contrôlé à l’aide du sélecteur de cl
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> color </span> </p> </td> 
-   <td colname="col2"> <p>Police - Couleur. </p> </td> 
+   <td colname="col2"> <p>Couleur de la police. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 

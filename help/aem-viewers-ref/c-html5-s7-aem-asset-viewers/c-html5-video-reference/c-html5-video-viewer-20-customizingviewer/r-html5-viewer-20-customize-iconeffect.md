@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: f4bf343a-4a78-470b-abe5-94e2d608f45d
 source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 1%
+source-wordcount: '170'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ L’aspect de l’icône de lecture est contrôlé à l’aide du sélecteur de 
    <td colname="col2"> <p> Image affichée de l’icône de lecture. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -47,7 +47,7 @@ L’aspect de l’icône de lecture est contrôlé à l’aide du sélecteur de 
  </tbody> 
 </table>
 
-L’effet d’icône prend en charge `state` sélecteur d’attributs. When `state="play"` est utilisée lorsque la vidéo est mise en pause au milieu de la lecture ; et `state="replay"` est utilisé lorsque la tête de lecture se trouve à la fin du flux.
+L’effet d’icône prend en charge le sélecteur d’attributs `state`. Lorsque `state="play"` est utilisé lorsque la vidéo est mise en pause au milieu de la lecture et que `state="replay"` est utilisé lorsque la tête de lecture se trouve à la fin de la diffusion.
 
 ## Exemple {#section-e8caea0a303c425a8a637c2a47c06355}
 

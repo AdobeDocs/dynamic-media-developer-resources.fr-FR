@@ -8,7 +8,7 @@ exl-id: 06fdd9f5-5021-4f0b-b312-4465df9bda25
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -41,7 +41,7 @@ Renvoie des informations sur la structure d’une entreprise (nombre de fichiers
 
 Le nom de cette demande est trompeur. Plutôt que de renvoyer uniquement une valeur scalaire qui reflète la quantité d’espace disque qu’une entreprise utilise, elle obtient d’autres informations sur la structure d’une entreprise également.
 
-**Request**
+**Requête**
 
 ```java
 <ns1:getDiskUsageParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

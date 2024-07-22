@@ -8,7 +8,7 @@ exl-id: 72429030-200d-4e13-a537-10a728998a26
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '83'
-ht-degree: 13%
+ht-degree: 10%
 
 ---
 
@@ -39,9 +39,9 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-cf319fc8f86a40ab9cbd838b031973fe}
 
-Cet exemple de code utilise la poignée de la visionneuse comme champ dans la variable `deletePropertySetParam` envoyé au serveur des services Web IPS pour supprimer le jeu de propriétés.
+Cet exemple de code utilise la poignée de l’ensemble comme champ dans le `deletePropertySetParam` envoyé au serveur des services Web IPS pour supprimer l’ensemble de propriétés.
 
-**Request**
+**Requête**
 
 ```java
 <deletePropertySetParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

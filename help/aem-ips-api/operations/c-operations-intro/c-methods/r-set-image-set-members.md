@@ -2,13 +2,13 @@
 description: Définit la liste des ressources associées à une visionneuse d’images.
 solution: Experience Manager
 title: setImageSetMembers
-feature: Dynamic Media Classic,SDK/API,Visionneuses d’images
+feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: c30df5fe-e355-45d4-8c06-e396caca0d58
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 12%
+source-wordcount: '124'
+ht-degree: 8%
 
 ---
 
@@ -74,7 +74,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 Cet exemple de code utilise un tableau de membres pour définir les membres d’une visionneuse d’images.
 
-**Request**
+**Requête**
 
 ```java
 <setImageSetMembersParam xmlns="http://www.scene7.com/IpsApi/xsd">

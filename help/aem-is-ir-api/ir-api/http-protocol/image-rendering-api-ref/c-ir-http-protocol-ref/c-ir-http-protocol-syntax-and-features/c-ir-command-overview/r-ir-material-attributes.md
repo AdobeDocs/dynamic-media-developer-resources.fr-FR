@@ -54,7 +54,7 @@ Ces attributs définissent les matériaux à appliquer à l’objet sélectionn�
   <td class="stentry"> <p>Sélecteur de carte d’éclairage. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca" type="reference" format="dita" scope="local"> glessure</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca" type="reference" format="dita" scope="local"> glacé</a></span> </p></td> 
   <td class="stentry"> <p>Luminosité de surface. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -62,7 +62,7 @@ Ces attributs définissent les matériaux à appliquer à l’objet sélectionn�
   <td class="stentry"> <p>Image de la zone cliquable. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> brut</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180" type="reference" format="dita" scope="local"> rudimentaire</a></span> </p></td> 
   <td class="stentry"> <p>La rugosité de surface. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -90,7 +90,7 @@ Ces attributs définissent les matériaux à appliquer à l’objet sélectionn�
   <td class="stentry"> <p>Taille des décimales. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-flags.md#reference-3a4844f0f21346d79e6508aaad9a9ac9" type="reference" format="dita" scope="local"> flags</a></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-flags.md#reference-3a4844f0f21346d79e6508aaad9a9ac9" type="reference" format="dita" scope="local"> indicateurs</a></span> </p></td> 
   <td class="stentry"> <p>Paramètres spéciaux à appliquer. </p></td> 
  </tr> 
  <tr class="strow"> 

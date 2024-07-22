@@ -25,7 +25,7 @@ Tous les fichiers image non PTIFF doivent être validés avant que le fichier ne
 <table id="simpletable_D2C6B20E1007433AB4184A73046A44F0"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> fileType </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> -jpeg | -ptif | -any </span> </p> <p>Type de fichier source ; au moins un doit être spécifié (-any autorise les mêmes types de fichiers image pris en charge par IC). </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> -jpeg | -ptif | -any </span> </p> <p>Type de fichier Source ; au moins un doit être spécifié (-any autorise les mêmes types de fichiers image pris en charge par IC). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> options </span> </span> </p> </td> 
@@ -39,14 +39,14 @@ Tous les fichiers image non PTIFF doivent être validés avant que le fichier ne
 
 ## Renvoie {#section-67a7cf7c53144fbb8f24b818f4a10901}
 
-0 en cas de réussite. Si une erreur se produit, une valeur non nulle est renvoyée et les détails d’erreur sont envoyés à `stderr`.
+0 en cas de réussite. Si une erreur se produit, une valeur non nulle est renvoyée et les détails de l’erreur sont envoyés à `stderr`.
 
 ## Options {#section-9df8334b46cb4e90901505af59e4600e}
 
 <table id="simpletable_004B1A29BDFD40A9B89E4CBD23119B3F"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -fileList <span class="varname"> listFile </span> </span> </p> </td> 
-  <td class="stentry"> <p>Spécifie un fichier texte distinct contenant la liste des fichiers image. Un enregistrement par fichier. If <span class="codeph"> -fileList </span> est inclus, <span class="varname"> sourceFile </span> ne doit pas être spécifié. </p> </td> 
+  <td class="stentry"> <p>Spécifie un fichier texte distinct contenant la liste des fichiers image. Un enregistrement par fichier. Si <span class="codeph"> -fileList </span> est inclus, <span class="varname"> sourceFile </span> ne doit pas être spécifié. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -readPixels </span> </p> </td> 
@@ -66,7 +66,7 @@ Tous les fichiers image non PTIFF doivent être validés avant que le fichier ne
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -silent </span> </p> </td> 
-  <td class="stentry"> <p>Désactive <span class="codeph"> stdout </span>/ <span class="codeph"> stderr </span> sortie. Seul un état est renvoyé. </p> </td> 
+  <td class="stentry"> <p>Désactive la sortie <span class="codeph"> stdout </span>/ <span class="codeph"> stderr </span>. Seul un état est renvoyé. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -stopOnError </span> </p> </td> 

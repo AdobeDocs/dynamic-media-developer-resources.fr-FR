@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 9185d752-1fd8-45c3-8361-e5ee803e87d5
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '18'
+ht-degree: 16%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 <table id="table_70E6FDB62C2C4DBBB26BEBAD37A181AD"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
+   <td> <p> <span class="codeph"> 0|1</span> </p> </td> 
    <td> <p> Active ou désactive l’utilisation de la barre de défilement. </p> </td> 
   </tr> 
  </tbody> 

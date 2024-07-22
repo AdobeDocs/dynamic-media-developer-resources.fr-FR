@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 44df6dfa-1485-40c2-8a14-bbf451b87641
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 7%
+source-wordcount: '171'
+ht-degree: 4%
 
 ---
 
@@ -37,7 +37,7 @@ Syntaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL destFolder]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Chemin d’accès au dossier dans lequel vous souhaitez enregistrer les visionneuses. Enregistre le dossier racine de l’entreprise par défaut. </td> 
+   <td colname="col3"> Chemin du dossier dans lequel vous souhaitez enregistrer les visionneuses. Enregistre le dossier racine de l’entreprise par défaut. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL readyForPublish]</span> </span> </td> 
@@ -57,9 +57,9 @@ Syntaxe
  </tbody> 
 </table>
 
-**Options emailSetting**
+**EmailSetting Options**
 
-Le `emailSetting` comprend les options suivantes :
+Le paramètre `emailSetting` comprend les options suivantes :
 
 | Option | Renvoie |
 |---|---|

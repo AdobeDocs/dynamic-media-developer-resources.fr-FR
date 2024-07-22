@@ -41,7 +41,7 @@ L’aspect du bouton de partage de lien est contrôlé à l’aide du sélecteur
    <td colname="col2"> <p> Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -49,9 +49,9 @@ L’aspect du bouton de partage de lien est contrôlé à l’aide du sélecteur
 
 >[!NOTE]
 >
->Ce bouton prend en charge `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
-Il est possible de supprimer le bouton du panneau Partage sur les réseaux sociaux en définissant `display:none` Propriété CSS sur sa classe CSS.
+Il est possible de supprimer le bouton du panneau Partage sur les réseaux sociaux en définissant la propriété CSS `display:none` sur sa classe CSS.
 
 L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
@@ -91,13 +91,13 @@ Superposition en arrière-plan qui couvre la page web lorsque la boîte de dialo
    <td colname="col2"> <p>Opacité du recouvrement en arrière-plan. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Couleur de superposition de l’arrière-plan. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exemple** - pour configurer une superposition d’arrière-plan en gris avec une opacité de 70 % :
+**Exemple** : pour configurer une superposition d’arrière-plan en gris avec une opacité de 70 % :
 
 ```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7backoverlay { 
@@ -121,7 +121,7 @@ Par défaut, la boîte de dialogue modale s’affiche centrée dans l’écran s
    <td colname="col2"> <p> Rayon de bordure de la boîte de dialogue, au cas où la boîte de dialogue ne prendrait pas l’intégralité du navigateur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Couleur de fond de la boîte de dialogue. </p> </td> 
   </tr> 
   <tr> 
@@ -135,7 +135,7 @@ Par défaut, la boîte de dialogue modale s’affiche centrée dans l’écran s
  </tbody> 
 </table>
 
-**Exemple** - pour configurer la boîte de dialogue afin d’utiliser toute la fenêtre du navigateur et d’avoir un arrière-plan blanc sur les appareils tactiles :
+**Exemple** : pour configurer la boîte de dialogue afin d’utiliser toute la fenêtre du navigateur et d’avoir un arrière-plan blanc sur les appareils tactiles :
 
 ```css {.line-numbers}
 .s7video360viewer.s7touchinput .s7linkdialog .s7dialog { 
@@ -151,12 +151,12 @@ L’en-tête de la boîte de dialogue se compose d’une icône, d’un texte de
 .s7video360viewer .s7linkdialog .s7dialogheader
 ```
 
-**Propriétés CSS de l’en-tête de la boîte de dialogue**
+**Propriétés CSS de l’en-tête de boîte de dialogue**
 
 <table id="table_E407E844C9BD4B5DA8B5BBDE0554F9CA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p> Marge intérieure du contenu de l’en-tête. </p> </td> 
   </tr> 
  </tbody> 
@@ -168,12 +168,12 @@ L’icône et le texte du titre sont placés dans un conteneur supplémentaire c
 .s7video360viewer .s7linkdialog .s7dialogheader .s7dialogline
 ```
 
-**Propriétés CSS de la ligne de dialogue**
+**Propriétés CSS de la ligne de boîte de dialogue**
 
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p> Marge intérieure de l’icône et du titre de l’en-tête </p> </td> 
   </tr> 
  </tbody> 
@@ -185,7 +185,7 @@ L’icône d’en-tête est contrôlée avec le sélecteur de classe CSS suivant
 .s7video360viewer .s7linkdialog .s7dialogheadericon
 ```
 
-**Propriétés CSS de l’icône d’en-tête de la boîte de dialogue**
+**Propriétés CSS de l’icône d’en-tête de boîte de dialogue**
 
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
@@ -202,7 +202,7 @@ L’icône d’en-tête est contrôlée avec le sélecteur de classe CSS suivant
    <td colname="col2"> <p>Image de l’icône. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -231,7 +231,7 @@ Le titre d’en-tête est contrôlé à l’aide du sélecteur de classe CSS sui
    <td colname="col2"> <p>Famille de polices. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p>Marge intérieure du texte interne. </p> </td> 
   </tr> 
  </tbody> 
@@ -252,7 +252,7 @@ Le bouton Fermer est contrôlé à l’aide du sélecteur de classe CSS suivant 
    <td colname="col2"> <p> Position verticale des boutons par rapport au conteneur d’en-tête. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> droit </span> </p> </td> 
    <td colname="col2"> <p> Position du bouton horizontal par rapport au conteneur d’en-tête. </p> </td> 
   </tr> 
   <tr> 
@@ -264,7 +264,7 @@ Le bouton Fermer est contrôlé à l’aide du sélecteur de classe CSS suivant 
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p>Marge intérieure du bouton. </p> </td> 
   </tr> 
   <tr> 
@@ -272,7 +272,7 @@ Le bouton Fermer est contrôlé à l’aide du sélecteur de classe CSS suivant 
    <td colname="col2"> <p>Image de bouton pour chaque état. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -280,11 +280,11 @@ Le bouton Fermer est contrôlé à l’aide du sélecteur de classe CSS suivant 
 
 >[!NOTE]
 >
->Ce bouton prend en charge `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
 L’info-bulle du bouton Fermer et le titre de la boîte de dialogue peuvent être localisés. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Exemple** - pour configurer un en-tête de boîte de dialogue avec marge intérieure, icône de 22 x 12 pixels, avec un titre de 16 points en gras. Enfin, un bouton Fermer de 28 x 28 pixels qui est positionné à deux pixels du haut et à deux pixels à droite du conteneur de la boîte de dialogue :
+**Exemple** : pour configurer un en-tête de boîte de dialogue avec marge intérieure, icône de 22 x 12 pixels, avec un titre en gras de 16 points. Enfin, un bouton Fermer de 28 x 28 pixels qui est positionné à deux pixels du haut et à deux pixels à droite du conteneur de la boîte de dialogue :
 
 ```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialogheader { 
@@ -330,12 +330,12 @@ Le pied de page de la boîte de dialogue se compose d’un bouton Annuler . Le c
 .s7video360viewer .s7linkdialog .s7dialogfooter
 ```
 
-**Propriétés CSS du pied de page de la boîte de dialogue**
+**Propriétés CSS du pied de page de boîte de dialogue**
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bordure </span> </p> </td> 
    <td colname="col2"> <p> Bordure permettant de séparer visuellement le pied de page du reste de la boîte de dialogue. </p> </td> 
   </tr> 
  </tbody> 
@@ -347,12 +347,12 @@ Le pied de page comporte un conteneur interne qui conserve le bouton. Il est con
 .s7video360viewer .s7linkdialog .s7dialogbuttoncontainer
 ```
 
-**Propriétés CSS du conteneur de boutons de la boîte de dialogue**
+**Propriétés CSS du conteneur de boutons de boîte de dialogue**
 
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p> Marge intérieure entre le pied de page et le bouton. </p> </td> 
   </tr> 
  </tbody> 
@@ -383,7 +383,7 @@ Ce bouton n’est disponible que sur les ordinateurs de bureau.
    <td colname="col2"> <p> Couleur de texte des boutons pour chaque état. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan du bouton pour chaque état. </p> </td> 
   </tr> 
  </tbody> 
@@ -391,7 +391,7 @@ Ce bouton n’est disponible que sur les ordinateurs de bureau.
 
 >[!NOTE]
 >
->Le bouton Tout sélectionner prend en charge la variable `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Le bouton Sélectionner tout prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
 Le bouton Annuler est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
@@ -416,7 +416,7 @@ Le bouton Annuler est contrôlé à l’aide du sélecteur de classe CSS suivant
    <td colname="col2"> <p> Couleur de texte des boutons pour chaque état. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan du bouton pour chaque état. </p> </td> 
   </tr> 
  </tbody> 
@@ -424,7 +424,7 @@ Le bouton Annuler est contrôlé à l’aide du sélecteur de classe CSS suivant
 
 >[!NOTE]
 >
->Ce bouton prend en charge `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
 En outre, les deux boutons partagent une classe CSS commune qui peut contenir des paramètres CSS identiques pour les autres boutons de boîte de dialogue :
 
@@ -465,7 +465,7 @@ En outre, les deux boutons partagent une classe CSS commune qui peut contenir de
 
 Les info-bulles des boutons peuvent être localisées. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Exemple** - pour configurer un pied de page de boîte de dialogue avec un bouton Annuler 64 x 34, avec des couleurs de texte et d’arrière-plan différentes pour chaque état de bouton :
+**Exemple** : pour configurer un pied de page de boîte de dialogue avec un bouton Annuler 64 x 34, avec des couleurs de texte et d’arrière-plan différentes pour chaque état de bouton :
 
 ```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialogfooter { 
@@ -540,7 +540,7 @@ La zone de dialogue principale, entre l’en-tête et le pied de page, contient 
    <td colname="col2"> <p> Hauteur de la zone de boîte de dialogue principale. Elle doit être spécifiée uniquement lorsque la boîte de dialogue fonctionne en mode bureau. Cela ne s’applique pas lorsque la boîte de dialogue est dimensionnée pour occuper toute la fenêtre du navigateur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Couleur d’arrière-plan de la zone de boîte de dialogue principale. </p> </td> 
   </tr> 
   <tr> 
@@ -550,7 +550,7 @@ La zone de dialogue principale, entre l’en-tête et le pied de page, contient 
  </tbody> 
 </table>
 
-**Exemple** - pour configurer une zone de boîte de dialogue principale d’une hauteur de 300 pixels, définissez une marge de 10 pixels et utilisez un arrière-plan blanc :
+**Exemple** : pour configurer une zone de boîte de dialogue principale d’une hauteur de 300 pixels, d’une marge de 10 pixels et d’un arrière-plan blanc :
 
 ```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialogviewarea { 
@@ -571,13 +571,13 @@ Tout le contenu du formulaire, tel que les libellés et les champs de saisie, r�
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p>Marge intérieure. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exemple** - pour configurer le contenu du formulaire avec une marge intérieure de dix pixels :
+**Exemple** : pour configurer le contenu du formulaire avec une marge intérieure de dix pixels :
 
 ```css {.line-numbers}
 .s7interactivevideoviewer .s7linkdialog .s7dialogbody { 
@@ -593,7 +593,7 @@ Tous les libellés statiques du formulaire de boîte de dialogue sont contrôlé
 
 Cette classe ne convient pas au contrôle de la taille ou de la position des libellés, car vous pouvez l’appliquer à des textes situés à différents endroits de l’interface utilisateur du formulaire.
 
-**Propriétés CSS du libellé de la boîte de dialogue**
+**Propriétés CSS de l’étiquette de boîte de dialogue**
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
@@ -618,7 +618,7 @@ Cette classe ne convient pas au contrôle de la taille ou de la position des lib
 
 Les libellés de boîte de dialogue peuvent être localisés. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1).
 
-**Exemple** - pour configurer toutes les étiquettes en gris, en gras avec une police de neuf pixels :
+**Exemple** : pour configurer toutes les étiquettes en gris, en gras avec une police de neuf pixels :
 
 ```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialoglabel { 
@@ -643,13 +643,13 @@ La taille de la copie de texte affichée en haut du lien est contrôlée par le 
    <td colname="col2"> <p>Largeur du texte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p>Marge intérieure. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exemple** - pour définir la copie de texte sur 430 pixels de large et une marge intérieure de 10 pixels en bas :
+**Exemple** : pour définir la copie de texte sur 430 pixels de large et une marge intérieure de 10 pixels en bas :
 
 ```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialoginputwide { 
@@ -664,22 +664,22 @@ Le lien de partage est encapsulé dans un conteneur et contrôlé à l’aide du
 .s7video360viewer .s7linkdialog .s7dialoginputcontainer
 ```
 
-**Propriétés CSS du conteneur d’entrée de la boîte de dialogue**
+**Propriétés CSS du conteneur d’entrée de boîte de dialogue**
 
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bordure </span> </p> </td> 
    <td colname="col2"> <p>Bordure autour du conteneur de liens de partage. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p>Marge intérieure. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exemple** - pour définir une bordure grise d’un pixel autour du texte du code incorporé et une marge intérieure de neuf pixels :
+**Exemple** : pour définir une bordure grise d’un pixel autour du texte du code incorporé et une marge intérieure de neuf pixels :
 
 ```css {.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialoginputcontainer { 
@@ -694,7 +694,7 @@ Le lien de partage lui-même est contrôlé à l’aide du sélecteur de classe 
 .s7video360viewer .s7linkdialog .s7dialoglink
 ```
 
-**Propriétés CSS du lien de partage de boîte de dialogue**
+**Propriétés CSS de la boîte de dialogue partager le lien**
 
 <table id="table_65CF778F5BDA45118208538DCBE203FB"> 
  <tbody> 
@@ -705,7 +705,7 @@ Le lien de partage lui-même est contrôlé à l’aide du sélecteur de classe 
  </tbody> 
 </table>
 
-**Exemple** - pour définir le lien de partage sur une largeur de 450 pixels :
+**Exemple** : pour définir le lien de partage sur une largeur de 450 pixels :
 
 ```css{.line-numbers}
 .s7video360viewer .s7linkdialog .s7dialoglink { 

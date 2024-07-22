@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 9a37936b-ee3d-4ea0-9a86-ea14d0ef8be9
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
@@ -43,13 +43,13 @@ L’aspect de la zone d’affichage est contrôlé à l’aide du sélecteur de 
    <td colname="col2"> <p>Hauteur de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan au format hexadécimal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : pour configurer une visionneuse avec un arrière-plan blanc ( `#FFFFFF`) et sa taille est de 512 x 288 pixels.
+Exemple : pour configurer une visionneuse avec un arrière-plan blanc ( `#FFFFFF`) et faire sa taille de 512 x 288 pixels.
 
 ```
 .s7ecatalogviewer { 

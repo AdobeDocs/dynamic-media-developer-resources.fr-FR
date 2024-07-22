@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 2c120ed1-b556-4caf-a30e-63ae48cc2104
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 7%
+source-wordcount: '560'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 La diffusion d’images offre plusieurs alternatives au rendu du texte, accessibles par les commandes text= et textPs=.
 
-`textPs=` offre un niveau élevé de similitude avec le texte rendu avec Adobe Photoshop et Illustrator. `text=` est raisonnablement compatible avec le texte rendu avec Windows Wordpad.
+`textPs=` fournit un haut niveau de similitude avec le texte rendu avec Adobe Photoshop et Illustrator. `text=` est raisonnablement compatible avec le texte rendu avec Windows Wordpad.
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ Le tableau suivant répertorie les fonctions clés disponibles pour chaque comma
  <thead> 
   <tr> 
    <th class="entry"> <b> Fonctionnalité</b> </th> 
-   <th class="entry"> <b> texte=</b> </th> 
+   <th class="entry"> <b> text=</b> </th> 
    <th class="entry"> <b> textPs=</b> </th> 
    <th class="entry"> <b> Voir aussi</b> </th> 
   </tr> 
@@ -153,7 +153,7 @@ Certains traitements de texte génèrent des fichiers plutôt volumineux, qui in
 
 L’encodage de langue basé sur les normes UTF-8 et ISO est pris en charge dans les chaînes RTF en tant qu’alternative aux mécanismes d’encodage de caractères RTF standard. Cela permet aux applications d’envoyer du texte non anglais au serveur sans connaissance du codage RTF.
 
-Tous les caractères non compatibles HTTP doivent être correctement échappés si la chaîne doit être transmise par http. Seuls &quot;=&quot;, &quot;&amp;&quot; et &quot;%&quot; doivent être précédés d’une séquence d’échappement si la chaîne est incorporée dans la variable `catalog::Modifiers` champ d’un enregistrement de catalogue d’images. Les caractères de contrôle, y compris `<CR>`, `<LF>`, et `<TAB>` doit toujours être supprimé.
+Tous les caractères non compatibles HTTP doivent être correctement échappés si la chaîne doit être transmise par http. Seuls &quot;=&quot;, &quot;&amp;&quot; et &quot;%&quot; doivent être précédés d’une séquence d’échappement si la chaîne est incorporée dans le champ `catalog::Modifiers` d’un enregistrement de catalogue d’images. Les caractères de contrôle, y compris `<CR>`, `<LF>` et `<TAB>`, doivent toujours être supprimés.
 
 Les moteurs de texte du serveur d’images interprètent un sous-ensemble de commandes définies par la spécification RTF (Rich Text Format), version 1.6. Ce sous-ensemble est axé sur le formatage des polices et des caractères, le formatage simple des paragraphes et la prise en charge des polices et des jeux de caractères internationaux. Les éléments de mise en forme plus avancés, tels que les feuilles de style et les tableaux, ne sont pas pris en charge pour le moment.
 

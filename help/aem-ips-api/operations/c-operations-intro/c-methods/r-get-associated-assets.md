@@ -2,13 +2,13 @@
 description: Obtient les ressources associées à une ressource spécifiée et des détails sur leur relation.
 solution: Experience Manager
 title: getAssociatedAssets
-feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: cf49719f-5d79-4e64-a785-bf3b2fe200c7
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 8%
+source-wordcount: '407'
+ht-degree: 5%
 
 ---
 
@@ -108,7 +108,7 @@ Syntaxe
    <td colname="col4"> <p>Tableau des ressources qui possèdent la ressource spécifiée. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> extractArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> DEDArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:AssetArray</span> </td> 
    <td colname="col3"> <p>Non </p> </td> 
    <td colname="col4"> <p>Tableau des ressources utilisées pour générer la ressource spécifiée. </p> </td> 
@@ -117,10 +117,10 @@ Syntaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> generatorArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p><span class="codeph"> generatorArray</span> répertorie la manière dont cette ressource a été créée. Par exemple, si <span class="codeph"> assetHandler</span> était une page d’image d’un PDF, il contiendrait l’outil de processeur PDF et référencerait la ressource PdfFile. </p> </td> 
+   <td colname="col4"> <p><span class="codeph"> generatorArray</span> répertorie la manière dont cette ressource a été créée. Par exemple, si <span class="codeph"> assetHandler</span> était une page d’image d’un PDF, elle contiendrait l’outil de processeur du PDF et référencerait la ressource PdfFile. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> generateArray</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> generatedArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>Non </p> </td> 
    <td colname="col4"> <p><span class="codeph"> generatedArray</span> inverse la manière dont cette ressource a été créée. Par exemple, le <span class="codeph"> generatedArray</span> peut contenir la liste des images générées à partir de ce <span class="codeph"> assetHandler</span> s’il s’agissait d’une ressource PdfFile. </p> </td> 
@@ -134,13 +134,13 @@ Syntaxe
  </tbody> 
 </table>
 
-Vous pouvez utiliser les paramètres `responseFieldArray` ou `excludeFieldArray` pour limiter la taille de la réponse. En particulier, les éléments `GenerationInfo` renvoyés dans `generatorArray` ou `generatedArray` par défaut pour inclure à la fois l’expéditeur et les enregistrements de ressource générés. Pour un type de ressource PDF, ce comportement entraîne plusieurs copies indésirables de l’enregistrement de ressource PDF &quot;originator&quot; dans la réponse. Vous pouvez éliminer ce problème en ajoutant `generatedArray/items/originator` à `excludeFieldArray`. Vous pouvez également spécifier une liste explicite de champs de réponse à inclure dans `responseFieldArray`.
+Vous pouvez utiliser les paramètres `responseFieldArray` ou `excludeFieldArray` pour limiter la taille de la réponse. En particulier, les éléments `GenerationInfo` renvoyés dans `generatorArray` ou `generatedArray` par défaut pour inclure à la fois l’expéditeur et les enregistrements de ressource générés. Pour un type de ressource de PDF, ce comportement entraîne plusieurs copies indésirables de l’enregistrement de ressource de PDF &quot;originator&quot; dans la réponse. Vous pouvez éliminer ce problème en ajoutant `generatedArray/items/originator` à `excludeFieldArray`. Vous pouvez également spécifier une liste explicite de champs de réponse à inclure dans `responseFieldArray`.
 
 ## Exemples {#section-8946ea4b9cb94912a8408249c897f192}
 
-L’exemple de base suivant est une requête pour la gestion du générateur pour une image extraite d’un PDF. Il comprend une balise `containerArray` de longueur 1 avec un élément comprenant la balise `assetHandle` du PDF.
+L’exemple de base suivant est une demande de gestion du générateur pour une image extraite d’un PDF. Il comprend un `containerArray` de longueur 1 avec un élément comprenant le `assetHandle` du PDF.
 
-**Request**
+**Requête**
 
 ```java
 <soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:beta="http://www.scene7.com/IpsApi/xsd/2013-08-29-beta">
@@ -253,7 +253,7 @@ L’inverse de l’exemple ci-dessus est le suivant :
 </soapenv:Envelope>
 ```
 
-Dans cet exemple suivant, un groupe est ajouté à une société avec `groupHandleArray`. Cet exemple n’utilise qu’un seul groupe.
+Dans cet exemple suivant, un groupe est ajouté à une société avec `groupHandleArray`. Cet exemple utilise un seul groupe.
 
 **Requête**
 

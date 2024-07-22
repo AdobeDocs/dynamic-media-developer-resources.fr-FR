@@ -25,7 +25,7 @@ Filtre de type contenu statique. Spécifie une chaîne de filtre pour le contenu
  </tr> 
 </table>
 
-Le serveur compare `val` avec la valeur de `catalog::Type` de l’élément de contenu statique demandé. L’élément est renvoyé au client si les valeurs correspondent (sensible à la casse), sinon une erreur est renvoyée.
+Le serveur compare `val` à la valeur `catalog::Type` de l’élément de contenu statique demandé. L’élément est renvoyé au client si les valeurs correspondent (sensible à la casse), sinon une erreur est renvoyée.
 
 ## Propriétés {#section-529b088434a44a9f86a64ef548d2925b}
 
@@ -37,4 +37,4 @@ Aucune correspondance de type n’est appliquée si `type=` n’est pas spécifi
 
 ## Voir aussi {#section-da60777a46a74f1bbfa5b2f3b240eb0f}
 
-[Diffusion de contenu statique (hors image)](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-serving-static-non-image-content.md#reference-cbe50e697fdf4c7bbb0084f98b7739da), [catalog::UserType](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-usertype-cat.md)
+[Serving Static (Non Image) Contents](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-serving-static-non-image-content.md#reference-cbe50e697fdf4c7bbb0084f98b7739da), [catalog::UserType](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-usertype-cat.md)

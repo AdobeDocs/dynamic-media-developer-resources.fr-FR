@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 86f0802c-a53e-426d-9f64-21d8002b8b69
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 1%
+source-wordcount: '237'
+ht-degree: 0%
 
 ---
 
@@ -18,11 +18,11 @@ Référence de l’API JavaScript pour la visionneuse de catalogue électronique
 
 `getComponent(componentId)`
 
-Renvoie une référence au composant SDK de la visionneuse utilisé par la visionneuse. La page web peut utiliser cette méthode pour étendre ou personnaliser le comportement de la visionneuse prête à l’emploi. Appelez cette méthode uniquement après la `initComplete` le rappel de la visionneuse a été exécuté, sinon le composant ne peut pas encore être créé par la logique de la visionneuse.
+Renvoie une référence au composant SDK de la visionneuse utilisé par la visionneuse. La page web peut utiliser cette méthode pour étendre ou personnaliser le comportement de la visionneuse prête à l’emploi. Appelez cette méthode uniquement après l’exécution du rappel de la visionneuse `initComplete`, sinon le composant ne peut pas encore être créé par la logique de la visionneuse.
 
 ## Paramètres {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`componentID`*` - `{String}` Identifiant du composant SDK de la visionneuse utilisé par la visionneuse. Cette visionneuse prend en charge les identifiants de composant suivants :
+`*`componentID`*` - `{String}` : identifiant du composant SDK de la visionneuse utilisé par la visionneuse. Cette visionneuse prend en charge les identifiants de composant suivants :
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
@@ -37,7 +37,7 @@ Renvoie une référence au composant SDK de la visionneuse utilisé par la visio
    <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> conteneur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> container </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container </span> </p> </td> 
   </tr> 
   <tr> 
@@ -49,11 +49,11 @@ Renvoie une référence au composant SDK de la visionneuse utilisé par la visio
    <td colname="col2"> <p> <span class="codeph"> s7sdk.set.PageView </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> primaryContrôles </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> primaryControl </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ControlBar </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> secondaryContrôles </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> secondaryControl </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ControlBar </span> </p> </td> 
   </tr> 
   <tr> 
@@ -157,11 +157,11 @@ Renvoie une référence au composant SDK de la visionneuse utilisé par la visio
    <td colname="col2"> <p> <span class="codeph"> s7sdk.share.EmbedShare </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imprimer </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> print </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.share.Print </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> télécharger </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> téléchargement </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Download </span> </p> </td> 
   </tr> 
   <tr> 
@@ -191,13 +191,13 @@ Renvoie une référence au composant SDK de la visionneuse utilisé par la visio
  </tbody> 
 </table>
 
-Lorsque vous utilisez des API SDK, il est important d’utiliser un espace de noms SDK complet correct, comme décrit dans la section [Espace de noms du SDK de la visionneuse](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-html5-viewer-sdk-namespace.md#concept-16ce67bfbdc64ffc8fc7ad174f208f05).
+Lorsque vous utilisez des API SDK, il est important d’utiliser l’espace de noms du SDK complet correct, comme décrit dans la section [Espace de noms du SDK de la visionneuse](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-html5-viewer-sdk-namespace.md#concept-16ce67bfbdc64ffc8fc7ad174f208f05).
 
-Voir *API du SDK de la visionneuse* documentation pour plus d’informations sur un composant particulier.
+Pour plus d’informations sur un composant particulier, consultez la documentation *API du kit de développement de visionneuse* .
 
 ## Renvoie {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` Référence au composant SDK de visionneuse. La méthode renvoie `null` si la variable `componentId` n’est pas un composant de visionneuse pris en charge ou si le composant n’a pas encore été créé par la logique de visionneuse.
+`{Object}` Référence au composant SDK de visionneuse. La méthode renvoie `null` si le `componentId` n’est pas un composant de visionneuse pris en charge ou si le composant n’a pas encore été créé par la logique de la visionneuse.
 
 ## Exemple {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

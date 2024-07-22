@@ -1,5 +1,5 @@
 ---
-title: RootUrl
+title: RootURL
 description: URL racine pour les URL d’image relatives. Spécifie l’URL racine pour les URL d’image relatives.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 094b5143-d4f0-412f-92cf-3522157cbeca
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '89'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
-# RootUrl{#rooturl}
+# RootURL{#rooturl}
 
-URL racine pour les URL d’image relatives. Spécifie l’URL racine pour les URL d’image relatives. Le`attribute::RootUrl` est utilisé à la place de `attribute::RootPath` lorsqu’une `src=` est entourée de { accolades }.
+URL racine pour les URL d’image relatives. Spécifie l’URL racine pour les URL d’image relatives. `attribute::RootUrl` est utilisé à la place de `attribute::RootPath` lorsqu’une valeur `src=` est entourée de { accolades }.
 
 ## Propriétés {#section-69cd0f71ea614770a8778c745d23197a}
 

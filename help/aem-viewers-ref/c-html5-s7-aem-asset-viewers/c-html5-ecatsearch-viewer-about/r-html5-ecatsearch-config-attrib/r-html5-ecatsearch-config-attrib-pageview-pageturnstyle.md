@@ -2,21 +2,21 @@
 description: PageView.pageturnstyle
 solution: Experience Manager
 title: PageView.pageturnstyle
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Recherche catalogue électronique
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 2669c8e2-c942-420f-8262-9d76d5c499a2
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 3%
+source-wordcount: '124'
+ht-degree: 2%
 
 ---
 
 # PageView.pageturnstyle{#pageview-pageturnstyle}
 
-[!DNL `[PageView.|<containerId>_pageView.]pageturnstyle= *``*, *``*, *``*, *``*, *``*, *`dividerWidthdividerColordividerOpacityborderOnOffborderColorfillColor`*`]
+[!DNL `[PageView.|<containerId>_pageView.]pageturnstyle= *`dividerWidth`*, *`dividerColor`*, *`dividerOpacity`*, *`borderOnOff`*, *`borderColor`*, *`fillColor`*`]
 
-Contrôle l’aspect du composant lorsqu’un paramètre [!DNL `PageView.frametransition`] est défini sur [!DNL `turn`] ou sur [!DNL `auto`] sur les systèmes de bureau.
+Contrôle l’aspect du composant lorsqu’un [!DNL `PageView.frametransition`] est défini sur [!DNL `turn`] ou sur [!DNL `auto`] sur les systèmes de bureau.
 
 <table id="table_A8CDA1AE2680402A99BCD5DD371B225F"> 
  <tbody> 
@@ -30,11 +30,11 @@ Contrôle l’aspect du composant lorsqu’un paramètre [!DNL `PageView.frametr
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> dividerOpacity</span></span> </p> </td> 
-   <td colname="col2"> <p>L’opacité de l’ombre est comprise entre <span class="codeph"> 0</span> et <span class="codeph"> 1</span>. </p> </td> 
+   <td colname="col2"> <p>L’opacité de l’ombre entre <span class="codeph"> 0</span> et <span class="codeph"> 1</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderOnOff</span></span> </p> </td> 
-   <td colname="col2"> <p> Indicateur (<span class="codeph"> 0</span> ou <span class="codeph"> 1</span>) qui active et désactive la bordure autour de la page d’activation et de désactivation. </p> </td> 
+   <td colname="col2"> <p> L’indicateur (<span class="codeph"> 0</span> ou <span class="codeph"> 1</span>) qui active et désactive la bordure autour de la page d’activation. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderColor</span></span> </p> </td> 

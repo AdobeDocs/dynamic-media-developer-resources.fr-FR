@@ -18,7 +18,7 @@ Utilisez ces paramètres de serveur pour configurer le système de surveillance 
 
 ## AS::monitorAlertGenerator.enableGlobalAlerting - Système d’alertes Activé {#section-612f8ea61794426ab205e22e5f665fa9}
 
-Activez la notification électronique en définissant sur &quot;true&quot; et en configurant les paramètres de notification électronique. Définir sur `false` désactive toutes les alertes par e-mail, ce qui peut s’avérer utile lors de la désactivation d’un serveur pour la maintenance. Booléen.
+Activez la notification électronique en définissant sur &quot;true&quot; et en configurant les paramètres de notification électronique. Si vous définissez cette variable sur `false`, toutes les alertes par e-mail sont désactivées. Cela peut s’avérer utile lors de la mise hors ligne d’un serveur pour la maintenance. Booléen.
 
 ## AS::mailSender.host - SMTP Host {#section-151df07e7b44446581339bb7abeeba7a}
 
@@ -34,7 +34,7 @@ Une ou plusieurs adresses électroniques auxquelles des alertes doivent être en
 
 ## AS::monitorAlertGenerator.messageFrom - Message Sender {#section-db320cba4ac2438ca1cfe6abce4aed87}
 
-L’adresse électronique à utiliser dans la variable **[!UICONTROL De]** champ email .
+Adresse électronique à utiliser dans le champ de courrier électronique **[!UICONTROL De]**.
 
 ## AS::monitorAlertGenerator.alertInterval - Intervalle de surveillance {#section-99cb2e3380c1499e9d5aec3671ed73c7}
 

@@ -8,7 +8,7 @@ exl-id: f2356eb1-2f71-49b6-bb40-6cd332e6785b
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ Attribut de configuration de la visionneuse de vidéos interactives.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td colname="col2"> <p> Indique l’endroit où le libellé est tracé par rapport à l’image miniature. En d’autres termes, le libellé est centré à l’emplacement spécifié par rapport à la miniature. </p> <p>Lorsque <span class="codeph"> tooltip</span> est spécifié, le texte du libellé s’affiche sous la forme d’une info-bulle flottante sur l’image miniature. </p> <p>Définissez cette variable sur <span class="codeph"> none</span> pour désactiver le libellé. </p> </td> 
+   <td colname="col2"> <p> Indique l’endroit où le libellé est tracé par rapport à l’image miniature. En d’autres termes, le libellé est centré à l’emplacement spécifié par rapport à la miniature. </p> <p>Lorsque <span class="codeph"> tooltip</span> est spécifié, le texte du libellé s’affiche sous la forme d’une info-bulle flottante sur l’image miniature. </p> <p>Définissez cette variable sur <span class="codeph"> none</span> pour désactiver l’étiquette. </p> </td> 
   </tr> 
  </tbody> 
 </table>

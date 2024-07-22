@@ -8,7 +8,7 @@ exl-id: 8f95c01f-e634-4d6c-a22f-c2285ee969c8
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '55'
-ht-degree: 16%
+ht-degree: 5%
 
 ---
 
@@ -21,8 +21,8 @@ Attribut de configuration de la visionneuse Video360.
 <table id="table_2A4F898BBF88417DB0834B7F78637F5D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
-   <td colname="col2"> <p> Définit le mode silencieux pour la lecture vidéo au chargement initial. S’il est défini sur <span class="codeph"> 1 </span>, le volume est muet. sinon, la vidéo est lue avec le son. Sur certains appareils, la mise en mode muet de la lecture vidéo au chargement permet également la lecture automatique de la vidéo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
+   <td colname="col2"> <p> Définit le mode silencieux pour la lecture vidéo au chargement initial. Si elle est définie sur <span class="codeph"> 1 </span>, le volume est muté ; dans le cas contraire, la vidéo est lue avec le son. Sur certains appareils, la mise en mode muet de la lecture vidéo au chargement permet également la lecture automatique de la vidéo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

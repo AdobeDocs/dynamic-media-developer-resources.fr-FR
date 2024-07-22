@@ -8,7 +8,7 @@ exl-id: 228b4228-8c42-4e42-9fb1-d6aea61b9c4a
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 Crée une image superposée pouvant comporter plusieurs calques de texte et d’image.
 
-La variable `urlModifier` spécifie les commandes du protocole Image Server stockées dans le catalogue Image Server appliquées avant toute commande fournie par l’utilisateur sur l’URL. La variable `urlPostApplyModifier` spécifie les commandes de protocole appliquées après toutes les commandes d’URL, qui remplacent les paramètres fournis par l’utilisateur en conflit.
+Le paramètre `urlModifier` spécifie les commandes de protocole Image Server stockées dans le catalogue Image Server appliquées avant toute commande fournie par l’utilisateur sur l’URL. Le paramètre `urlPostApplyModifier` spécifie les commandes de protocole appliquées après toutes les commandes d’URL, qui remplacent les paramètres fournis par l’utilisateur en conflit.
 
 ## Types d’utilisateurs autorisés {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
@@ -47,9 +47,9 @@ La variable `urlModifier` spécifie les commandes du protocole Image Server stoc
 
 ## Exemples {#section-09adb4d2f0c944af875c4463a461f55d}
 
-Cet exemple de code crée un modèle dans un dossier spécifié par une poignée, avec un nom `APIcreateTemplate`, un `urlModifier`, et a `urlPostApplyModifier`. La réponse renvoie le gestionnaire au modèle nouvellement créé.
+Cet exemple de code crée un modèle dans un dossier spécifié par une poignée, avec le nom `APIcreateTemplate`, `urlModifier` et un `urlPostApplyModifier`. La réponse renvoie le gestionnaire au modèle nouvellement créé.
 
-**Request**
+**Requête**
 
 ```java
 <createTemplateParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

@@ -2,12 +2,12 @@
 description: Ce document utilise les conventions suivantes.
 solution: Experience Manager
 title: Conventions relatives aux documents
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: cc334766-544b-4d77-aa0e-4e509525cbaa
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -30,55 +30,55 @@ Ce document utilise les conventions suivantes.
   <td class="stentry"> <p>Les caractères italiques indiquent une variable ou un paramètre à remplacer par une valeur réelle. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> command=  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> command= </span> </p> </td> 
   <td class="stentry"> <p>Un nom avec "=" à la fin fait référence à une commande du protocole HTTP de diffusion d’images. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> attribute::Item  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> attribute::Item </span> </p> </td> 
   <td class="stentry"> <p>Un nom précédé de l’attribut <span class="codeph"> : </span> fait référence à un attribut de catalogue d’images. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> catalog::Item  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> catalog::Item </span> </p> </td> 
   <td class="stentry"> <p>Un nom précédé du préfixe <span class="codeph"> catalog : </span> fait référence à un champ de données de catalogue d’images. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> icc::Item  </span> </p> </td> 
-  <td class="stentry"> <p>Un nom précédé du préfixe <span class="codeph"> icc : </span> fait référence à un champ de la carte de profil colorimétrique ICC. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> icc::Item </span> </p> </td> 
+  <td class="stentry"> <p>Un nom précédé de <span class="codeph"> icc: </span> fait référence à un champ de la carte des profils de couleurs ICC. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> font::Item  </span> </p> </td> 
-  <td class="stentry"> <p>Un nom précédé de la police <span class="codeph"> : </span> fait référence à un champ de la carte des polices. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> font ::Item </span> </p> </td> 
+  <td class="stentry"> <p>Un nom précédé du préfixe <span class="codeph"> font : </span> fait référence à un champ de la carte des polices. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> macro: Élément  </span> </p> </td> 
-  <td class="stentry"> <p>Un nom précédé de la macro <span class="codeph"> : </span> fait référence à un champ de la table de définition des macros. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> macro : élément </span> </p> </td> 
+  <td class="stentry"> <p>Un nom précédé du préfixe <span class="codeph"> macro : </span> fait référence à un champ de la table de définition des macro. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> ruleSet::Item  </span> </p> </td> 
-  <td class="stentry"> <p>Un nom précédé du préfixe <span class="codeph"> ruleSet : </span> fait référence à un élément d’un jeu de règles de prétraitement d’URL. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> ensemble de règles ::Item </span> </p> </td> 
+  <td class="stentry"> <p>Un nom précédé du préfixe <span class="codeph"> ruleSet:: </span> fait référence à un élément d’un jeu de règles de prétraitement d’URL. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> default::Item  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> par défaut ::Item </span> </p> </td> 
   <td class="stentry"> <p>Un nom précédé du préfixe <span class="codeph"> default : </span> fait référence à un attribut du catalogue d’images par défaut. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> [  <span class="varname"> facultatif  </span>]  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> [ <span class="varname"> facultatif </span>] </span> </p> </td> 
   <td class="stentry"> <p>Les éléments de syntaxe facultatifs sont entourés de crochets. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> *[  <span class="varname"> facultatif  </span>]  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> *[ <span class="varname"> facultatif </span>] </span> </p> </td> 
   <td class="stentry"> <p>L’élément de syntaxe <span class="varname"> facultatif </span> peut être répété aucune ou plusieurs fois. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> item1  </span>|  <span class="varname"> item2  </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> item1 </span>| <span class="varname"> item2 </span> </span> </p> </td> 
   <td class="stentry"> <p>Une barre verticale indique que l’élément de syntaxe unique à gauche ou l’élément à droite peut être utilisé. Un seul élément doit être sélectionné. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> {  <span class="varname"> group  </span>}  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> { <span class="varname"> groupe </span> </span> </p> </td> 
   <td class="stentry"> <p>Les accolades sont utilisées pour regrouper les éléments de syntaxe. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> *{  <span class="varname"> group  </span>}  </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> *{ <span class="varname"> groupe </span> </span> </p> </td> 
   <td class="stentry"> <p>Les éléments de syntaxe du groupe peuvent être répétés une ou plusieurs fois. </p> </td> 
  </tr> 
  <tr class="strow"> 

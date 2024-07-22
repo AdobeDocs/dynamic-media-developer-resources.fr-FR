@@ -19,7 +19,7 @@ ht-degree: 1%
 + [Installation de plusieurs visionneuses sur le même serveur](t-installing-the-viewers.md)
 + Notes de mise à jour des visionneuses {#viewers-release-notes}
    + [Notes de mise à jour des visionneuses (5.16.5)](c-release-notes/c-rn-03-02-22.md)
-   + Archiver {#archive}
+   + Archive {#archive}
       + [Notes de mise à jour des visionneuses (5.16.1)](c-release-notes/c-archive/c-rn-04-06-21.md)
       + [Notes de mise à jour des visionneuses (5.15.3)](c-release-notes/c-archive/c-rn-01-13-21.md)
       + [Notes de mise à jour des visionneuses (5.14.1)](c-release-notes/c-archive/c-rn-06-03-20.md)
@@ -87,7 +87,7 @@ ht-degree: 1%
       + [Espace de noms du SDK de la visionneuse](c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-html5-viewer-sdk-namespace.md)
    + Catalogue électronique {#ecatalog}
       + [Catalogue électronique](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-about.md)
-      + Référence de commande - Attributs de configuration {#command-reference-configuration-attributes-ecatalog}
+      + Référence de commande - Configuration-attributes {#command-reference-configuration-attributes-ecatalog}
          + [Référence de commande - Attributs de configuration](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib.md)
          + [Fermer](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-closebutton.md)
          + [ControlBar.transition](c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/r-html5-ecatalog-viewer-20-config-attrib/r-html5-ecatalog-viewer-20-config-attrib-controlbar-transition.md)
@@ -249,7 +249,7 @@ ht-degree: 1%
          + [ThumbnailGridView.scrollbar](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-thumbnailgridview-scrollbar.md)
          + [ThumbnailGridView.textpos](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-thumbnailgridview-textpos.md)
       + Référence de l’API JavaScript pour la visionneuse de recherche de catalogue électronique {#jsapi-ecatalog-search}
-         + [Référence de l’API JavaScript pour la visionneuse de recherche de catalogue électronique](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/c-html5-ecatsearch-viewer-javascriptapiref.md)
+         + [Référence de l’API JavaScript pour la visionneuse de recherche eCatalog](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/c-html5-ecatsearch-viewer-javascriptapiref.md)
          + [dispose](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/r-html5-ecatsearch-javascriptapiref-dispose.md)
          + [eCatalogSearchViewer](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/r-html5-ecatsearch-javascriptapiref-ecatalogsearchviewer.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-javascriptapiref/r-html5-ecatsearch-javascriptapiref-getcomponent.md)
@@ -594,7 +594,7 @@ ht-degree: 1%
          + [navigation](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref-url/r-html5-video-viewer-url-navigation.md)
          + [vidéo](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref-url/r-html5-video-viewer-url-video.md)
          + [videoServerUrl](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref-url/r-html5-video-viewer-url-videoserverurl.md)
-      + Référence de l’API JavaScript à la visionneuse vidéo {#jsapi-video}
+      + Référence de l’API JavaScript à la visionneuse de vidéos {#jsapi-video}
          + [Référence de l’API JavaScript pour la visionneuse de vidéos](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/c-html5-video-viewer-20-javascriptapiref.md)
          + [dispose](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-dispose.md)
          + [getComponent](c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-getcomponent.md)

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c2a611a8-f331-4e01-a262-34340ce67b21
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '239'
 ht-degree: 6%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 6%
 
 Qualité du JPEG. Spécifie les attributs de codage du JPEG pour contrôler le niveau de compression. Cela varie à son tour la taille du fichier (quantité des données de réponse) et, indirectement, la qualité visuelle de l’image obtenue.
 
-` qlt= *`qualité`*[, *`chroma`*]`
+` qlt= *`quality`*[, *`chroma`*]`
 
 <table id="simpletable_FB8090D4BEBF42FD83A64A7AAB6D7F92"> 
  <tr class="strow"> 
@@ -29,13 +29,13 @@ Qualité du JPEG. Spécifie les attributs de codage du JPEG pour contrôler le n
  </tr> 
 </table>
 
-Supérieur *`quality`* augmentent la taille et la qualité du fichier, des valeurs inférieures réduisent la taille des fichiers et réduisent la qualité de l’image perçue. Des valeurs supérieures à 90 génèrent des images impossibles à différencier d’une image non compressée.
+Des valeurs *`quality`* plus élevées augmentent la taille et la qualité du fichier, des valeurs plus faibles réduisent la taille des fichiers et réduisent la qualité de l’image perçue. Des valeurs supérieures à 90 génèrent des images impossibles à différencier d’une image non compressée.
 
-Définissez la variable *`chroma`* Indicateur pour désactiver le sous-échantillonnage chromatique RGB utilisé par les encodeurs JPEG standard. Cela peut augmenter la netteté perçue des bords d’une image lorsque le bord est défini par un changement de couleur plutôt que par la luminosité. La définition de cet indicateur peut entraîner une légère augmentation de la taille du fichier. Testez ce paramètre si le texte semble légèrement flou.
+Définissez l’indicateur *`chroma`* pour désactiver le sous-échantillonnage chromatique RGB utilisé par les encodeurs JPEG standard. Cela peut augmenter la netteté perçue des bords d’une image lorsque le bord est défini par un changement de couleur plutôt que par la luminosité. La définition de cet indicateur peut entraîner une légère augmentation de la taille du fichier. Testez ce paramètre si le texte semble légèrement flou.
 
 ## Propriétés {#section-925a44cbdc9042db8d4eb149cd073d21}
 
-Attribut de requête. S’applique quel que soit le paramètre de calque actif. Ignoré si le format de fichier image de sortie ne prend pas en charge le codage du JPEG. Reportez-vous à la description de `fmt=` pour savoir quels formats d’image de sortie prennent en charge `qlt=`.
+Attribut de requête. S’applique quel que soit le paramètre de calque actif. Ignoré si le format de fichier image de sortie ne prend pas en charge le codage du JPEG. Reportez-vous à la description de `fmt=` pour plus d’informations sur les formats d’image de sortie qui prennent en charge `qlt=`.
 
 *`chroma`* est ignoré si le type de pixel de sortie est CMJN ou gris.
 

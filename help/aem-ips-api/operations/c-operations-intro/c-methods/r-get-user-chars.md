@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: d6b79c06-0e90-406f-bac8-3b8c2bae5480
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 12%
+source-wordcount: '175'
+ht-degree: 10%
 
 ---
 
@@ -32,9 +32,9 @@ Syntaxe
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | charField | `xsd:string` | Oui | Détermine l’état de la corbeille à rechercher. |
-| includeInactive | `xsd:boolean` | Oui | Incluez ou excluez les utilisateurs inactifs. Les utilisateurs non administrateurs d’IPS doivent être un membre principal d’au moins une société pour être autorisés à effectuer des appels d’API. Une erreur d’autorisation est renvoyée si l’utilisateur n’a pas d’appartenances principales à la société. |
+| includeInactive | `xsd:boolean` | Oui | Incluez ou excluez les utilisateurs inactifs. Les utilisateurs non administrateurs d’IPS doivent être membres actifs d’au moins une société pour être autorisés à effectuer des appels d’API. Une erreur d’autorisation est renvoyée si l’utilisateur n’a aucun abonnement actif à la société. |
 | includeInvalid | `xsd:boolean` | Non | Incluez ou excluez des utilisateurs non valides. |
-| companyHandleArray | `types:HandleArray` | Non | Filtrez les résultats en fonction de l’entreprise. |
+| companyHandleArray | `types:HandleArray` | Non | Filtrez les résultats selon l’entreprise. |
 | groupHandleArray | `types:HandleArray` | Non | Filtre les résultats en fonction des groupes. |
 | userRoleArray | `types:StringArray` | Non | Filtre les résultats en fonction du rôle de l’utilisateur. |
 | numChars | `xsd:int` | Non | Activer >1 caractère. |
@@ -55,7 +55,7 @@ Cet exemple de code renvoie :
 
 La constante de chaîne Champs de filtre de caractères de l’utilisateur détermine le type de caractères d’utilisateur renvoyés.
 
-**Request**
+**Requête**
 
 ```java
 <ns1:getUserCharsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

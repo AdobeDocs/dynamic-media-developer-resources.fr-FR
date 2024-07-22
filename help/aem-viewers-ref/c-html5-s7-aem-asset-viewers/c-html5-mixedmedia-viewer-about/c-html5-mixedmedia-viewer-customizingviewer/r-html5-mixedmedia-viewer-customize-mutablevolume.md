@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 9afa56f9-443c-4307-843c-d7ddba6ec604
 source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 2%
+source-wordcount: '473'
+ht-degree: 0%
 
 ---
 
@@ -31,11 +31,11 @@ L’aspect de la zone de volume modifiable est contrôlé à l’aide du sélect
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> haut </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> Position à partir de la bordure supérieure, y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> droite </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> droit </span> </p> </td> 
    <td colname="col2"> <p> Position à partir de la bordure droite, y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
@@ -47,7 +47,7 @@ L’aspect de la zone de volume modifiable est contrôlé à l’aide du sélect
    <td colname="col2"> <p>Hauteur de la commande de volume modifiable. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Couleur de la commande de volume modifiable. </p> </td> 
   </tr> 
  </tbody> 
@@ -70,7 +70,7 @@ Vous pouvez contrôler l’image d’arrière-plan de chaque état de bouton. La
    <td colname="col2"> <p> Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -78,7 +78,7 @@ Vous pouvez contrôler l’image d’arrière-plan de chaque état de bouton. La
 
 >[!NOTE]
 >
->Ce bouton prend en charge les deux `state` et `selected` sélecteurs d’attributs, qui peuvent être utilisés pour appliquer différents habillages à différents états de bouton. En particulier, `selected='true'` correspond à l’état &quot;muté&quot; et `selected='false'` correspond à l’état &quot;non muté&quot;.
+>Ce bouton prend en charge les sélecteurs d’attributs `state` et `selected`, qui peuvent être utilisés pour appliquer différents habillages à différents états de bouton. En particulier, `selected='true'` correspond à l’état &quot;muté&quot; et `selected='false'` à l’état &quot;non muté&quot;.
 
 La zone de la barre de volume verticale est contrôlée avec le sélecteur de classe CSS suivant :
 
@@ -91,7 +91,7 @@ La zone de la barre de volume verticale est contrôlée avec le sélecteur de cl
 <table id="table_966826FB81114362A8D81D1EED38D512"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan du volume vertical. </p> </td> 
   </tr> 
   <tr> 
@@ -112,12 +112,12 @@ Le suivi à l’intérieur du contrôle de volume vertical est contrôlé à l�
 .s7mixedmediaviewer .s7mutablevolume .s7verticalvolume .s7filledtrack
 ```
 
-**Propriétés CSS du contrôle de volume vertical**
+**Propriétés CSS de la commande de volume vertical**
 
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan de la commande de volume vertical. </p> </td> 
   </tr> 
   <tr> 
@@ -137,7 +137,7 @@ Le bouton de volume vertical est contrôlé à l’aide du sélecteur de classe 
 .s7mixedmediaviewer .s7mutablevolume .s7verticalvolume .s7knob
 ```
 
-**Propriétés CSS du bouton de contrôle du volume vertical**
+**Propriétés CSS du bouton de contrôle de volume vertical**
 
 <table id="table_709D64AF815341A5B50ED72CCB350F2E"> 
  <tbody> 
@@ -146,7 +146,7 @@ Le bouton de volume vertical est contrôlé à l’aide du sélecteur de classe 
    <td colname="col2"> <p> Illustration du bouton de contrôle du volume vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -158,7 +158,7 @@ Le bouton de volume vertical est contrôlé à l’aide du sélecteur de classe 
    <td colname="col2"> <p>Hauteur du bouton de contrôle du volume vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> gauche </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p>Position horizontale du bouton de contrôle du volume vertical. </p> </td> 
   </tr> 
  </tbody> 

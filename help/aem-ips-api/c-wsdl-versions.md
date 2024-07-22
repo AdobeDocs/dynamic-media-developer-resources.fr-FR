@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: d7a6079e-286e-4e62-b2ff-551ef4a5815c
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '901'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ https://<IPS_hostname:<IPS_port>/<IPS_webapp>/
 webservice/IpsApi[-<API_version>].wsdl 
 ```
 
-La valeur par défaut de `<IPS_webapp>` is `scene7`.
+La valeur par défaut de `<IPS_webapp>` est `scene7`.
 
 **Emplacement du service**
 
@@ -94,22 +94,22 @@ N&#39;oubliez pas que vous devrez peut-être modifier votre code si vous souhait
    <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2012-02-14 </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4.5 </p> </td> 
+   <td colname="col1"> <p>4,5 </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> IpsApi-2010-01-31.wsdl </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2010-01-31 </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4.4 </p> </td> 
+   <td colname="col1"> <p>4,4 </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> IpsApi-2009-07-31.wsdl </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2009-07-31 </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4.2 </p> </td> 
+   <td colname="col1"> <p>4,2 </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> IpsApi-2008-09-10.wsdl </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2008-09-10 </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4.0 </p> </td> 
+   <td colname="col1"> <p>4,0 </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> IpsApi-2008-01-15.wsdl </span> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> http://www.scene7.com/IpsApi/xsd/2008-01-15 </span> </p> </td> 
   </tr> 
@@ -129,9 +129,9 @@ Les applications existantes qui doivent être modifiées pour utiliser de nouvel
 
 Le service Web de l’API IPS ne prend en charge qu’une liaison SOAP.
 
-**Transferts pris en charge**
+**Transports pris en charge**
 
-La liaison SOAP de l’API IPS prend uniquement en charge le transport HTTP. Effectuez toutes les requêtes SOAP à l’aide de la méthode de POST HTTPS.
+La liaison de SOAP de l’API IPS ne prend en charge que le transport HTTP. Effectuez toutes les requêtes SOAP à l’aide de la méthode du POST HTTPS.
 
 **En-tête d’action SOAP**
 
@@ -139,11 +139,11 @@ Pour traiter une requête, définissez l’en-tête HTTP SOAPAction sur le nom d
 
 **Format du message**
 
-Le style document/littéral est utilisé pour tous les messages d’entrée et de sortie avec des types basés sur le langage de définition de schéma XML ( [https://www.w3.org/TR/xmlschema-0/](https://www.w3.org/TR/xmlschema-0/)) et spécifié dans le fichier WSDL. Tous les types nécessitent des noms qualifiés à l’aide de la valeur d’espace de noms cible spécifiée dans le fichier WSDL.
+Le style document/littéral est utilisé pour tous les messages d’entrée et de sortie avec des types basés sur le langage de définition de schéma XML ( [https://www.w3.org/TR/xmlschema-0/](https://www.w3.org/TR/xmlschema-0/)) et spécifiés dans le fichier WSDL. Tous les types nécessitent des noms qualifiés à l’aide de la valeur d’espace de noms cible spécifiée dans le fichier WSDL.
 
-**Authentification de demande**
+**Authentification de requête**
 
-La méthode privilégiée pour transmettre des informations d’authentification dans les demandes d’API consiste à utiliser la méthode `authHeader` comme défini dans le WSDL de l’API IPS.
+La méthode privilégiée pour transmettre des informations d’authentification dans les demandes d’API consiste à utiliser l’élément `authHeader` tel que défini dans le WSDL de l’API IPS.
 
 ```
 <element name="authHeader"> 
@@ -176,12 +176,12 @@ La méthode privilégiée pour transmettre des informations d’authentification
    <td colname="col2"> <p> Adresse électronique utilisateur IPS valide. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mot de passe </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> password </span> </p> </td> 
    <td colname="col2"> <p>Mot de passe du compte utilisateur. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> locale </span> </p> </td> 
-   <td colname="col2"> <p> Paramètre régional facultatif pour la requête. Voir <b>Paramètres régionaux</b> pour plus d’informations. </p> </td> 
+   <td colname="col2"> <p> Paramètre régional facultatif pour la requête. Voir <b>Paramètre régional</b> pour plus d’informations. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> appName </span> </p> </td> 
@@ -202,9 +202,9 @@ La méthode privilégiée pour transmettre des informations d’authentification
  </tbody> 
 </table>
 
-La variable `authHeader` est toujours défini dans l’espace de noms `http://www.scene7.com/IpsApi/xsd`, quelle que soit la version de l’API.
+L’élément `authHeader` est toujours défini dans l’espace de noms `http://www.scene7.com/IpsApi/xsd`, quelle que soit la version de l’API.
 
-Voici un exemple d’utilisation de la méthode `authHeader` élément dans un en-tête SOAP de requête :
+Voici un exemple d’utilisation de l’élément `authHeader` dans un en-tête de SOAP de requête :
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -217,19 +217,19 @@ Voici un exemple d’utilisation de la méthode `authHeader` élément dans un e
  </soap:Header>
 ```
 
-**Autres méthodes d’authentification des demandes**
+**Autres méthodes d&#39;authentification de requête**
 
-Si, pour une raison quelconque, votre application cliente ne peut pas transmettre la variable `authHeader` En-tête SOAP, les demandes d’API peuvent également spécifier des informations d’identification à l’aide de l’authentification HTTP de base (comme spécifié dans la norme RFC 2617).
+Si, pour une raison quelconque, votre application cliente ne peut pas transmettre l’en-tête `authHeader` SOAP, les demandes d’API peuvent également spécifier des informations d’identification à l’aide de l’authentification HTTP de base (comme spécifié dans la RFC 2617).
 
 Pour l’authentification HTTP de base, la section d’en-tête HTTP de chaque requête de POST SOAP doit inclure un en-tête du formulaire :
 
 `Authorization: Basic base64(<IPS_user_email>:<password>)`
 
-Où `base64()` applique le codage standard Base64, `<IPS_user_email>` est l’adresse électronique d’un utilisateur IPS valide, et `<password>` est le mot de passe de l’utilisateur.
+Là où `base64()` applique le codage standard Base64, `<IPS_user_email>` est l’adresse électronique d’un utilisateur IPS valide et `<password>` est le mot de passe de l’utilisateur.
 
-Envoyez l’en-tête d’autorisation de manière préventive avec la requête initiale. Si aucune information d’authentification n’est incluse dans la requête, `IpsApiService` ne répond pas avec un code d’état de `401 (Unauthorized)`. Un code d’état de `500 (Internal Server Error)` est renvoyé avec un corps de défaillance SOAP indiquant que la requête n’a pas pu être authentifiée.
+Envoyez l’en-tête d’autorisation de manière préventive avec la requête initiale. Si aucune information d’authentification n’est incluse dans la requête, `IpsApiService` ne répond pas avec un code d’état de `401 (Unauthorized)`. À la place, un code d’état de `500 (Internal Server Error)` est renvoyé avec un corps SOAP indiquant que la requête n’a pas pu être authentifiée.
 
-Avant IPS 3.8, l’authentification par en-tête SOAP était mise en oeuvre à l’aide de la méthode `AuthUser` et `AuthPassword` éléments de l’espace de noms `http://www.scene7.com/IpsApi`. Par exemple :
+Avant IPS 3.8, l&#39;authentification par le SOAP d&#39;en-tête était mise en oeuvre à l&#39;aide des éléments `AuthUser` et `AuthPassword` de l&#39;espace de noms `http://www.scene7.com/IpsApi`. Par exemple :
 
 ```
 <soap:Header xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"> 
@@ -238,15 +238,15 @@ Avant IPS 3.8, l’authentification par en-tête SOAP était mise en oeuvre à l
 </soap:Header>
 ```
 
-Ce style est toujours pris en charge pour la compatibilité descendante, mais a été abandonné au profit de la fonction `authHeader` élément .
+Ce style est toujours pris en charge pour la compatibilité descendante, mais a été abandonné au profit de l’élément `authHeader` .
 
-**Demande d’autorisation**
+**Demander l’autorisation**
 
 Une fois les informations d’identification de l’appelant authentifiées, la requête est vérifiée pour s’assurer que l’appelant est autorisé à effectuer l’opération demandée. L’autorisation est basée sur le rôle utilisateur de l’appelant et peut également nécessiter la vérification de la société cible, de l’utilisateur cible et d’autres paramètres d’opération. En outre, les utilisateurs du portail d’images doivent appartenir à un groupe disposant des autorisations requises pour effectuer certaines opérations sur les dossiers et les ressources. La section de référence Opérations décrit les exigences d’autorisation pour chaque opération.
 
-**Exemple de requête et de réponse SOAP**
+**Exemple de requête SOAP et de réponse**
 
-L’exemple suivant illustre une `addCompany` opération, y compris les en-têtes HTTP :
+L’exemple suivant illustre une opération `addCompany` complète, y compris des en-têtes HTTP :
 
 ```
 POST /scene7/services/IpsApiService HTTP/1.1 
@@ -298,9 +298,9 @@ xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
 </soapenv:Envelope>
 ```
 
-**Erreurs SOAP**
+**SOAP défauts**
 
-Lorsqu’une opération rencontre une condition d’exception, une erreur SOAP est renvoyée en tant que corps du message SOAP au lieu de la réponse normale. Par exemple, si un utilisateur non administrateur tente d’envoyer la variable `addCompany` , la réponse suivante est renvoyée :
+Lorsqu’une opération rencontre une condition d’exception, une erreur SOAP est renvoyée en tant que corps du message SOAP au lieu de la réponse normale. Par exemple, si un utilisateur non-administrateur tente d’envoyer la requête `addCompany` précédente, la réponse suivante est renvoyée :
 
 ```
 HTTP/1.1 500 Internal Server Error 

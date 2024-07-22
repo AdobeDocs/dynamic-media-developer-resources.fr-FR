@@ -1,5 +1,5 @@
 ---
-title: Affichage de zoom déroulant
+title: Mode Zoom de la fenêtre déroulante
 description: En mode zoom intégré, la vue principale est composée de l’image statique. Il se compose également de l’image agrandie affichée dans la vue déroulante sur l’image statique et du message d’info-bulle affiché au-dessus de l’image statique.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
@@ -7,12 +7,12 @@ role: Developer,User
 exl-id: 46c91d1f-5809-4270-a06d-5068d20a6341
 source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 4%
+source-wordcount: '258'
+ht-degree: 0%
 
 ---
 
-# Affichage de zoom déroulant{#flyout-zoom-view}
+# Mode Zoom de la fenêtre déroulante{#flyout-zoom-view}
 
 En mode zoom intégré, la vue principale est composée de l’image statique. Il se compose également de l’image agrandie affichée dans la vue déroulante sur l’image statique et du message d’info-bulle affiché au-dessus de l’image statique.
 
@@ -35,8 +35,8 @@ L’aspect de la vue principale est contrôlé à l’aide du sélecteur de clas
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
-   <td colname="col2"> <p> Couleur d’arrière-plan de la vue principale. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> Couleur de fond de la vue principale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,7 +57,7 @@ L’aspect du message d’info-bulle est contrôlé à l’aide du sélecteur de
 .s7mixedmediaviewer .s7flyoutzoomview .s7tip
 ```
 
-Il est possible de configurer le style de police, l’aspect de la taille et le décalage vertical au moyen de CSS. Cependant, l’alignement horizontal est géré par la logique de la visionneuse. Le remplacer par CSS à l’aide de `left` ou `right` ne sont pas prises en charge.
+Il est possible de configurer le style de police, l’aspect de la taille et le décalage vertical au moyen de CSS. Toutefois, l’alignement horizontal est géré par la logique de la visionneuse. Le remplacement de cet élément par une feuille CSS utilisant les propriétés `left` ou `right` n’est pas pris en charge.
 
 **Propriétés CSS du message de conseil**
 
@@ -70,7 +70,7 @@ Il est possible de configurer le style de police, l’aspect de la taille et le 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Couleur de fond du message. </p> </td> 
   </tr> 
   <tr> 
@@ -78,7 +78,7 @@ Il est possible de configurer le style de police, l’aspect de la taille et le 
    <td colname="col2"> <p> Rayon de la bordure de fond du message. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bas </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p> Décalage à partir du bas de la vue principale. </p> </td> 
   </tr> 
   <tr> 
@@ -98,7 +98,7 @@ Il est possible de configurer le style de police, l’aspect de la taille et le 
    <td colname="col2"> <p> Opacité de l’arrière-plan du message. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p> Marge intérieure autour du texte du message. </p> </td> 
   </tr> 
  </tbody> 

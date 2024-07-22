@@ -8,7 +8,7 @@ exl-id: 71525aac-b8ca-4f5a-a770-268857ddae4f
 source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ Référence de l’API JavaScript pour la visionneuse de zoom de base.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ressource</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> Chaîne</span>} nouvel identifiant de ressource, avec les modificateurs IS facultatifs ajoutés après "?" </p> <p> Les images qui utilisent IR (Image Rendering) ou UGC (User-Generated Content) ne sont pas prises en charge par cette visionneuse. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> String</span>} nouvel identifiant de ressource, avec les modificateurs IS facultatifs ajoutés après "?" </p> <p> Les images qui utilisent IR (Image Rendering) ou UGC (User-Generated Content) ne sont pas prises en charge par cette visionneuse. </p> </td> 
   </tr> 
  </tbody> 
 </table>

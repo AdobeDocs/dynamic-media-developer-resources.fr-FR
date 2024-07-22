@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 4c5bef4e-f80e-454d-8e93-30bf33d7ec9e
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '111'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Dilate/érode l’image. Applique un dilate morphologique (rayon > 0) ou une ér
  </tr> 
 </table>
 
-`*`radius`*` est en pixels par rapport à l’image composite. Si l’image est en couleur, chaque composant est traité indépendamment.
+`*`radius`*` est exprimé en pixels par rapport à l’image composite. Si l’image est en couleur, chaque composant est traité indépendamment.
 
 Utilisé principalement pour modifier la taille des effets de calque. Également utile pour obtenir des effets spéciaux sur les calques de texte ou les calques de couleur unis avec des masques.
 

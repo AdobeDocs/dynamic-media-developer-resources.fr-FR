@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 5ea8eb18-d169-4255-b4b1-dda849246485
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '162'
 ht-degree: 2%
 
 ---
@@ -33,17 +33,17 @@ Origine du calque.
 
 >[!NOTE]
 >
->Le calque recette inclut toujours toute modification apportée par `extend=`.
+>Le calque rect inclut toujours toute modification par `extend=`.
 
-Définit le point d’alignement du rectangle du calque, utilisé pour positionner le rectangle du calque par rapport au calque 0 au moyen de la propriété `pos=`. `originN=0,0` positionne l’origine du calque au centre du rectangle du calque. `originN=-0.5,-0.5` et `origin=0,0` est le coin supérieur gauche, et `originN=0.5,0.5` est le coin inférieur droit du rectangle du calque.
+Définit le point d’alignement du rectangle du calque, qui est utilisé pour positionner le rectangle du calque par rapport au calque 0 au moyen de `pos=`. `originN=0,0` positionne l’origine du calque au centre du rectangle du calque. `originN=-0.5,-0.5` et `origin=0,0` représentent le coin supérieur gauche et `originN=0.5,0.5` le coin inférieur droit du rectangle du calque.
 
 ## Propriétés {#section-60f639e36ada43d1abc6bfc100afc925}
 
-Attribut de calque. S’applique au calque actif ou au calque 0 si `layer=comp`. Non affecté par les transformations de calque ( `crop=`, `scale=`, `rotate=`, `flip=`) appliquée à la source du calque. Remplacements `anchor=`. Ignoré par les calques d’effet.
+Attribut de calque. S’applique au calque actif ou au calque 0 s’il est `layer=comp`. Non affecté par les transformations de calque ( `crop=`, `scale=`, `rotate=`, `flip=`) appliquées à la source de calque. Remplace `anchor=`. Ignoré par les calques d’effet.
 
 ## Par défaut {#section-b7209e5c2ad6491fb0c2353cc3f1f703}
 
-If `origin=` n’est pas spécifié, l’origine du calque est déterminée en appliquant les transformations du calque à l’ancre de l’image. Si l’ancre de l’image n’est pas connue, le centre du rectangle du calque ( `originN=0,0`) est utilisée.
+Si `origin=` n’est pas spécifié, l’origine du calque est déterminée en appliquant les transformations du calque à l’ancre de l’image. Si l’ancre de l’image n’est pas connue, le centre du rectangle du calque ( `originN=0,0`) est utilisé.
 
 ## Exemple {#section-13e38d6e17be4e6cbc6b27fbde63b291}
 

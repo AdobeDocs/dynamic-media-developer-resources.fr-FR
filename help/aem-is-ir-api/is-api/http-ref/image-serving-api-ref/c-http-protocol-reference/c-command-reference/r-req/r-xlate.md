@@ -2,13 +2,13 @@
 description: Versions disponibles spécifiques aux paramètres régionaux. Renvoie une liste des versions disponibles spécifiques aux paramètres régionaux de l’ID de catalogue spécifiées dans le chemin d’accès de la requête.
 solution: Experience Manager
 title: xlate
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: bf5b3cb7-9792-4eca-a1aa-55aa4089b4d4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 11%
+source-wordcount: '109'
+ht-degree: 1%
 
 ---
 
@@ -25,13 +25,13 @@ Versions disponibles spécifiques aux paramètres régionaux. Renvoie une liste 
  </tr> 
 </table>
 
-Voir [Traduction Des Id D’Objet](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414).
+Voir [Traduction D’Id D’Objet](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414).
 
 Par exemple :
 
 `xlate.translatedIds=image,image_fr,image_de`
 
-La réponse HTTP peut être placée en mémoire cache via le TTL basé sur `catalog::Expiration`.
+La réponse HTTP peut être mise en cache avec le TTL basé sur `catalog::Expiration`.
 
 Les requêtes qui prennent en charge le format de réponse JSONP vous permettent de spécifier le nom du gestionnaire de rappel JS à l’aide de la syntaxe étendue du paramètre `req=` :
 

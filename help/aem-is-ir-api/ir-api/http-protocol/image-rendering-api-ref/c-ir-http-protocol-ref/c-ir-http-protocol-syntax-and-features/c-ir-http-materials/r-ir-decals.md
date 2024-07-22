@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 07190abd-9f6f-46b5-bf77-cd97c48fc9be
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 3%
+source-wordcount: '225'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ Les matériaux décoratifs incluent des vêtements tels que des appliqués, des 
 
 Un matériau est considéré comme une coche s’il est spécifié dans un MSS de coche. Une décimale est généralement une image RVBA, avec le canal alpha définissant la forme de la décimale.
 
-Un décal peut être appliqué à chaque objet plat, de contour, de plan ou de mur (sauf si l’indicateur &quot;Pas de texture&quot; est défini). Les décimales sont appliquées à l’objet en alignant le `anchor=` avec le point d’origine décimal de l’objet vignette. La position peut être ajustée en fonction des `pos=`.
+Un décal peut être appliqué à chaque objet plat, de contour, de plan ou de mur (sauf si l’indicateur &quot;Pas de texture&quot; est défini). Les décimales sont appliquées à l’objet en alignant le `anchor=` de la décimale sur le point d’origine de la vignette. La position peut être ajustée davantage avec `pos=`.
 
 Une ombre portée est générée si le matériau décimal définit une épaisseur et que l’objet de vignette définit un vecteur de lumière.
 

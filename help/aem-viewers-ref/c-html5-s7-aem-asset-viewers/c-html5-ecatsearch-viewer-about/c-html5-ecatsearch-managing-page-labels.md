@@ -2,12 +2,12 @@
 description: Gestion des libellés de page
 solution: Experience Manager
 title: Gestion des libellés de page
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Recherche catalogue électronique
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 73c3904f-678f-47c4-b895-86671402df79
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Il existe trois types de libellés qui peuvent être définis :
 * Étiquettes définies par l’auteur sur le serveur principal, dans Dynamic Media Classic.
 * Étiquettes générées automatiquement par la visionneuse.
 
-Les libellés basés sur SYMBOL sont définis à l’aide des fonctions `MediaSet.LABEL_XX[_YY]` et `MediaSet.LABEL_DELIM` SYMBOL, comme décrit dans la section [Localisation des éléments de l’interface utilisateur](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74). Vous pouvez définir ces libellés pour l’ensemble de la diffusion du catalogue électronique, auquel cas vous devez utiliser une syntaxe SYMBOL courte ( `MediaSet.LABEL_XX`). Vous pouvez également le spécifier individuellement pour chaque page en utilisant la syntaxe SYMBOL complète ( `MediaSet.LABEL_XX_YY`).
+Les étiquettes basées sur SYMBOL sont définies à l’aide de `MediaSet.LABEL_XX[_YY]` et de `MediaSet.LABEL_DELIM` SYMBOL, comme décrit dans la section [Localisation des éléments de l’interface utilisateur](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74). Vous pouvez définir ces libellés pour l’ensemble de la diffusion du catalogue électronique, auquel cas vous devez utiliser une syntaxe SYMBOL courte ( `MediaSet.LABEL_XX`). Vous pouvez également le spécifier individuellement pour chaque page à l’aide de la syntaxe SYMBOL complète ( `MediaSet.LABEL_XX_YY`).
 
 Lorsque vous définissez des libellés pour les deux pages dans la fenêtre du catalogue électronique, la visionneuse concatène ces libellés dans une chaîne à l’aide de `MediaSet.LABEL_DELIM` SYMBOL. Les libellés basés sur SYMBOL ont la priorité sur les libellés définis sur le serveur principal ou générés automatiquement par la visionneuse.
 

@@ -22,7 +22,7 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| name | `xsd:string` | Nom des métadonnées. |
+| nom | `xsd:string` | Nom des métadonnées. |
 | valeur | `xsd:string` | Valeur des métadonnées. |
 | boolVal | `xsd:boolean` | Valeur de métadonnées booléenne (pour les champs de type booléen uniquement). |
 | longVal | `xsd:long` | Valeur de métadonnées longue (pour les champs de type int uniquement). |

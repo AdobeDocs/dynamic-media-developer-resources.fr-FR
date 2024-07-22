@@ -2,13 +2,13 @@
 description: Détermine si une ressource est prête à être publiée.
 solution: Experience Manager
 title: setAssetPublishState
-feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 0dc195ee-9229-40a3-ad8b-8f00c2c9ff97
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 18%
+source-wordcount: '95'
+ht-degree: 11%
 
 ---
 
@@ -32,7 +32,7 @@ Syntaxe
 
 ## Paramètres {#section-09d2ba001a2a455a9102550272f3eecb}
 
-**Entrée (setAssetPublishStateParam)**
+**Input (setAssetPublishStateParam)**
 
 <table id="table_23CB72BFB8984CDF82D7207E7D82FC43"> 
  <thead> 
@@ -68,14 +68,14 @@ Syntaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> contextHandleArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Expression de code  </span> </td> 
+   <td colname="col2"> <span class="codeph"> Expression de code </span> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Sortie**
+**Output**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 
@@ -83,7 +83,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 Cet exemple de code définit l’état de publication d’une ressource à l’aide de `NotMarkedForPublish`.
 
-**Request**
+**Requête**
 
 ```java
 <setAssetPublishStateParam xmlns="http://www.scene7.com/IpsApi/xsd">

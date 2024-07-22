@@ -15,6 +15,6 @@ ht-degree: 0%
 # Accessibilité du clavier et navigation{#keyboard-accessibility-and-navigation}
 
 Toutes les fonctions exposées dans l’interface utilisateur de la visionneuse sont accessibles via le clavier.
-L’utilisateur final peut utiliser `Left`, `Right`, `UP`, et `DOWN` touches pour faire un panoramique sur l’image.
-La variable `Esc` un raccourci peut être utilisé pour réinitialiser l’image.
+L’utilisateur final peut utiliser les touches `Left`, `Right`, `UP` et `DOWN` pour effectuer un panoramique sur l’image.
+Le raccourci `Esc` peut être utilisé pour réinitialiser l’image.
 

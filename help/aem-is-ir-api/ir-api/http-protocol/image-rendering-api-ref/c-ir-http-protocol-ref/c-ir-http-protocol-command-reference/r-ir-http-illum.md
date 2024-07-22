@@ -20,7 +20,7 @@ Sélecteur de carte d’éclairage. Spécifie la carte d’éclairage avec laque
 
 Si la carte d’éclairage spécifiée n’est pas disponible dans la vignette cible, la carte disponible la plus proche est utilisée à la place.
 
-`illum=-1` Indique que la carte d’éclairage est sélectionnée automatiquement en fonction du `gloss=` .
+`illum=-1` Indique que la carte d’éclairage est sélectionnée automatiquement en fonction de la valeur `gloss=`.
 
 ## Propriétés {#section-aace8466566e4cf1a0c5a6c0167245c9}
 

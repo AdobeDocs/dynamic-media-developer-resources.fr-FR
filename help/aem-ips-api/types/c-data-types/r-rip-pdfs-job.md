@@ -8,7 +8,7 @@ exl-id: 7a787b45-3cda-44f2-8357-8b6217b679e0
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 5%
+ht-degree: 2%
 
 ---
 
@@ -43,7 +43,7 @@ Processus qui récupère une ressource de PDF existante.
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:ManualCropOptions</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types : ManualCropOptions</span> </p> </td> 
    <td colname="col3"> <p>Options de recadrage manuel. </p> </td> 
   </tr> 
   <tr> 
@@ -112,8 +112,8 @@ Processus qui récupère une ressource de PDF existante.
    <td colname="col3"> <p>Options de téléchargement des fichiers Adobe InDesign vers le serveur d’images. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> KontakoutBackground</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:KnockoutBackgroundOptions</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> KnockoutBackground</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types : KnockoutBackgroundOptions</span> </p> </td> 
    <td colname="col3"> <p>Masquez l’arrière-plan des images sélectionnées. Cette fonctionnalité vous permet de les superposer dans d’autres calques avec une transparence en dehors de l’image objet. </p> <p>Facultatif. </p> <p>Voir<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
   </tr> 
  </tbody> 
@@ -121,13 +121,13 @@ Processus qui récupère une ressource de PDF existante.
 
 ## Remarques {#section-0822e70fa4784131baa5ad0ba8c0fb3b}
 
-Choix pour `*CropOptions` inclure :
+Les choix pour `*CropOptions` incluent :
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-Choix pour `*PublishJob` inclure :
+Les choix pour `*PublishJob` incluent :
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

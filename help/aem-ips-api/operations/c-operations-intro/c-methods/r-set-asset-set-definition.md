@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: f3fbe13b-e650-4a5d-9c46-a492b11fa13e
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 6%
+source-wordcount: '198'
+ht-degree: 5%
 
 ---
 
@@ -29,7 +29,7 @@ Syntaxe
 
 ## Paramètres {#section-c2057a5a13d042c684a3da1b49bc5dc6}
 
-**Entrée (setAssetDefinitionParam)**
+**Input (setAssetDefinitionParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -41,15 +41,15 @@ Syntaxe
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 
-## Paramètre setDefinition : A propos {#section-f88e066bf5294b4f8c12d5d652a5c94c}
+## Paramètre setDefinition : à propos {#section-f88e066bf5294b4f8c12d5d652a5c94c}
 
 **Fonctions setDefinition**
 
-Spécifier `setDefinition` fonctions de substitution en ligne. Ces problèmes sont résolus lors d’une recherche de catalogue ou lors d’une publication. Les chaînes de substitution ont le format `${<substitution_func>}`et incluez les éléments suivants :
+Spécifiez les fonctions de substitution `setDefinition` en ligne. Ces problèmes sont résolus lors d’une recherche de catalogue ou lors d’une publication. Les chaînes de substitution ont le format `${<substitution_func>}` et comprennent les éléments suivants :
 
 >[!NOTE]
 >
->Les littéraux de gestion dans les listes de paramètres doivent être entourés de crochets. `([])`. Le texte en dehors d’une chaîne de substitution est copié dans la chaîne de sortie lors de la résolution.
+>Les littéraux de gestion dans les listes de paramètres doivent être entourés de crochets `([])`. Le texte en dehors d’une chaîne de substitution est copié dans la chaîne de sortie lors de la résolution.
 
 <table id="table_A93D2C273B694C289208AA926B2597CD"> 
  <thead> 
@@ -61,7 +61,7 @@ Spécifier `setDefinition` fonctions de substitution en ligne. Ces problèmes so
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getFilePath([ <span class="varname"> asset_handle </span>]) </span> </td> 
-   <td colname="col2"> chemin d’accès au fichier Principal. </td> 
+   <td colname="col2"> Chemin d’accès au fichier de Principal. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getCatalogd([ <span class="varname"> asset_handle </span>]) </span> </td> 
@@ -78,7 +78,7 @@ Spécifier `setDefinition` fonctions de substitution en ligne. Ces problèmes so
  </tbody> 
 </table>
 
-**Exemples de setDefinition**
+**Exemples setDefinition**
 
 Cette chaîne de définition de visionneuse de médias :
 
@@ -97,7 +97,7 @@ jcompany/myRenderSet;jcompany/myRenderSet;
 
 ## Exemples {#section-739b42eec3074cafae285ec015a2d088}
 
-**Request**
+**Requête**
 
 ```java
 <setAssetSetDefinitionParam xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31"> 

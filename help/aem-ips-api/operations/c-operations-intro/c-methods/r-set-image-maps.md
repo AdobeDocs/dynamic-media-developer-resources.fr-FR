@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 0c8e6536-0b9c-4fcc-b71f-511afc670089
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 11%
+source-wordcount: '134'
+ht-degree: 10%
 
 ---
 
@@ -29,7 +29,7 @@ Vous devez avoir déjà créé les zones cliquables. Les zones cliquables sont a
 
 ## Paramètres {#section-2292ec1aead947ef8741dd0653a41f42}
 
-**Entrée (setImageMapsParam)**
+**Input (setImageMapsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -47,7 +47,7 @@ Vous devez avoir déjà créé les zones cliquables. Les zones cliquables sont a
 
 Cet exemple de code définit 2 zones cliquables pour une ressource image. Le code spécifie le type de forme, la région et l’action entreprise lors de l’appel des zones cliquables. La réponse contient un tableau contenant des poignées vers les zones cliquables.
 
-**Request**
+**Requête**
 
 ```java
 <setImageMapsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

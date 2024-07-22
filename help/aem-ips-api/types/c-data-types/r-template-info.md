@@ -23,5 +23,5 @@ Les modèles sont des définitions de calque paramétrées qui construisent une 
 | Nom | Type | Description |
 |---|---|---|
 | url | `xsd:string` | URL du serveur d’images qui représente le modèle. |
-| urlModifier | `xsd:string` |  |
-| urlPostApplyModifier | `xsd:string` |  |
+| urlModifier | `xsd:string` | |
+| urlPostApplyModifier | `xsd:string` | |

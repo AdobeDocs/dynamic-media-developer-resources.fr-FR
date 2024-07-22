@@ -8,7 +8,7 @@ exl-id: 10830980-d504-4610-96c9-730937453256
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 18%
+ht-degree: 10%
 
 ---
 
@@ -54,10 +54,10 @@ Syntaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> updateChildren</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> <p>When <span class="codeph"> true</span>: 
+   <td colname="col4"> <p>Lorsque <span class="codeph"> true</span> : 
      <ul id="ul_1305D060E0F34A61AA3C827E43F296E6"> 
       <li id="li_AB8705F3CEAD4B8A8F1C28291A6F7EC8">La suppression des autorisations se propage par toutes les opérations d’autorisation de dossier. </li> 
-     </ul> </p> <p>When <span class="codeph"> false</span>: 
+     </ul> </p> <p>Lorsque <span class="codeph"> false</span> : 
      <ul id="ul_19AEE80F1FC84B64AD623E050C12A0CD"> 
       <li id="li_B8B78851004C43DB8CB7958E380AF510">L’opération affecte uniquement le dossier spécifié. </li> 
      </ul> </p> </td> 
@@ -71,9 +71,9 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-04390f0ec7cc460cb5d34d518e33e7a5}
 
-Cet exemple de code supprime les autorisations d’un dossier et de ses sous-dossiers. Définir `updateChildren` to `false` pour supprimer uniquement les autorisations du dossier parent.
+Cet exemple de code supprime les autorisations d’un dossier et de ses sous-dossiers. Définissez `updateChildren` sur `false` pour supprimer uniquement les autorisations du dossier parent.
 
-**Request**
+**Requête**
 
 ```java
 <removeFolderPermissionsParam xmlns="http://www.scene7.com/IpsApi/xsd">

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: ffbbc2ae-60da-4c3d-a350-6dbcb64e189d
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 1%
+source-wordcount: '938'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,7 @@ Lorsque le panneau est actif, l’interface utilisateur de la visionneuse est re
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Couleur du recouvrement. </p> </td> 
   </tr> 
   <tr> 
@@ -84,7 +84,7 @@ La partie supérieure du panneau des résultats de recherche est dédiée à la 
 <table id="table_A1B96108542742DC8DCBCC9064F9E90B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p> Marge intérieure autour de la zone de saisie. </p> </td> 
   </tr> 
  </tbody> 
@@ -96,7 +96,7 @@ Le champ d’entrée de recherche est contrôlé par le sélecteur de classe CSS
 .s7ecatalogsearchviewer .s7searchpanel .s7searchinput
 ```
 
-**Propriétés CSS du champ de saisie de recherche**
+**Propriétés CSS du champ d’entrée de recherche**
 
 <table id="table_9FB5E89847BF4C889DC22AD7E842C0F7"> 
  <tbody> 
@@ -105,7 +105,7 @@ Le champ d’entrée de recherche est contrôlé par le sélecteur de classe CSS
    <td colname="col2"> <p>Hauteur du champ de saisie de la recherche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage-gauche </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-left </span> </p> </td> 
    <td colname="col2"> <p> Marge intérieure entre les limites du champ de saisie et le texte de saisie. </p> </td> 
   </tr> 
   <tr> 
@@ -214,7 +214,7 @@ Le panneau des résultats de recherche peut afficher une invite textuelle lors d
 
 >[!NOTE]
 >
->Ce panneau de texte prend en charge les `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents styles à différents messages texte. En particulier, `state='prompt'` correspond à l’invite de texte affichée lorsque le panneau est appelé pour la première fois. La variable `state='results'` correspond au texte contenant des informations sur les accès à la recherche. Et enfin, le `state='no_results'` correspond au texte affiché lorsque la requête de recherche ne renvoyait aucun résultat.
+>Ce panneau de texte prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents styles à différents messages de texte. En particulier, `state='prompt'` correspond à l’invite de texte affichée lors de la première appel du panneau. `state='results'` correspond au texte contenant des informations sur les accès à la recherche. Enfin, `state='no_results'` correspond au texte affiché lorsque la requête de recherche ne renvoyait aucun résultat.
 
 Le texte du message peut être localisé. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 
@@ -239,7 +239,7 @@ Les résultats de recherche sont affichés sous la forme d’une seule colonne o
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> Taille de la marge verticale autour de chaque miniature. Espacement réel des miniatures est égal à la somme des marges supérieure et inférieure définies pour <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col2"> <p> Taille de la marge verticale autour de chaque miniature. L’espacement réel des miniatures est égal à la somme des marges supérieure et inférieure définies pour <span class="codeph"> .s7thumbcell </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -293,7 +293,7 @@ L’aspect du libellé de la miniature est contrôlé à l’aide du sélecteur 
 .s7searchpanel .s7swatches .s7label
 ```
 
-**Propriétés CSS du libellé**
+**Propriétés CSS de l’étiquette**
 
 <table id="table_CA669F6AE7574FF389BF725B3F768E5E"> 
  <tbody> 
@@ -348,7 +348,7 @@ Il n’est pas possible de positionner les boutons de défilement à l’aide de
    <td colname="col2"> <p> Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -356,7 +356,7 @@ Il n’est pas possible de positionner les boutons de défilement à l’aide de
 
 >[!NOTE]
 >
->Ce bouton prend en charge `state` sélecteur d’attributs, qui peut être utilisé pour appliquer différents habillages à `"up"`, `"down"`, `"over"`, et `"disabled"` états de bouton.
+>Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages aux états de bouton `"up"`, `"down"`, `"over"` et `"disabled"`.
 
 Les info-bulles des boutons peuvent être localisées. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 

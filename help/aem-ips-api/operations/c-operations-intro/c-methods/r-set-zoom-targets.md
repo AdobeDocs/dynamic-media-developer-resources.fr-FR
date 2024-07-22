@@ -8,7 +8,7 @@ exl-id: 1b4ac729-00cf-4ea2-9098-60b4af3c7e6d
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 14%
+ht-degree: 12%
 
 ---
 
@@ -29,12 +29,12 @@ Syntaxe
 
 ## Paramètres {#section-161f8c733cc4439f94a06e12119d4226}
 
-**Entrée (setZoomTargetsParam)**
+**Input (setZoomTargetsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Oui | Poignée de la société. |
-| assetHandle | `xsd:string` | Oui | Ressource avec la cible de zoom que vous souhaitez définir. |
+| assetHandle | `xsd:string` | Oui | Ressource avec la cible de zoom à définir. |
 | zoomTargetArray | `types:ZoomTargetDefinitionArray` | Oui | Tableau des définitions de cibles de zoom. |
 
 **Sortie (setZoomTargetsReturn)**
@@ -47,7 +47,7 @@ Syntaxe
 
 Cet exemple de code définit un tableau de cibles de zoom par nom, position (axe x et y), largeur, hauteur et affecte le tableau à une ressource. La réponse contient des poignées pour les cibles de zoom nouvellement créées.
 
-**Request**
+**Requête**
 
 ```java
 <setZoomTargetsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

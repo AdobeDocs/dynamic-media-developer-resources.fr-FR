@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 1fb91795-f699-40b4-a6bc-6eab3e1ecd1d
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,15 @@ Les fichiers de données du catalogue peuvent avoir n’importe quel nom et suff
 
 Les fichiers de données de catalogue peuvent être facilement conservés à l’aide d’applications qui prennent en charge les fichiers de données texte délimités par des tabulations, telles que Microsoft® Excel et Access.
 
-Essentiellement un tableau à deux dimensions, un fichier de données de catalogue se compose d’un enregistrement d’en-tête qui identifie les colonnes de données et tout nombre d’enregistrements de données (lignes). Les champs des enregistrements d’en-tête et de données sont séparés par une seule `<TAB>` caractères. Les enregistrements sont séparés par une seule `<CR>` (code ASCII) `0xD`), un seul `<LF>` (code ASCII) `0xA`), ou un `<CR><LF>` paire .
+Essentiellement un tableau à deux dimensions, un fichier de données de catalogue se compose d’un enregistrement d’en-tête qui identifie les colonnes de données et tout nombre d’enregistrements de données (lignes). Les champs des enregistrements d’en-tête et de données sont séparés par des caractères `<TAB>` uniques. Les enregistrements sont séparés par une seule `<CR>` (code ASCII `0xD`), un seul `<LF>` (code ASCII `0xA`) ou une paire `<CR><LF>`.
 
 L’enregistrement de l’en-tête doit contenir les noms exacts pour chaque champ de données. Les champs vides ne sont pas autorisés dans la ligne d’en-tête. Les noms des champs de données ne sont pas sensibles à la casse. Tous les noms de champ doivent être uniques.
 
-Aucun espace autre que le `<TAB>` les séparateurs de champ sont autorisés dans les enregistrements d’en-tête et de données.
+Aucun espace blanc autre que les séparateurs de champ `<TAB>` n’est autorisé dans les enregistrements d’en-tête et de données.
 
-Dans les enregistrements de données, deux enregistrements adjacents `<TAB>` Les caractères indiquent un champ vide. Les champs vides héritent des valeurs par défaut des attributs de catalogue ou des valeurs par défaut du serveur.
+Dans les enregistrements de données, deux caractères `<TAB>` adjacents indiquent un champ vide. Les champs vides héritent des valeurs par défaut des attributs de catalogue ou des valeurs par défaut du serveur.
 
-Les champs de données ne doivent pas contenir `<CR>`, `<LF>`, ou `<TAB>` , sauf si la valeur de données est de type texte et est entourée de guillemets simples ou doubles. Ne codez pas les champs de données par HTTP.
+Les champs de données ne doivent pas contenir de caractères `<CR>`, `<LF>` ou `<TAB>`, sauf si la valeur de données est de type texte et est entourée de guillemets simples ou doubles. Ne codez pas les champs de données par HTTP.
 
 Plusieurs valeurs de données dans le même champ sont séparées par des virgules (&#39;,&#39;), sauf indication contraire.
 

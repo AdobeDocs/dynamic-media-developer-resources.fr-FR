@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 3a97a520-5049-4b26-826e-ae913f0ac511
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,6 @@ Coordonnées normalisées. Utilisé pour spécifier des positions relatives dans
 
 Les valeurs positives se déplacent vers le bas à droite.
 
-Souvent, la position de référence est le centre de l’image. Dans ce cas, `0,0` correspond au centre de l&#39;image, `-0.5,-0.5` dans le coin supérieur gauche, et `0.5,0.5` dans le coin inférieur droit.
+Souvent, la position de référence est le centre de l’image. Dans ce cas, `0,0` correspond au centre de l’image, `-0.5,-0.5` au coin supérieur gauche et `0.5,0.5` au coin inférieur droit.
 
-Il est également utilisé pour spécifier la taille de l’image ou du rectangle par rapport à la taille du calque 0. Dans ce cas, la valeur doit être supérieure à 0. 0 peut indiquer qu’une valeur par défaut spécifique doit être utilisée. Une valeur de `1,1` spécifie une taille égale à celle du calque 0.
+Il est également utilisé pour spécifier la taille de l’image ou du rectangle par rapport à la taille du calque 0. Dans ce cas, la valeur doit être supérieure à 0. 0 peut indiquer qu’une valeur par défaut spécifique doit être utilisée. Une valeur `1,1` spécifie une taille égale à celle de la couche 0.

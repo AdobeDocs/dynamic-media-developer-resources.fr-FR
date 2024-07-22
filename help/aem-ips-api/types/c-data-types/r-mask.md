@@ -8,7 +8,7 @@ exl-id: 0e18096c-0666-400b-a562-b6d183bd3334
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '69'
-ht-degree: 13%
+ht-degree: 8%
 
 ---
 
@@ -23,7 +23,7 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | maskHandle | `xsd:string` | Poignée de masque. |
-| name | `xsd:string` | Nom du masque. |
+| nom | `xsd:string` | Nom du masque. |
 | maskPath | `xsd:string` | Chemin d’accès relatif au masque. |
-| maskFile | `xsd:string` | Fichier de masque. |
+| maskFile | `xsd:string` | Masquer le fichier. |
 | lastModified | `types:dateTime` | Date, heure et fuseau horaire de la dernière modification du masque. |

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 06ce5520-944b-4ab0-8f59-67c273bd8314
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 6%
+source-wordcount: '272'
+ht-degree: 2%
 
 ---
 
@@ -25,17 +25,17 @@ Paramètre commun à toutes les visionneuses.
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fichier  </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fichier </span> </span> </p> </td> 
    <td colname="col2"> <p> Spécifie une URL ou un chemin d’accès au contenu de la légende WebVTT. La diffusion d’images diffuse le fichier WebVTT. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
    <td colname="col2"> <p> Indique l’état de la légende par défaut. L’option activée est <span class="codeph"> 1 </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Cette visionneuse prend en charge le sous-titrage par le biais de fichiers WebVTT hébergés. Les sous-titres spécifiés avec ce paramètre s’appliquent à la vidéo qui apparaît en premier dans les visionneuses de médias. les vidéos suivantes sont lues sans légende. Les indicateurs de chevauchement et les régions ne sont pas pris en charge. Opérateurs de positionnement des repères pris en charge :
+Cette visionneuse prend en charge le sous-titrage par le biais de fichiers WebVTT hébergés. Les sous-titres spécifiés avec ce paramètre s’appliquent à la vidéo qui apparaît en premier dans les visionneuses de médias ; les vidéos suivantes sont lues sans sous-titres. Les indicateurs de chevauchement et les régions ne sont pas pris en charge. Opérateurs de positionnement des repères pris en charge :
 
 <table id="table_E752D7D8C1AA40C6B8A7057D2BB379C1"> 
  <thead> 
@@ -50,8 +50,8 @@ Cette visionneuse prend en charge le sous-titrage par le biais de fichiers WebVT
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> A </span> </p> </td> 
    <td colname="col2"> <p>alignement des tests </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> left|right|middle|start|end  </span> </p> </td> 
-   <td colname="col4"> <p> Contrôle l’alignement du texte. </p> <p>La valeur par défaut est <span class="codeph"> milieu </span>. </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> left|right|middle|start|end </span> </p> </td> 
+   <td colname="col4"> <p> Contrôle l’alignement du texte. </p> <p>La valeur par défaut est <span class="codeph"> middle </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> T </span> </p> </td> 
@@ -67,23 +67,23 @@ Cette visionneuse prend en charge le sous-titrage par le biais de fichiers WebVT
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> L </span> </p> </td> 
-   <td colname="col2"> <p>position ligne </p> </td> 
+   <td colname="col2"> <p>position de ligne </p> </td> 
    <td colname="col3"> <p> 0%-100%|integer </p> </td> 
    <td colname="col4"> <p> Détermine la position de la ligne sur la page. </p> <p>S’il est exprimé sous la forme d’un entier sans signe de pourcentage, il s’agit du nombre de lignes du haut où le texte est affiché. </p> <p>S’il est exprimé sous la forme d’un pourcentage (le signe pourcentage est le dernier caractère), le texte de la légende s’affiche sous forme de pourcentage dans la zone d’affichage. </p> <p>La valeur par défaut est <span class="codeph"> 100 % </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Si d’autres fonctionnalités WebVTT sont présentes dans le fichier WebVTT, elles ne sont pas prises en charge ; cependant, elles ne perturbent pas le sous-titrage.
+S’il existe d’autres fonctionnalités WebVTT présentes dans le fichier WebVTT, elles ne sont pas prises en charge ; toutefois, elles ne perturbent pas le sous-titrage.
 
 <table id="table_CB7B4DFC6B654AECA1AF6594E3FD5C46"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fichier  </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fichier </span> </span> </p> </td> 
    <td colname="col2"> <p> Spécifie une URL ou un chemin d’accès au contenu de la légende WebVTT. Le fichier WebVTT est diffusé par Image Serving. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
    <td colname="col2"> <p> Indique l’état de la légende par défaut. </p> <p>L’option activée est <span class="codeph"> 1 </span>. </p> </td> 
   </tr> 
  </tbody> 

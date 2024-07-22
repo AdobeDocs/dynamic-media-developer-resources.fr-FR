@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 3d878207-99e4-4c75-ab12-b38a37c82fb7
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 9%
+source-wordcount: '370'
+ht-degree: 1%
 
 ---
 
@@ -60,7 +60,7 @@ Pour renvoyer le type de tâche, spécifiez une valeur de type de tâche. Vous p
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Nom d’origine du <span class="codeph"> ActiveJob</span> type envoyé avec la tâche. </td> 
+   <td colname="col3">Nom original du type <span class="codeph"> ActiveJob</span> envoyé avec la tâche. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> type</span> </span> </td> 
@@ -80,7 +80,7 @@ Pour renvoyer le type de tâche, spécifiez une valeur de type de tâche. Vous p
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Paramètre régional pour les détails du journal des tâches et la localisation des emails. <p>Définir les paramètres régionaux comme <span class="codeph"> &lt;language_code&gt;[-&lt;country_code&gt;]</span>, où le code de langue est un code à deux lettres en minuscules, comme spécifié par la norme ISO-639, et le code de pays facultatif est un code à deux lettres en majuscules, comme spécifié par la norme ISO-3166. Par exemple, la chaîne du paramètre régional pour l’anglais (États-Unis) serait : <span class="codeph"> en-US</span>. </p></td> 
+   <td colname="col3">Paramètre régional pour les détails du journal des tâches et la localisation des emails. <p>Spécifiez les paramètres régionaux <span class="codeph"> &lt;code_langue&gt;[-&lt;code_pays&gt;]</span>, où le code de langue est un code à deux lettres minuscules, comme spécifié par ISO-639, et le code de pays facultatif est un code à deux lettres majuscules comme spécifié par ISO-3166. Par exemple, la chaîne du paramètre régional pour l’anglais (États-Unis) serait : <span class="codeph"> en-US</span>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> description</span> </span> </td> 
@@ -144,7 +144,7 @@ Pour renvoyer le type de tâche, spécifiez une valeur de type de tâche. Vous p
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadUrlsJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:UploadUrlsJob</span> </td> 
+   <td colname="col2"> <span class="codeph"> types : UploadUrlsJob</span> </td> 
    <td colname="col3"> Détails de la tâche pour une tâche de téléchargement d’URL. </td> 
   </tr> 
   <tr> 
@@ -154,7 +154,7 @@ Pour renvoyer le type de tâche, spécifiez une valeur de type de tâche. Vous p
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> optimizeImagesJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:OptimizeImagesJob</span> </td> 
+   <td colname="col2"> <span class="codeph"> types : OptimizeImagesJob</span> </td> 
    <td colname="col3"></td> 
   </tr> 
   <tr> 
@@ -164,13 +164,13 @@ Pour renvoyer le type de tâche, spécifiez une valeur de type de tâche. Vous p
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> uploadPostJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:UploadPostJob</span> </td> 
+   <td colname="col2"> <span class="codeph"> types : UploadPostJob</span> </td> 
    <td colname="col3"> Détails de la tâche, suivi du chargement depuis l’ordinateur de bureau. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:ExportJob</span> </td> 
-   <td colname="col3">Autoriser l’exportation autorisée des fichiers précédemment chargés. Voir <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> Tâche d’exportation</a>. </td> 
+   <td colname="col3">Autoriser l’exportation autorisée des fichiers précédemment chargés. Voir <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> Tâche d’exportation </a>. </td> 
   </tr> 
  </tbody> 
 </table>

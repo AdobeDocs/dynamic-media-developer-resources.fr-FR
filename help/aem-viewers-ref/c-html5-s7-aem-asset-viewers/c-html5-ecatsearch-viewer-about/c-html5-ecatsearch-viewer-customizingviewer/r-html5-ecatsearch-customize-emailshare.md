@@ -41,7 +41,7 @@ L’aspect du bouton de partage de courrier électronique est contrôlé à l’
    <td colname="col2"> <p> Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -49,9 +49,9 @@ L’aspect du bouton de partage de courrier électronique est contrôlé à l’
 
 >[!NOTE]
 >
->Ce bouton prend en charge `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
-Il est possible de supprimer le bouton du panneau Partage sur les réseaux sociaux en définissant `display:none` Propriété CSS sur sa classe CSS.
+Il est possible de supprimer le bouton du panneau Partage sur les réseaux sociaux en définissant la propriété CSS `display:none` sur sa classe CSS.
 
 L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 
@@ -91,7 +91,7 @@ La superposition d’arrière-plan qui couvre la page web lorsque la boîte de d
    <td colname="col2"> <p> Opacité du recouvrement en arrière-plan. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Couleur de superposition de l’arrière-plan. </p> </td> 
   </tr> 
  </tbody> 
@@ -121,7 +121,7 @@ Par défaut, la boîte de dialogue modale s’affiche centrée sur l’écran de
    <td colname="col2"> <p> rayon de la bordure de la boîte de dialogue (si la boîte de dialogue ne prend pas toute la fenêtre du navigateur) ; </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan de la boîte de dialogue ; </p> </td> 
   </tr> 
   <tr> 
@@ -151,12 +151,12 @@ L’en-tête de la boîte de dialogue se compose d’une icône, d’un texte de
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogheader
 ```
 
-**Propriétés CSS de l’en-tête de la boîte de dialogue**
+**Propriétés CSS de l’en-tête de boîte de dialogue**
 
 <table id="table_E407E844C9BD4B5DA8B5BBDE0554F9CA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p> Marge intérieure du contenu de l’en-tête. </p> </td> 
   </tr> 
  </tbody> 
@@ -168,12 +168,12 @@ L’icône et le texte du titre sont placés dans un conteneur supplémentaire c
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogheader .s7dialogline
 ```
 
-**Propriétés CSS de la ligne de dialogue**
+**Propriétés CSS de la ligne de boîte de dialogue**
 
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p> Marge intérieure de l’icône et du titre de l’en-tête. </p> </td> 
   </tr> 
  </tbody> 
@@ -185,7 +185,7 @@ L’icône d’en-tête est contrôlée avec le sélecteur de classe CSS suivant
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogheadericon
 ```
 
-**Propriétés CSS de l’icône d’en-tête de la boîte de dialogue**
+**Propriétés CSS de l’icône d’en-tête de boîte de dialogue**
 
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
@@ -202,7 +202,7 @@ L’icône d’en-tête est contrôlée avec le sélecteur de classe CSS suivant
    <td colname="col2"> <p>Image de l’icône. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -231,7 +231,7 @@ Le titre d’en-tête est contrôlé à l’aide du sélecteur de classe CSS sui
    <td colname="col2"> <p>Famille de polices. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p>Marge intérieure du texte interne. </p> </td> 
   </tr> 
  </tbody> 
@@ -252,7 +252,7 @@ Propriétés **CSS du bouton de fermeture **
    <td colname="col2"> <p> Position verticale des boutons par rapport au conteneur d’en-tête. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> droit </span> </p> </td> 
    <td colname="col2"> <p> Position du bouton horizontal par rapport au conteneur d’en-tête. </p> </td> 
   </tr> 
   <tr> 
@@ -264,7 +264,7 @@ Propriétés **CSS du bouton de fermeture **
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p>Marge intérieure du bouton. </p> </td> 
   </tr> 
   <tr> 
@@ -272,7 +272,7 @@ Propriétés **CSS du bouton de fermeture **
    <td colname="col2"> <p>Image de bouton pour chaque état. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -280,7 +280,7 @@ Propriétés **CSS du bouton de fermeture **
 
 >[!NOTE]
 >
->Ce bouton prend en charge `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
 L’info-bulle du bouton Fermer et le titre de la boîte de dialogue peuvent être localisés. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 
@@ -335,7 +335,7 @@ Propriétés **CSS du pied de page de la boîte de dialogue **
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bordure </span> </p> </td> 
    <td colname="col2"> <p> Bordure permettant de séparer visuellement le pied de page du reste de la boîte de dialogue. </p> </td> 
   </tr> 
  </tbody> 
@@ -347,12 +347,12 @@ Le pied de page comporte un conteneur interne qui conserve les deux boutons. Il 
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogbuttoncontainer
 ```
 
-**Propriétés CSS du conteneur de boutons de la boîte de dialogue**
+**Propriétés CSS du conteneur de boutons de boîte de dialogue**
 
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p> Marge intérieure entre le pied de page et les boutons. </p> </td> 
   </tr> 
  </tbody> 
@@ -364,7 +364,7 @@ Le bouton Annuler est contrôlé à l’aide du sélecteur de classe CSS suivant
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogcancelbutton
 ```
 
-**Propriétés CSS du bouton Annuler de la boîte de dialogue**
+**Propriétés CSS de la boîte de dialogue Bouton d’annulation**
 
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
@@ -381,7 +381,7 @@ Le bouton Annuler est contrôlé à l’aide du sélecteur de classe CSS suivant
    <td colname="col2"> <p> Couleur de texte des boutons pour chaque état. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan du bouton pour chaque état. </p> </td> 
   </tr> 
  </tbody> 
@@ -389,7 +389,7 @@ Le bouton Annuler est contrôlé à l’aide du sélecteur de classe CSS suivant
 
 >[!NOTE]
 >
->Ce bouton prend en charge `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
 Le bouton Envoyer un courrier électronique est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
@@ -414,7 +414,7 @@ Le bouton Envoyer un courrier électronique est contrôlé à l’aide du sélec
    <td colname="col2"> <p> Couleur de texte des boutons pour chaque état. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan du bouton pour chaque état. </p> </td> 
   </tr> 
  </tbody> 
@@ -422,7 +422,7 @@ Le bouton Envoyer un courrier électronique est contrôlé à l’aide du sélec
 
 >[!NOTE]
 >
->Ce bouton prend en charge `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
 En outre, les deux boutons partagent une classe CSS commune, qui peut contenir des paramètres CSS identiques pour les autres boutons de boîte de dialogue :
 
@@ -538,7 +538,7 @@ Propriétés **CSS de la zone d’affichage de la boîte de dialogue **
    <td colname="col2"> <p> Hauteur de la zone de boîte de dialogue principale. Elle doit être spécifiée uniquement lorsque la boîte de dialogue fonctionne en mode bureau. Cela ne s’applique pas lorsque la boîte de dialogue est dimensionnée pour occuper toute la fenêtre du navigateur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Couleur d’arrière-plan de la zone de boîte de dialogue principale. </p> </td> 
   </tr> 
   <tr> 
@@ -550,7 +550,7 @@ Propriétés **CSS de la zone d’affichage de la boîte de dialogue **
 
 >[!NOTE]
 >
->La zone de boîte de dialogue principale prend en charge les options facultatives. `state` sélecteur d’attributs. Elle est définie sur `sendsuccess` lorsque le formulaire de courrier électronique est envoyé et que la boîte de dialogue affiche un message de confirmation. Tant que le message de confirmation est petit, ce sélecteur d’attributs peut être utilisé pour réduire la hauteur de la boîte de dialogue lorsque ce message de confirmation s’affiche.
+>La zone de boîte de dialogue principale prend en charge le sélecteur d’attributs `state` facultatif. Il est défini sur `sendsuccess` lorsque le formulaire de courrier électronique est envoyé et que la boîte de dialogue affiche un message de confirmation. Tant que le message de confirmation est petit, ce sélecteur d’attributs peut être utilisé pour réduire la hauteur de la boîte de dialogue lorsque ce message de confirmation s’affiche.
 
 Exemple : pour configurer la zone de boîte de dialogue principale de sorte qu’elle ait initialement une hauteur de 300 pixels et une hauteur de 100 pixels lors de l’affichage du message de confirmation, une marge de dix pixels et un arrière-plan blanc :
 
@@ -578,7 +578,7 @@ Propriétés **CSS du corps de la boîte de dialogue **
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p>Marge intérieure. </p> </td> 
   </tr> 
  </tbody> 
@@ -603,7 +603,7 @@ Le formulaire de boîte de dialogue est rempli ligne par ligne, chaque ligne tra
 <table id="table_2CCCC71B45B444A8B9CE2894129C9C02"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p>Marge intérieure. </p> </td> 
   </tr> 
  </tbody> 
@@ -666,7 +666,7 @@ Tous les libellés statiques affichés à gauche des champs de saisie du formula
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoginputlabel
 ```
 
-**Propriétés CSS du libellé d’entrée de la boîte de dialogue**
+**Propriétés CSS de l’étiquette d’entrée de boîte de dialogue**
 
 <table id="table_B5CF02837BAA42C7B79B6D9DA20792DF"> 
  <tbody> 
@@ -675,7 +675,7 @@ Tous les libellés statiques affichés à gauche des champs de saisie du formula
    <td colname="col2"> <p>Largeur du libellé statique. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> alignement de texte </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
    <td colname="col2"> <p>Alignement horizontal du texte. </p> </td> 
   </tr> 
   <tr> 
@@ -683,7 +683,7 @@ Tous les libellés statiques affichés à gauche des champs de saisie du formula
    <td colname="col2"> <p>Marge du libellé statique. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p>Marge intérieure des libellés statiques. </p> </td> 
   </tr> 
  </tbody> 
@@ -706,16 +706,16 @@ Chaque champ de saisie de formulaire est encapsulé dans le conteneur, ce qui vo
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoginputcontainer
 ```
 
-**Propriétés CSS du conteneur d’entrée de la boîte de dialogue**
+**Propriétés CSS du conteneur d’entrée de boîte de dialogue**
 
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bordure </span> </p> </td> 
    <td colname="col2"> <p>Bordure autour du conteneur de champ de saisie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p>Marge intérieure. </p> </td> 
   </tr> 
  </tbody> 
@@ -723,7 +723,7 @@ Chaque champ de saisie de formulaire est encapsulé dans le conteneur, ce qui vo
 
 >[!NOTE]
 >
->Le conteneur de champs d’entrée prend en charge les options facultatives `state` sélecteur d’attributs. Elle est définie sur `verifyerror` lorsque l’utilisateur commet une erreur dans le format des données d’entrée et que la validation en ligne échoue. Ce sélecteur d’attributs peut être utilisé pour mettre en surbrillance des entrées utilisateur incorrectes dans le formulaire.
+>Le conteneur de champs d’entrée prend en charge le sélecteur d’attributs facultatif `state`. Il est défini sur `verifyerror` lorsque l’utilisateur commet une erreur dans le format des données d’entrée et que la validation intégrée échoue. Ce sélecteur d’attributs peut être utilisé pour mettre en surbrillance des entrées utilisateur incorrectes dans le formulaire.
 
 La plupart des champs de saisie qui s’étendent du libellé à gauche au bord droit du corps de la boîte de dialogue (qui comprend le champ De et le champ Message) sont contrôlés par le sélecteur de classe CSS suivant :
 
@@ -748,7 +748,7 @@ Le champ À est plus étroit, car il alloue de l’espace pour le bouton Supprim
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoginputshort
 ```
 
-**Propriétés CSS de la boîte de dialogue saisie champ court**
+**Propriétés CSS de la boîte de dialogue input short field**
 
 <table id="table_DFA9059209FF4184BD483A529424E97F"> 
  <tbody> 
@@ -783,7 +783,7 @@ Le champ de saisie des emails est également contrôlé avec :
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogmessage
 ```
 
-Cette classe vous permet de définir des propriétés spécifiques pour la sous-jacente `TEXTAREA` élément .
+Cette classe vous permet de définir des propriétés spécifiques pour l’élément `TEXTAREA` sous-jacent.
 
 **Propriétés CSS du message de boîte de dialogue**
 
@@ -800,7 +800,7 @@ Cette classe vous permet de définir des propriétés spécifiques pour la sous-
  </tbody> 
 </table>
 
-Exemple : pour configurer un message électronique d’une hauteur de 50 pixels et utiliser `break-word` retour à la ligne :
+Exemple : pour configurer un message électronique d’une hauteur de 50 pixels et utiliser l’encapsulage de mots `break-word` :
 
 ```
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogmessage { 
@@ -832,7 +832,7 @@ Le bouton Ajouter une autre adresse électronique permet à un utilisateur d’a
    <td colname="col2"> <p>Image de bouton pour chaque état. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p>Position de l’image du bouton dans la zone du bouton. </p> </td> 
   </tr> 
   <tr> 
@@ -852,11 +852,11 @@ Le bouton Ajouter une autre adresse électronique permet à un utilisateur d’a
    <td colname="col2"> <p>Hauteur du texte dans le bouton. Affecte l’alignement vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> alignement de texte </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
    <td colname="col2"> <p>Alignement horizontal du texte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p>Marge intérieure. </p> </td> 
   </tr> 
  </tbody> 
@@ -864,7 +864,7 @@ Le bouton Ajouter une autre adresse électronique permet à un utilisateur d’a
 
 >[!NOTE]
 >
->Ce bouton prend en charge `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
 L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 
@@ -905,7 +905,7 @@ Le bouton Supprimer permet à un utilisateur de supprimer des adresses suppléme
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogremoveemailbutton
 ```
 
-**Propriétés CSS de la boîte de dialogue Bouton Supprimer le courrier électronique**
+**Propriétés CSS de la boîte de dialogue Supprimer le bouton de courrier électronique**
 
 <table id="table_79E4C65741E64859B9C9E9DCCB3D050B"> 
  <tbody> 
@@ -922,7 +922,7 @@ Le bouton Supprimer permet à un utilisateur de supprimer des adresses suppléme
    <td colname="col2"> <p>Image de bouton pour chaque état. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -930,7 +930,7 @@ Le bouton Supprimer permet à un utilisateur de supprimer des adresses suppléme
 
 >[!NOTE]
 >
->Ce bouton prend en charge `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
 L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 
@@ -966,11 +966,11 @@ Propriétés **CSS du contenu de la boîte de dialogue **
 <table id="table_9C5CBFC2482E4A46BE837573B0B02FE4"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bordure </span> </p> </td> 
    <td colname="col2"> <p>Bordure du conteneur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p>Marge intérieure. </p> </td> 
   </tr> 
  </tbody> 
@@ -991,9 +991,9 @@ L’image miniature est contrôlée avec le sélecteur de classe CSS suivant :
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogthumbnail
 ```
 
-La variable `background-image` est définie par la logique du composant.
+La propriété `background-image` est définie par la logique du composant.
 
-**Propriétés CSS de la miniature de la boîte de dialogue**
+**Propriétés CSS de la boîte de dialogue miniature image**
 
 <table id="table_4C614FF2CEB149DAB5B7D7BC38CD3CAE"> 
  <tbody> 
@@ -1006,11 +1006,11 @@ La variable `background-image` est définie par la logique du composant.
    <td colname="col2"> <p>Hauteur de la miniature. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> alignement vertical </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> - Alignement vertical </span> </p> </td> 
    <td colname="col2"> <p>Miniature d’alignement vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p>Marge intérieure. </p> </td> 
   </tr> 
  </tbody> 
@@ -1033,7 +1033,7 @@ Le titre, l’origine et la description du contenu sont ensuite regroupés dans 
 .s7ecatalogsearchviewer .s7emaildialog .s7dialoginfopanel
 ```
 
-**Propriétés CSS du panneau d’informations de la boîte de dialogue**
+**Propriétés CSS du panneau d’informations de boîte de dialogue**
 
 <table id="table_EDFA6229D8C3468E989E7EC05F23EF3B"> 
  <tbody> 
@@ -1058,7 +1058,7 @@ Le titre du contenu est contrôlé à l’aide du sélecteur de classe CSS suiva
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogtitle
 ```
 
-**Propriétés CSS du titre de la boîte de dialogue**
+**Propriétés CSS de la boîte de dialogue title**
 
 <table id="table_E83C149E66EC474092DF8A180DA9A550"> 
  <tbody> 
@@ -1171,7 +1171,7 @@ Lorsqu’un utilisateur saisit des données d’entrée incorrectes et que la va
 .s7ecatalogsearchviewer .s7emaildialog .s7dialogerrormessage
 ```
 
-**Propriétés CSS du message d’erreur de la boîte de dialogue**
+**Propriétés CSS du message d’erreur de boîte de dialogue**
 
 <table id="table_C114E1004C334D339C25A3438E8E6614"> 
  <tbody> 
@@ -1180,7 +1180,7 @@ Lorsqu’un utilisateur saisit des données d’entrée incorrectes et que la va
    <td colname="col2"> <p> Icône Erreur. La valeur par défaut est un point d’exclamation. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position de l’icône d’erreur dans la zone de message. </p> </td> 
   </tr> 
   <tr> 
@@ -1204,7 +1204,7 @@ Lorsqu’un utilisateur saisit des données d’entrée incorrectes et que la va
    <td colname="col2"> <p> Hauteur du texte dans le message. Affecte l’alignement vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p>Marge intérieure. </p> </td> 
   </tr> 
  </tbody> 
@@ -1212,7 +1212,7 @@ Lorsqu’un utilisateur saisit des données d’entrée incorrectes et que la va
 
 >[!NOTE]
 >
->Ce message prend en charge la variable `state` sélecteur d’attributs avec les valeurs possibles suivantes : `verifyerror`, `senderror`, et `sendsuccess`. La valeur `verifyerror` est défini lorsqu’un message s’affiche en raison d’un échec de validation d’entrée en ligne. La valeur `senderror` est définie lorsqu’un service de messagerie principal signale une erreur. La valeur `sendsuccess` est définie lorsque l’email est envoyé avec succès. Il est ainsi possible de mettre le message dans un style différent en fonction de l’état de la boîte de dialogue.
+>Ce message prend en charge le sélecteur d’attributs `state` avec les valeurs possibles suivantes : `verifyerror`, `senderror` et `sendsuccess`. La valeur `verifyerror` est définie lorsqu’un message s’affiche en raison d’un échec de validation d’entrée en ligne. La valeur `senderror` est définie lorsqu’un service de messagerie principal signale une erreur. La valeur `sendsuccess` est définie lorsque l’email est envoyé avec succès. Il est ainsi possible de mettre le message dans un style différent en fonction de l’état de la boîte de dialogue.
 
 L’info-bulle de bouton peut être localisée.
 
@@ -1290,7 +1290,7 @@ L’aspect de la zone de barre de défilement est contrôlé à l’aide du sél
    <td colname="col2"> <p> Décalage de la barre de défilement verticale à partir du bas du panneau de défilement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> droit </span> </p> </td> 
    <td colname="col2"> <p> Décalage de la barre de défilement horizontale à partir du bord droit du panneau de défilement. </p> </td> 
   </tr> 
  </tbody> 
@@ -1322,7 +1322,7 @@ Le suivi de la barre de défilement est la zone entre les boutons de défilement
    <td colname="col2"> <p>Largeur du suivi. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Couleur d’arrière-plan du suivi. </p> </td> 
   </tr> 
  </tbody> 
@@ -1356,11 +1356,11 @@ La barre de défilement se déplace verticalement dans une zone de suivi de déf
    <td colname="col2"> <p>La hauteur du pouce. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-top </span> </p> </td> 
    <td colname="col2"> <p> Marge intérieure verticale entre le haut de la piste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-bottom </span> </p> </td> 
    <td colname="col2"> <p> Marge intérieure verticale entre le bas de la piste. </p> </td> 
   </tr> 
   <tr> 
@@ -1368,7 +1368,7 @@ La barre de défilement se déplace verticalement dans une zone de suivi de déf
    <td colname="col2"> <p>Image affichée pour un état de pouce donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -1376,7 +1376,7 @@ La barre de défilement se déplace verticalement dans une zone de suivi de déf
 
 >[!NOTE]
 >
->Le curseur prend en charge `state` le sélecteur d’attributs, qui peut être utilisé pour appliquer différents habillages à différents états de pouce : `up`, `down`, `over`, et `disabled`.
+>La miniature prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de miniature : `up`, `down`, `over` et `disabled`.
 
 Exemple : pour configurer une barre de défilement de 28 x 45 pixels, avec une marge de dix pixels en haut et en bas et une illustration différente pour chaque état :
 
@@ -1411,7 +1411,7 @@ L’aspect des boutons de défilement haut et bas est contrôlé à l’aide des
 .s7ecatalogsearchviewer .s7emaildialog .s7scrollbar .s7scrolldownbutton
 ```
 
-Il n’est pas possible de positionner des boutons de défilement à l’aide de CSS `top`, `left`, `bottom`, et `right` propriétés. La logique de la visionneuse les positionne automatiquement.
+Il n’est pas possible de positionner les boutons de défilement à l’aide des propriétés CSS `top`, `left`, `bottom` et `right`. La logique de la visionneuse les positionne automatiquement.
 
 **Propriétés CSS des boutons de défilement haut et bas**
 
@@ -1430,7 +1430,7 @@ Il n’est pas possible de positionner des boutons de défilement à l’aide de
    <td colname="col2"> <p>Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -1438,7 +1438,7 @@ Il n’est pas possible de positionner des boutons de défilement à l’aide de
 
 >[!NOTE]
 >
->Ces boutons prennent en charge les `state` le sélecteur d’attributs, qui peut être utilisé pour appliquer différents habillages à différents états de bouton : `up`, `down`, `over`, et `disabled`.
+>Ces boutons prennent en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de boutons : `up`, `down`, `over` et `disabled`.
 
 L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 

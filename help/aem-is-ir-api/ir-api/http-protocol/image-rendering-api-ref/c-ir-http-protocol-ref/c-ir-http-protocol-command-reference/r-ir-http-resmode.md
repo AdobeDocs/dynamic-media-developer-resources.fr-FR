@@ -8,13 +8,13 @@ exl-id: 0926dcfe-881c-4b52-b08d-c56afa0ba04d
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
 # resMode{#resmode}
 
-Mode Rééchantillonnage. Sélection de l’algorithme de rééchantillonnage et/ou d’interpolation à utiliser pour mettre à l’échelle l’image rendue selon la taille spécifiée avec `wid=`, `hei=`ou `scl=`.
+Mode Rééchantillonnage. Sélectionne l’algorithme de rééchantillonnage et/ou d’interpolation à utiliser pour mettre à l’échelle l’image rendue à la taille spécifiée avec `wid=`, `hei=` ou `scl=`.
 
 ` `resMode=bilin|bicub|sharp2|bisharp&quot;
 
@@ -34,7 +34,7 @@ Mode Rééchantillonnage. Sélection de l’algorithme de rééchantillonnage et
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bisharp </span> </p> </td> 
-   <td colname="col2"> <p>Sélectionne la variable <span class="keyword"> Adobe Photoshop </span> rééchantillonneur par défaut pour réduire la taille de l’image appelée "plus net bicubique" dans <span class="keyword"> Adobe Photoshop </span>. </p> </td> 
+   <td colname="col2"> <p>Sélectionne le rééchantillonneur par défaut <span class="keyword"> Adobe Photoshop </span> pour réduire la taille de l’image, appelé "plus net bicubique" dans <span class="keyword"> Adobe Photoshop </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

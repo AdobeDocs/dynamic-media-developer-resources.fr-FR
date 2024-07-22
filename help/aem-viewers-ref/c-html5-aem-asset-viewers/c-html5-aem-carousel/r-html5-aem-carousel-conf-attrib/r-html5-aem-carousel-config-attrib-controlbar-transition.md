@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 260a1767-e49a-46e3-9c3d-23efa5c3228e
 source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 4%
+source-wordcount: '123'
+ht-degree: 1%
 
 ---
 
@@ -16,20 +16,20 @@ ht-degree: 4%
 
 Attribut de configuration de la visionneuse de carrousel.
 
-` [ControlBar.|<containerId>_controlBar.]transition=none|fade[, *``*[, *`delaytohideduration`*]`
+` [ControlBar.|<containerId>_controlBar.]transition=none|fade[, *`delaytohide`*[, *`duration`*]`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|fade</span> </p> </td> 
-   <td colname="col2"> <p> Indique le type d’effet utilisé pour afficher ou masquer la barre de contrôle et son contenu. </p> <p>Définissez cette variable sur <span class="codeph"> none</span> pour l’affichage/le masquage instantanés. </p> <p>Définissez cette variable sur <span class="codeph"> fondu</span> pour fournir un effet de fondu progressif dans/hors. </p> </td> 
+   <td colname="col2"> <p> Indique le type d’effet utilisé pour afficher ou masquer la barre de contrôle et son contenu. </p> <p>Définissez cette variable sur <span class="codeph"> none</span> pour l’affichage/le masquage instantanés. </p> <p>Définissez cette variable sur <span class="codeph"> fondu </span> pour fournir un effet de fondu progressif en entrée/sortie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> delaytohide</span></span> </p> </td> 
-   <td colname="col2"> <p> Indique la durée en secondes entre le dernier événement de souris/touche enregistré par la barre de contrôle et la barre de contrôle de l’heure se masque. </p> <p>S’il est défini sur <span class="codeph"> -1</span>, le composant ne déclenche jamais son effet de masquage automatique et reste donc toujours visible à l’écran. </p> </td> 
+   <td colname="col2"> <p> Indique la durée en secondes entre le dernier événement de souris/touche enregistré par la barre de contrôle et la barre de contrôle de l’heure se masque. </p> <p>Si elle est définie sur <span class="codeph"> -1</span>, le composant ne déclenche jamais son effet de masquage automatique et reste donc toujours visible à l’écran. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> durée</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> duration</span></span> </p> </td> 
    <td colname="col2"> <p> Définit la durée de l’animation de fondu en entrée/sortie en secondes. </p> </td> 
   </tr> 
  </tbody> 

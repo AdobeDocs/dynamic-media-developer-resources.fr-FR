@@ -22,11 +22,11 @@ Toutes les fonctionnalités exposées dans l’interface de la visionneuse à 36
 
 Toutes les fonctionnalités exposées dans l’interface de la visionneuse à 360°, Zoom de base, Catalogue électronique, Recherche catalogue électronique, Fenêtre déroulante, Zoom intégré, Média mixte, Rotation, Vidéo, Zoom, Carrousel, Dimensionnel (3D), Image interactive, Vidéo interactive et Vidéo 360 sont accessibles au clavier.
 
-Un utilisateur final peut naviguer entre les éléments de l’interface utilisateur de la visionneuse à l’aide de **[!UICONTROL Onglet]** et **[!UICONTROL Maj+Tab]** touches. Utilisation **[!UICONTROL Onglet]** insère la mise au point de l’entrée sur l’élément d’interface utilisateur suivant dans l’ordre de tabulation ; using **[!UICONTROL Maj+Tab]** rétablit la mise au point des entrées sur l’élément d’interface utilisateur précédent. La traversée de sélection suit l’emplacement de l’élément d’interface utilisateur naturel à l’écran et se déplace de gauche à droite, puis de haut en bas.
+Un utilisateur final peut naviguer entre les éléments de l’interface utilisateur de la visionneuse à l’aide des touches **[!UICONTROL Tab]** et **[!UICONTROL Maj+Tab]**. L’utilisation de **[!UICONTROL Tab]** permet d’activer la cible d’action sur l’élément d’interface utilisateur suivant dans l’ordre de tabulation ; l’utilisation de **[!UICONTROL Maj+Tab]** rétablit la cible d’action sur l’élément d’interface utilisateur précédent. La traversée de sélection suit l’emplacement de l’élément d’interface utilisateur naturel à l’écran et se déplace de gauche à droite, puis de haut en bas.
 
 Selon les paramètres du système d’exploitation et du navigateur web, l’élément d’interface utilisateur qui a le focus d’entrée reçoit une indication visuelle de focus. Par exemple, l’indicateur visuel peut être une bordure mince générée autour de l’élément d’interface utilisateur.
 
-Il est possible de désactiver ou de personnaliser cette mise en surbrillance dans le CSS de la visionneuse. Dans la table des matières de ce système d’aide, sous un nom de visionneuse spécifique (par exemple, Zoom de base ou Vidéo interactive), cliquez sur **Personnalisation *nom de la visionneuse*** >** Mise en évidence de la cible **.
+Il est possible de désactiver ou de personnaliser cette mise en surbrillance dans le CSS de la visionneuse. Dans la table des matières de ce système d’aide, sous un nom de visionneuse spécifique (par exemple, Zoom de base ou Vidéo interactive), cliquez sur **Personnaliser *nom de la visionneuse*** >** Mise en évidence du focus **.
 
 Les touches prises en charge par les éléments de l’interface utilisateur de la visionneuse individuelle sont, dans la plupart des cas, évidentes et faciles à découvrir.
 
@@ -60,7 +60,7 @@ Les touches prises en charge par les éléments de l’interface utilisateur de 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Sélection de l’échantillon de produit </p> </td> 
-   <td colname="col2"> <p>Touche fléchée Haut, Bas, Gauche ou Droite ; Clé d’accueil ou de fin. </p> </td> 
+   <td colname="col2"> <p>Touche fléchée Haut, Bas, Gauche ou Droite ; touche Accueil ou Fin. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Activation de l’échantillon de produit </p> </td> 
@@ -68,7 +68,7 @@ Les touches prises en charge par les éléments de l’interface utilisateur de 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Vidéo et vidéo interactive, retour progressif </p> </td> 
-   <td colname="col2"> <p>Flèche vers la gauche ou vers le haut. </p> </td> 
+   <td colname="col2"> <p>Touche fléchée gauche ou haut. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Vidéo et vidéo interactive, avance rapide </p> </td> 
@@ -79,8 +79,8 @@ Les touches prises en charge par les éléments de l’interface utilisateur de 
    <td colname="col2"> <p>Clé d’accueil ou de fin, respectivement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Vidéo et vidéo interactive, contrôle le niveau du volume lorsque la mise au point est effectuée sur le curseur </p> </td> 
-   <td colname="col2"> <p>Touche fléchée Haut, Bas, Gauche ou Droite ; Clé d’accueil ou de fin. </p> </td> 
+   <td colname="col1"> <p>Vidéo et vidéo interactive, contrôle le niveau du volume lorsque la sélection est effectuée sur le curseur </p> </td> 
+   <td colname="col2"> <p>Touche fléchée Haut, Bas, Gauche ou Droite ; touche Accueil ou Fin. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Vidéo et vidéo interactive, volume modifiable </p> </td> 
@@ -96,7 +96,7 @@ Les touches prises en charge par les éléments de l’interface utilisateur de 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Activation du carrousel, de la sélection de zones réactives et de la zone réactive </p> </td> 
-   <td colname="col2"> <p>Sélection de zone réactive : touche fléchée Haut, Bas, Gauche ou Droite </p> <p>Activation des zones réactives : Appuyez ou appuyez sur la touche Entrée. </p> </td> 
+   <td colname="col2"> <p>Sélection de zones réactives : touche fléchée haut, bas, gauche ou droite </p> <p>Activation des zones réactives : touche Space ou Enter . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Catalogue électronique, modifiez l’image de la page dans la vue principale. </p> </td> 
@@ -104,7 +104,7 @@ Les touches prises en charge par les éléments de l’interface utilisateur de 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Catalogue électronique, sélection de miniatures </p> </td> 
-   <td colname="col2"> <p>Touches fléchées ; Clé d’accueil et de fin. </p> </td> 
+   <td colname="col2"> <p>Touches fléchées, touches Accueil et Fin. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Catalogue électronique, activation d’échantillon </p> </td> 
@@ -120,14 +120,14 @@ Les touches prises en charge par les éléments de l’interface utilisateur de 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Catalogue électronique, activation des composants déroulants </p> </td> 
-   <td colname="col2"> <p> Touche fléchée Bas ; Espacement ou touche Entrée. </p> </td> 
+   <td colname="col2"> <p> Touche Flèche vers le bas, espace ou touche Entrée. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Catalogue électronique, lorsque la cible d’action se trouve dans le panneau déroulant </p> </td> 
    <td colname="col2"> <p>Utilisez les touches fléchées pour sélectionner un élément spécifique du panneau avant de l’activer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Dans le catalogue électronique, lorsqu’une boîte de dialogue modale s’affiche, la traversée de sélection se limite aux commandes de boîte de dialogue uniquement. </p> </td> 
+   <td colname="col1"> <p>Dans le catalogue électronique, lorsqu’une boîte de dialogue modale s’affiche, la traversée de la cible d’action se limite uniquement aux commandes de boîte de dialogue. </p> </td> 
    <td colname="col2"> <p>Touche Échap pour fermer la boîte de dialogue. </p> </td> 
   </tr> 
  </tbody> 

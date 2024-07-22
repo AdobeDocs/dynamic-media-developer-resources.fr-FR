@@ -8,7 +8,7 @@ exl-id: 63c1c028-0378-4a38-8018-e358491786d8
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
 source-wordcount: '262'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
@@ -22,7 +22,7 @@ Mode Rééchantillonnage. Choisit l’algorithme de rééchantillonnage et/ou d�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bilin </span> </p> </td> 
-   <td colname="col2"> <p>Sélection de l’interpolation binaire standard. méthode de rééchantillonnage la plus rapide; certains artefacts de crénelage sont visibles. </p> </td> 
+   <td colname="col2"> <p>Sélection de l’interpolation binaire standard. Méthode de rééchantillonnage la plus rapide ; certains artefacts de crénelage sont visibles. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bicub </span> </p> </td> 
@@ -41,7 +41,7 @@ Mode Rééchantillonnage. Choisit l’algorithme de rééchantillonnage et/ou d�
 
 >[!IMPORTANT]
 >
->Pour conserver les proportions d’une image lorsque vous utilisez les deux `resMode=bisharp` et `fit=stretch`, il est recommandé d’utiliser le paramètre de largeur ou de hauteur. Si les deux paramètres doivent être définis, vous pouvez les encapsuler dans un autre calque, comme illustré dans l’exemple suivant :
+>Pour conserver les proportions d’une image lorsque vous utilisez à la fois `resMode=bisharp` et `fit=stretch`, il est recommandé d’utiliser le paramètre de largeur ou de hauteur. Si les deux paramètres doivent être définis, vous pouvez les encapsuler dans un autre calque, comme illustré dans l’exemple suivant :
 >
 >`/is/image/is/image/companyname?layer=0&src=is(companyname/imagename?wid=30&hei=30&fit=stretch)&resmode=bisharp`
 

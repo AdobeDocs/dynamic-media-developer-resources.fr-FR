@@ -8,7 +8,7 @@ exl-id: 0a1f80f5-5b49-4d2b-9bab-74d1e7c000a4
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '43'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
 
@@ -27,7 +27,7 @@ Sélecteur de matériaux de décoration. Démarre un segment de spécification d
 
 ## Propriétés {#section-4f975f78869e4c829c30cf3ca7646539}
 
-la commande Sélection; Délimiteur MSS.
+Commande de sélection ; délimiteur MSS.
 
 ## Par défaut {#section-b00e6ad9313a4341a6bb4e77c826bc15}
 

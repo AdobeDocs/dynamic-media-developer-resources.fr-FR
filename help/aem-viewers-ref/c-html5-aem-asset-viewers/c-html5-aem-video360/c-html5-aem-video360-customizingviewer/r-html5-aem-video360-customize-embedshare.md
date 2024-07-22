@@ -24,7 +24,7 @@ L’aspect du bouton d’intégration du partage est contrôlé à l’aide du s
 .s7video360viewer .s7embedshare
 ```
 
-**Propriétés CSS de l’outil de partage intégré**
+**Propriétés CSS de l’outil de partage incorporé**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -41,7 +41,7 @@ L’aspect du bouton d’intégration du partage est contrôlé à l’aide du s
    <td colname="col2"> <p> Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -49,9 +49,9 @@ L’aspect du bouton d’intégration du partage est contrôlé à l’aide du s
 
 >[!NOTE]
 >
->Ce bouton prend en charge `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
-Il est possible de supprimer le bouton du panneau Partage sur les réseaux sociaux en définissant `display:none` Propriété CSS sur sa classe CSS.
+Il est possible de supprimer le bouton du panneau Partage sur les réseaux sociaux en définissant la propriété CSS `display:none` sur sa classe CSS.
 
 L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) pour plus d’informations.
 
@@ -91,13 +91,13 @@ La superposition en arrière-plan qui couvre la page web lorsque la boîte de di
    <td colname="col2"> <p>Opacité du recouvrement en arrière-plan. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Couleur de superposition de l’arrière-plan. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exemple** - pour configurer une superposition d’arrière-plan en gris avec une opacité de 70 % :
+**Exemple** : pour configurer une superposition d’arrière-plan en gris avec une opacité de 70 % :
 
 ```
 .s7video360viewer .s7embeddialog .s7backoverlay { 
@@ -121,7 +121,7 @@ Par défaut, la boîte de dialogue modale s’affiche centrée dans l’écran s
    <td colname="col2"> <p> Rayon de bordure de la boîte de dialogue, au cas où la boîte de dialogue ne prendrait pas l’intégralité du navigateur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Couleur de fond de la boîte de dialogue. </p> </td> 
   </tr> 
   <tr> 
@@ -135,7 +135,7 @@ Par défaut, la boîte de dialogue modale s’affiche centrée dans l’écran s
  </tbody> 
 </table>
 
-**Exemple** - pour configurer la boîte de dialogue afin d’utiliser toute la fenêtre du navigateur et d’avoir un arrière-plan blanc sur les appareils tactiles :
+**Exemple** : pour configurer la boîte de dialogue afin d’utiliser toute la fenêtre du navigateur et d’avoir un arrière-plan blanc sur les appareils tactiles :
 
 ```
 .s7video360viewer .s7touchinput .s7embeddialog .s7dialog { 
@@ -151,12 +151,12 @@ L’en-tête de la boîte de dialogue se compose d’une icône, d’un texte de
 .s7video360viewer .s7embeddialog .s7dialogheader
 ```
 
-**Propriétés CSS de l’en-tête de la boîte de dialogue**
+**Propriétés CSS de l’en-tête de boîte de dialogue**
 
 <table id="table_E407E844C9BD4B5DA8B5BBDE0554F9CA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p> Marge intérieure du contenu de l’en-tête. </p> </td> 
   </tr> 
  </tbody> 
@@ -168,12 +168,12 @@ L’icône et le texte du titre sont placés dans un conteneur supplémentaire c
 .s7video360viewer .s7embeddialog .s7dialogheader .s7dialogline
 ```
 
-**Propriétés CSS de la ligne de dialogue**
+**Propriétés CSS de la ligne de boîte de dialogue**
 
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p> Marge intérieure de l’icône et du titre de l’en-tête </p> </td> 
   </tr> 
  </tbody> 
@@ -185,7 +185,7 @@ L’icône d’en-tête est contrôlée avec le sélecteur de classe CSS suivant
 .s7video360viewer .s7embeddialog .s7dialogheadericon
 ```
 
-**Propriétés CSS de l’icône d’en-tête de la boîte de dialogue**
+**Propriétés CSS de l’icône d’en-tête de boîte de dialogue**
 
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
@@ -202,7 +202,7 @@ L’icône d’en-tête est contrôlée avec le sélecteur de classe CSS suivant
    <td colname="col2"> <p>Image de l’icône. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -231,7 +231,7 @@ Le titre d’en-tête est contrôlé à l’aide du sélecteur de classe CSS sui
    <td colname="col2"> <p>Famille de polices. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p>Marge intérieure du texte interne. </p> </td> 
   </tr> 
  </tbody> 
@@ -252,7 +252,7 @@ Propriétés **CSS du bouton de fermeture **
    <td colname="col2"> <p> Position verticale des boutons par rapport au conteneur d’en-tête. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> droit </span> </p> </td> 
    <td colname="col2"> <p> Position du bouton horizontal par rapport au conteneur d’en-tête. </p> </td> 
   </tr> 
   <tr> 
@@ -264,7 +264,7 @@ Propriétés **CSS du bouton de fermeture **
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p>Marge intérieure du bouton. </p> </td> 
   </tr> 
   <tr> 
@@ -272,7 +272,7 @@ Propriétés **CSS du bouton de fermeture **
    <td colname="col2"> <p>Image de bouton pour chaque état. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -280,11 +280,11 @@ Propriétés **CSS du bouton de fermeture **
 
 >[!NOTE]
 >
->Ce bouton prend en charge `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
 L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) pour plus d’informations.
 
-**Exemple** - Pour configurer l’en-tête de la boîte de dialogue avec la marge intérieure, une icône de 24 x 14 pixels et un titre de 16 points en gras. Enfin, un bouton Fermer de 28 x 28 pixels, positionné deux pixels du haut, et deux pixels à droite du conteneur de la boîte de dialogue :
+**Exemple** - Pour configurer l’en-tête de la boîte de dialogue avec marge intérieure, une icône de 24 x 14 pixels et un titre de 16 points en gras. Enfin, un bouton Fermer de 28 x 28 pixels, positionné deux pixels du haut, et deux pixels à droite du conteneur de la boîte de dialogue :
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogheader { 
@@ -335,7 +335,7 @@ Propriétés **CSS du pied de page de la boîte de dialogue **
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bordure </span> </p> </td> 
    <td colname="col2"> <p> Bordure permettant de séparer visuellement le pied de page du reste de la boîte de dialogue. </p> </td> 
   </tr> 
  </tbody> 
@@ -347,12 +347,12 @@ Le pied de page comporte un conteneur interne qui conserve le bouton. Il est con
 .s7video360viewer .s7embeddialog .s7dialogbuttoncontainer
 ```
 
-**Propriétés CSS du conteneur de boutons de la boîte de dialogue**
+**Propriétés CSS du conteneur de boutons de boîte de dialogue**
 
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p> Marge intérieure entre le pied de page et le bouton. </p> </td> 
   </tr> 
  </tbody> 
@@ -383,7 +383,7 @@ Ce bouton n’est disponible que sur les ordinateurs de bureau.
    <td colname="col2"> <p> Couleur de texte des boutons pour chaque état. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan du bouton pour chaque état. </p> </td> 
   </tr> 
  </tbody> 
@@ -391,7 +391,7 @@ Ce bouton n’est disponible que sur les ordinateurs de bureau.
 
 >[!NOTE]
 >
->Le bouton Tout sélectionner prend en charge la variable `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Le bouton Sélectionner tout prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
 Le bouton Annuler est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
@@ -399,7 +399,7 @@ Le bouton Annuler est contrôlé à l’aide du sélecteur de classe CSS suivant
 .s7video360viewer .s7embeddialog .s7dialogcancelbutton
 ```
 
-**Propriétés CSS du bouton Annuler de la boîte de dialogue**
+**Propriétés CSS de la boîte de dialogue Bouton d’annulation**
 
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
@@ -416,7 +416,7 @@ Le bouton Annuler est contrôlé à l’aide du sélecteur de classe CSS suivant
    <td colname="col2"> <p> Couleur de texte des boutons pour chaque état. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan du bouton pour chaque état. </p> </td> 
   </tr> 
  </tbody> 
@@ -424,7 +424,7 @@ Le bouton Annuler est contrôlé à l’aide du sélecteur de classe CSS suivant
 
 >[!NOTE]
 >
->Ce bouton prend en charge `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
 En outre, les deux boutons partagent une classe CSS commune, qui peut contenir des paramètres CSS identiques pour les autres boutons de boîte de dialogue :
 
@@ -465,7 +465,7 @@ En outre, les deux boutons partagent une classe CSS commune, qui peut contenir d
 
 L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) pour plus d’informations.
 
-**Exemple** - pour configurer un pied de page de boîte de dialogue avec un bouton Annuler 64 x 34, avec une couleur de texte et une couleur d’arrière-plan différentes pour chaque état de bouton :
+**Exemple** : pour configurer un pied de page de boîte de dialogue avec un bouton Annuler 64 x 34, avec une couleur de texte et une couleur d’arrière-plan différentes pour chaque état de bouton :
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogfooter { 
@@ -540,7 +540,7 @@ Propriétés **CSS de la zone d’affichage de la boîte de dialogue **
    <td colname="col2"> <p> Hauteur de la zone de boîte de dialogue principale. Elle doit être spécifiée uniquement lorsque la boîte de dialogue fonctionne en mode bureau. Cela ne s’applique pas lorsque la boîte de dialogue est dimensionnée pour occuper toute la fenêtre du navigateur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Couleur d’arrière-plan de la zone de boîte de dialogue principale. </p> </td> 
   </tr> 
   <tr> 
@@ -550,7 +550,7 @@ Propriétés **CSS de la zone d’affichage de la boîte de dialogue **
  </tbody> 
 </table>
 
-**Exemple** - pour configurer une zone de boîte de dialogue principale d’une hauteur de 300 pixels, définissez une marge de dix pixels et utilisez un arrière-plan blanc :
+**Exemple** : pour configurer une zone de boîte de dialogue principale d’une hauteur de 300 pixels, d’une marge de dix pixels et d’un arrière-plan blanc :
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogviewarea { 
@@ -573,13 +573,13 @@ Propriétés **CSS du corps de la boîte de dialogue **
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p>Marge intérieure. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exemple** - pour configurer le contenu du formulaire avec une marge intérieure de dix pixels :
+**Exemple** : pour configurer le contenu du formulaire avec une marge intérieure de dix pixels :
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogbody { 
@@ -620,7 +620,7 @@ Propriétés **CSS du libellé de la boîte de dialogue. **
 
 Les libellés des boîtes de dialogue peuvent être localisés. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) pour plus d’informations.
 
-**Exemple** - pour configurer toutes les étiquettes en gris, en gras avec une police de neuf pixels :
+**Exemple** : pour configurer toutes les étiquettes en gris, en gras avec une police de neuf pixels :
 
 ```
 .s7video360viewer .s7embeddialog .s7dialoglabel { 
@@ -645,13 +645,13 @@ La taille de la copie de texte affichée en haut du code incorporé est contrôl
    <td colname="col2"> <p>Largeur du champ de saisie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p>Marge intérieure. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exemple** - pour définir la copie de texte sur 430 pixels de large et une marge intérieure de dix pixels en bas :
+**Exemple** : pour définir la copie de texte sur 430 pixels de large et une marge intérieure de dix pixels en bas :
 
 ```
 .s7video360viewer .s7embeddialog .s7dialoginputwide { 
@@ -666,7 +666,7 @@ Le code incorporé est encapsulé dans un conteneur et contrôlé à l’aide du
 .s7video360viewer .s7embeddialog .s7dialoginputcontainer
 ```
 
-**Propriétés CSS du conteneur d’entrée de la boîte de dialogue**
+**Propriétés CSS du conteneur d’entrée de boîte de dialogue**
 
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
@@ -675,17 +675,17 @@ Le code incorporé est encapsulé dans un conteneur et contrôlé à l’aide du
    <td colname="col2"> <p>Largeur du conteneur de code incorporé. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bordure </span> </p> </td> 
    <td colname="col2"> <p>Bordure autour du conteneur de code incorporé. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p>Marge intérieure. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exemple** - pour définir une bordure grise d’un pixel autour du texte du code incorporé, faites-la 430 pixels de large et ajoutez une marge intérieure de dix pixels :
+**Exemple** : pour définir une bordure grise d’un pixel autour du texte du code incorporé, faites-la 430 pixels de large et faites dix pixels de remplissage :
 
 ```
 .s7video360viewer .s7embeddialog .s7dialoginputcontainer { 
@@ -701,7 +701,7 @@ Le texte du code incorporé réel est contrôlé à l’aide du sélecteur de cl
 .s7video360viewer .s7embeddialog .s7dialoginputcontainer
 ```
 
-**Propriétés CSS du conteneur d’entrée de la boîte de dialogue**
+**Propriétés CSS du conteneur d’entrée de boîte de dialogue**
 
 <table id="table_FEEF66150C69489BB42A2408EBFCE928"> 
  <tbody> 
@@ -712,7 +712,7 @@ Le texte du code incorporé réel est contrôlé à l’aide du sélecteur de cl
  </tbody> 
 </table>
 
-**Exemple** - Pour configurer le code incorporé à utiliser `break-word` retour à la ligne :
+**Exemple** - Pour configurer le code incorporé de manière à utiliser l’encapsulage de mots `break-word` :
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogmessage { 
@@ -726,18 +726,18 @@ Le libellé de taille d’incorporation et le menu déroulant se trouvent au bas
 .s7video360viewer .s7embeddialog .s7dialogembedsizepanel
 ```
 
-**Propriétés CSS du panneau Taille de la boîte de dialogue intégrée**
+**Propriétés CSS du panneau de taille d’intégration de boîte de dialogue**
 
 <table id="table_6BA2769361BA4EC4AB7D250EC9486CB2"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p>Marge intérieure. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exemple** - pour configurer un panneau de taille d’intégration afin qu’il ait dix pixels de remplissage :
+**Exemple** : pour configurer un panneau de taille d’intégration afin qu’il ait dix pixels de remplissage :
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogembedsizepanel { 
@@ -751,12 +751,12 @@ La taille et l’alignement du libellé de taille d’intégration sont contrôl
 .s7video360viewer .s7embeddialog .s7dialogembedsizepanel
 ```
 
-**Propriétés CSS du panneau Taille de la boîte de dialogue intégrée**
+**Propriétés CSS du panneau de taille d’intégration de boîte de dialogue**
 
 <table id="table_8E50C63C9B1349999251CDB5E5AD3D1D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> alignement vertical </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> - Alignement vertical </span> </p> </td> 
    <td colname="col2"> <p>Alignement vertical des libellés. </p> </td> 
   </tr> 
   <tr> 
@@ -766,7 +766,7 @@ La taille et l’alignement du libellé de taille d’intégration sont contrôl
  </tbody> 
 </table>
 
-**Exemple** - pour définir le libellé de la taille d’intégration de sorte qu’il soit aligné en haut et de 80 pixels de large :
+**Exemple** : pour définir l’étiquette de taille d’intégration de sorte qu’elle soit alignée en haut et de 80 pixels de large :
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogembedsizelabel { 
@@ -794,9 +794,9 @@ La largeur de la zone combinée de taille d’intégration est contrôlée avec 
 
 >[!NOTE]
 >
->La zone de liste modifiable prend en charge la variable `expanded` sélecteur d’attributs avec les valeurs possibles de `true` et `false`. La variable `true` est utilisée lorsque la zone de liste modifiable affiche l’une des tailles incorporées prédéfinies. Elle doit donc prendre toute la largeur disponible. La variable `false` est utilisée lorsque l’option de taille personnalisée est sélectionnée dans la zone combinée. Elle doit donc être réduite pour libérer de l’espace pour les champs de saisie de largeur et de hauteur personnalisés.
+>La zone de liste modifiable prend en charge le sélecteur d’attributs `expanded` avec les valeurs possibles de `true` et `false`. La valeur `true` est utilisée lorsque la zone de liste modifiable affiche l’une des tailles incorporées prédéfinies. Elle doit donc prendre toute la largeur disponible. La valeur `false` est utilisée lorsque l’option de taille personnalisée est sélectionnée dans la zone combinée. Elle doit donc être réduite pour libérer de l’espace pour les champs de saisie de largeur et de hauteur personnalisés.
 
-**Exemple** - pour définir la zone combinée de taille d’intégration sur 300 pixels de large lors de l’affichage d’un élément prédéfini et 110 pixels de large lors de l’affichage d’une taille personnalisée :
+**Exemple** : pour définir la zone combinée de taille d’intégration sur 300 pixels de large lors de l’affichage d’un élément prédéfini et 110 pixels de large lors de l’affichage d’une taille personnalisée :
 
 ```
 .s7video360viewer .s7embeddialog .s7combobox[expanded="true"] { 
@@ -824,7 +824,7 @@ La hauteur du texte de zone combinée est définie par un élément interne spé
  </tbody> 
 </table>
 
-**Exemple** - pour définir la hauteur du texte de la zone combinée de taille d’intégration sur 40 pixels :
+**Exemple** : pour définir la hauteur de texte de zone combinée de taille d’intégration sur 40 pixels :
 
 ```
 .s7video360viewer .s7embeddialog .s7combobox .s7comboboxtext { 
@@ -847,7 +847,7 @@ La zone de liste modifiable comporte un bouton &quot;déroulant&quot; à droite 
    <td colname="col2"> <p>Position du bouton vertical à l’intérieur de la zone combinée. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> droit </span> </p> </td> 
    <td colname="col2"> <p>Position du bouton horizontal à l’intérieur de la zone combinée. </p> </td> 
   </tr> 
   <tr> 
@@ -863,7 +863,7 @@ La zone de liste modifiable comporte un bouton &quot;déroulant&quot; à droite 
    <td colname="col2"> <p>Image de bouton pour chaque état. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -871,9 +871,9 @@ La zone de liste modifiable comporte un bouton &quot;déroulant&quot; à droite 
 
 >[!NOTE]
 >
->Ce bouton prend en charge `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
-**Exemple** - pour définir un bouton déroulant de 28 x 28 pixels et disposer d’une image distincte pour chaque état :
+**Exemple** : pour définir un bouton de liste déroulante de 28 x 28 pixels et disposer d’une image distincte pour chaque état :
 
 ```
 .s7video360viewer .s7embeddialog .s7combobox .s7comboboxbutton { 
@@ -907,13 +907,13 @@ La taille et la position du panneau sont contrôlées par le composant. Il n’e
 <table id="table_FA7345321C6A4E63B4B78ECF81CE18DB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bordure </span> </p> </td> 
    <td colname="col2"> <p>Bordure du panneau. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exemple** - pour définir le panneau de zone combinée de sorte qu’il ait une bordure grise d’un pixel :
+**Exemple** : pour définir le panneau de zone combinée de sorte qu’il ait une bordure grise d’un pixel :
 
 ```
 .s7video360viewer .s7embeddialog .s7comboboxdropdown { 
@@ -932,13 +932,13 @@ Un seul élément d’un panneau déroulant contrôlé à l’aide du sélecteur
 <table id="table_FD42FDD56F89463A97FD292FAA04DA5A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Arrière-plan des éléments. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exemple** - pour définir l’élément de panneau de zone combinée sur un arrière-plan blanc :
+**Exemple** : pour définir l’élément de panneau de zone combinée sur un arrière-plan blanc :
 
 ```
 .s7video360viewer .s7embeddialog .s7dropdownitemanchor { 
@@ -969,13 +969,13 @@ Coche affichée à gauche de l’élément sélectionné dans le panneau de zone
    <td colname="col2"> <p>Image de l’élément. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exemple** - pour définir l’icône de coche sur 25 x 25 pixels :
+**Exemple** : pour définir l’icône de coche sur 25 x 25 pixels :
 
 ```
 .s7video360viewer .s7embeddialog .s7checkmark { 
@@ -1002,7 +1002,7 @@ Lorsque l’option &quot;Taille personnalisée&quot; est sélectionnée dans la 
  </tbody> 
 </table>
 
-**Exemple** - pour définir la taille personnalisée du panneau des champs d’entrée sur 20 pixels à droite de la zone combinée :
+**Exemple** : pour définir le panneau des champs d’entrée de taille personnalisée sur 20 pixels à droite de la zone combinée :
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogcustomsizepanel { 
@@ -1016,12 +1016,12 @@ Chaque champ d’entrée de taille personnalisée est encapsulé dans un contene
 .s7video360viewer .s7embeddialog .s7dialogcustomsize
 ```
 
-**Propriétés CSS de la boîte de dialogue, taille personnalisée**
+**Propriétés CSS de la boîte de dialogue taille personnalisée**
 
 <table id="table_A8A04BE1988641618D0A412B8AEEE1C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bordure </span> </p> </td> 
    <td colname="col2"> <p>Bordure autour du champ de saisie. </p> </td> 
   </tr> 
   <tr> 
@@ -1033,13 +1033,13 @@ Chaque champ d’entrée de taille personnalisée est encapsulé dans un contene
    <td colname="col2"> <p> Marge du champ de saisie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p> Marge intérieure des champs de saisie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exemple** - Pour définir la taille personnalisée des champs d’entrée afin qu’ils aient une bordure grise d’un pixel, une marge, une marge intérieure et une largeur de 70 pixels :
+**Exemple** - Pour définir la taille personnalisée des champs d’entrée pour qu’ils aient une bordure grise d’un pixel, une marge, une marge intérieure et une largeur de 70 pixels :
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogcustomsize { 
@@ -1068,7 +1068,7 @@ Si un défilement vertical est nécessaire, la barre de défilement s’affiche 
  </tbody> 
 </table>
 
-**Exemple** - pour configurer un panneau de défilement d’une largeur de 44 pixels
+**Exemple** : configuration d’un panneau de défilement d’une largeur de 44 pixels
 
 ```
 .s7video360viewer .s7embeddialog .s7dialogscrollpanel { 
@@ -1099,13 +1099,13 @@ L’aspect de la zone de barre de défilement est contrôlé à l’aide du sél
    <td colname="col2"> <p> Décalage de la barre de défilement verticale à partir du bas du panneau de défilement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> droit </span> </p> </td> 
    <td colname="col2"> <p> Décalage de la barre de défilement horizontale à partir du bord droit du panneau de défilement. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exemple** - pour configurer une barre de défilement de 28 pixels de large et dont la marge de huit pixels se situe du haut, de la droite et du bas du panneau de défilement :
+**Exemple** : pour configurer une barre de défilement de 28 pixels de large et dont la marge de huit pixels se trouve en haut, à droite et au bas du panneau de défilement :
 
 ```
 .s7video360viewer .s7embeddialog .s7scrollbar { 
@@ -1122,7 +1122,7 @@ Le suivi de la barre de défilement est la zone entre les boutons de défilement
 .s7video360viewer .s7embeddialog .s7scrollbar .s7scrolltrack
 ```
 
-**Propriétés CSS de la barre de défilement**
+**Propriétés CSS de la barre de défilement track**
 
 <table id="table_19CF5503C1D34ED9998D4F4A6DA7D5D5"> 
  <tbody> 
@@ -1131,13 +1131,13 @@ Le suivi de la barre de défilement est la zone entre les boutons de défilement
    <td colname="col2"> <p>Largeur du suivi. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Suivi de la couleur de fond. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exemple** - pour configurer une piste de barre de défilement de 28 pixels de large et avec un arrière-plan gris :
+**Exemple** : pour configurer une piste de barre de défilement de 28 pixels de large et avec un arrière-plan gris :
 
 ```
 .s7video360viewer .s7embeddialog .s7scrollbar .s7scrolltrack { 
@@ -1165,11 +1165,11 @@ Le curseur de la barre de défilement se déplace verticalement dans une zone de
    <td colname="col2"> <p>Hauteur du pouce. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-top </span> </p> </td> 
    <td colname="col2"> <p>Marge intérieure verticale entre le haut de la piste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-bottom </span> </p> </td> 
    <td colname="col2"> <p> Marge intérieure verticale entre le bas de la piste. </p> </td> 
   </tr> 
   <tr> 
@@ -1177,7 +1177,7 @@ Le curseur de la barre de défilement se déplace verticalement dans une zone de
    <td colname="col2"> <p> Image affichée pour un état de pouce donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -1185,9 +1185,9 @@ Le curseur de la barre de défilement se déplace verticalement dans une zone de
 
 >[!NOTE]
 >
->Le curseur prend en charge `state` le sélecteur d’attributs, qui peut être utilisé pour appliquer différents habillages à différents états de pouce : `up`, `down`, `over`, et `disabled`.
+>La miniature prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de miniature : `up`, `down`, `over` et `disabled`.
 
-**Exemple** - pour configurer une barre de défilement de 28 x 45 pixels, avec une marge de dix pixels en haut et en bas et une illustration différente pour chaque état :
+**Exemple** : pour configurer un pouce de barre de défilement de 28 x 45 pixels, avec une marge de dix pixels en haut et en bas et une illustration différente pour chaque état :
 
 ```
 .s7video360viewer .s7embeddialog .s7scrollbar .s7scrollthumb { 
@@ -1220,7 +1220,7 @@ L’aspect des boutons de défilement haut et bas est contrôlé à l’aide des
 .s7video360viewer .s7embeddialog .s7scrollbar .s7scrolldownbutton
 ```
 
-Il n’est pas possible de positionner des boutons de défilement à l’aide de CSS `top`, `left`, `bottom`, et `right` propriétés. La logique de la visionneuse les positionne automatiquement.
+Il n’est pas possible de positionner les boutons de défilement à l’aide des propriétés CSS `top`, `left`, `bottom` et `right`. La logique de la visionneuse les positionne automatiquement.
 
 **Propriétés CSS des boutons de défilement haut et bas**
 
@@ -1239,7 +1239,7 @@ Il n’est pas possible de positionner des boutons de défilement à l’aide de
    <td colname="col2"> <p> Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -1247,11 +1247,11 @@ Il n’est pas possible de positionner des boutons de défilement à l’aide de
 
 >[!NOTE]
 >
->Ces boutons prennent en charge les `state` le sélecteur d’attributs, qui peut être utilisé pour appliquer différents habillages à différents états de bouton : `up`, `down`, `over`, et `disabled`.
+>Ces boutons prennent en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de boutons : `up`, `down`, `over` et `disabled`.
 
 Les info-bulles des boutons peuvent être localisées. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) pour plus d’informations.
 
-**Exemple** - pour configurer des boutons de défilement de 28 x 32 pixels et ayant des illustrations différentes pour chaque état :
+**Exemple** : pour configurer des boutons de défilement de 28 x 32 pixels et ayant une illustration différente pour chaque état :
 
 ```
 .s7video360viewer .s7embeddialog .s7scrollbar .s7scrollupbutton { 

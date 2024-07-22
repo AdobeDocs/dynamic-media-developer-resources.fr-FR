@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 25032917-237c-4227-92bd-ce66a6d003a0
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 2%
+source-wordcount: '904'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ L’aspect du conteneur de miniatures est contrôlé à l’aide du sélecteur d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> haut </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> Décalage vertical du conteneur de miniatures depuis le haut de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
@@ -51,13 +51,13 @@ L’aspect du conteneur de miniatures est contrôlé à l’aide du sélecteur d
    <td colname="col2"> <p>La marge inférieure. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Couleur d’arrière-plan de la zone des miniatures. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : pour configurer des miniatures avec un décalage de 32 pixels par rapport au haut, des marges de 5 pixels à gauche et à droite et une marge de 8 pixels au bas, avec un décalage de 32 pixels par rapport au haut `0xDDDDDD` en arrière-plan.
+Exemple : pour configurer des miniatures avec un décalage de 32 pixels par rapport au haut, des marges de 5 pixels à gauche et à droite et une marge de 8 pixels au bas, avec un arrière-plan `0xDDDDDD`.
 
 ```
 .s7ecatalogsearchviewer .s7thumbnailgridview { 
@@ -121,7 +121,7 @@ L’aspect des miniatures individuelles est contrôlé à l’aide du sélecteur
    <td colname="col2"> <p>Bordure de la miniature. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Couleur d’arrière-plan de la miniature. </p> </td> 
   </tr> 
  </tbody> 
@@ -131,7 +131,7 @@ Sur les appareils tactiles, lorsqu’ils sont pivotés en mode portrait, la visi
 
 >[!NOTE]
 >
->La miniature prend en charge le `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la miniature de l’image actuellement affichée dans la vue principale, `state="default"` correspond au reste des miniatures, et `state="over"` est utilisée lorsque vous pointez avec la souris.
+>La miniature prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la miniature de l’image actuellement affichée dans la vue principale, `state="default"` correspond au reste des miniatures et `state="over"` est utilisé au survol de la souris.
 
 Exemple : pour configurer des miniatures de 120 x 85 pixels, elles ont un arrière-plan blanc, une bordure standard en gris clair et une bordure sélectionnée en gris foncé.
 
@@ -196,15 +196,15 @@ S’il existe plus de miniatures que celles pouvant tenir verticalement dans la 
    <td colname="col2"> <p>Largeur de la barre de défilement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> haut </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> Décalage de la barre de défilement verticale par rapport au haut de la zone des miniatures. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bas </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p>Décalage de la barre de défilement verticale par rapport au bas de la zone des miniatures. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> droite </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> droit </span> </p> </td> 
    <td colname="col2"> <p> Décalage de la barre de défilement horizontale à partir du bord droit de la zone des miniatures. </p> </td> 
   </tr> 
  </tbody> 
@@ -238,7 +238,7 @@ La barre de défilement est la zone entre les boutons de défilement haut et bas
    <td colname="col2"> <p>Largeur de la barre de défilement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan du suivi de la barre de défilement. </p> </td> 
   </tr> 
  </tbody> 
@@ -274,11 +274,11 @@ La barre de défilement se déplace verticalement dans la zone de suivi de défi
    <td colname="col2"> <p>Hauteur de la miniature de la barre de défilement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-top </span> </p> </td> 
    <td colname="col2"> <p>Marge intérieure verticale entre le haut de la barre de défilement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-bottom </span> </p> </td> 
    <td colname="col2"> <p>Marge intérieure verticale entre le bas de la barre de défilement. </p> </td> 
   </tr> 
   <tr> 
@@ -286,7 +286,7 @@ La barre de défilement se déplace verticalement dans la zone de suivi de défi
    <td colname="col2"> <p>Image affichée pour un état de pouce donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -294,7 +294,7 @@ La barre de défilement se déplace verticalement dans la zone de suivi de défi
 
 >[!NOTE]
 >
->Le curseur prend en charge `state` le sélecteur d’attributs, qui peut être utilisé pour appliquer différents habillages aux états du curseur ; `up`, `down`, `over`, et `disabled`.
+>La miniature prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages aux états de la miniature `up`, `down`, `over` et `disabled`.
 
 Exemple : pour configurer une barre de défilement de 28 x 45 pixels, avec des marges de 10 pixels en haut et en bas et une illustration différente pour chaque état.
 
@@ -327,7 +327,7 @@ L’aspect des boutons de défilement haut et bas est contrôlé à l’aide des
 
 `.s7ecatalogsearchviewer .s7thumbnailgridview .s7scrollbar .s7scrolldownbutton`
 
-Il n’est pas possible de positionner les boutons de défilement à l’aide de CSS `top`, `left`, `bottom`, et `right` propriétés. La logique de la visionneuse les positionne automatiquement.
+Il n’est pas possible de positionner les boutons de défilement à l’aide des propriétés CSS `top`, `left`, `bottom` et `right`. La logique de la visionneuse les positionne automatiquement.
 
 <table id="table_89E64A138ABF463F9650BB454F22D530"> 
  <thead> 
@@ -350,7 +350,7 @@ Il n’est pas possible de positionner les boutons de défilement à l’aide de
    <td colname="col2"> <p>Image affichée pour un état de pouce donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -358,7 +358,7 @@ Il n’est pas possible de positionner les boutons de défilement à l’aide de
 
 >[!NOTE]
 >
->Ces boutons prennent en charge les `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents habillages aux différents états de bouton. `up`, `down`, `over`, et `disabled`.
+>Ces boutons prennent en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages aux différents états de bouton `up`, `down`, `over` et `disabled`.
 
 L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 

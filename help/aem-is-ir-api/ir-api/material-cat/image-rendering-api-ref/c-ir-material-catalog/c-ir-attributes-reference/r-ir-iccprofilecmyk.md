@@ -8,21 +8,21 @@ exl-id: c36ea45d-dc91-4afa-825a-7af49738101c
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '115'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
 # IccProfileCmyk{#iccprofilecmyk}
 
-Espace colorimétrique CMJN par défaut. Spécifie le nom du profil de couleurs ICC à utiliser pour les images de réponse en niveaux de gris lorsqu’aucun espace colorimétrique de sortie n’est spécifié avec `icc=`.
+Espace colorimétrique CMJN par défaut. Indique le nom du profil de couleurs ICC à utiliser pour les images de réponse en niveaux de gris lorsqu’aucun espace colorimétrique de sortie n’est spécifié avec `icc=`.
 
 ## Propriétés {#section-849678b272954bdcb236f49aa54f1609}
 
-Chaîne de texte. Si spécifié, doit être valide `icc::Name` de la carte de profil ICC de ce catalogue d’images ou du catalogue par défaut, ou d’un chemin d’accès au fichier relatif à `attribute::RootPath`. Le profil ICC référencé doit être un profil CMJN.
+Chaîne de texte. Si spécifié, doit être une valeur `icc::Name` valide provenant de la carte de profil ICC de ce catalogue d’images ou du catalogue par défaut, ou un chemin d’accès au fichier relatif à `attribute::RootPath`. Le profil ICC référencé doit être un profil CMJN.
 
 ## Par défaut {#section-55026b7454af4d868bcb47f7743c9c5b}
 
-Hérité de `default::IccProfileCmyk` s’il n’est pas défini ou s’il est vide.
+Hérité de `default::IccProfileCmyk` si elle n’est pas définie ou si elle est vide.
 
 ## Voir aussi {#section-89feb193693b43dc99a2107658d57154}
 

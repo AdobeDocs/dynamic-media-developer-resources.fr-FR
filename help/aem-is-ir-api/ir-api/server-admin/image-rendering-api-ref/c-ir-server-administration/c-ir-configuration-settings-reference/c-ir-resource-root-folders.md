@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Une liste de chemins, délimités par des points-virgules, sert de racines à tous les fichiers de données avec des chemins d’accès aux fichiers relatifs.
 
-Il peut s’agir de chemins absolus ou de chemins relatifs à *[!DNL install_folder]*. Lorsque plusieurs chemins sont spécifiés, le serveur tente chaque racine dans l’ordre indiqué jusqu’à ce que le fichier soit trouvé. La valeur par défaut est [!DNL ./resources], pour le chemin d’accès racine par défaut de [!DNL install_folder/resources].
+Il peut s’agir de chemins absolus ou de chemins relatifs à *[!DNL install_folder]*. Lorsque plusieurs chemins sont spécifiés, le serveur tente chaque racine dans l’ordre indiqué jusqu’à ce que le fichier soit trouvé. La valeur par défaut est [!DNL ./resources], pour un chemin racine par défaut de [!DNL install_folder/resources].

@@ -8,7 +8,7 @@ role: Developer,User
 exl-id: c428c3e6-81be-4708-b064-f9d794183209
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1392'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Le fichier CSS personnalisé doit contenir les mêmes déclarations de classe qu
 
 Une autre manière de fournir des règles CSS personnalisées consiste à utiliser des styles incorporés directement sur la page web ou dans l’une des règles CSS externes liées.
 
-Lors de la création d’une page CSS personnalisée, gardez à l’esprit que la visionneuse affecte la classe `.s7interactivevideoviewer` à son élément DOM de conteneur. Si vous utilisez un fichier CSS externe transmis avec la commande `style=`, utilisez la classe `.s7interactivevideoviewer` en tant que classe parente dans le sélecteur descendant pour vos règles CSS. Si vous effectuez des styles intégrés sur la page web, qualifiez ce sélecteur avec un identifiant de l’élément DOM du conteneur comme suit :
+Lors de la création d’une page CSS personnalisée, gardez à l’esprit que la visionneuse affecte la classe `.s7interactivevideoviewer` à son élément DOM de conteneur. Si vous utilisez un fichier CSS externe transmis avec la commande `style=`, utilisez la classe `.s7interactivevideoviewer` comme classe parente dans le sélecteur descendant pour vos règles CSS. Si vous effectuez des styles intégrés sur la page web, qualifiez ce sélecteur avec un identifiant de l’élément DOM du conteneur comme suit :
 
 `#<containerId>.s7interactivevideoviewer`
 
@@ -39,15 +39,15 @@ Lors de la création d’une page CSS personnalisée, gardez à l’esprit que l
 
 Il est possible de cibler différents appareils et d’incorporer des tailles différentes dans une page CSS afin de faire afficher votre contenu différemment selon le périphérique ou la mise en page d’un utilisateur. Cette méthode comprend, sans s’y limiter, différentes mises en page, tailles d’éléments de l’interface utilisateur et résolution des illustrations.
 
-La visionneuse prend en charge deux mécanismes de création d’une page CSS réactive : Marqueurs CSS et requêtes multimédias CSS standard. Vous pouvez utiliser ces mécanismes indépendamment ou ensemble.
+La visionneuse prend en charge deux mécanismes de création de CSS responsive design : les marqueurs CSS et les requêtes multimédias CSS standard. Vous pouvez utiliser ces mécanismes indépendamment ou ensemble.
 
 **Marqueurs CSS**
 
 Pour faciliter la création de CSS responsive design, la visionneuse prend en charge les marqueurs CSS. Ces marqueurs sont des classes CSS spéciales. Ils sont dynamiquement affectés à l’élément conteneur de la visionneuse de niveau supérieur en fonction de la taille de la visionneuse au moment de l’exécution et du type d’entrée utilisé sur l’appareil actuel.
 
-Le premier groupe de marqueurs CSS comprend les classes `.s7size_large`, `.s7size_medium` et `.s7size_small`. Elles sont appliquées en fonction de la zone d’exécution du conteneur de la visionneuse. Si la zone de visionneuse est égale ou supérieure à la taille d’un écran de bureau commun, `.s7size_large` est utilisé. si la zone est proche d’une tablette commune, `.s7size_medium` est affecté. Pour les zones similaires aux écrans de téléphone mobile, `.s7size_small` est défini. L’objectif Principal de ces marqueurs CSS est de créer différentes mises en page d’interface utilisateur pour différents écrans et tailles de visionneuse.
+Le premier groupe de marqueurs CSS comprend les classes `.s7size_large`, `.s7size_medium` et `.s7size_small`. Elles sont appliquées en fonction de la zone d’exécution du conteneur de la visionneuse. Si la zone de visionneuse est égale ou supérieure à la taille d’un écran de bureau commun, alors `.s7size_large` est utilisé ; si la zone est proche d’un tablette commun, alors `.s7size_medium` est attribué. Pour les zones similaires aux écrans de téléphone mobile, `.s7size_small` est défini. L’objectif principal de ces marqueurs CSS est de créer différentes mises en page d’interface utilisateur pour différents écrans et tailles de visionneuse.
 
-Le deuxième groupe de marqueurs CSS contient `.s7mouseinput` et `.s7touchinput`. Le marqueur `.s7touchinput` est défini si l’appareil actuel dispose de fonctionnalités d’entrée tactile ; sinon, `.s7mouseinput` est utilisé. Ces marqueurs sont principalement destinés à créer des éléments d’entrée de l’interface utilisateur avec des tailles d’écran différentes pour différents types d’entrée, car la saisie tactile nécessite normalement des éléments plus volumineux.
+Le deuxième groupe de marqueurs CSS contient `.s7mouseinput` et `.s7touchinput`. Le marqueur `.s7touchinput` est défini si l’appareil actuel dispose de fonctionnalités d’entrée tactile ; dans le cas contraire, `.s7mouseinput` est utilisé. Ces marqueurs sont principalement destinés à créer des éléments d’entrée de l’interface utilisateur avec des tailles d’écran différentes pour différents types d’entrée, car la saisie tactile nécessite normalement des éléments plus volumineux.
 
 Le troisième groupe de marqueurs CSS contient `.s7device_landscape` et `.s7device_portrait`. Le marqueur `.s7device_landscape` est défini si l’appareil tactile est en orientation paysage ; `.s7device_portrait` est utilisé lorsque l’appareil tactile est pivoté vers l’orientation portrait. Ces marqueurs CSS sont destinés uniquement aux systèmes de bureau.
 
@@ -91,7 +91,7 @@ L’utilisation de marqueurs CSS est la méthode la plus souple pour créer des 
 
 Vous pouvez utiliser le fichier CSS de visionneuse par défaut comme exemple d’approche des marqueurs CSS.
 
-**Requêtes de média CSS**
+**Requêtes multimédias CSS**
 
 Vous pouvez également réaliser la détection de périphérique en utilisant des requêtes multimédias CSS pures. Tout ce qui est inclus dans un bloc de requête multimédia donné est appliqué uniquement lorsqu’il est exécuté sur un appareil correspondant.
 
@@ -144,9 +144,9 @@ Il n’est pas nécessaire de dupliquer l’intégralité du CSS de la visionneu
 
 ## Sprites CSS {#section-9b6d8d601cb441d08214dada7bb4eddc}
 
-De nombreux éléments de l’interface utilisateur de la visionneuse sont stylisés à l’aide d’illustrations bitmap et possèdent plusieurs états visuels distincts. Un bon exemple est un bouton qui comporte normalement au moins trois états différents : &quot;vers le haut&quot;, &quot;vers le bas&quot; et &quot;vers le bas&quot;. Chaque état nécessite l’attribution de sa propre illustration bitmap.
+De nombreux éléments de l’interface utilisateur de la visionneuse sont stylisés à l’aide d’illustrations bitmap et possèdent plusieurs états visuels distincts. Un bon exemple est un bouton qui a normalement au moins trois états différents : &quot;haut&quot;, &quot;sur&quot; et &quot;bas&quot;. Chaque état nécessite l’attribution de sa propre illustration bitmap.
 
-Avec une approche classique de la mise en forme, le CSS dispose d’une référence distincte au fichier image individuel sur le serveur pour chaque état de l’élément d’interface utilisateur. Voici un exemple de page CSS pour le style d’un bouton plein écran :
+Avec une approche classique de la mise en forme, le CSS dispose d’une référence distincte au fichier image individuel sur le serveur pour chaque état de l’élément d’interface utilisateur. Voici un exemple de page CSS pour la mise en forme d’un bouton plein écran :
 
 ```
 .s7interactivevideoviewer.s7mouseinput .s7playpausebutton[selected='true'][state='up'] {  
@@ -189,7 +189,7 @@ background-image:url(images/v2/ReplayButton_disabled.png);
 
 L’inconvénient de cette approche est que l’utilisateur final subit un scintillement ou une réponse de l’interface utilisateur différée lorsque l’élément est interagi pour la première fois. Cette action se produit car l’illustration de l’image pour le nouvel état d’élément n’est pas encore téléchargée. En outre, cette approche peut avoir un léger impact négatif sur les performances en raison d’une augmentation du nombre d’appels HTTP au serveur.
 
-Les sprites CSS constituent une approche différente selon laquelle l’illustration d’image pour tous les états d’élément est combinée dans un seul fichier PNG appelé &quot;sprite&quot;. Un tel &quot;sprite&quot; a tous les états visuels pour l’élément donné positionnés l’un après l’autre. Lors du style d’un élément d’interface utilisateur avec des sprites, la même image de sprite est référencée pour tous les états différents du CSS. En outre, la propriété `background-position` est utilisée pour chaque état pour spécifier la partie de l’image &quot;sprite&quot; utilisée. Vous pouvez structurer une image &quot;sprite&quot; de n’importe quelle manière appropriée. Les visionneuses sont normalement empilées verticalement. Vous trouverez ci-dessous un exemple de style &quot;sprite&quot; du même bouton plein écran précédemment :
+Les sprites CSS constituent une approche différente selon laquelle l’illustration d’image pour tous les états d’élément est combinée dans un seul fichier PNG appelé &quot;sprite&quot;. Un tel &quot;sprite&quot; a tous les états visuels pour l’élément donné positionnés l’un après l’autre. Lors du style d’un élément d’interface utilisateur avec des sprites, la même image de sprite est référencée pour tous les états différents du CSS. En outre, la propriété `background-position` est utilisée pour chaque état pour spécifier la partie de l’image &quot;sprite&quot; utilisée. Vous pouvez structurer une image &quot;sprite&quot; de n’importe quelle manière appropriée. Les visionneuses disposent normalement d’un empilement vertical. Vous trouverez ci-dessous un exemple de style &quot;sprite&quot; du même bouton plein écran précédemment :
 
 ```
 .s7interactivevideoviewer .s7fullscreenbutton[state][selected]{ 
@@ -225,12 +225,12 @@ background-position: -0px -1120px;
 
 * Lors de la personnalisation de l’interface utilisateur de la visionneuse avec CSS, l’utilisation de la règle `!IMPORTANT` n’est pas prise en charge pour appliquer un style aux éléments de la visionneuse. En particulier, la règle `!IMPORTANT` ne doit pas être utilisée pour remplacer les styles par défaut ou d’exécution fournis par la visionneuse ou le SDK de la visionneuse. La raison est qu’elle peut affecter le comportement des composants appropriés. Vous devez plutôt utiliser des sélecteurs CSS avec la précision appropriée pour définir les propriétés CSS documentées dans ce guide de référence.
 
-* Tous les chemins d’accès aux ressources externes dans CSS sont résolus par rapport à l’emplacement CSS, et non par rapport à l’emplacement de la page HTML de la visionneuse. Tenez compte de cette règle lorsque vous copiez le CSS par défaut vers un autre emplacement. Copiez également les ressources par défaut ou mettez à jour les chemins d’accès dans le fichier CSS personnalisé.
+* Tous les chemins d’accès aux ressources externes dans CSS sont résolus par rapport à l’emplacement CSS, et non par rapport à l’emplacement de la page d’HTML de la visionneuse. Tenez compte de cette règle lorsque vous copiez le CSS par défaut vers un autre emplacement. Copiez également les ressources par défaut ou mettez à jour les chemins d’accès dans le fichier CSS personnalisé.
 * Le format préféré des illustrations bitmap est PNG.
-* Les illustrations bitmap sont affectées aux éléments de l’interface utilisateur à l’aide de la propriété `background-image` .
+* L’illustration bitmap est affectée aux éléments de l’interface utilisateur à l’aide de la propriété `background-image`.
 * Les propriétés `width` et `height` d’un élément d’interface utilisateur définissent sa taille logique. La taille de l’image bitmap transmise à `background-image` n’affecte pas la taille logique.
 
-* Pour utiliser la haute densité en pixels d’écrans haute résolution comme Retina, spécifiez une illustration bitmap deux fois plus grande que la taille de l’élément logique de l’interface utilisateur. Ensuite, appliquez la propriété `-webkit-background-size:contain` pour mettre l’arrière-plan à l’échelle de la taille de l’élément logique de l’interface utilisateur.
+* Pour utiliser la haute densité en pixels d’écrans haute résolution comme Retina, spécifiez une illustration bitmap deux fois plus grande que la taille de l’élément logique de l’interface utilisateur. Ensuite, appliquez la propriété `-webkit-background-size:contain` pour réduire l’arrière-plan à la taille de l’élément logique de l’interface utilisateur.
 * Pour supprimer un bouton de l’interface utilisateur, ajoutez `display:none` à sa classe CSS.
 * Vous pouvez utiliser différents formats pour la valeur de couleur prise en charge par CSS. Si vous avez besoin de transparence, utilisez le format `rgba(R,G,B,A)`. Sinon, vous pouvez utiliser le format `#RRGGBB`.
 

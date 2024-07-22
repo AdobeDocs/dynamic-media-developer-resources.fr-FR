@@ -1,5 +1,5 @@
 ---
-description: Contient [!DNL Platform Server] paramètres.
+description: Contient les paramètres  [!DNL Platform Server] .
 solution: Experience Manager
 title: PlatformServer.conf
 feature: Dynamic Media Classic,SDK/API
@@ -7,16 +7,16 @@ role: Developer,Admin,User
 exl-id: 00d55453-e7e6-4242-be83-7efa12764e5d
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 1%
+source-wordcount: '155'
+ht-degree: 0%
 
 ---
 
 # PlatformServer.conf{#platformserver-conf}
 
-Contient [!DNL Platform Server] paramètres.
+Contient les paramètres [!DNL Platform Server].
 
-Ce fichier est un fichier de propriétés JAVA. Il faut veiller à respecter les conventions appropriées ; dans le cas contraire, la variable [!DNL Platform Server] peut ne pas démarrer. Utilisez une double barre oblique inverse &quot;\\&quot; ou une seule barre oblique inverse &quot;/&quot; au lieu d’une barre oblique inverse &quot;\&quot; dans les chemins d’accès aux fichiers Windows. La barre oblique inverse est utilisée comme caractère d’échappement dans ce type de fichier.
+Ce fichier est un fichier de propriétés JAVA. Il faut veiller à respecter les conventions appropriées ; sinon, le [!DNL Platform Server] risque de ne pas démarrer. Utilisez une double barre oblique inverse &quot;\\&quot; ou une seule barre oblique inverse &quot;/&quot; au lieu d’une barre oblique inverse &quot;\&quot; dans les chemins d’accès aux fichiers Windows. La barre oblique inverse est utilisée comme caractère d’échappement dans ce type de fichier.
 
 Les modifications apportées à ce fichier prennent effet après l’enregistrement du fichier.
 
@@ -24,7 +24,7 @@ Seuls les paramètres répertoriés ci-dessous peuvent être modifiés dans [!DN
 
 <table id="simpletable_38244750F50A46E5B0077F5F860B125C"> 
  <tr class="strow"> 
-  <td class="stentry"> <p>Général [!DNL Platform Server] paramètres </p> </td> 
+  <td class="stentry"> <p>Paramètres généraux [!DNL Platform Server] </p> </td> 
   <td class="stentry"> <p> <span class="codeph"> cache.rootPaths=./cache </span> </p> <p> <span class="codeph"> cache.maxEntries=1000000 </span> </p> <p> <span class="codeph"> cache.maxSize=1073741824 </span> </p> <p> <span class="codeph"> isConnection.port=27345 </span> </p> <p> <span class="codeph"> allowDefaultCatalogRequest=true </span> </p> <p> <span class="codeph"> saveToFile.saveTimeout=60000 </span> </p> <p> <span class="codeph"> staticContent.rootPaths=./static-content </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -33,7 +33,7 @@ Seuls les paramètres répertoriés ci-dessous peuvent être modifiés dans [!DN
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Configuration de la redirection d’erreur </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> errorRedirect.rootUrl=&lt;empty&gt; </span> </p> <p> <span class="codeph"> errorRedirect.connectTimeout=1000 </span> </p> <p> <span class="codeph"> errorRedirect.socketTimeout=30000 </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> errorRedirect.rootUrl=&lt;vide&gt; </span> </p> <p> <span class="codeph"> errorRedirect.connectTimeout=1000 </span> </p> <p> <span class="codeph"> errorRedirect.socketTimeout=30000 </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Configuration du SVG </p> </td> 

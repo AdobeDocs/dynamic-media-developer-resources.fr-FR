@@ -2,13 +2,13 @@
 description: searchServerUrl
 solution: Experience Manager
 title: searchServerUrl
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Recherche catalogue électronique
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 9ef8040f-1ea0-434d-ad00-3ef863448cb7
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '36'
-ht-degree: 11%
+source-wordcount: '28'
+ht-degree: 10%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 11%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> searchServerUrl</span> </span> </p> </td> 
-   <td colname="col2"> <p> Chemin d’accès racine du service de recherche. Si aucun domaine n’est spécifié, le domaine à partir duquel la visionneuse est diffusée est utilisé. </p> </td> 
+   <td colname="col2"> <p> Chemin racine du service de recherche. Si aucun domaine n’est spécifié, le domaine à partir duquel la visionneuse est diffusée est utilisé. </p> </td> 
   </tr> 
  </tbody> 
 </table>

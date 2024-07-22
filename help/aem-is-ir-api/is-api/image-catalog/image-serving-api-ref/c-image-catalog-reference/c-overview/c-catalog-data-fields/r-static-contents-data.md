@@ -2,13 +2,13 @@
 description: Les champs suivants sont pris en charge pour les catalogues de contenu statique (hors images).
 solution: Experience Manager
 title: Données de contenu statique
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: df47cbb2-0ed6-4fbd-988e-be5b7a7ad657
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 4%
+source-wordcount: '57'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,7 @@ Les champs suivants sont pris en charge pour les catalogues de contenu statique 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md" type="reference" format="dita" scope="local"> UserData</a></span> </p></td> 
-  <td class="stentry"> <p>Propriétés définies par l’utilisateur. </p></td> 
+  <td class="stentry"> <p>Propriétés définies par l’utilisateur </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <a href="/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-videobitrate-cat.md" type="reference" format="dita" scope="local"> VideoBitRate</a></span> </p></td> 

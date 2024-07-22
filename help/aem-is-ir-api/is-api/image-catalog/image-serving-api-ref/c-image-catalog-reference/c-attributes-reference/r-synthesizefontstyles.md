@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 08f20748-71c7-4b9f-9b45-70352f9abf35
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 3%
+source-wordcount: '120'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,7 @@ Indicateur. Définissez cette variable sur 0 pour désactiver et sur 1 pour acti
 
 ## Par défaut {#section-71f94aa65e404d14b441674c040b59e3}
 
-Hérité de `default::SynthesizeFontStyles` s’il n’est pas défini ou s’il est vide.
+Hérité de `default::SynthesizeFontStyles` si elle n’est pas définie ou si elle est vide.
 
 ## Voir aussi {#section-47a79659cc844272b6d5f36c946e12ac}
 

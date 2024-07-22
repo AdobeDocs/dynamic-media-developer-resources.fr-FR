@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 8f99bb3d-c5d6-4215-a76b-58ba7689ff02
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '484'
 ht-degree: 2%
 
 ---
@@ -22,11 +22,11 @@ Un seul calque parent peut contenir un nombre indéfini d’effets de calque.
 
 ## Effets internes et externes {#section-2dade7ee98e041d1b4d1725e6f98a515}
 
-*Effets internes* sont rendues au-dessus du calque parent et ne sont visibles que dans les zones opaques du calque parent. *Effets externes* sont rendues derrière le calque parent (elles ne sont donc jamais visibles dans les zones opaques du calque parent) et peuvent être positionnées n’importe où dans la zone de travail de composition. Un effet interne ou externe est sélectionné en attribuant un numéro de calque d’effet positif ou négatif au paramètre `effect=` . La variable `effect=` contrôle également l’ordonnancement z entre plusieurs calques d’effet associés à la même couche parent.
+Les *effets internes* sont rendus au-dessus du calque parent et ne sont visibles que dans les zones opaques du calque parent. Les *effets externes* sont rendus derrière le calque parent (ils ne sont donc jamais visibles dans les zones opaques du calque parent) et peuvent être positionnés n’importe où dans la zone de travail de composition. Un effet interne ou externe est choisi en attribuant un numéro de couche d’effet positif ou négatif avec la commande `effect=`. La commande `effect=` contrôle également l’ordonnancement z parmi plusieurs calques d’effet attachés au même calque parent.
 
 ## Relation avec le calque parent {#section-eb8bfc4f754a42fc973b562821d6f2d3}
 
-Les calques d’effet sont automatiquement dimensionnés et positionnés pour coïncider avec le calque parent (c’est-à-dire que le calque d’effet hérite de la propriété `size=` et `origin=` des valeurs du calque parent). `pos=` peut être utilisé pour éloigner le calque d’effet du calque parent, comme cela est généralement nécessaire pour les effets de chute et d’ombre intérieure. Tandis que pour les calques standard `pos=` spécifie un décalage entre les origines de ce calque et le calque 0, pour les calques d’effet `pos=` spécifie le décalage entre l’origine du calque d’effet et le calque parent.
+Les calques d’effet sont automatiquement dimensionnés et positionnés pour coïncider avec le calque parent (c’est-à-dire que le calque d’effet hérite des valeurs `size=` et `origin=` du calque parent). `pos=` peut être utilisé pour éloigner la couche d’effet de la couche parent, comme cela est généralement nécessaire pour les effets de chute et d’ombre intérieure. Bien que pour les calques standard `pos=` spécifie un décalage entre les origines de ce calque et le calque 0, pour les calques d’effet `pos=` spécifie le décalage entre les origines du calque d’effet et le calque parent.
 
 ## Commandes et attributs pris en charge {#section-035fc6bcba7d4e7ab4bd46687c1d8879}
 
@@ -58,15 +58,15 @@ Pour faciliter l’utilisation des effets de calque, IS fournit deux macros avec
  <tbody> 
   <tr> 
    <td> <p> Ombre portée </p> </td> 
-   <td> <p> <span class="codeph"> Effet=-1&amp;$ombre$</span> </p> </td> 
+   <td> <p> <span class="codeph"> Effet=-1&amp;$shadow$</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Ombre intérieure </p> </td> 
-   <td> <p> <span class="codeph"> Effet=1&amp;$ombre$</span> </p> </td> 
+   <td> <p> <span class="codeph"> Effet=1&amp;$shadow$</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Eclat extérieur </p> </td> 
-   <td> <p> <span class="codeph"> effet=-1&amp;$glow$</span> </p> </td> 
+   <td> <p> <span class="codeph"> Effet=-1&amp;$glow$</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Eclat intérieur </p> </td> 
@@ -81,7 +81,7 @@ Ajoutez une bordure rouge de trois pixels de large avec une opacité de 50 % à 
 
 `…&effect=-1&op_grow=3&color=255,0,0,128&…`
 
-La bordure suit les contours du canal alpha ou masque de l&#39;image. Paramètre `effect=1` placerait la bordure à l’intérieur du bord.
+La bordure suit les contours du canal alpha ou masque de l&#39;image. Si vous définissez `effect=1`, la bordure est placée sur le bord intérieur.
 
 Ajoutez une ombre portée bleue à une image à l’aide des paramètres d’effet par défaut (sauf pour la couleur) :
 

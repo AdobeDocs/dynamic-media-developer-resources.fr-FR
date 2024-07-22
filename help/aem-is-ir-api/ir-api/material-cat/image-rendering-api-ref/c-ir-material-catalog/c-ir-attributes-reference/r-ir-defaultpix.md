@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: d60f2b8c-5213-42ad-8ec9-7e7797d74e09
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 3%
+source-wordcount: '116'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ Non applicable aux requêtes imbriquées/incorporées.
 
 ## Par défaut {#section-1935781c561e4679aa87a5bcced8df90}
 
-Hérité de `default::DefaultPix` s’il n’est pas défini ou s’il est vide.
+Hérité de `default::DefaultPix` si elle n’est pas définie ou si elle est vide.
 
 ## Voir aussi {#section-d28f18d29ef14692b8706ca08e754f54}
 

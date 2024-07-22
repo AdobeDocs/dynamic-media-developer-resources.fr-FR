@@ -8,7 +8,7 @@ exl-id: e48574e3-9d16-45fb-b4c8-98b5e092e611
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 15%
+ht-degree: 10%
 
 ---
 
@@ -35,7 +35,7 @@ Syntaxe
 
 ## Paramètres {#section-f64e93c127b84a29aa3bf2fdd916cca9}
 
-**Entrée (getAssetsByNameParam)**
+**Input (getAssetsByNameParam)**
 
 <table id="table_CE7B503B0E074719A523B458DF3A7286"> 
  <thead> 
@@ -93,7 +93,7 @@ Syntaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> strictSubTypeCheck</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> <p>If <span class="codeph"> true</span> et <span class="codeph"> assetSubTypeArray</span> n’est pas vide, seules les ressources dont les sous-types se trouvent dans <span class="codeph"> assetSubTypeArray</span> sont renvoyées. </p> <p>If <span class="codeph"> false</span>, les ressources sans sous-type défini sont incluses. </p> <p>La valeur par défaut est <span class="codeph"> false</span>. </p> </td> 
+   <td colname="col4"> <p>Si <span class="codeph"> true</span> et <span class="codeph"> assetSubTypeArray</span> n’est pas vide, seules les ressources dont les sous-types se trouvent dans <span class="codeph"> assetSubTypeArray</span> sont renvoyées. </p> <p>Si <span class="codeph"> false</span>, les ressources sans sous-type défini sont incluses. </p> <p>La valeur par défaut est <span class="codeph"> false</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </td> 
@@ -120,7 +120,7 @@ Syntaxe
 
 Cet exemple de code renvoie deux ressources de type image.
 
-**Request**
+**Requête**
 
 ```java
 <getAssetsByNameParam xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">

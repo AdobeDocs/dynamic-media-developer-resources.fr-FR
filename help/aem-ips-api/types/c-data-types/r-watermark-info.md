@@ -23,5 +23,5 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | url | `xsd:string` | URL du serveur d’images qui représente le modèle. |
-| urlModifier | `xsd:string` |  |
-| urlPostApplyModifier | `xsd:string` |  |
+| urlModifier | `xsd:string` | |
+| urlPostApplyModifier | `xsd:string` | |

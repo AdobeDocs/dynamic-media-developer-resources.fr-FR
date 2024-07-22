@@ -2,13 +2,13 @@
 description: Les rubriques de cette section décrivent la syntaxe et les fonctionnalités des protocoles HTTP.
 solution: Experience Manager
 title: Syntaxe et fonctionnalités
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 44981754-017b-4293-9d44-7611b7a470c4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 1%
+source-wordcount: '92'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ Les rubriques de cette section décrivent la syntaxe et les fonctionnalités des
 * [Catalogues d’images](r-image-catalogs.md)
 * [Traduction de l’ID d’objet](r-object-id-translation.md)
 * [Localisation de la chaîne de texte](r-text-string-localization.md)
-* [Prise en charge SVG](r-svg-support.md)
+* [Prise en charge des SVG](r-svg-support.md)
 * [Prétraitement des requêtes](r-request-preprocessing.md)
 * [Cartes d’images](r-image-maps.md)
 * [Gestion des couleurs du serveur d’images](r-color-management.md)

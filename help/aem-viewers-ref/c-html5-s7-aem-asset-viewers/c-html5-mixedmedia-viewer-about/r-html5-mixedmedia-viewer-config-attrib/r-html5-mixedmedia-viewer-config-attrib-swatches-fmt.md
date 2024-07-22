@@ -8,7 +8,7 @@ exl-id: 043196c8-63ab-439e-a28f-b76d1467f26e
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 5%
 <table id="table_4620F51BD77149FDB68F1FBECC443801"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td> <p>Indique le format d’image que le composant utilise pour charger les images à partir du serveur d’images. Si le format spécifié se termine par <span class="codeph"> -alpha</span>, le composant effectue le rendu des images en tant que contenu transparent. Pour tous les autres formats d’image, le composant traite les images comme opaques. Par défaut, l’arrière-plan du composant est blanc. Par conséquent, pour rendre l’arrière-plan transparent, définissez la variable <span class="codeph"> arrière-plan-couleur</span> Propriété CSS à <span class="codeph"> transparent</span>. </p> </td> 
+   <td> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif-alpha</span> </p> </td> 
+   <td> <p>Indique le format d’image que le composant utilise pour charger les images à partir du serveur d’images. Si le format spécifié se termine par <span class="codeph"> -alpha</span>, le composant effectue le rendu des images en tant que contenu transparent. Pour tous les autres formats d’image, le composant traite les images comme opaques. Par défaut, l’arrière-plan du composant est blanc. Par conséquent, pour rendre l’arrière-plan transparent, définissez la propriété CSS <span class="codeph"> background-color</span> sur <span class="codeph"> transparent</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

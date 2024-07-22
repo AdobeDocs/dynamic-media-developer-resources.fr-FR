@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 5b03e68e-a4c2-4b4f-8579-d253d7c112de
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 2%
+source-wordcount: '333'
+ht-degree: 0%
 
 ---
 
@@ -94,7 +94,7 @@ Après l’installation, la hiérarchie de dossiers dans install_root inclut les
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> cache/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>dossier de cache de données ; configurable lors de l’installation ou en modifiant manuellement les fichiers de configuration. </p> </td> 
+   <td colname="col4"> <p>Dossier de cache de données ; configurable lors de l’installation ou de la modification manuelle des fichiers de configuration. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -112,13 +112,13 @@ Après l’installation, la hiérarchie de dossiers dans install_root inclut les
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> is-response/ </span> </p> </td> 
-   <td colname="col4"> <p>Le Principal cache de réponse HTTP. </p> </td> 
+   <td colname="col4"> <p>Le cache de réponse HTTP principal. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> catalog/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>dossier catalogues d’images IS ; configurable lors de l’installation ou en modifiant manuellement les fichiers de configuration. </p> </td> 
+   <td colname="col4"> <p>Dossier des catalogues d’images IS ; configurable lors de l’installation ou de la modification manuelle des fichiers de configuration. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -130,7 +130,7 @@ Après l’installation, la hiérarchie de dossiers dans install_root inclut les
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> default.ini </span> </p> </td> 
-   <td colname="col4"> <p> <span class="codeph"> Default.ini </span> est requis pour que le serveur soit fonctionnel. </p> </td> 
+   <td colname="col4"> <p> <span class="codeph"> Default.ini </span> est nécessaire pour que le serveur soit fonctionnel. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -166,11 +166,11 @@ Après l’installation, la hiérarchie de dossiers dans install_root inclut les
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> images/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>Image Serving source data folder; modifiez manuellement les fichiers de configuration. </p> </td> 
+   <td colname="col4"> <p>Image Serving source data folder ; modification manuelle des fichiers de configuration. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> journaux/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> logs/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> <p>Toutes les données de journal PS et IS sont écrites dans ce dossier ; modifiez manuellement les fichiers de configuration. </p> </td> 
   </tr> 
@@ -208,11 +208,11 @@ Après l’installation, la hiérarchie de dossiers dans install_root inclut les
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> static-content/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>dossier de source de données de contenu statique ; modifiez manuellement les fichiers de configuration. </p> </td> 
+   <td colname="col4"> <p>Dossier source de données de contenu statique ; modifiez manuellement les fichiers de configuration. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> outils/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> tools/ </span> </p> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 
@@ -244,7 +244,7 @@ Après l’installation, la hiérarchie de dossiers dans install_root inclut les
    <td colname="col1"> </td> 
    <td colname="col2"> <p> <span class="filepath"> catalog/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>le dossier Catalogues de rendu d’image ; configurable lors de l’installation ou en modifiant manuellement les fichiers de configuration. </p> </td> 
+   <td colname="col4"> <p>Dossier de catalogues de rendu d’image ; configurable lors de l’installation ou de la modification manuelle des fichiers de configuration. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -262,7 +262,7 @@ Après l’installation, la hiérarchie de dossiers dans install_root inclut les
    <td colname="col1"> </td> 
    <td colname="col2"> </td> 
    <td colname="col3"> <p> <span class="filepath"> default.ini </span> </p> </td> 
-   <td colname="col4"> <p> <span class="codeph"> Default.ini </span> est requis pour que le serveur soit fonctionnel. </p> </td> 
+   <td colname="col4"> <p> <span class="codeph"> Default.ini </span> est nécessaire pour que le serveur soit fonctionnel. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -272,9 +272,9 @@ Après l’installation, la hiérarchie de dossiers dans install_root inclut les
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <span class="filepath"> ressources/ </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> resources/ </span> </p> </td> 
    <td colname="col3"> </td> 
-   <td colname="col4"> <p>dossier de données source de rendu d’image ; modifiez manuellement les fichiers de configuration. </p> </td> 
+   <td colname="col4"> <p>Dossier de données source de rendu d’image ; modifiez manuellement les fichiers de configuration. </p> </td> 
   </tr> 
  </tbody> 
 </table>

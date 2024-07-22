@@ -8,7 +8,7 @@ exl-id: 4d01e2e7-9b68-4dfa-9fe8-08a22cb4bfd5
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '95'
-ht-degree: 15%
+ht-degree: 13%
 
 ---
 
@@ -37,7 +37,7 @@ Syntaxe
 | companyHandle | `xsd:string` | Oui | Le gérant de l&#39;entreprise. |
 | assetType | `xsd:string` | Oui | Types de ressources à partir desquels obtenir des métadonnées. |
 
-**Sortie (getMetadataFieldsParam)**
+**Output (getMetadataFieldsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -47,7 +47,7 @@ Syntaxe
 
 Cet exemple de code renvoie des ressources de métadonnées pour le type et la société spécifiés. La réponse contient un tableau de champs de métadonnées dans un tableau de champs. Toutes les ressources n’ont pas les mêmes métadonnées. L’utilisateur IPS définit le champ de métadonnées de la ressource.
 
-**Request**
+**Requête**
 
 ```java
 <ns1:getMetadataFieldsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

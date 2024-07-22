@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: ab1653a3-38e6-49bb-97b7-005304349ec9
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 3%
+source-wordcount: '94'
+ht-degree: 1%
 
 ---
 
@@ -43,13 +43,13 @@ L’aspect de la zone d’affichage est contrôlé à l’aide du sélecteur de 
    <td colname="col2"> <p>Hauteur de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan au format hexadécimal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : pour configurer une visionneuse déroulante avec un arrière-plan blanc ( `#FFFFFF`) et sa taille est de 260 x 500 pixels.
+Exemple : pour configurer une visionneuse déroulante avec un arrière-plan blanc ( `#FFFFFF`) et faire sa taille de 260 x 500 pixels.
 
 ```
 .s7flyoutviewer { 

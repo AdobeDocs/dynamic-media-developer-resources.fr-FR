@@ -8,7 +8,7 @@ exl-id: f9942a4a-d258-4e2a-8910-44fa502d97bd
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '93'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -38,9 +38,9 @@ Syntaxe
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Oui | Gestionnaire de la société qui contient la zone cliquable à supprimer. |
-| imageMapHandle | `xsd:string` | Oui | Poignée de la zone cliquable à supprimer. |
+| imageMapHandle | `xsd:string` | Oui | Gérer la zone cliquable à supprimer. |
 
-**Sortie (deleteImageMapParam)**
+**Output (deleteImageMapParam)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 
@@ -48,7 +48,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 Cet exemple de code supprime une zone cliquable d’une société. Vous devez obtenir la gestion de la zone cliquable à partir d’une autre opération.
 
-**Request**
+**Requête**
 
 ```java
 <deleteImageMapParam xmlns="http://www.scene7.com/IpsApi/xsd">

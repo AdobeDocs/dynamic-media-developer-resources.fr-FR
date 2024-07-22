@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 25d4aa58-e16e-4b96-bca0-e98d542b7b81
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 2%
+source-wordcount: '143'
+ht-degree: 0%
 
 ---
 
@@ -35,15 +35,15 @@ L’aspect des info-bulles est contrôlé à l’aide du sélecteur de classe CS
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
    <td colname="col2"> <p> Rayon de la bordure de fond. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-color  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> border-color </span> </p> </td> 
    <td colname="col2"> <p> Couleur de bordure de l’arrière-plan. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Couleur de fond. </p> </td> 
   </tr> 
   <tr> 
@@ -51,11 +51,11 @@ L’aspect des info-bulles est contrôlé à l’aide du sélecteur de classe CS
    <td colname="col2"> <p>Couleur du texte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Nom de la police de texte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Taille de police du texte. </p> </td> 
   </tr> 
  </tbody> 
@@ -63,7 +63,7 @@ L’aspect des info-bulles est contrôlé à l’aide du sélecteur de classe CS
 
 >[!NOTE]
 >
->Si les styles d’info-bulle sont personnalisés dans la page web d’intégration, toutes les propriétés doivent contenir la règle `!IMPORTANT` . Cela n’est pas nécessaire si les info-bulles sont personnalisées dans le fichier CSS de la visionneuse.
+>Si les styles d’info-bulle sont personnalisés dans la page web d’intégration, toutes les propriétés doivent contenir la règle `!IMPORTANT`. Cela n’est pas nécessaire si les info-bulles sont personnalisées dans le fichier CSS de la visionneuse.
 
 Exemple : pour configurer des info-bulles dont la bordure est grise avec un rayon d’angle de 3 pixels, un arrière-plan noir et un texte blanc en Arial, d’une taille de 11 pixels :
 

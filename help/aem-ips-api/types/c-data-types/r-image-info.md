@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 058c74b2-634c-49b9-88ab-ab72a030983c
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 23%
+source-wordcount: '169'
+ht-degree: 2%
 
 ---
 
@@ -32,7 +32,7 @@ Syntaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL originalPath]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Chemin d’accès relatif au fichier d’origine. </p> </td> 
+   <td colname="col3"> <p>Chemin relatif au fichier d’origine. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"><span class="varname"> [!DNL originalFile]</span> </span> </td> 
@@ -77,7 +77,7 @@ Syntaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL resolution]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
-   <td colname="col3"> <p>Pixels par pouce. </p> </td> 
+   <td colname="col3"> <p>pixels par pouce. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL sku]</span> </span> </td> 
@@ -117,7 +117,7 @@ Syntaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL urlPostApplyModifier]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Paramètres concaténés à la fin de la variable <span class="codeph"> urlModifier</span>. Liste des paramètres au format de chaîne de requête qui sont des commandes au serveur d’images. Les valeurs se trouvent dans le guide du protocole du serveur d’images. </p> </td> 
+   <td colname="col3"> <p>Paramètres concaténés à la fin du <span class="codeph"> urlModifier</span>. Liste des paramètres au format de chaîne de requête qui sont des commandes au serveur d’images. Les valeurs se trouvent dans le guide du protocole du serveur d’images. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL zoomTargets]</span> </span> </td> 

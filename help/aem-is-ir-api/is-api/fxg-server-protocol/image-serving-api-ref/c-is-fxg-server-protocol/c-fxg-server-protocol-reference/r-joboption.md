@@ -1,20 +1,20 @@
 ---
-description: Options d’application de la tâche PDF. Un fichier d’options de tâche ou un paramètre prédéfini PDF est un fichier généré par Illustrator dans la boîte de dialogue Options Enregistrer en tant que PDF ou des paramètres prédéfinis PDF dans InDesign.
+description: Appliquez les options de tâche de PDF. Un fichier d’options de tâche ou un paramètre prédéfini de PDF est un fichier généré par Illustrator dans la boîte de dialogue Options de PDF Enregistrer sous ou des paramètres prédéfinis de PDF dans InDesign.
 solution: Experience Manager
 title: joboption
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8e7224e7-d801-4550-b95e-24d15734043a
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 46%
+source-wordcount: '239'
+ht-degree: 38%
 
 ---
 
 # joboption{#joboption}
 
-Options d’application de la tâche PDF. Un fichier d’options de tâche ou un paramètre prédéfini PDF est un fichier généré par Illustrator dans la boîte de dialogue Options Enregistrer en tant que PDF ou des paramètres prédéfinis PDF dans InDesign.
+Appliquez les options de tâche de PDF. Un fichier d’options de tâche ou un paramètre prédéfini de PDF est un fichier généré par Illustrator dans la boîte de dialogue Options de PDF Enregistrer sous ou des paramètres prédéfinis de PDF dans InDesign.
 
 ` joboption= *`value`*`
 
@@ -25,7 +25,7 @@ Options d’application de la tâche PDF. Un fichier d’options de tâche ou un
  </tr> 
 </table>
 
-Le fichier des options de tâche peut être téléchargé et publié par IPS/Dynamic Media Classic. Les options PDF contenues dans le fichier d’options de tâche sont utilisées lors de la génération du PDF.
+Le fichier des options de tâche peut être téléchargé et publié par IPS/Dynamic Media Classic. Les options du PDF contenues dans le fichier d’options de tâche sont utilisées lors de la génération du PDF.
 
 Les options suivantes sont actuellement prises en charge :
 
@@ -44,7 +44,7 @@ Les options suivantes sont actuellement prises en charge :
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Couleur </p></td> 
-  <td class="stentry"> <p> Gestion des couleurs (l’option Référencer les images uniquement est traitée comme l’option Référencer les couleurs) </p> <p> Mode de rendu du document </p> <p> Seuls les espaces de travail suivants sont pris en charge par la version 4.2.5. </p> <p> 
+  <td class="stentry"> <p> Stratégie de couleur (seules les images de balise sont traitées comme toutes les balises) </p> <p> Mode de rendu du document </p> <p> Seuls les espaces de travail suivants sont pris en charge pour la version 4.2.5. </p> <p> 
     <ul id="ul_3F3EFDFB6A3340978AE31DEDF0FDA2C8"> 
      <li id="li_17A9FA99D6CA4C5182E383A85F0E3C90"> RVB <p> 
        <ul id="ul_1DD0C264DA1248319E751ADD18140C6D"> 
@@ -73,7 +73,7 @@ Les options suivantes sont actuellement prises en charge :
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Avancés </p></td> 
-  <td class="stentry"> <p>Conserver les commentaires OPI (option toujours activée). </p></td> 
+  <td class="stentry"> <p>Conserver les commentaires OPI est toujours activé. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>Normes </p></td> 

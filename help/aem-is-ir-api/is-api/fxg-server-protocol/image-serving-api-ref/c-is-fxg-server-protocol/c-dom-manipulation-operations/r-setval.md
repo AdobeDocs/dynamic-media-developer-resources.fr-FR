@@ -18,11 +18,11 @@ Définissez la valeur du noeud de texte pour s7:elementID.
 
 `setVal.elementID= *[!DNL value]*`
 
-Si un élément de noeud FXG comporte une propriété `s7:elementID` définie, la valeur de texte de ce noeud peut être manipulée.
+Si un `s7:elementID` est défini pour un élément de noeud FXG, la valeur de texte de ce noeud peut être manipulée.
 
 ## Exemple {#section-f574fd66dedd4a219aa537d7bdabea23}
 
-Supposons qu’une `s7:elementID="paragraph1"` est défini pour un `TextGraphic` , ce qui suit est valide :
+Supposons qu’un attribut `s7:elementID="paragraph1"` soit défini pour un noeud `TextGraphic`, ce qui suit est valide :
 
 `&setVal.paragraph=Hello`
 

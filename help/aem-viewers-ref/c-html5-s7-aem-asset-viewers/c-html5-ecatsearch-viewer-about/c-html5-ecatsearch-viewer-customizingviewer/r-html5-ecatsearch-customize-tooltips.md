@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 0350bdbc-3e3d-4bc0-98f6-5d7bf4121d9a
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 2%
+source-wordcount: '143'
+ht-degree: 0%
 
 ---
 
@@ -43,7 +43,7 @@ L’aspect des info-bulles est contrôlé à l’aide du sélecteur de classe CS
    <td colname="col2"> <p> Couleur de bordure de l’arrière-plan. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Couleur de fond. </p> </td> 
   </tr> 
   <tr> 
@@ -63,7 +63,7 @@ L’aspect des info-bulles est contrôlé à l’aide du sélecteur de classe CS
 
 >[!NOTE]
 >
->Si les styles d’info-bulle sont personnalisés dans la page web d’intégration, toutes les propriétés doivent contenir `!IMPORTANT` règle. Cette règle n’est pas nécessaire si les info-bulles sont personnalisées dans le fichier CSS de la visionneuse.
+>Si les styles d’info-bulle sont personnalisés dans la page web d’intégration, toutes les propriétés doivent contenir la règle `!IMPORTANT`. Cette règle n’est pas nécessaire si les info-bulles sont personnalisées dans le fichier CSS de la visionneuse.
 
 Exemple : pour configurer des info-bulles dont la bordure est grise avec un rayon d’angle de 3 pixels, un arrière-plan noir et un texte blanc écrits avec Arial®, taille de 11 pixels :
 

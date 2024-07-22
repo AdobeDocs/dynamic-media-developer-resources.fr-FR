@@ -8,7 +8,7 @@ exl-id: af7899c4-a95f-42c8-858e-ed1592c6f5b6
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '77'
-ht-degree: 22%
+ht-degree: 19%
 
 ---
 
@@ -33,11 +33,11 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-|  |  |  |  |
+|   |  |  |  |
 
 ## Exemples {#section-ce47a4b6e062423fa55ed3a0fd26d7ff}
 
-**Request**
+**Requête**
 
 ```java
 <updateAssetSetParam xmlns="http://www.scene7.com/IpsApi/xsd/2014-04-03"> 

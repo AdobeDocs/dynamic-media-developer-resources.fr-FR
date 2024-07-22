@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: d2939f86-5dab-471d-ba59-70d91ae1e4fd
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '490'
 ht-degree: 1%
 
 ---
@@ -21,15 +21,15 @@ Mode d’ajustement de l’image de réponse. Indique le mode de calcul du facte
 <table id="simpletable_50FBDC6B7CB2448891DD0F491DEB5ACF"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> mode </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> fit|contrainte|crop|wrap|étirement|hfit|vfit </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> fit|contrainte|crop|wrap|étich|hfit|vfit </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> upscale </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> mise à niveau </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
  </tr> 
 </table>
 
-Dans la description suivante des options de mode, on suppose que : *`xScale`* est le rapport de la largeur de l’image composite à la largeur de l’image de réponse et *`yScale`* est le rapport entre la hauteur de l’image composite et la hauteur de l’image de réponse.
+Dans la description suivante des options de mode, on suppose que *`xScale`* est le rapport entre la largeur de l’image composite et la largeur de l’image de réponse et que *`yScale`* est le rapport entre la hauteur de l’image composite et la hauteur de l’image de réponse.
 
 <table id="table_33408ECA9D164AFAA249F8589060545E"> 
  <thead> 
@@ -41,19 +41,19 @@ Dans la description suivante des options de mode, on suppose que : *`xScale`* es
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> fit </span> </p> </td> 
-   <td colname="col2"> <p>Met l’image composite à l’échelle de l’espace alloué avec <span class="codeph"> wid= </span> et <span class="codeph"> hei= </span>, avec un espace blanc minimal et sans recadrage. La taille exacte de l’image de réponse est spécifiée avec <span class="codeph"> wid= </span> et <span class="codeph"> hei= </span>. Le plus petit de <span class="varname"> xScale </span> et <span class="varname"> yScale </span> est appliquée. </p> </td> 
+   <td colname="col2"> <p>Met l’image composite à l’échelle afin qu’elle s’insère dans l’espace alloué avec <span class="codeph"> wid= </span> et <span class="codeph"> hei= </span>, avec un espace blanc minimal et sans recadrage. La taille exacte de l’image de réponse est spécifiée avec <span class="codeph"> wid= </span> et <span class="codeph"> hei= </span>. La plus petite de <span class="varname"> xScale </span> et <span class="varname"> yScale </span> est appliquée. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> contrainte </span> </p> </td> 
-   <td colname="col2"> <p>Redimensionne l’image composite comme suit : <span class="codeph"> fit </span> afin qu'il s'insère dans l'espace alloué avec <span class="codeph"> wid= </span> et <span class="codeph"> hei= </span>, mais l’image de réponse réelle peut être plus petite que celle spécifiée par <span class="codeph"> wid= </span> et <span class="codeph"> hei= </span> pour éviter les espaces blancs. Le plus petit de <span class="varname"> xScale </span> et <span class="varname"> yScale </span> est appliquée. </p> </td> 
+   <td colname="col2"> <p>Met à l’échelle l’image composite telle que <span class="codeph"> s’adapter </span> afin qu’elle s’insère dans l’espace alloué avec <span class="codeph"> wid= </span> et <span class="codeph"> hei= </span>, mais l’image de réponse réelle peut être plus petite que celle spécifiée avec <span class="codeph"> wid= </span> et <span class="codeph"> hei= </span> pour éviter l’espace blanc. La plus petite de <span class="varname"> xScale </span> et <span class="varname"> yScale </span> est appliquée. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> recadrer </span> </p> </td> 
-   <td colname="col2"> <p>Met à l’échelle l’image composite afin qu’elle remplisse l’image de réponse entière, avec un recadrage minimal et sans espace blanc. Le plus grand de <span class="varname"> xScale </span> et <span class="varname"> yScale </span> est appliquée. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> crop </span> </p> </td> 
+   <td colname="col2"> <p>Met à l’échelle l’image composite afin qu’elle remplisse l’image de réponse entière, avec un recadrage minimal et sans espace blanc. La plus grande de <span class="varname"> xScale </span> et <span class="varname"> yScale </span> est appliquée. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> inclusion </span> </p> </td> 
-   <td colname="col2"> <p>Redimensionne l’image composite comme suit : <span class="codeph"> recadrer </span> afin qu’elle couvre l’image de réponse entière, mais que l’image de réponse réelle puisse être plus grande que celle spécifiée par <span class="codeph"> wid= </span> et <span class="codeph"> hei= </span> pour éviter le recadrage. Le plus grand de <span class="varname"> xScale </span> et <span class="varname"> yScale </span>est appliquée. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> wrap </span> </p> </td> 
+   <td colname="col2"> <p>Met à l’échelle l’image composite telle que <span class="codeph"> crop </span> de sorte qu’elle couvre l’ensemble de l’image de réponse, mais l’image de réponse réelle peut être plus grande que celle spécifiée avec <span class="codeph"> wid= </span> et <span class="codeph"> hei= </span> pour éviter le recadrage. La plus grande de <span class="varname"> xScale </span> et <span class="varname"> yScale </span> est appliquée. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> étirement </span> </p> </td> 
@@ -61,22 +61,22 @@ Dans la description suivante des options de mode, on suppose que : *`xScale`* es
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> hfit </span> </p> </td> 
-   <td colname="col2"> <p>S’applique <span class="varname"> xScale </span> pour l’ajuster horizontalement, avec un recadrage probable ou un espace blanc en haut et/ou en bas. Utile pour les applications spéciales. </p> </td> 
+   <td colname="col2"> <p>Applique <span class="varname"> xScale </span> pour l’adapter étroitement à l’image horizontalement, avec un recadrage probable ou un espace blanc en haut et/ou en bas. Utile pour les applications spéciales. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> gilet </span> </p> </td> 
-   <td colname="col2"> <p>S’applique <span class="varname"> yScale </span> pour l’ajuster verticalement de manière stricte, avec un recadrage ou un espace blanc probables à gauche et/ou à droite. Utile pour les applications spéciales. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> vfit </span> </p> </td> 
+   <td colname="col2"> <p>Applique l’option <span class="varname"> yScale </span> pour l’ajuster verticalement à l’image, avec un recadrage probable ou un espace blanc à gauche et/ou à droite. Utile pour les applications spéciales. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Définir *`upscale`* sur &quot;1&quot; pour permettre la mise à l’échelle ou sur &quot;0&quot; pour contraindre *`xScale`*et *`yScale`* pour être limité à 1:1. Si la mise à l’échelle est désactivée, un espace blanc supplémentaire peut être présent si l’image composite est plus petite que l’image de réponse.
+Définissez *`upscale`* sur &quot;1&quot; pour permettre la mise à l’échelle ou sur &quot;0&quot; pour contraindre *`xScale`*et *`yScale`* à être limité à 1:1. Si la mise à l’échelle est désactivée, un espace blanc supplémentaire peut être présent si l’image composite est plus petite que l’image de réponse.
 
-Le recadrage et les espaces sont centrés par défaut ; leur position peut être contrôlée avec `align=`. La couleur et l’opacité du remplissage de l’espace blanc sont déterminées par `bgc=`.
+Le recadrage et l’espace blanc sont centrés par défaut ; leur position peut être contrôlée avec `align=`. La couleur et l’opacité du remplissage de l’espace blanc sont déterminées par `bgc=`.
 
 ## Propriétés {#section-6d7a5a7e18434bca9bc2fdb236af8909}
 
-Attribut d’affichage. S’applique quel que soit le paramètre de calque actif. Au moins un des `wid=` ou `hei=` doit également être spécifié, sinon une erreur est renvoyée ; les deux `wid=` et `hei=` doit être spécifié pour que les modes d’ajustement se comportent comme décrit. Une erreur est renvoyée lorsque `req=tmb` est également spécifié.
+Attribut d’affichage. S’applique quel que soit le paramètre de calque actif. Au moins un des `wid=` ou `hei=` doit également être spécifié, sinon une erreur est renvoyée ; `wid=` et `hei=` doivent être spécifiés pour que les modes d’ajustement se comportent comme décrit. Une erreur est renvoyée lorsque `req=tmb` est également spécifié.
 
 ## Par défaut {#section-3a553b4b29ef447a8331d6954f3f06da}
 

@@ -8,7 +8,7 @@ exl-id: 1c90c77c-79b7-41aa-9269-b48d966ba362
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -18,11 +18,11 @@ Profil colorimétrique d’entrée par défaut du RGB. Indique le nom du profil 
 
 ## Propriétés {#section-c22966bba03e43c08e9d3fb91bfdd465}
 
-Chaîne de texte. Si spécifié, doit être valide `icc::Name` de la carte de profil ICC de ce catalogue d’images ou du catalogue par défaut, ou d’un chemin d’accès au fichier relatif à `attribute::RootPath`. Le profil ICC référencé doit être un profil de RGB.
+Chaîne de texte. Si spécifié, doit être une valeur `icc::Name` valide provenant de la carte de profil ICC de ce catalogue d’images ou du catalogue par défaut, ou un chemin d’accès au fichier relatif à `attribute::RootPath`. Le profil ICC référencé doit être un profil de RGB.
 
 ## Par défaut {#section-0171cd6680284bfa9844b9cc3644ca61}
 
-Hérité de `default::IccProfileSrcRgb` s’il n’est pas défini ou s’il est vide. If `attribute::IccProfileSrcRgb` ne se résout pas en un profil valide, `attribute::IccProfileRgb` est utilisée à la place.
+Hérité de `default::IccProfileSrcRgb` si elle n’est pas définie ou si elle est vide. Si `attribute::IccProfileSrcRgb` ne se résout pas en un profil valide, `attribute::IccProfileRgb` est utilisé à la place.
 
 ## Voir aussi {#section-1ba91666830f4c209c39260ea29f938e}
 

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 7acd50b2-5c0c-492e-b5a8-105dc027ebcc
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 3%
+source-wordcount: '106'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ Les combinaisons de matériaux/d’objets suivantes prennent en charge une opaci
 
 * Couleur pleine et textures répétables appliquées aux objets de chevauchement de textures.
 * Fenêtre recouvrant les matériaux appliqués aux objets de cadre recouvrant la fenêtre.
-* Décals appliqués aux objets de texte ou aux objets de mur.
+* Décals appliqués aux objets de texture ou aux objets de mur.
 
 Si la matière contient une image avec un canal alpha, `opac=` peut être utilisé pour rendre l’image plus transparente, mais pas plus opaque.
 

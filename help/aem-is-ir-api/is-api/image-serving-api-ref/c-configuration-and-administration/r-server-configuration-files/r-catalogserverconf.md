@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Contient les paramètres relatifs à la gestion des catalogues d’images.
 
-Ce fichier est un fichier de propriétés JAVA. Il faut veiller à respecter les conventions appropriées ; dans le cas contraire, [!DNL Platform Server] peut ne pas démarrer. Utilisez une double barre oblique inverse &quot;\\&quot; ou une seule barre oblique inverse &quot;/&quot; au lieu d’une barre oblique inverse &quot;\&quot; dans les chemins d’accès aux fichiers Windows. La barre oblique inverse est utilisée comme caractère d’échappement dans ce type de fichier.
+Ce fichier est un fichier de propriétés JAVA. Il faut veiller à respecter les conventions appropriées ; sinon, le [!DNL Platform Server] risque de ne pas démarrer. Utilisez une double barre oblique inverse &quot;\\&quot; ou une seule barre oblique inverse &quot;/&quot; au lieu d’une barre oblique inverse &quot;\&quot; dans les chemins d’accès aux fichiers Windows. La barre oblique inverse est utilisée comme caractère d’échappement dans ce type de fichier.
 
 Les modifications apportées à ce fichier prennent effet peu de temps après l’enregistrement du fichier.
 

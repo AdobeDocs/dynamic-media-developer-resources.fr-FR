@@ -7,7 +7,7 @@ role: Developer,User
 source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
 workflow-type: tm+mt
 source-wordcount: '26'
-ht-degree: 15%
+ht-degree: 11%
 
 ---
 
@@ -21,7 +21,7 @@ Attribut de configuration de la visionneuse panoramique.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> false|true</span> </p> </td> 
-   <td colname="col2"> <p> Indique si le mode de rendu de réalité virtuelle est activé.</p> </td> 
+   <td colname="col2"> <p> Indique si le mode de rendu de la réalité virtuelle est activé.</p> </td> 
   </tr> 
  </tbody> 
 </table>

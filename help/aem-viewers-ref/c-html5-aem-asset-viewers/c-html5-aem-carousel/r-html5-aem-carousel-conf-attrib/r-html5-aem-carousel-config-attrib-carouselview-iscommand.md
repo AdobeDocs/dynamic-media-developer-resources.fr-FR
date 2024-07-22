@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 848eaed7-c150-4537-96a4-f2614162d58f
 source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 10%
+source-wordcount: '51'
+ht-degree: 7%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 10%
 <table id="table_06B5F795889E402FB6BCEA4D882E1422"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> iscommand  </span></span> </p> </td> 
-   <td colname="col2"> <p> Chaîne de commande de la diffusion d’images appliquée à l’image de bannière. Si spécifié dans l’URL, toutes les occurrences de <span class="codeph"> &amp;</span> et <span class="codeph"> =</span> doivent être codées en HTTP sous la forme <span class="codeph"> %26</span> et <span class="codeph"> %3D</span>, respectivement. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> iscommand </span></span> </p> </td> 
+   <td colname="col2"> <p> Chaîne de commande de la diffusion d’images appliquée à l’image de bannière. Si elles sont spécifiées dans l’URL, toutes les occurrences de <span class="codeph"> &amp;</span> et <span class="codeph"> =</span> doivent être codées en HTTP sous la forme <span class="codeph"> %26</span> et <span class="codeph"> %3D</span>, respectivement. </p> </td> 
   </tr> 
  </tbody> 
 </table>

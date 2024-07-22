@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 25f16a2b-6cd8-485f-a6bd-2a9bc9b3243b
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 12%
+source-wordcount: '125'
+ht-degree: 10%
 
 ---
 
@@ -23,7 +23,7 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | assetHandle | `xsd:string` | Poignée de ressource. |
-| type | `xsd:string` | Type de fichier. La constante &quot;Types de ressources&quot; définit les valeurs possibles. Facultatif. |
+| type | `xsd:string` | Type de ressource. La constante &quot;Types de ressources&quot; définit les valeurs possibles. Facultatif. |
 | nom | `xsd:string` | Nom de la ressource. Facultatif. |
 | dossier | `xsd:string` | Dossier contenant la ressource. |
 | filename | `xsd:string` | Nom de fichier de la ressource. |

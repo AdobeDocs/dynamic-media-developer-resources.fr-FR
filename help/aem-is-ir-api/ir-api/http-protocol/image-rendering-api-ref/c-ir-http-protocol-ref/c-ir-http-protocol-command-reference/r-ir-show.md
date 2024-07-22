@@ -8,7 +8,7 @@ exl-id: 4ab3dff7-c020-4088-9eb7-760f8e0a3f00
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 9%
+ht-degree: 6%
 
 ---
 
@@ -35,4 +35,4 @@ Aucun, pour aucune modification de la visibilité de l’objet.
 
 ## Voir aussi {#section-2a1a37a35dfb41758897164e14f0105f}
 
-[masquer=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-hide.md#reference-681b9782f90a45b18ed50292ab2c096c)
+[hide=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-hide.md#reference-681b9782f90a45b18ed50292ab2c096c)

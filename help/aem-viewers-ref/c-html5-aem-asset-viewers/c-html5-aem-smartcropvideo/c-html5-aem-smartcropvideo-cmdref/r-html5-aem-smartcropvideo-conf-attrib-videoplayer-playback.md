@@ -4,9 +4,10 @@ description: Attribut de configuration de la visionneuse de vidéos avec recadra
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
+exl-id: 6df94fe7-30ea-42f1-a39e-50219259a098
+source-git-commit: 8c49595fe0efb684b59601fb268bd8bf97fae555
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '124'
 ht-degree: 2%
 
 ---
@@ -21,7 +22,7 @@ Attribut de configuration de la visionneuse de vidéos avec recadrage intelligen
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|progressif</span> </p> </td> 
-   <td colname="col2"> <p> Définit le type de lecture utilisé par la visionneuse. When <span class="codeph"> auto</span> est définie sur , sur la plupart des navigateurs de bureau et tous les appareils iOS, la visionneuse utilise la vidéo en flux continu HTML5 au format HLS. Il revient à la lecture progressive de HTML5 sur certains systèmes tels qu’Internet Explorer et Android™. </p> <p>If <span class="codeph"> progressif</span> est spécifiée, la visionneuse ne repose que sur la lecture HTML5 comme prise en charge en mode natif par les navigateurs et lit la vidéo progressivement sur tous les systèmes. </p> <p>Pour plus d’informations sur la sélection de la lecture en modes automatique et progressif, consultez le Guide de l’utilisateur du SDK de la visionneuse. </p> </td> 
+   <td colname="col2"> <p> Définit le type de lecture utilisé par la visionneuse. Lorsque <span class="codeph"> auto</span> est défini, sur la plupart des navigateurs de bureau et tous les appareils iOS, la visionneuse utilise la vidéo en flux continu HTML5 au format HLS. Il revient à la lecture progressive de l’HTML5 sur certains systèmes tels qu’Internet Explorer et Android™ plus anciens. </p> <p>Si <span class="codeph"> progressif</span> est spécifié, la visionneuse ne s’appuie que sur la lecture HTML5 comme prise en charge en mode natif par les navigateurs et lit la vidéo progressivement sur tous les systèmes. </p> <p>Pour plus d’informations sur la sélection de la lecture en modes automatique et progressif, consultez le Guide de l’utilisateur du SDK de la visionneuse. </p> </td> 
   </tr> 
  </tbody> 
 </table>

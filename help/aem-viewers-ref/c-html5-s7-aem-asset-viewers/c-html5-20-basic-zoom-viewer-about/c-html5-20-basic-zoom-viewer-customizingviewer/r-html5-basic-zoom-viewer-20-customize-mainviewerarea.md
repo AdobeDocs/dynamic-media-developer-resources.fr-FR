@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: f51de2d6-0de2-4a4d-bbf4-185547e6c550
 source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 2%
+source-wordcount: '117'
+ht-degree: 0%
 
 ---
 
@@ -43,13 +43,13 @@ L’aspect de la zone d’affichage est contrôlé à l’aide du sélecteur de 
    <td colname="col2"> <p>Hauteur de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan au format hexadécimal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : pour configurer une visionneuse avec un arrière-plan blanc ( `#FFFFFF`) et sa taille est de 512 x 288 pixels.
+Exemple : pour configurer une visionneuse avec un arrière-plan blanc ( `#FFFFFF`) et faire sa taille de 512 x 288 pixels.
 
 ```
 .s7basiczoomviewer{ 

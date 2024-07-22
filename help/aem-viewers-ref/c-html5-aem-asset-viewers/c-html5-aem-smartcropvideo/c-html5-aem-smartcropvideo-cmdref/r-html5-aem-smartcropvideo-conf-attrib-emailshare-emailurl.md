@@ -4,10 +4,11 @@ description: Attribut de configuration de la visionneuse de vidéos avec recadra
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
+exl-id: 1d6e7be8-19c0-474d-b8ea-c4cbb8d8a45b
+source-git-commit: 8c49595fe0efb684b59601fb268bd8bf97fae555
 workflow-type: tm+mt
 source-wordcount: '33'
-ht-degree: 12%
+ht-degree: 9%
 
 ---
 

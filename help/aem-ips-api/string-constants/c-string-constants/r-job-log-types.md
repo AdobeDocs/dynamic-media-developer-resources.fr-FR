@@ -2,13 +2,13 @@
 description: Utilisé par JobLogDetail/logType et JobLog/logType.
 solution: Experience Manager
 title: Types de logs de traitement
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 34b1bac0-c338-437a-9d44-09dbf75088ee
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 7%
+source-wordcount: '22'
+ht-degree: 9%
 
 ---
 

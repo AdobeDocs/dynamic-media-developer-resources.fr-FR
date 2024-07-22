@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 1adc823a-07d6-447f-9560-c737d3963eb9
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 17%
+source-wordcount: '30'
+ht-degree: 10%
 
 ---
 
@@ -21,7 +21,7 @@ Attribut de configuration de la visionneuse de vidéos de supports variés.
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
    <td colname="col2"> <p> Active ou désactive l’affichage de l’animation de mise en mémoire tampon (icône d’attente). </p> </td> 
   </tr> 
  </tbody> 

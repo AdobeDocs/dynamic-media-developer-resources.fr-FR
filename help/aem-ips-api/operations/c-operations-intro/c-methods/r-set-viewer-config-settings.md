@@ -31,11 +31,11 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gérer la société. |
+| companyHandle | `xsd:string` | Oui | Traitez la société. |
 | assetHandle | `xsd:string` | Oui | Poignée de ressource. |
-| name | `xsd:string` | Oui | Nom de la ressource. |
+| nom | `xsd:string` | Oui | Nom de la ressource. |
 | type | `xsd:string` | Oui | Type de ressource auquel vous souhaitez appliquer la configuration de la visionneuse. |
-| configSettingArray | `types:ConfigSettingArray` | Oui | Le tableau de `ConfigSettings` appliquée à la ressource. |
+| configSettingArray | `types:ConfigSettingArray` | Oui | Tableau de `ConfigSettings` appliqué à la ressource. |
 
 **Sortie (setViewerConfigSettingsParam)**
 

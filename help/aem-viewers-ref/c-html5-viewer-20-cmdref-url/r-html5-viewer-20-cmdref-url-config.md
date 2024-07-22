@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 503a1fc6-7a6b-4f55-bad1-11f22435276f
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 4%
+source-wordcount: '264'
+ht-degree: 5%
 
 ---
 
@@ -21,13 +21,13 @@ Paramètre commun à toutes les visionneuses.
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> configId  </span> </span> </p> </td> 
-   <td colname="col2"> <p>Catalogue/ID pour la configuration de la visionneuse. </p> <p> Spécifie une entrée de catalogue d’images contenant les propriétés de configuration de la visionneuse dans <span class="codeph"> catalog::UserData </span>. Lorsque cette commande est présente, la visionneuse envoie une commande <span class="codeph"> req=userdata </span> pour <span class="codeph"> configId </span> au serveur et extrait les propriétés de la réponse. Les propriétés sont utilisées pour initialiser la visionneuse. Si la chaîne URL spécifie les mêmes propriétés, elles remplacent les valeurs de <span class="codeph"> catalog::UserData </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> configId </span> </span> </p> </td> 
+   <td colname="col2"> <p>Catalogue/ID pour la configuration de la visionneuse. </p> <p> Spécifie une entrée de catalogue d’images qui contient les propriétés de configuration de la visionneuse dans le catalogue <span class="codeph"> ::UserData </span>. Lorsque cette commande est présente, la visionneuse envoie une commande <span class="codeph"> req=userdata </span> pour <span class="codeph"> configId </span> au serveur et extrait les propriétés de la réponse. Les propriétés sont utilisées pour initialiser la visionneuse. Si la chaîne URL spécifie les mêmes propriétés, elles remplacent les valeurs du catalogue <span class="codeph"> ::UserData </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Toutes les commandes de visionneuse qui peuvent être spécifiées dans `catalog::UserData` s’attendent à ce que `asset`, `serverUrl`, `contentUrl`, `searchServerUrl` et `config` elles-mêmes.
+Toutes les commandes de visionneuse qui peuvent être spécifiées dans `catalog::UserData` s’attendent à `asset`, `serverUrl`, `contentUrl`, `searchServerUrl` et `config` elles-mêmes.
 
 ## Propriétés {#section-10ee45d637134e0fbcd943c62578cb78}
 
@@ -39,13 +39,13 @@ Aucune
 
 ## Exemple 1 {#section-a8afbf76f8384aa0a83ed1feeccd5b9a}
 
-Un catalogue d’images nommé 2020 contient l’entrée `preset-oct`. Le champ `catalog::UserData` de cette entrée de catalogue contient les données suivantes :
+Un catalogue d’images nommé 2020 contient l’entrée `preset-oct`. Le champ `catalog::UserData` de cette entrée de catalogue comprend les données suivantes :
 
 ```
 style=customStyle.css
 ```
 
-Chargez la visionneuse à l’aide de la commande suivante :
+Chargez la visionneuse avec la commande suivante :
 
 ```
 config=2020/preset-oct
@@ -59,14 +59,14 @@ style=customStyle.css
 
 ## Exemple 2 {#section-577fce5ddbee43fc96d88b2055df47aa}
 
-Un catalogue d’images nommé 2019 contient l’entrée `spin-oct`. Le champ `catalog::UserData` de cette entrée de catalogue contient les données suivantes :
+Un catalogue d’images nommé 2019 contient l’entrée `spin-oct`. Le champ `catalog::UserData` de cette entrée de catalogue comprend les données suivantes :
 
 ```
 zoomStep=3 
 maxZoom=200
 ```
 
-Chargez la visionneuse à l’aide de la commande suivante :
+Chargez la visionneuse avec la commande suivante :
 
 ```
 config=2019/spin-oct
@@ -86,7 +86,7 @@ Un paramètre prédéfini de visionneuse nommé `Shoppable_Banner` comprend les 
 style=etc/dam/presets/css/html5_interactiveimage.css
 ```
 
-Chargez la visionneuse à l’aide de la commande suivante :
+Chargez la visionneuse avec la commande suivante :
 
 ```
 config=/etc/dam/presets/viewer/Shoppable_Banner
@@ -104,7 +104,7 @@ Un paramètre prédéfini de visionneuse nommé `Shoppable_Video_Dark` contient 
 style=etc/dam/presets/css/html5_interactivevideo_dark.css
 ```
 
-Chargez la visionneuse à l’aide de la commande suivante :
+Chargez la visionneuse avec la commande suivante :
 
 ```
 config=/etc/dam/presets/viewer/Shoppable_Video_Dark
@@ -124,7 +124,7 @@ Un paramètre prédéfini de visionneuse nommé `Carousel_Dotted_light` contient
 style= etc/dam/presets/css/html5_carouselviewer_dotted_light.css
 ```
 
-Chargez la visionneuse à l’aide de la commande suivante :
+Chargez la visionneuse avec la commande suivante :
 
 ```
 config=/etc/dam/presets/viewer/Carousel_Dotted_light

@@ -25,11 +25,11 @@ ID Des Paramètres Régionaux De Traduction. Indique l’ID de paramètre régio
  </tr> 
 </table>
 
-Utilisation de cet identifiant et des règles spécifiées avec `attribute::LocaleMap` et `attribute::LocaleStrMap`, la diffusion d’images applique la traduction facultative de l’identifiant de catalogue et la localisation de chaîne.
+En utilisant cet identifiant et les règles spécifiées avec `attribute::LocaleMap` et `attribute::LocaleStrMap`, le serveur d’images applique la traduction facultative de l’identifiant de catalogue et la localisation de chaîne.
 
 ## Propriétés {#section-1854a9902b884d9b8e8e713b6635723f}
 
-Request, commande S’applique à l’ensemble de la requête, y compris les requêtes imbriquées/incorporées, quel que soit l’endroit où elle est spécifiée. `locId` doit inclure uniquement des caractères ASCII imprimables. Ignoré si aucune map de localisation n’est définie dans le catalogue principal de cette requête. Une erreur est renvoyée si vide ou non valide `locId` est spécifié et aucune règle par défaut n’est définie dans `attribute::DefaultLocale`.
+Request, commande S’applique à l’ensemble de la requête, y compris les requêtes imbriquées/incorporées, quel que soit l’endroit où elle est spécifiée. `locId` ne doit inclure que des caractères ASCII imprimables. Ignoré si aucune map de localisation n’est définie dans le catalogue principal de cette requête. Une erreur est renvoyée si vide ou non valide `locId` est spécifié et qu&#39;aucune règle par défaut n&#39;est définie dans `attribute::DefaultLocale`.
 
 ## Par défaut {#section-9699fbc26de6453e9029e0003c79a7ef}
 

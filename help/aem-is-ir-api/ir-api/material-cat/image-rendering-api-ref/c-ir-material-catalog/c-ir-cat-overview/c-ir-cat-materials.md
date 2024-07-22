@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Pour plus d’informations sur les matériaux utilisés par le rendu d’image, voir Matériaux dans le Guide de référence du protocole HTTP.
 
-Voir [Documents](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/c-ir-http-materials.md#concept-45af2ab5694b4cfdadf1211ce3f5ed0f).
+Voir [Matériaux](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-syntax-and-features/c-ir-http-materials/c-ir-http-materials.md#concept-45af2ab5694b4cfdadf1211ce3f5ed0f).

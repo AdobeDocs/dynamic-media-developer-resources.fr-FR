@@ -8,7 +8,7 @@ exl-id: 81348da7-6733-4da9-8a0a-376fccf791ea
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 9%
+ht-degree: 7%
 
 ---
 
@@ -26,7 +26,7 @@ L’opération renvoie une erreur d’authentification si vous ne disposez pas d
 
 ## Paramètres {#section-6a18562fc8e942af94be10bbb8c51151}
 
-**Entrée (setGroupMembersParam)**
+**Input (setGroupMembersParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -42,7 +42,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 Cet exemple de code définit l’appartenance à un groupe pour un utilisateur unique.
 
-**Request**
+**Requête**
 
 ```java
 <ns1:setGroupMembersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

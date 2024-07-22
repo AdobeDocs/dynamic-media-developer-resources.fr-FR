@@ -2,12 +2,12 @@
 description: La quantité de mémoire utilisée par le rendu d’image peut varier considérablement et dépend largement de la charge et de l’utilisation réelles du serveur (par exemple, peu de vignettes, taille et complexité des vignettes, etc.).
 solution: Experience Manager
 title: Remarques relatives à la mémoire
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 62eaa41c-a61c-4bcd-8dd9-9c3423bf82ef
 source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '129'
 ht-degree: 0%
 
 ---

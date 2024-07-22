@@ -8,7 +8,7 @@ exl-id: 569130ae-5515-4b14-a410-2bd6f9fc7638
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '118'
-ht-degree: 18%
+ht-degree: 16%
 
 ---
 
@@ -18,7 +18,7 @@ Crée un dossier.
 
 >[!NOTE]
 >
->Le nouveau dossier est Secondaire au dossier Images , même si vous spécifiez une `/` pour indiquer la racine de la société.
+>Le nouveau dossier est subordonné au dossier Images , même si vous spécifiez un `/` pour indiquer la racine de l’entreprise.
 
 Syntaxe
 
@@ -37,7 +37,7 @@ Syntaxe
 
 ## Paramètres {#section-c00d8d89cf114886a535056f2a1bf892}
 
-**Input (createFolder)**
+**Entrée (createFolder)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -54,7 +54,7 @@ Syntaxe
 
 Cet exemple de code crée un dossier à la racine d’une entreprise. La réponse renvoie le gestionnaire du dossier nouvellement créé.
 
-**Request**
+**Requête**
 
 ```java
 <ns1:createFolderParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

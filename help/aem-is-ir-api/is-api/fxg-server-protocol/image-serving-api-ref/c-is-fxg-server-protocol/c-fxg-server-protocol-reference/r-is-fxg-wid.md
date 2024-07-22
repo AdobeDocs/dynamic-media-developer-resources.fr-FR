@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 5edd045c-600e-4295-9672-04a5c3bc651d
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 2%
+source-wordcount: '173'
+ht-degree: 1%
 
 ---
 
@@ -27,11 +27,11 @@ Largeur de l’affichage. Spécifie la largeur de l’image de réponse (image d
 
 ## Par défaut {#section-830bae0b6bac440098444d7cdcb23e2e}
 
-Si aucun `wid=`, `hei=`, ou `scale=` sont spécifiées, l’image de réponse est la taille d’affichage par défaut spécifiée dans le fichier FXG.
+Si `wid=`, `hei=` et `scale=` ne sont pas spécifiés, l’image de réponse est la taille d’affichage par défaut spécifiée dans le fichier FXG.
 
-Les formats pixellisés sont rendus à l’aide de la taille d’affichage par défaut (ou du paramètre DefaultPix ). Cliquez sur **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Configuration de la publication]** > **[!UICONTROL Serveur d’images]**, puis saisissez les valeurs Largeur et Hauteur . Des tailles plus petites offrent de meilleures performances. Enregistrez vos paramètres et effectuez une publication Image Serving pour appliquer une modification.
+Les formats pixellisés sont rendus à l’aide de la taille d’affichage par défaut (ou du paramètre DefaultPix ). Cliquez sur **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Configuration de Publish]** > **[!UICONTROL Serveur d’images]**, puis entrez vos valeurs Largeur et Hauteur. Des tailles plus petites offrent de meilleures performances. Enregistrez vos paramètres et effectuez un Publish de diffusion d’images pour appliquer une modification.
 
-Si vous appliquez une `scale=1` , une requête au format de pixellisation est rendue à la taille spécifiée dans le FXG.
+Si vous appliquez une commande `scale=1`, une requête de format de pixellisation est rendue à la taille spécifiée dans le FXG.
 
 ## Exemple {#section-2f72cb2653d54c6aaacf0d97521fb72c}
 

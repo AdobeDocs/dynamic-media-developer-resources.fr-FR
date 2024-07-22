@@ -16,15 +16,15 @@ ht-degree: 0%
 
 Une demande de serveur d’images (IS) peut être utilisée comme image matérielle.
 
-Spécifiez la requête dans le `src=` comme suit :
+Spécifiez la requête dans la commande `src=` comme suit :
 
 ` …&src=is( *[!DNL imageServingRequest]*)&…`
 
-Le `is` est sensible à la casse.
+Le jeton `is` est sensible à la casse.
 
-La requête imbriquée ne doit pas inclure le chemin racine du serveur d’images (généralement [!DNL http:// *[!DNL server]*/is/image/"]), mais peut inclure des jetons de règle de prétraitement.
+La requête imbriquée ne doit pas inclure le chemin racine du serveur d’images (généralement  [!DNL http:// *[!DNL server]*/is/image/"]), mais peut inclure des jetons de règle de prétraitement.
 
-Les commandes IS suivantes sont ignorées lorsqu’elles sont spécifiées dans des requêtes imbriquées (dans l’URL de la requête ou dans `catalog::Modifier` ou `catalog::PostModifier`) :
+Les commandes IS suivantes sont ignorées lorsqu’elles sont spécifiées dans des requêtes imbriquées (soit dans l’URL de la requête, soit dans `catalog::Modifier` ou `catalog::PostModifier`) :
 
 * `bgc=`
 * `fmt=`
@@ -35,7 +35,7 @@ Les commandes IS suivantes sont ignorées lorsqu’elles sont spécifiées dans 
 * `quantize=`
 * `req=`
 
-Également ignorés `attribute::MaxPix` et `attribute::DefaultPix` du catalogue d’images qui s’applique à la requête IS incorporée.
+`attribute::MaxPix` et `attribute::DefaultPix` du catalogue d’images qui s’applique à la requête IS incorporée sont également ignorés.
 
 Si l’image de résultat de la requête imbriquée inclut des données de masque (alpha), elle est toujours transmise à la matière. Utilisez un calque d’image d’arrière-plan couleur uni pour éviter les couches alpha indésirables.
 

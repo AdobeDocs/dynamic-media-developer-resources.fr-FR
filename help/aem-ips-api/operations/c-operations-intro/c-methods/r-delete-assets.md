@@ -2,13 +2,13 @@
 description: Supprime plusieurs ressources.
 solution: Experience Manager
 title: deleteAssets
-feature: Dynamic Media Classic,SDK/API,Gestion des ressources
+feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 487f83e6-f713-40e9-a442-e1179b30012c
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 15%
+source-wordcount: '176'
+ht-degree: 10%
 
 ---
 
@@ -56,7 +56,7 @@ Syntaxe
  </tbody> 
 </table>
 
-**Sortie (deleteAssetsParam)**
+**Output (deleteAssetsParam)**
 
 <table id="table_0C6D8D51A79248ACA2022DBB754A9B9C"> 
  <thead> 
@@ -105,7 +105,7 @@ Syntaxe
 
 Cet exemple de code envoie une poignée à une entreprise et un tableau de gestionnaires de ressources dans une requête `deleteAssetsParam` au serveur de services Web. `deleteAssetsReturn` renvoie un nombre de succès de 2, indiquant que les deux ressources ont été supprimées.
 
-**Request**
+**Requête**
 
 ```java
 <deleteAssetsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

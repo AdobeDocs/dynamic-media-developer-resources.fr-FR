@@ -1,5 +1,5 @@
 ---
-description: Propriétés d’une ressource de fichier de transformation XML.
+description: Propriétés d’un fichier de transformation XML.
 solution: Experience Manager
 title: XslInfo
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 39fc2c37-80e8-42f5-aef1-9dca57bf8cff
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '29'
-ht-degree: 24%
+ht-degree: 17%
 
 ---
 
 # [!DNL XslInfo]{#xslinfo}
 
-Propriétés d’une ressource de fichier de transformation XML.
+Propriétés d’un fichier de transformation XML.
 
 Syntaxe
 
@@ -24,4 +24,4 @@ Syntaxe
 |---|---|---|
 | originalPath | `xsd:string` | Chemin du fichier. |
 | originalFile | `xsd:string` | Nom du fichier. |
-| fileSize | `xsd:int` | Taille du fichier. |
+| fileSize | `xsd:int` | Taille de fichier. |

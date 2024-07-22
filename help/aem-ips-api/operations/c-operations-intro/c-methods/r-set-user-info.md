@@ -8,7 +8,7 @@ exl-id: d8f8fe53-a874-4b77-9084-9a369862a672
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 20%
+ht-degree: 18%
 
 ---
 
@@ -35,7 +35,7 @@ Syntaxe
 | firstName | `xsd:string` | Oui | Prénom. |
 | lastName | `xsd:string` | Oui | Nom. |
 | e-mail | `xsd:string` | Oui | Adresse électronique de l’utilisateur. |
-| defaultRole | `xsd:string` | Oui | Définit le rôle d’un utilisateur dans chaque société à laquelle il appartient. Notez toutefois que la variable `IpsAdmin` Le rôle remplace les autres paramètres par entreprise. |
+| defaultRole | `xsd:string` | Oui | Définit le rôle d’un utilisateur dans chaque société à laquelle il appartient. Notez toutefois que le rôle `IpsAdmin` remplace d’autres paramètres par entreprise. |
 | passwordExpires | `xsd:dateTime` | Non | Définissez la date d’expiration du mot de passe. |
 | isValid | `xsd:boolean` | Oui | Détermine si l’utilisateur est un utilisateur IPS valide. |
 | membershipArray | `types:CompanyMembershipUpdateArray` | Oui | Un tableau de gestionnaires de société. |
@@ -46,7 +46,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-272c103076fb4de0a53729e2f6bfb895}
 
-**Request**
+**Requête**
 
 ```java
 <setUserInfoParam xmlns="http://www.scene7.com/IpsApi/xsd">

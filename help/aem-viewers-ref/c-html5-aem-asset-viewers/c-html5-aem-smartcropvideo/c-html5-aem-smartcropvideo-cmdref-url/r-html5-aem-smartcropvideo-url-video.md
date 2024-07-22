@@ -4,10 +4,11 @@ description: Commande URL pour la visionneuse de vidéos avec recadrage intellig
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 7292f4e6-b687-4dfd-8806-aba364192b75
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 13%
+source-wordcount: '42'
+ht-degree: 11%
 
 ---
 
@@ -28,7 +29,7 @@ Commande URL pour la visionneuse de vidéos avec recadrage intelligent.
 
 ## Propriétés {#section-f42369774e2740dcb399626a0e4e930e}
 
-Obligatoire. (sauf `asset` est utilisé. Voir [Prise en charge des vidéos externes]
+Obligatoire. (Sauf si le paramètre `asset` est utilisé. Voir [Prise en charge des vidéos externes]
 (../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3).
 
 ## Par défaut {#section-d016470e92a74f98a18c4ab3489410a5}

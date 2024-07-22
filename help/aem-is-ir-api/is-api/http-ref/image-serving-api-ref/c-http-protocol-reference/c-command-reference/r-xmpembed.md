@@ -24,9 +24,9 @@ Incorporer XMP métadonnées. Indique si XMP métadonnées doivent être incluse
 
 ## Propriétés {#section-27024c4272f44d9a8c264a0629193af2}
 
-Attribut de requête. Ignoré si l’image source ne contient pas XMP données. Uniquement XMP données provenant de l’image source de `layer=0` sont traitées. Les données XMP d’autres images de calque sont ignorées.
+Attribut de requête. Ignoré si l’image source ne contient pas XMP données. Seules les données XMP de l’image source de `layer=0` sont traitées. Les données XMP d’autres images de calque sont ignorées.
 
-Ignoré si le format d’image de sortie ne prend pas en charge XMP incorporation. Reportez-vous à la description de `fmt=` pour obtenir une liste des formats d’image de sortie qui prennent en charge l’incorporation XMP.
+Ignoré si le format d’image de sortie ne prend pas en charge XMP incorporation. Reportez-vous à la description de `fmt=` pour obtenir la liste des formats d’image de sortie qui prennent en charge XMP’incorporation.
 
 ## Par défaut {#section-aedbedd04d664ba184b2cfe35644b960}
 

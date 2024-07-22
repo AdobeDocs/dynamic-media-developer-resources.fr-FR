@@ -8,7 +8,7 @@ exl-id: 37945115-c93d-4f59-b3d3-a2c4ee7fc990
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
 source-wordcount: '98'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ En règle générale, un identifiant d’image court et unique, tel qu’un num�
 
 ## Propriétés {#id-properties}
 
-Chaîne de texte. Obligatoire. Clé d’index Principal pour la table de données image. Chaque valeur catalog::Id doit être unique dans le tableau.
+Chaîne de texte. Obligatoire. Clé d’index de Principal pour la table de données image. Chaque valeur catalog::Id doit être unique dans le tableau.
 
 ## Par défaut {#id-default}
 

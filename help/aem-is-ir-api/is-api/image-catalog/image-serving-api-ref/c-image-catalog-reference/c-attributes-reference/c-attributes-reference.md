@@ -2,13 +2,13 @@
 description: Tous les attributs de catalogue sont facultatifs, à l’exception de l’identifiant racine du catalogue.
 solution: Experience Manager
 title: Référence des attributs
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d0c8e808-d887-4bad-bbb5-f36a19ab4df2
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 3%
+source-wordcount: '99'
+ht-degree: 2%
 
 ---
 
@@ -68,14 +68,14 @@ Tous les attributs sont requis dans le fichier d’attributs de catalogue par d�
 * [Résolution](r-resolution.md)
 * [RootId](r-rootid.md)
 * [RootPath](r-rootpath.md)
-* [RootUrl](r-rooturl.md)
+* [RootURL](r-rooturl.md)
 * [RuleSetFile](r-rulesetfile.md)
 * [SavePath](r-savepath.md)
 * [StaticContentCatalogFile](r-staticcontentcatalogfile.md)
 * [StaticContentRootPath](r-staticcontentrootpath.md)
 * [SvgCatalogFile](r-svgcatalogfile.md)
 * [SynthizeFontStyles](r-synthesizefontstyles.md)
-* [ThumbBkgColor](r-thumbbkgcolor.md)
+* [BkgColor](r-thumbbkgcolor.md)
 * [ThumbHorizAlign](r-thumbhorizalign.md)
 * [ThumbRes](r-thumbres.md)
 * [ThumbType](r-thumbtype.md)

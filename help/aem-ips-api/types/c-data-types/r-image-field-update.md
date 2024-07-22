@@ -1,5 +1,5 @@
 ---
-description: Met à jour le champ d’image associé à une ressource d’image.
+description: Met à jour le champ d’image associé à une ressource image.
 solution: Experience Manager
 title: ImageFieldUpdate
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # [!DNL ImageFieldUpdate]{#imagefieldupdate}
 
-Met à jour le champ d’image associé à une ressource d’image.
+Met à jour le champ d’image associé à une ressource image.
 
 Syntaxe
 
@@ -26,4 +26,4 @@ Syntaxe
 | [!DNL resolution] | `xsd:double` | Résolution de l’image en pixels par pouce. |
 | [!DNL anchorX] | `xsd:int` | ancre d’image de l’axe X. |
 | [!DNL anchorY] | `xsd:int` | ancre d’image de l’axe Y. |
-| [!DNL userData] | `xsd:string` | Valeur de `userData` champ de métadonnées, qui est publié dans le champ de catalogue de données utilisateur de diffusion d’images. |
+| [!DNL userData] | `xsd:string` | Valeur du champ de métadonnées `userData`, qui est publié dans le champ du catalogue de données utilisateur de diffusion d’images. |

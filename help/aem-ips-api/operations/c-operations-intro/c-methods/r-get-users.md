@@ -8,7 +8,7 @@ exl-id: dfdcbcdd-232f-4c73-9520-c7c958eedf54
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
@@ -26,11 +26,11 @@ Obtient un tableau d’utilisateurs tel que spécifié par les gestionnaires de 
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| includeInactive | `xsd:boolean` | Non | Incluez ou excluez les utilisateurs inactifs. Les utilisateurs non administrateurs d’IPS doivent être un membre principal d’au moins une société pour être autorisés à effectuer des appels d’API. Une erreur d’autorisation est renvoyée si l’utilisateur n’a pas d’appartenances principales à la société. |
+| includeInactive | `xsd:boolean` | Non | Incluez ou excluez les utilisateurs inactifs. Les utilisateurs non administrateurs d’IPS doivent être membres actifs d’au moins une société pour être autorisés à effectuer des appels d’API. Une erreur d’autorisation est renvoyée si l’utilisateur n’a aucun abonnement actif à la société. |
 | includeInvalid | `xsd:boolean` | Non | Vous permet d’inclure/d’exclure des utilisateurs non valides. |
 | companyHandleArray | `types:HandleArray` | Non | Filtrez les résultats par société. |
 | groupHandleArray | `types:HandleArray` | Non | Filtrage des résultats par groupe. |
-| userRoleArray | `types:StringArray` | Non | Filtrage des résultats par rôle d’utilisateur. |
+| userRoleArray | `types:StringArray` | Non | Filtrage des résultats par rôle utilisateur. |
 | charFilterField | `xsd:string` | Non | Filtrage des résultats par préfixe de chaîne du champ (voir [!DNL Trash State).] |
 | charFilter | `xsd:string` | Non | Filtrez les résultats selon un caractère spécifique. |
 | sortBy | `xsd:string` | Non | Choix des champs de tri des utilisateurs. |
@@ -47,7 +47,7 @@ Obtient un tableau d’utilisateurs tel que spécifié par les gestionnaires de 
 
 Cet exemple de code renvoie le tableau des utilisateurs pour plusieurs paramètres facultatifs. Les rôles utilisateur, les champs de filtre de caractères utilisateur et les champs de tri utilisateur sont déterminés à l’aide de constantes de chaîne spécifiques.
 
-**Request**
+**Requête**
 
 ```java
 <ns1:getUsersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

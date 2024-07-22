@@ -8,7 +8,7 @@ exl-id: ac5f5667-6c94-425c-bc01-f9df48d16e00
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '57'
-ht-degree: 28%
+ht-degree: 24%
 
 ---
 
@@ -30,11 +30,11 @@ Syntaxe
 
 ## Paramètres {#section-b9d1413811c24566b6d095701f0f66db}
 
-**Entrée (getUniqueMetadataValuesParam)**
+**Input (getUniqueMetadataValuesParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gérer la société. |
+| companyHandle | `xsd:string` | Oui | Traitez la société. |
 | fieldHandle | `xsd:string` | Non | Traitement du champ de métadonnées. |
 
 **Sortie (getUniqueMetadataValuesReturn)**
@@ -47,7 +47,7 @@ Syntaxe
 
 Cet exemple de code utilise une poignée de champ pour renvoyer des valeurs de métadonnées spécifiques.
 
-**Request**
+**Requête**
 
 ```java
 <ns1:getUniqueMetadataValuesParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

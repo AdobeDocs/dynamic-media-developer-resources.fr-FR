@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: c04c4b8f-4e63-4e84-98c0-aa0781608130
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 2%
+source-wordcount: '644'
+ht-degree: 0%
 
 ---
 
@@ -37,8 +37,8 @@ L’aspect de la vue principale est contrôlé à l’aide du sélecteur de clas
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
-   <td colname="col2"> <p> Couleur d’arrière-plan de la vue principale. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> Couleur de fond de la vue principale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,11 +68,11 @@ L’aspect de la vue déroulante est contrôlé à l’aide du sélecteur de cla
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> gauche </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
    <td colname="col2"> <p> Position horizontale de la vue déroulante, par rapport au coin supérieur gauche de la vue principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> haut </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> Position verticale de la vue déroulante, par rapport au coin supérieur gauche de la vue principale. </p> </td> 
   </tr> 
   <tr> 
@@ -120,12 +120,12 @@ Il est possible de contrôler l’arrière-plan, la bordure, la transparence et 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Couleur du surlignage. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opacité </span> </p> </td> 
-   <td colname="col2"> <p> Mettre l’opacité en surbrillance. </p> <p>Pour Internet Explorer 8, utilisez <span class="codeph"> filter:alpha(opacity-..) ); </span> </p> </td> 
+   <td colname="col2"> <p> Mettre l’opacité en évidence. </p> <p>Pour Internet Explorer 8, utilisez <span class="codeph"> filter:alpha(opacity-...) ); </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bordure </span> </p> </td> 
@@ -147,7 +147,7 @@ Exemple : pour configurer une mise en surbrillance verte avec une transparence d
 
 **Propriétés CSS du curseur**
 
-When `highlightmode` est défini sur `cursor`, les mises en surbrillance se trouvent dans la vue principale et sont remplacées par l’illustration du curseur à taille fixe, qui est contrôlée par le sélecteur de classe CSS :
+Lorsque le paramètre `highlightmode` est défini sur `cursor`, les surbrillances sont remplacées dans la vue principale par l’illustration du curseur à taille fixe, qui est contrôlée par le sélecteur de classe CSS :
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
@@ -183,11 +183,11 @@ Les propriétés CSS applicables incluent :
 
 >[!NOTE]
 >
->Le curseur prend en charge la fonction `input` le sélecteur d’attributs, qui peut être utilisé pour appliquer une illustration et une taille de curseur différentes pour différents appareils. En particulier, `input="mouse"` correspond aux systèmes de bureau et `input="touch"` correspond aux appareils tactiles.
+>Le curseur prend en charge le sélecteur d’attributs `input`, qui peut être utilisé pour appliquer une illustration et une taille de curseur différentes pour différents appareils. En particulier, `input="mouse"` correspond aux systèmes de bureau et `input="touch"` aux appareils tactiles.
 
-**Propriétés CSS de la superposition**
+**Propriétés CSS de l’incrustation**
 
-Lorsque la variable `overlay` est défini sur `1`, la zone autour du cadre de surbrillance ou de l’image du curseur est contrôlée par le sélecteur de classe CSS :
+Lorsque le paramètre `overlay` est défini sur `1`, la zone autour du cadre de mise en surbrillance ou de l’image du curseur est contrôlée par le sélecteur de classe CSS :
 
 ```
  .s7flyoutviewer .s7flyoutzoomview 
@@ -203,8 +203,8 @@ Lorsque la variable `overlay` est défini sur `1`, la zone autour du cadre de su
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
-   <td colname="col2"> <p>Couleur de la superposition. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>Couleur de recouvrement. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opacité </span> </p> </td> 
@@ -221,7 +221,7 @@ L’aspect du message d’info-bulle est contrôlé à l’aide du sélecteur de
 .s7flyoutviewer .s7flyoutzoomview .s7tip
 ```
 
-Il est possible de configurer le style, la taille, l’aspect et le décalage vertical de la police au moyen de CSS. Cependant, l’alignement horizontal est géré par la logique de la visionneuse. Le remplacer par CSS à l’aide de `left` ou `right` ne sont pas prises en charge.
+Il est possible de configurer le style, la taille, l’aspect et le décalage vertical de la police au moyen de CSS. Toutefois, l’alignement horizontal est géré par la logique de la visionneuse. Le remplacement de cet élément par une feuille CSS utilisant les propriétés `left` ou `right` n’est pas pris en charge.
 
 <table id="table_DCF6B69A9D8C4DB7A10C4572F7484799"> 
  <thead> 
@@ -232,7 +232,7 @@ Il est possible de configurer le style, la taille, l’aspect et le décalage ve
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bas </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p>Décalage à partir du bas de la vue principale. </p> </td> 
   </tr> 
   <tr> 
@@ -248,11 +248,11 @@ Il est possible de configurer le style, la taille, l’aspect et le décalage ve
    <td colname="col2"> <p>Taille de police. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p>Marge intérieure autour du texte du message. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Couleur de fond du texte du message. </p> </td> 
   </tr> 
   <tr> 
@@ -261,7 +261,7 @@ Il est possible de configurer le style, la taille, l’aspect et le décalage ve
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> opacité </span> </p> </td> 
-   <td colname="col2"> <p>Opacité de l’arrière-plan du texte du message. </p> <p>Pour Internet Explorer 8, utilisez <span class="codeph"> filter:alpha(opacity-...) ) </span> </p> </td> 
+   <td colname="col2"> <p>Opacité en arrière-plan du texte du message. </p> <p>Pour Internet Explorer 8, utilisez <span class="codeph"> filter:alpha(opacity-...) ) </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>

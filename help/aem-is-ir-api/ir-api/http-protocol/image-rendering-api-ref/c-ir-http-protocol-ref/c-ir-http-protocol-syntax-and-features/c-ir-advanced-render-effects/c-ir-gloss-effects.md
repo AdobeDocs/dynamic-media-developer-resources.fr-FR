@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Si cette option est activée dans la vignette, le moteur de rendu modifie l’algorithme d’éclairage pour simuler une variation de la brillance du matériau (principalement en contrôlant le contraste).
 
-Cet effet est indépendant du rendu de la réflexion et le complète en simulant des réflexions spéculaires. L’effet est contrôlé avec la même `gloss=`, `glossmap=`, et `type=` attributs utilisés pour contrôler les réflexions.
+Cet effet est indépendant du rendu de la réflexion et le complète en simulant des réflexions spéculaires. L’effet est contrôlé avec les mêmes attributs `gloss=`, `glossmap=` et `type=` utilisés pour contrôler les reflets.

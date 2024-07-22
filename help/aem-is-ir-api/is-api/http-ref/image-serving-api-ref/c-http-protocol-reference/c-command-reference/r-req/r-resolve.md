@@ -18,6 +18,6 @@ Requête de débogage. Cette commande de débogage analyse et prétraite la requ
 
 `req=resolve`
 
-La chaîne de requête finale est renvoyée, au lieu de l’image de résultat, avec le type MIME . `text/plain`.
+La chaîne de requête finale est renvoyée, au lieu de l’image de résultat, avec le type MIME `text/plain`.
 
 La réponse HTTP ne peut pas être mise en cache.

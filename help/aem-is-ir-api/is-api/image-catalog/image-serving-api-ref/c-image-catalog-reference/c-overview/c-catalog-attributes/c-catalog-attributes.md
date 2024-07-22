@@ -2,12 +2,12 @@
 description: Les attributs décrits dans cette section sont reconnus dans les fichiers d’attributs du catalogue.
 solution: Experience Manager
 title: Attributs du catalogue
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 591dbbbf-770b-4566-9dc2-9f1eefe438e4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '47'
 ht-degree: 0%
 
 ---

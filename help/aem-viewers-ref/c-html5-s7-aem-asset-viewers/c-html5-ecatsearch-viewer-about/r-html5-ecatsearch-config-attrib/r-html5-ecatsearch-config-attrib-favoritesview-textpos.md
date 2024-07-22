@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td colname="col2"> <p> Indique l’endroit où le libellé est tracé par rapport à l’image miniature. En d’autres termes, le libellé est centré à l’emplacement spécifié par rapport à la miniature. </p> <p>Lorsqu’une <span class="codeph"> tooltip</span> est spécifiée, le texte du libellé s’affiche sous la forme d’une info-bulle flottante sur l’image miniature. </p> <p>Lorsque la variable est définie sur <span class="codeph"> none</span>, cela désactive l’affichage des libellés. </p> </td> 
+   <td colname="col2"> <p> Indique l’endroit où le libellé est tracé par rapport à l’image miniature. En d’autres termes, le libellé est centré à l’emplacement spécifié par rapport à la miniature. </p> <p>Lorsqu’une info-bulle <span class="codeph"></span> est spécifiée, le texte du libellé s’affiche sous la forme d’une info-bulle flottante sur l’image miniature. </p> <p>Lorsqu’elle est définie sur <span class="codeph"> none</span>, elle désactive l’affichage des étiquettes. </p> </td> 
   </tr> 
  </tbody> 
 </table>

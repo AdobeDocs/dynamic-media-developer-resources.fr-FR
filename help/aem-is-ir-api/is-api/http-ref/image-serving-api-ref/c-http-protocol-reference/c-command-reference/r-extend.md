@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 03db6555-6851-49d4-b0de-5570bf56ad76
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '233'
 ht-degree: 1%
 
 ---
@@ -31,11 +31,11 @@ ht-degree: 1%
  </tr> 
 </table>
 
-`extend=` s’applique au calque *after* l’image est recadrée ( `crop=`) et toutes les transformations de calque, y compris `rotate=`, ont été appliqués.
+`extend=` est appliqué au calque *après* le recadrage de l’image ( `crop=`) et toutes les transformations de calque, y compris `rotate=`, ont été appliquées.
 
-La zone étendue est remplie de `bgColor=`ou, si elle n’est pas spécifiée, reste transparente.
+La zone étendue est remplie avec `bgColor=` ou, si elle n’est pas spécifiée, reste transparente.
 
-Valeurs d’argument pour `extendN=` sont normalisées par rapport à la taille du calque rect après les transformations de calque, y compris `rotate=` ont été appliquées.
+Les valeurs d’argument pour `extendN=` sont normalisées par rapport à la taille de la recette de calque après les transformations de calque, y compris `rotate=`, ont été appliquées.
 
 ## Propriétés {#section-8fc94de871f841f3bf5e1df135972ca9}
 
@@ -47,7 +47,7 @@ Attribut de calque. S’applique au calque 0 si `layer=comp`. Ignoré par les ca
 
 ## Exemples {#section-cc6d8e76f3dd4607ac31cb095d86c9fe}
 
-**Recadrez une image, puis ajoutez une bordure rouge de 5 pixels de large :**
+**Recadrer une image, puis ajouter une bordure rouge de 5 pixels de large :**
 
 `…&cropN=.2,.3,.8,.9&extend=5,5,5,5&bgColor=255,0,0&…`
 

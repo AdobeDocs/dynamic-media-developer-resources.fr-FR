@@ -20,8 +20,8 @@ Si un attribut particulier est introuvable dans un catalogue d’images spécifi
 
 En outre, le catalogue par défaut fournit tous les attributs et enregistrements de données (macros, polices, profils ICC, règles de prétraitement des demandes) lorsqu’aucun catalogue d’images spécifique n’est impliqué dans une opération.
 
-Pour un bon fonctionnement de la fonction [!DNL Platform Server] le fichier d’attributs de catalogue du catalogue par défaut doit être nommé [!DNL default.ini], doit toujours exister dans le dossier de catalogue et doit être entièrement renseigné avec tous les attributs requis, à l’exception de `attribute::RootId` et les références aux différents fichiers de données de catalogue, qui sont tous facultatifs.
+Pour que le [!DNL Platform Server] fonctionne correctement, le fichier d’attributs de catalogue du catalogue par défaut doit être nommé [!DNL default.ini], doit toujours exister dans le dossier de catalogue et doit être entièrement renseigné avec tous les attributs requis, à l’exclusion de `attribute::RootId` et des références aux différents fichiers de données de catalogue, qui sont tous facultatifs.
 
 >[!NOTE]
 >
->Tous les fichiers d’attributs du catalogue sauf [!DNL default.ini] doit contenir une variable `attribute::RootId` . `attribute::RootId` in [!DNL default.ini] doit être vide.
+>Tous les fichiers d’attributs de catalogue à l’exception de [!DNL default.ini] doivent contenir une valeur `attribute::RootId` unique. `attribute::RootId` dans [!DNL default.ini] doit être vide.

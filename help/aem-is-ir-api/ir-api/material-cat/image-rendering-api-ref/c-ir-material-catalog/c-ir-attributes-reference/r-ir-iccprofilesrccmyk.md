@@ -8,7 +8,7 @@ exl-id: 09be34c8-facc-40c3-ba15-c48bd93b3be1
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -18,11 +18,11 @@ Profil colorimétrique d’entrée par défaut CMJN. Spécifie le nom du profil 
 
 ## Propriétés {#section-0cee77438d914c319ec876edb3490821}
 
-Chaîne de texte. Si spécifié, doit être valide `icc::Name` de la carte de profil ICC de ce catalogue d’images ou du catalogue par défaut, ou d’un chemin d’accès au fichier relatif à `attribute::RootPath`. Le profil ICC référencé doit être un profil CMJN.
+Chaîne de texte. Si spécifié, doit être une valeur `icc::Name` valide provenant de la carte de profil ICC de ce catalogue d’images ou du catalogue par défaut, ou un chemin d’accès au fichier relatif à `attribute::RootPath`. Le profil ICC référencé doit être un profil CMJN.
 
 ## Par défaut {#section-11f6239e0dd14827abf4a95c1b30161c}
 
-Hérité de `default::IccProfileSrcCmyk` s’il n’est pas défini ou s’il est vide. If `attribute::IccProfileSrcCmyk` ne se résout pas en un profil valide, `attribute::IccProfileCmyk` est utilisée à la place.
+Hérité de `default::IccProfileSrcCmyk` si elle n’est pas définie ou si elle est vide. Si `attribute::IccProfileSrcCmyk` ne se résout pas en un profil valide, `attribute::IccProfileCmyk` est utilisé à la place.
 
 ## Voir aussi {#section-88adddd70265459a9a5d2f50829a4ba7}
 

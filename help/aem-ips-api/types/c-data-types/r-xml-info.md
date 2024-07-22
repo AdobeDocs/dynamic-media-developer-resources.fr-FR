@@ -1,5 +1,5 @@
 ---
-description: Propriétés d’une ressource de fichier XML.
+description: Propriétés d’un fichier XML.
 solution: Experience Manager
 title: XmlInfo
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 1cf9bea9-6279-4b2a-a0cc-81cc71fb601d
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '27'
-ht-degree: 25%
+ht-degree: 18%
 
 ---
 
 # [!DNL XmlInfo]{#xmlinfo}
 
-Propriétés d’une ressource de fichier XML.
+Propriétés d’un fichier XML.
 
 Syntaxe
 
@@ -24,4 +24,4 @@ Syntaxe
 |---|---|---|
 | originalPath | `xsd:string` | Chemin du fichier. |
 | originalFile | `xsd:string` | Nom du fichier. |
-| fileSize | `xsd:int` | Taille du fichier. |
+| fileSize | `xsd:int` | Taille de fichier. |

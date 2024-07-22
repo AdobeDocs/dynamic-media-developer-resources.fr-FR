@@ -22,7 +22,7 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| name | `xsd:string` | Nom de l’entrée. |
+| nom | `xsd:string` | Nom de l’entrée. |
 | isDirectory | `xsd:boolean` | Détermine si l’entrée est un répertoire. |
 | lastModified | `xsd:dateTime` | Date et heure de la dernière modification. |
 | compresséSize | `xsd:long` | Taille compressée. |

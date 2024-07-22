@@ -20,4 +20,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| éléments | `types:CompanyMembershipUpdate` |  |
+| éléments | `types:CompanyMembershipUpdate` | |

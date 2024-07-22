@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: c91f33bd-92d5-4b00-8910-572f08255f8c
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 30%
+source-wordcount: '29'
+ht-degree: 10%
 
 ---
 
@@ -21,7 +21,7 @@ Attribut de configuration de la visionneuse Video360.
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
    <td colname="col2"> <p> Indique si la lecture de la vidéo doit être à nouveau effectuée une fois la lecture terminée. </p> </td> 
   </tr> 
  </tbody> 

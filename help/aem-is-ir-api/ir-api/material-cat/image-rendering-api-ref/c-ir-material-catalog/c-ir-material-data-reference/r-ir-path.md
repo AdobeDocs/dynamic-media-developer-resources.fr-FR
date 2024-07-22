@@ -8,7 +8,7 @@ exl-id: 28758709-26ae-4261-b11e-34e37b9d1b8c
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Chemin du fichier image. Chemin d’accès relatif et nom d’un fichier de texture ou d’image décorative.
 
-Le serveur combine cette valeur avec la variable `attribute::RootPath` pour créer le chemin d’accès au fichier image. Peut également être un chemin absolu.
+Le serveur combine cette valeur avec `attribute::RootPath` pour créer le chemin d’accès au fichier image réel. Peut également être un chemin absolu.
 
 Utilisé pour spécifier le fichier image de texture pour les matériaux de texture, les armoires et les fenêtres, ainsi que le fichier image RGB ou RGBA pour les matériaux de bordure décale et mur. Toutes les armoires et les fenêtres recouvrant les matériaux ne nécessitent pas une image de texture répétable distincte.
 
@@ -38,4 +38,4 @@ Aucune
 
 ## Voir aussi {#section-1bf37fab8e5f4c42a03b785abafc53bd}
 
-[Utilitaire IC](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) , [attribute::RootPath](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md), [src=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md)
+[IC Utility](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) , [attribute::RootPath](/help/aem-is-ir-api/ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootpath.md), [src=](/help/aem-is-ir-api/ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md)

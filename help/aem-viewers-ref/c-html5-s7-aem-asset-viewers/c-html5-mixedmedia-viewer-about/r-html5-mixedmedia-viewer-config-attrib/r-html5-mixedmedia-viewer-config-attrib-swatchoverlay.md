@@ -1,18 +1,18 @@
 ---
-title: swatchoverlay
-description: swatchoverlay
+title: swatchover
+description: swatchover
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: cf9ad105-8851-49f5-ba6c-96d588f4fd58
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 8%
+source-wordcount: '62'
+ht-degree: 4%
 
 ---
 
-# swatchoverlay{#swatchoverlay}
+# swatchover{#swatchoverlay}
 
 `swatchoverlay=0|1`
 
@@ -20,7 +20,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>Indique la disposition de la visionneuse sur les périphériques tactiles. Lorsque le paramètre est défini sur <span class="codeph"> 1 </span>, la visionneuse affiche les échantillons sous la vue principale sur le bureau ; sur les périphériques tactiles, les échantillons sont superposés au-dessus de la vue principale. </p> <p>Lorsque le paramètre est défini sur <span class="codeph"> 0 </span>, les échantillons sont rendus sous la vue principale sur tous les types d’appareils. </p> </td> 
+   <td colname="col2"> <p>Indique la disposition de la visionneuse sur les périphériques tactiles. Lorsque le paramètre est défini sur <span class="codeph"> 1 </span>, la visionneuse affiche les échantillons sous la vue principale sur le bureau ; sur les appareils tactiles, les échantillons sont superposés au-dessus de la vue principale. </p> <p>Lorsque le paramètre est défini sur <span class="codeph"> 0 </span>, les échantillons sont rendus sous la vue principale sur tous les types d’appareils. </p> </td> 
   </tr> 
  </tbody> 
 </table>

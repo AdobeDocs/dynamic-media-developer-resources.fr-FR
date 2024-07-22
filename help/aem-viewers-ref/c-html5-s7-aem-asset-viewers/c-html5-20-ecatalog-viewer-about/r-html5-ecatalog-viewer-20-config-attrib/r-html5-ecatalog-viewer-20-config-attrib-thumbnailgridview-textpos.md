@@ -8,7 +8,7 @@ exl-id: 916bc2a7-df21-459c-bf89-4daee9333479
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '63'
-ht-degree: 6%
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td> <p> Indique l’endroit où le libellé est tracé par rapport à l’image miniature. En d’autres termes, le libellé est centré à l’emplacement spécifié par rapport à la miniature. </p> <p>When <span class="codeph"> tooltip</span> est spécifiée, le texte du libellé s’affiche sous la forme d’une info-bulle flottante sur l’image miniature. Définissez sur . <span class="codeph"> none</span> pour désactiver le libellé. </p> </td> 
+   <td> <p> Indique l’endroit où le libellé est tracé par rapport à l’image miniature. En d’autres termes, le libellé est centré à l’emplacement spécifié par rapport à la miniature. </p> <p>Lorsque <span class="codeph"> tooltip</span> est spécifié, le texte du libellé s’affiche sous la forme d’une info-bulle flottante au-dessus de l’image miniature. Définissez cette variable sur <span class="codeph"> none</span> pour désactiver le libellé. </p> </td> 
   </tr> 
  </tbody> 
 </table>

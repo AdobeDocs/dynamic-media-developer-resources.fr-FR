@@ -1,5 +1,5 @@
 ---
-description: Mise à jour de l’image miniature.
+description: Mise à jour des images miniatures.
 solution: Experience Manager
 title: ThumbAssetUpdate
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 26%
 
 # [!DNL ThumbAssetUpdate]{#thumbassetupdate}
 
-Mise à jour de l’image miniature.
+Mise à jour des images miniatures.
 
 Syntaxe
 

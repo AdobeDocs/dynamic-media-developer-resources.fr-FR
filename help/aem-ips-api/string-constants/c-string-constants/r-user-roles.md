@@ -2,13 +2,13 @@
 description: Décrit les valeurs utilisées par différents paramètres. Consultez la liste de cet article pour plus de détails
 solution: Experience Manager
 title: Rôles utilisateur
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f94443ba-7715-4790-bd2a-120e0cb8848e
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '41'
-ht-degree: 4%
+source-wordcount: '36'
+ht-degree: 5%
 
 ---
 

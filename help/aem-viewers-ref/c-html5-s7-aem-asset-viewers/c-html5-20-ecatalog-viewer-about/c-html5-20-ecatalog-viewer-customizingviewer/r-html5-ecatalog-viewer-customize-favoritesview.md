@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 10536242-1015-49ff-ae27-59671f30d886
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 1%
+source-wordcount: '291'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ La position et la hauteur de la vue Favoris sont gérées par la vue ; dans CSS,
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan de la vue Favoris. </p> </td> 
   </tr> 
   <tr> 
@@ -102,7 +102,7 @@ L’aspect des miniatures individuelles est contrôlé à l’aide du sélecteur
 
 >[!NOTE]
 >
->La miniature prend en charge le `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la miniature récemment sélectionnée par l’utilisateur. L’attribut `state="default"` correspond au reste des miniatures. Et, l’attribut `state="over"` est utilisée lorsque vous pointez avec la souris.
+>La miniature prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la miniature récemment sélectionnée par l’utilisateur. L’attribut `state="default"` correspond au reste des miniatures. Et l’attribut `state="over"` est utilisé lorsque vous pointez sur la souris.
 
 Exemple : pour configurer des miniatures de 75 x 75 pixels, utilisez une bordure grise claire et une bordure sélectionnée en gris foncé :
 
@@ -130,7 +130,7 @@ L’aspect du libellé de la miniature est contrôlé à l’aide du sélecteur 
 <table id="table_B41339A16ACB46CB87D3EB1FD05FA2CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Famille de polices </span> </p> </td> 
    <td colname="col2"> <p>Nom de la police. </p> </td> 
   </tr> 
   <tr> 

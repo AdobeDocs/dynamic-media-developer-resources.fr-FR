@@ -8,7 +8,7 @@ exl-id: e94215b8-1121-4be6-a8a9-e9444c57495d
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '95'
-ht-degree: 17%
+ht-degree: 15%
 
 ---
 
@@ -31,7 +31,7 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gérer la société. |
+| companyHandle | `xsd:string` | Oui | Traitez la société. |
 | assetHandle | `xsd:string` | Oui | Gérer la ressource. |
 
 **Sortie (getSearchStringsReturn)**
@@ -44,7 +44,7 @@ Syntaxe
 
 Cet exemple de code renvoie des chaînes de recherche spécifiques à une ressource. La réponse renvoie un tableau vide.
 
-**Request**
+**Requête**
 
 ```java
 <getSearchStringsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

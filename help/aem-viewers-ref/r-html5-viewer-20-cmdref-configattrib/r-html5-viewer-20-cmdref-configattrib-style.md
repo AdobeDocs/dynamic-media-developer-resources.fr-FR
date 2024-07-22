@@ -8,7 +8,7 @@ exl-id: a0547ada-3d8f-4ec2-a7e4-424fd1a78a28
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
 source-wordcount: '97'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -22,12 +22,12 @@ Vous pouvez appliquer la commande suivante à partir de la chaîne de requête d
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> cssPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> Emplacement CSS relatif ou absolu. </p> <p>Indique l’emplacement du fichier CSS personnalisé. Si le <span class="codeph"><span class="varname"> cssPath</span></span> est relatif, il est résolu par rapport à l’emplacement de la page HTML de la visionneuse et à la valeur du paramètre <span class="codeph"> contentUrl=</span> . </p> </td> 
+   <td colname="col2"> <p> Emplacement CSS relatif ou absolu. </p> <p>Indique l’emplacement du fichier CSS personnalisé. Si <span class="codeph"><span class="varname"> cssPath</span></span> est relatif, il est résolu par rapport à l’emplacement de la page d’HTML de la visionneuse et à la valeur du paramètre <span class="codeph"> contentUrl=</span> . </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Toutes les références de ressources dans le fichier CSS sont résolues par rapport à l’emplacement du fichier CSS, et non par rapport à l’emplacement de la page HTML appelant.
+Toutes les références de ressources dans le fichier CSS sont résolues par rapport à l’emplacement du fichier CSS, et non par rapport à l’emplacement de la page de l’HTML appelant.
 
 ## Propriétés {#section-8ce2a4493d454d97a9975fc7f9f4eb2c}
 

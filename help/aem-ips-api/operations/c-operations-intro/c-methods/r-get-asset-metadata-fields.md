@@ -8,7 +8,7 @@ exl-id: 5234d3ea-c333-4e35-91ae-ce3412919fda
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '63'
-ht-degree: 23%
+ht-degree: 20%
 
 ---
 
@@ -44,7 +44,7 @@ Syntaxe
 
 ## Exemples {#section-d79ab85f29144635b0b61416e52f4f3f}
 
-**Request**
+**Requête**
 
 ```java
 <getAssetMetadataFieldsParam xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31">

@@ -8,7 +8,7 @@ exl-id: b5575d17-150b-421c-b298-077b577eb95c
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 4%
+ht-degree: 2%
 
 ---
 
@@ -21,17 +21,17 @@ Zone de texte. Spécifie une ou plusieurs régions dans lesquelles le texte spé
 <table id="simpletable_52CEFF5C3CCB4642A9A320D01B1BF8E0"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> pathDefinition </span> </p> </td> 
-  <td class="stentry"> <p>Path data. </p> </td> 
+  <td class="stentry"> <p>Données de chemin d’accès. </p> </td> 
  </tr> 
 </table>
 
 Voir [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) pour plus d’informations, y compris une description de *`pathDefinition`*.
 
-Commandes de marge RTF `\margl`, `\margr`, `\margt`, et `\margb` sont ignorées lorsque `textFlowPath=` est présente. Si aucune définition de chemin n’est spécifiée, `textFlowPath=` est ignorée.
+Les commandes de marge RTF `\margl`, `\margr`, `\margt` et `\margb` sont ignorées en présence de `textFlowPath=`. Si aucune définition de chemin n’est spécifiée, `textFlowPath=` est ignoré.
 
 ## Propriétés {#section-b68dc887c6534ce8982cad740b3aeaa4}
 
-Attribut de calque de texte ( `textPs=` uniquement). Ignoré par d’autres calques. S’applique à `layer=0` si spécifié pour `layer=comp`.
+Attribut de calque de texte ( `textPs=` uniquement). Ignoré par d’autres calques. S’applique à `layer=0` s’il est spécifié pour `layer=comp`.
 
 ## Par défaut {#section-68c4559b9e8242059b82e5a39a455dfc}
 

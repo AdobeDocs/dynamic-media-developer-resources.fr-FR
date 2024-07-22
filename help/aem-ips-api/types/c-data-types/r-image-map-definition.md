@@ -22,8 +22,8 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| name | `xsd:string` | Nom de la définition de zone cliquable. |
-| shapeType | `xsd:string` | Une des valeurs de forme régionale. |
-| région | `xsd:string` | Coordonnées de la zone cliquable. Le format est basé sur le HTML `<area>` attributs de balise. |
-| action | `xsd:string` | Autres attributs à inclure dans le HTML `<area>` , y compris la balise `href` URL. |
+| nom | `xsd:string` | Nom de la définition de zone cliquable. |
+| shapeType | `xsd:string` | L’une des valeurs de forme régionale. |
+| région | `xsd:string` | Coordonnées de la zone cliquable. Le format est basé sur les attributs de balise `<area>` HTML. |
+| action | `xsd:string` | Autres attributs à inclure dans la balise `<area>` de l’HTML, y compris l’URL `href`. |
 | activé | `xsd:boolean` | True si la zone cliquable est activée. |

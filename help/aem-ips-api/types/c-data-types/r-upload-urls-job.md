@@ -8,7 +8,7 @@ exl-id: 28bca473-670f-4588-93fb-a6d6a692ce30
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '440'
-ht-degree: 5%
+ht-degree: 1%
 
 ---
 
@@ -70,18 +70,18 @@ Syntaxe
    <td colname="col3"> Options de téléchargement des fichiers d’InDesign sur le serveur. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> KontakoutBackground</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:KnockoutBackgroundOptions</span> </td> 
-   <td colname="col3">Masquez l’arrière-plan des images sélectionnées. Vous pouvez ainsi les superposer dans d’autres calques avec une transparence en dehors de l’objet. Facultatif. Voir<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a>. </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> KnockoutBackground</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> types : KnockoutBackgroundOptions</span> </td> 
+   <td colname="col3">Masquez l’arrière-plan des images sélectionnées. Vous pouvez ainsi les superposer dans d’autres calques avec une transparence en dehors de l’objet. Facultatif. Voir <a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ManualCropOptions</span> </td> 
+   <td colname="col2"> <span class="codeph"> types : ManualCropOptions</span> </td> 
    <td colname="col3"> Options de recadrage manuel des images. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> mediaOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:MediaOptions</span> </td> 
+   <td colname="col2"> <span class="codeph"> types : MediaOptions</span> </td> 
    <td colname="col3">Options permettant de définir une miniature à partir de la vidéo. Voir <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </td> 
   </tr> 
   <tr> 
@@ -101,7 +101,7 @@ Syntaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:PhotoshopOptions</span> </td> 
+   <td colname="col2"> <span class="codeph"> types : PhotoshopOptions</span> </td> 
    <td colname="col3"> Options de téléchargement des fichiers Photoshop vers le serveur d’images. </td> 
   </tr> 
   <tr> 
@@ -151,12 +151,12 @@ Syntaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unCompressOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:UnCompressOptions</span> </td> 
+   <td colname="col2"> <span class="codeph"> types : UnCompressOptions</span> </td> 
    <td colname="col3">Extrayez et traitez le contenu des fichiers TAR/ZIP chargés avec ces paramètres facultatifs. Voir <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> UnCompressOptions</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:UnsharpMaskOptions</span> </td> 
+   <td colname="col2"> <span class="codeph"> types : UnsharpMaskOptions</span> </td> 
    <td colname="col3">Options permettant de contrôler les paramètres de masquage flou lors de la création d’un fichier TIF pyramid optimisé. Utilisez ces paramètres pour améliorer la netteté de l’image. Voir <a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> UnsharpMaskOptions</a>. </td> 
   </tr> 
   <tr> 
@@ -174,13 +174,13 @@ Syntaxe
 
 ## Remarques {#section-637405ff7e0b4a71b83fd359b92fa0c2}
 
-Pour `CropOptions`, vous ne pouvez choisir qu’une seule des options suivantes :
+Pour `CropOptions`, vous ne pouvez choisir que l’une des options suivantes :
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-Pour `PublishJob`, vous ne pouvez choisir qu’une seule des options suivantes :
+Pour `PublishJob`, vous ne pouvez choisir que l’une des options suivantes :
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

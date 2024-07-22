@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 65b758f2-b49a-4616-b657-a64808c9202a
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 5%
+source-wordcount: '476'
+ht-degree: 1%
 
 ---
 
@@ -26,11 +26,11 @@ Les règles régissant la fréquence d’utilisation de cette fonctionnalité so
 
 **Courriers électroniques de confirmation**
 
-Les emails de confirmation du partenaire Dynamic Media CDN peuvent être envoyés à l’auteur de la liste ou à 5 autres adresses électroniques au maximum. L’API envoie la confirmation lorsque l’ensemble du réseau CDN a été informé que les URL référencées dans l’email ont été effacées. Un seul appel à `cdnCacheInvalidation` peut envoyer plusieurs emails si le nombre d’URL fournies dépasse le nombre que Dynamic Media peut envoyer au partenaire CDN sur une seule notification. Actuellement, cela se produit si la requête dépasse 100 URL, mais qu’elle peut être modifiée sur la base de la requête du partenaire CDN.
+Les emails de confirmation du partenaire Dynamic Media CDN peuvent être envoyés à l’auteur de la liste ou à 5 autres adresses électroniques au maximum. L’API envoie la confirmation lorsque l’ensemble du réseau CDN a été informé que les URL référencées dans l’email ont été effacées. Un seul appel à `cdnCacheInvalidation` peut envoyer plusieurs emails si le nombre d’URL fournies dépasse le nombre que Dynamic Media peut fournir au partenaire CDN sur une seule notification. Actuellement, cela se produit si la requête dépasse 100 URL, mais qu’elle peut être modifiée sur la base de la requête du partenaire CDN.
 
 **Pris en charge depuis**
 
-6.0
+6,0
 
 ## Types d’utilisateurs autorisés {#section-0d7895e733d54fb68beb8d231a04e4c9}
 
@@ -44,7 +44,7 @@ Les emails de confirmation du partenaire Dynamic Media CDN peuvent être envoyé
 <table id="table_EDD1875264C846BE951869D528A90D73"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> Nom</b> </th> 
+   <th class="entry"> <b> Name</b> </th> 
    <th class="entry"> <b> Type</b> </th> 
    <th class="entry"> <b> Obligatoire</b> </th> 
    <th class="entry"> <b> Description</b> </th> 
@@ -59,19 +59,19 @@ Les emails de confirmation du partenaire Dynamic Media CDN peuvent être envoyé
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> <span class="varname"> urlArray</span> </span> </p> </td> 
-   <td> <p> <span class="codeph"> types:UrlArray</span> </p> </td> 
+   <td> <p> <span class="codeph"> types : UrlArray</span> </p> </td> 
    <td> <p> Oui </p> </td> 
    <td> <p> Liste de 1 000 URL au maximum à invalider à partir du cache CDN. Toutes les URL doivent contenir l’ID racine de la société Dynamic Media à invalider. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Sortie**( `cdnCacheInvalidationReturn`)
+**Output**( `cdnCacheInvalidationReturn`)
 
 <table id="table_1D947C1BF8864820AD7BA0CDC0F076F9"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> Nom</b> </th> 
+   <th class="entry"> <b> Name</b> </th> 
    <th class="entry"> <b> Type</b> </th> 
    <th class="entry"> <b> Obligatoire</b> </th> 
    <th class="entry"> <b> Description</b> </th> 
@@ -82,7 +82,7 @@ Les emails de confirmation du partenaire Dynamic Media CDN peuvent être envoyé
    <td colname="col1"> <p><span class="codeph"><span class="varname"> invalidationHandle</span></span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Gestionnaire référençant la requête de purge. </p> <p>La variable <span class="codeph"> cdnCacheInvalidation</span> L’API invalide désormais le cache presque immédiatement (~5 secondes). Par conséquent, l’interrogation de l’état d’invalidation n’est généralement plus nécessaire. </p> 
+   <td colname="col4"> <p>Gestionnaire référençant la requête de purge. </p> <p>L’API <span class="codeph"> cdnCacheInvalidation</span> invalide désormais le cache presque immédiatement (~5 secondes). Par conséquent, l’interrogation de l’état d’invalidation n’est généralement plus nécessaire. </p> 
     <!--<p>The next three paragraphs were added as per CQDOC-13840 With the migration from Akamai v2 API's to fast purge, purging time is now approximately 5 seconds. You are no longer required to poll on the purge URL to find out the status of the purge request.</p>--> 
     <!--<p>The cache invalidation handle used to contained the company ID, the user account type used (small or large), and the purge url. With the release of 2019R1, <codeph>invalidationHandle</codeph> now contains just the company ID and the purge ID. </p>--> 
     <!--<p>Prior to 2019R1, two different Akamai users were being used for each geography (for example, <codeph>cdninvalidatesmallemea</codeph> and <codeph>cdninvalidatelargeemea</codeph>) to invalidate requests, depending on the number of URLs in each request. This functionality was done so that a small request was not blocked because of a large request. Now, with fast purge in 2019R1, the purge is nearly instantaneous, two users are no longer needed, and only one account is used. </p>--> </td> 
@@ -100,9 +100,9 @@ Les emails de confirmation du partenaire Dynamic Media CDN peuvent être envoyé
 
 Cet exemple demande l’invalidation de quatre URL dans le cache CDN. La réponse contient un résumé des résultats des opérations et une liste des détails d’erreur fournis directement par le réseau de diffusion de contenu pour aider le client à utiliser cette fonctionnalité.
 
-`getCdnCacheInvalidationStatus` opération.
+Opération `getCdnCacheInvalidationStatus`.
 
-**Request**
+**Requête**
 
 ```java
 <cdnCacheInvalidationParam xmlns="http://www.scene7.com/IpsApi/xsd/2012-02-14">

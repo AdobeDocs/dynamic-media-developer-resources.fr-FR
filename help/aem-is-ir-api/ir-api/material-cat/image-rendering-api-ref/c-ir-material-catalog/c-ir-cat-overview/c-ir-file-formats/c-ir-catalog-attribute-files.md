@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Fichiers d’attributs du catalogue{#catalog-attribute-files}
 
-Les fichiers d’attributs du catalogue peuvent porter n’importe quel nom, mais doivent comporter une variable `.ini` suffixe du fichier. Elles peuvent être facilement gérées à l’aide de n’importe quel éditeur de texte.
+Les fichiers d’attributs du catalogue peuvent porter n’importe quel nom, mais doivent comporter un suffixe de fichier `.ini`. Elles peuvent être facilement gérées à l’aide de n’importe quel éditeur de texte.
 
-Les fichiers d’attributs du catalogue se composent d’un ensemble d’enregistrements texte, séparés par une seule `<CR>` (code ASCII 0xD), une seule `<LF>` (code ASCII 0xA) ou un `<CR><LF>` paire . Chaque enregistrement se compose d’un nom d’attribut et d’une ou de plusieurs valeurs d’attribut séparées par des virgules :
+Les fichiers d’attributs du catalogue se composent d’un ensemble d’enregistrements texte, séparés par une seule `<CR>` (code ASCII 0xD), une seule `<LF>` (code ASCII 0xA) ou une paire `<CR><LF>`. Chaque enregistrement se compose d’un nom d’attribut et d’une ou de plusieurs valeurs d’attribut séparées par des virgules :
 
 `*`name`*= *`value`*&#42;[, *`value`*]{<CR>|<LF>|<CR><LF>}`
 
@@ -27,12 +27,12 @@ Les fichiers d’attributs du catalogue se composent d’un ensemble d’enregis
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> value </span> </span> </p> </td> 
-  <td class="stentry"> <p>Valeur d’attribut ; ne doit pas inclure <span class="codeph"> &lt;cr&gt; </span>, ou <span class="codeph"> &lt;lf&gt; </span> , sauf si une seule barre oblique inverse s’affiche juste avant le caractère de saut de page. </p> </td> 
+  <td class="stentry"> <p>Valeur d’attribut ; ne doit pas inclure <span class="codeph"> &lt;CR&gt; </span> ou <span class="codeph"> &lt;LF&gt; </span> caractères, sauf si une seule barre oblique inverse s’est produite juste avant le caractère de saut de page. </p> </td> 
  </tr> 
 </table>
 
 * L’espace entre les jetons est facultatif.
-* La variable [!DNL Platform Server] ignore les enregistrements avec des noms d’attribut inconnus.
-* Les noms d’attribut peuvent être constitués de n’importe quelle combinaison de lettres ASCII, de nombres et de `-`, `_`, et `.` caractères.
+* [!DNL Platform Server] ignore les enregistrements avec des noms d’attributs inconnus.
+* Les noms d’attribut peuvent être composés de n’importe quelle combinaison de lettres ASCII, de nombres et de caractères `-`, `_` et `.`.
 * Si le même nom d’attribut apparaît plusieurs fois dans le même fichier d’attributs, c’est le dernier qui se produit qui prévaut.
-* Utilisation `#` comme premier caractère pour marquer un enregistrement comme commentaire ignoré par l’analyseur.
+* Utilisez `#` comme premier caractère pour marquer un enregistrement comme commentaire que l’analyseur ignore.

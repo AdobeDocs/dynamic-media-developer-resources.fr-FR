@@ -20,6 +20,6 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| companyHandle | `xsd:string` | Gérer la société. |
+| companyHandle | `xsd:string` | Traitez la société. |
 | rôle | `xsd:string` | Le rôle d’un utilisateur pour chaque entreprise à laquelle il appartient. |
 | isActive | `xsd:boolean` | Définit l’état de l’utilisateur pour chaque société à laquelle il appartient. |

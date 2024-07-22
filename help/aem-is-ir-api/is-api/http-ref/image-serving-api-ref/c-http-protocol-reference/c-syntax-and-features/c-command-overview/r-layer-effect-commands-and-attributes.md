@@ -2,13 +2,13 @@
 description: Ces commandes peuvent être utilisées pour définir des effets de calque, tels que des effets d’ombre portée ou d’éclat. Les calques d’effet ignorent toutes les autres commandes.
 solution: Experience Manager
 title: Commandes des effets de calque
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 483b1f24-9cd2-45e0-9d18-0dc0fbe8abcf
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 1%
+source-wordcount: '116'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ Ces commandes peuvent être utilisées pour définir des effets de calque, tels 
   <td class="stentry"> <p>Indique la couleur et l’opacité de l’effet principal. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effect.md#reference-b1296c4afed047fb921bbc1e33752135" type="reference" format="dita" scope="local"> effet</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-effect.md#reference-b1296c4afed047fb921bbc1e33752135" type="reference" format="dita" scope="local"> Effet </a> </p></td> 
   <td class="stentry"> <p>Commence le segment de calque d’effet et spécifie l’ordre z. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -51,6 +51,6 @@ Ces commandes peuvent être utilisées pour définir des effets de calque, tels 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-pos.md#reference-65de948f4b404f1182b22119ca332143" type="reference" format="dita" scope="local"> pos</a> </p></td> 
-  <td class="stentry"> <p>Positionne le calque d’effet par rapport à son calque parent. </p></td> 
+  <td class="stentry"> <p>Place le calque d’effet par rapport à son calque parent. </p></td> 
  </tr> 
 </table>

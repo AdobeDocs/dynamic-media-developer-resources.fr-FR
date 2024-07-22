@@ -1,5 +1,5 @@
 ---
-description: Récupère toutes les tâches actuellement principales.
+description: Récupère toutes les tâches actives actuellement.
 solution: Experience Manager
 title: getActiveJobs
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 55e92ebc-d153-49b5-bf2e-c69d042e15b6
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 16%
+ht-degree: 14%
 
 ---
 
 # getActiveJobs{#getactivejobs}
 
-Récupère toutes les tâches actuellement principales.
+Récupère toutes les tâches actives actuellement.
 
 Syntaxe
 
@@ -37,19 +37,19 @@ Syntaxe
 |---|---|---|---|
 | companyHandle | `xsd:string` | Non | La poignée de la société. |
 | jobHandle | `xsd:string` | Non | La poignée de la tâche. |
-| originalName | `xsd:string` | Non | Nom de la tâche d’origine. |
+| originalName | `xsd:string` | Non | Nom original de la tâche. |
 
 **Sortie (getActiveJobsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| jobArray | `xsd:string` | Oui | Tableau de tâches principales. |
+| jobArray | `xsd:string` | Oui | Tableau des tâches actives. |
 
 ## Exemples {#section-4ac5dbbf9cd94fdeb013d055f8ee7add}
 
-Cet exemple de code renvoie toutes les tâches principales d’une entreprise exécutant IPS. Dans ce cas, la réponse est inhabituelle car le coordinateur de planification IPS est désactivé sans tâche principale en cours d’exécution. Dans des circonstances normales, la réponse renvoie un certain nombre de tâches principales.
+Cet exemple de code renvoie toutes les tâches actives d’une entreprise exécutant IPS. Dans ce cas, la réponse est inhabituelle car le coordinateur de planification IPS est désactivé sans tâches actives en cours d’exécution. Dans des circonstances normales, la réponse renvoie un certain nombre de tâches actives.
 
-**Request**
+**Requête**
 
 ```java
 <ns1:getActiveJobsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

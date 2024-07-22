@@ -8,7 +8,7 @@ exl-id: d38dd1e2-668e-4956-b854-54bf466d6d45
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -38,7 +38,7 @@ Syntaxe
 | companyHandle | `xsd:string` | Oui | Gestionnaire de la société à laquelle appartient la tâche. |
 | jobHandle | `xsd:string` | Oui | Gestionnaire de la tâche à supprimer. |
 
-**Sortie**
+**Output**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 
@@ -46,7 +46,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 Cet exemple de code supprime une tâche en cours d’exécution ou planifiée dans IPS. Elle nécessite une gestion de tâche, que vous devez obtenir d’une autre opération.
 
-**Request**
+**Requête**
 
 ```java
 <deleteJobParam xmlns="http://www.scene7.com/IpsApi/xsd">

@@ -8,7 +8,7 @@ exl-id: 0da05679-207e-4dc8-9bfe-2cf09a8c3f17
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '91'
-ht-degree: 15%
+ht-degree: 13%
 
 ---
 
@@ -26,7 +26,7 @@ Syntaxe
 
 ## Paramètres {#section-2a41135054954396b40f1228f2e63b42}
 
-**Entrée (setFolderPermissionsParam)**
+**Input (setFolderPermissionsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -35,7 +35,7 @@ Syntaxe
 | setChildren | `xsd:boolean` | Oui | Définit des autorisations sur les enfants appartenant au dossier. |
 | permissionArray | `types:PermissionUpdateArray` | Oui | Tableau d’autorisations. |
 
-**Sortie (setFolderPermissionsReturn)**
+**Output (setFolderPermissionsReturn)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 
@@ -43,7 +43,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 Cet exemple de code spécifie un nom d’entreprise, un nom d’utilisateur de dossier et un tableau d’autorisations avec des informations détaillées sur le dossier. Il applique les mêmes autorisations aux enfants du dossier parent.
 
-**Request**
+**Requête**
 
 ```java
 <setFolderPermissionsParam xmlns="http://www.scene7.com/IpsApi/xsd">

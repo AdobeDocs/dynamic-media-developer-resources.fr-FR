@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: e93de3b5-b42d-4db8-90b9-9e2aa53af775
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 7%
+source-wordcount: '58'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>Indique le comportement de préchargement du composant. </p> <p>Lorsque la variable est définie sur <span class="codeph"> -1</span> les miniatures sont chargées simultanément lorsque le composant est initialisé ou que la ressource change. </p> <p>Lorsque la variable est définie sur <span class="codeph"> 0</span> seules les miniatures visibles sont chargées. </p> <p>Définir <span class="codeph"><span class="varname"> preloadnbr</span></span> définit le nombre de lignes/colonnes invisibles autour de la zone visible qui sont préchargées. </p> </td> 
+   <td colname="col2"> <p>Indique le comportement de préchargement du composant. </p> <p>Lorsqu’elles sont définies sur <span class="codeph"> -1</span>, les miniatures sont chargées simultanément lorsque le composant est initialisé ou que la ressource change. </p> <p>Lorsque la valeur est définie sur <span class="codeph"> 0</span>, seules les miniatures visibles sont chargées. </p> <p>La définition de <span class="codeph"><span class="varname"> preloadnbr</span></span> définit le nombre de lignes/colonnes invisibles autour de la zone visible qui sont préchargées. </p> </td> 
   </tr> 
  </tbody> 
 </table>

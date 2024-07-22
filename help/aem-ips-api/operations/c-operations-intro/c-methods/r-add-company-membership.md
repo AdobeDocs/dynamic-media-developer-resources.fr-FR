@@ -8,7 +8,7 @@ exl-id: 6efef4fb-f2e5-4c41-b739-a36ac2f17884
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '83'
-ht-degree: 14%
+ht-degree: 12%
 
 ---
 
@@ -42,7 +42,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 Cet exemple utilise companyHandleArray pour ajouter un utilisateur à une seule société.
 
-**Request**
+**Requête**
 
 ```javascript {.line-numbers}
 <ns1:addCompanyMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

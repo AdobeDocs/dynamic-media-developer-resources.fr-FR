@@ -2,12 +2,12 @@
 description: Suffixe du fichier image par défaut. Ajouté à la valeur du champ Chemin du catalogue (ou chemin du masque de catalogue) si le chemin n’inclut pas de suffixe de fichier.
 solution: Experience Manager
 title: DefaultExt
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 43b3e5b8-6374-458d-8503-8e04c8c84233
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '139'
 ht-degree: 2%
 
 ---
@@ -28,4 +28,4 @@ Hérité de `default::DefaultExt` si elle n’est pas définie. S’il est défi
 
 ## Voir aussi {#section-d7c408b979844643adff8258f500eb7c}
 
-[catalogue ::Path](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md) ,  [catalogue ::MaskPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md)
+[catalog::Path](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md) , [catalog::MaskPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md)

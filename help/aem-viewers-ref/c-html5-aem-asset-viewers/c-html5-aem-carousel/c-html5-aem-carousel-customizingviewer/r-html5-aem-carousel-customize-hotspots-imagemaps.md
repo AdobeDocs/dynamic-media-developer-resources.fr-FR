@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 70517201-9d59-4d9c-986d-a6e9655b7956
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 2%
+source-wordcount: '230'
+ht-degree: 0%
 
 ---
 
@@ -35,11 +35,11 @@ L’aspect de l’icône de zone réactive est contrôlé à l’aide du sélect
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p>Illustration de l’icône de zone réactive. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p>Positionnez-vous à l’intérieur du sprite de l’illustration, si les sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-customizingviewer/c-html5-aem-interactive-image-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -68,7 +68,7 @@ Exemple : configurez une icône de zone réactive de 56 x 56 pixels qui affiche 
 
 <!--<a id="section_26D0B8444D1F42D493793FF54968C0B9"></a>-->
 
-**Propriétés CSS de la zone cliquable**
+**Propriétés CSS de la région de zone cliquable**
 
 L’aspect de la zone cliquable est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
@@ -83,16 +83,16 @@ L’aspect de la zone cliquable est contrôlé à l’aide du sélecteur de clas
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background  </span> </p> </td> 
-   <td colname="col2"> <p>Couleur de remplissage de la zone cliquable. </p> <p>Définissez cette couleur dans les formats <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RVB(R,G,B) </span> ou <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan </span> </p> </td> 
+   <td colname="col2"> <p>Couleur de remplissage de la zone cliquable. </p> <p>Spécifiez cette couleur dans les formats <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> ou <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
-   <td colname="col2"> <p>Couleur de remplissage de la zone cliquable. </p> <p>Définissez cette couleur dans les formats <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RVB(R,G,B) </span> ou <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>Couleur de remplissage de la zone cliquable. </p> <p>Spécifiez cette couleur dans les formats <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> ou <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bordure </span> </p> </td> 
-   <td colname="col2"> <p> Style de bordure de la zone cliquable. Doit être spécifié sous la forme " <span class="codeph"> width </span> <span class="codeph"> color solide </span>", où <span class="codeph"> width </span> est exprimé en pixels, et <span class="codeph"> color </span> est défini sur <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span>, ou <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
+   <td colname="col2"> <p> Style de bordure de la zone cliquable. Doit être spécifié sous la forme " <span class="codeph"> width </span> <span class="codeph"> solid color </span>", où <span class="codeph"> width </span> est exprimé en pixels, et <span class="codeph"> color </span> est défini sur <span class="codeph"> #RRGGBB </span>, <span class="codeph"> RGB(R,G,B) </span> ou <span class="codeph"> RGBA(R,G,B,A) </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -22,8 +22,8 @@ config
 {Object} objet de configuration JSON facultatif, vous permet de transmettre tous les paramètres de visionneuse au constructeur et d’éviter d’appeler des méthodes de visionneuse individuelles. Il contient les propriétés suivantes :
 
 * containerId - {String} ID du conteneur DOM (normalement un DIV) dans lequel la visionneuse est insérée. Il n’est pas nécessaire de créer l’élément de conteneur au moment de l’appel de cette méthode, mais le conteneur doit exister lors de l’exécution de init(). Obligatoire
-* params - {Object} Objet JSON avec des paramètres de configuration de visionneuse pour lequel le nom de propriété est soit une option de configuration spécifique à la visionneuse, soit un modificateur SDK, et la valeur de cette propriété est une valeur de paramètres correspondante. Obligatoire
-* handlers - {Object} Objet JSON avec rappels d’événement de visionneuse, où le nom de la propriété est le nom de l’événement de visionneuse pris en charge et où la valeur de la propriété est une référence de fonction JavaScript au rappel approprié. Pour plus d’informations sur les événements de visionneuse, reportez-vous à la section Rappels d’événement . Facultatif.
+* params - {Object} objet JSON avec paramètres de configuration de la visionneuse dont le nom de propriété est soit une option de configuration spécifique à la visionneuse, soit un modificateur SDK, et la valeur de cette propriété est une valeur de paramètres correspondante. Obligatoire
+* gestionnaires - {Object} objet JSON avec rappels d’événement de visionneuse, où le nom de la propriété est le nom de l’événement de visionneuse pris en charge et la valeur de la propriété est une référence de fonction JavaScript au rappel approprié. Pour plus d’informations sur les événements de visionneuse, reportez-vous à la section Rappels d’événement . Facultatif.
 
 
 ## Renvoie {#section-1d3cf85bc7cc4dfe9670e038d02b9101}

@@ -18,6 +18,6 @@ Les références $var$ peuvent se trouver n’importe où dans les accolades d�
 
 Le serveur remplace ces références par des valeurs (provenant de l’URL ou de `catalog::Modifier` du catalogue d’images principal) avant d’analyser et de traiter davantage la requête imbriquée.
 
-En outre, tous les `$ *[!DNL var]*=` définitions de l’url et `catalog::Modifier` sont transférées à toutes les requêtes Image Serving et Image Rendering imbriquées. Cela permet de s’assurer que toutes les définitions de variable sont disponibles pour tous les modèles, quel que soit le niveau d’imbrication.
+En outre, toutes les `$ *[!DNL var]*=` définitions provenant de l’URL et de `catalog::Modifier` sont transférées à toutes les requêtes Image Serving et Image Rendering imbriquées. Cela permet de s’assurer que toutes les définitions de variable sont disponibles pour tous les modèles, quel que soit le niveau d’imbrication.
 
 Quel que soit le niveau d’imbrication, seul un codage HTTP à un seul passage doit être appliqué aux valeurs de variable qui doivent être remplacées n’importe où dans les demandes de rendu d’image ou de diffusion d’images imbriquées.

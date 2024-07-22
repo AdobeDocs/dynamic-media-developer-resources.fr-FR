@@ -1,6 +1,6 @@
 ---
 title: Référence de l’API JavaScript pour la visionneuse de zoom intégrée
-description: La classe principale de la visionneuse de zoom intégrée est FlyoutViewer. Il est déclaré dans l’espace de noms s7viewers. Cette API JavaScript couvre le constructeur, les méthodes et les rappels de cette classe particulière.
+description: La classe principale de la visionneuse de zoom intégrée est FlyoutViewer. Il est déclaré dans l’espace de noms s7viewers. Cette API JavaScript couvre le constructeur, les méthodes et les appels en amont de cette classe particulière.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Référence de l’API JavaScript pour la visionneuse de zoom intégrée{#javascript-api-reference-for-inline-zoom-viewer}
 
-La classe principale de la visionneuse de zoom intégrée est FlyoutViewer. Il est déclaré dans l’espace de noms s7viewers. Cette API JavaScript couvre le constructeur, les méthodes et les rappels de cette classe particulière.
+La classe principale de la visionneuse de zoom intégrée est FlyoutViewer. Il est déclaré dans l’espace de noms s7viewers. Cette API JavaScript couvre le constructeur, les méthodes et les appels en amont de cette classe particulière.
 
-Dans tous les exemples suivants, `<instance>` désigne le nom réel de l’objet de visionneuse JavaScript appelé à partir de la fonction `s7viewers.FlyoutViewer` classe .
+Dans tous les exemples suivants, `<instance>` correspond au nom réel de l’objet de visionneuse JavaScript instancié à partir de la classe `s7viewers.FlyoutViewer`.
 
 * [dispose](r-html5-inlinezoom-viewer-javascriptapiref-dispose.md)
 * [FlyoutViewer](r-html5-inlinezoom-viewer-javascriptapiref-inlinezoomviewer.md)

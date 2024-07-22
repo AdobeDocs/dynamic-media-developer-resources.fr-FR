@@ -22,5 +22,5 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| name | `xsd:string` | Nom de la propriété. |
+| nom | `xsd:string` | Nom de la propriété. |
 | valeur | `xsd:string` | Valeur de la propriété. |

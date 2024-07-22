@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: 3ae12e0a-0647-4cb1-9785-c854b4586c47
 source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 3%
+source-wordcount: '108'
+ht-degree: 2%
 
 ---
 
 # ZoomView.transition{#zoomview-transition}
 
-` [ZoomView.|<containerId>_zoomView.]transition= *`time`*[, *`assouplissement`*]`
+` [ZoomView.|<containerId>_zoomView.]transition= *`time`*[, *`easing`*]`
 
 <table id="table_9E7BB12BF371419F88DD4D24EF04632C"> 
  <tbody> 
@@ -32,7 +32,7 @@ ht-degree: 3%
       <li id="li_EF00BF6CA2AA48FEB54015FFBA9F8DD4"> 3 (cubique) </li> 
       <li id="li_F3CB7F0821AF489C84A0CA155F5031A2"> 4 (quartique) </li> 
       <li id="li_F5B844DAF4CC453CA58BF09A660D139F"> 5 (quintique) </li> 
-     </ul> </p> <p>Le mode automatique utilise toujours une transition linéaire lorsque le zoom élastique est désactivé (par défaut). Sinon, il convient à l’une des autres fonctions d’assouplissement en fonction du temps de transition. En d’autres termes, plus le temps de transition est court, plus la fonction d’assouplissement est utilisée pour accélérer l’effet d’accélération ou de décélération. </p> </td> 
+     </ul> </p> <p>Le mode automatique utilise toujours une transition linéaire lorsque le zoom élastique est désactivé (par défaut). Sinon, il convient à l’une des autres fonctions d’assouplissement en fonction de l’heure de transition. En d’autres termes, plus le temps de transition est court, plus la fonction d’assouplissement est utilisée pour accélérer l’effet d’accélération ou de décélération. </p> </td> 
   </tr> 
  </tbody> 
 </table>

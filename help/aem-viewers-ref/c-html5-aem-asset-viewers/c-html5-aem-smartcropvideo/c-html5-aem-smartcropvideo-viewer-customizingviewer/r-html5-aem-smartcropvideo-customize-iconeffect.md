@@ -4,10 +4,11 @@ description: L’icône de lecture est superposée sur la zone d’affichage pri
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 2d8d60e8-9ab6-44fa-af50-b96910a87dee
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 1%
+source-wordcount: '168'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +33,7 @@ L’aspect de l’icône de lecture est contrôlé à l’aide du sélecteur de 
    <td colname="col2"> <p> Image affichée de l’icône de lecture. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -46,7 +47,7 @@ L’aspect de l’icône de lecture est contrôlé à l’aide du sélecteur de 
  </tbody> 
 </table>
 
-L’effet d’icône prend en charge `state` sélecteur d’attributs. `state="play"` est utilisée lorsque la vidéo est mise en pause au milieu de la lecture ; et `state="replay"` est utilisé lorsque la tête de lecture se trouve à la fin du flux.
+L’effet d’icône prend en charge le sélecteur d’attributs `state`. `state="play"` est utilisé lorsque la vidéo est mise en pause au milieu de la lecture et `state="replay"` lorsque la tête de lecture se trouve à la fin de la diffusion.
 
 ## Exemple {#section-e8caea0a303c425a8a637c2a47c06355}
 

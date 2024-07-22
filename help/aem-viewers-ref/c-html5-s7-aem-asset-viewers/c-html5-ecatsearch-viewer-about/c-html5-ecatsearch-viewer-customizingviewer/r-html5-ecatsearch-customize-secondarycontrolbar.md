@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: e5d6abe8-0ae9-4ccd-b311-5895e09310b2
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 2%
+source-wordcount: '170'
+ht-degree: 0%
 
 ---
 
@@ -31,11 +31,11 @@ L’aspect de la barre de contrôle secondaire est contrôlé à l’aide du sé
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> haut </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir du haut de la visionneuse. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col2"> <p>Position en haut de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bas </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p>Position à partir du bas de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +43,7 @@ L’aspect de la barre de contrôle secondaire est contrôlé à l’aide du sé
    <td colname="col2"> <p>Hauteur de la barre de contrôle principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Couleur d’arrière-plan de la barre de contrôle secondaire. </p> </td> 
   </tr> 
  </tbody> 

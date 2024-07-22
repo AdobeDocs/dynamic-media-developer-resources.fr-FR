@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: bbb35286-fdb6-4329-a837-17fe8f976276
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 1%
+source-wordcount: '171'
+ht-degree: 0%
 
 ---
 
@@ -29,12 +29,12 @@ L’aspect de l’icône de lecture est contrôlé à l’aide du sélecteur de 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Image affichée de l’icône de lecture. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position  </span> </p> </td> 
-   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> CSS Sprites </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
+   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
@@ -47,7 +47,7 @@ L’aspect de l’icône de lecture est contrôlé à l’aide du sélecteur de 
  </tbody> 
 </table>
 
-L’effet Icône prend en charge le sélecteur d’attributs `state`. L’attribut `state="play"` est utilisé lorsque la vidéo est mise en pause au milieu de la lecture et `state="replay"` est utilisé lorsque la tête de lecture se trouve à la fin de la diffusion.
+L’effet d’icône prend en charge le sélecteur d’attributs `state`. L’attribut `state="play"` est utilisé lorsque la vidéo est mise en pause au milieu de la lecture et `state="replay"` est utilisé lorsque la tête de lecture se trouve à la fin de la diffusion.
 
 ## Exemple {#section-e8caea0a303c425a8a637c2a47c06355}
 

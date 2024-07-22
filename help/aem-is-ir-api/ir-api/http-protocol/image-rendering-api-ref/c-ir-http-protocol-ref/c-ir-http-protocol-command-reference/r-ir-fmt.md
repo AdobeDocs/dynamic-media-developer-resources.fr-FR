@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 691c5421-0754-45ce-b454-dd0ceff47a58
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '577'
+ht-degree: 4%
 
 ---
 
@@ -20,14 +20,14 @@ Format de l’image de réponse. Spécifie le format de codage de l’image pour
 
 <table id="simpletable_200779AA8D8D49A089A295AED5C98C8F"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> formater </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> format </span> </p> </td> 
   <td class="stentry"> <p>jpeg </p> </td> 
   <td class="stentry"> <p>JPEG perdant. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>jpg </p> </td> 
-  <td class="stentry"> <p>JPG perdant. </p> </td> 
+  <td class="stentry"> <p> perdant. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -67,7 +67,7 @@ Format de l’image de réponse. Spécifie le format de codage de l’image pour
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>eps </p> </td> 
-  <td class="stentry"> <p>PostScript encapsulé binaire décompressé. </p> </td> 
+  <td class="stentry"> <p>PostScript encapsulé binaire non compressé. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -87,7 +87,7 @@ Format de l’image de réponse. Spécifie le format de codage de l’image pour
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
   <td class="stentry"> <p>gris </p> </td> 
-  <td class="stentry"> <p>Renvoie les données d’image en niveaux de gris. </p> </td> 
+  <td class="stentry"> <p>Renvoie les données image en niveaux de gris. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -97,7 +97,7 @@ Format de l’image de réponse. Spécifie le format de codage de l’image pour
  <tr class="strow"> 
   <td class="stentry"> <span class="varname"> tiffCompression </span> </td> 
   <td class="stentry"> <p>aucun </p> </td> 
-  <td class="stentry"> <p>Non compressé. </p> </td> 
+  <td class="stentry"> <p>Décompressé. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> </p> </td> 
@@ -116,20 +116,20 @@ Format de l’image de réponse. Spécifie le format de codage de l’image pour
  </tr> 
 </table>
 
-*`pixelType`* Applique la conversion de l’espace colorimétrique de sortie lorsque `icc=` n’est pas spécifié ; le profil colorimétrique par défaut correspondant à *`pixelType`* est appliquée. Si la gestion des couleurs est désactivée, une conversion naïve est appliquée. *`pixelType`* Est ignoré lorsque `icc=` est spécifié, qui détermine le type de pixel de sortie.
+*`pixelType`* Conversion de l’espace colorimétrique de sortie des effets lorsque `icc=` n’est pas spécifié ; le profil colorimétrique par défaut correspondant à *`pixelType`* est appliqué. Si la gestion des couleurs est désactivée, une conversion naïve est appliquée. *`pixelType`* Est ignoré lorsque `icc=` est spécifié, ce qui détermine le type de pixel de sortie.
 
-*`compression`* Autorisé uniquement si tif, tif-alpha ou PDF est spécifié en tant que *`format`*. Reportez-vous au tableau ci-dessous pour connaître les options de compression prises en charge pour ces formats d’image.
+*`compression`* Autorisé uniquement si tif, tif-alpha ou PDF est spécifié comme *`format`*. Reportez-vous au tableau ci-dessous pour connaître les options de compression prises en charge pour ces formats d’image.
 
-`qlt-` Définit les options de codage du JPEG pour les formats suivants : JPEG, TIFF avec compression de JPEG, PDF avec compression de JPEG et fichier de SWF. Utilisation `quantize=` if `fmt=gif` ou `fmt=gif-alpha`. Pour plus d’informations, reportez-vous aux descriptions de commande . Les autres formats ne comportent pas d’options définissables.
+`qlt-` Définit les options de codage du JPEG pour ces formats : JPEG, TIFF avec compression du JPEG, PDF avec compression du JPEG et fichier SWF. Utilisez `quantize=` si `fmt=gif` ou `fmt=gif-alpha`. Pour plus d’informations, reportez-vous aux descriptions de commande . Les autres formats ne comportent pas d’options définissables.
 
 Un composant de huit bits par pixel est renvoyé pour tous les formats et types de pixels.
 
-Le tableau suivant répertorie les combinaisons valides de *`format`* et *`pixelType`*, les types MIME de réponse HTTP correspondants, si les profils ICC peuvent être incorporés (voir [iccEmbed=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f)) et les commandes d’option spécifiques au format qui peuvent être appliquées.
+Le tableau suivant répertorie les combinaisons valides de *`format`* et *`pixelType`*, les types MIME de réponse HTTP correspondants, si les profils ICC peuvent être incorporés (voir [iccEmbed=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-iccembed.md#reference-47a433138c7c4b29b9b29871b2491a7f)) et quelles commandes d’option spécifiques au format peuvent être appliquées.
 
 <table id="table_3461A367632E4B5A8AB578850A439024"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> <span class="varname"> formater </span> </p> </th> 
+   <th colname="col1" class="entry"> <p> <span class="varname"> format </span> </p> </th> 
    <th colname="col2" class="entry"> <p> <span class="varname"> pixelType </span> </p> </th> 
    <th colname="col3" class="entry"> <p>Type MIME de réponse </p> </th> 
    <th colname="col4" class="entry"> <p>Incorporer le profil ICC </p> </th> 
@@ -163,21 +163,21 @@ Le tableau suivant répertorie les combinaisons valides de *`format`* et *`pixel
    <td colname="col2"> <p>rgb, gray, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;image/tiff&gt; </span> </p> </td> 
    <td colname="col4"> <p>Oui </p> </td> 
-   <td colname="col5"> <p> <span class="varname"> tiffCompression </span> </p> <p> <span class="codeph"> (none|lzw|zip|jpeg), pathEmbed=, qlt </span> </p> <p>( <span class="codeph"> qlt= </span> est ignoré sauf <span class="varname"> tiffCompression </span> est défini sur "jpeg".) </p> </td> 
+   <td colname="col5"> <p> <span class="varname"> tiffCompression </span> </p> <p> <span class="codeph"> (none|lzw|zip|jpeg), pathEmbed=, qlt </span> </p> <p>( <span class="codeph"> qlt= </span> est ignoré sauf si <span class="varname"> tiffCompression </span> est défini sur "jpeg".) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>swf, swf-alpha </p> </td> 
    <td colname="col2"> <p>rgb, gris </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;application/x-shockwave-flash&gt; </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;application/x-chokwave-flash&gt; </span> </p> </td> 
    <td colname="col4"> <p>Non </p> <p>(Le Flash Player ignore les profils ICC incorporés.) </p> </td> 
-   <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> attribute::TrustedDomains </span> </p> </td> 
+   <td colname="col5"> <p> <span class="codeph"> qlt= </span>, <span class="codeph"> attribut::TrustedDomains </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>pdf </p> </td> 
    <td colname="col2"> <p>rgb, gray, cmyk </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> &lt;application/pdf&gt; </span> </p> </td> 
    <td colname="col4"> <p>Oui </p> </td> 
-   <td colname="col5"> <p> <span class="varname"> tiffCompression </span> </p> <p> <span class="codeph"> (none|zip|jpeg),qlt= </span> </p> <p> ( <span class="codeph"> qlt= </span> est ignoré sauf <span class="varname"> tiffCompression </span> est défini sur "jpeg".) </p> </td> 
+   <td colname="col5"> <p> <span class="varname"> tiffCompression </span> </p> <p> <span class="codeph"> (none|zip|jpeg),qlt= </span> </p> <p> ( <span class="codeph"> qlt= </span> est ignoré sauf si <span class="varname"> tiffCompression </span> est défini sur "jpeg".) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eps </p> </td> 
@@ -198,7 +198,7 @@ Le tableau suivant répertorie les combinaisons valides de *`format`* et *`pixel
 
 Spécifie le format de codage des données d’image de réponse envoyées au client et le type MIME de réponse correspondant pour l’en-tête de réponse HTTP.
 
-`png-alpha` Renvoie un alpha non associé (c’est-à-dire qu’alpha ne pré-multiplie pas les valeurs de pixels), tandis que `tif-alpha`, et `swf-alpha` Renvoie l’alpha associé (c’est-à-dire que les valeurs alpha sont pré-multipliées avec les valeurs alpha). Le canal alpha correspond à l’inverse du masque de fond de la vignette pour `req=img`, et au masque de groupe ou d’objet s’il existe `req=object`. Pour appliquer alpha lors de l’utilisation d’une requête IR imbriquée, ajoutez `fmt=` avec le format de fichier alpha approprié à la requête IR incorporée et à la requête principale. Aucune donnée alpha n’est renvoyée si un profil ICC CMJN ou niveaux de gris est spécifié avec `icc=`.
+`png-alpha` Renvoie l’alpha non associé (c’est-à-dire qu’alpha ne pré-multiplie pas les valeurs de pixels), tandis que `tif-alpha` et `swf-alpha` renvoient l’alpha associé (c’est-à-dire que les valeurs alpha sont pré-multipliées avec les valeurs alpha). Le canal alpha correspond à l’inverse du masque de fond de la vignette pour `req=img` et au masque de groupe ou d’objet s’il existe `req=object`. Pour appliquer alpha lors de l’utilisation d’une requête IR imbriquée, ajoutez `fmt=` avec le format de fichier alpha approprié à la requête IR incorporée et à la requête principale. Aucune donnée alpha n’est renvoyée si un profil ICC CMJN ou niveaux de gris est spécifié avec `icc=`.
 
 ## Propriétés {#section-eb12a82c69d84622bcea153dd84d95b3}
 
@@ -206,7 +206,7 @@ Peut se produire n’importe où dans la requête.
 
 ## Par défaut {#section-d2c2af11fa974e1a84e0c6cb7fb646fe}
 
-*`format`* La valeur par défaut est `attribute::Format`et *`tiffCompression`* par défaut : `attribute::TiffEncoding`. *`pixelType`* La valeur par défaut est `rgb` if `icc=` n’est pas spécifié, sinon il correspond au type de pixel du profil ICC spécifié.
+*`format`* Par défaut : `attribute::Format` et *`tiffCompression`* par défaut : `attribute::TiffEncoding`. *`pixelType`* La valeur par défaut est `rgb` si `icc=` n’est pas spécifié, sinon elle correspond au type de pixel du profil ICC spécifié.
 
 ## Voir aussi {#section-c55efc881fc94c70bff91b870e026a7b}
 

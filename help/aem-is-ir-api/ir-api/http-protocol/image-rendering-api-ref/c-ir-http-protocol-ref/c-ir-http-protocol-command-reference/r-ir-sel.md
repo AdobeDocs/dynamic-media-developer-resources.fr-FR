@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: fac33287-ebcc-4995-b968-ac377065fdd4
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 2%
+source-wordcount: '189'
+ht-degree: 1%
 
 ---
 
@@ -24,22 +24,22 @@ Sélectionnez l’objet par emplacement de pixel.
   <td class="stentry"> <p>Sélectionnez les coordonnées de l’emplacement en pixels (int, int). </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> niveau </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> level </span> </p> </td> 
   <td class="stentry"> <p>Au niveau du groupe (int). </p> </td> 
  </tr> 
 </table>
 
-Sélectionne le groupe ou l’objet aux coordonnées de pixel spécifiées par *`x, y`* et lance un nouveau MSS. Si aucun objet sélectionnable n’est à l’emplacement de sélection ou si l’emplacement de sélection n’est pas valide, l’action spécifiée par `attribute::OnFailSel` est prise.
+Sélectionne le groupe ou l’objet aux coordonnées de pixel spécifiées par *`x, y`* et lance un nouveau MSS. Si aucun objet sélectionnable n’est à l’emplacement de sélection ou si l’emplacement de sélection n’est pas valide, l’action spécifiée par `attribute::OnFailSel` est exécutée.
 
-*`level`* Indique s’il convient de sélectionner le groupe le plus éloigné ou d’effectuer une analyse approfondie vers un groupe ou un objet imbriqué. If *`level`* n’est pas spécifié, le groupe le plus éloigné est sélectionné. Définissez cette variable sur 1 pour sélectionner un niveau de groupe sous le groupe le plus éloigné. Définissez cette variable sur un nombre élevé (99, par exemple) pour sélectionner l’objet ou le groupe le plus sélectionnable.
+*`level`* Indique s’il faut sélectionner le groupe le plus éloigné ou effectuer une analyse vers le bas pour un groupe imbriqué ou un objet. Si *`level`* n’est pas spécifié, le groupe le plus éloigné est sélectionné. Définissez cette variable sur 1 pour sélectionner un niveau de groupe sous le groupe le plus éloigné. Définissez cette variable sur un nombre élevé (99, par exemple) pour sélectionner l’objet ou le groupe le plus sélectionnable.
 
 ## Propriétés {#section-8f27e84d88734a62a5e398e0c9972bdc}
 
-la commande Sélection; Délimiteur MSS. La sélection d’objet est persistante jusqu’à ce qu’un autre objet soit sélectionné, avec la méthode `obj=` ou `sel=`.
+Commande de sélection ; délimiteur MSS. La sélection d’objet est persistante jusqu’à ce qu’un autre objet soit sélectionné, avec `obj=` ou `sel=`.
 
-*`x, y`* Doit se trouver dans la plage 0, 0 (coin supérieur gauche de l’image) pour *`wid`*-1, *`hei`*-1 (coin inférieur droit de l’image), où *`wid`* et *`hei`* est la taille de la vignette sans mise à l’échelle.
+*`x, y`* Doit se trouver dans la plage 0, 0 (coin supérieur gauche de l’image) à *`wid`*-1, *`hei`*-1 (coin inférieur, droit de l’image), où *`wid`* et *`hei`* correspondent à la taille de l’affichage de la vignette non mise à l’échelle.
 
-Si spécifié, *`level`* doit être égal ou supérieur à 0.
+Si spécifié, *`level`* doit être supérieur ou égal à 0.
 
 ## Par défaut {#section-e13c705a3e76468894b4ec190ed8a893}
 

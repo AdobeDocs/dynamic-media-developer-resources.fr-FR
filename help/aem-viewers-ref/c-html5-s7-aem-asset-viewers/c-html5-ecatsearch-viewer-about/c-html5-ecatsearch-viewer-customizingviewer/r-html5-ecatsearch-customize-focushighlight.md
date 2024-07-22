@@ -24,7 +24,7 @@ L’aspect de la mise en surbrillance de la mise au point est contrôlé à l’
 .s7ecatalogviewer *:focus
 ```
 
-**Propriétés CSS de mise en surbrillance de la mise au point**
+**Propriétés CSS de mise en surbrillance de la cible d’action**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 

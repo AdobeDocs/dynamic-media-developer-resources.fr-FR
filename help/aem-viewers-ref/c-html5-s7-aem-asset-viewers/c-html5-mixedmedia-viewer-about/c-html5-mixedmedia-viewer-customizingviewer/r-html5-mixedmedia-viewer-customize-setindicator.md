@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 53ee058a-cb8c-4b1f-bb9b-caaecc12c947
 source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 1%
+source-wordcount: '259'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ L’indicateur de définition est une série de points affichés au-dessus des �
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriétés CSS de l’indicateur set**
+**Propriétés CSS de l’indicateur défini**
 
 L’aspect du conteneur d’indicateur défini est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
@@ -35,7 +35,7 @@ L’aspect du conteneur d’indicateur défini est contrôlé à l’aide du sé
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Couleur d’arrière-plan au format hexadécimal de l’indicateur défini. </p> </td> 
   </tr> 
  </tbody> 
@@ -90,7 +90,7 @@ L’aspect d’un point indicateur de définition individuel est contrôlé à l
    <td colname="col2"> <p>Rayon de la bordure en pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Couleur d’arrière-plan au format hexadécimal. </p> </td> 
   </tr> 
  </tbody> 
@@ -98,9 +98,9 @@ L’aspect d’un point indicateur de définition individuel est contrôlé à l
 
 >[!NOTE]
 >
->L’option Définir le point d’indicateur prend en charge `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la page actuelle des miniatures, `state="unselected"` correspond à l’état du point par défaut.
+>L’indicateur Set prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la page actuelle des miniatures, `state="unselected"` correspond à l’état du point par défaut.
 
-Exemple : pour créer un point d’indicateur fixe de 15 x 15 pixels, avec une marge horizontale de deux pixels, une marge supérieure de cinq pixels, une marge inférieure de pixel, un rayon de 12 pixels, #D5D3D3 couleur par défaut et #939393 couleur principale :
+Exemple : pour créer un point d’indicateur fixe de 15 x 15 pixels, avec une marge horizontale de deux pixels, une marge supérieure de cinq pixels, une marge inférieure de pixel, un rayon de 12 pixels, #D5D3D3 couleur par défaut et #939393 couleur active :
 
 ```
 .s7mixedmediaviewer .s7setindicator .s7dot { 

@@ -8,7 +8,7 @@ exl-id: c6b72ceb-3c86-4b13-89e9-5f1bb9846b2c
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 12%
+ht-degree: 11%
 
 ---
 
@@ -33,13 +33,13 @@ Syntaxe
 |---|---|---|---|
 | companyHandle | `xsd:string` | Oui | Poignée de la société. |
 | overwriteMode | `xsd:string` | Non | Mode de remplacement des ressources. |
-| keepPublishState | `xsd:boolean` | Non | Définissez sur . `true` pour conserver l’état de publication lorsqu’une ressource est à nouveau chargée. |
+| keepPublishState | `xsd:boolean` | Non | Définissez cette variable sur `true` pour conserver l’état de publication lorsqu’une ressource est à nouveau chargée. |
 | defaultSourceProfileHandle | `xsd:string` | Non | Ressource IccProfile à utiliser comme profil de couleur source par défaut. |
 | defaultDisplayProfileHandle | `xsd:string` | Non | Ressource IccProfile à utiliser comme profil de couleur d’affichage par défaut. |
 | iptcExifMappingXsltHandle | `xsd:string` | Non | Ressource XSL utilisée pour mapper les métadonnées IPTC et EXIF aux champs de métadonnées IPS. |
 | xmpMappingXsltHandle | `xsd:string` | Non | Ressource XSL utilisée pour mapper XMP métadonnées aux champs de métadonnées IPS. |
 | diskSpaceWarningMin | `xsd:int` | Non | Espace disque minimal disponible (en Ko) avant l’envoi d’un message d’avertissement. |
-| emailTrashCleanupWarning | `xsd:boolean` | Non | Définissez sur . `true` pour envoyer aux administrateurs de l’entreprise une notification chaque fois que des ressources sont vidées de la corbeille. |
+| emailTrashCleanupWarning | `xsd:boolean` | Non | Définissez cette variable sur `true` pour envoyer aux administrateurs de l’entreprise une notification chaque fois que des ressources sont vidées de la corbeille. |
 
 **Sortie (setCompanySettingsReturn)**
 
@@ -49,7 +49,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 Cet exemple de code définit la configuration d’une entreprise.
 
-**Request**
+**Requête**
 
 ```java
 <ns1:setCompanySettingsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd/2008-01-15">

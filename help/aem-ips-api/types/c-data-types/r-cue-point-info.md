@@ -22,6 +22,6 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| originalPath | `xsd:string` | Chemin d’accès au fichier CuePoint. |
+| originalPath | `xsd:string` | Chemin du fichier CuePoint. |
 | originalFile | `xsd:string` | Nom du fichier CuePoint. |
 | fileSize | `xsd:int` | Taille de fichier CuePoint. |

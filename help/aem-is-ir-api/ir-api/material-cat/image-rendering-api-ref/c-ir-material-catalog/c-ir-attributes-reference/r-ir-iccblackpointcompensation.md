@@ -8,7 +8,7 @@ exl-id: 9d075434-5ef0-4b6a-ad24-1ef9c57e3e47
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '69'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -18,11 +18,11 @@ Compensation du point noir. Indique si la compensation du point noir doit être 
 
 ## Propriétés {#section-21fd20b16bea4a22aecab0ae8b81e332}
 
-Indicateur. Définissez sur . `0` pour désactiver ou pour `1` pour activer la compensation des points noirs.
+Indicateur. Définissez cette variable sur `0` pour désactiver ou sur `1` pour activer la compensation du point d’arrêt.
 
 ## Par défaut {#section-5bc6703a43a149f18af88b70baae568f}
 
-Hérité de `default::IccBlackPointCompensation` s’il n’est pas défini ou s’il est vide.
+Hérité de `default::IccBlackPointCompensation` si elle n’est pas définie ou si elle est vide.
 
 ## Voir aussi {#section-90fcbddf02c54846aa09f85fabc7b4d4}
 

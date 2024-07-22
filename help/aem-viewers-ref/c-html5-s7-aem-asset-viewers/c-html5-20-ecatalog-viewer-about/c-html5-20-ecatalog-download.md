@@ -19,5 +19,5 @@ Il est possible de télécharger le catalogue électronique en tant que fichier 
 Le bouton &quot;Télécharger&quot; est automatiquement disponible dans l’interface utilisateur de la visionneuse lorsque les événements suivants se produisent :
 
 * Un fichier de PDF réel est présent dans la société du client.
-* Le nom correspond au nom de la ressource de catalogue électronique qui est transmise à la visionneuse et comprend un `.pdf` extension .
+* Le nom correspond au nom de la ressource de catalogue électronique qui est transmise à la visionneuse et inclut une extension `.pdf`.
 * Le fichier du PDF est publié dans Dynamic Media Classic.

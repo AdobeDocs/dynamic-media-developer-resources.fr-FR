@@ -8,7 +8,7 @@ exl-id: dacea36e-3d40-4aaf-94fd-f0709830caf9
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 13%
+ht-degree: 10%
 
 ---
 
@@ -40,7 +40,7 @@ Syntaxe
 | companyHandle | `xsd:string` | Oui | Gestionnaire de la société à laquelle appartient le dossier. |
 | assetHandle | `xsd:string` | Oui | Gestionnaire de la ressource à supprimer. |
 
-**Sortie (deleteAssetParam)**
+**Output (deleteAssetParam)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 
@@ -48,7 +48,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 Cet exemple de code supprime tout type de ressource d’une société spécifique. Elle nécessite un gestionnaire de ressources, que vous devez obtenir d’une autre opération.
 
-**Request**
+**Requête**
 
 ```java
 <ns1:deleteAssetParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

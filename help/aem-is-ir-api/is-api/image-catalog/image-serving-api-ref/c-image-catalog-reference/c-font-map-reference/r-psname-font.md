@@ -8,7 +8,7 @@ exl-id: 8d48dead-e544-4fd1-8e8a-70933389b668
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
 source-wordcount: '59'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ Actuellement, seul le moteur de rendu FXG peut référencer les polices à l’a
 
 ## Propriétés {#section-a560f8bfc69a4d88aeb0b53c1625153b}
 
-Chaîne de texte. Facultatif. Clé d’index Secondaire pour la mise en correspondance des polices. Identique `font::PsName` ne peut se produire qu’une seule fois dans le même fichier de mappage de polices.
+Chaîne de texte. Facultatif. Clé d’index Secondaire pour la mise en correspondance des polices. La même valeur `font::PsName` ne peut se produire qu’une seule fois dans le même fichier de mappage de polices.
 
 ## Par défaut {#section-c5903d5340e740b69ec0150d2303a893}
 

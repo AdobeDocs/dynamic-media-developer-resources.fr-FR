@@ -2,13 +2,13 @@
 description: Chemin du fichier de mappage de polices. Indique le fichier contenant la mise en correspondance des polices pour ce catalogue d’images.
 solution: Experience Manager
 title: FontMapFile
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e922d51b-f92e-4cbc-a7c1-5e54e44afd50
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 5%
+source-wordcount: '66'
+ht-degree: 4%
 
 ---
 

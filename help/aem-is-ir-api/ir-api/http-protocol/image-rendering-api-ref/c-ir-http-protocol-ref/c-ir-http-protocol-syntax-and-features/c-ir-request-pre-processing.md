@@ -22,7 +22,7 @@ Les règles de prétraitement des requêtes peuvent modifier les parties de chem
 
 Les règles de prétraitement des demandes sont adaptées à diverses applications, dont certaines sont répertoriées ci-dessous :
 
-* Mettre en oeuvre une *chemins virtuels* qui permet de recodifier le chemin de requête pour les chemins de fichier, FTP et HTTP.
+* Implémentez un mécanisme *virtual paths* qui permet de mapper à nouveau le chemin de requête sur les chemins de fichier, FTP et HTTP.
 * Interdire l’utilisation de commandes intensives en processeur pour éviter les abus de serveur.
 * Contrôlez les paramètres de qualité de l’image (tels que la qualité ou l’accentuation du JPEG) en fonction du chemin d’accès à la requête ou du nom de l’image.
 

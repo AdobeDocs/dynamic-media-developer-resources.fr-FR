@@ -18,11 +18,11 @@ Cet exemple utilise le service d’images pour colorer un objet et appliquer une
 
 Les variables IR sont utilisées pour identifier la vignette, l’image du logo et le texte personnalisé.
 
-Le `vignette::Modifier` dans l’enregistrement nommé *modèle* dans la vignette du catalogue de matériaux `myCat` contient les éléments suivants :
+Le champ `vignette::Modifier` de l&#39;enregistrement nommé *template* dans la vignette map du catalogue de matériaux `myCat` contient les éléments suivants :
 
 `$vig=defaultVignette&$text=text_goes_here&$color=220,220,220&vignette=myCat/$vig$&obj=group/object&color=$color$&decal&src=is{?size=300,100&text={\qc\fs36 $text$}}`
 
-Toutes les vignettes utilisées sont répertoriées dans la vignette du catalogue de matériaux. `myCat`.
+Toutes les vignettes utilisées sont répertoriées dans la vignette du catalogue de matériaux `myCat`.
 
 Le client peut désormais effectuer la requête suivante pour récupérer l’image par défaut (utilise les variables définies au début du modèle) :
 
@@ -32,4 +32,4 @@ La requête suivante spécifie le contenu à rendre :
 
 [!DNL `https://server/myCat/template?$vig=specialCup&$text=Happy%20Birthday!\line%20Pauline&$color=230,20,20`]
 
-Pour plus d’informations sur le serveur d’images, reportez-vous à la documentation du serveur d’images . `text=` .
+Pour plus d’informations sur la commande `text=` du serveur d’images, reportez-vous à la documentation du serveur d’images .

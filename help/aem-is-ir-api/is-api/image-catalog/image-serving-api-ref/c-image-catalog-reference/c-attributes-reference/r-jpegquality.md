@@ -1,24 +1,24 @@
 ---
-description: Attributs de codage JPEG par défaut. Spécifie les attributs par défaut des images de réponse JPEG.
+description: Attributs de codage du JPEG par défaut. Spécifie les attributs par défaut pour les images de réponse du JPEG.
 solution: Experience Manager
 title: JpegQuality
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c2a7f7f9-0c2c-4421-9dbc-d5c1e936f0f1
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 4%
+source-wordcount: '82'
+ht-degree: 3%
 
 ---
 
 # JpegQuality{#jpegquality}
 
-Attributs de codage JPEG par défaut. Spécifie les attributs par défaut des images de réponse JPEG.
+Attributs de codage du JPEG par défaut. Spécifie les attributs par défaut pour les images de réponse du JPEG.
 
 ## Propriétés {#section-7a75ebaf11bd4b778d287c2c5c150d0c}
 
-Nombre entier et indicateur, séparés par une virgule. La première valeur est comprise dans la plage 1.100 et définit la qualité. La seconde valeur peut être 0 pour le comportement normal, ou 1 pour désactiver le sous-échantillonnage chromatique RVB généralement utilisé par les encodeurs JPEG.
+Nombre entier et indicateur, séparés par une virgule. La première valeur est comprise dans la plage 1.100 et définit la qualité. La seconde valeur peut être 0 pour le comportement normal, ou 1 pour désactiver le sous-échantillonnage chromatique RGB généralement utilisé par les encodeurs JPEG.
 
 ## Par défaut {#section-0b25eddd59bc434abfe38eeea9d45df3}
 

@@ -8,22 +8,22 @@ exl-id: 5f7ce5e7-7351-42e0-88ce-6783b5c2e507
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '29'
-ht-degree: 20%
+ht-degree: 10%
 
 ---
 
 # InfoPanelPopup.showhidetransition{#infopanelpopup-showhidetransition}
 
-` [InfoPanelPopup.|<containerId>_infoPanelPopup.]showhidetranstion=fade|none[, *`heure`*]`
+` [InfoPanelPopup.|<containerId>_infoPanelPopup.]showhidetranstion=fade|none[, *`time`*]`
 
 <table id="table_863763B730A949AA8C0E11E6F8461E3A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> fade|none</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> fondu|none</span> </p> </td> 
    <td colname="col2"> <p> Indique le type d’animation d’affichage/masquage du panneau d’informations. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"><span class="varname"> heure</span></span> </p> </td> 
+   <td> <p> <span class="codeph"><span class="varname"> time</span></span> </p> </td> 
    <td> <p> Durée (en secondes) de l’animation d’affichage ou de masquage. </p> </td> 
   </tr> 
  </tbody> 

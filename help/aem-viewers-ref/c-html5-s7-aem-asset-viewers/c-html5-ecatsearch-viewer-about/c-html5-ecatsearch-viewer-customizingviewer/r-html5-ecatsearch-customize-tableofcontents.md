@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: bc597c68-b86c-4577-9d24-6999eccada78
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 1%
+source-wordcount: '1076'
+ht-degree: 0%
 
 ---
 
@@ -51,7 +51,7 @@ La position et la taille du bouton de table des matières dans l’interface uti
    <td colname="col2"> <p> Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -59,7 +59,7 @@ La position et la taille du bouton de table des matières dans l’interface uti
 
 >[!NOTE]
 >
->Ce bouton prend en charge `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
 L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 
@@ -96,8 +96,8 @@ L’aspect du panneau déroulant est contrôlé à l’aide du sélecteur de cla
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
-   <td colname="col2"> <p> Couleur d’arrière-plan du panneau déroulant. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> Couleur de fond du panneau déroulant. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
@@ -112,7 +112,7 @@ L’aspect du panneau déroulant est contrôlé à l’aide du sélecteur de cla
 
 >[!NOTE]
 >
->Il n’est pas possible de contrôler la taille ou la position du panneau déroulant à partir de CSS ; le composant gère sa mise en page par programmation.
+>Il n’est pas possible de contrôler la taille ou la position du panneau déroulant à partir de CSS ; le composant gère sa disposition par programmation.
 
 Exemple : configurez un panneau déroulant avec un arrière-plan noir semi-transparent, une marge de 5 pixels autour du contenu et une ombre portée :
 
@@ -147,7 +147,7 @@ L’aspect de chaque élément est contrôlé à l’aide du sélecteur de class
    <td colname="col2"> <p>Hauteur de l'élément. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p>Marge intérieure interne. </p> </td> 
   </tr> 
  </tbody> 
@@ -155,7 +155,7 @@ L’aspect de chaque élément est contrôlé à l’aide du sélecteur de class
 
 >[!NOTE]
 >
->L’élément de liste déroulante prend en charge le paramètre `state` sélecteur d’attributs qui peut être utilisé pour appliquer différents habillages au survol et aux états d’élément sélectionnés.
+>L’élément de liste déroulante prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages au survol et aux états d’élément sélectionnés.
 
 Exemple : configurez un élément de liste déroulante avec une police Helvetica® 14 pixels et une hauteur de 19 pixels. Lorsque vous sélectionnez un élément, son arrière-plan est gris foncé et son arrière-plan gris clair :
 
@@ -192,15 +192,15 @@ Un élément qui affiche l’index de page est contrôlé à l’aide du sélect
    <td colname="col2"> <p> Largeur maximale de l’élément. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge intérieure-droite </span> </p> </td> 
-   <td colname="col2"> <p> Distance entre l’index de la page et le libellé de la page. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-right </span> </p> </td> 
+   <td colname="col2"> <p> Distance entre l’index de page et le libellé de page. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Il est possible de masquer entièrement l’index de page en définissant `display:none` pour le `s7index` Classe CSS.
+>Il est possible de masquer entièrement l’index de page en définissant `display:none` pour la classe CSS `s7index`.
 
 Exemple 1 : configurez un index de page avec une largeur minimale de 40 pixels, une largeur maximale de 70 pixels et une marge de 5 pixels sur le côté droit :
 
@@ -226,7 +226,7 @@ Le libellé de page est contrôlé à l’aide du sélecteur de classe CSS suiva
  .s7ecatalogsearchviewer .s7tableofcontents .s7panel .s7label
 ```
 
-**Propriétés CSS du libellé de page**
+**Propriétés CSS de l’étiquette de page**
 
 <table id="table_A42E372D931D4F04855EE5AB5530CB12"> 
  <tbody> 
@@ -265,15 +265,15 @@ S’il y a plus d’éléments que la verticale dans le panneau déroulant (et q
    <td colname="col2"> <p> Largeur de la barre de défilement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> haut </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> Décalage de la barre de défilement verticale par rapport au haut de la zone du panneau. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bas </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p> Décalage de la barre de défilement verticale par rapport au bas de la zone du panneau. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> droite </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> droit </span> </p> </td> 
    <td colname="col2"> <p> Décalage de la barre de défilement horizontale à partir du bord droit de la zone de panneau. </p> </td> 
   </tr> 
  </tbody> 
@@ -305,7 +305,7 @@ Le suivi de la barre de défilement est la zone entre les boutons de défilement
    <td colname="col2"> <p>Largeur du suivi. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Couleur d’arrière-plan du suivi. </p> </td> 
   </tr> 
  </tbody> 
@@ -326,7 +326,7 @@ La barre de défilement se déplace verticalement dans la zone de suivi de défi
 .s7ecatalogsearchviewer .s7tableofcontents .s7scrollbar .s7scrollthumb
 ```
 
-**Propriétés CSS de la barre de défilement**
+**Propriétés CSS du curseur de barre de défilement**
 
 <table id="table_D8DFBC2419BD4AB3B4892AC7B599C70A"> 
  <tbody> 
@@ -339,11 +339,11 @@ La barre de défilement se déplace verticalement dans la zone de suivi de défi
    <td colname="col2"> <p>La hauteur du pouce. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-top </span> </p> </td> 
    <td colname="col2"> <p> Marge intérieure verticale entre le haut de la piste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-bottom </span> </p> </td> 
    <td colname="col2"> <p>Marge intérieure verticale entre le bas de la piste. </p> </td> 
   </tr> 
   <tr> 
@@ -351,7 +351,7 @@ La barre de défilement se déplace verticalement dans la zone de suivi de défi
    <td colname="col2"> <p> Image affichée pour un état de pouce donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -359,7 +359,7 @@ La barre de défilement se déplace verticalement dans la zone de suivi de défi
 
 >[!NOTE]
 >
->Le curseur prend en charge `state` le sélecteur d’attributs, qui peut être utilisé pour appliquer différents habillages au `up`, `down`, `over`, et `disabled` les états du pouce.
+>La miniature prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages aux états de miniature `up`, `down`, `over` et `disabled`.
 
 Exemple : configurez une barre de défilement de 28 x 45 pixels, avec des marges de 10 pixels en haut et en bas, et une illustration différente pour chaque état :
 
@@ -396,7 +396,7 @@ L’aspect des boutons de défilement haut et bas est contrôlé à l’aide des
 .s7ecatalogsearchviewer .s7tableofcontents .s7scrollbar .s7scrolldownbutton
 ```
 
-Il n’est pas possible de positionner les boutons de défilement à l’aide de CSS `top`, `left`, `bottom`, et `right` propriétés; au lieu de cela, la logique de la visionneuse les positionne automatiquement.
+Il n’est pas possible de positionner les boutons de défilement à l’aide des propriétés CSS `top`, `left`, `bottom` et `right` ; à la place, la logique de la visionneuse les positionne automatiquement.
 
 **Propriétés CSS du bouton de défilement vers le haut et vers le bas**
 
@@ -415,7 +415,7 @@ Il n’est pas possible de positionner les boutons de défilement à l’aide de
    <td colname="col2"> <p> Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -423,7 +423,7 @@ Il n’est pas possible de positionner les boutons de défilement à l’aide de
 
 >[!NOTE]
 >
->Le bouton prend en charge la fonction `state` le sélecteur d’attributs, qui peut être utilisé pour appliquer différents habillages au `up`, `down`, `over`, et `disabled` états de bouton.
+>Le bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages aux états de bouton `up`, `down`, `over` et `disabled`.
 
 L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 

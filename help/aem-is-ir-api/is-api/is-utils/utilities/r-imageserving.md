@@ -8,7 +8,7 @@ exl-id: 252e12d9-703e-4fbb-a156-8dcdc3bc4f2e
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -31,7 +31,7 @@ Script de contrôle du serveur d’images. Ce script est utilisé pour démarrer
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> commencer </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> start </span> </p> </td> 
    <td colname="col2"> <p> Démarrez le responsable serveur et tous les autres composants de la diffusion d’images. </p> </td> 
   </tr> 
   <tr> 
@@ -39,16 +39,16 @@ Script de contrôle du serveur d’images. Ce script est utilisé pour démarrer
    <td colname="col2"> <p> Arrêtez tous les composants du serveur d’images, y compris le responsable du serveur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Redémarrer </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> restart </span> </p> </td> 
    <td colname="col2"> <p>Redémarrez tous les composants du serveur d’images, y compris le responsable du serveur. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> restart { ps | is | svg } </span> </p> </td> 
-   <td colname="col2"> <p> Redémarre Tomcat/[!DNL Platform Server], le serveur d’images ou le SVG. </p> </td> 
+   <td colname="col2"> <p> Redémarre Tomcat/[!DNL Platform Server], Image Server ou SVG. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> status [ ps | is | svg ] </span> </p> </td> 
-   <td colname="col2"> <p>Renvoie les informations de disponibilité et d’utilisation actuelle de la mémoire pour Image Server, Tomcat/[!DNL Platform Server], et SVGserver, ou statut pour le seul serveur spécifié ; un message d’information est renvoyé si le responsable du serveur n’est pas en cours d’exécution. </p> </td> 
+   <td colname="col2"> <p>Renvoie les informations de disponibilité et d’utilisation actuelle de la mémoire pour le serveur d’images, Tomcat/[!DNL Platform Server] et SVGserver, ou l’état pour le serveur spécifié uniquement ; un message d’information est renvoyé à la place si le responsable du serveur n’est pas en cours d’exécution. </p> </td> 
   </tr> 
  </tbody> 
 </table>

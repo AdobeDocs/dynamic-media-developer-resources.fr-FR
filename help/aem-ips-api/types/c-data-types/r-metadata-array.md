@@ -30,8 +30,8 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> items</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> type : métadonnées</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> éléments</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> type : Metadata</span> </p> </td> 
    <td colname="col3"> <p>Tableau de métadonnées. </p> </td> 
   </tr> 
  </tbody> 

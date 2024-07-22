@@ -2,17 +2,17 @@
 description: Décrit les nouvelles méthodes d’exploitation et les méthodes modifiées pour l’API IPS version 6.
 solution: Experience Manager
 title: Opérations nouvelles et modifiées
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fc7af77e-17fc-453a-8949-78c9c5c33b34
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '83'
 ht-degree: 1%
 
 ---
 
-# Opérations : Nouveautés et modifications{#operations-new-and-modified}
+# Opérations : nouvelles et modifiées{#operations-new-and-modified}
 
 Décrit les nouvelles méthodes d’exploitation et les méthodes modifiées pour l’API IPS version 6.
 
@@ -31,7 +31,7 @@ Syntaxe
 
 **Ajout**
 
-* Ajout de `isHidden` et `initialTagValue` à :
+* Ajout de `isHidden` et de `initialTagValue` à :
 
    * `saveMetadataField`
    * ` `updateMetadataField&quot;
@@ -42,21 +42,19 @@ Syntaxe
    * `createImageSet`
    * `createAssetSet`
 
-   Ajout de `companyHandle` à :
+  Ajout de `companyHandle` à :
 
    * `getViewerConfigSettings`
    * `setViewerConfigSettings`
    * `updateViewerConfigSettings`
    * `getSearchStrings`
 
-   Ajout de `contextHandle` à :
+  Ajout de `contextHandle` à :
 
    * `getImageServingPublishSettings`
    * `getImageRenderingPublishSettings`
    * `setImageServingPublishSettings`
    * `setImageRenderingPublishSettings`
-
-
 
 * Ajout de includeInactive à :
 

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 1c700d12-4bea-4b87-91c1-f615c3dceb79
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 11%
+source-wordcount: '47'
+ht-degree: 6%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 11%
 <table id="table_BE34F807437C4955A2A640495E05138F"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> 0 | 1</span> </p> </td> 
-   <td> <p> Lorsque la variable est définie sur <span class="codeph"> 1</span>, le composant renseigne le panneau déroulant avec des éléments pour toutes les pages, même pour les pages pour lesquelles aucun libellé n’est défini. </p> <p>Lorsque la variable est définie sur <span class="codeph"> 0</span> seuls les éléments avec des libellés explicites s’affichent dans le panneau déroulant. </p> </td> 
+   <td> <p> <span class="codeph"> 0|1</span> </p> </td> 
+   <td> <p> Lorsqu’il est défini sur <span class="codeph"> 1</span>, le composant remplit le panneau déroulant avec des éléments pour toutes les pages, même pour les pages pour lesquelles aucun libellé n’est défini. </p> <p>Lorsqu’elle est définie sur <span class="codeph"> 0</span>, seuls les éléments avec des libellés explicites s’affichent dans le panneau déroulant. </p> </td> 
   </tr> 
  </tbody> 
 </table>

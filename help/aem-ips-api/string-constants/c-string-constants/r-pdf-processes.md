@@ -1,18 +1,18 @@
 ---
 description: Utilisé par PDFOptions/type.
 solution: Experience Manager
-title: Processus PDF
-feature: Dynamic Media Classic, SDK/API
+title: Processus du PDF
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 4b389448-8611-4306-921a-bb1dd9361932
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '19'
-ht-degree: 10%
+source-wordcount: '14'
+ht-degree: 14%
 
 ---
 
-# Processus PDF{#pdf-processes}
+# Processus du PDF{#pdf-processes}
 
 Utilisé par PDFOptions/type.
 

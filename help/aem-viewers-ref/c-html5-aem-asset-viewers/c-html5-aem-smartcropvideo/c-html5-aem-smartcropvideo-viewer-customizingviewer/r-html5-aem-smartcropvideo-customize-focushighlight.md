@@ -4,7 +4,8 @@ description: La mise en surbrillance de la cible d’action affichée autour de 
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 242b80db-f5b4-44ad-9169-bd6ecf859ed0
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 1%

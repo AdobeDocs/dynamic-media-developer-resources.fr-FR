@@ -2,17 +2,17 @@
 description: Décrit les types nouveaux et modifiés de l’API IPS version 6.
 solution: Experience Manager
 title: Types de données nouveaux et modifiés
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d3bcd718-cf27-4d31-850f-a3205564be60
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '71'
 ht-degree: 1%
 
 ---
 
-# Types de données : Nouveautés et modifications{#data-types-new-and-modified}
+# Types de données : nouveaux et modifiés{#data-types-new-and-modified}
 
 Décrit les types nouveaux et modifiés de l’API IPS version 6.
 
@@ -50,7 +50,7 @@ Syntaxe
 
 * Ajout de `exportJob` à `ActiveJob` et `ScheduledJob`.
 
-* Ajout de `optmizedPath` et `optimizedFile` à `PsdInfo`.
+* Ajout de `optmizedPath` et de `optimizedFile` à `PsdInfo`.
 
 * Ajout de `contextHandle` à :
 

@@ -2,13 +2,13 @@
 description: Définition des macros. Un fragment de protocole de diffusion d’images constitué d’une ou de plusieurs commandes complètes, séparées par des caractères '&'.
 solution: Experience Manager
 title: Définition
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5b8815f5-c8e0-43e1-828c-2e389388cdde
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 5%
+source-wordcount: '104'
+ht-degree: 4%
 
 ---
 

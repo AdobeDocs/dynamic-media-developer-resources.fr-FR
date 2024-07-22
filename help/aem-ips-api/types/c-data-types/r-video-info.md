@@ -8,7 +8,7 @@ exl-id: 4f01d54b-1799-40f8-8c46-f170ceffdd25
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '60'
-ht-degree: 11%
+ht-degree: 8%
 
 ---
 
@@ -23,9 +23,9 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | originalPath | `xsd:string` | Chemin d’accès relatif à la vidéo téléchargée. |
-| originalFile | `xsd:string` | Nom du fichier vidéo d’origine. |
-| fileSize | `xsd:int` | Taille du fichier. |
-| imagePath | `xsd:string` | Chemin d’accès relatif au fichier vidéo. |
-| imageFile | `xsd:string` | Nom de fichier du fichier vidéo. |
+| originalFile | `xsd:string` | Nom du fichier vidéo original. |
+| fileSize | `xsd:int` | Taille de fichier. |
+| imagePath | `xsd:string` | Chemin relatif au fichier vidéo. |
+| imageFile | `xsd:string` | Nom du fichier vidéo. |
 | optimizedPath | `xsd:string` | Chemin d’accès au fichier vidéo optimisé par IPS. |
 | optimizedFile | `xsd:string` | Nom de fichier du fichier vidéo optimisé par IPS. |

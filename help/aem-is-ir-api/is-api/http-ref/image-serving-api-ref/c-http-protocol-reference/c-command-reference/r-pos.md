@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c2e9a1f3-7216-4ab0-9c37-57f083119cef
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '169'
 ht-degree: 2%
 
 ---
@@ -31,11 +31,11 @@ posN= *`coordN`*
  </tr> 
 </table>
 
-S’il existe une image, un texte et des calques de couleur unis, `pos=` spécifie la position d’une ancre de calque par rapport à l’ancre de calque 0. La variable `posN=` les valeurs de coordonnée sont normalisées par rapport à la taille réelle de la couche 0 rect.
+S’il existe une image, un texte et des calques de couleur unis, `pos=` indique la position d’une ancre de calque par rapport à l’ancre de calque 0. Les valeurs de coordonnée `posN=` sont normalisées par rapport à la taille réelle de la couche 0 rect.
 
-S’il existe des calques d’effet, `pos=` déplace le calque d’effet par rapport au calque parent.
+S’il existe des calques d’effet, `pos=` déplace la couche d’effet par rapport au calque parent.
 
-Les valeurs positives déplacent le calque vers la droite/le bas et les valeurs négatives vers la gauche/le haut. Dans `posN=0.5,0.5`, il déplace le calque de la moitié de la largeur et de la hauteur du calque de 0 vers le bas et vers la droite.
+Les valeurs positives déplacent le calque vers la droite/le bas et les valeurs négatives vers la gauche/le haut. Dans `posN=0.5,0.5`, il déplace le calque de la moitié de la largeur et de la hauteur 0 du calque vers le bas et la droite.
 
 ## Propriétés {#section-51a60cdc52d040538fef378ace7c2e7d}
 

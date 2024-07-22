@@ -8,7 +8,7 @@ exl-id: 76e595bd-e598-40e8-aba3-b270fcf4d800
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -30,14 +30,14 @@ Syntaxe
 
 ## Paramètres {#section-b4075df0e4414b00b961d978d5471db9}
 
-**Entrée (getXMPPacketParam)**
+**Entrée (getXMPPacketParam**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Oui | L’entreprise gère le paquet que vous souhaitez renvoyer (par exemple, `c|656`). |
 | assetHandle | `xsd:string` | Oui | Ressource pour laquelle le paquet XMP doit être récupéré. |
 
-**Sortie (getXMPPacketReturn)**
+**Output (getXMPPacketReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -45,7 +45,7 @@ Syntaxe
 
 ## Exemples {#section-d681af49122e4ca9bcd04110a2e98e6f}
 
-**Request**
+**Requête**
 
 ```java
 <ns:getXMPPacketParam>

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 23091ef7-750a-4ec2-9d03-1d713f436991
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '2204'
+source-wordcount: '2236'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Notes de mise à jour les plus récentes pour la version d’Adobe Scene7 de l�
 
 ## Version de Scene7 à l’automne 2016 {#topic-791cdf80f91e457fbb63bfedf79f5a94}
 
-Notes de mise à jour les plus récentes pour [!DNL Adobe Scene7] Version de l’automne 2016 du [!DNL Adobe Experience Manager] dans la [!DNL Adobe Experience Cloud].
+Notes de mise à jour les plus récentes pour la version de l’automne 2016 de [!DNL Adobe Experience Manager] de la [!DNL Adobe Experience Cloud].[!DNL Adobe Scene7]
 
 * [Généraux](s7rnfall2016.md#section-52afeb72ecb34c1585ea67a5051825a2)
 * [Scene7](s7rnfall2016.md#section-24487cb493444d808fb7193f0a00cdd4)
@@ -40,10 +40,10 @@ Pour obtenir une documentation complète, voir [https://experienceleague.adobe.c
 
 **Nouvelles fonctionnalités, améliorations et correctifs**
 
-* Suppression de la fonction de découpe vidéo de [!DNL Adobe Scene7 Publishing System] de l’interface utilisateur.
+* Suppression de la fonction de découpe vidéo de l’interface utilisateur de [!DNL Adobe Scene7 Publishing System].
 * Ajout d’une authentification à tous les servlets Scene7 si nécessaire et possible
 * Correction de bogue concernant le mode Liste dans la corbeille.
-* Supprimé **Créer un administrateur Dynamic Media Classic (Scene7)** fonction utilisateur de User Management en raison de problèmes de sécurité.
+* Suppression de la fonction utilisateur **Créer un administrateur Dynamic Media Classic (Scene7)** de User Management en raison de problèmes de sécurité.
 * FTP WebAdmin prend désormais en charge l’authentification OKTA.
 * Suppression de la fonctionnalité du mot de passe par défaut qui a été créé pour les nouveaux utilisateurs du portail multimédia.
 * Correction de bogue impliquant le mot de passe temporaire généré lors de l’ajout d’un nouvel utilisateur. Le mot de passe ne remplissait pas les exigences de mot de passe nécessaires.
@@ -58,9 +58,9 @@ Pour obtenir une documentation complète, voir [https://experienceleague.adobe.c
 
 ## Visionneuses (Image Serving 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Pour obtenir une documentation complète, voir [Guide de référence des visionneuses](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Pour obtenir une documentation complète, reportez-vous au [Guide de référence des visionneuses](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
-**Correctifs pour Image Serving 5.5.3**
+**Correctifs de bogues pour Image Serving 5.5.3**
 
 * Compatibilité avec les bibliothèques RequireJS et DOJO.
 
@@ -68,28 +68,28 @@ Pour obtenir une documentation complète, voir [Guide de référence des visionn
 
 ## Visionneuses (Image Serving 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Pour obtenir une documentation complète, voir [Guide de référence des visionneuses](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Pour obtenir une documentation complète, reportez-vous au [Guide de référence des visionneuses](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
-**Correctifs pour Image Serving 5.5.2**
+**Correctifs de bogues pour Image Serving 5.5.2**
 
 * La lecture de la vidéo a échoué dans Internet Explorer 11 sous Windows 7.
 * `initialframe` n’affectait pas le mode portrait sur les appareils mobiles pour le catalogue électronique HTML5.
 
 ## Visionneuses (Image Serving 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Pour obtenir une documentation complète, voir [Guide de référence des visionneuses](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Pour obtenir une documentation complète, reportez-vous au [Guide de référence des visionneuses](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Nouvelles fonctionnalités, améliorations et correctifs pour Image Serving 5.5.1**
 
 * Visionneuse de catalogue électronique HTML5 avec fonctionnalité de recherche.
 * Ajout de la lecture vidéo en continu HLS comme méthode de diffusion vidéo par défaut pour la plupart des systèmes de bureau. La diffusion vidéo HDS par Flash est toujours disponible en tant qu’option de lecture alternative.
-* Ajout de la prise en charge des appareils dotés de la souris et d’une entrée tactile exécutant le navigateur Chrome.
+* Ajout de la prise en charge des appareils dotés d’une souris et d’une touche exécutant le navigateur Chrome.
 * Ajout de la prise en charge de l’ID d’organisation Experience Cloud à l’intégration d’Analytics.
 * Mettez à jour la bibliothèque JavaScript AppMeasurement vers la version 1.6.1.
 * Ajout de la prise en charge de l’orientation de droite à gauche dans la visionneuse de catalogue électronique.
 * Correction d’un problème en raison duquel `tip=0,-1,0` provoquait une erreur &quot;out-of-range&quot;.
 
-**Remarques sur la compatibilité**
+**Notes de compatibilité**
 
 * BlackBerry®
 
@@ -104,7 +104,7 @@ Pour obtenir une documentation complète, voir [Guide de référence des visionn
 
 * Galaxy SIII
 
-   * Fuite de mémoire vue avec les visionneuses Zoom et HTML5 eCatalog. Une navigation répétée dans les images peut entraîner le blocage du navigateur.
+   * Fuite de mémoire vue avec les visionneuses Zoom et HTML eCatalog5. Une navigation répétée dans les images peut entraîner le blocage du navigateur.
    * Si vous appuyez deux fois sur la visionneuse, il se peut que la page entière fasse l’objet d’un zoom au lieu de la seule visionneuse avec la mise à l’échelle côté navigateur activée.
 
 * Galaxy S4
@@ -127,7 +127,7 @@ Pour obtenir une documentation complète, voir [Guide de référence des visionn
 * Vidéo HTML5
 
    * Internet Explorer 9 : les affiches personnalisées ne s’affichent pas.
-   * `IntialBitRate` est uniquement pris en charge avec la lecture HLS du logiciel et HDS par Flash. Cela ne fonctionne pas lorsque la lecture utilise le lecteur natif.
+   * Le modificateur `IntialBitRate` est uniquement pris en charge avec la lecture HLS du logiciel et HDS par Flash. Cela ne fonctionne pas lorsque la lecture utilise le lecteur natif.
    * La lecture progressive OGG et WebM n’est actuellement pas prise en charge.
    * La mise à l’échelle du navigateur peut entraîner l’affichage d’un lecteur vidéo à une taille incorrecte (inclut les paramètres d’affichage du panneau de contrôle Windows OS).
    * La recherche vidéo à l’aide de la diffusion HLS en continu sur Safari peut être incohérente.
@@ -151,30 +151,30 @@ Pour obtenir une documentation complète, voir [Guide de référence des visionn
 
 **Problèmes connus et restrictions**
 
-* Les modificateurs de diffusion d’images de `iscommands` ne sont pas ajoutés à la variable `req=set` requête par conception. Les modificateurs qui affectent uniquement l’affichage de l’image fonctionnent correctement. Les modificateurs affectant la taille doivent être utilisés dans une ressource complexe. Par exemple :
+* Les modificateurs de diffusion d’images de `iscommands` ne sont pas ajoutés à la requête `req=set` par conception. Les modificateurs qui affectent uniquement l’affichage de l’image fonctionnent correctement. Les modificateurs affectant la taille doivent être utilisés dans une ressource complexe. Par exemple :
 
   `https://s7d9.scene7.com/s7viewers/html5/BasicZoomViewer.html?asset= {Scene7SharedAssets/Backpack_B?extendn=0.5%252C0.5%252C0.5%252C0.5}`
 
-* [Fenêtre déroulante] IE9 reste parfois à l’écran après la fermeture de la souris.
+* [Fenêtre déroulante] IE9 reste parfois à l’écran après la désactivation de la souris.
 * La mise à l’échelle du navigateur entraîne un mauvais redimensionnement.
 * iPad 2 : une ressource de catalogue électronique volumineuse bloque Safari sur iOS.
 * Toutes les visionneuses
 
    * Les filigranes, l’obscurcissement et le verrouillage ne sont pas pris en charge.
    * Les paramètres d’image prédéfinis ne sont pas pris en charge.
-   * Ajout ou suppression d’une visionneuse du DOM à l’aide de `display:none` CSS ou en le désolidarisant dynamiquement du noeud parent n’est actuellement pas pris en charge.
+   * L’ajout ou la suppression de la visionneuse du DOM à l’aide de `display:none` CSS ou sa désolidarisation dynamique du noeud parent n’est actuellement pas prise en charge.
 
 * HTML5 Toutes les visionneuses
 
    * L’incorporation de la visionneuse dans le tableau peut entraîner un dimensionnement ou un placement incorrect de la visionneuse en mode plein écran non natif. Suggérez plutôt d’utiliser des DIV.
-   * Les paramètres dont les noms d’instances sont explicites dans le code nécessitent que les noms d’instances dans l’URL soient également remplacés (par exemple : `zoomView.iconfeffect=0`).
+   * Les paramètres avec des noms d’instance explicites dans le code nécessitent que les noms d’instance dans l’URL soient également remplacés (par exemple, `zoomView.iconfeffect=0`).
    * Le recadrage de la commande Image Serving n’est actuellement pas pris en charge.
    * Le bouton Fermer ne fonctionne que si la visionneuse est ouverte dans la fenêtre enfant.
-   * La variable `iscommands` ne prend pas en charge les modificateurs de diffusion d’images qui affectent la taille de l’image.
+   * Le modificateur `iscommands` ne prend pas en charge les modificateurs de diffusion d’images qui affectent la taille de l’image.
 
 * Catalogue électronique HTML5
 
-   * Si vous accédez à une autre page de HTML et revenez, la visionneuse est parfois réinitialisée à la première page.
+   * Si vous accédez à une autre page d’HTML et que vous la renvoyez, la visionneuse revient parfois à la première page.
    * La mise en page s’affiche parfois de manière incorrecte après la rotation du périphérique iOS. Le zoom avant corrige la mise en page.
    * Liens internes uniquement vers la page la plus à gauche dans les planches de plusieurs pages. Affecte les appareils mobiles en mode portrait.
    * Liens InitalFrame uniquement vers la page la plus à gauche dans les planches de plusieurs pages. Affecte les appareils mobiles en mode portrait.
@@ -186,29 +186,29 @@ Pour obtenir une documentation complète, voir [Guide de référence des visionn
 
 * HTML5 Social
 
-   * Pour afficher correctement les miniatures dans un courrier électronique sortant, la variable `serverurl` Le modificateur doit avoir une URL absolue.
+   * Pour effectuer correctement le rendu des miniatures dans un email sortant, le modificateur `serverurl` doit avoir une URL absolue.
 
 * Vidéo HTML5
 
-   * L’image d’affiche peut rencontrer une erreur &quot;taille maximale&quot;. L’entreprise doit augmenter le paramètre de limite pour la publication sur hébergeur d’images.
-   * Les sous-titres vidéo nécessitent un jeu de règles de l’entreprise si l’hébergement de la page de HTML est diffusé à partir d’un serveur externe (et non d’un serveur Scene7). Contactez l’assistance Adobe pour obtenir de l’aide.
+   * L’image d’affiche peut rencontrer une erreur &quot;taille maximale&quot;. L’entreprise doit augmenter le paramètre de limite pour Image Serving Publish.
+   * Les sous-titres vidéo nécessitent un jeu de règles de l’entreprise si l’hébergement de la page d’HTML est diffusé à partir d’un serveur externe (et non d’un serveur Scene7). Contactez l’assistance Adobe pour obtenir de l’aide.
    * Le suivi Analytics peut signaler un pourcentage de lecture incorrect en raison de la mise en mémoire tampon.
    * L’image noire peut s’afficher sur les appareils iPad ou Android™ au lieu de l’image d’affiche.
-   * L’image noire peut clignoter à l’écran lors du chargement de la visionneuse sur les appareils iPad ou Android™.
+   * L’image noire peut clignoter à l’écran lors du chargement de la visionneuse sur des appareils iPad ou Android™.
    * Les bordures noires s’affichent sur le côté du composant Lecteur vidéo lorsque l’arrière-plan est défini sur blanc/transparent sur les appareils iPad.
    * La dernière image de la vidéo peut être déformée sur iPad à l’aide d’iOS 7.
    * Des macroblocages peuvent parfois survenir lors de la recherche vidéo en mode de diffusion HLS dans les navigateurs Chrome, Firefox et Internet Explorer.
       * L’image d’affiche peut ne pas s’afficher dans le navigateur Microsoft® Edge pour le premier visiteur.
       * L’image d’affiche peut se masquer après le chargement de la vidéo dans Internet Explorer 9 lorsque la lecture progressive est utilisée.
 
-## SDK de la visionneuse Scene7 HTML5 3.0.2 {#section-30e2392859c442d1aab2766d0f1d1580}
+## SDK Scene7 HTML5 Viewer 3.0.2 {#section-30e2392859c442d1aab2766d0f1d1580}
 
-Le Guide de l’utilisateur se trouve dans le dossier SDK de la visionneuse HTML5 Adobe de l’installation du client. La documentation de l’API de composant se trouve dans le sous-dossier docs de l’installation du client.
+Le Guide de l’utilisateur se trouve dans le dossier SDK de la visionneuse Adobe HTML5 de l’installation du client. La documentation de l’API de composant se trouve dans le sous-dossier docs de l’installation du client.
 
-**Correctifs pour la version 3.0.2**
+**Correctifs de bogues pour la version 3.0.2**
 
 * Lecteur vidéo : la lecture de la vidéo a échoué dans Internet Explorer 11 sous Windows 7.
-* TableOfContents -  `initialframe` n’a pas affecté le mode portrait sur les appareils mobiles pour la visionneuse de catalogue électronique HTML5.
+* TableOfContents - `initialframe` n’a pas affecté le mode portrait sur les appareils mobiles pour la visionneuse de catalogue électronique HTML5.
 
 **Nouvelles fonctionnalités, améliorations et correctifs pour la version 3.0.1**
 
@@ -217,7 +217,7 @@ Le Guide de l’utilisateur se trouve dans le dossier SDK de la visionneuse HTML
    * Ajout de la lecture vidéo en continu HLS comme méthode de diffusion vidéo par défaut pour la plupart des systèmes de bureau. La diffusion vidéo HDS par Flash est toujours disponible en tant qu’option de lecture alternative.
    * Ajout des composants SearchManager, SearchPanel, SearchEffect et SearchButton pour la prise en charge de la nouvelle fonctionnalité de recherche dans les visionneuses de catalogue électronique.
    * Ajout de la prise en charge des appareils dotés d’entrées de souris et de touches s’exécutant sur le navigateur Chrome.
-   * Refactorisation de la détection des versions d’Android™ pour la prise en charge des versions futures du système d’exploitation.
+   * Refactorisation de la détection des versions d’Android™ afin qu’elle prenne en charge les versions ultérieures du système d’exploitation.
    * Ajoutez la prise en charge de l’orientation de droite à gauche dans les composants de SDK spécifiques au catalogue électronique.
 
 * ControlBar
@@ -226,9 +226,9 @@ Le Guide de l’utilisateur se trouve dans le dossier SDK de la visionneuse HTML
 
 * FlyoutzoomView
 
-   * Cas fixe où `tip=0,-1,0` provoquait une erreur &quot;out-of-range&quot;.
+   * Correction du cas où `tip=0,-1,0` provoquait une erreur &quot;out-of-range&quot;.
 
-**Remarques sur la compatibilité**
+**Notes de compatibilité**
 
 * Android™ 4.x
 
@@ -291,9 +291,9 @@ Le Guide de l’utilisateur se trouve dans le dossier SDK de la visionneuse HTML
 
 * Tous les composants
 
-   * Dans les versions 2.7.2 et antérieures, certains composants ont été ajoutés au DOM à l’aide de la fonction `insertBefore()` API. Par conséquent, ces composants se placent au bas de l’ordre d’empilement, peu importe quand l’instance de composant est créée par rapport aux autres composants. Avec la version 2.8.1, tous les composants utilisent `appendChild()` API maintenant, ce qui signifie que l’ordre d’empilement des composants correspondrait à l’ordre de création de l’instance.
+   * Dans les versions 2.7.2 et antérieures, certains composants ont été ajoutés au DOM à l’aide de l’API `insertBefore()`. Par conséquent, ces composants se placent au bas de l’ordre d’empilement, peu importe quand l’instance de composant est créée par rapport aux autres composants. Avec la version 2.8.1, tous les composants utilisent désormais l’API `appendChild()`, ce qui signifie que l’ordre d’empilement des composants correspondrait à l’ordre de création de l’instance.
 
-   * Utilisation `iscommand` Le modificateur pour définir le format du canal alpha de l’image n’est pas pris en charge. Utiliser le composant `FMT` à la place.
+   * L&#39;utilisation du modificateur `iscommand` pour définir le format du canal alpha de l&#39;image n&#39;est pas prise en charge. Utilisez plutôt le paramètre component `FMT` .
    * La propriété de transformation CSS n’est actuellement pas prise en charge.
 
 * Appareils tactiles
@@ -327,7 +327,7 @@ Le Guide de l’utilisateur se trouve dans le dossier SDK de la visionneuse HTML
 
 * Composant PageScrubber
 
-   * Dans iPhone 5, lorsque la bulle PageScrubber est définie sur text, elle affiche des artefacts lorsque vous faites glisser le bouton le long de la piste. Utilisation `-webkit-background-clip: content;` dans le style fonctionne autour du problème.
+   * Dans iPhone 5, lorsque la bulle PageScrubber est définie sur text, elle affiche des artefacts lorsque vous faites glisser le bouton le long de la piste. L’utilisation de `-webkit-background-clip: content;` dans le style résout le problème.
 
 * Composant SpinView
 
@@ -336,7 +336,7 @@ Le Guide de l’utilisateur se trouve dans le dossier SDK de la visionneuse HTML
 * Composant Nuancier
 
    * Lorsque vous sélectionnez un échantillon hors limites, deux mises en surbrillance s’affichent.
-   * Défilement automatique avec `selectSwatch()` ne fonctionne pas correctement.
+   * Le défilement automatique avec la méthode `selectSwatch()` ne fonctionne pas correctement.
 
 * VideoPlayer
 
@@ -347,5 +347,5 @@ Le Guide de l’utilisateur se trouve dans le dossier SDK de la visionneuse HTML
 
 ## Dynamic Media Image Serving 6.3.2 et Image Rendering 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}
 
-* Utilitaire IC - `downsample2x2` L’indicateur n’est plus pris en charge. Cet indicateur était un sous-échantillonneur 2x2 de mauvaise qualité qui n’est plus utilisé par IPS.
-* En-tête CORS : actuellement, l’en-tête CORS est configuré pour `/is/content/` requêtes.
+* L’indicateur IC utility - `downsample2x2` n’est plus pris en charge. Cet indicateur était un sous-échantillonneur 2x2 de mauvaise qualité qui n’est plus utilisé par IPS.
+* En-tête CORS : actuellement, l’en-tête CORS est configuré pour les requêtes `/is/content/`.

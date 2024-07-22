@@ -1,6 +1,6 @@
 ---
 title: IccProfileGray
-description: Profil colorimétrique de sortie par défaut en niveaux de gris. Indique le nom du profil de couleurs ICC à utiliser pour les images de réponse en niveaux de gris lorsqu’aucun espace colorimétrique de sortie n’est spécifié avec icc= et pour certaines valeurs de niveaux de gris spécifiées avec diverses commandes de diffusion d’images, telles que color=.
+description: Profil de couleurs de sortie par défaut en niveaux de gris. Indique le nom du profil de couleurs ICC à utiliser pour les images de réponse en niveaux de gris lorsqu’aucun espace colorimétrique de sortie n’est spécifié avec icc= et pour certaines valeurs de niveaux de gris spécifiées avec diverses commandes de diffusion d’images, telles que color=.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 2%
 
 # IccProfileGray{#iccprofilegray}
 
-Profil colorimétrique de sortie par défaut en niveaux de gris. Indique le nom du profil de couleurs ICC à utiliser pour les images de réponse en niveaux de gris lorsqu’aucun espace colorimétrique de sortie n’est spécifié avec icc= et pour certaines valeurs de niveaux de gris spécifiées avec diverses commandes de diffusion d’images, telles que color=.
+Profil de couleurs de sortie par défaut en niveaux de gris. Indique le nom du profil de couleurs ICC à utiliser pour les images de réponse en niveaux de gris lorsqu’aucun espace colorimétrique de sortie n’est spécifié avec icc= et pour certaines valeurs de niveaux de gris spécifiées avec diverses commandes de diffusion d’images, telles que color=.
 
 ## Propriétés {#section-03f090ee2acf4537b83f78840d23ecab}
 
-Chaîne de texte. Si spécifié, doit être valide `icc::Name` de la carte de profil ICC de ce catalogue d’images ou du catalogue par défaut, ou d’un chemin d’accès au fichier relatif à `attribute::RootPath`. Le profil ICC référencé doit être un profil en niveaux de gris.
+Chaîne de texte. Si spécifié, doit être une valeur `icc::Name` valide provenant de la carte de profil ICC de ce catalogue d’images ou du catalogue par défaut, ou un chemin d’accès au fichier relatif à `attribute::RootPath`. Le profil ICC référencé doit être un profil en niveaux de gris.
 
 ## Par défaut {#section-95ba3ab15edc4259b657c6ebf8783d61}
 
-Hérité de `default::IccProfileGray` s’il n’est pas défini ou s’il est vide.
+Hérité de `default::IccProfileGray` si elle n’est pas définie ou si elle est vide.
 
 ## Voir aussi {#section-b737b9a6a8bd4997b660292301ba967b}
 

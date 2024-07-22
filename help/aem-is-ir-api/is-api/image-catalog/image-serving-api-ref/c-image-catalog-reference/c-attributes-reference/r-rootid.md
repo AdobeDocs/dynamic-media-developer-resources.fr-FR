@@ -8,7 +8,7 @@ exl-id: 9224f06d-28a9-4a23-9a3a-735b2b9f87ff
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '68'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ Valeur de chaîne de texte. Ne peuvent inclure que des caractères valides dans 
 
 ## Par défaut {#section-c5296f4e52394984bf1c0d265ecde940}
 
-Aucun. Chaque catalogue doit avoir une valeur unique `attribute::RootId` . [!DNL default.ini] a généralement une valeur vide `attribute::RootId`.
+Aucun. Chaque catalogue doit avoir une valeur `attribute::RootId` unique. [!DNL default.ini] a généralement un `attribute::RootId` vide.
 
 ## Voir aussi {#section-5297eaaf736b4db5901e0b37e7cb8bbe}
 

@@ -1,5 +1,5 @@
 ---
-description: Renvoie les dossiers et les sous-dossiers dans une arborescence hiérarchique. La réponse getFolderTree est limitée à un maximum de 100 000 dossiers.
+description: Renvoie les dossiers et les sous-dossiers dans une arborescence hiérarchique. La réponse getFolderTree est limitée à 100 000 dossiers au maximum
 solution: Experience Manager
 title: getFolderTree
 feature: Dynamic Media Classic,SDK/API
@@ -7,14 +7,14 @@ role: Developer,Admin
 exl-id: 1afe63ca-d11a-4fa5-a26b-90a23bee1b68
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 9%
+source-wordcount: '261'
+ht-degree: 8%
 
 ---
 
 # getFolderTree{#getfoldertree}
 
-Renvoie les dossiers et les sous-dossiers dans une arborescence hiérarchique. La réponse getFolderTree est limitée à un maximum de 100 000 dossiers.
+Renvoie les dossiers et les sous-dossiers dans une arborescence hiérarchique. La réponse getFolderTree est limitée à 100 000 dossiers au maximum
 
 Syntaxe
 
@@ -58,7 +58,7 @@ Syntaxe
 
 Cet exemple de code utilise un nom d’entreprise et un paramètre de profondeur pour déterminer le niveau de profondeur que la réponse doit renvoyer. La réponse contient des dossiers et des tableaux de sous-dossiers associés. Définissez la valeur de profondeur sur un nombre plus petit pour effectuer une recherche plus approfondie dans l’arborescence de dossiers.
 
-**Request**
+**Requête**
 
 ```java
 <ns1:getFolderTreeParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

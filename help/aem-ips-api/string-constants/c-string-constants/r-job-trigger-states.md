@@ -2,13 +2,13 @@
 description: Utilisé par ScheduledJob/triggerState.
 solution: Experience Manager
 title: États de déclenchement de tâche
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 86f99fe5-fd0d-4c38-8952-9ad230ccde38
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '21'
-ht-degree: 9%
+source-wordcount: '16'
+ht-degree: 12%
 
 ---
 

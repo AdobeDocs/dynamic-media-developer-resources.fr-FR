@@ -8,7 +8,7 @@ exl-id: 1dd980e7-eb38-4c90-b4fc-83327d4a95f5
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 20%
+ht-degree: 18%
 
 ---
 
@@ -32,7 +32,7 @@ Syntaxe
 |---|---|---|---|
 | companyHandle | `xsd:string` | Oui | Gestionnaire de l’entreprise avec le groupe que vous souhaitez enregistrer. |
 | groupHandle | `xsd:string` | Non | La poignée du groupe. |
-| name | `xsd:string` | Oui | Nom du groupe. |
+| nom | `xsd:string` | Oui | Nom du groupe. |
 | isSystemDefined | `xsd:boolean` | Oui | `false` est la valeur par défaut. |
 
 **Sortie (saveGroupReturn)**
@@ -45,7 +45,7 @@ Syntaxe
 
 Cet exemple de code crée un groupe qui appartient à une société spécifique. Si le groupe existe déjà, il est enregistré avec les valeurs de paramètre que vous indiquez.
 
-**Request**
+**Requête**
 
 ```java
 <ns1:saveGroupParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

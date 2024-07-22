@@ -8,7 +8,7 @@ exl-id: f1ad16c8-cba2-4ef0-9558-6a4086c71393
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '66'
-ht-degree: 21%
+ht-degree: 18%
 
 ---
 
@@ -30,9 +30,9 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> items</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> éléments</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Liste de mots-clés séparés par des virgules qui sont fusionnés dans la variable <span class="codeph"> dc:subject=</span> XMP noeud de propriété. Si une virgule apparaît dans l’une des valeurs individuelles, elle doit être précédée d’une barre oblique inverse (\). Une barre oblique inverse littérale est l’habituelle double-barre oblique inverse (\\). </p> </td> 
+   <td colname="col3"> <p>Liste de mots-clés séparés par des virgules qui sont fusionnés dans le noeud de propriété <span class="codeph"> dc:subject=</span> XMP. Si une virgule apparaît dans l’une des valeurs individuelles, elle doit être précédée d’une barre oblique inverse (\). Une barre oblique inverse littérale est l’habituelle double-barre oblique inverse (\\). </p> </td> 
   </tr> 
  </tbody> 
 </table>

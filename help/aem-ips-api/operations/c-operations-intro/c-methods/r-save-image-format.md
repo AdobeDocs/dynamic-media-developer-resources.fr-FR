@@ -8,7 +8,7 @@ exl-id: cafbd715-237b-4454-920e-643f0c84e208
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -18,7 +18,7 @@ Crée un format d’image.
 
 >[!NOTE]
 >
->Le `urlModifier` La valeur du champ doit être composée de code XML valide. Par exemple, modifiez `&` to `&`. Obtenez la variable `urlModfier` de l’interface utilisateur d’IPS.
+>La valeur du champ `urlModifier` doit être composée de code XML valide. Par exemple, remplacez `&` par `&`. Obtenez la valeur `urlModfier` à partir de l’interface utilisateur d’IPS.
 
 ## Types d’utilisateurs autorisés {#section-12c9d8d5933f4692bafb194060b4f882}
 
@@ -35,7 +35,7 @@ Crée un format d’image.
 |---|---|---|---|
 | companyHandle | `xsd:string` | Oui | Gestion de l’entreprise avec le format d’image que vous souhaitez utiliser. |
 | imageFormatHandle | `xsd:string` | Non | Gestionnaire du format d’image que vous souhaitez enregistrer. |
-| name | `xsd:string` | Oui | Nom du format d’image. |
+| nom | `xsd:string` | Oui | Nom du format d’image. |
 | urlModifier | `xsd:string` | Oui | Il peut s’agir de n’importe quelle chaîne de requête de protocole IPS. Le moyen le plus simple de générer un modificateur d’URL consiste à en créer un avec l’interface utilisateur d’IPS, puis à couper et coller la chaîne de requête. |
 
 **Sortie (saveImageFormatReturn)**
@@ -46,9 +46,9 @@ Crée un format d’image.
 
 ## Exemples {#section-c7bd733212ef494297a97093f3af193f}
 
-Cet exemple de code crée un format d’image. Dans cet exemple, `urlModifier` a été déterminé par sa valeur dans l’interface utilisateur d’IPS avec un format de HTML valide.
+Cet exemple de code crée un format d’image. Dans cet exemple, `urlModifier` a été déterminé par sa valeur dans l’interface utilisateur d’IPS avec un format d’HTML valide.
 
-**Request**
+**Requête**
 
 ```java
 <saveImageFormatParam xmlns="http://www.scene7.com/IpsApi/xsd"> 

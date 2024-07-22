@@ -8,7 +8,7 @@ exl-id: dce324e4-cf86-4a65-ab00-8cd2bba20f8f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 12%
+ht-degree: 11%
 
 ---
 
@@ -33,14 +33,14 @@ Il s’agit de la version par lots de [setAssetState](../../../operations/c-oper
 
 ## Paramètres {#section-3e49d7859f8647b990d75373cc8dbc24}
 
-**Entrée (setAssetsPublishStateParam)**
+**Input (setAssetsPublishStateParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Oui | Poignée de la société. |
 | publishStateUpdateArray | `types:PublishStateUpdateArray` | Oui | Tableau des valeurs d’état de publication des ressources. |
 
-**Sortie (setAssetsPublishStateParam)**
+**Output (setAssetsPublishStateParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -54,7 +54,7 @@ Il s’agit de la version par lots de [setAssetState](../../../operations/c-oper
 
 Cet exemple de code définit l’état de publication d’une ressource.
 
-**Request**
+**Requête**
 
 ```java
 <element name="setAssetsPublishStateParam">

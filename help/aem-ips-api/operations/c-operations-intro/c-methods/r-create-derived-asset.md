@@ -20,7 +20,7 @@ Syntaxe
 
 <!--<a id="section_FE43FF204ED644C2AC901AF45982E942"></a>-->
 
-Les ressources dérivées spécifient des commandes de protocole Image Server qui modifient la représentation de l’image du propriétaire. La variable `AdjustedView` le type dérivé permet d’appliquer des modifications simples à une seule image (par exemple, en spécifiant un rectangle de recadrage), tandis que la variable `LayerView` permet de créer une vue multicouche pouvant inclure du texte ou des images supplémentaires.
+Les ressources dérivées spécifient des commandes de protocole Image Server qui modifient la représentation de l’image du propriétaire. Le type dérivé `AdjustedView` permet d’appliquer des modifications simples à une seule image (par exemple, en spécifiant un rectangle de recadrage), tandis que le `LayerView` permet de créer une vue multicouche qui peut inclure du texte ou des images supplémentaires.
 
 Contrairement à une copie d’image (voir [copyImage](../../../operations/c-operations-intro/c-methods/r-copy-image.md#reference-0785131e690b4ad08be69172023f35d0)), une image dérivée est liée à son image propriétaire. Les modifications apportées à l’image du propriétaire modifient les ressources dérivées associées. La suppression de l’image du propriétaire supprime toutes les images dérivées associées.
 
@@ -44,10 +44,10 @@ Contrairement à une copie d’image (voir [copyImage](../../../operations/c-ope
 | folderHandle | `xsd:string` | Oui | Gestion du dossier dans lequel la nouvelle ressource dérivée est créée. |
 | nom | `xsd:string` | Oui | Nom de la ressource dérivée. |
 | type | `xsd:string` | Oui | Type de ressource de la nouvelle ressource dérivée : `AdjustedView` ou `LayerView`. |
-| urlModifier | `xsd:string` | Non | Commandes de protocole de traitement d’images ou de rendu d’images appliquées *before* la demande ou `urlPostApplyModifier` des commandes. |
-| urlPostApplyModifier | `xsd:string` | Non | Commandes de protocole de traitement d’images ou de rendu d’images appliquées *after* à la requête ou `urlPostApplyModifier` des commandes. |
+| urlModifier | `xsd:string` | Non | Les commandes de protocole de traitement des images ou de rendu des images ont été appliquées *avant* les commandes de requête ou de `urlPostApplyModifier`. |
+| urlPostApplyModifier | `xsd:string` | Non | Les commandes de protocole de traitement d’images ou de rendu d’images ont été appliquées *après* aux commandes de requête ou `urlPostApplyModifier`. |
 
-**Sortie (createDerivedAssetParam)**
+**Output (createDerivedAssetParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -57,7 +57,7 @@ Contrairement à une copie d’image (voir [copyImage](../../../operations/c-ope
 
 L’exemple de code crée une ressource dérivée avec une vue ajustée et `urlModifier` et `urlPostApplyModifier` avec des valeurs arbitraires. La réponse renvoie la poignée à la ressource nouvellement dérivée.
 
-**Request**
+**Requête**
 
 ```java
 <createDerivedAssetParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 912cb4b3-6409-48ed-9b9c-968b63718a1b
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 3%
+source-wordcount: '118'
+ht-degree: 1%
 
 ---
 
@@ -43,7 +43,7 @@ L’aspect de la zone d’affichage est contrôlé à l’aide du sélecteur de 
    <td colname="col2"> <p>Hauteur de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan au format hexadécimal. </p> </td> 
   </tr> 
  </tbody> 
@@ -51,7 +51,7 @@ L’aspect de la zone d’affichage est contrôlé à l’aide du sélecteur de 
 
 ## Exemple {#section-ee18025b182a42dc98052de5f133ddfe}
 
-Pour configurer une visionneuse avec un arrière-plan blanc ( `#FFFFFF`) et lui donner une taille de 512 x 288 pixels.
+Pour configurer une visionneuse avec un arrière-plan blanc ( `#FFFFFF`) et faire sa taille de 512 x 288 pixels.
 
 ```
 .s7video360viewer { 

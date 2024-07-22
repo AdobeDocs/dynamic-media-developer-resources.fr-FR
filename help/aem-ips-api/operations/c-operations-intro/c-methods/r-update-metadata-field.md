@@ -8,7 +8,7 @@ exl-id: 67506e76-aa23-46a7-a900-03d89b4266fd
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 22%
+ht-degree: 11%
 
 ---
 
@@ -48,7 +48,7 @@ Syntaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Poignée de champ de métadonnées. </td> 
+   <td colname="col4"> Gestion des champs de métadonnées. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
@@ -87,13 +87,13 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| fieldHandle | `xsd:string` | Oui | Poignée de champ de métadonnées. |
+| fieldHandle | `xsd:string` | Oui | Gestion des champs de métadonnées. |
 
 ## Exemples {#section-bb7d93ab6d914ddfa294e08983e589ee}
 
 Cet exemple de mise à jour de code affecte un nouveau nom et une nouvelle valeur par défaut à un champ de métadonnées. La réponse renvoie un descripteur au champ mis à jour.
 
-**Request**
+**Requête**
 
 ```java
 <updateMetadataFieldParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

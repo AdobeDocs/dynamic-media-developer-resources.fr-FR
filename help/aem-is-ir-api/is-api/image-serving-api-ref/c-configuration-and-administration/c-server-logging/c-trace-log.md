@@ -1,5 +1,5 @@
 ---
-description: Le [!DNL Platform Server] écrit des enregistrements dans ce fichier journal pour enregistrer les avertissements et les erreurs, conserver un enregistrement des événements de démarrage, d’arrêt et de chargement de catalogue.
+description: Le  [!DNL Platform Server]  écrit des enregistrements dans ce fichier journal pour enregistrer les avertissements et les erreurs, conserver un enregistrement des événements de démarrage, d’arrêt et de chargement de catalogue.
 solution: Experience Manager
 title: Journal de suivi
 feature: Dynamic Media Classic,SDK/API
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # Journal de suivi{#trace-log}
 
-Le [!DNL Platform Server] écrit des enregistrements dans ce fichier journal pour enregistrer les avertissements et les erreurs, conserver un enregistrement des événements de démarrage, d’arrêt et de chargement de catalogue.
+[!DNL Platform Server] écrit des enregistrements dans ce fichier journal pour enregistrer les avertissements et les erreurs, conserver un enregistrement des événements de démarrage, d’arrêt et de chargement de catalogue.

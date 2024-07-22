@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 60163016-fe96-4ac2-9208-da8192042d0f
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 10%
+source-wordcount: '471'
+ht-degree: 5%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 Utilise getActiveJobs pour effectuer le suivi des téléchargements de bureau.
 
-Voir aussi [Téléchargement de ressources au moyen de HTTP POST vers le lien Télécharger...](../../c-http-post.md#concept-457855c0cdc943339ca1f1bed356991d).
+Voir aussi [Téléchargement de ressources au moyen de POST HTTP vers Télécharger..](../../c-http-post.md#concept-457855c0cdc943339ca1f1bed356991d).
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ Voir aussi [Téléchargement de ressources au moyen de HTTP POST vers le lien T�
   <tr> 
    <th colname="col1" class="entry"> <p>Nom </p> </th> 
    <th colname="col2" class="entry"> <p>Type </p> </th> 
-   <th colname="col3" class="entry"> <p>Obligatoire? </p> </th> 
+   <th colname="col3" class="entry"> <p>Obligatoire ? </p> </th> 
    <th colname="col4" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
@@ -83,20 +83,20 @@ Voir aussi [Téléchargement de ressources au moyen de HTTP POST vers le lien T�
    <td colname="col4"> <p>Options de téléchargement des fichiers Illustrator vers le serveur d’images. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> KontakoutBackground</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:KnockoutBackgroundOptions</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> KnockoutBackground</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> types : KnockoutBackgroundOptions</span> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Masquez l’arrière-plan des images sélectionnées. Vous pouvez ainsi les superposer dans d’autres calques avec une transparence en dehors de l’objet. Facultatif. </p> <p>Voir<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a>. </p> </td> 
+   <td colname="col4"> <p>Masquez l’arrière-plan des images sélectionnées. Vous pouvez ainsi les superposer dans d’autres calques avec une transparence en dehors de l’objet. Facultatif. </p> <p>Voir <a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ManualCropOptions</span> </td> 
+   <td colname="col2"> <span class="codeph"> types : ManualCropOptions</span> </td> 
    <td colname="col3"> <p>Non </p> </td> 
    <td colname="col4"> <p>Options de recadrage manuel des images. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> mediaOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:MediaOptions</span> </td> 
+   <td colname="col2"> <span class="codeph"> types : MediaOptions</span> </td> 
    <td colname="col3"> <p>Non </p> </td> 
    <td colname="col4"> <p>Options permettant de définir une miniature à partir de la vidéo. </p> <p>Voir <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </p> </td> 
   </tr> 
@@ -114,7 +114,7 @@ Voir aussi [Téléchargement de ressources au moyen de HTTP POST vers le lien T�
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:PhotoshopOptions</span> </td> 
+   <td colname="col2"> <span class="codeph"> types : PhotoshopOptions</span> </td> 
    <td colname="col3"> <p>Non </p> </td> 
    <td colname="col4"> <p>Options de téléchargement des fichiers Photoshop vers le serveur d’images. </p> </td> 
   </tr> 
@@ -134,7 +134,7 @@ Voir aussi [Téléchargement de ressources au moyen de HTTP POST vers le lien T�
    <td colname="col1"> <span class="codeph"> <span class="varname"> preserveCrop</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Contrôle la conservation de toute définition de recadrage existante. Vrai par défaut.</p> <p>Si vous fournissez le paramètre manualCropOptions et les valeurs correspondantes, les nouvelles valeurs (à l’exception de 0,0,0,0) sont appliquées à la ressource, quelle que soit la valeur preserveCrop .</p><p>Si vous le faites <i>not</i> Si vous indiquez le paramètre manualCropOptions , la valeur de preserveCrop est conservée. Et, en cas de valeur true, les valeurs preserveCrop existantes sont conservées ; en cas de valeur false, les valeurs preserveCrop sont supprimées.</p><p>Par exemple :</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />   &lt;left&gt;190&lt;/left&gt;<br />   &lt;right&gt;310&lt;/right&gt;<br />   &lt;top&gt;160&lt;/top&gt;<br />   &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p></td> 
+   <td colname="col4"> <p>Contrôle la conservation de toute définition de recadrage existante. Vrai par défaut.</p> <p>Si vous fournissez le paramètre manualCropOptions et les valeurs correspondantes, les nouvelles valeurs (à l’exception de 0,0,0,0) sont appliquées à la ressource, quelle que soit la valeur preserveCrop .</p><p>Si vous ne fournissez pas <i>not</i> le paramètre manualCropOptions, la valeur de preserveCrop est conservée. Et, en cas de valeur true, les valeurs preserveCrop existantes sont conservées ; en cas de valeur false, les valeurs preserveCrop sont supprimées.</p><p>Par exemple :</p><p><p>&lt;preserveCrop&gt;false&lt;/preserveCrop&gt;<br />&lt;manualCropOptions&gt;<br />   &lt;left&gt;190&lt;/left&gt;<br />   &lt;right&gt;310&lt;/right&gt;<br />   &lt;top&gt;160&lt;/top&gt;<br />   &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualCropOptions&gt;</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> preservePublishState</span> </span> </td> 
@@ -156,13 +156,13 @@ Voir aussi [Téléchargement de ressources au moyen de HTTP POST vers le lien T�
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unCompressOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:UnCompressOptions</span> </td> 
+   <td colname="col2"> <span class="codeph"> types : UnCompressOptions</span> </td> 
    <td colname="col3"> <p>Non </p> </td> 
    <td colname="col4"> <p>Extrayez et traitez le contenu des fichiers TAR/ZIP chargés avec ces paramètres facultatifs. </p> <p>Voir <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> UnCompressOptions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:UnsharpMaskOptions</span> </td> 
+   <td colname="col2"> <span class="codeph"> types : UnsharpMaskOptions</span> </td> 
    <td colname="col3"> <p>Non </p> </td> 
    <td colname="col4"> <p>Options permettant de contrôler les paramètres de masquage flou lors de la création d’un fichier TIF pyramid optimisé. Utilisez ces paramètres pour améliorer la netteté de l’image. </p> <p>Voir <a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> UnsharpMaskOptions</a>. </p> </td> 
   </tr> 

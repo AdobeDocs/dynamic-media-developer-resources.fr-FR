@@ -8,7 +8,7 @@ exl-id: c94c8db4-d448-4c1c-875a-3a33a03f7dd8
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -22,7 +22,7 @@ Référence de l’API JavaScript pour la visionneuse à 360°.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ressource</span> </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> Chaîne</span>} nouvel identifiant de ressource, visionneuse à 360° unidimensionnelle ou multidimensionnelle avec les modificateurs de diffusion d’image facultatifs ajoutés après <span class="codeph"> ?</span>. </p> <p> Les images qui utilisent IR (Image Rendering) ou UGC (User-Generated Content) ne sont pas prises en charge par cette visionneuse. </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> Chaîne</span>} nouvel identifiant de ressource, visionneuse à 360° unique ou multidimensionnelle avec modificateurs de diffusion d’image facultatifs ajoutés après <span class="codeph"> ?</span>. </p> <p> Les images qui utilisent IR (Image Rendering) ou UGC (User-Generated Content) ne sont pas prises en charge par cette visionneuse. </p> </td> 
   </tr> 
  </tbody> 
 </table>

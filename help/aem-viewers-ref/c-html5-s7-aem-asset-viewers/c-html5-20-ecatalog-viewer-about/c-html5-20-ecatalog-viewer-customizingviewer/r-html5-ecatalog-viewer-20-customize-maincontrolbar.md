@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 4db16599-ede0-47ae-bb5a-840655d3620b
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 1%
+source-wordcount: '661'
+ht-degree: 0%
 
 ---
 
@@ -31,11 +31,11 @@ L’aspect de la barre de contrôle principale est contrôlé à l’aide du sé
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> haut </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Position en haut de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bas </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p>Position à partir du bas de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
@@ -43,13 +43,13 @@ L’aspect de la barre de contrôle principale est contrôlé à l’aide du sé
    <td colname="col2"> <p>Hauteur de la barre de contrôle principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Couleur d’arrière-plan de la barre de contrôle principale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exemple** : pour configurer une barre de contrôle principale grise de 36 pixels et positionnée en haut du conteneur de la visionneuse.
+**Exemple** : pour configurer une barre de contrôle principale grise de 36 pixels de haut et positionnée en haut du conteneur de la visionneuse.
 
 ```
 .s7ecatalogviewer .s7controlbar { 
@@ -75,7 +75,7 @@ La fonction de défilement est activée pour la barre de contrôle principale et
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> position </span> </p> </td> 
-   <td colname="col2"> <p>Lorsque la variable est définie sur <span class="codeph"> static </span> la fonction de défilement est désactivée. </p> <p>Définissez cette propriété sur <span class="codeph"> absolute </span> pour activer la fonction de défilement. </p> </td> 
+   <td colname="col2"> <p>Lorsque cette option est définie sur <span class="codeph"> statique </span>, la fonction de défilement est désactivée. </p> <p>Définissez cette propriété sur <span class="codeph"> absolu </span> pour activer la fonction de défilement. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -99,7 +99,7 @@ L’aspect de ce conteneur de boutons de défilement est contrôlé à l’aide 
    <td colname="col2"> <p>Normalement, doit être égal ou supérieur à la largeur du bouton de défilement lui-même. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Couleur d’arrière-plan du conteneur. </p> </td> 
   </tr> 
  </tbody> 
@@ -132,7 +132,7 @@ L’aspect de ce bouton est contrôlé à l’aide du sélecteur de classe CSS s
    <td colname="col2"> <p>Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p>Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -140,7 +140,7 @@ L’aspect de ce bouton est contrôlé à l’aide du sélecteur de classe CSS s
 
 >[!NOTE]
 >
->Ce bouton prend en charge `state` et `selected` sélecteurs d’attributs, qui peuvent être utilisés pour appliquer différents habillages à différents états de bouton. En particulier, `state="selected"` correspond à l’état initial du bouton de défilement lorsqu’il est possible de faire défiler le contenu de la barre de contrôle vers la gauche. L’attribut `state="default"` correspond à l’état lorsque le contenu est défilé jusqu’à la gauche et que le bouton de défilement suggère de le renvoyer à l’état initial.
+>Ce bouton prend en charge les sélecteurs d’attributs `state` et `selected`, qui peuvent être utilisés pour appliquer différents habillages à différents états de bouton. En particulier, `state="selected"` correspond à l’état initial du bouton de défilement lorsqu’il est possible de faire défiler le contenu de la barre de contrôle vers la gauche. L’attribut `state="default"` correspond à l’état lorsque le contenu est défilé jusqu’à la gauche et que le bouton de défilement suggère de le renvoyer à l’état initial.
 
 L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 

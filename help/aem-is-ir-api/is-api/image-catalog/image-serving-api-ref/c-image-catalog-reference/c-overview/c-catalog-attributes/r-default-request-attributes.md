@@ -2,13 +2,13 @@
 description: Les fichiers d’attributs du catalogue reconnaissent ces attributs de requête par défaut.
 solution: Experience Manager
 title: Attributs de requête par défaut
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b706595d-8c3a-438a-8806-e3d85b1bdadb
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 1%
+source-wordcount: '67'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ Les fichiers d’attributs du catalogue reconnaissent ces attributs de requête 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultfont.md#reference-48b763ac254545e89a25c76ff7581107" format="dita" scope="local"> DefaultFont</a></span> </p> </td> 
-   <td colname="col2"> <p> Nom du visage de la police par défaut. </p> </td> 
+   <td colname="col2"> <p> Nom de la police par défaut. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-defaultimage.md#reference-8e9900e129f54ed68462a3c2fc3bc433" format="dita" scope="local"> DefaultImage</a></span> </p> </td> 
@@ -44,7 +44,7 @@ Les fichiers d’attributs du catalogue reconnaissent ces attributs de requête 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-jpegquality.md#reference-4a879e7c46024c8a898a9fd226f9eb09" format="dita" scope="local"> JpegQuality</a></span> </p> </td> 
-   <td colname="col2"> <p> Paramètres de l’encodeur JPEG par défaut. </p> </td> 
+   <td colname="col2"> <p> Paramètres de l’encodeur de JPEG par défaut. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-resmode.md#reference-609095ef568743a086f28d87c54dafa2" format="dita" scope="local"> ResMode</a></span> </p> </td> 
@@ -52,7 +52,7 @@ Les fichiers d’attributs du catalogue reconnaissent ces attributs de requête 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultlocale.md#reference-69462ad9923f464f80c2c012342a6b6b" format="dita" scope="local"> DefaultLocale</a></span> </p> </td> 
-   <td colname="col2"> <p> ID de paramètre régional par défaut. </p> </td> 
+   <td colname="col2"> <p> Identifiant du paramètre régional par défaut. </p> </td> 
   </tr> 
  </tbody> 
 </table>

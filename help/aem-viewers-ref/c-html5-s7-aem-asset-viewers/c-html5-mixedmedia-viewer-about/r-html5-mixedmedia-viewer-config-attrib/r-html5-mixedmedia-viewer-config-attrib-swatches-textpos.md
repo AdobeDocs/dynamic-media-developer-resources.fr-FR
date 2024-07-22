@@ -8,7 +8,7 @@ exl-id: 4b3b91f9-e564-462a-a4f3-494dd5511c26
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td> <p> Indique l’endroit où le libellé est tracé par rapport à l’image de la miniature de l’échantillon. En d’autres termes, le libellé est centré à l’emplacement spécifié par rapport à la miniature de l’échantillon. When <span class="codeph"> tooltip</span> est spécifié, aucun libellé n’est dessiné. </p> </td> 
+   <td> <p> Indique l’endroit où le libellé est tracé par rapport à l’image de la miniature de l’échantillon. En d’autres termes, le libellé est centré à l’emplacement spécifié par rapport à la miniature de l’échantillon. Lorsque <span class="codeph"> tooltip</span> est spécifié, aucune étiquette n’est dessinée. </p> </td> 
   </tr> 
  </tbody> 
 </table>

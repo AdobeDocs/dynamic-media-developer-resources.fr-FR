@@ -2,19 +2,19 @@
 description: FavoritesEffect.expiration
 solution: Experience Manager
 title: FavoritesEffect.expiration
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Recherche catalogue électronique
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 22fcbeb7-2377-4933-864f-ee434ec69ad0
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 10%
+source-wordcount: '49'
+ht-degree: 6%
 
 ---
 
 # FavoritesEffect.expiration{#favoriteseffect-expiration}
 
-[!DNL ` [FavoritesEffect.|<containerId>_favoritesEffect.]expiration= *`jours`*`]
+[!DNL ` [FavoritesEffect.|<containerId>_favoritesEffect.]expiration= *`days`*`]
 
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 

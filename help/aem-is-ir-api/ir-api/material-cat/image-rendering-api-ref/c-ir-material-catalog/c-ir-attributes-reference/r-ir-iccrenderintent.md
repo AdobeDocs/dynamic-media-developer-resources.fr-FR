@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 86cc907d-556c-40ec-a104-2f0dcf9ed1ce
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '100'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ Enum. Définissez cette valeur sur 0 pour la perception, 1 pour la colorimétrie
 
 ## Par défaut {#section-9301e3b7d0184ec5bf54a6eb73a6d3c1}
 
-Hérité de `default::IccRenderIntent`si elle n’est pas définie. S’il est vide, la &quot;colorimétrie relative&quot; est appliquée.
+Hérité de `default::IccRenderIntent` si elle n’est pas définie. S’il est vide, la &quot;colorimétrie relative&quot; est appliquée.
 
 ## Voir aussi {#section-e77bcdfef6d2486ebd545631ccb40ebd}
 

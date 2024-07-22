@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 4adba865-0b03-469e-a88c-2c3982422a68
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '137'
 ht-degree: 2%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> value</span></span> </p> </td> 
-   <td colname="col2"> <p> Représente le nombre maximal d’images à précharger dans chaque direction lorsque la vue à 360° est inactive. Une valeur de <span class="codeph"> -1</span> précharge toutes les images de la visionneuse. Les images préchargées sont toujours affichées à la résolution d’origine à laquelle la vue à 360° a été initialement chargée. </p> </td> 
+   <td colname="col2"> <p> Représente le nombre maximal d’images à précharger dans chaque direction lorsque la vue à 360° est inactive. La valeur <span class="codeph"> -1</span> précharge toutes les images de l’ensemble. Les images préchargées sont toujours affichées à la résolution d’origine à laquelle la vue à 360° a été initialement chargée. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> highRes</span></span> </p> </td> 
-   <td colname="col2"> <p> Contrôle la qualité des images préchargées. Lorsque la variable est définie sur <span class="codeph"> 1</span> images chargées en haute qualité, correspondant à la taille du composant. Lorsque la variable est définie sur <span class="codeph"> 0</span> seule la mosaïque d’aperçu basse résolution est chargée. </p> <p>Le préchargement en haute résolution améliore l’expérience de l’utilisateur final, en particulier lorsque la rotation automatique est activée. Dans le même temps, cela ralentit le démarrage et augmente la consommation du réseau. Par conséquent, utilisez avec précaution. Lorsqu’un préchargement haute résolution est utilisé, les images préchargées sont toujours à la résolution d’origine à laquelle le composant a été initialement chargé. </p> </td> 
+   <td colname="col2"> <p> Contrôle la qualité des images préchargées. Lorsqu’elle est définie sur <span class="codeph"> 1</span> images chargées en haute qualité, correspondant à la taille du composant. Lorsqu’elle est définie sur <span class="codeph"> 0</span>, seule la mosaïque d’aperçu basse résolution est chargée. </p> <p>Le préchargement en haute résolution améliore l’expérience de l’utilisateur final, en particulier lorsque la rotation automatique est activée. Dans le même temps, cela ralentit le démarrage et augmente la consommation du réseau. Par conséquent, utilisez avec précaution. Lorsqu’un préchargement haute résolution est utilisé, les images préchargées sont toujours à la résolution d’origine à laquelle le composant a été initialement chargé. </p> </td> 
   </tr> 
  </tbody> 
 </table>

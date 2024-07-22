@@ -8,7 +8,7 @@ exl-id: a15723fe-a8be-49c5-bad3-1a1360eeb232
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|slide|fade </span> </span> </p> </td> 
-   <td colname="col2"> <p> Indique le type d’effet appliqué lorsque la vue déroulante est affichée ou masquée. Avec <span class="codeph"> none </span>, l’image déroulante s’affiche instantanément lorsqu’elle est activée et prête ; <span class="codeph"> diapositive </span> fait jouer l’animation de diapositives dans la direction de gauche à droite ; <span class="codeph"> fade </span> applique une transition alpha à l’image déroulante. </p> </td> 
+   <td colname="col2"> <p> Indique le type d’effet appliqué lorsque la vue déroulante est affichée ou masquée. Avec <span class="codeph"> none </span>, l'image déroulante apparaît instantanément lorsqu'elle est activée et prête ; <span class="codeph"> la diapositive </span> fait jouer l'animation de la diapositive dans la direction gauche à droite ; <span class="codeph"> la FONDE </span> applique une transition alpha à l'image de la fenêtre déroulante. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showtime </span> </span> </p> </td> 

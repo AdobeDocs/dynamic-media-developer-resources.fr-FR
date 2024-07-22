@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: 09c30680-dd9f-4744-b5ec-105721058883
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Contient les paramètres du système de surveillance/alerte.
 
-Ce fichier est un fichier de propriétés JAVA. Il faut veiller à respecter les conventions appropriées ; dans le cas contraire, [!DNL Platform Server] peut ne pas démarrer. Notez en particulier qu’une double barre oblique inverse &quot;\\&quot; ou une seule barre oblique inverse &quot;/&quot; doit être utilisée à la place d’une barre oblique inverse &quot;\&quot; dans les chemins d’accès aux fichiers Windows, car la barre oblique inverse est utilisée comme caractère d’échappement dans ce type de fichier.
+Ce fichier est un fichier de propriétés JAVA. Il faut veiller à respecter les conventions appropriées ; sinon, le [!DNL Platform Server] risque de ne pas démarrer. Notez en particulier qu’une double barre oblique inverse &quot;\\&quot; ou une seule barre oblique inverse &quot;/&quot; doit être utilisée à la place d’une barre oblique inverse &quot;\&quot; dans les chemins d’accès aux fichiers Windows, car la barre oblique inverse est utilisée comme caractère d’échappement dans ce type de fichier.
 
 Les modifications apportées à ce fichier prennent effet peu de temps après l’enregistrement du fichier.
 

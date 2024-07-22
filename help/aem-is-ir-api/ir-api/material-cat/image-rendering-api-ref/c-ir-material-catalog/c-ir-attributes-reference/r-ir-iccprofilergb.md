@@ -18,11 +18,11 @@ Profil colorimétrique de sortie par défaut du RGB. Indique le nom du profil de
 
 ## Propriétés {#section-b4a1bd92e99047479a5036413525a6d9}
 
-Chaîne de texte. Si spécifié, doit être valide `icc::Name` de la carte de profil ICC de ce catalogue de matières ou du catalogue par défaut, ou d’un chemin d’accès au fichier relatif à `attribute::RootPath`. Le profil ICC référencé doit être un profil de RGB.
+Chaîne de texte. Si spécifié, doit être une valeur `icc::Name` valide provenant de la carte de profil ICC de ce catalogue matériel ou du catalogue par défaut, ou un chemin d’accès au fichier relatif à `attribute::RootPath`. Le profil ICC référencé doit être un profil de RGB.
 
 ## Par défaut {#section-5809772f8e96438ab7626d323c66a4ba}
 
-Hérité de `default::IccProfileRgb` s’il n’est pas défini ou s’il est vide.
+Hérité de `default::IccProfileRgb` si elle n’est pas définie ou si elle est vide.
 
 ## Voir aussi {#section-732c17dece3a4575855c9b79a08d0067}
 

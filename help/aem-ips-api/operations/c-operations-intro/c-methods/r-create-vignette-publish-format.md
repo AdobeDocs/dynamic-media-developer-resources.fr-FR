@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: d58e1290-8a79-4129-99ce-776b919dea13
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 14%
+source-wordcount: '520'
+ht-degree: 4%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 14%
 
 Crée un nouveau format de publication pour une vignette.
 
-Les formats de vignettes spécifient la taille des vignettes publiées et leurs miniatures, ainsi que les niveaux de zoom, les paramètres d’accentuation et la version du fichier des vignettes générées à partir de Principales vignettes publiées sur un serveur de rendu d’image à partir d’IPS.
+Les formats de vignettes spécifient la taille des vignettes publiées et leurs miniatures, ainsi que les niveaux de zoom, les paramètres d’accentuation et la version du fichier des vignettes générées à partir de vignettes principales publiées sur un serveur de rendu d’image à partir d’IPS.
 
 Les nouvelles versions du serveur de rendu d’image peuvent prendre en charge les vignettes pyramidales, ce qui évite d’avoir à définir des formats de vignettes spécifiques pour la publication.
 
@@ -29,7 +29,7 @@ Les nouvelles versions du serveur de rendu d’image peuvent prendre en charge l
 
 ## Paramètres {#section-3a368186ec1d4005bca056fc9d9bacc7}
 
-**Entrée (createViewPublishFormatParam)**
+**Entrée (createVignettePublishFormatParam)**
 
 <table id="table_4D5B2913FA784EC09190F25223C1A680"> 
  <thead> 
@@ -51,19 +51,19 @@ Les nouvelles versions du serveur de rendu d’image peuvent prendre en charge l
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Expression de code </span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Nom permettant d’identifier le format de publication de la vignette. </td> 
+   <td colname="col4"> Nom pour identifier le format de publication de la vignette. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> targetWidth</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Expression de code </span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> <p>Spécifie la largeur cible en pixels de la vue de vignette obtenue. </p> <p>Utilisez zéro pour que la vignette de sortie ait la même taille que la Principale vignette. </p> </td> 
+   <td colname="col4"> <p>Spécifie la largeur cible en pixels de la vue de vignette obtenue. </p> <p>Utilisez zéro pour que la vignette de sortie ait la même taille que la vignette principale. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> targetHeight</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Expression de code </span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Crée une vignette pyramidale optimisée pour le zoom sur le serveur Image Rendering. En commençant à la taille maximale, comme défini dans les champs Taille de vignette cible, il est possible de créer des vues de taille multiple dans un même fichier cible de vignette. Chaque taille de vue suivante sera diminuée de moitié jusqu'à ce que la largeur et la hauteur soient comprises dans un format 128 x 128 pixels. </td> 
+   <td colname="col4"> Crée une vignette pyramidale optimisée pour le zoom sur le serveur de rendu d’image. En commençant par la taille maximale définie par les champs Taille de la vignette cible, vous obtenez plusieurs vues de taille dans un seul fichier de sortie de vignette. Chaque taille d’affichage suivante est réduite de moitié jusqu’à ce que la largeur et la hauteur soient inférieures à 128x128 pixels. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> createPyramid</span> </span> </td> 
@@ -90,7 +90,7 @@ Les nouvelles versions du serveur de rendu d’image peuvent prendre en charge l
    <td colname="col4"> Indique le caractère qui sépare le nom de la vignette et le suffixe indiquant sa largeur. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> accentuer</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> sharpen</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> Expression de code </span> </td> 
    <td colname="col3"> Non </td> 
    <td colname="col4"> Applique l’accentuation à l’image de l’affichage principal pour chaque taille de vignette publicitaire. L’accentuation peut compenser le flou lors de la mise à l’échelle des vignettes. </td> 
@@ -126,7 +126,7 @@ Les nouvelles versions du serveur de rendu d’image peuvent prendre en charge l
 
 Ce code crée le format de publication de vignette. La requête de création spécifie un nom, une largeur et une hauteur de cible, ainsi que d’autres valeurs requises.
 
-**Request**
+**Requête**
 
 ```java
 <createVignettePublishFormatParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

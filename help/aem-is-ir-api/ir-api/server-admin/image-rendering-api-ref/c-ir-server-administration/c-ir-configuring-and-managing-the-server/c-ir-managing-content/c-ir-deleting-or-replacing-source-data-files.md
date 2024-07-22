@@ -24,6 +24,6 @@ Gardez à l’esprit que la suppression ou le remplacement d’un fichier de don
 
 Le serveur de rendu doit être arrêté pour remplacer d’autres fichiers de données.
 
-[!DNL Platform Server] les entrées de cache sont automatiquement invalidées lorsque les fichiers de matériaux ou les vignettes sont remplacés. Le remplacement des fichiers de profil ICC n’invalide pas les caches.
+[!DNL Platform Server] les entrées de cache sont automatiquement invalidées lorsque des fichiers de matériaux ou des vignettes sont remplacés. Le remplacement des fichiers de profil ICC n’invalide pas les caches.
 
 Pour éviter toute difficulté liée au remplacement de fichiers, il est recommandé de donner un nouveau nom à un fichier de remplacement et de mettre à jour les entrées de catalogue correspondantes. Cela permet de remplacer n’importe quel fichier de données pendant que le serveur est en ligne et entraîne l’obsolescence automatique des entrées de cache du serveur sans intervention supplémentaire. Cette approche peut être utilisée pour tous les fichiers de données gérés par les catalogues d’images.

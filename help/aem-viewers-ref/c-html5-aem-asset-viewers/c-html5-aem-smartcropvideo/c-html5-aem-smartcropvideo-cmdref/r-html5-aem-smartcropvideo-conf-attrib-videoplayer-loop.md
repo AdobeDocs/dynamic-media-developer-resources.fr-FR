@@ -4,10 +4,11 @@ description: Attribut de configuration de la visionneuse de vidéos avec recadra
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: dfd80e5727a128f272855f1f28e1bc89cb2436bf
+exl-id: 0560736a-3527-4372-a31d-da0fc27b2ee0
+source-git-commit: 8c49595fe0efb684b59601fb268bd8bf97fae555
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 15%
+source-wordcount: '33'
+ht-degree: 9%
 
 ---
 
@@ -20,7 +21,7 @@ Attribut de configuration de la visionneuse de vidéos avec recadrage intelligen
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
    <td colname="col2"> <p> Indique si la lecture de la vidéo doit être à nouveau effectuée une fois la lecture terminée. </p> </td> 
   </tr> 
  </tbody> 

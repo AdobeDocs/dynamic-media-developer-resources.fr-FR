@@ -16,7 +16,7 @@ ht-degree: 6%
 
 Condition de recherche de champ système pour l’opération searchAssets.
 
-Pour les comparaisons unaires, transmettez exactement une valeur ( `boolVal`, `longVal`, `doubleVal`ou `dateVal`) en fonction du type de champ système. Pour les plages de recherche, transmettez `min<Type>` et `max<Type>` et transmettez un `op` valeur de `Between` ou `NotBetween`.
+Pour les comparaisons unaires, transmettez exactement une valeur ( `boolVal`, `longVal`, `doubleVal` ou `dateVal`) en fonction du type de champ système. Pour les plages de recherche, transmettez les paramètres `min<Type>` et `max<Type>` et transmettez une valeur `op` de `Between` ou `NotBetween`.
 
 ## Paramètres {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 

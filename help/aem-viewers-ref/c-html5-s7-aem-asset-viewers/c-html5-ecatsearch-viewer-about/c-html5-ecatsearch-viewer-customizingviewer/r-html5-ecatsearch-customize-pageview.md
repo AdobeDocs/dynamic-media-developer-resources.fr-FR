@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: d98babad-96c7-419a-abf2-3b6657d550eb
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 3%
+source-wordcount: '384'
+ht-degree: 1%
 
 ---
 
@@ -35,12 +35,12 @@ L’aspect de la zone d’affichage est contrôlé à l’aide du sélecteur de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan de la vue principale au format hexadécimal. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cursor </span> </p> </td> 
-   <td colname="col2"> <p>Curseur affiché au-dessus de la vue principale. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> curseur </span> </p> </td> 
+   <td colname="col2"> <p>Curseur affiché sur la vue principale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +53,7 @@ Exemple : pour rendre la vue principale transparente.
 }
 ```
 
-Sur les systèmes de bureau, le composant prend en charge la variable `cursortype` sélecteur d’attributs qui peut être appliqué à `.s7pageview` et contrôle le type du curseur en fonction de l’état du composant et de l’action de l’utilisateur. Les éléments suivants `cursortype` sont prises en charge :
+Sur les systèmes de bureau, le composant prend en charge le sélecteur d’attributs `cursortype` qui peut être appliqué à la classe `.s7pageview` et contrôle le type de curseur en fonction de l’état du composant et de l’action de l’utilisateur. Les valeurs `cursortype` suivantes sont prises en charge :
 
 <table id="table_45B83F6CCDE84C36B0E087CA9144BFE6"> 
  <thead> 
@@ -64,7 +64,7 @@ Sur les systèmes de bureau, le composant prend en charge la variable `cursortyp
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> par défaut </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> default </span> </p> </td> 
    <td colname="col2"> <p>S’affiche lorsque l’image n’est pas agrandie en raison d’une petite résolution d’image, de paramètres de composant ou des deux. </p> </td> 
   </tr> 
   <tr> 
@@ -72,7 +72,7 @@ Sur les systèmes de bureau, le composant prend en charge la variable `cursortyp
    <td colname="col2"> <p>S’affiche lorsque l’image peut être agrandie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> réinitialiser </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> reset </span> </p> </td> 
    <td colname="col2"> <p>S’affiche lorsque l’image atteint le niveau de zoom maximal et peut être réinitialisée à l’état initial. </p> </td> 
   </tr> 
   <tr> 
@@ -81,12 +81,12 @@ Sur les systèmes de bureau, le composant prend en charge la variable `cursortyp
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> diapositive </span> </p> </td> 
-   <td colname="col2"> <p>Affiché lorsque l’utilisateur effectue un changement d’image en effectuant un glissement ou un clic horizontal. </p> </td> 
+   <td colname="col2"> <p>S’affiche lorsque l’utilisateur effectue un changement d’image en effectuant un glissement ou un clic horizontal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Le séparateur de page qui sépare visuellement les pages gauche et droite de l’étendue du catalogue est contrôlé à l’aide du sélecteur de classe CSS suivant :
+Le séparateur de page qui sépare visuellement les pages de gauche et de droite de l’étendue du catalogue est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 `.s7ecatalogsearchviewer .s7pageview .s7pagedivider`
 
@@ -100,7 +100,7 @@ Le séparateur de page qui sépare visuellement les pages gauche et droite de l�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> Largeur du séparateur de page. Définissez sur . <span class="codeph"> 0 </span> px pour masquer complètement le séparateur. </p> </td> 
+   <td colname="col2"> <p> Largeur du séparateur de page. Définissez cette variable sur <span class="codeph"> 0 </span> px pour masquer complètement le séparateur. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
@@ -120,9 +120,9 @@ Exemple : pour un séparateur de page de 40 pixels de large avec une image semi-
 
 >[!NOTE]
 >
->Lorsque la variable `frametransition` le modificateur est défini sur `turn` ou `auto` (sur les systèmes de bureau), l’aspect du séparateur de page est contrôlé à l’aide de la fonction `pageturnstyle` et le `.s7pagedivider` La classe CSS est ignorée.
+>Lorsque le modificateur `frametransition` est défini sur `turn` ou `auto` (sur les systèmes de bureau), l’aspect du séparateur de page est contrôlé à l’aide du modificateur `pageturnstyle` et la classe CSS `.s7pagedivider` est ignorée.
 
-Il est possible de configurer l’affichage des curseurs de souris personnalisés sur la zone de visionneuse principale. Cette fonctionnalité est contrôlée avec les sélecteurs d’attributs supplémentaires appliqués à `.s7ecatalogsearchviewer .s7pageview` Classe CSS :
+Il est possible de configurer l’affichage des curseurs de souris personnalisés sur la zone de visionneuse principale. Cette fonctionnalité est contrôlée avec les sélecteurs d’attributs supplémentaires appliqués à la classe CSS `.s7ecatalogsearchviewer .s7pageview` :
 
 <table id="table_908164DECF9347A19A9696A23BBDB1A2"> 
  <thead> 
@@ -133,7 +133,7 @@ Il est possible de configurer l’affichage des curseurs de souris personnalisé
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> par défaut </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> default </span> </p> </td> 
    <td colname="col2"> <p> Normalement, une flèche s’affiche pour une image non zoomable. </p> </td> 
   </tr> 
   <tr> 
@@ -141,7 +141,7 @@ Il est possible de configurer l’affichage des curseurs de souris personnalisé
    <td colname="col2"> <p> Indique à quel moment une image peut être agrandie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> réinitialiser </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> reset </span> </p> </td> 
    <td colname="col2"> <p>Indique si une image atteint le zoom maximal et peut être réinitialisée. </p> </td> 
   </tr> 
   <tr> 

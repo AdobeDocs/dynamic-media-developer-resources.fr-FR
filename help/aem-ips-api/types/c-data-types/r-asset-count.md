@@ -16,9 +16,9 @@ ht-degree: 10%
 
 Types de ressources et comptage pour une entreprise.
 
-Les types de ressources incluent : [!DNL ViewerSWf], [!DNL PDF], [!DNL Cabinet], etc.
+Les types de ressources sont [!DNL ViewerSWf], [!DNL PDF], [!DNL Cabinet] et autres.
 
 | Nom | Type | Description |
 |---|---|---|
 | assetType | `xsd:string` | Type de ressource associé au comptage. |
-| nombre | `sd:int` | Nombre `assetType` ressources de l’entreprise. |
+| nombre | `sd:int` | Nombre de `assetType` ressources dans la société. |

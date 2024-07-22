@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 3336c4d2-0d1d-4c6f-8163-8a84a8be8c20
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 8%
+source-wordcount: '62'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> Chaîne de commande de diffusion d’images appliquée à tous les échantillons. Si elle est spécifiée dans l’URL, veillez à encoder HTTP toutes les occurrences de <span class="codeph"> &amp;</span> et <span class="codeph"> =</span> as <span class="codeph"> %26</span> et <span class="codeph"> %3D</span>, respectivement. </p> <p> <p>Remarque : Les commandes de manipulation de dimensionnement d’image ne sont pas prises en charge. </p> </p> </td> 
+   <td colname="col2"> <p> Chaîne de commande de diffusion d’images appliquée à tous les échantillons. S’il est spécifié dans l’URL, veillez à coder toutes les occurrences de <span class="codeph"> &amp;</span> et <span class="codeph"> =</span> en tant que <span class="codeph"> %26</span> et <span class="codeph"> %3D</span>, respectivement. </p> <p> <p>Remarque : Les commandes de manipulation de dimensionnement d’image ne sont pas prises en charge. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

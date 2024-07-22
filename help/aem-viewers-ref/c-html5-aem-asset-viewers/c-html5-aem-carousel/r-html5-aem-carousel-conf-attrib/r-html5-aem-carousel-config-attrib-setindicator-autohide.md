@@ -7,14 +7,14 @@ role: Developer,User
 exl-id: 75521239-a0be-4aa0-b65d-9a1f7d902cf2
 source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 6%
+source-wordcount: '83'
+ht-degree: 3%
 
 ---
 
 # SetIndicator.autohide{#setindicator-autohide}
 
-` [SetIndicator.|<containerId>_setIndicator.]autohide=0|1[, *`limiter`*]`
+` [SetIndicator.|<containerId>_setIndicator.]autohide=0|1[, *`limit`*]`
 
 <table id="table_0BEA0B5FFDF64E5594B534B2A87A6D88"> 
  <tbody> 

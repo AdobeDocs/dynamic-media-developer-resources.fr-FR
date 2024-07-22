@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 043d146f-8884-4d3f-965e-673cf5aeea1d
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 21%
+source-wordcount: '26'
+ht-degree: 11%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 21%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p> Définissez sur . <span class="codeph"> 1</span> pour activer l’affichage du bouton Fermer ou définir sur <span class="codeph"> 0</span> pour masquer le bouton Fermer . </p> </td> 
+   <td colname="col2"> <p> Définissez cette variable sur <span class="codeph"> 1</span> pour activer l’affichage du bouton Fermer ou sur <span class="codeph"> 0</span> pour masquer le bouton Fermer. </p> </td> 
   </tr> 
  </tbody> 
 </table>

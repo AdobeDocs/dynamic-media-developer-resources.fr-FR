@@ -28,7 +28,7 @@ Ces commandes sont également disponibles.
   <td class="stentry"></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-show.md#reference-f1824e1a501144bc9a6ae28de8e6bcb9" type="reference" format="dita" scope="local"> afficher</a></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-show.md#reference-f1824e1a501144bc9a6ae28de8e6bcb9" type="reference" format="dita" scope="local"> show</a></span> </p> </td> 
   <td class="stentry"> <p>Rendre les objets de chevauchement sélectionnés visibles. </p></td> 
   <td class="stentry"></td> 
  </tr> 

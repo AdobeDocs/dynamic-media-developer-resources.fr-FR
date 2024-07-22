@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 75ba94b3-41d2-4c09-b444-42b3e83614b4
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 16%
+source-wordcount: '57'
+ht-degree: 15%
 
 ---
 
@@ -20,7 +20,7 @@ Syntaxe
 
 ## Paramètres {#section-e4bbbc79edcb4e4d9f97a4865c770b51}
 
-**Entrée**
+**Input**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|

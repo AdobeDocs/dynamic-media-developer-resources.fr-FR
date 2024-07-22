@@ -14,14 +14,14 @@ ht-degree: 4%
 
 # Propriétés{#properties}
 
-Les données de propriété sont renvoyées en réponse à ce qui suit : `req=` types :
+Les données de propriété sont renvoyées en réponse aux types `req=` suivants :
 
 * `catalogprops`
 * `imageprops`
 * `props`
 * `userdata`
 
-`userdata` les réponses sont formatées en tant que propriétés uniquement lorsque le contenu de `catalog::UserData` suivez le format des propriétés.
+Les réponses `userdata` sont formatées en tant que propriétés uniquement lorsque le contenu de `catalog::UserData` suit le format des propriétés.
 
 * [Propriétés Text (Java)](r-text-java-properties.md)
 * [Propriétés JavaScript](r-javascript-properties.md)

@@ -8,7 +8,7 @@ exl-id: e291597a-b863-42dd-88dc-13398b734410
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 15%
+ht-degree: 13%
 
 ---
 
@@ -54,7 +54,7 @@ Syntaxe
 
 ## Exemples {#section-ba65bd66086d491cad1cea535954ee1f}
 
-**Request**
+**Requête**
 
 ```java
 <getAutoCropRectParam xmlns="http://www.scene7.com/IpsApi/xsd/2012-07-31-beta">
@@ -82,4 +82,3 @@ Syntaxe
 >
 >* [AutoColorCropOptions](../../../types/c-data-types/r-auto-color-crop-options.md#reference-976c3a1f8e47473cae016a4e9e09e4a6)
 >* [AutoTransparentCropOptions](../../../types/c-data-types/r-auto-transparent-crop-options.md#reference-f4460b3bdf814f4c85e4f097ea4e6e2b)
-

@@ -8,7 +8,7 @@ exl-id: f38aa861-2a81-4663-967e-72611122f51b
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 15%
+ht-degree: 13%
 
 ---
 
@@ -40,12 +40,12 @@ Définit les champs de métadonnées de police.
 | successCount | `xsd:int` | Oui | Nombre de champs de police correctement définis. |
 | warningCount | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de définir des champs de police. |
 | errorCount | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de définir des champs de police. |
-| warningDetailArray | `types:AssetOperationFaultArray` | Non | Tableau de détails associés aux ressources qui ont généré des avertissements lorsque l’opération a tenté d’appliquer les mises à jour. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des avertissements lorsque l’opération a tenté d’appliquer les mises à jour. |
 | errorDetailArray | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des erreurs lorsque l’opération a tenté d’appliquer les mises à jour. |
 
 ## Exemples {#section-0449c2e4ec534f4b8ee849ec4fe12c4e}
 
-**Request**
+**Requête**
 
 ```javascript {.line-numbers}
 <batchSetFontFieldsParam xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31">

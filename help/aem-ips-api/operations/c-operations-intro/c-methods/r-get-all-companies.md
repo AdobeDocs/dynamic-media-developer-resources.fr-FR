@@ -8,7 +8,7 @@ exl-id: 0e339ecf-83b5-410c-8683-f3d73bd92339
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 21%
+ht-degree: 18%
 
 ---
 
@@ -40,7 +40,7 @@ Syntaxe
 
 Cet exemple de code renvoie toutes les entreprises d’IPS dans un tableau. Notez que l’exemple de réponse est tronqué pour plus de concision.
 
-**Request**
+**Requête**
 
 ```java
 <ns1:getAllCompaniesParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

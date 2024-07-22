@@ -8,7 +8,7 @@ exl-id: 1981f25f-779e-4434-ab6b-0debb40521fe
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -32,7 +32,7 @@ Syntaxe
 
 ## Paramètres {#section-e87b3cb743494719925c9458eed433b6}
 
-**Entrée (getUserInfoParam)**
+**Input (getUserInfoParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -49,7 +49,7 @@ Syntaxe
 
 Cet exemple de code renvoie des informations pour l’utilisateur IPS par défaut.
 
-**Request**
+**Requête**
 
 ```java
 <getUserInfoParam xmlns="http://www.scene7.com/IpsApi/xsd" /></getUserInfoParam>

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 8eb2aa50-52b9-4b63-9789-87e492f34a22
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 11%
+source-wordcount: '208'
+ht-degree: 3%
 
 ---
 
@@ -33,26 +33,26 @@ La visionneuse prend en charge le sous-titrage codé par le biais de fichiers We
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> A </span> </p> </td> 
    <td colname="col2"> <p>alignement de texte </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> left|right|middle|start|end  </span> </p> </td> 
-   <td colname="col4"> <p> Contrôler l’alignement du texte. </p> <p>La valeur par défaut est <span class="codeph"> milieu </span>. </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> left|right|middle|start|end </span> </p> </td> 
+   <td colname="col4"> <p> Contrôler l’alignement du texte. </p> <p>La valeur par défaut est <span class="codeph"> middle </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> T </span> </p> </td> 
    <td colname="col2"> <p>position du texte </p> </td> 
    <td colname="col3"> <p> 0 à 100 % </p> </td> 
-   <td colname="col4"> <p> Pourcentage d’insertion dans le composant VideoPlayer pour le début du texte de la légende. </p> <p>Valeur par défaut : 0%. </p> </td> 
+   <td colname="col4"> <p> Pourcentage d’insertion dans le composant VideoPlayer pour le début du texte de la légende. </p> <p>La valeur par défaut est de 0 %. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> S </span> </p> </td> 
    <td colname="col2"> <p>taille de ligne </p> </td> 
    <td colname="col3"> <p> 0 à 100 % </p> </td> 
-   <td colname="col4"> <p> Pourcentage de la largeur de la vidéo utilisée pour les sous-titres. </p> <p>Valeur par défaut : 100%. </p> </td> 
+   <td colname="col4"> <p> Pourcentage de la largeur de la vidéo utilisée pour les sous-titres. </p> <p>La valeur par défaut est de 100 %. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> L </span> </p> </td> 
-   <td colname="col2"> <p>position ligne </p> </td> 
+   <td colname="col2"> <p>position de ligne </p> </td> 
    <td colname="col3"> <p> 0%-100%|integer </p> </td> 
-   <td colname="col4"> <p> Détermine la position de la ligne sur la page. </p> <p>S’il est exprimé sous la forme d’un entier (aucun signe de pourcentage), il s’agit du nombre de lignes du haut où le texte est affiché. </p> <p>S’il s’agit d’un pourcentage (le signe de pourcentage est le dernier caractère), le texte de la légende s’affiche avec ce pourcentage dans la zone d’affichage. </p> <p>Valeur par défaut : 100%. </p> </td> 
+   <td colname="col4"> <p> Détermine la position de la ligne sur la page. </p> <p>S’il est exprimé sous la forme d’un entier (aucun signe de pourcentage), il s’agit du nombre de lignes du haut où le texte est affiché. </p> <p>S’il s’agit d’un pourcentage (le signe de pourcentage est le dernier caractère), le texte de la légende s’affiche avec ce pourcentage dans la zone d’affichage. </p> <p>La valeur par défaut est de 100 %. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,11 +62,11 @@ Les autres fonctionnalités WebVTT présentes dans le fichier WebVTT ne sont pas
 <table id="table_A5BB1C08DA4B425DBD0356C7D3693E75"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fichier  </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fichier </span> </span> </p> </td> 
    <td colname="col2"> <p> Spécifie une URL ou un chemin d’accès au contenu de la légende WebVTT. Servez le fichier WebVTT par serveur d’images. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> 0 | 1 </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
    <td colname="col2"> <p> Indique l’état de la légende par défaut (activé est <span class="codeph"> 1 </span>). </p> </td> 
   </tr> 
  </tbody> 

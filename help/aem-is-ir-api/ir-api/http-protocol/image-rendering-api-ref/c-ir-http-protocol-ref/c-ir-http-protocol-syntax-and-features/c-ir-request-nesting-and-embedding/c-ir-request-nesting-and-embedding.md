@@ -18,4 +18,4 @@ Le rendu d’image permet l’incorporation de requêtes de diffusion d’images
 
 Ces mécanismes ne sont pas pris en charge pour les documents de Cabinet et de Couverture de fenêtre.
 
-Voir aussi [src=](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) et référence du serveur d’images.
+Voir aussi [src=](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) et Image Serving Reference.

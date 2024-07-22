@@ -8,7 +8,7 @@ exl-id: 7b26e659-71b9-40c4-9df4-94e78c3e4baf
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '86'
-ht-degree: 24%
+ht-degree: 17%
 
 ---
 
@@ -69,7 +69,7 @@ Syntaxe
  </tbody> 
 </table>
 
-**Sortie (getPublishContextsReturn)**
+**Output (getPublishContextsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -77,7 +77,7 @@ Syntaxe
 
 ## Exemples {#section-23fb7d6a15004b7eb4c3d3bcb37ceb04}
 
-**Request**
+**Requête**
 
 ```java
 <getPublishContextsParam xmlns="http://www.scene7.com/IpsApi/xsd/2011-11-04">

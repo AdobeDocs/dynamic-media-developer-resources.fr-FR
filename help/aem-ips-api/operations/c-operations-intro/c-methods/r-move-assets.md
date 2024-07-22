@@ -8,7 +8,7 @@ exl-id: e5bb2188-d262-4324-9f71-68634b6af654
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 12%
+ht-degree: 8%
 
 ---
 
@@ -70,9 +70,9 @@ Syntaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>qui contiennent les éléments suivants : 
+   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span> qui contient les éléments suivants : 
     <ul id="ul_689F4A87A68140F18DFB43868226A409"> 
-     <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">Ressources qui ont déclenché les avertissements. </li> 
+     <li id="li_274C8BF5932F4AF584AA92F25E0F33C6">Assets qui a lancé les avertissements. </li> 
      <li id="li_5CC4A9120CA94F968CAF0D0135C49E0A">Codes d’avertissement. </li> 
      <li id="li_AEC91FA68B2E43BC8BAA108C743F5667">Motif de l’avertissement. </li> 
     </ul> </td> 
@@ -81,9 +81,9 @@ Syntaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:AssetOperationFaultArray</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>qui contiennent les éléments suivants : 
+   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span> qui contient les éléments suivants : 
     <ul id="ul_C397BC384A134F429D01ADA28DF2E097"> 
-     <li id="li_EAEBB5F539164480BA9EAA7C8FFBF69A">Ressources qui ont généré les erreurs. </li> 
+     <li id="li_EAEBB5F539164480BA9EAA7C8FFBF69A">Assets qui a généré les erreurs. </li> 
      <li id="li_F96D5FBB2F7A402AA36D8DFA3971391D">Codes d’erreur. </li> 
      <li id="li_F610415E416F43DDA4B1DBF1897E2F61">Raison des erreurs. </li> 
     </ul> </td> 
@@ -93,9 +93,9 @@ Syntaxe
 
 ## Exemples {#section-c31ed4c004ab4b3fa42c96d26ceb5ce7}
 
-Cet exemple de code déplace les ressources vers un emplacement spécifique spécifié par la fonction `assetMoveArray`. Le tableau comprend la gestion des ressources et celle des dossiers. La réponse indique que les ressources ont été déplacées avec succès.
+Cet exemple de code déplace les ressources vers un emplacement spécifique spécifié par le `assetMoveArray`. Le tableau comprend la gestion des ressources et celle des dossiers. La réponse indique que les ressources ont été déplacées avec succès.
 
-**Request**
+**Requête**
 
 ```java
 <moveAssetsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

@@ -8,7 +8,7 @@ exl-id: 1922fc1b-2abc-4d31-985a-65c788af4d46
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '98'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
 
@@ -39,9 +39,9 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-e1c474ea91a040609ecd7c2400f4fa3c}
 
-Cet exemple de code supprime le champ de métadonnées d’une entreprise. Elle utilise le nom d’entreprise et le nom de métadonnées comme champs dans la variable `deleteMetadataFieldParam` transmis au serveur des services Web IPS pour effectuer cette action.
+Cet exemple de code supprime le champ de métadonnées d’une entreprise. Il utilise le nom d’entreprise et le nom de métadonnées comme champs dans les `deleteMetadataFieldParam` transmis au serveur des services Web IPS pour effectuer cette action.
 
-**Request**
+**Requête**
 
 ```java
 <deleteMetadataFieldParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

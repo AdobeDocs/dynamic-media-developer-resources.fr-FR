@@ -35,7 +35,7 @@ L’aspect est contrôlé à l’aide du sélecteur de classe CSS suivant :
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> composition  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> composition </span> </p> </td> 
    <td colname="col2"> <p>Style de mise en surbrillance du focus. </p> </td> 
   </tr> 
  </tbody> 

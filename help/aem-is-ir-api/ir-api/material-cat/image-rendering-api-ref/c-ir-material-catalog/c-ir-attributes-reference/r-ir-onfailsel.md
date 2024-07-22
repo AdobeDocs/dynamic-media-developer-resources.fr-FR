@@ -8,13 +8,13 @@ exl-id: d5485569-def8-4e16-9f0e-7dd30d38439d
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '118'
-ht-degree: 13%
+ht-degree: 6%
 
 ---
 
 # OnFailSel{#onfailsel}
 
-Gestion des erreurs de sélection. Indique l’action à effectuer si la variable `sel=` échoue, car l’emplacement de pixel spécifié ne se trouve pas dans la zone de masque d’un objet sélectionnable.
+Gestion des erreurs de sélection. Spécifie l’action à effectuer si la commande `sel=` échoue, car l’emplacement de pixel spécifié ne se trouve pas dans la zone de masque d’un objet sélectionnable.
 
 ## Propriétés {#section-cec491e6c5c744f9bfafaaa9d8774f83}
 
@@ -27,15 +27,15 @@ Enum.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
-  <td class="stentry"> <p>Conserver la sélection précédente. </p> </td> 
+  <td class="stentry"> <p>Conservez la sélection précédente. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>Désélectionner ; toute tentative d’application d’un matériau ou d’affichage/masquage d’objets est ignorée. </p> </td> 
+  <td class="stentry"> <p>Désélectionnez cette option ; toute tentative d’application d’un matériau ou d’affichage/masquage d’objets est ignorée. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>Renvoyer une erreur. </p> </td> 
+  <td class="stentry"> <p>Renvoie une erreur. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 08cecb09-100f-4671-b335-d59c88b0e1ef
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '158'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Taille Jpeg en kilo-octets. Indique la taille maximale de la réponse du JPEG en kilo-octets.
 
-`jpegSize= *`taille`*`
+`jpegSize= *`size`*`
 
 <table id="simpletable_EC2A8D8B65854B45B9CB184DA1069355"> 
  <tr class="strow"> 

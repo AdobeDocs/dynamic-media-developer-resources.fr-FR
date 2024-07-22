@@ -8,7 +8,7 @@ exl-id: 01ccc705-97e4-4e75-a322-e24bb78cb496
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '136'
-ht-degree: 15%
+ht-degree: 13%
 
 ---
 
@@ -39,11 +39,11 @@ Syntaxe
 |---|---|---|---|
 | companyHandle | `xsd:string` | Oui | Gestionnaire de la société à laquelle appartient la visionneuse d’images. |
 | folderHandle | `xsd:string` | Oui | Gestionnaire du dossier. |
-| name | `xsd:string` | Oui | Nom de la visionneuse d’images. |
+| nom | `xsd:string` | Oui | Nom de la visionneuse d’images. |
 | type | `xsd:string` | Oui | Type de visionneuse d’images. |
 | thumbAssetHandle | `xsd:string` | Non | Gestion de la ressource qui agit comme miniature de la nouvelle visionneuse d’images. S’il n’est pas spécifié, IPS tente d’utiliser la première ressource d’image référencée par la visionneuse. |
 
-**Sortie**
+**Output**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -53,7 +53,7 @@ Syntaxe
 
 Cet exemple de code crée un jeu d’images spécifié par l’entreprise, le dossier, le nom et le type. La réponse est un gestionnaire de ressources de la visionneuse d’images nouvellement créée.
 
-**Request**
+**Requête**
 
 ```java
 <ns1:createImageSetParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

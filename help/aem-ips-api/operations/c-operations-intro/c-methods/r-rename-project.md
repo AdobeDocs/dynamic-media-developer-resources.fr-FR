@@ -8,7 +8,7 @@ exl-id: 1bf74ebf-1fce-408b-9953-7fdf2ae9d10b
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '71'
-ht-degree: 23%
+ht-degree: 21%
 
 ---
 
@@ -34,7 +34,7 @@ Syntaxe
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | companyName | `xsd:string` | Oui | Gérer l’entreprise avec le projet que vous souhaitez renommer. |
-| projectHandle | `xsd:string` | Oui | Gérer au projet. |
+| projectHandle | `xsd:string` | Oui | Gérez le projet. |
 | projectName | `xsd:string` | Oui | Nouveau nom du projet. |
 
 **Sortie (renameProjectParam)**
@@ -47,7 +47,7 @@ Syntaxe
 
 Cet exemple de code renomme un projet et renvoie la gestion du projet.
 
-**Request**
+**Requête**
 
 ```java
 <renameProjectParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

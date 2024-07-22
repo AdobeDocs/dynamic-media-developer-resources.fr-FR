@@ -2,13 +2,13 @@
 description: Validation de requête.
 solution: Experience Manager
 title: valider
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 88424371-45a0-43bb-af49-2e8568b7b44c
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 2%
+source-wordcount: '103'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +25,7 @@ Validation de requête.
  </tr> 
 </table>
 
-Analyse la chaîne de requête comme si `req=img` était spécifié, mais sans substituer de variables ni évaluer les objets référencés (images, profils ICC, polices, etc.). La réponse d’erreur standard est renvoyée si l’analyse échoue, sinon la propriété suivante est renvoyée :
+Analyse la chaîne de requête comme si `req=img` avait été spécifié, mais sans substituer de variables ni évaluer les objets référencés (images, profils ICC, polices, etc.). La réponse d’erreur standard est renvoyée si l’analyse échoue, sinon la propriété suivante est renvoyée :
 
 `request.isValid=1`
 

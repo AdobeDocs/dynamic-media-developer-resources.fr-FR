@@ -8,7 +8,7 @@ exl-id: eb052685-b750-4a12-b00e-28e676340e98
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -32,7 +32,7 @@ Syntaxe
 
 ## Paramètres {#section-aa3f498fe76d4a5f99c42d64520fadce}
 
-**Entrée (getZipEntriesParam)**
+**Input (getZipEntriesParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -49,7 +49,7 @@ Syntaxe
 
 Cet exemple de code renvoie des informations sur le fichier zip, y compris la taille compressée et non compressée.
 
-**Request**
+**Requête**
 
 ```java
 <getZipEntriesParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

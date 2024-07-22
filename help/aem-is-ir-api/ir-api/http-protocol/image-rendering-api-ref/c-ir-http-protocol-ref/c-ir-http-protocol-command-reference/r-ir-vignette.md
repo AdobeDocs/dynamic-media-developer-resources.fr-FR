@@ -8,7 +8,7 @@ exl-id: 8419d68d-7579-4e62-abbd-7dc0a736ae23
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -16,16 +16,16 @@ ht-degree: 4%
 
 Fichier vignette. Indique la vignette à utiliser pour la requête.
 
-`vignette=[ *`catId`*/] *`recId`*|[catId/] *`fichier`*`
+`vignette=[ *`catId`*/] *`recId`*|[catId/] *`file`*`
 
 <table id="simpletable_432EC5501CA3431B83A762C3EE4E8DD2"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p> </td> 
-  <td class="stentry"> <p>Identifiant du catalogue des matières (associé à <span class="codeph"> attribute::RootId</span>). </p></td> 
+  <td class="stentry"> <p>Identifiant du catalogue de matières (correspondant à l’attribut <span class="codeph">::RootId</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> recId</span> </p></td> 
-  <td class="stentry"> <p>Identifiant de la vignette (associé à <span class="codeph"> vignette ::Id</span>). </p></td> 
+  <td class="stentry"> <p>Identifiant de la vignette (correspond à <span class="codeph"> vignette::Id</span>). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> file</span> </p></td> 
@@ -37,7 +37,7 @@ Peut spécifier une entrée de vignette ou un fichier de vignette. Les URL dista
 
 `vignette=` Peut être utilisé comme alternative à la spécification de la vignette dans le chemin de l’URL de requête. Permet de spécifier des vignettes au moyen de variables dans les modèles.
 
-If *`catId`* n’est pas spécifié, le catalogue de sessions est utilisé.
+Si *`catId`* n’est pas spécifié, le catalogue de sessions est utilisé.
 
 ## Propriétés {#section-f58661fc78d7496e8e3d0fb98b945c4b}
 

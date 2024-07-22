@@ -8,7 +8,7 @@ exl-id: dd9c07df-9a8f-4b67-9838-31dd96fd127b
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 19%
+ht-degree: 18%
 
 ---
 
@@ -36,7 +36,7 @@ Syntaxe
 | companyHandle | `xsd:string` | Oui | Gestionnaire de la société associée au nouveau projet. |
 | projectName | `xsd:string` | Oui | Nouveau nom du projet. |
 
-**Sortie (createProjectParam)**
+**Output (createProjectParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -46,7 +46,7 @@ Syntaxe
 
 Cet exemple de code crée un projet appelé `ApiTestProject` dans une société spécifiée par son nom d’utilisateur. La réponse renvoie la gestion au projet.
 
-**Request**
+**Requête**
 
 ```java
 <createProjectParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

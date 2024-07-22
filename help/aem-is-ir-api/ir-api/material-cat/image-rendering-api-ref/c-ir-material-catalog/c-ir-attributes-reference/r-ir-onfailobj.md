@@ -8,7 +8,7 @@ exl-id: 0ed04daf-1797-4c12-ae6d-a9a008de9d1d
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 14%
+ht-degree: 7%
 
 ---
 
@@ -27,15 +27,15 @@ Enum.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
-  <td class="stentry"> <p>Conserver la sélection précédente. </p> </td> 
+  <td class="stentry"> <p>Conservez la sélection précédente. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>Désélectionner ; toute tentative d’application d’un matériau ou d’affichage/masquage d’objets est ignorée. </p> </td> 
+  <td class="stentry"> <p>Désélectionnez cette option ; toute tentative d’application d’un matériau ou d’affichage/masquage d’objets est ignorée. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>Renvoyer une erreur. </p> </td> 
+  <td class="stentry"> <p>Renvoie une erreur. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 

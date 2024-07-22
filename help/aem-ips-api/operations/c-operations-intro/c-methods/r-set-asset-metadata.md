@@ -8,7 +8,7 @@ exl-id: 811e44e1-774a-49bd-a2bd-a7504e5f7f5f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 10%
+ht-degree: 8%
 
 ---
 
@@ -33,7 +33,7 @@ Syntaxe
 
 ## Paramètres {#section-bcdcff30905e444388811e897b2824bd}
 
-**Entrée (setAssetMetadataParam)**
+**Input (setAssetMetadataParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -49,7 +49,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 Cet exemple de code utilise un tableau de mises à jour de métadonnées pour définir les métadonnées de la ressource spécifiée.
 
-**Request**
+**Requête**
 
 ```java
 <ns1:setAssetMetadataParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| éléments | `types:IccProfileUpdate` | `IccProfileFieldUpdate` élément de tableau . |
+| éléments | `types:IccProfileUpdate` | `IccProfileFieldUpdate` élément de tableau. |

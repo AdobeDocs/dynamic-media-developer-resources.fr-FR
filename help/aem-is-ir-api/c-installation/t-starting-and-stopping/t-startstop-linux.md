@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Il existe deux options pour démarrer ou arrêter Image Serving sous Linux®.
 
-* Le script permettant de vérifier l’état du serveur d’images ou de démarrer et arrêter le serveur d’images se trouve dans la variable [!DNL ImageServing/bin] folder:
+* Le script permettant de vérifier l’état du serveur d’images, ou de démarrer et arrêter le serveur d’images, se trouve dans le dossier [!DNL ImageServing/bin] :
 
-   `ImageServing.sh {start|stop|restart|status}`
+  `ImageServing.sh {start|stop|restart|status}`
 * L’alternative suivante doit être familière aux administrateurs système :
 
-   `/sbin/service ImageServing {start|stop|status}`
+  `/sbin/service ImageServing {start|stop|status}`

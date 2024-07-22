@@ -8,7 +8,7 @@ exl-id: c5357c1a-92ac-4f9c-957e-b62cb812796c
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 17%
+ht-degree: 14%
 
 ---
 
@@ -33,8 +33,8 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gérer la société. |
-| assetHandle | `xsd:string` | Oui | Gérez la ressource à déplacer. |
+| companyHandle | `xsd:string` | Oui | Traitez la société. |
+| assetHandle | `xsd:string` | Oui | Gérez la ressource que vous souhaitez déplacer. |
 | folderHandle | `xsd:string` | Oui | Gérer vers le dossier de destination. |
 
 **Sortie (moveAssetReturn)**
@@ -45,7 +45,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 Cet exemple de code déplace une ressource vers un dossier.
 
-**Request**
+**Requête**
 
 ```java
 <ns1:moveAssetParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

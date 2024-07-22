@@ -16,6 +16,6 @@ ht-degree: 0%
 
 Si cela s’avère nécessaire, vous pouvez désinstaller le rendu d’image.
 
-La désinstallation peut supprimer certains documents utilisateur dans le dossier d’installation. Sauvegardez tous les fichiers que vous souhaitez conserver avant de procéder à la désinstallation.
+La désinstallation peut supprimer certains documents utilisateur dans le dossier d’installation. Sauvegardez tous les fichiers à conserver avant de procéder à la désinstallation.
 
 Avant de procéder à la désinstallation, connectez-vous à l’hôte de votre serveur avec les droits d’administrateur ou de root.

@@ -2,12 +2,12 @@
 description: Chaîne de modificateur de requête de préfixe. Aucune ou plusieurs commandes de diffusion d’images séparées par des caractères "&".
 solution: Experience Manager
 title: Modificateur
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6eef3159-c082-469b-b9dc-29acb28560d6
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '100'
 ht-degree: 7%
 
 ---
@@ -18,9 +18,9 @@ Chaîne de modificateur de requête de préfixe. Aucune ou plusieurs commandes d
 
 Utilisé pour modifier en permanence les images et stocker le corps des modèles.
 
-Les commandes de ce champ sont remplacées par les mêmes commandes que celles de la requête ou du modèle à partir duquel cet enregistrement est référencé, et par des commandes dans `catalog::PostModifier`
+Les commandes de ce champ sont remplacées par les mêmes commandes dans la requête ou le modèle à partir duquel cet enregistrement est référencé, et par des commandes dans `catalog::PostModifier`.
 
-Les macros sont autorisées dans `catalog::Modifier`, à condition qu’elles soient définies dans le même catalogue ou dans le catalogue par défaut. Vous pouvez également utiliser des variables personnalisées.
+Les macros sont autorisées dans `catalog::Modifier` tant qu’elles sont définies dans le même catalogue ou dans le catalogue par défaut. Vous pouvez également utiliser des variables personnalisées.
 
 ## Propriétés {#section-6674388f77d644469371a17e8809c45f}
 

@@ -22,7 +22,7 @@ Le tableau suivant décrit chaque type d’alerte standard.
  <thead> 
   <tr> 
    <th class="entry"> <b>Type d’alerte</b> </th> 
-   <th class="entry"> <b>ID de titre</b> </th> 
+   <th class="entry"> <b>Id De Titre</b> </th> 
    <th class="entry"> <b>Description</b> </th> 
   </tr> 
  </thead>

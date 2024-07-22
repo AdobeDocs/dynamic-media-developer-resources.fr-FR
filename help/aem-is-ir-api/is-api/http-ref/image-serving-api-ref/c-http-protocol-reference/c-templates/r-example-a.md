@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 7f731b41-994d-4f1d-b42d-e14db47e4d6c
 source-git-commit: 24667a5ebab54ba22c4a3f6b52d19d7a31a93576
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Créez un modèle de taille fixe avec une image d’arrière-plan statique, une image variable alignée sur l’arrière-plan au centre gauche et mise à l’échelle de manière à ne pas dépasser 80 % de la largeur et de la hauteur de l’arrière-plan. Enfin, un calque de texte avec du texte vertical centré sur le bord droit de la zone de travail.
 
-![Exemple d’image](assets/examplea.png)
+![Exemple d’une image](assets/examplea.png)
 
 ## Enregistrement du modèle {#section-32f54710593e438fa0622224c89380af}
 
@@ -24,18 +24,18 @@ Insérer un objet
 
 <table id="simpletable_97ECA49445634F59B3F1D100412EFC70"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> catalog::Id  </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> myTemplate1  </span> </p> </td> 
+  <td class="stentry"> <p> Catalogue <span class="codeph"> ::Id </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> myTemplate1 </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> catalogue : Modificateur  </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> src=backgroundImage&amp;size=1000,1000&amp;originN=0,0&amp; layer=1&amp;src=$object$&amp;size=800,800&amp;originN=-0,5,0&amp;posN=-0,5,0&amp; layer=2&amp;$text=layer+2+text+go=here&amp;text tf...$text$...rtf-encoding&amp;rotate=-90&amp;originN=0.5,0&amp;posN=0.5,0  </span> </p> </td> 
+  <td class="stentry"> <p> Catalogue <span class="codeph"> ::Modifier </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> src=backgroundImage&amp;size=1000,1000&amp;originN=0,0&amp; layer=1&amp;src=$object$&amp;size=800,800&amp;originN=-0,5,0&amp;posN=-0,5,0&amp; layer=2&amp;$text=layer+2+text+vas text=rtf...$text$...rtf-encoding&amp;rotate=-90&amp;originN=0.5,0&amp;posN=0.5,0 </span> </p> </td> 
  </tr> 
 </table>
 
-Les valeurs `origin=` de tous les calques sont spécifiées explicitement dans le modèle pour contrôler strictement le positionnement et l’alignement des calques. Chaque origine de calque est définie pour correspondre à l’alignement souhaité pour ce calque. `origin=` pour l’arrière-plan (couche 0) est défini sur le centre ; cette valeur est arbitraire, car l’image d’arrière-plan ne change pas au moment de l’exécution. toute valeur pour l’origine du calque 0 peut être utilisée.
+Les valeurs `origin=` de tous les calques sont spécifiées explicitement dans le modèle pour contrôler strictement le positionnement et l’alignement des calques. Chaque origine de calque est définie pour correspondre à l’alignement souhaité pour ce calque. La valeur `origin=` de l’arrière-plan (couche 0) est définie sur le centre ; cette valeur est arbitraire car l’image d’arrière-plan ne change pas au moment de l’exécution ; toute valeur pour l’origine de la couche 0 peut être utilisée.
 
-Les valeurs `pos=` fournissent les décalages nécessaires entre les points d’origine du calque, pour obtenir le positionnement souhaité du calque.
+Les valeurs `pos=` fournissent les décalages nécessaires entre les points d’origine du calque, pour obtenir le positionnement de calque souhaité.
 
 L’ancre de l’image du calque 1 est placée au centre gauche, avec la valeur `pos=`. Ce paramètre permet d’obtenir l’alignement gauche entre l’arrière-plan et le calque 1 de l’image, quel que soit le rapport L/H de l’image du calque 1.
 
@@ -51,4 +51,4 @@ Toute image peut être utilisée pour l’image d’arrière-plan et l’image d
 
 L’image suivante montre le résultat composite pour différents proportions de l’image du calque 1 et différentes chaînes de texte.
 
-![Exemple Une image composite](assets/exampleausing.png)
+![Exemple Une image de résultat composite](assets/exampleausing.png)

@@ -25,7 +25,7 @@ Syntaxe
 | originalPath | `xsd:string` | Chemin d’accès relatif au cabinet d’origine. |
 | originalFile | `xsd:string` | Nom du Cabinet. |
 | fileSize | `xsd:int` | Taille du Cabinet. |
-| imagePath | `xsd:string` | Chemin d’accès relatif à l’armoire associée à la vignette. |
+| imagePath | `xsd:string` | Chemin d’accès relatif au cabinet associé à la vignette. |
 | imageFile | `xsd:string` | Nom de fichier du cabinet associé à la vignette. |
 | optimizedPath | `xsd:string` | Chemin d’accès à l’armoire optimisée pour les IPS. |
 | optimizedFile | `xsd:string` | Fichier d’armoire optimisé pour IPS. |

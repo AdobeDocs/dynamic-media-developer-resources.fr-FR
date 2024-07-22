@@ -8,7 +8,7 @@ exl-id: 2d4f1059-8018-4efb-a1ec-8eb560b1a58f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -33,11 +33,11 @@ Syntaxe
 
 ## Paramètres {#section-6fcee63dc3f74a5b90e1d71e59eb255c}
 
-**Entrée (renameFolderParam)**
+**Input (renameFolderParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gérer la société avec les dossiers que vous souhaitez renommer. |
+| companyHandle | `xsd:string` | Oui | Gérer la société avec les dossiers à renommer. |
 | folderHandle | `xsd:string` | Oui | Gérer au dossier. |
 | folderName | `xsd:string` | Oui | Nouveau nom du dossier. |
 
@@ -51,7 +51,7 @@ Syntaxe
 
 Cet exemple de code renomme un dossier.
 
-**Request**
+**Requête**
 
 ```java
 <ns1:renameFolderParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 49af2620-081f-4bcc-8245-5aa6bab89a05
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '200'
 ht-degree: 7%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 Qualité Jpeg. Spécifie les attributs de codage du JPEG pour contrôler le niveau de compression.
 
-` qlt= *`qualité`*[. *`chroma`*]`
+` qlt= *`quality`*[. *`chroma`*]`
 
 <table id="simpletable_A245B6A3D2374A6A89DE63A5621CFEC0"> 
  <tr class="strow"> 
@@ -25,21 +25,21 @@ Qualité Jpeg. Spécifie les attributs de codage du JPEG pour contrôler le nive
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> chroma </span> </p> </td> 
-  <td class="stentry"> <p>sous-échantillonnage chromatique JPEG (0=normal, 1=désactivé); facultatif, la valeur par défaut est 0. </p> </td> 
+  <td class="stentry"> <p>Sous-échantillonnage chromatique JPEG (0=normal, 1=désactivé) ; facultatif, la valeur par défaut est 0. </p> </td> 
  </tr> 
 </table>
 
 Spécifie les attributs de codage du JPEG pour contrôler le niveau de compression. En retour, cela varie la taille du fichier (quantité des données de réponse) et, indirectement, la qualité visuelle de l’image obtenue.
 
-Supérieur *`quality`* augmentent la taille et la qualité du fichier, des valeurs inférieures réduisent la taille des fichiers et réduisent la qualité de l’image perçue. Des valeurs supérieures à 90 génèrent des images impossibles à différencier d’une image non compressée.
+Des valeurs *`quality`* plus élevées augmentent la taille et la qualité du fichier, des valeurs plus faibles réduisent la taille des fichiers et réduisent la qualité de l’image perçue. Des valeurs supérieures à 90 génèrent des images impossibles à différencier d’une image non compressée.
 
-Définissez la variable *`chroma`* Indicateur pour désactiver le sous-échantillonnage chromatique utilisé par les encodeurs de JPEG standard. Ce paramètre peut augmenter la netteté ressentie des bords d’une image lorsque le bord est défini par un changement de couleur plutôt que de luminosité. La définition de cet indicateur peut entraîner une légère augmentation de la taille du fichier. Testez ce paramètre si le texte semble légèrement flou.
+Définissez l’indicateur *`chroma`* pour désactiver le sous-échantillonnage chromatique utilisé par les encodeurs JPEG classiques. Ce paramètre peut augmenter la netteté ressentie des bords d’une image lorsque le bord est défini par un changement de couleur plutôt que de luminosité. La définition de cet indicateur peut entraîner une légère augmentation de la taille du fichier. Testez ce paramètre si le texte semble légèrement flou.
 
 ## Propriétés {#section-897b61c786dd4230a2c5807f2f40e722}
 
 Peut se produire n’importe où dans la requête.
 
-Ignoré si le format d’image de sortie ne prend pas en charge la compression du JPEG. Reportez-vous à la description de `fmt=` pour obtenir une liste des formats d’image de sortie qui prennent en charge la compression JPEG.
+Ignoré si le format d’image de sortie ne prend pas en charge la compression du JPEG. Reportez-vous à la description de `fmt=` pour obtenir la liste des formats d’image de sortie qui prennent en charge la compression JPEG.
 
 ## Par défaut {#section-1c1257df843c475bbac6aadaffcb6347}
 

@@ -1,5 +1,5 @@
 ---
-title: Traitement variable dans les requêtes étrangères incorporées
+title: Traitement de variables dans des requêtes étrangères incorporées
 description: Les références $var$ se trouvant n’importe où dans les accolades d’une requête étrangère incorporée sont remplacées par des valeurs de définition de variable correspondantes.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Traitement variable dans les requêtes étrangères incorporées{#variable-processing-in-embedded-foreign-requests}
+# Traitement de variables dans des requêtes étrangères incorporées{#variable-processing-in-embedded-foreign-requests}
 
-Quelconque `$var$` les références qui se produisent n’importe où dans les accolades d’une requête étrangère incorporée sont remplacées par des valeurs de définition de variable correspondantes.
+Toutes les références `$var$` qui se produisent n’importe où dans les accolades d’une requête étrangère incorporée sont remplacées par des valeurs de définition de variable correspondantes.
 
 Permet de placer des requêtes étrangères incorporées dans un modèle dans un catalogue d’images.
 

@@ -8,7 +8,7 @@ exl-id: c03525e3-6bc4-4c6a-bb5b-b0cb2e6f6d0d
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -32,7 +32,7 @@ Syntaxe
 |---|---|---|---|
 | companyHandle | `xsd:string` | Oui | La poignée de la société. |
 | groupHandle | `xsd:string` | Oui | Le gestionnaire du groupe. |
-| userHandleArray | `types:HandleArray` | Oui | Tableau de gestionnaires destinés aux utilisateurs que vous souhaitez ajouter à un groupe. |
+| userHandleArray | `types:HandleArray` | Oui | Tableau de gestionnaires destinés aux utilisateurs à ajouter à un groupe. |
 
 **Sortie (addGroupMembersParam)**
 
@@ -42,7 +42,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 Cet exemple utilise addGroupMembersParam pour ajouter un utilisateur à une seule société. L’API IPS ne renvoie pas de réponse pour cette opération.
 
-**Request**
+**Requête**
 
 ```java {.line-numbers}
 <ns1:addGroupMembersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

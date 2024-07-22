@@ -2,13 +2,13 @@
 description: Drapeau du visage. Indique si le fichier de polices référencé par cet enregistrement de mappage de polices doit être utilisé lorsque la commande boldface RTF le demande (\b).
 solution: Experience Manager
 title: Gras
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3a39bb3b-e518-400e-8e24-0ebfb55777c4
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 8%
+source-wordcount: '67'
+ht-degree: 7%
 
 ---
 

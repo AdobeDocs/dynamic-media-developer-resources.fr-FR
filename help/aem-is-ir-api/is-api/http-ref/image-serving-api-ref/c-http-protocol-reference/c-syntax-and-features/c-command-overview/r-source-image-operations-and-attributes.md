@@ -1,28 +1,28 @@
 ---
 description: Ces commandes s’appliquent aux images source utilisées dans les demandes simples ou dans les calques d’image, ainsi qu’aux masques attachés aux calques de couleur unis.
 solution: Experience Manager
-title: Opérations d’image source
-feature: Dynamic Media Classic, SDK/API
+title: Opérations d’image Source
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2024e193-3c46-4c51-971d-c7d335657ac8
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 2%
+source-wordcount: '102'
+ht-degree: 0%
 
 ---
 
-# Opérations d’image source{#source-image-operations}
+# Opérations d’image Source{#source-image-operations}
 
 Ces commandes s’appliquent aux images source utilisées dans les demandes simples ou dans les calques d’image, ainsi qu’aux masques attachés aux calques de couleur unis.
 
 <table id="simpletable_86AF12F2BD0B4F8698A008F8A20BAEF0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c" type="reference" format="dita" scope="local"> ancrage</a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c" type="reference" format="dita" scope="local"> anchor</a> </p></td> 
   <td class="stentry"> <p>Définit le point d’ancrage de l’image source. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab" type="reference" format="dita" scope="local"> Recadrer</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-crop.md#reference-6fd0f6399966446ab4425ce050572eab" type="reference" format="dita" scope="local"> crop</a> </p></td> 
   <td class="stentry"> <p>Recadre ou étend l’image source. </p></td> 
  </tr> 
  <tr class="strow"> 

@@ -8,7 +8,7 @@ exl-id: 300bbee8-29f1-444d-bf98-42aeb9c5017b
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
 source-wordcount: '80'
-ht-degree: 5%
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ Indique l’alignement interne (ancrage) du conteneur d’échantillons dans la 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> left|center|right</span> </p> </td> 
-   <td colname="col2"> <p> Définit l’alignement des échantillons horizontaux. </p> </td> 
+   <td colname="col2"> <p> Définit l’alignement horizontal des échantillons. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> top|center|bottom</span> </p> </td> 

@@ -8,7 +8,7 @@ exl-id: f7d7ddd9-a3c3-47c4-8da6-d693851d0d7f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 14%
+ht-degree: 11%
 
 ---
 
@@ -23,7 +23,7 @@ Syntaxe
 Les types de ressources de miniatures autorisés sont les suivants :
 
 * Image
-* Vue modifiée
+* AdjustedView
 * Masque
 * Modèle
 * PsdTemplate
@@ -57,12 +57,12 @@ Les types de ressources de miniatures autorisés sont les suivants :
 | successCount | `xsd:int` | Oui | Nombre de miniatures correctement définies. |
 | warningCount | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de définir les miniatures. |
 | errorCount | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de définir les miniatures. |
-| warningDetailArray | `types:AssetOperationFaultArray` | Non | Tableau de détails associés aux ressources qui ont généré des avertissements lorsque l’opération a tenté d’appliquer les mises à jour. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des avertissements lorsque l’opération a tenté d’appliquer les mises à jour. |
 | errorDetailArray | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des erreurs lorsque l’opération a tenté d’appliquer les mises à jour. |
 
 ## Exemples {#section-6de69a8680c24c1486c5f01488393381}
 
-**Request**
+**Requête**
 
 ```java
 <batchSetThumbAssetParam xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">

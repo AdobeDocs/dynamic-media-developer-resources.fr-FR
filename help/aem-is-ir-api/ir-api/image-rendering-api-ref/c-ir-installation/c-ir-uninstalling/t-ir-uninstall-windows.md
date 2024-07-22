@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Suivez ces instructions pour désinstaller Image Rendering sur un système Windows.
 
-1. Lancez le programme de désinstallation en exécutant ` *[!DNL install_folder]*\_uninst\uninstaller.exe`ou, dans le menu Démarrer, sélectionnez **[!UICONTROL Programmes]** > **[!UICONTROL Scene7]** > **[!UICONTROL Rendu des images]** > **[!UICONTROL Désinstaller]**.
+1. Lancez le programme de désinstallation en exécutant ` *[!DNL install_folder]*\_uninst\uninstaller.exe` ou, dans le menu Démarrer, sélectionnez **[!UICONTROL Programmes]** > **[!UICONTROL Scene7]** > **[!UICONTROL Image Rendering]** > **[!UICONTROL Uninstall]**.

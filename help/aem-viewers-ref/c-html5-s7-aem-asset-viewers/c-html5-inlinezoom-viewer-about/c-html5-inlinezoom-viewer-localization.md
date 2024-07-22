@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 49795aa1-07c7-4f2e-bfd9-51d6581898ed
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Certains contenus affichés par la visionneuse volante peuvent faire l’objet d’une localisation. Ce contenu comprend des info-bulles d’éléments de l’interface utilisateur et des messages d’informations qui s’affichent par le zoom déroulant au chargement.
 
-Chaque contenu textuel de la visionneuse qui peut être localisé est représenté par l’identifiant spécial du SDK de la visionneuse appelé SYMBOL. Tout SYMBOL est associé par défaut à une valeur de texte pour un paramètre régional anglais ( `"en"`) fourni avec la visionneuse prête à l’emploi et peut également avoir des valeurs définies par l’utilisateur pour autant de paramètres régionaux que nécessaire.
+Chaque contenu textuel de la visionneuse qui peut être localisé est représenté par l’identifiant spécial du SDK de la visionneuse appelé SYMBOL. Tout SYMBOL est associé par défaut à une valeur de texte pour un paramètre régional anglais ( `"en"`) fournie avec la visionneuse prête à l’emploi et peut également avoir des valeurs définies par l’utilisateur pour autant de paramètres régionaux que nécessaire.
 
 Lorsque la visionneuse démarre, elle vérifie les paramètres régionaux actuels afin de déterminer s’il existe une valeur définie par l’utilisateur pour chaque SYMBOL pris en charge pour ces paramètres régionaux. Si tel est le cas, il utilise la valeur définie par l’utilisateur ; dans le cas contraire, il revient au texte par défaut d’usine.
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-Dans l’exemple ci-dessus, l’objet de localisation définit deux paramètres régionaux ( `"en"` et `"fr"`) et permet de localiser deux éléments de l’interface utilisateur dans chaque langue.
+Dans l’exemple ci-dessus, l’objet de localisation définit deux paramètres régionaux ( `"en"` et `"fr"`) et permet de localiser deux éléments de l’interface utilisateur dans chaque paramètre régional.
 
-Le code de page web doit transmettre cet objet de localisation au constructeur de la visionneuse, en tant que valeur de `localizedTexts` de l’objet de configuration. Une autre option consiste à transmettre l’objet de localisation en appelant la fonction `setLocalizedTexts(localizationInfo)` .
+Le code de page web doit transmettre cet objet de localisation au constructeur de la visionneuse, en tant que valeur du champ `localizedTexts` de l’objet de configuration. Une autre option consiste à transmettre l’objet de localisation en appelant la méthode `setLocalizedTexts(localizationInfo)`.
 
 Les SYMBOLES suivants sont pris en charge :
 

@@ -1,20 +1,20 @@
 ---
 title: Valeurs de couleur
-description: Les valeurs de couleur des attributs color= et bgc= peuvent être spécifiées à l’aide d’une liste de valeurs de composant décimales séparées par des virgules ou d’une notation hexadécimale, similaire au HTML.
+description: Les valeurs de couleur des attributs color= et bgc= peuvent être spécifiées à l’aide d’une liste de valeurs de composant décimales séparées par des virgules ou d’une notation hexadécimale, similaire à un HTML.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 608ff0f1-4fbd-4e32-af07-3a62569d14c7
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 13%
+source-wordcount: '117'
+ht-degree: 4%
 
 ---
 
 # Valeurs de couleur{#color-values}
 
-Valeurs de couleur pour `color=` et `bgc=` Les attributs peuvent être spécifiés à l’aide d’une liste de valeurs de composant séparées par des virgules ou d’une notation hexadécimale, similaire à un HTML.
+Les valeurs de couleur des attributs `color=` et `bgc=` peuvent être spécifiées à l’aide d’une liste de valeurs de composant décimales séparées par des virgules ou d’une notation hexadécimale, similaire à un HTML.
 
 <table id="simpletable_9B3A231D5BB14A3DB2B42B341E198341"> 
  <tr class="strow"> 
@@ -41,15 +41,15 @@ Voici quelques exemples de paramètres de couleurs valides et leur interprétati
 
 <table id="simpletable_837B3173020240A5B7B2DB2F4CC57352"> 
  <tr class="strow"> 
-  <td class="stentry"> <p>0 100 200 </p></td> 
-  <td class="stentry"> <p>(0,100,200) </p></td> 
+  <td class="stentry"> <p>0 100 200 </p></td> 
+  <td class="stentry"> <p>(0 100 200) </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>128 </p></td> 
   <td class="stentry"> <p>(128 128 128) </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>0x010203 </p></td> 
+  <td class="stentry"> <p>x010203 0 </p></td> 
   <td class="stentry"> <p>(1,2,3) </p></td> 
  </tr> 
  <tr class="strow"> 

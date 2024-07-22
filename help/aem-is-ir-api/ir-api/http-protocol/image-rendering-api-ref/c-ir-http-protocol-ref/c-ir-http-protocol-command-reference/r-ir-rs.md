@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 419baeb7-e06e-4753-a487-a1f407845f6d
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '114'
+ht-degree: 3%
 
 ---
 
@@ -37,7 +37,7 @@ Attribut de matière.
 
 ## Exemple {#section-47e4811882574441a4d517e42a35f352}
 
-Après une certaine expérience dans la création d’images, il est déterminé que le masquage flou (USM) fournit la bonne quantité d’accentuation pour l’application et le matériel donnés. La chaîne des paramètres de rendu qui configure USM est copiée dans la variable `rs=` à utiliser avec ce matériel :
+Après une certaine expérience dans la création d’images, il est déterminé que le masquage flou (USM) fournit la bonne quantité d’accentuation pour l’application et le matériel donnés. La chaîne des paramètres de rendu qui configure USM est copiée dans la commande `rs=` à utiliser avec ce matériel :
 
 `…&rs=U2V20W50X2&…`
 

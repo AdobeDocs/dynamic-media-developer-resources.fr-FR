@@ -8,7 +8,7 @@ exl-id: c042b87b-3f60-4608-8ed5-0fc031a66c03
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -33,7 +33,7 @@ Syntaxe
 
 ## Paramètres {#section-a793c98a481a4f26ab50bc69b16b57e7}
 
-**Input (deleteFolderParam)**
+**Entrée (deleteFolderParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -48,7 +48,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 Cet exemple de code supprime un dossier de la racine de l’entreprise. Elle nécessite un gestionnaire de dossier, que vous devez obtenir d’une autre opération.
 
-**Request**
+**Requête**
 
 ```java
 <ns1:deleteFolderParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 8a3d3d32-7970-420c-8ad8-296c9ba1f08a
 source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 6%
+source-wordcount: '67'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td> <p>Indique le comportement de préchargement du composant. </p> <p>Lorsqu’il est défini sur <span class="codeph"> -1</span>, le composant précharge toutes les images de carrousel en cas d’inactivité. </p> <p>Lorsqu’il est défini sur <span class="codeph"> 0</span>, le composant charge uniquement l’image actuellement visible, précédente et suivante. </p> <p><span class="codeph"><span class="varname"> </span></span>preloadnbrdéfinit le nombre d’images invisibles autour de l’image actuellement affichée qui sont préchargées lorsqu’elles sont en mode inactif. </p> </td> 
+   <td> <p>Indique le comportement de préchargement du composant. </p> <p>Lorsqu’il est défini sur <span class="codeph"> -1</span>, le composant précharge toutes les images de carrousel en cas d’inactivité. </p> <p>Lorsqu’il est défini sur <span class="codeph"> 0</span>, le composant charge uniquement l’image actuellement visible, précédente et suivante. </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> définit le nombre d’images invisibles autour de l’image actuellement affichée qui sont préchargées en cas d’inactivité. </p> </td> 
   </tr> 
  </tbody> 
 </table>

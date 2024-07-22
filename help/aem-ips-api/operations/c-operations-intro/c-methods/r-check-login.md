@@ -8,7 +8,7 @@ exl-id: 1f96f376-574c-464b-9c89-c215f6454b81
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -42,7 +42,7 @@ Vérifie si un utilisateur disposant d’une société spécifique (identifié p
 | e-mail | `xsd:string` | Oui | Adresse électronique de l’utilisateur. |
 | mot de passe | `xsd:string` | Oui | Mot de passe de l’utilisateur. |
 
-**Sortie (checkLoginParam)**
+**Output (checkLoginParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -50,9 +50,9 @@ Vérifie si un utilisateur disposant d’une société spécifique (identifié p
 
 ## Exemples {#section-23f90100a9d94bc7b4045634cccd1b98}
 
-Cet exemple de code utilise un paramètre de nom d’entreprise, une adresse électronique et un mot de passe pour déterminer si un utilisateur peut se connecter à IPS. Si l’utilisateur *can* se connecter, cette méthode renvoie la chaîne, `ValidLogin`. Si l’utilisateur *cannot* se connecter, cette méthode renvoie la chaîne, `InvalidLogin`.
+Cet exemple de code utilise un paramètre de nom d’entreprise, une adresse électronique et un mot de passe pour déterminer si un utilisateur peut se connecter à IPS. Si l’utilisateur *can* se connecte, cette méthode renvoie la chaîne `ValidLogin`. Si l’utilisateur *ne peut pas* se connecter, cette méthode renvoie la chaîne `InvalidLogin`.
 
-**Request**
+**Requête**
 
 ```java
 <ns1:checkLoginParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

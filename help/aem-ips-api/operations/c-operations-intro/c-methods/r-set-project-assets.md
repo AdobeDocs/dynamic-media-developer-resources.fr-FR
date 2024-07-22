@@ -8,7 +8,7 @@ exl-id: b6e6e9bd-5ee2-4750-9182-49e7a3e3486c
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '83'
-ht-degree: 20%
+ht-degree: 18%
 
 ---
 
@@ -47,7 +47,7 @@ Syntaxe
 
 Cet exemple de code affecte une ressource à un projet. La requête renvoie un nombre de succès d’un.
 
-**Request**
+**Requête**
 
 ```java
 <setProjectAssetsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

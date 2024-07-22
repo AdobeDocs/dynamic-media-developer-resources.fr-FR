@@ -8,7 +8,7 @@ exl-id: 53af8a97-208c-4c44-93d6-aa36a459af51
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 18%
+ht-degree: 16%
 
 ---
 
@@ -33,7 +33,7 @@ Syntaxe
 
 ## Paramètres {#section-8745c360c3e1400a88e9bdb26bcb93de}
 
-**Entrée (getCompanyMembershipParam)**
+**Input (getCompanyMembershipParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -49,7 +49,7 @@ Syntaxe
 
 Cet exemple de code prend un nom d’utilisateur et récupère tous les membres de l’entreprise de l’utilisateur dans un tableau . La réponse a été tronquée pour la concision.
 
-**Request**
+**Requête**
 
 ```java
 <ns1:getCompanyMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

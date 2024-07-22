@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: f07562a8-71e9-4d98-9d0c-5bb32a7e0ef1
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '1195'
-ht-degree: 2%
+source-wordcount: '1199'
+ht-degree: 0%
 
 ---
 
@@ -18,72 +18,72 @@ Décrit les modifications nouvelles et mises en oeuvre pour l’API IPS v4.0.
 
 Mise en oeuvre de versions d’API côte à côte avec des WSDL et des espaces de noms de schéma distincts.
 
-* Versions d’API précédentes : `IpsApi.wsdl, http://www.scene7.com/IpsApi/xsd`.
+* Versions API précédentes : `IpsApi.wsdl, http://www.scene7.com/IpsApi/xsd`.
 * Version SPS 4.0 : `IpsApi-2008-01-15.wsdl, http://www.scene7.com/IpsApi/xsd/2008-01-15`.
 
-Ajout `PostScriptOptions/alpha` champ .
+Ajout du champ `PostScriptOptions/alpha` .
 
-Ajout `VideoRootUrl` et `SwfRootUrl` propriétés pour `getProperty` opération.
+Ajout des propriétés `VideoRootUrl` et `SwfRootUrl` pour l’opération `getProperty`.
 
-Ajout du paramètre facultatif `appName` et `appVersion` params vers `authHeader` pour effectuer le suivi de l’appel de l’application. Ajout de la connexion à `ipsApiService.log`.
+Ajout des paramètres facultatifs `appName` et `appVersion` à `authHeader` pour effectuer le suivi de l’application d’appel. Ajout de la journalisation à `ipsApiService.log`.
 
-Ajout d’une `serviceUrl` paramètre du servlet de génération WSDL. Ce paramètre est utile pour le débogage des proxys. Par exemple: `http://<server>/scene7/webservice/IpsApi-2008-01-15.wsdl?serviceUrl=http://localhost:8081`
+Ajout d’un paramètre facultatif `serviceUrl` au servlet de génération WSDL. Ce paramètre est utile pour le débogage des proxys. Par exemple : `http://<server>/scene7/webservice/IpsApi-2008-01-15.wsdl?serviceUrl=http://localhost:8081`
 
-Implémenté `getZipEntries` opération.
+Mise en oeuvre de l’opération `getZipEntries`.
 
 Mise en oeuvre de plages de recherche et de valeurs de comparaison saisies pour les conditions de champ système.
 
-Ajout `'Asset'` Constante de chaîne de type de ressource, principalement pour autoriser les champs de métadonnées interressources.
+Ajout d’une constante de chaîne de type de ressource `'Asset'`, principalement pour autoriser les champs de métadonnées interressources.
 
-Implémenté `trashState` param pour `searchAssets`.
+Mise en oeuvre du paramètre `trashState` pour `searchAssets`.
 
-Implémenté `getAssetPublishHistory` opération.
+Mise en oeuvre de l’opération `getAssetPublishHistory`.
 
-Ajout du paramètre facultatif `faultHttpStatusCode` En-tête SOAP pour activer la gestion des erreurs dans Flex. Pour Flex, utilisez `<faultHttpStatusCode>200</faultHttpStatusCode>`. Le code d’état par défaut pour les réponses d’erreur est `500 (Internal Server Error)`.
+Ajout de l’en-tête facultatif `faultHttpStatusCode` SOAP pour activer la gestion des erreurs dans Flex. Pour Flex, utilisez `<faultHttpStatusCode>200</faultHttpStatusCode>`. Le code d’état par défaut pour les réponses d’erreur est `500 (Internal Server Error)`.
 
 Ajout d’opérations pour restaurer les ressources de la corbeille et les ressources vides de la corbeille.
 
 Mise en oeuvre des opérations CRUD.
 
-Ajout de l’indicateur activé à `ImageMap` type et `saveImageMap` opération.
+Ajout de l’indicateur enabled au type `ImageMap` et à l’opération `saveImageMap`.
 
 Ajout de la prise en charge des tâches Optimiser les fichiers restants.
 
-Ajout `setAssetsPublishState` pour les mises à jour de l’état de publication en bloc.
+Ajout de `setAssetsPublishState` pour les mises à jour de l’état de publication en masse.
 
-Ajout `ImageServingPublishSettings`, `getImageServingPublishSettings`, `setImageServingPublishSettings`.
+Ajout de `ImageServingPublishSettings`, `getImageServingPublishSettings`, `setImageServingPublishSettings`.
 
-Obsolète `saveMetadataField` opération en faveur d&#39;une nouvelle `createMetadataField` et `updateMetadataField` opérations.
+Opération `saveMetadataField` obsolète en faveur des nouvelles opérations `createMetadataField` et `updateMetadataField`.
 
-Implémenté `deleteAssetsParam` opération de suppression par lots.
+Mise en oeuvre de l’opération de suppression par lots `deleteAssetsParam`.
 
-Implémenté `moveAssetsParam` opération de déplacement par lots.
+Mise en oeuvre de l’opération de déplacement par lots `moveAssetsParam`.
 
-Implémenté `deleteMetadataField` opération.
+Mise en oeuvre de l’opération `deleteMetadataField`.
 
-Implémenté `get/setImageRenderingPublishSettings`, `get/set/create/updateVignettePublishFormat` opérations.
+Mise en oeuvre des opérations `get/setImageRenderingPublishSettings`, `get/set/create/updateVignettePublishFormat`.
 
-Implémenté `getAssetCounts`.
+Mise en oeuvre de `getAssetCounts`.
 
-Ajout de la prise en charge de `setImageSetMembers` pour inclure `RenderSet` membres dans `ImageSet` ressources.
+Ajout de la prise en charge de `setImageSetMembers` pour l’inclusion de membres `RenderSet` dans les ressources `ImageSet`.
 
-Ajout `replaceImage` opération.
+Ajout de l’opération `replaceImage`.
 
-Ajout `copyImage` opération.
+Ajout de l’opération `copyImage`.
 
-Ajout `setUrlModifier` operation et `urlModifier/urlPostApplyModifier` champs pour `LayerViewInfo`, `TemplateInfo`, et `WatermarkInfo`.
+Ajout de `setUrlModifier` champs operation et `urlModifier/urlPostApplyModifier` pour `LayerViewInfo`, `TemplateInfo` et `WatermarkInfo`.
 
-Ajout `createDerivedAsset` opération. Actuellement, la variable `ownerHandle` doit référencer une ressource Image et le type peut être `AdjustedView` ou `LayerView`.
+Ajout de l’opération `createDerivedAsset`. Actuellement, `ownerHandle` doit référencer une ressource Image et le type peut être `AdjustedView` ou `LayerView`.
 
-Ajout `createTemplate` opération. Appelez pour créer des ressources de modèle ou de filigrane.
+Ajout de l’opération `createTemplate`. Appelez pour créer des ressources de modèle ou de filigrane.
 
-Paramètres de la société IPS, `CompanySettings`, porté à l’API des services Web.
+Paramètres de la société IPS, `CompanySettings`, portés à l’API de services Web.
 
-Ajout `excludeByproducts` Indicateur de filtre sur `searchAssets` opération. La définition de cet indicateur sur true s’exécute `PSDlayer` images et images arrachées par le PDF.
+Ajout de l’indicateur de filtre `excludeByproducts` à l’opération `searchAssets`. La définition de cet indicateur sur true exécute `PSDlayer` images et images arrachées par le PDF.
 
-Ajout `getGenerationInfo` opération.
+Ajout de l’opération `getGenerationInfo`.
 
-Ajout `SystemMessage` nom de la propriété à `getProperty` opération.
+Ajout du nom de propriété `SystemMessage` à l’opération `getProperty`.
 
 Modification de certaines constantes de chaîne de type de ressource pour qu’elles correspondent aux champs Asset Info correspondants.
 
@@ -94,15 +94,15 @@ Modification de certaines constantes de chaîne de type de ressource pour qu’e
 
 Format de résultat modifié des opérations par lots pour résumer les succès, les avertissements et les erreurs.
 
-Implémenté `batchSetAssetMetadata` opération de métadonnées de lot.
+Mise en oeuvre de l’opération de métadonnées de lot `batchSetAssetMetadata`.
 
 Mise en oeuvre de la prise en charge des données spécifiques à l’application.
 
-Mise en oeuvre de la prise en charge des indicateurs booléens pour `createTemplate`, `extendLayers`, et `extractText` pour les tâches de chargement afin de contrôler le processus de traitement Photoshop (comme les modifications pour les chargements de fichiers supplémentaires).
+Mise en oeuvre de la prise en charge des indicateurs booléens pour `createTemplate`, `extendLayers` et `extractText` pour les tâches de transfert afin de contrôler le processus de traitement Photoshop (similaire aux modifications pour l’ajout de chargements de fichiers).
 
-Implémenté `setImageMaps` et `setZoomTargets` opérations.
+Mise en oeuvre des opérations `setImageMaps` et `setZoomTargets`.
 
-Implémenté `ViewerPreset` opérations. Les types reconnus sont les suivants :
+Mise en oeuvre des opérations `ViewerPreset`. Les types reconnus sont les suivants :
 
 * `VideoPlayer` (La vidéo publie uniquement ces visionneuses.)
 * `Brochure`
@@ -111,15 +111,15 @@ Implémenté `ViewerPreset` opérations. Les types reconnus sont les suivants :
 * `Spin`
 * `Custom types`
 
-Les habillages de visionneuse prennent en charge deux paramètres : `skinFg` et `skinBg`. Le code principal effectue tout le traitement nécessaire pour maintenir la compatibilité ascendante.
+Les habillages des visionneuses prennent en charge deux paramètres : `skinFg` et `skinBg`. Le code principal effectue tout le traitement nécessaire pour maintenir la compatibilité ascendante.
 
-Implémenté `getAssociatedAssets` opération.
+Mise en oeuvre de l’opération `getAssociatedAssets`.
 
-Ajout `ReprocessAssets` type de tâche pour permettre le retraitement des fichiers source Principaux précédemment téléchargés, y compris la réactualisation des PDF et la réoptimisation des images.
+Ajout du type de tâche `ReprocessAssets` pour permettre le retraitement des fichiers sources originales précédemment téléchargés, y compris la réactualisation des PDF et la réoptimisation des images.
 
-Renommé `PropertySetType` type de champ à `propertyType`. Ce changement de nom affecte le `createPropertySetType` et `getPropertySetType/getPropertySetTypes` réponse.
+Type de champ `PropertySetType` renommé `propertyType`. Ce changement de nom affecte le paramètre `createPropertySetType` et la réponse `getPropertySetType/getPropertySetTypes`.
 
-Implémenté `batchSetImageFields` pour prendre en charge la définition des données utilisateur de l’image et d’autres champs d’image modifiables.
+Mise en oeuvre de l’opération `batchSetImageFields` pour prendre en charge la définition des données utilisateur de l’image et d’autres champs d’image modifiables.
 
 47 Ajout du champ fileSize à divers types d’informations sur les ressources :
 
@@ -150,53 +150,53 @@ Implémenté `batchSetImageFields` pour prendre en charge la définition des don
 * `PowerPointInfo`
 * `RTFInfo`
 
-Implémenté `getActivePublishContexts` opération. Cette opération renvoie un tableau de noms de contexte de publication avec des serveurs de publication principaux pour la société spécifiée. Les noms de contexte de publication actuels sont les suivants :
+Mise en oeuvre de l’opération `getActivePublishContexts`. Cette opération renvoie un tableau de noms de contexte de publication avec des serveurs de publication actifs pour la société spécifiée. Les noms de contexte de publication actuels sont :
 
 * `ImageServing`
 * `ImageRendering`
 * `Video`
 
-Implémenté `getSearchStrings` opération. Elle renvoie un tableau de chaînes de recherche pour la ressource donnée.
+Mise en oeuvre de l’opération `getSearchStrings`. Elle renvoie un tableau de chaînes de recherche pour la ressource donnée.
 
-Ajout de paramètres régionaux pour les tâches et d’un mécanisme pour définir les paramètres régionaux des opérations de l’API. La chaîne locale doit être formatée en tant que `<language_code>[-<country_code>]`. Le code de langue est un code à deux lettres minuscules, comme spécifié par la norme ISO-639, et le code de pays facultatif est un code à deux lettres majuscules, comme spécifié par la norme ISO-3166.
+Ajout de paramètres régionaux pour les tâches et d’un mécanisme pour définir les paramètres régionaux des opérations de l’API. La chaîne locale doit être formatée sous la forme `<language_code>[-<country_code>]`. Le code de langue est un code à deux lettres minuscules, comme spécifié par la norme ISO-639, et le code de pays facultatif est un code à deux lettres majuscules, comme spécifié par la norme ISO-3166.
 
-Ajout du paramètre régional facultatif à la variable `authHeader` En-tête SOAP pour définir les paramètres régionaux des opérations API. Si ce paramètre n’est pas présent, l’en-tête HTTP `Accept-Language` est utilisée. Si cet en-tête n’est pas non plus présent, le paramètre régional par défaut du serveur IPS est utilisé.
+Ajout du paramètre régional facultatif à l’en-tête de SOAP `authHeader` pour définir les paramètres régionaux des opérations API. Si ce paramètre n’est pas présent, l’en-tête HTTP `Accept-Language` est utilisé. Si cet en-tête n’est pas non plus présent, le paramètre régional par défaut du serveur IPS est utilisé.
 
 Ajout de la prise en charge de la fonction get/set pour les champs de métadonnées fortement tapés.
 
 Mise en oeuvre de la prise en charge des en-têtes SOAP et HTTP pour le contrôle de réponse gzip.
 
-Ajout `gzipResponse` indicateur pour `authHeader`. S’il n’est pas présent, l’API vérifie le HTTP `Accept-Encoding` en-tête .
+Ajout de l’indicateur `gzipResponse` à `authHeader`. S’il n’est pas présent, l’API vérifie l’en-tête HTTP `Accept-Encoding`.
 
 Ajout de la prise en charge des conditions de champ de métadonnées de recherche de ressources fortement typées.
 
 * Pour tous les types de champ, la valeur peut être transmise avec un opérateur de comparaison de chaînes ( `Equals, NotEquals, Contains, NotContains, StartsWith, EndsWith`)
-* Pour les champs booléens, `boolVal` peut être transmis avec la variable `Equals` op.
-* Pour les champs Int, `longVal` peut être transmis avec un opérateur de comparaison numérique ( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`) ou `minLong/maxLong` peut être transmis avec des opérations de plage numérique ( `Between, NotBetween`).
-* Pour les champs flottants, `doubleVal` peut être transmis avec un opérateur de comparaison numérique ( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`) ou `minDouble/maxDouble` peut être transmis avec des opérations de plage numérique ( `Between, NotBetween`).
-* Pour les champs Date, vous pouvez transmettre `dateVal` avec un opérateur de comparaison numérique ( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`) ou vous pouvez transmettre minDate/maxDate avec des opérations de plage numérique ( `Between, NotBetween`).
+* Pour les champs booléens, `boolVal` peut être transmis avec l’opération `Equals`.
+* Pour les champs Int, `longVal` peut être transmis avec un opérateur de comparaison numérique ( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`) ou `minLong/maxLong` peut l’être avec des opérations de plage numérique ( `Between, NotBetween`).
+* Pour les champs flottants, `doubleVal` peut être transmis avec un opérateur de comparaison numérique ( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`) ou `minDouble/maxDouble` peut l’être avec des opérations de plage numérique ( `Between, NotBetween`).
+* Pour les champs Date, vous pouvez transmettre `dateVal` avec un opérateur de comparaison numérique ( `Equals, NotEquals, LessThan, LessThanEquals, GreaterThan, GreaterThanEquals`) ou vous pouvez transmettre minDate/maxDate avec une plage numérique ( `Between, NotBetween`).
 
-Ajout d’une description, `jobSubType`, et `originalJobName` champs à `JobLog` type.
+Ajout des champs description, `jobSubType` et `originalJobName` au type `JobLog`.
 
-* `originalJobName` est le nom de la tâche envoyé à `submitJob` (sans suffixes d’unicité ni noms de tâches consécutifs).
-* `jobSubType` est utilisé uniquement par `ImageServingPublishJob` tâches (où il s’agit de l’une des tâches `full`, `increment, fullwithsearch,` ou `fulloverride`).
-* `description` est une chaîne vide pour tous les types de tâche, mais contient éventuellement des informations de tâche récapitulatives, telles que le chemin de chargement.
+* `originalJobName` est le nom de la tâche envoyée à `submitJob` (sans suffixes d’unicité ni noms de tâche consécutifs).
+* `jobSubType` est utilisé uniquement par les `ImageServingPublishJob` tâches (où il s’agit de l’une des `full`, `increment, fullwithsearch,` ou `fulloverride`).
+* `description` est une chaîne vide pour tous les types de tâche, mais elle contient éventuellement des informations de tâche récapitulatives, telles que le chemin de chargement.
 
-En outre, les champs suivants ne sont pas inclus avec les deux `getJobLogs` et `getJobLogDetails`. Dans les versions précédentes, elles n’étaient disponibles qu’avec `getJobLogDetails`.
+En outre, les champs suivants ne sont pas inclus avec `getJobLogs` et `getJobLogDetails`. Dans les versions précédentes, elles n’étaient disponibles qu’avec `getJobLogDetails`.
 
 * `endDate` (si la tâche est terminée).
-* `fileDuplicateCount` (auparavant, il était toujours `0` avec `getJobLogs`)
-* `fileUpdateCount` (auparavant, `0` avec `getJobLogs` et inclus dans `fileSuccessCount`; il est maintenant divisé en champs distincts).
+* `fileDuplicateCount` (auparavant, il s’agissait toujours de `0` avec `getJobLogs`)
+* `fileUpdateCount` (auparavant toujours `0` avec `getJobLogs` et inclus dans `fileSuccessCount` ; il est désormais divisé en champs distincts).
 
-Ajout du champ assetHandle à `JobLogDetail` type.
+Ajout du champ assetHandle au type `JobLogDetail`.
 
-Ajout du paramètre de description facultatif à `submitJob`. Ce paramètre est transmis pour récupération dans `getScheduledJobs`, `getActiveJobs`, et `getJobLogs`.
+Ajout du paramètre de description facultatif à `submitJob`. Ce paramètre est transmis pour récupération dans `getScheduledJobs`, `getActiveJobs` et `getJobLogs`.
 
-Le champ du système de SKU a été obsolète. Le champ est ignoré s’il est transmis en tant que `SystemFieldCondition` to `searchAssets`.
+Le champ du système de SKU a été obsolète. Le champ est ignoré s’il est transmis en tant que `SystemFieldCondition` à `searchAssets`.
 
-Ajout `excludeAssetTypeArray` filtrer sur `searchAssets`.
+Ajout du filtre `excludeAssetTypeArray` à `searchAssets`.
 
-Ajout `MaskInfo` saisir `Asset`.
+Ajout du type `MaskInfo` à `Asset`.
 
 Ajout de nouveaux types de ressources pour la gestion par IPS :
 
@@ -213,7 +213,7 @@ Ajout de nouveaux types de ressources pour la gestion par IPS :
    <td colname="col2"> <p>Fichier Adobe Illustrator. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Postscript </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> PostScript </span> </p> </td> 
    <td colname="col2"> <p>Fichiers EPS et PostScript. </p> </td> 
   </tr> 
   <tr> 
@@ -229,13 +229,13 @@ Ajout de nouveaux types de ressources pour la gestion par IPS :
    <td colname="col2"> <p>Document Microsoft® PowerPoint pour les fichiers se terminant par .ppt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> RTFDoc </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> RTFoc </span> </p> </td> 
    <td colname="col2"> <p>Fichier RTF pour les fichiers chargés se terminant par .rtf. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Ajout d’options supplémentaires à `UploadDirectoryJob` et `UploadUrlsJob` pour contrôler indépendamment le traitement des fichiers Postscript, Illustrator et PDF. Toutes les tâches existantes fournissent les paramètres nécessaires à chacun des trois pipelines de traitement afin qu’ils fonctionnent exactement comme aujourd’hui. L&#39;original `PostScriptOptions` block est utilisé pour définir le traitement des fichiers Illustrator et EPS/PS. Vous pouvez éventuellement fournir des blocs d’options de fichier spécifiques pour spécifier le traitement. La liste des modifications comprend :
+Ajout d’options supplémentaires à `UploadDirectoryJob` et `UploadUrlsJob` pour contrôler le traitement indépendant des fichiers Postscript, Illustrator et PDF. Toutes les tâches existantes fournissent les paramètres nécessaires à chacun des trois pipelines de traitement afin qu’ils fonctionnent exactement comme aujourd’hui. Le bloc `PostScriptOptions` d&#39;origine est utilisé pour définir le traitement des fichiers Illustrator et EPS/PS. Vous pouvez éventuellement fournir des blocs d’options de fichier spécifiques pour spécifier le traitement. La liste des modifications comprend :
 
 <table id="table_D4E5ACCB2D144D05A5FA0129AA5F9344"> 
  <thead> 
@@ -253,7 +253,7 @@ Ajout d’options supplémentaires à `UploadDirectoryJob` et `UploadUrlsJob` po
    <td colname="col3"> <p> 
      <ul id="ul_6BBFF026010F4913BD632B3312E17C4B"> 
       <li id="li_AA1131A68FB242C9A1380DE6F8F318C7"> <p> <span class="codeph"> Aucun </span> </p> </li> 
-      <li id="li_141F4C3FC9D34C9AABECA91394A82969"> <p> <span class="codeph"> Pixelliser </span>(par défaut) </p> </li> 
+      <li id="li_141F4C3FC9D34C9AABECA91394A82969"> <p> <span class="codeph"> Pixelliser </span> (par défaut) </p> </li> 
      </ul> </p> </td> 
    <td colname="col4"> <p> 
      <ul id="ul_14D0A696DF4E408DA50E102057EB7AC7"> 
@@ -268,7 +268,7 @@ Ajout d’options supplémentaires à `UploadDirectoryJob` et `UploadUrlsJob` po
   </tr> 
   <tr> 
    <td colname="col1" morerows="3"> <p> <span class="codeph"> [!DNL IllustratorOptions] </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> processus </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> process </span> </p> </td> 
    <td colname="col3"> <p> 
      <ul id="ul_C2F1000A01DE41678A8E1DDE0C8A0E97"> 
       <li id="li_53749049B383441A81CB427A5B5F26A8"> <span class="codeph"> Aucun </span> </li> 
@@ -282,7 +282,7 @@ Ajout d’options supplémentaires à `UploadDirectoryJob` et `UploadUrlsJob` po
   </tr> 
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> [!DNL resolution] </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;entier&gt; </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;integer&gt; </span> </p> </td> 
    <td colname="col4"> <p>Rasterisation de la résolution. </p> </td> 
   </tr> 
   <tr> 
@@ -297,7 +297,7 @@ Ajout d’options supplémentaires à `UploadDirectoryJob` et `UploadUrlsJob` po
   </tr> 
   <tr> 
    <td colname="col1" morerows="4"> <p> <span class="codeph"> PDFOptions </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> processus </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> process </span> </p> </td> 
    <td colname="col3"> <p> 
      <ul id="ul_EF9C27EE7A154DA890CB9E6BA174D767"> 
       <li id="li_0BB0FC1BA43043EEA1EA257E5D603978"> <p> <span class="codeph"> Aucun </span> </p> </li> 
@@ -311,7 +311,7 @@ Ajout d’options supplémentaires à `UploadDirectoryJob` et `UploadUrlsJob` po
   </tr> 
   <tr> 
    <td colname="col2"> <p> <span class="codeph"> [!DNL resolution] </span> </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> &lt;entier&gt; </span> </p> </td> 
+   <td colname="col3"> <p> <span class="codeph"> &lt;integer&gt; </span> </p> </td> 
    <td colname="col4"> <p>Rasterisation de la résolution. </p> </td> 
   </tr> 
   <tr> 
@@ -334,7 +334,7 @@ Ajout d’options supplémentaires à `UploadDirectoryJob` et `UploadUrlsJob` po
 
 Vous pouvez également effectuer des requêtes à partir de `getScheduledJobs`.
 
-Modification de la variable `webservice.gzip.response` pour utiliser l’une des valeurs suivantes :
+Modification de la propriété de configuration `webservice.gzip.response` pour prendre l’une des valeurs suivantes :
 
 <table id="table_FCBBF1643DC84F5CBF81DCA6B552E0C4"> 
  <thead> 

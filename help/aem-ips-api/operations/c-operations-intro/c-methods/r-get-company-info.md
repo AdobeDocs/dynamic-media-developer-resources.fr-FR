@@ -2,13 +2,13 @@
 description: Renvoie des informations sur la société spécifiée, y compris le nom d’entreprise, le chemin d’accès racine et la date d’expiration. Vous devez spécifier companyHandle ou companyName dont vous souhaitez récupérer les informations.
 solution: Experience Manager
 title: getCompanyInfo
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 72bd223b-c99a-48a3-9c0a-d1af392d904c
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 10%
+source-wordcount: '168'
+ht-degree: 7%
 
 ---
 
@@ -72,7 +72,7 @@ Syntaxe
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:Société</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types : Company</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
    <td colname="col4"> <p>Gérer et d’autres informations descriptives sur l’entreprise. </p> </td> 
   </tr> 
@@ -83,7 +83,7 @@ Syntaxe
 
 Cet exemple de code renvoie toutes les informations sur une société à l’aide d’un nom et d’un nom d’entreprise. Elle renvoie des données similaires à la réponse reçue lors de la création d’une société.
 
-**Request**
+**Requête**
 
 ```java
 <ns1:getCompanyInfoParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

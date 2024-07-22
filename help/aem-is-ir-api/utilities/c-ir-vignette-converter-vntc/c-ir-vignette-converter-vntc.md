@@ -2,12 +2,12 @@
 description: Convertisseur de vignettes (vntc)
 solution: Experience Manager
 title: Convertisseur de vignettes (vntc)
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: dfcd031b-cbaa-4377-af9e-569c1017d592
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '31'
+source-wordcount: '26'
 ht-degree: 3%
 
 ---

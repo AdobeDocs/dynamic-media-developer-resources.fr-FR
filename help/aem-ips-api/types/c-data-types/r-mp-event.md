@@ -8,7 +8,7 @@ exl-id: 642c82d1-aea1-4430-a599-b526fdbc8091
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 14%
+ht-degree: 3%
 
 ---
 
@@ -34,11 +34,11 @@ Syntaxe
 | string3 | `xsd:string` | Dossier pour les informations sur les chaînes (facultatif). |
 | string4 | `xsd:string` | Dossier pour les informations sur les chaînes (facultatif). |
 | string5 | `xsd:string` | Dossier pour les informations sur les chaînes (facultatif). |
-| int1 | `xsd:int` | Holder pour les informations sur les entiers (facultatif). |
-| int2 | `xsd:int` | Holder pour les informations sur les entiers (facultatif). |
-| int3 | `xsd:int` | Holder pour les informations sur les entiers (facultatif). |
-| int4 | `xsd:int` | Holder pour les informations sur les entiers (facultatif). |
-| int5 | `xsd:int` | Holder pour les informations sur les entiers (facultatif). |
+| int1 | `xsd:int` | Holder pour les informations entières (facultatif). |
+| int2 | `xsd:int` | Holder pour les informations entières (facultatif). |
+| int3 | `xsd:int` | Holder pour les informations entières (facultatif). |
+| int4 | `xsd:int` | Holder pour les informations entières (facultatif). |
+| int5 | `xsd:int` | Holder pour les informations entières (facultatif). |
 | float1 | `xsd:double` | Dossier d’informations flottantes (facultatif). |
 | float2 | `xsd:double` | Dossier d’informations flottantes (facultatif). |
 | float3 | `xsd:double` | Dossier d’informations flottantes (facultatif). |

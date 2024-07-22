@@ -1,5 +1,5 @@
 ---
-description: Tableau de poignées.
+description: Un tableau de poignées.
 solution: Experience Manager
 title: HandleArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # [!DNL HandleArray]{#handlearray}
 
-Tableau de poignées.
+Un tableau de poignées.
 
 >[!NOTE]
 >
@@ -24,4 +24,4 @@ Tableau de poignées.
 
 | Nom | Type | Description |
 |---|---|---|
-| éléments | `xsd:string` | Tableau de poignées. |
+| éléments | `xsd:string` | Un tableau de poignées. |

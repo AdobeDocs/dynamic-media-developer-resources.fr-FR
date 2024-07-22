@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 6647b459-11d2-47e4-9033-3a740f01a623
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 2%
+source-wordcount: '169'
+ht-degree: 1%
 
 ---
 
@@ -34,7 +34,7 @@ Pour un contrôle maximal de l’apparence du groupe, les exigences suivantes s�
 * La mosaïque doit être carrée ou rectangulaire ; aucune autre forme n’est actuellement prise en charge.
 * L’image ne doit contenir qu’une seule mosaïque.
 * Le motif par défaut de l’image (le cas échéant) doit avoir la même épaisseur sur les quatre bords.
-* L&#39;épaisseur du grain par défaut doit être spécifiée dans le catalogue de matières ( `catalog::GroutWidth`).
+* L&#39;épaisseur du sol par défaut doit être spécifiée dans le catalogue de matériaux ( `catalog::GroutWidth`).
 
 ## Propriétés {#section-de78b678245b4ffda48097c345949e77}
 
@@ -44,7 +44,7 @@ Ignoré si repeat = 4, 5, 7, 8, 9, 14 ou supérieur, ou lorsqu’il est spécifi
 
 ## Par défaut {#section-bfab3621f70b4489a21994ab11b20cc6}
 
-If `grout=` n’est pas spécifié, le groupe dans l’image n’est pas modifié. If `grout= *`color`*` est spécifié, `*`width`*` par défaut : `catalog::GroutWidth`.
+Si `grout=` n’est pas spécifié, le grain de l’image n’est pas modifié. Si `grout= *`color`*` est spécifié, `*`width`*` est défini par défaut sur `catalog::GroutWidth`.
 
 ## Voir aussi {#section-8d472906a44943f5a8557e98f2fbc71f}
 

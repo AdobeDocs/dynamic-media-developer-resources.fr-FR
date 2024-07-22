@@ -8,7 +8,7 @@ exl-id: 8ea6dbb8-4d32-43e5-961f-31110f983663
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
@@ -29,7 +29,7 @@ Syntaxe
 
 ## Paramètres {#section-4969815cf67c4d11b13bb2017b3604e8}
 
-**Entrée (batchSetImageFields)**
+**Input (batchSetImageFields)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -40,17 +40,17 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| successCount | `xsd:int` | Oui | Nombre de champs d’image correctement définis. |
+| successCount | `xsd:int` | Oui | Nombre de champs d’image définis avec succès. |
 | warningCount | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de définir les champs de l’image. |
 | errorCount | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de définir les champs de l’image. |
-| warningDetailArray | `types:AssetOperationFaultArray` | Non | Tableau de détails associés aux ressources qui ont généré des avertissements lorsque l’opération a tenté d’appliquer les mises à jour. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des avertissements lorsque l’opération a tenté d’appliquer les mises à jour. |
 | errorDetailArray | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des erreurs lorsque l’opération a tenté d’appliquer les mises à jour. |
 
 ## Exemples {#section-0476e3d6516a4f8bbaac9de983bc6d1e}
 
 Cet exemple définit les données dans les champs de deux images dans un tableau de mise à jour. Dans le tableau , les images sont spécifiées par leurs gestionnaires de ressources et contiennent une résolution en pixels, les coordonnées d’ancrage x et y, ainsi que les données utilisateur. La réponse indique que les champs des deux images ont été définis avec succès.
 
-**Request**
+**Requête**
 
 ```java
 <batchSetImageFieldsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

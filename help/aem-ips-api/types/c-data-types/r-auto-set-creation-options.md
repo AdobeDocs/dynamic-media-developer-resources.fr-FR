@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| autoSetsArray | `types:HandleArray` | Tableau de [!DNL PropertySet] gère la définition des scripts de génération d’ensemble automatique appliqués lors du téléchargement. |
+| autoSetsArray | `types:HandleArray` | Matrice de [!DNL PropertySet] gère la définition des scripts de génération d’ensemble automatique appliqués lors du chargement. |

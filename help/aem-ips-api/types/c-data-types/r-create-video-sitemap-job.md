@@ -8,7 +8,7 @@ exl-id: 2af7c949-46cf-4570-9043-1b6296a2e467
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 14%
+ht-degree: 10%
 
 ---
 
@@ -32,7 +32,7 @@ Syntaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Génère la carte du site lorsqu’elle est définie sur <span class="codeph"> true</span>. <p><p>Remarque : si la configuration de génération du plan de site est définie sur manuelle et <span class="codeph"> forceUpdate</span> n’est pas définie, la carte du site n’est pas générée. </p></p></td> 
+   <td colname="col3">Génère la carte du site lorsqu’elle est définie sur <span class="codeph"> true</span>. <p><p>Remarque : Si la configuration de génération du plan de site est définie sur manuelle et que <span class="codeph"> forceUpdate</span> n’est pas défini, la carte du site n’est pas générée. </p></p></td> 
   </tr> 
  </tbody> 
 </table>

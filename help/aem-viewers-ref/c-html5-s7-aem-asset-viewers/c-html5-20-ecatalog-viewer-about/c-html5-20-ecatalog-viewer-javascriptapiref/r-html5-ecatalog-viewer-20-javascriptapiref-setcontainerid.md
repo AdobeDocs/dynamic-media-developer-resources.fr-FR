@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 32e75d36-cc9a-42df-95e8-5b48456296e9
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '84'
+ht-degree: 2%
 
 ---
 
@@ -18,9 +18,9 @@ Référence de l’API JavaScript pour la visionneuse de catalogue électronique
 
 ` setContainerId( *`containerId`*)`
 
-Définit l’identifiant de la variable `DOM` conteneur (généralement `DIV`) dans laquelle la visionneuse est insérée. Il n’est pas nécessaire de créer l’élément de conteneur au moment de l’appel de cette méthode. Cependant, le conteneur doit exister lorsque `init()` est exécuté. Elle doit être appelée avant `init()`.
+Définit l’identifiant du conteneur `DOM` (normalement un `DIV`) dans lequel la visionneuse est insérée. Il n’est pas nécessaire de créer l’élément de conteneur au moment de l’appel de cette méthode. Cependant, le conteneur doit exister lorsque `init()` est exécuté. Elle doit être appelée avant `init()`.
 
-Cette méthode est facultative si les informations de configuration de la visionneuse sont transmises avec `config` Objet JSON au constructeur.
+Cette méthode est facultative si les informations de configuration de la visionneuse sont transmises avec l’objet JSON `config` au constructeur.
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 

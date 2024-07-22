@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 0216f22e-a3b3-4dda-89c2-9c6c2c81cab3
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '142'
 ht-degree: 1%
 
 ---
@@ -37,6 +37,6 @@ Couche, commande. S’applique au calque actif ou à l’image composite si `lay
 
 Réduisez le contraste et la netteté d’un calque d’image de qualité supérieure pour l’associer visuellement à une photo d’arrière-plan de qualité inférieure :
 
-… `&op_blur=3&op_contrast=-12&`
+... `&op_blur=3&op_contrast=-12&`
 
 Une version ultérieure peut utiliser la luminosité médiane de l’image plutôt qu’une luminosité fixe de 50 %.

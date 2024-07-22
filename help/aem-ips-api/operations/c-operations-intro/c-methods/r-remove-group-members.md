@@ -8,7 +8,7 @@ exl-id: 8a9b7d54-d11b-41a8-9783-573a316e0ac6
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 10%
+ht-degree: 8%
 
 ---
 
@@ -18,8 +18,8 @@ Supprime les utilisateurs de l’entreprise d’un groupe spécifique.
 
 **Différences entre les commandes de suppression**
 
-* `removeGroupMembers`: Supprime plusieurs utilisateurs d’un groupe.
-* `removeGroupMembership`: Supprime un utilisateur individuel d’un tableau de groupes.
+* `removeGroupMembers` : supprime plusieurs utilisateurs d’un groupe.
+* `removeGroupMembership` : supprime un utilisateur individuel d’un tableau de groupes.
 
 ## Types d’utilisateurs autorisés {#section-2c64cdac15184fbba6c7b2945b5d87f7}
 
@@ -45,7 +45,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 Cet exemple de code supprime un utilisateur de la société spécifiée. Supprimez plusieurs utilisateurs d’un groupe avec le tableau de gestion des utilisateurs.
 
-**Request**
+**Requête**
 
 ```java
 <ns1:removeGroupMembersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

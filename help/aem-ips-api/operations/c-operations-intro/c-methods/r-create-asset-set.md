@@ -8,7 +8,7 @@ exl-id: 4565eb4f-eeb7-4b98-bfef-1a59e9a931af
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '302'
-ht-degree: 10%
+ht-degree: 5%
 
 ---
 
@@ -86,7 +86,7 @@ Vous pouvez spécifier des fonctions de substitution en ligne qui sont résolues
 
 >[!NOTE]
 >
->Les littéraux de poignée dans les listes de paramètres doivent être entourés de crochets. `([])`. Tout le texte situé en dehors d’une chaîne de substitution est copié dans la chaîne de sortie lors de la résolution.
+>Les littéraux de gestion dans les listes de paramètres doivent être entourés de crochets `([])`. Tout le texte situé en dehors d’une chaîne de substitution est copié dans la chaîne de sortie lors de la résolution.
 
 | **Fonction de substitution** | **Renvoie** |
 |---|---|
@@ -95,7 +95,7 @@ Vous pouvez spécifier des fonctions de substitution en ligne qui sont résolues
 | `getMetaData([<asset_handle>], [<metadata_field_handle>])` | Valeurs des métadonnées de la ressource. |
 | `getThumbCatalogId([<asset_handle>])` | ID de catalogue de la ressource (pour les ressources basées sur une image uniquement). ID de catalogue de la ressource de miniature associée (pour les autres ressources). Si aucune ressource de miniature associée n’est disponible, la fonction renvoie une chaîne vide. |
 
-**Exemple de chaîne setDefinition pour un média**
+**Exemple de chaîne de définition de visionneuse de médias**
 
 ```java
 ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])};1,${getFilePath([a|103 
@@ -108,7 +108,7 @@ Lors de la recherche de catalogue ou de l’heure de publication, ce processus e
 jcompany/myRenderSet;jcompany/myRenderSet;1,jcompany/Videos/Somebodys_N08275_flv.flv;jcomp any/myimg-1;2;20090703 10:05:53
 ```
 
-**Sortie (createAssetSet)**
+**Output (createAssetSet)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -116,7 +116,7 @@ jcompany/myRenderSet;jcompany/myRenderSet;1,jcompany/Videos/Somebodys_N08275_flv
 
 ## Exemples {#section-fed53089de824d67ab96cd9103d384b4}
 
-**Request**
+**Requête**
 
 ```java
 <createAssetSetParam xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31"> 

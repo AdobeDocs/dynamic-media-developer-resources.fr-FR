@@ -37,6 +37,6 @@ Couche, commande. S’applique au calque actif ou à l’image composite si `lay
 
 ## Exemple {#section-1ebacde68388492eb108ae0fcd7424db}
 
-Fusionner l’arrière-plan d’une image. Une image de masque distincte est référencée par `catalog::MaskPath`. Notez que `layer=0`doit être spécifié explicitement, sinon `op_blur` est appliquée à l’image composite entière.
+Fusionner l’arrière-plan d’une image. Une image de masque distincte est référencée par `catalog::MaskPath`. Notez que `layer=0`doit être spécifié explicitement, sinon `op_blur` serait appliqué à l’ensemble de l’image composite.
 
 `http://server/myRootId/myImageId?wid=500&layer=0&maskUse=invert&op_blur=20&layer=1&src=myRootId/myImageId`

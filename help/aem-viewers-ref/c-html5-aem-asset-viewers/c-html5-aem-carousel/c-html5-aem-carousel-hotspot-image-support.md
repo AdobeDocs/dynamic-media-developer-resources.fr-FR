@@ -22,8 +22,8 @@ Les zones réactives et les régions peuvent activer une fonction d’aperçu ra
 
 ## Zones réactives d’aperçu rapide {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Ces types de zones réactives ou de zones cliquables doivent être créés à l’aide du type d’action &quot;Aperçu rapide&quot; dans Dynamic Media, de Adobe Experience Manager. Lorsqu’un utilisateur active une zone réactive ou une zone cliquable de ce type, la visionneuse exécute la variable `quickViewActivate` Rappel JavaScript et transmet les données de zone réactive ou de zone cliquable à cette zone. Il est prévu que la page web d’incorporation écoute ce rappel. Lorsqu’il déclenche la page, il ouvre sa propre mise en oeuvre d’aperçu rapide.
+Ces types de zones réactives ou de zones cliquables doivent être créés à l’aide du type d’action &quot;Aperçu rapide&quot; dans Dynamic Media, de Adobe Experience Manager. Lorsqu’un utilisateur active une zone réactive ou une zone cliquable de ce type, la visionneuse exécute le rappel JavaScript `quickViewActivate` et lui transmet les données de zone réactive ou de zone cliquable. Il est prévu que la page web d’incorporation écoute ce rappel. Lorsqu’il déclenche la page, il ouvre sa propre mise en oeuvre d’aperçu rapide.
 
 ## Redirection vers une page web externe {#section-ef820c71251e4215800bb99c0c9ebe16}
 
-Les zones réactives ou cliquables créées pour le type d’action &quot;Aperçu rapide&quot; dans Dynamic Media of Experience Manager redirige l’utilisateur vers une URL externe. Selon les paramètres définis lors de la création, l’URL s’ouvre dans un nouvel onglet du navigateur, dans la même fenêtre ou dans la fenêtre du navigateur nommé.
+Les zones réactives ou cliquables créées pour le type d’action &quot;Aperçu rapide&quot; dans Dynamic Media de l’Experience Manager redirige l’utilisateur vers une URL externe. Selon les paramètres définis lors de la création, l’URL s’ouvre dans un nouvel onglet du navigateur, dans la même fenêtre ou dans la fenêtre du navigateur nommé.

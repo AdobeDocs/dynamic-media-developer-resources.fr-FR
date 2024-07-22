@@ -8,7 +8,7 @@ exl-id: 1fcd7dbe-d122-4501-92f4-3ce93a94a933
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
 source-wordcount: '53'
-ht-degree: 5%
+ht-degree: 3%
 
 ---
 
@@ -25,7 +25,7 @@ Voir aussi [init](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> asset </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ressource </span> </p> </td> 
    <td colname="col2"> <p>{<span class="codeph"> Chaîne</span>} nouvel ID de ressource. </p> </td> 
   </tr> 
  </tbody> 

@@ -8,7 +8,7 @@ exl-id: 2ec6d871-05d9-4d85-b031-e64386f5d2e9
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
 source-wordcount: '59'
-ht-degree: 6%
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|playPause</span> </span> </p> </td> 
-   <td colname="col2"> <p> Configure le mappage d’un clic/d’un clic pour activer/désactiver la lecture/la pause. Définir sur <span class="codeph"> none</span> désactive la fonction cliquer/appuyer une seule fois pour lire/mettre en pause. Si la variable est définie sur <span class="codeph"> playPause</span>, un clic sur la vidéo fait basculer entre la lecture et la mise en pause de la vidéo. Sur certains périphériques, vous pouvez utiliser des contrôles natifs. Dans ce cas, <span class="codeph"> singleclick</span> Le comportement est désactivé. </p> </td> 
+   <td colname="col2"> <p> Configure le mappage d’un clic/d’un clic pour activer/désactiver la lecture/la pause. La définition de sur <span class="codeph"> none</span> désactive la lecture/la mise en pause d’un simple clic. Si celle-ci est définie sur <span class="codeph"> playPause</span>, cliquer sur la vidéo fait basculer entre la lecture et la mise en pause de la vidéo. Sur certains périphériques, vous pouvez utiliser des contrôles natifs. Dans ce cas, le comportement <span class="codeph"> singleclick</span> est désactivé. </p> </td> 
   </tr> 
  </tbody> 
 </table>

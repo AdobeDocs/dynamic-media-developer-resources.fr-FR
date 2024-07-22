@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: 1ae76692-2688-4902-82a0-d0751408eee7
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Utilisez ces paramètres de serveur pour configurer les seuils d’alerte.
 
-## AS : monitorAlertGenerator.maxAverageResponseTime -Response Time Seuil de temps de réponseAS:: monitorAlertGenerator.maxAverageResponseTime -Response Time {#section-35111039ac6c4a63ba23fc2c828ab726}
+## AS: monitorAlertGenerator.maxAverageResponseTime -Response Time-Seuil de temps de réponseAS: monitorAlertGenerator.maxAverageResponseTime -Response Time {#section-35111039ac6c4a63ba23fc2c828ab726}
 
-Une alerte de temps de réponse est émise lorsque la durée moyenne de traitement d’une requête au cours de l’intervalle d’échantillonnage dépasse le seuil défini ici. Exprimé en msec; entier 0 ou plus. Les valeurs types sont comprises entre 100 et 1 000 ms, selon la complexité des opérations.
+Une alerte de temps de réponse est émise lorsque la durée moyenne de traitement d’une requête au cours de l’intervalle d’échantillonnage dépasse le seuil défini ici. Exprimé en msec ; entier 0 ou plus. Les valeurs types sont comprises entre 100 et 1 000 ms, selon la complexité des opérations.
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Une alerte de temps de réponse est émise lorsque la durée moyenne de traiteme
 
 Une alerte d’erreur est émise lorsque le rapport entre les réponses d’erreur HTTP et le nombre total de réponses durant l’intervalle d’échantillonnage dépasse le seuil spécifié.
 
-Valeur réelle comprise entre 0.0 et 1.0. Généralement définie sur entre 0.005 et 0.1. Définissez cette valeur sur 1 pour désactiver les alertes d’erreur.
+Valeur réelle comprise entre 0,0 et 1,0. Généralement définie sur entre 0,005 et 0,1. Définissez cette variable sur 1 pour désactiver les alertes d’erreur.
 
 ## AS::monitorAlertGenerator.minRequestRate - Faible seuil de trafic {#section-8dfb89ed138640fd86f5ce1dae2a533e}
 
@@ -36,7 +36,7 @@ Une alerte de trafic minimale est envoyée lorsque le nombre moyen de demandes r
 
 ## AS::monitorAlertGenerator.minFreeHeapSpace - Seuil d’espace-tas libre {#section-ce6705045f6842769030ccb1894594cc}
 
-Spécifie l’espace de tas Java libre minimum. Une alerte de priorité est envoyée immédiatement après un cycle de nettoyage de la mémoire Java lorsque l’espace de tas disponible est inférieur à ce seuil. 50 Mo est recommandé pour un fonctionnement sécurisé de la variable [!DNL Platform Server]. Le fait de conserver un espace de tas libre au-dessus de cette valeur réduit la fréquence des cycles de nettoyage de la mémoire, ce qui peut améliorer les performances globales du serveur. Valeur entière en octets, 0 ou plus.
+Spécifie l’espace de tas Java libre minimum. Une alerte de priorité est envoyée immédiatement après un cycle de nettoyage de la mémoire Java lorsque l’espace de tas disponible est inférieur à ce seuil. 50 Mo est recommandé pour un fonctionnement sécurisé de [!DNL Platform Server]. Le fait de conserver un espace de tas libre au-dessus de cette valeur réduit la fréquence des cycles de nettoyage de la mémoire, ce qui peut améliorer les performances globales du serveur. Valeur entière en octets, 0 ou plus.
 
 ## AS::monitorAlertGenerator.maxOverlap - Nombre maximal de requêtes simultanées {#section-ddc6925bff944758ab19bcc9cf3f2589}
 

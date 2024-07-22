@@ -2,13 +2,13 @@
 description: Crée une copie d’une ressource image existante. Les commandes de protocole Image Server spécifiées sont appliquées pour générer la nouvelle copie.
 solution: Experience Manager
 title: copyImage
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 059ebbca-2341-444b-850a-1ec9582692ec
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 21%
+source-wordcount: '139'
+ht-degree: 12%
 
 ---
 
@@ -99,7 +99,7 @@ Syntaxe
 
 L’exemple de code copie une image spécifiée par l’entreprise, la ressource, la gestion de dossier et le nom.
 
-**Request**
+**Requête**
 
 ```java
 <copyImageParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

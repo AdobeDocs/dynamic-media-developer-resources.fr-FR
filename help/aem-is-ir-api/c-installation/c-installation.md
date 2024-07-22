@@ -8,7 +8,7 @@ exl-id: f5242806-788f-4d91-823f-4eab8fd2666f
 source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
 workflow-type: tm+mt
 source-wordcount: '93'
-ht-degree: 4%
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ L’installation d’Image Serving comprend deux composants principaux du serveu
 
 Le rendu d’image fait partie de ces deux composants de serveur.
 
-Dans les instructions suivantes, `install_root` fait référence au dossier racine dans lequel le serveur d’images et le rendu d’images sont installés. Et `server:port` fait référence au nom d’hôte ou à l’adresse IP et au numéro de port configurés en tant que port d’écoute principal pour la variable [!DNL Platform Server].
+Dans les instructions suivantes, `install_root` fait référence au dossier racine dans lequel le serveur d’images et le rendu d’images sont installés. `server:port` fait référence au nom d’hôte, à l’adresse IP et au numéro de port configurés en tant que port d’écoute principal pour [!DNL Platform Server].
 
 * [Licences](c-licensing.md)
 * [Table des matières](c-contents.md)

@@ -16,7 +16,7 @@ ht-degree: 1%
 
 La visionneuse prend en charge les rappels d’événement JavaScript que la page web utilise pour suivre le processus d’initialisation de la visionneuse ou le comportement d’exécution.
 
-Les gestionnaires de rappel sont affectés en transmettant des noms d’événement et les fonctions de gestionnaire correspondantes avec la propriété `handlers` à l’objet JSON `config` dans le constructeur de la visionneuse. Vous pouvez également utiliser la méthode de l’API `setHandlers()`.
+Les gestionnaires de rappel sont affectés en transmettant des noms d’événement et des fonctions de gestionnaire correspondantes avec la propriété `handlers` à l’objet JSON `config` dans le constructeur de la visionneuse. Vous pouvez également utiliser la méthode d’API `setHandlers()`.
 
 Les événements de visionneuse pris en charge sont les suivants :
 
@@ -29,25 +29,25 @@ Les événements de visionneuse pris en charge sont les suivants :
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> initComplete  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> initComplete </span> </p> </td> 
    <td colname="col2"> <p>Déclenche lorsque l’initialisation de la visionneuse est terminée et que tous les composants internes sont créés, de sorte qu’il est possible d’utiliser l’API <span class="codeph"> getComponent() </span>. Le gestionnaire de rappel ne prend aucun argument. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> trackEvent </span> </p> </td> 
    <td colname="col2"> <p> Déclenche chaque fois qu’un événement se produit dans la visionneuse et qu’il peut être géré par un système de suivi des événements, tel qu’Adobe Analytics. Le gestionnaire de rappel accepte les arguments suivants : </p> <p> 
      <ul id="ul_8A5F409E32E94063AE8D3AB158A0E13D"> 
-      <li id="li_1311D5DDD4454FBC9116BA8E2CB003B1"> <p> <span class="codeph"> objID {String}  </span> - non utilisé actuellement. </p> </li> 
-      <li id="li_C2ABD13097FA40A7B9801C0B7592FB59"> <p> <span class="codeph"> compClass {String}  </span> - non utilisé actuellement. </p> </li> 
-      <li id="li_3BE8001365714C3FAC32C9B2CFFD5DCE"> <p> <span class="codeph"> instName {String}  </span> - nom d’instance du composant SDK de visionneuse qui a déclenché l’événement. </p> </li> 
-      <li id="li_755DDE84B1CC4B4D8A3FA0C774CBA666"> <p> <span class="codeph"> timeStamp {Number}  </span> - horodatage de l’événement. </p> </li> 
-      <li id="li_05A1C45826AC4D1192CB72FE07EE4C29"> <p> <span class="codeph"> eventInfo {String}  </span> - charge utile de l’événement. </p> </li> 
+      <li id="li_1311D5DDD4454FBC9116BA8E2CB003B1"> <p> <span class="codeph"> objID {String} </span> - non utilisé actuellement. </p> </li> 
+      <li id="li_C2ABD13097FA40A7B9801C0B7592FB59"> <p> <span class="codeph"> compClass {String} </span> - non utilisé actuellement. </p> </li> 
+      <li id="li_3BE8001365714C3FAC32C9B2CFFD5DCE"> <p> <span class="codeph"> instName {String} </span> - nom d’instance du composant SDK de visionneuse qui a déclenché l’événement. </p> </li> 
+      <li id="li_755DDE84B1CC4B4D8A3FA0C774CBA666"> <p> <span class="codeph"> timeStamp {Number} </span> - horodatage de l’événement. </p> </li> 
+      <li id="li_05A1C45826AC4D1192CB72FE07EE4C29"> <p> <span class="codeph"> eventInfo {String} </span> - charge utile de l’événement. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> quickViewActivate  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> quickViewActivate </span> </p> </td> 
    <td colname="col2"> <p> Se déclenche lorsque l’utilisateur active une zone réactive avec des données d’aperçu rapide qui lui sont associées. Le gestionnaire de rappel utilise l’argument suivant : </p> <p> 
      <ul id="ul_171110934BD54839B371FAD8D2AD467B"> 
-      <li id="li_7B14C3BA432B43E392AC103926807E88"> <p> <span class="codeph"> data {Object}  </span> : objet JSON contenant des données de la définition de zone réactive. Le champ <span class="codeph"> SKU </span> est obligatoire, tandis que les autres champs sont facultatifs et dépendent de la définition de la zone réactive source. </p> </li> 
+      <li id="li_7B14C3BA432B43E392AC103926807E88"> <p> <span class="codeph"> data {Object} </span> - objet JSON contenant des données de la définition de zone réactive. Le champ <span class="codeph"> sku </span> est obligatoire tandis que les autres champs sont facultatifs et dépendent de la définition de la zone réactive source. </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

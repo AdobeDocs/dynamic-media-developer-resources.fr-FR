@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 7d1379c1-7746-4f61-92df-e8ac4ab7d506
 source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 2%
+source-wordcount: '103'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +37,7 @@ Le sélecteur de classe CSS suivant contrôle l’aspect de la zone d’affichag
    <td colname="col2"> <p>Hauteur de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan au format hexadécimal. </p> </td> 
   </tr> 
  </tbody> 

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Les catalogues de matériaux fournissent au serveur des informations sur les vignettes, le matériel et les données annexes, telles que les profils ICC.
 
-Chaque catalogue de matériaux se compose d’un *fichier d’attributs du catalogue* et un ensemble facultatif *fichiers de données de catalogue*:
+Chaque catalogue de matériaux se compose d’un *fichier d’attribut de catalogue* requis et d’un ensemble de *fichiers de données de catalogue* facultatifs :
 
 * Le fichier de mappage de vignettes, qui énumère les vignettes, les modèles et leurs métadonnées associées.
 * Le fichier de données de matériau, qui énumère les matériaux et spécifie les fichiers d’image et les métadonnées de texture associés.
@@ -25,7 +25,7 @@ Chaque catalogue de matériaux se compose d’un *fichier d’attributs du catal
 
 Les fichiers de données de catalogue sont associés à des catalogues de matériaux par référence de fichier dans le fichier d’attributs de catalogue. Le même fichier de données de catalogue peut être partagé par plusieurs catalogues de matériaux.
 
-Les fichiers d’attributs du catalogue doivent comporter une [!DNL `.ini`] suffixe de fichier et doit se trouver dans le rendu d’image *dossier de catalogue* ( [!DNL PlatformServer::ir.catalogRootPath]). Les fichiers de données du catalogue peuvent se trouver dans le même dossier ou tout autre dossier accessible au serveur de rendu.
+Les fichiers d’attributs du catalogue doivent avoir un suffixe de fichier [!DNL `.ini`] et se trouver dans le *dossier catalogue* de rendu d’image ( [!DNL PlatformServer::ir.catalogRootPath]). Les fichiers de données du catalogue peuvent se trouver dans le même dossier ou tout autre dossier accessible au serveur de rendu.
 
 **Mise à jour des catalogues de matériaux**
 
@@ -37,7 +37,7 @@ Le catalogue par défaut fournit des valeurs par défaut pour tous les attributs
 
 En outre, le catalogue par défaut fournit tous les attributs et enregistrements de données (profils ICC) lorsqu’aucun catalogue de matériel spécifique n’est impliqué dans une opération.
 
-Pour que le serveur de rendu fonctionne correctement, le fichier d’attributs de catalogue du catalogue par défaut doit être nommé [!DNL default.ini]. Il doit également toujours exister dans le dossier de catalogue et doit être entièrement renseigné avec tous les attributs requis, à l’exclusion de `attribute::RootId` et les références aux différents fichiers de données de catalogue, qui sont tous facultatifs.
+Pour que le serveur de rendu fonctionne correctement, le fichier d’attributs de catalogue du catalogue par défaut doit être nommé [!DNL default.ini]. Il doit également toujours exister dans le dossier de catalogue et doit être entièrement renseigné avec tous les attributs requis, à l’exception de `attribute::RootId` et des références aux différents fichiers de données de catalogue, qui sont tous facultatifs.
 
 <!-- **See also**
 

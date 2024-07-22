@@ -16,8 +16,8 @@ ht-degree: 0%
 
 Le rendu d’image impose une limite de taille de deux mégapixels pour les vignettes non pyramidales.
 
-Modifier la valeur de `IrMaxNonPyrVignetteSize` dans [!DNL *[!DNL install_root]* /ImageServing/conf /ImageServerRegistry.conf] si votre application nécessite la prise en charge de vignettes non pyramidales avec une zone d’image (largeur x hauteur) supérieure à cette limite.
+Modifiez la valeur de `IrMaxNonPyrVignetteSize` dans [!DNL *[!DNL install_root]* /ImageServing/conf /ImageServerRegistry.conf] si votre application nécessite la prise en charge de vignettes non pyramidales avec une zone d’image (largeur x hauteur) supérieure à cette limite.
 
 >[!NOTE]
 >
->Ajuster les attributs `attribute::MaxPix` et `IS::MaxMessageSize` pour permettre des tailles d’image de réponse exceptionnellement grandes. Pour plus d’informations, reportez-vous à la documentation du serveur d’images .
+>Ajustez les attributs `attribute::MaxPix` et `IS::MaxMessageSize` pour permettre des tailles d’image de réponse exceptionnellement grandes. Pour plus d’informations, reportez-vous à la documentation du serveur d’images .

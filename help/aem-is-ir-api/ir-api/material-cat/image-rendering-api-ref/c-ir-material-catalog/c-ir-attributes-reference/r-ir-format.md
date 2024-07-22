@@ -8,7 +8,7 @@ exl-id: 393264e0-4b2d-42d7-b95c-8d20770687e7
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '50'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -18,13 +18,13 @@ Format d’image de réponse par défaut. Indique le format par défaut des imag
 
 ## Propriétés {#section-3cbea775a174443aaf14e9e58a3c2300}
 
-Chaîne de texte. Doit être l’un des jetons de format pris en charge par la variable `fmt=` command :
+Chaîne de texte. Doit être l’un des jetons de format pris en charge par la commande `fmt=` :
 
 `jpg | jpeg | png | png-alpha | tif | tif-alpha | swf | swf-alpha | pdf | eps | gif | gif-alpha`
 
 ## Par défaut {#section-256b0f8afdd846eaac68ec2019258708}
 
-Hérité de `default::Format` s’il n’est pas défini ou s’il est vide.
+Hérité de `default::Format` si elle n’est pas définie ou si elle est vide.
 
 ## Voir aussi {#section-d6dc53ae28ab4133a9f8f9ec0bc159a6}
 

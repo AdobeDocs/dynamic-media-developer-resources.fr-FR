@@ -1,7 +1,6 @@
 ---
-title: Notes de mise à jour de l’Adobe Dynamic Media Classic
-description: Notes de mise à jour de l’Adobe Dynamic Media Classic
-translation-type: tm+mt
+title: Notes de mise à jour d’Adobe Dynamic Media Classic
+description: Notes de mise à jour d’Adobe Dynamic Media Classic
 source-git-commit: b4344397f82eb7d2d61020909f4acc7fddea210b
 workflow-type: tm+mt
 source-wordcount: '27'

@@ -2,12 +2,12 @@
 description: SearchPanel.align
 solution: Experience Manager
 title: SearchPanel.align
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Recherche catalogue électronique
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 772b2789-4152-4320-893d-efc39689424b
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '73'
 ht-degree: 4%
 
 ---

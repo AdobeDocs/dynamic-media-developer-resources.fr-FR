@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: a0e01edb-c52b-436d-a166-e24cc6861c49
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 11%
+source-wordcount: '334'
+ht-degree: 7%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 Recherche le référentiel d’index de métadonnées pour les termes de recherche donnés. Renvoie des données de ressources telles que la méthode searchAssets.
 
-while `searchAssetsByMetadata` vous permet de rechercher par rapport aux champs de métadonnées définis par l’utilisateur. Ces champs ne sont pas renvoyés s’ils sont spécifiés dans la variable `responseMetadataArray`. Pour illustrer ce point, l’exemple de code suivant :
+Alors que `searchAssetsByMetadata` vous permet de rechercher par rapport aux champs de métadonnées définis par l’utilisateur, ces champs ne sont pas renvoyés s’ils sont spécifiés dans le `responseMetadataArray`. Pour illustrer ce point, l’exemple de code suivant :
 
 ```java
 <ns:responseMetadataArray>
@@ -33,7 +33,7 @@ renvoie une valeur null :
 </items>
 ```
 
-Pour contourner ce problème, vous pouvez utiliser la variable `fieldHandles` des ressources renvoyées par la recherche à exécuter `getAssets` (voir également [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Cette méthode récupère les valeurs des champs définis par l’utilisateur pour les ressources en question. Utilisez l’exemple de syntaxe suivant pour effectuer une recherche par rapport aux champs de métadonnées définis par l’utilisateur :
+Pour contourner ce problème, vous pouvez utiliser le `fieldHandles` des ressources renvoyées par la recherche pour exécuter `getAssets` (voir aussi [getAssets](../../../operations/c-operations-intro/c-methods/r-get-assets.md#reference-adad4f504f684d3dabc09e093b8511ca)). Cette méthode récupère les valeurs des champs définis par l’utilisateur pour les ressources en question. Utilisez l’exemple de syntaxe suivant pour effectuer une recherche par rapport aux champs de métadonnées définis par l’utilisateur :
 
 ```java
 <ns:metadataConditionArray>
@@ -76,22 +76,22 @@ Pour contourner ce problème, vous pouvez utiliser la variable `fieldHandles` de
    <td colname="col4"> <p>La poignée de la société. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> Filtrer</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> type:SearchFilter</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> Filtre </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> type : SearchFilter</span> </p> </td> 
    <td colname="col3"> <p>Non </p> </td> 
    <td colname="col4"> <p>Filtres permettant de définir des critères de recherche. </p> <p>Voir <a href="../../../types/c-data-types/r-search-filter.md#reference-0e2eb87bccae4b69be6717267bcb80aa" format="dita" scope="local"> SearchFilter</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> metadataConditionArray</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> type:MetadataConditionArray</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> type : MetadataConditionArray</span> </p> </td> 
    <td colname="col3"> <p>Non </p> </td> 
    <td colname="col4"> <p>Conditions qui définissent les critères de recherche. Voir ci-dessous pour plus d’informations. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> responseMetadataArray</span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> type:StringArray</span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> type : StringArray</span> </p> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Champs supplémentaires que vous souhaitez avoir renseignés sur la réponse dans le résumé de la ressource. Les champs doivent être spécifiés au format normalisé. </p> </td> 
+   <td colname="col4"> <p>Champs supplémentaires que vous souhaitez renseigner sur la réponse dans le résumé de la ressource. Les champs doivent être spécifiés au format normalisé. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </p> </td> 
@@ -103,7 +103,7 @@ Pour contourner ce problème, vous pouvez utiliser la variable `fieldHandles` de
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Spécifie la page de résultats à renvoyer, en fonction de <span class="codeph"> recordsPerPage</span> taille de la page. </p> </td> 
+   <td colname="col4"> <p>Spécifie la page de résultats à renvoyer, en fonction de la taille de page <span class="codeph"> recordsPerPage</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> sortBy</span> </span> </p> </td> 
@@ -131,7 +131,7 @@ Pour contourner ce problème, vous pouvez utiliser la variable `fieldHandles` de
 
 **Structure d’élément**
 
-`metadataConditionArray` La structure est la suivante :
+La structure de `metadataConditionArray` est la suivante :
 
 ```java
 <ns1:items>
@@ -156,13 +156,13 @@ Pour contourner ce problème, vous pouvez utiliser la variable `fieldHandles` de
 * `sku`
 * `modified_at`
 * `modified_by`
-* `created_at` (identique à `modified_at` (Date dans le formulaire : 25 juillet 2014 22:13:45 GMT-0500 (CDT))
+* `created_at` (identique à `modified_at` (date sous la forme : vendredi 25 juillet 2014 22:13:45 GMT-0500 (CDT))
 
 * `created_by`
 
 **Opérateurs autorisés**
 
-Le [!DNL operator] définit comment comparer la valeur et inclure :
+[!DNL operator] définit comment comparer la valeur et inclure :
 
 * `Equals`
 * `NotEquals`
@@ -171,17 +171,17 @@ Le [!DNL operator] définit comment comparer la valeur et inclure :
 * `StartsWith`
 * `EndsWith`
 
-Le `comparison_value` est le terme à rechercher.
+`comparison_value` est le terme à rechercher.
 
 ## Exemples {#section-53a12b9c023e4e629eddf5719c955ad4}
 
 Cet exemple de code effectue une recherche avec les critères de métadonnées suivants :
 
-* `name` Le champ contient `1000801`.
+* Le champ `name` contient `1000801`.
 
 * `dc.rights` champ est égal à `Per Jessen Schmidt`.
 
-**Request**
+**Requête**
 
 ```java
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"

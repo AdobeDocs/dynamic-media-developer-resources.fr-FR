@@ -25,4 +25,4 @@ Nom de la macro de commande.
  </tr> 
 </table>
 
-La commande *`name`* n’est pas sensible à la casse et peut se composer de n’importe quelle combinaison de lettres, de chiffres, de `-` (tiret), `_` (trait de soulignement) et `.` (point).
+La commande *`name`* n&#39;est pas sensible à la casse et peut se composer de n&#39;importe quelle combinaison de lettres, de chiffres, de `-` (trait d&#39;union), de `_` (trait de soulignement) et de `.` (point).

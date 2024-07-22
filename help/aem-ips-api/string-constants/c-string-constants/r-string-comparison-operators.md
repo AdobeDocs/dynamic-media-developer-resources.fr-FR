@@ -2,13 +2,13 @@
 description: Utilisé par SystemFieldCondition/op et MetadataCondition/op.
 solution: Experience Manager
 title: Opérateurs de comparaison de chaînes
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 97256368-aaf8-437f-9c2a-8265249f87dd
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 7%
+source-wordcount: '22'
+ht-degree: 9%
 
 ---
 

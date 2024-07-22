@@ -97,7 +97,7 @@ Mode de répétition de la texture. Spécifie le mode de répétition pour les m
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>19 </p> </td> 
-  <td class="stentry"> <p>Optimiseur de périphérie. </p> </td> 
+  <td class="stentry"> <p>Gestionnaire aléatoire Edge. </p> </td> 
  </tr> 
 </table>
 
@@ -109,7 +109,7 @@ Attribut de matière. Ignoré par les matériaux couleur unie, décal et armoire
 
 ## Par défaut {#section-e5bbd7d9fbb74852849e605d20f550bb}
 
-`catalog::Repeat`, si le matériau est basé sur une entrée de catalogue, sinon `0` (répétition droite).
+`catalog::Repeat`, si la matière est basée sur une entrée de catalogue, sinon `0` (répétition droite).
 
 ## Voir aussi {#section-ac99113b64654d75a3a86e41db546269}
 

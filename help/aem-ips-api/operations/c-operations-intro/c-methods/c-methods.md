@@ -2,12 +2,12 @@
 description: Paramètres d'opération
 solution: Experience Manager
 title: Paramètres d'opération
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 70ea84ce-10ec-4a89-bd0a-ab81b4e88f5c
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 * [addCompany](r-add-company.md)
 * [addCompanyMembership](r-add-company-membership.md)
 * [addGroupMembers](r-add-group-members.md)
-* [addGroupMembership](r-add-group-membership.md)
+* [addGroupMember](r-add-group-membership.md)
 * [addProjectAssets](r-add-project-assets.md)
 * [addTagFieldValues](r-add-tag-field-values.md)
 * [addUser](r-add-user.md)
@@ -110,7 +110,7 @@ ht-degree: 0%
 * [getUserInfo](r-get-user-info.md)
 * [getUsers](r-get-users.md)
 * [getViewerConfigSettings](r-get-viewer-config-settings.md)
-* [getVignettePublishFormats](r-get-vignette-publish-formats.md)
+* [getVideoPublishFormats](r-get-vignette-publish-formats.md)
 * [getXMPPacket](r-get-xmp-packet.md)
 * [getZipEntries](r-get-zip-entries.md)
 * [moveAsset](r-move-asset.md)

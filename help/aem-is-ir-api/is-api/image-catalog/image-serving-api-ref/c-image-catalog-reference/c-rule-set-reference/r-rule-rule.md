@@ -1,6 +1,6 @@
 ---
 title: règle
-description: Élément de règle de requête. Une ou plusieurs règles sont facultatives dans la variable <ruleset> élément .
+description: Élément de règle de requête. Une ou plusieurs règles sont facultatives dans l’élément <ruleSet> .
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -8,33 +8,33 @@ exl-id: 4fabd469-c80c-422a-80b0-3d31ce191d58
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 5%
+ht-degree: 2%
 
 ---
 
 # règle{#rule}
 
-Élément de règle de requête. Une ou plusieurs règles sont facultatives dans la variable `<ruleset>` élément .
+Élément de règle de requête. Une ou plusieurs règles sont facultatives dans l’élément `<ruleset>` .
 
 ## Attributs {#section-d4a3b0496c0c4aa5bd7da87203b9379b}
 
-`OnMatch = "break" | "continue" | "error"`: Facultatif. La valeur par défaut est &quot;break&quot;.
+`OnMatch = "break" | "continue" | "error"` : facultatif. La valeur par défaut est &quot;break&quot;.
 
-`Replace = "first" | "all"`: Facultatif. La valeur par défaut est &quot;first&quot;.
+`Replace = "first" | "all"` : facultatif. La valeur par défaut est &quot;first&quot;.
 
-`RequestType` = *&quot;`types`&quot;*: facultatif. Indique le contexte d’entrée auquel la règle s’applique. *`types`* est une liste séparée par des virgules, qui peut inclure un ou plusieurs jetons répertoriés dans le tableau suivant. If `RequestType` n’est pas spécifiée, la règle s’applique aux requêtes reçues sur tous les contextes pris en charge.
+`RequestType` = *&quot;`types`&quot;* : facultatif. Indique le contexte d’entrée auquel la règle s’applique. *`types`* est une liste séparée par des virgules, qui peut inclure un ou plusieurs jetons répertoriés dans le tableau suivant. Si `RequestType` n’est pas spécifié, la règle s’applique aux requêtes reçues sur tous les contextes pris en charge.
 
 <table id="table_4935E1ED03624DA6AF3F8DC9AAA10237"> 
  <thead> 
   <tr> 
-   <th class="entry"> <p><b>jeton</b> </p> </th> 
+   <th class="entry"> <p><b>token</b> </p> </th> 
    <th class="entry"> <p><b>Contexte</b> </p> </th> 
    <th class="entry"> <p><b>Description</b> </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> est</span> </p> </td> 
+   <td> <p> <span class="codeph"> is</span> </p> </td> 
    <td> <p> <span class="filepath"> /is/image/</span> </p> </td> 
    <td> <p>Application aux demandes de diffusion d’images </p> </td> 
   </tr> 
@@ -44,16 +44,16 @@ ht-degree: 5%
    <td> <p>Application aux demandes de rendu d’image </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> statique</span> </p> </td> 
+   <td> <p> <span class="codeph"> static</span> </p> </td> 
    <td> <p> <span class="filepath"> /is/content/</span> </p> </td> 
    <td> <p>Application aux requêtes de contenu statique </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**`Name = "text"`**: Facultatif. Utilisé pour identifier la variable `<rule>` dans les journaux de débogage et les messages d’erreur.
+**`Name = "text"`** : facultatif. Utilisé pour identifier l’élément `<rule>` dans les journaux de débogage et les messages d’erreur.
 
-`  *`Attribut`* ="value"`: facultatif. `<rule>` peuvent définir n’importe quel attribut suivant, quelle que soit la combinaison. Si spécifié, et que la règle est correctement mise en correspondance, ils remplacent les attributs de catalogue correspondants pour cette requête. Par défaut : `RequestType="is"`.
+`  *`Attribut`* ="value"` : facultatif. Les éléments `<rule>` peuvent définir n’importe lequel des attributs suivants dans n’importe quelle combinaison. Si spécifié, et que la règle est correctement mise en correspondance, ils remplacent les attributs de catalogue correspondants pour cette requête. La valeur par défaut est `RequestType="is"`.
 
 <table id="table_67AED5BEADDF4DAC99B5EF46438C1ABC"> 
  <thead> 
@@ -88,7 +88,7 @@ ht-degree: 5%
    <td> <p> <a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestobfuscation.md#reference-730a3330253343f893419ebd52baf0bd" type="reference" format="dita" scope="local"> attribute::RequestObfuscation</a> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> RootURL</span> </p> </td> 
+   <td> <p> <span class="codeph"> RootUrl</span> </p> </td> 
    <td> <p> <a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rooturl.md#reference-3b0e43881020409cbe642366913cf137" type="reference" format="dita" scope="local"> attribute::RootUrl</a> </p> </td> 
   </tr> 
   <tr> 
@@ -104,7 +104,7 @@ ht-degree: 5%
 
 Pour plus d’informations, reportez-vous à la description de l’attribut de catalogue d’images correspondant.
 
-Les attributs Expiration remplacent uniquement les valeurs d’attribut par défaut. Le remplacement est ignoré si un `catalog::Expiration` s’applique à la requête.
+Les attributs Expiration remplacent uniquement les valeurs d’attribut par défaut. Le remplacement est ignoré si une valeur `catalog::Expiration` spécifique s’applique à la requête.
 
 ## Données {#section-8fce013a4c724da58af3fee4e7a90e72}
 
@@ -118,21 +118,21 @@ Les attributs Expiration remplacent uniquement les valeurs d’attribut par déf
   <td class="stentry"> <p>Facultatif </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> &lt;addressfilter&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> &lt;address filter&gt;</span> </p></td> 
   <td class="stentry"> <p>Facultatif </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> &lt;en-tête&gt;</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> &lt;header&gt;</span> </p></td> 
   <td class="stentry"> <p>Facultatif </p></td> 
  </tr> 
 </table>
 
 ## Remarques {#section-0c5fbc363070419d8c9800b0c02dc9f9}
 
-Si les deux `<expression>` et `<substitution>` sont spécifiées et les sous-chaînes capturées ne sont pas utilisées ; la première sous-chaîne correspondante est remplacée par `<substitution>`.
+Si `<expression>` et `<substitution>` sont spécifiés et que les sous-chaînes capturées ne sont pas utilisées, la première sous-chaîne correspondante est remplacée par `<substitution>`.
 
-If `<expression>` n’est pas spécifié, aucun chemin ne correspond à et `<substitution>` est ajouté à la fin du chemin.
+Si `<expression>` n’est pas spécifié, tout chemin correspond et `<substitution>` est ajouté à la fin du chemin.
 
-If `<substitution>` n’est pas spécifié, aucun chemin d’accès ou transformation de requête n’a lieu, mais tous les attributs de catalogue spécifiés sont remplacés. If `<substitution>` est vide, la sous-chaîne correspondante est supprimée.
+Si `<substitution>` n’est pas spécifié, aucun chemin ni transformation de requête ne se produit, mais tous les attributs de catalogue spécifiés sont remplacés. Si `<substitution>` est vide, la sous-chaîne correspondante est supprimée.
 
-La variable `<addressfilter>` n’est appliquée que lorsqu’une correspondance se produit et avant l’application des règles de requête.
+`<addressfilter>` est appliqué uniquement lorsqu’une correspondance se produit et avant l’application des règles de requête.

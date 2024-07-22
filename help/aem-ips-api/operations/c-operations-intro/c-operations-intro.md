@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: 020c8e63-ad4e-4c0d-8da6-b51efb2b89a5
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '704'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Cette section décrit les paramètres d’opération communs gérés par l’API du service Web IPS.
 
-Pour une description complète de chaque paramètre d’opération, voir [Paramètres d&#39;opération](/help/aem-ips-api/operations/c-operations-intro/c-methods/c-methods.md).
+Pour une description complète de chaque paramètre d’opération, voir [Paramètres d’opération](/help/aem-ips-api/operations/c-operations-intro/c-methods/c-methods.md).
 
 ## Handles : À propos {#section-094ce1afa6244fa5b2c762f44ffdca1c}
 
@@ -34,9 +34,9 @@ searchParam.setFolder("myFolder");
 SearchAssetsReturn retVal = ipsApi.searchAssets(searchParam, authHeader);
 ```
 
-**Code de gestion correct**
+**Correct Handle Code**
 
-Cet exemple de code est correct, car il appelle `getCompanyInfo` pour renvoyer une poignée valide. Elle ne repose pas sur une valeur codée en dur. Utilisez cette méthode ou une autre API IPS équivalente pour renvoyer la poignée requise.
+Cet exemple de code est correct, car il appelle `getCompanyInfo` pour renvoyer un gestionnaire valide. Elle ne repose pas sur une valeur codée en dur. Utilisez cette méthode ou une autre API IPS équivalente pour renvoyer la poignée requise.
 
 ```
 GetCompanyInfoParam companyInfoParam = new GetCompanyInfoParam(); 
@@ -51,13 +51,13 @@ SearchAssetsReturn retVal = ipsApi.searchAssets(searchParam, authHeader);
 
 **companyHandle**
 
-Pour la plupart des opérations, vous devez définir un contexte d’entreprise en transmettant une `companyHandle` . Le pseudo de la société est un pointeur renvoyé par certaines opérations, telles que `getCompanyInfo`, `addCompany`, et `getCompanyMembership`.
+La plupart des opérations nécessitent que vous définissiez un contexte d’entreprise en transmettant un paramètre `companyHandle`. Le gestionnaire de la société est un pointeur renvoyé par certaines opérations telles que `getCompanyInfo`, `addCompany` et `getCompanyMembership`.
 
 **userHandle**
 
-La variable `userHandle` est un paramètre facultatif pour les opérations qui ciblent un utilisateur spécifique. Par défaut, ces opérations ciblent l’utilisateur appelant (l’utilisateur dont les informations d’identification sont transmises pour authentification). Toutefois, les utilisateurs administrateurs disposant des autorisations appropriées peuvent spécifier un autre utilisateur. Par exemple, la variable `setPassword` définit normalement le mot de passe de l’utilisateur authentifié, mais un administrateur peut utiliser la variable `userHandle` pour définir le mot de passe d’un autre utilisateur.
+Le paramètre `userHandle` est un paramètre facultatif pour les opérations qui ciblent un utilisateur spécifique. Par défaut, ces opérations ciblent l’utilisateur appelant (l’utilisateur dont les informations d’identification sont transmises pour authentification). Toutefois, les utilisateurs administrateurs disposant des autorisations appropriées peuvent spécifier un autre utilisateur. Par exemple, l’opération `setPassword` définit normalement le mot de passe de l’utilisateur authentifié, mais un administrateur peut utiliser le paramètre `userHandle` pour définir le mot de passe d’un autre utilisateur.
 
-Pour les opérations qui nécessitent un contexte d’entreprise (à l’aide de la variable `companyHandle` ), les utilisateurs authentifiés et les utilisateurs cibles doivent être membres de la société spécifiée. Pour les opérations qui ne nécessitent pas de contexte d’entreprise, les utilisateurs authentifiés et ciblés doivent tous deux appartenir à au moins une société commune.
+Pour les opérations qui nécessitent un contexte d’entreprise (à l’aide du paramètre `companyHandle` ), les utilisateurs authentifiés et les utilisateurs cibles doivent être membres de la société spécifiée. Pour les opérations qui ne nécessitent pas de contexte d’entreprise, les utilisateurs authentifiés et ciblés doivent tous deux appartenir à au moins une société commune.
 
 Les opérations suivantes peuvent récupérer les noms d’utilisateur :
 
@@ -70,13 +70,13 @@ Les opérations suivantes peuvent récupérer les noms d’utilisateur :
 
 **accessUserHandle et accessGroupHandle**
 
-Par défaut, les opérations qui nécessitent des autorisations d’accès (lecture, écriture, suppression) fonctionnent dans le contexte des autorisations de l’utilisateur appelant. Certaines opérations permettent de modifier ce contexte avec la fonction `accessUserHandle` ou `accessGroupHandle` . La variable `accessUserHandle` permet à un administrateur de se faire passer pour un autre utilisateur. La variable `accessGroupHandle` permet à l’appelant de fonctionner dans le contexte d’un groupe d’utilisateurs spécifique.
+Par défaut, les opérations qui nécessitent des autorisations d’accès (lecture, écriture, suppression) fonctionnent dans le contexte des autorisations de l’utilisateur appelant. Certaines opérations vous permettent de modifier ce contexte avec le paramètre `accessUserHandle` ou `accessGroupHandle` . Le paramètre `accessUserHandle` permet à un administrateur d’emprunter l’identité d’un autre utilisateur. Le paramètre `accessGroupHandle` permet à l’appelant de fonctionner dans le contexte d’un groupe d’utilisateurs spécifique.
 
 **responseFieldArray et excludeFieldArray**
 
-Certaines opérations permettent à l’appelant de restreindre les champs inclus dans la réponse. La limitation des champs peut contribuer à réduire le temps et la mémoire nécessaires au traitement de la requête et à réduire la taille des données de réponse. L’appelant peut demander une liste spécifique de champs en transmettant une `responseFieldArray` ou avec une liste énumérée de champs exclus au moyen de l’option `excludeFieldArray` .
+Certaines opérations permettent à l’appelant de restreindre les champs inclus dans la réponse. La limitation des champs peut contribuer à réduire le temps et la mémoire nécessaires au traitement de la requête et à réduire la taille des données de réponse. L’appelant peut demander une liste spécifique de champs en transmettant un paramètre `responseFieldArray` ou avec une liste énumérée de champs exclus au moyen du paramètre `excludeFieldArray` .
 
-Les deux `responseFieldArray` et `excludeFieldArray` spécifiez des champs à l’aide d’un chemin de noeud séparé par `/`. Par exemple, pour indiquer que `searchAssets` renvoie uniquement le nom, la date de dernière modification et les métadonnées de chaque ressource se réfèrent aux éléments suivants :
+`responseFieldArray` et `excludeFieldArray` spécifient des champs à l’aide d’un chemin de noeud séparé par `/`. Par exemple, pour indiquer que `searchAssets` renvoie uniquement le nom, la date de dernière modification et les métadonnées de chaque ressource, reportez-vous aux éléments suivants :
 
 ```
 <responseFieldArray> 
@@ -94,15 +94,15 @@ De même, pour renvoyer tous les champs (sauf les autorisations) :
 </excludeFieldArray>
 ```
 
-Notez que les chemins d’accès au noeud sont relatifs à la racine du noeud de retour. Si vous spécifiez un champ de type complexe sans aucun de ses sous-éléments (par exemple : `assetArray/items/imageInfo`), tous ses sous-éléments sont inclus. Si vous spécifiez un ou plusieurs sous-éléments dans un champ de type complexe (par exemple : `assetArray/items/imageInfo/originalPath`), alors seuls ces sous-éléments sont inclus.
+Notez que les chemins d’accès au noeud sont relatifs à la racine du noeud de retour. Si vous spécifiez un champ de type complexe sans aucun de ses sous-éléments (par exemple, `assetArray/items/imageInfo`), tous ses sous-éléments sont inclus. Si vous spécifiez un ou plusieurs sous-éléments dans un champ de type complexe (par exemple, `assetArray/items/imageInfo/originalPath`), seuls ces sous-éléments sont inclus.
 
 Si vous n’incluez pas `responseFieldArray` ou `excludeFieldArray` dans une requête, tous les champs sont renvoyés.
 
-**Paramètres régionaux**
+**Locale**
 
-Depuis la version 4.0 d’IPS, l’API IPS prend en charge la définition du contexte local d’une opération en transmettant la variable `authHeader` paramètre régional. Si le paramètre régional est absent, l’en-tête HTTP `Accept-Language` est utilisée. Si cet en-tête n’est pas non plus présent, le paramètre régional par défaut du serveur IPS est utilisé.
+Depuis IPS 4.0, l’API IPS prend en charge la définition du contexte de paramètres régionaux d’une opération en transmettant le paramètre de paramètres régionaux `authHeader`. Si le paramètre régional n’est pas présent, l’en-tête HTTP `Accept-Language` est utilisé. Si cet en-tête n’est pas non plus présent, le paramètre régional par défaut du serveur IPS est utilisé.
 
-Certaines opérations utilisent également des paramètres régionaux explicites, qui peuvent différer du contexte des paramètres régionaux de l’opération. Par exemple, la variable `submitJob` l’opération prend une valeur `locale` qui définit les paramètres régionaux utilisés pour la journalisation des tâches et la notification électronique.
+Certaines opérations utilisent également des paramètres régionaux explicites, qui peuvent différer du contexte des paramètres régionaux de l’opération. Par exemple, l’opération `submitJob` utilise un paramètre `locale` qui définit les paramètres régionaux utilisés pour la journalisation des tâches et la notification électronique.
 
 Les paramètres régionaux utilisent le format `<language_code>[-<country_code>]`
 

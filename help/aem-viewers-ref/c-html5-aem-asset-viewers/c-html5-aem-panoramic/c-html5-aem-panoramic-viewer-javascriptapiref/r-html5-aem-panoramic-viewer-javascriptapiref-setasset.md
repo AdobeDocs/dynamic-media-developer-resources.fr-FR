@@ -8,7 +8,7 @@ exl-id: 1fcd7dbe-d122-4501-92f4-3ce93a94a933
 source-git-commit: 8aebcacd5abdc23565aab1bc3506c36f055b6439
 workflow-type: tm+mt
 source-wordcount: '69'
-ht-degree: 4%
+ht-degree: 2%
 
 ---
 
@@ -25,8 +25,8 @@ Voir aussi [init](../../../c-html5-aem-asset-viewers/c-html5-aem-panoramic/c-htm
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> asset </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> Chaîne</span>} nouvel ID de ressource. Les images qui utilisent le rendu d’image (IR) ou le contenu généré par l’utilisateur (UGC) ne sont pas prises en charge par cette visionneuse. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ressource </span> </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> Chaîne</span>} nouvel identifiant de ressource. Les images qui utilisent le rendu d’image (IR) ou le contenu généré par l’utilisateur (UGC) ne sont pas prises en charge par cette visionneuse. </p> </td> 
   </tr> 
  </tbody> 
 </table>

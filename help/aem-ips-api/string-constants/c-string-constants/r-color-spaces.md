@@ -2,13 +2,13 @@
 description: Utilisé par IccProfileFieldUpdate/colorSpace et IccProfileFieldUpdate/pcsType.
 solution: Experience Manager
 title: Espaces colorimétriques
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f2989963-e0d4-42b8-9807-a63d43728540
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '25'
-ht-degree: 8%
+source-wordcount: '20'
+ht-degree: 10%
 
 ---
 

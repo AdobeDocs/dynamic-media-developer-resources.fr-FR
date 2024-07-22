@@ -2,13 +2,13 @@
 description: Chaîne de commande de diffusion d’images appliquée à toutes les miniatures.
 solution: Experience Manager
 title: FavoritesView.iscommand
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Recherche catalogue électronique
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 114cc5b7-32b9-4d16-ab93-a66f3ec666e0
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 7%
+source-wordcount: '60'
+ht-degree: 6%
 
 ---
 
@@ -22,7 +22,7 @@ Chaîne de commande de diffusion d’images appliquée à toutes les miniatures.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> isCommand</span></span> </p> </td> 
-   <td colname="col2"> <p> Si spécifié dans l’URL, toutes les occurrences de <span class="codeph"> &amp;</span> et <span class="codeph"> =</span> doivent être codées en HTTP sous la forme <span class="codeph"> %26</span> et <span class="codeph"> %3D</span>, respectivement. </p> </td> 
+   <td colname="col2"> <p> Si spécifié dans l’URL, toutes les occurrences de <span class="codeph"> &amp;</span> et <span class="codeph"> =</span> doivent être codées en HTTP sous la forme respectivement de <span class="codeph"> %26</span> et <span class="codeph"> %3D</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

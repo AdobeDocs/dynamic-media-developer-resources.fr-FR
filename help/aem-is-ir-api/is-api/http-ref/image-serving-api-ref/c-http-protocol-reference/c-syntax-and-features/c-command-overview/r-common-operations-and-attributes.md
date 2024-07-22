@@ -2,13 +2,13 @@
 description: Ces commandes s’appliquent aux calques d’image, de texte et de couleur unie. Elles s’avèrent également généralement utiles pour les images composites et les demandes d’image simples et non calquées.
 solution: Experience Manager
 title: Opérations courantes
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f30a9653-7aed-4233-8361-18ca6561d420
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 3%
+source-wordcount: '135'
+ht-degree: 0%
 
 ---
 

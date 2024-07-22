@@ -8,7 +8,7 @@ exl-id: 4e4f382e-4339-4b9d-a721-d33a4fa8be6b
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 19%
+ht-degree: 16%
 
 ---
 
@@ -41,7 +41,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-c3fe4d4388674870a3856c35ef66b631}
 
-**Request**
+**Requête**
 
 ```java
 <ns1:updateFolderPermissionsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

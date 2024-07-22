@@ -4,10 +4,11 @@ description: Commande URL pour la visionneuse de vidéos avec recadrage intellig
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 0d7000d0-9181-4c6e-a94e-31ab5ad17fa4
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 12%
+source-wordcount: '209'
+ht-degree: 5%
 
 ---
 
@@ -39,19 +40,19 @@ La visionneuse prend en charge le sous-titrage codé par le biais de fichiers We
    <td colname="col1"> <p>T </p> </td> 
    <td colname="col2"> <p>position du texte </p> </td> 
    <td colname="col3"> <p> 0 à 100 % </p> </td> 
-   <td colname="col4"> <p> Pourcentage d’insertion dans le composant VideoPlayer pour le début du texte de la légende. </p> <p>Valeur par défaut : 0%. </p> </td> 
+   <td colname="col4"> <p> Pourcentage d’insertion dans le composant VideoPlayer pour le début du texte de la légende. </p> <p>La valeur par défaut est de 0 %. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>taille de ligne </p> </td> 
    <td colname="col3"> <p> 0 à 100 % </p> </td> 
-   <td colname="col4"> <p> Pourcentage de la largeur de la vidéo utilisée pour les sous-titres. </p> <p>Valeur par défaut : 100%. </p> </td> 
+   <td colname="col4"> <p> Pourcentage de la largeur de la vidéo utilisée pour les sous-titres. </p> <p>La valeur par défaut est de 100 %. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>L </p> </td> 
-   <td colname="col2"> <p>position ligne </p> </td> 
+   <td colname="col2"> <p>position de ligne </p> </td> 
    <td colname="col3"> <p> 0%-100%|integer </p> </td> 
-   <td colname="col4"> <p> Détermine la position de la ligne sur la page. </p> <p>S’il est exprimé sous la forme d’un entier (aucun signe de pourcentage), il s’agit du nombre de lignes du haut où le texte est affiché. </p> <p>S’il s’agit d’un pourcentage (le signe de pourcentage est le dernier caractère), le texte de la légende s’affiche avec ce pourcentage dans la zone d’affichage. </p> <p>Valeur par défaut : 100%. </p> </td> 
+   <td colname="col4"> <p> Détermine la position de la ligne sur la page. </p> <p>S’il est exprimé sous la forme d’un entier (aucun signe de pourcentage), il s’agit du nombre de lignes du haut où le texte est affiché. </p> <p>S’il s’agit d’un pourcentage (le signe de pourcentage est le dernier caractère), le texte de la légende s’affiche avec ce pourcentage dans la zone d’affichage. </p> <p>La valeur par défaut est de 100 %. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,7 +66,7 @@ Les autres fonctionnalités WebVTT présentes dans le fichier WebVTT ne sont pas
    <td colname="col2"> <p> Spécifie une URL ou un chemin d’accès au contenu de la légende WebVTT. Servez le fichier WebVTT par ImageServing. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> 0 | 1</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
    <td colname="col2"> <p> Indique l’état de la légende par défaut (activé est <span class="codeph"> 1</span>). </p> </td> 
   </tr> 
  </tbody> 

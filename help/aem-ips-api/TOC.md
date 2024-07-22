@@ -1,29 +1,29 @@
 ---
 cloud: Experience Cloud
-user-guide-title: API Système de production dʼimages Dynamic Media
+user-guide-title: API du système de production d’images Dynamic Media
 feature-set: Experience Manager Assets
-user-guide-description: LʼAPI de service web Système de production dʼimages (IPS) permet aux applications externes et aux développeurs tiers dʼaccéder par programme aux ressources et fonctionnalités de lʼIPS.
+user-guide-description: L’API de service Web IPS (Image Production System) permet aux applications externes et aux développeurs tiers d’accéder par programmation aux ressources et fonctionnalités d’IPS.
 source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 9%
+source-wordcount: '661'
+ht-degree: 3%
 
 ---
 
 
-# API Système de production dʼimages Dynamic Media {#image-production-api}
+# API du système de production d’images Dynamic Media {#image-production-api}
 
 + [À propos de l’API Dynamic Media Image Production System](c-overview.md)
 + [Appels obsolètes](c-deprecated-calls.md)
 + [Versions WSDL du service Web IPS](c-wsdl-versions.md)
-+ Méthodes d&#39;opération {#operation-methods}
++ Méthodes d’opération {#operation-methods}
    + [Méthodes d’exploitation](operations/c-operations-intro/c-operations-intro.md)
-   + Paramètres d&#39;opération {#operation-parameters}
+   + Paramètres d’opération {#operation-parameters}
       + [Présentation des paramètres d’opération](operations/c-operations-intro/c-methods/c-methods.md)
       + [addCompany](operations/c-operations-intro/c-methods/r-add-company.md)
       + [addCompanyMembership](operations/c-operations-intro/c-methods/r-add-company-membership.md)
       + [addGroupMembers](operations/c-operations-intro/c-methods/r-add-group-members.md)
-      + [addGroupMembership](operations/c-operations-intro/c-methods/r-add-group-membership.md)
+      + [addGroupMember](operations/c-operations-intro/c-methods/r-add-group-membership.md)
       + [addProjectAssets](operations/c-operations-intro/c-methods/r-add-project-assets.md)
       + [addTagFieldValues](operations/c-operations-intro/c-methods/r-add-tag-field-values.md)
       + [addUser](operations/c-operations-intro/c-methods/r-add-user.md)
@@ -116,7 +116,7 @@ ht-degree: 9%
       + [getUserInfo](operations/c-operations-intro/c-methods/r-get-user-info.md)
       + [getUsers](operations/c-operations-intro/c-methods/r-get-users.md)
       + [getViewerConfigSettings](operations/c-operations-intro/c-methods/r-get-viewer-config-settings.md)
-      + [getVignettePublishFormats](operations/c-operations-intro/c-methods/r-get-vignette-publish-formats.md)
+      + [getVideoPublishFormats](operations/c-operations-intro/c-methods/r-get-vignette-publish-formats.md)
       + [getXMPPacket](operations/c-operations-intro/c-methods/r-get-xmp-packet.md)
       + [getZipEntries](operations/c-operations-intro/c-methods/r-get-zip-entries.md)
       + [moveAsset](operations/c-operations-intro/c-methods/r-move-asset.md)
@@ -182,7 +182,7 @@ ht-degree: 9%
    + [ActiveJob](types/c-data-types/r-active-job.md)
    + [ActiveJobArray](types/c-data-types/r-active-job-array.md)
    + [AnimatedGifInfo](types/c-data-types/r-animatedgifinfo.md)
-   + [Fichier](types/c-data-types/r-asset.md)
+   + [Ressource](types/c-data-types/r-asset.md)
    + [AssetArray](types/c-data-types/r-asset-array.md)
    + [AssetContextStateUpdate](types/c-data-types/r-asset-context-state-update.md)
    + [AssetContextStateUpdateArray](types/c-data-types/r-asset-context-state-update-array.md)
@@ -210,7 +210,7 @@ ht-degree: 9%
    + [BatchMetadataUpdateArray](types/c-data-types/r-batch-metadata-update-array.md)
    + [CabinetInfo](types/c-data-types/r-cabinet-info.md)
    + [ColorManagementOptions](types/c-data-types/r-color-management-options.md)
-   + [Entreprise](types/c-data-types/r-company.md)
+   + [Société](types/c-data-types/r-company.md)
    + [CompanyArray](types/c-data-types/r-company-array.md)
    + [CompanyMember](types/c-data-types/r-company-member.md)
    + [CompanyMemberArray](types/c-data-types/r-company-member-array.md)
@@ -259,7 +259,7 @@ ht-degree: 9%
    + [ImageFormat](types/c-data-types/r-image-format.md)
    + [ImageFormatArray](types/c-data-types/r-image-format-array.md)
    + [ImageInfo](types/c-data-types/r-image-info.md)
-   + [Zone cliquable](types/c-data-types/r-image-map.md)
+   + [ImageMap](types/c-data-types/r-image-map.md)
    + [ImageMapArray](types/c-data-types/r-image-map-array.md)
    + [ImageMapDefinition](types/c-data-types/r-image-map-definition.md)
    + [ImageMapDefinitionArray](types/c-data-types/r-image-map-definition-array.md)
@@ -393,13 +393,13 @@ ht-degree: 9%
    + [ZipEntry](types/c-data-types/r-zip-entry.md)
    + [ZipEntryArray](types/c-data-types/r-zip-entry-array.md)
    + [ZipInfo](types/c-data-types/r-zip-info.md)
-   + [Cible de zoom](types/c-data-types/r-zoom-target.md)
+   + [ZoomTarget](types/c-data-types/r-zoom-target.md)
    + [ZoomTargetArray](types/c-data-types/r-zoom-target-array.md)
    + [ZoomTargetDefinition](types/c-data-types/r-zoom-target-definition.md)
    + [ZoomTargetDefinitionArray](types/c-data-types/r-zoom-target-definition-array.md)
 + Constantes de chaîne {#sting-constants}
    + [Constantes de chaîne](string-constants/c-string-constants/c-string-constants.md)
-   + [Principaux états de tâche](string-constants/c-string-constants/r-active-job-states.md)
+   + [États de tâche actifs](string-constants/c-string-constants/r-active-job-states.md)
    + [Champs du système de recherche de ressources](string-constants/c-string-constants/r-asset-search-system-fields.md)
    + [Modes de remplacement des ressources](string-constants/c-string-constants/r-asset-overwrite-modes.md)
    + [Champs de tri des ressources](string-constants/c-string-constants/r-asset-sort-fields.md)
@@ -407,7 +407,7 @@ ht-degree: 9%
    + [Coin de recadrage automatique](string-constants/c-string-constants/r-auto-crop-corner.md)
    + [Modes de gestion des couleurs](string-constants/c-string-constants/r-color-management-modes.md)
    + [Espaces colorimétriques](string-constants/c-string-constants/r-color-spaces.md)
-   + [Paramètres d&#39;e-mail](string-constants/c-string-constants/r-email-settings.md)
+   + [Paramètres de messagerie électronique](string-constants/c-string-constants/r-email-settings.md)
    + [Styles de police](string-constants/c-string-constants/r-font-styles.md)
    + [Types de police](string-constants/c-string-constants/r-font-types.md)
    + [Informations sur la génération](string-constants/c-string-constants/r-generation-info.md)
@@ -425,10 +425,10 @@ ht-degree: 9%
    + [Modes de nommage des calques Photoshop](string-constants/c-string-constants/r-photoshop-layer-naming-modes.md)
    + [Modes d’espace colorimétrique PostScript](string-constants/c-string-constants/r-postscript-colorspace-modes.md)
    + [Classes de profil](string-constants/c-string-constants/r-profile-classes.md)
-   + [État de publication](string-constants/c-string-constants/r-publish-state.md)
+   + [État Publish](string-constants/c-string-constants/r-publish-state.md)
    + [Types de jeux de propriétés](string-constants/c-string-constants/r-property-set-types.md)
-   + [Contexte de publication](string-constants/c-string-constants/r-publish-context.md)
-   + [Types de publication](string-constants/c-string-constants/r-publish-types.md)
+   + [Publish Context](string-constants/c-string-constants/r-publish-context.md)
+   + [Types Publish](string-constants/c-string-constants/r-publish-types.md)
    + [Forme de région](string-constants/c-string-constants/r-region-shape.md)
    + [Modes de correspondance de recherche](string-constants/c-string-constants/r-search-match-modes.md)
    + [Tri des instructions](string-constants/c-string-constants/r-sort-directions.md)
@@ -447,32 +447,32 @@ ht-degree: 9%
    + [Journal des modifications](change-log/c-change-log.md)
    + Version 6.0 {#version-6-0}
       + [Version 6.0](change-log/c-change-log/c-6/c-6.md)
-      + [Opérations : Nouveautés et modifications](change-log/c-change-log/c-6/r-6-operations.md)
-      + [Types de données : Nouveautés et modifications](change-log/c-change-log/c-6/r-6-types.md)
+      + [Opérations : nouvelles et modifiées](change-log/c-change-log/c-6/r-6-operations.md)
+      + [Types de données : nouveaux et modifiés](change-log/c-change-log/c-6/r-6-types.md)
    + Version 4.5 {#version-4-5}
       + [Version 4.5](change-log/c-change-log/c-4-5/c-4-5.md)
-      + [Opérations : Nouveautés et modifications](change-log/c-change-log/c-4-5/r-4-5-operations.md)
-      + [Types de données : Nouveautés et modifications](change-log/c-change-log/c-4-5/r-4-5-types.md)
+      + [Opérations : nouvelles et modifiées](change-log/c-change-log/c-4-5/r-4-5-operations.md)
+      + [Types de données : nouveaux et modifiés](change-log/c-change-log/c-4-5/r-4-5-types.md)
       + [Utilisation limitée](change-log/c-change-log/c-4-5/r-restricted-use.md)
    + Version 4.4 {#version-4-4}
       + [Version 4.4](change-log/c-change-log/c-4-4/c-4-4.md)
-      + [Opérations : Nouveautés et modifications](change-log/c-change-log/c-4-4/r-4-4-operations.md)
-      + [Types de données : Nouveautés et modifications](change-log/c-change-log/c-4-4/r-4-4-types.md)
-      + [Constantes de chaîne : Nouveautés et modifications](change-log/c-change-log/c-4-4/r-4-4-string-constants.md)
+      + [Opérations : nouvelles et modifiées](change-log/c-change-log/c-4-4/r-4-4-operations.md)
+      + [Types de données : nouveaux et modifiés](change-log/c-change-log/c-4-4/r-4-4-types.md)
+      + [Constantes de chaîne : nouvelles et modifiées](change-log/c-change-log/c-4-4/r-4-4-string-constants.md)
    + Version 4.2 {#version-4-2}
       + [Version 4.2](change-log/c-change-log/c-4-2/c-4-2.md)
-      + [Types de données : Nouveautés et modifications](change-log/c-change-log/c-4-2/r-4-2-types.md)
+      + [Types de données : nouveaux et modifiés](change-log/c-change-log/c-4-2/r-4-2-types.md)
    + Version 4.0 {#version-4-0}
       + [Version 4.0](change-log/c-change-log/c-4-0/c-4-0.md)
       + [Nouveaux ajouts et modifications](change-log/c-change-log/c-4-0/r-4-0-new.md)
    + Version 3.8 {#version-3-8}
       + [Version 3.8](change-log/c-change-log/c-3-8/c-3-8.md)
-      + [Opérations : Nouveautés et modifications](change-log/c-change-log/c-3-8/r-3-8-operations.md)
-      + [Types de données : Nouveautés et modifications](change-log/c-change-log/c-3-8/r-3-8-types.md)
-      + [Constantes de chaîne : Nouveautés et modifications](change-log/c-change-log/c-3-8/r-3-8-string-constants.md)
+      + [Opérations : nouvelles et modifiées](change-log/c-change-log/c-3-8/r-3-8-operations.md)
+      + [Types de données : nouveaux et modifiés](change-log/c-change-log/c-3-8/r-3-8-types.md)
+      + [Constantes de chaîne : nouvelles et modifiées](change-log/c-change-log/c-3-8/r-3-8-string-constants.md)
    + Version 3.7 {#version-3-7}
       + [Version 3.7](change-log/c-change-log/c-3-7/c-3-7.md)
-      + [Opérations : Nouveautés et modifications](change-log/c-change-log/c-3-7/r-3-7-operations.md)
-      + [Types de données : Nouveautés et modifications](change-log/c-change-log/c-3-7/r-3-7-types.md)
-      + [Constantes de chaîne : Nouveautés et modifications](change-log/c-change-log/c-3-7/r-3-7-string-constants.md)
+      + [Opérations : nouvelles et modifiées](change-log/c-change-log/c-3-7/r-3-7-operations.md)
+      + [Types de données : nouveaux et modifiés](change-log/c-change-log/c-3-7/r-3-7-types.md)
+      + [Constantes de chaîne : nouvelles et modifiées](change-log/c-change-log/c-3-7/r-3-7-string-constants.md)
 + [Téléchargement de ressources au moyen de HTTP POST vers UploadFile...](c-http-post.md)

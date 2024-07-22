@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 8e93aa32-b38e-46e4-be52-abd81222cfc3
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '245'
+ht-degree: 1%
 
 ---
 
@@ -25,11 +25,11 @@ Hauteur de l’image de réponse. Indique la mise à l’échelle de l’image r
  </tr> 
 </table>
 
-L’image n’est pas complétée si les deux `wid=` et `hei=` sont spécifiés et la largeur/hauteur est différente des proportions de l’image.
+L’image n’est pas complétée si `wid=` et `hei=` sont spécifiés et que la largeur/hauteur est différente des proportions de l’image.
 
-`wid=` et `hei=` travaillez ensemble pour définir la taille de l’image qui est renvoyée par le serveur. If `scl=` vient après `wid=` ou `hei=` dans l’URL, elle annule ces commandes et `scl=` définit la taille de l’image renvoyée par le serveur.
+`wid=` et `hei=` travaillent ensemble pour définir la taille de l’image renvoyée par le serveur. Si `scl=` se trouve après `wid=` ou `hei=` dans l’URL, il annule ces commandes et `scl=` définit la taille de l’image renvoyée par le serveur.
 
-Cependant, si `wid=` ou `hei=` vient après `scl=` dans l’URL, ils annulent `scl=` et `wid=`/ `hei=` définissez la taille de l’image renvoyée par le serveur.
+Cependant, si `wid=` ou `hei=` se trouve après `scl=` dans l’URL, ils annulent `scl=` et `wid=`/ `hei=` définissent la taille de l’image renvoyée par le serveur.
 
 >[!NOTE]
 >
@@ -37,11 +37,11 @@ Cependant, si `wid=` ou `hei=` vient après `scl=` dans l’URL, ils annulent `s
 
 ## Propriétés {#section-6cbc6acd37c847beab84c896ac25280c}
 
-Peut se produire n’importe où dans la requête. Redimensionnement de l’image avec `wid=`, `hei=`ou `scl=` ne modifie pas la valeur de résolution d’impression incorporée dans l’image de réponse. Ignoré si `scl=` se produit après `wid=` et/ou `hei=` dans la séquence de commande.
+Peut se produire n’importe où dans la requête. Le redimensionnement de l’image avec `wid=`, `hei=` ou `scl=` ne modifie pas la valeur de résolution d’impression incorporée dans l’image de réponse. Ignoré si `scl=` survient après `wid=` et/ou `hei=` dans la séquence de commande.
 
 ## Par défaut {#section-61043f6c1f5d450883ff9e5eafd95955}
 
-If `wid=`, `hei=`ou `scl=` ne sont pas spécifiées, l’image de réponse est mise à l’échelle de manière à s’adapter à la taille définie par `attribute::DefaultPix`. If `attribute::DefaultPix` est vide, l’image de réponse a la même taille que l’image d’affichage de la vignette.
+Si `wid=`, `hei=` ou `scl=` ne sont pas spécifiés, l’image de réponse est mise à l’échelle pour s’adapter à la taille définie par `attribute::DefaultPix`. Si `attribute::DefaultPix` est vide, l’image de réponse a la même taille que l’image d’affichage de la vignette.
 
 ## Voir aussi {#section-7ba51379f1e2421c92d3592d20a37734}
 

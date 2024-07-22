@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: ba22c79b-da59-4993-aa1c-2c990a0c4be5
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 2%
+source-wordcount: '273'
+ht-degree: 1%
 
 ---
 
@@ -25,9 +25,9 @@ Largeur de l’affichage. Indique la largeur de l’image de réponse (image d�
  </tr> 
 </table>
 
-Si les deux `hei=` et `scl=` sont spécifiés, l’image composite peut être recadrée selon les `align=` attribut. When `fit=` est présent, `wid=` spécifie la largeur exacte, minimale ou maximale de l’image de réponse ; voir la description de `fit=` pour plus d’informations.
+Si `hei=` et `scl=` sont spécifiés, l’image composite peut être recadrée en fonction de l’attribut `align=` . Lorsque `fit=` est présent, `wid=` spécifie la largeur exacte, minimale ou maximale de l’image de réponse ; reportez-vous à la description de `fit=` pour plus d’informations.
 
-If `scl=` n’est pas spécifié, l’image composite est mise à l’échelle de manière à s’adapter. Si les deux `wid=` et `hei=` sont spécifiés, et `scl=` n’est pas spécifié, l’image est mise à l’échelle de manière à s’adapter entièrement au rectangle large/hauteur, en laissant une zone d’arrière-plan aussi petite que possible. Dans ce cas, l’image est positionnée dans le rectangle de l’affichage en fonction du `align=` attribut.
+Si `scl=` n’est pas spécifié, l’image composite est mise à l’échelle de manière adaptée. Si `wid=` et `hei=` sont spécifiés tous les deux, et que `scl=` n’est pas spécifié, l’image est mise à l’échelle de manière à s’adapter entièrement au rectangle large/hauteur, laissant une zone d’arrière-plan aussi petite que possible exposée. Dans ce cas, l’image est positionnée dans le rectangle de la vue en fonction de l’attribut `align=` .
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ If `scl=` n’est pas spécifié, l’image composite est mise à l’échelle d
 
 ## Par défaut {#section-976d4c8554a34c899f85d172f6ac6f58}
 
-Si aucun `wid=`, `hei=`, ou `scl=` sont spécifiées, l’image de réponse a la taille de l’image composite ou `attribute::DefaultPix`, le plus petit.
+Si aucun des paramètres `wid=`, `hei=` et `scl=` n’est spécifié, l’image de réponse a la taille de l’image composite ou `attribute::DefaultPix`, selon ce qui est plus petit.
 
 ## Propriétés {#section-c93b7ce1b0d2475f80b06264b45d1285}
 
@@ -43,11 +43,11 @@ Attribut d’affichage. Elle s’applique quel que soit le paramètre de calque 
 
 ## Exemple {#section-82bc98b7c15a451bbe9b915d414c0470}
 
-Demandez une image afin qu’elle s’adapte à un rectangle de 200 x 200 ; alignez l’image en haut à droite si elle n’est pas carrée. N’importe quelle zone d’arrière-plan est remplie de `attribute::BkgColor`.
+Demandez une image afin qu’elle s’adapte à un rectangle de 200 x 200 ; alignez l’image en haut à droite si elle n’est pas carrée. Toute zone d’arrière-plan est remplie avec `attribute::BkgColor`.
 
 ` http:// *`Serveur`*/myRootId/myImageId?wid=200&hei=200&align=1,-1`
 
-Même image, diffusée à une largeur fixe de 200 pixels, mais avec une hauteur variable pour conserver les proportions de l’image. Dans ce cas, l’image renvoyée ne comporte aucune zone de fond. Dans ce cas, `align=` n&#39;aurait aucun effet.
+Même image, diffusée à une largeur fixe de 200 pixels, mais avec une hauteur variable pour conserver les proportions de l’image. Dans ce cas, l’image renvoyée ne comporte aucune zone de fond. Dans ce cas, `align=` n’aurait aucun effet.
 
 ` http:// *`Serveur`*/myRootId/myImageId?wid=200`
 

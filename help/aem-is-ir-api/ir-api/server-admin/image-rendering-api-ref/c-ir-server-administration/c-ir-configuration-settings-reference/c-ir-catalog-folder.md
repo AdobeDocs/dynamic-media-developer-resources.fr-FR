@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Emplacement du dossier du catalogue des matières (où tous les fichiers catalog.ini doivent être situés).
 
-Peut être un chemin absolu ou un chemin relatif à [!DNL] *[!DNL install_folder]*]. Par défaut : [!DNL ./catalog], qui correspond à [!DNL *[!DNL install_folder]*/catalog].
+Peut être un chemin absolu ou un chemin relatif à [!DNL *[!DNL install_folder]*]. La valeur par défaut est [!DNL ./catalog], ce qui correspond à [!DNL *[!DNL install_folder]*/catalog].

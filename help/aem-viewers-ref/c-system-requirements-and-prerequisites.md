@@ -8,8 +8,8 @@ role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 1%
+source-wordcount: '361'
+ht-degree: 2%
 
 ---
 
@@ -26,14 +26,14 @@ Configuration requise pour les visionneuses Dynamic Media HTML5.
 <!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
 * Adobe Dynamic Media Image Serving 6.7.1 ou version ultérieure.
-* Les visionneuses HTML5 requièrent des bibliothèques SDK JavaScript côté serveur 3.11.5 ou version ultérieure.
-* *Envoyer un courrier électronique à un ami* les fonctions sociales requièrent s7ondemand 5.0.9 ou version ultérieure.
-* Visionneuse de catalogue électronique - [Fenêtre contextuelle du panneau Informations](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) La prise en charge nécessite info server 2.1.8 ou version ultérieure.
+* Les visionneuses HTML5 requièrent une version 3.11.5 ou ultérieure des bibliothèques côté serveur SDK JavaScript.
+* *Pour envoyer un courrier électronique à un ami*, les fonctionnalités sociales requièrent s7ondemand 5.0.9 ou version ultérieure.
+* Visionneuse de catalogue électronique - La prise en charge de la fenêtre contextuelle [panneau d’informations](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) nécessite le serveur d’informations 2.1.8 ou version ultérieure.
 * Les composants des fonctionnalités de recherche requièrent s7search 2.3.0 ou version ultérieure.
 
 ## Configuration requise des visionneuses {#section-cc72b1e209524d038b4d5b92b35e998e}
 
-**Configuration requise du navigateur client pour les visionneuses de composants :**
+**Exigences minimales du navigateur client pour les visionneuses de composants :**
 
 * Pris en charge sur les versions de système d’exploitation suivantes ou ultérieures :
    * Microsoft® Windows® 7
@@ -50,7 +50,7 @@ Configuration requise pour les visionneuses Dynamic Media HTML5.
    * iPhone 3GS
    * Safari 11
 * Internet Explorer sur les appareils mobiles n’est pas pris en charge.
-* *PanoramicViewer* est pris en charge sur les versions de navigateur/plateforme suivantes ou ultérieures :
+* *PanoramicViewer* est pris en charge sur les versions suivantes de navigateur/plate-forme ou ultérieures :
    * Android™ 4.4 (appareils mobiles uniquement)
    * Chrome 82
    * Edge
@@ -58,14 +58,14 @@ Configuration requise pour les visionneuses Dynamic Media HTML5.
    * Internet Explorer 11
    * iOS 10
    * Safari 11
-* *Visionneuse de vidéos 360x* et *DimensionalViewer* est pris en charge sur les versions de navigateur/plateforme suivantes ou ultérieures :
+* *Video360Viewer* et *DimensionalViewer* sont pris en charge sur les versions de navigateur/plate-forme suivantes ou ultérieures :
    * Android™ 5 (appareils mobiles uniquement)
    * Chrome 82
    * Edge
    * Firefox 77
    * iOS 12
    * Safari 12
-* *ZoomVerticalViewer* est pris en charge sur les versions de navigateur/plateforme suivantes ou ultérieures :
+* *ZoomVerticalViewer* est pris en charge sur les versions suivantes de navigateur/plate-forme ou ultérieures :
    * Android™ 4.x
    * Chrome 82
    * Edge

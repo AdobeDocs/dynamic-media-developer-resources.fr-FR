@@ -18,12 +18,12 @@ Définissez n’importe quel attribut pour un s7:elementID donné.
 
 `setAttr.elementID={ *[!DNL attributeName]*= *[!DNL attributeValue]*, *[!DNL attributeName]*= *[!DNL AttributeValue]*…}`
 
-Si un élément de noeud FXG comporte une propriété `s7:elementID` défini, vous pouvez manipuler les attributs de ce noeud. Vous pouvez définir autant de paires attribut/valeur que vous le souhaitez. Les attributs n’ont pas besoin d’être déjà définis dans le FXG, mais ils doivent être valides pour l’élément node . Toutes les valeurs comprises entre `{}` doivent être placées dans une séquence d’échappement.
+Si un `s7:elementID` est défini pour un élément de noeud FXG, vous pouvez manipuler les attributs de ce noeud. Vous pouvez définir autant de paires attribut/valeur que vous le souhaitez. Les attributs n’ont pas besoin d’être déjà définis dans le FXG, mais ils doivent être valides pour l’élément node . Toutes les valeurs comprises entre `{}` doivent être placées dans une séquence d’échappement.
 
 ## Exemple {#section-9c37470d5f0349e5b0a97291782cb7a6}
 
-Supposons qu’une `s7:elementID="Group1"` est défini pour un `BitmapGraphic` , les éléments suivants sont valides :
+Supposons qu’un attribut `s7:elementID="Group1"` soit défini pour un noeud `BitmapGraphic`, ce qui suit est valide :
 
 `&setAttr.Group1={x=250%26y=170%26rotation=90%26scaleX=1%26scaleY=0.5}`
 
-Cet exemple définit la variable *[!DNL x]*, *[!DNL y]*, *[!DNL rotation]*, *[!DNL scaleX]*, et *[!DNL scaleY]* pour le `BitmapGraphic` et remplace toutes les valeurs existantes.
+Cet exemple définit les *[!DNL x]*, *[!DNL y]*, *[!DNL rotation]*, *[!DNL scaleX]* et *[!DNL scaleY]* pour le `BitmapGraphic` et remplace toutes les valeurs existantes.

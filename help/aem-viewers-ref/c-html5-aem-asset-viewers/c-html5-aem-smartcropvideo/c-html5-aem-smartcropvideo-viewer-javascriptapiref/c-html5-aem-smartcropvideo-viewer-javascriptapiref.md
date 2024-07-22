@@ -4,9 +4,10 @@ description: La classe principale de la visionneuse de vidéos avec recadrage in
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 92c25a5a-2103-4906-8ff7-ffc8e0541464
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '96'
 ht-degree: 0%
 
 ---
@@ -15,4 +16,4 @@ ht-degree: 0%
 
 La classe principale de la visionneuse de vidéos avec recadrage intelligent est SmartCropVideoViewer. Il est déclaré dans l’espace de noms s7viewers. Cette API JavaScript couvre le constructeur, les méthodes et les rappels de cette classe particulière.
 
-Dans tous les exemples suivants, `<instance>` est le nom réel de l’objet de visionneuse JavaScript appelé à partir de la fonction `s7viewers.SmartCropVideoViewer` classe .
+Dans tous les exemples suivants, `<instance>` est le nom réel de l’objet de visionneuse JavaScript qui est instancié à partir de la classe `s7viewers.SmartCropVideoViewer`.

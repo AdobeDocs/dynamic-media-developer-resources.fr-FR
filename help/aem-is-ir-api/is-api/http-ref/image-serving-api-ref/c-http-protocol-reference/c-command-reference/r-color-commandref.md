@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: b937e699-8e1e-4211-86a6-fdc155a0e3ed
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '201'
 ht-degree: 3%
 
 ---
@@ -25,13 +25,13 @@ Couleur du calque. Indique la couleur de premier plan et l’opacité des calque
  </tr> 
 </table>
 
-Si des calques d’image et de texte existent, `color=` remplit les zones transparentes et semi-opaques dans le rectangle de délimitation du calque avec la couleur spécifiée* avant* `rotate=` et `extend=` sont appliquées.
+S’il existe des calques d’image et de texte, `color=` remplit des zones transparentes et semi-opaques dans le rectangle de délimitation du calque avec la couleur spécifiée* avant l’application des caractères* `rotate=` et `extend=`.
 
 ## Propriétés {#section-d6e74c36a49547849212e4db8927e678}
 
-Attribut de calque. S’applique au calque actif ou au calque 0 si `layer=comp`.
+Attribut de calque. S’applique au calque actif ou au calque 0 s’il est `layer=comp`.
 
-Le modificateur *`color`* est supposé exister dans l’espace colorimétrique de travail correspondant au type de pixel de *`color`*. Et *`color`* est converti avec précision si l’image de calque a un type de pixel différent au moment de la fusion.
+Le modificateur *`color`* est supposé exister dans l’espace colorimétrique de travail correspondant au type de pixel de *`color`*. *`color`* est converti avec précision si l’image de calque possède un type de pixel différent au moment de la fusion.
 
 ## Par défaut {#section-60611c72876b4c45b5c85ce35608e5ec}
 
@@ -45,4 +45,4 @@ Dans le fragment de modèle suivant, l’arrière-plan du texte est défini sur 
 
 ## Voir aussi {#section-f0e059f857b64b61ab4f23312b8dc619}
 
-[color](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md#reference-0fdb264a3aed4bd78451bb55311f6e93), [bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab), [opac=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-opac.md#reference-d2269b51aca34599a08d0a46ee5c27e5), [extended=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac), [bgc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88), [Gestion des couleurs](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-color-management.md#reference-c7e4a72d589145189f7e4bcb6b4544d7)
+[color](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md#reference-0fdb264a3aed4bd78451bb55311f6e93), [bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab), [opac=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-opac.md#reference-d2269b51aca34599a08d0a46ee5c27e5), [extension=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac), [bgc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgc.md#reference-53376175f617446fbe5c69120f834b88), [Gestion des couleurs](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-color-management.md#reference-c7e4a72d589145189f7e4bcb6b4544d7)

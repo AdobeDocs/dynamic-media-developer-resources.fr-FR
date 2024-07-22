@@ -1,5 +1,5 @@
 ---
-description: Publie toutes les images, tous les modèles et toutes les visionneuses à 360° marquées comme prêtes à être publiées dans un répertoire de serveur.
+description: Publie toutes les images, les modèles et les visionneuses à 360° marqués comme prêts à être publiés dans un répertoire de serveur.
 solution: Experience Manager
 title: ServerDirectoryPublishJob
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # [!DNL ServerDirectoryPublishJob]{#serverdirectorypublishjob}
 
-Publie toutes les images, tous les modèles et toutes les visionneuses à 360° marquées comme prêtes à être publiées dans un répertoire de serveur.
+Publie toutes les images, les modèles et les visionneuses à 360° marqués comme prêts à être publiés dans un répertoire de serveur.
 
 Syntaxe
 

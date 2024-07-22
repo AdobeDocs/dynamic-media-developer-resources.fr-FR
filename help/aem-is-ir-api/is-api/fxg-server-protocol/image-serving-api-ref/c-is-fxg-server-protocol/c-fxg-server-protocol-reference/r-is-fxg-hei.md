@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: dcc9311d-4157-490b-9fc4-47060ddb0e37
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 2%
+source-wordcount: '171'
+ht-degree: 1%
 
 ---
 
@@ -25,13 +25,13 @@ Hauteur d’affichage. Indique la hauteur de l’image de réponse.
  </tr> 
 </table>
 
-Les formats pixellisés sont rendus à l’aide de la taille d’affichage par défaut (ou du paramètre DefaultPix ). Sélectionner **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Configuration de la publication]** > **[!UICONTROL Serveur d’images]**, puis saisissez les valeurs Largeur et Hauteur . Des tailles plus petites offrent de meilleures performances. Enregistrez vos paramètres et effectuez une publication Image Serving pour appliquer une modification.
+Les formats pixellisés sont rendus à l’aide de la taille d’affichage par défaut (ou du paramètre DefaultPix ). Sélectionnez **[!UICONTROL Configuration de l’application]** > **[!UICONTROL Configuration de Publish]** > **[!UICONTROL Serveur d’images]**, puis saisissez vos valeurs Largeur et Hauteur. Des tailles plus petites offrent de meilleures performances. Enregistrez vos paramètres et effectuez un Publish de diffusion d’images pour appliquer une modification.
 
-Si vous appliquez une `scale=1` , une requête au format de pixellisation est rendue à la taille spécifiée dans le FXG.
+Si vous appliquez une commande `scale=1`, une requête de format de pixellisation est rendue à la taille spécifiée dans le FXG.
 
 ## Par défaut {#section-76ee3daa77cb468ab310821357cc9404}
 
-If `wid=`, `hei=`, ou `scale=` ne sont pas spécifiées, l’image de réponse est la taille d’affichage par défaut spécifiée dans le fichier FXG.
+Si `wid=`, `hei=` ou `scale=` ne sont pas spécifiés, l’image de réponse est la taille d’affichage par défaut spécifiée dans le fichier FXG.
 
 ## Exemple {#section-a91c14d31e71481ba054412d9f642885}
 

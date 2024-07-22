@@ -8,7 +8,7 @@ exl-id: 3f794f46-e7f0-4899-90fa-898a698dd629
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -54,7 +54,7 @@ Ces commandes s’appliquent quel que soit l’emplacement dans la requête.
   <td class="stentry"> <p>Indique les attributs de codage du JPEG. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38" type="reference" format="dita" scope="local"> quantifier</a> </p> </td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-quantize.md#reference-b8069670fa474e4799ac29f0d693ca38" type="reference" format="dita" scope="local"> quantifier </a> </p> </td> 
   <td class="stentry"> <p>Spécifie les attributs de quantification des couleurs pour la sortie de GIF. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -66,7 +66,7 @@ Ces commandes s’appliquent quel que soit l’emplacement dans la requête.
   <td class="stentry"> <p>Spécifie le mode de rééchantillonnage ou d’interpolation des images. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-template.md#reference-3beccaa462a64bf0ba867e5c8fd0bd14" type="reference" format="dita" scope="local"> modèle</a> </p> </td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-template.md#reference-3beccaa462a64bf0ba867e5c8fd0bd14" type="reference" format="dita" scope="local"> template</a> </p> </td> 
   <td class="stentry"> <p>Spécifie un modèle de composition. </p></td> 
  </tr> 
  <tr class="strow"> 

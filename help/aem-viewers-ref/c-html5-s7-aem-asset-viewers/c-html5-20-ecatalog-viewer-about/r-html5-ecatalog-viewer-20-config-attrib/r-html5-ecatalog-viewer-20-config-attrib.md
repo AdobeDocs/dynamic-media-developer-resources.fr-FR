@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Documentation sur les attributs de configuration pour la visionneuse de catalogue électronique.
 
-Toute commande de configuration peut être définie dans une URL ou à l’aide de `setParam()`ou `setParams()`, ou les deux, méthodes API. Vous pouvez également spécifier tout attribut de configuration spécifié dans l’enregistrement de configuration côté serveur.
+Toute commande de configuration peut être définie dans l’URL ou à l’aide des méthodes d’API `setParam()`, `setParams()` ou les deux. Vous pouvez également spécifier tout attribut de configuration spécifié dans l’enregistrement de configuration côté serveur.
 
-Pour certaines commandes de configuration, vous pouvez les préfixer avec le nom de classe ou d’instance du composant SDK de visionneuse correspondant. Un nom d’instance du composant est dynamique et dépend de l’identifiant de l’élément DOM du conteneur de visionneuses transmis à `setContainerId()` méthode API. La documentation comprend un préfixe facultatif pour ces commandes. Par exemple : `zoomstep` La commande est documentée comme suit :
+Pour certaines commandes de configuration, vous pouvez les préfixer avec le nom de classe ou d’instance du composant SDK de visionneuse correspondant. Un nom d’instance du composant est dynamique et dépend de l’identifiant de l’élément DOM du conteneur de visionneuses transmis à la méthode d’API `setContainerId()`. La documentation comprend un préfixe facultatif pour ces commandes. Par exemple, la commande `zoomstep` est documentée comme suit :
 
 `[PageView.|<containerId>_pageView].zoomstep`
 
@@ -26,6 +26,6 @@ Ce qui signifie que vous pouvez utiliser cette commande comme
 
 * `zoomstep` (syntaxe courte)
 * `PageView.zoomstep` (qualifié avec le nom de classe du composant)
-* `cont_pageView.zoomstep` (qualifié avec l’ID de composant, en supposant `cont` est l’identifiant de l’élément de conteneur)
+* `cont_pageView.zoomstep` (qualifié avec l’identifiant du composant, en supposant que `cont` soit l’identifiant de l’élément de conteneur)
 
 Voir aussi [Référence de commande commune à toutes les visionneuses - Attributs de configuration](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)

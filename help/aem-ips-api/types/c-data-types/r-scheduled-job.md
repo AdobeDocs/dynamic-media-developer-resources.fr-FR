@@ -7,7 +7,7 @@ role: Developer,Admin
 exl-id: c0084d10-ce38-4a01-9246-aaec44abc8eb
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '244'
 ht-degree: 4%
 
 ---
@@ -24,12 +24,12 @@ Syntaxe
 |---|---|---|
 | companyHandle | `xsd:string` | Poignée de la société. |
 | jobHandle | `xsd:string` | Gestionnaire de tâches planifiées. |
-| name | `xsd:string` | Nom de la tâche. |
+| nom | `xsd:string` | Nom de la tâche. |
 | originalName | `xsd:string` | Nom original de la tâche planifiée. |
 | type | `xsd:string` | Type de tâche. |
 | submitUserEmail | `xsd:string` | Adresse électronique de l’utilisateur qui a planifié la tâche. |
-| local | `xsd:string` | Paramètre régional à utiliser pour les détails du journal des tâches et la localisation des emails. Les paramètres régionaux sont spécifiés comme suit : `<language_code>[- <country_code>]`, où le code de langue est un code à deux lettres en minuscules, comme spécifié par la norme ISO-639, et le code de pays facultatif est un code à deux lettres en majuscules, comme spécifié par la norme ISO-3166. Par exemple, la chaîne du paramètre régional pour l’anglais (États-Unis) serait : `en-US`. |
-| description | `xsd:string` | Description de la tâche telle qu’elle est spécifiée à l’origine dans `submitJob`. |
+| local | `xsd:string` | Paramètre régional à utiliser pour les détails du journal des tâches et la localisation des emails. Les paramètres régionaux sont spécifiés sous la forme `<language_code>[- <country_code>]`, où le code de langue est un code à deux lettres en minuscules, comme spécifié par ISO-639, et le code de pays facultatif est un code à deux lettres en majuscules, comme spécifié par ISO-3166. Par exemple, la chaîne du paramètre régional pour l’anglais (États-Unis) serait : `en-US`. |
+| description | `xsd:string` | Description de la tâche telle qu’elle a été initialement spécifiée dans `submitJob`. |
 | execSchedule | `xsd:string` | Lorsque l’exécution de la tâche est planifiée. |
 | nextFireTime | `xsd:dateTime` | Date, heure et fuseau horaire du déclenchement de la tâche. |
 | timeZone | `xsd:dateTime` | Fuseau horaire de la tâche planifiée. |
@@ -40,9 +40,9 @@ Syntaxe
 | serverDirectoryPublishJob | `types:ServerDirectoryPublishJob` | Détails de la tâche pour une tâche de publication dans un répertoire de serveur. |
 | uploadDirectoryJob | `types:UploadDirectoryJob` | Détails de la tâche pour une tâche de téléchargement de répertoire. |
 | uploadUrlsJob | `types:UploadUrlsJob` | Détails de la tâche pour une tâche de téléchargement d’URL. |
-| optimizeImagesJob | `types:OptimizeImagesJob` |  |
-| ripPdfsJob | `types:RipPdfsJob` |  |
-| reprocessAssetsJob | `types:ReprocessAssetsJob` |  |
+| optimizeImagesJob | `types:OptimizeImagesJob` | |
+| ripPdfsJob | `types:RipPdfsJob` | |
+| reprocessAssetsJob | `types:ReprocessAssetsJob` | |
 | exportJob | `types:ExportJob` | Autoriser l’exportation autorisée des fichiers précédemment chargés. Voir [Tâche d’exportation](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
 
 ## Remarques {#section-34ec157f281f412f9f0f6e861e6ed0cd}

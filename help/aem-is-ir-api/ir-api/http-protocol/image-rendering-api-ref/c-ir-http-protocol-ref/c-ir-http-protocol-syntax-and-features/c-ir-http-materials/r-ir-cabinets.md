@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: cdb3ed5e-c396-483d-aea0-2b3f24efe56e
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 4%
+source-wordcount: '159'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Les documents de l’armoire spécifient un fichier de style armoire (extension de fichier .vnc), un fichier de données spécial contenant des représentations photographiques des armoires, ainsi que des définitions de disposition paramétrique et d’autres informations requises pour le rendu des façades de l’armoire.
 
-[!DNL vnc] Les fichiers peuvent inclure une texture de grain de bois répétable ou la texture peut être fournie en externe au moyen d’un deuxième argument pour `src=`. Certain [!DNL vnc] Les fichiers permettent de colorier ou de texturer des zones sélectionnées des façades de l’armoire (généralement utilisées pour les styles de l’armoire laminée).
+[!DNL vnc] fichiers peuvent inclure une texture de grain de bois répétable ou la texture peut être fournie en externe au moyen d’un second argument vers `src=`. Certains fichiers [!DNL vnc] permettent de colorer ou de texturer des zones sélectionnées des façades de l’armoire (généralement utilisées pour les styles de l’armoire laminée).
 
 Les documents de l’armoire peuvent uniquement être appliqués aux objets de l’armoire.
 

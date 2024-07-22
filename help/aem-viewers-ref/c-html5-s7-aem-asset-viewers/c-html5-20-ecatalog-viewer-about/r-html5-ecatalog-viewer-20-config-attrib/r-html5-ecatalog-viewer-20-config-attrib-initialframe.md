@@ -8,7 +8,7 @@ exl-id: 28b6b981-94f6-4136-b322-992e18d154db
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '58'
-ht-degree: 10%
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> frame</span></span> </p> </td> 
-   <td colname="col2"> <p> Spécifie un index de propagation de base zéro à afficher au chargement de la visionneuse. L’index correspond à l’index de la diffusion en mode paysage. Si la visionneuse est remplacée par portrait, elle affiche la page la plus à gauche de la fenêtre vers laquelle elle est pointée par <span class="codeph"> frameIdx</span>. </p> </td> 
+   <td colname="col2"> <p> Spécifie un index de propagation de base zéro à afficher au chargement de la visionneuse. L’index correspond à l’index de la diffusion en mode paysage. Si la visionneuse est remplacée par portrait, la visionneuse affiche la page la plus à gauche de la fenêtre vers laquelle pointe <span class="codeph"> frameIdx</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

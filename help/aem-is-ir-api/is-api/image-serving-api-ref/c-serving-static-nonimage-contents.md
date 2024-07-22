@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 1%
+source-wordcount: '459'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ Vous pouvez utiliser le service d’images pour gérer le contenu non-image dans
 
 Cette fonctionnalité permet de configurer le délai d’activation séparément pour chaque élément.
 
-La diffusion d’images prend en charge les commandes suivantes à l’adresse [!DNL /is/content]:
+La diffusion d’images prend en charge les commandes suivantes à l’emplacement [!DNL /is/content] :
 
 <table id="simpletable_8A3AB1D1D20F4B6CBE86767E94735980"> 
  <tr class="strow"> 
@@ -27,7 +27,7 @@ La diffusion d’images prend en charge les commandes suivantes à l’adresse [
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" format="dita" scope="local"> req </a> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> req=userdata </span>, <span class="codeph"> req=props </span>, et <span class="codeph"> req=exists </span> uniquement. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> req=userdata </span>, <span class="codeph"> req=props </span> et <span class="codeph"> req=exists </span> uniquement. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-cache.md#reference-168189bee4ce4d1189d427891f22be2e" format="dita" scope="local"> cache </a> </p> </td> 
@@ -40,10 +40,10 @@ La diffusion d’images prend en charge les commandes suivantes à l’adresse [
 <table id="simpletable_2F039A5BFA2C4E22B014F42ECBCDA0A2"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> requête </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="filepath"> http:// <span class="varname"> server </span>/is/content[/catalog/ <span class="varname"> item </span>][? <span class="varname"> modificateurs </span>] </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="filepath"> http:// <span class="varname"> serveur </span>/is/content[/catalog/ <span class="varname"> élément </span>][? <span class="varname"> modificateurs </span>] </span> </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> server </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> serveur </span> </span> </p> </td> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> server_address </span>[ : <span class="varname"> port </span>] </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -51,12 +51,12 @@ La diffusion d’images prend en charge les commandes suivantes à l’adresse [
   <td class="stentry"> <p>Identifiant du catalogue. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> item </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> élément </span> </span> </p> </td> 
   <td class="stentry"> <p>ID d’élément de contenu statique. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> modificateurs </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> command </span>*&amp; <span class="varname"> command </span>] </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> command </span>*[&amp; <span class="varname"> command </span>] </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> command </span> </span> </p> </td> 
@@ -85,7 +85,7 @@ Les catalogues de contenu statique sont similaires aux catalogues d’images, ma
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> catalog::Id </span> </p> </td> 
+   <td colname="col1"> <p> Catalogue <span class="codeph"> ::Id </span> </p> </td> 
    <td colname="col2"> <p>Identifiant d’enregistrement de catalogue pour cet élément de contenu statique. </p> </td> 
   </tr> 
   <tr> 
@@ -93,33 +93,33 @@ Les catalogues de contenu statique sont similaires aux catalogues d’images, ma
    <td colname="col2"> <p>Chemin d’accès au fichier pour cet élément de contenu. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> catalogue : Expiration </span> </p> </td> 
-   <td colname="col2"> <p>TTL pour cet élément de contenu ; <span class="codeph"> attribute::Expiration </span> est utilisé s’il n’est pas spécifié ou s’il est vide. </p> </td> 
+   <td colname="col1"> <p> Catalogue <span class="codeph"> ::Expiration </span> </p> </td> 
+   <td colname="col2"> <p>La durée de vie de cet élément de contenu ; attribut <span class="codeph">::Expiration </span> est utilisée si elle n’est pas spécifiée ou si elle est vide. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> catalogue ::TimeStamp </span> </p> </td> 
-   <td colname="col2"> <p>Horodatage de modification de fichier ; requis lorsque la validation basée sur un catalogue est activée avec <span class="codeph"> attribute::CacheValidationPolicy </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> catalog::TimeStamp </span> </p> </td> 
+   <td colname="col2"> <p>Horodatage de modification du fichier ; requis lorsque la validation basée sur le catalogue est activée avec l’attribut <span class="codeph"> ::CacheValidationPolicy </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> catalogue ::UserData </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> catalog::UserData </span> </p> </td> 
    <td colname="col2"> <p>Métadonnées facultatives associées à cet élément de contenu statique ; disponibles pour le client avec <span class="codeph"> req=userdata </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> catalog::UserType </span> </p> </td> 
-   <td colname="col2"> <p>Type de données facultatif ; peut être utilisé pour filtrer les requêtes de contenu statique avec le <span class="codeph"> type= commande </span>. </p> </td> 
+   <td colname="col2"> <p>Type de données facultatif ; peut être utilisé pour filtrer les requêtes de contenu statique avec la commande <span class="codeph"> type= </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Filtrer le contenu statique {#section-4c41bf41ff994910840c1352683d1f37}
 
-Ce mécanisme peut permettre de s’assurer que les clients ne reçoivent que les contenus adaptés à leurs besoins. En supposant que le contenu statique soit balisé avec les balises appropriées `catalog::UserType` , le client peut ajouter la variable `type=` à la requête. Le serveur d’images compare la valeur fournie avec la variable `type=` à la valeur de `catalog::UserType` et, en cas de discordance, renvoie une erreur au lieu de contenus potentiellement inappropriés.
+Ce mécanisme peut permettre de s’assurer que les clients ne reçoivent que les contenus adaptés à leurs besoins. En supposant que le contenu statique soit balisé avec les valeurs `catalog::UserType` appropriées, le client peut ajouter la commande `type=` à la requête. Le serveur d’images compare la valeur fournie avec la commande `type=` à la valeur de `catalog::UserType` et, en cas de discordance, renvoie une erreur au lieu de contenus potentiellement inappropriés.
 
 ## Fichiers de sous-titres vidéo {#section-1ad25e10399e43eaa8ecb09b531dbf1a}
 
 Vous pouvez encapsuler des fichiers de sous-titres vidéo (WebVTT), CSS ou tout fichier texte au format JSONP. La réponse JSON est décrite ci-dessous.
 
-* Pour les fichiers WebVTT, le type MIME de la réponse est text/javascript. JSON n’est pas renvoyé. Au lieu de cela, JavaScript est renvoyé qui appelle une méthode avec JSON. L’identifiant et le gestionnaire sont facultatifs.
+* Pour les fichiers WebVTT, le type MIME de la réponse est text/javascript. JSON n’est pas renvoyé ; JavaScript est à la place renvoyé et appelle une méthode avec JSON. L’identifiant et le gestionnaire sont facultatifs.
 * Pour les fichiers CSS, le type MIME de la réponse est text/javascript. L’identifiant et le gestionnaire sont facultatifs.
 * Par défaut, le codage UTF-8 est appliqué pour s’assurer qu’il est décodé correctement. La taille par défaut est limitée à 2 Mo.
 

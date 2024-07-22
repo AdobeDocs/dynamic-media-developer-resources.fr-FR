@@ -27,7 +27,7 @@ Ce paramètre :
 
 Renvoie :
 
-Bref état de la tâche au format XML; erreur si jobid n’est pas valide ou la tâche a été supprimée.
+Bref état de la tâche au format XML ; erreur si jobid est non valide ou si la tâche a été supprimée.
 
 ## Exemple {#section-806460949bb043438ad4dd4e7ab74145}
 

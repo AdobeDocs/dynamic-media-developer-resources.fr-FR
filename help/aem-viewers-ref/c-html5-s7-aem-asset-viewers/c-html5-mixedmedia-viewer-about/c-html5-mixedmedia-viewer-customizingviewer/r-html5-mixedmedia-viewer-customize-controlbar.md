@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: f0de655c-36f0-4ed4-806c-d486eed2201b
 source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 1%
+source-wordcount: '148'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,7 @@ Le sélecteur de classe CSS suivant contrôle l’aspect de la barre de contrôl
    <td colname="col2"> <p>Hauteur de la barre de contrôle. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Couleur d’arrière-plan de la barre de contrôle. </p> </td> 
   </tr> 
  </tbody> 

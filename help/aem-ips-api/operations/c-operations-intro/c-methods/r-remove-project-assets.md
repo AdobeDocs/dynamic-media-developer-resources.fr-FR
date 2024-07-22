@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 6bf169ec-c724-4ac0-a2bf-67af2ebba21a
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 11%
+source-wordcount: '179'
+ht-degree: 10%
 
 ---
 
@@ -50,7 +50,7 @@ Syntaxe
 
 Cet exemple de code supprime 2 ressources d’un projet (spécifié par le gestionnaire de projet).
 
-**Request**
+**Requête**
 
 ```java
 <removeProjectAssetsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

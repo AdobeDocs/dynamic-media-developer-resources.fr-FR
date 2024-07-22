@@ -2,12 +2,12 @@
 description: Taille en pixels. Utilisé pour spécifier des tailles d’image ou des tailles de rectangle en pixels.
 solution: Experience Manager
 title: taille
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 644659a7-8f34-4de0-aa94-bc33909ff361
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: '55'
 ht-degree: 3%
 
 ---

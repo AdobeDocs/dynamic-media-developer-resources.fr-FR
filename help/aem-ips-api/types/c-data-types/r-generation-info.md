@@ -23,6 +23,6 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | [!DNL engine] | `xsd:string` | Moteur de génération utilisé (voir &quot;Informations sur la génération&quot; pour les valeurs). |
-| [!DNL originator] | `types:Asset` | Enregistrement de la ressource Principale utilisée dans la génération. |
+| [!DNL originator] | `types:Asset` | Enregistrement de la ressource principale utilisée dans la génération. |
 | [!DNL generated] | `types:Asset` | Enregistrement de la ressource générée. |
 | attributeArray | `types:GenerationAttributeArray` | Tableau d’attributs associés au processus de génération. |

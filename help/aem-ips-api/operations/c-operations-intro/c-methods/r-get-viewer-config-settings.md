@@ -31,7 +31,7 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gérer la société. |
+| companyHandle | `xsd:string` | Oui | Traitez la société. |
 | assetHandle | `xsd:string` | Oui | Gérer la ressource. |
 
 **Sortie (getViewerConfigSettingsReturn)**

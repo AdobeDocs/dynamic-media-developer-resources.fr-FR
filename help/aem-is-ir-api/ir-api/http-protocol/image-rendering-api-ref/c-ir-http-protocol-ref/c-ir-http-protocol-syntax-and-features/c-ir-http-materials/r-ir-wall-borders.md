@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: e11c38d0-8255-4363-ae60-f47be37a1495
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 5%
+source-wordcount: '102'
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,7 @@ Les images de texture de bordure du mur peuvent inclure un canal alpha pour déf
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src= </span> </a> </p> </td> 
-   <td colname="col2"> <p>Image textuelle répétable ; required </p> </td> 
+   <td colname="col2"> <p>Image textuelle répétable ; obligatoire </p> </td> 
    <td colname="col3"> <p>Aucun </p> </td> 
   </tr> 
   <tr> 

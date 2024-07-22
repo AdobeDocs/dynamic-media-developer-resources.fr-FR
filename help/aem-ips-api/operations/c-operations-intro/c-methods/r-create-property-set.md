@@ -8,7 +8,7 @@ exl-id: e9f85e65-4a2f-4b82-b7b8-d0d60b8345cd
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -47,7 +47,7 @@ Syntaxe
 
 Cet exemple de code crée un jeu de propriétés qui contient les noms et les valeurs des propriétés. La réponse renvoie une poignée au nouveau jeu de propriétés.
 
-**Request**
+**Requête**
 
 ```java
 <createPropertySetParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

@@ -22,7 +22,7 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| itemName | `xsd:string` | Nom de l’élément en cours de traitement. |
+| itemName | `xsd:string` | Nom de l’élément traité. |
 | progress | `xsd:double` | Progression %. |
 | progressMessage | `xsd:string` | Message du processus. |
 | lastProgressUpdate | `xsd:dateTime` | Heure de la dernière mise à jour. |

@@ -2,12 +2,12 @@
 description: Cette section répertorie les caractères réservés à des fins spécifiques.
 solution: Experience Manager
 title: Caractères réservés
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 76483f3f-f98b-471d-9c5d-49fa22eaf8a3
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Cette section répertorie les caractères réservés à des fins spécifiques.
 
-RTF utilise des accolades &#39; `{`&#39; et &#39; `}`&#39; comme délimiteurs de groupe. Elles doivent se produire par paires et peuvent être imbriquées. Pour afficher les accolades dans les chaînes de texte, utilisez respectivement &quot;`\{`&quot; et &quot;`\}`&quot;.
+RTF utilise des accolades &#39; `{`&#39; et &#39; `}`&#39; comme délimiteurs de groupe. Elles doivent se produire par paires et peuvent être imbriquées. Pour afficher des accolades dans des chaînes de texte, utilisez respectivement &#39; `\{`&#39; et &#39; `\}`&#39;.
 
 >[!NOTE]
 >

@@ -8,7 +8,7 @@ exl-id: da6923c3-9b86-4595-8205-645fb10e03b0
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 18%
+ht-degree: 16%
 
 ---
 
@@ -37,20 +37,20 @@ Syntaxe
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | typeHandle | `xsd:string` | Oui | La gestion du type de jeu de propriétés. |
-| primaryOwnerHandle | `xsd:string` | Oui | Propriétaire Principal des données liées à l’objet de base de données. |
+| primaryOwnerHandle | `xsd:string` | Oui | Propriétaire principal des données liées à l’objet de base de données. |
 | secondaryOwnerHandle | `xsd:string` | Non | Propriétaire secondaire facultatif des données. |
 
 **Sortie (getPropertySetsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| setArray | `types:PropertySetArray` | Oui | Fichier de jeux de propriétés. |
+| setArray | `types:PropertySetArray` | Oui | Matrice de jeux de propriétés. |
 
 ## Exemples {#section-1358af974eab4259864910337a6f0bd2}
 
-Cet exemple de code renvoie les ensembles de propriétés de leur propriétaire Principal, spécifiés par un type handle.
+Cet exemple de code renvoie les ensembles de propriétés de leur propriétaire principal, spécifiés par un type handle.
 
-**Request**
+**Requête**
 
 ```java
 <getPropertySetsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

@@ -2,13 +2,13 @@
 description: Chaîne de modificateur de demande de correctif Postfix. Aucune ou plusieurs commandes de diffusion d’images séparées par des caractères "&".
 solution: Experience Manager
 title: PostModificateur
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7d6c9408-1f09-464d-8a69-eabdf7c0117d
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 4%
+source-wordcount: '128'
+ht-degree: 3%
 
 ---
 
@@ -18,13 +18,13 @@ Chaîne de modificateur de demande de correctif Postfix. Aucune ou plusieurs com
 
 Les commandes de ce champ remplacent toujours les commandes dans la requête HTTP et dans `catalog::Modifier`.
 
-`catalog::PostModifier` est utile si certaines images nécessitent des paramètres spéciaux qui sont normalement contrôlés à partir de l’URL, tels que  `qlt=` ou  `resmode=`. `catalog::Modifier` doit être utilisé pour définir la plupart des commandes IS dans le catalogue d’images.
+`catalog::PostModifier` est utile si certaines images nécessitent des paramètres spéciaux qui sont normalement contrôlés à partir de l’URL, tels que `qlt=` ou `resmode=`. `catalog::Modifier` doit être utilisé pour définir la plupart des commandes IS dans le catalogue d’images.
 
-Les macros sont autorisées dans `catalog::PostModifier`, à condition qu’elles soient définies dans le même catalogue ou dans le catalogue par défaut. Vous pouvez également utiliser des variables personnalisées.
+Les macros sont autorisées dans `catalog::PostModifier` tant qu’elles sont définies dans le même catalogue ou dans le catalogue par défaut. Vous pouvez également utiliser des variables personnalisées.
 
 >[!NOTE]
 >
->Si une requête implique plusieurs calques, seul le contenu de `catalog::PostModifier` du calque 0 est appliqué. `catalog::PostModifier` de tous les autres calques est ignoré.
+>Si une requête implique plusieurs calques, seul le contenu de `catalog::PostModifier` de la couche 0 est appliqué. `catalog::PostModifier` de tous les autres calques est ignoré.
 
 ## Propriétés {#section-6d5b0462ba1245b8ac3ddfd15c059f42}
 

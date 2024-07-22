@@ -6,8 +6,8 @@ feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 1%
+source-wordcount: '319'
+ht-degree: 0%
 
 ---
 
@@ -25,13 +25,13 @@ Le sélecteur de classe CSS suivant contrôle l’aspect du lecteur vidéo avec 
 .s7smartcropvideoviewer .s7smartcropvideoplayer
 ```
 
-**Propriétés CSS du lecteur vidéo avec recadrage intelligent**
+**Propriétés CSS du lecteur vidéo de recadrage intelligent**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
-   <td colname="col2"> <p>Couleur d’arrière-plan de la vue principale. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>Couleur de fond de la vue principale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,7 +55,7 @@ Les sous-titres codés sont placés dans un conteneur interne au sein du lecteur
 <table id="table_960E0D4FB91748FF9FC73C925B81879C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Arrière-plan du texte de la légende codée. </p> </td> 
   </tr> 
   <tr> 
@@ -68,7 +68,7 @@ Les sous-titres codés sont placés dans un conteneur interne au sein du lecteur
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
-   <td colname="col2"> <p> Taille de police de la légende fermée. </p> </td> 
+   <td colname="col2"> <p> Taille de police des sous-titres codés. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 

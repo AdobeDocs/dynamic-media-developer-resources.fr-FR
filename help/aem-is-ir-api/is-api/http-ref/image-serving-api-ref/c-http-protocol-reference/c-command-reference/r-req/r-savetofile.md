@@ -2,13 +2,13 @@
 description: Enregistrez l’image dans le fichier .
 solution: Experience Manager
 title: saveToFile
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 10a8ea5c-7e64-4d99-a263-779f08ea6e37
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 3%
+source-wordcount: '182'
+ht-degree: 1%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Enregistrez l’image dans le fichier .
 
-`req=saveToFile&name= *``*[&timeout= *`fileval`*]`
+`req=saveToFile&name= *`file`*[&timeout= *`val`*]`
 
 <table id="simpletable_5674FD9655FE4CDDB0E5DC8655890A66"> 
  <tr class="strow"> 
@@ -25,7 +25,7 @@ Enregistrez l’image dans le fichier .
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> val</span> </p></td> 
-  <td class="stentry"> <p>Intervalle de dépassement de délai (millisecondes). </p></td> 
+  <td class="stentry"> <p>Délai d’expiration (millisecondes). </p></td> 
  </tr> 
 </table>
 
@@ -53,17 +53,17 @@ Une fois la requête d’enregistrement terminée, elle renvoie plusieurs propri
    <td> <p> Nombre de pixels dans l’image enregistrée. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> état</span> </p> </td> 
+   <td> <p> <span class="codeph"> status</span> </p> </td> 
    <td> <p> enum </p> </td> 
-   <td> <p> <span class="codeph"> </span> effectuez un suivi en cas de réussite. </p> </td> 
+   <td> <p> <span class="codeph"> done</span> en cas de réussite. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 Renvoie l’état de réponse HTTP 200 en cas de réussite et 403 si la requête échoue ou expire. La réponse est de type MIME `text/plain` et ne peut pas être mise en cache.
 
-Important : L’enregistrement dans les fichiers doit être activé en spécifiant le chemin d’accès à un dossier modifiable existant dans `attribute::SavePath`. `saveToFile=` échoue si  `attribute::SavePath` est vide.
+Important : L’enregistrement dans les fichiers doit être activé en spécifiant le chemin d’accès à un dossier modifiable existant dans `attribute::SavePath`. `saveToFile=` échoue si `attribute::SavePath` est vide.
 
-*`file`* est obligatoire et doit être un chemin relatif combiné avec  `attribute::SavePath`. La diffusion d’images ne crée pas de dossiers. Le dossier cible doit exister sur le serveur et disposer des paramètres d’autorisation appropriés pour que le serveur d’images puisse créer des fichiers.
+*`file`* est requis et doit être un chemin relatif combiné avec `attribute::SavePath`. La diffusion d’images ne crée pas de dossiers. Le dossier cible doit exister sur le serveur et disposer des paramètres d’autorisation appropriés pour que le serveur d’images puisse créer des fichiers.
 
-`timeout=` est facultatif. Le délai d’expiration par défaut est de 60 000 ms, ou n’importe quelle valeur est configurée avec `PS::SaveTimeout`.
+`timeout=` est facultatif. Le délai d’expiration par défaut est de 60 000 ms, ou n’importe quelle valeur configurée avec `PS::SaveTimeout`.

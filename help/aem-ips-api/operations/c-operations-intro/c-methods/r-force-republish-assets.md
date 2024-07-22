@@ -2,13 +2,13 @@
 description: Réinitialise l’état de publication d’une ou de plusieurs ressources afin de forcer leur republication dans la tâche de publication suivante.
 solution: Experience Manager
 title: forceRepublishAssets
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 4c75af38-4791-4f21-8d1b-4855fcdfd4b1
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 12%
+source-wordcount: '162'
+ht-degree: 9%
 
 ---
 
@@ -29,7 +29,7 @@ Syntaxe
 
 ## Paramètres {#section-fd3f4dde9e984240b6f3e6d7a8db4e78}
 
-**Entrée (forceRepublishAssetsParam)**
+**Input (forceRepublishAssetsParam)**
 
 <table id="table_742D67AD77554904976EC4A07A0CBC64"> 
  <thead> 

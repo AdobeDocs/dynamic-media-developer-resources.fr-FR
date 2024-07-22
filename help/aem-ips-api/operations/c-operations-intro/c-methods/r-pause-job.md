@@ -1,5 +1,5 @@
 ---
-description: Met un principal travail en pause.
+description: Met une tâche active en pause.
 solution: Experience Manager
 title: pauseJob
 feature: Dynamic Media Classic,SDK/API
@@ -8,13 +8,13 @@ exl-id: 010e969a-911e-49fc-8577-66c18cd4329c
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '61'
-ht-degree: 19%
+ht-degree: 16%
 
 ---
 
 # pauseJob{#pausejob}
 
-Met un principal travail en pause.
+Met une tâche active en pause.
 
 Syntaxe
 
@@ -35,7 +35,7 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gérer la société. |
+| companyHandle | `xsd:string` | Oui | Traitez la société. |
 | jobHandle | `xsd:string` | Oui | Gérez la tâche que vous souhaitez mettre en pause. |
 
 **Sortie (PauseJobReturn)**
@@ -44,9 +44,9 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-ee4914f9496f4bd88556728a48fb22c1}
 
-Cet exemple de code met une tâche principale en pause.
+Cet exemple de code met une tâche active en pause.
 
-**Request**
+**Requête**
 
 ```java
 <pauseJobParam xmlns="http://www.scene7.com/IpsApi/xsd">

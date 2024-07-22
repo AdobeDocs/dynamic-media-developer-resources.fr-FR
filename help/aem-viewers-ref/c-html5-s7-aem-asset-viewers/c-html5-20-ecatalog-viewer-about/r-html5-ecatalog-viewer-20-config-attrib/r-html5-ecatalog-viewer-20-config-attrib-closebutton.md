@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 253dad70-c46c-4d37-8d0c-2a97a5f53f13
 source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 11%
+source-wordcount: '46'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 11%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>Définissez sur . <span class="codeph"> 1 </span> pour activer l'affichage du bouton Fermer. Ou, définissez sur <span class="codeph"> 0 </span> pour masquer le bouton Fermer . </p> <p>Le bouton Fermer est uniquement pris en charge sur les périphériques tactiles. il ne peut pas être affiché sur les systèmes de bureau. </p> </td> 
+   <td colname="col2"> <p>Définissez cette variable sur <span class="codeph"> 1 </span> pour activer l’affichage du bouton Fermer . Ou définissez sur <span class="codeph"> 0 </span> pour masquer le bouton Fermer . </p> <p>Le bouton Fermer n’est pris en charge que sur les périphériques tactiles ; il ne peut pas être affiché sur les ordinateurs de bureau. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -2,12 +2,12 @@
 description: Les champs de catalogue utilisent ces valeurs par défaut.
 solution: Experience Manager
 title: Valeurs par défaut des champs de catalogue
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8d4e666c-468b-4907-911a-9df324f7d2bf
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Les champs de catalogue utilisent ces valeurs par défaut.
    <td colname="col2"> <p>Résolution d’impression par défaut. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-resolution-cat.md#reference-de489f5f36b64bd0831749546f8728e1" type="reference" format="dita" scope="local"> Résolution</a></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-resolution-cat.md#reference-de489f5f36b64bd0831749546f8728e1" type="reference" format="dita" scope="local"> Résolution </a></span> </p> </td> 
    <td colname="col2"> <p>Résolution d’objet par défaut. </p> </td> 
   </tr> 
   <tr> 

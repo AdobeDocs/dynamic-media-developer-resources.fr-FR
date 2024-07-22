@@ -8,7 +8,7 @@ exl-id: 6de49217-2d15-49d9-9357-b058b2564686
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 15%
+ht-degree: 12%
 
 ---
 
@@ -26,7 +26,7 @@ Syntaxe
 
 ## Paramètres {#section-0a3a4bab026746238c9d4009caf42e94}
 
-**Entrée (updateTagFieldValuesParam)**
+**Input (updateTagFieldValuesParam)**
 
 <table id="table_15F354FBC043464080BC975AE35E03A4"> 
  <thead> 
@@ -71,7 +71,7 @@ Syntaxe
 
 ## Exemples {#section-bb4dcf97044c4675974c9b8d27674001}
 
-**Request**
+**Requête**
 
 ```java
 <updateTagFieldValuesParam xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">

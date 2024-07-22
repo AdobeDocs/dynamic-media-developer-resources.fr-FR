@@ -1,6 +1,6 @@
 ---
 title: Démarrage ou arrêt sous Windows
-description: Il existe plusieurs mécanismes pour démarrer ou arrêter le serveur d’images et [!DNL Platform Server] sous Windows
+description: Il existe plusieurs mécanismes pour démarrer ou arrêter le serveur d’images et  [!DNL Platform Server] sous Windows.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Démarrage ou arrêt sous Windows{#starting-or-stopping-on-windows}
 
-Il existe plusieurs mécanismes pour démarrer ou arrêter le serveur d’images et [!DNL Platform Server] sous Windows.
+Il existe plusieurs mécanismes pour démarrer ou arrêter Image Server et [!DNL Platform Server] sous Windows.
 
 1. Sélectionnez l’une des options suivantes pour démarrer ou arrêter la diffusion d’images :
 
-* Le Panneau de Contrôle de service Windows peut être utilisé pour démarrer, arrêter, redémarrer et vérifier l’état de la variable `Dynamic Media Image Serving` service.
-* **[!UICONTROL Menu Démarrer]**> **[!UICONTROL Tous les programmes]**> **[!UICONTROL Dynamic Media (Scene7)]**> **[!UICONTROL Serveur d’images]**> **[!UICONTROL Service de contrôle]** fournit des commandes permettant de démarrer, arrêter et redémarrer le `Dynamic Media Image Serving` service.
+* Le Panneau de Contrôle de service Windows peut être utilisé pour démarrer, arrêter, redémarrer et vérifier l’état du service `Dynamic Media Image Serving`.
+* **[!UICONTROL Menu de démarrage]**> **[!UICONTROL Tous les programmes]**> **[!UICONTROL Dynamic Media (Scene7)]**> **[!UICONTROL Image Serving]**> **[!UICONTROL Control Service]** fournit des commandes pour démarrer, arrêter et redémarrer le service `Dynamic Media Image Serving`.

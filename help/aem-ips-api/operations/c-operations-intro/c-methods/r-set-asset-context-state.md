@@ -8,7 +8,7 @@ exl-id: 28d0a67b-3e36-43fc-800d-17c841dca3a0
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -38,10 +38,10 @@ Définissez ou mettez à jour l’état de publication d’une ou de plusieurs r
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gérer la société. |
+| companyHandle | `xsd:string` | Oui | Traitez la société. |
 | assetsContextHandle | `types:AssetsContextStateUpdateArray` | Oui | Tableau de ressources et de leurs nouveaux états de publication. |
 
-**Sortie (setAssetsContextStateReturn)**
+**Output (setAssetsContextStateReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -54,7 +54,7 @@ Définissez ou mettez à jour l’état de publication d’une ou de plusieurs r
 
 Cet exemple de code définit l’état de publication d’une ressource à l’aide de `NotMarkedForPublish`.
 
-**Request**
+**Requête**
 
 ```java
 <setAssetsContextStateParam xmlns="http://www.scene7.com/IpsApi/xsd/2011-11-04">

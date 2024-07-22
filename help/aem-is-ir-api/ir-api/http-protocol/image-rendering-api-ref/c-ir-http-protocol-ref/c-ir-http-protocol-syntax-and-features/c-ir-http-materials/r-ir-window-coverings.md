@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: ce6543a1-2438-4661-95bf-ff3d956013bc
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 4%
+source-wordcount: '153'
+ht-degree: 3%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 4%
 
 Les matériaux de recouvrement des fenêtres comprennent à la fois des couvertures douces pour les fenêtres (rideaux, valises, rideaux de café) et des couvertures pour les fenêtres dures (nuances et stores).
 
-Une fenêtre recouvrant les matériaux spécifie *fichier de style de fenêtre* ( [!DNL .vnw] extension de fichier), un fichier de données spécial similaire à une vignette, contenant des données de masque, d’éclairage, de mise en page et de texture définissant la couverture de la fenêtre.
+Les fenêtres recouvrant les matériaux spécifient un *fichier de style de fenêtre couverture* ( [!DNL .vnw] extension de fichier), un fichier de données spécial similaire à une vignette, contenant des données de masque, d’éclairage, de mise en page et de texture définissant la couverture de la fenêtre.
 
-[!DNL vnw] Les fichiers n’incluent pas la couleur et la texture (tissu) de la fenêtre. Ces informations sont spécifiées séparément, comme les textures répétables.
+Les fichiers [!DNL vnw] n’incluent pas la couleur et la texture (tissu) de la fenêtre. Ces informations sont spécifiées séparément, comme les textures répétables.
 
-Les matériaux de recouvrement de fenêtre ne peuvent être appliqués qu’aux objets de cadre de recouvrement de fenêtre, qui se chevauchent.
+Les matériaux de recouvrement de fenêtre ne peuvent être appliqués qu’aux objets de cadre de recouvrement de fenêtre, qui se chevauchent dans des objets.
 
 <table id="table_545865B054E84592BDAEDA57DBFAE9B3"> 
  <thead> 
@@ -33,7 +33,7 @@ Les matériaux de recouvrement de fenêtre ne peuvent être appliqués qu’aux 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272" type="reference" format="dita" scope="local"> <span class="codeph"> src= </span> </a> </p> </td> 
-   <td colname="col2"> <p>le fichier de style de la fenêtre ; obligatoire. </p> </td> 
+   <td colname="col2"> <p>Fichier de style de recouvrement de fenêtre ; obligatoire. </p> </td> 
    <td colname="col3"> <p>Aucune </p> </td> 
   </tr> 
   <tr> 

@@ -29,7 +29,7 @@ Chaque catalogue d’images se compose d’un fichier d’attributs de catalogue
 
 Les fichiers de données de catalogue sont associés aux catalogues d’images par référence de fichier dans le fichier d’attributs de catalogue. Le même fichier de données de catalogue peut être partagé par plusieurs catalogues d’images.
 
-Les fichiers d’attributs du catalogue doivent comporter une [!DNL .ini] suffixe du fichier et doit se trouver dans la variable [!DNL Platform Server]Dossier de catalogue de ( `PlatformServer::catalog.rootPath`). Les fichiers de données du catalogue peuvent se trouver dans le même dossier ou tout autre dossier accessible au [!DNL Platform Server].
+Les fichiers d’attributs du catalogue doivent comporter un suffixe de fichier [!DNL .ini] et se trouver dans le dossier de catalogue de [!DNL Platform Server] ( `PlatformServer::catalog.rootPath`). Les fichiers de données du catalogue peuvent se trouver dans le même dossier ou tout autre dossier accessible à [!DNL Platform Server].
 
 Ce document décrit le format de fichier du catalogue d’images pour le système de diffusion d’images Dynamic Media. L’audience prévue est composée de programmeurs chevronnés et de développeurs de sites web qui souhaitent exploiter le service Dynamic Media Image Serving pour une application web ou personnalisée.
 

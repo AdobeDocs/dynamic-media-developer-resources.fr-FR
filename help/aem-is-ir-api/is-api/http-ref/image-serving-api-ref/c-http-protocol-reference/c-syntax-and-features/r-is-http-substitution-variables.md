@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 9fd73d16-e8bd-4fdb-a4e6-e86e5d219114
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '736'
 ht-degree: 0%
 
 ---
@@ -29,19 +29,19 @@ Les variables de substitution sont utilisées pour transférer des valeurs de l�
  </tr> 
 </table>
 
-Les définitions et références de variables peuvent se produire dans la partie requête de la requête, dans `catalog::Modifier`et dans `catalog::PostModifier`.
+Les définitions et références de variables peuvent se produire dans la partie requête de la requête, dans `catalog::Modifier` et dans `catalog::PostModifier`.
 
 Les variables sont définies comme ci-dessus, comme les autres commandes IS ; le &quot;$&quot; au début identifie la commande comme une définition de variable. Les variables doivent être définies avant d’être référencées.
 
-Nom de variable *`var`* n’est pas sensible à la casse et peut se composer de n’importe quelle combinaison de lettres ASCII, nombres, &quot;-&quot;, &quot;_&quot; et &quot;.&quot;.
+Le nom de variable *`var`* n’est pas sensible à la casse et peut se composer de n’importe quelle combinaison de lettres ASCII, de nombres, de &quot;-&quot;, de &quot;_&quot; et de &quot;.&quot;.
 
 >[!NOTE]
 >
->*`value`* doit être codé URL à un seul passage pour une transmission HTTP sécurisée. Un double encodage est requis si *`value`* est retransmis par HTTP. C’est le cas lorsque *`value`* est remplacé dans une requête étrangère imbriquée ou dans l’attribut href d’un SVG `<image>` élément .
+>*`value`* doit être codé URL à un seul passage pour une transmission HTTP sécurisée. Un double encodage est requis si *`value`* est retransmis par HTTP. C’est le cas lorsque *`value`* est remplacé dans une requête étrangère imbriquée ou dans l’attribut href d’un élément `<image>` SVG.
 
-Les références de variable se composent du nom de variable délimité par le &quot;$&quot; de début et de fin ($)*var*$). Les références peuvent se produire n’importe où dans la partie valeur de toute commande IS (c’est-à-dire, entre le &quot;=&quot; suivant le nom de la commande et le &quot;&amp;&quot; suivant ou la fin de la requête). Les variables personnalisées ne peuvent pas être appliquées à la variable `layer=` et `effect=` des commandes. Plusieurs variables sont autorisées dans la même valeur de commande. Le serveur remplace chaque occurrence de ` $ *`var`*$` avec *`value`*.
+Les références de variable se composent du nom de variable délimité par le &quot;$&quot; de début et de fin ($*var*$). Les références peuvent se produire n’importe où dans la partie valeur de toute commande IS (c’est-à-dire, entre le &quot;=&quot; suivant le nom de la commande et le &quot;&amp;&quot; suivant ou la fin de la requête). Les variables personnalisées ne peuvent pas être appliquées aux commandes `layer=` et `effect=`. Plusieurs variables sont autorisées dans la même valeur de commande. Le serveur remplace chaque occurrence de ` $ *`var`*$` par *`value`*.
 
-Les références de variables peuvent ne pas être imbriquées. Toutes les occurrences de ` $ *`var`*$` dans *`value`* ne sont pas substituées.
+Les références de variables peuvent ne pas être imbriquées. Les occurrences de ` $ *`var`*$` dans *`value`* ne sont pas remplacées.
 
 Par exemple, le fragment de requête :
 
@@ -53,33 +53,33 @@ est résolu sur :
 
 >[!NOTE]
 >
->&quot;$&quot; n’est pas un caractère réservé ; il peut se produire dans la requête. Par exemple : `src=my$image$file.tif` est une commande valide (en supposant qu’une entrée de catalogue ou un fichier image nommé `my$image$file.tif` existe), alors que `wid=$number$` n’est pas , car `wid` nécessite un argument numérique.
+>&quot;$&quot; n’est pas un caractère réservé ; il peut se produire dans la requête. Par exemple, `src=my$image$file.tif` est une commande valide (en supposant qu’il existe une entrée de catalogue ou un fichier image nommé `my$image$file.tif`), contrairement à `wid=$number$`, car `wid` nécessite un argument numérique.
 
 ## Traitement des variables dans les requêtes imbriquées {#section-26d63adc446c4fa0808e11e8082abdfa}
 
-` $ *`var`*$` les références peuvent se trouver n’importe où dans les accolades d’une demande de rendu d’image ou de diffusion d’image imbriquée, y compris à gauche de l’icône ? séparant le chemin de la requête. Le serveur remplace ces références par des valeurs (provenant de l’URL ou de `catalog::Modifier` du catalogue d’images principal) avant d’analyser et de traiter plus en détail la requête imbriquée.
+` $ *`var`*$` Les références peuvent se trouver n’importe où dans les accolades d’une demande de rendu d’image ou de diffusion d’image imbriquée, y compris à gauche de &quot;?&quot; séparant le chemin de la requête. Le serveur remplace ces références par des valeurs (provenant de l’URL ou de `catalog::Modifier` du catalogue d’images principal) avant d’analyser et de traiter davantage la requête imbriquée.
 
-En outre, tous les ` $ *`var`*=` définitions de l’URL ou `catalog::Modifier` sont transférées à toutes les requêtes Image Serving et Image Rendering imbriquées. Cela garantit que toutes les définitions de variable sont disponibles pour tous les modèles, quel que soit le niveau d’imbrication.
+En outre, toutes les définitions ` $ *`var`*=` de l’URL ou `catalog::Modifier` sont transférées à toutes les demandes de diffusion d’images et de rendu d’images imbriquées. Cela garantit que toutes les définitions de variable sont disponibles pour tous les modèles, quel que soit le niveau d’imbrication.
 
-Quel que soit le niveau d’imbrication, seul un codage HTTP à un seul passage doit être appliqué aux valeurs de variable qui doivent être remplacées n’importe où dans les demandes de rendu d’image ou de diffusion d’image imbriquées ou dans les demandes associées. `catalog::Modifier` chaînes.
+Quel que soit le niveau d’imbrication, seul un codage HTTP à un seul passage doit être appliqué aux valeurs de variable qui doivent être remplacées n’importe où dans les demandes de rendu d’image ou de diffusion d’images imbriquées ou dans les chaînes `catalog::Modifier` associées.
 
 ## Traitement de variables dans des requêtes étrangères incorporées {#section-314e39a9aefb46faa737fd137897d1b0}
 
-` $ *`var`*$` les références se trouvant à un emplacement dans les accolades d’une requête étrangère incorporée sont remplacées par des valeurs de définition de variable correspondantes. Cela permet de placer des requêtes étrangères incorporées dans un modèle dans un catalogue d’images.
+Les références ` $ *`var`*$` se trouvant n’importe où dans les accolades d’une requête étrangère incorporée sont remplacées par des valeurs de définition de variable correspondantes. Cela permet de placer des requêtes étrangères incorporées dans un modèle dans un catalogue d’images.
 
 Les valeurs de variable qui doivent être remplacées par des requêtes étrangères doivent généralement être codées en double encodage, car aucun réencodage n’est appliqué avant que le serveur ne tente de transmettre l’URL étrangère finale.
 
 ## Traitement des variables dans les fichiers SVG {#section-a8359f9909764142b6a18ae778dca913}
 
-` $ *`var`*$` les références peuvent se produire dans les fichiers de SVG dans les valeurs d’attribut et dans `<text>` chaînes. La diffusion d’images les remplace par la correspondance ` $ *`var`*=` définitions connues au niveau d’imbrication de requête auquel le fichier de SVG est spécifié.
+Les références ` $ *`var`*$` peuvent se produire dans des fichiers de SVG dans des valeurs d’attribut et dans des chaînes `<text>`. Le service d’images les remplace par les définitions ` $ *`var`*=` correspondantes connues au niveau d’imbrication de requête au niveau duquel le fichier du SVG est spécifié.
 
 >[!NOTE]
 >
->Toute valeur de variable qui doit être remplacée par une `href` La valeur d’attribut doit être codée en double URL ; tous les autres doivent être codés en une seule fois.
+>Toute valeur de variable qui doit être remplacée par une valeur d’attribut `href` doit être codée en double URL ; tous les autres doivent être codés en une seule unité.
 
 ## Variable de chemin prédéfinie {#section-930d0dd12e8f49499becc9fe8df24092}
 
-La variable *`object`* spécifié dans le chemin de requête est affecté à la variable prédéfinie `*`$object`*`. &#39; ` $ *`objet`*$`&quot; peut être placé n’importe où dans la requête, dans le modèle référencé par la requête ou dans une requête imbriquée/incorporée lorsque cet objet est autorisé, y compris la valeur de `src=` et `mask=`et le chemin d’accès d’une requête imbriquée/incorporée.
+Les *`object`* spécifiés dans le chemin de requête sont affectés à la variable prédéfinie `*`$object`*`. &quot;` $ *`object`*$`&quot; peut être placé n’importe où dans la requête, dans le modèle référencé par la requête ou dans une requête imbriquée/incorporée où cet objet est autorisé, y compris la valeur de `src=` et `mask=`, et le chemin d’accès d’une requête imbriquée/incorporée.
 
 Par exemple, la requête suivante réutilise l’image spécifiée dans le chemin comme source d’un calque dans une requête imbriquée :
 
@@ -89,13 +89,13 @@ Cela équivaut à
 
 `/is/image/a/b?…&layer=3&src=is{…&src=a/b}&…`
 
-La définition de `*`$object`*` peut être remplacé en spécifiant explicitement ` $ *`objet`*=` avec la valeur souhaitée.
+La définition de `*`$object`*` peut être remplacée en spécifiant explicitement ` $ *`object`*=` avec la valeur souhaitée.
 
-La variable de chemin prédéfinie est généralement utilisée conjointement avec `template=`.
+La variable de chemin prédéfinie est généralement utilisée avec `template=`.
 
 ## Par défaut {#section-b02483d15529444586a2e9504805b155}
 
-Aucun. Seules les variables qui ont été définies sont remplacées par le serveur (à l’exception de la variable de chemin prédéfinie $object, qui est toujours remplacée). Toutes les occurrences de ` $ *`var`*$` rester littéral si `*`var`*`ne peut pas être associé à une définition de variable existante.
+Aucun. Seules les variables qui ont été définies sont remplacées par le serveur (à l’exception de la variable de chemin prédéfinie $object, qui est toujours remplacée). Toutes les occurrences de ` $ *`var`*$` restent littérales si `*`var`*` ne peut pas être associé à une définition de variable existante.
 
 ## Exemples {#section-fba9393df6984247b7e30b3f93992e86}
 

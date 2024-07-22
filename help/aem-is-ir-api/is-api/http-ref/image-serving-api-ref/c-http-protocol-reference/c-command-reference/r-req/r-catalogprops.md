@@ -2,13 +2,13 @@
 description: Propriétés du catalogue d’images. Renvoie les attributs communs du catalogue d’images spécifiés dans le chemin d’accès de la requête.
 solution: Experience Manager
 title: catalogprops
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 28bf68e8-d424-418e-99a7-5298a1d83341
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 10%
+source-wordcount: '211'
+ht-degree: 4%
 
 ---
 
@@ -25,7 +25,7 @@ Propriétés du catalogue d’images. Renvoie les attributs communs du catalogue
  </tr> 
 </table>
 
-Pour récupérer les propriétés de catalogue par défaut ( [!DNL default.ini]), omettez l’ID de catalogue. La réponse HTTP peut être placée en mémoire cache via le TTL basé sur `attribute::NonImgExpiration`.
+Pour récupérer les propriétés de catalogue par défaut ( [!DNL default.ini]), omettez l’ID de catalogue. La réponse HTTP peut être mise en cache avec le TTL basé sur `attribute::NonImgExpiration`.
 
 Les requêtes qui prennent en charge le format de réponse JSONP vous permettent de spécifier le nom du gestionnaire de rappel JS à l’aide de la syntaxe étendue du paramètre `req=` :
 
@@ -48,7 +48,7 @@ Les valeurs de propriété suivantes sont renvoyées :
    <td> <p> <span class="codeph"> attribute::BkgColor</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> catalogue : defaultExt</span> </p> </td> 
+   <td> <p> Catalogue <span class="codeph"> ::defaultExt</span> </p> </td> 
    <td> <p> chaîne </p> </td> 
    <td> <p> <span class="codeph"> attribute::DefaultExt</span> </p> </td> 
   </tr> 
@@ -80,7 +80,7 @@ Les valeurs de propriété suivantes sont renvoyées :
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catalog.fileTime</span> </p> </td> 
    <td> <p> chaîne </p> </td> 
-   <td> <p> <span class="codeph"> attribute::LastModified</span>, ou, si non présent, l'heure de dernière modification du  <span class="varname"> catalogue</span><span class="filepath"> .</span> inifile </p> </td> 
+   <td> <p> <span class="codeph"> attribute::LastModified</span>, ou, s'il n'est pas présent, l'heure de dernière modification du fichier <span class="varname"> catalog</span><span class="filepath"> .ini</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.jpegQuality</span> </p> </td> 
@@ -138,7 +138,7 @@ Les valeurs de propriété suivantes sont renvoyées :
    <td> <p> <span class="codeph"> attribute::ThumbVertAlign</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> catalogue : filigrane</span> </p> </td> 
+   <td> <p> <span class="codeph"> catalog::watermark</span> </p> </td> 
    <td> <p> chaîne </p> </td> 
    <td> <p> <span class="codeph"> attribute::Watermark</span> </p> </td> 
   </tr> 

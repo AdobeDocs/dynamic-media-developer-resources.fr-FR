@@ -2,13 +2,13 @@
 description: Référence de l’API JavaScript pour la visionneuse de catalogue électronique
 solution: Experience Manager
 title: getComponent
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Recherche catalogue électronique
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: cb988fbc-2496-4844-984a-0980b0548441
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 1%
+source-wordcount: '245'
+ht-degree: 0%
 
 ---
 
@@ -18,11 +18,11 @@ Référence de l’API JavaScript pour la visionneuse de catalogue électronique
 
 [!DNL `getComponent(componentId)`]
 
-Renvoie une référence au composant SDK de la visionneuse utilisé par la visionneuse. La page web peut utiliser cette méthode pour étendre ou personnaliser le comportement de la visionneuse prête à l’emploi. Appelez cette méthode uniquement après l’exécution du rappel de la visionneuse `initComplete`. Sinon, le composant ne peut pas encore être créé par la logique de la visionneuse.
+Renvoie une référence au composant SDK de la visionneuse utilisé par la visionneuse. La page web peut utiliser cette méthode pour étendre ou personnaliser le comportement de la visionneuse prête à l’emploi. Appelez cette méthode uniquement après l’exécution du rappel de la visionneuse `initComplete`, sinon le composant ne peut pas encore être créé par la logique de la visionneuse.
 
 ## Paramètres {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`componentID`*`  :  `{String}` identifiant du composant SDK de visionneuse utilisé par la visionneuse. Cette visionneuse prend en charge les identifiants de composant suivants :
+`*`componentID`*` - `{String}` : identifiant du composant SDK de la visionneuse utilisé par la visionneuse. Cette visionneuse prend en charge les identifiants de composant suivants :
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
@@ -33,187 +33,187 @@ Renvoie une référence au composant SDK de la visionneuse utilisé par la visio
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> parameterManager  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> parameterManager </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.ParameterManager </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> conteneur </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> container </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Container </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mediaSet  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.MediaSet  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> mediaSet </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.MediaSet </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> pageView  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.PageView  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> pageView </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.PageView </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> primaryContrôles  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ControlBar  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> primaryControl </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ControlBar </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> secondaryContrôles  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ControlBar  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> secondaryControl </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ControlBar </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> gridView  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.ThumbnailGridView  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> gridView </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.ThumbnailGridView </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> tableOfContents  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.TableOfContents  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> tableOfContents </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.set.TableOfContents </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> infoPanelPopup  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.info.InfoPanelPopup  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> infoPanelPopup </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.info.InfoPanelPopup </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imageMapEffect  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.image.ImageMapEffect  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> imageMapEffect </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.image.ImageMapEffect </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> leftButton  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanLeftButton  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> leftButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanLeftButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rightButton  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanRightButton  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> rightButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanRightButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomInButton  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomInButton  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomInButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomInButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomOutButton  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomOutButton  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomOutButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomOutButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> zoomResetButton  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomResetButton  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> zoomResetButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomResetButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> secondaryZoomResetButton  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomResetButton  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> secondaryZoomResetButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ZoomResetButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> thumbnailPageButton  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ThumbnailPageButton  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> thumbnailPageButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.ThumbnailPageButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> fullScreenButton  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.FullScreenButton  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> fullScreenButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.FullScreenButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> toolBarLeftButton  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanLeftButton  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> toolBarLeftButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanLeftButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> toolBarRightButton  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanRightButton  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> toolBarRightButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanRightButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> firstPageButton  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanLeftButton  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> firstPageButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanLeftButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> secondaryFirstPageButton  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanLeftButton  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> secondaryFirstPageButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanLeftButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> lastPageButton  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanRightButton  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> lastPageButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanRightButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> secondaryLastPageButton  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanRightButton  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> secondaryLastPageButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.PanRightButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> closeButton  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.CloseButton  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> closeButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.CloseButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> socialShare  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.SocialShare  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> socialShare </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.SocialShare </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> twitterShare  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.TwitterShare  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> twitterShare </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.TwitterShare </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> facebookShare  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.FacebookShare  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> facebookShare </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.FacebookShare </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> linkShare  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.LinkShare  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> linkShare </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.LinkShare </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> emailShare  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.EmailShare  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> emailShare </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.EmailShare </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> embedShare  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.EmbedShare  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> embedShare </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.EmbedShare </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> imprimer </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.Print  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> print </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.share.Print </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> télécharger </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Download  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> téléchargement </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.Download </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> favoritesEffect  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.favorites.FavoritesEffect  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> favoritesEffect </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.favorites.FavoritesEffect </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> favoritesView  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.favorites.FavoritesView  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> favoritesView </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.favorites.FavoritesView </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> favoritesMenu  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.favorites.FavoritesMenu  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> favoritesMenu </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.favorites.FavoritesMenu </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> addFavoriteButton  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.favorites.AddFavoriteButton  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> addFavoriteButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.favorites.AddFavoriteButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> removeFavoriteButton  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.favorites.RemoveFavoriteButton  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> removeFavoriteButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.favorites.RemoveFavoriteButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> viewAllFavoriteButton  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.favorites.ViewAllFavoriteButton  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> viewAllFavoriteButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.favorites.ViewAllFavoriteButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> searchButton  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.SearchButton  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> searchButton </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.common.SearchButton </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> searchPanel  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.search.SearchPanel  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> searchPanel </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.search.SearchPanel </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> searchManager  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.search.SearchManager  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> searchManager </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.search.SearchManager </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> searchEffect  </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> s7sdk.search.SearchEffect  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> searchEffect </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> s7sdk.search.SearchEffect </span> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Lorsque vous utilisez des API SDK, il est important d’utiliser un espace de noms SDK complet correct, comme décrit dans [Espace de noms du SDK de la visionneuse](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-html5-viewer-sdk-namespace.md#concept-16ce67bfbdc64ffc8fc7ad174f208f05).
+Lorsque vous utilisez des API SDK, il est important d’utiliser un espace de noms SDK complet correct, comme décrit dans la section [Espace de noms du SDK de la visionneuse](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-html5-viewer-sdk-namespace.md#concept-16ce67bfbdc64ffc8fc7ad174f208f05).
 
-Pour plus d’informations sur un composant particulier, voir la documentation *API du SDK de visionneuse* .
+Pour plus d’informations sur un composant particulier, consultez la documentation *API du kit de développement de visionneuse* .
 
 ## Renvoie {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` Référence au composant SDK de visionneuse. La méthode renvoie `null` si `componentId` n’est pas un composant de visionneuse pris en charge ou si le composant n’a pas encore été créé par la logique de la visionneuse.
+`{Object}` une référence au composant SDK de visionneuse. La méthode renvoie `null` si le `componentId` n’est pas un composant de visionneuse pris en charge ou si le composant n’a pas encore été créé par la logique de la visionneuse.
 
 ## Exemple {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

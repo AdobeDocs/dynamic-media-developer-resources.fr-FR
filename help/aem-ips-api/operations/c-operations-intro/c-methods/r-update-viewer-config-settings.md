@@ -1,5 +1,5 @@
 ---
-description: Met à jour les paramètres de configuration de la visionneuse du SWF.
+description: Met à jour les paramètres de configuration de la visionneuse de SWF.
 solution: Experience Manager
 title: updateViewerConfigSettings
 feature: Dynamic Media Classic,SDK/API,Viewer Presets
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # updateViewerConfigSettings{#updateviewerconfigsettings}
 
-Met à jour les paramètres de configuration de la visionneuse du SWF.
+Met à jour les paramètres de configuration de la visionneuse de SWF.
 
 Syntaxe
 
@@ -31,9 +31,9 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gérer la société. |
+| companyHandle | `xsd:string` | Oui | Traitez la société. |
 | assetHandle | `xsd:string` | Oui | Poignée de ressource. |
-| configSettingArray | `types:ConfigSettingArray` | Oui | Tableau des paramètres de configuration que vous souhaitez appliquer à la visionneuse. |
+| configSettingArray | `types:ConfigSettingArray` | Oui | Tableau des paramètres de configuration à appliquer à la visionneuse. |
 
 **Sortie (updateViewerConfigSettingsReturn)**
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: cf769b2d-be4e-4d93-9620-00a438157693
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '71'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>Indique le comportement de préchargement du composant. </p> <p>Lorsque la variable est définie sur <span class="codeph"> -1</span> le composant précharge toutes les images de catalogue lorsqu’il est inactif. </p> <p> Lorsque la variable est définie sur <span class="codeph"> 0</span> le composant charge uniquement l’image visible, l’image précédente et l’image suivante. </p> <p>Définir <span class="codeph"><span class="varname"> preloadnbr</span></span> pour définir le nombre d’images invisibles autour du cadre actuellement affiché qui sont préchargées en mode inactif. </p> </td> 
+   <td colname="col2"> <p>Indique le comportement de préchargement du composant. </p> <p>Lorsqu’il est défini sur <span class="codeph"> -1</span>, le composant précharge toutes les images de catalogue lorsqu’il est en état d’inactivité. </p> <p> Lorsqu’il est défini sur <span class="codeph"> 0</span>, le composant charge uniquement l’image visible, l’image précédente et l’image suivante. </p> <p>Définissez <span class="codeph"><span class="varname"> preloadnbr</span></span> pour définir le nombre d’images invisibles autour de l’image actuellement affichée en état d’inactivité. </p> </td> 
   </tr> 
  </tbody> 
 </table>

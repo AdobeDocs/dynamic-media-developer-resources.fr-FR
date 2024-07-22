@@ -22,6 +22,6 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| assetHandle | `xsd:string` | Gestionnaire de ressources pour l’opération ayant échoué. |
+| assetHandle | `xsd:string` | Gestionnaire de ressources pour l’opération qui a échoué. |
 | code | `xsd:int` | Code de défaillance de l&#39;opération. |
 | motif | `xsd:string` | Description ou raison de la défaillance. |

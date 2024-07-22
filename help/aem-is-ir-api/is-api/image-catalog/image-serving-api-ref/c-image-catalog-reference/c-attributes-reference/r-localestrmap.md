@@ -8,7 +8,7 @@ exl-id: 48a1c71c-78a9-43db-8b1a-4189d34b0982
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ Carte de traduction des chaînes. Fait référence à un locId qui peut être ma
 <table id="simpletable_26A9A6904C85459F89DCDD98C14139CA"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> élément </span> </p> </td> 
-  <td class="stentry"> <p> <span class="varname"> locale </span>, <span class="varname"> locId </span>*[',' <span class="varname"> locId </span>] </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> locale </span>, <span class="varname"> locId </span>*[',' <span class="varname"> locId {5]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> locale </span> </p> </td> 
@@ -33,11 +33,11 @@ Carte de traduction des chaînes. Fait référence à un locId qui peut être ma
  </tr> 
 </table>
 
-`LocaleStrMap` fait référence à un `locId` qui peut être mappé à n’importe quel nombre `internalLocId`.
+`LocaleStrMap` fait référence à un `locId` qui peut être mappé à n’importe quel nombre de `internalLocId`.
 
-Une *`locale`* La valeur correspond à vide et inconnue `locale=` chaînes. Cela permet de définir une règle par défaut pour les paramètres régionaux inconnus.
+Une valeur *`locale`* vide correspond à des chaînes `locale=` vides et inconnues. Cela permet de définir une règle par défaut pour les paramètres régionaux inconnus.
 
-Vide *`locId`* sont autorisées et sélectionnez la variable *`defaultString`* (la variable *`defaultString`* n’a pas d’identifiant de paramètre régional). *`locId`* sont recherchées dans l’ordre indiqué. La première correspondance est renvoyée.
+Les valeurs *`locId`* vides sont autorisées et sélectionnez l’ *`defaultString`* (l’ *`defaultString`* n’a pas d’identifiant de paramètre régional). Les valeurs *`locId`* sont recherchées dans l’ordre spécifié. La première correspondance est renvoyée.
 
 La traduction des chaînes, lorsqu’elle est activée, est appliquée aux chaînes de texte dans les champs de catalogue d’images suivants :
 
@@ -48,19 +48,19 @@ La traduction des chaînes, lorsqu’elle est activée, est appliquée aux chaî
    <td> <b>Elément de chaîne dans le champ</b> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> catalogue : ImageSet </span> </p> </td> 
-   <td> <p>Tout sous-élément contenant une chaîne convertible (délimitée par toute combinaison de séparateurs ',' ';' ':' et/ou le début/fin du champ). </p> <p>A <span class="codeph"> 0xrggbb </span> la valeur de couleur au début d’un champ localisable est exclue de la localisation et transmise sans modification. </p> </td> 
+   <td> <p> Catalogue <span class="codeph"> ::ImageSet </span> </p> </td> 
+   <td> <p>Tout sous-élément contenant une chaîne convertible (délimitée par toute combinaison de séparateurs ',' ';' ':' et/ou le début/fin du champ). </p> <p>Une valeur de couleur <span class="codeph"> 0xrgbb </span> au début d’un champ localisable est exclue de la localisation et transmise sans modification. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> catalogue : Carte </span> </p> </td> 
-   <td> <p>Toute valeur d’attribut entre guillemets simples ou doubles, à l’exception des valeurs de la variable <span class="codeph"> coords= </span> et <span class="codeph"> shape= </span> attributs. </p> </td> 
+   <td> <p> Catalogue <span class="codeph"> ::Map </span> </p> </td> 
+   <td> <p>Toute valeur d’attribut entre guillemets simples ou doubles, à l’exception des valeurs des attributs <span class="codeph"> coding= </span> et <span class="codeph"> shape= </span> . </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> catalogue : cibles </span> </p> </td> 
-   <td> <p>La valeur de n’importe quel <span class="filepath"> cible.*.label </span> et <span class="filepath"> cible.*.userdata </span> . </p> </td> 
+   <td> <p> Catalogue <span class="codeph"> ::Cibles </span> </p> </td> 
+   <td> <p>La valeur de n’importe quelle cible <span class="filepath">.*.label </span> et <span class="filepath"> cible.*.userdata </span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> catalogue ::UserData </span> </p> </td> 
+   <td> <p> <span class="codeph"> catalog::UserData </span> </p> </td> 
    <td> <p>La valeur de n’importe quelle propriété. </p> </td> 
   </tr> 
  </tbody> 
@@ -72,4 +72,4 @@ Un ou plusieurs éléments, séparés par |, où chaque élément se compose de 
 
 ## Voir aussi {#section-0c0516e4f83d42d38247308cab9b6708}
 
-Aide à la localisation, [locale=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-locale.md#reference-8a846b2fbc004a12821b956ed3b25cfb), [attribute::LocaleMap](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-localemap.md#reference-49bbf598f8ea47c3a563755cef306318), [catalogue : ImageSet](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md), [catalogue : Carte](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-map-cat.md), [catalogue : cibles](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md), [catalogue ::UserData](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md)
+Prise en charge de la localisation, [locale=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-locale.md#reference-8a846b2fbc004a12821b956ed3b25cfb), [attribute::LocaleMap](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-localemap.md#reference-49bbf598f8ea47c3a563755cef306318), [catalog::ImageSet](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md), [catalog::Map](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-map-cat.md), [catalog::Targets](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md), [catalog::UserData](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md)

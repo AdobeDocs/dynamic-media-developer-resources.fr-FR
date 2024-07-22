@@ -4,7 +4,8 @@ description: Device Pixel Ratio (DPR)&mdash;également appelé CSS pixel ratio&m
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
-source-git-commit: a6e0db8238ba5f2209089c6eda7b42c42f66b25f
+exl-id: d64ca9ed-7d8e-4a13-9c9d-acb7de3e31ed
+source-git-commit: 63c0e3b494b6d583117dad01643946900855802e
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 2%
@@ -33,7 +34,7 @@ Actuellement, la densité en pixels de l’affichage provient des valeurs d’en
 </table>
 
 
-Vous pouvez utiliser `dpr=on,dprValue` même si le paramètre RGPD au niveau de l’entreprise est désactivé.
+Vous pouvez utiliser `dpr=on,dprValue` même si le paramètre de RDPD au niveau de la société est désactivé.
 
 En raison de l’optimisation du RPD, lorsque l’image créée est supérieure au paramètre MaxPix Dynamic Media , la largeur MaxPix est toujours reconnue en conservant les proportions de l’image.
 
@@ -44,11 +45,11 @@ En raison de l’optimisation du RPD, lorsque l’image créée est supérieure 
 | 816 x 500 | 3 | 2 448 x 1 500 |
 | 816 x 500 | 4 | 3 264 x 2 000 |
 
-Les valeurs DPR sont basées sur les valeurs côté client détectées du réseau de diffusion de contenu groupé. Ces valeurs sont parfois inexactes. Par exemple, iPhone5 avec `dpr=2`, et iPhone12 avec dpr=3, les deux affichent `dpr=2`. Toujours pour les appareils haute résolution, l’envoi `dpr=2` est préférable à l’envoi `dpr=1`. La meilleure façon de surmonter cette inexactitude consiste toutefois à utiliser le RPD côté client pour vous donner des valeurs entièrement précises. Et ça marche pour n&#39;importe quel appareil, qu&#39;il s&#39;agisse d&#39;Apple ou de tout autre appareil qui a été lancé. Voir [Utilisation de l’imagerie dynamique avec rapport des pixels côté client](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/client-side-dpr.html?lang=en).
+Les valeurs DPR sont basées sur les valeurs côté client détectées du réseau de diffusion de contenu groupé. Ces valeurs sont parfois inexactes. Par exemple, iPhone5 avec `dpr=2` et iPhone12 avec dpr=3, affichent toutes deux `dpr=2`. Néanmoins, pour les appareils à haute résolution, l’envoi `dpr=2` est préférable à l’envoi `dpr=1`. La meilleure façon de surmonter cette inexactitude consiste toutefois à utiliser le RPD côté client pour vous donner des valeurs entièrement précises. Et ça marche pour n&#39;importe quel appareil, qu&#39;il s&#39;agisse d&#39;Apple ou de tout autre appareil qui a été lancé. Voir [Utilisation de l’imagerie dynamique avec le ratio de pixels d’appareil côté client](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/client-side-dpr.html?lang=en).
 
 ## Propriétés
 
-Attribut de requête. Elle n’a aucun effet si `dpr` est désactivé ou si `dprValue=1`.
+Attribut de requête. Cela n’a aucun effet si `dpr` est désactivé ou si `dprValue=1`.
 
 ## Par défaut
 
@@ -62,4 +63,4 @@ Attribut de requête. Elle n’a aucun effet si `dpr` est désactivé ou si `dpr
 
 ## Voir aussi
 
-[bfc](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md), [network](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md), [Imagerie dynamique](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)
+[bfc](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md), [network](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-network.md), [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)

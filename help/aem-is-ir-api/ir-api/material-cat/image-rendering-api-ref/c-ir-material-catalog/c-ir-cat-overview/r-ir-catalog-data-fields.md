@@ -8,7 +8,7 @@ exl-id: bda5fe2d-6205-4737-a9c7-dc934a2d7b06
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '194'
-ht-degree: 12%
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ Les champs de données de catalogue suivants sont disponibles.
   <td class="stentry"> <p>Description </p></td> 
  </thead> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-id.md#reference-cba2a53a952e403fb57a4e8569f9cf85" type="reference" format="dita" scope="local"> ID</a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-id.md#reference-cba2a53a952e403fb57a4e8569f9cf85" type="reference" format="dita" scope="local"> Id</a> </p></td> 
   <td class="stentry"> <p>Identifiant du matériau (clé d'index). </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -42,10 +42,10 @@ Les champs de données de catalogue suivants sont disponibles.
  </thead> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-path.md#reference-59ebb624250a4965ad1737578a2ab590" type="reference" format="dita" scope="local"> Chemin </a> </p></td> 
-  <td class="stentry"> <p>Chemin du fichier de données image ou URL. </p></td> 
+  <td class="stentry"> <p>Chemin d’accès ou URL du fichier de données image. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-auxpath.md#reference-943ad5ee3c3b4b06bbcbb005db0dc969" type="reference" format="dita" scope="local"> AuxPath </a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-auxpath.md#reference-943ad5ee3c3b4b06bbcbb005db0dc969" type="reference" format="dita" scope="local"> ÀPath </a> </p></td> 
   <td class="stentry"> <p>Chemin d’accès ou URL du fichier de données Secondaire. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -69,11 +69,11 @@ Les champs de données de catalogue suivants sont disponibles.
   <td class="stentry"> <p>Sélecteur de carte d’éclairage. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-gloss.md#reference-5277f62a67e2408ab94699aa712f1eeb" type="reference" format="dita" scope="local"> Grain</a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-gloss.md#reference-5277f62a67e2408ab94699aa712f1eeb" type="reference" format="dita" scope="local"> Glessure</a> </p></td> 
   <td class="stentry"> <p>Luminosité de surface. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-roughness.md#reference-79f748ac642745e3b81795a99f61fa99" type="reference" format="dita" scope="local"> Rogosité </a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-roughness.md#reference-79f748ac642745e3b81795a99f61fa99" type="reference" format="dita" scope="local"> Roghness </a> </p></td> 
   <td class="stentry"> <p>La rugosité de surface. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -85,7 +85,7 @@ Les champs de données de catalogue suivants sont disponibles.
   <td class="stentry"> <p>Accentuation de la texture/des décimales. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-repeat.md#reference-20e149211e1f4e8285db5ecb83c1902e" type="reference" format="dita" scope="local"> Repeat</a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-repeat.md#reference-20e149211e1f4e8285db5ecb83c1902e" type="reference" format="dita" scope="local"> Répétition </a> </p></td> 
   <td class="stentry"> <p>Mode Répéter pour les textures répétables. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -93,7 +93,7 @@ Les champs de données de catalogue suivants sont disponibles.
   <td class="stentry"> <p>Alignement de la texture entre les objets. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-size.md#reference-a698b0d2652f4ea8a2b006fbf59cf4f1" type="reference" format="dita" scope="local"> Taille</a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-material-data-reference/r-ir-cat-size.md#reference-a698b0d2652f4ea8a2b006fbf59cf4f1" type="reference" format="dita" scope="local"> Size</a> </p></td> 
   <td class="stentry"> <p>Taille du calque de recouvrement/décal. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -104,11 +104,11 @@ Les champs de données de catalogue suivants sont disponibles.
 
 <table id="simpletable_BD278D96C3324004ABBBACEDF85F8D50"> 
  <thead class="sthead"> 
-  <td class="stentry"> Cartes visuelles</td> 
+  <td class="stentry"> Mappages de vignettes</td> 
   <td class="stentry"> <p>Description </p></td> 
  </thead> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-id-vignette.md#reference-2a7ba758924b4757b3234942304db7fd" type="reference" format="dita" scope="local"> ID</a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-id-vignette.md#reference-2a7ba758924b4757b3234942304db7fd" type="reference" format="dita" scope="local"> Id</a> </p></td> 
   <td class="stentry"> <p>Identifiant de la vignette (clé d'index). </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -120,15 +120,15 @@ Les champs de données de catalogue suivants sont disponibles.
   <td class="stentry"> <p>Expiration du cache client (intervalle d’activation). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-path-vignette.md#reference-aa1c007b63a04351b89881933deaf59c" type="reference" format="dita" scope="local"> Chemin</a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-path-vignette.md#reference-aa1c007b63a04351b89881933deaf59c" type="reference" format="dita" scope="local"> Path</a> </p></td> 
   <td class="stentry"> <p>Chemin du fichier de vignette. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-modifier.md#reference-cafa1623d65644be8cf3bda6a75ccbc4" type="reference" format="dita" scope="local"> Modificateur</a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-modifier.md#reference-cafa1623d65644be8cf3bda6a75ccbc4" type="reference" format="dita" scope="local"> Modificateur </a> </p></td> 
   <td class="stentry"> <p>Modificateurs de requête prédéfinis. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-userdata.md#reference-5bb5d49aee9c408992e41a5ad17d6e85" type="reference" format="dita" scope="local"> Données utilisateur</a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-vignette-map-reference/r-ir-userdata.md#reference-5bb5d49aee9c408992e41a5ad17d6e85" type="reference" format="dita" scope="local"> UserData</a> </p></td> 
   <td class="stentry"> <p>Données définies par l’utilisateur. </p></td> 
  </tr> 
 </table>
@@ -141,7 +141,7 @@ Les champs suivants sont reconnus dans les fichiers de définition de macro :
   <td class="stentry"> <p>Description </p></td> 
  </thead> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-macro-definition-reference/r-ir-name.md#reference-63b663d2052545ffab030a23e7060b1e" type="reference" format="dita" scope="local"> Nom</a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-macro-definition-reference/r-ir-name.md#reference-63b663d2052545ffab030a23e7060b1e" type="reference" format="dita" scope="local"> Name</a> </p></td> 
   <td class="stentry"> <p>Nom de la macro (clé d'index). </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -158,7 +158,7 @@ Les champs suivants sont reconnus dans les fichiers de mappage de profil colorim
   <td class="stentry"> <p>Description </p></td> 
  </thead> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/r-ir-name-icc.md#reference-7a293ede360e433782575f8f6a562ac2" type="reference" format="dita" scope="local"> Nom</a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-icc-profile-map-reference/r-ir-name-icc.md#reference-7a293ede360e433782575f8f6a562ac2" type="reference" format="dita" scope="local"> Name</a> </p></td> 
   <td class="stentry"> <p>Nom du profil de couleurs (clé d’index). </p></td> 
  </tr> 
  <tr class="strow"> 

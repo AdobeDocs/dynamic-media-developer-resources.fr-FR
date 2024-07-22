@@ -2,13 +2,13 @@
 description: Indicateur italique.
 solution: Experience Manager
 title: Italique
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 46575243-4472-44fe-89ce-30d9c875c7d2
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 12%
+source-wordcount: '44'
+ht-degree: 11%
 
 ---
 

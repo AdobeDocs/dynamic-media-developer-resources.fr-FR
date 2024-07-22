@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 35e3be1e-ccc2-460c-98c1-bbefab1df699
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 13%
+source-wordcount: '139'
+ht-degree: 3%
 
 ---
 
@@ -74,12 +74,12 @@ Syntaxe
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">Les valeurs incluent : 
     <ul id="ul_BD00DC855B1D42748204E8BCA81FD4BF">
-     <li id="li_01FE691763B3465DBF3402E7CDEA50C3"><span class="codeph"> Inconnu</span>: Lorsque le moniteur de tâches évolue entre les états. </li>
-     <li id="li_AA2D1F9ADDE84B54A85C7E7830D3A0C9"><span class="codeph"> Nouveau</span>: Le moniteur de tâches a été créé mais n’a pas encore accepté les tâches. </li>
-     <li id="li_76D667D21BDF4FADA6A266A7EB4DC6EE"><span class="codeph"> Traitement</span>: Le moniteur de tâches traite activement les tâches. </li>
-     <li id="li_3813B2178D7143DEB91804A6C5FF3902"><span class="codeph"> Arrêt</span>: Le moniteur de tâches arrête une tâche en raison d’une demande d’arrêt de tâche. </li>
-     <li id="li_41C2E774FC504B58BD6736119AE9C0AE"><span class="codeph"> Terminé</span>: Les tâches affectées aux tâches de surveillance de tâches ont été terminées. </li>
-     <li id="li_EB2322BB11314B97998D467F4620ED2E"><span class="codeph"> En échec</span>: Indique une erreur fatale. </li>
+     <li id="li_01FE691763B3465DBF3402E7CDEA50C3"><span class="codeph"> Inconnu</span> : lorsque le moniteur de tâches évolue entre les états. </li>
+     <li id="li_AA2D1F9ADDE84B54A85C7E7830D3A0C9"><span class="codeph"> Nouveau</span> : le moniteur de tâches a été créé, mais n’a pas encore accepté les tâches. </li>
+     <li id="li_76D667D21BDF4FADA6A266A7EB4DC6EE"><span class="codeph"> Traitement</span> : le moniteur de tâches traite activement les tâches. </li>
+     <li id="li_3813B2178D7143DEB91804A6C5FF3902"><span class="codeph"> Arrêt </span> : le moniteur de tâches arrête une tâche en raison d’une demande d’arrêt de tâche. </li>
+     <li id="li_41C2E774FC504B58BD6736119AE9C0AE"><span class="codeph"> Terminé</span> : les tâches affectées aux tâches de surveillance de tâche ont été terminées. </li>
+     <li id="li_EB2322BB11314B97998D467F4620ED2E"><span class="codeph"> Failed</span> : indique une erreur fatale. </li>
     </ul></td> 
   </tr> 
  </tbody> 

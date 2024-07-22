@@ -8,7 +8,7 @@ exl-id: 97175076-9078-4bc4-b3ea-73c3ea772f6a
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 15%
+ht-degree: 2%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 15%
 
 Définitions de champ définies par l’utilisateur pour des ressources spécifiques.
 
-Récupération des définitions de champ de balise avec la méthode `getMetadataFields` ou `getAssetMetadataField` opérations.
+Récupérez les définitions de champ de balise avec les opérations `getMetadataFields` ou `getAssetMetadataField` .
 
 ## Paramètres {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -62,7 +62,7 @@ Récupération des définitions de champ de balise avec la méthode `getMetadata
   <tr> 
    <td colname="col1"><span class="codeph"> <span class="varname"> isHidden</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Masquer ou exposer les métadonnées spécifiques au système IPS. renvoyé par <a href="../../operations/c-operations-intro/c-methods/r-get-metadata-fields.md#reference-170337127801401d9ea54bd4ccf28efe" format="dita" scope="local"> getMetadataFields</a> et <a href="../../operations/c-operations-intro/c-methods/r-get-asset-metadata-fields.md#reference-ea57f8e98d3e443da66114550b0d0a28" format="dita" scope="local"> getAssetMetadataFields</a>. </td> 
+   <td colname="col3">Masquer ou exposer les métadonnées spécifiques au système IPS. Renvoie à partir de <a href="../../operations/c-operations-intro/c-methods/r-get-metadata-fields.md#reference-170337127801401d9ea54bd4ccf28efe" format="dita" scope="local"> getMetadataFields</a> et <a href="../../operations/c-operations-intro/c-methods/r-get-asset-metadata-fields.md#reference-ea57f8e98d3e443da66114550b0d0a28" format="dita" scope="local"> getAssetMetadataFields</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 

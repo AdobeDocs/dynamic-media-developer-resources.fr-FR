@@ -23,7 +23,7 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | logMessage | `xsd:string` | Messages dans le journal de la tâche. |
-| logType | `xsd:string` | Type de fichier journal des tâches. |
+| logType | `xsd:string` | Type de fichier journal de la tâche. |
 | assetName | `xsd:string` | Nom de la ressource dans le journal des tâches (facultatif). |
 | assetType | `xsd:string` | Choix du type de ressource. |
 | assetHandle | `xsd:string` | Gestionnaire de ressources référencé dans le journal des tâches. |

@@ -2,12 +2,12 @@
 description: La visionneuse vous permet de générer le contenu du catalogue sur une imprimante.
 solution: Experience Manager
 title: Fonction d’impression
-feature: Dynamic Media Classic,Visionneuses,SDK/API,Recherche catalogue électronique
+feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: eadcc105-4a86-40f7-867a-3b09a5599a41
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---

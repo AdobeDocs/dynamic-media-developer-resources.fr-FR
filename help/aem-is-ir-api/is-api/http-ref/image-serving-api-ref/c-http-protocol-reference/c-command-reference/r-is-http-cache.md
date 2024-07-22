@@ -1,6 +1,6 @@
 ---
 title: cache
-description: Contrôle du cache. Permet de désactiver de manière sélective la mise en cache côté client (navigateur, serveurs proxy, systèmes de mise en cache réseau) et la mise en cache dans les [!DNL Platform Server] cache.
+description: Contrôle du cache. Permet de désactiver de manière sélective la mise en cache côté client (navigateur, serveurs proxy, systèmes de mise en cache réseau) et la mise en cache dans le cache interne  [!DNL Platform Server] .
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # cache{#cache}
 
-Contrôle du cache. Permet de désactiver de manière sélective la mise en cache côté client (navigateur, serveurs proxy, systèmes de mise en cache réseau) et la mise en cache dans les [!DNL Platform Server] cache.
+Contrôle du cache. Permet de désactiver sélectivement la mise en cache côté client (navigateur, serveurs proxy, systèmes de mise en cache réseau) et la mise en cache dans le cache interne [!DNL Platform Server].
 
 `cache= *`cacheControl`*`
 
@@ -35,11 +35,11 @@ Contrôle du cache. Permet de désactiver de manière sélective la mise en cach
  </tr> 
 </table>
 
-Si seulement un `*`cacheControl`*` est spécifiée, elle est appliquée aux caches client et serveur.
+Si seule une valeur `*`cacheControl`*` est spécifiée, elle est appliquée aux caches client et serveur.
 
-La variable `validate` Le mot-clé permet de mettre à jour les entrées du cache après la modification des fichiers image, sans avoir à attendre que l’entrée du cache expire automatiquement. La mise en cache du client n’est pas affectée par cette commande.
+Le mot-clé `validate` permet de mettre à jour les entrées du cache après modification des fichiers image, sans avoir à attendre que l’entrée du cache expire automatiquement. La mise en cache du client n’est pas affectée par cette commande.
 
-La variable `update` Vous pouvez utiliser ce mot-clé pour forcer la mise à jour des entrées du cache côté serveur. Cela s’avère utile une fois les ressources modifiées qui ne sont pas directement suivies par le mécanisme de validation du cache, par exemple lorsqu’un fichier de police est modifié sans modifier son nom de fichier ou l’ID de police associé.
+Le mot-clé `update` peut être utilisé pour forcer la mise à jour des entrées du cache côté serveur. Cela s’avère utile une fois les ressources modifiées qui ne sont pas directement suivies par le mécanisme de validation du cache, par exemple lorsqu’un fichier de police est modifié sans modifier son nom de fichier ou l’ID de police associé.
 
 Si spécifié dans une requête imbriquée, `cache=on` active la mise en cache persistante côté serveur de l’image générée par la requête imbriquée. Vous devez veiller à activer la mise en cache des requêtes imbriquées uniquement lorsque la même requête imbriquée doit être appelée de manière répétée avec exactement les mêmes paramètres.
 
@@ -47,7 +47,7 @@ Si spécifié dans une requête imbriquée, `cache=on` active la mise en cache p
 
 Attribut de requête. S’applique quel que soit le paramètre de calque actif. Ignoré lorsque la requête ne renvoie pas d’image de réponse. *`clientControl`*est ignoré lorsque la mise en cache côté client est désactivée par le catalogue d’images (si `catalog::Expiration` a une valeur négative).
 
-Contrôle du cache côté client ( `on` et `off` uniquement) est également disponible pour les requêtes de contenu statique à l’adresse [!DNL /is/content/].
+Le contrôle du cache côté client ( `on` et `off` uniquement) est également disponible pour les requêtes de contenu statique à [!DNL /is/content/].
 
 ## Par défaut {#section-4124b2c836e2491489b9009a92fe4f22}
 
@@ -55,4 +55,4 @@ Contrôle du cache côté client ( `on` et `off` uniquement) est également disp
 
 ## Voir aussi {#section-7c2ac171fa0e4aa4a2e9955fd2d2013e}
 
-[catalogue : Expiration](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md#reference-a7afd668ecbb4d2da65d86259aa6a28a) , [req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)
+[catalog::Expiration](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-expiration-cat.md#reference-a7afd668ecbb4d2da65d86259aa6a28a) , [req=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76)

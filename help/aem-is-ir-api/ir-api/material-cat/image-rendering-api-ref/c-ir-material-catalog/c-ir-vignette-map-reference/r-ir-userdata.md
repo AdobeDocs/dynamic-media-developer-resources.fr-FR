@@ -16,7 +16,7 @@ ht-degree: 7%
 
 Données utilisateur. Le serveur renvoie le contenu de ce champ au client en réponse à req=userdata.
 
-Les nouvelles lignes peuvent être placées dans une séquence d’échappement avec &quot;??&quot;. Le serveur remplace ?? par `<cr><lf>` avant de renvoyer le contenu de ce champ.
+Les nouvelles lignes peuvent être placées dans une séquence d’échappement avec &quot;??&quot;. Le serveur remplace &quot;??&quot; par `<cr><lf>` avant de renvoyer le contenu de ce champ.
 
 ## Propriétés {#section-4e3904e047a84cc790ce77c56d3e0b21}
 

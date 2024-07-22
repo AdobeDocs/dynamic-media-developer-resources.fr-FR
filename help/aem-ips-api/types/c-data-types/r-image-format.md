@@ -23,5 +23,5 @@ Pas un type de ressource.
 | Nom | Type | Description |
 |---|---|---|
 | imageFormatHandle | `xsd:string` | Poignée de format d’image. |
-| name | `xsd:string` | Nom du format d’image. |
-| urlModifier | `xsd:string` | URL du serveur d’images qui représente le format de l’image. |
+| nom | `xsd:string` | Nom du format d’image. |
+| urlModifier | `xsd:string` | URL du serveur d’images représentant le format d’image. |

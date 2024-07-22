@@ -8,7 +8,7 @@ exl-id: 21cb8023-d6fe-416a-b16f-636df8a37958
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '141'
-ht-degree: 10%
+ht-degree: 9%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 Obtient les ressources et le nombre de ressources associées à une société spécifique.
 
-Le `countArray` renvoyé se compose d’un tableau de `assetTypes` (type de données `xsd:string`), chacune ayant son propre champ de comptage (type de données `xsd:int`), permettant la représentation de plusieurs types de ressources par élément du tableau .
+L’ `countArray` renvoyé est constitué d’un tableau de `assetTypes` (type de données `xsd:string`), chacun ayant son propre champ de comptage (type de données `xsd:int`), permettant la représentation de plusieurs types de ressources par élément du tableau.
 Syntaxe
 
 ## Types d’utilisateurs autorisés {#section-6234754722184e828352f10eb18fbce9}
@@ -47,9 +47,9 @@ Syntaxe
 
 ## Exemples {#section-6052a503eb3843f6adb99e200fdba280}
 
-Cet exemple de code utilise le nom d’utilisateur de l’entreprise comme champ dans la variable `getAssetCountsParam` envoyé au serveur des services Web IPS pour obtenir le nombre de ressources.
+Cet exemple de code utilise le nom d’utilisateur de l’entreprise comme champ dans le `getAssetCountsParam` envoyé au serveur des services Web IPS pour obtenir le nombre de ressources.
 
-**Request**
+**Requête**
 
 ```java
 <getAssetCountsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

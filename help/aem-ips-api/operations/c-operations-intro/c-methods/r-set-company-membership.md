@@ -8,7 +8,7 @@ exl-id: 43144c75-1d83-4e1d-8319-c3275d349a2f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 15%
+ht-degree: 13%
 
 ---
 
@@ -27,14 +27,14 @@ Syntaxe
 
 ## Paramètres {#section-3930dc6a016140178631083563598104}
 
-**Entrée (setCompanyMembershipParam)**
+**Input (setCompanyMembershipParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | userHandle | `xsd:sting` | Non | Identifiant utilisateur. |
 | membershipArray | `types:CompanyMembershipUpdateArray` | Oui | Tableau d&#39;entreprises. |
 
-**Sortie (setCompanyMembershipParam)**
+**Output (setCompanyMembershipParam)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 
@@ -42,7 +42,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 Cet exemple de code ajoute un utilisateur à une société. Si nécessaire, indiquez plusieurs sociétés dans le tableau de gestion de l’entreprise.
 
-**Request**
+**Requête**
 
 ```java
 <ns1:setCompanyMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

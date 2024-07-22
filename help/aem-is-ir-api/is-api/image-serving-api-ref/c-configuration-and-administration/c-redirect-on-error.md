@@ -31,7 +31,7 @@ La redirection d’erreur ne se produit dans aucun autre cas.
 
 Lorsqu’elle est activée et qu’une telle erreur se produit pendant le traitement de la demande, le serveur principal envoie la demande au serveur secondaire pour traitement. La réponse, qu’elle indique un succès ou un échec, est ensuite transmise directement au client. Le serveur principal marque les entrées de journal de ces requêtes transférées avec l’utilisation du cache `REMOTE`. Les données de réponse ne sont pas mises en cache localement par le serveur principal.
 
-La redirection d’erreur est activée en définissant `PS::errorRedirect.rootUrl` au nom de domaine HTTP et au numéro de port du serveur secondaire. En outre, le délai de connexion est configuré avec `PS::errorRedirect.connectTimeout` et le temps maximal pendant lequel le serveur principal attend une réponse du serveur secondaire avant de renvoyer une erreur au client est configuré avec `PS::errorRedirect.socketTimeout`.
+La redirection d’erreur est activée en définissant `PS::errorRedirect.rootUrl` sur le nom de domaine HTTP et le numéro de port du serveur secondaire. En outre, le délai de connexion est configuré avec `PS::errorRedirect.connectTimeout` et le temps maximal pendant lequel le serveur principal attend une réponse du serveur secondaire avant de renvoyer une erreur au client est configuré avec `PS::errorRedirect.socketTimeout`.
 
 >[!NOTE]
 >

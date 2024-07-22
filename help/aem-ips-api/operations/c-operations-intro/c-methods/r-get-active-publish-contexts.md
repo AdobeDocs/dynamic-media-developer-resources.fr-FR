@@ -1,5 +1,5 @@
 ---
-description: Obtient une liste des principaux contextes de publication pour la société spécifiée. Un contexte de publication est considéré comme principal s’il existe au moins un serveur principal défini pour le contexte.
+description: Obtient une liste des contextes de publication actifs pour la société spécifiée. Un contexte de publication est considéré comme actif s’il existe au moins un serveur actif défini pour le contexte.
 solution: Experience Manager
 title: getActivePublishContext
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # getActivePublishContext{#getactivepublishcontext}
 
-Obtient une liste des principaux contextes de publication pour la société spécifiée. Un contexte de publication est considéré comme principal s’il existe au moins un serveur principal défini pour le contexte.
+Obtient une liste des contextes de publication actifs pour la société spécifiée. Un contexte de publication est considéré comme actif s’il existe au moins un serveur actif défini pour le contexte.
 
 Syntaxe
 
@@ -36,10 +36,10 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gestion de l’entreprise pour interroger les principaux contextes de publication |
+| companyHandle | `xsd:string` | Oui | Gestion de l’entreprise pour interroger les contextes de publication actifs |
 
-**Sortie (getActivePublishContextsReturn)**
+**Output (getActivePublishContextsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| contextArray | `types:StringArray` | Oui | Tableau de principaux contextes de publication, qui peut inclure aucune ou plusieurs valeurs du contexte de publication. |
+| contextArray | `types:StringArray` | Oui | Tableau des contextes de publication actifs, qui peut inclure aucune ou plusieurs valeurs du contexte Publish. |

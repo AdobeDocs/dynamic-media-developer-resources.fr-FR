@@ -8,7 +8,7 @@ exl-id: bd717c08-6da4-47f1-8614-e4ba79d8176c
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
 
@@ -34,7 +34,7 @@ Syntaxe
 | companyHandle | `xsd:string` | Oui | Gestionnaire de l’entreprise qui contient le format d’image que vous souhaitez supprimer. |
 | imageFormatHandle | `xsd:string` | Oui | Gestion du format d’image que vous souhaitez supprimer. |
 
-**Sortie (deleteImageFormatParam)**
+**Output (deleteImageFormatParam)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 
@@ -42,7 +42,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 Cet exemple de code supprime un format d’image d’une société. Récupérez la gestion du format d’image à partir d’une autre opération.
 
-**Request**
+**Requête**
 
 ```java
 <deleteImageFormatParam xmlns="http://www.scene7.com/IpsApi/xsd">

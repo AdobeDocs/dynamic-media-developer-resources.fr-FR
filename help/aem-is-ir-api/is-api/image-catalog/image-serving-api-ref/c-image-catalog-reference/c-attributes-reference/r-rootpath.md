@@ -1,5 +1,5 @@
 ---
-description: Chemin d’accès racine des données source. Chemin d’accès absolu ou relatif au dossier racine pour les données source de ce catalogue d’images.
+description: Chemin d’accès racine des données Source. Chemin d’accès absolu ou relatif au dossier racine pour les données source de ce catalogue d’images.
 solution: Experience Manager
 title: RootPath
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 2%
 
 # RootPath{#rootpath}
 
-Chemin d’accès racine des données source. Chemin d’accès absolu ou relatif au dossier racine pour les données source de ce catalogue d’images.
+Chemin d’accès racine des données Source. Chemin d’accès absolu ou relatif au dossier racine pour les données source de ce catalogue d’images.
 
-La variable `RootPath` est une valeur de chaîne de texte. Voir [Gestion des données source](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md#reference-4eebd51b2db2401c90be771d3382329e) pour plus d’informations sur les chemins racine du serveur.
+`RootPath` est une valeur de chaîne de texte. Voir [Gestion des données Source](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md#reference-4eebd51b2db2401c90be771d3382329e) pour plus d’informations sur les chemins racine du serveur.
 
 ## Propriétés {#section-b41d7e0ea63143eb8034569706cad0c0}
 
@@ -28,4 +28,4 @@ Hérité de `default::RootPath` si elle n’est pas définie. S’il est défini
 
 ## Voir aussi {#section-6bf4ffc4987843a9a2dbe81b43076437}
 
-[catalog::Path](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md) , [catalogue ::MaskPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md),  [ruleSet::PathRule](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e), [Gestion des données source](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md#reference-4eebd51b2db2401c90be771d3382329e)
+[catalog::Path](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-path-cat.md) , [catalog::MaskPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-maskpath-cat.md), [rule::PathRule](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/c-rule-set-reference.md#concept-3e5058cf3507470b82cac638df23ea8e), [Gestion des données Source](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md#reference-4eebd51b2db2401c90be771d3382329e)

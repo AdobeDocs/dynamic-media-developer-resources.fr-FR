@@ -13,14 +13,14 @@ ht-degree: 2%
 
 # PanoramicView.fmt{#panoramicview-fmt}
 
-Indique le format d’image utilisé par le composant pour charger les images à partir du serveur d’images. Si le format spécifié se termine par &quot;-alpha&quot;, le composant rend les images comme transparentes. Pour tous les autres formats d’image, le composant traite les images comme opaques. Par défaut, le composant dispose d’un arrière-plan transparent. Par conséquent, pour le rendre opaque, définissez la variable `background-color` Propriété CSS à `desired_color`
+Indique le format d’image utilisé par le composant pour charger les images à partir du serveur d’images. Si le format spécifié se termine par &quot;-alpha&quot;, le composant rend les images comme transparentes. Pour tous les autres formats d’image, le composant traite les images comme opaques. Par défaut, le composant dispose d’un arrière-plan transparent. Par conséquent, pour le rendre opaque, définissez la propriété CSS `background-color` sur `desired_color`
 
 `[PanoramicView.|<containerId>_panoramicView.]fmt=jpg|jpeg|png|png-alpha|gif|gif-alpha`
 
 <table id="table_AE7AAFA9B4374E31B51D06511EB96401"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif-alpha </span> </p> </td> 
    <td colname="col2"> <p> Indique le format d’image à utiliser par le composant pour le chargement des images à partir du serveur d’images. Si le format spécifié se termine par "-alpha", le composant effectue le rendu des images en tant que contenu transparent ; pour tous les autres formats d’image, le composant traite les images comme opaques. Par défaut, le composant dispose d’un arrière-plan transparent. Par conséquent, pour opaque, définissez la propriété CSS de couleur d’arrière-plan sur la couleur souhaitée. </p> </td> 
   </tr> 
  </tbody> 

@@ -2,13 +2,13 @@
 description: Résolution d’impression par défaut. Fournit une résolution d’impression par défaut au cas où un enregistrement de catalogue particulier ne contiendrait pas de valeur PrintResolution de catalogue valide.
 solution: Experience Manager
 title: PrintResolution
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b61c63c4-09ca-43fe-b711-8b06d766aefb
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 5%
+source-wordcount: '70'
+ht-degree: 4%
 
 ---
 

@@ -8,7 +8,7 @@ exl-id: b0656d6c-0f73-4f1d-9e1f-20b07cfe44b9
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 20%
+ht-degree: 17%
 
 ---
 
@@ -20,7 +20,7 @@ Syntaxe
 
 ## Paramètres {#section-577d46cc75774c7c8fbdcff203a0d9ac}
 
-Les ressources conservent un marqueur distinct pour chaque état et contexte de publication. Définissez l’état de publication avec [setAssetsContextState](../../operations/c-operations-intro/c-methods/r-set-asset-context-state.md#reference-da96f9caef734f2883fddaf58cd886d7).
+Assets conserve un marqueur distinct pour chaque état et contexte de publication. Définissez l’état de publication avec [setAssetsContextState](../../operations/c-operations-intro/c-methods/r-set-asset-context-state.md#reference-da96f9caef734f2883fddaf58cd886d7).
 
 <table id="table_1165D5DDC89140CD8222E5A04B39048E">
  <thead>
@@ -57,5 +57,4 @@ Les ressources conservent un marqueur distinct pour chaque état et contexte de 
 
 >[!MORELIKETHIS]
 >
->* [Contexte de publication](../../string-constants/c-string-constants/r-publish-context.md#reference-3ade116df0df40deb86154eb0ac7c12a)
-
+>* [Publish Context](../../string-constants/c-string-constants/r-publish-context.md#reference-3ade116df0df40deb86154eb0ac7c12a)

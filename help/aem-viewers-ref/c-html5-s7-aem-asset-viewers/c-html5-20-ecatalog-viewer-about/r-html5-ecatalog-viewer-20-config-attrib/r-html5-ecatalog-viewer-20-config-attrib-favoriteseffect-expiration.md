@@ -8,13 +8,13 @@ exl-id: ef4880c5-045c-487c-a73a-e87e54717029
 source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
 workflow-type: tm+mt
 source-wordcount: '46'
-ht-degree: 13%
+ht-degree: 6%
 
 ---
 
 # FavoritesEffect.expiration{#favoriteseffect-expiration}
 
-` [FavoritesEffect.|<containerId>_favoritesEffect.]expiration= *`jours`*`
+` [FavoritesEffect.|<containerId>_favoritesEffect.]expiration= *`days`*`
 
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 

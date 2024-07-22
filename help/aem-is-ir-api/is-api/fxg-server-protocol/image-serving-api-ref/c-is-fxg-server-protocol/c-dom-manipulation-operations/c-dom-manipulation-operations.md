@@ -2,12 +2,12 @@
 description: Plusieurs opérations de manipulation DOM sont prises en charge.
 solution: Experience Manager
 title: Opérations de manipulation DOM FXG
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 99325deb-2eb2-4c3b-ba5e-1ed64f36ba23
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '33'
+source-wordcount: '27'
 ht-degree: 0%
 
 ---

@@ -7,14 +7,14 @@ role: Developer,Admin,User
 exl-id: 6261844c-b63d-477b-8a48-963be868aa22
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 1%
+source-wordcount: '132'
+ht-degree: 0%
 
 ---
 
 # Fichiers de configuration du serveur{#server-configuration-files}
 
-Tous les fichiers de configuration se trouvent dans la variable `install_folder/conf` et sont modifiables avec la plupart des éditeurs de texte. Redémarrez le serveur pour que les modifications prennent effet.
+Tous les fichiers de configuration se trouvent dans le `install_folder/conf` et sont modifiables avec la plupart des éditeurs de texte. Redémarrez le serveur pour que les modifications prennent effet.
 
 >[!NOTE]
 >

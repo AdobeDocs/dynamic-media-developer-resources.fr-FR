@@ -8,7 +8,7 @@ exl-id: 2c8ebec2-a664-46cd-b843-9893bfa0a9d1
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 19%
+ht-degree: 5%
 
 ---
 
@@ -37,12 +37,12 @@ Syntaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL jobName]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Nom de la tâche. </td> 
+   <td colname="col3"> Nom de la tâche </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL logMessage]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Message dans le journal de la tâche. <p><span class="codeph"> [!DNL logMessage]</span> le champ de réponse est localisé en fonction de <span class="codeph"> authHeader</span> locale. </p></td> 
+   <td colname="col3">Message dans le journal de la tâche. <p>Le champ de réponse <span class="codeph"> [!DNL logMessage]</span> est localisé en fonction du champ du paramètre régional <span class="codeph"> authHeader</span> . </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL logType]</span> </span> </td> 

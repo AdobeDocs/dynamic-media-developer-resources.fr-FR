@@ -24,7 +24,7 @@ Chaîne de texte.
 
 ## Par défaut {#section-82e5a885e142414f996c609efbb962b1}
 
-Hérité de `default::PublishInfo` s’il n’est pas défini ou s’il est vide.
+Hérité de `default::PublishInfo` si elle n’est pas définie ou si elle est vide.
 
 ## Voir aussi {#section-d61c31afb3dd4ae2abc6285db80c4f8a}
 

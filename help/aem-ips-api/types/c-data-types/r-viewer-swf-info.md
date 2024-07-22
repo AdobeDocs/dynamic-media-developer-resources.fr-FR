@@ -8,7 +8,7 @@ exl-id: 55d5cd83-7c7d-42a5-84ab-35e0c410a8ef
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '42'
-ht-degree: 16%
+ht-degree: 11%
 
 ---
 
@@ -24,4 +24,4 @@ Syntaxe
 |---|---|---|
 | originalPath | `xsd:string` | Chemin d’accès relatif au fichier du SWF de visionneuse initialement chargé. |
 | originalFile | `xsd:string` | Nom de fichier du fichier du SWF de la visionneuse d’origine. |
-| fileSize | `xsd:int` | Taille du fichier. |
+| fileSize | `xsd:int` | Taille de fichier. |

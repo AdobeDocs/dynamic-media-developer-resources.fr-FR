@@ -4,10 +4,11 @@ description: La barre de défilement vidéo est la commande de curseur horizonta
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 9f7e3fec-8303-4114-86b2-fb75d041701d
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 3%
+source-wordcount: '362'
+ht-degree: 0%
 
 ---
 
@@ -32,11 +33,11 @@ L’aspect général de la barre de défilement vidéo est contrôlé à l’aid
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> haut </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Position à partir de la bordure supérieure, y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bas </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p> Position à partir de la bordure inférieure, y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
@@ -44,7 +45,7 @@ L’aspect général de la barre de défilement vidéo est contrôlé à l’aid
    <td colname="col2"> <p>Hauteur de la barre de défilement vidéo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Couleur de la barre de défilement vidéo. </p> </td> 
   </tr> 
  </tbody> 
@@ -58,7 +59,7 @@ Les sélecteurs de classe CSS suivants effectuent le suivi des indicateurs d’a
 .s7smartcropvideoviewer .s7videoscrubber .s7trackplayed
 ```
 
-**Propriétés CSS du suivi**
+**Propriétés CSS du track**
 
 <table id="table_46903DCACF314426B67783167ADF7715"> 
  <tbody> 
@@ -67,7 +68,7 @@ Les sélecteurs de classe CSS suivants effectuent le suivi des indicateurs d’a
    <td colname="col2"> <p>Hauteur du suivi correspondant. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Couleur du suivi correspondant. </p> </td> 
   </tr> 
  </tbody> 
@@ -84,7 +85,7 @@ Le sélecteur de classe CSS suivant contrôle le bouton :
 <table id="table_966826FB81114362A8D81D1EED38D512"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> haut </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Décalage vertical des boutons. </p> </td> 
   </tr> 
   <tr> 
@@ -100,7 +101,7 @@ Le sélecteur de classe CSS suivant contrôle le bouton :
    <td colname="col2"> <p>Obtenir une illustration. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -137,7 +138,7 @@ Le sélecteur de classe CSS suivant contrôle la bulle de durée de lecture :
    <td colname="col2"> <p>Hauteur de la bulle. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p>Marge intérieure de la zone bulle. </p> </td> 
   </tr> 
   <tr> 
@@ -145,11 +146,11 @@ Le sélecteur de classe CSS suivant contrôle la bulle de durée de lecture :
    <td colname="col2"> <p>Illustrations à bulles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-customizingviewer/c-html5-aem-smartcropvideo-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> alignement de texte </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
    <td colname="col2"> <p>Alignement du texte avec la zone de bulle. </p> </td> 
   </tr> 
  </tbody> 

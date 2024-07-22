@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: e99101a1-1747-454c-b0c0-3af3335c0497
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 2%
+source-wordcount: '268'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,7 @@ Utilisation des masques d’image. Indique comment le masque ou canal alpha de l
 
 `maskUse=norm|invert|off`
 
-Le tableau suivant illustre l’effet de `maskUse=` selon la disponibilité et le type de masque (canal alpha) associé à l&#39;image du calque.
+Le tableau suivant illustre l’effet de `maskUse=` en fonction de la disponibilité et du type du masque (canal alpha) associé à l’image du calque.
 
 <table id="table_B765F6A765F548948531AF26DA0B4360"> 
  <thead> 
@@ -31,7 +31,7 @@ Le tableau suivant illustre l’effet de `maskUse=` selon la disponibilité et l
  </thead>
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> désactivé </span> </p> </td> 
+   <td> <p> <span class="codeph"> off </span> </p> </td> 
    <td> <p> Rectangle d’image opaque </p> </td> 
    <td> <p> Rectangle d’image opaque </p> </td> 
    <td> <p> Zone de premier plan de l’image sur un rectangle rempli de noir uni </p> </td> 

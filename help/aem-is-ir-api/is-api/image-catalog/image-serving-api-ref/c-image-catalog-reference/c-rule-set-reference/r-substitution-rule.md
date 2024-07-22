@@ -2,13 +2,13 @@
 description: Elément Chaîne de substitution. Facultatif dans les éléments <rule> .
 solution: Experience Manager
 title: substitution
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d0f1c558-b745-41dc-bf65-1bf1fdcb88d3
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 2%
+source-wordcount: '168'
+ht-degree: 1%
 
 ---
 
@@ -32,11 +32,11 @@ Si l’expression de modèle inclut des sous-expressions (délimitées par des p
 
 Si `<expression>` est vide ou absent, la chaîne de substitution est ajoutée au chemin ou à la requête.
 
-Si `<substitution>` est vide, la chaîne ou la sous-chaîne correspondante est supprimée. Si `<substitution>` n’est pas spécifié, le chemin d’accès ou la chaîne de requête n’est pas modifié.
+Si `<substitution>` est vide, la chaîne ou la sous-chaîne correspondante est supprimée. Si `<substitution>` n’est pas spécifié, le chemin ou la chaîne de requête n’est pas modifié.
 
 >[!NOTE]
 >
->Toutes les correspondances de la chaîne d’entrée sont remplacées lorsque `replace="all"` est spécifié dans la balise `<rule>`, à laquelle appartient cet élément `<substitution>`. Par défaut, seule la première correspondance est remplacée par la chaîne de substitution.
+>Toutes les correspondances dans la chaîne d’entrée sont remplacées lorsque `replace="all"` est spécifié dans l’élément `<rule>` auquel appartient cet élément `<substitution>`. Par défaut, seule la première correspondance est remplacée par la chaîne de substitution.
 
 ## Note {#section-cedf2adabaaf441c9f598fb0ea180246}
 

@@ -8,7 +8,7 @@ exl-id: c9968fbb-c38b-4180-81be-19992fa8f347
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '149'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
@@ -51,7 +51,7 @@ Un matériau spécifique pour la paroi supérieure ou inférieure s’applique �
 
 ## Propriétés {#section-b202139d6d0847cc8d520a154104ab9d}
 
-la commande Sélection; Délimiteur MSS.
+Commande de sélection ; délimiteur MSS.
 
 ## Par défaut {#section-5b45a167a17c451596e4c59b7d53c368}
 

@@ -2,12 +2,12 @@
 description: Si xml est spécifié comme format de réponse, les données de réponse sont formatées sous la forme d'un document XML qui peut être analysé par un analyseur XML standard.
 solution: Experience Manager
 title: Propriétés XML
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 84cae0cd-d13b-409e-bd65-71c7e973d4b8
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,4 @@ L’élément `<prop-group>` est utilisé comme conteneur le plus éloigné et p
 
 >[!NOTE]
 >
->Le codage des caractères peut être spécifié pour certains types `req=`. Pour plus d’informations, reportez-vous à la description de la commande `req=`spécifique.
+>Le codage des caractères peut être spécifié pour certains types `req=`. Pour plus d&#39;informations, consultez la description de la commande `req=`spécifique.

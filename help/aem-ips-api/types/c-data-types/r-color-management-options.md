@@ -23,5 +23,5 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | colorManagement | `xsd:string` | Choix du mode de gestion des couleurs. |
-| sourceProfileHandle | `xsd:string` | Poignée de profil source. |
+| sourceProfileHandle | `xsd:string` | Poignée de profil Source. |
 | outputProfileHandle | `xsd:string` | Poignée de profil de sortie. |

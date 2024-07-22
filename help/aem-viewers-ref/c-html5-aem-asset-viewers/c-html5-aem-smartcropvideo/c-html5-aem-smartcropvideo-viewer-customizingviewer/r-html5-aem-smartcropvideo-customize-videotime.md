@@ -4,10 +4,11 @@ description: L’heure de la vidéo est l’affichage numérique qui indique l�
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 0ef09f06-c2d5-4c84-8ff9-4e94e9e54d40
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 2%
+source-wordcount: '197'
+ht-degree: 0%
 
 ---
 
@@ -30,11 +31,11 @@ L’aspect de l’heure de la vidéo est contrôlé à l’aide du sélecteur de
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> haut </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Position à partir de la bordure supérieure, y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> droite </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> droit </span> </p> </td> 
    <td colname="col2"> <p>Position à partir de la bordure droite, y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
@@ -58,7 +59,7 @@ L’aspect de l’heure de la vidéo est contrôlé à l’aide du sélecteur de
 
 ## Exemple {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Définir la durée de la vidéo sur le gris clair (hexadécimal) `#BBBBBB`), dimensionnée à 12 pixels, positionnée à 15 pixels du haut de la barre de contrôle et à 80 pixels des bords droits de la barre de contrôle.
+Définissez le temps de la vidéo sur gris clair (hexadécimal `#BBBBBB`), dimensionné à 12 pixels, positionné 15 pixels à partir du haut de la barre de contrôle et 80 pixels à partir des bords droits de la barre de contrôle.
 
 ```
 .s7smartcropvideoviewer .s7videotime { 

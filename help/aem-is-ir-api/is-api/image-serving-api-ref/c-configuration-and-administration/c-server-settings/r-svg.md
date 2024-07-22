@@ -7,8 +7,8 @@ role: Developer,Admin,User
 exl-id: 2863cc86-1f79-4db3-bd6f-a42839ef3439
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 1%
+source-wordcount: '269'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ Taille du tas Java pour le moteur de rendu de SVG. La valeur par défaut est &qu
 
 ## PS::svgProvider.rootPaths - SVG Data Root Folders {#section-70fe575b0ad54e3b8b6d3a01ea8f1f44}
 
-Emplacement des fichiers de données source du SVG. Il peut s’agir d’un ou plusieurs chemins ou chemins de fichier absolus par rapport à *[!DNL install_folder]*, séparés par des points-virgules. Généralement défini sur la même valeur que `IS::RootPath`.
+Emplacement des fichiers de données source du SVG. Il peut s’agir d’un ou plusieurs chemins d’accès ou chemins de fichier absolus par rapport à *[!DNL install_folder]*, séparés par des points-virgules. Généralement défini sur la même valeur que `IS::RootPath`.
 
 ## PS::svgProvider.SVGFileSizeLimit - Taille maximale du fichier du SVG {#section-b9c81e3e104642ebbdd9f000843d3256}
 
@@ -34,13 +34,13 @@ Cela limite la taille des images que SVGRender peut produire. Valeur entière su
 
 ## PS::svgProvider.port - [!DNL Platform Server] Port d’écoute {#section-f7e42a96c2dd4523b46f0557c239e659}
 
-Le port utilisé pour SvgRender pour obtenir des images à partir de la fonction [!DNL Platform Server] à être incorporés dans les rendus SVG.
+Port utilisé pour SvgRender pour obtenir des images de [!DNL Platform Server] à incorporer dans les rendus de SVG.
 
 Important : Pour que le composant SVGRender fonctionne correctement, cette option de configuration doit être définie sur la même valeur que `TC::PsPort`.
 
 ## PS::svgProvider.fontRoot - Dossier des fichiers de polices du SVG {#section-a8d45b0d68504945b8780f5eac351b0d}
 
-Indique l’emplacement où SvgRender trouve les fichiers de polices nécessaires au rendu du texte du SVG ; généralement l’un des chemins spécifiés dans `IS::RootPaths`. Par défaut : [!DNL  *[!DNL install_folder]*/images].
+Indique l’emplacement où le SvgRender trouve les fichiers de polices nécessaires au rendu du texte du SVG ; généralement l’un des chemins spécifiés dans `IS::RootPaths`. La valeur par défaut est [!DNL *[!DNL install_folder]*/images].
 
 ## SVG ::SVGRender.port, IS::SVGTcpPort - Port des communications du SVG {#section-608687123aa644b7b58fe42385d71b79}
 

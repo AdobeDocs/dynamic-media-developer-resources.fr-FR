@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: c812c7f0-4ac1-42cb-be47-7baebd8caf60
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 2%
+source-wordcount: '284'
+ht-degree: 1%
 
 ---
 
@@ -25,9 +25,9 @@ Hauteur de l’affichage. Indique la hauteur de l’image de réponse (image d�
  </tr> 
 </table>
 
-Si les deux `wid=` et `scl=` sont spécifiés, l’image composite peut être recadrée selon les `align=`attribut. When `fit=` est présent, `hei=` spécifie la hauteur exacte, minimale ou maximale de l’image de réponse ; voir la description de [fit=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md) pour plus d’informations.
+Si `wid=` et `scl=` sont spécifiés, l’image composite peut être recadrée en fonction de l’attribut `align=` . Lorsque `fit=` est présent, `hei=` spécifie la hauteur exacte, minimale ou maximale de l’image de réponse ; reportez-vous à la description de [fit=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md) pour plus d’informations.
 
-If `scl=` n’est pas spécifié, l’image composite est mise à l’échelle de manière à s’adapter. Si les deux `wid=` et `hei=` sont spécifiés, et `scl=` n’est pas spécifié, l’image est mise à l’échelle de manière à s’adapter entièrement au rectangle large/hauteur, en laissant une zone d’arrière-plan aussi petite que possible. Dans ce cas, l’image est positionnée dans le rectangle de l’affichage en fonction du `align=` attribut. La zone d’arrière-plan est remplie de `bgc=`, ou, si elle n’est pas spécifiée avec `attribute::BkgColor`.
+Si `scl=` n’est pas spécifié, l’image composite est mise à l’échelle de manière adaptée. Si `wid=` et `hei=` sont spécifiés tous les deux, et que `scl=` n’est pas spécifié, l’image est mise à l’échelle de manière à s’adapter entièrement au rectangle large/hauteur, laissant une zone d’arrière-plan aussi petite que possible exposée. Dans ce cas, l’image est positionnée dans le rectangle de la vue en fonction de l’attribut `align=` . La zone d’arrière-plan est remplie avec `bgc=` ou, si elle n’est pas spécifiée avec `attribute::BkgColor`.
 
 >[!NOTE]
 >
@@ -39,15 +39,15 @@ Attribut d’affichage. Elle s’applique quel que soit le paramètre de calque 
 
 ## Par défaut {#section-76544d34806d4124a8b173e229cba71f}
 
-Si aucun `wid=`, `hei=`, ou `scl=` sont spécifiées, l’image de réponse a la taille de l’image composite ou `attribute::DefaultPix`, le plus petit.
+Si ni `wid=`, `hei=`, ni `scl=` ne sont spécifiés, l’image de réponse a la taille de l’image composite ou `attribute::DefaultPix`, selon ce qui est plus petit.
 
 ## Exemples {#section-eb10df7cd67e4733984810aaffd0b9e2}
 
-Demandez une image afin qu’elle s’adapte à un rectangle de 200 x 200 ; alignez l’image en haut à gauche si elle n’est pas carrée. N’importe quelle zone d’arrière-plan est remplie de `attribute::BkgColor`.
+Demandez une image afin qu’elle s’adapte à un rectangle de 200 x 200 ; alignez l’image en haut à gauche si elle n’est pas carrée. Toute zone d’arrière-plan est remplie avec `attribute::BkgColor`.
 
 `http://server/myRootId/myImageId?wid=200&hei=200&align=-1,-1`
 
-Même image, diffusée à une hauteur fixe de 200 pixels, mais avec une largeur variable pour correspondre aux proportions de l’image. Dans ce cas, l’image renvoyée ne comporte aucune zone de fond. Et, dans ce cas, `align=` n&#39;aurait aucun effet.
+Même image, diffusée à une hauteur fixe de 200 pixels, mais avec une largeur variable pour correspondre aux proportions de l’image. Dans ce cas, l’image renvoyée ne comporte aucune zone de fond. Dans ce cas, `align=` n’aurait aucun effet.
 
 `http://server/myRootId/myImageId?hei=200`
 

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: fdf9274a-70d0-4692-a7a9-c108abb9ab84
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 2%
+source-wordcount: '152'
+ht-degree: 1%
 
 ---
 
@@ -33,15 +33,15 @@ Attributs de texte sur chemin.
  </tr> 
 </table>
 
-Spécifier `norm` pour tracer du texte à proximité du premier sommet du chemin et `reverse` pour tracer le texte dans la direction opposée, en commençant près du dernier sommet.
+Spécifiez `norm` pour tracer du texte commençant près du premier sommet du chemin et `reverse` pour tracer du texte dans la direction opposée, commençant près du dernier sommet.
 
-*`startPos`* et *`endPos`* permettent d’ajuster l’emplacement du texte dessiné sur le chemin. 0.0 correspond au premier sommet du chemin et 1.0 au dernier sommet ; les valeurs intermédiaires expriment la distance le long du chemin entre le premier et le dernier sommet.
+*`startPos`* et *`endPos`* permettent d’ajuster l’emplacement de dessin du texte sur le chemin. 0.0 correspond au premier sommet du chemin et 1.0 au dernier sommet ; les valeurs intermédiaires expriment la distance le long du chemin entre le premier et le dernier sommet.
 
 ## Propriétés {#section-80f266da4e2549d89f022a3f9ff4584d}
 
-Attribut de calque. Ignoré si le calque n’inclut pas `textPs=` et `textPath=` des commandes.
+Attribut de calque. Ignoré si le calque n’inclut pas de commandes `textPs=` et `textPath=`.
 
-*`startPos`* doit être supérieur ou égal à 0 et inférieur à 1.0. *`endPos`* doit être supérieur à *`startPos`* et inférieur ou égal à 1,0 lorsqu’il est appliqué à un chemin d’accès ouvert ou inférieur ou égal à ( *`startPos`* + 1.0) lorsqu’il est appliqué à un chemin fermé.
+*`startPos`* doit être supérieur ou égal à 0 et inférieur à 1.0. *`endPos`* doit être supérieur à *`startPos`* et inférieur ou égal à 1.0 lorsqu’il est appliqué à un chemin d’accès ouvert, ou inférieur ou égal à ( *`startPos`* + 1.0) lorsqu’il est appliqué à un chemin d’accès fermé.
 
 ## Par défaut {#section-3e757970885c45e7b6100e78dc08626f}
 

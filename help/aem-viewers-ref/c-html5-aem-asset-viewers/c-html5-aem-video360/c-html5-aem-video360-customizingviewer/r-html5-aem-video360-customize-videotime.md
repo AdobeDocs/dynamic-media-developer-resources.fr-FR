@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 78657fd2-e805-4047-be0a-592143025986
 source-git-commit: 14b9f6d3a01d47ca60710b19abfe11df1e927978
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 2%
+source-wordcount: '199'
+ht-degree: 0%
 
 ---
 
@@ -31,11 +31,11 @@ L’aspect de l’heure de la vidéo est contrôlé à l’aide du sélecteur de
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> haut </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Position à partir de la bordure supérieure, y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> droite </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> droit </span> </p> </td> 
    <td colname="col2"> <p>Position à partir de la bordure droite, y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
@@ -43,11 +43,11 @@ L’aspect de l’heure de la vidéo est contrôlé à l’aide du sélecteur de
    <td colname="col2"> <p> Largeur du contrôle de l’heure de la vidéo. Cette propriété est requise pour qu’Internet Explorer 8 ou version ultérieure fonctionne correctement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Famille de polices à utiliser pour l’affichage du texte temporel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
    <td colname="col2"> <p>Taille de police à utiliser pour le texte d’affichage temporel. </p> </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,7 @@ L’aspect de l’heure de la vidéo est contrôlé à l’aide du sélecteur de
  </tbody> 
 </table>
 
-**Exemple**  : définissez le temps de la vidéo sur gris clair (hexadécimal  `#BBBBBB`), dimensionné à 12 pixels, positionné à 15 pixels du haut de la barre de contrôle et à 80 pixels des bords supérieur et droit de la barre de contrôle.
+**Exemple** - Définissez le temps de la vidéo sur gris clair (hexadécimal `#BBBBBB`), dimensionné à 12 pixels, positionné à 15 pixels du haut de la barre de contrôle et à 80 pixels des bords supérieur et droit de la barre de contrôle.
 
 ```
 .s7video360viewer .s7videotime { 

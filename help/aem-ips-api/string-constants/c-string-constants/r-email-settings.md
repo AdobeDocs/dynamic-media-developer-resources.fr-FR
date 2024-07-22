@@ -1,18 +1,18 @@
 ---
 description: Décrit les valeurs utilisées par différents paramètres d’entrée. Consultez la liste de cet article pour plus de détails.
 solution: Experience Manager
-title: Paramètres d'e-mail
-feature: Dynamic Media Classic, SDK/API
+title: Paramètres de messagerie électronique
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f6fb7d58-968a-41c8-b0a8-ccab37e98801
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 13%
+source-wordcount: '38'
+ht-degree: 5%
 
 ---
 
-# Paramètres d&#39;e-mail{#email-settings}
+# Paramètres de messagerie électronique{#email-settings}
 
 Décrit les valeurs utilisées par différents paramètres d’entrée. Consultez la liste de cet article pour plus de détails.
 

@@ -8,7 +8,7 @@ exl-id: ba8818ff-3040-463c-80d3-b7cfd1e01f77
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 17%
+ht-degree: 14%
 
 ---
 
@@ -31,7 +31,7 @@ Syntaxe
 
 ## Paramètres {#section-6b2f8aa65d4d4ae1af0c9cee468b0a51}
 
-**Entrée (resumeJobParam)**
+**Input (resumeJobParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -46,7 +46,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 Cet exemple de code redémarre une tâche suspendue.
 
-**Request**
+**Requête**
 
 ```java
 <resumeJobParam xmlns="http://www.scene7.com/IpsApi/xsd">

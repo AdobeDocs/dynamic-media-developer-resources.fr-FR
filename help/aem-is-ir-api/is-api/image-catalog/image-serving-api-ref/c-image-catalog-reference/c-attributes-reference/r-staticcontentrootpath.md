@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Chemin racine des données de contenu statique. Chemin d’accès absolu ou segment de chemin d’accès relatif pour le dossier racine pour les données de contenu statique de ce catalogue d’images.
 
-Voir [Gestion des données source](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173) pour plus d’informations sur les chemins racine du serveur.
+Voir [Gestion des données Source](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173) pour plus d’informations sur les chemins racine du serveur.
 
 ## Propriétés {#section-f8e3986096294b36948d43aafdc3e795}
 
@@ -28,4 +28,4 @@ Hérité de `default::StaticContentsRootPath` si elle n’est pas définie. S’
 
 ## Voir aussi {#section-9af8846d20d242789df67877f84ed8a7}
 
-[PS::staticContent.rootPaths](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-staticcontentrootpath.md#reference-a2b5368d078349828d282357681bb2a5) ,  [Gestion des données source](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173)
+[PS::staticContent.rootPaths](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-staticcontentrootpath.md#reference-a2b5368d078349828d282357681bb2a5) , [Gestion des données Source](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173)

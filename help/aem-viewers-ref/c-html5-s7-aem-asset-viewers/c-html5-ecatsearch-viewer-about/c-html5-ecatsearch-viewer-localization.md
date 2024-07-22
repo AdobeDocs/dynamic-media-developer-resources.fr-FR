@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: c44bfb38-a523-4399-8dbd-936830bb7cac
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Certains contenus affichés par la visionneuse de catalogue électronique peuvent être localisés, notamment des boutons de zoom, des boutons de changement de page, des boutons de miniature, des boutons plein écran, des boutons de fermeture et des boutons de barre de défilement.
 
-Chaque contenu textuel de la visionneuse qui peut être localisé est représenté par un identifiant spécial du SDK de la visionneuse appelé SYMBOL. Tout SYMBOL est associé par défaut à une valeur de texte pour le paramètre régional anglais ( `"en"`) fourni avec la visionneuse prête à l’emploi et peut également avoir des valeurs définies par l’utilisateur pour autant de paramètres régionaux que nécessaire.
+Chaque contenu textuel de la visionneuse qui peut être localisé est représenté par un identifiant spécial du SDK de la visionneuse appelé SYMBOL. Tout SYMBOL est associé par défaut à une valeur de texte pour le paramètre régional anglais ( `"en"`) fournie avec la visionneuse prête à l’emploi et peut également avoir des valeurs définies par l’utilisateur pour autant de paramètres régionaux que nécessaire.
 
 Lorsque la visionneuse démarre, elle vérifie les paramètres régionaux actuels afin de déterminer s’il existe une valeur définie par l’utilisateur pour chaque SYMBOL pris en charge dans les paramètres régionaux. Si tel est le cas, il utilise la valeur définie par l’utilisateur ; dans le cas contraire, il revient au texte par défaut d’usine.
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-Dans l’exemple ci-dessus, l’objet de localisation définit deux paramètres régionaux ( `"en"` et `"fr"`) et permet de localiser deux éléments de l’interface utilisateur dans chaque langue.
+Dans l’exemple ci-dessus, l’objet de localisation définit deux paramètres régionaux ( `"en"` et `"fr"`) et fournit la localisation de deux éléments de l’interface utilisateur dans chaque paramètre régional.
 
-Le code de page web doit transmettre cet objet de localisation au constructeur de visionneuse en tant que valeur de `localizedTexts` de l’objet de configuration. Une autre option consiste à transmettre l’objet de localisation en appelant `setLocalizedTexts(localizationInfo)` .
+Le code de page web doit transmettre cet objet de localisation au constructeur de la visionneuse en tant que champ de valeur `localizedTexts` de l’objet de configuration. Une autre option consiste à transmettre l’objet de localisation en appelant la méthode `setLocalizedTexts(localizationInfo)`.
 
 Les SYMBOLES suivants sont pris en charge (en supposant que containerId soit l’ID du conteneur de la visionneuse) :
 
@@ -97,35 +97,35 @@ Les SYMBOLES suivants sont pris en charge (en supposant que containerId soit l�
    <td colname="col2"> <p>Bouton de défilement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_rightButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_rightButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Bouton Grande page suivante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_leftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_leftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Bouton Grande page précédente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_lastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_lastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Bouton Dernière page . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_secondaryLastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_secondaryLastPageButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Bouton Dernière page . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_firstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_firstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Bouton Première page . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_secondaryFirstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_secondaryFirstPageButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Bouton Première page . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_toolBarRightButton.PanRightButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_toolBarRightButton.PanRightButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Bouton Page suivante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;containerid&gt;_toolBarLeftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;containerId&gt;_toolBarLeftButton.PanLeftButton.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Bouton Page précédente . </p> </td> 
   </tr> 
   <tr> 
@@ -361,7 +361,7 @@ Les SYMBOLES suivants sont pris en charge (en supposant que containerId soit l�
    <td colname="col2"> <p> Bouton Envoyer pour impression. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FavorisMenu.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FavoritesMenu.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Bouton de menu Favoris . </p> </td> 
   </tr> 
   <tr> 
@@ -389,12 +389,12 @@ Les SYMBOLES suivants sont pris en charge (en supposant que containerId soit l�
    <td colname="col2"> <p>Bouton "Afficher tous les favoris" lorsque la vue Favoris est inactive. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> FavorisEffect.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> FavoritesEffect.TOOLTIP </span> </p> </td> 
    <td colname="col2"> <p>Icône favorite unique. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_XX[_YY] </span> </p> </td> 
-   <td colname="col2"> <p>Libellé de page généré par la visionneuse au moment du chargement. </p> <p>Le nom de ce symbole est un modèle, où <span class="codeph"> XX </span> est un index de répartition à base zéro en orientation paysage, et facultatif. <span class="codeph"> AA </span> est un index de page de base zéro dans la diffusion ciblée par <span class="codeph"> XX </span>. </p> <p>S’applique uniquement à la ressource initialement chargée ; ignorée si une ressource est modifiée à l’aide de la variable <span class="codeph"> setAsset() </span> appel API. </p> </td> 
+   <td colname="col2"> <p>Libellé de page généré par la visionneuse au moment du chargement. </p> <p>Le nom de ce symbole est un modèle, où <span class="codeph"> XX </span> est un index de propagation de base zéro en orientation paysage, et l’index facultatif <span class="codeph"> YY </span> est un index de page de base zéro dans la propagation ciblée par <span class="codeph"> XX </span>. </p> <p>S’applique uniquement à la ressource initialement chargée ; ignorée si une ressource est modifiée à l’aide de l’appel API <span class="codeph"> setAsset() </span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_DELIM </span> </p> </td> 
@@ -424,9 +424,9 @@ Les SYMBOLES suivants sont pris en charge (en supposant que containerId soit l�
    <td colname="col1"> <p> <span class="codeph"> SearchPanel.INFO_RESULTS </span> </p> </td> 
    <td colname="col2"> <p>Message localisé affiché lorsque la recherche est terminée et renvoie au moins un résultat. </p> <p>Ce symbole prend en charge les jetons de remplacement d’exécution suivants : </p> <p> 
      <ul id="ul_30B76EAB921848069BE843A5F91F697A"> 
-      <li id="li_16AF3EFCC4BF4180B66DE5EA82CC77F4"> <span class="codeph"> $SEARCH_TEXT$ </span> - texte de recherche saisi par l’utilisateur. </li> 
+      <li id="li_16AF3EFCC4BF4180B66DE5EA82CC77F4"> <span class="codeph"> $SEARCH_TEXT$ </span> - Texte de recherche saisi par l’utilisateur. </li> 
       <li id="li_A0FBF12344B04BF0B702A2B7473330A8"> <span class="codeph"> $HIT_COUNT$ </span> - Nombre total d’accès à la recherche trouvés. </li> 
-      <li id="li_9EB7B41A989B455ABEC72E052284F117"> <span class="codeph"> $PAGE_COUNT$ </span> - Nombre de pages de catalogue contenant au moins un accès de recherche. </li> 
+      <li id="li_9EB7B41A989B455ABEC72E052284F117"> <span class="codeph"> $PAGE_COUNT$ </span> - Nombre de pages du catalogue contenant au moins un accès à la recherche. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -439,7 +439,7 @@ Les SYMBOLES suivants sont pris en charge (en supposant que containerId soit l�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SearchPanel.LABEL </span> </p> </td> 
-   <td colname="col2"> <p>Définit une valeur de la variable <span class="codeph"> aria-label </span> Attribut ARIA pour l’ensemble du panneau de recherche. </p> </td> 
+   <td colname="col2"> <p>Définit une valeur de l’attribut ARIA <span class="codeph"> aria-label </span> pour l’ensemble du panneau de recherche. </p> </td> 
   </tr> 
  </tbody> 
 </table>

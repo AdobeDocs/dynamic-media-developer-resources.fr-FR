@@ -8,7 +8,7 @@ exl-id: 04d85dba-cc86-4069-ab5d-9a5b3fe542c9
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '68'
-ht-degree: 26%
+ht-degree: 23%
 
 ---
 
@@ -30,7 +30,7 @@ Syntaxe
 
 ## Paramètres {#section-7a89621d441840faba639746b410a489}
 
-**Entrée (updateXMPPacketParam)**
+**Input (updateXMPPacketParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -38,7 +38,7 @@ Syntaxe
 | assetHandle | `xsd:string` | Oui | Poignée de ressource. |
 | compresséPacket | `xsd:Base 64 binary` | Oui | [!DNL zlib-compressed] XMP paquet que vous souhaitez définir ou mettre à jour. |
 
-**Sortie (updateXMPPacketReturn)**
+**Output (updateXMPPacketReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -46,7 +46,7 @@ Syntaxe
 
 ## Exemples {#section-38b556b94e5044bf97a954519ff6c212}
 
-**Request**
+**Requête**
 
 ```java
 <ns:updateXMPPacketParam>

@@ -8,7 +8,7 @@ exl-id: fb58a388-e4da-475d-b726-d5a32e99cce0
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
 source-wordcount: '91'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ Par défaut, la visionneuse envoie une requête HTTP de suivi unique à un serve
 
 ## Suivi personnalisé {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Pour s’intégrer à des systèmes d’analyse tiers, il est nécessaire d’écouter `trackEvent` rappel et traitement de la visionneuse `eventInfo` de la fonction de rappel, le cas échéant. Le code suivant est un exemple de fonction de gestionnaire de ce type :
+Pour s’intégrer à des systèmes d’analyse tiers, il est nécessaire d’écouter l’argument de rappel de visionneuse `trackEvent` et de traiter `eventInfo` de la fonction de rappel, si nécessaire. Le code suivant est un exemple de fonction de gestionnaire de ce type :
 
 ```javascript {.line-numbers}
 var panoramicViewer = new s7viewers.PanoramicViewer({
@@ -53,7 +53,7 @@ La visionneuse effectue le suivi des événements utilisateur du SDK suivants :
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CHARGEMENT </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
    <td colname="col2"> <p>lorsque la visionneuse est chargée en premier. </p> </td> 
   </tr> 
  </tbody> 

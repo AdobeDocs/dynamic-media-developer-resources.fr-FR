@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: b23918b5-5fc6-4038-b6f5-519198a96f86
 source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 7%
+source-wordcount: '69'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> </p> <p>Chaîne de commande de diffusion d’images appliquée à l’image principale FlyoutZoomView et au zoom dans la vue. Si elle est spécifiée dans l’URL, veillez à encoder HTTP toutes les occurrences de <span class="codeph"> &amp;</span> et <span class="codeph"> =</span> as <span class="codeph"> %26</span> et <span class="codeph"> %3D</span>, respectivement. </p> <p> <p>Remarque : Les commandes de manipulation de dimensionnement d’image ne sont pas prises en charge. </p> </p> </td> 
+   <td colname="col2"> <p> </p> <p>Chaîne de commande de diffusion d’images appliquée à l’image principale FlyoutZoomView et au zoom dans la vue. S’il est spécifié dans l’URL, veillez à coder toutes les occurrences de <span class="codeph"> &amp;</span> et <span class="codeph"> =</span> en tant que <span class="codeph"> %26</span> et <span class="codeph"> %3D</span>, respectivement. </p> <p> <p>Remarque : Les commandes de manipulation de dimensionnement d’image ne sont pas prises en charge. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

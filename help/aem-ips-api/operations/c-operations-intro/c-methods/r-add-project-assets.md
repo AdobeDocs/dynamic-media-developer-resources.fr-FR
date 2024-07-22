@@ -8,7 +8,7 @@ exl-id: 60aa2846-b41e-4131-b465-82aa832434f7
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -37,7 +37,7 @@ Syntaxe
 | projectHandle | `xsd:string` | Oui | Gérez le projet auquel vous ajoutez des ressources. |
 | projectHandleArray | `xsd:HandleArray` | Oui | Tableau des ressources que vous ajoutez au projet en cours. |
 
-**Sortie (addProjectAssetsParam)**
+**Output (addProjectAssetsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -51,7 +51,7 @@ Syntaxe
 
 Cet exemple ajoute une ressource unique (référencée par son nom d’utilisateur) dans un tableau de gestion des ressources à un projet spécifié dans la requête. L’opération s’est terminée avec succès lorsque la réponse `successCount` renvoie `1`.
 
-**Request**
+**Requête**
 
 ```java {.line-numbers}
 <addProjectAssetsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

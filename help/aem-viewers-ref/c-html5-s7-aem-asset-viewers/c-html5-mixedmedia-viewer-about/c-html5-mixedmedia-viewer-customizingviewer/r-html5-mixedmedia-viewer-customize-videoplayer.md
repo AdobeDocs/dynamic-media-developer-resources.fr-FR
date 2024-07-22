@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 2f92d76e-3104-4ad8-9426-662275492251
 source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 1%
+source-wordcount: '281'
+ht-degree: 0%
 
 ---
 
@@ -31,8 +31,8 @@ Le sélecteur de classe CSS suivant contrôle l’aspect du lecteur vidéo :
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
-   <td colname="col2"> <p> Couleur d’arrière-plan du lecteur vidéo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p> Couleur de fond du lecteur vidéo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,7 +47,7 @@ Exemple - Pour rendre le lecteur vidéo transparent :
 }
 ```
 
-Les sous-titres sont placés dans un conteneur interne du lecteur vidéo. La position de ce conteneur est contrôlée par les opérateurs de positionnement WebVTT pris en charge. Le texte de légende lui-même se trouve à l’intérieur de ce conteneur ; son style est contrôlé à l’aide du sélecteur de classe CSS suivant :
+Les sous-titres sont placés dans un conteneur interne à l’intérieur du lecteur vidéo. La position de ce conteneur est contrôlée par les opérateurs de positionnement WebVTT pris en charge. Le texte de légende lui-même se trouve à l’intérieur de ce conteneur ; son style est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 ```
 .s7mixedmediaviewer .s7videoplayer .s7caption
@@ -64,7 +64,7 @@ Les sous-titres sont placés dans un conteneur interne du lecteur vidéo. La pos
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Arrière-plan du texte de la légende. </p> </td> 
   </tr> 
   <tr> 

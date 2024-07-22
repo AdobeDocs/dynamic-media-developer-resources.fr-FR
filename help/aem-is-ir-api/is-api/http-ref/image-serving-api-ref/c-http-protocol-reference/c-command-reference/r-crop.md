@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: d1ea63c1-95f0-4a4e-b65d-eb535eef0205
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '211'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ Peut également être utilisé pour étendre l’image au-delà de ses limites e
 
 ## Propriétés {#section-632e0405bb9940679b5f8b1c10e0902e}
 
-Attribut image/masque source. S’applique à l’image source du calque 0 si `layer=comp`. Ignoré par les calques qui ne sont associés à aucune image ou masque source.
+Attribut image/masque Source. S’applique à l’image source du calque 0 si `layer=comp`. Ignoré par les calques qui ne sont associés à aucune image ou masque source.
 
 ## Par défaut {#section-41f62d386c664f77952bc22e7286bb88}
 
@@ -61,4 +61,4 @@ Image entière ( `cropN=0,0,1,1`).
 
 ## Voir aussi {#section-d5616c7aa0ce4faa88f51dd5662e5daf}
 
-[cropPath](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-croppath.md) [bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab) , [anchor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c), [extended=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac)
+[cropPath](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-croppath.md) [bgColor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bgcolor.md#reference-441371ba4ef54fe781887c5ae448f6ab) , [anchor=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-anchor.md#reference-6661e548ab284b82828d8d94c8ddeb7c), [extension=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-extend.md#reference-7e9156beb285459d830e2d56782a74ac)

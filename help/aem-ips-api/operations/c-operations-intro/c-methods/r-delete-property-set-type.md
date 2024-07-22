@@ -8,7 +8,7 @@ exl-id: 97ec0f41-794f-4340-b86d-ab07a742d447
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '93'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
 
@@ -39,9 +39,9 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-85faa2e3411a4e23aa6489037f7ce078}
 
-Cet exemple de code utilise la poignée du type comme champ dans la variable `deletePropertySetTypeParam` envoyé au serveur des services Web IPS pour supprimer le type de jeu de propriétés.
+Cet exemple de code utilise la poignée du type comme champ dans le `deletePropertySetTypeParam` envoyé au serveur des services Web IPS pour supprimer le type de jeu de propriétés.
 
-**Request**
+**Requête**
 
 ```java
 <deletePropertySetTypeParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

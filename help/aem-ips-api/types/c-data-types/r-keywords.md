@@ -8,7 +8,7 @@ exl-id: 5eb9ca70-5971-412d-92d1-4e9898d556fd
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '40'
-ht-degree: 35%
+ht-degree: 32%
 
 ---
 
@@ -23,6 +23,6 @@ Syntaxe
 | mot-clé | `xsd:string` | Mot-clé. |
 | état | `xsd:boolean` | Validité des mots-clés. |
 | x | `xsd:int` | Position du mot-clé sur l’axe X (en pixels). |
-| y | `xsd:int` | Position du mot-clé sur l’axe des ordonnées (en pixels). |
+| y | `xsd:int` | Position du mot-clé sur l’axe Y (en pixels). |
 | largeur | `xsd:int` | Largeur du mot-clé en pixels. |
 | hauteur | `xsd:int` | Hauteur du mot-clé en pixels. |

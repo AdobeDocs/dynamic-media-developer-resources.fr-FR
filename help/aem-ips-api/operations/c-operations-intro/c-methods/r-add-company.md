@@ -8,7 +8,7 @@ exl-id: 2f834fe8-a621-4a41-9473-8ef53294b348
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 12%
+ht-degree: 7%
 
 ---
 
@@ -18,7 +18,7 @@ Ajoute une entreprise au système.
 
 Envoie le nom de la société à ajouter au système et, éventuellement, envoie si la société expire.
 
-Lorsque cette opération est appelée, le système obtient un type companyInfo contenant un nom d’entreprise et des champs descriptifs. Si le nom de la société demandé existe déjà dans le système, une `ipsApiFault`.
+Lorsque cette opération est appelée, le système obtient un type companyInfo contenant un nom d’entreprise et des champs descriptifs. Si le nom de société demandé existe déjà dans le système, il renvoie un `ipsApiFault`.
 
 ## Types d’utilisateurs autorisés {#section-ae926c7672984be79f6102748accab72}
 
@@ -71,7 +71,7 @@ Lorsque cette opération est appelée, le système obtient un type companyInfo c
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Gérez vers et nom, chemin racine, date d’expiration et heure de la nouvelle société. </p> </td> 
+   <td colname="col4"> <p>Gérez vers et nom, chemin d’accès racine, date d’expiration et heure de la nouvelle société. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,7 +80,7 @@ Lorsque cette opération est appelée, le système obtient un type companyInfo c
 
 Cet exemple illustre une demande d’ajout d’une société au système IPS et la réponse détaillant les informations sur la société ajoutée qui sont nécessaires pour effectuer d’autres opérations.
 
-**Request**
+**Requête**
 
 ```java {.line-numbers}
 <ns1:addCompanyParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

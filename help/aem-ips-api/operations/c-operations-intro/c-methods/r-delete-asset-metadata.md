@@ -2,13 +2,13 @@
 description: Supprime les valeurs de métadonnées d’une ressource. Fonctionne avec un tableau de suppression de métadonnées pour définir des valeurs dans un lot.
 solution: Experience Manager
 title: deleteAssetMetadata
-feature: Dynamic Media Classic,SDK/API,Métadonnées,Gestion des ressources
+feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
 exl-id: ce9b8dff-efc0-4427-9f50-10269647187f
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 12%
+source-wordcount: '126'
+ht-degree: 8%
 
 ---
 
@@ -61,18 +61,18 @@ Syntaxe
    <td colname="col1"> <p>metadataDelete </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Métadonnées à supprimer de la ressource. </p> </td> 
+   <td colname="col4"> <p>métadonnées à supprimer de la ressource. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>deleteArray </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:MetadataDeleteArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types : MetadataDeleteArray</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
    <td colname="col4"> <p>Tableau des métadonnées à supprimer de la ressource. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Sortie (deleteAssetMetadataParam)**
+**Output (deleteAssetMetadataParam)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 

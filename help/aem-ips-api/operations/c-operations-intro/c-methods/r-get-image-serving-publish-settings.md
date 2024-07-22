@@ -34,7 +34,7 @@ Syntaxe
 | companyHandle | `xsd:string` | Oui | Gestion de l’entreprise avec les paramètres de publication de la diffusion d’images. |
 | contextHandle | `xsd:string` | Oui | Gérer au contexte de publication. |
 
-**Sortie**
+**Output**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|

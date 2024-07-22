@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 404e39d4-565e-4dde-b2bd-fa83a895d001
 source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 2%
+source-wordcount: '1037'
+ht-degree: 0%
 
 ---
 
@@ -33,11 +33,11 @@ L’aspect général de la barre de défilement vidéo est contrôlé à l’aid
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> haut </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Position à partir de la bordure supérieure, y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bas </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p> Position à partir de la bordure inférieure, y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
@@ -45,7 +45,7 @@ L’aspect général de la barre de défilement vidéo est contrôlé à l’aid
    <td colname="col2"> <p>Hauteur de la barre de défilement vidéo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Couleur de la barre de défilement vidéo. </p> </td> 
   </tr> 
  </tbody> 
@@ -59,7 +59,7 @@ Les sélecteurs de classe CSS suivants effectuent le suivi des indicateurs d’a
 .s7videoviewer .s7videoscrubber .s7trackplayed
 ```
 
-**Propriétés CSS du suivi**
+**Propriétés CSS du track**
 
 <table id="table_46903DCACF314426B67783167ADF7715"> 
  <tbody> 
@@ -68,7 +68,7 @@ Les sélecteurs de classe CSS suivants effectuent le suivi des indicateurs d’a
    <td colname="col2"> <p>Hauteur du suivi correspondant. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Couleur du suivi correspondant. </p> </td> 
   </tr> 
  </tbody> 
@@ -85,7 +85,7 @@ Le sélecteur de classe CSS suivant contrôle le bouton :
 <table id="table_966826FB81114362A8D81D1EED38D512"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> haut </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p>Décalage vertical des boutons. </p> </td> 
   </tr> 
   <tr> 
@@ -101,7 +101,7 @@ Le sélecteur de classe CSS suivant contrôle le bouton :
    <td colname="col2"> <p>Obtenir une illustration. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -138,7 +138,7 @@ Le sélecteur de classe CSS suivant contrôle la bulle de durée de lecture :
    <td colname="col2"> <p>Hauteur de la bulle. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p>Marge intérieure de la zone bulle. </p> </td> 
   </tr> 
   <tr> 
@@ -146,11 +146,11 @@ Le sélecteur de classe CSS suivant contrôle la bulle de durée de lecture :
    <td colname="col2"> <p>Illustrations à bulles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> alignement de texte </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> text-align </span> </p> </td> 
    <td colname="col2"> <p>Alignement du texte avec la zone de bulle. </p> </td> 
   </tr> 
  </tbody> 
@@ -158,7 +158,7 @@ Le sélecteur de classe CSS suivant contrôle la bulle de durée de lecture :
 
 L’info-bulle de la barre de défilement vidéo peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) pour plus d’informations.
 
-**Exemple** - Pour configurer une visionneuse de vidéos avec une barre de défilement vidéo avec des couleurs de suivi personnalisées. La barre de défilement doit mesurer dix pixels de haut et positionner dix pixels et 35 pixels à partir des bords supérieur et gauche de la barre de contrôle.
+**Exemple** - Pour configurer une visionneuse de vidéos avec un défilement vidéo avec des couleurs de suivi personnalisées. La barre de défilement doit mesurer dix pixels de haut et positionner dix pixels et 35 pixels à partir des bords supérieur et gauche de la barre de contrôle.
 
 ```
 .s7videoviewer .s7videoscrubber  { 
@@ -181,7 +181,7 @@ background-color:#888888;
 }
 ```
 
-Lorsque la fonction de chapitre vidéo est activée avec la fonction `navigation` , les emplacements de chapitre s’affichent sous la forme de marqueurs au-dessus du suivi de la barre de défilement vidéo.
+Lorsque le chapitre vidéo est activé avec le paramètre `navigation` , les emplacements de chapitre s’affichent sous la forme de marqueurs au-dessus du suivi de la barre de défilement vidéo.
 
 Le marqueur de chapitre vidéo est contrôlé par le sélecteur de classe CSS suivant :
 
@@ -206,7 +206,7 @@ Le marqueur de chapitre vidéo est contrôlé par le sélecteur de classe CSS su
    <td colname="col2"> <p>Illustration du marqueur du chapitre vidéo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
  </tbody> 
@@ -214,7 +214,7 @@ Le marqueur de chapitre vidéo est contrôlé par le sélecteur de classe CSS su
 
 >[!NOTE]
 >
->Ce bouton prend en charge les deux `state` sélecteur d’attributs que vous pouvez utiliser pour appliquer différents habillages à différents états de bouton. En particulier, `selected='default'` correspond à l’état par défaut du marqueur de chapitre vidéo et `selected='over'` est utilisé lorsque le marqueur de chapitre vidéo est activé par le survol ou le toucher de la souris.
+>Ce bouton prend en charge le sélecteur d’attributs `state`, que vous pouvez utiliser pour appliquer différents habillages à différents états de bouton. En particulier, `selected='default'` correspond à l’état par défaut du marqueur de chapitre vidéo et `selected='over'` est utilisé lorsque le marqueur de chapitre vidéo est activé par un mouvement de souris sur ou de toucher.
 
 **Exemple** - Pour configurer un marqueur de chapitre vidéo de 5 x 8 pixels et utiliser des illustrations différentes pour l’état &quot;par défaut&quot; et &quot;sur&quot;.
 
@@ -248,13 +248,13 @@ La bulle de chapitre vidéo est contrôlée par le sélecteur de classe CSS suiv
    <td colname="col2"> <p>Largeur maximale de la bulle de chapitre vidéo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bas </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
    <td colname="col2"> <p>Décalage vertical à partir de la piste de défilement vidéo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Exemple** - Pour configurer une bulle de chapitre vidéo d’une largeur de 235 pixels et d’une hauteur de huit pixels au bas du suivi de la barre de défilement vidéo.
+**Exemple** : configuration d’une bulle de chapitre vidéo de 235 pixels de large et de huit pixels en haut à partir du bas du suivi de la barre de défilement vidéo.
 
 ```
 .s7videoviewer .s7videoscrubber .s7chapter { 
@@ -280,11 +280,11 @@ L’en-tête est contrôlé par le sélecteur de classe CSS suivant :
    <td colname="col2"> <p>Hauteur de l’en-tête de la bulle de chapitre vidéo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p>Marge intérieure du texte de l’en-tête de la bulle de chapitre vidéo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Couleur d’arrière-plan de l’en-tête de la bulle de chapitre vidéo. </p> </td> 
   </tr> 
   <tr> 
@@ -294,7 +294,7 @@ L’en-tête est contrôlé par le sélecteur de classe CSS suivant :
  </tbody> 
 </table>
 
-**Exemple** - Pour configurer un en-tête de bulle de chapitre vidéo d’une hauteur de 22 pixels, une hauteur de ligne de 22 pixels, une marge horizontale de 12 pixels et un arrière-plan gris.
+**Exemple** : pour configurer un en-tête de bulle de chapitre vidéo d’une hauteur de 22 pixels, une hauteur de ligne de 22 pixels, une marge horizontale de 12 pixels et un arrière-plan gris.
 
 ```
 .s7videoviewer .s7videoscrubber .s7chapter .s7header { 
@@ -332,7 +332,7 @@ L’heure de début du chapitre vidéo est contrôlée par le sélecteur de clas
    <td colname="col2"> <p>Famille de polices. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge intérieure-droite </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding-right </span> </p> </td> 
    <td colname="col2"> <p> Marge intérieure entre l’heure de début et le titre du chapitre. </p> </td> 
   </tr> 
  </tbody> 
@@ -404,7 +404,7 @@ La description du chapitre vidéo est contrôlée par le sélecteur de classe CS
    <td colname="col2"> <p>Couleur de texte de description du chapitre vidéo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Couleur d’arrière-plan de la description du chapitre vidéo. </p> </td> 
   </tr> 
   <tr> 
@@ -424,7 +424,7 @@ La description du chapitre vidéo est contrôlée par le sélecteur de classe CS
    <td colname="col2"> <p>Hauteur de ligne de description du chapitre vidéo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> remplissage </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> padding </span> </p> </td> 
    <td colname="col2"> <p>Marge intérieure de la description du chapitre vidéo. </p> </td> 
   </tr> 
  </tbody> 
@@ -449,13 +449,13 @@ Le connecteur de coin au bas de la bulle de chapitre est contrôlé par le séle
  .s7videoviewer .s7videoscrubber .s7chapter .s7tail
 ```
 
-**Propriétés CSS du connecteur de décalage**
+**Propriétés CSS du connecteur de coin**
 
 <table id="table_BC6AFB57D9404A84A3AE657448C0EB06"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-color </span> </p> </td> 
-   <td colname="col2"> <p>Couleur du connecteur de décalage. </p> <p>Défini comme <span class="codeph"> &lt;color&gt; transparent </span> afin que seule la couleur de la bordure supérieure soit définie et que les bordures restantes restent transparentes. </p> </td> 
+   <td colname="col2"> <p>Couleur du connecteur de décalage. </p> <p>Défini comme <span class="codeph"> &lt;color&gt; transparent </span> de sorte que seule la couleur de bordure supérieure soit définie et que les bordures restantes restent transparentes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> border-width </span> </p> </td> 

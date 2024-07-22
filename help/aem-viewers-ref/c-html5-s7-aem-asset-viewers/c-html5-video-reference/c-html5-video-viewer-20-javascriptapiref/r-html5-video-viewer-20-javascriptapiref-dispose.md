@@ -22,9 +22,9 @@ Dispose cette instance de visionneuse en libérant toutes les ressources utilis�
 
 Le code de page web doit également supprimer la variable d’instance de la visionneuse pour supprimer complètement la visionneuse de la mémoire du navigateur web.
 
-Si le code de page web a enregistré des écouteurs d’événement directement sur les composants du SDK de la visionneuse utilisés par la visionneuse - ou si des références externes stockées à ces composants - vous devez annuler explicitement l’enregistrement de ces écouteurs par le code de page web. Et vous devez supprimer ces références de composant externes avant d’appeler `dispose()`.
+Si le code de page web a enregistré des écouteurs d’événement directement sur les composants du SDK de la visionneuse utilisés par la visionneuse - ou si des références externes stockées à ces composants - vous devez annuler explicitement l’enregistrement de ces écouteurs par le code de page web. Vous devez également supprimer ces références de composants externes avant d’appeler `dispose()`.
 
-Ne plus accéder à l’API de visionneuse après `dispose()` est appelée.
+N’accédez plus à l’API de visionneuse après l’appel de `dispose()`.
 
 ## Paramètres {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 

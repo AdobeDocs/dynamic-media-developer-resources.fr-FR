@@ -2,13 +2,13 @@
 description: Ces commandes s’appliquent quel que soit l’emplacement dans la requête.
 solution: Experience Manager
 title: Afficher les commandes
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c1dcabd3-d2bc-4ca1-a909-fcfe0d2feff6
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 4%
+source-wordcount: '81'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ Ces commandes s’appliquent quel que soit l’emplacement dans la requête.
   <td class="stentry"> <p>Définit la couleur d’arrière-plan de l’affichage. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md#reference-f11bff6d93d143d6b135de3a923bc989" type="reference" format="dita" scope="local"> ajuster</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md#reference-f11bff6d93d143d6b135de3a923bc989" type="reference" format="dita" scope="local"> fit</a> </p></td> 
   <td class="stentry"> <p>Ajuste la vue à l’image composite. </p></td> 
  </tr> 
  <tr class="strow"> 

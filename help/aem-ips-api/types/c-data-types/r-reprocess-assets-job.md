@@ -1,5 +1,5 @@
 ---
-description: Type de tâche pour permettre le retraitement des fichiers Principaux précédemment téléchargés, y compris la réactualisation des PDF et la réoptimisation des images.
+description: Type de tâche pour permettre le retraitement des fichiers principaux précédemment chargés, y compris la réactualisation des PDF et la réoptimisation des images.
 solution: Experience Manager
 title: ReprocessAssetsJob
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -8,13 +8,13 @@ exl-id: b6078246-54e1-4119-b4f8-ba6a28577cff
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 5%
+ht-degree: 2%
 
 ---
 
 # [!DNL ReprocessAssetsJob]{#reprocessassetsjob}
 
-Type de tâche pour permettre le retraitement des fichiers Principaux précédemment téléchargés, y compris la réactualisation des PDF et la réoptimisation des images.
+Type de tâche pour permettre le retraitement des fichiers principaux précédemment chargés, y compris la réactualisation des PDF et la réoptimisation des images.
 
 Syntaxe
 
@@ -52,11 +52,11 @@ Syntaxe
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> preserveCrop</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:boolean</span> </p> </td> 
-   <td colname="col3"> <p>Contrôle la conservation de toute définition de recadrage existante. Vrai par défaut.</p> <p>Si vous fournissez le paramètre manualCropOptions et les valeurs correspondantes, les nouvelles valeurs (à l’exception de 0,0,0,0) sont appliquées à la ressource, quelle que soit la valeur preserveCrop .</p><p>Si vous le faites <i>not</i> Si vous indiquez le paramètre manualCropOptions , la valeur de preserveCrop est conservée. Et, en cas de valeur true, les valeurs preserveCrop existantes sont conservées ; en cas de valeur false, les valeurs preserveCrop sont supprimées.</p><p>Par exemple :</p><p><p>&lt;preservecrop&gt;false&lt;/preservecrop&gt;<br />&lt;manualcropoptions&gt;<br />   &lt;left&gt;190&lt;/left&gt;<br />   &lt;right&gt;310&lt;/right&gt;<br />   &lt;top&gt;160&lt;/top&gt;<br />   &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualcropoptions&gt;</p> </td> 
+   <td colname="col3"> <p>Contrôle la conservation de toute définition de recadrage existante. Vrai par défaut.</p> <p>Si vous fournissez le paramètre manualCropOptions et les valeurs correspondantes, les nouvelles valeurs (à l’exception de 0,0,0,0) sont appliquées à la ressource, quelle que soit la valeur preserveCrop .</p><p>Si vous ne fournissez pas <i>not</i> le paramètre manualCropOptions, la valeur de preserveCrop est conservée. Et, en cas de valeur true, les valeurs preserveCrop existantes sont conservées ; en cas de valeur false, les valeurs preserveCrop sont supprimées.</p><p>Par exemple :</p><p><p>&lt;preserveCrop&gt;false&lt;/preserveCrop&gt;<br />&lt;manualCropOptions&gt;<br />   &lt;left&gt;190&lt;/left&gt;<br />   &lt;right&gt;310&lt;/right&gt;<br />   &lt;top&gt;160&lt;/top&gt;<br />   &lt;bottom&gt;120&lt;/bottom&gt;<br />&lt;/manualCropOptions&gt;</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:ManualCropOptions</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types : ManualCropOptions</span> </p> </td> 
    <td colname="col3"> <p>Options de recadrage manuel. </p> </td> 
   </tr> 
   <tr> 
@@ -71,13 +71,13 @@ Syntaxe
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:PhotoshopOptions</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types : PhotoshopOptions</span> </p> </td> 
    <td colname="col3"> <p>Options de téléchargement des fichiers Photoshop vers le serveur d’images. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> postScriptOptions</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> types:PostScriptOptions</span> </p> </td> 
-   <td colname="col3"> <p>Options de téléchargement de fichiers PostScript vers le serveur d’images. </p> </td> 
+   <td colname="col3"> <p>Options de téléchargement des fichiers PostScript vers le serveur d’images. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> pdfOptions</span> </span> </p> </td> 
@@ -86,7 +86,7 @@ Syntaxe
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> mediaOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:MediaOptions</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types : MediaOptions</span> </p> </td> 
    <td colname="col3"> <p>Options de fichier multimédia A/V. </p> </td> 
   </tr> 
   <tr> 
@@ -145,27 +145,27 @@ Syntaxe
    <td colname="col3"> <p>Options de téléchargement des fichiers d’InDesign vers le serveur d’images. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> KontakoutBackground</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:KnockoutBackgroundOptions</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> KnockoutBackground</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types : KnockoutBackgroundOptions</span> </p> </td> 
    <td colname="col3"> <p>Masquez l’arrière-plan des images sélectionnées. Vous pouvez ainsi les superposer dans d’autres calques avec une transparence en dehors de l’objet. </p> <p>Facultatif. </p> <p>Voir<a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:UnsharpMaskOptions</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types : UnsharpMaskOptions</span> </p> </td> 
    <td colname="col3"> <p>Options permettant de contrôler les paramètres de masquage flou lors de la création d’un fichier TIF pyramid optimisé. Utilisez ces paramètres pour améliorer la netteté de l’image. </p> <p>Voir <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-unsharp-mask-options.html"> UnsharpMaskOptions</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Remarques**
+**Notes**
 
-Choix pour `*CropOptions` inclure :
+Les choix pour `*CropOptions` incluent :
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-Choix pour `*PublishJob` inclure :
+Les choix pour `*PublishJob` incluent :
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

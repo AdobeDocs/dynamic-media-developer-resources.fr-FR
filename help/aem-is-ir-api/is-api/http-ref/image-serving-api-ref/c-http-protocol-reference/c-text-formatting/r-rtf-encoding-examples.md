@@ -18,7 +18,7 @@ Les exemples suivants présentent un exemple de commande de texte et la manière
 
 `http://server?fmt=png&size=300,50&bgc=f0f0f0&text=\fs16eight,%20\fs32sixteen,%20\fs60thirty,%20\fs100fifty`
 
-![Exemple de codage RTF](assets/rtf01.png)
+![Exemple de codage RTF une image](assets/rtf01.png)
 
 `http://server?fmt=png&size=300,50&bgc=f0f0f0&text=\fs48normal,%20\b1Bold\b0,%20\i1italic\i0`
 
@@ -34,7 +34,7 @@ Les exemples suivants présentent un exemple de commande de texte et la manière
 
 `http://server?fmt=png&size=300,50&bgc=f0f0f0&text=top-left&layer=1&sizen=1,1&text=\vertalc\qc%20center&layer=2&sizen=1,1&text=\vertalb\qr%20bottom -right`
 
-![Exemple de codage RTF cinq images](assets/rtf05.png)
+![Exemple de codage RTF cinq image](assets/rtf05.png)
 
 `http://server?fmt=png&size=300,50&bgc=f0f0f0&text=\fs36normal{\super%20superscript}normal{\sub%20subscript}`
 
@@ -46,11 +46,11 @@ Les exemples suivants présentent un exemple de commande de texte et la manière
 
 `http://server?fmt=png&size=300,100&bgc=f0f0f0&text=\fs80F.P.T.V.W.Y.{\fs20(kerning%20on)}\line{\kerning0F.P.T.V.W.Y.}{\fs20(kerning%20off)}`
 
-![Exemple de codage RTF 8 image](assets/rtf08.png)
+![Exemple de codage RTF huit image](assets/rtf08.png)
 
 `http://server?fmt=png&size=300,50&bgc=f0f0f0&text={\fonttbl{\f0\fmodern\fprq1\fcharset0%20Courier%20New;}}\f0\fs72{\rtlch%20desrever}`
 
-![Exemple de codage RTF dix images](assets/rtf09.png)
+![Exemple de codage RTF dix image](assets/rtf09.png)
 
 ## Voir également {#section-e702276fd0e847779cb75a6ccb92fbc8}
 

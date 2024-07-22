@@ -8,7 +8,7 @@ exl-id: 5fd80f8d-321e-47f4-9fb2-65e7bd63be58
 source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
 workflow-type: tm+mt
 source-wordcount: '115'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -21,8 +21,8 @@ Référence de l’API JavaScript pour la visionneuse de vidéos.
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ressource  </span> </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph"> Chaîne </span>} nouvel ID de ressource ou jeu d’images explicites avec des modificateurs de diffusion d’images facultatifs ajoutés après <span class="codeph"> ? </span>. </p> <p> Les images qui utilisent IR (Image Rendering) ou UGC (User-Generated Content) ne sont pas prises en charge par cette visionneuse. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ressource </span> </span> </p> </td> 
+   <td colname="col2"> <p>{ <span class="codeph"> Chaîne </span> nouvel identifiant de ressource ou jeu d’images explicites avec des modificateurs de diffusion d’images facultatifs ajoutés après <span class="codeph"> ? </span>. </p> <p> Les images qui utilisent IR (Image Rendering) ou UGC (User-Generated Content) ne sont pas prises en charge par cette visionneuse. </p> </td> 
   </tr> 
  </tbody> 
 </table>

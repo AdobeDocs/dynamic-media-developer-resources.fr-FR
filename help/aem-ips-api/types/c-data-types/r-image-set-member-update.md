@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: 4c598afb-a80c-4fac-997f-ef1c7175430c
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 7%
+source-wordcount: '102'
+ht-degree: 3%
 
 ---
 
@@ -39,7 +39,7 @@ Dans ce type, le champ pageReset est significatif pour les types de ressources d
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> pageReset</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Réinitialise la page. <p>La définition de est ignorée et la valeur est forcée à true pour <span class="codeph"> ImageSet</span> et <span class="codeph"> SpinSet</span>. </p></td> 
+   <td colname="col3">Réinitialise la page. <p>Le paramètre est ignoré et la valeur est forcée à true pour <span class="codeph"> ImageSet</span> et <span class="codeph"> SpinSet</span>. </p></td> 
   </tr> 
  </tbody> 
 </table>

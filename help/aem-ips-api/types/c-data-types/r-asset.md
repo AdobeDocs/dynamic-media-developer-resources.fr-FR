@@ -1,14 +1,14 @@
 ---
 description: Objet ou conteneur dans la hiérarchie de dossiers.
 solution: Experience Manager
-title: Fichier
+title: Ressource
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 943e653a-ed30-4c75-9bad-6ef5b72f5219
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 9%
+ht-degree: 1%
 
 ---
 
@@ -36,7 +36,7 @@ Syntaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL animatedGifInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:AnimatedGifInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types : AnimatedGifInfo</span> </td> 
    <td colname="col3"> Détails sur un fichier de GIF animé. </td> 
   </tr> 
   <tr> 
@@ -66,7 +66,7 @@ Syntaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL cssInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:CssInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types : CssInfo</span> </td> 
    <td colname="col3"> Informations détaillées sur un fichier CSS. </td> 
   </tr> 
   <tr> 
@@ -82,7 +82,7 @@ Syntaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL fileName]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Renvoie le nom du fichier virtuel. Le chemin d’accès complet au fichier virtuel est : <span class="codeph"> folder</span>+<span class="codeph"> fileName</span>. </td> 
+   <td colname="col3">Renvoie le nom du fichier virtuel. Le chemin d’accès complet au fichier virtuel est <span class="codeph"> folder</span>+<span class="codeph"> fileName</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL flashInfo]</span> </span> </td> 
@@ -101,12 +101,12 @@ Syntaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL fontInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type:fontInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> type : fontInfo</span> </td> 
    <td colname="col3"> Propriétés d’une ressource de police. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL iccProfileInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:IccProfileInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types : IccProfileInfo</span> </td> 
    <td colname="col3"> Propriétés d’une ressource de profil ICC. </td> 
   </tr> 
   <tr> 
@@ -131,7 +131,7 @@ Syntaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL javascriptInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:JavascriptInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types : JavascriptInfo</span> </td> 
    <td colname="col3"> Informations détaillées sur un fichier JavaScript. </td> 
   </tr> 
   <tr> 
@@ -161,7 +161,7 @@ Syntaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL metadataArray]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:MetadataArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> types : MetadataArray</span> </td> 
    <td colname="col3"> Tableau des valeurs de métadonnées associées à la ressource. </td> 
   </tr> 
   <tr> 
@@ -231,12 +231,12 @@ Syntaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL svgInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:SvgInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types : SvgInfo</span> </td> 
    <td colname="col3"> Propriétés d’une ressource de SVG. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL swcInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:SwcInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types : SwcInfo</span> </td> 
    <td colname="col3"> Propriétés d’une ressource SWC. </td> 
   </tr> 
   <tr> 
@@ -252,7 +252,7 @@ Syntaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL type]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Type de fichier. Voir <a href="../../string-constants/c-string-constants/r-asset-types.md#reference-2fe75d230663419d88632d30f1144a10" format="dita" scope="local"> Types de ressources</a> pour les valeurs. </td> 
+   <td colname="col3">Type de ressource. Voir <a href="../../string-constants/c-string-constants/r-asset-types.md#reference-2fe75d230663419d88632d30f1144a10" format="dita" scope="local"> Types de ressources</a> pour connaître les valeurs. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL videoCaptionInfo]</span> </span> </td> 
@@ -266,17 +266,17 @@ Syntaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL viewerPresetInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ViewerPresetInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types : ViewerPresetInfo</span> </td> 
    <td colname="col3"> Propriétés d’une ressource de paramètre prédéfini de visionneuse. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL viewerSwfInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ViewerSwfInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types : ViewerSwfInfo</span> </td> 
    <td colname="col3"> Propriétés d’une ressource SWf de visionneuse. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL vignetteInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:VignetteInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types : VignetteInfo</span> </td> 
    <td colname="col3"> Propriétés d’un fichier de vignette. </td> 
   </tr> 
   <tr> 
@@ -286,7 +286,7 @@ Syntaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL windowCoveringInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:WindowCoveringInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types : WindowCoveringInfo</span> </td> 
    <td colname="col3"> Propriétés d’une fenêtre qui couvre la ressource. </td> 
   </tr> 
   <tr> 

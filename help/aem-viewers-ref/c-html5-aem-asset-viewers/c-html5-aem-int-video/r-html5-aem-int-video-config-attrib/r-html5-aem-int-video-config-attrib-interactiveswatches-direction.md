@@ -8,7 +8,7 @@ exl-id: 6f5ec9e3-9912-4f6a-b848-de0076c4b86f
 source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
 workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -21,8 +21,8 @@ Attribut de configuration de la visionneuse de vidéos interactives.
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|left|right  </span> </p> </td> 
-   <td colname="col2"> <p> Indique la manière dont les échantillons remplissent la vue. </p> <p>Définissez cette variable sur <span class="codeph"> gauche </span> pour définir l’ordre de remplissage de gauche à droite. </p> <p>Défini sur <span class="codeph"> droite </span> inverse l’ordre de sorte que la vue soit remplie de droite à gauche, de haut en bas. </p> <p>Lorsque <span class="codeph"> auto </span> est défini, le composant applique le mode droit lorsque le paramètre régional est défini sur " <span class="codeph"> ja </span>"; sinon, <span class="codeph"> gauche </span> est utilisé. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
+   <td colname="col2"> <p> Indique la manière dont les échantillons remplissent la vue. </p> <p>Définissez cette variable sur <span class="codeph"> left </span> pour définir l’ordre de remplissage de gauche à droite. </p> <p>Défini sur <span class="codeph"> à droite </span> inverse l’ordre de sorte que la vue soit remplie de droite à gauche, de haut en bas. </p> <p>Lorsque <span class="codeph"> auto </span> est défini, le composant applique le mode droit lorsque le paramètre régional est défini sur " <span class="codeph"> ja </span>" ; dans le cas contraire, <span class="codeph"> left </span> est utilisé. </p> </td> 
   </tr> 
  </tbody> 
 </table>

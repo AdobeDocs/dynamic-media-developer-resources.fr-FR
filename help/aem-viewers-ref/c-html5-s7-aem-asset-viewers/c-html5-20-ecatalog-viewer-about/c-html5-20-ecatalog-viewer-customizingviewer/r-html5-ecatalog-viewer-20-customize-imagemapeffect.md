@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 3816118f-4eb7-4436-9f54-155dde077734
 source-git-commit: 6087b48b898e93e605c3873cbd5132b74d04225f
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 1%
+source-wordcount: '303'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ L’aspect de l’icône de zone cliquable est contrôlé à l’aide du sélect
 
 >[!NOTE]
 >
->Le `s7mapoverlay` La classe CSS utilisée par le passé pour mettre en forme les icônes de zone cliquable est désormais obsolète ; use `s7icon` au lieu de .
+>La classe CSS `s7mapoverlay` utilisée par le passé pour mettre en forme les icônes de zone cliquable est désormais obsolète. Utilisez `s7icon` à la place.
 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
@@ -43,7 +43,7 @@ L’aspect de l’icône de zone cliquable est contrôlé à l’aide du sélect
    <td colname="col2"> <p>Illustration de l’icône de zone cliquable. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -59,7 +59,7 @@ L’aspect de l’icône de zone cliquable est contrôlé à l’aide du sélect
 
 >[!NOTE]
 >
->L’icône de zone cliquable prend en charge `state` sélecteur d’attributs que vous pouvez utiliser pour appliquer différents habillages aux états d’icône de `default` et `active`.
+>L’icône de zone cliquable prend en charge le sélecteur d’attributs `state`, que vous pouvez utiliser pour appliquer différents habillages aux états d’icônes de `default` et `active`.
 
 Exemple : configurez une icône de zone cliquable de 28 x 28 pixels qui affiche une image différente pour chacun des deux états d’icône différents.
 
@@ -94,21 +94,21 @@ L’aspect de la zone cliquable est contrôlé à l’aide du sélecteur de clas
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan </span> </p> </td> 
    <td colname="col2"> <p> Couleur de remplissage de la zone cliquable. </p> <p>Spécifié au format #RRGGBB, RGB(R,G,B) ou RGBA(R,G,B,A). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Couleur de remplissage de la zone cliquable. </p> <p>Spécifié au format #RRGGBB, RGB(R,G,B) ou RGBA(R,G,B,A). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> bordure </span> </p> </td> 
-   <td colname="col2"> <p> Style de bordure de la zone cliquable. </p> <p>Spécifié comme <span class="codeph"> <span class="varname"> width </span> solid <span class="varname"> color </span> </span>où <span class="codeph"> <span class="varname"> width </span> </span> est exprimé en pixels et <span class="codeph"> <span class="varname"> color </span> </span> est défini sur #RRGGBB, RGB(R,G,B) ou RGBA(R,G,B,A). </p> </td> 
+   <td colname="col2"> <p> Style de bordure de la zone cliquable. </p> <p>Spécifié en tant que <span class="codeph"> <span class="varname"> width </span> solid <span class="varname"> color </span> </span>, où <span class="codeph"> <span class="varname"> width </span> </span> est exprimé en pixels et <span class="codeph"> <span class="varname"> color </span> </span> est défini sur #RRGGBB, RGB(R,G,B) ou RGBA(R,G,B,A). </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : configuration d’une zone de zone cliquable transparente avec `1` bordure noire des pixels :
+Exemple : configurez une zone de zone cliquable transparente avec une bordure noire de `1` pixels :
 
 ```
 .s7ecatalogviewer .s7imagemapeffect .s7region { 

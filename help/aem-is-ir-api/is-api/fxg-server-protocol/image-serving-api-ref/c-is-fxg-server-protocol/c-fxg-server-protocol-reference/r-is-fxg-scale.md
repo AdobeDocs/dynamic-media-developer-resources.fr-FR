@@ -2,13 +2,13 @@
 description: Mise à l’échelle de l’image. Met à l’échelle une image par facteur par rapport à l’image en pleine résolution.
 solution: Experience Manager
 title: scale
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 89701a15-a0b6-460d-b0c1-5e25f3305380
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 8%
+source-wordcount: '43'
+ht-degree: 4%
 
 ---
 

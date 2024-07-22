@@ -8,7 +8,7 @@ exl-id: 8d344cb7-26b6-413e-9c8d-b1d1f9c94dfc
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '288'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
@@ -66,11 +66,11 @@ Les attributs suivants sont reconnus dans les fichiers d’attributs de catalogu
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-allowdirecturls.md#reference-02000c0f3c494292bad8425d06268882" type="reference" format="dita" scope="local"> AllowDirectUrls</a> </p> </td> 
-  <td class="stentry"> <p>Autoriser les valeurs absolues <span class="codeph"> src=</span> URL. </p></td> 
+  <td class="stentry"> <p>Autoriser les URL <span class="codeph"> src=</span> absolues. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rooturl.md#reference-b8d706a573814802bd6794223cc78402" type="reference" format="dita" scope="local"> RootUrl </a> </p></td> 
-  <td class="stentry"> <p>URL racine pour relative <span class="codeph"> src=</span> URL. </p></td> 
+  <td class="stentry"> <p>URL racine pour les URL <span class="codeph"> relatives src=</span>. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-onfailobj.md#reference-4c6ba90418e84da5831f8573bbbf2c8d" type="reference" format="dita" scope="local"> OnFailObj </a> </p></td> 
@@ -102,7 +102,7 @@ Les attributs suivants sont reconnus dans les fichiers d’attributs de catalogu
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-trusteddomains.md#reference-f3570e0b6d8e444093b738d892c0818d" type="reference" format="dita" scope="local"> TrustedDomains </a> </p> </td> 
-  <td class="stentry"> <p>Domaines Web auxquels l’accès est autorisé <span class="filepath"> swf</span> images de réponse. </p></td> 
+  <td class="stentry"> <p>Domaines Web autorisés à accéder aux images de réponse <span class="filepath"> swf</span>. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-clientaddressfilter.md#reference-52a541cec0b0424faf263d1fb4946b5f" type="reference" format="dita" scope="local"> ClientAddressFilter </a> </p></td> 
@@ -147,7 +147,7 @@ Les attributs suivants sont reconnus dans les fichiers d’attributs de catalogu
   <td class="stentry"> <p>Mode Rééchantillonnage pour la mise à l’échelle des images de réponse. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharpen.md#reference-18df922f3a3f403a97ccaaa15042e30a" type="reference" format="dita" scope="local"> Accentuation </a> </p></td> 
+  <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharpen.md#reference-18df922f3a3f403a97ccaaa15042e30a" type="reference" format="dita" scope="local"> Accentuer </a> </p></td> 
   <td class="stentry"> <p>Accentuation par défaut pour les images de réponse. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -175,7 +175,7 @@ Les attributs suivants sont reconnus dans les fichiers d’attributs de catalogu
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilecmyk.md#reference-55aead2d924847ffbd1be4c46add7127" type="reference" format="dita" scope="local"> IccProfileCmyk </a> </p></td> 
-  <td class="stentry"> Profil colorimétrique de sortie CMJN par défaut.</td> 
+  <td class="stentry"> Profil de couleurs de sortie CMJN par défaut.</td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilegray.md#reference-712f1d0dcca748df9aaf495681bb39e6" type="reference" format="dita" scope="local"> IccProfileGray </a> </p></td> 
@@ -183,7 +183,7 @@ Les attributs suivants sont reconnus dans les fichiers d’attributs de catalogu
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilesrccmyk.md#reference-0256cae955404ebc92d5d0d1fa095ea2" type="reference" format="dita" scope="local"> IccProfileSrcCmyk </a> </p></td> 
-  <td class="stentry"> Profil colorimétrique d’entrée CMJN par défaut.</td> 
+  <td class="stentry"> Profil de couleurs d’entrée CMJN par défaut.</td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><a href="../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-iccprofilesrcgray.md#reference-a2abcd4aa5864738bbea8f55706deaf2" type="reference" format="dita" scope="local"> IccProfileSrcGray </a> </p></td> 

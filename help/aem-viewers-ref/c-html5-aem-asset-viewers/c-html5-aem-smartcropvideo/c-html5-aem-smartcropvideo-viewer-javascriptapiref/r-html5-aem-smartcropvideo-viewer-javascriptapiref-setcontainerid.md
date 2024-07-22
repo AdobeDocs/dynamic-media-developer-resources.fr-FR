@@ -4,7 +4,8 @@ description: Référence de l’API JavaScript pour la visionneuse de vidéos av
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 2dc7b92da6c73a328a82c50dc5a052a3351ee2dc
+exl-id: 1c7a7494-e872-4e78-9518-ea30af46303c
+source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 2%
@@ -17,7 +18,7 @@ Référence de l’API JavaScript pour la visionneuse de vidéos avec recadrage 
 
 ` setContainerId( *`containerId`*)`
 
-Définit l’identifiant du conteneur DOM (généralement un `DIV`) dans laquelle la visionneuse est insérée. Il n’est pas nécessaire de créer l’élément de conteneur au moment de l’appel de cette méthode. Cependant, le conteneur doit exister lorsque `init()` est exécuté. Ce paramètre est appelé avant `init()`. Cette méthode est facultative si les informations de configuration de la visionneuse sont transmises avec `config` Objet JSON au constructeur.
+Définit l’identifiant du conteneur DOM (normalement un `DIV`) dans lequel la visionneuse est insérée. Il n’est pas nécessaire de créer l’élément de conteneur au moment de l’appel de cette méthode. Cependant, le conteneur doit exister lorsque `init()` est exécuté. Ce paramètre est appelé avant `init()`. Cette méthode est facultative si les informations de configuration de la visionneuse sont transmises avec l’objet JSON `config` au constructeur.
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 

@@ -2,12 +2,12 @@
 description: Cette documentation présente les problèmes d’administration du serveur et décrit les paramètres de configuration du rendu d’image Dynamic Media.
 solution: Experience Manager
 title: Préface d’administration du serveur
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 65fc3510-3d47-4650-bf89-322b517dc004
 source-git-commit: 38afaf2ed0f01868f02e236e941b23eed5b790aa
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Cette documentation présente les problèmes d’administration du serveur et d�
 
 Cette documentation est destinée aux administrateurs système et aux webmasters qui doivent installer, configurer et administrer le rendu d’image Dynamic Media.
 
-**Conventions relatives aux documents**
+**Conventions du document**
 
 Les éléments décrits dans cette documentation sont souvent précédés des types d’éléments suivants :
 

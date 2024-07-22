@@ -7,7 +7,7 @@ role: Developer,Admin,User
 exl-id: 10970ca8-b209-4adf-b027-6eb8d7a15db6
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
@@ -26,19 +26,19 @@ Les versions 32 et 64 bits du serveur d’images sont disponibles pour Linux. Sp
 
 >[!NOTE]
 >
->Le mode 64 bits n’est pas pris en charge sous Windows. Uniquement `ImageServer32` peut être spécifié. Sinon, la diffusion d’images ne démarre pas.
+>Le mode 64 bits n’est pas pris en charge sous Windows. Seul `ImageServer32` peut être spécifié. Sinon, la diffusion d’images ne démarre pas.
 
 ## SV::PsHeapSize - [!DNL Platform Server] Taille du tas {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
-La taille du tas Java de la variable [!DNL Platform Server]. La valeur par défaut est &quot; `512m`&quot; (512 Mo).
+Taille du tas Java pour le [!DNL Platform Server]. La valeur par défaut est &quot;`512m`&quot; (512 Mo).
 
 ## IS::TcpPort, PS::isConnection.port - Image Server Listening Port {#section-5421bfd2ca2a4a979faf812b6fdb2887}
 
-Spécifie le port utilisé pour la communication entre le [!DNL Platform Server] et le serveur d’images. Veillez à spécifier un numéro de port qui n’est pas utilisé autrement sur le système hôte.
+Indique le port utilisé pour la communication entre le [!DNL Platform Server] et le serveur d’images. Veillez à spécifier un numéro de port qui n’est pas utilisé autrement sur le système hôte.
 
 >[!NOTE]
 >
->Pour que la diffusion d’images fonctionne correctement, la même valeur doit être définie pour `IS::TcpPort` et `PS::isConnection.port`.
+>Pour que le service d’images fonctionne correctement, la même valeur doit être définie pour `IS::TcpPort` et `PS::isConnection.port`.
 
 ## IS::PhysicalMemory - Limite de mémoire du serveur d’images {#section-85e37aa2ac6e456eb698da716dd3247d}
 

@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: b9c9d241-5a3d-4637-a90a-d8cdf29cc968
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
@@ -22,21 +22,21 @@ Le service d’images prend en charge l’imbrication illimitée de demandes de 
 
 ## Demandes de diffusion d’images imbriquées {#section-6954202119e0466f8ff27c79f4f039c8}
 
-Une requête de diffusion d’images entière peut être utilisée comme source de calque en la spécifiant dans la variable `src=` (ou `mask=`) en utilisant la syntaxe suivante :
+Une requête de diffusion d’images entière peut être utilisée comme source de calque en la spécifiant dans la commande `src=` (ou `mask=`) à l’aide de la syntaxe suivante :
 
 `…&src=is( nestedRequest)&…`
 
-La variable `is` est sensible à la casse.
+Le jeton `is` est sensible à la casse.
 
 La requête imbriquée ne doit pas inclure le chemin racine du serveur (généralement ` http:// *[!DNL server]*/is/image/'`).
 
 >[!NOTE]
 >
->Caractères de délimiteur de requête imbriqués ( `'(',')'`) et les caractères du délimiteur de commande ( `'?'`, `'&'`, `'='`) dans les requêtes imbriquées ne doivent pas être codées en HTTP. En fait, les requêtes imbriquées doivent être codées de la même manière que la requête externe (imbrication).
+>Les caractères de délimiteur de requête imbriqués ( `'(',')'`) et les caractères de délimiteur de commande ( `'?'`, `'&'`, `'='`) dans les requêtes imbriquées ne doivent pas être codés en HTTP. En fait, les requêtes imbriquées doivent être codées de la même manière que la requête externe (imbrication).
 
 Les règles de prétraitement sont appliquées aux requêtes imbriquées.
 
-Les commandes suivantes sont ignorées lorsqu’elles sont spécifiées dans des requêtes imbriquées (dans l’URL de la requête ou dans `catalog::Modifier` ou `catalog::PostModifier`) :
+Les commandes suivantes sont ignorées lorsqu’elles sont spécifiées dans des requêtes imbriquées (soit dans l’URL de la requête, soit dans `catalog::Modifier` ou `catalog::PostModifier`) :
 
 * `fmt=`
 * `qlt=`
@@ -48,7 +48,7 @@ Les commandes suivantes sont ignorées lorsqu’elles sont spécifiées dans des
 
 Si l’image de résultat des requêtes imbriquées inclut des données de masque (alpha), elle est transmise au calque d’incorporation en tant que masque de calque.
 
-Également ignorés `attribute::MaxPix`et `attribute::DefaultPix` du catalogue d’images qui s’applique à la requête imbriquée.
+`attribute::MaxPix` et `attribute::DefaultPix` du catalogue d’images qui s’applique à la demande imbriquée sont également ignorés.
 
 Le résultat de l’image d’une requête IS imbriquée peut être mis en cache de manière facultative en incluant `cache=on`. Par défaut, la mise en cache des données intermédiaires est désactivée. La mise en cache ne doit être activée que lorsque l’image intermédiaire doit être réutilisée dans une autre requête dans un délai raisonnable. La gestion standard du cache côté serveur s’applique. Les données sont mises en cache dans un format sans perte.
 
@@ -58,13 +58,13 @@ Lorsque le rendu d’image Dynamic Media est activé sur le serveur, les demande
 
 ` …&src=ir( *[!DNL renderRequest]*)&…`
 
-La variable `ir` est sensible à la casse.
+Le jeton `ir` est sensible à la casse.
 
-*[!DNL renderRequest]* est la requête de rendu d’image habituelle, à l’exception du chemin racine HTTP ; ` http:// *[!DNL server]*/ir/render/`.
+*[!DNL renderRequest]* est la requête de rendu d’image habituelle, à l’exception du chemin racine HTTP ` http:// *[!DNL server]*/ir/render/`.
 
 >[!NOTE]
 >
->Caractères de délimiteur de requête imbriqués ( `'(',')'`) et les caractères du délimiteur de commande ( `'?'`, `'&'`, `'='`) dans les requêtes imbriquées ne doivent pas être codées en HTTP. En fait, les requêtes incorporées doivent être codées de la même manière que la requête externe (incorporation).
+>Les caractères de délimiteur de requête imbriqués ( `'(',')'`) et les caractères de délimiteur de commande ( `'?'`, `'&'`, `'='`) dans les requêtes imbriquées ne doivent pas être codés en HTTP. En fait, les requêtes incorporées doivent être codées de la même manière que la requête externe (incorporation).
 
 Les commandes de rendu d’image suivantes sont ignorées lorsqu’elles sont spécifiées dans des requêtes imbriquées :
 
@@ -75,27 +75,27 @@ Les commandes de rendu d’image suivantes sont ignorées lorsqu’elles sont sp
 * `printRes=`
 * `req=`
 
-Également ignorés `attribute::MaxPix` et `attribute::DefaultPix` du catalogue de matières qui s’applique à la demande de rendu imbriquée.
+`attribute::MaxPix` et `attribute::DefaultPix` du catalogue de matières qui s’applique à la demande de rendu imbriquée sont également ignorés.
 
 Le résultat de l’image d’une requête IR imbriquée peut être mis en cache de manière facultative en incluant `cache=on`. Par défaut, la mise en cache des données intermédiaires est désactivée. La mise en cache ne doit être activée que lorsque l’image intermédiaire doit être réutilisée dans une autre requête dans un délai raisonnable. La gestion standard du cache côté serveur s’applique. Les données sont mises en cache dans un format sans perte.
 
 ## Demandes de rendu FXG incorporées {#section-c817e4b4f7da414ea5a51252ca7e120a}
 
-Lorsque le rendu des graphiques FXG (alias [!DNL AGMServer]) est installé et activé avec Image Serving, les requêtes FXG peuvent être utilisées comme sources de calque en les spécifiant dans `src=` (ou `mask=`). Utilisez la syntaxe suivante :
+Lorsque le moteur de rendu d’images FXG (alias [!DNL AGMServer]) est installé et activé avec le service d’images, les demandes FXG peuvent être utilisées comme sources de calque en les spécifiant dans les commandes `src=` (ou `mask=`). Utilisez la syntaxe suivante :
 
 `…&src=fxg( renderRequest)&…`
 
-La variable `fxg` est sensible à la casse.
+Le jeton `fxg` est sensible à la casse.
 
 >[!NOTE]
 >
 >Le rendu des graphiques FXG est disponible uniquement dans l’environnement hébergé de Dynamic Media et peut nécessiter des licences supplémentaires. Pour plus d’informations, contactez l’assistance technique de Dynamic Media.
 
-*[!DNL renderRequest]* est la requête de rendu FXG habituelle, à l’exception du chemin d’accès racine HTTP ; ` http:// *[!DNL server]*/agm/render/`.
+*[!DNL renderRequest]* est la requête de rendu FXG habituelle, à l’exception du chemin racine HTTP ` http:// *[!DNL server]*/agm/render/`.
 
 >[!NOTE]
 >
->Caractères de délimiteur ( `'(',')'`) et les caractères du délimiteur de commande ( `'?'`, `'&'`, `'='`) dans les requêtes imbriquées ne doivent pas être codées en HTTP. En fait, les requêtes incorporées doivent être codées de la même manière que la requête externe (incorporation).
+>Les caractères de délimiteur ( `'(',')'`) et les caractères de délimiteur de commande ( `'?'`, `'&'`, `'='`) dans les requêtes imbriquées ne doivent pas être codés en HTTP. En fait, les requêtes incorporées doivent être codées de la même manière que la requête externe (incorporation).
 
 Les commandes FXG suivantes sont ignorées lorsqu’elles sont spécifiées dans des requêtes imbriquées :
 
@@ -113,17 +113,17 @@ Le serveur d’images prend en charge l’accès aux images sources sur les serv
 >
 >Seul le protocole HTTP est pris en charge pour les URL distantes.
 
-Pour spécifier une URL étrangère pour un `src=` ou `mask=` , délimitez l’URL ou le fragment d’URL étranger par des parenthèses :
+Pour spécifier une URL étrangère pour une commande `src=` ou `mask=`, délimitez l’URL ou le fragment d’URL étranger par des parenthèses :
 
 `…&src=( foreignUrl)&…`
 
-Important Caractères de délimiteur ( `'(',')'`) et les caractères du délimiteur de commande ( `'?'`, `'&'`, `'='`) dans les requêtes imbriquées ne doivent pas être codées en HTTP. En fait, les requêtes incorporées doivent être codées de la même manière que la requête externe (incorporation).
+Important Les caractères de délimiteur ( `'(',')'`) et les caractères de délimiteur de commande ( `'?'`, `'&'`, `'='`) dans les requêtes imbriquées ne doivent pas être codés en HTTP. En fait, les requêtes incorporées doivent être codées de la même manière que la requête externe (incorporation).
 
-URL absolues complètes (si `attribute::AllowDirectUrls` est définie) et les URL relatives à `attribute::RootUrl` sont autorisées. Une erreur se produit si une URL absolue est incorporée et un attribut : `AllowDirectUrls` est égal à 0 ou si une URL relative est spécifiée ; `attribute::RootUrl` est vide.
+Les URL absolues complètes (si `attribute::AllowDirectUrls` est défini) et les URL relatives à `attribute::RootUrl` sont autorisées. Une erreur se produit si une URL absolue est incorporée et l’attribut : `AllowDirectUrls` est 0 ou si une URL relative est spécifiée et `attribute::RootUrl` est vide.
 
 Bien que les URL étrangères ne puissent pas être spécifiées directement dans le composant de chemin de l’URL de requête, il est possible de configurer une règle de prétraitement pour permettre la conversion des chemins relatifs en URL absolues (voir l’exemple ci-dessous).
 
-Les images étrangères sont mises en cache par le serveur en fonction des en-têtes de mise en cache inclus dans la réponse HTTP. Si aucun des éléments `ETag` ni un en-tête de réponse HTTP Last-Modified n’est présent, la réponse n’est pas mise en cache. Cela peut entraîner des performances médiocres pour les accès répétés pour la même image étrangère, car le service d’images doit récupérer et revalider l’image à chaque accès.
+Les images étrangères sont mises en cache par le serveur en fonction des en-têtes de mise en cache inclus dans la réponse HTTP. Si aucun en-tête de réponse HTTP `ETag` ou Last-Modified n’est présent, la réponse n’est pas mise en cache. Cela peut entraîner des performances médiocres pour les accès répétés pour la même image étrangère, car le service d’images doit récupérer et revalider l’image à chaque accès.
 
 Ce mécanisme prend en charge les mêmes formats de fichiers image pris en charge par l’utilitaire de conversion d’images (IC), à l’exception des images source avec 16 bits par composant.
 
@@ -151,7 +151,7 @@ Avec de légères modifications, nous pouvons pré-dimensionner l’image du cal
 
 **Incorporation de requêtes pour le rendu d’image Dynamic Media**
 
-Utiliser un modèle stocké dans [!DNL myCatalog/myTemplate]; générez l’image pour le calque2 du modèle à l’aide du rendu d’image Dynamic Media :
+En utilisant un modèle stocké dans [!DNL myCatalog/myTemplate] ; générez l’image pour le calque2 du modèle à l’aide du rendu d’image Dynamic Media :
 
 `http://server/is/image/myCatalog/myTemplate?layer=2&src=ir(myRenderCatalog/myRenderObject?id=myIdValue&sel=group&src=is(myCatalog/myTexture1?res=30)&res=30)&wid=300`
 
@@ -159,4 +159,4 @@ Notez les accolades imbriquées. La requête de rendu d’image incorpore un app
 
 ## Voir aussi {#section-109a0a9a3b144158958351139c8b8e69}
 
-[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [Demander le prétraitement](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-preprocessing.md#reference-c27976436bf04194bfbe9adf40ea98e3), référence de rendu d’image, [Modèles](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e), [Utilitaires de diffusion d’images](../../../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f)
+[src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1) , [mask=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-mask.md#reference-922254e027404fb890b850e2723ee06e), [Request PreProcessing](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-preprocessing.md#reference-c27976436bf04194bfbe9adf40ea98e3), Image Rendering Reference, [Templates](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e), [Image Serving Utilities](../../../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f)

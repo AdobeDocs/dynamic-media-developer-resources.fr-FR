@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 7ac727ef-3775-4884-b9db-bfae171a0f9d
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Pour réduire les possibilités de traitement des requêtes, une simple fonction de verrouillage est disponible.
 
-Si attribute::RequestLock est défini, une valeur de verrouillage doit être ajoutée à la requête, sous la forme `&xxxx`, xxxx étant une valeur hexadécimale de quatre chiffres. Cette valeur hexadécimale est générée à l’aide d’un algorithme de hachage simple appliqué à la variable *modificateurs* partie de la requête (après le &quot;?&quot; qui sépare le chemin de l’URL du *modificateurs*). Cette opération doit être effectuée une fois que la requête est entièrement codée en HTTP, mais avant qu’elle ne soit (éventuellement) obscurcie. Après avoir démasqué la requête, le serveur utilise le même algorithme de hachage sur la chaîne de modification (à l’exception des 5 derniers caractères, qui contiennent la valeur de verrouillage). Si la clé générée ne correspond pas au verrou, la demande est rejetée.
+Si attribute::RequestLock est défini, une valeur de verrouillage doit être ajoutée à la requête, sous la forme `&xxxx`, xxxx étant une valeur hexadécimale de quatre chiffres. Cette valeur hexadécimale est générée à l’aide d’un algorithme de hachage simple appliqué à la partie *modificateurs* de la requête (après le &quot;?&quot; qui sépare le chemin de l’URL des *modificateurs*). Cette opération doit être effectuée une fois que la requête est entièrement codée en HTTP, mais avant qu’elle ne soit (éventuellement) obscurcie. Après avoir démasqué la requête, le serveur utilise le même algorithme de hachage sur la chaîne de modification (à l’exception des 5 derniers caractères, qui contiennent la valeur de verrouillage). Si la clé générée ne correspond pas au verrou, la demande est rejetée.
 
 >[!IMPORTANT]
 >
->Si vous activez cette fonction, sachez que son utilisation présente certaines limites, notamment :<br>- Il se peut que l’interface utilisateur de Dynamic Media n’affiche pas les détails corrects pour la variable **[!UICONTROL Dernière publication]** champ . Toutefois, cet impact n’a aucune incidence sur la publication.<br>- Actuellement, la diffusion en continu de vidéos HLS ne fonctionne pas lorsque **[!UICONTROL Obscurcissement de requête]** et **[!UICONTROL Demander le verrouillage]** sont activées.<br>- Actuellement, certaines visionneuses Dynamic Media ne fonctionnent pas lorsque **[!UICONTROL Obscurcissement de requête]** et **[!UICONTROL Demander le verrouillage]** sont activées.
+>Si vous activez cette fonction, sachez qu’il existe certaines limites à son utilisation qui incluent les éléments suivants :<br> - L’interface utilisateur de Dynamic Media peut ne pas afficher les détails corrects pour le champ **[!UICONTROL Dernière publication]**. Toutefois, cet impact n’a aucune incidence sur la publication.<br> - Actuellement, la diffusion en continu de vidéo HLS ne fonctionne pas lorsque **[!UICONTROL Obscurcissement de requête]** et **[!UICONTROL verrouillage de requête]** sont activés.<br> - Actuellement, certaines visionneuses Dynamic Media ne fonctionnent pas lorsque l’option **[!UICONTROL Obscurcissement de requête]** et **[!UICONTROL Verrouillage de requête]** est activée.
 
 C++ exemple de code pour générer la valeur de verrouillage de requête :
 

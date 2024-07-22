@@ -2,13 +2,13 @@
 description: Utilisé par SystemFieldCondition/op.
 solution: Experience Manager
 title: Opérateurs de comparaison de dates/numériques
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 96fb9661-f911-4476-a848-ef5256ddbeaf
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 8%
+source-wordcount: '18'
+ht-degree: 11%
 
 ---
 

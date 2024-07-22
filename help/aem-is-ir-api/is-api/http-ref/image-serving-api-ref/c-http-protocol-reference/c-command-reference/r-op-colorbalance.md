@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 93476778-97b0-4ad5-b22a-093239e845f0
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '116'
 ht-degree: 1%
 
 ---
@@ -47,4 +47,4 @@ Couche, commande. S’applique au calque actif ou à l’image composite si `lay
 
 Poussez la balance des couleurs vers le rouge :
 
-… `&op_colorBalance=100,0,0&`…
+... `&op_colorBalance=100,0,0&`...

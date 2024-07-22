@@ -35,12 +35,12 @@ L’aspect de la zone d’affichage est contrôlé à l’aide du sélecteur de 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan au format hexadécimal de la vue principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> cursor </span> </p> </td> 
-   <td colname="col2"> <p>Curseur affiché au-dessus de la vue principale. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> curseur </span> </p> </td> 
+   <td colname="col2"> <p>Curseur affiché sur la vue principale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,24 +53,24 @@ Exemple : pour rendre le zoom transparent.
 }
 ```
 
-Sur les systèmes de bureau, le composant prend en charge `cursortype` sélecteur d’attributs qui peut être appliqué au `.s7zoomview` classe . Il contrôle le type de curseur en fonction de l’état du composant et de l’action de l’utilisateur. Les éléments suivants `cursortype` sont prises en charge :
+Sur les systèmes de bureau, le composant prend en charge le sélecteur d’attributs `cursortype` qui peut être appliqué à la classe `.s7zoomview`. Il contrôle le type de curseur en fonction de l’état du composant et de l’action de l’utilisateur. Les valeurs `cursortype` suivantes sont prises en charge :
 
 * `default`
 
-   S’affiche lorsque l’image n’est pas agrandie en raison d’une petite résolution d’image, de paramètres de composant ou des deux.
+  S’affiche lorsque l’image n’est pas agrandie en raison d’une petite résolution d’image, de paramètres de composant ou des deux.
 
 * `zoomin`
 
-   S’affiche lorsque l’image peut être agrandie.
+  S’affiche lorsque l’image peut être agrandie.
 
 * `reset`
 
-   S’affiche lorsque l’image atteint le niveau de zoom maximal et peut être réinitialisée à son état initial.
+  S’affiche lorsque l’image atteint le niveau de zoom maximal et peut être réinitialisée à son état initial.
 
 * `drag`
 
-   Affiché lorsque l’utilisateur effectue un panoramique sur l’image qui est agrandie.
+  Affiché lorsque l’utilisateur effectue un panoramique sur l’image qui est agrandie.
 
 * `slide`
 
-   Affiché lorsque l’utilisateur effectue un échange d’image à l’aide d’un glissement ou d’un clic horizontal.
+  Affiché lorsque l’utilisateur effectue un échange d’image à l’aide d’un glissement ou d’un clic horizontal.

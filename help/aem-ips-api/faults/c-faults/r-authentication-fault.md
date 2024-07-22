@@ -2,13 +2,13 @@
 description: Générée lorsqu’un utilisateur ne peut pas être authentifié.
 solution: Experience Manager
 title: authenticationFault
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fce5c227-9291-4d17-801f-4ef4b8d43eb4
 source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 19%
+source-wordcount: '37'
+ht-degree: 21%
 
 ---
 
@@ -22,7 +22,7 @@ Syntaxe
 
 | ID | Par défaut |
 |---|---|
-| 10 000 | `AUTHENTICATION_FAULT_CODE_NO_CREDENTIALS` |
+| 10000 | `AUTHENTICATION_FAULT_CODE_NO_CREDENTIALS` |
 | 10001 | `AUTHENTICATION_FAULT_CODE_INVALID_CREDENTIALS` |
 | 10002 | `AUTHENTICATION_FAULT_CODE_INVALID_USER` |
 

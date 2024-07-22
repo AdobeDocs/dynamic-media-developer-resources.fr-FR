@@ -18,7 +18,7 @@ Créez une application de calque &quot;poupée de papier&quot;.
 
 Une image d’arrière-plan contient la photo d’un modèle ou d’un mannequin. Les enregistrements supplémentaires dans le catalogue d’images contiennent divers accessoires et vêtements, photographiés pour correspondre au mannequin en forme et en taille.
 
-Chaque photo d’habillement/accessoires est masquée et recadrée sur le cadre de sélection du masque afin de minimiser la taille de l’image. Les ancres et résolutions des images sont soigneusement contrôlées afin de maintenir l’alignement entre les calques et l’image d’arrière-plan. Toutes les images sont alors ajoutées à un catalogue d’images, avec les valeurs appropriées stockées dans les répertoires `catalog::Resolution` et `catalog::Anchor`.
+Chaque photo d’habillement/accessoires est masquée et recadrée sur le cadre de sélection du masque afin de minimiser la taille de l’image. Les ancres et résolutions des images sont soigneusement contrôlées afin de maintenir l’alignement entre les calques et l’image d’arrière-plan. Toutes les images sont ajoutées à un catalogue d’images, avec les valeurs appropriées stockées dans les répertoires `catalog::Resolution` et `catalog::Anchor`.
 
 Outre le calque, vous souhaitez également modifier la couleur des éléments sélectionnés. Les enregistrements de ces éléments sont prétraités afin de supprimer la couleur d’origine et d’ajuster la luminosité et le contraste d’une manière adaptée à la commande de coloration. Ce prétraitement peut être effectué hors ligne à l’aide d’un outil d’édition d’images tel qu’Adobe Photoshop ou, dans des cas simples, il peut être effectué de manière triviale en ajoutant `op_brightness=` et `op_contrast=` au champ `catalog::Modifier`.
 
@@ -40,11 +40,11 @@ Seule la hauteur est spécifiée. Cela permet à l’image renvoyée de varier e
 
 Quelle que soit la résolution spécifiée pour chaque calque, tant qu’ils sont identiques, cela ne devrait pas avoir d’importance. Cette version peut ne pas permettre aux vues d’être plus grandes que les images composites. La définition d’une valeur de résolution élevée permet d’éviter les problèmes liés à cette limitation. L’ensemble du traitement et du compost est effectué à la résolution optimale pour la taille d’image demandée, afin d’obtenir de meilleures performances et une meilleure qualité de sortie.
 
-Les commandes `res=` peuvent être omises si toutes les images sources ont la même résolution à grande échelle (ce qui est probablement le cas pour ce type d&#39;application).
+Les commandes `res=` peuvent être omises si toutes les images sources ont la même résolution à grande échelle (ce qui est probablement le cas pour ce type d’application).
 
-La valeur `rootId` doit être spécifiée pour toutes les commandes `src=`, même si elles sont identiques à la valeur `rootId` spécifiée dans le chemin de l’URL.
+`rootId` doit être spécifié pour toutes les commandes `src=`, même si elles sont identiques à `rootId` spécifiées dans le chemin d’accès à l’URL.
 
-Si aucun catalogue d’images ne doit être utilisé, il n’est pas possible d’utiliser une approche de mise à l’échelle basée sur la résolution. Dans ce cas, les facteurs d’échelle explicites doivent être calculés pour chaque élément de calque, en fonction du rapport entre les valeurs `catalog::Resolution` de chaque calque et la valeur `catalog::Resolution` du calque d’arrière-plan. La requête de composition (avec moins de calques) peut donc se présenter comme suit :
+Si aucun catalogue d’images ne doit être utilisé, il n’est pas possible d’utiliser une approche de mise à l’échelle basée sur la résolution. Dans ce cas, les facteurs d’échelle explicites doivent être calculés pour chaque élément de calque, en fonction du rapport entre les valeurs `catalog::Resolution` de chaque calque et la valeur `catalog::Resolution` de la couche d’arrière-plan. La requête de composition (avec moins de calques) peut donc se présenter comme suit :
 
 ```
 http://server/myApp/mannequin.tif?&hei=400&qlt=90&

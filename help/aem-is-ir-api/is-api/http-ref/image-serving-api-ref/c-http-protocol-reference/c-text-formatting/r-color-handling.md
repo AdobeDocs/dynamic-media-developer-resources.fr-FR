@@ -7,28 +7,28 @@ role: Developer,User
 exl-id: 590ed0f1-8d78-4afc-ac9e-c28272cd24a6
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
 
 # Gestion des couleurs{#color-handling}
 
-La spécification RTF autorise les valeurs de couleur RGB spécifiées avec `\colortbl`. Chaque composant est fourni séparément avec la fonction `\red`, `\green`, et `\blue` des commandes.
+La spécification RTF autorise les valeurs de couleur de RGB spécifiées avec `\colortbl`. Chaque composant est fourni séparément avec les commandes `\red`, `\green` et `\blue`.
 
-La commande d’extension RTF propriétaire `\cmykcolortbl` permet de spécifier les couleurs CMJN, chaque composant de couleur étant fourni avec la propriété `\cyan`, `\magenta`, `\yellow`, et `\black` des commandes.
+La commande d’extension RTF propriétaire `\cmykcolortbl` permet de spécifier des couleurs CMJN, chaque composant de couleur étant fourni avec les commandes `\cyan`, `\magenta`, `\yellow` et `\black`.
 
-Valeurs des composants de couleur pour `\colortbl` sont compris entre 0 et 255. Valeurs de composant pour `\cmykcolortbl` sont compris entre 0 et 100.
+Les valeurs des composants de couleur pour `\colortbl` sont comprises entre 0 et 255. Les valeurs des composants pour `\cmykcolortbl` sont comprises entre 0 et 100.
 
-La commande d’extension RTF `\*\iscolortbl`, pris en charge par `textPs=`, permet de spécifier un tableau de couleurs avec des valeurs colorimétriques de diffusion d’images standard, avec prise en charge complète du RGB, du gris, du CMJN et de l’alpha. La syntaxe est la suivante :
+La commande d’extension RTF `\*\iscolortbl`, prise en charge par `textPs=`, permet de spécifier une table de couleurs avec des valeurs de couleur standard du serveur d’images, avec prise en charge complète du RGB, du gris, du CMJN et de l’alpha. La syntaxe est la suivante :
 
 ` {\&#42;\iscolortbl; *[!DNL colors]*;}`
 
 *[!DNL colors]* une ou plusieurs valeurs de couleur IS, séparées par &quot;;&quot;
 
-Plusieurs types de table colorimétrique peuvent être spécifiés dans le même `text=` ou `textPs=` Chaîne RTF. Chaque table de couleurs peut avoir un nombre d’entrées différent. La diffusion d’images tente de trouver les couleurs dans cet ordre : `\iscolortbl` before `\cmykcolortbl` (uniquement si le type de pixel du calque de texte est CMJN) avant `\colortbl`. Pour `textPs=` uniquement, les couleurs sont converties avec précision entre CMJN et RGB, si cela est nécessaire (par exemple, lorsque des couleurs RGB sont spécifiées, mais que la sortie CMJN est requise). Si aucune couleur n’est trouvée pour une valeur d’index particulière, la couleur par défaut (noir) est utilisée.
+Plusieurs types de table colorimétrique peuvent être spécifiés dans la même chaîne RTF `text=` ou `textPs=`. Chaque table de couleurs peut avoir un nombre d’entrées différent. La diffusion d’image tente de trouver les couleurs dans cet ordre : `\iscolortbl` avant `\cmykcolortbl` (uniquement si le type de pixel de la couche de texte est CMJN) avant `\colortbl`. Pour `textPs=` uniquement, les couleurs sont converties avec précision entre CMJN et RGB, si cela est nécessaire (par exemple, lorsque des couleurs de RGB sont spécifiées, mais que la sortie CMJN est requise). Si aucune couleur n’est trouvée pour une valeur d’index particulière, la couleur par défaut (noir) est utilisée.
 
-Voir [color](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) pour une description de la syntaxe des valeurs de couleur IS.
+Reportez-vous à [color](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-is-http-color.md) pour une description de la syntaxe des valeurs de couleur IS.
 
 ## Restrictions {#section-c5173e672d854e4aa9656844f7fc4d0e}
 

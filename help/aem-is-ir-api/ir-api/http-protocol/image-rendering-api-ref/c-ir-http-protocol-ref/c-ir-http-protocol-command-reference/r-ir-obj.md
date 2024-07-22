@@ -8,7 +8,7 @@ exl-id: 17387203-f7a7-4876-a15b-2084894f981d
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
 source-wordcount: '140'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Sélectionnez l’objet par nom. Sélectionne le groupe de vignettes spécifié par son nom et lance un nouveau MSS.
 
-` obj= *`nom`*`
+` obj= *`name`*`
 
 <table id="simpletable_6E0DA6CBCDCF4CDDAFA5A4C38E0D5FC5"> 
  <tr class="strow"> 
@@ -27,11 +27,11 @@ Sélectionnez l’objet par nom. Sélectionne le groupe de vignettes spécifié 
 
 Les sous-groupes ou les objets individuels peuvent être sélectionnés à l’aide d’un chemin d’accès de groupe complet (c’est-à-dire en spécifiant le nom du groupe cible ou de l’objet précédé de tous les groupes parents, séparés par des / (barres obliques).
 
-Si aucun groupe/objet portant le nom spécifié n’est trouvé, l’action spécifiée dans `attribute::OnObjFail` est prise.
+Si aucun groupe/objet portant le nom spécifié n’est trouvé, l’action spécifiée dans `attribute::OnObjFail` est exécutée.
 
 ## Propriétés {#section-9463b36e8ff74c81a70c7c2b58927430}
 
-Commande de sélection ; délimiteur MSS. La sélection d’objet est persistante jusqu’à ce qu’un autre objet soit sélectionné, avec la méthode `obj=` ou `sel=`.
+Commande de sélection ; délimiteur MSS. La sélection d’objet est persistante jusqu’à ce qu’un autre objet soit sélectionné, avec `obj=` ou `sel=`.
 
 Les noms et les chemins d’accès aux groupes/objets ne sont pas sensibles à la casse.
 

@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Documentation de référence de commande commune à tous les visionneuses.
 
-Les commandes répertoriées ci-dessous sont appliquées via l’URL ou à l’aide des méthodes `setParam()` ou `setParams()` de l’API.
+Les commandes répertoriées ci-dessous sont appliquées via l’URL ou à l’aide des méthodes API `setParam()` ou `setParams()`.

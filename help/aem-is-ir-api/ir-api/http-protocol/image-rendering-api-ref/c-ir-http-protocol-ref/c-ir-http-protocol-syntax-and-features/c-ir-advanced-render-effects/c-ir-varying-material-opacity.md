@@ -16,8 +16,8 @@ ht-degree: 0%
 
 L’opacité variable est prise en charge pour les couleurs solides et les textures répétables appliquées aux objets qui se chevauchent, ainsi que pour les décalages et les matériaux qui recouvrent les fenêtres.
 
-Les informations d’opacité peuvent être fournies simplement en utilisant une image de RGB avec un canal alpha. En outre, l’opacité globale peut être variable avec la variable `opacity=` (pour les images RGB et RGBA).
+Les informations d’opacité peuvent être fournies simplement en utilisant une image de RGB avec un canal alpha. En outre, l’opacité globale peut être différente avec la commande `opacity=` (à la fois pour les images RGB et RGBA).
 
 Les bordures de mur prennent également en charge les images RGBA, principalement pour les bordures découpées.
 
-Le [!DNL vnw] Les fichiers qui définissent les recouvrements de fenêtre peuvent inclure un canal d’opacité. Il est combiné par le moteur de rendu avec le canal alpha de la texture répétable et le `opacity=` afin de fournir une gamme complète d’effets d’opacité pour les traitements de vitres simples et translucides.
+Les fichiers [!DNL vnw] qui définissent les recouvrements de fenêtre peuvent inclure un canal d’opacité. Elle est combinée par le moteur de rendu avec le canal alpha de la texture répétable et la valeur `opacity=` pour fournir une gamme complète d’effets d’opacité pour les traitements de fenêtre transparent et transparent.

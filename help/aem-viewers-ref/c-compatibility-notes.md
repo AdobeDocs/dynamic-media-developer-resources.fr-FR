@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 7ad499b1-7da6-483b-ab11-cff2eb9271da
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Notes de compatibilité pour les systèmes d’exploitation, les navigateurs et 
 
 ## Visionneuse vidéo HTML5 {#section-3c2dd1220dea4093b17ca2dd0a688307}
 
-* `IntialBitRate` est uniquement pris en charge avec la lecture HLS du logiciel et HDS par Flash. Cela ne fonctionne pas lorsque la lecture utilise le lecteur natif.
+* Le modificateur `IntialBitRate` est uniquement pris en charge avec la lecture HLS du logiciel et HDS par Flash. Cela ne fonctionne pas lorsque la lecture utilise le lecteur natif.
 * Lecture progressive OGG et WebM non prise en charge.
 * La mise à l’échelle du navigateur entraîne l’affichage du lecteur vidéo à une taille incorrecte (inclut les paramètres d’affichage de Panneau de Contrôle Windows®).
 * La recherche de vidéos à l’aide de la diffusion HLS en continu sur Safari est incohérente.

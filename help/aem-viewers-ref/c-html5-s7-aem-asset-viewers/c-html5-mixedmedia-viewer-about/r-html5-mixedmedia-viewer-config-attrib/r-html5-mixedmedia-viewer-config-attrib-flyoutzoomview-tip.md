@@ -7,28 +7,28 @@ role: Developer,User
 exl-id: 03a04bba-85ae-4c30-91fa-dfc6b732a9ac
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 6%
+source-wordcount: '99'
+ht-degree: 3%
 
 ---
 
 # FlyoutZoomView.tip{#flyoutzoomview-tip}
 
-` [FlyoutZoomView.|<containerId>_flyout.]tip= *`durée`*[, *`count`*][, *`fade`*]`
+` [FlyoutZoomView.|<containerId>_flyout.]tip= *`duration`*[, *`count`*][, *`fade`*]`
 
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> durée</span></span> </p> </td> 
-   <td colname="col2"> <p> Indique le nombre de secondes pendant lesquelles le texte de l’info-bulle s’affiche avant qu’il ne se masque. Lorsque la variable est définie sur <span class="codeph"> -1</span>, le message s’affiche toujours, même si l’utilisateur active la fenêtre déroulante. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> duration</span></span> </p> </td> 
+   <td colname="col2"> <p> Indique le nombre de secondes pendant lesquelles le texte de l’info-bulle s’affiche avant qu’il ne se masque. Lorsqu’il est défini sur <span class="codeph"> -1</span>, le message s’affiche toujours, même si l’utilisateur active la fenêtre déroulante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> nombre</span></span> </p> </td> 
-   <td colname="col2"> <p> Indique le nombre d’affichages du texte lors de l’affichage de nouvelles images dans la visionneuse. Une valeur de <span class="codeph"> -1</span> signifie que le texte est toujours affiché lors de l’affichage d’une image dans la visionneuse. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> count</span></span> </p> </td> 
+   <td colname="col2"> <p> Indique le nombre d’affichages du texte lors de l’affichage de nouvelles images dans la visionneuse. Une valeur <span class="codeph"> -1</span> signifie que le texte est toujours affiché lors de l’affichage d’une image dans la visionneuse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> fade</span></span> </p> </td> 
-   <td colname="col2"> Indique la durée d’une animation de fondu qui se produit lorsque le texte apparaît ou disparaît. Une valeur de <span class="codeph"> 0</span> indique qu’aucune transition de fondu n’a été effectuée. </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> fondu</span></span> </p> </td> 
+   <td colname="col2"> Indique la durée d’une animation de fondu qui se produit lorsque le texte apparaît ou disparaît. Une valeur <span class="codeph"> 0</span> indique qu’aucune transition de fondu n’est effectuée. </td> 
   </tr> 
  </tbody> 
 </table>

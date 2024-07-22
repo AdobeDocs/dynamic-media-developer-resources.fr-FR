@@ -8,7 +8,7 @@ exl-id: d8d5fb80-17f1-424f-8a61-27189f87d603
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '78'
-ht-degree: 20%
+ht-degree: 17%
 
 ---
 
@@ -37,7 +37,7 @@ Syntaxe
 
 ## Exemples {#section-ce47a4b6e062423fa55ed3a0fd26d7ff}
 
-**Request**
+**Requête**
 
 ```java
 <updateImageSetParam xmlns="http://www.scene7.com/IpsApi/xsd/2014-04-03"> 

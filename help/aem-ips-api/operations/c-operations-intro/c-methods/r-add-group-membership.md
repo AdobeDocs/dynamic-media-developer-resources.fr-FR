@@ -1,18 +1,18 @@
 ---
 description: Ajoute un utilisateur à un tableau de groupes.
 solution: Experience Manager
-title: addGroupMembership
+title: addGroupMember
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c5b5e155-d285-4304-98bc-1d938793e2c0
 source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 14%
+ht-degree: 10%
 
 ---
 
-# addGroupMembership{#addgroupmembership}
+# addGroupMember{#addgroupmembership}
 
 Ajoute un utilisateur à un tableau de groupes.
 
@@ -53,15 +53,15 @@ Syntaxe
  </tbody> 
 </table>
 
-**Sortie (addGroupMembershipParam)**
+**Output (addGroupMembershipParam)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-f7a1f40c3d7a40ea964b29056c734d81}
 
-Cet exemple ajoute un groupe à une société avec groupHandleArray. Cet exemple n’utilise qu’un seul groupe.
+Cet exemple ajoute un groupe à une société avec groupHandleArray. Cet exemple utilise un seul groupe.
 
-**Request**
+**Requête**
 
 ```java {.line-numbers}
 <ns1:addGroupMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 0c8a3d2a-2524-436a-8bc7-60241af0fd17
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 1%
+source-wordcount: '450'
+ht-degree: 0%
 
 ---
 
@@ -24,11 +24,11 @@ Attributs de calque de texte. Spécifie des attributs supplémentaires pour les 
   <td class="stentry"> <p>Il permet de mettre le calque de texte à l’échelle sans modifier la taille des polices. Des valeurs de résolution plus élevées augmentent la taille du texte rendu par rapport à la taille de la zone de travail ; des valeurs plus petites réduisent la taille du texte. Résolution du texte en points par pouce (int supérieur à 0). </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> antiAliasing </span> </span> </p> </td> 
-  <td class="stentry"> <p>Contrôle le mode anti-crénelage utilisé par le moteur de rendu de texte. </p> <p> <span class="codeph"> off | standard | croupie | sharp | strong | lisse </span> </p> <p> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> anti-alias </span> </span> </p> </td> 
+  <td class="stentry"> <p>Contrôle le mode anti-crénelage utilisé par le moteur de rendu de texte. </p> <p> <span class="codeph"> désactivé | standard | crisper | sharp | fort | smog </span> </p> <p> 
     <table id="simpletable_AE2331118FCA4BC7877233E287CED6A4"> 
      <tr class="strow"> 
-      <td class="stentry"> <p> <span class="codeph"> désactivé </span> </p> </td> 
+      <td class="stentry"> <p> <span class="codeph"> off </span> </p> </td> 
       <td class="stentry"> <p>Désactivez l’anti-crénelage du texte. </p> </td> 
      </tr> 
      <tr class="strow"> 
@@ -36,16 +36,16 @@ Attributs de calque de texte. Spécifie des attributs supplémentaires pour les 
       <td class="stentry"> <p>Activez le mode anti-alias de texte standard (par défaut). </p> </td> 
      </tr> 
      <tr class="strow"> 
-      <td class="stentry"> <p> <span class="codeph"> crisper </span> </p> </td> 
-      <td class="stentry"> <p>Sélection du mode anti-alias Photoshop <span class="codeph"> crisper </span> ( <span class="codeph"> textPs= </span> uniquement). </p> </td> 
+      <td class="stentry"> <p> <span class="codeph"> crisp </span> </p> </td> 
+      <td class="stentry"> <p>Sélectionnez le mode anti-alias Photoshop <span class="codeph"> crisp </span> ( <span class="codeph"> textPs= </span> uniquement). </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> sharp </span> </p> </td> 
-      <td class="stentry"> <p>Sélection du mode anti-alias Photoshop <span class="codeph"> sharp </span> ( <span class="codeph"> textPs= </span> uniquement). </p> </td> 
+      <td class="stentry"> <p>Sélectionnez le mode anti-alias Photoshop <span class="codeph"> sharp </span> ( <span class="codeph"> textPs= </span> uniquement). </p> </td> 
      </tr> 
      <tr class="strow"> 
-      <td class="stentry"> <p> <span class="codeph"> fort </span> </p> </td> 
-      <td class="stentry"> <p>Sélection du mode anti-alias Photoshop <span class="codeph"> fort </span> ( <span class="codeph"> textPs= </span> uniquement). </p> </td> 
+      <td class="stentry"> <p> <span class="codeph"> strong </span> </p> </td> 
+      <td class="stentry"> <p>Sélectionnez le mode anti-alias Photoshop <span class="codeph"> strong </span> ( <span class="codeph"> textPs= </span> uniquement). </p> </td> 
      </tr> 
     </table> </p> </td> 
  </tr> 
@@ -55,11 +55,11 @@ Attributs de calque de texte. Spécifie des attributs supplémentaires pour les 
     <table id="simpletable_2CFC06DB37154C7C92614FDF7A818DB5"> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> fixedRes </span> </p> </td> 
-      <td class="stentry"> <p>Utilisez la résolution spécifiée. </p> <p>Utilisez cette option si le texte doit être rendu avec une taille exacte par rapport à la zone de travail composite. Le texte peut être tronqué à la taille du calque (le cas échéant) si la zone de texte est trop petite. Il s’agit du seul <span class="varname"> resMode </span> option prise en charge par <span class="codeph"> textPs= </span>. </p> </td> 
+      <td class="stentry"> <p>Utilisez la résolution spécifiée. </p> <p>Utilisez cette option si le texte doit être rendu avec une taille exacte par rapport à la zone de travail composite. Le texte peut être tronqué à la taille du calque (le cas échéant) si la zone de texte est trop petite. Il s'agit de la seule option <span class="varname"> resMode </span> prise en charge par <span class="codeph"> textPs= </span>. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> autoRes </span> </p> </td> 
-      <td class="stentry"> <p>Ajustez automatiquement la résolution pour remplir au mieux le recto du calque avec le texte. </p> <p>Utilisez pour ajuster automatiquement la taille du texte afin que la zone de texte soit remplie autant que possible, sans risque de troncature. Si le retour automatique à la ligne est activé, le texte peut être réencapsulé à la résolution finale. La variable <span class="varname"> res </span> est ignoré si <span class="codeph"> autoRes </span> est sélectionnée. Non pris en charge par <span class="codeph"> textPs= </span>. </p> </td> 
+      <td class="stentry"> <p>Ajustez automatiquement la résolution pour remplir au mieux le recto du calque avec le texte. </p> <p>Utilisez pour ajuster automatiquement la taille du texte afin que la zone de texte soit remplie autant que possible, sans risque de troncature. Si le retour automatique à la ligne est activé, le texte peut être réencapsulé à la résolution finale. <span class="varname"> res </span> est ignoré si <span class="codeph"> autoRes </span> est sélectionné. Non pris en charge par <span class="codeph"> textPs= </span>. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> maxRes </span> </p> </td> 
@@ -76,20 +76,20 @@ Attributs de calque de texte. Spécifie des attributs supplémentaires pour les 
       <td class="stentry"> <p>Désactivez le retour automatique à la ligne. </p> </td> 
      </tr> 
      <tr class="strow"> 
-      <td class="stentry"> <p> <span class="codeph"> inclusion </span> </p> </td> 
-      <td class="stentry"> <p>Activez le retour automatique à la ligne standard. </p> <p>Cela casse les mots longs, si nécessaire. <span class="codeph"> textPs= </span> uniquement prend en charge <span class="codeph"> wrap </span>. </p> </td> 
+      <td class="stentry"> <p> <span class="codeph"> wrap </span> </p> </td> 
+      <td class="stentry"> <p>Activez le retour automatique à la ligne standard. </p> <p>Cela casse les mots longs, si nécessaire. <span class="codeph"> textPs= </span> ne prend en charge que <span class="codeph"> wrap </span>. </p> </td> 
      </tr> 
      <tr class="strow"> 
       <td class="stentry"> <p> <span class="codeph"> nbWrap </span> </p> </td> 
-      <td class="stentry"> <p>Activez le retour automatique à la ligne incessant. </p> <p>Ne casse jamais un mot, même s'il est tronqué à la fin. Généralement utilisé avec <span class="codeph"> autoRes </span> ou <span class="codeph"> maxRes </span> pour s'assurer que les longs mots ne soient jamais rompus. </p> </td> 
+      <td class="stentry"> <p>Activez le retour automatique à la ligne incessant. </p> <p>Ne casse jamais un mot, même s'il est tronqué à la fin. Généralement utilisé avec <span class="codeph"> autoRes </span> ou <span class="codeph"> maxRes </span> pour s’assurer que les mots longs ne sont jamais rompus. </p> </td> 
      </tr> 
-    </table> </p> <p>Les deux <span class="codeph"> wrap </span> et <span class="codeph"> nbwrap </span> retour automatique à la ligne sur les limites de mots et les tirets. </p> </td> 
+    </table> </p> <p><span class="codeph"> encapsule </span> et <span class="codeph"> font encapsuler automatiquement </span> sur les limites de mots et les tirets. </p> </td> 
  </tr> 
 </table>
 
 ## Propriétés {#section-114ca0b8585b403c873e2251478ad1d5}
 
-Attribut de calque de texte. Ignoré par les calques d’image, de couleur unie et d’effet. S’applique à `layer=0` si spécifié pour `layer=comp`.
+Attribut de calque de texte. Ignoré par les calques d’image, de couleur unie et d’effet. S’applique à `layer=0` s’il est spécifié pour `layer=comp`.
 
 ## Par défaut {#section-855230f5330b4afc8a933f00a1ed4612}
 

@@ -8,7 +8,7 @@ exl-id: ab1ac4b3-e91e-4c42-8b77-6e4c1d129b1a
 source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 7%
+ht-degree: 3%
 
 ---
 
@@ -39,9 +39,9 @@ Syntaxe
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3">Dépend du type de champ de balise et de l’utilisation du champ value ou valueArray. 
     <ul id="ul_CC0926425B094B3BB7D70CB392DBDABD">
-     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5">If <span class="codeph"> value</span> est transmis, <span class="codeph"> op</span> doit être la chaîne Correspondances constantes. La condition correspond à tout actif associé à la valeur de balise. </li>
-     <li id="li_70F18494AB6C454EB611F51F16C19FAD">If <span class="codeph"> valueArray</span> est transmis, le champ op peut être la constante <span class="codeph"> MatchesAny</span> pour les champs de balise à une ou plusieurs valeurs. A <span class="codeph"> MatchesAny</span> La condition correspond à toute ressource associée à au moins une des valeurs de balise dans <span class="codeph"> valueArray</span>. </li>
-     <li id="li_0B25542D7E964B26B15591C45D5C66D0">Pour les champs de balise à plusieurs valeurs, le champ op peut être défini sur la constante <span class="codeph"> MatchesAll</span> avec le <span class="codeph"> valueArray</span> champ . Dans ce cas, la condition ne correspond qu’aux ressources associées à toutes les valeurs de balise dans <span class="codeph"> valueArray</span> (peut-être en plus des autres valeurs de balise). </li>
+     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5">Si <span class="codeph"> value</span> est transmis, <span class="codeph"> op</span> doit être la chaîne Constantes Correspondances. La condition correspond à tout actif associé à la valeur de balise. </li>
+     <li id="li_70F18494AB6C454EB611F51F16C19FAD">Si <span class="codeph"> valueArray</span> est transmis, le champ op peut être la constante <span class="codeph"> MatchesAny</span> pour les champs de balise à une ou plusieurs valeurs. Une condition <span class="codeph"> MatchesAny</span> correspond à tout actif associé à au moins une des valeurs de balise dans <span class="codeph"> valueArray</span>. </li>
+     <li id="li_0B25542D7E964B26B15591C45D5C66D0">Pour les champs de balise à plusieurs valeurs, le champ op peut être défini sur la constante <span class="codeph"> MatchesAll</span> avec le champ <span class="codeph"> valueArray</span> . Dans ce cas, la condition ne correspond qu’aux ressources associées à toutes les valeurs de balise dans <span class="codeph"> valueArray</span> (peut-être en plus des autres valeurs de balise). </li>
     </ul></td> 
   </tr> 
   <tr> 

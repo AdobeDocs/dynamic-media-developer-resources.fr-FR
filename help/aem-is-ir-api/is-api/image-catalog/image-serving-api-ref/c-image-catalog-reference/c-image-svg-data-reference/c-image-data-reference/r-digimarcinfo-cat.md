@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 87f4d8f0-02b9-4511-9151-89c58116c78d
 source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 13%
+source-wordcount: '243'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ Quatre valeurs entières, séparées par des virgules.
 
 `*`type`*, *`flags`*, *`val1`*, *`val2`*`
 
-`*`type`*` permet l’incorporation de Digimarc et spécifie le type de filigrane :
+`*`type`*` active l’incorporation Digimarc et spécifie le type de filigrane :
 
 <table id="table_3648951F14D94C5BAD097CFB783F1EE7"> 
  <thead> 
@@ -38,11 +38,11 @@ Quatre valeurs entières, séparées par des virgules.
   </tr> 
   <tr> 
    <td> <p><b>1</b> </p> </td> 
-   <td> <p>Basique. </p> </td> 
+   <td> <p>De base. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>2</b> </p> </td> 
-   <td> <p>Identifiant de l’image. </p> </td> 
+   <td> <p>ID d’image. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><b>3</b> </p> </td> 
@@ -60,7 +60,7 @@ Quatre valeurs entières, séparées par des virgules.
 <table id="table_00F218515FBE484F9D05CBAF14F9D045"> 
  <thead> 
   <tr> 
-   <th class="entry"> <p><span class="codeph"> <span class="varname"> flags</span> </span> </p> </th> 
+   <th class="entry"> <p><span class="codeph"> <span class="varname"> indicateurs</span> </span> </p> </th> 
    <th class="entry"> <p><b>Description</b> </p> </th> 
   </tr> 
  </thead>
@@ -100,7 +100,7 @@ Quatre valeurs entières, séparées par des virgules.
  </tbody> 
 </table>
 
-L&#39;interprétation de `*`val1`*` et `*`val2`*` dépendre de `*`type`*`:
+L&#39;interprétation de `*`val1`*` et `*`val2`*` dépend de `*`type`*` :
 
 <table id="table_6B29F76BC1974C12AB7124BF84B29EC2"> 
  <thead> 
@@ -123,7 +123,7 @@ L&#39;interprétation de `*`val1`*` et `*`val2`*` dépendre de `*`type`*`:
   </tr> 
   <tr> 
    <td> <p><b>2</b> </p> </td> 
-   <td> <p>Identifiant de l’image. </p> </td> 
+   <td> <p>ID d’image. </p> </td> 
    <td> <p>Inutilisée. </p> </td> 
   </tr> 
   <tr> 

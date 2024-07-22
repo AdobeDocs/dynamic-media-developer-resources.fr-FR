@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 4748d04e-7f9d-413f-9e9a-a0fad129c5fc
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Le contenu affiché par la visionneuse de vidéos peut être localisé. Ce contenu comprend des info-bulles sur les éléments de l’interface utilisateur et un message d’erreur qui s’affiche lorsque la vidéo ne peut pas être lue.
 
-Chaque contenu textuel de la visionneuse qui peut être localisé est représenté par un identifiant spécial du SDK de la visionneuse appelé SYMBOL. Tout SYMBOL est associé par défaut à une valeur de texte pour le paramètre régional anglais ( `"en"`) fourni avec la visionneuse prête à l’emploi. Il peut également y avoir des valeurs définies par l’utilisateur définies pour autant de paramètres régionaux que nécessaire.
+Chaque contenu textuel de la visionneuse qui peut être localisé est représenté par un identifiant spécial du SDK de la visionneuse appelé SYMBOL. Tout SYMBOL est associé par défaut à une valeur de texte pour le paramètre régional anglais ( `"en"`) fournie avec la visionneuse prête à l’emploi. Il peut également y avoir des valeurs définies par l’utilisateur définies pour autant de paramètres régionaux que nécessaire.
 
 Lorsque la visionneuse démarre, elle vérifie les paramètres régionaux actuels afin de déterminer s’il existe une valeur définie par l’utilisateur pour chaque SYMBOL pris en charge pour le paramètre régional. Si tel est le cas, il utilise la valeur définie par l’utilisateur ; dans le cas contraire, il revient au texte par défaut d’usine.
 
@@ -38,9 +38,9 @@ defaultLocale:"en"
 }
 ```
 
-Dans l’exemple ci-dessus, l’objet de localisation définit deux paramètres régionaux ( `"en"` et `"fr"`) et permet de localiser deux éléments de l’interface utilisateur dans chaque langue.
+Dans l’exemple ci-dessus, l’objet de localisation définit deux paramètres régionaux ( `"en"` et `"fr"`) et permet de localiser deux éléments de l’interface utilisateur dans chaque paramètre régional.
 
-Le code de page web doit transmettre cet objet de localisation au constructeur de visionneuse en tant que valeur de `localizedTexts` de l’objet de configuration. Une autre option consiste à transmettre l’objet de localisation en appelant la fonction `setLocalizedTexts(localizationInfo)` .
+Le code de page web doit transmettre cet objet de localisation au constructeur de la visionneuse en tant que champ de valeur `localizedTexts` de l’objet de configuration. Une autre option consiste à transmettre l’objet de localisation en appelant la méthode `setLocalizedTexts(localizationInfo)`.
 
 Les SYMBOLES suivants sont pris en charge :
 
@@ -86,7 +86,7 @@ Les SYMBOLES suivants sont pris en charge :
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_VOLUME </span> </p> </td> 
-   <td colname="col2"> <p> Étiquette de bouton de réglette de volume exposée par le biais de l’ARIA <span class="codeph"> aria-valuetext </span> attribut. </p> </td> 
+   <td colname="col2"> <p> Libellé du curseur de volume exposé au moyen de l’attribut ARIA <span class="codeph"> aria-valuetext </span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
@@ -213,7 +213,7 @@ Les SYMBOLES suivants sont pris en charge :
    <td colname="col2"> <p>Légende du bouton "Tout sélectionner". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ACTION EmbedShare.TOOLTIP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP ACTION </span> </p> </td> 
    <td colname="col2"> <p>Info-bulle du bouton Tout sélectionner. </p> </td> 
   </tr> 
   <tr> 

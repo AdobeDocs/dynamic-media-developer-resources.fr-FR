@@ -8,7 +8,7 @@ exl-id: c9da3d5b-492d-4e1f-8fdc-3255b2b40fc6
 source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
 workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 4%
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ Paramètre commun à toutes les visionneuses.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>Chemin racine relatif ou absolu de la diffusion d’images. </p> <p> Indique un chemin relatif ou absolu vers le serveur d’images, à partir duquel la visionneuse récupère les images. Si le chemin d’accès ne comporte pas de <span class="filepath"> /</span> de début, il est relatif à l’emplacement de la page HTML de la visionneuse. Si le chemin comporte un <span class="filepath"> /</span> de début, il spécifie un chemin absolu sur le même serveur. </p> <p> Utilisez uniquement un chemin absolu si le module de partage de courrier électronique est activé dans la visionneuse. </p> </td> 
+   <td colname="col2"> <p>Chemin racine relatif ou absolu de la diffusion d’images. </p> <p> Indique un chemin relatif ou absolu vers le serveur d’images, à partir duquel la visionneuse récupère les images. Si le chemin d’accès ne comporte pas de <span class="filepath"> /</span> de début, il est relatif à l’emplacement de la page d’HTML de la visionneuse. Si le chemin comporte un <span class="filepath"> /</span> de début, il spécifie un chemin absolu sur le même serveur. </p> <p> Utilisez uniquement un chemin absolu si le module de partage de courrier électronique est activé dans la visionneuse. </p> </td> 
   </tr> 
  </tbody> 
 </table>

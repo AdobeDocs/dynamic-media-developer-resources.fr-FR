@@ -1,5 +1,5 @@
 ---
-description: Le rendu d’image est incorporé dans le serveur d’images du serveur d’images et [!DNL Platform Server] composants.
+description: Le rendu d’image est incorporé dans les composants Image Server et  [!DNL Platform Server] du serveur d’images.
 solution: Experience Manager
 title: Démarrage et arrêt du serveur
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # Démarrage et arrêt du serveur{#starting-and-stopping-the-server}
 
-Le rendu d’image est incorporé dans le serveur d’images du serveur d’images et [!DNL Platform Server] composants.
+Le rendu d’image est incorporé aux composants Image Server et [!DNL Platform Server] de la diffusion d’images.
 
-Pour plus d’informations, consultez la documentation du serveur d’images .
+Pour plus d’informations, reportez-vous à la documentation du serveur d’images .

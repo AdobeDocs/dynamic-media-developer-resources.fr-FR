@@ -8,7 +8,7 @@ exl-id: d0c3f65e-2dec-4c35-8df4-8d111e81f3f0
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -25,11 +25,11 @@ Appliquez des indicateurs. Spécifie les options de rendu supplémentaires.
  </tr> 
 </table>
 
-Actuellement utilisé uniquement pour les documents de l’armoire.
+Actuellement utilisé uniquement pour les documents du Cabinet.
 
 `flags=0` (par défaut) Rendu des armoires supérieures avec des portes solides.
 
-`flags=1` Rend les armoires supérieures avec des portes en verre (si la vignette a été créée avec des portes en verre).
+`flags=1` Génère des armoires supérieures avec portes en verre (si la vignette a été créée avec des portes en verre).
 
 ## Propriétés {#section-a2b00d7bb15e449ea85178acb92d8285}
 

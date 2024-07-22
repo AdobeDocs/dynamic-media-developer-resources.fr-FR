@@ -8,7 +8,7 @@ exl-id: 11d4c0d0-a3a3-4324-a4a6-1dd7b7e673da
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '77'
-ht-degree: 20%
+ht-degree: 18%
 
 ---
 
@@ -34,7 +34,7 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gérer l’entreprise qui contient l’image que vous souhaitez utiliser. |
+| companyHandle | `xsd:string` | Oui | Gérer l’entreprise qui contient l’image à utiliser. |
 | assetHandle | `xsd:string` | Oui | Gérer la ressource image. |
 
 **Sortie (getPhotoshopPathNamesReturn)**
@@ -45,7 +45,7 @@ Syntaxe
 
 ## Exemples {#section-6d316f14b4184d42af4ca3f717b042dd}
 
-**Request**
+**Requête**
 
 ```java
 <getPhotoshopPathNamesParam xmlns="http://www.scene7.com/IpsApi/xsd/2012-07-31">

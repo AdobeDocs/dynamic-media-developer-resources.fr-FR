@@ -1,20 +1,20 @@
 ---
-description: Informations sur l’utilisateur Digimarc. Spécifie les informations utilisateur pour l’incorporation Digimarc.
+description: Informations utilisateur Digimarc. Spécifie les informations utilisateur pour l’incorporation Digimarc.
 solution: Experience Manager
 title: DigimarcId
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ac09c8cd-cb68-4b70-b1b4-9d4ca0166c7f
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '133'
 ht-degree: 3%
 
 ---
 
 # DigimarcId{#digimarcid}
 
-Informations sur l’utilisateur Digimarc. Spécifie les informations utilisateur pour l’incorporation Digimarc.
+Informations utilisateur Digimarc. Spécifie les informations utilisateur pour l’incorporation Digimarc.
 
 ## Propriétés {#section-1e11a36d9e0b4bf3858c4ab15fe7a272}
 
@@ -22,7 +22,7 @@ Cinq ou six nombres entiers séparés par des virgules. Les troisième et quatri
 
 `creator-id, creator-pin, durability [ , chroma ]`
 
-Les valeurs `creator-id` et `creator-pin` sont fournies par Digimarc lors de l’achat du service. Les valeurs inutilisées doivent rester vides.
+Les `creator-id` et `creator-pin` sont fournis par Digimarc lorsque le service est acheté. Les valeurs inutilisées doivent rester vides.
 
 `durability` spécifie la force d’incorporation du filigrane Digimarc. Elle peut être de 1, 2, 3 ou 4, 1 indiquant la durabilité la plus faible et 4 la plus forte.
 

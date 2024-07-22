@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 9cfeceff-f6bd-42d9-9b85-456bbaa278fd
 source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 1%
+source-wordcount: '298'
+ht-degree: 0%
 
 ---
 
@@ -31,8 +31,8 @@ Le sélecteur de classe CSS suivant contrôle l’aspect du lecteur vidéo :
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
-   <td colname="col2"> <p>Couleur d’arrière-plan de la vue principale. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col2"> <p>Couleur de fond de la vue principale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,7 +49,7 @@ background-color: transparent;
 }
 ```
 
-Les sous-titres codés sont placés dans un conteneur interne du lecteur vidéo. La position de ce conteneur est contrôlée par les opérateurs de positionnement WebVTT pris en charge. Le texte de la légende se trouve à l’intérieur de ce conteneur et son style est contrôlé à l’aide du sélecteur de classe CSS suivant :
+Les sous-titres codés sont placés dans un conteneur interne à l’intérieur du lecteur vidéo. La position de ce conteneur est contrôlée par les opérateurs de positionnement WebVTT pris en charge. Le texte de la légende se trouve à l’intérieur de ce conteneur et son style est contrôlé à l’aide du sélecteur de classe CSS suivant :
 
 `.s7interactivevideoviewer .s7videoplayer .s7caption`
 
@@ -58,7 +58,7 @@ Les sous-titres codés sont placés dans un conteneur interne du lecteur vidéo.
 <table id="table_960E0D4FB91748FF9FC73C925B81879C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-couleur  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
    <td colname="col2"> <p>Arrière-plan du texte de la légende codée. </p> </td> 
   </tr> 
   <tr> 
@@ -66,15 +66,15 @@ Les sous-titres codés sont placés dans un conteneur interne du lecteur vidéo.
    <td colname="col2"> <p>Couleur du texte de la légende de fermeture. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-weight  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-weight </span> </p> </td> 
    <td colname="col2"> <p> Poids de police des sous-titres codés. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-size  </span> </p> </td> 
-   <td colname="col2"> <p> Taille de police de la légende fermée. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-size </span> </p> </td> 
+   <td colname="col2"> <p> Taille de police des sous-titres codés. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-family  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> font-family </span> </p> </td> 
    <td colname="col2"> <p>Police de la légende fermée. </p> </td> 
   </tr> 
  </tbody> 
@@ -119,15 +119,15 @@ L’aspect de l’animation de mise en mémoire tampon est contrôlé à l’aid
    <td colname="col2"> <p> Hauteur de l’icône d’animation. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
    <td colname="col2"> <p> Marge gauche de l’icône d’animation, normalement moins la moitié de la largeur de l’icône. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
    <td colname="col2"> <p> Marge supérieure de l’icône d’animation, normalement moins la moitié de la hauteur de l’icône. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
    <td colname="col2"> <p> Obtenir une illustration. </p> </td> 
   </tr> 
  </tbody> 

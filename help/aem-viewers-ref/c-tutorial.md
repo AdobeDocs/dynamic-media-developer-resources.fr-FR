@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 3a798595-6c65-4a12-983d-3cdc53830d28
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '971'
 ht-degree: 0%
 
 ---
@@ -20,21 +20,21 @@ Par exemple, le SDK fournit un zoom et un panoramique interactifs. Il fournit é
 
 Bien que les composants reposent sur la fonctionnalité HTML5, ils sont conçus pour fonctionner sur les appareils Android™ et Apple iOS, ainsi que sur les ordinateurs de bureau, y compris Internet Explorer et versions ultérieures. Ce type d’expérience signifie que vous pouvez fournir un seul workflow pour toutes les plateformes prises en charge.
 
-Le SDK est constitué de composants d’interface utilisateur qui constituent le contenu de la visionneuse. Vous pouvez mettre en forme ces composants par le biais de CSS et de composants non-UI qui ont un rôle de prise en charge, comme la récupération et l’analyse des définitions ou le suivi. Tous les comportements de composant sont personnalisables au moyen de modificateurs que vous pouvez spécifier de différentes manières, par exemple, comme `name=value` dans l’URL.
+Le SDK est constitué de composants d’interface utilisateur qui constituent le contenu de la visionneuse. Vous pouvez mettre en forme ces composants par le biais de CSS et de composants non-UI qui ont un rôle de prise en charge, comme la récupération et l’analyse des définitions ou le suivi. Tous les comportements de composant sont personnalisables au moyen de modificateurs que vous pouvez spécifier de différentes manières, par exemple sous la forme de paires `name=value` dans l’URL.
 
 Ce tutoriel comprend l’ordre de tâches suivant pour vous aider à créer une visionneuse de zoom de base :
 
 * [Télécharger le dernier SDK de visionneuse à partir de Adobe Developer Connection](c-tutorial.md#section-84dc74c9d8e24a2380b6cf8fc28d7127)
 * [Chargement du SDK de la visionneuse](c-tutorial.md#section-98596c276faf4cf79ccf558a9f4432c6)
-* [Ajout de style à la visionneuse](c-tutorial.md#section-3783125360a1425eae5a5a334867cc32)
+* [Ajout d’un style à votre visionneuse](c-tutorial.md#section-3783125360a1425eae5a5a334867cc32)
 * [Inclusion de Container et ZoomView](c-tutorial.md#section-1a01730663154a508b88cc40c6f35539)
-* [Ajout de composants MediaSet et Nuancier à la visionneuse](c-tutorial.md#section-02b8c21dd842400e83eae2a48ec265b7)
-* [Ajout de boutons à la visionneuse](c-tutorial.md#section-1fc334fa0d2b47eb9cdad461725c07be)
+* [Ajout de composants MediaSet et Swatts à votre visionneuse](c-tutorial.md#section-02b8c21dd842400e83eae2a48ec265b7)
+* [Ajout de boutons à votre visionneuse](c-tutorial.md#section-1fc334fa0d2b47eb9cdad461725c07be)
 * [Configuration verticale des échantillons](c-tutorial.md#section-91a8829d5b5a4d45a35b7faeb097fcc9)
 
 ## Télécharger le dernier SDK de visionneuse à partir de Adobe Developer Connection {#section-84dc74c9d8e24a2380b6cf8fc28d7127}
 
-1. Télécharger le dernier SDK de visionneuse à partir de Adobe Developer Connection <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->.
+1. Téléchargez le dernier SDK de visionneuse à partir de Adobe Developer Connection <!-- SDK NO LONGER AVAILABLE TO DOWNLOAD;DOUBLE CHECK WITH AMIT. THIS ENTIRE TOPIC IS LIKELY OBSOLETE. [here](https://marketing.adobe.com/developer/devcenter/scene7/show) -->.
 
    >[!NOTE]
    >
@@ -44,7 +44,7 @@ Ce tutoriel comprend l’ordre de tâches suivant pour vous aider à créer une 
 
 1. Commencez par configurer une nouvelle page pour développer la visionneuse de zoom de base que vous allez créer.
 
-   Tenez compte de cette nouvelle page dans le code du Bootstrap - ou chargeur - que vous utilisez pour configurer une application SDK vide. Ouvrez votre éditeur de texte favori et collez-y les balises de HTML suivantes :
+   Tenez compte de cette nouvelle page dans le code du Bootstrap - ou chargeur - que vous utilisez pour configurer une application SDK vide. Ouvrez votre éditeur de texte favori et collez-y les balises d’HTML suivantes :
 
    ```html {.line-numbers}
    <!DOCTYPE html> 
@@ -79,7 +79,7 @@ Ce tutoriel comprend l’ordre de tâches suivant pour vous aider à créer une 
    </html>
    ```
 
-   Ajoutez le code JavaScript suivant dans la variable `script` pour initialiser la balise `ParameterManager`. Cela vous permet de vous préparer à créer et à instancier des composants SDK dans `initViewer` function:
+   Ajoutez le code JavaScript suivant dans la balise `script` afin qu’il initialise le `ParameterManager`. Cela vous permet de vous préparer à créer et à instancier des composants SDK dans la fonction `initViewer` :
 
    ```javascript {.line-numbers}
    /* We create a self-running anonymous function to encapsulate variable scope. Placing code inside such 
@@ -123,7 +123,7 @@ Ajoutez maintenant un style à votre visionneuse.
 
 1. Pour cette visionneuse de page complète que vous créez, vous pouvez ajouter des styles de base.
 
-   Ajoutez ce qui suit : `style` au bas du `head`:
+   Ajoutez le bloc `style` suivant au bas de `head` :
 
    ```html {.line-numbers}
    <style> 
@@ -146,9 +146,9 @@ Maintenant, incluez les composants `Container` et `ZoomView`.
 
 ## Inclusion de Container et ZoomView {#section-1a01730663154a508b88cc40c6f35539}
 
-1. Créer une visionneuse réelle en incluant les composants `Container` et `ZoomView`.
+1. Créez une visionneuse réelle en incluant les composants `Container` et `ZoomView`.
 
-   Insérez les éléments suivants `include` au bas de la section `<head>` element—after the [!DNL Utils.js] Le script est chargé :
+   Insérez les instructions `include` suivantes au bas de l’élément `<head>` une fois le script [!DNL Utils.js] chargé :
 
    ```javascript {.line-numbers}
    <!-- 
@@ -163,13 +163,13 @@ Maintenant, incluez les composants `Container` et `ZoomView`.
 
 1. Créez maintenant des variables pour référencer les différents composants du SDK.
 
-   Ajoutez les variables suivantes en haut de la fonction anonyme principale, juste au-dessus `s7sdk.Util.init()`:
+   Ajoutez les variables suivantes en haut de la fonction anonyme principale, juste au-dessus de `s7sdk.Util.init()` :
 
    ```javascript {.line-numbers}
    var container, zoomView;
    ```
 
-1. Insérez les éléments suivants dans la fonction `initViewer` pour que vous puissiez définir des modificateurs et instancier les composants respectifs :
+1. Insérez les éléments suivants dans la fonction `initViewer` afin de pouvoir définir certains modificateurs et instancier les composants respectifs :
 
    ```javascript {.line-numbers}
    /* Modifiers can be added directly to ParameterManager instance */ 
@@ -190,7 +190,7 @@ Maintenant, incluez les composants `Container` et `ZoomView`.
    resizeViewer(container.getWidth(), container.getHeight());
    ```
 
-1. Pour que le code ci-dessus s’exécute correctement, ajoutez une `containerResize` gestionnaire d’événements et fonction d’assistance :
+1. Pour que le code ci-dessus s’exécute correctement, ajoutez un gestionnaire d’événements `containerResize` et une fonction d’assistance :
 
    ```javascript {.line-numbers}
    /* Event handler for s7sdk.event.ResizeEvent.COMPONENT_RESIZE events dispatched by Container to resize 
@@ -207,13 +207,13 @@ Maintenant, incluez les composants `Container` et `ZoomView`.
 
 1. Prévisualisez la page pour voir ce que vous avez créé. Votre page doit se présenter comme suit :
 
-   ![Exemple de visionneuse pour une image](assets/viewer-1.jpg)
+   ![Exemple de visionneuse d’une image](assets/viewer-1.jpg)
 
-Ajoutez maintenant les composants. `MediaSet` et `Swatches` à votre visionneuse.
+Ajoutez maintenant les composants `MediaSet` et `Swatches` à votre visionneuse.
 
 ## Ajout de composants MediaSet et Nuancier à la visionneuse {#section-02b8c21dd842400e83eae2a48ec265b7}
 
-1. Pour permettre aux utilisateurs de sélectionner des images à partir d’une visionneuse, vous pouvez ajouter des composants. `MediaSet` et `Swatches`.
+1. Pour permettre aux utilisateurs de sélectionner des images à partir d’un ensemble, vous pouvez ajouter les composants `MediaSet` et `Swatches`.
 
    Ajoutez le SDK suivant :
 
@@ -228,9 +228,9 @@ Ajoutez maintenant les composants. `MediaSet` et `Swatches` à votre visionneuse
    var mediaSet, container, zoomView, swatches;
    ```
 
-1. Instanciation `MediaSet` et `Swatches` composants dans la `initViewer` de la fonction
+1. Instanciez les composants `MediaSet` et `Swatches` dans la fonction `initViewer`.
 
-   Veillez à instancier la variable `Swatches` après l’instance `ZoomView` et `Container` , sinon l’ordre d’empilement masque la variable `Swatches`:
+   Veillez à instancier l’instance `Swatches` après les composants `ZoomView` et `Container`, sinon l’ordre d’empilement masque le `Swatches` :
 
    ```javascript {.line-numbers}
    // Create MediaSet to manage assets and add event listener to the NOTF_SET_PARSED event 
@@ -266,7 +266,7 @@ Ajoutez maintenant les composants. `MediaSet` et `Swatches` à votre visionneuse
    }
    ```
 
-1. Positionnez les échantillons au bas de la visionneuse en ajoutant le CSS suivant à la `style` element:
+1. Positionnez les échantillons au bas de la visionneuse en ajoutant le CSS suivant à l’élément `style` :
 
    ```CSS {.line-numbers}
    /* Align swatches to bottom of viewer */ 
@@ -280,7 +280,7 @@ Ajoutez maintenant les composants. `MediaSet` et `Swatches` à votre visionneuse
 
 1. Prévisualisez votre visionneuse.
 
-   Notez que les échantillons se trouvent dans le coin inférieur gauche de la visionneuse. Pour que les échantillons prennent toute la largeur de la visionneuse, ajoutez un appel pour redimensionner manuellement les échantillons chaque fois que l’utilisateur redimensionne son navigateur. Ajoutez ce qui suit au `resizeViewer` function:
+   Notez que les échantillons se trouvent dans le coin inférieur gauche de la visionneuse. Pour que les échantillons prennent toute la largeur de la visionneuse, ajoutez un appel pour redimensionner manuellement les échantillons chaque fois que l’utilisateur redimensionne son navigateur. Ajoutez le code suivant à la fonction `resizeViewer` :
 
    ```javascript {.line-numbers}
    swatches.resize(width, swatches.getHeight());
@@ -308,9 +308,9 @@ Ajoutez maintenant des boutons de zoom avant, de zoom arrière et de réinitiali
    var mediaSet, container, zoomView, swatches, zoomInButton, zoomOutButton, zoomResetButton;
    ```
 
-1. Instanciation des boutons en bas de page `initViewer` de la fonction
+1. Instanciation des boutons au bas de la fonction `initViewer`.
 
-   N’oubliez pas que l’ordre est important, sauf si vous spécifiez la variable `z-index` dans CSS :
+   N’oubliez pas que l’ordre est important, sauf si vous spécifiez le `z-index` dans CSS :
 
    ```CSS {.line-numbers}
    /* Create Zoom In, Zoom Out and Zoom Reset buttons */ 
@@ -324,7 +324,7 @@ Ajoutez maintenant des boutons de zoom avant, de zoom arrière et de réinitiali
    zoomResetButton.addEventListener("click", function() { zoomView.zoomReset(); });
    ```
 
-1. Définissez maintenant certains styles de base pour les boutons en ajoutant ce qui suit au `style` bloquez en haut de votre fichier :
+1. Définissez maintenant quelques styles de base pour les boutons en ajoutant le code suivant au bloc `style` situé en haut de votre fichier :
 
    ```CSS {.line-numbers}
    /* define styles common to all button components and their sub-classes */ 
@@ -358,21 +358,21 @@ Ajoutez maintenant des boutons de zoom avant, de zoom arrière et de réinitiali
 
 ## Configuration verticale des échantillons {#section-91a8829d5b5a4d45a35b7faeb097fcc9}
 
-1. Vous pouvez configurer les modificateurs directement sur la page `ParameterManager` instance.
+1. Vous pouvez configurer des modificateurs directement sur l’instance `ParameterManager`.
 
-   Ajoutez ce qui suit en haut de la page `initViewer` pour configurer la fonction `Swatches` mise en page de miniature en une seule ligne :
+   Ajoutez le code suivant en haut de la fonction `initViewer` afin de pouvoir configurer la disposition de la miniature `Swatches` en une seule ligne :
 
    ```javascript {.line-numbers}
    params.push("Swatches.tmblayout", "1,0");
    ```
 
-1. Mettez à jour l’appel de redimensionnement suivant dans `resizeViewer`:
+1. Mettez à jour l’appel de redimensionnement suivant dans `resizeViewer` :
 
    ```javascript {.line-numbers}
    swatches.resize(swatches.getWidth(), height);
    ```
 
-1. Modifiez ce qui suit : `s7swatches` règle dans `ZoomViewer.css`:
+1. Modifiez la règle `s7swatches` suivante dans `ZoomViewer.css` :
 
    ```CSS {.line-numbers}
    .s7swatches { 
@@ -385,7 +385,7 @@ Ajoutez maintenant des boutons de zoom avant, de zoom arrière et de réinitiali
 
 1. Prévisualisez votre visionneuse. Il ressemble à ce qui suit :
 
-   ![Exemple de visualisation de quatre images](assets/viewer-4.jpg)
+   ![Exemple de visionneuse quatre images](assets/viewer-4.jpg)
 
    La visionneuse de zoom de base est maintenant terminée.
 

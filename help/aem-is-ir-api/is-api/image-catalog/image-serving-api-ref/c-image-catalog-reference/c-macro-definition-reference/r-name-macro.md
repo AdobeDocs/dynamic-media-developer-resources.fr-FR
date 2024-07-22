@@ -2,13 +2,13 @@
 description: Nom de la macro.
 solution: Experience Manager
 title: Nom
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 054dbbff-0989-4fa2-8a44-e6d3ee9e5ec9
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 13%
+source-wordcount: '40'
+ht-degree: 10%
 
 ---
 

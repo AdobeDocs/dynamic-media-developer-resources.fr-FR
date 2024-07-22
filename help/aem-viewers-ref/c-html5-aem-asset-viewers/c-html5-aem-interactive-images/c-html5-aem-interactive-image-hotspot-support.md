@@ -26,4 +26,4 @@ Ces types de zones réactives doivent être créés à l’aide du type d’acti
 
 ## Redirection vers une page web externe {#section-ef820c71251e4215800bb99c0c9ebe16}
 
-Les zones réactives créées pour le type d’action &quot;Aperçu rapide&quot; dans Dynamic Media des ressources du Experience Manager - On-demand redirige l’utilisateur vers une URL externe. Selon les paramètres définis lors de la création, l’URL s’ouvre dans un nouvel onglet du navigateur, dans la même fenêtre ou dans la fenêtre du navigateur nommé.
+Zones réactives créées pour le type d’action &quot;Aperçu rapide&quot; dans Dynamic Media of Experience Manager Assets : l’utilisateur est redirigé vers une URL externe. Selon les paramètres définis lors de la création, l’URL s’ouvre dans un nouvel onglet du navigateur, dans la même fenêtre ou dans la fenêtre du navigateur nommé.

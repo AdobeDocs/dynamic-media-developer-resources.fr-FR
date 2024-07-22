@@ -27,8 +27,8 @@ Voir aussi [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> videoUrl  </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> Chaîne</span>} : URL absolue vers la nouvelle vidéo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> videoUrl </span> </p> </td> 
+   <td colname="col2"> <p>{<span class="codeph"> String</span>} : URL absolue vers la nouvelle vidéo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

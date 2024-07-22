@@ -22,5 +22,5 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| name | `xsd:string` | Nom de l’attribut. |
+| nom | `xsd:string` | Nom de l’attribut. |
 | valeur | `xsd:string` | Valeur d’attribut. |

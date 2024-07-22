@@ -8,7 +8,7 @@ exl-id: a8bc6fcc-fb94-4bc2-83b7-76788db15f3e
 source-git-commit: 72f9cd1b1de82cbeeb8d41fb0f1cf0b51744a8a3
 workflow-type: tm+mt
 source-wordcount: '225'
-ht-degree: 4%
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 4%
 + [ActiveJob](r-active-job.md)
 + [ActiveJobArray](r-active-job-array.md)
 + [AnimatedGifInfo](r-animatedgifinfo.md)
-+ [Fichier](r-asset.md)
++ [Ressource](r-asset.md)
 + [AssetArray](r-asset-array.md)
 + [AssetContextStateUpdate](r-asset-context-state-update.md)
 + [AssetContextStateUpdateArray](r-asset-context-state-update-array.md)
@@ -46,7 +46,7 @@ ht-degree: 4%
 + [BatchMetadataUpdateArray](r-batch-metadata-update-array.md)
 + [CabinetInfo](r-cabinet-info.md)
 + [ColorManagementOptions](r-color-management-options.md)
-+ [Entreprise](r-company.md)
++ [Société](r-company.md)
 + [CompanyArray](r-company-array.md)
 + [CompanyMember](r-company-member.md)
 + [CompanyMemberArray](r-company-member-array.md)
@@ -95,7 +95,7 @@ ht-degree: 4%
 + [ImageFormat](r-image-format.md)
 + [ImageFormatArray](r-image-format-array.md)
 + [ImageInfo](r-image-info.md)
-+ [Zone cliquable](r-image-map.md)
++ [ImageMap](r-image-map.md)
 + [ImageMapArray](r-image-map-array.md)
 + [ImageMapDefinition](r-image-map-definition.md)
 + [ImageMapDefinitionArray](r-image-map-definition-array.md)
@@ -229,7 +229,7 @@ ht-degree: 4%
 + [ZipEntry](r-zip-entry.md)
 + [ZipEntryArray](r-zip-entry-array.md)
 + [ZipInfo](r-zip-info.md)
-+ [Cible de zoom](r-zoom-target.md)
++ [ZoomTarget](r-zoom-target.md)
 + [ZoomTargetArray](r-zoom-target-array.md)
 + [ZoomTargetDefinition](r-zoom-target-definition.md)
 + [ZoomTargetDefinitionArray](r-zoom-target-definition-array.md)

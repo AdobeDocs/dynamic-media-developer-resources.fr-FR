@@ -8,7 +8,7 @@ exl-id: bbe6a664-b6e1-4b46-867d-a134070b13da
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '85'
-ht-degree: 15%
+ht-degree: 12%
 
 ---
 
@@ -37,7 +37,7 @@ Syntaxe
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | setHandle | `xsd:string` | Oui | Gérez sur le jeu de propriétés. |
-| replaceProperties | `xsd:string` | Non | Définissez sur . `true` pour remplacer les propriétés. |
+| replaceProperties | `xsd:string` | Non | Définissez cette variable sur `true` pour remplacer les propriétés. |
 | propertyArray | `types:PropertyArray` | Oui | Tableau des propriétés mises à jour pour le jeu de propriétés. |
 
 **Sortie (updatePropertySetReturn)**
@@ -48,7 +48,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 Cet exemple de code met à jour un jeu de propriétés avec des propriétés dans le tableau de propriétés.
 
-**Request**
+**Requête**
 
 ```java
 <updatePropertySetParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

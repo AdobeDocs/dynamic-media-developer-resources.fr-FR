@@ -7,8 +7,8 @@ role: Developer,Admin,User
 exl-id: fe1fc984-3c6b-4bd1-b5ba-630860ac7319
 source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 1%
+source-wordcount: '405'
+ht-degree: 0%
 
 ---
 
@@ -18,11 +18,11 @@ Utilisez ces paramètres de serveur pour déboguer la journalisation de trace.
 
 >[!NOTE]
 >
->Adobe recommande de configurer tous les fichiers journaux à écrire dans le même dossier que `TC::directory`. Cela permet de s’assurer que tous les fichiers journaux du serveur d’images participent à la rotation automatique des fichiers journaux configurée avec `TC::maxDays`, qui empêche l’instabilité potentielle du serveur en raison de conditions d’espace disque hors disque.
+>Adobe recommande de configurer tous les fichiers journaux à écrire dans le même dossier que `TC::directory`. Cela permet de s’assurer que tous les fichiers journaux du serveur d’images participent à la rotation automatique des fichiers journaux configurée avec `TC::maxDays`, ce qui empêche toute instabilité potentielle du serveur en raison de conditions d’espace disque indisponibles.
 
 ## SV::log - Chemin du fichier journal de suivi du superviseur du serveur {#section-3697bc480ff646e79cacc2812c55ef26}
 
-Nom du dossier et du fichier de base pour les fichiers journaux du responsable du serveur. Le chemin peut être absolu ou relatif à *[!DNL install_folder]*. Le responsable du serveur ajoute un trait d’union et la date courante ( *[!DNL -yyyy-mm-dd]*) au nom du fichier (avant le suffixe du fichier, le cas échéant). Adobe recommande d’envoyer tous les fichiers journaux dans le même dossier que [!DNL Platform Server] fichiers journaux ( `PS::LogFolder`) pour utiliser la gestion des fichiers journaux implémentée par [!DNL Platform Server] (`PS::LogDays`). The default is [!DNL logs/Supervisor.log].
+Nom du dossier et du fichier de base pour les fichiers journaux du responsable du serveur. Le chemin peut être absolu ou relatif à *[!DNL install_folder]*. Le responsable du serveur ajoute un trait d’union et la date courante ( *[!DNL -yyyy-mm-dd]*) au nom du fichier (avant le suffixe du fichier, le cas échéant). Adobe recommande d&#39;envoyer tous les fichiers journaux dans le même dossier que les fichiers journaux [!DNL Platform Server] ( `PS::LogFolder`) pour utiliser la gestion des fichiers journaux implémentée par [!DNL Platform Server] (`PS::LogDays`). La valeur par défaut est [!DNL logs/Supervisor.log].
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Le niveau de journal peut être 1, 2, 3 ou 4. La valeur par défaut est de 2.
 
 ## IS::Log - Chemin du fichier journal du débogage du serveur d’images {#section-73a3f09b77f2446c9f82207b7d8aec39}
 
-Nom du dossier et du fichier de base pour les fichiers journaux de suivi du serveur d’images. Le chemin peut être absolu ou relatif à *[!DNL install_folder]*. ImageServer ajoute un trait d’union et la date courante ( *[!DNL -yyyy-mm-dd]*) au nom du fichier (avant le suffixe du fichier, le cas échéant). Adobe recommande d’envoyer les fichiers journaux du serveur d’images dans le même dossier que [!DNL Platform Server] fichiers journaux ( `PS::LogFolder`) pour utiliser la gestion des fichiers journaux implémentée par le [!DNL Platform Server] (voir `PS::LogDays`).
+Nom du dossier et du fichier de base pour les fichiers journaux de suivi du serveur d’images. Le chemin peut être absolu ou relatif à *[!DNL install_folder]*. ImageServer ajoute un trait d’union et la date courante ( *[!DNL -yyyy-mm-dd]*) au nom du fichier (avant le suffixe du fichier, le cas échéant). Adobe recommande d&#39;envoyer les fichiers journaux du serveur d&#39;images dans le même dossier que les fichiers journaux [!DNL Platform Server] ( `PS::LogFolder`) pour utiliser la gestion des fichiers journaux implémentée par [!DNL Platform Server] (voir `PS::LogDays`).
 
 >[!NOTE]
 >
@@ -44,13 +44,13 @@ Nom du dossier et du fichier de base pour les fichiers journaux de suivi du serv
 
 Le niveau de journalisation peut être 1, 2, 3 ou 4 (la valeur par défaut est 2).
 
-Niveau 1 consigne les événements liés au démarrage, à l’arrêt et [!DNL Platform Server] connexions.
+Le niveau 1 consigne les événements liés au démarrage, à l’arrêt et aux connexions [!DNL Platform Server].
 
 Le niveau 2 consigne également la connexion et la déconnexion des images sources.
 
-Le niveau 3 ajoute la journalisation des requêtes pour les données de pixel et la diffusion de la même sur le [!DNL Platform Server].
+Le niveau 3 ajoute la journalisation des requêtes pour les données de pixel et la diffusion de la même sur [!DNL Platform Server].
 
-Le niveau 4 enregistre tous les messages reçus du [!DNL Platform Server].
+Le niveau 4 enregistre tous les messages reçus de [!DNL Platform Server].
 
 Les niveaux 3 et 4 ne doivent être utilisés qu’à des fins de débogage, car les fichiers journaux peuvent devenir volumineux.
 

@@ -24,13 +24,13 @@ Voir aussi [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewe
 
 ## Paramètres {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`ressource`*` - { `String`} nouvel ID de ressource ou jeu de médias mixtes explicite, avec les modificateurs de diffusion d’images facultatifs ajoutés après `?`.
+`*`asset`*` - { `String` nouvel identifiant de ressource ou jeu de médias mixtes explicite, avec les modificateurs de diffusion d’images facultatifs ajoutés après `?`.
 
 Les images qui utilisent IR (Image Rendering) ou UGC (User-Generated Content) ne sont pas prises en charge par cette visionneuse.
 
-`*`data`*` - { `JSON`} emplacement du nouveau fichier de sous-titres.
+`*`data`*` - { `JSON` emplacement du nouveau fichier de sous-titres.
 
-Si elle n’est pas spécifiée, le bouton de légende n’est pas visible dans l’interface utilisateur. Les sous-titres spécifiés avec ce paramètre s’appliquent à la vidéo qui apparaît en premier dans la visionneuse de supports variés ; les vidéos suivantes sont lues sans légende. Cette visionneuse prend en charge les identifiants de composant suivants :
+Si elle n’est pas spécifiée, le bouton de légende n’est pas visible dans l’interface utilisateur. Les sous-titres spécifiés avec ce paramètre s’appliquent à la vidéo qui apparaît en premier dans la visionneuse de supports variés ; les vidéos suivantes sont lues sans sous-titres. Cette visionneuse prend en charge les identifiants de composant suivants :
 
 <table id="table_7B5DD9303EF44ADD847B13FFEAD135D9"> 
  <thead> 
@@ -45,7 +45,7 @@ Si elle n’est pas spécifiée, le bouton de légende n’est pas visible dans 
    <td colname="col2"> <p>Image à afficher sur la première image avant le début de la lecture de la vidéo. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-posterimage.md#reference-f424ad0f278b4d14b86ea55e3a73c52b" format="dita" scope="local"> VideoPlayer.posterimage </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> caption </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> légende </span> </p> </td> 
    <td colname="col2"> <p> Emplacement du nouveau fichier de sous-titres. </p> <p>Si elle n’est pas spécifiée, le bouton de légende n’est pas visible dans l’interface utilisateur. Les sous-titres spécifiés avec ce paramètre s’appliquent à la vidéo qui arrive en premier dans la visionneuse de médias. Les vidéos suivantes sont lues sans légende. </p> </td> 
   </tr> 
  </tbody> 

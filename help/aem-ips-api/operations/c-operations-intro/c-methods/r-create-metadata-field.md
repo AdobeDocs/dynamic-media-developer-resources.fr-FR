@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: eac7fa54-ebe2-4f42-a478-d9a6fb54d1b6
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 13%
+source-wordcount: '285'
+ht-degree: 6%
 
 ---
 
@@ -46,7 +46,7 @@ Syntaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetType</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Type de fichier. </td> 
+   <td colname="col4"> Type de ressource. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> name</span> </span> </td> 
@@ -97,7 +97,7 @@ Syntaxe
 
 Cet exemple de code crée un champ de métadonnées de type chaîne appelé `createMetadataField`. La réponse renvoie la poignée au nouveau champ de métadonnées.
 
-**Request**
+**Requête**
 
 ```java
 <createMetadataFieldParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

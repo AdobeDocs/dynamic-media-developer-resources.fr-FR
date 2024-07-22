@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 0ad8f4b4-dd9c-43f5-aacc-67a564e34d92
 source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 25%
+source-wordcount: '576'
+ht-degree: 18%
 
 ---
 
@@ -18,9 +18,9 @@ L’outil de création de vignettes (qui fait partie du module de création d’
 
 >[!NOTE]
 >
->Les paramètres de rendu sont une fonctionnalité avancée de rendu d’image et de création d’images. Contactez le support technique d’Adobe ou votre représentant de conseil Adobe pour la formation, la consultation ou les deux, sur l’utilisation des paramètres de rendu.
+>Les paramètres de rendu sont une fonctionnalité avancée de rendu d’image et de création d’images. Contactez l’assistance technique d’Adobe ou votre représentant-conseil d’Adobe pour la formation, la consultation ou les deux, sur l’utilisation des paramètres de rendu.
 
-Ces paramètres sont contrôlés de manière interactive dans la création d’images. Il est possible d’appliquer les mêmes paramètres dans le rendu d’image à l’aide de la variable `rs=` (ou avec la fonction `catalog::RenderSettings` ). Ce mécanisme permet de sélectionner différentes options d’accentuation pour chaque matériau et de modifier le comportement des algorithmes de rendu de l’éclairage, comme la saturation des surbrillances ou le contraste des ombres.
+Ces paramètres sont contrôlés de manière interactive dans la création d’images. Il est possible d&#39;appliquer les mêmes paramètres dans le rendu d&#39;image à l&#39;aide de la commande `rs=` (ou avec la valeur `catalog::RenderSettings`). Ce mécanisme permet de sélectionner différentes options d’accentuation pour chaque matériau et de modifier le comportement des algorithmes de rendu de l’éclairage, comme la saturation des surbrillances ou le contraste des ombres.
 
 ## Valeurs du paramètre de rendu avancé (rs=) {#section-d9e7f341ebd44f07a4e90f1f5910726b}
 
@@ -101,45 +101,45 @@ Ces paramètres sont contrôlés de manière interactive dans la création d’i
   </tr> 
   <tr> 
    <td colname="col1"> <p>T </p> </td> 
-   <td colname="col2"> <p>Supersampling : Aléatoire. </p> </td> 
+   <td colname="col2"> <p>Supersampling : aléatoire. </p> </td> 
    <td colname="col3"> <p>01 </p> </td> 
    <td colname="col4"> <p>200 </p> </td> 
-   <td colname="col5"> <p>Valeur par défaut : 0. </p> </td> 
+   <td colname="col5"> <p>Par défaut : 0. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
-   <td colname="col2"> <p>Supersampling : Taux aléatoire. </p> </td> 
+   <td colname="col2"> <p>Suréchantillonnage : taux aléatoire. </p> </td> 
    <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>20 </p> </td> 
-   <td colname="col5"> <p>Valeur par défaut : 5. </p> </td> 
+   <td colname="col5"> <p>Par défaut : 5. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>M </p> </td> 
-   <td colname="col2"> <p>Redimensionnement adaptatif : Profondeur. </p> </td> 
+   <td colname="col2"> <p>Redimensionnement adaptatif : profondeur. </p> </td> 
    <td colname="col3"> <p>4 </p> </td> 
    <td colname="col4"> <p>8 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>N </p> </td> 
-   <td colname="col2"> <p>Redimensionnement adaptatif : Largeur. </p> </td> 
+   <td colname="col2"> <p>Redimensionnement adaptatif : largeur. </p> </td> 
    <td colname="col3"> <p>2 </p> </td> 
    <td colname="col4"> <p>10 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>P </p> </td> 
-   <td colname="col2"> <p>Poisson : Exemples/pixels. </p> </td> 
+   <td colname="col2"> <p>Poisson : Exemples/Pixels. </p> </td> 
    <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>4 </p> </td> 
-   <td colname="col5"> <p>Valeur par défaut : 1. </p> </td> 
+   <td colname="col5"> <p>Par défaut : 1. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>O </p> </td> 
-   <td colname="col2"> <p>Poisson : Utilisez le bouton bascule. </p> </td> 
+   <td colname="col2"> <p>Poisson : utilisez toggle. </p> </td> 
    <td colname="col3"> <p>01 </p> </td> 
    <td colname="col4"> <p>1 </p> </td> 
-   <td colname="col5"> <p>Valeur par défaut : 1. </p> </td> 
+   <td colname="col5"> <p>Par défaut : 1. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -157,7 +157,7 @@ Ces paramètres sont contrôlés de manière interactive dans la création d’i
   </tr> 
   <tr> 
    <td colname="col1"> <p>I </p> </td> 
-   <td colname="col2"> <p>Points saillants. </p> </td> 
+   <td colname="col2"> <p>Les faits saillants. </p> </td> 
    <td colname="col3"> <p>01 </p> </td> 
    <td colname="col4"> <p>100 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
@@ -216,11 +216,11 @@ Ces paramètres sont contrôlés de manière interactive dans la création d’i
    <td colname="col2"> <p>Contraste de base. </p> </td> 
    <td colname="col3"> <p>01 </p> </td> 
    <td colname="col4"> <p>100 </p> </td> 
-   <td colname="col5"> <p>Valeur par défaut : 50. </p> </td> 
+   <td colname="col5"> <p>Par défaut : 50. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>a </p> </td> 
-   <td colname="col2"> <p>Inconvénient de la luminosité. </p> </td> 
+   <td colname="col2"> <p>Ingestion de la luminosité. </p> </td> 
    <td colname="col3"> <p>01 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
    <td colname="col5"> <p>Format différent : a36.207.136.177.xx </p> </td> 
@@ -272,7 +272,7 @@ Ces paramètres sont contrôlés de manière interactive dans la création d’i
    <td colname="col2"> <p>Changement de couleur de l'ombre. </p> </td> 
    <td colname="col3"> <p>01 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
-   <td colname="col5"> <p>Format différent : u8.1.2.3.4.5.6.7.8.s8.1.2.3.4.5.6.7.8. </p> </td> 
+   <td colname="col5"> <p>Format différent : u8.1.2.3.4.5.6.8.s8.1.2.3.4.5.6.7.8. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>v &amp; t </p> </td> 
@@ -316,7 +316,7 @@ Ces paramètres sont contrôlés de manière interactive dans la création d’i
       <li id="li_8EC075956E2E4D5A91355122DC9BC938">H60 = Tons foncés pour les matériaux brillants (50-100). </li> 
       <li id="li_F760B65E057146A7B56673D6B1A9A304">I30 = Principales (0 à 100). </li> 
       <li id="li_376C275FDB3548958C09BD266C77318F">J10 = saturation des lumières (0 à 50). </li> 
-      <li id="li_FE26429972F544869CDFE2DD61F39CC5">K200 = saturation des ombres (0 à 400). </li> 
+      <li id="li_FE26429972F544869CDFE2DD61F39CC5">K200 = saturation de l’ombre (0 à 400). </li> 
       <li id="li_FB6BAA708427428AA4A3AC2E5D3B9932">L400 = intensité d’extrapolation basée sur la perte (100 à 600). </li> 
       <li id="li_6B2EEEE7F0D54E078462AAFC4E4FAB42">U1 = USM (masquage flou) (0-2). </li> 
       <li id="li_7CD4E3662A6C48F9B5895D133D28BA2A">V10 = rayon USM (1 à 100 pixels). </li> 

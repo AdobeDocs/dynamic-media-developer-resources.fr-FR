@@ -1,18 +1,18 @@
 ---
-description: getVignettePublishFormats
+description: getVideoPublishFormats
 solution: Experience Manager
-title: getVignettePublishFormats
+title: getVideoPublishFormats
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6e56d68e-b5cf-4044-9c58-f8221fa4490f
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '61'
-ht-degree: 24%
+ht-degree: 21%
 
 ---
 
-# getVignettePublishFormats{#getvignettepublishformats}
+# getVideoPublishFormats{#getvignettepublishformats}
 
 Syntaxe
 
@@ -41,7 +41,7 @@ Syntaxe
 
 Cet exemple de code renvoie deux formats de publication de vignettes associés à une société spécifique. Les informations sont renvoyées dans un tableau, qui est tronqué pour plus de concision.
 
-**Request**
+**Requête**
 
 ```java
 <getVignettePublishFormatsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

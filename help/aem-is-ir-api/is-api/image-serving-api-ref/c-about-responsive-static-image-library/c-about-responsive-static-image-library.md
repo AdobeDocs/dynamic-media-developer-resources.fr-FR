@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: f853b9b4-917c-4744-b2a5-25fde2532356
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '804'
 ht-degree: 0%
 
 ---
@@ -57,18 +57,18 @@ Le cas d’utilisation le plus simple de la bibliothèque d’images réactives 
    <td colname="col01"> <p>5 </p> </td> 
    <td colname="col1"> <p> <a href="https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/template.html" format="https" scope="external"> https://experienceleague.adobe.com/tools/dynamic-media-demo/is-api/template.html </a> </p> <p> 
      <!--http://sasha.s7qa.com/jira-bugs/S7-7729/template.html--> </p> </td> 
-   <td colname="col2"> <p>Vous pouvez également utiliser des commandes de diffusion d’images avec des modèles de diffusion d’images pour contrôler certains paramètres de modèle en fonction de la taille de l’image. Dans l’exemple suivant, un modèle de diffusion d’images est utilisé. La taille de police de la superposition de texte est paramétrée à l’aide de <span class="codeph"> $fontsize </span> . L’image réactive est configurée de manière à utiliser une taille de police plus grande pour les images plus petites afin de s’assurer que le texte reste toujours lisible : </p> </td> 
+   <td colname="col2"> <p>Vous pouvez également utiliser des commandes de diffusion d’images avec des modèles de diffusion d’images pour contrôler certains paramètres de modèle en fonction de la taille de l’image. Dans cet exemple suivant, un modèle de serveur d’images est utilisé, où la taille de police de la superposition de texte est paramétrée à l’aide du paramètre <span class="codeph"> $fontsize </span> . L’image réactive est configurée de manière à utiliser une taille de police plus grande pour les images plus petites afin de s’assurer que le texte reste toujours lisible : </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Configuration système requise {#section-35ea9e9c79cc43d7bcefdc240340fba4}
 
-**Matériel et logiciels du serveur**
+**Matériel et logiciel du serveur**
 
 * Dynamic Media Image Serving 6.0.1 ou version ultérieure.
 
-**Configuration requise du navigateur client**
+**Configuration requise minimale du navigateur client**
 
 * Microsoft® Windows® 7 ou version ultérieure ; macOS X 10.8 ou version ultérieure.
 * Firefox 23, Safari 6, Chrome 29, IE 9 ou version ultérieure.

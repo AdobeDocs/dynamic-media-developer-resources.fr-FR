@@ -8,7 +8,7 @@ exl-id: 0a355a34-1c2d-48c1-ba12-7d07d1673d09
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -26,7 +26,7 @@ Syntaxe
 
 ## Paramètres {#section-6aeda13b26af4796aad1306ac7a9ad17}
 
-**Entrée (setGroupMembershipParam)**
+**Input (setGroupMembershipParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -42,7 +42,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 Cet exemple de code fait de l’utilisateur un membre d’un groupe. Ajoutez un utilisateur à plusieurs groupes à l’aide du tableau de gestion des groupes.
 
-**Request**
+**Requête**
 
 ```java
 <ns1:setGroupMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

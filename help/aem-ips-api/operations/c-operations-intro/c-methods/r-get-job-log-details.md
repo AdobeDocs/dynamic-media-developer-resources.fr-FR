@@ -7,8 +7,8 @@ role: Developer,Admin
 exl-id: d2e4eea6-041b-4a80-beda-cbb8d74cd50b
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 18%
+source-wordcount: '216'
+ht-degree: 11%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 18%
 
 Obtient les détails d’un journal des tâches de l’entreprise.
 
-Le `logMessage` le champ de réponse est localisé en fonction des `authHeader` `locale` champ .
+Le champ de réponse `logMessage` est localisé en fonction du champ `authHeader` `locale` .
 
 ## Types d’utilisateurs autorisés {#section-6f720a7baad64eb3805868c88af9a960}
 
@@ -53,7 +53,7 @@ Le `logMessage` le champ de réponse est localisé en fonction des `authHeader` 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> Gestion d’une tâche principale ou terminée. </td> 
+   <td colname="col4"> Gestion d’une tâche active ou terminée. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
@@ -71,13 +71,13 @@ Le `logMessage` le champ de réponse est localisé en fonction des `authHeader` 
    <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4">Nombre maximal de <span class="codeph"> detailArray</span> éléments à renvoyer. La valeur maximale et la valeur par défaut sont 1 000. </td> 
+   <td colname="col4">Nombre maximal d’éléments <span class="codeph"> detailArray</span> à renvoyer. La valeur maximale et la valeur par défaut sont 1 000. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4">Numéro de page de <span class="codeph"> recordsPerPage</span>- résultats à renvoyer. La valeur par défaut est 1. </td> 
+   <td colname="col4">Numéro de page de <span class="codeph"> recordsPerPage</span>-results à renvoyer. La valeur par défaut est 1. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
@@ -89,7 +89,7 @@ Le `logMessage` le champ de réponse est localisé en fonction des `authHeader` 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortDirection</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> <p>Une des constantes de chaîne Sort Direction . La valeur par défaut est ascendante. </p> </td> 
+   <td colname="col4"> <p>Une des constantes de chaîne Sort Direction . La valeur par défaut est croissant. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -104,7 +104,7 @@ Le `logMessage` le champ de réponse est localisé en fonction des `authHeader` 
 
 Cet exemple de code renvoie tous les détails du journal des tâches d’une société spécifique. Le premier tableau contient les détails standard du journal des tâches. Un tableau incorporé renvoie des informations supplémentaires sur la tâche.
 
-**Request**
+**Requête**
 
 ```java
 <ns1:getJobLogDetailsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

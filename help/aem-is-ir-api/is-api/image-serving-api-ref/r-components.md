@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 67dd37f3-b11e-42d6-b308-7c1e76a8f2a9
 source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 2%
+source-wordcount: '204'
+ht-degree: 1%
 
 ---
 
@@ -42,7 +42,7 @@ Dynamic Media Image Serving se compose des composants suivants :
   </tr> 
   <tr> 
    <td colname="col1"> <p>Service de mise en cache </p> </td> 
-   <td colname="col2"> <p>Application J2EE. Gère la variable [!DNL Platform Server]des caches de données de . Accès HTTP à /is/cache. </p> </td> 
+   <td colname="col2"> <p>Application J2EE. Gère les caches de données de [!DNL Platform Server]. Accès HTTP à /is/cache. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Image Server </p> </td> 
@@ -50,7 +50,7 @@ Dynamic Media Image Serving se compose des composants suivants :
   </tr> 
   <tr> 
    <td colname="col1"> <p>Composant de rendu de texte ATE </p> </td> 
-   <td colname="col2"> <p>Une ou plusieurs instances du service de rendu de texte peuvent être actives lorsque <span class="codeph"> textPs=</span> Les opérations sont exécutées. </p> </td> 
+   <td colname="col2"> <p>Une ou plusieurs instances du service de rendu de texte peuvent être actives lorsque les opérations <span class="codeph"> textPs=</span> sont exécutées. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Composant de rendu SVG </p> </td> 
@@ -58,9 +58,9 @@ Dynamic Media Image Serving se compose des composants suivants :
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rendu d’image Dynamic Media (alias Render Server) </p> </td> 
-   <td colname="col2"> <p>Elle nécessite une licence distincte pour être activée. Accès HTTP à <span class="filepath"> /ir/render</span>. Toutes les fonctionnalités de rendu d’image sont intégrées à la fonction [!DNL Platform Server] et le serveur d’images, sans composants exécutables distincts. </p> </td> 
+   <td colname="col2"> <p>Elle nécessite une licence distincte pour être activée. Accès HTTP à <span class="filepath"> /ir/render</span>. Toutes les fonctionnalités de rendu d’image sont intégrées à [!DNL Platform Server] et au serveur d’images, sans composants exécutables distincts. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-D’autres paramètres de configuration sont fournis par le catalogue par défaut ( [!DNL default.ini]) ou des catalogues d’images spécifiques (voir [Catalogues d’images](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) pour plus de détails).
+Des paramètres de configuration supplémentaires sont fournis par le catalogue par défaut ( [!DNL default.ini]) ou des catalogues d’images spécifiques (voir [Catalogues d’images](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) pour plus d’informations).

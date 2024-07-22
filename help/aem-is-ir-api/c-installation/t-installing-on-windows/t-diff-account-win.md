@@ -17,6 +17,6 @@ ht-degree: 0%
 Après l’installation, configurez les services à exécuter sous l’autre compte utilisateur.
 
 1. Accédez aux paramètres de la stratégie de sécurité locale de Windows en sélectionnant **[!UICONTROL Menu Démarrer]** > **[!UICONTROL Paramètres]** > **[!UICONTROL Panneau de Contrôle]** > **[!UICONTROL Outils d’administration]** > **[!UICONTROL Stratégie de sécurité locale]**.
-1. Sélectionner **[!UICONTROL Paramètres de protection]** > **[!UICONTROL Stratégies locales]** > **[!UICONTROL Attribution des droits utilisateur]**.
-1. Double-cliquez sur le **[!UICONTROL Connexion en tant que service]** stratégie.
-1. Sélectionner **[!UICONTROL Ajouter...]** et sélectionnez l’utilisateur ou le groupe, puis sélectionnez **[!UICONTROL Ok]** pour confirmer.
+1. Sélectionnez **[!UICONTROL Paramètres de sécurité]** > **[!UICONTROL Stratégies locales]** > **[!UICONTROL Attribution des droits utilisateur]**.
+1. Double-cliquez sur la stratégie **[!UICONTROL Log on as a service]**.
+1. Sélectionnez **[!UICONTROL Ajouter...]** et sélectionnez l’utilisateur ou le groupe, puis **[!UICONTROL Ok]** pour confirmer.

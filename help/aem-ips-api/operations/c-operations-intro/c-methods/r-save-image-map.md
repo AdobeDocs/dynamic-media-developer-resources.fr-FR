@@ -8,7 +8,7 @@ exl-id: 91e40549-9b26-41f2-a3ab-7e9bec8f9ba7
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 16%
+ht-degree: 8%
 
 ---
 
@@ -49,7 +49,7 @@ Syntaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> La gestion de l’entreprise avec la zone cliquable que vous souhaitez enregistrer. </td> 
+   <td colname="col4"> Poignée à l’entreprise avec la zone cliquable que vous souhaitez enregistrer. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle </span> </span> </td> 
@@ -76,7 +76,7 @@ Syntaxe
    <td colname="col4"> Choix de la forme. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> region </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> région </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"> Liste de points délimités par des virgules qui définissent la région. </td> 
@@ -85,7 +85,7 @@ Syntaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> action </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> <p>Le <span class="codeph"> href </span> valeur associée à la zone cliquable, comme indiqué dans l’interface IPS. </p> <p>Pour obtenir la variable <span class="codeph"> href </span> , cliquez sur l’image dans l’interface IPS, copiez et collez l’URL dans cet élément, puis formatez l’URL IPS en tant qu’URL appropriée. Par exemple : <span class="codeph"> &amp; </span> devient <span class="codeph"> &amp;amp; </span>. </p> </td> 
+   <td colname="col4"> <p>La valeur <span class="codeph"> href </span> associée à la zone cliquable, comme indiqué dans l’interface IPS. </p> <p>Pour obtenir la valeur <span class="codeph"> href </span> , cliquez sur l’image dans l’interface IPS, copiez et collez l’URL dans cet élément, puis formatez l’URL IPS en tant qu’URL appropriée. Par exemple, <span class="codeph"> &amp; </span> devient <span class="codeph"> &amp;amp; </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> position </span> </span> </td> 
@@ -94,7 +94,7 @@ Syntaxe
    <td colname="col4"> Ordre dans la liste des zones cliquables (axe Z). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> enabled </span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> activé </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean </span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"></td> 
@@ -112,7 +112,7 @@ Syntaxe
 
 Cet exemple de code crée une zone cliquable pour une ressource. Elle utilise un type de forme déterminé par une constante de chaîne de forme de région et renvoie une poignée à la nouvelle zone cliquable.
 
-**Request**
+**Requête**
 
 ```
 <saveImageMapParam xmlns="http://www.scene7.com/IpsApi/xsd"> 

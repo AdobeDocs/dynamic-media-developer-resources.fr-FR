@@ -8,7 +8,7 @@ exl-id: b42be3ef-c935-4548-8f92-4fc33af321b5
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '128'
-ht-degree: 9%
+ht-degree: 7%
 
 ---
 
@@ -36,7 +36,7 @@ Syntaxe
 | companyName | `xsd:string` | Oui | Nom de la société associée au projet. |
 | projectHandle | `xsd:string` | Oui | Gestionnaire du projet à supprimer. |
 
-**Sortie (deleteProjectReturn)**
+**Output (deleteProjectReturn)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 
@@ -44,7 +44,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 Cet exemple de code utilise le nom d’entreprise et le nom d’utilisateur du projet comme champs dans le paramètre deleteProjectParam envoyé au serveur des services Web IPS pour supprimer le projet.
 
-**Request**
+**Requête**
 
 ```java
 <deleteProjectParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

@@ -16,6 +16,6 @@ ht-degree: 0%
 
 La plupart des matériaux peuvent être colorés dynamiquement.
 
-L&#39;algorithme de colorisation est simpliste et fonctionne le mieux pour les images de matériaux dont la gamme de nuances est limitée. Pour colorer un matériau, le moteur de rendu soustrait simplement le `bgc=` et ajoute la valeur `color=` à chaque valeur de pixel.
+L&#39;algorithme de colorisation est simpliste et fonctionne le mieux pour les images de matériaux dont la gamme de nuances est limitée. Pour colorer un matériau, le moteur de rendu soustrait simplement la valeur `bgc=` et ajoute la valeur `color=` à chaque valeur de pixel.
 
-La coloration est désactivée si `color=` n’est pas spécifié. Le `bgc=` n’est pas prise en compte par les documents du Cabinet; la valeur de la couleur de base incorporée dans la variable [!DNL vnc] est utilisé à la place.
+La coloration est désactivée si `color=` n’est pas spécifié. L’attribut `bgc=` est ignoré par les matériaux de l’armoire ; la valeur de couleur de base incorporée dans le fichier [!DNL vnc] est utilisée à la place.

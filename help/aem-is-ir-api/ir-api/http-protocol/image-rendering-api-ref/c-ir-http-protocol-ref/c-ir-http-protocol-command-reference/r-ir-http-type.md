@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 333b8954-e256-4ba1-8055-c4d625470673
 source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '152'
+ht-degree: 17%
 
 ---
 
@@ -45,7 +45,7 @@ Type de surface du matériau. Spécifie le type de surface du matériau.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>6 </p></td> 
-  <td class="stentry"> <p>Peinture </p></td> 
+  <td class="stentry"> <p>Paint </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>7 </p></td> 
@@ -65,15 +65,15 @@ Type de surface du matériau. Spécifie le type de surface du matériau.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>11 </p></td> 
-  <td class="stentry"> <p>Stratifié </p></td> 
+  <td class="stentry"> <p>Laminate </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>12 </p></td> 
-  <td class="stentry"> <p>Vinyle </p></td> 
+  <td class="stentry"> <p>Vinyl </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>13 </p></td> 
-  <td class="stentry"> <p>Céramique </p></td> 
+  <td class="stentry"> <p>Cerise </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>14 </p></td> 
@@ -89,7 +89,7 @@ Type de surface du matériau. Spécifie le type de surface du matériau.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>17 </p></td> 
-  <td class="stentry"> <p>Tissu </p></td> 
+  <td class="stentry"> <p>Fabric </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>18 </p></td> 
@@ -109,8 +109,8 @@ Attribut de matière. Ignoré si la vignette ne contient pas de données de réf
 
 ## Par défaut {#section-0989055fb74a41a3b2f2a47fe7d90a42}
 
-`catalog::Type` Si la matière est basée sur une entrée de catalogue. Sinon `type=0`. Si elle n’est pas spécifiée, ou si `type=0`, le serveur sélectionne une valeur par défaut appropriée en fonction de l’objet cible et des autres attributs matériels.
+`catalog::Type` Si la matière est basée sur une entrée de catalogue. Sinon `type=0`. Si elle n’est pas spécifiée ou si `type=0`, le serveur sélectionne une valeur par défaut appropriée en fonction de l’objet cible et des autres attributs matériels.
 
 ## Voir aussi {#section-7cf808b0bb3d4b4fbb7b9a850d5a038b}
 
-[gsum=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) , [ough=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)
+[gless=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-gloss.md#reference-325aef2ee51e4e1584a06047427340ca) , [rude=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-rough.md#reference-00add846b09f4dc39420bda1ca414180)

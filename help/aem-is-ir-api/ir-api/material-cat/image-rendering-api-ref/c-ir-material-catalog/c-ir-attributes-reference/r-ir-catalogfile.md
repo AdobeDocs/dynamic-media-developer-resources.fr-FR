@@ -1,20 +1,20 @@
 ---
-description: Chemin du fichier de données du catalogue. Spécifie le fichier contenant les données matérielles pour ce catalogue.
+description: Chemin d’accès au fichier de données du catalogue. Spécifie le fichier contenant les données matérielles pour ce catalogue.
 solution: Experience Manager
 title: CatalogFile
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ab6879cf-c32e-4e88-a269-2ddcffa61b8f
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 3%
+source-wordcount: '60'
+ht-degree: 1%
 
 ---
 
 # CatalogFile{#catalogfile}
 
-Chemin du fichier de données du catalogue. Spécifie le fichier contenant les données matérielles pour ce catalogue.
+Chemin d’accès au fichier de données du catalogue. Spécifie le fichier contenant les données matérielles pour ce catalogue.
 
 ## Propriétés {#section-81eaf83ed4d3405f8ba95671bd303584}
 

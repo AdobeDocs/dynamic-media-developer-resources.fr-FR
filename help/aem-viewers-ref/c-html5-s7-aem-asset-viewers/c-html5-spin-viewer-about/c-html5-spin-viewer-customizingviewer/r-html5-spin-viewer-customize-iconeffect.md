@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 1ded69eb-62cd-49da-ab53-124348359a58
 source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 2%
+source-wordcount: '148'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +39,7 @@ L’aspect de la zone d’affichage est contrôlé à l’aide du sélecteur de 
    <td colname="col2"> <p> Illustration de l’indicateur de rotation. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-spin-viewer-about/c-html5-spin-viewer-customizingviewer/c-html5-spin-viewer-customizingviewer.md#section-b671c70acf284cb0aea678c2d2e4babc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -53,7 +53,7 @@ L’aspect de la zone d’affichage est contrôlé à l’aide du sélecteur de 
  </tbody> 
 </table>
 
-L’indicateur de rotation prend en charge `state` sélecteur d’attributs défini sur `spin_1D` s’il existe une visionneuse à 360° unidimensionnelle, et `spin_2D` s’il existe une visionneuse à 360° multidimensionnelle.
+L’indicateur de rotation prend en charge le sélecteur d’attributs `state` défini sur `spin_1D` s’il existe une visionneuse à 360° unidimensionnelle et sur `spin_2D` s’il existe une visionneuse à 360° multidimensionnelle.
 
 Exemple : pour configurer un indicateur de zoom de 100 x 100 pixels.
 

@@ -2,13 +2,13 @@
 description: Résolution des miniatures par défaut. Fournit une valeur par défaut pour la résolution de l’objet de miniature lorsqu’un enregistrement de catalogue particulier ne contient pas de valeur ThumbRes de catalogue valide.
 solution: Experience Manager
 title: ThumbRes
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0abb680e-8944-4ad8-9b6c-d0a7559fdd1b
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 4%
+source-wordcount: '95'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 Résolution des miniatures par défaut. Fournit une valeur par défaut pour la résolution de l’objet de miniature lorsqu’un enregistrement de catalogue particulier ne contient pas de valeur catalog::ThumbRes valide.
 
-Utilisé uniquement pour les demandes de miniature ( `req=tmb`) et lorsque `catalog::ThumbType=3`.
+Utilisé uniquement pour les demandes de miniatures ( `req=tmb`) et lorsque `catalog::ThumbType=3`.
 
 ## Propriétés {#section-88d37d0e030f4879a9e584dd2cc780f3}
 

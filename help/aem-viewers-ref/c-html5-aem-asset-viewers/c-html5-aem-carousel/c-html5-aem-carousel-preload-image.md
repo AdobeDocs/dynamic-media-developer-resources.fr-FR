@@ -20,9 +20,9 @@ L’image de préchargement fonctionne correctement pour la méthode d’incorpo
 
 La fonctionnalité présente toutefois certaines limites lorsque d’autres méthodes d’incorporation ou des options de configuration spécifiques sont utilisées. Le rendu d’une image de préchargement peut échouer dans les cas suivants :
 
-* Lorsque la taille de la visionneuse est fixe et que la taille est définie à l’aide de l’attribut de configuration `stagesize` dans l’enregistrement du paramètre prédéfini de la visionneuse ou dans le fichier CSS de la visionneuse externe pour l’élément de conteneur de la visionneuse de niveau supérieur.
+* Lorsque la visionneuse est fixe en taille et que la taille est définie à l’aide de l’attribut de configuration `stagesize` dans l’enregistrement de paramètre prédéfini de la visionneuse ou, dans le fichier CSS de la visionneuse externe pour l’élément de conteneur de la visionneuse de niveau supérieur.
 * Lors de l’utilisation de l’incorporation de tailles flexibles avec la méthode d’incorporation de visionneuses définie en largeur et en hauteur. Voir l’en-tête [Intégration de taille flexible avec largeur et hauteur définies](../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-images.md#section-6bb5d3c502544ad18a58eafe12a13435).
 
-Si vous utilisez la visionneuse dans l’un des modes de fonctionnement répertoriés ci-dessus, désactivez la fonction d’image de préchargement à l’aide de l’attribut de configuration `preloadImage` .
+Si vous utilisez la visionneuse dans l’un des modes d’opération répertoriés ci-dessus, désactivez la fonction d’image de préchargement à l’aide de l’attribut de configuration `preloadImage`.
 
 En outre, l’image de préchargement n’est pas utilisée, même si elle est activée dans la configuration, si la visionneuse est incorporée dans l’élément DOM est masquée à l’aide du paramètre CSS `display:none` ou détachée de l’arborescence DOM.

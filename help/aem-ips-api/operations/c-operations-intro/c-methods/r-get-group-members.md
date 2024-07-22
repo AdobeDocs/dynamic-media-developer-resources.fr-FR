@@ -8,7 +8,7 @@ exl-id: 81af79ee-be82-439f-9f42-a1ec09cd8ea0
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 18%
+ht-degree: 16%
 
 ---
 
@@ -43,7 +43,7 @@ Syntaxe
 
 Cet exemple de code renvoie un tableau de pseudo utilisateur contenant tous les utilisateurs appartenant à un groupe spécifique.
 
-**Request**
+**Requête**
 
 ```java
 <ns1:getGroupMembersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

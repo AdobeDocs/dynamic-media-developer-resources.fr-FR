@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| éléments | `types:AssetMetadataFields` | Un `AssetMetadataFields` élément de tableau . |
+| éléments | `types:AssetMetadataFields` | Un élément de tableau `AssetMetadataFields`. |

@@ -1,20 +1,20 @@
 ---
-description: Mode de verrouillage de requête. Indique le type de verrouillage de requête qui doit être inclus dans les requêtes.
+description: Mode de verrouillage de la requête. Indique le type de verrouillage de requête qui doit être inclus dans les requêtes.
 solution: Experience Manager
 title: RequestLock
-feature: Dynamic Media Classic, SDK/API
+feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7a2b2529-4e8f-44aa-800e-87bdd6fe2519
 source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 6%
+source-wordcount: '63'
+ht-degree: 4%
 
 ---
 
 # RequestLock{#requestlock}
 
-Mode de verrouillage de requête. Indique le type de verrouillage de requête qui doit être inclus dans les requêtes.
+Mode de verrouillage de la requête. Indique le type de verrouillage de requête qui doit être inclus dans les requêtes.
 
 ## Propriétés {#section-ae89274d3b7940d0bf3d816f7c2f51fd}
 

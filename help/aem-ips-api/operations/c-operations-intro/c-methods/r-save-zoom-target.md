@@ -8,7 +8,7 @@ exl-id: 595fd5c8-4e98-4c1a-b396-c8e170aaf454
 source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
 workflow-type: tm+mt
 source-wordcount: '124'
-ht-degree: 21%
+ht-degree: 19%
 
 ---
 
@@ -36,12 +36,12 @@ Syntaxe
 | companyHandle | `xsd:string` | Oui | Poignée à l’entreprise avec la cible de zoom que vous souhaitez enregistrer. |
 | assetHandle | `xsd:string` | Oui | Poignée de la cible de zoom. |
 | zoomTargetHandle | `xsd:string` | Non | Modifie ou crée une cible de zoom. |
-| name | `xsd:string` | Oui | Nom de la cible de zoom. |
+| nom | `xsd:string` | Oui | Nom de la cible de zoom. |
 | xPosition | `xsd:int` | Oui | Emplacement du pixel gauche. |
 | yPosition | `xsd:int` | Oui | Emplacement du pixel supérieur. |
 | largeur | `xsd:int` | Oui | Largeur de la cible de zoom. |
 | hauteur | `xsd:int` | Oui | Hauteur de la cible de zoom. |
-| Données utilisateur | `xsd:string` | Oui | Pour obtenir des informations spécifiques au client. Peut contenir n’importe quel type de données. |
+| userData | `xsd:string` | Oui | Pour obtenir des informations spécifiques au client. Peut contenir n’importe quel type de données. |
 
 **Sortie (saveZoomTargetReturn)**
 
@@ -53,7 +53,7 @@ Syntaxe
 
 Cet exemple de code enregistre une cible de zoom. La réponse renvoie la poignée de la cible de zoom.
 
-**Request**
+**Requête**
 
 ```java
 <saveZoomTargetParam xmlns="http://www.scene7.com/IpsApi/xsd">

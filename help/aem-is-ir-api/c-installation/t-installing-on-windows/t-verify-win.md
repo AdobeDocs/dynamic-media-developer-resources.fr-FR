@@ -16,14 +16,14 @@ ht-degree: 0%
 
 Après avoir installé Dynamic Media Image Serving, vous devez vérifier l’installation.
 
-Le serveur d’images est installé en tant que service Windows.
+Image Server est installé en tant que service Windows.
 
-1. Ouvrez le Panneau de Contrôle Services et vérifiez que `Dynamic Media Image Serving` est présente avec un état de `Started`.
+1. Ouvrez le Panneau de Contrôle Services et vérifiez que `Dynamic Media Image Serving` est présent avec l’état `Started`.
 1. Ouvrez un navigateur Internet sur le même hôte ou sur un autre hôte et vérifiez les réponses du serveur par défaut :
 
    `http:// server:port /is/image`
 
 [!DNL  http:// *[!DNL server:port]*/ir/render]
 
-Vérifiez la présence de &quot; `imageServer.`&quot; dans la réponse, qui indique que le serveur d’images écoute.
+Vérifiez la présence d’éléments &quot; `imageServer.`&quot; dans la réponse, qui indiquent que le serveur d’images écoute.
 >Une vérification supplémentaire peut être effectuée à l’aide des exemples de pages des packages Documentation et Demo , le cas échéant.

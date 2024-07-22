@@ -7,7 +7,7 @@ role: Developer,User
 exl-id: 1afd3a60-e0b6-47d1-b7e4-98a3145782a2
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '181'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,9 @@ Analyse JPEG progressive. Le JPEG progressif affiche une image de telle sorte qu
 
 La vitesse réelle de chaque analyse dépend de la vitesse de transmission du système de l’utilisateur et de l’ordinateur qui reçoit et décompresse les données.
 
-`Auto` utilise les paramètres d’analyse calculés par la bibliothèque de JPEG indépendants et dépendent du modèle de couleur. Les valeurs de `3`, `4`, `5` correspondent au paramètre d’analyse d’Adobe Photoshop lorsque vous enregistrez un fichier de JPEG en tant que pjpeg (JPEG progressif).
+`Auto` utilise les paramètres d’analyse calculés par la bibliothèque de JPEG indépendante et dépend du modèle de couleur. Les valeurs de `3`, `4` et `5` correspondent au paramètre d’analyse d’Adobe Photoshop lorsque vous enregistrez un fichier de JPEG en tant que pjpeg (JPEG progressif).
 
-If `pscan` n’est pas défini, sa valeur par défaut est `auto`.
+Si `pscan` n’est pas défini, la valeur par défaut est `auto`.
 
 ## Propriétés {#section-e36aa3c63a974b969d9e4f43fe5a37ab}
 

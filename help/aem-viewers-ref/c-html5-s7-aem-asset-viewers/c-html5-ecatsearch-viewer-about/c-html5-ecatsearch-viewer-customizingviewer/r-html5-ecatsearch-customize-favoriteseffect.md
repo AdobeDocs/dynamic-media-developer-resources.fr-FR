@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 7603c873-a2d1-4a24-85a6-8e56a1f207de
 source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 1%
+source-wordcount: '180'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ L’aspect de l’icône Favori est contrôlé à l’aide du sélecteur de clas
 .s7ecatalogsearchviewer .s7favoriteseffect .s7icon
 ```
 
-**Propriétés CSS de l’icône Favori**
+**Propriétés CSS de l’icône préférée**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
@@ -33,7 +33,7 @@ L’aspect de l’icône Favori est contrôlé à l’aide du sélecteur de clas
    <td colname="col2"> <p> Image affichée pour l’icône. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> arrière-plan-position </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
    <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,7 @@ Exemple : configurez une icône Favoris 36 x 36 pixels.
 }
 ```
 
-Sur les systèmes de bureau, le composant prend en charge la variable `cursortype` sélecteur d’attributs que vous pouvez appliquer à la variable `.s7favoriteseffect` et contrôle le type du curseur en fonction de l’action utilisateur sélectionnée. Les éléments suivants `cursortype` sont prises en charge :
+Sur les systèmes de bureau, le composant prend en charge le sélecteur d’attributs `cursortype` que vous pouvez appliquer à la classe `.s7favoriteseffect` et contrôle le type de curseur en fonction de l’action utilisateur sélectionnée. Les valeurs `cursortype` suivantes sont prises en charge :
 
 <table id="table_71F8F333909247E4ACFEBDE3A1370EAB"> 
  <tbody> 
@@ -71,7 +71,7 @@ Sur les systèmes de bureau, le composant prend en charge la variable `cursortyp
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> mode_view </span> </p> </td> 
-   <td colname="col2"> <p>S’affiche en mode de fonctionnement normal lorsque la modification des Favoris n’est pas principale. </p> </td> 
+   <td colname="col2"> <p>S’affiche en mode de fonctionnement normal lorsque l’édition Favoris n’est pas active. </p> </td> 
   </tr> 
  </tbody> 
 </table>

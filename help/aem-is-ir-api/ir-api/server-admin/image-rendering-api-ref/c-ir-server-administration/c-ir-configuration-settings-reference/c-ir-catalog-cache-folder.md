@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Dossier racine du cache du système de catalogue.
 
-Peut être un chemin absolu ou un chemin relatif à [!DNL] *[!DNL install_folder]*]. Par défaut : [!DNL ./cache], qui correspond à [!DNL *[!DNL install_folder]*/cache].
+Peut être un chemin absolu ou un chemin relatif à [!DNL *[!DNL install_folder]*]. La valeur par défaut est [!DNL ./cache], ce qui correspond à [!DNL *[!DNL install_folder]*/cache].

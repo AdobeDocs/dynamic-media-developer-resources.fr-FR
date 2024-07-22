@@ -24,22 +24,22 @@ rgn= *`coord`*, *`size`*
   <td class="stentry"> <p>Décalage des pixels du coin supérieur gauche de l’image composite vers le coin supérieur gauche du ROI (int, int). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> taille</span> </p></td> 
+  <td class="stentry"> <p><span class="varname"> size</span> </p></td> 
   <td class="stentry"> <p>Taille du ROI en pixels (int, int). </p></td> 
  </tr> 
 </table>
 
 >[!NOTE]
 >
->`rgn=` définit uniquement un retour sur investissement sans recadrer l’image. When `wid=` et/ou `hei=` des données additionnelles supérieures à la taille sont également appliquées. des données additionnelles provenant de l’image composite peuvent être visibles dans l’image de réponse finale.
+>`rgn=` définit uniquement un retour sur investissement sans recadrer l’image. Lorsque `wid=` et/ou `hei=` de taille supérieure à la taille sont également appliqués, des données supplémentaires provenant de l’image composite peuvent être visibles dans l’image de réponse finale.
 
 ## Propriétés {#section-53edb35f4e364d7ca13fd0886e8b0c86}
 
 Attribut d’affichage. S’applique quel que soit le paramètre de calque actif.
 
-Toutes les zones du ROI situées en dehors de l’image composite sont remplies par `bgc=`.
+Toutes les zones du ROI s’étendant en dehors de l’image composite sont remplies de `bgc=`.
 
-`rgn=` est appliqué avant la mise à l’échelle finale et l’ajustement avec `scl=`, `wid=`, `hei=`, `fit=`, `rect=`, ou `align=`.
+`rgn=` est appliqué avant la mise à l’échelle et l’ajustement finaux avec `scl=`, `wid=`, `hei=`, `fit=`, `rect=` ou `align=`.
 
 ## Par défaut {#section-6a3df8f670084def900ffef9dab7e94a}
 

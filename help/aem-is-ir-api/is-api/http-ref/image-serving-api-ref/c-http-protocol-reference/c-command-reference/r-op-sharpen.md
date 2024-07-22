@@ -7,8 +7,8 @@ role: Developer,User
 exl-id: 62e7d91c-935f-410f-a971-ffb3cfff31d6
 source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 6%
+source-wordcount: '112'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ Le masque de calque ou le masque composite est également accentué.
 
 ## Propriétés {#section-b27f3f6a27c34233b3f76805e18b2aa7}
 
-Attribut de calque ou attribut d’affichage. S’applique au calque actif ou à l’image d’affichage final si `layer=comp`. Ignoré par les calques d’effet.
+Attribut de calque ou attribut d’affichage. S’applique au calque actif ou à l’image de vue finale si `layer=comp`. Ignoré par les calques d’effet.
 
 ## Par défaut {#section-665709700fff458e9dbbf8a78e8ecf71}
 

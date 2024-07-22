@@ -7,37 +7,37 @@ role: Developer,User
 exl-id: e2c79bdc-5d70-46d9-85f4-ffebd7621944
 source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 1%
+source-wordcount: '285'
+ht-degree: 0%
 
 ---
 
 # Diffusion de contenu statique (hors image){#serving-static-non-image-content}
 
-La diffusion d’images fournit un mécanisme pour gérer les contenus autres que les images dans les catalogues et les diffuser par le biais d’une fonction distincte. `context /is/content`. Le mécanisme permet de configurer le délai d’activation séparément pour chaque élément.
+La diffusion d’images fournit un mécanisme pour gérer les contenus autres que les images dans les catalogues et les diffuser par le biais d’un `context /is/content` distinct. Le mécanisme permet de configurer le délai d’activation séparément pour chaque élément.
 
 ## Syntaxe de base {#section-a986baaca8644d04bcd0ddf781ae916e}
 
 <table id="simpletable_4A6249F0C40747339524323EB0831CE4"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> requête </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> http:// <span class="varname"> server </span>/is/content[/ <span class="varname"> catalogue </span>/ <span class="varname"> item </span>][? <span class="varname"> modificateurs </span>] </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> http:// <span class="varname"> serveur </span>/is/content[/ <span class="varname"> catalogue </span>/ <span class="varname"> élément </span>][? <span class="varname"> modificateurs </span>] </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> server </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> server_address </span>[: <span class="varname"> port </span>] </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> serveur </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> server_address </span>[ : <span class="varname"> port </span>] </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> catalogue </span> </span> </p> </td> 
   <td class="stentry"> <p>Identifiant du catalogue. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> item </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> élément </span> </span> </p> </td> 
   <td class="stentry"> <p>ID d’élément de contenu statique. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> modificateurs </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> command </span>*&amp; <span class="varname"> command </span>] </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> command </span>*[&amp; <span class="varname"> command </span>] </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> command </span> </span> </p> </td> 
@@ -64,7 +64,7 @@ La diffusion d’images prend en charge les commandes suivantes à l’adresse /
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <a href="../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" type="reference" format="dita" scope="local"> req </a> </td> 
-  <td class="stentry"> <p> <span class="codeph"> req=userdata </span>, <span class="codeph"> req=props </span>, et <span class="codeph"> req=exists </span> uniquement. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> req=userdata </span>, <span class="codeph"> req=props </span> et <span class="codeph"> req=exists </span> uniquement. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <a href="../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-cache.md#reference-168189bee4ce4d1189d427891f22be2e" type="reference" format="dita" scope="local"> cache </a> </td> 
@@ -79,13 +79,13 @@ Les catalogues de contenu statique sont similaires aux catalogues d’images, ma
 <table id="table_3B111EC3AA1044FB9B659FD54BADDC39"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> Attribut/Données</b> </th> 
+   <th class="entry"> <b> Attribute/Data</b> </th> 
    <th class="entry"> <b> Remarques</b> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> catalog::Id </span> </p> </td> 
+   <td> <p> Catalogue <span class="codeph"> ::Id </span> </p> </td> 
    <td> <p> Identifiant d’enregistrement de catalogue pour cet élément de contenu statique </p> </td> 
   </tr> 
   <tr valign="top"> 
@@ -93,15 +93,15 @@ Les catalogues de contenu statique sont similaires aux catalogues d’images, ma
    <td> <p> Chemin d’accès au fichier de cet élément de contenu </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> catalogue : Expiration </span> </p> </td> 
+   <td> <p> Catalogue <span class="codeph"> ::Expiration </span> </p> </td> 
    <td> <p> La durée de vie de cet élément de contenu ; attribute::Expiration est utilisée si non spécifié ou s’il est vide </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> catalogue ::TimeStamp </span> </p> </td> 
+   <td> <p> <span class="codeph"> catalog::TimeStamp </span> </p> </td> 
    <td> <p> Horodatage de modification du fichier ; requis lorsque la validation basée sur un catalogue est activée avec l’attribut ::CacheValidationPolicy </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> catalogue ::UserData </span> </p> </td> 
+   <td> <p> <span class="codeph"> catalog::UserData </span> </p> </td> 
    <td> <p> Métadonnées facultatives associées à cet élément de contenu statique ; disponibles pour le client avec req=userdata </p> </td> 
   </tr> 
   <tr valign="top"> 
@@ -113,7 +113,7 @@ Les catalogues de contenu statique sont similaires aux catalogues d’images, ma
 
 ## Filtrer le contenu statique {#section-896c37cf68bc446eb0766fb378898262}
 
-Ce mécanisme peut permettre de s’assurer que les clients ne reçoivent que les contenus adaptés à leurs besoins. En supposant que le contenu statique soit balisé avec les balises appropriées `catalog::UserType`, le client peut ajouter la variable `type=` à la requête. Le serveur d’images compare la valeur fournie avec la variable `type=` à la valeur de `catalog::UserType` et, en cas de discordance, renvoyer une erreur au lieu de contenus potentiellement inappropriés.
+Ce mécanisme peut permettre de s’assurer que les clients ne reçoivent que les contenus adaptés à leurs besoins. En supposant que le contenu statique soit balisé avec les valeurs `catalog::UserType` appropriées, le client peut ajouter la commande `type=` à la requête. La diffusion d’images compare la valeur fournie avec la commande `type=` à la valeur de `catalog::UserType` et, en cas de discordance, renvoie une erreur au lieu de contenus potentiellement inappropriés.
 
 ## Voir aussi {#section-91c7b686aacf4d3ca974f35a3fe3d6ec}
 

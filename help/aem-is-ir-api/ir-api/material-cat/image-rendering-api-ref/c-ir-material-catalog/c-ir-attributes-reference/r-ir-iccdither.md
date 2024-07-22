@@ -8,21 +8,21 @@ exl-id: bb1bec31-3f7c-48c8-9456-6359b739a657
 source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 5%
+ht-degree: 3%
 
 ---
 
 # IccDither{#iccdither}
 
-Tramage de conversion des couleurs. Indique si le tramage doit être utilisé pour améliorer la qualité visuelle des conversions de couleurs lorsqu’aucune sélection explicite n’est effectuée avec `icc=`.
+Tramage de conversion des couleurs. Indique si le tramage doit être utilisé pour améliorer la qualité de perception des conversions de couleurs lorsqu’aucune sélection explicite n’est effectuée avec `icc=`.
 
 ## Propriétés {#section-646fb48084734c66bf648360f3a5bfd1}
 
-Indicateur. Définissez sur . `0` pour désactiver ou pour `1` pour activer le tramage.
+Indicateur. Définissez cette variable sur `0` pour désactiver ou sur `1` pour activer le tramage.
 
 ## Par défaut {#section-c9066c361215404d847f4d2c8f1ea3a5}
 
-Hérité de `default::IccDither` s’il n’est pas défini ou s’il est vide.
+Hérité de `default::IccDither` si elle n’est pas définie ou si elle est vide.
 
 ## Voir aussi {#section-76a376a1bee74670867b4de81fea65aa}
 

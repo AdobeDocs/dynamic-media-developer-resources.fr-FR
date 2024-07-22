@@ -18,4 +18,4 @@ Les données d’image intermédiaires générées par les demandes de diffusion
 
 Les images obtenues à partir de serveurs HTTP étrangers sont également stockées dans le cache de données de réponse. Ces images sont validées automatiquement à l’aide de l’utilitaire de validation avant que l’entrée de cache ne soit générée.
 
-Le [!DNL Platform Server] compile les données du catalogue d’images pour un accès efficace. Ces données sont stockées dans `CS::CatalogCacheFolder`.
+[!DNL Platform Server] compile les données du catalogue d’images pour un accès efficace. Ces données sont stockées dans `CS::CatalogCacheFolder`.

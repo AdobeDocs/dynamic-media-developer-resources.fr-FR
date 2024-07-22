@@ -33,7 +33,7 @@ L’aspect des régions de résultats de recherche est contrôlé à l’aide du
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> arrière-plan </span> </p> </td> 
    <td colname="col2"> <p>Arrière-plan de la région des résultats de la recherche. </p> </td> 
   </tr> 
  </tbody> 
