@@ -5,7 +5,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: b861d383d0a1af63ae18eb1e73231758c3352a55
+source-git-commit: 67e12fae514341137e4218ea950f34da0d9997f3
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 2%
@@ -51,14 +51,16 @@ Format d’image de réponse.
 | `webp-alpha` | WebP sans perte et avec canal alpha. |
 | `webp` | WebP sans perte et sans perte. |
 
-| *`pixelType`* - rgb | gris | cmyk |
+*`pixelType`* - rgb | gris | cmyk
+
 | *`pixelType`* | Description |
 |---|---|
 | `cmyk` | Renvoie les données image CMJN. |
 | `gray` | Renvoie les données image en niveaux de gris. |
 | `rgb` | Renvoie les données image du RGB. |
 
-| *`compression`* - jpeg | perte | lossless | lzw | aucun | zip |
+*`compression`* - jpeg | perte | lossless | lzw | none | zip
+
 | *`compression`* | Description |
 |---|---|
 | `jpeg` | Compression des JPEG (perte). |
