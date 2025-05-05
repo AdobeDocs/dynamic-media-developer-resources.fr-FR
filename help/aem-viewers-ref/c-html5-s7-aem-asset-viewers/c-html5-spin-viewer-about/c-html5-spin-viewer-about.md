@@ -294,7 +294,7 @@ La page d’exemples suivante illustre d’autres cas pratiques d’incorporatio
 
 [Démonstrations en direct](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Autre emplacement de démonstration](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[Autre emplacement de démonstration](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=fr)
 
 **Intégration de taille flexible avec largeur et hauteur définies**
 

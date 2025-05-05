@@ -36,14 +36,14 @@ Syntaxe
 | triggerState | `xsd:int` | Choix de l’état de déclenchement de la tâche. |
 | imageServingPublishJob | `types:ImageServingPublishJob` | Détails de la tâche pour une tâche de publication de diffusion d’image. |
 | imageServingRenderJob | `types:ImageServingRenderJob` | Détails de la tâche pour une tâche de rendu d’image. |
-| videoPublishJob | `types:VideoPublishJob` | Détails de la tâche pour une tâche de publication vidéo. Voir [VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
+| videoPublishJob | `types:VideoPublishJob` | Détails de la tâche pour une tâche de publication vidéo. Voir [VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html?lang=fr). |
 | serverDirectoryPublishJob | `types:ServerDirectoryPublishJob` | Détails de la tâche pour une tâche de publication dans un répertoire de serveur. |
 | uploadDirectoryJob | `types:UploadDirectoryJob` | Détails de la tâche pour une tâche de téléchargement de répertoire. |
 | uploadUrlsJob | `types:UploadUrlsJob` | Détails de la tâche pour une tâche de téléchargement d’URL. |
 | optimizeImagesJob | `types:OptimizeImagesJob` | |
 | ripPdfsJob | `types:RipPdfsJob` | |
 | reprocessAssetsJob | `types:ReprocessAssetsJob` | |
-| exportJob | `types:ExportJob` | Autoriser l’exportation autorisée des fichiers précédemment chargés. Voir [Tâche d’exportation](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
+| exportJob | `types:ExportJob` | Autoriser l’exportation autorisée des fichiers précédemment chargés. Voir [Tâche d’exportation](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html?lang=fr). |
 
 ## Remarques {#section-34ec157f281f412f9f0f6e861e6ed0cd}
 

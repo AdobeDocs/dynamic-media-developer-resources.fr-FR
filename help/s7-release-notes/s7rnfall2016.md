@@ -32,11 +32,11 @@ Notes de mise à jour les plus récentes pour la version de l’automne 2016 de 
 
 Adobe est heureux d’annoncer la disponibilité de la diffusion de contenu HTTP/2 avec l’avantage global de l’amélioration des performances.
 
-Voir [FAQ sur la diffusion de contenu HTTP2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
+Voir [FAQ sur la diffusion de contenu HTTP2](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html?lang=fr#dynamic).
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
-Pour obtenir une documentation complète, voir [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
+Pour obtenir une documentation complète, voir [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=fr](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=fr)
 
 **Nouvelles fonctionnalités, améliorations et correctifs**
 
@@ -58,7 +58,7 @@ Pour obtenir une documentation complète, voir [https://experienceleague.adobe.c
 
 ## Visionneuses (Image Serving 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Pour obtenir une documentation complète, reportez-vous au [Guide de référence des visionneuses](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Pour obtenir une documentation complète, reportez-vous au [Guide de référence des visionneuses](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=fr).
 
 **Correctifs de bogues pour Image Serving 5.5.3**
 
@@ -68,7 +68,7 @@ Pour obtenir une documentation complète, reportez-vous au [Guide de référence
 
 ## Visionneuses (Image Serving 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Pour obtenir une documentation complète, reportez-vous au [Guide de référence des visionneuses](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Pour obtenir une documentation complète, reportez-vous au [Guide de référence des visionneuses](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=fr).
 
 **Correctifs de bogues pour Image Serving 5.5.2**
 
@@ -77,7 +77,7 @@ Pour obtenir une documentation complète, reportez-vous au [Guide de référence
 
 ## Visionneuses (Image Serving 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Pour obtenir une documentation complète, reportez-vous au [Guide de référence des visionneuses](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Pour obtenir une documentation complète, reportez-vous au [Guide de référence des visionneuses](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=fr).
 
 **Nouvelles fonctionnalités, améliorations et correctifs pour Image Serving 5.5.1**
 

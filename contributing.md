@@ -58,4 +58,4 @@ Nous sommes heureux de toute contribution et nous la vérifions si elle est effe
 
 ## Informations supplémentaires
 
-Voir [Guide du contributeur de documents d’Adobe](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) pour plus d’informations sur l’utilisation de la plateforme de création GitHub.
+Voir [Guide du contributeur de documents d’Adobe](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=fr) pour plus d’informations sur l’utilisation de la plateforme de création GitHub.

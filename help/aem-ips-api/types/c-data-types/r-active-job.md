@@ -170,7 +170,7 @@ Pour renvoyer le type de tâche, spécifiez une valeur de type de tâche. Vous p
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:ExportJob</span> </td> 
-   <td colname="col3">Autoriser l’exportation autorisée des fichiers précédemment chargés. Voir <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html" format="http" scope="external"> Tâche d’exportation </a>. </td> 
+   <td colname="col3">Autoriser l’exportation autorisée des fichiers précédemment chargés. Voir <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-exportjob.html?lang=fr" format="http" scope="external"> Tâche d’exportation </a>. </td> 
   </tr> 
  </tbody> 
 </table>

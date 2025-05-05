@@ -18,7 +18,7 @@ Pour ajouter une bibliothèque d’images réactives à une page web et gérer l
 
 **Pour utiliser la bibliothèque d’images réactives**
 
-1. Dans Dynamic Media Classic, [créez un paramètre d’image prédéfini](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing) si vous envisagez d’utiliser la bibliothèque d’images réactives avec des paramètres prédéfinis.
+1. Dans Dynamic Media Classic, [créez un paramètre d’image prédéfini](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html?lang=fr#image-sizing) si vous envisagez d’utiliser la bibliothèque d’images réactives avec des paramètres prédéfinis.
 
    Lorsque vous définissez des paramètres d’image prédéfinis utilisés avec la bibliothèque d’images réactives, n’utilisez aucun paramètre qui affecte la taille de l’image, comme `wid=`, `hei=` ou `scl=`. Ne spécifiez aucun champ de taille dans le paramètre d’image prédéfini. Conservez plutôt des valeurs vides.
 1. Ajoutez le fichier JavaScript de bibliothèque à votre page web.
