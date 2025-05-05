@@ -22,7 +22,7 @@ Référence de l’API JavaScript pour la visionneuse déroulante.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo </span> </span> </p> </td> 
-   <td colname="col2"> <p> { <span class="codeph"> Objet JSON </span> avec données de localisation. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27" format="dita" scope="local"> Localisation des éléments de l’interface utilisateur </a> pour plus d’informations. </p> <p>Pour plus d’informations sur le contenu de l’objet, consultez le <i>Guide de l’utilisateur du SDK de la visionneuse</i> et l’exemple. </p> </td> 
+   <td colname="col2"> <p> &lbrace; <span class="codeph"> Objet JSON </span> avec données de localisation. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27" format="dita" scope="local"> Localisation des éléments de l’interface utilisateur </a> pour plus d’informations. </p> <p>Pour plus d’informations sur le contenu de l’objet, consultez le <i>Guide de l’utilisateur du SDK de la visionneuse</i> et l’exemple. </p> </td> 
   </tr> 
  </tbody> 
 </table>

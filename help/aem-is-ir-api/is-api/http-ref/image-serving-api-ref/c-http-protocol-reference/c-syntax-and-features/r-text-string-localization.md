@@ -56,7 +56,7 @@ Les éléments *`string`* activés pour la localisation dans le catalogue d’im
 <table id="simpletable_CEFDAE8395E6493E902D58A7E5A25BC7"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> stringElement </span> </span> </p> </td> 
-  <td class="stentry"> <p>[ <span class="varname"> defaultString </span>]*{ <span class="varname"> localizationToken </span> <span class="varname"> localizedString </span> </p> </td> 
+  <td class="stentry"> <p>[ <span class="varname"> defaultString </span>]*&lbrace; <span class="varname"> localizationToken </span> <span class="varname"> localizedString </span> </p> </td> 
  </tr> 
 </table>
 

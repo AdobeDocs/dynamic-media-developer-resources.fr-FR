@@ -28,25 +28,25 @@ Bien que `text=` puisse être un peu plus facile à utiliser pour des applicatio
 
 Les exemples suivants concernent du texte prédimensionné. Le comportement du texte auto-dimensionné est différent.
 
-** `Text=` fournit toujours une marge étroite en haut :**
+**&#x200B; `Text=` fournit toujours une marge étroite en haut :**
 
 ![Exemple de positionnement de texte d’une image](assets/tp01.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20Normal%20Normal`
 
-** `textPs=` effectue le rendu du texte étroitement aligné en haut de la zone de texte, ce qui entraîne un léger écrêtage, même pour les polices courantes telles que Arial®:**
+**&#x200B; `textPs=` effectue le rendu du texte étroitement aligné en haut de la zone de texte, ce qui entraîne un léger écrêtage, même pour les polices courantes telles que Arial®:**
 
 ![Exemple de positionnement de texte deux images](assets/tp02.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&textPs=\fs40Normal%20Normal%20Normal`
 
-** `text=` déplace automatiquement le texte rendu vers le bas pour éviter l’écrêtage :**
+**&#x200B; `text=` déplace automatiquement le texte rendu vers le bas pour éviter l’écrêtage :**
 
 ![Exemple de positionnement de texte trois images](assets/tp03.png)
 
 `/is/image?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20{\up20Raised%20}Normal`
 
-** `textPs=` ne déplace pas le texte contenant des portions élevées, ce qui entraîne un détourage significatif si le texte se trouve sur le calque 0 :**
+**&#x200B; `textPs=` ne déplace pas le texte contenant des portions élevées, ce qui entraîne un détourage significatif si le texte se trouve sur le calque 0 :**
 
 ![Exemple de positionnement de texte quatre image](assets/tp04.png)
 

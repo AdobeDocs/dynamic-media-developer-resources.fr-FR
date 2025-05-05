@@ -18,7 +18,7 @@ Transformation de la perspective. Appliquez une transformation de perspective à
 
 `perspective= *`SummaryQuad`*[, *`resOptions`*]`
 
-`perspectiveN= *`}PierreQuadN`*[, *`resOptions`*]`
+`perspectiveN= *`&rbrace;PierreQuadN`*[, *`resOptions`*]`
 
 <table id="simpletable_4BD38BBF53964F7D97B9E58914C97B3F"> 
  <tr class="strow"> 

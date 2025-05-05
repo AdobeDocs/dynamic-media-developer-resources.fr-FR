@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo </span> </span> </p> </td> 
-   <td colname="col2"> <p> { <span class="codeph"> Objet JSON </span> avec données de localisation. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153" format="dita" scope="local"> Espace de noms du SDK de la visionneuse </a> pour plus d’informations. </p> <p>Pour plus d’informations sur le contenu de l’objet, consultez le <i>Guide de l’utilisateur du SDK de la visionneuse</i> et l’exemple. Facultatif. </p> </td> 
+   <td colname="col2"> <p> &lbrace; <span class="codeph"> Objet JSON </span> avec données de localisation. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-namespace.md#concept-679bfabb3e3e4c12a285c4e9c4144153" format="dita" scope="local"> Espace de noms du SDK de la visionneuse </a> pour plus d’informations. </p> <p>Pour plus d’informations sur le contenu de l’objet, consultez le <i>Guide de l’utilisateur du SDK de la visionneuse</i> et l’exemple. Facultatif. </p> </td> 
   </tr> 
  </tbody> 
 </table>

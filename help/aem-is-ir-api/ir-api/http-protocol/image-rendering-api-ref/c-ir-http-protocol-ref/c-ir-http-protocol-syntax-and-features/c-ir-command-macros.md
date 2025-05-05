@@ -18,7 +18,7 @@ Les macros de commande fournissent des raccourcis nommés pour les jeux de comma
 
 `$ *[!DNL name]*$`
 
-** *[!DNL name]* ** Nom de la macro
+**&#x200B; *[!DNL name]* &#x200B;** Nom de la macro
 
 Les macros sont définies dans des fichiers de définition de macro distincts, qui peuvent être joints à des catalogues de matériaux ou au catalogue par défaut.
 

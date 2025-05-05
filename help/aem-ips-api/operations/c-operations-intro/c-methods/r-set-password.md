@@ -67,7 +67,7 @@ La date d’expiration du mot de passe est facultative. S’il est omis, le mot 
         <li id="li_6E3F084100104F2CBCF130EF8852C7B7">Caractères anglais en minuscules. Par exemple, <span class="codeph"> a b c d e </span> et ainsi de suite </li> 
         <li id="li_1FDED8D7348842BC857320D797D41217">Caractères anglais majuscules. Par exemple, <span class="codeph"> A B C D E </span>, etc. </li> 
         <li id="li_C3C4D5412AA749F3B78F37B2B696CF80">Nombres. Par exemple, <span class="codeph"> 1 2 3 4 5 </span>, etc. </li> 
-        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Caractères spéciaux de symbole. Par exemple, vous pouvez utiliser l’une des méthodes suivantes : <span class="codeph"> &amp;grave; ~ ! @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : " ; ' &lt; &gt; ? , . / </span> </li> 
+        <li id="li_2730798F26E74B878BEDE510CD06D8DD">Caractères spéciaux de symbole. Par exemple, vous pouvez utiliser l’une des méthodes suivantes : <span class="codeph"> &grave; ~ ! @ # $ % ^ * ( ) _ + - = { } | [ ] &amp; \ : " ; ' &lt; &gt; ? , . / </span> </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 

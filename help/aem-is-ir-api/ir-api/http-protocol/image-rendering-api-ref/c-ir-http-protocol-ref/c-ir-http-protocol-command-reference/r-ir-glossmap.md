@@ -21,7 +21,7 @@ Image de la zone cliquable. Fournit un contrôle pixel par pixel de la brillance
 <table id="simpletable_6AFC3DEB61D647339525C7CFFA052608"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> embeddedReq</span> </span> </p></td> 
-  <td class="stentry"> <p><span class="codeph">&amp;location;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;brace;'&amp;brace;|&amp;lbrace;'&amp;lbrace;'&amp;lbrace;'<span class="varname"> externalReq</span>'&amp;brace;' </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&location;'is&lbrace;'<span class="varname"> isReq</span>'&brace;'&brace;|&lbrace;'&lbrace;'&lbrace;'<span class="varname"> externalReq</span>'&brace;' </span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> glessMapFile</span> </span> </p></td> 

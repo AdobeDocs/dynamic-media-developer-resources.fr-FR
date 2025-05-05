@@ -22,7 +22,7 @@ Utilisez ces paramètres de serveur pour rediriger les erreurs.
 
 ## PS::errorRedirect.rootUrl - Redirect Server {#section-85f22e48d68842a490b0e1191543b558}
 
-L’URL racine ( [!DNL HTTP:// *[!DNL domain]*[: *[!DNL port]*]) pour le déploiement de serveur d’images secondaire vers lequel les demandes qui échouent localement doivent être redirigées. La redirection d’erreur est désactivée (par défaut) lorsque ce paramètre est vide ou non défini.
+L’URL racine ( HTTP:// *[!DNL domain]*[: *[!DNL port]*]) pour le déploiement de serveur d’images secondaire vers lequel les demandes qui échouent localement doivent être redirigées. La redirection d’erreur est désactivée (par défaut) lorsque ce paramètre est vide ou non défini.
 
 ## PS::errorRedirect.connectTimeout - Redirect Connection Timeout {#section-3971be8f720d4b32a2cc7860b4085971}
 

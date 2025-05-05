@@ -1,6 +1,6 @@
 ---
 title: iccEmbed
-description: Incorporer le profil ICC. Indique si le profil colorimétrique ICC de travail ou le profil spécifié avec `icc=` doit être incorporé dans l’image de réponse.
+description: Incorporer le profil ICC. Indique si le profil colorimétrique ICC de travail ou le profil spécifié avec &grave;icc=&grave; doit être incorporé dans l’image de réponse.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User

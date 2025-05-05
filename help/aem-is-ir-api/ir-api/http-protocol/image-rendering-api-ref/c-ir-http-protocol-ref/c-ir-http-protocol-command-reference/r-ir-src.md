@@ -33,7 +33,7 @@ Fichier de matière. Spécifie les données de matériau, sous la forme d’une 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> embeddedReq</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph">&amp;location;'is&amp;location;'<span class="varname"> isReq</span>'&amp;accolade;'&amp;accolade;|&amp;location;'ir&amp;location;'<span class="varname"> irReq</span>'&amp;accolade;'|&amp;accolade;'<span class="varname"> ForeignReq</span>'&amp;accolade;'</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&location;'is&location;'<span class="varname"> isReq</span>'&accolade;'&accolade;|&location;'ir&location;'<span class="varname"> irReq</span>'&accolade;'|&accolade;'<span class="varname"> ForeignReq</span>'&accolade;'</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 

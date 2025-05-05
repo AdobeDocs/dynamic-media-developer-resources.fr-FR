@@ -31,7 +31,7 @@ Les événements de visionneuse pris en charge sont les suivants :
 
 * `quickViewActivate` : se déclenche lorsqu’un utilisateur clique ou appuie sur un échantillon interactif dans le composant d’échantillons interactifs ou dans l’écran &quot;appel à l’action&quot; affiché à la fin de la lecture vidéo. Le gestionnaire de rappel prend le seul argument qui est un objet JSON avec les champs suivants :
 
-   * `sku` { `String` La valeur de SKU associée à l’échantillon interactif.
-   * `<additionalVariable>` { `String` : aucune ou plusieurs variables supplémentaires associées à l’échantillon interactif.
+   * `sku` &lbrace; `String` La valeur de SKU associée à l’échantillon interactif.
+   * `<additionalVariable>` &lbrace; `String` : aucune ou plusieurs variables supplémentaires associées à l’échantillon interactif.
 
 Voir aussi [InteractiveVideoViewer](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-interactivevideo.md#reference-bd16cadc0c054fafb0db4994741d47cd) et [setHandlers](../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-javascriptapiref/r-html5-aem-int-video-javascriptapiref-sethandlers.md#reference-d76f126ac4354dc282e56afd49a0c643).

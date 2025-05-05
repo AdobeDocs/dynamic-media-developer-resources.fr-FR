@@ -41,12 +41,12 @@ Utilisez les entités spéciales suivantes lors de la mise en forme de texte.
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;location; </span> </td> 
+   <td> <span class="codeph"> &location; </span> </td> 
    <td> <p>Accolade ouverte. </p> </td> 
    <td> <p>L’accolade doit être codée en HTTP. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> &amp;accolade; </span> </td> 
+   <td> <span class="codeph"> &accolade; </span> </td> 
    <td> <p>Accolade. </p> </td> 
    <td> <p>L’accolade doit être codée en HTTP. </p> </td> 
   </tr> 

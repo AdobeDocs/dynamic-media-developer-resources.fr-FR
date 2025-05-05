@@ -21,7 +21,7 @@ Carte de traduction des chaînes. Fait référence à un locId qui peut être ma
 <table id="simpletable_26A9A6904C85459F89DCDD98C14139CA"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> élément </span> </p> </td> 
-  <td class="stentry"> <p> <span class="varname"> locale </span>, <span class="varname"> locId </span>*[',' <span class="varname"> locId {5]</span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> locale </span>, <span class="varname"> locId </span>*[',' <span class="varname"> locId &lbrace;5]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> locale </span> </p> </td> 

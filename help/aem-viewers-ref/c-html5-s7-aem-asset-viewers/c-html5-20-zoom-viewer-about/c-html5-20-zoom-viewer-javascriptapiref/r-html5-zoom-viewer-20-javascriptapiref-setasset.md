@@ -22,7 +22,7 @@ Référence de l’API JavaScript pour la visionneuse de vidéos.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ressource </span> </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph"> Chaîne </span> nouvel identifiant de ressource, jeu d’images explicite ou jeu d’images explicites avec des modificateurs de diffusion d’images spécifiques au cadre, avec les modificateurs de diffusion d’images globaux facultatifs ajoutés après "?". </p> <p> Les images qui utilisent IR (Image Rendering) ou UGC (User-Generated Content) ne sont pas prises en charge par cette visionneuse. </p> </td> 
+   <td colname="col2"> <p>&lbrace; <span class="codeph"> Chaîne </span> nouvel identifiant de ressource, jeu d’images explicite ou jeu d’images explicites avec des modificateurs de diffusion d’images spécifiques au cadre, avec les modificateurs de diffusion d’images globaux facultatifs ajoutés après "?". </p> <p> Les images qui utilisent IR (Image Rendering) ou UGC (User-Generated Content) ne sont pas prises en charge par cette visionneuse. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -22,7 +22,7 @@ Message détaillé répondant à l’une des URL fournies dans la requête d’i
 
 ## Paramètres {#section-cf4b0c923cef4c14869319af73ace58b}
 
-| ** Nom** | ** Type** | ** Description** |
+| **&#x200B; Nom** | **&#x200B; Type** | **&#x200B; Description** |
 |---|---|---|
 | code | `xsd:int` | Code d’erreur fourni à partir du réseau de diffusion de contenu |
 | motif | `xsd:string` | Message d’erreur fourni par le réseau de diffusion de contenu |

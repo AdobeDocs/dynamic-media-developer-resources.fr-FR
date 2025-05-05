@@ -1,6 +1,6 @@
 ---
 title: IccRenderIntent
-description: Mode de rendu de conversion des couleurs. Il fournit l’intention de rendu par défaut pour les conversions de couleurs lorsque l’intention de rendu n’est pas spécifiée par `icc=`.
+description: Mode de rendu de conversion des couleurs. Il fournit l’intention de rendu par défaut pour les conversions de couleurs lorsque l’intention de rendu n’est pas spécifiée par &grave;icc=&grave;.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User

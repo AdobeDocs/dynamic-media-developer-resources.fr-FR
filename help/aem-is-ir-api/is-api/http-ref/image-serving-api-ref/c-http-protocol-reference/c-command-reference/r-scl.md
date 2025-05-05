@@ -16,11 +16,11 @@ ht-degree: 2%
 
 Vue Échelle. Met à l’échelle l’image composite par l’inverse de l’attribut d’événement d’événement.
 
-`scl= *`}Factor`*`
+`scl= *`&rbrace;Factor`*`
 
 <table id="simpletable_A09F5EECAC2B4E0F8633D71C6AD36D8D"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> {ontakte</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> &lbrace;ontakte</span> </p> </td> 
   <td class="stentry"> <p>Facteur d’échelle inversé (réel supérieur à 0,0). </p></td> 
  </tr> 
 </table>

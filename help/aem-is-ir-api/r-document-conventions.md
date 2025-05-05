@@ -74,11 +74,11 @@ Ce document utilise les conventions suivantes.
   <td class="stentry"> <p>Une barre verticale indique que l’élément de syntaxe unique à gauche ou l’élément à droite peut être utilisé. Un seul élément doit être sélectionné. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> { <span class="varname"> groupe </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> &lbrace; <span class="varname"> groupe </span> </span> </p> </td> 
   <td class="stentry"> <p>Les accolades sont utilisées pour regrouper les éléments de syntaxe. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> *{ <span class="varname"> groupe </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> *&lbrace; <span class="varname"> groupe </span> </span> </p> </td> 
   <td class="stentry"> <p>Les éléments de syntaxe du groupe peuvent être répétés une ou plusieurs fois. </p> </td> 
  </tr> 
  <tr class="strow"> 

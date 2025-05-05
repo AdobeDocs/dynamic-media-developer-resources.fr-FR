@@ -241,7 +241,7 @@ Le bouton Fermer est contrôlé à l’aide du sélecteur de classe CSS suivant 
 .s7ecatalogsearchviewer .s7printdialog .s7closebutton
 ```
 
-Propriétés **CSS du bouton de fermeture **
+Propriétés **CSS du bouton de fermeture &#x200B;**
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
@@ -328,7 +328,7 @@ Le pied de page de la boîte de dialogue se compose des boutons Annuler et Envoy
 .s7ecatalogsearchviewer .s7printdialog .s7dialogfooter
 ```
 
-Propriétés **CSS du pied de page de la boîte de dialogue **
+Propriétés **CSS du pied de page de la boîte de dialogue &#x200B;**
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -527,7 +527,7 @@ La zone de dialogue principale, entre l’en-tête et le pied de page, contient 
 .s7ecatalogsearchviewer .s7printdialog .s7dialogviewarea
 ```
 
-Propriétés **CSS de la zone d’affichage de la boîte de dialogue **
+Propriétés **CSS de la zone d’affichage de la boîte de dialogue &#x200B;**
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
@@ -562,7 +562,7 @@ Tout le contenu du formulaire (comme les libellés et les champs de saisie) se t
 .s7ecatalogsearchviewer .s7printdialog .s7dialogbody
 ```
 
-Propriétés **CSS du corps de la boîte de dialogue **
+Propriétés **CSS du corps de la boîte de dialogue &#x200B;**
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -644,7 +644,7 @@ Tous les libellés statiques du formulaire de boîte de dialogue sont contrôlé
 
 Cette classe ne convient pas pour contrôler la taille ou la position des libellés, car vous pouvez l’appliquer à des textes situés à différents endroits dans l’interface utilisateur des formulaires.
 
-Propriétés **CSS du libellé de la boîte de dialogue. **
+Propriétés **CSS du libellé de la boîte de dialogue. &#x200B;**
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 

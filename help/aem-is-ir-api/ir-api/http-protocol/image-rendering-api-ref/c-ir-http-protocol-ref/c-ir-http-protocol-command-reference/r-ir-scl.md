@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Vue Échelle. Redimensionne l’image rendue selon le facteur d’échelle spécifié, par rapport à la vignette pleine résolution.
 
-`scl= *`}Factor`*`
+`scl= *`&rbrace;Factor`*`
 
 <table id="simpletable_EFE352FA8EF14197B6934783A2883451"> 
  <tr class="strow"> 

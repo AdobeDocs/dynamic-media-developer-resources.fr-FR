@@ -28,11 +28,11 @@ Voir aussi [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> videoUrl </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph"> Chaîne </span> : URL absolue vers la nouvelle vidéo. </p> </td> 
+   <td colname="col2"> <p>&lbrace; <span class="codeph"> Chaîne </span> : URL absolue vers la nouvelle vidéo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> data </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="codeph"> Objet JSON </span> avec les champs facultatifs suivants (sensible à la casse) : </p> <p> 
+   <td colname="col2"> <p>&lbrace; <span class="codeph"> Objet JSON </span> avec les champs facultatifs suivants (sensible à la casse) : </p> <p> 
      <ul id="ul_26121393BC7145FF8A43C05ACCBEFF36"> 
       <li id="li_DA50E073F3D4460CBC34243A2CBCC895"> <span class="codeph"> posterimage </span> : image à afficher sur la première image avant le début de la lecture de la vidéo. Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-videoplayer-posterimage.md#reference-9739abeeb9f64c02b5d2f7a0d1706103" format="dita" scope="local"> VideoPlayer.posterimage </a>. </li> 
       <li id="li_4659E82D38EB4438AAA04FDEAF21B087"> <span class="codeph"> caption </span> - Emplacement du nouveau fichier de sous-titres. Si aucun fichier de légende n’est spécifié, le bouton de légende ne s’affiche pas dans l’interface utilisateur. </li> 

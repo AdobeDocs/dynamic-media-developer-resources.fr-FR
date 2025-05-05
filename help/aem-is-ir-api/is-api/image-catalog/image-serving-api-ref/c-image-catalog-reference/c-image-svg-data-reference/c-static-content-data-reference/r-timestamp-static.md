@@ -1,6 +1,6 @@
 ---
 title: TimeStamp
-description: Si `attribute::UseLastModified` est défini, la valeur `catalog::TimeStamp` est renvoyée dans la réponse HTTP en tant qu’en-tête HTTP Last-Modified. L’en-tête Last-Modified est toujours renvoyé pour le contenu statique, même si "attribute::UseLastModified" n’est pas défini.
+description: Si &grave;attribute::UseLastModified&grave; est défini, la valeur &grave;catalog::TimeStamp&grave; est renvoyée dans la réponse HTTP en tant qu’en-tête HTTP Last-Modified. L’en-tête Last-Modified est toujours renvoyé pour le contenu statique, même si "attribute::UseLastModified" n’est pas défini.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User

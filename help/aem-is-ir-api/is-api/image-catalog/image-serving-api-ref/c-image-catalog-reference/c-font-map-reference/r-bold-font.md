@@ -1,5 +1,5 @@
 ---
-description: Drapeau du visage. Indique si le fichier de polices référencé par cet enregistrement de mappage de polices doit être utilisé lorsque la commande boldface RTF le demande (\b).
+description: Drapeau du visage. Indique si le fichier de polices référencé par cet enregistrement de mappage de polices doit être utilisé lorsque la commande boldface RTF le demande (b).
 solution: Experience Manager
 title: Gras
 feature: Dynamic Media Classic,SDK/API

@@ -58,12 +58,12 @@ Dans le cas contraire, les règles de codage HTTP standard s’appliquent. La sp
    <td colname="col3"> <p>37 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;location; </p> </td> 
+   <td colname="col1"> <p>&location; </p> </td> 
    <td colname="col2"> <p>7B </p> </td> 
    <td colname="col3"> <p>123 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;accolade; </p> </td> 
+   <td colname="col1"> <p>&accolade; </p> </td> 
    <td colname="col2"> <p>7D </p> </td> 
    <td colname="col3"> <p>125 </p> </td> 
   </tr> 
@@ -88,17 +88,17 @@ Dans le cas contraire, les règles de codage HTTP standard s’appliquent. La sp
    <td colname="col3"> <p>126 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;branche; </p> </td> 
+   <td colname="col1"> <p>&branche; </p> </td> 
    <td colname="col2"> <p>5B </p> </td> 
    <td colname="col3"> <p>91 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;track; </p> </td> 
+   <td colname="col1"> <p>&track; </p> </td> 
    <td colname="col2"> <p>5D </p> </td> 
    <td colname="col3"> <p>93 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;grave; </p> </td> 
+   <td colname="col1"> <p>&grave; </p> </td> 
    <td colname="col2"> <p>60 </p> </td> 
    <td colname="col3"> <p>96 </p> </td> 
   </tr> 

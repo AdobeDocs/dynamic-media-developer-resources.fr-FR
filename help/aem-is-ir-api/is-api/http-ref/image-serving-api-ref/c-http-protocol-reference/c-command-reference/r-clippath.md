@@ -81,12 +81,12 @@ Les commandes de chemin d’accès suivantes sont prises en charge dans `*`pathD
    <td> <p> lineto relative </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <b> C</b> *{<span class="varname"> x1,y1,x2,y2,x,y</span> </td> 
+   <td> <b> C</b> *&lbrace;<span class="varname"> x1,y1,x2,y2,x,y</span> </td> 
    <td> <p> curveto absolute </p> </td> 
    <td> <p> Tracez une courbe Bézier de la position actuelle à x,y. x1,y1 est le point de contrôle au début de la courbe et x2,y2 est le point de contrôle à la fin de la courbe. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <b> c</b> *{<span class="varname"> x1,y1,x2,y2,x,y</span> </td> 
+   <td> <b> c</b> *&lbrace;<span class="varname"> x1,y1,x2,y2,x,y</span> </td> 
    <td> <p> curveto relatif </p> </td> 
   </tr> 
   <tr valign="top"> 

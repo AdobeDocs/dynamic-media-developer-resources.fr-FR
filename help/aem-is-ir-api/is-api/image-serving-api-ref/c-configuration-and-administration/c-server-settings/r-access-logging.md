@@ -20,7 +20,7 @@ Syntaxe
 
 ## TC::directory - Log File Folder {#section-5d9e2168d4504bbe9868b7d6051c9d67}
 
-Le dossier dans lequel [!DNL Platform Server] écrit les fichiers journaux. Il peut s’agir d’un chemin absolu ou d’un chemin relatif à *`install_folder`*. La valeur par défaut est [!DNL  *`install_folder`*/logs].
+Le dossier dans lequel [!DNL Platform Server] écrit les fichiers journaux. Il peut s’agir d’un chemin absolu ou d’un chemin relatif à *`install_folder`*. La valeur par défaut est [!DNL &#x200B; *`install_folder`*/logs].
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ Le nombre de jours pendant lesquels les fichiers journaux doivent être conserv�
 
 ## TC::prefix - Nom du fichier journal d’accès {#section-1003856323b844049632710a5a056aa7}
 
-Préfixe du nom du fichier auquel les données du journal d’accès sont écrites. La date et le suffixe de fichier ( [!DNL  *`yyyy`*-*`mm`*-*`dd`*.log]) sont ajoutés à la chaîne spécifiée. Le nom du fichier journal d’accès doit être différent de celui du fichier journal de trace. La valeur par défaut est &quot; `access-`&quot;.
+Préfixe du nom du fichier auquel les données du journal d’accès sont écrites. La date et le suffixe de fichier ( [!DNL &#x200B; *`yyyy`*-*`mm`*-*`dd`*.log]) sont ajoutés à la chaîne spécifiée. Le nom du fichier journal d’accès doit être différent de celui du fichier journal de trace. La valeur par défaut est &quot; `access-`&quot;.
 
 ## TC::pattern - Modèle de journal d’accès {#section-22775ea85cee444d8a7d7336a3b1feef}
 
@@ -206,7 +206,7 @@ Les variables de modèle suivantes sont prises en charge :
    <td> <p>La valeur de l’en-tête de requête HTTP spécifié. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> %{ <span class="varname"> httpResponseHeader </span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> %&lbrace; <span class="varname"> httpResponseHeader </span> </span> </p> </td> 
    <td> <p>La valeur de l’en-tête de réponse HTTP spécifié. </p> </td> 
   </tr> 
  </tbody> 

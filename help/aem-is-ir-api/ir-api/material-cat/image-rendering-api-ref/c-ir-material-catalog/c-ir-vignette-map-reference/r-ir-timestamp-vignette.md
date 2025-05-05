@@ -30,7 +30,7 @@ Valeur de date/heure au format Java™. Il peut s’agir du nombre entier de mil
 
 *[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]* : *[!DNL mm]* : *[!DNL ss]* *[!DNL zzz]*
 
-*[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]* : *[!DNL mm]*: *[!DNL ss]*GMT *[!DNL offset]*
+*[!DNL mm]*/ *[!DNL dd]*/ *[!DNL yyyy]* *[!DNL hh]* : *[!DNL mm]*: *[!DNL ss]*&#x200B;GMT *[!DNL offset]*
 
 * *[!DNL hh]* est compris entre 0 et 23.
 * *[!DNL zzz]* est un code de fuseau horaire de trois ou quatre caractères tel que &quot;GMT&quot; ou &quot;PST&quot;. L’heure d’été doit être prise en compte dans le code de fuseau horaire (par exemple, &quot;PST&quot; pour l’heure normale du Pacifique, et &quot;PDT&quot; pour l’heure d’été du Pacifique).

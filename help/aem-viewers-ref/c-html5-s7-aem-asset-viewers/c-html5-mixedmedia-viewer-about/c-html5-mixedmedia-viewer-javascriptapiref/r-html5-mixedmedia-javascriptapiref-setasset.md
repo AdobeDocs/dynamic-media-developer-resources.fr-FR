@@ -24,11 +24,11 @@ Voir aussi [init](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewe
 
 ## Paramètres {#section-4fb77a645fdd45b3aaa5079c31e3bb05}
 
-`*`asset`*` - { `String` nouvel identifiant de ressource ou jeu de médias mixtes explicite, avec les modificateurs de diffusion d’images facultatifs ajoutés après `?`.
+`*`asset`*` - &lbrace; `String` nouvel identifiant de ressource ou jeu de médias mixtes explicite, avec les modificateurs de diffusion d’images facultatifs ajoutés après `?`.
 
 Les images qui utilisent IR (Image Rendering) ou UGC (User-Generated Content) ne sont pas prises en charge par cette visionneuse.
 
-`*`data`*` - { `JSON` emplacement du nouveau fichier de sous-titres.
+`*`data`*` - &lbrace; `JSON` emplacement du nouveau fichier de sous-titres.
 
 Si elle n’est pas spécifiée, le bouton de légende n’est pas visible dans l’interface utilisateur. Les sous-titres spécifiés avec ce paramètre s’appliquent à la vidéo qui apparaît en premier dans la visionneuse de supports variés ; les vidéos suivantes sont lues sans sous-titres. Cette visionneuse prend en charge les identifiants de composant suivants :
 

@@ -46,7 +46,7 @@ Cette section décrit la syntaxe de base du protocole HTTP de rendu d’image Dy
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> command </span> </p> </td> 
-   <td colname="col2"> <p>{ <span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } [ = <span class="varname"> value</span> ] </p> </td> 
+   <td colname="col2"> <p>&lbrace; <span class="varname"> cmdName</span> | { $<span class="varname"> var</span> } [ = <span class="varname"> value</span> ] </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> macro </span> </p> </td> 

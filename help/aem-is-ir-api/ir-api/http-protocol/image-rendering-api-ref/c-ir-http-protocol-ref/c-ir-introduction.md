@@ -95,6 +95,6 @@ On suppose que le lecteur connaît bien la création et le rendu d’images Dyna
 
 **Termes communs**
 
-** *`MSS`* ** Segment de spécification de matière : ensemble d’attributs matériels entre deux commandes de sélection dans la requête.
+**&#x200B; *`MSS`* &#x200B;** Segment de spécification de matière : ensemble d’attributs matériels entre deux commandes de sélection dans la requête.
 
-** *`vignette`* ** Image préparée dans Dynamic Media Image Authoring pour une utilisation avec le rendu d’image.
+**&#x200B; *`vignette`* &#x200B;** Image préparée dans Dynamic Media Image Authoring pour une utilisation avec le rendu d’image.

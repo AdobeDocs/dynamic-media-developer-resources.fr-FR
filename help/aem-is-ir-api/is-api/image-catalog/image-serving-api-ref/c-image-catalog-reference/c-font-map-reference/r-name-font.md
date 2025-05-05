@@ -1,5 +1,5 @@
 ---
-description: Nom de la police. Nom du visage de la police, tel qu’indiqué dans la commande RTF \fonttbl .
+description: Nom de la police. Nom du visage de la police, tel qu’indiqué dans la commande RTF fonttbl .
 solution: Experience Manager
 title: Nom
 feature: Dynamic Media Classic,SDK/API

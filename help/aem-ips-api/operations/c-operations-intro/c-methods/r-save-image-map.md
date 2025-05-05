@@ -85,7 +85,7 @@ Syntaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> action </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> <p>La valeur <span class="codeph"> href </span> associée à la zone cliquable, comme indiqué dans l’interface IPS. </p> <p>Pour obtenir la valeur <span class="codeph"> href </span> , cliquez sur l’image dans l’interface IPS, copiez et collez l’URL dans cet élément, puis formatez l’URL IPS en tant qu’URL appropriée. Par exemple, <span class="codeph"> &amp; </span> devient <span class="codeph"> &amp;amp; </span>. </p> </td> 
+   <td colname="col4"> <p>La valeur <span class="codeph"> href </span> associée à la zone cliquable, comme indiqué dans l’interface IPS. </p> <p>Pour obtenir la valeur <span class="codeph"> href </span> , cliquez sur l’image dans l’interface IPS, copiez et collez l’URL dans cet élément, puis formatez l’URL IPS en tant qu’URL appropriée. Par exemple, <span class="codeph"> &amp; </span> devient <span class="codeph"> &amp; </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> position </span> </span> </td> 
