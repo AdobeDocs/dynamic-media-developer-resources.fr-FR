@@ -25,7 +25,7 @@ Cette section décrit les commandes de protocole HTTP.
 >* Bande passante réseau
 >* DPR (rapport pixel d’appareil)
 >
->Pour découvrir à quel point il est facile d’utiliser Snapshot, regardez la [vidéo de formation Snapshot](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) (3 minutes et 17 secondes).
+>Pour découvrir à quel point il est facile d’utiliser Snapshot, regardez la [vidéo de formation Snapshot](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=fr) (3 minutes et 17 secondes).
 
 
 **Pour Dynamic Media dans Adobe Experience Manager uniquement** - En plus des paramètres d’image de base disponibles dans l’interface utilisateur, [!DNL Dynamic Media] dans AEM ( [!DNL Adobe Experience Manager]) prend en charge de nombreuses modifications d’image avancées que vous pouvez spécifier dans le champ **Modificateurs d’image**. Ces paramètres sont définis ci-dessous. Sachez toutefois que la fonctionnalité suivante n’est pas prise en charge dans Dynamic Media dans AEM.
@@ -42,7 +42,7 @@ Cette section décrit les commandes de protocole HTTP.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-Consultez également la section Dynamic Media [Options d’image prédéfinies](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) dans la documentation d’AEM 6.5.
+Consultez également la section Dynamic Media [Options d’image prédéfinies](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html?lang=fr#dynamic) dans la documentation d’AEM 6.5.
 
 * [aligner](r-align.md)
 * [ancrage](r-anchor.md)
