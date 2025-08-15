@@ -1,5 +1,5 @@
 ---
-description: Les paramètres de configuration du rendu d’image sont stockés dans le fichier de configuration  [!DNL Platform Server] .
+description: Les paramètres de configuration du rendu d’image sont stockés dans le fichier  [!DNL Platform Server]  configuration .
 solution: Experience Manager
 title: Fichiers de configuration
 feature: Dynamic Media Classic,SDK/API
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # Fichiers de configuration{#configuration-files}
 
-Les paramètres de configuration du rendu d’image sont stockés dans le fichier de configuration [!DNL Platform Server].
+Les paramètres de configuration du rendu d’image sont stockés dans le fichier de configuration de [!DNL Platform Server].
 
-Le fichier de configuration du serveur de plateforme se trouve à l’adresse [!DNL *[!DNL install_root]*/ImageServing/conf/PlatformServer.conf]. Ce fichier est un fichier de propriétés JAVA. Il faut veiller à respecter les conventions appropriées, sinon [!DNL Platform Server] risque de ne pas démarrer. Une double barre oblique inverse (`\\`) ou une seule barre oblique inverse (/) doit être utilisée à la place d’une simple barre oblique inverse (\) dans les chemins d’accès aux fichiers Windows, car la barre oblique inverse est utilisée comme caractère d’échappement dans ce type de fichier. Le fichier contient des propriétés non documentées, qui sont destinées à un usage interne du serveur et ne doivent pas être modifiées.
+Le fichier de configuration du serveur Platform se trouve à l’emplacement suivant : [!DNL *[!DNL install_root]*/ImageServing/conf/PlatformServer.conf]. Ce fichier est un fichier de propriétés JAVA. Veillez à respecter les conventions appropriées, sinon le [!DNL Platform Server] risque de ne pas démarrer. Une double barre oblique inverse (`\\`) ou une simple barre oblique inverse (/) doit être utilisée au lieu d’une simple barre oblique inverse (\) dans les chemins d’accès aux fichiers Windows, car la barre oblique inverse est utilisée comme caractère d’échappement dans ce type de fichier. Le fichier contient des propriétés non documentées, qui sont destinées à une utilisation interne au serveur et ne doivent pas être modifiées.
 
-Pour obtenir la liste de tous les paramètres de configuration de rendu d’image, reportez-vous à la [référence des paramètres de configuration](../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-configuration-settings-reference.md#concept-6947a512d4c94e9fb8a71b80243fee81).
+Pour obtenir la liste de tous les paramètres de configuration de rendu d’image[ reportez-vous à la ](../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-configuration-settings-reference.md#concept-6947a512d4c94e9fb8a71b80243fee81) Référence des paramètres de configuration .

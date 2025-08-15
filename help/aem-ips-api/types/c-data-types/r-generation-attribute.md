@@ -1,5 +1,5 @@
 ---
-description: Une paire nom-valeur qui contient des informations sur une étape de génération de ressources. Voir getGenerationInfo.
+description: Paire nom-valeur contenant des informations sur une étape de génération de ressources. Voir getGenerationInfo.
 solution: Experience Manager
 title: GenerationAttribute
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # [!DNL GenerationAttribute]{#generationattribute}
 
-Une paire nom-valeur qui contient des informations sur une étape de génération de ressources. Voir getGenerationInfo.
+Paire nom-valeur contenant des informations sur une étape de génération de ressources. Voir getGenerationInfo.
 
 Syntaxe
 

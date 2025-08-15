@@ -1,5 +1,5 @@
 ---
-description: Statistiques sur l’espace disque pour une ressource ou un dossier.
+description: Statistiques d’espace disque pour une ressource ou un dossier.
 solution: Experience Manager
 title: DiskUsage
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # [!DNL DiskUsage]{#diskusage}
 
-Statistiques sur l’espace disque pour une ressource ou un dossier.
+Statistiques d’espace disque pour une ressource ou un dossier.
 
 Syntaxe
 
@@ -22,8 +22,8 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| companyHandle | `xsd:string` | Poignée de la société. |
+| companyHandle | `xsd:string` | Identifiant de la société. |
 | companyName | `xsd:string` | Nom de la société. |
 | imageCount | `xsd:int` | Nombre d’images stockées. |
 | diskSpaceUsage | `xsd:long` | Côté fichier total en kilo-octets. |
-| lastModified | `xsd:dateTime` | Date, heure et fuseau horaire de la dernière modification du type `DiskUsage`. |
+| lastModified | `xsd:dateTime` | Date, heure et fuseau horaire de la dernière modification du type de `DiskUsage`. |

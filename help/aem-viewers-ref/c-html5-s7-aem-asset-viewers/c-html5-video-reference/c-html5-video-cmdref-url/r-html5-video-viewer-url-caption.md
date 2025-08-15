@@ -1,6 +1,6 @@
 ---
-title: caption
-description: Commande URL de la visionneuse de vidéos.
+title: légende
+description: URL de la visionneuse vidéo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -12,13 +12,13 @@ ht-degree: 5%
 
 ---
 
-# caption{#caption}
+# légende{#caption}
 
-Commande URL de la visionneuse de vidéos.
+URL de la visionneuse vidéo.
 
-` caption= *`file`*[,0|1]`
+` caption= *`lime`*[,0|1]`
 
-La visionneuse prend en charge le sous-titrage codé par le biais de fichiers WebVTT hébergés. Les indicateurs de chevauchement et les régions ne sont pas pris en charge. Les opérateurs de positionnement de repère pris en charge sont les suivants :
+La visionneuse prend en charge le sous-titrage codé via des fichiers WebVTT hébergés. Les repères et les régions qui se chevauchent ne sont pas pris en charge. Les opérateurs de positionnement de repères pris en charge sont les suivants :
 
 <table id="table_62D89A06EC9E4E7983D1F26A2C85A621"> 
  <thead> 
@@ -32,27 +32,27 @@ La visionneuse prend en charge le sous-titrage codé par le biais de fichiers We
  <tbody> 
   <tr> 
    <td colname="col1"> <p> A </p> </td> 
-   <td colname="col2"> <p>alignement de texte </p> </td> 
-   <td colname="col3"> <p><span class="codeph"> left|right|middle|start|end</span> </p> </td> 
-   <td colname="col4"> <p> Contrôler l’alignement du texte. </p> <p>La valeur par défaut est <span class="codeph"> middle</span>. </p> </td> 
+   <td colname="col2"> <p>Alignement du texte </p> </td> 
+   <td colname="col3"> <p><span class="codeph"> gauche|droite|milieu|début|fin</span> </p> </td> 
+   <td colname="col4"> <p> Contrôle de l’alignement du texte. </p> <p>La valeur par défaut est <span class="codeph"> le milieu</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>T </p> </td> 
-   <td colname="col2"> <p>position du texte </p> </td> 
-   <td colname="col3"> <p> 0 à 100 % </p> </td> 
-   <td colname="col4"> <p> Pourcentage d’insertion dans le composant VideoPlayer pour le début du texte de la légende. </p> <p>La valeur par défaut est de 0 %. </p> </td> 
+   <td colname="col2"> <p>Position du texte </p> </td> 
+   <td colname="col3"> <p> 0%-100% </p> </td> 
+   <td colname="col4"> <p> Pourcentage d’insertion dans le composant Lecteur vidéo au début du texte du sous-titre. </p> <p>La valeur par défaut est 0 %. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
-   <td colname="col2"> <p>taille de ligne </p> </td> 
-   <td colname="col3"> <p> 0 à 100 % </p> </td> 
-   <td colname="col4"> <p> Pourcentage de la largeur de la vidéo utilisée pour les sous-titres. </p> <p>La valeur par défaut est de 100 %. </p> </td> 
+   <td colname="col2"> <p>Taille de ligne </p> </td> 
+   <td colname="col3"> <p> 0%-100% </p> </td> 
+   <td colname="col4"> <p> Pourcentage de la largeur de la vidéo utilisée pour les sous-titres. </p> <p>La valeur par défaut est 100 %. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>L </p> </td> 
-   <td colname="col2"> <p>position de ligne </p> </td> 
-   <td colname="col3"> <p> 0%-100%|integer </p> </td> 
-   <td colname="col4"> <p> Détermine la position de la ligne sur la page. </p> <p>S’il est exprimé sous la forme d’un entier (aucun signe de pourcentage), il s’agit du nombre de lignes du haut où le texte est affiché. </p> <p>S’il s’agit d’un pourcentage (le signe de pourcentage est le dernier caractère), le texte de la légende s’affiche avec ce pourcentage dans la zone d’affichage. </p> <p>La valeur par défaut est de 100 %. </p> </td> 
+   <td colname="col2"> <p>Position de la ligne </p> </td> 
+   <td colname="col3"> <p> 0 %-100 %|nombre entier </p> </td> 
+   <td colname="col4"> <p> Détermine la position de la ligne sur la page. </p> <p>S’il est exprimé sous la forme d’un entier (sans signe de pourcentage), il s’agit du nombre de lignes à partir du haut où le texte est affiché. </p> <p>S’il s’agit d’un pourcentage (le signe de pourcentage est le dernier caractère), le texte de la légende est affiché ce pourcentage dans la zone d’affichage. </p> <p>La valeur par défaut est 100 %. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,12 +62,12 @@ Les autres fonctionnalités WebVTT présentes dans le fichier WebVTT ne sont pas
 <table id="table_A5BB1C08DA4B425DBD0356C7D3693E75"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> file</span></span> </p> </td> 
-   <td colname="col2"> <p> Spécifie une URL ou un chemin d’accès au contenu de la légende WebVTT. Servez le fichier WebVTT par ImageServing. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> lime</span></span> </p> </td> 
+   <td colname="col2"> <p> Indique une URL ou un chemin d’accès au contenu du sous-titrage WebVTT. Présentez le fichier WebVTT par ImageServing. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Indique l’état de la légende par défaut (activé est <span class="codeph"> 1</span>). </p> </td> 
+   <td colname="col2"> <p> Indique l’état par défaut de la légende (l’option est <span class="codeph"> 1</span>). </p> </td> 
   </tr> 
  </tbody> 
 </table>

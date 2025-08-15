@@ -1,5 +1,5 @@
 ---
-description: Les catalogues d’images fournissent de nombreux paramètres de configuration du serveur, ainsi que les polices, les profils ICC et les macros de commande.
+description: Les catalogues d’images fournissent de nombreux paramètres de configuration du serveur, ainsi que des polices, des profils ICC et des macros de commande.
 solution: Experience Manager
 title: Catalogues d’images
 feature: Dynamic Media Classic,SDK/API
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # Catalogues d’images{#image-catalogs}
 
-Les catalogues d’images fournissent de nombreux paramètres de configuration du serveur, ainsi que les polices, les profils ICC et les macros de commande.
+Les catalogues d’images fournissent de nombreux paramètres de configuration du serveur, ainsi que des polices, des profils ICC et des macros de commande.
 
-Ils mappent les identifiants d’image et de contenu statique utilisés dans les demandes aux chemins d’accès aux fichiers réels, stockent diverses métadonnées d’image, telles que les zones cliquables, et fournissent des conteneurs pour les modèles et les visionneuses d’images.
+Ils mappent les identifiants d’image et de contenu statique utilisés dans les requêtes aux chemins d’accès de fichiers réels, stockent diverses métadonnées d’image, telles que les zones cliquables, et fournissent des conteneurs pour les modèles et les visionneuses d’images.
 
-Les catalogues d’images sont accessibles uniquement par le [!DNL Platform Server], et jamais par le serveur d’images. Les fichiers d’attributs du catalogue doivent avoir un suffixe .ini et être placés dans le dossier de catalogue de [!DNL Platform Server] ( `PS::CatalogFolder`). Au moins, le catalogue d’images par défaut est requis et doit être renseigné avec tous les attributs pour le bon fonctionnement de [!DNL Platform Server].
+Les catalogues d’images ne sont accessibles que par le [!DNL Platform Server], et jamais par le serveur d’images. Les fichiers d’attributs de catalogue doivent comporter un suffixe .ini et être placés dans le dossier de catalogue du [!DNL Platform Server] ( `PS::CatalogFolder`). Le catalogue d’images par défaut est au moins obligatoire et doit être renseigné avec tous les attributs pour un fonctionnement correct du [!DNL Platform Server].

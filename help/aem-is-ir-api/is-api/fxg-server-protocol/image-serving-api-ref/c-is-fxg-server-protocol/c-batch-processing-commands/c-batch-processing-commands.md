@@ -1,5 +1,5 @@
 ---
-description: Les commandes suivantes comprennent l’API de traitement par lot exposée par PlatformServer.
+description: Les commandes suivantes comprennent l’API de traitement par lots exposée par PlatformServer.
 solution: Experience Manager
 title: Commandes de traitement par lots
 feature: Dynamic Media Classic,SDK/API
@@ -14,16 +14,16 @@ ht-degree: 0%
 
 # Commandes de traitement par lots{#batch-processing-commands}
 
-Les commandes suivantes comprennent l’API de traitement par lot exposée par PlatformServer.
+Les commandes suivantes comprennent l’API de traitement par lots exposée par PlatformServer.
 
-Elles sont spécifiées au format de requête spécial : `?req=<command>`
+Celles-ci sont spécifiées dans le format de demande spéciale comme suit : `?req=<command>`
 
-Les exemples présentés pour ces commandes utilisent une URL fictive `PlatformServer` &quot; [!DNL scene7.adobe.com:8080]&quot; et une société fictive nommée AcmeCorp. L’ID de tâche est également fictif.
+Les exemples présentés pour ces commandes utilisent une URL fictive `PlatformServer` &quot; [!DNL scene7.adobe.com:8080]&quot; et une société fictive appelée AcmeCorp. L’ID de tâche est également fictif.
 
-* [batchjobstatus](r-batchjobbriefstatus.md)
-* [batchjobdelete](r-batchjobdelete.md)
-* [batchjobdetailedstatus](r-batchjobdetailedstatus.md)
-* [batchjobgetoutput](r-batchjobgetoutput.md)
-* [batchjobsubmit](r-batchjobsubmit.md)
-* [jobdata](r-jobdata.md)
-* [jobid](r-jobid.md)
+* [BatchJobBriefStatus](r-batchjobbriefstatus.md)
+* [Suppression de traitement par lots](r-batchjobdelete.md)
+* [BatchJobDetailedStatus](r-batchjobdetailedstatus.md)
+* [BatchJobGetOutput](r-batchjobgetoutput.md)
+* [BatchJobSubmit](r-batchjobsubmit.md)
+* [Données de tâche](r-jobdata.md)
+* [ID de jobid](r-jobid.md)

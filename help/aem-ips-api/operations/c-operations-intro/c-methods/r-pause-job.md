@@ -1,5 +1,5 @@
 ---
-description: Met une tâche active en pause.
+description: Suspend un traitement actif.
 solution: Experience Manager
 title: pauseJob
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # pauseJob{#pausejob}
 
-Met une tâche active en pause.
+Suspend un traitement actif.
 
 Syntaxe
 
@@ -31,20 +31,20 @@ Syntaxe
 
 ## Paramètres {#section-7aedb924cf8b4e05a0dc927636d537a0}
 
-**Entrée (pauseJobParam)**
+**Input (pauseJobParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Traitez la société. |
-| jobHandle | `xsd:string` | Oui | Gérez la tâche que vous souhaitez mettre en pause. |
+| companyHandle | `xsd:string` | Oui | Gérer vers la société. |
+| jobHandle | `xsd:string` | Oui | Placez le pointeur sur la tâche que vous souhaitez suspendre. |
 
-**Sortie (PauseJobReturn)**
+**Output (PauseJobReturn)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-ee4914f9496f4bd88556728a48fb22c1}
 
-Cet exemple de code met une tâche active en pause.
+Cet exemple de code met en pause une tâche active.
 
 **Requête**
 

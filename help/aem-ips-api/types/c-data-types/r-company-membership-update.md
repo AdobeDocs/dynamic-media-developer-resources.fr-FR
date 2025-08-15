@@ -1,7 +1,7 @@
 ---
-description: CompanyMembershipUpdate
+description: Mise à jour de l’appartenance de l’entreprise
 solution: Experience Manager
-title: CompanyMembershipUpdate
+title: Mise à jour de l’appartenance de l’entreprise
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c88202f3-df21-4026-aa92-212d3c05f242
@@ -20,6 +20,6 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| companyHandle | `xsd:string` | Traitez la société. |
-| rôle | `xsd:string` | Le rôle d’un utilisateur pour chaque entreprise à laquelle il appartient. |
-| isActive | `xsd:boolean` | Définit l’état de l’utilisateur pour chaque société à laquelle il appartient. |
+| CompanyHandle | `xsd:string` | Manipuler à la société. |
+| rôle | `xsd:string` | Rôle de l’utilisateur pour chaque entreprise à laquelle il appartient. |
+| isActive | `xsd:boolean` | Définit l’état de l’utilisateur pour chaque entreprise à laquelle il appartient. |

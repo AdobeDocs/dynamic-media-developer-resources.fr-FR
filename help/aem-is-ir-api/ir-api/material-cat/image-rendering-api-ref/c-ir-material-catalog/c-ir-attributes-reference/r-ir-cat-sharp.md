@@ -1,6 +1,6 @@
 ---
 title: Sharp
-description: Accentuation des matériaux par défaut. Définit le mode d’accentuation des matériaux par défaut lorsqu’un enregistrement de catalogue particulier ne contient pas de valeur d’accentuation de catalogue valide.
+description: Accentuation par défaut du matériau. Définit le mode d’accentuation de matériau par défaut au cas où un enregistrement de catalogue spécifique ne contiendrait aucune valeur d’accentuation de catalogue valide.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,16 +14,16 @@ ht-degree: 10%
 
 # Sharp{#sharp}
 
-Accentuation des matériaux par défaut. Définit le mode d’accentuation des matériaux par défaut lorsqu’un enregistrement de catalogue particulier ne contient pas de valeur `catalog::Sharp` valide.
+Accentuation par défaut du matériau. Définit le mode d’accentuation de matériau par défaut au cas où un enregistrement de catalogue spécifique ne contiendrait aucune valeur de `catalog::Sharp` valide.
 
 ## Propriétés {#section-dcb810d01b8a40eb991d555a3cbe48b9}
 
-Enum.
+Énumération.
 
 <table id="simpletable_2D94A380BC2D4FD1A7EDD45E6EAFD1FB"> 
  <tr class="strow"> 
   <td class="stentry"> <p>01 </p></td> 
-  <td class="stentry"> <p>Aucune accentuation. </p></td> 
+  <td class="stentry"> <p>Aucun accentuation. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p></td> 
@@ -31,17 +31,17 @@ Enum.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p></td> 
-  <td class="stentry"> <p>Autre accentuation (avant la transformation). </p></td> 
+  <td class="stentry"> <p>Accentuation alternative (avant la transformation). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>Plus d’accentuation (avant et après la transformation). </p> </td> 
+  <td class="stentry"> <p>Accentuation supplémentaire (avant et après la transformation). </p> </td> 
  </tr> 
 </table>
 
 ## Par défaut {#section-613130fca7c04ce7a7734265f27aa1ea}
 
-Hérité de `default::Sharp` si elle n’est pas définie ou si elle est vide.
+Hérité de `default::Sharp` si non défini ou si vide.
 
 ## Voir aussi {#section-7771824f2822443ab0297e8793bb48ae}
 

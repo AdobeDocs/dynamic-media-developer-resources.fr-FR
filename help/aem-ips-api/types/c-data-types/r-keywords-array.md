@@ -1,7 +1,7 @@
 ---
-description: Tableau de mots-clés.
+description: Gamme de mots-clés.
 solution: Experience Manager
-title: KeywordsArray
+title: Tableau des mots-clés
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ec87de9e-f3d0-404e-b16f-4c5d373e5a6f
@@ -14,7 +14,7 @@ ht-degree: 31%
 
 # [!DNL KeywordsArray]{#keywordsarray}
 
-Tableau de mots-clés.
+Gamme de mots-clés.
 
 Syntaxe
 
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| éléments | `types:Keywords` | Tableau de mots-clés. |
+| éléments | `types:Keywords` | Gamme de mots-clés. |

@@ -1,5 +1,5 @@
 ---
-description: Ce document fournit des informations sur les protocoles de serveur FXG et leur syntaxe.
+description: Ce document contient des informations sur les protocoles serveur FXG et leur syntaxe.
 solution: Experience Manager
 title: Référence du protocole du serveur FXG
 feature: Dynamic Media Classic,SDK/API
@@ -14,23 +14,23 @@ ht-degree: 2%
 
 # Référence du protocole du serveur FXG{#fxg-server-protocol-reference}
 
-Ce document fournit des informations sur les protocoles de serveur FXG et leur syntaxe.
+Ce document contient des informations sur les protocoles serveur FXG et leur syntaxe.
 
-* [bleedmargin](r-bleedmargin.md)
+* [Marge de fond perdu](r-bleedmargin.md)
 * [cache](r-is-fxg-cache.md)
-* [convertTextToOutlines](r-convertextoutlines.md)
+* [convertir le texte vers les contours](r-convertextoutlines.md)
 * [enableVisibleAttributeOptimization](r-enablevisibleattributeoptimization.md)
-* [fmt](r-is-fxg-fmt.md)
-* [hei](r-is-fxg-hei.md)
-* [imageRes](r-imageres.md)
-* [joboption](r-joboption.md)
-* [markOverflowTextFrames](r-markoverflowingtextframes.md)
-* [mediaMargin](r-mediamargin.md)
+* [Fmt](r-is-fxg-fmt.md)
+* [Hei](r-is-fxg-hei.md)
+* [Rés d’image](r-imageres.md)
+* [Option de tâche](r-joboption.md)
+* [MarkOverflowingTextFrames](r-markoverflowingtextframes.md)
+* [Marge du média](r-mediamargin.md)
 * [page](r-page.md)
-* [printerMark](r-printermark.md)
+* [marque d’imprimante](r-printermark.md)
 * [qlt](r-is-fxg-qlt.md)
-* [quantifier](r-is-fxg-quantize.md)
-* [req](r-req-oversetstatus.md)
-* [scale](r-is-fxg-scale.md)
-* [trimMargin](r-trimmargin.md)
-* [wid](r-is-fxg-wid.md)
+* [Quantification](r-is-fxg-quantize.md)
+* [Req](r-req-oversetstatus.md)
+* [écaille](r-is-fxg-scale.md)
+* [Marge de rognage](r-trimmargin.md)
+* [Wid](r-is-fxg-wid.md)

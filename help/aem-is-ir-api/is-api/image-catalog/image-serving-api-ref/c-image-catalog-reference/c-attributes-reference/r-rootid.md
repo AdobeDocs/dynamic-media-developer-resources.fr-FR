@@ -1,5 +1,5 @@
 ---
-description: Identifiant du catalogue. L’élément de chemin d’accès HTTP utilisé pour identifier ce catalogue dans le spécificateur d’objet image d’une requête.
+description: Identifiant du catalogue. Élément de chemin HTTP utilisé pour identifier ce catalogue dans le spécificateur d’objet d’image d’une requête.
 solution: Experience Manager
 title: RootId
 feature: Dynamic Media Classic,SDK/API
@@ -14,15 +14,15 @@ ht-degree: 4%
 
 # RootId{#rootid}
 
-Identifiant du catalogue. L’élément de chemin d’accès HTTP utilisé pour identifier ce catalogue dans le spécificateur d’objet image d’une requête.
+Identifiant du catalogue. Élément de chemin HTTP utilisé pour identifier ce catalogue dans le spécificateur d’objet d’image d’une requête.
 
 ## Propriétés {#section-9a49da71de634378a06d2347790898a0}
 
-Valeur de chaîne de texte. Ne peuvent inclure que des caractères valides dans les chemins HTTP.
+Valeur de chaîne de texte. Ne peut inclure que des caractères valides dans les chemins HTTP.
 
 ## Par défaut {#section-c5296f4e52394984bf1c0d265ecde940}
 
-Aucun. Chaque catalogue doit avoir une valeur `attribute::RootId` unique. [!DNL default.ini] a généralement un `attribute::RootId` vide.
+Aucune. Chaque catalogue doit avoir une valeur de `attribute::RootId` unique. [!DNL default.ini] comporte généralement un `attribute::RootId` vide.
 
 ## Voir aussi {#section-5297eaaf736b4db5901e0b37e7cb8bbe}
 

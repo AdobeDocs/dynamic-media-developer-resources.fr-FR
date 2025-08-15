@@ -1,6 +1,6 @@
 ---
 title: Propriétés
-description: 'Les données de propriété sont renvoyées en réponse aux types req= suivants : imageprops et props.'
+description: Les données de propriété sont renvoyées en réponse à req= types imageprops et props.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Les données de propriété sont renvoyées en réponse aux types req= suivants : imageprops et props.
 
-Les données de réponse sont formatées pour être lisibles en tant que propriétés Java™. Une réponse de propriétés de texte standard présente la structure générale suivante :
+Les données de réponse sont formatées pour être lisibles en tant que propriétés Java™. Une réponse de propriétés de texte standard possède la structure générale suivante :
 
 `#S7Z OK`
 
@@ -24,9 +24,9 @@ Les données de réponse sont formatées pour être lisibles en tant que propri�
 
 ` *[!DNL objectName.propertyName]*= *[!DNL propertyValue]*`
 
-..
+...
 
-` *[!DNL propertyValue]*` Peut être vide. L’espace blanc est facultatif au début et à la fin de chaque ligne, avant et après le séparateur &quot;=&quot;. Les valeurs de chaîne peuvent être entourées de guillemets simples ou doubles, mais ils ne sont pas obligatoires.
+` *[!DNL propertyValue]*` peut être vide. Les espaces sont facultatifs au début et à la fin de chaque ligne, ainsi qu&#39;avant et après le séparateur « = ». Des guillemets simples ou doubles peuvent être utilisés pour entourer les valeurs de chaîne, mais ils ne sont pas obligatoires.
 
 Les valeurs de chaîne peuvent contenir des caractères d’échappement de style JAVA, tels que `\n`, `\t`, `\:` ou `\\`.
 

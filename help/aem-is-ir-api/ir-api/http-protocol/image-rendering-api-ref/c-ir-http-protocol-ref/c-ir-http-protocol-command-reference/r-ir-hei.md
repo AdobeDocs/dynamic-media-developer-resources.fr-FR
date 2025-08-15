@@ -1,6 +1,6 @@
 ---
-title: hei
-description: Hauteur de l’image de réponse. Indique la mise à l’échelle de l’image rendue de sorte que la hauteur de l’image de réponse ne soit pas supérieure à la valeur spécifiée, tout en conservant les proportions de l’image.
+title: établissement d'enseignement supérieur
+description: Hauteur de l’image de réponse. Indique la mise à l’échelle de l’image rendue afin que la hauteur de l’image de réponse ne dépasse pas la valeur spécifiée, tout en conservant les proportions de l’image.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,24 +12,24 @@ ht-degree: 1%
 
 ---
 
-# hei{#hei}
+# établissement d&#39;enseignement supérieur{#hei}
 
-Hauteur de l’image de réponse. Indique la mise à l’échelle de l’image rendue de sorte que la hauteur de l’image de réponse ne soit pas supérieure à la valeur spécifiée, tout en conservant les proportions de l’image.
+Hauteur de l’image de réponse. Indique la mise à l’échelle de l’image rendue afin que la hauteur de l’image de réponse ne dépasse pas la valeur spécifiée, tout en conservant les proportions de l’image.
 
 `hei= *`val`*`
 
 <table id="simpletable_C3A31CA539DC4D9F8BE50290D1AFA5CA"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> val</span> </span> </p></td> 
-  <td class="stentry"> <p>Hauteur de l’image de réponse en pixels (nombre entier supérieur à 0). </p></td> 
+  <td class="stentry"> <p>Hauteur de l’image de réponse en pixels (entier supérieur à 0). </p></td> 
  </tr> 
 </table>
 
-L’image n’est pas complétée si `wid=` et `hei=` sont spécifiés et que la largeur/hauteur est différente des proportions de l’image.
+L’image n’est pas complétée si les paramètres `wid=` et `hei=` sont spécifiés et si le rapport largeur/hauteur est différent du rapport d’aspect de l’image.
 
-`wid=` et `hei=` travaillent ensemble pour définir la taille de l’image renvoyée par le serveur. Si `scl=` se trouve après `wid=` ou `hei=` dans l’URL, il annule ces commandes et `scl=` définit la taille de l’image renvoyée par le serveur.
+`wid=` et `hei=` fonctionnent ensemble pour définir la taille de l’image renvoyée par le serveur. Si `scl=` vient après `wid=` ou `hei=` dans l’URL, il annule ces commandes et `scl=` définit la taille de l’image renvoyée par le serveur.
 
-Cependant, si `wid=` ou `hei=` se trouve après `scl=` dans l’URL, ils annulent `scl=` et `wid=`/ `hei=` définissent la taille de l’image renvoyée par le serveur.
+Cependant, si `wid=` ou `hei=` vient après `scl=` dans l’URL, ils annulent `scl=` et `wid=`/ `hei=` définissent la taille de l’image renvoyée par le serveur.
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ Cependant, si `wid=` ou `hei=` se trouve après `scl=` dans l’URL, ils annulen
 
 ## Propriétés {#section-6cbc6acd37c847beab84c896ac25280c}
 
-Peut se produire n’importe où dans la requête. Le redimensionnement de l’image avec `wid=`, `hei=` ou `scl=` ne modifie pas la valeur de résolution d’impression incorporée dans l’image de réponse. Ignoré si `scl=` survient après `wid=` et/ou `hei=` dans la séquence de commande.
+Peut se produire n’importe où dans la requête. Le redimensionnement de l’image avec `wid=`, `hei=` ou `scl=` ne modifie pas la valeur de résolution d’impression incorporée dans l’image de réponse. Ignoré si `scl=` se produit après `wid=` et/ou `hei=` dans la séquence de commandes.
 
 ## Par défaut {#section-61043f6c1f5d450883ff9e5eafd95955}
 

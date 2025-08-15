@@ -1,5 +1,5 @@
 ---
-description: Met à jour l’état du contexte de publication d’une ressource.
+description: Met à jour l’état du contexte de publication pour une ressource.
 solution: Experience Manager
 title: ContextStateUpdate
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # [!DNL ContextStateUpdate]{#contextstateupdate}
 
-Met à jour l’état du contexte de publication d’une ressource.
+Met à jour l’état du contexte de publication pour une ressource.
 
 Syntaxe
 
@@ -34,14 +34,14 @@ Définissez l’état du contexte de publication d’une ressource avec `setAsse
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> contextHandle</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:string </span></td>
-   <td colname="col3"> Gérer au contexte de publication. </td>
+   <td colname="col3"> Gérer vers le contexte de publication. </td>
   </tr>
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> publishState</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:string</span></td>
    <td colname="col3">État de publication mis à jour de la ressource pour le contexte de publication spécifié. Inclut : 
     <ul id="ul_CF6019C4CA3648B687C252F1A7C2EAAF">
-     <li id="li_4367D7A058F045D98CDF58009E2AC7BC"><span class="codeph"> MarkedForPublish</span></li>
+     <li id="li_4367D7A058F045D98CDF58009E2AC7BC"><span class="codeph"> Marqué pour publication</span></li>
      <li id="li_EEFC6A76C1014C6D9D5E66F271B68606"><span class="codeph"> NotMarkedForPublish</span></li>
      <li id="li_5145CFA39F5249C48DBD0A37543AF055"><span class="codeph"></span></li>
     </ul></td>
@@ -51,4 +51,4 @@ Définissez l’état du contexte de publication d’une ressource avec `setAsse
 
 >[!MORELIKETHIS]
 >
->* [Publish State](../../string-constants/c-string-constants/r-publish-state.md#reference-a9d80231514b4272b39d10c1a7aadca8)
+>* [État de publication](../../string-constants/c-string-constants/r-publish-state.md#reference-a9d80231514b4272b39d10c1a7aadca8)

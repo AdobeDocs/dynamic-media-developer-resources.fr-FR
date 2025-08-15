@@ -1,7 +1,7 @@
 ---
-description: Pour réduire les possibilités de traitement des requêtes, une simple fonction de verrouillage est disponible.
+description: Afin de réduire les possibilités de manipulation des demandes, une simple fonction de verrouillage est fournie.
 solution: Experience Manager
-title: Demander le verrouillage
+title: Verrouillage de requête
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7ac727ef-3775-4884-b9db-bfae171a0f9d
@@ -12,17 +12,17 @@ ht-degree: 0%
 
 ---
 
-# Demander le verrouillage{#request-locking}
+# Verrouillage de requête{#request-locking}
 
-Pour réduire les possibilités de traitement des requêtes, une simple fonction de verrouillage est disponible.
+Afin de réduire les possibilités de manipulation des demandes, une simple fonction de verrouillage est fournie.
 
-Si attribute::RequestLock est défini, une valeur de verrouillage doit être ajoutée à la requête, sous la forme `&xxxx`, xxxx étant une valeur hexadécimale de quatre chiffres. Cette valeur hexadécimale est générée à l’aide d’un algorithme de hachage simple appliqué à la partie *modificateurs* de la requête (après le &quot;?&quot; qui sépare le chemin de l’URL des *modificateurs*). Cette opération doit être effectuée une fois que la requête est entièrement codée en HTTP, mais avant qu’elle ne soit (éventuellement) obscurcie. Après avoir démasqué la requête, le serveur utilise le même algorithme de hachage sur la chaîne de modification (à l’exception des 5 derniers caractères, qui contiennent la valeur de verrouillage). Si la clé générée ne correspond pas au verrou, la demande est rejetée.
+Si attribute::RequestLock est défini, une valeur de verrouillage doit être ajoutée à la requête, sous la forme d’un `&xxxx`, xxxx étant une valeur hexadécimale à quatre chiffres. Cette valeur hex est générée à l’aide d’un simple algorithme de hachage appliqué à la partie *modificateurs* de la requête (après le « ? ») qui sépare le chemin de l’URL des *modificateurs*). Cette opération doit être effectuée après l’encodage complet de la requête http, mais avant son obscurcissement (facultatif). Après avoir supprimé l’obscurcissement de la requête, le serveur utilise le même algorithme de hachage sur la chaîne de modificateur (à l’exclusion des 5 derniers caractères, qui contiennent la valeur de verrouillage). Si la clé générée ne correspond pas au verrou, la requête est rejetée.
 
 >[!IMPORTANT]
 >
->Si vous activez cette fonction, sachez qu’il existe certaines limites à son utilisation qui incluent les éléments suivants :<br> - L’interface utilisateur de Dynamic Media peut ne pas afficher les détails corrects pour le champ **[!UICONTROL Dernière publication]**. Toutefois, cet impact n’a aucune incidence sur la publication.<br> - Actuellement, la diffusion en continu de vidéo HLS ne fonctionne pas lorsque **[!UICONTROL Obscurcissement de requête]** et **[!UICONTROL verrouillage de requête]** sont activés.<br> - Actuellement, certaines visionneuses Dynamic Media ne fonctionnent pas lorsque l’option **[!UICONTROL Obscurcissement de requête]** et **[!UICONTROL Verrouillage de requête]** est activée.
+>Si vous activez cette fonctionnalité, gardez à l’esprit que certaines limitations de son utilisation incluent : <br>- L’interface utilisateur de Dynamic Media peut ne pas afficher les détails corrects pour le champ **[!UICONTROL Dernière publication]**. Toutefois, cet impact n’a aucune incidence sur la publication.<br>- Actuellement, la diffusion vidéo en continu HLS ne fonctionne pas lorsque **[!UICONTROL Demander l’obscurcissement]** et **[!UICONTROL Demander le verrouillage]** sont activés.<br>- Actuellement, certaines visionneuses Dynamic Media ne fonctionnent pas lorsque les options **[!UICONTROL Obfuscation de requête]** et **[!UICONTROL Verrouillage de requête]** sont activées.
 
-C++ exemple de code pour générer la valeur de verrouillage de requête :
+Exemple de code C++ pour générer la valeur de verrouillage de requête :
 
 ```
 unsigned int lockValue(const char *str) 

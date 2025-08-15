@@ -1,5 +1,5 @@
 ---
-description: Sélecteur de filigrane. Indique l’ID de catalogue de l’enregistrement de catalogue à utiliser comme image ou modèle de filigrane.
+description: Sélecteur de filigrane. Indique l’ID catalogue de l’enregistrement de catalogue à utiliser comme image ou modèle de filigrane.
 solution: Experience Manager
 title: Filigrane
 feature: Dynamic Media Classic,SDK/API
@@ -14,17 +14,17 @@ ht-degree: 2%
 
 # Filigrane{#watermark}
 
-Sélecteur de filigrane. Spécifie le catalogue : : ID de l’enregistrement de catalogue à utiliser comme image ou modèle de filigrane.
+Sélecteur de filigrane. Indique le catalog::Id de l’enregistrement de catalogue à utiliser comme image ou modèle de filigrane.
 
-Si spécifié, le serveur applique le filigrane aux données image demandées pour toutes les demandes d’image ( `req=img`).
+S’il est spécifié, le serveur applique le filigrane aux données d’image demandées pour toutes les demandes d’image ( `req=img`).
 
 ## Propriétés {#section-fad6ffff4c5f4b5c8010281bc1377055}
 
-Chaîne de texte. Si spécifié, doit être une valeur `Catalog::Id` valide dans ce catalogue d’images (ou dans le catalogue par défaut, s’il est spécifié dans [!DNL default.ini]).
+Chaîne de texte. Si elle est spécifiée, doit être une valeur de `Catalog::Id` valide dans ce catalogue d’images (ou dans le catalogue par défaut, si spécifié dans [!DNL default.ini]).
 
 ## Par défaut {#section-f8a2029b5b8740b2af149bdbfa28fbae}
 
-Hérité de `default::Watermark` si elle n’est pas définie. S’il est défini, mais vide, aucun filigrane n’est appliqué pour ce catalogue d’images, même si `default::Watermark` est défini.
+Hérité de `default::Watermark` si non défini. Si défini mais vide, aucun filigrane n’est appliqué pour ce catalogue d’images, même si `default::Watermark` est défini.
 
 ## Voir aussi {#section-f15dbe31013849828d78588742dde58e}
 

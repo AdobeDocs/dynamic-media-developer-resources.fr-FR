@@ -1,7 +1,7 @@
 ---
-description: Crée une carte du site vidéo.
+description: Crée un plan du site de vidéo.
 solution: Experience Manager
-title: CreateVideoSitemapJob
+title: Créer une tâche de plan de site vidéo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2af7c949-46cf-4570-9043-1b6296a2e467
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # [!DNL CreateVideoSitemapJob]{#createvideositemapjob}
 
-Crée une carte du site vidéo.
+Crée un plan du site de vidéo.
 
 Syntaxe
 
@@ -30,9 +30,9 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Génère la carte du site lorsqu’elle est définie sur <span class="codeph"> true</span>. <p><p>Remarque : Si la configuration de génération du plan de site est définie sur manuelle et que <span class="codeph"> forceUpdate</span> n’est pas défini, la carte du site n’est pas générée. </p></p></td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> Mise à jour forcée</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd :booléen</span> </td> 
+   <td colname="col3">Génère le plan de site lorsqu’il est défini sur <span class="codeph"> true</span>. <p><p>Remarque : Si la configuration de génération de sitemap est définie sur manuelle et <span class="codeph"> que forceUpdate</span> n’est pas défini, le plan de site n’est pas généré. </p></p></td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,7 +1,7 @@
 ---
-description: Cette section décrit les attributs de données du SVG.
+description: Cette section décrit les attributs de données SVG.
 solution: Experience Manager
-title: Référence des données du SVG
+title: Référence de données SVG
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 583c7bd1-8d97-444e-a49f-56a2f94829be
@@ -12,11 +12,11 @@ ht-degree: 12%
 
 ---
 
-# Référence des données du SVG{#svg-data-reference}
+# Référence de données SVG{#svg-data-reference}
 
-Cette section décrit les attributs de données du SVG.
+Cette section décrit les attributs de données SVG.
 
 * [Expiration](r-expiration-svg.md)
 * [ID](r-id-svg.md)
 * [Chemin](r-path-svg.md)
-* [TimeStamp](r-timestamp-svg.md)
+* [Horodatage](r-timestamp-svg.md)

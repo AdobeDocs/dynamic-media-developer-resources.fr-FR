@@ -19,16 +19,16 @@ ht-degree: 3%
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> duration</span></span> </p> </td> 
-   <td colname="col2"> <p> Indique le nombre de secondes pendant lesquelles le texte de l’info-bulle s’affiche avant qu’il ne se masque. Lorsqu’il est défini sur <span class="codeph"> -1</span>, le message s’affiche toujours, même si l’utilisateur active la fenêtre déroulante. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> durée</span></span> </p> </td> 
+   <td colname="col2"> <p> Indique le nombre de secondes pendant lesquelles le texte du conseil est affiché avant d’être masqué. Lorsque la valeur est définie sur <span class="codeph"> -1</span>, le message s’affiche toujours, même si l’utilisateur active la fenêtre déroulante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> count</span></span> </p> </td> 
-   <td colname="col2"> <p> Indique le nombre d’affichages du texte lors de l’affichage de nouvelles images dans la visionneuse. Une valeur <span class="codeph"> -1</span> signifie que le texte est toujours affiché lors de l’affichage d’une image dans la visionneuse. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> nombre</span></span> </p> </td> 
+   <td colname="col2"> <p> Indique le nombre d’affichages du texte lors de l’affichage de nouvelles images dans la visionneuse. Une valeur de <span class="codeph"> -1</span> signifie que le texte est toujours affiché lors de l’affichage d’une image de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> fondu</span></span> </p> </td> 
-   <td colname="col2"> Indique la durée d’une animation de fondu qui se produit lorsque le texte apparaît ou disparaît. Une valeur <span class="codeph"> 0</span> indique qu’aucune transition de fondu n’est effectuée. </td> 
+   <td colname="col2"> Spécifie la durée d'une animation de fondu qui se produit lorsque le texte apparaît ou disparaît. Une valeur <span class="codeph"> 0</span> indique qu’il n’y a pas de transition en fondu. </td> 
   </tr> 
  </tbody> 
 </table>

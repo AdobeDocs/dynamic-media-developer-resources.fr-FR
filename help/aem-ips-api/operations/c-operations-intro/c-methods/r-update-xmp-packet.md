@@ -1,7 +1,7 @@
 ---
 description: Définit ou met à jour un paquet de métadonnées XMP pour une ressource.
 solution: Experience Manager
-title: updateXMPPacket
+title: Mettre à jour XMPPacket
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 04d85dba-cc86-4069-ab5d-9a5b3fe542c9
@@ -12,7 +12,7 @@ ht-degree: 23%
 
 ---
 
-# updateXMPPacket{#updatexmppacket}
+# Mettre à jour XMPPacket{#updatexmppacket}
 
 Définit ou met à jour un paquet de métadonnées XMP pour une ressource.
 
@@ -30,13 +30,13 @@ Syntaxe
 
 ## Paramètres {#section-7a89621d441840faba639746b410a489}
 
-**Input (updateXMPPacketParam)**
+**Entrée (updateXMPPacketParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Poignée de la société. |
-| assetHandle | `xsd:string` | Oui | Poignée de ressource. |
-| compresséPacket | `xsd:Base 64 binary` | Oui | [!DNL zlib-compressed] XMP paquet que vous souhaitez définir ou mettre à jour. |
+| CompanyHandle | `xsd:string` | Oui | Pseudo de l’entreprise. |
+| AssetHandle | `xsd:string` | Oui | Gestion des ressources. |
+| Paquet compressé | `xsd:Base 64 binary` | Oui | [!DNL zlib-compressed] XMP paquet que vous souhaitez définir ou mettre à jour. |
 
 **Output (updateXMPPacketReturn)**
 
@@ -46,7 +46,7 @@ Syntaxe
 
 ## Exemples {#section-38b556b94e5044bf97a954519ff6c212}
 
-**Requête**
+**Demander**
 
 ```java
 <ns:updateXMPPacketParam>

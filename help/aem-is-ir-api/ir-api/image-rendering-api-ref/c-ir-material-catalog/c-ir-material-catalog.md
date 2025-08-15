@@ -1,6 +1,6 @@
 ---
-title: Catalogue de matières
-description: Catalogue de matières
+title: Catalogue de matériaux
+description: Catalogue de matériaux
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,4 +12,4 @@ ht-degree: 0%
 
 ---
 
-# Catalogue de matières{#material-catalog}
+# Catalogue de matériaux{#material-catalog}

@@ -1,5 +1,5 @@
 ---
-description: Définissez ou mettez à jour l’état de publication d’une ou de plusieurs ressources. Vous pouvez définir des états de publication distincts pour chaque contexte de publication d’une entreprise.
+description: Définissez ou mettez à jour l’état de publication d’une ou de plusieurs ressources. Vous pouvez définir des états de publication distincts pour chaque contexte de publication dans une entreprise.
 solution: Experience Manager
 title: setAssetsContextState
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # setAssetsContextState{#setassetscontextstate}
 
-Définissez ou mettez à jour l’état de publication d’une ou de plusieurs ressources. Vous pouvez définir des états de publication distincts pour chaque contexte de publication d’une entreprise.
+Définissez ou mettez à jour l’état de publication d’une ou de plusieurs ressources. Vous pouvez définir des états de publication distincts pour chaque contexte de publication dans une entreprise.
 
 ## Types d’utilisateurs autorisés {#section-815eb031f85143278c1560c18c5e3431}
 
@@ -34,21 +34,21 @@ Définissez ou mettez à jour l’état de publication d’une ou de plusieurs r
 
 ## Paramètres {#section-009b9006de8e4c16ad657c47f28ace9f}
 
-**Entrée (setAssetsContextStateParam)**
+**Input (setAssetsContextStateParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Traitez la société. |
+| companyHandle | `xsd:string` | Oui | Gérer vers la société. |
 | assetsContextHandle | `types:AssetsContextStateUpdateArray` | Oui | Tableau de ressources et de leurs nouveaux états de publication. |
 
-**Output (setAssetsContextStateReturn)**
+**Output (setAssetsContexStateReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| successCount | `xsd:int` | Oui | Le nombre de ressources a bien changé. |
-| warningCount | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de modifier des ressources. |
-| errorCount | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de modifier des ressources. |
-| warningDetailArray | `types:AssetOperationFaultArray` | Non | Tableau des erreurs générées par les ressources lorsque l’opération tentait de les modifier. |
+| successCount | `xsd:int` | Oui | Le nombre de ressources modifiées avec succès. |
+| warningCount | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération a tenté de modifier des ressources. |
+| errorCount | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération a tenté de modifier des ressources. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Non | Tableau des erreurs générées par les ressources lorsque l’opération a tenté de les modifier. |
 
 ## Exemples {#section-283a073f3cb14bcda5abed863c538aa4}
 

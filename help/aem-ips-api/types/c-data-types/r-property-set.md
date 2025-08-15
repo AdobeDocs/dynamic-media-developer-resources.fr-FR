@@ -22,6 +22,6 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| setHandle | `xsd:string` | Poignée du jeu de propriétés. |
-| typeHandle | `xsd:string` | Gérez le type de jeu de propriétés. |
-| propertyArray | `types:PropertyArray` | paires nom-valeur. Peut contenir zéro élément. |
+| setHandle | `xsd:string` | Gestionnaire du jeu de propriétés. |
+| typeHandle | `xsd:string` | Gérer vers le type de jeu de propriétés. |
+| propertyArray | `types:PropertyArray` | Paire nom-valeur. Peut contenir zéro élément. |

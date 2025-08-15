@@ -39,34 +39,34 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Poignée de la société. </td> 
+   <td colname="col4"> Identifiant de la société. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Poignée de champ de balise. </td> 
+   <td colname="col4"> Identifiant du champ de balise. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> updateArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:TagValueUpdateArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> types : TagValueUpdateArray</span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4">Tableau des valeurs de champ de balise que vous souhaitez mettre à jour. <p>Remarque : Met à jour les valeurs de chaîne de balise uniquement. N’affecte pas les associations de ressources. </p> </td> 
+   <td colname="col4">Tableau des valeurs de champ de balise à mettre à jour. <p>Remarque : met à jour uniquement les valeurs de chaîne de balise. N’affecte pas les associations de ressources. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Sortie (updateTagFieldValuesReturn)**
+**Output (updateTagFieldValuesReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| successCount | `xsd:int` | Oui | Le nombre de champs de balise mis à jour avec succès. |
-| warningCount | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de mettre à jour les champs de balise. |
-| errorCount | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de mettre à jour les champs de balise. |
-| warningDetailArray | `types:TagValueUpdateFaultArray` | Non | Tableau de détails associés aux ressources qui ont généré des avertissements lorsque l’opération tentait de mettre à jour les champs de balise. |
+| successCount | `xsd:int` | Oui | Nombre de champs de balise mis à jour avec succès. |
+| warningCount | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération a tenté de mettre à jour les champs de balise. |
+| errorCount | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération a tenté de mettre à jour les champs de balise. |
+| warningDetailArray | `types:TagValueUpdateFaultArray` | Non | Tableau de détails associés aux ressources qui ont généré des avertissements lorsque l’opération a tenté de mettre à jour les champs de balise. |
 | errorDetailArray | `types:TagValueUpdateFaultArray` | Non | Tableau de détails associés aux ressources qui ont généré des erreurs lorsque l’opération a tenté de mettre à jour les champs de balise. |
 
 ## Exemples {#section-bb4dcf97044c4675974c9b8d27674001}

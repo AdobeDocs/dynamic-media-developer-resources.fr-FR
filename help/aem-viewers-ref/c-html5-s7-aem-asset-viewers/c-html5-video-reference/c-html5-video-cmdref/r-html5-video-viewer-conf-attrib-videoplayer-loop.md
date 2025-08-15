@@ -1,6 +1,6 @@
 ---
 title: VideoPlayer.loop
-description: Attribut de configuration pour la visionneuse de vidéos.
+description: Attribut de configuration de la visionneuse de vidéos.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # VideoPlayer.loop{#videoplayer-loop}
 
-Attribut de configuration pour la visionneuse de vidéos.
+Attribut de configuration de la visionneuse de vidéos.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]loop=0|1`
 
@@ -22,7 +22,7 @@ Attribut de configuration pour la visionneuse de vidéos.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Indique si la lecture de la vidéo doit être à nouveau effectuée une fois la lecture terminée. </p> </td> 
+   <td colname="col2"> <p> Indique si la vidéo doit être relue une fois la lecture terminée. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -20,7 +20,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td> <p> Indique si le composant permet l’arrêt du défilement lorsque l’un des échantillons est partiellement visible (le défilement n’est pas aligné). La valeur recommandée est <span class="codeph"> false</span> ou <span class="codeph"> 0</span>. </p> </td> 
+   <td> <p> Indique si le composant autorise l’arrêt du défilement lorsqu’un des échantillons est partiellement visible (le défilement n’est pas aligné). La valeur recommandée est <span class="codeph"> false</span> ou <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

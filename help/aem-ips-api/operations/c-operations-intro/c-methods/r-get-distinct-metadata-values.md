@@ -34,18 +34,18 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gestionnaire de la société pour laquelle vous souhaitez obtenir des données. |
+| CompanyHandle | `xsd:string` | Oui | Identifiant de l’entreprise pour laquelle vous souhaitez obtenir des données. |
 | metadataKey | `xsd:string` | Oui | Clé de métadonnées en notation par points. |
 
-**Sortie (getDistinctMetadataValuesReturn)**
+**Output (getDistinctMetadataValuesReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| valueArray | `types:ValueArray` | Oui | Valeurs du champ de métadonnées demandé. |
+| Tableau de valeurs | `types:ValueArray` | Oui | Valeurs du champ de métadonnées demandé. |
 
 ## Exemples {#section-0189fa6fb31646cda5ce1b0bc4fcdf46}
 
-**Requête**
+**Demander**
 
 ```java
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"

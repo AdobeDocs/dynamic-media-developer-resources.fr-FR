@@ -1,6 +1,6 @@
 ---
 title: IccProfileRgb
-description: Profil colorimétrique de sortie par défaut du RGB. Indique le nom du profil de couleurs ICC à utiliser pour les images de réponse du RGB lorsqu’aucun espace colorimétrique de sortie n’est spécifié avec icc=. Également pour certaines valeurs de couleur de RGB spécifiées avec diverses commandes de rendu d’image, telles que bgc= et color=.
+description: Profil de couleurs de sortie par défaut de RGB. Indique le nom du profil colorimétrique ICC à utiliser pour les images de réponse RGB lorsqu’aucun espace colorimétrique de sortie n’est spécifié avec icc=. Également pour certaines valeurs de couleur RGB spécifiées avec différentes commandes de rendu d’image, telles que bgc= et color=.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 2%
 
 # IccProfileRgb{#iccprofilergb}
 
-Profil colorimétrique de sortie par défaut du RGB. Indique le nom du profil de couleurs ICC à utiliser pour les images de réponse du RGB lorsqu’aucun espace colorimétrique de sortie n’est spécifié avec `icc=`. Également pour certaines valeurs de couleur de RGB spécifiées avec diverses commandes de rendu d’image, telles que `bgc=` et `color=`.
+Profil de couleurs de sortie par défaut de RGB. Indique le nom du profil colorimétrique ICC à utiliser pour les images de réponse RGB lorsqu’aucun espace colorimétrique de sortie n’est spécifié avec `icc=`. Également pour certaines valeurs de couleur RGB spécifiées avec différentes commandes de rendu d’image, telles que `bgc=` et `color=`.
 
 ## Propriétés {#section-b4a1bd92e99047479a5036413525a6d9}
 
-Chaîne de texte. Si spécifié, doit être une valeur `icc::Name` valide provenant de la carte de profil ICC de ce catalogue matériel ou du catalogue par défaut, ou un chemin d’accès au fichier relatif à `attribute::RootPath`. Le profil ICC référencé doit être un profil de RGB.
+Chaîne de texte. Si spécifié, doit être une valeur de `icc::Name` valide de la carte de profil ICC de ce catalogue de matières ou du catalogue par défaut, ou un chemin d&#39;accès au fichier relatif à `attribute::RootPath`. Le profil ICC référencé doit être un profil RGB.
 
 ## Par défaut {#section-5809772f8e96438ab7626d323c66a4ba}
 
-Hérité de `default::IccProfileRgb` si elle n’est pas définie ou si elle est vide.
+Hérité de `default::IccProfileRgb` si non défini ou si vide.
 
 ## Voir aussi {#section-732c17dece3a4575855c9b79a08d0067}
 

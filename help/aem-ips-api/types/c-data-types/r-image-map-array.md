@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| éléments | `types:ImageMap` | Tableau de zone cliquable. |
+| éléments | `types:ImageMap` | Tableau de zones cliquables. |

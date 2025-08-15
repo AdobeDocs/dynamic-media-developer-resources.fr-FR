@@ -1,5 +1,5 @@
 ---
-description: Mode image par défaut. Permet de sélectionner la manière dont l’image par défaut est appliquée lorsque les images spécifiées dans la requête sont introuvables.
+description: Mode d’image par défaut. Sélectionne le mode d’application de l’image par défaut lorsque les images spécifiées dans la requête sont introuvables.
 solution: Experience Manager
 title: DefaultImageMode
 feature: Dynamic Media Classic,SDK/API
@@ -14,19 +14,19 @@ ht-degree: 2%
 
 # DefaultImageMode{#defaultimagemode}
 
-Mode image par défaut. Permet de sélectionner la manière dont l’image par défaut est appliquée lorsque les images spécifiées dans la requête sont introuvables.
+Mode d’image par défaut. Sélectionne le mode d’application de l’image par défaut lorsque les images spécifiées dans la requête sont introuvables.
 
 ## Propriétés {#section-7fa8acb63540490d9f5186231b5e77c3}
 
-Enum. &quot;0&quot; pour remplacer l’ensemble de l’image composite, même si l’image manquante n’est qu’un calque parmi plusieurs ; &quot;1&quot; pour remplacer chaque image source du calque manquante par l’image par défaut et renvoyer l’image composite comme d’habitude.
+Énumération. &#39;0&#39; pour remplacer l&#39;image composite entière, même si l&#39;image manquante n&#39;est qu&#39;un calque parmi plusieurs ; &#39;1&#39; pour remplacer chaque image source de calque manquante par l&#39;image par défaut et renvoyer l&#39;image composite comme d&#39;habitude.
 
 ## Restrictions {#section-04cb0d50e8914564a8d226d0d4663c8b}
 
-La diffusion d’images revient à `DefaultImageMode=0` lorsque les demandes de rendu d’image, FXG ou `req=set` imbriquées échouent.
+La diffusion d’images revient à la `DefaultImageMode=0` lorsque le rendu d’images imbriquées, le FXG ou les requêtes `req=set` échouent.
 
 ## Par défaut {#section-9e318524a2a5496386901286748c7ee7}
 
-Hérité de `default::DefaultImage` si elle n’est pas définie ou si elle est vide.
+Hérité de `default::DefaultImage` si non défini ou si vide.
 
 ## Voir aussi {#section-fddce1d27a0c43fb8b4d891f76ac5a52}
 

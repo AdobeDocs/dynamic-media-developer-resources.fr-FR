@@ -30,6 +30,6 @@ Après avoir appliqué la commande suivante :
 
 `setAttr.rootElement={viewHeight=300%26viewWidth=200}`
 
-L’élément racine est maintenant remplacé par ce qui suit :
+L’élément racine est maintenant modifié comme suit :
 
 `<Graphic xmlns="http://ns.adobe.com/fxg/2008" xmlns:ai="http://ns.adobe.com/ai/2008" xmlns:d="http://ns.adobe.com/fxg/2008/dt" xmlns:s7="http://ns.adobe.com/S7FXG/2008" ai:appVersion="14.0.0.367" d:id="1" s7:appVersion="1.0.0.11" version="1.0" viewHeight="300" viewWidth="200">`

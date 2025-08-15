@@ -1,6 +1,6 @@
 ---
-title: Syntaxe et fonctionnalités du protocole HTTP
-description: Cette section décrit la syntaxe du protocole HTTP et les fonctionnalités du rendu d’image Dynamic Media.
+title: Syntaxe et fonctions du protocole HTTP
+description: Cette section décrit la syntaxe et les fonctionnalités du protocole HTTP pour Dynamic Media Image Rendering.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,20 +12,20 @@ ht-degree: 1%
 
 ---
 
-# Syntaxe et fonctionnalités du protocole HTTP{#http-protocol-syntax-and-features}
+# Syntaxe et fonctions du protocole HTTP{#http-protocol-syntax-and-features}
 
-Cette section décrit la syntaxe du protocole HTTP et les fonctionnalités du rendu d’image Dynamic Media.
+Cette section décrit la syntaxe et les fonctionnalités du protocole HTTP pour Dynamic Media Image Rendering.
 
-* [Syntaxe de base du protocole HTTP de rendu d’image](r-ir-basic-syntax.md)
-* [Présentation de la commande de protocole HTTP de rendu d’image](c-ir-command-overview/c-ir-command-overview.md)
+* [Syntaxe de base du protocole HTTP Image Rendering](r-ir-basic-syntax.md)
+* [Présentation des commandes du protocole HTTP Image Rendering](c-ir-command-overview/c-ir-command-overview.md)
 * [Vignettes](c-ir-vignettes/c-ir-vignettes.md)
 * [Présentation des matériaux](c-ir-http-materials/c-ir-http-materials.md)
-* [Effets de rendu avancés](c-ir-advanced-render-effects/c-ir-advanced-render-effects.md)
-* [Demande d’imbrication et d’incorporation *](c-ir-request-nesting-and-embedding/c-ir-request-nesting-and-embedding.md)
-* [Catalogues de matières *](c-ir-http-material-catalogs/c-ir-http-material-catalogs.md)
-* [Prétraitement des demandes *](c-ir-request-pre-processing.md)
+* [Effets de rendu avancé](c-ir-advanced-render-effects/c-ir-advanced-render-effects.md)
+* [Demander l’imbrication et l’incorporation *](c-ir-request-nesting-and-embedding/c-ir-request-nesting-and-embedding.md)
+* [Catalogues de matériaux *](c-ir-http-material-catalogs/c-ir-http-material-catalogs.md)
+* [Pré-traitement de la demande *](c-ir-request-pre-processing.md)
 * [Présentation des variables personnalisées](c-ir-custom-variables/c-ir-custom-variables.md)
 * [Macros de commande *](c-ir-command-macros.md)
-* [Gestion des couleurs de rendu d’image *](c-ir-color-management.md)
-* [Valeurs de couleur](r-ir-color-values.md)
-* [Encodage HTTP de rendu d’image](c-ir-http-encoding.md)
+* [Gestion des couleurs Image Rendering *](c-ir-color-management.md)
+* [Valeurs colorimétriques](r-ir-color-values.md)
+* [Rendu d’image Encodage HTTP](c-ir-http-encoding.md)

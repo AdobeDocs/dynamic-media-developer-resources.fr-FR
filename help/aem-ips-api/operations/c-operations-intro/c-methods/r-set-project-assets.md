@@ -1,7 +1,7 @@
 ---
-description: Affectez ou mettez à jour des ressources dans un projet.
+description: Affectation ou mise à jour de fichiers dans un projet.
 solution: Experience Manager
-title: setProjectAssets
+title: Définir les ressources du projet
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: b6e6e9bd-5ee2-4750-9182-49e7a3e3486c
@@ -12,9 +12,9 @@ ht-degree: 18%
 
 ---
 
-# setProjectAssets{#setprojectassets}
+# Définir les ressources du projet{#setprojectassets}
 
-Affectez ou mettez à jour des ressources dans un projet.
+Affectation ou mise à jour de fichiers dans un projet.
 
 Syntaxe
 
@@ -33,21 +33,21 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyName | `xsd:string` | Oui | Poignée de la société. |
-| projectHandle | `xsd:string` | Oui | Gestionnaire de projet. |
-| assetHandleArray | `types:HandleArray` | Oui | Le tableau de ressources gère les ressources que vous souhaitez associer au projet. |
+| Nom de la société | `xsd:string` | Oui | Pseudo de l’entreprise. |
+| Poignée de projet | `xsd:string` | Oui | Pseudo de projet. |
+| assetHandleArray | `types:HandleArray` | Oui | Tableau de descripteurs de ressources que vous souhaitez associer au projet. |
 
-**Sortie (setProjectAssetsReturn)**
+**Output (setProjectAssetsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| successCount | `xsd:int` | Oui | Nombre de ressources ajoutées avec succès. |
+| Compte de succès | `xsd:int` | Oui | Nombre de ressources ajoutées avec succès. |
 
 ## Exemples {#section-33c1a909c3dc4aa98da474c23a036596}
 
-Cet exemple de code affecte une ressource à un projet. La requête renvoie un nombre de succès d’un.
+Cet exemple de code affecte une ressource à un projet. La requête renvoie un nombre de réussite de un.
 
-**Requête**
+**Demander**
 
 ```java
 <setProjectAssetsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

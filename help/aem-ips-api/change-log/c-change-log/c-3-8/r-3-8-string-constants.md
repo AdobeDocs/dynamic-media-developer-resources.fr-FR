@@ -1,5 +1,5 @@
 ---
-description: Décrit les constantes de chaîne nouvelles et modifiées pour l’API IPS version 3.8.
+description: Décrit les constantes de chaîne nouvelles et modifiées pour l'API IPS version 3.8.
 solution: Experience Manager
 title: Constantes de chaîne nouvelles et modifiées
 feature: Dynamic Media Classic,SDK/API
@@ -14,19 +14,19 @@ ht-degree: 1%
 
 # Constantes de chaîne : nouvelles et modifiées{#string-constants-new-and-modified}
 
-Décrit les constantes de chaîne nouvelles et modifiées pour l’API IPS version 3.8.
+Décrit les constantes de chaîne nouvelles et modifiées pour l&#39;API IPS version 3.8.
 
 Syntaxe
 
-## Nouvelles constantes {#section-8171990eacae40c690830256f69e7afa}
+## Nouvelles Constantes {#section-8171990eacae40c690830256f69e7afa}
 
-**Région Forme**
+**Forme de la région**
 
 * Utilisé par : `ImageMap/shapeType`, `saveImageMapParam/shapeType`
 
 * Valeurs : `Rectangle` et `Polygon`.
 
-**Publish State**
+**État de publication**
 
 * Utilisé par : `searchAssetsParam/publishState` et `setAssetPublishStateParam/publishState`.
 

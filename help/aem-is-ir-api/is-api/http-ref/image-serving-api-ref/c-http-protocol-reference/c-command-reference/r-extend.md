@@ -1,6 +1,6 @@
 ---
-title: étend
-description: Étendre le calque. Ajoute des marges à un calque ou recadre le rectangle du calque.
+title: étendre
+description: Etendre le calque. Ajoute des marges à un calque ou recadre le rectangle du calque.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,48 +12,48 @@ ht-degree: 1%
 
 ---
 
-# étend{#extend}
+# étendre{#extend}
 
-Étendre le calque. Ajoute des marges à un calque ou recadre le rectangle du calque.
+Etendre le calque. Ajoute des marges à un calque ou recadre le rectangle du calque.
 
-`extend= *`left`*, *`top`*, *`right`*, *`bottom`*`
+`extend= *`gauche`*, *`, en haut à droite`*, *`en bas`*, *``*`
 
-`extendN= *`leftN`*, *`topN`*, *`rightN`*, *`bottomN`*`
+`extendN= *`gaucheN`*, *`hautN`*, *`droiteN basN`*, *``*`
 
 <table id="simpletable_1DCCD469712B423C8154630127DC5F54"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> left,top,bottom,right</span></span> </p></td> 
-  <td class="stentry"> <p>Nombre de pixels à ajouter (ou à supprimer de, si la valeur est négative) à gauche, en haut, à droite et au bord inférieur de la recette du calque (int, int, int, int). </p></td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> gauche, haut, bas, droite</span></span> </p></td> 
+  <td class="stentry"> <p>Nombre de pixels à ajouter (ou à supprimer, si la valeur est négative) aux bords gauche, supérieur, droit et inférieur du calque rect (int, int, int, int). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> leftN,topN,bottomN,rightN</span></span> </p></td> 
-  <td class="stentry"> <p>Quantité d’espace à ajouter (ou à supprimer de, si la valeur est négative) au bord gauche, supérieur, droit et inférieur de l’arrière de calque, exprimée en quantités normalisées par rapport à la taille de l’arrière de calque d’origine (réel, réel, réel, réel). </p></td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> gaucheN,topN,basN,droiteN</span></span> </p></td> 
+  <td class="stentry"> <p>Quantité d’espace à ajouter (ou à supprimer, si la valeur est négative) aux bords gauche, supérieur, droit et inférieur du calque rect, exprimée sous forme de quantités normalisées par rapport à la taille du rect de calque d’origine (réel, réel, réel, réel). </p></td> 
  </tr> 
 </table>
 
-`extend=` est appliqué au calque *après* le recadrage de l’image ( `crop=`) et toutes les transformations de calque, y compris `rotate=`, ont été appliquées.
+`extend=` est appliquée au calque *après* que l’image a été recadrée ( `crop=`) et que toutes les transformations de calque, y compris `rotate=`, ont été appliquées.
 
-La zone étendue est remplie avec `bgColor=` ou, si elle n’est pas spécifiée, reste transparente.
+La zone étendue est remplie de `bgColor=`ou, si elle n’est pas spécifiée, reste transparente.
 
-Les valeurs d’argument pour `extendN=` sont normalisées par rapport à la taille de la recette de calque après les transformations de calque, y compris `rotate=`, ont été appliquées.
+Les valeurs des arguments pour `extendN=` sont normalisées par rapport à la taille du calque rect après les transformations de calque, y compris `rotate=` ont été appliquées.
 
 ## Propriétés {#section-8fc94de871f841f3bf5e1df135972ca9}
 
-Attribut de calque. S’applique au calque 0 si `layer=comp`. Ignoré par les calques d’effet.
+Attribut de calque. S’applique au calque 0 si `layer=comp`. Ignoré par les calques d’effets.
 
 ## Par défaut {#section-de7473649cb9406b8d99028c74c4b8dc}
 
-`extend=0,0,0,0`, pour aucune modification du rectangle du calque.
+`extend=0,0,0,0`, sans modification du rectangle du calque.
 
 ## Exemples {#section-cc6d8e76f3dd4607ac31cb095d86c9fe}
 
-**Recadrer une image, puis ajouter une bordure rouge de 5 pixels de large :**
+**Recadrez une image, puis ajoutez une bordure rouge de 5 pixels de large :**
 
 `…&cropN=.2,.3,.8,.9&extend=5,5,5,5&bgColor=255,0,0&…`
 
-**Mettez à l’échelle une image sur une largeur de 200 pixels et ajoutez le texte du titre dans une marge de 30 pixels au-dessus de l’image.**
+**Redimensionnez une image à une largeur de 200 pixels et ajoutez le texte du titre dans une marge de 30 pixels au-dessus de l’image.**
 
-Notez que la hauteur de l’image composite varie en fonction des proportions de l’image.
+Notez que la hauteur de l’image composite varie en fonction du format de l’image.
 
 `http://server/myRootId/myImageId?size=200,0&extend=0,30,0,0&origin=0,0 layer=1&text=title-text&origin=0,0`
 

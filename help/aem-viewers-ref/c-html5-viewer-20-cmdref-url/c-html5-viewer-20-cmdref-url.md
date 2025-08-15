@@ -1,6 +1,6 @@
 ---
-title: Référence de commande commune à toutes les visionneuses - URL
-description: Documentation de référence de commande commune à tous les visionneuses.
+title: Référence de commande commune à tous les visualiseurs – URL
+description: Documentation de référence sur les commandes commune à toutes les visionneuses.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# Référence de commande commune à toutes les visionneuses - URL{#command-reference-common-to-all-viewers-url}
+# Référence de commande commune à tous les visualiseurs – URL{#command-reference-common-to-all-viewers-url}
 
-Documentation de référence de commande commune à tous les visionneuses.
+Documentation de référence sur les commandes commune à toutes les visionneuses.
 
-Les commandes répertoriées ci-dessous sont appliquées via l’URL ou à l’aide des méthodes API `setParam()` ou `setParams()`.
+Les commandes répertoriées ci-dessous sont appliquées soit par le biais d’une URL, soit à l’aide d’API `setParam()` ou `setParams()` de méthodes.

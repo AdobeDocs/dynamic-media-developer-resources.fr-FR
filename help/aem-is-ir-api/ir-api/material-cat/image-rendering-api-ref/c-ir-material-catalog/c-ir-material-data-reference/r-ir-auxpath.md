@@ -1,5 +1,5 @@
 ---
-description: Chemin du fichier de données. Chemin d’accès relatif et nom des fichiers de données autres que les images associés à cette image.
+description: Chemin du fichier de données. Chemin et nom relatifs des fichiers de données non-images associés à cette image.
 solution: Experience Manager
 title: AuxPath
 feature: Dynamic Media Classic,SDK/API
@@ -14,15 +14,15 @@ ht-degree: 3%
 
 # AuxPath{#auxpath}
 
-Chemin du fichier de données. Chemin d’accès relatif et nom des fichiers de données autres que les images associés à cette image.
+Chemin du fichier de données. Chemin et nom relatifs des fichiers de données non-images associés à cette image.
 
-Le serveur combine cette valeur avec l’attribut::RootPath pour créer le chemin d’accès au fichier réel. Il peut également s’agir d’un chemin d’accès absolu au fichier.
+Le serveur combine cette valeur avec attribute::RootPath pour créer le chemin d’accès réel au fichier. Peut également être un chemin d’accès absolu au fichier.
 
-Utilisé pour spécifier un fichier de style de vitrine pour un support de vitrine ou un fichier de style de vitrine pour un matériau de vitrine. Laissez vide pour tous les autres matériaux.
+Permet de spécifier un fichier de style d&#39;armoire pour un matériau d&#39;armoire ou un fichier de style de revêtement de fenêtre pour un matériau de revêtement de fenêtre. Laisser vide pour tous les autres matériaux.
 
 ## Propriétés {#section-4268350054b7421da0ce0327f0731a52}
 
-Valeur de chaîne de texte. S’il est spécifié, il doit s’agir d’un chemin d’accès au fichier relatif ou absolu valide. Requis pour les matériaux de vitrine et de vitrine. Doit être vide pour tous les autres matériaux.
+Valeur de chaîne de texte. S’il est spécifié, il doit s’agir d’un chemin d’accès relatif ou absolu valide. Requis pour les matériaux d&#39;armoire et de recouvrement de fenêtre. Doit être vide pour tous les autres matériaux.
 
 ## Par défaut {#section-287005c2d8e948fa958f69ba7b90b437}
 

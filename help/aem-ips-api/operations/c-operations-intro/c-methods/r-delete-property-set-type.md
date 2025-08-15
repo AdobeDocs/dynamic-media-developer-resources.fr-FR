@@ -1,5 +1,5 @@
 ---
-description: Supprime un type de jeu de propriétés, ainsi que le jeu de propriétés et les propriétés qui lui sont associés.
+description: Supprime un type de jeu de propriétés ainsi que le jeu de propriétés et les propriétés qui lui sont associés.
 solution: Experience Manager
 title: deletePropertySetType
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # deletePropertySetType{#deletepropertysettype}
 
-Supprime un type de jeu de propriétés, ainsi que le jeu de propriétés et les propriétés qui lui sont associés.
+Supprime un type de jeu de propriétés ainsi que le jeu de propriétés et les propriétés qui lui sont associés.
 
 Syntaxe
 
@@ -27,19 +27,19 @@ Syntaxe
 
 ## Paramètres {#section-1c8973f5d35f44b4a6a483a41609e455}
 
-**Entrée (deletePropertySetTypeParam)**
+**Input (deletePropertySetTypeParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| typeHandle | `xsd:string` | Oui | La gestion du type de jeu de propriétés à supprimer. |
+| typeHandle | `xsd:string` | Oui | Poignée du type de jeu de propriétés à supprimer. |
 
-**Sortie (deletePropertySetTypeParam)**
+**Output (deletePropertySetTypeParam)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-85faa2e3411a4e23aa6489037f7ce078}
 
-Cet exemple de code utilise la poignée du type comme champ dans le `deletePropertySetTypeParam` envoyé au serveur des services Web IPS pour supprimer le type de jeu de propriétés.
+Cet exemple de code utilise le handle du type comme champ dans le `deletePropertySetTypeParam` envoyé au serveur de services Web IPS afin de supprimer le type de jeu de propriétés.
 
 **Requête**
 

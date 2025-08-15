@@ -1,6 +1,6 @@
 ---
 title: Restrictions
-description: Certaines restrictions s’appliquent à l’imbrication et à l’incorporation.
+description: Certaines restrictions s’appliquent pour l’imbrication et l’incorporation.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # Restrictions{#restrictions}
 
-Certaines restrictions s’appliquent à l’imbrication et à l’incorporation.
+Certaines restrictions s’appliquent pour l’imbrication et l’incorporation.
 
-Pour de bonnes performances du serveur, la résolution des images renvoyées par les demandes imbriquées doit raisonnablement correspondre à la résolution de texture des objets auxquels la matière est appliquée.
+Pour de bonnes performances du serveur, la résolution des images renvoyées par les demandes imbriquées doit correspondre raisonnablement à la résolution de texture des objets auxquels le matériau est appliqué.
 
-Les images étrangères sont mises en cache localement. Toute modification apportée à ces images n’est détectée qu’après que l’entrée de cache locale devient obsolète (en fonction de l’en-tête HTTP expires).
+Les images étrangères sont mises en cache localement. Toute modification apportée à ces images n’est détectée que lorsque l’entrée du cache local devient obsolète (sur la base de l’en-tête HTTP expires).

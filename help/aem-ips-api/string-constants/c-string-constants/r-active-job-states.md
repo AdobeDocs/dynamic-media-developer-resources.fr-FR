@@ -1,7 +1,7 @@
 ---
 description: Utilisé par ActiveJobs/state.
 solution: Experience Manager
-title: États de tâche actifs
+title: États de travail actifs
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d4a7ef64-ab7f-4f8f-9c61-2aa67e67b609
@@ -12,7 +12,7 @@ ht-degree: 12%
 
 ---
 
-# États de tâche actifs{#active-job-states}
+# États de travail actifs{#active-job-states}
 
 Utilisé par ActiveJobs/state.
 

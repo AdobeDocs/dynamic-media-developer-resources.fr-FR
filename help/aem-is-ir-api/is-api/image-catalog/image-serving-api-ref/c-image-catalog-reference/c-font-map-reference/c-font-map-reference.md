@@ -1,5 +1,5 @@
 ---
-description: Si une mise en correspondance de polices est requise pour un catalogue d’images, le chemin relatif ou absolu du fichier doit être spécifié dans l’attribut FontMapFile.
+description: Si un mappage de polices est requis pour un catalogue d’images, le chemin d’accès relatif ou absolu du fichier de mappage de polices doit être spécifié dans l’attribut FontMapFile.
 solution: Experience Manager
 title: Référence de mappage de polices
 feature: Dynamic Media Classic,SDK/API
@@ -14,17 +14,17 @@ ht-degree: 2%
 
 # Référence de mappage de polices{#font-map-reference}
 
-Si une mise en correspondance de polices est requise pour un catalogue d’images, le chemin relatif ou absolu du fichier doit être spécifié dans attribute::FontMapFile.
+Si un mappage de polices est requis pour un catalogue d’images, le chemin relatif ou absolu du fichier de mappage de polices doit être spécifié dans attribute ::FontMapFile.
 
-Les entrées dans la mise en correspondance de polices d’un catalogue d’images spécifique remplacent les entrées dans la mise en correspondance de polices du catalogue par défaut.
+Les entrées dans le mappage de polices d’un catalogue d’images spécifique remplacent les entrées dans le mappage de polices du catalogue par défaut.
 
-La diffusion d’images prend en charge les polices Adobe Type 1, OpenType et TrueType.
+Image Serving prend en charge les polices Adobe Type 1, OpenType et TrueType.
 
 `textPs=` prend également en charge les polices CID, ATC et bitmap.
 
 * [Gras](r-bold-font.md)
-* [FontPath](r-fontpath-font.md)
+* [Chemin de police](r-fontpath-font.md)
 * [Italique](r-italic-font.md)
-* [MetricsPath](r-metricspath-font.md)
+* [Chemin d’accès aux mesures](r-metricspath-font.md)
 * [Nom](r-name-font.md)
 * [PsName](r-psname-font.md)

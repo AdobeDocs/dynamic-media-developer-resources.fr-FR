@@ -1,6 +1,6 @@
 ---
 title: SmartCropVideoPlayer.iconeffect
-description: Attribut de configuration de la visionneuse de vidéos avec recadrage intelligent.
+description: Attribut de configuration pour la visionneuse de vidéos avec recadrage intelligent.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
@@ -14,27 +14,27 @@ ht-degree: 2%
 
 # SmartCropVideoPlayer.iconeffect{#smartcropvideoplayer-iconeffect}
 
-Attribut de configuration de la visionneuse de vidéos avec recadrage intelligent.
+Attribut de configuration pour la visionneuse de vidéos avec recadrage intelligent.
 
-` [SmartCropVideoPlayer.|<containerId>_videoPlayer.]iconeffect= *`0|1`*[, *`count`*][, *`fade`*][, *`autoHide`*]`
+` [SmartCropVideoPlayer.|<containerId>_videoPlayer.]iconeffect= *`0|1`*[, *`comptage`*][, *`fondu`*][, *`enchaîné Masquer automatiquement`*]`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> 0|1</span> </span> </p> </td> 
-   <td colname="col2"> <p> Permet à IcôneEffect de s’afficher en haut de la vidéo lorsque celle-ci est en pause. Sur certains périphériques, des contrôles natifs sont utilisés. Dans ce cas, le modificateur <span class="codeph"> iconfact</span> est ignoré. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> 0|1</span> </span> </p> </td> 
+   <td colname="col2"> <p> Permet à l’effet IconEffect de s’afficher au-dessus de la vidéo lorsque celle-ci est en pause. Sur certains appareils, des contrôles natifs sont utilisés. Dans ce cas, le modificateur iconeffect <span class="codeph"></span> est ignoré. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> count</span> </span> </p> </td> 
-   <td colname="col2"> <p> Indique le nombre maximal de fois où IconEffect apparaît et réapparaît. La valeur <span class="codeph"> -1</span> indique que l’icône réapparaît indéfiniment. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> compter</span> </span> </p> </td> 
+   <td colname="col2"> <p> Spécifie le nombre maximal de fois où l’effet IconEffect apparaît et réapparaît. La valeur <span class="codeph"> -1</span> indique que l’icône réapparaît indéfiniment. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fondu</span> </span> </p> </td> 
-   <td colname="col2"> <p> Spécifie la durée d’affichage ou de masquage de l’animation, en secondes. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> se faner</span> </span> </p> </td> 
+   <td colname="col2"> <p> Définit la durée d’affichage ou de masquage de l’animation, en secondes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> autoHide</span> </span> </p> </td> 
-   <td colname="col2"> <p> Définit le nombre de secondes pendant lesquelles IconEffect reste visible avant de se masquer automatiquement. C’est-à-dire le temps qui s’écoule après la fin de l’animation avec fondu avant le début de l’animation avec fondu. Un paramètre de <span class="codeph"> 0</span> désactive le comportement de masquage automatique. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> Masquer</span> automatiquement </span> </p> </td> 
+   <td colname="col2"> <p> Définit le nombre de secondes pendant lesquelles l’effet IconEffect reste visible avant de se masquer automatiquement. C’est-à-dire le temps après la fin de l’animation en fondu et avant le début de l’animation en fondu. Un paramètre de <span class="codeph"> 0</span> désactive le comportement de masquage automatique. </p> </td> 
   </tr> 
  </tbody> 
 </table>

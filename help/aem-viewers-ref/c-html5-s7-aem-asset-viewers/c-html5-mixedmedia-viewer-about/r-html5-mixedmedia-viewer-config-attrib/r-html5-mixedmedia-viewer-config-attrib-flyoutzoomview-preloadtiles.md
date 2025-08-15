@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Définissez cette variable sur <span class="codeph"> 1</span> pour activer le préchargement de l’image agrandie. </p> <p>Définissez cette variable sur <span class="codeph"> 0</span> pour charger l’image de zoom de manière incrémentielle, selon les besoins. </p> <p> <p>Si vous activez cette option, l’utilisation de la bande passante peut être considérablement plus élevée, car l’image agrandie doit être chargée dans son intégralité, même si l’utilisateur n’effectue aucune action de zoom. </p> </p> </td> 
+   <td colname="col2"> <p> Définissez sur <span class="codeph"> 1</span> pour activer le préchargement de l’image agrandie. </p> <p>Définissez cette valeur sur <span class="codeph"> 0</span> pour charger l’image de zoom de manière incrémentielle, si nécessaire. </p> <p> <p>Si vous activez cette option, l’utilisation de la bande passante peut être considérablement plus élevée, car l’image agrandie doit être chargée dans son intégralité, même si l’utilisateur n’effectue aucune action de zoom. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

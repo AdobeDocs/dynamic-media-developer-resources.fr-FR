@@ -1,6 +1,6 @@
 ---
-title: Opacité des matériaux variable
-description: L’opacité variable est prise en charge pour les couleurs solides et les textures répétables appliquées aux objets qui se chevauchent, ainsi que pour les décalages et les matériaux qui recouvrent les fenêtres.
+title: Opacité de matériau variable
+description: L'opacité variable est prise en charge pour la couleur unie et les textures répétables appliquées aux objets qui se chevauchent, ainsi que pour les autocollants et les matériaux de recouvrement de fenêtre.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,12 +12,12 @@ ht-degree: 0%
 
 ---
 
-# Opacité des matériaux variable{#varying-material-opacity}
+# Opacité de matériau variable{#varying-material-opacity}
 
-L’opacité variable est prise en charge pour les couleurs solides et les textures répétables appliquées aux objets qui se chevauchent, ainsi que pour les décalages et les matériaux qui recouvrent les fenêtres.
+L&#39;opacité variable est prise en charge pour la couleur unie et les textures répétables appliquées aux objets qui se chevauchent, ainsi que pour les autocollants et les matériaux de recouvrement de fenêtre.
 
-Les informations d’opacité peuvent être fournies simplement en utilisant une image de RGB avec un canal alpha. En outre, l’opacité globale peut être différente avec la commande `opacity=` (à la fois pour les images RGB et RGBA).
+Les informations d’opacité peuvent être fournies simplement en utilisant une image RGB avec une couche alpha. En outre, l’opacité globale peut être modifiée à l’aide de la commande `opacity=` (pour les images RGB et RGBA).
 
-Les bordures de mur prennent également en charge les images RGBA, principalement pour les bordures découpées.
+Les bordures de mur prennent également en charge les images RGBA, principalement pour prendre en charge les bordures découpées.
 
-Les fichiers [!DNL vnw] qui définissent les recouvrements de fenêtre peuvent inclure un canal d’opacité. Elle est combinée par le moteur de rendu avec le canal alpha de la texture répétable et la valeur `opacity=` pour fournir une gamme complète d’effets d’opacité pour les traitements de fenêtre transparent et transparent.
+Les fichiers [!DNL vnw] qui définissent les recouvrements de fenêtre peuvent inclure un canal d&#39;opacité. Il est combiné par le moteur de rendu à la couche alpha de la texture répétable et à la valeur `opacity=` pour fournir une gamme complète d&#39;effets d&#39;opacité pour les traitements de fenêtres transparentes et translucides.

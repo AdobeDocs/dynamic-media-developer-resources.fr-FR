@@ -1,6 +1,6 @@
 ---
 title: setParam
-description: Référence de l’API JavaScript pour la visionneuse de zoom de base.
+description: Référence de l’API JavaScript pour la visionneuse Zoom de base.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 2%
 
 # setParam{#setparam}
 
-Référence de l’API JavaScript pour la visionneuse de zoom de base.
+Référence de l’API JavaScript pour la visionneuse Zoom de base.
 
-` setParam( *`name, value`*)`
+` setParam( *`nom, valeur`*)`
 
-Définit le paramètre de visionneuse sur une valeur spécifiée. Le paramètre est soit une option de configuration spécifique à la visionneuse, soit un modificateur de kit de développement logiciel. Ce paramètre est appelé avant `init()`.
+Définit le paramètre de visionneuse sur une valeur spécifiée. Le paramètre est une option de configuration spécifique à la visionneuse ou un modificateur de kit de développement logiciel. Ce paramètre est appelé avant `init()`.
 
-Cette méthode est facultative si les informations de configuration de la visionneuse ont été transmises avec l’objet JSON `config` au constructeur.
+Cette méthode est facultative si les informations de configuration de la visionneuse ont été transmises avec `config` objet JSON au constructeur .
 
 Voir aussi [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-javascriptapiref/r-html5-basic-zoom-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
@@ -28,11 +28,11 @@ Voir aussi [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-vi
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> name </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> nom du paramètre. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} nom </span> paramètre. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> valeur du paramètre . La valeur ne peut pas être codée en pourcentage. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> valeur <span class="varname"> </span> </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} valeur </span> du paramètre . La valeur ne peut pas être codée en pourcentage. </p> </td> 
   </tr> 
  </tbody> 
 </table>

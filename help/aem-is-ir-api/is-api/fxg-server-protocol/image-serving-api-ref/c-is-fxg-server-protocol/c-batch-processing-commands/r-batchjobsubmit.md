@@ -1,5 +1,5 @@
 ---
-description: Envoyez une nouvelle tâche par lots.
+description: Envoyer un nouveau traitement par lots.
 solution: Experience Manager
 title: batchjobsubmit
 feature: Dynamic Media Classic,SDK/API
@@ -14,14 +14,14 @@ ht-degree: 2%
 
 # batchjobsubmit{#batchjobsubmit}
 
-Envoyez une nouvelle tâche par lots.
+Envoyer un nouveau traitement par lots.
 
 Ce paramètre :
 
 <table id="simpletable_11A94D630A21426F9A1CEF5EB3B9E789"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> jobdata </span> </p> </td> 
-  <td class="stentry"> <p>Fragment XML de données de tâche complètes. </p> </td> 
+  <td class="stentry"> <p>Extrait de code XML des données de tâche complètes. </p> </td> 
  </tr> 
 </table>
 
@@ -29,8 +29,8 @@ Renvoie :
 
 <table id="simpletable_7C82E4A8520440F5A5ABBC1BCB286AB2"> 
  <tr class="strow"> 
-  <td class="stentry"> <p>État de la tâche </p> </td> 
-  <td class="stentry"> <p>Si l’envoi a réussi ou échoué, ID de tâche au format XML, en cas de réussite. </p> </td> 
+  <td class="stentry"> <p>Statut du traitement </p> </td> 
+  <td class="stentry"> <p>Indique si l’envoi a réussi ou échoué. En cas de succès, identifiant de tâche au format XML. </p> </td> 
  </tr> 
 </table>
 

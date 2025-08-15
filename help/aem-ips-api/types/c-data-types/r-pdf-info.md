@@ -24,4 +24,4 @@ Syntaxe
 |---|---|---|
 | originalPath | `xsd:string` | Chemin du fichier. |
 | originalFile | `xsd:int` | Nom du fichier. |
-| fileSize | `xsd:int` | Taille de fichier. |
+| fileSize | `xsd:int` | Taille du fichier. |

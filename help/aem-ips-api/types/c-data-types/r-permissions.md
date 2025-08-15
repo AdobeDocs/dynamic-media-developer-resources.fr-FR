@@ -1,5 +1,5 @@
 ---
-description: Gère les droits d’accès, de modification, de création ou de suppression des ressources par groupe.
+description: Gère les droits d’accès, de modification, de création ou de suppression de fichiers par groupe.
 solution: Experience Manager
 title: Autorisation
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # [!DNL Permission]{#permission}
 
-Gère les droits d’accès, de modification, de création ou de suppression des ressources par groupe.
+Gère les droits d’accès, de modification, de création ou de suppression de fichiers par groupe.
 
 Syntaxe
 
@@ -22,8 +22,8 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| groupHandle | `xsd:string` | Poignée de groupe. |
-| groupName | `xsd:string` | Nom du groupe. |
-| permissionType | `xsd:string` | Choix du type d’autorisation. |
+| Poignée de groupe | `xsd:string` | Nom de groupe. |
+| Nom de groupe | `xsd:string` | Nom du groupe. |
+| Type de permission | `xsd:string` | Choix du type d’autorisation. |
 | isAllowed | `xsd:boolean` | Détermine si l’autorisation est autorisée. |
-| isOverride | `xsd:boolean` | Détermine si l’autorisation remplace une autre. |
+| Remplacement de l’isOverride | `xsd:boolean` | Détermine si l’autorisation en remplace une autre. |

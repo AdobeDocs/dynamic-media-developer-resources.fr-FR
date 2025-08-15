@@ -1,7 +1,7 @@
 ---
 description: Crée une image superposée pouvant comporter plusieurs calques de texte et d’image.
 solution: Experience Manager
-title: createTemplate
+title: Créer un modèle
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 228b4228-8c42-4e42-9fb1-d6aea61b9c4a
@@ -12,11 +12,11 @@ ht-degree: 10%
 
 ---
 
-# createTemplate{#createtemplate}
+# Créer un modèle{#createtemplate}
 
 Crée une image superposée pouvant comporter plusieurs calques de texte et d’image.
 
-Le paramètre `urlModifier` spécifie les commandes de protocole Image Server stockées dans le catalogue Image Server appliquées avant toute commande fournie par l’utilisateur sur l’URL. Le paramètre `urlPostApplyModifier` spécifie les commandes de protocole appliquées après toutes les commandes d’URL, qui remplacent les paramètres fournis par l’utilisateur en conflit.
+Le `urlModifier` paramètre spécifie les commandes de protocole Image Server stockées dans le catalogue Image Server appliquées avant toute commande fournie par l’utilisateur sur l’URL. Le `urlPostApplyModifier` paramètre spécifie les commandes de protocole appliquées après toutes les commandes URL, ce qui remplace tous les paramètres fournis par l’utilisateur en conflit.
 
 ## Types d’utilisateurs autorisés {#section-9fb615d8e75f452eab2893cc3decfbe6}
 
@@ -32,24 +32,24 @@ Le paramètre `urlModifier` spécifie les commandes de protocole Image Server st
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Société à laquelle le modèle appartient. |
-| folderHandle | `xsd:string` | Oui | La gestion des dossiers qui représente le dossier dans lequel réside le modèle. |
+| CompanyHandle | `xsd:string` | Oui | Société à laquelle le modèle appartient. |
+| poignée de dossier | `xsd:string` | Oui | Nom du dossier représentant le dossier dans lequel réside le modèle. |
 | nom | `xsd:string` | Oui | Nom du modèle. |
 | type | `xsd:string` | Oui | Type de modèle. |
-| urlModifier | `xsd:string` | Oui | Spécifie les commandes du serveur d’images stockées dans le catalogue IS qui sont appliquées avant toute commande fournie par l’utilisateur sur l’URL. |
-| urlPostApplyModifier | `xsd:string` | Non | Spécifie les commandes de protocole appliquées après toute commande d’URL, qui remplace les paramètres fournis par l’utilisateur en conflit. |
+| Modificateur d’url | `xsd:string` | Oui | Spécifie les commandes Image Server stockées dans le catalogue IS qui sont appliquées avant toute commande fournie par l’utilisateur sur l’URL. |
+| urlPostApplyModifier | `xsd:string` | Non | Spécifie les commandes de protocole appliquées après les commandes URL, ce qui remplace tous les paramètres fournis par l’utilisateur en conflit. |
 
 **Output (createTemplateParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| assetHandle | `xsd:string` | Oui | Gestionnaire du modèle. |
+| AssetHandle | `xsd:string` | Oui | Poignée du modèle. |
 
 ## Exemples {#section-09adb4d2f0c944af875c4463a461f55d}
 
-Cet exemple de code crée un modèle dans un dossier spécifié par une poignée, avec le nom `APIcreateTemplate`, `urlModifier` et un `urlPostApplyModifier`. La réponse renvoie le gestionnaire au modèle nouvellement créé.
+Cet exemple de code crée un modèle dans un dossier spécifié par une poignée, avec les noms , `APIcreateTemplate`a `urlModifier`et a `urlPostApplyModifier`. La réponse renvoie la poignée au modèle que vous venez de créer.
 
-**Requête**
+**Demander**
 
 ```java
 <createTemplateParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

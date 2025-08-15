@@ -33,7 +33,7 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gérer la société associée au projet en cours. |
+| companyHandle | `xsd:string` | Oui | Gérer vers la société associée au projet actuel. |
 | projectHandle | `xsd:string` | Oui | Gérez le projet auquel vous ajoutez des ressources. |
 | projectHandleArray | `xsd:HandleArray` | Oui | Tableau des ressources que vous ajoutez au projet en cours. |
 
@@ -42,14 +42,14 @@ Syntaxe
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | successCount | `xsd:int` | Oui | Nombre de ressources ajoutées avec succès. |
-| warningCount | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait d’ajouter des ressources à un projet. |
-| errorCount | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait d’ajouter des ressources à un projet. |
-| warningDetailHandle | `xsd:AssetOperationFaultArray` | Non | Tableau des avertissements générés par les ressources lorsque l’opération tentait de les ajouter à un projet. |
-| companyHandle | `xsd:AssetOperationFaultArray` | Non | Tableau des erreurs générées par les ressources lorsque l’opération tentait de les ajouter à un projet. |
+| warningCount | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération a tenté d’ajouter des ressources à un projet. |
+| errorCount | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération a tenté d’ajouter des ressources à un projet. |
+| warningDetailHandle | `xsd:AssetOperationFaultArray` | Non | Tableau d’avertissements générés par les ressources lorsque l’opération a tenté de les ajouter à un projet. |
+| companyHandle | `xsd:AssetOperationFaultArray` | Non | Tableau d’erreurs générées par des ressources lorsque l’opération a tenté de les ajouter à un projet. |
 
 ## Exemples {#section-bee5be2402f54cb9a3a02cc07def4135}
 
-Cet exemple ajoute une ressource unique (référencée par son nom d’utilisateur) dans un tableau de gestion des ressources à un projet spécifié dans la requête. L’opération s’est terminée avec succès lorsque la réponse `successCount` renvoie `1`.
+Cet exemple montre comment ajouter une ressource unique (référencée par son descripteur) dans un tableau de descripteurs de ressources à un projet spécifié dans la requête. L’opération s’est terminée avec succès lorsque le `successCount` de réponse renvoie `1`.
 
 **Requête**
 

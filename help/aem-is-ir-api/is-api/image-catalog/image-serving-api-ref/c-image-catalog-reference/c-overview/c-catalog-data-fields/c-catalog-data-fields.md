@@ -20,4 +20,4 @@ Cette section décrit les champs de données du catalogue.
 * [Données de contenu statique](r-static-contents-data.md)
 * [Définitions des macros](r-macro-definitions.md)
 * [Mappages de polices](r-font-maps.md)
-* [Mappages de profil ICC](r-icc-profile-maps.md)
+* [Cartes de profil ICC](r-icc-profile-maps.md)

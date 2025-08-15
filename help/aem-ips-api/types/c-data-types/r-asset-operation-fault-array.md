@@ -1,6 +1,6 @@
 ---
 title: AssetOperationFaultArray
-description: Tableau des erreurs d’opération de ressource.
+description: Tableau de défauts d’opération d’actif.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 23%
 
 # [!DNL AssetOperationFaultArray]{#assetoperationfaultarray}
 
-Tableau des erreurs d’opération de ressource.
+Tableau de défauts d’opération d’actif.
 
 Syntaxe
 
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| éléments | `types:AssetOperationFault` | Tableau d’éléments d’erreur d’opération de ressource. |
+| éléments | `types:AssetOperationFault` | Tableau d’éléments de défaillance d’opération de ressource. |

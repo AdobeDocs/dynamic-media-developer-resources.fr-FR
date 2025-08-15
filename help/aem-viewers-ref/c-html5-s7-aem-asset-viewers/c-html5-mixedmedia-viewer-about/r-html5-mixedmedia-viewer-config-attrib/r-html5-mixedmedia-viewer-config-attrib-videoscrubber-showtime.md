@@ -20,7 +20,7 @@ ht-degree: 15%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Active ou désactive la durée de lecture de la bulle lors de l’ajustement de la position du bouton. </p> </td> 
+   <td colname="col2"> <p> Active ou désactive la bulle de durée lors du positionnement du bouton. </p> </td> 
   </tr> 
  </tbody> 
 </table>

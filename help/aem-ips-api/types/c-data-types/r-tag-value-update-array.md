@@ -1,5 +1,5 @@
 ---
-description: Tableau de mises à jour des valeurs de balise.
+description: Tableau de mises à jour de valeurs de balises.
 solution: Experience Manager
 title: TagValueUpdateArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 24%
 
 # [!DNL TagValueUpdateArray]{#tagvalueupdatearray}
 
-Tableau de mises à jour des valeurs de balise.
+Tableau de mises à jour de valeurs de balises.
 
 Syntaxe
 
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| éléments | `types:TagValueUpdate` | Tableau de mises à jour des valeurs de balise. |
+| éléments | `types:TagValueUpdate` | Tableau de mises à jour de valeurs de balises. |

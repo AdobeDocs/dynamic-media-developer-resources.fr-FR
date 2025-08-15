@@ -26,24 +26,24 @@ Syntaxe
 
 ## Paramètres {#section-743610e98dd5494baffcbad6401038eb}
 
-**Entrée (saveGroupParam)**
+**Input (saveGroupParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gestionnaire de l’entreprise avec le groupe que vous souhaitez enregistrer. |
+| companyHandle | `xsd:string` | Oui | Le handle de la société avec le groupe que vous souhaitez enregistrer. |
 | groupHandle | `xsd:string` | Non | La poignée du groupe. |
 | nom | `xsd:string` | Oui | Nom du groupe. |
 | isSystemDefined | `xsd:boolean` | Oui | `false` est la valeur par défaut. |
 
-**Sortie (saveGroupReturn)**
+**Output (saveGroupReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| groupHandle | `xsd:string` | Oui | Poignée de groupe. |
+| groupHandle | `xsd:string` | Oui | Identifiant du groupe. |
 
 ## Exemples {#section-26eee227ff1f4edabb7fa1240b4d9999}
 
-Cet exemple de code crée un groupe qui appartient à une société spécifique. Si le groupe existe déjà, il est enregistré avec les valeurs de paramètre que vous indiquez.
+Cet exemple de code crée un groupe qui appartient à une société spécifique. Si le groupe existe déjà, il est enregistré avec les valeurs de paramètre que vous spécifiez.
 
 **Requête**
 

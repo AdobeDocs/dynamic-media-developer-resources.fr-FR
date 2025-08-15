@@ -1,5 +1,5 @@
 ---
-description: Un tableau de masques.
+description: Ensemble de masques.
 solution: Experience Manager
 title: MaskArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 # [!DNL MaskArray]{#maskarray}
 
-Un tableau de masques.
+Ensemble de masques.
 
 Syntaxe
 

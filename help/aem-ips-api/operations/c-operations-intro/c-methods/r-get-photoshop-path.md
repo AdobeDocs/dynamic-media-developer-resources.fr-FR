@@ -1,5 +1,5 @@
 ---
-description: Renvoie les coordonnées du quadrilatère englobant le chemin Photoshop nommé.
+description: Renvoie les coordonnées du quadrilatère qui entoure le chemin d’Photoshop nommé.
 solution: Experience Manager
 title: getPhotoshopPath
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 17%
 
 # getPhotoshopPath{#getphotoshoppath}
 
-Renvoie les coordonnées du quadrilatère englobant le chemin Photoshop nommé.
+Renvoie les coordonnées du quadrilatère qui entoure le chemin d’Photoshop nommé.
 
 Syntaxe
 
@@ -27,7 +27,7 @@ Syntaxe
 * `ImagePortalUser`
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
-* &quot;
+* ``
 
 ## Paramètres {#section-ebffe496284c4ced9f329f78127be199}
 
@@ -35,19 +35,19 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gérer l’entreprise avec l’image que vous souhaitez utiliser. |
-| assetHandle | `xsd:string` | Oui | Gérer la ressource image. |
-| pathName | `xsd:string` | Oui | Nom du chemin d’accès Photoshop que vous souhaitez renvoyer. |
+| CompanyHandle | `xsd:string` | Oui | Adressez-vous à l’entreprise avec l’image que vous souhaitez utiliser. |
+| AssetHandle | `xsd:string` | Oui | Poignée de la ressource image. |
+| Chemin | `xsd:string` | Oui | Nom du chemin d’Photoshop que vous souhaitez renvoyer. |
 
-**Sortie (getPhotoshopPathReturn)**
+**Output (getPhotoshopPathReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| perspectiveQuad | `types:PerspectiveQuad` | Oui | Renvoie les coordonnées de l’image en fonction du chemin. Voir [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204). |
+| Perspective Quad | `types:PerspectiveQuad` | Oui | Renvoie les coordonnées de l’image en fonction du chemin. Voir [PerspectiveQuad](../../../types/c-data-types/r-perspective-quad.md#reference-3c1f780f9c264e5b870b1ade24566204). |
 
 ## Exemples {#section-1f0461cbdc184c8d8925336d5279db47}
 
-**Requête**
+**Demander**
 
 ```java
 <getPhotoshopPathParam xmlns="http://www.scene7.com/IpsApi/xsd/2012-07-31">

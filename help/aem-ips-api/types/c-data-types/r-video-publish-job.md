@@ -1,5 +1,5 @@
 ---
-description: Publie les fichiers sur les serveurs de publication vidéo configurés.
+description: Publie des fichiers sur les serveurs de publication vidéo configurés.
 solution: Experience Manager
 title: VideoPublishJob
 feature: Dynamic Media Classic,SDK/API,Video
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # [!DNL VideoPublishJob]{#videopublishjob}
 
-Publie les fichiers sur les serveurs de publication vidéo configurés.
+Publie des fichiers sur les serveurs de publication vidéo configurés.
 
 Syntaxe
 
@@ -22,6 +22,6 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| emailSetting | `xsd:string` | Choix des paramètres de courrier électronique. |
-| httpCompletionUrl | `xsd:string` | URL d’envoi d’un avis de fin d’exécution. |
-| contextHandle | `xsd:string` | Gérer au contexte de publication. |
+| emailSetting | `xsd:string` | Choix des paramètres d’e-mail. |
+| httpCompletionUrl | `xsd:string` | URL pour envoyer un avis d&#39;achèvement. |
+| contextHandle | `xsd:string` | Gérer vers le contexte de publication. |

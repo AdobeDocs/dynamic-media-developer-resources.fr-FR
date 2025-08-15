@@ -1,7 +1,7 @@
 ---
-description: Définit les conditions de recherche des champs de balise.
+description: Définit les conditions de recherche des champs de balises.
 solution: Experience Manager
-title: TagCondition
+title: Condition de balise
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ab1ac4b3-e91e-4c42-8b77-6e4c1d129b1a
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # [!DNL TagCondition]{#tagcondition}
 
-Définit les conditions de recherche des champs de balise.
+Définit les conditions de recherche des champs de balises.
 
 Syntaxe
 
@@ -30,28 +30,28 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> Poignée</span> de champ </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
    <td colname="col3"> Poignée de champ de balise. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> op</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3">Dépend du type de champ de balise et de l’utilisation du champ value ou valueArray. 
+   <td colname="col1"> <span class="codeph"><span class="varname"> Op</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
+   <td colname="col3">Cela dépend du type de champ de balise et si le champ value ou valueArray est utilisé. 
     <ul id="ul_CC0926425B094B3BB7D70CB392DBDABD">
-     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5">Si <span class="codeph"> value</span> est transmis, <span class="codeph"> op</span> doit être la chaîne Constantes Correspondances. La condition correspond à tout actif associé à la valeur de balise. </li>
-     <li id="li_70F18494AB6C454EB611F51F16C19FAD">Si <span class="codeph"> valueArray</span> est transmis, le champ op peut être la constante <span class="codeph"> MatchesAny</span> pour les champs de balise à une ou plusieurs valeurs. Une condition <span class="codeph"> MatchesAny</span> correspond à tout actif associé à au moins une des valeurs de balise dans <span class="codeph"> valueArray</span>. </li>
-     <li id="li_0B25542D7E964B26B15591C45D5C66D0">Pour les champs de balise à plusieurs valeurs, le champ op peut être défini sur la constante <span class="codeph"> MatchesAll</span> avec le champ <span class="codeph"> valueArray</span> . Dans ce cas, la condition ne correspond qu’aux ressources associées à toutes les valeurs de balise dans <span class="codeph"> valueArray</span> (peut-être en plus des autres valeurs de balise). </li>
+     <li id="li_09AB923A9A8D4A71917CF59C150E4EF5">Si <span class="codeph"> la valeur</span> est transmise, <span class="codeph"> op</span> doit être la constante de chaîne Correspond. La condition correspond à toute ressource associée à la valeur de balise. </li>
+     <li id="li_70F18494AB6C454EB611F51F16C19FAD">Si <span class="codeph"> valueArray</span> est transmise, le champ op peut être la constante <span class="codeph"> MatchesAny</span> pour les champs de balise à une ou plusieurs valeurs. Une <span class="codeph"> condition MatchesAny</span> correspond à toute ressource associée à au moins une des valeurs de balise dans <span class="codeph"> valueArray</span>. </li>
+     <li id="li_0B25542D7E964B26B15591C45D5C66D0">Pour les champs de balise à valeurs multiples, le champ op peut être défini sur la constante <span class="codeph"> MatchesAll</span> avec le <span class="codeph"> champ valueArray</span> . Dans ce cas, la condition correspond uniquement aux ressources associées à toutes les valeurs de balise dans <span class="codeph"> valueArray</span> (éventuellement en plus d’autres valeurs de balise). </li>
     </ul></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> value</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> valeur</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
    <td colname="col3"> Une valeur correspondante. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> valueArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> Tableau</span> de valeurs </span> </td> 
+   <td colname="col2"> <span class="codeph"> types :StringArray</span> </td> 
    <td colname="col3"> Plusieurs valeurs correspondantes. </td> 
   </tr> 
  </tbody> 

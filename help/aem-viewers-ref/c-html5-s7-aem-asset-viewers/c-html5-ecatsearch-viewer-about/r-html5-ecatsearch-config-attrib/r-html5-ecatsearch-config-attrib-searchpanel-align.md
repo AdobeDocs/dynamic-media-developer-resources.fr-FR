@@ -19,8 +19,8 @@ ht-degree: 4%
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> left|center|right,top|center|bottom</span> </p> </td> 
-   <td colname="col2"> <p> Indique l’alignement horizontal interne (ou ancrage) du conteneur de miniatures dans la zone de composant. </p> <p>Dans le panneau de recherche, le conteneur de miniatures interne est dimensionné de sorte que seul un nombre entier de miniatures s’affiche. Par conséquent, il existe une marge intérieure entre le conteneur interne et les limites du composant externe. </p> <p>Ce modificateur spécifie la manière dont le conteneur de miniatures internes est positionné horizontalement à l’intérieur du composant. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> gauche|centre|droite,haut|centre|bas</span> </p> </td> 
+   <td colname="col2"> <p> Indique l’alignement horizontal interne (ou ancrage) du conteneur de miniatures dans la zone du composant. </p> <p>Dans SearchPanel, le conteneur interne de miniatures est dimensionné de sorte que seul un nombre entier de miniatures soit affiché. Par conséquent, il existe une certaine marge intérieure entre le conteneur interne et les limites du composant externe. </p> <p>Ce modificateur spécifie la manière dont le conteneur de miniatures internes est positionné horizontalement à l’intérieur du composant. </p> </td> 
   </tr> 
  </tbody> 
 </table>

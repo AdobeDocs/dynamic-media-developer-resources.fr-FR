@@ -1,7 +1,7 @@
 ---
 description: Utilisé par JobLogDetail/logType et JobLog/logType.
 solution: Experience Manager
-title: Types de logs de traitement
+title: Types de journaux de tâches
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 34b1bac0-c338-437a-9d44-09dbf75088ee
@@ -12,7 +12,7 @@ ht-degree: 9%
 
 ---
 
-# Types de logs de traitement{#job-log-types}
+# Types de journaux de tâches{#job-log-types}
 
 Utilisé par JobLogDetail/logType et JobLog/logType.
 

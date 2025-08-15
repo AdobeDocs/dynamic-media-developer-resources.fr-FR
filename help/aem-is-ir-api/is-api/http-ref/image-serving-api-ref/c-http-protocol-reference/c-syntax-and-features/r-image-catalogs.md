@@ -1,5 +1,5 @@
 ---
-description: Les fonctionnalités et la syntaxe des catalogues d'images sont décrites dans cette section.
+description: Les fonctionnalités et la syntaxe des catalogues d’images sont décrites dans cette section.
 solution: Experience Manager
 title: Catalogues d’images
 feature: Dynamic Media Classic,SDK/API
@@ -14,94 +14,94 @@ ht-degree: 0%
 
 # Catalogues d’images{#image-catalogs}
 
-Les fonctionnalités et la syntaxe des catalogues d&#39;images sont décrites dans cette section.
+Les fonctionnalités et la syntaxe des catalogues d’images sont décrites dans cette section.
 
 Les catalogues d’images offrent les fonctionnalités suivantes :
 
-* Autoriser l’association persistante des images avec certaines commandes de métadonnées et de modificateur.
+* Autoriser l’association persistante des images à certaines métadonnées et commandes de modification.
 
-  Les entrées dans les catalogues d’images sont référencées à l’aide d’une notation de raccourci `*`rootId/objId`*`, où `*`rootId`*` identifie le catalogue d’images et `*`objId`*` identifie un enregistrement de données dans le catalogue.
-* Indiquez les valeurs par défaut de certains attributs de requête, tels que la qualité du JPEG ou l’application d’un filigrane.
-* Gestion des polices, des profils ICC, des définitions de macro et des modèles de requête
+  Les entrées des catalogues d’images sont référencées à l’aide d’une notation de raccourci `*`rootId/objId`*`, où `*`rootId`*` identifie le catalogue d’images et `*`objId`*` identifie un enregistrement de données dans le catalogue.
+* Fournissez des valeurs par défaut pour certains attributs de requête, tels que la qualité du JPEG ou si un filigrane doit être appliqué.
+* Gérer les polices, les profils ICC, les définitions de macro et les modèles de requête
 
 Même si aucun catalogue d’images spécifique n’est défini, toutes les fonctionnalités des catalogues d’images sont disponibles par le biais du catalogue par défaut ( [!DNL default.ini]).
 
-Si `*`rootId`*` dans le chemin d’URL de la requête correspond à `attribute::RootId` d’un catalogue d’images spécifique, ce catalogue devient le catalogue principal de cette requête. Le catalogue principal fournit les attributs et paramètres par défaut pour l’ensemble de la requête. Si aucune correspondance n’est trouvée, le catalogue par défaut est utilisé à la place.
+Si `*`rootId`*` dans le chemin d’accès URL de la requête correspond à l’`attribute::RootId` d’un catalogue d’images spécifique, ce catalogue devient le catalogue principal de cette requête. Le catalogue principal fournit les attributs et paramètres par défaut pour l’ensemble de la requête. Si aucune correspondance n’est trouvée, le catalogue par défaut est utilisé à la place.
 
-Un catalogue identifié dans une commande `src=` ou `mask=` fournit les attributs et données de catalogue suivants à la couche actuelle :
+Un catalogue identifié dans une commande `src=` ou `mask=` fournit les attributs de catalogue et les données suivants à la couche active :
 
 <table id="table_D3FA66EA5D054745900DE5A120885AA8"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> Attribute/Data</b> </th> 
-   <th class="entry"> <b> Remarques</b> </th> 
+   <th class="entry"> <b> Attribut/Données</b> </th> 
+   <th class="entry"> <b> notes</b> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::DefaultExt</span> </p> </td> 
-   <td> <p> l’extension par défaut pour tous les chemins d’accès aux fichiers image dans le calque actif ; </p> </td> 
+   <td> <p> l’extension par défaut pour tous les chemins d’accès aux fichiers image du calque actuel </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::Expiration</span> </p> </td> 
-   <td> <p> valeur par défaut de <span class="codeph"> catalog::Expiration</span> ou expiration de la couche actuelle si aucun enregistrement de catalogue n’est impliqué </p> </td> 
+   <td> <p> Valeur par défaut pour <span class="codeph"> catalogue::Expiration</span> ou expiration du calque actif si aucun enregistrement de catalogue n’est impliqué </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> Attribut <span class="codeph"> ::Icc*</span> </p> </td> 
-   <td> <p> le profil colorimétrique ICC de travail, l’intention de rendu et l’indicateur de compensation du point noir pour la demande et/ou le calque actif ; </p> </td> 
+   <td> <p> <span class="codeph"> attribute::Icc*</span> </p> </td> 
+   <td> <p> le profil colorimétrique ICC fonctionnel, l’intention de rendu et l’indicateur de compensation de point noir pour la requête et/ou le calque actuel </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::RootPath</span> </p> </td> 
-   <td> <p> utilisé pour tous les chemins d’accès aux fichiers source du calque actif </p> </td> 
+   <td> <p> utilisé pour tous les chemins d’accès aux fichiers sources du calque actuel </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> attribute::Resolution</span> </p> </td> 
-   <td> <p> Par défaut pour le catalogue <span class="codeph"> ::Resolution</span> uniquement </p> </td> 
+   <td> <p> par défaut pour <span class="codeph"> catalogue::Resolution</span> uniquement </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog::Anchor</span> </p> </td> 
-   <td> <p> valeur par défaut pour la valeur <span class="codeph"> anchor=</span> du calque actif </p> </td> 
+   <td> <p> valeur par défaut de la <span class="codeph"> anchor=</span> du calque actif </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> Catalogue <span class="codeph"> ::Expiration</span> </p> </td> 
-   <td> <p> la valeur d’expiration la plus petite de tous les calques est utilisée comme valeur de durée de vie de l’image de réponse. </p> </td> 
+   <td> <p> <span class="codeph"> catalog::Expiration</span> </p> </td> 
+   <td> <p> la plus petite valeur d’expiration de tous les calques est utilisée comme valeur de durée de vie de l’image de réponse </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> Catalogue <span class="codeph"> ::IccProfile</span> </p> </td> 
-   <td> <p> le profil de couleur de l’image source pour le calque actif ; </p> </td> 
+   <td> <p> <span class="codeph"> catalog::IccProfile</span> </p> </td> 
+   <td> <p> profil colorimétrique de l’image source du calque actuel </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> Catalogue <span class="codeph"> ::Map</span> </p> </td> 
-   <td> <p> les données de zone cliquable pour le calque actif ; </p> </td> 
+   <td> <p> <span class="codeph"> catalog::Map</span> </p> </td> 
+   <td> <p> données de la zone cliquable pour le calque actuel </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog::MaskPath</span> </p> </td> 
-   <td> <p> valeur par défaut de <span class="codeph"> mask=</span> pour le calque actif </p> </td> 
+   <td> <p> par défaut pour <span class="codeph"> masque=</span> pour le calque actif </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> Catalogue <span class="codeph"> ::Modifier</span> </p> </td> 
-   <td> <p> les commandes de préfixe pour le calque actif (chaque commande du catalogue <span class="codeph"> ::Modifier</span> peut être remplacée par la même commande de l’URL, si elle est spécifiée pour le même calque). </p> </td> 
+   <td> <p> <span class="codeph"> catalog::Modifier</span> </p> </td> 
+   <td> <p> commandes de préfixe pour le calque actuel (chaque commande <span class="codeph"> catalog::Modifier</span> peut être remplacée par la même commande dans l’URL, si elle est spécifiée pour le même calque) </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> Catalogue <span class="codeph"> ::Path</span> </p> </td> 
-   <td> <p> le fichier image source pour le calque actif ; </p> </td> 
+   <td> <p> <span class="codeph"> catalog::Path</span> </p> </td> 
+   <td> <p> fichier image source du calque actuel </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> Catalogue <span class="codeph"> ::PostModifier</span> </p> </td> 
-   <td> <p> les commandes postfix pour la couche actuelle (similaires au catalogue <span class="codeph"> ::Modifier</span>, mais les commandes du catalogue <span class="codeph"> ::PostModifier</span> remplacent les mêmes commandes spécifiées dans l’URL ou dans le catalogue <span class="codeph"> ::Modifier</span>). </p> </td> 
+   <td> <p> <span class="codeph"> catalog::PostModifier</span> </p> </td> 
+   <td> <p> les commandes de suffixe pour le calque actuel (similaires à <span class="codeph"> catalog::Modifier</span>, mais les commandes de <span class="codeph"> catalog::PostModifier</span> remplacent les mêmes commandes spécifiées dans l’URL ou dans <span class="codeph"> catalog::Modifier</span>) </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> Catalogue <span class="codeph"> ::Resolution</span> </p> </td> 
-   <td> <p> Résolution de l’objet du calque actif </p> </td> 
+   <td> <p> <span class="codeph"> catalog::Resolution</span> </p> </td> 
+   <td> <p> résolution objet du calque actif </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Dans la même couche, `src=` et `mask=` doivent référencer le même catalogue d’images (le cas échéant).
+Dans le même calque, `src=` et `mask=` doivent référencer le même catalogue d’images (le cas échéant).
 
-Un catalogue identifié dans une commande `icc=` n’est utilisé que pour rechercher une entrée de la table de profils ICC du catalogue. Aucun autre attribut ou donnée de catalogue n’est impliqué.
+Un catalogue identifié dans une commande `icc=` est utilisé uniquement pour rechercher une entrée dans la table de profils ICC du catalogue. Aucun autre attribut ou donnée de catalogue n’est impliqué.
 
-Si `*`rootId`*` correspond à un catalogue et que `*`objId`*` correspond à un `catalog::Id` dans ce catalogue, alors `*`rootId/objId`*` est remplacé de manière efficace par l’entrée de catalogue un peu comme ceci :
+Si, `*`rootId`*` est résolu sur un catalogue et que `*`objId`*` est mis en correspondance avec un `catalog::Id` de ce catalogue, `*`rootId/objId`*` est effectivement remplacé par l’entrée de catalogue un peu comme suit :
 
 `src=attribute::RootPath/catalog::Path& mask=attribute::RootPath/catalog::MaskPath& anchor=catalog::Anchor& catalog::Modifier& catalog::PostModifier`
 

@@ -1,5 +1,5 @@
 ---
-description: Renvoie les paramètres IPS d’une société spécifique.
+description: Renvoie les paramètres IPS pour une société spécifique.
 solution: Experience Manager
 title: getCompanySettings
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 21%
 
 # getCompanySettings{#getcompanysettings}
 
-Renvoie les paramètres IPS d’une société spécifique.
+Renvoie les paramètres IPS pour une société spécifique.
 
 Syntaxe
 
@@ -27,13 +27,13 @@ Syntaxe
 
 ## Paramètres {#section-e146f479c2744baa8f68be8c8848c97f}
 
-**Entrée (getCompanySettingsParam)**
+**Input (getCompanySettingsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Le gestionnaire de la société dont vous souhaitez récupérer les paramètres. |
+| companyHandle | `xsd:string` | Oui | Identifiant de la société dont vous souhaitez récupérer les paramètres. |
 
-**Sortie (getCompanySettingsReturn)**
+**Output (getCompanySettingsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|

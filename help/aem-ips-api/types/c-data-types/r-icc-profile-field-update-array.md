@@ -1,5 +1,5 @@
 ---
-description: Un tableau d’éléments de champ de profil ICC mis à jour.
+description: Tableau d’éléments de mise à jour de champ de profil ICC.
 solution: Experience Manager
 title: IccProfileFieldUpdateArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 24%
 
 # [!DNL IccProfileFieldUpdateArray]{#iccprofilefieldupdatearray}
 
-Un tableau d’éléments de champ de profil ICC mis à jour.
+Tableau d’éléments de mise à jour de champ de profil ICC.
 
 Syntaxe
 
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| éléments | `types:IccProfileUpdate` | `IccProfileFieldUpdate` élément de tableau. |
+| éléments | `types:IccProfileUpdate` | `IccProfileFieldUpdate` Élément de tableau. |

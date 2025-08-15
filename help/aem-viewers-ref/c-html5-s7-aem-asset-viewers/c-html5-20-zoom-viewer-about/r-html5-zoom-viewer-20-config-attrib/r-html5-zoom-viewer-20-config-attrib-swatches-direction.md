@@ -19,8 +19,8 @@ ht-degree: 5%
 <table id="table_B4B930A32C0742F4932BF071B9EEA9F4"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> auto|left|right </span> </p> </td> 
-   <td> <p> Indique la manière dont les échantillons remplissent la vue. </p> <p> <span class="codeph"> left </span> définit l’ordre de remplissage de gauche à droite ; </p> <p> <span class="codeph"> à droite </span> inverse l’ordre de sorte que la vue soit remplie de droite à gauche et de haut en bas. </p> <p>Lorsque <span class="codeph"> auto </span> est défini, le composant applique le mode <span class="codeph"> right </span> lorsque le paramètre régional est défini sur <span class="codeph"> ja </span> ; dans le cas contraire, la gauche est utilisée. </p> </td> 
+   <td> <p> <span class="codeph"> auto|gauche|droite </span> </p> </td> 
+   <td> <p> Indique la manière dont les échantillons sont remplis dans la vue. </p> <p> <span class="codeph"> </span> de gauche définit l’ordre de remplissage de gauche à droite ; </p> <p> <span class="codeph">'</span> de droite inverse l'ordre de sorte que la vue soit remplie de droite à gauche et de haut en bas. </p> <p>Lorsque <span class="codeph"> paramètre </span> automatique est défini, le composant applique <span class="codeph"> mode de </span> de droite lorsque le paramètre régional est défini sur <span class="codeph"> ja </span> ; dans le cas contraire, le mode gauche est utilisé. </p> </td> 
   </tr> 
  </tbody> 
 </table>

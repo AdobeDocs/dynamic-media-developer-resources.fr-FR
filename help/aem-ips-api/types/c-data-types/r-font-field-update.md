@@ -1,7 +1,7 @@
 ---
-description: Mise à jour des informations relatives aux propriétés de la police.
+description: Mettez à jour les informations relatives aux propriétés de police.
 solution: Experience Manager
-title: FontFieldUpdate
+title: Mise à jour du champ de police
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9e7b90d6-78da-48ff-8dff-9def3c32e3bc
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # [!DNL FontFieldUpdate]{#fontfieldupdate}
 
-Mise à jour des informations relatives aux propriétés de la police.
+Mettez à jour les informations relatives aux propriétés de police.
 
 Syntaxe
 
@@ -22,11 +22,11 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| assetHandle | `xsd:string` | Poignée de ressource de police. |
-| fontName | `xsd:string` | Nom de la police. |
-| postscriptName | `xsd:string` | Nom de la police PostScript. |
-| rtfName | `xsd:string` | Nom de la police Texte enrichi. |
-| [!DNL fontFamily] | `xsd:string` | Nom de famille de police. |
-| [!DNL style] | `xsd:string` | Style des polices (voir Styles des polices pour les valeurs). |
-| typeName | `xsd:string` | Nom du type de police. |
-| [!DNL type] | `xsd:string` | Type de police (voir Types de police pour les valeurs). |
+| AssetHandle | `xsd:string` | Gérez les ressources de polices. |
+| Nom de police | `xsd:string` | Nom de la police. |
+| Nom postscript | `xsd:string` | PostScript font nom. |
+| rtfName | `xsd:string` | Nom de police de texte enrichi. |
+| [!DNL fontFamily] | `xsd:string` | Nom de la famille de polices. |
+| [!DNL style] | `xsd:string` | Style de police (voir Styles de police pour les valeurs). |
+| Nom de type | `xsd:string` | Nom du type de police. |
+| [!DNL type] | `xsd:string` | Type de police (voir Types de police pour connaître les valeurs). |

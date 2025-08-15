@@ -1,7 +1,7 @@
 ---
-description: Les attributs décrits dans cette section sont reconnus dans les fichiers d’attributs du catalogue.
+description: Les attributs décrits dans cette section sont reconnus dans les fichiers d’attributs de catalogue.
 solution: Experience Manager
-title: Attributs du catalogue
+title: Attributs de catalogue
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 591dbbbf-770b-4566-9dc2-9f1eefe438e4
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Attributs du catalogue{#catalog-attributes}
+# Attributs de catalogue{#catalog-attributes}
 
-Les attributs décrits dans cette section sont reconnus dans les fichiers d’attributs du catalogue.
+Les attributs décrits dans cette section sont reconnus dans les fichiers d’attributs de catalogue.
 
 * [Gestion des catalogues](r-catalog-management.md)
 * [Attributs de requête](r-request-attributes.md)

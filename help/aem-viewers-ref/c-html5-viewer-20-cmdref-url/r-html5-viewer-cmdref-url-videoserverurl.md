@@ -1,6 +1,6 @@
 ---
 title: videoServerUrl
-description: Paramètre commun à toutes les visionneuses.
+description: Paramètre commun à tous les observateurs.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 3%
 
 # videoServerUrl{#videoserverurl}
 
-Paramètre commun à toutes les visionneuses.
+Paramètre commun à tous les observateurs.
 
 >[!NOTE]
 >
->Cette commande ne s’applique pas à la visionneuse d’images vidéo.
+>Cette commande ne concerne pas la visionneuse d’images vidéo.
 
 ` videoServerUrl= *`videoRootPath`*`
 
@@ -26,14 +26,14 @@ Paramètre commun à toutes les visionneuses.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> Chemin d’accès racine du serveur vidéo. Si aucun domaine n’est spécifié, le domaine à partir duquel la page est diffusée est appliqué à la place. La résolution standard du chemin d’accès URI s’applique. </p> </td> 
+   <td colname="col2"> <p> Chemin d’accès racine du serveur vidéo. Si aucun domaine n’est spécifié, le domaine à partir duquel la page est diffusée est appliqué à la place. La résolution de chemin d’URI standard s’applique. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Propriétés {#section-10ee45d637134e0fbcd943c62578cb78}
 
-Facultatif. Non requis pour l’utilisation de logiciels standard en tant que service.
+Facultatif. Non nécessaire pour l’utilisation de logiciels en tant que services standard.
 
 ## Par défaut {#section-d411e450028c460392cb8508f8ccc5d9}
 

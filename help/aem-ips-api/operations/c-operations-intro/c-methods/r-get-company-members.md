@@ -1,5 +1,5 @@
 ---
-description: Renvoie les utilisateurs d’une société spécifiés par un pseudo de société.
+description: Renvoie les utilisateurs d’une société spécifiée par un nom d’utilisateur de société.
 solution: Experience Manager
 title: getCompanyMembers
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # getCompanyMembers{#getcompanymembers}
 
-Renvoie les utilisateurs d’une société spécifiés par un pseudo de société.
+Renvoie les utilisateurs d’une société spécifiée par un nom d’utilisateur de société.
 
 Syntaxe
 
@@ -27,14 +27,14 @@ Syntaxe
 
 ## Paramètres {#section-5602e4d6f2214e398e6a804e61f1a088}
 
-**Entrée (getCompanyMembersParam)**
+**Input (getCompanyMembersParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | La gestion de la société dont vous souhaitez obtenir les membres. |
-| includeInvalid | `xsd:boolean` | Oui | Inclure les entreprises non valides. |
+| companyHandle | `xsd:string` | Oui | Identifiant de la société dont vous souhaitez obtenir les membres. |
+| includeInvalid | `xsd:boolean` | Oui | Inclure les sociétés non valides. |
 
-**Sortie (getCompanyMembersReturn)**
+**Output (getCompanyMembersReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -42,7 +42,7 @@ Syntaxe
 
 ## Exemples {#section-39d8cf3653fd4fe8b842caabac9dedfc}
 
-Cet exemple de code renvoie tous les membres d’une société dans un tableau d’utilisateurs. La réponse a été tronquée pour la concision.
+Cet exemple de code renvoie tous les membres d’une société dans un tableau utilisateur. La réponse a été tronquée par souci de concision.
 
 **Requête**
 

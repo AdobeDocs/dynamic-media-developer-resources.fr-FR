@@ -1,5 +1,5 @@
 ---
-description: Obtient des jeux de propriétés associés à un type handle.
+description: Obtient les jeux de propriétés associés à une poignée de type.
 solution: Experience Manager
 title: getPropertySets
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # getPropertySets{#getpropertysets}
 
-Obtient des jeux de propriétés associés à un type handle.
+Obtient les jeux de propriétés associés à une poignée de type.
 
 Syntaxe
 
@@ -32,25 +32,25 @@ Syntaxe
 
 ## Paramètres {#section-d8da2847e77e4a95a4441d9848cac775}
 
-**Entrée (getPropertySetsParam)**
+**Input (getPropertySetsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| typeHandle | `xsd:string` | Oui | La gestion du type de jeu de propriétés. |
-| primaryOwnerHandle | `xsd:string` | Oui | Propriétaire principal des données liées à l’objet de base de données. |
-| secondaryOwnerHandle | `xsd:string` | Non | Propriétaire secondaire facultatif des données. |
+| Poignée de type | `xsd:string` | Oui | Poignée pour le type de jeu de propriétés. |
+| PrimaryOwnerHandle | `xsd:string` | Oui | Propriétaire principal des données liées à l’objet de base de données. |
+| SecondaryOwnerHandle | `xsd:string` | Non | Propriétaire secondaire facultatif des données. |
 
-**Sortie (getPropertySetsReturn)**
+**Output (getPropertySetsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| setArray | `types:PropertySetArray` | Oui | Matrice de jeux de propriétés. |
+| Ensemble de tableau | `types:PropertySetArray` | Oui | Arry d’ensembles de propriétés. |
 
 ## Exemples {#section-1358af974eab4259864910337a6f0bd2}
 
-Cet exemple de code renvoie les ensembles de propriétés de leur propriétaire principal, spécifiés par un type handle.
+Cet exemple de code renvoie les ensembles de propriétés de leur propriétaire principal, spécifiés par une poignée de type.
 
-**Requête**
+**Demander**
 
 ```java
 <getPropertySetsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

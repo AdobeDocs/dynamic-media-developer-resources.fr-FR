@@ -1,5 +1,5 @@
 ---
-description: Chemin du fichier de mappage de polices. Indique le fichier contenant la mise en correspondance des polices pour ce catalogue d’images.
+description: Chemin du fichier de mappage de polices. Indique le fichier contenant la carte de polices pour ce catalogue d’images.
 solution: Experience Manager
 title: FontMapFile
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 4%
 
 # FontMapFile{#fontmapfile}
 
-Chemin du fichier de mappage de polices. Indique le fichier contenant la mise en correspondance des polices pour ce catalogue d’images.
+Chemin du fichier de mappage de polices. Indique le fichier contenant la carte de polices pour ce catalogue d’images.
 
 ## Propriétés {#section-e88a0caab57542c598f57fa0e88dd254}
 
-Valeur de chaîne de texte. Chemin ou chemin d’accès absolu au fichier par rapport au dossier de catalogue.
+Valeur de chaîne de texte. Chemin d’accès absolu au fichier ou chemin d’accès relatif au dossier du catalogue.
 
 ## Par défaut {#section-c57697856bc84d578e022ed3654fcd1c}
 

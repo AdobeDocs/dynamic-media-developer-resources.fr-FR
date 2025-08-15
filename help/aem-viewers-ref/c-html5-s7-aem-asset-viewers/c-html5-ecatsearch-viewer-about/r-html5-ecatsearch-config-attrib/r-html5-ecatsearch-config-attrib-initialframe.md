@@ -19,8 +19,8 @@ ht-degree: 5%
 <table id="table_06B5F795889E402FB6BCEA4D882E1422"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> frame</span></span> </p> </td> 
-   <td colname="col2"> <p> Spécifie un index de propagation de base zéro à afficher au chargement de la visionneuse. L’index correspond à l’index de la diffusion en mode paysage. Si la visionneuse est remplacée par portrait, la visionneuse affiche la page la plus à gauche de la fenêtre vers laquelle pointe <span class="codeph"> frameIdx</span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> cadre</span></span> </p> </td> 
+   <td colname="col2"> <p> Indique un index de dispersion de base zéro à afficher au chargement de la visionneuse. L’index correspond à l’index de la propagation en mode paysage. Si la visionneuse est tournée en mode portrait, elle affiche la page la plus à gauche de la planche vers laquelle pointe <span class="codeph"> frameIdx</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -35,7 +35,7 @@ Facultatif.
 
 ## Exemple {#section-cbc6684eb22e4d0883edc4b3d5742336}
 
-Lorsqu’il est spécifié dans l’URL de la visionneuse.
+Si spécifié dans l’URL de la visionneuse.
 
 ```
 [!DNL initialFrame=2

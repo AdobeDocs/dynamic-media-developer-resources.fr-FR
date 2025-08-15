@@ -1,5 +1,5 @@
 ---
-description: Identifiant du paramètre régional par défaut. ID de paramètre régional à utiliser à des fins de localisation/traduction lorsque locale= n’est pas spécifié dans la requête.
+description: ID de paramètres régionaux par défaut. Identifiant du paramètre régional à utiliser à des fins de localisation/traduction lorsque le paramètre régional= n’est pas spécifié dans la requête.
 solution: Experience Manager
 title: DefaultLocale
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # DefaultLocale{#defaultlocale}
 
-Identifiant du paramètre régional par défaut. ID de paramètre régional à utiliser à des fins de localisation/traduction lorsque locale= n’est pas spécifié dans la requête.
+ID de paramètres régionaux par défaut. Identifiant du paramètre régional à utiliser à des fins de localisation/traduction lorsque le paramètre régional= n’est pas spécifié dans la requête.
 
 ## Propriétés {#section-a101e9658d304e9caf032a99ecb80386}
 

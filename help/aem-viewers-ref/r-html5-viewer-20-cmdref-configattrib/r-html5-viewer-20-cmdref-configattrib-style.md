@@ -14,20 +14,20 @@ ht-degree: 7%
 
 # style{#style}
 
-Vous pouvez appliquer la commande suivante à partir de la chaîne de requête de l’URL et de la configuration. La commande appliquée dans la chaîne de requête de l’URL a toujours la priorité sur la même commande présente dans la configuration.
+Vous pouvez appliquer la commande suivante à la fois à partir de la chaîne de requête et de la configuration d’URL. La commande appliquée dans la chaîne de requête URL est toujours prioritaire sur la même commande présente dans config.
 
-`style= *`cssPath`*`
+`style= *`Chemin CSSL`*`
 
 <table id="table_F800F787CF0342749B934DAEB600C0EB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> cssPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> Emplacement CSS relatif ou absolu. </p> <p>Indique l’emplacement du fichier CSS personnalisé. Si <span class="codeph"><span class="varname"> cssPath</span></span> est relatif, il est résolu par rapport à l’emplacement de la page d’HTML de la visionneuse et à la valeur du paramètre <span class="codeph"> contentUrl=</span> . </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> Chemin CSSL</span> </span> </p> </td> 
+   <td colname="col2"> <p> Emplacement CSS relatif ou absolu. </p> <p>Indique l’emplacement du fichier CSS personnalisé. Si le <span class="codeph"><span class="varname"> cssPath</span></span> est relatif, il est résolu par rapport à l’emplacement de la page HTML de la visionneuse et à la valeur du <span class="codeph"> paramètre contentUrl=</span> . </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Toutes les références de ressources dans le fichier CSS sont résolues par rapport à l’emplacement du fichier CSS, et non par rapport à l’emplacement de la page de l’HTML appelant.
+Toutes les références de ressources dans le fichier CSS sont résolues par rapport à l’emplacement du fichier CSS, et non à l’emplacement de la page HTML appelante.
 
 ## Propriétés {#section-8ce2a4493d454d97a9975fc7f9f4eb2c}
 

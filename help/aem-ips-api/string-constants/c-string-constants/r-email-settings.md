@@ -1,7 +1,7 @@
 ---
-description: Décrit les valeurs utilisées par différents paramètres d’entrée. Consultez la liste de cet article pour plus de détails.
+description: Décrit les valeurs utilisées par divers paramètres d’entrée. Voir la liste de cet article pour plus de détails.
 solution: Experience Manager
-title: Paramètres de messagerie électronique
+title: Paramètres d’e-mail
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f6fb7d58-968a-41c8-b0a8-ccab37e98801
@@ -12,9 +12,9 @@ ht-degree: 5%
 
 ---
 
-# Paramètres de messagerie électronique{#email-settings}
+# Paramètres d’e-mail{#email-settings}
 
-Décrit les valeurs utilisées par différents paramètres d’entrée. Consultez la liste de cet article pour plus de détails.
+Décrit les valeurs utilisées par divers paramètres d’entrée. Voir la liste de cet article pour plus de détails.
 
 Syntaxe
 

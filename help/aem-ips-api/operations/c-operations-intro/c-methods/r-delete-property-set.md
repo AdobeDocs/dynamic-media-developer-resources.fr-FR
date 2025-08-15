@@ -1,5 +1,5 @@
 ---
-description: Supprime un jeu de propriétés et toutes les propriétés associées.
+description: Supprime un ensemble de propriétés ainsi que toutes les propriétés associées.
 solution: Experience Manager
 title: deletePropertySet
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # deletePropertySet{#deletepropertyset}
 
-Supprime un jeu de propriétés et toutes les propriétés associées.
+Supprime un ensemble de propriétés ainsi que toutes les propriétés associées.
 
 Syntaxe
 
@@ -31,17 +31,17 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| setHandle | `xsd:string` | Oui | La gestion de la propriété à supprimer. |
+| Poignée setHandle | `xsd:string` | Oui | Poignée de la propriété définie à supprimer. |
 
-**Sortie (deletePropertySetParam)**
+**Output (deletePropertySetParam)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-cf319fc8f86a40ab9cbd838b031973fe}
 
-Cet exemple de code utilise la poignée de l’ensemble comme champ dans le `deletePropertySetParam` envoyé au serveur des services Web IPS pour supprimer l’ensemble de propriétés.
+Cet exemple de code utilise le descripteur de l’ensemble comme champ dans l’envoi `deletePropertySetParam` au serveur de services Web IPS afin de supprimer le jeu de propriétés.
 
-**Requête**
+**Demander**
 
 ```java
 <deletePropertySetParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

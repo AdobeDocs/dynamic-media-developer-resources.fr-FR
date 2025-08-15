@@ -1,6 +1,6 @@
 ---
 title: VideoPlayer.singleclick
-description: Attribut de configuration de la visionneuse de vidéos interactives.
+description: Attribut de configuration pour la visionneuse de vidéos interactives.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # VideoPlayer.singleclick{#videoplayer-singleclick}
 
-Attribut de configuration de la visionneuse de vidéos interactives.
+Attribut de configuration pour la visionneuse de vidéos interactives.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]singleclick=none|playPause`
 
@@ -22,7 +22,7 @@ Attribut de configuration de la visionneuse de vidéos interactives.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|playPause</span> </p> </td> 
-   <td colname="col2"> <p> Configure le mappage d’un clic/d’un clic pour activer/désactiver la lecture/la pause. La définition de sur <span class="codeph"> none</span> désactive la lecture/la mise en pause d’un simple clic. Si la valeur est définie sur <span class="codeph"> playPause</span>, la sélection de la vidéo fait basculer entre la lecture et la mise en pause de la vidéo. Sur certains périphériques, vous pouvez utiliser des contrôles natifs. Dans ce cas, un comportement <span class="codeph"> singleclick</span> est désactivé. </p> </td> 
+   <td colname="col2"> <p> Configure le mappage d’un clic/appui unique pour activer/désactiver la lecture/pause. Si vous définissez sur <span class="codeph"> aucun</span> désactivez la lecture/mise en pause en un seul clic ou en appuyant dessus. Si la valeur définie est <span class="codeph"> playPause</span>, la sélection de la vidéo permet de basculer entre la lecture et la mise en pause de la vidéo. Sur certains appareils, vous pouvez utiliser des contrôles natifs. Dans ce cas, un comportement <span class="codeph"> simple clic</span> est désactivé. </p> </td> 
   </tr> 
  </tbody> 
 </table>

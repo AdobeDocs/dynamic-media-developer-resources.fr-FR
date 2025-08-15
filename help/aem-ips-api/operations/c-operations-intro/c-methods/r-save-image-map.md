@@ -1,7 +1,7 @@
 ---
-description: Créez une zone cliquable ou modifiez une zone cliquable existante.
+description: Créez une nouvelle zone cliquable ou modifiez une carte existante.
 solution: Experience Manager
-title: saveImageMap
+title: Enregistrer la zone cliquable
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 91e40549-9b26-41f2-a3ab-7e9bec8f9ba7
@@ -12,9 +12,9 @@ ht-degree: 8%
 
 ---
 
-# saveImageMap{#saveimagemap}
+# Enregistrer la zone cliquable{#saveimagemap}
 
-Créez une zone cliquable ou modifiez une zone cliquable existante.
+Créez une nouvelle zone cliquable ou modifiez une carte existante.
 
 Syntaxe
 
@@ -29,7 +29,7 @@ Syntaxe
 
 >[!NOTE]
 >
->L’utilisateur doit disposer d’un accès en lecture et en écriture à la ressource.
+>L’utilisateur doit disposer d’un accès en lecture et en écriture à l’actif.
 
 ## Paramètres {#section-64f7f5fd8f954fba9fa30eeee556863a}
 
@@ -46,73 +46,73 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> CompanyHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd :chaîne </span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Poignée à l’entreprise avec la zone cliquable que vous souhaitez enregistrer. </td> 
+   <td colname="col4"> Poignée de la société avec la zone cliquable que vous souhaitez enregistrer. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> AssetHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd :chaîne </span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Gestion de la ressource image à laquelle appartient la zone cliquable. </td> 
+   <td colname="col4"> Poignée de la ressource d’image à laquelle la zone cliquable appartient. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> imageMapHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> Poignée de carte d’image </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd :chaîne </span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> Poignée de la zone cliquable. Crée une zone cliquable si NULL. </td> 
+   <td colname="col4"> Poignée de la zone cliquable. Crée une zone cliquable si elle est nulle. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> name </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> nom </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd :chaîne </span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"> Nom de la zone cliquable créée ou enregistrée. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> shapeType </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> Type </span> de forme </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd :chaîne </span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Choix de la forme. </td> 
+   <td colname="col4"> Choix de la forme de la région. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> région </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> région </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd :chaîne </span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"> Liste de points délimités par des virgules qui définissent la région. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> action </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> action </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd :chaîne </span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> <p>La valeur <span class="codeph"> href </span> associée à la zone cliquable, comme indiqué dans l’interface IPS. </p> <p>Pour obtenir la valeur <span class="codeph"> href </span> , cliquez sur l’image dans l’interface IPS, copiez et collez l’URL dans cet élément, puis formatez l’URL IPS en tant qu’URL appropriée. Par exemple, <span class="codeph"> &amp; </span> devient <span class="codeph"> &amp; </span>. </p> </td> 
+   <td colname="col4"> <p>Valeur <span class="codeph"> href </span> associée à la zone cliquable, comme spécifié dans l’interface IPS. </p> <p>Pour obtenir la <span class="codeph"> valeur href </span> , cliquez sur l’image dans l’interface IPS, copiez et collez l’URL dans cet élément, puis formatez l’URL IPS en tant qu’URL appropriée. Par exemple, <span class="codeph"> &amp; </span> devient <span class="codeph"> &amp; </span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> position </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:int </span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> position </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd :int </span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"> Ordre dans la liste des zones cliquables (axe Z). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> activé </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean </span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> Activé </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd :booléen </span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"></td> 
   </tr> 
  </tbody> 
 </table>
 
-**Sortie (saveImageMapReturn)**
+**Output (saveImageMapReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| imageMapHandle | `xsd:string` | Oui | Gestion de la zone cliquable nouvelle ou modifiée. |
+| Poignée de carte d’image | `xsd:string` | Oui | Poignée de la zone cliquable nouvelle ou modifiée. |
 
 ## Exemples {#section-fdac488b640f427c8aa3d549c5032851}
 
-Cet exemple de code crée une zone cliquable pour une ressource. Elle utilise un type de forme déterminé par une constante de chaîne de forme de région et renvoie une poignée à la nouvelle zone cliquable.
+Cet exemple de code crée une nouvelle zone cliquable pour un actif. Il utilise un type de forme déterminé par une constante de chaîne de forme de région et renvoie une poignée à la nouvelle zone cliquable.
 
-**Requête**
+**Demander**
 
 ```
 <saveImageMapParam xmlns="http://www.scene7.com/IpsApi/xsd"> 

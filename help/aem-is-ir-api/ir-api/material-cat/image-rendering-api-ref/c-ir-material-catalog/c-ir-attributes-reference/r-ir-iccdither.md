@@ -18,11 +18,11 @@ Tramage de conversion des couleurs. Indique si le tramage doit être utilisé po
 
 ## Propriétés {#section-646fb48084734c66bf648360f3a5bfd1}
 
-Indicateur. Définissez cette variable sur `0` pour désactiver ou sur `1` pour activer le tramage.
+Drapeau. Définissez cette option sur `0` pour désactiver le tramage ou sur `1` pour l’activer.
 
 ## Par défaut {#section-c9066c361215404d847f4d2c8f1ea3a5}
 
-Hérité de `default::IccDither` si elle n’est pas définie ou si elle est vide.
+Hérité de `default::IccDither` si non défini ou si vide.
 
 ## Voir aussi {#section-76a376a1bee74670867b4de81fea65aa}
 

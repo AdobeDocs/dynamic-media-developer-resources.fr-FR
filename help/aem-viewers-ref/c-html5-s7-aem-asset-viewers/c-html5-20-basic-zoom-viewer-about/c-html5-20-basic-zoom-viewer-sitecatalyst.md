@@ -1,6 +1,6 @@
 ---
 title: Prise en charge du suivi Adobe Analytics
-description: La visionneuse de zoom de base prend en charge le suivi Adobe Analytics prêt à l’emploi.
+description: La visionneuse de zoom de base prend en charge Adobe Analytics suivi par défaut.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User,Data Engineer,Data Architect
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 # Prise en charge du suivi Adobe Analytics{#support-for-adobe-analytics-tracking}
 
-La visionneuse de zoom de base prend en charge le suivi Adobe Analytics prêt à l’emploi.
+La visionneuse de zoom de base prend en charge Adobe Analytics suivi par défaut.
 
-## Suivi d’usine {#section-ba994f079d0343c8ae48adffaa3195a3}
+## Tracking d’usine {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-La visionneuse de zoom de base prend en charge le suivi [!DNL Adobe Analytics] prêt à l’emploi. Pour activer le suivi, transmettez le nom de paramètre prédéfini d’entreprise approprié en tant que paramètre `config2`.
+La visionneuse de zoom de base prend en charge le [!DNL Adobe Analytics] suivi en standard. Pour activer le suivi, transmettez le nom du paramètre prédéfini de la société en tant que `config2` paramètre.
 
-La visionneuse envoie également une requête HTTP de suivi unique au serveur d’images configuré avec le type de visionneuse et les informations de version.
+La visionneuse envoie également une requête HTTP de suivi unique au serveur d’images configuré avec le type et les informations de version de la visionneuse.
 
 ## Suivi personnalisé {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Pour s’intégrer à des systèmes d’analyse tiers, il est nécessaire d’écouter le rappel de la visionneuse `trackEvent` et de traiter l’argument `eventInfo` de la fonction de rappel si nécessaire. Le code suivant est un exemple de fonction de gestionnaire de ce type :
+Pour intégrer des systèmes d’analyse tiers, il est nécessaire d’écouter le rappel de la `trackEvent` visionneuse et de traiter l’argument `eventInfo` de la fonction de rappel si nécessaire. Le code suivant est un exemple de fonction de gestionnaire :
 
 ```javascript {.line-numbers}
 var basicZoomViewer = new s7viewers.BasicZoomViewer({ 
@@ -48,31 +48,31 @@ var basicZoomViewer = new s7viewers.BasicZoomViewer({
 });
 ```
 
-La visionneuse effectue le suivi des événements utilisateur du SDK suivants :
+La visionneuse effectue le suivi des événements utilisateur SDK suivants :
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Événement d’utilisateur du SDK </p> </th> 
-   <th colname="col2" class="entry"> <p>Envoyé lorsque.. </p> </th> 
+   <th colname="col1" class="entry"> <p>Evénement utilisateur SDK </p> </th> 
+   <th colname="col2" class="entry"> <p>Envoyé quand... </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
-   <td colname="col2"> <p>la visionneuse est d’abord chargée. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CHARGER </span> </p> </td> 
+   <td colname="col2"> <p>La visionneuse est chargée en premier. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>une ressource est échangée dans la visionneuse à l’aide de l’API <span class="codeph"> setAsset() </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ÉCHANGER </span> </p> </td> 
+   <td colname="col2"> <p>une ressource est permutée dans la visionneuse à l’aide de l’API <span class="codeph"> setAsset(). </span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
-   <td colname="col2"> <p> une image est agrandie. </p> </td> 
+   <td colname="col2"> <p> L’image est agrandie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAN </span> </p> </td> 
-   <td colname="col2"> <p>une image est numérisée. </p> </td> 
+   <td colname="col2"> <p>Une image fait l’objet d’un panoramique. </p> </td> 
   </tr> 
  </tbody> 
 </table>

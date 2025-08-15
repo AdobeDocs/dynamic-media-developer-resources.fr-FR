@@ -1,6 +1,6 @@
 ---
 title: ErrorDetail
-description: Détails du message d’erreur. Indique le niveau de détail des messages d’erreur renvoyés par HTTP comme valeur error.message.
+description: Détails du message d’erreur. Indique le niveau de détail des messages d’erreur renvoyés par le biais du protocole HTTP comme valeur error.message.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # ErrorDetail{#errordetail}
 
-Détails du message d’erreur. Indique le niveau de détail des messages d’erreur renvoyés par HTTP comme valeur error.message.
+Détails du message d’erreur. Indique le niveau de détail des messages d’erreur renvoyés par le biais du protocole HTTP comme valeur error.message.
 
 ## Titre {#section-c10d75d72ee24d16a67cc8d927f1deba}
 
@@ -27,21 +27,21 @@ Les valeurs suivantes sont autorisées :
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p></td> 
-  <td class="stentry"> <p>Bref message. Réservé pour une utilisation ultérieure. Actuellement, renvoie les mêmes informations que 0. </p></td> 
+  <td class="stentry"> <p>Message bref. Réservé à une utilisation ultérieure. Renvoie actuellement les mêmes informations que 0. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p></td> 
-  <td class="stentry"> <p>Message détaillé. Fournit des détails sur l’erreur au niveau de l’utilisateur. Peut inclure des informations sensibles, telles que les chemins d’accès aux fichiers. </p></td> 
+  <td class="stentry"> <p>Message détaillé. Fournit des détails au niveau de l’utilisateur sur l’erreur. Peut inclure des informations sensibles, telles que des chemins d’accès aux fichiers. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>Informations de débogage complètes. Ajoute des traces de pile Java™ le cas échéant. Les images d’erreur n’incluent jamais de traces de pile, mais renvoient des informations de niveau 2 dans <span class="codeph"> $error.message</span>. </p></td> 
+  <td class="stentry"> <p>Informations complètes de débogage. Ajoute des traces de pile Java™, le cas échéant. Les images d’erreur n’incluent jamais de traces de pile et renvoient plutôt des informations de niveau 2 dans <span class="codeph"> $error.message</span>. </p></td> 
  </tr> 
 </table>
 
-* Le niveau 0 est recommandé pour les serveurs en ligne accessibles publiquement.
+* Le niveau 0 est recommandé pour les serveurs en ligne accessibles au public.
 * Le niveau 2 est recommandé pour les serveurs d’évaluation, d’assurance qualité et de développement d’applications.
-* Les informations de niveau 3 peuvent s’avérer utiles lorsque vous signalez des problèmes au support technique de Dynamic Media.
+* Les informations de niveau 3 peuvent s’avérer utiles lors de la notification de problèmes au support technique de Dynamic Media.
 
 ## Propriétés {#section-f03f9a8edd6a4d99aff38fbec41c4b80}
 

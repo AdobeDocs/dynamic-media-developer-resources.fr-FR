@@ -1,5 +1,5 @@
 ---
-title: icc
+title: cpi
 description: Profil de couleurs de sortie.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 ---
 
-# icc{#icc}
+# cpi{#icc}
 
 Profil de couleurs de sortie.
 
@@ -20,16 +20,16 @@ Profil de couleurs de sortie.
 
 <table id="simpletable_AC20916999004CDCBBB9888B3A8FB0A7"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> objet</span> </span> </p></td> 
-  <td class="stentry"> <p>Profil colorimétrique ICC. </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> objet </span> </span> </p></td> 
+  <td class="stentry"> <p>Profil de couleurs ICC. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> renderIntent</span></span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"> perception|relative|saturation|absolu</span>. </p></td> 
+  <td class="stentry"> <p><span class="codeph"> perception|relative|saturation|absolue</span>. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> blackpointComp</span></span> </p></td> 
-  <td class="stentry"> <p>1 pour activer, 0 pour désactiver la compensation du point noir. </p></td> 
+  <td class="stentry"> <p>1 pour activer, 0 pour désactiver la compensation du point de noir. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> dither</span></span> </p></td> 
@@ -37,15 +37,15 @@ Profil de couleurs de sortie.
  </tr> 
 </table>
 
-La valeur *`object`* spécifie le profil d’espace colorimétrique de sortie auquel l’image doit être convertie si elle est différente du profil de travail. La valeur *`profile`* doit être soit une valeur `icc::Name` valide définie dans la carte de profil ICC d’un catalogue d’images ou d’un catalogue par défaut, soit un chemin d’accès relatif à un fichier de profil (généralement avec le suffixe [!DNL .icc] ou [!DNL .icm]). Voir [*`object`*](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0) pour plus d’informations.
+La valeur *`object`* spécifie le profil de l’espace colorimétrique de sortie vers lequel l’image doit être convertie si elle est différente du profil en cours d’utilisation. La valeur *`profile`* doit être un `icc::Name` valide défini dans la carte de profil ICC d’un catalogue d’images ou d’un catalogue par défaut, ou un chemin d’accès relatif à un fichier de profil (généralement avec un suffixe [!DNL .icc] ou [!DNL .icm]). Voir [*`object`*](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0) pour plus d’informations.
 
 >[!NOTE]
 >
->La valeur *`object`* peut ne pas inclure de caractères &quot;,&quot;, même si elle est codée en HTTP.
+>La valeur *`object`* peut ne pas inclure de caractères « , », même si elle est codée en HTTP.
 
 La valeur *`renderIntent`* permet de remplacer l’intention de rendu par défaut.
 
-La valeur *`blackpointComp`* active la compensation du point noir si le profil de sortie prend en charge cette fonctionnalité.
+La valeur *`blackpointComp`* active la compensation du point de noir si le profil de sortie prend en charge cette fonctionnalité.
 
 >[!NOTE]
 >
@@ -59,14 +59,14 @@ Le modificateur *`dither`* active le tramage (en fait, la diffusion d’erreur),
 
 Attribut de requête. Le serveur renvoie une erreur si un type d’image est spécifié avec `fmt=` qui ne correspond pas à *`profile`*.
 
-Les modificateurs *`renderIntent`* et *`blackpointComp`* sont ignorés s’ils ne sont pas compatibles avec le profil ICC spécifié. Les profils d’appareils de sortie CMJN sont plus susceptibles de prendre en charge différents modes de rendu.
+Les modificateurs *`renderIntent`* et *`blackpointComp`* sont ignorés s’ils ne sont pas compatibles avec le profil ICC spécifié. Les profils de périphérique de sortie CMJN sont plus susceptibles de prendre en charge différentes intentions de rendu.
 
 ## Par défaut {#section-0b9fe2eb428447df8ae9948f11ab5aae}
 
-Si la gestion des couleurs est activée et que `icc=` n&#39;est pas spécifié, le serveur diffuse l&#39;image convertie dans le profil de sortie ( `attribute::IccProfile*`) correspondant au type d&#39;image spécifié avec `fmt=`.
+Si la gestion des couleurs est activée et que `icc=` n’est pas spécifié, le serveur diffuse l’image convertie en profil de sortie ( `attribute::IccProfile*`) correspondant au type d’image spécifié avec `fmt=`.
 
 Si elle n’est pas spécifiée, *`renderIntent`* est hérité de `attribute::IccRenderIntent`, *`blackpointComp`* est hérité de `attribute::IccBlackPointCompensation` et *`dither`* est hérité de `attribute::IccDither`.
 
 ## Voir aussi {#section-37f16b0c2c4b48f3a39dcde2a350f91e}
 
-[attribute::IccProfile*](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md#reference-db89f9dac33e447cadb359ec1ba27ee0) , [attribute::IccRenderIntent](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f), [attribute::IccBlackPointCompensation](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f), [attribute::IccDither](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccdither.md#reference-914d0d0567364246b4016d45c0ada85b), [fmt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a), [object](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0), [Color Management](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-color-management.md#reference-c7e4a72d589145189f7e4bcb6b4544d7) [Référence de carte de profil ICC](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c), [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e)
+[attribute::IccProfile*](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilecmyk.md#reference-db89f9dac33e447cadb359ec1ba27ee0) , [attribute::IccRenderIntent](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccrenderintent.md#reference-012f207f28bd4406a5368d23ed95a51f), [attribute::IccBlackPointCompensation](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccblackpointcompensation.md#reference-357626375ee140d1807f0c05171c733f), [attribute::IccDither](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccdither.md#reference-914d0d0567364246b4016d45c0ada85b), [fmt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a), [object](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0), [Color Management](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-color-management.md#reference-c7e4a72d589145189f7e4bcb6b4544d7), [ICC Profile Map Reference](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c), [iccEmbed=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-iccembed.md#reference-e3b774fb322046a2a6dde3a7bab5583e)

@@ -1,5 +1,5 @@
 ---
-description: Identifiant de l’enregistrement du catalogue. Valeur clé par laquelle les enregistrements matériels sont examinés par le serveur de rendu. En règle générale, un identifiant de matériau court et unique, tel qu’un numéro de SKU.
+description: Identifiant d’enregistrement de catalogue. Valeur de clé selon laquelle les enregistrements de matières sont examinés par le serveur de rendu. Généralement, un identifiant de matériau court et unique, tel qu’un numéro de SKU.
 solution: Experience Manager
 title: ID
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 7%
 
 # ID{#id}
 
-Identifiant de l’enregistrement du catalogue. Valeur clé par laquelle les enregistrements matériels sont examinés par le serveur de rendu. En règle générale, un identifiant de matériau court et unique, tel qu’un numéro de SKU.
+Identifiant d’enregistrement de catalogue. Valeur de clé selon laquelle les enregistrements de matières sont examinés par le serveur de rendu. Généralement, un identifiant de matériau court et unique, tel qu’un numéro de SKU.
 
 ## Propriétés {#section-9b20bf2545314620808b4210bce7afc9}
 
-Chaîne de texte. Obligatoire. Chaque valeur `catalog::Id` doit être unique dans ce catalogue matériel et ne doit pas contenir de caractères &quot;,&quot;.
+Chaîne de texte. Obligatoire. Chaque `catalog::Id` valeur doit être unique dans ce catalogue de matériaux et ne doit pas contenir les caractères « ,. ».
 
 ## Par défaut {#section-6a517046c43a40a7ba0af0212b5f31d2}
 
@@ -26,4 +26,4 @@ Aucune
 
 ## Voir aussi {#section-4a44c8b070674ce3a7f2c13a3003a14a}
 
-[attribute::RootId](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootid.md#reference-54b42b7125824be593378c1accb70d5a) , [src=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272)
+[attribute ::RootId](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rootid.md#reference-54b42b7125824be593378c1accb70d5a) , [src=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272)

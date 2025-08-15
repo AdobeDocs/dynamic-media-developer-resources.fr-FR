@@ -1,7 +1,7 @@
 ---
-description: Même si les données d’image et de SVG sont très similaires, elles sont conservées dans des tableaux distincts dans le catalogue d’images.
+description: Bien que les données d’image et de SVG soient très similaires, elles sont conservées dans des tableaux distincts dans le catalogue d’images.
 solution: Experience Manager
-title: Référence des données d’image/de SVG
+title: Référence des données Image/SVG
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d43bf938-efed-4e9f-ab47-6581f8c587c9
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# Référence des données d’image/de SVG{#image-svg-data-reference}
+# Référence des données Image/SVG{#image-svg-data-reference}
 
-Même si les données d’image et de SVG sont très similaires, elles sont conservées dans des tableaux distincts dans le catalogue d’images.
+Bien que les données d’image et de SVG soient très similaires, elles sont conservées dans des tableaux distincts dans le catalogue d’images.
 
-Si des données image sont requises, le chemin d’accès relatif ou absolu des fichiers de données image qui énumèrent les images doit être spécifié dans `attribute::CatalogFile`. Si des données de SVG sont requises, le chemin d’accès relatif ou absolu des fichiers de données du SVG doit être spécifié dans `attribute::SvgCatalogFile`.
+Si des données d’image sont requises, le chemin d’accès relatif ou absolu des fichiers de données d’image qui détaillent les images doit être spécifié dans `attribute::CatalogFile`. Si des données SVG sont requises, le chemin d’accès relatif ou absolu des fichiers de données SVG doit être spécifié dans `attribute::SvgCatalogFile`.
 
 * [Référence des données d’image](c-image-data-reference/c-image-data-reference.md)
-* [Référence des données du SVG](c-svg-data-reference/c-svg-data-reference.md)
+* [Référence des données SVG](c-svg-data-reference/c-svg-data-reference.md)

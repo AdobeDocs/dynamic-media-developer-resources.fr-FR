@@ -26,16 +26,16 @@ Syntaxe
 
 ## Paramètres {#section-339e6e17c5504e1ea79fbdc05f618050}
 
-**Entrée (updateFolderPermissionsParam)**
+**Input (updateFolderPermissionsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Poignée de la société. |
-| folderHandle | `xsd:string` | Oui | Poignée de dossier. |
+| companyHandle | `xsd:string` | Oui | Identifiant de la société. |
+| folderHandle | `xsd:string` | Oui | Handle du dossier. |
 | updateChildren | `xsd:boolean` | Oui | Détermine s’il faut mettre à jour les enfants avec des autorisations définies pour le dossier de niveau supérieur. |
-| updateArray | `types:PermissionUpdateArray` | Oui | Tableau des mises à jour d’autorisation que vous souhaitez appliquer au dossier. |
+| updateArray | `types:PermissionUpdateArray` | Oui | Tableau des mises à jour des autorisations à appliquer au dossier. |
 
-**Sortie (updateFolderPermissionsReturn)**
+**Output (updateFolderPermissionsReturn)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 

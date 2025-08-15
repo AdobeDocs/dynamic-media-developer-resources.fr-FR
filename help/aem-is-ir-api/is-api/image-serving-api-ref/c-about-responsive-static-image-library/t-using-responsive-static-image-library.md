@@ -1,6 +1,6 @@
 ---
-title: Utilisation de la bibliothèque d’images réactives
-description: Pour ajouter une bibliothèque d’images réactives à une page web et gérer les images existantes avec la bibliothèque, procédez comme suit.
+title: Utilisation de la bibliothèque d’images réactive
+description: Pour ajouter une bibliothèque d’images réactive à une page web et gérer les images existantes avec la bibliothèque, procédez comme suit.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,37 +12,37 @@ ht-degree: 0%
 
 ---
 
-# Utilisation de la bibliothèque d’images réactives{#using-responsive-image-library}
+# Utilisation de la bibliothèque d’images réactive{#using-responsive-image-library}
 
-Pour ajouter une bibliothèque d’images réactives à une page web et gérer les images existantes avec la bibliothèque, procédez comme suit.
+Pour ajouter une bibliothèque d’images réactive à une page web et gérer les images existantes avec la bibliothèque, procédez comme suit.
 
-**Pour utiliser la bibliothèque d’images réactives**
+**Pour utiliser la bibliothèque d’images réactive**
 
-1. Dans Dynamic Media Classic, [créez un paramètre d’image prédéfini](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html?lang=fr#image-sizing) si vous envisagez d’utiliser la bibliothèque d’images réactives avec des paramètres prédéfinis.
+1. Dans Dynamic Media Classic, [créez un paramètre d’image prédéfini](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing) au cas où vous envisageriez d’utiliser la bibliothèque d’images réactive avec des paramètres prédéfinis.
 
-   Lorsque vous définissez des paramètres d’image prédéfinis utilisés avec la bibliothèque d’images réactives, n’utilisez aucun paramètre qui affecte la taille de l’image, comme `wid=`, `hei=` ou `scl=`. Ne spécifiez aucun champ de taille dans le paramètre d’image prédéfini. Conservez plutôt des valeurs vides.
+   Lorsque vous définissez des paramètres d’image prédéfinis utilisés avec la bibliothèque d’images réactive, n’utilisez aucun paramètre affectant la taille de l’image, tel que `wid=`, `hei=` ou `scl=`. Ne spécifiez aucun champ de taille dans le paramètre d’image prédéfini. Au lieu de cela, laissez-les comme valeurs vides.
 1. Ajoutez le fichier JavaScript de bibliothèque à votre page web.
 
-   Avant de pouvoir utiliser l’API de bibliothèque, veillez à inclure `responsive_image.js`. Ce fichier JavaScript se trouve dans le sous-dossier `libs/` de votre déploiement IS-Viewers standard :
+   Avant de pouvoir utiliser l’API de bibliothèque, veillez à inclure `responsive_image.js`. Ce fichier JavaScript se trouve dans le sous-dossier `libs/` de votre déploiement d’observateurs IS standard :
 
    `<s7viewers_root>/libs/responsive_image.js`
 1. Configurez les images existantes.
 
-   La bibliothèque lit certains attributs de configuration à partir d’une instance d’image avec laquelle elle travaille. Définissez des attributs avant l’appel de la fonction d’API `s7responsiveImage` pour une telle image.
+   La bibliothèque lit certains attributs de configuration à partir d’une instance d’image avec laquelle elle travaille. Définissez des attributs avant l’appel de la fonction API `s7responsiveImage` pour une telle image.
 
-   Il est également conseillé de placer l’URL de l’image existante dans l’attribut `data-src` . Ensuite, configurez l’attribut `src` existant pour qu’une image de GIF 1x1 soit codée en tant qu’URI de données. Cela permet de réduire le nombre de requêtes HTTP envoyées par la page web au moment du chargement. Notez toutefois que si le SEO (optimisation du moteur de recherche) est nécessaire, il est préférable de configurer un attribut `title` sur l’instance d’image.
+   Il est également suggéré de placer l’URL de l’image existante dans l’attribut `data-src`. Ensuite, configurez l’attribut `src` existant pour qu’une image GIF 1x1 soit codée en tant qu’URI de données. Cela permet de réduire le nombre de requêtes HTTP envoyées par la page web au moment du chargement. Notez toutefois que si l’optimisation du moteur de recherche (SEO) est nécessaire, il est préférable de configurer un attribut `title` sur l’instance d’image.
 
-   Voici un exemple de définition de l’attribut `data-breakpoints` pour l’image à l’aide d’un GIF 1x1 encodé en tant qu’URI de données :
+   Voici un exemple de définition de l’attribut `data-breakpoints` pour l’image et d’utilisation d’un GIF 1x1 codé en tant qu’URI de données :
 
    ```
    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
    ```
 
-1. Appelez la fonction d’API `s7responsiveImage` pour chaque instance d’image gérée par la bibliothèque.
+1. Appelez la fonction API `s7responsiveImage` pour chaque instance d’image gérée par la bibliothèque.
 
-   Appelez la fonction d’API `s7responsiveImage` pour chaque instance d’image gérée par la bibliothèque. Après un tel appel, la bibliothèque remplace l’image d’origine par l’image téléchargée à partir du serveur d’images en fonction de la taille d’exécution de l’élément `IMG` dans la mise en page web et de la densité de l’écran de l’appareil.
+   Appelez la fonction API `s7responsiveImage` pour chaque instance d’image gérée par la bibliothèque. Après un tel appel, la bibliothèque remplace l’image d’origine par l’image téléchargée à partir de la Diffusion d’images en fonction de la taille d’exécution de l’élément `IMG` dans la disposition de la page web et de la densité de l’écran de l’appareil.
 
-   Le code suivant est un exemple d’appel de la fonction d’API `s7responsiveImage` sur une image, en supposant que `responsiveImage` soit un identifiant de cette image :
+   Le code suivant est un exemple d’appel de `s7responsiveImage` fonction API sur une image, en supposant que `responsiveImage` soit un identifiant de cette image :
 
    ```
    <script type="text/javascript"> 
@@ -52,11 +52,11 @@ Pour ajouter une bibliothèque d’images réactives à une page web et gérer l
 
 ## Exemple {#example-0509a0dd2a8e4fd58b5d39a0df47bd87}
 
-La bibliothèque prend en charge l’utilisation simultanée de nombreuses instances d’image sur la page web. Par conséquent, répétez les étapes 1 et 2 ci-dessus pour chaque image que vous souhaitez que la bibliothèque gère.
+La bibliothèque prend en charge l’utilisation simultanée de plusieurs instances d’image sur la page web. Par conséquent, répétez les étapes 1 et 2 ci-dessus pour chaque image que vous souhaitez que la bibliothèque gère.
 
-Il est de la responsabilité de la page web de mettre en forme l’élément image afin de le rendre flexible en termes de taille. La bibliothèque d’images réactives ne fait pas de distinction entre les images de taille fixe et les images &quot;fluides&quot;. S’il est appliqué à une image à taille fixe, il ne charge la nouvelle image qu’une seule fois.
+Il est de la responsabilité de la page web de mettre en forme l’élément d’image afin de le rendre flexible en termes de taille. La bibliothèque d’images réactive ne fait pas de distinction entre les images de taille fixe et les images « fluides ». Si elle est appliquée à une image de taille fixe, elle charge la nouvelle image une seule fois.
 
-Le code suivant est un exemple complet d’une page web triviale qui comporte une seule image fluide gérée par la bibliothèque d’images réactives. L’exemple contient un style CSS supplémentaire pour rendre l’image &quot;réactive&quot; à la taille de la fenêtre du navigateur web :
+Le code suivant est un exemple complet de page web triviale disposant d’une seule image fluide gérée par la bibliothèque d’images réactive. L’exemple contient un style CSS supplémentaire pour rendre l’image « réactive » à la taille de la fenêtre du navigateur web :
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -85,12 +85,12 @@ Le code suivant est un exemple complet d’une page web triviale qui comporte un
 
 **Utilisation du recadrage intelligent**
 
-Deux modes de recadrage intelligent sont disponibles dans AEM 6.4 et dans Dynamic Media Viewers 5.9 :
+Deux modes de recadrage intelligent sont disponibles dans AEM 6.4 et dans les visionneuses Dynamic Media 5.9 :
 
-* **Manuel** - Les points d’arrêt définis par l’utilisateur et les commandes correspondantes du service d’image sont définis dans un attribut de l’élément image.
-* **Recadrage intelligent** : les rendus de recadrage intelligent calculé sont automatiquement récupérés à partir du serveur de diffusion. Le meilleur rendu est sélectionné à l’aide de la taille d’exécution de l’élément d’image.
+* **Manuel** - les points d’arrêt définis par l’utilisateur et les commandes du service d’image correspondantes sont définis dans un attribut de l’élément image.
+* **Recadrage intelligent** : les rendus de recadrage intelligent calculés sont automatiquement récupérés à partir du serveur de diffusion. Le meilleur rendu est sélectionné à l’aide de la taille d’exécution de l’élément d’image.
 
-Pour utiliser le mode Recadrage intelligent, définissez l’attribut `data-mode` sur `smart crop`. Par exemple :
+Pour utiliser le mode Recadrage intelligent , définissez l’attribut `data-mode` sur `smart crop`. Par exemple :
 
 ```html {.line-numbers}
 <img 
@@ -99,7 +99,7 @@ data-src="https://imageserver.com/is/image/ExampleCo/SmartCropAsset"
 data-mode="smartcrop">
 ```
 
-L’élément d’image associé distribue un événement `s7responsiveViewer` au moment de l’exécution lorsque le point d’arrêt change.
+L’élément image associé distribue un événement `s7responsiveViewer` lors de l’exécution lorsque le point d’arrêt change.
 
 ```javascript {.line-numbers}
          responsiveImage.addEventListener("s7responsiveViewer", function (event) { 

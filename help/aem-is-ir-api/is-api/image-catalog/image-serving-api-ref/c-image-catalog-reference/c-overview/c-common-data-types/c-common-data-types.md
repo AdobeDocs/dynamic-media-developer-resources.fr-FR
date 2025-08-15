@@ -1,5 +1,5 @@
 ---
-description: Les attributs et champs du catalogue peuvent contenir des données de l’un des types suivants.
+description: Les attributs et champs de catalogue peuvent contenir des données correspondant à l’un des types suivants.
 solution: Experience Manager
 title: Types de données courants
 feature: Dynamic Media Classic,SDK/API
@@ -14,10 +14,10 @@ ht-degree: 2%
 
 # Types de données courants{#common-data-types}
 
-Les attributs et champs du catalogue peuvent contenir des données de l’un des types suivants.
+Les attributs et champs de catalogue peuvent contenir des données correspondant à l’un des types suivants.
 
 * [Couleur](r-is-cat-color.md)
-* [Indicateur](r-flag.md)
+* [Drapeau](r-flag.md)
 * [Enum](r-enum.md)
 * [Nombre entier](r-integer-number.md)
 * [Nombre réel](r-real-number.md)

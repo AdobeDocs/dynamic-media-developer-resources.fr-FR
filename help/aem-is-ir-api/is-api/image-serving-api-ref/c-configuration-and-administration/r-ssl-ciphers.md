@@ -1,7 +1,7 @@
 ---
-description: La balise Connector du fichier server.xml prend en charge un attribut ciphers afin de limiter les chiffrements pouvant être choisis pour une connexion SSL.
+description: La balise Connector du fichier server.xml prend en charge un attribut ciphers pour limiter les chiffrements pouvant être choisis pour une connexion SSL.
 solution: Experience Manager
-title: Définition des chiffrements SSL
+title: Définir des chiffrements SSL
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 7734ba02-4442-4a3d-acbf-e14d8ad66279
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Définition des chiffrements SSL{#defining-ssl-ciphers}
+# Définir des chiffrements SSL{#defining-ssl-ciphers}
 
-La balise Connector du fichier server.xml prend en charge un attribut ciphers afin de limiter les chiffrements pouvant être choisis pour une connexion SSL.
+La balise Connector du fichier server.xml prend en charge un attribut ciphers pour limiter les chiffrements pouvant être choisis pour une connexion SSL.
 
 Par défaut, tous les chiffrements sont disponibles. La liste est séparée par des virgules et peut contenir l’une des valeurs suivantes :
 
@@ -48,8 +48,8 @@ Par défaut, tous les chiffrements sont disponibles. La liste est séparée par 
 
 <!-- WEAK CQDOC-19433 `TLS_RSA_WITH_AES_128_CBC_SHA` -->
 
-Si l’une des valeurs est incorrecte, Tomcat active chaque chiffre. Il est donc essentiel de vérifier avec un outil externe après la configuration quels chiffrements sont réellement activés.
+Si l’une des valeurs est incorrecte, Tomcat active chaque chiffrement. Il est donc essentiel de vérifier avec un outil externe après la configuration pour voir quels chiffrements sont réellement activés.
 
-Par exemple, la configuration suivante active uniquement les suites de chiffrement &quot;128 bits&quot; et ultérieures :
+À titre d’exemple, la configuration suivante active uniquement les suites de chiffrement « 128 bits » et ultérieures :
 
 `ciphers="SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA,SSL_DHE_DSS_WITH_DES_CBC_SHA,SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA,TLS_DHE_DSS_WITH_AES_128_CBC_SHA,TLS_DHE_RSA_WITH_AES_128_CBC_SHA"`

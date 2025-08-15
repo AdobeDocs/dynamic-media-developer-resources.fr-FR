@@ -1,5 +1,5 @@
 ---
-description: Contient les paramètres du système de surveillance/alerte.
+description: Contient les paramètres du système de surveillance/d’alerte.
 solution: Experience Manager
 title: monitor.conf
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # monitor.conf{#monitor-conf}
 
-Contient les paramètres du système de surveillance/alerte.
+Contient les paramètres du système de surveillance/d’alerte.
 
-Ce fichier est un fichier de propriétés JAVA. Il faut veiller à respecter les conventions appropriées ; sinon, le [!DNL Platform Server] risque de ne pas démarrer. Notez en particulier qu’une double barre oblique inverse &quot;\\&quot; ou une seule barre oblique inverse &quot;/&quot; doit être utilisée à la place d’une barre oblique inverse &quot;\&quot; dans les chemins d’accès aux fichiers Windows, car la barre oblique inverse est utilisée comme caractère d’échappement dans ce type de fichier.
+Ce fichier est un fichier de propriétés JAVA. Il faut veiller à respecter les conventions appropriées, faute de quoi la [!DNL Platform Server] risque de ne pas démarrer. Notez en particulier qu’une double barre oblique inverse « \ » ou une simple barre oblique inverse « / » doit être utilisée au lieu d’une barre oblique inverse « \ » dans les chemins d’accès aux fichiers Windows, car la barre oblique inverse est utilisée comme caractère d’échappement dans ce type de fichier.
 
-Les modifications apportées à ce fichier prennent effet peu de temps après l’enregistrement du fichier.
+Les modifications apportées à ce fichier prennent effet peu de temps après son enregistrement.
 
 <table id="simpletable_91557E1162FF4FEC8BE1722D6656CFEE"> 
  <tr class="strow"> 

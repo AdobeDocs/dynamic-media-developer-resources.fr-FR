@@ -1,5 +1,5 @@
 ---
-description: Options de fichier PostScript.
+description: Options du fichier PostScript.
 solution: Experience Manager
 title: PostScriptOptions
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # [!DNL PostScriptOptions]{#postscriptoptions}
 
-Options de fichier PostScript.
+Options du fichier PostScript.
 
 Syntaxe
 
@@ -24,6 +24,6 @@ Syntaxe
 |---|---|---|
 | processus | `xsd:string` | Choix du processus PostScript. |
 | résolution | `xsd:double` | Résolution du fichier. |
-| colorspace | `xsd:string` | Mode Espace colorimétrique PostScript. |
-| alpha | `xsd:boolean` | Indique s’il faut pixelliser le fichier dans une image. Si tel est le cas, cela crée un arrière-plan transparent si le fichier d’origine est défini de cette manière. Généralement utilisé pour créer des logos superposés. |
-| extractSearchWords | `xsd:boolean` | Extraction ou non des mots de recherche à partir du fichier PostScript. |
+| colorspace | `xsd:string` | Mode colorspace PostScript. |
+| alpha | `xsd:boolean` | Pixellisation du fichier en image Si tel est le cas, il crée un arrière-plan transparent si le fichier d’origine est défini de cette manière. Généralement utilisé pour créer des logos superposés. |
+| extractSearchWords | `xsd:boolean` | Extraction de mots de recherche à partir du fichier PostScript |

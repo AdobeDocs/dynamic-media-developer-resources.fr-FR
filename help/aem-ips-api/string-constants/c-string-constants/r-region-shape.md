@@ -1,7 +1,7 @@
 ---
 description: Utilisé par ImageMap/shapeType et saveImageMapParam/shapType.
 solution: Experience Manager
-title: Forme de région
+title: Forme de zone
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 84a27a16-23fc-4e58-ba05-49882dd72174
@@ -12,7 +12,7 @@ ht-degree: 10%
 
 ---
 
-# Forme de région{#region-shape}
+# Forme de zone{#region-shape}
 
 Utilisé par ImageMap/shapeType et saveImageMapParam/shapType.
 

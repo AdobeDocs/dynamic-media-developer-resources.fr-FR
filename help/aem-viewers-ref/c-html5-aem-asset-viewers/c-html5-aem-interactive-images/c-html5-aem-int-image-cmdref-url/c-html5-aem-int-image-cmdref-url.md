@@ -1,6 +1,6 @@
 ---
-title: Référence de commande - URL
-description: Documentation de référence des commandes pour la visionneuse de vidéos.
+title: Référence de la commande – URL
+description: Documentation de référence des commandes pour la visionneuse vidéo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -12,6 +12,6 @@ ht-degree: 0%
 
 ---
 
-# Référence de commande - URL{#command-reference-url}
+# Référence de la commande – URL{#command-reference-url}
 
-Documentation de référence des commandes pour la visionneuse de vidéos.
+Documentation de référence des commandes pour la visionneuse vidéo.

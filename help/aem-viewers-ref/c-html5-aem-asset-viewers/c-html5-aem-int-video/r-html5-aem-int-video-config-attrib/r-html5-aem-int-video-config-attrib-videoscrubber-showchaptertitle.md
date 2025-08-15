@@ -1,6 +1,6 @@
 ---
 title: VideoScrubber.showchaptertitle
-description: Attribut de configuration de la visionneuse de vidéos interactives.
+description: Attribut de configuration pour la visionneuse de vidéos interactives.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # VideoScrubber.showchaptertitle{#videoscrubber-showchaptertitle}
 
-Attribut de configuration de la visionneuse de vidéos interactives.
+Attribut de configuration pour la visionneuse de vidéos interactives.
 
 `[VideoScrubber.|<containerId>_videoScrubber.]showchaptertitle=0|1`
 

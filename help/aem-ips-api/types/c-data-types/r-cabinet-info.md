@@ -1,5 +1,5 @@
 ---
-description: Propriétés d’une ressource de cabinet.
+description: Propriétés d'une ressource d'armoire.
 solution: Experience Manager
 title: CabinetInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # [!DNL CabinetInfo]{#cabinetinfo}
 
-Propriétés d’une ressource de cabinet.
+Propriétés d&#39;une ressource d&#39;armoire.
 
 Syntaxe
 
@@ -22,10 +22,10 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| originalPath | `xsd:string` | Chemin d’accès relatif au cabinet d’origine. |
-| originalFile | `xsd:string` | Nom du Cabinet. |
-| fileSize | `xsd:int` | Taille du Cabinet. |
-| imagePath | `xsd:string` | Chemin d’accès relatif au cabinet associé à la vignette. |
-| imageFile | `xsd:string` | Nom de fichier du cabinet associé à la vignette. |
-| optimizedPath | `xsd:string` | Chemin d’accès à l’armoire optimisée pour les IPS. |
-| optimizedFile | `xsd:string` | Fichier d’armoire optimisé pour IPS. |
+| originalPath | `xsd:string` | Chemin relatif vers l&#39;armoire d&#39;origine. |
+| originalFile | `xsd:string` | Nom de l’armoire. |
+| fileSize | `xsd:int` | Taille de l&#39;armoire. |
+| imagePath | `xsd:string` | Chemin relatif vers l&#39;armoire associée à la vignette. |
+| imageFile | `xsd:string` | Nom du fichier CAB associé à la vignette. |
+| optimizedPath | `xsd:string` | Chemin d’accès à l’armoire optimisée pour IPS. |
+| optimizedFile | `xsd:string` | Fichier CAB optimisé pour IPS. |

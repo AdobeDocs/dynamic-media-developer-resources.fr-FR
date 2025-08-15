@@ -1,5 +1,5 @@
 ---
-description: Récupère tous les utilisateurs d’un tableau.
+description: Obtient tous les utilisateurs d'un tableau.
 solution: Experience Manager
 title: getAllUsers
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # getAllUsers{#getallusers}
 
-Récupère tous les utilisateurs d’un tableau.
+Obtient tous les utilisateurs d&#39;un tableau.
 
 Syntaxe
 
@@ -27,7 +27,7 @@ Syntaxe
 
 ## Paramètres {#section-f092ca72f2024d66a1cec690aeab870a}
 
-**Entrée (getAllUsersParam)**
+**Input (getAllUsersParam)**
 
 <table id="table_1FE6DDADBD134E6D8BD4B52F1EAD2E85"> 
  <thead> 
@@ -46,13 +46,13 @@ Syntaxe
    <td colname="col4">Définissez sur : 
     <ul id="ul_FB9F59A8293B4CCA98E42EBF8412C77B"> 
      <li id="li_3C2E6C4D3478411FA1A34D5CBFFC8108"><span class="codeph"> true</span> pour inclure des utilisateurs non valides. </li> 
-     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> false</span> pour omettre les utilisateurs non valides. </li> 
+     <li id="li_7FCA0DE4BE2248A690076FEC6854F5CE"><span class="codeph"> false </span> omettre les utilisateurs non valides. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Sortie (getAllUsersReturn)**
+**Output (getAllUsersReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -61,7 +61,7 @@ Syntaxe
 
 ## Exemples {#section-9c9a2d335513478da20652c1b1443731}
 
-Cet exemple de code renvoie tous les utilisateurs. La réponse est tronquée pour la concision.
+Cet exemple de code renvoie tous les utilisateurs. La réponse est tronquée à des fins de concision.
 
 **Requête**
 

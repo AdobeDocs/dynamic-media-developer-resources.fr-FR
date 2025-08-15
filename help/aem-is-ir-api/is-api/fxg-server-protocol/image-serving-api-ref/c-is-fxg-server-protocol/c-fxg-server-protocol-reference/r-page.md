@@ -1,6 +1,6 @@
 ---
 title: page
-description: Récupérez la page . Récupère une page spécifique dans un fichier FXG multipage.
+description: Récupérer la page. Récupère une page spécifique dans un FXG multipage.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,17 +14,17 @@ ht-degree: 6%
 
 # page{#page}
 
-Récupérez la page . Récupère une page spécifique dans un fichier FXG multipage.
+Récupérer la page. Récupère une page spécifique dans un FXG multipage.
 
-`page= *`val`*`
+`page= *`Val`*`
 
 <table id="simpletable_E92560F812B64A36A3D108CA7DEED5AC"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> val</span></span> </p> </td> 
-  <td class="stentry"> <p>Numéro de page (la première page est 1). </p></td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> Val</span></span> </p> </td> 
+  <td class="stentry"> <p>Numéro de page (la première page correspond au chiffre 1). </p></td> 
  </tr> 
 </table>
 
 ## Par défaut {#section-3fd7fcc525b947c7a95457e50414ac9e}
 
-Si `page` n’est pas spécifié, la première page est renvoyée pour la sortie de pixellisation et toutes les pages pour la sortie de PDF.
+Si `page` n’est pas spécifié, la première page est renvoyée pour une sortie raster et toutes les pages pour une sortie PDF.

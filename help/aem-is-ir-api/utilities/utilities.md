@@ -1,5 +1,5 @@
 ---
-description: Affichez l’ Aide des utilitaires de diffusion d’images et du convertisseur de vignettes.
+description: Consultez l’aide des utilitaires Image Serving et du convertisseur de vignettes.
 title: Utilitaires
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Utilitaires{#utilities}
 
-Affichez l’ Aide des utilitaires de diffusion d’images et du convertisseur de vignettes.
+Consultez l’aide des utilitaires Image Serving et du convertisseur de vignettes.
 
 * [Utilitaires de diffusion d’images](/help/aem-is-ir-api/is-api/is-utils/utilities/c-utils-home.md)
 * [Convertisseur de vignettes (vntc)](/help/aem-is-ir-api/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-converter-vntc.md)

@@ -1,6 +1,6 @@
 ---
 title: InteractiveSwatches.displaymode
-description: Attribut de configuration de la visionneuse de vidéos interactives.
+description: Attribut Configuration pour la visionneuse de vidéos interactives.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 7%
 
 # InteractiveSwatches.displaymode{#interactiveswatches-displaymode}
 
-Attribut de configuration de la visionneuse de vidéos interactives.
+Attribut Configuration pour la visionneuse de vidéos interactives.
 
 `[InteractiveSwatches.|<containerId>_interactiveSwatches.]displaymode=continuous|segment`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> continuous|segment</span> </p> </td> 
-   <td colname="col2"> <p> Renseigne en continu les échantillons interactifs avec des miniatures, quelles que soient les limites de segment ou, permet à l’espace vide de noter les limites du segment. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> continu|segment</span> </p> </td> 
+   <td colname="col2"> <p> Alimente les échantillons interactifs en continu avec des miniatures, quelles que soient les limites du segment, ou permet à l’espace vide de noter les limites des segments. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -19,8 +19,8 @@ ht-degree: 11%
 <table id="table_68D8AADB572F4C2095967D12162F8991"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> x,y,w,h</span> </p> </td> 
-   <td colname="col2"> <p> Région initiale d’intérêt pour les coordonnées des pixels. Si ces valeurs ne sont pas spécifiées, l’image entière est ajustée à la fenêtre d’affichage initiale. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> x, y, w, h</span> </p> </td> 
+   <td colname="col2"> <p> Région d’intérêt initiale exprimée en coordonnées pixels. Si ces valeurs ne sont pas spécifiées, l’image entière est ajustée dans la fenêtre d’affichage initiale. </p> </td> 
   </tr> 
  </tbody> 
 </table>

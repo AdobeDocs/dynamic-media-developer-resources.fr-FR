@@ -20,7 +20,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p>Indique le moment d’affichage du panneau d’informations. </p> <p>Si celle-ci est définie sur <span class="codeph"> 1</span>, le panneau d’informations s’affiche lorsque la souris pénètre dans la zone de zone cliquable (dans le cas où la zone cliquable comporte un attribut <span class="codeph"> rollover_key</span> non vide). </p> <p>Si celle-ci est définie sur <span class="codeph"> 0</span>, le panneau d’informations est déclenché lorsque la zone cliquable est sélectionnée (si la zone cliquable comporte un attribut <span class="codeph"> rollover_key</span> non vide et des attributs <span class="codeph"> href</span> vides). </p> <p> Ignoré sur les périphériques tactiles, y compris les systèmes de bureau tactiles, et automatiquement défini sur <span class="codeph"> 0</span>. </p> </td> 
+   <td colname="col2"> <p>Indique le moment d’affichage du panneau d’informations. </p> <p>S’il est défini sur <span class="codeph"> 1</span>, le panneau d’informations s’affiche lorsque la souris entre dans la zone de zone cliquable (dans le cas où la zone cliquable a un attribut rollover_key<span class="codeph"> non vide</span>). </p> <p>S’il est défini sur <span class="codeph"> 0</span>, le panneau d’informations est déclenché lorsque la zone cliquable est sélectionnée (si la zone cliquable a un rollover_key<span class="codeph"> non vide </span> et des attributs href<span class="codeph"> vides</span>). </p> <p> Ignoré sur les appareils tactiles, y compris les ordinateurs de bureau tactiles, et est automatiquement défini sur <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,7 +1,7 @@
 ---
-description: Cette section décrit les attributs de données de contenu statique.
+description: Cette section décrit les attributs de données du contenu statique.
 solution: Experience Manager
-title: Référence des données de contenu statique
+title: Référence de données de contenu statique
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1e1c2a8b-aa25-4452-bf46-c99cd37a4e86
@@ -12,11 +12,11 @@ ht-degree: 10%
 
 ---
 
-# Référence des données de contenu statique{#static-content-data-reference}
+# Référence de données de contenu statique{#static-content-data-reference}
 
-Cette section décrit les attributs de données de contenu statique.
+Cette section décrit les attributs de données du contenu statique.
 
 * [Expiration](r-expiration-static.md)
 * [ID](r-id-static.md)
 * [Chemin](r-path-static.md)
-* [TimeStamp](r-timestamp-static.md)
+* [Horodatage](r-timestamp-static.md)

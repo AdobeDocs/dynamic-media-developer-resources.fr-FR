@@ -1,6 +1,6 @@
 ---
-title: InitialFrame
-description: InitialFrame
+title: Image initiale
+description: Image initiale
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 5%
 
 ---
 
-# InitialFrame{#initialframe}
+# Image initiale{#initialframe}
 
-` initialFrame= *`frame`*`
+` initialFrame= *`cadre`*`
 
 <table id="table_06B5F795889E402FB6BCEA4D882E1422"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> frame</span></span> </p> </td> 
-   <td colname="col2"> <p> Spécifie un index de propagation de base zéro à afficher au chargement de la visionneuse. L’index correspond à l’index de la diffusion en mode paysage. Si la visionneuse est remplacée par portrait, la visionneuse affiche la page la plus à gauche de la fenêtre vers laquelle pointe <span class="codeph"> frameIdx</span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> cadre</span></span> </p> </td> 
+   <td colname="col2"> <p> Spécifie un index de propagation à base zéro à afficher lors de la charge de la visionneuse. L’index correspond à l’index de la planche en mode paysage. Si la visionneuse est pivotée en mode portrait, elle affiche la page la plus à gauche de la planche pointée par <span class="codeph"> frameIdx</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -35,7 +35,7 @@ Facultatif.
 
 ## Exemple {#section-cbc6684eb22e4d0883edc4b3d5742336}
 
-Lorsqu’il est spécifié dans l’URL de la visionneuse.
+Lorsque cela est spécifié dans l’URL de la visionneuse.
 
 ```
 initialFrame=2

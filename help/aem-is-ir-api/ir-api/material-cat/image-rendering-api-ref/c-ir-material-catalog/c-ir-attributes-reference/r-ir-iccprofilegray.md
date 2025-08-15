@@ -1,6 +1,6 @@
 ---
 title: IccProfileGray
-description: Espace colorimétrique par défaut en niveaux de gris. Indique le nom du profil de couleurs ICC à utiliser pour les images de réponse en niveaux de gris lorsqu’aucun espace colorimétrique de sortie n’est spécifié avec icc=.
+description: Espace colorimétrique en niveaux de gris par défaut. Indique le nom du profil colorimétrique ICC à utiliser pour les images de réponse en niveaux de gris lorsqu’aucun espace colorimétrique de sortie n’est spécifié avec icc=.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 2%
 
 # IccProfileGray{#iccprofilegray}
 
-Espace colorimétrique par défaut en niveaux de gris. Indique le nom du profil de couleurs ICC à utiliser pour les images de réponse en niveaux de gris lorsqu’aucun espace colorimétrique de sortie n’est spécifié avec `icc=`.
+Espace colorimétrique en niveaux de gris par défaut. Indique le nom du profil colorimétrique ICC à utiliser pour les images de réponse en niveaux de gris lorsqu’aucun espace colorimétrique de sortie n’est spécifié avec `icc=`.
 
 ## Propriétés {#section-7af0a3e2c8cf4cdd98974bfa4a15f3ac}
 
-Chaîne de texte. Si spécifié, doit être une valeur `icc::Name` valide provenant de la carte de profil ICC de ce catalogue matériel ou du catalogue par défaut, ou un chemin d’accès au fichier relatif à `attribute::RootPath`. Le profil ICC référencé doit être un profil en niveaux de gris.
+Chaîne de texte. Si spécifié, doit être une valeur de `icc::Name` valide de la carte de profil ICC de ce catalogue de matières ou du catalogue par défaut, ou un chemin d&#39;accès au fichier relatif à `attribute::RootPath`. Le profil ICC référencé doit être un profil en niveaux de gris.
 
 ## Par défaut {#section-aaa1c71e5d0c4e0792099d77e37c05ee}
 
-Hérité de `default::IccProfileGray` si elle n’est pas définie ou si elle est vide.
+Hérité de `default::IccProfileGray` si non défini ou si vide.
 
 ## Voir aussi {#section-cd43189611f4426aacddcc604eb02a10}
 

@@ -1,5 +1,5 @@
 ---
-description: Renvoie des informations sur la structure d’une entreprise (nombre de fichiers, etc.).
+description: Renvoie des informations sur la structure d’une société (nombre de fichiers, etc.).
 solution: Experience Manager
 title: getDiskUsage
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # getDiskUsage{#getdiskusage}
 
-Renvoie des informations sur la structure d’une entreprise (nombre de fichiers, etc.).
+Renvoie des informations sur la structure d’une société (nombre de fichiers, etc.).
 
 ## Types d’utilisateurs autorisés {#authorized-user-types}
 
@@ -29,19 +29,19 @@ Renvoie des informations sur la structure d’une entreprise (nombre de fichiers
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Le gestionnaire à la société dont vous souhaitez obtenir l’utilisation du disque. |
+| CompanyHandle | `xsd:string` | Oui | Poignée de l’entreprise dont vous souhaitez obtenir l’utilisation du disque. |
 
-**Sortie (getDiskUsageReturn)**
+**Output (getDiskUsageReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| diskUsageArray | `types:DiskUsageArray` | Oui | Tableau de l’utilisation du disque de l’entreprise. |
+| Tableau de disques d’utilisation | `types:DiskUsageArray` | Oui | Tableau d’utilisation du disque de l’entreprise. |
 
 ## Exemples {#section-cb16a97badc94076ad5da277db5ed16a}
 
-Le nom de cette demande est trompeur. Plutôt que de renvoyer uniquement une valeur scalaire qui reflète la quantité d’espace disque qu’une entreprise utilise, elle obtient d’autres informations sur la structure d’une entreprise également.
+Le nom de cette demande est trompeur. Plutôt que de renvoyer simplement une valeur scalaire qui reflète la quantité d’espace disque utilisée par une entreprise, elle obtient également d’autres informations sur la structure d’une entreprise.
 
-**Requête**
+**Demander**
 
 ```java
 <ns1:getDiskUsageParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

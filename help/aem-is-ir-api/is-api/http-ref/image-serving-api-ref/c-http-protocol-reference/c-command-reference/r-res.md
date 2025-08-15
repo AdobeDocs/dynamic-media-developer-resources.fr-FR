@@ -1,6 +1,6 @@
 ---
 title: res
-description: Mise à l’échelle des images basée sur la résolution. Redimensionne l’image à la résolution demandée.
+description: Mise à l’échelle d’une image basée sur la résolution. Met l’image à l’échelle à la résolution demandée.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,40 +14,40 @@ ht-degree: 1%
 
 # res{#res}
 
-Mise à l’échelle des images basée sur la résolution. Redimensionne l’image à la résolution demandée.
+Mise à l’échelle d’une image basée sur la résolution. Met l’image à l’échelle à la résolution demandée.
 
 ` res= *`val`*`
 
 <table id="simpletable_E69F3709266749C4A165C90FF18FF5AA"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> val </span> </p> </td> 
-  <td class="stentry"> <p>Résolution de la cible, généralement en pixels par pouce (réel). </p> </td> 
+  <td class="stentry"> <p>Résolution cible : généralement en pixels par pouce (réel). </p> </td> 
  </tr> 
 </table>
 
-Le facteur d’échelle est calculé en divisant *`val`* par `catalog::Resolution`. Notez que cette commande n’affecte pas la résolution d’impression de l’image de réponse.
+Le facteur d&#39;échelle est calculé en divisant *`val`* par `catalog::Resolution`. Notez que cette commande n’affecte pas la résolution d’impression de l’image de réponse.
 
-Pour utiliser cette fonctionnalité, la résolution des images source d’origine doit être connue et définie dans `catalog::Resolution`. Selon l’application, les unités de résolution peuvent varier. Pour les textures 2D répétables ou les échantillons de matériaux, tels que les papiers peints ou les tissus, la résolution peut être exprimée en pixels/pouce ou en pixels/mm. Les photos et les cartes aériennes peuvent être mieux servies en pixels/mile ou en pixels/km. Dans tous les cas, les unités utilisées pour `catalog::Resolution` doivent être identiques à celles utilisées pour `res=`.
+Pour utiliser cette fonction, la résolution des images sources d’origine doit être connue et définie en `catalog::Resolution`. Selon l’application, les unités de résolution peuvent varier. Pour les textures 2D ou les échantillons de matériaux répétables, tels que les papiers peints ou les tissus, la résolution peut être exprimée en pixels/pouce ou en pixels/mm. Les photos aériennes et les cartes peuvent être mieux servies par pixels/mille ou pixels/km. Dans tous les cas, les unités utilisées pour `catalog::Resolution` doivent être les mêmes que celles utilisées pour `res=`.
 
-Outre l’obtention d’images à des résolutions précises, `res=` peut également être utilisé pour combiner plusieurs images à la même résolution, de sorte que les éléments visibles dans ces images soient en proportion exacte les uns des autres.
+En plus d&#39;obtenir des images à des résolutions précises, `res=` peut également être utilisé pour combiner plusieurs images à la même résolution, de sorte que les éléments visibles dans ces images soient en proportion précise les uns par rapport aux autres.
 
 >[!NOTE]
 >
->Normalement, une image composite est redimensionnée à la taille d’affichage cible (spécifiée par `wid=`, `hei=` ou `attribute::DefaultPix`) avant d’être renvoyée au client. Pour empêcher ce redimensionnement et obtenir une image avec la résolution exacte spécifiée par `res=`, il peut être nécessaire de désactiver la mise à l’échelle des vues en spécifiant explicitement `scl=1`. Cela indique au serveur de recadrer l’image composite sur la taille d’affichage cible plutôt que de la mettre à l’échelle.
+>Normalement, une image composite est redimensionnée à la taille d’affichage cible (spécifiée par `wid=`, `hei=` ou `attribute::DefaultPix`) avant d’être renvoyée au client. Pour éviter ce redimensionnement et obtenir une image avec la résolution exacte spécifiée par `res=`, il peut être nécessaire de désactiver la mise à l’échelle de l’affichage en spécifiant explicitement `scl=1`. Cette instruction indique au serveur de recadrer l’image composite à la taille d’affichage cible plutôt que de la mettre à l’échelle.
 
 ## Propriétés {#section-fdbd16e59cff4952a3717146bc91412e}
 
-Attribut image/masque Source. Ignoré par les calques non associés à une image ou à un masque source. Appliqué au calque 0 est spécifié pour `layer=comp`. Ignoré si `scale=` ou `size=` est spécifié pour le même calque.
+Attribut image/mask Source. Ignoré par les calques non associés à une image ou un masque source. Appliqué au calque 0 est spécifié pour `layer=comp`. Ignoré si `scale=` ou `size=` est spécifié pour le même calque.
 
 ## Par défaut {#section-c5f1ba6fe53d46eca32e7d0588dcdf3d}
 
-Si elle n’est pas spécifiée, `scale=` ou `size=` détermine le facteur d’échelle ou, si aucune de ces deux valeurs n’est spécifiée, l’image est utilisée sans mise à l’échelle.
+S’il n’est pas spécifié, `scale=` ou `size=` détermine le facteur d’échelle ou, si aucun n’est spécifié, l’image est utilisée sans mise à l’échelle.
 
 ## Exemple {#section-eb06f333e08e4247971fb1b18922597b}
 
-Récupérez une image de texture à une résolution d’objet de 12 pixels/pouce à utiliser avec le rendu d’image ou la création d’images. Nous spécifions le format PNG sans perte et une meilleure qualité de rééchantillonnage pour une qualité optimale,
+Récupérez une image de texture à une résolution d’objet de 12 pixels/pouce à utiliser avec le rendu d’image ou la création d’images. Nous spécifions un format PNG sans perte et un rééchantillonnage de meilleure qualité pour une qualité optimale,
 
-` http:// *`server`*/myTexture?res=12&fmt=png&resMode=sharp`
+` http:// *`serveur`*/myTexture?res=12&fmt=png&resMode=sharp`
 
 ## Voir aussi {#section-1f8a8f11772e493ca803c4511f397a11}
 

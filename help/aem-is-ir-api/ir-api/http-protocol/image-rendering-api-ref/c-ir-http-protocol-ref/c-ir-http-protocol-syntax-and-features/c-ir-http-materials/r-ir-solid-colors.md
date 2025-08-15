@@ -1,6 +1,6 @@
 ---
-title: Couleurs solides
-description: Cette catégorie de matériaux inclut les peintures pour les murs, les menuiseries, le rognage, l’automobile et toute autre application pour laquelle aucune texture n’est requise.
+title: Couleurs unies
+description: Cette catégorie de matériaux comprend les peintures pour les murs, les boiseries et les garnitures, les automobiles et toute autre application où les textures ne sont pas requises.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,13 +12,13 @@ ht-degree: 3%
 
 ---
 
-# Couleurs solides{#solid-colors}
+# Couleurs unies{#solid-colors}
 
-Cette catégorie de matériaux inclut les peintures pour les murs, les menuiseries, le rognage, l’automobile et toute autre application pour laquelle aucune texture n’est requise.
+Cette catégorie de matériaux comprend les peintures pour les murs, les boiseries et les garnitures, les automobiles et toute autre application où les textures ne sont pas requises.
 
-Par exemple, vous pouvez utiliser des couleurs solides pour varier la couleur d’un vêtement pour lequel des changements de texture ne sont pas nécessaires, ou pour définir la couleur du recadrage en plastique et du tapis d’un intérieur pour automobile. Un matériau est considéré comme une couleur solide si aucune valeur `src=` n’est présente dans le MSS.
+Par exemple, vous pouvez utiliser des couleurs unies pour faire varier la couleur d&#39;un article d&#39;habillement pour lequel aucun changement de texture n&#39;est nécessaire, ou pour définir la couleur de l&#39;habillage en plastique et de la moquette d&#39;un intérieur automobile. Un matériau est considéré comme une couleur unie si aucune valeur de `src=` n&#39;est présente dans le MSS.
 
-Les couleurs vives peuvent être appliquées à tous les objets de rendu.
+Les couleurs unies peuvent être appliquées à tous les objets rendus.
 
 <table id="table_9245240311A44659A74C7A5EDD7D1503"> 
  <thead> 
@@ -31,7 +31,7 @@ Les couleurs vives peuvent être appliquées à tous les objets de rendu.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-color.md#reference-ea3cba9edfe94dbab86d8f123a9ed0aa" type="reference" format="dita" scope="local"> <span class="codeph"> color= </span> </a> </p> </td> 
-   <td colname="col2"> <p> Valeur en gris ou en RGB ; obligatoire. </p> </td> 
+   <td colname="col2"> <p> Valeur de couleur grise ou RGB ; obligatoire. </p> </td> 
    <td colname="col3"> <p>Aucune </p> </td> 
   </tr> 
  </tbody> 

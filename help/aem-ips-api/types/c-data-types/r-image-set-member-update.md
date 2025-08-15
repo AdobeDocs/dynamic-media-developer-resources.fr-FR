@@ -1,5 +1,5 @@
 ---
-description: Dans ce type, le champ pageReset est significatif pour les types de ressources d’image RenderSet et Catalog.
+description: Dans ce type, le champ pageReset est significatif pour les types de ressources d’image RenderSet et Catalog
 solution: Experience Manager
 title: ImageSetMemberUpdate
 feature: Dynamic Media Classic,SDK/API,Image Sets
@@ -16,9 +16,9 @@ ht-degree: 3%
 
 Dans ce type, le champ pageReset est significatif pour les types de ressources d’image RenderSet et Catalog :
 
-* Pour `RenderSet`, `pageReset` indique le début d’une nouvelle vue de rendu/groupe d’échantillons.
+* Par `RenderSet`, `pageReset` indique le début d’un nouveau groupe d’échantillons ou d’une nouvelle vue de rendu.
 
-* Pour le catalogue, `pageReset` indique le début d’une nouvelle page vue. En règle générale, il existe deux images de page par page vue, mais vous pouvez en avoir plus ou moins.
+* Pour Catalogue , `pageReset` indique le début d’une nouvelle page vue. En règle générale, il y a 2 images de page par page vue, mais vous pouvez en avoir plus ou moins.
 
 ## Paramètres {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
@@ -34,7 +34,7 @@ Dans ce type, le champ pageReset est significatif pour les types de ressources d
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Poignée de ressource dans le tableau des membres de la visionneuse d’images. </td> 
+   <td colname="col3"> Gestion des ressources dans le tableau des membres de la visionneuse d’images. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> pageReset</span> </span> </td> 

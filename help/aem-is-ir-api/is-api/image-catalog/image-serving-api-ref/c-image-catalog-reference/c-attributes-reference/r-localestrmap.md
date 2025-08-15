@@ -1,5 +1,5 @@
 ---
-description: Carte de traduction des chaînes. Fait référence à un locId qui peut être mappé à n’importe quel nombre de internalLocId.
+description: Mappage de traduction des chaînes. Fait référence à un locId qui peut être mappé à n’importe quel nombre d’internalLocId.
 solution: Experience Manager
 title: LocaleStrMap
 feature: Dynamic Media Classic,SDK/API
@@ -14,14 +14,14 @@ ht-degree: 0%
 
 # LocaleStrMap{#localestrmap}
 
-Carte de traduction des chaînes. Fait référence à un locId qui peut être mappé à n’importe quel nombre de internalLocId.
+Mappage de traduction des chaînes. Fait référence à un locId qui peut être mappé à n’importe quel nombre d’internalLocId.
 
 `*`item`*&#42;['|' *`item`*]`
 
 <table id="simpletable_26A9A6904C85459F89DCDD98C14139CA"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> élément </span> </p> </td> 
-  <td class="stentry"> <p> <span class="varname"> locale </span>, <span class="varname"> locId </span>*[',' <span class="varname"> locId &lbrace;5]</span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> d’élément </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> locale </span>, <span class="varname"> locId </span>*[',' <span class="varname"> locId </span>] </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> locale </span> </p> </td> 
@@ -29,35 +29,35 @@ Carte de traduction des chaînes. Fait référence à un locId qui peut être ma
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> locId </span> </p> </td> 
-  <td class="stentry"> <p>Identifiant du paramètre régional interne. </p> </td> 
+  <td class="stentry"> <p>Identifiant des paramètres régionaux internes. </p> </td> 
  </tr> 
 </table>
 
-`LocaleStrMap` fait référence à un `locId` qui peut être mappé à n’importe quel nombre de `internalLocId`.
+`LocaleStrMap` fait référence à un `locId` qui peut être mappé à un nombre illimité de `internalLocId`.
 
-Une valeur *`locale`* vide correspond à des chaînes `locale=` vides et inconnues. Cela permet de définir une règle par défaut pour les paramètres régionaux inconnus.
+Une valeur de *`locale`* vide correspond à des chaînes de `locale=` vides et inconnues. Cela permet de définir une règle par défaut pour les paramètres régionaux inconnus.
 
-Les valeurs *`locId`* vides sont autorisées et sélectionnez l’ *`defaultString`* (l’ *`defaultString`* n’a pas d’identifiant de paramètre régional). Les valeurs *`locId`* sont recherchées dans l’ordre spécifié. La première correspondance est renvoyée.
+Des valeurs de *`locId`* vides sont autorisées et sélectionnez le *`defaultString`* (le *`defaultString`* ne dispose pas d’un identifiant de paramètre régional). *`locId`* valeurs sont recherchées dans l’ordre spécifié. La première correspondance est renvoyée.
 
-La traduction des chaînes, lorsqu’elle est activée, est appliquée aux chaînes de texte dans les champs de catalogue d’images suivants :
+Lorsqu’elle est activée, la traduction de chaînes est appliquée aux chaînes de texte dans les champs de catalogue d’images suivants :
 
 <table id="table_EE0321F9890B45CA8C364178F5100D40"> 
  <tbody> 
   <tr valign="top"> 
    <td> <b>Champ de catalogue</b> </td> 
-   <td> <b>Elément de chaîne dans le champ</b> </td> 
+   <td> <b>Élément de chaîne dans le champ</b> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> Catalogue <span class="codeph"> ::ImageSet </span> </p> </td> 
-   <td> <p>Tout sous-élément contenant une chaîne convertible (délimitée par toute combinaison de séparateurs ',' ';' ':' et/ou le début/fin du champ). </p> <p>Une valeur de couleur <span class="codeph"> 0xrgbb </span> au début d’un champ localisable est exclue de la localisation et transmise sans modification. </p> </td> 
+   <td> <p> <span class="codeph"> catalog::ImageSet </span> </p> </td> 
+   <td> <p>Tout sous-élément contenant une chaîne traduisible (délimitée par n’importe quelle combinaison de séparateurs « , » ; « : » et/ou le début/la fin du champ). </p> <p>Une valeur de couleur de <span class="codeph"> 0xrrggbb </span> au début d’un champ localisable est exclue de la localisation et transmise sans modification. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> Catalogue <span class="codeph"> ::Map </span> </p> </td> 
-   <td> <p>Toute valeur d’attribut entre guillemets simples ou doubles, à l’exception des valeurs des attributs <span class="codeph"> coding= </span> et <span class="codeph"> shape= </span> . </p> </td> 
+   <td> <p> <span class="codeph"> catalog::Map </span> </p> </td> 
+   <td> <p>Toute valeur d’attribut entre guillemets simples ou doubles, à l’exception des valeurs des attributs coords <span class="codeph">= </span> et Forme <span class="codeph">= </span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> Catalogue <span class="codeph"> ::Cibles </span> </p> </td> 
-   <td> <p>La valeur de n’importe quelle cible <span class="filepath">.*.label </span> et <span class="filepath"> cible.*.userdata </span>. </p> </td> 
+   <td> <p> <span class="codeph"> catalog::Targets </span> </p> </td> 
+   <td> <p>Valeur de toute cible <span class="filepath">.*.label </span> et cible <span class="filepath">.Propriété de </span> *.userdata. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catalog::UserData </span> </p> </td> 
@@ -68,7 +68,7 @@ La traduction des chaînes, lorsqu’elle est activée, est appliquée aux chaî
 
 ## Propriétés {#section-8505a8525f6948ada3979f68c4081044}
 
-Un ou plusieurs éléments, séparés par |, où chaque élément se compose de plusieurs valeurs string séparées par des virgules.
+Un ou plusieurs éléments, séparés par |, où chaque élément se compose de plusieurs valeurs de chaîne séparées par des virgules.
 
 ## Voir aussi {#section-0c0516e4f83d42d38247308cab9b6708}
 

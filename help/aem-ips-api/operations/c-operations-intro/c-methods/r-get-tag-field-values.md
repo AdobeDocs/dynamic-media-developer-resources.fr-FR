@@ -1,5 +1,5 @@
 ---
-description: Obtient toutes les valeurs du dictionnaire de balises définies pour un ou plusieurs champs de balise.
+description: Récupère toutes les valeurs du dictionnaire de balises définies pour un ou plusieurs champs de balises.
 solution: Experience Manager
 title: getTagFieldValues
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # getTagFieldValues{#gettagfieldvalues}
 
-Obtient toutes les valeurs du dictionnaire de balises définies pour un ou plusieurs champs de balise.
+Récupère toutes les valeurs du dictionnaire de balises définies pour un ou plusieurs champs de balises.
 
 Syntaxe
 
@@ -36,18 +36,18 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gestionnaire de la société contenant le champ de balise. |
-| fieldHandleArray | `types:HandleArray` | Oui | Un tableau de champs gère les valeurs de balise que vous souhaitez renvoyer. |
+| CompanyHandle | `xsd:string` | Oui | Pseudo de l’entreprise contenant le champ de balise. |
+| Réseau de manipulation de champ | `types:HandleArray` | Oui | Tableau de poignées de champ permettant de renvoyer les valeurs que vous souhaitez renvoyer. |
 
-**Sortie (getTagFieldValuesReturn)**
+**Output (getTagFieldValuesReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| fieldArray | `types:TagFieldValuesArray` | Oui | Tableau des valeurs de balise dans le dictionnaire pour chaque champ demandé. |
+| Tableau de champs | `types:TagFieldValuesArray` | Oui | Tableau des valeurs de balise du dictionnaire pour chaque champ demandé. |
 
 ## Exemples {#section-4492742614e44bb191a7d397dc1a1407}
 
-**Requête**
+**Demander**
 
 ```java
 <getTagFieldValuesParam xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">

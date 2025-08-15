@@ -1,6 +1,6 @@
 ---
 title: réseau
-description: Découvrez comment utiliser l’optimisation de la bande passante du réseau pour ajuster la qualité de l’image diffusée en fonction de la bande passante du réseau.
+description: Découvrez comment utiliser l’optimisation de la bande passante réseau pour ajuster la qualité de l’image servie en fonction de la bande passante réseau réelle.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,24 +14,24 @@ ht-degree: 4%
 
 # réseau{#network}
 
-L’activation de la bande passante réseau ajuste automatiquement la qualité de l’image diffusée en fonction de la bande passante réseau réelle. Pour une bande passante réseau médiocre, l’optimisation de [DPR (Device Pixel Ratio)](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md) est automatiquement désactivée, même si elle est déjà activée.
+L’activation de la bande passante réseau ajuste automatiquement la qualité de l’image servie en fonction de la bande passante réseau réelle. En cas de faible bande passante réseau, [l’optimisation DPR (Device Pixel Ratio)](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md) est automatiquement désactivée, même si elle est déjà activée.
 
-Si vous le souhaitez, votre entreprise peut se désabonner de l’optimisation de la bande passante du réseau au niveau de l’image individuelle en ajoutant `network=off` à l’URL de l’image.
+Si vous le souhaitez, votre entreprise peut désactiver l’optimisation de la bande passante réseau au niveau de l’image individuelle en ajoutant `network=off` l’URL de l’image.
 
 `network=on|off`
 
 <table id="simpletable_2D23B1B282CD4216AB5BE7E7430D1B3F"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> on|off </span> </p> </td> 
-  <td class="stentry"> <p>Indique si la bande passante réseau ajuste la qualité de l’image diffusée en fonction de la bande passante réseau réelle (activée) ou si l’optimisation de la bande passante réseau est désactivée pour aucun ajustement de la qualité de l’image.</p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> activé|désactivé </span> </p> </td> 
+  <td class="stentry"> <p>Spécifie si la bande passante réseau ajuste la qualité de l’image servie en fonction de la bande passante réseau réelle (activé) ou si l’optimisation de la bande passante réseau est désactivée sans réglage de la qualité de l’image.</p> </td> 
  </tr> 
 </table>
 
-Les valeurs de bande passante réseau sont basées sur les valeurs côté client détectées du réseau de diffusion de contenu groupé.
+Les valeurs de bande passante réseau sont basées sur les valeurs côté client détectées du CDN groupé.
 
 ## Propriétés
 
-Attribut de requête. Cela n’a aucun effet si les conditions de réseau sont excellentes.
+Un attribut de requête. Cela n’a aucun effet si les conditions du réseau sont excellentes.
 
 ## Par défaut
 
@@ -43,4 +43,4 @@ Attribut de requête. Cela n’a aucun effet si les conditions de réseau sont e
 
 ## Voir aussi
 
-[bfc](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md), [drp](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md), [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=fr)
+[bfc](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-bfc.md), [drp](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-dpr.md), [imagerie dynamique](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/imaging-faq.html?lang=en)

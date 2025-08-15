@@ -1,5 +1,5 @@
 ---
-description: Référence de l’API JavaScript pour la visionneuse de vidéos.
+description: JavaScript référence de l’API pour la visionneuse vidéo.
 solution: Experience Manager
 title: setAsset
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
@@ -14,24 +14,24 @@ ht-degree: 1%
 
 # setAsset{#setasset}
 
-Référence de l’API JavaScript pour la visionneuse de vidéos.
+JavaScript référence de l’API pour la visionneuse vidéo.
 
-[!DNL ` setAsset( *`asset`*)`]
+[!DNL ` setAsset( *`atout`*)`]
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> ressource </span> </span> </p> </td> 
-   <td colname="col2"> <p>&lbrace; <span class="codeph"> Chaîne </span> nouvel identifiant de ressource ou jeu d’images explicites avec des modificateurs de diffusion d’images facultatifs ajoutés après <span class="codeph"> ? </span>. </p> <p> Les images qui utilisent IR (Image Rendering) ou UGC (User-Generated Content) ne sont pas prises en charge par cette visionneuse. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> atout </span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph">{ String </span>} nouvel ID de ressource ou visionneuse d’images explicite avec les modificateurs facultatifs de diffusion d’images ajoutés après <span class="codeph"> ? </span>. </p> <p> Les images qui utilisent IR (Image Rendering) ou UGC (User-Generated Content) ne sont pas prises en charge par cette visionneuse. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Définit une nouvelle ressource. Vous pouvez appeler ce paramètre à tout moment, avant ou après [!DNL `init()`]. S’il est appelé après [!DNL `init()`], la visionneuse échange la ressource au moment de l’exécution.
+Définit une nouvelle ressource. Vous pouvez appeler ce paramètre à tout moment, avant ou après [!DNL `init()`]. Si elle est appelée après [!DNL `init()`], la visionneuse échange la ressource au moment de l’exécution.
 
 Voir aussi [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
-## Renvoie {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Retourne {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Aucune
 
@@ -43,13 +43,13 @@ Référence unique à une visionneuse d’images définie dans un catalogue :
  <instance>.setAsset("Viewers/Pluralist")
 ```
 
-Visionneuse d’images explicite, avec pages pré-combinées :
+Visionneuse d’images explicite, avec pages précombinées :
 
 ```
  <instance>.setAsset("Scene7SharedAssets/Backpack_B,Scene7SharedAssets/Backpack_C,Scene7SharedAssets/Backpack_H,Scene7SharedAssets/Backpack_J")
 ```
 
-Visionneuse d’images explicite, avec des images de page individuelles :
+Visionneuse d’images explicite, avec images de page individuelles :
 
 ```
  <instance>.setAsset("Scene7SharedAssets/AdobeScene7_Overview_US-1,Scene7SharedAssets/AdobeScene7_Overview_US-2:AdobeScene7_Overview_US-3,Scene7SharedAssets/AdobeScene7_Overview_US-4")

@@ -1,6 +1,6 @@
 ---
-title: MacroFile
-description: Chemin du fichier de définitions de macro. Spécifie le fichier contenant les définitions de macro pour ce catalogue de matériaux.
+title: Fichier macro
+description: Chemin d’accès au fichier de définitions de macro. Spécifie le fichier contenant les définitions de macros pour ce catalogue de matériaux.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,18 +12,18 @@ ht-degree: 4%
 
 ---
 
-# MacroFile{#macrofile}
+# Fichier macro{#macrofile}
 
-Chemin du fichier de définitions de macro. Spécifie le fichier contenant les définitions de macro pour ce catalogue de matériaux.
+Chemin d’accès au fichier de définitions de macro. Spécifie le fichier contenant les définitions de macros pour ce catalogue de matériaux.
 
 ## Propriétés {#section-74ab431f12fb4fc9b1e222c752cfb4cb}
 
-Valeur de chaîne de texte. Chemin ou chemin d’accès absolu au fichier par rapport au dossier de catalogue.
+Valeur de chaîne de texte. Chemin absolu de fichier ou chemin relatif au dossier du catalogue.
 
 ## Par défaut {#section-1ceb724a30444a5fbb870105b83c212c}
 
-Vide, ce qui indique que ce catalogue matériel n’a pas de définitions de macro privées.
+Vide, ce qui indique que ce catalogue de matériaux n’a pas de définitions de macro privées.
 
 ## Voir aussi {#section-22638a9ff5e9493ea93222e5f49febde}
 
-[Définitions des macros](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-macro-definition-reference/c-ir-macro-definition-reference.md#concept-477b77fa187147bfa55fa67134d4a453)
+[Définition des macros](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-macro-definition-reference/c-ir-macro-definition-reference.md#concept-477b77fa187147bfa55fa67134d4a453)

@@ -16,10 +16,10 @@ ht-degree: 0%
 
 Cette section répertorie les caractères réservés à des fins spécifiques.
 
-RTF utilise des accolades &#39; `{`&#39; et &#39; `}`&#39; comme délimiteurs de groupe. Elles doivent se produire par paires et peuvent être imbriquées. Pour afficher des accolades dans des chaînes de texte, utilisez respectivement &#39; `\{`&#39; et &#39; `\}`&#39;.
+RTF utilise des accolades &#39; `{`&#39; et &#39; `}`&#39; comme délimiteurs de groupe. Elles doivent se présenter par paires et peuvent être imbriquées. Pour afficher des accolades dans les chaînes de texte, utilisez respectivement &#39; `\{`&#39; et &#39; `\}`&#39;.
 
 >[!NOTE]
 >
->Vous devez coder les URL de tous les accolades utilisés en RTF.
+>Vous devez encoder dans l’URL toutes les accolades utilisées dans RTF.
 
-Les barres obliques Précédent &quot;\&quot; sont utilisées pour introduire des commandes RTF et des mots-clés. Pour afficher une barre oblique inverse, utilisez `'\\'`.
+Les barres obliques inverses « \ » sont utilisées pour introduire les commandes et les mots-clés RTF. Pour afficher une barre oblique inverse, utilisez `'\\'`.

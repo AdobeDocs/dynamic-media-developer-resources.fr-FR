@@ -1,5 +1,5 @@
 ---
-description: Type d’utilisateur de contenu statique. Permet d’affecter un type spécifié par l’utilisateur aux éléments de contenu statique.
+description: Type d’utilisateur de contenu statique. Permet d’affecter un type spécifié par l’utilisateur aux éléments de contenu statiques.
 solution: Experience Manager
 title: UserType
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # UserType{#usertype}
 
-Type d’utilisateur de contenu statique. Permet d’affecter un type spécifié par l’utilisateur aux éléments de contenu statique.
+Type d’utilisateur de contenu statique. Permet d’affecter un type spécifié par l’utilisateur aux éléments de contenu statiques.
 
 ## Propriétés {#section-cb23ad3147a14c68aa4e4c9563b81942}
 
@@ -26,4 +26,4 @@ Aucune
 
 ## Voir aussi {#section-b8dfd2f3bdb24334bcd759d2b366e3c7}
 
-[type=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md) , [Protocole HTTP - Diffusion de contenus statiques](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-serving-static-non-image-content.md)
+[type=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md) , [Protocole HTTP - Diffusion de contenu statique](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-serving-static-non-image-content.md)

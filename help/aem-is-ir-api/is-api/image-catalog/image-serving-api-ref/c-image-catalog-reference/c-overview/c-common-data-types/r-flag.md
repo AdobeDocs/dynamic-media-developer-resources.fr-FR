@@ -1,7 +1,7 @@
 ---
-description: Type de données de l’indicateur.
+description: Type de données de marqueur.
 solution: Experience Manager
-title: Indicateur
+title: Drapeau
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 5916f107-7aaf-4cc9-98fb-c4c070c38031
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# Indicateur{#flag}
+# Drapeau{#flag}
 
-Type de données de l’indicateur.
+Type de données de marqueur.
 
-0=false, 1=true. Toute autre valeur signifie inconnu ou non spécifié.
+0=faux, 1=vrai. Toute autre valeur signifie inconnue ou non spécifiée.

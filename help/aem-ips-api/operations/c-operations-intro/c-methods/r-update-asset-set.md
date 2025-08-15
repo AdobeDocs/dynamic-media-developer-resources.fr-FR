@@ -1,5 +1,5 @@
 ---
-description: Met à jour un jeu de ressources.
+description: Met à jour un ensemble de ressources.
 solution: Experience Manager
 title: updateAssetSet
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,22 +14,22 @@ ht-degree: 19%
 
 # updateAssetSet{#updateassetset}
 
-Met à jour un jeu de ressources.
+Met à jour un ensemble de ressources.
 
 Syntaxe
 
 ## Paramètres {#section-d7080ccd97334c94860eb107a3e132b2}
 
-**Entrée (updateAssetSetParam)**
+**Input (updateAssetSetParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Oui | Gestionnaire de la société qui contient la visionneuse d’images à modifier. |
-| assetHandle | `xsd:string` | Oui | La poignée de la visionneuse d’images que vous souhaitez modifier. |
+| assetHandle | `xsd:string` | Oui | Poignée de la visionneuse d’images à modifier. |
 | setDefinition | `xsd:string` | Non | Réinitialise les membres de la visionneuse d’images. |
-| thumbAssetHandle | `xsd:string` | Non | Gestionnaire de la ressource qui agit comme miniature de la visionneuse d’images. |
+| thumbAssetHandle | `xsd:string` | Non | La poignée de la ressource qui agit comme la miniature de la visionneuse d’images. |
 
-**Sortie (updateAssetSetReturn)**
+**Output (updateAssetSetReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|

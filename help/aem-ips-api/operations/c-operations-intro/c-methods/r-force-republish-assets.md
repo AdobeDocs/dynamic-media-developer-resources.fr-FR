@@ -1,5 +1,5 @@
 ---
-description: Réinitialise l’état de publication d’une ou de plusieurs ressources afin de forcer leur republication dans la tâche de publication suivante.
+description: Réinitialise le statut de publication d’une ou plusieurs ressources afin de forcer la republication de la ressource lors de la tâche de publication suivante.
 solution: Experience Manager
 title: forceRepublishAssets
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # forceRepublishAssets{#forcerepublishassets}
 
-Réinitialise l’état de publication d’une ou de plusieurs ressources afin de forcer leur republication dans la tâche de publication suivante.
+Réinitialise le statut de publication d’une ou plusieurs ressources afin de forcer la republication de la ressource lors de la tâche de publication suivante.
 
 Syntaxe
 
@@ -42,33 +42,33 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Gérer la société contenant les ressources à réinitialiser. </p> </td> 
+   <td colname="col4"> <p>Gérer vers la société contenant les ressources à réinitialiser. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"> <span class="varname"> republishFiles</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Ce code indique que les fichiers de la ressource sont republiés sur les serveurs de diffusion. La valeur par défaut est <span class="codeph"> true</span>. </p> </td> 
+   <td colname="col4"> <p>Indique que les fichiers de la ressource sont republiés sur les serveurs de diffusion. La valeur par défaut <span class="codeph"> true</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="codeph"> <span class="varname"> resyncCatalog</span> </span> </td> 
    <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Indique que les métadonnées de catalogue utilisées pour diffuser la ressource sont synchronisées afin de garantir qu’elle est à jour. Ce paramètre est utilisé pour résoudre les conditions de concurrence qui peuvent survenir lors de mises à jour quasi simultanées du même enregistrement. La valeur par défaut est <span class="codeph"> false</span>. </p> </td> 
+   <td colname="col4"> <p>Indique que les métadonnées de catalogue utilisées pour traiter la ressource sont synchronisées afin de garantir qu’elle est à jour. Ce paramètre est utilisé pour résoudre des conditions de concurrence qui peuvent se produire sur des mises à jour quasi simultanées du même enregistrement. La valeur par défaut <span class="codeph"> false</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:HandleArray</span> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Tableau de gestionnaires des ressources dont l’état de publication doit être réinitialisé. </p> </td> 
+   <td colname="col4"> <p>Tableau de handles vers les ressources dont le statut de publication doit être réinitialisé. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Sortie (forceRepublishAssetsParam)**
+**Output (forceRepublishAssetsParam)**
 
 <table id="table_78E74186669F477E9E2D837D58A789DC"> 
  <thead> 
@@ -82,7 +82,7 @@ Syntaxe
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> publishStateUpdateArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:PublishStateUpdateArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> de rapports :PublishStateUpdateArray</span> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
    <td colname="col4"> <p>Tableau des mises à jour de l’état de publication. </p> </td> 
   </tr> 

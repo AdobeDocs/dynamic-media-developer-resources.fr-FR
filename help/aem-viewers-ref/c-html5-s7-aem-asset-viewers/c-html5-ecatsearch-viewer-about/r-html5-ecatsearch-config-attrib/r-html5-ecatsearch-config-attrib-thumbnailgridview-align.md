@@ -19,8 +19,8 @@ ht-degree: 4%
 <table id="table_95890560230C48BBB03A8082F56382CA"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> left|center|right</span> </p> </td> 
-   <td> <p> Indique l’alignement horizontal interne (ancrage) du conteneur de miniatures dans la zone du composant. Dans ThumbnailGridView, le conteneur de miniatures interne est dimensionné de sorte que seul un nombre entier de miniatures s’affiche. Par conséquent, il existe une marge intérieure entre le conteneur interne et les limites du composant externe. Ce modificateur spécifie la manière dont le conteneur de miniatures internes est positionné horizontalement à l’intérieur du composant. </p> </td> 
+   <td> <p> <span class="codeph"> gauche|centre|droite</span> </p> </td> 
+   <td> <p> Indique l’alignement horizontal interne (ancrage) du conteneur de miniatures dans la zone du composant. Dans ThumbnailGridView, le conteneur interne des miniatures est dimensionné de sorte que seul un nombre entier de miniatures soit affiché. Par conséquent, il existe une certaine marge intérieure entre le conteneur interne et les limites du composant externe. Ce modificateur spécifie la manière dont le conteneur de miniatures internes est positionné horizontalement à l’intérieur du composant. </p> </td> 
   </tr> 
  </tbody> 
 </table>

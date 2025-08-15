@@ -1,5 +1,5 @@
 ---
-description: Cette section contient des informations sur la configuration et la gestion du serveur de rendu d’image.
+description: Cette section contient des informations pour vous aider à configurer et à gérer Image Rendering Server.
 solution: Experience Manager
 title: Configuration et gestion du serveur
 feature: Dynamic Media Classic,SDK/API
@@ -14,10 +14,10 @@ ht-degree: 0%
 
 # Configuration et gestion du serveur{#configuring-and-managing-the-server}
 
-Cette section contient des informations sur la configuration et la gestion du serveur de rendu d’image.
+Cette section contient des informations pour vous aider à configurer et à gérer Image Rendering Server.
 
 >[!NOTE]
 >
->La diffusion d’images doit être correctement configurée et fonctionnelle pour un bon fonctionnement du rendu d’image.
+>Image Serving doit être correctement configuré et fonctionnel pour le bon fonctionnement du rendu d’image.
 
-Pour plus d’informations, voir Référence du catalogue de matières, Référence du protocole HTTP, Notes de mise à jour, Documentation du serveur d’images
+Pour plus d’informations, voir Référence du catalogue de matériaux, Référence du protocole HTTP , Notes de mise à jour, Documentation Image Serving

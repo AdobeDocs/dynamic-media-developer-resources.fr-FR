@@ -1,6 +1,6 @@
 ---
-title: diapositive précédente
-description: Cliquez ou appuyez sur ce bouton pour renvoyer un utilisateur à la diapositive précédente de l’ensemble de carrousel. Ce bouton n’est pas affiché sur les périphériques tactiles. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
+title: Diapositive précédente
+description: Cliquez ou appuyez sur ce bouton pour rétablir l’utilisateur sur la diapositive précédente de l’ensemble de carrousel. Ce bouton ne s’affiche pas sur les appareils tactiles. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -12,22 +12,22 @@ ht-degree: 0%
 
 ---
 
-# diapositive précédente{#previous-slide}
+# Diapositive précédente{#previous-slide}
 
-La sélection de ce bouton renvoie un utilisateur à la diapositive précédente de l’ensemble de carrousel. Ce bouton n’est pas affiché sur les périphériques tactiles. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
+Si vous sélectionnez ce bouton, l’utilisateur revient à la diapositive précédente de l’ensemble de carrousel. Ce bouton ne s’affiche pas sur les appareils tactiles. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
 **Propriétés CSS de la zone de visionneuse principale**
 
-L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suivant :
+L’aspect du bouton est contrôlé avec le sélecteur de classe CSS suivant :
 
 `.s7carouselviewer .s7panleftbutton`
 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> propriété CSS </p> </th> 
+   <th colname="col1" class="entry"> <p> Propriété CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
@@ -41,31 +41,31 @@ L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suiv
    <td colname="col2"> <p>Position à droite de la bordure de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> gauche </span> </p> </td> 
    <td colname="col2"> <p>Position à gauche de la bordure de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
-   <td colname="col2"> <p>Position en bas de la bordure de la visionneuse. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> inférieur </span> </p> </td> 
+   <td colname="col2"> <p>Position à partir du bas de la bordure de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
    <td colname="col2"> <p>Largeur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> de hauteur </span> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> le </span> image d’arrière-plan </p> </td> 
    <td colname="col2"> <p>Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> la position de l’arrière-plan </span> </p> </td> 
+   <td colname="col2"> <p> Positionnez à l’intérieur d’un sprite d’illustration si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/c-html5-aem-carousel-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> des sprites CSS </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> curseur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> du curseur </span> </p> </td> 
    <td colname="col2"> <p>Type de curseur. </p> </td> 
   </tr> 
  </tbody> 
@@ -73,11 +73,11 @@ L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suiv
 
 >[!NOTE]
 >
->Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge le sélecteur d&#39;attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
-L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) pour plus d’informations.
+L’info-bulle du bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md) pour plus d’informations.
 
-Par exemple, supposons que vous souhaitiez configurer un bouton de diapositive précédent de 60 x 60 pixels. Vous souhaitez qu’il soit positionné à dix pixels de la bordure de la visionneuse gauche et centré verticalement. Et vous souhaitez qu’il affiche une image différente pour chacun des quatre états de bouton différents.
+Par exemple, supposons que vous souhaitiez configurer un bouton de diapositive précédent de 60 x 60 pixels. Vous souhaitez le positionner à dix pixels de la bordure gauche de la visionneuse et le centrer verticalement. Vous souhaitez également qu’elle affiche une image différente pour chacun des quatre états de bouton différents.
 
 ```
 .s7carouselviewer .s7panleftbutton { 

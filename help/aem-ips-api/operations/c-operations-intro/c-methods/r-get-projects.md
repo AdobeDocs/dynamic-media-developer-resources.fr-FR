@@ -1,5 +1,5 @@
 ---
-description: Obtient des projets pour un groupe de ressources connexes.
+description: Obtient les projets d’un groupe de ressources connexes.
 solution: Experience Manager
 title: getProjects
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 19%
 
 # getProjects{#getprojects}
 
-Obtient des projets pour un groupe de ressources connexes.
+Obtient les projets d’un groupe de ressources connexes.
 
 Syntaxe
 
@@ -33,19 +33,19 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | La poignée de la société. |
+| CompanyHandle | `xsd:string` | Oui | La poignée de l’entreprise. |
 
-**Sortie (getProjectsReturn)**
+**Output (getProjectsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| projectArray | `types:ProjectArray` | Oui | Tableau des projets associés à la société. |
+| Réseau de projet | `types:ProjectArray` | Oui | L’éventail des projets associés à l’entreprise. |
 
 ## Exemples {#section-8b12d0b948f644f68bf9a16060d3849a}
 
-Cet exemple de code renvoie toutes les gestionnaires de projet dans un tableau de projet.
+Cet exemple de code renvoie tous les indicateurs de projet d’un tableau de projet.
 
-**Requête**
+**Demander**
 
 ```java
 <ns1:getProjectsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

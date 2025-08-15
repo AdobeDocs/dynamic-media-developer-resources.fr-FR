@@ -1,5 +1,5 @@
 ---
-description: Débit audio. Valeur longue qui représente le débit audio de la ressource vidéo.
+description: Débit audio. Valeur longue représentant le débit audio de la ressource vidéo.
 solution: Experience Manager
 title: AudioBitRate
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # AudioBitRate{#audiobitrate}
 
-Débit audio. Valeur longue qui représente le débit audio de la ressource vidéo.
+Débit audio. Valeur longue représentant le débit audio de la ressource vidéo.
 
 Utilisé par les requêtes `req=set` et `req=mbrSet` pour exporter des données de débit binaire.
 
@@ -22,7 +22,7 @@ S’applique uniquement au catalogue de contenu statique.
 
 ## Propriétés {#section-76731467b23240ac89b0767491c6020b}
 
-Valeur entière (bit/s)
+Valeur entière (bits/s)
 
 ## Par défaut {#section-dba669ea75354671bbdb3b520e2f6911}
 

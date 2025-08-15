@@ -1,6 +1,6 @@
 ---
 title: ActiveJobArray
-description: Tableau de tâches actives.
+description: Un éventail d’emplois actifs.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL ActiveJobArray]{#activejobarray}
 
-Tableau de tâches actives.
+Un éventail d’emplois actifs.
 
 Syntaxe
 
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| éléments | `types:ActiveJob` | Tableau des tâches actives. |
+| éléments | `types:ActiveJob` | Tableau de tâches actives. |

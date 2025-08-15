@@ -1,6 +1,6 @@
 ---
-title: Fermer
-description: Bouton Fermer
+title: Closebutton
+description: Le bouton Fermer
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -12,7 +12,7 @@ ht-degree: 6%
 
 ---
 
-# Fermer{#closebutton}
+# Closebutton{#closebutton}
 
 `closebutton=0|1`
 
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>Définissez cette variable sur <span class="codeph"> 1 </span> pour activer l’affichage du bouton Fermer . Ou définissez sur <span class="codeph"> 0 </span> pour masquer le bouton Fermer . </p> <p>Le bouton Fermer n’est pris en charge que sur les périphériques tactiles ; il ne peut pas être affiché sur les ordinateurs de bureau. </p> </td> 
+   <td colname="col2"> <p>Définissez sur <span class="codeph"> 1 </span> pour activer l’affichage du bouton Fermer. Vous pouvez également définir sur <span class="codeph"> 0 </span> pour masquer le bouton Fermer . </p> <p>Le bouton Fermer est pris en charge uniquement sur les appareils tactiles ; il ne peut pas être affiché sur les ordinateurs de bureau. </p> </td> 
   </tr> 
  </tbody> 
 </table>

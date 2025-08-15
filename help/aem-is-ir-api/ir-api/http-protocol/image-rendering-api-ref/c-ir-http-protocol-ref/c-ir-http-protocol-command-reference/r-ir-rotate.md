@@ -25,17 +25,17 @@ Angle de rotation du matériau. Définit l’angle de rotation des matériaux.
  </tr> 
 </table>
 
-Faire pivoter les matériaux de texture répétables (hors papier peint) par des multiples de 45° lorsqu’ils sont appliqués aux objets plats ou aux objets de plan.
+Faire pivoter les matériaux de texture reproductibles (à l’exclusion des papiers peints) par multiples de 45° lorsqu’ils sont appliqués à des objets plats ou plans.
 
-Faire pivoter les matériaux de texture répétables par des angles arbitraires lorsqu’ils sont appliqués aux objets de type Flowline ou Sketch.
+Faites pivoter les matériaux de texture reproductibles selon des angles arbitraires lorsqu’ils sont appliqués aux objets Flowline et Sketch.
 
-Faire pivoter les matériaux de décomposition par des angles arbitraires.
+Faire pivoter les matériaux de décalcomanie selon des angles arbitraires.
 
-Les angles positifs tournent dans le sens des aiguilles d&#39;une montre. La texture ou le décal est pivoté autour du point d’ancrage ( `anchor=`) ; le point d’ancrage reste aligné sur l’origine de l’objet cible.
+Les angles positifs tournent dans le sens des aiguilles d’une montre. La texture ou l’autocollant est tourné autour du point d’ancrage ( `anchor=`) ; le point d’ancrage reste aligné avec l’origine de l’objet cible.
 
 ## Propriétés {#section-ad4d07897ca24f63af1a4062f8618e36}
 
-Attribut de matière. Ignoré par les matériaux de traitement de couleur, de papier peint, de vitrine et de vitrine solides. *`angle`* Doit être un multiple de 45 pour les textures répétables, sauf s’il est appliqué à Flowline ou à Sketch Objects.
+Attribut matériel. Ignoré par la couleur unie, le papier peint, l’armoire et les matériaux de traitement des fenêtres. *`angle`* Doit être un multiple de 45 pour les textures répétables, sauf s’il est appliqué à des objets Flowline ou Sketch.
 
 ## Par défaut {#section-14c991e71b74449db8ff18a775949b28}
 
@@ -43,4 +43,4 @@ Attribut de matière. Ignoré par les matériaux de traitement de couleur, de pa
 
 ## Voir aussi {#section-f73c00e9368b478dac1fd15bb4367a12}
 
-[anchor=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26)
+[ancre=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-anchor.md#reference-d53923d785c9442997dc7f2199524c26)

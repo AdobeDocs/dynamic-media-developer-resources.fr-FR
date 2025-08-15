@@ -1,6 +1,6 @@
 ---
-title: Bouton Réinitialiser le zoom
-description: Cliquez ou appuyez sur ce bouton pour réinitialiser une image dans la vue principale. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
+title: Bouton de réinitialisation du zoom
+description: Le fait de cliquer ou d’appuyer sur ce bouton réinitialise une image dans la vue principale. Vous pouvez redimensionner, habiller et positionner ce bouton à l’aide de CSS.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 ---
 
-# Bouton Réinitialiser le zoom{#zoom-reset-button}
+# Bouton de réinitialisation du zoom{#zoom-reset-button}
 
-Lorsque vous sélectionnez ou appuyez sur ce bouton, une image est réinitialisée dans la vue principale. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
+Lorsque vous sélectionnez ou appuyez sur ce bouton, une image est réinitialisée dans la vue principale. Vous pouvez redimensionner, habiller et positionner ce bouton à l’aide de CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriétés CSS de la zone de visionneuse principale**
+**Propriétés CSS de la zone principale de la visionneuse**
 
-L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suivant :
+L’aspect du bouton est contrôlé par le sélecteur de classe CSS suivant :
 
 ```
 .s7zoomviewer .s7zoomresetbutton
@@ -29,53 +29,53 @@ L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suiv
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> propriété CSS </p> </th> 
+   <th colname="col1" class="entry"> <p> Propriété CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure supérieure, y compris la marge intérieure. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Retour au début </span> </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure supérieure, y compris le rembourrage. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> droit </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure droite, y compris la marge intérieure. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Droite </span> </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure droite, y compris le rembourrage. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
-   <td colname="col2"> <p>Position depuis la bordure gauche, y compris la marge intérieure. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Gauche </span> </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure gauche, remplissage compris. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure inférieure, y compris la marge intérieure. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> fond </span> </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure inférieure, remplissage compris. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Largeur </span> </p> </td> 
    <td colname="col2"> <p>Largeur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> hauteur </span> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p>Image affichée pour un état de bouton donné. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan </span> </p> </td> 
+   <td colname="col2"> <p>Image affichée pour un état donné du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> position de l’arrière-plan </span> </p> </td> 
+   <td colname="col2"> <p> Position à l’intérieur du sprite de l’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> Sprites </a>CSS. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ce bouton prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge le sélecteur d’attributs `state` , qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
-L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+L’info-bulle du bouton peut être localisée. Voir [Localisation des éléments](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) de l’interface utilisateur.
 
-Exemple : pour configurer un bouton de réinitialisation du zoom de 32 x 32 pixels et positionner six pixels à partir des bords supérieur et droit de la visionneuse. Et enfin, affiche une image différente pour chacun des quatre états de bouton différents.
+Exemple : configuration d’un bouton de réinitialisation de zoom de 32 x 32 pixels et positionné à six pixels du bord supérieur et droit de la visionneuse. Enfin, affiche une image différente pour chacun des quatre états différents du bouton.
 
 ```
 .s7zoomviewer .s7zoomresetbutton { 

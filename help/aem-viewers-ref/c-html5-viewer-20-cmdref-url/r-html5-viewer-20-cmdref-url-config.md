@@ -1,6 +1,6 @@
 ---
 title: config
-description: Paramètre commun à toutes les visionneuses.
+description: Paramètre commun à tous les observateurs.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # config{#config}
 
-Paramètre commun à toutes les visionneuses.
+Paramètre commun à tous les observateurs.
 
 ` config= *`configId`*`
 
@@ -22,12 +22,12 @@ Paramètre commun à toutes les visionneuses.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> configId </span> </span> </p> </td> 
-   <td colname="col2"> <p>Catalogue/ID pour la configuration de la visionneuse. </p> <p> Spécifie une entrée de catalogue d’images qui contient les propriétés de configuration de la visionneuse dans le catalogue <span class="codeph"> ::UserData </span>. Lorsque cette commande est présente, la visionneuse envoie une commande <span class="codeph"> req=userdata </span> pour <span class="codeph"> configId </span> au serveur et extrait les propriétés de la réponse. Les propriétés sont utilisées pour initialiser la visionneuse. Si la chaîne URL spécifie les mêmes propriétés, elles remplacent les valeurs du catalogue <span class="codeph"> ::UserData </span>. </p> </td> 
+   <td colname="col2"> <p>Catalogue/ID pour la configuration de la visionneuse. </p> <p> Indique une entrée de catalogue d’images contenant les propriétés de configuration de la visionneuse dans <span class="codeph">’</span> catalog::UserData. Lorsque cette commande est présente, la visionneuse envoie une commande <span class="codeph"> req=userdata </span> pour <span class="codeph"> </span> configId au serveur et extrait les propriétés de la réponse. Les propriétés sont utilisées pour initialiser la visionneuse. Si la chaîne d’URL spécifie les mêmes propriétés, elles remplacent les valeurs de <span class="codeph">’</span> catalog::UserData. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Toutes les commandes de visionneuse qui peuvent être spécifiées dans `catalog::UserData` s’attendent à `asset`, `serverUrl`, `contentUrl`, `searchServerUrl` et `config` elles-mêmes.
+Toutes les commandes de visionneuse qui peuvent être spécifiées dans `catalog::UserData` s’attendent à `asset`, `serverUrl`, `contentUrl`, `searchServerUrl` et `config`.
 
 ## Propriétés {#section-10ee45d637134e0fbcd943c62578cb78}
 
@@ -39,7 +39,7 @@ Aucune
 
 ## Exemple 1 {#section-a8afbf76f8384aa0a83ed1feeccd5b9a}
 
-Un catalogue d’images nommé 2020 contient l’entrée `preset-oct`. Le champ `catalog::UserData` de cette entrée de catalogue comprend les données suivantes :
+Un catalogue d’images nommé 2020 contient les `preset-oct` d’entrée. Le champ `catalog::UserData` de cette entrée de catalogue contient les données suivantes :
 
 ```
 style=customStyle.css
@@ -59,7 +59,7 @@ style=customStyle.css
 
 ## Exemple 2 {#section-577fce5ddbee43fc96d88b2055df47aa}
 
-Un catalogue d’images nommé 2019 contient l’entrée `spin-oct`. Le champ `catalog::UserData` de cette entrée de catalogue comprend les données suivantes :
+Un catalogue d’images nommé 2019 contient les `spin-oct` d’entrée. Le champ `catalog::UserData` de cette entrée de catalogue contient les données suivantes :
 
 ```
 zoomStep=3 
@@ -118,7 +118,7 @@ style=etc/dam/presets/css/html5_interactivevideo_dark.css
 
 ## Exemple 5 {#section-19b988551d1d492a9079948e0b04b38f}
 
-Un paramètre prédéfini de visionneuse nommé `Carousel_Dotted_light` contient les données suivantes :
+Un paramètre prédéfini de visionneuse nommé `Carousel_Dotted_light` les données suivantes :
 
 ```
 style= etc/dam/presets/css/html5_carouselviewer_dotted_light.css

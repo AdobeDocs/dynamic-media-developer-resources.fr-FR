@@ -1,6 +1,6 @@
 ---
-title: Exemples de serveurs d’images
-description: Cette page doit renvoyer vers des exemples de serveur d’images.
+title: Exemples de serveur d’images
+description: Cette page doit contenir des liens vers des exemples de serveurs d’images.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Exemples de serveurs d’images{#image-server-examples}
+# Exemples de serveur d’images{#image-server-examples}
 
-Cette rubrique doit renvoyer vers des exemples de serveur d’images.
+Cette rubrique doit contenir des liens vers des exemples de serveurs d’images.
 <!-- As of August 29 (and likely months or years before this date), none of the links below work anymore! -->
 
 

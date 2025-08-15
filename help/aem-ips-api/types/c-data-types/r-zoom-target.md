@@ -1,7 +1,7 @@
 ---
 description: Propriétés d’une cible de zoom.
 solution: Experience Manager
-title: ZoomTarget
+title: Cible de zoom
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 08125f45-38cb-45bb-bc29-c767f4d0aed9
@@ -22,12 +22,12 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| zoomTargetHandle | `xsd:string` | Poignée cible de zoom. |
+| Poignée de cibles de zoom | `xsd:string` | Poignée de cible de zoom. |
 | nom | `xsd:string` | Nom de la cible de zoom. |
 | xPosition | `xsd:int` | Position X de la cible de zoom. |
 | yPosition | `xsd:int` | Position Y de la cible de zoom. |
 | largeur | `xsd:int` | Largeur de la cible de zoom. |
-| hauteur | `xsd:int` | Hauteur de la cible de zoom. |
-| userData | `xsd:string` | Données utilisateur associées à la cible de zoom. |
-| position | `xsd:int` | Permet de classer les cibles de zoom associées à une ressource selon sa position. |
-| lastModified | `xsd:dateTime` | Date de la dernière modification. |
+| hauteur | `xsd:int` | Hauteur de cible de zoom. |
+| Données utilisateur | `xsd:string` | Données utilisateur associées à la cible de zoom. |
+| position | `xsd:int` | Permet de trier les cibles de zoom associées à une ressource en fonction de leur position. |
+| Dernière modification | `xsd:dateTime` | Date de la dernière modification. |

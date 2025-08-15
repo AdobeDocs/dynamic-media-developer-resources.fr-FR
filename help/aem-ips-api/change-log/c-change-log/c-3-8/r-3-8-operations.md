@@ -1,5 +1,5 @@
 ---
-description: Décrit les nouvelles méthodes d’exploitation et les méthodes modifiées pour l’API IPS version 3.8.
+description: Décrit les méthodes d’opérations nouvelles et modifiées pour l’API IPS version 3.8.
 solution: Experience Manager
 title: Opérations nouvelles et modifiées
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Opérations : nouvelles et modifiées{#operations-new-and-modified}
 
-Décrit les nouvelles méthodes d’exploitation et les méthodes modifiées pour l’API IPS version 3.8.
+Décrit les méthodes d’opérations nouvelles et modifiées pour l’API IPS version 3.8.
 
 Syntaxe
 
@@ -30,10 +30,10 @@ Syntaxe
 
 ## Opérations modifiées {#section-25eee732b69c49d0a27b1f3290f8654a}
 
-**searchAssets**
+**Ressources de recherche**
 
-* Le paramètre facultatif `publishState` vous permet de rechercher l’état de la ressource `MarkedForPublish/NotMarkedForPublish`.
+* Le paramètre facultatif `publishState` permet de rechercher l’état de la `MarkedForPublish/NotMarkedForPublish` ressource.
 
 **getJobLogs**
 
-* Le paramètre facultatif `userHandle` vous permet de récupérer les journaux de tâches envoyés par un utilisateur spécifique.
+* Le paramètre optionnel `userHandle` permet de récupérer les journaux de traitement envoyés par un utilisateur spécifique.

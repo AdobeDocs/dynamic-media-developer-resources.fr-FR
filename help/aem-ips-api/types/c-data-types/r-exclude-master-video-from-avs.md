@@ -37,7 +37,7 @@ Syntaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> true|false</span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> <p>Exclut le fichier vidéo principal de la visionneuse de vidéos adaptative. </p> <p>La valeur par défaut est true. </p> </td> 
+   <td colname="col3"> <p>Exclut le fichier vidéo principal de la visionneuse de vidéos adaptative. </p> <p>La valeur par défaut est « true ». </p> </td> 
   </tr> 
  </tbody> 
 </table>

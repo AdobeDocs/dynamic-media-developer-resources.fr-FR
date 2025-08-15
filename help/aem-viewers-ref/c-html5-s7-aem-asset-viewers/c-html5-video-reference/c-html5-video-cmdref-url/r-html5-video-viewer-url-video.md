@@ -1,6 +1,6 @@
 ---
 title: vidéo
-description: Commande URL de la visionneuse de vidéos.
+description: Commande d’URL de la visionneuse de vidéos.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # vidéo{#video}
 
-Commande URL de la visionneuse de vidéos.
+Commande d’URL de la visionneuse de vidéos.
 
 ` video= *`videoURL`*`
 
@@ -29,7 +29,7 @@ Commande URL de la visionneuse de vidéos.
 
 ## Propriétés {#section-f42369774e2740dcb399626a0e4e930e}
 
-Obligatoire. (Sauf si le paramètre `asset` est utilisé. Voir [Prise en charge des vidéos externes](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3).)
+Obligatoire. (Sauf si `asset` paramètre est utilisé. Voir [Prise en charge vidéo externe](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3).)
 
 ## Par défaut {#section-d016470e92a74f98a18c4ab3489410a5}
 

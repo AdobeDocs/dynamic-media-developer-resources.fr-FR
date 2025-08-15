@@ -1,6 +1,6 @@
 ---
 title: SmartCropVideoPlayer.waiticon
-description: Attribut de configuration de la visionneuse de vidéos avec recadrage intelligent.
+description: Attribut de configuration pour la visionneuse de vidéos avec recadrage intelligent.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # SmartCropVideoPlayer.waiticon{#smartcropvideoplayer-waiticon}
 
-Attribut de configuration de la visionneuse de vidéos avec recadrage intelligent.
+Attribut de configuration pour la visionneuse de vidéos avec recadrage intelligent.
 
 `[SmartCropVideoPlayer.|<containerId>_videoPlayer.]waiticon=0|1`
 

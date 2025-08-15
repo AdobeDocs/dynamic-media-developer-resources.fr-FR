@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>Indique le comportement de préchargement du composant. </p> <p>Lorsqu’il est défini sur <span class="codeph"> -1</span>, le composant précharge toutes les images de catalogue lorsqu’il est en état d’inactivité. </p> <p> Lorsqu’il est défini sur <span class="codeph"> 0</span>, le composant charge uniquement l’image visible, l’image précédente et l’image suivante. </p> <p>Définissez <span class="codeph"><span class="varname"> preloadnbr</span></span> pour définir le nombre d’images invisibles autour de l’image actuellement affichée en état d’inactivité. </p> </td> 
+   <td colname="col2"> <p>Indique le comportement de préchargement du composant. </p> <p>Lorsque la valeur <span class="codeph"> -1 est définie</span> le composant précharge toutes les images du catalogue lorsqu’il est inactif. </p> <p> Lorsque cette valeur est définie sur <span class="codeph"> 0</span> le composant charge uniquement l’image visible, l’image précédente et l’image suivante. </p> <p>Définissez <span class="codeph"><span class="varname"> preloadnbr</span></span> pour définir le nombre d’images invisibles autour de l’image actuellement affichée qui sont préchargées en mode inactif. </p> </td> 
   </tr> 
  </tbody> 
 </table>

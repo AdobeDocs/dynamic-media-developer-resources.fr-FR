@@ -1,7 +1,7 @@
 ---
 description: Supprime un groupe.
 solution: Experience Manager
-title: deleteGroup
+title: supprimer le groupe
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0de188de-b4b6-4f48-9918-bcf962fa9482
@@ -12,7 +12,7 @@ ht-degree: 11%
 
 ---
 
-# deleteGroup{#deletegroup}
+# supprimer le groupe{#deletegroup}
 
 Supprime un groupe.
 
@@ -30,8 +30,8 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gestionnaire de la société qui appartient au groupe que vous souhaitez supprimer. |
-| groupHandle | `xsd:string` | Oui | Gestionnaire du groupe que vous souhaitez supprimer. |
+| CompanyHandle | `xsd:string` | Oui | Identifiant de l’entreprise appartenant au groupe que vous souhaitez supprimer. |
+| Poignée de groupe | `xsd:string` | Oui | Poignée du groupe à supprimer. |
 
 **Output (deleteGroupParam)**
 
@@ -39,9 +39,9 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-8f8501af3b3348a1b5701cf9622bf6e4}
 
-Cet exemple de code supprime un groupe d’une société. Elle nécessite un gestionnaire de groupe, que vous devez obtenir d’une autre opération.
+Cet exemple de code supprime un groupe d’une société. Elle nécessite un descripteur de groupe, que vous devez obtenir à partir d’une autre opération.
 
-**Requête**
+**Demander**
 
 ```java
 <ns1:deleteGroupParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

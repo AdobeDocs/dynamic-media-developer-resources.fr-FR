@@ -1,5 +1,5 @@
 ---
-description: Obtient les détails d’un journal des tâches de l’entreprise.
+description: Obtient les détails d’un journal de tâche de l’entreprise.
 solution: Experience Manager
 title: getJobLogDetails
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 11%
 
 # getJobLogDetails{#getjoblogdetails}
 
-Obtient les détails d’un journal des tâches de l’entreprise.
+Obtient les détails d’un journal de tâche de l’entreprise.
 
-Le champ de réponse `logMessage` est localisé en fonction du champ `authHeader` `locale` .
+Le `logMessage` champ de réponse est localisé en fonction du `authHeader` `locale` champ.
 
 ## Types d’utilisateurs autorisés {#section-6f720a7baad64eb3805868c88af9a960}
 
@@ -31,7 +31,7 @@ Le champ de réponse `logMessage` est localisé en fonction du champ `authHeader
 
 ## Paramètres {#section-47d411a755224c23a4521f10341d66ab}
 
-**Entrée (getJobLogDetailsParam)**
+**Input (getJobLogDetailsParam)**
 
 <table id="table_A77122D73F684B3F8F5AFA1C11C189ED"> 
  <thead> 
@@ -44,40 +44,40 @@ Le champ de réponse `logMessage` est localisé en fonction du champ `authHeader
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> CompanyHandle</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Gestionnaire de la société à laquelle appartient le log de traitement. </td> 
+   <td colname="col4"> Poignée de l’entreprise à laquelle le journal de tâche appartient. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> Gestion d’une tâche active ou terminée. </td> 
+   <td colname="col4"> Gérer un traitement actif ou terminé. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> Nom original du journal des tâches. </td> 
+   <td colname="col4"> Nom original du journal de travail. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> logTypeArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> Tableau logTypeArray</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> types :StringArray</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> Une ou plusieurs constantes de type de journal. S’il est présent, seuls les types de journaux spécifiés sont renvoyés. Par défaut, tous les types de journaux sont renvoyés. </td> 
+   <td colname="col4"> Une ou plusieurs constantes de type log. Si présent, seuls les types de journaux spécifiés sont renvoyés. Par défaut, tous les types de journaux sont renvoyés. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4">Nombre maximal d’éléments <span class="codeph"> detailArray</span> à renvoyer. La valeur maximale et la valeur par défaut sont 1 000. </td> 
+   <td colname="col4">Nombre maximal d’éléments detailArray <span class="codeph"></span> à renvoyer. La valeur maximale et la valeur par défaut sont 1 000. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> Page</span> de résultats </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd :int</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4">Numéro de page de <span class="codeph"> recordsPerPage</span>-results à renvoyer. La valeur par défaut est 1. </td> 
+   <td colname="col4">Numéro de page des <span class="codeph"> enregistrements PerPage-results</span> à renvoyer. La valeur par défaut est 1. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
@@ -86,23 +86,23 @@ Le champ de réponse `logMessage` est localisé en fonction du champ `authHeader
    <td colname="col4"> <p>Une des valeurs constantes du champ de tri des détails de la tâche (Date ou LogType). La valeur par défaut est Date. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> sortDirection</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> sortDirection </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> <p>Une des constantes de chaîne Sort Direction . La valeur par défaut est croissant. </p> </td> 
+   <td colname="col4"> <p>Une des constantes de chaîne Direction du tri. La valeur par défaut est croissante. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Sortie (getJobLogDetailsReturn)**
+**Output (getJobLogDetailsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| jobLogArray | `types:JobLogArray` | Oui | Tableau des journaux de tâches. |
+| jobLogArray | `types:JobLogArray` | Oui | Tableau des logs de traitement. |
 
 ## Exemples {#section-007678b8b8d94e8f91d09f6bc855f394}
 
-Cet exemple de code renvoie tous les détails du journal des tâches d’une société spécifique. Le premier tableau contient les détails standard du journal des tâches. Un tableau incorporé renvoie des informations supplémentaires sur la tâche.
+Cet exemple de code renvoie tous les détails du log de traitement d’une société spécifique. Le premier tableau contient les détails du journal des tâches standard. Un tableau incorporé renvoie des informations supplémentaires sur la tâche.
 
 **Requête**
 

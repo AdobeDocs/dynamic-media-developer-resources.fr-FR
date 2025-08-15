@@ -19,20 +19,20 @@ ht-degree: 2%
 <table id="table_5B8094216AE94DC59671E06DB941A366"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> time</span></span> </p> </td> 
-   <td colname="col2"> <p> Indique la durée en secondes de l’animation d’une seule action d’étape de zoom. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> fois</span></span> </p> </td> 
+   <td colname="col2"> <p> Indique le temps en secondes nécessaire à l’animation d’une seule action de zoom. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> Easing</span></span> </p> </td> 
-   <td colname="col2"> <p> Crée une illusion d'accélération ou de décélération qui rend la transition plus naturelle. Vous pouvez définir l’assouplissement sur l’une des options suivantes : </p> <p> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> assouplissement</span></span> </p> </td> 
+   <td colname="col2"> <p> Crée une illusion d'accélération ou de décélération qui rend la transition plus naturelle. Vous pouvez définir l'assouplissement sur l'une des options suivantes : </p> <p> 
      <ul id="ul_7B9694978D96449AB986AED1CF7F649D"> 
       <li id="li_904CEC8AD5834139A5585EE70ACE9C80">0 (auto) </li> 
       <li id="li_471D4CD39C10415497B1714B0AD961B9"> 1 (linéaire) </li> 
       <li id="li_7A0F9F1186604E75BAA19626A844236A"> 2 (quadratique) </li> 
-      <li id="li_B8D4C40D795642AB835925582B707158"> 3 (cubique) </li> 
+      <li id="li_B8D4C40D795642AB835925582B707158"> 3 (cube) </li> 
       <li id="li_2B9F7324BB89455C89C1CAE1BD5BBB65"> 4 (quartique) </li> 
-      <li id="li_B94A553B6E844247BE88ECA0A8CEB811"> 5 (quintique) </li> 
-     </ul> </p> <p>Le mode automatique utilise toujours une transition linéaire lorsque le zoom élastique est désactivé (par défaut). Sinon, il convient à l’une des autres fonctions d’assouplissement en fonction de l’heure de transition. En d’autres termes, plus le temps de transition est court, plus la fonction d’assouplissement est utilisée pour accélérer l’effet d’accélération ou de décélération. </p> </td> 
+      <li id="li_B94A553B6E844247BE88ECA0A8CEB811"> 5 (quintic) </li> 
+     </ul> </p> <p>Le mode automatique utilise toujours une transition linéaire lorsque le zoom élastique est désactivé (par défaut). Sinon, elle s'adapte à l'une des autres fonctions d'assouplissement en fonction du temps de transition. En d'autres termes, plus le temps de transition est court, plus la fonction d'assouplissement est utilisée pour accélérer l'effet d'accélération ou de décélération. </p> </td> 
   </tr> 
  </tbody> 
 </table>

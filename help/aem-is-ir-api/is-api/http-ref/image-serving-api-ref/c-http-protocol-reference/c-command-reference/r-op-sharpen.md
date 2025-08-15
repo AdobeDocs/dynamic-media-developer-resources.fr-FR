@@ -22,7 +22,7 @@ Le masque de calque ou le masque composite est également accentué.
 
 ## Propriétés {#section-b27f3f6a27c34233b3f76805e18b2aa7}
 
-Attribut de calque ou attribut d’affichage. S’applique au calque actif ou à l’image de vue finale si `layer=comp`. Ignoré par les calques d’effet.
+Attribut de couche ou attribut de vue. S’applique au calque actif ou à l’image vue finale si `layer=comp`. Ignoré par les calques d’effets.
 
 ## Par défaut {#section-665709700fff458e9dbbf8a78e8ecf71}
 
@@ -30,7 +30,7 @@ Attribut de calque ou attribut d’affichage. S’applique au calque actif ou à
 
 ## Exemple {#section-3202122df5db4e14b358ecabfb6d8b85}
 
-Compenser le léger flou causé par le rééchantillonnage d’images. Nous augmentons également la qualité du JPEG afin d’éviter des artefacts de JPEG supplémentaires le long des bords accentués.
+Compensez le léger flou causé par le rééchantillonnage de l’image. Nous augmentons également la qualité JPEG pour éviter des artefacts JPEG supplémentaires le long des bords accentués.
 
 `http://server/myRootId/myImageId?qlt=90,1&op_sharpen=1&wid=500`
 

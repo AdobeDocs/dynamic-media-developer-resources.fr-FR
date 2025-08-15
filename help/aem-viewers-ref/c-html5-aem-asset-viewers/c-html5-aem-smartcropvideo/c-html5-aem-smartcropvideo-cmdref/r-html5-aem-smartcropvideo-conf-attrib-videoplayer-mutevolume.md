@@ -22,7 +22,7 @@ Attribut de configuration de la visionneuse de vidéos avec recadrage intelligen
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Définit le mode silencieux pour la lecture vidéo au chargement initial. Si elle est définie sur <span class="codeph"> 1 </span>, le volume est muté ; dans le cas contraire, la vidéo est lue avec le son. Sur certains appareils, la mise en mode muet de la lecture vidéo au chargement permet également à la vidéo d’être lue automatiquement. </p> </td> 
+   <td colname="col2"> <p> Définit le mode muet pour la lecture vidéo au chargement initial. Si le paramètre est défini sur <span class="codeph"> 1 </span> le volume est désactivé, la vidéo est lue en même temps que le son. Sur certains appareils, le fait de désactiver la lecture vidéo au chargement permet également à la vidéo de s’afficher automatiquement. </p> </td> 
   </tr> 
  </tbody> 
 </table>

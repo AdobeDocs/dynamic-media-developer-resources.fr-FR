@@ -1,5 +1,5 @@
 ---
-description: Définit différentes valeurs de configuration propres à l’entreprise.
+description: Définit différentes valeurs de configuration spécifiques à l’entreprise.
 solution: Experience Manager
 title: setCompanySettings
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # setCompanySettings{#setcompanysettings}
 
-Définit différentes valeurs de configuration propres à l’entreprise.
+Définit différentes valeurs de configuration spécifiques à l’entreprise.
 
 Syntaxe
 
@@ -27,21 +27,21 @@ Syntaxe
 
 ## Paramètres {#section-a472da6c57c74a94a179dda081004888}
 
-**Entrée (setCompanySettingsParam)**
+**Input (setCompanySettingsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Poignée de la société. |
+| companyHandle | `xsd:string` | Oui | Identifiant de la société. |
 | overwriteMode | `xsd:string` | Non | Mode de remplacement des ressources. |
-| keepPublishState | `xsd:boolean` | Non | Définissez cette variable sur `true` pour conserver l’état de publication lorsqu’une ressource est à nouveau chargée. |
-| defaultSourceProfileHandle | `xsd:string` | Non | Ressource IccProfile à utiliser comme profil de couleur source par défaut. |
-| defaultDisplayProfileHandle | `xsd:string` | Non | Ressource IccProfile à utiliser comme profil de couleur d’affichage par défaut. |
+| retainPublishState | `xsd:boolean` | Non | Définissez cette variable sur `true` afin de conserver l’état de publication lorsqu’une ressource est rechargée. |
+| defaultSourceProfileHandle | `xsd:string` | Non | Ressource IccProfile à utiliser comme profil de couleurs source par défaut. |
+| defaultDisplayProfileHandle | `xsd:string` | Non | Ressource IccProfile à utiliser comme profil de couleurs d’affichage par défaut. |
 | iptcExifMappingXsltHandle | `xsd:string` | Non | Ressource XSL utilisée pour mapper les métadonnées IPTC et EXIF aux champs de métadonnées IPS. |
-| xmpMappingXsltHandle | `xsd:string` | Non | Ressource XSL utilisée pour mapper XMP métadonnées aux champs de métadonnées IPS. |
-| diskSpaceWarningMin | `xsd:int` | Non | Espace disque minimal disponible (en Ko) avant l’envoi d’un message d’avertissement. |
-| emailTrashCleanupWarning | `xsd:boolean` | Non | Définissez cette variable sur `true` pour envoyer aux administrateurs de l’entreprise une notification chaque fois que des ressources sont vidées de la corbeille. |
+| xmpMappingXsltHandle | `xsd:string` | Non | Ressource XSL utilisée pour mapper les métadonnées XMP aux champs de métadonnées IPS. |
+| diskSpaceWarningMin | `xsd:int` | Non | Espace disque disponible minimum (en Ko) avant l&#39;envoi d&#39;un message d&#39;avertissement. |
+| emailTrashCleanupWarning | `xsd:boolean` | Non | Définissez sur `true` pour envoyer aux administrateurs de l’entreprise une notification chaque fois que des ressources sont vidées de la corbeille. |
 
-**Sortie (setCompanySettingsReturn)**
+**Output (setCompanySettingsReturn)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 

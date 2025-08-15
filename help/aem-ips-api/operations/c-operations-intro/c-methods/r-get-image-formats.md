@@ -1,5 +1,5 @@
 ---
-description: Renvoie les formats d’image, PDF, EPS, SWF, etc.
+description: Renvoie les formats d’image, tels que PDF, EPS, SWF, etc.
 solution: Experience Manager
 title: getImageFormats
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 17%
 
 # getImageFormats{#getimageformats}
 
-Renvoie les formats d’image, PDF, EPS, SWF, etc.
+Renvoie les formats d’image, tels que PDF, EPS, SWF, etc.
 
 Syntaxe
 
@@ -30,21 +30,21 @@ Syntaxe
 
 ## Paramètres {#section-eefa36a70b74498f8727ef61d98cfb63}
 
-**Entrée (getImageFormatsParam)**
+**Input (getImageFormatsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gestion de l’entreprise avec les formats d’image que vous souhaitez obtenir. |
+| companyHandle | `xsd:string` | Oui | La poignée de la société avec les formats d’image que vous souhaitez obtenir. |
 
-**Sortie (getImageFormatsParam)**
+**Output (getImageFormatsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| imageFormatArray | `types:ImageFormatArray` | Oui | Tableau du format d’image. |
+| imageFormatArray | `types:ImageFormatArray` | Oui | Tableau de formats d’image. |
 
 ## Exemples {#section-73881e12839b4904bf3299b0920bdd0c}
 
-Cet exemple de code renvoie tous les formats d’image pour la société spécifiée.
+Cet exemple de code renvoie tous les formats d’image de la société spécifiée.
 
 **Requête**
 

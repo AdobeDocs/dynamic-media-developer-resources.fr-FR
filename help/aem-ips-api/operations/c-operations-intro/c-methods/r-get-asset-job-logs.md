@@ -1,5 +1,5 @@
 ---
-description: Récupère les journaux de tâches d’une ressource. Les éléments renvoyés dans le tableau contiennent des informations détaillées sur chaque entrée du journal des tâches de cette ressource. Le champ de réponse logMessage est localisé en fonction du champ authHeader .
+description: Obtient les rapports des tâches d’une ressource. Les éléments renvoyés dans le tableau contiennent des informations détaillées sur chaque entrée dans le journal de travail de cette ressource. Le champ de réponse logMessage est localisé en fonction du champ authEn-tête.
 solution: Experience Manager
 title: getAssetJobLogs
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # getAssetJobLogs{#getassetjoblogs}
 
-Récupère les journaux de tâches d’une ressource. Les éléments renvoyés dans le tableau contiennent des informations détaillées sur chaque entrée du journal des tâches de cette ressource. Le champ de réponse logMessage est localisé en fonction du champ authHeader .
+Obtient les rapports des tâches d’une ressource. Les éléments renvoyés dans le tableau contiennent des informations détaillées sur chaque entrée dans le journal de travail de cette ressource. Le champ de réponse logMessage est localisé en fonction du champ authEn-tête.
 
 Syntaxe
 
@@ -36,10 +36,10 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gestionnaire de la société à laquelle appartient la ressource. |
-| assetHandle | `xsd:string` | Oui | Gestion de la ressource avec les journaux de tâches à récupérer. |
+| CompanyHandle | `xsd:string` | Oui | Identifiant de l’entreprise à laquelle la ressource appartient. |
+| AssetHandle | `xsd:string` | Oui | Poignée de la ressource contenant les journaux de tâche à récupérer. |
 
-**Sortie (getAssetJobLogsReturn)**
+**Output (getAssetJobLogsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -47,9 +47,9 @@ Syntaxe
 
 ## Exemples {#section-f03d7f3ec5d043d38227f926fb7609f6}
 
-Cet exemple de code récupère les journaux de tâches d’une ressource spécifique. La réponse renvoie un tableau de journal des tâches avec des informations détaillées sur toutes les tâches dans lesquelles la ressource a été utilisée.
+Cet exemple de code récupère les journaux de tâches d’une ressource spécifique. La réponse renvoie un tableau de journal de tâche avec des informations détaillées sur toutes les tâches dans lesquelles la ressource a été utilisée.
 
-**Requête**
+**Demander**
 
 ```java
 <getAssetJobLogsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

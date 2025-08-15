@@ -1,5 +1,5 @@
 ---
-description: Propriétés d’une ressource archive ZIP.
+description: Propriétés d’une ressource d’archive ZIP.
 solution: Experience Manager
 title: ZipInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # [!DNL ZipInfo]{#zipinfo}
 
-Propriétés d’une ressource archive ZIP.
+Propriétés d’une ressource d’archive ZIP.
 
 Syntaxe
 
@@ -24,4 +24,4 @@ Syntaxe
 |---|---|---|
 | originalPath | `xsd:string` | Chemin du fichier. |
 | originalFile | `xsd:string` | Nom du fichier. |
-| fileSize | `xsd:int` | Taille de fichier. |
+| fileSize | `xsd:int` | Taille du fichier. |

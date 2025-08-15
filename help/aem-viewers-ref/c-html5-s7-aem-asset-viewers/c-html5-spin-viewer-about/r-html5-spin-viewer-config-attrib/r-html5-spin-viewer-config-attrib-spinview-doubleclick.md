@@ -20,7 +20,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoomReset </span> </p> </td> 
-   <td colname="col2"> <p> Configure le mappage de double-clic/clic pour les actions de rotation. La définition de sur <span class="codeph"> none </span> désactive la rotation double-clic/appui. Si celle-ci est définie sur <span class="codeph"> zoom </span>, cliquez sur la rotation de l’image en une seule étape de rotation ; Ctrl+Clic chevauche une étape de rotation. La définition de la valeur <span class="codeph"> reset </span> entraîne un seul clic sur l’image pour réinitialiser la rotation au niveau de rotation initial. Pour <span class="codeph"> zoomReset </span>, la réinitialisation est appliquée si le facteur de rotation actuel est à ou au-delà de la limite spécifiée, sinon la rotation est appliquée. </p> </td> 
+   <td colname="col2"> <p> Configure le mappage des actions de double-clic/appui sur la rotation. La définition sur <span class="codeph"> aucun </span> désactive la rotation par double-clic/appui. Si le paramètre est défini sur <span class="codeph"> </span> de zoom, un clic sur l’image produit une rotation au cours d’une étape ; CTRL+Clic produit une rotation au cours d’une étape. Si vous définissez sur <span class="codeph"> réinitialisation </span>, un seul clic sur l’image réinitialise la rotation au niveau de rotation initial. Pour <span class="codeph"> paramètre zoomReset </span>, la réinitialisation est appliquée si le facteur de rotation actuel est égal ou supérieur à la limite spécifiée, sinon la rotation est appliquée. </p> </td> 
   </tr> 
  </tbody> 
 </table>

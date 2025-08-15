@@ -34,9 +34,9 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gestionnaire de l’entreprise dont vous souhaitez récupérer les métadonnées. |
+| CompanyHandle | `xsd:string` | Oui | Handle de l’entreprise dont vous souhaitez récupérer les métadonnées. |
 
-**Sortie (getAssetMetadataFieldsReturn)**
+**Output (getAssetMetadataFieldsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -44,7 +44,7 @@ Syntaxe
 
 ## Exemples {#section-d79ab85f29144635b0b61416e52f4f3f}
 
-**Requête**
+**Demander**
 
 ```java
 <getAssetMetadataFieldsParam xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31">
@@ -56,7 +56,7 @@ Syntaxe
 
 >[!NOTE]
 >
->Tronquée pour la concision.
+>Tronquée par souci de concision.
 
 ```java
 <getAssetMetadataFieldsReturn xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31">

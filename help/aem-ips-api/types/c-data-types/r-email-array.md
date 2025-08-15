@@ -1,7 +1,7 @@
 ---
-description: Tableau utilisé pour désigner l’expéditeur ou une liste de 5 adresses électroniques au maximum pour recevoir la notification de confirmation.
+description: Tableau utilisé pour désigner l’expéditeur ou une liste de 5 adresses e-mail maximum pour recevoir la notification de confirmation.
 solution: Experience Manager
-title: EmailArray
+title: Tableau de courrier électronique
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 599cf951-f3b2-4f39-bca4-0c18784f7d56
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # [!DNL EmailArray]{#emailarray}
 
-Tableau utilisé pour désigner l’expéditeur ou une liste de 5 adresses électroniques au maximum pour recevoir la notification de confirmation.
+Tableau utilisé pour désigner l’expéditeur ou une liste de 5 adresses e-mail maximum pour recevoir la notification de confirmation.
 
 Syntaxe
 
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| éléments | `xsd:string` | les adresses électroniques. |
+| éléments | `xsd:string` | Adresses électroniques. |

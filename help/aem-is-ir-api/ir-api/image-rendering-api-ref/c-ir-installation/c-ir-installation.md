@@ -1,6 +1,6 @@
 ---
 title: Configuration
-description: Vous devez configurer le rendu d’image avant de pouvoir l’utiliser.
+description: Vous devez configurer le rendu d’image pour pouvoir l’utiliser.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,4 +14,4 @@ ht-degree: 9%
 
 # Configuration{#configuration}
 
-Vous devez configurer le rendu d’image avant de pouvoir l’utiliser.
+Vous devez configurer le rendu d’image pour pouvoir l’utiliser.

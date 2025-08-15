@@ -1,7 +1,7 @@
 ---
-description: Tableau d’URL pour invalider le cache du réseau CDN.
+description: Tableau d’URL permettant d’invalider le cache du réseau de diffusion de contenu.
 solution: Experience Manager
-title: UrlArray
+title: Tableau d’URL
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 61225fb2-7c25-4f9c-82c9-02bf69995028
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # [!DNL UrlArray]{#urlarray}
 
-Tableau d’URL pour invalider le cache du réseau CDN.
+Tableau d’URL permettant d’invalider le cache du réseau de diffusion de contenu.
 
 **Pris en charge depuis**
 
@@ -25,16 +25,16 @@ Tableau d’URL pour invalider le cache du réseau CDN.
 <table id="table_A28FC686DFB84198BF6671F953E8F044"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> Name</b> </th> 
+   <th class="entry"> <b> Nom</b> </th> 
    <th class="entry"> <b> Type</b> </th> 
    <th class="entry"> <b> Description</b> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> <span class="varname"> éléments</span> </span> </p> </td> 
-   <td> <p> <span class="codeph"> xsd:string</span> </p> </td> 
-   <td> <p> La liste des URL à invalider. Limitée à 1 000 URL au maximum par la définition WSDL. </p> </td> 
+   <td> <p> <span class="codeph"><span class="varname"> Articles</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> xsd :chaîne</span> </p> </td> 
+   <td> <p> Liste des URL à invalider. Limité à 1 000 URL au maximum par la définition WSDL. </p> </td> 
   </tr> 
  </tbody> 
 </table>

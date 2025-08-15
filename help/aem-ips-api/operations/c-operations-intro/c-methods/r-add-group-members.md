@@ -1,5 +1,5 @@
 ---
-description: Ajoute des utilisateurs d’une société spécifique à un groupe spécifique.
+description: Ajoute des utilisateurs d’une entreprise spécifique à un groupe spécifique.
 solution: Experience Manager
 title: addGroupMembers
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # addGroupMembers{#addgroupmembers}
 
-Ajoute des utilisateurs d’une société spécifique à un groupe spécifique.
+Ajoute des utilisateurs d’une entreprise spécifique à un groupe spécifique.
 
 Syntaxe
 
@@ -26,15 +26,15 @@ Syntaxe
 
 ## Paramètres {#section-b28434dcf2ca4b4ea431136aac33913e}
 
-**Entrée (addGroupMembersParam)**
+**Input (addGroupMembersParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Oui | La poignée de la société. |
-| groupHandle | `xsd:string` | Oui | Le gestionnaire du groupe. |
-| userHandleArray | `types:HandleArray` | Oui | Tableau de gestionnaires destinés aux utilisateurs à ajouter à un groupe. |
+| groupHandle | `xsd:string` | Oui | Identifiant du groupe. |
+| userHandleArray | `types:HandleArray` | Oui | Tableau d’identifiants pour les utilisateurs que vous souhaitez ajouter à un groupe. |
 
-**Sortie (addGroupMembersParam)**
+**Output (addGroupMembersParam)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 

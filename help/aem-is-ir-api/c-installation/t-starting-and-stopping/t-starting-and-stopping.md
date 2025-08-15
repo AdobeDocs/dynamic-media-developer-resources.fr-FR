@@ -1,6 +1,6 @@
 ---
 title: Démarrage et arrêt de la diffusion d’images
-description: Cette section fournit des instructions pour le démarrage et l’arrêt du serveur d’images sous Windows et Linux®.
+description: Cette section fournit des instructions pour démarrer et arrêter la diffusion d’images sous Windows et Linux®.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Démarrage et arrêt de la diffusion d’images{#starting-and-stopping-image-serving}
 
-Cette section fournit des instructions pour le démarrage et l’arrêt du serveur d’images sous Windows et Linux®.
+Cette section fournit des instructions pour démarrer et arrêter la diffusion d’images sous Windows et Linux®.
 
 * [Démarrage ou arrêt sous Windows](t-startstop-windows.md)
 * [Démarrage ou arrêt sous Linux®](t-startstop-linux.md)

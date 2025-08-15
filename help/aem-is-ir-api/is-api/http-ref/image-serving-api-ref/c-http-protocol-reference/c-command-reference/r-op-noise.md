@@ -1,6 +1,6 @@
 ---
-title: op_bruit
-description: Ajoutez du bruit. Ajoute du bruit aléatoire aux données de l’image de premier plan ou au premier plan d’une couche d’effet.
+title: op_noise
+description: Ajoutez du bruit. Ajoute un bruit aléatoire aux données d’image de premier plan ou au premier plan d’un calque d’effets.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,38 +12,38 @@ ht-degree: 1%
 
 ---
 
-# op_bruit{#op-noise}
+# op_noise{#op-noise}
 
-Ajoutez du bruit. Ajoute du bruit aléatoire aux données de l’image de premier plan ou au premier plan d’une couche d’effet.
+Ajoutez du bruit. Ajoute un bruit aléatoire aux données d’image de premier plan ou au premier plan d’un calque d’effets.
 
-`op_noise= *`val`*[,uniform|gaussian[, *`monochrome`*]]`
+`op_noise= *``*[,uniform|gaussian[, *`Val monochrome`*]]`
 
 <table id="table_40675464E5824D52BF392ECCE2DDC03C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> val</span> </p> </td> 
-   <td colname="col2"> <p>Quantité de bruit en pourcentage (0...100 int). </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> Val</span> </p> </td> 
+   <td colname="col2"> <p>Quantité de bruit en pourcentage (0... 100 int). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> uniforme</span> </p> </td> 
-   <td colname="col2"> <p>Sélectionnez Répartition uniforme du bruit. </p> </td> 
+   <td colname="col2"> <p>Sélectionnez une répartition uniforme du bruit. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> gaussian</span> </p> </td> 
-   <td colname="col2"> <p>Sélectionnez la répartition du bruit en gausse. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> gaussien</span> </p> </td> 
+   <td colname="col2"> <p>Sélectionnez la répartition gaussienne du bruit. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="varname"> monochrome</span> </p> </td> 
-   <td colname="col2"> <p>Définissez cette valeur sur 0 pour le bruit de couleur, 1 pour le bruit gris. </p> </td> 
+   <td colname="col2"> <p>Défini sur 0 pour le bruit de couleur et sur 1 pour le bruit gris. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*`monochrome`* est ignoré pour les images en niveaux de gris.
+*`monochrome`* est ignorée pour les images en niveaux de gris.
 
 ## Propriétés {#section-1f1a64c791f545a3bf1abd0b0e575d87}
 
-Couche, commande. S’applique au calque actif ou à l’image composite si `layer=comp`.
+Calque, commande S’applique au calque actif ou à l’image composite si `layer=comp`.
 
 ## Par défaut {#section-d548868fa4b64a60bcb481cad1f8113e}
 

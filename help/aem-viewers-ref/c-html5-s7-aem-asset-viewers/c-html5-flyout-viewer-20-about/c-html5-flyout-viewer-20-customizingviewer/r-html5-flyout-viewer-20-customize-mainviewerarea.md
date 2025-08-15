@@ -1,6 +1,6 @@
 ---
 title: Zone de visionneuse principale
-description: La zone de vue principale est la zone occupée par la vue sur la fenêtre déroulante et les échantillons.
+description: La zone d’affichage principale est la zone occupée par la vue déroulante et les nuanciers.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 1%
 
 # Zone de visionneuse principale{#main-viewer-area}
 
-La zone de vue principale est la zone occupée par la vue sur la fenêtre déroulante et les échantillons.
+La zone d’affichage principale est la zone occupée par la vue déroulante et les nuanciers.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **Propriétés CSS de la zone de visionneuse principale**
 
-L’aspect de la zone d’affichage est contrôlé à l’aide du sélecteur de classe CSS suivant :
+L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe CSS suivant :
 
 ```
 .s7flyoutviewer
@@ -29,27 +29,27 @@ L’aspect de la zone d’affichage est contrôlé à l’aide du sélecteur de 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> propriété CSS </p> </th> 
+   <th colname="col1" class="entry"> <p> Propriété CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
    <td colname="col2"> <p>Largeur de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> de hauteur </span> </p> </td> 
    <td colname="col2"> <p>Hauteur de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> Couleur d’arrière-plan au format hexadécimal. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> des </span> de couleur d’arrière-plan </p> </td> 
+   <td colname="col2"> <p> Couleur d’arrière-plan au format hexadécimal </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : pour configurer une visionneuse déroulante avec un arrière-plan blanc ( `#FFFFFF`) et faire sa taille de 260 x 500 pixels.
+Exemple : pour configurer une visionneuse déroulante avec un arrière-plan blanc ( `#FFFFFF`) et faire en sorte que sa taille soit de 260 x 500 pixels.
 
 ```
 .s7flyoutviewer { 

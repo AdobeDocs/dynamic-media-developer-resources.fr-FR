@@ -1,5 +1,5 @@
 ---
-description: Informations de progression de l’élément de tâche.
+description: Informations sur l’état d’avancement de la tâche.
 solution: Experience Manager
 title: TaskItemProgress
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # [!DNL TaskItemProgress]{#taskitemprogress}
 
-Informations de progression de l’élément de tâche.
+Informations sur l’état d’avancement de la tâche.
 
 Syntaxe
 
@@ -22,7 +22,7 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| itemName | `xsd:string` | Nom de l’élément traité. |
-| progress | `xsd:double` | Progression %. |
-| progressMessage | `xsd:string` | Message du processus. |
-| lastProgressUpdate | `xsd:dateTime` | Heure de la dernière mise à jour. |
+| Nom de l’élément | `xsd:string` | Nom de l’élément en cours de traitement. |
+| progress | `xsd:double` | Progression terminée %. |
+| Message de progression | `xsd:string` | Message de processus. |
+| Dernière mise à jour des progrès | `xsd:dateTime` | Heure de la dernière mise à jour. |

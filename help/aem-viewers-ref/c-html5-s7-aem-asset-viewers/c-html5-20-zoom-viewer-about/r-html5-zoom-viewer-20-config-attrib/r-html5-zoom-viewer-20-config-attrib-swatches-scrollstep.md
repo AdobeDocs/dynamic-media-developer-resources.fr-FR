@@ -24,12 +24,12 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> vStep</span> </span> </p> </td> 
-   <td> <p>Etape verticale. </p> </td> 
+   <td> <p>Pas vertical. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Indique le nombre d’échantillons à faire défiler pour chaque clic ou clic du bouton de défilement correspondant.
+Indique le nombre d’échantillons à faire défiler pour chaque clic ou appui sur le bouton de défilement correspondant.
 
 ## Propriétés {#section-1e637b22e8a44d759d588e47576891e6}
 

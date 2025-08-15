@@ -1,7 +1,7 @@
 ---
-description: Publie les fichiers sur les serveurs de rendu d’image.
+description: Publie les fichiers sur les serveurs de rendu d’images.
 solution: Experience Manager
-title: ImageRenderingPublishJob
+title: Tâche de publication de rendu d’image
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 09d97e1f-8266-44b3-a50d-6088489712a5
@@ -14,7 +14,7 @@ ht-degree: 13%
 
 # [!DNL ImageRenderingPublishJob]{#imagerenderingpublishjob}
 
-Publie les fichiers sur les serveurs de rendu d’image.
+Publie les fichiers sur les serveurs de rendu d’images.
 
 Syntaxe
 
@@ -22,6 +22,6 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| emailSetting | `xsd:string` | Choix des paramètres de courrier électronique. |
-| httpCompletionUrl | `xsd:string` | URL d’envoi d’un avis de fin d’exécution. |
-| contextHandle | `xsd:string` | Gérer au contexte de publication. |
+| Définition du courriel | `xsd:string` | Choix des paramètres d’email. |
+| httpCompletionUrl | `xsd:string` | URL pour envoyer un avis de fin de tâche. |
+| Poignée de contexte | `xsd:string` | Gérez selon le contexte de publication. |

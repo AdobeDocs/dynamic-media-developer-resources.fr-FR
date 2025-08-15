@@ -14,17 +14,17 @@ ht-degree: 6%
 
 # FlyoutZoomView.frametransition{#flyoutzoomview-frametransition}
 
-` [FlyoutZoomView.|<containerId>_flyout.]frametransition=none|fade[, *`duration`*]`
+` [FlyoutZoomView.|<containerId>_flyout.]frametransition=none|fade[, *`durée`*]`
 
 <table id="table_FC34B37AACFB4E92A37E1D2D93D5F0D2"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> none|fade</span> </p> </td> 
-   <td colname="col2"> <p> Indique le type d’effet appliqué à la vue principale lors du changement de ressource. <span class="codeph"> none</span> signifie aucune transition, le changement d’affichage principal se produit instantanément. Le <span class="codeph"> fondu</span> active une transition de fondu croisé lorsque l’ancienne image s’estompe et que la nouvelle image disparaît. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Aucun|fondu</span> </p> </td> 
+   <td colname="col2"> <p> Spécifie le type d’effet appliqué à la vue principale lors de la modification d’actif. Le <span class="codeph"> none</span> signifie pas de transition, le changement de vue principale se produit instantanément. Le <span class="codeph"> fondu</span> active la transition en fondu enchaîné où l’ancienne image s’estompe et la nouvelle image apparaît en fondu au sort </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> duration</span></span> </p> </td> 
-   <td colname="col2"> <p> Nombre de secondes nécessaires à la réalisation de l’animation. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> durée</span></span> </p> </td> 
+   <td colname="col2"> <p> Durée de l’animation en secondes. </p> </td> 
   </tr> 
  </tbody> 
 </table>

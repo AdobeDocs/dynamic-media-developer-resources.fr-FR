@@ -16,20 +16,20 @@ ht-degree: 2%
 
 Paramètre commun à toutes les visionneuses.
 
-` serverUrl= *`isRootPath`*`
+` serverUrl= *`Chemin isRootPath`*`
 
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>Chemin racine relatif ou absolu de la diffusion d’images. </p> <p> Indique un chemin relatif ou absolu vers le serveur d’images, à partir duquel la visionneuse récupère les images. Si le chemin d’accès ne comporte pas de <span class="filepath"> /</span> de début, il est relatif à l’emplacement de la page d’HTML de la visionneuse. Si le chemin comporte un <span class="filepath"> /</span> de début, il spécifie un chemin absolu sur le même serveur. </p> <p> Utilisez uniquement un chemin absolu si le module de partage de courrier électronique est activé dans la visionneuse. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> Chemin isRootPath</span> </span> </p> </td> 
+   <td colname="col2"> <p>Chemin d’accès racine relatif ou absolu au serveur d’images. </p> <p> Spécifie un chemin relatif ou absolu vers le serveur d’images, à partir duquel la visionneuse récupère les images. Si le chemin n’a pas de /<span class="filepath"></span>, il est relatif à l’emplacement de la page HTML de la visionneuse. Si le chemin a un /<span class="filepath"></span>, il spécifie un chemin absolu sur le même serveur. </p> <p> Utilisez uniquement un chemin absolu dans le cas où le module de partage de courrier électronique est activé dans la visionneuse. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Propriétés {#section-10ee45d637134e0fbcd943c62578cb78}
 
-Facultatif. Inutile pour l’utilisation standard de SaaS (logiciel en tant que service).
+Optionnel. Non nécessaire pour une utilisation SaaS (logiciel en tant que service) standard.
 
 ## Par défaut {#section-d411e450028c460392cb8508f8ccc5d9}
 

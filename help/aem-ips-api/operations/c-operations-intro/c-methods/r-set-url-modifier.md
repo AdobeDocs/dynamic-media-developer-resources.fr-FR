@@ -16,7 +16,7 @@ ht-degree: 6%
 
 Définit les commandes du protocole Image Serving ou Image Rendering pour la ressource spécifiée. Ces commandes modifient la représentation de la ressource sans la détruire.
 
-Pour le service d’images, les commandes du paramètre `urlModifier` sont publiées dans le champ Catalogue des modificateurs et appliquées avant toute commande spécifiée dans l’URL de la requête. Les commandes de `urlPostApplyModifier` sont publiées dans le champ de catalogue `PostModifier` et remplacent toutes les commandes de l’URL de demande ou dans `urlModifier`. Pour le rendu d’image, les commandes de `urlModifier` et `urlPostApplyModifier` sont concaténées et publiées dans le champ du catalogue des modificateurs .
+Pour Image Server, les commandes du `urlModifier` paramètre sont publiées dans le champ Modificateur catalog et appliquées avant toute commande spécifiée dans l’URL de requête. Les commandes de `urlPostApplyModifier` sont publiées dans le champ de `PostModifier` catalogue et remplacent toutes les commandes de l’URL de requête ou dans `urlModifier`. Pour Image Rendering, les commandes dans `urlModifier` et `urlPostApplyModifier` sont concaténées et publiées dans le champ Modificateur catalogue.
 
 ## Types d’utilisateurs autorisés {#section-fefcd732ccf64c78956606538f96c73d}
 
@@ -29,22 +29,22 @@ Pour le service d’images, les commandes du paramètre `urlModifier` sont publi
 
 ## Paramètres {#section-3304fe49bbe24ea1a886e19aaf41fb7d}
 
-**Input (setUrlModifierParam)**
+**Entrée (setUrlModifierParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Poignée de la société. |
-| assetHandle | `xsd:string` | Oui | Poignée de ressource. |
-| urlModifier | `xsd:string` | Non | Commandes de protocole de diffusion d’images ou de rendu d’images à appliquer avant les commandes de requête ou de `urlPostApplyModifier`. |
-| urlPostApplyModifier | `xsd:string` | Non | Commandes du protocole de diffusion d’images ou de rendu d’images à appliquer après les commandes `urlModifier` et de requête. |
+| CompanyHandle | `xsd:string` | Oui | Pseudo de l’entreprise. |
+| AssetHandle | `xsd:string` | Oui | Gestion des ressources. |
+| Modificateur d’url | `xsd:string` | Non | Commandes du protocole Image Serving ou Image Rendering à appliquer avant la ou `urlPostApplyModifier` les commandes. |
+| urlPostApplyModifier | `xsd:string` | Non | Commandes du protocole Image Serving ou Image Rendering à appliquer après `urlModifier` et à requérir. |
 
-**Sortie (setUrlModifierReturn)**
+**Output (setUrlModifierReturn)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-801d4b9b986443f59a5783a3d6bf44aa}
 
-**Requête**
+**Demander**
 
 ```java
 <setUrlModifierParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

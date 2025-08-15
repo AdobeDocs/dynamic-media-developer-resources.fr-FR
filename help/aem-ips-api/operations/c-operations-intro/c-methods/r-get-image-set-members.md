@@ -1,5 +1,5 @@
 ---
-description: Obtient un tableau des membres d’une visionneuse d’images.
+description: Obtient un tableau des membres qui se trouvent dans une visionneuse d’images.
 solution: Experience Manager
 title: getImageSetMembers
 feature: Dynamic Media Classic,SDK/API,Image Sets
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # getImageSetMembers{#getimagesetmembers}
 
-Obtient un tableau des membres d’une visionneuse d’images.
+Obtient un tableau des membres qui se trouvent dans une visionneuse d’images.
 
 Syntaxe
 
@@ -31,18 +31,18 @@ Syntaxe
 
 >[!NOTE]
 >
->Nécessite un accès en lecture à l’image et à la ressource du jeu de membres.
+>Nécessite un accès en lecture à l’image et à la ressource de jeu de membres.
 
 ## Paramètres {#section-a67ba98095574533980997c83ceaa316}
 
-**Entrée (getImageSetMembersParam)**
+**Input (getImageSetMembersParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gestionnaire de la société qui contient la visionneuse d’images. |
-| assetHandle | `xsd:string` | Oui | Gestionnaire de ressources de la visionneuse d’images. |
+| companyHandle | `xsd:string` | Oui | La poignée de la société qui contient la visionneuse d’images. |
+| assetHandle | `xsd:string` | Oui | Gestionnaire de ressources de visionneuse d’images. |
 
-**Sortie (getImageSetMembersReturn)**
+**Output (getImageSetMembersReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|

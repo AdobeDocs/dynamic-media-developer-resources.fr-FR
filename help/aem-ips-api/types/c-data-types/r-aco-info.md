@@ -24,4 +24,4 @@ Syntaxe
 |---|---|---|
 | originalPath | `xsd:string` | Chemin du fichier ACO. |
 | originalFile | `xsd:string` | Nom du fichier ACO. |
-| fileSize | `xsd:int` | Taille de fichier ACO. |
+| fileSize | `xsd:int` | Taille du fichier ACO. |

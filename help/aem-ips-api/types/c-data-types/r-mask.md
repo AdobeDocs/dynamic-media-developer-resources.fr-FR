@@ -1,5 +1,5 @@
 ---
-description: Masque une partie d’une image. Le masque est toujours associé à l’image. Obtenez un masque à partir d’ImageInfo.
+description: Masque une partie d’une image. Le masque est toujours associé à l’image. Obtenez un masque à partir de ImageInfo.
 solution: Experience Manager
 title: Masque
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # [!DNL Mask]{#mask}
 
-Masque une partie d’une image. Le masque est toujours associé à l’image. Obtenez un masque à partir d’ImageInfo.
+Masque une partie d’une image. Le masque est toujours associé à l’image. Obtenez un masque à partir de ImageInfo.
 
 Syntaxe
 
@@ -22,8 +22,8 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| maskHandle | `xsd:string` | Poignée de masque. |
+| maskHandle | `xsd:string` | Masquer la poignée. |
 | nom | `xsd:string` | Nom du masque. |
-| maskPath | `xsd:string` | Chemin d’accès relatif au masque. |
-| maskFile | `xsd:string` | Masquer le fichier. |
+| maskPath | `xsd:string` | Chemin relatif vers le masque. |
+| maskFile | `xsd:string` | Masquez le fichier . |
 | lastModified | `types:dateTime` | Date, heure et fuseau horaire de la dernière modification du masque. |

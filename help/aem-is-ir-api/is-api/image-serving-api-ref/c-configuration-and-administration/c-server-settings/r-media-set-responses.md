@@ -1,6 +1,6 @@
 ---
-title: Réponses de visionneuse de médias
-description: Les paramètres de cette section s’appliquent aux réponses de visionneuse de médias obtenues par le modificateur req=set .
+title: Réponses des visionneuses de médias
+description: Les paramètres de cette section s’appliquent aux réponses de la visionneuse de médias obtenues par le modificateur req=set.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
@@ -12,18 +12,18 @@ ht-degree: 0%
 
 ---
 
-# Réponses de visionneuse de médias{#media-set-responses}
+# Réponses des visionneuses de médias{#media-set-responses}
 
-Les paramètres de cette section s’appliquent aux réponses de visionneuse de médias obtenues par le modificateur `req=set`.
+Les paramètres de cette section s’appliquent aux réponses de la visionneuse de médias obtenues par le `req=set` modificateur.
 
-## PS::fvctx.useCatalogRecordValidation - Stratégie de mise en cache {#section-9accb087d16548a988993bb30395a6f6}
+## PS ::fvctx.useCatalogRecordValidation - Stratégie de mise en cache {#section-9accb087d16548a988993bb30395a6f6}
 
-Cette propriété contrôle la stratégie de mise en cache lorsque vous déterminez si une réponse définie récupérée à partir d’un cache doit être régénérée. Si la propriété est désactivée, l’horodatage du fichier [!DNL catalog.ini] est utilisé pour la validation. Si la propriété est activée, le dernier horodatage `catalog::LastModified` de tous les enregistrements référencés est utilisé pour la validation.
+Cette propriété contrôle la stratégie de mise en cache lorsqu’elle détermine si une réponse définie récupérée à partir d’un cache doit être régénérée. Si la propriété est désactivée, l’horodatage du fichier est utilisé pour la [!DNL catalog.ini] validation. Si la propriété est activée, le dernier `catalog::LastModified` horodatage de tous les enregistrements référencés est utilisé pour la validation.
 
-## PS::fvctx.nestingLimit - Limite d’imbrication {#section-280210341f1647fea02590e7069934d2}
+## PS ::fvctx.nestingLimit - Limite d’imbrication {#section-280210341f1647fea02590e7069934d2}
 
-Profondeur d’imbrication maximale de toute réponse `req=set`. Si cette profondeur est dépassée, une erreur est renvoyée.
+Profondeur maximale d’imbrication de n’importe quelle `req=set` réponse. Si cette profondeur est dépassée, une erreur est renvoyée.
 
-## PS::fvctx.brochureLimit - Limite de navigation {#section-fe36e47db49244cea7f07e9dd3639440}
+## PS ::fvctx.brochureLimit - Limite brochure {#section-fe36e47db49244cea7f07e9dd3639440}
 
-Nombre maximum de brochures de catalogue électronique dans la réponse `req=set` qui contient toutes les métadonnées associées. Une fois cette limite dépassée, toutes les cartes privées et les données utilisateur associées à l’élément de brochure sont supprimées.
+Nombre maximal de brochures de catalogue électronique dans la `req=set` réponse qui contient toutes les métadonnées associées. Une fois cette limite dépassée, toutes les cartes privées et les données utilisateur associées à l’élément de brochure sont supprimées.

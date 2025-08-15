@@ -1,5 +1,5 @@
 ---
-description: Type de requête. Indique le type de requête.
+description: Type de requête. Spécifie le type de demande.
 solution: Experience Manager
 title: req
 feature: Dynamic Media Classic,SDK/API
@@ -14,18 +14,18 @@ ht-degree: 7%
 
 # req{#req}
 
-Type de requête. Indique le type de requête.
+Type de requête. Spécifie le type de demande.
 
-`req={catalogprops|exists|imageprops|imageset|img|loadcache|map|mask|mbrSet|message|props|resolve|saveToFile|set|targets|tmb|userdata|validate|xlate|xmp}[, *`options`*]`
+`req={catalogprops|exists|imageprops|imageset|img|loadcache|map|mask|mbrSet|message|props|resolve|saveToFile|set|targets|tmb|userdata|validate|xlate|xmp}[, *`options `*]`
 
 * [catalogprops](r-catalogprops.md)
 * [existe](r-exists.md)
 * [imageprops](r-imageprops.md)
-* [imageset](r-imageset-req.md)
+* [visionneuse d’images](r-imageset-req.md)
 * [img](r-img.md)
 * [loadcache](r-loadcache.md)
 * [carte](r-map-req.md)
-* [mask](r-mask-req.md)
+* [masque](r-mask-req.md)
 * [mbrSet](r-mbrset.md)
 * [message](r-message.md)
 * [props](r-props.md)
@@ -33,14 +33,14 @@ Type de requête. Indique le type de requête.
 * [saveToFile](r-savetofile.md)
 * [définir](r-set.md)
 * [cibles](r-targets.md)
-* [tmb](r-tmb.md)
+* [œillet](r-tmb.md)
 * [userdata](r-userdata.md)
 * [valider](r-is-http-validate.md)
-* [xlate](r-xlate.md)
+* [ardoise](r-xlate.md)
 * [xmp](r-xmp.md)
 
-Sauf indication contraire dans les descriptions détaillées, le serveur renvoie des réponses `text` avec le type MIME `text/plain`. De nombreux types de requête vous permettent de spécifier un type de réponse, tel que `text` qui est généralement le type par défaut, `javascript`, `xml` ou `json`. Les types MIME de réponse associés sont `text/plain`, `text/javascript`, `text/xml` et `text/javascript`, respectivement.
+Sauf indication contraire dans les descriptions détaillées, le serveur renvoie des réponses `text` avec le type MIME `text/plain`. De nombreux types de requête vous permettent de spécifier un type de réponse, tel que `text` qui est généralement la valeur par défaut, `javascript`, `xml` ou `json`. Les types MIME de réponse associés sont `text/plain`, `text/javascript`, `text/xml` et `text/javascript`, respectivement.
 
-Sauf indication contraire, les réponses formatent la réponse sous la forme d’un ensemble de paires `name=value`.
+Sauf indication contraire, les réponses mettent en forme la réponse sous la forme d’un ensemble de paires de `name=value`.
 
 Voir [Propriétés](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9).

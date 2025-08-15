@@ -1,5 +1,5 @@
 ---
-description: Tableau d’erreurs de mise à jour de valeur de balise.
+description: Tableau des défauts de mise à jour de la valeur de balise.
 solution: Experience Manager
 title: TagValueUpdateFaultArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # [!DNL TagValueUpdateFaultArray]{#tagvalueupdatefaultarray}
 
-Tableau d’erreurs de mise à jour de valeur de balise.
+Tableau des défauts de mise à jour de la valeur de balise.
 
 Syntaxe
 
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| éléments | `types:TagValueUpdateFault` | Tableau des erreurs de mise à jour de valeur de balise (messages d’erreur). |
+| éléments | `types:TagValueUpdateFault` | Tableau des erreurs de mise à jour de la valeur de balise (messages d’erreur). |

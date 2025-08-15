@@ -1,6 +1,6 @@
 ---
 title: Video360Player.initialbitrate
-description: Attribut de configuration de la visionneuse Video360.
+description: Attribut de configuration pour la visionneuse Video360.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 2%
 
 # Video360Player.initialbitrate{#video-player-initialbitrate}
 
-Attribut de configuration de la visionneuse Video360.
+Attribut de configuration pour la visionneuse Video360.
 
 ` [Video360Player.|<containerId>_video360Player.]initialbitrate= *`value`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> value</span> </p> </td> 
-   <td colname="col2"> <p> Définit le débit vidéo (en kilobits par seconde ou en kbit/s) utilisé pour la lecture initiale de la vidéo sur un poste de travail. </p> <p>Si cette valeur de débit binaire n’existe pas dans la visionneuse de vidéos adaptative, le lecteur vidéo commence par la vidéo dont le débit binaire inférieur suivant. </p> <p>Si elle est définie sur <span class="codeph"> 0</span>, le lecteur vidéo commence à partir du débit le plus faible possible. </p> <p>Applicable uniquement aux systèmes qui ne prennent pas en charge la vidéo HLS HTML5 (navigateurs Firefox, Chrome et Internet Explorer 11 sous Windows 10, par exemple) et lorsque le mode de lecture est défini sur auto. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> valeur </span> </p> </td> 
+   <td colname="col2"> <p> Définit le débit vidéo (en kilobits par seconde ou kbit/s) utilisé pour la lecture initiale d’une vidéo sur un bureau. </p> <p>Si cette valeur de débit n’existe pas dans la visionneuse de vidéos adaptative, le lecteur vidéo commence par la vidéo qui a le débit le plus faible suivant. </p> <p>S’il est défini sur <span class="codeph"> 0</span>, le lecteur vidéo démarre à partir du débit le plus faible possible. </p> <p>Applicable uniquement aux systèmes qui ne prennent pas en charge nativement la vidéo HTML5 HLS (tels que les navigateurs Firefox, Chrome et Internet Explorer 11 sur Windows 10) et lorsque le mode de lecture est défini sur auto. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,5 +1,5 @@
 ---
-description: Tableau de membres de visionneuse d’images.
+description: Tableau de membres de la visionneuse d’images.
 solution: Experience Manager
 title: ImageSetMemberArray
 feature: Dynamic Media Classic,SDK/API,Image Sets
@@ -14,7 +14,7 @@ ht-degree: 24%
 
 # [!DNL ImageSetMemberArray]{#imagesetmemberarray}
 
-Tableau de membres de visionneuse d’images.
+Tableau de membres de la visionneuse d’images.
 
 Syntaxe
 

@@ -1,5 +1,5 @@
 ---
-title: Référence de commande - URL
+title: Référence de la commande – URL
 description: Documentation de référence des commandes pour la visionneuse de carrousel.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
@@ -12,6 +12,6 @@ ht-degree: 0%
 
 ---
 
-# Référence de commande - URL{#command-reference-url}
+# Référence de la commande – URL{#command-reference-url}
 
 Documentation de référence des commandes pour la visionneuse de carrousel.

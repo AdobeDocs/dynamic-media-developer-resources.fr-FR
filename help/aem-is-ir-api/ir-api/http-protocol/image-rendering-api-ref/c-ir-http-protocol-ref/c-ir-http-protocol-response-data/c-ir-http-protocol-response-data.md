@@ -1,6 +1,6 @@
 ---
 title: Données de réponse du protocole HTTP
-description: Le rendu d’image génère des en-têtes de réponse HTTP/1.1.
+description: Image Rendering génère des en-têtes de réponse HTTP/1.1.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # Données de réponse du protocole HTTP{#http-protocol-response-data}
 
-Le rendu d’image génère des en-têtes de réponse HTTP/1.1.
+Image Rendering génère des en-têtes de réponse HTTP/1.1.

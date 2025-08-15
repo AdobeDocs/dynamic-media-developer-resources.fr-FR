@@ -1,6 +1,6 @@
 ---
 title: HttpAppleStreamingContext
-description: Préfixe d’URL de serveur de diffusion en continu Apple. Préfixe d’URL du serveur de diffusion en continu Apple utilisé lors de la génération de réponses m3u8 à débit multiple avec req=mbrSet.
+description: Préfixe de l’URL du serveur de streaming Apple. Préfixe d’URL du serveur de streaming Apple utilisé lors de la génération de réponses m3u8 à débit multiple avec req=mbrSet.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 7%
 
 # HttpAppleStreamingContext{#httpapplestreamingcontext}
 
-Préfixe d’URL de serveur de diffusion en continu Apple. Préfixe d’URL du serveur de diffusion en continu Apple utilisé lors de la génération de réponses m3u8 à débit multiple avec `req=mbrSet`.
+Préfixe de l’URL du serveur de streaming Apple. Préfixe d’URL du serveur de streaming Apple utilisé lors de la génération de réponses m3u8 à débit multiple avec `req=mbrSet`.
 
 ## Propriétés {#properties}
 
-Chaîne représentant le préfixe d’URL. Par exemple, `http://my.server.com/apple/streaming`.
+Chaîne représentant le préfixe de l’URL. Par exemple, `http://my.server.com/apple/streaming`.
 
 ## Par défaut {#section-bdd70081d50844c295f0de0154c1d738}
 

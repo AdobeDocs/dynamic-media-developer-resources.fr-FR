@@ -1,5 +1,5 @@
 ---
-description: Propriétés d’une ressource de fichier de SWF de visionneuse.
+description: Propriétés d’une ressource de fichier SWF de visionneuse.
 solution: Experience Manager
 title: ViewerSwfInfo
 feature: Dynamic Media Classic,SDK/API,Viewers
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # [!DNL ViewerSwfInfo]{#viewerswfinfo}
 
-Propriétés d’une ressource de fichier de SWF de visionneuse.
+Propriétés d’une ressource de fichier SWF de visionneuse.
 
 Syntaxe
 
@@ -22,6 +22,6 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| originalPath | `xsd:string` | Chemin d’accès relatif au fichier du SWF de visionneuse initialement chargé. |
-| originalFile | `xsd:string` | Nom de fichier du fichier du SWF de la visionneuse d’origine. |
-| fileSize | `xsd:int` | Taille de fichier. |
+| originalPath | `xsd:string` | Chemin d’accès relatif au fichier SWF de visionneuse chargé à l’origine. |
+| originalFile | `xsd:string` | Nom du fichier SWF de la visionneuse d’origine. |
+| fileSize | `xsd:int` | Taille du fichier. |

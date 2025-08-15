@@ -1,7 +1,7 @@
 ---
 description: La diffusion d’images comprend trois utilitaires.
 solution: Experience Manager
-title: Emplacement des utilitaires
+title: Emplacement des services publics
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 014a17b9-f12e-4179-8b44-4b0090769743
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# Emplacement des utilitaires{#location-of-utilities}
+# Emplacement des services publics{#location-of-utilities}
 
 La diffusion d’images comprend trois utilitaires.
 

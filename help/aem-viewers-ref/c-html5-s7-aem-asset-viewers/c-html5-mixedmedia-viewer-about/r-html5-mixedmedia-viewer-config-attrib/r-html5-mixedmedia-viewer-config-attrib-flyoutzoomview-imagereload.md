@@ -1,6 +1,6 @@
 ---
 title: FlyoutZoomView.imagereload
-description: Configure la manière dont le composant récupère de nouvelles images pour la vue principale et la fenêtre déroulante lors du redimensionnement.
+description: Configure la façon dont le composant récupère les nouvelles images pour la vue principale et la vue déroulante lors du redimensionnement.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -14,19 +14,19 @@ ht-degree: 2%
 
 # FlyoutZoomView.imagereload{#flyoutzoomview-imagereload}
 
-Configure la manière dont le composant récupère de nouvelles images pour la vue principale et la fenêtre déroulante lors du redimensionnement.
+Configure la façon dont le composant récupère les nouvelles images pour la vue principale et la vue déroulante lors du redimensionnement.
 
-` [FlyoutZoomView.|<containerId>_flyout.]imagereload=0|1[,breakpoint, *`width`*[; *`width`*]]`
+` [FlyoutZoomView.|<containerId>_flyout.]imagereload=0|1[,breakpoint, *``*[; *`width width`*]]`
 
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p>Lorsqu’il est défini sur <span class="codeph"> 0 </span>, le composant ne charge pas de nouvelles images lors du redimensionnement, et la résolution de l’image dans la vue déroulante ne change pas. </p> <p>Lorsque la valeur est définie sur <span class="codeph"> 1 </span>, vous pouvez spécifier un ou plusieurs points d’arrêt de largeur pour l’image chargée dans la vue principale. </p> </td> 
+   <td colname="col2"> <p>Lorsqu’il est défini sur <span class="codeph"> 0 </span>, le composant ne charge pas les nouvelles images lors du redimensionnement et la résolution de l’image dans la vue déroulante ne change pas. </p> <p>Lorsque la valeur est définie sur <span class="codeph"> 1 </span> , vous pouvez spécifier un ou plusieurs points d’arrêt de largeur pour l’image chargée dans la vue principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> point d’arrêt, <span class="varname"> largeur </span>[; <span class="varname"> largeur </span>] </span> </p> </td> 
-   <td colname="col2"> <p>Points d’arrêt de largeur pour l’image chargée dans la vue principale. Le composant utilise toujours la meilleure taille d’ajustement pour la charge initiale. Une fois redimensionné, l’image dans la vue principale est toujours téléchargée avec la largeur égale au point d’arrêt le plus proche et réduite sur le client. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">point d’arrêt, <span class="varname"> width </span>[ ; width ]<span class="varname"></span></span> </p> </td> 
+   <td colname="col2"> <p>Points d’arrêt de largeur pour l’image chargée dans la vue principale. Le composant utilise toujours la meilleure taille d’ajustement pour la charge initiale. Après le redimensionnement, il garantit que l’image dans la vue principale est toujours téléchargée avec la largeur égale au point d’arrêt le plus proche et réduite sur le client. </p> </td> 
   </tr> 
  </tbody> 
 </table>

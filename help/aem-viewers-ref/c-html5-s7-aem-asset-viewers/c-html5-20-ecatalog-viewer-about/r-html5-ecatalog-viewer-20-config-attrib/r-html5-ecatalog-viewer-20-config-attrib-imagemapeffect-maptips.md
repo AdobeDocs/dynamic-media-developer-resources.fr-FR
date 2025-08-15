@@ -20,7 +20,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Indique si les info-bulles sont activées pour des éléments de zone de carte individuels. </p> <p> Ignoré sur les périphériques tactiles, y compris les systèmes de bureau tactiles. </p> </td> 
+   <td colname="col2"> <p> Indique si les info-bulles sont activées pour les éléments de zone de carte individuels. </p> <p> Ignoré sur les appareils tactiles, y compris les ordinateurs de bureau tactiles. </p> </td> 
   </tr> 
  </tbody> 
 </table>

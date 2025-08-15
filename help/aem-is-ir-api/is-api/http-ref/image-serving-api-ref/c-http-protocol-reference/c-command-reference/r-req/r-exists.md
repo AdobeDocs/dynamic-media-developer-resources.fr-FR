@@ -1,5 +1,5 @@
 ---
-description: L'image existe.
+description: L’image existe.
 solution: Experience Manager
 title: existe
 feature: Dynamic Media Classic,SDK/API
@@ -14,17 +14,17 @@ ht-degree: 1%
 
 # existe{#exists}
 
-L&#39;image existe.
+L’image existe.
 
 `req=exists[,text|javascript|xml|{json[&id= *`reqId`*]}]`
 
-*`reqId`* identifiant de requête unique
+Identifiant de requête unique *`reqId`*
 
-Renvoie une propriété unique nommée `catalogRecord.exists`. La valeur de la propriété est définie sur &quot;1&quot; si l’entrée de catalogue spécifiée existe dans l’image ou le catalogue par défaut, sinon elle est définie sur &quot;0&quot;. Les requêtes `req=exists` en fonction du contexte `/is/content` indiquent la présence ou l’absence d’un enregistrement spécifié dans le catalogue de contenu statique.
+Renvoie une seule propriété nommée `catalogRecord.exists`. La valeur de la propriété est définie sur « 1 » si l’entrée de catalogue spécifiée existe dans l’image ou le catalogue par défaut, sinon elle est définie sur « 0 ». `req=exists` requêtes effectuées dans le contexte `/is/content` indiquent la présence ou l’absence d’un enregistrement spécifié dans le catalogue de contenu statique.
 
-Les autres commandes de la chaîne de requête sont ignorées. La réponse HTTP peut être mise en cache avec le TTL basé sur `attribute::NonImgExpiration`.
+Les autres commandes de la chaîne de requête sont ignorées. La réponse HTTP peut être mise en cache avec la TTL basée sur `attribute::NonImgExpiration`.
 
-Les requêtes qui prennent en charge le format de réponse JSONP vous permettent de spécifier le nom du gestionnaire de rappel JS à l’aide de la syntaxe étendue du paramètre `req=` :
+Les requêtes qui prennent en charge le format de réponse JSONP vous permettent de spécifier le nom du gestionnaire de rappel JS à l’aide de la syntaxe étendue `req=` paramètre :
 
 `req=...,json [&handler = reqHandler ]`
 

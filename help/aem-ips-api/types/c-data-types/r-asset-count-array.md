@@ -1,6 +1,6 @@
 ---
 title: AssetCountArray
-description: Tableau de comptes de ressources.
+description: Tableau de nombres de ressources.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL AssetCountArray]{#assetcountarray}
 
-Tableau de comptes de ressources.
+Tableau de nombres de ressources.
 
 Syntaxe
 
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| éléments | `types:AssetCount` | Tableau du nombre de ressources. |
+| éléments | `types:AssetCount` | Tableau des nombres de ressources. |

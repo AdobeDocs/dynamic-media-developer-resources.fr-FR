@@ -1,7 +1,7 @@
 ---
-description: Supprime le champ de métadonnées d’une entreprise.
+description: Supprime le champ de métadonnées d’une société.
 solution: Experience Manager
-title: deleteMetadataField
+title: Supprimer le champ de métadonnées
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1922fc1b-2abc-4d31-985a-65c788af4d46
@@ -12,9 +12,9 @@ ht-degree: 9%
 
 ---
 
-# deleteMetadataField{#deletemetadatafield}
+# Supprimer le champ de métadonnées{#deletemetadatafield}
 
-Supprime le champ de métadonnées d’une entreprise.
+Supprime le champ de métadonnées d’une société.
 
 Syntaxe
 
@@ -30,18 +30,18 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gestionnaire de la société qui contient le champ de métadonnées à supprimer. |
-| fieldHandle | `xsd:string` | Oui | La gestion du champ de métadonnées à supprimer. |
+| CompanyHandle | `xsd:string` | Oui | Poignée de l’entreprise qui contient le champ de métadonnées à supprimer. |
+| Poignée de champ | `xsd:string` | Oui | Poignée du champ de métadonnées à supprimer. |
 
-**Sortie (deleteMetadataFieldParam)**
+**Output (deleteMetadataFieldParam)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-e1c474ea91a040609ecd7c2400f4fa3c}
 
-Cet exemple de code supprime le champ de métadonnées d’une entreprise. Il utilise le nom d’entreprise et le nom de métadonnées comme champs dans les `deleteMetadataFieldParam` transmis au serveur des services Web IPS pour effectuer cette action.
+Cet exemple de code supprime le champ de métadonnées d’une société. Il utilise le descripteur de société et le descripteur de métadonnées en tant que champs dans le `deleteMetadataFieldParam` transmis au serveur de services Web IPS pour effectuer cette action.
 
-**Requête**
+**Demander**
 
 ```java
 <deleteMetadataFieldParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
@@ -52,4 +52,4 @@ Cet exemple de code supprime le champ de métadonnées d’une entreprise. Il ut
 
 **Réponse**
 
-Aucun.0
+Aucune.0

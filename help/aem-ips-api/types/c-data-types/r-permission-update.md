@@ -1,7 +1,7 @@
 ---
-description: Décrit les modifications apportées aux autorisations.
+description: Description des modifications apportées aux autorisations ;
 solution: Experience Manager
-title: PermissionUpdate
+title: Mise à jour des autorisations
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a21b9d66-14bd-4983-9eb9-54ab1be1261e
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # [!DNL PermissionUpdate]{#permissionupdate}
 
-Décrit les modifications apportées aux autorisations.
+Description des modifications apportées aux autorisations ;
 
 Syntaxe
 
@@ -22,7 +22,7 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| groupHandle | `xsd:string` | Poignée de groupe. |
-| permissionType | `xsd:string` | Type d’autorisation. |
+| Poignée de groupe | `xsd:string` | Nom de groupe. |
+| Type de permission | `xsd:string` | Type d’autorisation. |
 | isAllowed | `xsd:boolean` | Détermine si la mise à jour des autorisations est autorisée. |
-| isOverride | `xsd:boolean` | Détermine si l’autorisation remplace une autre. |
+| Remplacement de l’isOverride | `xsd:boolean` | Détermine si l’autorisation en remplace une autre. |

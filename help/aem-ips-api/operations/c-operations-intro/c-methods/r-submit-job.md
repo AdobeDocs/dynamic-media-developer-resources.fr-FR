@@ -1,7 +1,7 @@
 ---
 description: Envoie une tâche au système.
 solution: Experience Manager
-title: submitJob
+title: Tâche submitTask
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b1dc7a0e-da9a-4086-822b-5274bd62eadf
@@ -12,7 +12,7 @@ ht-degree: 7%
 
 ---
 
-# submitJob{#submitjob}
+# Tâche submitTask{#submitjob}
 
 Envoie une tâche au système.
 
@@ -43,127 +43,127 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> CompanyHandle</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> <p>Poignée de la société. </p> </td> 
+   <td colname="col4"> <p>Pseudo de l’entreprise. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> Poignée</span> utilisateur </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> <p>Gérer l’utilisateur qui a envoyé la tâche. </p> <p> <p>Remarque : le système envoie le courrier électronique à l’utilisateur spécifié par <span class="codeph"> userHandle</span>. Si <span class="codeph"> userHandle</span> n’est pas fourni, la personne qui a envoyé la tâche reçoit les e-mails. </p> </p> </td> 
+   <td colname="col4"> <p>Handle à l’utilisateur qui a envoyé la tâche. </p> <p> <p>Remarque : Le système envoie un courrier électronique à l’utilisateur spécifié par <span class="codeph"> userHandle</span>. Si <span class="codeph"> userHandle</span> n’est pas fourni, la personne qui a envoyé la tâche reçoit les courriers électroniques. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> jobName</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"></span> Nom de tâche </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"> <p>Nom de la tâche. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> locale</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> paramètres régionaux</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> <p>Paramètre régional utilisé pour les détails du journal des tâches et la localisation des emails. </p> <p>Les paramètres régionaux sont spécifiés sous la forme <span class="codeph"> &lt;code_langue&gt;</span> et <span class="codeph"> [&lt;code_pays&gt;]</span>, où le code de langue est un code à deux lettres minuscules, comme spécifié par ISO-639, et le code de pays facultatif est un code à deux lettres majuscules, comme spécifié par ISO-3166. Par exemple, la chaîne locale pour l’anglais (États-Unis) serait : en-US. </p> </td> 
+   <td colname="col4"> <p>Paramètres régionaux utilisés pour les détails du journal de la tâche et la localisation des adresses électroniques. </p> <p>Les paramètres régionaux sont spécifiés sous la forme <span class="codeph"> &lt;language_code&gt;</span> et <span class="codeph"> [&lt;country_code&gt;]</span>, où le code de langue est un code à deux lettres minuscules, conformément à la norme ISO-639, et le code pays facultatif est un code majuscule à deux lettres tel que spécifié par la norme ISO-3166. &lt;/country_code&gt;&lt;/language_code&gt; Par exemple, la chaîne du paramètre régional Anglais (États-Unis) serait : en-US. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> execTime</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"></span> Temps exécutif </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd :dateTime</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> <p>Date et heure d’exécution de la tâche. </p> <p>Remarque : indiquez le fuseau horaire avec la requête. Les fuseaux horaires sont ajustés au fuseau horaire du serveur IPS cible. </p> </td> 
+   <td colname="col4"> <p>Date et heure d’exécution de la tâche. </p> <p>Remarque : indiquez le fuseau horaire avec la demande. Les fuseaux horaires sont ajustés au fuseau horaire du serveur IPS cible. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> execSchedule</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> execSchedule</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> <p>Détermine à quel moment exécuter la tâche. </p> <p> Peut être une chaîne <span class="codeph"> cron</span> qui exécute la tâche de manière récurrente. </p> <p>Le planning est toujours relatif au fuseau horaire local du serveur. Consultez la documentation IPS pour connaître le format de planification personnalisé. </p> </td> 
+   <td colname="col4"> <p>Détermine le moment de l’exécution de la tâche. </p> <p> Il peut s’agir d’une <span class="codeph"> chaîne cron</span> qui exécute la tâche de façon récurrente. </p> <p>La planification dépend toujours du fuseau horaire local du serveur. Voir la documentation IPS pour connaître le format de planification personnalisé. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> description</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> description</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> <p>Description de la tâche. </p> </td> 
+   <td colname="col4"> <p>Description d’emploi. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> exportJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ExportJob</span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> Traitement d’exportation</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> types :ExportJob</span> </td> 
    <td colname="col3"> Non </td> 
    <td colname="col4"> <p>Exportez les fichiers précédemment téléchargés. </p> <p>Voir <a href="../../../types/c-data-types/r-exportjob.md#reference-1ce423f7b2d54507b90b67233c588665" format="dita" scope="local"> ExportJob</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> imageServingPublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ImageServingPublishJob</span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> Image ServingPublishJob</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> types :ImageServingPublishJob</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> <p>Détails d’une tâche de publication de diffusion d’image. </p> </td> 
+   <td colname="col4"> <p>Détails d’une tâche de publication Image Server. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> imageRenderingPublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ImageRenderingPublishJob</span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> Tâche de publication de rendu d’image</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> types :ImageRenderingPublishJob</span> </td> 
    <td colname="col3"> Non </td> 
    <td colname="col4"> <p>Détails d’une tâche de publication de rendu d’image. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> videoPublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:VideoPublishJob</span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> Tâche</span> de publication vidéo </span> </td> 
+   <td colname="col2"> <span class="codeph"> types :VideoPublishJob</span> </td> 
    <td colname="col3"> Non </td> 
    <td colname="col4"> <p>Détails d’une tâche de publication vidéo. </p> <p>Voir <a href="../../../types/c-data-types/r-video-publish-job.md#reference-e99e60d38fe94a07914eefcd7beef2e0" format="dita" scope="local"> VideoPublishJob</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> serverDirectoryPublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types : ServerDirectoryPublishJob</span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> serverDirectoryPublishJob</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> types :ServerDirectoryPublishJob</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> <p>Détails d’une tâche de publication de répertoire de serveur. </p> </td> 
+   <td colname="col4"> <p>Informations sur une tâche de publication de répertoire de serveur. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> uploadDirectoryJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types : UploadDirectoryJob</span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> Tâche d’annuaire</span> de téléchargement </span> </td> 
+   <td colname="col2"> <span class="codeph"> types :UploadDirectoryJob</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> <p>Détails d’une tâche de téléchargement de répertoire. </p> </td> 
+   <td colname="col4"> <p>Informations détaillées sur une tâche dans le répertoire de téléchargement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> uploadUrlsJob</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> uploadUrlsJob</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types : UploadUrlsJob</span> </td> 
    <td colname="col3"> Non </td> 
    <td colname="col4"> <p>Détails d’une tâche de téléchargement d’URL. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> optimizeImagesJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types : OptimizeImagesJob</span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> Tâche d’optimisation des</span> images </span> </td> 
+   <td colname="col2"> <span class="codeph"> types :OptimizeImagesJob</span> </td> 
    <td colname="col3"> Non </td> 
    <td colname="col4"> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> ripPdfsJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:RipPdfsJob</span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> Tâche ripPdfsJob</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> types :RipPdfsJob</span> </td> 
    <td colname="col3"> Non </td> 
    <td colname="col4"> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> reprocessAssetsJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ReprocessAssetsJob</span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> Tâche</span> de retraitement des ressources </span> </td> 
+   <td colname="col2"> <span class="codeph"> types :Reprocess AssetsJob</span> </td> 
    <td colname="col3"> Non </td> 
    <td colname="col4"> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> AutomatedSetGenerationJob</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> Tâche de génération de visionneuse</span> automatisée </span> </td> 
    <td colname="col2"> <span class="codeph"> types : AutomatedSetGenerationJob</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> <p>Traitez une liste de ressources en ensembles à l’aide de scripts de visionneuse automatisés. </p> <p>Voir <a href="../../../types/c-data-types/r-automated-set-generation-job.md#reference-ab0b3c5408eb41b98c49898b2197cf5a" format="dita" scope="local"> AutomatedSetGenerationJob</a>. </p> </td> 
+   <td colname="col4"> <p>Traitez une liste de fichiers en ensembles à l’aide des scripts d’ensemble automatisés. </p> <p>Voir <a href="../../../types/c-data-types/r-automated-set-generation-job.md#reference-ab0b3c5408eb41b98c49898b2197cf5a" format="dita" scope="local"> AutomatedSetGenerationJob</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Sortie (submitJobReturn)**
+**Output (submitJobReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| jobHandle | `xsd:string` | Oui | Poignée de tâche. |
+| Poignée de tâche | `xsd:string` | Oui | Gestion de la tâche. |
 
 ## Exemples {#section-40ac77d14adf4588ba2575be6879b2d2}
 
-Cet exemple de code envoie une tâche de publication de diffusion d’image à IPS et renvoie un gestionnaire de tâche. Sélectionnez un seul type de tâche dans la requête. Étant donné que `userHandle` a été omis, des notifications électroniques sont envoyées à l’utilisateur qui a envoyé la tâche. Cet exemple de tâche s’exécute immédiatement car `execTime` et `execSchedule` ont été omis.
+Cet exemple de code envoie une tâche de publication de serveur d’images à IPS et renvoie une poignée de tâche. Choisissez un seul type de tâche dans la demande. Comme `userHandle` elle a été omise, des notifications électroniques sont envoyées à l’utilisateur qui a envoyé la tâche. Cet exemple de tâche s’exécute immédiatement car `execTime` et `execSchedule` ont été omis.
 
-**Requête**
+**Demander**
 
 ```java
 <submitJobParam xmlns="http://www.scene7.com/IpsApi/xsd">
@@ -186,7 +186,7 @@ Cet exemple de code envoie une tâche de publication de diffusion d’image à I
 
 ## Remarques {#section-0f3078e503a249aeb6f3d662a51f036a}
 
-Vous pouvez spécifier au plus un des `execTime` et `execSchedule`. Si aucun des deux n’est transmis, la tâche s’exécute immédiatement. Vous ne pouvez utiliser que l’une des méthodes suivantes :
+Vous pouvez spécifier au moins l’un des `execTime` et `execSchedule`. Si aucun des deux n’est réussi, la tâche s’exécute immédiatement. Vous ne pouvez utiliser qu’un seul des types suivants :
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`

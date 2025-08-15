@@ -1,5 +1,5 @@
 ---
-description: Les programmeurs expérimentés et les développeurs de sites web qui souhaitent exploiter le service Dynamic Media Image Serving pour un site web ou une application personnalisée.
+description: Programmeurs et développeurs de sites web expérimentés qui souhaitent exploiter la diffusion d’images Dynamic Media pour un site web ou une application personnalisée.
 solution: Experience Manager
 title: Audience prévue
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # Audience prévue{#intended-audience}
 
-Les programmeurs expérimentés et les développeurs de sites web qui souhaitent exploiter le service Dynamic Media Image Serving pour un site web ou une application personnalisée.
+Programmeurs et développeurs de sites web expérimentés qui souhaitent exploiter la diffusion d’images Dynamic Media pour un site web ou une application personnalisée.
 
-On suppose que le lecteur est généralement familiarisé avec le système de diffusion d’images Dynamic Media, les normes et conventions générales du protocole HTTP, ainsi qu’avec la terminologie de base de l’imagerie.
+On suppose que le lecteur connaît généralement le système de diffusion d’images Dynamic Media, les normes et conventions générales du protocole HTTP et la terminologie de base de l’imagerie.

@@ -1,5 +1,5 @@
 ---
-description: Chemin d’accès au fichier de données du catalogue. Spécifie le fichier contenant les données matérielles pour ce catalogue.
+description: Chemin d’accès au fichier de données du catalogue. Spécifie le fichier qui contient les données de matériaux pour ce catalogue.
 solution: Experience Manager
 title: CatalogFile
 feature: Dynamic Media Classic,SDK/API
@@ -14,12 +14,12 @@ ht-degree: 1%
 
 # CatalogFile{#catalogfile}
 
-Chemin d’accès au fichier de données du catalogue. Spécifie le fichier contenant les données matérielles pour ce catalogue.
+Chemin d’accès au fichier de données du catalogue. Spécifie le fichier qui contient les données de matériaux pour ce catalogue.
 
 ## Propriétés {#section-81eaf83ed4d3405f8ba95671bd303584}
 
-Valeur de chaîne de texte. Chemin ou chemin d’accès absolu au fichier par rapport au dossier de catalogue.
+Valeur de chaîne de texte. Chemin d’accès absolu au fichier ou chemin d’accès relatif au dossier du catalogue.
 
 ## Par défaut {#section-7a1f82b4188e41a3915a78744cada9fb}
 
-Vide, ce qui indique que ce catalogue de matériaux ne contient aucune donnée matérielle.
+Vide, ce qui indique que ce catalogue de matières n&#39;inclut aucune donnée de matières.

@@ -1,7 +1,7 @@
 ---
-description: Options de fichier du PDF.
+description: Options des fichiers PDF.
 solution: Experience Manager
-title: PDFOptions
+title: Opérations PDF
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 140c9261-e590-4889-9be4-29afd19ffa86
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # [!DNL PDFOptions]{#pdfoptions}
 
-Options de fichier du PDF.
+Options des fichiers PDF.
 
 Syntaxe
 
@@ -22,9 +22,9 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| processus | `xsd:string` | Choix des &quot;processus PDF&quot;. |
-| résolution | `xsd:double` | Résolution du fichier. |
-| colorspace | `xsd:string` | Choix du mode Colorspace post-script. |
-| pdfCatalog | `xsd:boolean` | Il est possible de combiner plusieurs PDF de page dans un catalogue électronique après le rendu (la valeur par défaut est true). |
-| extractSearchWords | `xsd:boolean` | Extraction ou non des mots de recherche à partir du fichier du PDF. |
-| extractLinks | `xsd:boolean` | Extraction ou non de liens de PDF dans des zones cliquables affectées aux pages pixellisées dans IPS. |
+| processus | `xsd:string` | Choix de « Processus PDF ». |
+| résolution | `xsd:double` | Résolution de fichiers. |
+| Espace colorimétrique | `xsd:string` | Choix du mode Espace colorimétrique Post-script. |
+| Catalogue PDF | `xsd:boolean` | S’il convient de combiner un PDF de plusieurs pages dans un catalogue électronique après le rendu (la valeur par défaut est true). |
+| Extraire les mots de recherche | `xsd:boolean` | S’il convient d’extraire des mots de recherche du fichier PDF. |
+| Extraire les liens | `xsd:boolean` | S’il faut extraire des liens PDF dans des zones cliquables affectées aux pages pixelisées dans IPS. |

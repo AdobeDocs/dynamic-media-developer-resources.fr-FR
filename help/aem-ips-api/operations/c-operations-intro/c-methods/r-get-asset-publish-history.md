@@ -36,20 +36,20 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gestion de l’entreprise avec l’historique de publication des ressources. |
-| assetHandle | `xsd:string` | Oui | La ressource avec l’historique de publication que vous souhaitez examiner. |
+| CompanyHandle | `xsd:string` | Oui | Poignée de l’entreprise avec l’historique de publication de la ressource. |
+| AssetHandle | `xsd:string` | Oui | Ressource contenant l’historique de publication que vous souhaitez examiner. |
 
-**Sortie (getAssetPublishHistoryReturn)**
+**Output (getAssetPublishHistoryReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| pubHistoryArray | `types:PublishHistoryArray` | Oui | Historique de publication de la ressource. |
+| Tableau de l’historique pub | `types:PublishHistoryArray` | Oui | L’historique de publication de la ressource. |
 
 ## Exemples {#section-53897c51e5a047c5bd5ea5a6efb2d114}
 
-Cet exemple de code renvoie l’historique de publication d’une ressource. Une ressource n’a jamais été publiée si le serveur renvoie un tableau vide.
+Cet exemple de code renvoie l’historique de publication d’une ressource. Un actif n’a jamais été publié si le serveur renvoie un tableau vide.
 
-**Requête**
+**Demander**
 
 ```java
 <getAssetPublishHistoryParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

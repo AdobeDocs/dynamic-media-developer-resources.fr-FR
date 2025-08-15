@@ -1,5 +1,5 @@
 ---
-description: Télécharge les URL à partir de l’emplacement où vous souhaitez obtenir les fichiers.
+description: Charge les URL depuis l'emplacement où tu veux récupérer les fichiers.
 solution: Experience Manager
 title: UploadUrlsJob
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # [!DNL UploadUrlsJob]{#uploadurlsjob}
 
-Télécharge les URL à partir de l’emplacement où vous souhaitez obtenir les fichiers.
+Charge les URL depuis l&#39;emplacement où tu veux récupérer les fichiers.
 
 Syntaxe
 
@@ -31,58 +31,58 @@ Syntaxe
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> autoColorCropOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:AutoColorCropOptions</span> </td> 
+   <td colname="col2"> <span class="codeph"> d’options : AutoColorCropOptions</span> </td> 
    <td colname="col3"> Options de recadrage automatique des images en fonction de la couleur. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> autoSetCreationOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:AutoSetCreationOptions</span> </td> 
-   <td colname="col3"> Tableau de scripts de génération automatique de visionneuses à appliquer aux fichiers chargés. </td> 
+   <td colname="col2"> <span class="codeph"> de sous-domaines:AutoSetCreationOptions</span> </td> 
+   <td colname="col3"> Tableau de scripts de génération de jeux automatiques à appliquer aux fichiers chargés. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> autoTransparentCropOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:AutoTransparentCropOptions</span> </td> 
-   <td colname="col3"> Supprime l’espace blanc des bords des images, en fonction de la transparence. </td> 
+   <td colname="col2"> <span class="codeph"> de sous-domaines:AutoTransparentCropOptions</span> </td> 
+   <td colname="col3"> Supprime l’espace blanc sur les bords des images en fonction de la transparence. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> createMask</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> Créer ou non un masque. </td> 
+   <td colname="col3"> Permet de créer un masque. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> colorManagementOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ColorManagementOptions</span> </td> 
-   <td colname="col3"> Options que vous pouvez spécifier lors d’un téléchargement. La visionneuse affecte la manière dont la couleur est gérée pour le chargement. </td> 
+   <td colname="col2"> <span class="codeph"> d’options :ColorManagementOptions</span> </td> 
+   <td colname="col3"> Options que vous pouvez spécifier lors d’un chargement. Le jeu affecte la manière dont la couleur est gérée pour le chargement. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> emailSetting</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Choix des paramètres de courrier électronique. </td> 
+   <td colname="col3"> Choix des paramètres d’e-mail. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> IllustratorOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:IllustratorOptions</span> </td> 
-   <td colname="col3"> Options de téléchargement des fichiers Illustrator vers le serveur d’images. </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> IllustratorOptions </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> d’images :IllustratorOptions</span> </td> 
+   <td colname="col3"> Options de chargement des fichiers Illustrator sur le serveur d’images. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> inDesignOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:InDesignOptions</span> </td> 
-   <td colname="col3"> Options de téléchargement des fichiers d’InDesign sur le serveur. </td> 
+   <td colname="col2"> <span class="codeph"> types :InDesignOptions</span> </td> 
+   <td colname="col3"> Options de chargement des fichiers InDesign sur le serveur. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> KnockoutBackground</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types : KnockoutBackgroundOptions</span> </td> 
-   <td colname="col3">Masquez l’arrière-plan des images sélectionnées. Vous pouvez ainsi les superposer dans d’autres calques avec une transparence en dehors de l’objet. Facultatif. Voir <a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a>. </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> knockoutBackground </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> types :KnockoutBackgroundOptions</span> </td> 
+   <td colname="col3">Masquez l’arrière-plan des images sélectionnées. Vous pouvez ainsi les superposer dans d’autres calques avec une transparence en dehors de l’image de l’objet. Facultatif. Voir <a href="../../types/c-data-types/r-knockout-background-options.md#reference-9196371848964d91842b337640791c9c" format="dita" scope="local"> KnockoutBackgroundOptions</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> manualCropOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types : ManualCropOptions</span> </td> 
-   <td colname="col3"> Options de recadrage manuel des images. </td> 
+   <td colname="col2"> <span class="codeph"> de sous-domaines:ManualCropOptions</span> </td> 
+   <td colname="col3"> Options de recadrage manuel d’images. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> mediaOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types : MediaOptions</span> </td> 
-   <td colname="col3">Options permettant de définir une miniature à partir de la vidéo. Voir <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </td> 
+   <td colname="col2"> <span class="codeph"> types :MediaOptions</span> </td> 
+   <td colname="col3">Options permettant de définir une miniature de la vidéo. Voir <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> numUrls</span> </span> </td> 
@@ -90,97 +90,97 @@ Syntaxe
    <td colname="col3">Renvoie le nombre d’URL envoyées dans une tâche. Utilisé par <a href="../../operations/c-operations-intro/c-methods/r-get-active-jobs.md#reference-67483cbd71d04042b48434d886e8a7a0" format="dita" scope="local"> getActiveJobs</a> et <a href="../../operations/c-operations-intro/c-methods/r-get-scheduled-jobs.md#reference-2bab1861325f4bff84c879d1efa9146e" format="dita" scope="local"> getScheduledJobs</a>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> overwrite</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> remplacer </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> Détermine s’il faut remplacer les fichiers lors du téléchargement. </td> 
+   <td colname="col3"> Permet de spécifier si les fichiers doivent être remplacés lors du chargement. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> pdfOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:PDFOptions</span> </td> 
-   <td colname="col3"> Options de téléchargement de fichiers de PDF vers le serveur d’images. </td> 
+   <td colname="col2"> <span class="codeph"> de sous-réseau :PDFOptions</span> </td> 
+   <td colname="col3"> Options de chargement des fichiers PDF sur le serveur d’images. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> photoshopOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types : PhotoshopOptions</span> </td> 
-   <td colname="col3"> Options de téléchargement des fichiers Photoshop vers le serveur d’images. </td> 
+   <td colname="col2"> <span class="codeph"> de sous-réseau :PhotoshopOptions</span> </td> 
+   <td colname="col3"> Options de chargement des fichiers Photoshop sur le serveur d’images. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postHttpUrl</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> URL vers laquelle les fichiers sont chargés. </td> 
+   <td colname="col3"> URL où les fichiers sont chargés. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postImageRenderingPublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ImageRendingPublishJob</span> </td> 
-   <td colname="col3"> Détails d’une tâche de publication de rendu d’image qui s’exécute une fois le transfert terminé. </td> 
+   <td colname="col2"> <span class="codeph"> d’audience :ImageRendingPublishJob</span> </td> 
+   <td colname="col3"> Détails d’une tâche de publication de rendu d’image qui s’exécute une fois le chargement terminé. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postImageServingPublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ImageServingPublishJob</span> </td> 
+   <td colname="col2"> <span class="codeph"> types :ImageServingPublishJob</span> </td> 
    <td colname="col3"> Toutes les options de média. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postScriptOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:PostScriptOptions</span> </td> 
-   <td colname="col3"> Options de téléchargement de fichiers PostScript vers le serveur d’images. </td> 
+   <td colname="col2"> <span class="codeph"> types :PostScriptOptions</span> </td> 
+   <td colname="col3"> Options de chargement de fichiers Post Script sur le serveur d’images. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> postVideoPublishJob</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:VideoPublishJob</span> </td> 
-   <td colname="col3"> Détails d’une tâche de publication vidéo qui s’exécute une fois le transfert terminé. </td> 
+   <td colname="col2"> <span class="codeph"> types :VideoPublishJob</span> </td> 
+   <td colname="col3"> Informations détaillées sur une tâche de publication de vidéo qui s’exécute une fois le chargement terminé. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> preserveCrop</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> Contrôle la conservation de toute définition de recadrage existante. La valeur par défaut est true </td> 
+   <td colname="col3"> Contrôle la conservation de toute définition de culture existante. La valeur par défaut est « true » </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> preservePublishState</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> Contrôle si l’état de publication d’une ressource existante est conservé lors du remplacement. Si elle n’est pas définie, le paramètre par défaut de l’entreprise est utilisé. </td> 
+   <td colname="col3"> Contrôle si l’état de publication d’une ressource existante est conservé lors du remplacement. S’il n’est pas défini, le paramètre par défaut de la société est utilisé. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> projectHandleArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:HandleArray</span> </td> 
-   <td colname="col3"> Tableau des gestionnaires de projet. </td> 
+   <td colname="col3"> Tableau des descripteurs de projet. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> readyForPublish</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> Si les fichiers sont marqués comme prêts pour la publication. </td> 
+   <td colname="col3"> Indique si les fichiers sont marqués comme prêts à être publiés. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> unCompressOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types : UnCompressOptions</span> </td> 
-   <td colname="col3">Extrayez et traitez le contenu des fichiers TAR/ZIP chargés avec ces paramètres facultatifs. Voir <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> UnCompressOptions</a>. </td> 
+   <td colname="col2"> <span class="codeph"> types :UnCompressOptions</span> </td> 
+   <td colname="col3">Extrayez et traitez le contenu des fichiers TAR/ZIP chargés avec ces paramètres facultatifs. Voir <a href="../../types/c-data-types/r-uncompress-options.md#reference-510ec7028b1540bc9b58745f242d49d5" format="dita" scope="local"> d’options de compression</a>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> unsharpMaskOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types : UnsharpMaskOptions</span> </td> 
-   <td colname="col3">Options permettant de contrôler les paramètres de masquage flou lors de la création d’un fichier TIF pyramid optimisé. Utilisez ces paramètres pour améliorer la netteté de l’image. Voir <a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> UnsharpMaskOptions</a>. </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> unsharpMaskOptions </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> de sous-réseau:UnsharpMaskOptions</span> </td> 
+   <td colname="col3">Options permettant de contrôler les paramètres de masquage flou lors de la création d’un fichier TIF pyramide optimisé. Utilisez ces paramètres pour améliorer la netteté de l’image. Voir <a href="../../types/c-data-types/r-unsharp-mask-options.md#reference-b9a96244d7ee4424bc4ac3c23be3be3d" format="dita" scope="local"> UnsharpMaskOptions</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> urlArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:UrlArray</span> </td> 
-   <td colname="col3"> Tableau d’URL que vous souhaitez charger. </td> 
+   <td colname="col3"> Tableau d’URL à charger. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> xmpKeywords</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> xmpKeywords </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Une option de métadonnées supplémentaire pour tout ce qui se trouve dans la tâche de téléchargement. </p> </td> 
+   <td colname="col3"> <p>Une option de métadonnées supplémentaire pour tout ce qui concerne la tâche de chargement. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Remarques {#section-637405ff7e0b4a71b83fd359b92fa0c2}
 
-Pour `CropOptions`, vous ne pouvez choisir que l’une des options suivantes :
+Par `CropOptions`, vous ne pouvez choisir que l’une des options suivantes :
 
 * `manualCropOptions`
 * `autoColorCropOptions`
 * `autoTransparentCropOptions`
 
-Pour `PublishJob`, vous ne pouvez choisir que l’une des options suivantes :
+Par `PublishJob`, vous ne pouvez choisir que l’une des options suivantes :
 
 * `postImageServingPublishJob`
 * `postImageRenderingPublishJob`

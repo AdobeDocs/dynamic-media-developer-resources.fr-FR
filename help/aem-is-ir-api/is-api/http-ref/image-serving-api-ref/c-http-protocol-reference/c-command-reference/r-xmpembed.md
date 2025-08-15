@@ -1,6 +1,6 @@
 ---
-title: xmpEmbed
-description: Incorporer XMP métadonnées. Indique si XMP métadonnées doivent être incluses dans l’image de réponse.
+title: Incorporation xmpEmbed
+description: Incorporez XMP métadonnées. Indique si XMP métadonnées doivent être incluses dans l’image de réponse.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 2%
 
 ---
 
-# xmpEmbed{#xmpembed}
+# Incorporation xmpEmbed{#xmpembed}
 
-Incorporer XMP métadonnées. Indique si XMP métadonnées doivent être incluses dans l’image de réponse.
+Incorporez XMP métadonnées. Indique si XMP métadonnées doivent être incluses dans l’image de réponse.
 
 `xmpEmbed=0|1`
 
@@ -24,9 +24,9 @@ Incorporer XMP métadonnées. Indique si XMP métadonnées doivent être incluse
 
 ## Propriétés {#section-27024c4272f44d9a8c264a0629193af2}
 
-Attribut de requête. Ignoré si l’image source ne contient pas XMP données. Seules les données XMP de l’image source de `layer=0` sont traitées. Les données XMP d’autres images de calque sont ignorées.
+Attribut de requête. Ignoré si l’image source ne contient pas de données XMP. Seules XMP données provenant de l’image source de `layer=0` sont traitées. XMP données provenant d’autres images de calque sont ignorées.
 
-Ignoré si le format d’image de sortie ne prend pas en charge XMP incorporation. Reportez-vous à la description de `fmt=` pour obtenir la liste des formats d’image de sortie qui prennent en charge XMP’incorporation.
+Ignoré si le format d’image de sortie ne prend pas en charge l’incorporation XMP. Reportez-vous à la description de `fmt=` pour obtenir la liste des formats d’image de sortie prenant en charge l’incorporation XMP.
 
 ## Par défaut {#section-aedbedd04d664ba184b2cfe35644b960}
 

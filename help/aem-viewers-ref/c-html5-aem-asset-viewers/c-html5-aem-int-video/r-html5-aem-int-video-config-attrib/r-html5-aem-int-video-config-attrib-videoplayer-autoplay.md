@@ -1,6 +1,6 @@
 ---
 title: VideoPlayer.autoplay
-description: Attribut de configuration de la visionneuse de vidéos interactives.
+description: Attribut de configuration pour la visionneuse de vidéos interactives.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # VideoPlayer.autoplay{#videoplayer-autoplay}
 
-Attribut de configuration de la visionneuse de vidéos interactives.
+Attribut de configuration pour la visionneuse de vidéos interactives.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]autoplay=0|1`
 
@@ -22,7 +22,7 @@ Attribut de configuration de la visionneuse de vidéos interactives.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Indique si la visionneuse commence la lecture de la vidéo au chargement. Certains systèmes, tels que certains appareils mobiles, peuvent ne pas prendre en charge la lecture automatique. </p> </td> 
+   <td colname="col2"> <p> Indique si la visionneuse démarre la lecture de la vidéo au chargement. Certains systèmes, tels que certains appareils mobiles, peuvent ne pas prendre en charge la lecture automatique. </p> </td> 
   </tr> 
  </tbody> 
 </table>

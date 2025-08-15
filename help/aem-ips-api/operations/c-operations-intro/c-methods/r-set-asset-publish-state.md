@@ -28,7 +28,7 @@ Syntaxe
 
 >[!NOTE]
 >
->L’utilisateur doit disposer d’un accès en lecture et en écriture à la ressource.
+>L’utilisateur doit disposer d’un accès en lecture et écriture à la ressource.
 
 ## Paramètres {#section-09d2ba001a2a455a9102550272f3eecb}
 
@@ -45,7 +45,7 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"> La poignée de la société. </td> 
@@ -54,10 +54,10 @@ Syntaxe
    <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Poignée de ressource. </td> 
+   <td colname="col4"> Identifiant de ressource. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> publishState</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> publishState </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4">États disponibles : 
@@ -67,8 +67,8 @@ Syntaxe
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> contextHandleArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Expression de code </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> contextHandleArray </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> l’expression de code </span> </td> 
    <td colname="col3"> </td> 
    <td colname="col4"> </td> 
   </tr> 

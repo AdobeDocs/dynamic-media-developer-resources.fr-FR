@@ -1,5 +1,5 @@
 ---
-description: Tableau de définitions de zone cliquable.
+description: Tableau de définitions de zones cliquables.
 solution: Experience Manager
 title: ImageMapDefinitionArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 25%
 
 # [!DNL ImageMapDefinitionArray]{#imagemapdefinitionarray}
 
-Tableau de définitions de zone cliquable.
+Tableau de définitions de zones cliquables.
 
 Syntaxe
 
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| éléments | `types:ImageMapDefinition` | Tableau des définitions des zones cliquables. |
+| éléments | `types:ImageMapDefinition` | Tableau de définitions de zones cliquables. |

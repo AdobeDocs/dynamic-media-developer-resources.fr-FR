@@ -1,6 +1,6 @@
 ---
 title: Video360Player.mutevolume
-description: Attribut de configuration de la visionneuse Video360.
+description: Attribut de configuration pour la visionneuse Video360.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # Video360Player.mutevolume{#video-player-mutevolume}
 
-Attribut de configuration de la visionneuse Video360.
+Attribut de configuration pour la visionneuse Video360.
 
 `[Video360Player.|<containerId>_video360Player.]mutevolume=0|1`
 
@@ -22,7 +22,7 @@ Attribut de configuration de la visionneuse Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Définit le mode silencieux pour la lecture vidéo au chargement initial. Si elle est définie sur <span class="codeph"> 1 </span>, le volume est muté ; dans le cas contraire, la vidéo est lue avec le son. Sur certains appareils, la mise en mode muet de la lecture vidéo au chargement permet également la lecture automatique de la vidéo. </p> </td> 
+   <td colname="col2"> <p> Définit le mode coupé pour la lecture vidéo lors du chargement initial. S’il est réglé sur <span class="codeph"> 1 </span> , le volume est coupé ; sinon, la vidéo est lue avec le son. Sur certains appareils, la mise en sourdine de la lecture vidéo au chargement permet également à la vidéo de se lire automatiquement. </p> </td> 
   </tr> 
  </tbody> 
 </table>

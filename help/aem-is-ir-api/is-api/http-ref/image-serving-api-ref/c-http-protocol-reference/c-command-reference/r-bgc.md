@@ -1,6 +1,6 @@
 ---
 title: bgc
-description: Afficher la couleur de fond. Indique la couleur d’arrière-plan de l’image composite (vue image).
+description: Afficher la couleur d'arrière-plan. Indique la couleur d’arrière-plan de l’image composite (image vue).
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,22 +14,22 @@ ht-degree: 2%
 
 # bgc{#bgc}
 
-Afficher la couleur de fond. Indique la couleur d’arrière-plan de l’image composite (vue image).
+Afficher la couleur d&#39;arrière-plan. Indique la couleur d’arrière-plan de l’image composite (image vue).
 
 `bgc= *`color`*`
 
 <table id="simpletable_998CF426296945FEA48D19E33B71A17E"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> color</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> couleur</span></span> </p> </td> 
   <td class="stentry"> <p>Valeur de couleur grise, RGB ou CMJN. </p></td> 
  </tr> 
 </table>
 
-Spécifie une couleur de fond opaque à utiliser pour l’arrière-plan de la vue. Visible uniquement si l’image composite comporte des zones transparentes ou si l’image composite a des proportions différentes du rectangle de l’affichage. Ignoré si `fmt=tif-alpha` ou `fmt=png-alpha` ou `req=mask`.
+Indique une couleur de remplissage opaque à utiliser pour l&#39;arrière-plan de la vue. Visible uniquement si l’image composite comporte des zones transparentes ou si ses proportions sont différentes de celles du rectangle d’affichage. Ignoré si `fmt=tif-alpha` ou `fmt=png-alpha` ou `req=mask`.
 
 >[!NOTE]
 >
->Le suffixe de couleur &quot;s&quot; est ignoré par `bgc=`. Les valeurs de couleur spécifiées avec `bgc=` sont toujours associées à l’espace colorimétrique de sortie correspondant.
+>Le suffixe de couleur &#39;s&#39; est ignoré par `bgc=`. Les valeurs de couleur spécifiées avec `bgc=` sont toujours associées à l’espace colorimétrique de sortie correspondant.
 
 ## Propriétés {#section-b729b50b1ea7433b82ba34ecd61839cd}
 
@@ -37,7 +37,7 @@ Attribut d’affichage. S’applique quel que soit le paramètre de calque actif
 
 Toute valeur alpha spécifiée avec la couleur est ignorée.
 
-*`color`* est supposé appartenir à l’espace colorimétrique de sortie (comme spécifié avec `icc=`) et doit avoir le même type de pixel que l’image de sortie. Si les types de pixels ne correspondent pas, *`color`* est converti en utilisant une conversion naïve.
+*`color`* est supposé appartenir à l’espace colorimétrique de sortie (comme spécifié avec `icc=`) et doit avoir le même type de pixel que l’image de sortie. Si les types de pixels ne correspondent pas, *`color`* est converti à l’aide d’une conversion naïve.
 
 ## Par défaut {#section-4e025cbd723547b5ab4450f7aad70da3}
 
@@ -45,7 +45,7 @@ Toute valeur alpha spécifiée avec la couleur est ignorée.
 
 ## Exemple {#section-7bcdfbc0e1274e86a69d39186b090789}
 
-Spécifiez une couleur d’arrière-plan explicite pour une demande de miniature :
+Spécifiez une couleur d’arrière-plan explicite pour une requête de miniature :
 
 `http://server/myRootId/myImageId?req=tmb&bgc=214,245,130`
 

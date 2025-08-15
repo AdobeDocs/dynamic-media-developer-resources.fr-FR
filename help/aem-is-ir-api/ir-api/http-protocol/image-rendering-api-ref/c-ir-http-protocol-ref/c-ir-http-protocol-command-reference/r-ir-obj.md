@@ -21,23 +21,23 @@ Sélectionnez l’objet par nom. Sélectionne le groupe de vignettes spécifié 
 <table id="simpletable_6E0DA6CBCDCF4CDDAFA5A4C38E0D5FC5"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> name </span> </span> </p> </td> 
-  <td class="stentry"> <p>Nom ou chemin/nom du groupe. </p> </td> 
+  <td class="stentry"> <p>Nom du groupe ou chemin/nom. </p> </td> 
  </tr> 
 </table>
 
-Les sous-groupes ou les objets individuels peuvent être sélectionnés à l’aide d’un chemin d’accès de groupe complet (c’est-à-dire en spécifiant le nom du groupe cible ou de l’objet précédé de tous les groupes parents, séparés par des / (barres obliques).
+Les sous-groupes ou les objets individuels peuvent être sélectionnés à l’aide d’un chemin de groupe complet (c’est-à-dire en spécifiant le nom du groupe cible ou de l’objet précédé de tous les groupes parents, séparé par / (barres obliques).
 
 Si aucun groupe/objet portant le nom spécifié n’est trouvé, l’action spécifiée dans `attribute::OnObjFail` est exécutée.
 
 ## Propriétés {#section-9463b36e8ff74c81a70c7c2b58927430}
 
-Commande de sélection ; délimiteur MSS. La sélection d’objet est persistante jusqu’à ce qu’un autre objet soit sélectionné, avec `obj=` ou `sel=`.
+Commande de sélection ; délimiteur MSS. La sélection d&#39;objet est persistante jusqu&#39;à ce qu&#39;un autre objet soit sélectionné, avec `obj=` ou `sel=`.
 
-Les noms et les chemins d’accès aux groupes/objets ne sont pas sensibles à la casse.
+Les chemins et noms de groupe/objet ne respectent pas la casse.
 
 ## Par défaut {#section-0c322850512c4896bb551856a549440e}
 
-Le premier groupe de la vignette contenant des objets de rendu est automatiquement sélectionné à l’ouverture d’une nouvelle vignette.
+Le premier groupe de la vignette contenant les objets rendus est sélectionné automatiquement lorsqu’une nouvelle vignette est ouverte.
 
 ## Voir aussi {#section-d9d2c92ef48548f48b9781e2a8a5fb5a}
 

@@ -14,16 +14,16 @@ ht-degree: 10%
 
 # InfoPanelPopup.showhidetransition{#infopanelpopup-showhidetransition}
 
-[!DNL `[InfoPanelPopup.|<containerId>_infoPanelPopup.]showhidetranstion=fade|none[, *`time`*]`]
+[!DNL `[InfoPanelPopup.|<containerId>_infoPanelPopup.]showhidetranstion=fade|none[, *`Heure`*]`]
 
 <table id="table_863763B730A949AA8C0E11E6F8461E3A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> fondu|none</span> </p> </td> 
-   <td colname="col2"> <p> Indique le type d’animation d’affichage/masquage du panneau d’informations. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> fondu|aucun</span> </p> </td> 
+   <td colname="col2"> <p> Spécifie le type d’animation d’affichage/masquage du panneau d’informations. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"><span class="varname"> time</span></span> </p> </td> 
+   <td> <p> <span class="codeph"><span class="varname"> Heure</span></span> </p> </td> 
    <td> <p> Durée (en secondes) de l’animation d’affichage ou de masquage. </p> </td> 
   </tr> 
  </tbody> 

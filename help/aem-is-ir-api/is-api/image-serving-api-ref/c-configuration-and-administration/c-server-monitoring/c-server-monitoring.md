@@ -1,5 +1,5 @@
 ---
-description: Le serveur peut être configuré pour envoyer des alertes par email lorsque certains seuils de performances ou d’erreur sont dépassés. Le système contrôle collectivement toutes les applications web déployées sur le serveur.
+description: Le serveur peut être configuré pour envoyer des alertes par e-mail lorsque certains seuils de performance ou d’erreur sont dépassés. Le système surveille collectivement toutes les applications web déployées sur le serveur.
 solution: Experience Manager
 title: Surveillance du serveur
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Surveillance du serveur{#server-monitoring}
 
-Le serveur peut être configuré pour envoyer des alertes par email lorsque certains seuils de performances ou d’erreur sont dépassés. Le système contrôle collectivement toutes les applications web déployées sur le serveur.
+Le serveur peut être configuré pour envoyer des alertes par e-mail lorsque certains seuils de performance ou d’erreur sont dépassés. Le système surveille collectivement toutes les applications web déployées sur le serveur.
 
 * [Alertes standard](r-standard-alerts.md)
 * [Alerte de priorité de l’espace de tas](c-heap-space-priority-alert.md)

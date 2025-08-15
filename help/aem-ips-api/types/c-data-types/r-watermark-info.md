@@ -1,7 +1,7 @@
 ---
 description: Propriétés d’une ressource de filigrane.
 solution: Experience Manager
-title: WatermarkInfo
+title: Infos sur le filigrane
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 38821d96-d0d2-4f3b-9c31-15d6a8d66e9e
@@ -23,5 +23,5 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | url | `xsd:string` | URL du serveur d’images qui représente le modèle. |
-| urlModifier | `xsd:string` | |
+| Modificateur d’url | `xsd:string` | |
 | urlPostApplyModifier | `xsd:string` | |

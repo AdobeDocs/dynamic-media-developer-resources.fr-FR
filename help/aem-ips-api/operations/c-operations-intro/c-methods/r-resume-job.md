@@ -1,5 +1,5 @@
 ---
-description: Redémarre une tâche suspendue.
+description: Redémarre un traitement en pause.
 solution: Experience Manager
 title: resumeJob
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # resumeJob{#resumejob}
 
-Redémarre une tâche suspendue.
+Redémarre un traitement en pause.
 
 Syntaxe
 
@@ -35,16 +35,16 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | La gestion de la société avec la tâche que vous souhaitez redémarrer. |
-| jobHandle | `xsd:string` | Oui | Gestion de la tâche suspendue. |
+| companyHandle | `xsd:string` | Oui | Le handle de la société avec le traitement que vous souhaitez redémarrer. |
+| jobHandle | `xsd:string` | Oui | Poignée du traitement en pause. |
 
-**Sortie (resumeJobReturn)**
+**Output (resumeJobReturn)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-d0524e031f1f43d89430eade19526162}
 
-Cet exemple de code redémarre une tâche suspendue.
+Cet exemple de code redémarre un traitement en pause.
 
 **Requête**
 

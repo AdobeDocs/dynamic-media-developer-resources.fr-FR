@@ -29,26 +29,26 @@ Syntaxe
 
 ## Paramètres {#section-200a61d040c94e489a85241b29cd499a}
 
-**Entrée (restoreAssetsFromTrashParam)**
+**Input (restoreAssetsFromTrashParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gestionnaire pour une entreprise avec les ressources à restaurer. |
-| assetHandleArray | `types:HandleArray` | Oui | Tableau de poignées des ressources à restaurer. |
+| companyHandle | `xsd:string` | Oui | Le handle vers une entreprise avec les ressources que vous souhaitez restaurer. |
+| assetHandleArray | `types:HandleArray` | Oui | Tableau des descripteurs des ressources à restaurer. |
 
-**Sortie (restoreAssetsFromTrashReturn)**
+**Output (restoreAssetsFromTrashReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | successCount | `xsd:int` | Oui | Nombre de ressources supprimées de la corbeille. |
-| warningCount | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de restaurer des ressources de la corbeille. |
+| warningCount | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération a tenté de restaurer les ressources à partir de la corbeille. |
 | errorCount | `xsd:int` | Oui | Nombre d’erreurs générées lors de la tentative de restauration de ressources à partir de la corbeille. |
-| warningDetailArray | `types:AssetOperationFaultArray` | Non | Tableau de détails associés aux ressources qui ont généré des avertissements lorsque l’opération tentait de restaurer des ressources à partir de la corbeille. |
-| errorDetailArray | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des erreurs lorsque l’opération a tenté de restaurer des ressources à partir de la corbeille. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Non | Tableau de détails associés aux ressources qui ont généré des avertissements lorsque l’opération a tenté de restaurer les ressources à partir de la corbeille. |
+| errorDetailArray | `types:AssetOperationFaultArray` | Non | Tableau de détails associés aux ressources qui ont généré des erreurs lorsque l’opération a tenté de restaurer les ressources à partir de la corbeille. |
 
 ## Exemples {#section-98fe0394b0634ca397c395f14f8a9358}
 
-Cet exemple de code restaure les ressources de la corbeille. La réponse indique que l’opération a réussi.
+Cet exemple de code restaure les ressources de la corbeille. La réponse indique que l’opération s’est terminée avec succès.
 
 **Requête**
 

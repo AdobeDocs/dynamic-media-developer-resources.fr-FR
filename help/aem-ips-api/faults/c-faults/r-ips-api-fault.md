@@ -16,18 +16,18 @@ ht-degree: 36%
 
 Syntaxe
 
-## Types de défaillance {#section-425697675cac4b2ab5c48bd463956401}
+## Types de défaillances {#section-425697675cac4b2ab5c48bd463956401}
 
-| ID | Par défaut |
+| ID | Défaut |
 |---|---|
 | 30000 | `IPS_API_FAULT_CODE_EXCEPTION` |
 | 30001 | `IPS_API_FAULT_CODE_INVALID_PARAMETER` |
 | 30002 | `IPS_API_FAULT_CODE_MISSING_PARAMETER` |
 | 30003 | `IPS_API_FAULT_CODE_INVALID_REQUEST_XML` |
 
-## Champs par défaut {#section-37fe1aef1d5f4ca480071ca933aba826}
+## Champs d’erreur {#section-37fe1aef1d5f4ca480071ca933aba826}
 
 | Nom | Type | Description |
 |---|---|---|
-| `code` | `xsd:int` | Identifiant de défaillance |
-| `reason` | `xsd:string` | Un message informatif décrivant l’erreur. |
+| `code` | `xsd:int` | Identifiant de la panne |
+| `reason` | `xsd:string` | Message informatif décrivant la panne. |

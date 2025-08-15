@@ -1,6 +1,6 @@
 ---
-title: Effet Icône
-description: L’icône de lecture est superposée sur la zone d’affichage principale. Il s’affiche lorsque la vidéo est mise en pause ou lorsque la fin de la vidéo est atteinte, et dépend également du paramètre d’effet iconique .
+title: Effet d’icône
+description: L’icône de lecture est superposée sur la zone d’affichage principale. Il s’affiche lorsque la vidéo est mise en pause ou lorsque la fin de la vidéo est atteinte, et il dépend également du paramètre iconeffect.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 ---
 
-# Effet Icône{#icon-effect}
+# Effet d’icône{#icon-effect}
 
-L’icône de lecture est superposée sur la zone d’affichage principale. Il s’affiche lorsque la vidéo est mise en pause ou lorsque la fin de la vidéo est atteinte, et dépend également du paramètre d’effet iconique .
+L’icône de lecture est superposée sur la zone d’affichage principale. Il s’affiche lorsque la vidéo est mise en pause ou lorsque la fin de la vidéo est atteinte, et il dépend également du paramètre iconeffect.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-L’aspect de l’icône de lecture est contrôlé à l’aide du sélecteur de classe CSS suivant :
+L’aspect de l’icône de lecture est contrôlé par le sélecteur de classe CSS suivant :
 
 ```
 .s7interactivevideoviewer . s7videoplayer .s7iconeffect
@@ -29,25 +29,25 @@ L’aspect de l’icône de lecture est contrôlé à l’aide du sélecteur de 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p> Image affichée de l’icône de lecture. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> le </span> image d’arrière-plan </p> </td> 
+   <td colname="col2"> <p> Image affichée pour l’icône de lecture. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> la position de l’arrière-plan </span> </p> </td> 
+   <td colname="col2"> <p> Positionnez à l’intérieur d’un sprite d’illustration si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-int-video/c-html5-aem-int-video-customizingviewer/c-html5-aem-int-video-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> des </a> Sprites CSS. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
    <td colname="col2"> <p> Largeur de l’icône de lecture. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> de hauteur </span> </p> </td> 
    <td colname="col2"> <p>Hauteur de l’icône de lecture. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-L’effet d’icône prend en charge le sélecteur d’attributs `state`. L’attribut `state="play"` est utilisé lorsque la vidéo est mise en pause au milieu de la lecture et `state="replay"` est utilisé lorsque la tête de lecture se trouve à la fin de la diffusion.
+L’effet d’icône prend en charge le sélecteur d’attributs `state`. L’attribut `state="play"` est utilisé lorsque la vidéo est mise en pause au milieu de la lecture et `state="replay"` est utilisé lorsque la tête de lecture se trouve à la fin du flux.
 
 ## Exemple {#section-e8caea0a303c425a8a637c2a47c06355}
 

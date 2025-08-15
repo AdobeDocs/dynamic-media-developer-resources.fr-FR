@@ -1,7 +1,7 @@
 ---
 description: Utilisé par ActiveJob/type et ScheduledJob/type.
 solution: Experience Manager
-title: Types de tâche
+title: Types de tâches
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c833c6f7-0f72-485d-8ad1-3620db7c320a
@@ -12,7 +12,7 @@ ht-degree: 10%
 
 ---
 
-# Types de tâche{#job-types}
+# Types de tâches{#job-types}
 
 Utilisé par ActiveJob/type et ScheduledJob/type.
 

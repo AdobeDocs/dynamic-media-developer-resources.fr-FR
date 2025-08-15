@@ -1,7 +1,7 @@
 ---
 description: Cette section décrit les variables utilisées pour spécifier les types de données.
 solution: Experience Manager
-title: Types de données
+title: Types des données
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9e6666bf-0b35-4ca2-a1e8-1fd2bf4cdcb1
@@ -12,7 +12,7 @@ ht-degree: 10%
 
 ---
 
-# Types de données{#data-types}
+# Types des données{#data-types}
 
 Cette section décrit les variables utilisées pour spécifier les types de données.
 
@@ -21,4 +21,4 @@ Cette section décrit les variables utilisées pour spécifier les types de donn
 * [coordN](r-coordn.md)
 * [objet](r-object.md)
 * [taille](r-size.md)
-* [sizeN](r-sizen.md)
+* [tailleN](r-sizen.md)

@@ -1,6 +1,6 @@
 ---
-title: Sources d’image étrangères
-description: La diffusion d’images prend en charge l’accès aux images source sur les serveurs HTTP et FTP étrangers.
+title: Sources d’images étrangères
+description: Image Serving prend en charge l’accès aux images sources sur des serveurs HTTP et FTP étrangers.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,14 +12,14 @@ ht-degree: 0%
 
 ---
 
-# Sources d’image étrangères{#foreign-image-sources}
+# Sources d’images étrangères{#foreign-image-sources}
 
-La diffusion d’images prend en charge l’accès aux images source sur les serveurs HTTP et FTP étrangers.
+Image Serving prend en charge l’accès aux images sources sur des serveurs HTTP et FTP étrangers.
 
-Pour spécifier une URL étrangère pour une commande `src=` ou `mask=`, délimitez simplement l’URL entière incorporée par des accolades :
+Pour spécifier une URL étrangère pour une `src=` ou une `mask=` commande, délimitez simplement l’intégralité de l’URL incorporée à l’aide d’accolades :
 
 ` …&src={ *[!DNL foreignUrl]*}&…`
 
-Les URL absolues complètes (si `attribute::AllowDirectUrls` est défini) et les URL relatives à `attribute::RootUrl` sont autorisées. Une erreur se produit si une URL absolue est incorporée et l’attribut : `AllowDirectUrls` est 0 ou si une URL relative est spécifiée et `attribute::RootUrl` est vide.
+Les URL absolues complètes (si `attribute::AllowDirectUrls` est définie) et les URL relatives à `attribute::RootUrl` sont autorisées. Une erreur se produit si une URL absolue est incorporée et attribute :: `AllowDirectUrls` est 0, ou si une URL relative est spécifiée et `attribute::RootUrl` est vide.
 
 Les images étrangères sont mises en cache par le serveur en fonction des en-têtes de mise en cache inclus dans la réponse HTTP.

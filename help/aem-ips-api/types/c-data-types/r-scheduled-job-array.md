@@ -1,5 +1,5 @@
 ---
-description: Tableau de tâches planifiées.
+description: Un tableau de tâches planifiées.
 solution: Experience Manager
 title: ScheduledJobArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL ScheduledJobArray]{#scheduledjobarray}
 
-Tableau de tâches planifiées.
+Un tableau de tâches planifiées.
 
 Syntaxe
 

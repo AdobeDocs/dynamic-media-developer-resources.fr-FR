@@ -19,16 +19,16 @@ ht-degree: 7%
 <table id="table_4322E3ECE9354016B891F5E7A35D6A2A"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> instantanin</span> </span> </p> </td> 
-   <td> <p>Permet aux boutons de s’aligner en regard des échantillons. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> instantané </span> </span> </p> </td> 
+   <td> <p>aligne les boutons en regard des nuanciers. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> instantanout</span> </span> </p> </td> 
-   <td> <p>Permet aux boutons de s’aligner en regard de la bordure du composant. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> instantané </span> </span> </p> </td> 
+   <td> <p>Aligne les boutons en regard de la bordure du composant. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> superposition</span> </span> </p> </td> 
-   <td> <p>Les boutons sont affichés au-dessus des échantillons. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> superposition </span> </span> </p> </td> 
+   <td> <p>Fait en sorte que le rendu des boutons s’effectue au-dessus des échantillons. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,5 +1,5 @@
 ---
-description: Regroupez les fichiers en ensembles à l’aide d’un tableau de liste de gestionnaires de ressources.
+description: Regroupez les fichiers en jeux à l’aide d’un tableau de liste de gestion des ressources.
 solution: Experience Manager
 title: AutomatedSetGenerationJob
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # [!DNL AutomatedSetGenerationJob]{#automatedsetgenerationjob}
 
-Regroupez les fichiers en ensembles à l’aide d’un tableau de liste de gestionnaires de ressources.
+Regroupez les fichiers en jeux à l’aide d’un tableau de liste de gestion des ressources.
 
 Syntaxe
 
@@ -32,12 +32,12 @@ Syntaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL assetHandleArray]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> types:HandleArray</span> </td> 
-   <td colname="col3">Tableau de gestionnaires de ressources utilisés pour créer la visionneuse. <p>Par défaut, 1 000 est le nombre maximal de ressources que vous pouvez avoir dans le tableau. </p></td> 
+   <td colname="col3">Tableau de descripteurs de ressources utilisé pour créer l’ensemble. <p>Par défaut, 1 000 est le nombre maximal de ressources que vous pouvez avoir dans le tableau. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL destFolder]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Chemin du dossier dans lequel vous souhaitez enregistrer les visionneuses. Enregistre le dossier racine de l’entreprise par défaut. </td> 
+   <td colname="col3"> Chemin d’accès au dossier dans lequel vous souhaitez enregistrer les jeux. Enregistre dans le dossier racine d’entreprise par défaut. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL readyForPublish]</span> </span> </td> 
@@ -46,28 +46,28 @@ Syntaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL autoSetCreationOptions]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:AutoSetCreationOptions</span> </td> 
-   <td colname="col3">Tableau de scripts de génération d’ensembles que vous pouvez exécuter sur les fichiers chargés. Voir <a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> AutoSetCreationOptions</a></td> 
+   <td colname="col2"> <span class="codeph"> de sous-domaines:AutoSetCreationOptions</span> </td> 
+   <td colname="col3">Tableau de scripts de génération définis que vous pouvez exécuter sur les fichiers chargés. Voir <a href="../../types/c-data-types/r-auto-set-creation-options.md#reference-58b42b39e53345aeb87cd1adc864e7ff" format="dita" scope="local"> AutoSetCreationOptions</a></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL emailSetting]</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Configurez une notification électronique automatisée pour la tâche. </p> </td> 
+   <td colname="col3"> <p>Configurez une notification électronique automatisée pour le traitement. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**EmailSetting Options**
+**options emailSetting**
 
 Le paramètre `emailSetting` comprend les options suivantes :
 
 | Option | Renvoie |
 |---|---|
-| `All` | Toutes les notifications de tâche (erreurs, avertissements, achèvement) au destinataire spécifié. |
-| `Error` | Erreurs de tâche sur le destinataire spécifié. |
-| `ErrorAndWarning` | Erreurs et avertissements de tâche pour le destinataire spécifié. |
+| `All` | Toutes les notifications de traitement (erreurs, avertissements, fin) au destinataire spécifié. |
+| `Error` | Erreurs de traitement du destinataire spécifié. |
+| `ErrorAndWarning` | Erreurs et avertissements de traitement du destinataire spécifié. |
 | `JobCompletion` | Notification de fin de tâche au destinataire spécifié. |
-| `None` | La tâche n’envoie aucune notification de tâche au destinataire spécifié. |
+| `None` | Le traitement n’envoie aucune notification de traitement au destinataire spécifié. |
 
 ## Exemple {#section-d01ee7671f274a1fa12737e8df91d2cf}
 

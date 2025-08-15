@@ -1,5 +1,5 @@
 ---
-description: Propriétés d’une ressource de fichier de paramètres de PDF.
+description: Propriétés d’une ressource de fichier de paramètres PDF.
 solution: Experience Manager
 title: PdfSettingsInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # [!DNL PdfSettingsInfo]{#pdfsettingsinfo}
 
-Propriétés d’une ressource de fichier de paramètres de PDF.
+Propriétés d’une ressource de fichier de paramètres PDF.
 
 Syntaxe
 
@@ -22,6 +22,6 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| originalPath | `xsd:string` | Chemin du fichier. |
-| originalFile | `xsd:string` | Nom du fichier. |
-| fileSize | `xsd:int` | Taille de fichier. |
+| Chemin d’origine | `xsd:string` | Chemin du fichier. |
+| Fichier d’origine | `xsd:string` | Nom du fichier. |
+| Taille du fichier | `xsd:int` | Taille de fichier. |

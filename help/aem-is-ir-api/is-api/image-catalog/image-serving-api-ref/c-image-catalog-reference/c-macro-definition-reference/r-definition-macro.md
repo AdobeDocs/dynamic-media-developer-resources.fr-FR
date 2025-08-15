@@ -1,5 +1,5 @@
 ---
-description: Définition des macros. Un fragment de protocole de diffusion d’images constitué d’une ou de plusieurs commandes complètes, séparées par des caractères '&'.
+description: Définition d'une macro. Un fragment de protocole de diffusion d’images consistant en une ou plusieurs commandes complètes, séparées par des caractères «& ».
 solution: Experience Manager
 title: Définition
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 4%
 
 # Définition{#definition}
 
-Définition des macros. Un fragment de protocole de diffusion d’images constitué d’une ou de plusieurs commandes complètes, séparées par des caractères &#39;&amp;&#39;.
+Définition d&#39;une macro. Un fragment de protocole de diffusion d’images consistant en une ou plusieurs commandes complètes, séparées par des caractères «&amp; ».
 
-Les définitions de macro peuvent appeler d’autres macros, mais les macros doivent être définies avant de pouvoir être référencées. Ainsi, une définition de macro peut appeler une macro qui se produit plus tôt dans le même fichier de définition de macro. Il peut également appeler une macro à partir du catalogue par défaut, en supposant que la définition de macro appelant ne figure pas dans le même fichier. Les macros peuvent définir et utiliser des variables personnalisées.
+Les définitions de macros peuvent appeler d’autres macros, mais les macros doivent être définies avant de pouvoir être référencées. Ainsi, une définition de macro peut appeler une macro qui se produit plus tôt dans le même fichier de définition de macro. Elle peut également appeler une macro à partir du catalogue par défaut, en supposant que la définition de macro invoquée ne se trouve pas dans le même fichier. Les macros peuvent définir et utiliser des variables personnalisées.
 
 ## Propriétés {#section-31514bdf04474c53a3a1fd5a52417bb9}
 

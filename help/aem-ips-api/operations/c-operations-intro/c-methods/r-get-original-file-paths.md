@@ -1,5 +1,5 @@
 ---
-description: Obtient les chemins d’accès aux fichiers d’origine des ressources d’une entreprise.
+description: Obtient les chemins d’accès d’origine des ressources d’une société.
 solution: Experience Manager
 title: getOriginalFilePaths
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # getOriginalFilePaths{#getoriginalfilepaths}
 
-Obtient les chemins d’accès aux fichiers d’origine des ressources d’une entreprise.
+Obtient les chemins d’accès d’origine des ressources d’une société.
 
 Syntaxe
 
@@ -38,20 +38,20 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | La poignée de la société. |
-| assetHandleArray | `types:HandleArray` | Oui | Tableau de gestionnaires des ressources dont vous souhaitez obtenir le chemin d’accès au fichier d’origine. |
+| CompanyHandle | `xsd:string` | Oui | La poignée de l’entreprise. |
+| assetHandleArray | `types:HandleArray` | Oui | Tableau des indicateurs des actifs dont vous souhaitez obtenir le chemin d’origine. |
 
-**Sortie (getOriginalFilePathsReturn)**
+**Output (getOriginalFilePathsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| originalFileArray | `types:StringArray` | Oui | Tableau de chaînes représentant les chemins d’accès aux fichiers d’origine. |
+| Tableau de fichiers d’origine | `types:StringArray` | Oui | Tableau de chaînes représentant les chemins d’accès au fichier d’origine. |
 
 ## Exemples {#section-a966e783a2ba49f5b6b0f961329ab2f8}
 
-Cet exemple de code renvoie les chemins d’accès aux fichiers des ressources spécifiées avec des gestionnaires de ressources uniques dans un tableau de gestion des ressources.
+Cet exemple de code renvoie les chemins d’accès aux fichiers des ressources spécifiées avec des descripteurs de ressources uniques dans un tableau de descripteurs de ressources.
 
-**Requête**
+**Demander**
 
 ```java
 <ns1:getOriginalFilePathsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

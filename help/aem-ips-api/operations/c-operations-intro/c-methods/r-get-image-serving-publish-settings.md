@@ -1,5 +1,5 @@
 ---
-description: Pour une utilisation interne uniquement. Les utilisateurs doivent se référer à la section Référence du catalogue d’images du serveur d’images - Référence d’attribut .
+description: Pour usage interne uniquement. Les utilisateurs doivent se reporter à la section Référence du catalogue d’images de la diffusion d’images - Référence d’attribut .
 solution: Experience Manager
 title: getImageServingPublishSettings
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # getImageServingPublishSettings{#getimageservingpublishsettings}
 
-Pour une utilisation interne uniquement. Les utilisateurs doivent se référer à la section Référence du catalogue d’images du serveur d’images - Référence d’attribut .
+Pour usage interne uniquement. Les utilisateurs doivent se reporter à la section Référence du catalogue d’images de la diffusion d’images - Référence d’attribut .
 
 Syntaxe
 
@@ -27,12 +27,12 @@ Syntaxe
 
 ## Paramètres {#section-79f0d54acd604ad2a5c96679334f2424}
 
-**Entrée (getImageServingPublishSettingsParam)**
+**Input (getImageServingPublishSettingsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gestion de l’entreprise avec les paramètres de publication de la diffusion d’images. |
-| contextHandle | `xsd:string` | Oui | Gérer au contexte de publication. |
+| companyHandle | `xsd:string` | Oui | La poignée de la société avec les paramètres de publication du service d’images. |
+| contextHandle | `xsd:string` | Oui | Gérer vers le contexte de publication. |
 
 **Output**
 

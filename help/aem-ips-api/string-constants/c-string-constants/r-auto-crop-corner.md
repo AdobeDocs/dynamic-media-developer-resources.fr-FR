@@ -1,7 +1,7 @@
 ---
 description: Utilisé par AutoCropColorOptions/corner.
 solution: Experience Manager
-title: Coin de recadrage automatique
+title: Coin du recadrage automatique
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a9ed9cfa-a11e-4e71-9e46-9589451cdad9
@@ -12,7 +12,7 @@ ht-degree: 14%
 
 ---
 
-# Coin de recadrage automatique{#autocrop-corner}
+# Coin du recadrage automatique{#autocrop-corner}
 
 Utilisé par AutoCropColorOptions/corner.
 

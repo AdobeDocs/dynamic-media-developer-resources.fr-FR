@@ -14,13 +14,13 @@ ht-degree: 6%
 
 # Swatches.iscommand{#swatches-iscommand}
 
-` [Swatches.|<containerId>_swatches.]iscommand= *`isCommand`*`
+` [Swatches.|<containerId>_swatches.]iscommand= *`Commande isCommand`*`
 
 <table id="table_43A84C1044574A6FAB8CE67D71AAD5EC"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> Chaîne de commande de diffusion d’images appliquée à tous les échantillons. S’il est spécifié dans l’URL, veillez à coder toutes les occurrences de <span class="codeph"> &amp;</span> et <span class="codeph"> =</span> en tant que <span class="codeph"> %26</span> et <span class="codeph"> %3D</span>, respectivement. </p> <p> <p>Remarque : Les commandes de manipulation de dimensionnement d’image ne sont pas prises en charge. </p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> Commande isCommand</span> </span> </p> </td> 
+   <td colname="col2"> <p> Chaîne de commande Diffusion d’images appliquée à toutes les nuances. S’il est spécifié dans l’URL, veillez à coder HTTP toutes les occurrences de <span class="codeph"> &amp;</span> et = <span class="codeph"></span> comme <span class="codeph"> %26</span> et <span class="codeph"> %3D</span>, respectivement. </p> <p> <p>Remarque : les commandes de manipulation de dimensionnement d’image ne sont pas prises en charge. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -35,10 +35,10 @@ Aucune
 
 ## Exemple {#section-bd6c4249bccf44aab13fee8552f5a8b3}
 
-Lorsqu’il est spécifié dans l’URL de la visionneuse.
+Lorsque cela est spécifié dans l’URL de la visionneuse.
 
 `iscommand=op_sharpen%3d1%26op_colorize%3d0xff0000`
 
-Lorsqu’elles sont spécifiées dans les données de configuration.
+Lorsque cela est indiqué dans les données de configuration.
 
 `iscommand=op_sharpen=1&op_colorize=0xff0000`

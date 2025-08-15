@@ -19,16 +19,16 @@ ht-degree: 7%
 <table id="table_4322E3ECE9354016B891F5E7A35D6A2A"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> instantanin</span> </span> </p> </td> 
-   <td> <p>Permet aux boutons de s’aligner en regard des échantillons. </p> </td> 
+   <td> <p> <span class="codeph"><span class="varname"> Composant logiciel</span> enfichable </span> </p> </td> 
+   <td> <p>Alignement des boutons en regard des échantillons. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> instantanout</span> </span> </p> </td> 
-   <td> <p>Permet aux boutons de s’aligner en regard de la bordure du composant. </p> </td> 
+   <td> <p> <span class="codeph"><span class="varname"> Snapout</span> </span> </p> </td> 
+   <td> <p>Alignent les boutons en regard de la bordure du composant. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> superposition</span> </span> </p> </td> 
-   <td> <p>Les boutons sont affichés au-dessus des échantillons. </p> </td> 
+   <td> <p> <span class="codeph"><span class="varname"> superposer</span> </span> </p> </td> 
+   <td> <p>Affiche le rendu des boutons au-dessus des échantillons. </p> </td> 
   </tr> 
  </tbody> 
 </table>

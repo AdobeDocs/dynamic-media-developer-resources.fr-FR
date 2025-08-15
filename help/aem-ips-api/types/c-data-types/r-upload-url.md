@@ -23,4 +23,4 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | sourceUrl | `xsd:string` | URL source à partir de laquelle la ressource est chargée. |
-| destPath | `xsd:string` | Chemin d’accès au fichier IPS et nom du fichier vers lequel vous souhaitez effectuer le téléchargement. |
+| destPath | `xsd:string` | Le chemin d&#39;accès au fichier IPS et le nom du fichier vers lequel vous souhaitez charger. |

@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Contient les paramètres du serveur de plateforme.
 
-Lors de la modification de ce fichier XML, veillez à conserver une syntaxe XML valide, sinon le [!DNL Platform Server] risque de ne pas démarrer.
+Lors de la modification de ce fichier XML, vous devez veiller à conserver une syntaxe XML valide, sinon le [!DNL Platform Server] risque de ne pas démarrer.
 
-Pour que les modifications prennent effet, [!DNL Platform Server] doit être redémarré après avoir modifié ce fichier.
+Pour que les modifications prennent effet, le [!DNL Platform Server] doit être redémarré après la modification de ce fichier.
 
-Le diagramme suivant illustre les paramètres qui peuvent être modifiés dans ce fichier. Reportez-vous aux sections correspondantes plus tôt dans ce document pour une description de ces paramètres. Notez que ce diagramme n’est pas une représentation complète de [!DNL server.xml].
+Le diagramme suivant montre les paramètres qui peuvent être modifiés dans ce fichier. Reportez-vous aux sections correspondantes plus haut dans ce document pour une description de ces paramètres. Notez que ce diagramme n’est pas une représentation complète de [!DNL server.xml].
 
 ```
 <Server>

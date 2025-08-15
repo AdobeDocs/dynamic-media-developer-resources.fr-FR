@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Prise en charge du suivi Adobe Analytics{#support-for-adobe-analytics-tracking}
 
-Par défaut, la visionneuse envoie une requête HTTP de suivi unique à un serveur d’images configuré avec le type de visionneuse et les informations de version.
+Par défaut, la visionneuse envoie une seule requête HTTP de suivi à un serveur d’images configuré avec le type de visionneuse et les informations de version.
 
 ## Suivi personnalisé {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Pour s’intégrer à des systèmes d’analyse tiers, il est nécessaire d’écouter l’argument de rappel de visionneuse `trackEvent` et de traiter `eventInfo` de la fonction de rappel, si nécessaire. Le code suivant est un exemple de fonction de gestionnaire de ce type :
+Pour intégrer des systèmes d’analyse tiers, il est nécessaire d’écouter le `trackEvent` rappel de la visionneuse et de traiter `eventInfo` l’argument de la fonction de rappel si nécessaire. Le code suivant est un exemple de fonction de gestionnaire de ce type :
 
 ```javascript {.line-numbers}
 var panoramicViewer = new s7viewers.PanoramicViewer({
@@ -42,19 +42,19 @@ var panoramicViewer = new s7viewers.PanoramicViewer({
 });
 ```
 
-La visionneuse effectue le suivi des événements utilisateur du SDK suivants :
+La visionneuse effectue le suivi des événements utilisateur SDK suivants :
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Événement d’utilisateur du SDK </p> </th> 
-   <th colname="col2" class="entry"> <p>Envoyé... </p> </th> 
+   <th colname="col1" class="entry"> <p>Evénement utilisateur SDK </p> </th> 
+   <th colname="col2" class="entry"> <p>Envoyèrent... </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
-   <td colname="col2"> <p>lorsque la visionneuse est chargée en premier. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CHARGER </span> </p> </td> 
+   <td colname="col2"> <p>Lorsque la visionneuse est chargée en premier. </p> </td> 
   </tr> 
  </tbody> 
 </table>

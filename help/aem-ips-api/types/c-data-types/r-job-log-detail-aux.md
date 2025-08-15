@@ -1,5 +1,5 @@
 ---
-description: Contient des messages supplémentaires associés au message principal du log de traitement (JobDetail). Inclut des avertissements et d’autres détails associés à la ressource traitée actuellement.
+description: Contient des messages supplémentaires associés au message principal du log de traitement (JobDetail). Inclut des avertissements et d’autres détails associés à la ressource en cours de traitement.
 solution: Experience Manager
 title: JobLogDetailAux
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # [!DNL JobLogDetailAux]{#joblogdetailaux}
 
-Contient des messages supplémentaires associés au message principal du log de traitement (JobDetail). Inclut des avertissements et d’autres détails associés à la ressource traitée actuellement.
+Contient des messages supplémentaires associés au message principal du log de traitement (JobDetail). Inclut des avertissements et d’autres détails associés à la ressource en cours de traitement.
 
 Syntaxe
 
@@ -24,4 +24,4 @@ Syntaxe
 |---|---|---|
 | logMessage | `xsd:string` | Un message auxiliaire. |
 | logType | `xsd:string` | Type de journal : `IPSJobLog.gcUploadWarning` ou `IPSJobLog.gcUploadError`. |
-| dateCreated | `xsd:dateTime` | Date de création du journal des tâches auxiliaire. |
+| dateCreated | `xsd:dateTime` | Date de création du log de traitement auxiliaire. |

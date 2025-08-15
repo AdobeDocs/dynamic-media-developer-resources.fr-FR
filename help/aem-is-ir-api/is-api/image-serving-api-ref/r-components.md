@@ -1,6 +1,6 @@
 ---
 title: Composants de diffusion d’images
-description: La diffusion d’images Dynamic Media se compose des composants suivants.
+description: Le service d’images Dynamic Media se compose des composants suivants.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Composants de diffusion d’images{#image-serving-components}
 
-Dynamic Media Image Serving se compose des composants suivants :
+La diffusion d’images Dynamic Media se compose des composants suivants :
 
 <table id="table_534AF33FE5C4453EACAE0DF35E8E3B63"> 
  <thead> 
@@ -26,15 +26,15 @@ Dynamic Media Image Serving se compose des composants suivants :
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Superviseur de serveur </p> </td> 
-   <td colname="col2"> <p>Exécutable autonome chargé de démarrer, d’arrêter et d’assurer l’intégrité des autres composants. </p> </td> 
+   <td colname="col2"> <p>Un exécutable autonome chargé de démarrer, d’arrêter et d’assurer l’intégrité des autres composants. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Apache Tomcat </p> </td> 
-   <td colname="col2"> <p>Il fournit l’environnement pour la plupart des composants Java. </p> </td> 
+   <td colname="col2"> <p>Il fournit l’environnement pour la plupart des composants basés sur Java. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Service de surveillance/d’alerte </p> </td> 
-   <td colname="col2"> <p>Application J2EE. Permet la surveillance du serveur et les alertes par e-mail. </p> </td> 
+   <td colname="col2"> <p>Application J2EE. Surveillance du serveur et alertes par e-mail. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>[!DNL Platform Server] </p> </td> 
@@ -42,25 +42,25 @@ Dynamic Media Image Serving se compose des composants suivants :
   </tr> 
   <tr> 
    <td colname="col1"> <p>Service de mise en cache </p> </td> 
-   <td colname="col2"> <p>Application J2EE. Gère les caches de données de [!DNL Platform Server]. Accès HTTP à /is/cache. </p> </td> 
+   <td colname="col2"> <p>Application J2EE. Gère les caches de données du [!DNL Platform Server]. Accès HTTP à /is/cache. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Image Server </p> </td> 
-   <td colname="col2"> <p>Il effectue toutes les opérations d’E/S de traitement d’image et de fichier image. Les exécutables 32 bits et 64 bits sont disponibles pour Linux® (32 bits uniquement pour Windows). </p> </td> 
+   <td colname="col2"> <p>Il effectue toutes les opérations de traitement des images et d’E/S de fichiers images. Les exécutables 32 bits et 64 bits sont disponibles pour Linux® (32 bits uniquement pour Windows). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Composant de rendu de texte ATE </p> </td> 
-   <td colname="col2"> <p>Une ou plusieurs instances du service de rendu de texte peuvent être actives lorsque les opérations <span class="codeph"> textPs=</span> sont exécutées. </p> </td> 
+   <td colname="col1"> <p>Composant de rendu de texte DATE </p> </td> 
+   <td colname="col2"> <p>Une ou plusieurs instances du service de rendu de texte peuvent être actives lors de l'exécution d'opérations textPs=<span class="codeph"> </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Composant de rendu SVG </p> </td> 
    <td colname="col2"> <p>Application Java™ autonome (non hébergée par Tomcat). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Rendu d’image Dynamic Media (alias Render Server) </p> </td> 
-   <td colname="col2"> <p>Elle nécessite une licence distincte pour être activée. Accès HTTP à <span class="filepath"> /ir/render</span>. Toutes les fonctionnalités de rendu d’image sont intégrées à [!DNL Platform Server] et au serveur d’images, sans composants exécutables distincts. </p> </td> 
+   <td colname="col1"> <p>Rendu d’image Dynamic Media (alias. Serveur de rendu) </p> </td> 
+   <td colname="col2"> <p>L’activation nécessite une licence distincte. Accès HTTP à <span class="filepath"> /ir/render</span>. Toutes les fonctionnalités de rendu d’image sont intégrées dans le [!DNL Platform Server] et le serveur d’images, sans composants exécutables distincts. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Des paramètres de configuration supplémentaires sont fournis par le catalogue par défaut ( [!DNL default.ini]) ou des catalogues d’images spécifiques (voir [Catalogues d’images](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) pour plus d’informations).
+Des paramètres de configuration supplémentaires sont fournis par le catalogue par défaut ( [!DNL default.ini]) ou des catalogues d’images spécifiques (voir [ Catalogues d’images](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) pour plus d’informations).

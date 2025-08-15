@@ -1,5 +1,5 @@
 ---
-description: Chemins du fichier de données du SVG. Spécifie les fichiers contenant les données du SVG pour ce catalogue.
+description: Chemins d’accès aux fichiers de données SVG. Spécifie les fichiers contenant les données SVG pour ce catalogue.
 solution: Experience Manager
 title: SvgCatalogFile
 feature: Dynamic Media Classic,SDK/API
@@ -14,18 +14,18 @@ ht-degree: 2%
 
 # SvgCatalogFile{#svgcatalogfile}
 
-Chemins du fichier de données du SVG. Spécifie les fichiers contenant les données du SVG pour ce catalogue.
+Chemins d’accès aux fichiers de données SVG. Spécifie les fichiers contenant les données SVG pour ce catalogue.
 
-Les fichiers de données de SVG sont chargés après tous les fichiers de données image, dans l’ordre exact spécifié. Si la même valeur `catalog::Id` apparaît dans plusieurs enregistrements (dans la même image ou dans des fichiers de catalogue de SVG différents), la dernière instance prévaut.
+Les fichiers de données SVG sont chargés après tous les fichiers de données d’image, dans l’ordre exact spécifié. Si la même valeur de `catalog::Id` apparaît dans plusieurs enregistrements (dans une même image ou des fichiers de catalogue SVG différents), la dernière instance prévaut.
 
 ## Propriétés {#section-fc2d549f76474792837b2b92ec2087ea}
 
-Une ou plusieurs valeurs de chaîne de texte, séparées par des virgules. Facultatif. Chaque valeur doit être un chemin d’accès ou un chemin d’accès absolu au fichier par rapport au dossier de catalogue.
+Une ou plusieurs valeurs de chaîne de texte, séparées par des virgules. Facultatif. Chaque valeur doit être un chemin d’accès absolu au fichier ou un chemin d’accès relatif au dossier du catalogue.
 
 ## Par défaut {#section-a4e58951f3c249599665b823566433c9}
 
-Vide, ce qui indique que ce catalogue d’images n’inclut aucune donnée de SVG.
+Vide, ce qui indique que ce catalogue d’images n’inclut aucune donnée SVG.
 
 ## Voir aussi {#section-dad6cf4cc5994cf5bbed8807c96119dd}
 
-[Données du catalogue](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-data-fields/c-catalog-data-fields.md#concept-b19581028ec44f98b9f5943624403d29), [CatalogFile](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-catalogfile.md#reference-16498bb4cb33458697c1ab002ea8db79)
+[Données de catalogue](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-catalog-data-fields/c-catalog-data-fields.md#concept-b19581028ec44f98b9f5943624403d29), [FichierCatalogue](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-catalogfile.md#reference-16498bb4cb33458697c1ab002ea8db79)

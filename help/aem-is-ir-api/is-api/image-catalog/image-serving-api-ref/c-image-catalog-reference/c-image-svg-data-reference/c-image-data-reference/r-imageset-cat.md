@@ -1,5 +1,5 @@
 ---
-description: Données de visionneuse d’images. Fournit un mécanisme permettant de définir des ensembles triés d’images et de contrôler les attributs utilisés par les visionneuses Dynamic Media.
+description: Données de la visionneuse d’images. Fournit un mécanisme permettant de définir des ensembles triés d’images et des attributs de contrôle utilisés par les Dynamic Media les visionneuses.
 solution: Experience Manager
 title: ImageSet
 feature: Dynamic Media Classic,SDK/API,Image Sets
@@ -14,15 +14,15 @@ ht-degree: 1%
 
 # ImageSet{#imageset}
 
-Données de visionneuse d’images. Fournit un mécanisme permettant de définir des ensembles triés d’images et de contrôler les attributs utilisés par les visionneuses Dynamic Media.
+Données de la visionneuse d’images. Fournit un mécanisme permettant de définir des ensembles triés d’images et des attributs de contrôle utilisés par les Dynamic Media les visionneuses.
 
-Une visionneuse d’images se compose d’une liste triée d’éléments séparés par des virgules. Chaque élément se compose d’un ou de plusieurs sous-éléments (identifiants d’image, identifiants d’échantillon, chemins d’accès au fichier multimédia, libellés, etc.), séparés par des points-virgules, des deux-points ou les deux-points.
+Une visionneuse d’images se compose d’une liste d’éléments triés et séparés par des virgules. Chaque élément se compose d’un ou plusieurs sous-éléments (ID d’image, ID d’échantillon, chemins d’accès aux fichiers multimédias, étiquettes, etc.), séparés par des points-virgules, deux-points ou les deux.
 
-Les accolades `{ }` et les parenthèses `( )` peuvent être utilisées pour délimiter certains contenus (des valeurs de couleur, par exemple) ou indiquer des ensembles imbriqués. Les accolades ou parenthèses utilisées de cette manière ne doivent pas être codées et doivent toujours apparaître sous forme de paires correspondantes, sinon une erreur d’analyse du catalogue se produit.
+Des accolades `{ }` et des parenthèses `( )` peuvent être utilisées pour délimiter certains contenus (tels que les valeurs de couleur) ou indiquer des ensembles imbriqués. Les accolades ou parenthèses utilisées de cette manière ne doivent pas être codées et doivent toujours apparaître comme des paires correspondantes, sinon une erreur d’analyse du catalogue se produit.
 
 >[!NOTE]
 >
->Les caractères suivants sont utilisés comme délimiteurs définis et doivent être codés en HTTP lorsqu’ils apparaissent dans le jeu comme faisant partie des valeurs d’identifiant ou de chaîne :
+>Les caractères suivants sont utilisés comme délimiteurs d’ensemble et doivent être codés en HTTP lorsqu’ils apparaissent dans l’ensemble en tant que partie de valeurs id ou string :
 >
 >* `,`
 >* `;`
@@ -33,91 +33,91 @@ Les accolades `{ }` et les parenthèses `( )` peuvent être utilisées pour dél
 >* `)`
 
 
-Pour plus d’informations sur la structure et l’utilisation des visionneuses d’images, reportez-vous à la documentation relative aux visionneuses de serveur d’images .
+Reportez-vous à la documentation Image Serving Viewers pour plus de détails sur la structure et l’utilisation des visionneuses d’images.
 
-Le serveur renvoie le contenu de ce champ sans modification en réponse à une requête `req=imageset`.
+Le serveur renvoie le contenu de ce champ sans modification en réponse à une `req=imageset` requête.
 
-## Visionneuses standard {#section-5ecc8ffee7224668b63f601383665564}
+## Ensembles standard {#section-5ecc8ffee7224668b63f601383665564}
 
-Les définitions d’ensemble suivantes sont prises en charge en mode natif par le serveur d’images. L’accès à certaines visionneuses implique l’analyse, la validation et le traitement côté serveur de la visionneuse. Chaque type défini peut être identifié en spécifiant la valeur correspondante dans `catalog::AssetType`.
+Les définitions de jeu suivantes sont prises en charge en mode natif par Image Server, et l’accès avec certaines visionneuses implique l’analyse, la validation et le traitement de la visionneuse côté serveur. Chaque type d’ensemble peut être identifié en spécifiant la valeur correspondante dans `catalog::AssetType`.
 
-**Série d’échantillons de base**
+**Séries d’échantillons de base**
 
-Chaque élément d’un ensemble d’échantillons de base est constitué d’une référence à un enregistrement d’image et d’une référence séparée facultative à un enregistrement d’image utilisé comme échantillon.
+Chaque élément d’une série d’échantillons de base se compose d’une référence à un enregistrement d’image et d’une référence distincte facultative à un enregistrement d’image utilisé comme échantillon.
 
-| `*`basicSwatchSet`*` | `*`swatchItem`*&#42;[',' *`swatchItem`*]` |
+| `*`Série d’échantillons de base`*` | `*`Élément`*&#42;[',' *`d’échantillon Élément d’échantillon`*]` |
 |---|---|
-| `*`swatchItem`*` | `*`imageId`*[';' *`échantillon`*]` |
-| `*`échantillon`*` | `*`swatchId`*|solidColorSpecifier` |
-| `*`imageId`*` | Référence d’image IS (catalogue/id) |
-| `*`swatchId`*` | Référence d’image IS (catalogue/id) |
-| `*`solidColorSpecifier`*` | ` '{0x' *`rggbb`* [ *`label`*]'}'` |
-| `*`rggbb`*` | Valeur de couleur hexadécimale empilée à 6 chiffres pour les échantillons de couleur unie |
-| `*`label`*` | Libellé de texte facultatif pour les échantillons de couleurs solides |
+| `*`Élément d’échantillon`*` | `*`Échantillon d’ID d’image`*[';' *``*]` |
+| `*`échantillon`*` | `*`Identifiant de l’échantillon`*|solidColorSpecifier` |
+| `*`ID d’image`*` | Référence d’image IS (catalogue/id) |
+| `*`Identifiant de l’échantillon`*` | Référence d’image IS (catalogue/id) |
+| `*`solidColorSpecifier`*` | ` '{0x' *`étiquette rrggbb`* [ *``*]'}'` |
+| `*`rrggbb`*` | Valeur de couleur RVB hexadécimale à 6 chiffres emballée pour les échantillons de couleur unie |
+| `*`étiquette`*` | Libellé de texte facultatif pour les échantillons de couleur unie |
 
-**Série d’échantillons hiérarchique**
+**Série d’échantillons hiérarchiques**
 
-Chaque élément d’un ensemble d’échantillons hiérarchique peut être constitué d’un élément d’échantillon de base ou d’une référence à un enregistrement d’ensemble d’échantillons (des échantillons sont nécessaires pour ces éléments).
+Chaque élément d’une série d’échantillons hiérarchiques peut consister en un élément d’échantillon de base ou une référence à un enregistrement de série d’échantillons (des échantillons sont requis pour ces articles).
 
-| `*`hierarchySwatchSet`*` | `*`hierarchySwatchItem`* &#42;[ ',' *`hierarchySwatchItem`* ]` |
+| `*`hierarchicalSwatchSet`*` | `*`hierarchicalSwatchItem`* &#42;[ ',' *`hierarchicalSwatchItem`* ]` |
 |---|---|
-| `*`hierarchySwatchItem`*` | `*`swatchItem`* | { *`basicSwatchSetId`* ';' *`swatch`* }` |
-| `*`basicSwatchSetId`*` | Référence IS (catalogue/id) à un enregistrement de catalogue définissant un ensemble d’échantillons de base |
+| `*`hierarchicalSwatchItem`*` | `*`Élément d’échantillon`* | { *`de baseSwatchSetId`* ';' *`Nuance`* }` |
+| `*`Identifiant de base`*` | Référence IS (catalogue/id) à un enregistrement de catalogue définissant une série d’échantillons de base |
 
 **Visionneuses à 360° de base**
 
-Une visionneuse à 360° de base se compose d’une simple liste d’ID d’image.
+Une visionneuse à 360° de base consiste en une simple liste d’ID d’image.
 
 *`basicSpinSet imageId`*  &#42;`[ ';'`  *`imageId`* `]`
 
-**Visionneuses à 360° en deux dimensions**
+**Visionneuses à 360° bidimensionnelles**
 
-Chaque élément d’une visionneuse à 360° bidimensionnelle peut être constitué d’une image simple, d’une référence à une visionneuse à 360° de base ou d’une visionneuse à 360° en ligne délimitée par des accolades. Les parenthèses peuvent être utilisées à la place d’accolades.
+Chaque élément d’une visionneuse à 360° bidimensionnelle peut consister en une image simple, une référence à une visionneuse à 360° de base ou une visionneuse à 360° de base en ligne délimitée par des accolades. Des parenthèses peuvent être utilisées à la place d’accolades.
 
-| `*`2dSpinItem`*` | `*`2dSpinSet`* *`2dSpinItem`* &#42;[ ',' *`2dSpinItem`* ]` |
+| `*`2dÉlément de rotation`*` | `*`2dVisionneuse`* *`à 360° 2dÉlément`* &#42;[ ',' *`de rotation 2dÉlément de rotation`* ]` |
 |---|---|
-| `*`2dSpinItem`*` | `*`imageId`* | { '{' *`basicSpinSet`* '}' } | *`basicSpinSetId`*` |
-| `*`basicSpinSetId`*` | Référence IS (catalogue/id) à un enregistrement de catalogue définissant une visionneuse à 360° de base |
+| `*`2dÉlément de rotation`*` | `*`ID d’image`* | { '{' *`Visionneuse à 360`* '}' } | *`° de base`*` |
+| `*`Identifiant du jeu de rotations de base`*` | Référence IS (catalogue/id) à un enregistrement de catalogue définissant une visionneuse à 360° de base |
 
 **Jeux de pages**
 
-Chaque élément d’un jeu de pages peut contenir jusqu’à trois images de page séparées par des deux-points.
+Chaque élément d’un jeu de pages peut contenir jusqu’à trois images séparées par deux points.
 
-| `*`pageSet`*` | `*`pageItem`* &#42;[ , *`pageItem`* ]` |
+| `*`Visionneuse de pages`*` | `*`pageItem`* &#42;[ , *`pageItem`* ]` |
 |---|---|
-| `*`pageItem`*` | `*`imageId`* [ : *`imageId`* [ : *`imageId`* ] ]` |
+| `*`Élément de page`*` | `*`ID d’image`* [ : *`ID d’image`* [ : *`ID d’image`* ] ]` |
 
-**Visionneuses de médias**
+**Visionneuses de supports**
 
-Chaque élément d’une visionneuse de médias peut être constitué d’une image, d’un ensemble d’échantillons de base, d’un ensemble d’échantillons hiérarchiques, d’une visionneuse à 360° de base, d’une visionneuse de pages ou d’une ressource vidéo. Chaque élément d’une visionneuse de médias peut également contenir un échantillon facultatif et un identifiant de type.
+Chaque élément d’une visionneuse de supports peut se composer d’une image, d’une série d’échantillons de base, d’une série d’échantillons hiérarchiques, d’une visionneuse à 360° de base, d’une visionneuse à 360° bidimensionnelle, d’une visionneuse de pages ou d’une ressource vidéo. Chaque élément de visionneuse de supports peut également contenir un identifiant de type et d’échantillon facultatif.
 
-| `*`mediaSet`*` | `*`item`* &#42;[ , *`item`* ]` |
+| `*`Visionneuse de supports`*` | `*`élément`* &#42;[ , *``* ]` |
 |---|---|
-| `*`item`*` | ` { *`videoItem`* | *`recutItem`* | *`imageItem`*}} | *`setItem`* } [ ; [ *`ID`* ] [ ; [ *`réservé`* ] ] ]` |
-| `*`videoItem`*` | `*`video`* ; *`swatchId`*` |
-| `*`recutItem`*` | `*`recut`* ; *`swatchId`*` |
-| `*`imageItem`*` | `*`imageId`* ; [ *`swatchId`* ]` |
-| `*`setItem`*` | ` { *`setId`* | { '{' *`inlineSet`* '}' } } ; *`swatchId`*` |
+| `*`article`*` | ` { *`videoItem`* | *`recutItem`* | *`imageItem`*}} | *`setItem`* } [ ; [ *`ID`* ] [ ; [ *`reserved`* ] ] ]` |
+| `*`Élément vidéo`*` | `*`Identifiant de l’échantillon vidéo`* ; *``*` |
+| `*`RecutItem`*` | `*`Recut`* ; *`swatchId`*` |
+| `*`Élément d’image`*` | `*`ID d’image`* ; [ *`Identifiant de la nuance`* ]` |
+| `*`Élément défini`*` | ` { *`setId`* | { '{' *`Jeu intégré`* '}' } } ; *`Identifiant de la nuance swatchId`*` |
 | `*`ID`*` | `media type identifier [ img | basic | advanced_image | img | img_set | advanced_imageset | advanced_swatchset | spin | video ]` |
-| `*`swatchId`*` | Identifiant de l’image IS |
-| `*`video`*` | Chemin d’accès au fichier vidéo/d’animation ou ID de catalogue statique |
-| `*`recut`*` | Chemin d’accès au fichier XML de définition de récupération ou ID de catalogue statique |
-| `*`imageId`*` | Identifiant de l’image IS |
-| `*`setId`*` | Référence IS à une image, à une rotation ou à une visionneuse de catalogue électronique |
-| `*`inlineSet`*` | Image, rotation ou visionneuse de catalogue électronique intégrée |
-| `*`réservé`*` | Réservé pour une utilisation ultérieure |
+| `*`Identifiant de l’échantillon`*` | ID d’image IS |
+| `*`vidéo`*` | Chemin de fichier vidéo/animation ou ID de catalogue statique |
+| `*`Recut`*` | Chemin de fichier XML de définition de découpe ou identifiant de catalogue statique |
+| `*`ID d’image`*` | ID d’image IS |
+| `*`setId`*` | Référence IS à la visionneuse d’images, à 360° ou de catalogue électronique |
+| `*`Ensemble en ligne`*` | Visionneuse d’images intégrées, à 360° ou de catalogue électronique |
+| `*`réservé`*` | Réservé en vue d’une utilisation ultérieure |
 
 **Visionneuses de vidéos**
 
-Une visionneuse de vidéos se compose d’une simple liste d’identifiants vidéo dans laquelle chaque identifiant fait référence à une entrée dans le catalogue de contenu statique.
+Une visionneuse de vidéos se compose d’une simple liste d’ID vidéo où chaque ID fait référence à une entrée du catalogue de contenu statique.
 
 *`videoSet videoId`*  &#42;`[ ,`  *`videoId`* `]`
 
 ## Propriétés {#section-17c731e5c46646aa90ac21f39bb693ca}
 
-Chaîne de texte. Liste de valeurs `catalog::Id` séparées par des virgules, chemins d’accès absolus aux fichiers du serveur d’images ou chemins d’accès aux fichiers par rapport à `attribute::RootPath`. La même image peut être référencée plusieurs fois dans la visionneuse. L’enregistrement de catalogue de définition peut apparaître dans l’ensemble à n’importe quel emplacement.
+Chaîne de texte. liste de valeurs séparées par des virgules, chemins absolus aux `catalog::Id` fichiers Image Server ou chemins d’accès aux fichiers relatifs à `attribute::RootPath`. Une même image peut être référencée plusieurs fois dans l’ensemble. L’enregistrement de catalogue de définition peut apparaître dans l’ensemble à n’importe quel emplacement.
 
-Ce champ participe à la localisation de la chaîne de texte. Outre *`label`* chaînes (faisant partie de *`solidColorSpecifier`*), tous les champs délimités sont localisés s’ils contiennent au moins un jeton de localisation &#39; `^loc=…^`&#39;. Pour plus d’informations, reportez-vous à la section [Localisation de chaîne de texte](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) dans la *référence de protocole HTTP*.
+Ce champ participe à la localisation des chaînes de texte. *`label`* Outre les chaînes (qui font partie du ) tous les champs délimités sont localisés s’ils incluent au moins un jeton de *`solidColorSpecifier`* localisation &#39; `^loc=…^`&#39;. Pour plus d’informations, reportez-vous à [la section Localisation](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) de chaînes de texte dans la section Référence *du* protocole HTTP.
 
 ## Par défaut {#section-c3a60e360393478284f0f2d2da5b963b}
 
@@ -125,4 +125,4 @@ Aucune
 
 ## Voir également {#section-4c99c44f99074aa0a4ed90ba183bbc25}
 
-[req=imageset](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md) , [attribute::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md), [Traduction de l’ID d’objet](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md) , [Localisation de la chaîne de texte](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) , Documentation des visionneuses du serveur d’images
+[req=imageset](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md) , [attribute ::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md), [Traduction](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md) d’ID d’objet , [Localisation de](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) chaîne de texte , Documentation du serveur d’images

@@ -1,6 +1,6 @@
 ---
 title: Video360Player.loop
-description: Attribut de configuration de la visionneuse Video360.
+description: Attribut de configuration pour la visionneuse Video360.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # Video360Player.loop{#video-player-loop}
 
-Attribut de configuration de la visionneuse Video360.
+Attribut de configuration pour la visionneuse Video360.
 
 `[Video360Player.|<containerId>_video360Player.]loop=0|1`
 
@@ -22,7 +22,7 @@ Attribut de configuration de la visionneuse Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Indique si la lecture de la vidéo doit être à nouveau effectuée une fois la lecture terminée. </p> </td> 
+   <td colname="col2"> <p> Indique si la lecture de la vidéo doit recommencer une fois terminée. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,6 +1,6 @@
 ---
 title: Prise en charge du suivi Adobe Analytics
-description: La visionneuse vidéo avec recadrage intelligent prend en charge le suivi Adobe Analytics prêt à l’emploi.
+description: La visionneuse de vidéos avec recadrage intelligent prend en charge le suivi Adobe Analytics prêt à l’emploi.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User,Data Engineer,Data Architect
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 # Prise en charge du suivi Adobe Analytics{#support-for-adobe-analytics-tracking}
 
-La visionneuse vidéo avec recadrage intelligent prend en charge le suivi Adobe Analytics prêt à l’emploi.
+La visionneuse de vidéos avec recadrage intelligent prend en charge le suivi Adobe Analytics prêt à l’emploi.
 
-## Suivi d’usine {#section-3b101fe30be943c1b679fd5c273569ca}
+## Tracking d’usine {#section-3b101fe30be943c1b679fd5c273569ca}
 
-La visionneuse vidéo avec recadrage intelligent prend en charge le suivi Adobe Analytics prêt à l’emploi.
+La visionneuse de vidéos avec recadrage intelligent prend en charge le suivi Adobe Analytics prêt à l’emploi.
 
-Pour activer le suivi, transmettez le nom de paramètre prédéfini d’entreprise approprié en tant que paramètre `config2`.
+Pour activer le suivi, transmettez le nom du paramètre prédéfini de société approprié en tant que paramètre `config2`.
 
-La visionneuse envoie également une requête HTTP de suivi unique au serveur d’images configuré avec le type de visionneuse et les informations de version.
+La visionneuse envoie également une requête HTTP de suivi unique au serveur d’images configuré avec les informations de type et de version de la visionneuse.
 
-## Suivi personnalisé {#section-ab10bd7caf184721a366cf3953071934}
+## Tracking personnalisé {#section-ab10bd7caf184721a366cf3953071934}
 
-Pour s’intégrer à des systèmes d’analyse tiers, il est nécessaire d’écouter l’argument de rappel de visionneuse `trackEvent` et de traiter `eventInfo` de la fonction de rappel, si nécessaire. Le code suivant est un exemple de fonction de gestionnaire de ce type :
+Pour l’intégration aux systèmes d’analyse tiers, il est nécessaire d’écouter `trackEvent` rappel de la visionneuse et de traiter `eventInfo` argument de la fonction de rappel si nécessaire. Le code suivant est un exemple d’une telle fonction de gestionnaire :
 
 ```javascript {.line-numbers}
 var smartCropVideoViewer = new s7viewers.SmartCropVideoViewer({ 
@@ -51,27 +51,27 @@ var smartCropVideoViewer = new s7viewers.SmartCropVideoViewer({
 });
 ```
 
-La visionneuse effectue le suivi des événements utilisateur du SDK suivants :
+La visionneuse effectue le suivi des événements utilisateur SDK suivants :
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Événement d’utilisateur du SDK </p> </th> 
-   <th colname="col2" class="entry"> <p>Envoyé lorsque.. </p> </th> 
+   <th colname="col1" class="entry"> <p>Événement utilisateur SDK </p> </th> 
+   <th colname="col2" class="entry"> <p>Envoyé lorsque... </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
-   <td colname="col2"> <p>la visionneuse est d’abord chargée. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> DE CHARGEMENT </span> </p> </td> 
+   <td colname="col2"> <p>La visionneuse est chargée en premier. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>une ressource est échangée dans la visionneuse à l’aide de l’API <span class="codeph"> setAsset() </span>. </p> </td> 
+   <td colname="col2"> <p>une ressource est permutée dans la visionneuse à l’aide de <span class="codeph">’API setAsset() </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
-   <td colname="col2"> <p>la lecture démarre. </p> </td> 
+   <td colname="col2"> <p>la lecture est démarrée. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAUSE </span> </p> </td> 
@@ -82,8 +82,8 @@ La visionneuse effectue le suivi des événements utilisateur du SDK suivants :
    <td colname="col2"> <p>la lecture est arrêtée. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MILESTONE </span> </p> </td> 
-   <td colname="col2"> <p>La lecture atteint l’une des miliciens suivantes : 0 %, 25 %, 50 %, 75 % et 100 %. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> JALON </span> </p> </td> 
+   <td colname="col2"> <p>la lecture atteint l’une des étapes suivantes : 0 %, 25 %, 50 %, 75 % et 100 %. </p> </td> 
   </tr> 
  </tbody> 
 </table>

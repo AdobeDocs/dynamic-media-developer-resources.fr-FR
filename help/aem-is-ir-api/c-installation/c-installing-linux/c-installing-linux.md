@@ -1,6 +1,6 @@
 ---
 title: Installation sous Linux®
-description: Image Serving peut être installé sous Linux®.
+description: La diffusion d’images peut être installée sous Linux®.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # Installation sous Linux®{#installing-on-linux}
 
-Image Serving peut être installé sous Linux®.
+La diffusion d’images peut être installée sous Linux®.
 
 * [Première installation](t-first-install-lin.md)
-* [Mise à jour à partir de IS 4.7.4 ou version ultérieure](t-update-lin.md)
+* [Mise à jour à partir d’IS 4.7.4 ou version ultérieure](t-update-lin.md)
 * [Vérification de l&#39;installation](t-verify-install-lin.md)

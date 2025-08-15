@@ -29,23 +29,23 @@ Syntaxe
 
 ## Paramètres {#section-43ccd77648784be4a259a723c3e1db40}
 
-**Entrée (renameProjectParam)**
+**Input (renameProjectParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyName | `xsd:string` | Oui | Gérer l’entreprise avec le projet que vous souhaitez renommer. |
-| projectHandle | `xsd:string` | Oui | Gérez le projet. |
+| companyName | `xsd:string` | Oui | Gérer vers la société avec le projet que vous souhaitez renommer. |
+| projectHandle | `xsd:string` | Oui | Gérer vers le projet. |
 | projectName | `xsd:string` | Oui | Nouveau nom du projet. |
 
-**Sortie (renameProjectParam)**
+**Output (renameProjectParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| projectHandle | `xsd:string` | Oui | Gestionnaire du projet renommé. |
+| projectHandle | `xsd:string` | Oui | Descripteur du projet renommé. |
 
 ## Exemples {#section-a0a06d9244774795b695a10b92b2a5e7}
 
-Cet exemple de code renomme un projet et renvoie la gestion du projet.
+Cet exemple de code renomme un projet et renvoie le descripteur de projet.
 
 **Requête**
 

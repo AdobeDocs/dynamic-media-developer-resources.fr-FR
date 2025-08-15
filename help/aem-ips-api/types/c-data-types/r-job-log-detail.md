@@ -1,5 +1,5 @@
 ---
-description: Informations sur le log de la tâche.
+description: Informations sur le log de traitement.
 solution: Experience Manager
 title: JobLogDetail
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # [!DNL JobLogDetail]{#joblogdetail}
 
-Informations sur le log de la tâche.
+Informations sur le log de traitement.
 
 Syntaxe
 
@@ -22,9 +22,9 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| logMessage | `xsd:string` | Messages dans le journal de la tâche. |
-| logType | `xsd:string` | Type de fichier journal de la tâche. |
-| assetName | `xsd:string` | Nom de la ressource dans le journal des tâches (facultatif). |
+| logMessage | `xsd:string` | Messages du log de traitement. |
+| logType | `xsd:string` | Type de fichier journal de traitement. |
+| assetName | `xsd:string` | Nom de la ressource dans le log de traitement (facultatif). |
 | assetType | `xsd:string` | Choix du type de ressource. |
-| assetHandle | `xsd:string` | Gestionnaire de ressources référencé dans le journal des tâches. |
-| auxArray | `types:JobLogDetailAuxArray` | Fournit des informations supplémentaires détaillées sur le journal des tâches au-delà des cinq types décrits ci-dessus. |
+| assetHandle | `xsd:string` | Descripteur de ressource référencé dans le log de traitement. |
+| auxArray | `types:JobLogDetailAuxArray` | Fournit des informations détaillées supplémentaires sur les logs de traitement, en plus des cinq types décrits ci-dessus. |

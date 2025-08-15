@@ -16,4 +16,4 @@ ht-degree: 0%
 
 La classe principale de la visionneuse d’images interactives est InteractiveImage. Il est déclaré dans l’espace de noms s7viewers. Cette API JavaScript couvre le constructeur, les méthodes et les rappels de cette classe particulière.
 
-Dans tous les exemples suivants, `<instance>` correspond au nom réel de l’objet de visionneuse JavaScript instancié à partir de la classe `s7viewers.InteractiveImage`.
+Dans tous les exemples suivants, `<instance>` signifie le nom réel de l’objet de visionneuse JavaScript qui est instancié à partir de la classe `s7viewers.InteractiveImage`.

@@ -18,8 +18,8 @@ Afficher les objets de chevauchement. Indique si les objets de chevauchement doi
 
 ## Propriétés {#section-3e82e9b98d7a46f884d8b9798cec35c2}
 
-Indicateur.
+Drapeau.
 
 ## Par défaut {#section-e6f7e33a629b4592979bab6d14700e8f}
 
-Hérité de `default::ShowOverlapObjs` si elle n’est pas définie ou si elle est vide.
+Hérité de `default::ShowOverlapObjs` si non défini ou si vide.

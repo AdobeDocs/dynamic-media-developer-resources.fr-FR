@@ -1,5 +1,5 @@
 ---
-description: Propriétés du fichier Photoshop.
+description: Photoshop propriétés du fichier.
 solution: Experience Manager
 title: PsdInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # [!DNL PsdInfo]{#psdinfo}
 
-Propriétés du fichier Photoshop.
+Photoshop propriétés du fichier.
 
 Syntaxe
 
@@ -22,8 +22,8 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| originalPath | `xsd:string` | Chemin du fichier. |
-| originalFile | `xsd:string` | Nom du fichier. |
-| optimizedPath | `xsd:string` | Chemin du fichier. |
-| optimizedFile | `xsd:string` | Nom du fichier. |
-| fileSize | `xsd:int` | Taille de fichier. |
+| Chemin d’origine | `xsd:string` | Chemin du fichier. |
+| Fichier d’origine | `xsd:string` | Nom du fichier. |
+| Chemin optimisé | `xsd:string` | Chemin du fichier. |
+| Fichier optimisé | `xsd:string` | Nom du fichier. |
+| Taille du fichier | `xsd:int` | Taille de fichier. |

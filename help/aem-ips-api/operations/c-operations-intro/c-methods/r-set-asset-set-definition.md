@@ -1,5 +1,5 @@
 ---
-description: Met à jour la définition du jeu pour un jeu de ressources existant.
+description: Met à jour la définition d’ensemble d’un ensemble de ressources existant.
 solution: Experience Manager
 title: setAssetSetDefinition
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # setAssetSetDefinition{#setassetsetdefinition}
 
-Met à jour la définition du jeu pour un jeu de ressources existant.
+Met à jour la définition d’ensemble d’un ensemble de ressources existant.
 
 Syntaxe
 
@@ -29,23 +29,23 @@ Syntaxe
 
 ## Paramètres {#section-c2057a5a13d042c684a3da1b49bc5dc6}
 
-**Input (setAssetDefinitionParam)**
+**Entrée (setAssetDefinitionParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gestionnaire de l’entreprise avec le jeu de ressources. |
-| assetHandle | `xsd:string` | Oui | Gestion des jeux de ressources |
-| setDefinition | `xsd:string` | Oui | Chaîne de définition. Voir ci-dessous. |
+| CompanyHandle | `xsd:string` | Oui | Poignée de l’entreprise avec la ressource définie. |
+| AssetHandle | `xsd:string` | Oui | Poignée de visionneuse de ressources |
+| définir la définition | `xsd:string` | Oui | Chaîne de définition. Voir ci-dessous. |
 
-**Sortie (setAssetSetDefinitionReturn)**
+**Output (setAssetSetDefinitionReturn)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 
-## Paramètre setDefinition : à propos {#section-f88e066bf5294b4f8c12d5d652a5c94c}
+## Paramètre setDefinition : À propos {#section-f88e066bf5294b4f8c12d5d652a5c94c}
 
 **Fonctions setDefinition**
 
-Spécifiez les fonctions de substitution `setDefinition` en ligne. Ces problèmes sont résolus lors d’une recherche de catalogue ou lors d’une publication. Les chaînes de substitution ont le format `${<substitution_func>}` et comprennent les éléments suivants :
+Spécifiez des `setDefinition` fonctions de substitution en ligne. Ces problèmes sont résolus lors de la recherche d’un catalogue ou de la publication. Les chaînes de substitution ont le format `${<substitution_func>}`, et incluent les éléments suivants :
 
 >[!NOTE]
 >
@@ -61,7 +61,7 @@ Spécifiez les fonctions de substitution `setDefinition` en ligne. Ces problème
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getFilePath([ <span class="varname"> asset_handle </span>]) </span> </td> 
-   <td colname="col2"> Chemin d’accès au fichier de Principal. </td> 
+   <td colname="col2"> Chemin d’accès au fichier principal. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getCatalogd([ <span class="varname"> asset_handle </span>]) </span> </td> 
@@ -69,18 +69,18 @@ Spécifiez les fonctions de substitution `setDefinition` en ligne. Ces problème
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getMetaData([ <span class="varname"> asset_handle </span>],[ <span class="varname"> metadata_field_handle </span>]) </span> </td> 
-   <td colname="col2"> Valeur des métadonnées. </td> 
+   <td colname="col2"> Valeur de métadonnées. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> getThumbCatalogId([ <span class="varname"> asset_handle </span>]) </span> </td> 
-   <td colname="col2"> ID de catalogue. S’applique aux ressources basées sur des images (Image, Vue ajustée, Vue Calque). <p>Pour d’autres ressources, renvoie l’ID de catalogue de la ressource principale (le cas échéant). Si aucune ressource de miniature n’est associée à la ressource, la fonction renvoie une chaîne vide. </p> </td> 
+   <td colname="col2"> ID de catalogue. S’applique aux ressources basées sur des images (Image, Vue ajustée, Vue Calque). <p>Pour les autres ressources, renvoie l’ID de catalogue de la ressource miniature (le cas échéant). Si aucune ressource miniature n’est associée à la ressource, la fonction renvoie une chaîne vide. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Exemples setDefinition**
 
-Cette chaîne de définition de visionneuse de médias :
+Cette chaîne de définition de la visionneuse de supports :
 
 ```java
 ${getCatalogId([a|1664|22|1664])};${getCatalogId([a|1664|22|1664])}; 
@@ -97,7 +97,7 @@ jcompany/myRenderSet;jcompany/myRenderSet;
 
 ## Exemples {#section-739b42eec3074cafae285ec015a2d088}
 
-**Requête**
+**Demander**
 
 ```java
 <setAssetSetDefinitionParam xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31"> 

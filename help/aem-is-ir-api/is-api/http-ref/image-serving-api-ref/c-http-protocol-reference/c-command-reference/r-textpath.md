@@ -1,5 +1,5 @@
 ---
-title: textPath
+title: Chemin de texte
 description: Chemin d’accès au texte. Spécifie le chemin à utiliser comme ligne de base pour le texte fourni avec textPs=.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 ---
 
-# textPath{#textpath}
+# Chemin de texte{#textpath}
 
 Chemin d’accès au texte. Spécifie le chemin à utiliser comme ligne de base pour le texte fourni avec textPs=.
 
@@ -20,8 +20,8 @@ textPath= *`pathDefinition`*
 
 <table id="simpletable_74F549E8625B483A9B334B24A7EB6D22"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> pathDefinition</span> </p> </td> 
-  <td class="stentry"> <p>Données de chemin d’accès. </p></td> 
+  <td class="stentry"> <p><span class="varname"> Définition du chemin</span> </p> </td> 
+  <td class="stentry"> <p>Données de chemin. </p></td> 
  </tr> 
 </table>
 
@@ -29,17 +29,17 @@ Voir [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-pro
 
 >[!NOTE]
 >
->Contrairement à `clipPath=`, les chemins de texte ne sont pas fermés automatiquement lorsque &quot;z&quot; ou &quot;Z&quot; n’est pas spécifié à la fin d’un sous-chemin.
+>Contrairement à `clipPath=`, les chemins de texte ne sont pas fermés automatiquement lorsque « z » ou « Z » n’est pas spécifié à la fin d’un sous-chemin.
 
-*`pathDefinition`* peut inclure plusieurs sous-chemins. Le texte est rendu sur les sous-chemins dans l’ordre indiqué.
+*`pathDefinition`* peut inclure plusieurs sous-chemins. Le texte est rendu sur les sous-chemins selon l’ordre indiqué.
 
-Les commandes RTF `\ql`, `\qc`, `\qr`, `\li` et `\ri` peuvent être utilisées pour positionner le texte rendu le long du chemin.
+La commande RTF , `\ql``\qc`, `\qr`, `\li`et `\ri` peut être utilisée pour positionner le texte rendu le long du chemin.
 
 ## Propriétés {#section-068137df436c46b9b55d271eb60e7285}
 
-Attribut de calque de texte ( `textPs=` uniquement). Ignoré par d’autres calques. S’applique à `layer=0` s’il est spécifié pour `layer=comp`. Ignoré si `textPs=` est présent.
+Attribut de calque de texte ( `textPs=` uniquement). Ignoré par les autres calques. S’applique à `layer=0` si spécifié pour `layer=comp`. Ignoré si `textPs=` sont présents.
 
-Une erreur est renvoyée si un calque comprend à la fois `textPath=` et `textFlowPath=`.
+Une erreur est renvoyée si un calque inclut à la fois `textPath=` et `textFlowPath=`.
 
 ## Par défaut {#section-697b1f2cfc43498080a31327e6eb173d}
 

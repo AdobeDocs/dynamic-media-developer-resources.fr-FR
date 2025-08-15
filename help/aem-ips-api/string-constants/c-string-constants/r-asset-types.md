@@ -1,5 +1,5 @@
 ---
-description: Décrit les valeurs utilisées par différents paramètres d’entrée. Consultez la liste de cet article pour plus de détails.
+description: Décrit les valeurs utilisées par divers paramètres d’entrée. Voir la liste de cet article pour plus de détails.
 solution: Experience Manager
 title: Types de fichier
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # Types de fichier{#asset-types}
 
-Décrit les valeurs utilisées par différents paramètres d’entrée. Consultez la liste de cet article pour plus de détails.
+Décrit les valeurs utilisées par divers paramètres d’entrée. Voir la liste de cet article pour plus de détails.
 
 Syntaxe
 

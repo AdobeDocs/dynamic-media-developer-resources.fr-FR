@@ -1,5 +1,5 @@
 ---
-description: Renvoie un tableau de noms de chemin Photoshop pour l’image donnée.
+description: Renvoie un tableau de noms de chemins d’Photoshop pour l’image donnée.
 solution: Experience Manager
 title: getPhotoshopPathNames
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # getPhotoshopPathNames{#getphotoshoppathnames}
 
-Renvoie un tableau de noms de chemin Photoshop pour l’image donnée.
+Renvoie un tableau de noms de chemins d’Photoshop pour l’image donnée.
 
 Syntaxe
 
@@ -34,18 +34,18 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gérer l’entreprise qui contient l’image à utiliser. |
-| assetHandle | `xsd:string` | Oui | Gérer la ressource image. |
+| CompanyHandle | `xsd:string` | Oui | Gérez l’entreprise qui contient l’image avec laquelle vous souhaitez travailler. |
+| AssetHandle | `xsd:string` | Oui | Poignée de la ressource image. |
 
-**Sortie (getPhotoshopPathNamesReturn)**
+**Output (getPhotoshopPathNamesReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| pathNameArray | `types:StringArray` | Oui | Tableau de noms de chemins d’accès Photoshop dans une image. |
+| Tableau pathNameArray | `types:StringArray` | Oui | Tableau de noms de Photoshop chemins d’accès d’une image. |
 
 ## Exemples {#section-6d316f14b4184d42af4ca3f717b042dd}
 
-**Requête**
+**Demander**
 
 ```java
 <getPhotoshopPathNamesParam xmlns="http://www.scene7.com/IpsApi/xsd/2012-07-31">

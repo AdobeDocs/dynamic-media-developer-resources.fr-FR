@@ -1,5 +1,5 @@
 ---
-description: Autoriser l’accès direct aux ressources basées sur des chemins d’accès.
+description: Autoriser l’accès direct aux ressources basées sur un chemin.
 solution: Experience Manager
 title: AllowDirectAccess
 feature: Dynamic Media Classic,SDK/API
@@ -14,18 +14,18 @@ ht-degree: 0%
 
 # AllowDirectAccess{#allowdirectaccess}
 
-Autoriser l’accès direct aux ressources basées sur des chemins d’accès.
+Autoriser l’accès direct aux ressources basées sur un chemin.
 
-Lorsque cet attribut est défini, l’accès basé sur le chemin d’accès est autorisé ou restreint pour les types d’objets spécifiés, selon que le mot-clé `include` ou `exclude` est utilisé ou non.
+Lorsque cet attribut est défini, l’accès basé sur le chemin d’accès est autorisé ou restreint pour les types d’objet spécifiés, selon que le `include` mot-clé OU `exclude` est utilisé ou non.
 
 >[!NOTE]
 >
->Si l’attribut `AllowDirectAccess` n’est pas spécifié, la valeur par défaut est `exclude`.
+>Si l’attribut n’est `AllowDirectAccess` pas spécifié, la valeur par défaut est `exclude`.
 
-* `include` autorise l’accès aux types d’objets spécifiés et restreint l’accès à tous les autres.
-* `exclude` limite l’accès pour les types d’objets spécifiés et permet l’accès pour tous les autres.
+* `include` Autorise l’accès pour les types d’objet spécifiés et limite l’accès pour tous les autres.
+* `exclude` Limite l’accès aux types d’objet spécifiés et autorise l’accès à tous les autres.
 
-Si aucun `include` ni `exclude` n&#39;est spécifié, `include` est supposé.
+Si ni ni n’est `include` `exclude` spécifié, `include` est supposé.
 
 Les types suivants peuvent être contrôlés :
 
@@ -39,26 +39,26 @@ Les types suivants peuvent être contrôlés :
 
 ## Exemples {#section-4c3765ebaa4245a799b454fc196f9237}
 
-* Autoriser l’accès direct uniquement pour les types d’objets `IS` et `STATIC`
+* Autoriser l’accès direct uniquement pour `IS` les types d’objet ET `STATIC`
 
   `AllowDirectAccess=include:IS,STATIC`
 
-* Autoriser l’accès direct pour tous les types d’objets sauf `IS` et `STATIC` `AllowDirectAccess=exclude:IS,STATIC`
+* Autoriser l’accès direct pour tous les types d’objet à l’exception de `IS``STATIC``AllowDirectAccess=exclude:IS,STATIC`
 
-* Autoriser l’accès direct pour les types d’objets *no* (c’est-à-dire, n’inclure aucun)
+* Autoriser l’accès direct pour *aucun* type d’objet (c’est-à-dire n’en inclure aucun)
 
   `AllowDirectAccess=include:`
 
-* Autoriser l’accès direct pour les types d’objets *tous* (c’est-à-dire exclure aucun)
+* Autoriser l’accès direct pour *tous les* types d’objet (c’est-à-dire n’en exclure aucun)
 
   `AllowDirectAccess=exclude:`
 
-* Équivalent à `include:IS,STATIC` (si `include`/ `exclude` n&#39;est pas présent, `include` est supposé)
+* Équivalent à `include:IS,STATIC` (si `include`/ `exclude` n’est pas présent, `include` est supposé)
 
   `AllowDirectAccess=IS,STATIC`
 
-  Notez qu’il s’agit de la valeur par défaut utilisée si l’attribut `AllowDirectAccess` n’est pas spécifié pour cette société.
+  Notez que c’est la valeur par défaut qui est utilisée si l’attribut n’est `AllowDirectAccess` pas spécifié pour cette société.
 
-* Inclure aucun, équivalent à `include:` (si `include`/ `exclude` n&#39;est pas présent, `include` est supposé)
+* Inclure aucun, équivalent à (si `include:`/ `include` n’est `exclude` pas présent, `include` est supposé)
 
   `AllowDirectAccess=`

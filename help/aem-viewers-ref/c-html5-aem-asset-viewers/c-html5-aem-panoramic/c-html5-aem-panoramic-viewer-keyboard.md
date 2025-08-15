@@ -1,6 +1,6 @@
 ---
 title: Accessibilité du clavier et navigation
-description: Toutes les fonctions exposées dans l’interface utilisateur de la visionneuse sont accessibles via le clavier.
+description: Toutes les fonctionnalités exposées dans l’interface utilisateur de la visionneuse sont accessibles à l’aide du clavier.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Accessibilité du clavier et navigation{#keyboard-accessibility-and-navigation}
 
-Toutes les fonctions exposées dans l’interface utilisateur de la visionneuse sont accessibles via le clavier.
-L’utilisateur final peut utiliser les touches `Left`, `Right`, `UP` et `DOWN` pour effectuer un panoramique sur l’image.
-Le raccourci `Esc` peut être utilisé pour réinitialiser l’image.
+Toutes les fonctionnalités exposées dans l’interface utilisateur de la visionneuse sont accessibles à l’aide du clavier.
+L’utilisateur final peut utiliser les touches `Left`, `Right`, `UP` et `DOWN` pour faire défiler l’image.
+La touche `Esc` peut être utilisée pour réinitialiser l’image.
 

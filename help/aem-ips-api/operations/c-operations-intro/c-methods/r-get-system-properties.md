@@ -32,11 +32,11 @@ Syntaxe
 
 ## Paramètres {#section-b2a4fb7068424223aec87c50f0586d73}
 
-**Entrée (getSystemPropertiesParam)**
+**Input (getSystemPropertiesParam)**
 
 Aucune
 
-**Sortie (getSystemPropertiesReturn)**
+**Output (getSystemPropertiesReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -44,7 +44,7 @@ Aucune
 
 ## Exemples {#section-728cc16fe9954b2daa035b4d4d4b4ce6}
 
-Cet exemple de code renvoie un tableau de propriétés système. Réponse tronquée pour la concision.
+Cet exemple de code renvoie un tableau de propriétés système. Réponse tronquée pour des raisons de concision.
 
 **Requête**
 

@@ -1,7 +1,7 @@
 ---
-description: Couleur de fond par défaut. Valeur de RGB utilisée pour remplir une zone d’une image de réponse qui ne contient pas de données d’image réelles.
+description: Couleur d’arrière-plan par défaut. Valeur RVB utilisée pour remplir n’importe quelle zone d’une image de réponse qui ne contient pas de données d’image réelles.
 solution: Experience Manager
-title: BkgColor
+title: BkgCouleur
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f008c834-30fb-4a49-8e6c-1110e55af280
@@ -12,9 +12,9 @@ ht-degree: 5%
 
 ---
 
-# BkgColor{#bkgcolor}
+# BkgCouleur{#bkgcolor}
 
-Couleur de fond par défaut. Valeur de RGB utilisée pour remplir une zone d’une image de réponse qui ne contient pas de données d’image réelles.
+Couleur d’arrière-plan par défaut. Valeur RVB utilisée pour remplir n’importe quelle zone d’une image de réponse qui ne contient pas de données d’image réelles.
 
 ## Propriétés {#section-2768b2beee214676aa32f17e2a0e3343}
 
@@ -22,7 +22,7 @@ Couleur.
 
 ## Par défaut {#section-9c2c5794b82a4ef89a09551f08d03dbc}
 
-Hérité de `default::BkgColor` si elle n’est pas définie ou si elle est vide.
+Hérité de `default::BkgColor` si non défini ou si vide.
 
 ## Voir aussi {#section-90967e515a0d46bd8a9361fd49fc43cf}
 

@@ -1,7 +1,7 @@
 ---
-description: Si une vignette map est requise pour un catalogue de matériaux, le chemin relatif ou absolu du fichier de vignette map doit être spécifié dans l’attribut VignetteMapFile.
+description: Si une carte de vignette est requise pour un catalogue de matériaux, le chemin relatif ou absolu du fichier de carte de vignette doit être spécifié dans l'attribut VignetteMapFile.
 solution: Experience Manager
-title: Référence de mappage de vignette
+title: Référence de carte de Vignette
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 77e4d131-f043-4091-8bf7-f85cc0e98002
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# Référence de mappage de vignette{#vignette-map-reference}
+# Référence de carte de Vignette{#vignette-map-reference}
 
-Si une vignette map est requise pour un catalogue de matériaux, le chemin relatif ou absolu du fichier de vignette map doit être spécifié dans attribute::VignetteMapFile.
+Si une carte de vignette est requise pour un catalogue de matériaux, le chemin relatif ou absolu du fichier de carte de vignette doit être spécifié dans attribute::VignetteMapFile.
 
-Les entrées du fichier vignette map d’un catalogue de matériaux spécifique remplacent les entrées du fichier vignette map du catalogue par défaut.
+Les entrées du fichier de mappage de vignette d&#39;un catalogue de matières spécifique remplacent les entrées du fichier de mappage de vignette du catalogue par défaut.

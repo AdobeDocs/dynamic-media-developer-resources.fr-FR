@@ -1,7 +1,7 @@
 ---
 description: Tableau d’attributs de génération.
 solution: Experience Manager
-title: GenerationAttributeArray
+title: Tableau d’attributs de génération
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 8b771155-5cd7-4cf2-9552-4efb114556de
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| éléments | `types:GenerationAttribute` | Tableau d’attributs de génération. |
+| éléments | `types:GenerationAttribute` | Tableau des attributs de génération. |

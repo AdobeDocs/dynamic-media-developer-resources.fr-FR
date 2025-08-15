@@ -22,5 +22,5 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| assetHandle | `xsd:string` | Poignée de ressource. |
+| assetHandle | `xsd:string` | Identifiant de ressource. |
 | publishState | `xsd:string` | Nouvel état de publication. |

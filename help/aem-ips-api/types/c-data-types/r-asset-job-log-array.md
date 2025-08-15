@@ -1,6 +1,6 @@
 ---
 title: AssetJobLogArray
-description: Tableau des journaux de tâches de ressources.
+description: Tableau des logs de traitement des ressources.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # [!DNL AssetJobLogArray]{#assetjoblogarray}
 
-Tableau des journaux de tâches de ressources.
+Tableau des logs de traitement des ressources.
 
 Syntaxe
 
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| éléments | `types:AssetJobLog` | Tableau des journaux de tâches de ressources. |
+| éléments | `types:AssetJobLog` | Tableau des logs de traitement des ressources. |

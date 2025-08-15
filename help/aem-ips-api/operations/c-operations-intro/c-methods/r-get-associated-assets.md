@@ -1,5 +1,5 @@
 ---
-description: Obtient les ressources associées à une ressource spécifiée et des détails sur leur relation.
+description: Obtient les ressources associées à une ressource spécifiée et les détails de leur relation.
 solution: Experience Manager
 title: getAssociatedAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # getAssociatedAssets{#getassociatedassets}
 
-Obtient les ressources associées à une ressource spécifiée et des détails sur leur relation.
+Obtient les ressources associées à une ressource spécifiée et les détails de leur relation.
 
 Syntaxe
 
@@ -32,7 +32,7 @@ Syntaxe
 
 ## Paramètres {#section-d11d0dab59e94e89b466123a0ebfa82e}
 
-**Entrée (getAssociatedAssetsParam)**
+**Input (getAssociatedAssetsParam)**
 
 <table id="table_DBB97A6507EB48479FFFD2184FF8F07C"> 
  <thead> 
@@ -45,33 +45,33 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle </span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Gérer l’entreprise propriétaire de l’actif. </p> </td> 
+   <td colname="col4"> <p>Gérer vers la société propriétaire de la ressource. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandle</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Poignée de ressource. </p> </td> 
+   <td colname="col4"> <p>Identifiant de ressource. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray </span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> types:StringArray</span> </p> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Tableau des champs de réponse souhaités. Voir response-FieldArray/excludeFieldArray dans l’introduction. </p> </td> 
+   <td colname="col4"> <p>Tableau des champs de réponse souhaités. Voir response- FieldArray/excludeFieldArray dans l’introduction. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> types:StringArray</span> </p> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Tableau des champs de réponse exclus. Voir response-FieldArray/excludeFieldArray dans l’introduction. </p> </td> 
+   <td colname="col4"> <p>Tableau de champs de réponse exclus. Voir response- FieldArray/excludeFieldArray dans l’introduction. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Sortie (getAssociatedAssetsReturn)**
+**Output (getAssociatedAssetsReturn)**
 
 <table id="table_B894B4B6EFA24359A0250A8A4523EA8D"> 
  <thead> 
@@ -85,60 +85,60 @@ Syntaxe
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> containerArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:AssetArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> types :AssetArray</span> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Tableau des ressources définies et de modèles contenant la ressource de champ spécifique. </p> </td> 
+   <td colname="col4"> <p>Tableau de ressources d’ensemble et de modèle contenant la ressource spécifiée. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:AssetArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> types :AssetArray</span> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Tableau des ressources contenues par le jeu ou le modèle de ressource spécifié. </p> </td> 
+   <td colname="col4"> <p>Tableau des ressources contenues dans l’ensemble ou la ressource de modèle spécifié. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> layerReferenceArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:AssetArray</span> </td> 
+   <td colname="col2"> <span class="codeph"> types :AssetArray</span> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Tableau des ressources référencées dans une URL de calque ou de modèle. </p> </td> 
+   <td colname="col4"> <p>Tableau de ressources référencées dans une URL de calque ou de modèle. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> ownerArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:AssetArray</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> ownerArray </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> types :AssetArray</span> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Tableau des ressources qui possèdent la ressource spécifiée. </p> </td> 
+   <td colname="col4"> <p>Tableau des ressources propriétaires de la ressource spécifiée. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> DEDArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:AssetArray</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> derivedArray</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> types :AssetArray</span> </td> 
    <td colname="col3"> <p>Non </p> </td> 
    <td colname="col4"> <p>Tableau des ressources utilisées pour générer la ressource spécifiée. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> generatorArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:GenerationInfoArray</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> generatorArray </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> de sous-réseau:GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p><span class="codeph"> generatorArray</span> répertorie la manière dont cette ressource a été créée. Par exemple, si <span class="codeph"> assetHandler</span> était une page d’image d’un PDF, elle contiendrait l’outil de processeur du PDF et référencerait la ressource PdfFile. </p> </td> 
+   <td colname="col4"> <p>Le tableau generatorArray <span class="codeph"> </span> répertorie la manière dont cette ressource a été créée. Par exemple, si <span class="codeph"> assetHandler</span> est une page d’image d’un PDF, il contient l’outil de processeur PDF et référence la ressource PdfFile. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> generatedArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:GenerationInfoArray</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> generateArray</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> de sous-réseau:GenerationInfoArray</span> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p><span class="codeph"> generatedArray</span> inverse la manière dont cette ressource a été créée. Par exemple, le <span class="codeph"> generatedArray</span> peut contenir la liste des images générées à partir de ce <span class="codeph"> assetHandler</span> s’il s’agissait d’une ressource PdfFile. </p> </td> 
+   <td colname="col4"> <p>Le tableau <span class="codeph"> generateArray</span> inverse la manière dont cette ressource a été créée. Par exemple, le <span class="codeph"> generateArray</span> peut contenir la liste des images générées à partir de ce <span class="codeph"> assetHandler</span> s’il s’agit d’une ressource PdfFile. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAsset</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:Asset</span> </td> 
+   <td colname="col2"> <span class="codeph"> de sous-réseau :Asset</span> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Informations de la ressource de miniature associée à la ressource de requête. Si aucune ressource de miniature n’est affectée, le champ est omis dans la réponse. </p> </td> 
+   <td colname="col4"> <p>Informations sur la ressource de pouce associées à la ressource de requête. Si aucune ressource de pouce n’est affectée, le champ est omis dans la réponse. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Vous pouvez utiliser les paramètres `responseFieldArray` ou `excludeFieldArray` pour limiter la taille de la réponse. En particulier, les éléments `GenerationInfo` renvoyés dans `generatorArray` ou `generatedArray` par défaut pour inclure à la fois l’expéditeur et les enregistrements de ressource générés. Pour un type de ressource de PDF, ce comportement entraîne plusieurs copies indésirables de l’enregistrement de ressource de PDF &quot;originator&quot; dans la réponse. Vous pouvez éliminer ce problème en ajoutant `generatedArray/items/originator` à `excludeFieldArray`. Vous pouvez également spécifier une liste explicite de champs de réponse à inclure dans `responseFieldArray`.
+Vous pouvez utiliser les paramètres `responseFieldArray` ou `excludeFieldArray` pour limiter la taille de la réponse. En particulier, les éléments de `GenerationInfo` renvoyés dans `generatorArray` ou `generatedArray` par défaut pour inclure à la fois les enregistrements de l’expéditeur et les enregistrements de ressources générés. Pour un type de ressource PDF, ce comportement génère des copies multiples indésirables de l’enregistrement de ressource PDF « d’origine » dans la réponse. Vous pouvez éliminer ce problème en ajoutant `generatedArray/items/originator` à `excludeFieldArray`. Vous pouvez également spécifier une liste explicite de champs de réponse que vous souhaitez inclure dans `responseFieldArray`.
 
 ## Exemples {#section-8946ea4b9cb94912a8408249c897f192}
 
-L’exemple de base suivant est une demande de gestion du générateur pour une image extraite d’un PDF. Il comprend un `containerArray` de longueur 1 avec un élément comprenant le `assetHandle` du PDF.
+L’exemple de base suivant est une requête pour l’identificateur du générateur d’une image extraite d’un PDF. Il comprend un `containerArray` de longueur un avec un élément comprenant le `assetHandle` du PDF.
 
 **Requête**
 
@@ -172,7 +172,7 @@ L’exemple de base suivant est une demande de gestion du générateur pour une 
 </soapenv:Envelope>
 ```
 
-L’inverse de l’exemple ci-dessus est le suivant :
+L&#39;inverse de l&#39;exemple ci-dessus est le suivant :
 
 **Requête**
 
@@ -253,7 +253,7 @@ L’inverse de l’exemple ci-dessus est le suivant :
 </soapenv:Envelope>
 ```
 
-Dans cet exemple suivant, un groupe est ajouté à une société avec `groupHandleArray`. Cet exemple utilise un seul groupe.
+Dans cet exemple suivant, un groupe est ajouté à une société avec des `groupHandleArray`. Cet exemple utilise un seul groupe.
 
 **Requête**
 

@@ -1,5 +1,5 @@
 ---
-description: Cette section décrit les attributs de données image.
+description: Cette section décrit les attributs des données d’image.
 solution: Experience Manager
 title: Référence des données d’image
 feature: Dynamic Media Classic,SDK/API
@@ -14,10 +14,10 @@ ht-degree: 20%
 
 # Référence des données d’image{#image-data-reference}
 
-Cette section décrit les attributs de données image.
+Cette section décrit les attributs des données d’image.
 
 * [Ancre](r-anchor-cat.md)
-* [AssetType](r-assettype-cat.md)
+* [Type de ressource](r-assettype-cat.md)
 * [DigimarcInfo](r-digimarcinfo-cat.md)
 * [Expiration](r-expiration-cat.md)
 * [ID](r-id-cat.md)
@@ -26,7 +26,7 @@ Cette section décrit les attributs de données image.
 * [MaskPath](r-maskpath-cat.md)
 * [Modificateur](r-modifier-cat.md)
 * [Chemin](r-path-cat.md)
-* [PostModificateur](r-postmodifier-cat.md)
+* [PostModifier](r-postmodifier-cat.md)
 * [PrintResolution](r-printresolution-cat.md)
 * [Résolution](r-resolution-cat.md)
 * [Taille](r-size-cat.md)

@@ -1,5 +1,5 @@
 ---
-description: De nombreux aspects du serveur d’images et du rendu d’images peuvent être configurés manuellement en modifiant les fichiers de configuration appropriés.
+description: De nombreux aspects de la diffusion d’images et du rendu d’images peuvent être configurés manuellement en modifiant les fichiers de configuration appropriés.
 solution: Experience Manager
 title: Configuration du serveur
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # Configuration du serveur{#server-configuration}
 
-De nombreux aspects du serveur d’images et du rendu d’images peuvent être configurés manuellement en modifiant les fichiers de configuration appropriés.
+De nombreux aspects de la diffusion d’images et du rendu d’images peuvent être configurés manuellement en modifiant les fichiers de configuration appropriés.
 
-Pour plus d’informations, reportez-vous à la section Administration de la documentation sur le serveur d’images et le rendu d’images . [!DNL Jconsole] peut également être utilisé sur le port 9999.
+Reportez-vous à la section Administration de la documentation Diffusion d’images et Rendu d’images pour plus d’informations. [!DNL Jconsole] peut également être utilisé sur le port 9999.

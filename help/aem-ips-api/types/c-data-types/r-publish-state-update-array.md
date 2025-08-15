@@ -1,5 +1,5 @@
 ---
-description: Tableau de mises à jour de l’état de publication.
+description: Un tableau de mises à jour d’état de publication.
 solution: Experience Manager
 title: PublishStateUpdateArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 24%
 
 # [!DNL PublishStateUpdateArray]{#publishstateupdatearray}
 
-Tableau de mises à jour de l’état de publication.
+Un tableau de mises à jour d’état de publication.
 
 Syntaxe
 
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| éléments | `types:PublishStateUpdate` | Tableau des mises à jour de l’état de publication. |
+| éléments | `types:PublishStateUpdate` | Tableau des mises à jour d’état de publication. |

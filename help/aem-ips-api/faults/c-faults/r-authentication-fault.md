@@ -1,5 +1,5 @@
 ---
-description: Générée lorsqu’un utilisateur ne peut pas être authentifié.
+description: Levé lorsqu’un utilisateur ne peut pas être authentifié.
 solution: Experience Manager
 title: authenticationFault
 feature: Dynamic Media Classic,SDK/API
@@ -14,21 +14,21 @@ ht-degree: 21%
 
 # authenticationFault{#authenticationfault}
 
-Générée lorsqu’un utilisateur ne peut pas être authentifié.
+Levé lorsqu’un utilisateur ne peut pas être authentifié.
 
 Syntaxe
 
-## Types de défaillance {#section-8ac4519c1dbb4c8b9c46ac9d1f44a054}
+## Types de défaillances {#section-8ac4519c1dbb4c8b9c46ac9d1f44a054}
 
-| ID | Par défaut |
+| ID | Défaut |
 |---|---|
 | 10000 | `AUTHENTICATION_FAULT_CODE_NO_CREDENTIALS` |
 | 10001 | `AUTHENTICATION_FAULT_CODE_INVALID_CREDENTIALS` |
 | 10002 | `AUTHENTICATION_FAULT_CODE_INVALID_USER` |
 
-## Champs par défaut {#section-1fe84846a7154b03ab49552810ee9ac3}
+## Champs d’erreur {#section-1fe84846a7154b03ab49552810ee9ac3}
 
 | Nom | Type | Description |
 |---|---|---|
-| `code` | `xsd:int` | Identifiant de défaillance |
-| `reason` | `xsd:string` | Un message informatif décrivant l’erreur. |
+| `code` | `xsd:int` | Identifiant de la panne |
+| `reason` | `xsd:string` | Message informatif décrivant la panne. |

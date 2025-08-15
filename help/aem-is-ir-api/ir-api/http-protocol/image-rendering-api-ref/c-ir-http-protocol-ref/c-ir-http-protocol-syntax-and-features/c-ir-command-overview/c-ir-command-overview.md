@@ -1,6 +1,6 @@
 ---
-title: Présentation de la commande de protocole HTTP de rendu d’image
-description: Les commandes prises en charge par le rendu des images sont répertoriées ci-dessous, regroupées par catégorie.
+title: Présentation des commandes du protocole HTTP Image Rendering
+description: Les commandes prises en charge par Image Rendering sont regroupées par catégorie ci-dessous.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# Présentation de la commande de protocole HTTP de rendu d’image{#image-rendering-http-protocol-command-overview}
+# Présentation des commandes du protocole HTTP Image Rendering{#image-rendering-http-protocol-command-overview}
 
-Les commandes prises en charge par le rendu des images sont répertoriées ci-dessous, regroupées par catégorie.
+Les commandes prises en charge par Image Rendering sont regroupées par catégorie ci-dessous.
 
-* [Affichage des attributs](r-ir-view-attributes.md)
+* [Attributs d’affichage](r-ir-view-attributes.md)
 * [Commandes de sélection](r-ir-selection-commands.md)
-* [Attributs de matière](r-ir-material-attributes.md)
+* [Attributs matériels](r-ir-material-attributes.md)
 * [Commandes diverses](r-ir-miscellaneous-commands.md)

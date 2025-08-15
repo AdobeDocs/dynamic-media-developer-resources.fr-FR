@@ -1,6 +1,6 @@
 ---
 title: ID
-description: En règle générale, un identifiant court et unique, tel qu’un numéro de SKU, peut-être doté d’un suffixe, par exemple si un SKU comporte plusieurs images ou comporte des variantes propres aux paramètres régionaux.
+description: En règle générale, un identificateur court et unique, tel qu’un numéro de SKU, éventuellement avec une sorte de suffixe, par exemple si un SKU comporte plusieurs images ou des variations spécifiques aux paramètres régionaux.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 3%
 
 # ID{#id}
 
-En règle générale, un identifiant court et unique, tel qu’un numéro de SKU, peut-être doté d’un suffixe, par exemple si un SKU comporte plusieurs images ou comporte des variantes propres aux paramètres régionaux. Il peut également s’agir d’une chaîne plus complexe, qui ressemble davantage à un chemin d’accès au fichier, afin de faciliter la mise à niveau des sites web avec le serveur d’images.
+En règle générale, un identificateur court et unique, tel qu’un numéro de SKU, éventuellement avec une sorte de suffixe, par exemple si un SKU comporte plusieurs images ou des variations spécifiques aux paramètres régionaux. Il peut également s’agir d’une chaîne plus complexe qui ressemble davantage à un chemin de fichier, afin de faciliter l’ajustement des sites Web avec Image Server.
 
 >[!NOTE]
 >
->Les tableaux d’image et de SVG sont fusionnés en une seule table lors du chargement du catalogue d’images. Les valeurs d’identifiant doivent être uniques dans les deux tableaux. L’enregistrement du SVG est ignoré si la table des images contient un enregistrement avec la même valeur d’identifiant. Le contenu statique est géré avec un tableau distinct. Les éléments de contenu statique et les éléments image/SVG peuvent donc avoir les mêmes valeurs d’identifiant.
+>Les tableaux image et SVG sont fusionnés en un seul tableau lorsque le catalogue d’images est chargé. Les valeurs d’ID doivent être uniques dans les deux tables. L’enregistrement SVG est ignoré si la table d’images contient un enregistrement avec la même valeur d’ID. Le contenu statique est géré dans une table distincte ; Les éléments de contenu statique et les éléments d’image/SVG peuvent donc avoir les mêmes valeurs d’identifiant.
 
 ## Propriétés {#section-874a6853f67b4b229341ca76682884ae}
 
-Chaîne de texte. Obligatoire. Identifiant d’enregistrement de la table de données image/SVG ou de contenu statique. Chaque valeur `catalog::Id` de ce catalogue d’images/SVG ou de ce catalogue de contenu statique doit être unique et ne doit pas inclure de caractères &quot;,&quot;.
+Chaîne de texte. Obligatoire. Identificateur d’enregistrement pour le tableau de données image/SVG ou du contenu statique. Chaque `catalog::Id` valeur de ce catalogue d’images/catalogue SVG ou de ce catalogue de contenu statique doit être unique et ne doit pas inclure les caractères &#39;,&#39;.
 
 ## Par défaut {#section-a26e7d83a5ee44b5918baef82ee48e14}
 
@@ -30,4 +30,4 @@ Aucune
 
 ## Voir aussi {#section-a258d818487d4ee6b7a99a65d18471a9}
 
-[attribute::RootId](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootid.md#reference-13653312925e4a08b90f99961d53f546)
+[attribute ::RootId](../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootid.md#reference-13653312925e4a08b90f99961d53f546)

@@ -1,5 +1,5 @@
 ---
-description: Liste de scripts de génération de définition automatique pour les tâches de transfert. Présume que chaque script spécifié pour le chargement est appliqué à toutes les ressources chargées.
+description: Liste de scripts de génération de jeu automatique pour les tâches de chargement. Suppose que chaque script spécifié pour le chargement est appliqué à toutes les ressources chargées.
 solution: Experience Manager
 title: AutoSetCreationOptions
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # [!DNL AutoSetCreationOptions]{#autosetcreationoptions}
 
-Liste de scripts de génération de définition automatique pour les tâches de transfert. Présume que chaque script spécifié pour le chargement est appliqué à toutes les ressources chargées.
+Liste de scripts de génération de jeu automatique pour les tâches de chargement. Suppose que chaque script spécifié pour le chargement est appliqué à toutes les ressources chargées.
 
 Syntaxe
 
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| autoSetsArray | `types:HandleArray` | Matrice de [!DNL PropertySet] gère la définition des scripts de génération d’ensemble automatique appliqués lors du chargement. |
+| autoSetsArray | `types:HandleArray` | Tableau de handles [!DNL PropertySet] définissant les scripts de génération de jeux automatiques appliqués lors du chargement. |

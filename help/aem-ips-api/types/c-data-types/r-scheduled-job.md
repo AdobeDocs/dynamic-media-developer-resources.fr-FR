@@ -1,7 +1,7 @@
 ---
-description: Tâche planifiée.
+description: Tâche planifiée pour s’exécuter.
 solution: Experience Manager
-title: ScheduledJob
+title: Tâche planifiée
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c0084d10-ce38-4a01-9246-aaec44abc8eb
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # [!DNL ScheduledJob]{#scheduledjob}
 
-Tâche planifiée.
+Tâche planifiée pour s’exécuter.
 
 Syntaxe
 
@@ -22,32 +22,32 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| companyHandle | `xsd:string` | Poignée de la société. |
-| jobHandle | `xsd:string` | Gestionnaire de tâches planifiées. |
-| nom | `xsd:string` | Nom de la tâche. |
-| originalName | `xsd:string` | Nom original de la tâche planifiée. |
-| type | `xsd:string` | Type de tâche. |
-| submitUserEmail | `xsd:string` | Adresse électronique de l’utilisateur qui a planifié la tâche. |
-| local | `xsd:string` | Paramètre régional à utiliser pour les détails du journal des tâches et la localisation des emails. Les paramètres régionaux sont spécifiés sous la forme `<language_code>[- <country_code>]`, où le code de langue est un code à deux lettres en minuscules, comme spécifié par ISO-639, et le code de pays facultatif est un code à deux lettres en majuscules, comme spécifié par ISO-3166. Par exemple, la chaîne du paramètre régional pour l’anglais (États-Unis) serait : `en-US`. |
-| description | `xsd:string` | Description de la tâche telle qu’elle a été initialement spécifiée dans `submitJob`. |
-| execSchedule | `xsd:string` | Lorsque l’exécution de la tâche est planifiée. |
+| companyHandle | `xsd:string` | Identifiant de la société. |
+| jobHandle | `xsd:string` | Traitement des tâches planifiées. |
+| nom | `xsd:string` | Nom du traitement. |
+| originalName | `xsd:string` | Nom d’origine de la tâche planifiée. |
+| type | `xsd:string` | Type de traitement. |
+| submitUserEmail | `xsd:string` | Adresse e-mail de l’utilisateur qui a planifié la tâche. |
+| local | `xsd:string` | Paramètres régionaux à utiliser pour les détails du journal de tâches et la localisation des e-mails. Les paramètres régionaux sont spécifiés sous la forme `<language_code>[- <country_code>]`, où le code de langue est un code à deux lettres en minuscules spécifié par la norme ISO-639, et le code de pays facultatif est un code à deux lettres en majuscules spécifié par la norme ISO-3166. Par exemple, la chaîne des paramètres régionaux pour l’anglais (États-Unis) serait : `en-US`. |
+| description | `xsd:string` | Description du traitement telle qu’initialement spécifiée dans `submitJob`. |
+| execSchedule | `xsd:string` | Lorsque l’exécution du traitement est planifiée. |
 | nextFireTime | `xsd:dateTime` | Date, heure et fuseau horaire du déclenchement de la tâche. |
 | timeZone | `xsd:dateTime` | Fuseau horaire de la tâche planifiée. |
 | triggerState | `xsd:int` | Choix de l’état de déclenchement de la tâche. |
-| imageServingPublishJob | `types:ImageServingPublishJob` | Détails de la tâche pour une tâche de publication de diffusion d’image. |
-| imageServingRenderJob | `types:ImageServingRenderJob` | Détails de la tâche pour une tâche de rendu d’image. |
-| videoPublishJob | `types:VideoPublishJob` | Détails de la tâche pour une tâche de publication vidéo. Voir [VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html?lang=fr). |
-| serverDirectoryPublishJob | `types:ServerDirectoryPublishJob` | Détails de la tâche pour une tâche de publication dans un répertoire de serveur. |
-| uploadDirectoryJob | `types:UploadDirectoryJob` | Détails de la tâche pour une tâche de téléchargement de répertoire. |
-| uploadUrlsJob | `types:UploadUrlsJob` | Détails de la tâche pour une tâche de téléchargement d’URL. |
-| optimizeImagesJob | `types:OptimizeImagesJob` | |
+| imageServingPublishJob | `types:ImageServingPublishJob` | Détails de la tâche pour une image diffusant la tâche de publication. |
+| imageServingRenderJob | `types:ImageServingRenderJob` | Détails d’une tâche de rendu d’image. |
+| videoPublishJob | `types:VideoPublishJob` | Détails de la tâche pour une tâche de publication vidéo. Voir [VideoPublishJob](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
+| serverDirectoryPublishJob | `types:ServerDirectoryPublishJob` | Détails d’un traitement de publication dans l’annuaire du serveur. |
+| uploadDirectoryJob | `types:UploadDirectoryJob` | Détails d’une tâche de répertoire de chargement. |
+| uploadUrlsJob | `types:UploadUrlsJob` | Détails d’une tâche de chargement d’URL. |
+| optimizerImagesJob | `types:OptimizeImagesJob` | |
 | ripPdfsJob | `types:RipPdfsJob` | |
 | reprocessAssetsJob | `types:ReprocessAssetsJob` | |
-| exportJob | `types:ExportJob` | Autoriser l’exportation autorisée des fichiers précédemment chargés. Voir [Tâche d’exportation](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html?lang=fr). |
+| exportJob | `types:ExportJob` | Autoriser l&#39;export des fichiers précédemment chargés Voir [ Tâche d’exportation ](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html). |
 
 ## Remarques {#section-34ec157f281f412f9f0f6e861e6ed0cd}
 
-Lorsque vous spécifiez une valeur de type de tâche dans `submitJob`, le système renvoie une tâche en fonction de ce type. Les tâches suivantes peuvent être renvoyées :
+Lorsque vous spécifiez une valeur de type de tâche dans `submitJob`, le système renvoie une tâche en fonction de ce type. Les traitements suivants peuvent être renvoyés :
 
 * `imageServingPublishJob`
 * `imageRenderingPublishJob`

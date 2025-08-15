@@ -1,7 +1,7 @@
 ---
 description: Tableau de résumés de ressources.
 solution: Experience Manager
-title: AssetSummaryArray
+title: Tableau de résumé des ressources
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 6c38cd3f-10ec-4552-b2da-19a45068c7fa
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| éléments | `types:AssetSummary` | Tableau des résumés de ressources. |
+| éléments | `types:AssetSummary` | Tableau de résumés de ressources. |

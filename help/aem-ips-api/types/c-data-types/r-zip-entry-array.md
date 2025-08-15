@@ -1,7 +1,7 @@
 ---
 description: Tableau d’entrées ZIP.
 solution: Experience Manager
-title: ZipEntryArray
+title: Tableau d’entrée ZipEntryArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 243449ab-423d-45e8-9011-8165300bc619

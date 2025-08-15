@@ -1,7 +1,7 @@
 ---
 description: Propriétés d’un fichier SWC.
 solution: Experience Manager
-title: SwcInfo
+title: Infos Swc
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 585b044e-740f-4bd9-b01d-873418366662
@@ -22,6 +22,6 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| originalPath | `xsd:string` | Chemin du fichier SWC. |
-| originalFile | `xsd:string` | Nom du fichier. |
-| fileSize | `xsd:int` | Taille de fichier. |
+| Chemin d’origine | `xsd:string` | Chemin d’accès au fichier SWC. |
+| Fichier d’origine | `xsd:string` | Nom du fichier. |
+| Taille du fichier | `xsd:int` | Taille de fichier. |

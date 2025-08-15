@@ -1,6 +1,6 @@
 ---
-title: align
-description: Alignement du rendu de la texture. Indique les points d’origine définis par l’objet de vignette sélectionné à utiliser.
+title: aligner
+description: Alignement du rendu de la texture. Spécifie le point d'origine défini par l'objet vignette sélectionné à utiliser.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 3%
 
 ---
 
-# align {#align}
+# aligner {#align}
 
-Alignement du rendu de la texture. Indique les points d’origine définis par l’objet de vignette sélectionné à utiliser.
+Alignement du rendu de la texture. Spécifie le point d&#39;origine défini par l&#39;objet vignette sélectionné à utiliser.
 
 `align=0|1|2|3|4|5|6`
 
@@ -25,7 +25,7 @@ Alignement du rendu de la texture. Indique les points d’origine définis par l
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p></td> 
-  <td class="stentry"> <p>Origine continue de la correspondance. </p></td> 
+  <td class="stentry"> <p>Origine de correspondance continue. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p></td> 
@@ -37,21 +37,21 @@ Alignement du rendu de la texture. Indique les points d’origine définis par l
  </tr> 
 </table>
 
-Le moteur de rendu applique la texture à l’objet afin que le point d’ancrage de la texture ( `anchor=`) coïncide avec le point d’origine spécifié.
+Le rendu applique la texture à l’objet de sorte que le point d’ancrage de texture ( `anchor=`) corresponde au point d’origine spécifié.
 
-Chaque objet peut définir jusqu’à six points d’origine (0, 1, 3, 4, 5, 6). Si une valeur `align` est spécifiée mais que le point d’origine correspondant n’est pas défini par l’objet de vignette, le point d’origine par défaut (center-match) est utilisé.
+Chaque objet peut définir jusqu’à six points d’origine (0, 1, 3, 4, 5, 6). Si une valeur `align` est spécifiée mais que le point d’origine correspondant n’est pas défini par l’objet vignette, le point d’origine par défaut (correspondance centrale) est utilisé.
 
-`align=2` Spécifie l’alignement de texture aléatoire, auquel cas `anchor=` est effectivement ignoré.
+`align=2` Spécifie l&#39;alignement aléatoire des textures, auquel cas `anchor=` est effectivement ignoré.
 
-Utilisé principalement pour les matériaux de toile, éventuellement pour les tissus d&#39;habillement, afin de gérer l&#39;alignement de la texture entre les objets adjacents.
+Principalement utilisé pour les matériaux d&#39;ameublement, éventuellement pour les tissus d&#39;habillement, pour gérer l&#39;alignement de la texture entre les objets adjacents.
 
 ## Propriétés {#section-350fadc87dcf4812a8a02d1c3d6697a0}
 
-Attribut de matière. Ignoré si un objet cadre de paroi, d’armoire, d’appareil ou de fenêtre est sélectionné ou si la matière n’est pas une texture répétable.
+Attribut Material. Ignoré si un objet de cadre de mur, d&#39;armoire, d&#39;appareil ou de revêtement de fenêtre est sélectionné ou si la matière n&#39;est pas une texture répétable.
 
 ## Par défaut {#section-3231c2854bae4477836b626ac208dd34}
 
-`catalog::Alignment`, si la matière est basée sur une entrée de catalogue, sinon 0 (correspondant au centre).
+`catalog::Alignment`, si le matériau est basé sur une entrée de catalogue, sinon 0 (centré).
 
 ## Voir aussi {#section-945d1ce275df487d9d564d4043156c79}
 

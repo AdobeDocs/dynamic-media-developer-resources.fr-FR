@@ -1,7 +1,7 @@
 ---
 description: Utilisé par PhotoshopOptions/layerNaming.
 solution: Experience Manager
-title: Modes de nommage des calques Photoshop
+title: Modes de dénomination des calques Photoshop
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9f5d6319-010f-4915-91c0-c90ceba969c0
@@ -12,7 +12,7 @@ ht-degree: 11%
 
 ---
 
-# Modes de nommage des calques Photoshop{#photoshop-layer-naming-modes}
+# Modes de dénomination des calques Photoshop{#photoshop-layer-naming-modes}
 
 Utilisé par PhotoshopOptions/layerNaming.
 

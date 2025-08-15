@@ -1,6 +1,6 @@
 ---
 title: setVideo
-description: Référence de l’API JavaScript pour la visionneuse Video360
+description: JavaScript référence de l’API pour la visionneuse Video360
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 5%
 
 # setVideo{#setvideo}
 
-Référence de l’API JavaScript pour la visionneuse Video360
+JavaScript référence de l’API pour la visionneuse Video360
 
 `setVideo(videoUrl)`
 
-Définit une nouvelle vidéo externe. Peuvent être appelées à tout moment, avant et après `init()`. S’il est appelé après `init()`, la visionneuse échange la vidéo au moment de l’exécution.
+Définit une nouvelle vidéo externe. Peut être appelé à tout moment, avant et après `init()`. Si elle est appelée après `init()`, la visionneuse échange la vidéo au moment de l’exécution.
 
 Voir aussi [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6).
 
@@ -27,13 +27,13 @@ Voir aussi [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> videoUrl </span> </p> </td> 
-   <td colname="col2"> <p>{<span class="codeph"> String</span>} : URL absolue vers la nouvelle vidéo. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> URL de vidéo </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph">{ String</span>} URL absolue vers la nouvelle vidéo. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Renvoie {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Retourne {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Aucune
 

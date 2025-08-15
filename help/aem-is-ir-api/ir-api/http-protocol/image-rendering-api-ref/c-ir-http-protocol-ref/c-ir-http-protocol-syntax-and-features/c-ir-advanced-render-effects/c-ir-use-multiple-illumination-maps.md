@@ -1,5 +1,5 @@
 ---
-title: Utilisation de plusieurs cartes d’éclairage
+title: Utilisation de plusieurs textures d'illumination
 description: Certaines applications peuvent nécessiter une carte d'éclairage différente pour différents types de matériaux.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -12,16 +12,16 @@ ht-degree: 0%
 
 ---
 
-# Utilisation de plusieurs cartes d’éclairage{#using-multiple-illumination-maps}
+# Utilisation de plusieurs textures d&#39;illumination{#using-multiple-illumination-maps}
 
 Certaines applications peuvent nécessiter une carte d&#39;éclairage différente pour différents types de matériaux.
 
-Vous pouvez créer jusqu’à trois cartes d’éclairage pour chaque vignette. La carte d’éclairage pour une opération de rendu est sélectionnée avec les commandes `illum=` et `gloss=` .
+Vous pouvez créer jusqu&#39;à trois cartes d&#39;illumination pour chaque vignette. La carte d&#39;illumination d&#39;une opération de rendu est sélectionnée avec les commandes `illum=` et/ou `gloss=`.
 
-**Sélection par défaut** - Si `illum=` ou `gloss=` ne sont pas spécifiés, le moteur de rendu utilise la première carte d’éclairage créée (généralement la carte A, ou carte d’éclairage &quot;plate&quot;).
+**Sélection par défaut** - Si `illum=` ou `gloss=` ne sont pas spécifiés, le moteur de rendu utilise la première carte d&#39;illumination créée (généralement la carte A, soit la carte d&#39;illumination &#39;Plat&#39;).
 
-**Sélection automatique avec`gloss=`** - Si `illum=` n’est pas spécifié ou est défini sur `-1`, le moteur de rendu compare la valeur `gloss=` spécifiée aux valeurs d’éclat associées à chaque carte d’éclairage dans la vignette. Il sélectionne la carte d’éclairage dont la valeur d’éclat est la plus proche du `gloss=` spécifié.
+**Sélection automatique avec`gloss=`** - Si `illum=` n&#39;est pas spécifié ou est défini sur `-1`, le moteur de rendu compare la valeur `gloss=` spécifiée aux valeurs de brillance associées à chaque texture d&#39;éclairage dans la vignette. Il sélectionne la texture d&#39;illumination dont la valeur de brillance est la plus proche de la `gloss=` spécifiée.
 
-**Sélection explicite avec`illum=`** - Si `illum=` est spécifié et défini sur `0`, `1` ou `2`, le moteur de rendu utilise la carte d’éclairage correspondante ; `gloss=` est ignoré pour la sélection de la carte d’éclairage.
+**Sélection explicite avec`illum=`** - Si `illum=` est spécifié et défini sur `0`, `1` ou `2`, le rendu utilise la map d&#39;illumination correspondante ; `gloss=` est ignoré pour sélectionner la map d&#39;illumination.
 
-Si la vignette ne contient qu’une seule carte d’éclairage, le moteur de rendu utilise cette carte et ignore les commandes `illum=` et `gloss=`.
+Si la vignette ne contient qu&#39;une seule carte d&#39;illumination, le moteur de rendu l&#39;utilise et ignore les commandes `illum=` et `gloss=`.

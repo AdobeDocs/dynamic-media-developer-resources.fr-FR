@@ -1,5 +1,5 @@
 ---
-description: Type de données Nombre entier.
+description: Type de données de nombre entier.
 solution: Experience Manager
 title: Nombre entier
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # Nombre entier{#integer-number}
 
-Type de données Nombre entier.
+Type de données de nombre entier.
 
-Valeur entière signée (par exemple, 0, -12, 34). Les valeurs 0 ou négatives peuvent avoir une signification spéciale.
+Valeur entière signée (par exemple, 0, -12, 34). 0 ou les valeurs négatives peuvent avoir une signification particulière.

@@ -1,7 +1,7 @@
 ---
 description: Définit la cible de zoom associée à une image de ressource. Il remplace les cibles de zoom existantes.
 solution: Experience Manager
-title: setZoomTargets
+title: Définir les cibles de zoom
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1b4ac729-00cf-4ea2-9098-60b4af3c7e6d
@@ -12,7 +12,7 @@ ht-degree: 12%
 
 ---
 
-# setZoomTargets{#setzoomtargets}
+# Définir les cibles de zoom{#setzoomtargets}
 
 Définit la cible de zoom associée à une image de ressource. Il remplace les cibles de zoom existantes.
 
@@ -29,25 +29,25 @@ Syntaxe
 
 ## Paramètres {#section-161f8c733cc4439f94a06e12119d4226}
 
-**Input (setZoomTargetsParam)**
+**Entrée (setZoomTargetsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Poignée de la société. |
-| assetHandle | `xsd:string` | Oui | Ressource avec la cible de zoom à définir. |
-| zoomTargetArray | `types:ZoomTargetDefinitionArray` | Oui | Tableau des définitions de cibles de zoom. |
+| CompanyHandle | `xsd:string` | Oui | Pseudo de l’entreprise. |
+| AssetHandle | `xsd:string` | Oui | Ressource avec la cible de zoom que vous souhaitez définir. |
+| Tableau de cibles zoom | `types:ZoomTargetDefinitionArray` | Oui | Tableau des définitions de cibles de zoom. |
 
-**Sortie (setZoomTargetsReturn)**
+**Output (setZoomTargetsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| zoomTargetHandleArray | `types:HandleArray` | Oui | Ensemble de gestionnaires vers les cibles de zoom créées par cette opération. |
+| zoomTargetHandleArray | `types:HandleArray` | Oui | Ensemble des poignées des cibles de zoom créées par cette opération. |
 
 ## Exemples {#section-a2f14c7a1499443e96d099ea8a76c182}
 
-Cet exemple de code définit un tableau de cibles de zoom par nom, position (axe x et y), largeur, hauteur et affecte le tableau à une ressource. La réponse contient des poignées pour les cibles de zoom nouvellement créées.
+Cet exemple de code définit une matrice de cibles de zoom par nom, position (axes x et y), largeur, hauteur et affecte la matrice à une ressource. La réponse contient des indicateurs aux cibles de zoom nouvellement créées.
 
-**Requête**
+**Demander**
 
 ```java
 <setZoomTargetsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

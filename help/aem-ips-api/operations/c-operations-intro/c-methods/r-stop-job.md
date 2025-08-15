@@ -1,7 +1,7 @@
 ---
-description: Arrête un traitement en cours.
+description: Arrête une tâche en cours.
 solution: Experience Manager
-title: stopJob
+title: Tâche d’arrêt
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 90e61cf1-11f1-4504-8007-126ba4fe436a
@@ -12,9 +12,9 @@ ht-degree: 18%
 
 ---
 
-# stopJob{#stopjob}
+# Tâche d’arrêt{#stopjob}
 
-Arrête un traitement en cours.
+Arrête une tâche en cours.
 
 Syntaxe
 
@@ -31,12 +31,12 @@ Syntaxe
 
 ## Paramètres {#section-2b64f074e37c4c38849994f3bc65342a}
 
-**Entrée (stopJobParam)**
+**Input (stopJobParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Poignée de la société. |
-| jobHandle | `xsd:string` | Oui | Gérez la tâche que vous souhaitez arrêter. |
+| CompanyHandle | `xsd:string` | Oui | Pseudo de l’entreprise. |
+| Poignée de tâche | `xsd:string` | Oui | Gérez la tâche que vous souhaitez arrêter. |
 
 **Output (stopJobReturn0**
 
@@ -44,7 +44,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-f7e07fa09ae24dc89685533f20ab3b81}
 
-**Requête**
+**Demander**
 
 ```java
 <stopJobParam xmlns="http://www.scene7.com/IpsApi/xsd">

@@ -1,6 +1,6 @@
 ---
 title: setLocalizedTexts
-description: Référence de l’API JavaScript pour la visionneuse de carrousel.
+description: JavaScript référence de l’API pour Carousel Viewer.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -14,24 +14,24 @@ ht-degree: 2%
 
 # setLocalizedTexts{#setlocalizedtexts}
 
-Référence de l’API JavaScript pour la visionneuse de carrousel.
+JavaScript référence de l’API pour Carousel Viewer.
 
-` setLocalizedTexts( *`localizationInfo`*)`
+` setLocalizedTexts( *`Informations de localisation`*)`
 
-Définit des valeurs SYMBOL de localisation pour un ou plusieurs paramètres régionaux. Ce paramètre doit être appelé avant `init()`.
+Définit les valeurs de SYMBOL de localisation pour un ou plusieurs paramètres régionaux. Ce paramètre doit être appelé avant `init()`.
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo</span> </span> </p> </td> 
-   <td colname="col2"> <p> &lbrace;<span class="codeph"> Objet JSON </span> avec données de localisation. </p> <p>Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md" format="dita" scope="local"> Localisation des éléments de l’interface utilisateur </a> pour plus d’informations. </p> <p>Consultez également le <i>Guide de l’utilisateur du SDK de la visionneuse</i> et l’exemple pour plus d’informations sur le contenu de l’objet. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> Informations de</span> localisation </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph">{ object</span>} Objet JSON avec données de localisation. </p> <p>Pour plus d’informations, voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-localization.md" format="dita" scope="local"> Localisation des éléments</a> de l’interface utilisateur. </p> <p>Consultez également le Guide<i> de l’utilisateur </i>du Kit de développement logiciel (SDK) de la visionneuse et l’exemple pour plus d’informations sur le contenu de l’objet. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 Voir aussi [init](../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-javascriptapiref/r-html5-aem-carousel-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
-## Renvoie {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Retourne {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Aucune
 

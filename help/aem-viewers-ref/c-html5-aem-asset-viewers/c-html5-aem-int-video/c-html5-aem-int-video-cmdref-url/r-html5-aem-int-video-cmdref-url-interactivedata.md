@@ -1,5 +1,5 @@
 ---
-title: interactivedata
+title: données interactives
 description: Commande URL de la visionneuse de vidéos interactives.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
@@ -12,19 +12,19 @@ ht-degree: 4%
 
 ---
 
-# interactivedata{#interactivedata}
+# données interactives{#interactivedata}
 
 Commande URL de la visionneuse de vidéos interactives.
 
-`interactivedata= *`file`*`
+`interactivedata= *`fichier`*`
 
-Les données interactives associent certaines régions temporelles du contenu vidéo aux données de produit qui s’affichent ultérieurement dans des échantillons interactifs en regard de la vidéo. Elle est également associée au panneau d’appel à l’action affiché à la fin de la lecture vidéo. Il fournit également un titre pour la vidéo interactive affichée dans le panneau d’appel à l’action.
+Les données interactives associent certaines périodes du contenu vidéo aux données de produit qui sont ensuite affichées dans des échantillons interactifs en regard de la vidéo. Il est également associé dans le panneau call-to-action affiché à la fin de la lecture vidéo. Elle fournit également un titre pour la vidéo interactive affichée dans le panneau call-to-action.
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fichier</span> </span> </p> </td> 
-   <td colname="col2"> <p> Spécifie une URL ou un chemin d’accès au contenu de données interactives WebVTT. Le fichier WebVTT doit être traité par le serveur d’images. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fichier </span> </span> </p> </td> 
+   <td colname="col2"> <p> Indique une URL ou un chemin d’accès au contenu de données interactives WebVTT. Le fichier WebVTT doit être diffusé par le service d’images. </p> </td> 
   </tr> 
  </tbody> 
 </table>

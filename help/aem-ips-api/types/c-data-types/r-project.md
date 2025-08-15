@@ -1,5 +1,5 @@
 ---
-description: Jeu de ressources nommées.
+description: Ensemble de fichiers nommés.
 solution: Experience Manager
 title: Projet
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL Project]{#project}
 
-Jeu de ressources nommées.
+Ensemble de fichiers nommés.
 
 Syntaxe
 
@@ -22,5 +22,5 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| gestion de projet | `xsd:string` | Gestionnaire de projet. |
+| Poignée de projet | `xsd:string` | Pseudo de projet. |
 | nom | `xsd:string` | Nom du projet. |

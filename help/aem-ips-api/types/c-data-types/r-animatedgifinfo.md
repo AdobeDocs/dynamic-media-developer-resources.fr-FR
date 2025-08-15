@@ -1,6 +1,6 @@
 ---
 title: AnimatedGifInfo
-description: Propriétés d’une ressource de fichier de GIF animé.
+description: Propriétés d’une ressource de fichier GIF animée.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # [!DNL AnimatedGifInfo]{#animatedgifinfo}
 
-Propriétés d’une ressource de fichier de GIF animé.
+Propriétés d’une ressource de fichier GIF animée.
 
 Syntaxe
 
@@ -32,7 +32,7 @@ Syntaxe
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> [!DNL originalPath]</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>Chemin d’accès au fichier de GIF. </p> </td> 
+   <td colname="col3"> <p>Chemin d’accès au fichier GIF. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> [!DNL originalFile]</span> </span> </p> </td> 
@@ -47,12 +47,12 @@ Syntaxe
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> [!DNL optimizedFile]</span></span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>Fichier image optimisé pour IPS. </p> </td> 
+   <td colname="col3"> <p>Le fichier image optimisé pour IPS. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> [!DNL fileSize]</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
-   <td colname="col3"> <p>Taille de fichier. </p> </td> 
+   <td colname="col3"> <p>Taille du fichier. </p> </td> 
   </tr> 
  </tbody> 
 </table>

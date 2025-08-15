@@ -1,6 +1,6 @@
 ---
 title: VideoPlayer.singleclick
-description: Attribut de configuration pour la visionneuse de vidéos.
+description: Attribut de configuration pour la visionneuse vidéo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 4%
 
 # VideoPlayer.singleclick{#videoplayer-singleclick}
 
-Attribut de configuration pour la visionneuse de vidéos.
+Attribut de configuration pour la visionneuse vidéo.
 
-` [VideoPlayer.|<containerId>_videoPlayer.]singleclick= *`none|playPause`*`
+` [VideoPlayer.|<containerId>_videoPlayer.]singleclick= *`aucun|playPause`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|playPause</span> </span> </p> </td> 
-   <td colname="col2"> <p> Configure le mappage d’un clic/d’un clic pour activer/désactiver la lecture/la pause. La définition de sur <span class="codeph"> none</span> désactive la lecture/la mise en pause d’un simple clic. Si celle-ci est définie sur <span class="codeph"> playPause</span>, cliquer sur la vidéo fait basculer entre la lecture et la mise en pause de la vidéo. Sur certains périphériques, vous pouvez utiliser des contrôles natifs. Dans ce cas, le comportement <span class="codeph"> singleclick</span> est désactivé. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> aucun|playPause</span> </span> </p> </td> 
+   <td colname="col2"> <p> Configure le mappage d’un simple clic/appuyer pour basculer lecture/pause. La définition sur <span class="codeph"> aucun</span> désactive la lecture/mise en pause d’un simple clic/appuyer pour jouer. Si vous êtes configuré sur <span class="codeph"> lecturePause</span>, cliquez sur la vidéo pour basculer entre la lecture et la suspension de la vidéo. Sur certains appareils, vous pouvez utiliser des contrôles natifs. Dans ce cas, <span class="codeph"> le comportement d’un seul clic</span> est désactivé. </p> </td> 
   </tr> 
  </tbody> 
 </table>

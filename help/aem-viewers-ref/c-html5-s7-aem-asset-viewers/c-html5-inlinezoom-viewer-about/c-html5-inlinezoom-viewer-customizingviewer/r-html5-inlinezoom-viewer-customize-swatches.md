@@ -1,6 +1,6 @@
 ---
-title: Nuancier
-description: Les nuanciers se composent d’une ligne d’images miniatures avec des boutons de défilement facultatifs à gauche et à droite.
+title: Nuanciers
+description: Les nuanciers se composent d’une rangée de miniatures et de boutons de défilement facultatifs sur les côtés gauche et droit.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Nuancier{#swatches}
+# Nuanciers{#swatches}
 
-Les nuanciers se composent d’une ligne d’images miniatures avec des boutons de défilement facultatifs à gauche et à droite.
+Les nuanciers se composent d’une rangée de miniatures et de boutons de défilement facultatifs sur les côtés gauche et droit.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -22,7 +22,7 @@ Les boutons de défilement ne sont visibles sur le bureau que si toutes les mini
 
 **Propriétés CSS des échantillons**
 
-L’aspect du conteneur d’échantillons est contrôlé à l’aide du sélecteur de classe CSS suivant :
+L’aspect du conteneur d’échantillons est contrôlé avec le sélecteur de classe CSS suivant :
 
 ```
 .s7flyoutviewer .s7swatches
@@ -31,27 +31,27 @@ L’aspect du conteneur d’échantillons est contrôlé à l’aide du sélecte
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> propriété CSS </p> </th> 
+   <th colname="col1" class="entry"> <p> Propriété CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
    <td colname="col2"> <p> Largeur des échantillons. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> hauteur </span> </p> </td> 
    <td colname="col2"> <p>Hauteur des échantillons. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> fond </span> </p> </td> 
    <td colname="col2"> <p> Décalage des échantillons verticaux par rapport au conteneur de la visionneuse. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : pour configurer des échantillons à 460 x 100 pixels :
+Exemple - Pour définir des échantillons à 460 x 100 pixels, procédez comme suit :
 
 ```
 .s7flyoutviewer .s7swatches { 
@@ -60,9 +60,9 @@ Exemple : pour configurer des échantillons à 460 x 100 pixels :
 }
 ```
 
-**Propriétés CSS de l’espacement des échantillons de miniatures**
+**Propriétés CSS de l’espacement de l’échantillon de vignette**
 
-L’espacement entre les miniatures d’échantillon est contrôlé à l’aide du sélecteur de classe CSS :
+L’espacement entre les miniatures d’échantillons est contrôlé par le sélecteur de classe CSS :
 
 ```
 .s7flyoutviewer .s7swatches .s7thumbcell
@@ -71,19 +71,19 @@ L’espacement entre les miniatures d’échantillon est contrôlé à l’aide 
 <table id="table_70FAD50E38EB4647B8FAB832F552BBB8"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> propriété CSS </p> </th> 
+   <th colname="col1" class="entry"> <p> Propriété CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin </span> </p> </td> 
-   <td colname="col2"> <p> Taille de la marge horizontale et verticale autour de chaque miniature. L’espacement réel des miniatures est égal à la somme des marges gauche et droite définies pour <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge </span> </p> </td> 
+   <td colname="col2"> <p> Taille de la marge horizontale et verticale autour de chaque miniature. L’espacement réel des miniatures est égal à la somme des marges gauche et droite définies pour <span class="codeph"> </span> .s7thumbcell. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : pour configurer l’espacement sur 10 pixels verticalement et horizontalement :
+Exemple : pour définir un espacement de dix pixels verticalement et horizontalement :
 
 ```
 .s7flyoutviewer .s7swatches .s7thumbcell { 
@@ -93,7 +93,7 @@ Exemple : pour configurer l’espacement sur 10 pixels verticalement et horizont
 
 **Propriétés CSS des échantillons de miniatures**
 
-L’aspect des miniatures individuelles est contrôlé à l’aide du sélecteur de classe CSS suivant :
+L’aspect de chaque miniature est contrôlé par le sélecteur de classe CSS suivant :
 
 ```
 .s7flyoutviewer .s7swatches .s7thumb
@@ -102,31 +102,31 @@ L’aspect des miniatures individuelles est contrôlé à l’aide du sélecteur
 <table id="table_85446C72FD914594B7D108381BBFC673"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> propriété CSS </p> </th> 
+   <th colname="col1" class="entry"> <p> Propriété CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
    <td colname="col2"> <p> Largeur des échantillons de miniatures. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Hauteur des échantillons de miniatures. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> de hauteur </span> </p> </td> 
+   <td colname="col2"> <p>Hauteur des échantillons de miniature. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bordure </span> </p> </td> 
-   <td colname="col2"> <p>Bordure des échantillons de miniatures. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> frontière </span> </p> </td> 
+   <td colname="col2"> <p>Bordure de la miniature nuanciers. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->La miniature prend en charge le sélecteur d’attributs `state`, qui est utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la miniature de l’image actuellement affichée dans la vue principale, `state="default"` correspond au reste des miniatures et `state="over"` est utilisé lorsque vous pointez dessus.
+>La miniature prend en charge le sélecteur d’attributs `state` , qui est utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la miniature de l’image actuellement affichée dans la vue principale, `state="default"` correspond au reste des vignettes et `state="over"` est utilisée lors du survol de la souris.
 
-Exemple : pour configurer des miniatures de 56 x 56 pixels, utilisez une bordure grise claire et une bordure sélectionnée en gris foncé :
+Exemple : pour configurer des miniatures de 56 x 56 pixels, elles doivent avoir une bordure par défaut gris clair et une bordure sélectionnée gris foncé :
 
 ```
 .s7flyoutviewer .s7swatches .s7thumb { 
@@ -141,51 +141,51 @@ Exemple : pour configurer des miniatures de 56 x 56 pixels, utilisez une bordure
 }
 ```
 
-**Propriétés CSS des boutons de défilement gauche et droite**
+**Propriétés CSS des boutons de défilement gauche et droit**
 
-L’aspect des boutons de défilement gauche et droite est contrôlé à l’aide des sélecteurs de classe CSS suivants :
+L’apparence des boutons de défilement gauche et droit est contrôlée par les sélecteurs de classe CSS suivants :
 
 ```
 .s7flyoutviewer .s7swatches .s7scrollleftbutton 
 .s7flyoutviewer .s7swatches .s7scrollrightbutton
 ```
 
-Il n’est pas possible de positionner les boutons de défilement à l’aide des propriétés CSS `top`, `left`, `bottom` et `right`. La logique de la visionneuse les positionne automatiquement.
+Il est impossible de positionner les boutons de défilement à l’aide de CSS `top`, `left`, `bottom`et `right` des propriétés. Au lieu de cela, la logique de la visionneuse les positionne automatiquement.
 
 <table id="table_F957367566C542829E2F6D296F9DAAC5"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> propriété CSS </p> </th> 
+   <th colname="col1" class="entry"> <p> Propriété CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Largeur </span> </p> </td> 
    <td colname="col2"> <p> Largeur du bouton de défilement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> de hauteur </span> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton de défilement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> le </span> image d’arrière-plan </p> </td> 
    <td colname="col2"> <p>Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md#section-b0af39db1af74561aea9fddcc8cdc2c7" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> position de l’arrière-plan </span> </p> </td> 
+   <td colname="col2"> <p> Position à l’intérieur du sprite de l’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-customizingviewer/c-html5-inlinezoom-viewer-customizingviewer.md#section-b0af39db1af74561aea9fddcc8cdc2c7" format="dita" scope="local"> Sprites </a>CSS. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ce bouton prend en charge le sélecteur d’attributs `state`, qui est utilisé pour appliquer différents habillages aux états de bouton `up`, `down`, `over` et `disabled`.
+>Ce bouton prend en charge le sélecteur d’attributs `state` , qui permet d’appliquer différents habillages aux états des boutons `up`, `down`, `over`, et `disabled`.
 
-Les info-bulles des boutons peuvent être localisées. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) pour plus d’informations.
+Les info-bulles des boutons peuvent être localisées. Pour plus d’informations, voir [Localisation des éléments](../../../c-html5-s7-aem-asset-viewers/c-html5-inlinezoom-viewer-about/c-html5-inlinezoom-viewer-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27) de l’interface utilisateur.
 
-Exemple : pour configurer des boutons de défilement de 56 x 56 pixels et dont l’illustration est différente pour chaque état :
+Exemple : pour configurer des boutons de défilement de 56 x 56 pixels avec des illustrations différentes pour chaque état :
 
 ```
 .s7flyoutviewer .s7swatches .s7scrollleftbutton { 

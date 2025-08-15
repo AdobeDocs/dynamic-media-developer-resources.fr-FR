@@ -1,7 +1,7 @@
 ---
 description: Définition de la cible de zoom.
 solution: Experience Manager
-title: ZoomTargetDefinition
+title: Définition de cibles de zoom
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 57916dec-8676-41aa-834b-37775a0f6d02
@@ -22,9 +22,9 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| nom | `xsd:string` | Nom de la cible |
+| nom | `xsd:string` | Target nom. |
 | xPosition | `xsd:int` | Position X de la cible de zoom. |
 | yPosition | `xsd:int` | Position Y de la cible de zoom. |
 | largeur | `xsd:int` | Largeur de la cible de zoom. |
-| hauteur | `xsd:int` | Hauteur de la cible de zoom. |
-| userData | `xsd:string` | Données utilisateur associées. |
+| hauteur | `xsd:int` | Hauteur de cible de zoom. |
+| Données utilisateur | `xsd:string` | Données utilisateur associées. |

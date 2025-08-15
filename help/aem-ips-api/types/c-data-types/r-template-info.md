@@ -16,12 +16,12 @@ ht-degree: 13%
 
 Propriétés d’une ressource de modèle.
 
-Les modèles sont des définitions de calque paramétrées qui construisent une image superposée.
+Les modèles sont des définitions de calque paramétrées qui construisent une image en calque.
 
 ## Paramètres {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
 | Nom | Type | Description |
 |---|---|---|
-| url | `xsd:string` | URL du serveur d’images qui représente le modèle. |
+| url | `xsd:string` | URL du serveur d’images représentant le modèle. |
 | urlModifier | `xsd:string` | |
 | urlPostApplyModifier | `xsd:string` | |

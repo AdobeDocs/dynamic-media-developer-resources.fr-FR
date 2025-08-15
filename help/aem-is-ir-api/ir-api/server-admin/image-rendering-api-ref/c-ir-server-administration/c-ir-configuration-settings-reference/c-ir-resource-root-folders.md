@@ -1,6 +1,6 @@
 ---
-title: Dossiers de la racine de la ressource (ir.resourceRootPaths)
-description: Une liste de chemins, délimités par des points-virgules, sert de racines à tous les fichiers de données avec des chemins d’accès aux fichiers relatifs.
+title: Dossiers racine des ressources (ir.resourceRootPaths)
+description: Une liste de chemins d’accès, délimités par des points-virgules, sert de racines à tous les fichiers de données ayant des chemins d’accès aux fichiers relatifs.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# Dossiers de la racine de la ressource (ir.resourceRootPaths){#resource-root-folders-ir-resourcerootpaths}
+# Dossiers racine des ressources (ir.resourceRootPaths){#resource-root-folders-ir-resourcerootpaths}
 
-Une liste de chemins, délimités par des points-virgules, sert de racines à tous les fichiers de données avec des chemins d’accès aux fichiers relatifs.
+Une liste de chemins d’accès, délimités par des points-virgules, sert de racines à tous les fichiers de données ayant des chemins d’accès aux fichiers relatifs.
 
-Il peut s’agir de chemins absolus ou de chemins relatifs à *[!DNL install_folder]*. Lorsque plusieurs chemins sont spécifiés, le serveur tente chaque racine dans l’ordre indiqué jusqu’à ce que le fichier soit trouvé. La valeur par défaut est [!DNL ./resources], pour un chemin racine par défaut de [!DNL install_folder/resources].
+Il peut s’agir de chemins absolus ou de chemins relatifs à *[!DNL install_folder]*. Lorsque plusieurs chemins d’accès sont spécifiés, le serveur tente d’accéder à chaque racine dans l’ordre indiqué jusqu’à ce que le fichier soit trouvé. La valeur par défaut est [!DNL ./resources], pour un chemin racine par défaut de [!DNL install_folder/resources].

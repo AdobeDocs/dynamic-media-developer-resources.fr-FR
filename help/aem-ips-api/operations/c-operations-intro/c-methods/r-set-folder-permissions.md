@@ -30,10 +30,10 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Poignée de la société. |
-| folderHandle | `xsd:string` | Oui | Poignée de dossier. |
-| setChildren | `xsd:boolean` | Oui | Définit des autorisations sur les enfants appartenant au dossier. |
-| permissionArray | `types:PermissionUpdateArray` | Oui | Tableau d’autorisations. |
+| companyHandle | `xsd:string` | Oui | Identifiant de la société. |
+| folderHandle | `xsd:string` | Oui | Handle du dossier. |
+| setChildren | `xsd:boolean` | Oui | Définit les autorisations sur les enfants appartenant au dossier . |
+| permissionArray | `types:PermissionUpdateArray` | Oui | Tableau des autorisations. |
 
 **Output (setFolderPermissionsReturn)**
 
@@ -41,7 +41,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-01730da4be874553ab44e3241cdf6357}
 
-Cet exemple de code spécifie un nom d’entreprise, un nom d’utilisateur de dossier et un tableau d’autorisations avec des informations détaillées sur le dossier. Il applique les mêmes autorisations aux enfants du dossier parent.
+Cet exemple de code spécifie un handle de société, un handle de dossier et un tableau d’autorisations avec des informations détaillées sur le dossier. Il applique les mêmes autorisations pour les enfants du dossier parent.
 
 **Requête**
 

@@ -1,7 +1,7 @@
 ---
-description: Informations sur le nom et les paramètres de définition de la macro.
+description: Informations sur le nom de la macro et les paramètres de définition.
 solution: Experience Manager
-title: Référence de définition de macro
+title: Référence de la définition de macro
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e62874e5-5887-4749-a8c8-83f88500b0a3
@@ -12,9 +12,9 @@ ht-degree: 8%
 
 ---
 
-# Référence de définition de macro{#macro-definition-reference}
+# Référence de la définition de macro{#macro-definition-reference}
 
-Informations sur le nom et les paramètres de définition de la macro.
+Informations sur le nom de la macro et les paramètres de définition.
 
 * [Nom](r-name-macro.md)
 * [Définition](r-definition-macro.md)

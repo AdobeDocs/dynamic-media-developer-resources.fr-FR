@@ -1,5 +1,5 @@
 ---
-description: Ce document décrit le protocole HTTP pour le rendu d’image Dynamic Media.
+description: Ce document décrit le protocole HTTP pour le rendu d’images Dynamic Media.
 solution: Experience Manager
 title: Référence du protocole HTTP
 feature: Dynamic Media Classic,SDK/API
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # Référence du protocole HTTP{#http-protocol-reference}
 
-Ce document décrit le protocole HTTP pour le rendu d’image Dynamic Media.
+Ce document décrit le protocole HTTP pour le rendu d’images Dynamic Media.

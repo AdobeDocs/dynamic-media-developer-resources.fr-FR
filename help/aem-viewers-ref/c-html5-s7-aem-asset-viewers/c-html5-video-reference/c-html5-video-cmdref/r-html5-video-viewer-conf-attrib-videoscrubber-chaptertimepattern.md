@@ -1,6 +1,6 @@
 ---
 title: VideoScrubber.chaptertimepattern
-description: Attribut de configuration pour la visionneuse de vidéos.
+description: Attribut de configuration de la visionneuse de vidéos.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 2%
 
 # VideoScrubber.chaptertimepattern{#videoscrubber-chaptertimepattern}
 
-Attribut de configuration pour la visionneuse de vidéos.
+Attribut de configuration de la visionneuse de vidéos.
 
 `[VideoScrubber.|<containerId>_videoScrubber.]chaptertimepattern=[h:]m|mm:s|ss`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> [h:]m|mm:s|ss</span> </p> </td> 
-   <td colname="col2"> <p> Définit le modèle de la durée affichée dans la barre de titre de l’étiquette du chapitre vidéo, où <span class="codeph"> h</span> correspond aux heures, <span class="codeph"> m</span> aux minutes et <span class="codeph"> s</span> aux secondes. </p> <p>Le nombre de lettres utilisé pour chaque unité de temps détermine le nombre de chiffres à afficher pour l’unité. Si le nombre ne peut pas tenir dans les chiffres donnés, la valeur équivalente est affichée dans l’unité suivante. </p> <p>Par exemple, si l’heure actuelle du film est de 67 minutes et 5 secondes, le modèle d’heure <span class="codeph"> m:ss</span> s’affiche sous la forme 67:05. La même heure est affichée sous la forme 1:07:5 si le modèle d’heure donné est <span class="codeph"> h:mm:s</span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> [h :]m|mm:s|ss</span> </p> </td> 
+   <td colname="col2"> <p> Définit le modèle du temps affiché dans la barre de titre du libellé du chapitre de la vidéo, où <span class="codeph"> h</span> correspond aux heures, <span class="codeph"> m</span> aux minutes et <span class="codeph"> s</span> aux secondes. </p> <p>Le nombre de lettres utilisé pour chaque unité de temps détermine le nombre de chiffres à afficher pour l’unité. Si le nombre ne peut pas tenir dans les chiffres donnés, la valeur équivalente est affichée dans l’unité suivante. </p> <p>Par exemple, si l’heure actuelle du film est de 67 minutes et 5 secondes, le modèle temporel <span class="codeph"> m:ss</span> s’affiche à 67:05. La même heure est affichée sous la forme 1:07:5 si le modèle temporel donné est <span class="codeph"> h:mm:s</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

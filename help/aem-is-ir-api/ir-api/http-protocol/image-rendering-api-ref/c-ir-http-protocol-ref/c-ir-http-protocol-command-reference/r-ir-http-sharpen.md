@@ -1,5 +1,5 @@
 ---
-title: accentuer
+title: aiguiser
 description: Accentuer l’image de réponse. Une accentuation facultative peut être appliquée une fois que l’image rendue est mise à l’échelle en fonction de wid= ou hei=.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -12,7 +12,7 @@ ht-degree: 9%
 
 ---
 
-# accentuer{#sharpen}
+# aiguiser{#sharpen}
 
 Accentuer l’image de réponse. Une accentuation facultative peut être appliquée une fois que l’image rendue est mise à l’échelle en fonction de wid= ou hei=.
 
@@ -21,11 +21,11 @@ Accentuer l’image de réponse. Une accentuation facultative peut être appliqu
 <table id="simpletable_E14B914834A241BA8B5FC42F07D34EEB"> 
  <tr class="strow"> 
   <td class="stentry"> <p>01 </p></td> 
-  <td class="stentry"> <p>Aucune accentuation. </p></td> 
+  <td class="stentry"> <p>Pas d’accentuation. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p></td> 
-  <td class="stentry"> <p>Accentuation. </p></td> 
+  <td class="stentry"> <p>Affilage. </p></td> 
  </tr> 
 </table>
 
@@ -35,4 +35,4 @@ Accentuer l’image de réponse. Une accentuation facultative peut être appliqu
 
 ## Voir aussi {#section-6172f926a0a54d7b86081784ee47470e}
 
-[attribute::Sharpen](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharpen.md#reference-18df922f3a3f403a97ccaaa15042e30a) , [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)
+[attribute ::Sharpen](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharpen.md#reference-18df922f3a3f403a97ccaaa15042e30a) , [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)

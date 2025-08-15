@@ -1,6 +1,6 @@
 ---
 title: CallToAction.enabledragging
-description: Attribut de configuration de la visionneuse de vidéos interactives.
+description: Attribut Configuration pour la visionneuse de vidéos interactives.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,19 +14,19 @@ ht-degree: 3%
 
 # CallToAction.enabledragging{#calltoaction-enabledragging}
 
-Attribut de configuration de la visionneuse de vidéos interactives.
+Attribut Configuration pour la visionneuse de vidéos interactives.
 
-` [CallToAction.|<containerId>_callToAction.]enabledragging=0|1[, *`overdragvalue`*]`
+` [CallToAction.|<containerId>_callToAction.]enabledragging=0|1[, *`Valeur de surglissement`*]`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Permet ou désactive la possibilité pour un utilisateur de faire défiler les miniatures avec la souris ou à l’aide de mouvements tactiles. </p> </td> 
+   <td colname="col2"> <p> Permet ou désactive la possibilité pour un utilisateur de faire défiler les vignettes à l’aide d’une souris ou à l’aide de gestes tactiles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> overdragvalue </span> </span> </p> </td> 
-   <td colname="col2"> <p> Se trouve dans la plage <span class="codeph"> 0-1 </span> et il s’agit d’une valeur de pourcentage pour le mouvement dans la mauvaise direction de la vitesse réelle. </p> <p>S’il est défini sur <span class="codeph"> 1 </span>, il se déplace avec la souris. </p> <p>Si elle est définie sur <span class="codeph"> 0 </span>, elle ne vous permet pas de vous diriger dans la mauvaise direction. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> Valeur de surglissement </span> </span> </p> </td> 
+   <td colname="col2"> <p> Est compris dans la <span class="codeph"> plage 0-1 </span> et est une valeur de pourcentage pour le mouvement dans la mauvaise direction de la vitesse réelle. </p> <p>S’il est défini sur <span class="codeph"> 1 </span>, il se déplace avec la souris. </p> <p>S’il est défini sur <span class="codeph"> 0 </span>, il ne vous permet pas d’aller dans la mauvaise direction. </p> </td> 
   </tr> 
  </tbody> 
 </table>

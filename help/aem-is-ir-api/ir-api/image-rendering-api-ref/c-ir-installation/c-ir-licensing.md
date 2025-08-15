@@ -1,5 +1,5 @@
 ---
-title: Licences
+title: Octroi de licence
 description: Une clé de licence de rendu d’image Dynamic Media est requise et doit être installée sur chaque système sur lequel le rendu d’image est installé.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# Licences{#licensing}
+# Octroi de licence{#licensing}
 
 Une clé de licence de rendu d’image Dynamic Media est requise et doit être installée sur chaque système sur lequel le rendu d’image est installé.
 
-Le rendu d’image ne s’exécute pas sans une licence valide. La procédure d&#39;installation comprend les étapes nécessaires pour obtenir et installer la clé de licence.
+Le rendu d’image ne s’exécute pas sans une licence valide. La procédure d’installation comprend les étapes permettant d’obtenir et d’installer la clé de licence.

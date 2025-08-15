@@ -1,6 +1,6 @@
 ---
 title: EmbedShare.embedsizes
-description: Attribut de configuration de la visionneuse de vidéos avec recadrage intelligent.
+description: Attribut de configuration pour la visionneuse de vidéos avec recadrage intelligent.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
@@ -14,25 +14,25 @@ ht-degree: 4%
 
 # EmbedShare.embedsizes{#embedshare-embedsizes}
 
-Attribut de configuration de la visionneuse de vidéos avec recadrage intelligent.
+Attribut de configuration pour la visionneuse de vidéos avec recadrage intelligent.
 
-` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`width`*, *`height`*[,0|1][; *`width`*, *`height`*[,0|1]]`
+` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *`width height`*[,0|1][; *``*, *`width height`*[,0|1]]`
 
-Indique une liste de tailles d’intégration pour la zone combinée de taille dans la boîte de dialogue modale de partage d’intégration.
+Spécifie une liste de tailles incorporées pour la zone de liste déroulante de taille dans la boîte de dialogue modale de partage intégré.
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td> 
-   <td colname="col2"> <p> Largeur de l’incorporation. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> Largeur </span> </span> </p> </td> 
+   <td colname="col2"> <p> Largeur incorporée. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> height </span> </span> </p> </td> 
-   <td colname="col2"> <p>Hauteur de l’incorporation. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> hauteur </span> </span> </p> </td> 
+   <td colname="col2"> <p>Hauteur de l’intégration. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Indique si cet élément de liste doit être initialement présélectionné dans la zone combinée. </p> </td> 
+   <td colname="col2"> <p> Indique si cet élément de liste doit être initialement présélectionné dans la zone de liste modifiable. </p> </td> 
   </tr> 
  </tbody> 
 </table>

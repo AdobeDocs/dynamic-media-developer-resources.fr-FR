@@ -38,36 +38,36 @@ Syntaxe
 
 ## Types modifiés {#section-56b834b1a3b843279d8715b4a4f3890b}
 
-**Ajout**
+**Supplémentaire**
 
-* Ajout de `numUrls` à `UploadUrlsJob`.
+* Ajouté `numUrls` à `UploadUrlsJob`.
 
-* Ajout de `fileName` à `Asset.`
+* Ajouté `fileName` à `Asset.`
 
-* Ajout de `isHidden` à `MetadataField`.
+* Ajouté `isHidden` à `MetadataField`.
 
-* Ajout de `taskState` à `TaskProgress`.
+* Ajouté `taskState` à `TaskProgress`.
 
-* Ajout de `exportJob` à `ActiveJob` et `ScheduledJob`.
+* Ajouté `exportJob` à `ActiveJob` et `ScheduledJob`.
 
-* Ajout de `optmizedPath` et de `optimizedFile` à `PsdInfo`.
+* Ajouté `optmizedPath` et `optimizedFile` à `PsdInfo`.
 
-* Ajout de `contextHandle` à :
+* Ajouté `contextHandle` à :
 
    * `ImageRenderingPublishJob`
    * `VideoPublishJob`
 
-* Ajout des paramètres suivants à `Asset` :
+* Ajout des paramètres suivants à `Asset`:
 
    * `animatedGifInfo`
    * `swcInfo`
    * `cssInfo`
    * `javascriptInfo`
 
-**Modifié**
+**Changé**
 
-* Dans `User`, `role` a été remplacé par `defaultRole`.
+* Dans `User`, remplacé `role` par `defaultRole`.
 
-* Dans `Folder`, `permissions` a été remplacé par `permissionsSetHandle`.
+* Dans `Folder`, remplacé `permissions` par `permissionsSetHandle`.
 
 * Dans `AssetSummary`, `type` et `name` sont désormais facultatifs.

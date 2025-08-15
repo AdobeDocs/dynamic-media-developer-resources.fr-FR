@@ -19,8 +19,8 @@ ht-degree: 4%
 <table id="table_4620F51BD77149FDB68F1FBECC443801"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif-alpha</span> </p> </td> 
-   <td> <p>Indique le format d’image que le composant utilise pour charger les images à partir du serveur d’images. Il peut s’agir de n’importe quelle valeur prise en charge par le serveur d’images et le navigateur client. Si le format spécifié se termine par <span class="codeph"> -alpha</span>, le composant effectue le rendu des images en tant que contenu transparent. Pour tous les autres formats d’image, le composant traite les images comme opaques. </p> </td> 
+   <td> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
+   <td> <p>Indique le format d’image utilisé par le composant pour charger des images à partir du serveur d’images. Il peut s’agir de n’importe quelle valeur prise en charge par le serveur d’images et le navigateur client. Si le format spécifié se termine par <span class="codeph"> -alpha</span>, le composant effectue le rendu des images en tant que contenu transparent. Pour tous les autres formats d’image, le composant traite les images comme opaques. </p> </td> 
   </tr> 
  </tbody> 
 </table>

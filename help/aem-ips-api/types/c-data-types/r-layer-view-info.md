@@ -1,7 +1,7 @@
 ---
-description: Propriétés du mode Calque.
+description: Propriétés de la vue Calque.
 solution: Experience Manager
-title: LayerViewInfo
+title: LayerViewInfo (Informations sur la vue)
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 25199c86-1df0-41af-b210-e7668a60295e
@@ -14,7 +14,7 @@ ht-degree: 13%
 
 # [!DNL LayerViewInfo]{#layerviewinfo}
 
-Propriétés du mode Calque.
+Propriétés de la vue Calque.
 
 Syntaxe
 
@@ -22,6 +22,6 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| url | `xsd:string` | URL du serveur d’images qui représente le modèle. Combine les champs `urlModifier` et `urlPostAp- plyModifier`. |
-| urlModifier | `xsd:string` | Commandes du protocole de diffusion d’images à appliquer avant les commandes de requête ou de `urlPostApplyModifier`. |
-| urlPostApplyModifier | `xsd:string` | Commandes du protocole de diffusion d’images à appliquer après les commandes `urlModifier` et de requête. |
+| url | `xsd:string` | URL du serveur d’images qui représente le modèle. Combine `urlModifier` et `urlPostAp- plyModifier` champs. |
+| Modificateur d’url | `xsd:string` | Commandes du protocole de diffusion d’images à appliquer avant la ou `urlPostApplyModifier` les commandes. |
+| urlPostApplyModifier | `xsd:string` | Commandes du protocole Image Server à appliquer après `urlModifier` et aux commandes de requête. |

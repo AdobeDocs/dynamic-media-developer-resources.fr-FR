@@ -1,5 +1,5 @@
 ---
-description: InDesign des propriétés du fichier.
+description: Propriétés du fichier InDesign.
 solution: Experience Manager
 title: InDesignInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 23%
 
 # [!DNL InDesignInfo]{#indesigninfo}
 
-InDesign des propriétés du fichier.
+Propriétés du fichier InDesign.
 
 Syntaxe
 
@@ -24,4 +24,4 @@ Syntaxe
 |---|---|---|
 | originalPath | `xsd:string` | Chemin du fichier. |
 | originalFile | `xsd:string` | Nom du fichier. |
-| fileSize | `xsd:int` | Taille de fichier. |
+| fileSize | `xsd:int` | Taille du fichier. |

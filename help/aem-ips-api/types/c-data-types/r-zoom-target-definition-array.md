@@ -1,7 +1,7 @@
 ---
-description: ZoomTargetDefinitionArray
+description: Tableau de définitions de cibles de zoom
 solution: Experience Manager
-title: ZoomTargetDefinitionArray
+title: Tableau de définitions de cibles de zoom
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c5e89967-8800-4323-9cd8-d3e4a4ccaae3

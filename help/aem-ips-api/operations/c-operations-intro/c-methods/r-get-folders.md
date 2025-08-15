@@ -16,9 +16,9 @@ ht-degree: 7%
 
 Renvoie tous les dossiers et sous-dossiers, en commençant par le chemin du dossier. La réponse getFolders renvoie un maximum de 100 000 dossiers.
 
-## Objectif des dossiers {#section-66e344d5333f42f1b060a0cba25935c3}
+## Rôle des dossiers {#section-66e344d5333f42f1b060a0cba25935c3}
 
-Un dossier permet d’organiser les sous-dossiers et les ressources. Tous les noms de dossier et de ressource doivent être uniques. Les dossiers et les ressources portant le même nom provoquent un conflit d’espace de noms, même s’ils se trouvent dans des hiérarchies de dossiers différentes.
+Un dossier permet d’organiser des sous-dossiers et des ressources. Tous les noms de dossiers et de ressources doivent être uniques. Les dossiers et les ressources qui partagent le même nom provoquent un conflit d’espace de noms, même s’ils se trouvent dans des hiérarchies de dossiers différentes.
 Syntaxe
 
 ## Types d’utilisateurs autorisés {#section-0dc7e17cb60f4cf7bcdb76648e5d2f8e}
@@ -35,7 +35,7 @@ Syntaxe
 
 >[!NOTE]
 >
->L’utilisateur doit disposer d’un accès en lecture au dossier pour y renvoyer des données.
+>L’utilisateur doit disposer d’un accès en lecture au dossier pour renvoyer les données qu’il contient.
 
 ## Paramètres {#section-0c1976503eaa418a9226b51667901176}
 
@@ -43,26 +43,26 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | La poignée de la société. |
-| accessUserHandle | `xsd:string` | Non | Utilisé par les administrateurs pour emprunter l’identité d’un utilisateur spécifique. |
-| accessGroupHandle | `xsd:string` | Non | Filtrez selon un groupe spécifique. |
-| folderPath | `xsd:string` | Non | Le dossier racine pour récupérer les dossiers et tous les sous-dossiers au niveau de la feuille. Si elle est exclue, la racine de l’entreprise est utilisée. |
-| assetTypeArray | `types:StringArray` | Non | Renvoie les dossiers contenant uniquement des types de ressources spécifiés. |
-| responseFieldArray | `types:StringArray` | Non | Contient la liste des champs que vous souhaitez inclure dans la réponse. |
-| excludeFieldArray | `types:StringArray` | Non | Contient une liste des champs que vous souhaitez exclure de la réponse. |
+| CompanyHandle | `xsd:string` | Oui | La poignée de l’entreprise. |
+| AccessUserHandle | `xsd:string` | Non | Utilisé par les administrateurs pour emprunter l’identité d’un utilisateur spécifique. |
+| Poignée accessGroupHandle | `xsd:string` | Non | Filtrer par groupe spécifique. |
+| chemin d’accès au dossier | `xsd:string` | Non | Dossier racine pour récupérer les dossiers et tous les sous-dossiers au niveau feuille. Si elle est exclue, la racine de l’entreprise est utilisée. |
+| assetTypeArray | `types:StringArray` | Non | Renvoie les dossiers qui contiennent uniquement les types de ressource spécifiés. |
+| Réseau responseFieldArray | `types:StringArray` | Non | Contient la liste des champs à inclure dans la réponse. |
+| excludeFieldArray | `types:StringArray` | Non | Contient la liste des champs à exclure de la réponse. |
 
-**Sortie (getFoldersReturn)**
+**Output (getFoldersReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| folderArray | `types:FolderArray` | Non | Tableau de dossiers correspondant aux critères de filtrage. La réponse est limitée à 100 000 dossiers au maximum. |
+| Tableau de dossiers | `types:FolderArray` | Non | Tableau de dossiers répondant aux critères de filtrage. La réponse est limitée à 100 000 dossiers maximum. |
 | permissionsSetArray | `types:PermissionSetArray` |  |  |
 
 ## Exemples {#section-b5cb06e9fb9945ad898dbdc3692b754e}
 
-Cet exemple de code renvoie un tableau qui contient tous les dossiers d’une entreprise avec des informations spécifiques sur chaque dossier.
+Cet exemple de code renvoie un tableau qui contient tous les dossiers d’une société ainsi que des informations spécifiques sur chaque dossier.
 
-**Requête**
+**Demander**
 
 ```java
 <ns1:getFoldersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

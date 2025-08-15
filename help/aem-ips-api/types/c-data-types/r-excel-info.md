@@ -1,7 +1,7 @@
 ---
-description: Propriétés d’un fichier Excel Microsoft.
+description: Propriétés d’un fichier Microsoft Excel.
 solution: Experience Manager
-title: ExcelInfo
+title: Infos Excel
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: eec7405f-58fd-4103-95ff-c35c6e86c60f
@@ -14,7 +14,7 @@ ht-degree: 17%
 
 # [!DNL ExcelInfo]{#excelinfo}
 
-Propriétés d’un fichier Excel Microsoft.
+Propriétés d’un fichier Microsoft Excel.
 
 Syntaxe
 
@@ -22,6 +22,6 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| originalPath | `xsd:string` | Chemin d’accès au fichier. |
-| originalFile | `xsd:string` | Nom du fichier. |
-| fileSize | `xsd:int` | Taille de fichier. |
+| Chemin d’origine | `xsd:string` | Chemin d’accès au fichier. |
+| Fichier d’origine | `xsd:string` | Nom du fichier. |
+| Taille du fichier | `xsd:int` | Taille de fichier. |

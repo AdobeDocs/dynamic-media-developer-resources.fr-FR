@@ -1,7 +1,7 @@
 ---
-description: Tableau de cibles de zoom.
+description: Tableau de cibles Zoom.
 solution: Experience Manager
-title: ZoomTargetArray
+title: Tableau de cibles de zoom
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: eb397fdc-39e3-4fa2-8891-4c692cbaa9a3
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL ZoomTargetArray]{#zoomtargetarray}
 
-Tableau de cibles de zoom.
+Tableau de cibles Zoom.
 
 Syntaxe
 
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| éléments | `types:ZoomTarget` | Tableau de cibles de zoom. |
+| éléments | `types:ZoomTarget` | Tableau de cibles Zoom. |

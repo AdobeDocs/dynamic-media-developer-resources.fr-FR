@@ -1,5 +1,5 @@
 ---
-description: Si une requête ne peut pas être effectuée correctement, le serveur renvoie une image d’erreur ou un état de réponse HTTP autre que 200 avec un message d’erreur.
+description: Si une demande ne peut pas être effectuée avec succès, le serveur renvoie une image d’erreur ou un état de réponse HTTP autre que 200 avec un message d’erreur.
 solution: Experience Manager
 title: Erreurs
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 1%
 
 # Erreurs{#errors}
 
-Si une requête ne peut pas être effectuée correctement, le serveur renvoie une image d’erreur ou un état de réponse HTTP autre que 200 avec un message d’erreur.
+Si une demande ne peut pas être effectuée avec succès, le serveur renvoie une image d’erreur ou un état de réponse HTTP autre que 200 avec un message d’erreur.
 
-La valeur de l’état de la réponse dépend du type de l’erreur. Pour les erreurs les plus courantes, il s’agit de &quot;403&quot;. Les réponses d’erreur pour les types de requêtes autres que les images sont conformes au format spécifié avec `req=`. (Ne peut pas être mis en oeuvre de manière cohérente à l’heure actuelle.)
+La valeur de l’état de réponse dépend du type de l’erreur ; pour la plupart des erreurs courantes, il s’agit de « 403 ». Les réponses d’erreur pour les types de demandes autres que les images sont conformes au format spécifié avec `req=`. (Peut ne pas être mis en œuvre de manière cohérente à l’heure actuelle.)
 
 La quantité de détails incluse dans le message d’erreur peut être configurée avec `attribute::ErrorDetail`.
 
@@ -24,14 +24,14 @@ La quantité de détails incluse dans le message d’erreur peut être configur�
 
 La diffusion d’images peut être configurée pour renvoyer les messages d’erreur rendus dans une image.
 
-Pour plus d’informations, voir [attribute::ErrorImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errorimage.md#reference-c494d5d8b2584fe3800f35baabd0292c) dans la référence du catalogue d’images.
+Pour plus d’informations, voir [attribute ::ErrorImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errorimage.md#reference-c494d5d8b2584fe3800f35baabd0292c) dans la référence du catalogue d’images.
 
-Si l’image d’erreur est générée, l’état de la réponse HTTP est 200. Si une erreur se produit lors du traitement de l’image d’erreur, la réponse d’erreur HTTP standard et le message texte sont renvoyés au client.
+Si l’image d’erreur est générée avec succès, l’état de réponse HTTP est 200. Si une erreur se produit lors du traitement de l’image d’erreur, la réponse d’erreur HTTP standard et le message texte sont renvoyés au client.
 
 ## Image par défaut {#section-66bf25fe6b434081bfae96d38d9be25e}
 
-La diffusion d’images peut être configurée pour remplacer une image manquante par une image par défaut. L’image par défaut peut être spécifiée avec la commande `attribute::DefaultImage` ou `defaultImage=`.
+La diffusion d’images peut être configurée pour remplacer une image manquante par une image par défaut. L’image par défaut peut être spécifiée à l’aide de la commande ou à l’aide `attribute::DefaultImage` de la `defaultImage=` commande.
 
 ## Voir aussi {#section-e261d7f224ca4546bb64bf8cb909db08}
 
-[attribute::ErrorDetail](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errordetail.md#reference-4987c8cddcba4c88960170e49cafc561) , [attribute::ErrorImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errorimage.md#reference-c494d5d8b2584fe3800f35baabd0292c), [attribute::DefaultImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-defaultimage.md#reference-8e9900e129f54ed68462a3c2fc3bc433), [defaultImage=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-defaultimage.md#reference-209aa6ce830f490483412eb26af67fd2)
+[attribute ::ErrorDetail](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errordetail.md#reference-4987c8cddcba4c88960170e49cafc561) , [attribute ::ErrorImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-errorimage.md#reference-c494d5d8b2584fe3800f35baabd0292c), [attribute ::D efaultImage](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-is-cat-defaultimage.md#reference-8e9900e129f54ed68462a3c2fc3bc433), [defaultImage=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-defaultimage.md#reference-209aa6ce830f490483412eb26af67fd2)

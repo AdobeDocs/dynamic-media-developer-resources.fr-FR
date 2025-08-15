@@ -1,5 +1,5 @@
 ---
-description: Une paire nom-valeur.
+description: Un ensemble nom/valeur.
 solution: Experience Manager
 title: Propriété
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 36%
 
 # [!DNL Property]{#property}
 
-Une paire nom-valeur.
+Un ensemble nom/valeur.
 
 Syntaxe
 
@@ -23,4 +23,4 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | nom | `xsd:string` | Nom de la propriété. |
-| valeur | `xsd:string` | Valeur de la propriété. |
+| valeur | `xsd:string` | Valeur de propriété. |

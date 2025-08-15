@@ -1,5 +1,5 @@
 ---
-description: Identifiant d’enregistrement du catalogue
+description: Identifiant de l’enregistrement de catalogue
 solution: Experience Manager
 title: ID
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 6%
 
 # ID {#id}
 
-Valeur de clé d’index par laquelle les enregistrements du fichier de données image sont recherchés par le [!DNL Platform Server].
+Valeur de clé d’index selon laquelle les enregistrements du fichier de données d’image sont recherchés par le [!DNL Platform Server].
 
-En règle générale, un identifiant d’image court et unique, tel qu’un numéro de SKU, éventuellement avec un suffixe d’image, si un SKU comporte plusieurs images. Il peut également s’agir d’une chaîne plus complexe qui ressemble davantage à un chemin d’accès au fichier, afin de prendre en charge le réajustement facile des sites web avec le serveur d’images.
+En règle générale, un identifiant d’image court et unique, tel qu’un numéro de SKU, éventuellement avec un certain type de suffixe d’image, si un SKU comporte plusieurs images. Il peut également s’agir d’une chaîne plus complexe qui s’apparente davantage à un chemin de fichier, pour prendre en charge la réadaptation facile des sites web avec la diffusion d’images.
 
 ## Propriétés {#id-properties}
 
-Chaîne de texte. Obligatoire. Clé d’index de Principal pour la table de données image. Chaque valeur catalog::Id doit être unique dans le tableau.
+Chaîne de texte. Obligatoire. Clé d’index de Principal pour le tableau de données d’image. Chaque valeur catalog::Id doit être unique dans la table.
 
 ## Par défaut {#id-default}
 

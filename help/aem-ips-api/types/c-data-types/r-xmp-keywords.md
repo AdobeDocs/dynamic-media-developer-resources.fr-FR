@@ -30,9 +30,9 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> éléments</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> éléments </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Liste de mots-clés séparés par des virgules qui sont fusionnés dans le noeud de propriété <span class="codeph"> dc:subject=</span> XMP. Si une virgule apparaît dans l’une des valeurs individuelles, elle doit être précédée d’une barre oblique inverse (\). Une barre oblique inverse littérale est l’habituelle double-barre oblique inverse (\\). </p> </td> 
+   <td colname="col3"> <p>Liste de mots-clés séparés par des virgules qui sont fusionnés dans le nœud de propriété XMP dc:subject=<span class="codeph"> </span>. Si une virgule apparaît dans l’une des valeurs individuelles, elle doit être précédée d’une barre oblique inverse (\). Une barre oblique inverse littérale est l’habituelle double-barre oblique inverse (\\). </p> </td> 
   </tr> 
  </tbody> 
 </table>

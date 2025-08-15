@@ -1,6 +1,6 @@
 ---
 title: Fonction d’impression
-description: La visionneuse vous permet de générer le contenu du catalogue sur une imprimante.
+description: La visionneuse vous permet de générer le contenu du catalogue vers une imprimante.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -14,12 +14,12 @@ ht-degree: 0%
 
 # Fonction d’impression{#print-feature}
 
-La visionneuse vous permet de générer le contenu du catalogue sur une imprimante.
+La visionneuse vous permet de générer le contenu du catalogue vers une imprimante.
 
-La fonction d’impression est déclenchée par un bouton dédié dans la barre d’outils. Cliquer sur le bouton permet à l&#39;utilisateur de choisir une plage d&#39;impression et le nombre de pages par feuille.
+La fonction d’impression est déclenchée par un bouton dédié dans la barre d’outils. En cliquant sur le bouton, l’utilisateur choisit une plage d’impression et le nombre de pages par feuille.
 
-La qualité de l&#39;impression peut être ajustée à l&#39;aide du paramètre de configuration `printquality`. Il n&#39;est pas recommandé de définir `printquality` sur des valeurs supérieures à la valeur par défaut. Cela est dû au fait que le navigateur Web consomme beaucoup de mémoire sur le système du client. Assurez-vous également que la taille maximale de réponse de l’image définie pour votre société Dynamic Media Classic est supérieure à la valeur `printquality` configurée.
+La qualité de l’impression peut être ajustée à l’aide du `printquality` paramètre de configuration. La définition `printquality` de valeurs supérieures à la valeur par défaut n’est pas recommandée. La raison en est que cela conduit à une consommation de mémoire élevée par le navigateur Web sur le système du client. Assurez-vous également que la taille de réponse d’image maximale définie pour votre société Dynamic Media Classic est supérieure à la valeur configurée `printquality` .
 
 >[!NOTE]
 >
->La fonction d’impression n’est disponible que sur les ordinateurs de bureau, à l’exception d’Internet Explorer 9.
+>La fonctionnalité Imprimer n’est disponible que sur les systèmes de bureau, à l’exception d’Internet Explorer 9.

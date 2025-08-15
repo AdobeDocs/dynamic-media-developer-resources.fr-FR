@@ -1,7 +1,7 @@
 ---
-description: Versions disponibles spécifiques aux paramètres régionaux. Renvoie une liste des versions disponibles spécifiques aux paramètres régionaux de l’ID de catalogue spécifiées dans le chemin d’accès de la requête.
+description: Versions disponibles spécifiques aux paramètres régionaux. Renvoie une liste de versions disponibles spécifiques aux paramètres régionaux de l’ID de catalogue spécifié dans le chemin d’accès de la requête.
 solution: Experience Manager
-title: xlate
+title: ardoise
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: bf5b3cb7-9792-4eca-a1aa-55aa4089b4d4
@@ -12,9 +12,9 @@ ht-degree: 1%
 
 ---
 
-# xlate{#xlate}
+# ardoise{#xlate}
 
-Versions disponibles spécifiques aux paramètres régionaux. Renvoie une liste des versions disponibles spécifiques aux paramètres régionaux de l’ID de catalogue spécifiées dans le chemin d’accès de la requête.
+Versions disponibles spécifiques aux paramètres régionaux. Renvoie une liste de versions disponibles spécifiques aux paramètres régionaux de l’ID de catalogue spécifié dans le chemin d’accès de la requête.
 
 `req=xlate[,text|javascript|xml|{json[&id= *`reqId`*]}]`
 
@@ -25,15 +25,15 @@ Versions disponibles spécifiques aux paramètres régionaux. Renvoie une liste 
  </tr> 
 </table>
 
-Voir [Traduction D’Id D’Objet](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414).
+Voir [Traduction De L’Id D’Objet](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-object-id-translation.md#reference-cf3e34e6cbb346d69ded9982bfdef414).
 
 Par exemple :
 
 `xlate.translatedIds=image,image_fr,image_de`
 
-La réponse HTTP peut être mise en cache avec le TTL basé sur `catalog::Expiration`.
+La réponse HTTP peut être mise en cache avec la TTL basée sur `catalog::Expiration`.
 
-Les requêtes qui prennent en charge le format de réponse JSONP vous permettent de spécifier le nom du gestionnaire de rappel JS à l’aide de la syntaxe étendue du paramètre `req=` :
+Les requêtes qui prennent en charge le format de réponse JSONP vous permettent de spécifier le nom du gestionnaire de rappel JS à l’aide de la syntaxe étendue `req=` paramètre :
 
 `req=...,json [&handler = reqHandler ]`
 

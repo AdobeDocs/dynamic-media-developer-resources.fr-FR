@@ -1,6 +1,6 @@
 ---
-title: Configuration requise pour les visionneuses Dynamic Media HTML5
-description: Configuration requise pour les visionneuses Dynamic Media HTML5.
+title: Configuration requise pour Dynamic Media visionneuses HTML5
+description: Configuration requise pour Dynamic Media visionneuses HTML5.
 solution: Experience Manager
 contentOwner: Rick Brough
 feature: Dynamic Media Classic,Viewers,SDK/API
@@ -13,9 +13,9 @@ ht-degree: 2%
 
 ---
 
-# Configuration requise pour les visionneuses Dynamic Media HTML5{#system-requirements}
+# Dynamic Media configuration système requise pour les visionneuses HTML5{#system-requirements}
 
-Configuration requise pour les visionneuses Dynamic Media HTML5.
+Configuration requise pour Dynamic Media visionneuses HTML5.
 
 <!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
@@ -26,23 +26,23 @@ Configuration requise pour les visionneuses Dynamic Media HTML5.
 <!-- Updated March 03, 2022 Contact is now Deepa Gupta -->
 
 * Adobe Dynamic Media Image Serving 6.7.1 ou version ultérieure.
-* Les visionneuses HTML5 requièrent une version 3.11.5 ou ultérieure des bibliothèques côté serveur SDK JavaScript.
-* *Pour envoyer un courrier électronique à un ami*, les fonctionnalités sociales requièrent s7ondemand 5.0.9 ou version ultérieure.
-* Visionneuse de catalogue électronique - La prise en charge de la fenêtre contextuelle [panneau d’informations](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) nécessite le serveur d’informations 2.1.8 ou version ultérieure.
-* Les composants des fonctionnalités de recherche requièrent s7search 2.3.0 ou version ultérieure.
+* Les visionneuses HTML5 nécessitent le SDK JavaScript les bibliothèques côté serveur 3.11.5 ou version ultérieure.
+* *Envoyer un courrier électronique à un ami* Les fonctions sociales nécessitent la version S7OnDemand 5.0.9 ou ultérieure.
+* Visionneuse de catalogue électronique – [La prise en charge des fenêtres contextuelles](/help/aem-viewers-ref/c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-infopanelpopup.md) du panneau d’informations exige le serveur d’infos version 2.1.8 ou ultérieure.
+* Search composants de fonctionnalités nécessitent S7Search 2.3.0 ou une version ultérieure.
 
-## Configuration requise des visionneuses {#section-cc72b1e209524d038b4d5b92b35e998e}
+## Configuration requise pour les visionneuses {#section-cc72b1e209524d038b4d5b92b35e998e}
 
-**Exigences minimales du navigateur client pour les visionneuses de composants :**
+**Configuration minimale requise pour le navigateur client pour les visionneuses de composants :**
 
 * Pris en charge sur les versions de système d’exploitation suivantes ou ultérieures :
    * Microsoft® Windows® 7
    * macOS X 10.12
-* Pris en charge sur les versions de navigateur/plateforme suivantes ou ultérieures :
+* Pris en charge sur les versions suivantes du navigateur/de la plate-forme ou versions ultérieures :
    * Android™ OS 4.x
    * BlackBerry® 10 sur les navigateurs natifs. Seule la lecture vidéo est prise en charge.
    * Chrome 82
-   * Edge
+   * Bord
    * Firefox 77
    * Internet Explorer 11
    * iOS6
@@ -50,25 +50,25 @@ Configuration requise pour les visionneuses Dynamic Media HTML5.
    * iPhone 3GS
    * Safari 11
 * Internet Explorer sur les appareils mobiles n’est pas pris en charge.
-* *PanoramicViewer* est pris en charge sur les versions suivantes de navigateur/plate-forme ou ultérieures :
-   * Android™ 4.4 (appareils mobiles uniquement)
+* *PanoramicViewer* est pris en charge sur les versions suivantes du navigateur/de la plate-forme ou versions ultérieures :
+   * Android™ 4.4 (appareils téléphoniques uniquement)
    * Chrome 82
-   * Edge
+   * Bord
    * Firefox 77
    * Internet Explorer 11
    * iOS 10
    * Safari 11
-* *Video360Viewer* et *DimensionalViewer* sont pris en charge sur les versions de navigateur/plate-forme suivantes ou ultérieures :
-   * Android™ 5 (appareils mobiles uniquement)
+* *Video360Viewer* et *DimensionalViewer* sont pris en charge sur les versions suivantes du navigateur/de la plate-forme ou versions ultérieures :
+   * Android™ 5 (appareils téléphoniques uniquement)
    * Chrome 82
-   * Edge
+   * Bord
    * Firefox 77
    * iOS 12
    * Safari 12
-* *ZoomVerticalViewer* est pris en charge sur les versions suivantes de navigateur/plate-forme ou ultérieures :
+* *ZoomVerticalViewer* est pris en charge sur les versions suivantes du navigateur/de la plate-forme ou versions ultérieures :
    * Android™ 4.x
    * Chrome 82
-   * Edge
+   * Bord
    * Firefox 77
    * Internet Explorer 11
    * iOS 10
@@ -78,7 +78,7 @@ Configuration requise pour les visionneuses Dynamic Media HTML5.
 
 <!-- CQDOC-19433 -->
 
-À compter du 30 septembre 2022, les visionneuses Dynamic Media Adobe ne prendront plus en charge les éléments suivants :
+À compter du 30 septembre 2022, Adobe Dynamic Media Les visionneuses ont cessé de prendre en charge les éléments suivants :
 
 * TLS (Transport Layer Security) 1.0 et 1.1
 * Les chiffrements faibles suivants dans TLS 1.2 :
@@ -97,11 +97,11 @@ Configuration requise pour les visionneuses Dynamic Media HTML5.
    * TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
    * TLS_RSA_WITH_SDES_EDE_CBC_SHA
 
-## Combinaisons de navigateur web et de système d’exploitation non prises en charge pour les visionneuses Dynamic Media {#browser-os-support}
+## Combinaisons de navigateur Web et de système d’exploitation non prises en charge par les visionneuses Dynamic Media {#browser-os-support}
 
 <!-- CQDOC-19433 -->
 
-Les visionneuses Dynamic Media Adobe ne prennent pas en charge les combinaisons de navigateur web et de système d’exploitation suivantes :
+Adobe Dynamic Media Les visionneuses ne prennent pas en charge les combinaisons suivantes de navigateur Web et de système d’exploitation :
 
 * Internet Explorer 11 + Windows 7
 * Internet Explorer 11 + Windows 8.1
@@ -109,7 +109,7 @@ Les visionneuses Dynamic Media Adobe ne prennent pas en charge les combinaisons 
 * Mise à jour d’Internet Explorer 11 + Windows Phone 8.1
 * Safari 6 + iOS 6.0.1
 * Safari 7 + iOS 7.1
-* Mavericks Safari 7 + OS X 10.9
+* Safari 7 + OS X 10.9 Mavericks
 * Safari 8 + iOS 8.4
 * Safari 8 + OS X 10.10 Yosemite
 

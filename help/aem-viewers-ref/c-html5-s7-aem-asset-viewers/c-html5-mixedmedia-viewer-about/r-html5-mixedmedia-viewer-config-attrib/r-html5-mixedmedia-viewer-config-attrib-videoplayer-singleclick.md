@@ -19,8 +19,8 @@ ht-degree: 5%
 <table id="table_53A26E1617CB411B9586203CB9AA1AB2"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|playPause</span> </span> </p> </td> 
-   <td colname="col2"> <p> Configure le mappage d’un clic/d’un clic pour activer/désactiver la lecture/la pause. La définition de sur <span class="codeph"> none</span> désactive la lecture/la mise en pause d’un simple clic. Si celle-ci est définie sur <span class="codeph"> playPause</span>, cliquer sur la vidéo fait basculer entre la lecture et la mise en pause de la vidéo. Sur certains périphériques, vous pouvez utiliser des contrôles natifs. Dans ce cas, le comportement <span class="codeph"> singleclick</span> est désactivé. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> aucun|playPause</span> </span> </p> </td> 
+   <td colname="col2"> <p> Configure le mappage d’un clic/appui unique pour activer/désactiver la lecture/pause. Si vous définissez sur <span class="codeph"> aucun</span> désactivez la lecture/mise en pause en un seul clic ou en appuyant dessus. Si vous définissez sur <span class="codeph"> playPause</span>, cliquez sur la vidéo pour basculer entre la lecture et la mise en pause de la vidéo. Sur certains appareils, vous pouvez utiliser des contrôles natifs. Dans ce cas, <span class="codeph"> comportement de simple clic</span> est désactivé. </p> </td> 
   </tr> 
  </tbody> 
 </table>

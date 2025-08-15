@@ -19,8 +19,8 @@ ht-degree: 2%
 <table id="table_6B56976AEADA440A9A6BC9C4F65D4ADA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> value </span> </span> </p> </td> 
-   <td colname="col2"> <p>Définit le débit vidéo (en kilobits par seconde ou en kbit/s) utilisé pour la lecture initiale de la vidéo sur les ordinateurs de bureau. </p> <p>Si cette valeur de débit n’existe pas dans la visionneuse de vidéos adaptative, le lecteur vidéo démarre la vidéo dont le débit est le plus faible suivant. </p> <p>S’il est défini sur <span class="codeph"> 0 </span>, le lecteur vidéo démarre à partir du débit le plus faible possible. Applicable uniquement aux systèmes qui ne prennent pas en charge la vidéo HLS HTML5 (navigateurs Firefox, Chrome et Internet Explorer 11 sous Windows 10) et lorsque le mode de lecture est défini sur <span class="codeph"> auto </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> valeur <span class="varname"> </span> </span> </p> </td> 
+   <td colname="col2"> <p>Définit le débit vidéo (en kilobits par seconde ou kbit/s) utilisé pour la lecture initiale de la vidéo sur les ordinateurs de bureau. </p> <p>Si cette valeur de débit n’existe pas dans la visionneuse de vidéos adaptative, le lecteur vidéo lance la vidéo qui a le débit le plus faible suivant. </p> <p>S’il est défini sur <span class="codeph"> 0 </span>, le lecteur vidéo démarre à partir du débit le plus faible possible. Applicable uniquement aux systèmes qui ne prennent pas en charge nativement la vidéo HTML5 HLS (qui sont des navigateurs Firefox, Chrome et Internet Explorer 11 sous Windows 10) et lorsque le mode de lecture est défini sur <span class="codeph"> le </span> automatique. </p> </td> 
   </tr> 
  </tbody> 
 </table>

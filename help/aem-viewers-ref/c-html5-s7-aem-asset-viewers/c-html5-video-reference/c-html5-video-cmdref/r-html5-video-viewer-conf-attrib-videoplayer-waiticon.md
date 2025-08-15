@@ -1,6 +1,6 @@
 ---
 title: VideoPlayer.waiticon
-description: Attribut de configuration pour la visionneuse de vidéos.
+description: Attribut de configuration pour la visionneuse vidéo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # VideoPlayer.waiticon{#videoplayer-waiticon}
 
-Attribut de configuration pour la visionneuse de vidéos.
+Attribut de configuration pour la visionneuse vidéo.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]waiticon=0|1`
 

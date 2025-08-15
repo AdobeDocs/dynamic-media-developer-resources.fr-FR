@@ -16,13 +16,13 @@ ht-degree: 6%
 
 Nom de la macro de commande.
 
-`&$ *`name`*$`
+`&$ *`nom`*$`
 
 <table id="simpletable_A07C4682275F461BA1F3B7752CE3FAE1"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> name</span></span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> nom</span></span> </p> </td> 
   <td class="stentry"> <p>Nom de la macro. </p></td> 
  </tr> 
 </table>
 
-La commande *`name`* n&#39;est pas sensible à la casse et peut se composer de n&#39;importe quelle combinaison de lettres, de chiffres, de `-` (trait d&#39;union), de `_` (trait de soulignement) et de `.` (point).
+La commande *`name`* n’est pas sensible à la casse et peut consister en n’importe quelle combinaison de lettres, de chiffres, `-` de caractères (trait d’union), `_` de soulignement et `.` de caractères (point).

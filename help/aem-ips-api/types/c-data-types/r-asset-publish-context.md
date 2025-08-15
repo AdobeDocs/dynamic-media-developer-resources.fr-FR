@@ -1,7 +1,7 @@
 ---
-description: Met en correspondance une ressource avec PublishContexts dans laquelle une ressource est marquée pour publication.
+description: Mappe une ressource aux PublishContexts dans lesquels une ressource est marquée pour publication.
 solution: Experience Manager
-title: AssetPublishContexts
+title: Contextes de publication des ressources
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: fa94e3ce-b210-4d0d-88f1-0b245d5a52b5
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # [!DNL AssetPublishContexts]{#assetpublishcontexts}
 
-Met en correspondance une ressource avec PublishContexts dans laquelle une ressource est marquée pour publication.
+Mappe une ressource aux PublishContexts dans lesquels une ressource est marquée pour publication.
 
 Syntaxe
 
@@ -22,5 +22,5 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| assetHandle | `xsd:string` | Gérer la ressource. |
-| publishContextArray | `types:PublishContextArray` | Tableau de contextes de publication dans lequel la ressource est marquée pour publication. |
+| AssetHandle | `xsd:string` | Poignée pour la ressource. |
+| Publication de ContextArray | `types:PublishContextArray` | Tableau de contextes de publication dans lesquels la ressource est marquée pour publication. |

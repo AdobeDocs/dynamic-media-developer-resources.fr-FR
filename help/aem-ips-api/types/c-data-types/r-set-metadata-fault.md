@@ -1,5 +1,5 @@
 ---
-description: Détails d’avertissement ou d’erreur pour une mise à jour d’utilisation dans une opération batchSetAssetMetadata.
+description: Détails d’avertissement ou d’erreur pour une mise à jour sing dans une opération batchSetAssetMetadata.
 solution: Experience Manager
 title: SetMetadataFault
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # [!DNL SetMetadataFault]{#setmetadatafault}
 
-Détails d’avertissement ou d’erreur pour une mise à jour d’utilisation dans une opération batchSetAssetMetadata.
+Détails d’avertissement ou d’erreur pour une mise à jour sing dans une opération batchSetAssetMetadata.
 
 Syntaxe
 
@@ -22,7 +22,7 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| assetHandle | `xsd:string` | La ressource dont les métadonnées ont été définies sans succès. |
-| fieldHandle | `xsd:string` | Gestion du champ de métadonnées dont la valeur a été définie sans succès. |
-| code | `xsd:int` | Code de défaillance. |
-| motif | `xsd:string` | Description des défauts (texte brut). |
+| AssetHandle | `xsd:string` | Ressource dont les métadonnées ont échoué. |
+| Poignée de champ | `xsd:string` | Poignée du champ de métadonnées dont la valeur a échoué. |
+| code | `xsd:int` | Code d’erreur. |
+| motif | `xsd:string` | Description de l’erreur (texte brut). |

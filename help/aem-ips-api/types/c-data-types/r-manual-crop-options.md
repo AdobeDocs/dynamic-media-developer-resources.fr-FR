@@ -1,5 +1,5 @@
 ---
-description: Options de recadrage manuel pour les images.
+description: Options de recadrage manuel des images.
 solution: Experience Manager
 title: ManualCropOptions
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # [!DNL ManualCropOptions]{#manualcropoptions}
 
-Options de recadrage manuel pour les images.
+Options de recadrage manuel des images.
 
 Syntaxe
 
@@ -23,6 +23,6 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | gauche | `xsd:int` | Position gauche du recadrage manuel en pixels. |
-| droite | `xsd:int` | Position appropriée du recadrage manuel en pixels. |
+| droite | `xsd:int` | Position droite du recadrage manuel en pixels. |
 | haut | `xsd:int` | Position supérieure du recadrage manuel en pixels. |
 | bas | `xsd:int` | Position inférieure du recadrage manuel en pixels. |

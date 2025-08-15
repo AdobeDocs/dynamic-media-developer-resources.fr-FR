@@ -1,7 +1,7 @@
 ---
-description: Type facultatif qui vous permet de choisir une image vidéo spécifique à utiliser comme image miniature.
+description: Type facultatif qui vous permet de choisir une image vidéo particulière à utiliser comme image miniature.
 solution: Experience Manager
-title: ThumbnailOptions
+title: Options de miniature
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7d84590d-2227-4d9a-9cb0-0f4b1fcabd8e
@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # [!DNL ThumbnailOptions]{#thumbnailoptions}
 
-Type facultatif qui vous permet de choisir une image vidéo spécifique à utiliser comme image miniature.
+Type facultatif qui vous permet de choisir une image vidéo particulière à utiliser comme image miniature.
 
 Syntaxe
 
@@ -30,9 +30,9 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailTime</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> <p>Définit la durée (en millisecondes à partir du démarrage de la vidéo) de l’image que vous souhaitez utiliser pour la miniature de la vidéo. Les valeurs sont comprises entre 0 et la fin de la vidéo. <p>Remarque : Le système utilise la première image de la vidéo pour la miniature si vous spécifiez incorrectement l’heure. Voir <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </p></p> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> heure de miniature</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd :long</span> </td> 
+   <td colname="col3"> <p>Définit l’heure (en millisecondes à compter du début de la vidéo) de l’image que vous souhaitez utiliser pour la miniature vidéo. Les valeurs sont comprises entre 0 et la fin de la vidéo. <p>Remarque : Le système utilise la première image de la vidéo pour la miniature si vous spécifiez l’heure de manière incorrecte. Voir <a href="../../types/c-data-types/r-media-options.md#reference-18618fc6803a4b6e994bbb48eba93b5b" format="dita" scope="local"> MediaOptions</a>. </p></p> </td> 
   </tr> 
  </tbody> 
 </table>

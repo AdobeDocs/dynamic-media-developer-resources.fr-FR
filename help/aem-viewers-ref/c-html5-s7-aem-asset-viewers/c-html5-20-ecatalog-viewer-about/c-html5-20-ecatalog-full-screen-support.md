@@ -16,8 +16,8 @@ ht-degree: 0%
 
 La visionneuse prend en charge le mode de fonctionnement plein écran.
 
-Sur les navigateurs de bureau modernes, à l’exception d’Internet Explorer 10 et plus, et sur certains périphériques tactiles, la visionneuse utilise le mode Plein écran &quot;natif&quot;. Ce mode signifie que tout l’écran de l’appareil est occupé par le contenu de la visionneuse.
+Sur les navigateurs de bureau modernes, à l’exception d’Internet Explorer 10 et versions antérieures, et sur certains appareils tactiles, la visionneuse utilise le mode plein écran « natif ». Ce mode signifie que tout l’écran de l’appareil est occupé par le contenu de la visionneuse.
 
-Sur les appareils iOS et dans les navigateurs Internet Explorer plus anciens, la visionneuse utilise le mode Plein écran &quot;simulé&quot; à la place. Dans ce mode, la visionneuse se redimensionne simplement pour occuper toute la zone de la fenêtre du navigateur web. En outre, l’interface utilisateur du navigateur web et d’autres fenêtres sont toujours visibles à l’écran.
+Sur les appareils iOS et les anciens navigateurs Internet Explorer, la visionneuse utilise plutôt le mode plein écran « simulé ». Dans ce mode, la visionneuse se redimensionne simplement pour occuper toute la zone de la fenêtre du navigateur web. En outre, l’interface utilisateur du navigateur web et d’autres fenêtres sont toujours visibles à l’écran.
 
-Un utilisateur final entre en mode Plein écran et le quitte en appuyant sur le bouton Plein écran dans l’interface utilisateur de la visionneuse. Lorsque le mode Plein écran &quot;natif&quot; est utilisé sur le bureau, il est également possible de le quitter en appuyant sur **Esc**.
+Un utilisateur final passe en mode plein écran et le quitte en appuyant sur le bouton plein écran dans l’interface utilisateur de la visionneuse. Lorsque le mode plein écran « natif » est utilisé sur le bureau, il est également possible de le quitter en appuyant sur **Échap**.

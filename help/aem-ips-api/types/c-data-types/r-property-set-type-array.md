@@ -1,5 +1,5 @@
 ---
-description: Tableau de type de jeu de propriétés.
+description: Tableau de types de propriétés.
 solution: Experience Manager
 title: PropertySetTypeArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 30%
 
 # [!DNL PropertySetTypeArray]{#propertysettypearray}
 
-Tableau de type de jeu de propriétés.
+Tableau de types de propriétés.
 
 Syntaxe
 
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| éléments | `types:PropertySetType` | Tableau de type de jeu de propriétés. |
+| éléments | `types:PropertySetType` | Tableau de type du jeu de propriétés. |

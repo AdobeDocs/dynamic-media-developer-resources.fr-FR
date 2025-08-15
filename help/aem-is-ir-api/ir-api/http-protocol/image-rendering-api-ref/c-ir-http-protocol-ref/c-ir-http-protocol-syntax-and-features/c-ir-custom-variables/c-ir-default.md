@@ -1,6 +1,6 @@
 ---
 title: Par défaut
-description: Il n’existe pas de valeur par défaut.
+description: Il n’y a pas de valeur par défaut.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,6 +14,6 @@ ht-degree: 6%
 
 # Par défaut{#default}
 
-Il n’existe pas de valeur par défaut.
+Il n’y a pas de valeur par défaut.
 
-Seules les variables définies sont remplacées par le serveur. Toutes les occurrences de `$ *[!DNL name]*$` qui ne correspondent à aucune variable personnalisée définie restent littérales.
+Seules les variables définies sont substituées par le serveur. Toute occurrence de `$ *[!DNL name]*$` qui ne correspond à aucune variable personnalisée définie reste littérale.

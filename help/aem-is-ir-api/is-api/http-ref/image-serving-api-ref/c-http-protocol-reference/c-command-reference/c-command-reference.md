@@ -1,5 +1,5 @@
 ---
-title: Référence de commande
+title: Référence des commandes
 description: Cette section décrit les commandes de protocole HTTP.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -12,7 +12,7 @@ ht-degree: 4%
 
 ---
 
-# Référence de commande{#command-reference}
+# Référence des commandes{#command-reference}
 
 Cette section décrit les commandes de protocole HTTP.
 
@@ -20,15 +20,15 @@ Cette section décrit les commandes de protocole HTTP.
 >
 >Testez et découvrez les avantages des modificateurs d’image Dynamic Media et de l’imagerie dynamique à l’aide de Dynamic Media [_Snapshot_](https://snapshot.scene7.com/).
 >
-> L’instantané est un outil de démonstration visuel, conçu pour illustrer la puissance de Dynamic Media pour une diffusion d’images optimisée et dynamique. Testez des images de test ou des URL Dynamic Media afin d’observer visuellement la sortie de divers modificateurs d’image Dynamic Media et d’optimiser l’imagerie dynamique pour les éléments suivants :
+> Snapshot est un outil de démonstration visuel, conçu pour illustrer la puissance de Dynamic Media pour une diffusion d’images optimisée et dynamique. Testez des images de test ou des URL Dynamic Media afin d’observer visuellement la sortie de divers modificateurs d’images Dynamic Media et d’optimiser l’imagerie dynamique pour les éléments suivants :
 >* Taille de fichier (avec diffusion WebP et AVIF)
 >* Bande passante réseau
->* RGPD (rapport des pixels de l’appareil)
+>* DPR (rapport pixel d’appareil)
 >
->Pour savoir à quel point il est facile d’utiliser Snapshot, lisez la [vidéo de formation sur les instantanés](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=fr) (3 minutes et 17 secondes).
+>Pour découvrir à quel point il est facile d’utiliser Snapshot, regardez la [vidéo de formation Snapshot](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) (3 minutes et 17 secondes).
 
 
-**Pour Dynamic Media dans Adobe Experience Manager uniquement** - Au-delà des paramètres d’image de base disponibles dans l’interface utilisateur, [!DNL Dynamic Media] dans AEM ( [!DNL Adobe Experience Manager]) prend en charge de nombreuses modifications d’image avancées que vous pouvez spécifier dans le champ **Modificateurs d’image**. Ces paramètres sont définis ci-dessous. Notez toutefois que les fonctionnalités suivantes ne sont pas prises en charge dans Dynamic Media dans AEM.
+**Pour Dynamic Media dans Adobe Experience Manager uniquement** - En plus des paramètres d’image de base disponibles dans l’interface utilisateur, [!DNL Dynamic Media] dans AEM ( [!DNL Adobe Experience Manager]) prend en charge de nombreuses modifications d’image avancées que vous pouvez spécifier dans le champ **Modificateurs d’image**. Ces paramètres sont définis ci-dessous. Sachez toutefois que la fonctionnalité suivante n’est pas prise en charge dans Dynamic Media dans AEM.
 
 * Commandes de correction des couleurs : `icc=` et `iccEmbed=`.
 * Commandes de base de création de modèles et de rendu de texte : `text= textAngle= textAttr= textFlowPath= textFlowXPath= textPath=` et `textPs=`.
@@ -38,43 +38,43 @@ Cette section décrit les commandes de protocole HTTP.
 * `req=saveToFile`
 * `req=targets`
 * `template=`
-* Services Dynamic Media non principaux : SVG, rendu d’image et impression en ligne.
+* Services Dynamic Media non principaux : SVG, rendu d’image et Web-to-Print.
 
 <!-- Adobe IS command examples website  http://sj1010010254235.corp.adobe.com/iscommands/ -->
 
-Voir également les [Options de paramètre d’image prédéfini](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html?lang=fr#dynamic) de Dynamic Media dans la documentation AEM 6.5.
+Consultez également la section Dynamic Media [Options d’image prédéfinies](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/managing-image-presets.html#dynamic) dans la documentation d’AEM 6.5.
 
-* [align](r-align.md)
+* [aligner](r-align.md)
 * [ancrage](r-anchor.md)
 * [bfc](r-bfc.md)
 * [bgc](r-bgc.md)
 * [bgColor](r-bgcolor.md)
-* [blendMode](r-blendmode.md)
+* [brownMode](r-blendmode.md)
 * [cache](r-is-http-cache.md)
 * [clipPath](r-clippath.md)
 * [clipXPath](r-clipxpath.md)
 * [couleur](r-color-commandref.md)
 * [recadrer](r-crop.md)
-* [cropPathE](r-croppath.md)
+* [cropsPathE](r-croppath.md)
 * [defaultImage](r-is-http-defaultimage.md)
 * [dpr](r-dpr.md)
 * [effet](r-effect.md)
-* [effetMask](r-effectmask.md)
-* [étend](r-extend.md)
-* [fit](r-fit.md)
-* [flip](r-flip.md)
+* [effectMask](r-effectmask.md)
+* [étendre](r-extend.md)
+* [adapter](r-fit.md)
+* [retourner](r-flip.md)
 * [fmt](r-is-http-fmt.md)
-* [hei](r-is-http-hei.md)
+* [établissement d&#39;enseignement supérieur](r-is-http-hei.md)
 * [masquer](r-hide.md)
-* [icc](r-icc.md)
+* [cpi](r-icc.md)
 * [iccEmbed](r-iccembed.md)
 * [id](r-id.md)
 * [imageSet](r-imageset.md)
 * [jpegSize](r-jpegsize.md)
-* [layer](r-layer.md)
+* [calque](r-layer.md)
 * [local](r-locale.md)
 * [carte](r-map.md)
-* [mask](r-mask.md)
+* [masque](r-mask.md)
 * [maskUse](r-maskuse.md)
 * [réseau](r-network.md)
 * [op_blur](r-op-blur.md)
@@ -87,7 +87,7 @@ Voir également les [Options de paramètre d’image prédéfini](https://experi
 * [op_grewMaskR](r-op-growmaskr.md)
 * [op_hue](r-op-hue.md)
 * [op_invert](r-op-invert.md)
-* [op_bruit](r-op-noise.md)
+* [op_noise](r-op-noise.md)
 * [op_saturation](r-op-saturation.md)
 * [op_sharpen](r-op-sharpen.md)
 * [op_usm](r-op-usm.md)
@@ -108,7 +108,7 @@ Voir également les [Options de paramètre d’image prédéfini](https://experi
 * [resMode](r-is-http-resmode.md)
 * [rgn](r-rgn.md)
 * [rotation](r-rotate.md)
-* [scale](r-is-http-scale.md)
+* [mettre à l&#39;échelle](r-is-http-scale.md)
 * [scl](r-scl.md)
 * [taille](r-size-reference.md)
 * [src](r-src.md)
@@ -121,5 +121,5 @@ Voir également les [Options de paramètre d’image prédéfini](https://experi
 * [textPath](r-textpath.md)
 * [textPs](r-textps.md)
 * [type](r-type.md)
-* [wid](r-is-http-wid.md)
+* [éolien](r-is-http-wid.md)
 * [xmpEmbed](r-xmpembed.md)

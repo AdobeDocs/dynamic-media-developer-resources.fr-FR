@@ -1,7 +1,7 @@
 ---
-description: Définit les anciennes et nouvelles valeurs de champ de balise.
+description: Définit l’ancienne et la nouvelle valeur des champs de balise.
 solution: Experience Manager
-title: TagValueUpdate
+title: Mise à jour de la valeur de balise
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f29d027a-375c-4ff0-8d4b-5c9f858a7a5e
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # [!DNL TagValueUpdate]{#tagvalueupdate}
 
-Définit les anciennes et nouvelles valeurs de champ de balise.
+Définit l’ancienne et la nouvelle valeur des champs de balise.
 
 Syntaxe
 
@@ -22,5 +22,5 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| oldValue | `xsd:string` | Valeur du champ de balise d’origine. |
-| newValue | `xsd:string` | Nouvelle valeur de champ de balise. |
+| Valeur ancienne | `xsd:string` | Valeur du champ de balise d’origine. |
+| nouvelle valeur | `xsd:string` | Nouvelle valeur du champ de balise. |

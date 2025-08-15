@@ -14,13 +14,13 @@ ht-degree: 4%
 
 # FavoritesView.favoritesThumbView{#favoritesview-favoritesthumbview}
 
-[!DNL ` [FavoritesView.|<containerId>_favoritesView.]favoritesThumbArea= *`area`*`]
+[!DNL ` [FavoritesView.|<containerId>_favoritesView.]favoritesThumbArea= *`aire`*`]
 
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> area</span></span> </p> </td> 
-   <td colname="col2"> <p> Indique la zone de recadrage de la miniature Favoris. Exprimé sous la forme d’une valeur relative à la taille totale de l’image, avec une plage comprise entre <span class="codeph"> 0</span> et <span class="codeph"> 1.0</span>. </p> <p>Une valeur de <span class="codeph"> 1</span> signifie que l’image entière est utilisée pour la miniature. </p> <p>Une valeur de <span class="codeph"> 0.1</span> signifie que seulement 10 % de la taille de l’image est utilisée. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> aire</span></span> </p> </td> 
+   <td colname="col2"> <p> Spécifie la zone de recadrage de la miniature Favoris. Exprimé en tant que valeur relative par rapport à la taille totale de l’image, avec une plage de valeurs de <span class="codeph"> 0</span> à <span class="codeph"> 1,0</span>. </p> <p>La valeur 1 signifie que l’image d’image <span class="codeph"></span> entière est utilisée pour la miniature. </p> <p>Une valeur de <span class="codeph"> 0,1</span> signifie que seulement 10 % de la taille de l’image est utilisée. </p> </td> 
   </tr> 
  </tbody> 
 </table>

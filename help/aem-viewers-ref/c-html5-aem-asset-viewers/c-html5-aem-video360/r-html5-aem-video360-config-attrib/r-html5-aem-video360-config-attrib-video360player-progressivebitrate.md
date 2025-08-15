@@ -1,6 +1,6 @@
 ---
 title: Video360Player.progressivebitrate
-description: Attribut de configuration de la visionneuse Video360.
+description: Attribut de configuration pour la visionneuse Video360.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 3%
 
 # Video360Player.progressivebitrate{#video-player-progressivebitrate}
 
-Attribut de configuration de la visionneuse Video360.
+Attribut de configuration pour la visionneuse Video360.
 
-` [Video360Player.|<containerId>_video360Player.]progressivebitrate= *`value`*`
+` [Video360Player.|<containerId>_video360Player.]progressivebitrate= *`valeur`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> value</span> </p> </td> 
-   <td colname="col2"> <p> Indique le débit vidéo souhaité (en kilobits par seconde ou en kbit/s) à lire à partir d’une visionneuse de vidéos adaptative au cas où le système actuel ne prendrait pas en charge la lecture de vidéo adaptative. </p> <p>Le composant récupère le flux vidéo avec le débit le plus proche possible (mais ne dépassant pas) par rapport à la valeur spécifiée. Si tous les flux vidéo de la visionneuse de vidéos adaptative ont une qualité supérieure à la valeur spécifiée, la logique choisit le débit avec la qualité la plus faible. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> valeur</span> </p> </td> 
+   <td colname="col2"> <p> Spécifie le débit vidéo souhaité (en kilobits par seconde ou en Kbits/s) à lire à partir d’une visionneuse de vidéos adaptative au cas où le système actuel ne prendrait pas en charge la lecture vidéo adaptative. </p> <p>Le composant capte le flux vidéo avec le débit binaire le plus proche possible (mais sans le dépasser) de la valeur spécifiée. Si tous les flux vidéo de la visionneuse de vidéos adaptative ont une qualité supérieure à la valeur spécifiée, la logique choisit le débit binaire avec la qualité la plus faible. </p> </td> 
   </tr> 
  </tbody> 
 </table>

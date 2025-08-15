@@ -1,5 +1,5 @@
 ---
-description: Prend en charge le filtrage par sous-produit dans l’opération searchAssets.
+description: Prend en charge le filtrage de sous-produits dans l’opération searchAssets.
 solution: Experience Manager
 title: ExcludeByproductArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 24%
 
 # [!DNL ExcludeByproductArray]{#excludebyproductarray}
 
-Prend en charge le filtrage par sous-produit dans l’opération searchAssets.
+Prend en charge le filtrage de sous-produits dans l’opération searchAssets.
 
 Syntaxe
 
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| éléments | `types:ExcludeByproductCondition` | Élément du tableau . |
+| éléments | `types:ExcludeByproductCondition` | Élément du tableau. |

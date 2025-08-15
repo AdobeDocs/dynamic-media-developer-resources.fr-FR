@@ -14,22 +14,22 @@ ht-degree: 9%
 
 # Swatches.scrollstep{#swatches-scrollstep}
 
-` [Swatches.|<containerId>_swatches.]scrollstep= *`hStep`*, *`vStep`*`
+` [Swatches.|<containerId>_swatches.]scrollstep= *`hÉtape`*, *`vStep`*`
 
 <table id="table_DC890B3CAB6847318081AC74424147B9"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> hStep</span> </span> </p> </td> 
-   <td> <p>Etape horizontale. </p> </td> 
+   <td> <p> <span class="codeph"><span class="varname"></span> Étape h </span> </p> </td> 
+   <td> <p>Étape horizontale. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> <span class="varname"> vStep</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"><span class="varname"> Étape vStep</span> </span> </p> </td> 
    <td> <p>Etape verticale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Indique le nombre d’échantillons à faire défiler pour chaque clic ou clic du bouton de défilement correspondant.
+Spécifie le nombre d’échantillons à faire défiler pour chaque clic ou appui du bouton de défilement correspondant.
 
 ## Propriétés {#section-e6310c8c4e8547689a5b48ceddb3671d}
 

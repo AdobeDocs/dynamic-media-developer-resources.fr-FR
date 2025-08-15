@@ -1,6 +1,6 @@
 ---
 title: SystemFieldConditionArray
-description: Tableau de conditions de champ système.
+description: Tableau de conditions d’un champ système.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 26%
 
 # [!DNL SystemFieldConditionArray]{#systemfieldconditionarray}
 
-Tableau de conditions de champ système.
+Tableau de conditions d’un champ système.
 
 Syntaxe
 

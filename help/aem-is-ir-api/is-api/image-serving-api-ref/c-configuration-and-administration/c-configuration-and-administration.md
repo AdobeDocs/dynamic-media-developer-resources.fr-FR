@@ -1,5 +1,5 @@
 ---
-description: Utilisez les informations de cette section pour configurer et administrer le serveur d’images.
+description: Utilisez les informations de cette section pour configurer et administrer votre serveur d’images.
 solution: Experience Manager
 title: Configuration et administration
 feature: Dynamic Media Classic,SDK/API
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # Configuration et administration{#configuration-and-administration}
 
-Utilisez les informations de cette section pour configurer et administrer le serveur d’images.
+Utilisez les informations de cette section pour configurer et administrer votre serveur d’images.
 
 * [Fichiers de configuration du serveur](r-server-configuration-files/r-server-configuration-files.md)
 * [Caches de données](c-data-caches/c-data-caches.md)
 * [Paramètres du serveur](c-server-settings/c-server-settings.md)
-* [Redirection en erreur](c-redirect-on-error.md)
-* [Configuration du SVG](c-configuring-svg.md)
+* [Rediriger en cas d’erreur](c-redirect-on-error.md)
+* [Configuration de SVG](c-configuring-svg.md)
 * [Configuration du serveur](c-manual-server-configuration.md)
-* [Définition des chiffrements SSL](r-ssl-ciphers.md)
+* [Définir des chiffrements SSL](r-ssl-ciphers.md)
 * [Superviseur du serveur](c-server-supervisor.md)
 * [Journalisation du serveur](c-server-logging/c-server-logging.md)
 * [Surveillance du serveur](c-server-monitoring/c-server-monitoring.md)

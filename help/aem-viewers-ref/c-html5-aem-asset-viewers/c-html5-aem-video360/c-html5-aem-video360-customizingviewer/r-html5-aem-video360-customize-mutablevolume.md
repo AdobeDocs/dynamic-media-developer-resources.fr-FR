@@ -1,6 +1,6 @@
 ---
-title: Volume en sourdine
-description: La commande de volume modifiable s’affiche initialement sous la forme d’un bouton qui permet à l’utilisateur de mettre en sourdine le son du lecteur vidéo.
+title: Volume mutable
+description: La commande de volume modifiable apparaît initialement sous la forme d’un bouton qui permet à l’utilisateur de couper ou d’activer le son du lecteur vidéo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 ---
 
-# Volume en sourdine{#mutable-volume}
+# Volume mutable{#mutable-volume}
 
-La commande de volume modifiable s’affiche initialement sous la forme d’un bouton qui permet à l’utilisateur de mettre en sourdine le son du lecteur vidéo.
+La commande de volume modifiable apparaît initialement sous la forme d’un bouton qui permet à l’utilisateur de couper ou d’activer le son du lecteur vidéo.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Lorsqu’un utilisateur survole le bouton, un curseur s’affiche pour permettre à l’utilisateur de définir le volume. Le contrôle du volume modifiable peut être dimensionné, peint et positionné, par rapport à la barre de contrôle qui le contient, par CSS.
+Lorsqu’un utilisateur survole le bouton, un curseur s’affiche pour lui permettre de définir le volume. Le contrôle de volume modifiable peut être dimensionné, doté d&#39;une enveloppe et positionné par rapport à la barre de contrôle qui le contient, à l&#39;aide de CSS.
 
-L’aspect de la zone de volume modifiable est contrôlé à l’aide du sélecteur de classe CSS suivant :
+L’aspect de la zone de volume modifiable est contrôlé avec le sélecteur de classe CSS suivant :
 
 ```
 .s7video360viewer .s7mutablevolume
@@ -36,49 +36,49 @@ L’aspect de la zone de volume modifiable est contrôlé à l’aide du sélect
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> droit </span> </p> </td> 
-   <td colname="col2"> <p> Position à partir de la bordure droite, y compris la marge intérieure. </p> </td> 
+   <td colname="col2"> <p> Position à partir de la bordure droite, marge intérieure incluse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p> Largeur de la commande de volume modifiable. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
+   <td colname="col2"> <p> Largeur du contrôle de volume modifiable. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Hauteur de la commande de volume modifiable. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> de hauteur </span> </p> </td> 
+   <td colname="col2"> <p>Hauteur du contrôle de volume modifiable. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> des </span> de couleur d’arrière-plan </p> </td> 
    <td colname="col2"> <p> Couleur de la commande de volume modifiable. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-L’aspect du bouton silencieux/non muté est contrôlé à l’aide du sélecteur de classe CSS suivant :
+L’aspect du bouton Silence/Son réactivé est contrôlé par le sélecteur de classe CSS suivant :
 
 ```
 .s7video360viewer .s7mutablevolume .s7mutebutton
 ```
 
-Vous pouvez contrôler l’image d’arrière-plan de chaque état de bouton. La taille du bouton est héritée de la taille de la commande de volume.
+Vous pouvez contrôler l’image d’arrière-plan pour chaque état de bouton. La taille du bouton est héritée de la taille du contrôle de volume.
 
-**Propriétés CSS de l’image de bouton**
+**Propriétés CSS de l’image du bouton**
 
 <table id="table_46903DCACF314426B67783167ADF7715"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> le </span> image d’arrière-plan </p> </td> 
    <td colname="col2"> <p> Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> la position de l’arrière-plan </span> </p> </td> 
+   <td colname="col2"> <p> Positionnez à l’intérieur d’un sprite d’illustration si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> des </a> Sprites CSS. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ce bouton prend en charge les sélecteurs d’attributs `state` et `selected`, qui peuvent être utilisés pour appliquer différents habillages à différents états de bouton. En particulier, `selected='true'` correspond à l’état &quot;muté&quot; et `selected='false'` à l’état &quot;non muté&quot;.
+>Ce bouton prend en charge les sélecteurs d&#39;attributs `state` et `selected`, qui peuvent être utilisés pour appliquer différents habillages à différents états de bouton. En particulier, `selected='true'` correspond à l&#39;état « muted » et `selected='false'` correspond à l&#39;état « unmuted ».
 
 La zone de la barre de volume verticale est contrôlée avec le sélecteur de classe CSS suivant :
 
@@ -91,82 +91,82 @@ La zone de la barre de volume verticale est contrôlée avec le sélecteur de cl
 <table id="table_966826FB81114362A8D81D1EED38D512"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> Couleur d’arrière-plan du volume vertical. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> des </span> de couleur d’arrière-plan </p> </td> 
+   <td colname="col2"> <p> Couleur d'arrière-plan du volume vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
    <td colname="col2"> <p> Largeur du volume vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> de hauteur </span> </p> </td> 
    <td colname="col2"> <p> Hauteur du volume vertical. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Le suivi à l’intérieur du contrôle de volume vertical est contrôlé à l’aide des sélecteurs de classe CSS suivants :
+La piste à l’intérieur du contrôle du volume vertical est contrôlée avec les sélecteurs de classe CSS suivants :
 
 ```
 .s7video360viewer .s7mutablevolume .s7verticalvolume .s7track 
 .s7video360viewer .s7mutablevolume .s7verticalvolume .s7filledtrack
 ```
 
-**Propriétés CSS du suivi dans le contrôle de volume vertical**
+**Propriétés CSS de la piste dans le contrôle du volume vertical**
 
 <table id="table_21E9AD3FBC8C4437BA02E5CD1BF7E831"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> Couleur d’arrière-plan de la commande de volume vertical. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> des </span> de couleur d’arrière-plan </p> </td> 
+   <td colname="col2"> <p> Couleur d'arrière-plan de la commande de volume vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
    <td colname="col2"> <p>Largeur de la commande de volume vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Hauteur de la commande verticale du volume. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> de hauteur </span> </p> </td> 
+   <td colname="col2"> <p>Hauteur de la commande de volume vertical. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Le bouton de volume vertical est contrôlé à l’aide du sélecteur de classe CSS suivant :
+Le bouton de volume vertical est contrôlé avec le sélecteur de classe CSS suivant :
 
 ```
 .s7video360viewer .s7mutablevolume .s7verticalvolume .s7knob
 ```
 
-**Propriétés CSS du bouton de contrôle de volume vertical**
+**Propriétés CSS du bouton de réglage du volume vertical**
 
 <table id="table_709D64AF815341A5B50ED72CCB350F2E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> le </span> image d’arrière-plan </p> </td> 
    <td colname="col2"> <p> Illustration du bouton de contrôle du volume vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> la position de l’arrière-plan </span> </p> </td> 
+   <td colname="col2"> <p> Positionnez à l’intérieur d’un sprite d’illustration si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-customizingviewer/c-html5-aem-video360-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> des </a> Sprites CSS. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Largeur du bouton de contrôle du volume vertical. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
+   <td colname="col2"> <p>Largeur du bouton de réglage du volume vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Hauteur du bouton de contrôle du volume vertical. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> de hauteur </span> </p> </td> 
+   <td colname="col2"> <p>Hauteur du bouton de réglage du volume vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
-   <td colname="col2"> <p>Position horizontale du bouton de contrôle du volume vertical. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> gauche </span> </p> </td> 
+   <td colname="col2"> <p>Position horizontale du bouton de réglage du volume vertical. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) pour plus d’informations.
+L’info-bulle du bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) pour plus d’informations.
 
-**Exemples** : pour configurer un bouton de silence de 32 x 32 pixels et positionné 6 pixels du haut, et 38 pixels du bord droit de la barre de contrôle. Afficher une image différente pour chacun des quatre états de bouton différents lorsqu’il est sélectionné ou non.
+**Exemples** - Pour configurer un bouton de désactivation du son de 32 x 32 pixels et positionné à 6 pixels du haut et à 38 pixels du bord droit de la barre de contrôle. Affichez une image différente pour chacun des quatre états de bouton différents, qu’ils soient sélectionnés ou non.
 
 ```
 .s7video360viewer .s7mutablevolume { 
@@ -201,7 +201,7 @@ background-image:url(images/unmute_disabled.png);
 }
 ```
 
-Vous trouverez ci-dessous un exemple de style du curseur de volume dans la commande de volume modifiable.
+Voici un exemple de mise en forme du curseur de volume dans le contrôle de volume modifiable.
 
 ```
 .s7video360viewer .s7mutablevolume .s7verticalvolume { 

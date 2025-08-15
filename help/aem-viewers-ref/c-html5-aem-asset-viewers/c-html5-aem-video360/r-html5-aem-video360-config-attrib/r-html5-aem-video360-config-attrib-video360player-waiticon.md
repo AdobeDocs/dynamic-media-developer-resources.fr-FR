@@ -1,6 +1,6 @@
 ---
 title: Video360Player.waiticon
-description: Attribut de configuration de la visionneuse Video360.
+description: Attribut de configuration pour la visionneuse Video360.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # Video360Player.waiticon{#video-player-waiticon}
 
-Attribut de configuration de la visionneuse Video360.
+Attribut de configuration pour la visionneuse Video360.
 
 `[Video360Player.|<containerId>_video360Player.]waiticon=0|1`
 
@@ -22,7 +22,7 @@ Attribut de configuration de la visionneuse Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Active ou désactive l’affichage de l’animation de mise en mémoire tampon (icône d’attente). </p> </td> 
+   <td colname="col2"> <p> Active ou désactive l'affichage de l'animation de mise en mémoire tampon (icône d'attente). </p> </td> 
   </tr> 
  </tbody> 
 </table>

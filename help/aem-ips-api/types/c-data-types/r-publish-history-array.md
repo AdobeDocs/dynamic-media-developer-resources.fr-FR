@@ -1,7 +1,7 @@
 ---
 description: Tableau d’historiques de publication.
 solution: Experience Manager
-title: PublishHistoryArray
+title: Tableau de l’historique de publication
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a3c5c523-0157-449d-b03c-56b23501e822

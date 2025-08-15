@@ -1,7 +1,7 @@
 ---
-description: Masque de l'image. Demande les données du masque (canal alpha).
+description: Masque d’image. Demande les données de masque (couche alpha).
 solution: Experience Manager
-title: mask
+title: masque
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0e743fe5-a623-4f5f-bc61-536ed70532bf
@@ -12,12 +12,12 @@ ht-degree: 0%
 
 ---
 
-# mask{#mask}
+# masque{#mask}
 
-Masque de l&#39;image. Demande les données du masque (canal alpha).
+Masque d’image. Demande les données de masque (couche alpha).
 
 `req=mask`
 
-Prend en charge les mêmes commandes que `req=img`. Il est traité de la même manière par le serveur, mais au lieu de renvoyer les données du RGB ou RGBA, le serveur ignore les informations de couleur et renvoie uniquement les données de masque (couche alpha). Le format des données de réponse et le type MIME de réponse sont déterminés par `fmt=`.
+Prend en charge les mêmes commandes que `req=img`. Elles sont traitées de la même manière par le serveur, mais au lieu de renvoyer les données RVB ou RVBA, le serveur ignore les informations de couleur et renvoie uniquement les données de masque (couche alpha). Le format des données de réponse et le type MIME de réponse sont déterminés par `fmt=`.
 
-La réponse HTTP peut être mise en cache avec le TTL basé sur `catalog::Expiration`.
+La réponse HTTP peut être mise en cache avec la durée de vie basée sur la base de `catalog::Expiration`.

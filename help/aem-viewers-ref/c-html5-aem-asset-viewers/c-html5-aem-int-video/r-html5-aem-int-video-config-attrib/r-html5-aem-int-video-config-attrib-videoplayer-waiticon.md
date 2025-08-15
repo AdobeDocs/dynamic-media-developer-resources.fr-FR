@@ -1,6 +1,6 @@
 ---
 title: VideoPlayer.waiticon
-description: Attribut de configuration de la visionneuse de vidéos interactives.
+description: Attribut de configuration pour la visionneuse de vidéos interactives.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # VideoPlayer.waiticon{#videoplayer-waiticon}
 
-Attribut de configuration de la visionneuse de vidéos interactives.
+Attribut de configuration pour la visionneuse de vidéos interactives.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]waiticon=0|1`
 
@@ -22,7 +22,7 @@ Attribut de configuration de la visionneuse de vidéos interactives.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Active ou désactive l’affichage de l’animation de mise en mémoire tampon (icône d’attente). </p> </td> 
+   <td colname="col2"> <p> Active ou désactive l'affichage de l'animation de mise en mémoire tampon (icône d'attente). </p> </td> 
   </tr> 
  </tbody> 
 </table>

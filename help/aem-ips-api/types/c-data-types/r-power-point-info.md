@@ -1,7 +1,7 @@
 ---
 description: Options de fichier PowerPoint.
 solution: Experience Manager
-title: PowerPointInfo
+title: Informations PowerPoint
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 089bea2b-562f-4a63-a4f1-70194811a47d
@@ -22,6 +22,6 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| originalPath | `xsd:string` | Chemin du fichier. |
-| originalFile | `xsd:string` | Nom du fichier. |
-| fileSize | `xsd:int` | Taille de fichier. |
+| Chemin d’origine | `xsd:string` | Chemin du fichier. |
+| Fichier d’origine | `xsd:string` | Nom du fichier. |
+| Taille du fichier | `xsd:int` | Taille de fichier. |

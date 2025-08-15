@@ -1,5 +1,5 @@
 ---
-description: Tableau de messages répondant à l’une des URL fournies dans la demande d’invalidation du réseau CDN.
+description: Tableau de messages répondant à l’une des URL fournies dans la demande d’invalidation CDN.
 solution: Experience Manager
 title: OperationFaultArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # [!DNL OperationFaultArray]{#operationfaultarray}
 
-Tableau de messages répondant à l’une des URL fournies dans la demande d’invalidation du réseau CDN.
+Tableau de messages répondant à l’une des URL fournies dans la demande d’invalidation CDN.
 
 **Pris en charge depuis**
 
@@ -25,16 +25,16 @@ Tableau de messages répondant à l’une des URL fournies dans la demande d’i
 <table id="table_C8AEAC1759E144499557ECEBDAF740B9"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> Name</b> </th> 
+   <th class="entry"> <b> Nom</b> </th> 
    <th class="entry"> <b> Type</b> </th> 
    <th class="entry"> <b> Description</b> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> <span class="varname"> éléments</span> </span> </p> </td> 
-   <td> <p> <span class="codeph"> types:OperationFault</span> </p> </td> 
-   <td> <p> Liste des messages provenant de la demande d’invalidation du réseau CDN. </p> </td> 
+   <td> <p> <span class="codeph"><span class="varname"> Articles</span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> types :OperationFault</span> </p> </td> 
+   <td> <p> Liste des messages résultant de la demande d’invalidation CDN. </p> </td> 
   </tr> 
  </tbody> 
 </table>

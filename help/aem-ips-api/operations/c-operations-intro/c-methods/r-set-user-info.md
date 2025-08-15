@@ -1,5 +1,5 @@
 ---
-description: Définit des attributs utilisateur (par exemple, nom, courrier électronique, rôle, etc.)
+description: Définit les attributs de l’utilisateur (par exemple, nom, adresse électronique, rôle, etc.)
 solution: Experience Manager
 title: setUserInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # setUserInfo{#setuserinfo}
 
-Définit des attributs utilisateur (par exemple, nom, courrier électronique, rôle, etc.)
+Définit les attributs de l’utilisateur (par exemple, nom, adresse électronique, rôle, etc.)
 
 Syntaxe
 
@@ -31,22 +31,22 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| userHandle | `xsd:string` | Non | Identifiant utilisateur. |
-| firstName | `xsd:string` | Oui | Prénom. |
-| lastName | `xsd:string` | Oui | Nom. |
+| Poignée utilisateur | `xsd:string` | Non | Pseudo utilisateur. |
+| prénom | `xsd:string` | Oui | Prénom. |
+| Nom de famille | `xsd:string` | Oui | Nom. |
 | e-mail | `xsd:string` | Oui | Adresse électronique de l’utilisateur. |
-| defaultRole | `xsd:string` | Oui | Définit le rôle d’un utilisateur dans chaque société à laquelle il appartient. Notez toutefois que le rôle `IpsAdmin` remplace d’autres paramètres par entreprise. |
-| passwordExpires | `xsd:dateTime` | Non | Définissez la date d’expiration du mot de passe. |
-| isValid | `xsd:boolean` | Oui | Détermine si l’utilisateur est un utilisateur IPS valide. |
-| membershipArray | `types:CompanyMembershipUpdateArray` | Oui | Un tableau de gestionnaires de société. |
+| Rôle par défaut | `xsd:string` | Oui | Définit le rôle d’un utilisateur dans chaque entreprise à laquelle il appartient. Notez toutefois que le rôle remplace les `IpsAdmin` autres paramètres par société. |
+| expirations du mot de passe | `xsd:dateTime` | Non | Date d’expiration du mot de passe de l’éditeur. |
+| est valide | `xsd:boolean` | Oui | Détermine si l’utilisateur est un utilisateur IPS valide. |
+| Tableau d’adhérents | `types:CompanyMembershipUpdateArray` | Oui | Tableau de poignées d’entreprise. |
 
-**Sortie (setUserInfoReturn)**
+**Output (setUserInfoReturn)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-272c103076fb4de0a53729e2f6bfb895}
 
-**Requête**
+**Demander**
 
 ```java
 <setUserInfoParam xmlns="http://www.scene7.com/IpsApi/xsd">

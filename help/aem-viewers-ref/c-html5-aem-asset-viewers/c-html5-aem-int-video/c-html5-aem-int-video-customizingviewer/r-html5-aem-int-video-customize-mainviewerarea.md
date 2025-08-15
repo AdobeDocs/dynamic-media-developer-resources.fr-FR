@@ -20,7 +20,7 @@ La zone d’affichage principale est la zone occupée par les échantillons inte
 
 **Propriétés CSS de la zone de visionneuse principale**
 
-L’aspect de la zone d’affichage est contrôlé à l’aide du sélecteur de classe CSS suivant :
+L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe CSS suivant :
 
 ```
 .s7interactivevideoviewer
@@ -29,29 +29,29 @@ L’aspect de la zone d’affichage est contrôlé à l’aide du sélecteur de 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> propriété CSS </p> </th> 
+   <th colname="col1" class="entry"> <p> Propriété CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
    <td colname="col2"> <p>Largeur de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> de hauteur </span> </p> </td> 
    <td colname="col2"> <p>Hauteur de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p> Couleur d’arrière-plan au format hexadécimal. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> des </span> de couleur d’arrière-plan </p> </td> 
+   <td colname="col2"> <p> Couleur d’arrière-plan au format hexadécimal </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Exemple {#section-ee18025b182a42dc98052de5f133ddfe}
 
-Pour configurer une visionneuse avec un arrière-plan blanc ( `#FFFFFF`) et faire sa taille de 512 x 288 pixels.
+Pour configurer une visionneuse sur fond blanc ( `#FFFFFF`) et faire en sorte qu’elle mesure 512 x 288 pixels.
 
 ```
 .s7interactivevideoviewer { 

@@ -1,7 +1,7 @@
 ---
-description: Définit les autorisations d’une ressource unique à l’aide d’une ressource d’autorisation.
+description: Définit les autorisations d’une seule ressource à l’aide d’une ressource d’autorisation.
 solution: Experience Manager
-title: setAssetPermissions
+title: Définir les autorisations des ressources
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 1e73c305-cda5-4c30-9380-ec4cd8309933
@@ -12,11 +12,11 @@ ht-degree: 8%
 
 ---
 
-# setAssetPermissions{#setassetpermissions}
+# Définir les autorisations des ressources{#setassetpermissions}
 
-Définit les autorisations d’une ressource unique à l’aide d’une ressource d’autorisation.
+Définit les autorisations d’une seule ressource à l’aide d’une ressource d’autorisation.
 
-Assets hérite par défaut des autorisations de son dossier parent. Une fois que vous avez défini des autorisations sur une ressource, elle n’hérite plus des autorisations de son parent, sauf si vous appelez `removeAssetPermissions`.
+Assets héritent par défaut des autorisations du dossier parent. Une fois que vous avez défini les autorisations sur une ressource, elle n’hérite plus des autorisations de son parent, sauf si vous appelez `removeAssetPermissions`.
 
 ## Types d’utilisateurs autorisés {#section-91fafc170c734ed2a77beafda9221768}
 
@@ -26,23 +26,23 @@ Assets hérite par défaut des autorisations de son dossier parent. Une fois que
 
 ## Paramètres {#section-e05abbce6453450fb38747101cb5e228}
 
-**Input (setAssetPermissionsParam)**
+**Entrée (setAssetPermissonsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gestionnaire de l’entreprise qui contient le dossier avec lequel vous souhaitez travailler. |
-| assetHandle | `xsd:string` | Oui | Poignée de dossier. |
-| permissionArray | `types:PermissionsUpdateArray` | Oui | Tableau d’autorisations. |
+| CompanyHandle | `xsd:string` | Oui | Poignée de l’entreprise qui contient le dossier que vous souhaitez utiliser. |
+| AssetHandle | `xsd:string` | Oui | Poignée de dossier. |
+| Tableau d’autorisations | `types:PermissionsUpdateArray` | Oui | Tableau d’autorisations. |
 
-**Output (setAssetPermissionsReturn)**
+**Output (setAssetPermissonsReturn)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-38955bc330bb4909b6b06027ef2b143e}
 
-Cet exemple de code définit des autorisations sur une ressource. Il contient le gestionnaire de l’entreprise et de la ressource, ainsi qu’un tableau d’autorisations.
+Cet exemple de code définit les autorisations sur une ressource. Il contient le nom de la société et de la ressource, ainsi qu’un tableau d’autorisations.
 
-**Requête**
+**Demander**
 
 ```java
 <setAssetPermissionsParam xmlns="http://www.scene7.com/IpsApi/xsd">

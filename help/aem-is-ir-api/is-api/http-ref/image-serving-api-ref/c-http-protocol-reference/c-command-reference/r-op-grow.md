@@ -1,6 +1,6 @@
 ---
-title: op_grew
-description: Dilate/érode l’image. Applique un dilate morphologique (rayon > 0) ou une érode (rayon < 0) aux données de l’image.
+title: op_grow
+description: Retarder/éroder l’image. Applique un dilat morphologique (rayon > 0) ou une érosion (rayon < 0) to the image data.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,22 +12,22 @@ ht-degree: 2%
 
 ---
 
-# op_grew{#op-grow}
+# op_grow{#op-grow}
 
-Dilate/érode l’image. Applique un dilate morphologique (rayon > 0) ou une érode (rayon &lt; 0) aux données de l’image.
+Retarder/éroder l’image. Applique un dilat morphologique (rayon > 0) ou une érosion (rayon &lt; 0) to the image data.
 
-`op_grow= *`radius`*`
+`op_grow= *`rayon`*`
 
 <table id="simpletable_3BAA4523D29E447FA7A4C9009B3E8344"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> radius</span></span> </p> </td> 
-  <td class="stentry"> <p>Dilate/érode le rayon en pixels (int -100..100). </p></td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> rayon</span></span> </p> </td> 
+  <td class="stentry"> <p>Rayon de dilatation/érosion en pixels (int -100..100). </p></td> 
  </tr> 
 </table>
 
-`*`radius`*` est exprimé en pixels par rapport à l’image composite. Si l’image est en couleur, chaque composant est traité indépendamment.
+`*`rayon`*` est exprimé en pixels par rapport à l’image composite. Si l’image est en couleur, chaque composant est traité indépendamment.
 
-Utilisé principalement pour modifier la taille des effets de calque. Également utile pour obtenir des effets spéciaux sur les calques de texte ou les calques de couleur unis avec des masques.
+Principalement utilisé pour modifier la taille des effets de calque. Également utile pour obtenir des effets spéciaux sur les calques de texte ou les calques de couleur unie avec masques.
 
 ## Propriétés {#section-b1c66d65168d4ea695e8662ea690bd4e}
 
@@ -35,7 +35,7 @@ Attribut de calque. S’applique au calque actif ou à l’image composite si `l
 
 ## Par défaut {#section-14c908bb87cb42acbea709effea2f964}
 
-`op_grow=0`, pour aucune modification.
+`op_grow=0`, sans changement.
 
 ## Voir aussi {#section-ad3e5cecfc3448a38ea06093e015c88a}
 

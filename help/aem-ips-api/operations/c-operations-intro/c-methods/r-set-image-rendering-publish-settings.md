@@ -1,5 +1,5 @@
 ---
-description: Pour les développeurs Scene 7 uniquement. Reportez-vous à la section Attributs de catalogue de matières de rendu d’images .
+description: Pour les développeurs Scene 7 uniquement. Reportez-vous à la section Attributs de catalogue de référence des matériaux de rendu d'image.
 solution: Experience Manager
 title: setImageRenderingPublishSettings
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # setImageRenderingPublishSettings{#setimagerenderingpublishsettings}
 
-Pour les développeurs Scene 7 uniquement. Reportez-vous à la section Attributs de catalogue de matières de rendu d’images .
+Pour les développeurs Scene 7 uniquement. Reportez-vous à la section Attributs de catalogue de référence des matériaux de rendu d&#39;image.
 
 Syntaxe
 
@@ -24,6 +24,6 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Poignée de la société. |
+| companyHandle | `xsd:string` | Oui | Identifiant de la société. |
 | publishSettingsArray | `types:ConfigSettingArray` | Oui | Pour les développeurs Scene 7 uniquement. |
-| contextHandle | `xsd:string` | Non | Gérer au contexte de publication. |
+| contextHandle | `xsd:string` | Non | Gérer vers le contexte de publication. |

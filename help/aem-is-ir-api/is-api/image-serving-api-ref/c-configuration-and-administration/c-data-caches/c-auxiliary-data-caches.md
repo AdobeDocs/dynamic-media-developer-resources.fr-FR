@@ -1,5 +1,5 @@
 ---
-description: Les données d’image intermédiaires générées par les demandes de diffusion d’images et de rendu d’images imbriquées/incorporées peuvent être mises en cache en spécifiant cache=on dans la requête imbriquée/incorporée. Ces données sont stockées dans un format propriétaire dans le cache de données de réponse.
+description: Les données d’image intermédiaires produites par les demandes de service d’image et de rendu d’image imbriquées/intégrées peuvent être mises en cache en spécifiant cache=on dans la requête imbriquée/intégrée. Ces données sont stockées dans un format propriétaire dans le cache des données de réponse.
 solution: Experience Manager
 title: Caches de données auxiliaires
 feature: Dynamic Media Classic,SDK/API
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # Caches de données auxiliaires{#auxiliary-data-caches}
 
-Les données d’image intermédiaires générées par les demandes de diffusion d’images et de rendu d’images imbriquées/incorporées peuvent être mises en cache en spécifiant cache=on dans la requête imbriquée/incorporée. Ces données sont stockées dans un format propriétaire dans le cache de données de réponse.
+Les données d’image intermédiaires produites par les demandes de service d’image et de rendu d’image imbriquées/intégrées peuvent être mises en cache en spécifiant cache=on dans la requête imbriquée/intégrée. Ces données sont stockées dans un format propriétaire dans le cache des données de réponse.
 
-Les images obtenues à partir de serveurs HTTP étrangers sont également stockées dans le cache de données de réponse. Ces images sont validées automatiquement à l’aide de l’utilitaire de validation avant que l’entrée de cache ne soit générée.
+Les images obtenues à partir de serveurs HTTP étrangers sont également stockées dans le cache de données de réponse. Ces images sont validées automatiquement avec l’utilitaire de validation avant que l’entrée de cache ne soit générée.
 
-[!DNL Platform Server] compile les données du catalogue d’images pour un accès efficace. Ces données sont stockées dans `CS::CatalogCacheFolder`.
+La [!DNL Platform Server] compile les données du catalogue d’images pour un accès efficace. Ces données sont stockées dans `CS::CatalogCacheFolder`.

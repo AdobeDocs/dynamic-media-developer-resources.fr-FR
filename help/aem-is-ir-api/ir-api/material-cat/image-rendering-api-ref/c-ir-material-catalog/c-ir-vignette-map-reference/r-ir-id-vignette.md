@@ -1,5 +1,5 @@
 ---
-description: Identifiant de la vignette. Valeur de clé d’index par laquelle les enregistrements du fichier de vignette sont recherchés par le serveur.
+description: Identifiant Vignette. Valeur de clé d’index selon laquelle les enregistrements du fichier de mappage de vignette sont recherchés par le serveur.
 solution: Experience Manager
 title: ID
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 6%
 
 # ID{#id}
 
-Identifiant de la vignette. Valeur de clé d’index par laquelle les enregistrements du fichier de vignette sont recherchés par le serveur.
+Identifiant Vignette. Valeur de clé d’index selon laquelle les enregistrements du fichier de mappage de vignette sont recherchés par le serveur.
 
 En règle générale, un identifiant court et unique, tel qu’un numéro de SKU. Il peut également s’agir d’une chaîne plus complexe qui peut ressembler à un chemin d’accès au fichier.
 
 ## Propriétés {#section-267bbf34677e4401abbaf6fdce52191b}
 
-Chaîne de texte. Obligatoire. Clé d’index de Principal pour la table de vignette map. Chaque valeur `vignette::Id` doit être unique dans la table et ne doit pas contenir de caractères &quot;,&quot;.
+Chaîne de texte. Obligatoire. Clé d&#39;index de Principal pour la table de carte de vignette. Chaque valeur `vignette::Id` doit être unique dans le tableau et ne doit pas contenir de caractères « , ».
 
 ## Par défaut {#section-736d3419b19045efa00887cb595b0337}
 

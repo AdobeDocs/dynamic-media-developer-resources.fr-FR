@@ -34,8 +34,8 @@ Syntaxe
    <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
    <td colname="col3">Supprime l’espace blanc des bords de l’image en fonction de la transparence. Utilise : 
     <ul id="ul_FE5423B857AE43FCBA7A9AEA76C754CC">
-     <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0 pour faire correspondre exactement les couleurs. </li>
-     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1 pour activer le plus grand nombre de différences de couleurs. </li>
+     <li id="li_01E3BD0AB8DA4C408B47CB02B269404A">0 pour correspondre exactement aux couleurs. </li>
+     <li id="li_FCE21384265D4ECE9C0D785F1BB32C3A">1 pour activer le plus de différences de couleurs. </li>
     </ul></td> 
   </tr> 
  </tbody> 

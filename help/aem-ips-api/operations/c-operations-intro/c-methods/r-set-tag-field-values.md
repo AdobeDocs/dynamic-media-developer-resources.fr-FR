@@ -26,21 +26,21 @@ Syntaxe
 
 ## Paramètres {#section-a05cbee4cb4f44198c414a6b14e69156}
 
-**Input**
+**Entrée**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Poignée de la société. |
-| fieldHandle | `xsd:string` | Oui | Poignée de champ de balise. |
-| valueArray | `types:StringArray` | Oui | Tableau de valeurs de balise qui remplacent le dictionnaire existant du champ. Les associations de ressources sont conservées lorsqu’une nouvelle valeur correspond à une valeur existante. |
+| CompanyHandle | `xsd:string` | Oui | Pseudo de l’entreprise. |
+| Poignée de champ | `xsd:string` | Oui | Poignée de champ de balise. |
+| Tableau de valeurs | `types:StringArray` | Oui | Matrice de valeurs de balises qui remplace le dictionnaire existant du champ. Les associations d’actifs sont conservées lorsqu’une nouvelle valeur correspond à une valeur existante. |
 
-**Sortie (setTagFieldValuesReturn)**
+**Output (setTagFieldValuesReturn)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-b11cafd9bed54ab5836c737cc075c918}
 
-**Requête**
+**Demander**
 
 ```java
 <setTagFieldValuesParam xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">

@@ -1,7 +1,7 @@
 ---
-description: Tableau de mises à jour des métadonnées.
+description: Gamme de mises à jour de métadonnées.
 solution: Experience Manager
-title: MetadataUpdateArray
+title: Tableau de mise à jour des métadonnées
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: d6ff2ae9-0924-4155-81fb-282f808cc54f
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL MetadataUpdateArray]{#metadataupdatearray}
 
-Tableau de mises à jour des métadonnées.
+Gamme de mises à jour de métadonnées.
 
 Syntaxe
 

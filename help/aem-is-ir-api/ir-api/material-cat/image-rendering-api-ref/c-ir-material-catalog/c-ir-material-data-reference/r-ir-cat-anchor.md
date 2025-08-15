@@ -1,5 +1,5 @@
 ---
-description: Ancre d’image. Indique le point d’ancrage (zone réactive) d’une texture, d’une bordure du mur ou d’une image de décomposition répétable.
+description: Ancre d’image. Indique le point d’ancrage (zone réactive) d’une texture répétable, d’une bordure de mur ou d’une image de vignette.
 solution: Experience Manager
 title: Ancre
 feature: Dynamic Media Classic,SDK/API
@@ -14,17 +14,17 @@ ht-degree: 3%
 
 # Ancre{#anchor}
 
-Ancre d’image. Indique le point d’ancrage (zone réactive) d’une texture, d’une bordure du mur ou d’une image de décomposition répétable.
+Ancre d’image. Indique le point d’ancrage (zone réactive) d’une texture répétable, d’une bordure de mur ou d’une image de vignette.
 
-Une texture répétable est appliquée à un objet de vignette de sorte que le point d’ancrage de la texture se trouve au point d’origine de la texture de l’objet. Une image de décal est appliquée à un objet de vignette de sorte que le point d’ancrage de la décimale soit situé au point d’origine de la décimale de l’objet. Pour les bordures de mur, seule la valeur x est utilisée ; la valeur y est ignorée.
+Une texture répétable est appliquée à un objet vignette de sorte que le point d&#39;ancrage de texture soit situé au point d&#39;origine de texture de l&#39;objet. Une image de vignette est appliquée à un objet vignette de sorte que le point d&#39;ancrage de vignette se trouve au point d&#39;origine de la vignette de l&#39;objet. Pour les bordures de mur, seule la valeur x est utilisée ; la valeur y est ignorée.
 
 ## Propriétés {#section-bc4bc8b897c64535b88681e57d72942f}
 
-Deux nombres entiers, séparés par une virgule. Décalage des pixels par rapport au coin supérieur gauche de l’image. Ignoré si `catalog::Alignment=3` et par couleur unie et matériaux de l’armoire.
+Deux nombres entiers séparés par une virgule. Décalage en pixels par rapport au coin supérieur gauche de l’image. Ignoré si `catalog::Alignment=3` et par la couleur unie et les matériaux de l&#39;armoire.
 
 ## Par défaut {#section-b7ccc419a356415294706cd295ae96c9}
 
-Si le champ est vide ou non présent, le coin supérieur gauche (0,0) de l’image pour les matériaux de texture répétables est utilisé, ou le centre de l’image en cas de matériaux décals.
+Si le champ est vide ou absent, le coin supérieur gauche (0,0) de l&#39;image pour les matériaux de texture répétables est utilisé, ou le centre de l&#39;image dans le cas des matériaux de vignette.
 
 ## Voir aussi {#section-3fb2ce2f6b7240a4b6f4858022a0a01d}
 

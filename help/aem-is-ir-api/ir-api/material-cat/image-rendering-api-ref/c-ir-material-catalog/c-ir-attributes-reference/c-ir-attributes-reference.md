@@ -1,6 +1,6 @@
 ---
 title: Référence des attributs
-description: Tous les attributs de catalogue sont facultatifs, à l’exception de l’identifiant racine du catalogue. Tous les attributs sont requis dans le fichier d’attributs de catalogue par défaut (default.ini).
+description: Tous les attributs de catalogue sont facultatifs, à l’exception de l’ID racine du catalogue. Tous les attributs sont requis dans le fichier d’attributs de catalogue (default.ini) par défaut.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # Référence des attributs{#attributes-reference}
 
-Tous les attributs de catalogue sont facultatifs, à l’exception de catalog::RootId. Tous les attributs sont requis dans le fichier d’attributs de catalogue par défaut (default.ini).
+Tous les attributs de catalogue sont facultatifs, à l’exception de catalog ::RootId. Tous les attributs sont requis dans le fichier d’attributs de catalogue (default.ini) par défaut.

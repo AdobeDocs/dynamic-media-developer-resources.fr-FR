@@ -14,13 +14,13 @@ ht-degree: 5%
 
 # FlyoutZoomView.iscommand{#flyoutzoomview-iscommand}
 
-` [FlyoutZoomView.|<containerId>_flyout.]iscommand= *`isCommand`*`
+` [FlyoutZoomView.|<containerId>_flyout.]iscommand= *`Commande isCommand`*`
 
 <table id="table_43A84C1044574A6FAB8CE67D71AAD5EC"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> </p> <p>Chaîne de commande de diffusion d’images appliquée à l’image principale FlyoutZoomView et au zoom dans la vue. S’il est spécifié dans l’URL, veillez à coder toutes les occurrences de <span class="codeph"> &amp;</span> et <span class="codeph"> =</span> en tant que <span class="codeph"> %26</span> et <span class="codeph"> %3D</span>, respectivement. </p> <p> <p>Remarque : Les commandes de manipulation de dimensionnement d’image ne sont pas prises en charge. </p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> Commande isCommand</span> </span> </p> </td> 
+   <td colname="col2"> <p> </p> <p>Chaîne de commande de diffusion d’images appliquée à l’image principale FlyoutZoomView et à la vue agrandie. S’il est spécifié dans l’URL, veillez à coder HTTP toutes les occurrences de <span class="codeph"> &amp;</span> et = <span class="codeph"></span> comme <span class="codeph"> %26</span> et <span class="codeph"> %3D</span>, respectivement. </p> <p> <p>Remarque : les commandes de manipulation de dimensionnement d’image ne sont pas prises en charge. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -35,10 +35,10 @@ Aucune
 
 ## Exemple {#section-0338be21edd04ff1a3bed5c8319b61a4}
 
-Lorsqu’il est spécifié dans l’URL de la visionneuse :
+Lorsque cela est spécifié dans l’URL de la visionneuse :
 
 `iscommand=op_sharpen%3d1%26op_colorize%3d0xff0000`
 
-Lorsque spécifié dans les données de configuration :
+Lorsque cela est indiqué dans les données de configuration :
 
 `iscommand=op_sharpen=1&op_colorize=0xff0000`

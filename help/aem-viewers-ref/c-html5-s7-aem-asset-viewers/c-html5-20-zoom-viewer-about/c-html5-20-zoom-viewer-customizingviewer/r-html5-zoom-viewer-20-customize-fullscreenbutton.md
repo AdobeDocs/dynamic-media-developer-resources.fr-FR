@@ -1,6 +1,6 @@
 ---
 title: bouton plein écran
-description: Permet à la visionneuse d’entrer ou de quitter le mode plein écran lorsqu’elle est sélectionnée par l’utilisateur. Ce bouton ne s’affiche pas si la visionneuse fonctionne en mode contextuel et que le système ne prend pas en charge le mode plein écran natif. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
+description: Fait passer la visionneuse en mode plein écran ou la fait quitter ce mode lorsqu’elle est sélectionnée par l’utilisateur. Ce bouton ne s’affiche pas si la visionneuse fonctionne en mode pop-up et que le système ne prend pas en charge le plein écran natif. Vous pouvez redimensionner, habiller et positionner ce bouton à l’aide de CSS.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 ---
 
-# bouton plein écran{#full-screen-button}
+# Bouton Plein écran{#full-screen-button}
 
-Permet à la visionneuse d’entrer ou de quitter le mode plein écran lorsqu’elle est sélectionnée par l’utilisateur. Ce bouton ne s’affiche pas si la visionneuse fonctionne en mode contextuel et que le système ne prend pas en charge le mode plein écran natif. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
+Permet à la visionneuse d’activer ou de quitter le mode plein écran lorsqu’elle est sélectionnée par l’utilisateur. Ce bouton ne s’affiche pas si la visionneuse fonctionne en mode pop-up et que le système ne prend pas en charge le plein écran natif. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **Propriétés CSS de la zone de visionneuse principale**
 
-L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suivant :
+L’aspect du bouton est contrôlé avec le sélecteur de classe CSS suivant :
 
 ```
 .s7zoomviewer .s7fullscreenbutton
@@ -29,7 +29,7 @@ L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suiv
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> propriété CSS </p> </th> 
+   <th colname="col1" class="entry"> <p> Propriété CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
@@ -40,42 +40,42 @@ L’aspect du bouton est contrôlé à l’aide du sélecteur de classe CSS suiv
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> droit </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure droite, y compris la marge intérieure. </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure droite, y compris le rembourrage. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
-   <td colname="col2"> <p>Position depuis la bordure gauche, y compris la marge intérieure. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Gauche </span> </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure gauche, remplissage compris. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> inférieur </span> </p> </td> 
    <td colname="col2"> <p>Position à partir de la bordure inférieure, y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
    <td colname="col2"> <p>Largeur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> de hauteur </span> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> le </span> image d’arrière-plan </p> </td> 
    <td colname="col2"> <p>Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> position de l’arrière-plan </span> </p> </td> 
+   <td colname="col2"> <p> Position à l’intérieur du sprite de l’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-customizingviewer/c-html5-flyout-viewer-20-customizingviewer.md#section-0711ece44a4740168cfd7624c9010bd1" format="dita" scope="local"> Sprites </a>CSS. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ce bouton prend en charge les sélecteurs d’attributs `state` et `selected`, qui peuvent être utilisés pour appliquer différents habillages à différents états de bouton. En particulier, `selected='true'` correspond à l’état &quot;plein écran&quot; et `selected='false'` à l’état &quot;normal&quot;.
+>Ce bouton prend en charge les sélecteurs d&#39;attributs `state` et `selected`, qui peuvent être utilisés pour appliquer différents habillages à différents états de bouton. En particulier, `selected='true'` correspond à l&#39;état « plein écran » et `selected='false'` correspond à l&#39;état « normal ».
 
-L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
+L’info-bulle du bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-20-zoom-viewer-about/c-html5-20-zoom-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74).
 
-Exemple : pour configurer un bouton plein écran de 32 x 32 pixels et positionner six pixels à partir des bords supérieur et droit de la visionneuse. Enfin, affiche une image différente pour chacun des quatre états de bouton différents lorsqu’il est sélectionné ou non :
+Exemple - Pour configurer un bouton plein écran de 32 x 32 pixels positionné à six pixels du bord supérieur et droit de la visionneuse. Enfin, affiche une image différente pour chacun des quatre états de bouton différents, qu’ils soient sélectionnés ou non :
 
 ```
 .s7zoomviewer .s7fullscreenbutton { 

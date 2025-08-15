@@ -26,22 +26,22 @@ Définit les champs de métadonnées de police.
 
 ## Paramètres {#section-836f5948d00a46e98ccb62f0573e4e68}
 
-**Entrée (batchSetFontFieldsParam)**
+**Input (batchSetFontFieldsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gérer la société qui contient les polices. |
-| updateArray | `types:FontFieldUpdateArray` | Oui | Tableau des mises à jour des champs de police. |
+| companyHandle | `xsd:string` | Oui | Gérer vers la société qui contient les polices. |
+| updateArray | `types:FontFieldUpdateArray` | Oui | Tableau de mises à jour des champs de police. |
 
-**Sortie (batchSetFontFieldsParam)**
+**Output (batchSetFontFieldsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| successCount | `xsd:int` | Oui | Nombre de champs de police correctement définis. |
-| warningCount | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de définir des champs de police. |
-| errorCount | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de définir des champs de police. |
-| warningDetailArray | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des avertissements lorsque l’opération a tenté d’appliquer les mises à jour. |
-| errorDetailArray | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des erreurs lorsque l’opération a tenté d’appliquer les mises à jour. |
+| successCount | `xsd:int` | Oui | Nombre de champs de police définis avec succès. |
+| warningCount | `xsd:int` | Oui | Nombre d&#39;avertissements générés lorsque l&#39;opération a tenté de définir des champs de police. |
+| errorCount | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération a tenté de définir des champs de police. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Non | Tableau de détails associés aux ressources qui ont généré des avertissements lorsque l’opération a tenté d’appliquer les mises à jour. |
+| errorDetailArray | `types:AssetOperationFaultArray` | Non | Tableau de détails associés aux ressources qui ont généré des erreurs lorsque l’opération a tenté d’appliquer les mises à jour. |
 
 ## Exemples {#section-0449c2e4ec534f4b8ee849ec4fe12c4e}
 

@@ -1,6 +1,6 @@
 ---
-title: API de rendu d’image
-description: La référence de l’API de rendu d’image contient des informations sur la configuration et l’utilisation de l’API de rendu d’image Dynamic Media.
+title: Image Rendering API
+description: La référence de l’API Image Rendering contient des informations sur la configuration et l’utilisation de l’API de rendu d’image Dynamic Media.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,13 +12,13 @@ ht-degree: 1%
 
 ---
 
-# API de rendu d’image{#image-rendering-api}
+# Image Rendering API{#image-rendering-api}
 
-La référence de l’API de rendu d’image contient des informations sur la configuration et l’utilisation de l’API de rendu d’image Dynamic Media.
+La référence de l’API Image Rendering contient des informations sur la configuration et l’utilisation de l’API de rendu d’image Dynamic Media.
 
 * [Configuration](c-ir-installation/c-ir-installation.md)
 * [Licences](c-ir-installation/c-ir-licensing.md)
 * [Installation et configuration du module de compatibilité IR 3.x](c-ir-installation/t-ir-setup-compatibility-module.md)
-* [Installation et configuration du rendu d’image](c-ir-installation/c-ir-setup-ir.md)
-* [Désinstallation du rendu d’image](c-ir-installation/c-ir-uninstalling/c-ir-uninstalling.md)
-* [Administration des serveurs](c-ir-server-administration/c-ir-server-administration.md)
+* [Installation et configuration du rendu d’images](c-ir-installation/c-ir-setup-ir.md)
+* [Désinstallation d’Image Rendering](c-ir-installation/c-ir-uninstalling/c-ir-uninstalling.md)
+* [Administration du serveur](c-ir-server-administration/c-ir-server-administration.md)

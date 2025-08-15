@@ -34,10 +34,10 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Traitez la société. |
-| fieldHandle | `xsd:string` | Non | Traitement du champ de métadonnées. |
+| companyHandle | `xsd:string` | Oui | Gérer vers la société. |
+| fieldHandle | `xsd:string` | Non | Gérer le champ de métadonnées. |
 
-**Sortie (getUniqueMetadataValuesReturn)**
+**Output (getUniqueMetadataValuesReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -45,7 +45,7 @@ Syntaxe
 
 ## Exemples {#section-440f3bc3e5be436cb6ec26117d05f476}
 
-Cet exemple de code utilise une poignée de champ pour renvoyer des valeurs de métadonnées spécifiques.
+Cet exemple de code utilise un descripteur de champ pour renvoyer des valeurs de métadonnées spécifiques.
 
 **Requête**
 

@@ -1,5 +1,5 @@
 ---
-description: Un ensemble d'entreprises
+description: Un éventail d’entreprises
 solution: Experience Manager
 title: CompanyArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 31%
 
 # [!DNL CompanyArray]{#companyarray}
 
-Un ensemble d&#39;entreprises
+Un éventail d’entreprises
 
 Syntaxe
 
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| éléments | `types:Company` | Un ensemble d&#39;entreprises. |
+| éléments | `types:Company` | Un éventail d&#39;entreprises. |

@@ -19,16 +19,16 @@ ht-degree: 9%
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td> 
-   <td colname="col2"> <p>Largeur de l’incorporation. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur <span class="varname"> </span> </span> </p> </td> 
+   <td colname="col2"> <p>Largeur d’incorporation. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> height </span> </span> </p> </td> 
-   <td colname="col2"> <p>Hauteur de l’incorporation. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hauteur </span> </span> </p> </td> 
+   <td colname="col2"> <p>Hauteur d’incorporation. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Indique si cet élément de liste doit être initialement présélectionné dans la zone combinée. </p> </td> 
+   <td colname="col2"> <p> Indique si cet élément de liste doit être initialement présélectionné dans la zone de liste. </p> </td> 
   </tr> 
  </tbody> 
 </table>

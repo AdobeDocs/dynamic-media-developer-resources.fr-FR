@@ -19,8 +19,8 @@ ht-degree: 4%
 <table id="table_0BEA0B5FFDF64E5594B534B2A87A6D88"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> numeric|dotted</span> </p> </td> 
-   <td colname="col2"> <p> Configure le style de rendu de l’indicateur défini. </p> <p>Lorsqu’il est défini sur <span class="codeph"> pointillés </span>, le composant effectue le rendu des indicateurs identiques pour toutes les pages. </p> <p>Lorsqu’il est défini sur <span class="codeph"> numeric</span>, il place un numéro de page de base 1 dans chaque élément d’indicateur. </p> <p>Le mode d’opération <span class="codeph"> numérique</span> n’est pas pris en charge sur les périphériques dotés d’une entrée tactile. À la place, le composant utilise <span class="codeph"> pointillé</span> sur ces périphériques. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> numérique|pointillé</span> </p> </td> 
+   <td colname="col2"> <p> Configure le style de rendu de l’indicateur défini. </p> <p>Lorsqu’il est défini sur <span class="codeph">’</span> pointillé, le composant effectue le rendu des indicateurs identiques sur toutes les pages. </p> <p>Lorsqu’elle est définie sur <span class="codeph"> numérique</span> elle place un numéro de page de base 1 dans chaque élément d’indicateur. </p> <p>Le mode de fonctionnement numérique<span class="codeph"> </span> n’est pas pris en charge sur les appareils dotés d’une entrée tactile. Au lieu de cela, le composant utilise des <span class="codeph"> pointillés</span> sur ces appareils. </p> </td> 
   </tr> 
  </tbody> 
 </table>

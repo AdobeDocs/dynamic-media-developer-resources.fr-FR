@@ -14,17 +14,17 @@ ht-degree: 3%
 
 # CarouselView.enableHD{#carouselview-enablehd}
 
-` [CarouselView.|<containerId>_carouselView.]enableHD=always|never|limit[, *`number`*]`
+` [CarouselView.|<containerId>_carouselView.]enableHD=always|never|limit[, *`nombre`*]`
 
 <table id="table_0BEA0B5FFDF64E5594B534B2A87A6D88"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> always|never|limit</span> </p> </td> 
-   <td colname="col2"> <p> Activez, limitez ou désactivez l’optimisation pour les appareils pour lesquels <span class="codeph"> devicePixelRatio</span> est supérieur à <span class="codeph"> 1</span>, c’est-à-dire les appareils avec un affichage haute densité comme iPhone4 et les appareils similaires. </p> <p>S’il est actif, le composant limite la taille de la demande d’image IS comme si l’appareil avait uniquement un rapport de pixels de <span class="codeph"> 1</span> et réduisait ainsi la bande passante. </p> <p>Voir l’exemple ci-dessous. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> toujours|jamais|limite</span> </p> </td> 
+   <td colname="col2"> <p> Activez, limitez ou désactivez l’optimisation pour les appareils sur lesquels <span class="codeph"> devicePixelRatio</span> est supérieur à <span class="codeph"> 1</span>, c’est-à-dire les appareils dotés d’un écran haute densité comme l’iPhone4 et les appareils similaires. </p> <p>S’il est actif, le composant limite la taille de la demande d’image IS comme si le périphérique n’avait qu’un rapport de pixels de <span class="codeph"> 1</span> , réduisant ainsi la bande passante. </p> <p>Voir l’exemple ci-dessous. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> number</span></span> </p> </td> 
-   <td colname="col2"> <p> Si vous utilisez le paramètre <span class="codeph"> limit</span> , le composant n’active la haute densité en pixels que jusqu’à la limite spécifiée. </p> <p>Voir l’exemple ci-dessous. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> nombre</span></span> </p> </td> 
+   <td colname="col2"> <p> Si vous utilisez le <span class="codeph"> paramètre de limite</span> , le composant permet une densité de pixels élevée uniquement jusqu’à la limite spécifiée. </p> <p>Voir l’exemple ci-dessous. </p> </td> 
   </tr> 
  </tbody> 
 </table>

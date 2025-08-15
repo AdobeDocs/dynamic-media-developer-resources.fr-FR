@@ -1,6 +1,6 @@
 ---
 title: navigation
-description: Commande URL de la visionneuse de vidéos.
+description: URL de la visionneuse vidéo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -14,17 +14,17 @@ ht-degree: 11%
 
 # navigation{#navigation}
 
-Commande URL de la visionneuse de vidéos.
+URL de la visionneuse vidéo.
 
-` navigation= *`file`*`
+` navigation= *`lime`*`
 
-La visionneuse prend en charge la navigation par chapitre vidéo au moyen de fichiers WebVTT hébergés. Les opérateurs de positionnement des repères ne sont pas pris en charge.
+La visionneuse prend en charge la navigation par chapitre vidéo au moyen de fichiers WebVTT hébergés. Les opérateurs de positionnement de repère ne sont pas pris en charge.
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fichier</span> </span> </p> </td> 
-   <td colname="col2"> <p> Spécifie une URL ou un chemin d’accès au contenu de navigation WebVTT. Le serveur d’images doit héberger le fichier WebVTT. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> lime</span> </span> </p> </td> 
+   <td colname="col2"> <p> Spécifie une URL ou un chemin d’accès au contenu de navigation WebVTT. Image Serving doit héberger le fichier WebVTT. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,6 +1,6 @@
 ---
 title: img
-description: Image (par défaut). Demande les données d’image standard.
+description: Image (par défaut). Demande des données d’image standard.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,10 +14,10 @@ ht-degree: 0%
 
 # img{#img}
 
-Image (par défaut). Demande les données d’image standard.
+Image (par défaut). Demande des données d’image standard.
 
 `req=img`
 
-Le format des données de réponse et le type MIME de réponse sont déterminés par `fmt=`. Le modificateur `req=img` est le type de requête par défaut et n’est pas nécessaire explicitement. La réponse HTTP peut être mise en cache avec le TTL basé sur `catalog::Expiration`.
+Le format des données de réponse et le type MIME de réponse sont déterminés par `fmt=`. Le `req=img` de modificateur est le type de requête par défaut et n&#39;est pas explicitement nécessaire. La réponse HTTP peut être mise en cache avec la TTL basée sur `catalog::Expiration`.
 
-D’autres commandes de requête sont appliquées comme documentées.
+D’autres commandes de requête sont appliquées comme indiqué dans la documentation.

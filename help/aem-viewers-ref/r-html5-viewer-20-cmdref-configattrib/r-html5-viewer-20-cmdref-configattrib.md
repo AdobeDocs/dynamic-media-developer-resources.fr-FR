@@ -1,5 +1,5 @@
 ---
-title: Référence de commande commune à toutes les visionneuses - Attributs de configuration
+title: Référence de commande commune à tous les visualiseurs – Attributs de configuration
 description: Attributs de configuration communs à toutes les visionneuses.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
@@ -12,6 +12,6 @@ ht-degree: 0%
 
 ---
 
-# Référence de commande commune à toutes les visionneuses - Attributs de configuration{#command-reference-common-to-all-viewers-configuration-attributes}
+# Référence de commande commune à tous les visualiseurs – Attributs de configuration{#command-reference-common-to-all-viewers-configuration-attributes}
 
 Attributs de configuration communs à toutes les visionneuses.

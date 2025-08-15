@@ -1,5 +1,5 @@
 ---
-description: Enregistrement de chaîne de recherche extrait d’un fichier de PDF.
+description: Enregistrement de chaîne de recherche extrait d’un fichier PDF.
 solution: Experience Manager
 title: SearchStrings
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # [!DNL SearchStrings]{#searchstrings}
 
-Enregistrement de chaîne de recherche extrait d’un fichier de PDF.
+Enregistrement de chaîne de recherche extrait d’un fichier PDF.
 
 Syntaxe
 
@@ -22,10 +22,10 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| searchString | `xsd:string` | Recherche de texte de chaîne. |
+| searchString | `xsd:string` | Texte de la chaîne de recherche. |
 | keywordsArray | `types:KeywordsArray` | Tableau de mots-clés dans la chaîne de recherche. |
 | état | `xsd:boolean` | True si la chaîne de recherche est valide et activée. |
-| x | `xsd:int` | Position de la chaîne de recherche sur l’axe X. |
+| x | `xsd:int` | Position de l’axe X de la chaîne de recherche. |
 | y | `xsd:int` | Position de l’axe Y de la chaîne de recherche. |
 | largeur | `xsd:int` | Largeur de la chaîne de recherche. |
 | hauteur | `xsd:int` | Hauteur de la chaîne de recherche. |

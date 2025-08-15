@@ -1,5 +1,5 @@
 ---
-description: Durée de vie par défaut du cache client. Fournit un intervalle d’expiration par défaut au cas où un enregistrement de catalogue particulier ne contiendrait pas de valeur d’expiration de catalogue valide.
+description: Délai d’expiration par défaut du cache client. Fournit un intervalle d’expiration par défaut au cas où un enregistrement de catalogue spécifique ne contient pas de valeur d’expiration de catalogue valide.
 solution: Experience Manager
 title: Expiration
 feature: Dynamic Media Classic,SDK/API
@@ -14,17 +14,17 @@ ht-degree: 4%
 
 # Expiration{#expiration}
 
-Durée de vie par défaut du cache client. Fournit un intervalle d’expiration par défaut au cas où un enregistrement de catalogue particulier ne contiendrait pas de valeur catalog::Expiration valide.
+Délai d’expiration par défaut du cache client. Fournit un intervalle d’expiration par défaut au cas où un enregistrement de catalogue spécifique ne contiendrait aucune valeur catalog::Expiration valide.
 
 ## Propriétés {#section-063be3b2f13a48a3a5ab8080718e9812}
 
-Nombre réel, 0 ou supérieur. Nombre d’heures avant expiration depuis la génération des données de réponse. Définissez cette variable sur 0 pour que l’image de réponse expire immédiatement, ce qui désactive la mise en cache du client. Définissez cette variable sur -1 pour marquer comme `never expire`.
+Nombre réel, supérieur ou égal à 0. Nombre d’heures avant expiration depuis la génération des données de réponse. Définissez la valeur sur 0 pour que l’image de réponse expire immédiatement, ce qui désactive efficacement la mise en cache du client. Définissez-le sur -1 pour marquer comme `never expire`.
 
 ## Par défaut {#section-f55308b195c04083996f6717c8537634}
 
-Hérité de `default::Expiration` si elle n’est pas définie ou si elle est vide.
+Hérité de `default::Expiration` si non défini ou si vide.
 
-La durée de vie (TTL) est la durée avant l’expiration du cache. La durée de vie par défaut est de 10 heures.
+La durée de vie (TTL) correspond à la durée avant l’expiration du cache. La durée de vie par défaut est de 10 heures.
 
 ## Voir aussi {#section-b2411d99ddb14115ad475d506efd8967}
 

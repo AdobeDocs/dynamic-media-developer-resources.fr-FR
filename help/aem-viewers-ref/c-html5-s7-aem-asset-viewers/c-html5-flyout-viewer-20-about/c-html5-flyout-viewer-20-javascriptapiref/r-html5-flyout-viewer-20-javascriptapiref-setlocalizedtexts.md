@@ -1,6 +1,6 @@
 ---
 title: setLocalizedTexts
-description: Référence de l’API JavaScript pour la visionneuse déroulante.
+description: JavaScript référence de l’API pour la visionneuse déroulante.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Flyout
 role: Developer,User
@@ -14,24 +14,24 @@ ht-degree: 2%
 
 # setLocalizedTexts{#setlocalizedtexts}
 
-Référence de l’API JavaScript pour la visionneuse déroulante.
+JavaScript référence de l’API pour la visionneuse déroulante.
 
-` setLocalizedTexts( *`localizationInfo`*)`
+` setLocalizedTexts( *`Informations de localisation`*)`
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> localizationInfo </span> </span> </p> </td> 
-   <td colname="col2"> <p> &lbrace; <span class="codeph"> Objet JSON </span> avec données de localisation. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27" format="dita" scope="local"> Localisation des éléments de l’interface utilisateur </a> pour plus d’informations. </p> <p>Pour plus d’informations sur le contenu de l’objet, consultez le <i>Guide de l’utilisateur du SDK de la visionneuse</i> et l’exemple. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> Informations de </span> localisation </span> </p> </td> 
+   <td colname="col2"> <p> <span class="codeph">{ Object </span>} Objet JSON avec données de localisation. </p> <p>Pour plus d’informations, voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-flyout-viewer-20-about/c-html5-flyout-viewer-20-localization.md#concept-6c8e58c611934e93ae3f211f46e15c27" format="dita" scope="local"> Localisation des éléments </a> de l’interface utilisateur. </p> <p>Voir le Guide<i> de l’utilisateur </i>du Kit de développement logiciel (SDK) de la visionneuse et l’exemple pour plus d’informations sur le contenu de l’objet. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Définit des valeurs SYMBOL de localisation pour un ou plusieurs paramètres régionaux. Ce paramètre doit être appelé avant `init()`.
+Définit les valeurs de SYMBOL de localisation pour un ou plusieurs paramètres régionaux. Ce paramètre doit être appelé avant `init()`.
 
 Voir aussi [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-javascriptapiref/r-html5-video-viewer-20-javascriptapiref-init.md#reference-3b570ba8b35045d6b30fb178c21a66c6).
 
-## Renvoie {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Retourne {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Aucune
 

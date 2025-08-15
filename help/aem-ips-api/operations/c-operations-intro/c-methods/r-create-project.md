@@ -33,18 +33,18 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gestionnaire de la société associée au nouveau projet. |
+| companyHandle | `xsd:string` | Oui | Identifiant de la société associée au nouveau projet. |
 | projectName | `xsd:string` | Oui | Nouveau nom du projet. |
 
 **Output (createProjectParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| projectHandle | `xsd:string` | Oui | Gestion du nouveau projet. |
+| projectHandle | `xsd:string` | Oui | La poignée du nouveau projet. |
 
 ## Exemples {#section-a0cd532b67e346d088fbec141231a0e5}
 
-Cet exemple de code crée un projet appelé `ApiTestProject` dans une société spécifiée par son nom d’utilisateur. La réponse renvoie la gestion au projet.
+Cet exemple de code crée un projet appelé `ApiTestProject` dans une société spécifiée par son descripteur. La réponse renvoie la poignée au projet.
 
 **Requête**
 

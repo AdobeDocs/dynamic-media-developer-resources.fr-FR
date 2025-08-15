@@ -1,5 +1,5 @@
 ---
-description: Nom de la macro. Les noms de macro peuvent être composés de n’importe quelle combinaison de caractères alpha, de chiffres et de caractères sûrs, à l’exception de $.
+description: Nom de la macro. Les noms de macro peuvent être constitués de n’importe quelle combinaison de caractères alphanumériques, de chiffres et sécurisés, à l’exclusion de $.
 solution: Experience Manager
 title: Nom
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 7%
 
 # Nom{#name}
 
-Nom de la macro. Les noms de macro peuvent être composés de n’importe quelle combinaison de caractères alpha, de chiffres et de caractères sûrs, à l’exception de $.
+Nom de la macro. Les noms de macro peuvent être constitués de n’importe quelle combinaison de caractères alphanumériques, de chiffres et sécurisés, à l’exclusion de $.
 
 ## Propriétés {#section-03641453b5b84a27a8eb0c0688f7b8fc}
 
-Chaîne de texte. Obligatoire. Chaque valeur macro::Name doit être unique dans le tableau.
+Chaîne de texte. Obligatoire. Chaque valeur macro::Name doit être unique dans la table.
 
 ## Par défaut {#section-1e42bd928f3a4b91b79b481ccbd284b8}
 

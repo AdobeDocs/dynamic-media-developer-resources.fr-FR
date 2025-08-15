@@ -16,15 +16,15 @@ ht-degree: 10%
 
 Commande URL de la visionneuse de vidéos interactives.
 
-` navigation= *`file`*`
+` navigation= *`fichier`*`
 
 La visionneuse prend en charge la navigation par chapitre vidéo au moyen de fichiers WebVTT hébergés. Les opérateurs de positionnement des repères ne sont pas pris en charge.
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fichier</span> </span> </p> </td> 
-   <td colname="col2"> <p> Spécifie une URL ou un chemin d’accès au contenu de navigation WebVTT. Le serveur d’images doit héberger le fichier WebVTT. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> fichier </span> </span> </p> </td> 
+   <td colname="col2"> <p> Indique une URL ou un chemin d’accès au contenu de navigation WebVTT. Le service d’images doit héberger le fichier WebVTT. </p> </td> 
   </tr> 
  </tbody> 
 </table>

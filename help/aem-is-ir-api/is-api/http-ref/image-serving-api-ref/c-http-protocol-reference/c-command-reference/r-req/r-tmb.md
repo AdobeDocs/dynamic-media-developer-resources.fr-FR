@@ -1,5 +1,5 @@
 ---
-description: Image miniature. Demande les données image formatées et dimensionnées à l’aide de critères de miniature de catalogue.
+description: Image miniature. Demande des données d’image formatées et dimensionnées selon les critères des miniatures du catalogue.
 solution: Experience Manager
 title: tmb
 feature: Dynamic Media Classic,SDK/API
@@ -14,12 +14,12 @@ ht-degree: 0%
 
 # tmb{#tmb}
 
-Image miniature. Demande les données image formatées et dimensionnées à l’aide de critères de miniature de catalogue.
+Image miniature. Demande des données d’image formatées et dimensionnées selon les critères des miniatures du catalogue.
 
 `req=tmb`
 
-Le format des données de réponse et le type MIME de réponse sont déterminés par `fmt=`. Prend en charge toutes les commandes à l’exception de `fit=`.
+Le format des données de réponse et le type MIME de réponse sont déterminés par `fmt=`. Prend en charge toutes les commandes sauf `fit=`.
 
-Voir [Mise à l’échelle des miniatures](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md#reference-0f71817f721d4913b34816758d69b07f).
+Voir Mise à [l’échelle](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md#reference-0f71817f721d4913b34816758d69b07f) des miniatures.
 
-La réponse HTTP peut être mise en cache avec le TTL sur la base de `catalog::Expiration`.
+La réponse HTTP peut être mise en cache avec la durée de vie (TTL) basée sur `catalog::Expiration`.

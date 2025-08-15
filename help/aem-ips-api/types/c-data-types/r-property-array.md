@@ -1,7 +1,7 @@
 ---
 description: Tableau de propriétés.
 solution: Experience Manager
-title: PropertyArray
+title: Tableau de propriétés
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 65a72938-dffe-4448-93f6-166dd0dfdb90

@@ -1,5 +1,5 @@
 ---
-description: Résolution d’impression. Résolution d’impression de l’image en taille réelle.
+description: Résolution de l’impression. Résolution d’impression de l’image en taille réelle.
 solution: Experience Manager
 title: PrintResolution
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # PrintResolution{#printresolution}
 
-Résolution d’impression. Résolution d’impression de l’image en taille réelle.
+Résolution de l’impression. Résolution d’impression de l’image en taille réelle.
 
 Cette valeur est incorporée dans l’en-tête de l’image de réponse, sauf si elle est remplacée par `printRes=`.
 
@@ -24,7 +24,7 @@ Nombre entier, supérieur à 0. Exprimé en points par pouce. Facultatif.
 
 ## Par défaut {#section-0cac992554ec4247ab05f70d9840a045}
 
-`attribute::PrintResolution` est utilisé si le champ est absent, si la valeur est 0 ou si le champ est vide.
+`attribute::PrintResolution` est utilisé si le champ n’est pas présent, si la valeur est 0 ou si le champ est vide.
 
 ## Voir aussi {#section-0593faefffe341c5ab8a4aa5da589a04}
 

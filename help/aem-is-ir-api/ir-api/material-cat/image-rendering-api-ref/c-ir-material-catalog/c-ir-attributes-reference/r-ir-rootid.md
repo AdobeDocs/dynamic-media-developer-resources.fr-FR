@@ -1,6 +1,6 @@
 ---
 title: RootId
-description: Identifiant du catalogue. L’élément de chemin d’accès HTTP à utiliser pour identifier ce catalogue dans la vignette, le matériau ou le spécificateur d’objet de profil ICC dans les requêtes HTTP.
+description: Identifiant du catalogue. Élément de chemin HTTP à utiliser pour identifier ce catalogue dans la vignette, le matériau ou le spécificateur d’objet de profil ICC dans les requêtes HTTP.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 3%
 
 # RootId{#rootid}
 
-Identifiant du catalogue. L’élément de chemin d’accès HTTP à utiliser pour identifier ce catalogue dans la vignette, le matériau ou le spécificateur d’objet de profil ICC dans les requêtes HTTP.
+Identifiant du catalogue. Élément de chemin HTTP à utiliser pour identifier ce catalogue dans la vignette, le matériau ou le spécificateur d’objet de profil ICC dans les requêtes HTTP.
 
 ## Propriétés {#section-c33266223d5b47029df756caa4e0df0c}
 
-Valeur de chaîne de texte. Peut inclure tous les caractères valides dans les chemins http.
+Valeur de chaîne de texte. Peut inclure tout caractère valide dans les chemins http.
 
 ## Par défaut {#section-e0ed902557684345850b86672b5dbe5b}
 
-Aucun. Chaque catalogue doit avoir une valeur `catalog::RootId` unique. default.ini comporte généralement un `catalog::RootId` vide.
+Aucune. Chaque catalogue doit avoir une valeur de `catalog::RootId` unique. default.ini a généralement un `catalog::RootId` vide.
 
 ## Voir aussi {#section-4670832574f54f9080bb485b047efd5b}
 

@@ -1,6 +1,6 @@
 ---
-title: Encodage HTTP de rendu d’image
-description: Les valeurs de commande doivent être codées au format http à l’aide de séquences d’échappement %xx, de sorte que les chaînes de valeur n’incluent pas les caractères réservés '=', '&' et '%'.
+title: Rendu d’image Encodage HTTP
+description: Les valeurs de commande doivent être codées en http à l’aide de séquences d’échappement %xx, de sorte que les chaînes de valeur n’incluent pas les caractères réservés '=', '&' et ' %'.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,13 +12,13 @@ ht-degree: 2%
 
 ---
 
-# Encodage HTTP de rendu d’image{#image-rendering-http-encoding}
+# Rendu d’image Encodage HTTP{#image-rendering-http-encoding}
 
-Les valeurs de commande doivent être codées au format http à l’aide de séquences d’échappement %xx, de sorte que les chaînes de valeur n’incluent pas les caractères réservés &#39;=&#39;, &#39;&amp;&#39; et &#39;%&#39;.
+Les valeurs de commande doivent être codées en http à l’aide de séquences d’échappement %xx, de sorte que les chaînes de valeur n’incluent pas les caractères réservés &#39;=&#39;, &#39;&amp;&#39; et &#39; %&#39;.
 
-Dans le cas contraire, les règles de codage HTTP standard s’appliquent. La spécification HTTP nécessite le codage de caractères non sûrs tels que &#39; (espace), &#39;&quot;&#39; (guillemet double), &#39;#&#39;, &#39;%&#39;, &#39;&lt;&#39; et &#39;>&#39;, ainsi que des caractères de contrôle, tels que `<return>` et `<tab>`.
+Dans le cas contraire, les règles de codage HTTP standard s’appliquent. La spécification HTTP exige le codage des caractères dangereux tels que &#39; &#39; (espace), &#39;&quot;&#39;(guillemet double), &#39;#&#39;, &#39; %&#39;, &#39;&#39;, ainsi &lt;&#39;, and=&quot;&quot; &#39;=&quot;&quot;>que des caractères de contrôle, tels que `<return>` et `<tab>`.&lt;/&#39;,>
 
-**Attention :** Les accolades { } utilisées comme délimiteurs d’imbrication de requête ne doivent pas être codées. Certains clients de messagerie codent malheureusement des accolades dans une requête HTTP incorporée. Si ce problème se produit, le rendu d’image permet l’utilisation de parenthèses ( ) au lieu d’accolades.
+**Attention :** les accolades { } utilisées comme délimiteurs d’imbrication de requête ne doivent pas être codées. Malheureusement, certains clients de messagerie encodent des accolades dans les requêtes HTTP intégrées. Si ce problème pose problème, Image Rendering autorise l’utilisation de parenthèses ( ) au lieu d’accolades.
 
 ## Exemple {#section-3edc5b8ee2354220a281b01722ad337a}
 

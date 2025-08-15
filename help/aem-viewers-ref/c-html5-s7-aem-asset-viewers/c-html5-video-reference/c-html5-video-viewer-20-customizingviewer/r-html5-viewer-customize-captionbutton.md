@@ -1,6 +1,6 @@
 ---
 title: Bouton Légende
-description: Ce bouton active et désactive l’affichage des sous-titres fermés. Elle n’est pas visible si le paramètre de légende n’est pas spécifié.
+description: Ce bouton active et désactive l’affichage des sous-titres. Elle n’est pas visible si le paramètre de légende n’est pas spécifié.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Bouton Légende{#caption-button}
 
-Ce bouton active et désactive l’affichage des sous-titres fermés. Elle n’est pas visible si le paramètre de légende n’est pas spécifié.
+Ce bouton active et désactive l’affichage des sous-titres. Elle n’est pas visible si le paramètre de légende n’est pas spécifié.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Vous pouvez dimensionner, habiller et positionner ce bouton, par rapport à la barre de contrôle qui le contient, à l’aide d’une feuille CSS.
+Vous pouvez dimensionner, habiller et positionner ce bouton, par rapport à la barre de contrôle qui le contient, à l’aide de CSS.
 
-L’aspect de ce bouton est contrôlé à l’aide du sélecteur de classe CSS suivant :
+L’aspect de ce bouton est contrôlé par le sélecteur de classe CSS suivant :
 
 ```
 .s7videoviewer .s7closedcaptionbutton
@@ -31,49 +31,49 @@ L’aspect de ce bouton est contrôlé à l’aide du sélecteur de classe CSS s
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
-   <td colname="col2"> <p> Position à partir de la bordure supérieure, y compris la marge intérieure. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Retour au début </span> </p> </td> 
+   <td colname="col2"> <p> Position à partir de la bordure supérieure, y compris le rembourrage. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> droit </span> </p> </td> 
-   <td colname="col2"> <p> Position à partir de la bordure droite, y compris la marge intérieure. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Droite </span> </p> </td> 
+   <td colname="col2"> <p> Position à partir de la bordure droite, y compris le rembourrage. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
-   <td colname="col2"> <p> Position depuis la bordure gauche, y compris la marge intérieure. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Gauche </span> </p> </td> 
+   <td colname="col2"> <p> Position à partir de la bordure gauche, remplissage compris. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure inférieure, y compris la marge intérieure. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> fond </span> </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure inférieure, remplissage compris. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Largeur </span> </p> </td> 
    <td colname="col2"> <p> Largeur du bouton plein écran. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> hauteur </span> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton plein écran. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan </span> </p> </td> 
    <td colname="col2"> <p> L’image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> position de l’arrière-plan </span> </p> </td> 
+   <td colname="col2"> <p> Position à l’intérieur du sprite de l’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites </a>CSS. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ce bouton prend en charge les sélecteurs d’attributs `state` et `selected`, qui peuvent être utilisés pour appliquer différents habillages à différents états de bouton. En particulier, `selected='true'` correspond à l’état lorsque les sous-titres sont visibles et `selected='false'` est utilisé lorsque les sous-titres sont masqués.
+>Ce bouton prend en charge à la fois les sélecteurs d’attributs `state` et `selected` , qui peuvent être utilisés pour appliquer différents habillages à différents états de bouton. En particulier, `selected='true'` correspond à l’état dans lequel les légendes sont visibles et `selected='false'` est utilisé lorsque les légendes sont masquées.
 
-L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) pour plus d’informations.
+L’info-bulle du bouton peut être localisée. Pour plus d’informations, voir [Localisation des éléments](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) de l’interface utilisateur.
 
 ## Exemple {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Pour configurer un bouton de sous-titrage codé de 28 x 28 pixels et positionné quatre pixels à partir du haut et 68 pixels à partir du bord droit de la barre de contrôle. Enfin, affiche une image différente pour chacun des quatre états de bouton différents lorsqu’il est sélectionné ou non.
+Pour définir un bouton de sous-titrage de 28 x 28 pixels et positionné à quatre pixels du haut et à 68 pixels du bord droit de la barre de contrôle. Enfin, affiche une image différente pour chacun des quatre états de bouton différents lorsqu’il est sélectionné ou non.
 
 ```
 .s7videoviewer .s7closedcaptionbutton { 

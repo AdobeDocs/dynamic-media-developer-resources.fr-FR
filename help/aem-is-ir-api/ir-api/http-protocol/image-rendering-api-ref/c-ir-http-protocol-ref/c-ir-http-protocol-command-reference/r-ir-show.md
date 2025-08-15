@@ -1,6 +1,6 @@
 ---
 title: montrer
-description: Afficher l’objet de chevauchement. Rend visible tous les objets de chevauchement précédemment masqués (y compris les objets de cadre de recouvrement de fenêtre) dans la sélection actuelle.
+description: Afficher l’objet de chevauchement. Rend visible tous les objets de chevauchement précédemment masqués (y compris les objets de cadre de couvre-fenêtres) dans la sélection en cours.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # montrer{#show}
 
-Afficher l’objet de chevauchement. Rend visible tous les objets de chevauchement précédemment masqués (y compris les objets de cadre de recouvrement de fenêtre) dans la sélection actuelle.
+Afficher l’objet de chevauchement. Rend visible tous les objets de chevauchement précédemment masqués (y compris les objets de cadre de couvre-fenêtres) dans la sélection en cours.
 
 `Show[= *`val`*]`
 
@@ -27,11 +27,11 @@ Afficher l’objet de chevauchement. Rend visible tous les objets de chevaucheme
 
 ## Propriétés {#section-36bbe5fbcfa74880b948e8ed6f7c6e7b}
 
-Ignoré si la sélection actuelle n’inclut aucun objet de chevauchement ou si aucun objet de chevauchement n’est masqué.
+Ignoré si la sélection en cours ne contient aucun objet de chevauchement ou si aucun objet de chevauchement n’est masqué.
 
 ## Par défaut {#section-04972797d24d4b9f93790a31dfaa4743}
 
-Aucun, pour aucune modification de la visibilité de l’objet.
+Aucune, pour aucun changement de visibilité d’objet.
 
 ## Voir aussi {#section-2a1a37a35dfb41758897164e14f0105f}
 

@@ -45,23 +45,23 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> CompanyHandle</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4">Gestion de la société à laquelle les types de jeux de propriétés sont associés. <p>Omit si vous souhaitez renvoyer des types de jeux de propriétés globaux. </p> </td> 
+   <td colname="col4">Poignée de l’entreprise à laquelle les types de jeux de propriétés sont associés. <p>Omet si vous souhaitez renvoyer des types de propriétés globaux. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Sortie (getPropertySetTypesReturn)**
+**Output (getPropertySetTypesReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| typeArray | `types:PropertySetTypeArray` | Oui | Tableau de types de jeux de propriétés associés à la société spécifiée ou aux types de jeux de propriétés globaux si aucune société n’a été spécifiée. |
+| Tableau de type | `types:PropertySetTypeArray` | Oui | Un tableau des types de jeux de propriétés associés à la société spécifiée ou les types de jeux de propriétés globaux si aucune société n’a été spécifiée. |
 
 ## Exemples {#section-280c406a90864409856aee44d4069a52}
 
-**Requête**
+**Demander**
 
 ```java
 <getPropertySetTypesParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

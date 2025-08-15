@@ -1,5 +1,5 @@
 ---
-description: Tableau de journaux de tâches.
+description: Tableau de logs de traitement.
 solution: Experience Manager
 title: JobLogArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # [!DNL JobLogArray]{#joblogarray}
 
-Tableau de journaux de tâches.
+Tableau de logs de traitement.
 
 Syntaxe
 
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| éléments | `types:JobLog` | Tableau des journaux de tâches. |
+| éléments | `types:JobLog` | Tableau des logs de traitement. |

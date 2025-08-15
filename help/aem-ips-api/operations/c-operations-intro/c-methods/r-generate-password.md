@@ -1,7 +1,7 @@
 ---
 description: Génère un nouveau mot de passe.
 solution: Experience Manager
-title: generatePassword
+title: Générer le mot de passe
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 80e7642f-4aec-4ff0-a090-e59b7a065c39
@@ -12,7 +12,7 @@ ht-degree: 16%
 
 ---
 
-# generatePassword{#generatepassword}
+# Générer le mot de passe{#generatepassword}
 
 Génère un nouveau mot de passe.
 
@@ -36,7 +36,7 @@ Syntaxe
 
 Aucune
 
-**Sortie (generatePasswordParam)**
+**Output (generatePasswordParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -44,9 +44,9 @@ Aucune
 
 ## Exemples {#section-f580fefdccec46fe95359e3aef0ed17f}
 
-Cet exemple de code génère un mot de passe. C’est inhabituel, car la requête est simplement un paramètre sans éléments ni valeurs inclus. IPS renvoie un mot de passe fort.
+Cet exemple de code génère un mot de passe. Il est inhabituel car la demande est simplement un paramètre sans éléments ou valeurs incluses. IPS renvoie un mot de passe fort.
 
-**Requête**
+**Demander**
 
 ```java
 <generatePasswordParam xmlns="http://www.scene7.com/IpsApi/xsd">

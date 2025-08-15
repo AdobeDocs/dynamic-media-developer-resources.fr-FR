@@ -1,5 +1,5 @@
 ---
-description: Jeu d’utilisateurs nommé utilisé pour attribuer des autorisations.
+description: Ensemble nommé d’utilisateurs et utilisatrices utilisé pour attribuer des autorisations.
 solution: Experience Manager
 title: Groupe
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # [!DNL Group]{#group}
 
-Jeu d’utilisateurs nommé utilisé pour attribuer des autorisations.
+Ensemble nommé d’utilisateurs et utilisatrices utilisé pour attribuer des autorisations.
 
 Syntaxe
 
@@ -22,7 +22,7 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| groupHandle | `xsd:string` | Poignée de groupe. |
-| companyHandle | `xsd:string` | Poignée de la société. |
+| groupHandle | `xsd:string` | Identifiant du groupe. |
+| companyHandle | `xsd:string` | Identifiant de la société. |
 | [!DNL name] | `xsd:string` | Nom du groupe. |
-| [!DNL is SystemDefined] | `xsd:string` | Si le groupe est défini par le système. |
+| [!DNL is SystemDefined] | `xsd:string` | Indique si le groupe est défini par le système. |

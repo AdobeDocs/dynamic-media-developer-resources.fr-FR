@@ -1,7 +1,7 @@
 ---
-description: PermissionSet
+description: PermissonSet
 solution: Experience Manager
-title: PermissionSet
+title: PermissonSet
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 39146b70-ecd8-42ce-a171-0fb7ac7dd025
@@ -20,5 +20,5 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| PermissionSetHandle | `xsd:string` | Gérez un jeu d’autorisations. |
-| permissionArray | `types:PermissionArray` | Tableau d’autorisations. |
+| PermissionSetHandle | `xsd:string` | Gérez en un jeu d’autorisations. |
+| Tableau d’autorisations | `types:PermissionArray` | Ensemble d’autorisations. |

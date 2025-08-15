@@ -24,7 +24,7 @@ Chaîne de texte. Doit être l’un des jetons de format pris en charge par la c
 
 ## Par défaut {#section-256b0f8afdd846eaac68ec2019258708}
 
-Hérité de `default::Format` si elle n’est pas définie ou si elle est vide.
+Hérité de `default::Format` si non défini ou si vide.
 
 ## Voir aussi {#section-d6dc53ae28ab4133a9f8f9ec0bc159a6}
 

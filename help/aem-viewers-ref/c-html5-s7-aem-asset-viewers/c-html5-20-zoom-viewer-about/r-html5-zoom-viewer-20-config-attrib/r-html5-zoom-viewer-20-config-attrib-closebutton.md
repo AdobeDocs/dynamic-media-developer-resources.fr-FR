@@ -1,5 +1,5 @@
 ---
-title: close
+title: Bouton Fermer
 description: Bouton Fermer
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
@@ -12,7 +12,7 @@ ht-degree: 11%
 
 ---
 
-# close{#closebutton}
+# Bouton Fermer{#closebutton}
 
 `closebutton=0|1`
 
@@ -20,7 +20,7 @@ ht-degree: 11%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p> Définissez cette variable sur <span class="codeph"> 1</span> pour activer l’affichage du bouton Fermer ou sur <span class="codeph"> 0</span> pour masquer le bouton Fermer. </p> </td> 
+   <td colname="col2"> <p> Définissez ce paramètre sur <span class="codeph"> 1</span> pour activer l’affichage du bouton Fermer ou <span class="codeph"> sur 0</span> pour masquer le bouton Fermer. </p> </td> 
   </tr> 
  </tbody> 
 </table>

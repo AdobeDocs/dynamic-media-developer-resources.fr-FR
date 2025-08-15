@@ -1,5 +1,5 @@
 ---
-description: Erreur générée lorsqu’une mise à jour de valeur de balise échoue.
+description: Erreur générée lorsqu’une mise à jour de la valeur de balise échoue.
 solution: Experience Manager
 title: TagValueUpdateFault
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # [!DNL TagValueUpdateFault]{#tagvalueupdatefault}
 
-Erreur générée lorsqu’une mise à jour de valeur de balise échoue.
+Erreur générée lorsqu’une mise à jour de la valeur de balise échoue.
 
 Syntaxe
 

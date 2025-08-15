@@ -1,5 +1,5 @@
 ---
-description: Les composants de diffusion d’images sont gérés par le responsable du serveur, qui est un démon Linux ou un service Windows (S7Supervisor.exe, répertorié comme "Service d’images Dynamic Media" dans le Panneau de Contrôle Services).
+description: Les composants de diffusion d’images sont gérés par le Superviseur du serveur, qui est un daemon Linux ou un service Windows (S7Supervisor.exe, répertorié comme « Diffusion d’images Dynamic Media » dans le Panneau de Contrôle Services).
 solution: Experience Manager
 title: Superviseur du serveur
 feature: Dynamic Media Classic,SDK/API
@@ -14,14 +14,14 @@ ht-degree: 0%
 
 # Superviseur du serveur{#server-supervisor}
 
-Les composants de diffusion d’images sont gérés par le responsable du serveur, qui est un démon Linux ou un service Windows (S7Supervisor.exe, répertorié comme &quot;Service d’images Dynamic Media&quot; dans le Panneau de Contrôle Services).
+Les composants de diffusion d’images sont gérés par le Superviseur du serveur, qui est un daemon Linux ou un service Windows (S7Supervisor.exe, répertorié comme « Diffusion d’images Dynamic Media » dans le Panneau de Contrôle Services).
 
-Outre le démarrage et l’arrêt d’autres composants du serveur d’images, le responsable du serveur est chargé d’assurer l’intégrité de ces autres composants. Si un composant se bloque, il est automatiquement redémarré afin de minimiser toute interruption de service.
+Outre le démarrage et l’arrêt d’autres composants de diffusion d’images, le superviseur du serveur est chargé de s’assurer de l’intégrité de ces autres composants. En cas de panne d’un composant, il est automatiquement redémarré afin de minimiser les interruptions de service.
 
 ## Démarrage et arrêt {#section-061d28d74e034a30adc39ea3e2031cd0}
 
-Le responsable du serveur est démarré, arrêté et redémarré à l’aide du script de l’utilitaire de diffusion d’images. Pour plus d’informations, consultez la [documentation Utilities](../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f) .
+Le Superviseur de serveur est démarré, arrêté et redémarré à l’aide du script de l’utilitaire de diffusion d’images. Pour plus d’informations, consultez la [documentation Utilities](../../../is-api/is-utils/utilities/c-location-of-utilities.md#concept-bae61e53344449af978502cac6be8b5f).
 
-Le démarrage et l’arrêt du superviseur du serveur démarre et arrête automatiquement tous les autres composants du serveur d’images.
+Le démarrage et l’arrêt du Superviseur de serveur démarrent et arrêtent automatiquement tous les autres composants de la Diffusion d’images.
 
 [SupervisorRegistry.xml](../../../is-api/image-serving-api-ref/c-configuration-and-administration/r-server-configuration-files/r-supervisorregistry.md#reference-b55f37a7a7a044d19c1722f5130906c6)

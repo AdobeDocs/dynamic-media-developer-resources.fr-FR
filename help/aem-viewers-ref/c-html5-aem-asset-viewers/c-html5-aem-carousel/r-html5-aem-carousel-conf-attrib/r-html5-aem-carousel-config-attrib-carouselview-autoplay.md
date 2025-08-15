@@ -1,6 +1,6 @@
 ---
 title: CarouselView.autoplay
-description: Attribut de configuration de la visionneuse de carrousel.
+description: Attribut de configuration pour la visionneuse de carrousel.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 4%
 
 # CarouselView.autoplay{#carouselview-autoplay}
 
-Attribut de configuration de la visionneuse de carrousel.
+Attribut de configuration pour la visionneuse de carrousel.
 
 `[CarouselView.|<containerId>_carouselView.]autoplay=[0|1][,duration][,direction]`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">[0|1][,duration][,direction]</span> </p> </td> 
-   <td colname="col2"> <p> Spécifie la durée d’activation/de désactivation, la durée d’affichage de chaque bannière dans le carrousel et la direction de la boucle automatique. </p> <p>Définissez cette variable sur <span class="codeph"> 0</span> pour désactiver la boucle automatique. </p> <p>Définissez <span class="codeph"> 1</span> pour activer la boucle automatique avec la durée de transition en secondes contrôlée par <span class="codeph"> duration</span>. </p> <p>La direction de la boucle automatique est contrôlée avec <span class="codeph"> direction</span>. La <span class="codeph"> direction</span> a une plage comprise entre <span class="codeph"> 1</span> de droite à gauche et <span class="codeph"> 0</span> de gauche à droite. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">[0|1][,durée][,direction]</span> </p> </td> 
+   <td colname="col2"> <p> Indique activé/désactivé, la durée d’affichage de chaque bannière dans le carrousel et le sens de la boucle automatique. </p> <p>Définissez la valeur <span class="codeph"> 0</span> pour désactiver la boucle automatique. </p> <p>Réglez <span class="codeph"> 1</span> sur une boucle automatique avec une durée de transition en secondes contrôlée par <span class="codeph"> la durée</span>. </p> <p>La direction de la boucle automatique est contrôlée par <span class="codeph"> la direction</span>. La <span class="codeph"> direction</span> a une plage comprise entre <span class="codeph"> 1</span> de droite à gauche et <span class="codeph"> 0</span> de gauche à droite. </p> </td> 
   </tr> 
  </tbody> 
 </table>

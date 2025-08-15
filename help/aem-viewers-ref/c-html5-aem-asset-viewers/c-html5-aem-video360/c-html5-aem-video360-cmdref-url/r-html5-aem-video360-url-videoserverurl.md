@@ -1,6 +1,6 @@
 ---
 title: videoServerUrl
-description: Commande URL de la visionneuse Video360.
+description: Commande d’URL de la visionneuse Video360.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # videoServerUrl{#videoserverurl}
 
-Commande URL de la visionneuse Video360.
+Commande d’URL de la visionneuse Video360.
 
 ` videoServerUrl= *`videoRootPath`*`
 
@@ -22,14 +22,14 @@ Commande URL de la visionneuse Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> Chemin d’accès racine du serveur vidéo. Si aucun domaine n’est spécifié, le domaine à partir duquel la page est diffusée est appliqué à la place. La résolution standard du chemin d’accès URI s’applique. </p> </td> 
+   <td colname="col2"> <p> Chemin d’accès racine du serveur vidéo. Si aucun domaine n’est spécifié, le domaine à partir duquel la page est diffusée est appliqué à la place. La résolution de chemin d’URI standard s’applique. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Propriétés {#section-f42369774e2740dcb399626a0e4e930e}
 
-Facultatif. Inutile pour l’utilisation standard de SaaS.
+Facultatif. Non nécessaire pour une utilisation SaaS standard.
 
 ## Par défaut {#section-d016470e92a74f98a18c4ab3489410a5}
 

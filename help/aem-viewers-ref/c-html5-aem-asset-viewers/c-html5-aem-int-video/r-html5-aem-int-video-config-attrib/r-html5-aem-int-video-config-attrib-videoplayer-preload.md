@@ -1,6 +1,6 @@
 ---
 title: VideoPlayer.preload
-description: Indique si la visionneuse commence à charger le contenu vidéo avant le démarrage de la lecture.
+description: Indique si la visionneuse commence à charger le contenu vidéo avant le début de la lecture.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # VideoPlayer.preload{#videoplayer-preload}
 
-Indique si la visionneuse commence à charger le contenu vidéo avant le démarrage de la lecture.
+Indique si la visionneuse commence à charger le contenu vidéo avant le début de la lecture.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]preload=0|1`
 
@@ -22,7 +22,7 @@ Indique si la visionneuse commence à charger le contenu vidéo avant le démarr
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Si celle-ci est définie sur <span class="codeph"> 1 </span>, le téléchargement de la vidéo commence juste après la définition de la ressource ; dans le cas contraire, le préchargement ne démarre qu’après le lancement de la lecture par l’utilisateur final ou un appel API. </p> <p>Si elle est définie sur <span class="codeph"> 0 </span>, certaines fonctionnalités peuvent ne pas fonctionner tant que la lecture n’a pas commencé. En particulier, l’opération de recherche ne met pas à jour la image vidéo. Si l’image d’affiche est désactivée, la visionneuse s’affiche comme une zone vide au lieu de la première image vidéo. </p> <p>La désactivation du préchargement vidéo peut être ignorée dans certaines versions des navigateurs Internet Explorer 11 et Edge. </p> </td> 
+   <td colname="col2"> <p> Si la valeur est définie sur <span class="codeph"> 1, </span> la vidéo commence à être téléchargée juste après la définition de la ressource. Dans le cas contraire, le préchargement ne commence qu’une fois la lecture lancée par l’utilisateur final ou un appel API. </p> <p>Si elle est définie sur <span class="codeph"> 0 </span> certaines fonctionnalités peuvent ne pas fonctionner jusqu’au début de la lecture ; en particulier, l’opération de recherche ne met pas à jour l’image vidéo. Si l’image d’affiche est désactivée, la visionneuse s’affiche comme une zone vide au lieu de la première image vidéo. </p> <p>La désactivation du préchargement vidéo peut être ignorée sur certaines versions des navigateurs Internet Explorer 11 et Edge. </p> </td> 
   </tr> 
  </tbody> 
 </table>

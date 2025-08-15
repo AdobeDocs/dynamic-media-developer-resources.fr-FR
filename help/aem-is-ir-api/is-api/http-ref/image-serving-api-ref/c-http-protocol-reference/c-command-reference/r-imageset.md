@@ -1,6 +1,6 @@
 ---
 title: imageSet
-description: Visionneuse d’images. Spécifie une valeur de visionneuse d’images à utiliser lors de la génération de la réponse req=set.
+description: Visionneuse d’images. Indique une valeur de visionneuse d’images à utiliser lors de la génération de la réponse req=set.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,22 +14,22 @@ ht-degree: 4%
 
 # imageSet{#imageset}
 
-Visionneuse d’images. Spécifie une valeur de visionneuse d’images à utiliser lors de la génération de la réponse req=set.
+Visionneuse d’images. Indique une valeur de visionneuse d’images à utiliser lors de la génération de la réponse req=set.
 
 `imageSet=val`
 
 <table id="simpletable_F697691D166C407D82233664814F4663"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> val</span></span> </p> </td> 
-  <td class="stentry"> <p>Chaîne de la visionneuse d’images. </p></td> 
+  <td class="stentry"> <p>Chaîne de visionneuse d’images. </p></td> 
  </tr> 
 </table>
 
-Pour échapper la valeur et garantir que les modificateurs inclus ne sont pas interprétés comme faisant partie de la chaîne de requête d’URL, la valeur entière doit être mise entre accolades. Si l’enregistrement de catalogue est spécifié dans le chemin d’accès net, cette valeur de modificateur remplace `catalog::ImageSet` de l’enregistrement principal. Pour une description de la syntaxe d&#39;une visionneuse d&#39;images valide, consultez la documentation `catalog::ImageSet`.
+Pour échapper la valeur et s’assurer que les modificateurs inclus ne sont pas interprétés comme faisant partie de la chaîne de requête d’URL, la valeur entière doit être placée entre accolades. Si l&#39;enregistrement du catalogue est spécifié dans le chemin d&#39;accès suivant, cette valeur de modificateur remplace `catalog::ImageSet` de l&#39;enregistrement principal. Pour obtenir une description de la syntaxe valide d’une visionneuse d’images, consultez la documentation `catalog::ImageSet`.
 
 ## Propriétés {#section-66e7bb7bf4664cbcac6f7ebb2f0d3a4f}
 
-Attribut de requête. Facultatif. Remplace `catalog::ImageSet` de l’enregistrement principal.
+Attribut de requête. Facultatif. Il remplace le `catalog::ImageSet` de l’enregistrement principal.
 
 ## Par défaut {#section-e8622ff40408450fb79d028f8d37fa6b}
 
@@ -43,4 +43,4 @@ Spécifiez la visionneuse d’images à utiliser avec la requête `req=set` :
 
 ## Voir aussi {#section-7e0320b2e09d475897082711a8f023a9}
 
-[catalog::ImageSet](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md) , [req=set](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76), [Demandes de visionneuse de médias](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md#reference-f2f2aa11208b47609fe17848d3b86a0b)
+[catalog::ImageSet](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-imageset-cat.md) , [req=set](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76), [Media Set Requests](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-media-set-requests.md#reference-f2f2aa11208b47609fe17848d3b86a0b)

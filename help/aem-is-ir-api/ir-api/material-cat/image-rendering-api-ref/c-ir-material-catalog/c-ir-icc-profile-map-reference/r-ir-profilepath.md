@@ -1,5 +1,5 @@
 ---
-description: Chemin du fichier de profil. Chemin et nom du fichier de profil colorimétrique ICC, y compris le suffixe du fichier.
+description: Chemin du fichier de profil. Chemin d’accès et nom du fichier de profil de couleurs ICC, suffixe compris.
 solution: Experience Manager
 title: ProfilePath
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 7%
 
 # ProfilePath{#profilepath}
 
-Chemin du fichier de profil. Chemin et nom du fichier de profil colorimétrique ICC, y compris le suffixe du fichier.
+Chemin du fichier de profil. Chemin d’accès et nom du fichier de profil de couleurs ICC, suffixe compris.
 
 ## Propriétés {#section-5b75d459083f49f3bbd89ce8458559f7}
 
-Chaîne de texte. Obligatoire. Doit être un chemin d’accès au fichier du serveur d’images valide, absolu ou relatif à `attribute::RootPath`.
+Chaîne de texte. Obligatoire. Doit être un chemin d’accès au fichier Image Server valide, absolu ou relatif à `attribute::RootPath`.
 
 ## Par défaut {#section-67b79d62b3e24c62aff6844cc5e04251}
 

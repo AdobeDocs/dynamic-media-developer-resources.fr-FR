@@ -1,6 +1,6 @@
 ---
 title: preloadimage
-description: Commande URL de la visionneuse d’images vidéo.
+description: Commande URL pour la visionneuse d’images vidéo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # preloadimage{#preloadimage}
 
-Commande URL de la visionneuse d’images vidéo.
+Commande URL pour la visionneuse d’images vidéo.
 
 `preloadImage=0|1`
 
@@ -22,7 +22,7 @@ Commande URL de la visionneuse d’images vidéo.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Activez (1) ou désactivez (0) la fonction de préchargement d’image. </p> <p>Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-preload-image.md#concept-d9528ead78ca4d1dae7904bf2520b1e3" format="dita" scope="local"> Preload image</a>. </p> </td> 
+   <td colname="col2"> <p> Activez (1) ou désactivez (0) la fonction de préchargement d’image. </p> <p>Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-interactive-images/c-html5-aem-interactive-image-preload-image.md#concept-d9528ead78ca4d1dae7904bf2520b1e3" format="dita" scope="local"> Précharger l’image</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

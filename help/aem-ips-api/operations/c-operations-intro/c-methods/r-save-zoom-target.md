@@ -1,7 +1,7 @@
 ---
 description: Créez ou modifiez une cible de zoom.
 solution: Experience Manager
-title: saveZoomTarget
+title: Enregistrer la cible de zoom
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 595fd5c8-4e98-4c1a-b396-c8e170aaf454
@@ -12,7 +12,7 @@ ht-degree: 19%
 
 ---
 
-# saveZoomTarget{#savezoomtarget}
+# Enregistrer la cible de zoom{#savezoomtarget}
 
 Créez ou modifiez une cible de zoom.
 
@@ -33,27 +33,27 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Poignée à l’entreprise avec la cible de zoom que vous souhaitez enregistrer. |
-| assetHandle | `xsd:string` | Oui | Poignée de la cible de zoom. |
-| zoomTargetHandle | `xsd:string` | Non | Modifie ou crée une cible de zoom. |
+| CompanyHandle | `xsd:string` | Oui | Poignée de l’entreprise avec la cible de zoom que vous souhaitez enregistrer. |
+| AssetHandle | `xsd:string` | Oui | Poignée de la cible de zoom. |
+| Poignée de cibles de zoom | `xsd:string` | Non | Modifie ou crée une cible de zoom. |
 | nom | `xsd:string` | Oui | Nom de la cible de zoom. |
 | xPosition | `xsd:int` | Oui | Emplacement du pixel gauche. |
 | yPosition | `xsd:int` | Oui | Emplacement du pixel supérieur. |
 | largeur | `xsd:int` | Oui | Largeur de la cible de zoom. |
-| hauteur | `xsd:int` | Oui | Hauteur de la cible de zoom. |
-| userData | `xsd:string` | Oui | Pour obtenir des informations spécifiques au client. Peut contenir n’importe quel type de données. |
+| hauteur | `xsd:int` | Oui | Hauteur de cible de zoom. |
+| Données utilisateur | `xsd:string` | Oui | Pour des informations spécifiques au client. Peut contenir n’importe quel type de données. |
 
-**Sortie (saveZoomTargetReturn)**
+**Output (saveZoomTargetReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| zoomTargetHandle | `xsd:string` | Oui | Gérer la cible de zoom nouvellement créée. |
+| Poignée de cibles de zoom | `xsd:string` | Oui | Poignée de la cible de zoom nouvellement créée. |
 
 ## Exemples {#section-509c472c316549cdb228d7e1cfa8400a}
 
-Cet exemple de code enregistre une cible de zoom. La réponse renvoie la poignée de la cible de zoom.
+Cet exemple de code enregistre une cible de zoom. La réponse renvoie la poignée de cible de zoom.
 
-**Requête**
+**Demander**
 
 ```java
 <saveZoomTargetParam xmlns="http://www.scene7.com/IpsApi/xsd">

@@ -1,6 +1,6 @@
 ---
 title: InteractiveSwatches.enabledragging
-description: Attribut de configuration de la visionneuse de vidéos interactives.
+description: Attribut de configuration pour la visionneuse de vidéos interactives.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # InteractiveSwatches.enabledragging{#interactiveswatches-enabledragging}
 
-Attribut de configuration de la visionneuse de vidéos interactives.
+Attribut de configuration pour la visionneuse de vidéos interactives.
 
 ` [InteractiveSwatches.|<containerId>_interactiveSwatches.]enabledragging=0|1[, *`overdragvalue`*]`
 
@@ -22,11 +22,11 @@ Attribut de configuration de la visionneuse de vidéos interactives.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Permet ou désactive la possibilité pour un utilisateur de faire défiler les échantillons avec la souris ou à l’aide de mouvements tactiles. </p> </td> 
+   <td colname="col2"> <p> Active ou désactive la possibilité, pour un utilisateur, de faire défiler les échantillons à l’aide de la souris ou d’un toucher. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> overdragvalue </span> </span> </p> </td> 
-   <td colname="col2"> <p> Se trouve dans la plage <span class="codeph"> 0-1 </span> et il s’agit d’une valeur de pourcentage pour le mouvement dans la mauvaise direction de la vitesse réelle. </p> <p>S’il est défini sur <span class="codeph"> 1 </span>, il se déplace avec la souris. </p> <p>Si elle est définie sur <span class="codeph"> 0 </span>, elle ne vous permet pas de vous diriger dans la mauvaise direction. </p> </td> 
+   <td colname="col2"> <p> Se trouve dans la plage de <span class="codeph"> 0-1 </span> et il s’agit d’une valeur de pourcentage pour le mouvement dans la mauvaise direction de la vitesse réelle. </p> <p>S’il est défini sur <span class="codeph"> 1 </span>, il se déplace avec la souris. </p> <p>Si cette valeur est définie sur <span class="codeph"> 0 </span>, vous ne pouvez pas vous déplacer dans la mauvaise direction. </p> </td> 
   </tr> 
  </tbody> 
 </table>

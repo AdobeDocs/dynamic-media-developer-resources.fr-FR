@@ -16,12 +16,12 @@ ht-degree: 5%
 
 Zone d’exclusion de flux de texte. Spécifie une ou plusieurs régions à exclure du flux de texte.
 
-`textFlowXPath= *`pathDefinition`*`
+`textFlowXPath= *`Définition du chemin`*`
 
 <table id="simpletable_7E0EA48AEBB5426CBE948FCA18882C66"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> pathDefinition</span> </p> </td> 
-  <td class="stentry"> <p>Données de chemin d’accès. </p></td> 
+  <td class="stentry"> <p><span class="varname"> Définition du chemin</span> </p> </td> 
+  <td class="stentry"> <p>Données de chemin. </p></td> 
  </tr> 
 </table>
 
@@ -29,7 +29,7 @@ Voir [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-pro
 
 ## Propriétés {#section-cd1ebb151d4a405fbfc508d46522d686}
 
-Attribut de calque de texte ( `textPs=` uniquement). Ignoré par d’autres calques ou lorsqu’spécifié sans `textFlowPath=`. S’applique à `layer=0` s’il est spécifié pour `layer=comp`.
+Attribut de calque de texte ( `textPs=` uniquement). Ignoré par d’autres calques ou lorsqu’il est spécifié sans `textFlowPath=`. S’applique à `layer=0` si spécifié pour `layer=comp`.
 
 ## Par défaut {#section-9405cda904684d829ed12a9e40a4dc46}
 

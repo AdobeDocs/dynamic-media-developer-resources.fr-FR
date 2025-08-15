@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td> <p> Lorsqu’il est défini sur <span class="codeph"> 1</span>, le composant remplit le panneau déroulant avec des éléments pour toutes les pages, même pour celles pour lesquelles aucun libellé n’est défini. </p> <p>Lorsqu’elle est définie sur <span class="codeph"> 0</span>, seuls les éléments avec des libellés explicites s’affichent dans le panneau déroulant. </p> </td> 
+   <td> <p> Lorsqu’il est défini sur <span class="codeph"> 1</span>, le composant remplit le panneau déroulant avec des éléments pour toutes les pages, même pour celles pour lesquelles aucune étiquette n’est définie. </p> <p>Lorsque la valeur est définie sur <span class="codeph"> 0</span> , seuls les éléments dotés d’étiquettes explicites s’affichent dans le menu déroulant. </p> </td> 
   </tr> 
  </tbody> 
 </table>

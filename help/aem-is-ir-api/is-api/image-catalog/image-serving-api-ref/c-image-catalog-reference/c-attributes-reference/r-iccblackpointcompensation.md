@@ -1,5 +1,5 @@
 ---
-description: Compensation du point noir. Indique si la compensation du point noir doit être appliquée aux conversions de couleurs lorsqu’aucune sélection explicite n’est effectuée avec icc=.
+description: Compensation du point de noir. Indique si la compensation du point noir doit être appliquée aux conversions de couleurs lorsqu’aucune sélection explicite n’est effectuée avec icc=.
 solution: Experience Manager
 title: IccBlackPointCompensation
 feature: Dynamic Media Classic,SDK/API
@@ -14,15 +14,15 @@ ht-degree: 4%
 
 # IccBlackPointCompensation{#iccblackpointcompensation}
 
-Compensation du point noir. Indique si la compensation du point noir doit être appliquée aux conversions de couleurs lorsqu’aucune sélection explicite n’est effectuée avec icc=.
+Compensation du point de noir. Indique si la compensation du point noir doit être appliquée aux conversions de couleurs lorsqu’aucune sélection explicite n’est effectuée avec icc=.
 
 ## Propriétés {#section-ea27b8089b89468bbc38e9e7154ea413}
 
-Indicateur. Définissez sur 0 pour désactiver ou sur 1 pour activer la compensation du point noir.
+Drapeau. Définissez cette valeur sur 0 pour désactiver ou sur 1 pour activer la compensation du point de noir.
 
 ## Par défaut {#section-0d79b203be4c434f927b7c03c7a0062d}
 
-Hérité de `default::IccBlackPointCompensation` si elle n’est pas définie ou si elle est vide.
+Hérité de `default::IccBlackPointCompensation` si non défini ou si vide.
 
 ## Voir aussi {#section-c6ae25de4b5b45dcb068340acfee91be}
 

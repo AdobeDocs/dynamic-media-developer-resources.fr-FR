@@ -1,5 +1,5 @@
 ---
-description: Définition des macros. Un fragment de protocole Render Serving constitué d’une ou plusieurs commandes complètes, séparées par des caractères '&'.
+description: Définition d'une macro. Un fragment de protocole de service de rendu consistant en une ou plusieurs commandes complètes, séparées par des caractères «& ».
 solution: Experience Manager
 title: Définition
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 8%
 
 # Définition{#definition}
 
-Définition des macros. Un fragment de protocole Render Serving constitué d’une ou plusieurs commandes complètes, séparées par des caractères &#39;&amp;&#39;.
+Définition d&#39;une macro. Un fragment de protocole de service de rendu consistant en une ou plusieurs commandes complètes, séparées par des caractères «&amp; ».
 
-Les définitions de macro peuvent ne pas faire référence à d’autres macros. Les macros peuvent définir et utiliser des variables personnalisées.
+Les définitions de macro ne peuvent pas faire référence à d&#39;autres macros. Les macros peuvent définir et utiliser des variables personnalisées.
 
 ## Propriétés {#section-2584a79bd2a04ddeaa2c04fdac4835ae}
 

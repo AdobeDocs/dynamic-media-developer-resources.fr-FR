@@ -25,4 +25,4 @@ Syntaxe
 | [!DNL process] | `xsd:string` | Choix des processus Illustrator. |
 | [!DNL resolution] | `xsd:string` | Résolution du fichier. |
 | colorSpace | `xsd:string` | Espace colorimétrique cible. |
-| [!DNL alpha] | `xsd:boolean` | Indique s’il faut pixelliser le fichier dans une image. Si tel est le cas, créez un arrière-plan transparent si le fichier d’origine est défini de cette manière pour créer des logos superposés. |
+| [!DNL alpha] | `xsd:boolean` | Pixellisation du fichier en image Si tel est le cas, créez un arrière-plan transparent si le fichier d’origine est défini de cette manière pour créer des logos de recouvrement. |

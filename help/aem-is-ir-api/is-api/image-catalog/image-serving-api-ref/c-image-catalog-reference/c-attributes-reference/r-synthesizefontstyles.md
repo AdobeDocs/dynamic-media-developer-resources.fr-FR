@@ -1,6 +1,6 @@
 ---
-title: SynthizeFontStyles
-description: Activez les variations de police synthétisées. Contrôle si le serveur doit générer une réponse d’erreur ou synthétiser un style de police gras, italique ou gras/italique si un style de ce type est demandé, mais qu’il est introuvable dans la mise en correspondance de polices.
+title: SynthesizeFontStyles
+description: Activez les variations de polices de synthèse. Contrôle si le serveur doit générer une réponse d’erreur ou synthétiser un style de police en gras, italique ou gras/italique si un tel style est demandé, mais est introuvable dans le mappage de polices.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,21 +12,21 @@ ht-degree: 2%
 
 ---
 
-# SynthizeFontStyles{#synthesizefontstyles}
+# SynthesizeFontStyles{#synthesizefontstyles}
 
-Activez les variations de police synthétisées. Contrôle si le serveur doit générer une réponse d’erreur ou synthétiser un style de police gras, italique ou gras/italique si un style de ce type est demandé, mais qu’il est introuvable dans la mise en correspondance de polices.
+Activez les variations de polices de synthèse. Contrôle si le serveur doit générer une réponse d’erreur ou synthétiser un style de police en gras, italique ou gras/italique si un tel style est demandé, mais est introuvable dans le mappage de polices.
 
 >[!NOTE]
 >
->La synthèse des styles de police génère souvent des rendus de qualité inférieure à l’utilisation de polices réelles pour ces styles.
+>La synthèse des styles de polices entraîne souvent des rendus de qualité inférieure à l’utilisation de polices réelles pour ces styles.
 
 ## Propriétés {#section-3205560a74774ebf9c916b07bd15aca6}
 
-Indicateur. Définissez cette variable sur 0 pour désactiver et sur 1 pour activer les styles de police de synthèse.
+Drapeau. Définissez cette valeur sur 0 pour désactiver les styles de polices synthétiques et sur 1 pour les activer.
 
 ## Par défaut {#section-71f94aa65e404d14b441674c040b59e3}
 
-Hérité de `default::SynthesizeFontStyles` si elle n’est pas définie ou si elle est vide.
+Hérité de `default::SynthesizeFontStyles` si non défini ou si vide.
 
 ## Voir aussi {#section-47a79659cc844272b6d5f36c946e12ac}
 

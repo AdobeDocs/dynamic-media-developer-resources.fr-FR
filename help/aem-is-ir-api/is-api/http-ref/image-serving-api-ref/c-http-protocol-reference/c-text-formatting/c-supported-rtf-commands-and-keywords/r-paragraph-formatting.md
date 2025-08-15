@@ -1,7 +1,7 @@
 ---
-description: Les commandes de formatage de paragraphe suivantes sont prises en charge.
+description: Les commandes de formatage des paragraphes suivants sont prises en charge.
 solution: Experience Manager
-title: Formatage des paragraphes
+title: Mise en forme des paragraphes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a2235082-714c-4ae3-ae06-c91ea2fb5abb
@@ -12,14 +12,14 @@ ht-degree: 0%
 
 ---
 
-# Formatage des paragraphes{#paragraph-formatting}
+# Mise en forme des paragraphes{#paragraph-formatting}
 
-Les commandes de formatage de paragraphe suivantes sont prises en charge.
+Les commandes de formatage des paragraphes suivants sont prises en charge.
 
 <table id="table_5DD044E1C0614A29A2413557DF57197D"> 
  <thead> 
   <tr> 
-   <th class="entry"> <p>Commande </p> </th> 
+   <th class="entry"> <p>Commander </p> </th> 
    <th class="entry"> <p>Description </p> </th> 
    <th class="entry"> <p>Remarques </p> </th> 
   </tr> 
@@ -27,83 +27,83 @@ Les commandes de formatage de paragraphe suivantes sont prises en charge.
  <tbody> 
   <tr> 
    <td> <span class="codeph"> \pard </span> </td> 
-   <td> <p>Rétablit la mise en forme des paragraphes par défaut. </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> uniquement </p> </td> 
+   <td> <p>Réinitialiser la mise en forme des paragraphes par défaut. </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> only </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \ql </span> </td> 
-   <td> <p>Aligne le texte à gauche. </p> </td> 
-   <td> <p>Valeur par défaut. </p> </td> 
+   <td> <span class="codeph"> \Ql </span> </td> 
+   <td> <p>Texte aligné à gauche. </p> </td> 
+   <td> <p>Faire défaut. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \qr </span> </td> 
-   <td> <p>Aligne le texte à droite. </p> </td> 
+   <td> <span class="codeph"> \Qr </span> </td> 
+   <td> <p>Aligner le texte à droite. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \qc </span> </td> 
-   <td> <p>Centrer le texte horizontalement. </p> </td> 
+   <td> <span class="codeph"> \Qc </span> </td> 
+   <td> <p>Centre le texte horizontalement. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \qj </span> </td> 
-   <td> <p>Justifiez le texte horizontalement. </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> uniquement </p> </td> 
+   <td> <p>Justifie le texte horizontalement. </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> only </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \lastql </span> </td> 
-   <td> <p>Aligne à gauche la dernière ligne d’un paragraphe. </p> </td> 
-   <td> <p>Par défaut ; <span class="codeph"> textPs= </span> uniquement ; ignoré si <span class="codeph"> \qj </span> n’est pas actif. </p> </td> 
+   <td> <span class="codeph"> \lastQl </span> </td> 
+   <td> <p>Aligne la dernière ligne d’un paragraphe à gauche. </p> </td> 
+   <td> <p>Faire défaut; <span class="codeph"> textPs= </span> only ; ignoré si <span class="codeph"> \qj n’est </span>pas actif. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \lastqr </span> </td> 
-   <td> <p>Alignez à droite la dernière ligne d’un paragraphe justifié. </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> uniquement ; ignoré si <span class="codeph"> \qj </span> n’est pas actif. </p> </td> 
+   <td> <span class="codeph"> \lastQR </span> </td> 
+   <td> <p>Aligne à droite la dernière ligne d’un paragraphe justifié. </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> only ; ignoré si <span class="codeph"> \qj n’est </span> pas actif. </p> </td> 
   </tr> 
   <tr> 
-   <td> <span class="codeph"> \lastqc </span> </td> 
-   <td> <p>Centrer la dernière ligne d’un paragraphe justifié. </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> uniquement ; ignoré si <span class="codeph"> \qj </span> n’est pas actif. </p> </td> 
+   <td> <span class="codeph"> \lastQc </span> </td> 
+   <td> <p>Centre la dernière ligne d’un paragraphe justifié. </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> only ; ignoré si <span class="codeph"> \qj n’est </span>pas actif. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \lastqj </span> </td> 
-   <td> <p>Permet de étirer la dernière ligne d’un paragraphe justifié. </p> </td> 
-   <td> <p> <span class="codeph"> textPs= </span> uniquement ; ignoré si <span class="codeph"> \qj </span> n’est pas actif. </p> </td> 
+   <td> <p>Sustifier (étirer) la dernière ligne d’un paragraphe justifié. </p> </td> 
+   <td> <p> <span class="codeph"> textPs= </span> only ; ignoré si <span class="codeph"> \qj n’est </span>pas actif. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \fi <span class="varname"> N </span> </span> </td> 
    <td> <p>Retrait de la première ligne. </p> </td> 
-   <td> <p>Twips; <span class="codeph"> textPs= </span> uniquement. </p> </td> 
+   <td> <p>Twips ; <span class="codeph"> textPs= </span> only. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \li <span class="varname"> N </span> </span> </td> 
-   <td> <p>Retrait gauche. </p> </td> 
-   <td> <p>Twips; <span class="codeph"> textPs= </span> uniquement. </p> </td> 
+   <td> <p>Retrait à gauche. </p> </td> 
+   <td> <p>Twips ; <span class="codeph"> textPs= </span> only. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ri <span class="varname"> N </span> </span> </td> 
    <td> <p>Retrait à droite. </p> </td> 
-   <td> <p>Twips; <span class="codeph"> textPs= </span> uniquement. </p> </td> 
+   <td> <p>Twips ; <span class="codeph"> textPs= </span> only. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \sl <span class="varname"> N </span> </span> </td> 
    <td> <p>Espace entre les lignes. </p> </td> 
-   <td> <p>0 (valeur par défaut) pour l’interligne automatique ; les valeurs positives ne doivent utiliser la valeur que si elle est supérieure à l’interligne par défaut ; la valeur négative pour forcer l’interlettrage. </p> </td> 
+   <td> <p>0 (par défaut) pour l’interligne automatique ; valeurs positives pour n’utiliser la valeur que si elle est supérieure à l’interligne par défaut ; valeur négative pour forcer l’espacement. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \slmult <span class="varname"> N </span> </span> </td> 
-   <td> <p>Interligne de plusieurs indicateurs. </p> </td> 
-   <td> <p>Définissez cette valeur sur 0 (par défaut) si <span class="codeph"> \sl </span> est en twips, sur 1 si <span class="codeph"> \sl </span> est en multiples de l’espacement par défaut. </p> </td> 
+   <td> <p>Interligne avec indicateur multiple. </p> </td> 
+   <td> <p>Défini sur 0 (par défaut) si <span class="codeph"> \sl </span> est en twips, sur 1 si <span class="codeph"> \sl </span> est en multiples de l’espacement par défaut. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \sb <span class="varname"> N </span> </span> </td> 
    <td> <p>Espace supplémentaire avant le paragraphe. </p> </td> 
-   <td> <p>Twips; <span class="codeph"> text= </span> applique <span class="codeph"> \sb </span> au premier paragraphe de la zone de texte, <span class="codeph"> textPs= </span> ne l’applique pas. </p> </td> 
+   <td> <p>Twips ; <span class="codeph"> text= </span>applique \sb <span class="codeph"> au premier paragraphe de la zone de texte, ce </span> qui n’est <span class="codeph"> pas le cas de textPs=</span>. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \sa <span class="varname"> N </span> </span> </td> 
    <td> <p>Espace supplémentaire après le paragraphe. </p> </td> 
-   <td> <p>Twips; <span class="codeph"> text= </span> applique <span class="codeph"> \sa </span> au dernier paragraphe de la zone de texte, <span class="codeph"> textPs= </span> ne l’applique pas. </p> </td> 
+   <td> <p>Twips ; <span class="codeph"> text= </span> applique \sa <span class="codeph"> au dernier paragraphe de la zone de texte, ce </span> qui n’est <span class="codeph"> pas le cas de textPs=</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

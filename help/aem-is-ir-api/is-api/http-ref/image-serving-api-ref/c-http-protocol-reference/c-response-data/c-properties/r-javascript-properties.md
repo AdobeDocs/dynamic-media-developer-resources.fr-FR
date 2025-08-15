@@ -1,6 +1,6 @@
 ---
-title: Propriétés JavaScript
-description: Si JavaScript est spécifié en tant que format de réponse, les données de réponse sont formatées de sorte qu’elles soient analysées sous la forme d’un fichier JavaScript&trade; include .
+title: Propriétés de JavaScript
+description: Si JavaScript est spécifié comme format de réponse, les données de réponse sont formatées de sorte qu’elles soient analysées en tant que fichier JavaScript&trade; include.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# Propriétés JavaScript{#javascript-properties}
+# Propriétés de JavaScript{#javascript-properties}
 
-Si JavaScript est spécifié en tant que format de réponse, les données de réponse sont formatées afin qu’elles soient analysées sous la forme d’un fichier d’inclusion JavaScript.
+Si JavaScript est spécifié comme format de réponse, les données de réponse sont formatées afin d’être analysées en tant que fichier d’inclusion JavaScript.
 
-Une réponse de propriétés JavaScript type présente la structure générale suivante :
+Une réponse de propriétés JavaScript standard possède la structure générale suivante :
 
 ```
            
@@ -29,9 +29,9 @@ Une réponse de propriétés JavaScript type présente la structure générale s
 ...
 ```
 
-*`propertyValue`* peut être vide. L’espace blanc est facultatif au début et à la fin de chaque ligne, avant et après le séparateur = . Toutes les valeurs sont entourées de guillemets simples. Les guillemets simples des chaînes sont précédés de deux guillemets simples consécutifs.
+Le *`propertyValue`* peut être vide. L&#39;espace est facultatif au début et à la fin de chaque ligne et avant et après le séparateur =. Toutes les valeurs sont entourées de guillemets simples. Les guillemets simples dans les chaînes sont placés dans un échappement avec deux guillemets simples consécutifs.
 
-Pour analyser une réponse de propriétés JavaScript, tout objet ou objet référencé dans la réponse doit être créé avant le chargement du fichier de propriétés. Voici un exemple d’utilisation de `req=props` pour obtenir la taille de l’image de réponse dans JavaScript :
+Pour analyser une réponse de propriétés JavaScript, un ou plusieurs objets référencés dans la réponse doivent être créés avant le chargement du fichier de propriétés. Voici un exemple d’utilisation de `req=props` pour obtenir la taille de l’image de réponse dans JavaScript :
 
 ```
 <script> image = new Object; </script> 

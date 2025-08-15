@@ -20,13 +20,13 @@ Paramètre commun à toutes les visionneuses.
 >
 >Cette commande ne s’applique pas à la visionneuse d’images vidéo.
 
-` config2= *`companypreset`*`
+` config2= *`Paramètre prédéfini de société`*`
 
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> companypreset</span> </span> </p> </td> 
-   <td colname="col2"> <p> Nom du paramètre prédéfini de configuration <span class="keyword"> Adobe Analytics</span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> Paramètre prédéfini</span> de société </span> </p> </td> 
+   <td colname="col2"> <p> Nom du <span class="keyword"> paramètre prédéfini de configuration de Adobe Analytics</span> . </p> </td> 
   </tr> 
  </tbody> 
 </table>

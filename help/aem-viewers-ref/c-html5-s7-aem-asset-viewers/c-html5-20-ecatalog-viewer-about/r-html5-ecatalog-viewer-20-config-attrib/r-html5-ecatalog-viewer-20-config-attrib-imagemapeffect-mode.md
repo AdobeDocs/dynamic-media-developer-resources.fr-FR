@@ -19,13 +19,13 @@ ht-degree: 4%
 <table id="table_4A3D7D66D76A403199303155318D0DE1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> icône|region|auto|none </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> icône|région|auto|aucun </span> </p> </td> 
    <td colname="col2"> <p>Indique l’aspect de la zone cliquable. </p> <p> 
      <ul id="ul_DDA49C152718486E853213E6FC2182B2"> 
-      <li id="li_18F86AB4D2F544319CCDF7BE376ABA53"> <p> Les icônes de mappage <span class="codeph"> icon </span> s’affichent de manière statique sur les ordinateurs de bureau et les appareils tactiles. </p> </li> 
-      <li id="li_F8832681CDD6456E9147A37C99BAFFED"> <p> La <span class="codeph"> région </span> effectue le rendu des zones cliquables ; sur le bureau, elles s’affichent au survol et sur les périphériques tactiles, ils sont toujours visibles. </p> </li> 
-      <li id="li_9F7DD686E8104AEB944505363F433C0F"> <p> <span class="codeph"> auto </span> sur les systèmes de bureau, les régions de zone cliquable s’affichent au survol et les icônes de zone cliquable sur les périphériques tactiles sont toujours visibles. </p> </li> 
-      <li id="li_7CB644F3A029480293B46F44FF8D03B6"> <p> <span class="codeph"> none </span> désactive les zones cliquables. </p> </li> 
+      <li id="li_18F86AB4D2F544319CCDF7BE376ABA53"> <p> <span class="codeph"> Les </span> icônes de carte s’affichent statiquement sur le bureau et les appareils tactiles. </p> </li> 
+      <li id="li_F8832681CDD6456E9147A37C99BAFFED"> <p> <span class="codeph"> La région </span> effectue le rendu des régions de zone cliquable ; sur les ordinateurs de bureau, elles sont affichées en survol et sur les appareils tactiles, elles sont toujours visibles. </p> </li> 
+      <li id="li_9F7DD686E8104AEB944505363F433C0F"> <p> <span class="codeph"> Sur </span> les ordinateurs de bureau, les zones de zone cliquable sont affichées en survol et sur les périphériques tactiles. Les icônes de carte sont toujours visibles. </p> </li> 
+      <li id="li_7CB644F3A029480293B46F44FF8D03B6"> <p> <span class="codeph"> Aucun </span> (e) désactive les zones cliquables. </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

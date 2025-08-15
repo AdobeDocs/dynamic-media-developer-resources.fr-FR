@@ -16,4 +16,4 @@ ht-degree: 7%
 
 Type de données de couleur.
 
-Valeur de la couleur. Valeur RGB hexadécimale bondée, éventuellement précédée de `0x`. Par exemple, la valeur du RGB `128,255,0` peut être spécifiée sous la forme `0x80ff00` ou `80ff00` .
+Valeur de couleur. Valeur RVB compressée hexadécimale, éventuellement précédée de `0x`. Par exemple, la valeur `128,255,0` RVB peut être définie sous la forme `0x80ff00` ou `80ff00` .

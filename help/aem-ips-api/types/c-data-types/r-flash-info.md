@@ -1,7 +1,7 @@
 ---
-description: Propriétés d’un fichier de Flash.
+description: Propriétés d’un fichier Flash.
 solution: Experience Manager
-title: FlashInfo
+title: Infos FlashFlash.
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: df49d1b9-aedd-4c72-b727-682cea74317e
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # [!DNL FlashInfo]{#flashinfo}
 
-Propriétés d’un fichier de Flash.
+Propriétés d’un fichier Flash.
 
 Syntaxe
 
@@ -22,6 +22,6 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| originalPath | `xsd:string` | Chemin du fichier. |
-| originalFile | `xsd:string` | Nom du fichier. |
-| fileSize | `xsd:int` | Taille de fichier. |
+| Chemin d’origine | `xsd:string` | Chemin du fichier. |
+| Fichier d’origine | `xsd:string` | Nom du fichier. |
+| Taille du fichier | `xsd:int` | Taille de fichier. |

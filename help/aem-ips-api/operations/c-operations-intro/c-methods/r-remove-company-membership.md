@@ -31,18 +31,18 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| userHandle | `xsd:string` | Non | Gestionnaire pour l’utilisateur avec l’appartenance que vous souhaitez supprimer. |
-| companyHandleArray | `types:HandleArray` | Oui | Gestionnaire de la société à laquelle vous supprimez l’utilisateur. |
+| Poignée utilisateur | `xsd:string` | Non | Poignée adressée à l’utilisateur avec l’appartenance à supprimer. |
+| companyHandleArray | `types:HandleArray` | Oui | Identifiant de l’entreprise dont vous supprimez l’utilisateur. |
 
-**Sortie (removeCompanyMembershipReturn)**
+**Output (removeCompanyMembershipReturn)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-6b7903195e8647a1bd0502f87387ca62}
 
-Cet exemple de code supprime un utilisateur d’une société. Omettez la poignée d’utilisateur facultative pour supprimer tous les utilisateurs de la société spécifiée dans le tableau de gestionnaires de société.
+Cet exemple de code supprime un utilisateur d’une société. Omettez le handle utilisateur facultatif pour supprimer tous les utilisateurs des sociétés spécifiées dans le tableau de handle company.
 
-**Requête**
+**Demander**
 
 ```java
 <ns1:removeCompanyMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

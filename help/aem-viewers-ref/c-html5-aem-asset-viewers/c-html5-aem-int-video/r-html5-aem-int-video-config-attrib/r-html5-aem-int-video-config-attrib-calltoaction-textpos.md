@@ -1,6 +1,6 @@
 ---
 title: CallToAction.textpos
-description: Attribut de configuration de la visionneuse de vidéos interactives.
+description: Attribut Configuration pour la visionneuse de vidéos interactives.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 4%
 
 # CallToAction.textpos{#calltoaction-textpos}
 
-Attribut de configuration de la visionneuse de vidéos interactives.
+Attribut Configuration pour la visionneuse de vidéos interactives.
 
 `[CallToAction.|<containerId>_callToAction.]textpos=bottom|top|left|right|none|tooltip`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td colname="col2"> <p> Indique l’endroit où le libellé est tracé par rapport à l’image miniature. En d’autres termes, le libellé est centré à l’emplacement spécifié par rapport à la miniature. </p> <p>Lorsque <span class="codeph"> tooltip</span> est spécifié, le texte du libellé s’affiche sous la forme d’une info-bulle flottante sur l’image miniature. </p> <p>Définissez cette variable sur <span class="codeph"> none</span> pour désactiver l’étiquette. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> bas|haut|gauche|droite|aucun|info-bulle</span> </p> </td> 
+   <td colname="col2"> <p> Indique l’emplacement du libellé par rapport à l’image miniature. Autrement dit, l’étiquette est centrée à l’emplacement spécifié par rapport à la miniature. </p> <p>Lorsque <span class="codeph"> l’info-bulle</span> est spécifiée, le texte de l’étiquette s’affiche sous forme d’info-bulle flottante au-dessus de l’image miniature. </p> <p>Définissez sur <span class="codeph"> aucun</span> pour désactiver l’étiquette. </p> </td> 
   </tr> 
  </tbody> 
 </table>

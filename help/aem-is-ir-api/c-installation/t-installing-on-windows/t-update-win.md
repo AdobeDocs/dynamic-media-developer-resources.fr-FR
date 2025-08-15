@@ -1,6 +1,6 @@
 ---
-title: Mise à jour à partir de IS 4.7.4 ou version ultérieure
-description: Suivez cette procédure lors de la mise à niveau de Dynamic Media Image Serving.
+title: Mise à jour à partir d’IS 4.7.4 ou version ultérieure
+description: Suivez cette procédure lors de la mise à niveau de Dynamic Media serveur d’images.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,32 +12,32 @@ ht-degree: 0%
 
 ---
 
-# Mise à jour à partir de IS 4.7.4 ou version ultérieure{#updating-from-is-or-later}
+# Mise à jour à partir d’IS 4.7.4 ou version ultérieure{#updating-from-is-or-later}
 
-Suivez cette procédure lors de la mise à niveau de Dynamic Media Image Serving.
+Suivez cette procédure lors de la mise à niveau de Dynamic Media serveur d’images.
 
-Si vous effectuez une mise à niveau à partir d’une ancienne version du serveur d’images, veuillez contacter l’assistance technique pour le processus approprié.
+Si vous effectuez une mise à niveau à partir d’une ancienne version d’Image Server, veuillez contacter le support technique pour connaître le processus correct.
 
 >[!NOTE]
 >
->Le dossier [!DNL webapps] peut être supprimé lors de la mise à niveau. Sauvegardez le dossier [!DNL webapps] avant la mise à niveau.
+>Le dossier peut être supprimé lors de la [!DNL webapps] mise à niveau. Sauvegardez le dossier avant la [!DNL webapps] mise à niveau.
 
-1. Connectez-vous à l’hôte de votre serveur avec les droits d’administrateur.
-1. Extrayez le contenu du fichier zip de distribution Image Serving .
-1. Lancez l’assistant d’installation en exécutant `setup/setup.exe`.
-1. Sélectionnez **[!UICONTROL Suivant]** pour accéder au contrat de licence de l’utilisateur final (EULA), lisez le contrat de licence, puis sélectionnez **[!UICONTROL Oui]**.
+1. Connectez-vous à votre hôte de serveur avec des droits d’administrateur.
+1. Extract le contenu du fichier compressé de distribution Image Server.
+1. Launch l’Assistant d’installation en exécutant `setup/setup.exe`.
+1. Sélectionnez **[!UICONTROL Suivant]** pour accéder au Contrat de licence utilisateur final (CLUF), lisez le contrat de licence, puis sélectionnez **[!UICONTROL Oui]**.
 
    La page suivante affiche les paramètres de configuration précédents.
-1. Cliquez sur **[!UICONTROL Suivant]** pour lancer l’installation de la mise à jour.
+1. Cliquez sur **[!UICONTROL Suivant]** pour démarrer l’installation de la mise à jour.
 
    >[!NOTE]
    >
-   >Le programme d’installation sauvegarde les anciens fichiers de configuration du serveur dans le dossier [!DNL BACKUP/].
+   >Le programme d’installation sauvegarde les anciens fichiers de configuration du serveur dans le [!DNL BACKUP/] dossier.
 
 1. Une fois l’installation terminée, sélectionnez **[!UICONTROL Terminer]** pour quitter l’assistant d’installation.
 
    Parfois, l’assistant d’installation peut vous demander de redémarrer le système.
 
-Lors d’une mise à jour, le fichier [!DNL ImageServing/conf/server.xml] est mis à jour vers les derniers paramètres. Si vous avez modifié ou ajouté des valeurs, vous devez enregistrer votre [!DNL server.xml] existant et mettre à nouveau en oeuvre vos modifications après la mise à niveau.
+Lors d’une mise à jour, le [!DNL ImageServing/conf/server.xml] fichier est mis à jour avec les paramètres les plus récents. Si vous avez modifié ou ajouté des valeurs, vous devez enregistrer vos modifications existantes [!DNL server.xml] et les réimplémenter après la mise à niveau.
 
-Après une installation de mise à jour, envisagez de réchauffer le cache de réponse HTTP avant de mettre le serveur en service. Pour plus d’informations, voir la description de l’utilitaire `playlog` .
+Après l’installation d’une mise à jour, envisagez de réchauffer le cache de réponses HTTP avant de mettre le serveur en ligne. Reportez-vous à la description de l’utilitaire `playlog` pour plus de détails.

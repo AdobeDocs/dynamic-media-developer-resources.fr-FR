@@ -1,7 +1,7 @@
 ---
-description: Utilisé par les développeurs Dynamic Media uniquement.
+description: Utilisé par Dynamic Media développeurs uniquement.
 solution: Experience Manager
-title: ConfigSetting
+title: Paramètre de configuration
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6d6421ce-1933-4310-b691-817392631969
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # [!DNL ConfigSetting]{#configsetting}
 
-Utilisé par les développeurs Dynamic Media uniquement.
+Utilisé par Dynamic Media développeurs uniquement.
 
 Syntaxe
 
@@ -24,4 +24,4 @@ Syntaxe
 |---|---|---|
 | [!DNL name] | `xsd:string` | Nom de la configuration. |
 | [!DNL value] | `xsd:string` | Valeur de configuration. |
-| [!DNL handle] | `xsd:string` | Gérer la configuration stockée. |
+| [!DNL handle] | `xsd:string` | Gérez la configuration stockée. |

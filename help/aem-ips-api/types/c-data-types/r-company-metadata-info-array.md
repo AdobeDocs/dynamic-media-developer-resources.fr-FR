@@ -1,5 +1,5 @@
 ---
-description: Tableau d’éléments CompanyMetadataInfo .
+description: Tableau d’éléments CompanyMetadataInfo.
 solution: Experience Manager
 title: CompanyMetadataInfoArray
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 25%
 
 # [!DNL CompanyMetadataInfoArray]{#companymetadatainfoarray}
 
-Tableau d’éléments CompanyMetadataInfo .
+Tableau d’éléments CompanyMetadataInfo.
 
 Syntaxe
 

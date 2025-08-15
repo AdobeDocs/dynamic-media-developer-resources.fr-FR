@@ -1,5 +1,5 @@
 ---
-description: Profil colorimétrique d’entrée par défaut du RGB. Indique le nom du profil de couleurs ICC à utiliser pour les images source RGB qui n’incorporent pas de profil colorimétrique et pour certaines valeurs de couleur RGB spécifiées avec diverses commandes de diffusion d’images, telles que color=.
+description: Profil de couleurs d’entrée par défaut de RGB. Indique le nom du profil colorimétrique ICC à utiliser pour les images sources RGB qui n’incorporent pas de profil colorimétrique et pour certaines valeurs de couleur RGB spécifiées avec différentes commandes de diffusion d’images, telles que color=.
 solution: Experience Manager
 title: IccProfileSrcRgb
 feature: Dynamic Media Classic,SDK/API
@@ -14,15 +14,15 @@ ht-degree: 1%
 
 # IccProfileSrcRgb{#iccprofilesrcrgb}
 
-Profil colorimétrique d’entrée par défaut du RGB. Indique le nom du profil de couleurs ICC à utiliser pour les images source RGB qui n’incorporent pas de profil colorimétrique et pour certaines valeurs de couleur RGB spécifiées avec diverses commandes de diffusion d’images, telles que color=.
+Profil de couleurs d’entrée par défaut de RGB. Indique le nom du profil colorimétrique ICC à utiliser pour les images sources RGB qui n’incorporent pas de profil colorimétrique et pour certaines valeurs de couleur RGB spécifiées avec différentes commandes de diffusion d’images, telles que color=.
 
 ## Propriétés {#section-3cd753196959462e9e674dab0b033d08}
 
-Chaîne de texte. Si spécifié, doit être une valeur `icc::Name` valide provenant de la carte de profil ICC de ce catalogue d’images ou du catalogue par défaut, ou un chemin d’accès au fichier relatif à `attribute::RootPath`. Le profil ICC référencé doit être un profil de RGB.
+Chaîne de texte. Si spécifié, doit être une valeur de `icc::Name` valide de la carte de profil ICC de ce catalogue d’images ou du catalogue par défaut, ou un chemin d’accès au fichier relatif à `attribute::RootPath`. Le profil ICC référencé doit être un profil RGB.
 
 ## Par défaut {#section-2c3cb2d9c9bf4aa7896e51b5d444ddee}
 
-Hérité de `default::IccProfileSrcRgb` si elle n’est pas définie ou si elle est vide. Si `attribute::IccProfileSrcRgb` ne se résout pas en un profil valide, `attribute::IccProfileRgb` est utilisé à la place.
+Hérité de `default::IccProfileSrcRgb` si non défini ou si vide. Si `attribute::IccProfileSrcRgb` ne correspond pas à un profil valide, `attribute::IccProfileRgb` est utilisé à la place.
 
 ## Voir aussi {#section-d6e5c6eeaea4445ba7fb5737cd193a48}
 

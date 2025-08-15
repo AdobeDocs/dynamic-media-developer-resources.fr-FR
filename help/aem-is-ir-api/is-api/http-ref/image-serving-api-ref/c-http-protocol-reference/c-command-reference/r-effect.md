@@ -1,6 +1,6 @@
 ---
 title: effet
-description: Sélectionnez Calque d’effet. Sélectionne un calque d’effet et lance un nouveau segment de calque dans la chaîne de requête, qui est associé au calque actif.
+description: Sélectionnez Calque d’effet. Sélectionne un calque d’effet et lance un nouveau segment de calque dans la chaîne de requête qui est associée au calque actif.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,28 +14,28 @@ ht-degree: 2%
 
 # effet{#effect}
 
-Sélectionnez Calque d’effet. Sélectionne un calque d’effet et lance un nouveau segment de calque dans la chaîne de requête, qui est associé au calque actif.
+Sélectionnez Calque d’effet. Sélectionne un calque d’effet et lance un nouveau segment de calque dans la chaîne de requête qui est associée au calque actif.
 
 `effect= *`n`*`
 
 <table id="simpletable_C48DABF486604D2B9F3CBC1CD01AC76D"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> n</span></span> </p> </td> 
-  <td class="stentry"> <p>Numéro de calque de l’effet (int différent de 0). </p></td> 
+  <td class="stentry"> <p>Numéro du calque d'effet (int différent de 0). </p></td> 
  </tr> 
 </table>
 
-Toutes les commandes du nouveau segment sont appliquées à la couche d’effet spécifiée. Un segment de couche d’effet est arrêté par la commande `layer=` ou `effect=` suivante ou à la fin de la requête.
+Toutes les commandes du nouveau segment sont appliquées au calque d’effet spécifié. Un segment de calque d’effet est terminé par la commande `layer=` ou `effect=` suivante ou par la fin de la requête.
 
-La valeur *`n`* doit être inférieure à 0 pour les effets de couche externe (c’est-à-dire les effets derrière la couche parent) et supérieure à 0 pour les effets de couche interne (c’est-à-dire les effets dans la couche parent). Les numéros de calque d’effet ne doivent pas nécessairement être consécutifs.
+La valeur *`n`* doit être inférieure à 0 pour les effets de calque externe (c&#39;est-à-dire les effets derrière le calque parent) et supérieure à 0 pour les effets de calque interne (c&#39;est-à-dire les effets au sein du calque parent). Il n&#39;est pas nécessaire que les numéros de calque d&#39;effet soient consécutifs.
 
-Le numéro de calque d’effet spécifie l’ordre z, s’il existe plusieurs calques d’effet pour le même calque parent. Les calques à numéro supérieur sont placés au-dessus des calques à numéro inférieur.
+Le numéro du calque d&#39;effet spécifie l&#39;ordre de plan, s&#39;il existe plusieurs calques d&#39;effet pour le même calque parent. Les calques dont la numérotation est supérieure sont placés au-dessus des calques dont la numérotation est inférieure.
 
-Les calques d’effet peuvent être associés à `layer=comp`.
+Les calques d&#39;effet peuvent être attachés aux `layer=comp`.
 
 ## Propriétés {#section-e11f795deff345779ce280a82cf221ca}
 
-Couche d’effet, commande. La valeur *`n`* ne doit pas être 0.
+Commande de calque d&#39;effet. La valeur *`n`* ne doit pas être 0.
 
 ## Par défaut {#section-84bbe1cfe7a94040827c994323ac59d4}
 

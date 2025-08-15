@@ -1,5 +1,5 @@
 ---
-description: Le rendu d’image envoie des messages de journal aux mécanismes de journal du serveur d’images.
+description: Image Rendering envoie des messages de journal aux mécanismes de journal Image Server.
 solution: Experience Manager
 title: Journalisation du serveur
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # Journalisation du serveur{#server-logging}
 
-Le rendu d’image envoie des messages de journal aux mécanismes de journal du serveur d’images.
+Image Rendering envoie des messages de journal aux mécanismes de journal Image Server.
 
-Pour obtenir une description de la configuration et des fonctionnalités du système de journalisation, reportez-vous à la documentation sur le serveur d’images .
+Reportez-vous à la documentation Image Serving pour obtenir une description de la configuration et des fonctionnalités du système de journalisation.

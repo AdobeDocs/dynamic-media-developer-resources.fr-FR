@@ -20,7 +20,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Réinitialise le port d’affichage lorsque l’image (image) change. S’il est défini sur <span class="codeph"> 0</span>, il conserve le port d’affichage actuel avec le meilleur ajustement possible tout en conservant les proportions de l’image nouvellement définie. </p> </td> 
+   <td colname="col2"> <p> Réinitialise le port d'affichage lorsque l'image change. Si elle est définie sur <span class="codeph"> 0</span>, elle conserve le port d’affichage actuel avec le meilleur ajustement possible tout en conservant les proportions de l’image nouvellement définie. </p> </td> 
   </tr> 
  </tbody> 
 </table>

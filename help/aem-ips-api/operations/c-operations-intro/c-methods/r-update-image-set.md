@@ -20,16 +20,16 @@ Syntaxe
 
 ## Paramètres {#section-3be47dbbce474ce78676b05e163492e3}
 
-**Entrée (updateImageSetParam)**
+**Input (updateImageSetParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Oui | Gestionnaire de la société qui contient la visionneuse d’images à modifier. |
-| assetHandle | `xsd:string` | Oui | La poignée de la visionneuse d’images que vous souhaitez modifier. |
+| assetHandle | `xsd:string` | Oui | Poignée de la visionneuse d’images à modifier. |
 | memberArray | `types:ImageSetMemberUpdateArray` | Non | Réinitialise les membres de la visionneuse d’images. |
-| thumbAssetHandle | `xsd:string` | Non | Gestionnaire de la ressource qui agit comme miniature de la visionneuse d’images. |
+| thumbAssetHandle | `xsd:string` | Non | La poignée de la ressource qui agit comme la miniature de la visionneuse d’images. |
 
-**Sortie (updateImageSetReturn)**
+**Output (updateImageSetReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|

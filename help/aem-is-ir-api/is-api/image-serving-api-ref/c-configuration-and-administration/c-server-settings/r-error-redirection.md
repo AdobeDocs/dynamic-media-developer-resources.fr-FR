@@ -18,16 +18,16 @@ Utilisez ces paramètres de serveur pour rediriger les erreurs.
 
 >[!NOTE]
 >
->Les caractères de pixel (|) dans le chemin d’accès net ne sont pas pris en charge pour la redirection d’erreur.
+>Les barres verticales (|) du chemin d’accès réseau ne sont pas prises en charge pour la redirection d’erreur.
 
-## PS::errorRedirect.rootUrl - Redirect Server {#section-85f22e48d68842a490b0e1191543b558}
+## PS ::errorRedirect.rootUrl - Serveur de redirection {#section-85f22e48d68842a490b0e1191543b558}
 
-L’URL racine ( HTTP:// *[!DNL domain]*[: *[!DNL port]*]) pour le déploiement de serveur d’images secondaire vers lequel les demandes qui échouent localement doivent être redirigées. La redirection d’erreur est désactivée (par défaut) lorsque ce paramètre est vide ou non défini.
+URL racine ( [!DNL HTTP:// *[!DNL domain]*[: *[!DNL port]*]]) du déploiement secondaire Image Server vers lequel les demandes qui échouent localement doivent être redirigées. La redirection d’erreur est désactivée (par défaut) lorsque ce paramètre est vide ou non défini.
 
-## PS::errorRedirect.connectTimeout - Redirect Connection Timeout {#section-3971be8f720d4b32a2cc7860b4085971}
+## PS ::errorRedirect.connectTimeout - Délai de connexion de redirection {#section-3971be8f720d4b32a2cc7860b4085971}
 
-Délai maximum (en ms) pendant lequel le serveur attend qu’une connexion au serveur secondaire soit établie avant de renvoyer une erreur au client.
+Durée maximale (en ms) pendant laquelle le serveur attend qu’une connexion avec le serveur secondaire soit établie avant de renvoyer une erreur au client.
 
-## PS::errorRedirect.socketTimeout - Redirect Response Timeout {#section-69d8579f748d4044bca99dfb64dd523c}
+## PS ::errorRedirect.socketTimeout - Délai d’expiration de la réponse de redirection {#section-69d8579f748d4044bca99dfb64dd523c}
 
-Délai maximum (en ms) pendant lequel le serveur attend que le serveur secondaire renvoie les données avant d’abandonner la demande de redirection et de renvoyer une erreur au client.
+Durée maximale (en ms) pendant laquelle le serveur attend que le serveur secondaire renvoie des données avant d’abandonner la demande de redirection et de renvoyer une erreur au client.

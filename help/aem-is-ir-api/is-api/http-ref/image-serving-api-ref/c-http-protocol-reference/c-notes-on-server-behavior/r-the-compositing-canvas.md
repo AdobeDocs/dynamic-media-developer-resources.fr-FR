@@ -1,7 +1,7 @@
 ---
-description: Si req=img, la taille du canevas de composition est déterminée entièrement par la taille du calque 0.
+description: Si req=img, la taille de la zone de travail de composition est entièrement déterminée par la taille du calque 0.
 solution: Experience Manager
-title: La zone de travail du compositeur
+title: Canevas de composition
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 38b2349f-714a-4304-bd33-5ce171b6d3a1
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# La zone de travail du compositeur{#the-compositing-canvas}
+# Canevas de composition{#the-compositing-canvas}
 
-Si req=img, la taille du canevas de composition est déterminée entièrement par la taille du calque 0.
+Si req=img, la taille de la zone de travail de composition est entièrement déterminée par la taille du calque 0.
 
-Si la valeur `size=` de la couche 0 n’est pas spécifiée explicitement, les transformations de calque sont utilisées pour calculer la taille de la zone de travail de composition (voir ci-dessous).
+Si le calque for 0 n’est `size=` pas spécifié explicitement, les transformations de calque sont utilisées pour calculer la taille du canevas de composition (voir ci-dessous).
 
-Si `req=tmb`, la taille du canevas de composition est déterminée par la `size=` spécifiée pour le calque 0 ou, si la taille n’est pas spécifiée, la taille du canevas de composition est définie sur l’état de la vue (voir ci-dessous).
+Si `req=tmb`, la taille de la zone de travail de composition est déterminée par la valeur spécifiée pour le `size=` calque 0 ou, si la taille n’est pas spécifiée, la taille de la zone de travail de composition est définie sur la vue rect (voir ci-dessous).

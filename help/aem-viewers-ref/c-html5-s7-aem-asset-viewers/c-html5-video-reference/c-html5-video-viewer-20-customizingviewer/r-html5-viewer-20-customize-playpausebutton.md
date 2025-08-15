@@ -1,6 +1,6 @@
 ---
 title: Bouton Lecture/Pause
-description: Le bouton de lecture/pause entraîne le lecteur vidéo à lire ou à suspendre le contenu vidéo lorsqu’un utilisateur clique dessus.
+description: Le bouton de lecture/pause entraîne la lecture ou la mise en pause du contenu vidéo par le lecteur lorsqu’un utilisateur ou une utilisatrice clique dessus.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Bouton Lecture/Pause{#play-pause-button}
 
-Le bouton de lecture/pause entraîne le lecteur vidéo à lire ou à suspendre le contenu vidéo lorsqu’un utilisateur clique dessus.
+Le bouton de lecture/pause entraîne la lecture ou la mise en pause du contenu vidéo par le lecteur lorsqu’un utilisateur ou une utilisatrice clique dessus.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Par CSS, vous pouvez dimensionner, mettre en forme et positionner le bouton, par rapport à la barre de contrôle qui le contient.
+Vous pouvez dimensionner, envelopper et positionner le bouton, par rapport à la barre de contrôle qui le contient, par CSS.
 
 Le sélecteur de classe CSS suivant contrôle l’aspect du bouton :
 
@@ -36,46 +36,46 @@ Le sélecteur de classe CSS suivant contrôle l’aspect du bouton :
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> droit </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure droite, y compris la marge intérieure. </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure droite, marge intérieure incluse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
-   <td colname="col2"> <p>Position depuis la bordure gauche, y compris la marge intérieure. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> gauche </span> </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure gauche, marge intérieure incluse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
-   <td colname="col2"> <p> Position à partir de la bordure inférieure, y compris la marge intérieure. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> inférieur </span> </p> </td> 
+   <td colname="col2"> <p> Position à partir de la bordure inférieure, remplissage compris. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Largeur </span> </p> </td> 
    <td colname="col2"> <p>Largeur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> de hauteur </span> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> le </span> image d’arrière-plan </p> </td> 
    <td colname="col2"> <p>Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> la position de l’arrière-plan </span> </p> </td> 
+   <td colname="col2"> <p> Positionnez à l’intérieur d’un sprite d’illustration si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> des </a> Sprites CSS. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ce bouton prend en charge les sélecteurs d’attributs `state`, `selected` et `replay`, qui peuvent être utilisés pour appliquer différents habillages à différents états de bouton. En particulier, `selected='true'` correspond à l’état &quot;play&quot; et `selected='false'` à l’état &quot;pause&quot; ;
+>Ce bouton prend en charge les sélecteurs d’attributs et `state``selected` d’attributs`replay`, qui peuvent être utilisés pour appliquer différents habillages à différents états de bouton. En particulier, `selected='true'` correspond à l’état « lecture » et `selected='false'` correspond à l’état « pause » ;
 >
->Le sélecteur d’attributs `replay='true'` est défini lorsque la vidéo a atteint la fin et que la sélection du bouton redémarre la lecture à partir du début.
+>Le sélecteur `replay='true'` d’attributs est défini lorsque la vidéo a atteint la fin et que la sélection du bouton redémarre la lecture depuis le début.
 
-L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) pour plus d’informations.
+L’info-bulle du bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) pour plus d’informations.
 
 ## Exemple {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Pour configurer un bouton de lecture/pause de 32 x 32 pixels et positionner six pixels à partir du bord supérieur et gauche de la barre de contrôle. Enfin, affiche une image différente pour chacun des quatre états de bouton différents lorsqu’il est sélectionné ou non.
+Pour configurer un bouton de lecture/pause de 32 x 32 pixels et positionné à six pixels des bords supérieur et gauche de la barre de contrôle. Enfin, affiche une image différente pour chacun des quatre états de bouton différents, qu’ils soient sélectionnés ou non.
 
 ```
 .s7videoviewer .s7playpausebutton { 

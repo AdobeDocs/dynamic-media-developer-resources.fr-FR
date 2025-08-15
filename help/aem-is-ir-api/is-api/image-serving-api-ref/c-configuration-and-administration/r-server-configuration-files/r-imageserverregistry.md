@@ -16,15 +16,15 @@ ht-degree: 0%
 
 Contient les paramètres de configuration du serveur d’images.
 
-Lors de la modification de ce fichier XML, veillez à conserver une syntaxe XML valide, faute de quoi le serveur d’images risque de ne pas démarrer.
+Lors de la modification de ce fichier XML, veillez à conserver une syntaxe XML valide, sinon le serveur d’images risque de ne pas démarrer.
 
-Pour que les modifications prennent effet, redémarrez le serveur d’images après avoir modifié ce fichier. Seules les valeurs d’élément répertoriées ci-dessous sont prises en charge pour modification. Modifiez tout autre contenu de ce fichier uniquement sur conseil du support technique de Dynamic Media.
+Pour que les modifications soient prises en compte, redémarrez le serveur d’images après avoir modifié ce fichier. Seules les valeurs d’élément répertoriées ci-dessous sont prises en charge pour la modification. Modifiez tout autre contenu de ce fichier uniquement sur avis du support technique de Dynamic Media.
 
 >[!NOTE]
 >
->Ne modifiez pas la structure de `<imageserverregistry>`, y compris l’ordre des éléments. Soyez prudent lors de la modification de ce fichier, sinon le serveur d’images risque de ne pas démarrer.
+>Ne modifiez pas la structure des `<imageserverregistry>`, y compris l’ordre des éléments. Soyez prudent lorsque vous modifiez ce fichier, sinon le serveur d’images risque de ne pas démarrer.
 
-Le tableau suivant illustre les éléments qui peuvent être modifiés. D’autres éléments sont présents et ne doivent pas être modifiés. L’ordre des éléments ci-dessous ne reflète pas l’ordre dans lequel ils doivent être présents dans le fichier.
+Les éléments suivants illustrent ceux qui peuvent être modifiés. D’autres éléments sont présents et ne doivent pas être modifiés. L’ordre des éléments ci-dessous ne reflète pas l’ordre dans lequel ils doivent être présents dans le fichier.
 
 ```
 <imageserverregistry>
@@ -52,4 +52,4 @@ Le tableau suivant illustre les éléments qui peuvent être modifiés. D’autr
 
 ## Remarques {#section-7217f011f69f41e7af4f3983d7776d6f}
 
-Plusieurs éléments `<RootPath>` peuvent être présents (un pour chaque dossier de fichier de données source). Image Server recherche les chemins d’accès racine dans l’ordre spécifié pour trouver un fichier source particulier.
+Plusieurs éléments de `<RootPath>` peuvent être présents (un pour chaque dossier de fichiers de données sources). Le serveur d’images recherche les chemins d’accès racine dans l’ordre spécifié pour trouver un fichier source particulier.

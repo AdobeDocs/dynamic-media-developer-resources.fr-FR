@@ -1,7 +1,7 @@
 ---
 description: Utilisé par getJobLogsParam/sortBy
 solution: Experience Manager
-title: Champs de tri du journal des tâches
+title: Champs de tri du journal de traitement
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a84452b5-c464-4df6-b34b-1f912f89c7c7
@@ -12,7 +12,7 @@ ht-degree: 11%
 
 ---
 
-# Champs de tri du journal des tâches{#job-log-sort-fields}
+# Champs de tri du journal de traitement{#job-log-sort-fields}
 
 Utilisé par getJobLogsParam/sortBy
 

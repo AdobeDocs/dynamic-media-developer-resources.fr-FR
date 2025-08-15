@@ -1,5 +1,5 @@
 ---
-description: Données de tâche pour une tâche par lot.
+description: Données de traitement d’un traitement par lots.
 solution: Experience Manager
 title: jobdata
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # jobdata{#jobdata}
 
-Données de tâche pour une tâche par lot.
+Données de traitement d’un traitement par lots.
 
-Utilisé dans les requêtes de tâche par lot pour décrire entièrement une tâche lors de l’envoi d’une tâche à traiter. La valeur est un fragment de code XML codé en URL.
+Utilisé dans les demandes de traitement par lots pour décrire entièrement un traitement lors de la soumission d’un traitement. La valeur est un extrait de code XML codé URL.

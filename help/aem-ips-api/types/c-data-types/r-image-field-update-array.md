@@ -1,7 +1,7 @@
 ---
-description: Tableau de mises à jour des champs d’image.
+description: Un tableau de mises à jour de champs d’image.
 solution: Experience Manager
-title: ImageFieldUpdateArray
+title: Tableau de mise à jour ImageFieldUpdateArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: efba86d2-8a78-4cb6-b74c-e927b7812997
@@ -14,7 +14,7 @@ ht-degree: 25%
 
 # [!DNL ImageFieldUpdateArray]{#imagefieldupdatearray}
 
-Tableau de mises à jour des champs d’image.
+Un tableau de mises à jour de champs d’image.
 
 Syntaxe
 

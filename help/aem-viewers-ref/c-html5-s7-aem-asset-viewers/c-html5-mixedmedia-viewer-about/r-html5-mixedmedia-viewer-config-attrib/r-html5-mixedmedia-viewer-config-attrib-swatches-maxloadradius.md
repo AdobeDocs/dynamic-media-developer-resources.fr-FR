@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td> <p>Indique le comportement de préchargement du composant. Lorsqu’elle est définie sur <span class="codeph"> -1</span>, tous les échantillons sont chargés simultanément lorsque le composant est initialisé ou que la ressource est modifiée. </p> <p>Lorsqu’elle est définie sur <span class="codeph"> 0</span>, seuls les échantillons visibles sont chargés. </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> définit le nombre de lignes/colonnes invisibles autour de la zone visible qui sont préchargées. </p> </td> 
+   <td> <p>Spécifie le comportement de préchargement du composant. Lorsqu’elle est définie sur <span class="codeph"> -1</span> , toutes les nuances sont chargées simultanément lorsque le composant est initialisé ou que l’actif est modifié. </p> <p>Lorsque la valeur est 0<span class="codeph"></span>, seules les échantillons visibles sont chargés. </p> <p><span class="codeph"><span class="varname"> PreloadNBR</span></span> définit le nombre de lignes/colonnes invisibles autour de la zone visible qui sont préchargées. </p> </td> 
   </tr> 
  </tbody> 
 </table>

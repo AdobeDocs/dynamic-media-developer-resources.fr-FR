@@ -1,6 +1,6 @@
 ---
-title: Effet d’éclat
-description: Si cette option est activée dans la vignette, le moteur de rendu modifie l’algorithme d’éclairage pour simuler une variation de la brillance du matériau (principalement en contrôlant le contraste).
+title: Effets de brillance
+description: Si tel est activé dans la vignette, le moteur de rendu fait varier l’algorithme d’éclairage pour simuler une variation de la brillance du matériau (principalement en contrôlant le contraste).
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# Effet d’éclat{#gloss-effects}
+# Effets de brillance{#gloss-effects}
 
-Si cette option est activée dans la vignette, le moteur de rendu modifie l’algorithme d’éclairage pour simuler une variation de la brillance du matériau (principalement en contrôlant le contraste).
+Si tel est activé dans la vignette, le moteur de rendu fait varier l’algorithme d’éclairage pour simuler une variation de la brillance du matériau (principalement en contrôlant le contraste).
 
-Cet effet est indépendant du rendu de la réflexion et le complète en simulant des réflexions spéculaires. L’effet est contrôlé avec les mêmes attributs `gloss=`, `glossmap=` et `type=` utilisés pour contrôler les reflets.
+Cet effet est indépendant du rendu de réflexion et le complète en simulant des réflexions spéculaires. L’effet est contrôlé par les mêmes `gloss=`attributs et `glossmap=` `type=`attributs que ceux utilisés pour contrôler les réflexions.

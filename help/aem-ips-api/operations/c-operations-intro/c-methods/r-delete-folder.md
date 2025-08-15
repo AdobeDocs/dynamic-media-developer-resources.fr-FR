@@ -29,16 +29,16 @@ Syntaxe
 
 >[!NOTE]
 >
->L’utilisateur doit disposer d’un accès en lecture et suppression au dossier et à tous ses enfants.
+>L’utilisateur doit disposer d’un accès en lecture et en suppression au dossier et à tous ses enfants.
 
 ## Paramètres {#section-a793c98a481a4f26ab50bc69b16b57e7}
 
-**Entrée (deleteFolderParam)**
+**Input (deleteFolderParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gestionnaire de la société à laquelle appartient le dossier. |
-| folderHandle | `xsd:string` | Oui | Gestionnaire du dossier à supprimer. |
+| companyHandle | `xsd:string` | Oui | Identifiant de la société à laquelle appartient le dossier. |
+| folderHandle | `xsd:string` | Oui | La poignée du dossier à supprimer. |
 
 **Output (deleteFolderParam)**
 
@@ -46,7 +46,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-9d4617b322e8442d80e59be0f8714841}
 
-Cet exemple de code supprime un dossier de la racine de l’entreprise. Elle nécessite un gestionnaire de dossier, que vous devez obtenir d’une autre opération.
+Cet exemple de code supprime un dossier de la racine de l’entreprise. Elle nécessite un descripteur de dossier, que vous devez obtenir à partir d’une autre opération.
 
 **Requête**
 

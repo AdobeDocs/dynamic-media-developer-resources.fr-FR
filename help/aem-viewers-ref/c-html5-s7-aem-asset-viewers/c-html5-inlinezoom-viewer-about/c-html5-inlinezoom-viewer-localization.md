@@ -1,6 +1,6 @@
 ---
 title: Localisation des éléments de l’interface utilisateur
-description: Certains contenus affichés par la visionneuse volante peuvent faire l’objet d’une localisation. Ce contenu comprend des info-bulles d’éléments de l’interface utilisateur et des messages d’informations qui s’affichent par le zoom déroulant au chargement.
+description: Certains contenus affichés par la visionneuse Fenêtre déroulante sont sujets à la localisation. Ce contenu inclut les info-bulles et les messages d’informations de l’élément de l’interface utilisateur affichés par la vue de zoom déroulante au chargement.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Localisation des éléments de l’interface utilisateur{#localization-of-user-interface-elements}
 
-Certains contenus affichés par la visionneuse volante peuvent faire l’objet d’une localisation. Ce contenu comprend des info-bulles d’éléments de l’interface utilisateur et des messages d’informations qui s’affichent par le zoom déroulant au chargement.
+Certains contenus affichés par la visionneuse Fenêtre déroulante sont sujets à la localisation. Ce contenu comprend des info-bulles et des messages d’information relatifs aux éléments de l’interface utilisateur qui sont affichés par la vue déroulante zoom au moment du chargement.
 
-Chaque contenu textuel de la visionneuse qui peut être localisé est représenté par l’identifiant spécial du SDK de la visionneuse appelé SYMBOL. Tout SYMBOL est associé par défaut à une valeur de texte pour un paramètre régional anglais ( `"en"`) fournie avec la visionneuse prête à l’emploi et peut également avoir des valeurs définies par l’utilisateur pour autant de paramètres régionaux que nécessaire.
+Chaque contenu textuel de la visionneuse qui peut être localisé est représenté par l’identificateur spécial SDK de la visionneuse appelé SYMBOL. Tout SYMBOL a une valeur de texte associée par défaut pour un paramètre régional anglais ( `"en"`) fourni avec la visionneuse prête à l’emploi, et peut également avoir des valeurs définies par l’utilisateur pour autant de paramètres régionaux que nécessaire.
 
-Lorsque la visionneuse démarre, elle vérifie les paramètres régionaux actuels afin de déterminer s’il existe une valeur définie par l’utilisateur pour chaque SYMBOL pris en charge pour ces paramètres régionaux. Si tel est le cas, il utilise la valeur définie par l’utilisateur ; dans le cas contraire, il revient au texte par défaut d’usine.
+Lorsque la visionneuse démarre, elle vérifie les paramètres régionaux actuels pour voir s’il existe une valeur définie par l’utilisateur pour chaque SYMBOLE pris en charge pour ce paramètre régional. Si c’est le cas, elle utilise la valeur définie par l’utilisateur ; Sinon, il revient au texte par défaut prêt à l’emploi.
 
 Les données de localisation définies par l’utilisateur peuvent être transmises à la visionneuse en tant qu’objet JSON de localisation. Cet objet contient la liste des paramètres régionaux pris en charge, les valeurs de texte SYMBOL pour chaque paramètre régional et les paramètres régionaux par défaut.
 
@@ -38,11 +38,11 @@ defaultLocale:"en"
 }
 ```
 
-Dans l’exemple ci-dessus, l’objet de localisation définit deux paramètres régionaux ( `"en"` et `"fr"`) et permet de localiser deux éléments de l’interface utilisateur dans chaque paramètre régional.
+Dans l’exemple ci-dessus, l’objet de localisation définit deux paramètres régionaux ( `"en"` et `"fr"`) et fournit la localisation de deux éléments d’interface utilisateur dans chaque langue.
 
-Le code de page web doit transmettre cet objet de localisation au constructeur de la visionneuse, en tant que valeur du champ `localizedTexts` de l’objet de configuration. Une autre option consiste à transmettre l’objet de localisation en appelant la méthode `setLocalizedTexts(localizationInfo)`.
+Le code de page Web doit transmettre cet objet de localisation au constructeur de la visionneuse, en tant que valeur du `localizedTexts` champ de l’objet de configuration. Une autre option consiste à transmettre l’objet de localisation en appelant la méthode `setLocalizedTexts(localizationInfo)` .
 
-Les SYMBOLES suivants sont pris en charge :
+Les symboles suivants sont pris en charge :
 
 <table id="table_58C40353B7244335872350C98DF2CFB3"> 
  <thead> 
@@ -53,20 +53,20 @@ Les SYMBOLES suivants sont pris en charge :
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Container.LABEL </span> </p> </td> 
-   <td colname="col2"> <p>Libellé ARIA pour l’élément de visionneuse de niveau supérieur. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Conteneur.ÉTIQUETTE </span> </p> </td> 
+   <td colname="col2"> <p>Étiquette ARIA pour l’élément de visionneuse de niveau supérieur. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.ROLE_DESCRIPTION </span> </p> </td> 
-   <td colname="col2"> <p>Description du rôle ARIA pour le composant d’affichage principal. </p> </td> 
+   <td colname="col2"> <p>Description du rôle ARIA pour le composant Vue principale. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.USAGE_HINT </span> </p> </td> 
-   <td colname="col2"> <p>Conseils d’utilisation ARIA pour les utilisateurs de clavier. </p> </td> 
+   <td colname="col2"> <p>Conseils d’utilisation d’ARIA pour les utilisateurs du clavier. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_OVER </span> </p> </td> 
-   <td colname="col2"> <p>Message d’informations pour les systèmes de bureau. </p> </td> 
+   <td colname="col2"> <p>Message d’information pour les ordinateurs de bureau. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_TAP </span> </p> </td> 
@@ -74,11 +74,11 @@ Les SYMBOLES suivants sont pris en charge :
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollLeftButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Info-bulle pour le bouton de défilement à gauche. </p> </td> 
+   <td colname="col2"> <p>Info-bulle du bouton de défilement vers la gauche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollRightButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Info-bulle pour le bouton droit de défilement. </p> </td> 
+   <td colname="col2"> <p>Info-bulle du bouton de défilement à droite. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollUpButton.TOOLTIP </span> </p> </td> 
@@ -86,7 +86,7 @@ Les SYMBOLES suivants sont pris en charge :
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollDownButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Info-bulle du bouton de défilement. </p> </td> 
+   <td colname="col2"> <p>Info-bulle du bouton de défilement vers le bas. </p> </td> 
   </tr> 
  </tbody> 
 </table>

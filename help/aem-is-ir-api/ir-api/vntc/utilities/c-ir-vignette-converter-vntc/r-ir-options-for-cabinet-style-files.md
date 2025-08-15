@@ -1,6 +1,6 @@
 ---
-title: Options des fichiers de style cabinet
-description: Les options suivantes contrôlent le traitement des fichiers de style Cabinet. Ils sont ignorés si le fichier sourceFile n’est pas un fichier de style Cabinet ou si -info est spécifié.
+title: Options des fichiers de type armoire
+description: Les options suivantes contrôlent le traitement des fichiers de type armoire. Ils sont ignorés si le fichier source n’est pas un fichier de style de meuble ou si -info est spécifié.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 ---
 
-# Options des fichiers de style Cabinet{#options-for-cabinet-style-files}
+# Options des fichiers de style de meuble{#options-for-cabinet-style-files}
 
-Les options suivantes contrôlent le traitement des fichiers de style Cabinet. Ils sont ignorés si le fichier sourceFile n’est pas un fichier de style Cabinet ou si -info est spécifié.
+Les options suivantes contrôlent le traitement des fichiers de type armoire. Ils sont ignorés si le fichier source n’est pas un fichier de style armoire ou si -info est spécifié.
 
 <table id="simpletable_332B78DDEB6540708844AB54AE321F9B"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph">-resolution <span class="varname"> val</span></span> </p> </td> 
-  <td class="stentry"> <p>Indique la résolution cible des fichiers de style Cabinet. Valeur réelle en pixels par pouce. S’il n’est pas spécifié, le fichier de style de l’armoire de production a la même résolution que le fichier source. </p></td> 
+  <td class="stentry"> <p><span class="codeph">-résolution <span class="varname"> val</span></span> </p> </td> 
+  <td class="stentry"> <p>Spécifie la résolution cible des fichiers de style de meuble. Valeur réelle en pixels par pouce. S’il n’est pas spécifié, le fichier de style d’armoire de production a la même résolution que le fichier source. </p></td> 
  </tr> 
 </table>

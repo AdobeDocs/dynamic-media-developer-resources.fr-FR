@@ -16,17 +16,17 @@ ht-degree: 4%
 
 Chemin du fichier image.
 
-Chemin relatif ou absolu et nom du fichier image source associé à cet enregistrement de catalogue. Le serveur utilise les règles de résolution de chemin décrites dans la section Gestion des données Source pour trouver le fichier de données.
+Chemin d’accès relatif ou absolu et nom du fichier image source associé à cet enregistrement de catalogue. Le serveur utilise les règles de résolution de chemin d’accès décrites dans la section Gestion des données Source pour rechercher le fichier de données.
 
 ## Propriétés {#path-properties}
 
-Chaîne de texte. Requis pour les enregistrements d’image, peut être vide pour les enregistrements de modèle. S’il est spécifié, il doit s’agir d’un chemin d’accès au fichier Image Server relatif ou absolu valide. attribute::DefaultExt est ajouté si aucun suffixe de fichier n’est présent.
+Chaîne de texte. Obligatoire pour les enregistrements d’image, peut être vide pour les enregistrements de modèle. S’il est spécifié, il doit s’agir d’un chemin d’accès relatif ou absolu au fichier Image Server valide. attribute::DefaultExt est ajouté si aucun suffixe de fichier n&#39;est présent.
 
-## Formats de fichier image pris en charge {#path-supported-image-file-formats}
+## Formats De Fichiers Image Pris En Charge {#path-supported-image-file-formats}
 
-Reportez-vous à la description de l’utilitaire de conversion d’images (IC) pour obtenir la liste complète des formats de fichiers pris en charge.
+Consultez la description de l’utilitaire Convertisseur d’images (IC) pour obtenir la liste complète des formats de fichiers pris en charge.
 
-Les applications qui nécessitent des données d’image à plusieurs résolutions différentes sont les plus performantes lors de l’utilisation du format PTIFF (Dynamic Media pyramid TIFF) à résolution multiple. L’utilitaire IC est utilisé pour créer des images PTIFF à partir de n’importe quel format d’image pris en charge.
+Les applications qui nécessitent des données d’image dans plusieurs résolutions différentes ont de meilleures performances lors de l’utilisation du format multi-résolution Dynamic Media pyramid TIFF (PTIFF). L’utilitaire IC permet de créer des images PTIFF à partir de n’importe quel format d’image pris en charge.
 
 ## Par défaut {#path-default}
 
@@ -34,6 +34,6 @@ Aucune
 
 ## Voir aussi {#path-seealso}
 
-[IC Utility](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) , [attribute::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md) , [attribute::DefaultExt](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultext.md) , [src=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md)
+[Utilitaire IC](/help/aem-is-ir-api/is-api/is-utils/utilities/r-ic.md) , [attribute::RootPath](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rootpath.md) , [attribute::DefaultExt](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-defaultext.md) , [src=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md)
 
 <!-- [attribute::LowerCasePaths]() -->

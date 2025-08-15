@@ -1,6 +1,6 @@
 ---
 title: OnFailSel
-description: Gestion des erreurs de sélection. Indique l’action à effectuer si la commande sel= échoue, car l’emplacement de pixel spécifié ne se trouve pas dans la zone de masque d’un objet sélectionnable.
+description: Gestion des erreurs de sélection des prélèvements. Indique l’action à effectuer si la commande sel= échoue, car l’emplacement du pixel spécifié n’est pas dans la zone de masque d’un objet sélectionnable.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,38 +14,38 @@ ht-degree: 6%
 
 # OnFailSel{#onfailsel}
 
-Gestion des erreurs de sélection. Spécifie l’action à effectuer si la commande `sel=` échoue, car l’emplacement de pixel spécifié ne se trouve pas dans la zone de masque d’un objet sélectionnable.
+Gestion des erreurs de sélection des prélèvements. Indique l’action à effectuer si la commande `sel=` échoue parce que l’emplacement du pixel spécifié n’est pas dans la zone de masque d’un objet sélectionnable.
 
 ## Propriétés {#section-cec491e6c5c744f9bfafaaa9d8774f83}
 
-Enum.
+Énumération.
 
 <table id="simpletable_1CFD2BC6F9BC4D2AB372EAF115B7F2FC"> 
  <tr class="strow"> 
   <td class="stentry"> <p>01 </p> </td> 
-  <td class="stentry"> <p>Hériter de <span class="codeph"> default::OnFailSel </span>. </p> </td> 
+  <td class="stentry"> <p>Hériter de <span class="codeph"> valeur par défaut : OnFailSel </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p> </td> 
-  <td class="stentry"> <p>Conservez la sélection précédente. </p> </td> 
+  <td class="stentry"> <p>Conserver la sélection précédente. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p> </td> 
-  <td class="stentry"> <p>Désélectionnez cette option ; toute tentative d’application d’un matériau ou d’affichage/masquage d’objets est ignorée. </p> </td> 
+  <td class="stentry"> <p>Désélectionnez cette option ; toute tentative d'application d'un matériau ou d'affichage/masquage d'objets est ignorée. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p> </td> 
-  <td class="stentry"> <p>Renvoie une erreur. </p> </td> 
+  <td class="stentry"> <p>Renvoyer une erreur. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>4 </p> </td> 
-  <td class="stentry"> <p>Sélectionnez le groupe par défaut (le premier groupe de la hiérarchie de vignettes contenant les objets à rendre). </p> </td> 
+  <td class="stentry"> <p>Sélectionnez le groupe par défaut (premier groupe de la hiérarchie de la vignette contenant les objets rendus). </p> </td> 
  </tr> 
 </table>
 
 ## Par défaut {#section-c25f458f9f8f4236963a95779529e664}
 
-Hérité de `default::OnFailSel` si elle n’est pas définie.
+Hérité de `default::OnFailSel` si non défini.
 
 ## Voir aussi {#section-f8b15dd64c674c5484d190dd9e3016af}
 

@@ -1,7 +1,7 @@
 ---
-description: Décrit les valeurs utilisées par différents paramètres. Consultez la liste de cet article pour plus de détails
+description: Décrit les valeurs utilisées par différents paramètres. Consultez la liste dans cet article pour plus de détails
 solution: Experience Manager
-title: Rôles utilisateur
+title: Rôles d’utilisateur
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f94443ba-7715-4790-bd2a-120e0cb8848e
@@ -12,9 +12,9 @@ ht-degree: 5%
 
 ---
 
-# Rôles utilisateur{#user-roles}
+# Rôles d’utilisateur{#user-roles}
 
-Décrit les valeurs utilisées par différents paramètres. Consultez la liste de cet article pour plus de détails
+Décrit les valeurs utilisées par différents paramètres. Consultez la liste dans cet article pour plus de détails
 
 Syntaxe
 

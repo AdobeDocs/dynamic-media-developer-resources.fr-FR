@@ -1,5 +1,5 @@
 ---
-description: Pour une utilisation interne uniquement. Voir la section Attributs de catalogue de matières de rendu d’images .
+description: Pour usage interne uniquement. Reportez-vous à la section Attributs de catalogue de référence de rendus d'images.
 solution: Experience Manager
 title: getImageRenderingPublishSettings
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 17%
 
 # getImageRenderingPublishSettings{#getimagerenderingpublishsettings}
 
-Pour une utilisation interne uniquement. Voir la section Attributs de catalogue de matières de rendu d’images .
+Pour usage interne uniquement. Reportez-vous à la section Attributs de catalogue de référence de rendus d&#39;images.
 
 Syntaxe
 
@@ -27,14 +27,14 @@ Syntaxe
 
 ## Paramètres {#section-4f2cb8c589384816bb2525654ec49963}
 
-**Entrée (getImageRenderingPublishSettingsParam)**
+**Input (getImageRenderingPublishSettingsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gestionnaire de l’entreprise dont vous souhaitez obtenir les paramètres de publication de rendu d’image. |
-| contextHandle | `xsd:string` | Oui | Gérer au contexte de publication. |
+| companyHandle | `xsd:string` | Oui | Identifiant de la société dont vous souhaitez obtenir les paramètres de publication de rendu d’image. |
+| contextHandle | `xsd:string` | Oui | Gérer vers le contexte de publication. |
 
-**Sortie (getImageRenderingPublishSettingsReturn)**
+**Output (getImageRenderingPublishSettingsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|

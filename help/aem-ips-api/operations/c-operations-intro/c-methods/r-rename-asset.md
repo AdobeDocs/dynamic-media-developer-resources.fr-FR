@@ -18,7 +18,7 @@ Renomme une ressource.
 
 >[!NOTE]
 >
->Le paramètre `renameFiles` a été abandonné pour les versions antérieures et supprimé de `renameAsset`. Le chemin d’accès au fichier virtuel est modifié pour correspondre au nouveau nom de la ressource (en conservant l’extension du fichier), tandis que les chemins d’accès aux fichiers physiques ne sont pas affectés. Les clients API doivent supprimer les références à ce paramètre lors de la mise à jour vers la nouvelle version de l’API.
+>Le paramètre `renameFiles` a été abandonné pour les versions antérieures et supprimé de `renameAsset`. Le chemin d’accès au fichier virtuel est modifié pour correspondre au nouveau nom de ressource (en préservant l’extension de fichier), tandis que les chemins d’accès aux fichiers physiques ne sont pas affectés. Les clients d’API doivent supprimer les références à ce paramètre lors de la mise à jour vers la nouvelle version de l’API.
 
 ## Types d’utilisateurs autorisés {#section-cc27ad713c6d498b8f056850b20976f4}
 
@@ -31,22 +31,22 @@ Renomme une ressource.
 
 >[!NOTE]
 >
->L’utilisateur doit disposer d’un accès en lecture et en écriture à la ressource.
+>L’utilisateur doit disposer d’un accès en lecture et écriture à la ressource.
 
 ## Paramètres {#section-ef95a994106841e0ab346dd4cf672258}
 
-**Entrée (renameAssetParam)**
+**Input (renameAssetParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gestionnaire de la société à laquelle appartient la ressource. |
-| assetHandle | `xsd:string` | Oui | Gestionnaire de la ressource à renommer. |
+| companyHandle | `xsd:string` | Oui | Identifiant de la société à laquelle appartient la ressource. |
+| assetHandle | `xsd:string` | Oui | La poignée de la ressource à renommer. |
 | newName | `xsd:string` | Oui | Nouveau nom de la ressource. |
-| validateName | `xsd:boolean` | Oui | Si le `validateName` est `true` et que le type de ressource nécessite un identifiant IPS unique, le nouveau nom est analysé pour l’unicité globale et `renameAsset` renvoie une erreur s’il n’est pas unique. |
+| validateName | `xsd:boolean` | Oui | Si le `validateName` est `true` et que le type de ressource nécessite un identifiant IPS unique, le nouveau nom est vérifié pour l’unicité globale et `renameAsset` génère une erreur s’il n’est pas unique. |
 
-**Sortie (renameAssetReturn)**
+**Output (renameAssetReturn)**
 
-L’API IPS ne renvoie pas de réponse pour cette opération. Voir la description de l’élément `<ns1:validateName>` pour obtenir des avertissements sur cet élément.
+L’API IPS ne renvoie pas de réponse pour cette opération. Consultez la description de l’élément `<ns1:validateName>` pour obtenir des informations sur cet élément.
 
 ## Exemples {#section-a0ddffd62bec42e09069f22ceb486f8a}
 

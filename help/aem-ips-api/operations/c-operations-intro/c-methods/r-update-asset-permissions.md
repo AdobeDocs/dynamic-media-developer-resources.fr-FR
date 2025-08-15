@@ -1,7 +1,7 @@
 ---
 description: Met à jour les autorisations des ressources.
 solution: Experience Manager
-title: updateAssetPermissions
+title: Mettre à jour les permissons des ressources
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 12972a52-7b70-405c-9c73-e5ce6ab7dd9b
@@ -12,7 +12,7 @@ ht-degree: 20%
 
 ---
 
-# updateAssetPermissions{#updateassetpermissons}
+# Mettre à jour les permissons des ressources{#updateassetpermissons}
 
 Met à jour les autorisations des ressources.
 
@@ -30,17 +30,17 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Poignée de la société. |
-| assetHandle | `xsd:string` | Oui | Poignée de ressource. |
-| updateArray | `types:PermissionUpdateArray` | Oui | Autorisations à appliquer à la ressource. |
+| CompanyHandle | `xsd:string` | Oui | Pseudo de l’entreprise. |
+| AssetHandle | `xsd:string` | Oui | Gestion des ressources. |
+| Mettre à jour le tableau | `types:PermissionUpdateArray` | Oui | Autorisations que vous souhaitez appliquer à la ressource. |
 
-**Sortie (updateAssetPermissionsReturn)**
+**Output (updateAssetPermissionsReturn)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-1b7b7dbfdab34c819a53f3d33004e1f9}
 
-**Requête**
+**Demander**
 
 ```java
 <ns1:updateAssetPermissionsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

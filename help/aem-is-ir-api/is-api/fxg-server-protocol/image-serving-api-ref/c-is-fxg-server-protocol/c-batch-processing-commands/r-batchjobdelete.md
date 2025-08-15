@@ -1,6 +1,6 @@
 ---
 title: batchjobdelete
-description: Supprimez la sortie d’une tâche.
+description: Supprime la sortie d’une tâche.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,9 +14,9 @@ ht-degree: 1%
 
 # batchjobdelete{#batchjobdelete}
 
-Supprimez la sortie d’une tâche.
+Supprime la sortie d’une tâche.
 
-Si une tâche est en cours d’exécution, elle est immédiatement arrêtée et toutes ses informations de traitement sont supprimées. Si la tâche s’est terminée correctement, son fichier de sortie est supprimé.
+Si une tâche est en cours d’exécution, elle est immédiatement arrêtée et toutes ses informations de traitement sont supprimées. Si le traitement s’est terminé avec succès, son fichier de sortie est supprimé.
 
 Ce paramètre :
 
@@ -29,7 +29,7 @@ Ce paramètre :
 
 Renvoie :
 
-État de la tâche au moment de la réception de la demande de suppression, erreur si `jobid` n’est pas valide ou si la tâche a déjà été supprimée.
+Statut du traitement au moment de la réception de la demande de suppression, erreur si `jobid` n’est pas valide ou si le traitement a déjà été supprimé.
 
 ## Exemple {#section-e0df8fc8e6554ba58e1fa937b8241ecf}
 

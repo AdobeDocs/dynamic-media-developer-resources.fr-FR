@@ -1,5 +1,5 @@
 ---
-description: Propriétés du catalogue d’images. Renvoie les attributs communs du catalogue d’images spécifiés dans le chemin d’accès de la requête.
+description: Propriétés du catalogue d’images. Renvoie les attributs communs du catalogue d’images spécifié dans le chemin d’accès de la requête.
 solution: Experience Manager
 title: catalogprops
 feature: Dynamic Media Classic,SDK/API
@@ -25,9 +25,9 @@ Propriétés du catalogue d’images. Renvoie les attributs communs du catalogue
  </tr> 
 </table>
 
-Pour récupérer les propriétés de catalogue par défaut ( [!DNL default.ini]), omettez l’ID de catalogue. La réponse HTTP peut être mise en cache avec le TTL basé sur `attribute::NonImgExpiration`.
+Pour récupérer les propriétés de catalogue par défaut ( [!DNL default.ini]), omettez l’ID de catalogue. La réponse HTTP peut être mise en cache avec la TTL basée sur `attribute::NonImgExpiration`.
 
-Les requêtes qui prennent en charge le format de réponse JSONP vous permettent de spécifier le nom du gestionnaire de rappel JS à l’aide de la syntaxe étendue du paramètre `req=` :
+Les requêtes qui prennent en charge le format de réponse JSONP vous permettent de spécifier le nom du gestionnaire de rappel JS à l’aide de la syntaxe étendue `req=` paramètre :
 
 `req=...,json [&handler = reqHandler ]`
 
@@ -38,24 +38,24 @@ Les valeurs de propriété suivantes sont renvoyées :
 <table id="table_DEC26CBF274945298BA81B5E2E2F331D"> 
  <tbody> 
   <tr> 
-   <td> <b> Propriété</b> </td> 
-   <td> <b> Type</b> </td> 
+   <td> <b> la propriété </b> </td> 
+   <td> Type de <b></b> </td> 
    <td> <b> Attribut de catalogue correspondant</b> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.bkgColor</span> </p> </td> 
-   <td> <p> hex </p> </td> 
-   <td> <p> <span class="codeph"> attribute::BkgColor</span> </p> </td> 
+   <td> <p> sortilège </p> </td> 
+   <td> <p> <span class="codeph"> attribut ::BkgColor</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> Catalogue <span class="codeph"> ::defaultExt</span> </p> </td> 
+   <td> <p> <span class="codeph"> catalog::defaultExt</span> </p> </td> 
    <td> <p> chaîne </p> </td> 
    <td> <p> <span class="codeph"> attribute::DefaultExt</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.defaultPix</span> </p> </td> 
    <td> <p> int,int </p> </td> 
-   <td> <p> <span class="codeph"> attribute::DefaultPix</span> </p> </td> 
+   <td> <p> <span class="codeph"> attribut ::D efaultPix</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.defaultThumbPix</span> </p> </td> 
@@ -80,7 +80,7 @@ Les valeurs de propriété suivantes sont renvoyées :
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catalog.fileTime</span> </p> </td> 
    <td> <p> chaîne </p> </td> 
-   <td> <p> <span class="codeph"> attribute::LastModified</span>, ou, s'il n'est pas présent, l'heure de dernière modification du fichier <span class="varname"> catalog</span><span class="filepath"> .ini</span> </p> </td> 
+   <td> <p> <span class="codeph">attribute ::LastModified</span> ou, à défaut, l’heure de dernière modification du fichier<span class="varname"></span> de .ini catalogue <span class="filepath"></span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.jpegQuality</span> </p> </td> 
@@ -90,11 +90,11 @@ Les valeurs de propriété suivantes sont renvoyées :
   <tr> 
    <td> <p> <span class="codeph"> catalog.maxPix</span> </p> </td> 
    <td> <p> int,int </p> </td> 
-   <td> <p> <span class="codeph"> attribute::MaxPix</span> </p> </td> 
+   <td> <p> <span class="codeph"> attribut ::MaxPix</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> catalog.printResolution</span> </p> </td> 
-   <td> <p> int </p> </td> 
+   <td> <p> <span class="codeph"> catalog.printRésolution</span> </p> </td> 
+   <td> <p> Int </p> </td> 
    <td> <p> <span class="codeph"> attribute::PrintResolution</span> </p> </td> 
   </tr> 
   <tr> 
@@ -104,23 +104,23 @@ Les valeurs de propriété suivantes sont renvoyées :
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.resMode</span> </p> </td> 
-   <td> <p> enum </p> </td> 
-   <td> <p> <span class="codeph"> attribute::ResMode</span> </p> </td> 
+   <td> <p> énumération </p> </td> 
+   <td> <p> <span class="codeph"> attribut ::ResMode</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.resolution</span> </p> </td> 
    <td> <p> réel </p> </td> 
-   <td> <p> <span class="codeph"> attribute::Resolution</span> </p> </td> 
+   <td> <p> <span class="codeph"> attribut ::Résolution</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbBkgColor</span> </p> </td> 
-   <td> <p> hex </p> </td> 
+   <td> <p> hexadécimal </p> </td> 
    <td> <p> <span class="codeph"> attribute::ThumbBkgColor</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbHorizAlign</span> </p> </td> 
-   <td> <p> enum </p> </td> 
-   <td> <p> <span class="codeph"> attribute::ThumbHorizAlign</span> </p> </td> 
+   <td> <p> énumération </p> </td> 
+   <td> <p> <span class="codeph"> attribut ::ThumbHorizAlign</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbRes</span> </p> </td> 
@@ -129,18 +129,18 @@ Les valeurs de propriété suivantes sont renvoyées :
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbType</span> </p> </td> 
-   <td> <p> enum </p> </td> 
+   <td> <p> énumération </p> </td> 
    <td> <p> <span class="codeph"> attribute::ThumbType</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbVertAlign</span> </p> </td> 
-   <td> <p> enum </p> </td> 
+   <td> <p> énumération </p> </td> 
    <td> <p> <span class="codeph"> attribute::ThumbVertAlign</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog::watermark</span> </p> </td> 
    <td> <p> chaîne </p> </td> 
-   <td> <p> <span class="codeph"> attribute::Watermark</span> </p> </td> 
+   <td> <p> <span class="codeph"> attribute ::Watermark</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>

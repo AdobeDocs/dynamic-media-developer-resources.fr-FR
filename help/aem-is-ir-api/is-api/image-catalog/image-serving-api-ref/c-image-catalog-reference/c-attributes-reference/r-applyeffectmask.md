@@ -1,5 +1,5 @@
 ---
-description: Vous pouvez éventuellement appliquer le masque final sur les calques d’effet pour masquer la zone de chevauchement entre un effet et un calque.
+description: Applique éventuellement le masque final sur les calques d’effet pour masquer la zone de chevauchement entre un effet et un calque.
 solution: Experience Manager
 title: ApplyEffectMask
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # ApplyEffectMask{#applyeffectmask}
 
-Vous pouvez éventuellement appliquer le masque final sur les calques d’effet pour masquer la zone de chevauchement entre un effet et un calque.
+Applique éventuellement le masque final sur les calques d’effet pour masquer la zone de chevauchement entre un effet et un calque.
 
-Les valeurs valides sont 0 et 1. 0 signifie ne pas appliquer de masque d&#39;effet. 1 signifie appliquer un masque d&#39;effet. La valeur par défaut est 1.
+Les valeurs valides sont 0 et 1. 0 signifie qu’aucun masque d’effet n’est appliqué. 1 signifie appliquer un masque d’effet. la valeur par défaut est 1.

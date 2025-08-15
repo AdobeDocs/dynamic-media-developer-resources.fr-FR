@@ -1,5 +1,5 @@
 ---
-description: Propriétés d’un fichier de vignette.
+description: Propriétés d’une ressource de vignette.
 solution: Experience Manager
 title: VignetteInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # [!DNL VignetteInfo]{#vignetteinfo}
 
-Propriétés d’un fichier de vignette.
+Propriétés d’une ressource de vignette.
 
 Syntaxe
 
@@ -24,8 +24,8 @@ Syntaxe
 |---|---|---|
 | originalPath | `xsd:string` | Chemin d’accès au fichier. |
 | originalFile | `xsd:string` | Nom du fichier. |
-| fileSize | `xsd:int` | Taille de fichier. |
+| fileSize | `xsd:int` | Taille du fichier. |
 | imagePath | `xsd:string` | Chemin de l’image. |
 | imageFile | `xsd:string` | |
-| optimizedPath | `xsd:string` | Chemin optimisé vers le fichier. |
+| optimizedPath | `xsd:string` | Chemin d’accès optimisé au fichier . |
 | optimizedFile | `xsd:string` | Nom de fichier optimisé. |

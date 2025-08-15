@@ -1,7 +1,7 @@
 ---
-description: Affichez des cadres de texte superposés avec le signe plus. Un indicateur de débordement de texte s’affiche lorsque le texte dépasse l’espace qui lui est alloué dans un cadre de texte (ou dans la dernière zone de texte dans le cas d’un texte en thread). L’indicateur est une zone rouge contenant un signe plus.
+description: Affichez les blocs de texte en excès avec le signe plus. Un indicateur de dépassement de texte indique quand le texte dépasse l’espace qui lui est alloué dans un bloc de texte (ou dans le dernier bloc de texte dans le cas du texte fileté). Cet indicateur est représenté sous la forme d’un cadre rouge avec un signe plus.
 solution: Experience Manager
-title: markOverflowTextFrames
+title: MarkOverflowingTextFrames
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d1e2a3d4-ef1f-4d5e-be9c-eeec36f46603
@@ -12,17 +12,17 @@ ht-degree: 2%
 
 ---
 
-# markOverflowTextFrames{#markoverflowingtextframes}
+# MarkOverflowingTextFrames{#markoverflowingtextframes}
 
-Affichez des cadres de texte superposés avec le signe plus. Un indicateur de débordement de texte s’affiche lorsque le texte dépasse l’espace qui lui est alloué dans un cadre de texte (ou dans la dernière zone de texte dans le cas d’un texte en thread). L’indicateur est une zone rouge contenant un signe plus.
+Affichez les blocs de texte en excès avec le signe plus. Un indicateur de dépassement de texte indique quand le texte dépasse l’espace qui lui est alloué dans un bloc de texte (ou dans le dernier bloc de texte dans le cas du texte fileté). Cet indicateur est représenté sous la forme d’un cadre rouge avec un signe plus.
 
 <table id="simpletable_F17FD29EB52043BF9000923ED5195A26"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> &amp;markOverflowTextFrames</span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> &amp;markOverflowingTextFrames</span> </p> </td> 
   <td class="stentry"> <p>0|1 </p></td> 
  </tr> 
 </table>
 
-La définition du modificateur `markOverflowingTextFrames=1` par le biais d’un appel URL marque tous les cadres de texte dans lesquels le texte est surchargé avec un signe plus. En outre, dans le prévisualiseur Dynamic Media Classic, l’indicateur de remplacement de texte est défini sur &quot; `TRUE`&quot; par défaut.
+La définition du modificateur `markOverflowingTextFrames=1` via un appel d’URL marque tous les blocs de texte où le texte est surchargé d’un signe plus. En outre, dans Dynamic Media aperçu Classic, l’indicateur de texte en excès est défini sur &quot; `TRUE`&quot; par défaut.
 
 Par défaut : 0.

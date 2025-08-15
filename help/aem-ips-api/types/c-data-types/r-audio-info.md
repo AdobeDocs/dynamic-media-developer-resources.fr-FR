@@ -1,7 +1,7 @@
 ---
-description: Propriétés d’une ressource de fichier audio.
+description: Propriétés d’un fichier audio.
 solution: Experience Manager
-title: AudioInfo
+title: Infos audio
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 51d09533-2964-4b46-b45b-cc65e178ee0a
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # [!DNL AudioInfo]{#audioinfo}
 
-Propriétés d’une ressource de fichier audio.
+Propriétés d’un fichier audio.
 
 Syntaxe
 
@@ -22,6 +22,6 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| originalPath | `xsd:string` | Chemin du fichier audio. |
-| originalFile | `xsd:string` | Nom du fichier. |
-| fileSize | `xsd:int` | Taille de fichier. |
+| Chemin d’origine | `xsd:string` | Chemin d’accès au fichier audio. |
+| Fichier d’origine | `xsd:string` | Nom du fichier. |
+| Taille du fichier | `xsd:int` | Taille de fichier. |

@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Lorsque ce bouton est activé, les boutons de défilement entraînent automatiquement le saut d’une longueur de page entière. </p> <p>Un espace blanc supplémentaire s’affiche sur la dernière page si les échantillons ne sont pas ajustés. En outre, la dernière page comporte le même nombre de cellules que n’importe quelle page précédente. </p> <p>L’étape de défilement est ignorée et le défilement de la souris se définit uniquement sur les pages complètes. </p> </td> 
+   <td colname="col2"> <p> Lorsqu’ils sont activés, les boutons de défilement entraînent automatiquement le saut d’une page entière dans les échantillons. </p> <p>Un espace supplémentaire est affiché sur la dernière page si les nuanciers ne tiennent pas. En outre, la dernière page comporte le même nombre de cellules que n’importe quelle page précédente. </p> <p>L’étape de défilement est ignorée et le défilement de la souris s’affiche uniquement sur les pages complètes. </p> </td> 
   </tr> 
  </tbody> 
 </table>

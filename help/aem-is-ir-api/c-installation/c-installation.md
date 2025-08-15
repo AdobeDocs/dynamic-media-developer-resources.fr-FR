@@ -1,6 +1,6 @@
 ---
 title: Installation
-description: Installation du serveur d’images.
+description: Installation de la diffusion d’images.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,18 +12,18 @@ ht-degree: 1%
 
 ---
 
-# Installation du serveur d’images {#installation}
+# Installation de la diffusion d’images {#installation}
 
-L’installation d’Image Serving comprend deux composants principaux du serveur :
+L’installation de la diffusion d’images comprend deux composants principaux de serveur :
 
-* Image Server. Fichier exécutable autonome et de code natif.
-* [!DNL Platform Server]. Serveur d’applications et d’applications web Java™ autonome.
+* Serveur d’images. Un exécutable de code natif autonome.
+* [!DNL Platform Server]. Application web Java™ et serveur d’applications autonomes.
 
-Le rendu d’image fait partie de ces deux composants de serveur.
+Le rendu d’image fait partie de ces deux composants serveur.
 
-Dans les instructions suivantes, `install_root` fait référence au dossier racine dans lequel le serveur d’images et le rendu d’images sont installés. `server:port` fait référence au nom d’hôte, à l’adresse IP et au numéro de port configurés en tant que port d’écoute principal pour [!DNL Platform Server].
+Dans les instructions suivantes, `install_root` fait référence au dossier racine dans lequel la diffusion d’images et le rendu d’images sont installés. Et `server:port` fait référence au nom d’hôte ou à l’adresse IP et au numéro de port configurés comme port d’écoute principal pour le [!DNL Platform Server].
 
-* [Licences](c-licensing.md)
+* [Octroi de licence](c-licensing.md)
 * [Table des matières](c-contents.md)
 * [Dossier d’installation](c-install-folder.md)
 * [Installation sous Windows](t-installing-on-windows/t-installing-on-windows.md)

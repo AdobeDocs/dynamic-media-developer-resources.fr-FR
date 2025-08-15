@@ -1,6 +1,6 @@
 ---
 title: titre
-description: title, commande
+description: commande title
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -18,7 +18,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->Cette commande ne s’applique pas à la visionneuse déroulante, à la visionneuse de zoom de base, à la visionneuse à 360° ou à la visionneuse d’images interactives.
+>Cette commande ne s’applique pas à la visionneuse Fenêtre déroulante, la visionneuse Zoom de base, la visionneuse Spin ou la visionneuse d’images interactive.
 
 <table id="table_406072054CBA4A7BAC8E7AD45E361D37"> 
  <tbody> 

@@ -1,5 +1,5 @@
 ---
-description: Mode d’obscurcissement des demandes. Indique le type d’obscurcissement qui doit être appliqué aux requêtes valides.
+description: Mode d’obfuscation de requête. Indique le type d’obscurcissement qui doit être appliqué aux requêtes valides.
 solution: Experience Manager
 title: RequestObfuscation
 feature: Dynamic Media Classic,SDK/API
@@ -14,12 +14,12 @@ ht-degree: 1%
 
 # RequestObfuscation{#requestobfuscation}
 
-Mode d’obscurcissement des demandes. Indique le type d’obscurcissement qui doit être appliqué aux requêtes valides.
+Mode d’obfuscation de requête. Indique le type d’obscurcissement qui doit être appliqué aux requêtes valides.
 
 ## Propriétés {#section-0819432615324e259f24717e16835427}
 
-Enum. Définissez cette variable sur 0 pour désactiver l’obscurcissement des requêtes ou sur 1 pour sélectionner l’encodage base64. Aucune autre méthode d’obscurcissement n’est actuellement prise en charge.
+Énumération. Définissez cette valeur sur 0 pour désactiver l’obscurcissement de la requête ou sur 1 pour sélectionner le codage base64. Aucune autre méthode d’obfuscation n’est prise en charge pour le moment.
 
 ## Par défaut {#section-e7f49493d9a940acb4f7938df7cac44d}
 
-Hérité de `default::RequestObfuscation` si elle n’est pas définie ou si elle est vide.
+Hérité de `default::RequestObfuscation` si non défini ou si vide.

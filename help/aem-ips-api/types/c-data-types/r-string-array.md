@@ -1,7 +1,7 @@
 ---
-description: Tableau de chaînes.
+description: Une table de chaînes.
 solution: Experience Manager
-title: StringArray
+title: Tableau de chaînes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1d380460-6634-4a63-a853-5a23e54b3f67
@@ -14,7 +14,7 @@ ht-degree: 31%
 
 # [!DNL StringArray]{#stringarray}
 
-Tableau de chaînes.
+Une table de chaînes.
 
 Syntaxe
 
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| éléments | `xsd:string` | Tableau de chaînes. |
+| éléments | `xsd:string` | Une table de chaînes. |

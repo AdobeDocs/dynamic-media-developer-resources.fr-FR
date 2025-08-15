@@ -1,5 +1,5 @@
 ---
-description: Tableau de jeux de propriétés.
+description: Tableau d’ensembles de propriétés.
 solution: Experience Manager
 title: PropertySetArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 30%
 
 # [!DNL PropertySetArray]{#propertysetarray}
 
-Tableau de jeux de propriétés.
+Tableau d’ensembles de propriétés.
 
 Syntaxe
 

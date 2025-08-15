@@ -1,7 +1,7 @@
 ---
-description: Tableau d’autorisations.
+description: Ensemble d’autorisations.
 solution: Experience Manager
-title: PermissionArray
+title: Tableau d’autorisation
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2d96a0ac-038a-4813-97b2-bdf3f3f0c6e2
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 # [!DNL PermissionArray]{#permissionarray}
 
-Tableau d’autorisations.
+Ensemble d’autorisations.
 
 Syntaxe
 
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| éléments | `types:Permission` | Tableau des autorisations. |
+| éléments | `types:Permission` | Tableau d’autorisations. |

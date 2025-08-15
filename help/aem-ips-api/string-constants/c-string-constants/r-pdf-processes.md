@@ -1,7 +1,7 @@
 ---
 description: Utilisé par PDFOptions/type.
 solution: Experience Manager
-title: Processus du PDF
+title: Processus PDF
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 4b389448-8611-4306-921a-bb1dd9361932
@@ -12,7 +12,7 @@ ht-degree: 14%
 
 ---
 
-# Processus du PDF{#pdf-processes}
+# Processus PDF{#pdf-processes}
 
 Utilisé par PDFOptions/type.
 

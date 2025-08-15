@@ -1,7 +1,7 @@
 ---
-description: Masquer les propriétés du fichier.
+description: Propriétés du fichier de masque.
 solution: Experience Manager
-title: MaskInfo
+title: MaskInfo (Informations sur le masque)
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 91e760c5-2c6e-47e6-9429-d37ba9d84cdb
@@ -14,7 +14,7 @@ ht-degree: 25%
 
 # [!DNL MaskInfo]{#maskinfo}
 
-Masquer les propriétés du fichier.
+Propriétés du fichier de masque.
 
 Syntaxe
 
@@ -22,5 +22,5 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| maskPath | `xsd:string` | Masquer le chemin d’accès au fichier. |
-| maskFile | `xsd:string` | Masquer le nom du fichier. |
+| Chemin de masque | `xsd:string` | Chemin du fichier de masque. |
+| Fichier de masque | `xsd:string` | Nom du fichier du masque. |

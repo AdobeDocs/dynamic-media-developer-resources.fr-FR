@@ -1,5 +1,5 @@
 ---
-description: Les variables de substitution sont utilisées pour transférer des valeurs de l’URL de demande vers des modèles FXG stockés sur le serveur.
+description: Les variables de substitution sont utilisées pour transférer les valeurs de l’URL de requête vers les modèles FXG stockés sur le serveur.
 solution: Experience Manager
 title: Variables de substitution
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Variables de substitution{#substitution-variables}
 
-Les variables de substitution sont utilisées pour transférer des valeurs de l’URL de demande vers des modèles FXG stockés sur le serveur.
+Les variables de substitution sont utilisées pour transférer les valeurs de l’URL de requête vers les modèles FXG stockés sur le serveur.
 
 ` $ *`var`*= *`value`*`
 
@@ -24,12 +24,12 @@ Les variables de substitution sont utilisées pour transférer des valeurs de l�
   <td class="stentry"> <p>Nom de la variable. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> value </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> valeur <span class="varname"> </span> </span> </p> </td> 
   <td class="stentry"> <p>Valeur à laquelle la variable doit être définie (chaîne). </p> </td> 
  </tr> 
 </table>
 
-* Les définitions et références de variables peuvent se produire dans la partie requête de l’URL de requête.
-* Les variables sont définies comme ci-dessus, comme les autres commandes IS ; le &quot;$&quot; au début identifie la commande comme une définition de variable.
-* Le nom de variable `*`var`*` est sensible à la casse et peut se composer de n’importe quelle combinaison de lettres, de nombres, de &quot;-&quot; et de &quot;_&quot;.
-* La valeur importante doit être codée en URL à un seul passage pour une transmission HTTP sécurisée.
+* Les définitions et références de variables peuvent se trouver dans la partie requête de l’URL de requête.
+* Les variables sont définies comme ci-dessus, de la même manière que les autres commandes IS ; le caractère &#39;$&#39; initial identifie la commande comme une définition de variable.
+* Le nom de variable `*`var`*` est sensible à la casse et peut consister en n’importe quelle combinaison de lettres, de chiffres, de caractères « - » et « _ ».
+* Une valeur importante doit être codée en URL à passage unique pour une transmission HTTP sécurisée.

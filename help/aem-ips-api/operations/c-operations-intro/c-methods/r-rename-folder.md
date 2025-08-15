@@ -1,7 +1,7 @@
 ---
-description: Renomme un dossier.
+description: Permet de renommer un dossier.
 solution: Experience Manager
-title: renameFolder
+title: renommer le dossier
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 2d4f1059-8018-4efb-a1ec-8eb560b1a58f
@@ -12,9 +12,9 @@ ht-degree: 20%
 
 ---
 
-# renameFolder{#renamefolder}
+# renommer le dossier{#renamefolder}
 
-Renomme un dossier.
+Permet de renommer un dossier.
 
 Syntaxe
 
@@ -29,29 +29,29 @@ Syntaxe
 
 >[!NOTE]
 >
->L’utilisateur doit disposer d’un accès en lecture et en écriture à la ressource.
+>L’utilisateur doit disposer d’un accès en lecture et en écriture à l’actif.
 
 ## Paramètres {#section-6fcee63dc3f74a5b90e1d71e59eb255c}
 
-**Input (renameFolderParam)**
+**Entrée (renameFolderParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gérer la société avec les dossiers à renommer. |
-| folderHandle | `xsd:string` | Oui | Gérer au dossier. |
-| folderName | `xsd:string` | Oui | Nouveau nom du dossier. |
+| CompanyHandle | `xsd:string` | Oui | Gérez le nom de l’entreprise avec les dossiers que vous souhaitez renommer. |
+| poignée de dossier | `xsd:string` | Oui | Poignée dans le dossier. |
+| Nom de dossier | `xsd:string` | Oui | Nouveau nom du dossier. |
 
-**Sortie (renameFolderReturn)**
+**Output (renameFolderReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| folderHandle | `xsd:string` | Oui | Gérer au dossier renommé. |
+| poignée de dossier | `xsd:string` | Oui | Poignée dans le dossier renommé. |
 
 ## Exemples {#section-98bdd2f88d164f488676e90aba1dc864}
 
 Cet exemple de code renomme un dossier.
 
-**Requête**
+**Demander**
 
 ```java
 <ns1:renameFolderParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

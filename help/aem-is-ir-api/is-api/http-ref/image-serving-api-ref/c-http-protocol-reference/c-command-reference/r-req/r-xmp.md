@@ -1,5 +1,5 @@
 ---
-description: XMP métadonnées. Renvoie les métadonnées XMP associées à l’image spécifiée dans le chemin d’accès de la requête.
+description: Métadonnées XMP. Renvoie les métadonnées XMP associées à l’image spécifiée dans le chemin d’accès de la requête.
 solution: Experience Manager
 title: xmp
 feature: Dynamic Media Classic,SDK/API
@@ -14,21 +14,21 @@ ht-degree: 2%
 
 # xmp{#xmp}
 
-XMP métadonnées. Renvoie les métadonnées XMP associées à l’image spécifiée dans le chemin d’accès de la requête.
+Métadonnées XMP. Renvoie les métadonnées XMP associées à l’image spécifiée dans le chemin d’accès de la requête.
 
 `req=xmp`
 
-Les autres commandes sont ignorées. Le codage UTF-8 s’applique. La réponse est formatée au format XML avec le type MIME `text/xml`.
+Les autres commandes sont ignorées. L’encodage UTF-8 s’applique. La réponse est formatée au format XML avec le type MIME `text/xml`.
 
-La réponse HTTP peut être mise en cache avec le TTL basé sur `catalog::Expiration`.
+La réponse HTTP peut être mise en cache avec la TTL basée sur `catalog::Expiration`.
 
 ## Propriétés {#section-0d26b6a56c844153ae5cea4880370d00}
 
-Attribut de requête. S’applique quel que soit le paramètre de calque actif.
+Attribut de requête. S’applique quel que soit le paramètre de calque actuel.
 
 ## Par défaut {#section-1b2e089dce5d4e0ab664c62bf1be90dd}
 
-Si l’URL ne contient pas de chemin d’image ou de modificateurs, alors :
+Si l’URL n’inclut pas de chemin d’accès ou de modificateurs d’image, alors :
 
 ```
 #S7Z OK 
@@ -40,15 +40,15 @@ Sinon, `req=img`
 
 ## Exemples {#section-34213692deab4a0f9037d5844132ee14}
 
-Requête sur les propriétés du fichier image.
+Interroger les propriétés du fichier image.
 
-` http:// *`server`*/myPath/myImage.tif?req=imageprops`
+` http:// *`serveur`*/myPath/myImage.tif?req=imageprops`
 
-Propriétés du catalogue d’images de requête :
+Requête sur les propriétés du catalogue d’images :
 
-` http:// *`server`*/myRootId?req=catalogprops`
+` http:// *`serveur`*/myRootId?req=catalogprops`
 
-Accédez aux propriétés d’une entrée de catalogue d’images à partir de JavaScript côté client incorporée dans un fichier d’HTML :
+Accédez aux propriétés d’une entrée de catalogue d’images à partir d’un JavaScript côté client incorporé dans un fichier HTML :
 
 ```
 <script language="JavaScript"> 
@@ -61,26 +61,26 @@ Accédez aux propriétés d’une entrée de catalogue d’images à partir de J
 </script>
 ```
 
-Récupérez l’image de masque pour une entrée de catalogue spécifique, mise à l’échelle à 25 % de la taille d’origine :
+Récupérez l’image de masque d’une entrée de catalogue spécifique, mise à l’échelle à 25 % de la taille d’origine :
 
-` http:// *`server`*/myRootId/myImageId?req=mask&scale=0.25`
+` http:// *`serveur`*/myRootId/myImageId?req=mask&scale=0.25`
 
-Demandez une image à une taille d’un huitième :
+Demandez une image à la taille d’un huitième :
 
-` http:// *`server`*/myRootId/myImageId?scl=8`
+` http:// *`serveur`*/myRootId/myImageId?scl=8`
 
-Il s’agit de la même chose que :
+Il s’agit du même que :
 
-` http:// *`server`*/myRootId/myImageId?req=img&scl=8`
+` http:// *`serveur`*/myRootId/myImageId?req=img&scl=8`
 
-Demandez une miniature d’une image en fonction des attributs de miniature spécifiés dans le catalogue d’images :
+Demandez la miniature d’une image en vous appuyant sur les attributs de miniature spécifiés dans le catalogue d’images :
 
-` http:// *`server`*/myRootId/myImageId?req=tmb&wid=64&hei=64`
+` http:// *`serveur`*/myRootId/myImageId?req=tmb&wid=64&hei=64`
 
-Envoyez un message texte aux logs du serveur :
+Envoyez un message texte aux journaux du serveur :
 
-` http:// *`server`*/myRootId?req=message&message=This%20is%20the%20message`
+` http:// *`serveur`*/myRootId?req=message&message=This%20is%20the%20message`
 
 ## Voir aussi {#section-80cb0892c9174681b640985a1a26e590}
 
-[fmt=](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) , [catalog::Targets](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md), [catalog::UserData](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md), [Mise à l’échelle des miniatures](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md#reference-0f71817f721d4913b34816758d69b07f), [Propriétés](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9), [Cartes d’images](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab)
+[fmt=](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) , [catalog::Targets](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-targets-cat.md), [catalog::UserData](/help/aem-is-ir-api/is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-image-svg-data-reference/c-image-data-reference/r-userdata-cat.md), [Thumbnail Scaling](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-notes-on-server-behavior/r-thumbnail-scaling.md#reference-0f71817f721d4913b34816758d69b07f), [Properties](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-response-data/c-properties/c-properties.md#concept-49c609fd6de942cab422ee412353c9d9), [Image Maps](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-image-maps.md#reference-ff7d1bac2a064104b0c508a81316fdab)

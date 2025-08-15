@@ -1,5 +1,5 @@
 ---
-description: Remplace les données image d’une ressource image.
+description: Remplace les données image d’un fichier image.
 solution: Experience Manager
 title: replaceImage
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # replaceImage{#replaceimage}
 
-Remplace les données image d’une ressource image.
+Remplace les données image d’un fichier image.
 
 Syntaxe
 
@@ -33,21 +33,21 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyName | `xsd:string` | Oui | Gestionnaire de l’entreprise avec l’image que vous souhaitez remplacer. |
-| assetHandle | `xsd:string` | Oui | Gestionnaire de la ressource à remplacer. |
-| urlModifier | `xsd:string` | Oui | Commandes du serveur d’images qui génèrent de nouvelles données d’image. |
+| Nom de la société | `xsd:string` | Oui | Poignée de l’entreprise avec l’image que vous souhaitez remplacer. |
+| AssetHandle | `xsd:string` | Oui | Poignée de la ressource à remplacer. |
+| Modificateur d’url | `xsd:string` | Oui | Commandes Image Server qui génèrent de nouvelles données image. |
 
-**Sortie (replaceImageReturn)**
+**Output (replaceImageReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| assetHandle | `xsd:string` | Oui | Traitement de la nouvelle ressource. |
+| AssetHandle | `xsd:string` | Oui | Gérez la nouvelle ressource. |
 
 ## Exemples {#section-cebb93576bde4cb98cb27356ca66783b}
 
-Cet exemple de code remplace une image et applique une commande `urlModifier` qui spécifie que le serveur d’images ne prend aucune action lors du remplacement.
+Cet exemple de code remplace une image et applique une `urlModifier` avec une commande qui spécifie que le serveur d’images n’entreprend aucune action lors du remplacement.
 
-**Requête**
+**Demander**
 
 ```java
 <replaceImageParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

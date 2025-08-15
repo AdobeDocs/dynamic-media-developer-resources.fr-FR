@@ -1,6 +1,6 @@
 ---
 title: videoServerUrl
-description: Commande URL de la visionneuse de vidéos.
+description: URL de la visionneuse vidéo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 6%
 
 # videoServerUrl{#videoserverurl}
 
-Commande URL de la visionneuse de vidéos.
+URL de la visionneuse vidéo.
 
-` videoServerUrl= *`videoRootPath`*`
+` videoServerUrl= *`Chemin racine vidéo`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
-   <td colname="col2"> <p> Chemin d’accès racine du serveur vidéo. Si aucun domaine n’est spécifié, le domaine à partir duquel la page est diffusée est appliqué à la place. La résolution standard du chemin d’accès URI s’applique. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> Chemin</span> racine vidéo </span> </p> </td> 
+   <td colname="col2"> <p> Chemin racine du serveur vidéo. Si aucun domaine n’est spécifié, c’est le domaine à partir duquel la page est hébergée qui est appliqué. La résolution standard du chemin d’URI s’applique. </p> </td> 
   </tr> 
  </tbody> 
 </table>

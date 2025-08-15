@@ -1,5 +1,5 @@
 ---
-description: Définit les valeurs de métadonnées d’une ressource. Fonctionne avec un tableau de mises à jour de métadonnées pour définir des valeurs dans un lot.
+description: Définit les valeurs des métadonnées d’une ressource. Fonctionne avec un tableau de mises à jour de métadonnées pour définir des valeurs dans un lot.
 solution: Experience Manager
 title: setAssetMetadata
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # setAssetMetadata{#setassetmetadata}
 
-Définit les valeurs de métadonnées d’une ressource. Fonctionne avec un tableau de mises à jour de métadonnées pour définir des valeurs dans un lot.
+Définit les valeurs des métadonnées d’une ressource. Fonctionne avec un tableau de mises à jour de métadonnées pour définir des valeurs dans un lot.
 
 Syntaxe
 
@@ -37,17 +37,17 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gestionnaire de l’entreprise avec la ressource que vous souhaitez mettre à jour. |
-| assetHandle | `xsd:string` | Oui | Gestionnaire de la ressource. |
-| updateArray | `types:MetadataUpdateArray` | Oui | Mises à jour dans un tableau de mise à jour de métadonnées. |
+| companyHandle | `xsd:string` | Oui | Identifiant de la société contenant la ressource à mettre à jour. |
+| assetHandle | `xsd:string` | Oui | Poignée de la ressource. |
+| updateArray | `types:MetadataUpdateArray` | Oui | Mises à jour dans un tableau de mise à jour des métadonnées. |
 
-**Sortie (setAssetMetadataReturn)**
+**Output (setAssetMetadataReturn)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-1ab412e7ee1d4d6d8469b0b403598c42}
 
-Cet exemple de code utilise un tableau de mises à jour de métadonnées pour définir les métadonnées de la ressource spécifiée.
+Cet exemple de code utilise un tableau de mises à jour des métadonnées pour définir les métadonnées de la ressource spécifiée.
 
 **Requête**
 

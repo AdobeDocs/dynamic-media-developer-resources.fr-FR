@@ -1,7 +1,7 @@
 ---
 description: Tableau de métadonnées.
 solution: Experience Manager
-title: MetadataArray
+title: Tableau des métadonnées
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 1833237d-4ef9-4899-8d14-317db350b223
@@ -30,8 +30,8 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> éléments</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> type : Metadata</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> Articles</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> type : métadonnées</span> </p> </td> 
    <td colname="col3"> <p>Tableau de métadonnées. </p> </td> 
   </tr> 
  </tbody> 

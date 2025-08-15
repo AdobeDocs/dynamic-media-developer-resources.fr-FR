@@ -1,5 +1,5 @@
 ---
-description: Chemin du fichier de vignette. Chemin d’accès relatif et nom d’un fichier de vignette.
+description: Chemin du fichier Vignette. Chemin relatif et nom d’un fichier de vignette.
 solution: Experience Manager
 title: Chemin
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 8%
 
 # Chemin{#path}
 
-Chemin du fichier de vignette. Chemin d’accès relatif et nom d’un fichier de vignette.
+Chemin du fichier Vignette. Chemin relatif et nom d’un fichier de vignette.
 
-Le serveur associe cette valeur à `attribute::RootPath` pour créer le chemin d’accès réel au fichier de vignettes. Peut également être un chemin absolu.
+Le serveur combine cette valeur avec `attribute::RootPath` pour créer le chemin d’accès réel au fichier de vignette. Peut également être un chemin absolu.
 
 ## Propriétés {#section-b3b295feac084b56bd8a153c04987153}
 
-Chaîne de texte. Facultatif. S’il est spécifié, il doit s’agir d’un chemin d’accès au fichier relatif ou absolu valide. S’il est vide, `vignette::Modifier` doit inclure la commande `vignette=`.
+Chaîne de texte. Facultatif. S’il est spécifié, il doit s’agir d’un chemin d’accès relatif ou absolu valide. Si vide, `vignette::Modifier` devez inclure la commande `vignette=`.
 
 ## Par défaut {#section-a1d2133856084eb79a5be8230a4b38fd}
 

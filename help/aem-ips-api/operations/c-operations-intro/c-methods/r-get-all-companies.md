@@ -1,7 +1,7 @@
 ---
-description: Renvoie un tableau de toutes les entreprises.
+description: Renvoie un tableau de toutes les sociétés.
 solution: Experience Manager
-title: getAllEntreprises
+title: getAllCompanies
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0e339ecf-83b5-410c-8683-f3d73bd92339
@@ -12,9 +12,9 @@ ht-degree: 18%
 
 ---
 
-# getAllEntreprises{#getallcompanies}
+# getAllCompanies{#getallcompanies}
 
-Renvoie un tableau de toutes les entreprises.
+Renvoie un tableau de toutes les sociétés.
 
 Syntaxe
 
@@ -24,23 +24,23 @@ Syntaxe
 
 ## Paramètres {#section-efd74992e6904ebabe7383b577af4fdb}
 
-**Entrée (getAllEntreprisesParam)**
+**Input (getAllCompaniesParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | includeExpired | `xsd:boolean` | Oui | Définissez cette variable sur true pour renvoyer les sociétés expirées et non expirées. |
 
-**Sortie (getAllEntreprisesReturn)**
+**Output (getAllCompaniesReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyArray | `types:CompanyArray` | Oui | Le tableau d’entreprises. |
+| Tableau d’entreprise | `types:CompanyArray` | Oui | L’éventail des entreprises. |
 
 ## Exemples {#section-3eecf4e6900b41fb92a0e3214791c6b9}
 
-Cet exemple de code renvoie toutes les entreprises d’IPS dans un tableau. Notez que l’exemple de réponse est tronqué pour plus de concision.
+Cet exemple de code renvoie toutes les sociétés dans IPS dans un tableau. Remarque : l’exemple de réponse est tronqué par souci de concision.
 
-**Requête**
+**Demander**
 
 ```java
 <ns1:getAllCompaniesParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

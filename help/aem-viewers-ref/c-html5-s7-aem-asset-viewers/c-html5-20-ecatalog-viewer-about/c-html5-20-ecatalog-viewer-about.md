@@ -1,7 +1,7 @@
 ---
 title: Catalogue électronique
-description: Visionneuse de catalogue électronique est une visionneuse de catalogue qui affiche les brochures électroniques d’une diffusion par page ou page par page. Le catalogue électronique permet aux utilisateurs de parcourir le catalogue à l’aide d’éléments d’interface utilisateur supplémentaires ou de mode de miniatures dédiées. Les utilisateurs peuvent également zoomer sur chaque page pour obtenir des détails plus détaillés.
-keywords: responsive
+description: La visionneuse de catalogue électronique est une visionneuse de catalogue qui affiche les brochures électroniques sous la forme d’une répartition par page ou page par page. Le catalogue électronique permet aux utilisateurs de parcourir le catalogue à l’aide d’éléments d’interface utilisateur supplémentaires ou d’un mode de miniatures dédié. Les utilisateurs peuvent également effectuer un zoom avant sur chaque page pour plus de détails.
+keywords: réactif
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
@@ -15,17 +15,17 @@ ht-degree: 0%
 
 # Catalogue électronique{#ecatalog}
 
-Visionneuse de catalogue électronique est une visionneuse de catalogue qui affiche les brochures électroniques d’une diffusion par page ou page par page. Le catalogue électronique permet aux utilisateurs de parcourir le catalogue à l’aide d’éléments d’interface utilisateur supplémentaires ou de mode de miniatures dédiées. Les utilisateurs peuvent également zoomer sur chaque page pour obtenir des détails plus détaillés.
+La visionneuse de catalogue électronique est une visionneuse de catalogue qui affiche les brochures électroniques sous la forme d’une répartition par page ou page par page. Le catalogue électronique permet aux utilisateurs de parcourir le catalogue à l’aide d’éléments d’interface utilisateur supplémentaires ou d’un mode de miniatures dédié. Les utilisateurs peuvent également effectuer un zoom avant sur chaque page pour plus de détails.
 
 >[!NOTE]
 >
->Les images qui utilisent le rendu d’image (IR) ou le contenu généré par l’utilisateur (UGC) ne sont pas prises en charge par cette visionneuse.
+>Les images qui utilisent le rendu d’image (IR) ou le contenu créé par l’utilisateur (UGC) ne sont pas pris en charge par cette visionneuse.
 
 Type de visionneuse 507.
 
-Voir [ Configuration requise et conditions préalables](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
+Voir [Configuration requise et conditions préalables](../../c-system-requirements-and-prerequisites.md#concept-9282e5b777de42cdaf72ef7ebd646842).
 
-Cette visionneuse fonctionne avec des catalogues électroniques et prend en charge les zones cliquables et les outils de partage sur les réseaux sociaux en option. Il contient des outils de zoom, des outils de navigation de catalogue, la prise en charge du mode plein écran, des miniatures et un bouton de fermeture facultatif. La visionneuse prend également en charge les outils de partage sur les réseaux sociaux, l’impression, le téléchargement et les favoris. Il est conçu pour fonctionner sur les ordinateurs de bureau et les appareils mobiles.
+Cette visionneuse fonctionne avec des catalogues électroniques et prend en charge les zones cliquables facultatives et les outils de partage sur les réseaux sociaux. Elle comprend des outils de zoom, des outils de navigation de catalogue, une prise en charge du plein écran, des miniatures et un bouton de fermeture facultatif. La visionneuse prend également en charge les outils de partage sur les réseaux sociaux, l’impression, le téléchargement et les favoris. Il est conçu pour fonctionner sur les ordinateurs de bureau et les appareils mobiles.
 
 ## URL de démonstration {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
@@ -33,17 +33,17 @@ Cette visionneuse fonctionne avec des catalogues électroniques et prend en char
 
 ## Utilisation de la visionneuse de catalogue électronique {#section-e6c68406ecdc4de781df182bbd8088b4}
 
-La visionneuse de catalogue électronique représente un fichier JavaScript principal et un ensemble de fichiers d’assistance (un seul fichier JavaScript inclus avec tous les composants du SDK de la visionneuse utilisés par cette visionneuse, ressources et CSS particulière) téléchargés par la visionneuse au moment de l’exécution.
+La visionneuse de catalogue électronique représente un fichier JavaScript principal et un ensemble de fichiers d’assistance (un seul JavaScript inclus avec tous les composants SDK de la visionneuse utilisés par cette visionneuse particulière, ressources, CSS) téléchargés par la visionneuse au moment de l’exécution
 
-Vous pouvez utiliser la visionneuse de catalogue électronique en mode pop-up à l’aide d’une page d’HTML prête pour la production fournie avec les visionneuses IS ou en mode incorporé, où elle est intégrée à la page web cible à l’aide d’une API documentée.
+Vous pouvez utiliser la visionneuse de catalogue électronique en mode pop-up à l’aide d’une page HTML prête pour l’exploitation fournie avec des visionneuses IS ou en mode intégré, où elle est intégrée à la page web cible à l’aide d’une API documentée.
 
-La configuration et l’habillage sont similaires à ceux des autres visionneuses. L’habillage est effectué au moyen d’une feuille CSS personnalisée.
+La configuration et l’habillage sont similaires à ceux des autres visionneuses. Toute application de la peau est réalisée au moyen d’un CSS personnalisé.
 
-Voir [Référence de commande commune à toutes les visionneuses - Attributs de configuration](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) et [Référence de commande commune à toutes les visionneuses - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+Voir [ Référence des commandes commune à toutes les visionneuses - Attributs de configuration ](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) et [ Référence des commandes commune à toutes les visionneuses - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 ## Interaction avec la visionneuse de catalogue électronique {#section-642e66ca38cd4032992840ec6c0b0cd2}
 
-La visionneuse de catalogue électronique prend en charge les mouvements tactiles suivants, courants dans d’autres applications mobiles.
+La visionneuse de catalogue électronique prend en charge les gestes tactiles suivants, courants dans d’autres applications mobiles.
 
 <table id="table_ED747CC7178448919C34A4FCD18922D0"> 
  <thead> 
@@ -54,94 +54,94 @@ La visionneuse de catalogue électronique prend en charge les mouvements tactile
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Appuyer une seule fois </p> </td> 
-   <td colname="col2"> <p> Sélectionne une nouvelle miniature dans les échantillons. </p> </td> 
+   <td colname="col1"> <p>Clic unique </p> </td> 
+   <td colname="col2"> <p> Sélectionne la nouvelle miniature dans les échantillons. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Double appui </p> </td> 
-   <td colname="col2"> <p> Applique un zoom à un niveau jusqu’à ce que l’agrandissement maximal soit atteint. Le geste de double pression suivant réinitialise la visionneuse à l’état d’affichage initial. </p> </td> 
+   <td colname="col1"> <p>Appuyer deux fois </p> </td> 
+   <td colname="col2"> <p> Effectue un zoom d’un niveau jusqu’à ce que le zoom maximal soit atteint. Le mouvement de double appui suivant réinitialise la visionneuse à l’état d’affichage initial. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Pincement </p> </td> 
-   <td colname="col2"> <p>Applique un zoom avant ou arrière. </p> </td> 
+   <td colname="col1"> <p>Pincer </p> </td> 
+   <td colname="col2"> <p>Effectue un zoom avant ou arrière. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Glissement ou clic horizontal </p> </td> 
-   <td colname="col2"> <p> Fait défiler la liste des pages du catalogue si une transition de cadre de diapositive est utilisée. </p> </td> 
+   <td colname="col1"> <p>Balayage horizontal ou clic </p> </td> 
+   <td colname="col2"> <p> Fait défiler la liste des pages du catalogue si une transition de cadre de diapositives est utilisée. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Glissement ou clic vertical </p> </td> 
-   <td colname="col2"> <p>Lorsque l’image est à l’état réinitialisé, elle effectue un défilement de page natif. </p> <p>Lorsque les miniatures sont actives, elles font défiler la liste des miniatures. </p> </td> 
+   <td colname="col1"> <p>Balayage vertical ou battement </p> </td> 
+   <td colname="col2"> <p>Lorsque l’image est réinitialisée, elle effectue un défilement natif de la page. </p> <p>Lorsque les miniatures sont actives, elles font défiler la liste. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Il est possible d’activer un effet d’animation de type Symétrie de page réaliste pour naviguer entre les pages du catalogue. Dans ce cas, l’utilisateur peut maintenir le bouton de la souris enfoncé et faire glisser un coin de page et retourner la page.
+Il est possible d’activer un effet d’animation réaliste de basculement de page pour naviguer entre les pages du catalogue. Dans ce cas, l’utilisateur peut tenir et faire glisser un coin de page et retourner la page.
 
-Cette visionneuse prend également en charge les entrées tactile et de souris sur les périphériques Windows dotés d’un écran tactile et d’une souris. Cette prise en charge est toutefois limitée aux navigateurs Web Chrome, Internet Explorer 11 et Edge.
+Cette visionneuse prend également en charge l’entrée tactile et l’entrée souris sur les appareils Windows dotés d’un écran tactile et d’une souris. Cette prise en charge se limite toutefois aux navigateurs web Chrome, Internet Explorer 11 et Edge uniquement.
 
-Cette visionneuse est entièrement accessible via le clavier, comme décrit dans la section [Accessibilité clavier et navigation](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
+Cette visionneuse est entièrement accessible au clavier, comme décrit dans la section [Accessibilité clavier et navigation](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
 ## Outils de partage sur les médias sociaux avec la visionneuse de catalogue électronique {#section-eb575084a99647c3a9591f439f40b412}
 
-La visionneuse de catalogue électronique prend en charge les outils de partage sur les réseaux sociaux. Elles sont disponibles sous forme de bouton dans la barre de contrôle principale qui se développe en barre d&#39;outils de partage lorsqu&#39;un utilisateur clique ou appuie dessus.
+La visionneuse de catalogue électronique prend en charge les outils de partage sur les réseaux sociaux. Ils sont disponibles sous la forme d’un bouton dans la barre de contrôle principale, qui se développe en barre d’outils de partage lorsqu’un utilisateur clique ou appuie dessus.
 
-La barre d’outils de partage contient des icônes pour chaque type de canal de partage pris en charge, notamment Facebook, Twitter, partage de courrier électronique, partage de code incorporé et partage de lien. Lorsque des outils de partage de courrier électronique, d’intégration de partage ou de lien sont activés, la visionneuse affiche une boîte de dialogue modale avec un formulaire de saisie de données correspondant. Lorsque Facebook ou Twitter est appelé, la visionneuse redirige l’utilisateur vers une boîte de dialogue de partage standard à partir d’un service social. Les outils de partage ne sont pas disponibles en mode plein écran en raison des restrictions de sécurité du navigateur web.
+La barre d’outils de partage contient des icônes pour chaque type de canal de partage pris en charge, qui comprend Facebook, Twitter, le partage d’e-mail, le partage de code intégré et le partage de lien. Lorsque les outils de partage d’e-mail, de partage intégré ou de partage de lien sont activés, la visionneuse affiche une boîte de dialogue modale avec un formulaire de saisie de données correspondant. Lorsque Facebook ou Twitter est appelé, la visionneuse redirige l’utilisateur vers une boîte de dialogue de partage standard d’un service social. Les outils de partage ne sont pas disponibles en mode plein écran en raison de restrictions de sécurité du navigateur web.
 
 ## Incorporation de la visionneuse de catalogue électronique {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Le comportement de la visionneuse varie en fonction des pages web. Il arrive qu’une page web fournisse un lien qui, lorsqu’il est sélectionné, ouvre la visionneuse dans une fenêtre de navigateur distincte. Dans d’autres cas, il est nécessaire d’incorporer le droit de visionneuse dans la page d’hébergement. Dans ce cas, la page web peut avoir une mise en page statique ou utiliser une conception réactive qui s’affiche différemment sur différents appareils ou pour différentes tailles de fenêtre de navigateur. Pour répondre à ces besoins, la visionneuse prend en charge trois modes de fonctionnement principaux : pop-up, incorporation des tailles fixes et incorporation des conceptions réactives.
+Les différentes pages web ont des besoins différents en termes de comportement des observateurs. Parfois, une page web fournit un lien qui, lorsqu’il est sélectionné, ouvre la visionneuse dans une fenêtre de navigateur distincte. Dans d’autres cas, il est nécessaire d’incorporer la visionneuse directement dans la page d’hébergement. Dans ce dernier cas, la page web peut avoir une mise en page statique ou utiliser une conception réactive qui s’affiche différemment sur différents appareils ou pour différentes tailles de fenêtre du navigateur. Pour répondre à ces besoins, la visionneuse prend en charge trois modes de fonctionnement principaux : pop-up, incorporation de taille fixe et incorporation de conception réactive.
 
 **À propos du mode pop-up**
 
-En mode contextuel, la visionneuse s’ouvre dans une fenêtre ou un onglet de navigateur Web distinct. Il prend toute la zone de la fenêtre du navigateur et s’ajuste au cas où le navigateur serait redimensionné ou si l’orientation d’un appareil mobile est modifiée.
+En mode pop-up, la visionneuse s’ouvre dans une fenêtre ou un onglet distinct du navigateur web. Elle occupe toute la zone de la fenêtre du navigateur et s’ajuste au cas où le navigateur serait redimensionné ou si l’orientation d’un appareil mobile était modifiée.
 
-Le mode pop-up est le plus courant pour les appareils mobiles. La page web charge la visionneuse à l’aide de l’appel JavaScript `window.open()`, de l’élément d’HTML `A` correctement configuré ou de toute autre méthode appropriée.
+Le mode pop-up est le plus courant pour les appareils mobiles. La page web charge la visionneuse à l’aide de `window.open()`’appel JavaScript, correctement configuré `A` l’élément HTML ou de toute autre méthode appropriée.
 
-Il est recommandé d’utiliser une page d’HTML d’usine pour le mode de fonctionnement de la fenêtre contextuelle. Dans ce cas, il s’appelle [!DNL eCatalogViewer.html] et se trouve dans le sous-dossier [!DNL html5/] de votre déploiement IS-Viewers standard :
+Il est recommandé d’utiliser une page HTML prête à l’emploi pour le mode de fonctionnement des fenêtres pop-up. Dans ce cas, il s’appelle [!DNL eCatalogViewer.html] et se trouve dans le sous-dossier [!DNL html5/] de votre déploiement d’observateurs IS standard :
 
 [!DNL <s7viewers_root>/html5/eCatalogViewer.html]
 
-Vous pouvez effectuer une personnalisation visuelle en appliquant une page CSS personnalisée.
+Vous pouvez effectuer une personnalisation visuelle en appliquant un CSS personnalisé.
 
-Voici un exemple de code d’HTML qui ouvre la visionneuse dans une nouvelle fenêtre :
+Voici un exemple de code HTML qui permet d’ouvrir la visionneuse dans une nouvelle fenêtre :
 
 ```html {.line-numbers}
 <a href="https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist" target="_blank">Open popup viewer</a>
 ```
 
-**À propos du mode d’incorporation à taille fixe et du mode d’incorporation à responsive design**
+**À propos du mode d’incorporation de taille fixe et du mode d’incorporation de conception réactive**
 
-En mode incorporé, la visionneuse est ajoutée à la page web existante, qui peut déjà comporter du contenu client non lié à la visionneuse. Normalement, la visionneuse occupe uniquement une partie de l’espace d’une page web.
+En mode incorporé, la visionneuse est ajoutée à la page web existante, qui peut déjà comporter du contenu client non lié à la visionneuse. L’observateur n’occupe normalement qu’une partie de l’espace d’une page web.
 
-Les principaux cas d’utilisation sont les pages web orientées vers les ordinateurs de bureau ou les tablettes, ainsi que les pages réactives qui ajustent automatiquement la mise en page en fonction du type d’appareil.
+Les principaux cas d’utilisation sont des pages web orientées pour les ordinateurs de bureau ou les tablettes, ainsi que des pages conçues en responsive design qui ajustent automatiquement la disposition en fonction du type d’appareil.
 
-L’incorporation des tailles fixes est utilisée lorsque la visionneuse ne modifie pas sa taille après le chargement initial. Cette méthode est la meilleure solution pour les pages web avec une disposition statique.
+L’incorporation de taille fixe est utilisée lorsque la visionneuse ne modifie pas sa taille après le chargement initial. Cette méthode est recommandée pour les pages web avec une disposition statique.
 
-L’incorporation de conceptions réactives suppose que la visionneuse doit être redimensionnée au moment de l’exécution en réponse au changement de taille de son conteneur `DIV`. Le cas d’utilisation le plus courant consiste à ajouter une visionneuse à une page web qui utilise une mise en page flexible.
+L’incorporation de conception réactive suppose que la visionneuse doit être redimensionnée au moment de l’exécution en réponse au changement de taille de son `DIV` de conteneur. Le cas d’utilisation le plus courant consiste à ajouter une visionneuse à une page web qui utilise une disposition de page flexible.
 
-En mode d’incorporation en responsive design, la visionneuse se comporte différemment selon la manière dont la page web dimensionne son conteneur `DIV`. Si la page web définit uniquement la largeur du conteneur `DIV`, sans restriction de hauteur, la visionneuse choisit automatiquement sa hauteur en fonction des proportions de la ressource utilisée. Cette fonctionnalité permet de s’assurer que la ressource s’intègre parfaitement dans la vue sans marge intérieure sur les côtés. Ce cas d’utilisation est le plus courant pour les pages web qui utilisent des structures de mise en page réactive telles que Bootstrap et Foundation.
+En mode d’incorporation de responsive design, la visionneuse se comporte différemment selon la manière dont la page web dimensionne son `DIV` de conteneur. Si la page web définit uniquement la largeur du `DIV` de conteneur, sans restriction de hauteur, la visionneuse choisit automatiquement sa hauteur en fonction des proportions de la ressource utilisée. Cette fonctionnalité garantit que la ressource s’adapte parfaitement à la vue sans marge intérieure sur les côtés. Ce cas d’utilisation est le plus courant pour les pages web utilisant des structures de disposition réactives telles que Bootstrap et Foundation.
 
-Sinon, si la page web définit à la fois la largeur et la hauteur du conteneur de la visionneuse `DIV`, la visionneuse remplit uniquement cette zone et suit la taille fournie par la mise en page web. Un bon exemple consiste à incorporer la visionneuse dans une superposition modale, où la superposition est dimensionnée en fonction de la taille de la fenêtre du navigateur web.
+Dans le cas contraire, si la page web définit à la fois la largeur et la hauteur du `DIV` de conteneur de la visionneuse, celle-ci remplit exactement cette zone et suit la taille fournie par la disposition de la page web. Un bon exemple consiste à incorporer la visionneuse dans une superposition modale, où la superposition est dimensionnée en fonction de la taille de la fenêtre du navigateur web.
 
-**Intégration de taille fixe**
+**Incorporation de taille fixe**
 
-Pour ajouter la visionneuse à une page web, procédez comme suit :
+Ajoutez la visionneuse à une page web en procédant comme suit :
 
 1. Ajout du fichier JavaScript de la visionneuse à votre page web.
-1. Définition du conteneur DIV.
+1. Définition du DIV du conteneur.
 1. Définition de la taille de la visionneuse.
 1. Création et initialisation de la visionneuse.
 
 1. Ajout du fichier JavaScript de la visionneuse à votre page web.
 
-   Pour créer une visionneuse, vous devez ajouter une balise de script dans l’en-tête de l’HTML. Avant de pouvoir utiliser l’API de visionneuse, veillez à inclure [!DNL eCatalogViewer.js]. Le fichier [!DNL eCatalogViewer.js] se trouve sous le sous-dossier [!DNL html5/js/] de votre déploiement IS-Viewers standard :
+   La création d’une visionneuse nécessite l’ajout d’une balise de script dans l’en-tête HTML. Avant de pouvoir utiliser l’API de visionneuse, veillez à inclure [!DNL eCatalogViewer.js]. Le fichier [!DNL eCatalogViewer.js] se trouve sous le sous-dossier [!DNL html5/js/] de votre déploiement d’observateurs IS standard :
 
 [!DNL <s7viewers_root>/html5/js/eCatalogViewer.js]
 
-Vous pouvez utiliser un chemin relatif si la visionneuse est déployée sur l’un des serveurs Adobe Dynamic Media Classic et qu’elle est diffusée à partir du même domaine. Dans le cas contraire, vous spécifiez un chemin d’accès complet à l’un des serveurs Adobe Dynamic Media Classic sur lesquels les visionneuses IS sont installées.
+Vous pouvez utiliser un chemin relatif si la visionneuse est déployée sur l’un des serveurs d’Adobe Dynamic Media Classic et qu’elle est diffusée à partir du même domaine. Sinon, vous spécifiez un chemin d’accès complet à l’un des serveurs Adobe Dynamic Media Classic sur lesquels les visionneuses IS sont installées.
 
-Le chemin relatif ressemble à ce qui suit :
+Le chemin d’accès relatif ressemble à ce qui suit :
 
 ```html {.line-numbers}
 <script language="javascript" type="text/javascript" src="/s7viewers/html5/js/eCatalogViewer.js"></script>
@@ -149,18 +149,18 @@ Le chemin relatif ressemble à ce qui suit :
 
 >[!NOTE]
 >
->Ne référencez que le fichier JavaScript `include` de la visionneuse principale sur votre page. Ne référencez aucun fichier JavaScript supplémentaire dans le code de page web qui peut être téléchargé par la logique de la visionneuse au moment de l’exécution. En particulier, ne référencez pas directement la bibliothèque `Utils.js` du SDK HTML5 chargée par la visionneuse à partir du chemin de contexte `/s7viewers` (appelé SDK consolidé `include`). La raison en est que l’emplacement de `Utils.js` ou de bibliothèques de visionneuses d’exécution similaires est entièrement géré par la logique de la visionneuse et que l’emplacement change entre les versions de la visionneuse. Adobe ne conserve pas les anciennes versions de la visionneuse secondaire `includes` sur le serveur.
+>Référencez uniquement le fichier de `include` JavaScript de la visionneuse principale sur votre page. Ne référencez aucun fichier JavaScript supplémentaire dans le code de page web qui pourrait être téléchargé par la logique de la visionneuse au moment de l’exécution. En particulier, ne référencez pas directement la bibliothèque de `Utils.js` SDK HTML5 chargée par la visionneuse à partir `/s7viewers` chemin de contexte (appelé `include` consolidée de SDK). En effet, l’emplacement des bibliothèques de visionneuse d’exécution `Utils.js` ou similaires est entièrement géré par la logique de la visionneuse et l’emplacement change entre les versions de la visionneuse. Adobe ne conserve pas les anciennes versions des `includes` secondaires de la visionneuse sur le serveur.
 >
 >
->Par conséquent, le fait de placer une référence directe à tout JavaScript secondaire `include` utilisé par la visionneuse sur la page rompt la fonctionnalité de visionneuse à l’avenir lorsqu’une nouvelle version de produit est déployée.
+>Par conséquent, le fait de placer une référence directe à toute `include` JavaScript secondaire utilisée par la visionneuse sur la page interrompt la fonctionnalité de la visionneuse à l’avenir lorsqu’une nouvelle version du produit est déployée.
 
-1. Définition du conteneur DIV.
+1. Définition du DIV du conteneur.
 
-   Ajoutez un élément DIV vide à la page sur laquelle vous souhaitez que la visionneuse apparaisse. L’ID de l’élément DIV doit être défini, car cet ID est transmis ultérieurement à l’API de visionneuse.
+   Ajoutez un élément DIV vide à la page sur laquelle vous souhaitez que la visionneuse apparaisse. L’identifiant de l’élément DIV doit être défini, car cet identifiant est transmis ultérieurement à l’API de visionneuse.
 
    L’espace réservé DIV est un élément positionné, ce qui signifie que la propriété CSS `position` est définie sur `relative` ou `absolute`.
 
-   Voici un exemple d’élément DIV d’espace réservé défini :
+   Exemple d’élément DIV d’espace réservé défini :
 
    ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div>
@@ -168,13 +168,13 @@ Le chemin relatif ressemble à ce qui suit :
 
 1. Définition de la taille de la visionneuse
 
-   Vous pouvez définir la taille statique de la visionneuse en la déclarant pour la classe CSS de niveau supérieur `.s7ecatalogviewer` en unités absolues ou en utilisant le modificateur `stagesize`.
+   Vous pouvez définir la taille statique de la visionneuse en la déclarant pour `.s7ecatalogviewer` classe CSS de niveau supérieur dans des unités absolues ou à l’aide du modificateur `stagesize`.
 
-   Vous pouvez placer le dimensionnement dans CSS directement sur la page d’HTML. Vous pouvez également placer le dimensionnement dans un fichier CSS de visionneuse personnalisé, qui est ensuite affecté à un enregistrement de paramètre prédéfini de visionneuse dans Dynamic Media Classic, ou transmis explicitement à l’aide d’une commande de style.
+   Vous pouvez définir le dimensionnement dans CSS directement sur la page HTML. Vous pouvez également définir le dimensionnement d’un fichier CSS de visionneuse personnalisé, qui est ensuite attribué à un enregistrement de paramètre prédéfini de visionneuse dans Dynamic Media Classic, ou transmis explicitement à l’aide d’une commande de style.
 
-   Voir [Personnalisation de la visionneuse de catalogue électronique](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) pour plus d’informations sur le style de la visionneuse avec CSS.
+   Consultez [Personnalisation de la visionneuse de catalogue électronique](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#concept-73a8546acdb444a387c49969ceca57d0) pour plus d’informations sur la mise en forme de la visionneuse avec CSS.
 
-   Voici un exemple de définition d’une taille de visionneuse statique dans une page d’HTML :
+   Voici un exemple de définition d’une taille de visionneuse statique dans une page HTML :
 
    ```html {.line-numbers}
    #s7viewer.s7ecatalogviewer { 
@@ -183,7 +183,7 @@ Le chemin relatif ressemble à ce qui suit :
    }
    ```
 
-   Vous pouvez définir le modificateur `stagesize` dans l’enregistrement de paramètre prédéfini de visionneuse dans Dynamic Media Classic. Vous pouvez également le transmettre explicitement avec le code d’initialisation de la visionneuse avec la collection `params` ou sous la forme d’un appel API, comme décrit dans la section Référence de commande, comme suit :
+   Vous pouvez définir le modificateur `stagesize` dans l’enregistrement du paramètre prédéfini de visionneuse dans Dynamic Media Classic. Vous pouvez également le transmettre explicitement avec le code d’initialisation de la visionneuse avec `params` collection ou sous la forme d’un appel API, comme décrit dans la section Référence des commandes , comme suit :
 
    ```html {.line-numbers}
    eCatalogViewer.setParam("stagesize", 
@@ -192,13 +192,13 @@ Le chemin relatif ressemble à ce qui suit :
 
 1. Initialisation de la visionneuse.
 
-   Lorsque vous avez suivi les étapes ci-dessus, vous créez une instance de la classe `s7viewers.eCatalogViewer`, transmettez toutes les informations de configuration à son constructeur et appelez la méthode `init()` sur une instance de visionneuse. Les informations de configuration sont transmises au constructeur sous la forme d’un objet JSON. Au minimum, cet objet possède le champ `containerId` qui contient le nom de l’ID de conteneur de la visionneuse et l’objet JSON `params` imbriqué avec les paramètres de configuration pris en charge par la visionneuse. Dans ce cas, l’objet `params` doit avoir au moins l’URL de diffusion d’images transmise comme propriété `serverUrl` et la ressource initiale comme paramètre `asset`. L’API d’initialisation basée sur JSON vous permet de créer et de démarrer la visionneuse avec une seule ligne de code.
+   Une fois les étapes ci-dessus terminées, vous créez une instance de `s7viewers.eCatalogViewer` classe, transmettez toutes les informations de configuration à son constructeur et appelez `init()` méthode sur une instance de visionneuse. Les informations de configuration sont transmises au constructeur en tant qu’objet JSON. Au minimum, cet objet comporte le champ `containerId` qui contient le nom de l’ID de conteneur de visionneuse et de l’objet JSON `params` imbriqué avec les paramètres de configuration pris en charge par la visionneuse. Dans ce cas, l’objet `params` doit comporter au moins l’URL du service d’images transmise en tant que propriété `serverUrl`, et la ressource initiale en tant que paramètre `asset`. L’API d’initialisation basée sur JSON vous permet de créer et de démarrer la visionneuse avec une seule ligne de code.
 
-   Il est important que le conteneur de la visionneuse soit ajouté au modèle DOM afin que le code de la visionneuse puisse trouver l’élément de conteneur en fonction de son identifiant. Certains navigateurs retardent la création du DOM jusqu’à la fin de la page web. Toutefois, pour une compatibilité maximale, appelez la méthode `init()` juste avant la balise de fermeture `BODY` ou sur l’événement body `onload()` .
+   Il est important d’ajouter le conteneur de visionneuse au DOM afin que le code de la visionneuse puisse trouver l’élément de conteneur à l’aide de son identifiant. Certains navigateurs retardent la création du DOM jusqu’à la fin de la page web. Toutefois, pour une compatibilité maximale, appelez la méthode `init()` juste avant la balise de `BODY` de fermeture ou sur l’événement de `onload()` du corps.
 
-   Dans le même temps, l’élément de conteneur ne doit pas nécessairement faire partie de la mise en page web pour l’instant. Par exemple, il peut être masqué à l’aide du style `display:none` qui lui est affecté. Dans ce cas, la visionneuse retarde son processus d’initialisation jusqu’au moment où la page web ramène l’élément de conteneur à la mise en page. Lorsque cette action se produit, le chargement de la visionneuse reprend automatiquement.
+   Dans le même temps, l’élément de conteneur ne doit pas nécessairement encore faire partie de la mise en page web. Par exemple, elle peut être masquée à l’aide `display:none` style qui lui est affecté. Dans ce cas, la visionneuse retarde son processus d’initialisation jusqu’au moment où la page web ramène l’élément de conteneur dans la mise en page. Lorsque cette action se produit, le chargement de la visionneuse reprend automatiquement.
 
-   Voici un exemple de création d’une instance de visionneuse, de transmission des options de configuration minimales nécessaires au constructeur et d’appel de la méthode `init()`. L’exemple suppose que `eCatalogViewer` est l’instance de visionneuse ; `s7viewer` est le nom de l’espace réservé `DIV` ; `https://s7d1.scene7.com/is/image/` est l’URL de diffusion d’images et `Viewers/Pluralist` est la ressource :
+   Voici un exemple de création d’une instance de visionneuse, de transmission des options de configuration minimales nécessaires au constructeur et d’appel de la méthode `init()`. L’exemple suppose que `eCatalogViewer` est l’instance de visionneuse, `s7viewer` est le nom de l’espace réservé `DIV`, `https://s7d1.scene7.com/is/image/` est l’URL du service d’images et `Viewers/Pluralist` est la ressource :
 
    ```html {.line-numbers}
    <script type="text/javascript"> 
@@ -212,7 +212,7 @@ Le chemin relatif ressemble à ce qui suit :
    </script>
    ```
 
-   Le code suivant est un exemple complet d’une page web triviale qui incorpore la visionneuse de catalogue électronique à une taille fixe :
+   Le code suivant est un exemple complet de page web triviale qui incorpore la visionneuse de catalogue électronique avec une taille fixe :
 
    ```html {.line-numbers}
    <!DOCTYPE html> 
@@ -241,9 +241,9 @@ Le chemin relatif ressemble à ce qui suit :
    </html>
    ```
 
-**Intégration de conception réactive avec une hauteur libre**
+**Incorporation de conception réactive avec hauteur illimitée**
 
-Avec l’incorporation de responsive design, la page web dispose normalement d’une sorte de disposition flexible qui détermine la taille d’exécution du conteneur de la visionneuse `DIV`. Pour les besoins de cet exemple, supposons que la page web permet au conteneur de la visionneuse `DIV` de prendre 40 % de la taille de la fenêtre du navigateur web, sans restriction de sa hauteur. Le code d’HTML de page web qui en résulte ressemble à ce qui suit :
+Avec l’incorporation de responsive design, la page web dispose normalement d’un type de disposition flexible qui détermine la taille d’exécution du `DIV` de conteneur de la visionneuse. Pour les besoins de cet exemple, supposons que la page web permette au `DIV` de conteneur de la visionneuse de prendre 40 % de la taille de la fenêtre du navigateur web, sans restriction de hauteur. Le code HTML de la page web qui en résulte ressemble à ce qui suit :
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -261,13 +261,13 @@ Avec l’incorporation de responsive design, la page web dispose normalement d�
 </html>
 ```
 
-L’ajout de la visionneuse à une telle page est similaire à l’incorporation d’une taille fixe, la seule différence étant que vous n’avez pas besoin de définir explicitement la taille de la visionneuse.
+L’ajout de la visionneuse à une telle page est similaire à l’incorporation de taille fixe, la seule différence étant que vous n’avez pas besoin de définir explicitement la taille de la visionneuse.
 
 1. Ajout du fichier JavaScript de la visionneuse à votre page web.
-1. Définition du conteneur DIV.
+1. Définition du DIV du conteneur.
 1. Création et initialisation de la visionneuse.
 
-Toutes les étapes ci-dessus sont identiques à l’incorporation à taille fixe. Ajoutez le conteneur `DIV` au &quot;détenteur&quot; existant `DIV`. Le code suivant est un exemple complet. Vous pouvez voir comment la taille de la visionneuse change lorsque le navigateur est redimensionné et comment le rapport d’aspect de la visionneuse correspond à la ressource.
+Toutes les étapes ci-dessus sont identiques à celles de l’incorporation à taille fixe. Ajoutez l’`DIV` de conteneur au `DIV` « holder » existant. Le code suivant en est un exemple complet. Vous pouvez voir comment la taille de la visionneuse change lorsque le navigateur est redimensionné et comment les proportions de la visionneuse correspondent à la ressource.
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -297,13 +297,13 @@ var eCatalogViewer = new s7viewers.eCatalogViewer({
 </html>
 ```
 
-La page d’exemples suivante illustre d’autres cas pratiques d’incorporation de conceptions réactives avec une hauteur illimitée :
+La page d’exemples suivante illustre d’autres cas d’utilisation réels d’incorporation de conception réactive avec une hauteur non limitée :
 
 [Démonstrations en direct](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-**Intégration de taille flexible avec largeur et hauteur définies**
+**Incorporation de taille flexible avec largeur et hauteur définies**
 
-Dans le cadre d’une incorporation à taille flexible avec des valeurs de largeur et de hauteur définies, le style de la page web est différent. En d’autres termes, il fournit les deux tailles au &quot;détenteur&quot; `DIV` et le centre dans la fenêtre du navigateur. En outre, la page web définit la taille de l’élément `HTML` et `BODY` sur 100 % :
+Dans l’incorporation de taille flexible avec la largeur et la hauteur définies, le style de la page web est différent. En d’autres termes, il fournit les deux tailles au `DIV` « holder » et le centre dans la fenêtre du navigateur. En outre, la page web définit la taille de l’élément `HTML` et `BODY` sur 100 % :
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -329,7 +329,7 @@ height: 60%;
 </html>
 ```
 
-Les étapes d’incorporation restantes sont identiques à l’incorporation en responsive design avec une hauteur libre. L’exemple qui en résulte est le suivant :
+Les étapes d’incorporation restantes sont identiques à l’incorporation de conception réactive avec une hauteur illimitée. L’exemple qui en résulte est le suivant :
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -367,11 +367,11 @@ var eCatalogViewer = new s7viewers.eCatalogViewer({
 </html>
 ```
 
-**Incorporation à l’aide d’une API basée sur setter**
+**Incorporation à l’aide de l’API Setter**
 
-Au lieu d’utiliser l’initialisation basée sur JSON, il est possible d’utiliser une API basée sur un setter et un constructeur sans argument. Avec ce constructeur d’API, aucun paramètre n’est utilisé et les paramètres de configuration sont spécifiés à l’aide des méthodes d’API `setContainerId()`, `setParam()` et `setAsset()` avec des appels JavaScript distincts.
+Au lieu d’utiliser l’initialisation basée sur JSON, il est possible d’utiliser l’API basée sur setter et le constructeur sans args. Avec ce constructeur d’API, aucun paramètre n’est pris et les paramètres de configuration sont spécifiés à l’aide des méthodes d’API `setContainerId()`, `setParam()` et `setAsset()` avec des appels JavaScript distincts.
 
-L’exemple suivant illustre l’incorporation de tailles fixes avec une API basée sur setter :
+L’exemple suivant illustre l’incorporation à taille fixe avec l’API basée sur setter :
 
 ```html {.line-numbers}
 <!DOCTYPE html> 

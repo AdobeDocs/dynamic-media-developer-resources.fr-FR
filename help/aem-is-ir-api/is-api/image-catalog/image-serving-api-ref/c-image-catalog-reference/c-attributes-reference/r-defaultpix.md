@@ -16,17 +16,17 @@ ht-degree: 3%
 
 Taille d’affichage par défaut.
 
-Le serveur oblige les images de réponse à ne pas dépasser cette largeur et cette hauteur si la requête ne spécifie pas la taille d’affichage explicitement à l’aide de `wid=`, `hei=` ou `scl=`.
+Le serveur oblige les images de réponse à ne pas dépasser ces valeurs de largeur et de hauteur, si la requête ne spécifie pas explicitement la taille d’affichage à l’aide de `wid=`, `hei=` ou `scl=`.
 
 ## Propriétés {#section-c3e658cf82c540d986b118f74f0fe1b2}
 
-Deux nombres entiers, 0 ou plus, séparés par une virgule. Largeur et hauteur en pixels. L’une ou l’autre des valeurs (ou les deux) peuvent être définies sur 0 pour ne pas être contraintes.
+Deux nombres entiers, supérieurs ou égaux à zéro, séparés par une virgule. Largeur et hauteur en pixels. Vous pouvez définir les deux valeurs sur 0 pour qu’elles ne soient pas contraintes.
 
 Ne s’applique pas aux requêtes imbriquées/incorporées.
 
 ## Par défaut {#section-b7338b2bf5114fff83b0714a57b20639}
 
-Hérité de `default::DefaultPix` si elle n’est pas définie ou si elle est vide.
+Hérité de `default::DefaultPix` si non défini ou si vide.
 
 ## Voir aussi {#section-59088cd41da940e8ac0e74e2b049c6e9}
 

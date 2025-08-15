@@ -1,7 +1,7 @@
 ---
-description: Déplace une ressource vers un dossier spécifique.
+description: Déplace un actif vers un dossier spécifique.
 solution: Experience Manager
-title: moveAsset
+title: Déplacer une ressource
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: c5357c1a-92ac-4f9c-957e-b62cb812796c
@@ -12,9 +12,9 @@ ht-degree: 14%
 
 ---
 
-# moveAsset{#moveasset}
+# Déplacer une ressource{#moveasset}
 
-Déplace une ressource vers un dossier spécifique.
+Déplace un actif vers un dossier spécifique.
 
 Syntaxe
 
@@ -33,11 +33,11 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Traitez la société. |
-| assetHandle | `xsd:string` | Oui | Gérez la ressource que vous souhaitez déplacer. |
-| folderHandle | `xsd:string` | Oui | Gérer vers le dossier de destination. |
+| CompanyHandle | `xsd:string` | Oui | Manipuler à la société. |
+| AssetHandle | `xsd:string` | Oui | Gérez la ressource à déplacer. |
+| poignée de dossier | `xsd:string` | Oui | Poignée vers le dossier de destination. |
 
-**Sortie (moveAssetReturn)**
+**Output (moveAssetReturn)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 
@@ -45,7 +45,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 Cet exemple de code déplace une ressource vers un dossier.
 
-**Requête**
+**Demander**
 
 ```java
 <ns1:moveAssetParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

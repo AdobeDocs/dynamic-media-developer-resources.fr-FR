@@ -44,7 +44,7 @@ Syntaxe
 * La ressource comprend un nouveau champ `fileName` qui renvoie le nom du fichier virtuel.
 * `AssetSummary` renvoie un champ `type` et `name`
 
-* `MetadataField` comprend `isHidden`
+* `MetadataField` inclut `isHidden`
 
 * `MetadataUpdate`
-* `UploadUrlsJob` nécessite un `urlArray` et ajoute un nombre `numUrls` facultatif
+* `UploadUrlsJob` nécessite un `urlArray` et ajoute un nombre de `numUrls` facultatif

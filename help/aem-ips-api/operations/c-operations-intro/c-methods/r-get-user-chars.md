@@ -1,5 +1,5 @@
 ---
-description: Obtient une liste des caractères utilisés dans un champ particulier.
+description: Obtient la liste des caractères utilisés dans un champ particulier.
 solution: Experience Manager
 title: getUserChars
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # getUserChars{#getuserchars}
 
-Obtient une liste des caractères utilisés dans un champ particulier.
+Obtient la liste des caractères utilisés dans un champ particulier.
 
 Syntaxe
 
@@ -27,19 +27,19 @@ Syntaxe
 
 ## Paramètres {#section-93107d87f1b24fc8ad276dfee5e30b63}
 
-**Entrée (getUserCharsParam)**
+**Input (getUserCharsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| charField | `xsd:string` | Oui | Détermine l’état de la corbeille à rechercher. |
-| includeInactive | `xsd:boolean` | Oui | Incluez ou excluez les utilisateurs inactifs. Les utilisateurs non administrateurs d’IPS doivent être membres actifs d’au moins une société pour être autorisés à effectuer des appels d’API. Une erreur d’autorisation est renvoyée si l’utilisateur n’a aucun abonnement actif à la société. |
-| includeInvalid | `xsd:boolean` | Non | Incluez ou excluez des utilisateurs non valides. |
-| companyHandleArray | `types:HandleArray` | Non | Filtrez les résultats selon l’entreprise. |
-| groupHandleArray | `types:HandleArray` | Non | Filtre les résultats en fonction des groupes. |
-| userRoleArray | `types:StringArray` | Non | Filtre les résultats en fonction du rôle de l’utilisateur. |
-| numChars | `xsd:int` | Non | Activer >1 caractère. |
+| Champ de caractères | `xsd:string` | Oui | Détermine l’état de la corbeille à rechercher. |
+| includeInactive | `xsd:boolean` | Oui | Inclure ou exclure des utilisateurs inactifs. Les utilisateurs administrateurs non-IPS doivent être un membre actif d’au moins une entreprise pour être autorisés à effectuer des appels d’API. Une erreur d’autorisation est renvoyée si l’utilisateur n’a aucun abonnement d’entreprise actif. |
+| includInvalid | `xsd:boolean` | Non | Inclure ou exclure des utilisateurs non valides. |
+| companyHandleArray | `types:HandleArray` | Non | Filtrage des résultats en fonction de l’entreprise. |
+| GroupHandleArray | `types:HandleArray` | Non | Filtre les résultats en fonction des groupes. |
+| UserRoleArray | `types:StringArray` | Non | Filtre les résultats en fonction du rôle utilisateur. |
+| numChars | `xsd:int` | Non | Activez >1 caractère. |
 
-**Sortie (getUserCharsReturn)**
+**Output (getUserCharsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -49,13 +49,13 @@ Syntaxe
 
 Cet exemple de code renvoie :
 
-* Premiers caractères des noms des utilisateurs d’une société spécifique.
+* Premiers caractères des noms de famille des utilisateurs d’une entreprise spécifique.
 * Ensemble de groupes.
 * Ensemble de rôles utilisateur.
 
-La constante de chaîne Champs de filtre de caractères de l’utilisateur détermine le type de caractères d’utilisateur renvoyés.
+La constante de chaîne User Char Filter Fields détermine le type de caractères renvoyés.
 
-**Requête**
+**Demander**
 
 ```java
 <ns1:getUserCharsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

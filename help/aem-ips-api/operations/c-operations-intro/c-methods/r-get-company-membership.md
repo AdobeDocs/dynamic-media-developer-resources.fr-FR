@@ -1,5 +1,5 @@
 ---
-description: Obtient les appartenances d’un utilisateur dans un tableau d’entreprise.
+description: Obtient l’appartenance d’un utilisateur à un tableau de la société.
 solution: Experience Manager
 title: getCompanyMembership
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # getCompanyMembership{#getcompanymembership}
 
-Obtient les appartenances d’un utilisateur dans un tableau d’entreprise.
+Obtient l’appartenance d’un utilisateur à un tableau de la société.
 
 Syntaxe
 
@@ -37,19 +37,19 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| userHandle | `xsd:string` | Non | Le nom d’utilisateur dont vous souhaitez obtenir les appartenances. |
+| Poignée utilisateur | `xsd:string` | Non | Handle destiné à l’utilisateur dont vous souhaitez obtenir les appartenances. |
 
-**Sortie (getCompanyMembershipReturn)**
+**Output (getCompanyMembershipReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| membershipArray | `types:CompanyMembershipArray` | Oui | Tableau des appartenances aux entreprises. |
+| Tableau d’adhérents | `types:CompanyMembershipArray` | Oui | Gamme d’adhésions d’entreprise. |
 
 ## Exemples {#section-e4958d104ea344a4a79f57d07b46eba7}
 
-Cet exemple de code prend un nom d’utilisateur et récupère tous les membres de l’entreprise de l’utilisateur dans un tableau . La réponse a été tronquée pour la concision.
+Cet exemple de code prend un pseudonyme d’utilisateur et obtient toutes les appartenances d’entreprise de l’utilisateur dans un tableau. La réponse a été tronquée par souci de concision.
 
-**Requête**
+**Demander**
 
 ```java
 <ns1:getCompanyMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

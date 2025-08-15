@@ -1,6 +1,6 @@
 ---
-title: Mise en évidence de la cible
-description: La mise en surbrillance de la cible d’action affichée autour de l’élément d’interface utilisateur de la visionneuse ciblée est contrôlée avec le sélecteur de classe CSS.
+title: Mise au point
+description: La mise en surbrillance de la mise au point d’entrée affichée autour de l’élément d’interface utilisateur de la visionneuse ciblée est contrôlée par le sélecteur de classe CSS.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 1%
 
 ---
 
-# Mise en évidence de la cible{#focus-highlight}
+# Mise au point{#focus-highlight}
 
-La mise en surbrillance de la cible d’action affichée autour de l’élément d’interface utilisateur de la visionneuse ciblée est contrôlée avec le sélecteur de classe CSS.
+La mise en surbrillance de la mise au point d’entrée affichée autour de l’élément d’interface utilisateur de la visionneuse ciblée est contrôlée par le sélecteur de classe CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **Propriétés CSS**
 
-L’aspect est contrôlé à l’aide du sélecteur de classe CSS suivant :
+L’apparence est contrôlée par le sélecteur de classe CSS suivant :
 
 ```
 .s7smartcropvideoviewer *:focus
@@ -29,14 +29,14 @@ L’aspect est contrôlé à l’aide du sélecteur de classe CSS suivant :
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> propriété CSS </p> </th> 
+   <th colname="col1" class="entry"> <p> Propriété CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> composition </span> </p> </td> 
-   <td colname="col2"> <p>Style de mise en surbrillance du focus. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> contour </span> </p> </td> 
+   <td colname="col2"> <p>Style de mise au point de mise en évidence. </p> </td> 
   </tr> 
  </tbody> 
 </table>

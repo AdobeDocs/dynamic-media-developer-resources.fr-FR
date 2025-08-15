@@ -1,6 +1,6 @@
 ---
 title: preloadImage
-description: Commande URL de la visionneuse de carrousel.
+description: Commande d’URL de la visionneuse de carrousel.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # preloadImage {#preloadimage}
 
-Commande URL de la visionneuse de carrousel.
+Commande d’URL de la visionneuse de carrousel.
 
 `preloadImage=0|1`
 
@@ -22,7 +22,7 @@ Commande URL de la visionneuse de carrousel.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Activez (<span class="codeph"> 1</span>) ou désactivez (<span class="codeph"> 0</span>) la fonction de préchargement d’image. </p> <p>Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md" format="dita" scope="local"> Preload image</a>. </p> </td> 
+   <td colname="col2"> <p> Activez (<span class="codeph"> 1</span>) ou désactivez (<span class="codeph"> 0</span>) la fonction de préchargement d’image. </p> <p>Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-preload-image.md" format="dita" scope="local">’image de préchargement</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

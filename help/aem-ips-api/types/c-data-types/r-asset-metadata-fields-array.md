@@ -1,6 +1,6 @@
 ---
 title: AssetMetadataFieldsArray
-description: Tableau de AssetMetadataFields. Utilisé par getAssetMetadataFields pour renvoyer tous les champs de métadonnées de ressource dans un seul appel avec des résultats regroupés par type de ressource.
+description: Tableau de AssetMetadataFields. Utilisé par getAssetMetadataFields pour renvoyer tous les champs de métadonnées de ressource en un seul appel avec des résultats regroupés par type de ressource.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # [!DNL AssetMetadataFieldsArray]{#assetmetadatafieldsarray}
 
-Tableau de AssetMetadataFields. Utilisé par getAssetMetadataFields pour renvoyer tous les champs de métadonnées de ressource dans un seul appel avec des résultats regroupés par type de ressource.
+Tableau de AssetMetadataFields. Utilisé par getAssetMetadataFields pour renvoyer tous les champs de métadonnées de ressource en un seul appel avec des résultats regroupés par type de ressource.
 
 Syntaxe
 

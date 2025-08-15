@@ -1,7 +1,7 @@
 ---
-description: Met à jour les métadonnées en mode batch.
+description: Met à jour les métadonnées en mode trait.
 solution: Experience Manager
-title: BatchMetadataUpdate
+title: Mise à jour des métadonnées par lot
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 07998708-f7c2-42bc-b128-c81f86fd1760
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # [!DNL BatchMetadataUpdate]{#batchmetadataupdate}
 
-Met à jour les métadonnées en mode batch.
+Met à jour les métadonnées en mode trait.
 
 Syntaxe
 
@@ -22,5 +22,5 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| assetHandleArray | `types:HandleArray` | Tableau des gestionnaires de ressources. |
-| updateArray | `types:MetadataUpdateArray` | Tableau de gestionnaires de mise à jour des métadonnées. |
+| assetHandleArray | `types:HandleArray` | Tableau de descripteurs de ressources. |
+| Mettre à jour le tableau | `types:MetadataUpdateArray` | Tableau des indicateurs de mise à jour des métadonnées. |

@@ -1,7 +1,7 @@
 ---
 description: Historique de publication d’une ressource.
 solution: Experience Manager
-title: PublishHistory
+title: Historique de publication
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b287b822-7994-45af-8ffd-95f1dd12a782
@@ -22,7 +22,7 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| serverName | `xsd:string` | Nom du serveur propriétaire de l’historique de publication. |
-| contextName | `xsd:string` | Nom du contexte de l’historique de Publish. |
-| publishFormat | `xsd:string` | Format Publish. |
-| lastPublished | `xsd:dateTime` | Date et heure de la dernière publication de la ressource. |
+| Nom du serveur | `xsd:string` | Nom du serveur propriétaire de l’historique de publication. |
+| Nom du contexte | `xsd:string` | Publish nom du contexte de l’historique. |
+| Format de publication | `xsd:string` | Publish format. |
+| Dernière publication | `xsd:dateTime` | Date et heure de la dernière publication de la ressource. |

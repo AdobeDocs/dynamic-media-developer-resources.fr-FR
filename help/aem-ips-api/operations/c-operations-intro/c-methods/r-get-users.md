@@ -1,5 +1,5 @@
 ---
-description: Obtient un tableau d’utilisateurs tel que spécifié par les gestionnaires de rôles d’entreprise, de groupe et d’utilisateur. Cette opération permet de trier les utilisateurs renvoyés et les filtrer par caractère.
+description: Obtient un tableau d’utilisateurs tel que spécifié par les descripteurs de rôle de société, de groupe et d’utilisateur. Cette opération permet de trier les utilisateurs récurrents et de filtrer les données par caractère.
 solution: Experience Manager
 title: getUsers
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # getUsers{#getusers}
 
-Obtient un tableau d’utilisateurs tel que spécifié par les gestionnaires de rôles d’entreprise, de groupe et d’utilisateur. Cette opération permet de trier les utilisateurs renvoyés et les filtrer par caractère.
+Obtient un tableau d’utilisateurs tel que spécifié par les descripteurs de rôle de société, de groupe et d’utilisateur. Cette opération permet de trier les utilisateurs récurrents et de filtrer les données par caractère.
 
 ## Types d’utilisateurs autorisés {#section-6a8f23cc6b22442d8776f701016971ed}
 
@@ -26,28 +26,28 @@ Obtient un tableau d’utilisateurs tel que spécifié par les gestionnaires de 
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| includeInactive | `xsd:boolean` | Non | Incluez ou excluez les utilisateurs inactifs. Les utilisateurs non administrateurs d’IPS doivent être membres actifs d’au moins une société pour être autorisés à effectuer des appels d’API. Une erreur d’autorisation est renvoyée si l’utilisateur n’a aucun abonnement actif à la société. |
+| includeInactive | `xsd:boolean` | Non | Inclure ou exclure des utilisateurs inactifs. Les utilisateurs administrateurs non-IPS doivent être un membre actif d’au moins une entreprise pour être autorisés à effectuer des appels d’API. Une erreur d’autorisation est renvoyée si l’utilisateur n’a aucun abonnement d’entreprise actif. |
 | includeInvalid | `xsd:boolean` | Non | Vous permet d’inclure/d’exclure des utilisateurs non valides. |
-| companyHandleArray | `types:HandleArray` | Non | Filtrez les résultats par société. |
-| groupHandleArray | `types:HandleArray` | Non | Filtrage des résultats par groupe. |
-| userRoleArray | `types:StringArray` | Non | Filtrage des résultats par rôle utilisateur. |
-| charFilterField | `xsd:string` | Non | Filtrage des résultats par préfixe de chaîne du champ (voir [!DNL Trash State).] |
-| charFilter | `xsd:string` | Non | Filtrez les résultats selon un caractère spécifique. |
-| sortBy | `xsd:string` | Non | Choix des champs de tri des utilisateurs. |
-| recordsPerPage | `xsd:int` | Non | Renvoie le nombre d’enregistrements spécifié par page. |
-| resultsPage | `xsd:int` | Non | Page Résultats . |
+| companyHandleArray | `types:HandleArray` | Non | Filtrer les résultats par société. |
+| GroupHandleArray | `types:HandleArray` | Non | Filtrer les résultats par groupe. |
+| UserRoleArray | `types:StringArray` | Non | Filtrer les résultats par rôle utilisateur. |
+| CharFilterField | `xsd:string` | Non | Filtrer les résultats selon le préfixe de chaîne du champ (voir [!DNL Trash State).] |
+| Filtre de caractères | `xsd:string` | Non | Filtrer les résultats selon un caractère spécifique. |
+| Tri par | `xsd:string` | Non | Choix des champs de tri des utilisateurs. |
+| recordsPerPage | `xsd:int` | Non | Renvoie le nombre spécifié d’enregistrements par page. |
+| Page de résultats | `xsd:int` | Non | Page Résultats. |
 
-**Sortie (getUsersReturn)**
+**Output (getUsersReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| userArray | `types:UserArray` | Oui | Tableau d’utilisateurs. |
+| Tableau d’utilisateurs | `types:UserArray` | Oui | Un éventail d’utilisateurs. |
 
 ## Exemples {#section-bc43a5dd7b4c4f048d25fc881554dab2}
 
 Cet exemple de code renvoie le tableau des utilisateurs pour plusieurs paramètres facultatifs. Les rôles utilisateur, les champs de filtre de caractères utilisateur et les champs de tri utilisateur sont déterminés à l’aide de constantes de chaîne spécifiques.
 
-**Requête**
+**Demander**
 
 ```java
 <ns1:getUsersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

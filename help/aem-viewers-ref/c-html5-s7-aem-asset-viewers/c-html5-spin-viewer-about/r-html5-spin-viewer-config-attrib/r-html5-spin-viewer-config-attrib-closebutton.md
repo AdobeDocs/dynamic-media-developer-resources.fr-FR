@@ -1,6 +1,6 @@
 ---
-title: close
-description: close
+title: closebutton
+description: closebutton
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
@@ -12,7 +12,7 @@ ht-degree: 12%
 
 ---
 
-# close{#closebutton}
+# closebutton{#closebutton}
 
 `closebutton=0|1`
 
@@ -20,7 +20,7 @@ ht-degree: 12%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p> Définissez cette variable sur <span class="codeph"> 1</span> pour activer l’affichage du bouton de fermeture ou sur <span class="codeph"> 0</span> pour masquer le bouton de fermeture. </p> </td> 
+   <td colname="col2"> <p> Définissez sur <span class="codeph"> 1</span> pour activer l’affichage du bouton de fermeture, ou sur <span class="codeph"> 0</span> pour masquer le bouton de fermeture. </p> </td> 
   </tr> 
  </tbody> 
 </table>

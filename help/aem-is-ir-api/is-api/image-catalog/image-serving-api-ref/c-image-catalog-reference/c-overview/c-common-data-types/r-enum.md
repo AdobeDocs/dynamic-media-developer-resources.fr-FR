@@ -1,5 +1,5 @@
 ---
-description: Type de données d'énumération.
+description: Type de données d’énumération.
 solution: Experience Manager
 title: Enum
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # Enum{#enum}
 
-Type de données d&#39;énumération.
+Type de données d’énumération.
 
 Les valeurs d’énumération sont des entiers, généralement positifs, consécutifs et commençant à 0 ou 1.

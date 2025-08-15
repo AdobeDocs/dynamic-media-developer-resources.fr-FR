@@ -1,5 +1,5 @@
 ---
-description: Propriétés des ressources de type Visionneuse de ressources.
+description: Propriétés des ressources de type AssetSet.
 solution: Experience Manager
 title: AssetSetInfo
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 13%
 
 # [!DNL AssetSetInfo]{#assetsetinfo}
 
-Propriétés des ressources de type Visionneuse de ressources.
+Propriétés des ressources de type AssetSet.
 
 Syntaxe
 
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| setDefinition | `xsd:string` | Définition du jeu de ressources formatée selon les exigences de la visionneuse IS ciblée. Peut contenir des paramètres de substitution IPS facultatifs. |
+| setDefinition | `xsd:string` | Définition d’un ensemble de ressources formatée selon les exigences de la visionneuse IS ciblée. Peut contenir des paramètres de substitution IPS facultatifs. |

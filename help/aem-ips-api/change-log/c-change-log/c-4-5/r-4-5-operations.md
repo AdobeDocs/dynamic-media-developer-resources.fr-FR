@@ -1,7 +1,7 @@
 ---
-description: Décrit les méthodes d’opérations nouvelles et modifiées pour l’API IPS version 4.5.
+description: Décrit les méthodes d'opérations nouvelles et modifiées pour l'API IPS version 4.5.
 solution: Experience Manager
-title: Opérations - nouvelles et modifiées
+title: Opérations - Nouvelles et modifiées
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9033328a-d0ce-4ef2-b6ec-c6a81fbedf9d
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Opérations : nouvelles et modifiées{#operations-new-and-modified}
 
-Décrit les méthodes d’opérations nouvelles et modifiées pour l’API IPS version 4.5.
+Décrit les méthodes d&#39;opérations nouvelles et modifiées pour l&#39;API IPS version 4.5.
 
 Syntaxe
 
@@ -37,8 +37,8 @@ Syntaxe
 
 ## Opérations modifiées {#section-1c022cc62d274c349837013f1c02ca51}
 
-* `Asset` comprend les paramètres `animatedGifInfo`, `swcInfo`, `cssInfo` et `javascriptInfo`.
-* `createMetadataField` comprend un paramètre `isHidden` facultatif.
-* `saveMetadataField` comprend un paramètre `isHidden` facultatif.
+* `Asset` inclut les paramètres `animatedGifInfo`, `swcInfo`, `cssInfo` et `javascriptInfo`.
+* `createMetadataField` comprend un paramètre de `isHidden` facultatif.
+* `saveMetadataField` comprend un paramètre de `isHidden` facultatif.
 * `searchAssets`
-* Le paramètre `renameFiles` a été abandonné pour les versions antérieures et supprimé de l’opération `renameAsset`. Le chemin d’accès au fichier virtuel est modifié pour correspondre au nouveau nom de la ressource (en conservant l’extension du fichier), tandis que les chemins d’accès aux fichiers physiques ne sont pas affectés. Les clients API doivent supprimer les références à ce paramètre lors de la mise à jour vers la nouvelle version de l’API.
+* Le paramètre `renameFiles` a été abandonné pour les versions antérieures et supprimé de l’opération `renameAsset`. Le chemin d’accès au fichier virtuel est modifié pour correspondre au nouveau nom de ressource (en préservant l’extension de fichier), tandis que les chemins d’accès aux fichiers physiques ne sont pas affectés. Les clients d’API doivent supprimer les références à ce paramètre lors de la mise à jour vers la nouvelle version de l’API.

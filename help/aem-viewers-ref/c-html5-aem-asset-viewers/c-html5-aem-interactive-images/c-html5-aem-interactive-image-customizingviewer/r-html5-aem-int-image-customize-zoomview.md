@@ -1,6 +1,6 @@
 ---
-title: Mode Zoom
-description: La vue principale se compose de l’image statique.
+title: Vue de zoom
+description: La vue principale est constituée de l’image statique.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Images
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 1%
 
 ---
 
-# Mode Zoom{#zoom-view}
+# Vue de zoom{#zoom-view}
 
-La vue principale se compose de l’image statique.
+La vue principale est constituée de l’image statique.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriétés CSS de la zone de visionneuse principale**
+**Propriétés CSS de la zone principale de la visionneuse**
 
-L’aspect de la zone d’affichage est contrôlé à l’aide du sélecteur de classe CSS suivant :
+L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe CSS suivant :
 
 ```
 .s7interactiveimage .s7zoomview
@@ -29,19 +29,19 @@ L’aspect de la zone d’affichage est contrôlé à l’aide du sélecteur de 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> propriété CSS </p> </th> 
+   <th colname="col1" class="entry"> <p> Propriété CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> couleur d’arrière-plan </span> </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan au format hexadécimal de la vue principale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : pour rendre la vue principale transparente.
+Exemple - pour rendre la vue principale transparente.
 
 ```
 .s7interactiveimage .s7zoomview { 

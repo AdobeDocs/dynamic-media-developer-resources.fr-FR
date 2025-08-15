@@ -1,6 +1,6 @@
 ---
 title: vidéo
-description: Commande URL pour la visionneuse de vidéos avec recadrage intelligent.
+description: URL de la visionneuse de vidéos avec recadrage intelligent.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
@@ -14,23 +14,23 @@ ht-degree: 11%
 
 # vidéo{#video}
 
-Commande URL pour la visionneuse de vidéos avec recadrage intelligent.
+URL de la visionneuse de vidéos avec recadrage intelligent.
 
-` video= *`videoURL`*`
+` video= *`URL de vidéo`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoURL</span> </span> </p> </td> 
-   <td colname="col2"> <p> URL absolue vers une vidéo externe. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> URL</span> de vidéo </span> </p> </td> 
+   <td colname="col2"> <p> URL absolue d’une vidéo externe. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Propriétés {#section-f42369774e2740dcb399626a0e4e930e}
 
-Obligatoire. (Sauf si le paramètre `asset` est utilisé. Voir [Prise en charge des vidéos externes]
-(../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3).
+Obligatoire. (Sauf si `asset` le paramètre est utilisé. Voir la [prise en charge] vidéo externe
+(.. /.. /.. /c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3).)
 
 ## Par défaut {#section-d016470e92a74f98a18c4ab3489410a5}
 

@@ -16,11 +16,11 @@ ht-degree: 10%
 
 Nom de la macro.
 
-Les noms de macro peuvent être composés de toute combinaison de lettres ASCII, nombres, &#39;-&#39;, &#39;_&#39; et &#39;.&#39;.
+Les noms de macro peuvent être constitués de n’importe quelle combinaison de lettres ASCII, de chiffres, de traits de soulignement et de points.
 
 ## Propriétés {#section-3952a070c21646ab914cc76f289ed8ce}
 
-Chaîne de texte. Obligatoire. Chaque valeur macro::Name doit être unique dans le tableau. Les noms des macros ne sont pas sensibles à la casse.
+Chaîne de texte. Obligatoire. Chaque valeur macro ::Name doit être unique dans le tableau. Les noms de macro ne sont pas sensibles à la casse.
 
 ## Par défaut {#section-031d1931a7694da88c3f7d623eabcb78}
 

@@ -1,6 +1,6 @@
 ---
-title: Effet de l’icône d’affichage à 360°
-description: L’indicateur de rotation est superposé sur la zone de la vue à 360°. Elle s’affiche lorsque l’image est à l’état réinitialisé et dépend également du paramètre iconEffet.
+title: Effet d’icône du mode Rotation
+description: L’indicateur de rotation est superposé à la zone d’affichage de la rotation. Il s’affiche lorsque l’image est dans un état de réinitialisation et dépend également du paramètre iconeffect.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 ---
 
-# Effet de l’icône d’affichage à 360°{#spin-view-icon-effect}
+# Effet d’icône du mode Rotation{#spin-view-icon-effect}
 
-L’indicateur de rotation est superposé sur la zone de la vue à 360°. Elle s’affiche lorsque l’image est à l’état réinitialisé et dépend également du paramètre iconEffet.
+L’indicateur de rotation est superposé à la zone d’affichage de la rotation. Il s’affiche lorsque l’image est dans un état de réinitialisation et dépend également du paramètre iconeffect.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriétés CSS de la zone de visionneuse principale**
+**Propriétés CSS de la zone principale de la visionneuse**
 
-L’aspect de la zone d’affichage est contrôlé à l’aide du sélecteur de classe CSS suivant :
+L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe CSS suivant :
 
 ```
 .s7mixedmediaviewer .s7spinview .s7iconeffect
@@ -29,33 +29,33 @@ L’aspect de la zone d’affichage est contrôlé à l’aide du sélecteur de 
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> propriété CSS </p> </th> 
+   <th colname="col1" class="entry"> <p> Propriété CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
-   <td colname="col2"> <p> Illustration de l’indicateur de rotation. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan </span> </p> </td> 
+   <td colname="col2"> <p> Illustration d’indicateur de rotation. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> position de l’arrière-plan </span> </p> </td> 
+   <td colname="col2"> <p> Position à l’intérieur du sprite de l’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites </a>CSS. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Largeur </span> </p> </td> 
    <td colname="col2"> <p>Largeur de l’indicateur de rotation. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> hauteur </span> </p> </td> 
    <td colname="col2"> <p>Hauteur de l’indicateur de rotation. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-L’indicateur de rotation prend en charge le sélecteur d’attributs `state` défini sur `spin_1D` s’il existe une visionneuse à 360° unidimensionnelle et sur `spin_2D` s’il existe une visionneuse à 360° multidimensionnelle.
+L’indicateur de rotation prend en charge le sélecteur d’attributs `state` qui est défini sur `spin_1D` s’il existe un jeu à 360° unidimensionnel et sur `spin_2D` s’il existe un jeu à 360° multidimensionnel.
 
-Exemple : pour configurer un indicateur de zoom de 100 x 100 pixels.
+Exemple - Pour configurer un indicateur de zoom de 100 x 100 pixels.
 
 ```
 .s7mixedmediaviewer .s7spinview .s7iconeffect { 

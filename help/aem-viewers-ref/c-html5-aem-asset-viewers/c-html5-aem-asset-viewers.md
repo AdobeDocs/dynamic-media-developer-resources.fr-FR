@@ -17,7 +17,7 @@ ht-degree: 2%
 Les visionneuses suivantes fonctionnent exclusivement sous Adobe Experience Manager Assets.
 
 * [Carrousel](c-html5-aem-carousel/c-html5-aem-carousel.md)
-* [Image interactive](c-html5-aem-interactive-images/c-html5-aem-interactive-images.md)
+* [Interactive Image](c-html5-aem-interactive-images/c-html5-aem-interactive-images.md)
 * [Vidéo interactive](c-html5-aem-int-video/c-html5-aem-int-video.md)
 * [Recadrage intelligent de la vidéo](c-html5-aem-smartcropvideo/c-html5-aem-smartcropvideo-viewer-reference.md)
-* [Video360](c-html5-aem-video360/c-html5-aem-video360.md)
+* [Vidéo 360](c-html5-aem-video360/c-html5-aem-video360.md)

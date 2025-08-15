@@ -1,6 +1,6 @@
 ---
 title: en-tête
-description: Elément d’en-tête de réponse HTTP. Facultatif dans les éléments <rule> .
+description: Élément d’en-tête de réponse HTTP. Facultatif dans <rule> les éléments.</rule>
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,13 +14,13 @@ ht-degree: 2%
 
 # en-tête{#header}
 
-Elément d’en-tête de réponse HTTP. Facultatif dans les éléments `<rule>`.
+Élément d’en-tête de réponse HTTP. Facultatif dans les `<rule>` éléments.
 
 ## Attributs {#section-6e903ab4c64f4b1488b8ae74274f50a6}
 
-**`Name`= &quot;*text*&quot;** : obligatoire. Indique le nom de l’en-tête HTTP.
+**`Name`= « *text* »** : Obligatoire. Spécifie le nom de l’en-tête HTTP.
 
-**`Action`= &quot;set&quot; |`"add"`** : facultatif. La valeur par défaut est `"set"`, ce qui remplace toute valeur d’en-tête actuelle. Spécifiez `"add"` afin de pouvoir ajouter la valeur d’en-tête, séparée par une virgule.
+**`Action`= « set » |`"add"`**:Optionnel. La valeur par défaut est `"set"`, qui remplace toute valeur d’en-tête actuelle. Spécifiez `"add"` cette règle afin de pouvoir ajouter la valeur de l’en-tête séparée par une virgule.
 
 ## Données {#section-a387f541396c49d99c29692a38032914}
 
@@ -30,11 +30,11 @@ Valeur d’en-tête.
 
 Permet d’ajouter de nouveaux en-têtes de réponse HTTP et d’ajouter ou de remplacer des valeurs d’en-têtes prédéfinis. Les noms et valeurs doivent être conformes aux normes HTTP. Aucun codage supplémentaire n’est appliqué.
 
-Les variables de substitution de la diffusion d’images peuvent être utilisées dans le nom de l’en-tête et la valeur de l’en-tête. Cela permet de contrôler les deux chaînes de la requête.
+Les variables de substitution Image Serving peuvent être utilisées dans le nom et la valeur de l’en-tête. Cela permet de contrôler les deux chaînes à partir de la demande.
 
 ## Exemple {#section-cb5b738b9b93407cb2f4d35af3e59c02}
 
-La règle suivante applique un en-tête personnalisé lorsque la valeur d’en-tête est spécifiée dans la requête sous la forme d’une variable :
+La règle suivante applique un en-tête personnalisé lorsque la valeur d’en-tête est spécifiée dans la requête en tant que variable :
 
 ```
 <rule OnMatch="continue">
@@ -43,6 +43,6 @@ La règle suivante applique un en-tête personnalisé lorsque la valeur d’en-t
 </rule>
 ```
 
-Cette règle est déclenchée par la requête suivante, en définissant l’en-tête de réponse HTTP `Edge-Control::no-store` :
+Cette règle est déclenchée par la requête suivante, définissant l’en-tête `Edge-Control::no-store`de réponse HTTP :
 
 `http://server/is/image/cat/id?$Edge-Control=no-store`

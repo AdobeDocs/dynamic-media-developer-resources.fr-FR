@@ -1,7 +1,7 @@
 ---
-description: Publie les fichiers sur les serveurs d’images.
+description: Publie les fichiers sur les serveurs d’image.
 solution: Experience Manager
-title: ImageServingPublishJob
+title: Tâche de publication de serveur d’images
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: dad6ca6b-6bfe-4788-8ba7-f6cb2a734800
@@ -14,7 +14,7 @@ ht-degree: 13%
 
 # [!DNL ImageServingPublishJob]{#imageservingpublishjob}
 
-Publie les fichiers sur les serveurs d’images.
+Publie les fichiers sur les serveurs d’image.
 
 Syntaxe
 
@@ -23,5 +23,5 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | publishType | `xsd:string` | L’un des types de publication disponibles. |
-| emailSetting | `xsd:string` | Choix des paramètres de courrier électronique. |
-| httpCompletionUrl | `xsd:string` | URL d’envoi d’un avis de fin d’exécution. |
+| Définition du courriel | `xsd:string` | Choix des paramètres d’email. |
+| httpCompletionUrl | `xsd:string` | URL pour envoyer un avis de fin de tâche. |

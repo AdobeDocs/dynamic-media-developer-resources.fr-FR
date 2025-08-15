@@ -18,7 +18,7 @@ Les données de propriété se composent d’une chaîne de texte représentant 
 
 Une propriété se compose d’un nom de propriété et d’une valeur de propriété, séparés par =.
 
-Plusieurs propriétés sont séparées par des séparateurs de ligne, qui peuvent être `??` ou `<CR><LF>`. Si la chaîne de données de propriété entière n’est pas entre guillemets, le serveur remplace chaque occurrence de `??` par `<CR><LF>` avant de transmettre les données au client. Les noms des propriétés peuvent être composés de lettres, de nombres, de &#39;.&#39;, de &#39;-&#39; et de &#39;_&#39;. Les noms de propriété ne sont pas sensibles à la casse.
+Plusieurs propriétés sont séparées par des séparateurs de ligne, qui peuvent être `??` ou `<CR><LF>`. Si l’intégralité de la chaîne de données de propriété n’est pas mise entre guillemets, le serveur remplace chaque occurrence de `??` par `<CR><LF>` avant de transmettre les données au client. Les noms des propriétés peuvent être constitués de lettres, de chiffres, de caractères &#39;.&#39;, &#39;-&#39; et &#39;_&#39;. Les noms de propriété ne sont pas sensibles à la casse.
 
 Les valeurs de propriété ne doivent pas inclure de séparateurs de ligne.
 

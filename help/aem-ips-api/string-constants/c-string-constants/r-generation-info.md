@@ -1,7 +1,7 @@
 ---
 description: Utilisé par getGenerationInfo/engine.
 solution: Experience Manager
-title: Informations sur la génération
+title: Informations de génération
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0293d28e-a023-4a79-9a3b-fc7b5cfbc98a
@@ -12,7 +12,7 @@ ht-degree: 14%
 
 ---
 
-# Informations sur la génération{#generation-info}
+# Informations de génération{#generation-info}
 
 Utilisé par getGenerationInfo/engine.
 

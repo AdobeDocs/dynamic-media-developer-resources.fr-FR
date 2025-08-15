@@ -1,5 +1,5 @@
 ---
-description: Tableau de mises à jour des métadonnées de lot.
+description: Tableau de mises à jour de métadonnées par lots.
 solution: Experience Manager
 title: BatchMetadataUpdateArray
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 25%
 
 # [!DNL BatchMetadataUpdateArray]{#batchmetadataupdatearray}
 
-Tableau de mises à jour des métadonnées de lot.
+Tableau de mises à jour de métadonnées par lots.
 
 Syntaxe
 

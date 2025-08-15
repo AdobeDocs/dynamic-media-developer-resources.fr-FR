@@ -1,6 +1,6 @@
 ---
 title: Désinstallation sous Windows
-description: Suivez ces instructions pour désinstaller Image Rendering sur un système Windows.
+description: Suivez ces instructions pour désinstaller le rendu d’image sur un système Windows.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # Désinstallation sous Windows{#uninstalling-on-windows}
 
-Suivez ces instructions pour désinstaller Image Rendering sur un système Windows.
+Suivez ces instructions pour désinstaller le rendu d’image sur un système Windows.
 
-1. Lancez le programme de désinstallation en exécutant ` *[!DNL install_folder]*\_uninst\uninstaller.exe` ou, dans le menu Démarrer, sélectionnez **[!UICONTROL Programmes]** > **[!UICONTROL Scene7]** > **[!UICONTROL Image Rendering]** > **[!UICONTROL Uninstall]**.
+1. Lancez le programme de désinstallation en exécutant ` *[!DNL install_folder]*\_uninst\uninstaller.exe` ou, dans le menu Démarrer, sélectionnez **[!UICONTROL Programmes]** > **[!UICONTROL Scene7]** > **[!UICONTROL Rendu d’image]** > **[!UICONTROL Désinstaller]**.

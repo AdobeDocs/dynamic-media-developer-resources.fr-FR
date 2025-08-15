@@ -38,22 +38,22 @@ Syntaxe
 
 ## Paramètres {#section-1742fcb196224545b270eb8241f757a8}
 
-**Entrée (batchGetAssetPublishContextsParam)**
+**Input (batchGetAssetPublishContextsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Traitez la société. |
-| assetHandleArray | ` `types:HandleArray&quot; | Oui | Liste des ressources à interroger pour les contextes actifs (marqués pour publication). |
+| CompanyHandle | `xsd:string` | Oui | Manipuler à la société. |
+| assetHandleArray | ` `types:HandleArray&#39;&#39; | Oui | Liste des ressources à interroger pour les contextes actifs (marqués pour publication). |
 
-**Sortie (batchGetAssetPublishContextsReturn)**
+**Output (batchGetAssetPublishContextsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| assetPublishContextsArray | `types:assetPublishContextsArray` | Oui | Tableau de contextes de publication dans lequel chaque ressource est marquée pour publication. |
+| assetPublishContextsArray | `types:assetPublishContextsArray` | Oui | Tableau de contextes de publication dans lesquels chaque ressource est marquée pour publication. |
 
 ## Exemples {#section-457f6809ccfa425b9a0976313d613f4e}
 
-**Requête**
+**Demander**
 
 ```java {.line-numbers}
 <batchGetAssetPublishContextsParam xmlns="http://www.scene7.com/IpsApi/xsd/2011-11-04">

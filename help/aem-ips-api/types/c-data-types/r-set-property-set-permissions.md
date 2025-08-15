@@ -20,5 +20,5 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| setHandle | `xsd:string` | Gérez sur le jeu de propriétés. |
-| permissionsArray | `types:PermissionUpdateArray` | Tableau d’autorisations. |
+| Poignée setHandle | `xsd:string` | Poignée pour le jeu de propriétés. |
+| Tableau d’autorisations | `types:PermissionUpdateArray` | Ensemble d’autorisations. |

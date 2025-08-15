@@ -1,6 +1,6 @@
 ---
 title: InteractiveSwatches.autoscroll
-description: Attribut de configuration de la visionneuse de vidéos interactives.
+description: Attribut Configuration pour la visionneuse de vidéos interactives.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # InteractiveSwatches.autoscroll{#interactiveswatches-autoscroll}
 
-Attribut de configuration de la visionneuse de vidéos interactives.
+Attribut Configuration pour la visionneuse de vidéos interactives.
 
 `[InteractiveSwatches.|<containerId>_interactiveSwatches.]autoscroll=0|1`
 
@@ -22,7 +22,7 @@ Attribut de configuration de la visionneuse de vidéos interactives.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Active ou désactive la possibilité pour les échantillons interactifs de défiler automatiquement avec chaque transition multimédia, comme pendant la lecture vidéo. </p> </td> 
+   <td colname="col2"> <p> Active ou désactive la possibilité pour les échantillons interactifs de défiler automatiquement avec chaque transition multimédia, par exemple pendant la lecture vidéo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

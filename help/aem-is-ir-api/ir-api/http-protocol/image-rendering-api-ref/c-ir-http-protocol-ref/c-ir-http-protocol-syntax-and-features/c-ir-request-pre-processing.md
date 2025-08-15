@@ -1,6 +1,6 @@
 ---
-title: Prétraitement des requêtes
-description: Le rendu d’image fournit un préprocesseur de requêtes simple basé sur les règles de correspondance et de substitution des expressions régulières.
+title: Pré-traitement d’une demande
+description: Image Rendering fournit un préprocesseur de requête simple basé sur des règles de correspondance et de substitution d’expressions régulières.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,20 +12,20 @@ ht-degree: 0%
 
 ---
 
-# Prétraitement des requêtes{#request-pre-processing}
+# Pré-traitement d’une demande{#request-pre-processing}
 
-Le rendu d’image fournit un préprocesseur de requêtes simple basé sur les règles de correspondance et de substitution des expressions régulières.
+Image Rendering fournit un préprocesseur de requête simple basé sur des règles de correspondance et de substitution d’expressions régulières.
 
-Des collections de règles (ensembles de règles) peuvent être jointes à chaque catalogue de matières, y compris le catalogue par défaut. Les règles sont spécifiées avec des fichiers au format XML.
+Des collections de règles (ensembles de règles) peuvent être attachées à chaque catalogue de matériaux, y compris le catalogue par défaut. Les règles sont spécifiées avec des fichiers au format XML.
 
-Les règles de prétraitement des requêtes peuvent modifier les parties de chemin et de requête des requêtes avant qu’elles ne soient traitées par l’analyseur de rendu d’image. Ce précepte comprend la manipulation du chemin, l’ajout de commandes, la modification des valeurs de commande et l’application de modèles ou de macros. Des règles peuvent également être utilisées pour configurer et remplacer certaines fonctionnalités normalement contrôlées uniquement avec des attributs de catalogue, comme la définition de la taille de l’image de réponse par défaut ou la limitation du service HTTP à des adresses IP client spécifiques.
+Les règles de prétraitement des demandes peuvent modifier les parties chemin et requête des requêtes avant qu’elles ne soient traitées par l’analyseur Image Rendering. Ce précepte inclut la manipulation du chemin d’accès, l’ajout de commandes, la modification des valeurs de commande et l’application de modèles ou de macros. Les règles peuvent également être utilisées pour configurer et remplacer certaines fonctionnalités qui ne sont normalement contrôlées qu’avec des attributs de catalogue, telles que la définition de la taille d’image de réponse par défaut ou la limitation du service HTTP à des adresses IP client spécifiques.
 
-Les règles de prétraitement des demandes sont adaptées à diverses applications, dont certaines sont répertoriées ci-dessous :
+Les règles de prétraitement des requêtes conviennent à diverses applications, dont certaines sont répertoriées ci-dessous :
 
-* Implémentez un mécanisme *virtual paths* qui permet de mapper à nouveau le chemin de requête sur les chemins de fichier, FTP et HTTP.
-* Interdire l’utilisation de commandes intensives en processeur pour éviter les abus de serveur.
-* Contrôlez les paramètres de qualité de l’image (tels que la qualité ou l’accentuation du JPEG) en fonction du chemin d’accès à la requête ou du nom de l’image.
+* Implémentez un *mécanisme de chemins* virtuels, qui permet de remapper le chemin d’accès de la demande aux chemins d’accès au fichier, FTP et HTTP.
+* Interdiction de l’utilisation de commandes gourmandes en ressources CPU pour éviter toute utilisation abusive du serveur.
+* Contrôlez les paramètres de qualité d’image (tels que la qualité JPEG ou l’accentuation) en fonction du chemin d’accès ou du nom de l’image de la demande.
 
-Vous trouverez des informations détaillées sur la création, l’utilisation et la gestion des jeux de règles dans la référence du jeu de règles.
+Vous trouverez des informations détaillées sur la création, l’utilisation et la gestion des ensembles de règles dans la Référence des ensembles de règles.
 
-Voir aussi Référence du jeu de règles, attribut::RuleSetFile
+Voir aussi Référence d’ensemble de règles, attribut ::RuleSetFile

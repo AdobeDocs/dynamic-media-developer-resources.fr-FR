@@ -16,4 +16,4 @@ ht-degree: 0%
 
 L’étape 2 des transformations de calque d’image est modifiée comme suit pour les miniatures (c’est-à-dire si req=tmb).
 
-* `2.` Si `size=` est spécifié, ajustez l’image (recadrée) dans le rect `size=` à l’aide des règles de miniature. Si `size=` n’est pas spécifié, effectuez une mise à l’échelle sur la base de `res=` ou, si `res=` n’est pas spécifié, ajustez l’image (recadrée) dans la zone de travail recto à l’aide des règles de miniature décrites ci-dessous.
+* `2.` Si `size=` est spécifié, ajustez l’image (recadrée) dans le rectangle de `size=` à l’aide de règles de miniature. Si `size=` n’est pas spécifié, définissez une échelle basée sur `res=` ou, si `res=` n’est pas spécifié, ajustez l’image (recadrée) dans le rectangle de la zone de travail à l’aide des règles de miniature décrites ci-dessous.

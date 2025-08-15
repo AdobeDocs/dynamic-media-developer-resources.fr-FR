@@ -1,6 +1,6 @@
 ---
 title: VideoPlayer.ssl
-description: Attribut de configuration de la visionneuse de vidéos de supports variés.
+description: Attribut de configuration pour la visionneuse de vidéos de médias mixtes.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # VideoPlayer.ssl{#videoplayer-ssl}
 
-Attribut de configuration de la visionneuse de vidéos de supports variés.
+Attribut de configuration pour la visionneuse de vidéos de médias mixtes.
 
 <!-- >[!NOTE]
 >
@@ -25,8 +25,8 @@ Attribut de configuration de la visionneuse de vidéos de supports variés.
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> auto|on</span> </p> </td> 
-   <td colname="col2"> <p> Contrôle si la vidéo est diffusée via une connexion SSL sécurisée (HTTPS) ou une connexion non sécurisée (HTTP). </p> <p>Lorsqu’il est défini sur <span class="codeph"> auto</span>, le protocole de diffusion vidéo est hérité du protocole de la page web d’incorporation. Si la page web est chargée via HTTPS, la vidéo est également diffusée via HTTPS, et inversement. Si la page web est sur HTTP, la vidéo est diffusée sur HTTP. </p> <p>Lorsqu’elle est définie sur <span class="codeph"> sur </span>, la diffusion vidéo s’effectue toujours sur une connexion sécurisée sans tenir compte du protocole de la page web. </p> <p>Concerne uniquement la diffusion vidéo publiée et est ignoré pour la prévisualisation vidéo en mode création. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> auto|activé</span> </p> </td> 
+   <td colname="col2"> <p> Contrôle si la vidéo est diffusée via une connexion SSL sécurisée (HTTPS) ou une connexion non sécurisée (HTTP). </p> <p>Lorsque vous définissez ce paramètre sur <span class="codeph"> auto</span> le protocole de diffusion vidéo est hérité du protocole de la page web d’incorporation. Si la page web est chargée via HTTPS, la vidéo est également diffusée via HTTPS, et inversement. Si la page web se trouve sur HTTP, la vidéo est diffusée sur HTTP. </p> <p>Lorsque ce paramètre est défini sur <span class="codeph"> activé</span> la diffusion vidéo s’effectue toujours via une connexion sécurisée, quel que soit le protocole de la page web. </p> <p>Affecte uniquement la diffusion vidéo publiée et est ignorée pour la prévisualisation vidéo en mode création. </p> </td> 
   </tr> 
  </tbody> 
 </table>

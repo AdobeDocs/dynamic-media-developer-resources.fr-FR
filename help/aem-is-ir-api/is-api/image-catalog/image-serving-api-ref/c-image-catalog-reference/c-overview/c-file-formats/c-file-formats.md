@@ -16,7 +16,7 @@ ht-degree: 13%
 
 Tous les fichiers de catalogue sont des fichiers texte brut.
 
-* [Fichiers d’attributs du catalogue](r-catalog-attribute-files.md)
+* [Fichiers d’attributs de catalogue](r-catalog-attribute-files.md)
 * [Fichiers de données de catalogue](r-catalog-data-files.md)
-* [Fichiers de jeu de règles](r-rule-set-files.md)
+* [Fichiers de jeux de règles](r-rule-set-files.md)
 * [Encodage des caractères](r-is-cat-character-encoding.md)

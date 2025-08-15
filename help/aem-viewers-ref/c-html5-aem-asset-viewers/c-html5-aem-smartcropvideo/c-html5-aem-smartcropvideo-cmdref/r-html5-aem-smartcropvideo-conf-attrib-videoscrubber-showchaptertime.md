@@ -22,7 +22,7 @@ Attribut de configuration de la visionneuse de vidéos avec recadrage intelligen
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Désactive ou active l’heure du chapitre vidéo dans la barre de titre du libellé du chapitre vidéo. </p> </td> 
+   <td colname="col2"> <p> Désactive ou active la durée du chapitre vidéo dans la barre de titre du libellé du chapitre vidéo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,5 +1,5 @@
 ---
-description: Message client. Fournit un mécanisme permettant aux clients d’insérer des SMS courts dans le journal du serveur.
+description: Message client. Fournit un mécanisme permettant aux clients d'insérer des SMS courts dans le journal du serveur.
 solution: Experience Manager
 title: message
 feature: Dynamic Media Classic,SDK/API
@@ -14,14 +14,14 @@ ht-degree: 0%
 
 # message{#message}
 
-Message client. Fournit un mécanisme permettant aux clients d’insérer des SMS courts dans le journal du serveur.
+Message client. Fournit un mécanisme permettant aux clients d&#39;insérer des SMS courts dans le journal du serveur.
 
-`req=message&message= *`string`*`
+`req=message&message= *`chaîne`*`
 
 <table id="simpletable_9AF29AA336C4447BBC2FD4A7D43ED91B"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> string</span> </p> </td> 
-  <td class="stentry"> <p>Chaîne de message. </p></td> 
+  <td class="stentry"> <p>Chaîne du message. </p></td> 
  </tr> 
 </table>
 

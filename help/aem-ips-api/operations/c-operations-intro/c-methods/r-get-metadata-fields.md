@@ -1,5 +1,5 @@
 ---
-description: Récupère les champs de métadonnées définis par l’utilisateur associés à une ressource.
+description: Obtient les champs de métadonnées définis par l’utilisateur associés à une ressource.
 solution: Experience Manager
 title: getMetadataFields
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 13%
 
 # getMetadataFields{#getmetadatafields}
 
-Récupère les champs de métadonnées définis par l’utilisateur associés à une ressource.
+Obtient les champs de métadonnées définis par l’utilisateur associés à une ressource.
 
 Syntaxe
 
@@ -34,20 +34,20 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Le gérant de l&#39;entreprise. |
-| assetType | `xsd:string` | Oui | Types de ressources à partir desquels obtenir des métadonnées. |
+| CompanyHandle | `xsd:string` | Oui | Gérez l’entreprise. |
+| Type de ressource | `xsd:string` | Oui | Types de ressources à partir desquelles obtenir des métadonnées. |
 
 **Output (getMetadataFieldsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| Expression de code | `Code Phrase` |  |  |
+| Code Phrase | `Code Phrase` |  |  |
 
 ## Exemples {#section-dbfde1483d614b5aac2b491cb32115d7}
 
 Cet exemple de code renvoie des ressources de métadonnées pour le type et la société spécifiés. La réponse contient un tableau de champs de métadonnées dans un tableau de champs. Toutes les ressources n’ont pas les mêmes métadonnées. L’utilisateur IPS définit le champ de métadonnées de la ressource.
 
-**Requête**
+**Demander**
 
 ```java
 <ns1:getMetadataFieldsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

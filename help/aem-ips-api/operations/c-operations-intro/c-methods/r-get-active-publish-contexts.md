@@ -36,10 +36,10 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gestion de l’entreprise pour interroger les contextes de publication actifs |
+| CompanyHandle | `xsd:string` | Oui | Poignée adressée à la société pour interroger les contextes de publication actifs |
 
 **Output (getActivePublishContextsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| contextArray | `types:StringArray` | Oui | Tableau des contextes de publication actifs, qui peut inclure aucune ou plusieurs valeurs du contexte Publish. |
+| Tableau de contexte | `types:StringArray` | Oui | Tableau des contextes de publication actifs, qui peut inclure aucune ou plusieurs valeurs de Publish contexte. |

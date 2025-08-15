@@ -1,6 +1,6 @@
 ---
 title: IccProfileSrcCmyk
-description: Profil colorimétrique d’entrée par défaut CMJN. Spécifie le nom du profil de couleurs ICC à utiliser pour les images de matériaux CMJN qui n’incorporent pas de profil de couleurs.
+description: Profil colorimétrique d’entrée CMJN par défaut. Indique le nom du profil de couleurs ICC à utiliser pour les images en matériau CMJN qui n’incorporent pas de profil de couleurs.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 2%
 
 # IccProfileSrcCmyk{#iccprofilesrccmyk}
 
-Profil colorimétrique d’entrée par défaut CMJN. Spécifie le nom du profil de couleurs ICC à utiliser pour les images de matériaux CMJN qui n’incorporent pas de profil de couleurs.
+Profil colorimétrique d’entrée CMJN par défaut. Indique le nom du profil de couleurs ICC à utiliser pour les images en matériau CMJN qui n’incorporent pas de profil de couleurs.
 
 ## Propriétés {#section-0cee77438d914c319ec876edb3490821}
 
-Chaîne de texte. Si spécifié, doit être une valeur `icc::Name` valide provenant de la carte de profil ICC de ce catalogue d’images ou du catalogue par défaut, ou un chemin d’accès au fichier relatif à `attribute::RootPath`. Le profil ICC référencé doit être un profil CMJN.
+Chaîne de texte. Si spécifié, doit être une valeur de `icc::Name` valide de la carte de profil ICC de ce catalogue d’images ou du catalogue par défaut, ou un chemin d’accès au fichier relatif à `attribute::RootPath`. Le profil ICC référencé doit être un profil CMJN.
 
 ## Par défaut {#section-11f6239e0dd14827abf4a95c1b30161c}
 
-Hérité de `default::IccProfileSrcCmyk` si elle n’est pas définie ou si elle est vide. Si `attribute::IccProfileSrcCmyk` ne se résout pas en un profil valide, `attribute::IccProfileCmyk` est utilisé à la place.
+Hérité de `default::IccProfileSrcCmyk` si non défini ou si vide. Si `attribute::IccProfileSrcCmyk` ne correspond pas à un profil valide, `attribute::IccProfileCmyk` est utilisé à la place.
 
 ## Voir aussi {#section-88adddd70265459a9a5d2f50829a4ba7}
 

@@ -1,7 +1,7 @@
 ---
 description: Entrée dans un fichier ZIP.
 solution: Experience Manager
-title: ZipEntry
+title: Fermeture à glissière
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f71f57db-6717-4a27-b275-19bc4cf59ea4
@@ -23,7 +23,7 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | nom | `xsd:string` | Nom de l’entrée. |
-| isDirectory | `xsd:boolean` | Détermine si l’entrée est un répertoire. |
-| lastModified | `xsd:dateTime` | Date et heure de la dernière modification. |
-| compresséSize | `xsd:long` | Taille compressée. |
-| uncompressedSize | `xsd:long` | Taille non compressée. |
+| Répertoire isDirectory | `xsd:boolean` | Détermine si l’entrée est un répertoire. |
+| Dernière modification | `xsd:dateTime` | Date et heure de la dernière modification. |
+| Taille compressée | `xsd:long` | Taille compressée. |
+| Taille non compressée | `xsd:long` | Taille non compressée. |

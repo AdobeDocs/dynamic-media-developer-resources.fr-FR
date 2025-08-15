@@ -1,5 +1,5 @@
 ---
-description: Vérifie les conflits d’ID IPS en comparant les noms des ressources à tous les noms d’un espace de noms du catalogue de diffusion d’images/rendu d’image d’une entreprise.
+description: Recherche les conflits d’ID IPS en comparant les noms de ressources à tous les noms de l’espace de noms du catalogue Service d’images/Rendu d’images d’une entreprise.
 solution: Experience Manager
 title: checkAssetNames
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 11%
 
 # checkAssetNames{#checkassetnames}
 
-Vérifie les conflits d’ID IPS en comparant les noms des ressources à tous les noms d’un espace de noms du catalogue de diffusion d’images/rendu d’image d’une entreprise.
+Recherche les conflits d’ID IPS en comparant les noms de ressources à tous les noms de l’espace de noms du catalogue Service d’images/Rendu d’images d’une entreprise.
 
 Syntaxe
 
@@ -31,14 +31,14 @@ Syntaxe
 
 ## Paramètres {#section-9c75b00f2072453abea0bdefc6ad7c99}
 
-**Entrée (checkAssetNamesParam)**
+**Input (checkAssetNamesParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Non | Gestionnaire de la société qui contient l’utilisateur. |
+| companyHandle | `xsd:string` | Non | Identifiant de la société qui contient l’utilisateur. |
 | assetNamesArray | `types:StringArray` | Oui | Tableau de noms de ressources à vérifier. |
 
-**Sortie (checkAssetNamesReturn)**
+**Output (checkAssetNamesReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -46,7 +46,7 @@ Syntaxe
 
 ## Exemples {#section-bc5d120d74614a63a425ca3acc337219}
 
-Cet exemple de code demande les noms de ressources utilisés pour une société spécifiée. La réponse renvoie un tableau de noms de ressources en cours d’utilisation.
+Cet exemple de code demande les noms de ressources utilisés pour une société spécifiée. La réponse renvoie un tableau des noms de ressources en cours d’utilisation.
 
 **Requête**
 

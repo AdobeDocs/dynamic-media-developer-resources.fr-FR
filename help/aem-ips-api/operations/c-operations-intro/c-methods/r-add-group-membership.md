@@ -1,7 +1,7 @@
 ---
 description: Ajoute un utilisateur à un tableau de groupes.
 solution: Experience Manager
-title: addGroupMember
+title: addGroupMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: c5b5e155-d285-4304-98bc-1d938793e2c0
@@ -12,7 +12,7 @@ ht-degree: 10%
 
 ---
 
-# addGroupMember{#addgroupmembership}
+# addGroupMembership{#addgroupmembership}
 
 Ajoute un utilisateur à un tableau de groupes.
 
@@ -26,7 +26,7 @@ Syntaxe
 
 ## Paramètres {#section-e250f6ddb13646808c6a8860b6442bc5}
 
-**Entrée (addGroupMembershipParam)**
+**Input (addGroupMembershipParam)**
 
 <table id="table_71AD8902E4854CA5A12379DBA4DF17C7"> 
  <thead> 
@@ -39,16 +39,16 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> userHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Gérer l’utilisateur dont vous souhaitez ajouter l’appartenance à un groupe. </p> </td> 
+   <td colname="col4"> <p>Gérez vers l’utilisateur dont vous souhaitez ajouter l’appartenance à un groupe. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> groupHandleArray</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:HandleArray</span> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Tableau de poignées des groupes auxquels l’entreprise doit appartenir. </p> </td> 
+   <td colname="col4"> <p>Tableau de handles vers les groupes auxquels vous souhaitez que la société appartienne. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,7 +59,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-f7a1f40c3d7a40ea964b29056c734d81}
 
-Cet exemple ajoute un groupe à une société avec groupHandleArray. Cet exemple utilise un seul groupe.
+Cet exemple montre comment ajouter un groupe à une société ayant pour propriété groupHandleArray. Cet exemple utilise un seul groupe.
 
 **Requête**
 

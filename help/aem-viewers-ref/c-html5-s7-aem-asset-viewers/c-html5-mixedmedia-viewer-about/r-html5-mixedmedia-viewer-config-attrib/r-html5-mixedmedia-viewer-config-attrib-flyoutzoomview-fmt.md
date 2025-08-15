@@ -1,6 +1,6 @@
 ---
 title: FlyoutZoomView.fmt
-description: Indique le format d’image que le composant utilise pour charger les images à partir du serveur d’images.
+description: Spécifie le format d’image utilisé par le composant pour charger les images à partir d’Image Server.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 3%
 
 # FlyoutZoomView.fmt{#flyoutzoomview-fmt}
 
-Indique le format d’image que le composant utilise pour charger les images à partir du serveur d’images.
+Spécifie le format d’image utilisé par le composant pour charger les images à partir d’Image Server.
 
 `[FlyoutZoomView.|<containerId>_flyout.]fmt=jpg|jpeg|png|png-alpha|gif|gif-alpha`
 
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> Si le format spécifié se termine par <span class="codeph"> -alpha</span>, le composant effectue le rendu des images en tant que contenu transparent. Pour tous les autres formats d’image, le composant traite les images comme opaques. </p> <p>Par défaut, l’arrière-plan du composant est blanc. Par conséquent, pour le rendre transparent, définissez la propriété CSS <span class="codeph"> background-color</span> sur <span class="codeph"> transparent</span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
+   <td colname="col2"> <p> Si le format spécifié se termine par <span class="codeph"> -alpha</span>, le composant effectue le rendu des images en tant que contenu transparent. Pour tous les autres formats d’image, le composant traite les images comme opaques. </p> <p>Le composant possède un arrière-plan blanc par défaut. Par conséquent, pour la rendre transparente, définissez la propriété CSS de couleur <span class="codeph"> d’arrière-plan</span> sur <span class="codeph"> transparent</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

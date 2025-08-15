@@ -1,6 +1,6 @@
 ---
 title: Fichiers de configuration du serveur
-description: Tous les fichiers de configuration se trouvent dans le dossier install/conf et sont modifiables avec la plupart des éditeurs de texte. Redémarrez le serveur pour que les modifications prennent effet.
+description: Tous les fichiers de configuration se trouvent dans le dossier install_folder/conf et sont modifiables avec la plupart des éditeurs de texte. Redémarrez le serveur pour que les modifications soient prises en compte.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
@@ -14,25 +14,25 @@ ht-degree: 0%
 
 # Fichiers de configuration du serveur{#server-configuration-files}
 
-Tous les fichiers de configuration se trouvent dans le `install_folder/conf` et sont modifiables avec la plupart des éditeurs de texte. Redémarrez le serveur pour que les modifications prennent effet.
+Tous les fichiers de configuration se trouvent dans le `install_folder/conf` et sont modifiables avec la plupart des éditeurs de texte. Redémarrez le serveur pour que les modifications soient prises en compte.
 
 >[!NOTE]
 >
->La plupart des fichiers de configuration de serveur contiennent des propriétés et des valeurs supplémentaires qui ne sont pas décrites dans ce document. Ces propriétés sont destinées à un usage interne du serveur et ne doivent pas être modifiées si le support technique de Dynamic Media ne vous en a pas demandé.
+>La plupart des fichiers de configuration du serveur contiennent des propriétés et des valeurs supplémentaires qui ne sont pas décrites dans ce document. Ces propriétés sont destinées à une utilisation interne du serveur et ne doivent pas être modifiées, sauf instructions contraires du support technique de Dynamic Media.
 
-Ce document décrit les paramètres des fichiers de configuration suivants :
+Ce document présente les paramètres des fichiers de configuration suivants :
 
 <table id="table_D307B20E65B742A7AC3DEBF1E650719E"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b>Fichier de configuration</b> </th> 
-   <th class="entry"> <b>Description</b> </th> 
+   <th class="entry"> <b> Fichier de configuration </b> </th> 
+   <th class="entry"> <b> Description </b> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td> <p> <span class="filepath"> SupervisorRegistry.xml</span> </p> </td> 
-   <td> <p>Configuration du responsable serveur. </p> </td> 
+   <td> <p>Configuration du Superviseur de serveur. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="filepath"> server.xml</span> </p> </td> 
@@ -57,4 +57,4 @@ Ce document décrit les paramètres des fichiers de configuration suivants :
  </tbody> 
 </table>
 
-Les fichiers de configuration sont abordés plus en détail dans la suite de ce document.
+Les fichiers de configuration sont traités plus en détail plus loin dans ce document.

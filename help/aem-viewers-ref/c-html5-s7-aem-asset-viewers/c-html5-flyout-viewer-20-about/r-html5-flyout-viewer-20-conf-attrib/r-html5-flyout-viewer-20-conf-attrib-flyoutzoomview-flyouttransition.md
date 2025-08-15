@@ -19,20 +19,20 @@ ht-degree: 2%
 <table id="table_AB421835D2454ECD8AA40DBFADBAC65F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> none|slide|fade </span> </span> </p> </td> 
-   <td colname="col2"> <p> Indique le type d’effet appliqué lorsque la vue déroulante est affichée ou masquée. Avec <span class="codeph"> none </span>, l'image déroulante apparaît instantanément lorsqu'elle est activée et prête ; <span class="codeph"> la diapositive </span> fait jouer l'animation de la diapositive dans la direction gauche à droite ; <span class="codeph"> la FONDE </span> applique une transition alpha à l'image de la fenêtre déroulante. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> aucun|diapositive|fondu </span> </span> </p> </td> 
+   <td colname="col2"> <p> Spécifie le type d'effet appliqué lorsque la vue déroulante est affichée ou masquée. Avec <span class="codeph"> aucune </span>, l’image déroulante s’affiche instantanément lorsqu’elle est activée et prête ; <span class="codeph">’</span> de diapositives fait jouer l’animation de diapositives de gauche à droite ; <span class="codeph"> fondu </span> applique une transition alpha à l’image déroulante. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showtime </span> </span> </p> </td> 
-   <td colname="col2"> <p> Nombre de secondes nécessaires à l’exécution de l’animation du programme. </p> </td> 
+   <td colname="col2"> <p> Nombre de secondes nécessaires à l'exécution de l'animation du diaporama. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> showdelay </span> </span> </p> </td> 
-   <td colname="col2"> <p> Délai en secondes entre l’action de l’utilisateur qui initie l’animation du programme et le début de l’animation du programme lui-même. </p> </td> 
+   <td colname="col2"> <p> Délai en secondes entre l'action de l'utilisateur qui lance l'animation d'affichage et le début de l'animation d'affichage elle-même. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hidetime </span> </span> </p> </td> 
-   <td colname="col2"> <p> Nombre de secondes nécessaires à l’exécution de l’animation de masquage. </p> </td> 
+   <td colname="col2"> <p> Nombre de secondes nécessaires pour terminer l'animation du masquage. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hidedelay </span> </span> </p> </td> 

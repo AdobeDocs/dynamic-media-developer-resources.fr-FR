@@ -1,6 +1,6 @@
 ---
-description: Propriétés de la légende vidéo
-title: VideoCaptionInfo
+description: Propriétés des sous-titres vidéo
+title: Infos-sous-titres vidéo
 feature: Dynamic Media Classic,SDK/API,Video
 role: Developer,Admin
 exl-id: 75788ce3-7b89-4c7a-81b0-d36b13a89463
@@ -13,7 +13,7 @@ ht-degree: 12%
 
 # [!DNL VideoCaptionInfo]{#videocaptioninfo}
 
-Propriétés de la légende vidéo
+Propriétés des sous-titres vidéo
 
 ## Paramètres {#section-14d2cf17c4404266b6d85ffbaaee94e1}
 
@@ -27,18 +27,18 @@ Propriétés de la légende vidéo
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> originalPath</span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
-   <td colname="col3"> <p>Chemin d’accès relatif à la vidéo téléchargée. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> Chemin d’origine</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd :chaîne</span> </p> </td> 
+   <td colname="col3"> <p>Chemin d’accès relatif à la vidéo transférée. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> originalFile</span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> Fichier d’origine</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd :chaîne</span> </p> </td> 
    <td colname="col3"> <p>Nom de la vidéo originale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> fileSize</span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> Taille du fichier</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd :int</span> </p> </td> 
    <td colname="col3"> <p>Taille de fichier. </p> </td> 
   </tr> 
  </tbody> 

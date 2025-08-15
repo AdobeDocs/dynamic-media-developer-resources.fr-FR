@@ -1,5 +1,5 @@
 ---
-description: Tableau de projets.
+description: Un éventail de projets.
 solution: Experience Manager
 title: ProjectArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 # [!DNL ProjectArray]{#projectarray}
 
-Tableau de projets.
+Un éventail de projets.
 
 Syntaxe
 
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| éléments | `types:Project` | Tableau de projet. |
+| éléments | `types:Project` | Tableau du projet. |

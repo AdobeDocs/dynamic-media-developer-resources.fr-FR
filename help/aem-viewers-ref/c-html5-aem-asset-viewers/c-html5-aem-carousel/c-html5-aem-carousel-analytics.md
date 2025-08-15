@@ -16,9 +16,9 @@ ht-degree: 0%
 
 ## Suivi personnalisé {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Par défaut, la visionneuse envoie une requête HTTP de suivi unique au serveur d’images configuré avec le type de visionneuse et les informations de version.
+Par défaut, la visionneuse envoie une seule requête HTTP de suivi au serveur d’images configuré avec le type et les informations de version de la visionneuse.
 
-Pour s’intégrer à des systèmes d’analyse tiers, il est nécessaire d’écouter le rappel de la visionneuse `trackEvent` et de traiter l’argument `eventInfo` de la fonction de rappel si nécessaire. Le code suivant est un exemple de fonction de gestionnaire de ce type :
+Pour intégrer des systèmes d’analyse tiers, il est nécessaire d’écouter le rappel de la `trackEvent` visionneuse et de traiter l’argument `eventInfo` de la fonction de rappel si nécessaire. Le code suivant est un exemple de fonction de gestionnaire :
 
 ```java {.line-numbers}
 var carouselViewer = new s7viewers.CarouselViewer({ 
@@ -42,27 +42,27 @@ var carouselViewer = new s7viewers.CarouselViewer({
 });
 ```
 
-La visionneuse effectue le suivi des événements utilisateur du SDK suivants :
+La visionneuse effectue le suivi des événements utilisateur SDK suivants :
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Événement d’utilisateur du SDK </p> </th> 
-   <th colname="col2" class="entry"> <p>Envoyé lorsque.. </p> </th> 
+   <th colname="col1" class="entry"> <p>Evénement utilisateur SDK </p> </th> 
+   <th colname="col2" class="entry"> <p>Envoyé quand... </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
-   <td colname="col2"> <p>la visionneuse est chargée en premier. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CHARGER </span> </p> </td> 
+   <td colname="col2"> <p>La visionneuse est chargée en premier. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> BANNIÈRE </span> </p> </td> 
-   <td colname="col2"> <p>l’image de bannière de carrousel a été modifiée. </p> </td> 
+   <td colname="col2"> <p>L’image de la bannière de carrousel est modifiée. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> HREF </span> </p> </td> 
-   <td colname="col2"> <p>l’utilisateur active la zone réactive. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> HREF (en anglais seulement) </span> </p> </td> 
+   <td colname="col2"> <p>L’utilisateur active la zone réactive. </p> </td> 
   </tr> 
  </tbody> 
 </table>

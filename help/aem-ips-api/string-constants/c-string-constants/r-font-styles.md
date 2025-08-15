@@ -1,7 +1,7 @@
 ---
 description: Utilisé par FontFieldUpdate/style.
 solution: Experience Manager
-title: Styles de police
+title: Styles de polices
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: caf14eca-7e26-4988-a4a2-e98691cfc555
@@ -12,7 +12,7 @@ ht-degree: 14%
 
 ---
 
-# Styles de police{#font-styles}
+# Styles de polices{#font-styles}
 
 Utilisé par FontFieldUpdate/style.
 

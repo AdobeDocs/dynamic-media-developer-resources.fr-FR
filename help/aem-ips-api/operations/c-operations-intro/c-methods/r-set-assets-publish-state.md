@@ -29,7 +29,7 @@ Il s’agit de la version par lots de [setAssetState](../../../operations/c-oper
 
 >[!NOTE]
 >
->L’utilisateur doit disposer d’un accès en lecture et en écriture à la ressource.
+>L’utilisateur doit disposer d’un accès en lecture et en écriture à l’actif.
 
 ## Paramètres {#section-3e49d7859f8647b990d75373cc8dbc24}
 
@@ -37,24 +37,24 @@ Il s’agit de la version par lots de [setAssetState](../../../operations/c-oper
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Poignée de la société. |
+| CompanyHandle | `xsd:string` | Oui | Pseudo de l’entreprise. |
 | publishStateUpdateArray | `types:PublishStateUpdateArray` | Oui | Tableau des valeurs d’état de publication des ressources. |
 
 **Output (setAssetsPublishStateParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| successCount | `xsd:int` | Oui | Nombre de ressources mises à jour avec succès. |
-| warningCount | `xsd:int` | Oui | Nombre de ressources ayant généré un avertissement lorsque l’opération tentait de les mettre à jour. |
-| errorCount | `xsd:int` | Oui | Nombre de ressources qui ont généré une erreur lorsque l’opération a tenté de les supprimer. |
-| warningDetailArray | `types:AssetOperationFaultArray` | Non | Détails associés aux mises à jour de la ressource qui ont généré un avertissement. |
-| errorDetailArray | `types:AssetOperationFaultArray` | Non | Détails associés aux mises à jour de la ressource qui ont généré une erreur. |
+| Compte de succès | `xsd:int` | Oui | Nombre de ressources mises à jour réussies. |
+| Nombre d’avertissements | `xsd:int` | Oui | Nombre d’actifs qui ont généré un avertissement lorsque l’opération a tenté de les mettre à jour. |
+| Nombre d’erreurs | `xsd:int` | Oui | Nombre d’actifs qui ont généré une erreur lorsque l’opération a tenté de les supprimer. |
+| Tableau des détails de l’avertissement | `types:AssetOperationFaultArray` | Non | Les détails associés aux mises à jour des ressources qui ont généré un avertissement. |
+| Tableau errorDetailArray | `types:AssetOperationFaultArray` | Non | Les détails associés aux mises à jour de ressources qui ont généré une erreur. |
 
 ## Exemples {#section-38cfdd3436214a06a1bae16875501d51}
 
 Cet exemple de code définit l’état de publication d’une ressource.
 
-**Requête**
+**Demander**
 
 ```java
 <element name="setAssetsPublishStateParam">

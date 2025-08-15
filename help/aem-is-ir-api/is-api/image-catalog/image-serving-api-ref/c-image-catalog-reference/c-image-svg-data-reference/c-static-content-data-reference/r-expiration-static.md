@@ -1,6 +1,6 @@
 ---
 title: Expiration
-description: Utilisé pour gérer la mise en cache du client et du serveur proxy. Le serveur calcule le délai d’expiration/la date des données de réponse HTTP en ajoutant cette valeur à l’heure/la date de transmission.
+description: Utilisé pour gérer la mise en cache du client et du serveur proxy. Le serveur calcule la date/l’heure d’expiration des données de réponse HTTP en ajoutant cette valeur à la date/l’heure de transmission.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,9 +14,9 @@ ht-degree: 1%
 
 # Expiration{#expiration}
 
-Utilisé pour gérer la mise en cache du client et du serveur proxy. Le serveur calcule le délai d’expiration/la date des données de réponse HTTP en ajoutant cette valeur à l’heure/la date de transmission.
+Utilisé pour gérer la mise en cache du client et du serveur proxy. Le serveur calcule la date/l’heure d’expiration des données de réponse HTTP en ajoutant cette valeur à la date/l’heure de transmission.
 
-Les navigateurs gèrent les caches à l’aide des délais d’expiration des fichiers. Avant de transmettre une requête au serveur, le navigateur vérifie son cache pour voir si le fichier a déjà été téléchargé. Si tel est le cas, et si le fichier n’a pas encore expiré, le navigateur envoie une requête de GET conditionnelle (par exemple, avec le champ If-Modified-Since défini dans l’en-tête de la requête) plutôt qu’une requête de GET normale. Le serveur a la possibilité de répondre avec un état &#39;304&#39; et de ne pas transmettre l&#39;image. Le navigateur charge ensuite le fichier à partir de son cache. Cela peut considérablement accroître les performances globales pour les données fréquemment consultées.
+Les navigateurs gèrent les caches à l’aide des délais d’expiration des fichiers. Avant de transmettre une requête au serveur, le navigateur vérifie son cache pour voir si le fichier a déjà été téléchargé. Si tel est le cas, et si le fichier n’a pas encore expiré, le navigateur envoie une requête GET conditionnelle (par exemple avec le champ If-Modified-Since défini dans l’en-tête de la requête) plutôt qu’une requête GET classique. Le serveur a la possibilité de répondre avec un statut « 304 » et de ne pas transmettre l’image. Le navigateur charge ensuite le fichier à partir de son cache. Cela peut augmenter considérablement les performances globales des données fréquemment consultées.
 
 L’expiration est utilisée pour les types de réponse suivants :
 
@@ -26,11 +26,11 @@ L’expiration est utilisée pour les types de réponse suivants :
 * `req=userdata`
 * `req=map`
 
-Certains types de réponses (par exemple, les réponses d’erreur) sont toujours marqués pour une expiration immédiate (ou marqués comme non pouvant être mis en cache), tandis que d’autres (par exemple, les réponses de propriété ou d’image par défaut) utilisent des paramètres d’expiration spéciaux ( `attribute::NonImgExpiration` et `attribute::DefaultExpiration`).
+Certains types de réponses (par exemple, les réponses d’erreur) sont toujours marqués pour une expiration immédiate (ou marqués comme ne pouvant pas être mis en cache), tandis que d’autres (par exemple, les réponses de propriété ou d’image par défaut) utilisent des paramètres d’expiration spéciaux ( `attribute::NonImgExpiration` et `attribute::DefaultExpiration`).
 
 ## Propriétés {#section-7f5173d090cf48df8fa1a2c72b8c8c60}
 
-Nombre réel, -2, -1 ou 0 ou plus. Nombre d’heures avant expiration depuis la génération de l’image de réponse. Définissez cette variable sur 0 pour que l’image de réponse expire immédiatement, ce qui désactive la mise en cache du client. Définissez cette variable sur -1 pour marquer comme *`never expire`*. Dans ce cas, le serveur renvoie toujours l’état 304 (non modifié) en réponse aux demandes de GET conditionnelles sans vérifier si le fichier a réellement changé. Définissez cette variable sur -2 pour utiliser la valeur par défaut fournie par `attribute::Expiration`.
+Nombre réel, -2, -1 ou supérieur à 0. Nombre d’heures avant expiration depuis la génération de l’image de réponse. Définissez la valeur sur 0 pour que l’image de réponse expire immédiatement, ce qui désactive efficacement la mise en cache du client. Définissez-le sur -1 pour marquer comme *`never expire`*. Dans ce cas, le serveur renvoie toujours le statut 304 (non modifié) en réponse aux demandes GET conditionnelles sans vérifier si le fichier a réellement changé. Définissez la valeur sur -2 pour utiliser la valeur par défaut fournie par `attribute::Expiration`.
 
 ## Par défaut {#section-ec72cc1dfc5e4f278174d37da2e39462}
 

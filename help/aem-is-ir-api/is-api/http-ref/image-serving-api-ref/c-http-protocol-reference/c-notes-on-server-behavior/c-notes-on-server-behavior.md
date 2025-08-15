@@ -1,5 +1,5 @@
 ---
-description: Plusieurs questions de comportement de serveur doivent être prises en compte.
+description: Il y a plusieurs questions de comportement du serveur qui doivent être prises en compte.
 solution: Experience Manager
 title: Remarques sur le comportement du serveur
 feature: Dynamic Media Classic,SDK/API
@@ -14,12 +14,12 @@ ht-degree: 0%
 
 # Remarques sur le comportement du serveur{#notes-on-server-behavior}
 
-Plusieurs questions de comportement de serveur doivent être prises en compte.
+Il y a plusieurs questions de comportement du serveur qui doivent être prises en compte.
 
-* [La zone de travail du compositeur](r-the-compositing-canvas.md)
-* [Transformations de calques](r-layer-transforms.md)
+* [Canevas de composition](r-the-compositing-canvas.md)
+* [Transformations de calque](r-layer-transforms.md)
 * [Mise à l’échelle des miniatures](r-thumbnail-scaling.md)
 * [Règles de miniature](r-thumbnail-rules.md)
-* [Emplacement des calques](r-layer-placement.md)
-* [Transformation d’affichage pour les images](r-view-transform-for-images.md)
-* [Transformation d’affichage pour les miniatures](r-view-transform-for-thumbnails.md)
+* [Emplacement du calque](r-layer-placement.md)
+* [Transformer en vue pour les images](r-view-transform-for-images.md)
+* [Afficher la transformation des miniatures](r-view-transform-for-thumbnails.md)

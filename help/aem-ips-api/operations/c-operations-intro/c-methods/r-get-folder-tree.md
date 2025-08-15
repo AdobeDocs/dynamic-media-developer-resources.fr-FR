@@ -1,5 +1,5 @@
 ---
-description: Renvoie les dossiers et les sous-dossiers dans une arborescence hiérarchique. La réponse getFolderTree est limitée à 100 000 dossiers au maximum
+description: Renvoie les dossiers et sous-dossiers sous la forme d’une arborescence hiérarchique. La réponse getFolderTree est limitée à un maximum de 100 000 dossiers
 solution: Experience Manager
 title: getFolderTree
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # getFolderTree{#getfoldertree}
 
-Renvoie les dossiers et les sous-dossiers dans une arborescence hiérarchique. La réponse getFolderTree est limitée à 100 000 dossiers au maximum
+Renvoie les dossiers et sous-dossiers sous la forme d’une arborescence hiérarchique. La réponse getFolderTree est limitée à un maximum de 100 000 dossiers
 
 Syntaxe
 
@@ -34,20 +34,20 @@ Syntaxe
 
 ## Paramètres {#section-0c2b30513f1e439cbd840e8cc6465b3a}
 
-**Entrée (getFolderTreeParam)**
+**Input (getFolderTreeParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Oui | La poignée de la société. |
 | accessUserHandle | `xsd:string` | Non | Utilisé uniquement par les administrateurs pour emprunter l’identité d’un utilisateur spécifique. |
-| accessGroupHandle | `xsd:string` | Non | Utilisé pour filtrer selon un groupe spécifique, y compris ceux auxquels appartient la société. |
-| folderPath | `xsd:string` | Non | Le dossier racine pour récupérer les dossiers et tous les sous-dossiers au niveau de la feuille. Si elle est exclue, la racine de l’entreprise est utilisée. |
-| profondeur | `xsd:int` | Oui | La valeur zéro permet d’obtenir le dossier de niveau supérieur. Toute autre valeur spécifie la profondeur à descendre dans l’arborescence. |
-| assetTypeArray | `types:StringArray` | Non | Renvoie les dossiers contenant uniquement des types de ressources spécifiés. |
-| responseFieldArray | `types:StringArray` | Non | Contient la liste des champs que vous souhaitez inclure dans la réponse. |
-| excludeFieldArray | `types:StringArray` | Non | Contient une liste des champs que vous souhaitez exclure de la réponse. |
+| accessGroupHandle | `xsd:string` | Non | Utilisé pour filtrer par groupe spécifique, y compris ceux auxquels la société appartient. |
+| folderPath | `xsd:string` | Non | Le dossier racine pour récupérer les dossiers et tous les sous-dossiers au niveau feuille. S’il est exclu, la racine d’entreprise est utilisée. |
+| profondeur | `xsd:int` | Oui | Une valeur égale à zéro permet d’obtenir le dossier de niveau supérieur. Toute autre valeur indique la profondeur à descendre dans l’arborescence. |
+| assetTypeArray | `types:StringArray` | Non | Renvoie les dossiers qui contiennent uniquement des types de ressources spécifiés. |
+| responseFieldArray | `types:StringArray` | Non | Contient une liste de champs que vous souhaitez inclure dans la réponse. |
+| excludeFieldArray | `types:StringArray` | Non | Contient une liste de champs que vous souhaitez exclure de la réponse. |
 
-**Sortie (getFolderTreeReturn)**
+**Output (getFolderTreeReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -56,7 +56,7 @@ Syntaxe
 
 ## Exemples {#section-a9fd2edb56574dd9bf8b0f2fd89367e4}
 
-Cet exemple de code utilise un nom d’entreprise et un paramètre de profondeur pour déterminer le niveau de profondeur que la réponse doit renvoyer. La réponse contient des dossiers et des tableaux de sous-dossiers associés. Définissez la valeur de profondeur sur un nombre plus petit pour effectuer une recherche plus approfondie dans l’arborescence de dossiers.
+Cet exemple de code utilise un handle d’entreprise et un paramètre de profondeur pour déterminer le niveau de profondeur que la réponse doit renvoyer. La réponse contient des dossiers et des tableaux de sous-dossiers avec des associés. Définissez la valeur de profondeur sur un nombre plus petit pour effectuer une recherche plus approfondie dans l’arborescence de dossiers.
 
 **Requête**
 

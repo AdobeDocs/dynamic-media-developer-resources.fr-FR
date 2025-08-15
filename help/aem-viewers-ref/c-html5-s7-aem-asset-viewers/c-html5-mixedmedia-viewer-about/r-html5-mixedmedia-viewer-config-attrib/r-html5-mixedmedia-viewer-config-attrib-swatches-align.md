@@ -16,17 +16,17 @@ ht-degree: 3%
 
 `[Swatches.|<containerId>_swatches.]align=left|center|right,top|center|bottom`
 
-Indique l’alignement interne (ancrage) du conteneur d’échantillons dans la zone du composant. Dans les nuanciers, le conteneur de miniatures interne est dimensionné de sorte que seul un nombre entier d’échantillons s’affiche. Par conséquent, il existe une marge intérieure entre le conteneur interne et les limites de composants externes. Cette commande indique comment le conteneur d’échantillons internes est positionné dans le composant.
+Indique l’alignement interne (ancrage) du conteneur d’échantillons dans la zone du composant. Dans les nuanciers, le conteneur interne des miniatures est dimensionné de sorte que seul un nombre entier d’échantillons soit affiché. Par conséquent, il existe une certaine marge intérieure entre les limites du conteneur interne et celles du composant externe. Cette commande indique comment le conteneur d’échantillons interne est positionné dans le composant.
 
 <table id="table_58D88FF5F83A4ABA928695B5AFF97354"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> left|center|right</span> </p> </td> 
-   <td> <p> Définit l’alignement des échantillons horizontaux. </p> </td> 
+   <td> <p> <span class="codeph"> gauche|centre|droite</span> </p> </td> 
+   <td> <p> Définit l’alignement des nuanciers horizontaux. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="codeph"> top|center|bottom</span> </p> </td> 
-   <td> <p> Définit l’alignement des échantillons verticaux. </p> </td> 
+   <td> <p><span class="codeph"> haut|centre|bas</span> </p> </td> 
+   <td> <p> Définit l’alignement des nuanciers verticaux. </p> </td> 
   </tr> 
  </tbody> 
 </table>

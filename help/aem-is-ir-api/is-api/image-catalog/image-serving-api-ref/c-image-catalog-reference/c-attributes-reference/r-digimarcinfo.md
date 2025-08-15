@@ -1,5 +1,5 @@
 ---
-description: Informations sur l’image Digimarc par défaut. Fournit une valeur par défaut pour le catalogue DigimarcInfo.
+description: Informations par défaut sur l'image Digimarc. Fournit une valeur par défaut pour le catalogue DigimarcInfo.
 solution: Experience Manager
 title: DigimarcInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # DigimarcInfo{#digimarcinfo}
 
-Informations sur l’image Digimarc par défaut. Fournit une valeur par défaut pour catalog::DigimarcInfo.
+Informations par défaut sur l&#39;image Digimarc. Fournit une valeur par défaut pour catalog::DigimarcInfo.
 
 ## Propriétés {#section-c6f6ff4cc3d6471f8fc0e23cd6839f8d}
 

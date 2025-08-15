@@ -22,5 +22,5 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| type | `xsd:string` | Choix du type de visionneuse. |
+| type | `xsd:string` | Choix du type de lecteur. |
 | configSettingArray | `types:ConfigSettingArray` | Tableau des paramètres de configuration de la visionneuse. |

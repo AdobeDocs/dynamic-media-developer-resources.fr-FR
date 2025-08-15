@@ -16,13 +16,13 @@ ht-degree: 9%
 
 Attribut de configuration de la visionneuse de vidéos avec recadrage intelligent.
 
-` [EmailShare.|<containerId>_emailShare.]emailurl= *`emailurl`*`
+` [EmailShare.|<containerId>_emailShare.]emailurl= *`url e-mail`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> emailurl</span></span> </p> </td> 
-   <td colname="col2"> <p> Spécifie l’URL de base du service de messagerie Dynamic Media Classic OnDemand. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> url e-mail</span></span> </p> </td> 
+   <td colname="col2"> <p> Indique l’URL de base du service de messagerie OnDemand de Dynamic Media Classic. </p> </td> 
   </tr> 
  </tbody> 
 </table>

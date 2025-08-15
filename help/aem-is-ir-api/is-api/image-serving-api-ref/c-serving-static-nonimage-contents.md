@@ -1,6 +1,6 @@
 ---
-title: Diffusion de contenu statique (hors image)
-description: Vous pouvez utiliser le service d’images pour gérer le contenu non-image dans les catalogues et l’afficher par le biais d’un contexte /is/content distinct.
+title: Diffusion de contenu statique (hors images)
+description: Vous pouvez utiliser la Diffusion d’images pour gérer le contenu non-image dans les catalogues et le diffuser au moyen d’un contexte /is/content distinct.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,26 +12,26 @@ ht-degree: 0%
 
 ---
 
-# Diffusion de contenu statique (hors image){#serving-static-non-image-contents}
+# Diffusion de contenu statique (hors images){#serving-static-non-image-contents}
 
-Vous pouvez utiliser le service d’images pour gérer le contenu non-image dans les catalogues et l’afficher par le biais d’un contexte /is/content distinct.
+Vous pouvez utiliser la Diffusion d’images pour gérer le contenu non-image dans les catalogues et le diffuser au moyen d’un contexte /is/content distinct.
 
-Cette fonctionnalité permet de configurer le délai d’activation séparément pour chaque élément.
+Cette fonctionnalité permet de configurer la TTL pour chaque élément séparément.
 
-La diffusion d’images prend en charge les commandes suivantes à l’emplacement [!DNL /is/content] :
+La diffusion d’images prend en charge les commandes suivantes à l’[!DNL /is/content] :
 
 <table id="simpletable_8A3AB1D1D20F4B6CBE86767E94735980"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md#reference-89094fd1c50c444eb082cd266769cccb" format="dita" scope="local"> type </a> </p> </td> 
-  <td class="stentry"> <p>Filtre de type de contenu. </p> </td> 
+  <td class="stentry"> <p>Filtre du type de contenu. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" format="dita" scope="local"> req </a> </p> </td> 
   <td class="stentry"> <p> <span class="codeph"> req=userdata </span>, <span class="codeph"> req=props </span> et <span class="codeph"> req=exists </span> uniquement. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-cache.md#reference-168189bee4ce4d1189d427891f22be2e" format="dita" scope="local"> cache </a> </p> </td> 
-  <td class="stentry"> <p>Permet de désactiver la mise en cache côté client. </p> </td> 
+  <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-cache.md#reference-168189bee4ce4d1189d427891f22be2e" format="dita" scope="local"> du cache </a> </p> </td> 
+  <td class="stentry"> <p>Permet de désactiver le cache côté client. </p> </td> 
  </tr> 
 </table>
 
@@ -40,10 +40,10 @@ La diffusion d’images prend en charge les commandes suivantes à l’emplaceme
 <table id="simpletable_2F039A5BFA2C4E22B014F42ECBCDA0A2"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> requête </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="filepath"> http:// <span class="varname"> serveur </span>/is/content[/catalog/ <span class="varname"> élément </span>][? <span class="varname"> modificateurs </span>] </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="filepath"> http:// <span class="varname"> serveur </span>/is/content[/catalog/ <span class="varname"> item </span>][ ? <span class="varname"> modificateurs </span>] </span> </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> serveur </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> serveur <span class="varname"> </span> </span> </p> </td> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> server_address </span>[ : <span class="varname"> port </span>] </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -52,27 +52,27 @@ La diffusion d’images prend en charge les commandes suivantes à l’emplaceme
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> élément </span> </span> </p> </td> 
-  <td class="stentry"> <p>ID d’élément de contenu statique. </p> </td> 
+  <td class="stentry"> <p>Identifiant d’élément de contenu statique. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> modificateurs </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> command </span>*[&amp; <span class="varname"> command </span>] </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> commande </span>*[&amp; <span class="varname"> commande </span>] </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> command </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> cmdName </span>= <span class="varname"> value </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> commande </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> cmdName </span>= <span class="varname"> valeur </span> </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> cmdName </span> </span> </p> </td> 
   <td class="stentry"> <p>Un des noms de commande pris en charge. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> value </span> </span> </p> </td> 
-  <td class="stentry"> <p>Valeur de commande. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> valeur <span class="varname"> </span> </span> </p> </td> 
+  <td class="stentry"> <p>Valeur de la commande. </p> </td> 
  </tr> 
 </table>
 
-## Catalogues de contenu statique {#section-91014f17f0d543d7aaf24539b2d7d4b9}
+## Catalogues de contenu statiques {#section-91014f17f0d543d7aaf24539b2d7d4b9}
 
 Les catalogues de contenu statique sont similaires aux catalogues d’images, mais prennent en charge moins de champs de données :
 
@@ -85,7 +85,7 @@ Les catalogues de contenu statique sont similaires aux catalogues d’images, ma
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> Catalogue <span class="codeph"> ::Id </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> catalog::Id </span> </p> </td> 
    <td colname="col2"> <p>Identifiant d’enregistrement de catalogue pour cet élément de contenu statique. </p> </td> 
   </tr> 
   <tr> 
@@ -93,12 +93,12 @@ Les catalogues de contenu statique sont similaires aux catalogues d’images, ma
    <td colname="col2"> <p>Chemin d’accès au fichier pour cet élément de contenu. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> Catalogue <span class="codeph"> ::Expiration </span> </p> </td> 
-   <td colname="col2"> <p>La durée de vie de cet élément de contenu ; attribut <span class="codeph">::Expiration </span> est utilisée si elle n’est pas spécifiée ou si elle est vide. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> catalog::Expiration </span> </p> </td> 
+   <td colname="col2"> <p>Durée de vie de cet élément de contenu ; <span class="codeph"> attribut::Expiration </span> est utilisé s’il n’est pas spécifié ou s’il est vide. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> catalog::TimeStamp </span> </p> </td> 
-   <td colname="col2"> <p>Horodatage de modification du fichier ; requis lorsque la validation basée sur le catalogue est activée avec l’attribut <span class="codeph"> ::CacheValidationPolicy </span>. </p> </td> 
+   <td colname="col2"> <p>Horodatage de modification du fichier. Obligatoire lorsque la validation basée sur le catalogue est activée avec <span class="codeph"> attribut::CacheValidationPolicy </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> catalog::UserData </span> </p> </td> 
@@ -106,24 +106,24 @@ Les catalogues de contenu statique sont similaires aux catalogues d’images, ma
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> catalog::UserType </span> </p> </td> 
-   <td colname="col2"> <p>Type de données facultatif ; peut être utilisé pour filtrer les requêtes de contenu statique avec la commande <span class="codeph"> type= </span>. </p> </td> 
+   <td colname="col2"> <p>Type de données facultatif. Peut être utilisé pour filtrer les requêtes de contenu statique avec la <span class="codeph"> de commande </span> type= . </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Filtrer le contenu statique {#section-4c41bf41ff994910840c1352683d1f37}
+## Filtrer du contenu statique {#section-4c41bf41ff994910840c1352683d1f37}
 
-Ce mécanisme peut permettre de s’assurer que les clients ne reçoivent que les contenus adaptés à leurs besoins. En supposant que le contenu statique soit balisé avec les valeurs `catalog::UserType` appropriées, le client peut ajouter la commande `type=` à la requête. Le serveur d’images compare la valeur fournie avec la commande `type=` à la valeur de `catalog::UserType` et, en cas de discordance, renvoie une erreur au lieu de contenus potentiellement inappropriés.
+Ce mécanisme permet de s’assurer que les clients ne reçoivent que le contenu adapté à leurs besoins. En supposant que le contenu statique soit balisé avec les valeurs de `catalog::UserType` appropriées, le client peut ajouter la commande `type=` à la requête. La diffusion d’images compare la valeur fournie avec la commande `type=` à la valeur de `catalog::UserType` et, en cas de non-correspondance, renvoie une erreur au lieu de contenus potentiellement inappropriés.
 
-## Fichiers de sous-titres vidéo {#section-1ad25e10399e43eaa8ecb09b531dbf1a}
+## Fichiers de légendes vidéo {#section-1ad25e10399e43eaa8ecb09b531dbf1a}
 
-Vous pouvez encapsuler des fichiers de sous-titres vidéo (WebVTT), CSS ou tout fichier texte au format JSONP. La réponse JSON est décrite ci-dessous.
+Vous pouvez encapsuler des fichiers de sous-titres vidéo (WebVTT), CSS ou tout autre fichier texte au format JSONP. La réponse JSON est décrite ci-dessous.
 
-* Pour les fichiers WebVTT, le type MIME de la réponse est text/javascript. JSON n’est pas renvoyé ; JavaScript est à la place renvoyé et appelle une méthode avec JSON. L’identifiant et le gestionnaire sont facultatifs.
-* Pour les fichiers CSS, le type MIME de la réponse est text/javascript. L’identifiant et le gestionnaire sont facultatifs.
-* Par défaut, le codage UTF-8 est appliqué pour s’assurer qu’il est décodé correctement. La taille par défaut est limitée à 2 Mo.
+* Pour les fichiers WebVTT, le type MIME de la réponse est text/javascript. JSON n’est pas renvoyé ; à la place, JavaScript est renvoyé, qui appelle une méthode avec JSON. L’ID et le gestionnaire sont facultatifs.
+* Pour les fichiers CSS, le type MIME de la réponse est text/javascript. L’ID et le gestionnaire sont facultatifs.
+* Par défaut, le codage UTF-8 est appliqué pour s’assurer qu’il est correctement décodé. La limite de taille par défaut est de 2 Mo.
 
-Vous pouvez également utiliser des traces pour d’autres types de métadonnées minutées. Les données source de chaque élément de suivi sont un fichier texte constitué d’une liste de repères minutés. Les repères peuvent inclure des données dans des formats tels que JSON ou CSV.
+Vous pouvez également utiliser des pistes pour d’autres types de métadonnées horodatées. Les données sources de chaque élément de suivi sont un fichier texte composé d’une liste de repères horodatés. Les indices peuvent inclure des données dans des formats tels que JSON ou CSV.
 
 Voir [https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP) pour plus d’informations sur le format JSONP.
 

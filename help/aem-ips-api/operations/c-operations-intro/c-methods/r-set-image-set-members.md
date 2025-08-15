@@ -16,7 +16,7 @@ ht-degree: 8%
 
 Définit la liste des ressources associées à une visionneuse d’images.
 
-Cette opération ignore le paramètre `pageReset` pour `ImageSets` et `SpinSets` et force la valeur sur true.
+Cette opération ignore le `pageReset` paramètre for `ImageSets` et `SpinSets` force la valeur sur true.
 
 ## Types d’utilisateurs autorisés {#section-8968d6a39a344cfc8521020d92ae8916}
 
@@ -46,27 +46,27 @@ Cette opération ignore le paramètre `pageReset` pour `ImageSets` et `SpinSets`
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> CompanyHandle</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd :chaîne</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Poignée de la société. </p> </td> 
+   <td colname="col4"> <p>Pseudo de l’entreprise. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> AssetHandle</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"> Poignée de visionneuse d’images. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:ImageSetMemberUpdateArray</span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> Tableau de membres</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> types :ImageSetMemberUpdateArray</span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Tableau des membres de ressources appartenant à la visionneuse d’images. </td> 
+   <td colname="col4"> Tableau des membres de la ressource appartenant à la visionneuse d’images. </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Sortie (setImageSetMembersReturn)**
+**Output (setImageSetMembersReturn)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 
@@ -74,7 +74,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 Cet exemple de code utilise un tableau de membres pour définir les membres d’une visionneuse d’images.
 
-**Requête**
+**Demander**
 
 ```java
 <setImageSetMembersParam xmlns="http://www.scene7.com/IpsApi/xsd">

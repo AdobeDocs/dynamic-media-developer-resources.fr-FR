@@ -1,5 +1,5 @@
 ---
-description: Événement MediaPortal.
+description: Un événement MediaPortal.
 solution: Experience Manager
 title: MPEvent
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # [!DNL MPEvent]{#mpevent}
 
-Événement MediaPortal.
+Un événement MediaPortal.
 
 Syntaxe
 
@@ -22,24 +22,24 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| eventType | `xsd:string` | Type d’événement Media Portal. |
+| eventType | `xsd:string` | Type d’événement du portail multimédia. |
 | createDate | `xsd:dateTime` | Date de création de l’événement. |
-| ipsUser | `xsd:string` | Système ou utilisateur déclenchant l’événement. |
-| companyId | `xsd:int` | ID d’entreprise. |
+| Utilisateur ipsUser | `xsd:string` | Système ou utilisateur déclenchant l’événement. |
+| ID de société | `xsd:int` | ID de société. |
 | companyName | `xsd:string` | Nom de la société. |
-| jobName | `xsd:string` | Nom unique de la tâche. |
+| jobName | `xsd:string` | Nom de tâche unique. |
 | jobDescription | `xsd:string` | Description utile de la tâche. |
-| string1 | `xsd:string` | Dossier pour les informations sur les chaînes (facultatif). |
-| string2 | `xsd:string` | Dossier pour les informations sur les chaînes (facultatif). |
-| string3 | `xsd:string` | Dossier pour les informations sur les chaînes (facultatif). |
-| string4 | `xsd:string` | Dossier pour les informations sur les chaînes (facultatif). |
-| string5 | `xsd:string` | Dossier pour les informations sur les chaînes (facultatif). |
-| int1 | `xsd:int` | Holder pour les informations entières (facultatif). |
-| int2 | `xsd:int` | Holder pour les informations entières (facultatif). |
-| int3 | `xsd:int` | Holder pour les informations entières (facultatif). |
-| int4 | `xsd:int` | Holder pour les informations entières (facultatif). |
-| int5 | `xsd:int` | Holder pour les informations entières (facultatif). |
-| float1 | `xsd:double` | Dossier d’informations flottantes (facultatif). |
-| float2 | `xsd:double` | Dossier d’informations flottantes (facultatif). |
-| float3 | `xsd:double` | Dossier d’informations flottantes (facultatif). |
-| time1 | `xsd:dateTime` | Dossier pour les informations sur la date/l’horodatage (facultatif). |
+| string1 | `xsd:string` | Détenteur pour les informations de chaîne (facultatif). |
+| chaîne2 | `xsd:string` | Détenteur pour les informations de chaîne (facultatif). |
+| chaîne3 | `xsd:string` | Support pour les informations de chaîne (facultatif). |
+| string4 | `xsd:string` | Support pour les informations de chaîne (facultatif). |
+| string5 | `xsd:string` | Support pour les informations de chaîne (facultatif). |
+| int1 | `xsd:int` | Détenteur d’informations sur les entiers (facultatif). |
+| int2 | `xsd:int` | Détenteur d’informations sur les entiers (facultatif). |
+| int3 | `xsd:int` | Détenteur d’informations sur les entiers (facultatif). |
+| int4 | `xsd:int` | Support pour les informations sur les entiers (facultatif). |
+| int5 | `xsd:int` | Support pour les informations sur les entiers (facultatif). |
+| float1 | `xsd:double` | Support pour informations sur le flotteur (facultatif). |
+| flottant2 | `xsd:double` | Support d’informations sur le flotteur (facultatif). |
+| flottant3 | `xsd:double` | Support d’informations sur le flotteur (facultatif). |
+| temps1 | `xsd:dateTime` | Support pour les informations de date et d’horodatage (facultatif). |

@@ -1,5 +1,5 @@
 ---
-description: Indicateur italique.
+description: Drapeau en italique.
 solution: Experience Manager
 title: Italique
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 11%
 
 # Italique{#italic}
 
-Indicateur italique.
+Drapeau en italique.
 
-Indique si le fichier de polices référencé par cet enregistrement de mappage de polices doit être utilisé lorsque la commande italique RTF ( `\i`) le demande.
+Spécifie si le fichier de polices référencé par cet enregistrement de mappage de polices doit être utilisé lorsque la commande italique RTF ( `\i`) l’exige.
 
 ## Propriétés {#section-607e76490e87418496d1c6763018a14f}
 
-Indicateur. Clé d’index tertiaire facultative pour la mise en correspondance des polices.
+Drapeau. Clé d’index tertiaire facultative pour la carte de polices.
 
 ## Par défaut {#section-0b88057d00ce4160929c23fbf138b309}
 
@@ -28,5 +28,5 @@ Indicateur. Clé d’index tertiaire facultative pour la mise en correspondance 
 
 ## Voir aussi {#section-05057a6689a942b4b539c5de35c9b2a6}
 
-* [font::Name](r-name-font.md#reference_C55889877DC54AABB60734DCDE86EE76)
-* [font::Bold](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-bold-font.md#reference-f7b017ef67574a29abfc3954ab64159c)
+* [font ::Nom](r-name-font.md#reference_C55889877DC54AABB60734DCDE86EE76)
+* [font ::Gras](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-font-map-reference/r-bold-font.md#reference-f7b017ef67574a29abfc3954ab64159c)

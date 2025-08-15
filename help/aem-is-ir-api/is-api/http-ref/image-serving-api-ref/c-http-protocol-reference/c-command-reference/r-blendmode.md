@@ -1,6 +1,6 @@
 ---
-title: blendMode
-description: Mode de fusion. Indique le type de fusion utilisé lorsque le calque est composé. Simule les modes de fusion couramment utilisés disponibles dans Photoshop. Pour plus d’informations, reportez-vous à la documentation Photoshop .
+title: Mode de fusion
+description: Mode de fusion. Spécifie le type de fusion utilisé lorsque le calque est composite. Simule les modes de fusion couramment utilisés dans Photoshop. Pour plus d’informations, consultez Photoshop documentation.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 5%
 
 ---
 
-# blendMode{#blendmode}
+# Mode de fusion{#blendmode}
 
-Mode de fusion. Indique le type de fusion utilisé lorsque le calque est composé. Simule les modes de fusion couramment utilisés disponibles dans Photoshop. Pour plus d’informations, reportez-vous à la documentation Photoshop .
+Mode de fusion. Spécifie le type de fusion utilisé lorsque le calque est composite. Simule les modes de fusion couramment utilisés dans Photoshop. Pour plus d’informations, consultez Photoshop documentation.
 
 `blendMode=norm|dissolve|lighten|darken|mult|screen`
 

@@ -16,27 +16,27 @@ ht-degree: 2%
 
 Réglez la saturation. Modifie la saturation de chaque pixel visible du calque ou de l’image composite.
 
-`op_saturation= *`adj`*`
+`op_saturation= *`Adj`*`
 
 <table id="simpletable_5F118A28FE674B06A16F6F19C56B4594"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> adj</span> </p> </td> 
-  <td class="stentry"> <p>Ajustement de la saturation (-100..+100 int). </p></td> 
+  <td class="stentry"> <p><span class="varname"> Adj</span> </p> </td> 
+  <td class="stentry"> <p>Réglage de la saturation (-100...+100 int). </p></td> 
  </tr> 
 </table>
 
-`op_saturation=-100` dénature complètement l’image.
+`op_saturation=-100` Permet de désaturer complètement l’image.
 
 ## Propriétés {#section-9a3cc9ff060049449554dfa69d92fd53}
 
-Couche, commande. S’applique au calque actif ou à l’image composite si `layer=comp`. Ignoré par les calques d’effet.
+Calque, commande S’applique au calque actif ou à l’image composite si `layer=comp`. Ignoré par les calques d’effets.
 
 ## Par défaut {#section-ef0e78f55c8b4d22aee09104dad6410a}
 
-`op_saturation=0`, sans changement de saturation. Les images ou calques CMJN sont convertis en RGB avant l’application de l’opération.
+`op_saturation=0`, sans changement de saturation. Les images ou calques CMJN sont convertis en RVB avant l’application de l’opération.
 
 ## Exemple {#section-033b272f1b7e4efeb94e841fd8095357}
 
-Manipuler une photographie en couleur pour obtenir une apparence &quot;haute touche&quot; :
+Manipulez une photo couleur afin d’obtenir une apparence « haute » :
 
 `http://server/myRootId/myImageId?op_saturation=-60&op_brightness=45&op_contrast=-35`

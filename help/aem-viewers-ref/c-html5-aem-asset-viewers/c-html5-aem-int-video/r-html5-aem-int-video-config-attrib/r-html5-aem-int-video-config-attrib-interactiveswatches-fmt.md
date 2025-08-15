@@ -1,6 +1,6 @@
 ---
 title: InteractiveSwatches.fmt
-description: Attribut de configuration de la visionneuse de vidéos interactives.
+description: Attribut Configuration pour la visionneuse de vidéos interactives.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 3%
 
 # InteractiveSwatches.fmt{#interactiveswatches-fmt}
 
-Attribut de configuration de la visionneuse de vidéos interactives.
+Attribut Configuration pour la visionneuse de vidéos interactives.
 
 `[InteractiveSwatches.|<containerId>_interactiveSwatches.]fmt=jpg|jpeg|png|png-alpha|gif|gif-alpha`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> Indique le format d’image que le composant utilise pour charger les images à partir du serveur d’images. </p> <p>Si le format spécifié se termine par "<span class="codeph"> -alpha</span>", le composant effectue le rendu des images en tant que contenu transparent. Pour tous les autres formats d’image, le composant traite les images comme opaques. Par défaut, l’arrière-plan du composant est blanc. Par conséquent, pour le rendre transparent, définissez la propriété CSS <span class="codeph"> background-color</span> sur <span class="codeph"> transparent</span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
+   <td colname="col2"> <p> Spécifie le format d’image utilisé par le composant pour charger les images à partir d’Image Server. </p> <p>Si le format spécifié se termine par "<span class="codeph"> -alpha</span> », le composant effectue le rendu des images en tant que contenu transparent. Pour tous les autres formats d’image, le composant traite les images comme opaques. Le composant possède un arrière-plan blanc par défaut. Par conséquent, pour la rendre transparente, définissez la propriété CSS de couleur <span class="codeph"> d’arrière-plan</span> sur <span class="codeph"> transparent</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

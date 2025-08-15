@@ -1,7 +1,7 @@
 ---
-description: métadonnées à supprimer de la ressource.
+description: Métadonnées à supprimer de la ressource.
 solution: Experience Manager
-title: MetadataDelete
+title: Suppression des métadonnées
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: bc53bf99-bc57-4329-a213-0f8e365abe97
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # [!DNL MetadataDelete]{#metadatadelete}
 
-métadonnées à supprimer de la ressource.
+Métadonnées à supprimer de la ressource.
 
 Syntaxe
 
@@ -30,8 +30,8 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> fieldHandle</span></span> </p> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> Poignée de champ</span></span> </p> </td> 
+   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
    <td colname="col3"> <p>Paramètres de métadonnées à supprimer. </p> </td> 
   </tr> 
  </tbody> 

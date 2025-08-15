@@ -1,6 +1,6 @@
 ---
 title: Traitement des variables dans les requêtes imbriquées
-description: Les références $var$ peuvent se trouver n’importe où dans les accolades d’une demande de rendu d’image ou de diffusion d’image imbriquée, y compris à gauche de "?" séparant le chemin de la requête.
+description: $var$ références peuvent apparaître n’importe où entre les accolades d’une requête imbriquée de service d’image ou de rendu d’image, y compris à gauche du caractère « ? ». séparant le chemin de la requête.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,10 +14,10 @@ ht-degree: 0%
 
 # Traitement des variables dans les requêtes imbriquées{#variable-processing-in-nested-requests}
 
-Les références $var$ peuvent se trouver n’importe où dans les accolades d’une demande de rendu d’image ou de diffusion d’image imbriquée, y compris à gauche de &quot;?&quot; séparant le chemin de la requête.
+$var$ références peuvent apparaître n’importe où entre les accolades d’une requête imbriquée de service d’image ou de rendu d’image, y compris à gauche du caractère « ? ». séparant le chemin de la requête.
 
-Le serveur remplace ces références par des valeurs (provenant de l’URL ou de `catalog::Modifier` du catalogue d’images principal) avant d’analyser et de traiter davantage la requête imbriquée.
+Le serveur remplace ces références par des valeurs (provenant de l’URL ou du `catalog::Modifier` catalogue d’images principal) avant d’analyser et de traiter la demande imbriquée.
 
-En outre, toutes les `$ *[!DNL var]*=` définitions provenant de l’URL et de `catalog::Modifier` sont transférées à toutes les requêtes Image Serving et Image Rendering imbriquées. Cela permet de s’assurer que toutes les définitions de variable sont disponibles pour tous les modèles, quel que soit le niveau d’imbrication.
+En outre, toutes les `$ *[!DNL var]*=` définitions de l’URL et `catalog::Modifier` sont transférées à toutes les demandes imbriquées de serveur d’image et de rendu d’image. Cela garantit que toutes les définitions de variables sont disponibles pour tous les modèles, quel que soit le niveau d’imbrication.
 
-Quel que soit le niveau d’imbrication, seul un codage HTTP à un seul passage doit être appliqué aux valeurs de variable qui doivent être remplacées n’importe où dans les demandes de rendu d’image ou de diffusion d’images imbriquées.
+Quel que soit le niveau d’imbrication, seul le codage HTTP monopassage doit être appliqué aux valeurs de variable qui doivent être substituées n’importe où dans les requêtes imbriquées de rendu d’image ou de diffusion d’images.

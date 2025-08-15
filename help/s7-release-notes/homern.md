@@ -9,6 +9,6 @@ ht-degree: 0%
 ---
 
 
-# Notes de mise à jour de Dynamic Media{#dynamic-media-release-notes}
+# Notes de mise à jour Dynamic Media{#dynamic-media-release-notes}
 
-Notes de mise à jour les plus récentes pour la partie [!DNL Adobe Dynamic Media Classic] de la solution [!DNL Adobe Experience Manager] dans [!DNL Adobe Experience Cloud].
+Les dernières notes de mise à jour pour [!DNL Adobe Dynamic Media Classic]une partie de la [!DNL Adobe Experience Manager] solution dans le [!DNL Adobe Experience Cloud].

@@ -21,7 +21,7 @@ Attribut de configuration de la visionneuse panoramique.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> false|true</span> </p> </td> 
-   <td colname="col2"> <p> Indique si le mode de rendu de la réalité virtuelle est activé.</p> </td> 
+   <td colname="col2"> <p> Indique si le mode de rendu de réalité virtuelle est activé.</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,5 +1,5 @@
 ---
-description: Le guide des utilitaires de diffusion d’images contient des informations sur les utilitaires utilisés avec Dynamic Media Image Server et le rendu d’image.
+description: Le guide des utilitaires Image Serving contient des informations sur les utilitaires utilisés avec Dynamic Media Image Server et Image Rendering.
 solution: Experience Manager
 title: Utilitaires de diffusion d’images
 feature: Dynamic Media Classic,SDK/API
@@ -14,10 +14,10 @@ ht-degree: 1%
 
 # Utilitaires de diffusion d’images{#image-serving-utilities}
 
-Le guide des utilitaires de diffusion d’images contient des informations sur les utilitaires utilisés avec Dynamic Media Image Server et le rendu d’image.
+Le guide des utilitaires Image Serving contient des informations sur les utilitaires utilisés avec Dynamic Media Image Server et Image Rendering.
 
-* [Emplacement des utilitaires](c-location-of-utilities.md)
-* [ic](r-ic.md)
-* [ImageServing](r-imageserving.md)
+* [Emplacement des services publics](c-location-of-utilities.md)
+* [Ic](r-ic.md)
+* [Diffusion d’images](r-imageserving.md)
 * [valider](r-is-utils-validate.md)
-* [Utilitaire &#39;playlog&#39;](c-playlog.md)
+* [L’utilitaire « playlog »](c-playlog.md)

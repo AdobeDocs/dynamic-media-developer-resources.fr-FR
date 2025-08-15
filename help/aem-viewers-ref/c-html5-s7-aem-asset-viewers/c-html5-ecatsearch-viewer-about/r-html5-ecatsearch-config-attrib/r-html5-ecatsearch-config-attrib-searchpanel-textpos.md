@@ -19,8 +19,8 @@ ht-degree: 4%
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td colname="col2"> <p> Indique l’endroit où le libellé est tracé par rapport à l’image miniature. En d’autres termes, le libellé est centré à l’emplacement spécifié par rapport à la miniature. </p> <p>Lorsqu’une info-bulle <span class="codeph"></span> est spécifiée, le texte du libellé s’affiche sous la forme d’une info-bulle flottante sur l’image miniature. </p> <p>Lorsqu’elle est définie sur <span class="codeph"> none</span>, elle active l’affichage des étiquettes. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> bas|haut|gauche|droite|aucun|info-bulle</span> </p> </td> 
+   <td colname="col2"> <p> Indique l’emplacement du libellé par rapport à l’image miniature. En d’autres termes, le libellé est centré à l’emplacement spécifié par rapport à la miniature. </p> <p>Lorsqu’une info-bulle <span class="codeph"> est spécifiée</span> le texte du libellé s’affiche sous la forme d’une info-bulle flottante sur l’image miniature. </p> <p>Lorsque cette option est définie sur <span class="codeph"> aucune</span> l’affichage des étiquettes est désactivé. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,7 +1,7 @@
 ---
-description: Identifiant de tâche de la tâche par lot.
+description: Identifiant de la tâche par lots.
 solution: Experience Manager
-title: jobid
+title: ID de jobid
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c00b7191-f162-4c51-bcfb-fe27f9253ca8
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# jobid{#jobid}
+# ID de jobid{#jobid}
 
-Identifiant de tâche de la tâche par lot.
+Identifiant de la tâche par lots.
 
-Utilisé dans les requêtes de tâche par lot pour spécifier la tâche pour laquelle l’état ou la sortie est demandé ou pour supprimer une tâche particulière. La valeur est la chaîne d’ID de tâche qui a été renvoyée lors de l’envoi de la tâche.
+Utilisé dans les demandes de tâche par lots pour spécifier la tâche pour laquelle le statut ou la sortie est demandé ou pour supprimer une tâche particulière. La valeur est la chaîne d’identifiant de tâche qui a été renvoyée lors de l’envoi de la tâche.

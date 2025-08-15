@@ -20,13 +20,13 @@ Incorporer les données de chemins d’accès. Indique si les chemins Photoshop 
 
 ## Propriétés {#section-be50b6d1ebd14a9c93f80ac338b44bfc}
 
-Attribut de requête. Ignoré si la vignette ne contient pas de données de chemins. Si nécessaire, les données de chemins sont mises à l’échelle vers `wid=` et/ou `hei=`.
+Attribut de requête. Ignoré si la vignette ne contient pas de données de chemins. Les données de chemins sont mises à l’échelle sur `wid=` et/ou `hei=` si nécessaire.
 
-Ignoré si le format d’image de sortie ne prend pas en charge l’incorporation des chemins. Reportez-vous à la description de `fmt=` pour obtenir la liste des formats d’image de sortie qui prennent en charge l’incorporation des chemins.
+Ignoré si le format d’image de sortie ne prend pas en charge l’incorporation de chemin. Reportez-vous à la description de `fmt=` pour obtenir une liste des formats d’image de sortie qui prennent en charge l’incorporation de chemins d’accès.
 
 ## Par défaut {#section-3be88ed9053b48919ff33af9418078cc}
 
-`pathEmbed=0`, sans incorporation de chemins dans les images de sortie.
+`pathEmbed=0`, pour l’absence d’incorporation de chemins dans les images de sortie.
 
 ## Voir aussi {#section-4e6151658c384b6f9d0446f55dde7b7f}
 

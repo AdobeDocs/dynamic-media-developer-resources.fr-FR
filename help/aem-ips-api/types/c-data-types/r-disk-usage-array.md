@@ -1,5 +1,5 @@
 ---
-description: Tableau de l’utilisation du disque.
+description: Tableau d’utilisation du disque.
 solution: Experience Manager
 title: DiskUsageArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL DiskUsageArray]{#diskusagearray}
 
-Tableau de l’utilisation du disque.
+Tableau d’utilisation du disque.
 
 Syntaxe
 
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| éléments | `types:DiskUsage` | Tableau de l’utilisation du disque. |
+| éléments | `types:DiskUsage` | Tableau d’utilisation du disque. |

@@ -20,11 +20,11 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td> <p> Permet ou désactive la possibilité pour un utilisateur de faire défiler les échantillons avec la souris ou à l’aide de mouvements tactiles. </p> </td> 
+   <td> <p> Active ou désactive la possibilité, pour un utilisateur, de faire défiler les échantillons à l’aide de la souris ou d’un toucher </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> <span class="varname"> overdragvalue </span> </span> </p> </td> 
-   <td> <p> Fonctions comprises dans la plage <span class="codeph"> 0-1 </span>. Il s’agit d’une valeur <span class="codeph"> % </span> pour le mouvement dans la mauvaise direction de la vitesse réelle. Si elle est définie sur <span class="codeph"> 1 </span>, elle se déplace avec la souris. Si elle est définie sur <span class="codeph"> 0 </span>, elle ne vous permet pas du tout de vous diriger dans la mauvaise direction. </p> </td> 
+   <td> <p> Fonctions comprises dans la plage de <span class="codeph"> 0-1 </span>. Il s'agit d'une valeur <span class="codeph"> de </span> % pour un mouvement dans le mauvais sens de la vitesse réelle. S’il est défini sur <span class="codeph"> 1 </span>, il se déplace avec la souris. S’il est défini sur <span class="codeph"> 0 </span>, il ne vous permet pas du tout d’avancer dans la mauvaise direction. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,6 +1,6 @@
 ---
-title: swatchover
-description: swatchover
+title: superposition d’échantillons
+description: superposition d’échantillons
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
@@ -12,7 +12,7 @@ ht-degree: 4%
 
 ---
 
-# swatchover{#swatchoverlay}
+# superposition d’échantillons{#swatchoverlay}
 
 `swatchoverlay=0|1`
 
@@ -20,7 +20,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>Indique la disposition de la visionneuse sur les périphériques tactiles. Lorsque le paramètre est défini sur <span class="codeph"> 1 </span>, la visionneuse affiche les échantillons sous la vue principale sur le bureau ; sur les appareils tactiles, les échantillons sont superposés au-dessus de la vue principale. </p> <p>Lorsque le paramètre est défini sur <span class="codeph"> 0 </span>, les échantillons sont rendus sous la vue principale sur tous les types d’appareils. </p> </td> 
+   <td colname="col2"> <p>Spécifie la disposition de la visionneuse sur les appareils tactiles. Lorsque le paramètre est défini sur <span class="codeph"> 1 </span>, la visionneuse affiche des échantillons sous la vue principale sur le bureau ; sur les appareils tactiles, des échantillons se superposent au-dessus de la vue principale. </p> <p>Lorsque le paramètre est défini sur <span class="codeph"> 0 </span>, les échantillons sont affichés sous la vue principale sur tous les types de périphériques. </p> </td> 
   </tr> 
  </tbody> 
 </table>

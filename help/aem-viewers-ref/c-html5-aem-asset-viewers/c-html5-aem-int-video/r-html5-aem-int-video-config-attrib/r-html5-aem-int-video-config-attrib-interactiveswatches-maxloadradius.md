@@ -1,6 +1,6 @@
 ---
 title: InteractiveSwatches.maxloadradius
-description: Attribut de configuration de la visionneuse de vidéos interactives.
+description: Attribut Configuration pour la visionneuse de vidéos interactives.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # InteractiveSwatches.maxloadradius{#interactiveswatches-maxloadradius}
 
-Attribut de configuration de la visionneuse de vidéos interactives.
+Attribut Configuration pour la visionneuse de vidéos interactives.
 
 ` [InteractiveSwatches.|<containerId>_interactiveSwatches.]maxloadradius=-1|0| *`preloadnbr`*`
 
@@ -22,7 +22,7 @@ Attribut de configuration de la visionneuse de vidéos interactives.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph">1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p> Indique le comportement de préchargement du composant. </p> <p>Lorsqu’elle est définie sur <span class="codeph"> -1</span>, tous les échantillons sont chargés simultanément lorsque le composant est initialisé ou que la ressource est modifiée. </p> <p>Lorsqu’elle est définie sur <span class="codeph"> 0</span>, seuls les échantillons visibles sont chargés. </p> <p>Définissez cette variable sur <span class="codeph"><span class="varname"> preloadnbr</span></span> pour définir le nombre de lignes/colonnes invisibles autour de la zone visible qui sont préchargées. </p> </td> 
+   <td colname="col2"> <p> Spécifie le comportement de préchargement du composant. </p> <p>Lorsqu’elle est définie sur <span class="codeph"> -1</span> , toutes les nuances sont chargées simultanément lorsque le composant est initialisé ou que l’actif est modifié. </p> <p>Lorsque la valeur est 0<span class="codeph"></span>, seules les échantillons visibles sont chargés. </p> <p>Définissez sur <span class="codeph"><span class="varname"> preloadnbr</span></span> pour définir combien de lignes/colonnes invisibles autour de la zone visible sont préchargées. </p> </td> 
   </tr> 
  </tbody> 
 </table>

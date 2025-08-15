@@ -1,7 +1,7 @@
 ---
-description: Tableau d’URL pour le chargement de ressources.
+description: Tableau d’URL pour le téléchargement de ressources.
 solution: Experience Manager
-title: UploadUrlArray
+title: Tableau d’URL de téléchargement
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: af931740-48da-47c4-af03-349517f4e2a8
@@ -14,7 +14,7 @@ ht-degree: 21%
 
 # [!DNL UploadUrlArray]{#uploadurlarray}
 
-Tableau d’URL pour le chargement de ressources.
+Tableau d’URL pour le téléchargement de ressources.
 
 Syntaxe
 
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| éléments | `types:UploadUrl` | Tableau d’URL pour le chargement de ressources. |
+| éléments | `types:UploadUrl` | Tableau d’URL pour le téléchargement des ressources. |

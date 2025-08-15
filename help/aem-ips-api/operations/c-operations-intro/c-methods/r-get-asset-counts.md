@@ -16,7 +16,7 @@ ht-degree: 9%
 
 Obtient les ressources et le nombre de ressources associées à une société spécifique.
 
-L’ `countArray` renvoyé est constitué d’un tableau de `assetTypes` (type de données `xsd:string`), chacun ayant son propre champ de comptage (type de données `xsd:int`), permettant la représentation de plusieurs types de ressources par élément du tableau.
+Le `countArray` renvoyé se compose d’un tableau de `assetTypes` (type de données `xsd:string`), chacun ayant son propre champ de comptage (type de données `xsd:int`), ce qui permet la représentation de plusieurs types de ressources par élément du tableau.
 Syntaxe
 
 ## Types d’utilisateurs autorisés {#section-6234754722184e828352f10eb18fbce9}
@@ -33,21 +33,21 @@ Syntaxe
 
 ## Paramètres {#section-2a9581315eca427d8a3d26cc3fca7b1f}
 
-**Entrée (getAssetCountsParam)**
+**Input (getAssetCountsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gestion de l’entreprise avec les ressources que vous souhaitez compter. |
+| companyHandle | `xsd:string` | Oui | Identifiant de la société dont vous souhaitez comptabiliser les ressources. |
 
-**Sortie (getAssetCountsReturn)**
+**Output (getAssetCountsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| countArray | `types:AssetCountArray` | Non | Tableau de types de ressources, chacun avec son propre champ de comptage, permettant de représenter plusieurs types de ressources par élément du tableau. |
+| countArray | `types:AssetCountArray` | Non | Tableau de types de ressources, chacun ayant son propre champ de comptage, ce qui permet la représentation de plusieurs types de ressources par élément du tableau. |
 
 ## Exemples {#section-6052a503eb3843f6adb99e200fdba280}
 
-Cet exemple de code utilise le nom d’utilisateur de l’entreprise comme champ dans le `getAssetCountsParam` envoyé au serveur des services Web IPS pour obtenir le nombre de ressources.
+Cet exemple de code utilise le handle de l’entreprise comme champ dans le `getAssetCountsParam` envoyé au serveur de services Web IPS afin d’obtenir le nombre de ressources.
 
 **Requête**
 

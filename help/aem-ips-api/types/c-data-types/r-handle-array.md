@@ -1,5 +1,5 @@
 ---
-description: Un tableau de poignées.
+description: Tableau de descripteurs.
 solution: Experience Manager
 title: HandleArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,14 +14,14 @@ ht-degree: 16%
 
 # [!DNL HandleArray]{#handlearray}
 
-Un tableau de poignées.
+Tableau de descripteurs.
 
 >[!NOTE]
 >
->Le tableau peut contenir tous les types de poignées requis pour effectuer une opération.
+>Le tableau peut contenir n’importe quel type de descripteurs requis pour effectuer une opération.
 
 ## Paramètres {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
 | Nom | Type | Description |
 |---|---|---|
-| éléments | `xsd:string` | Un tableau de poignées. |
+| éléments | `xsd:string` | Tableau de descripteurs. |

@@ -1,6 +1,6 @@
 ---
-title: init
-description: Référence de l’API JavaScript pour la visionneuse à 360°.
+title: Init
+description: JavaScript référence de l’API pour la visionneuse à 360°.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
@@ -12,25 +12,25 @@ ht-degree: 2%
 
 ---
 
-# init{#init}
+# Init{#init}
 
-Référence de l’API JavaScript pour la visionneuse à 360°.
+JavaScript référence de l’API pour la visionneuse à 360°.
 
 `init()`
 
-Commence l’initialisation de la visionneuse à 360°. D’ici là, l’élément de conteneur `DOM` doit être créé afin que le code de la visionneuse puisse le trouver par son identifiant.
+Démarre l’initialisation de la visionneuse à 360°. À ce stade, l’élément conteneur `DOM` doit être créé de manière à ce que le code de visionneuse puisse le trouver par son identifiant.
 
-Si l’élément de conteneur ne fait pas encore partie de la mise en page web, par exemple, il peut être masqué à l’aide du style `display:none`, la visionneuse suspend son processus d’initialisation. Elle est suspendue jusqu’au moment où la page web ramène l’élément de conteneur à la mise en page, à ce moment-là le chargement de la visionneuse reprend automatiquement.
+Si l’élément conteneur ne fait pas encore partie de la mise en page Web (par exemple, il peut être masqué à l’aide d’un `display:none` style), la visionneuse suspend son processus d’initialisation. Il est suspendu jusqu’au moment où la page Web ramène l’élément conteneur à la mise en page, moment auquel le chargement de la visionneuse reprend automatiquement.
 
-Appelez cette méthode une seule fois pendant le cycle de vie de la visionneuse ; les appels suivants sont ignorés.
+N’appelez cette méthode qu’une seule fois au cours du cycle de vie d’une visionneuse ; Les appels suivants sont ignorés.
 
 ## Paramètres {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 
 Aucune
 
-## Renvoie {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Retourne {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` Référence à l’instance de visionneuse.
+`{Object}` Une référence à l’instance de visionneuse.
 
 ## Exemple {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

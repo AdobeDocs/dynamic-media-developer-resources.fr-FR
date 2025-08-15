@@ -1,5 +1,5 @@
 ---
-description: Tableau des types de détails des logs de travaux auxiliaires.
+description: Tableau des types de détails du log de traitement auxiliaire.
 solution: Experience Manager
 title: JobLogDetailAuxArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # [!DNL JobLogDetailAuxArray]{#joblogdetailauxarray}
 
-Tableau des types de détails des logs de travaux auxiliaires.
+Tableau des types de détails du log de traitement auxiliaire.
 
 Syntaxe
 
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| éléments | `types:JobLogDetailAux` | Tableau de types de détails des logs de travaux auxiliaires. |
+| éléments | `types:JobLogDetailAux` | Tableau de types de détails du journal des tâches auxiliaires. |

@@ -1,6 +1,6 @@
 ---
-title: Référence de commande - Attributs de configuration
-description: Documentation sur les attributs de configuration pour la visionneuse de vidéos.
+title: Référence de commande – Attributs de configuration
+description: Documentation sur les attributs de configuration pour la visionneuse vidéo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -12,24 +12,24 @@ ht-degree: 0%
 
 ---
 
-# Référence de commande - Attributs de configuration{#command-reference-configuration-attributes}
+# Référence de commande – Attributs de configuration{#command-reference-configuration-attributes}
 
-Documentation sur les attributs de configuration pour la visionneuse de vidéos.
+Documentation sur les attributs de configuration pour la visionneuse vidéo.
 
-Vous pouvez définir n’importe quelle commande de configuration dans l’URL. Vous pouvez également utiliser les méthodes API `setParam()` ou `setParams()`, ou les deux pour définir n’importe quelle commande de configuration. Vous pouvez également spécifier n’importe quel attribut de configuration dans l’enregistrement de configuration côté serveur.
+Vous pouvez définir n’importe quelle commande de configuration dans l’URL. Vous pouvez également utiliser les méthodes `setParam()`API , ou `setParams()`, ou les deux pour définir n’importe quelle commande de configuration. Vous pouvez également spécifier n’importe quel attribut de configuration dans l’enregistrement de configuration côté serveur.
 
-Vous pouvez préfixer certaines commandes de configuration avec le nom de classe ou le nom d’instance du composant SDK de visionneuse correspondant. Un nom d’instance du composant est dynamique et dépend de l’identifiant de l’élément DOM du conteneur de visionneuses transmis à la méthode d’API `setContainerId()`. La documentation comprend des préfixes facultatifs pour ces commandes. Par exemple, `playback` est documenté comme suit :
+Vous pouvez faire précéder certaines commandes de configuration du nom de classe ou du nom d’instance du composant SDK de visionneuse correspondant. Un nom d’instance du composant est dynamique et dépend de l’ID du conteneur de visionneuse élément DOM transmis à `setContainerId()` la méthode API. La documentation inclut des préfixes facultatifs pour ces commandes. Par exemple, `playback` est documenté comme suit :
 
 ```
 [VideoPlayer.|<containerId>_videoPlayer].playback
 ```
 
-Cela signifie que cette commande est utilisée de la manière suivante :
+Cela signifie que cette commande est utilisée de la manière suivante
 
 * `playback` (syntaxe courte)
-* `VideoPlayer.playback` (qualifié avec le nom de classe du composant)
-* `cont_videoPlayer.playback` (qualifié avec l’identifiant du composant, en supposant que `cont` soit l’identifiant de l’élément de conteneur)
+* `VideoPlayer.playback` (qualifié avec nom de classe de composant)
+* `cont_videoPlayer.playback` (qualifié avec l’ID du composant, en supposant qu’il `cont` s’agit de l’ID de l’élément conteneur)
 
 Voir [Référence de commande commune à toutes les visionneuses - Attributs de configuration](../../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd)
 
-Voir [Référence de commande commune à toutes les visionneuses - URL](../../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+Voir [Référence de commande commune à tous les visualiseurs - URL](../../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)

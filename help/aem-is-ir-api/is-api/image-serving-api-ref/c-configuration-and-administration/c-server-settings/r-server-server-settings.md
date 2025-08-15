@@ -16,44 +16,44 @@ ht-degree: 0%
 
 Utilisez ces paramètres de serveur pour configurer votre serveur.
 
-## SV::ImageServerMode - Mode serveur d’images {#section-991b287f2dde4f77a24fc69d5b32cabd}
+## SV ::ImageServerMode - Mode Serveur d’images {#section-991b287f2dde4f77a24fc69d5b32cabd}
 
-Les versions 32 et 64 bits du serveur d’images sont disponibles pour Linux. Spécifiez ImageServer64 lorsqu’il est installé sur des serveurs Linux 64 bits ou ImageServer32 (par défaut) lorsqu’il est installé sur des serveurs 32 bits.
-
->[!NOTE]
->
->La version 64 bits du serveur d’images ne prend pas en charge les fichiers source FlashPix.
+Une version 32 bits et une version 64 bits d’Image Server sont disponibles pour Linux. Spécifiez ImageServer64 lorsqu’il est installé sur des serveurs Linux 64 bits ou ImageServer32 (par défaut) lorsqu’il est installé sur des serveurs 32 bits.
 
 >[!NOTE]
 >
->Le mode 64 bits n’est pas pris en charge sous Windows. Seul `ImageServer32` peut être spécifié. Sinon, la diffusion d’images ne démarre pas.
-
-## SV::PsHeapSize - [!DNL Platform Server] Taille du tas {#section-fd83715948764aeda58d6b3a9f9f8be9}
-
-Taille du tas Java pour le [!DNL Platform Server]. La valeur par défaut est &quot;`512m`&quot; (512 Mo).
-
-## IS::TcpPort, PS::isConnection.port - Image Server Listening Port {#section-5421bfd2ca2a4a979faf812b6fdb2887}
-
-Indique le port utilisé pour la communication entre le [!DNL Platform Server] et le serveur d’images. Veillez à spécifier un numéro de port qui n’est pas utilisé autrement sur le système hôte.
+>La version 64 bits d’Image Server ne prend pas en charge les fichiers sources FlashPix.
 
 >[!NOTE]
 >
->Pour que le service d’images fonctionne correctement, la même valeur doit être définie pour `IS::TcpPort` et `PS::isConnection.port`.
+>Le mode 64 bits n’est pas pris en charge sous Windows. Seule `ImageServer32` peut être spécifiée. Sinon, la diffusion d’images ne démarre pas.
 
-## IS::PhysicalMemory - Limite de mémoire du serveur d’images {#section-85e37aa2ac6e456eb698da716dd3247d}
+## SV ::P sHeapSize – [!DNL Platform Server] Taille du tas {#section-fd83715948764aeda58d6b3a9f9f8be9}
 
-Limite approximative des données image en mémoire, exprimée en pourcentage de mémoire physique. La plage valide est comprise entre 10 % et 90 %. Si possible, le serveur d’images tente de limiter son utilisation de la mémoire d’image à la quantité spécifiée. La limite peut être temporairement dépassée lors d&#39;une activité de traitement intensif.
+Taille du tas Java pour le [!DNL Platform Server]fichier . La valeur par défaut est &quot; `512m`&quot; (512 Mo).
 
-## IS::WorkerThreads - Nombre de travaux de serveur d’images Threads {#section-e2946063b13c4f728cdf5dba3d8b4de1}
+## IS ::TcpPort, PS ::isConnection.port - Port d’écoute du serveur d’images {#section-5421bfd2ca2a4a979faf812b6fdb2887}
 
-Nombre maximal de threads que le serveur d’images utilise pour traiter les données image. La valeur par défaut est 0, ce qui permet au serveur d’images d’optimiser automatiquement le nombre de threads.
+Spécifie le port utilisé pour la communication entre le serveur et [!DNL Platform Server] le serveur d’images. Veillez à spécifier un numéro de port qui n’est pas utilisé autrement sur le système hôte.
 
-Certains systèmes d’exploitation ont des modèles de thread avec une surcharge de changement de contexte élevée. Dans ce cas, les performances globales du serveur peuvent s’améliorer lorsqu’un nombre spécifique de threads est sélectionné (par exemple, un thread par processeur). Certaines expériences peuvent être nécessaires pour trouver le paramètre optimal. Pour plus d’informations, reportez-vous aux notes de mise à jour du serveur d’images et à la documentation du système d’exploitation.
+>[!NOTE]
+>
+>Pour que la diffusion d’images fonctionne correctement, la même valeur doit être définie pour `IS::TcpPort` et `PS::isConnection.port`.
 
-## IS::NumberOfTextServers - Nombre d’instances de serveur de texte {#section-971e20a90c1a473598fba738ed95671a}
+## IS ::P hysicalMemory – Mémoire limite de mémoire du serveur d’images {#section-85e37aa2ac6e456eb698da716dd3247d}
 
-Nombre maximal de rendus de texte à activer simultanément. 0 (par défaut) équivaut à 1,5 fois le nombre de coeurs de processeur disponibles.
+Limite approximative pour les données d’image en mémoire, exprimée en pourcentage de la mémoire physique. La plage valide s’étend de 10 % à 90 %. Le serveur d’images tente de limiter son utilisation de la mémoire d’image à la quantité spécifiée si possible. La limite peut être dépassée temporairement lors d’une activité de traitement intensive.
 
-## IS::TextServerTcpPortRange - Ports de communication du serveur de texte {#section-a13465de88ed4df09931e5ba840c1942}
+## IS ::WorkerThreads - Nombre de threads de travail du serveur d’images {#section-e2946063b13c4f728cdf5dba3d8b4de1}
 
-Ports à utiliser pour les communications de serveur de texte. Indiquez les premier et dernier numéros de port, séparés par &quot;-&quot;.
+Nombre maximal de threads que le serveur d’images utilise pour le traitement des données image. La valeur par défaut est 0, ce qui permet au serveur d’images d’optimiser automatiquement le nombre de threads.
+
+Certains systèmes d’exploitation ont des modèles de threading avec une surcharge de commutation contextuelle élevée. Dans un tel cas, les performances globales du serveur peuvent s’améliorer lorsqu’un nombre de threads spécifique est sélectionné (par exemple, un thread par CPU). Des expériences peuvent être nécessaires pour trouver le réglage optimal. Reportez-vous aux notes de version de Image Serving et à la documentation du système d’exploitation pour plus d’informations.
+
+## IS ::NumberOfTextServers - Nombre d’instances de serveur de texte {#section-971e20a90c1a473598fba738ed95671a}
+
+nombre maximum de moteurs de rendu de texte à activer simultanément. 0 (valeur par défaut) équivaut à 1,5 fois le nombre de cœurs de processeur.
+
+## IS ::TextServerTcpPortRange - Ports de communication de serveur de texte {#section-a13465de88ed4df09931e5ba840c1942}
+
+Ports à utiliser pour les communications de serveur de texte. Spécifiez le premier et le dernier numéro de port, séparés par &#39;-&#39;.

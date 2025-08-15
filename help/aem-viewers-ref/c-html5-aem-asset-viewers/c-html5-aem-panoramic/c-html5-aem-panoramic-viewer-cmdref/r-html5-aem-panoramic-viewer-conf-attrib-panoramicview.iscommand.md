@@ -21,7 +21,7 @@ Attribut de configuration de la visionneuse panoramique.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> Chaîne de commande de diffusion d’images appliquée à l’image.  S’il est spécifié dans l’URL, veillez à coder toutes les occurrences de <span class="codeph"> &amp;</span> et <span class="codeph"> =</span> en tant que <span class="codeph"> %26</span> et <span class="codeph"> %3D</span>, respectivement. </p> </td> 
+   <td colname="col2"> <p> Chaîne de commande de diffusion d’images appliquée à l’image.  Si elle est spécifiée dans l'URL, veillez à encoder en HTTP toutes les occurrences de <span class="codeph"> &amp;</span> et <span class="codeph"> =</span> en <span class="codeph"> %26</span> et <span class="codeph"> %3D</span>, respectivement. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -33,11 +33,11 @@ Facultatif.
 
 ## Par défaut {#section-d016470e92a74f98a18c4ab3489410a5}
 
-Aucune valeur par défaut.
+Pas de valeur par défaut.
 
 ## Exemple {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
 
-Lorsqu’il est spécifié dans l’URL de la visionneuse.
+Si spécifié dans l’URL de la visionneuse.
 
 ```
 iscommand=op_sharpen%3d1%26op_colorize%3d0xff0000

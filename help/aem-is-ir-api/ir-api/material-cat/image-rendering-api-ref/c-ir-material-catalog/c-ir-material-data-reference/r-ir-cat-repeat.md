@@ -1,5 +1,5 @@
 ---
-description: Mode de répétition de la texture. Indique la façon dont les images de texture sont mosaïquées pour remplir la surface cible.
+description: Mode de répétition de texture. Spécifie comment les images de texture sont mosaïquées pour remplir la surface cible.
 solution: Experience Manager
 title: Répéter
 feature: Dynamic Media Classic,SDK/API
@@ -14,46 +14,46 @@ ht-degree: 17%
 
 # Répéter{#repeat}
 
-Mode de répétition de la texture. Indique la façon dont les images de texture sont mosaïquées pour remplir la surface cible.
+Mode de répétition de texture. Spécifie comment les images de texture sont mosaïquées pour remplir la surface cible.
 
 ## Propriétés {#section-cef4109cddf54ce095c3293d85bc412d}
 
-Enum. Utilisé uniquement pour les textures répétables. Ignoré pour tous les autres matériaux.
+Enum. Utilisé uniquement pour les textures reproductibles. Ignoré pour tous les autres matériaux.
 
-Les valeurs suivantes sont autorisées pour les matériaux de texture répétables :
+Les valeurs suivantes sont autorisées pour les matériaux texturés répétables :
 
 <table id="simpletable_C24FDA80A8AC431DA3FC86188E3774E1" class="- topic/simpletable "> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>01 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Répétez immédiatement. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Répétez directement. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>1 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Carrelage aléatoire à 4 voies. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Mosaïque aléatoire 4 voies. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>2 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Carrelage aléatoire à 8 voies. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Mosaïque aléatoire 8 voies. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>3 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Carrelage en diamant. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Carrelage diamant. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>4 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Un papier peint à 1/4 goutte suspendu. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Papier peint d’un quart de goutte suspendu. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>5 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Papier peint de troisième dépôt suspendu. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Papier peint suspendu à la troisième goutte. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>6 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Un papier peint à demi-goutte suspendu. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Papier peint à demi-goutte suspendu. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>7 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Papier peint de la cinquième goutte suspendu. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Papier peint suspendu à cinquième goutte. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>8 </p></td> 
@@ -61,53 +61,53 @@ Les valeurs suivantes sont autorisées pour les matériaux de texture répétabl
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>9 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Papier peint aléatoire suspendu. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Papier peint suspendu au hasard. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>10 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Abandon aléatoire. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Chute aléatoire. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>11 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Aléatoire. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Aléatoire en travers. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>12 </p></td> 
-  <td class="- topic/stentry stentry"> <p>La moitié. </p></td> 
+  <td class="- topic/stentry stentry"> <p>La moitié de l’autre. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>13 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Miroir (bookmatch). </p></td> 
+  <td class="- topic/stentry stentry"> <p>Miroir (correspondance de livres). </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>14 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Optimiseur aléatoire standard. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Randomiseur standard. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>15 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Optimiseur aléatoire haute fréquence. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Randomiseur haute fréquence. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>16 </p></td> 
-  <td class="- topic/stentry stentry"> <p>aléisseur de basse fréquence. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Randomiseur basse fréquence. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>17 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Opérateur aléatoire horizontal. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Randomiseur horizontal. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>18 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Optimiseur vertical. </p></td> 
+  <td class="- topic/stentry stentry"> <p>Randomiseur vertical. </p></td> 
  </tr> 
  <tr class="- topic/strow strow"> 
   <td class="- topic/stentry stentry"> <p>19 </p></td> 
-  <td class="- topic/stentry stentry"> <p>Gestionnaire aléatoire Edge. </p></td> 
+  <td class="- topic/stentry stentry"> <p>randomiseur Edge. </p></td> 
  </tr> 
 </table>
 
 ## Par défaut {#section-23fba3bd1f3544c7913d12f2ca148517}
 
-0 (répétition droite).
+0 (répétition directe).
 
 ## Voir aussi {#section-a08887a91db34ed3b183899c69c9f74f}
 

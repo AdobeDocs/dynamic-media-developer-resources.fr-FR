@@ -1,6 +1,6 @@
 ---
 title: AllowDirectURL
-description: Autoriser les URL sources absolues
+description: Autoriser les URL sources absolues.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,17 +14,17 @@ ht-degree: 6%
 
 # AllowDirectURL{#allowdirecturls}
 
-Autoriser les URL sources absolues
+Autoriser les URL sources absolues.
 
-Définissez cette variable sur `1` pour autoriser les URL HTTP absolues (commençant par &quot; `http://`&quot;) dans les commandes `src=`. Définissez cette variable sur `0` pour interdire les URL absolues.
+Définissez cette valeur sur `1` pour autoriser les URL HTTP absolues (commençant par « `http://` ») dans les commandes `src=`. Définissez sur `0` pour interdire les URL absolues.
 
 ## Propriétés {#section-9246bc06c7484f9e8f65a5edb24f6854}
 
-Indicateur.
+Drapeau.
 
 ## Par défaut {#section-a881c30ea28e47e296faa890c3bd6daf}
 
-Hérité de `default::AllowDirectUrls` si elle n’est pas définie ou si elle est vide.
+Hérité de `default::AllowDirectUrls` si non défini ou si vide.
 
 ## Voir aussi {#section-66e0c597a8b04155b40538385312b389}
 

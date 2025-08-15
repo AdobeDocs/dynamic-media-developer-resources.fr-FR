@@ -1,6 +1,6 @@
 ---
-title: DefaultPix
-description: Taille d’image de rendu par défaut. Le serveur oblige les images de réponse à ne pas dépasser cette largeur et cette hauteur si la requête ne spécifie pas la taille d’affichage explicitement à l’aide de wid= ou hei=.
+title: Pix par défaut
+description: Taille d’image de rendu par défaut. Le serveur contraint les images de réponse à ne pas dépasser cette largeur et cette hauteur, si la demande ne spécifie pas explicitement la taille d’affichage à l’aide de wid= ou hei=.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,20 +12,20 @@ ht-degree: 2%
 
 ---
 
-# DefaultPix{#defaultpix}
+# Pix par défaut{#defaultpix}
 
-Taille d’image de rendu par défaut. Le serveur oblige les images de réponse à ne pas dépasser cette largeur et cette hauteur si la requête ne spécifie pas la taille d’affichage explicitement à l’aide de wid= ou hei=.
+Taille d’image de rendu par défaut. Le serveur contraint les images de réponse à ne pas dépasser cette largeur et cette hauteur, si la demande ne spécifie pas explicitement la taille d’affichage à l’aide de wid= ou hei=.
 
 ## Propriétés {#section-9dc5474fc75842308796ab6440b29611}
 
-Deux nombres entiers, 0 ou plus, séparés par une virgule. Largeur et hauteur en pixels. L’une ou l’autre des valeurs (ou les deux) peuvent être définies sur 0 pour ne pas être contraintes.
+Deux nombres entiers de valeur supérieure ou égale à zéro, séparés par une virgule. Largeur et hauteur en pixels. Les deux valeurs, ou une seule, peuvent être définies sur 0 pour ne pas les limiter.
 
-Non applicable aux requêtes imbriquées/incorporées.
+Ne s’applique pas aux requêtes imbriquées/intégrées.
 
 ## Par défaut {#section-1935781c561e4679aa87a5bcced8df90}
 
-Hérité de `default::DefaultPix` si elle n’est pas définie ou si elle est vide.
+Hérité de `default::DefaultPix` si non défini ou si vide.
 
 ## Voir aussi {#section-d28f18d29ef14692b8706ca08e754f54}
 
-[wid=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-wid.md#reference-b7e691b0624941168c94b2749ae233ec) , [hei=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-hei.md#reference-1c08f60365a94417a39867c09cac5478), [attribute::MaxPix](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-maxpix.md#reference-569f186bbc2840a6bd3cffa8ff3e7657)
+[wid=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-wid.md#reference-b7e691b0624941168c94b2749ae233ec) , [hei=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-hei.md#reference-1c08f60365a94417a39867c09cac5478), [attribute ::MaxPix](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-maxpix.md#reference-569f186bbc2840a6bd3cffa8ff3e7657)

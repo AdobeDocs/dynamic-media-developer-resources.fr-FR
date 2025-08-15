@@ -17,6 +17,6 @@ ht-degree: 0%
 La diffusion d’images peut être installée sur Windows 64 bits.
 
 * [Première installation](t-first-time-installation-win.md)
-* [Installation sous un autre compte utilisateur que   administrator](t-diff-account-win.md)
-* [Mise à jour à partir de IS 4.7.4 ou version ultérieure](t-update-win.md)
+* [Installation sous un compte utilisateur différent de   administrateur](t-diff-account-win.md)
+* [Mise à jour à partir d’IS 4.7.4 ou version ultérieure](t-update-win.md)
 * [Vérification de l&#39;installation](t-verify-win.md)

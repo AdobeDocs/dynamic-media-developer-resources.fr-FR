@@ -21,8 +21,8 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | mot-clé | `xsd:string` | Mot-clé. |
-| état | `xsd:boolean` | Validité des mots-clés. |
-| x | `xsd:int` | Position du mot-clé sur l’axe X (en pixels). |
-| y | `xsd:int` | Position du mot-clé sur l’axe Y (en pixels). |
+| état | `xsd:boolean` | Validité du mot-clé. |
+| x | `xsd:int` | Position du mot-clé sur l’axe x (en pixels). |
+| y | `xsd:int` | Position du mot-clé sur l’axe y (en pixels). |
 | largeur | `xsd:int` | Largeur du mot-clé en pixels. |
 | hauteur | `xsd:int` | Hauteur du mot-clé en pixels. |

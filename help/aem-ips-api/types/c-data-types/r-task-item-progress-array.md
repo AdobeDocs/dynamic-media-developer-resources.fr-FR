@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| éléments | `types:TaskItemProgress` | Tableau de progression des éléments de tâche. L’occurrence minimale est zéro. Le maximum est illimité. |
+| éléments | `types:TaskItemProgress` | Tableau de progression de l’élément de tâche. L’occurrence minimale est zéro. Le maximum est illimité. |

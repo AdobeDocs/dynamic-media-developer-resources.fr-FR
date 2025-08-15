@@ -1,6 +1,6 @@
 ---
 title: Référence de l’API de rendu d’image
-description: Affichez l’aide de référence de l’API de rendu d’image Dynamic Media.
+description: Consultez l’aide de référence de l’API de rendu d’image Dynamic Media.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # Référence de l’API de rendu d’image {#image-rendering-api-reference}
 
-Affichez l’aide de référence de l’API de rendu d’image Dynamic Media.
+Consultez l’aide de référence de l’API de rendu d’image Dynamic Media.

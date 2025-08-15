@@ -1,6 +1,6 @@
 ---
 title: Encodage des caractères
-description: Utilisez les commandes suivantes pour le codage des caractères.
+description: Utilisez les commandes suivantes pour coder des caractères.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Encodage des caractères{#character-encoding}
 
-Utilisez les commandes suivantes pour le codage des caractères.
+Utilisez les commandes suivantes pour coder des caractères.
 
 <table id="table_EB0C1B674BEA4A37964FB4BF559E0005"> 
  <thead> 
@@ -26,14 +26,14 @@ Utilisez les commandes suivantes pour le codage des caractères.
  </thead>
  <tbody> 
   <tr> 
-   <td> <span class="codeph">\'<span class="varname"> HH</span></span> </td> 
-   <td> <p>Caractère simple 8 bits. </p> </td> 
-   <td> <p><span class="varname"> HH</span> doit être une valeur hexadécimale de 2 chiffres. </p> </td> 
+   <td> <span class="codeph">\'<span class="varname"> HH </span></span> </td> 
+   <td> <p>Caractère unique 8 bits. </p> </td> 
+   <td> <p><span class="varname"> valeur HH</span> doit être une valeur hexadécimale à 2 chiffres. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph">\u<span class="varname"> N</span></span> </td> 
    <td> <p>Caractère Unicode unique. </p> </td> 
-   <td> <p><span class="varname"> N</span> est un entier signé de 2 octets. Par conséquent, une valeur Unicode supérieure à 32767 doit être exprimée en nombre négatif. </p> </td> 
+   <td> <p><span class="varname"> N</span> est un entier signé de 2 octets et donc une valeur Unicode supérieure à 32767 doit être exprimée sous la forme d'un nombre négatif. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph">\uc<span class="varname"> N</span></span> </td> 
@@ -42,17 +42,17 @@ Utilisez les commandes suivantes pour le codage des caractères.
   </tr> 
   <tr> 
    <td> <span class="codeph"> \loch </span> </td> 
-   <td> <p>Caractères de la zone à faible résolution ANSI. </p> </td> 
+   <td> <p>Caractères de la zone en ANSI bas. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \hich </span> </td> 
-   <td> <p>Caractères de la zone ANSI élevée. </p> </td> 
+   <td> <p>Caractères de la zone en ANSI élevé. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \dbch </span> </td> 
-   <td> <p>Les caractères à deux octets suivent. </p> </td> 
+   <td> <p>Des caractères codés sur deux octets suivent. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
  </tbody> 

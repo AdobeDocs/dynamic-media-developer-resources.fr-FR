@@ -1,6 +1,6 @@
 ---
 title: Licences
-description: Pour utiliser Image Serving, une clé de licence Dynamic Media Image Serving est requise et doit être installée sur chaque système sur lequel Image Serving doit être utilisé.
+description: Pour utiliser Image Server, une clé de licence Image Serving Dynamic Media est requise et doit être installée sur chaque système sur lequel Image Serving doit être utilisé.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # Licences{#licensing}
 
-Pour utiliser Image Serving, une clé de licence Dynamic Media Image Serving est requise et doit être installée sur chaque système sur lequel Image Serving doit être utilisé.
+Pour utiliser Image Server, une clé de licence Image Serving Dynamic Media est requise et doit être installée sur chaque système sur lequel Image Serving doit être utilisé.
 
-De même, pour utiliser le rendu d’image, une clé de licence de rendu d’image Dynamic Media est requise. Le rendu d’image peut être utilisé sans licence de diffusion d’images, et inversement.
+De même, pour utiliser Image Rendering, une clé de licence Dynamic Media Image Rendering est requise. Image Rendering peut être utilisé sans licence Image Server, et inversement.
 
-La procédure d&#39;installation comprend les étapes nécessaires pour obtenir et installer les clés de licence nécessaires.
+La procédure d’installation comprend des étapes pour obtenir et installer les clés de licence nécessaires.

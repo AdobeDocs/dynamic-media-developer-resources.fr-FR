@@ -1,6 +1,6 @@
 ---
-title: flip
-description: Retourner le calque. Fait pivoter le calque horizontalement, verticalement ou les deux, après avoir appliqué crop= et avant rotate= et extended=.
+title: chiquenaude
+description: Retournez le calque. Fait pivoter le calque horizontalement, verticalement ou les deux, après application de crop= et avant rotate= et extend=.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,38 +12,38 @@ ht-degree: 2%
 
 ---
 
-# flip{#flip}
+# chiquenaude{#flip}
 
-Retourner le calque. Fait pivoter le calque horizontalement, verticalement ou les deux, après avoir appliqué crop= et avant rotate= et extended=.
+Retournez le calque. Fait pivoter le calque horizontalement, verticalement ou les deux, après application de crop= et avant rotate= et extend=.
 
 `flip=lr|ud|lrud`
 
 <table id="simpletable_072CA0E24B7146D48AEFD70E51E849C2"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> lr </span> </p> </td> 
-  <td class="stentry"> <p>Retourner le calque horizontalement (de gauche à droite). </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> Lr </span> </p> </td> 
+  <td class="stentry"> <p>Retourne le calque horizontalement (de gauche à droite). </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> ud </span> </p> </td> 
-  <td class="stentry"> <p>Retourner le calque verticalement (vers le bas). </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> Ud </span> </p> </td> 
+  <td class="stentry"> <p>Retourne le calque verticalement (vers le haut-bas). </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> lurd </span> </p> </td> 
-  <td class="stentry"> <p>Symétrie horizontale et verticale. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> lrud </span> </p> </td> 
+  <td class="stentry"> <p>Faites-le pivoter horizontalement et verticalement. </p> </td> 
  </tr> 
 </table>
 
-Elle peut également être appliquée aux calques de texte.
+Elle peut également s’appliquer aux calques de texte.
 
-Certaines commandes, dont `extend=`, s’appliquent implicitement à la couche 0 au lieu de la couche composite lorsque `layer=comp` est sélectionné. Dans ce cas de figure, toutes les commandes attribuées automatiquement à la couche 0 sont appliquées avant les commandes qui s’appliquent à `layer=comp`. Ainsi, lorsque `layer=comp`, `extend=` est appliqué avant `flip=`.
+Certaines commandes, notamment `extend=`, s’appliquent implicitement au calque 0 au lieu du calque composite lorsque `layer=comp` est sélectionné. Dans de tels scénarios, toutes les commandes affectées automatiquement à la couche 0 sont appliquées avant les commandes qui s’appliquent à `layer=comp`. Ainsi, lorsque `layer=comp`, `extend=` est appliqué avant `flip=`.
 
 >[!NOTE]
 >
->Le calque inversé est positionné en fonction de l’ancrage du calque. Différentes `flip=` valeurs entraînent des positions de calque différentes lorsque l’ancre n’est pas au centre du calque.
+>Le calque inversé est positionné en fonction de l’ancrage de calque. Des valeurs différentes `flip=` entraînent des positions de calque différentes lorsque l’ancre n’est pas au centre du calque.
 
 ## Propriétés {#section-294da2af7be746b5adfc35e29ee68217}
 
-Couche, commande. S’applique au calque actif ou à l’image composite si `layer=comp`. Ignoré par les calques d’effet.
+Calque, commande S’applique au calque actif ou à l’image composite si `layer=comp`. Ignoré par les calques d’effets.
 
 ## Par défaut {#section-502044f81a89492198d5f12a738459ea}
 

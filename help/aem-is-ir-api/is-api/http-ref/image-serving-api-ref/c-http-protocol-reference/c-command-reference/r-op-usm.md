@@ -1,6 +1,6 @@
 ---
 title: op_usm
-description: Masquage flou. L’accentuation masque le calque ou l’image d’affichage final, après toute mise à l’échelle, si layer=comp.
+description: Masquage flou. Le flou masque le calque ou l’image de vue finale, après toute mise à l’échelle, si layer=comp.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,28 +14,28 @@ ht-degree: 1%
 
 # op_usm{#op-usm}
 
-Masquage flou. L’accentuation masque le calque ou l’image d’affichage final, après toute mise à l’échelle, si layer=comp.
+Masquage flou. Le flou masque le calque ou l’image de vue finale, après toute mise à l’échelle, si layer=comp.
 
-Les paramètres sont supposés s’appliquer à l’image à résolution complète et sont réduits lors du traitement d’une image sous-échantillonnée.
+Les paramètres sont supposés s’appliquer à l’image pleine résolution et sont réduits lors du traitement d’une image sous-échantillonnée.
 
-`op_usm= *`amount`*[, *`radius`*[, *`seuil`*[, *`monochrome`*]]]`
+`op_usm= *``*[, *`Rayon de quantité`*[, *`Seuil`*[, *`monochrome`*]]]`
 
 <table id="simpletable_0697E3BCB45F41C494D93A6017ADD2BF"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> amount</span></span> </p></td> 
-  <td class="stentry"> <p>Facteur de résistance du filtre (réel 0...5). </p></td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> quantité</span></span> </p></td> 
+  <td class="stentry"> <p>Facteur d’intensité du filtre (réel 0... 5). </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> radius</span></span> </p></td> 
-  <td class="stentry"> <p>Filtrez le rayon du noyau en pixels (réel 0...250). </p></td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> rayon</span></span> </p></td> 
+  <td class="stentry"> <p>Rayon du filtre en pixels (réel 0... 250). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> seuil</span></span> </p></td> 
-  <td class="stentry"> <p>Niveau de seuil du filtre (int 0...255). </p></td> 
+  <td class="stentry"> <p>Niveau de seuil du filtre (int 0... 255). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"><span class="varname"> monochrome</span></span> </p></td> 
-  <td class="stentry"> <p>Définissez cette variable sur 0 pour l’appliquer séparément à chaque composant de couleur ou sur 1 pour l’appliquer uniquement à la luminosité de l’image (intensité). </p> <p> <span class="codeph"><span class="varname"> monochrome</span></span> est ignoré pour les images en niveaux de gris. </p></td> 
+  <td class="stentry"> <p>Définissez sur 0 pour appliquer séparément chaque composant de couleur ou sur 1 pour appliquer uniquement à la luminosité de l’image (intensité). </p> <p> <span class="codeph"><span class="varname"> Le monochrome</span></span> est ignoré pour les images en niveaux de gris. </p></td> 
  </tr> 
 </table>
 
@@ -43,7 +43,7 @@ Le masque de calque ou le masque composite est également accentué.
 
 ## Propriétés {#section-fb5311b34d164946b74dadb32359518a}
 
-Attribut de calque ou attribut d’affichage. S’applique au calque actif ou à l’image de vue finale si `layer=comp`. Ignoré par les calques d’effet.
+Attribut de couche ou attribut de vue. S’applique au calque actif ou à l’image vue finale si `layer=comp`. Ignoré par les calques d’effets.
 
 ## Par défaut {#section-2bedc99866ff473e90e5ea36596d8362}
 

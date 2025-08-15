@@ -1,6 +1,6 @@
 ---
 title: MaxPix
-description: Limite de la taille de l’image de réponse. Largeur et hauteur maximales de l’image de réponse pouvant être renvoyées au client.
+description: Limite de taille de l’image de réponse. Largeur et hauteur maximales de l’image de réponse qui peut être renvoyée au client.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,17 +14,17 @@ ht-degree: 2%
 
 # MaxPix{#maxpix}
 
-Limite de la taille de l’image de réponse. Largeur et hauteur maximales de l’image de réponse pouvant être renvoyées au client.
+Limite de taille de l’image de réponse. Largeur et hauteur maximales de l’image de réponse qui peut être renvoyée au client.
 
-Le serveur renvoie une erreur si une requête provoque une image de réponse dont la largeur et/ou la hauteur sont supérieures à `attribute::MaxSize`.
+Le serveur renvoie une erreur si une demande provoque une image de réponse dont la largeur et/ou la hauteur est supérieure à `attribute::MaxSize`.
 
 ## Propriétés {#section-390c1066b7a748aca3c0b45ad8bdcfb1}
 
-Deux nombres entiers, supérieurs à 0, séparés par une virgule. Largeur et hauteur en pixels. Peut également être défini sur 0,0 pour permettre toute taille d’image de réponse sans limite.
+Deux nombres entiers, supérieurs à 0, séparés par une virgule. Largeur et hauteur en pixels. Peut également être définie sur 0,0 pour autoriser n’importe quelle taille d’image de réponse sans aucune limitation.
 
 ## Par défaut {#section-45b38dc661854d11b97df5709f4f3434}
 
-Hérité de la valeur par défaut ::MaxPix si elle n’est pas définie ou si elle est vide.
+Hérité de default ::MaxPix si non défini ou si vide.
 
 ## Voir aussi {#section-09cddedde91f43b1ac5828f7e3327c6a}
 

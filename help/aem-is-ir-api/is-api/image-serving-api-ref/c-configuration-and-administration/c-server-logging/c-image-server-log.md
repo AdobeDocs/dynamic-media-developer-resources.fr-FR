@@ -1,5 +1,5 @@
 ---
-description: Le serveur d’images écrit des enregistrements dans ce fichier journal afin d’enregistrer les avertissements et les erreurs et d’enregistrer les événements de démarrage et d’arrêt.
+description: Le serveur d’images écrit des enregistrements dans ce fichier journal pour enregistrer les avertissements et les erreurs et conserver un enregistrement des événements de démarrage et d’arrêt.
 solution: Experience Manager
 title: Journal du serveur d’images
 feature: Dynamic Media Classic,SDK/API
@@ -14,8 +14,8 @@ ht-degree: 0%
 
 # Journal du serveur d’images{#image-server-log}
 
-Le serveur d’images écrit des enregistrements dans ce fichier journal afin d’enregistrer les avertissements et les erreurs et d’enregistrer les événements de démarrage et d’arrêt.
+Le serveur d’images écrit des enregistrements dans ce fichier journal pour enregistrer les avertissements et les erreurs et conserver un enregistrement des événements de démarrage et d’arrêt.
 
-En outre, le journal du serveur d’images peut être configuré pour effectuer le suivi de détails supplémentaires importants, tels que l’accès aux fichiers image, afin de résoudre les problèmes liés au serveur.
+En outre, le journal Image Server peut être configuré pour effectuer le suivi de détails supplémentaires importants, tels que les accès aux fichiers image, afin de faciliter le débogage des problèmes de serveur.
 
 Le journal du serveur d’images est configuré dans [!DNL ImageServerRegistry.xml].

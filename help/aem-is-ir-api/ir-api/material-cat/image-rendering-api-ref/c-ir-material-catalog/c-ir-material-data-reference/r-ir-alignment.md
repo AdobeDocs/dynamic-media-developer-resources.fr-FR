@@ -1,5 +1,5 @@
 ---
-description: Alignement de la texture. Alignement de la texture lorsqu’elle est appliquée à des objets de vignette les uns liés aux autres, comme les parties en toile de fond d’un meuble. Utilisé principalement pour les applications de rendu de la recharge, éventuellement pour les applications de vêtements avancées.
+description: Alignement de la texture. Alignement de la texture lorsqu’elle est appliquée aux objets de vignette liés les uns aux autres, tels que les parties rembourrées d’un élément de mobilier. Utilisé principalement pour des applications de rendu de rembourrage, éventuellement pour des applications de vêtements avancées.
 solution: Experience Manager
 title: Alignement
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 4%
 
 # Alignement{#alignment}
 
-Alignement de la texture. Alignement de la texture lorsqu’elle est appliquée à des objets de vignette les uns liés aux autres, comme les parties en toile de fond d’un meuble. Utilisé principalement pour les applications de rendu de la recharge, éventuellement pour les applications de vêtements avancées.
+Alignement de la texture. Alignement de la texture lorsqu’elle est appliquée aux objets de vignette liés les uns aux autres, tels que les parties rembourrées d’un élément de mobilier. Utilisé principalement pour des applications de rendu de rembourrage, éventuellement pour des applications de vêtements avancées.
 
 ## Propriétés {#section-008158477f53457e9d812d313696cfb6}
 
-Enum. Définissez cette variable sur 0 pour l’alignement par défaut ou centré, 1 pour l’alignement continu, 2 pour l’alignement aléatoire entre les parties ou sur 3, 4, 5 ou 6 pour utiliser une origine de texture personnalisée. Uniquement utilisée par des matériaux de tissu.
+Énumération. Définissez cette valeur sur 0 pour l&#39;alignement par défaut ou centré, 1 pour l&#39;alignement continu, 2 pour l&#39;alignement aléatoire entre les pièces ou sur 3, 4, 5 ou 6 pour utiliser une origine de texture personnalisée. Uniquement utilisé par des matériaux en tissu.
 
 ## Par défaut {#section-1aae2c85042846539caa089f3fa8fe2d}
 

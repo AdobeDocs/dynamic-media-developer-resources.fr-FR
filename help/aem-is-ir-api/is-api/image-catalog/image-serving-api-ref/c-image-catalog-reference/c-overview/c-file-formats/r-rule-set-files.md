@@ -1,7 +1,7 @@
 ---
 description: Les fichiers d’ensemble de règles sont des fichiers texte au format XML et doivent respecter les normes et conventions appropriées.
 solution: Experience Manager
-title: Fichiers de jeu de règles
+title: Fichiers de jeux de règles
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7f3d700f-1941-4220-b91d-54e78fae6aaf
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# Fichiers de jeu de règles{#rule-set-files}
+# Fichiers de jeux de règles{#rule-set-files}
 
 Les fichiers d’ensemble de règles sont des fichiers texte au format XML et doivent respecter les normes et conventions appropriées.
 
-[!DNL RuleSet.xsd] est installé dans le dossier de catalogue par défaut et doit être utilisé pour valider les fichiers d’ensemble de règles avant de les envoyer au serveur d’images. L’analyse stricte est appliquée et les fichiers d’ensemble de règles non conformes à [!DNL RuleSet.xsd] ne se chargent pas.
+[!DNL RuleSet.xsd] est installé dans le dossier de catalogue par défaut et doit être utilisé pour valider les fichiers d’ensembles de règles avant de les soumettre au serveur d’images. Une analyse stricte est appliquée et les fichiers de jeu de règles non conformes ne [!DNL RuleSet.xsd] se chargent pas.

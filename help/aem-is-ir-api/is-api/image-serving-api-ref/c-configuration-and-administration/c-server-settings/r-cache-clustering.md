@@ -16,18 +16,18 @@ ht-degree: 0%
 
 Utilisez ces paramètres de serveur pour la mise en grappe du cache.
 
-## PS::cacheCluster.hosts - Hôtes {#section-319d2ba2915e40ac8b5ea9b4fe26a88b}
+## PS ::cacheCluster.hosts - Hôtes {#section-319d2ba2915e40ac8b5ea9b4fe26a88b}
 
-Liste des adresses IP, séparées par des points-virgules. Incluez les adresses IP de tous les serveurs pairs à partir desquels cet hôte doit obtenir des données de cache. L’adresse IP de l’hôte local peut être incluse à des fins pratiques ; cela permet les mêmes paramètres de configuration pour tous les serveurs de la grappe.
+Liste des adresses IP, séparées par des points-virgules. Incluez les adresses IP de tous les serveurs homologues à partir desquels cet hôte doit obtenir des données de cache. L’adresse IP de l’hôte local peut être incluse pour des raisons de commodité ; Cela permet d’utiliser les mêmes paramètres de configuration pour tous les serveurs de la grappe.
 
-## PS::cacheCluster.updateLocalCache - Mettre à jour le cache local {#section-154c2c0af4544200a3499232bb130dde}
+## PS ::cacheCluster.updateLocalCache - Mettre à jour le cache local {#section-154c2c0af4544200a3499232bb130dde}
 
-Définissez cette variable sur &quot;Oui&quot; si une entrée de cache fournie par un serveur homologue doit être copiée dans le cache de réponse local.
+Définissez sur « Oui » si une entrée de cache fournie par un serveur homologue doit être copiée dans le cache de réponse local.
 
-## PS::cacheCluster.queryTimeout - Query Timeout {#section-8d2b10e15b3e44078d2d9bdb7c25bde0}
+## PS ::cacheCluster.queryTimeout - Délai de requête {#section-8d2b10e15b3e44078d2d9bdb7c25bde0}
 
-Lors de la demande d’une entrée de cache de la part des serveurs pairs, le serveur attend qu’un serveur réponde lorsqu’il possède cet élément de données particulier, ou jusqu’à ce que tous les serveurs pairs aient répondu qu’ils ne disposent pas de l’élément de données, ou jusqu’à ce que le délai spécifié avec ce paramètre (en ms) ait expiré.
+Lors de la demande d’une entrée de cache à partir de serveurs homologues, le serveur attend qu’un serveur réponde qu’il possède cet élément de données particulier, ou jusqu’à ce que tous les serveurs homologues aient répondu qu’ils n’ont pas l’élément de données, ou jusqu’à ce que le délai spécifié avec ce paramètre (en ms) ait expiré.
 
-## PS::cacheCluster.fetchTimeout - Fetch Timeout {#section-41c42a29a26f43dc9cff50ad9fae1f14}
+## PS ::cacheCluster.fetchTimeout - Récupérer le délai d’expiration {#section-41c42a29a26f43dc9cff50ad9fae1f14}
 
-Indique le nombre maximal de msec pendant lesquelles le serveur attend que les données de cache réelles soient diffusées à partir du serveur pair. Si les données complètes n’ont pas été diffusées avant l’expiration du délai d’expiration, le serveur suppose que le pair est devenu indisponible. L’entrée de cache est ensuite générée localement.
+Spécifie le nombre maximal de msec que le serveur attend que les données de cache réelles soient livrées à partir du serveur homologue. Si les données complètes n’ont pas été livrées avant l’expiration du délai, le serveur suppose que l’homologue est devenu indisponible. L’entrée de cache est ensuite générée localement.

@@ -31,12 +31,12 @@ Syntaxe
 
 ## Paramètres {#section-000c42bc93744b1a8e777f3ec3c272b0}
 
-**Entrée (deleteJobParam)**
+**Input (deleteJobParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gestionnaire de la société à laquelle appartient la tâche. |
-| jobHandle | `xsd:string` | Oui | Gestionnaire de la tâche à supprimer. |
+| companyHandle | `xsd:string` | Oui | Identifiant de la société à laquelle appartient la tâche. |
+| jobHandle | `xsd:string` | Oui | Poignée de la tâche à supprimer. |
 
 **Output**
 
@@ -44,7 +44,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-732d21d4dad04337b7a5ae1a0cc00eba}
 
-Cet exemple de code supprime une tâche en cours d’exécution ou planifiée dans IPS. Elle nécessite une gestion de tâche, que vous devez obtenir d’une autre opération.
+Cet exemple de code supprime une tâche en cours d’exécution ou planifiée dans IPS. Elle nécessite une gestion de tâche, que vous devez obtenir à partir d’une autre opération.
 
 **Requête**
 

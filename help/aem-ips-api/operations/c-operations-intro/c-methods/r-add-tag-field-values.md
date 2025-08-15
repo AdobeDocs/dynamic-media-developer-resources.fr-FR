@@ -1,7 +1,7 @@
 ---
 description: Ajoute de nouvelles valeurs de balise au dictionnaire d’un champ de balise existant.
 solution: Experience Manager
-title: addTagFieldValues
+title: AddTagFieldValues
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 099263e4-8214-46eb-898e-7a28c4f25598
@@ -12,7 +12,7 @@ ht-degree: 12%
 
 ---
 
-# addTagFieldValues{#addtagfieldvalues}
+# AddTagFieldValues{#addtagfieldvalues}
 
 Ajoute de nouvelles valeurs de balise au dictionnaire d’un champ de balise existant.
 
@@ -26,13 +26,13 @@ Syntaxe
 
 ## Paramètres {#section-abe8893038bb4ddfaccc11a8c75e6bd0}
 
-**Entrée (addTagFieldValuesParam)**
+**Input (addTagFieldValuesParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gestionnaire de la société contenant le champ de balise. |
-| fieldHandle | `xsd:string` | Oui | Gestionnaire du champ de balise à modifier. |
-| valueArray | `xsd:string` | Oui | Tableau de valeurs de balise à ajouter au dictionnaire existant du champ. |
+| CompanyHandle | `xsd:string` | Oui | Pseudo de l’entreprise contenant le champ de balise. |
+| Poignée de champ | `xsd:string` | Oui | Poignée du champ de balise à modifier. |
+| Tableau de valeurs | `xsd:string` | Oui | Tableau de valeurs de balise à ajouter au dictionnaire existant du champ. |
 
 **Output (addTagFieldValuesParam)**
 
@@ -40,7 +40,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-c4049392f1c548f883b8b1f8f167bada}
 
-**Requête**
+**Demander**
 
 ```java {.line-numbers}
 <addTagFieldValuesParam xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">

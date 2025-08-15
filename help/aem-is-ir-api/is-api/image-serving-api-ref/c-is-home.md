@@ -1,7 +1,7 @@
 ---
-description: Le guide de l’API de diffusion d’images contient des informations sur la configuration et l’utilisation de l’API de diffusion d’images.
+description: Le Guide de l’API du service d’images contient des informations sur la configuration et l’utilisation de l’API du service d’images.
 solution: Experience Manager
-title: API du serveur d’images
+title: API du service d’images
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c2bc6728-e8c4-43f6-a3e7-33c9336774b2
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# API du serveur d’images{#image-serving-api}
+# API du service d’images{#image-serving-api}
 
-Le guide de l’API de diffusion d’images contient des informations sur la configuration et l’utilisation de l’API de diffusion d’images.
+Le Guide de l’API du service d’images contient des informations sur la configuration et l’utilisation de l’API du service d’images.
 
 * [Audience prévue](c-intended-audience.md)
 * [Composants de diffusion d’images](r-components.md)

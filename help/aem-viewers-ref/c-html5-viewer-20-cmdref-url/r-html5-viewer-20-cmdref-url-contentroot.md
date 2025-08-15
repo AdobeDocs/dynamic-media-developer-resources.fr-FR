@@ -16,13 +16,13 @@ ht-degree: 3%
 
 Paramètre commun à toutes les visionneuses.
 
-` contentUrl= *`contentUrlPath`*`
+` contentUrl= *`Chemin d’URL du contenu`*`
 
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> contentUrlPath</span> </span> </p> </td> 
-   <td colname="col2"> <p>Indique le chemin d’accès de base aux fichiers CSS personnalisés, à tout contenu de sous-titrage ou de navigation. </p> <p>Si le chemin d’accès ne comporte pas de <span class="filepath"> /</span> de début, il est relatif à l’emplacement de la page d’HTML de la visionneuse. Si le chemin comporte un <span class="filepath"> /</span> de début, il spécifie un chemin absolu sur le même serveur. </p> <p> N’affecte pas le chargement du fichier CSS par défaut lorsque vous ne spécifiez pas de commande de style. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> Chemin d’URL</span> du contenu </span> </p> </td> 
+   <td colname="col2"> <p>Spécifie le chemin de base vers les fichiers CSS personnalisés, tout contenu de sous-titrage codé ou contenu de navigation. </p> <p>Si le chemin n’a pas de /<span class="filepath"></span>, il est relatif à l’emplacement de la page HTML de la visionneuse. Si le chemin a un /<span class="filepath"></span>, il spécifie un chemin absolu sur le même serveur. </p> <p> N’affecte pas le chargement du fichier CSS par défaut lorsque vous ne spécifiez pas de commande de style. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,5 +1,5 @@
 ---
-description: Objet de stockage de fichier ou de ressource hiérarchique. Les dossiers peuvent contenir un ou plusieurs sous-dossiers.
+description: Objet de stockage de fichiers ou de ressources hiérarchique. Les dossiers peuvent contenir un (ou plusieurs) sous-dossier.
 solution: Experience Manager
 title: Dossier
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # [!DNL Folder]{#folder}
 
-Objet de stockage de fichier ou de ressource hiérarchique. Les dossiers peuvent contenir un ou plusieurs sous-dossiers.
+Objet de stockage de fichiers ou de ressources hiérarchique. Les dossiers peuvent contenir un (ou plusieurs) sous-dossier.
 
 Syntaxe
 
@@ -22,10 +22,10 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| folderHandle | `xsd:string` | Poignée de dossier. |
-| [!DNL path] | `xsd:string` | Chemin du dossier. |
-| lastModified | `xsd:dateTime` | Date de la dernière modification. |
-| childLastModified | `xsd:dateTime` | Date de dernière modification pour les sous-dossiers et les ressources enfants de dossier. |
+| poignée de dossier | `xsd:string` | Poignée de dossier. |
+| [!DNL path] | `xsd:string` | Chemin d’accès du dossier. |
+| Dernière modification | `xsd:dateTime` | Date de dernière modification. |
+| childLastModified | `xsd:dateTime` | Date de dernière modification des sous-dossiers et des ressources enfants du dossier. |
 | permissionsSetHandle | `xsd:string` | Gestion des autorisations de dossier. |
-| hasSubfolder | `types:Boolean` | Détermine si un dossier contient des sous-dossiers. |
-| subfolderArray | `types:FolderArray` | Tableau de sous-dossiers dans un dossier. |
+| hasSubfolder | `types:Boolean` | Détermine si un dossier comporte des sous-dossiers. |
+| SubfolderArray | `types:FolderArray` | Tableau de sous-dossiers dans un dossier. |

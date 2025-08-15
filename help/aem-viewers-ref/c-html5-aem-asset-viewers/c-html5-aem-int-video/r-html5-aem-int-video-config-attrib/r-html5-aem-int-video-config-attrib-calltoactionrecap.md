@@ -1,6 +1,6 @@
 ---
 title: callToActionRecap
-description: Attribut de configuration de la visionneuse de vidéos interactives.
+description: Attribut Configuration pour la visionneuse de vidéos interactives.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # callToActionRecap{#calltoactionrecap}
 
-Attribut de configuration de la visionneuse de vidéos interactives.
+Attribut Configuration pour la visionneuse de vidéos interactives.
 
 `callToActionRecap=0|1`
 
@@ -22,7 +22,7 @@ Attribut de configuration de la visionneuse de vidéos interactives.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Indique si la visionneuse affiche le panneau "Appel à l’action" à la fin de la lecture vidéo. </p> </td> 
+   <td colname="col2"> <p> Indique si la visionneuse affiche le panneau « Appel à l’action » à la fin de la lecture vidéo. </p> </td> 
   </tr> 
  </tbody> 
 </table>

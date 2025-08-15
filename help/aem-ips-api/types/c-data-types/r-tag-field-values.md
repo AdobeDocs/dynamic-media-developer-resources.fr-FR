@@ -1,7 +1,7 @@
 ---
-description: Tableau de valeurs pour un champ de balise.
+description: Un tableau de valeurs pour un champ de balise.
 solution: Experience Manager
-title: TagFieldValues
+title: Valeurs de champ de balise
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 94969a10-1317-4efa-abbe-a374a8d42c30
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # [!DNL TagFieldValues]{#tagfieldvalues}
 
-Tableau de valeurs pour un champ de balise.
+Un tableau de valeurs pour un champ de balise.
 
 Syntaxe
 
@@ -22,5 +22,5 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| fieldHandle | `xsd:string` | Poignée de champ de balise. |
-| valueArray | `xsd:StringArray` | Tableau de valeurs pour un champ de balise. |
+| Poignée de champ | `xsd:string` | Poignée de champ de balise. |
+| Tableau de valeurs | `xsd:StringArray` | Un tableau de valeurs pour un champ de balise. |

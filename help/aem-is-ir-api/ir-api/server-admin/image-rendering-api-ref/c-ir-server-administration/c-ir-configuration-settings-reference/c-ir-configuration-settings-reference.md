@@ -1,5 +1,5 @@
 ---
-description: Tous les paramètres du serveur de rendu se trouvent dans install_root/ImageServing/conf/PlatformServer.conf. Le nom de la variable de configuration est indiqué entre parenthèses.
+description: Tous les paramètres du serveur de rendu se trouvent dans install_root/ImageServing/conf/PlatformServer.conf. Le nom de la variable de configuration s’affiche entre parenthèses.
 solution: Experience Manager
 title: Référence des paramètres de configuration
 feature: Dynamic Media Classic,SDK/API
@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # Référence des paramètres de configuration{#configuration-settings-reference}
 
-Tous les paramètres du serveur de rendu se trouvent dans install_root/ImageServing/conf/PlatformServer.conf. Le nom de la variable de configuration est indiqué entre parenthèses.
+Tous les paramètres du serveur de rendu se trouvent dans install_root/ImageServing/conf/PlatformServer.conf. Le nom de la variable de configuration s’affiche entre parenthèses.

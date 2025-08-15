@@ -1,7 +1,7 @@
 ---
-description: Les ensembles de propriétés sont des ensembles de paires nom-valeur spécifiques à l’application qui peuvent être joints à divers objets IPS, selon le type de jeu de propriétés. Si le type de jeu de propriétés ne permet pas que plusieurs jeux soient joints à un objet (PropertySetType/allowMultipleisfalse) et que l’objet a déjà un jeu associé du même type, le nouveau jeu remplace celui existant.
+description: Les ensembles de propriétés sont des ensembles de paires nom-valeur spécifiques à l’application qui peuvent être attachés à divers objets IPS, en fonction du type de jeu de propriétés. Si le type de jeu de propriétés n’autorise pas l’attachement de plusieurs ensembles à un objet (PropertySetType/allowMultipleisfalse) et que l’objet est déjà associé à un jeu du même type, le nouvel ensemble remplace le jeu existant.
 solution: Experience Manager
-title: createPropertySet
+title: Créer un ensemble de propriétés
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: e9f85e65-4a2f-4b82-b7b8-d0d60b8345cd
@@ -12,9 +12,9 @@ ht-degree: 7%
 
 ---
 
-# createPropertySet{#createpropertyset}
+# Créer un ensemble de propriétés{#createpropertyset}
 
-Les ensembles de propriétés sont des ensembles de paires nom-valeur spécifiques à l’application qui peuvent être joints à divers objets IPS, selon le type de jeu de propriétés. Si le type de jeu de propriétés ne permet pas que plusieurs jeux soient joints à un objet (PropertySetType/allowMultipleisfalse) et que l’objet a déjà un jeu associé du même type, le nouveau jeu remplace celui existant.
+Les ensembles de propriétés sont des ensembles de paires nom-valeur spécifiques à l’application qui peuvent être attachés à divers objets IPS, en fonction du type de jeu de propriétés. Si le type de jeu de propriétés n’autorise pas l’attachement de plusieurs ensembles à un objet (PropertySetType/allowMultipleisfalse) et que l’objet est déjà associé à un jeu du même type, le nouvel ensemble remplace le jeu existant.
 
 Syntaxe
 
@@ -27,27 +27,27 @@ Syntaxe
 
 ## Paramètres {#section-25258e75f5f3419bad165c797eb6cd8e}
 
-**Entrée (createPropertySetParam)**
+**Input (createPropertySetParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| typeHandle | `xsd:string` | Oui | La gestion du type de jeu de propriétés. |
-| primaryOwnerHandle | `xsd:string` | Oui | Gestionnaire du propriétaire principal de l’ensemble de propriétés. |
-| secondaryOwnerHandle | `xsd:string` | Non | Gestionnaire du propriétaire secondaire du jeu de propriétés. |
-| propertyArray | `types:PropertyArray` | Oui | Tableau de propriétés. |
-| permissionArray | `types:PermissionUpdateArray` |  |  |
+| Poignée de type | `xsd:string` | Oui | Poignée pour le type de jeu de propriétés. |
+| PrimaryOwnerHandle | `xsd:string` | Oui | Poignée adressée au propriétaire principal du jeu de propriétés. |
+| SecondaryOwnerHandle | `xsd:string` | Non | Poignée adressée au propriétaire secondaire du jeu de propriétés. |
+| Tableau de propriété | `types:PropertyArray` | Oui | Tableau de propriétés. |
+| Tableau d’autorisations | `types:PermissionUpdateArray` |  |  |
 
-**Sortie (createPropertySetParam)**
+**Output (createPropertySetParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| setHandle | `xsd:string` | Oui | La gestion du nouveau jeu de propriétés. |
+| Poignée setHandle | `xsd:string` | Oui | Poignée du nouveau jeu de propriétés. |
 
 ## Exemples {#section-4e1f5b2883664bc88f590fcd253df22b}
 
-Cet exemple de code crée un jeu de propriétés qui contient les noms et les valeurs des propriétés. La réponse renvoie une poignée au nouveau jeu de propriétés.
+Cet exemple de code crée un ensemble de propriétés qui contient les noms et les valeurs des propriétés. La réponse renvoie une poignée au nouveau jeu de propriétés.
 
-**Requête**
+**Demander**
 
 ```java
 <createPropertySetParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

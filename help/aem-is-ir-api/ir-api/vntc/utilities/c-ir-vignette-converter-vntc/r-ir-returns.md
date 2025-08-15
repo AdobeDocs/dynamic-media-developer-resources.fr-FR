@@ -1,5 +1,5 @@
 ---
-description: vntc renvoie les valeurs suivantes, selon qu’une erreur est survenue pendant le traitement ou non.
+description: vntc renvoie les valeurs suivantes, selon qu'une erreur se produit ou non lors du traitement.
 solution: Experience Manager
 title: Renvoie
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Renvoie{#returns}
 
-vntc renvoie les valeurs suivantes, selon qu’une erreur est survenue pendant le traitement ou non.
+vntc renvoie les valeurs suivantes, selon qu&#39;une erreur se produit ou non lors du traitement.
 
-* 0 si aucune erreur n’est survenue.
+* 0 si aucune erreur n’est rencontrée.
 * 1 si des erreurs (fatales ou non) sont rencontrées.

@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> maxitems</span></span> </p> </td> 
-   <td> <p>Nombre maximal d’éléments dans la table des matières de la liste déroulante. </p> <p>Vous pouvez également réduire le nombre d’éléments visibles dans la liste déroulante au cas où il serait recadré par le conteneur externe. </p> <p>Lorsqu’il est défini sur <span class="codeph"> 0</span>, ce composant affiche autant d’éléments que possible, étant donné le conteneur auquel il est ajouté. </p> </td> 
+   <td> <p>Nombre maximal d’éléments dans la table des matières déroulante. </p> <p>Vous pouvez également réduire le nombre d’éléments visibles dans la liste déroulante au cas où ils seraient recadrés par le conteneur externe. </p> <p>Lorsqu’il est défini sur <span class="codeph"> 0</span> ce composant affiche autant d’éléments que possible en fonction du conteneur auquel il est ajouté. </p> </td> 
   </tr> 
  </tbody> 
 </table>

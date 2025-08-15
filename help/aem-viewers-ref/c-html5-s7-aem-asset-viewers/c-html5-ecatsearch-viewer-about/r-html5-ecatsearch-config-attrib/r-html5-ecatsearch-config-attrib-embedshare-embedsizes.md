@@ -14,21 +14,21 @@ ht-degree: 9%
 
 # EmbedShare.embedsizes{#embedshare-embedsizes}
 
-[!DNL ` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`width`*, *`height`*[,0|1][; *`width`*, *`height`*[,0|1]]`]
+[!DNL ` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *`width height`*[,0|1][; *``*, *`width height`*[,0|1]]`]
 
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td> 
-   <td colname="col2"> <p>Largeur de l’incorporation. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> Largeur </span> </span> </p> </td> 
+   <td colname="col2"> <p>Largeur incorporée. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> height </span> </span> </p> </td> 
-   <td colname="col2"> <p>Hauteur de l’incorporation. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> hauteur </span> </span> </p> </td> 
+   <td colname="col2"> <p>Hauteur de l’intégration. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Indique si cet élément de liste doit être initialement présélectionné dans la zone combinée. </p> </td> 
+   <td colname="col2"> <p> Indique si cet élément de liste doit être initialement présélectionné dans la zone de liste modifiable. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,5 +1,5 @@
 ---
-description: Renvoie les groupes d’entreprises.
+description: Renvoie des groupes d’entreprises.
 solution: Experience Manager
 title: getGroups
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 21%
 
 # getGroups{#getgroups}
 
-Renvoie les groupes d’entreprises.
+Renvoie des groupes d’entreprises.
 
 Syntaxe
 
@@ -30,19 +30,19 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | La poignée de la société. |
+| CompanyHandle | `xsd:string` | Oui | La poignée de l’entreprise. |
 
-**Sortie (getGroupsReturn)**
+**Output (getGroupsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| groupArray | `types:GroupArray` | Oui | Tableau de groupes. |
+| Tableau de groupe | `types:GroupArray` | Oui | Tableau de groupes. |
 
 ## Exemples {#section-ed0708f611574354bf0c6ea83912b531}
 
-Ce code renvoie un tableau qui contient tous les groupes appartenant à une société spécifique et des informations spécifiques sur chaque groupe.
+Ce code retourne un tableau qui contient tous les groupes qui appartiennent à une société spécifique et des informations spécifiques sur chaque groupe.
 
-**Requête**
+**Demander**
 
 ```java
 <ns1:getGroupsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

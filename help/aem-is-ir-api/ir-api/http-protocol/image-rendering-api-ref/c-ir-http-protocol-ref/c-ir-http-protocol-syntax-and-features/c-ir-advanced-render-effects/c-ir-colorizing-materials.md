@@ -1,5 +1,5 @@
 ---
-title: Colorisation des matériaux
+title: Matériaux colorants
 description: La plupart des matériaux peuvent être colorés dynamiquement.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# Colorisation des matériaux{#colorizing-materials}
+# Matériaux colorants{#colorizing-materials}
 
 La plupart des matériaux peuvent être colorés dynamiquement.
 
-L&#39;algorithme de colorisation est simpliste et fonctionne le mieux pour les images de matériaux dont la gamme de nuances est limitée. Pour colorer un matériau, le moteur de rendu soustrait simplement la valeur `bgc=` et ajoute la valeur `color=` à chaque valeur de pixel.
+L’algorithme de colorisation est simpliste et fonctionne mieux pour les images matérielles qui ont une plage de teintes limitée. Pour colorer un matériau, le moteur de rendu soustrait simplement la valeur `bgc=` et ajoute la valeur `color=` à chaque valeur en pixels.
 
-La coloration est désactivée si `color=` n’est pas spécifié. L’attribut `bgc=` est ignoré par les matériaux de l’armoire ; la valeur de couleur de base incorporée dans le fichier [!DNL vnc] est utilisée à la place.
+La colorisation est désactivée si `color=` n’est pas spécifié. L&#39;attribut `bgc=` est ignoré par les matériaux de l&#39;armoire ; la valeur de couleur de base incorporée dans le fichier [!DNL vnc] est utilisée à la place.

@@ -1,5 +1,5 @@
 ---
-description: Outre les calques de dimensionnement (size=) et de positionnement (pos=) par rapport au calque 0 et la spécification de l’ordre de composition (l’ordre z) avec la commande layer=, les calques peuvent être pivotés (rotate=) et inversés (flip=).
+description: Outre le dimensionnement (size=) et le positionnement (pos=) des calques par rapport au calque 0 et la spécification de l’ordre de composition (ordre z) avec la commande layer=, les calques peuvent être pivotés (rotate=) et inversés (flip=).
 solution: Experience Manager
 title: Opérations de calque
 feature: Dynamic Media Classic,SDK/API
@@ -14,10 +14,10 @@ ht-degree: 0%
 
 # Opérations de calque{#layer-operations}
 
-Outre les calques de dimensionnement (size=) et de positionnement (pos=) par rapport au calque 0 et la spécification de l’ordre de composition (l’ordre z) avec la commande layer=, les calques peuvent être pivotés (rotate=) et inversés (flip=).
+Outre le dimensionnement (size=) et le positionnement (pos=) des calques par rapport au calque 0 et la spécification de l’ordre de composition (ordre z) avec la commande layer=, les calques peuvent être pivotés (rotate=) et inversés (flip=).
 
 Les attributs `origin=` et `anchor=` peuvent être utilisés pour maintenir l’alignement souhaité entre les calques lorsque les images ou le texte sont modifiés dynamiquement dans les modèles.
 
-La commande `maskUse=` est disponible pour les calques d’image afin d’accéder à la zone d’arrière-plan des images comportant des masques distincts.
+La commande `maskUse=` permet aux calques d’image d’accéder à la zone d’arrière-plan des images qui comportent des masques distincts.
 
-`opac=` peut être utilisé pour varier l’opacité du calque et `hide=` pour afficher ou masquer le calque.
+Vous pouvez utiliser `opac=` pour modifier l’opacité du calque et `hide=` afficher ou masquer le calque.

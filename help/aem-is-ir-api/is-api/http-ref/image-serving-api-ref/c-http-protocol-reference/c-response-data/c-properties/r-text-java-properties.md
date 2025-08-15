@@ -1,7 +1,7 @@
 ---
 description: Si le texte est spécifié comme format de réponse, les données de réponse sont formatées pour être lisibles en tant que propriétés Java.
 solution: Experience Manager
-title: Propriétés Text (Java)
+title: Propriétés de texte (Java)
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 46f5dbc8-fbdc-4204-a6a0-60f34378c3e1
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# Propriétés Text (Java){#text-java-properties}
+# Propriétés de texte (Java){#text-java-properties}
 
 Si le texte est spécifié comme format de réponse, les données de réponse sont formatées pour être lisibles en tant que propriétés Java.
 
-Une réponse de propriétés de texte standard présente la structure générale suivante :
+Une réponse typique des propriétés de texte présente la structure générale suivante :
 
 ```
 #S7Z OK
@@ -33,6 +33,6 @@ Une réponse de propriétés de texte standard présente la structure générale
 ...
 ```
 
-*`propertyValue`* peut être vide. L’espace blanc est facultatif au début et à la fin de chaque ligne, avant et après le séparateur = . Les valeurs de chaîne peuvent être entourées de guillemets simples ou doubles, mais ils ne sont pas obligatoires.
+*`propertyValue`* peut être vide. Les espaces blancs sont facultatifs au début et à la fin de chaque ligne et avant et après le séparateur =. Les guillemets simples ou doubles peuvent être utilisés pour inclure des valeurs de chaîne, mais ils ne sont pas obligatoires.
 
-Les valeurs de chaîne peuvent contenir des caractères d’échappement de style JAVA, tels que `\n`, `\t`, `\:` ou `\\`.
+Les valeurs de chaîne peuvent contenir des caractères d’échappement de style JAVA, tels que `\n`, `\t`, `\:`ou `\\`.

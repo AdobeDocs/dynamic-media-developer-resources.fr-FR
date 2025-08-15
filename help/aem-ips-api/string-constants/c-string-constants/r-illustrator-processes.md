@@ -1,7 +1,7 @@
 ---
-description: Utilisé par Illustrator/processes.
+description: Utilisé par Illustrator/processus.
 solution: Experience Manager
-title: Processus Illustrator
+title: Illustrator processus
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 42520442-07cc-4a26-9e93-a22337cbcb4b
@@ -12,9 +12,9 @@ ht-degree: 14%
 
 ---
 
-# Processus Illustrator{#illustrator-processes}
+# Illustrator processus{#illustrator-processes}
 
-Utilisé par Illustrator/processes.
+Utilisé par Illustrator/processus.
 
 Syntaxe
 

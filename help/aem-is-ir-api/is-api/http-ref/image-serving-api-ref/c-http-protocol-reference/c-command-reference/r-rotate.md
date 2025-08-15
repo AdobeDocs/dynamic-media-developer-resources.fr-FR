@@ -1,6 +1,6 @@
 ---
 title: rotation
-description: Rotation de l’image. Fait pivoter l’image, le texte ou la couche de couleur unie selon l’angle spécifié.
+description: Faire pivoter l’image. Fait pivoter le calque d’image, de texte ou de couleur unie selon l’angle spécifié.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,9 +14,9 @@ ht-degree: 2%
 
 # rotation{#rotate}
 
-Rotation de l’image. Fait pivoter l’image, le texte ou la couche de couleur unie selon l’angle spécifié.
+Faire pivoter l’image. Fait pivoter le calque d’image, de texte ou de couleur unie selon l’angle spécifié.
 
-`rotate= *`angle`*`
+`rotate= *` angle `*`
 
 <table id="simpletable_5531ED4C2099411DB404657E12B05314"> 
  <tr class="strow"> 
@@ -25,27 +25,27 @@ Rotation de l’image. Fait pivoter l’image, le texte ou la couche de couleur 
  </tr> 
 </table>
 
-Les angles positifs tournent dans le sens des aiguilles d&#39;une montre. Le point d’ancrage de calque ( `anchor=` ou `catalog::Anchor`) sert de centre de rotation. Le rectangle du calque est agrandi et ajusté autour des données pivotées selon les besoins pour éviter le recadrage. La rotation est appliquée après le remplissage de la zone d’arrière-plan du calque avec `color=`. Le modificateur `bgColor=` peut être utilisé pour ajouter une couleur d’arrière-plan au rectangle de sélection après la rotation.
+Les angles positifs tournent dans le sens des aiguilles d&#39;une montre. Le point d’ancrage du calque (`anchor=` ou `catalog::Anchor`) sert de centre de rotation. Le rectangle de calque est agrandi et ajusté autour des données pivotées selon les besoins pour éviter le recadrage. La rotation est appliquée après le remplissage de la zone d&#39;arrière-plan du calque avec `color=`. Le modificateur `bgColor=` peut être utilisé pour ajouter une couleur de fond au rectangle englobant après la rotation.
 
 ## Propriétés {#section-8b5a9bb9062f48dbb8d4e9953ff39e39}
 
-Couche, commande. S’applique au calque actif ou au calque 0 s’il est `layer=comp`. Ignoré par les calques d’effet.
+Commande Calque. S’applique au calque actif ou au calque 0, le cas `layer=comp`. Ignoré par les calques d’effet.
 
 ## Par défaut {#section-69475db636124a8a85f132b6d49bd592}
 
-`rotate=0`, sans rotation.
+`rotate=0`, pas de rotation.
 
 ## Exemple {#section-e8ab3ba8a8624b43aeaaa8f089fc2f00}
 
-Placez une étiquette &quot;À la vente&quot; près du coin supérieur gauche des images dans un catalogue d’images. L’image d’étiquette est déjà dimensionnée correctement pour la vue 300x300 et doit être pivotée de 30° vers la gauche. Pour améliorer le libellé, remplissez la zone de texte d’une couleur blanche semi-opaque.
+Placez un libellé « En vente » près du coin supérieur gauche des images dans un catalogue d’images. L’image du libellé est déjà dimensionnée correctement pour la vue 300x300 et doit pivoter de 30° vers la gauche. Pour rehausser le libellé, remplissez la zone de texte avec une couleur blanche semi-opaque.
 
-`http:// *`server`*/myRootId/myImageId?scl=1&size=300,300&origin=-0.5,-0.5 &layer=1&src=labelImage&origin=-0.5,-0.5&rotate=-30&color=ffffff40`
+`http:// *`serveur`*/myRootId/myImageId?scl=1&size=300,300&origin=-0.5,-0.5 &layer=1&src=labelImage&origin=-0.5,-0.5&rotate=-30&color=ffffff40`
 
-Appliquez `size=` au calque 0 pour définir la taille de l’affichage, plutôt que d’utiliser `wid=` et `hei=`. Cette méthode permet de redimensionner `myImageId` sans modifier la taille finale de `labelImage`. Spécifiez également `scl=1`, sinon l’image composite risque d’être mise à l’échelle sur `attribute::DefaultPix` (sauf si cette valeur est définie sur 0,0). Le modificateur `color=` ajoute la couleur d’arrière-plan semi-opaque à la zone de texte avant la rotation.
+Appliquez des `size=` au calque 0 pour définir la taille d&#39;affichage, plutôt que d&#39;utiliser `wid=` et `hei=`. Cette méthode permet de redimensionner les `myImageId` sans modifier la taille finale des `labelImage`. Indiquez également `scl=1`, sinon l’image composite peut être mise à l’échelle sur `attribute::DefaultPix` (sauf si elle est définie sur 0,0). Le modificateur `color=` ajoute la couleur d’arrière-plan semi-opaque à la zone de texte avant la rotation.
 
-L’origine des deux calques est définie dans le coin supérieur gauche pour obtenir l’alignement souhaité. Le point d’origine de la couche 1 s’applique à `labelImage`après sa rotation.
+L’origine des deux calques est définie dans le coin supérieur gauche pour obtenir l’alignement souhaité. Le point d&#39;origine du calque 1 s&#39;applique à `labelImage`après sa rotation.
 
-Voir [Exemple A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac) dans [Modèles](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e) pour obtenir un exemple de texte pivoté.
+Voir [Exemple A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac) dans [Modèles](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e) pour un exemple de texte pivoté.
 
 ## Voir aussi {#section-c371ee0845994b7382c02e782d1bc595}
 

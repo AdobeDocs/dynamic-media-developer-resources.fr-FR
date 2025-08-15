@@ -1,7 +1,7 @@
 ---
-description: Définit la résolution des bitmap incorporés dans une requête Web To Print.
+description: Définit la résolution des bitmaps incorporés dans une requête Web-To-Print.
 solution: Experience Manager
-title: imageRes
+title: Rés d’image
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: bd9c83c3-b1b5-4649-8975-1452e4dd59b1
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# imageRes{#imageres}
+# Rés d’image{#imageres}
 
-Définit la résolution des bitmap incorporés dans une requête Web To Print.
+Définit la résolution des bitmaps incorporés dans une requête Web-To-Print.
 
-` imageRes=< *`number`*>`
+` imageRes=< *`nombre`*>`
 
-300 est recommandé lors de l’impression. Plus le nombre est élevé, plus le rendu de l’image est long.
+300 est recommandé lors de l’impression. Plus le nombre est élevé, plus le temps nécessaire pour effectuer le rendu de l’image est long.

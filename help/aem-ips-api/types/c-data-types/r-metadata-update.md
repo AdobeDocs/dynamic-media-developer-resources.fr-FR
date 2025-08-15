@@ -1,7 +1,7 @@
 ---
-description: Définit les valeurs de métadonnées d’une ressource spécifique utilisée avec setAssetMetadata. Décrit les modifications à apporter aux métadonnées.
+description: Définit les valeurs de métadonnées d’un fichier spécifique utilisé avec setAssetMetadata. Décrit les modifications que vous souhaitez apporter aux métadonnées.
 solution: Experience Manager
-title: MetadataUpdate
+title: Mise à jour des métadonnées
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 99dc1f0c-c4c4-433e-9b91-fa39ef6f84d7
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # [!DNL MetadataUpdate]{#metadataupdate}
 
-Définit les valeurs de métadonnées d’une ressource spécifique utilisée avec setAssetMetadata. Décrit les modifications à apporter aux métadonnées.
+Définit les valeurs de métadonnées d’un fichier spécifique utilisé avec setAssetMetadata. Décrit les modifications que vous souhaitez apporter aux métadonnées.
 
 >[!NOTE]
 >
@@ -32,56 +32,56 @@ Définit les valeurs de métadonnées d’une ressource spécifique utilisée av
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Gestion des champs de métadonnées. </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> Poignée</span> de champ </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
+   <td colname="col3"> Poignée de champ de métadonnées. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> value</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> Mise à jour des métadonnées. </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> valeur</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
+   <td colname="col3"> Valeur de mise à jour des métadonnées. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> boolVal</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3"> Valeur de métadonnées booléenne (pour les champs de type booléen uniquement). </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> boolVal</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd :booléen</span> </td> 
+   <td colname="col3"> Valeur de métadonnées booléenne (pour les champs typés booléens uniquement). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> longVal</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
-   <td colname="col3"> Valeur de métadonnées longue (pour les champs de type int uniquement). </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> longVal</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd :long</span> </td> 
+   <td colname="col3"> Valeur de métadonnées longue (pour les champs int-typés uniquement). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> doubleVal</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"></span> Valeur double </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd :double</span> </td> 
    <td colname="col3"> Valeur de métadonnées double (pour les champs de type flottant uniquement). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> dateVal</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
-   <td colname="col3"> Valeur des métadonnées de date (pour les champs de type date uniquement). </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> dateVal</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd :dateTime</span> </td> 
+   <td colname="col3"> Valeur des métadonnées de date (pour les champs date-typés uniquement). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> addTagValueArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
-   <td colname="col3"> <p>Ajoute à la liste des valeurs de balise existantes pour la ressource. 
+   <td colname="col1"> <span class="codeph"><span class="varname"> Ajouter une valeur de balise</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> types :StringArray</span> </td> 
+   <td colname="col3"> <p>S’ajoute à la liste de valeurs de balise existante pour la ressource. 
      <ul id="ul_08DE6C490B614560A6118E7AC59720E3"> 
       <li id="li_358A3BDC0EC94CCF8178CD789F09F804">Les champs de balise à valeur unique stockent uniquement la dernière valeur. </li> 
-      <li id="li_3F47D3A3C63A4752BF9A45F7B00A6E70">Un champ de balise de dictionnaire fixe renvoie un problème si la valeur ne figure pas dans le dictionnaire. </li> 
+      <li id="li_3F47D3A3C63A4752BF9A45F7B00A6E70">Un champ de balise de dictionnaire fixe renvoie une erreur si la valeur ne figure pas dans le dictionnaire. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> setTagValueArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
-   <td colname="col3">Remplace la liste des valeurs de balise existante pour la ressource. 
+   <td colname="col1"> <span class="codeph"><span class="varname"> TableauSetTagValueArray</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> types :StringArray</span> </td> 
+   <td colname="col3">Remplace la liste de valeurs de balise existante pour la ressource. 
     <ul id="ul_941C915C69E84CF2AC5938378837EB92"> 
      <li id="li_6E85019335034B2EB1302696AE690ED5">Les champs de balise à valeur unique stockent uniquement la dernière valeur. </li> 
-     <li id="li_0DC56717EBB642D29FB7A3D043CEDED1">Un champ de balise de dictionnaire fixe renvoie un problème si la valeur ne figure pas dans le dictionnaire. </li> 
+     <li id="li_0DC56717EBB642D29FB7A3D043CEDED1">Un champ de balise de dictionnaire fixe renvoie une erreur si la valeur ne figure pas dans le dictionnaire. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> deleteTagValueArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
+   <td colname="col1"> <span class="codeph"><span class="varname"> supprimer TagValueArray</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> types :StringArray</span> </td> 
    <td colname="col3"> Supprime les valeurs spécifiées de la liste des valeurs de balise de la ressource, le cas échéant. </td> 
   </tr> 
  </tbody> 

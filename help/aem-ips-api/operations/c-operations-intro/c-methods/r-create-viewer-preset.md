@@ -1,7 +1,7 @@
 ---
-description: Crée une vue prédéfinie qui détermine ce qu’un utilisateur peut voir. La visionneuse peut être de n’importe quel type disponible dans IPS. La vue prédéfinie est appliquée lorsque les ressources sont publiées.
+description: Crée une vue prédéfinie qui détermine ce que l’utilisateur peut voir. La visionneuse peut être de n’importe quel type disponible dans IPS. La vue prédéfinie est appliquée lors de la publication des ressources.
 solution: Experience Manager
-title: createViewerPreset
+title: Créer un paramètre prédéfini de visionneuse
 feature: Dynamic Media Classic,SDK/API,Viewer Presets
 role: Developer,Admin
 exl-id: b24536d9-df66-4c94-8467-6f46e66a1b36
@@ -12,9 +12,9 @@ ht-degree: 12%
 
 ---
 
-# createViewerPreset{#createviewerpreset}
+# Créer un paramètre prédéfini de visionneuse{#createviewerpreset}
 
-Crée une vue prédéfinie qui détermine ce qu’un utilisateur peut voir. La visionneuse peut être de n’importe quel type disponible dans IPS. La vue prédéfinie est appliquée lorsque les ressources sont publiées.
+Crée une vue prédéfinie qui détermine ce que l’utilisateur peut voir. La visionneuse peut être de n’importe quel type disponible dans IPS. La vue prédéfinie est appliquée lors de la publication des ressources.
 
 Syntaxe
 
@@ -31,21 +31,21 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gestionnaire de l’entreprise qui contient les paramètres prédéfinis de visionneuse et les ressources. |
-| folderHandle | `xsd:string` | Oui | Gestionnaire du dossier contenant les ressources. |
+| CompanyHandle | `xsd:string` | Oui | Pseudo de l’entreprise qui contient les paramètres prédéfinis et les ressources de visionneuse. |
+| poignée de dossier | `xsd:string` | Oui | Handle du dossier qui contient les ressources. |
 | nom | `xsd:string` | Oui | Nom de la visionneuse. |
 | type | `xsd:string` | Oui | Type de visionneuse. |
-| configSettingArray | `types:ConfigSettingArray` | Non | Tableau contenant les noms, valeurs et poignées des images auxquelles vous appliquez des paramètres prédéfinis. |
+| Paramètre de configuration | `types:ConfigSettingArray` | Non | Tableau contenant les noms, les valeurs et les descripteurs des images auxquelles vous appliquez des paramètres prédéfinis. |
 
-**Sortie (createViewerPresetReturn)**
+**Output (createViewerPresetReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| viewerPresetHandle | `xsd:string` | Oui | Gérer le paramètre prédéfini à la visionneuse. |
+| Poignée préréglée de visionneuse | `xsd:string` | Oui | Poignée du paramètre prédéfini à la visionneuse. |
 
 ## Exemples {#section-c88ea63536f3461cbe4677ba53f875dd}
 
-Cet exemple de code crée un paramètre prédéfini de lecteur vidéo. La réponse renvoie une poignée au paramètre prédéfini.
+Cet échantillon de code crée un paramètre prédéfini de lecteur vidéo. La réponse renvoie une poignée au paramètre prédéfini.
 
 ```java
 <createViewerPresetParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

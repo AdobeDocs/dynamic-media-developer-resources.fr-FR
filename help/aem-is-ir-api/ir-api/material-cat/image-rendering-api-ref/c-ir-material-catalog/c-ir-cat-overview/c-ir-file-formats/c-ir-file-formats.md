@@ -1,6 +1,6 @@
 ---
 title: Formats de fichier
-description: Les fichiers d’attributs de catalogue et les fichiers de données de catalogue sont des fichiers de texte brut.
+description: Les fichiers d’attributs de catalogue et les fichiers de données de catalogue sont des fichiers texte brut.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,4 +14,4 @@ ht-degree: 14%
 
 # Formats de fichier{#file-formats}
 
-Les fichiers d’attributs de catalogue et les fichiers de données de catalogue sont des fichiers de texte brut.
+Les fichiers d’attributs de catalogue et les fichiers de données de catalogue sont des fichiers texte brut.

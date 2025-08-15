@@ -1,5 +1,5 @@
 ---
-description: Tableau de conditions de balise.
+description: Un tableau de conditions de balise.
 solution: Experience Manager
 title: TagConditionArray
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 27%
 
 # [!DNL TagConditionArray]{#tagconditionarray}
 
-Tableau de conditions de balise.
+Un tableau de conditions de balise.
 
 Syntaxe
 
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| éléments | `types:TagCondition` | Tableau de conditions de balise. |
+| éléments | `types:TagCondition` | Un tableau de conditions de balise. |

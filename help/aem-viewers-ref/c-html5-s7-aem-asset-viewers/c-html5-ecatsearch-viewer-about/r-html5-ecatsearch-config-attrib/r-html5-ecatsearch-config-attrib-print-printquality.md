@@ -14,12 +14,12 @@ ht-degree: 16%
 
 # Print.printquality{#print-printquality}
 
-[!DNL `[Print.|<containerId>_print.]printquality= *`size`*`]
+[!DNL `[Print.|<containerId>_print.]printquality= *`taille`*`]
 
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> size</span></span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> taille</span></span> </p> </td> 
    <td colname="col2"> <p> Taille maximale de l’image envoyée à imprimer. </p> </td> 
   </tr> 
  </tbody> 

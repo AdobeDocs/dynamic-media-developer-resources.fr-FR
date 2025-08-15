@@ -22,8 +22,8 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| layerNaming | `xsd:string` | Choix des modes de nommage des calques Photoshop. |
+| layerNaming | `xsd:string` | Choix des modes de dénomination des calques Photoshop. |
 | ancrage | `xsd:string` | Choix des modes d’ancrage Photoshop. |
-| createTemplate | `xsd:boolean` | La création d’un modèle à partir des calques Photoshop. |
-| extractText | `xsd:boolean` | Extraction de texte sous forme de calques de texte ou non. |
-| extendedLayers | `xsd:boolean` | S’il s’agit d’étendre les calques à la taille totale de l’arrière-plan. |
+| createTemplate | `xsd:boolean` | Permet de créer ou non un modèle à partir des calques Photoshop. |
+| extractText | `xsd:boolean` | Extraction de texte en tant que calques de texte. |
+| extendLayers | `xsd:boolean` | Permet d’étendre les calques à la taille réelle de l’arrière-plan. |

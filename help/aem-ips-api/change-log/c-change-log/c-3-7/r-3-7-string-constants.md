@@ -38,4 +38,4 @@ Syntaxe
 
 **Types de ressources**
 
-* Ajout de `Zip`.
+* Ajout du `Zip`fichier .

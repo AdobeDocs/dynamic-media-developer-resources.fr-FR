@@ -1,6 +1,6 @@
 ---
-title: textFlowPath
-description: Zone de texte. Spécifie une ou plusieurs régions dans lesquelles le texte spécifié avec textPs= doit être enchaîné.
+title: Chemin d’écoulement du texte
+description: Zone de flux de texte. Spécifie une ou plusieurs régions dans lesquelles le texte spécifié avec textPs= doit être coulé.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,30 +12,30 @@ ht-degree: 2%
 
 ---
 
-# textFlowPath{#textflowpath}
+# Chemin d’écoulement du texte{#textflowpath}
 
-Zone de texte. Spécifie une ou plusieurs régions dans lesquelles le texte spécifié avec textPs= doit être enchaîné.
+Zone de flux de texte. Spécifie une ou plusieurs régions dans lesquelles le texte spécifié avec textPs= doit être coulé.
 
-` textFlowPath= *`pathDefinition`*`
+` textFlowPath= *`Définition du chemin`*`
 
 <table id="simpletable_52CEFF5C3CCB4642A9A320D01B1BF8E0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> pathDefinition </span> </p> </td> 
-  <td class="stentry"> <p>Données de chemin d’accès. </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> Définition du chemin </span> </p> </td> 
+  <td class="stentry"> <p>Données de chemin. </p> </td> 
  </tr> 
 </table>
 
 Voir [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) pour plus d’informations, y compris une description de *`pathDefinition`*.
 
-Les commandes de marge RTF `\margl`, `\margr`, `\margt` et `\margb` sont ignorées en présence de `textFlowPath=`. Si aucune définition de chemin n’est spécifiée, `textFlowPath=` est ignoré.
+Les commandes RTF margin , `\margl``\margr`, `\margt`et `\margb` sont ignorées lorsque `textFlowPath=` est présent. Si aucune définition de chemin n’est spécifiée, `textFlowPath=` est ignoré.
 
 ## Propriétés {#section-b68dc887c6534ce8982cad740b3aeaa4}
 
-Attribut de calque de texte ( `textPs=` uniquement). Ignoré par d’autres calques. S’applique à `layer=0` s’il est spécifié pour `layer=comp`.
+Attribut de calque de texte ( `textPs=` uniquement). Ignoré par les autres calques. S’applique à `layer=0` si spécifié pour `layer=comp`.
 
 ## Par défaut {#section-68c4559b9e8242059b82e5a39a455dfc}
 
-Identique au rectangle du calque ; le texte remplit le rectangle du calque entier.
+Identique au rectangle de calque ; Le texte remplit l’intégralité du rectangle du calque.
 
 ## Voir aussi {#section-592b0039cf99471188db6a7df44b450a}
 

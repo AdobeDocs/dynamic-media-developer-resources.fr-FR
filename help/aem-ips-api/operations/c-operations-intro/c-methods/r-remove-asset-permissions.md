@@ -1,7 +1,7 @@
 ---
 description: Supprime les autorisations des ressources sélectionnées.
 solution: Experience Manager
-title: removeAssetPermissions
+title: Supprimer les autorisations des ressources
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: c47d9853-91b1-45fe-b8ff-aaa1239ca0d1
@@ -12,7 +12,7 @@ ht-degree: 14%
 
 ---
 
-# removeAssetPermissions{#removeassetpermissions}
+# Supprimer les autorisations des ressources{#removeassetpermissions}
 
 Supprime les autorisations des ressources sélectionnées.
 
@@ -30,10 +30,10 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | La poignée de la société. |
-| assetHandle | `xsd:string` | Oui | Gestion de la ressource avec les autorisations à supprimer. |
+| CompanyHandle | `xsd:string` | Oui | La poignée de l’entreprise. |
+| AssetHandle | `xsd:string` | Oui | Poignée de la ressource pour laquelle vous souhaitez supprimer les autorisations. |
 
-**Sortie (removeAssetPermissionsReturn)**
+**Output (removeAssetPermissionsReturn)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 
@@ -41,7 +41,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 Cet exemple de code supprime les autorisations d’une ressource.
 
-**Requête**
+**Demander**
 
 ```java
 <ns1:removeAssetPermissionsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

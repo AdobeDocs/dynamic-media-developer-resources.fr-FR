@@ -1,5 +1,5 @@
 ---
-title: Référence de commande de protocole HTTP
+title: Référence des commandes de protocole HTTP
 description: Cette référence de commande fournit des détails sur les commandes de protocole HTTP.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
@@ -12,6 +12,6 @@ ht-degree: 0%
 
 ---
 
-# Référence de commande de protocole HTTP {#http-protocol-command-reference}
+# Référence des commandes de protocole HTTP {#http-protocol-command-reference}
 
 Cette référence de commande fournit des détails sur les commandes de protocole HTTP.

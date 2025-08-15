@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> isCommand</span> </span> </p> </td> 
-   <td colname="col2"> <p> </p> <p>Chaîne de commande de diffusion d’images appliquée à l’image principale FlyoutZoomView et au zoom dans la vue. S’il est spécifié dans l’URL, veillez à coder toutes les occurrences de <span class="codeph"> &amp;</span> et <span class="codeph"> =</span> en tant que <span class="codeph"> %26</span> et <span class="codeph"> %3D</span>, respectivement. </p> <p> <p>Remarque : Les commandes de manipulation de dimensionnement d’image ne sont pas prises en charge. </p> </p> </td> 
+   <td colname="col2"> <p> </p> <p>Chaîne de commande de la Diffusion d’images appliquée à l’image principale FlyoutZoomView et à la vue agrandie. Si elle est spécifiée dans l'URL, veillez à encoder en HTTP toutes les occurrences de <span class="codeph"> &amp;</span> et <span class="codeph"> =</span> en <span class="codeph"> %26</span> et <span class="codeph"> %3D</span>, respectivement. </p> <p> <p>Remarque : les commandes de manipulation de dimensionnement d’image ne sont pas prises en charge. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -35,10 +35,10 @@ Aucune
 
 ## Exemple {#section-0338be21edd04ff1a3bed5c8319b61a4}
 
-Lorsqu’il est spécifié dans l’URL de la visionneuse :
+Lorsqu’elle est spécifiée dans l’URL de la visionneuse :
 
 `iscommand=op_sharpen%3d1%26op_colorize%3d0xff0000`
 
-Lorsque spécifié dans les données de configuration :
+Lorsqu’il est spécifié dans les données de configuration :
 
 `iscommand=op_sharpen=1&op_colorize=0xff0000`

@@ -1,6 +1,6 @@
 ---
 title: vidéo
-description: Commande URL de la visionneuse Video360.
+description: Commande d’URL de la visionneuse Video360.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # vidéo{#video}
 
-Commande URL de la visionneuse Video360.
+Commande d’URL de la visionneuse Video360.
 
 ` video= *`videoURL`*`
 
@@ -29,7 +29,7 @@ Commande URL de la visionneuse Video360.
 
 ## Propriétés {#section-f42369774e2740dcb399626a0e4e930e}
 
-Obligatoire. (Sauf si le paramètre `asset` est utilisé. Voir [Prise en charge des vidéos externes](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760).)
+Obligatoire. (Sauf si `asset` paramètre est utilisé. Voir [Prise en charge vidéo externe](../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-external-video-support.md#concept-66aa2784f2294794989bad2af74c3760).)
 
 ## Par défaut {#section-d016470e92a74f98a18c4ab3489410a5}
 

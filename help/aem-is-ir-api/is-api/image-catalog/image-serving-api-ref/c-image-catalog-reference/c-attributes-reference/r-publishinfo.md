@@ -1,5 +1,5 @@
 ---
-description: Chaîne d’annotation du catalogue. Chaîne de texte pouvant être utilisée pour identifier la version du catalogue, la date de publication, etc.
+description: Chaîne d’annotation de catalogue. Chaîne de texte qui peut être utilisée pour identifier la version du catalogue, la date de publication, etc.
 solution: Experience Manager
 title: PublishInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 4%
 
 # PublishInfo{#publishinfo}
 
-Chaîne d’annotation du catalogue. Chaîne de texte pouvant être utilisée pour identifier la version du catalogue, la date de publication, etc.
+Chaîne d’annotation de catalogue. Chaîne de texte qui peut être utilisée pour identifier la version du catalogue, la date de publication, etc.
 
-Le contenu de ce champ est renvoyé avec `req=catalogprops`. Cet attribut n’est pas utilisé ailleurs.
+Le contenu de ce champ est renvoyé avec `req=catalogprops`. Cet attribut n’est pas utilisé dans les autres cas.
 
 ## Propriétés {#section-73ff2a7c2e5b4c7a952453276f5bed23}
 
@@ -24,7 +24,7 @@ Chaîne de texte.
 
 ## Par défaut {#section-82e5a885e142414f996c609efbb962b1}
 
-Hérité de `default::PublishInfo` si elle n’est pas définie ou si elle est vide.
+Hérité de `default::PublishInfo` si non défini ou si vide.
 
 ## Voir aussi {#section-d61c31afb3dd4ae2abc6285db80c4f8a}
 

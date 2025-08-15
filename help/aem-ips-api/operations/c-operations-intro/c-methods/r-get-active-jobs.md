@@ -1,5 +1,5 @@
 ---
-description: Récupère toutes les tâches actives actuellement.
+description: Obtient toutes les tâches actuellement actives.
 solution: Experience Manager
 title: getActiveJobs
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # getActiveJobs{#getactivejobs}
 
-Récupère toutes les tâches actives actuellement.
+Obtient toutes les tâches actuellement actives.
 
 Syntaxe
 
@@ -31,15 +31,15 @@ Syntaxe
 
 ## Paramètres {#section-29018fba6bf34c1e80dcd479dd24f3b5}
 
-**Entrée (getActiveJobsParam)**
+**Input (getActiveJobsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Non | La poignée de la société. |
 | jobHandle | `xsd:string` | Non | La poignée de la tâche. |
-| originalName | `xsd:string` | Non | Nom original de la tâche. |
+| originalName | `xsd:string` | Non | Nom de la tâche d’origine. |
 
-**Sortie (getActiveJobsReturn)**
+**Output (getActiveJobsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -47,7 +47,7 @@ Syntaxe
 
 ## Exemples {#section-4ac5dbbf9cd94fdeb013d055f8ee7add}
 
-Cet exemple de code renvoie toutes les tâches actives d’une entreprise exécutant IPS. Dans ce cas, la réponse est inhabituelle car le coordinateur de planification IPS est désactivé sans tâches actives en cours d’exécution. Dans des circonstances normales, la réponse renvoie un certain nombre de tâches actives.
+Cet exemple de code renvoie toutes les tâches actives d’une société s’exécutant dans IPS. Dans ce cas, la réponse est inhabituelle, car le coordinateur de planification IPS est désactivé et aucune tâche active n’est en cours d’exécution. Dans des circonstances normales, la réponse renverrait un certain nombre de tâches actives.
 
 **Requête**
 

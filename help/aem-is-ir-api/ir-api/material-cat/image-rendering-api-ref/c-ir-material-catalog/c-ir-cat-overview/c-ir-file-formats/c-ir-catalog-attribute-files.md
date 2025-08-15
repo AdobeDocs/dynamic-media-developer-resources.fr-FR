@@ -1,6 +1,6 @@
 ---
-title: Fichiers d’attributs du catalogue
-description: Les fichiers d’attributs du catalogue peuvent porter n’importe quel nom, mais doivent comporter un suffixe de fichier .ini. Elles peuvent être facilement gérées à l’aide de n’importe quel éditeur de texte.
+title: Fichiers d’attributs de catalogue
+description: Les fichiers d’attributs de catalogue peuvent porter n’importe quel nom, mais doivent comporter un suffixe de fichier .ini. Ils peuvent être facilement conservés à l’aide de n’importe quel éditeur de texte.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,27 +12,27 @@ ht-degree: 0%
 
 ---
 
-# Fichiers d’attributs du catalogue{#catalog-attribute-files}
+# Fichiers d’attributs de catalogue{#catalog-attribute-files}
 
-Les fichiers d’attributs du catalogue peuvent porter n’importe quel nom, mais doivent comporter un suffixe de fichier `.ini`. Elles peuvent être facilement gérées à l’aide de n’importe quel éditeur de texte.
+Les fichiers d’attributs de catalogue peuvent porter n’importe quel nom, mais doivent comporter un suffixe de fichier `.ini`. Ils peuvent être facilement conservés à l’aide de n’importe quel éditeur de texte.
 
-Les fichiers d’attributs du catalogue se composent d’un ensemble d’enregistrements texte, séparés par une seule `<CR>` (code ASCII 0xD), une seule `<LF>` (code ASCII 0xA) ou une paire `<CR><LF>`. Chaque enregistrement se compose d’un nom d’attribut et d’une ou de plusieurs valeurs d’attribut séparées par des virgules :
+Les fichiers d’attributs de catalogue se composent d’un ensemble d’enregistrements texte, séparés par une seule `<CR>` (code ASCII 0xD), une seule `<LF>` (code ASCII 0xA) ou une paire de `<CR><LF>`. Chaque enregistrement se compose d’un nom d’attribut et d’une ou de plusieurs valeurs d’attribut séparées par des virgules :
 
 `*`name`*= *`value`*&#42;[, *`value`*]{<CR>|<LF>|<CR><LF>}`
 
 <table id="simpletable_8454AD549FDA421BA1469CDA44132773"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> name </span> </span> </p> </td> 
-  <td class="stentry"> <p>Nom de l’attribut ; peut être composé d’une ou de plusieurs lettres, nombre, - (trait d’union) et _ (trait de soulignement) ; non sensible à la casse.</p> </td> 
+  <td class="stentry"> <p>Nom de l’attribut ; peut se composer d’une ou de plusieurs lettres, d’un nombre, d’un - (trait d’union) et d’un _ (trait de soulignement) ; non sensible à la casse.</p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> value </span> </span> </p> </td> 
-  <td class="stentry"> <p>Valeur d’attribut ; ne doit pas inclure <span class="codeph"> &lt;CR&gt; </span> ou <span class="codeph"> &lt;LF&gt; </span> caractères, sauf si une seule barre oblique inverse s’est produite juste avant le caractère de saut de page. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> valeur <span class="varname"> </span> </span> </p> </td> 
+  <td class="stentry"> <p>La valeur d’attribut ne doit pas inclure <span class="codeph"> &lt;CR&gt; </span> ni <span class="codeph"> &lt;LF&gt; caractères </span>, sauf s’ils sont précédés d’une barre oblique inverse juste avant le caractère de nouvelle ligne. </p> </td> 
  </tr> 
 </table>
 
-* L’espace entre les jetons est facultatif.
-* [!DNL Platform Server] ignore les enregistrements avec des noms d’attributs inconnus.
-* Les noms d’attribut peuvent être composés de n’importe quelle combinaison de lettres ASCII, de nombres et de caractères `-`, `_` et `.`.
-* Si le même nom d’attribut apparaît plusieurs fois dans le même fichier d’attributs, c’est le dernier qui se produit qui prévaut.
+* L’espace blanc entre les jetons est facultatif.
+* Le [!DNL Platform Server] ignore les enregistrements dont les noms d’attribut sont inconnus.
+* Les noms d’attribut peuvent consister en n’importe quelle combinaison de lettres ASCII, de chiffres, de caractères `-`, `_` et `.`.
+* Si le même nom d’attribut apparaît plusieurs fois dans le même fichier d’attribut, le dernier événement rencontré prévaut.
 * Utilisez `#` comme premier caractère pour marquer un enregistrement comme commentaire que l’analyseur ignore.

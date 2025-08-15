@@ -1,5 +1,5 @@
 ---
-description: Propriétés d’une fenêtre recouvrant le fichier.
+description: Propriétés d'un fichier de recouvrement de fenêtre.
 solution: Experience Manager
 title: WindowCoveringInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # [!DNL WindowCoveringInfo]{#windowcoveringinfo}
 
-Propriétés d’une fenêtre recouvrant le fichier.
+Propriétés d&#39;un fichier de recouvrement de fenêtre.
 
 Syntaxe
 
@@ -24,8 +24,8 @@ Syntaxe
 |---|---|---|
 | originalPath | `xsd:string` | Chemin du fichier. |
 | originalFile | `xsd:string` | Nom du fichier. |
-| fileSize | `xsd:int` | Taille de fichier. |
-| imagePath | `xsd:string` | Chemin relatif de l’image. |
-| imageFile | `xsd:string` | Nom de fichier de l’image de couverture de la fenêtre. |
-| optimizedPath | `xsd:string` | Chemin optimisé vers le fichier. |
+| fileSize | `xsd:int` | Taille du fichier. |
+| imagePath | `xsd:string` | Chemin relatif vers l’image. |
+| imageFile | `xsd:string` | Nom de fichier de l&#39;image de couverture de fenêtre. |
+| optimizedPath | `xsd:string` | Chemin d’accès optimisé au fichier . |
 | optimizedFile | `xsd:string` | Nom de fichier optimisé. |

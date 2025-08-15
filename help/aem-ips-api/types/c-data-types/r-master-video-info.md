@@ -1,5 +1,5 @@
 ---
-description: Informations sur les fichiers pour les ressources vidéo principales.
+description: Informations de fichier pour les ressources vidéo principales.
 solution: Experience Manager
 title: MasterVideoInfo
 feature: Dynamic Media Classic,SDK/API,Video
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # [!DNL MasterVideoInfo]{#mastervideoinfo}
 
-Informations sur les fichiers pour les ressources vidéo principales.
+Informations de fichier pour les ressources vidéo principales.
 
 Syntaxe
 
@@ -24,4 +24,4 @@ Syntaxe
 |---|---|---|
 | originalPath | `xsd:string` | Chemin du fichier. |
 | originalFile | `xsd:string` | Nom du fichier. |
-| fileSize | `xsd:int` | Taille de fichier. |
+| fileSize | `xsd:int` | Taille du fichier. |

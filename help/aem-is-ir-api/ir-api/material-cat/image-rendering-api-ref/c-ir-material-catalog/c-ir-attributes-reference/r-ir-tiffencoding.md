@@ -1,6 +1,6 @@
 ---
-title: TiffEncoding
-description: Format de codage des TIFFs. Indique le format de compression des images par TIFF (il s’agit de la valeur par défaut de la troisième valeur de la commande fmt=).
+title: Encodage Tiff
+description: Format d’encodage TIFF. Spécifie le format de compression pour les images TIFF (en fait la valeur par défaut pour la troisième valeur de la commande fmt=).
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,11 +12,11 @@ ht-degree: 4%
 
 ---
 
-# TiffEncoding{#tiffencoding}
+# Encodage Tiff{#tiffencoding}
 
-Format de codage des TIFFs. Spécifie le format de compression des images par TIFF (il s’agit de la valeur par défaut de la troisième valeur de la commande `fmt=`).
+Format d’encodage TIFF. Spécifie le format de compression pour les images TIFF (en fait la valeur par défaut pour la troisième valeur de la `fmt=` commande).
 
-Définissez cette variable sur `0` sans compression, `1` pour LZW, `2` pour le déflat (ZIP) et `3` pour la compression JPEG.
+Définissez sur `0` pour l’absence de compression, `1` pour LZW, `2` pour deflate (ZIP) et `3` pour la compression JPEG.
 
 ## Propriétés {#section-469f5a1225464542866f5353edd92db3}
 
@@ -24,7 +24,7 @@ Enum.
 
 ## Par défaut {#section-a3c5152a9f464e4987ed7c05d35b1169}
 
-Hérité de `default::TiffEncoding` si elle n’est pas définie ou si elle est vide.
+Hérité de `default::TiffEncoding` si non défini ou si vide.
 
 ## Voir aussi {#section-1601425e5ac3486da4df8e7fa55981b2}
 

@@ -21,8 +21,8 @@ ht-degree: 6%
 <table id="table_B3B03B00DCF0466DB332E851F4DDF610"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> bottom|top|left|right|none|tooltip</span> </p> </td> 
-   <td> <p> Indique l’endroit où le libellé est tracé par rapport à l’image de la miniature de l’échantillon. En d’autres termes, le libellé est centré à l’emplacement spécifié par rapport à la miniature de l’échantillon. Lorsque <span class="codeph"> tooltip</span> est spécifié, aucune étiquette n’est dessinée. </p> </td> 
+   <td> <p> <span class="codeph"> bas|haut|gauche|droite|aucun|info-bulle</span> </p> </td> 
+   <td> <p> Indique l’emplacement du libellé par rapport à l’image miniature de l’échantillon. En d’autres termes, le libellé est centré à l’emplacement spécifié par rapport à la miniature de l’échantillon. Lorsque <span class="codeph"> info-bulle</span> est spécifiée, aucun libellé n’est dessiné. </p> </td> 
   </tr> 
  </tbody> 
 </table>

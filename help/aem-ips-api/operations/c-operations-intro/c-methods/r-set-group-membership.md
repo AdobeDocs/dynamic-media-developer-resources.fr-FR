@@ -30,17 +30,17 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| userHandle | `xsd:string` | Non | Gestionnaire de l’utilisateur dont vous souhaitez définir l’appartenance à un groupe. |
-| companyHandle | `xsd:string` | Non | Poignée de la société. |
-| groupHandleArray | `types:HandleArray` | Oui | Le tableau de gestionnaires aux groupes auxquels l’utilisateur doit appartenir. |
+| userHandle | `xsd:string` | Non | Descripteur de l’utilisateur dont vous souhaitez définir l’appartenance à un groupe. |
+| companyHandle | `xsd:string` | Non | Identifiant de la société. |
+| groupHandleArray | `types:HandleArray` | Oui | Tableau des descripteurs des groupes auxquels l’utilisateur doit appartenir. |
 
-**Sortie (setGroupMembershipReturn)**
+**Output (setGroupMembershipReturn)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-67b86d259df24938896fe19061845811}
 
-Cet exemple de code fait de l’utilisateur un membre d’un groupe. Ajoutez un utilisateur à plusieurs groupes à l’aide du tableau de gestion des groupes.
+Cet exemple de code fait de l’utilisateur un membre d’un groupe. Ajoutez un utilisateur à plusieurs groupes avec le tableau de gestion des groupes.
 
 **Requête**
 

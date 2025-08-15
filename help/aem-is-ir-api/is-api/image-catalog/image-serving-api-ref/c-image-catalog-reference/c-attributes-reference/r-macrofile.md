@@ -1,5 +1,5 @@
 ---
-description: Chemin du fichier de définitions de macro. Spécifie le fichier contenant les définitions de macro pour ce catalogue d’images.
+description: Chemin d'accès au fichier de définitions de macro. Spécifie le fichier contenant les définitions de macro pour ce catalogue d'images.
 solution: Experience Manager
 title: MacroFile
 feature: Dynamic Media Classic,SDK/API
@@ -14,16 +14,16 @@ ht-degree: 4%
 
 # MacroFile{#macrofile}
 
-Chemin du fichier de définitions de macro. Spécifie le fichier contenant les définitions de macro pour ce catalogue d’images.
+Chemin d&#39;accès au fichier de définitions de macro. Spécifie le fichier contenant les définitions de macro pour ce catalogue d&#39;images.
 
 ## Propriétés {#section-e55829aecc3a412f9121a73d70f83a1a}
 
-Valeur de chaîne de texte. Chemin ou chemin d’accès absolu au fichier par rapport au dossier de catalogue.
+Valeur de chaîne de texte. Chemin d’accès absolu au fichier ou chemin d’accès relatif au dossier du catalogue.
 
 ## Par défaut {#section-903de40cff734254aaf64c14258dc4a7}
 
-Vide, qui indique que ce catalogue d’images n’a pas de définitions de macro privées.
+Vide, ce qui indique que ce catalogue d’images ne comporte pas de définitions de macro privées.
 
 ## Voir aussi {#section-0d6179011b574922bc25e399fa73879d}
 
-[Définitions des macros](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-macro-definition-reference/c-macro-definition-reference.md#concept-5ec73f7636c1496fba1e94094e694e79)
+[Définitions de macro](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-macro-definition-reference/c-macro-definition-reference.md#concept-5ec73f7636c1496fba1e94094e694e79)

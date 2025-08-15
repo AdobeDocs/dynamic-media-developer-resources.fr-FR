@@ -20,19 +20,19 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Permet à l’iconEffet <span class="codeph"> </span> de s’afficher en haut de l’image lorsque celle-ci est à l’état réinitialisé et indique une action disponible pour interagir avec l’image. </p> </td> 
+   <td colname="col2"> <p> Permet à l’<span class="codeph"> iconeffect </span> s’afficher en haut de l’image lorsque l’image est à l’état réinitialisé et suggère une action disponible pour interagir avec l’image. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> count</span></span> </p> </td> 
-   <td colname="col2"> <p> Indique le nombre maximal de fois que l’iconfact <span class="codeph"> </span> apparaît et réapparaît. La valeur <span class="codeph"> -1</span> indique que l’icône réapparaît toujours indéfiniment. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> nombre</span></span> </p> </td> 
+   <td colname="col2"> <p> Indique le nombre maximal d’occurrences de l<span class="codeph">effet icône </span>. Une valeur <span class="codeph"> -1</span> indique que l’icône réapparaît toujours indéfiniment. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> fondu</span></span> </p> </td> 
-   <td colname="col2"> <p>Indique la durée de l’animation d’affichage ou de masquage, en secondes. </p> </td> 
+   <td colname="col2"> <p>Spécifie la durée de l'animation d'affichage ou de masquage, en secondes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> autoHide</span></span> </p> </td> 
-   <td colname="col2"> <p>Définit le nombre de secondes pendant lesquelles l’ <span class="codeph"> iconEffet</span> reste entièrement visible avant son masquage automatique. C’est-à-dire le temps qui suit la fin de l’animation en fondu, mais avant que l’animation en fondu ne commence. Un paramètre de <span class="codeph"> 0</span> désactive le comportement de masquage automatique. </p> </td> 
+   <td colname="col2"> <p>Définit le nombre de secondes pendant lesquelles l’<span class="codeph"> iconeffect</span> reste entièrement visible avant d’être masqué automatiquement. En d'autres termes, le temps écoulé entre la fin de l'animation de fondu avant le début de l'animation de fondu arrière. Un paramètre de <span class="codeph"> 0</span> désactive le comportement de masquage automatique. </p> </td> 
   </tr> 
  </tbody> 
 </table>

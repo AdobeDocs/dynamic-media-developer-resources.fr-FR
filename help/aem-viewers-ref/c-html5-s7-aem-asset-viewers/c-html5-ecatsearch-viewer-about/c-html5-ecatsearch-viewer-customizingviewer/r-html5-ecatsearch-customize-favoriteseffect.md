@@ -1,6 +1,6 @@
 ---
 title: Effet Favoris
-description: La visionneuse affiche les icônes Favoris au-dessus de la vue principale à des endroits où elle a été ajoutée à l’origine par l’utilisateur.
+description: La visionneuse affiche les icônes de Favoris sur la vue principale à l’endroit où elle a été ajoutée par l’utilisateur.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -14,40 +14,40 @@ ht-degree: 0%
 
 # Effet Favoris{#favorites-effect}
 
-La visionneuse affiche les icônes Favoris au-dessus de la vue principale à des endroits où elle a été ajoutée à l’origine par l’utilisateur.
+La visionneuse affiche les icônes de Favoris sur la vue principale à l’endroit où elle a été ajoutée par l’utilisateur.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-L’aspect de l’icône Favori est contrôlé à l’aide du sélecteur de classe CSS suivant :
+L’aspect de l’icône des Favoris est contrôlé par le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogsearchviewer .s7favoriteseffect .s7icon
 ```
 
-**Propriétés CSS de l’icône préférée**
+**Propriétés CSS de l’icône Favori**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> le </span> image d’arrière-plan </p> </td> 
    <td colname="col2"> <p> Image affichée pour l’icône. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> la position de l’arrière-plan </span> </p> </td> 
+   <td colname="col2"> <p> Positionnez à l’intérieur d’un sprite d’illustration si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> des </a> Sprites CSS. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
    <td colname="col2"> <p>Largeur de l’icône. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> de hauteur </span> </p> </td> 
    <td colname="col2"> <p>Hauteur de l’icône. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : configurez une icône Favoris 36 x 36 pixels.
+Exemple - Configurez une icône Favoris de 36 x 36 pixels.
 
 ```
 .s7ecatalogsearchviewer .s7favoriteseffect .s7icon { 
@@ -57,26 +57,26 @@ Exemple : configurez une icône Favoris 36 x 36 pixels.
 }
 ```
 
-Sur les systèmes de bureau, le composant prend en charge le sélecteur d’attributs `cursortype` que vous pouvez appliquer à la classe `.s7favoriteseffect` et contrôle le type de curseur en fonction de l’action utilisateur sélectionnée. Les valeurs `cursortype` suivantes sont prises en charge :
+Sur les systèmes de bureau, le composant prend en charge le sélecteur d’attributs `cursortype` que vous pouvez appliquer à la classe `.s7favoriteseffect` et contrôle le type du curseur en fonction de l’action de l’utilisateur sélectionné. Les valeurs `cursortype` suivantes sont prises en charge :
 
 <table id="table_71F8F333909247E4ACFEBDE3A1370EAB"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> mode_add </span> </p> </td> 
-   <td colname="col2"> <p>L’utilisateur affiché ajoute une nouvelle icône Favori. </p> </td> 
+   <td colname="col2"> <p>L’utilisateur affiché ajoute une nouvelle icône Favoris. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> mode_remove </span> </p> </td> 
-   <td colname="col2"> <p>L’utilisateur affiché supprime une icône Favori existante. </p> </td> 
+   <td colname="col2"> <p>L’utilisateur affiché supprime une icône de favoris existante. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> mode_view </span> </p> </td> 
-   <td colname="col2"> <p>S’affiche en mode de fonctionnement normal lorsque l’édition Favoris n’est pas active. </p> </td> 
+   <td colname="col2"> <p>Affiché en mode de fonctionnement normal lorsque la modification des Favoris n’est pas active. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : utilisez des curseurs de souris différents pour chaque type d’état de composant.
+Exemple : utilisez différents curseurs de souris pour chaque type d’état du composant.
 
 ```
 .s7ecatalogsearchviewer .s7favoriteseffect[cursortype="mode_add"] { 

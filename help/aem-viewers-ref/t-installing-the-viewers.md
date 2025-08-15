@@ -1,6 +1,6 @@
 ---
 title: Installation de plusieurs visionneuses Dynamic Media sur le même serveur
-description: Instructions d’installation de l’API Visionneuses Dynamic Media.
+description: Instructions d’installation de l’API Dynamic Media Viewers.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
@@ -16,20 +16,20 @@ ht-degree: 0%
 
 <!-- Updated April 06, 2021 from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=s7Viewers%2C+S7SDK%2C+S7OnDemand+Release+Notes - Contact is Sasha -->
 
-Instructions d’installation de l’API des visionneuses Dynamic Media.
+Instructions pour l’installation de l’API des visionneuses Dynamic Media.
 
-Installez et testez Image Serving avant d’installer les visionneuses Image Serving.
+Installez et testez Image Serving avant d’installer les visionneuses Image Server.
 
-Copiez les fichiers Visionneuses IS sur votre disque dur, puis déployez le fichier `s7viewers.war` dans le répertoire `../ImageServing/webapps`. Pour plus d’informations sur le déploiement, le démarrage, l’arrêt et la gestion du serveur d’images, reportez-vous à la documentation relative au serveur d’images .
+Copiez les fichiers IS Viewers sur votre disque dur, puis déployez-les `s7viewers.war` dans le `../ImageServing/webapps` répertoire. Consultez votre documentation Image Serving pour obtenir des instructions sur le déploiement, le démarrage, l’arrêt et la gestion d’Image Server.
 
 >[!NOTE]
 >
->Il n’existe aucune installation de mise à niveau pour les visionneuses Image Serving. Adobe vous recommande de sauvegarder tous les répertoires de visionneuses Dynamic Media (s7viewers) existants avant de poursuivre l’installation.
+>Il n’y a pas d’installation de mise à niveau pour les visionneuses Image Server. Adobe vous recommande de sauvegarder tout répertoire Dynamic Media visionneuses (s7viewers) existant avant de poursuivre l’installation.
 
 **Pour installer plusieurs visionneuses sur le même serveur :**
 
-1. Renommez la visionneuse .war en fonction du contexte souhaité et déployez le fichier à l’emplacement de votre choix.
-1. Définissez le paramètre `this.isViewerRoot` dans `config.js`.
+1. Renommez la visionneuse .war au contexte souhaité et déployez le fichier à l’emplacement souhaité.
+1. Définissez le `this.isViewerRoot` paramètre dans `config.js`.
 1. Ouvrez `config.js` à la racine du dossier de visionneuse nouvellement créé.
-1. Définissez le paramètre `this.isViewerRoot = "/s7viewers"` en fonction du contexte du fichier `s7viewers.war`. Par exemple, `"/s7viewers-4.0"`.
+1. Définissez le paramètre `this.isViewerRoot = "/s7viewers"` sur le contexte du `s7viewers.war` fichier. Par exemple, `"/s7viewers-4.0"`.
 1. Enregistrez le fichier et fermez-le.

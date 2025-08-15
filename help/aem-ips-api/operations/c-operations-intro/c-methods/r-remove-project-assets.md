@@ -1,5 +1,5 @@
 ---
-description: Supprime des ressources d’un projet. Ne détruit pas les ressources.
+description: Supprime des fichiers d’un projet. Ne détruit pas les actifs.
 solution: Experience Manager
 title: removeProjectAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # removeProjectAssets{#removeprojectassets}
 
-Supprime des ressources d’un projet. Ne détruit pas les ressources.
+Supprime des fichiers d’un projet. Ne détruit pas les actifs.
 
 Syntaxe
 
@@ -32,25 +32,25 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gestion de l’entreprise avec les ressources que vous souhaitez déplacer. |
-| projectHandle | `xsd:string` | Oui | Gestion des ressources du projet que vous souhaitez déplacer. |
-| assetHandleArray | `types:HandleArray` | Oui | Tableau de poignées vers les ressources que vous souhaitez déplacer. |
+| CompanyHandle | `xsd:string` | Oui | Poignée vers l’entreprise avec les ressources que vous souhaitez déplacer. |
+| Poignée de projet | `xsd:string` | Oui | Poignée des ressources de projet que vous souhaitez déplacer. |
+| assetHandleArray | `types:HandleArray` | Oui | Tableau de poignées pour les ressources que vous souhaitez déplacer. |
 
-**Sortie (removeProjectAssetsReturn)**
+**Output (removeProjectAssetsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| successCount | `xsd:int` | Oui | Suppression réussie du nombre de ressources. |
-| warningCount | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de supprimer des ressources du projet. |
-| errorCount | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de supprimer des ressources du projet. |
-| warningDetailArray | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des avertissements lorsque l’opération tentait de les supprimer du projet. |
-| errorDetailArray | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des erreurs lorsque l’opération a tenté de les supprimer du projet. |
+| Compte de succès | `xsd:int` | Oui | Nombre de ressources supprimées avec succès. |
+| Nombre d’avertissements | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération a tenté de supprimer des actifs du projet. |
+| Nombre d’erreurs | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération a tenté de supprimer des actifs du projet. |
+| Tableau des détails de l’avertissement | `types:AssetOperationFaultArray` | Non | Tableau de détails associé aux ressources qui ont généré des avertissements lorsque l’opération a tenté de les supprimer du projet. |
+| Tableau errorDetailArray | `types:AssetOperationFaultArray` | Non | Tableau de détails associé aux ressources qui ont généré des erreurs lorsque l’opération a tenté de les supprimer du projet. |
 
 ## Exemples {#section-13546cf0a98e4e1b91b8b7cd5724ced8}
 
-Cet exemple de code supprime 2 ressources d’un projet (spécifié par le gestionnaire de projet).
+Cet exemple de code supprime 2 ressources d’un projet (spécifiées par le nom de projet).
 
-**Requête**
+**Demander**
 
 ```java
 <removeProjectAssetsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

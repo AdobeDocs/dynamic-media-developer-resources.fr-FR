@@ -1,5 +1,5 @@
 ---
-description: Obtient les valeurs string des propriétés système liées à Image Portal.
+description: Obtient des valeurs de chaîne des propriétés système liées au portail d’images.
 solution: Experience Manager
 title: getProperty
 feature: Dynamic Media Classic,SDK/API
@@ -14,18 +14,18 @@ ht-degree: 10%
 
 # getProperty{#getproperty}
 
-Obtient les valeurs string des propriétés système liées à Image Portal.
+Obtient des valeurs de chaîne des propriétés système liées au portail d’images.
 
 Les propriétés système prises en charge sont les suivantes :
 
 * `IpsVersion` : numéro de version IPS.
-* `IpsImageServerUrl` : préfixe d’URL externe complet pour le serveur d’images IPS.
+* `IpsImageServerUrl` : préfixe URL externe complet pour le serveur d’images IPS.
 * `VideoRootUrl`
 * `swfRootUrl`
-* `SvgRenderRootUrl` : préfixe d’URL pour le rendu des ressources du SVG.
-* `SvgRenderEnabled` : valeur True si les ressources du SVG peuvent être rendues par `SvgRenderRootUrl`.
+* `SvgRenderRootUrl` : préfixe d’URL pour le rendu des ressources SVG.
+* `SvgRenderEnabled` : valeur true si les ressources SVG peuvent être rendues par `SvgRenderRootUrl`.
 
-* `UploadPostMaxFileSize` : taille maximale (en octets) des données de fichier autorisées dans un téléchargement [!DNL POST]. Le système rejette les fichiers dont la taille est supérieure à la limite maximale.
+* `UploadPostMaxFileSize` : taille maximale (en octets) des données de fichier autorisée dans un [!DNL POST] de chargement. Le système rejette les fichiers dont la taille est supérieure à la limite maximale.
 
 ## Types d’utilisateurs autorisés {#section-2cd36bbd46ed414b8753569d5895530e}
 
@@ -41,21 +41,21 @@ Les propriétés système prises en charge sont les suivantes :
 
 ## Paramètres {#section-e3d389d183b244c2a5ef39c0ec331b5e}
 
-**Entrée (getPropertyParam)**
+**Input (getPropertyParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | nom | `xsd:string` | Oui | Nom de la propriété à obtenir. |
 
-**Sortie (getPropertyReturn)**
+**Output (getPropertyReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| valeur | `xsd:string` | Oui | La valeur de la propriété. |
+| valeur | `xsd:string` | Oui | Valeur de la propriété . |
 
 ## Exemples {#section-3f80a78dd60c404181b34d3a912d7a36}
 
-Cet exemple de code utilise une constante de chaîne Propriétés IPS pour renvoyer une valeur spécifique. Dans cet exemple, la propriété IPS est la version du serveur IPS.
+Cet exemple de code utilise une constante de chaîne Propriétés IPS pour renvoyer une valeur spécifique. Dans cet exemple, la propriété IPS correspond à la version du serveur IPS.
 
 **Requête**
 

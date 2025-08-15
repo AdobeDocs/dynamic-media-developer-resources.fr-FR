@@ -1,5 +1,5 @@
 ---
-description: Obtient les utilisateurs appartenant à une société et à un groupe spécifiques.
+description: Obtient les utilisateurs qui appartiennent à une société et à un groupe spécifiques.
 solution: Experience Manager
 title: getGroupMembers
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # getGroupMembers{#getgroupmembers}
 
-Obtient les utilisateurs appartenant à une société et à un groupe spécifiques.
+Obtient les utilisateurs qui appartiennent à une société et à un groupe spécifiques.
 
 Syntaxe
 
@@ -26,24 +26,24 @@ Syntaxe
 
 ## Paramètres {#section-b798b06354c946abbb90fa72cc9c67fd}
 
-**Entrée (getGroupMembersParam)**
+**Input (getGroupMembersParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | La poignée de la société. |
-| groupHandle | `xsd:string` |  | La poignée du groupe. |
+| CompanyHandle | `xsd:string` | Oui | La poignée de l’entreprise. |
+| Poignée de groupe | `xsd:string` |  | Poignée du groupe. |
 
-**Sortie (getGroupMembersReturn)**
+**Output (getGroupMembersReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| userHandleArray | `type:HandleArray` | Oui | Tableau de gestionnaires d’utilisateurs. |
+| userHandleArray | `type:HandleArray` | Oui | Tableau de pseudos utilisateur. |
 
 ## Exemples {#section-aaa340dba6b64cce9bcd8303cf999166}
 
-Cet exemple de code renvoie un tableau de pseudo utilisateur contenant tous les utilisateurs appartenant à un groupe spécifique.
+Cet exemple de code renvoie un tableau de descripteurs d’utilisateur contenant tous les utilisateurs appartenant à un groupe spécifique.
 
-**Requête**
+**Demander**
 
 ```java
 <ns1:getGroupMembersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

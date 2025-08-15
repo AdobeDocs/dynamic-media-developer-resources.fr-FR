@@ -1,6 +1,6 @@
 ---
 title: Localisation des éléments de l’interface utilisateur
-description: Certains contenus affichés par la visionneuse peuvent être localisés. Ce contenu comprend des info-bulles d’éléments de l’interface utilisateur et un message d’erreur s’affiche lorsque la vidéo ne peut pas être lue.
+description: Certains contenus affichés par la visionneuse sont sujets à la localisation. Ce contenu comprend des info-bulles d’éléments d’interface utilisateur et un message d’erreur affiché lorsque la vidéo ne peut pas être lue.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # Localisation des éléments de l’interface utilisateur{#localization-of-user-interface-elements}
 
-Certains contenus affichés par la visionneuse peuvent être localisés. Ce contenu comprend des info-bulles d’éléments de l’interface utilisateur et un message d’erreur s’affiche lorsque la vidéo ne peut pas être lue.
+Certains contenus affichés par la visionneuse sont sujets à la localisation. Ce contenu comprend des info-bulles d’éléments d’interface utilisateur et un message d’erreur affiché lorsque la vidéo ne peut pas être lue.
 
-Chaque contenu textuel de la visionneuse qui peut être localisé est représenté par un identifiant spécial du SDK de la visionneuse appelé SYMBOL. Tout SYMBOL est associé par défaut à une valeur de texte pour le paramètre régional anglais ( `"en"`) fournie avec la visionneuse prête à l’emploi. Il peut également y avoir des valeurs définies par l’utilisateur définies pour autant de paramètres régionaux que nécessaire.
+Chaque contenu textuel de la visionneuse qui peut être localisé est représenté par un identifiant SDK de visionneuse spécial appelé SYMBOL. Tout SYMBOLE comporte une valeur de texte associée par défaut pour les paramètres régionaux anglais ( `"en"`) fournis avec la visionneuse prête à l’emploi. Des valeurs définies par l’utilisateur peuvent également être définies pour autant de paramètres régionaux que nécessaire.
 
-Lorsque la visionneuse démarre, elle vérifie les paramètres régionaux actuels afin de déterminer s’il existe une valeur définie par l’utilisateur pour chaque SYMBOL pris en charge pour le paramètre régional. Si tel est le cas, il utilise la valeur définie par l’utilisateur ; dans le cas contraire, il revient au texte par défaut d’usine.
+Lorsque la visionneuse démarre, elle vérifie le paramètre régional en cours pour voir s’il existe une valeur définie par l’utilisateur pour chaque SYMBOLE pris en charge pour le paramètre régional. Si tel est le cas, il utilise la valeur définie par l’utilisateur ou l’utilisatrice ; dans le cas contraire, il revient au texte par défaut prêt à l’emploi.
 
-Les données de localisation définies par l’utilisateur peuvent être transmises à la visionneuse en tant qu’objet JSON de localisation. Cet objet contient la liste des paramètres régionaux pris en charge, les valeurs de texte SYMBOL pour chaque paramètre régional et les paramètres régionaux par défaut.
+Les données de localisation définies par l’utilisateur peuvent être transmises à la visionneuse en tant qu’objet JSON de localisation. Cet objet contient la liste des paramètres régionaux pris en charge, les valeurs de texte SYMBOL pour chaque paramètre régional et le paramètre régional par défaut.
 
-Voici un exemple d’objet de localisation :
+Voici un exemple d’un tel objet de localisation :
 
 ```
 { 
@@ -38,11 +38,11 @@ defaultLocale:"en"
 }
 ```
 
-Dans l’exemple ci-dessus, l’objet de localisation définit deux paramètres régionaux ( `"en"` et `"fr"`) et permet de localiser deux éléments de l’interface utilisateur dans chaque paramètre régional.
+Dans l’exemple ci-dessus, l’objet de localisation définit deux paramètres régionaux ( `"en"` et `"fr"`) et fournit la localisation de deux éléments de l’interface utilisateur dans chaque paramètre régional.
 
-Le code de page web doit transmettre l’objet de localisation au constructeur de la visionneuse en tant que valeur du champ `localizedTexts` de l’objet de configuration. Une autre option consiste à transmettre l’objet de localisation en appelant la méthode `setLocalizedTexts(localizationInfo)`.
+Le code de la page web doit transmettre l’objet de localisation au constructeur de la visionneuse en tant que valeur du champ `localizedTexts` de l’objet de configuration. Une autre option consiste à transmettre l’objet de localisation en appelant la méthode `setLocalizedTexts(localizationInfo)` .
 
-Les SYMBOLES suivants sont pris en charge :
+Les symboles suivants sont pris en charge :
 
 <table id="table_58C40353B7244335872350C98DF2CFB3"> 
  <thead> 
@@ -58,99 +58,99 @@ Les SYMBOLES suivants sont pris en charge :
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_SELECTED </span> </p> </td> 
-   <td colname="col2"> <p>État du bouton de mise en pause de la lecture sélectionné. </p> </td> 
+   <td colname="col2"> <p>État du bouton de pause de lecture sélectionné. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_UNSELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Désélectionnez l’état du bouton de pause de lecture. </p> </td> 
+   <td colname="col2"> <p>État du bouton de pause de lecture désélectionné. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PlayPauseButton.TOOLTIP_REPLAY </span> </p> </td> 
-   <td colname="col2"> <p>État du bouton Lire la pause. </p> </td> 
+   <td colname="col2"> <p>Lire l’état du bouton de pause. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoScrubber.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Défilement vidéo. </p> </td> 
+   <td colname="col2"> <p>Nettoyeur vidéo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoTime.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Temps de la vidéo sur la barre de contrôle. </p> </td> 
+   <td colname="col2"> <p>Durée de la vidéo sur la barre de contrôle. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_SELECTED </span> </p> </td> 
-   <td colname="col2"> <p>État du volume modifiable sélectionné. </p> </td> 
+   <td colname="col2"> <p>État de volume modifiable sélectionné. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_UNSELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Volume modifiable désélectionné. </p> </td> 
+   <td colname="col2"> <p>Volume mutable désélectionné. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_VOLUME </span> </p> </td> 
-   <td colname="col2"> <p>Libellé du curseur de volume exposé au moyen de l’attribut ARIA <span class="codeph"> aria-valuetext </span> . </p> </td> 
+   <td colname="col2"> <p>Libellé du curseur de volume exposé par le biais de l’attribut ARIA <span class="codeph"> aria-valuetext </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
-   <td colname="col2"> <p>bouton plein écran en état normal. </p> </td> 
+   <td colname="col2"> <p>bouton plein écran à l’état normal. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED </span> </p> </td> 
-   <td colname="col2"> <p>bouton plein écran en mode plein écran. </p> </td> 
+   <td colname="col2"> <p>Bouton plein écran à l’état plein écran. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SocialShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Outil de partage sur les réseaux sociaux. </p> </td> 
+   <td colname="col2"> <p>Outil de partage social. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Bouton incorporer le partage. </p> </td> 
+   <td colname="col2"> <p>Bouton Incorporer le partage. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.HEADER </span> </p> </td> 
-   <td colname="col2"> <p>En-tête de la boîte de dialogue d’intégration. </p> </td> 
+   <td colname="col2"> <p>En-tête de la boîte de dialogue Incorporer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP_HEADER_CLOSE </span> </p> </td> 
-   <td colname="col2"> <p>Bouton de fermeture supérieur droit de la boîte de dialogue d’intégration. </p> </td> 
+   <td colname="col2"> <p>Le bouton de fermeture de la boîte de dialogue d’intégration en haut à droite. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.DESCRIPTION </span> </p> </td> 
-   <td colname="col2"> <p>Le texte du code incorporé. </p> </td> 
+   <td colname="col2"> <p>Texte du code incorporé. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.EMBED_SIZE </span> </p> </td> 
-   <td colname="col2"> <p>Zone combinée de taille d’intégration. </p> </td> 
+   <td colname="col2"> <p>La zone de liste déroulante Taille d’intégration. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.CANCEL </span> </p> </td> 
-   <td colname="col2"> <p>Le bouton "Annuler". </p> </td> 
+   <td colname="col2"> <p>Le bouton « Annuler ». </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP_CANCEL </span> </p> </td> 
-   <td colname="col2"> <p>Le bouton "Annuler". </p> </td> 
+   <td colname="col2"> <p>Le bouton « Annuler ». </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.ACTION </span> </p> </td> 
-   <td colname="col2"> <p>Le bouton "Tout sélectionner". </p> </td> 
+   <td colname="col2"> <p>Le bouton « Tout sélectionner ». </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP ACTION </span> </p> </td> 
-   <td colname="col2"> <p>Le bouton "Tout sélectionner". </p> </td> 
+   <td colname="col2"> <p>Le bouton « Tout sélectionner ». </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.CUSTOM_SIZE </span> </p> </td> 
-   <td colname="col2"> <p>La dernière entrée "taille personnalisée" dans la zone combinée Taille de l’intégration. </p> </td> 
+   <td colname="col2"> <p>Dernière entrée « taille personnalisée » dans la zone de liste de taille incorporée. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Bouton de partage de lien. </p> </td> 
+   <td colname="col2"> <p>Bouton Partager un lien. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.HEADER </span> </p> </td> 
-   <td colname="col2"> <p>En-tête de la boîte de dialogue de lien. </p> </td> 
+   <td colname="col2"> <p>En-tête de la boîte de dialogue Lien. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_HEADER_CLOSE </span> </p> </td> 
-   <td colname="col2"> <p>Bouton de fermeture supérieur droit de la boîte de dialogue de lien. </p> </td> 
+   <td colname="col2"> <p>Le bouton de fermeture de la boîte de dialogue de lien en haut à droite. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.DESCRIPTION </span> </p> </td> 
@@ -158,27 +158,27 @@ Les SYMBOLES suivants sont pris en charge :
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.CANCEL </span> </p> </td> 
-   <td colname="col2"> <p>Le bouton "Annuler". </p> </td> 
+   <td colname="col2"> <p>Le bouton « Annuler ». </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_CANCEL </span> </p> </td> 
-   <td colname="col2"> <p>Le bouton "Annuler". </p> </td> 
+   <td colname="col2"> <p>Le bouton « Annuler ». </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.ACTION </span> </p> </td> 
-   <td colname="col2"> <p>Le bouton "Tout sélectionner". </p> </td> 
+   <td colname="col2"> <p>Le bouton « Tout sélectionner ». </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ACTION LinkShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Le bouton "Tout sélectionner". </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP ACTION </span> </p> </td> 
+   <td colname="col2"> <p>Le bouton « Tout sélectionner ». </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FacebookShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Bouton Partager Facebook. </p> </td> 
+   <td colname="col2"> <p>Le bouton Partager Facebook. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Bouton Partager le Twitter. </p> </td> 
+   <td colname="col2"> <p>Le bouton Partager Twitter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Video360Player.ERROR </span> </p> </td> 

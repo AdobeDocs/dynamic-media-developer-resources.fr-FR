@@ -1,5 +1,5 @@
 ---
-description: Si des données matérielles sont requises pour un catalogue de matières, le chemin relatif ou absolu du fichier de données matériel doit être spécifié dans l’attribut CatalogFile.
+description: Si des données d’article sont requises pour un catalogue d’articles, le chemin d’accès relatif ou absolu du fichier de données d’article doit être spécifié dans l’attribut CatalogFile.
 solution: Experience Manager
 title: Référence des données matérielles
 feature: Dynamic Media Classic,SDK/API
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # Référence des données matérielles{#material-data-reference}
 
-Si des données matérielles sont requises pour un catalogue de matières, le chemin relatif ou absolu du fichier de données matériel doit être spécifié dans attribute::CatalogFile.
+Si des données de matériaux sont requises pour un catalogue de matériaux, le chemin relatif ou absolu du fichier de données d’article doit être spécifié dans attribute ::CatalogFile.
 
-Les entrées dans le fichier de données de matériaux d’un catalogue de matériaux spécifique remplacent les entrées dans le fichier de données de matériaux du catalogue par défaut.
+Les entrées dans le fichier de données de matériaux d’un catalogue d’articles spécifique remplacent les entrées dans le fichier de données d’article du catalogue par défaut.

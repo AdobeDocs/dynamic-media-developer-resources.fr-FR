@@ -16,11 +16,11 @@ ht-degree: 6%
 
 Nom de la police Postscript.
 
-Actuellement, seul le moteur de rendu FXG peut référencer les polices à l’aide de leurs noms Postscript.
+Actuellement, seul le moteur de rendu FXG peut référencer des polices en fonction de leurs noms Postscript.
 
 ## Propriétés {#section-a560f8bfc69a4d88aeb0b53c1625153b}
 
-Chaîne de texte. Facultatif. Clé d’index Secondaire pour la mise en correspondance des polices. La même valeur `font::PsName` ne peut se produire qu’une seule fois dans le même fichier de mappage de polices.
+Chaîne de texte. Facultatif. Clé d’index Secondaire pour le mappage des polices. La même valeur de `font::PsName` ne peut apparaître qu&#39;une seule fois dans le même fichier de mappage de polices.
 
 ## Par défaut {#section-c5903d5340e740b69ec0150d2303a893}
 

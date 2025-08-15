@@ -1,6 +1,6 @@
 ---
 title: setContainerId
-description: Référence de l’API JavaScript pour la visionneuse de zoom intégrée.
+description: Référence de l’API JavaScript pour la visionneuse de zoom intégré.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
@@ -14,11 +14,11 @@ ht-degree: 2%
 
 # setContainerId{#setcontainerid}
 
-Référence de l’API JavaScript pour la visionneuse de zoom intégrée.
+Référence de l’API JavaScript pour la visionneuse de zoom intégré.
 
 ` setContainerId( *`containerId`*)`
 
-Définit l’identifiant du conteneur DOM (normalement un `DIV`) dans lequel la visionneuse est insérée. Il n’est pas nécessaire de créer l’élément de conteneur au moment de l’appel de cette méthode. Cependant, le conteneur doit exister lorsque `init()` est exécuté. Elle doit être appelée avant `init()`. Cette méthode est facultative si les informations de configuration de la visionneuse sont transmises avec l’objet JSON `config` au constructeur.
+Définit l’identifiant du conteneur DOM (normalement un `DIV`) dans lequel la visionneuse est insérée. Il n’est pas nécessaire que l’élément de conteneur soit créé au moment où cette méthode est appelée. Cependant, le conteneur doit exister lors de l’exécution de `init()`. Il doit être appelé avant `init()`. Cette méthode est facultative si les informations de configuration de la visionneuse sont transmises avec `config` objet JSON au constructeur .
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 

@@ -1,7 +1,7 @@
 ---
-description: getVideoPublishFormats
+description: getVignettePublishFormats
 solution: Experience Manager
-title: getVideoPublishFormats
+title: getVignettePublishFormats
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6e56d68e-b5cf-4044-9c58-f8221fa4490f
@@ -12,7 +12,7 @@ ht-degree: 21%
 
 ---
 
-# getVideoPublishFormats{#getvignettepublishformats}
+# getVignettePublishFormats{#getvignettepublishformats}
 
 Syntaxe
 
@@ -25,21 +25,21 @@ Syntaxe
 
 ## Paramètres {#section-ba28150e6d8c4aa0b4ec72451ba7bc71}
 
-**Entrée (getVignettePublishFormatsParam)**
+**Input (getVignettePublishFormatsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Oui | La poignée de la société. |
 
-**Sortie (getVignettePublishFormatsReturn)**
+**Output (getVignettePublishFormatsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| vignetteFormatArray | `types:VignettePublishFormatArray` | Oui | Tableau des formats de publication de vignettes. |
+| vignetteFormatArray | `types:VignettePublishFormatArray` | Oui | Tableau de formats de publication de vignette. |
 
 ## Exemples {#section-2cc32b27cc6243b7b3e273cc05996226}
 
-Cet exemple de code renvoie deux formats de publication de vignettes associés à une société spécifique. Les informations sont renvoyées dans un tableau, qui est tronqué pour plus de concision.
+Cet exemple de code renvoie deux formats de publication de vignette associés à une société spécifique. Les informations sont renvoyées dans un tableau, qui est tronqué à des fins de concision.
 
 **Requête**
 

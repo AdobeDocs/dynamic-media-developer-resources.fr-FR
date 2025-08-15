@@ -1,6 +1,6 @@
 ---
-title: bouton plein écran
-description: Le bouton plein écran permet au lecteur vidéo d’entrer ou de quitter le mode plein écran lorsqu’un utilisateur clique dessus.
+title: Bouton Plein écran
+description: Le bouton plein écran fait passer le lecteur vidéo en mode plein écran ou le quitte lorsqu’un utilisateur clique dessus.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 ---
 
-# bouton plein écran{#full-screen-button}
+# Bouton Plein écran{#full-screen-button}
 
-Le bouton plein écran permet au lecteur vidéo d’entrer ou de quitter le mode plein écran lorsqu’un utilisateur le sélectionne.
+Le bouton plein écran fait passer le lecteur vidéo en mode plein écran ou le quitte lorsqu’un utilisateur le sélectionne.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Par CSS, vous pouvez dimensionner, mettre en forme et positionner le bouton plein écran, par rapport à la barre de contrôle qui le contient.
+Vous pouvez dimensionner, habiller et positionner le bouton plein écran, par rapport à la barre de contrôle qui le contient, par CSS.
 
-L’aspect du bouton plein écran est contrôlé à l’aide du sélecteur de classe CSS :
+L’apparence du bouton plein écran est contrôlée par le sélecteur de classe CSS :
 
 ```
 .s7videoviewer .s7fullscreenbutton
@@ -31,49 +31,49 @@ L’aspect du bouton plein écran est contrôlé à l’aide du sélecteur de cl
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
-   <td colname="col2"> <p> Position à partir de la bordure supérieure, y compris la marge intérieure. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Retour au début </span> </p> </td> 
+   <td colname="col2"> <p> Position à partir de la bordure supérieure, y compris le rembourrage. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> droit </span> </p> </td> 
-   <td colname="col2"> <p> Position à partir de la bordure droite, y compris la marge intérieure. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Droite </span> </p> </td> 
+   <td colname="col2"> <p> Position à partir de la bordure droite, y compris le rembourrage. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left </span> </p> </td> 
-   <td colname="col2"> <p> Position depuis la bordure gauche, y compris la marge intérieure. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Gauche </span> </p> </td> 
+   <td colname="col2"> <p> Position à partir de la bordure gauche, remplissage compris. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> bottom </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure inférieure, y compris la marge intérieure. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> fond </span> </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure inférieure, remplissage compris. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Largeur </span> </p> </td> 
    <td colname="col2"> <p> Largeur du bouton plein écran. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> hauteur </span> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton plein écran. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-image </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan </span> </p> </td> 
    <td colname="col2"> <p> L’image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-position </span> </p> </td> 
-   <td colname="col2"> <p> Position dans l’objet d’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites CSS </a>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> position de l’arrière-plan </span> </p> </td> 
+   <td colname="col2"> <p> Position à l’intérieur du sprite de l’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites </a>CSS. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ce bouton prend en charge les sélecteurs d’attributs `state` et `selected`, qui peuvent être utilisés pour appliquer différents habillages à différents états de bouton. En particulier, `selected='true'` correspond à l’état &quot;plein écran&quot; et `selected='false'` à l’état &quot;normal&quot;.
+>Ce bouton prend en charge à la fois les sélecteurs d’attributs `state` et `selected` , qui peuvent être utilisés pour appliquer différents habillages à différents états de bouton. En particulier, correspond `selected='true'` à l’état « plein écran » et `selected='false'` correspond à l’état « normal ».
 
-L’info-bulle de bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) pour plus d’informations.
+L’info-bulle du bouton peut être localisée. Pour plus d’informations, voir [Localisation des éléments](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) de l’interface utilisateur.
 
 ## Exemple {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Pour configurer un bouton plein écran de 32 x 32 pixels et positionner 6 pixels à partir des bords supérieur et droit de la barre de contrôle. En outre, affichez une image différente pour chacun des quatre états de bouton différents lorsqu’il est sélectionné ou non.
+Pour configurer un bouton plein écran de 32 x 32 pixels et positionné à 6 pixels du bord supérieur et droit de la barre de contrôle. Affichez également une image différente pour chacun des quatre états de bouton différents lorsqu’il est sélectionné ou non.
 
 ```
 .s7videoviewer . s7fullscreenbutton { 

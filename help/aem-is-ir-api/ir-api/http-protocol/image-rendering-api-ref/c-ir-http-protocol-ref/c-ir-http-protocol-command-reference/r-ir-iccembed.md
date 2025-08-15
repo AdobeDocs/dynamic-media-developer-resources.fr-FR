@@ -1,6 +1,6 @@
 ---
 title: iccEmbed
-description: Incorporer le profil ICC. Indique si le profil colorimétrique ICC de travail ou le profil spécifié avec &grave;icc=&grave; doit être incorporé dans l’image de réponse.
+description: Incorporez le profil ICC. Indique si le profil de couleurs ICC de travail ou le profil spécifié avec « icc= » doit être incorporé dans l’image de réponse.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # iccEmbed{#iccembed}
 
-Incorporer le profil ICC. Indique si le profil colorimétrique ICC de travail ou le profil spécifié avec `icc=` doit être incorporé dans l’image de réponse.
+Incorporez le profil ICC. Indique si le profil de couleurs ICC de travail ou le profil spécifié avec `icc=` doit être incorporé dans l’image de réponse.
 
 `iccEmbed=0|1`
 
@@ -24,7 +24,7 @@ Cela peut se produire n’importe où dans la requête.
 
 ## Par défaut {#section-68ed1f0c68dc46b58972804799c277b7}
 
-`iccEmbed=0`, sans incorporation de profils ICC dans les images de sortie.
+`iccEmbed=0`, pour l’absence d’incorporation de profils ICC dans les images de sortie.
 
 ## Voir aussi {#section-e9e6bb04e2154f4387261edcbbbfe7d3}
 

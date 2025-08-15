@@ -1,7 +1,7 @@
 ---
 description: Utilisé par JobLogDetial/assetType.
 solution: Experience Manager
-title: Types de fichiers journaux de tâches
+title: Types de fichier journal de tâches
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: a6dce340-0dc4-4ecf-9aa1-0ed8f446fb8c
@@ -12,7 +12,7 @@ ht-degree: 11%
 
 ---
 
-# Types de fichiers journaux de tâches{#job-log-file-types}
+# Types de fichier journal de tâches{#job-log-file-types}
 
 Utilisé par JobLogDetial/assetType.
 

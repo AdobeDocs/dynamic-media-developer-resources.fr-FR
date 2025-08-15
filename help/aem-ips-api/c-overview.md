@@ -1,5 +1,5 @@
 ---
-description: L’API de service Web IPS (Image Production System) permet aux applications externes et aux développeurs tiers d’accéder par programmation aux ressources et fonctionnalités d’IPS.
+description: L’API de service web IPS (Image Production System) permet aux applications externes et aux développeurs tiers d’accéder par programmation aux ressources et fonctionnalités IPS.
 solution: Experience Manager
 title: À propos de l’API Image Production System
 feature: Dynamic Media Classic,SDK/API
@@ -14,18 +14,18 @@ ht-degree: 0%
 
 # À propos de l’API Image Production System{#about-scene-image-production-system-api}
 
-L’API de service Web IPS (Image Production System) permet aux applications externes et aux développeurs tiers d’accéder par programmation aux ressources et fonctionnalités d’IPS.
+L’API de service web IPS (Image Production System) permet aux applications externes et aux développeurs tiers d’accéder par programmation aux ressources et fonctionnalités IPS.
 
-Ce guide de référence contient et définit tous les services, méthodes et types de données utilisés par l’API IPS Web Service. Il a été testé pour vérifier sa compatibilité avec Java™ (à l’aide de la bibliothèque Apache Axis2), Adobe Flex et Microsoft® .NET.
+Ce guide de référence contient et définit tous les services, méthodes et types de données utilisés par l&#39;API de service Web IPS. La compatibilité avec Java™ (à l’aide de la bibliothèque Apache Axis2), Adobe Flex et Microsoft® .NET a été testée.
 
 ## Normes et protocoles {#section-d85e71e44b7f432b9c65ce6ca45b7157}
 
-L’API IPS utilise des protocoles HTTP et SOAP standard et est compatible avec tous les clients qui respectent ces normes. Des tests supplémentaires permettent de s’assurer que l’API est compatible avec Java™ (à l’aide de la bibliothèque Apache Axis2), Adobe Flex et Microsoft® .NET.
+L’API IPS utilise les protocoles SOAP et HTTP standard et est compatible avec tout client conforme à ces normes. Des tests supplémentaires permettent de s’assurer que l’API est compatible avec Java™ (à l’aide de la bibliothèque Apache Axis2), Adobe Flex et Microsoft® .NET.
 
 >[!MORELIKETHIS]
 >
->* [Versions WSDL du service Web IPS](c-wsdl-versions.md#concept-aff3e13f3b59486882260b5f2e962226)
->* [Méthodes d’exploitation](operations/c-operations-intro/c-methods/c-methods.md)
+>* [Versions WSDL du service web IPS](c-wsdl-versions.md#concept-aff3e13f3b59486882260b5f2e962226)
+>* [Méthodes d’opération](operations/c-operations-intro/c-methods/c-methods.md)
 >* [Types de données](types/c-data-types/c-data-types.md#concept-dcf2ce73ff334e22bc4c634e3a0a50a6)
 >* [Constantes de chaîne](string-constants/c-string-constants/c-string-constants.md)
->* [Faults](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b)
+>* [Erreurs](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b)

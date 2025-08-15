@@ -1,7 +1,7 @@
 ---
-description: Tableau de mises à jour des champs de police.
+description: Un tableau de mises à jour de champs de police.
 solution: Experience Manager
-title: FontFieldUpdateArray
+title: TableauFontFieldUpdateArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1ed5562a-90f6-483c-98ef-96bc5a5131ed
@@ -14,7 +14,7 @@ ht-degree: 22%
 
 # [!DNL FontFieldUpdateArray]{#fontfieldupdatearray}
 
-Tableau de mises à jour des champs de police.
+Un tableau de mises à jour de champs de police.
 
 Syntaxe
 
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| éléments | `types:FontFieldUpdate` | Élément du tableau de mise à jour des champs de police. |
+| éléments | `types:FontFieldUpdate` | Un élément du tableau de mise à jour du champ de police. |

@@ -1,7 +1,7 @@
 ---
-description: Définit des champs spécifiques à l’image pour une ou plusieurs ressources d’image.
+description: Définit des champs spécifiques à une image pour un ou plusieurs fichiers image.
 solution: Experience Manager
-title: batchSetImageFields
+title: Champs d’image en forme de lot
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 8ea6dbb8-4d32-43e5-961f-31110f983663
@@ -12,9 +12,9 @@ ht-degree: 9%
 
 ---
 
-# batchSetImageFields{#batchsetimagefields}
+# Champs d’image en forme de lot{#batchsetimagefields}
 
-Définit des champs spécifiques à l’image pour une ou plusieurs ressources d’image.
+Définit des champs spécifiques à une image pour un ou plusieurs fichiers image.
 
 Syntaxe
 
@@ -29,28 +29,28 @@ Syntaxe
 
 ## Paramètres {#section-4969815cf67c4d11b13bb2017b3604e8}
 
-**Input (batchSetImageFields)**
+**Entrée (batchSetImageFields)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gestionnaire de la société qui contient les ressources d’image. |
-| updateArray | `types:ImageFieldUpdateArray` | Oui | Le tableau des mises à jour des champs d’image. |
+| CompanyHandle | `xsd:string` | Oui | Poignée de l’entreprise qui contient les ressources image. |
+| Mettre à jour le tableau | `types:ImageFieldUpdateArray` | Oui | Tableau des mises à jour des champs d’image. |
 
-**Sortie (batchSetImageFields)**
+**Output (batchSetImageFields)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| successCount | `xsd:int` | Oui | Nombre de champs d’image définis avec succès. |
-| warningCount | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération tentait de définir les champs de l’image. |
-| errorCount | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération tentait de définir les champs de l’image. |
-| warningDetailArray | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des avertissements lorsque l’opération a tenté d’appliquer les mises à jour. |
-| errorDetailArray | `types:AssetOperationFaultArray` | Non | Tableau des détails associés aux ressources qui ont généré des erreurs lorsque l’opération a tenté d’appliquer les mises à jour. |
+| Compte de succès | `xsd:int` | Oui | Nombre de champs d’image correctement définis. |
+| Nombre d’avertissements | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération a tenté de définir les champs d’image. |
+| Nombre d’erreurs | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération a tenté de définir les champs d’image. |
+| Tableau des détails de l’avertissement | `types:AssetOperationFaultArray` | Non | Tableau de détails associé aux ressources qui ont généré des avertissements lorsque l’opération a tenté d’appliquer les mises à jour. |
+| Tableau errorDetailArray | `types:AssetOperationFaultArray` | Non | Tableau de détails associé aux ressources qui ont généré des erreurs lorsque l’opération a tenté d’appliquer les mises à jour. |
 
 ## Exemples {#section-0476e3d6516a4f8bbaac9de983bc6d1e}
 
-Cet exemple définit les données dans les champs de deux images dans un tableau de mise à jour. Dans le tableau , les images sont spécifiées par leurs gestionnaires de ressources et contiennent une résolution en pixels, les coordonnées d’ancrage x et y, ainsi que les données utilisateur. La réponse indique que les champs des deux images ont été définis avec succès.
+Cet exemple définit les données dans les champs de deux images d’un tableau de mises à jour. Dans le tableau, les images sont spécifiées par leurs descripteurs de ressources et contiennent une résolution en pixels, les coordonnées d’ancrage des positions x et y et les données utilisateur. La réponse indique que les champs des deux images ont été correctement définis.
 
-**Requête**
+**Demander**
 
 ```java
 <batchSetImageFieldsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

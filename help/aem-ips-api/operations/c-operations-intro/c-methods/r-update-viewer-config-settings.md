@@ -1,7 +1,7 @@
 ---
-description: Met à jour les paramètres de configuration de la visionneuse de SWF.
+description: Met à jour les paramètres de configuration de la visionneuse SWF.
 solution: Experience Manager
-title: updateViewerConfigSettings
+title: Mettre à jour les paramètres de configuration de la visionneuse
 feature: Dynamic Media Classic,SDK/API,Viewer Presets
 role: Developer,Admin
 exl-id: 04565e2b-bda3-4ad0-afc1-2df01e455490
@@ -12,9 +12,9 @@ ht-degree: 15%
 
 ---
 
-# updateViewerConfigSettings{#updateviewerconfigsettings}
+# Mettre à jour les paramètres de configuration de la visionneuse{#updateviewerconfigsettings}
 
-Met à jour les paramètres de configuration de la visionneuse de SWF.
+Met à jour les paramètres de configuration de la visionneuse SWF.
 
 Syntaxe
 
@@ -31,10 +31,10 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Traitez la société. |
-| assetHandle | `xsd:string` | Oui | Poignée de ressource. |
-| configSettingArray | `types:ConfigSettingArray` | Oui | Tableau des paramètres de configuration à appliquer à la visionneuse. |
+| CompanyHandle | `xsd:string` | Oui | Manipuler à la société. |
+| AssetHandle | `xsd:string` | Oui | Gestion des ressources. |
+| Paramètre de configuration | `types:ConfigSettingArray` | Oui | Tableau des paramètres de configuration à appliquer à la visionneuse. |
 
-**Sortie (updateViewerConfigSettingsReturn)**
+**Output (updateViewerConfigSettingsReturn)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.

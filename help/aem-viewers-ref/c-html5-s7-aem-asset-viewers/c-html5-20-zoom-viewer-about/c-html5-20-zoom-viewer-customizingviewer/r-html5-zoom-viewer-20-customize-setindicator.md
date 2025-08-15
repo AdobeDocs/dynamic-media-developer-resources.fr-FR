@@ -1,6 +1,6 @@
 ---
-title: Indicateur de définition
-description: L’indicateur de définition est une série de points affichés au-dessus des échantillons lorsqu’une visionneuse est utilisée sur un appareil tactile. Les points aident les utilisateurs à parcourir les pages des miniatures lorsque les boutons de défilement ne sont pas disponibles.
+title: Définir l’indicateur
+description: L’indicateur défini est une série de points rendus au-dessus des échantillons lorsqu’une visionneuse est utilisée sur un appareil tactile. Les points aident les utilisateurs à naviguer dans les pages de vignettes lorsque les boutons de défilement ne sont pas disponibles.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 ---
 
-# Indicateur de définition{#set-indicator}
+# Définir l’indicateur{#set-indicator}
 
-L’indicateur de définition est une série de points affichés au-dessus des échantillons lorsqu’une visionneuse est utilisée sur un appareil tactile. Les points aident les utilisateurs à parcourir les pages des miniatures lorsque les boutons de défilement ne sont pas disponibles.
+L’indicateur défini est une série de points rendus au-dessus des échantillons lorsqu’une visionneuse est utilisée sur un appareil tactile. Les points aident les utilisateurs à naviguer dans les pages de vignettes lorsque les boutons de défilement ne sont pas disponibles.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **Propriétés CSS de l’indicateur défini**
 
-L’aspect du conteneur d’indicateur défini est contrôlé à l’aide du sélecteur de classe CSS suivant :
+L’aspect du conteneur indicateur défini est contrôlé par le sélecteur de classe CSS suivant :
 
 ```
 .s7zoomviewer .s7setindicator
@@ -29,19 +29,19 @@ L’aspect du conteneur d’indicateur défini est contrôlé à l’aide du sé
 <table id="table_94EE3F5BBE4547C0B4943471CEE7EDE4"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> propriété CSS </p> </th> 
+   <th colname="col1" class="entry"> <p> Propriété CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> couleur d’arrière-plan </span> </p> </td> 
    <td colname="col2"> <p>Couleur d’arrière-plan au format hexadécimal de l’indicateur défini. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : pour créer un indicateur d&#39;ensemble avec un arrière-plan blanc :
+Exemple - Pour créer un indicateur défini sur fond blanc :
 
 ```
 .s7zoomviewer .s7setindicator { 
@@ -49,58 +49,58 @@ Exemple : pour créer un indicateur d&#39;ensemble avec un arrière-plan blanc :
 }
 ```
 
-L’aspect d’un point indicateur de définition individuel est contrôlé à l’aide du sélecteur de classe CSS :
+L’aspect d’un point indicateur défini individuel est contrôlé par le sélecteur de classe CSS :
 
 `.s7zoomviewer .s7setindicator .s7dot`
 
 <table id="table_09B6E232FB94417392D101A7A653BE54"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p> propriété CSS </p> </th> 
+   <th colname="col1" class="entry"> <p> Propriété CSS </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> width </span> </p> </td> 
-   <td colname="col2"> <p>Largeur du point d’indicateur défini. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> Largeur </span> </p> </td> 
+   <td colname="col2"> <p>Largeur du point indicateur défini. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> height </span> </p> </td> 
-   <td colname="col2"> <p>Hauteur du point d’indicateur défini. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> hauteur </span> </p> </td> 
+   <td colname="col2"> <p>Hauteur du point indicateur défini. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-left </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge gauche </span> </p> </td> 
    <td colname="col2"> <p>Marge gauche en pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-top </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge haut </span> </p> </td> 
    <td colname="col2"> <p>Marge supérieure en pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-right </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge droite </span> </p> </td> 
    <td colname="col2"> <p>Marge droite en pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> margin-bottom </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> marge inférieure </span> </p> </td> 
    <td colname="col2"> <p>Marge inférieure en pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> border-radius </span> </p> </td> 
-   <td colname="col2"> <p>Rayon de la bordure en pixels. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> rayon de bordure </span> </p> </td> 
+   <td colname="col2"> <p>Rayon de bordure en pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> background-color </span> </p> </td> 
-   <td colname="col2"> <p>Couleur d’arrière-plan au format hexadécimal. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> couleur d’arrière-plan </span> </p> </td> 
+   <td colname="col2"> <p>Couleur de fond au format hexadécimal. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->L’indicateur Set prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la page actuelle des miniatures, `state="unselected"` correspond à l’état du point par défaut.
+>Le point indicateur défini prend en charge le sélecteur d’attributs `state` , qui peut être utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la page actuelle des miniatures, `state="unselected"` correspond à l’état de point par défaut.
 
-Exemple : pour créer un point d’indicateur fixe de 15 x 15 pixels, avec une marge horizontale de 2 pixels, une marge supérieure de 5 pixels, une marge inférieure de 1 pixel, un rayon de 12 pixels, #D5D3D3 couleur par défaut et #939393 couleur active :
+Exemple - Pour créer un point indicateur défini de 15 x 15 pixels, avec une marge horizontale de 2 pixels, une marge supérieure de 5 pixels, une marge inférieure de 1 pixel, un rayon de 12 pixels #D5D3D3 couleur par défaut et une couleur active #939393 :
 
 ```
 .s7zoomviewer .s7setindicator .s7dot { 

@@ -26,7 +26,7 @@ Syntaxe
 
 ## Paramètres {#section-7efa68377fd846219b906d354ae64ed3}
 
-**Entrée (removeFolderPermissionsParam)**
+**Input (removeFolderPermissionsParam)**
 
 <table id="table_15223256C63C4F008BDB1DF6F0AFE6A8"> 
  <thead> 
@@ -39,25 +39,25 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Gestion de l’entreprise avec les dossiers avec les autorisations à supprimer. </td> 
+   <td colname="col4"> L’identificateur de la société avec les dossiers avec les autorisations que vous souhaitez supprimer. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Gérer au dossier. </td> 
+   <td colname="col4"> Gérer vers le dossier . </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> updateChildren</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> <p>Lorsque <span class="codeph"> true</span> : 
+   <td colname="col4"> <p>Lorsque <span class="codeph"> est vrai </span> : 
      <ul id="ul_1305D060E0F34A61AA3C827E43F296E6"> 
-      <li id="li_AB8705F3CEAD4B8A8F1C28291A6F7EC8">La suppression des autorisations se propage par toutes les opérations d’autorisation de dossier. </li> 
-     </ul> </p> <p>Lorsque <span class="codeph"> false</span> : 
+      <li id="li_AB8705F3CEAD4B8A8F1C28291A6F7EC8">La suppression des autorisations se propage à toutes les opérations d’autorisation de dossier. </li> 
+     </ul> </p> <p>Lorsque la <span class="codeph"> est false </span> : 
      <ul id="ul_19AEE80F1FC84B64AD623E050C12A0CD"> 
       <li id="li_B8B78851004C43DB8CB7958E380AF510">L’opération affecte uniquement le dossier spécifié. </li> 
      </ul> </p> </td> 
@@ -65,7 +65,7 @@ Syntaxe
  </tbody> 
 </table>
 
-**Sortie (removeFolderPermissionsReturn)**
+**Output (removeFolderPermissionsReturn)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 

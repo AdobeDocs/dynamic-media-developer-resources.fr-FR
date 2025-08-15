@@ -1,7 +1,7 @@
 ---
-description: Tableau de mises à jour des autorisations.
+description: Gamme de mises à jour des autorisations.
 solution: Experience Manager
-title: PermissionUpdateArray
+title: Tableau de mise à jour des autorisations
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: eeff58a6-d6c0-4772-b735-5ba91afb61fc
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!DNL PermissionUpdateArray]{#permissionupdatearray}
 
-Tableau de mises à jour des autorisations.
+Gamme de mises à jour des autorisations.
 
 Syntaxe
 
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| éléments | `types:PermissionUpdateArray` | Le tableau de mise à jour des autorisations. |
+| éléments | `types:PermissionUpdateArray` | Tableau de mise à jour des autorisations. |

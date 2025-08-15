@@ -1,6 +1,6 @@
 ---
-title: printRes
-description: Résolution d’impression. Permet de remplacer la valeur de résolution d’impression incorporée dans l’image de réponse.
+title: Imprimer les répétitions
+description: Résolution d’impression. Remplace la valeur de résolution d’impression incorporée dans l’image de réponse.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,15 +12,15 @@ ht-degree: 1%
 
 ---
 
-# printRes{#printres}
+# Imprimer les répétitions{#printres}
 
-Résolution d’impression. Permet de remplacer la valeur de résolution d’impression incorporée dans l’image de réponse.
+Résolution d’impression. Remplace la valeur de résolution d’impression incorporée dans l’image de réponse.
 
-`printRes= *`val`*`
+`printRes= *`Val`*`
 
 <table id="simpletable_3B5576DD070547538E74D4059B3E8251"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> val</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> Val</span> </p> </td> 
   <td class="stentry"> <p>Résolution d’impression (ppp). </p></td> 
  </tr> 
 </table>
@@ -35,4 +35,4 @@ Peut être spécifié n’importe où dans la requête.
 
 ## Par défaut {#section-b482aa22ec0a4fba87b3f9007ab6d9ce}
 
-Résolution d’impression incorporée dans la vignette.
+Résolution d’impression incorporée dans le fichier vignette

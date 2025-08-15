@@ -29,7 +29,7 @@ Syntaxe
 
 ## Paramètres {#section-4dc888e77d974ac794b553616dd11e86}
 
-**Entrée (deleteAssetsParam)**
+**Input (deleteAssetsParam)**
 
 <table id="table_AAA6845769DB4B129C8A660D0CBA348A"> 
  <thead> 
@@ -42,10 +42,10 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle </span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Gestion de l’entreprise à laquelle appartiennent les actifs. </p> </td> 
+   <td colname="col4"> <p>Identifiant de la société à laquelle appartiennent les ressources. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
@@ -69,41 +69,41 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> successCount</span> </span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> successCount </span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Nombre de ressources supprimées avec succès. </p> </td> 
+   <td colname="col4"> <p>Nombre de ressources supprimées. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Ressources ayant généré un avertissement lorsque l’opération tentait de les supprimer. </p> </td> 
+   <td colname="col4"> <p>Ressources ayant généré un avertissement lorsque l’opération a tenté de les supprimer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorCount</span> </span> </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:int</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Ressources qui ont généré une erreur lorsque l’opération a tenté de les supprimer. </p> </td> 
+   <td colname="col4"> <p>Ressources ayant généré une erreur lorsque l’opération a tenté de les supprimer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:AssetOperationFaultArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> d’événements :AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>Non </p> </td> 
    <td colname="col4"> <p>Tableau de détails associés aux ressources qui ont généré un avertissement lorsque l’opération a tenté de les supprimer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:AssetOperationFaultArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> d’événements :AssetOperationFaultArray</span> </p> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Tableau des détails associés aux ressources qui ont généré une erreur lorsque l’opération a tenté de les supprimer. </p> </td> 
+   <td colname="col4"> <p>Tableau de détails associés aux ressources qui ont généré une erreur lorsque l’opération a tenté de les supprimer. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Exemples {#section-aaad1933bf86479eb6cb476cec7d4587}
 
-Cet exemple de code envoie une poignée à une entreprise et un tableau de gestionnaires de ressources dans une requête `deleteAssetsParam` au serveur de services Web. `deleteAssetsReturn` renvoie un nombre de succès de 2, indiquant que les deux ressources ont été supprimées.
+Cet exemple de code envoie un handle à une entreprise et un tableau de handles de ressources dans une requête `deleteAssetsParam` au serveur de services Web. `deleteAssetsReturn` renvoie un nombre de succès de 2, indiquant que les deux ressources ont été supprimées.
 
 **Requête**
 

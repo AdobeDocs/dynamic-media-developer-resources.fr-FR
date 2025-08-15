@@ -14,13 +14,13 @@ ht-degree: 15%
 
 # EmailShare.emailurl{#emailshare-emailurl}
 
-` [EmailShare.|<containerId>_emailShare.]emailurl= *`emailurl`*`
+` [EmailShare.|<containerId>_emailShare.]emailurl= *`URL de messagerie`*`
 
 <table id="table_5321841E90C941678F32AAF995CDC257"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> emailurl</span></span> </p> </td> 
-   <td colname="col2"> <p> Spécifie l’URL de base du service de messagerie Dynamic Media Classic OnDemand. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> URL de messagerie</span></span> </p> </td> 
+   <td colname="col2"> <p> Spécifie l’URL de base pour Dynamic Media service de messagerie OnDemand Classic. </p> </td> 
   </tr> 
  </tbody> 
 </table>

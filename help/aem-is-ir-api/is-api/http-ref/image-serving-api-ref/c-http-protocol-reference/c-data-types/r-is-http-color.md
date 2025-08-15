@@ -1,5 +1,5 @@
 ---
-description: Valeurs de couleur. Vous pouvez spécifier des valeurs de couleur à l’aide d’une notation hexadécimale, d’une liste de valeurs de composant séparées par des virgules ou de décimales.
+description: Valeurs de couleur. Vous pouvez spécifier des valeurs de couleur à l’aide d’une notation hexadécimale, d’une liste de valeurs de composants séparées par des virgules ou de décimales.
 solution: Experience Manager
 title: couleur
 feature: Dynamic Media Classic,SDK/API
@@ -14,74 +14,74 @@ ht-degree: 3%
 
 # couleur{#color}
 
-Valeurs de couleur. Vous pouvez spécifier des valeurs de couleur à l’aide d’une notation hexadécimale, d’une liste de valeurs de composant séparées par des virgules ou de décimales.
+Valeurs de couleur. Vous pouvez spécifier des valeurs de couleur à l’aide d’une notation hexadécimale, d’une liste de valeurs de composants séparées par des virgules ou de décimales.
 
 <table id="simpletable_9EBE66066E854ABE978F8F7ADC66BDE3"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> color</span> </span> </p></td> 
-  <td class="stentry"> <p> <span class="codeph">&lcub;&lcub;<span class="varname"> gray</span>[,<span class="varname"> alpha</span>][g]&rcub;|</span> </p> <p> <span class="codeph"> {<span class="varname"> red</span>,<span class="varname"> green</span>,<span class="varname"> blue</span>[ ,<span class="varname"> rgbAlpha</span>][r]}|</span> </p> <p> <span class="codeph"> {<span class="varname"> cyan</span>, <span class="varname"> magenta</span>, <span class="varname"> jaune</span>, <span class="varname"> noir</span>[,alpha]k}|</span> </p> <p> <span class="codeph"> {0x{hex2|hex4}[g]}|&lbrace;1</span> </p> <p> <span class="codeph">&lbrace;[0x]{<span class="varname"> hex6</span>|<span class="varname"> hex8</span>[r]}|</span> </p> <p> <span class="codeph"> {[0x]{<span class="varname"> hex8</span>|<span class="varname"> hex10</span>}k}&rcub;[s]</span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> Couleur</span> </span> </p></td> 
+  <td class="stentry"> <p> <span class="codeph">&amp;lcub ; &amp;lcub ;<span class="varname"> Gray</span>[,<span class="varname"> alpha</span>][g]&amp;rcub ;|</span> </p> <p> <span class="codeph"><span class="varname">{ rouge</span>,<span class="varname"> vert</span>,<span class="varname"> bleu</span>[ ,<span class="varname"> rgbAlpha</span>][r]}|</span> </p> <p> <span class="codeph"><span class="varname">{ cyan</span>, <span class="varname"> magenta</span>, <span class="varname"> jaune</span>, noir<span class="varname">[</span>,alpha]k}|</span> </p> <p> <span class="codeph"> {0x{hex2|hex4}[g]}|</span> </p> <p> <span class="codeph">{[0x]{<span class="varname"> hex6</span>|<span class="varname"> hex8</span>}[r]}|</span> </p> <p> <span class="codeph"> {[0x]{<span class="varname"> hex8</span>|<span class="varname"> hex10</span>}k}&amp;rcub;[s]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> rouge</span>, <span class="varname"> vert</span>, <span class="varname"> bleu</span>, <span class="varname"> rgbAlpha</span></span> </p> </td> 
-  <td class="stentry"> <p>valeur du composant de couleur (0...255, décimal int) </p> </td> 
+  <td class="stentry"> <p>valeur de la composante de couleur (0...255, nombre entier décimal) </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> cyan</span>, <span class="varname"> magenta</span>, <span class="varname"> jaune</span>, <span class="varname"> noir</span>, <span class="varname"> alpha</span></span> </p></td> 
-  <td class="stentry"> <p>Valeur du composant de couleur CMJN (0,100 %, décimal int) </p></td> 
+  <td class="stentry"> <p>Valeur de la composante de couleur CMJN (0..100 %, nombre décimal d’int) </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> gray</span>, <span class="varname"> alpha</span></span> </p> </td> 
-  <td class="stentry"> <p>valeur du composant de couleur grise (0...100 %, décimal int) </p> </td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"></span>gris, <span class="varname"> alpha</span></span> </p> </td> 
+  <td class="stentry"> <p>Valeur du composant de couleur grise (0... 100 %, décimal int) </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex2</span> </span> </p></td> 
-  <td class="stentry"> <p>valeur de couleur grise hexadécimale hexadécimale (GG) bondée de deux chiffres </p></td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> hex2</span> </span> </p></td> 
+  <td class="stentry"> <p>Valeur de couleur gris hexadécimale (GG) emballée à deux chiffres </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex4</span> </span> </p> </td> 
-  <td class="stentry"> <p>pack de quatre chiffres hex gray avec valeur de couleur alpha (GGAA) </p> </td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> hexadécimale4</span> </span> </p> </td> 
+  <td class="stentry"> <p>gris hexadécimal à quatre chiffres emballé avec valeur de couleur alpha (GGAA) </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex6</span> </span> </p> </td> 
-  <td class="stentry"> <p>valeur hexadécimale de RGB à six chiffres (RRGBB) compressée </p></td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> hexadécimale6</span> </span> </p> </td> 
+  <td class="stentry"> <p>Valeur colorimétrique RVB hexadécimale à six chiffres emballée (RRGGBB) </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex8</span> </span> </p> </td> 
-  <td class="stentry"> <p>valeur de couleur hexadécimale RGBA (RRGBBAA) ou CMJN (CCMYYKK) compressée à huit chiffres (si spécifiée avec le suffixe 'k') </p></td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> hexadécimale8</span> </span> </p> </td> 
+  <td class="stentry"> <p>Valeur colorimétrique RVBA hexadécimale emballée à huit chiffres (RRGGBBAA) ou CMJN (CCMMYYKK) (si spécifiée avec le suffixe « k ») </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> <span class="varname"> hex10</span> </span> </p></td> 
-  <td class="stentry"> <p>CMJN hexadécimal à dix chiffres avec valeur alpha (CCYMMKAA) </p> </td> 
+  <td class="stentry"> <p><span class="codeph"><span class="varname"> hexadécimal10</span> </span> </p></td> 
+  <td class="stentry"> <p>CMJN hexadécimal à dix chiffres emballé avec valeur alpha (CCYYMMKKAA) </p> </td> 
  </tr> 
 </table>
 
-Les valeurs des composants décimaux des couleurs du RGB sont comprises entre 0 et 255. Les valeurs des composants décimaux pour CMJN et gris se situent dans la plage 0,100 %. Toutes les valeurs du composant hexadécimal se trouvent dans la plage 0...0xFF.
+Les valeurs des composants décimaux pour les couleurs RVB sont comprises entre 0... 255. Les valeurs des composantes décimales pour les CMJN et les niveaux gris sont comprises entre 0 et 100 %. Toutes les valeurs des composants hexadécimaux sont comprises entre 0 et 0xFF.
 
-Les valeurs des composants de couleur sont supposées être indépendantes de la valeur alpha (non pré-multipliée).
+Les valeurs des composants de couleur sont supposées être indépendantes de la valeur alpha (non prémultipliée).
 
-Toutes les valeurs de couleur, préfixes et suffixes ne sont pas sensibles à la casse.
+Les valeurs, préfixes et suffixes de couleur ne sont pas sensibles à la casse.
 
-Le suffixe de type &quot;k&quot; est requis pour les valeurs de couleur CMJN. Vous pouvez éventuellement spécifier un suffixe de type pour les valeurs de couleur RGB et grise.
+Le suffixe de type « k » est requis pour les valeurs de couleur CMJN. Un suffixe de type peut éventuellement être spécifié pour les valeurs de couleurs RVB et grises.
 
-Le préfixe &quot;0x&quot; est requis pour les valeurs hexadécimales de gris.
+Le préfixe &#39;0x&#39; est requis pour les valeurs de couleur grise hexadécimales.
 
-Le suffixe &#39;s&#39; spécifie que la valeur de couleur est associée à l’espace colorimétrique d’entrée (source) correspondant au type de pixel de la valeur de couleur (défini avec `attribute::IccProfileSrc*`). Si ce suffixe n’est pas présent, la valeur de couleur est associée à l’espace colorimétrique de sortie (destination) (défini avec `icc=` ou `attribute::IccProfile*`).
+Le suffixe « s » indique que la valeur colorimétrique est associée à l’espace colorimétrique d’entrée (source) correspondant au type de pixel de la valeur colorimétrique (défini avec `attribute::IccProfileSrc*`). Si ce suffixe n’est pas présent, la valeur colorimétrique est associée à l’espace colorimétrique de sortie (de destination) (défini par `icc=` ou `attribute::IccProfile*`).
 
 ## Par défaut {#section-737082a7da544acca8092a48d88480e7}
 
-Si une valeur alpha n’est pas spécifiée explicitement, elle est supposée être de 255, 0xFF ou 100 % (totalement opaque).
+Si une valeur alpha n’est pas spécifiée explicitement, on suppose qu’elle est de 255, 0xFF ou 100 % (opaque complet).
 
 ## Exemples {#section-4ac69026349949f8b595a6d4a9ce474d}
 
-Voici quelques exemples de paramètres de couleurs valides, ainsi que le type de pixel, la valeur de couleur, la valeur alpha et l’espace colorimétrique par défaut correspondant :
+Quelques exemples de spécificateurs de couleurs valides, ainsi que le type de pixel, la valeur de couleur, la valeur alpha et l’espace colorimétrique par défaut correspondants :
 
 <table id="table_1539E74A1EC545F1B5398D86A27079D1"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> <i>color</i> </b> </th> 
+   <th class="entry"> <b><i>Couleur</i> </b> </th> 
    <th class="entry"> <b>Type de pixel</b> </th> 
-   <th class="entry"> <b>Valeur de couleur</b> </th> 
-   <th class="entry"> <b>Valeur d’Alpha</b> </th> 
+   <th class="entry"> <b>Valeur colorimétrique</b> </th> 
+   <th class="entry"> <b>Valeur alpha</b> </th> 
    <th class="entry"> <b>Espace colorimétrique par défaut </b> </th> 
   </tr> 
  </thead>
@@ -94,14 +94,14 @@ Voici quelques exemples de paramètres de couleurs valides, ainsi que le type de
    <td> <p> <span class="codeph"> IccProfileRgb</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>0 100 200 200 rs </p> </td> 
+   <td> <p>0,100,200,200rs </p> </td> 
    <td> <p>RVB </p> </td> 
    <td> <p>0 100 200 </p> </td> 
    <td> <p>200 </p> </td> 
    <td> <p> <span class="codeph"> IccProfileSrcRgb</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>0x010203S </p> </td> 
+   <td> <p>0 x 010203 S </p> </td> 
    <td> <p>RVB </p> </td> 
    <td> <p>1,2,3 </p> </td> 
    <td> <p>255 </p> </td> 
@@ -122,7 +122,7 @@ Voici quelques exemples de paramètres de couleurs valides, ainsi que le type de
    <td> <p> <span class="codeph"> IccProfileSrcGray</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>50,75g </p> </td> 
+   <td> <p>50,75 g </p> </td> 
    <td> <p>gris </p> </td> 
    <td> <p>50 % </p> </td> 
    <td> <p>75 % </p> </td> 
@@ -150,7 +150,7 @@ Voici quelques exemples de paramètres de couleurs valides, ainsi que le type de
    <td> <p> <span class="codeph"> IccProfileCmyk</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>22,23,24,25,26 KS </p> </td> 
+   <td> <p>22,23,24,25,26KS </p> </td> 
    <td> <p>CMJN </p> </td> 
    <td> <p>22-23-24-25 % </p> </td> 
    <td> <p>26 % </p> </td> 
@@ -173,4 +173,4 @@ Voici quelques exemples de paramètres de couleurs valides, ainsi que le type de
  </tbody> 
 </table>
 
-L’espace colorimétrique de sortie spécifié avec `icc=` s’applique à la place de l’espace colorimétrique par défaut lorsque le type de pixel d’une couleur de sortie correspond au type de pixel de l’image de sortie.
+L’espace colorimétrique de sortie spécifié avec `icc=` s’applique à la place de l’espace colorimétrique par défaut lorsque le type de pixel d’une couleur de sortie correspond au type de pixels de l’image de sortie.

@@ -34,10 +34,10 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| userHandle | `xsd:string` | Non | Gestionnaire de l’utilisateur. |
+| userHandle | `xsd:string` | Non | Poignée de l’utilisateur. |
 | companyHandle | `xsd:string` | Non | La poignée de la société. |
 
-**Sortie (getGroupMembershipReturn)**
+**Output (getGroupMembershipReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -45,7 +45,7 @@ Syntaxe
 
 ## Exemples {#section-ebb437369f4f4487b3eb2ef0c078b8ae}
 
-Cet exemple de code renvoie tous les membres d’un groupe. Comme les noms d’utilisateur et de société sont facultatifs, l’opération peut renvoyer tous les membres de tous les groupes.
+Cet exemple de code renvoie tous les membres d’un groupe. Les descripteurs d’entreprise et d’utilisateur étant facultatifs, l’opération peut renvoyer tous les membres de tous les groupes.
 
 **Requête**
 

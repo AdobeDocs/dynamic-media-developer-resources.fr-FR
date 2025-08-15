@@ -29,8 +29,8 @@ Supprime le format de publication d’une vignette.
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Poignée à la société à laquelle appartient la vignette. |
-| vignetteFormatHandle | `xsd:string` | Oui | La gestion du format de publication de la vignette à supprimer. |
+| CompanyHandle | `xsd:string` | Oui | Pseudo de l’entreprise à laquelle la vignette appartient. |
+| vignetteFormatHandle | `xsd:string` | Oui | Poignée du format de publication de la vignette à supprimer. |
 
 **Output (deleteVignettePublishFormatParam)**
 
@@ -38,9 +38,9 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-5ab2a314ad4c41ac8b3a24eaea7d8585}
 
-Cet exemple de code supprime le format de publication d’une vignette spécifié par sa poignée.
+Cet exemple de code supprime le format de publication de vignette spécifié par son descripteur.
 
-**Requête**
+**Demander**
 
 ```java
 <deleteVignettePublishFormatParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

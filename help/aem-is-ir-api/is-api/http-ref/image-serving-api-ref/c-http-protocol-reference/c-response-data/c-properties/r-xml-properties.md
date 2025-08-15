@@ -1,5 +1,5 @@
 ---
-description: Si xml est spécifié comme format de réponse, les données de réponse sont formatées sous la forme d'un document XML qui peut être analysé par un analyseur XML standard.
+description: Si xml est spécifié comme format de réponse, les données de réponse sont formatées sous la forme d’un document XML qui peut être analysé par n’importe quel analyseur XML standard.
 solution: Experience Manager
 title: Propriétés XML
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Propriétés XML{#xml-properties}
 
-Si xml est spécifié comme format de réponse, les données de réponse sont formatées sous la forme d&#39;un document XML qui peut être analysé par un analyseur XML standard.
+Si xml est spécifié comme format de réponse, les données de réponse sont formatées sous la forme d’un document XML qui peut être analysé par n’importe quel analyseur XML standard.
 
-Un document de réponse de propriétés standard présente la structure générale suivante :
+Un document de réponse de propriétés standard possède la structure générale suivante :
 
 ```
 <?xml version="1.0" encoding="UTF-8" ?>
@@ -38,8 +38,8 @@ Un document de réponse de propriétés standard présente la structure généra
 </prop-group>
 ```
 
-L’élément `<prop-group>` est utilisé comme conteneur le plus éloigné et pour regrouper les propriétés. Si un groupe est nommé, le nom correspond au nom de l’objet Java/JavaScript.
+L’élément `<prop-group>` est utilisé comme conteneur le plus à l’extérieur et pour les propriétés de regroupement. Si un groupe est nommé , le nom correspond au nom de l’objet Java/JavaScript.
 
 >[!NOTE]
 >
->Le codage des caractères peut être spécifié pour certains types `req=`. Pour plus d&#39;informations, consultez la description de la commande `req=`spécifique.
+>L’encodage des caractères peut être spécifié pour certains types de `req=`. Reportez-vous à la description de la commande `req=` spécifique pour plus d’informations.

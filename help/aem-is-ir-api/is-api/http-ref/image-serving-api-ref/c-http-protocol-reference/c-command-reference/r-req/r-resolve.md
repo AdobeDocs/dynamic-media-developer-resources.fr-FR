@@ -1,6 +1,6 @@
 ---
 title: résoudre
-description: Requête de débogage. Cette commande de débogage analyse et prétraite la requête, exécute les recherches de catalogue d’images, les inclusions de modificateurs de catalogue, les substitutions de macro et de variable, etc., comme req=img.
+description: Requête de débogage. Cette commande de débogage analyse et prétraite la requête, exécute des recherches de catalogue d’images, des inclusions de modificateur de catalogue, des substitutions de macro et de variable, etc., tout comme req=img.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,10 +14,10 @@ ht-degree: 2%
 
 # résoudre{#resolve}
 
-Requête de débogage. Cette commande de débogage analyse et prétraite la requête, exécute les recherches de catalogue d’images, catalogues::Inclusions de modificateurs, substitutions de macros et de variables, etc., comme req=img.
+Requête de débogage. Cette commande de débogage analyse et prétraite la requête, exécute des recherches de catalogue d’images, des inclusions catalog::Modifier, des substitutions de macro et de variable, etc., tout comme req=img.
 
 `req=resolve`
 
-La chaîne de requête finale est renvoyée, au lieu de l’image de résultat, avec le type MIME `text/plain`.
+La dernière chaîne de requête est renvoyée, à la place de l’image obtenue, avec le type MIME `text/plain`.
 
 La réponse HTTP ne peut pas être mise en cache.

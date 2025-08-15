@@ -1,6 +1,6 @@
 ---
-title: grout
-description: Couleur et épaisseur du sol en mosaïque. Simule le grout pour les tuiles en céramique et en pierre naturelle.
+title: coulis
+description: Couleur et épaisseur du coulis de tuile. Simule le coulis pour les carreaux de céramique et de pierre naturelle.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,39 +12,39 @@ ht-degree: 1%
 
 ---
 
-# grout {#grout}
+# coulis {#grout}
 
-Couleur et épaisseur du sol en mosaïque. Simule le grout pour les tuiles en céramique et en pierre naturelle.
+Couleur et épaisseur du coulis de tuile. Simule le coulis pour les carreaux de céramique et de pierre naturelle.
 
 grout= *`color`*[,*`width`*]
 
 <table id="simpletable_302B78CFC8F14E0F962D1D2064AD1371"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> color </span> </span> </p> </td>
-  <td class="stentry"> <p>Couleur du sol (gris ou RGB). </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> couleur </span> </span> </p> </td>
+  <td class="stentry"> <p>Couleur du coulis (gris ou RGB). </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> width </span> </span> </p> </td>
-  <td class="stentry"> <p>Epaisseur du sol ; unités de coordonnées de scène (généralement pouces) (réelles). </p> </td>
+  <td class="stentry"> <p> <span class="codeph"> largeur <span class="varname"> </span> </span> </p> </td>
+  <td class="stentry"> <p>Épaisseur du coulis ; unités de coordonnées de la scène (généralement pouces) (réel). </p> </td>
  </tr> 
 </table>
 
-Pour un contrôle maximal de l’apparence du groupe, les exigences suivantes s’appliquent :
+Pour un contrôle maximal de l&#39;aspect du coulis, les exigences suivantes s&#39;appliquent :
 
-* La mosaïque doit être carrée ou rectangulaire ; aucune autre forme n’est actuellement prise en charge.
+* La mosaïque doit être carrée ou rectangulaire ; aucune autre forme n&#39;est actuellement prise en charge.
 * L’image ne doit contenir qu’une seule mosaïque.
-* Le motif par défaut de l’image (le cas échéant) doit avoir la même épaisseur sur les quatre bords.
-* L&#39;épaisseur du sol par défaut doit être spécifiée dans le catalogue de matériaux ( `catalog::GroutWidth`).
+* Le coulis par défaut de l&#39;image (le cas échéant) doit avoir la même épaisseur sur les quatre bords.
+* L&#39;épaisseur du coulis par défaut doit être indiquée dans le catalogue des matériaux (`catalog::GroutWidth`).
 
 ## Propriétés {#section-de78b678245b4ffda48097c345949e77}
 
-Attribut de matière. `*`color`*` Doit être une valeur de couleur RGB. `*`width`*` doit être une valeur réelle de 0 ou supérieure.
+Attribut Material. `*`color`*` Doit être une valeur de couleur RGB. `*`width`*` doit être une valeur réelle égale ou supérieure à 0.
 
-Ignoré si repeat = 4, 5, 7, 8, 9, 14 ou supérieur, ou lorsqu’il est spécifié pour des matières autres que des textures répétables.
+Ignoré si répétition = 4, 5, 7, 8, 9, 14 ou supérieur, ou si spécifié pour des matériaux autres que des textures répétables.
 
 ## Par défaut {#section-bfab3621f70b4489a21994ab11b20cc6}
 
-Si `grout=` n’est pas spécifié, le grain de l’image n’est pas modifié. Si `grout= *`color`*` est spécifié, `*`width`*` est défini par défaut sur `catalog::GroutWidth`.
+Si `grout=` n’est pas spécifié, le coulis de l’image n’est pas modifié. Si `grout= *`color`*` est spécifié, `*`width`*` est défini par défaut sur `catalog::GroutWidth`.
 
 ## Voir aussi {#section-8d472906a44943f5a8557e98f2fbc71f}
 

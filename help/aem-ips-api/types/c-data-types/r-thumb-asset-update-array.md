@@ -1,5 +1,5 @@
 ---
-description: Mise à jour des métadonnées pour les ressources principales.
+description: Mise à jour des métadonnées des ressources de pouces.
 solution: Experience Manager
 title: ThumbAssetUpdateArray
 feature: Dynamic Media Classic,SDK/API,Asset Management
@@ -14,7 +14,7 @@ ht-degree: 24%
 
 # [!DNL ThumbAssetUpdateArray]{#thumbassetupdatearray}
 
-Mise à jour des métadonnées pour les ressources principales.
+Mise à jour des métadonnées des ressources de pouces.
 
 Syntaxe
 
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| éléments | `types:ThumbAssetUpdates` | Tableau de mises à jour de ressources de base. |
+| éléments | `types:ThumbAssetUpdates` | Tableau de mises à jour des ressources de pouce. |

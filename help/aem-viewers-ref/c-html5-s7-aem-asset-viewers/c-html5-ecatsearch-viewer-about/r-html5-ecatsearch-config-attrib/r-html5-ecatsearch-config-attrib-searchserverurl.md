@@ -1,7 +1,7 @@
 ---
-description: searchServerUrl
+description: URL du serveur de recherche
 solution: Experience Manager
-title: searchServerUrl
+title: URL du serveur de recherche
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 9ef8040f-1ea0-434d-ad00-3ef863448cb7
@@ -12,15 +12,15 @@ ht-degree: 10%
 
 ---
 
-# searchServerUrl{#searchserverurl}
+# URL du serveur de recherche{#searchserverurl}
 
-[!DNL `searchServerUrl= *`searchServerUrl`*`]
+[!DNL `searchServerUrl= *`URL du serveur de recherche`*`]
 
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> searchServerUrl</span> </span> </p> </td> 
-   <td colname="col2"> <p> Chemin racine du service de recherche. Si aucun domaine n’est spécifié, le domaine à partir duquel la visionneuse est diffusée est utilisé. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname">URL</span> du serveur de recherche </span> </p> </td> 
+   <td colname="col2"> <p> Search chemin racine du service. Si aucun domaine n’est spécifié, le domaine à partir duquel la visionneuse est diffusée est utilisé. </p> </td> 
   </tr> 
  </tbody> 
 </table>

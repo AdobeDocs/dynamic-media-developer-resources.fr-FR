@@ -1,5 +1,5 @@
 ---
-description: Contient les paramètres relatifs à la gestion des catalogues d’images.
+description: Contient les paramètres liés à la gestion des catalogues d’images.
 solution: Experience Manager
 title: catalog-server.conf
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # catalog-server.conf{#catalog-server-conf}
 
-Contient les paramètres relatifs à la gestion des catalogues d’images.
+Contient les paramètres liés à la gestion des catalogues d’images.
 
-Ce fichier est un fichier de propriétés JAVA. Il faut veiller à respecter les conventions appropriées ; sinon, le [!DNL Platform Server] risque de ne pas démarrer. Utilisez une double barre oblique inverse &quot;\\&quot; ou une seule barre oblique inverse &quot;/&quot; au lieu d’une barre oblique inverse &quot;\&quot; dans les chemins d’accès aux fichiers Windows. La barre oblique inverse est utilisée comme caractère d’échappement dans ce type de fichier.
+Ce fichier est un fichier de propriétés JAVA. Il faut veiller à respecter les conventions appropriées, faute de quoi la [!DNL Platform Server] risque de ne pas démarrer. Utilisez une double barre oblique inverse &#39;\\&#39; ou une seule barre oblique inverse &#39;/&#39; au lieu d’une barre oblique inverse &#39;\&#39; dans les chemins d’accès aux fichiers Windows. La barre oblique inverse est utilisée comme caractère d’échappement dans ce type de fichier.
 
-Les modifications apportées à ce fichier prennent effet peu de temps après l’enregistrement du fichier.
+Les modifications apportées à ce fichier prennent effet peu de temps après son enregistrement.
 
-Seuls les paramètres répertoriés ci-dessous peuvent être modifiés dans [!DNL catalog-service.conf]. Si un paramètre particulier est absent, il peut être ajouté n’importe où dans le fichier . Une seule instance de chaque paramètre peut être présente.
+Seuls les paramètres répertoriés ci-dessous peuvent être modifiés dans [!DNL catalog-service.conf]. Si un paramètre particulier est absent, il peut être ajouté n’importe où dans le fichier. Une seule instance de chaque paramètre peut être présente.
 
 `catalog.rootPath=./catalog`
 

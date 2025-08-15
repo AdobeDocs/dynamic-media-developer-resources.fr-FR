@@ -1,7 +1,7 @@
 ---
-description: Propriétés de la ressource de police.
+description: Propriétés de ressource de police.
 solution: Experience Manager
-title: FontInfo
+title: Infos sur la police
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1ad2c3b4-32b1-4f39-869e-85ff5a0c734c
@@ -14,7 +14,7 @@ ht-degree: 23%
 
 # [!DNL FontInfo]{#fontinfo}
 
-Propriétés de la ressource de police.
+Propriétés de ressource de police.
 
 Syntaxe
 
@@ -22,6 +22,6 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| originalPath | `xsd:string` | Chemin d’accès aux polices. |
-| originalFile | `xsd:string` | Nom de la police. |
-| fileSize | `xsd:int` | Taille de police. |
+| Chemin d’origine | `xsd:string` | Chemin de la police. |
+| Fichier d’origine | `xsd:string` | Nom de la police. |
+| Taille du fichier | `xsd:int` | Taille de police. |

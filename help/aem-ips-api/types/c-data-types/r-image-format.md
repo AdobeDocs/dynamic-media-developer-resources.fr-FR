@@ -1,7 +1,7 @@
 ---
-description: Jeu de paramètres de sortie d’image non structuré.
+description: Ensemble nommé non structuré de paramètres de sortie d’image.
 solution: Experience Manager
-title: ImageFormat
+title: Format d’image
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 570ada53-17d0-4c8a-8843-ace29de92bf3
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # [!DNL ImageFormat]{#imageformat}
 
-Jeu de paramètres de sortie d’image non structuré.
+Ensemble nommé non structuré de paramètres de sortie d’image.
 
 Pas un type de ressource.
 
@@ -22,6 +22,6 @@ Pas un type de ressource.
 
 | Nom | Type | Description |
 |---|---|---|
-| imageFormatHandle | `xsd:string` | Poignée de format d’image. |
+| Poignée en format d’image | `xsd:string` | Poignée de format d’image. |
 | nom | `xsd:string` | Nom du format d’image. |
-| urlModifier | `xsd:string` | URL du serveur d’images représentant le format d’image. |
+| Modificateur d’url | `xsd:string` | URL du serveur d’images représentant le format d’image. |

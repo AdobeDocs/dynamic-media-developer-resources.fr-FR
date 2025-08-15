@@ -32,7 +32,7 @@ Syntaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> forcePublish</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
-   <td colname="col3">Définissez cette variable sur <span class="codeph"> True</span> pour publier à nouveau les données <i>all</i> sur le serveur de métadonnées. <p>Remarque : Selon la quantité de données, cette opération peut prendre plusieurs minutes à quelques heures. </p><p>Ne définissez pas ce paramètre si vous souhaitez publier des métadonnées nouvelles ou modifiées uniquement. </p></td> 
+   <td colname="col3">Définissez sur <span class="codeph"> True </span> pour publier à nouveau <i>toutes</i> les données sur le serveur de métadonnées. <p>Remarque : selon la quantité de données, cette opération peut prendre de quelques minutes à quelques heures. </p><p>Ne définissez pas ce paramètre si vous souhaitez publier uniquement les métadonnées nouvelles ou modifiées. </p></td> 
   </tr> 
  </tbody> 
 </table>

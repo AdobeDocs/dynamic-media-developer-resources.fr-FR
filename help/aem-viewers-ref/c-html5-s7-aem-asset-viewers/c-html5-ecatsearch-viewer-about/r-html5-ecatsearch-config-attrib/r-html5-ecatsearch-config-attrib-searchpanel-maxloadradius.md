@@ -20,7 +20,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>Indique le comportement de préchargement du composant. </p> <p>Lorsqu’elle est définie sur <span class="codeph"> -1</span>, toutes les miniatures sont chargées simultanément lorsque le composant est initialisé ou que la ressource change. </p> <p> Lorsque la valeur est définie sur <span class="codeph"> 0</span>, seules les miniatures visibles sont chargées. </p> <p>Définissez <span class="codeph"><span class="varname"> preloadnbr</span></span> pour définir le nombre de lignes invisibles autour de la zone visible qui sont préchargées. </p> </td> 
+   <td colname="col2"> <p>Spécifie le comportement de préchargement du composant. </p> <p>Lorsqu’elle est définie sur <span class="codeph"> -1</span> , toutes les vignettes sont chargées simultanément lorsque le composant est initialisé ou que la ressource change. </p> <p> Lorsque la valeur est <span class="codeph"></span> 0, seules les vignettes visibles sont chargées. </p> <p>Définissez <span class="codeph"><span class="varname"> preloadnbr</span></span> pour définir le nombre de lignes invisibles autour de la zone visible qui sont préchargées. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,5 +1,5 @@
 ---
-description: Vérifie si un utilisateur disposant d’une société spécifique (identifié par son nom d’utilisateur), de son adresse électronique et de son mot de passe peut se connecter.
+description: Vérifie si un utilisateur disposant d’une société spécifique (identifiée par un nom, une adresse e-mail et un mot de passe) peut se connecter.
 solution: Experience Manager
 title: checkLogin
 feature: Dynamic Media Classic,SDK/API
@@ -14,11 +14,11 @@ ht-degree: 11%
 
 # checkLogin{#checklogin}
 
-Vérifie si un utilisateur disposant d’une société spécifique (identifié par son nom d’utilisateur), de son adresse électronique et de son mot de passe peut se connecter.
+Vérifie si un utilisateur disposant d’une société spécifique (identifiée par un nom, une adresse e-mail et un mot de passe) peut se connecter.
 
 >[!NOTE]
 >
->Si l’identifiant de l’entreprise est omis, cette méthode vérifie la connexion de l’utilisateur par défaut.
+>Si l’identificateur d’entreprise est omis, cette méthode vérifie la connexion de l’utilisateur par défaut.
 
 ## Types d’utilisateurs autorisés {#section-df8b26b550854f899948276adaca083a}
 
@@ -34,23 +34,23 @@ Vérifie si un utilisateur disposant d’une société spécifique (identifié p
 
 ## Paramètres {#section-1ad4c0b4803b4388aedd655030676cb3}
 
-**Entrée (checkLoginParam)**
+**Input (checkLoginParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Non | Gestionnaire de la société qui contient l’utilisateur. |
-| e-mail | `xsd:string` | Oui | Adresse électronique de l’utilisateur. |
+| companyHandle | `xsd:string` | Non | Identifiant de la société qui contient l’utilisateur. |
+| e-mail | `xsd:string` | Oui | Adresse e-mail de l’utilisateur. |
 | mot de passe | `xsd:string` | Oui | Mot de passe de l’utilisateur. |
 
 **Output (checkLoginParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| état | `xsd:string` | Oui | État de connexion de l’utilisateur. |
+| état | `xsd:string` | Oui | Statut de connexion de l’utilisateur. |
 
 ## Exemples {#section-23f90100a9d94bc7b4045634cccd1b98}
 
-Cet exemple de code utilise un paramètre de nom d’entreprise, une adresse électronique et un mot de passe pour déterminer si un utilisateur peut se connecter à IPS. Si l’utilisateur *can* se connecte, cette méthode renvoie la chaîne `ValidLogin`. Si l’utilisateur *ne peut pas* se connecter, cette méthode renvoie la chaîne `InvalidLogin`.
+Cet exemple de code utilise un paramètre de gestion d’entreprise, une adresse e-mail et un mot de passe pour déterminer si un utilisateur peut se connecter à IPS. Si l’utilisateur *peut* se connecter, cette méthode renvoie la chaîne `ValidLogin`. Si l’utilisateur *ne peut pas* se connecter, cette méthode renvoie la chaîne `InvalidLogin`.
 
 **Requête**
 

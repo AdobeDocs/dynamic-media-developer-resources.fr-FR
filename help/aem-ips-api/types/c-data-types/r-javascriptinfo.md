@@ -1,5 +1,5 @@
 ---
-description: Propriétés d’un fichier JavaScript.
+description: Propriétés d’une ressource de fichier JavaScript.
 solution: Experience Manager
 title: JavascriptInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # [!DNL JavascriptInfo]{#javascriptinfo}
 
-Propriétés d’un fichier JavaScript.
+Propriétés d’une ressource de fichier JavaScript.
 
 Syntaxe
 
@@ -22,6 +22,6 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| originalPath | `xsd:string` | Chemin du fichier JavaScript. |
+| originalPath | `xsd:string` | Chemin d’accès au fichier JavaScript. |
 | originalFile | `xsd:string` | Nom du fichier. |
-| fileSize | `xsd:int` | Taille de fichier. |
+| fileSize | `xsd:int` | Taille du fichier. |

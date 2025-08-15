@@ -1,6 +1,6 @@
 ---
 title: getAssets
-description: Renvoie les ressources du système de production d’images (IPS).
+description: Renvoie les ressources de l’IPS (Image Production System).
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # getAssets{#getassets}
 
-Renvoie les ressources du système de production d’images (IPS).
+Renvoie les ressources de l’IPS (Image Production System).
 
 Syntaxe
 
@@ -49,45 +49,45 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> CompanyHandle</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd :chaîne</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Le gérant de l'entreprise. </p> </td> 
+   <td colname="col4"> <p>Gérez l’entreprise. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> accessUserHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> AccessUserHandle</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd :chaîne</span> </p> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Empruntez l’identité d’un utilisateur spécifique. Utilisé par les administrateurs uniquement. </p> </td> 
+   <td colname="col4"> <p>Empruntez l’identité d’un utilisateur spécifique. Utilisé par des administrateurs uniquement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> accessGroupHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> Poignée accessGroupHandle</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd :chaîne</span> </p> </td> 
    <td colname="col3"> <p>Non </p> </td> 
    <td colname="col4"> <p>Filtrer par groupe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetHandleArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd:HandleArray</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> assetHandleArray</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd :HandleArray</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Le dossier racine pour récupérer les dossiers et tous les sous-dossiers au niveau de la feuille. Si elle est exclue, la racine de l’entreprise est utilisée. </p> </td> 
+   <td colname="col4"> <p>Dossier racine pour récupérer les dossiers et tous les sous-dossiers au niveau feuille. Si elle est exclue, la racine de l’entreprise est utilisée. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> responseFieldArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:StringArray</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> Réseau responseFieldArray</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types :StringArray</span> </p> </td> 
    <td colname="col3"> <p>Non </p> </td> 
    <td colname="col4"> <p>Champs et sous-champs inclus dans la réponse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> excludeFieldArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:StringArray</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> excludeFieldArray</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types :StringArray</span> </p> </td> 
    <td colname="col3"> <p> </p> </td> 
-   <td colname="col4"> <p>Champs et sous-champs qui sont exclus de la réponse. </p> </td> 
+   <td colname="col4"> <p>Champs et sous-champs exclus de la réponse. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Sortie (getAssetsReturn)**
+**Output (getAssetsReturn)**
 
 <table id="table_694932BBBD2C4167871380B2CF514BEA"> 
  <thead> 
@@ -100,10 +100,10 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"> <span class="varname"> assetArray</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types:AssetArray</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> Tableau d’actifs</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types :AssetArray</span> </p> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Tableau des ressources correspondant aux critères de filtrage. </p> </td> 
+   <td colname="col4"> <p>Tableau de ressources répondant aux critères de filtrage. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,6 +1,6 @@
 ---
 title: IccProfileCmyk
-description: Espace colorimétrique CMJN par défaut. Indique le nom du profil de couleurs ICC à utiliser pour les images de réponse en niveaux de gris lorsqu’aucun espace colorimétrique de sortie n’est spécifié avec icc=.
+description: Espace colorimétrique CMJN par défaut. Indique le nom du profil colorimétrique ICC à utiliser pour les images de réponse en niveaux de gris lorsqu’aucun espace colorimétrique de sortie n’est spécifié avec icc=.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 2%
 
 # IccProfileCmyk{#iccprofilecmyk}
 
-Espace colorimétrique CMJN par défaut. Indique le nom du profil de couleurs ICC à utiliser pour les images de réponse en niveaux de gris lorsqu’aucun espace colorimétrique de sortie n’est spécifié avec `icc=`.
+Espace colorimétrique CMJN par défaut. Indique le nom du profil colorimétrique ICC à utiliser pour les images de réponse en niveaux de gris lorsqu’aucun espace colorimétrique de sortie n’est spécifié avec `icc=`.
 
 ## Propriétés {#section-849678b272954bdcb236f49aa54f1609}
 
-Chaîne de texte. Si spécifié, doit être une valeur `icc::Name` valide provenant de la carte de profil ICC de ce catalogue d’images ou du catalogue par défaut, ou un chemin d’accès au fichier relatif à `attribute::RootPath`. Le profil ICC référencé doit être un profil CMJN.
+Chaîne de texte. Si spécifié, doit être une valeur de `icc::Name` valide de la carte de profil ICC de ce catalogue d’images ou du catalogue par défaut, ou un chemin d’accès au fichier relatif à `attribute::RootPath`. Le profil ICC référencé doit être un profil CMJN.
 
 ## Par défaut {#section-55026b7454af4d868bcb47f7743c9c5b}
 
-Hérité de `default::IccProfileCmyk` si elle n’est pas définie ou si elle est vide.
+Hérité de `default::IccProfileCmyk` si non défini ou si vide.
 
 ## Voir aussi {#section-89feb193693b43dc99a2107658d57154}
 

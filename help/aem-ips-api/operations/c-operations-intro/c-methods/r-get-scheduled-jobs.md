@@ -31,15 +31,15 @@ Syntaxe
 
 ## Paramètres {#section-2af604ff8282460990b9237158187f8f}
 
-**Entrée (getScheduledJobsParam)**
+**Input (getScheduledJobsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Oui | La poignée de la société. |
-| jobHandle | `xsd:string` | Non | Poignée de tâche. |
+| jobHandle | `xsd:string` | Non | Traitement du traitement. |
 | originalName | `xsd:string` | Non | Nom spécifié par `submitJob`. |
 
-**Sortie (getScheduledJobsReturn)**
+**Output (getScheduledJobsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
@@ -47,7 +47,7 @@ Syntaxe
 
 ## Exemples {#section-e79e7da86ba848fd9996aa36de462e6c}
 
-Cet exemple de code renvoie toutes les tâches planifiées d’un tableau de tâches. Le tableau lui-même contient des informations détaillées sur les tâches.
+Cet exemple de code renvoie toutes les tâches planifiées dans un tableau de tâches. Le tableau lui-même contient des informations détaillées sur les tâches.
 
 **Requête**
 

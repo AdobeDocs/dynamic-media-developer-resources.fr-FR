@@ -1,7 +1,7 @@
 ---
-description: Propriétés d’une ressource de fichier de SVG.
+description: Propriétés d’une ressource de fichier SVG.
 solution: Experience Manager
-title: SvgInfo
+title: Infos SVG
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b79b06e4-028b-4e04-a554-0c859144dd46
@@ -14,7 +14,7 @@ ht-degree: 18%
 
 # [!DNL SvgInfo]{#svginfo}
 
-Propriétés d’une ressource de fichier de SVG.
+Propriétés d’une ressource de fichier SVG.
 
 Syntaxe
 
@@ -22,6 +22,6 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| originalPath | `xsd:string` | Chemin du fichier. |
-| originalFile | `xsd:string` | Nom du fichier. |
-| fileSize | `xsd:int` | Taille de fichier. |
+| Chemin d’origine | `xsd:string` | Chemin du fichier. |
+| Fichier d’origine | `xsd:string` | Nom du fichier. |
+| Taille du fichier | `xsd:int` | Taille de fichier. |

@@ -33,12 +33,12 @@ Syntaxe
 
 ## Paramètres {#section-0eed164e278b456fbdfb7a50727a0416}
 
-**Entrée (deleteAssetParam)**
+**Input (deleteAssetParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gestionnaire de la société à laquelle appartient le dossier. |
-| assetHandle | `xsd:string` | Oui | Gestionnaire de la ressource à supprimer. |
+| companyHandle | `xsd:string` | Oui | Identifiant de la société à laquelle appartient le dossier. |
+| assetHandle | `xsd:string` | Oui | Descripteur de la ressource à supprimer. |
 
 **Output (deleteAssetParam)**
 
@@ -46,7 +46,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-d5657289f5234bb0a613dcf691507958}
 
-Cet exemple de code supprime tout type de ressource d’une société spécifique. Elle nécessite un gestionnaire de ressources, que vous devez obtenir d’une autre opération.
+Cet exemple de code supprime n’importe quel type de ressource d’une société spécifique. Elle nécessite un handle de ressource, que vous devez obtenir à partir d’une autre opération.
 
 **Requête**
 

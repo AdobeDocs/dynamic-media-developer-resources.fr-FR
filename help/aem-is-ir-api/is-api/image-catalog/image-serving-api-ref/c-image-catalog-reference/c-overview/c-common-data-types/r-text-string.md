@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Type de données de chaîne de texte.
 
-Les délimiteurs de chaîne sont facultatifs, sauf si la chaîne contient des caractères `<CR>`, `<LF>` ou `<TAB>`. Des guillemets simples ou doubles peuvent être utilisés comme délimiteurs. Si des guillemets sont utilisés, tout guillemet incorporé dans la chaîne doit être placé dans une séquence d’échappement à l’aide de deux guillemets consécutifs (par exemple, le guillemet spécial du mois en cours).
+Les délimiteurs de chaîne sont facultatifs, sauf si la chaîne contient des caractères ou `<CR>``<LF>` des `<TAB>`caractères. Les guillemets simples ou doubles peuvent être utilisés comme délimiteurs. Si des guillemets sont utilisés, ces guillemets incorporés dans la chaîne doivent être précédés de deux guillemets consécutifs (par exemple, Spécial du mois).

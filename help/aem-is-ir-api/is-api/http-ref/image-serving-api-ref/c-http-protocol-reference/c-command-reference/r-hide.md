@@ -1,6 +1,6 @@
 ---
 title: masquer
-description: Masquer le calque Permet de masquer un calque sans le supprimer de la chaîne de requête.
+description: Masquer le calque. Permet de masquer un calque sans le supprimer de la chaîne de requête.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 6%
 
 # masquer{#hide}
 
-Masquer le calque Permet de masquer un calque sans le supprimer de la chaîne de requête.
+Masquer le calque. Permet de masquer un calque sans le supprimer de la chaîne de requête.
 
 `hide=0|1`
 

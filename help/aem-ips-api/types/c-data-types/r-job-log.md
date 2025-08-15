@@ -1,5 +1,5 @@
 ---
-description: Journal des tâches une fois la tâche exécutée.
+description: Le log de traitement une fois le traitement exécuté.
 solution: Experience Manager
 title: JobLog
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # [!DNL JobLog]{#joblog}
 
-Journal des tâches une fois la tâche exécutée.
+Le log de traitement une fois le traitement exécuté.
 
 Syntaxe
 
@@ -22,25 +22,25 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| companyHandle | `xsd:string` | Poignée de la société. |
-| jobHandle | `xsd:string` | Poignée de tâche. |
-| jobName | `xsd:string` | Nom de la tâche. |
-| originalJobName | `xsd:string` | Nom original envoyé pour la tâche avec `submitJob`. |
-| submitUserEmail | `xsd:string` | Adresse électronique de l’utilisateur qui a envoyé la tâche. |
+| companyHandle | `xsd:string` | Identifiant de la société. |
+| jobHandle | `xsd:string` | Traitement du traitement. |
+| jobName | `xsd:string` | Nom du traitement. |
+| originalJobName | `xsd:string` | Nom d’origine envoyé pour la tâche avec `submitJob`. |
+| submitUserEmail | `xsd:string` | Adresse e-mail de l’utilisateur qui a envoyé le traitement. |
 | logType | `xsd:string` | Choix des types de logs de traitement. |
-| jobSubType | `xsd:string` | Informations supplémentaires sur la tâche. |
+| jobSubType | `xsd:string` | Informations supplémentaires sur le travail. |
 | startDate | `xsd:dateTime` | Date, heure et fuseau horaire de début de la tâche. |
 | endDate | `xsd:dateTime` | Date, heure et fuseau horaire de fin de la tâche. |
-| [!DNL description] | `xsd:string` | Description de la tâche telle qu’elle a été initialement spécifiée dans `submitJob`. |
-| fileSuccessCount | `xsd:int` | Nombre de fichiers traités avec succès. |
-| fileErrorCount | `xsd:int` | Nombre de fichiers qui ont provoqué une erreur. |
+| [!DNL description] | `xsd:string` | Description du traitement telle qu’initialement spécifiée dans `submitJob`. |
+| fileSuccessCount | `xsd:int` | Nombre de fichiers traités avec succès |
+| fileErrorCount | `xsd:int` | Nombre de fichiers ayant provoqué une erreur. |
 | fileWarningCount | `xsd:int` | Nombre de fichiers ayant généré un avertissement. |
 | fileDuplicateCount | `xsd:int` | Nombre de fichiers en double. |
 | fileUpdateCount | `xsd:int` | Nombre de fichiers mis à jour. |
 | totalFileCount | `xsd:int` | Nombre de fichiers traités par la tâche consignée. |
 | transferSuccessCount | `xsd:int` | Nombre de transferts réussis. |
-| transferErrorCount | `xsd:int` | Nombre d&#39;erreurs de transfert. |
+| transferErrorCount | `xsd:int` | Nombre d’erreurs de transfert. |
 | transferWarningCount | `xsd:int` | Nombre d’avertissements de transfert. |
-| fatalError | `xsd:boolean` | Si la tâche a généré une erreur fatale. |
+| fatalError | `xsd:boolean` | Indique si le traitement a généré une erreur irrécupérable. |
 | detailTotalRows | `xsd:int` | Nombre total de lignes correspondant à la requête, qui peut être supérieur à la taille de `detailArray` en raison des limites de taille de page. |
 | detailArray | `types:JobLogDetailArray` | Tableau de détails sur la tâche consignée. |

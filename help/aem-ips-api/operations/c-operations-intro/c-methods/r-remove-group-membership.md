@@ -1,5 +1,5 @@
 ---
-description: Supprime les utilisateurs d’un tableau de groupes.
+description: Supprime des utilisateurs d’un tableau de groupes.
 solution: Experience Manager
 title: removeGroupMembership
 feature: Dynamic Media Classic,SDK/API
@@ -14,9 +14,9 @@ ht-degree: 8%
 
 # removeGroupMembership{#removegroupmembership}
 
-Supprime les utilisateurs d’un tableau de groupes.
+Supprime des utilisateurs d’un tableau de groupes.
 
-**Différences entre les commandes de suppression**
+**Différences Entre Les Commandes De Suppression**
 
 * `removeGroupMembers` : supprime plusieurs utilisateurs d’un groupe.
 * `removeGroupMembership` : supprime un utilisateur individuel d’un tableau de groupes.
@@ -29,14 +29,14 @@ Supprime les utilisateurs d’un tableau de groupes.
 
 ## Paramètres {#section-d6a15fa70d3d4fc69da200cdaf59904e}
 
-**Entrée (removeGroupMembershipParam)**
+**Input (removeGroupMembershipParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| userHandle | `xsd:string` | Non | Gestionnaire de l’entreprise dont vous souhaitez supprimer l’appartenance à un groupe. |
-| groupHandleArray | `types:HandleArray` | Oui | Le tableau de gestionnaires aux groupes à partir desquels vous souhaitez que la société soit supprimée. |
+| userHandle | `xsd:string` | Non | Identifiant de la société dont vous souhaitez supprimer l’appartenance à un groupe. |
+| groupHandleArray | `types:HandleArray` | Oui | Tableau de handles vers les groupes desquels vous souhaitez supprimer la société. |
 
-**Sortie (removeGroupMembershipReturn)**
+**Output (removeGroupMembershipReturn)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 

@@ -1,6 +1,6 @@
 ---
-title: AssetMetadataFields
-description: Renvoie les définitions de champs de métadonnées pour les types de ressources spécifiés.
+title: Champs des métadonnées de ressource
+description: Renvoie les définitions des champs de métadonnées pour les types de ressource spécifiés.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Metadata,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # [!DNL AssetMetadataFields]{#assetmetadatafields}
 
-Renvoie les définitions de champs de métadonnées pour les types de ressources spécifiés.
+Renvoie les définitions des champs de métadonnées pour les types de ressource spécifiés.
 
 Syntaxe
 
@@ -22,5 +22,5 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| assetType | `xsd:string` | Type de ressource associé aux définitions de champ (voir &quot;Types de ressources&quot; pour les valeurs). |
-| fieldArray | `types:MetadataFieldArray` | Tableau des définitions de champ de métadonnées associées au type de ressource spécifié dans `assetType`. |
+| Type de ressource | `xsd:string` | Type de ressource associé aux définitions de champ (voir « Types de ressources » pour connaître les valeurs). |
+| Tableau de champs | `types:MetadataFieldArray` | Tableau des définitions de champs de métadonnées associé au type de ressource spécifié dans `assetType`. |

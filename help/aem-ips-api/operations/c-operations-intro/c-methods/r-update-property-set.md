@@ -1,7 +1,7 @@
 ---
 description: Utilise un tableau de propriétés pour mettre à jour un jeu de propriétés.
 solution: Experience Manager
-title: updatePropertySet
+title: Mettre à jour PropertySet
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: bbe6a664-b6e1-4b46-867d-a134070b13da
@@ -12,7 +12,7 @@ ht-degree: 12%
 
 ---
 
-# updatePropertySet{#updatepropertyset}
+# Mettre à jour PropertySet{#updatepropertyset}
 
 Utilise un tableau de propriétés pour mettre à jour un jeu de propriétés.
 
@@ -36,19 +36,19 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| setHandle | `xsd:string` | Oui | Gérez sur le jeu de propriétés. |
-| replaceProperties | `xsd:string` | Non | Définissez cette variable sur `true` pour remplacer les propriétés. |
-| propertyArray | `types:PropertyArray` | Oui | Tableau des propriétés mises à jour pour le jeu de propriétés. |
+| Poignée setHandle | `xsd:string` | Oui | Poignée pour le jeu de propriétés. |
+| Propriétés replaceProperties | `xsd:string` | Non | Définissez sur `true` pour remplacer les propriétés. |
+| Tableau de propriété | `types:PropertyArray` | Oui | Tableau des propriétés mises à jour pour le jeu de propriétés. |
 
-**Sortie (updatePropertySetReturn)**
+**Output (updatePropertySetReturn)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-55d1c9dcd0174c6b9b52b4709f7c8bf9}
 
-Cet exemple de code met à jour un jeu de propriétés avec des propriétés dans le tableau de propriétés.
+Cet exemple de code met à jour un ensemble de propriétés avec des propriétés dans le tableau de propriétés.
 
-**Requête**
+**Demander**
 
 ```java
 <updatePropertySetParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

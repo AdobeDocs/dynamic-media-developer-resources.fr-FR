@@ -33,7 +33,7 @@ Syntaxe
 
 ## Paramètres {#section-0eed164e278b456fbdfb7a50727a0416}
 
-**Entrée (deleteAssetMetadataParam)**
+**Input (deleteAssetMetadataParam)**
 
 <table id="table_A4438E2FE5F245E5B73F46CD887BE70F"> 
  <thead> 
@@ -49,25 +49,25 @@ Syntaxe
    <td colname="col1"> <p>companyHandle </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Gestionnaire de la société à laquelle appartient le dossier. </p> </td> 
+   <td colname="col4"> <p>Identifiant de la société à laquelle appartient le dossier. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>assetHandle </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Gestionnaire de la ressource à supprimer. </p> </td> 
+   <td colname="col4"> <p>Descripteur de la ressource à supprimer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>metadataDelete </p> </td> 
    <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>métadonnées à supprimer de la ressource. </p> </td> 
+   <td colname="col4"> <p>Métadonnées à supprimer de la ressource. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>deleteArray </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types : MetadataDeleteArray</span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> de sous-réseau :MetadataDeleteArray</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Tableau des métadonnées à supprimer de la ressource. </p> </td> 
+   <td colname="col4"> <p>Tableau de métadonnées à supprimer de la ressource. </p> </td> 
   </tr> 
  </tbody> 
 </table>

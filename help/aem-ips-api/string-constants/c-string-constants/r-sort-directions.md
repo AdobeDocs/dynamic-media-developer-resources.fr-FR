@@ -1,7 +1,7 @@
 ---
 description: Utilisé par searchAssetsParam/sortDirection et getJobLogsParam/sortDirection.
 solution: Experience Manager
-title: Tri des instructions
+title: Trier les directions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0f31d017-3750-43e7-9c86-7c87fb6407a3
@@ -12,7 +12,7 @@ ht-degree: 10%
 
 ---
 
-# Tri des instructions{#sort-directions}
+# Trier les directions{#sort-directions}
 
 Utilisé par searchAssetsParam/sortDirection et getJobLogsParam/sortDirection.
 

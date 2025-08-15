@@ -1,7 +1,7 @@
 ---
 description: Supprime une cible de zoom.
 solution: Experience Manager
-title: deleteZoomTarget
+title: supprimer la cible de zoom
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fa1f7cf8-038a-4fa8-b869-12ce4b2ad41f
@@ -12,7 +12,7 @@ ht-degree: 11%
 
 ---
 
-# deleteZoomTarget{#deletezoomtarget}
+# supprimer la cible de zoom{#deletezoomtarget}
 
 Supprime une cible de zoom.
 
@@ -27,7 +27,7 @@ Supprime une cible de zoom.
 
 >[!NOTE]
 >
->L’utilisateur doit disposer d’un accès en lecture et en écriture à la ressource.
+>L’utilisateur doit disposer d’un accès en lecture et en écriture à l’actif.
 
 ## Paramètres {#section-225330a45e7a408f8375e084677d9cb1}
 
@@ -35,10 +35,10 @@ Supprime une cible de zoom.
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Poignée à la société à laquelle appartient la cible de zoom. |
-| zoomTargetHandle | `xsd:string` | Oui | Poignée de la cible de zoom à supprimer. |
+| CompanyHandle | `xsd:string` | Oui | Poignée de l’entreprise à laquelle appartient la cible de zoom. |
+| Poignée de cibles de zoom | `xsd:string` | Oui | Poignée de la cible de zoom à supprimer. |
 
-**Sortie (deleteZoomTargetParam)**
+**Output (deleteZoomTargetParam)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 
@@ -46,7 +46,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 Cet exemple de code supprime une cible de zoom d’une société.
 
-**Requête**
+**Demander**
 
 ```java
 <ns1:deleteZoomTargetParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

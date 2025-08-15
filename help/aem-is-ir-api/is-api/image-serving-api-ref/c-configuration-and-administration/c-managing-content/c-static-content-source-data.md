@@ -1,5 +1,5 @@
 ---
-description: Les fichiers de données de source de contenu statique sont accessibles uniquement par le  [!DNL Platform Server].
+description: Seul le module externe [!DNL Platform Server] accède aux fichiers de données de source de contenu statique.
 solution: Experience Manager
 title: Données de source de contenu statique
 feature: Dynamic Media Classic,SDK/API
@@ -14,16 +14,16 @@ ht-degree: 0%
 
 # Données de source de contenu statique{#static-content-source-data}
 
-Les fichiers de données de source de contenu statique sont accessibles uniquement par [!DNL Platform Server].
+Les fichiers de données de source de contenu statique sont accessibles uniquement par le [!DNL Platform Server]fichier .
 
-Le chemin d’accès des fichiers de données de contenu statique est résolu comme suit :
+Le chemin d’accès aux fichiers de données de contenu statique est résolu comme suit :
 
 `PS::staticContent.rootPaths/attribute::StaticContentRootPath/static::Path`
 
-Le serveur combine les segments de chemin d’accès de droite à gauche jusqu’à ce qu’un chemin d’accès absolu au fichier soit établi.
+Le serveur combine des segments de chemin de droite à gauche jusqu’à ce qu’un chemin d’accès absolu au fichier soit établi.
 
-Tous les segments ` *[!DNL rootPath]*` peuvent être vides, relatifs ou absolus.
+Tous les ` *[!DNL rootPath]*` segments peuvent être vides, relatifs ou absolus.
 
 ` *[!DNL catalogPath]*` est un chemin/nom de fichier absolu ou relatif. *[!DNL requestPath]* doit être un chemin/nom de fichier relatif.
 
-Plusieurs valeurs `PS::staticContent.rootPaths` peuvent être définies dans [!DNL PlatformServer.conf]. Cela permet de répartir les fichiers de données sources sur plusieurs systèmes de fichiers. [!DNL Platform Server] tente d’autres chemins d’accès dans l’ordre spécifié jusqu’à ce que le fichier de données soit trouvé.
+Plusieurs `PS::staticContent.rootPaths` valeurs peuvent être définies dans .[!DNL PlatformServer.conf] Cela permet de répartir les fichiers de données sources sur plusieurs systèmes de fichiers. L’opérateur [!DNL Platform Server] tente d’emprunter d’autres chemins dans l’ordre indiqué jusqu’à ce que le fichier de données soit trouvé.

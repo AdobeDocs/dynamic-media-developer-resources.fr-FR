@@ -18,11 +18,11 @@ Référence de l’API JavaScript pour la visionneuse de catalogue électronique
 
 `init()`
 
-Commence l’initialisation de la visionneuse de catalogue électronique. D’ici là, l’élément DOM du conteneur doit être créé afin que le code de la visionneuse puisse le trouver par son identifiant.
+Démarre l’initialisation de la visionneuse de catalogue électronique. À ce stade, l’élément DOM du conteneur de temps doit être créé afin que le code de la visionneuse puisse le trouver à l’aide de son identifiant.
 
-Si l’élément de conteneur ne fait pas encore partie de la mise en page web (par exemple, il peut être masqué à l’aide du style `display:none` qui lui est affecté), la visionneuse suspend son processus d’initialisation. Il le fait jusqu’au moment où la page web ramène l’élément de conteneur à la mise en page. Lorsque cette action se produit, le chargement de la visionneuse reprend automatiquement.
+Si l’élément de conteneur ne fait pas encore partie de la mise en page de la page web (par exemple, il peut être masqué à l’aide `display:none` style qui lui est affecté), la visionneuse suspend son processus d’initialisation. Il le fait jusqu’au moment où la page web ramène l’élément de conteneur à la mise en page. Lorsque cette action se produit, le chargement de la visionneuse reprend automatiquement.
 
-Appelez cette méthode une seule fois pendant le cycle de vie de la visionneuse ; les appels suivants sont ignorés.
+N’appelez cette méthode qu’une seule fois pendant le cycle de vie de la visionneuse. Les appels suivants sont ignorés.
 
 ## Paramètres {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 
@@ -30,7 +30,7 @@ Aucune
 
 ## Renvoie {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` Référence à l’instance de visionneuse.
+`{Object}` Référence à une instance de visionneuse.
 
 ## Exemple {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

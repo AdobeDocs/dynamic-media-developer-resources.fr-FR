@@ -22,27 +22,27 @@ Contrôle l’aspect du composant lorsqu’un [!DNL `PageView.frametransition`] 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> dividerWidth</span></span> </p> </td> 
-   <td colname="col2"> <p> Largeur en pixels de l’ombre du séparateur de page qui sépare les pages de gauche et de droite de la propagation. Il contrôle également la largeur de l’ombre portée affichée en regard de la page de tournage. </p> </td> 
+   <td colname="col2"> <p> Largeur en pixels de l’ombre du séparateur de page qui sépare les pages de gauche et de droite dans la planche. Il contrôle également la largeur de l’ombre qui s’affiche en regard de la page tournante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> dividerOpacity</span></span> </p> </td> 
-   <td colname="col2"> <p> Couleur de l’ombre au format RGBB. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> Opacité du séparateur</span></span> </p> </td> 
+   <td colname="col2"> <p> Couleur de l’ombre au format RRGGBB. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> dividerOpacity</span></span> </p> </td> 
-   <td colname="col2"> <p>L’opacité de l’ombre entre <span class="codeph"> 0</span> et <span class="codeph"> 1</span>. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> Opacité du séparateur</span></span> </p> </td> 
+   <td colname="col2"> <p>Opacité de <span class="codeph"> l’ombre comprise entre 0</span> et <span class="codeph"> 1</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> borderOnOff</span></span> </p> </td> 
-   <td colname="col2"> <p> L’indicateur (<span class="codeph"> 0</span> ou <span class="codeph"> 1</span>) qui active et désactive la bordure autour de la page d’activation. </p> </td> 
+   <td colname="col2"> <p> Indicateur ( <span class="codeph"> 0</span> ou <span class="codeph"> 1</span>) qui active et désactive la bordure autour de la page qui tourne. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> borderColor</span></span> </p> </td> 
-   <td colname="col2"> <p> Couleur de bordure au format RGBB. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> Couleur de bordure</span></span> </p> </td> 
+   <td colname="col2"> <p> Couleur de la bordure au format RRGGBB. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> fillColor</span></span> </p> </td> 
-   <td colname="col2"> <p> Couleur du remplissage plein de la zone de composant utilisée lors de l’animation du changement de page, au format RGBB. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"><span class="varname"> Couleur de remplissage</span></span> </p> </td> 
+   <td colname="col2"> <p> Couleur du remplissage plein de la zone de composant utilisée pendant l’animation du changement de page, au format RRGGBB. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -22,6 +22,6 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| originalPath | `xsd:string` | Chemin du profil ICC. |
-| originalFile | `xsd:string` | Nom du profil ICC original. |
-| fileSize | `xsd:int` | Taille du profil ICC. |
+| Chemin d’origine | `xsd:string` | Chemin d’accès au profil ICC. |
+| Fichier d’origine | `xsd:string` | Nom du profil ICC d’origine. |
+| Taille du fichier | `xsd:int` | Taille du profil ICC. |

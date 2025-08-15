@@ -1,7 +1,7 @@
 ---
-description: Lors de la définition d’une macro, vous spécifiez le nom et la définition.
+description: Lors de la définition d’une macro, vous spécifiez son nom et sa définition.
 solution: Experience Manager
-title: Référence de définition de macro
+title: Référence de la définition de macro
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3f322443-eac5-49aa-946e-2bc895fbbfc2
@@ -12,6 +12,6 @@ ht-degree: 0%
 
 ---
 
-# Référence de définition de macro{#macro-definition-reference}
+# Référence de la définition de macro{#macro-definition-reference}
 
-Lors de la définition d’une macro, vous spécifiez le nom et la définition.
+Lors de la définition d’une macro, vous spécifiez son nom et sa définition.

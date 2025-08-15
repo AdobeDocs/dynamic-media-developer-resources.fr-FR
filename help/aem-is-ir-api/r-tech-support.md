@@ -1,5 +1,5 @@
 ---
-description: Pour contacter l’assistance technique, utilisez ce qui suit.
+description: Utilisez les méthodes suivantes pour contacter l’assistance technique.
 solution: Experience Manager
 title: Support technique
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Support technique{#technical-support}
 
-Pour contacter l&#39;assistance technique, utilisez ce qui suit.
+Utilisez les méthodes suivantes pour contacter l’assistance technique.
 
-* **Phone** - 800-898-9743 de 6 h 00 à 18 h 00, United States Pacific Time, du lundi au vendredi, sauf jours fériés.
-* **Créer un cas de support** - [https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+* **Téléphone** - 800-898-9743 de 06:00 à 18:00, heure du Pacifique des États-Unis, du lundi au vendredi, sauf les jours fériés.
+* **Créer un dossier de support** - [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)

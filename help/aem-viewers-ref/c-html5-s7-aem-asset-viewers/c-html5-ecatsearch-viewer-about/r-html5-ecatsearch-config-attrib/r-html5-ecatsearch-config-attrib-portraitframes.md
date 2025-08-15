@@ -1,7 +1,7 @@
 ---
-description: portraitFrames
+description: Images portrait
 solution: Experience Manager
-title: portraitFrames
+title: Images portrait
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 83822d1f-c19e-43ce-bec3-05ac4d4a027b
@@ -12,7 +12,7 @@ ht-degree: 6%
 
 ---
 
-# portraitFrames{#portraitframes}
+# Images portrait{#portraitframes}
 
 [!DNL `portraitFrames=split|solid`]
 
@@ -20,7 +20,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> split|solid</span> </p> </td> 
-   <td colname="col2"> <p>Définissez cette variable sur <span class="codeph"> split</span> pour permettre à la visionneuse d’afficher des planches de deux pages en tant que page distincte lorsqu’elle est utilisée sur un appareil mobile en orientation portrait. Définissez cette variable sur <span class="codeph"> solid</span> pour toujours afficher les planches à deux pages sous forme d’image continue, quelle que soit l’orientation de l’appareil. </p> </td> 
+   <td colname="col2"> <p>Définissez cette option sur <span class="codeph"> fractionnement</span> pour permettre à la visionneuse d’afficher les doubles pages en tant que page distincte lorsqu’elle est utilisée sur un périphérique mobile en orientation portrait. Définissez sur <span class="codeph"> plein</span> pour toujours afficher les doubles pages en tant qu’image solide, quelle que soit l’orientation de l’appareil. </p> </td> 
   </tr> 
  </tbody> 
 </table>

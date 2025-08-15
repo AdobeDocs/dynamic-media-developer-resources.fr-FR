@@ -1,6 +1,6 @@
 ---
-title: AssetContextStateUpdate
-description: Définissez un nouvel ensemble d’indicateurs d’état de publication pour le contexte de publication associé à une ressource.
+title: Mise à jour AssetContextStateUpdate
+description: Définissez un nouveau jeu d’indicateurs d’état de publication pour le contexte de publication associé à une ressource.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,11 +14,11 @@ ht-degree: 4%
 
 # [!DNL AssetContextStateUpdate]{#assetcontextstateupdate}
 
-Définissez un nouvel ensemble d’indicateurs d’état de publication pour le contexte de publication associé à une ressource.
+Définissez un nouveau jeu d’indicateurs d’état de publication pour le contexte de publication associé à une ressource.
 
 **Paramètres**
 
 | Nom | Type | Description |
 |---|---|---|
-| assetHandle | `xsd:string` | Gérez la ressource que vous souhaitez mettre à jour. |
-| contextStateUpdateArray | `types:ContextStateUpdateArray` | Tableau d’états de contact de publication pour la ressource que vous souhaitez mettre à jour. |
+| AssetHandle | `xsd:string` | Gérez la ressource à mettre à jour. |
+| Mise à jour contextuelle | `types:ContextStateUpdateArray` | Tableau des états de contact de publication pour la ressource à mettre à jour. |

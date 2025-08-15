@@ -1,6 +1,6 @@
 ---
 title: VideoScrubber.showchaptertitle
-description: Attribut de configuration pour la visionneuse de vidéos.
+description: Attribut de configuration pour la visionneuse vidéo.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # VideoScrubber.showchaptertitle{#videoscrubber-showchaptertitle}
 
-Attribut de configuration pour la visionneuse de vidéos.
+Attribut de configuration pour la visionneuse vidéo.
 
 `[VideoScrubber.|<containerId>_videoScrubber.]showchaptertitle=0|1`
 
@@ -22,7 +22,7 @@ Attribut de configuration pour la visionneuse de vidéos.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p> Désactive ou active la barre de titre du libellé du chapitre vidéo. L’heure de début du chapitre ne s’affiche pas lorsque la barre de titre est désactivée. </p> </td> 
+   <td colname="col2"> <p> Désactive ou active la barre de titre du libellé du chapitre vidéo. L’heure de début du chapitre n’est pas affichée lorsque la barre de titre est désactivée. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -19,8 +19,8 @@ ht-degree: 11%
 <table id="table_F17148BDB468488AA0AF0F64D5DD1978"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> x,y,w,h</span> </p> </td> 
-   <td colname="col2"> <p> Région initiale d’intérêt pour les coordonnées normalisées. Si ces valeurs ne sont pas spécifiées, l’image entière est ajustée à la fenêtre d’affichage initiale. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> x, y, w, h</span> </p> </td> 
+   <td colname="col2"> <p> Région d'intérêt initiale en coordonnées normalisées. Si ces valeurs ne sont pas spécifiées, l’image entière est adaptée à la fenêtre d’affichage initiale. </p> </td> 
   </tr> 
  </tbody> 
 </table>

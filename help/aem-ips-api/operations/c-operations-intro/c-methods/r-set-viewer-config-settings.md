@@ -31,12 +31,12 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Traitez la société. |
-| assetHandle | `xsd:string` | Oui | Poignée de ressource. |
+| CompanyHandle | `xsd:string` | Oui | Manipuler à la société. |
+| AssetHandle | `xsd:string` | Oui | Gestion des ressources. |
 | nom | `xsd:string` | Oui | Nom de la ressource. |
-| type | `xsd:string` | Oui | Type de ressource auquel vous souhaitez appliquer la configuration de la visionneuse. |
-| configSettingArray | `types:ConfigSettingArray` | Oui | Tableau de `ConfigSettings` appliqué à la ressource. |
+| type | `xsd:string` | Oui | Type de ressource à laquelle appliquer la configuration de visionneuse. |
+| Paramètre de configuration | `types:ConfigSettingArray` | Oui | Tableau de appliqué `ConfigSettings` à la ressource.. |
 
-**Sortie (setViewerConfigSettingsParam)**
+**Output (setViewerConfigSettingsParam)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.

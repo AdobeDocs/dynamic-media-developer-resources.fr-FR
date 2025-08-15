@@ -34,7 +34,7 @@ Assets conserve un marqueur distinct pour chaque état et contexte de publicatio
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> contextHandle</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:string </span></td>
-   <td colname="col3"> Gérer au contexte de publication. </td>
+   <td colname="col3"> Gérer vers le contexte de publication. </td>
   </tr>
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> contextName</span></span></td>
@@ -46,7 +46,7 @@ Assets conserve un marqueur distinct pour chaque état et contexte de publicatio
    <td colname="col2"><span class="codeph"> xsd:string</span></td>
    <td colname="col3">Type de contexte de publication. Inclut : 
     <ul id="ul_04CA7C755E5441AA8ABBD0BA3F245A78">
-     <li id="li_7F578422D38E40D1A590AB21ADD84E90"><span class="codeph"> ImageServing</span></li>
+     <li id="li_7F578422D38E40D1A590AB21ADD84E90"><span class="codeph"> Diffusion d’images</span></li>
      <li id="li_C112E12028E44ED7914ED0D3D6B3A45E"><span class="codeph"> ImageRendering</span></li>
      <li id="li_9430D600FA4343F6951F9AE8EA7F9530"><span class="codeph"> Vidéo</span></li>
      <li id="li_4122D853BE1B4ED3B412CFA7B659EB1D"><span class="codeph"> ServerDirectory</span></li>
@@ -57,4 +57,4 @@ Assets conserve un marqueur distinct pour chaque état et contexte de publicatio
 
 >[!MORELIKETHIS]
 >
->* [Publish Context](../../string-constants/c-string-constants/r-publish-context.md#reference-3ade116df0df40deb86154eb0ac7c12a)
+>* [Contexte de publication](../../string-constants/c-string-constants/r-publish-context.md#reference-3ade116df0df40deb86154eb0ac7c12a)

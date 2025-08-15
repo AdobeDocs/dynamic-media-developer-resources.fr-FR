@@ -18,7 +18,7 @@ Décrit les types de données nouveaux et modifiés pour l’API IPS version 4.4
 
 Syntaxe
 
-## Nouvelles constantes {#section-658a2d48955f4de59c674474b9498ffd}
+## Nouvelles Constantes {#section-658a2d48955f4de59c674474b9498ffd}
 
 * `AssetSet`
 * `MasterVideo`

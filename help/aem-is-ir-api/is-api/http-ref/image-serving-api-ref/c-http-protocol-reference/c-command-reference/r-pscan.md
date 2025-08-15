@@ -1,6 +1,6 @@
 ---
 title: pscan
-description: Analyse JPEG progressive. Le JPEG progressif affiche une image de telle sorte qu’elle affiche initialement une photo floue/de mauvaise qualité dans son intégralité.
+description: Analyse JPEG progressive. Le JPEG progressif affiche une image de telle sorte qu’elle présente initialement une photo floue/de faible qualité dans son intégralité.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,19 +14,19 @@ ht-degree: 2%
 
 # pscan{#pscan}
 
-Analyse JPEG progressive. Le JPEG progressif affiche une image de telle sorte qu’elle affiche initialement une photo floue/de mauvaise qualité dans son intégralité. Au fur et à mesure que la numérisation se poursuit, elle devient plus claire à mesure que les données de l’image sont téléchargées plus complètement. Ce paramètre permet de définir le nombre d’analyses nécessaires (3, 4 ou 5) pour que l’image entière s’affiche.
+Analyse JPEG progressive. Le JPEG progressif affiche une image de telle sorte qu’elle présente initialement une photo floue/de faible qualité dans son intégralité. Au fur et à mesure que l’analyse se poursuit, les données de l’image sont de plus en plus téléchargées. Ce paramètre permet de définir le nombre d’analyses nécessaires (3, 4 ou 5) pour que l’image entière s’affiche.
 
 `pscan=auto|3|4|5`
 
-La vitesse réelle de chaque analyse dépend de la vitesse de transmission du système de l’utilisateur et de l’ordinateur qui reçoit et décompresse les données.
+La vitesse réelle de chaque balayage dépend de la vitesse de transmission du système de l&#39;utilisateur et de l&#39;ordinateur qui reçoit et décompresse les données.
 
-`Auto` utilise les paramètres d’analyse calculés par la bibliothèque de JPEG indépendante et dépend du modèle de couleur. Les valeurs de `3`, `4` et `5` correspondent au paramètre d’analyse d’Adobe Photoshop lorsque vous enregistrez un fichier de JPEG en tant que pjpeg (JPEG progressif).
+`Auto` utilise les paramètres d’analyse qui sont calculés par la bibliothèque JPEG indépendante et dépend du modèle de couleur. Les valeurs de `3`, `4` `5` correspondent au paramètre Analyse défini dans Adobe Photoshop lorsque vous enregistrez un fichier JPEG au format pjpeg (JPEG progressif).
 
 Si `pscan` n’est pas défini, la valeur par défaut est `auto`.
 
 ## Propriétés {#section-e36aa3c63a974b969d9e4f43fe5a37ab}
 
-Attribut de requête. S’applique quel que soit le paramètre de calque actif. Ignoré si le format de sortie n’est pas un JPEG progressif.
+Attribut de requête. S’applique quel que soit le paramètre de calque actif. Ignoré si le format de sortie n’est pas le JPEG progressif.
 
 ## Par défaut {#section-01948f6cd7a2415091004cd7526436c7}
 

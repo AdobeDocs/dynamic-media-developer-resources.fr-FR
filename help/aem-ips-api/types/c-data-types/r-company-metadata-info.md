@@ -1,5 +1,5 @@
 ---
-description: Contient des informations sur un objet de métadonnées de l’entreprise, comme l’identifiant, le nom et le type.
+description: Contient des informations sur un objet de métadonnées d’entreprise comme l’identifiant, le nom et le type.
 solution: Experience Manager
 title: CompanyMetadataInfo
 feature: Dynamic Media Classic,SDK/API,Metadata
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # [!DNL CompanyMetadataInfo]{#companymetadatainfo}
 
-Contient des informations sur un objet de métadonnées de l’entreprise, comme l’identifiant, le nom et le type.
+Contient des informations sur un objet de métadonnées d’entreprise comme l’identifiant, le nom et le type.
 
 Syntaxe
 

@@ -1,6 +1,6 @@
 ---
 title: Exemple A
-description: Créez un modèle de taille fixe avec une image d’arrière-plan statique, une image variable alignée sur l’arrière-plan au centre gauche et mise à l’échelle de manière à ne pas dépasser 80 % de la largeur et de la hauteur de l’arrière-plan. Enfin, un calque de texte avec du texte vertical centré sur le bord droit de la zone de travail.
+description: Créez un modèle de taille fixe avec une image d’arrière-plan statique, une image variable alignée sur l’arrière-plan au centre gauche et mise à l’échelle pour ne pas dépasser 80 % de la largeur et de la hauteur de l’arrière-plan. Enfin, un calque de texte avec du texte vertical centré sur le bord droit de la zone de travail.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,41 +14,41 @@ ht-degree: 0%
 
 # Exemple A{#example-a}
 
-Créez un modèle de taille fixe avec une image d’arrière-plan statique, une image variable alignée sur l’arrière-plan au centre gauche et mise à l’échelle de manière à ne pas dépasser 80 % de la largeur et de la hauteur de l’arrière-plan. Enfin, un calque de texte avec du texte vertical centré sur le bord droit de la zone de travail.
+Créez un modèle de taille fixe avec une image d’arrière-plan statique, une image variable alignée sur l’arrière-plan au centre gauche et mise à l’échelle pour ne pas dépasser 80 % de la largeur et de la hauteur de l’arrière-plan. Enfin, un calque de texte avec du texte vertical centré sur le bord droit de la zone de travail.
 
-![Exemple d’une image](assets/examplea.png)
+![Exemple Une image](assets/examplea.png)
 
-## Enregistrement du modèle {#section-32f54710593e438fa0622224c89380af}
+## L’enregistrement du modèle {#section-32f54710593e438fa0622224c89380af}
 
-Insérer un objet
+Insérer l’objet
 
 <table id="simpletable_97ECA49445634F59B3F1D100412EFC70"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> Catalogue <span class="codeph"> ::Id </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> myTemplate1 </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> catalog ::Id </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> monModèle1 </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> Catalogue <span class="codeph"> ::Modifier </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"> src=backgroundImage&amp;size=1000,1000&amp;originN=0,0&amp; layer=1&amp;src=$object$&amp;size=800,800&amp;originN=-0,5,0&amp;posN=-0,5,0&amp; layer=2&amp;$text=layer+2+text+vas text=rtf...$text$...rtf-encoding&amp;rotate=-90&amp;originN=0.5,0&amp;posN=0.5,0 </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> catalog ::Modifier </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> src=backgroundImage&amp;size=1000,1000&amp;originN=0,0&amp; layer=1&amp;src=$object$&amp;size=800,800&amp;originN=-0.5,0&amp;posN=-0.5,0&amp; layer=2&amp;$text=layer+2+text+goes+here&amp;text=rtf...$text$... rtf-encoding&amp;rotate=-90&amp;originN=0.5,0&amp;posN=0.5,0 </span> </p> </td> 
  </tr> 
 </table>
 
-Les valeurs `origin=` de tous les calques sont spécifiées explicitement dans le modèle pour contrôler strictement le positionnement et l’alignement des calques. Chaque origine de calque est définie pour correspondre à l’alignement souhaité pour ce calque. La valeur `origin=` de l’arrière-plan (couche 0) est définie sur le centre ; cette valeur est arbitraire car l’image d’arrière-plan ne change pas au moment de l’exécution ; toute valeur pour l’origine de la couche 0 peut être utilisée.
+Les `origin=` valeurs de tous les calques sont spécifiées explicitement dans le modèle pour contrôler strictement le positionnement et l’alignement des calques. L’origine de chaque calque est définie pour correspondre à l’alignement souhaité pour ce calque. La `origin=` valeur de l’arrière-plan (calque 0) est définie sur le centre ; cette valeur est arbitraire car l’image d’arrière-plan ne change pas au moment de l’exécution ; n’importe quelle valeur pour l’origine du calque 0 peut être utilisée.
 
-Les valeurs `pos=` fournissent les décalages nécessaires entre les points d’origine du calque, pour obtenir le positionnement de calque souhaité.
+Les `pos=` valeurs fournissent les décalages nécessaires entre les points d’origine de la couche, pour obtenir le positionnement de couche souhaité.
 
-L’ancre de l’image du calque 1 est placée au centre gauche, avec la valeur `pos=`. Ce paramètre permet d’obtenir l’alignement gauche entre l’arrière-plan et le calque 1 de l’image, quel que soit le rapport L/H de l’image du calque 1.
+L’ancrage de l’image du calque 1 est placé au centre gauche, avec la `pos=` valeur. Ce paramètre permet d’obtenir l’alignement au centre gauche entre l’arrière-plan et l’image du calque 1, quel que soit le format de l’image du calque 1.
 
-De même, l’ancre du calque de texte est positionnée à droite de la zone de texte à taille automatique, avec la valeur `pos=`. Ce paramètre permet d’obtenir l’alignement de centre droit souhaité pour le texte pivoté, indépendamment de la taille de la police et de la longueur des chaînes.
+De même, l’ancre du calque de texte est positionnée au centre droit de la zone de texte à dimensionnement automatique, avec la `pos=` valeur. Ce paramètre permet d’obtenir l’alignement au centre à droite souhaité pour le texte pivoté, indépendamment de la taille de la police et de la longueur de la chaîne.
 
-Le texte d’affichage réel est fourni au moment de l’exécution. Par conséquent, une variable est utilisée pour séparer le texte de l’enveloppe de mise en forme rtf. La variable par défaut `$object` est utilisée pour l’image du calque 1. Cette variable vous permet de spécifier cette image dans le chemin de la requête.
+Le texte d’affichage réel est fourni au moment de l’exécution, de sorte qu’une variable est utilisée pour séparer le texte de l’enveloppe de formatage rtf. La variable `$object` par défaut est utilisée pour l’image du calque 1. Cette variable permet de spécifier cette image dans le chemin d’accès à la demande.
 
-Toute image peut être utilisée pour l’image d’arrière-plan et l’image du calque 1. Si l’image d’arrière-plan comporte un masque, les zones non masquées sont remplies avec la couleur d’arrière-plan par défaut ( `attribute::BkgColor`) ou laissées transparentes lorsque `fmt=png-alpha` ou `fmt=tif-alpha`. Si l’image d’arrière-plan a des proportions non carrées, elle est centrée dans l’image de réponse et l’espace supplémentaire est rempli avec `attribute::BkgColor`. Si l’image du calque 1 comporte des données alpha ou un masque, l’image d’arrière-plan (ou couleur d’arrière-plan) reste visible dans les zones transparentes. Si l’image n’a pas de masque, elle remplit l’intégralité du rectangle alloué.
+N’importe quelle image peut être utilisée pour l’image d’arrière-plan et l’image de calque 1. Si l’image d’arrière-plan comporte un masque, les zones non masquées sont remplies avec la couleur d’arrière-plan par défaut ( `attribute::BkgColor`), ou laissées transparentes lorsque `fmt=png-alpha` ou `fmt=tif-alpha`. Si l’image d’arrière-plan a un rapport d’aspect non carré, elle est centrée dans l’image de réponse et l’espace supplémentaire est rempli avec `attribute::BkgColor`. Si l’image du calque 1 contient des données alpha ou un masque, l’image d’arrière-plan (ou la couleur d’arrière-plan) reste visible dans les zones transparentes. Si l’image ne comporte pas de masque, elle remplit la totalité du rectangle alloué.
 
-## Utiliser le modèle {#section-3e04eedc268c482db5a8cfc662c0f327}
+## Utilisation du modèle {#section-3e04eedc268c482db5a8cfc662c0f327}
 
-` http:// *`server`*/myRootId/anotherImage?template=myTemplate1&$text=about+the+image`
+` http:// *`serveur`*/myRootId/anotherImage?template=myTemplate1&$text=about+the+image`
 
-L’image suivante montre le résultat composite pour différents proportions de l’image du calque 1 et différentes chaînes de texte.
+L’image suivante montre le résultat composite pour différents rapports d’aspect de l’image de couche 1 et différentes chaînes de texte.
 
-![Exemple Une image de résultat composite](assets/exampleausing.png)
+![Exemple : Image de résultat composite](assets/exampleausing.png)

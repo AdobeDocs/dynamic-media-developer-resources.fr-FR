@@ -16,15 +16,15 @@ ht-degree: 0%
 
 La visionneuse de catalogue électronique prend en charge le suivi Adobe Analytics prêt à l’emploi.
 
-## Suivi d’usine {#section-ba994f079d0343c8ae48adffaa3195a3}
+## Tracking d’usine {#section-ba994f079d0343c8ae48adffaa3195a3}
 
-La visionneuse de catalogue électronique prend en charge le suivi prêt à l’emploi [!DNL Adobe Analytics]. Pour activer le suivi, transmettez le nom de paramètre prédéfini d’entreprise approprié en tant que paramètre `config2`.
+La visionneuse de catalogue électronique prend en charge le suivi [!DNL Adobe Analytics] prêt à l’emploi. Pour activer le suivi, transmettez le nom du paramètre prédéfini de société approprié en tant que paramètre `config2`.
 
-La visionneuse envoie également une requête HTTP de suivi unique au serveur d’images configuré avec le type de visionneuse et les informations de version.
+La visionneuse envoie également une requête HTTP de suivi unique au serveur d’images configuré avec les informations de type et de version de la visionneuse.
 
-## Suivi personnalisé {#section-cda48fc9730142d0bb3326bac7df3271}
+## Tracking personnalisé {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Pour s’intégrer à des systèmes d’analyse tiers, il est nécessaire d’écouter le rappel de la visionneuse `trackEvent` et de traiter l’argument `eventInfo` de la fonction de rappel si nécessaire. Le code suivant est un exemple de fonction de gestionnaire de ce type :
+Pour l’intégration aux systèmes d’analyse tiers, il est nécessaire d’écouter le rappel de la visionneuse `trackEvent` et de traiter l’argument `eventInfo` de la fonction de rappel si nécessaire. Le code suivant est un exemple d’une telle fonction de gestionnaire :
 
 ```javascript {.line-numbers}
 var eCatalogViewer = new s7viewers.eCatalogViewer({ 
@@ -48,43 +48,43 @@ var eCatalogViewer = new s7viewers.eCatalogViewer({
 });
 ```
 
-La visionneuse effectue le suivi des événements utilisateur du SDK suivants :
+La visionneuse effectue le suivi des événements utilisateur SDK suivants :
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Événement d’utilisateur du SDK </p> </th> 
-   <th colname="col2" class="entry"> <p>Envoyé lorsque.. </p> </th> 
+   <th colname="col1" class="entry"> <p>Événement utilisateur SDK </p> </th> 
+   <th colname="col2" class="entry"> <p>Envoyé lorsque... </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
-   <td colname="col2"> <p>la visionneuse est d’abord chargée. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> DE CHARGEMENT </span> </p> </td> 
+   <td colname="col2"> <p>La visionneuse est chargée en premier. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>une ressource est échangée dans la visionneuse à l’aide de l’API <span class="codeph"> setAsset() </span>. </p> </td> 
+   <td colname="col2"> <p>une ressource est permutée dans la visionneuse à l’aide de l’API <span class="codeph"> setAsset() </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZOOM </span> </p> </td> 
-   <td colname="col2"> <p> une image est agrandie. </p> </td> 
+   <td colname="col2"> <p> une image fait l’objet d’un zoom. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAN </span> </p> </td> 
-   <td colname="col2"> <p>une image est numérisée. </p> </td> 
+   <td colname="col2"> <p>une image est panoramique. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ÉCHANTILLON </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> D’ÉCHANTILLON </span> </p> </td> 
    <td colname="col2"> <p> une image est modifiée en cliquant ou en appuyant sur un échantillon. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PAGE </span> </p> </td> 
-   <td colname="col2"> <p> une image active est modifiée dans la vue principale. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> DE PAGE </span> </p> </td> 
+   <td colname="col2"> <p> une image actuelle est modifiée dans la vue principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ÉLÉMENT </span> </p> </td> 
-   <td colname="col2"> <p>une fenêtre contextuelle de panneau d’informations est activée. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> D’ÉLÉMENT </span> </p> </td> 
+   <td colname="col2"> <p>un pop-up de panneau d’informations est activé. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> HREF </span> </p> </td> 

@@ -1,7 +1,7 @@
 ---
 description: Utilisé par getUsersParam et getUserCharsParam/charField.
 solution: Experience Manager
-title: Champs de filtre Char d’utilisateur
+title: Champs de filtre de graphique utilisateur
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 40ba507b-6859-4b37-b801-c6f21d12e98e
@@ -12,7 +12,7 @@ ht-degree: 9%
 
 ---
 
-# Champs de filtre Char d’utilisateur{#user-char-filter-fields}
+# Champs de filtre de graphique utilisateur{#user-char-filter-fields}
 
 Utilisé par getUsersParam et getUserCharsParam/charField.
 

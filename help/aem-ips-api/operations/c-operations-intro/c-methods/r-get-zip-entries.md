@@ -1,5 +1,5 @@
 ---
-description: Renvoie les données du fichier zip.
+description: Renvoie les données du fichier Zip.
 solution: Experience Manager
 title: getZipEntries
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # getZipEntries{#getzipentries}
 
-Renvoie les données du fichier zip.
+Renvoie les données du fichier Zip.
 
 Syntaxe
 
@@ -32,24 +32,24 @@ Syntaxe
 
 ## Paramètres {#section-aa3f498fe76d4a5f99c42d64520fadce}
 
-**Input (getZipEntriesParam)**
+**Entrée (getZipEntriesParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gestionnaire de la société qui contient le fichier ZIP. |
-| assetHandle | `xsd:string` | Oui | Gérez le fichier zip. |
+| CompanyHandle | `xsd:string` | Oui | Indiquez le nom de l’entreprise qui contient le fichier Zip. |
+| AssetHandle | `xsd:string` | Oui | Manipuler dans le fichier zip. |
 
-**Sortie (getZipEntriesReturn)**
+**Output (getZipEntriesReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| zipArray | `types:ZipEntryArray` | Oui | Tableau d’entrées dans un fichier Zip. |
+| Tableau zipZip | `types:ZipEntryArray` | Oui | Tableau d’entrées dans un fichier Zip. |
 
 ## Exemples {#section-1fc0ad8fa448492cb5a135d3e3d161ac}
 
-Cet exemple de code renvoie des informations sur le fichier zip, y compris la taille compressée et non compressée.
+Cet exemple de code renvoie des informations sur le fichier Zip, y compris la taille compressée et non compressée.
 
-**Requête**
+**Demander**
 
 ```java
 <getZipEntriesParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

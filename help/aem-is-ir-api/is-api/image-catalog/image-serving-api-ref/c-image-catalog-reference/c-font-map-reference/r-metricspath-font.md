@@ -1,5 +1,5 @@
 ---
-description: Chemin d’accès au fichier des mesures de police. Chemin et nom d’un fichier de mesures de police, y compris le suffixe de fichier.
+description: Chemin d’accès au fichier des mesures de polices. Chemin et nom d’un fichier de mesures de polices, suffixe de fichier inclus.
 solution: Experience Manager
 title: MetricsPath
 feature: Dynamic Media Classic,SDK/API
@@ -14,13 +14,13 @@ ht-degree: 3%
 
 # MetricsPath{#metricspath}
 
-Chemin d’accès au fichier des mesures de police. Chemin et nom d’un fichier de mesures de police, y compris le suffixe de fichier.
+Chemin d’accès au fichier des mesures de polices. Chemin et nom d’un fichier de mesures de polices, suffixe de fichier inclus.
 
-Utilisé pour les polices Adobe Type 1. S’il n’est pas spécifié, le serveur tente de trouver un fichier de mesures de police dans le dossier où se trouve le fichier de police principal. Une erreur se produit si un fichier de mesures de polices requis est introuvable au moment du rendu.
+Utilisé pour les polices Adobe Type 1. S’il n’est pas spécifié, le serveur tente de trouver un fichier de mesures de police dans le même dossier que celui où se trouve le fichier de police principal. Une erreur se produit si un fichier de mesures de polices obligatoire est introuvable au moment du rendu.
 
 ## Propriétés {#section-955268c581574875b05253d9e14544f3}
 
-Chaîne de texte. Facultatif pour les fichiers Adobe Type 1. Doit être vide ou un chemin d’accès au fichier du serveur d’images valide, absolu ou relatif à `attribute::RootPath`.
+Chaîne de texte. Facultatif pour les fichiers Adobe Type 1. Doit être vide ou un chemin d’accès au fichier Image Server valide, absolu ou relatif à `attribute::RootPath`.
 
 ## Par défaut {#section-a6ffbd6879c642caa5a2fd4ed14a3a85}
 

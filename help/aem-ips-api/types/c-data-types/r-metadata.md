@@ -23,8 +23,8 @@ Syntaxe
 | Nom | Type | Description |
 |---|---|---|
 | nom | `xsd:string` | Nom des métadonnées. |
-| valeur | `xsd:string` | Valeur des métadonnées. |
-| boolVal | `xsd:boolean` | Valeur de métadonnées booléenne (pour les champs de type booléen uniquement). |
-| longVal | `xsd:long` | Valeur de métadonnées longue (pour les champs de type int uniquement). |
-| doubleVal | `xsd:double` | Valeur de métadonnées double (pour les champs de type flottant uniquement). |
-| dateVal | `xsd:dateTime` | Valeur des métadonnées de date (pour les champs de type date uniquement). |
+| valeur | `xsd:string` | Valeur de métadonnées. |
+| boolVal | `xsd:boolean` | Valeur de métadonnées booléenne (pour les champs typés booléens uniquement). |
+| longVal | `xsd:long` | Valeur de métadonnées longue (pour les champs int-typés uniquement). |
+| Valeur double | `xsd:double` | Valeur de métadonnées double (pour les champs de type flottant uniquement). |
+| dateVal | `xsd:dateTime` | Valeur des métadonnées de date (pour les champs date-typés uniquement). |

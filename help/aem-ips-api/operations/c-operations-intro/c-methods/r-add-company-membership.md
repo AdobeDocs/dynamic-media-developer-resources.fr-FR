@@ -1,5 +1,5 @@
 ---
-description: Ajoute un utilisateur à une ou plusieurs sociétés.
+description: Ajoute un utilisateur à une ou plusieurs entreprises.
 solution: Experience Manager
 title: addCompanyMembership
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 12%
 
 # addCompanyMembership{#addcompanymembership}
 
-Ajoute un utilisateur à une ou plusieurs sociétés.
+Ajoute un utilisateur à une ou plusieurs entreprises.
 
 Syntaxe
 
@@ -27,22 +27,22 @@ Syntaxe
 
 ## Paramètres {#section-0e925b91d63e48aa91f0b0014e6a0cab}
 
-**Entrée (addCompanyMembershipParam)**
+**Input (addCompanyMembershipParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| userHandle | `xsd:string` | Non | Gestionnaire de l’utilisateur dont vous souhaitez ajouter l’adhésion. |
-| membershipArray | `types:CompanyMembershipUpdateArray` | Oui | Un ensemble d’entreprises auxquelles vous ajoutez l’utilisateur. |
+| Poignée utilisateur | `xsd:string` | Non | Pseudo attribué à l’utilisateur dont vous souhaitez ajouter l’appartenance. |
+| Tableau d’adhérents | `types:CompanyMembershipUpdateArray` | Oui | Tableau d’entreprises auxquelles vous ajoutez l’utilisateur. |
 
-**Sortie (addCompanyMembershipReturn)**
+**Output (addCompanyMembershipReturn)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-5469f88bac7047cca131faa6b021e437}
 
-Cet exemple utilise companyHandleArray pour ajouter un utilisateur à une seule société.
+Cet exemple utilise companyHandleArray pour ajouter un utilisateur à une seule entreprise.
 
-**Requête**
+**Demander**
 
 ```javascript {.line-numbers}
 <ns1:addCompanyMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

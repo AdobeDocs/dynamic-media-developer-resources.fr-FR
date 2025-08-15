@@ -1,5 +1,5 @@
 ---
-title: Référence de l’API JavaScript pour la visionneuse vidéo avec recadrage intelligent
+title: Référence de l’API JavaScript pour la visionneuse de vidéos avec recadrage intelligent
 description: La classe principale de la visionneuse de vidéos avec recadrage intelligent est SmartCropVideoViewer. Il est déclaré dans l’espace de noms s7viewers. Cette API JavaScript couvre le constructeur, les méthodes et les rappels de cette classe particulière.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
@@ -12,8 +12,8 @@ ht-degree: 0%
 
 ---
 
-# Référence de l’API JavaScript pour la visionneuse vidéo avec recadrage intelligent{#javascript-api-reference-for-smartcrop-video-viewer}
+# Référence de l’API JavaScript pour la visionneuse de vidéos avec recadrage intelligent{#javascript-api-reference-for-smartcrop-video-viewer}
 
 La classe principale de la visionneuse de vidéos avec recadrage intelligent est SmartCropVideoViewer. Il est déclaré dans l’espace de noms s7viewers. Cette API JavaScript couvre le constructeur, les méthodes et les rappels de cette classe particulière.
 
-Dans tous les exemples suivants, `<instance>` est le nom réel de l’objet de visionneuse JavaScript qui est instancié à partir de la classe `s7viewers.SmartCropVideoViewer`.
+Dans tous les exemples suivants, `<instance>` est le nom réel de l’objet de visionneuse JavaScript instancié à partir de la classe `s7viewers.SmartCropVideoViewer`.

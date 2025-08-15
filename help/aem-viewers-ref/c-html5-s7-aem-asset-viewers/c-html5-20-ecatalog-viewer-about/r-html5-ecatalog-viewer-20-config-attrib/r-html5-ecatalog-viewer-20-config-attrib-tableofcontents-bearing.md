@@ -14,17 +14,17 @@ ht-degree: 2%
 
 # TableOfContents.bearing{#tableofcontents-bearing}
 
-` [TableOfContents.|<containerId>_tableOfContents.]bearing=[fit-lateral|fit-vertical][, *`autoHideDelay`*]`
+` [TableOfContents.|<containerId>_tableOfContents.]bearing=[fit-lateral|fit-vertical][, *`Délai avant masquage automatique`*]`
 
 <table id="table_5151E6EA076C4AAD8D952A09E1F17C44"> 
  <tbody> 
   <tr> 
-   <td> <p> <span class="codeph"> glissière|fit-vertical</span> </p> </td> 
-   <td> <p> Contrôle l’orientation de l’aspect du panneau déroulant. </p> <p>Lorsqu’il est défini sur <span class="codeph"> ajusté vertical </span>, le composant déplace d’abord la position du panneau de base au bas de son bouton et tente de déployer le panneau à droite ou à gauche à partir de l’emplacement de base. À chaque tentative, le composant vérifie si le panneau est tronqué par un conteneur externe. Si toutes les tentatives échouent, le composant tente de déplacer la position du panneau de base vers le haut et répète les tentatives de déploiement dans les directions droite et gauche. </p> <p>Lorsqu’il est défini sur <span class="codeph"> rationnel</span>, le composant utilise une logique similaire, mais déplace d’abord la base vers la droite, en essayant de descendre et de remonter les instructions de déploiement. Ensuite, il déplace la base vers la gauche, en essayant de descendre et en remontant les directions de déploiement. </p> </td> 
+   <td> <p> <span class="codeph"> ajusté-latéral|ajusté-vertical</span> </p> </td> 
+   <td> <p> Contrôle la direction de l’aspect du panneau déroulant. </p> <p>Lorsqu’il est défini sur <span class="codeph"> ajuster verticalement</span>, le composant déplace d’abord la position du panneau de base vers le bas de son bouton et tente de déployer le panneau à droite ou à gauche à partir de l’emplacement de base. À chaque tentative, le composant vérifie si le panneau est clipsé par un conteneur extérieur. Si toutes les tentatives échouent, le composant tente de déplacer la position du panneau de base vers le haut et de répéter les tentatives de déploiement dans les directions droite et gauche. </p> <p>Lorsqu’il est défini sur <span class="codeph"> ajustement latéral</span>, le composant utilise une logique similaire, mais déplace d’abord la base vers la droite, en essayant de descendre et de monter les directions de déploiement. Ensuite, il déplace la base vers la gauche, en essayant de descendre et de monter les directions de déploiement. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"><span class="varname"> autoHideDelay</span></span> </p> </td> 
-   <td> <p> Définit le délai en secondes du minuteur de masquage automatique de la liste déroulante qui masque le panneau lorsqu’un utilisateur est inactif. </p> </td> 
+   <td> <p> <span class="codeph"><span class="varname"> Délai avant masquage automatique</span></span> </p> </td> 
+   <td> <p> Définit le délai en secondes pour le minuteur de masquage automatique déroulant qui masque le panneau lorsqu’un utilisateur est inactif. </p> </td> 
   </tr> 
  </tbody> 
 </table>

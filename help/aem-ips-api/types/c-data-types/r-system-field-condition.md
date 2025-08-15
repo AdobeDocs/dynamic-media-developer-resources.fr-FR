@@ -16,25 +16,25 @@ ht-degree: 6%
 
 Condition de recherche de champ système pour l’opération searchAssets.
 
-Pour les comparaisons unaires, transmettez exactement une valeur ( `boolVal`, `longVal`, `doubleVal` ou `dateVal`) en fonction du type de champ système. Pour les plages de recherche, transmettez les paramètres `min<Type>` et `max<Type>` et transmettez une valeur `op` de `Between` ou `NotBetween`.
+Pour les comparaisons unaires, transmettez exactement une valeur ( `boolVal`, `longVal`, `doubleVal`ou `dateVal`) selon le type de champ système. Pour les plages de recherche, transmettez `min<Type>` et `max<Type>` paramètres et transmettez une `op` valeur de `Between` ou `NotBetween`.
 
 ## Paramètres {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
 | Nom | Type | Description |
 |---|---|---|
-| champ | `xsd:string` | Choix des champs du système de recherche de ressources. |
-| op | `xsd:string` | Choix des opérateurs de comparaison de chaînes. |
+| champ | `xsd:string` | Choix des champs du système d’Search des ressources. |
+| Op | `xsd:string` | Choix des opérateurs de comparaison de chaînes. |
 | valeur | `xsd:string` | Valeur à tester. |
 | boolVal | `xsd:boolean` | Valeur de comparaison booléenne. |
 | longVal | `xsd:long` | Valeur de comparaison longue. |
-| minLong | `xsd:long` | Limite inférieure d’une longue plage. |
-| maxLong | `xsd:long` | Limite supérieure de longue plage. |
-| doubleVal | `xsd:double` | Valeur de comparaison double. |
-| minDouble | `xsd:double` | Limite inférieure d’une plage double. |
-| maxDouble | `xsd:double` | Limite supérieure de la plage double. |
-| dateVal | `xsd:dateTime` | Valeur de comparaison des dates. |
-| minDate | `xsd:dateTime` | Limite de plage de dates. |
-| maxDate | `xsd:dateTime` | Plage de dates maximale. |
+| MinLong | `xsd:long` | Limite inférieure de longue portée. |
+| MaxLong | `xsd:long` | Limite supérieure de longue portée. |
+| Valeur double | `xsd:double` | Valeur de double comparaison. |
+| minDouble | `xsd:double` | Limite inférieure de double portée. |
+| maxDouble | `xsd:double` | Limite supérieure de plage double. |
+| dateVal | `xsd:dateTime` | Valeur de comparaison de dates. |
+| minDate | `xsd:dateTime` | Période minimum. |
+| Date max. | `xsd:dateTime` | Plage de dates maximum. |
 
 ## Exemple {#section-347d4aabfff44530adba03d1dc0b9968}
 

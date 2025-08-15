@@ -1,6 +1,6 @@
 ---
-title: effetMask
-description: Permet de remplacer la valeur de l’attribut ApplyEffectMask pour la requête.
+title: effectMask
+description: Il remplace la valeur de l’attribut ApplyEffectMask pour la requête.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,10 +12,10 @@ ht-degree: 5%
 
 ---
 
-# effetMask{#effectmask}
+# effectMask{#effectmask}
 
-Remplace la valeur de l’attribut::ApplyEffectMask pour la requête.
+Il remplace la valeur de attribute::ApplyEffectMask pour la requête.
 
-La propriété EffetMasque est un modificateur global. Elle est appliquée à tous les calques d’effet de la requête.
+effectMask est un modificateur global. Elle est appliquée à tous les calques d’effet de la requête.
 
-Les valeurs valides sont 0 et 1. Zéro (0) signifie ne pas appliquer de masque d&#39;effet. Un (1) signifie appliquer un masque à effet. Par défaut : 1.
+Les valeurs valides sont 0 et 1. Zéro (0) signifie ne pas appliquer de masque d’effet. Un (1) moyen d&#39;appliquer un masque d&#39;effet. Par défaut : 1.

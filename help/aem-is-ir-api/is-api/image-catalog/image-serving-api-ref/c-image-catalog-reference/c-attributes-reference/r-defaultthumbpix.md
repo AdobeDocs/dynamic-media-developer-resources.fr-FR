@@ -1,5 +1,5 @@
 ---
-description: Taille de miniature par défaut. Utilisé à la place de l’attribut DefaultPix pour les demandes de miniature (req=tmb).
+description: Taille de miniature par défaut. Utilisé à la place de l’attribut DefaultPix pour les requêtes de miniature (req=tmb).
 solution: Experience Manager
 title: DefaultThumbPix
 feature: Dynamic Media Classic,SDK/API
@@ -14,19 +14,19 @@ ht-degree: 2%
 
 # DefaultThumbPix{#defaultthumbpix}
 
-Taille de miniature par défaut. Utilisé à la place d’attribute::DefaultPix pour les demandes de miniature (req=tmb).
+Taille de miniature par défaut. Utilisé à la place d’attribute::DefaultPix pour les requêtes de miniature (req=tmb).
 
-Le serveur oblige les images de réponse à ne pas dépasser cette largeur et cette hauteur, si une requête de miniature ( `req=tmb`) ne spécifie pas explicitement la taille d’affichage à l’aide de `wid=`, `hei=` ou `scl=`.
+Le serveur oblige les images de réponse à ne pas dépasser ces valeurs de largeur et de hauteur, si une demande de miniature ( `req=tmb`) ne spécifie pas la taille explicitement et ne spécifie pas la taille d’affichage explicitement à l’aide de `wid=`, `hei=` ou `scl=`.
 
 ## Propriétés {#section-650d9b1194fb4c47a03c6809e6b4af0e}
 
-Deux nombres entiers, 0 ou plus, séparés par une virgule. Largeur et hauteur en pixels. L’une ou l’autre des valeurs (ou les deux) peuvent être définies sur 0 pour ne pas être contraintes.
+Deux nombres entiers, supérieurs ou égaux à zéro, séparés par une virgule. Largeur et hauteur en pixels. Vous pouvez définir les deux valeurs sur 0 pour qu’elles ne soient pas contraintes.
 
 Ne s’applique pas aux requêtes imbriquées/incorporées.
 
 ## Par défaut {#section-2c4a4f14540449638822913513170ff1}
 
-Hérité de `default::DefaultThumbPix` si elle n’est pas définie ou si elle est vide.
+Hérité de `default::DefaultThumbPix` si non défini ou si vide.
 
 ## Voir aussi {#section-4ad00963ffa049fcb17ad63e6bbe7ac4}
 

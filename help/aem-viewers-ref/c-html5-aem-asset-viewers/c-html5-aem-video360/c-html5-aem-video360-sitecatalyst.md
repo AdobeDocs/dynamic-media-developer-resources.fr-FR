@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Prise en charge du suivi Adobe Analytics{#support-for-adobe-analytics-tracking}
 
-Par défaut, la visionneuse envoie une requête HTTP de suivi unique au serveur d’images configuré avec le type de visionneuse et les informations de version.
+Par défaut, la visionneuse envoie une seule requête HTTP de suivi au serveur d’images configuré avec le type et les informations de version de la visionneuse.
 
 ## Suivi personnalisé {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Pour s’intégrer à des systèmes d’analyse tiers, il est nécessaire d’écouter le rappel de la visionneuse `trackEvent` et de traiter l’argument `eventInfo` de la fonction de rappel si nécessaire. Le code suivant est un exemple de fonction de gestionnaire de ce type :
+Pour intégrer des systèmes d’analyse tiers, il est nécessaire d’écouter le rappel de la `trackEvent` visionneuse et de traiter l’argument `eventInfo` de la fonction de rappel si nécessaire. Le code suivant est un exemple de fonction de gestionnaire :
 
 ```javascript {.line-numbers}
 var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({ 
@@ -49,43 +49,43 @@ var interactiveVideoViewer = new s7viewers.InteractiveVideoViewer({
 });
 ```
 
-La visionneuse effectue le suivi des événements utilisateur du SDK suivants :
+La visionneuse effectue le suivi des événements utilisateur SDK suivants :
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Événement d’utilisateur du SDK </p> </th> 
-   <th colname="col2" class="entry"> <p>Envoyé... </p> </th> 
+   <th colname="col1" class="entry"> <p>Evénement utilisateur SDK </p> </th> 
+   <th colname="col2" class="entry"> <p>Envoyèrent... </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> LOAD </span> </p> </td> 
-   <td colname="col2"> <p>lorsque la visionneuse est chargée en premier. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> CHARGER </span> </p> </td> 
+   <td colname="col2"> <p>Lorsque la visionneuse est chargée en premier. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
-   <td colname="col2"> <p>lorsqu’une ressource est échangée dans la visionneuse à l’aide de l’API <span class="codeph"> setAsset() </span>. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ÉCHANGER </span> </p> </td> 
+   <td colname="col2"> <p>lorsqu’une ressource est permutée dans la visionneuse à l’aide <span class="codeph"> de l’API setAsset(). </span> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> PLAY </span> </p> </td> 
-   <td colname="col2"> <p>lorsque la lecture démarre. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> JOUER </span> </p> </td> 
+   <td colname="col2"> <p>au démarrage de la lecture. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PAUSE </span> </p> </td> 
-   <td colname="col2"> <p>lorsque la lecture est mise en pause. </p> </td> 
+   <td colname="col2"> <p>lorsque la lecture est interrompue. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> STOP </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> ARRÊTER </span> </p> </td> 
    <td colname="col2"> <p>lorsque la lecture est arrêtée. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> MILESTONE </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> JALON </span> </p> </td> 
    <td colname="col2"> <p>lorsque la lecture atteint l’un des jalons suivants : 0 %, 25 %, 50 %, 75 % ou 100 %. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> INTERACTIVE_SWATCH </span> </p> </td> 
-   <td colname="col2"> <p>chaque fois que l’utilisateur clique sur un échantillon interactif. </p> </td> 
+   <td colname="col2"> <p>Chaque fois que l’utilisateur clique sur un échantillon interactif. </p> </td> 
   </tr> 
  </tbody> 
 </table>

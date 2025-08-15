@@ -1,5 +1,5 @@
 ---
-description: Coordonnées de l’emplacement de l’image renvoyées par l’opération getPhotoshopPath.
+description: Coordonnées d’emplacement des images renvoyées par l’opération getPhotoshopPath.
 solution: Experience Manager
 title: PerspectiveQuad
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 8%
 
 # [!DNL PerspectiveQuad]{#perspectivequad}
 
-Coordonnées de l’emplacement de l’image renvoyées par l’opération getPhotoshopPath.
+Coordonnées d’emplacement des images renvoyées par l’opération getPhotoshopPath.
 
 Syntaxe
 
@@ -22,18 +22,18 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| x0 | `xsd:double` | Coordonnée de l’axe X supérieure gauche. |
-| y0 | `xsd:double` | Coordonnée de l’axe Y supérieure gauche. |
-| x1 | `xsd:double` | Coordonnée de l’axe X supérieur droit. |
-| y1 | `xsd:double` | Coordonnée de l’axe y supérieure droite. |
-| x2 | `xsd:double` | Coordonnée inférieure droite de l’axe X. |
-| y2 | `xsd:double` | Coordonnée inférieure droite de l’axe Y. |
-| x3 | `xsd:double` | Coordonnée de l’axe X inférieur gauche. |
-| y3 | `xsd:double` | Coordonnée de l’axe Y inférieur gauche. |
+| x0 | `xsd:double` | Coordonnées de l’axe X en haut à gauche. |
+| y0 | `xsd:double` | Coordonnées de l’axe y en haut à gauche. |
+| x1 | `xsd:double` | Coordonnées de l’axe X en haut à droite. |
+| y1 | `xsd:double` | Coordonnées de l’axe y en haut à droite. |
+| x2 | `xsd:double` | Coordonnées de l’axe X en bas à droite. |
+| y2 | `xsd:double` | Coordonnées de l’axe y en bas à droite. |
+| x3 | `xsd:double` | Cooridnate de l’axe X en bas à gauche. |
+| y3 | `xsd:double` | Coordonnées de l’axe y en bas à gauche. |
 
 ## Exemple {#section-19ed4409ff3a41c9b52a9c9424612927}
 
-Le type `PerspectiveQuad` renvoie les données dans l’ordre suivant :
+Le `PerspectiveQuad` type renvoie les données dans cet ordre :
 
 ```
 <complexType name="PerspectiveQuad">

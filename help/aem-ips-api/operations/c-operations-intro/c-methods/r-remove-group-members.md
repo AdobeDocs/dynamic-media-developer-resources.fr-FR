@@ -16,7 +16,7 @@ ht-degree: 8%
 
 Supprime les utilisateurs de l’entreprise d’un groupe spécifique.
 
-**Différences entre les commandes de suppression**
+**Différences Entre Les Commandes De Suppression**
 
 * `removeGroupMembers` : supprime plusieurs utilisateurs d’un groupe.
 * `removeGroupMembership` : supprime un utilisateur individuel d’un tableau de groupes.
@@ -29,15 +29,15 @@ Supprime les utilisateurs de l’entreprise d’un groupe spécifique.
 
 ## Paramètres {#section-b5596614a3be4ce5962455884e4636af}
 
-**Entrée (removeGroupMembersParam)**
+**Input (removeGroupMembersParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gestionnaire de l’entreprise avec les utilisateurs avec lesquels vous souhaitez travailler. |
-| groupHandle | `xsd:string` | Oui | Poignée de groupe. |
-| userHandleArray | `types:HandleArray` | Oui | Tableau de gestionnaires pour les utilisateurs dont vous souhaitez supprimer des appartenances à un groupe. |
+| companyHandle | `xsd:string` | Oui | La poignée de la société avec les utilisateurs avec lesquels vous souhaitez travailler. |
+| groupHandle | `xsd:string` | Oui | Identifiant du groupe. |
+| userHandleArray | `types:HandleArray` | Oui | Tableau d’identifiants pour les utilisateurs dont vous souhaitez supprimer les appartenances à des groupes. |
 
-**Sortie (removeGroupMembersParam)**
+**Output (removeGroupMembersParam)**
 
 L’API IPS ne renvoie pas de réponse pour cette opération.
 

@@ -22,5 +22,5 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| assetHandle | `xsd:string` | Poignée de ressource. |
-| thumbAssetHandle | `xsd:string` | Poignée de ressource de miniature. |
+| assetHandle | `xsd:string` | Identifiant de ressource. |
+| thumbAssetHandle | `xsd:string` | Poignée de la ressource de pouces. |

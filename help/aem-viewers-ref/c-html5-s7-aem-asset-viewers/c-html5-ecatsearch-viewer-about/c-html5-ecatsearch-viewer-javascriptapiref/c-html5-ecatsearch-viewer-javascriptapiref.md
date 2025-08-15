@@ -1,6 +1,6 @@
 ---
-title: Référence de l’API JavaScript pour la visionneuse de recherche eCatalog
-description: La classe principale de la visionneuse de recherche de catalogue électronique est eCatalogSearchViewer. Il est déclaré dans l’espace de noms s7viewers. Cette API JavaScript couvre le constructeur, les méthodes et les rappels de cette classe particulière.
+title: JavaScript de référence de l’API pour la visionneuse Search catalogue électronique
+description: La classe principale de la visionneuse de Search catalogue électronique est eCatalogSearchViewer. Elle est déclarée dans l’espace de noms s7viewers. Cette API JavaScript couvre le constructeur, les méthodes et les rappels de cette classe particulière.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
@@ -12,18 +12,18 @@ ht-degree: 0%
 
 ---
 
-# Référence de l’API JavaScript pour la visionneuse de recherche eCatalog{#javascript-api-reference-for-ecatalog-search-viewer}
+# JavaScript de référence de l’API pour la visionneuse Search catalogue électronique{#javascript-api-reference-for-ecatalog-search-viewer}
 
-La classe principale de la visionneuse de recherche de catalogue électronique est eCatalogSearchViewer. Il est déclaré dans l’espace de noms s7viewers. Cette API JavaScript couvre le constructeur, les méthodes et les rappels de cette classe particulière.
+La classe principale de la visionneuse de Search catalogue électronique est eCatalogSearchViewer. Elle est déclarée dans l’espace de noms s7viewers. Cette API JavaScript couvre le constructeur, les méthodes et les rappels de cette classe particulière.
 
-Dans tous les exemples suivants, `<instance>` correspond au nom réel de l’objet de visionneuse JavaScript instancié à partir de la classe `s7viewers.eCatalogSearchViewer`.
+Dans tous les exemples suivants, `<instance>` représente le nom réel de l’objet de visionneuse JavaScript instancié de la `s7viewers.eCatalogSearchViewer` classe.
 
-* [dispose](r-html5-ecatsearch-javascriptapiref-dispose.md)
-* [eCatalogSearchViewer](r-html5-ecatsearch-javascriptapiref-ecatalogsearchviewer.md)
+* [disposer](r-html5-ecatsearch-javascriptapiref-dispose.md)
+* [Visionneuse de recherche de catalogue électronique](r-html5-ecatsearch-javascriptapiref-ecatalogsearchviewer.md)
 * [getComponent](r-html5-ecatsearch-javascriptapiref-getcomponent.md)
-* [init](r-html5-ecatsearch-javascriptapiref-init.md)
+* [Init](r-html5-ecatsearch-javascriptapiref-init.md)
 * [setAsset](r-html5-ecatsearch-javascriptapiref-setasset.md)
-* [setContainerId](r-html5-ecatsearch-javascriptapiref-setcontainerid.md)
+* [Paramètre setContainerId](r-html5-ecatsearch-javascriptapiref-setcontainerid.md)
 * [setHandlers](r-html5-ecatsearch-javascriptapiref-sethandlers.md)
 * [setLocalizedTexts](r-html5-ecatsearch-javascriptapiref-setlocalizedtexts.md)
 * [setParam](r-html5-ecatsearch-javascriptapiref-setparam.md)

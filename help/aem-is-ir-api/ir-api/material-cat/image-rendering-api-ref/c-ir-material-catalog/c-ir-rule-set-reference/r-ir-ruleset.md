@@ -1,7 +1,7 @@
 ---
-description: Elément Conteneur de règles. Un fichier d’ensemble de règles valide contient un élément <ruleSet> .
+description: Elément de conteneur de règles. Un fichier d’ensemble de règles valide contient un <ruleset> élément.</ruleset>
 solution: Experience Manager
-title: ensemble de règles
+title: jeu de règles
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 506eee1b-bd9f-42b7-bd9b-9bc04a1d0939
@@ -12,9 +12,9 @@ ht-degree: 3%
 
 ---
 
-# ensemble de règles{#ruleset}
+# jeu de règles{#ruleset}
 
-Elément Conteneur de règles. Un fichier d’ensemble de règles valide contient un élément `<ruleset>`.
+Elément de conteneur de règles. Un fichier d’ensemble de règles valide contient un `<ruleset>` élément.
 
 ## Attributs {#section-4840a223a0c34c50a1b6f4b7b9beb2c2}
 
@@ -22,4 +22,4 @@ Aucune
 
 ## Données {#section-e14075abf630473bba78b5032e4e5a11}
 
-Aucun ou plusieurs éléments `<rule>` .
+Aucun ou plusieurs `<rule>` éléments.

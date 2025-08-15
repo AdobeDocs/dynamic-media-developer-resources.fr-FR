@@ -1,6 +1,6 @@
 ---
-title: Demande d’imbrication et d’incorporation
-description: Le rendu d’image permet l’incorporation de requêtes de diffusion d’images et de requêtes HTTP à des serveurs étrangers afin de récupérer les images de matériau utilisées pour les textures et les décalages répétables.
+title: Demander l’imbrication et l’incorporation
+description: Le rendu d’image permet d’incorporer les requêtes de diffusion d’images et les requêtes HTTP aux serveurs étrangers afin de récupérer les images matérielles utilisées pour les textures et les vignettes répétables.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -12,10 +12,10 @@ ht-degree: 0%
 
 ---
 
-# Demande d’imbrication et d’incorporation{#request-nesting-and-embedding}
+# Demander l’imbrication et l’incorporation{#request-nesting-and-embedding}
 
-Le rendu d’image permet l’incorporation de requêtes de diffusion d’images et de requêtes HTTP à des serveurs étrangers afin de récupérer les images de matériau utilisées pour les textures et les décalages répétables.
+Le rendu d’image permet d’incorporer les requêtes de diffusion d’images et les requêtes HTTP aux serveurs étrangers afin de récupérer les images matérielles utilisées pour les textures et les vignettes répétables.
 
-Ces mécanismes ne sont pas pris en charge pour les documents de Cabinet et de Couverture de fenêtre.
+Ces mécanismes ne sont pas pris en charge pour les matériaux d&#39;armoire et de couvre-fenêtre.
 
-Voir aussi [src=](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) et Image Serving Reference.
+Consultez également la section [src=](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272) et Référence de diffusion d’images.

@@ -1,6 +1,6 @@
 ---
-title: Référence de commande - Attributs de configuration
-description: Documentation sur les attributs de configuration de la visionneuse de zoom de base.
+title: Référence de commande – Attributs de configuration
+description: Documentation sur les attributs de configuration pour la visionneuse de zoom de base.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Référence de commande - Attributs de configuration{#command-reference-configuration-attributes}
+# Référence de commande – Attributs de configuration{#command-reference-configuration-attributes}
 
-Documentation sur les attributs de configuration de la visionneuse de zoom de base.
+Documentation sur les attributs de configuration pour la visionneuse de zoom de base.
 
 <!--<a id="section_F52FF0F139604447A870ABE6E1C03444"></a>-->
 

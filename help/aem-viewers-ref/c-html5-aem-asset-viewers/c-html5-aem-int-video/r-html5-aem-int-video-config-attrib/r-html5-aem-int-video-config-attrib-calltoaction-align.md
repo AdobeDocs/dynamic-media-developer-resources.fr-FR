@@ -1,6 +1,6 @@
 ---
 title: CallToAction.align
-description: Attribut de configuration de la visionneuse de vidéos interactives.
+description: Attribut de configuration pour la visionneuse de vidéos interactives.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
@@ -14,15 +14,15 @@ ht-degree: 3%
 
 # CallToAction.align{#calltoaction-align}
 
-Attribut de configuration de la visionneuse de vidéos interactives.
+Attribut de configuration pour la visionneuse de vidéos interactives.
 
 `[CallToAction.|<containerId>_callToAction.]align=left|center|right`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> left|center|right</span> </p> </td> 
-   <td colname="col2"> <p> Indique l’alignement horizontal interne (ou ancrage) du conteneur de miniatures dans la zone du composant. </p> <p>Dans l’appel à l’action, le conteneur de miniatures interne est dimensionné de sorte que seul un nombre entier de miniatures s’affiche. Par conséquent, il existe une marge intérieure entre le conteneur interne et les limites du composant externe. </p> <p>Ce modificateur spécifie la manière dont le conteneur de miniatures internes est positionné horizontalement à l’intérieur du composant. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> gauche|centre|droite</span> </p> </td> 
+   <td colname="col2"> <p> Indique l’alignement horizontal interne (ou ancrage) du conteneur de miniatures dans la zone du composant. </p> <p>Dans call-to-action, le conteneur des miniatures internes est dimensionné de sorte que seul un nombre entier de miniatures soit affiché. Par conséquent, il existe une certaine marge intérieure entre le conteneur interne et les limites du composant externe. </p> <p>Ce modificateur spécifie la manière dont le conteneur de miniatures internes est positionné horizontalement à l’intérieur du composant. </p> </td> 
   </tr> 
  </tbody> 
 </table>

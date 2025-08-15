@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| emailSetting | `xsd:string` | Un champ de paramètres de courrier électronique. |
+| emailSetting | `xsd:string` | Champ de paramètres d’e-mail. |

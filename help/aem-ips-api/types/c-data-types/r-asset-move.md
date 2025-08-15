@@ -1,6 +1,6 @@
 ---
-title: AssetMove
-description: Poignée vers une ressource et poignée vers l’emplacement où elle est déplacée.
+title: Déplacement d’actifs
+description: Poignée d’une ressource et poignée à l’endroit où elle est déplacée.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # [!DNL AssetMove]{#assetmove}
 
-Poignée vers une ressource et poignée vers l’emplacement où elle est déplacée.
+Poignée d’une ressource et poignée à l’endroit où elle est déplacée.
 
 Syntaxe
 
@@ -22,5 +22,5 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| assetHandle | `xsd:string` | Poignée de la ressource que vous souhaitez déplacer. |
-| folderHandle | `xsd:string` | Gestionnaire du dossier de destination. |
+| AssetHandle | `xsd:string` | Poignée de la ressource que vous souhaitez déplacer. |
+| poignée de dossier | `xsd:string` | La poignée vers le dossier de destination. |

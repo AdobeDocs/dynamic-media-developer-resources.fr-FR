@@ -33,25 +33,25 @@ Syntaxe
 
 ## Paramètres {#section-03d22ba7d290477e91c25ca1d4439200}
 
-**Entrée (createImageSetParam)**
+**Input (createImageSetParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
 | companyHandle | `xsd:string` | Oui | Gestionnaire de la société à laquelle appartient la visionneuse d’images. |
-| folderHandle | `xsd:string` | Oui | Gestionnaire du dossier. |
+| folderHandle | `xsd:string` | Oui | La poignée du dossier. |
 | nom | `xsd:string` | Oui | Nom de la visionneuse d’images. |
 | type | `xsd:string` | Oui | Type de visionneuse d’images. |
-| thumbAssetHandle | `xsd:string` | Non | Gestion de la ressource qui agit comme miniature de la nouvelle visionneuse d’images. S’il n’est pas spécifié, IPS tente d’utiliser la première ressource d’image référencée par la visionneuse. |
+| thumbAssetHandle | `xsd:string` | Non | Gestionnaire de la ressource qui agit comme la miniature de la nouvelle visionneuse d’images. S’il n’est pas spécifié, IPS tente d’utiliser la première ressource d’image référencée par la visionneuse. |
 
 **Output**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| assetHandle | `xsd:string` | Oui | Gestion de la nouvelle visionneuse d’images. |
+| assetHandle | `xsd:string` | Oui | La poignée de la nouvelle visionneuse d’images. |
 
 ## Exemples {#section-385fe3b0af8044b0a2451336ec137fc5}
 
-Cet exemple de code crée un jeu d’images spécifié par l’entreprise, le dossier, le nom et le type. La réponse est un gestionnaire de ressources de la visionneuse d’images nouvellement créée.
+Cet exemple de code crée une visionneuse d’images spécifiée par la société, le dossier, le nom et le type. La réponse est un handle de ressource de la visionneuse d’images nouvellement créée.
 
 **Requête**
 

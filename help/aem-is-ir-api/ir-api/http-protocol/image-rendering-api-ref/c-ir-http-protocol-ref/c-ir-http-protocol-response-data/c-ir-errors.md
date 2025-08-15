@@ -1,6 +1,6 @@
 ---
 title: Erreurs
-description: Si une requête ne peut pas être effectuée correctement, le serveur renvoie une image d’erreur ou un état de réponse HTTP autre que 200 avec un message d’erreur.
+description: Si une demande ne peut pas être effectuée avec succès, le serveur renvoie une image d’erreur ou un état de réponse HTTP autre que 200 avec un message d’erreur.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
@@ -14,16 +14,16 @@ ht-degree: 1%
 
 # Erreurs{#errors}
 
-Si une requête ne peut pas être effectuée correctement, le serveur renvoie une image d’erreur ou un état de réponse HTTP autre que 200 avec un message d’erreur.
+Si une demande ne peut pas être effectuée avec succès, le serveur renvoie une image d’erreur ou un état de réponse HTTP autre que 200 avec un message d’erreur.
 
-La valeur de l’état de la réponse dépend du type de l’erreur. Pour la plupart des erreurs courantes, il s’agit de &quot;403&quot;. Les réponses d’erreur pour les types de requêtes autres que les images sont conformes au format spécifié avec `req=`. (Il se peut que la mise en oeuvre ne soit pas cohérente actuellement.)
+La valeur de l’état de réponse dépend du type de l’erreur ; pour la plupart des erreurs courantes, il s’agit de « 403 ». Les réponses d’erreur pour les types de demandes autres que les images sont conformes au format spécifié avec `req=`. (Peut ne pas être implémenté de manière cohérente actuellement.)
 
 La quantité de détails incluse dans le message d’erreur peut être configurée avec `attribute::ErrorDetail`.
 
-**Image d’erreur**
+**Images d’erreur**
 
-La diffusion d’images peut être configurée pour renvoyer les messages d’erreur rendus dans une image. Pour plus d’informations, voir `attribute::ErrorImage` dans la référence du catalogue d’images. Si l’image d’erreur est générée, l’état de la réponse HTTP est 200. Si une erreur se produit lors du traitement de l’image d’erreur, la réponse d’erreur HTTP standard et le message texte sont renvoyés au client.
+La diffusion d’images peut être configurée pour renvoyer les messages d’erreur rendus dans une image. Voir `attribute::ErrorImage` dans le catalogue d’images référence pour plus de détails. Si l’image d’erreur est générée avec succès, l’état de réponse HTTP est 200. Si une erreur se produit lors du traitement de l’image d’erreur, la réponse d’erreur HTTP standard et le message texte sont renvoyés au client.
 
 **Voir aussi**
 
-[attribute::ErrorDetail](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errordetail.md#reference-123b56eed6cf49cea6e0490672b7c53b) , [attribute::ErrorImage](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errorimage.md#reference-b58bdaba96074c52802ca8dc54bfe2f0)
+[attribute ::ErrorDetail](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errordetail.md#reference-123b56eed6cf49cea6e0490672b7c53b) , [attribute ::ErrorImage](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-errorimage.md#reference-b58bdaba96074c52802ca8dc54bfe2f0)

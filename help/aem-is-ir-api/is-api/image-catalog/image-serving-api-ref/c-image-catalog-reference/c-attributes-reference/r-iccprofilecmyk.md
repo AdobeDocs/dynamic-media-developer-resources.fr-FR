@@ -1,5 +1,5 @@
 ---
-description: Profil colorimétrique de sortie par défaut CMJN. Indique le nom du profil de couleurs ICC à utiliser pour les images de réponse CMJN lorsqu’aucun espace colorimétrique de sortie n’est spécifié avec icc= et pour certaines valeurs de couleurs CMJN spécifiées avec diverses commandes de diffusion d’images, telles que color=.
+description: Profil colorimétrique de sortie CMJN par défaut. Indique le nom du profil colorimétrique ICC à utiliser pour les images de réponse CMJN lorsqu’aucun espace colorimétrique de sortie n’est spécifié avec icc= et pour certaines valeurs de couleur CMJN spécifiées avec différentes commandes de diffusion d’images, telles que color=.
 solution: Experience Manager
 title: IccProfileCmyk
 feature: Dynamic Media Classic,SDK/API
@@ -14,15 +14,15 @@ ht-degree: 2%
 
 # IccProfileCmyk{#iccprofilecmyk}
 
-Profil colorimétrique de sortie par défaut CMJN. Indique le nom du profil de couleurs ICC à utiliser pour les images de réponse CMJN lorsqu’aucun espace colorimétrique de sortie n’est spécifié avec icc= et pour certaines valeurs de couleurs CMJN spécifiées avec diverses commandes de diffusion d’images, telles que color=.
+Profil colorimétrique de sortie CMJN par défaut. Indique le nom du profil colorimétrique ICC à utiliser pour les images de réponse CMJN lorsqu’aucun espace colorimétrique de sortie n’est spécifié avec icc= et pour certaines valeurs de couleur CMJN spécifiées avec différentes commandes de diffusion d’images, telles que color=.
 
 ## Propriétés {#section-d8b6102cc1c744d482f99808ccfcaa24}
 
-Chaîne de texte. Si spécifié, doit être une valeur `icc::Name` valide provenant de la carte de profil ICC de ce catalogue d’images ou du catalogue par défaut, ou un chemin d’accès au fichier relatif à `attribute::RootPath`. Le profil ICC référencé doit être un profil CMJN.
+Chaîne de texte. Si spécifié, doit être une valeur de `icc::Name` valide de la carte de profil ICC de ce catalogue d’images ou du catalogue par défaut, ou un chemin d’accès au fichier relatif à `attribute::RootPath`. Le profil ICC référencé doit être un profil CMJN.
 
 ## Par défaut {#section-62442df09a724950bfbdd0640b3e6678}
 
-Hérité de `default::IccProfileCmyk` si elle n’est pas définie ou si elle est vide.
+Hérité de `default::IccProfileCmyk` si non défini ou si vide.
 
 ## Voir aussi {#section-17071d1ed5ad469490fd715ba8f4d30d}
 

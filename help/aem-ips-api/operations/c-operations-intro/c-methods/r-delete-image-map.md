@@ -1,5 +1,5 @@
 ---
-description: Supprime une zone cliquable.
+description: Supprime une zone cliquable
 solution: Experience Manager
 title: deleteImageMap
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 # deleteImageMap{#deleteimagemap}
 
-Supprime une zone cliquable.
+Supprime une zone cliquable
 
 Syntaxe
 
@@ -29,16 +29,16 @@ Syntaxe
 
 >[!NOTE]
 >
->L’utilisateur doit disposer d’un accès en lecture et en écriture à la ressource.
+>L’utilisateur doit disposer d’un accès en lecture et écriture à la ressource.
 
 ## Paramètres {#section-28de12bab79045a5977c68855e37ae3d}
 
-**Entrée (deleteImageMapParam)**
+**Input (deleteImageMapParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| companyHandle | `xsd:string` | Oui | Gestionnaire de la société qui contient la zone cliquable à supprimer. |
-| imageMapHandle | `xsd:string` | Oui | Gérer la zone cliquable à supprimer. |
+| companyHandle | `xsd:string` | Oui | Descripteur de la société contenant la zone cliquable à supprimer. |
+| imageMapHandle | `xsd:string` | Oui | Poignée de la zone cliquable à supprimer. |
 
 **Output (deleteImageMapParam)**
 
@@ -46,7 +46,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-b238da3332fb4e3eb3f8bda0bd6a2035}
 
-Cet exemple de code supprime une zone cliquable d’une société. Vous devez obtenir la gestion de la zone cliquable à partir d’une autre opération.
+Cet exemple de code supprime une zone cliquable d’une entreprise. Vous devez obtenir l’identificateur de zone cliquable à partir d’une autre opération.
 
 **Requête**
 

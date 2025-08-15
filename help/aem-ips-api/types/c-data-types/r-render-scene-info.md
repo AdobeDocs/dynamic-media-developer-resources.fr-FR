@@ -1,5 +1,5 @@
 ---
-description: Propriétés de la ressource de scène de rendu.
+description: Rendu des propriétés du fichier de scène.
 solution: Experience Manager
 title: RenderSceneInfo
 feature: Dynamic Media Classic,SDK/API
@@ -14,7 +14,7 @@ ht-degree: 26%
 
 # [!DNL RenderSceneInfo]{#rendersceneinfo}
 
-Propriétés de la ressource de scène de rendu.
+Rendu des propriétés du fichier de scène.
 
 Syntaxe
 
@@ -22,4 +22,4 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| url | `xsd:string` | URL du serveur d’images qui représente la scène du rendu. |
+| url | `xsd:string` | URL du serveur d’images représentant la scène de rendu. |

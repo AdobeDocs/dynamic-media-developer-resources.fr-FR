@@ -16,4 +16,4 @@ ht-degree: 0%
 
 Type de données en nombre réel.
 
-Valeur en virgule flottante signée (par exemple, 0, 12.5, 245, -2.34e4). Les valeurs 0 ou négatives peuvent avoir une signification spéciale.
+Valeur à virgule flottante signée (par exemple, 0, 12,5, 245, -2,34e4). 0 ou les valeurs négatives peuvent avoir une signification particulière.

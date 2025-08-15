@@ -1,7 +1,7 @@
 ---
-description: Journal des modifications
+description: Log des modifications
 solution: Experience Manager
-title: Journal des modifications
+title: Log des modifications
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 15228b48-90a8-4d45-ade3-d5c6962549eb
@@ -12,7 +12,7 @@ ht-degree: 70%
 
 ---
 
-# Journal des modifications{#change-log}
+# Log des modifications{#change-log}
 
 * [Version 6.0](c-change-log/c-6/c-6.md)
 * [Version 4.5](c-change-log/c-4-5/c-4-5.md)

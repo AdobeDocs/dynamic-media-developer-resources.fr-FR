@@ -1,5 +1,5 @@
 ---
-description: Récupérez le statut détaillé d’une tâche envoyée.
+description: Récupère le statut détaillé d’une tâche envoyée.
 solution: Experience Manager
 title: batchjobdetailedstatus
 feature: Dynamic Media Classic,SDK/API
@@ -14,20 +14,20 @@ ht-degree: 2%
 
 # batchjobdetailedstatus{#batchjobdetailedstatus}
 
-Récupérez le statut détaillé d’une tâche envoyée.
+Récupère le statut détaillé d’une tâche envoyée.
 
 Ce paramètre :
 
 <table id="simpletable_9C379451927C4058834640377C0BD7A0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> jobid </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> du jobid </span> </p> </td> 
   <td class="stentry"> <p>Identifiant de tâche obtenu au moment de l’envoi. </p> </td> 
  </tr> 
 </table>
 
 Renvoie :
 
-État détaillé de la tâche au format XML ; erreur si `jobid` n’est pas valide ou si la tâche a été supprimée.
+Statut détaillé du traitement au format XML ; erreur si `jobid` n’est pas valide ou si le traitement a été supprimé.
 
 ## Exemple {#section-55f463750afe4814b5fdbaa2f1aafab4}
 
