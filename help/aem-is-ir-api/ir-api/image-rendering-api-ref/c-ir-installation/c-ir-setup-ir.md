@@ -16,6 +16,6 @@ ht-degree: 0%
 
 Le rendu d’image est configuré avec `fileinstall_folder/conf/ImageRendering.conf`.
 
-Pour plus d’informations, consultez la section Configuration de la documentation. Sous Windows uniquement, ce fichier est également accessible à partir du menu Démarrer : **[!UICONTROL Menu Démarrer >]** Programmes > **[!UICONTROL Scene7]****[!UICONTROL >]** Modifier le fichier **[!UICONTROL de configuration]** Image Rendering.
+Pour plus d’informations, consultez la section Configuration de la documentation. Sous Windows uniquement, ce fichier est également accessible à partir du menu Démarrer : **[!UICONTROL Menu Démarrer >]** Programmes > **[!UICONTROL Scene7]**&#x200B;**[!UICONTROL >]** Modifier le fichier **[!UICONTROL de configuration]** Image Rendering.
 
 Pour arrêter et démarrer le rendu d’images, reportez-vous à la documentation Image Server. Le rendu d’images ne peut pas être arrêté ou démarré séparément depuis le serveur d’images.

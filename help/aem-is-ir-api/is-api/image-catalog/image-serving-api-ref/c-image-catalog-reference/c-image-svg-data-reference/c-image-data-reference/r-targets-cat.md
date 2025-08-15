@@ -20,13 +20,13 @@ Le serveur renvoie le contenu de ce champ en réponse à `req=targets`, après a
 
 Vous pouvez associer jusqu’à quatre propriétés à chaque cible de zoom :
 
-` Target. *``*.frame= *`image numérique`*`
+` Target. *` `*.frame= *`image numérique`*`
 
-` Target. *``*.rect= *`num gauche, haut, largeur, hauteur`*`
+` Target. *` `*.rect= *`num gauche, haut, largeur, hauteur`*`
 
-` Target. *``*.label= *`libellé numérique`*`
+` Target. *` `*.label= *`libellé numérique`*`
 
-` Target. *``*.userData= *`num userData`*`
+` Target. *` `*.userData= *`num userData`*`
 
 <table id="simpletable_4C20157A7A444DEB9959B335CAFBAEC8"> 
  <tr class="strow"> 

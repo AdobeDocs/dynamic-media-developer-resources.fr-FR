@@ -14,7 +14,7 @@ ht-degree: 9%
 
 # EmbedShare.embedsizes{#embedshare-embedsizes}
 
-[!DNL ` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *`width height`*[,0|1][; *``*, *`width height`*[,0|1]]`]
+[!DNL ` [EmbedShare.|<containerId>_embedShare.]embedsizes= *` `*, *`width height`*[,0|1][; *` `*, *`width height`*[,0|1]]`]
 
 <table id="table_2B109D2F91E64B5382B31921C3780FA5"> 
  <tbody> 

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Les fichiers de données de catalogue peuvent avoir n’importe quel nom et suffixe de fichier (à l’exception de .ini). Ils peuvent être facilement conservés à l’aide d’applications qui prennent en charge les fichiers de données texte délimités par des tabulations, telles que Microsoft Excel et Access.
 
-Essentiellement un tableau bidimensionnel, un fichier de données de catalogue se compose d’un enregistrement d’en-tête qui identifie les colonnes de données et n’importe quel nombre d’enregistrements de données (lignes). Les champs de l’en-tête et des enregistrements de données sont séparés par des caractères uniques `<TAB>` . Les enregistrements sont séparés par un seul `<CR>` (code ASCII), un seul `0xD` (code `<LF>``0xA`ASCII) ou une `<CR><LF>` paire.
+Essentiellement un tableau bidimensionnel, un fichier de données de catalogue se compose d’un enregistrement d’en-tête qui identifie les colonnes de données et n’importe quel nombre d’enregistrements de données (lignes). Les champs de l’en-tête et des enregistrements de données sont séparés par des caractères uniques `<TAB>` . Les enregistrements sont séparés par un seul `<CR>` (code ASCII), un seul `0xD` (code `<LF>` `0xA`ASCII) ou une `<CR><LF>` paire.
 
 L’enregistrement d’en-tête doit contenir les noms exacts de chaque champ de données. Les champs vides ne sont pas autorisés dans la rangée d’en-tête. Les noms des champs de données ne sont pas sensibles à la casse. Tous les noms de champs doivent être uniques.
 
@@ -24,7 +24,7 @@ Les espaces ne peuvent pas être utilisés comme séparateurs de champs. Aucun e
 
 Dans les enregistrements de données, deux caractères adjacents `<TAB>` indiquent un champ vide. Les champs vides peuvent hériter des valeurs par défaut des attributs de catalogue ou des valeurs par défaut du serveur.
 
-Les champs de données peuvent éventuellement être encadrés de guillemets doubles. Ils ne doivent pas contenir `<CR>``<LF>`, ni `<TAB>` caractères, sauf si la valeur de données est de type texte et est entourée de guillemets doubles. Les champs de données ne doivent pas être codés en HTTP.
+Les champs de données peuvent éventuellement être encadrés de guillemets doubles. Ils ne doivent pas contenir `<CR>` `<LF>`, ni `<TAB>` caractères, sauf si la valeur de données est de type texte et est entourée de guillemets doubles. Les champs de données ne doivent pas être codés en HTTP.
 
 Sauf indication contraire, plusieurs valeurs de données d’un même champ sont séparées par des virgules.
 

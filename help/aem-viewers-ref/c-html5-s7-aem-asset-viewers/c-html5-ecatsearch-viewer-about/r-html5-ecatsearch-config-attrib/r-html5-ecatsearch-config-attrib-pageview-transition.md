@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # PageView.transition{#pageview-transition}
 
-[!DNL `[PageView.|<containerId>_pageView.]transition= *`Assouplissement du temps`*[, *``*]`]
+[!DNL `[PageView.|<containerId>_pageView.]transition= *`Assouplissement du temps`*[, *` `*]`]
 
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 

@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Taille de calque. Spécifie la taille ou la taille maximale du calque d’un calque avant d’appliquer au calque rotate=, perspective= et extend=.
 
-` size= *``*, *`width height`*`
+` size= *` `*, *`width height`*`
 
 ` sizeN= *`widthN`*, *`heightN`*`
 
@@ -43,7 +43,7 @@ Attribut de calque. S’applique au calque 0 si `layer=comp`. `sizeN=` n’est p
 
 ## Par défaut {#section-43d129deba6a441da66a1fdb63d1c85c}
 
-`size=0,0`, la taille du calque n’est pas limitée. Pour les calques d’image, la taille du calque est ensuite déterminée en fonction de la taille de l’image du calque après l’application des opérations `crop=``scale=` ou des `res=`modifications. Pour les calques de texte, si `size=` n’est pas spécifié, le calque est automatiquement dimensionné pour s’adapter au texte rendu.
+`size=0,0`, la taille du calque n’est pas limitée. Pour les calques d’image, la taille du calque est ensuite déterminée en fonction de la taille de l’image du calque après l’application des opérations `crop=` `scale=` ou des `res=`modifications. Pour les calques de texte, si `size=` n’est pas spécifié, le calque est automatiquement dimensionné pour s’adapter au texte rendu.
 
 Les calques de couleur unie nécessitent une propriété entièrement spécifiée `size=`, un ou `mask=`une `clipPath=`.
 

@@ -47,11 +47,11 @@ Chaque élément d’une série d’échantillons de base se compose d’une ré
 
 | `*`Série d’échantillons de base`*` | `*`Élément`*&#42;[',' *`d’échantillon Élément d’échantillon`*]` |
 |---|---|
-| `*`Élément d’échantillon`*` | `*`Échantillon d’ID d’image`*[';' *``*]` |
+| `*`Élément d’échantillon`*` | `*`Échantillon d’ID d’image`*[';' *` `*]` |
 | `*`échantillon`*` | `*`Identifiant de l’échantillon`*|solidColorSpecifier` |
 | `*`ID d’image`*` | Référence d’image IS (catalogue/id) |
 | `*`Identifiant de l’échantillon`*` | Référence d’image IS (catalogue/id) |
-| `*`solidColorSpecifier`*` | ` '{0x' *`étiquette rrggbb`* [ *``*]'}'` |
+| `*`solidColorSpecifier`*` | ` '{0x' *`étiquette rrggbb`* [ *` `*]'}'` |
 | `*`rrggbb`*` | Valeur de couleur RVB hexadécimale à 6 chiffres emballée pour les échantillons de couleur unie |
 | `*`étiquette`*` | Libellé de texte facultatif pour les échantillons de couleur unie |
 
@@ -91,10 +91,10 @@ Chaque élément d’un jeu de pages peut contenir jusqu’à trois images sépa
 
 Chaque élément d’une visionneuse de supports peut se composer d’une image, d’une série d’échantillons de base, d’une série d’échantillons hiérarchiques, d’une visionneuse à 360° de base, d’une visionneuse à 360° bidimensionnelle, d’une visionneuse de pages ou d’une ressource vidéo. Chaque élément de visionneuse de supports peut également contenir un identifiant de type et d’échantillon facultatif.
 
-| `*`Visionneuse de supports`*` | `*`élément`* &#42;[ , *``* ]` |
+| `*`Visionneuse de supports`*` | `*`élément`* &#42;[ , *` `* ]` |
 |---|---|
 | `*`article`*` | ` { *`videoItem`* | *`recutItem`* | *`imageItem`*}} | *`setItem`* } [ ; [ *`ID`* ] [ ; [ *`reserved`* ] ] ]` |
-| `*`Élément vidéo`*` | `*`Identifiant de l’échantillon vidéo`* ; *``*` |
+| `*`Élément vidéo`*` | `*`Identifiant de l’échantillon vidéo`* ; *` `*` |
 | `*`RecutItem`*` | `*`Recut`* ; *`swatchId`*` |
 | `*`Élément d’image`*` | `*`ID d’image`* ; [ *`Identifiant de la nuance`* ]` |
 | `*`Élément défini`*` | ` { *`setId`* | { '{' *`Jeu intégré`* '}' } } ; *`Identifiant de la nuance swatchId`*` |

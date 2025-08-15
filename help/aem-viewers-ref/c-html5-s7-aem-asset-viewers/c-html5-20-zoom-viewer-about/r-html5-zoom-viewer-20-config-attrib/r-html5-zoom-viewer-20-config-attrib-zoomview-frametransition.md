@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # ZoomView.frametransition{#zoomview-frametransition}
 
-` [ZoomView.|<containerId>_zoomView.]frametransition=none|fade|slide[, *`Espacement des durées`*[, *``*]`
+` [ZoomView.|<containerId>_zoomView.]frametransition=none|fade|slide[, *`Espacement des durées`*[, *` `*]`
 
 <table id="table_D5992FCFF26046079089652B211BB6C5"> 
  <tbody> 

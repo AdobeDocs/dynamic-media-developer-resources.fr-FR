@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Recadrer l’image. Spécifie une zone de recadrage rectangulaire, exprimée en pixels ou normalisée par rapport à l’image source pleine résolution ou à l’image de masque.
 
-`crop= *`Taille du coord`*, *``*`
+`crop= *`Taille du coord`*, *` `*`
 
 `cropN= *`coordN`*, *`tailleN`*`
 

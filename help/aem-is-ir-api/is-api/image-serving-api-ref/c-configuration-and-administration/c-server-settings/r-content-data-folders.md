@@ -30,7 +30,7 @@ Le [!DNL Platform Server] teste les chemins racine dans l’ordre indiqué jusqu
 
 >[!NOTE]
 >
->Par défaut, ce champ est intentionnellement défini sur un emplacement inexistant ( [ ! DNL *[!DNL install_folder]*/static]), désactivant efficacement le service de contenu statique.
+>Par défaut, ce champ est intentionnellement défini sur un emplacement inexistant ( [!DNL *[!DNL install_folder]*/static]), désactivant efficacement le service de contenu statique.
 
 ## IS ::SaveDirectory - Enregistrement du fichier Dossier racine {#section-1c517f8d49ce4cb8b9013e520bf309c9}
 

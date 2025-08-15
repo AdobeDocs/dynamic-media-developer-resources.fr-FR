@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Sélectionnez l’objet par emplacement en pixels.
 
-` sel= *`x`*, *`niveau y`*[, *``*]`
+` sel= *`x`*, *`niveau y`*[, *` `*]`
 
 <table id="simpletable_247FF35D791C43D3AB433B8CF49F8C91"> 
  <tr class="strow"> 

@@ -67,7 +67,7 @@ Le sélecteur de classe CSS suivant contrôle l’apparence du bouton :
 
 >[!NOTE]
 >
->Ce bouton prend en charge les sélecteurs d’attributs et `state``selected` d’attributs`replay`, qui peuvent être utilisés pour appliquer différents habillages à différents états de bouton. En particulier, `selected='true'` correspond à l’état « lecture » et `selected='false'` correspond à l’état « pause » ;
+>Ce bouton prend en charge les sélecteurs d’attributs et `state` `selected` d’attributs`replay`, qui peuvent être utilisés pour appliquer différents habillages à différents états de bouton. En particulier, `selected='true'` correspond à l’état « lecture » et `selected='false'` correspond à l’état « pause » ;
 >
 >Le sélecteur `replay='true'` d’attributs est défini lorsque la vidéo a atteint la fin et que la sélection du bouton redémarre la lecture depuis le début.
 

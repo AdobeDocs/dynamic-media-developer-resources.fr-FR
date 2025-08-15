@@ -1,5 +1,5 @@
 ---
-description: Drapeau en gras. Spécifie si le fichier de polices référencé par cet enregistrement de mappage de polices doit être utilisé lorsque la commande RTF boldface (\b) l’exige.
+description: Drapeau en gras. Spécifie si le fichier de polices référencé par cet enregistrement de mappage de polices doit être utilisé lorsque la commande RTF boldface (b) l’exige.
 solution: Experience Manager
 title: Gras
 feature: Dynamic Media Classic,SDK/API

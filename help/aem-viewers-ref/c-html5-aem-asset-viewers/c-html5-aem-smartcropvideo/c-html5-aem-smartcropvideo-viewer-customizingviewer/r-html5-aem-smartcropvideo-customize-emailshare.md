@@ -241,7 +241,7 @@ Le bouton Fermer est contrôlé par le sélecteur de classe CSS suivant :
 .s7smartcropvideoviewer .s7emaildialog .s7closebutton
 ```
 
-**Propriétés CSS du bouton de fermeture **
+**Propriétés CSS du bouton de fermeture &#x200B;**
 
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
@@ -328,7 +328,7 @@ Le pied de page de boîte de dialogue se compose des boutons « annuler » et «
 .s7smartcropvideoviewer .s7emaildialog .s7dialogfooter
 ```
 
-**Propriétés CSS du pied de page de boîte de dialogue **
+**Propriétés CSS du pied de page de boîte de dialogue &#x200B;**
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -527,7 +527,7 @@ La zone de dialogue principale, entre l’en-tête et le pied de page, contient 
 .s7smartcropvideoviewer .s7emaildialog .s7dialogviewarea
 ```
 
-**Propriétés CSS de la zone d’affichage de la boîte de dialogue **
+**Propriétés CSS de la zone d’affichage de la boîte de dialogue &#x200B;**
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
@@ -571,7 +571,7 @@ Tout le contenu du formulaire (tels que les libellés et les champs de saisie) r
 
 Si la hauteur de ce conteneur semble supérieure à la zone de boîte de dialogue principale, un défilement vertical est activé automatiquement par le composant.
 
-**Propriétés CSS du corps de la boîte de dialogue **
+**Propriétés CSS du corps de la boîte de dialogue &#x200B;**
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -623,7 +623,7 @@ Tous les libellés statiques du formulaire de boîte de dialogue sont contrôlé
 
 Cette classe ne convient pas au contrôle de la taille ou de la position des étiquettes, car vous pouvez l’appliquer à des textes situés à différents endroits de l’interface utilisateur du formulaire.
 
-**Propriétés CSS du libellé de la boîte de dialogue. **
+**Propriétés CSS du libellé de la boîte de dialogue. &#x200B;**
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
@@ -959,7 +959,7 @@ Le contenu partagé s’affiche au bas du corps de la boîte de dialogue et comp
 .s7smartcropvideoviewer .s7emaildialog .s7dialogbody .s7dialogcontent
 ```
 
-**Propriétés CSS du contenu de la boîte de dialogue **
+**Propriétés CSS du contenu de la boîte de dialogue &#x200B;**
 
 <table id="table_9C5CBFC2482E4A46BE837573B0B02FE4"> 
  <tbody> 
@@ -1094,7 +1094,7 @@ L’origine du contenu est contrôlée par le sélecteur de classe CSS suivant :
 .s7smartcropvideoviewer .s7emaildialog .s7dialogorigin
 ```
 
-**Propriétés CSS de l’origine du contenu de la boîte de dialogue **
+**Propriétés CSS de l’origine du contenu de la boîte de dialogue &#x200B;**
 
 <table id="table_51763B532A9C4AE8AE54B69933A8C0B5"> 
  <tbody> 
@@ -1372,7 +1372,7 @@ Le pouce de la barre de défilement se déplace verticalement dans une zone de p
 
 >[!NOTE]
 >
->La miniature prend en charge le sélecteur d’attributs`state`, qui peut être utilisé pour appliquer différents habillages à différents états du pouce : `up`, , `down``over`et `disabled`.
+>La miniature prend en charge le sélecteur d’attributs`state`, qui peut être utilisé pour appliquer différents habillages à différents états du pouce : `up`, , `down` `over`et `disabled`.
 
 Les info-bulles des boutons peuvent être localisées. Pour plus d’informations, voir [Localisation des éléments](../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) de l’interface utilisateur.
 
@@ -1435,7 +1435,7 @@ L’apparence des boutons de défilement supérieur et inférieur est contrôlé
 
 >[!NOTE]
 >
->Ces boutons prennent en charge le sélecteur d’attributs`state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton : `up`, , `down``over`et `disabled`.
+>Ces boutons prennent en charge le sélecteur d’attributs`state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton : `up`, , `down` `over`et `disabled`.
 
 Exemple : pour configurer des boutons de défilement de 28 x 32 pixels avec des illustrations différentes pour chaque état :
 

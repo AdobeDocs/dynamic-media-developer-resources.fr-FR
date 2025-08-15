@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # SpinView.zoomstep{#spinview-zoomstep}
 
-` [SpinView.|<containerId>_spinView.]zoomstep= *`Limite d’étape`*[, *``*]`
+` [SpinView.|<containerId>_spinView.]zoomstep= *`Limite d’étape`*[, *` `*]`
 
 <table id="table_2D7F971D503348B8A9559362A1D9B26D"> 
  <tbody> 

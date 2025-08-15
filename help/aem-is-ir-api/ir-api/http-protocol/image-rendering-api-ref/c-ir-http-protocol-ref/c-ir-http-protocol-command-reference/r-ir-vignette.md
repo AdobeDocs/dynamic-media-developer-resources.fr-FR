@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Fichier de vignette. Spécifie la vignette à utiliser pour la demande.
 
-`vignette=[ *`fichier recId catId`*/] *``*|[catId/] *``*`
+`vignette=[ *`fichier recId catId`*/] *` `*|[catId/] *` `*`
 
 <table id="simpletable_432EC5501CA3431B83A762C3EE4E8DD2"> 
  <tr class="strow"> 

@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # FlyoutZoomView.imagereload{#flyoutzoomview-imagereload}
 
-` [FlyoutZoomView.|<containerId>_flyout.]imagereload=0|1[,breakpoint, *``*[; *`width width`*]]`
+` [FlyoutZoomView.|<containerId>_flyout.]imagereload=0|1[,breakpoint, *` `*[; *`width width`*]]`
 
 <table id="table_42CA0074AD7C4F0D9FC81E9FCB0591C0"> 
  <tbody> 

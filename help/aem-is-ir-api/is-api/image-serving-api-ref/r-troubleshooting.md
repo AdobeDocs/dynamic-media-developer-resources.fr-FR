@@ -47,7 +47,7 @@ Selon l’utilisation du serveur, les performances peuvent être améliorées en
 
 **Les fichiers journaux occupent trop d’espace disque**
 
-Le serveur d’images et [!DNL Platform Server] démarrer un nouveau fichier journal chaque jour. Par défaut, ils sont placés dans [ ! DNL *[!DNL install_root]*/ImageServing/logs]. La taille du fichier journal, le nombre de journaux conservés et le contenu du journal peuvent être configurés. Voir la documentation.
+Le serveur d’images et [!DNL Platform Server] démarrer un nouveau fichier journal chaque jour. Par défaut, ils sont placés dans [!DNL *[!DNL install_root]*/ImageServing/logs]. La taille du fichier journal, le nombre de journaux conservés et le contenu du journal peuvent être configurés. Voir la documentation.
 
 **Si un logiciel antivirus est installé sur votre serveur**
 

@@ -22,7 +22,7 @@ Message détaillé répondant à l’une des URL fournies dans la demande d’in
 
 ## Paramètres {#section-cf4b0c923cef4c14869319af73ace58b}
 
-| ** Name ** | Type de **** | ** Description ** |
+| **&#x200B; Name &#x200B;** | Type de **&#x200B;**&#x200B;| **&#x200B; Description &#x200B;** |
 |---|---|---|
 | code | `xsd:int` | Code d’erreur fourni à partir du réseau CDN |
 | motif | `xsd:string` | Message d’erreur fourni à partir du réseau CDN |

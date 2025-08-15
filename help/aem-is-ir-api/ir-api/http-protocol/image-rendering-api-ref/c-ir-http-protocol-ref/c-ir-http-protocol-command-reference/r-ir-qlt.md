@@ -16,7 +16,7 @@ ht-degree: 7%
 
 Qualité Jpeg. Indique les attributs de codage JPEG pour contrôler le niveau de compression.
 
-` qlt= *`Chrominance de qualité`*[. *``*]`
+` qlt= *`Chrominance de qualité`*[. *` `*]`
 
 <table id="simpletable_A245B6A3D2374A6A89DE63A5621CFEC0"> 
  <tr class="strow"> 

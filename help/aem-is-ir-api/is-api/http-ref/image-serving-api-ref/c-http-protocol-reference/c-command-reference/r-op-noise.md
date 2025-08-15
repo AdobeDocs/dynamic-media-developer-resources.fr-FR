@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Ajoutez du bruit. Ajoute un bruit aléatoire aux données d’image de premier plan ou au premier plan d’un calque d’effets.
 
-`op_noise= *``*[,uniform|gaussian[, *`Val monochrome`*]]`
+`op_noise= *` `*[,uniform|gaussian[, *`Val monochrome`*]]`
 
 <table id="table_40675464E5824D52BF392ECCE2DDC03C"> 
  <tbody> 

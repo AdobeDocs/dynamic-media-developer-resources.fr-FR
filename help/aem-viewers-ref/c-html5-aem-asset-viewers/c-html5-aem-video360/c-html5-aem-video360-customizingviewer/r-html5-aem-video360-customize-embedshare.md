@@ -330,7 +330,7 @@ Le pied de boîte de dialogue se compose du bouton « Annuler ». Le conteneur d
 .s7video360viewer .s7embeddialog .s7dialogfooter
 ```
 
-**Propriétés CSS du ** de pied de boîte de dialogue
+**Propriétés CSS du &#x200B;** de pied de boîte de dialogue
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -595,7 +595,7 @@ Tous les libellés statiques du formulaire de boîte de dialogue sont contrôlé
 
 Cette classe ne convient pas pour contrôler la taille ou la position des libellés, car vous pouvez l’appliquer à des textes à différents endroits de l’interface utilisateur du formulaire.
 
-**Propriétés CSS du libellé de la boîte de dialogue. **
+**Propriétés CSS du libellé de la boîte de dialogue. &#x200B;**
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 

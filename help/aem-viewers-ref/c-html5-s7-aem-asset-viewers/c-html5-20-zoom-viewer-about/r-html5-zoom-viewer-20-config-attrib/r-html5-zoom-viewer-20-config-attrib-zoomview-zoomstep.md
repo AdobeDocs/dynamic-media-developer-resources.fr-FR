@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # ZoomView.zoomstep{#zoomview-zoomstep}
 
-` [ZoomView.|<containerId>_zoomView.]zoomstep= *`Limite d’étape`*[, *``*]`
+` [ZoomView.|<containerId>_zoomView.]zoomstep= *`Limite d’étape`*[, *` `*]`
 
 <table id="table_1D425B7685D448459CD3FE8D683C813C"> 
  <tbody> 

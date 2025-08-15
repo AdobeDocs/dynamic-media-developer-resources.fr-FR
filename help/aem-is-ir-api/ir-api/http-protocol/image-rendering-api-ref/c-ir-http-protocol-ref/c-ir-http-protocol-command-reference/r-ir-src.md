@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Fichier matériel. Spécifie les données de matériau, soit sous la forme d&#39;une référence unique de catalogue de matériaux, soit sous la forme d&#39;un ou de deux fichiers d&#39;image ou de données de matériaux, séparés par une virgule.
 
-`src = *`entrée`*|{{ *`de catalogue Fichier de matériau`*| *`intégré`*}[, *``*]`
+`src = *`entrée`*|{{ *`de catalogue Fichier de matériau`*| *`intégré`*}[, *` `*]`
 
 `srcE= *`nom`*`
 
@@ -33,7 +33,7 @@ Fichier matériel. Spécifie les données de matériau, soit sous la forme d&#39
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> beddedReq</span> </p> </td> 
-  <td class="stentry"> <p><span class="codeph">&amp;lbrace;'is&amp;lbrace;'<span class="varname"> isReq</span>'&amp;rbrace;'&amp;rbrace;|&amp;lbrace;'ir&amp;lbrace;'<span class="varname"> irReq</span>'&amp;rbrace;'|&amp;lbrace;'&amp;lbrace;'<span class="varname"> foreignReq</span>'&amp;rbrace;'</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">&lbrace;'is&lbrace;'<span class="varname"> isReq</span>'&rbrace;'&rbrace;|&lbrace;'ir&lbrace;'<span class="varname"> irReq</span>'&rbrace;'|&lbrace;'&lbrace;'<span class="varname"> foreignReq</span>'&rbrace;'</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> catId</span> </p></td> 

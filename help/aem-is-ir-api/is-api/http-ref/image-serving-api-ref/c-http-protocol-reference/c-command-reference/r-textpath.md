@@ -33,7 +33,7 @@ Voir [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-pro
 
 *`pathDefinition`* peut inclure plusieurs sous-chemins. Le texte est rendu sur les sous-chemins selon l’ordre indiqué.
 
-La commande RTF , `\ql``\qc`, `\qr`, `\li`et `\ri` peut être utilisée pour positionner le texte rendu le long du chemin.
+La commande RTF , `\ql` `\qc`, `\qr`, `\li`et `\ri` peut être utilisée pour positionner le texte rendu le long du chemin.
 
 ## Propriétés {#section-068137df436c46b9b55d271eb60e7285}
 

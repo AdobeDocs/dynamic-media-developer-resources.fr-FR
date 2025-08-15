@@ -30,11 +30,11 @@ Valeur de date et heure au format Java™. Il peut s’agir soit du nombre entie
 
 *[!DNL offset]* correspond au décalage de fuseau horaire en heures ou:minutes heures par rapport à GMT. Par exemple, &#39;PDT&#39; équivaut à &#39;GMT -7&#39;.
 
-Tous les éléments de valeurs de date/heure au format chaîne doivent être présents. Si la valeur de date et d’heure n’est pas correctement formatée, elle est ignorée et l’heure de modification de la variable [ ! DNL *[!DNL catalog]*.ini] est utilisé à la place.
+Tous les éléments de valeurs de date/heure au format chaîne doivent être présents. Si la valeur de date et d’heure n’est pas correctement formatée, elle est ignorée et l’heure de modification de la variable [!DNL *[!DNL catalog]*.ini] est utilisé à la place.
 
 ## Par défaut {#section-65fb29a9ea2044df8cb9fe295eb14872}
 
-Si vide ou non défini, le serveur utilise le délai de modification du fichier de ce [ ! DNL *[!DNL catalog]*.ini].
+Si vide ou non défini, le serveur utilise le délai de modification du fichier de ce [!DNL *[!DNL catalog]*.ini].
 
 ## Voir aussi {#section-764188f9b1734ad1a6270f5fecd28532}
 

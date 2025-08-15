@@ -31,7 +31,7 @@ Tout le contrôle de la police, de la couleur de la police et du formatage des p
 
 Voir [textAttr=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d).
 
-`text=` Prend en charge le dimensionnement automatique du calque de texte pour l’adapter au texte rendu (lorsque `size=` n’est pas spécifié ou lorsque seule la largeur est spécifiée). Notez que dans ce cas, une seule des commandes d’alignement RTF , `\ql``\qr`et `\qc` peut être appliquée ; une erreur est renvoyée autrement.
+`text=` Prend en charge le dimensionnement automatique du calque de texte pour l’adapter au texte rendu (lorsque `size=` n’est pas spécifié ou lorsque seule la largeur est spécifiée). Notez que dans ce cas, une seule des commandes d’alignement RTF , `\ql` `\qr`et `\qc` peut être appliquée ; une erreur est renvoyée autrement.
 
 ## Propriétés {#section-8c0f020094a44c6b858454ef91ab4edf}
 

@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Attribut de configuration pour la visionneuse de vidéos avec recadrage intelligent.
 
-` [SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer.]posterimage=none|[ *``*][? *`image_id isCommands`*]`
+` [SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer.]posterimage=none|[ *` `*][? *`image_id isCommands`*]`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 

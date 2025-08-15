@@ -16,9 +16,9 @@ ht-degree: 1%
 
 Etendre le calque. Ajoute des marges à un calque ou recadre le rectangle du calque.
 
-`extend= *`gauche`*, *`, en haut à droite`*, *`en bas`*, *``*`
+`extend= *`gauche`*, *`, en haut à droite`*, *`en bas`*, *` `*`
 
-`extendN= *`gaucheN`*, *`hautN`*, *`droiteN basN`*, *``*`
+`extendN= *`gaucheN`*, *`hautN`*, *`droiteN basN`*, *` `*`
 
 <table id="simpletable_1DCCD469712B423C8154630127DC5F54"> 
  <tr class="strow"> 

@@ -32,7 +32,7 @@ Image Server est installé en tant que démon Linux®.
 
 [!DNL http:// *[!DNL server:port]*/is/image]
 
-[!DNL  http:// *[!DNL server:port]*/ir/render]
+[!DNL &#x200B; http:// *[!DNL server:port]*/ir/render]
 
 Dans les réponses, recherchez la présence d’éléments commençant par `imageServer`, qui indiquent que l’[!DNL Platform Server] a pu communiquer avec le serveur d’images.
 

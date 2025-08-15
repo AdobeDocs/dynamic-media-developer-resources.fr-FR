@@ -27,7 +27,7 @@ Zone de flux de texte. Spécifie une ou plusieurs régions dans lesquelles le te
 
 Voir [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) pour plus d’informations, y compris une description de *`pathDefinition`*.
 
-Les commandes RTF margin , `\margl``\margr`, `\margt`et `\margb` sont ignorées lorsque `textFlowPath=` est présent. Si aucune définition de chemin n’est spécifiée, `textFlowPath=` est ignoré.
+Les commandes RTF margin , `\margl` `\margr`, `\margt`et `\margb` sont ignorées lorsque `textFlowPath=` est présent. Si aucune définition de chemin n’est spécifiée, `textFlowPath=` est ignoré.
 
 ## Propriétés {#section-b68dc887c6534ce8982cad740b3aeaa4}
 

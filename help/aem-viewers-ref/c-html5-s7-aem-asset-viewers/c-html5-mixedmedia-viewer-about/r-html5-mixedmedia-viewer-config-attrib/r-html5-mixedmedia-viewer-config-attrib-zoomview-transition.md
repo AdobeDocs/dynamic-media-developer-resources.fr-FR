@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # ZoomView.transition{#zoomview-transition}
 
-` [ZoomView.|<containerId>_zoomView.]transition= *`Assouplissement du temps`*[, *``*]`
+` [ZoomView.|<containerId>_zoomView.]transition= *`Assouplissement du temps`*[, *` `*]`
 
 <table id="table_9E7BB12BF371419F88DD4D24EF04632C"> 
  <tbody> 

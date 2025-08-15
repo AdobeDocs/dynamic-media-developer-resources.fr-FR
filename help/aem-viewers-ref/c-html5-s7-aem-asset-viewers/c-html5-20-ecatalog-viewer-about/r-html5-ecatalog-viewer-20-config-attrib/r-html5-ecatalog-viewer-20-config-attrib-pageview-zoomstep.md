@@ -14,7 +14,7 @@ ht-degree: 3%
 
 # PageView.zoomstep{#pageview-zoomstep}
 
-` [PageView.|<containerId>_pageView.]zoomstep= *`Limite d’étape`*[, *``*]`
+` [PageView.|<containerId>_pageView.]zoomstep= *`Limite d’étape`*[, *` `*]`
 
 <table id="table_82C9252157DB41B5B98505855975D2F5"> 
  <tbody> 

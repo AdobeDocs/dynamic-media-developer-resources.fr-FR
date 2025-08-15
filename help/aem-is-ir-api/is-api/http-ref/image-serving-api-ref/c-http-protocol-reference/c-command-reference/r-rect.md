@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Rectangle de vue finale. Il permet de désassembler l’image de vue finale en plusieurs bandes ou tuiles, qui peuvent être livrées séparément et réassemblées par le client de manière transparente, sans artefacts le long des bords.
 
-`rect= *`Echelle de taille`*, *`du coord`*[, *``*]`
+`rect= *`Echelle de taille`*, *`du coord`*[, *` `*]`
 
 <table id="simpletable_69D112F85FA24EFCA727B398DC8ED699"> 
  <tr class="strow"> 
@@ -65,7 +65,7 @@ Attribut View. Il s’applique quel que soit le paramètre de calque actuel.
 
 Toutes les zones du retour sur investissement s’étendant au-delà de l’image vue sont rembourrées avec `bgc=`.
 
-Important `rect=` est appliqué *après* la mise à l’échelle finale et l’ajustement avec `scl=`, `wid=`, `hei=`, `fit=``rgn=`, et `align=`.
+Important `rect=` est appliqué *après* la mise à l’échelle finale et l’ajustement avec `scl=`, `wid=`, `hei=`, `fit=` `rgn=`, et `align=`.
 
 ## Par défaut {#section-b296d3bbfb19441f87137a452b70f19a}
 

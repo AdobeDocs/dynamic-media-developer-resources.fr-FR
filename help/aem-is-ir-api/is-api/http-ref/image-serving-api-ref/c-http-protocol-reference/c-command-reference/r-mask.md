@@ -35,7 +35,7 @@ S’il *`object`* s’agit d’une entrée de catalogue d’images, `catalog::Ma
 
 Dans tous les cas, si l’image source possède un canal alpha, il est utilisé. Sinon, l’image est convertie en niveaux de gris, si nécessaire, avant de l’utiliser comme masque de calque.
 
-Si un masque est attaché à un calque de couleur unie, il peut être recadré et mis à l’échelle à l’aide des mêmes règles que celles utilisées pour les images dans les calques d’image. `size=`, ou `scale=``res=` peut être utilisé pour mettre le masque à l’échelle.
+Si un masque est attaché à un calque de couleur unie, il peut être recadré et mis à l’échelle à l’aide des mêmes règles que celles utilisées pour les images dans les calques d’image. `size=`, ou `scale=` `res=` peut être utilisé pour mettre le masque à l’échelle.
 
 Les masques de calque peuvent également être spécifiés sous la forme d’un *`nestedRequest`* fichier . Les requêtes imbriquées ou incorporées sont entourées par des accolades. Préfixe une demande de diffusion d’images incorporée avec `is` et une demande de rendu d’image incorporée avec `ir`. Une demande à un serveur étranger est supposée si aucun préfixe n’est spécifié. Pour plus d’informations, reportez-vous à [la section Demande d’imbrication et d’intégration](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-nesting-and-embedding.md#reference-38ec66d4062046589e16c39bf1c6049b) .
 

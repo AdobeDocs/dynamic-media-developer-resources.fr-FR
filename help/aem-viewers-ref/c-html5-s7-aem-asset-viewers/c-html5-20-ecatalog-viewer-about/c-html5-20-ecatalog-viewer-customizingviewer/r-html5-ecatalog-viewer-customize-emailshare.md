@@ -330,7 +330,7 @@ Le pied de boîte de dialogue se compose des boutons Annuler et Envoyer un e-mai
 .s7ecatalogviewer .s7emaildialog .s7dialogfooter
 ```
 
-**Propriétés CSS du ** de pied de boîte de dialogue
+**Propriétés CSS du &#x200B;** de pied de boîte de dialogue
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -625,7 +625,7 @@ Tous les libellés statiques du formulaire de boîte de dialogue sont contrôlé
 
 Cette classe ne convient pas pour contrôler la taille ou la position des libellés, car vous pouvez l’appliquer à des textes à différents endroits de l’interface utilisateur du formulaire.
 
-**Propriétés CSS du libellé de la boîte de dialogue. **
+**Propriétés CSS du libellé de la boîte de dialogue. &#x200B;**
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
@@ -961,7 +961,7 @@ Le contenu partagé est affiché au bas du corps de la boîte de dialogue et com
 .s7ecatalogviewer .s7emaildialog .s7dialogbody .s7dialogcontent
 ```
 
-**Propriétés CSS du ** de contenu de la boîte de dialogue
+**Propriétés CSS du &#x200B;** de contenu de la boîte de dialogue
 
 <table id="table_9C5CBFC2482E4A46BE837573B0B02FE4"> 
  <tbody> 
@@ -1096,7 +1096,7 @@ L’origine du contenu est contrôlée avec le sélecteur de classe CSS suivant 
 .s7ecatalogviewer .s7emaildialog .s7dialogorigin
 ```
 
-**Propriétés CSS du ** d’origine du contenu de la boîte de dialogue
+**Propriétés CSS du &#x200B;** d’origine du contenu de la boîte de dialogue
 
 <table id="table_51763B532A9C4AE8AE54B69933A8C0B5"> 
  <tbody> 

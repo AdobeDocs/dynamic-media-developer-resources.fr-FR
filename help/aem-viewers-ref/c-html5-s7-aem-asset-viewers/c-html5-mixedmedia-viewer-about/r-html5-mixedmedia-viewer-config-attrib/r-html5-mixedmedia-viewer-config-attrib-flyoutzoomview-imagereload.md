@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Configure la façon dont le composant récupère les nouvelles images pour la vue principale et la vue déroulante lors du redimensionnement.
 
-` [FlyoutZoomView.|<containerId>_flyout.]imagereload=0|1[,breakpoint, *``*[; *`width width`*]]`
+` [FlyoutZoomView.|<containerId>_flyout.]imagereload=0|1[,breakpoint, *` `*[; *`width width`*]]`
 
 <table id="table_E314540D347D47699C04EB80D20C0721"> 
  <tbody> 

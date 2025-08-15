@@ -18,7 +18,7 @@ Masquage flou. Le flou masque le calque ou l’image de vue finale, après toute
 
 Les paramètres sont supposés s’appliquer à l’image pleine résolution et sont réduits lors du traitement d’une image sous-échantillonnée.
 
-`op_usm= *``*[, *`Rayon de quantité`*[, *`Seuil`*[, *`monochrome`*]]]`
+`op_usm= *` `*[, *`Rayon de quantité`*[, *`Seuil`*[, *`monochrome`*]]]`
 
 <table id="simpletable_0697E3BCB45F41C494D93A6017ADD2BF"> 
  <tr class="strow"> 

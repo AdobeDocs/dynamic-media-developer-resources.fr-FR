@@ -20,14 +20,14 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"><span class="varname"> modèle</span></span> </p> </td> 
-   <td> <p>Le modèle de contenu dans lequel les données renvoyées par le serveur d’informations sont fusionnées. </p> <p>Le modèle de contenu est un XML suivant cette DTD : </p> <p> <code>&lt;!DOCTYPE&nbsp;info&nbsp;[
+   <td> <p>Le modèle de contenu dans lequel les données renvoyées par le serveur d’informations sont fusionnées. </p> <p>Le modèle de contenu est un XML suivant cette DTD : </p> <p> <code>&lt;!DOCTYPE&nbsp;info&nbsp;&lbrack;
       &lt;!ELEMENT&nbsp;info&nbsp;(var&nbsp;#PCDATA)
       &lt;!ELEMENT&nbsp;var&nbsp;(#PCDATA)&gt;
       &lt;!ATTLIST&nbsp;var&nbsp;
       name&nbsp;CDATA&nbsp;#REQUIRED
       rollover&nbsp;CDATA&nbsp;#IMPLIED&nbsp;&gt;
-      ]&gt;</code> </p> <p>La syntaxe réelle du modèle de contenu est la suivante : </p> <p> <code>&lt;info&gt;
-      &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]]&gt;
+      &rbrack;&gt;</code> </p> <p>La syntaxe réelle du modèle de contenu est la suivante : </p> <p> <code>&lt;info&gt;
+      &lt;var&nbsp;name='VAR_NAME'&nbsp;rollover='ROLLOVER_KEY'&gt;&lt;!CDATA[&nbsp;VAR_VALUE&nbsp;]&rbrack;&gt;
       &lt;![CDATA[&nbsp;TEMPLATE_CONTENT&nbsp;]]&gt;
       &lt;/info&gt;</code> </p> <p>En d’autres termes, le modèle doit commencer par l’élément <span class="codeph"> &lt;info&gt;</span> qui peut contenir des éléments facultatifs par défaut <span class="codeph"> &lt;var&gt;</span>. Le contenu du modèle lui-même, <span class="codeph"> TEMPLATE_CONTENT</span> est du texte HTML. En outre, le modèle de contenu peut contenir des noms de variable entourés de caractères $<span class="codeph"> </span> qui sont remplacés par les valeurs de variable renvoyées par le serveur d’informations ou par des valeurs par défaut. </p> <p>Les variables par défaut définies dans le modèle peuvent être globales (si l’attribut de survol n’est pas défini) ou spécifiques à une certaine clé de survol (si l’attribut de survol est présent). </p> <p>Lors du traitement du modèle, les variables spécifiques aux clés de remplacement sont prioritaires sur les variables globales. </p> </td> 
   </tr> 

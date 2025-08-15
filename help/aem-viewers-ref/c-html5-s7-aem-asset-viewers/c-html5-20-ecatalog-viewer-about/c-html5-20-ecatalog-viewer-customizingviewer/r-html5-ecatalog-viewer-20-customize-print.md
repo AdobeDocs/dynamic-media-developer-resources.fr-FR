@@ -328,7 +328,7 @@ Le pied de boîte de dialogue se compose des boutons Annuler et Envoyer pour imp
 .s7ecatalogsearchviewer .s7printdialog .s7dialogfooter
 ```
 
-**Propriétés CSS du ** de pied de boîte de dialogue
+**Propriétés CSS du &#x200B;** de pied de boîte de dialogue
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -562,7 +562,7 @@ Tout le contenu du formulaire (comme les libellés et les champs de saisie) rés
 .s7ecatalogsearchviewer .s7printdialog .s7dialogbody
 ```
 
-**Propriétés CSS du corps de la boîte de dialogue **
+**Propriétés CSS du corps de la boîte de dialogue &#x200B;**
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
@@ -644,7 +644,7 @@ Tous les libellés statiques du formulaire de boîte de dialogue sont contrôlé
 
 Cette classe ne convient pas pour contrôler la taille ou la position des libellés, car vous pouvez l’appliquer à des textes à différents endroits dans l’interface utilisateur du formulaire.
 
-**Propriétés CSS du libellé de la boîte de dialogue. **
+**Propriétés CSS du libellé de la boîte de dialogue. &#x200B;**
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 

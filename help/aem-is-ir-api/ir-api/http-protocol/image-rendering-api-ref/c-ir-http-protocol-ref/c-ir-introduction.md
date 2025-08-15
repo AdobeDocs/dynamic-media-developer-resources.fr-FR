@@ -95,6 +95,6 @@ Il est supposé que le lecteur est familier avec Dynamic Media la création d’
 
 **Termes courants**
 
-** *`MSS`* ** Segment de spécification de matière : ensemble d&#39;attributs de matière entre deux commandes de sélection dans la demande.
+**&#x200B; *`MSS`* &#x200B;** Segment de spécification de matière : ensemble d&#39;attributs de matière entre deux commandes de sélection dans la demande.
 
-** *`vignette`* ** Image préparée dans la création d’images Dynamic Media en vue d’être utilisée avec le rendu d’image.
+**&#x200B; *`vignette`* &#x200B;** Image préparée dans la création d’images Dynamic Media en vue d’être utilisée avec le rendu d’image.

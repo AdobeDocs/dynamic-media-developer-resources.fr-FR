@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Le convertisseur de vignettes (vntc) est un utilitaire de ligne de commande utilisé pour préparer le contenu créé avec Image Authoring en vue d’un déploiement avec Image Rendering.
 
-[!DNL vntc] est dans [ ! DNL *[!DNL install_root]*\ImageServing\bin]. Il possède les fonctionnalités suivantes :
+[!DNL vntc] est dans [!DNL *[!DNL install_root]*\ImageServing\bin]. Il possède les fonctionnalités suivantes :
 
 * Convertit les vignettes principales en vignettes de production à résolution unique, multirésolution ou pyramidale (voir Mise à [l’échelle](../../../../ir-api/vntc/utilities/c-ir-vignette-converter-vntc/c-ir-vignette-scaling.md#concept-e373a29c2f954df98d704c7723804585) des vignettes).
 * Produit des fichiers de style d’armoires de production et de garnitures de fenêtre (voir `-resolution` et `-jpegquality`).

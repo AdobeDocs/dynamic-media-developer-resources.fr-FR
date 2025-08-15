@@ -31,7 +31,7 @@ Inversion du chemin Clip calque. Spécifie un chemin d’exclusion pour le calqu
  </tr> 
 </table>
 
-Voir [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) pour plus d’informations, y compris une description de pathName`*` et `*`pathDefinition`*``*`.
+Voir [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) pour plus d’informations, y compris une description de pathName`*` et `*`pathDefinition`*` `*`.
 
 ## Propriétés {#section-acf7272ba93a4bbba818b8e6aa4dcea5}
 

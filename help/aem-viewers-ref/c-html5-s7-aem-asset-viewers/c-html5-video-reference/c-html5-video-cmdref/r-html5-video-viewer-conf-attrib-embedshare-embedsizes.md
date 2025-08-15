@@ -16,7 +16,7 @@ ht-degree: 5%
 
 Attribut de configuration pour la visionneuse vidéo.
 
-` [EmbedShare.|<containerId>_embedShare.]embedsizes= *``*, *`width height`*[,0|1][; *``*, *`width height`*[,0|1]]`
+` [EmbedShare.|<containerId>_embedShare.]embedsizes= *` `*, *`width height`*[,0|1][; *` `*, *`width height`*[,0|1]]`
 
 Spécifie une liste de tailles incorporées pour la zone de liste déroulante de taille dans la boîte de dialogue modale de partage intégré.
 

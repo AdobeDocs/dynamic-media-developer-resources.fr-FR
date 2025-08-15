@@ -27,7 +27,7 @@ Syntaxe
 * `ImagePortalUser`
 * `ImagePortalContrib`
 * `ImagePortalContribUser`
-* ``
+* &grave;&grave;
 
 ## Paramètres {#section-ebffe496284c4ced9f329f78127be199}
 

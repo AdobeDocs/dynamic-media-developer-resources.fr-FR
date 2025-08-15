@@ -26,7 +26,7 @@ Un utilisateur final peut naviguer entre les éléments de l’interface utilisa
 
 Selon les paramètres du système d’exploitation et du navigateur Web, l’élément d’interface utilisateur qui a le focus d’entrée reçoit une indication de focus visuel. Par exemple, l’indicateur visuel peut être une bordure mince rendue autour de l’élément d’interface utilisateur.
 
-Il est possible de désactiver ou de personnaliser cette mise au point dans le fichier CSS de la visionneuse. Dans la table des matières de ce système d’aide, sous un nom de visionneuse spécifique (par exemple, zoom de base ou vidéo interactive), cliquez sur **Personnalisation *du nom de la visionneuse*** >** mise en surbrillance **de focus.
+Il est possible de désactiver ou de personnaliser cette mise au point dans le fichier CSS de la visionneuse. Dans la table des matières de ce système d’aide, sous un nom de visionneuse spécifique (par exemple, zoom de base ou vidéo interactive), cliquez sur **Personnalisation *du nom de la visionneuse*** >**&#x200B; mise en surbrillance &#x200B;** de focus.
 
 Les frappes prises en charge par des éléments individuels de l’interface utilisateur de la visionneuse sont, dans la plupart des cas, évidentes et faciles à découvrir.
 

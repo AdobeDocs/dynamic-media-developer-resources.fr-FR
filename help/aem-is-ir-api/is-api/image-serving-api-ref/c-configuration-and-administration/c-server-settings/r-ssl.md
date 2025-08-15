@@ -22,7 +22,7 @@ Spécifie le port d’écoute pour les [!DNL Platform Server] connexions SSL. Pa
 
 ## TC ::keystoreFile - Chemin d’accès au fichier keystore {#section-0cdf9b3cfcf249818b22221d01bafebe}
 
-Spécifiez le chemin/nom du fichier de stockage de clés SSL. Peut être un chemin absolu ou un chemin relatif à [ ! DNL *[!DNL install_folder]*/conf]. La valeur par défaut est *install_folder*/conf/scene7keystore.
+Spécifiez le chemin/nom du fichier de stockage de clés SSL. Peut être un chemin absolu ou un chemin relatif à [!DNL *[!DNL install_folder]*/conf]. La valeur par défaut est *install_folder*/conf/scene7keystore.
 
 ## TC ::keystorePass - Mot de passe keystore {#section-e7e9bfb7df584a248c0e3ee46803c3b1}
 

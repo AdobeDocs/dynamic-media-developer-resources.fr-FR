@@ -62,6 +62,6 @@ Suivez ces étapes pour installer Image Serving pour la première fois sous Wind
 
    L’écran suivant vous permet de vérifier les paramètres sélectionnés.
 
-1. Sélectionnez **[!UICONTROL Précédent]** pour effectuer des modifications ou Suivant **** pour démarrer l’installation.
+1. Sélectionnez **[!UICONTROL Précédent]** pour effectuer des modifications ou Suivant **&#x200B;**&#x200B;pour démarrer l’installation.
 
 1. Sélectionnez **[!UICONTROL Terminer]** pour quitter l’assistant d’installation.

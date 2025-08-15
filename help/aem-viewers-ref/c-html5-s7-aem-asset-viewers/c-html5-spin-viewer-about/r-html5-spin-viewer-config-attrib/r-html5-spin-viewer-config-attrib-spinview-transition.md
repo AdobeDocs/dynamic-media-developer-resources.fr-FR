@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # SpinView.transition{#spinview-transition}
 
-` [SpinView.|<containerId>_spinView.]transition= *`Assouplissement du temps`*[, *``*]`
+` [SpinView.|<containerId>_spinView.]transition= *`Assouplissement du temps`*[, *` `*]`
 
 <table id="table_9E7BB12BF371419F88DD4D24EF04632C"> 
  <tbody> 

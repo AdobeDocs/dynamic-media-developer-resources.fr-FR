@@ -16,7 +16,7 @@ ht-degree: 3%
 
 Coloriser l’image. Colorise les données d’image tout en préservant les ombres et les hautes lumières.
 
-` op_colorize= *`Contraste des couleurs`*[,off|norm[, *``*]]`
+` op_colorize= *`Contraste des couleurs`*[,off|norm[, *` `*]]`
 
 <table id="simpletable_768D6CDF3F734E7F89DC7AB2EAAC0C77"> 
  <tr class="strow"> 

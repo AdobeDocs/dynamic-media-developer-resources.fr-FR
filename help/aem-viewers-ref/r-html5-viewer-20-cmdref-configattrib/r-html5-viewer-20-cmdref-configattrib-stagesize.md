@@ -18,7 +18,7 @@ ht-degree: 6%
 >
 >Cet attribut s’applique à la visionneuse de zoom, à la visionneuse vidéo, à la visionneuse à 360°, à la visionneuse d’images interactives, à la visionneuse de vidéos interactives et à la visionneuse de carrousel.
 
-`stageSize= *``*, *`width height`*`
+`stageSize= *` `*, *`width height`*`
 
 <table id="table_0070E5402099428DBEA2A900CADB2BAA"> 
  <tbody> 

@@ -25,6 +25,6 @@ Les deux composants sont collectivement appelés serveur de *rendu*.
 
 Image Rendering partage de nombreuses installations serveur avec Image Server, et toutes les options sont configurées en modifiant un fichier de configuration. Des attributs de configuration supplémentaires sont fournis par le catalogue par défaut ( [!DNL default.ini]) ou des catalogues de matériaux spécifiques. Voir Catalogues de matériaux pour plus de détails.
 
-Le dossier d’installation d’Image Rendering ( *[!DNL install_folder]*) est [ ! DNL *[!DNL install_root]*/ImageRendering]. Sous Windows, la valeur par défaut *[!DNL install_root]* est `C:\Program Files\Scene7`. Un autre dossier peut être spécifié pendant l’installation. Sous Linux, *[!DNL install_root]* doit toujours être [!DNL /usr/local/scene7]. Des liens symboliques peuvent être utilisés.
+Le dossier d’installation d’Image Rendering ( *[!DNL install_folder]*) est [!DNL *[!DNL install_root]*/ImageRendering]. Sous Windows, la valeur par défaut *[!DNL install_root]* est `C:\Program Files\Scene7`. Un autre dossier peut être spécifié pendant l’installation. Sous Linux, *[!DNL install_root]* doit toujours être [!DNL /usr/local/scene7]. Des liens symboliques peuvent être utilisés.
 
 Tous les chemins d’accès aux fichiers sont sensibles à la casse sous UNIX et à la casse sous Windows.

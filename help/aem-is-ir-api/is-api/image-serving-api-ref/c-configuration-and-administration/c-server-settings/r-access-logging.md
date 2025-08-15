@@ -20,7 +20,7 @@ Syntaxe
 
 ## TC ::d irectory - Dossier de fichiers journaux {#section-5d9e2168d4504bbe9868b7d6051c9d67}
 
-Le dossier dans lequel l’écrit les [!DNL Platform Server] fichiers journaux. Il peut s’agir d’un chemin absolu ou d’un chemin relatif à *`install_folder`*. La valeur par défaut est [!DNL  *`install_folder`*/logs].
+Le dossier dans lequel l’écrit les [!DNL Platform Server] fichiers journaux. Il peut s’agir d’un chemin absolu ou d’un chemin relatif à *`install_folder`*. La valeur par défaut est [!DNL &#x200B; *`install_folder`*/logs].
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ Le nombre de jours pendant lesquels les fichiers journaux doivent être conserv�
 
 ## TC ::p refix - Nom du fichier journal d’accès {#section-1003856323b844049632710a5a056aa7}
 
-Préfixe de nom pour le fichier dans lequel les données du journal d’accès sont écrites. La date et le suffixe de fichier ( [!DNL  *`yyyy`*-*`mm`*-*`dd`*.log]) sont ajoutés à la chaîne spécifiée. Le nom du fichier journal d’accès doit être différent de celui du fichier journal de suivi. La valeur par défaut est « `access-` ».
+Préfixe de nom pour le fichier dans lequel les données du journal d’accès sont écrites. La date et le suffixe de fichier ( [!DNL &#x200B; *`yyyy`*-*`mm`*-*`dd`*.log]) sont ajoutés à la chaîne spécifiée. Le nom du fichier journal d’accès doit être différent de celui du fichier journal de suivi. La valeur par défaut est « `access-` ».
 
 ## TC::pattern - Modèle de journal d&#39;accès {#section-22775ea85cee444d8a7d7336a3b1feef}
 

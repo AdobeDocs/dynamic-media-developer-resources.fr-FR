@@ -39,7 +39,7 @@ Attribut View. S’applique quel que soit le paramètre de calque actuel.
 
 Toutes les zones du ROI s’étendant en dehors de l’image composite sont rembourrées avec `bgc=`.
 
-`rgn=`est appliqué avant le redimensionnement final et l’ajustement avec `scl=`, `wid=`, `hei=`, `fit=``rect=`, ou `align=`.
+`rgn=`est appliqué avant le redimensionnement final et l’ajustement avec `scl=`, `wid=`, `hei=`, `fit=` `rect=`, ou `align=`.
 
 ## Par défaut {#section-6a3df8f670084def900ffef9dab7e94a}
 

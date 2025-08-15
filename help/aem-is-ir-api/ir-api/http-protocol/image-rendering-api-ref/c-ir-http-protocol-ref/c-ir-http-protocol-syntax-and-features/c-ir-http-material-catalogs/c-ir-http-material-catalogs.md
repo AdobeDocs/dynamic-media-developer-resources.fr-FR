@@ -34,4 +34,4 @@ Les vignettes et les profils ICC peuvent être détaillés dans des catalogues d
 
 **Voir aussi**
 
-Référence du catalogue de matériaux, [`src=`](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272), , `attribute::RootId`, `attribute::RootPath``attribute::VignettePath`
+Référence du catalogue de matériaux, [`src=`](../../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-src.md#reference-62c98abad22149d68d405ed6aaff8272), , `attribute::RootId`, `attribute::RootPath` `attribute::VignettePath`

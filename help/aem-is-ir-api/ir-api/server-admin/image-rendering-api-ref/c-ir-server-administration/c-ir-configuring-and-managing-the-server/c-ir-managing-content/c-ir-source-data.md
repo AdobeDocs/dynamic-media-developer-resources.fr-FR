@@ -24,7 +24,7 @@ Si un catalogue de matériaux est impliqué, le fichier spécifié dans le catal
 * Si le chemin est relatif, il est précédé du préfixe ( `catalog::RootPath` d’un catalogue de matériaux nommé).
 * Si le chemin est absolu, il est utilisé ; Sinon, il est précédé du préfixe ( `default::RootPath` du catalogue par défaut).
 * Si le chemin est absolu, il est utilisé ; sinon, le serveur la combine avec le chemin indiqué dans [ir.resourceRootPaths](../../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-resource-root-folders.md#concept-39a34d2239934079bb396e1bf568a9c2).
-* Si le chemin est maintenant absolu, il est utilisé ; sinon, elle est supposée relative à [ ! DNL  *[!DNL install_folder]*].
+* Si le chemin est maintenant absolu, il est utilisé ; sinon, elle est supposée relative à [!DNL &#x200B; *[!DNL install_folder]*].
 
 Si aucun catalogue d’images n’est impliqué, le chemin est combiné, `default::RootPath` puis traité comme ci-dessus.
 

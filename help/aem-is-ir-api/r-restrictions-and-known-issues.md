@@ -45,7 +45,7 @@ Certaines restrictions et problèmes connus doivent être pris en compte lors de
 * Prise en charge de la gestion des macros non sensibles à la casse.
 * Le cache du catalogue a été réduit de 60 secondes à 10 secondes.
 * La fonctionnalité de redirection d’erreur redirige désormais uniquement les requêtes référençant des images, des polices, des profils de couleurs et des images corrompus qui sont publiés dans un catalogue, mais introuvables sur le disque.
-* `posN=`, , `anchor=`, `anchorN=`et `origin=``originN=` maintenant renvoyer une erreur d’analyse si l’une des valeurs du modificateur est supérieure à 2147483648.
+* `posN=`, , `anchor=`, `anchorN=`et `origin=` `originN=` maintenant renvoyer une erreur d’analyse si l’une des valeurs du modificateur est supérieure à 2147483648.
 
 * Le codage des demandes imbriquées n’est pas pris en charge. Passez au nouveau comportement et décodez toutes les valeurs de requête imbriquées trouvées dans les requêtes d’URL sur votre site et dans les catalogues de votre entreprise.
 * DefaultImage applique maintenant des attributs de miniature lors de l’utilisation du `req=tmb`fichier .

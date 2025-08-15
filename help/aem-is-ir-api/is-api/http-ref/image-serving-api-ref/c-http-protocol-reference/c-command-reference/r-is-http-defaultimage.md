@@ -31,7 +31,7 @@ Image de réponse par défaut. Spécifie l’image ou l’entrée de catalogue �
 >
 >Le mécanisme d’image par défaut ne s’applique pas aux objets SVG. Une erreur est renvoyée si l’objet SVG spécifié dans la requête est introuvable.
 
-Si `attribute::DefaultImageMode=0`, *`object`* remplace l’intégralité de la requête d’origine, même s’il manque une seule image dans une composition multi-images. Les seules commandes retenues dans la demande d’origine sont les suivantes : `wid=`, `hei=`, , `fmt=``qlt=`.
+Si `attribute::DefaultImageMode=0`, *`object`* remplace l’intégralité de la requête d’origine, même s’il manque une seule image dans une composition multi-images. Les seules commandes retenues dans la demande d’origine sont les suivantes : `wid=`, `hei=`, , `fmt=` `qlt=`.
 
 Si `attribute::DefaultImageMode=1`, remplace uniquement l’image de calque manquante ; les attributs du calque manquant sont appliqués et le composite est traité et renvoyé comme d’habitude.
 

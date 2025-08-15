@@ -1,5 +1,5 @@
 ---
-description: Nom de police de caractères. Nom de la police de caractères, exactement tel qu’il est spécifié dans la commande RTF \fonttbl.
+description: Nom de police de caractères. Nom de la police de caractères, exactement tel qu’il est spécifié dans la commande RTF fonttbl.
 solution: Experience Manager
 title: Nom
 feature: Dynamic Media Classic,SDK/API
