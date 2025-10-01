@@ -58,7 +58,7 @@ Pour consulter la documentation complète, voir [https://experienceleague.adobe.
 
 ## Visionneuses (Diffusion D’Images 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Pour consulter la documentation complète, voir [ Guide de référence des visionneuses ](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Pour consulter la documentation complète, voir [&#x200B; Guide de référence des visionneuses &#x200B;](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Correctifs de bugs pour la diffusion d’images 5.5.3**
 
@@ -68,7 +68,7 @@ Pour consulter la documentation complète, voir [ Guide de référence des visio
 
 ## Visionneuses (Diffusion D’Images 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Pour consulter la documentation complète, voir [ Guide de référence des visionneuses ](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Pour consulter la documentation complète, voir [&#x200B; Guide de référence des visionneuses &#x200B;](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Correctifs de bugs pour la diffusion d’images 5.5.2**
 
@@ -77,7 +77,7 @@ Pour consulter la documentation complète, voir [ Guide de référence des visio
 
 ## Visionneuses (Diffusion D’Images 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Pour consulter la documentation complète, voir [ Guide de référence des visionneuses ](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Pour consulter la documentation complète, voir [&#x200B; Guide de référence des visionneuses &#x200B;](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Nouvelles fonctionnalités, améliorations et correctifs pour la diffusion d’images 5.5.1**
 
