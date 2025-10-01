@@ -6,9 +6,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 8e243fa5-e375-41ce-8b49-2571023130c1
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
-source-wordcount: '2134'
+source-wordcount: '2130'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,11 @@ Voir [Configuration requise et conditions préalables](../../c-system-requiremen
 
 Cette visionneuse fonctionne avec des catalogues électroniques et prend en charge les zones cliquables facultatives et les outils de partage sur les réseaux sociaux. Elle comprend des outils de zoom, des outils de navigation de catalogue, une prise en charge du plein écran, des miniatures et un bouton de fermeture facultatif. La visionneuse prend également en charge les outils de partage sur les réseaux sociaux, l’impression, le téléchargement et les favoris. Il est conçu pour fonctionner sur les ordinateurs de bureau et les appareils mobiles.
 
-## URL de démonstration {#section-e1c3106f5b3e445d9b95be337c2f94e2}
+<!--
+## Demo URL {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
 [https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist](https://s7d1.scene7.com/s7viewers/html5/eCatalogViewer.html?asset=Viewers/Pluralist)
+-->
 
 ## Utilisation de la visionneuse de catalogue électronique {#section-e6c68406ecdc4de781df182bbd8088b4}
 

@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 2542b9f3-c398-4dbf-afa3-1671fc4fe72a
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Pour ajouter une bibliothèque d’images réactive à une page web et gérer le
 
 **Pour utiliser la bibliothèque d’images réactive**
 
-1. Dans Dynamic Media Classic, [créez un paramètre d’image prédéfini](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html?lang=fr#image-sizing) au cas où vous envisageriez d’utiliser la bibliothèque d’images réactive avec des paramètres prédéfinis.
+1. Dans Dynamic Media Classic, [créez un paramètre d’image prédéfini](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/image-sizing/setting-image-presets.html#image-sizing) au cas où vous envisageriez d’utiliser la bibliothèque d’images réactive avec des paramètres prédéfinis.
 
    Lorsque vous définissez des paramètres d’image prédéfinis utilisés avec la bibliothèque d’images réactive, n’utilisez aucun paramètre affectant la taille de l’image, tel que `wid=`, `hei=` ou `scl=`. Ne spécifiez aucun champ de taille dans le paramètre d’image prédéfini. Au lieu de cela, laissez-les comme valeurs vides.
 1. Ajoutez le fichier JavaScript de bibliothèque à votre page web.
@@ -32,11 +32,13 @@ Pour ajouter une bibliothèque d’images réactive à une page web et gérer le
 
    Il est également suggéré de placer l’URL de l’image existante dans l’attribut `data-src`. Ensuite, configurez l’attribut `src` existant pour qu’une image GIF 1x1 soit codée en tant qu’URI de données. Cela permet de réduire le nombre de requêtes HTTP envoyées par la page web au moment du chargement. Notez toutefois que si l’optimisation du moteur de recherche (SEO) est nécessaire, il est préférable de configurer un attribut `title` sur l’instance d’image.
 
-   Voici un exemple de définition de l’attribut `data-breakpoints` pour l’image et d’utilisation d’un GIF 1x1 codé en tant qu’URI de données :
+<!--
+   The following is an example of defining `data-breakpoints` attribute for the image and using a 1x1 GIF encoded as Data URI:
 
    ```
    <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
    ```
+-->
 
 1. Appelez la fonction API `s7responsiveImage` pour chaque instance d’image gérée par la bibliothèque.
 
@@ -56,7 +58,8 @@ La bibliothèque prend en charge l’utilisation simultanée de plusieurs instan
 
 Il est de la responsabilité de la page web de mettre en forme l’élément d’image afin de le rendre flexible en termes de taille. La bibliothèque d’images réactive ne fait pas de distinction entre les images de taille fixe et les images « fluides ». Si elle est appliquée à une image de taille fixe, elle charge la nouvelle image une seule fois.
 
-Le code suivant est un exemple complet de page web triviale disposant d’une seule image fluide gérée par la bibliothèque d’images réactive. L’exemple contient un style CSS supplémentaire pour rendre l’image « réactive » à la taille de la fenêtre du navigateur web :
+<!--
+The following code is a complete example of a trivial web page that has a single fluid image managed by the Responsive Image library. The example contains extra CSS styling to make the image "responsive" to the web browser window size:
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -81,7 +84,9 @@ Le code suivant est un exemple complet de page web triviale disposant d’une se
   </script> 
  </body> 
 </html>
+
 ```
+-->
 
 **Utilisation du recadrage intelligent**
 

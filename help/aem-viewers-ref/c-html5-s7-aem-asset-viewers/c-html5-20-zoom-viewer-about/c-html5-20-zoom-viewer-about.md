@@ -6,7 +6,7 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 81a74026-fb15-4f57-a4c7-1ab005950245
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
 source-wordcount: '2343'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Voir [Configuration requise et conditions préalables](../../c-system-requiremen
 
 ## URL de démonstration {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
-[https://s7d9.scene7.com/s7viewers/html5/ZoomViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample](https://s7d9.scene7.com/s7viewers/html5/ZoomViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample)
+[https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
 ## Utilisation de la visionneuse Zoom {#section-e6c68406ecdc4de781df182bbd8088b4}
 
@@ -178,7 +178,7 @@ Le chemin d’accès relatif ressemble à ce qui suit :
 
    Vous pouvez voir le comportement avec une visionneuse externe fixe dans l’exemple suivant. Notez que lorsque vous passez d’une visionneuse à l’autre, la taille de la visionneuse externe ne change pas :
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=fr](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html?lang=fr)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-outer-area.html)
 
    Pour rendre les dimensions de la vue principale statiques, définissez la taille de la visionneuse en unités absolues pour le composant SDK `Container` interne à l’aide du sélecteur CSS `.s7zoomviewer` `.s7container` ou à l’aide du modificateur `stagesize`.
 
@@ -193,7 +193,7 @@ Le chemin d’accès relatif ressemble à ce qui suit :
 
    La page de démonstration suivante montre le comportement de la visionneuse avec une taille d’affichage principale fixe. Notez que lorsque vous basculez entre les visionneuses, la vue principale reste statique et le contenu de la page web se déplace verticalement.
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=fr](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html?lang=fr)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/zoom/ZoomViewer-fixed-main-view.html)
 
    Vous pouvez définir le modificateur `stagesize` dans l’enregistrement du paramètre prédéfini de visionneuse dans Dynamic Media Classic. Vous pouvez également le transmettre explicitement avec le code d’initialisation de la visionneuse avec la collection `params` ou sous la forme d’un appel API, comme décrit dans la section Référence des commandes de cette aide, comme dans ce qui suit :
 

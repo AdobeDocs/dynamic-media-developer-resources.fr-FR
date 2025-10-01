@@ -1,43 +1,45 @@
 ---
 title: vidéo
-description: URL de la visionneuse de vidéos avec recadrage intelligent.
+description: Commande d’URL de la visionneuse de vidéos avec recadrage intelligent.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 7292f4e6-b687-4dfd-8806-aba364192b75
-source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 11%
+source-wordcount: '41'
+ht-degree: 9%
 
 ---
 
 # vidéo{#video}
 
-URL de la visionneuse de vidéos avec recadrage intelligent.
+Commande d’URL de la visionneuse de vidéos avec recadrage intelligent.
 
-` video= *`URL de vidéo`*`
+` video= *`videoURL`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> URL</span> de vidéo </span> </p> </td> 
-   <td colname="col2"> <p> URL absolue d’une vidéo externe. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoURL</span> </span> </p> </td> 
+   <td colname="col2"> <p> URL absolue vers une vidéo externe. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Propriétés {#section-f42369774e2740dcb399626a0e4e930e}
 
-Obligatoire. (Sauf si `asset` le paramètre est utilisé. Voir la [prise en charge] vidéo externe
-(.. /.. /.. /c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3).)
+Obligatoire. (Sauf si `asset` paramètre est utilisé. Voir [Prise en charge vidéo externe]
+(../../../c-html5-aem-asset-viewers/c-html5-aem-smartcropvideo/r-html5-aem-smartcropvideo-viewer-external-video-support.md#concept-22c67fee43274a29b28ee16770b1b1f3).
 
 ## Par défaut {#section-d016470e92a74f98a18c4ab3489410a5}
 
 Aucune
 
-## Exemple {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
+<!--
+## Example {#section-7621c8ebd4144bc08a537d01bd9c3f2f}
 
 ```
 video=https://s7d9.scene7.com/is/content/Scene7SharedAssets/Glacier_Climber_MP4
 ```
+-->

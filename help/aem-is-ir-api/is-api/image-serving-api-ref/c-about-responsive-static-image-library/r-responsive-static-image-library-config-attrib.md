@@ -1,46 +1,49 @@
 ---
-description: Les attributs de configuration sont définis en tant qu’attributs directement sur un élément IMG géré par la bibliothèque d’images réactives. Chaque image peut avoir son propre jeu d’attributs.
+description: Les attributs de configuration sont définis en tant qu’attributs directement sur un élément IMG géré par la bibliothèque d’images réactive. Chaque image peut avoir son propre jeu d’attributs.
 solution: Experience Manager
-title: Référence de commande – Attributs de configuration
+title: Référence des commandes - Attributs de configuration
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8cc645f8-03fe-4ac7-b23f-36536b60fdf6
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: 3df884c468ea89cc55b2b8ce13af01bfad454545
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
 
-# Référence de commande – Attributs de configuration{#command-reference-configuration-attributes}
+# Référence des commandes - Attributs de configuration{#command-reference-configuration-attributes}
 
-Les attributs de configuration sont définis en tant qu’attributs directement sur un élément IMG géré par la bibliothèque d’images réactives. Chaque image peut avoir son propre ensemble d’attributs.
+Les attributs de configuration sont définis en tant qu’attributs directement sur un élément IMG géré par la bibliothèque d’images réactive. Chaque image peut avoir son propre jeu d’attributs.
 
 ## data-src {#section-f52ff0f139604447a870abe6e1c03444}
 
 Facultatif.
 
 URL de l’image diffusée par le service d’images. Si l’URL n’est pas présente, la bibliothèque utilise la valeur définie dans `src`’attribut comme valeur de secours. Cet attribut sert l’image initiale et l’image dynamique que la bibliothèque d’images réactive gère à partir de différents emplacements.
-
-**Exemple**
+<!--
+**Example** 
 
 ```
 <img data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
 ```
+-->
 
 ## src {#section-5dbc1f9a3c274705adb9702e4c7af0b1}
 
-Si `data-src` la valeur est définie est `src` facultative et peut contenir n’importe quelle URL que vous souhaitez ajouter. Par exemple, elle peut contenir une URL vers la même image basée sur le service d’images que celle utilisée par la bibliothèque. Ou, il peut contenir un espace réservé GIF, ou même un URI de données pour éviter un aller-retour de serveur supplémentaire au démarrage.
+Si `data-src` est défini, `src` est facultatif et peut contenir toute URL que vous souhaitez ajouter. Par exemple, elle peut contenir une URL vers la même image basée sur le service d’images que celle utilisée par la bibliothèque. Il peut également contenir un espace réservé GIF ou même un URI de données pour éviter un aller-retour serveur supplémentaire au démarrage.
 
-Si `data-src` elle n’est pas définie, `src` elle est obligatoire et doit contenir une URL vers l’image proposée par le service d’images.
+Si `data-src` n’est pas défini, `src` est obligatoire et doit contenir une URL vers l’image diffusée par le service d’images.
 
-**Exemple**
+<!--
+**Example**
 
-Utilisation de l’URI de données pour l’attribut et de l’URL du serveur d’images pour l’attribut `src` `data-src` :
+Using data URI for the `src` attribute and Image Serving URL for the `data-src` attribute:
 
 ```
 <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720,940">
 ```
+-->
 
 ## data-breakpoints {#section-3bf62a89ff3e40569848c1fe3ac7886c}
 
@@ -50,34 +53,37 @@ Pour tout point d’arrêt de la liste, il est possible de définir une ou plusi
 
 Vous pouvez utiliser n’importe quelle commande de diffusion d’images prise en charge, à l’exception des commandes d’affichage qui affectent la taille de l’image de réponse, comme `wid=`, `hei=` ou `scl=`. La même restriction s’applique aux paramètres d’image prédéfinis : un paramètre d’image prédéfini utilisé avec la bibliothèque d’images réactive ne doit pas contenir de telles commandes.
 
-Plusieurs commandes de diffusion d’images ou noms de paramètres d’image prédéfinis sont séparés par le caractère « `&` ». Si une commande de diffusion d’images contient une virgule dans sa valeur, cette virgule est remplacée par `%2C`. Les noms des paramètres d’image prédéfinis sont placés entre des signes dollar ( `$`).
+Plusieurs commandes de diffusion d’images ou noms de paramètres d’image prédéfinis sont séparés par le caractère « `&` ». Si la valeur d’une commande de diffusion d’images comporte une virgule, cette virgule est remplacée par `%2C`. Les noms des paramètres prédéfinis d’image sont entourés de signes dollar ( `$`).
 
-**Exemples**
+<!--
+**Examples**
 
-**En utilisant uniquement des points d’arrêt**
+**Using breakpoints only**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360,720">`
 
-**Utilisation des commandes de traitement d’images**
+**Using Image Serving commands**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360:op_sharpen=1,720:resMode=sharp2&op_usm=0.9%2C1.0%2C8%2C0">`
 
-**Utilisation de paramètres d’image prédéfinis**
+**Using Image Presets**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360:$ResponsiveImage_Low$,940:$ResponsiveImage_High$">`
 
-**Utilisation des paramètres d’image prédéfinis et des commandes de diffusion d’images**
+**Using Image Presets & Image Serving commands**
 
 `<img src="https://s7d9.scene7.com/is/image/Scene7SharedAssets/Backpack_B" data-breakpoints="360:qlt=50,940:$ResponsiveImage_High$">`
+
+-->
 
 ## data-mode {#section-97caf43cf5ab4ca8b1b866d8f394a9a4}
 
 Les deux modes de recadrage intelligent suivants sont disponibles dans AEM 6.4 et versions ultérieures, ainsi que dans les visionneuses Dynamic Media 5.9 et versions ultérieures :
 
 * **Manuel** - les points d’arrêt définis par l’utilisateur et les commandes du service d’image correspondantes sont définis dans un attribut de l’élément image.
-* **Recadrage intelligent** : les rendus de recadrage intelligent calculés sont automatiquement récupérés à partir du serveur de diffusion. Le meilleur rendu est sélectionné en utilisant la taille d’exécution de l’élément d’image.
+* **Recadrage intelligent** : les rendus de recadrage intelligent calculés sont automatiquement récupérés à partir du serveur de diffusion. Le meilleur rendu est sélectionné à l’aide de la taille d’exécution de l’élément d’image.
 
-Pour utiliser le mode de recadrage intelligent, définissez l’attribut `data-mode` sur `smart crop`.
+Pour utiliser le mode Recadrage intelligent , définissez l’attribut `data-mode` sur `smart crop`.
 
 **Exemple**
 
@@ -88,7 +94,7 @@ data-src="https://imageserver.com/is/image/ExampleCo/SmartCropAsset"
 data-mode="smartcrop">
 ```
 
-L’élément d’image associé distribue un `s7responsiveViewer` événement au cours de l’exécution lorsque le point d’arrêt change.
+L’élément image associé distribue un événement `s7responsiveViewer` lors de l’exécution lorsque le point d’arrêt change.
 
 ```html {.line-numbers}
          responsiveImage.addEventListener("s7responsiveViewer", function (event) { 

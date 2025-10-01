@@ -1,29 +1,29 @@
 ---
-title: Mixte
-description: La visionneuse de supports variés est une visionneuse de médias. Il prend en charge les visionneuses de supports qui contiennent des images, des séries d’échantillons, des visionneuses à 360°, des vidéos et des visionneuses de vidéos adaptatives.
-keywords: sensible
+title: Média Mixte
+description: La visionneuse de médias mixtes est une visionneuse de médias. Elle prend en charge les visionneuses de médias qui contiennent des images, des visionneuses d’échantillons, des visionneuses à 360°, des vidéos et des visionneuses de vidéos adaptatives.
+keywords: réactif
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 65a54308-f9db-4458-a9c3-ccb1433af43c
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
 workflow-type: tm+mt
 source-wordcount: '2581'
 ht-degree: 0%
 
 ---
 
-# Mixte{#mixed-media}
+# Média Mixte{#mixed-media}
 
-La visionneuse de supports variés est une visionneuse de médias. Elle prend en charge les visionneuses de médias qui contiennent des images, des visionneuses d’échantillons, des visionneuses à 360°, des vidéos et des visionneuses de vidéos adaptatives.
+La visionneuse de médias mixtes est une visionneuse de médias. Elle prend en charge les visionneuses de médias qui contiennent des images, des visionneuses d’échantillons, des visionneuses à 360°, des vidéos et des visionneuses de vidéos adaptatives.
 
 Une miniature dans la partie inférieure de la visionneuse représente chaque élément de visionneuse de médias, ainsi que son indicateur de type de ressource. Lorsqu’un élément d’échantillon est sélectionné, une deuxième ligne d’échantillons semble permettre la sélection de la variation de couleur dans l’échantillon. Les images et les éléments d’échantillon prennent en charge le zoom en mode continu ou en ligne ; les visionneuses à 360° prennent en charge le zoom et la rotation. Les vidéos et les visionneuses de vidéos adaptatives prennent en charge tous les contrôles de lecture de base à condition que les sous-titres facultatifs s’affichent au-dessus du contenu vidéo. Un utilisateur peut basculer vers le plein écran à tout moment en cliquant sur le bouton Plein écran . La visionneuse dispose d’un bouton de fermeture facultatif. Il est conçu pour fonctionner sur les ordinateurs de bureau et les appareils mobiles.
 
-La visionneuse de médias mixtes utilise la lecture vidéo en flux continu HTML5 au format HLS dans sa configuration par défaut chaque fois que le système sous-jacent le prend en charge. Sur les systèmes qui ne prennent pas en charge la diffusion en flux continu HTML5, la visionneuse revient à la diffusion vidéo progressive HTML5.
+La visionneuse de médias mixtes utilise la lecture vidéo en flux continu HTML5 au format HLS dans sa configuration par défaut chaque fois que le système sous-jacent le prend en charge. Sur les systèmes qui ne prennent pas en charge la diffusion en continu d’HTML5, la visionneuse revient à la diffusion vidéo progressive d’HTML5.
 
 >[!NOTE]
 >
->Les images qui utilisent IR (Image Rendering) ou UGC (User-Generated Content) ne sont pas prises en charge par cette visionneuse.
+>Les images qui utilisent le rendu d’image (IR) ou le contenu créé par l’utilisateur (UGC) ne sont pas pris en charge par cette visionneuse.
 
 Type de visionneuse 505.
 
@@ -31,21 +31,21 @@ Voir [Configuration requise et conditions préalables](../../c-system-requiremen
 
 ## URL de démonstration {#section-e1c3106f5b3e445d9b95be337c2f94e2}
 
-[https://s7d9.scene7.com/s7viewers/html5/MixedMediaViewer.html?asset=Scene7SharedAssets/Mixed_Media_Set_Sample](https://s7d9.scene7.com/s7viewers/html5/MixedMediaViewer.html?asset=Scene7SharedAssets/Mixed_Media_Set_Sample)
+[https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-## Utilisation de la visionneuse de supports variés {#section-f21ac23d3f6449ad9765588d69584772}
+## Utilisation de la visionneuse de médias mixtes {#section-f21ac23d3f6449ad9765588d69584772}
 
-La visionneuse de supports variés représente un fichier de JavaScript principal et un ensemble de fichiers d’assistance (une seule JavaScript inclure avec tous les composants SDK de la visionneuse utilisés par cette visionneuse particulière, ressources, CSS) téléchargés par la visionneuse au moment de l’exécution.
+La visionneuse de médias mixtes représente un fichier JavaScript principal et un ensemble de fichiers d’assistance (un JavaScript unique inclus avec tous les composants SDK de la visionneuse utilisés par cette visionneuse particulière, ressources, CSS) téléchargés par la visionneuse au moment de l’exécution.
 
-Vous pouvez utiliser la visionneuse de supports variés en mode pop-up à l’aide d’une page HTML prête pour la production fournie avec IS-Viewers. Vous pouvez également utiliser la visionneuse en mode intégré, où elle est intégrée dans une page Web cible à l’aide de l’API documentée.
+Vous pouvez utiliser la visionneuse de médias mixtes en mode pop-up à l’aide de la page HTML prête pour l’exploitation fournie avec les visionneuses de médias mixtes. Vous pouvez également utiliser la visionneuse en mode incorporé, où elle est intégrée à une page web cible à l’aide de l’API documentée.
 
-La tâche de configuration et d’habillage de la visionneuse est similaire à celle des autres visionneuses. Tout l’habillage est réalisé par le biais d’une feuille de style CSS personnalisée.
+La tâche de configuration et d’application de la peau à la visionneuse est similaire aux autres visionneuses. Toute application de la peau est réalisée au moyen d’un CSS personnalisé.
 
-Voir [Référence de commande commune à tous les visualiseurs - Attributs](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) de configuration et [Référence de commande communs à tous les visualiseurs - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+Voir [ Référence des commandes commune à toutes les visionneuses - Attributs de configuration ](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) et [ Référence des commandes commune à toutes les visionneuses - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
-## Interaction avec la visionneuse de supports variés {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
+## Interaction avec la visionneuse de médias mixtes {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
-La visionneuse de supports variés prend en charge les gestes tactiles et multipoints courants dans d’autres applications mobiles. Lorsque le spectateur ne peut pas traiter le mouvement de glissement d’un utilisateur, il transfère l’événement au navigateur Web pour effectuer un défilement de page natif. Cette fonctionnalité permet à un utilisateur de naviguer dans la page même si la visionneuse occupe la majeure partie de la zone d’écran de l’appareil.
+La visionneuse de médias mixtes prend en charge les gestes tactiles et multipoint courants dans d’autres applications mobiles. Lorsque la visionneuse ne peut pas traiter le mouvement de balayage d’un utilisateur, elle transfère l’événement au navigateur web pour effectuer un défilement natif de la page. Cette fonctionnalité permet à l’utilisateur de parcourir la page même si la visionneuse occupe la majeure partie de la zone de l’écran de l’appareil.
 
 <table id="table_ED747CC7178448919C34A4FCD18922D0"> 
  <thead> 
@@ -56,69 +56,69 @@ La visionneuse de supports variés prend en charge les gestes tactiles et multip
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Robinet unique </p> </td> 
-   <td colname="col2"> <p> Active la vue déroulante ou passe du niveau de zoom principal au niveau de zoom secondaire. </p> </td> 
+   <td colname="col1"> <p>Clic unique </p> </td> 
+   <td colname="col2"> <p> Active la vue déroulante ou les modifications entre le niveau de zoom principal et secondaire. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Double appui </p> </td> 
-   <td colname="col2"> <p>Lorsque vous êtes en <span class="codeph"> mode zoom continu </span> , zoome d’un niveau jusqu’à ce que le grossissement maximal soit atteint, le geste de double appui suivant se réinitialise à l’état initial. </p> </td> 
+   <td colname="col1"> <p>Appuyer deux fois </p> </td> 
+   <td colname="col2"> <p>En mode <span class="codeph"> zoom </span> continu, effectue un zoom d’un niveau jusqu’à ce que le zoom maximal soit atteint, puis le double appui suivant réinitialise le mouvement à l’état initial. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Toucher et maintenir </p> </td> 
-   <td colname="col2"> <p> Lorsque le mode de zoom intégré <span class="codeph"> est sélectionné</span>, l’image zoomée est activée. </p> </td> 
+   <td colname="col2"> <p> En mode <span class="codeph"> zoom </span> intégré, active l’image zoomée. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Pincer </p> </td> 
-   <td colname="col2"> <p>Lorsque vous passez en mode zoom continu, applique un zoom avant ou arrière sur l’image. </p> </td> 
+   <td colname="col2"> <p>En mode de zoom continu, effectue un zoom avant ou arrière sur l’image. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Glissement horizontal </p> </td> 
-   <td colname="col2"> <p> Lorsque la ressource active est une visionneuse à 360° et que l’image est dans un état de réinitialisation, elle tourne horizontalement dans la visionneuse à 360°. </p> <p> Lorsque la ressource active est une visionneuse à 360° ou une image et que l’image est zoomée, elle déplace l’image horizontalement. Si l’image est déplacée vers le bord de la vue et que le balayage est toujours effectué dans cette direction, le mouvement effectue un défilement de page natif. </p> <p> Fait défiler la liste des nuances dans la barre d’échantillons. </p> </td> 
+   <td colname="col1"> <p>Balayage horizontal ou clic </p> </td> 
+   <td colname="col2"> <p> Lorsque la ressource active est une visionneuse à 360° et que l’image est dans un état réinitialisé, elle traverse la visionneuse à 360° horizontalement. </p> <p> Lorsque la ressource active est une visionneuse à 360° ou une image et que l’image fait l’objet d’un zoom avant, elle déplace l’image horizontalement. Si l’image est déplacée vers le bord de la vue et que le balayage est toujours effectué dans cette direction, le mouvement effectue un défilement natif de la page. </p> <p> Fait défiler la liste des échantillons dans la barre d’échantillons. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Balayage vertical </p> </td> 
-   <td colname="col2"> <p> Si l’image est dans un état de réinitialisation, cela change l’angle de vue vertical en cas d’utilisation d’une visionneuse à 360° multidimensionnelle. Dans une visionneuse à 360° unidimensionnelle, ou lorsqu’une visionneuse à 360° multidimensionnelle se trouve sur le dernier ou le premier axe, de sorte que le balayage vertical n’entraîne pas de modification de l’angle de vue vertical, le mouvement effectue le défilement natif de la page. </p> <p> Lorsque la ressource active est une visionneuse à 360° ou une image et que l’image fait l’objet d’un zoom, déplace l’image verticalement. Si l’image est déplacée vers le bord de la vue et que le balayage est toujours effectué dans cette direction, le mouvement effectue le défilement de la page native. </p> <p> Si le mouvement est effectué dans la zone d’échantillons, il effectue un défilement de page natif. </p> </td> 
+   <td colname="col1"> <p>Balayage vertical ou battement </p> </td> 
+   <td colname="col2"> <p> Si l’image est réinitialisée, elle modifie l’angle d’affichage vertical si une visionneuse à 360° multidimensionnelle est utilisée. Dans une visionneuse à 360° unidimensionnelle ou lorsqu’une visionneuse à 360° multidimensionnelle se trouve sur le dernier ou le premier axe, de sorte que le balayage vertical n’entraîne pas de changement d’angle de vue vertical, le mouvement effectue un défilement natif de la page. </p> <p> Lorsque la ressource actuelle est une visionneuse à 360° ou une image et que l’image fait l’objet d’un zoom avant, déplace l’image verticalement. Si l’image est déplacée vers le bord d’affichage et que le balayage est toujours effectué dans cette direction, le mouvement effectue un défilement natif de la page. </p> <p> Si le mouvement est effectué dans la zone d’échantillons, il effectue un défilement natif de la page. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-La visionneuse prend également en charge l’entrée tactile et l’entrée souris sur les appareils Windows dotés d’un écran tactile et d’une souris. Cette prise en charge est toutefois limitée aux navigateurs Web Chrome, Internet Explorer 11 et Edge uniquement.
+La visionneuse prend également en charge l’entrée tactile et l’entrée souris sur les appareils Windows dotés d’un écran tactile et d’une souris. Cette prise en charge se limite toutefois aux navigateurs web Chrome, Internet Explorer 11 et Edge uniquement.
 
-Cette visionneuse est entièrement accessible à l’aide du clavier.
+Cette visionneuse est entièrement accessible à partir du clavier.
 
 Voir [Accessibilité clavier et navigation](../../c-keyboard-accessibility.md#topic-f5650e9493404e55a3627c8d1366b861).
 
-## Incorporation d’une visionneuse de supports variés {#section-6bb5d3c502544ad18a58eafe12a13435}
+## Incorporation de la visionneuse de médias mixtes {#section-6bb5d3c502544ad18a58eafe12a13435}
 
-Les différentes pages web ont des besoins différents en ce qui concerne le comportement des spectateurs. Parfois, une page Web fournit un lien qui, lorsqu’il est sélectionné, ouvre la visionneuse dans une fenêtre de navigateur distincte. Dans d’autres cas, il est nécessaire d’intégrer la visionneuse directement sur la page d’hébergement. Dans ce dernier cas, la page Web peut avoir une mise en page statique ou utiliser un design réactif qui s’affiche différemment sur différents appareils ou pour différentes tailles de fenêtre de navigateur. Pour répondre à ces besoins, la visionneuse prend en charge trois modes de fonctionnement principaux : pop-up, incorporation de taille fixe et incorporation de conception réactive.
+Les différentes pages web ont des besoins différents en termes de comportement des observateurs. Parfois, une page web fournit un lien qui, lorsqu’il est sélectionné, ouvre la visionneuse dans une fenêtre de navigateur distincte. Dans d’autres cas, il est nécessaire d’incorporer la visionneuse directement dans la page d’hébergement. Dans ce dernier cas, la page web peut avoir une mise en page statique ou utiliser une conception réactive qui s’affiche différemment sur différents appareils ou pour différentes tailles de fenêtre du navigateur. Pour répondre à ces besoins, la visionneuse prend en charge trois modes de fonctionnement principaux : pop-up, incorporation de taille fixe et incorporation de conception réactive.
 
-## A propos du mode pop-up {#section-77d5aa03b8b94566958a179b1a2cd474}
+## À propos du mode pop-up {#section-77d5aa03b8b94566958a179b1a2cd474}
 
-En mode pop-up, la visionneuse est ouverte dans une fenêtre ou un onglet de navigateur Web distinct. Il prend toute la zone de la fenêtre du navigateur et s’ajuste en cas de redimensionnement du navigateur ou de changement d’orientation d’un appareil mobile.
+En mode pop-up, la visionneuse s’ouvre dans une fenêtre ou un onglet distinct du navigateur web. Elle occupe toute la zone de la fenêtre du navigateur et s’ajuste au cas où le navigateur serait redimensionné ou si l’orientation d’un appareil mobile était modifiée.
 
-Le mode pop-up est le plus courant pour les appareils mobiles. La page Web charge la visionneuse à l’aide `window.open()` d’JavaScript appel, d’un élément HTML correctement configuré `A` ou de toute autre méthode appropriée.
+Le mode pop-up est le plus courant pour les appareils mobiles. La page web charge la visionneuse à l’aide de `window.open()`’appel JavaScript, correctement configuré `A` l’élément HTML ou de toute autre méthode appropriée.
 
-Il est recommandé d’utiliser une page HTML prête à l’emploi pour le mode de fonctionnement contextuel. Dans ce cas, il est appelé [!DNL MixedMediaViewer.html] et se trouve dans le [!DNL html5/] sous-dossier de votre déploiement IS-Viewers standard :
+Il est recommandé d’utiliser une page HTML prête à l’emploi pour le mode de fonctionnement des fenêtres pop-up. Dans ce cas, il s’appelle [!DNL MixedMediaViewer.html] et se trouve dans le sous-dossier [!DNL html5/] de votre déploiement d’observateurs IS standard :
 
 [!DNL <s7viewers_root>/html5/MixedMediaViewer.html]
 
-Vous pouvez obtenir une personnalisation visuelle en appliquant une feuille de style CSS personnalisée.
+Vous pouvez effectuer une personnalisation visuelle en appliquant un CSS personnalisé.
 
-Voici un exemple de code HTML qui ouvre la visionneuse dans une nouvelle fenêtre :
+Voici un exemple de code HTML qui permet d’ouvrir la visionneuse dans une nouvelle fenêtre :
 
 ```html {.line-numbers}
 <a href="http://s7d1.scene7.com/s7viewers/html5/MixedMediaViewer.html?asset=Scene7SharedAssets/Mixed_Media_Set_Sample" target="_blank">Open popup viewer</a>
 ```
 
-## A propos de la taille fixe et de l’incorporation de la conception réactive {#section-ec86b100ba5943d0b16694268520bbde}
+## À propos de l’incorporation de formats fixes et de conceptions réactives {#section-ec86b100ba5943d0b16694268520bbde}
 
-En mode intégré, la visionneuse est ajoutée à la page Web existante, qui peut déjà contenir du contenu client non lié à la visionneuse. Le spectateur n’occupe normalement qu’une partie de l’espace d’une page Web.
+En mode incorporé, la visionneuse est ajoutée à la page web existante, qui peut déjà comporter du contenu client non lié à la visionneuse. L’observateur n’occupe normalement qu’une partie de l’espace d’une page web.
 
-Les principaux cas d’utilisation sont les pages Web orientées vers les ordinateurs de bureau ou les tablettes, ainsi que les pages de conception réactive qui ajustent automatiquement la mise en page en fonction du type d’appareil.
+Les principaux cas d’utilisation sont des pages web orientées pour les ordinateurs de bureau ou les tablettes, ainsi que des pages en responsive design qui ajustent automatiquement la disposition en fonction du type d’appareil.
 
-L’incorporation de taille fixe est utilisée lorsque la visionneuse ne modifie pas sa taille après le chargement initial. Cette action constitue le meilleur choix pour les pages Web dotées d’une disposition statique.
+L’incorporation de taille fixe est utilisée lorsque la visionneuse ne modifie pas sa taille après le chargement initial. Cette action est le meilleur choix pour les pages web avec une disposition statique.
 
-L’incorporation de conception réactive suppose que la visionneuse doit se redimensionner au moment de l’exécution en réponse au changement de taille de son conteneur `DIV`. Le cas d’utilisation le plus courant consiste à ajouter une visionneuse à une page web qui utilise une disposition de page flexible.
+L’incorporation de conception réactive suppose que la visionneuse doit être redimensionnée au moment de l’exécution en réponse au changement de taille de son `DIV` de conteneur. Le cas d’utilisation le plus courant consiste à ajouter une visionneuse à une page web qui utilise une disposition de page flexible.
 
 En mode d’incorporation de responsive design, la visionneuse se comporte différemment selon la manière dont la page web dimensionne son `DIV` de conteneur. Si la page web définit uniquement la largeur du `DIV` de conteneur, sans restriction de hauteur, la visionneuse choisit automatiquement sa hauteur en fonction des proportions de la ressource utilisée. Cette fonctionnalité garantit que la ressource s’adapte parfaitement à la vue sans marge intérieure sur les côtés. Ce cas d’utilisation est le plus courant pour les pages web utilisant des structures de disposition en responsive design telles que Bootstrap ou Foundation.
 
@@ -126,20 +126,20 @@ Dans le cas contraire, si la page web définit à la fois la largeur et la haute
 
 ## Incorporation de taille fixe {#section-17d162f76ffa4804b27928f51e7bea1d}
 
-Pour ajouter la visionneuse à une page Web, procédez comme suit :
+Ajoutez la visionneuse à une page web en procédant comme suit :
 
-1. Ajout du fichier JavaScript de visionneuse à votre page Web.
-1. Définition du conteneur `DIV`.
+1. Ajout du fichier JavaScript de la visionneuse à votre page web.
+1. La définition du `DIV` de conteneur.
 1. Définition de la taille de la visionneuse.
 1. Création et initialisation de la visionneuse.
 
-1. Ajout du fichier JavaScript de visionneuse à votre page Web.
+1. Ajout du fichier JavaScript de la visionneuse à votre page web.
 
-   Pour créer une visionneuse, vous devez ajouter une balise de script dans l’en-tête HTML. Avant de pouvoir utiliser l’API de visionneuse, veillez à inclure [!DNL MixedMediaViewer.js]le fichier . Le [!DNL MixedMediaViewer.js] fichier se trouve dans le [!DNL html5/js/] sous-dossier de votre déploiement IS-Viewers standard :
+   La création d’une visionneuse nécessite l’ajout d’une balise de script dans l’en-tête HTML. Avant de pouvoir utiliser l’API de visionneuse, veillez à inclure [!DNL MixedMediaViewer.js]. Le fichier [!DNL MixedMediaViewer.js] se trouve sous le sous-dossier [!DNL html5/js/] de votre déploiement d’observateurs IS standard :
 
 [!DNL <s7viewers_root>/html5/js/MixedMediaViewer.js]
 
-Vous pouvez utiliser un chemin d’accès relatif si la visionneuse est déployée sur l’un des serveurs Adobe Dynamic Media Classic et qu’elle est diffusée à partir du même domaine. Sinon, vous spécifiez un chemin d’accès complet à l’un des serveurs Adobe Dynamic Media Classic sur lesquels les IS-Viewers sont installés.
+Vous pouvez utiliser un chemin relatif si la visionneuse est déployée sur l’un des serveurs d’Adobe Dynamic Media Classic et qu’elle est diffusée à partir du même domaine. Sinon, vous spécifiez un chemin d’accès complet à l’un des serveurs Adobe Dynamic Media Classic sur lesquels les visionneuses IS sont installées.
 
 Le chemin d’accès relatif ressemble à ce qui suit :
 
@@ -149,20 +149,20 @@ Le chemin d’accès relatif ressemble à ce qui suit :
 
 >[!NOTE]
 >
->Référencez uniquement le fichier JavaScript `include` de visionneuse principal sur votre page. Ne référencez pas de fichiers JavaScript supplémentaires dans le code de la page Web qui pourraient être téléchargés par la logique du visualiseur au moment de l’exécution. En particulier, ne référencez pas directement la bibliothèque SDK `Utils.js` HTML5 chargée par la visionneuse à partir du chemin d’accès `/s7viewers` au contexte (SDK `include`consolidé). La raison en est que l’emplacement des bibliothèques d’exécution ou des bibliothèques de `Utils.js` visionneuse similaires est entièrement géré par la logique de la visionneuse et que l’emplacement change entre les versions de la visionneuse. Adobe ne conserve pas les anciennes versions de la visionneuse `includes` secondaire sur le serveur.
+>Référencez uniquement le fichier de `include` JavaScript de la visionneuse principale sur votre page. Ne référencez aucun fichier JavaScript supplémentaire dans le code de page web qui pourrait être téléchargé par la logique de la visionneuse au moment de l’exécution. En particulier, ne référencez pas directement la bibliothèque de `Utils.js` SDK HTML5 chargée par la visionneuse à partir `/s7viewers` chemin de contexte (appelé `include` consolidée de SDK). En effet, l’emplacement des bibliothèques de visionneuse d’exécution `Utils.js` ou similaires est entièrement géré par la logique de la visionneuse et l’emplacement change entre les versions de la visionneuse. Adobe ne conserve pas les anciennes versions des `includes` secondaires de la visionneuse sur le serveur.
 >
 >
->Par conséquent, le fait de placer une référence directe à une JavaScript `include` secondaire utilisée par l’utilisateur sur la page interrompt la fonctionnalité de la visionneuse à l’avenir lorsqu’une nouvelle version du produit est déployée.
+>Par conséquent, le fait de placer une référence directe à toute `include` JavaScript secondaire utilisée par la visionneuse sur la page interrompt la fonctionnalité de la visionneuse à l’avenir lorsqu’une nouvelle version du produit est déployée.
 
-1. Définition du conteneur DIV.
+1. Définition du DIV du conteneur.
 
-   Ajoutez un élément DIV vide à la page dans laquelle vous souhaitez que la visionneuse apparaisse. L’ID de l’élément DIV doit être défini, car cet identifiant est transmis ultérieurement à l’API de visionneuse. La taille de la DIV est spécifiée via CSS.
+   Ajoutez un élément DIV vide à la page sur laquelle vous souhaitez que la visionneuse apparaisse. L’identifiant de l’élément DIV doit être défini, car cet identifiant est transmis ultérieurement à l’API de visionneuse. La taille du DIV est spécifiée via CSS.
 
-   L’espace réservé DIV est un élément positionné, ce qui signifie que la `position` propriété CSS est définie sur `relative` ou `absolute`.
+   L’espace réservé DIV est un élément positionné, ce qui signifie que la propriété CSS `position` est définie sur `relative` ou `absolute`.
 
-   Assurez-vous que la fonctionnalité Plein écran fonctionne correctement dans Internet Explorer. Vérifiez qu’aucun autre élément dans le DOM n’a un ordre d’empilement supérieur à celui de votre balise div d’espace réservé.
+   Assurez-vous que la fonction Plein écran fonctionne correctement dans Internet Explorer. Vérifiez qu’aucun autre élément du DOM n’a un ordre d’empilement supérieur à celui de votre DIV d’espace réservé.
 
-   Voici un exemple d’élément DIV d’espace réservé défini :
+   Exemple d’élément DIV d’espace réservé défini :
 
    ```html {.line-numbers}
    <div id="s7viewer" style="position:relative"></div> 
@@ -170,11 +170,11 @@ Le chemin d’accès relatif ressemble à ce qui suit :
 
 1. Définition de la taille de la visionneuse
 
-   Cette visionneuse affiche des miniatures lorsque vous travaillez avec des visionneuses multi-éléments. Sur les ordinateurs de bureau, des miniatures sont placées sous la vue principale. Dans le même temps, la visionneuse permet l’échange de la ressource principale pendant l’exécution à l’aide d’API `setAsset()` . En tant que développeur, vous contrôlez la façon dont la visionneuse gère la zone des vignettes en bas lorsque la nouvelle ressource ne comporte qu’un seul élément. Il est possible de garder la taille de la visionneuse extérieure intacte et de laisser la vue principale augmenter sa hauteur et occuper la zone des vignettes. Vous pouvez également conserver la taille de la vue principale statique et réduire la zone extérieure de la visionneuse, ce qui permet au contenu de la page Web de se déplacer vers le haut. Ensuite, utilisez l’espace de page gratuit qui reste des miniatures.
+   Cette visionneuse affiche des miniatures lorsque vous utilisez des visionneuses d’éléments multiples. Sur les ordinateurs de bureau, les miniatures sont placées sous la vue principale. Dans le même temps, la visionneuse permet de permuter la ressource principale au moment de l’exécution à l’aide de l’API `setAsset()`. En tant que développeur ou développeuse, vous avez un contrôle sur la manière dont la visionneuse gère la zone des miniatures en bas lorsque la nouvelle ressource ne comporte qu’un seul élément. Il est possible de conserver la taille de la visionneuse extérieure intacte et de laisser la vue principale augmenter sa hauteur et occuper la zone des miniatures. Vous pouvez également conserver la taille de l’affichage principal statique et réduire la zone de visionneuse externe, laissant le contenu de la page web se déplacer vers le haut. Ensuite, utilisez l’espace disque disponible sur la page qui reste dans les miniatures.
 
-   Pour conserver les limites extérieures de la visionneuse, définissez la taille de `.s7mixedmediaviewer` la classe CSS de niveau supérieur en unités absolues. Le dimensionnement dans CSS peut être placé directement sur la page HTML ou dans un fichier CSS de visionneuse personnalisé, puis affecté à un enregistrement de paramètre prédéfini de visionneuse dans Dynamic Media Classic, ou transmis explicitement à l’aide de la commande de style.
+   Pour conserver les limites de la visionneuse externe intactes, définissez la taille de `.s7mixedmediaviewer` classe CSS de niveau supérieur en unités absolues. Le dimensionnement dans CSS peut être placé directement sur la page HTML ou dans un fichier CSS de visionneuse personnalisé, puis affecté ultérieurement à un enregistrement de paramètre prédéfini de visionneuse dans Dynamic Media Classic, ou transmis explicitement à l’aide de la commande de style.
 
-   Voir [Personnalisation de la visionneuse](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#concept-61b3410f187c4bf3af09ec813c649bf4) de supports variés pour plus d’informations sur le style de la visionneuse avec CSS.
+   Consultez [Personnalisation des visionneuses de médias mixtes](../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#concept-61b3410f187c4bf3af09ec813c649bf4) pour plus d’informations sur la mise en forme de la visionneuse avec CSS.
 
    Voici un exemple de définition de la taille statique de la visionneuse externe dans une page HTML :
 
@@ -185,13 +185,13 @@ Le chemin d’accès relatif ressemble à ce qui suit :
    }
    ```
 
-   Vous pouvez voir le comportement avec une zone de visionneuse extérieure fixe sur l’exemple de page suivant. Notez que lorsque vous basculez entre des visionneuses, la taille extérieure de la visionneuse ne change pas :
+   Vous pouvez voir le comportement avec une zone de visionneuse externe fixe sur la page d’exemple suivante. Notez que lorsque vous passez d’une visionneuse à l’autre, la taille de la visionneuse externe ne change pas :
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html?lang=fr](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html?lang=fr)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-outer-area.html)
 
-   Pour rendre les dimensions de la vue principale statiques, définissez la taille de la visionneuse en unités absolues pour le composant SDK interne `Container` à l’aide `.s7mixedmediaviewer .s7container` du sélecteur CSS ou à l’aide `stagesize` du modificateur.
+   Pour rendre les dimensions de la vue principale statiques, définissez la taille de la visionneuse en unités absolues pour le composant SDK `Container` interne à l’aide `.s7mixedmediaviewer .s7container` sélecteur CSS ou à l’aide du modificateur `stagesize`.
 
-   Voici un exemple de définition de la taille de la visionneuse pour le composant SDK interne `Container` afin que la zone d’affichage principale ne modifie pas sa taille lors du changement de ressource :
+   Voici un exemple de définition de la taille de la visionneuse pour le composant SDK `Container` interne afin que la zone d’affichage principale ne modifie pas sa taille lors du changement de ressource :
 
    ```html {.line-numbers}
    #s7viewer.s7mixedmediaviewer .s7container { 
@@ -200,27 +200,27 @@ Le chemin d’accès relatif ressemble à ce qui suit :
    }
    ```
 
-   L’exemple de page suivant montre le comportement d’un observateur avec une taille d’affichage principal fixe. Notez que lorsque vous basculez entre des visionneuses, la vue principale reste statique et le contenu de la page Web se déplace verticalement :
+   L’exemple de page suivant illustre le comportement des visionneuses avec une taille d’affichage principale fixe. Notez que lorsque vous passez d’un ensemble à l’autre, la vue principale reste statique et le contenu de la page web se déplace verticalement :
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html?lang=fr](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html?lang=fr)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/mixedmedia/MixedMediaViewer-fixed-main-view.html)
 
-   Vous pouvez définir le `stagesize` modificateur dans l’enregistrement du paramètre prédéfini de la visionneuse dans Dynamic Media Classic ou le transmettre explicitement avec le code d’initialisation de la visionneuse avec `params` collection. Ou, en tant qu’appel d’API comme décrit dans la section Référence des commandes de cette aide, comme dans ce qui suit :
+   Vous pouvez définir le modificateur `stagesize` dans l’enregistrement du paramètre prédéfini de la visionneuse dans Dynamic Media Classic ou le transmettre explicitement avec le code d’initialisation de la visionneuse avec la collection `params`. Ou, par le biais d’un appel API, comme décrit dans la section Référence des commandes de cette aide, comme dans ce qui suit :
 
    ```html {.line-numbers}
    mixedMediaViewer.setParam("stagesize", "640,480");
    ```
 
-   Une approche basée sur le code CSS est recommandée et est utilisée dans cet exemple.
+   Une approche basée sur CSS est recommandée et est utilisée dans cet exemple.
 
 1. Création et initialisation de la visionneuse.
 
-   Lorsque vous avez terminé les étapes ci-dessus, vous créez une instance de classe, transmettez toutes les informations de configuration à son constructeur et appelez `s7viewers.MixedMediaViewer` la méthode sur une instance de `init()` visionneuse. Les informations de configuration sont transmises au constructeur sous la forme d’un objet JSON. Au minimum, cet objet doit avoir le `containerId` champ qui contient le nom de l’ID de conteneur de la visionneuse et de l’objet JSON imbriqué `params` avec les paramètres de configuration pris en charge par la visionneuse. Dans ce cas, l’objet `params` doit avoir au moins l’URL Image Serving transmise en tant que propriété, l’URL du serveur vidéo transmise en propriété et la ressource initiale en tant que `serverUrl` `videoserverurl` `asset` paramètre. L’API d’initialisation basée sur JSON vous permet de créer et de démarrer la visionneuse avec une seule ligne de code.
+   Une fois les étapes ci-dessus terminées, vous créez une instance de `s7viewers.MixedMediaViewer` classe, transmettez toutes les informations de configuration à son constructeur et appelez `init()` méthode sur une instance de visionneuse. Les informations de configuration sont transmises au constructeur en tant qu’objet JSON. Au minimum, cet objet doit comporter le champ `containerId` qui contient le nom de l’ID de conteneur de visionneuse et de l’objet JSON `params` imbriqué avec les paramètres de configuration pris en charge par la visionneuse. Dans ce cas, l’objet `params` doit avoir au moins l’URL du service d’images transmise en tant que propriété `serverUrl`, l’URL du serveur vidéo transmise en tant que propriété `videoserverurl` et la ressource initiale en tant que paramètre `asset`. L’API d’initialisation basée sur JSON vous permet de créer et de démarrer la visionneuse avec une seule ligne de code.
 
-   Il est important d’ajouter le conteneur de visionneuse au DOM afin que le code de visionneuse puisse trouver l’élément conteneur par son identifiant. Certains navigateurs retardent la création de DOM jusqu’à la fin de la page Web. Pour une compatibilité maximale, appelez la `init()` méthode juste avant la balise de fermeture `BODY` , ou sur l’événement body `onload()` .
+   Il est important d’ajouter le conteneur de visionneuse au DOM afin que le code de la visionneuse puisse trouver l’élément de conteneur à l’aide de son identifiant. Certains navigateurs retardent la création du DOM jusqu’à la fin de la page web. Pour une compatibilité maximale, appelez la méthode `init()` juste avant la balise `BODY` de fermeture ou sur l’événement body `onload()`.
 
-   Dans le même temps, l’élément conteneur ne doit pas nécessairement faire partie de la mise en page Web pour le moment. Par exemple, il peut être masqué à l’aide `display:none` du style qui lui est attribué. Dans ce cas, la visionneuse retarde son processus d’initialisation jusqu’au moment où la page Web ramène l’élément conteneur à la mise en page. Lorsque cette action se produit, le chargement de la visionneuse reprend automatiquement.
+   Dans le même temps, l’élément de conteneur ne doit pas nécessairement encore faire partie de la mise en page web. Par exemple, elle peut être masquée à l’aide `display:none` style qui lui est affecté. Dans ce cas, la visionneuse retarde son processus d’initialisation jusqu’au moment où la page web ramène l’élément de conteneur dans la mise en page. Lorsque cette action se produit, le chargement de la visionneuse reprend automatiquement.
 
-   Voici un exemple de création d’une instance de visionneuse, de transmission des options de configuration minimales nécessaires au constructeur et d’appel de la `init()` méthode. L’exemple suppose `mixedMediaViewer` est l’instance de visionneuse, `s7viewer` est le nom de l’espace réservé`DIV`[!DNL http://s7d1.scene7.com/is/image/], est l’URL [!DNL http://s7d1.scene7.com/is/content/] du serveur d’images, est l’URL du serveur vidéo et [!DNL Scene7SharedAssets/Mixed_Media_Set_Sample] est la ressource :
+   Voici un exemple de création d’une instance de visionneuse, de transmission des options de configuration minimales nécessaires au constructeur et d’appel de la méthode `init()`. L’exemple suppose que `mixedMediaViewer` est l’instance de visionneuse, `s7viewer` est le nom de l’espace réservé `DIV`, [!DNL http://s7d1.scene7.com/is/image/] est l’URL du service d’images, [!DNL http://s7d1.scene7.com/is/content/] est l’URL du serveur vidéo et [!DNL Scene7SharedAssets/Mixed_Media_Set_Sample] est la ressource :
 
 ```html {.line-numbers}
 <script type="text/javascript"> 
@@ -238,7 +238,7 @@ mixedMediaViewer.init();
 </script>
 ```
 
-Le code suivant est un exemple complet de page Web triviale qui intègre la visionneuse de médias mixtes avec une taille fixe :
+Le code suivant est un exemple complet de page web triviale qui intègre la visionneuse de médias mixtes à une taille fixe :
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -268,9 +268,9 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 </html>
 ```
 
-## Intégration réactive avec une hauteur illimitée {#section-056cb574713c4d07be6d07cf3c598839}
+## Incorporation réactive avec hauteur illimitée {#section-056cb574713c4d07be6d07cf3c598839}
 
-Avec l’intégration de conception réactive, la page Web a normalement une sorte de mise en page flexible en place qui dicte la taille d’exécution du conteneur `DIV`de la visionneuse. Pour l’exemple suivant, supposons que la page Web autorise le conteneur `DIV` de la visionneuse à prendre 40 % de la taille de la fenêtre du navigateur Web, en laissant sa hauteur sans restriction. Le code HTML de la page Web doit ressembler à ce qui suit :
+Avec l’incorporation de responsive design, la page web dispose normalement d’un type de disposition flexible qui détermine la taille d’exécution du `DIV` de conteneur de la visionneuse. Dans l’exemple suivant, supposons que la page web permette au `DIV` de conteneur de la visionneuse de prendre 40 % de la taille de la fenêtre du navigateur web, sans restriction de hauteur. Le code d’HTML de la page web se présente comme suit :
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -288,7 +288,7 @@ Avec l’intégration de conception réactive, la page Web a normalement une sor
 </html>
 ```
 
-L’ajout de la visionneuse à une telle page est similaire aux étapes d’incorporation de taille fixe. La seule différence réside dans le fait que vous n’avez pas besoin de définir explicitement la taille de la visionneuse.
+L’ajout de la visionneuse à une telle page est similaire aux étapes d’incorporation à taille fixe. La seule différence réside dans le fait que vous n’avez pas besoin de définir explicitement la taille de la visionneuse.
 
 1. Ajout du fichier JavaScript de la visionneuse à votre page web.
 1. Définition du DIV du conteneur.
@@ -325,15 +325,15 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 </html>
 ```
 
-La page d’exemples suivante illustre d’autres utilisations réelles de l’incorporation de conception réactive avec une hauteur illimitée :
+La page d’exemples suivante illustre d’autres utilisations réelles de l’incorporation Responsive Design avec une hauteur illimitée :
 
 [Démonstrations en direct](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Autre emplacement de démonstration](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=fr)
+[Autre emplacement de démonstration](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
 
 ## Intégration de taille flexible avec largeur et hauteur définies {#section-0a329016f9414d199039776645c693de}
 
-S’il existe un incorporation de taille flexible avec la largeur et la hauteur définies, le style de la page Web est différent. Il fournit les deux tailles au DIV `"holder"` et le centre dans la fenêtre du navigateur. En outre, la page Web définit la taille de l’élément `HTML` et `BODY` sur 100 %.
+S’il existe une incorporation de taille flexible avec la largeur et la hauteur définies, le style de la page web est différent. Il fournit les deux tailles au DIV `"holder"` et le centre dans la fenêtre du navigateur. En outre, la page web définit la taille de l’élément `HTML` et `BODY` sur 100 %.
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -359,7 +359,7 @@ height: 60%;
 </html> 
 ```
 
-Le reste des étapes d’incorporation sont identiques aux étapes utilisées pour l’incorporation de conception réactive avec une hauteur illimitée. L’exemple résultant est le suivant :
+Le reste des étapes d’incorporation est identique aux étapes utilisées pour l’incorporation de Responsive Design avec une hauteur illimitée. L’exemple qui en résulte est le suivant :
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
@@ -398,11 +398,11 @@ var mixedMediaViewer = new s7viewers.MixedMediaViewer({
 </html>
 ```
 
-## Incorporation à l’aide de l’API basée sur Setter {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
+## Incorporation à l’aide de l’API Setter {#section-af26f0cc2e5140e8a9bfd0c6a841a6d1}
 
-Au lieu d’utiliser l’initialisation basée sur JSON, il est possible d’utiliser l’API basée sur setter et le constructeur no-args. L’utilisation de ce constructeur d’API ne prend aucun paramètre et les paramètres de configuration sont spécifiés à l’aide de `setContainerId()`, `setParam()`et `setAsset()` des méthodes d’API, avec des appels JavaScript distincts.
+Au lieu d’utiliser l’initialisation basée sur JSON, il est possible d’utiliser l’API basée sur setter et le constructeur sans args. L’utilisation de ce constructeur d’API ne prend aucun paramètre et les paramètres de configuration sont spécifiés à l’aide des méthodes d’API `setContainerId()`, `setParam()` et `setAsset()`, avec des appels JavaScript distincts.
 
-L’exemple suivant illustre l’utilisation de l’incorporation de taille fixe avec l’API basée sur setter :
+L’exemple suivant illustre l’utilisation de l’incorporation de taille fixe avec l’API setter :
 
 ```html {.line-numbers}
 <!DOCTYPE html> 
