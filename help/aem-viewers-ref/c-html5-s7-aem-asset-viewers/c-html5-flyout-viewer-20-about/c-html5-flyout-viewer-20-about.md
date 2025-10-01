@@ -149,7 +149,7 @@ Un chemin relatif ressemble à ce qui suit :
 
    Vous pouvez voir le comportement avec une zone de visionneuse externe fixe sur la page d’exemple suivante. Notez que lorsque vous passez d’une visionneuse à l’autre, la taille de la visionneuse externe ne change pas :
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html?lang=fr](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-outer-area.html?lang=fr)
 
    Pour rendre les dimensions d’affichage principales statiques, définissez la taille de la visionneuse en unités absolues pour le composant SDK `Container` interne à l’aide `.s7flyoutviewer .s7container` sélecteur CSS. En outre, vous devez remplacer la taille fixe définie pour la classe CSS de niveau supérieur `.s7flyoutviewer` dans le CSS de la visionneuse par défaut, en la définissant sur `auto`.
 
@@ -168,7 +168,7 @@ Un chemin relatif ressemble à ce qui suit :
 
    L’exemple de page suivant illustre le comportement des visionneuses avec une taille d’affichage principale fixe. Notez que lorsque vous passez d’un ensemble à l’autre, la vue principale reste statique et le contenu de la page web se déplace verticalement :
 
-   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html)
+   [https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html?lang=fr](https://experienceleague.adobe.com/tools/dynamic-media-demo/viewers-ref/flyout/FlyoutViewer-fixed-main-view.html?lang=fr)
 
    En outre, la visionneuse CSS par défaut fournit une taille fixe pour sa zone extérieure prête à l’emploi.
 
@@ -302,7 +302,7 @@ La page d’exemples suivante illustre d’autres utilisations réelles de l’i
 
 [Démonstrations en direct](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 
-[Autre emplacement de démonstration](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[Autre emplacement de démonstration](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=fr)
 
 ## Intégration de taille flexible avec largeur et hauteur définies {#section-0a329016f9414d199039776645c693de}
 
