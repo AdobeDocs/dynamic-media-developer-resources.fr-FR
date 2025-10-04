@@ -88,4 +88,4 @@ Voir aussi [Liaison d’URL à une application web](https://experienceleague.ado
   ```
 -->
 
-Voir aussi [ Incorporation de la vidéo dans une page web ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).
+Voir aussi [&#x200B; Incorporation de la vidéo dans une page web &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).

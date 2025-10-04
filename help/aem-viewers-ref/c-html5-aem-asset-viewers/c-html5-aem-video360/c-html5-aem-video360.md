@@ -43,7 +43,7 @@ La visionneuse HTML5 Video360 peut être utilisée en mode pop-up à l’aide d�
 
 La configuration et l’habillage sont similaires à ceux des autres visionneuses décrites dans ce guide. Toute application de la peau est réalisée au moyen de feuilles de style en cascade (CSS) personnalisées.
 
-Voir [ Référence des commandes commune à toutes les visionneuses - Attributs de configuration ](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) et [ Référence des commandes commune à toutes les visionneuses - URL](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/c-html5-aem-video360-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+Voir [&#x200B; Référence des commandes commune à toutes les visionneuses - Attributs de configuration &#x200B;](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) et [&#x200B; Référence des commandes commune à toutes les visionneuses - URL](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/c-html5-aem-video360-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 Le contenu vidéo 360 nécessite des paramètres de codage plus élevés que la vidéo standard non 360. En d’autres termes, le contenu 360 doit être de résolution supérieure à la vidéo 360 pour obtenir la même qualité perceptible. Il est recommandé de prendre en compte les paramètres prédéfinis de vidéo adaptative suivants pour la vidéo 360 :
 

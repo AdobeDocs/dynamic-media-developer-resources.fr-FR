@@ -33,7 +33,7 @@ La visionneuse panoramique HTML5 représente un fichier JavaScript principal et 
 La visionneuse panoramique HTML5 peut être utilisée en mode pop-up à l’aide d’une page HTML prête pour l’exploitation fournie avec les visionneuses IS, ou en mode intégré, où elle est intégrée à la page web cible à l’aide d’une API documentée.
 La configuration et l’habillage sont similaires à ceux des autres visionneuses HTML5. Toute application de la peau peut être réalisée au moyen d’un CSS personnalisé.
 
-Voir [ Référence des commandes commune à toutes les visionneuses - Attributs de configuration ](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) et [ Référence des commandes commune à toutes les visionneuses - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+Voir [&#x200B; Référence des commandes commune à toutes les visionneuses - Attributs de configuration &#x200B;](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) et [&#x200B; Référence des commandes commune à toutes les visionneuses - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 ## Interaction avec la visionneuse panoramique HTML5 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
