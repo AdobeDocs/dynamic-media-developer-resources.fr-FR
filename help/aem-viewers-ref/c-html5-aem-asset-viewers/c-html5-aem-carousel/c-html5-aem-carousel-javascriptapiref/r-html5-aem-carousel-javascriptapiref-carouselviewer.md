@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 890d869d-dbf2-4c24-88d1-34c439ab1e3a
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '191'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,9 @@ Constructeur, crée une instance Visionneuse de carrousel HTML 5.
 
 Aucune
 
-## Exemple {#section-9e9332aa86b74a5fb321375c03fdc5b3}
+<!-- ## Example {#section-9e9332aa86b74a5fb321375c03fdc5b3} -->
+
+<!--
 
 ```javascript {.line-numbers}
 var carouselViewer = new s7viewers.CarouselViewer({ 
@@ -66,3 +68,5 @@ defaultLocale:"en"
 } 
 });
 ```
+
+-->

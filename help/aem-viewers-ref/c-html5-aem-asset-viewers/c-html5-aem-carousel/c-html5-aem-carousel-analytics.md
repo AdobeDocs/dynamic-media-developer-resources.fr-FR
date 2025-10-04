@@ -5,20 +5,24 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User,Data Engineer,Data Architect
 exl-id: 9e321684-4861-4d81-b55c-66c77635930e
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
 
 # Prise en charge du suivi Adobe Analytics{#support-for-adobe-analytics-tracking}
 
-## Suivi personnalisé {#section-cda48fc9730142d0bb3326bac7df3271}
+## Tracking personnalisé {#section-cda48fc9730142d0bb3326bac7df3271}
 
-Par défaut, la visionneuse envoie une seule requête HTTP de suivi au serveur d’images configuré avec le type et les informations de version de la visionneuse.
+Par défaut, la visionneuse envoie une requête HTTP de suivi unique au serveur d’images configuré avec les informations de type et de version de la visionneuse.
 
-Pour intégrer des systèmes d’analyse tiers, il est nécessaire d’écouter le rappel de la `trackEvent` visionneuse et de traiter l’argument `eventInfo` de la fonction de rappel si nécessaire. Le code suivant est un exemple de fonction de gestionnaire :
+Pour l’intégration aux systèmes d’analyse tiers, il est nécessaire d’écouter le rappel de la visionneuse `trackEvent` et de traiter l’argument `eventInfo` de la fonction de rappel si nécessaire.
+
+<!-- The following code is an example of such handler function: -->
+
+<!--
 
 ```java {.line-numbers}
 var carouselViewer = new s7viewers.CarouselViewer({ 
@@ -42,27 +46,29 @@ var carouselViewer = new s7viewers.CarouselViewer({
 });
 ```
 
+-->
+
 La visionneuse effectue le suivi des événements utilisateur SDK suivants :
 
 <table id="table_5D090E6614974D968E1A93B5727D859C"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>Evénement utilisateur SDK </p> </th> 
-   <th colname="col2" class="entry"> <p>Envoyé quand... </p> </th> 
+   <th colname="col1" class="entry"> <p>Événement utilisateur SDK </p> </th> 
+   <th colname="col2" class="entry"> <p>Envoyé lorsque... </p> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> CHARGER </span> </p> </td> 
-   <td colname="col2"> <p>La visionneuse est chargée en premier. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> DE CHARGEMENT </span> </p> </td> 
+   <td colname="col2"> <p>la visionneuse est chargée en premier. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> BANNIÈRE </span> </p> </td> 
-   <td colname="col2"> <p>L’image de la bannière de carrousel est modifiée. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> DE LA BANNIÈRE </span> </p> </td> 
+   <td colname="col2"> <p>l’image de la bannière de carrousel a été modifiée. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> HREF (en anglais seulement) </span> </p> </td> 
-   <td colname="col2"> <p>L’utilisateur active la zone réactive. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> HREF </span> </p> </td> 
+   <td colname="col2"> <p>l’utilisateur active la zone réactive. </p> </td> 
   </tr> 
  </tbody> 
 </table>

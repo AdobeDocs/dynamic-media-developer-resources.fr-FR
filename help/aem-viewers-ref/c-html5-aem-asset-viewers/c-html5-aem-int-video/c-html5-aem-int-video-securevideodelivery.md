@@ -5,9 +5,9 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 68d37b5d-5015-4a98-84b8-8911ace327ed
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,25 @@ Si la visionneuse fonctionne dans la configuration décrite au début de cette s
 
 Selon la méthode de publication de [!DNL Dynamic Media] vidéo que vous utilisez dans Adobe Experience Manager, l’attribut de configuration `VideoPlayer.ssl` s’applique différemment, comme illustré ci-dessous :
 
-* Si vous publiez une vidéo [!DNL Dynamic Media] avec une URL, vous ajoutez des `VideoPlayer.ssl` à l’URL. Par exemple, pour forcer la diffusion sécurisée d’une vidéo, vous ajoutez `&VideoPlayer.ssl=on` à la fin de l’exemple d’URL de visionneuse suivant :
+* Si vous publiez une vidéo [!DNL Dynamic Media] avec une URL, vous ajoutez des `VideoPlayer.ssl` à l’URL.
+
+<!-- For example, to force secure video delivery, you append `&VideoPlayer.ssl=on` to the end of the following viewer URL example:-->
+
+<!--
 
   ```
   https://demos-pub.assetsadobe.com/etc/dam/viewers/s7viewers/html5/InteractiveVideoViewer.html?asset=%2Fcontent%2Fdam%2Fmarketing%2Fshoppable-video%2Fadobe-axis-demo%2FAdobe_AXIS_V3_GRADED-HD.mp4&config=/etc/dam/presets/viewer/Shoppable_Video_light&serverUrl=https%3A%2F%2Fadobedemo62-h.assetsadobe.com%2Fis%2Fimage%2F&contenturl=%2F&config2=/etc/dam/presets/analytics&videoserverurl=https://gateway-na.assetsadobe.com/DMGateway/public/demoCo&interactivedata=content/dam/_VTT/marketing/shoppable-video/adobe-axis-demo/Adobe_AXIS_V3_GRADED-HD.mp4.svideo.vtt&VideoPlayer.contenturl=https://adobedemo62-h.assetsadobe.com/is/content&VideoPlayer.ssl=on
   ```
 
-  Voir aussi [Liaison d’URL à une application web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=fr#dynamic)
+-->
 
-* Si vous publiez une vidéo [!DNL Dynamic Media] avec du code intégré, vous ajoutez `VideoPlayer.ssl` à la liste des autres paramètres de configuration de la visionneuse dans le fragment de code intégré. Par exemple, pour forcer la diffusion vidéo en HTTPS, vous ajoutez des `&VideoPlayer.ssl=on` comme dans l’exemple suivant :
+Voir aussi [Liaison d’URL à une application web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic)
+
+* Si vous publiez une vidéo [!DNL Dynamic Media] avec du code intégré, vous ajoutez `VideoPlayer.ssl` à la liste des autres paramètres de configuration de la visionneuse dans le fragment de code intégré.
+
+<!-- For example, to force HTTPS video delivery, you append `&VideoPlayer.ssl=on` as in the following example: -->
+
+<!--
 
   ```html {.line-numbers}
   <style type="text/css"> 
@@ -76,5 +86,6 @@ Selon la méthode de publication de [!DNL Dynamic Media] vidéo que vous utilise
    s7interactivevideoviewer.init(); 
   </script>
   ```
+-->
 
-  Voir aussi [ Incorporation de la vidéo dans une page web ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=fr#dynamic).
+Voir aussi [ Incorporation de la vidéo dans une page web ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).

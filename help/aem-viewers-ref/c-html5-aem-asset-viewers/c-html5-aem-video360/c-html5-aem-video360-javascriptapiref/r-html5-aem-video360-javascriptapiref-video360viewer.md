@@ -5,10 +5,10 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: ab22ff22-45a7-490e-932d-7c885ff5c3a9
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 2%
+source-wordcount: '202'
+ht-degree: 3%
 
 ---
 
@@ -41,8 +41,8 @@ Constructeur, crée une instance Visionneuse HTML5 Video360.
 
 Aucune
 
-<!--
-## Example {#section-9e9332aa86b74a5fb321375c03fdc5b3}
+
+## Exemple {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 
 ```javascript {.line-numbers}
 var video360Viewer = new s7viewers.Video360Viewer({ 
@@ -68,4 +68,4 @@ defaultLocale:"en"
 } 
 });
 ```
--->
+
