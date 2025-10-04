@@ -34,7 +34,7 @@ Selon la méthode de publication de [!DNL Dynamic Media] vidéo que vous utilise
 
 -->
 
-Voir aussi [Liaison d’URL à une application web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic)
+Voir aussi [Liaison d’URL à une application web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=fr#dynamic)
 
 * Si vous publiez une vidéo [!DNL Dynamic Media] avec du code intégré, vous ajoutez `VideoPlayer.ssl` à la liste des autres paramètres de configuration de la visionneuse dans le fragment de code intégré.
 
@@ -88,4 +88,4 @@ Voir aussi [Liaison d’URL à une application web](https://experienceleague.ado
   ```
 -->
 
-Voir aussi [&#x200B; Incorporation de la vidéo dans une page web &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic).
+Voir aussi [&#x200B; Incorporation de la vidéo dans une page web &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=fr#dynamic).
