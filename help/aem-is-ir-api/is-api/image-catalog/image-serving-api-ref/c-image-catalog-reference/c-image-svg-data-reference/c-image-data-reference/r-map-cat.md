@@ -22,7 +22,7 @@ Le serveur interprète et peut modifier les attributs SHAPE et CORDS (SHAPE=CIRC
 
 Valeur de chaîne de texte. S’il est spécifié, il doit s’agir d’un ou de plusieurs éléments HTML `<AREA>` complets.
 
-Ce champ participe à la localisation de la chaîne de texte. Pour plus d’informations[ consultez la section ](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)Localisation de chaîne de texte dans la section *Référence du protocole HTTP*.
+Ce champ participe à la localisation de la chaîne de texte. Pour plus d’informations[&#x200B; consultez la section &#x200B;](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)Localisation de chaîne de texte dans la section *Référence du protocole HTTP*.
 
 ## Par défaut {#section-30c7f88929f54f7ba852c5c6c5e2c70b}
 

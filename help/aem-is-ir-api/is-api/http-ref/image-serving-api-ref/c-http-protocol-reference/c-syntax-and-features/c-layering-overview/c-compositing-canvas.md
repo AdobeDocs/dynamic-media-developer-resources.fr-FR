@@ -20,4 +20,4 @@ Le calque 0 constitue le calque d’arrière-plan, qui est toujours requis et qu
 
 >[!NOTE]
 >
->Une fois tous les calques aplatis, l’image composite est convertie en image de réponse finale, comme spécifié avec les commandes et[ attributs de vue](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-view-commands-and-attributes.md#reference-8b3d637d080a47a4ba669a7f0de2ba90).
+>Une fois tous les calques aplatis, l’image composite est convertie en image de réponse finale, comme spécifié avec les commandes et[&#x200B; attributs de vue](../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/c-command-overview/r-view-commands-and-attributes.md#reference-8b3d637d080a47a4ba669a7f0de2ba90).

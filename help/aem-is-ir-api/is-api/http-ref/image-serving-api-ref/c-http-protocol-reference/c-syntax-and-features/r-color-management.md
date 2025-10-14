@@ -78,7 +78,7 @@ Seuls les espaces colorimétriques CMJN, RVB et niveaux de gris sont actuellemen
 
 Image Serving inclut la plupart des profils ICC Adobe standard dans le catalogue d’images par défaut. Ces profils sont accessibles soit par leur nom commun (par exemple, comme illustré à la Photoshop), soit par un identifiant un peu plus court. Le tableau suivant répertorie tous les profils ICC standard. Lors de la référence à un profil dans la `icc=` commande par son nom commun, les espaces doivent être codés comme `%20`.
 
-Des profils supplémentaires peuvent être ajoutés aux profils standard, soit au catalogue par défaut, soit à un catalogue d’images spécifique. Consultez la référence[ de ](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c)carte de profil ICC pour plus de détails.
+Des profils supplémentaires peuvent être ajoutés aux profils standard, soit au catalogue par défaut, soit à un catalogue d’images spécifique. Consultez la référence[&#x200B; de &#x200B;](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c)carte de profil ICC pour plus de détails.
 
 >[!NOTE]
 >

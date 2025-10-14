@@ -99,7 +99,7 @@ Aucune. Seules les variables qui ont été définies sont remplacées par le ser
 
 ## Exemples {#section-fba9393df6984247b7e30b3f93992e86}
 
-Voir « Exemple A » dans [ Modèles ](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).
+Voir « Exemple A » dans [&#x200B; Modèles &#x200B;](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).
 
 ## Voir aussi {#section-11b44cc824744f70b1705ebdd9ec4fe6}
 

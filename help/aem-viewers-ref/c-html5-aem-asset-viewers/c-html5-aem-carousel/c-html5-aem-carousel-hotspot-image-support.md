@@ -16,7 +16,7 @@ ht-degree: 0%
 
 La visionneuse prend en charge le rendu des icônes de zone réactive et des zones cliquables en haut de la vue principale. L’aspect des icônes et des zones réactives est contrôlé par CSS, comme décrit dans la section Personnaliser les zones réactives et cliquables .
 
-Voir [ Zone réactive et Zone cliquable](../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-hotspots-imagemaps.md#reference-2ac3cc414ef2467390bf53145f1d8d74).
+Voir [&#x200B; Zone réactive et Zone cliquable](../../c-html5-aem-asset-viewers/c-html5-aem-carousel/c-html5-aem-carousel-customizingviewer/r-html5-aem-carousel-customize-hotspots-imagemaps.md#reference-2ac3cc414ef2467390bf53145f1d8d74).
 
 Les zones réactives et les régions peuvent activer une fonctionnalité d’aperçu rapide sur la page web d’hébergement en déclenchant un rappel JavaScript ou en redirigeant un utilisateur vers une page web externe.
 

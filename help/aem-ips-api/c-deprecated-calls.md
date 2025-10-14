@@ -20,7 +20,7 @@ Les appels d’API du système de production d’images et leurs paramètres ass
 
 Les appels d’API du système de production d’images et leurs paramètres associés qui ne sont plus utilisés dans [!DNL Dynamic Media].
 
-* `ExcludeMasterVideoFromAVS`- Obsolète des types[ de ](/help/aem-ips-api/types/c-data-types/c-data-types.md)données. Ce paramètre excluait la vidéo principale de la visionneuse de vidéos adaptative. <!-- Adobe is ending support for this parameter on September 1, 2022. -->
+* `ExcludeMasterVideoFromAVS`- Obsolète des types[&#x200B; de &#x200B;](/help/aem-ips-api/types/c-data-types/c-data-types.md)données. Ce paramètre excluait la vidéo principale de la visionneuse de vidéos adaptative. <!-- Adobe is ending support for this parameter on September 1, 2022. -->
 * `addMediaPortalEvent` - Obsolète des [opérations](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md). Ce paramètre vous permet d’ajouter un événement Media Portal à IPS.
 * `getMediaPortalEvent` - Obsolète des [opérations](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md). Ce paramètre vous permet d’obtenir des événements Media Portal qui correspondent aux critères spécifiés.
 * `getCdnCacheInvalidationStatus` - Obsolète des [opérations](/help/aem-ips-api/operations/c-operations-intro/c-operations-intro.md). Ce paramètre est désormais obsolète car il `cdnCacheInvalidation` invalide le cache presque immédiatement (~5 secondes). Par conséquent, l’interrogation pour l’état d’invalidation n’est plus nécessaire.

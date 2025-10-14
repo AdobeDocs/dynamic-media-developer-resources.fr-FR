@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Ressources pour les développeurs [!DNL Dynamic Media]{#dynamic-media-developer-resource}
 
-* [ Guide de référence des visionneuses ](/help/aem-viewers-ref/homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=fr) -->
+* [&#x200B; Guide de référence des visionneuses &#x200B;](/help/aem-viewers-ref/homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=fr) -->
 Personnalisez les visionneuses [!DNL Dynamic Media] à utiliser sur les ordinateurs de bureau et les écrans tactiles. Parmi les types de médias utilisables, vous pouvez citer les images et vidéos interactives, les vidéos à 360 degrés, les carrousels, le zoom d’image, les vidéos, les catalogues électroniques, les vidéos, les vidéos, les supports variés et les visionneuses à 360°.
 * [API de diffusion d’images/rendu d’images](/help/aem-is-ir-api/homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=fr) -->
 Documentation sur les API IS (Image Serving) et IR (Image Rendering), et les technologies associées. Si vous travaillez sur une intégration [!DNL Dynamic Media] Classic avec Adobe Experience Manager, vous devez vous reporter à la partie IS de l’API.

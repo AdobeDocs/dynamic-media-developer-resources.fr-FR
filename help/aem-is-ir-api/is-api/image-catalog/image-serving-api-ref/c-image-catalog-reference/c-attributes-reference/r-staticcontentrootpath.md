@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Chemin d’accès racine des données de contenu statique. Chemin d’accès absolu ou segment de chemin relatif pour le dossier racine des données de contenu statiques de ce catalogue d’images.
 
-Voir [ Gestion des données Source](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173) pour plus d’informations sur les chemins d’accès racine au serveur.
+Voir [&#x200B; Gestion des données Source](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173) pour plus d’informations sur les chemins d’accès racine au serveur.
 
 ## Propriétés {#section-f8e3986096294b36948d43aafdc3e795}
 

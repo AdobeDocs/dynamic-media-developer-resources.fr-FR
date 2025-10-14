@@ -43,7 +43,7 @@ Syntaxe
 | optimizerImagesJob | `types:OptimizeImagesJob` | |
 | ripPdfsJob | `types:RipPdfsJob` | |
 | reprocessAssetsJob | `types:ReprocessAssetsJob` | |
-| exportJob | `types:ExportJob` | Autoriser l&#39;export des fichiers précédemment chargés Voir [ Tâche d’exportation ](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html?lang=fr). |
+| exportJob | `types:ExportJob` | Autoriser l&#39;export des fichiers précédemment chargés Voir [&#x200B; Tâche d’exportation &#x200B;](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/data-types/r-scheduled-job.html?lang=fr). |
 
 ## Remarques {#section-34ec157f281f412f9f0f6e861e6ed0cd}
 

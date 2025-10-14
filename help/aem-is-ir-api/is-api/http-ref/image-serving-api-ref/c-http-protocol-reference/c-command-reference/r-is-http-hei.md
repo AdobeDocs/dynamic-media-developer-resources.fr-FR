@@ -25,7 +25,7 @@ Hauteur d’affichage. Spécifie la hauteur de l’image de réponse (voir l’i
  </tr> 
 </table>
 
-Si les deux sont `wid=` `scl=` spécifiés, l’image composite peut être recadrée en fonction de l’attribut `align=`. Lorsqu’il `fit=` est présent, `hei=` spécifie la hauteur exacte, minimale ou maximale de l’image de réponse ; reportez-vous à la description de fit=[ pour plus de ](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md)détails.
+Si les deux sont `wid=` `scl=` spécifiés, l’image composite peut être recadrée en fonction de l’attribut `align=`. Lorsqu’il `fit=` est présent, `hei=` spécifie la hauteur exacte, minimale ou maximale de l’image de réponse ; reportez-vous à la description de fit=[&#x200B; pour plus de &#x200B;](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-fit.md)détails.
 
 Si `scl=` cette valeur n’est pas spécifiée, l’image composite est redimensionnée en conséquence. Si les deux `wid=` et `hei=` sont spécifiés, et `scl=` n’est pas spécifié, l’image est mise à l’échelle pour tenir entièrement dans le rectangle wid/hei, laissant aussi peu de zone d’arrière-plan exposée que possible. Dans ce cas, l’image est positionnée dans le rectangle de vue en fonction de l’attribut `align=` . La zone d’arrière-plan est remplie avec `bgc=`, ou, si non spécifié, avec `attribute::BkgColor`.
 
