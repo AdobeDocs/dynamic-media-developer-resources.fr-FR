@@ -5,7 +5,7 @@ title: getXMPPacket
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 76e595bd-e598-40e8-aba3-b270fcf4d800
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 20%
@@ -30,22 +30,22 @@ Syntaxe
 
 ## Paramètres {#section-b4075df0e4414b00b961d978d5471db9}
 
-**Input (getXMPPacketParam**
+**Input (getXMPPacketParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| CompanyHandle | `xsd:string` | Oui | La société gère avec le paquet que vous souhaitez renvoyer (par exemple, `c|656`). |
-| AssetHandle | `xsd:string` | Oui | Ressource pour laquelle le paquet XMP doit être récupéré. |
+| companyHandle | `xsd:string` | Oui | Gestionnaire de la société avec le paquet que vous souhaitez renvoyer (par exemple, `c`\|`656`). |
+| assetHandle | `xsd:string` | Oui | Ressource pour laquelle le paquet XMP doit être récupéré. |
 
 **Output (getXMPPacketReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| Paquet compressé | `xsd:Base 64 binary` | Oui | [!DNL zlib-compressed] XMP paquet. |
+| packageCompressé | `xsd:Base 64 binary` | Oui | [!DNL zlib-compressed] paquet XMP. |
 
 ## Exemples {#section-d681af49122e4ca9bcd04110a2e98e6f}
 
-**Demander**
+**Requête**
 
 ```java
 <ns:getXMPPacketParam>

@@ -1,11 +1,12 @@
 ---
 title: SmartCropVideoPlayer.singleclick
-description: Attribut de configuration pour la visionneuse de vidéos avec recadrage intelligent.
-solution: Experience Manager
+description: Attribut de configuration de la visionneuse de vidéos avec recadrage intelligent.
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: f48f0866-4eb7-46c5-a7f5-457df7a568e7
-source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 4%
@@ -14,15 +15,15 @@ ht-degree: 4%
 
 # SmartCropVideoPlayer.singleclick{#smartcropvideoplayer-singleclick}
 
-Attribut de configuration pour la visionneuse de vidéos avec recadrage intelligent.
+Attribut de configuration de la visionneuse de vidéos avec recadrage intelligent.
 
-` [SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer.]singleclick= *`aucun|playPause`*`
+` [SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer.]singleclick= *`none|playPause`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> aucun|playPause</span> </span> </p> </td> 
-   <td colname="col2"> <p> Configure le mappage d’un simple clic/appuyer pour basculer lecture/pause. La définition sur <span class="codeph"> aucun</span> désactive la lecture/mise en pause d’un simple clic/appuyer pour jouer. Si vous êtes configuré sur <span class="codeph"> lecturePause</span>, cliquez sur la vidéo pour basculer entre la lecture et la suspension de la vidéo. Sur certains appareils, vous pouvez utiliser des contrôles natifs. Dans ce cas, <span class="codeph"> le comportement d’un seul clic</span> est désactivé. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> aucun|playPause</span> </span> </p> </td> 
+   <td colname="col2"> <p> Configure le mappage d’un clic/appui unique pour activer/désactiver la lecture/pause. Si vous définissez sur <span class="codeph"> aucun</span> désactivez la lecture/mise en pause en un seul clic ou en appuyant dessus. Si vous définissez sur <span class="codeph"> playPause</span>, cliquez sur la vidéo pour basculer entre la lecture et la mise en pause de la vidéo. Sur certains appareils, vous pouvez utiliser des contrôles natifs. Dans ce cas, <span class="codeph"> comportement de simple clic</span> est désactivé. </p> </td> 
   </tr> 
  </tbody> 
 </table>

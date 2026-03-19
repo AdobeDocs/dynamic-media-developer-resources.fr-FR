@@ -1,18 +1,18 @@
 ---
 description: La syntaxe de base du protocole HTTP est la suivante.
 solution: Experience Manager
-title: Syntaxe de base du protocole HTTP Image Serving
+title: Syntaxe de base du protocole HTTP du service d’images
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ac75d6d0-a71e-45a0-89ee-b952a0202793
-source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
+source-git-commit: 92a995b6cbadb00a075a3be5ae2a9f8feb6c900d
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '266'
 ht-degree: 1%
 
 ---
 
-# Syntaxe de base du protocole HTTP Image Serving{#image-serving-http-protocol-basic-syntax}
+# Syntaxe de base du protocole HTTP du service d’images{#image-serving-http-protocol-basic-syntax}
 
 La syntaxe de base du protocole HTTP est la suivante :
 
@@ -31,15 +31,15 @@ La syntaxe de base du protocole HTTP est la suivante :
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> modificateurs </span> </span> </p></td> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> modifier</span>*[&amp;<span class="varname"> modifier</span>]</span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> modificateur</span>*[&amp;<span class="varname"> modificateur</span>]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> modificateur</span> </span> </p></td> 
-  <td class="stentry"> <p><span class="codeph">commande|{$<span class="varname"> macro</span>$}|{.<span class="varname"> commentaire</span>}</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> modifier </span> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">commande|{$<span class="varname"> macro</span>$}|{.<span class="varname"> commentaire </span>}</span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> commande </span> </span> </p> </td> 
-  <td class="stentry"> <p>&lbrace;<span class="varname"> cmdName</span>|{$<span class="varname"> var</span>}[=<span class="varname"> value</span>] </p></td> 
+  <td class="stentry"> <p><code>{</code><span class="varname"> valeur cmdName</span>|<code>{$</code><span class="varname"> var</span><code>}}[=</code><span class="varname"></span><code>]</code> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> macro</span> </span> </p> </td> 
@@ -50,15 +50,15 @@ La syntaxe de base du protocole HTTP est la suivante :
   <td class="stentry"> <p>Chaîne de commentaire (ignorée par le serveur).</p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> Nom de cmd</span> </span> </p></td> 
-  <td class="stentry"> <p>L’un des noms d’attributs ou de commandes pris en charge.</p></td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> cmdName</span> </span> </p></td> 
+  <td class="stentry"> <p>Un des noms de commande ou d’attribut pris en charge.</p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> Var</span> </span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> var</span> </span> </p> </td> 
   <td class="stentry"> <p>Nom d’une variable personnalisée.</p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> valeur</span> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> valeur <span class="varname"> </span> </span> </p></td> 
   <td class="stentry"> <p>Valeur de commande ou de variable. </p></td> 
  </tr> 
 </table>
@@ -73,11 +73,11 @@ Le contexte racine [!DNL /is/image] est requis pour toutes les requêtes HTTP au
 
 ## Décodage HTTP {#section-20922baccd804d2d986b44ce9a183a7d}
 
-Image Serving extrait d’abord *`object`* et *`modifiers`* de la requête entrante. *`object`* est ensuite séparé en éléments de chemin qui sont individuellement décodés HTTP. La *`modifiers`* chaîne est séparée en *`command`*= *`value`* paires, puis *`value`* décodée HTTP avant le traitement spécifique à la commande.
+La diffusion d’images extrait d’abord *`object`* et *`modifiers`* de la requête entrante. *`object`* est ensuite séparé en éléments de chemin qui sont individuellement décodés en HTTP. La chaîne *`modifiers`* est séparée en paires *`command`*= *`value`*, puis *`value`* est décodée en HTTP avant le traitement spécifique à la commande.
 
 >[!NOTE]
 >
->Sauf indication contraire dans la documentation, tous les caractères dangereux doivent être codés conformément à la norme HTTP. Reportez-vous à la spécification HTTP pour plus d’informations.
+>Sauf indication contraire dans la documentation, tous les caractères dangereux doivent être codés selon la norme HTTP. Pour plus d’informations, consultez la spécification HTTP .
 
 ## Commentaires {#section-69ef0be0f17a418c87a0eba21c2ddb00}
 

@@ -1,11 +1,12 @@
 ---
 title: SmartCropVideoPlayer.loop
-description: Attribut de configuration pour la visionneuse de vidéos avec recadrage intelligent.
-solution: Experience Manager
+description: Attribut de configuration de la visionneuse de vidéos avec recadrage intelligent.
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 0560736a-3527-4372-a31d-da0fc27b2ee0
-source-git-commit: 8c49595fe0efb684b59601fb268bd8bf97fae555
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '33'
 ht-degree: 9%
@@ -14,7 +15,7 @@ ht-degree: 9%
 
 # SmartCropVideoPlayer.loop{#smartcropvideoplayer-loop}
 
-Attribut de configuration pour la visionneuse de vidéos avec recadrage intelligent.
+Attribut de configuration de la visionneuse de vidéos avec recadrage intelligent.
 
 `[SmartCropVideoPlayer.|<containerId>_smartCropVideoPlayer.]loop=0|1`
 
@@ -22,7 +23,7 @@ Attribut de configuration pour la visionneuse de vidéos avec recadrage intellig
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Indique si la lecture de la vidéo doit recommencer une fois terminée. </p> </td> 
+   <td colname="col2"> <p> Indique si la vidéo doit être relue une fois la lecture terminée. </p> </td> 
   </tr> 
  </tbody> 
 </table>

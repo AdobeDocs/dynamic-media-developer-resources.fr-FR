@@ -1,31 +1,33 @@
 ---
-title: Visualiseur panoramique
-description: Constructeur, crée une instance de visionneuse panoramique HTML5.
-solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
+title: PanoramicViewer
+description: Constructeur, crée une instance Visionneuse panoramique HTML5.
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
+feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 3%
 
 ---
 
-# Visualiseur panoramique{#panoramicviewer}
+# PanoramicViewer{#panoramicviewer}
 
-`PanoramicViewer([config])`Constructeur, crée une instance de visionneuse panoramique HTML5.
+`PanoramicViewer([config])`
+Constructeur, crée une instance Visionneuse panoramique HTML5.
 
 ## Paramètre {#section-fa807db629ce43bab286b1e1dc96c492}
 
-Fichier de configuration
-{Object} objet de configuration JSON facultatif, vous permet de transmettre tous les paramètres de visionneuse au constructeur et d’éviter d’appeler des méthodes de setter individuelles. Il contient les propriétés suivantes :
+config
+{Object} objet de configuration JSON facultatif, vous permet de transmettre tous les paramètres de la visionneuse au constructeur et d’éviter d’appeler des méthodes setter individuelles. Il contient les propriétés suivantes :
 
-* containerId – {String} ID du conteneur DOM (normalement un DIV) dans lequel la visionneuse est insérée. Il n’est pas nécessaire que l’élément conteneur soit créé au moment où cette méthode est appelée, mais le conteneur doit exister lorsque init() est exécuté. Obligatoire
-* params – {Object} Objet JSON avec des paramètres de configuration de visionneuse où le nom de la propriété est une option de configuration spécifique à la visionneuse ou un modificateur SDK, et la valeur de cette propriété est une valeur de paramètres correspondante. Obligatoire
-* gestionnaires – {Object} objet JSON avec rappels d’événement de visionneuse, où le nom de la propriété est le nom de l’événement de visionneuse pris en charge et la valeur de la propriété est une référence de fonction JavaScript au rappel approprié. Voir la section Rappels d’événement pour plus d’informations sur les événements de visionneuse. Facultatif.
+* containerId : ID {String} du conteneur DOM (normalement un DIV) dans lequel la visionneuse est insérée. Il n’est pas nécessaire que l’élément de conteneur soit créé lors de l’appel de cette méthode. Cependant, le conteneur doit exister lorsque init() est exécuté. Obligatoire
+* params - {Object} objet JSON avec les paramètres de configuration de la visionneuse où le nom de la propriété est une option de configuration spécifique à la visionneuse ou un modificateur SDK et où la valeur de cette propriété est une valeur de paramètres correspondante. Obligatoire
+* gestionnaires - {Object} objet JSON avec des rappels d’événement de visionneuse, où le nom de la propriété est le nom de l’événement de visionneuse pris en charge et la valeur de la propriété est une référence de fonction JavaScript au rappel approprié. Voir la section Rappels d’événement pour plus d’informations sur les événements de visionneuse. Facultatif.
 
 
-## Retourne {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Renvoie {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Aucune
 

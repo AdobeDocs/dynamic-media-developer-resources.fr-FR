@@ -1,11 +1,12 @@
 ---
 title: EmbedShare.embedsizes
-description: Attribut de configuration pour la visionneuse de vidéos avec recadrage intelligent.
-solution: Experience Manager
+description: Attribut de configuration de la visionneuse de vidéos avec recadrage intelligent.
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: c638d9fd-39bb-4baa-9b3a-99d9bc0307b5
-source-git-commit: 8c49595fe0efb684b59601fb268bd8bf97fae555
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '62'
 ht-degree: 4%
@@ -14,25 +15,25 @@ ht-degree: 4%
 
 # EmbedShare.embedsizes{#embedshare-embedsizes}
 
-Attribut de configuration pour la visionneuse de vidéos avec recadrage intelligent.
+Attribut de configuration de la visionneuse de vidéos avec recadrage intelligent.
 
-` [EmbedShare.|<containerId>_embedShare.]embedsizes= *` `*, *`width height`*[,0|1][; *` `*, *`width height`*[,0|1]]`
+` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`width`*, *`height`*[,0|1][; *`width`*, *`height`*[,0|1]]`
 
-Spécifie une liste de tailles incorporées pour la zone de liste déroulante de taille dans la boîte de dialogue modale de partage intégré.
+Spécifie une liste de tailles incorporées pour la zone de liste déroulante de taille dans la boîte de dialogue modale de partage incorporé.
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> Largeur </span> </span> </p> </td> 
-   <td colname="col2"> <p> Largeur incorporée. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur <span class="varname"> </span> </span> </p> </td> 
+   <td colname="col2"> <p> Largeur d’incorporation. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> hauteur </span> </span> </p> </td> 
-   <td colname="col2"> <p>Hauteur de l’intégration. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> hauteur </span> </span> </p> </td> 
+   <td colname="col2"> <p>Hauteur d’incorporation. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Indique si cet élément de liste doit être initialement présélectionné dans la zone de liste modifiable. </p> </td> 
+   <td colname="col2"> <p> Indique si cet élément de liste doit être initialement présélectionné dans la zone de liste. </p> </td> 
   </tr> 
  </tbody> 
 </table>

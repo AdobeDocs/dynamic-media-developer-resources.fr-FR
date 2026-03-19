@@ -3,9 +3,9 @@ description: La visionneuse de recherche de catalogue électronique prend en cha
 solution: Experience Manager
 title: Prise en charge du suivi Adobe Analytics
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
-role: Developer,User,Data Engineer,Data Architect
+role: Developer,User
 exl-id: b35e52f5-fa08-4945-aa52-9fdf41a6081a
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 0%
@@ -63,7 +63,7 @@ La visionneuse effectue le suivi des événements utilisateur SDK suivants :
    <td colname="col2"> <p>La visionneuse est chargée en premier. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ÉCHANGER </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> SWAP </span> </p> </td> 
    <td colname="col2"> <p>une ressource est permutée dans la visionneuse à l’aide de l’API <span class="codeph"> setAsset() </span>. </p> </td> 
   </tr> 
   <tr> 
@@ -83,8 +83,8 @@ La visionneuse effectue le suivi des événements utilisateur SDK suivants :
    <td colname="col2"> <p> une image actuelle est modifiée dans la vue principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ARTICLE </span> </p> </td> 
-   <td colname="col2"> <p>Une fenêtre contextuelle Panneau d’informations est activée. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> D’ÉLÉMENT </span> </p> </td> 
+   <td colname="col2"> <p>un pop-up de panneau d’informations est activé. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> HREF </span> </p> </td> 

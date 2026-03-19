@@ -5,18 +5,18 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: edcd18b6-5292-44da-80be-b7f75ee4c48e
-source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '573'
 ht-degree: 2%
 
 ---
 
 # asset{#asset}
 
-Paramètre commun à toutes les visionneuses.
+Paramètre commun à tous les observateurs.
 
-` asset= *`ID de fichier`*`
+` asset= *`assetId`*`
 
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
@@ -50,7 +50,7 @@ ou
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> image </span> </span> </p> </td> 
-   <td colname="col2"> <p> Spécifie une seule image. Appliquez un double codage HTTP à tout caractère dangereux existant dans le nom de l’image. </p> <p>Ou indique une référence à une visionneuse d’images. La visionneuse récupère les visionneuses d’images sur le serveur à l’aide <span class="codeph"> de la requête IS </span> req=set. </p> </td> 
+   <td colname="col2"> <p> Spécifie une image unique. Appliquez un double codage HTTP à tout caractère non sécurisé existant dans le nom de l’image. </p> <p>Vous pouvez également spécifier une référence à une visionneuse d’images. La visionneuse récupère les visionneuses d’images à partir du serveur, à l’aide de <span class="codeph"> requête req=set IS </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imageList </span> </span> </p> </td> 
@@ -58,11 +58,11 @@ ou
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> imageListWithModifiers </span> </span> </p> </td> 
-   <td colname="col2"> <p> Indique une visionneuse d’images explicite dans laquelle chaque image possède ses propres modificateurs de diffusion d’images. Dans ce cas, la liste des images est placée entre parenthèses. Veillez à appliquer un double codage HTTP à toute virgule présente dans le modificateur Image Serving spécifique au cadre. </p> <p> <p>Remarque : cette fonctionnalité est prise en charge dans Adobe Dynamic Media Classic ; Elle n’est pas prise en charge dans Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p> Indique une visionneuse d’images explicite dans laquelle chaque image possède ses propres modificateurs de diffusion d’images. Dans ce cas, la liste des images est placée entre parenthèses. Veillez à appliquer un double codage HTTP à toute virgule présente dans le modificateur de diffusion d’images spécifique à l’image. </p> <p> <p>Remarque : cette fonctionnalité est prise en charge dans Adobe Dynamic Media Classic ; elle ne l’est pas dans Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> Visionneuse de rotations multidimensionnelles </span> </span> </p> </td> 
-   <td colname="col2"> <p>Spécifie une visionneuse à 360° multidimensionnelle explicite en utilisant la syntaxe suivante : </p> <p> <span class="codeph"> (( <span class="varname"> horizontalSpinSet </span>) [,( <span class="varname"> horizontalSpinSet </span>)]) </span> </p> <p> où <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> est une liste d’images séparées par des virgules pour un axe horizontal donné. Tous les <span class="codeph"> <span class="varname"> horizontauxSpinSet </span> </span> doivent avoir le même nombre d’images. </p> <p> <p>Remarque : cette fonctionnalité est prise en charge dans Adobe Dynamic Media Classic ; elle ne l’est pas dans Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> multiDimensionalSpinSet </span> </span> </p> </td> 
+   <td colname="col2"> <p>Spécifie une visionneuse à 360° multidimensionnelle explicite en utilisant la syntaxe suivante : </p> <p> <pre><code>(( horizontalSpinSet )&lbrack;[,( horizontalSpinSet )&rbrack;)</code></pre> </p> <p> où <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> est une liste d’images séparées par des virgules pour un axe horizontal donné. Tous les <span class="codeph"> <span class="varname"> horizontauxSpinSet </span> </span> doivent avoir le même nombre d’images. </p> <p> <p>Remarque : cette fonctionnalité est prise en charge dans Adobe Dynamic Media Classic ; elle ne l’est pas dans Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> modificateurs </span> </span> </p> </td> 
@@ -82,7 +82,7 @@ ou
    <td colname="col2"> <p> Spécifie une référence à une visionneuse de médias. La visionneuse récupère les visionneuses de médias du serveur à l’aide de la requête IS req=set. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> vidéo </span> </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> vidéo </span> </span> </p> </td> 
    <td colname="col2"> <p> Visionneuse de vidéos adaptative ou unique. </p> <p> <p>Remarque : cette fonctionnalité est prise en charge dans Adobe Dynamic Media Classic ; elle ne l’est pas dans Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
@@ -90,27 +90,27 @@ ou
    <td colname="col2"> <p> Image unique. </p> <p> <p>Remarque : cette fonctionnalité est prise en charge dans Adobe Dynamic Media Classic ; elle ne l’est pas dans Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> setId </span> </span> </p> </td> 
-   <td colname="col2"> <p> Série d’échantillons. </p> <p> <p>Remarque : cette fonctionnalité est prise en charge dans Adobe Dynamic Media Classic ; Elle n’est pas prise en charge dans Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> setId </span> </span> </p> </td> 
+   <td colname="col2"> <p> Échantillon. </p> <p> <p>Remarque : cette fonctionnalité est prise en charge dans Adobe Dynamic Media Classic ; elle ne l’est pas dans Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> Identifiant </span> de l’échantillon </span> </p> </td> 
-   <td colname="col2"> <p>Image de l’échantillon. </p> <p> <p>Remarque : cette fonctionnalité est prise en charge dans Adobe Dynamic Media Classic ; elle ne l’est pas dans Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> swatchId </span> </span> </p> </td> 
+   <td colname="col2"> <p>Échantillon d’image. </p> <p> <p>Remarque : cette fonctionnalité est prise en charge dans Adobe Dynamic Media Classic ; elle ne l’est pas dans Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ID <span class="varname"> </span> </span> </p> </td> 
    <td colname="col2"> <p> L’identifiant du type d’élément de visionneuse de médias peut être l’un des suivants : </p> <p> 
      <ul id="ul_3100F9356628498DA820C07F6F69CC9B"> 
       <li id="li_51B649A539F14510873CFDA85A6AA714"> <p> <span class="codeph"> advanced_image </span> </p> <p>Pour une seule image. </p> </li> 
-      <li id="li_7E764D67294647C1A828F949E5ED1908"> <p> <span class="codeph"> advanced_swatchset </span> </p> <p>Pour la série d’échantillons imbriqués. </p> </li> 
-      <li id="li_C942CED779B54110BCDC74188995FD5B"> <p> <span class="codeph"> filer </span> </p> <p>Pour la visionneuse à 360°. </p> </li> 
+      <li id="li_7E764D67294647C1A828F949E5ED1908"> <p> <span class="codeph"> advanced_swatchset </span> </p> <p>Pour un ensemble d’échantillons imbriqués. </p> </li> 
+      <li id="li_C942CED779B54110BCDC74188995FD5B"> <p> <span class="codeph"> de rotation </span> </p> <p>Pour une visionneuse à 360°. </p> </li> 
       <li id="li_6EA5C54F078D4B24B44F1588BF083842"> <p> <span class="codeph"> vidéo </span> </p> <p>Pour une seule vidéo. </p> </li> 
       <li id="li_8110FA7E0CAB4681A2D8C15F2A656E69"> <p> <span class="codeph"> video_set </span> </p> <p>Pour Les Visionneuses De Vidéos Adaptatives. </p> </li> 
      </ul> </p> <p> <p>Remarque : cette fonctionnalité est prise en charge dans Adobe Dynamic Media Classic ; elle ne l’est pas dans Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> modificateurs </span> </span> </p> </td> 
-   <td colname="col2"> <p> Commandes de diffusion d’images ; <span class="codeph"> Les séparateurs &amp; </span> et <span class="codeph"> = </span> doivent être encodés en HTTP en tant que <span class="codeph"> %26 </span> et <span class="codeph"> %3D </span>, respectivement. </p> </td> 
+   <td colname="col2"> <p> Commandes de diffusion d’images ; les séparateurs <span class="codeph"> et </span> et <span class="codeph"> = </span> doivent être codés en HTTP en <span class="codeph"> %26 </span> et <span class="codeph"> %3D </span>, respectivement. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -171,7 +171,7 @@ Visionneuse d’images explicite :
 asset=Scene7SharedAssets/Backpack_B,Scene7SharedAssets/Backpack_C
 ```
 
-Visionneuse d’images explicite avec modificateurs de diffusion d’image spécifiques à l’image :
+Visionneuse d’images explicite avec des modificateurs de diffusion d’images spécifiques à une image :
 
 ```
 asset=(Scene7SharedAssets/Backpack_B%3Fop_colorize%3D255%252C0%252C0,Scene7SharedAssets/Backpack_B%3Fop_colorize%3D0x00ff00)

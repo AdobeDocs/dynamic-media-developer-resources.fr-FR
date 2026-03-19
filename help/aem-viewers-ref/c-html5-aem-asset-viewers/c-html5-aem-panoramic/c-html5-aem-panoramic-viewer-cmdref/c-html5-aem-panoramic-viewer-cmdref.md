@@ -2,9 +2,8 @@
 title: Référence des commandes - Attributs de configuration
 description: Documentation sur les attributs de configuration de la visionneuse panoramique.
 solution: Experience Manager
-feature: Dynamic Media Classic,Viewers,SDK/API,Panoramic
 role: Developer,User
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -12,6 +11,10 @@ ht-degree: 0%
 ---
 
 # Référence des commandes - Attributs de configuration{#command-reference-configuration-attributes}
+
+<!--
+feature: Dynamic Media Classic,Viewers,SDK/API
+-->
 
 Documentation sur les attributs de configuration de la visionneuse panoramique.
 

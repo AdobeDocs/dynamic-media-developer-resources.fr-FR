@@ -4,7 +4,7 @@ user-guide-title: API de diffusion et de rendu d’images Dynamic Media
 breadcrumb-title: API de diffusion et de rendu d’images Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: Consultez la documentation sur les API IS (Image Serving) et IR (Image Rendering) et les technologies associées.
-source-git-commit: 347aa2f52bc6433043ba65fc75fe9f7f221e6aa3
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '1454'
 ht-degree: 7%
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 # API de diffusion et de rendu d’images Dynamic Media {#image-serving-api}
 
-+ [Page d’accueil de l’API de diffusion d’images et de rendu d’images Dynamic Media](homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=fr) -->
++ [Page d’accueil de l’API de diffusion d’images et de rendu d’images Dynamic Media](homeisir.md)
 + [À propos de cette version](r-about-this-release.md)
 + [Configuration requise et conditions préalables](r-requirements-and-prerequisites.md)
 + [Exigences et recommandations en matière d’espace disque](r-disk-space-reqs.md)
@@ -765,3 +765,9 @@ ht-degree: 7%
       + [Options des fichiers de style armoire](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-options-for-cabinet-style-files.md)
       + [Renvoie](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-returns.md)
       + [Sortie](ir-api/vntc/utilities/c-ir-vignette-converter-vntc/r-ir-output.md)
+
+<!--
+Comment from the first link in the TOC:
+(https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html)
+Comments within the TOC can cause rendering problems.
+-->

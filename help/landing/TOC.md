@@ -8,8 +8,8 @@ user-guide-title: Ressources du développeur d’Adobe Dynamic Media
 breadcrumb-title: Ressources du développeur de Dynamic Media
 user-guide-description: Accédez aux ressources de développement Dynamic Media telles que le guide de référence des visionneuses, l’API du système de production d’images, l’API de diffusion et de rendu d’images et les notes de mise à jour archivées de Scene7.
 feature-set: Experience Manager Assets
-index: y
-source-git-commit: 3598b0247406d942b0f58b1c74aae4956590f5f8
+index: true
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 2%
@@ -21,7 +21,8 @@ ht-degree: 2%
 
 + [Accueil](home.md)
 
-<!--This TOC may not be necessary. Not sure, so leaving it in.
+<!--
+This TOC may not be necessary. Not sure, so leaving it in.
 + [Viewers Reference Guide](/help/aem-viewers-ref/homeviewers.md)
 + [IS/IR API](/help/aem-is-ir-api/homeisir.md)
 + [IPS API](/help/aem-ips-api/c-overview.md)

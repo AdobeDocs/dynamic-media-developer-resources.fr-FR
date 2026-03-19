@@ -1,11 +1,12 @@
 ---
 title: se débarrasser
 description: Référence de l’API JavaScript pour la visionneuse de vidéos avec recadrage intelligent.
-solution: Experience Manager
+solution: Experience Manager, Experience Manager Assets
+feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 10144ced-3eb1-424a-b478-976cf1f6e9c5
-source-git-commit: 1aa8be858b0ba8ec9b99753d43c202b35ed58c30
+source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 3%
