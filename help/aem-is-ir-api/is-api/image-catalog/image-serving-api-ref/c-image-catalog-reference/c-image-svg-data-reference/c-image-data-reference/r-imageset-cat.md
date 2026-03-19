@@ -117,7 +117,7 @@ Une visionneuse de vidéos est constituée d’une simple liste d’identifiants
 
 Chaîne de texte. Liste séparée par des virgules de valeurs de `catalog::Id`, de chemins d’accès absolus aux fichiers du serveur d’images ou de chemins d’accès relatifs à `attribute::RootPath`. La même image peut être référencée plusieurs fois dans la visionneuse. L’enregistrement de catalogue de définition peut apparaître dans le jeu à n’importe quel emplacement.
 
-Ce champ participe à la localisation de la chaîne de texte. En plus des chaînes *`label`* (qui font partie du *`solidColorSpecifier`*), tous les champs délimités sont localisés s’ils incluent au moins un jeton de localisation « `^loc=…^` ». Pour plus d’informations[ consultez la section ](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)Localisation de chaîne de texte dans la section *Référence du protocole HTTP*.
+Ce champ participe à la localisation de la chaîne de texte. En plus des chaînes *`label`* (qui font partie du *`solidColorSpecifier`*), tous les champs délimités sont localisés s’ils incluent au moins un jeton de localisation « `^loc=…^` ». Pour plus d’informations[&#x200B; consultez la section &#x200B;](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md)Localisation de chaîne de texte dans la section *Référence du protocole HTTP*.
 
 ## Par défaut {#section-c3a60e360393478284f0f2d2da5b963b}
 

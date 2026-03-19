@@ -62,7 +62,7 @@ ou
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> multiDimensionalSpinSet </span> </span> </p> </td> 
-   <td colname="col2"> <p>Spécifie une visionneuse à 360° multidimensionnelle explicite en utilisant la syntaxe suivante : </p> <p> <pre><code>(( horizontalSpinSet )&lbrack;[,( horizontalSpinSet )&rbrack;)</code></pre> </p> <p> où <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> est une liste d’images séparées par des virgules pour un axe horizontal donné. Tous les <span class="codeph"> <span class="varname"> horizontauxSpinSet </span> </span> doivent avoir le même nombre d’images. </p> <p> <p>Remarque : cette fonctionnalité est prise en charge dans Adobe Dynamic Media Classic ; elle ne l’est pas dans Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p>Spécifie une visionneuse à 360° multidimensionnelle explicite en utilisant la syntaxe suivante : </p> <p> <pre><code>(( horizontalSpinSet )&lbrack;&lbrack;,( horizontalSpinSet )&rbrack;)</code></pre> </p> <p> où <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> est une liste d’images séparées par des virgules pour un axe horizontal donné. Tous les <span class="codeph"> <span class="varname"> horizontauxSpinSet </span> </span> doivent avoir le même nombre d’images. </p> <p> <p>Remarque : cette fonctionnalité est prise en charge dans Adobe Dynamic Media Classic ; elle ne l’est pas dans Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> modificateurs </span> </span> </p> </td> 
