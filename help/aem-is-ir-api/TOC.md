@@ -4,9 +4,9 @@ user-guide-title: API de diffusion et de rendu d’images Dynamic Media
 breadcrumb-title: API de diffusion et de rendu d’images Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: Consultez la documentation sur les API IS (Image Serving) et IR (Image Rendering) et les technologies associées.
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+source-git-commit: 6c2c23327affd02708d05bff3859cf8da746eabf
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1459'
 ht-degree: 7%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 7%
 + Installation {#install}
    + [Présentation de l’installation](c-installation/c-installation.md)
    + [Octroi de licence](c-installation/c-licensing.md)
-   + [Table des matières](c-installation/c-contents.md)
+   + [d’aide](c-installation/c-contents.md)
    + [Dossier d’installation](c-installation/c-install-folder.md)
    + Installation sous Windows {#windows-install}
       + [Installation sous Windows](c-installation/t-installing-on-windows/t-installing-on-windows.md)
@@ -510,7 +510,7 @@ ht-degree: 7%
       + [ensemble de règles](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-ruleset-rule.md)
       + [substitution](is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-rule-set-reference/r-substitution-rule.md)
    + [Proxy de serveur d’images](is-api/image-serving-api-ref/r-image-server-proxy.md)
-   + [Exemples de serveurs d’images](is-api/image-serving-api-ref/r-examples-is.md)
+   + {hide-from-toc}[Exemples de serveurs d’images](is-api/image-serving-api-ref/r-examples-is.md)
    + Bibliothèque d’images statique réactive {#responsive-static-image-library}
       + [Bibliothèque d’images statique réactive](is-api/image-serving-api-ref/c-about-responsive-static-image-library/c-about-responsive-static-image-library.md)
       + [Utilisation de la bibliothèque d’images réactive](is-api/image-serving-api-ref/c-about-responsive-static-image-library/t-using-responsive-static-image-library.md)
@@ -768,6 +768,6 @@ ht-degree: 7%
 
 <!--
 Comment from the first link in the TOC:
-(https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=fr)
+(https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html)
 Comments within the TOC can cause rendering problems.
 -->
