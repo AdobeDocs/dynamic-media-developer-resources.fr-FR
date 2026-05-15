@@ -1,24 +1,28 @@
 ---
-title: Rendu d’image Encodage HTTP
-description: Les valeurs de commande doivent être codées en http à l’aide de séquences d’échappement %xx, de sorte que les chaînes de valeur n’incluent pas les caractères réservés '=', '&' et ' %'.
+title: Encodage HTTP de rendu d’image
+description: Les valeurs de commande doivent être encodées en http à l’aide de séquences d’échappement %xx, de sorte que les chaînes de valeur n’incluent pas les caractères réservés « = », «& » et «% ».
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a1efc4ce-a170-4bdb-8584-407e07113272
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+TQID: 'https://experienceleague.adobe.com/TNB9NbrGzMGS64CxHgj7aXlSHz8-KPBB0hMxB36mKvI'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: 145
 ht-degree: 2%
 
 ---
 
-# Rendu d’image Encodage HTTP{#image-rendering-http-encoding}
+# Encodage HTTP de rendu d’image{#image-rendering-http-encoding}
 
-Les valeurs de commande doivent être codées en http à l’aide de séquences d’échappement %xx, de sorte que les chaînes de valeur n’incluent pas les caractères réservés &#39;=&#39;, &#39;&amp;&#39; et &#39; %&#39;.
+Les valeurs de commande doivent être encodées en http à l’aide de séquences d’échappement %xx, de sorte que les chaînes de valeur n’incluent pas les caractères réservés « = », «&amp; » et «% ».
 
-Dans le cas contraire, les règles de codage HTTP standard s’appliquent. La spécification HTTP exige le codage des caractères dangereux tels que &#39; &#39; (espace), &#39;&quot;&#39;(guillemet double), &#39;#&#39;, &#39; %&#39;, &#39;&#39;, ainsi &lt;&#39;, and=&quot;&quot; &#39;=&quot;&quot;>que des caractères de contrôle, tels que `<return>` et `<tab>`.&lt;/&#39;,>
+Dans le cas contraire, les règles de codage HTTP standard s’appliquent. La spécification HTTP nécessite le codage des caractères non sécurisés tels que &#39; &#39; (espace), &#39;« &#39; (guillemet double), &#39;#&#39;, &#39;%&#39;, &#39;&lt;&#39; et &#39;>&#39;, ainsi que des caractères de contrôle, tels que `<return>` et `<tab>`.
 
-**Attention :** les accolades { } utilisées comme délimiteurs d’imbrication de requête ne doivent pas être codées. Malheureusement, certains clients de messagerie encodent des accolades dans les requêtes HTTP intégrées. Si ce problème pose problème, Image Rendering autorise l’utilisation de parenthèses ( ) au lieu d’accolades.
+**Attention :** les accolades { } utilisées comme délimiteurs d’imbrication de requête ne doivent pas être codées. Certains clients de messagerie codent malheureusement des accolades dans des requêtes HTTP incorporées. Si ce problème se pose, le rendu d’image permet l’utilisation de parenthèses ( ) au lieu d’accolades.
 
 ## Exemple {#section-3edc5b8ee2354220a281b01722ad337a}
 

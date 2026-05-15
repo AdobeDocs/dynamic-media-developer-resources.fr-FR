@@ -5,9 +5,13 @@ title: Sortie
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 48b15fc2-19c2-4ff8-8059-ba3478a4eec2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/XYdTYt0N200rDYSl4klx7c0kfsDY-650TOy9-ui4cvw'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: 702
 ht-degree: 0%
 
 ---
@@ -29,14 +33,14 @@ Les propriétés suivantes sont générées :
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">defaultFileVersion=<span class="varname"> ival</span></span> </p></td> 
-  <td class="stentry"> <p>Version du fichier de sortie par défaut. Cette version de vntc<span class="filepath"> peut également générer </span> numéro de version de fichier le plus élevé. </p></td> 
+  <td class="stentry"> <p>Version du fichier de sortie par défaut. Cette version de vntc</span> peut également générer <span class="filepath"> numéro de version de fichier le plus élevé. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph">erreur.<span class="varname"> n</span>=<span class="varname"> chaîne</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">error.<span class="varname"> n</span>=<span class="varname"> chaîne</span></span> </p></td> 
   <td class="stentry"> <p>Message d’erreur. La présence de messages d’erreur indique généralement qu’aucun fichier de sortie n’est créé ou qu’ils ne peuvent pas être utilisés par le rendu d’image. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p>fichier <span class="codeph">.<span class="varname"> n</span>=<span class="varname"> chaîne</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">file.<span class="varname"> n</span>=<span class="varname"> chaîne</span></span> </p></td> 
   <td class="stentry"> <p>Chemin/nom complet de tous les fichiers de sortie, y compris les vignettes, les fichiers de style armoire, les images en pleine résolution et les images miniatures. Un attribut de fichier est présent pour chaque fichier généré (à l’exception du fichier journal). </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -48,7 +52,7 @@ Les propriétés suivantes sont générées :
   <td class="stentry"> <p>Nom du iccProfile incorporé dans le <span class="varname"> sourceFile</span>. </p> <p>Vide si <span class="varname"> sourceFile</span> n’est pas géré par couleur. Vignettes seulement. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph">infos.<span class="varname"> n</span>=<span class="varname"> chaîne</span></span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">info.<span class="varname"> n</span>=<span class="varname"> chaîne</span></span> </p></td> 
   <td class="stentry"> <p>Message d’information, tel que des informations de progression. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -61,7 +65,7 @@ Les propriétés suivantes sont générées :
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">maxMem=<span class="varname"> chaîne</span></span> </p></td> 
-  <td class="stentry"> <p>Limite de mémoire maximale qui s'applique au processus vntc<span class="filepath"> </span> en cours d'exécution. <span class="varname"> chaîne </span> est <span class="varname"> ival</span>, <span class="varname"> ivalK</span>, <span class="varname"> ivalM</span>, <span class="varname"> ivalG</span> ou <span class="codeph"> 0</span> (désactivé). Où <span class="varname"> K</span>, <span class="varname"> M</span> et <span class="varname"> G</span> font référence aux kilo-octets (1 024 octets), aux méga-octets (1048576 octets) et aux giga-octets (1073741824 octets). </p></td> 
+  <td class="stentry"> <p>Limite de mémoire maximale qui s'applique au processus vntc</span> <span class="filepath"> en cours d'exécution. <span class="varname"> chaîne </span> est <span class="varname"> ival</span>, <span class="varname"> ivalK</span>, <span class="varname"> ivalM</span>, <span class="varname"> ivalG</span> ou <span class="codeph"> 0</span> (désactivé). Où <span class="varname"> K</span>, <span class="varname"> M</span> et <span class="varname"> G</span> font référence aux kilo-octets (1 024 octets), aux méga-octets (1048576 octets) et aux giga-octets (1073741824 octets). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph">maxScl=<span class="varname"> ival</span></span> </p></td> 

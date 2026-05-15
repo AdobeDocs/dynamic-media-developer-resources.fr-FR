@@ -1,20 +1,25 @@
 ---
-description: Tableau d’URL permettant d’invalider le cache du réseau de diffusion de contenu.
+description: Tableau d’URL pour l’invalidation du cache du réseau CDN.
 solution: Experience Manager
-title: Tableau d’URL
+title: UrlArray
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 61225fb2-7c25-4f9c-82c9-02bf69995028
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/6NRN2CnA3hA3Y5GOgrpc4ok4RyIf4XftMr5EeuGwDr8'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: 45
 ht-degree: 2%
 
 ---
 
 # [!DNL UrlArray]{#urlarray}
 
-Tableau d’URL permettant d’invalider le cache du réseau de diffusion de contenu.
+Tableau d’URL pour l’invalidation du cache du réseau CDN.
 
 **Pris en charge depuis**
 
@@ -25,15 +30,15 @@ Tableau d’URL permettant d’invalider le cache du réseau de diffusion de con
 <table id="table_A28FC686DFB84198BF6671F953E8F044"> 
  <thead> 
   <tr> 
-   <th class="entry"> <b> Nom</b> </th> 
-   <th class="entry"> <b> Type</b> </th> 
-   <th class="entry"> <b> Description</b> </th> 
+   <th class="entry"> <b> Name </b> </th> 
+   <th class="entry"> Type de </b> <b></th> 
+   <th class="entry"> <b> Description </b> </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"><span class="varname"> Articles</span> </span> </p> </td> 
-   <td> <p> <span class="codeph"> xsd :chaîne</span> </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> éléments </span> </span> </p> </td> 
+   <td> <p> <span class="codeph"> xsd:string</span> </p> </td> 
    <td> <p> Liste des URL à invalider. Limité à 1 000 URL au maximum par la définition WSDL. </p> </td> 
   </tr> 
  </tbody> 

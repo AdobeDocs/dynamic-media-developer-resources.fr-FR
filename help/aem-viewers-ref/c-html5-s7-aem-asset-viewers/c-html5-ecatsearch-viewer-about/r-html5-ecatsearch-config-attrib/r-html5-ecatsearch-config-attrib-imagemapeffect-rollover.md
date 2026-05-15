@@ -5,10 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 29ca3d4d-6953-4148-9b1e-01e94d1da7df
-source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
+TQID: 'https://experienceleague.adobe.com/V5KPk6tOhMcCUtL7iraaeBNt4xp81Uo7FTpT-1Z44ks'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 3%
+source-wordcount: 87
+ht-degree: 5%
 
 ---
 
@@ -20,7 +24,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p>Indique le moment d’affichage du panneau d’informations. </p> <p>S’il est défini sur <span class="codeph"> 1</span>, le panneau d’informations s’affiche lorsque la souris entre dans la zone de zone cliquable (dans le cas où la zone cliquable a un attribut rollover_key<span class="codeph"> non vide</span>). </p> <p>S’il est défini sur <span class="codeph"> 0</span>, le panneau d’informations est déclenché lorsque la zone cliquable est sélectionnée (si la zone cliquable a un rollover_key<span class="codeph"> non vide </span> et des attributs href<span class="codeph"> vides</span>). </p> <p> Ignoré sur les appareils tactiles, y compris les ordinateurs de bureau tactiles, et est automatiquement défini sur <span class="codeph"> 0</span>. </p> </td> 
+   <td colname="col2"> <p>Indique quand afficher le panneau d’informations. </p> <p>Si cette valeur est définie sur <span class="codeph"> 1</span>, le panneau d’informations s’affiche lorsque la souris entre dans la zone cliquable (si la zone cliquable comporte un attribut rollover_key</span> <span class="codeph"> non vide). </p> <p>Si cette valeur est définie sur <span class="codeph"> 0</span>, le panneau d’informations est déclenché lorsque la zone cliquable est sélectionnée (si la zone cliquable comporte un attribut rollover_key</span> <span class="codeph"> non vide et un attribut href</span> <span class="codeph"> vide). </p> <p> Ignoré sur les appareils tactiles, y compris les ordinateurs de bureau tactiles, et est automatiquement défini sur <span class="codeph"> 0</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

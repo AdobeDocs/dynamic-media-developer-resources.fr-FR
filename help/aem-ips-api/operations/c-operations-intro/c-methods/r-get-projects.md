@@ -1,20 +1,24 @@
 ---
-description: Obtient les projets d’un groupe de ressources connexes.
+description: Obtient des projets pour un groupe de ressources associées.
 solution: Experience Manager
 title: getProjects
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d7262ed7-7419-4d6b-86ed-f3ad4657d654
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/8qz891-cE1hkh1ui-mY2AZIyBO7IWoklEmPXNXmUoUU'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '66'
+source-wordcount: 66
 ht-degree: 19%
 
 ---
 
 # getProjects{#getprojects}
 
-Obtient les projets d’un groupe de ressources connexes.
+Obtient des projets pour un groupe de ressources associées.
 
 Syntaxe
 
@@ -29,23 +33,23 @@ Syntaxe
 
 ## Paramètres {#section-8d549237b8c440b4872a0a086ddc00a1}
 
-**Entrée (getProjectsParam)**
+**Input (getProjectsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| CompanyHandle | `xsd:string` | Oui | La poignée de l’entreprise. |
+| companyHandle | `xsd:string` | Oui | La poignée de la société. |
 
 **Output (getProjectsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| Réseau de projet | `types:ProjectArray` | Oui | L’éventail des projets associés à l’entreprise. |
+| projectArray | `types:ProjectArray` | Oui | Tableau de projets associés à la société. |
 
 ## Exemples {#section-8b12d0b948f644f68bf9a16060d3849a}
 
-Cet exemple de code renvoie tous les indicateurs de projet d’un tableau de projet.
+Cet exemple de code renvoie tous les descripteurs de projet dans un tableau de projet.
 
-**Demander**
+**Requête**
 
 ```java
 <ns1:getProjectsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

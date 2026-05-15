@@ -5,9 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic
 role: Developer,User
 exl-id: 23091ef7-750a-4ec2-9d03-1d713f436991
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+TQID: 'https://experienceleague.adobe.com/7dGuE-LQMFsuKbGCEDMxHE9KE2rU5ptUSn3v0VDIAw0'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '2234'
+source-wordcount: 2295
 ht-degree: 0%
 
 ---
@@ -32,11 +37,11 @@ Notes de mise à jour les plus récentes pour [!DNL Adobe Scene7] version de l�
 
 Adobe est heureux d’annoncer la disponibilité de la diffusion de contenu HTTP/2, avec l’avantage global d’améliorer les performances.
 
-Voir la [HTTP2 FAQ sur la diffusion de contenu](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html?lang=fr#dynamic).
+Voir la [HTTP2 FAQ sur la diffusion de contenu](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
-Pour consulter la documentation complète, voir [https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=fr](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=fr)
+Pour consulter la documentation complète, voir [](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
 
 **Nouvelles fonctionnalités, améliorations et correctifs de bugs**
 
@@ -58,7 +63,7 @@ Pour consulter la documentation complète, voir [https://experienceleague.adobe.
 
 ## Visionneuses (Diffusion D’Images 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Pour consulter la documentation complète, voir [&#x200B; Guide de référence des visionneuses &#x200B;](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=fr).
+Pour consulter la documentation complète, voir [ Guide de référence des visionneuses ](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Correctifs de bugs pour la diffusion d’images 5.5.3**
 
@@ -68,7 +73,7 @@ Pour consulter la documentation complète, voir [&#x200B; Guide de référence d
 
 ## Visionneuses (Diffusion D’Images 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Pour consulter la documentation complète, voir [&#x200B; Guide de référence des visionneuses &#x200B;](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=fr).
+Pour consulter la documentation complète, voir [ Guide de référence des visionneuses ](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Correctifs de bugs pour la diffusion d’images 5.5.2**
 
@@ -77,7 +82,7 @@ Pour consulter la documentation complète, voir [&#x200B; Guide de référence d
 
 ## Visionneuses (Diffusion D’Images 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Pour consulter la documentation complète, voir [&#x200B; Guide de référence des visionneuses &#x200B;](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=fr).
+Pour consulter la documentation complète, voir [ Guide de référence des visionneuses ](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Nouvelles fonctionnalités, améliorations et correctifs pour la diffusion d’images 5.5.1**
 
@@ -195,7 +200,7 @@ Pour consulter la documentation complète, voir [&#x200B; Guide de référence d
    * Les bordures noires s’affichent sur le côté du composant VideoPlayer lorsque l’arrière-plan est défini sur blanc/transparent sur les appareils iPad.
    * La dernière image de la vidéo peut être déformée sur iPad à l’aide d’iOS 7.
    * Des macroblocages occasionnels peuvent se produire pendant la recherche de vidéos en mode de diffusion en continu HLS dans les navigateurs Chrome, Firefox et Internet Explorer.
-      * L’image d’affichage peut ne pas s’afficher dans le navigateur Microsoft® Edge pour le premier visiteur.
+      * L’image d’affichage peut ne pas s’afficher dans le navigateur ® Edge pour le premier visiteur.
       * L’image d’affichage peut se masquer après le chargement de la vidéo dans Internet Explorer 9 lorsque la lecture progressive est utilisée.
 
 ## SDK 3.0.2 de la visionneuse Scene7 HTML5 {#section-30e2392859c442d1aab2766d0f1d1580}
@@ -214,7 +219,7 @@ Le Guide de l’utilisateur se trouve dans le dossier SDK de la visionneuse Adob
    * Ajout de la lecture vidéo en continu HLS en tant que méthode de diffusion vidéo par défaut pour la plupart des ordinateurs de bureau. La diffusion vidéo en continu HDS basée sur Flash est toujours disponible en tant qu’option de lecture alternative.
    * Ajout des composants SearchManager, SearchPanel, SearchEffect et SearchButton pour la prise en charge de la nouvelle fonctionnalité Search dans les visionneuses de catalogue électronique.
    * Ajout de la prise en charge des appareils dotés d’une entrée de souris et tactile s’exécutant sur le navigateur Chrome.
-   * Refactorisation de la détection des versions d’Android™ pour prendre en charge les futures versions du système d’exploitation.
+   * Refactorisation de la détection des versions d’™ pour prendre en charge les futures versions du système d’exploitation.
    * Ajoutez la prise en charge de l’orientation de droite à gauche dans les composants SDK spécifiques au catalogue électronique.
 
 * ControlBar
@@ -227,7 +232,7 @@ Le Guide de l’utilisateur se trouve dans le dossier SDK de la visionneuse Adob
 
 **Notes de compatibilité**
 
-* Android™ 4.x
+* ™ 4.x
 
    * Pour désactiver la valeur par défaut, mettez en surbrillance bleue la règle CSS suivante doit être ajoutée pour le composant :
 
@@ -339,7 +344,7 @@ Le Guide de l’utilisateur se trouve dans le dossier SDK de la visionneuse Adob
 
    * L’image vidéo n’est pas mise à jour si la recherche est définie sur 100 % avec la version de secours définie sur auto.
    * Un blocage occasionnel des macros peut se produire pendant la recherche de vidéos dans le mode de diffusion en continu d’HLS dans les navigateurs Chrome, Firefox et Internet Explorer.
-   * L’image d’affichage peut ne pas s’afficher dans le navigateur Microsoft® Edge pour le premier visiteur.
+   * L’image d’affichage peut ne pas s’afficher dans le navigateur ® Edge pour le premier visiteur.
    * L’image d’affichage peut se masquer après le chargement de la vidéo dans Internet Explorer 9 lorsque la lecture progressive est utilisée.
 
 ## Dynamic Media Image Serving 6.3.2 et Image Rendering 6.3.2 {#section-19a3e96f52c74757bcdea0f8a11001f2}

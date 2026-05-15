@@ -5,9 +5,13 @@ title: setAssetsPublishState
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: dce324e4-cf86-4a65-ab00-8cd2bba20f8f
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/VV11khRodimEOAdPB-6mHR-gIT4AMiKOKeuuH6J15VA'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: 151
 ht-degree: 11%
 
 ---
@@ -16,7 +20,7 @@ ht-degree: 11%
 
 Détermine si un lot de ressources est prêt à être publié.
 
-Il s’agit de la version par lots de [setAssetState](../../../operations/c-operations-intro/c-methods/r-set-asset-publish-state.md#reference-9efc2eeea42348e0b1d5f3d1005c6563).
+Il s’agit de la version par lot de [setAssetState](../../../operations/c-operations-intro/c-methods/r-set-asset-publish-state.md#reference-9efc2eeea42348e0b1d5f3d1005c6563).
 
 ## Types d’utilisateurs autorisés {#section-0804726f683944dbbe9acfc3d35ccf25}
 
@@ -29,7 +33,7 @@ Il s’agit de la version par lots de [setAssetState](../../../operations/c-oper
 
 >[!NOTE]
 >
->L’utilisateur doit disposer d’un accès en lecture et en écriture à l’actif.
+>L’utilisateur doit disposer d’un accès en lecture et écriture à la ressource.
 
 ## Paramètres {#section-3e49d7859f8647b990d75373cc8dbc24}
 
@@ -37,24 +41,24 @@ Il s’agit de la version par lots de [setAssetState](../../../operations/c-oper
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| CompanyHandle | `xsd:string` | Oui | Pseudo de l’entreprise. |
-| publishStateUpdateArray | `types:PublishStateUpdateArray` | Oui | Tableau des valeurs d’état de publication des ressources. |
+| companyHandle | `xsd:string` | Oui | Identifiant de la société. |
+| publishStateUpdateArray | `types:PublishStateUpdateArray` | Oui | Tableau de valeurs d’état de publication des ressources. |
 
 **Output (setAssetsPublishStateParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| Compte de succès | `xsd:int` | Oui | Nombre de ressources mises à jour réussies. |
-| Nombre d’avertissements | `xsd:int` | Oui | Nombre d’actifs qui ont généré un avertissement lorsque l’opération a tenté de les mettre à jour. |
-| Nombre d’erreurs | `xsd:int` | Oui | Nombre d’actifs qui ont généré une erreur lorsque l’opération a tenté de les supprimer. |
-| Tableau des détails de l’avertissement | `types:AssetOperationFaultArray` | Non | Les détails associés aux mises à jour des ressources qui ont généré un avertissement. |
-| Tableau errorDetailArray | `types:AssetOperationFaultArray` | Non | Les détails associés aux mises à jour de ressources qui ont généré une erreur. |
+| successCount | `xsd:int` | Oui | Nombre de ressources mises à jour. |
+| warningCount | `xsd:int` | Oui | Nombre de ressources qui ont généré un avertissement lorsque l’opération a tenté de les mettre à jour. |
+| errorCount | `xsd:int` | Oui | Nombre de ressources ayant généré une erreur lorsque l’opération a tenté de les supprimer. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Non | Détails associés aux mises à jour des ressources ayant généré un avertissement. |
+| errorDetailArray | `types:AssetOperationFaultArray` | Non | Détails associés aux mises à jour des ressources ayant généré une erreur. |
 
 ## Exemples {#section-38cfdd3436214a06a1bae16875501d51}
 
-Cet exemple de code définit l’état de publication d’une ressource.
+Cet exemple de code définit le statut de publication d’une ressource.
 
-**Demander**
+**Requête**
 
 ```java
 <element name="setAssetsPublishStateParam">

@@ -1,45 +1,49 @@
 ---
-description: Ces commandes s’appliquent aux calques d’image, de texte et de couleur unie. Ils sont également généralement utiles pour les images composites et les demandes d’image simples sans calque.
+description: Ces commandes s’appliquent aux calques d’image, de texte et de couleur unie. Ils s’avèrent également généralement utiles pour les images composites et les demandes d’images simples et non superposées.
 solution: Experience Manager
 title: Opérations courantes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f30a9653-7aed-4233-8361-18ca6561d420
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/9mnmonp3Oddwqeuwny6mmliC2luvNJnBNEleRU1Km4E'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: 139
 ht-degree: 0%
 
 ---
 
 # Opérations courantes{#common-operations}
 
-Ces commandes s’appliquent aux calques d’image, de texte et de couleur unie. Ils sont également généralement utiles pour les images composites et les demandes d’image simples sans calque.
+Ces commandes s’appliquent aux calques d’image, de texte et de couleur unie. Ils s’avèrent également généralement utiles pour les images composites et les demandes d’images simples et non superposées.
 
 <table id="simpletable_996969D618C94BE8B81FAED512B5B7BA"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-blur.md#reference-00638f29e59b49c99f6bba27daf24668" type="reference" format="dita" scope="local"> op_blur</a> </p></td> 
-  <td class="stentry"> <p>Estompe le flou du calque. </p></td> 
+  <td class="stentry"> <p>Le calque est flou. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-brightness.md#reference-edf79dc41ae5411c80bec3ee3731c58a" type="reference" format="dita" scope="local"> op_brightness</a> </p></td> 
-  <td class="stentry"> <p>Ajuste la luminosité du calque. </p></td> 
+  <td class="stentry"> <p>Règle la luminosité du calque. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-colorbalance.md#reference-fb6af4ecf0f842d3adfdda342834a8fd" type="reference" format="dita" scope="local"> op_colorbalance</a> </p></td> 
-  <td class="stentry"> <p>Ajuste le rouge, le vert, le bleu indépendamment. </p></td> 
+  <td class="stentry"> <p>Ajuste indépendamment le rouge, le vert et le bleu. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-colorize.md#reference-50399231d6dc4c15b3ab5b93c32c458a" type="reference" format="dita" scope="local"> op_colorize</a> </p></td> 
-  <td class="stentry"> <p>Colorise les données du calque. </p></td> 
+  <td class="stentry"> <p>Colore les données du calque. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-contrast.md#reference-b26dfa9869fd43bebea0fbb8e9fe743d" type="reference" format="dita" scope="local"> op_contrast</a> </p></td> 
-  <td class="stentry"> <p>Règle le contraste. </p></td> 
+  <td class="stentry"> <p><a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-contrast.md#reference-b26dfa9869fd43bebea0fbb8e9fe743d" type="reference" format="dita" scope="local"> op_contraste</a> </p></td> 
+  <td class="stentry"> <p>Ajuste le contraste. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-hue.md#reference-4d97f5e206114db8b09132fd6e55ec00" type="reference" format="dita" scope="local"> op_hue</a> </p></td> 
-  <td class="stentry"> <p>Déplace la teinte de toutes les couleurs. </p></td> 
+  <td class="stentry"> <p>Décale la teinte de toutes les couleurs. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-invert.md#reference-5e3a8e9882a74a52acfd503cd7987828" type="reference" format="dita" scope="local"> op_invert</a> </p></td> 
@@ -59,26 +63,26 @@ Ces commandes s’appliquent aux calques d’image, de texte et de couleur unie.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-op-usm.md#reference-51ac75adadfe4346ab60953192d0a1aa" type="reference" format="dita" scope="local"> op_usm</a> </p></td> 
-  <td class="stentry"> <p>Applique le masquage flou. </p></td> 
+  <td class="stentry"> <p>Applique un masquage flou. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-flip.md#reference-f8568a61b77c41569d382a3147964ce3" type="reference" format="dita" scope="local"> chiquenaude</a> </p></td> 
-  <td class="stentry"> <p>Fait pivoter le calque horizontalement et/ou verticalement. </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-flip.md#reference-f8568a61b77c41569d382a3147964ce3" type="reference" format="dita" scope="local"> flip</a> </p></td> 
+  <td class="stentry"> <p>Retourne le calque horizontalement et/ou verticalement. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096" type="reference" format="dita" scope="local"> tourner</a> </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-rotate.md#reference-12abb086635546ec9ec2e1a793dc1096" type="reference" format="dita" scope="local"> rotation</a> </p></td> 
   <td class="stentry"> <p>Fait pivoter le calque. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-perspective.md#reference-c941f3bb1eee4dd29abf3824c0b0bc8e" type="reference" format="dita" scope="local"> perspective</a> </p></td> 
-  <td class="stentry"> <p>Transformez le calque en perspective. </p></td> 
+  <td class="stentry"> <p>Transformation du calque en perspective. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d" type="reference" format="dita" scope="local"> Chemin d’accès</a> </p></td> 
-  <td class="stentry"> <p>Spécifie la ou les formes de clip pour le calque. </p></td> 
+  <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d" type="reference" format="dita" scope="local"> clipPath</a> </p></td> 
+  <td class="stentry"> <p>Spécifie la ou les formes de clip du calque. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <a href="../../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clipxpath.md#reference-17e5e4da3e044943af8f963f58a45f53" type="reference" format="dita" scope="local"> clipXPath</a> </p></td> 
-  <td class="stentry"> <p>Spécifie la ou les formes de clip inversé pour le calque. </p></td> 
+  <td class="stentry"> <p>Spécifie la ou les formes d’élément inversé pour le calque. </p></td> 
  </tr> 
 </table>

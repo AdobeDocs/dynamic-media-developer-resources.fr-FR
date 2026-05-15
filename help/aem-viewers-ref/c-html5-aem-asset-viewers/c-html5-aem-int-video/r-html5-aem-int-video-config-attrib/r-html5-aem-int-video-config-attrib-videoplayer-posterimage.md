@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 17c1220d-f2a4-4729-84e2-b9f6f5732423
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+TQID: 'https://experienceleague.adobe.com/fmeECr4hAVyvZObub7LyPoj9p6axmSEU2bLToz-gvwg'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: 171
 ht-degree: 2%
 
 ---
@@ -21,7 +25,7 @@ Attribut de configuration pour la visionneuse de vidéos interactives.
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> aucun|[<span class="varname"> image_id</span>][ ?<span class="varname"> isCommands</span>]</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> none|[<span class="varname"> image_id</span>][?<span class="varname"> isCommands</span>]</span> </p> </td> 
    <td colname="col2"> <p> L’image à afficher sur la première image avant que la vidéo ne commence à être lue, résolue par rapport à <span class="codeph">’URL du serveur</span>. Si spécifié dans l’URL, codez en HTTP les éléments suivants : </p> <p> 
      <ul id="ul_B38A687CEFE64C68A0B2C227A68A458F"> 
       <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> comme <span class="codeph"> %3F</span> </p> </li> 

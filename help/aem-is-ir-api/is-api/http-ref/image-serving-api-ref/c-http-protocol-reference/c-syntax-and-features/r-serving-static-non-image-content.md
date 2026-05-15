@@ -1,31 +1,36 @@
 ---
-description: Diffusion de contenu statique (non image)
+description: Diffusion de contenu statique (hors images)
 solution: Experience Manager
-title: Diffusion de contenu statique (non image)
+title: Diffusion de contenu statique (hors images)
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e2c79bdc-5d70-46d9-85f4-ffebd7621944
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/fWwGD0B2IS6rd7Ls6rEb2RzH82e-lFHS2WUBrNGe7QY'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: 291
 ht-degree: 0%
 
 ---
 
-# Diffusion de contenu statique (non image){#serving-static-non-image-content}
+# Diffusion de contenu statique (hors images){#serving-static-non-image-content}
 
-Image Serving fournit un mécanisme permettant de gérer le contenu non-image dans les catalogues et de le diffuser par le biais d’un `context /is/content`fichier . Le mécanisme permet de configurer la durée de vie pour chaque élément séparément.
+La diffusion d’images fournit un mécanisme de gestion des contenus non-images dans les catalogues et les diffuse au moyen d’un `context /is/content` distinct. Le mécanisme permet de configurer la TTL pour chaque élément séparément.
 
 ## Syntaxe de base {#section-a986baaca8644d04bcd0ddf781ae916e}
 
 <table id="simpletable_4A6249F0C40747339524323EB0831CE4"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"><span class="varname"> demander </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"><span class="varname"> http:// serveur </span>/is/content[/ <span class="varname"> catalog </span>/ <span class="varname"> item </span>][ ? <span class="varname"> modificateurs </span>] </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> requête </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> http:// <span class="varname"> serveur </span>/is/content[/ <span class="varname"> catalogue </span>/ <span class="varname"> élément </span>][ ? <span class="varname"> modificateurs </span>] </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"><span class="varname"> serveur </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"><span class="varname"> </span>server_address [ : <span class="varname"> port </span>]</span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> serveur <span class="varname"> </span> </span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> server_address </span>[: <span class="varname"> port </span>] </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> catalogue </span> </span> </p> </td> 
@@ -37,7 +42,7 @@ Image Serving fournit un mécanisme permettant de gérer le contenu non-image da
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> modificateurs </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"><span class="varname"> commande </span>*[&amp; <span class="varname"> commande </span>]</span> </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> <span class="varname"> commande </span>*[&amp; <span class="varname"> commande </span>] </span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> commande </span> </span> </p> </td> 
@@ -49,30 +54,30 @@ Image Serving fournit un mécanisme permettant de gérer le contenu non-image da
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> valeur <span class="varname"> </span> </span> </p> </td> 
-  <td class="stentry"> <p>Valeur de commande. </p> </td> 
+  <td class="stentry"> <p>Valeur de la commande. </p> </td> 
  </tr> 
 </table>
 
 ## Présentation des commandes {#section-61657a0141914053ab12038ad7e91500}
 
-La diffusion d’images prend en charge les commandes suivantes au niveau /is/content :
+Le service d’images prend en charge les commandes suivantes sous /is/content :
 
 <table id="simpletable_1D96BA1AB5394B3C9B91D46617AFC0FA"> 
  <tr class="strow"> 
   <td class="stentry"> <a href="../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-type.md#reference-89094fd1c50c444eb082cd266769cccb" type="reference" format="dita" scope="local"> type </a> </td> 
-  <td class="stentry"> <p>Filtre de type de contenu. </p> </td> 
+  <td class="stentry"> <p>Filtre du type de contenu. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <a href="../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-req/r-req.md#reference-907cdb4a97034db7ad94695f25552e76" type="reference" format="dita" scope="local"> req </a> </td> 
-  <td class="stentry"> <p> <span class="codeph"> req=userdata </span>, <span class="codeph"> req=props </span>et <span class="codeph"> req=exists </span> uniquement. </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> req=userdata </span>, <span class="codeph"> req=props </span> et <span class="codeph"> req=exists </span> uniquement. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <a href="../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-cache.md#reference-168189bee4ce4d1189d427891f22be2e" type="reference" format="dita" scope="local"> cache </a> </td> 
-  <td class="stentry"> <p>Permet de désactiver la mise en cache côté client. </p> </td> 
+  <td class="stentry"> </a> du cache <a href="../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-cache.md#reference-168189bee4ce4d1189d427891f22be2e" type="reference" format="dita" scope="local"> </td> 
+  <td class="stentry"> <p>Permet de désactiver le cache côté client. </p> </td> 
  </tr> 
 </table>
 
-## Catalogues de contenu statique {#section-b2b8f4860fe84e528493ed704c7c5141}
+## Catalogues de contenu statiques {#section-b2b8f4860fe84e528493ed704c7c5141}
 
 Les catalogues de contenu statique sont similaires aux catalogues d’images, mais prennent en charge moins de champs de données :
 
@@ -90,7 +95,7 @@ Les catalogues de contenu statique sont similaires aux catalogues d’images, ma
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catalog::Path </span> </p> </td> 
-   <td> <p> Chemin d’accès au fichier de cet élément de contenu </p> </td> 
+   <td> <p> Chemin d’accès au fichier pour cet élément de contenu </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catalog::Expiration </span> </p> </td> 
@@ -102,16 +107,16 @@ Les catalogues de contenu statique sont similaires aux catalogues d’images, ma
   </tr> 
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catalog::UserData </span> </p> </td> 
-   <td> <p> Les métadonnées facultatives associées à cet élément de contenu statique ; Disponible pour le client avec req=userdata </p> </td> 
+   <td> <p> Métadonnées facultatives associées à cet élément de contenu statique ; disponibles pour le client avec req=userdata </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> <span class="codeph"> catalog ::UserType </span> </p> </td> 
-   <td> <p> Type de données facultatif ; peut être utilisé pour filtrer les requêtes de contenu statique à l’aide de la commande type= </p> </td> 
+   <td> <p> <span class="codeph"> catalog::UserType </span> </p> </td> 
+   <td> <p> Type de données facultatif. Peut être utilisé pour filtrer les requêtes de contenu statique avec la commande type= </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Filtrage du contenu statique {#section-896c37cf68bc446eb0766fb378898262}
+## Filtrer du contenu statique {#section-896c37cf68bc446eb0766fb378898262}
 
 Ce mécanisme permet de s’assurer que les clients ne reçoivent que le contenu adapté à leurs besoins. En supposant que le contenu statique soit balisé avec les valeurs `catalog::UserType` appropriées, le client peut ajouter la commande `type=` à la requête. La diffusion d’images compare la valeur fournie avec la commande `type=` à la valeur de `catalog::UserType` et, en cas de non-correspondance, renvoie une erreur au lieu de contenus potentiellement inappropriés.
 

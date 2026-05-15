@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: c9ef02eb-f5db-474b-b234-c49508e2af35
-source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
+TQID: 'https://experienceleague.adobe.com/40q8-9AJ1jcuAURbTj3HGo-dihtEX-UOzkwcWf0UapY'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: 900
 ht-degree: 0%
 
 ---
@@ -35,7 +39,7 @@ Le sélecteur de classe CSS suivant contrôle l’emplacement et l’orientation
    <td colname="col2"> <p>Largeur du panneau d’échantillons interactifs </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de hauteur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de hauteur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Hauteur du panneau d’échantillons interactifs. </p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +47,7 @@ Le sélecteur de classe CSS suivant contrôle l’emplacement et l’orientation
    <td colname="col2"> <p>Position supérieure du panneau d’échantillons interactifs. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> inférieur </span> </p> </td> 
+   <td colname="col1"> <p> </span> inférieur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Position inférieure du panneau d’échantillons interactifs. </p> </td> 
   </tr> 
   <tr> 
@@ -107,23 +111,23 @@ Le sélecteur de classe CSS suivant contrôle l’aspect du panneau Bannière :
    <td colname="col2"> <p>Couleur d’arrière-plan du panneau Bannière. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de couleur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de couleur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Couleur du texte dans le panneau Bannière. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de bordure </span> </p> </td> 
+   <td colname="col1"> <p> </span> de bordure <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Bordure autour du panneau de bannière. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d’épaisseur de police </span> </p> </td> 
+   <td colname="col1"> <p> </span> d’épaisseur de police <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Épaisseur de police à utiliser pour le texte dans le panneau Bannière. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de taille de police </span> </p> </td> 
+   <td colname="col1"> <p> </span> de taille de police <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Taille de police à utiliser pour le texte dans le panneau Bannière. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> </span> famille de polices </p> </td> 
+   <td colname="col1"> <p> </span> <span class="codeph"> famille de polices </p> </td> 
    <td colname="col2"> <p>Famille de polices à utiliser pour le texte dans le panneau Bannière. </p> </td> 
   </tr> 
   <tr> 
@@ -184,7 +188,7 @@ Le sélecteur de classe CSS suivant contrôle l’espacement entre les miniature
 <table id="table_FE6A749EA3894956998D50EA4AB6497B"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de la marge </span> </p> </td> 
+   <td colname="col1"> <p> </span> de la marge <span class="codeph"> </p> </td> 
    <td colname="col2"> <p> Taille de la marge horizontale et verticale autour de chaque miniature. L’espacement réel des miniatures est égal à la somme des marges gauche et droite définies pour <span class="codeph"> </span> .s7thumbcell. </p> </td> 
   </tr> 
  </tbody> 
@@ -213,11 +217,11 @@ Le sélecteur de classe CSS suivant contrôle l’aspect des miniatures individu
    <td colname="col2"> <p>Largeur de la miniature. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de hauteur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de hauteur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Hauteur de la miniature. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de bordure </span> </p> </td> 
+   <td colname="col1"> <p> </span> de bordure <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Bordure de la miniature. </p> </td> 
   </tr> 
  </tbody> 
@@ -247,11 +251,11 @@ Le sélecteur de classe CSS suivant contrôle l’aspect du libellé de la minia
 <table id="table_81B3209FB8124FFA9DB81FD35717900D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de couleur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de couleur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Couleur du texte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de bordure </span> </p> </td> 
+   <td colname="col1"> <p> </span> de bordure <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Bordure du libellé. </p> </td> 
   </tr> 
   <tr> 
@@ -259,7 +263,7 @@ Le sélecteur de classe CSS suivant contrôle l’aspect du libellé de la minia
    <td colname="col2"> <p>Alignement horizontal du texte. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> </span> famille de polices </p> </td> 
+   <td colname="col1"> <p> </span> <span class="codeph"> famille de polices </p> </td> 
    <td colname="col2"> <p>Nom de la police. </p> </td> 
   </tr> 
  </tbody> 
@@ -296,7 +300,7 @@ Il n’est pas possible de positionner les boutons de défilement à l’aide de
    <td colname="col2"> <p>Largeur du bouton de défilement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de hauteur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de hauteur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton de défilement. </p> </td> 
   </tr> 
   <tr> 

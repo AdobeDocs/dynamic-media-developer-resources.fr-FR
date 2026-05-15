@@ -5,10 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 43b5c169-0ef6-4a12-a777-d36c1a8d1771
-source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
+TQID: 'https://experienceleague.adobe.com/LEeJUVIHLhplymrvp9IdNUWcfJz-Tl0kLffkik1GvkY'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 4%
+source-wordcount: 81
+ht-degree: 3%
 
 ---
 
@@ -21,8 +25,8 @@ Attribut de configuration pour la visionneuse de carrousel.
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph">[0|1][,durée][,direction]</span> </p> </td> 
-   <td colname="col2"> <p> Indique activé/désactivé, la durée d’affichage de chaque bannière dans le carrousel et le sens de la boucle automatique. </p> <p>Définissez la valeur <span class="codeph"> 0</span> pour désactiver la boucle automatique. </p> <p>Réglez <span class="codeph"> 1</span> sur une boucle automatique avec une durée de transition en secondes contrôlée par <span class="codeph"> la durée</span>. </p> <p>La direction de la boucle automatique est contrôlée par <span class="codeph"> la direction</span>. La <span class="codeph"> direction</span> a une plage comprise entre <span class="codeph"> 1</span> de droite à gauche et <span class="codeph"> 0</span> de gauche à droite. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph">[0|1][,duration][,direction]</span> </p> </td> 
+   <td colname="col2"> <p> Indique l’activation/la désactivation, la durée d’affichage de chaque bannière dans le carrousel et la direction de la boucle automatique. </p> <p>Définissez sur <span class="codeph"> 0</span> pour la boucle automatique. </p> <p>Définissez <span class="codeph"> 1</span> pour activer la boucle automatique avec une durée de transition en secondes contrôlée par <span class="codeph"> durée</span>. </p> <p>La direction de la boucle automatique est contrôlée avec <span class="codeph"> direction</span>. La direction </span> est comprise entre <span class="codeph"> 1</span> de droite à gauche et <span class="codeph"> 0</span> de gauche à droite. <span class="codeph"></p> </td> 
   </tr> 
  </tbody> 
 </table>

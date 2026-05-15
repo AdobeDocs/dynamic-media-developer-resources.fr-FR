@@ -1,13 +1,17 @@
 ---
-title: Créer un dossier
+title: createFolder
 description: Crée un dossier.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 569130ae-5515-4b14-a410-2bd6f9fc7638
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/iQNFDdsbxhklGSfUb1pmcNhzIT8kJYc19xFglU7Blc8'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: 118
 ht-degree: 16%
 
 ---
@@ -18,7 +22,7 @@ Crée un dossier.
 
 >[!NOTE]
 >
->Le nouveau dossier est subordonné au dossier Images, même si vous spécifiez un `/` pour indiquer la racine de l’entreprise.
+>Le nouveau dossier est subordonné au dossier Images, même si vous spécifiez un `/` pour indiquer la racine de la société.
 
 Syntaxe
 
@@ -41,20 +45,20 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| CompanyHandle | `xsd:string` | Oui | La poignée à l’entreprise |
-| chemin d’accès au dossier | `xsd:string` | Oui | Dossier racine utilisé pour récupérer les dossiers et tous les sous-dossiers au niveau feuille. Si elle est exclue, la racine de l’entreprise est utilisée. |
+| companyHandle | `xsd:string` | Oui | La poignée de la société |
+| folderPath | `xsd:string` | Oui | Le dossier racine utilisé pour récupérer les dossiers et tous les sous-dossiers au niveau feuille. S’il est exclu, la racine d’entreprise est utilisée. |
 
 **Output (createFolderParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| poignée de dossier | `xsd:string` | Oui | Pseudo du nouveau dossier. |
+| folderHandle | `xsd:string` | Oui | Gestionnaire du nouveau dossier. |
 
 ## Exemples {#section-e596fbdb44fd43c8b30005cb2a2fdf26}
 
-Cet exemple de code crée un dossier à la racine d’une société. La réponse renvoie l’identifiant du nouveau dossier créé.
+Cet exemple de code crée un dossier à la racine d’une entreprise. La réponse renvoie l’identificateur du dossier nouvellement créé.
 
-**Demander**
+**Requête**
 
 ```java
 <ns1:createFolderParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

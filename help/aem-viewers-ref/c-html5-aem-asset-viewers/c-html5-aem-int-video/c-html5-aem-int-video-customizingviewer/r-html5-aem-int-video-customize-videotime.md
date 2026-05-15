@@ -1,26 +1,30 @@
 ---
-title: Durée de la vidéo
-description: La durée de la vidéo est l’affichage numérique qui affiche l’heure et la durée actuelles de la vidéo en cours de lecture.
+title: Durée vidéo
+description: L’heure de la vidéo est l’affichage numérique qui indique l’heure actuelle et la durée de la vidéo en cours de lecture.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 90ec189e-6de4-44b3-8760-1e8636b919ba
-source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
+TQID: 'https://experienceleague.adobe.com/avAPQ1DlVJTRq3WWLl0ZCV-SXXQeWPZeLQNb4amWwHI'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: 201
 ht-degree: 0%
 
 ---
 
-# Durée de la vidéo{#video-time}
+# Durée vidéo{#video-time}
 
-La durée de la vidéo est l’affichage numérique qui affiche l’heure et la durée actuelles de la vidéo en cours de lecture.
+L’heure de la vidéo est l’affichage numérique qui indique l’heure actuelle et la durée de la vidéo en cours de lecture.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-La famille de polices d’heure vidéo, la taille de police et la couleur de police font partie des propriétés que CSS peut contrôler. Il peut également être positionné, par rapport à la barre de contrôle qui le contient, par CSS.
+La famille de polices de l’heure de la vidéo, la taille de police et la couleur de la police font partie des propriétés que CSS peut contrôler. Il peut également être positionné, par rapport à la barre de contrôle qui le contient, par CSS.
 
-L’apparence de l’heure de la vidéo est contrôlée par le sélecteur de classe CSS suivant :
+L’aspect de l’heure de la vidéo est contrôlé avec le sélecteur de classe CSS suivant :
 
 ```
 .s7interactivevideoviewer .s7videotime
@@ -31,35 +35,35 @@ L’apparence de l’heure de la vidéo est contrôlée par le sélecteur de cla
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Retour au début </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure supérieure, y compris le rembourrage. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure supérieure, y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Droite </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure droite, y compris le rembourrage. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> droit </span> </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure droite, marge intérieure incluse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Largeur </span> </p> </td> 
-   <td colname="col2"> <p> Largeur du contrôle temporel de la vidéo. Cette propriété est requise pour qu’Internet Explorer 8 ou version ultérieure fonctionne correctement. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
+   <td colname="col2"> <p> Largeur du contrôle temporel vidéo. Cette propriété est requise pour qu'Internet Explorer 8 ou version ultérieure fonctionne correctement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> famille de police </span> </p> </td> 
-   <td colname="col2"> <p>Famille de polices à utiliser pour le texte d’affichage temporel. </p> </td> 
+   <td colname="col1"> <p> </span> <span class="codeph"> famille de polices </p> </td> 
+   <td colname="col2"> <p>Famille de polices à utiliser pour le texte d’affichage de l’heure. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> taille de police </span> </p> </td> 
-   <td colname="col2"> <p>Taille de police à utiliser pour le texte d’affichage de l’heure. </p> </td> 
+   <td colname="col1"> <p> </span> de taille de police <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p>Taille de police à utiliser pour le texte d’affichage temporel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Couleur </span> </p> </td> 
-   <td colname="col2"> <p>Couleur de police à utiliser pour le texte d’affichage de l’heure. </p> </td> 
+   <td colname="col1"> <p> </span> de couleur <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p>Couleur de police à utiliser pour le texte d’affichage temporel. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Exemple {#section-e8caea0a303c425a8a637c2a47c06355}
 
-Définissez l’heure vidéo sur gris clair (hexadécimal `#BBBBBB`), dimensionnée à 12 pixels, positionnée à 15 pixels du haut de la barre de contrôle et à 80 pixels des bords supérieur et droit de la barre de contrôle.
+Définissez l’heure de la vidéo sur gris clair (`#BBBBBB` hexadécimal), dimensionnée à 12 pixels, positionnée à 15 pixels du haut de la barre de contrôle et à 80 pixels des bords supérieur et droit de la barre de contrôle.
 
 ```
 .s7interactivevideoviewer .s7videotime { 

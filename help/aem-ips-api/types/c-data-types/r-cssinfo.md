@@ -1,20 +1,24 @@
 ---
-description: Propriétés d’un fichier CSS.
+description: Propriétés d’une ressource de fichier CSS.
 solution: Experience Manager
-title: Infos CssInfo
+title: CssInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: b3a65c0c-b2c9-48da-9233-5fbcdd55d986
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/QjFvy0TVyClJiyzIFPC9US20LAlqCFgYuSo9fjairmI'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '30'
+source-wordcount: 30
 ht-degree: 16%
 
 ---
 
 # [!DNL CssInfo]{#cssinfo}
 
-Propriétés d’un fichier CSS.
+Propriétés d’une ressource de fichier CSS.
 
 Syntaxe
 
@@ -22,6 +26,6 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| Chemin d’origine | `xsd:string` | Chemin d’accès au fichier CSS. |
-| Fichier d’origine | `xsd:string` | Nom du fichier. |
-| Taille du fichier | `xsd:int` | Taille de fichier. |
+| originalPath | `xsd:string` | Chemin du fichier CSS. |
+| originalFile | `xsd:string` | Nom du fichier. |
+| fileSize | `xsd:int` | Taille du fichier. |

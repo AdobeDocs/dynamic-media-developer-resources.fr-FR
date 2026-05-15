@@ -5,26 +5,30 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 64cce312-c13b-49c7-af85-3349ff5c4322
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+TQID: 'https://experienceleague.adobe.com/cEDD4fmF-pm2VHOOAbkZlGiJ6MTisLVdKYxwDoighvA'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: 82
 ht-degree: 3%
 
 ---
 
 # PageView.zoomstep{#pageview-zoomstep}
 
-` [PageView.|<containerId>_pageView.]zoomstep= *`Limite d’étape`*[, *` `*]`
+` [PageView.|<containerId>_pageView.]zoomstep= *`step`*[, *`limit`*]`
 
 <table id="table_82C9252157DB41B5B98505855975D2F5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> pas</span></span> </p> </td> 
-   <td colname="col2"> <p> Configure le nombre d’actions de zoom avant et de zoom arrière nécessaires pour multiplier par deux la résolution ou la diminuer. Le changement de résolution pour chaque action de zoom est de 2^1 par étape. Définissez ce paramètre sur <span class="codeph"> 0</span> pour effectuer un zoom en pleine résolution d’une simple action de zoom. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> étape</span></span> </p> </td> 
+   <td colname="col2"> <p> Configure le nombre d’actions de zoom avant et de zoom arrière requises pour augmenter ou réduire la résolution d’un facteur deux. La modification de la résolution pour chaque action de zoom est de 2^1 par étape. Définissez sur <span class="codeph"> 0</span> pour effectuer un zoom à résolution complète avec une seule action de zoom. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> limite</span></span> </p> </td> 
-   <td colname="col2"> <p> Spécifie la résolution de zoom maximale par rapport à l’image à pleine résolution. La valeur par défaut est <span class="codeph"> 1.0</span>, ce qui ne permet pas de zoomer au-delà de la pleine résolution. </p> </td> 
+   <td colname="col2"> <p> Indique la résolution de zoom maximale par rapport à l’image en résolution complète. La valeur par défaut est <span class="codeph"> 1,0</span>, ce qui n’autorise pas le zoom au-delà de la résolution complète. </p> </td> 
   </tr> 
  </tbody> 
 </table>

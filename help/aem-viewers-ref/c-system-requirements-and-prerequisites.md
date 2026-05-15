@@ -6,10 +6,15 @@ contentOwner: Rick Brough
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: e4543358-92a6-4acc-a8a2-227e1daea722
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/tPpOrJ26zb4wztdD5XE6ErLB-6D1IZPO4MSaumdUevY'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 2%
+source-wordcount: 360
+ht-degree: 0%
 
 ---
 
@@ -36,10 +41,10 @@ Configuration requise pour les visionneuses Dynamic Media HTML5.
 **Configuration minimale requise pour l’explorateur client pour les visionneuses de composants :**
 
 * Pris en charge sur les versions de système d’exploitation suivantes ou ultérieures :
-   * Microsoft® Windows® 7
+   * ® Windows® 7
    * macOS X 10.12
 * Pris en charge sur les versions de navigateur/plateforme suivantes ou ultérieures :
-   * Android™ OS 4.x
+   * ™ OS 4.x
    * BlackBerry® 10 sur les navigateurs natifs. Seule la lecture vidéo est prise en charge.
    * Chrome 82
    * Edge
@@ -51,7 +56,7 @@ Configuration requise pour les visionneuses Dynamic Media HTML5.
    * Safari 11
 * Internet Explorer sur les appareils mobiles n’est pas pris en charge.
 * *PanoramicViewer* est pris en charge dans les versions de navigateur/plateforme suivantes, ou une version ultérieure :
-   * Android™ 4.4 (appareils téléphoniques uniquement)
+   * ™ 4.4 (appareils téléphoniques uniquement)
    * Chrome 82
    * Edge
    * Firefox 77
@@ -59,14 +64,14 @@ Configuration requise pour les visionneuses Dynamic Media HTML5.
    * iOS 10
    * Safari 11
 * *Video360Viewer* et *DimensionalViewer* sont pris en charge dans les versions de navigateur/plateforme suivantes ou ultérieures :
-   * Android™ 5 (appareils téléphoniques uniquement)
+   * ™ 5 (appareils téléphoniques uniquement)
    * Chrome 82
    * Edge
    * Firefox 77
    * iOS 12
    * Safari 12
 * *ZoomVerticalViewer* est pris en charge dans les versions de navigateur/plateforme suivantes ou ultérieures :
-   * Android™ 4.x
+   * ™ 4.x
    * Chrome 82
    * Edge
    * Firefox 77

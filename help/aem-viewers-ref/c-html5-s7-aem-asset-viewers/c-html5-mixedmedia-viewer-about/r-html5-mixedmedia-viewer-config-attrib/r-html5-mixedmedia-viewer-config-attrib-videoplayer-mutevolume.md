@@ -1,20 +1,24 @@
 ---
-title: VideoPlayer.mutevolume
-description: Attribut Configuration pour la visionneuse de vidéos de supports variés.
+title: VideoPlayer.mutevolum
+description: Attribut de configuration pour la visionneuse de vidéos de médias mixtes.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 13398ac5-7137-4345-88b8-5e4df09edb7b
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+TQID: 'https://experienceleague.adobe.com/F3BsS2qXezMhbmpx-NKFstl-eU2WoYN1XK6N6-3DsbM'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 5%
+source-wordcount: 60
+ht-degree: 8%
 
 ---
 
-# VideoPlayer.mutevolume{#videoplayer-mutevolume}
+# VideoPlayer.mutevolum{#videoplayer-mutevolume}
 
-Attribut Configuration pour la visionneuse de vidéos de supports variés.
+Attribut de configuration pour la visionneuse de vidéos de médias mixtes.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]mutevolume=0|1`
 
@@ -22,7 +26,7 @@ Attribut Configuration pour la visionneuse de vidéos de supports variés.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Définit le mode coupé pour la lecture vidéo lors du chargement initial. S’il est réglé sur <span class="codeph"> 1 </span> , le volume est coupé ; sinon, la vidéo est lue avec le son. Sur certains appareils, la mise en sourdine de la lecture vidéo au chargement permet également à la vidéo de se lire automatiquement. </p> </td> 
+   <td colname="col2"> <p> Définit le mode muet pour la lecture vidéo au chargement initial. Si le paramètre est défini sur <span class="codeph"> 1 </span> le volume est désactivé, la vidéo est lue en même temps que le son. Sur certains appareils, le fait de désactiver la lecture vidéo au chargement permet également à la vidéo de s’afficher automatiquement. </p> </td> 
   </tr> 
  </tbody> 
 </table>

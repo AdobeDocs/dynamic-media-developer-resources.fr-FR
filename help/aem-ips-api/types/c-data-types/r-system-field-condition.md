@@ -5,9 +5,13 @@ title: SystemFieldCondition
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: ebd12727-dbb3-40dc-b631-945415331be6
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/dCZl4pLGuG5hHpEq04W-qv8mRWcFiA7PvmzcO7Un-sM'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: 116
 ht-degree: 6%
 
 ---
@@ -16,25 +20,25 @@ ht-degree: 6%
 
 Condition de recherche de champ système pour l’opération searchAssets.
 
-Pour les comparaisons unaires, transmettez exactement une valeur ( `boolVal`, `longVal`, `doubleVal`ou `dateVal`) selon le type de champ système. Pour les plages de recherche, transmettez `min<Type>` et `max<Type>` paramètres et transmettez une `op` valeur de `Between` ou `NotBetween`.
+Pour les comparaisons unaires, transmettez exactement une valeur ( `boolVal`, `longVal`, `doubleVal` ou `dateVal`) en fonction du type de champ système. Pour les plages de recherche, transmettez les paramètres `min<Type>` et `max<Type>` et transmettez une valeur `op` de `Between` ou `NotBetween`.
 
 ## Paramètres {#section-2fc9bea56b6d4b72b80d4f04c5f9b862}
 
 | Nom | Type | Description |
 |---|---|---|
-| champ | `xsd:string` | Choix des champs du système d’Search des ressources. |
-| Op | `xsd:string` | Choix des opérateurs de comparaison de chaînes. |
-| valeur | `xsd:string` | Valeur à tester. |
+| champ | `xsd:string` | Choix des champs système de recherche de ressources. |
+| op | `xsd:string` | Choix des opérateurs de comparaison de chaînes. |
+| valeur | `xsd:string` | Valeur en fonction de laquelle tester. |
 | boolVal | `xsd:boolean` | Valeur de comparaison booléenne. |
 | longVal | `xsd:long` | Valeur de comparaison longue. |
-| MinLong | `xsd:long` | Limite inférieure de longue portée. |
-| MaxLong | `xsd:long` | Limite supérieure de longue portée. |
-| Valeur double | `xsd:double` | Valeur de double comparaison. |
-| minDouble | `xsd:double` | Limite inférieure de double portée. |
-| maxDouble | `xsd:double` | Limite supérieure de plage double. |
+| minLong | `xsd:long` | Limite inférieure de longue portée. |
+| maxLong | `xsd:long` | Limite supérieure de longue portée. |
+| doubleVal | `xsd:double` | Valeur de comparaison double. |
+| minDouble | `xsd:double` | Limite inférieure de la double plage. |
+| maxDouble | `xsd:double` | Limite supérieure de la plage double. |
 | dateVal | `xsd:dateTime` | Valeur de comparaison de dates. |
-| minDate | `xsd:dateTime` | Période minimum. |
-| Date max. | `xsd:dateTime` | Plage de dates maximum. |
+| minDate | `xsd:dateTime` | Période minimale. |
+| maxDate | `xsd:dateTime` | Période maximale. |
 
 ## Exemple {#section-347d4aabfff44530adba03d1dc0b9968}
 

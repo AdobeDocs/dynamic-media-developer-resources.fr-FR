@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: f2db0259-f1cf-41bc-86fd-97a40d01db16
-source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
+TQID: 'https://experienceleague.adobe.com/dPkzITquLuEjsqvZczebwQNEr-9yht8SnUjbqIDJoYA'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: 172
 ht-degree: 0%
 
 ---
@@ -47,7 +51,7 @@ L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe C
    <td colname="col2"> <p>Largeur de l’indicateur de zoom. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de hauteur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de hauteur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Hauteur de l’indicateur de zoom. </p> </td> 
   </tr> 
  </tbody> 

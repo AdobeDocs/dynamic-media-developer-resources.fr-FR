@@ -5,9 +5,13 @@ title: DefaultExt
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 43b3e5b8-6374-458d-8503-8e04c8c84233
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/3juJVbcGdP1Z-F5inwe-Do7vkk80T-SNJmAiotjU6iw'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: 139
 ht-degree: 2%
 
 ---
@@ -20,7 +24,7 @@ Un suffixe de fichier se compose d’un point et d’un ou plusieurs caractères
 
 ## Propriétés {#section-b024e6450b414ccc8b83a48a3b4e00f9}
 
-Chaîne de texte. Doit inclure un « . » au début et un ou plusieurs caractères.
+Chaîne de texte. Doit inclure un &#39;.&#39; de début et un ou plusieurs caractères.
 
 ## Par défaut {#section-1194c36ffe0748c5b9ff7d732a506588}
 

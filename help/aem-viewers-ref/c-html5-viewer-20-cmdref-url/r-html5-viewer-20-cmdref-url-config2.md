@@ -1,32 +1,36 @@
 ---
 title: config2
-description: Paramètre commun à toutes les visionneuses.
+description: Paramètre commun à tous les observateurs.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: dbbec03a-077d-46b0-bfc6-e09436fa850a
-source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
+TQID: 'https://experienceleague.adobe.com/0TPdelyo72hyAafiQceq4PVcvELkkvydaBaaRpwb7zQ'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '35'
+source-wordcount: 35
 ht-degree: 11%
 
 ---
 
 # config2{#config}
 
-Paramètre commun à toutes les visionneuses.
+Paramètre commun à tous les observateurs.
 
 >[!NOTE]
 >
->Cette commande ne s’applique pas à la visionneuse d’images vidéo.
+>Cette commande ne concerne pas la visionneuse d’images vidéo.
 
-` config2= *`Paramètre prédéfini de société`*`
+` config2= *`companypreset`*`
 
 <table id="table_9B98C97485DD4DEB8A6ECBCE8DF6B886"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> Paramètre prédéfini</span> de société </span> </p> </td> 
-   <td colname="col2"> <p> Nom du <span class="keyword"> paramètre prédéfini de configuration de Adobe Analytics</span> . </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> companypreset </span> </span> </p> </td> 
+   <td colname="col2"> <p> Nom du paramètre prédéfini de configuration <span class="keyword"> Adobe Analytics</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,9 +5,13 @@ title: getDistinctMetadataValues
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 1987d8b0-64e4-49be-af45-98e4c6542e5f
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: https://experienceleague.adobe.com/k5qqGZml4RAzJ2UCgtsIbI0dpxwYnl1561znBOgBrv8
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 0f5947b3f28ba40cd479df463c843f7e99155d5e
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: 65
 ht-degree: 21%
 
 ---
@@ -34,18 +38,18 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| CompanyHandle | `xsd:string` | Oui | Identifiant de l’entreprise pour laquelle vous souhaitez obtenir des données. |
-| metadataKey | `xsd:string` | Oui | Clé de métadonnées en notation par points. |
+| companyHandle | `xsd:string` | Oui | Identifiant de la société pour laquelle vous souhaitez obtenir des données. |
+| metadataKey | `xsd:string` | Oui | Clé de métadonnées dans la notation par points. |
 
 **Output (getDistinctMetadataValuesReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| Tableau de valeurs | `types:ValueArray` | Oui | Valeurs du champ de métadonnées demandé. |
+| valueArray | `types:ValueArray` | Oui | Valeurs du champ de métadonnées demandé. |
 
 ## Exemples {#section-0189fa6fb31646cda5ce1b0bc4fcdf46}
 
-**Demander**
+**Requête**
 
 ```java
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"

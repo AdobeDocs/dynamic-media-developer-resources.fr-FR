@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f24edd53-4b21-4147-9b50-95e616279aa8
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/KMD5vdWHM8HYsCO6UtJpPpTBfg9VJufhvsFsfOJiHv8'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: 134
 ht-degree: 1%
 
 ---
@@ -20,7 +24,7 @@ L’enregistrement des fichiers de polices correspondants permet d’obtenir une
 
 La police spécifiée par `attribute::DefaultFont` est utilisée lorsqu’aucune police n’est spécifiée explicitement dans la chaîne RTF.
 
-La diffusion d’images prend en charge les polices TrueType, OpenType®, Adobe Type 1 (Windows uniquement).
+La diffusion d’images prend en charge les polices TrueType, ®, Adobe Type 1 (Windows uniquement).
 
 <!--
  THIS APPEARS TO BE VERY OLD OUTDATED INFORMATION; URL IS DEAD TOO ## Photofont&reg; font support {#section-74560ae898cf4708aba4c8b4093f5f00}

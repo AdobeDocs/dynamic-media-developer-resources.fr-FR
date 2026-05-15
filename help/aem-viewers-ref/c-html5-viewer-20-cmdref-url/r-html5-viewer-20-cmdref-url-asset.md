@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: edcd18b6-5292-44da-80be-b7f75ee4c48e
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/EylLoY4VQMafn65jykpRSh99ZuybGh5bx-RVhmJnyTE'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: 562
 ht-degree: 2%
 
 ---
@@ -62,7 +66,7 @@ ou
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> multiDimensionalSpinSet </span> </span> </p> </td> 
-   <td colname="col2"> <p>Spécifie une visionneuse à 360° multidimensionnelle explicite en utilisant la syntaxe suivante : </p> <p> <pre><code>(( horizontalSpinSet )&lbrack;&lbrack;,( horizontalSpinSet )&rbrack;)</code></pre> </p> <p> où <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> est une liste d’images séparées par des virgules pour un axe horizontal donné. Tous les <span class="codeph"> <span class="varname"> horizontauxSpinSet </span> </span> doivent avoir le même nombre d’images. </p> <p> <p>Remarque : cette fonctionnalité est prise en charge dans Adobe Dynamic Media Classic ; elle ne l’est pas dans Adobe Experience Manager Assets. </p> </p> </td> 
+   <td colname="col2"> <p>Spécifie une visionneuse à 360° multidimensionnelle explicite en utilisant la syntaxe suivante : </p> <p> <pre><code>(( horizontalSpinSet )&lbrack;[,( horizontalSpinSet )&rbrack;)</code></pre> </p> <p> où <span class="codeph"> <span class="varname"> horizontalSpinSet </span> </span> est une liste d’images séparées par des virgules pour un axe horizontal donné. Tous les <span class="codeph"> <span class="varname"> horizontauxSpinSet </span> </span> doivent avoir le même nombre d’images. </p> <p> <p>Remarque : cette fonctionnalité est prise en charge dans Adobe Dynamic Media Classic ; elle ne l’est pas dans Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> modificateurs </span> </span> </p> </td> 
@@ -103,8 +107,8 @@ ou
      <ul id="ul_3100F9356628498DA820C07F6F69CC9B"> 
       <li id="li_51B649A539F14510873CFDA85A6AA714"> <p> <span class="codeph"> advanced_image </span> </p> <p>Pour une seule image. </p> </li> 
       <li id="li_7E764D67294647C1A828F949E5ED1908"> <p> <span class="codeph"> advanced_swatchset </span> </p> <p>Pour un ensemble d’échantillons imbriqués. </p> </li> 
-      <li id="li_C942CED779B54110BCDC74188995FD5B"> <p> <span class="codeph"> de rotation </span> </p> <p>Pour une visionneuse à 360°. </p> </li> 
-      <li id="li_6EA5C54F078D4B24B44F1588BF083842"> <p> <span class="codeph"> vidéo </span> </p> <p>Pour une seule vidéo. </p> </li> 
+      <li id="li_C942CED779B54110BCDC74188995FD5B"> <p> </span> de rotation <span class="codeph"> </p> <p>Pour une visionneuse à 360°. </p> </li> 
+      <li id="li_6EA5C54F078D4B24B44F1588BF083842"> <p> </span> vidéo <span class="codeph"> </p> <p>Pour une seule vidéo. </p> </li> 
       <li id="li_8110FA7E0CAB4681A2D8C15F2A656E69"> <p> <span class="codeph"> video_set </span> </p> <p>Pour Les Visionneuses De Vidéos Adaptatives. </p> </li> 
      </ul> </p> <p> <p>Remarque : cette fonctionnalité est prise en charge dans Adobe Dynamic Media Classic ; elle ne l’est pas dans Adobe Experience Manager Assets. </p> </p> </td> 
   </tr> 

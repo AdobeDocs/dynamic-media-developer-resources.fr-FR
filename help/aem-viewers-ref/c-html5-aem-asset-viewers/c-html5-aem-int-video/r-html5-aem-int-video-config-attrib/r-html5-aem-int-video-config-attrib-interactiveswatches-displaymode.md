@@ -1,28 +1,32 @@
 ---
 title: InteractiveSwatches.displaymode
-description: Attribut Configuration pour la visionneuse de vidéos interactives.
+description: Attribut de configuration pour la visionneuse de vidéos interactives.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 9ddec664-80b5-49b6-b525-9e72b233c804
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+TQID: 'https://experienceleague.adobe.com/QolMhjpA5R4BZl5QjZqR2h2c9BGVcvJ2naWN8it2TkY'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '40'
+source-wordcount: 40
 ht-degree: 7%
 
 ---
 
 # InteractiveSwatches.displaymode{#interactiveswatches-displaymode}
 
-Attribut Configuration pour la visionneuse de vidéos interactives.
+Attribut de configuration pour la visionneuse de vidéos interactives.
 
 `[InteractiveSwatches.|<containerId>_interactiveSwatches.]displaymode=continuous|segment`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> continu|segment</span> </p> </td> 
-   <td colname="col2"> <p> Alimente les échantillons interactifs en continu avec des miniatures, quelles que soient les limites du segment, ou permet à l’espace vide de noter les limites des segments. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> continue|segment</span> </p> </td> 
+   <td colname="col2"> <p> Remplit en continu les nuanciers interactifs avec des miniatures, quelles que soient les limites du segment ou permet à l’espace vide de noter les limites du segment. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,18 +1,22 @@
 ---
-title: Chemin d’accès
+title: pathAttr
 description: Attributs de texte sur chemin.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fdf9274a-70d0-4692-a7a9-c108abb9ab84
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+TQID: 'https://experienceleague.adobe.com/A7uOgsYtOH6AmVOtbUfQDVJHwJEkCSXqBYavY9CbRkw'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: 154
 ht-degree: 1%
 
 ---
 
-# Chemin d’accès{#pathattr}
+# pathAttr{#pathattr}
 
 Attributs de texte sur chemin.
 
@@ -20,28 +24,28 @@ Attributs de texte sur chemin.
 
 <table id="simpletable_EC76095316AF4F07B1DDCC0D72B814CF"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> direction </span> </p> </td> 
-  <td class="stentry"> <p> <span class="codeph"></span> norme | <span class="codeph"> inverser</span> </p> </td> 
+  <td class="stentry"> <p> </span> de direction <span class="varname"> </p> </td> 
+  <td class="stentry"> <p> </span> de la norme <span class="codeph"> | </span> inverse <span class="codeph"> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> startPos </span> </p> </td> 
-  <td class="stentry"> <p>Position de début du texte sur le chemin (réel 0,0... 1.0). </p> </td> 
+  <td class="stentry"> <p>Position de début du texte sur le chemin (0,0...1,0 réel). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="varname"> endPos </span> </p> </td> 
-  <td class="stentry"> <p>Position de fin du texte sur le chemin (réel 0,0...&lt;2.0). </p> </td> 
+  <td class="stentry"> <p>Position de fin du texte sur le chemin (réel 0,0...&lt;2,0). </p> </td> 
  </tr> 
 </table>
 
-Spécifiez `norm` de dessiner du texte à partir du premier sommet du tracé et `reverse` de dessiner le texte dans la direction opposée, en commençant près du dernier sommet.
+Indiquez `norm` dessiner du texte commençant près du premier sommet de tracé et `reverse` pour dessiner du texte dans la direction opposée, commençant près du dernier sommet.
 
-*`startPos`* et *`endPos`* permettent d’ajuster l’emplacement du texte sur le tracé. 0,0 correspond au premier sommet du chemin et 1,0 au dernier sommet ; Les valeurs intermédiaires expriment la distance le long du tracé entre le premier et le dernier sommet.
+*`startPos`* et *`endPos`* permettent d’ajuster l’emplacement du texte sur le tracé. 0,0 correspond au premier sommet de la trajectoire et 1,0 au dernier sommet ; les valeurs intermédiaires expriment la distance le long de la trajectoire entre le premier et le dernier sommet.
 
 ## Propriétés {#section-80f266da4e2549d89f022a3f9ff4584d}
 
-Attribut de calque. Ignoré si le calque n’inclut `textPs=` pas les commandes and `textPath=` .
+Attribut de calque. Ignoré si le calque n’inclut pas les commandes `textPs=` et `textPath=`.
 
-*`startPos`* doit être supérieure ou égale à 0 et inférieure à 1,0. *`endPos`* doit être supérieur *`startPos`* et inférieur ou égal à 1,0 lorsqu’il est appliqué à un tracé ouvert, ou inférieur ou égal à ( *`startPos`* + 1,0) lorsqu’il est appliqué à un chemin fermé.
+*`startPos`* doit être supérieur ou égal à 0 et inférieur à 1,0. *`endPos`* doit être supérieur à *`startPos`* et inférieur ou égal à 1,0 lorsqu’il est appliqué à un chemin ouvert, ou inférieur ou égal à ( *`startPos`* + 1,0) lorsqu’il est appliqué à un chemin fermé.
 
 ## Par défaut {#section-3e757970885c45e7b6100e78dc08626f}
 

@@ -1,24 +1,28 @@
 ---
 description: Crée un format d’image.
 solution: Experience Manager
-title: Enregistrer le format d’image
+title: saveImageFormat
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: cafbd715-237b-4454-920e-643f0c84e208
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/kP25DoK-SIRIYh69I8tE07KH4dI-GFZf9JjUZjG-lFw'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: 146
 ht-degree: 10%
 
 ---
 
-# Enregistrer le format d’image{#saveimageformat}
+# saveImageFormat{#saveimageformat}
 
 Crée un format d’image.
 
 >[!NOTE]
 >
->La `urlModifier` valeur du champ doit être constituée d’un code XML valide. Par exemple, remplacez par `&` `&`. Obtenez la `urlModfier` valeur à partir de l’interface utilisateur IPS.
+>La valeur du champ `urlModifier` doit être composée d’un XML valide. Par exemple, remplacez `&` par `&`. Obtenez la valeur `urlModfier` à partir de l’interface utilisateur IPS.
 
 ## Types d’utilisateurs autorisés {#section-12c9d8d5933f4692bafb194060b4f882}
 
@@ -29,26 +33,26 @@ Crée un format d’image.
 
 ## Paramètres {#section-b1fc2fe8d606490ba3a2c979ab8bbd78}
 
-**Entrée (saveImageFormatParam)**
+**Input (saveImageFormatParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| CompanyHandle | `xsd:string` | Oui | Poignée de l’entreprise avec le format d’image que vous souhaitez utiliser. |
-| Poignée en format d’image | `xsd:string` | Non | Poignée de format d’image que vous souhaitez enregistrer. |
-| nom | `xsd:string` | Oui | Nom du format d’image. |
-| Modificateur d’url | `xsd:string` | Oui | Il peut s’agir de n’importe quelle chaîne de requête de protocole IPS. Le moyen le plus simple de générer un modificateur d’URL consiste à en créer un avec l’interface utilisateur IPS, puis à couper et coller la chaîne de requête. |
+| companyHandle | `xsd:string` | Oui | La poignée de la société avec le format d’image que vous souhaitez utiliser. |
+| imageFormatHandle | `xsd:string` | Non | Identifiant du format d’image à enregistrer. |
+| nom | `xsd:string` | Oui | Nom du format de l’image. |
+| urlModifier | `xsd:string` | Oui | Il peut s’agir de n’importe quelle chaîne de requête de protocole IPS. Le moyen le plus simple de générer un modificateur d’URL consiste à en créer un avec l’interface utilisateur IPS, puis à couper et coller la chaîne de requête. |
 
 **Output (saveImageFormatReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| Poignée en format d’image | `xsd:string` | Oui | Poignée au format d’image. |
+| imageFormatHandle | `xsd:string` | Oui | Gérer au format de l’image. |
 
 ## Exemples {#section-c7bd733212ef494297a97093f3af193f}
 
-Cet exemple de code crée un format d’image. Dans cet exemple, `urlModifier` a été déterminée par sa valeur dans l’interface utilisateur IPS avec un format HTML valide.
+Cet exemple de code crée un format d’image. Dans cet exemple, `urlModifier` a été déterminé par sa valeur dans l’interface utilisateur IPS avec un format HTML valide.
 
-**Demander**
+**Requête**
 
 ```java
 <saveImageFormatParam xmlns="http://www.scene7.com/IpsApi/xsd"> 

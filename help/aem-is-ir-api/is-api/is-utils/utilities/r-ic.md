@@ -5,10 +5,15 @@ title: ic
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ab653aae-532b-4f3d-8541-f6296fbf9172
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/ALpdD-ZyQbjzCD6-sexqaq2gMQZGAZvMd7MqaDC6Gyo'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 0%
+source-wordcount: 1258
+ht-degree: 1%
 
 ---
 
@@ -97,13 +102,13 @@ Si vous ne convertissez pas de grandes images, il n’est pas nécessaire de dé
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -dpi &lt; <span class="varname"> dpi </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Résolution d’impression (dpi) pour <span class="codeph"> <span class="varname"> de </span> destFile </span> ; si elle n’est pas spécifiée, la résolution d’impression de <span class="codeph"> </span> srcFile est copiée vers <span class="codeph"> <span class="varname"> </span> destFile </span>. </p> </td> 
+   <td colname="col2"> <p>Résolution d’impression (dpi) pour <span class="codeph"> </span> de </span> destFile <span class="varname"> ; si elle n’est pas spécifiée, la résolution d’impression de <span class="codeph"> </span> srcFile est copiée vers <span class="codeph"> </span> </span> destFile <span class="varname">. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -autorecadrage &lt; <span class="varname"> corner </span>&gt; &lt; <span class="varname"> mode </span>&gt; &lt; <span class="varname"> tolérance </span>&gt; &lt; <span class="varname"> infoFile </span>&gt; </span> </p> </td> 
    <td colname="col2"> <p>Calculez un rectangle de recadrage pour minimiser un arrière-plan de couleur unie. Aucune information de recadrage n’est générée si l’algorithme de recadrage automatique entraîne le recadrage de l’image entière. </p> <p>Pour calculer le rectangle de recadrage sans convertir l’image, spécifiez <span class="codeph"> -autocrup </span> sans <span class="codeph"> -convert </span> et sans <span class="codeph"> <span class="varname"> destFile.</span> </span></p>
 
-<p><i><b>corner</b></i> - ul | Url | ll | lr </p>
+<p><i><b>corner</b></i> - ul | ur | ll | lr </p>
    <p> Indique l’angle de l’image à utiliser comme point de départ. Ignoré si le mode est 1.</p>
    <p><i><b>mode</b></i> - 0 | 1</p>
    <p>Définissez la valeur sur 0 pour recadrer en fonction de la couleur du pixel d’angle spécifié ; fonctionne sur des données de couleur prémultipliées si des données alpha sont associées à l’image source.</p>
@@ -123,11 +128,11 @@ Si vous ne convertissez pas de grandes images, il n’est pas nécessaire de dé
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -imageprofile &lt; <span class="varname"> fichier </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Chemin et nom d’un fichier de profil ICC. Définit l’espace colorimétrique <span class="codeph"> <span class="varname"> sourceFile </span> et doit correspondre </span> type de pixel. Ne doit être spécifié que si aucun profil n’est incorporé dans <span class="codeph"> <span class="varname"> sourceFile </span> </span>, car il remplace le profil incorporé. </p> </td> 
+   <td colname="col2"> <p>Chemin et nom d’un fichier de profil ICC. Définit l’espace colorimétrique <span class="codeph"> </span> sourceFile <span class="varname"> et doit correspondre </span> type de pixel. Ne doit être spécifié que si aucun profil n’est incorporé dans <span class="codeph"> </span> sourceFile </span> <span class="varname">, car il remplace le profil incorporé. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -viewprofile &lt; <span class="varname"> fichier </span>&gt; </span> </p> </td> 
-   <td colname="col2"> <p>Chemin et nom d’un fichier de profil ICC. Définit le type de pixel et l’espace colorimétrique <span class="codeph"> <span class="varname"> de </span> destFile </span>. IC convertit ce profil si <span class="codeph"> <span class="varname"> sourceFile </span> </span> a un profil incorporé ou si <span class="codeph"> -imageprofile </span> est également spécifié. </p> </td> 
+   <td colname="col2"> <p>Chemin et nom d’un fichier de profil ICC. Définit le type de pixel et l’espace colorimétrique <span class="codeph"> </span> de </span> destFile <span class="varname">. IC convertit ce profil si <span class="codeph"> <span class="varname"> sourceFile </span> </span> a un profil incorporé ou si <span class="codeph"> -imageprofile </span> est également spécifié. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> -intentPerceptual </span> </p> </td> 
@@ -254,12 +259,12 @@ Le tableau suivant répertorie les formats de fichiers image et les options de f
    <td> <b> BMP</b> <p> (Bitmap Windows) </p> </td> 
    <td> <p> RGB | indexé </p> </td> 
    <td> <p> 1 | 5/6 | 8 </p> </td> 
-   <td> <p> non compressé | RÈGLE </p> </td> 
+   <td> <p> non compressé | RLE </p> </td> 
    <td> <p> 5/6 bits/canal indique la prise en charge de RGB 16 bits (5-5-5 et 5-6-5 bits/canal). </p> </td> 
   </tr> 
   <tr> 
    <td> <b> EPS</b> <p> (Postscript Encapsulé) </p> </td> 
-   <td> <p> CMJN | RGB | grise </p> </td> 
+   <td> <p> CMJN | RGB | gris </p> </td> 
    <td> <p> 8 </p> </td> 
    <td> <p> ASCII | ASCII85 | Binaire | JPEG </p> </td> 
    <td> <p> Seuls les fichiers EPS générés par Photoshop sont pris en charge. </p> </td> 
@@ -272,7 +277,7 @@ Le tableau suivant répertorie les formats de fichiers image et les options de f
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p> CompuServe </p> <b>GIF</b> </td> 
+   <td> <p> CompuServe </p> <b></b> </td> 
    <td> <p> indexé </p> </td> 
    <td> <p> 8 </p> </td> 
    <td> <p> DROIT </p> </td> 
@@ -280,16 +285,16 @@ Le tableau suivant répertorie les formats de fichiers image et les options de f
   </tr> 
   <tr> 
    <td> <b> JPG</b> <p> (JFIF/JPEG) </p> </td> 
-   <td> <p> CMJN | RGB | grise </p> </td> 
+   <td> <p> CMJN | RGB | gris </p> </td> 
    <td> <p> 8 </p> </td> 
    <td> <p> JPEG </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> Photoshop </p> <b>PSD</b> </td> 
-   <td> <p> CMJN | CMJA | RGB | RGBA | grise | grayA </p> </td> 
+   <td> <p> Photoshop </p> <b></b> </td> 
+   <td> <p> CMJN | CMJN | RGB | RGBA | gris | grisA </p> </td> 
    <td> <p> 1 | 8 | 16 </p> </td> 
-   <td> <p> non compressé | compressé </p> </td> 
+   <td> <p> décompressé | compressé </p> </td> 
    <td> <p> Image fusionnée uniquement : les calques et les canaux supplémentaires sont ignorés. </p> </td> 
   </tr> 
   <tr> 
@@ -301,16 +306,16 @@ Le tableau suivant répertorie les formats de fichiers image et les options de f
   </tr> 
   <tr> 
    <td> <b> PNG</b> </td> 
-   <td> <p> RGB | RGBA | grise | grayA | indexé </p> </td> 
+   <td> <p> RGB | RGBA | gris | grisA | indexé </p> </td> 
    <td> <p> 1 | 2 | 4 | 8 | 16 </p> </td> 
    <td> <p> compressé </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <b> TIFF</b> </td> 
-   <td> <p> CMJN | CMJA | RGB | RGBA | grise | grayA | indexé </p> </td> 
+   <td> <p> CMJN | CMJN | RGB | RGBA | gris | a | indexé </p> </td> 
    <td> <p> 1 | 8 | 16 </p> </td> 
-   <td> <p> non compressé | ZIP | DROIT | JPEG | RÈGLE CCITT | CCITT G3 | CCITT G4 | Packbits </p> </td> 
+   <td> <p> non compressé | ZIP | LZW | JPEG | CCITT RLE | CCITT G3 | CCITT G4 | Packbits </p> </td> 
    <td> <p> A l’exception de la première couche alpha associée, les couches supplémentaires sont ignorées. </p> </td> 
   </tr> 
  </tbody> 

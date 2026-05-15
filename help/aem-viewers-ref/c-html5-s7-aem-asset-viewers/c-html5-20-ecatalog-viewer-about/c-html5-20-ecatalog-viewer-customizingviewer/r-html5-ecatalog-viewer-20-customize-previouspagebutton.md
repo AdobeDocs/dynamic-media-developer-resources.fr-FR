@@ -1,26 +1,30 @@
 ---
 title: Bouton Page précédente
-description: L’utilisateur clique ou appuie sur ce bouton pour revenir à la page précédente du catalogue. Ce bouton apparaît dans la barre de contrôle principale. Ce bouton ne s’affiche pas sur les téléphones mobiles pour économiser l’espace de l’écran. Vous pouvez redimensionner, habiller et positionner ce bouton à l’aide de CSS.
+description: Cliquer ou appuyer sur ce bouton redirige l’utilisateur ou l’utilisatrice vers la page précédente du catalogue. Ce bouton apparaît dans la barre de contrôle principale. Ce bouton n'est pas affiché sur les téléphones mobiles pour économiser l'espace de l'écran. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: cc0e8c18-f9c1-4451-9fbe-3b082f78a7ec
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+TQID: 'https://experienceleague.adobe.com/0MlKi7z2CejxCd-jetN79KXUQZy8Uxa40HWhOUP5z7g'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: 296
 ht-degree: 0%
 
 ---
 
 # Bouton Page précédente{#previous-page-button}
 
-Lorsque vous sélectionnez ou appuyez sur ce bouton, l’utilisateur arrive à la page précédente du catalogue. Ce bouton apparaît dans la barre de contrôle principale. Ce bouton ne s’affiche pas sur les téléphones mobiles pour économiser l’espace de l’écran. Vous pouvez redimensionner, habiller et positionner ce bouton à l’aide de CSS.
+Lorsque l’utilisateur sélectionne ou appuie sur ce bouton, il accède à la page précédente du catalogue. Ce bouton apparaît dans la barre de contrôle principale. Ce bouton n&#39;est pas affiché sur les téléphones mobiles pour économiser l&#39;espace de l&#39;écran. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
 
 <!--<a id="section_6C008EE11212461FA744F2540D38C295"></a>-->
 
-**Propriétés CSS de la zone principale de la visionneuse**
+**Propriétés CSS de la zone de visionneuse principale**
 
-L’aspect du bouton est contrôlé par le sélecteur de classe CSS suivant :
+L’aspect du bouton est contrôlé avec le sélecteur de classe CSS suivant :
 
 `.s7ecatalogviewer .s7toolbarleftbutton .s7panleftbutton`
 
@@ -33,47 +37,47 @@ L’aspect du bouton est contrôlé par le sélecteur de classe CSS suivant :
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Retour au début </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure supérieure de la barre de contrôle principale, y compris la rembourrage. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure supérieure de la barre de contrôle principale, marge intérieure incluse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Droite </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure droite de la barre de contrôle principale, y compris la rembourrage. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> droit </span> </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure droite de la barre de contrôle principale, marge intérieure incluse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Gauche </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure gauche de la barre de contrôle principale, y compris la remplissage. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> gauche </span> </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure gauche de la barre de contrôle principale, y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> fond </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure inférieure de la barre de contrôle principale, y compris la remplissage. </p> </td> 
+   <td colname="col1"> <p> </span> inférieur <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure inférieure de la barre de contrôle principale, y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Largeur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
    <td colname="col2"> <p>Largeur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> hauteur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de hauteur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan </span> </p> </td> 
-   <td colname="col2"> <p>Image affichée pour un état donné du bouton. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> le </span> image d’arrière-plan </p> </td> 
+   <td colname="col2"> <p>Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> position de l’arrière-plan </span> </p> </td> 
-   <td colname="col2"> <p> Position à l’intérieur du sprite de l’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites </a>CSS. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> la position de l’arrière-plan </span> </p> </td> 
+   <td colname="col2"> <p> Positionnez à l’intérieur d’un sprite d’illustration si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> des </a> Sprites CSS. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ce bouton prend en charge le sélecteur d’attributs `state` , qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge le sélecteur d&#39;attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
-L’info-bulle du bouton peut être localisée. Pour plus d’informations, voir [Localisation des éléments](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) de l’interface utilisateur.
+L’info-bulle du bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 
-Exemple : pour configurer un bouton Page précédente de 28 x 28 pixels et positionné à 4 pixels du bas et à 250 pixels du bord droit de la barre de contrôle principale. Enfin, affiche une image différente pour chacun des quatre états différents du bouton.
+Exemple - Pour configurer un bouton de page précédente de 28 x 28 pixels positionné à 4 pixels du bas et à 250 pixels du bord droit de la barre de contrôle principale. Enfin, affiche une image différente pour chacun des quatre états de bouton différents.
 
 ```
 .s7ecatalogviewer .s7toolbarleftbutton .s7panleftbutton { 

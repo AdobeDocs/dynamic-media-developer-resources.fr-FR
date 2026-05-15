@@ -1,24 +1,28 @@
 ---
-title: Qualité Jpeg
-description: Qualité d’encodage JPEG par défaut. Indique le paramètre de qualité par défaut des images de réponse codées au format JPEG.
+title: JpegQuality
+description: Qualité de codage JPEG par défaut. Indique le paramètre de qualité par défaut des images de réponse codées au format JPEG.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1a699a9e-dbf6-4e01-95aa-37a6eb83f4df
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+TQID: 'https://experienceleague.adobe.com/h7SBTIJh-a1Z0e3hfMA5TSXDI3ft809TrWyCggl8loU'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: 83
 ht-degree: 3%
 
 ---
 
-# Qualité Jpeg{#jpegquality}
+# JpegQuality{#jpegquality}
 
-Qualité d’encodage JPEG par défaut. Indique le paramètre de qualité par défaut des images de réponse codées au format JPEG.
+Qualité de codage JPEG par défaut. Indique le paramètre de qualité par défaut des images de réponse codées au format JPEG.
 
 ## Propriétés {#section-8b1ed3e0acaa4fbfa050b74c00b9d4dc}
 
-Nombre entier et indicateur, séparés par une virgule. La première valeur est comprise dans la plage 1..100 et définit la qualité. La deuxième valeur peut être `0` pour le comportement normal, ou `1` pour désactiver le sous-échantillonnage chromatique utilisé par les codeurs JPEG.
+Nombre entier et indicateur, séparés par une virgule. La première valeur est comprise dans la plage 1..100 et définit la qualité. La seconde valeur peut être `0` pour un comportement normal, ou `1` pour désactiver le sous-échantillonnage de résolution chromatique utilisé par les encodeurs JPEG.
 
 ## Par défaut {#section-60900c0fb8c54444b2361513232514db}
 

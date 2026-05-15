@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 79f7e356-55d1-46e1-b85a-2e73633c9404
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/A5FMzFK6gJ-OCp7WmU7UhTigP4x7ls5sbKTKQqIYLd8'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: 202
 ht-degree: 0%
 
 ---
@@ -36,7 +40,7 @@ Selon la méthode de publication de la vidéo Dynamic Media que vous utilisez da
 
 -->
 
-Voir aussi [Liaison d’URL à une application web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=fr#dynamic).
+Voir aussi [Liaison d’URL à une application web](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=en#dynamic).
 
 * Si vous publiez une vidéo Dynamic Media avec du code intégré, vous ajoutez `Video360Player.ssl` à la liste des autres paramètres de configuration de la visionneuse dans le fragment de code intégré.
 
@@ -71,4 +75,4 @@ Voir aussi [Liaison d’URL à une application web](https://experienceleague.ado
 
 -->
 
-Voir aussi [&#x200B; Incorporation de la vidéo dans une page web &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html?lang=fr#dynamic)
+Voir aussi [ Incorporation de la vidéo dans une page web ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/linking-urls-to-yourwebapplication.html#dynamic)

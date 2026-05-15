@@ -1,37 +1,41 @@
 ---
-description: JavaScript référence de l’API pour la visionneuse vidéo.
+description: Référence de l’API JavaScript pour la visionneuse de vidéos.
 solution: Experience Manager
 title: setAsset
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 5fd80f8d-321e-47f4-9fb2-65e7bd63be58
-source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
+TQID: 'https://experienceleague.adobe.com/lwSvqbGdXYM1txYvK2of-67envHzyEs4UMsnVmkPKj8'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: 117
 ht-degree: 1%
 
 ---
 
 # setAsset{#setasset}
 
-JavaScript référence de l’API pour la visionneuse vidéo.
+Référence de l’API JavaScript pour la visionneuse de vidéos.
 
-[!DNL ` setAsset( *`atout`*)`]
+[!DNL ` setAsset( *`ressource`*)`]
 
 <table id="table_896DFF34A68A403DB93A6D597461A573"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> atout </span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph">{ String </span>} nouvel ID de ressource ou visionneuse d’images explicite avec les modificateurs facultatifs de diffusion d’images ajoutés après <span class="codeph"> ? </span>. </p> <p> Les images qui utilisent IR (Image Rendering) ou UGC (User-Generated Content) ne sont pas prises en charge par cette visionneuse. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> asset </span> </span> </p> </td> 
+   <td colname="col2"> <p>{ <span class="codeph"> String </span>} nouvel identifiant de ressource ou visionneuse d’images explicite avec des modificateurs de diffusion d’images facultatifs ajoutés après <span class="codeph"> ? </span>. </p> <p> Les images qui utilisent le rendu d’image (IR) ou le contenu créé par l’utilisateur (UGC) ne sont pas pris en charge par cette visionneuse. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Définit une nouvelle ressource. Vous pouvez appeler ce paramètre à tout moment, avant ou après [!DNL `init()`]. Si elle est appelée après [!DNL `init()`], la visionneuse échange la ressource au moment de l’exécution.
+Définit une nouvelle ressource. Vous pouvez appeler ce paramètre à tout moment, avant ou après la [!DNL `init()`]. Si elle est appelée après [!DNL `init()`], la visionneuse permute la ressource au moment de l’exécution.
 
 Voir aussi [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-javascriptapiref/r-html5-ecatalog-viewer-20-javascriptapiref-init.md#reference-aee94dd92a28410784f7a1792e28683b).
 
-## Retourne {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Renvoie {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
 Aucune
 
@@ -43,13 +47,13 @@ Référence unique à une visionneuse d’images définie dans un catalogue :
  <instance>.setAsset("Viewers/Pluralist")
 ```
 
-Visionneuse d’images explicite, avec pages précombinées :
+Visionneuse d’images explicite, avec des pages pré-combinées :
 
 ```
  <instance>.setAsset("Scene7SharedAssets/Backpack_B,Scene7SharedAssets/Backpack_C,Scene7SharedAssets/Backpack_H,Scene7SharedAssets/Backpack_J")
 ```
 
-Visionneuse d’images explicite, avec images de page individuelles :
+Visionneuse d’images explicite avec des images de page individuelles :
 
 ```
  <instance>.setAsset("Scene7SharedAssets/AdobeScene7_Overview_US-1,Scene7SharedAssets/AdobeScene7_Overview_US-2:AdobeScene7_Overview_US-3,Scene7SharedAssets/AdobeScene7_Overview_US-4")

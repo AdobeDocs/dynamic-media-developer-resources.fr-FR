@@ -1,26 +1,30 @@
 ---
 title: Localisation des éléments de l’interface utilisateur
-description: Certains contenus affichés par la visionneuse de catalogue électronique sont sujets à localisation, notamment les boutons de zoom, les boutons de modification de page, les boutons de miniature, les boutons plein écran, les boutons de fermeture et les boutons de barre de défilement.
+description: Certains contenus affichés par la visionneuse de catalogue électronique sont sujets à la localisation, notamment les boutons de zoom, de changement de page, de miniature, plein écran, de fermeture et de barre de défilement.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 1d7e9eba-b30c-4f85-b551-6842f73dc22c
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/ZrDLTtAJ76L1Cqt5ZuH2IP17Vjp-ZIwYlq-29WeJtJA'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: 915
 ht-degree: 0%
 
 ---
 
 # Localisation des éléments de l’interface utilisateur{#localization-of-user-interface-elements}
 
-Certains contenus affichés par la visionneuse de catalogue électronique sont sujets à localisation, notamment les boutons de zoom, les boutons de modification de page, les boutons de miniature, les boutons plein écran, les boutons de fermeture et les boutons de barre de défilement.
+Certains contenus affichés par la visionneuse de catalogue électronique sont sujets à la localisation, notamment les boutons de zoom, de changement de page, de miniature, plein écran, de fermeture et de barre de défilement.
 
-Chaque contenu textuel de la visionneuse qui peut être localisé est représenté par un identificateur spécial du SDK de la visionneuse appelé SYMBOL. Tout SYMBOLE comporte une valeur de texte associée par défaut pour les paramètres régionaux anglais ( `"en"`) fournis avec la visionneuse prête à l’emploi et peut également comporter des valeurs définies par l’utilisateur pour autant de paramètres régionaux que nécessaire.
+Chaque contenu textuel de la visionneuse qui peut être localisé est représenté par un identifiant SDK de visionneuse spécial appelé SYMBOL. Tout SYMBOLE comporte une valeur de texte associée par défaut pour les paramètres régionaux anglais ( `"en"`) fournis avec la visionneuse prête à l’emploi et peut également comporter des valeurs définies par l’utilisateur pour autant de paramètres régionaux que nécessaire.
 
-Lorsque la visionneuse démarre, elle vérifie les paramètres régionaux actuels pour voir s’il existe une valeur définie par l’utilisateur pour chaque SYMBOL pris en charge dans la langue. Si c’est le cas, elle utilise la valeur définie par l’utilisateur ; Sinon, il revient au texte par défaut prêt à l’emploi.
+Lorsque la visionneuse démarre, elle vérifie le paramètre régional en cours pour voir s’il existe une valeur définie par l’utilisateur pour chaque SYMBOLE pris en charge dans le paramètre régional. Si tel est le cas, il utilise la valeur définie par l’utilisateur ou l’utilisatrice ; dans le cas contraire, il revient au texte par défaut prêt à l’emploi.
 
-Les données de localisation définies par l’utilisateur peuvent être transmises à la visionneuse en tant qu’objet JSON de localisation. Un tel objet contient la liste des paramètres régionaux pris en charge, les valeurs de texte SYMBOL pour chaque paramètre régional et les paramètres régionaux par défaut.
+Les données de localisation définies par l’utilisateur peuvent être transmises à la visionneuse en tant qu’objet JSON de localisation. Cet objet contient la liste des paramètres régionaux pris en charge, les valeurs de texte SYMBOL pour chaque paramètre régional et le paramètre régional par défaut.
 
 Exemple d’un tel objet de localisation :
 
@@ -38,7 +42,7 @@ defaultLocale:"en"
 }
 ```
 
-Dans l’exemple ci-dessus, l’objet de localisation définit deux paramètres régionaux ( `"en"` et `"fr"`) et fournit la localisation de deux éléments d’interface utilisateur dans chaque langue.
+Dans l’exemple ci-dessus, l’objet de localisation définit deux paramètres régionaux ( `"en"` et `"fr"`) et fournit la localisation de deux éléments de l’interface utilisateur dans chaque paramètre régional.
 
 Le code de la page web doit transmettre cet objet de localisation au constructeur de la visionneuse en tant que valeur `localizedTexts` champ de l’objet de configuration. Une autre option consiste à transmettre l’objet de localisation en appelant `setLocalizedTexts(localizationInfo)` méthode .
 
@@ -54,11 +58,11 @@ Les symboles suivants sont pris en charge (en supposant que containerId soit l�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Container.LABEL </span> </p> </td> 
-   <td colname="col2"> <p>Étiquette ARIA pour l’élément de visionneuse de niveau supérieur. </p> </td> 
+   <td colname="col2"> <p>Libellé ARIA pour l’élément de visionneuse de niveau supérieur. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PageView.ROLE_DESCRIPTION </span> </p> </td> 
-   <td colname="col2"> <p>Description du rôle ARIA pour le composant Vue principale. </p> </td> 
+   <td colname="col2"> <p>Description du rôle ARIA pour le composant de vue principal. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PageView.USAGE_HINT </span> </p> </td> 
@@ -82,7 +86,7 @@ Les symboles suivants sont pris en charge (en supposant que containerId soit l�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
-   <td colname="col2"> <p>Bouton plein écran à l’état normal. </p> </td> 
+   <td colname="col2"> <p>bouton plein écran à l’état normal. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_UNSELECTED </span> </p> </td> 
@@ -142,27 +146,27 @@ Les symboles suivants sont pris en charge (en supposant que containerId soit l�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> InfoPanelPopup.TOOLTIP_CLOSE </span> </p> </td> 
-   <td colname="col2"> <p>Bouton Fermer du panneau d’informations. </p> </td> 
+   <td colname="col2"> <p>Bouton Fermer le panneau Informations. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> SocialShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Social outil de partage. </p> </td> 
+   <td colname="col2"> <p>Outil de partage social. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Bouton de partage d’email. </p> </td> 
+   <td colname="col2"> <p>Bouton Partager par e-mail. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.HEADER </span> </p> </td> 
-   <td colname="col2"> <p>En-tête de boîte de dialogue de courrier électronique. </p> </td> 
+   <td colname="col2"> <p>En-tête de la boîte de dialogue Email. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_HEADER_CLOSE </span> </p> </td> 
-   <td colname="col2"> <p>Bouton de fermeture de la boîte de dialogue Email en haut à droite. </p> </td> 
+   <td colname="col2"> <p>Bouton de fermeture de la boîte de dialogue en haut à droite de l’e-mail. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.INVALID_ADDRESS </span> </p> </td> 
-   <td colname="col2"> <p>Message d’erreur affiché au cas où l’adresse électronique serait incorrecte. </p> </td> 
+   <td colname="col2"> <p>Message d’erreur affiché si l’adresse e-mail est incorrecte. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TO </span> </p> </td> 
@@ -174,11 +178,11 @@ Les symboles suivants sont pris en charge (en supposant que containerId soit l�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.ADD </span> </p> </td> 
-   <td colname="col2"> <p>Ajoutez un autre bouton d’adresse électronique. </p> </td> 
+   <td colname="col2"> <p>Bouton Ajouter une autre adresse e-mail . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.FROM </span> </p> </td> 
-   <td colname="col2"> <p>Dans le champ de saisie. </p> </td> 
+   <td colname="col2"> <p>Champ de saisie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.MESSAGE </span> </p> </td> 
@@ -186,11 +190,11 @@ Les symboles suivants sont pris en charge (en supposant que containerId soit l�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_REMOVE </span> </p> </td> 
-   <td colname="col2"> <p>Bouton Supprimer l’adresse électronique. </p> </td> 
+   <td colname="col2"> <p>Bouton Supprimer l’adresse e-mail . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.CANCEL </span> </p> </td> 
-   <td colname="col2"> <p>Légende du bouton Annuler. </p> </td> 
+   <td colname="col2"> <p>Légende pour le bouton Annuler. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_CANCEL </span> </p> </td> 
@@ -198,15 +202,15 @@ Les symboles suivants sont pris en charge (en supposant que containerId soit l�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.ACTION </span> </p> </td> 
-   <td colname="col2"> <p>Légende du bouton Sélectionner tout. </p> </td> 
+   <td colname="col2"> <p>Légende pour le bouton Tout sélectionner . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmbedShare.TOOLTIP_ACTION </span> </p> </td> 
-   <td colname="col2"> <p>Cliquez sur le bouton Tout. </p> </td> 
+   <td colname="col2"> <p>Bouton Tout sélectionner. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.CLOSE </span> </p> </td> 
-   <td colname="col2"> <p>Légende du bouton de fermeture affiché dans la partie inférieure de la boîte de dialogue après l’envoi du formulaire. </p> </td> 
+   <td colname="col2"> <p>Légende pour le bouton Fermer affiché au bas de la boîte de dialogue après l’envoi du formulaire. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> EmailShare.TOOLTIP_CLOSE </span> </p> </td> 
@@ -262,15 +266,15 @@ Les symboles suivants sont pris en charge (en supposant que containerId soit l�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Bouton de partage de lien. </p> </td> 
+   <td colname="col2"> <p>Bouton Partager un lien. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.HEADER </span> </p> </td> 
-   <td colname="col2"> <p>En-tête de la boîte de dialogue Lien. </p> </td> 
+   <td colname="col2"> <p>En-tête de boîte de dialogue Lien. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_HEADER_CLOSE </span> </p> </td> 
-   <td colname="col2"> <p>Bouton de fermeture de la boîte de dialogue Lien, en haut à droite. </p> </td> 
+   <td colname="col2"> <p>Bouton Fermer dans le coin supérieur droit de la boîte de dialogue Lien. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.DESCRIPTION </span> </p> </td> 
@@ -278,11 +282,11 @@ Les symboles suivants sont pris en charge (en supposant que containerId soit l�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.CANCEL </span> </p> </td> 
-   <td colname="col2"> <p>Légende du bouton Annuler. </p> </td> 
+   <td colname="col2"> <p>Légende pour le bouton Annuler. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.TOOLTIP_CANCEL </span> </p> </td> 
-   <td colname="col2"> <p>Bouton Annuler. </p> </td> 
+   <td colname="col2"> <p>Bouton Annuler </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> LinkShare.ACTION </span> </p> </td> 
@@ -298,7 +302,7 @@ Les symboles suivants sont pris en charge (en supposant que containerId soit l�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> TwitterShare.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Bouton de partage Twitter. </p> </td> 
+   <td colname="col2"> <p>Bouton Partager Twitter. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.TOOLTIP </span> </p> </td> 
@@ -306,19 +310,19 @@ Les symboles suivants sont pris en charge (en supposant que containerId soit l�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.HEADER </span> </p> </td> 
-   <td colname="col2"> <p>En-tête de la boîte de dialogue d’impression. </p> </td> 
+   <td colname="col2"> <p>Imprimer l’en-tête de la boîte de dialogue. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.TOOLTIP_HEADER_CLOSE </span> </p> </td> 
-   <td colname="col2"> <p>Bouton de fermeture de la boîte de dialogue Imprimer en haut à droite. </p> </td> 
+   <td colname="col2"> <p>Bouton Fermer en haut à droite de la boîte de dialogue Imprimer. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.PRINT_RANGE </span> </p> </td> 
-   <td colname="col2"> <p>Libellé de la section « Sélectionner des pages imprimées ». </p> </td> 
+   <td colname="col2"> <p>Libellé de la section « Sélectionner les pages d’impression ». </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.PRINT_RANGE_CURRENT </span> </p> </td> 
-   <td colname="col2"> <p>Légende du bouton radio « Pages actives ». </p> </td> 
+   <td colname="col2"> <p>Légende pour le bouton radio « Pages actives ». </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Print.PRINT_RANGE_FROM </span> </p> </td> 
@@ -390,15 +394,15 @@ Les symboles suivants sont pris en charge (en supposant que containerId soit l�
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FavorisEffect.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Une seule icône favorite. </p> </td> 
+   <td colname="col2"> <p>Icône de favori unique. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_XX[_YY] </span> </p> </td> 
-   <td colname="col2"> <p>Libellé de page généré par la visionneuse au moment du chargement. </p> <p>Le nom de ce symbole est un modèle, où <span class="codeph"> XX </span> est un index de planche à base zéro en orientation paysage, et YY <span class="codeph"> facultatif </span> est un index de page à base zéro à l’intérieur de la planche ciblée par <span class="codeph"> XX</span>. </p> <p>S’applique uniquement à la ressource chargée initialement ; ignoré si un élément est modifié à l’aide de l’appel d’API <span class="codeph"> setAsset(). </span> </p> </td> 
+   <td colname="col2"> <p>Libellé de page généré par la visionneuse au moment du chargement. </p> <p>Le nom de ce symbole est un modèle, où <span class="codeph"> XX </span> est un index de page à base zéro en orientation paysage, et <span class="codeph"> facultatif YY </span> est un index de page à base zéro à l’intérieur de la page ciblée par <span class="codeph"> XX </span>. </p> <p>S’applique uniquement à la ressource chargée initialement. Ignoré si une ressource est modifiée à l’aide de l’appel API </span> setAsset() <span class="codeph">. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MediaSet.LABEL_DELIM </span> </p> </td> 
-   <td colname="col2"> <p> Caractère utilisé comme délimiteur d’étiquettes de page dans le cas où des étiquettes sont définies pour des pages gauche et droite dans une planche. </p> </td> 
+   <td colname="col2"> <p> Caractère utilisé comme délimiteur de libellés de page lorsque les libellés sont définis pour les pages de gauche et de droite d’une planche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollLeftRightButton.TOOLTIP_SELECTED </span> </p> </td> 

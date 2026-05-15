@@ -1,20 +1,24 @@
 ---
-description: Crée un plan du site de vidéo.
+description: Crée un plan de site vidéo.
 solution: Experience Manager
-title: Créer une tâche de plan de site vidéo
+title: CreateVideoSitemapJob
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 2af7c949-46cf-4570-9043-1b6296a2e467
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/zZROWah-NVfAGbdOnzilzeziyziRxLrT80A8-sq3B5k'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: 47
 ht-degree: 10%
 
 ---
 
 # [!DNL CreateVideoSitemapJob]{#createvideositemapjob}
 
-Crée un plan du site de vidéo.
+Crée un plan de site vidéo.
 
 Syntaxe
 
@@ -30,9 +34,9 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> Mise à jour forcée</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :booléen</span> </td> 
-   <td colname="col3">Génère le plan de site lorsqu’il est défini sur <span class="codeph"> true</span>. <p><p>Remarque : Si la configuration de génération de sitemap est définie sur manuelle et <span class="codeph"> que forceUpdate</span> n’est pas défini, le plan de site n’est pas généré. </p></p></td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> forceUpdate</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col3">Génère le plan de site lorsqu’il est défini sur <span class="codeph"> true</span>. <p><p>Remarque : si la configuration de la génération du plan de site est définie sur manuelle et <span class="codeph"> forceUpdate</span> n'est pas définie, le plan de site n'est pas généré. </p></p></td> 
   </tr> 
  </tbody> 
 </table>

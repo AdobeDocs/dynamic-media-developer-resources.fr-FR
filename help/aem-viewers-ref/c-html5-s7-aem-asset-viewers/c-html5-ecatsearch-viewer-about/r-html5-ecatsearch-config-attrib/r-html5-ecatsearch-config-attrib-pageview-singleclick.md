@@ -5,9 +5,13 @@ title: PageView.singleclick
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: ffe77be7-bf12-4e9d-9355-2857d366d14e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/5EsGuAIb9PP4apehGQmEvHT4blmS5I9K--bSALwwpM8'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: 94
 ht-degree: 3%
 
 ---
@@ -19,8 +23,8 @@ ht-degree: 3%
 <table id="table_5654736F216D4ABC9FC783F83E0BBA03"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> aucun|zoom|réinitialisation|réinitialisationZoomReset </span> </p> </td> 
-   <td colname="col2"> <p> Configure le mappage des actions d’un simple clic/appuyer sur le zoom. La définition sur <span class="codeph"> aucun </span> désactive le zoom d’un clic/appuyer unique. Si vous souhaitez <span class="codeph"> zoomer </span> , cliquer sur l’image effectue un zoom d’un pas de zoom. CTRL+clic effectue un zoom arrière d’un pas de zoom. Le paramètre de <span class="codeph"> réinitialisation </span> provoque un simple clic sur l’image pour réinitialiser le zoom au niveau de zoom initial. Pour <span class="codeph"> zoomReset </span>, la réinitialisation est appliquée si le facteur de zoom actuel est égal ou supérieur à la limite spécifiée, sinon le zoom est appliqué. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> none|zoom|reset|zoomReset </span> </p> </td> 
+   <td colname="col2"> <p> Configure le mappage des actions de zoom en cliquant ou appuyant une seule fois. Si vous définissez sur <span class="codeph"> aucun </span>, le zoom est désactivé en un seul clic ou en appuyant dessus. S’il est défini sur <span class="codeph"> zoom </span> que vous cliquez sur l’image effectue un zoom avant d’une étape de zoom ; Ctrl+Clic effectue un zoom arrière d’une étape de zoom avant. Si vous définissez sur <span class="codeph"> réinitialisation </span>, un seul clic sur l’image réinitialise le zoom au niveau de zoom initial. Pour <span class="codeph"> paramètre zoomReset </span>, la réinitialisation est appliquée si le facteur de zoom actuel est égal ou supérieur à la limite spécifiée, sinon le zoom est appliqué. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -31,7 +35,7 @@ Facultatif.
 
 ## Par défaut {#section-58cbfe8a90214c49bbbfb7e83c569d75}
 
-[!DNL `zoomReset`] sur les ordinateurs de bureau ; [!DNL `none`] sur les appareils tactiles.
+[!DNL `zoomReset`] sur les ordinateurs de bureau ; [!DNL `none`] sur les appareils tactiles.
 
 ## Exemple {#section-5f63781afec94e0189e135995f686c20}
 

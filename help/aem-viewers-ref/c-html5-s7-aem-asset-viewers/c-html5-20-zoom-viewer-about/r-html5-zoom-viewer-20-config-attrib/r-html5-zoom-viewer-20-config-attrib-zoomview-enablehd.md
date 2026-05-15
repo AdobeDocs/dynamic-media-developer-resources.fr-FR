@@ -5,9 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 340a9614-b9dd-4aee-bd73-b99f6576930e
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+TQID: 'https://experienceleague.adobe.com/KfNkSPrxNQS2-O3gmAU-GtzYNQ-kCMTsG8Pu0NH-kzU'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: 307
 ht-degree: 1%
 
 ---
@@ -39,7 +44,7 @@ Facultatif.
 
 ## Exemple {#section-bce98c31f08a4a0ab262fab7f95ba020}
 
-Voici les résultats attendus lorsque vous utilisez cet attribut de configuration avec la visionneuse et que la taille de la visionneuse est de 1000 x 1000 :
+Voici les résultats attendus lorsque vous utilisez cet attribut de configuration avec la visionneuse et que la taille de la visionneuse est de 1 000 x 1 000 :
 
 <table id="table_F97FEDA0EE1B4EF6AC9FF9060548ACA4"> 
  <thead> 

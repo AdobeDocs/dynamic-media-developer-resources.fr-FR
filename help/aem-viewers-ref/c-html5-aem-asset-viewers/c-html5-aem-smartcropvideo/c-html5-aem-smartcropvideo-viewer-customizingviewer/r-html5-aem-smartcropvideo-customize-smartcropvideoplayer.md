@@ -5,9 +5,13 @@ solution: Experience Manager, Experience Manager Assets
 feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+autotag-review: '2026-05-13T22:20:27.128Z'
+TQID: 'https://experienceleague.adobe.com/rIAk03o-xH-YQkln2YFJfSKqxoTK0ziIXG86NgrlJnM'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+source-git-commit: e76d4c499daf8c8a7a0be31e56d84f917c643095
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: 328
 ht-degree: 0%
 
 ---
@@ -60,19 +64,19 @@ Les sous-titres sont placés dans un conteneur interne à l’intérieur du lect
    <td colname="col2"> <p>Arrière-plan du texte de légende. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de couleur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de couleur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Couleur du texte de la légende. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d’épaisseur de police </span> </p> </td> 
+   <td colname="col1"> <p> </span> d’épaisseur de police <span class="codeph"> </p> </td> 
    <td colname="col2"> <p> Épaisseur de la police des sous-titres. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de taille de police </span> </p> </td> 
+   <td colname="col1"> <p> </span> de taille de police <span class="codeph"> </p> </td> 
    <td colname="col2"> <p> Taille de police des légendes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> </span> famille de polices </p> </td> 
+   <td colname="col1"> <p> </span> <span class="codeph"> famille de polices </p> </td> 
    <td colname="col2"> <p>Police des sous-titres. </p> </td> 
   </tr> 
  </tbody> 
@@ -111,7 +115,7 @@ L’aspect de l’animation de mise en mémoire tampon est contrôlé avec le s�
    <td colname="col2"> <p> Largeur de l’icône d’animation. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de hauteur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de hauteur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p> Hauteur de l’icône d’animation. </p> </td> 
   </tr> 
   <tr> 
@@ -119,7 +123,7 @@ L’aspect de l’animation de mise en mémoire tampon est contrôlé avec le s�
    <td colname="col2"> <p> Icône d’animation : marge gauche, normalement moins la moitié de la largeur de l’icône. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de la marge supérieure </span> </p> </td> 
+   <td colname="col1"> <p> </span> de la marge supérieure <span class="codeph"> </p> </td> 
    <td colname="col2"> <p> Icône d’animation Marge supérieure : normalement, moins la moitié de la hauteur de l’icône. </p> </td> 
   </tr> 
   <tr> 

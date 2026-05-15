@@ -1,20 +1,24 @@
 ---
-description: Déplace un actif vers un dossier spécifique.
+description: Déplace une ressource vers un dossier spécifique.
 solution: Experience Manager
-title: Déplacer une ressource
+title: moveAsset
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: c5357c1a-92ac-4f9c-957e-b62cb812796c
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/-3pTSenps7g41lho728JLME6EwS2xlYLBfJnuAF6DXY'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: 76
 ht-degree: 14%
 
 ---
 
-# Déplacer une ressource{#moveasset}
+# moveAsset{#moveasset}
 
-Déplace un actif vers un dossier spécifique.
+Déplace une ressource vers un dossier spécifique.
 
 Syntaxe
 
@@ -29,13 +33,13 @@ Syntaxe
 
 ## Paramètres {#section-dd0bbdf293aa4563af70a91f97c861f1}
 
-**Entrée (moveAssetParam)**
+**Input (moveAssetParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| CompanyHandle | `xsd:string` | Oui | Manipuler à la société. |
-| AssetHandle | `xsd:string` | Oui | Gérez la ressource à déplacer. |
-| poignée de dossier | `xsd:string` | Oui | Poignée vers le dossier de destination. |
+| companyHandle | `xsd:string` | Oui | Gérer vers la société. |
+| assetHandle | `xsd:string` | Oui | Gérez la ressource à déplacer. |
+| folderHandle | `xsd:string` | Oui | Gérer vers le dossier de destination. |
 
 **Output (moveAssetReturn)**
 
@@ -45,7 +49,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 Cet exemple de code déplace une ressource vers un dossier.
 
-**Demander**
+**Requête**
 
 ```java
 <ns1:moveAssetParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

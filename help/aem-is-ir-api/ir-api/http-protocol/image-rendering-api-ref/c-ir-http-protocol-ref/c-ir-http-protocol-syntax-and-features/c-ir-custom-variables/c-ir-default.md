@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a78f44fc-d5ec-485d-a7b5-a8baf06f50a5
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+TQID: 'https://experienceleague.adobe.com/0tbHcwqvINJn-sE5ieVMOHYm-msyCgD-ghX4BViXhvY'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '31'
+source-wordcount: 31
 ht-degree: 6%
 
 ---
@@ -16,4 +20,4 @@ ht-degree: 6%
 
 Il n’y a pas de valeur par défaut.
 
-Seules les variables définies sont substituées par le serveur. Toute occurrence de `$ *[!DNL name]*$` qui ne correspond à aucune variable personnalisée définie reste littérale.
+Seules les variables définies sont remplacées par le serveur. Toutes les occurrences de `$ *[!DNL name]*$` qui ne correspondent à aucune variable personnalisée définie restent littérales.

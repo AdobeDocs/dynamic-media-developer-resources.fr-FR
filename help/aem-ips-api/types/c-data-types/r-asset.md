@@ -1,20 +1,25 @@
 ---
-description: Objet ou conteneur dans la hiérarchie de dossiers.
+description: Objet ou conteneur dans la hiérarchie des dossiers.
 solution: Experience Manager
-title: Atout
+title: Ressource
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 943e653a-ed30-4c75-9bad-6ef5b72f5219
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/3QUYjCr-LCFBkWrMsz2-F1rt-S7gJcO3UrHPRPsdr-o'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: 344
 ht-degree: 1%
 
 ---
 
 # [!DNL Asset]{#asset}
 
-Objet ou conteneur dans la hiérarchie de dossiers.
+Objet ou conteneur dans la hiérarchie des dossiers.
 
 Syntaxe
 
@@ -36,277 +41,277 @@ Syntaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL animatedGifInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types :GifInfo animé</span> </td> 
-   <td colname="col3"> Détails d’un fichier GIF animé. </td> 
+   <td colname="col2"> <span class="codeph"> d’images : AnimatedGifInfo</span> </td> 
+   <td colname="col3"> Détails sur un fichier GIF animé. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL assetHandle]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
-   <td colname="col3"> Gestion des ressources. </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> Identifiant de ressource. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL assetSetInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Code Phrase </span> </td> 
+   <td colname="col2"> <span class="codeph"> l’expression de code </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL cabinetInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types :CabinetInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types :CabinetInfo</span> </td> 
    <td colname="col3"> Propriétés d’un type de ressource d’armoire. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL created]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :dateTime</span> </td> 
-   <td colname="col3"> Date et heure auxquelles la ressource a été transférée. </td> 
+   <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
+   <td colname="col3"> Date et heure de chargement de la ressource. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL createUser]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Adresse électronique de l’utilisateur qui a créé la ressource. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL cssInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types :CssInfo</span> </td> 
-   <td colname="col3"> Détails d’un fichier CSS. </td> 
+   <td colname="col2"> <span class="codeph"> de sous-réseau :CssInfo</span> </td> 
+   <td colname="col3"> Informations sur un fichier CSS. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL cuePointInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Code Phrase </span> </td> 
+   <td colname="col2"> <span class="codeph"> l’expression de code </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL excelInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Code Phrase </span> </td> 
+   <td colname="col2"> <span class="codeph"> l’expression de code </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL fileName]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
-   <td colname="col3">Renvoie le nom de fichier virtuel. Le chemin d’accès complet au fichier virtuel est <span class="codeph"> folder</span>+<span class="codeph"> fileName</span>. </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3">Renvoie le nom du fichier virtuel. Le chemin d'accès complet au fichier virtuel est <span class="codeph"> dossier</span>+<span class="codeph"> fileName</span>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL flashInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Code Phrase </span> </td> 
+   <td colname="col2"> <span class="codeph"> l’expression de code </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL folder]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Dossier contenant une ressource. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL folderHandle]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
-   <td colname="col3"> Gérez le dossier parent de la ressource. </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> Gérer vers le dossier parent de la ressource. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL fontInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> type :infos de police</span> </td> 
-   <td colname="col3"> Propriétés d’un fichier de polices. </td> 
+   <td colname="col2"> <span class="codeph"> type:fontInfo</span> </td> 
+   <td colname="col3"> Propriétés d’une ressource de police. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL iccProfileInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types :IccProfileInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> de sous-réseau :IccProfileInfo</span> </td> 
    <td colname="col3"> Propriétés d’une ressource de profil ICC. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL illustratorInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Code Phrase </span> </td> 
+   <td colname="col2"> <span class="codeph"> l’expression de code </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL imageInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types :InfoImageInfo</span> </td> 
-   <td colname="col3"> Propriétés d’un fichier image. </td> 
+   <td colname="col2"> <span class="codeph"> types :ImageInfo</span> </td> 
+   <td colname="col3"> Propriétés d’une ressource image. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL inDesignInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Code Phrase </span> </td> 
+   <td colname="col2"> <span class="codeph"> l’expression de code </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL ipsImageUrl]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
-   <td colname="col3"> URL relative représentant une miniature de la ressource. </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> URL relative représentant une vue miniature de la ressource. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL javascriptInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types :JavascriptInfo</span> </td> 
-   <td colname="col3"> Détails d’un fichier JavaScript. </td> 
+   <td colname="col2"> <span class="codeph"> de sous-réseau :JavascriptInfo</span> </td> 
+   <td colname="col3"> Informations sur un fichier JavaScript. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL lastModified]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :dateTime</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
    <td colname="col3"> Date et heure de la dernière modification de la ressource. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL lastModifyUser]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
-   <td colname="col3"> Adresse électronique de l’utilisateur qui a modifié la ressource en dernier. </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> Adresse électronique de l’utilisateur qui a effectué la dernière modification de la ressource. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL layerViewInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types :LayerViewInfo</span> </td> 
-   <td colname="col3"> Propriétés d’un fichier de vue de calque. </td> 
+   <td colname="col2"> <span class="codeph"> de sous-réseau :LayerViewInfo</span> </td> 
+   <td colname="col3"> Propriétés d’une ressource en mode Calque. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL maskInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Code Phrase </span> </td> 
+   <td colname="col2"> <span class="codeph"> l’expression de code </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL masterVideoInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Code Phrase </span> </td> 
+   <td colname="col2"> <span class="codeph"> l’expression de code </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL metadataArray]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types :MetadataArray</span> </td> 
-   <td colname="col3"> Tableau des valeurs de métadonnées associées à la ressource. </td> 
+   <td colname="col2"> <span class="codeph"> de données : MetadataArray</span> </td> 
+   <td colname="col3"> Tableau de valeurs de métadonnées associées à la ressource. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL name]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Nom de la ressource. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL pdfInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Code Phrase </span> </td> 
+   <td colname="col2"> <span class="codeph"> l’expression de code </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL pdfSettingsInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types :PdfSettingsInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> de sous-réseau :PdfSettingsInfo</span> </td> 
    <td colname="col3"> Propriétés d’une ressource de paramètres PDF. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL permissions]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Code Phrase </span> </td> 
+   <td colname="col2"> <span class="codeph"> l’expression de code </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL postScriptInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Code Phrase </span> </td> 
+   <td colname="col2"> <span class="codeph"> l’expression de code </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL powerPointInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Code Phrase </span> </td> 
+   <td colname="col2"> <span class="codeph"> l’expression de code </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL premiereExpressInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Code Phrase </span> </td> 
+   <td colname="col2"> <span class="codeph"> l’expression de code </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL projects]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
-   <td colname="col3"> Liste des noms de projets. </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> Liste des noms de projet. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL psdInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Code Phrase </span> </td> 
+   <td colname="col2"> <span class="codeph"> l’expression de code </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL readyForPublish]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :booléen</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Définit un indicateur pour indiquer si une ressource doit être publiée ou non. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL renderSceneInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types :RenderSceneInfo</span> </td> 
-   <td colname="col3"> Propriétés d’un fichier de scène de rendu. </td> 
+   <td colname="col2"> <span class="codeph"> de sous-dossiers :RenderSceneInfo</span> </td> 
+   <td colname="col3"> Propriétés d’une ressource de scène de rendu. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL rtfInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Code Phrase </span> </td> 
+   <td colname="col2"> <span class="codeph"> l’expression de code </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL subType]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
-   <td colname="col3">Sous-type de ressource générique prenant en charge les valeurs de sous-type (par exemple, <span class="codeph"> AssetSet</span>). </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3">Sous-type de ressource générique qui prend en charge les valeurs de sous-type (par exemple, <span class="codeph"> AssetSet</span>). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL svgInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types :SvgInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> de sous-réseau :SvgInfo</span> </td> 
    <td colname="col3"> Propriétés d’une ressource SVG. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL swcInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types :SwcInfo</span> </td> 
-   <td colname="col3"> Propriétés d’une ressource SWC. </td> 
+   <td colname="col2"> <span class="codeph"> types :SwcInfo</span> </td> 
+   <td colname="col3"> Propriétés d’une ressource CFC. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL templateInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types :TemplateInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types:TemplateInfo</span> </td> 
    <td colname="col3"> Propriétés d’une ressource de modèle. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL trashState]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
-   <td colname="col3"> Indique si un fichier est dans la corbeille ou actif (voir « État de la corbeille » pour les valeurs). </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> Indique si une ressource se trouve dans la corbeille ou est active (voir « État de la corbeille » pour les valeurs). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL type]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
-   <td colname="col3">Type de ressource. Voir <a href="../../string-constants/c-string-constants/r-asset-types.md#reference-2fe75d230663419d88632d30f1144a10" format="dita" scope="local"> Types de</a> ressources pour connaître les valeurs. </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3">Type de ressource. Pour connaître les valeurs</a> voir Types de ressources <a href="../../string-constants/c-string-constants/r-asset-types.md#reference-2fe75d230663419d88632d30f1144a10" format="dita" scope="local"> . </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL videoCaptionInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types :VideoCaptionInfo</span> </td> 
-   <td colname="col3"> <p>Propriétés d’un fichier de sous-titrage vidéo. </p> </td> 
+   <td colname="col2"> <span class="codeph"> de sous-réseau :VideoCaptionInfo</span> </td> 
+   <td colname="col3"> <p>Propriétés d’une ressource de légende vidéo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL videoInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Code Phrase </span> </td> 
+   <td colname="col2"> <span class="codeph"> l’expression de code </span> </td> 
    <td colname="col3"> <p>Propriétés d’une ressource vidéo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL viewerPresetInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types :ViewerPresetInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> d’audience :ViewerPresetInfo</span> </td> 
    <td colname="col3"> Propriétés d’une ressource de paramètre prédéfini de visionneuse. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL viewerSwfInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types :ViewerSwfInfo</span> </td> 
-   <td colname="col3"> Propriétés d’une ressource SWf de visionneuse. </td> 
+   <td colname="col2"> <span class="codeph"> de sous-réseau :ViewerSwfInfo</span> </td> 
+   <td colname="col3"> Propriétés d’une ressource WF de visionneuse. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL vignetteInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types :VignetteInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> types :VignetteInfo</span> </td> 
    <td colname="col3"> Propriétés d’une ressource de vignette. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL watermarkInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types :WatermarkInfo</span> </td> 
-   <td colname="col3"> Propriétés d’une ressource de filigrane. </td> 
+   <td colname="col2"> <span class="codeph"> de sous-réseau :WatermarkInfo</span> </td> 
+   <td colname="col3"> Propriétés d’un élément de filigrane. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL windowCoveringInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types :WindowCoveringInfo</span> </td> 
-   <td colname="col3"> Propriétés d’un actif de garniture de fenêtre. </td> 
+   <td colname="col2"> <span class="codeph"> de sous-réseau:WindowCoveringInfo</span> </td> 
+   <td colname="col3"> Propriétés d’un élément de recouvrement de fenêtre. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL wordInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> Code Phrase </span> </td> 
+   <td colname="col2"> <span class="codeph"> l’expression de code </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> [!DNL xmlInfo]</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types :XmlInfo</span> </td> 
+   <td colname="col2"> <span class="codeph"> de sous-réseau :XmlInfo</span> </td> 
    <td colname="col3"> Propriétés d’une ressource XML. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> Infos xsl</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types :XslInfo</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> xslInfo</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> de sous-réseau :XslInfo</span> </td> 
    <td colname="col3"> Propriétés d’une ressource XSL. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> Informations</span> sur la compression </span> </td> 
-   <td colname="col2"> <span class="codeph"> Code Phrase </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> zipInfo</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> l’expression de code </span> </td> 
    <td colname="col3"> </td> 
   </tr> 
  </tbody> 

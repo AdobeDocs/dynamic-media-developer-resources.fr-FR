@@ -1,18 +1,22 @@
 ---
 description: Déplace plusieurs ressources indépendamment les unes des autres. Pour ce faire, il utilise le type AssetMove contenu dans le tableau assetMoveArray. Chaque champ AssetMove contient un dossier de destination.
 solution: Experience Manager
-title: Déplacer les ressources
+title: moveAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e5bb2188-d262-4324-9f71-68634b6af654
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/zrKcnSbPFbQhujXvLkBkao6tYgGHcIZ-Yl2CUkj-usc'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: 202
 ht-degree: 8%
 
 ---
 
-# Déplacer les ressources{#moveassets}
+# moveAssets{#moveassets}
 
 Déplace plusieurs ressources indépendamment les unes des autres. Pour ce faire, il utilise le type AssetMove contenu dans le tableau assetMoveArray. Chaque champ AssetMove contient un dossier de destination.
 
@@ -33,7 +37,7 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| CompanyHandle | `xsd:string` | Oui | Identifiant de la société avec les ressources à déplacer. |
+| companyHandle | `xsd:string` | Oui | Identifiant de la société avec les ressources à déplacer. |
 | assetMoveArray | `types:AssetMoveArray` | Oui | Tableau de déplacement de ressources. Il contient une ressource et un dossier de destination de ressources. |
 
 **Output (moveAssetsReturn)**
@@ -49,7 +53,7 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> Compte</span> de succès </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> successCount </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"> Le nombre de ressources a été déplacé. </td> 
@@ -62,9 +66,9 @@ Syntaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> errorCount</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :int</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Nombre de ressources qui ont généré des erreurs lorsque l’opération a tenté de les déplacer. </td> 
+   <td colname="col4"> Nombre de ressources ayant généré des erreurs lorsque l’opération a tenté de les déplacer. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> warningDetailArray</span> </span> </td> 
@@ -78,10 +82,10 @@ Syntaxe
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> Tableau errorDetailArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types :AssetOperationFaultArray</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> errorDetailArray</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> d’événements :AssetOperationFaultArray</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>contenant : 
+   <td colname="col4"> <span class="codeph"> AssetOperationFaults</span>qui contiennent les éléments suivants : 
     <ul id="ul_C397BC384A134F429D01ADA28DF2E097"> 
      <li id="li_EAEBB5F539164480BA9EAA7C8FFBF69A">Assets qui a généré les erreurs. </li> 
      <li id="li_F96D5FBB2F7A402AA36D8DFA3971391D">Codes d’erreur. </li> 
@@ -93,7 +97,7 @@ Syntaxe
 
 ## Exemples {#section-c31ed4c004ab4b3fa42c96d26ceb5ce7}
 
-Cet exemple de code déplace les ressources vers un emplacement spécifique spécifié par la propriété `assetMoveArray` Le tableau comprend le descripteur de ressource et son descripteur de dossier. La réponse indique que les ressources ont été déplacées avec succès.
+Cet exemple de code déplace les ressources vers un emplacement spécifique spécifié par le `assetMoveArray`. Le tableau comprend la poignée de la ressource et sa poignée du dossier. La réponse indique que les ressources ont été déplacées avec succès.
 
 **Requête**
 

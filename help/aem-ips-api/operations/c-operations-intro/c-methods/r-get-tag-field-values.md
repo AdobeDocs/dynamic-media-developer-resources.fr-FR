@@ -1,20 +1,24 @@
 ---
-description: Récupère toutes les valeurs du dictionnaire de balises définies pour un ou plusieurs champs de balises.
+description: Obtient toutes les valeurs du dictionnaire de balises définies pour un ou plusieurs champs de balise.
 solution: Experience Manager
 title: getTagFieldValues
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 12836783-4f9d-41d3-9b42-6e25238d7ed5
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/b7chzlIT9c4eWbl-MEVgdmvpymwnOieDHgm3a-lMnH4'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: 85
 ht-degree: 16%
 
 ---
 
 # getTagFieldValues{#gettagfieldvalues}
 
-Récupère toutes les valeurs du dictionnaire de balises définies pour un ou plusieurs champs de balises.
+Obtient toutes les valeurs du dictionnaire de balises définies pour un ou plusieurs champs de balise.
 
 Syntaxe
 
@@ -32,22 +36,22 @@ Syntaxe
 
 ## Paramètres {#section-9ad806e7736e4d51ae42cad185050cf9}
 
-**Entrée (getTagFieldValuesReturn)**
+**Input (getTagFieldValuesReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| CompanyHandle | `xsd:string` | Oui | Pseudo de l’entreprise contenant le champ de balise. |
-| Réseau de manipulation de champ | `types:HandleArray` | Oui | Tableau de poignées de champ permettant de renvoyer les valeurs que vous souhaitez renvoyer. |
+| companyHandle | `xsd:string` | Oui | Identifiant de la société contenant le champ de balise. |
+| fieldHandleArray | `types:HandleArray` | Oui | Tableau de handles de champ pour les valeurs de balise que vous souhaitez renvoyer. |
 
 **Output (getTagFieldValuesReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| Tableau de champs | `types:TagFieldValuesArray` | Oui | Tableau des valeurs de balise du dictionnaire pour chaque champ demandé. |
+| fieldArray | `types:TagFieldValuesArray` | Oui | Tableau des valeurs de balise dans le dictionnaire pour chaque champ demandé. |
 
 ## Exemples {#section-4492742614e44bb191a7d397dc1a1407}
 
-**Demander**
+**Requête**
 
 ```java
 <getTagFieldValuesParam xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">

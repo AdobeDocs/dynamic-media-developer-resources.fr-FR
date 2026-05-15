@@ -1,23 +1,27 @@
 ---
 title: Dossier d’installation
-description: Le dossier d’installation du serveur d’images (install_folder) est install_root/ImageServing.
+description: Le dossier d’installation du service d’images (install_folder) est install_root/ImageServing.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1c4da3fb-1ab0-4a5a-b2f9-3d69ebeee15e
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+TQID: 'https://experienceleague.adobe.com/Alj63zJmh6EJJTu79b-zVUat4nkk-sRwiQcyIFv9Avg'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: 64
 ht-degree: 0%
 
 ---
 
 # Dossier d’installation{#install-folder}
 
-Le dossier d’installation du serveur d’images (install_folder) est install_root/ImageServing.
+Le dossier d’installation du service d’images (install_folder) est install_root/ImageServing.
 
-*[!DNL install_root]* est définie par défaut sur `C:\Program Files\Scene7` Windows (un autre *[!DNL install_root]* dossier peut être sélectionné pendant l’installation). Sous Linux®, *[!DNL install_root]* doit toujours l’être [!DNL /usr/local/scene7] (des liens symboliques peuvent être utilisés).
+*[!DNL install_root]* valeur par défaut est `C:\Program Files\Scene7` sous Windows (un dossier *[!DNL install_root]* différent peut être sélectionné lors de l’installation). Sous Linux®, *[!DNL install_root]* doit toujours être [!DNL /usr/local/scene7] (des liens symboliques peuvent être utilisés).
 
-Dans le présent document, *[!DNL install_folder]* peut être représenté par &#39; [!DNL ./]&#39;.
+Dans ce document, *[!DNL install_folder]* peut être représenté par &#39; [!DNL ./]&#39;.
 
-Tous les chemins d’accès aux fichiers sont sensibles à la casse sous UNIX® et à la casse sous Windows.
+Tous les chemins d’accès aux fichiers sont sensibles à la casse sous UNIX® et insensibles à la casse sous Windows.

@@ -1,24 +1,28 @@
 ---
-title: Zone principale de la visionneuse
-description: La zone de vue principale est la zone occupée par la vue déroulante et les échantillons.
+title: Zone de visionneuse principale
+description: La zone d’affichage principale est la zone occupée par la vue déroulante et les nuanciers.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: ab1653a3-38e6-49bb-97b7-005304349ec9
-source-git-commit: 50dddf148345d2ca5243d5d7108fefa56d23dad6
+TQID: 'https://experienceleague.adobe.com/qKaLA2xIM3jTN7emyPXaJQTf5V3t7lBuFzqb2Fn8i-w'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: 95
 ht-degree: 1%
 
 ---
 
-# Zone principale de la visionneuse{#main-viewer-area}
+# Zone de visionneuse principale{#main-viewer-area}
 
-La zone de vue principale est la zone occupée par la vue déroulante et les échantillons.
+La zone d’affichage principale est la zone occupée par la vue déroulante et les nuanciers.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriétés CSS de la zone principale de la visionneuse**
+**Propriétés CSS de la zone de visionneuse principale**
 
 L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe CSS suivant :
 
@@ -35,21 +39,21 @@ L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe C
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Largeur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
    <td colname="col2"> <p>Largeur de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> hauteur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de hauteur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Hauteur de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> couleur d’arrière-plan </span> </p> </td> 
-   <td colname="col2"> <p> Couleur de fond au format hexadécimal. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> des </span> de couleur d’arrière-plan </p> </td> 
+   <td colname="col2"> <p> Couleur d’arrière-plan au format hexadécimal </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple - pour configurer une visionneuse volante avec un fond blanc ( `#FFFFFF`) et faire en sorte qu’elle fasse 260 x 500 pixels.
+Exemple : pour configurer une visionneuse déroulante avec un arrière-plan blanc ( `#FFFFFF`) et faire en sorte que sa taille soit de 260 x 500 pixels.
 
 ```
 .s7flyoutviewer { 

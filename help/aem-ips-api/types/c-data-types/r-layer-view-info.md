@@ -1,13 +1,17 @@
 ---
 description: Propriétés de la vue Calque.
 solution: Experience Manager
-title: LayerViewInfo (Informations sur la vue)
+title: LayerViewInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 25199c86-1df0-41af-b210-e7668a60295e
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/cx-B-BmcEP6vefJY5tsrNMZcwWIKM-pW0CYfP7BjxMM'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: 46
 ht-degree: 13%
 
 ---
@@ -22,6 +26,6 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| url | `xsd:string` | URL du serveur d’images qui représente le modèle. Combine `urlModifier` et `urlPostAp- plyModifier` champs. |
-| Modificateur d’url | `xsd:string` | Commandes du protocole de diffusion d’images à appliquer avant la ou `urlPostApplyModifier` les commandes. |
-| urlPostApplyModifier | `xsd:string` | Commandes du protocole Image Server à appliquer après `urlModifier` et aux commandes de requête. |
+| url | `xsd:string` | URL du serveur d’images représentant le modèle. Combine les champs `urlModifier` et `urlPostAp- plyModifier`. |
+| urlModifier | `xsd:string` | Commande de protocole de diffusion d’image à appliquer avant la commande request ou `urlPostApplyModifier`. |
+| urlPostApplyModifier | `xsd:string` | Image diffusant les commandes de protocole à appliquer après les commandes `urlModifier` et request. |

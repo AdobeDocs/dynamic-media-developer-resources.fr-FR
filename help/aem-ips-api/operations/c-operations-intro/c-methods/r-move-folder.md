@@ -1,18 +1,22 @@
 ---
 description: Déplacer un dossier vers un nouvel emplacement.
 solution: Experience Manager
-title: Déplacer le dossier
+title: moveFolder
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fa31c2d8-912c-4965-8535-cae42f4fcfd9
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/xnBMdEtQN9m8JZZNfa8mPR1Zl6XyS-zYwM5JJzPREv0'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: 60
 ht-degree: 25%
 
 ---
 
-# Déplacer le dossier{#movefolder}
+# moveFolder{#movefolder}
 
 Déplacer un dossier vers un nouvel emplacement.
 
@@ -29,23 +33,23 @@ Syntaxe
 
 ## Paramètres {#section-473c2e68bcc14a9ea2593bee26e679dd}
 
-**Entrée (moveFolderParam)**
+**Input (moveFolderParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| CompanyHandle | `xsd:string` | Oui | Manipuler à la société. |
-| poignée de dossier | `xsd:string` | Oui | Poignée de dossier. |
-| destFolderHandle | `xsd:string` | Oui | Poignée vers le dossier de destination. |
+| companyHandle | `xsd:string` | Oui | Gérer vers la société. |
+| folderHandle | `xsd:string` | Oui | Handle du dossier. |
+| destFolderHandle | `xsd:string` | Oui | Gérer vers le dossier de destination. |
 
 **Output (moveFolderReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| poignée de dossier | `xsd:string` | Oui | Gérez le dossier déplacé. |
+| folderHandle | `xsd:string` | Oui | Gérer vers le dossier déplacé. |
 
 ## Exemples {#section-6571c6ab89ce4cb9a139abdb29c6b279}
 
-**Demander**
+**Requête**
 
 ```java
 <moveFolderParam xmlns="http://www.scene7.com/IpsApi/xsd/2011-11-04">

@@ -1,26 +1,30 @@
 ---
 title: Bouton Zoom avant
-description: Cliquez ou appuyez sur ce bouton pour effectuer un zoom avant sur une image dans la vue principale. Ce bouton ne s’affiche pas sur les téléphones mobiles afin d’économiser l’espace de l’écran. Vous pouvez redimensionner, habiller et positionner ce bouton à l’aide de CSS.
+description: Cliquer ou appuyer sur ce bouton effectue un zoom avant sur une image dans la vue principale. Ce bouton ne s'affiche pas sur les téléphones mobiles afin d'économiser de l'espace sur l'écran. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 663f9bb5-c432-4b34-ac76-a62826994a81
-source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
+TQID: 'https://experienceleague.adobe.com/f-D4TZwx2kdxGNdCMiZ1Jsq4sKCrreuDSural6lTEFU'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: 250
 ht-degree: 0%
 
 ---
 
 # Bouton Zoom avant{#zoom-in-button}
 
-Ce bouton permet d’effectuer un zoom avant sur une image de la vue principale. Ce bouton ne s’affiche pas sur les téléphones mobiles afin d’économiser l’espace de l’écran. Vous pouvez redimensionner, habiller et positionner ce bouton à l’aide de CSS.
+Le fait de sélectionner ce bouton effectue un zoom avant sur une image dans la vue principale. Ce bouton ne s&#39;affiche pas sur les téléphones mobiles afin d&#39;économiser de l&#39;espace sur l&#39;écran. Vous pouvez dimensionner, habiller et positionner ce bouton à l’aide de CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriétés CSS de la zone principale de la visionneuse**
+**Propriétés CSS de la zone de visionneuse principale**
 
-L’aspect du bouton est contrôlé par le sélecteur de classe CSS suivant :
+L’aspect du bouton est contrôlé avec le sélecteur de classe CSS suivant :
 
 ```
 .s7mixedmediaviewer .s7zoominbutton
@@ -35,47 +39,47 @@ L’aspect du bouton est contrôlé par le sélecteur de classe CSS suivant :
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Retour au début </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure supérieure, y compris le rembourrage. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure supérieure, y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Droite </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure droite, y compris le rembourrage. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> droit </span> </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure droite, marge intérieure incluse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Gauche </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure gauche, remplissage compris. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> gauche </span> </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure gauche, marge intérieure incluse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> fond </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure inférieure, remplissage compris. </p> </td> 
+   <td colname="col1"> <p> </span> inférieur <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p>Position à partir de la bordure inférieure, y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Largeur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
    <td colname="col2"> <p>Largeur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> hauteur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de hauteur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan </span> </p> </td> 
-   <td colname="col2"> <p>Image affichée pour un état donné du bouton. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> le </span> image d’arrière-plan </p> </td> 
+   <td colname="col2"> <p>Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> position de l’arrière-plan </span> </p> </td> 
-   <td colname="col2"> <p> Position à l’intérieur du sprite de l’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> Sprites </a>CSS. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> la position de l’arrière-plan </span> </p> </td> 
+   <td colname="col2"> <p> Positionnez à l’intérieur d’un sprite d’illustration si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-customizingviewer/c-html5-mixedmedia-viewer-customizingviewer.md#section-209a43dfbddf4fc589e79cddaf233f50" format="dita" scope="local"> des </a> Sprites CSS. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ce bouton prend en charge le sélecteur d’attributs `state` , qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge le sélecteur d&#39;attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
-L’info-bulle du bouton peut être localisée. Pour plus d’informations, voir [Localisation des éléments](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) de l’interface utilisateur.
+L’info-bulle du bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) pour plus d’informations.
 
-Exemple : configuration d’un bouton de zoom avant de 32 x 32 pixels et positionné à six pixels des bords supérieur et droit de la visionneuse. Enfin, affiche une image différente pour chacun des quatre états différents du bouton.
+Exemple - Pour configurer un bouton de zoom avant de 32 x 32 pixels et positionné à six pixels du bord supérieur et droit de la visionneuse. Enfin, affiche une image différente pour chacun des quatre états de bouton différents.
 
 ```
 .s7mixedmediaviewer .s7zoominbutton { 

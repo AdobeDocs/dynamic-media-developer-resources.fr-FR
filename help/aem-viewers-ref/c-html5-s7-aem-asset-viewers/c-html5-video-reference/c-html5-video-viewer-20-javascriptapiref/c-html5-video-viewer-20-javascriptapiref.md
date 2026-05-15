@@ -1,19 +1,23 @@
 ---
-title: JavaScript référence de l’API pour la visionneuse vidéo
-description: La classe principale de la visionneuse vidéo est VideoViewer. Elle est déclarée dans l’espace de noms s7viewers. Cette API JavaScript couvre le constructeur, les méthodes et les rappels de cette classe particulière.
+title: Référence de l’API JavaScript pour la visionneuse de vidéos
+description: La classe principale de la visionneuse de vidéos est VideoViewer. Il est déclaré dans l’espace de noms s7viewers. Cette API JavaScript couvre le constructeur, les méthodes et les rappels de cette classe particulière.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 9e61b962-cfbe-4c8e-9938-77a197c5f127
-source-git-commit: 11acb9151d3ea247eecde3cfbbd295a95c10829c
+TQID: 'https://experienceleague.adobe.com/Jgl-KhhNOUb8TUaak-bWHcMutvcVINCZmc99-4GzEY8'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: 88
 ht-degree: 0%
 
 ---
 
-# JavaScript référence de l’API pour la visionneuse vidéo{#javascript-api-reference-for-video-viewer}
+# Référence de l’API JavaScript pour la visionneuse de vidéos{#javascript-api-reference-for-video-viewer}
 
-La classe principale de la visionneuse vidéo est VideoViewer. Elle est déclarée dans l’espace de noms s7viewers. Cette API JavaScript couvre le constructeur, les méthodes et les rappels de cette classe particulière.
+La classe principale de la visionneuse de vidéos est VideoViewer. Il est déclaré dans l’espace de noms s7viewers. Cette API JavaScript couvre le constructeur, les méthodes et les rappels de cette classe particulière.
 
-Dans tous les exemples suivants, `<instance>` est le nom réel de l’objet de visionneuse JavaScript qui est instancié à partir de la `s7viewers.VideoViewer` classe.
+Dans tous les exemples suivants, `<instance>` est le nom réel de l’objet de visionneuse JavaScript instancié à partir de la classe `s7viewers.VideoViewer`.

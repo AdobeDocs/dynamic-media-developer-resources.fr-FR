@@ -1,32 +1,36 @@
 ---
 title: CallToAction.enabledragging
-description: Attribut Configuration pour la visionneuse de vidéos interactives.
+description: Attribut de configuration pour la visionneuse de vidéos interactives.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 21db58df-b76e-4a78-afc4-5e0188cb8896
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+TQID: 'https://experienceleague.adobe.com/eiQujFJFBcZ5zd0tOLP8wekg3f8j9ssSCNx05tGoW-A'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 3%
+source-wordcount: 88
+ht-degree: 5%
 
 ---
 
 # CallToAction.enabledragging{#calltoaction-enabledragging}
 
-Attribut Configuration pour la visionneuse de vidéos interactives.
+Attribut de configuration pour la visionneuse de vidéos interactives.
 
-` [CallToAction.|<containerId>_callToAction.]enabledragging=0|1[, *`Valeur de surglissement`*]`
+` [CallToAction.|<containerId>_callToAction.]enabledragging=0|1[, *`overdragvalue`*]`
 
 <table id="table_441553CD34C94A58A9D7CBF772DEDDB6"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1 </span> </p> </td> 
-   <td colname="col2"> <p> Permet ou désactive la possibilité pour un utilisateur de faire défiler les vignettes à l’aide d’une souris ou à l’aide de gestes tactiles. </p> </td> 
+   <td colname="col2"> <p> Active ou désactive la possibilité pour un utilisateur de faire défiler les miniatures à l’aide de la souris ou d’un toucher. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> Valeur de surglissement </span> </span> </p> </td> 
-   <td colname="col2"> <p> Est compris dans la <span class="codeph"> plage 0-1 </span> et est une valeur de pourcentage pour le mouvement dans la mauvaise direction de la vitesse réelle. </p> <p>S’il est défini sur <span class="codeph"> 1 </span>, il se déplace avec la souris. </p> <p>S’il est défini sur <span class="codeph"> 0 </span>, il ne vous permet pas d’aller dans la mauvaise direction. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> overdragvalue </span> </span> </p> </td> 
+   <td colname="col2"> <p> Se trouve dans la plage de </span> 0-1 <span class="codeph"> et il s’agit d’une valeur de pourcentage pour le mouvement dans la mauvaise direction de la vitesse réelle. </p> <p>S’il est défini sur <span class="codeph"> 1 </span>, il se déplace avec la souris. </p> <p>Si cette valeur est définie sur <span class="codeph"> 0 </span>, vous ne pouvez pas vous déplacer dans la mauvaise direction. </p> </td> 
   </tr> 
  </tbody> 
 </table>

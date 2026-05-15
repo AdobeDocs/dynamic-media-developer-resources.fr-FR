@@ -1,13 +1,17 @@
 ---
 title: Propriétés de JavaScript
-description: Si JavaScript est spécifié comme format de réponse, les données de réponse sont formatées de sorte qu’elles soient analysées en tant que fichier JavaScript&trade; include.
+description: Si JavaScript est spécifié comme format de réponse, les données de réponse sont formatées afin d’être analysées en tant que fichier JavaScript&trade; include.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 12e69221-4a2c-4ec6-b38b-0a8d98d3c4a6
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/T6xqUHtT9XX4b9bP-wi-b0dDBe2LHE3vcBcJI6cMKqE'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: 137
 ht-degree: 0%
 
 ---

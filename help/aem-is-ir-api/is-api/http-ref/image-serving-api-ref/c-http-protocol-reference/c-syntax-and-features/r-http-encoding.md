@@ -1,29 +1,33 @@
 ---
-description: Les valeurs de commande doivent être codées en http à l’aide de séquences d’échappement %xx, de sorte que les chaînes de valeur n’incluent pas les caractères réservés '=', '&' et ' %'.
+description: Les valeurs de commande doivent être encodées en http à l’aide de séquences d’échappement %xx, de sorte que les chaînes de valeur n’incluent pas les caractères réservés « = », «& » et «% ».
 solution: Experience Manager
-title: Encodage HTTP Image Serving
+title: Encodage HTTP de la diffusion d’images
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: aec8463f-f72a-4203-89ab-8a4f0ad9d6f9
-source-git-commit: 191d3e7cc4cd370e1e1b6ca5d7e27acd3ded7b6c
+TQID: 'https://experienceleague.adobe.com/vQIQQhMGQZWbIeWUgnpqCtZj5Rx3Nl-1xUMatQwzeIU'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: 231
 ht-degree: 16%
 
 ---
 
-# Encodage HTTP Image Serving{#image-serving-http-encoding}
+# Encodage HTTP de la diffusion d’images{#image-serving-http-encoding}
 
-Les valeurs de commande doivent être codées en http à l’aide de séquences d’échappement %xx, de sorte que les chaînes de valeur n’incluent pas les caractères réservés &#39;=&#39;, &#39;&amp;&#39; et &#39; %&#39;.
+Les valeurs de commande doivent être encodées en http à l’aide de séquences d’échappement %xx, de sorte que les chaînes de valeur n’incluent pas les caractères réservés « = », «&amp; » et «% ».
 
-Dans le cas contraire, les règles de codage HTTP standard s’appliquent. La spécification HTTP exige le codage des caractères non sécurisés, ainsi que des caractères de contrôle, tels que `<return>` et `<tab>`. L’encodage URL d’un caractère se compose d’un symbole « % », suivi de la représentation hexadécimale à deux chiffres (non sensible à la casse) du point de code ISO-latin du caractère. Les caractères et points de code dangereux sont :
+Dans le cas contraire, les règles de codage HTTP standard s’appliquent. La spécification HTTP nécessite le codage des caractères non sécurisés, ainsi que des caractères de contrôle, tels que `<return>` et `<tab>`. L’encodage de l’URL d’un caractère se compose d’un symbole « % », suivi de la représentation hexadécimale à deux chiffres (non sensible à la casse) du point de code ISO-latin du caractère. Les caractères et points de code non sécurisés sont les suivants :
 
 <table id="table_D2C01CADB35E477D82D4C27586424625"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Caractère dangereux </th> 
-   <th colname="col2" class="entry"> Code points (hexadécimaux) </th> 
-   <th colname="col3" class="entry"> Code points (déc) </th> 
+   <th colname="col1" class="entry"> Caractère non sécurisé </th> 
+   <th colname="col2" class="entry"> Points de code (hexadécimaux) </th> 
+   <th colname="col3" class="entry"> Points de code (dec) </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -39,7 +43,7 @@ Dans le cas contraire, les règles de codage HTTP standard s’appliquent. La sp
   </tr> 
   <tr> 
    <td colname="col1"> <p>&gt; </p> </td> 
-   <td colname="col2"> <p>3E </p> </td> 
+   <td colname="col2"> <p>3 SEXIES </p> </td> 
    <td colname="col3"> <p>62 </p> </td> 
   </tr> 
   <tr> 
@@ -58,18 +62,18 @@ Dans le cas contraire, les règles de codage HTTP standard s’appliquent. La sp
    <td colname="col3"> <p>37 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;lbrace ; </p> </td> 
+   <td colname="col1"> <p>&amp;lbrace; </p> </td> 
    <td colname="col2"> <p>7B </p> </td> 
    <td colname="col3"> <p>123 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;rbrace ; </p> </td> 
+   <td colname="col1"> <p>&amp;accolade; </p> </td> 
    <td colname="col2"> <p>7D </p> </td> 
    <td colname="col3"> <p>125 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>| </p> </td> 
-   <td colname="col2"> <p>7C </p> </td> 
+   <td colname="col2"> <p>7 QUATER </p> </td> 
    <td colname="col3"> <p>124 </p> </td> 
   </tr> 
   <tr> 
@@ -84,21 +88,21 @@ Dans le cas contraire, les règles de codage HTTP standard s’appliquent. La sp
   </tr> 
   <tr> 
    <td colname="col1"> <p>~ </p> </td> 
-   <td colname="col2"> <p>7E </p> </td> 
+   <td colname="col2"> <p>7 SEXIES </p> </td> 
    <td colname="col3"> <p>126 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;lbrack ; </p> </td> 
+   <td colname="col1"> <p>&amp;lbrack; </p> </td> 
    <td colname="col2"> <p>5B </p> </td> 
    <td colname="col3"> <p>91 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;rbrack ; </p> </td> 
-   <td colname="col2"> <p>5D </p> </td> 
+   <td colname="col1"> <p>&amp;brack; </p> </td> 
+   <td colname="col2"> <p>5J </p> </td> 
    <td colname="col3"> <p>93 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>&amp;grave ; </p> </td> 
+   <td colname="col1"> <p>&amp;grave; </p> </td> 
    <td colname="col2"> <p>60 </p> </td> 
    <td colname="col3"> <p>96 </p> </td> 
   </tr> 
@@ -111,8 +115,8 @@ Les caractères réservés doivent également être encodés.
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Caractère réservé </th> 
-   <th colname="col2" class="entry"> Points Code (hexadécimaux) </th> 
-   <th colname="col3" class="entry"> Points Code (déc.) </th> 
+   <th colname="col2" class="entry"> Points De Code (Hex) </th> 
+   <th colname="col3" class="entry"> Points De Code (Déc) </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -143,7 +147,7 @@ Les caractères réservés doivent également être encodés.
   </tr> 
   <tr> 
    <td colname="col1"> <p>: </p> </td> 
-   <td colname="col2"> <p>3A </p> </td> 
+   <td colname="col2"> <p>3 BIS </p> </td> 
    <td colname="col3"> <p>58 </p> </td> 
   </tr> 
   <tr> 
@@ -173,14 +177,14 @@ Les caractères réservés doivent également être encodés.
 
 `…&$text=rate&weight=85% 27#&…`
 
-Si l’obscurcissement n’est pas appliqué, le fragment de requête ci-dessus doit être codé comme suit :
+Si l’obfuscation n’est pas appliquée, le fragment de requête ci-dessus doit être codé comme suit :
 
 `…&$text=rate%26weight%3D85%25%2027%23&…`
 
-Si l’obscurcissement est appliqué, le codage peut être limité à la suppression des caractères &#39;=&#39;, &#39;&amp;&#39; et &#39; %&#39; :
+Si l’obscurcissement est appliqué, le codage peut être limité à la suppression des caractères « = », «&amp; » et «% » :
 
 `…&$text=rate%26weight%3D85%25 27#&…`
 
 ## Voir aussi {#section-295476ec34c74973962d07dfa9eb2180}
 
-[Obfuscation](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d) de requête, [spécification HTTP/1.1 (RFC 2616)](https://www.w3.org/Protocols/rfc2616/rfc2616.html)
+[Obscurcissement de requête](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-request-obfuscation.md#reference-895f65d6796c43bb9bad21a676ed714d), [Spécification HTTP/1.1 (RFC 2616)](https://www.w3.org/Protocols/rfc2616/rfc2616.html)

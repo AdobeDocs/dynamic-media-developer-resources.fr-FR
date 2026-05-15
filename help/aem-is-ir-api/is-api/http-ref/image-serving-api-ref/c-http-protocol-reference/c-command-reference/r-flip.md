@@ -1,49 +1,53 @@
 ---
-title: chiquenaude
-description: Retournez le calque. Fait pivoter le calque horizontalement, verticalement ou les deux, après application de crop= et avant rotate= et extend=.
+title: retourner
+description: Retourner le calque. Retourne le calque horizontalement, verticalement ou les deux, après application du recadrage= et avant rotation= et extension=.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 451d8b4d-0f22-41f3-ac86-435797c23ea3
-source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
+TQID: 'https://experienceleague.adobe.com/7RG0rzG40Mp5eQe663S5Ayyf99SIfSLPHgqbSL2Unn4'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: 157
 ht-degree: 2%
 
 ---
 
-# chiquenaude{#flip}
+# retourner{#flip}
 
-Retournez le calque. Fait pivoter le calque horizontalement, verticalement ou les deux, après application de crop= et avant rotate= et extend=.
+Retourner le calque. Retourne le calque horizontalement, verticalement ou les deux, après application du recadrage= et avant rotation= et extension=.
 
 `flip=lr|ud|lrud`
 
 <table id="simpletable_072CA0E24B7146D48AEFD70E51E849C2"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> Lr </span> </p> </td> 
-  <td class="stentry"> <p>Retourne le calque horizontalement (de gauche à droite). </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> lr </span> </p> </td> 
+  <td class="stentry"> <p>Retourner le calque horizontalement (gauche-droite). </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="codeph"> Ud </span> </p> </td> 
-  <td class="stentry"> <p>Retourne le calque verticalement (vers le haut-bas). </p> </td> 
+  <td class="stentry"> <p> <span class="codeph"> ud </span> </p> </td> 
+  <td class="stentry"> <p>Retournez le calque verticalement (vers le haut). </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> lrud </span> </p> </td> 
-  <td class="stentry"> <p>Faites-le pivoter horizontalement et verticalement. </p> </td> 
+  <td class="stentry"> <p>Retourner horizontalement et verticalement. </p> </td> 
  </tr> 
 </table>
 
-Elle peut également s’appliquer aux calques de texte.
+Il peut également être appliqué aux calques de texte.
 
-Certaines commandes, notamment `extend=`, s’appliquent implicitement au calque 0 au lieu du calque composite lorsque `layer=comp` est sélectionné. Dans de tels scénarios, toutes les commandes affectées automatiquement à la couche 0 sont appliquées avant les commandes qui s’appliquent à `layer=comp`. Ainsi, lorsque `layer=comp`, `extend=` est appliqué avant `flip=`.
+Certaines commandes, dont `extend=`, s’appliquent implicitement au calque 0 au lieu du calque composite lorsque `layer=comp` est sélectionné. Dans de tels scénarios, toutes les commandes affectées automatiquement à la couche 0 sont appliquées avant les commandes qui s&#39;appliquent à `layer=comp`. Ainsi, lors de la `layer=comp`, `extend=` est appliquée avant la `flip=`.
 
 >[!NOTE]
 >
->Le calque inversé est positionné en fonction de l’ancrage de calque. Des valeurs différentes `flip=` entraînent des positions de calque différentes lorsque l’ancre n’est pas au centre du calque.
+>La couche inversée est positionnée en fonction de l’ancrage de la couche. Des valeurs de `flip=` différentes entraînent des positions de calque différentes lorsque l’ancre n’est pas au centre du calque.
 
 ## Propriétés {#section-294da2af7be746b5adfc35e29ee68217}
 
-Calque, commande S’applique au calque actif ou à l’image composite si `layer=comp`. Ignoré par les calques d’effets.
+Commande Calque. S’applique au calque actif ou à l’image composite, le cas `layer=comp`. Ignoré par les calques d’effet.
 
 ## Par défaut {#section-502044f81a89492198d5f12a738459ea}
 

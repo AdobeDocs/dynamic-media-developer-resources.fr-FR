@@ -5,9 +5,13 @@ title: Formatage de base des caractères
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d3bd6d4d-d7bd-4c9b-bc9e-7edaaac6378e
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/-QEj-7BWb1yXOLxH25Ay6qBDcMJhI8D6VdHNs0bLgUE'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: 129
 ht-degree: 2%
 
 ---
@@ -32,22 +36,22 @@ Utilisez les commandes suivantes pour le formatage de base des caractères.
   </tr> 
   <tr> 
    <td> <span class="codeph"> \f <span class="varname"> N </span> </span> </td> 
-   <td> <p>Police de caractères. </p> </td> 
+   <td> <p>Police. </p> </td> 
    <td> <p> <span class="codeph"> \fonttbl </span> index. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \fs <span class="varname"> N </span> </span> </td> 
    <td> <p>Taille de police. </p> </td> 
-   <td> <p>Demi-points ; La valeur par défaut est 24. </p> </td> 
+   <td> <p>Demi-points ; 24 par défaut. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \cf <span class="varname"> N </span> </span> </td> 
-   <td> <p>Couleur de police. </p> </td> 
-   <td> <p>Index basé sur 0 dans un tableau de couleurs. </p> </td> 
+   <td> <p>Couleur de la police. </p> </td> 
+   <td> <p>Index basé sur 0 dans la table des couleurs. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \b </span> </td> 
-   <td> <p>Style audacieux. </p> </td> 
+   <td> <p>Style gras. </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
@@ -78,11 +82,11 @@ Utilisez les commandes suivantes pour le formatage de base des caractères.
       <li id="li_482CCC6F5D8544CCA69DF2A070097ABD"> <span class="codeph"> \ulth </span> </li> 
       <li id="li_F11C79A6640B4C0684CA5D9733E49F43"> <span class="codeph"> \ulw </span> </li> 
       <li id="li_84F94D17372B4C0494A9F8AEC951C556"> <span class="codeph"> \ulwave </span> </li> 
-     </ul> </p> <p>Ils sont actuellement mis en œuvre sous la forme d’un soulignement \ul <span class="codeph"> standard </span> . Toutes les autres commandes de soulignement RTF sont ignorées. </p> </td> 
+     </ul> </p> <p>Ils sont actuellement implémentés en tant que soulignement standard <span class="codeph"> \ul </span>. Toutes les autres commandes de soulignement RTF sont ignorées. </p> </td> 
   </tr> 
   <tr> 
    <td> <span class="codeph"> \ulnone </span> </td> 
-   <td> <p>Désactiver le soulignement </p> </td> 
+   <td> <p>désactiver le soulignement </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
@@ -97,7 +101,7 @@ Utilisez les commandes suivantes pour le formatage de base des caractères.
   </tr> 
   <tr> 
    <td> <span class="codeph"> \scap </span> </td> 
-   <td> <p>minuscules (« small caps ») </p> </td> 
+   <td> <p>minuscules (« petites capitales ») </p> </td> 
    <td> <p> <span class="codeph"> textPs= </span> uniquement. </p> </td> 
   </tr> 
  </tbody> 

@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 10536242-1015-49ff-ae27-59671f30d886
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/jOrrq3rLoXwGWAKAcafCkv2twn-N-PE5jbEqQpZI9WQ'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: 295
 ht-degree: 0%
 
 ---
@@ -18,30 +22,30 @@ La vue Favoris se compose d’une colonne d’images miniatures.
 
 <!--<a id="section_B6EFCCADB5A5495DAE6BBE42F7F405CB"></a>-->
 
-L’apparence du conteneur d’affichage Favoris est contrôlée par le sélecteur de classe CSS suivant :
+L’aspect du conteneur d’affichage Favoris est contrôlé avec le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7favoritesview
 ```
 
-La position et la hauteur de la vue Favoris sont gérées par la vue ; en CSS, il n’est possible de définir que la largeur.
+La position et la hauteur de la vue Favoris sont gérées par la vue ; dans CSS, il n’est possible de définir que la largeur.
 
 **Propriétés CSS de la vue Favoris**
 
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> couleur d’arrière-plan </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> des </span> de couleur d’arrière-plan </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan de la vue Favoris. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Largeur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
    <td colname="col2"> <p>Largeur de la vue. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple - Pour configurer une vue Favoris de 100 pixels de large avec un arrière-plan gris semi-transparent :
+Exemple - Pour configurer une vue des Favoris d’une largeur de 100 pixels avec un arrière-plan gris semi-transparent :
 
 ```
 .s7ecatalogviewer .s7favoritesview { 
@@ -50,24 +54,24 @@ Exemple - Pour configurer une vue Favoris de 100 pixels de large avec un arrièr
 }
 ```
 
-L’espacement entre les miniatures Favoris est contrôlé par le sélecteur de classe CSS suivant :
+L’espacement entre les miniatures des Favoris est contrôlé avec le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7thumbcell
 ```
 
-**Propriétés CSS des miniatures Favoris**
+**Propriétés CSS des miniatures de favoris**
 
 <table id="table_EED8CE63D805458196DE0E87C7E9945F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge </span> </p> </td> 
-   <td colname="col2"> <p> Taille de la marge verticale autour de chaque miniature. L’espacement réel des vignettes est égal à la somme des marges supérieure et inférieure définie pour <span class="codeph"> la cellule </span>miniature .s7. </p> </td> 
+   <td colname="col1"> <p> </span> de la marge <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p> Taille de la marge verticale autour de chaque miniature. L’espacement réel des miniatures est égal à la somme des marges supérieure et inférieure définies pour <span class="codeph">’</span> .s7thumbcell. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple - Pour configurer l’espacement des dix pixels :
+Exemple - Pour configurer l’espacement de dix pixels :
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7thumbcell { 
@@ -75,26 +79,26 @@ Exemple - Pour configurer l’espacement des dix pixels :
 }
 ```
 
-L’apparence de la miniature individuelle est contrôlée par le sélecteur de classe CSS suivant :
+L’aspect de chaque miniature est contrôlé par le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7thumb
 ```
 
-**Propriétés CSS des miniatures Favoris**
+**Propriétés CSS des miniatures de favoris**
 
 <table id="table_6F5B1438CAFA49E9B33400C6970ABDA1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Largeur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
    <td colname="col2"> <p>Largeur de la miniature. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> hauteur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de hauteur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Hauteur de la miniature. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> frontière </span> </p> </td> 
+   <td colname="col1"> <p> </span> de bordure <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Bordure de la miniature. </p> </td> 
   </tr> 
  </tbody> 
@@ -102,9 +106,9 @@ L’apparence de la miniature individuelle est contrôlée par le sélecteur de 
 
 >[!NOTE]
 >
->La miniature prend en charge le sélecteur d’attributs `state` , qui peut être utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la miniature récemment sélectionnée par l’utilisateur. L’attribut `state="default"` correspond au reste des miniatures. L’attribut `state="over"` est également utilisé lorsque le pointeur de la souris pointe la souris.
+>La miniature prend en charge le sélecteur d’attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de miniature. En particulier, `state="selected"` correspond à la miniature récemment sélectionnée par l&#39;utilisateur. L’attribut `state="default"` correspond au reste des miniatures. De plus, l’attribut `state="over"` est utilisé lors du survol de la souris.
 
-Exemple : pour configurer des miniatures de 75 x 75 pixels, dotées d’une bordure par défaut gris clair et d’une bordure sélectionnée gris foncé :
+Exemple - Pour configurer des miniatures de 75 x 75 pixels, elles doivent avoir une bordure par défaut gris clair et une bordure sélectionnée gris foncé :
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7thumb { 
@@ -119,7 +123,7 @@ Exemple : pour configurer des miniatures de 75 x 75 pixels, dotées d’une bord
 }
 ```
 
-L’apparence du libellé de la miniature est contrôlée par le sélecteur de classe CSS suivant :
+L’aspect du libellé de la miniature est contrôlé par le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7label
@@ -130,17 +134,17 @@ L’apparence du libellé de la miniature est contrôlée par le sélecteur de c
 <table id="table_B41339A16ACB46CB87D3EB1FD05FA2CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> font-famiy </span> </p> </td> 
+   <td colname="col1"> <p> </span> <span class="codeph"> famille de polices </p> </td> 
    <td colname="col2"> <p>Nom de la police. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> taille de police </span> </p> </td> 
+   <td colname="col1"> <p> </span> de taille de police <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Taille de police. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple - Pour configurer des étiquettes avec une police Helvetica® de 14 pixels :
+Exemple - Pour configurer des libellés avec une police Helvetica® de 14 pixels :
 
 ```
 .s7ecatalogviewer .s7favoritesview .s7label { 

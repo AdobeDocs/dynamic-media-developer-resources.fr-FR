@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67f8a58d-88f5-4993-9749-41a3c530adba
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/TZi2AdS9MK2A2WtCCJMmMRvwZ70Kdt2aeHOP--QtA4U'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: 1061
 ht-degree: 2%
 
 ---
@@ -16,9 +20,9 @@ ht-degree: 2%
 
 Format d’image de réponse.
 
-`fmt=format[,` `[`*`pixelType`*`]` `[`*`compression`*`]]`
+`fmt=format[,` `[`*`pixelType`*`]`,`[`*`compression`*`]]`
 
-*`format`* - avif-alpha | avif | eps | f4m | gif-alpha | gif | heic | jpeg | jpeg2000-alpha | jpeg2000 | jpegar-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alpha | png | png8-alpha | png8 | swf-alpha | swf | swf3-alpha | swf3 | tif-alpha | tif | web-alpha | webp
+*`format`* - avif-alpha | avif | eps | f4m | gif-alpha | gif | heic | jpeg | jpeg2000-alpha | jpeg2000 | jpegxr-alpha | jpegxr | jpg | m3u8 | pdf | pjpeg | png-alpha | png | png8-alpha | png8 | swf-alpha | swf3-alpha | swf3 | tif-alpha | tif | web-alpha | webp
 
 | *`format`* | Description |
 |---|---|
@@ -51,7 +55,7 @@ Format d’image de réponse.
 | `webp-alpha` | WebP avec perte et sans perte avec canal alpha. |
 | `webp` | WebP avec ou sans perte. |
 
-*`pixelType`* - rvb | grise | cmjn
+*`pixelType`* - rvb | gris | cmjn
 
 | *`pixelType`* | Description |
 |---|---|
@@ -59,7 +63,7 @@ Format d’image de réponse.
 | `gray` | Renvoie des données d’image en niveaux de gris. |
 | `rgb` | Renvoyer les données d’image RGB. |
 
-*`compression`* - jpeg | qui a des pertes | sans perte | Droit | aucun | fermeture éclair
+*`compression`* - jpeg | lossy | lossless | lzw | none | zip
 
 | *`compression`* | Description |
 |---|---|
@@ -88,7 +92,7 @@ Le tableau suivant répertorie les combinaisons valides de *`format`* et *`pixel
   <tr> 
    <th class="entry"> <b> <i> format </i> </b> </th> 
    <th class="entry"> <b> <i> pixelType </i> </b> </th> 
-   <th class="entry"> Type MIME de réponse <b></b> </th> 
+   <th class="entry"> Type MIME de réponse </b> <b></th> 
    <th class="entry"> <b>Incorporer le profil ICC</b> </th> 
    <th class="entry"> <b> Options</b> </th> 
   </tr> 
@@ -99,7 +103,7 @@ Le tableau suivant répertorie les combinaisons valides de *`format`* et *`pixel
    <td> <p>rvb</p> </td> 
    <td> <p> <span class="codeph"> &lt;image/avif&gt; </span> </p> </td> 
    <td> <p>Non </p> </td> 
-   <td> <p> <span class="codeph"> <span class="varname"> compression </span> </span> (<span class="codeph"> </span> avec perte, <span class="codeph"> sans perte </span>) </p> <p> <span class="codeph"> qlt= </span> est ignoré pour les <span class="codeph"> sans perte </span>. </p> <p>Comme il n’existe pas de concept de sous-échantillonnage de la chrominance avec le format WebP, si vous utilisez une deuxième valeur avec <span class="codeph"> qlt </span> (par exemple, <span class="codeph"> qlt=80,1 </span>), la deuxième valeur ( <span class="codeph"> 1 </span>) est ignorée. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> compression </span> </span> (</span> <span class="codeph"> avec perte, </span> sans perte <span class="codeph">) </p> <p> <span class="codeph"> qlt= </span> est ignoré pour les </span> sans perte <span class="codeph">. </p> <p>Comme il n’existe pas de concept de sous-échantillonnage de la chrominance avec le format WebP, si vous utilisez une deuxième valeur avec <span class="codeph"> qlt </span> (par exemple, <span class="codeph"> qlt=80,1 </span>), la deuxième valeur ( <span class="codeph"> 1 </span>) est ignorée. </p> </td> 
   </tr>
   <tr valign="top"> 
    <td colname="col1"> <p> eps </p> </td> 
@@ -127,7 +131,7 @@ Le tableau suivant répertorie les combinaisons valides de *`format`* et *`pixel
    <td> <p>rvb, gris </p> </td> 
    <td> <p> <span class="codeph"> &lt;image/jp2&gt; </span> </p> </td> 
    <td> <p>Non </p> </td> 
-   <td> <p> <span class="codeph"> <span class="varname"> compression </span> </span> (<span class="codeph"> </span> avec perte, <span class="codeph"> sans perte </span>) </p> <p> <span class="codeph"> qlt= </span> est ignoré pour les <span class="codeph"> sans perte </span>. </p> <p>Comme il n’existe pas de concept de sous-échantillonnage de la chrominance avec le format WebP, si vous utilisez une deuxième valeur avec <span class="codeph"> qlt </span> (par exemple, <span class="codeph"> qlt=80,1 </span>), la deuxième valeur ( <span class="codeph"> 1 </span>) est ignorée. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> compression </span> </span> (</span> <span class="codeph"> avec perte, </span> sans perte <span class="codeph">) </p> <p> <span class="codeph"> qlt= </span> est ignoré pour les </span> sans perte <span class="codeph">. </p> <p>Comme il n’existe pas de concept de sous-échantillonnage de la chrominance avec le format WebP, si vous utilisez une deuxième valeur avec <span class="codeph"> qlt </span> (par exemple, <span class="codeph"> qlt=80,1 </span>), la deuxième valeur ( <span class="codeph"> 1 </span>) est ignorée. </p> </td> 
   </tr>
   <tr valign="top"> 
    <td colname="col1"> <p> jpeg, jpg, pjpeg </p> </td> 
@@ -141,7 +145,7 @@ Le tableau suivant répertorie les combinaisons valides de *`format`* et *`pixel
    <td> <p>rvb </p> </td> 
    <td> <p> <span class="codeph"> &lt;image/vnd.ms-photo&gt; </span> </p> </td> 
    <td> <p>Non </p> </td> 
-   <td> <p> <span class="codeph"> <span class="varname"> compression </span> </span> (<span class="codeph"> </span> avec perte, <span class="codeph"> sans perte </span>) </p> <p> <span class="codeph"> qlt= </span> est ignoré pour les <span class="codeph"> sans perte </span>. </p> <p>Comme il n’existe pas de concept de sous-échantillonnage de la chrominance avec le format WebP, si vous utilisez une deuxième valeur avec <span class="codeph"> qlt </span> (par exemple, <span class="codeph"> qlt=80,1 </span>), la deuxième valeur ( <span class="codeph"> 1 </span>) est ignorée. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> compression </span> </span> (</span> <span class="codeph"> avec perte, </span> sans perte <span class="codeph">) </p> <p> <span class="codeph"> qlt= </span> est ignoré pour les </span> sans perte <span class="codeph">. </p> <p>Comme il n’existe pas de concept de sous-échantillonnage de la chrominance avec le format WebP, si vous utilisez une deuxième valeur avec <span class="codeph"> qlt </span> (par exemple, <span class="codeph"> qlt=80,1 </span>), la deuxième valeur ( <span class="codeph"> 1 </span>) est ignorée. </p> </td> 
   </tr>
   <tr valign="top"> 
    <td colname="col1"> <p> pdf </p> </td> 
@@ -183,7 +187,7 @@ Le tableau suivant répertorie les combinaisons valides de *`format`* et *`pixel
    <td> <p>rvb </p> </td> 
    <td> <p> <span class="codeph"> &lt;image/webp&gt; </span> </p> </td> 
    <td> <p>Non </p> </td> 
-   <td> <p> <span class="codeph"> <span class="varname"> compression </span> </span> (<span class="codeph"> </span> avec perte, <span class="codeph"> sans perte </span>) </p> <p> <span class="codeph"> qlt= </span> est ignoré pour les <span class="codeph"> sans perte </span>. </p> <p>Comme il n’existe pas de concept de sous-échantillonnage de la chrominance avec le format WebP, si vous utilisez une deuxième valeur avec <span class="codeph"> qlt </span> (par exemple, <span class="codeph"> qlt=80,1 </span>), la deuxième valeur ( <span class="codeph"> 1 </span>) est ignorée. </p> </td> 
+   <td> <p> <span class="codeph"> <span class="varname"> compression </span> </span> (</span> <span class="codeph"> avec perte, </span> sans perte <span class="codeph">) </p> <p> <span class="codeph"> qlt= </span> est ignoré pour les </span> sans perte <span class="codeph">. </p> <p>Comme il n’existe pas de concept de sous-échantillonnage de la chrominance avec le format WebP, si vous utilisez une deuxième valeur avec <span class="codeph"> qlt </span> (par exemple, <span class="codeph"> qlt=80,1 </span>), la deuxième valeur ( <span class="codeph"> 1 </span>) est ignorée. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 06f493d7-18c9-4bb1-add6-a0dfd1a689bd
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+TQID: 'https://experienceleague.adobe.com/UVYYOgpS7na7kqo-6uLLJmT0xBBsXg-Cm7HywOJtxbM'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: 57
 ht-degree: 5%
 
 ---
@@ -20,7 +24,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> -1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td> <p>Spécifie le comportement de préchargement du composant. Lorsqu’elle est définie sur <span class="codeph"> -1</span> , toutes les nuances sont chargées simultanément lorsque le composant est initialisé ou que l’actif est modifié. </p> <p>Lorsque la valeur est 0<span class="codeph"></span>, seules les échantillons visibles sont chargés. </p> <p><span class="codeph"><span class="varname"> PreloadNBR</span></span> définit le nombre de lignes/colonnes invisibles autour de la zone visible qui sont préchargées. </p> </td> 
+   <td> <p>Indique le comportement de préchargement du composant. Lorsque la valeur est définie sur <span class="codeph"> -1</span> tous les échantillons sont chargés simultanément lorsque le composant est initialisé ou que la ressource est modifiée. </p> <p>Lorsque cette valeur est définie sur <span class="codeph"> 0</span> seuls les échantillons visibles sont chargés. </p> <p><span class="codeph"><span class="varname"> preloadnbr</span></span> définit le nombre de lignes/colonnes invisibles autour de la zone visible qui sont préchargées. </p> </td> 
   </tr> 
  </tbody> 
 </table>

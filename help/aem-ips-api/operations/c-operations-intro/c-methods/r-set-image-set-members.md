@@ -5,9 +5,13 @@ title: setImageSetMembers
 feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,Admin
 exl-id: c30df5fe-e355-45d4-8c06-e396caca0d58
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+TQID: 'https://experienceleague.adobe.com/nacym3xe-m5gu-Hi2Gqkz-O03-CbqB9B-uCDRVkhrvc'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: 121
 ht-degree: 8%
 
 ---
@@ -16,7 +20,7 @@ ht-degree: 8%
 
 Définit la liste des ressources associées à une visionneuse d’images.
 
-Cette opération ignore le `pageReset` paramètre for `ImageSets` et `SpinSets` force la valeur sur true.
+Cette opération ignore le paramètre `pageReset` pour `ImageSets` et `SpinSets` et force la valeur sur true.
 
 ## Types d’utilisateurs autorisés {#section-8968d6a39a344cfc8521020d92ae8916}
 
@@ -29,11 +33,11 @@ Cette opération ignore le `pageReset` paramètre for `ImageSets` et `SpinSets` 
 
 >[!NOTE]
 >
->L’utilisateur doit disposer d’un accès en lecture et en écriture à la ressource de visionneuse d’images et d’un accès en lecture à chaque ressource membre.
+>L’utilisateur doit disposer d’un accès en lecture et écriture à la ressource de visionneuse d’images et d’un accès en lecture à chaque ressource de membre.
 
 ## Paramètres {#section-2f46efcd24c648aeacba738509426e46}
 
-**Entrée (setImageSetMembersParam)**
+**Input (setImageSetMembersParam)**
 
 <table id="table_0CBBB65BCEFD4125A4069A080DFC873A"> 
  <thead> 
@@ -46,22 +50,22 @@ Cette opération ignore le `pageReset` paramètre for `ImageSets` et `SpinSets` 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> CompanyHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd :chaîne</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle </span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Pseudo de l’entreprise. </p> </td> 
+   <td colname="col4"> <p>Identifiant de la société. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> AssetHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetHandle</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Poignée de visionneuse d’images. </td> 
+   <td colname="col4"> Gestionnaire de visionneuse d’images. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> Tableau de membres</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types :ImageSetMemberUpdateArray</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> memberArray</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> de sous-réseau :ImageSetMemberUpdateArray</span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Tableau des membres de la ressource appartenant à la visionneuse d’images. </td> 
+   <td colname="col4"> Tableau des membres de ressource appartenant à la visionneuse d’images. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -74,7 +78,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 Cet exemple de code utilise un tableau de membres pour définir les membres d’une visionneuse d’images.
 
-**Demander**
+**Requête**
 
 ```java
 <setImageSetMembersParam xmlns="http://www.scene7.com/IpsApi/xsd">

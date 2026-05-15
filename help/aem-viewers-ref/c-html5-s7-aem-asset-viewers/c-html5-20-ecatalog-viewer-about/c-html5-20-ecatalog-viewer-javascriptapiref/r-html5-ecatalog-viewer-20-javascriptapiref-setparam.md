@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 781982f6-488d-452c-8168-604c708ae6ce
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+TQID: 'https://experienceleague.adobe.com/z5aEqJTSqGqlUddusIp89KLC1ScnxFYgU8u6ZVP9roQ'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: 83
 ht-degree: 2%
 
 ---
@@ -28,11 +32,11 @@ Voir aussi [init](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-view
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> name </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} nom </span> paramètre. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> nom du paramètre. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> valeur <span class="varname"> </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} valeur </span> du paramètre . La valeur ne peut pas être codée en pourcentage. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} </span> valeur du paramètre . La valeur ne peut pas être codée en pourcentage. </p> </td> 
   </tr> 
  </tbody> 
 </table>

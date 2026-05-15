@@ -5,9 +5,14 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 39d7fc44-7605-4f93-b2f9-0a6e8bc76ec7
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/34sgN8GefR-rkAcikbnE3p3Yh6-1xJXEMfEg6Q74yLM'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: 176
 ht-degree: 4%
 
 ---
@@ -22,7 +27,7 @@ Les valeurs suivantes sont autorisées :
 
 <table id="simpletable_7904444FF9F14D678F05094CA9E45664"> 
  <tr class="strow"> 
-  <td class="stentry"> <p>01 </p></td> 
+  <td class="stentry"> <p>0 </p></td> 
   <td class="stentry"> <p>Titre uniquement. Renvoie une brève description générale de l’erreur. </p></td> 
  </tr> 
  <tr class="strow"> 

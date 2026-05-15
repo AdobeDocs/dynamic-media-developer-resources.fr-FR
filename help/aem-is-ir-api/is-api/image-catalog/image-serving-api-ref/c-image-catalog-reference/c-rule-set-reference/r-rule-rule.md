@@ -5,16 +5,20 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 4fabd469-c80c-422a-80b0-3d31ce191d58
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/Cb5DzbRJBDdUEt-daR36rT6CRPMkclg0KtU47IdzWik'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: 297
 ht-degree: 2%
 
 ---
 
 # règle{#rule}
 
-Élément de règle de requête. Une ou plusieurs règles sont facultatives dans l’élément `<ruleset>` .
+Élément de règle de requête. Une ou plusieurs règles sont facultatives dans l’élément `<ruleset>`.
 
 ## Attributs {#section-d4a3b0496c0c4aa5bd7da87203b9379b}
 
@@ -22,7 +26,7 @@ ht-degree: 2%
 
 `Replace = "first" | "all"` : facultatif. La valeur par défaut est « first ».
 
-`RequestType` = *»`types` »* : facultatif. Spécifie à quel contexte d&#39;entrée la règle s&#39;applique. *`types`* est une liste séparée par des virgules, qui peut inclure un ou plusieurs des jetons répertoriés dans le tableau suivant. Si `RequestType` cette option n’est pas spécifiée, la règle s’applique aux demandes reçues sur tous les contextes pris en charge.
+`RequestType` = *« `types`«* : facultatif. Spécifie à quel contexte d&#39;entrée la règle s&#39;applique. *`types`* est une liste séparée par des virgules, qui peut inclure un ou plusieurs des jetons répertoriés dans le tableau suivant. Si `RequestType` n’est pas spécifié, la règle s’applique aux requêtes reçues sur tous les contextes pris en charge.
 
 <table id="table_4935E1ED03624DA6AF3F8DC9AAA10237"> 
  <thead> 
@@ -36,12 +40,12 @@ ht-degree: 2%
   <tr> 
    <td> <p> <span class="codeph">'est </span> </p> </td> 
    <td> <p> <span class="filepath"> /is/image/</span> </p> </td> 
-   <td> <p>Application aux demandes de diffusion d’images </p> </td> 
+   <td> <p>Appliqué aux requêtes de diffusion d’images </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> Ir</span> </p> </td> 
+   <td> <p> <span class="codeph"> ir</span> </p> </td> 
    <td> <p> <span class="filepath"> /ir/render/</span> </p> </td> 
-   <td> <p>Appliqué aux demandes de rendu d’image </p> </td> 
+   <td> <p>Appliqué aux requêtes de rendu d’image </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> statique</span> </p> </td> 
@@ -51,9 +55,9 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-**`Name = "text"`** : facultatif. Utilisé pour identifier l’élément dans les `<rule>` journaux de débogage et les messages d’erreur.
+**`Name = "text"`** : facultatif. Utilisé pour identifier l’élément `<rule>` dans les journaux de débogage et les messages d’erreur.
 
-`  *`Attribut`* ="value"` : facultatif. `<rule>` Elements peut définir n’importe lequel des attributs suivants dans n’importe quelle combinaison. S’ils sont spécifiés et que la règle est correctement mise en correspondance, ils remplacent les attributs de catalogue correspondants pour cette demande. La valeur par défaut est `RequestType="is"`.
+`  *`Attribut`* ="value"` : facultatif. Les éléments `<rule>` peuvent définir l’un des attributs suivants dans n’importe quelle combinaison. Si elles sont spécifiées, et que la règle correspond correctement, elles remplacent les attributs de catalogue correspondants pour cette requête. La valeur par défaut est `RequestType="is"`.
 
 <table id="table_67AED5BEADDF4DAC99B5EF46438C1ABC"> 
  <thead> 
@@ -81,28 +85,28 @@ ht-degree: 2%
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> RequestLock</span> </p> </td> 
-   <td> <p> <a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestlock.md#reference-8bbe2f581be847d3b9fa123e8e5e94b0" type="reference" format="dita" scope="local"> attribut ::RequestLock</a> </p> </td> 
+   <td> <p> <a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestlock.md#reference-8bbe2f581be847d3b9fa123e8e5e94b0" type="reference" format="dita" scope="local"> attribute::RequestLock</a> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> Demander l’obfuscation</span> </p> </td> 
-   <td> <p> <a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestobfuscation.md#reference-730a3330253343f893419ebd52baf0bd" type="reference" format="dita" scope="local"> attribut ::RequestObfuscation</a> </p> </td> 
+   <td> <p> <span class="codeph"> RequestObfuscation</span> </p> </td> 
+   <td> <p> <a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-requestobfuscation.md#reference-730a3330253343f893419ebd52baf0bd" type="reference" format="dita" scope="local"> attribute::RequestObfuscation</a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> RootUrl</span> </p> </td> 
-   <td> <p> <a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rooturl.md#reference-3b0e43881020409cbe642366913cf137" type="reference" format="dita" scope="local"> attribut ::RootUrl</a> </p> </td> 
+   <td> <p> <a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-rooturl.md#reference-3b0e43881020409cbe642366913cf137" type="reference" format="dita" scope="local"> attribute::RootUrl</a> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> SavePath</span> </p> </td> 
-   <td> <p> <a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-savepath.md#reference-9c4686dc153b41d8a0751cde83615432" type="reference" format="dita" scope="local"> attribut ::SavePath</a> </p> </td> 
+   <td> <p> <a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-savepath.md#reference-9c4686dc153b41d8a0751cde83615432" type="reference" format="dita" scope="local"> attribute::SavePath</a> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> Filigrane</span> </p> </td> 
-   <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-watermark.md#reference-942b50acb2dd43a5ae498dc41ea9ac9b" type="reference" format="dita" scope="local"> attribut ::Watermark</a> </p> </td> 
+   <td> <p> <span class="codeph"> WaterMark </span> </p> </td> 
+   <td> <p><a href="../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-watermark.md#reference-942b50acb2dd43a5ae498dc41ea9ac9b" type="reference" format="dita" scope="local"> attribute::WaterMark</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Reportez-vous à la description de l’attribut de catalogue d’images correspondant pour plus de détails.
+Pour plus d’informations, reportez-vous à la description de l’attribut de catalogue d’images correspondant.
 
 Les attributs Expiration remplacent uniquement les valeurs d’attribut par défaut. Le remplacement est ignoré si une valeur de `catalog::Expiration` spécifique s’applique à la requête.
 
@@ -118,11 +122,11 @@ Les attributs Expiration remplacent uniquement les valeurs d’attribut par déf
   <td class="stentry"> <p>Facultatif </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> &lt;addressfilter&gt;</span>&lt;/addressfilter&gt; </p></td> 
+  <td class="stentry"> <p><span class="codeph"> &lt;addressfilter&gt;</span> </p></td> 
   <td class="stentry"> <p>Facultatif </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"> &lt;header&gt;</span>&lt;/header&gt; </p></td> 
+  <td class="stentry"> <p><span class="codeph"> &lt;header&gt;</span> </p></td> 
   <td class="stentry"> <p>Facultatif </p></td> 
  </tr> 
 </table>
@@ -135,4 +139,4 @@ Si `<expression>` n’est pas spécifié, tout chemin correspond et `<substituti
 
 Si `<substitution>` n’est pas spécifié, aucune transformation de chemin ou de requête ne se produit, mais tous les attributs de catalogue spécifiés sont remplacés. Si `<substitution>` est vide, la sous-chaîne correspondante est supprimée.
 
-L’objet `<addressfilter>` est appliqué uniquement en cas de correspondance et avant l’application des règles de requête.
+Le `<addressfilter>` est appliqué uniquement lorsqu’une correspondance se produit et avant l’application des règles de requête.

@@ -1,20 +1,25 @@
 ---
-description: Définit les champs de métadonnées du profil ICC.
+description: Définit les champs de métadonnées de profil ICC.
 solution: Experience Manager
-title: Champs batchSetIccProfile
+title: batchSetIccProfileFields
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d10a30ca-afa7-4ef0-8cef-0329b0068bf3
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+TQID: 'https://experienceleague.adobe.com/YmeLGJ9N-W-JOU7oG7utN4d1Q2pV17wtqocdrwYD-lQ'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: 137
 ht-degree: 13%
 
 ---
 
-# Champs batchSetIccProfile{#batchseticcprofilefields}
+# batchSetIccProfileFields{#batchseticcprofilefields}
 
-Définit les champs de métadonnées du profil ICC.
+Définit les champs de métadonnées de profil ICC.
 
 Syntaxe
 
@@ -29,26 +34,26 @@ Syntaxe
 
 ## Paramètres {#section-75a02b55ae0d444ca26b59aac6e86d6f}
 
-**Entrée (batchSetIccProfileFields)**
+**Input (batchSetIccProfileFields)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| CompanyHandle | `xsd:string` | Oui | Gérez vers la société qui contient les profils ICC. |
-| Mettre à jour la matrice | `xsd:string` | Oui | Tableau de mises à jour de profil ICC. |
+| companyHandle | `xsd:string` | Oui | Gérer vers la société qui contient les profils ICC. |
+| mettre à jour le tableau | `xsd:string` | Oui | Tableau des mises à jour du profil ICC. |
 
 **Output (batchSetIccProfileFields)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| Compte de succès | `xsd:int` | Oui | Nombre de champs de profil ICC correctement définis. |
-| Nombre d’avertissements | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération a tenté de définir les champs de profil ICC. |
-| Nombre d’erreurs | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération a tenté de définir les champs de profil ICC. |
-| Tableau des détails de l’avertissement | `types:AssetOperationFaultArray` | Non | Tableau de détails associé aux ressources qui ont généré des avertissements lorsque l’opération a tenté d’appliquer les mises à jour. |
-| Tableau errorDetailArray | `types:AssetOperationFaultArray` | Non | Tableau de détails associé aux ressources qui ont généré des erreurs lorsque l’opération a tenté d’appliquer les mises à jour. |
+| successCount | `xsd:int` | Oui | Nombre de champs de profil ICC définis avec succès. |
+| warningCount | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération a tenté de définir les champs de profil ICC. |
+| errorCount | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération a tenté de définir les champs de profil ICC. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Non | Tableau de détails associés aux ressources qui ont généré des avertissements lorsque l’opération a tenté d’appliquer les mises à jour. |
+| errorDetailArray | `types:AssetOperationFaultArray` | Non | Tableau de détails associés aux ressources qui ont généré des erreurs lorsque l’opération a tenté d’appliquer les mises à jour. |
 
 ## Exemples {#section-5dc90cfbd9b1411485b44859032f7cb9}
 
-**Demander**
+**Requête**
 
 ```java {.line-numbers}
 <batchSetIccProfileFieldsParam xmlns="http://www.scene7.com/IpsApi/xsd/2009-07-31">

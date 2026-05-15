@@ -1,22 +1,26 @@
 ---
-description: Définit les commandes du protocole Image Serving ou Image Rendering pour la ressource spécifiée. Ces commandes modifient la représentation de la ressource sans la détruire.
+description: Définit les commandes de protocole de diffusion d’images ou de rendu d’images pour la ressource spécifiée. Ces commandes modifient la représentation de la ressource sans la détruire.
 solution: Experience Manager
 title: setUrlModifier
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 9e96ffc8-5a38-46b8-9ba8-956c86b32c7a
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/dcz-gnw7NjHKN7EvsGvSRDmu4dgCUo2PPr3GjYLVoOA'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: 175
 ht-degree: 6%
 
 ---
 
 # setUrlModifier{#seturlmodifier}
 
-Définit les commandes du protocole Image Serving ou Image Rendering pour la ressource spécifiée. Ces commandes modifient la représentation de la ressource sans la détruire.
+Définit les commandes de protocole de diffusion d’images ou de rendu d’images pour la ressource spécifiée. Ces commandes modifient la représentation de la ressource sans la détruire.
 
-Pour Image Server, les commandes du `urlModifier` paramètre sont publiées dans le champ Modificateur catalog et appliquées avant toute commande spécifiée dans l’URL de requête. Les commandes de `urlPostApplyModifier` sont publiées dans le champ de `PostModifier` catalogue et remplacent toutes les commandes de l’URL de requête ou dans `urlModifier`. Pour Image Rendering, les commandes dans `urlModifier` et `urlPostApplyModifier` sont concaténées et publiées dans le champ Modificateur catalogue.
+Pour la diffusion d’images, les commandes du paramètre `urlModifier` sont publiées dans le champ Catalogue des modificateurs et appliquées avant toute commande spécifiée sur l’URL de la requête. Dans `urlPostApplyModifier`, les commandes sont publiées dans le champ Catalogue de `PostModifier` et remplacent toutes les commandes sur l’URL de la requête ou dans `urlModifier`. Pour le rendu d’image, les commandes dans `urlModifier` et `urlPostApplyModifier` sont concaténées et publiées dans le champ Catalogue des modificateurs .
 
 ## Types d’utilisateurs autorisés {#section-fefcd732ccf64c78956606538f96c73d}
 
@@ -29,14 +33,14 @@ Pour Image Server, les commandes du `urlModifier` paramètre sont publiées dans
 
 ## Paramètres {#section-3304fe49bbe24ea1a886e19aaf41fb7d}
 
-**Entrée (setUrlModifierParam)**
+**Input (setUrlModifierParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| CompanyHandle | `xsd:string` | Oui | Pseudo de l’entreprise. |
-| AssetHandle | `xsd:string` | Oui | Gestion des ressources. |
-| Modificateur d’url | `xsd:string` | Non | Commandes du protocole Image Serving ou Image Rendering à appliquer avant la ou `urlPostApplyModifier` les commandes. |
-| urlPostApplyModifier | `xsd:string` | Non | Commandes du protocole Image Serving ou Image Rendering à appliquer après `urlModifier` et à requérir. |
+| companyHandle | `xsd:string` | Oui | Identifiant de la société. |
+| assetHandle | `xsd:string` | Oui | Identifiant de ressource. |
+| urlModifier | `xsd:string` | Non | Commandes de protocole de diffusion d’images ou de rendu d’images à appliquer avant les commandes request ou `urlPostApplyModifier`. |
+| urlPostApplyModifier | `xsd:string` | Non | Commandes de protocole de diffusion d’images ou de rendu d’images à appliquer après les commandes `urlModifier` et request. |
 
 **Output (setUrlModifierReturn)**
 
@@ -44,7 +48,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-801d4b9b986443f59a5783a3d6bf44aa}
 
-**Demander**
+**Requête**
 
 ```java
 <setUrlModifierParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

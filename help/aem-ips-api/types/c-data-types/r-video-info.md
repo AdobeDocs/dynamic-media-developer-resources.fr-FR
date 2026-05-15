@@ -1,20 +1,24 @@
 ---
-description: Propriétés du contenu vidéo.
+description: Propriétés de la ressource vidéo.
 solution: Experience Manager
-title: Infos Vidéo
+title: VideoInfo
 feature: Dynamic Media Classic,SDK/API,Video
 role: Developer,Admin
 exl-id: 4f01d54b-1799-40f8-8c46-f170ceffdd25
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/ijbPoZ4-t1WRIN63MwmNEVmSxdoAuL-tYvmbwznjMO0'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: 60
 ht-degree: 8%
 
 ---
 
 # [!DNL VideoInfo]{#videoinfo}
 
-Propriétés du contenu vidéo.
+Propriétés de la ressource vidéo.
 
 Syntaxe
 
@@ -22,10 +26,10 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| Chemin d’origine | `xsd:string` | Chemin d’accès relatif à la vidéo transférée. |
-| Fichier d’origine | `xsd:string` | Nom du fichier vidéo d’origine. |
-| Taille du fichier | `xsd:int` | Taille de fichier. |
-| Chemin d’accès à l’image | `xsd:string` | Chemin d’accès relatif au fichier vidéo. |
-| Fichier d’image | `xsd:string` | Nom du fichier vidéo. |
-| Chemin optimisé | `xsd:string` | Chemin vers le fichier vidéo optimisé IPS. |
-| Fichier optimisé | `xsd:string` | Nom du fichier vidéo optimisé IPS. |
+| originalPath | `xsd:string` | Chemin d’accès relatif à la vidéo chargée. |
+| originalFile | `xsd:string` | Nom du fichier vidéo d’origine |
+| fileSize | `xsd:int` | Taille du fichier. |
+| imagePath | `xsd:string` | Chemin relatif au fichier vidéo. |
+| imageFile | `xsd:string` | Nom du fichier vidéo. |
+| optimizedPath | `xsd:string` | Chemin d’accès au fichier vidéo optimisé pour IPS. |
+| optimizedFile | `xsd:string` | Nom de fichier du fichier vidéo optimisé pour IPS. |

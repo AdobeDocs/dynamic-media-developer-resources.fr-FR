@@ -1,20 +1,24 @@
 ---
-description: Obtient l’appartenance d’un utilisateur à un tableau de la société.
+description: Obtient les appartenances d’un utilisateur dans un tableau d’entreprise.
 solution: Experience Manager
 title: getCompanyMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 53af8a97-208c-4c44-93d6-aa36a459af51
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/h-fjzt4o5zdyVkWh9pkWDLs6KXTF3--s4koIQv77Zno'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: 81
 ht-degree: 16%
 
 ---
 
 # getCompanyMembership{#getcompanymembership}
 
-Obtient l’appartenance d’un utilisateur à un tableau de la société.
+Obtient les appartenances d’un utilisateur dans un tableau d’entreprise.
 
 Syntaxe
 
@@ -37,19 +41,19 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| Poignée utilisateur | `xsd:string` | Non | Handle destiné à l’utilisateur dont vous souhaitez obtenir les appartenances. |
+| userHandle | `xsd:string` | Non | Identifiant de l’utilisateur dont vous souhaitez obtenir les appartenances. |
 
 **Output (getCompanyMembershipReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| Tableau d’adhérents | `types:CompanyMembershipArray` | Oui | Gamme d’adhésions d’entreprise. |
+| membershipArray | `types:CompanyMembershipArray` | Oui | Tableau des adhésions d’entreprise. |
 
 ## Exemples {#section-e4958d104ea344a4a79f57d07b46eba7}
 
-Cet exemple de code prend un pseudonyme d’utilisateur et obtient toutes les appartenances d’entreprise de l’utilisateur dans un tableau. La réponse a été tronquée par souci de concision.
+Cet exemple de code prend un handle d’utilisateur et obtient tous les abonnements d’entreprise de l’utilisateur dans un tableau . La réponse a été tronquée par souci de concision.
 
-**Demander**
+**Requête**
 
 ```java
 <ns1:getCompanyMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

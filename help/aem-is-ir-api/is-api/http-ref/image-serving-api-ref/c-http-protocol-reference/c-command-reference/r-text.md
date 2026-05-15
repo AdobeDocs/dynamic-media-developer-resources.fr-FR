@@ -1,41 +1,45 @@
 ---
 title: texte
-description: Texte de calque. Spécifie le contenu de texte et de mise en forme pour un calque de texte.
+description: Texte du calque. Spécifie le texte et le contenu de mise en forme d’un calque de texte.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3966b180-bef1-4fad-af71-ba42bbdffd59
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+TQID: 'https://experienceleague.adobe.com/ugojsTLZIxRW5mD7tyyCHZxGCYKrq1UuMkSsOn-Lc3k'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: 172
 ht-degree: 4%
 
 ---
 
 # texte{#text}
 
-Texte de calque. Spécifie le contenu de texte et de mise en forme pour un calque de texte.
+Texte du calque. Spécifie le texte et le contenu de mise en forme d’un calque de texte.
 
-` text= *`corde`*`
+` text= *`chaîne`*`
 
 <table id="simpletable_6C095D7F69874A8EA3D1D52103FA520C"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> corde </span> </p> </td> 
-  <td class="stentry"> <p>Chaîne au format RTF (Rich-Text Formated) ou chaîne de texte brut. </p> </td> 
+  <td class="stentry"> <p> </span> de chaîne <span class="varname"> </p> </td> 
+  <td class="stentry"> <p>Chaîne RTF (Rich-text-formatted) ou chaîne en texte brut. </p> </td> 
  </tr> 
 </table>
 
-Tout le contrôle de la police, de la couleur de la police et du formatage des paragraphes est réalisé à l’aide des commandes RTF. Pour plus d’informations, reportez-vous à [la section Formatage du](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c) texte.
+Tous les contrôles de police, de couleur de police et de mise en forme de paragraphe sont réalisés à l’aide des commandes RTF. Pour plus d’informations, voir [Formatage de texte](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c).
 
 `text=` prend en charge la mise à l’échelle automatique du texte pour remplir le rectangle de calque spécifié par `size=`.
 
 Voir [textAttr=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d).
 
-`text=` Prend en charge le dimensionnement automatique du calque de texte pour l’adapter au texte rendu (lorsque `size=` n’est pas spécifié ou lorsque seule la largeur est spécifiée). Notez que dans ce cas, une seule des commandes d’alignement RTF , `\ql` `\qr`et `\qc` peut être appliquée ; une erreur est renvoyée autrement.
+`text=` prend en charge le dimensionnement automatique du calque de texte pour qu’il s’adapte au texte rendu (lorsque `size=` n’est pas spécifié ou que seule la largeur est spécifiée). Notez que dans ce cas, une seule des commandes d’alignement RTF `\ql`, `\qr` et `\qc` peut être appliquée ; une erreur est renvoyée dans le cas contraire.
 
 ## Propriétés {#section-8c0f020094a44c6b858454ef91ab4edf}
 
-Attribut de calque. S’applique à `layer=0` si `layer=comp`. Mutuellement exclusif avec `src=` et `textPs=` dans le même calque ; la dernière occurrence de `text=`, `textPs=`et `src=` prévaut et détermine s’il s’agit d’une image ou d’un calque de texte. Ignoré par les calques d’effets.
+Attribut de calque. S’applique aux `layer=0` si `layer=comp`. Mutuellement exclusif avec `src=` et `textPs=` dans le même calque ; la dernière occurrence de `text=`, `textPs=` et `src=` prévaut et détermine s’il s’agit d’un calque d’image ou de texte. Ignoré par les calques d’effet.
 
 ## Par défaut {#section-58958671e0ad479e8d5f6c1d41d7dc74}
 
@@ -43,8 +47,8 @@ Aucune
 
 ## Exemple {#section-d011f765ec5c418d814a821019b0eef0}
 
-Voir les exemples dans [Formatage de](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c) texte et [Exemple A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac) dans [Modèles](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).
+Consultez les exemples dans [Mise en forme de texte](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c) et [Exemple A](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/r-example-a.md#reference-c78ea82e8a1646738e764fa6685dfbac) dans [Modèles](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).
 
 ## Voir aussi {#section-207b779ab67342a5acd343e6bcc749c4}
 
-[Formatage de](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c) texte, [positionnement de](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-positioning.md#reference-f647443d92914f4b89a7cc5a83267d87) texte, [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1), [textAttr=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d), [textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767)
+[Formatage de texte](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/c-text-formatting.md#concept-0d3136db7f6f49668274541cd4b6364c), [Positionnement du texte](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-text-formatting/r-text-positioning.md#reference-f647443d92914f4b89a7cc5a83267d87), [src=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-src.md#reference-f6506637778c4c69bf106a7924a91ab1), [textAttr=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textattr.md#reference-ff00484fa3244286abeff34911f7ec0d), [textPs=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-textps.md#reference-4209a2a6169f44278da2647cfb0cd767)

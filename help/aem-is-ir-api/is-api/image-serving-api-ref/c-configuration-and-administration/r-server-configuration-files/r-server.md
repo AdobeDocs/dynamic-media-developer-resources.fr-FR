@@ -1,26 +1,31 @@
 ---
-description: Contient les paramètres du serveur de plateforme.
+description: Contient les paramètres du serveur de la plateforme.
 solution: Experience Manager
 title: server.xml
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin,User
 exl-id: 72b343ba-0d4b-405a-ace3-d44c4d4c44b0
-source-git-commit: bf31e5226cbb763e2fb82391772b64e5d5c89fae
+TQID: 'https://experienceleague.adobe.com/XBxGVJnRV-RYoKBJD5-Q6qiIhwIAJKzus53izIHokfs'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: 80
 ht-degree: 0%
 
 ---
 
 # server.xml{#server-xml}
 
-Contient les paramètres du serveur de plateforme.
+Contient les paramètres du serveur de la plateforme.
 
-Lors de la modification de ce fichier XML, vous devez veiller à conserver une syntaxe XML valide, sinon le [!DNL Platform Server] risque de ne pas démarrer.
+Lors de la modification de ce fichier XML, veillez à conserver une syntaxe XML valide, sinon le [!DNL Platform Server] risque de ne pas démarrer.
 
-Pour que les modifications prennent effet, le [!DNL Platform Server] doit être redémarré après la modification de ce fichier.
+Pour que les modifications soient prises en compte, le [!DNL Platform Server] doit être redémarré après avoir modifié ce fichier.
 
-Le diagramme suivant montre les paramètres qui peuvent être modifiés dans ce fichier. Reportez-vous aux sections correspondantes plus haut dans ce document pour une description de ces paramètres. Notez que ce diagramme n’est pas une représentation complète de [!DNL server.xml].
+Le diagramme suivant illustre les paramètres qui peuvent être modifiés dans ce fichier. Reportez-vous aux sections correspondantes plus haut dans ce document pour une description de ces paramètres. Notez que ce diagramme n’est pas une représentation complète de [!DNL server.xml].
 
 ```
 <Server>

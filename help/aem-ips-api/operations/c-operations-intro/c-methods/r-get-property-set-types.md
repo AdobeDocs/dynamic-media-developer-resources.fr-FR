@@ -1,20 +1,25 @@
 ---
-description: Obtient les types de jeux de propriétés associés à la société spécifiée ou les types de jeux de propriétés globaux si aucune société n’est spécifiée.
+description: Obtient les types de jeux de propriétés associés à la société spécifiée ou les types de jeux de propriétés globaux si aucune société n'est spécifiée.
 solution: Experience Manager
 title: getPropertySetTypes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 7686d30b-e071-4950-8af1-4dd25312ce4b
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/SNlzriBYIP3gHh5Pmgkzrw6M8Dd649uo-1pAUHiGOpA'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: 112
 ht-degree: 11%
 
 ---
 
 # getPropertySetTypes{#getpropertysettypes}
 
-Obtient les types de jeux de propriétés associés à la société spécifiée ou les types de jeux de propriétés globaux si aucune société n’est spécifiée.
+Obtient les types de jeux de propriétés associés à la société spécifiée ou les types de jeux de propriétés globaux si aucune société n&#39;est spécifiée.
 
 Syntaxe
 
@@ -32,7 +37,7 @@ Syntaxe
 
 ## Paramètres {#section-ac3ed9e036b54ea993f544046ff0e15d}
 
-**Entrée (getPropertySetTypesParam)**
+**Input (getPropertySetTypesParam)**
 
 <table id="table_2590368FEEF04AD4B074412CBBA90F88"> 
  <thead> 
@@ -45,10 +50,10 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> CompanyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4">Poignée de l’entreprise à laquelle les types de jeux de propriétés sont associés. <p>Omet si vous souhaitez renvoyer des types de propriétés globaux. </p> </td> 
+   <td colname="col4">Identifiant de la société à laquelle les types de jeux de propriétés sont associés. <p>Omettez si vous souhaitez renvoyer des types de jeux de propriétés globaux. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,11 +62,11 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| Tableau de type | `types:PropertySetTypeArray` | Oui | Un tableau des types de jeux de propriétés associés à la société spécifiée ou les types de jeux de propriétés globaux si aucune société n’a été spécifiée. |
+| typeArray | `types:PropertySetTypeArray` | Oui | Tableau de types de jeux de propriétés associés à la société spécifiée ou types de jeux de propriétés globaux si aucune société n&#39;a été spécifiée. |
 
 ## Exemples {#section-280c406a90864409856aee44d4069a52}
 
-**Demander**
+**Requête**
 
 ```java
 <getPropertySetTypesParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

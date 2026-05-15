@@ -5,9 +5,14 @@ title: StaticContentRootPath
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 55ca44cd-4330-47e6-94cc-58c078d34bbd
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/u9O8XaMdnb02UPw1uIjhYjzpFvMk-tFfh3UqlcVnNcc'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: 113
 ht-degree: 2%
 
 ---
@@ -16,7 +21,7 @@ ht-degree: 2%
 
 Chemin d’accès racine des données de contenu statique. Chemin d’accès absolu ou segment de chemin relatif pour le dossier racine des données de contenu statiques de ce catalogue d’images.
 
-Voir [&#x200B; Gestion des données Source](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173) pour plus d’informations sur les chemins d’accès racine au serveur.
+Voir [ Gestion des données Source](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-configuration-and-administration.md#concept-1ec4d9f0e58a430cae045761f1ff9173) pour plus d’informations sur les chemins d’accès racine au serveur.
 
 ## Propriétés {#section-f8e3986096294b36948d43aafdc3e795}
 

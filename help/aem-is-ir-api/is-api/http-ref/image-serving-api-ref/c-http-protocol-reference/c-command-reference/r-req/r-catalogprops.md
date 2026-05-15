@@ -5,16 +5,20 @@ title: catalogprops
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 28bf68e8-d424-418e-99a7-5298a1d83341
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/Ct7Sj0HAQT4rSfu32PKf329sDqCcTSZDdav5FoxquHQ'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: 217
 ht-degree: 4%
 
 ---
 
 # catalogprops{#catalogprops}
 
-Propriétés du catalogue d’images. Renvoie les attributs communs du catalogue d’images spécifiés dans le chemin d’accès de la requête.
+Propriétés du catalogue d’images. Renvoie les attributs communs du catalogue d’images spécifié dans le chemin d’accès de la requête.
 
 `req=catalogprops[,text|javascript|xml|{json[&id= *`reqId`*]}]`
 
@@ -39,13 +43,13 @@ Les valeurs de propriété suivantes sont renvoyées :
  <tbody> 
   <tr> 
    <td> <b> la propriété </b> </td> 
-   <td> Type de <b></b> </td> 
+   <td> Type de </b> <b></td> 
    <td> <b> Attribut de catalogue correspondant</b> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.bkgColor</span> </p> </td> 
-   <td> <p> sortilège </p> </td> 
-   <td> <p> <span class="codeph"> attribut ::BkgColor</span> </p> </td> 
+   <td> <p> hexadécimal </p> </td> 
+   <td> <p> <span class="codeph"> attribute::BkgColor</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog::defaultExt</span> </p> </td> 
@@ -55,7 +59,7 @@ Les valeurs de propriété suivantes sont renvoyées :
   <tr> 
    <td> <p> <span class="codeph"> catalog.defaultPix</span> </p> </td> 
    <td> <p> int,int </p> </td> 
-   <td> <p> <span class="codeph"> attribut ::D efaultPix</span> </p> </td> 
+   <td> <p> <span class="codeph"> attribute::DefaultPix</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.defaultThumbPix</span> </p> </td> 
@@ -80,7 +84,7 @@ Les valeurs de propriété suivantes sont renvoyées :
   <tr valign="top"> 
    <td> <p> <span class="codeph"> catalog.fileTime</span> </p> </td> 
    <td> <p> chaîne </p> </td> 
-   <td> <p> <span class="codeph">attribute ::LastModified</span> ou, à défaut, l’heure de dernière modification du fichier<span class="varname"></span> de .ini catalogue <span class="filepath"></span> </p> </td> 
+   <td> <p> <span class="codeph"> attribute::LastModified</span> ou, s’il n’est pas présent, l’heure de dernière modification du fichier .ini</span> de catalogue <span class="varname"></span><span class="filepath"> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.jpegQuality</span> </p> </td> 
@@ -90,11 +94,11 @@ Les valeurs de propriété suivantes sont renvoyées :
   <tr> 
    <td> <p> <span class="codeph"> catalog.maxPix</span> </p> </td> 
    <td> <p> int,int </p> </td> 
-   <td> <p> <span class="codeph"> attribut ::MaxPix</span> </p> </td> 
+   <td> <p> <span class="codeph"> attribute::MaxPix</span> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <span class="codeph"> catalog.printRésolution</span> </p> </td> 
-   <td> <p> Int </p> </td> 
+   <td> <p> <span class="codeph"> catalog.printResolution</span> </p> </td> 
+   <td> <p> int </p> </td> 
    <td> <p> <span class="codeph"> attribute::PrintResolution</span> </p> </td> 
   </tr> 
   <tr> 
@@ -105,12 +109,12 @@ Les valeurs de propriété suivantes sont renvoyées :
   <tr> 
    <td> <p> <span class="codeph"> catalog.resMode</span> </p> </td> 
    <td> <p> énumération </p> </td> 
-   <td> <p> <span class="codeph"> attribut ::ResMode</span> </p> </td> 
+   <td> <p> <span class="codeph"> attribute::ResMode</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.resolution</span> </p> </td> 
    <td> <p> réel </p> </td> 
-   <td> <p> <span class="codeph"> attribut ::Résolution</span> </p> </td> 
+   <td> <p> <span class="codeph"> attribute::Resolution</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbBkgColor</span> </p> </td> 
@@ -120,7 +124,7 @@ Les valeurs de propriété suivantes sont renvoyées :
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbHorizAlign</span> </p> </td> 
    <td> <p> énumération </p> </td> 
-   <td> <p> <span class="codeph"> attribut ::ThumbHorizAlign</span> </p> </td> 
+   <td> <p> <span class="codeph"> attribute::ThumbHorizAlign</span> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> <span class="codeph"> catalog.thumbRes</span> </p> </td> 
@@ -140,7 +144,7 @@ Les valeurs de propriété suivantes sont renvoyées :
   <tr> 
    <td> <p> <span class="codeph"> catalog::watermark</span> </p> </td> 
    <td> <p> chaîne </p> </td> 
-   <td> <p> <span class="codeph"> attribute ::Watermark</span> </p> </td> 
+   <td> <p> <span class="codeph"> attribute::Watermark</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>

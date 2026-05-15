@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: a43ca095-2a59-4a0c-a460-f465cbd4ed5f
-source-git-commit: 5a7af31d6788ded908a5e1630a3b1b0723e6fb4b
+TQID: 'https://experienceleague.adobe.com/99Ro91SwAOW1pEl1NIsq5pyCiEfNPGFueyX6oDpouuU'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: 75
 ht-degree: 4%
 
 ---
@@ -20,7 +24,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jpg|jpeg|png|png-alpha|gif|gif-alpha</span> </p> </td> 
-   <td colname="col2"> <p> Spécifie le format d’image utilisé par le composant pour charger les images à partir d’Image Server. </p> <p>Si le format spécifié se termine par <span class="codeph"> -alpha</span>, le composant effectue le rendu des images en tant que contenu transparent. </p> <p>Pour tous les autres formats d’image, le composant traite les images comme opaques. Le composant possède un arrière-plan blanc par défaut. Par conséquent, pour la rendre transparente, définissez la propriété CSS de couleur <span class="codeph"> d’arrière-plan</span> sur <span class="codeph"> transparent</span>. </p> </td> 
+   <td colname="col2"> <p> Indique le format d’image utilisé par le composant pour charger des images à partir du serveur d’images. </p> <p>Si le format spécifié se termine par <span class="codeph"> -alpha</span>, le composant effectue le rendu des images en tant que contenu transparent. </p> <p>Pour tous les autres formats d’image, le composant traite les images comme opaques. Par défaut, le composant affiche un arrière-plan blanc. Par conséquent, pour le rendre transparent, définissez la propriété <span class="codeph"> background-color</span> CSS sur <span class="codeph"> transparent</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

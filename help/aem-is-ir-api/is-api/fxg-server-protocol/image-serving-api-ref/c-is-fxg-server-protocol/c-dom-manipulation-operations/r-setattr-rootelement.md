@@ -1,20 +1,24 @@
 ---
 title: setAttr.rootElement
-description: Définissez les attributs sur l’élément racine FXG.
+description: Définissez des attributs sur l’élément racine FXG.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 47bd947f-c078-4fd3-99cb-5ef48ea3e05e
-source-git-commit: 163ac6a6f44193f1b66ae24059630521d7247eae
+TQID: 'https://experienceleague.adobe.com/bx5ix9VcuynEb-Y8VJdFuMKmBMSBgTSa2L-sYAw9Do0'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: 48
 ht-degree: 2%
 
 ---
 
 # setAttr.rootElement{#setattr-rootelement}
 
-Définissez les attributs sur l’élément racine FXG.
+Définissez des attributs sur l’élément racine FXG.
 
 ` setAttr.rootElement={ *[!DNL attributeName]*= *[!DNL attributeValue]*%26 *[!DNL attributeName]*= *[!DNL attributeValue]*}`
 

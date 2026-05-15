@@ -1,13 +1,17 @@
 ---
 title: direction
-description: Spécifie le mode d’affichage des pages dans la vue principale et les miniatures. Il spécifie également la façon dont l’utilisateur interagit avec l’interface utilisateur de la visionneuse pour passer d’un cadre de catalogue à l’autre.
+description: Indique le mode d’affichage des pages dans la vue principale et les miniatures. Elle spécifie également la manière dont l’utilisateur interagit avec l’interface utilisateur de la visionneuse pour passer d’un cadre de catalogue à un autre.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: d7d3df37-3e8b-438f-8b24-035b6982dc14
-source-git-commit: edc127dc6e2ae2d9bd5feed08c8bc896c8c39747
+TQID: 'https://experienceleague.adobe.com/uP4fUmV4KEFWLzfhN-68CZexuApogdpf2MxIPd12FNs'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: 232
 ht-degree: 2%
 
 ---
@@ -20,7 +24,7 @@ ht-degree: 2%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> auto|gauche|droite </span> </p> </td> 
-   <td colname="col2"> <p>Spécifie le mode d’affichage des pages dans la vue principale et les miniatures. Il spécifie également la façon dont l’utilisateur interagit avec l’interface utilisateur de la visionneuse pour passer d’un cadre de catalogue à l’autre. </p> <p>Lorsque <span class="codeph"> l’option gauche </span> est utilisée, elle définit un alignement à droite pour la page initiale et à gauche pour la dernière page. Il assemble les sous-images de page individuelles dans l’ordre de rendu de gauche à droite. Il définit également la vue principale pour utiliser l’animation de diapositive de droite à gauche pour avancer le catalogue (au cas où <span class="codeph"> PageView.frametransition </span> est défini sur glissement). Enfin, les vignettes sont définies pour un ordre de remplissage de gauche à droite. </p> <p>De même, lorsque <span class="codeph"> la droite </span> est utilisée, elle définit un alignement à gauche pour la page initiale et à droite pour la dernière page. Il assemble les sous-images de page individuelles dans l’ordre de rendu de droite à gauche. Il définit également la vue principale pour utiliser l’animation de diapositive de gauche à droite pour avancer le catalogue (au cas où <span class="codeph"> PageView.frametransition </span> est défini sur glissement). Enfin, il inverse l’ordre des vignettes afin que la vue des miniatures soit remplie de droite à gauche, de haut en bas. </p> <p>Lorsque <span class="codeph"> la valeur automatique </span> est définie, la visionneuse applique <span class="codeph"> le mode droit </span> lorsque les paramètres régionaux sont définis sur <span class="codeph"> ja ; </span>Sinon, il utilise <span class="codeph"> le mode gauche </span> . </p> </td> 
+   <td colname="col2"> <p>Indique le mode d’affichage des pages dans la vue principale et les miniatures. Elle spécifie également la manière dont l’utilisateur interagit avec l’interface utilisateur de la visionneuse pour passer d’un cadre de catalogue à un autre. </p> <p>Lorsque <span class="codeph">’</span> de gauche est utilisé, il définit un alignement à droite pour la page initiale et un alignement à gauche pour la dernière page. Il regroupe des sous-images de page individuelles pour un ordre de rendu de gauche à droite. Il définit également la vue principale de sorte à utiliser l'animation de diapositives de droite à gauche pour faire avancer le catalogue (dans le cas où <span class="codeph"> pageView.frametransition </span> est définie sur diapositive). Enfin, les miniatures sont définies dans un ordre de remplissage de gauche à droite. </p> <p>De même, lorsque <span class="codeph">’</span> de droite est utilisé, il définit un alignement à gauche pour la page initiale et un alignement à droite pour la dernière page. Il regroupe des sous-images de page individuelles pour un ordre de rendu de droite à gauche. Il définit également la vue principale de sorte que l'animation des diapositives s'effectue de gauche à droite pour faire avancer le catalogue (si <span class="codeph">'</span> PageView.frametransition est définie sur diapositive). Enfin, l’ordre des miniatures est inversé, de sorte que la vue des miniatures est renseignée de droite à gauche, de haut en bas. </p> <p>Lorsque <span class="codeph"> paramètre </span> automatique est défini, la visionneuse applique <span class="codeph"> mode de </span> de droite lorsque le paramètre régional est défini sur <span class="codeph"> ja ; </span>dans le cas contraire, elle utilise <span class="codeph"> mode de </span> de gauche. </p> </td> 
   </tr> 
  </tbody> 
 </table>

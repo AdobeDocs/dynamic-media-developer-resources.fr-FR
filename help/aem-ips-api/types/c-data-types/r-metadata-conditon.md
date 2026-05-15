@@ -1,20 +1,25 @@
 ---
 description: Ajoute un terme à utiliser avec searchAssets.
 solution: Experience Manager
-title: Condition des métadonnées
+title: MetadataCondition
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: 9226fb81-b3ff-41e4-a3cd-d5a40f359be6
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/JcDip5MGpF6iPa1UqHZSe95h4G8lTjQycdBRaIny4N8'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: 171
 ht-degree: 2%
 
 ---
 
 # [!DNL MetadataCondition]{#metadatacondition}
 
-Ajoute un terme de recherche à utiliser avec searchAssets.
+Ajoute un terme à utiliser avec searchAssets.
 
 Syntaxe
 
@@ -36,12 +41,12 @@ Syntaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> op</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Choix des opérateurs de comparaison de chaînes. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> valeur</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
+   <td colname="col1"> <span class="codeph"> valeur <span class="varname"> </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Valeur à tester. </td> 
   </tr> 
   <tr> 
@@ -55,12 +60,12 @@ Syntaxe
    <td colname="col3"> Valeur de comparaison longue (pour les champs entrés uniquement). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> MinLong</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :long</span> </td> 
-   <td colname="col3"> Valeur longue minimale dans la comparaison des plages (pour les champs int-typés uniquement). </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> minLong</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
+   <td colname="col3"> Valeur longue minimale dans la comparaison de plages (pour les champs avec type entier uniquement). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> MaxLong</span> </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> maxLong</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:long</span> </td> 
    <td colname="col3"> Valeur long maximale dans la comparaison des plages (pour les champs avec type int uniquement). </td> 
   </tr> 
@@ -71,13 +76,13 @@ Syntaxe
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> minDouble</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :double</span> </td> 
-   <td colname="col3"> Double valeur minimale dans la comparaison de plages (pour les champs de saisie flottante uniquement). </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
+   <td colname="col3"> Valeur double minimale dans la comparaison des plages (pour les champs de type flottant uniquement). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> maxDouble</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :double</span> </td> 
-   <td colname="col3"> Double valeur maximale dans la comparaison de plages (pour les champs de saisie flottante uniquement). </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> maxDouble</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:double</span> </td> 
+   <td colname="col3"> Valeur double maximale dans la comparaison des plages (pour les champs de type flottant uniquement). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> dateVale </span> </span> </td> 
@@ -90,14 +95,14 @@ Syntaxe
    <td colname="col3"> Valeur de date minimale dans la comparaison de périodes (pour les champs de type date uniquement). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> Date max.</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :dateTime</span> </td> 
-   <td colname="col3"> Valeur de date maximale dans la comparaison de plages (pour les champs de date saisie uniquement). </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> maxDate</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:dateTime</span> </td> 
+   <td colname="col3"> Valeur de date maximale dans la comparaison de périodes (pour les champs de type date uniquement). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> Sensible à la</span> casse </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> sensible à la casse </span> </span> </td> 
    <td colname="col2"> </td> 
-   <td colname="col3"> <p> Définit le respect de la casse pour le serveur de métadonnées. Utilisé dans l’appel <span class="codeph"> searchAssetsByMetadata</span>. </p> <p>Voir <a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"> searchAssetsByMetadata</a>. </p> </td> 
+   <td colname="col3"> <p> Établit le respect de la casse pour le serveur de métadonnées. Utilisé dans l’appel <span class="codeph"> searchAssetsByMetadata</span>. </p> <p>Voir <a href="../../operations/c-operations-intro/c-methods/r-search-assets-by-metadata.md#reference-609ec73944a34ce49b152389fbb40414" format="dita" scope="local"> searchAssetsByMetadata</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

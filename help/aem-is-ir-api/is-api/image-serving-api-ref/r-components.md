@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67dd37f3-b11e-42d6-b308-7c1e76a8f2a9
-source-git-commit: 6a4c1f4425199cfa6088fc42137552748c1a9dcf
+TQID: 'https://experienceleague.adobe.com/T6NzrpcCTHA4MgFfCDtOxUPxTrcUAmX1zMG9jia4Zb8'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: 210
 ht-degree: 1%
 
 ---
@@ -50,7 +54,7 @@ La diffusion d’images Dynamic Media se compose des composants suivants :
   </tr> 
   <tr> 
    <td colname="col1"> <p>Composant de rendu de texte DATE </p> </td> 
-   <td colname="col2"> <p>Une ou plusieurs instances du service de rendu de texte peuvent être actives lors de l'exécution d'opérations textPs=<span class="codeph"> </span>. </p> </td> 
+   <td colname="col2"> <p>Une ou plusieurs instances du service de rendu de texte peuvent être actives lors de l'exécution d'opérations textPs=</span> <span class="codeph">. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Composant de rendu SVG </p> </td> 
@@ -63,4 +67,4 @@ La diffusion d’images Dynamic Media se compose des composants suivants :
  </tbody> 
 </table>
 
-Des paramètres de configuration supplémentaires sont fournis par le catalogue par défaut ( [!DNL default.ini]) ou des catalogues d’images spécifiques (voir [&#x200B; Catalogues d’images](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) pour plus d’informations).
+Des paramètres de configuration supplémentaires sont fournis par le catalogue par défaut ( [!DNL default.ini]) ou des catalogues d’images spécifiques (voir [ Catalogues d’images](../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-overview/c-overview.md#concept-9ce2b6a133de45f783e95cabc5810ac3) pour plus d’informations).

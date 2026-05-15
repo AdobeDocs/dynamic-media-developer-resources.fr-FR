@@ -1,24 +1,28 @@
 ---
-title: Zone principale de la visionneuse
-description: La zone d’affichage principale est la zone occupée par l’image du catalogue. En règle générale, elle est configurée pour s’adapter à l’écran disponible du périphérique lorsqu’aucune taille n’est spécifiée.
+title: Zone de visionneuse principale
+description: La zone d’affichage principale est la zone occupée par l’image du catalogue. Il est généralement configuré pour s’adapter à l’écran de l’appareil disponible lorsqu’aucune taille n’est spécifiée.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 854f5fa7-f46d-4c4f-9a44-886fec93f606
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+TQID: 'https://experienceleague.adobe.com/dFVxYUjj8LIWVlkNX-x-Rg3rCWgc50CV-jIGL5tNc9I'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: 119
 ht-degree: 0%
 
 ---
 
-# Zone principale de la visionneuse{#main-viewer-area}
+# Zone de visionneuse principale{#main-viewer-area}
 
-La zone d’affichage principale est la zone occupée par l’image du catalogue. En règle générale, elle est configurée pour s’adapter à l’écran disponible du périphérique lorsqu’aucune taille n’est spécifiée.
+La zone d’affichage principale est la zone occupée par l’image du catalogue. Il est généralement configuré pour s’adapter à l’écran de l’appareil disponible lorsqu’aucune taille n’est spécifiée.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriétés CSS de la zone principale de la visionneuse**
+**Propriétés CSS de la zone de visionneuse principale**
 
 L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe CSS suivant :
 
@@ -35,21 +39,21 @@ L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe C
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Largeur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
    <td colname="col2"> <p>Largeur de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> hauteur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de hauteur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Hauteur de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> couleur d’arrière-plan </span> </p> </td> 
-   <td colname="col2"> <p> Couleur de fond au format hexadécimal. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> des </span> de couleur d’arrière-plan </p> </td> 
+   <td colname="col2"> <p> Couleur d’arrière-plan au format hexadécimal </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple - pour configurer une visionneuse avec un fond blanc ( `#FFFFFF`) et faire sa taille 512 x 288 pixels.
+Exemple : pour configurer une visionneuse sur fond blanc ( `#FFFFFF`) et définir sa taille sur 512 x 288 pixels.
 
 ```
 .s7ecatalogsearchviewer { 

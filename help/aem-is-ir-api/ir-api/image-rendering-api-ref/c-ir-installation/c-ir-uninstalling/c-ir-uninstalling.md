@@ -1,21 +1,25 @@
 ---
-title: Désinstallation d’Image Rendering
-description: Si jamais cela devient nécessaire, vous pouvez désinstaller Image Rendering.
+title: Désinstallation du rendu d’image
+description: Si cela s’avère nécessaire, vous pouvez désinstaller le rendu d’image.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d9a874ee-4d12-42f3-962b-832fb0ec2727
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+TQID: 'https://experienceleague.adobe.com/OPg1Oqs5FkU9jnuUh9egX32yeh5HCRfLwP25PXJXmm4'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '60'
+source-wordcount: 60
 ht-degree: 0%
 
 ---
 
-# Désinstallation d’Image Rendering{#uninstalling-image-rendering}
+# Désinstallation du rendu d’image{#uninstalling-image-rendering}
 
-Si jamais cela devient nécessaire, vous pouvez désinstaller Image Rendering.
+Si cela s’avère nécessaire, vous pouvez désinstaller le rendu d’image.
 
-La désinstallation peut supprimer certains documents utilisateur dans le dossier d’installation. Sauvegardez tous les fichiers que vous souhaitez conserver avant de procéder à la désinstallation.
+La désinstallation peut supprimer certains documents utilisateur dans le dossier d’installation. Sauvegardez tous les fichiers que vous voulez conserver avant de désinstaller.
 
-Avant la désinstallation, connectez-vous à votre hôte de serveur avec des privilèges d’administrateur ou root.
+Avant de procéder à la désinstallation, connectez-vous à l’hôte de serveur avec les privilèges d’administration ou de racine.

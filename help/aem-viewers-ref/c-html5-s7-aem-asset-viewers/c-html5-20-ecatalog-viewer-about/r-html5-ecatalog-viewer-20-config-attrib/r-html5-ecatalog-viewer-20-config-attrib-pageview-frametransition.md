@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 026c2fc5-0460-481c-aca9-ddd25371779c
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+TQID: 'https://experienceleague.adobe.com/-0LQjJWRIipMJ-FmZRAs9luvD5DFuIf8oxzNAjxumV8'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: 125
 ht-degree: 3%
 
 ---
@@ -19,17 +23,17 @@ ht-degree: 3%
 <table id="table_625D0EEDA21B46FEA3F5CF7DDF769B50"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> glissement|tour|auto</span> </p> </td> 
-   <td colname="col2"> <p> Spécifie le type d’effet appliqué lors du changement d’image. </p> <p> 
+   <td colname="col1"> <p> <span class="codeph"> diapositive|tourner|auto</span> </p> </td> 
+   <td colname="col2"> <p> Spécifie le type d'effet appliqué lors d'un changement d'image. </p> <p> 
      <ul id="ul_4224B7C2722A4185A8BD48703D019AA1"> 
-      <li id="li_8482037F8E1C4F11A84DF51790A073FE"> <p><span class="codeph"></span> La diapositive active une transition dans laquelle l’ancienne image glisse hors de la vue et la nouvelle image glisse vers l’affichage. </p> </li> 
-      <li id="li_CE9A99564DF348D0A76AB2A5945155A5"> <p><span class="codeph"> La rotation</span> active un effet de retournement de page, lorsqu’un utilisateur peut faire glisser l’un des quatre coins étalés et effectuer un retournement de page interactif. </p> <p>Lorsque <span class="codeph"> turn</span> est utilisé, l’apparence du composant est contrôlée par le <span class="codeph"> modificateur pageturnstyle</span> et la <span class="codeph"> classe CSS .s7pagedivider</span> est ignorée. </p> <p>Remarque :  <p><span class="codeph"> L’animation de tour</span> n’est pas prise en charge sur Motorola Xoom. </p> </p> </li> 
-      <li id="li_79F85B0429CD4B389399FB3823FE767F"> <p> <span class="codeph"> Définit automatiquement</span> la transition du cadre de virage sur les ordinateurs de bureau et la transition du curseur sur les appareils tactiles. </p> </li> 
+      <li id="li_8482037F8E1C4F11A84DF51790A073FE"> <p><span class="codeph"> diapositive</span> active une transition où l'ancien cadre ne s'affiche pas et le nouveau cadre s'affiche. </p> </li> 
+      <li id="li_CE9A99564DF348D0A76AB2A5945155A5"> <p><span class="codeph"> tour</span> active un effet de basculement de page, lorsqu’un utilisateur peut faire glisser l’un des quatre coins de la planche et effectuer un basculement de page interactif. </p> <p>Lorsque <span class="codeph"> tour</span> est utilisé, l’aspect du composant est contrôlé avec le modificateur pageturnstyle</span> <span class="codeph"> et la classe CSS .s7pagedialog</span> <span class="codeph"> est ignorée. </p> <p>Remarque :  <p><span class="codeph"> tour</span> l'animation n'est pas prise en charge sur Motorola Xoom. </p> </p> </li> 
+      <li id="li_79F85B0429CD4B389399FB3823FE767F"> <p> <span class="codeph"> auto</span> définit la transition de l’angle de rotation sur les ordinateurs de bureau et la transition de glissement sur les appareils tactiles. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="codeph"><span class="varname"> durée</span></span> </p> </td> 
-   <td colname="col2"> <p>Spécifie la durée en secondes d’un <span class="codeph"> effet de transition de glissement</span> ou <span class="codeph"> de tournage</span> . </p> </td> 
+   <td colname="col2"> <p>Spécifie la durée en secondes d'un effet de transition <span class="codeph"> diapositive</span> ou <span class="codeph"> tour</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

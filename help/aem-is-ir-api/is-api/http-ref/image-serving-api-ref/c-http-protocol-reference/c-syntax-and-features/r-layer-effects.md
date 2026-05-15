@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8f99bb3d-c5d6-4215-a76b-58ba7689ff02
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/q8tty512IzvWyTXbv2l31DSuqOnijcyhwITruFv7zS0'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: 494
 ht-degree: 2%
 
 ---
@@ -52,7 +56,7 @@ Pour faciliter l&#39;utilisation des effets de calque, IS fournit deux macros av
  <thead> 
   <tr> 
    <th class="entry"> <b> Effet souhaité </b> </th> 
-   <th class="entry"> Commande <b></b> </th> 
+   <th class="entry"> Commande </b> <b></th> 
   </tr> 
  </thead>
  <tbody> 

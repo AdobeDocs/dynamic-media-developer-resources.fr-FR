@@ -1,18 +1,22 @@
 ---
-title: EmbedShare.embedsizes
-description: EmbedShare.embedsizes
+title: IncorporerPartager.incorporer
+description: IncorporerPartager.incorporer
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: dd1f1b9e-f710-4641-b44b-2d6e3d3e20c4
-source-git-commit: 5432393e265fba888579d700cf2f414dc4f680af
+TQID: 'https://experienceleague.adobe.com/6OF4T0tdPGj-Fqc-sl5dlkyOVL79T8bNsKeEa30Fjrw'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 9%
+source-wordcount: 29
+ht-degree: 17%
 
 ---
 
-# EmbedShare.embedsizes{#embedshare-embedsizes}
+# IncorporerPartager.incorporer{#embedshare-embedsizes}
 
 ` [EmbedShare.|<containerId>_embedShare.]embedsizes= *`width`*, *`height`*[,0|1][; *`width`*, *`height`*[,0|1]]`
 

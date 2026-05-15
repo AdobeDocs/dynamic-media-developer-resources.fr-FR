@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 86a3f04f-6593-4778-a8a4-1ec19800ceeb
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+TQID: 'https://experienceleague.adobe.com/ptqbuzijG10A-wxTuFid2qa7Hf-A3yWzb9WGHCN2SnM'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: 74
 ht-degree: 4%
 
 ---
@@ -22,10 +26,10 @@ ht-degree: 4%
    <td colname="col1"> <p> <span class="codeph"> icône|région|auto|aucun </span> </p> </td> 
    <td colname="col2"> <p>Indique l’aspect de la zone cliquable. </p> <p> 
      <ul id="ul_DDA49C152718486E853213E6FC2182B2"> 
-      <li id="li_18F86AB4D2F544319CCDF7BE376ABA53"> <p> <span class="codeph"> Les </span> icônes de carte s’affichent statiquement sur le bureau et les appareils tactiles. </p> </li> 
-      <li id="li_F8832681CDD6456E9147A37C99BAFFED"> <p> <span class="codeph"> La région </span> effectue le rendu des régions de zone cliquable ; sur les ordinateurs de bureau, elles sont affichées en survol et sur les appareils tactiles, elles sont toujours visibles. </p> </li> 
-      <li id="li_9F7DD686E8104AEB944505363F433C0F"> <p> <span class="codeph"> Sur </span> les ordinateurs de bureau, les zones de zone cliquable sont affichées en survol et sur les périphériques tactiles. Les icônes de carte sont toujours visibles. </p> </li> 
-      <li id="li_7CB644F3A029480293B46F44FF8D03B6"> <p> <span class="codeph"> Aucun </span> (e) désactive les zones cliquables. </p> </li> 
+      <li id="li_18F86AB4D2F544319CCDF7BE376ABA53"> <p> <span class="codeph"> icône </span> les icônes de carte sont affichées de manière statique sur les ordinateurs de bureau et les appareils tactiles. </p> </li> 
+      <li id="li_F8832681CDD6456E9147A37C99BAFFED"> <p> <span class="codeph"> zone </span> effectue le rendu des zones cliquables ; sur le bureau, elles s’affichent lors du survol et sur les appareils tactiles, elles sont toujours visibles. </p> </li> 
+      <li id="li_9F7DD686E8104AEB944505363F433C0F"> <p> <span class="codeph"> l’</span> automatique sur les ordinateurs de bureau, les zones cliquables sont affichées lors du survol et les icônes de carte sur les appareils tactiles sont toujours visibles. </p> </li> 
+      <li id="li_7CB644F3A029480293B46F44FF8D03B6"> <p> <span class="codeph"> aucun </span> désactive les zones cliquables. </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

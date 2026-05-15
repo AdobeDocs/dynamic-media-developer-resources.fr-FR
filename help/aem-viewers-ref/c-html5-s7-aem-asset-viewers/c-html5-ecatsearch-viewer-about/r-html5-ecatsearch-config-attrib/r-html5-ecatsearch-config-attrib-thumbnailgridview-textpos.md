@@ -5,9 +5,13 @@ title: ThumbnailGridView.textpos
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: a79aa5c7-5691-4695-ac6d-d461ce0b1206
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/NdfUbKRzNuOlG225gPNn6I9606Q6f4Bn89Yw-ezxIEM'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '63'
+source-wordcount: 63
 ht-degree: 4%
 
 ---
@@ -20,7 +24,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td> <p> <span class="codeph"> bas|haut|gauche|droite|aucun|info-bulle</span> </p> </td> 
-   <td> <p> Indique l’emplacement du libellé par rapport à l’image miniature. Autrement dit, l’étiquette est centrée à l’emplacement spécifié par rapport à la miniature. </p> <p>Lorsque <span class="codeph"> l’info-bulle</span> est spécifiée, le texte de l’étiquette s’affiche sous forme d’info-bulle flottante sur l’image miniature. Définissez sur <span class="codeph"> aucun</span> pour désactiver l’étiquette. </p> </td> 
+   <td> <p> Indique l’emplacement du libellé par rapport à l’image miniature. En d’autres termes, le libellé est centré à l’emplacement spécifié par rapport à la miniature. </p> <p>Lorsque <span class="codeph"> info-bulle </span> est spécifiée, le texte du libellé s’affiche sous la forme d’une info-bulle flottante sur l’image miniature. Définissez cette option sur <span class="codeph"> aucune</span> pour désactiver le libellé. </p> </td> 
   </tr> 
  </tbody> 
 </table>

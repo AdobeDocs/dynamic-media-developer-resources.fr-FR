@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 119d8dde-145b-4762-a1ab-882a29e0f6a6
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/zvYyrhtUAksXtyQU4cu3k7Rik5H5Bu5jUESrqZsUdUc'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: 472
 ht-degree: 0%
 
 ---
@@ -22,7 +26,7 @@ Lorsque la visionneuse démarre, elle vérifie le paramètre régional en cours 
 
 Les données de localisation définies par l’utilisateur peuvent être transmises à la visionneuse en tant qu’objet JSON de localisation. Cet objet contient la liste des paramètres régionaux pris en charge, les valeurs de texte SYMBOL pour chaque paramètre régional et le paramètre régional par défaut.
 
-Voici un exemple d’objet de localisation :
+Voici un exemple d’un tel objet de localisation :
 
 ```
 { 
@@ -38,11 +42,11 @@ defaultLocale:"en"
 }
 ```
 
-Dans l’exemple ci-dessus, l’objet de localisation définit deux paramètres régionaux ( `"en"` et `"fr"`) et fournit la localisation de deux éléments d’interface utilisateur dans chaque langue.
+Dans l’exemple ci-dessus, l’objet de localisation définit deux paramètres régionaux ( `"en"` et `"fr"`) et fournit la localisation de deux éléments de l’interface utilisateur dans chaque paramètre régional.
 
-Le code de page Web doit transmettre l’objet de localisation au constructeur de la visionneuse en tant que valeur du `localizedTexts` champ de l’objet de configuration. Une autre option consiste à transmettre l’objet de localisation en appelant la `setLocalizedTexts(localizationInfo)` méthode.
+Le code de la page web doit transmettre l’objet de localisation au constructeur de la visionneuse en tant que valeur du champ `localizedTexts` de l’objet de configuration. Une autre option consiste à transmettre l’objet de localisation en appelant la méthode `setLocalizedTexts(localizationInfo)` .
 
-Les SYMBOLES suivants sont pris en charge :
+Les symboles suivants sont pris en charge :
 
 <table id="table_58C40353B7244335872350C98DF2CFB3"> 
  <thead> 
@@ -54,11 +58,11 @@ Les SYMBOLES suivants sont pris en charge :
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> Container.LABEL </span> </p> </td> 
-   <td colname="col2"> <p>Étiquette ARIA pour l’élément de visionneuse de niveau supérieur. </p> </td> 
+   <td colname="col2"> <p>Libellé ARIA pour l’élément de visionneuse de niveau supérieur. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZoomView.ROLE_DESCRIPTION </span> </p> </td> 
-   <td colname="col2"> <p>Description du rôle ARIA pour le composant Vue principale. </p> </td> 
+   <td colname="col2"> <p>Description du rôle ARIA pour le composant de vue principal. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ZoomView.USAGE_HINT </span> </p> </td> 
@@ -98,11 +102,11 @@ Les SYMBOLES suivants sont pris en charge :
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_OVER </span> </p> </td> 
-   <td colname="col2"> <p>Systèmes de bureau en <span class="codeph"> mode zoom intégré </span> . </p> </td> 
+   <td colname="col2"> <p>Ordinateurs de bureau en mode <span class="codeph"> zoom </span> intégré. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FlyoutZoomView.TIP_BUBBLE_TAP </span> </p> </td> 
-   <td colname="col2"> <p>Appareils tactiles en <span class="codeph"> mode zoom intégré </span> . </p> </td> 
+   <td colname="col2"> <p>Appareils tactiles en mode <span class="codeph"> zoom </span> intégré. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> FullScreenButton.TOOLTIP_SELECTED </span> </p> </td> 
@@ -118,15 +122,15 @@ Les SYMBOLES suivants sont pris en charge :
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ClosedCaptionButton.TOOLTIP_UNSELECTED </span> </p> </td> 
-   <td colname="col2"> <p>État du bouton de sous-titrage non sélectionné. </p> </td> 
+   <td colname="col2"> <p>État du bouton de sous-titres non sélectionné. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollLeftButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Bouton de défilement vers la gauche. </p> </td> 
+   <td colname="col2"> <p>Bouton Défiler vers la gauche. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollRightButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Bouton de défilement vers la droite. </p> </td> 
+   <td colname="col2"> <p>Bouton de droite. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollUpButton.TOOLTIP </span> </p> </td> 
@@ -134,7 +138,7 @@ Les SYMBOLES suivants sont pris en charge :
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> ScrollDownButton.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Faites défiler le bouton vers le bas. </p> </td> 
+   <td colname="col2"> <p>Bouton de défilement vers le bas. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> PanLeftButton.TOOLTIP </span> </p> </td> 
@@ -162,11 +166,11 @@ Les SYMBOLES suivants sont pris en charge :
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> VideoTime.TOOLTIP </span> </p> </td> 
-   <td colname="col2"> <p>Temps vidéo sur la barre de contrôle. </p> </td> 
+   <td colname="col2"> <p>Durée de la vidéo sur la barre de contrôle. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_SELECTED </span> </p> </td> 
-   <td colname="col2"> <p>État du volume mutable sélectionné. </p> </td> 
+   <td colname="col2"> <p>État de volume modifiable sélectionné. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> MutableVolume.TOOLTIP_UNSELECTED </span> </p> </td> 

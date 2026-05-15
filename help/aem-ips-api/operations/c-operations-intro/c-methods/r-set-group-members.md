@@ -1,22 +1,26 @@
 ---
-description: Définit l’appartenance au groupe des utilisateurs appartenant à une société spécifique.
+description: Définit l’appartenance à un groupe d’utilisateurs appartenant à une société spécifique.
 solution: Experience Manager
 title: setGroupMembers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 81348da7-6733-4da9-8a0a-376fccf791ea
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/9gCJ-UKUNZI3AbQ0LFkxNUSS-w7bnG0FQE8SQeM2MMQ'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: 126
 ht-degree: 7%
 
 ---
 
 # setGroupMembers{#setgroupmembers}
 
-Définit l’appartenance au groupe des utilisateurs appartenant à une société spécifique.
+Définit l’appartenance à un groupe d’utilisateurs appartenant à une société spécifique.
 
-L’opération génère une erreur d’authentification si vous ne disposez pas des privilèges pour effectuer cette opération. Cela est également vrai si l’un des utilisateurs du tableau de descripteurs d’utilisateur n’appartient pas à la société spécifiée dans le descripteur de société,
+L’opération génère une erreur d’authentification si vous ne disposez pas des privilèges nécessaires pour accomplir cette opération. C’est également vrai si l’un des utilisateurs du tableau d’identifiants d’utilisateur n’appartient pas à la société spécifiée dans l’identifiant d’entreprise,
 
 ## Types d’utilisateurs autorisés {#section-4523594039c24aa29c8d0d5c9c415391}
 
@@ -30,9 +34,9 @@ L’opération génère une erreur d’authentification si vous ne disposez pas 
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| CompanyHandle | `xsd:string` | Oui | Pseudo de l’entreprise. |
-| Poignée de groupe | `xsd:string` | Oui | Nom de groupe. |
-| userHandleArray | `types:HandleArray` | Oui | Tableau de poignées pour les utilisateurs dont vous souhaitez définir l’appartenance au groupe. |
+| companyHandle | `xsd:string` | Oui | Identifiant de la société. |
+| groupHandle | `xsd:string` | Oui | Identifiant du groupe. |
+| userHandleArray | `types:HandleArray` | Oui | Tableau de handles pour les utilisateurs dont vous souhaitez définir l’appartenance à un groupe. |
 
 **Output (setGroupMembesReturn)**
 
@@ -42,7 +46,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 Cet exemple de code définit l’appartenance à un groupe pour un seul utilisateur.
 
-**Demander**
+**Requête**
 
 ```java
 <ns1:setGroupMembersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

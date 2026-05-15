@@ -1,21 +1,25 @@
 ---
-title: Installation et configuration du rendu d’images
-description: Image Rendering est configuré avec le fichier fileinstall_folder/conf/ImageRendering.conf.
+title: Installation et configuration du rendu d’image
+description: Le rendu des images est configuré avec le fichier fileinstall_folder/conf/ImageRendering.conf.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 126833bf-16db-40f1-8179-7775e9063081
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+TQID: 'https://experienceleague.adobe.com/uEGeCbCdGPwpF-5fnmHxj2csMB-3WtYGU6149tH3j00'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: 81
 ht-degree: 0%
 
 ---
 
-# Installation et configuration du rendu d’images{#setup-and-configure-image-rendering}
+# Installation et configuration du rendu d’image{#setup-and-configure-image-rendering}
 
-Le rendu d’image est configuré avec `fileinstall_folder/conf/ImageRendering.conf`.
+Le rendu des images est configuré avec `fileinstall_folder/conf/ImageRendering.conf`.
 
-Pour plus d’informations, consultez la section Configuration de la documentation. Sous Windows uniquement, ce fichier est également accessible à partir du menu Démarrer : **[!UICONTROL Menu Démarrer >]** Programmes > **[!UICONTROL Scene7]**&#x200B;**[!UICONTROL >]** Modifier le fichier **[!UICONTROL de configuration]** Image Rendering.
+Reportez-vous à la section Configuration de la documentation pour plus d’informations. Sous Windows uniquement, ce fichier est également accessible à partir du menu Démarrer : **[!UICONTROL menu Démarrer]** > **[!UICONTROL Programmes]** > **[!UICONTROL Scene7]** > **[!UICONTROL Modifier le fichier de configuration du rendu d’image]**.
 
-Pour arrêter et démarrer le rendu d’images, reportez-vous à la documentation Image Server. Le rendu d’images ne peut pas être arrêté ou démarré séparément depuis le serveur d’images.
+Pour arrêter et démarrer le rendu des images, reportez-vous à la documentation du service d’images. Le rendu d’image ne peut pas être arrêté ou démarré séparément du service d’images.

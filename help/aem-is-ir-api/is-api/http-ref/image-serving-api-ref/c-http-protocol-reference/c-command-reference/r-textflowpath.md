@@ -1,33 +1,37 @@
 ---
-title: Chemin d’écoulement du texte
-description: Zone de flux de texte. Spécifie une ou plusieurs régions dans lesquelles le texte spécifié avec textPs= doit être coulé.
+title: textFlowPath
+description: Zone de flux du texte. Indique une ou plusieurs régions dans lesquelles le texte spécifié avec textPs= doit être propagé.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b5575d17-150b-421c-b298-077b577eb95c
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+TQID: 'https://experienceleague.adobe.com/jh0UxfQzO3UY8nogOZl4f0qHSGGG-fUC7AKtEPdGvOs'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: 101
 ht-degree: 2%
 
 ---
 
-# Chemin d’écoulement du texte{#textflowpath}
+# textFlowPath{#textflowpath}
 
-Zone de flux de texte. Spécifie une ou plusieurs régions dans lesquelles le texte spécifié avec textPs= doit être coulé.
+Zone de flux du texte. Indique une ou plusieurs régions dans lesquelles le texte spécifié avec textPs= doit être propagé.
 
-` textFlowPath= *`Définition du chemin`*`
+` textFlowPath= *`pathDefinition`*`
 
 <table id="simpletable_52CEFF5C3CCB4642A9A320D01B1BF8E0"> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> Définition du chemin </span> </p> </td> 
+  <td class="stentry"> <p> <span class="varname"> pathDefinition </span> </p> </td> 
   <td class="stentry"> <p>Données de chemin. </p> </td> 
  </tr> 
 </table>
 
-Voir [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) pour plus d’informations, y compris une description de *`pathDefinition`*.
+Voir [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) pour plus d’informations, y compris une description des *`pathDefinition`*.
 
-Les commandes RTF margin , `\margl` `\margr`, `\margt`et `\margb` sont ignorées lorsque `textFlowPath=` est présent. Si aucune définition de chemin n’est spécifiée, `textFlowPath=` est ignoré.
+Les commandes de marge RTF `\margl`, `\margr`, `\margt` et `\margb` sont ignorées en présence de `textFlowPath=`. Si aucune définition de chemin n’est spécifiée, `textFlowPath=` est ignoré.
 
 ## Propriétés {#section-b68dc887c6534ce8982cad740b3aeaa4}
 
@@ -35,7 +39,7 @@ Attribut de calque de texte ( `textPs=` uniquement). Ignoré par les autres calq
 
 ## Par défaut {#section-68c4559b9e8242059b82e5a39a455dfc}
 
-Identique au rectangle de calque ; Le texte remplit l’intégralité du rectangle du calque.
+Identique au rectangle du calque ; le texte remplit tout le rectangle du calque.
 
 ## Voir aussi {#section-592b0039cf99471188db6a7df44b450a}
 

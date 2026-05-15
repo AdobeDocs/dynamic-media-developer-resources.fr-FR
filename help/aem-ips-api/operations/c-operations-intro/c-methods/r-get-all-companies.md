@@ -5,9 +5,13 @@ title: getAllCompanies
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 0e339ecf-83b5-410c-8683-f3d73bd92339
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/B2wkv6Xvuvg17yqUucjIx170K4YmznQgBrJiVgLe2qg'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: 71
 ht-degree: 18%
 
 ---
@@ -34,13 +38,13 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| Tableau d’entreprise | `types:CompanyArray` | Oui | L’éventail des entreprises. |
+| companyArray | `types:CompanyArray` | Oui | Tableau d’entreprises. |
 
 ## Exemples {#section-3eecf4e6900b41fb92a0e3214791c6b9}
 
-Cet exemple de code renvoie toutes les sociétés dans IPS dans un tableau. Remarque : l’exemple de réponse est tronqué par souci de concision.
+Cet exemple de code renvoie toutes les sociétés dans IPS d’un tableau. Notez que l’exemple de réponse est tronqué par souci de concision.
 
-**Demander**
+**Requête**
 
 ```java
 <ns1:getAllCompaniesParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

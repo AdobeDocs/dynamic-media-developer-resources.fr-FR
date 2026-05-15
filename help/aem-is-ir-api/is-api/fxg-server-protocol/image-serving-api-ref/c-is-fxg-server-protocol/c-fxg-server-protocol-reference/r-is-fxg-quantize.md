@@ -5,9 +5,13 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 67247016-a038-4ed4-90ed-751eaf9c4881
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/m5e14tLMY1JAdZTzlw7iUZzXzL9yylP66MYi5XAeYtg'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: 189
 ht-degree: 1%
 
 ---
@@ -33,7 +37,7 @@ Quantification des couleurs. Indique les attributs de quantification des couleur
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> colorList </span> </span> </p> </td> 
-  <td class="stentry"> <p>Liste séparée par des virgules de couleurs RGB forcées au format hex6. Permet de spécifier des couleurs forcées à inclure dans une palette « <span class="codeph"> de </span> adaptatifs ». Si le nombre de couleurs spécifié est inférieur au <span class="codeph"> numColors </span>, les couleurs supplémentaires sont calculées en fonction du contenu de l’image. </p> <p>Utilisé uniquement si <span class="codeph"> fmt=gif </span> ou <span class="codeph"> fmt=gif-alpha </span>. Ignoré sinon. Les couleurs spécifiées avec <span class="codeph"> <span class="varname"> colorList </span> </span> doivent être des valeurs RGB au format hex6 (voir <span class="codeph"> des </span> de couleur) ; aucun autre spécificateur de couleur n’est autorisé. </p> </td> 
+  <td class="stentry"> <p>Liste séparée par des virgules de couleurs RGB forcées au format hex6. Permet de spécifier des couleurs forcées à inclure dans une palette « <span class="codeph"> de </span> adaptatifs ». Si le nombre de couleurs spécifié est inférieur au </span> numColors <span class="codeph">, les couleurs supplémentaires sont calculées en fonction du contenu de l’image. </p> <p>Utilisé uniquement si <span class="codeph"> fmt=gif </span> ou <span class="codeph"> fmt=gif-alpha </span>. Ignoré sinon. Les couleurs spécifiées avec <span class="codeph"> <span class="varname"> colorList </span> </span> doivent être des valeurs RGB au format hex6 (voir <span class="codeph"> des </span> de couleur) ; aucun autre spécificateur de couleur n’est autorisé. </p> </td> 
  </tr> 
 </table>
 

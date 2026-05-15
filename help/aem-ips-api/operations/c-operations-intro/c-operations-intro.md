@@ -1,32 +1,37 @@
 ---
-description: Décrit les paramètres d’opération courants gérés par l’API du service Web IPS.
+description: Décrit les paramètres d’opération courants gérés par l’API de service web IPS.
 solution: Experience Manager
-title: Méthodes d’opérations
+title: Méthodes d’exploitation
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 020c8e63-ad4e-4c0d-8da6-b51efb2b89a5
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/ZoT9qmMjkkdVARrEvxhRn3Tvme1anUZ4-i1xLv0acb8'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: 717
 ht-degree: 0%
 
 ---
 
-# Méthodes d’opérations{#operations-methods}
+# Méthodes d’exploitation{#operations-methods}
 
-Cette section décrit les paramètres d’opération courants gérés par l’API de service Web IPS.
+Cette section décrit les paramètres d’opération courants gérés par l’API de service web IPS.
 
-Pour une description complète de chaque paramètre d’opération, consultez [Paramètres](/help/aem-ips-api/operations/c-operations-intro/c-methods/c-methods.md) d’opération.
+Pour obtenir une description complète de chaque paramètre d&#39;opération, voir [Paramètres d&#39;opération](/help/aem-ips-api/operations/c-operations-intro/c-methods/c-methods.md).
 
-## Poignées : À propos {#section-094ce1afa6244fa5b2c762f44ffdca1c}
+## Handles : À Propos {#section-094ce1afa6244fa5b2c762f44ffdca1c}
 
-Gère les objets IPS de référence renvoyés par certaines opérations de l’API. Vous pouvez également transmettre des descripteurs sous forme de paramètres aux appels d’opération suivants. Les descripteurs sont des chaînes de type données ( `xsd:string`).
+Gère les objets IPS de référence renvoyés par certaines opérations de l’API. Vous pouvez également transmettre des handles en tant que paramètres aux appels d’opération suivants. Les handles sont des types de données de chaîne ( `xsd:string`).
 
-Les poignées sont destinées à être utilisées pendant une seule session d’application. De plus, vous devez rendre les poignées persistantes car leur format peut changer entre les versions IPS. Lorsque vous écrivez des applications interactives, vous implémentez des délais d’expiration de session et ignorez toutes les poignées entre les sessions, en particulier après une mise à niveau IPS. Lorsque vous écrivez des applications non interactives, appelez les opérations appropriées pour récupérer les poignées chaque fois que l’application est exécutée. Les exemples de code Java/Axis2 suivants montrent une exécution de code incorrecte et correcte :
+Les descripteurs sont destinés à être utilisés au cours d’une seule session d’application uniquement. En outre, vous devez rendre les handles persistants, car leur format peut changer entre les versions IPS. Lorsque vous écrivez des applications interactives, vous implémentez des délais d&#39;expiration de session et ignorez tous les descripteurs entre les sessions, en particulier après une mise à niveau IPS. Lorsque vous écrivez des applications non interactives, appelez les opérations appropriées pour récupérer les descripteurs à chaque exécution de l&#39;application. Les exemples de code Java/Axis2 suivants montrent une exécution de code incorrecte :
 
-**Manipulation incorrecte Code**
+**Code de poignée incorrect**
 
-Cet exemple de code est incorrect car il contient une valeur codée en dur (555) pour le pseudo de société.
+Cet exemple de code est incorrect, car il contient une valeur codée en dur (555) pour le handle de l’entreprise.
 
 ```
 SearchAssetsParam searchParam = new SearchAssetsParam(); searchParam.setCompanyHandle("555");// INCORRECT 
@@ -34,9 +39,9 @@ searchParam.setFolder("myFolder");
 SearchAssetsReturn retVal = ipsApi.searchAssets(searchParam, authHeader);
 ```
 
-**Gérer correctement les Code**
+**Code de poignée correct**
 
-Cet exemple de code est correct car il appelle `getCompanyInfo` à renvoyer un handle valide. Elle ne repose pas sur une valeur codée en dur. Utilisez cette méthode (ou un autre équivalent d’API IPS) pour renvoyer le handle requis.
+Cet exemple de code est correct, car il appelle `getCompanyInfo` pour renvoyer un handle valide. Il ne repose pas sur une valeur codée en dur. Utilisez cette méthode, ou un autre équivalent de l’API IPS, pour renvoyer le handle requis.
 
 ```
 GetCompanyInfoParam companyInfoParam = new GetCompanyInfoParam(); 
@@ -47,19 +52,19 @@ searchParam.setFolder("myFolder");
 SearchAssetsReturn retVal = ipsApi.searchAssets(searchParam, authHeader);
 ```
 
-## Types de handle courants {#section-e683ac8283284f9688e63f51a494f7a0}
+## Types de poignées communs {#section-e683ac8283284f9688e63f51a494f7a0}
 
-**CompanyHandle**
+**companyHandle**
 
-La plupart des opérations nécessitent de définir un contexte d’entreprise en transmettant un `companyHandle` paramètre. Le handle de société est un pointeur renvoyé par certaines opérations telles que `getCompanyInfo`, `addCompany`et `getCompanyMembership`.
+La plupart des opérations nécessitent de définir un contexte d’entreprise en transmettant un paramètre `companyHandle`. Le handle de l’entreprise est un pointeur renvoyé par certaines opérations telles que `getCompanyInfo`, `addCompany` et `getCompanyMembership`.
 
-**Poignée utilisateur**
+**userHandle**
 
-Le `userHandle` paramètre est facultatif pour les opérations qui ciblent un utilisateur spécifique. Par défaut, ces opérations ciblent l’utilisateur appelant (l’utilisateur dont les informations d’identification sont transmises pour authentification). Toutefois, les utilisateurs administrateurs disposant des autorisations appropriées peuvent spécifier un autre utilisateur. Par exemple, l’opération `setPassword` définit normalement le mot de passe de l’utilisateur authentifié, mais un administrateur peut utiliser le `userHandle` paramètre pour définir le mot de passe d’un autre utilisateur.
+Le paramètre `userHandle` est un paramètre facultatif pour les opérations qui ciblent un utilisateur spécifique. Par défaut, ces opérations ciblent l’utilisateur appelant (l’utilisateur dont les informations d’identification sont transmises pour l’authentification). Cependant, les utilisateurs administrateurs disposant des autorisations appropriées peuvent spécifier un autre utilisateur. Par exemple, l’opération `setPassword` définit normalement le mot de passe de l’utilisateur authentifié, mais un administrateur peut utiliser le paramètre `userHandle` pour définir le mot de passe d’un autre utilisateur.
 
-Pour les opérations qui nécessitent un contexte d’entreprise (à l’aide du `companyHandle` paramètre), les utilisateurs authentifiés et cibles doivent être membres de la société spécifiée. Pour les opérations qui ne nécessitent pas de contexte d’entreprise, les utilisateurs authentifiés et cibles doivent tous deux être membres d’au moins une société commune.
+Pour les opérations qui nécessitent un contexte de société (à l’aide du paramètre `companyHandle` ), les utilisateurs authentifiés et cibles doivent être membres de la société spécifiée. Pour les opérations qui ne nécessitent pas de contexte d’entreprise, les utilisateurs authentifiés et cibles doivent tous deux être membres d’au moins une société commune.
 
-Les opérations suivantes peuvent récupérer les pseudos utilisateur :
+Les opérations suivantes peuvent récupérer les handles d’utilisateur :
 
 * `getUsers`
 * `getAllUsers`
@@ -70,13 +75,13 @@ Les opérations suivantes peuvent récupérer les pseudos utilisateur :
 
 **accessUserHandle et accessGroupHandle**
 
-Par défaut, les opérations qui nécessitent des autorisations d’accès (lecture, écriture, suppression) fonctionnent dans le contexte d’autorisation de l’utilisateur appelant. Certaines opérations permettent de modifier ce contexte avec le `accessUserHandle` paramètre ou `accessGroupHandle` . Le `accessUserHandle` paramètre permet à un administrateur d’emprunter l’identité d’un autre utilisateur. Le `accessGroupHandle` paramètre permet à l’appelant d’opérer dans le contexte d’un groupe d’utilisateurs spécifique.
+Par défaut, les opérations qui nécessitent des autorisations d’accès (lecture, écriture, suppression) s’effectuent dans le contexte d’autorisation de l’utilisateur appelant. Certaines opérations permettent de modifier ce contexte avec le paramètre `accessUserHandle` ou `accessGroupHandle` . Le paramètre `accessUserHandle` permet à un administrateur d’emprunter l’identité d’un autre utilisateur. Le paramètre `accessGroupHandle` permet à l’appelant d’agir dans le contexte d’un groupe d’utilisateurs spécifique.
 
 **responseFieldArray et excludeFieldArray**
 
-Certaines opérations permettent à l’appelant de limiter les champs inclus dans la réponse. La limitation des champs peut aider à réduire le temps et la mémoire requis pour traiter la demande et à réduire la taille des données de réponse. L’appelant peut demander une liste spécifique de champs en passant un `responseFieldArray` paramètre ou en énumérant une liste de champs exclus par le `excludeFieldArray` paramètre.
+Certaines opérations permettent à l’appelant de restreindre les champs inclus dans la réponse. La limitation des champs peut contribuer à réduire le temps et la mémoire nécessaires au traitement de la requête ainsi que la taille des données de réponse. L’appelant peut demander une liste spécifique de champs en transmettant un paramètre de `responseFieldArray` ou avec une liste énumérée de champs exclus au moyen du paramètre de `excludeFieldArray`.
 
-Les deux `responseFieldArray` et `excludeFieldArray` spécifiez des champs en utilisant un chemin de nœud séparé par `/`. Par exemple, pour spécifier que `searchAssets` renvoie uniquement le nom, la date de dernière modification et les métadonnées pour chaque ressource, reportez-vous aux sections suivantes :
+`responseFieldArray` et `excludeFieldArray` spécifient des champs à l’aide d’un chemin de nœud séparé par des `/`. Par exemple, pour indiquer que `searchAssets` renvoie uniquement le nom, la date de dernière modification et les métadonnées de chaque ressource, reportez-vous aux éléments suivants :
 
 ```
 <responseFieldArray> 
@@ -86,7 +91,7 @@ Les deux `responseFieldArray` et `excludeFieldArray` spécifiez des champs en ut
 </responseFieldArray>
 ```
 
-De même, pour renvoyer tous les champs (à l’exception des permissions) :
+De même, pour renvoyer tous les champs (à l’exception des autorisations) :
 
 ```
 <excludeFieldArray> 
@@ -94,16 +99,16 @@ De même, pour renvoyer tous les champs (à l’exception des permissions) :
 </excludeFieldArray>
 ```
 
-Notez que les chemins d’accès au nœud sont relatifs à la racine du nœud de retour. Si vous spécifiez un champ de type complexe sans aucun de ses sous-éléments (par exemple, `assetArray/items/imageInfo`), tous ses sous-éléments sont inclus. Si vous spécifiez un ou plusieurs sous-éléments dans un champ de type complexe (par exemple, `assetArray/items/imageInfo/originalPath`), seuls ces sous-éléments sont inclus.
+Notez que les chemins d’accès aux nœuds sont relatifs à la racine de nœud renvoyée. Si vous spécifiez un champ de type complexe sans aucun de ses sous-éléments (par exemple, `assetArray/items/imageInfo`), tous ses sous-éléments sont inclus. Si vous spécifiez un ou plusieurs sous-éléments dans un champ de type complexe (par exemple, `assetArray/items/imageInfo/originalPath`), seuls ces sous-éléments sont inclus.
 
-Si vous n’incluez `responseFieldArray` pas ou `excludeFieldArray` dans une requête, tous les champs sont renvoyés.
+Si vous n’incluez pas de `responseFieldArray` ou de `excludeFieldArray` dans une requête, tous les champs sont renvoyés.
 
 **Paramètres régionaux**
 
-Depuis IPS 4.0, l’API IPS prend en charge la définition du contexte régional d’une opération en transmettant le `authHeader` paramètre locale. Si le paramètre locale n’est pas présent, l’en-tête `Accept-Language` HTTP est utilisé. Si cet en-tête n’est pas non plus présent, le paramètre régional par défaut du serveur IPS est utilisé.
+Depuis IPS 4.0, l’API IPS prend en charge la définition du contexte des paramètres régionaux d’une opération en transmettant le paramètre régional `authHeader`. Si le paramètre régional n’est pas présent, le `Accept-Language` d’en-tête HTTP est utilisé. Si cet en-tête n’est pas non plus présent, le paramètre régional par défaut du serveur IPS est utilisé.
 
-Certaines opérations prennent également des paramètres régionaux explicites, qui peuvent être différents du contexte de paramètres régionaux de l’opération. Par exemple, l’opération prend un `submitJob` paramètre qui définit les paramètres régionaux utilisés pour la journalisation des travaux et la `locale` notification par courrier électronique.
+Certaines opérations utilisent également des paramètres régionaux explicites, qui peuvent être différents du contexte des paramètres régionaux de l’opération. Par exemple, l’opération `submitJob` prend un paramètre de `locale` qui définit les paramètres régionaux utilisés pour la journalisation des tâches et les notifications par e-mail.
 
 Les paramètres régionaux utilisent le format `<language_code>[-<country_code>]`
 
-Lorsque le code de langue est un code à deux lettres minuscule spécifié par ISO-639 et que le code de pays facultatif est un code majuscule à deux lettres spécifié par ISO-3266. Par exemple, la chaîne du paramètre régional pour l’anglais américain est `en-US`.
+Lorsque le code langue est un code à deux lettres en minuscules spécifié par la norme ISO-639 et le code pays facultatif est un code à deux lettres en majuscules spécifié par la norme ISO-3266. Par exemple, la chaîne du paramètre régional pour l’anglais américain est `en-US`.

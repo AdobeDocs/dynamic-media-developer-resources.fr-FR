@@ -1,24 +1,28 @@
 ---
-title: Vue de zoom
-description: En mode zoom continu, la vue principale est constituée de l’image zoomable lorsque la ressource actuelle est une image unique.
+title: Vue Zoom
+description: En mode de zoom continu, la vue principale correspond à l’image zoomable lorsque la ressource actuelle est une image unique.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 0252436b-ba96-4273-b796-d1772fc093b0
-source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
+TQID: 'https://experienceleague.adobe.com/xfQKn46HParEFKYh1jrrVxbmkUKQHJbcWlJ7LWHIsc0'
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: 195
 ht-degree: 0%
 
 ---
 
-# Vue de zoom{#zoom-view}
+# Vue Zoom{#zoom-view}
 
-En mode zoom continu, la vue principale est constituée de l’image zoomable lorsque la ressource actuelle est une image unique.
+En mode de zoom continu, la vue principale correspond à l’image zoomable lorsque la ressource actuelle est une image unique.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-**Propriétés CSS de la zone principale de la visionneuse**
+**Propriétés CSS de la zone de visionneuse principale**
 
 L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe CSS suivant :
 
@@ -35,17 +39,17 @@ L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe C
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> couleur d’arrière-plan </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> des </span> de couleur d’arrière-plan </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan au format hexadécimal de la vue principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> curseur </span> </p> </td> 
+   <td colname="col1"> <p> </span> du curseur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Curseur affiché sur la vue principale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : rendre l’affichage zoom transparent.
+Exemple : pour rendre la vue de zoom transparente.
 
 ```
 .s7mixedmediaviewer .s7zoomview { 
@@ -53,24 +57,24 @@ Exemple : rendre l’affichage zoom transparent.
 }
 ```
 
-Sur les ordinateurs de bureau, le composant prend en charge `cursortype` le sélecteur d’attributs qui peut être appliqué à la `.s7zoomview` classe. Il contrôle le type du curseur en fonction de l’état du composant et de l’action de l’utilisateur. Les valeurs suivantes `cursortype` sont prises en charge :
+Sur les systèmes de bureau, le composant prend en charge `cursortype` sélecteur d’attributs qui peut être appliqué à la classe `.s7zoomview`. Il contrôle le type du curseur en fonction de l’état du composant et de l’action de l’utilisateur. Les valeurs `cursortype` suivantes sont prises en charge :
 
 * `default`
 
-  Affiché lorsque l’image n’est pas zoomable en raison d’une petite résolution d’image, ou des paramètres de composant, ou les deux.
+  Affiché lorsque l’image ne peut pas faire l’objet d’un zoom en raison d’une faible résolution d’image, des paramètres de composant ou des deux.
 
 * `zoomin`
 
-  S’affiche lorsque l’image peut être zoomée.
+  Affiché lorsque l’image peut faire l’objet d’un zoom avant.
 
 * `reset`
 
-  S’affiche lorsque l’image est au niveau de zoom maximal et peut être réinitialisée à son état initial.
+  Affiché lorsque l’image est au niveau de zoom maximal et peut être réinitialisé à son état initial.
 
 * `drag`
 
-  S’affiche lorsque l’utilisateur effectue un panoramique de l’image agrandie.
+  Affiché lorsque l’utilisateur effectue un panoramique sur l’image qui fait l’objet d’un zoom avant.
 
 * `slide`
 
-  S’affiche lorsque l’utilisateur effectue un balayage horizontal d’image.
+  Affiché lorsque l’utilisateur permute des images en effectuant un balayage horizontal ou en cliquant dessus.
