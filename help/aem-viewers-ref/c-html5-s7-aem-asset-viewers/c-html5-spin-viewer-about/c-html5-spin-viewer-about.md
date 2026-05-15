@@ -306,7 +306,7 @@ La page d’exemples suivante illustre d’autres cas d’utilisation réels d�
 
 <!--
 
-[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=fr)
 
 -->
 

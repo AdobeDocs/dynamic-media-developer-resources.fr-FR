@@ -44,11 +44,11 @@ Notes de mise à jour les plus récentes pour [!DNL Adobe Scene7] version de l�
 
 Adobe est heureux d’annoncer la disponibilité de la diffusion de contenu HTTP/2, avec l’avantage global d’améliorer les performances.
 
-Voir la [HTTP2 FAQ sur la diffusion de contenu](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
+Voir la [HTTP2 FAQ sur la diffusion de contenu](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html?lang=fr#dynamic).
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
-Pour consulter la documentation complète, voir [&#128279;](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
+Pour consulter la documentation complète, voir [&#128279;](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=fr)
 
 **Nouvelles fonctionnalités, améliorations et correctifs de bugs**
 
@@ -70,7 +70,7 @@ Pour consulter la documentation complète, voir [&#128279;](https://experiencele
 
 ## Visionneuses (Diffusion D’Images 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Pour consulter la documentation complète, voir [&#x200B; Guide de référence des visionneuses &#x200B;](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Pour consulter la documentation complète, voir [&#x200B; Guide de référence des visionneuses &#x200B;](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=fr).
 
 **Correctifs de bugs pour la diffusion d’images 5.5.3**
 
@@ -80,7 +80,7 @@ Pour consulter la documentation complète, voir [&#x200B; Guide de référence d
 
 ## Visionneuses (Diffusion D’Images 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Pour consulter la documentation complète, voir [&#x200B; Guide de référence des visionneuses &#x200B;](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Pour consulter la documentation complète, voir [&#x200B; Guide de référence des visionneuses &#x200B;](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=fr).
 
 **Correctifs de bugs pour la diffusion d’images 5.5.2**
 
@@ -89,7 +89,7 @@ Pour consulter la documentation complète, voir [&#x200B; Guide de référence d
 
 ## Visionneuses (Diffusion D’Images 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Pour consulter la documentation complète, voir [&#x200B; Guide de référence des visionneuses &#x200B;](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Pour consulter la documentation complète, voir [&#x200B; Guide de référence des visionneuses &#x200B;](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=fr).
 
 **Nouvelles fonctionnalités, améliorations et correctifs pour la diffusion d’images 5.5.1**
 
