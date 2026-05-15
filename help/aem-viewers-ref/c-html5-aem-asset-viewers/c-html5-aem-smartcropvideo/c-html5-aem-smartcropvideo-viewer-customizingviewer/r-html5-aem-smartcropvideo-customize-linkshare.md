@@ -7,9 +7,13 @@ feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 6f2b832f-e627-428a-8673-129bfa58c7e2
 TQID: 'https://experienceleague.adobe.com/y9kSFUHZdX5HLf65Zi4K5qRwsX8ghRa2Gj72FSSvzzs'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 1415
@@ -335,7 +339,7 @@ Le pied de boîte de dialogue se compose du bouton « Annuler ». Le conteneur d
 .s7smartcropvideoviewer .s7linkdialog .s7dialogfooter
 ```
 
-**Propriétés CSS du ** de pied de boîte de dialogue
+**Propriétés CSS du &#x200B;** de pied de boîte de dialogue
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -598,7 +602,7 @@ Tous les libellés statiques du formulaire de boîte de dialogue sont contrôlé
 
 Cette classe ne convient pas pour contrôler la taille ou la position des libellés, car vous pouvez l’appliquer à des textes à différents endroits de l’interface utilisateur du formulaire.
 
-**Propriétés CSS du libellé de la boîte de dialogue. **
+**Propriétés CSS du libellé de la boîte de dialogue. &#x200B;**
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 

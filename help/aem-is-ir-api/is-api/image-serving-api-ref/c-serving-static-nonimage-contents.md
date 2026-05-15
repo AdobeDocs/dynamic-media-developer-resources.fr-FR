@@ -6,10 +6,15 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
 TQID: 'https://experienceleague.adobe.com/bC4s5gEY2HaVRGv37BToYmWINn7ZG1JMVp1wSIF60l4'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 475
@@ -130,9 +135,9 @@ Vous pouvez encapsuler des fichiers de sous-titres vidéo (WebVTT), CSS ou tout 
 
 Vous pouvez également utiliser des pistes pour d’autres types de métadonnées horodatées. Les données sources de chaque élément de suivi sont un fichier texte composé d’une liste de repères horodatés. Les indices peuvent inclure des données dans des formats tels que JSON ou CSV.
 
-Voir [](https://en.wikipedia.org/wiki/JSONP) pour plus d’informations sur le format JSONP.
+Voir [&#128279;](https://en.wikipedia.org/wiki/JSONP) pour plus d’informations sur le format JSONP.
 
-Voir [](https://www.json.org/json-en.html) pour plus d’informations sur le format JSON.
+Voir [&#128279;](https://www.json.org/json-en.html) pour plus d’informations sur le format JSON.
 
 ## Voir aussi {#section-7b28631016044a22a3a6762fd64771e9}
 

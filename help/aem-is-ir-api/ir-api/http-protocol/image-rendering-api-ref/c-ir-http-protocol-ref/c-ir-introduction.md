@@ -6,9 +6,13 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c185e45b-a56c-4576-b05d-22cc0025a7c4
 TQID: 'https://experienceleague.adobe.com/I21iWFmYP0Vwunf3evtnLAr3tslHOsTOB0sGWG6l-bc'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 387
@@ -99,6 +103,6 @@ Le lecteur est supposé être familiarisé avec la création d’images et le re
 
 **Termes courants**
 
-** *`MSS`* ** Segment de spécification de matière : ensemble d&#39;attributs de matière entre deux commandes de sélection dans la demande.
+**&#x200B; *`MSS`* &#x200B;** Segment de spécification de matière : ensemble d&#39;attributs de matière entre deux commandes de sélection dans la demande.
 
-** *`vignette`* ** Image préparée dans la création d’images Dynamic Media en vue d’être utilisée avec le rendu d’image.
+**&#x200B; *`vignette`* &#x200B;** Image préparée dans la création d’images Dynamic Media en vue d’être utilisée avec le rendu d’image.

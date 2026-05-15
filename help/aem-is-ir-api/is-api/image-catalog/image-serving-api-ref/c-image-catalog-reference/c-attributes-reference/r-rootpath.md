@@ -6,10 +6,15 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 06662b27-fb10-41d0-a14c-48025d7e9137
 TQID: 'https://experienceleague.adobe.com/WFDqweSZS1tNJppprC8pJblN-7LBKRM-IHt2Vfj3oW0'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 111
@@ -21,7 +26,7 @@ ht-degree: 2%
 
 Chemin d’accès racine des données Source. Chemin d’accès absolu ou relatif au dossier racine pour les données sources de ce catalogue d’images.
 
-La `RootPath` est une valeur de chaîne de texte. Voir [ Gestion des données Source](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md#reference-4eebd51b2db2401c90be771d3382329e) pour plus d’informations sur les chemins d’accès racine au serveur.
+La `RootPath` est une valeur de chaîne de texte. Voir [&#x200B; Gestion des données Source](../../../../../is-api/image-serving-api-ref/c-configuration-and-administration/c-managing-content/r-source-data.md#reference-4eebd51b2db2401c90be771d3382329e) pour plus d’informations sur les chemins d’accès racine au serveur.
 
 ## Propriétés {#section-b41d7e0ea63143eb8034569706cad0c0}
 

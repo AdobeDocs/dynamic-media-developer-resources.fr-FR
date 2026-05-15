@@ -6,9 +6,13 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: b882ba01-a1ef-4179-95c7-964c2578aad1
 TQID: 'https://experienceleague.adobe.com/kP22kltIPZqErqxNKpYp2eNkII-GdYQQeiVH3wEYOvM'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 331
@@ -61,7 +65,7 @@ Vous pouvez associer jusqu’à quatre propriétés à chaque cible de zoom :
 
 Cible. *`num`*.rect est requis pour chaque cible de zoom et doit spécifier un rectangle dans l’image. Toutes les autres propriétés sont facultatives.
 
-*`label`* et *`userData`* participent à la localisation des chaînes de texte. Pour plus d’informations](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) consultez la section [Localisation de chaîne de texte dans la section *Référence du protocole HTTP*.
+*`label`* et *`userData`* participent à la localisation des chaînes de texte. Pour plus d’informations[&#128279;](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) consultez la section Localisation de chaîne de texte dans la section *Référence du protocole HTTP*.
 
 Pour les applications impliquant les clients de visionneuse à 360° et de brochure, les cibles de zoom doivent être définies dans le même enregistrement de catalogue qui définit la visionneuse d’images. Toute définition de cible de zoom dans les enregistrements de catalogue des membres de la visionneuse d’images est ignorée par la visionneuse.
 

@@ -7,9 +7,13 @@ feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: f2685d59-6b92-49cf-9359-dda602af4297
 TQID: 'https://experienceleague.adobe.com/YlrStGGfqLUyd9LmdqzBv-Bb0Ow9GDiYqh6pt4sVJbY'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 3093
@@ -333,7 +337,7 @@ Le pied de boîte de dialogue se compose des boutons « Annuler » et « Envoyer
 .s7smartcropvideoviewer .s7emaildialog .s7dialogfooter
 ```
 
-**Propriétés CSS du ** de pied de boîte de dialogue
+**Propriétés CSS du &#x200B;** de pied de boîte de dialogue
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -628,7 +632,7 @@ Tous les libellés statiques du formulaire de boîte de dialogue sont contrôlé
 
 Cette classe ne convient pas pour contrôler la taille ou la position des libellés, car vous pouvez l’appliquer à des textes à différents endroits de l’interface utilisateur du formulaire.
 
-**Propriétés CSS du libellé de la boîte de dialogue. **
+**Propriétés CSS du libellé de la boîte de dialogue. &#x200B;**
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
@@ -964,7 +968,7 @@ Le contenu partagé est affiché au bas du corps de la boîte de dialogue et com
 .s7smartcropvideoviewer .s7emaildialog .s7dialogbody .s7dialogcontent
 ```
 
-**Propriétés CSS du ** de contenu de la boîte de dialogue
+**Propriétés CSS du &#x200B;** de contenu de la boîte de dialogue
 
 <table id="table_9C5CBFC2482E4A46BE837573B0B02FE4"> 
  <tbody> 
@@ -1099,7 +1103,7 @@ L’origine du contenu est contrôlée avec le sélecteur de classe CSS suivant 
 .s7smartcropvideoviewer .s7emaildialog .s7dialogorigin
 ```
 
-**Propriétés CSS du ** d’origine du contenu de la boîte de dialogue
+**Propriétés CSS du &#x200B;** d’origine du contenu de la boîte de dialogue
 
 <table id="table_51763B532A9C4AE8AE54B69933A8C0B5"> 
  <tbody> 

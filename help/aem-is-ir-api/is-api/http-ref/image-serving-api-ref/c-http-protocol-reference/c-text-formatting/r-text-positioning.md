@@ -6,9 +6,13 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 092444bf-9964-4d97-b06e-3add033da284
 TQID: 'https://experienceleague.adobe.com/7I2AvTFME7oJArnXGqgFmm1pqEDGq5syGguLHlkdvfg'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 312
@@ -32,25 +36,25 @@ Bien qu&#39;`text=` soit un peu plus facile à utiliser pour des applications si
 
 Les exemples suivants concernent le texte pré-dimensionné. Le comportement du texte à redimensionnement automatique est différent.
 
-** `Text=` fournit toujours une marge étroite en haut :**
+**&#x200B; `Text=` fournit toujours une marge étroite en haut :**
 
 ![Exemple de positionnement de texte sur une image](assets/tp01.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20Normal%20Normal`
 
-** `textPs=` effectue le rendu du texte étroitement aligné sur le haut de la zone de texte, ce qui entraîne un léger écrêtage, même pour les polices courantes telles qu’Arial®:**
+**&#x200B; `textPs=` effectue le rendu du texte étroitement aligné sur le haut de la zone de texte, ce qui entraîne un léger écrêtage, même pour les polices courantes telles qu’Arial®:**
 
 ![Exemple de positionnement de texte sur deux images](assets/tp02.png)
 
 `/is/image/?size=230,50&bgc=f0f0f0&fmt=png&textPs=\fs40Normal%20Normal%20Normal`
 
-** `text=` déplace automatiquement le texte rendu vers le bas pour éviter l’écrêtage :**
+**&#x200B; `text=` déplace automatiquement le texte rendu vers le bas pour éviter l’écrêtage :**
 
 ![Exemple de positionnement de texte sur trois images](assets/tp03.png)
 
 `/is/image?size=230,50&bgc=f0f0f0&fmt=png&text=\fs40Normal%20{\up20Raised%20}Normal`
 
-** `textPs=` ne déplace pas le texte contenant des parties surélevées, ce qui entraîne un écrêtage significatif si le texte se trouve sur le calque 0:**
+**&#x200B; `textPs=` ne déplace pas le texte contenant des parties surélevées, ce qui entraîne un écrêtage significatif si le texte se trouve sur le calque 0:**
 
 ![Exemple de positionnement de texte pour quatre images](assets/tp04.png)
 

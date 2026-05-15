@@ -6,9 +6,13 @@ feature: Dynamic Media Classic,SDK/API,Image Sets
 role: Developer,User
 exl-id: eacf0553-8cec-4a1d-80a5-6fe37b92b5bf
 TQID: 'https://experienceleague.adobe.com/wh25AlzBQv0W-lEugybS8B-cIYYFoK8o9I2uGb52Ui4'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 681
@@ -121,7 +125,7 @@ Une visionneuse de vidéos est constituée d’une simple liste d’identifiants
 
 Chaîne de texte. Liste séparée par des virgules de valeurs de `catalog::Id`, de chemins d’accès absolus aux fichiers du serveur d’images ou de chemins d’accès relatifs à `attribute::RootPath`. La même image peut être référencée plusieurs fois dans la visionneuse. L’enregistrement de catalogue de définition peut apparaître dans le jeu à n’importe quel emplacement.
 
-Ce champ participe à la localisation de la chaîne de texte. En plus des chaînes *`label`* (qui font partie du *`solidColorSpecifier`*), tous les champs délimités sont localisés s’ils incluent au moins un jeton de localisation « `^loc=…^` ». Pour plus d’informations](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) consultez la section [Localisation de chaîne de texte dans la section *Référence du protocole HTTP*.
+Ce champ participe à la localisation de la chaîne de texte. En plus des chaînes *`label`* (qui font partie du *`solidColorSpecifier`*), tous les champs délimités sont localisés s’ils incluent au moins un jeton de localisation « `^loc=…^` ». Pour plus d’informations[&#128279;](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-text-string-localization.md) consultez la section Localisation de chaîne de texte dans la section *Référence du protocole HTTP*.
 
 ## Par défaut {#section-c3a60e360393478284f0f2d2da5b963b}
 

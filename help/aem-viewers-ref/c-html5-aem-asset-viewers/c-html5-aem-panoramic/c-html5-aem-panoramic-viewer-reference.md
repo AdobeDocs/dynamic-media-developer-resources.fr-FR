@@ -8,8 +8,10 @@ feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 autotag-review: '2026-05-13T22:16:12.254Z'
 TQID: 'https://experienceleague.adobe.com/lqrLpEdrL5vfhuF9GPmw-Yp1-FZmoEC-H-NlG0Z-i2Q'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
 source-git-commit: e76d4c499daf8c8a7a0be31e56d84f917c643095
 workflow-type: tm+mt
 source-wordcount: 1950
@@ -38,7 +40,7 @@ La visionneuse panoramique HTML5 représente un fichier JavaScript principal et 
 La visionneuse panoramique HTML5 peut être utilisée en mode pop-up à l’aide d’une page HTML prête pour l’exploitation fournie avec les visionneuses IS, ou en mode intégré, où elle est intégrée à la page web cible à l’aide d’une API documentée.
 La configuration et l’habillage sont similaires à ceux des autres visionneuses HTML5. Toute application de la peau peut être réalisée au moyen d’un CSS personnalisé.
 
-Voir [ Référence des commandes commune à toutes les visionneuses - Attributs de configuration ](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) et [ Référence des commandes commune à toutes les visionneuses - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+Voir [&#x200B; Référence des commandes commune à toutes les visionneuses - Attributs de configuration &#x200B;](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) et [&#x200B; Référence des commandes commune à toutes les visionneuses - URL](../../c-html5-viewer-20-cmdref-url/c-html5-viewer-20-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 ## Interaction avec la visionneuse panoramique HTML5 {#section-ab66eb6955aa4a8aa6d14a3b3acfed3f}
 
