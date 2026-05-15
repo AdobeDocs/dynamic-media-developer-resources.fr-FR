@@ -1,20 +1,28 @@
 ---
-description: Obtient les jeux de propriétés associés à une poignée de type.
+description: Obtient les ensembles de propriétés associés à une poignée de type.
 solution: Experience Manager
 title: getPropertySets
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: da6923c3-9b86-4595-8205-645fb10e03b0
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/D2kvkjhVic4Rz-cQPsQoIigz3or1cupYwzOD7rKTGNg'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: 90
 ht-degree: 16%
 
 ---
 
 # getPropertySets{#getpropertysets}
 
-Obtient les jeux de propriétés associés à une poignée de type.
+Obtient les ensembles de propriétés associés à une poignée de type.
 
 Syntaxe
 
@@ -36,21 +44,21 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| Poignée de type | `xsd:string` | Oui | Poignée pour le type de jeu de propriétés. |
-| PrimaryOwnerHandle | `xsd:string` | Oui | Propriétaire principal des données liées à l’objet de base de données. |
-| SecondaryOwnerHandle | `xsd:string` | Non | Propriétaire secondaire facultatif des données. |
+| typeHandle | `xsd:string` | Oui | Pointez sur le type de jeu de propriétés. |
+| primaryOwnerHandle | `xsd:string` | Oui | Propriétaire principal des données liées à l&#39;objet de base de données. |
+| secondaryOwnerHandle | `xsd:string` | Non | Propriétaire secondaire facultatif des données. |
 
 **Output (getPropertySetsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| Ensemble de tableau | `types:PropertySetArray` | Oui | Arry d’ensembles de propriétés. |
+| setArray | `types:PropertySetArray` | Oui | Tableau d’ensembles de propriétés. |
 
 ## Exemples {#section-1358af974eab4259864910337a6f0bd2}
 
-Cet exemple de code renvoie les ensembles de propriétés de leur propriétaire principal, spécifiés par une poignée de type.
+Cet exemple de code renvoie des jeux de propriétés de leur propriétaire principal, spécifiés par un descripteur de type.
 
-**Demander**
+**Requête**
 
 ```java
 <getPropertySetsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

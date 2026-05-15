@@ -5,10 +5,18 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 91c5eb52-40d9-40f6-8687-e68cb40b634e
-source-git-commit: 17556c64af32c957ac25312e2a3288a8d86b5679
+TQID: 'https://experienceleague.adobe.com/-CG9cDCgGht0hFS3dkQVutUkrHA8ka3P263U65m-E5U'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 3%
+source-wordcount: 88
+ht-degree: 5%
 
 ---
 
@@ -26,7 +34,7 @@ Attribut de configuration pour la visionneuse de vidéos interactives.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> overdragvalue </span> </span> </p> </td> 
-   <td colname="col2"> <p> Se trouve dans la plage de <span class="codeph"> 0-1 </span> et il s’agit d’une valeur de pourcentage pour le mouvement dans la mauvaise direction de la vitesse réelle. </p> <p>S’il est défini sur <span class="codeph"> 1 </span>, il se déplace avec la souris. </p> <p>Si cette valeur est définie sur <span class="codeph"> 0 </span>, vous ne pouvez pas vous déplacer dans la mauvaise direction. </p> </td> 
+   <td colname="col2"> <p> Se trouve dans la plage de </span> 0-1 <span class="codeph"> et il s’agit d’une valeur de pourcentage pour le mouvement dans la mauvaise direction de la vitesse réelle. </p> <p>S’il est défini sur <span class="codeph"> 1 </span>, il se déplace avec la souris. </p> <p>Si cette valeur est définie sur <span class="codeph"> 0 </span>, vous ne pouvez pas vous déplacer dans la mauvaise direction. </p> </td> 
   </tr> 
  </tbody> 
 </table>

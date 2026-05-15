@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 3816118f-4eb7-4436-9f54-155dde077734
-source-git-commit: 6087b48b898e93e605c3873cbd5132b74d04225f
+TQID: 'https://experienceleague.adobe.com/22IBldFsXMEvCAZqbxHyK7yj9txKoiqzewsJ3fB0NoM'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: 321
 ht-degree: 0%
 
 ---
@@ -51,7 +59,7 @@ L’aspect de l’icône de zone cliquable est contrôlé par le sélecteur de c
    <td colname="col2"> <p>Largeur de l’icône de zone cliquable en pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de hauteur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de hauteur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Hauteur de l’icône de zone cliquable en pixels. </p> </td> 
   </tr> 
  </tbody> 
@@ -94,7 +102,7 @@ L’aspect de la zone cliquable est contrôlé par le sélecteur de classe CSS s
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d’arrière-plan </span> </p> </td> 
+   <td colname="col1"> <p> </span> d’arrière-plan <span class="codeph"> </p> </td> 
    <td colname="col2"> <p> Couleur de remplissage de la zone cliquable. </p> <p>Spécifiée au format #RRGGBB, RGB(R,G,B) ou RGBA(R,G,B,A). </p> </td> 
   </tr> 
   <tr> 
@@ -102,7 +110,7 @@ L’aspect de la zone cliquable est contrôlé par le sélecteur de classe CSS s
    <td colname="col2"> <p> Couleur de remplissage de la zone cliquable. </p> <p>Spécifiée au format #RRGGBB, RGB(R,G,B) ou RGBA(R,G,B,A). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de bordure </span> </p> </td> 
+   <td colname="col1"> <p> </span> de bordure <span class="codeph"> </p> </td> 
    <td colname="col2"> <p> Style de bordure de la zone cliquable. </p> <p>Spécifiée comme <span class="codeph"> largeur <span class="varname"> </span> couleur <span class="varname"> pleine </span> </span>, où <span class="codeph"> largeur <span class="varname"> </span> </span> est exprimée en pixels et <span class="codeph"> couleur <span class="varname"> </span> </span> est défini comme #RRGGBB, RGB(R,G,B) ou RGBA(R,G,B,A). </p> </td> 
   </tr> 
  </tbody> 

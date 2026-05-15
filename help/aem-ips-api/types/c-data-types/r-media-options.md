@@ -1,20 +1,28 @@
 ---
-description: Génère une image miniature pour votre vidéo.
+description: Génère une miniature pour votre vidéo.
 solution: Experience Manager
-title: Options médias
+title: MediaOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f37d935d-fe74-4878-8477-d2144d58d982
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/iQIXgFgGM6FBg9657kCd0a7FKGWkSQgLAlXn9Vaici0'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 4%
+source-wordcount: 121
+ht-degree: 5%
 
 ---
 
 # [!DNL MediaOptions]{#mediaoptions}
 
-Génère une image miniature pour votre vidéo.
+Génère une miniature pour votre vidéo.
 
 Syntaxe
 
@@ -30,19 +38,19 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> Tableau des préréglages</span> de codage vidéo </span> </td> 
-   <td colname="col2"> <span class="codeph"> types :HandleArray</span> </td> 
-   <td colname="col3">Un ensemble de <span class="codeph"> PropertySet</span> gère le référencement des paramètres prédéfinis de codage vidéo pour le transcodage de vidéos. </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> videoEncodingPresetsArray</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> types:HandleArray</span> </td> 
+   <td colname="col3">Un tableau de <span class="codeph"> PropertySet</span> gère le référencement des paramètres prédéfinis de codage vidéo pour le transcodage des vidéos. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> générer la miniature</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :booléen</span> </td> 
-   <td colname="col3"> Si la valeur est true, la première image de la vidéo est extraite et utilisée comme image miniature. </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> generateThumbnail</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col3"> Si la valeur est true, la première image de la vidéo est extraite et utilisée comme miniature. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> thumbnailOptions</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types :ThumbnailOptions</span> </td> 
-   <td colname="col3">Optionnel. Vous permet de choisir une image vidéo particulière à utiliser comme image miniature. <p>Pour spécifier une image miniature, transmettez l’heure (en millisecondes à compter du début de la vidéo) pour l’image que vous souhaitez utiliser. Les valeurs sont comprises entre 0 et la fin de la vidéo. <p>Remarque : Si vous spécifiez l’heure de manière incorrecte, <span class="codeph"> generateThumbnail</span> prend la valeur true par défaut. </p></p><p>Voir <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> Options des miniatures</a>. </p></td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbnailOptions </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> de rapports :ThumbnailOptions</span> </td> 
+   <td colname="col3">Facultatif. Permet de choisir une image vidéo particulière à utiliser comme miniature. <p>Pour spécifier une image miniature, transmettez le temps (en millisecondes à partir du début de la vidéo) de l’image que vous souhaitez utiliser. Les valeurs sont comprises entre 0 et la fin de la vidéo. <p>Remarque : si vous indiquez l’heure de manière incorrecte, <span class="codeph"> generateThumbnail</span> est défini par défaut sur true. </p></p><p>Voir <a href="../../types/c-data-types/r-thumbnail-options.md#reference-370088b0a4ce4096b9b3e5489a368b5c" format="dita" scope="local"> ThumbnailOptions</a>. </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,8 +69,8 @@ Syntaxe
 
 ## Utilisé par {#section-87cb83407198432c95eaa2db9f12f9db}
 
-Le `mediaOptions` type est utilisé par :
+Le type de `mediaOptions` est utilisé par :
 
-* [Tâche d’annuaire de téléchargement](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
+* [UploadDirectoryJob](../../types/c-data-types/r-upload-directory-job.md#reference-e707ebf53b074c49ad983d1886e0bbb6)
 * [UploadPostJob](../../types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4)
 * [UploadURLsJob](../../types/c-data-types/r-upload-urls-job.md#reference-8e9bc895268c4321b233dbeadc990398)

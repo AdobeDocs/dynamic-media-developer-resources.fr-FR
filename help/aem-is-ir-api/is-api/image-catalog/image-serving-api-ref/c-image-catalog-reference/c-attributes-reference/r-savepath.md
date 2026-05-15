@@ -1,26 +1,34 @@
 ---
-description: Chemin racine pour saveToFile=. Chemin d’accès relatif du dossier racine dans lequel les images générées avec req=saveToFile doivent être écrites.
+description: Chemin racine pour saveToFile=. Chemin d’accès relatif au dossier racine dans lequel les images générées avec req=saveToFile doivent être écrites.
 solution: Experience Manager
-title: Chemin d’enregistrement
+title: SavePath
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 6e2814b9-898f-4cf4-8e4f-aa972d554213
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/CXC5-22MiZRyIjwOgOcgpRGq6kVZSZ6S-EKq8N-k7ME'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: 89
 ht-degree: 3%
 
 ---
 
-# Chemin d’enregistrement{#savepath}
+# SavePath{#savepath}
 
-Chemin racine pour saveToFile=. Chemin d’accès relatif du dossier racine dans lequel les images générées avec req=saveToFile doivent être écrites.
+Chemin racine pour saveToFile=. Chemin d’accès relatif au dossier racine dans lequel les images générées avec req=saveToFile doivent être écrites.
 
 `SavePath` est une valeur de chaîne de texte.
 
 ## Propriétés {#section-343d1371e966491c92854a8df14c3c50}
 
-Chaîne de texte. Doit être vide ou correspondre à un chemin d’accès valide au dossier. Toujours combiné avec le chemin racine absolu configuré avec `ImageServer::SaveDirectory`.
+Chaîne de texte. Doit être vide pour un chemin d’accès au dossier relatif valide. Toujours combiné avec le chemin racine absolu configuré avec `ImageServer::SaveDirectory`.
 
 ## Par défaut {#section-ae751eea97654f399c6aaee3f3252cbb}
 

@@ -1,24 +1,32 @@
 ---
-title: Barre de contrôle secondaire
-description: La barre de contrôle secondaire est la zone rectangulaire qui contient les boutons Première et Dernière page et un indicateur de page lorsqu’elle est disponible dans CSS.
+title: barre de contrôle Secondaire
+description: La barre de contrôle secondaire est la zone rectangulaire qui contient les boutons Première et Dernière page et un indicateur de page lorsqu’il est disponible dans CSS.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: e5d6abe8-0ae9-4ccd-b311-5895e09310b2
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+TQID: 'https://experienceleague.adobe.com/NMaW0QPU2A3pUzpvMg3kbW8MmeLbJ1hZlCSGTEcG6Ko'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: 171
 ht-degree: 0%
 
 ---
 
-# Barre de contrôle secondaire{#secondary-control-bar}
+# barre de contrôle Secondaire{#secondary-control-bar}
 
-La barre de contrôle secondaire est la zone rectangulaire qui contient les boutons Première et Dernière page et un indicateur de page lorsqu’elle est disponible dans CSS.
+La barre de contrôle secondaire est la zone rectangulaire qui contient les boutons Première et Dernière page et un indicateur de page lorsqu’il est disponible dans CSS.
 
-Par défaut, il s’affiche uniquement sur les téléphones mobiles, dans la partie inférieure de la visionneuse. Prend toujours toute la largeur disponible de la visionneuse. Il est possible de modifier sa couleur, sa hauteur et sa position verticale par CSS, par rapport au conteneur de la visionneuse.
+Par défaut, elle s’affiche uniquement sur les téléphones mobiles, dans la partie inférieure de la visionneuse. Elle utilise toujours la largeur totale de visionneuse disponible. Il est possible de modifier sa couleur, sa hauteur et sa position verticale par CSS, par rapport au conteneur de la visionneuse.
 
-L’apparence de la barre de contrôle secondaire est contrôlée par le sélecteur de classe CSS suivant :
+L’aspect de la barre de contrôle secondaire est contrôlé avec le sélecteur de classe CSS suivant :
 
 `.s7ecatalogsearchviewer .s7secondarycontrols .s7controlbar`
 
@@ -31,25 +39,25 @@ L’apparence de la barre de contrôle secondaire est contrôlée par le sélect
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Retour au début </span> </p> </td> 
-   <td colname="col2"> <p>Position depuis le haut de la visionneuse. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col2"> <p>Position à partir du haut de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> fond </span> </p> </td> 
-   <td colname="col2"> <p>Position depuis le bas de la visionneuse. </p> </td> 
+   <td colname="col1"> <p> </span> inférieur <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p>Position à partir du bas de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> hauteur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de hauteur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Hauteur de la barre de contrôle principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> couleur d’arrière-plan </span> </p> </td> 
-   <td colname="col2"> <p>Couleur d’arrière-plan de la barre de contrôle secondaire. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> des </span> de couleur d’arrière-plan </p> </td> 
+   <td colname="col2"> <p>Couleur d'arrière-plan de la barre de contrôle secondaire. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : pour configurer une barre de contrôle secondaire grise de 72 pixels de haut et placée au bas du conteneur de la visionneuse.
+Exemple : pour configurer une barre de contrôle secondaire grise de 72 pixels de haut placée au bas du conteneur de la visionneuse.
 
 ```
 .s7ecatalogsearchviewer .s7secondarycontrols .s7controlbar {  

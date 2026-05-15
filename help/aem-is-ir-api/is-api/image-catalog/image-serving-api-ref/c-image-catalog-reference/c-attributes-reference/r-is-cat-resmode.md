@@ -1,26 +1,34 @@
 ---
-title: Mode ResMode
-description: Mode de rééchantillonnage par défaut. Spécifie les attributs de rééchantillonnage et d’interpolation par défaut à utiliser pour la mise à l’échelle des données d’image.
+title: ResMode
+description: Mode de rééchantillonnage par défaut. Indique les attributs de rééchantillonnage et d’interpolation par défaut à utiliser pour la mise à l’échelle des données d’image.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: a604e61e-be38-4819-b5c3-a79843c1678f
-source-git-commit: 7c4492b583e7bd6fb87229c4566f1d9493c8a650
+TQID: 'https://experienceleague.adobe.com/jYteRal6Z6ea7AWTuoGA9KFDAyPS1rV7t-KzZBbm-s0'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: 83
 ht-degree: 3%
 
 ---
 
-# Mode ResMode{#resmode}
+# ResMode{#resmode}
 
-Mode de rééchantillonnage par défaut. Spécifie les attributs de rééchantillonnage et d’interpolation par défaut à utiliser pour la mise à l’échelle des données d’image.
+Mode de rééchantillonnage par défaut. Indique les attributs de rééchantillonnage et d’interpolation par défaut à utiliser pour la mise à l’échelle des données d’image.
 
-Utilisé quand `resMode=` n’est pas indiqué dans une requête.
+Utilisé lorsque `resMode=` n’est pas spécifié dans une requête.
 
 ## Propriétés {#section-493f900be522486f97710cebdc4460c2}
 
-Enum. Définissez sur 2 pour `bilin`, 3 pour `bicub`et 4 pour `sharp2` le mode d’interpolation (voir [resMode=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-resmode.md) pour plus de détails). `sharp` (1) est en passe d’être désapprouvée. Utilisez `sharp2` (4) à la place pour de meilleurs résultats.
+Énumération. Définissez cette valeur sur 2 pour `bilin`, 3 pour `bicub` ou 4 pour `sharp2` mode d’interpolation (voir [resMode=](/help/aem-is-ir-api/is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-resmode.md) pour plus d’informations). `sharp` (1) est en cours d’abandon. Utilisez plutôt `sharp2` (4) pour obtenir de meilleurs résultats.
 
 ## Par défaut {#section-35f980e745fc4d79a2621e8abacc724d}
 

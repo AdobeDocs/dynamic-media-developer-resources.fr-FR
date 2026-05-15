@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9242c873-5a85-4ede-82b6-4ef15feecf50
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/uj4dkcoE66sj68VxVb92ncvX9FTQAy99TMUOW-rLc-A'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: 245
 ht-degree: 0%
 
 ---
@@ -32,7 +40,7 @@ Type de requête. Spécifie le type de demande.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> des contenus </span> </p> </td> 
-   <td colname="col2"> <p> Renvoyer la liste xml de tous les éléments avec une valeur d’attribut s7:element<span class="codeph"> </span> et une liste de toutes les pages du document fxg. </p> </td> 
+   <td colname="col2"> <p> Renvoyer la liste xml de tous les éléments avec une valeur d’attribut s7:element</span> <span class="codeph"> et une liste de toutes les pages du document fxg. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> overetstatus </span> </p> </td> 

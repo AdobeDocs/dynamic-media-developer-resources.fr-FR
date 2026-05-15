@@ -1,31 +1,39 @@
 ---
 title: aiguiser
-description: Accentuer l’image de réponse. Une accentuation facultative peut être appliquée une fois que l’image rendue est mise à l’échelle en fonction de wid= ou hei=.
+description: Accentuer l’image de réponse. Un accentuation facultative peut être appliquée après la mise à l’échelle de l’image rendue selon les valeurs wid= ou hei=.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0c831ea7-fc64-484d-b3a4-4cb713b5d873
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+TQID: 'https://experienceleague.adobe.com/gyLDjxKjHs5wG49zirArvaMLxu4rtkRIb4Yvyx40Ofc'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '51'
+source-wordcount: 51
 ht-degree: 9%
 
 ---
 
 # aiguiser{#sharpen}
 
-Accentuer l’image de réponse. Une accentuation facultative peut être appliquée une fois que l’image rendue est mise à l’échelle en fonction de wid= ou hei=.
+Accentuer l’image de réponse. Un accentuation facultative peut être appliquée après la mise à l’échelle de l’image rendue selon les valeurs wid= ou hei=.
 
 `sharpen=0|1`
 
 <table id="simpletable_E14B914834A241BA8B5FC42F07D34EEB"> 
  <tr class="strow"> 
-  <td class="stentry"> <p>01 </p></td> 
-  <td class="stentry"> <p>Pas d’accentuation. </p></td> 
+  <td class="stentry"> <p>0 </p></td> 
+  <td class="stentry"> <p>Aucun accentuation. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p></td> 
-  <td class="stentry"> <p>Affilage. </p></td> 
+  <td class="stentry"> <p>Accentuation. </p></td> 
  </tr> 
 </table>
 
@@ -35,4 +43,4 @@ Accentuer l’image de réponse. Une accentuation facultative peut être appliqu
 
 ## Voir aussi {#section-6172f926a0a54d7b86081784ee47470e}
 
-[attribute ::Sharpen](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharpen.md#reference-18df922f3a3f403a97ccaaa15042e30a) , [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)
+[attribute::Sharpen](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharpen.md#reference-18df922f3a3f403a97ccaaa15042e30a) , [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)

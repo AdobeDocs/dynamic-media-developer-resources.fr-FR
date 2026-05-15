@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: d800dbbc-2c40-4911-8f29-c8413847f7be
-source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
+TQID: 'https://experienceleague.adobe.com/Pb4p9FaDF9vNV0Ldpm-ozKNj7XBVWHaWTT6gfbCwoMg'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: 89
 ht-degree: 3%
 
 ---
@@ -26,7 +34,7 @@ Spécifie aucun ou plusieurs gestionnaires de rappel. Un appel à cette méthode
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> gestionnaires </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {Object} </span> objet JSON avec des rappels d’événement de visionneuse, où le nom de la propriété est le nom de l’événement de visionneuse pris en charge et la valeur de la propriété est une référence de fonction JavaScript à un rappel approprié. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-event-callbacks.md#concept-8ba57cf86537401999514e1b221ec734" format="dita" scope="local"> des rappels d’événement </a> pour plus d’informations sur les événements de visionneuse. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> objet {Object} </span> un objet JSON avec des rappels d’événement de visionneuse, où le nom de la propriété est le nom de l’événement de visionneuse pris en charge et la valeur de la propriété est une référence de fonction JavaScript à un rappel approprié. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-basic-zoom-viewer-about/c-html5-20-basic-zoom-viewer-event-callbacks.md#concept-8ba57cf86537401999514e1b221ec734" format="dita" scope="local"> des rappels d’événement </a> pour plus d’informations sur les événements de visionneuse. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,9 +5,19 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: d506dc6e-8929-4f7f-a205-1683e77681f1
-source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
+TQID: 'https://experienceleague.adobe.com/6nKI5dvFTDhkdcGAvogWEyD6--EboNxNTUfCr-vSmRY'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '1707'
+source-wordcount: 1750
 ht-degree: 0%
 
 ---
@@ -252,7 +262,7 @@ L’ajout de la visionneuse à une telle page est similaire aux étapes d’inco
 1. La définition du `DIV` de conteneur.
 1. Création et initialisation de la visionneuse.
 
-Toutes les étapes ci-dessus sont identiques à l’incorporation de taille fixe. Ajoutez le `DIV` de conteneur au `"holder"` de `DIV` existant.
+Toutes les étapes ci-dessus sont identiques à l’incorporation de taille fixe. Ajoutez le `DIV` de conteneur au `DIV` de `"holder"` existant.
 
 <!-- The following code is a complete example. Notice how the viewer size changes when the browser is resized, and how the viewer aspect ratio matches the asset. -->
 

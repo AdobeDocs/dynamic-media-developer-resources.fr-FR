@@ -5,26 +5,36 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 321ca7e2-e3f9-4b0e-8bde-41d8478e1a0b
-source-git-commit: 61e3a1fd0e21d336eaf5232096f5b1b54f2a6353
+TQID: 'https://experienceleague.adobe.com/IxWBmkKfrj-lDgQXXglzq2Q19e8YoApJRzwT8P-L4a0'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: 306
 ht-degree: 1%
 
 ---
 
 # ZoomView.enableHD{#zoomview-enablehd}
 
-` [ZoomView.|<containerId>_zoomView.]enableHD=always|never|limit[, *`nombre`*]`
+` [ZoomView.|<containerId>_zoomView.]enableHD=always|never|limit[, *`number`*]`
 
 <table id="table_0BEA0B5FFDF64E5594B534B2A87A6D88"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> toujours|jamais|limite</span> </p> </td> 
-   <td colname="col2"> <p> Activez, limitez ou désactivez l’optimisation pour les appareils sur lesquels <span class="codeph"> devicePixelRatio</span> est supérieur à <span class="codeph"> 1</span>, c’est-à-dire les appareils dotés d’un écran haute densité comme l’iPhone4 et les appareils similaires. S’il est actif, le composant limite la taille de la demande d’image IS comme si le périphérique n’avait qu’un rapport de pixels de <span class="codeph"> 1</span> , réduisant ainsi la bande passante. </p> <p>Voir l’exemple ci-dessous. </p> </td> 
+   <td colname="col2"> <p> Activez, limitez ou désactivez l’optimisation pour les appareils pour lesquels <span class="codeph"> devicePixelRatio</span> est supérieur à <span class="codeph"> 1</span>, c’est-à-dire les appareils dotés d’un affichage à haute densité tels qu’iPhone4 et les appareils similaires. S’il est actif, le composant limite la taille de la demande d’image IS comme si l’appareil avait uniquement un rapport pixel de <span class="codeph"> 1</span> ce qui réduit la bande passante. </p> <p>Voir l’exemple ci-dessous. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> nombre</span> </span> </p> </td> 
-   <td colname="col2"> <p> Si vous utilisez le paramètre de limite, le composant permet une densité de pixels élevée uniquement jusqu’à la limite spécifiée. </p> <p>Voir l’exemple ci-dessous. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> numéro </span> </span> </p> </td> 
+   <td colname="col2"> <p> Si vous utilisez le paramètre de limite, le composant n’active une densité de pixels élevée que jusqu’à la limite spécifiée. </p> <p>Voir l’exemple ci-dessous. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -39,7 +49,7 @@ Facultatif.
 
 ## Exemple {#section-96e69b70365f461dae4399e49044ea2f}
 
-Voici les résultats attendus lorsque vous utilisez cet attribut de configuration avec la visionneuse et que la taille de la visionneuse est de 1000 x 1000 :
+Voici les résultats attendus lorsque vous utilisez cet attribut de configuration avec la visionneuse et que la taille de la visionneuse est de 1 000 x 1 000 :
 
 <table id="table_F97FEDA0EE1B4EF6AC9FF9060548ACA4"> 
  <thead> 
@@ -53,22 +63,22 @@ Voici les résultats attendus lorsque vous utilisez cet attribut de configuratio
    <td colname="col1"> <p> <span class="codeph"> toujours</span> </p> </td> 
    <td colname="col2"> <p>La densité en pixels de l’écran/de l’appareil est toujours prise en compte.</p> <p> 
      <ul id="ul_D8F31FDFCDB74B75A3B1BFBEE33AF2E2"> 
-      <li id="li_8A1C6DCCE10545349C73029729211BB2"> <p>Si la densité de pixels d’écran = 1, l’image demandée est de 1000 x 1000. </p> </li> 
-      <li id="li_884156A34AC64B4E9B3ACC4C25EB710F"> <p>Si la densité de pixels d’écran = 1,5, l’image demandée est de 1500 x 1500. </p> </li> 
-      <li id="li_7EC699284A7F4E679E512C3DA8B5454F"> <p>Si la densité de pixels d’écran = 2, l’image demandée est de 2000 x 2000. </p> </li> 
+      <li id="li_8A1C6DCCE10545349C73029729211BB2"> <p>Si la densité en pixels de l’écran = 1, l’image demandée est de 1 000 x 1 000. </p> </li> 
+      <li id="li_884156A34AC64B4E9B3ACC4C25EB710F"> <p>Si la densité en pixels de l’écran = 1,5, l’image demandée est de 1 500 x 1 500. </p> </li> 
+      <li id="li_7EC699284A7F4E679E512C3DA8B5454F"> <p>Si la densité en pixels de l’écran = 2, l’image demandée est 2 000 x 2 000. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> jamais</span> </p> </td> 
-   <td colname="col2"> <p>Il utilise toujours une densité de pixels de 1 et ignore la capacité HD de l’appareil. Par conséquent, l’image demandée est toujours égale à 1000 x 1000. </p> </td> 
+   <td colname="col2"> <p>Il utilise toujours une densité de pixels de 1 et ignore la fonctionnalité HD de l’appareil. Par conséquent, l’image demandée est toujours 1 000 x 1 000. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> limite&lt;number&gt;</span>&lt;/number&gt; </p> </td> 
-   <td colname="col2"> <p>Une densité de pixels de périphérique est demandée et diffusée uniquement si l’image résultante est inférieure à la limite spécifiée. </p> <p>Le nombre limite s’applique soit à la dimension largeur, soit à la dimension hauteur. </p> <p> 
+   <td colname="col1"> <p> <span class="codeph"> limit&lt;number&gt;</span> </p> </td> 
+   <td colname="col2"> <p>Une densité en pixels d’appareil est demandée et diffusée uniquement si l’image obtenue est inférieure à la limite spécifiée. </p> <p>Le nombre limite s’applique à la dimension de largeur ou de hauteur. </p> <p> 
      <ul id="ul_CEC06B2280164951BA1A0ADED99E8050"> 
-      <li id="li_CA7A0980ACC54690A4F212DF53E2DC8A"> <p>Si le nombre limite est de 1600 et que la densité en pixels est de 1,5, l’image 1500 x 1500 est diffusée. </p> </li> 
-      <li id="li_A4AAD7FBFA0347B082789511CA6768A5"> <p>Si le nombre limite est de 1600 et que la densité de pixels est 2, l’image 1000 x 1000 est diffusée car l’image 2000 x 2000 dépasse la limite. </p> </li> 
-     </ul> </p> <p> <b>Bonne pratique</b> : Le nombre limite doit fonctionner avec le paramètre de l’entreprise pour l’image de taille maximale. Par conséquent, définissez le nombre limite pour qu’il soit égal à la taille d’image maximale définie par l’entreprise. </p> </td> 
+      <li id="li_CA7A0980ACC54690A4F212DF53E2DC8A"> <p>Si le nombre limite est 1 600 et que la densité de pixels est de 1,5, l’image 1 500 x 1 500 est diffusée. </p> </li> 
+      <li id="li_A4AAD7FBFA0347B082789511CA6768A5"> <p>Si le nombre limite est de 1 600 et que la densité en pixels est de 2, l’image 1 000 x 1 000 est diffusée, car l’image 2 000 x 2 000 dépasse la limite. </p> </li> 
+     </ul> </p> <p> <b>Bonne pratique </b> : le nombre limite doit fonctionner avec le paramètre d’entreprise pour une image de taille maximale. Par conséquent, définissez le nombre limite pour qu’il soit égal au paramètre de taille d’image maximale de la société. </p> </td> 
   </tr> 
  </tbody> 
 </table>

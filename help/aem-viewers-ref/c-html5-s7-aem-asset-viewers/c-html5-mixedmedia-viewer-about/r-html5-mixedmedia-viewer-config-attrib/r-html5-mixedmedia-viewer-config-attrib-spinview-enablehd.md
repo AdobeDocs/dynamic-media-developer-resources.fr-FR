@@ -5,26 +5,37 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 0a2abdc6-eae5-4dda-b749-599cd8a07a98
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+TQID: 'https://experienceleague.adobe.com/sVDq51PMMpTHbeBjGsIM3WS2p-Ap1ifJOBLiMylzrek'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: 84
 ht-degree: 3%
 
 ---
 
 # SpinView.enableHD{#spinview-enablehd}
 
-` [SpinView.|<containerId>_spinView.]enableHD=always|never|limit[, *`nombre`*]`
+` [SpinView.|<containerId>_spinView.]enableHD=always|never|limit[, *`number`*]`
 
 <table id="table_8929B59833DE4E1C89FA4BCF07309809"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> toujours|jamais|limite</span> </p> </td> 
-   <td colname="col2"> <p> Activez, limitez ou désactivez l’optimisation pour les appareils sur lesquels <span class="codeph"> devicePixelRatio</span> est supérieur à <span class="codeph"> 1</span>, c’est-à-dire les appareils dotés d’un écran haute densité comme l’iPhone4 et les appareils similaires. S’il est actif, le composant limite la taille de la demande d’image IS comme si le périphérique n’avait qu’un rapport de pixels de <span class="codeph"> 1</span> et réduit donc la bande passante. </p> </td> 
+   <td colname="col2"> <p> Activez, limitez ou désactivez l’optimisation pour les appareils pour lesquels <span class="codeph"> devicePixelRatio</span> est supérieur à <span class="codeph"> 1</span>, c’est-à-dire les appareils dotés d’un affichage à haute densité tels qu’iPhone4 et les appareils similaires. S’il est actif, le composant limite la taille de la demande d’image IS comme si l’appareil avait uniquement un rapport pixel de <span class="codeph"> 1</span> ce qui réduit la bande passante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> nombre</span></span> </p> </td> 
-   <td colname="col2"> <p> Si vous utilisez le <span class="codeph"> paramètre de limite</span> , le composant permet une densité de pixels élevée uniquement jusqu’à la limite spécifiée. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"><span class="varname"> numéro</span></span> </p> </td> 
+   <td colname="col2"> <p> Si vous utilisez le paramètre <span class="codeph"> limite</span> , le composant n’active une densité de pixels élevée que jusqu’à la limite spécifiée. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,9 +5,19 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: bcbba4c5-b758-4049-b4c2-f1c48cc2de7e
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+TQID: 'https://experienceleague.adobe.com/DAvANJggSrj6-wEEL8qYAMlOeuavo7usySKl1g-npVg'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: 160
 ht-degree: 2%
 
 ---
@@ -19,7 +29,7 @@ ht-degree: 2%
 <table id="table_AE7AAFA9B4374E31B51D06511EB96401"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> aucun|[<span class="varname"> image_id</span>][ ?<span class="varname"> isCommands</span>]</span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> none|[<span class="varname"> image_id</span>][?<span class="varname"> isCommands</span>]</span> </p> </td> 
    <td colname="col2"> <p> L’image à afficher sur la première image avant que la vidéo ne commence à être lue, résolue par rapport à <span class="codeph">’URL du serveur</span>. Si spécifié dans l’URL, codez en HTTP les éléments suivants : </p> <p> 
      <ul id="ul_B38A687CEFE64C68A0B2C227A68A458F"> 
       <li id="li_E7AE1BDAC17E49E0B7ACF89C5C0529F0"> <p> <span class="codeph"> ?</span> comme <span class="codeph"> %3F</span> </p> </li> 

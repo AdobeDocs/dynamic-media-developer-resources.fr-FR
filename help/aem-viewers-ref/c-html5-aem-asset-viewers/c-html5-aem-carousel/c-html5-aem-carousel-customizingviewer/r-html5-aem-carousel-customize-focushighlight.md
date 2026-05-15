@@ -1,26 +1,34 @@
 ---
-title: Mise au point
-description: La mise en surbrillance de la mise au point d’entrée affichée autour de l’élément d’interface utilisateur de la visionneuse ciblée est contrôlée par le sélecteur de classe CSS.
+title: Mettre en surbrillance
+description: La mise en surbrillance de la sélection d’entrée affichée autour de l’élément d’interface utilisateur de la visionneuse ciblée est contrôlée avec le sélecteur de classe CSS.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: f9343055-9fd9-4b19-bba3-1f742acb6193
-source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
+TQID: 'https://experienceleague.adobe.com/0v99YIfDapue-w7mQQ223ApC2HCXW8DEnijsqQxp5iI'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: 80
 ht-degree: 1%
 
 ---
 
-# Mise au point{#focus-highlight}
+# Mettre en surbrillance{#focus-highlight}
 
-La mise en surbrillance de la mise au point d’entrée affichée autour de l’élément d’interface utilisateur de la visionneuse ciblée est contrôlée par le sélecteur de classe CSS.
+La mise en surbrillance de la sélection d’entrée affichée autour de l’élément d’interface utilisateur de la visionneuse ciblée est contrôlée avec le sélecteur de classe CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **Propriétés CSS**
 
-L’apparence est contrôlée par le sélecteur de classe CSS suivant :
+L’aspect est contrôlé avec le sélecteur de classe CSS suivant :
 
 ```
 .s7carouselviewer *:focus
@@ -35,13 +43,13 @@ L’apparence est contrôlée par le sélecteur de classe CSS suivant :
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> contour </span> </p> </td> 
-   <td colname="col2"> <p>Style de mise au point de mise en évidence. </p> </td> 
+   <td colname="col1"> <p> </span> de plan <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p>Style de surbrillance du focus. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : pour désactiver la mise en surbrillance par défaut du focus du navigateur pour tous les éléments de l’interface utilisateur de la visionneuse, ajoutez le sélecteur CSS suivant à la feuille de style de la visionneuse :
+Exemple : pour désactiver la mise en surbrillance par défaut du navigateur pour tous les éléments de l’interface utilisateur de la visionneuse, ajoutez le sélecteur CSS suivant à la feuille de style de la visionneuse :
 
 ```
 .s7carouselviewer *:focus { 

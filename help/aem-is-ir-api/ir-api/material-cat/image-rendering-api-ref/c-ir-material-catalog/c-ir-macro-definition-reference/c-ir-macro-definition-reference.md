@@ -1,17 +1,25 @@
 ---
-description: Lors de la définition d’une macro, vous spécifiez son nom et sa définition.
+description: Lors de la définition d'une macro, vous spécifiez le nom et la définition.
 solution: Experience Manager
-title: Référence de la définition de macro
+title: Référence de définition de macro
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 3f322443-eac5-49aa-946e-2bc895fbbfc2
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/Dyyt3o-XgkLjG9YtcQO-U-SG5OdPyq7ogaLRcuc9Q9k'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '26'
+source-wordcount: 26
 ht-degree: 0%
 
 ---
 
-# Référence de la définition de macro{#macro-definition-reference}
+# Référence de définition de macro{#macro-definition-reference}
 
-Lors de la définition d’une macro, vous spécifiez son nom et sa définition.
+Lors de la définition d&#39;une macro, vous spécifiez le nom et la définition.

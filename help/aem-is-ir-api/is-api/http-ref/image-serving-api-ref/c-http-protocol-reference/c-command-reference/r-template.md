@@ -1,33 +1,41 @@
 ---
 title: modèle
-description: Modèle de compositing. Permet de spécifier un modèle de composition situé dans un catalogue autre que le catalogue principal.
+description: Composition du modèle. Permet de spécifier un modèle de composition situé dans un catalogue autre que le catalogue principal.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 56ebf2a1-f2c3-4b3f-8d0a-9383f1411440
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+TQID: 'https://experienceleague.adobe.com/O1v1LorIfXLyRso4ZRVJd7qx5A4kciWKVoG-df8q-Xg'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: 166
 ht-degree: 4%
 
 ---
 
 # modèle{#template}
 
-Modèle de compositing. Permet de spécifier un modèle de composition dans un catalogue autre que le catalogue principal.
+Composition du modèle. Permet de définir un modèle de composition dans un catalogue autre que le catalogue principal.
 
 `template= *`modèle`*`
 
 <table id="simpletable_DEC6F4EB460D453B8F272C98C9C8B7E5"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> objet</span> </p> </td> 
+  <td class="stentry"> <p><span class="varname"> objet </span> </p> </td> 
   <td class="stentry"> <p>Modèle. </p></td> 
  </tr> 
 </table>
 
-*`template`* doit être une entrée de catalogue d’images dont le corps du modèle est contenu dans `catalog::Modifier`.
+*`template`* doit être une entrée de catalogue d’images avec le corps du modèle contenu dans `catalog::Modifier`.
 
-Lorsque `template=` la valeur est présente, l’objet spécifié dans le chemin d’accès à la demande n’est pas appliqué comme source pour le calque 0. Toutefois, il peut être référencé en tant que `src=` ou `mask=` n’importe où dans le modèle en utilisant la variable `$object$` de chemin prédéfinie comme `src=` valeur. `catalog::Modifier` de l’objet spécifié dans le chemin d’accès de requête est uniquement appliqué avec la substitution de `$object$` dans le modèle, tandis que `catalog::PostModifier` est toujours appliqué.
+Lorsque `template=` est présent, l’objet spécifié dans le chemin d’accès de la requête n’est pas appliqué en tant que source pour le calque 0. Cependant, elle peut être référencée en tant que `src=` ou `mask=` n’importe où dans le modèle à l’aide de la variable de chemin prédéfinie `$object$` en tant que valeur de `src=`. `catalog::Modifier` de l’objet spécifié dans le chemin d’accès de la requête n’est appliqué qu’avec la substitution de `$object$` dans le modèle, tandis que `catalog::PostModifier` est toujours appliqué.
 
 Le calque 0 est défini dans le corps du modèle et peut être une image, une couleur unie, du texte ou un calque de requête imbriqué ou incorporé.
 
@@ -39,12 +47,12 @@ Aucune
 
 ## Propriétés {#section-daf3afb1d09c45a6a394468d0874c439}
 
-Attribut de requête. S’applique quel que soit le paramètre de calque actuel.
+Attribut de requête. S’applique quel que soit le paramètre de calque actif.
 
 ## Exemple {#section-9a4f260ed43342b186b0fe855f34bca6}
 
-Voir les exemples dans [la section Modèles](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).
+Voir les exemples dans [Modèles](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e).
 
 ## Voir aussi {#section-067587444f774469931ecafd5a39834c}
 
-[objet](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0), [modèles](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e), [variable de chemin prédéfinie](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a)
+[object](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-data-types/r-object.md#reference-2591bd24548d462782c68d138ef795a0), [Templates](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-templates/c-templates.md#concept-3cd2d2adae0e41b2979b9640244d4d3e), [Predefined Path Variable](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-syntax-and-features/r-is-http-substitution-variables.md#reference-90dc01aba44940e4acdd0c6476e7aa5a)

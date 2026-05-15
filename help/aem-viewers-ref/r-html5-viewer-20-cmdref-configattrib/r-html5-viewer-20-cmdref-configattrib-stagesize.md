@@ -1,30 +1,38 @@
 ---
-title: Taille intermédiaire
-description: Taille intermédiaire
+title: stageSize
+description: stageSize
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: 3f93b479-f5da-47a0-b80c-c23c1460e8e1
-source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
+TQID: 'https://experienceleague.adobe.com/fjN1qzKsWTtSGoqxmqjQxb-Kh-FNMlQGveS8NRWt1vQ'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '59'
+source-wordcount: 58
 ht-degree: 6%
 
 ---
 
-# Taille intermédiaire{#stagesize}
+# stageSize{#stagesize}
 
 >[!NOTE]
 >
->Cet attribut s’applique à la visionneuse de zoom, à la visionneuse vidéo, à la visionneuse à 360°, à la visionneuse d’images interactives, à la visionneuse de vidéos interactives et à la visionneuse de carrousel.
+>Cet attribut s’applique à la visionneuse de zoom, de vidéos, à la visionneuse à 360°, à la visionneuse d’images interactive, à la visionneuse de vidéos interactive et à la visionneuse de carrousel.
 
-`stageSize= *` `*, *`width height`*`
+`stageSize= *`width`*, *`height`*`
 
 <table id="table_0070E5402099428DBEA2A900CADB2BAA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> width</span>,<span class="varname"> height</span></span> </p> </td> 
-   <td colname="col2"> <p> Largeur et hauteur hors tout de la visionneuse. La valeur 0,0 <span class="codeph"></span> signifie que la visionneuse est dimensionnée conformément aux règles CSS et à la mise en page Web. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> largeur</span>,<span class="varname"> hauteur</span></span> </p> </td> 
+   <td colname="col2"> <p> Largeur et hauteur globales de la visionneuse. La valeur de <span class="codeph"> 0,0 </span> signifie que la visionneuse est dimensionnée en fonction des règles CSS et de la mise en page web. </p> </td> 
   </tr> 
  </tbody> 
 </table>

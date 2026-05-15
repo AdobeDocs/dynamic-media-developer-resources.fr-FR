@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1237aaf7-4585-4240-b227-c34413165dd4
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/3Wz0goEJBDZmEomYaszS1Am7GMuTBxWEl1l-6Y163J0'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: 704
 ht-degree: 0%
 
 ---
@@ -19,7 +27,7 @@ Les options suivantes peuvent être appliquées quel que soit le type de sourceF
 <table id="simpletable_3BFC3737C891411D84405CEEF6B19542"> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -destpath <span class="varname"> chaîne </span> </span> </p> </td> 
-  <td class="stentry"> <p>Dossier dans lequel seront placés les fichiers de sortie (y compris le fichier journal, si <span class="codeph"> -log </span> est renseigné). Il peut s’agir d’un chemin absolu ou d’un chemin relatif vers le répertoire de travail actuel. La hiérarchie de dossiers est créée si elle n’existe pas, mais elle ne s’applique pas au fichier spécifié avec <span class="codeph"> -log </span>. S’ils ne sont pas spécifiés, les fichiers de sortie sont écrits dans le dossier dans lequel se trouve le <span class="varname"> sourceFile </span>. Si <span class="varname"> paramètre destFile </span> est spécifié, il est toujours écrit à cet emplacement et <span class="codeph"> -destpath </span> s'applique uniquement aux fichiers de sortie secondaires. </p> </td> 
+  <td class="stentry"> <p>Dossier dans lequel seront placés les fichiers de sortie (y compris le fichier journal, si <span class="codeph"> -log </span> est renseigné). Il peut s’agir d’un chemin absolu ou d’un chemin relatif vers le répertoire de travail actuel. La hiérarchie de dossiers est créée si elle n’existe pas, mais elle ne s’applique pas au fichier spécifié avec <span class="codeph"> -log </span>. S’ils ne sont pas spécifiés, les fichiers de sortie sont écrits dans le dossier dans lequel se trouve le </span> sourceFile <span class="varname">. Si <span class="varname"> paramètre destFile </span> est spécifié, il est toujours écrit à cet emplacement et <span class="codeph"> -destpath </span> s'applique uniquement aux fichiers de sortie secondaires. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -image </span> </p> </td> 
@@ -27,7 +35,7 @@ Les options suivantes peuvent être appliquées quel que soit le type de sourceF
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -info </span> </p> </td> 
-  <td class="stentry"> <p>Empêche la génération de fichiers cibles. Utile pour extraire rapidement des attributs d’une <span class="varname"> sourceFile </span>. Seules les miniatures facultatives ( <span class="codeph"> -thumbwidth </span>), les images ( <span class="codeph"> -image </span>) et les fichiers journaux ( <span class="codeph"> -log </span>) sont générés. </p> </td> 
+  <td class="stentry"> <p>Empêche la génération de fichiers cibles. Utile pour extraire rapidement des attributs d’une </span> sourceFile <span class="varname">. Seules les miniatures facultatives ( <span class="codeph"> -thumbwidth </span>), les images ( <span class="codeph"> -image </span>) et les fichiers journaux ( <span class="codeph"> -log </span>) sont générés. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -jpegquality <span class="varname"> ival </span> </span> </p> </td> 
@@ -39,7 +47,7 @@ Les options suivantes peuvent être appliquées quel que soit le type de sourceF
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -lowerpriority <span class="varname"> ival </span> </span> </p> </td> 
-  <td class="stentry"> <p>Diminuer la priorité du processus de <span class="filepath"> vntc </span>. Ce processus peut être utilisé afin que <span class="filepath"> </span> vntc ne prenne pas le contrôle d'un CPU entier lors du traitement d'une vignette. Il permet au système d’exploitation de donner plus de temps à d’autres processus plus importants. <span class="varname"> ival </span> indique le pourcentage de priorité le plus faible (0..100). La valeur par défaut est <span class="codeph"> -lowerpriority 0 </span>, ce qui ne diminue pas la priorité du processus <span class="filepath"> vntc </span>. </p> </td> 
+  <td class="stentry"> <p>Diminuer la priorité du processus de </span> vntc <span class="filepath">. Ce processus peut être utilisé afin que <span class="filepath"> </span> vntc ne prenne pas le contrôle d'un CPU entier lors du traitement d'une vignette. Il permet au système d’exploitation de donner plus de temps à d’autres processus plus importants. <span class="varname"> ival </span> indique le pourcentage de priorité le plus faible (0..100). La valeur par défaut est <span class="codeph"> -lowerpriority 0 </span>, ce qui ne diminue pas la priorité du processus <span class="filepath"> vntc </span>. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -maxmem <span class="varname"> flacon </span> </span> </p> </td> 
@@ -63,7 +71,7 @@ Les options suivantes peuvent être appliquées quel que soit le type de sourceF
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -validateproduction <span class="varname"> ival </span> </span> </p> </td> 
-  <td class="stentry"> <p>Vérifiez que la vignette donnée est une vignette de production appropriée. La <span class="varname"> ival </span> représente la version de fichier minimale de la vignette. </p> </td> 
+  <td class="stentry"> <p>Vérifiez que la vignette donnée est une vignette de production appropriée. La </span> ival <span class="varname"> représente la version de fichier minimale de la vignette. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> -version <span class="varname"> ival </span> </span> </p> </td> 

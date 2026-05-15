@@ -1,18 +1,28 @@
 ---
-title: Créer un jeu de ressources
+title: createAssetSet
 description: Crée un ensemble de ressources générique avec une chaîne de définition d’ensemble brute à publier sur un serveur d’images.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 4565eb4f-eeb7-4b98-bfef-1a59e9a931af
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/ZpnD-Kj-3urMziRkX76TiD4cpqkJOyLxP9w2M2V50pM'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 5%
+source-wordcount: 297
+ht-degree: 6%
 
 ---
 
-# Créer un jeu de ressources{#createassetset}
+# createAssetSet{#createassetset}
 
 Crée un ensemble de ressources générique avec une chaîne de définition d’ensemble brute à publier sur un serveur d’images.
 
@@ -42,10 +52,10 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> CompanyHandle </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :chaîne </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Poignée de l’entreprise qui contient le jeu de ressources. </td> 
+   <td colname="col4"> Identifiant de la société qui contient le jeu de ressources. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> folderHandle </span> </span> </td> 
@@ -60,8 +70,8 @@ Syntaxe
    <td colname="col4"> Nom de la ressource. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> Sous-type </span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :chaîne </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> sousType </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"> Identifiant unique créé par le client pour le type d’ensemble de ressources. </td> 
   </tr> 
@@ -72,10 +82,10 @@ Syntaxe
    <td colname="col4"> Paramètres de la chaîne de définition du jeu. <p>Ces paramètres doivent être résolus au format spécifié par la visionneuse cible. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> Poignée </span> de ressource miniature </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :chaîne </span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> thumbAssetHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string </span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> Poignée de la ressource qui sert de miniature pour la nouvelle visionneuse d’images. Si cette valeur n’est pas spécifiée, IPS tente d’utiliser la première ressource d’image référencée par la visionneuse. </td> 
+   <td colname="col4"> Gestionnaire de la ressource qui agit comme la miniature de la nouvelle visionneuse d’images. S’il n’est pas spécifié, IPS tente d’utiliser la première ressource d’image référencée par la visionneuse. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,9 +101,9 @@ Vous pouvez spécifier des fonctions de substitution en ligne qui sont résolues
 | **Fonction de substitution** | **Renvoie** |
 |---|---|
 | `getFilePath([asset_handle>])` | Chemin d’accès au fichier source principal de la ressource. |
-| `getCatalogId([<asset_handle>])` | ID de catalogue de la ressource. |
+| `getCatalogId([<asset_handle>])` | Identifiant de catalogue de la ressource. |
 | `getMetaData([<asset_handle>], [<metadata_field_handle>])` | Valeurs de métadonnées de la ressource. |
-| `getThumbCatalogId([<asset_handle>])` | ID de catalogue de la ressource (pour les ressources basées sur des images uniquement). ID de catalogue de la ressource miniature associée (pour les autres ressources). Si aucune ressource miniature associée n’est disponible, la fonction renvoie une chaîne vide. |
+| `getThumbCatalogId([<asset_handle>])` | Identifiant de catalogue de la ressource (pour les ressources basées sur des images uniquement). Identifiant de catalogue de la ressource miniature associée (pour d’autres ressources). Si une ressource de pouce associée n’est pas disponible, la fonction renvoie une chaîne vide. |
 
 **Exemple de chaîne Media setDefinition**
 

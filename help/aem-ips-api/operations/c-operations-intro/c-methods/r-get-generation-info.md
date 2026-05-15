@@ -5,9 +5,17 @@ title: getGenerationInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: fa098e3c-8145-4238-a84c-c545f1c53341
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/MA0SJinQzPjDFkSXVRhH2e7A3Ry6HXoW--K-elv028M'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: 198
 ht-degree: 9%
 
 ---
@@ -36,24 +44,24 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| Expression de code | `xsd:string` | Oui | La poignée de l’entreprise. |
-| Code Phrase | `xsd:string` | Non | Le moteur utilisé dans la génération. Voir Styles de police. |
-| Code Phrase | `xsd:string` | Non | Handle de la ressource à interroger pour les ressources générées. |
-| Code Phrase | `xsd:string` | Non | Le handle de la ressource pour interroger les ressources et les moteurs utilisés dans sa génération. |
-| Code Phrase | `xsd:StringArray` | Non | Propriétés incluses dans l’opération. |
-| Code Phrase | `xsd:StringArray` | Non | Propriétés exclues de l’opération. |
+| Expression de code | `xsd:string` | Oui | La poignée de la société. |
+| Expression de code | `xsd:string` | Non | Moteur utilisé pour la génération. Voir Styles de polices. |
+| Expression de code | `xsd:string` | Non | Descripteur de la ressource à interroger pour les ressources générées. |
+| Expression de code | `xsd:string` | Non | Le handle de la ressource pour interroger les ressources et les moteurs utilisés dans sa génération. |
+| Expression de code | `xsd:StringArray` | Non | Propriétés incluses dans l’opération. |
+| Expression de code | `xsd:StringArray` | Non | Propriétés exclues de l’opération. |
 
 **Output (getGenerationInfoReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| Tableau de génération | `types:GenerationInfoArray` | Oui | Tableau d’informations sur la génération. |
+| generateArray | `types:GenerationInfoArray` | Oui | Tableau d’informations de génération. |
 
 ## Exemples {#section-fdffe6ed82d94c7aa90e47f7ce889403}
 
-Cet exemple de code renvoie des informations sur les ressources générées à partir d’une ressource spécifique. Il ne récupère pas d’informations sur les étapes utilisées pour générer la ressource spécifiée. La réponse est tronquée par souci de concision.
+Cet exemple de code renvoie des informations sur les ressources générées à partir d’une ressource spécifique. Elle ne récupère pas d’informations sur les étapes utilisées pour générer la ressource spécifiée. La réponse est tronquée à des fins de concision.
 
-**Demander**
+**Requête**
 
 ```java
 <getGenerationInfoParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

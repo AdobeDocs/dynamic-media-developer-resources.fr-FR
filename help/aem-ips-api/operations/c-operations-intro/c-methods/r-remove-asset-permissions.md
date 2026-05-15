@@ -1,18 +1,26 @@
 ---
 description: Supprime les autorisations des ressources sélectionnées.
 solution: Experience Manager
-title: Supprimer les autorisations des ressources
+title: removeAssetPermissions
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: c47d9853-91b1-45fe-b8ff-aaa1239ca0d1
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/x8k6HwyFQ-U1VHnFmPAPPPuN9pftPorvmXnIWhXfI3k'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: 68
 ht-degree: 14%
 
 ---
 
-# Supprimer les autorisations des ressources{#removeassetpermissions}
+# removeAssetPermissions{#removeassetpermissions}
 
 Supprime les autorisations des ressources sélectionnées.
 
@@ -26,12 +34,12 @@ Syntaxe
 
 ## Paramètres {#section-b70bf3b033ca45b396964baf2ab1fb0f}
 
-**Entrée (removeAssetPermissionsParam)**
+**Input (removeAssetPermissionsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| CompanyHandle | `xsd:string` | Oui | La poignée de l’entreprise. |
-| AssetHandle | `xsd:string` | Oui | Poignée de la ressource pour laquelle vous souhaitez supprimer les autorisations. |
+| companyHandle | `xsd:string` | Oui | La poignée de la société. |
+| assetHandle | `xsd:string` | Oui | Gestionnaire de la ressource avec les autorisations que vous souhaitez supprimer. |
 
 **Output (removeAssetPermissionsReturn)**
 
@@ -41,7 +49,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 Cet exemple de code supprime les autorisations d’une ressource.
 
-**Demander**
+**Requête**
 
 ```java
 <ns1:removeAssetPermissionsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

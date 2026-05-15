@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: e6ff32bf-f85a-4288-a0e5-34487229a9d9
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/8v8lYH-ju92td0-fbFVEJL42Z2EB4jj85zAd4MDd3js'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: 526
 ht-degree: 0%
 
 ---
@@ -27,17 +35,17 @@ L’aspect du conteneur d’échantillons est contrôlé avec le sélecteur de c
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de hauteur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de hauteur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Hauteur des nuanciers. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> fond </span> </p> </td> 
-   <td colname="col2"> <p>Les échantillons verticaux sont décalés par rapport au conteneur de la visionneuse. </p> </td> 
+   <td colname="col1"> <p> </span> inférieur <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p>Décalage des échantillons verticaux par rapport au conteneur de la visionneuse. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : configurer des échantillons d’une hauteur de 100 pixels.
+Exemple : pour configurer des échantillons avec une hauteur de 100 pixels.
 
 ```
 .s7mixedmediviewer .s7swatches { 
@@ -60,15 +68,15 @@ L’espacement entre les miniatures d’échantillon est contrôlé avec le sél
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge </span> </p> </td> 
-   <td colname="col2"> <p> Taille de la marge horizontale et verticale autour de chaque miniature. L’espacement réel des vignettes est égal à la somme des marges de gauche et de droite définie pour <span class="codeph"> .s7thumbcell </span>. </p> </td> 
+   <td colname="col1"> <p> </span> de la marge <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p> Taille de la marge horizontale et verticale autour de chaque miniature. L’espacement réel des miniatures est égal à la somme des marges gauche et droite définies pour <span class="codeph"> </span> .s7thumbcell. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Exemple**
 
-Pour définir l’espacement sur dix pixels à la fois verticalement et horizontalement.
+Pour définir un espacement de dix pixels verticalement et horizontalement.
 
 ```
 .s7mixedmediaviewer .s7swatches .s7thumbcell { 
@@ -76,7 +84,7 @@ Pour définir l’espacement sur dix pixels à la fois verticalement et horizont
 }
 ```
 
-L’apparence de la miniature individuelle est contrôlée par le sélecteur de classe CSS suivant :
+L’aspect de la miniature individuelle est contrôlé par le sélecteur de classe CSS suivant :
 
 `.s7mixedmediaviewer .s7swatches .s7thumb`
 
@@ -93,11 +101,11 @@ L’apparence de la miniature individuelle est contrôlée par le sélecteur de 
    <td colname="col2"> <p>Largeur de la miniature. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> hauteur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de hauteur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Hauteur de la miniature. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de bordure </span> </p> </td> 
+   <td colname="col1"> <p> </span> de bordure <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Bordure de la miniature. </p> </td> 
   </tr> 
  </tbody> 
@@ -122,7 +130,7 @@ Exemple : pour configurer des miniatures de 56 x 56 pixels, elles doivent avoir 
 }
 ```
 
-Le type de ressource s’affiche sous la forme d’une icône superposée à une image miniature et est contrôlé par le sélecteur de classe CSS suivant :
+Le type de la ressource s’affiche sous la forme d’une icône superposée à l’image miniature et est contrôlé par le sélecteur de classe CSS suivant :
 
 `.s7mixedmediaviewer .s7swatches .s7thumb .s7thumboverlay`
 
@@ -139,15 +147,15 @@ Le type de ressource s’affiche sous la forme d’une icône superposée à une
    <td colname="col2"> <p>Largeur du recouvrement de l’icône. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de hauteur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de hauteur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Hauteur du recouvrement de l’icône. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Le recouvrement prend en charge le sélecteur d’attributs `type` avec les valeurs possibles suivantes : `image` (pour les images uniques), `swatchset` (pour les séries d’échantillons), `spinset` (pour les visionneuses à 360°) et `video` (pour les vidéos uniques ou les visionneuses de vidéos adaptatives).
+Le recouvrement prend en charge le sélecteur d’attributs `type` avec les valeurs possibles suivantes : `image` (pour les images uniques), `swatchset` (pour les visionneuses d’échantillons), `spinset` (pour les visionneuses à 360°) et `video` (pour les vidéos uniques ou les visionneuses de vidéos adaptatives).
 
-Exemple : pour configurer le recouvrement d’icônes pour les visionneuses à 360°, les séries d’échantillons et les vidéos :
+Exemple - pour configurer les recouvrements d’icônes pour les visionneuses à 360°, les visionneuses d’échantillons et les vidéos :
 
 ```
 .s7mixedmediaviewer .s7swatches .s7thumb .s7thumboverlay[type="swatchset"] { 
@@ -161,13 +169,13 @@ Exemple : pour configurer le recouvrement d’icônes pour les visionneuses à 3
 }
 ```
 
-L’apparence des boutons de défilement gauche et droit est contrôlée par les sélecteurs de classe CSS suivants :
+L’aspect des boutons de défilement gauche et droit est contrôlé à l’aide des sélecteurs de classe CSS suivants :
 
 `.s7mixedmediaviewer .s7swatches .s7scrollleftbutton`
 
 `.s7mixedmediaviewer .s7swatches .s7scrollrightbutton`
 
-Il est impossible de positionner les boutons de défilement à l’aide de CSS `top`, `left`, `bottom`et `right` des propriétés. Au lieu de cela, la logique de la visionneuse les positionne automatiquement.
+Il n’est pas possible de positionner des boutons de défilement à l’aide des propriétés CSS `top`, `left`, `bottom` et `right`. Au lieu de cela, la logique de la visionneuse les positionne automatiquement.
 
 <table id="table_A5663C4AAC4446168CAD8DBA2894BB9C"> 
  <thead> 
@@ -182,12 +190,12 @@ Il est impossible de positionner les boutons de défilement à l’aide de CSS `
    <td colname="col2"> <p>Largeur du bouton de défilement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> hauteur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de hauteur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton de défilement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan </span> </p> </td> 
-   <td colname="col2"> <p>Image affichée pour un état donné du bouton. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> le </span> image d’arrière-plan </p> </td> 
+   <td colname="col2"> <p>Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> la position de l’arrière-plan </span> </p> </td> 
@@ -198,11 +206,11 @@ Il est impossible de positionner les boutons de défilement à l’aide de CSS `
 
 >[!NOTE]
 >
->Ce bouton prend en charge le sélecteur d’attributs `state` , qui peut être utilisé pour appliquer différents habillages à différents états de bouton : `up`, `down`, `over`et `disabled`.
+>Ce bouton prend en charge le sélecteur d&#39;attributs de `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton : `up`, `down`, `over` et `disabled`.
 
-Les info-bulles des boutons peuvent être localisées. Pour plus d’informations, voir [Localisation des éléments](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) de l’interface utilisateur.
+Les info-bulles des boutons peuvent être localisées. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1) pour plus d’informations.
 
-Exemple : configurer des boutons de défilement de 56 x 56 pixels avec des illustrations différentes pour chaque état.
+Exemple : pour configurer des boutons de défilement de 56 x 56 pixels avec des illustrations différentes pour chaque état.
 
 ```
 .s7mixedmediaviewer .s7swatches .s7scrollleftbutton { 

@@ -1,31 +1,39 @@
 ---
-title: SRC
-description: Fichier matériel. Spécifie les données de matière, soit sous la forme d’une référence unique de catalogue de matériaux, soit sous la forme d’une ou deux images ou fichiers de données de matériau, séparés par une virgule.
+title: src
+description: Fichier des matériaux. Spécifie les données de matériau, soit sous la forme d'une référence unique de catalogue de matériaux, soit sous la forme d'un ou de deux fichiers d'image ou de données de matériaux, séparés par une virgule.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: aff45f0f-e672-40da-9cc8-db83cf3922ff
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/-PushPHP2ZvNu2IFmB-1akxSvlXtDvxStXgFTAw1t-w'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: 444
 ht-degree: 1%
 
 ---
 
-# SRC{#src}
+# src{#src}
 
-Fichier matériel. Spécifie les données de matériau, soit sous la forme d&#39;une référence unique de catalogue de matériaux, soit sous la forme d&#39;un ou de deux fichiers d&#39;image ou de données de matériaux, séparés par une virgule.
+Fichier des matériaux. Spécifie les données de matériau, soit sous la forme d&#39;une référence unique de catalogue de matériaux, soit sous la forme d&#39;un ou de deux fichiers d&#39;image ou de données de matériaux, séparés par une virgule.
 
-`src = *`entrée`*|{{ *`de catalogue Fichier de matériau`*| *`intégré`*}[, *` `*]`
+`src = *`catalogEntry`*|{{ *`materialFile`*| *`beddedReq`*}[, *`materialFile`*]`
 
-`srcE= *`nom`*`
+`srcE= *`name`*`
 
 `srcN= *`index`*`
 
 <table id="simpletable_A64C4F084C0A4DDCA45A921D4BD7AAEA"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> entrée de catalogue</span> </p></td> 
-  <td class="stentry"> <p><span class="codeph">[/]<span class="varname"> [ catId</span>/]<span class="varname"> recId</span></span> </p></td> 
+  <td class="stentry"> <p><span class="varname"> catalogEntry</span> </p></td> 
+  <td class="stentry"> <p><span class="codeph">[/][<span class="varname"> catId</span>/]<span class="varname"> recId</span></span> </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <span class="varname"> materialFile</span> </td> 
@@ -49,27 +57,27 @@ Fichier matériel. Spécifie les données de matériau, soit sous la forme d&#39
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> imageFile</span> </p></td> 
-  <td class="stentry"> <p>Fichier de données d’image. </p></td> 
+  <td class="stentry"> <p>Fichier de données image. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> isReq</span> </p></td> 
-  <td class="stentry"> <p>Demande au serveur d’images. </p></td> 
+  <td class="stentry"> <p>Requête au service d’images. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> irReq</span> </p></td> 
-  <td class="stentry"> <p>Demande au rendu d’images. </p></td> 
+  <td class="stentry"> <p>Demande de rendu d’image. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="varname"> foreignReq</span> </p></td> 
   <td class="stentry"> <p>Demande à un serveur étranger. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> nom</span> </p></td> 
-  <td class="stentry"> <p>Nom d’un matériau incorporé. </p></td> 
+  <td class="stentry"> <p><span class="varname"> nom </span> </p></td> 
+  <td class="stentry"> <p>Nom d'un matériau incorporé. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="varname"> index</span> </p></td> 
-  <td class="stentry"> <p>Numéro d’index basé sur 0 pour un matériau incorporé. </p></td> 
+  <td class="stentry"> <p><span class="varname"> index </span> </p></td> 
+  <td class="stentry"> <p>Numéro d'index basé sur 0 pour un matériau incorporé. </p></td> 
  </tr> 
 </table>
 
@@ -93,13 +101,13 @@ Si *`catId`* n’est pas spécifié, le catalogue de sessions est utilisé.
 
 Le rendu d’image prend en charge les mêmes formats d’image source que la diffusion d’images Dynamic Media.
 
-Les applications qui nécessitent des données image dans plusieurs résolutions différentes fonctionnent mieux lors de l’utilisation du format multi-résolution Scene7 pyramid TIFF (PTIFF). Image Serving inclut l’utilitaire Image Converter (IC) qui crée des images PTIFF à partir de n’importe quel format pris en charge.
+Les applications qui nécessitent des données d’image dans plusieurs résolutions différentes sont plus performantes lors de l’utilisation du format multi-résolution Scene7 pyramid TIFF (PTIFF). La diffusion d’images inclut l’utilitaire Convertisseur d’images (IC) qui crée des images PTIFF à partir de n’importe quel format pris en charge.
 
-Reportez-vous à la description de l’utilitaire IC dans la documentation Image Serving pour obtenir la liste complète des formats de fichiers pris en charge.
+Reportez-vous à la description de l’utilitaire IC dans la documentation du service d’images pour obtenir une liste complète des formats de fichiers pris en charge.
 
 ## Propriétés {#section-e68d03788d534e2184147987d51dfd0f}
 
-Attribut Material. Requis pour tous les matériaux sauf la couleur unie (non autorisée pour les matériaux de couleur unie). Toutes les chaînes respectent la casse. *`index`* Doit être égale ou supérieure à 0.
+Attribut Material. Requis pour tous les matériaux sauf la couleur unie (non autorisée pour les matériaux de couleur unie). Toutes les chaînes respectent la casse. *`index`* Doit être supérieur ou égal à 0.
 
 ## Par défaut {#section-dde549c1917540dc8f9555962202da3c}
 

@@ -1,57 +1,65 @@
 ---
-description: La visionneuse Search catalogue électronique prend en charge le rendu des icônes de zone cliquable au-dessus de la vue principale.
+description: La visionneuse de recherche de catalogue électronique prend en charge le rendu des icônes de zone cliquable au-dessus de la vue principale.
 solution: Experience Manager
-title: Prise en charge des cartes-images
+title: Prise en charge des zones cliquables
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 58e7523f-1615-4da4-bb09-a995bf427bfc
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/NJMiADA-R6aTQyrhd-CCP8pGFY-rjcIRfxiQ-4cRmRk'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: 313
 ht-degree: 0%
 
 ---
 
-# Prise en charge des cartes-images{#image-map-support}
+# Prise en charge des zones cliquables{#image-map-support}
 
-La visionneuse Search catalogue électronique prend en charge le rendu des icônes de zone cliquable au-dessus de la vue principale.
+La visionneuse de recherche de catalogue électronique prend en charge le rendu des icônes de zone cliquable au-dessus de la vue principale.
 
-L’apparence des icônes de carte est contrôlée via CSS comme décrit dans [Effet](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-imagemapeffect.md#reference-261df27d1ed145c882b26b88e33a0289) de zone cliquable.
+L’aspect des icônes de carte est contrôlé par CSS, comme décrit dans la section [Effet de carte d’image](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/r-html5-ecatalog-viewer-20-customize-imagemapeffect.md#reference-261df27d1ed145c882b26b88e33a0289).
 
-Les zones cliquables effectuent l’une des trois actions suivantes : rediriger vers une page Web externe, activer la fenêtre contextuelle du panneau d’informations et liens hypertexte internes.
+Les zones cliquables effectuent l’une des trois actions suivantes : redirection vers une page web externe, activation du panneau d’informations dans un pop-up et liens hypertexte internes.
 
-## Redirection vers une page Web externe {#section-32ebe3c3a7f74892a428c5d48801de4d}
+## Rediriger vers une page web externe {#section-32ebe3c3a7f74892a428c5d48801de4d}
 
-L’attribut `href` de la zone cliquable possède une URL vers la ressource externe, spécifiée explicitement ou encapsulée dans l’une des fonctions de modèle de JavaScript prises en charge : `loadProduct()`, `loadProductCW()`et `loadProductPW()`.
+L’attribut `href` de la zone cliquable possède une URL vers la ressource externe, spécifiée explicitement ou encapsulée dans l’une des fonctions de modèle JavaScript prises en charge : `loadProduct()`, `loadProductCW()` et `loadProductPW()`.
 
 Voici un exemple de redirection d’URL simple :
 
 `href=http://www.adobe.com`
 
-Dans cet exemple, la même URL est encapsulée avec la `loadProduct()` fonction :
+Dans cet exemple, la même URL est encapsulée avec la fonction `loadProduct()` :
 
 `href=javascript:loadProduct("http://www.adobe.com");void(0);`
 
-N’oubliez pas que lorsque vous ajoutez le code JavaScript dans l’attribut `HREF` de votre zone cliquable, le code est exécuté sur l’ordinateur du client. Veillez donc vous assurer que le code JavaScript est sécurisé.
+Gardez à l’esprit que lorsque vous ajoutez le code JavaScript dans l’attribut `HREF` de votre zone cliquable, le code est exécuté sur l’ordinateur du client. Par conséquent, assurez-vous que le code JavaScript est sécurisé.
 
-## Activation de la fenêtre contextuelle du panneau d’informations {#section-7aa036420af646d1ad8cdc388add0b57}
+## Activation de la fenêtre contextuelle du panneau Informations {#section-7aa036420af646d1ad8cdc388add0b57}
 
-Pour utiliser les panneaux d’informations, l’attribut d’une `ROLLOVER_KEY` zone cliquable est défini. Définissez également l’attribut `href` en même temps, sinon le traitement de l’URL externe interfère avec l’activation de la fenêtre contextuelle du panneau d’informations.
+Pour utiliser les panneaux d’informations, l’attribut `ROLLOVER_KEY` est défini pour une zone cliquable. Définissez également l’attribut `href` en même temps, sinon le traitement des URL externes interfère avec l’activation du panneau d’informations dans la pop-up.
 
-Enfin, assurez-vous que la configuration de la visionneuse inclut les valeurs appropriées et `InfoPanelPopup.template` , éventuellement, `InfoPanelPopup.infoServerUrl` les paramètres.
+Enfin, assurez-vous que la configuration de la visionneuse inclut les valeurs appropriées pour les paramètres `InfoPanelPopup.template` et, éventuellement, `InfoPanelPopup.infoServerUrl`.
 
 >[!NOTE]
 >
->N’oubliez pas que lorsque vous configurez la fenêtre contextuelle du panneau d’informations, le code HTML et le code JavaScript transmis au panneau d’informations s’exécutent sur l’ordinateur du client. Par conséquent, assurez-vous que ce code HTML et JavaScript code sont sécurisés.
+>Gardez à l’esprit que lorsque vous configurez la fenêtre contextuelle du panneau d’informations, le code HTML et le code JavaScript transmis au panneau d’informations s’exécutent sur l’ordinateur du client. Par conséquent, assurez-vous que ces codes HTML et JavaScript sont sécurisés.
 
 ## Hyperliens internes {#section-6afa4fb2fe564c429e0201f019a95849}
 
-Cliquez sur une zone cliquable pour permuter les pages internes de la visionneuse. Pour utiliser cette fonctionnalité, un `href` attribut de la zone cliquable a le format spécial suivant :
+Cliquez sur une zone cliquable pour permuter une page à l’intérieur de la visionneuse. Pour utiliser cette fonctionnalité, un attribut `href` dans la zone cliquable possède le format spécial suivant :
 
-` href=target: *`IDX`*`
+` href=target: *`idx`*`
 
-Où `*`IDX`*` est un index à base zéro de la planche catalogue.
+où `*`idx`*` est un index de base zéro de la répartition du catalogue.
 
-Voici un `href` exemple d’attribut pour une zone cliquable qui pointe vers la planche 3D dans le catalogue électronique :
+Voici un exemple d’attribut `href` pour une zone cliquable qui pointe vers la répartition 3D dans le catalogue électronique :
 
 `href=target:2`

@@ -1,13 +1,21 @@
 ---
 title: setAttr
-description: Définissez n’importe quel attribut pour un ID d’élément s7 donné.
+description: Définissez n’importe quel attribut pour un elementID s7 donné.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e4a51b97-ba5f-42a9-8d7b-8dc42ad5fe24
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/0O1uOLXsh-5PkBnXugpQYJHDAZep49WO3AA4hjClODk'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: 98
 ht-degree: 1%
 
 ---
@@ -18,12 +26,12 @@ Définissez n’importe quel attribut pour un s7:elementID donné.
 
 `setAttr.elementID={ *[!DNL attributeName]*= *[!DNL attributeValue]*, *[!DNL attributeName]*= *[!DNL AttributeValue]*…}`
 
-Si un élément de nœud FXG a une `s7:elementID` valeur définie, vous pouvez manipuler les attributs de ce nœud. Vous pouvez définir autant de paires attribut/valeur que vous le souhaitez. Il n’est pas nécessaire que les attributs soient déjà définis dans le FXG, mais ils doivent être valides pour l’élément de nœud. Toutes les valeurs comprises entre les deux doivent être placées dans `{}` une séquence d’échappement.
+Si un `s7:elementID` est défini pour un élément de nœud FXG, vous pouvez manipuler les attributs de ce nœud. Vous pouvez définir autant de paires attribut/valeur que vous le souhaitez. Les attributs n’ont pas besoin d’être déjà définis dans le FXG, mais ils doivent être valides pour l’élément de nœud . Toutes les valeurs comprises entre `{}` doivent être placées dans une séquence d’échappement.
 
 ## Exemple {#section-9c37470d5f0349e5b0a97291782cb7a6}
 
-Supposons qu’un `s7:elementID="Group1"` attribut est défini pour un `BitmapGraphic` nœud, alors le code suivant est valide :
+Supposons qu’un attribut `s7:elementID="Group1"` soit défini pour un nœud `BitmapGraphic`, les éléments suivants sont valides :
 
 `&setAttr.Group1={x=250%26y=170%26rotation=90%26scaleX=1%26scaleY=0.5}`
 
-Cet exemple définit les variables *[!DNL x]*, *[!DNL y]*, *[!DNL rotation]*, *[!DNL scaleX]* et *[!DNL scaleY]* pour les `BitmapGraphic` et remplace toutes les valeurs existantes.
+Cet exemple montre comment définir les *[!DNL x]*, *[!DNL y]*, *[!DNL rotation]*, *[!DNL scaleX]* et *[!DNL scaleY]* de la `BitmapGraphic` et remplacer toutes les valeurs existantes.

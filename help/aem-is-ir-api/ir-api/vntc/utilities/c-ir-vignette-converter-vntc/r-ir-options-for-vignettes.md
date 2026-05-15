@@ -5,9 +5,17 @@ title: Options des vignettes
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7f9c2b43-9264-46a4-9519-64148aebf258
-source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
+TQID: 'https://experienceleague.adobe.com/f9Fkiw7Rxx8O0tLFlmnfETYXNNHI7Yui-2t2lNegrIM'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: 462
 ht-degree: 0%
 
 ---
@@ -19,7 +27,7 @@ Les options suivantes contrôlent le traitement des fichiers de vignette. Elles 
 <table id="simpletable_6D0C967EB84947FBAC34B46C4BB23AF0"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> -contents</span> </p></td> 
-  <td class="stentry"> <p>Crée un fichier XML représentant la hiérarchie de l’objet et incluant les attributs d’objet sélectionnés. Le contenu du fichier est identique à celui renvoyé par la commande <span class="codeph"> req=contents</span>. Le fichier porte le même nom que le fichier source, mais avec un suffixe .xml<span class="filepath"> </span>. </p></td> 
+  <td class="stentry"> <p>Crée un fichier XML représentant la hiérarchie de l’objet et incluant les attributs d’objet sélectionnés. Le contenu du fichier est identique à celui renvoyé par la commande <span class="codeph"> req=contents</span>. Le fichier porte le même nom que le fichier source, mais avec un suffixe .xml</span> <span class="filepath">. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> recadrage <span class="varname"> x</span><span class="varname"> y</span><span class="varname"> wid</span><span class="varname"> hei</span></span> </p></td> 

@@ -1,30 +1,38 @@
 ---
-description: Chemins des fichiers de données d’image. Spécifie les fichiers contenant les données image pour ce catalogue.
+description: Chemins d’accès aux fichiers de données image. Spécifie les fichiers qui contiennent les données image pour ce catalogue.
 solution: Experience Manager
-title: Fichier catalogue
+title: CatalogFile
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 240a3884-68dd-474c-83a6-d79fc5b6c300
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/MhxEBtyw3JIvMg5miQotPPCeoLeWATtXy0fbRtE7ePs'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 2%
+source-wordcount: 108
+ht-degree: 3%
 
 ---
 
-# Fichier catalogue{#catalogfile}
+# CatalogFile{#catalogfile}
 
-Chemins des fichiers de données d’image. Spécifie les fichiers contenant les données image pour ce catalogue.
+Chemins d’accès aux fichiers de données image. Spécifie les fichiers qui contiennent les données image pour ce catalogue.
 
-Les fichiers de données image sont chargés dans l’ordre indiqué. Si la même `catalog::Id` valeur apparaît dans plusieurs enregistrements (dans le même fichier de catalogue ou dans des fichiers de catalogue différents), la dernière instance prévaut.
+Les fichiers de données d’image sont chargés dans l’ordre spécifié. Si la même valeur de `catalog::Id` apparaît dans plusieurs enregistrements (dans le même fichier catalogue ou dans des fichiers catalogues différents), la dernière instance prévaut.
 
 ## Propriétés {#section-6da55f145ecd4e31a5de52637a436983}
 
-Une ou plusieurs valeurs de chaîne de texte, séparées par des virgules. Optionnel. Chaque valeur doit être un chemin absolu de fichier ou un chemin relatif au dossier du catalogue.
+Une ou plusieurs valeurs de chaîne de texte, séparées par des virgules. Facultatif. Chaque valeur doit être un chemin d’accès absolu au fichier ou un chemin d’accès relatif au dossier du catalogue.
 
 ## Par défaut {#section-80f91cd7a6b2479ebb310319e9c74da7}
 
-Vide qui indique que ce catalogue d’images ne contient aucune donnée image.
+Vide, ce qui indique que ce catalogue d’images n’inclut aucune donnée d’image.
 
 ## Voir aussi {#section-910b67c5041d44d99a105ad43ff63a37}
 

@@ -5,9 +5,17 @@ title: getAssetPublishHistory
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: f337e7f9-1af6-4164-b9bd-e697548e2850
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/fXYa2SsttVpR9a1bebJ1oouyK8peSZ5GdgldPqU9s1g'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: 89
 ht-degree: 15%
 
 ---
@@ -32,24 +40,24 @@ Syntaxe
 
 ## Paramètres {#section-3541bd9914a44b89acfc1d419b560ee6}
 
-**Entrée (getAssetPublishHistoryParam)**
+**Input (getAssetPublishHistoryParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| CompanyHandle | `xsd:string` | Oui | Poignée de l’entreprise avec l’historique de publication de la ressource. |
-| AssetHandle | `xsd:string` | Oui | Ressource contenant l’historique de publication que vous souhaitez examiner. |
+| companyHandle | `xsd:string` | Oui | Identifiant de la société avec l’historique de publication des ressources. |
+| assetHandle | `xsd:string` | Oui | La ressource avec l’historique de publication que vous souhaitez examiner. |
 
 **Output (getAssetPublishHistoryReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| Tableau de l’historique pub | `types:PublishHistoryArray` | Oui | L’historique de publication de la ressource. |
+| pubHistoryArray | `types:PublishHistoryArray` | Oui | L’historique de publication de la ressource. |
 
 ## Exemples {#section-53897c51e5a047c5bd5ea5a6efb2d114}
 
-Cet exemple de code renvoie l’historique de publication d’une ressource. Un actif n’a jamais été publié si le serveur renvoie un tableau vide.
+Cet exemple de code renvoie l’historique de publication d’une ressource. Une ressource n’a jamais été publiée si le serveur renvoie un tableau vide.
 
-**Demander**
+**Requête**
 
 ```java
 <getAssetPublishHistoryParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

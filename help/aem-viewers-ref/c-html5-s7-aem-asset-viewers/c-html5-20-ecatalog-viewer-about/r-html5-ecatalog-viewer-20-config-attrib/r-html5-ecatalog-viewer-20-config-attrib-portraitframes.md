@@ -1,26 +1,34 @@
 ---
-title: Images portrait
-description: Images portrait
+title: portraitFrames
+description: portraitFrames
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 050388f8-45a9-4f09-a957-f94bead17eca
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+TQID: 'https://experienceleague.adobe.com/Z-aeAz7tjVyBzvpVHXwQSMIruzBWz9qN7l2V483bA8k'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: 48
 ht-degree: 6%
 
 ---
 
-# Images portrait{#portraitframes}
+# portraitFrames{#portraitframes}
 
 `portraitFrames=split|solid`
 
 <table id="table_1D425B7685D448459CD3FE8D683C813C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> split|solid</span> </p> </td> 
-   <td colname="col2"> <p>Définissez cette option sur <span class="codeph"> fractionnement</span> pour permettre à la visionneuse d’afficher les doubles pages en tant que page distincte lorsqu’elle est utilisée sur un périphérique mobile en orientation portrait. Définissez sur <span class="codeph"> plein</span> pour toujours afficher les doubles pages en tant qu’image solide, quelle que soit l’orientation de l’appareil. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> split|solide</span> </p> </td> 
+   <td colname="col2"> <p>Définissez cette option sur <span class="codeph"> partage </span> de sorte que la visionneuse affiche des pages doubles sous la forme d’une page distincte lorsqu’elle est utilisée sur un appareil mobile en orientation portrait. Définissez cette option sur <span class="codeph"> solide</span> afin de toujours afficher les pages doubles comme une image solide, quelle que soit l’orientation de l’appareil. </p> </td> 
   </tr> 
  </tbody> 
 </table>

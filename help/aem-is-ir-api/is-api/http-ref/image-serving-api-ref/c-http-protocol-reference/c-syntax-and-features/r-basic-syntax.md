@@ -5,9 +5,17 @@ title: Syntaxe de base du protocole HTTP du service d’images
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ac75d6d0-a71e-45a0-89ee-b952a0202793
-source-git-commit: 92a995b6cbadb00a075a3be5ae2a9f8feb6c900d
+TQID: 'https://experienceleague.adobe.com/fB60CyCuBYstiJJesDefrK1DW7w-2t0PJqqt-iLgZOA'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: 275
 ht-degree: 1%
 
 ---
@@ -19,7 +27,7 @@ La syntaxe de base du protocole HTTP est la suivante :
 <table id="simpletable_854C20D4C42247B99D9F123543C17E7C"> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> <span class="varname"> demande </span> </span> </p> </td> 
-  <td class="stentry"> <p> <span class="filepath">http://<span class="varname"> server</span>/is/image[/<span class="varname"> object</span>][ ?<span class="varname"> modificateurs</span>]</span> </p> </td> 
+  <td class="stentry"> <p> <span class="filepath"><span class="varname"> server</span>/is/image[/<span class="varname"> object</span>][?<span class="varname"> modificateurs</span>]</span> </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p><span class="codeph"> serveur <span class="varname"> </span> </span> </p></td> 
@@ -81,7 +89,7 @@ La diffusion d’images extrait d’abord *`object`* et *`modifiers`* de la requ
 
 ## Commentaires {#section-69ef0be0f17a418c87a0eba21c2ddb00}
 
-Les commentaires peuvent être incorporés n’importe où dans les chaînes de requête et sont identifiés par un point (.) juste après le séparateur de commande (&amp;). Le commentaire se termine par l’occurrence suivante d’un séparateur de commande (non codé). Cette fonctionnalité peut être utilisée pour ajouter des informations à la requête qui ne sont pas destinées à la diffusion d’images, telles que des horodatages et des identifiants de base de données.
+Les commentaires peuvent être incorporés dans des chaînes de requête n’importe où et sont identifiés par un point (.) juste après la commande separator(&amp;). Le commentaire se termine par l’occurrence suivante d’un séparateur de commande (non codé). Cette fonctionnalité peut être utilisée pour ajouter des informations à la requête qui ne sont pas destinées à la diffusion d’images, telles que des horodatages et des identifiants de base de données.
 
 ## Voir aussi {#section-d0b836568c31454b8dbeb136e6bbe0f0}
 

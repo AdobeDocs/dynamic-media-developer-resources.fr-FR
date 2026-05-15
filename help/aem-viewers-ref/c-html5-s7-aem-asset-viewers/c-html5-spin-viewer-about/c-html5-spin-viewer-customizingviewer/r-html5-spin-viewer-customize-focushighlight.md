@@ -1,26 +1,34 @@
 ---
-title: Mise au point
-description: La mise en surbrillance de la mise au point d’entrée affichée autour de l’élément d’interface utilisateur de la visionneuse ciblée est contrôlée par le sélecteur de classe CSS.
+title: Mettre en surbrillance
+description: La mise en surbrillance de la sélection d’entrée affichée autour de l’élément d’IU de la visionneuse ciblée est contrôlée avec le sélecteur de classe CSS.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: dc59e081-97cc-46fe-a8f7-0690833a8290
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+TQID: 'https://experienceleague.adobe.com/5iRMbE6xxJy4gEv-B62hJKvnUG1zEn2iDbIIIWZtR50'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: 78
 ht-degree: 1%
 
 ---
 
-# Mise au point{#focus-highlight}
+# Mettre en surbrillance{#focus-highlight}
 
-La mise en surbrillance de la mise au point d’entrée affichée autour de l’élément d’interface utilisateur de la visionneuse ciblée est contrôlée par le sélecteur de classe CSS.
+La mise en surbrillance de la sélection d’entrée affichée autour de l’élément d’IU de la visionneuse ciblée est contrôlée avec le sélecteur de classe CSS.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
 **Propriétés CSS**
 
-L’apparence est contrôlée par le sélecteur de classe CSS suivant :
+L’aspect est contrôlé avec le sélecteur de classe CSS suivant :
 
 ```
 .s7spinviewer *:focus
@@ -35,13 +43,13 @@ L’apparence est contrôlée par le sélecteur de classe CSS suivant :
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> contour </span> </p> </td> 
-   <td colname="col2"> <p>Style de mise au point de mise en évidence. </p> </td> 
+   <td colname="col1"> <p> </span> de plan <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p>Style de surbrillance du focus. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple - Pour désactiver la mise en surbrillance par défaut du focus du navigateur pour tous les éléments de l’interface utilisateur de la visionneuse, ajoutez le sélecteur CSS suivant à la feuille de style de la visionneuse :
+Exemple - Pour désactiver la mise en surbrillance par défaut du navigateur pour tous les éléments de l’interface utilisateur de la visionneuse, ajoutez le sélecteur CSS suivant à la feuille de style de la visionneuse :
 
 ```
 .s7spinviewer *:focus { 

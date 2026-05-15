@@ -6,9 +6,17 @@ feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 1c7a7494-e872-4e78-9518-ea30af46303c
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/cMIps3ogqL1H3zF8XwHTPB3XYYYQocbVwCNHx5-JluM'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: 89
 ht-degree: 2%
 
 ---
@@ -25,7 +33,7 @@ Définit l’identifiant du conteneur DOM (normalement un `DIV`) dans lequel la 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> ID du conteneur. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} ID </span> conteneur. </p> </td> 
   </tr> 
  </tbody> 
 </table>

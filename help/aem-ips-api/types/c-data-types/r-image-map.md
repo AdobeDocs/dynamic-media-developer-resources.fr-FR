@@ -5,9 +5,17 @@ title: ImageMap
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 123eba56-2a59-44c5-93f0-205c362d071d
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/ikMxCQ23L0HzbfmRlcYGL-fRJFK2uhwbZHNzcy1c25k'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: 91
 ht-degree: 4%
 
 ---
@@ -27,6 +35,6 @@ Toujours associé à une image. Vous pouvez obtenir une cible `ImageMap` à part
 | [!DNL region] | `xsd:string` | Coordonnées de la zone cliquable. Le format est basé sur l’attribut de balise HTML `<area>`. |
 | [!DNL action] | `xsd:string` | Autres attributs à inclure dans la balise `<area>` HTML, dont l’URL `href`. |
 | typeForme | `xsd:boolean` | Valeur [!DNL RegionShape]. |
-| [!DNL position] | `xsd:string` | Position au format de l’attribut `<area>` de l’élément de [!DNL coords] HTML. Par exemple : `coords ="0,0,84,128"`. |
+| [!DNL position] | `xsd:string` | Position au format de l’attribut [!DNL coords] de l’élément de `<area>` HTML. Par exemple : `coords ="0,0,84,128"`. |
 | [!DNL enabled] | `xsd:boolean` | True si la zone cliquable est activée. |
 | lastModified | `xsd:dateTime` | Date et heure de la dernière modification de la zone cliquable. |

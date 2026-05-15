@@ -1,36 +1,44 @@
 ---
-title: Init
-description: JavaScript référence de l’API pour la visionneuse à 360°.
+title: init
+description: Référence de l’API JavaScript pour la visionneuse à 360°.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Spin Sets
 role: Developer,User
 exl-id: 5217a02a-6092-4cb9-b4fb-f959cdc85a6e
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+TQID: 'https://experienceleague.adobe.com/BfId4EhSvlyMT-vHJ0rDS-FqpXHeE-krXrvyCevgUKU'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: 118
 ht-degree: 2%
 
 ---
 
-# Init{#init}
+# init{#init}
 
-JavaScript référence de l’API pour la visionneuse à 360°.
+Référence de l’API JavaScript pour la visionneuse à 360°.
 
 `init()`
 
-Démarre l’initialisation de la visionneuse à 360°. À ce stade, l’élément conteneur `DOM` doit être créé de manière à ce que le code de visionneuse puisse le trouver par son identifiant.
+Démarre l’initialisation de la visionneuse à 360°. À ce stade, l’élément de `DOM` de conteneur doit être créé afin que le code de visionneuse puisse le trouver à l’aide de son identifiant.
 
-Si l’élément conteneur ne fait pas encore partie de la mise en page Web (par exemple, il peut être masqué à l’aide d’un `display:none` style), la visionneuse suspend son processus d’initialisation. Il est suspendu jusqu’au moment où la page Web ramène l’élément conteneur à la mise en page, moment auquel le chargement de la visionneuse reprend automatiquement.
+Si l’élément de conteneur ne fait pas encore partie de la mise en page de la page web (par exemple, il peut être masqué à l’aide du style `display:none`), la visionneuse suspend son processus d’initialisation. Elle est suspendue jusqu’au moment où la page web rétablit la mise en page de l’élément de conteneur , moment à partir duquel le chargement de la visionneuse reprend automatiquement.
 
-N’appelez cette méthode qu’une seule fois au cours du cycle de vie d’une visionneuse ; Les appels suivants sont ignorés.
+Appelez cette méthode une seule fois pendant le cycle de vie de la visionneuse ; les appels suivants sont ignorés.
 
 ## Paramètres {#section-ad069aaaf4f145f2b50ae5ac89ca1ed2}
 
 Aucune
 
-## Retourne {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
+## Renvoie {#section-1d3cf85bc7cc4dfe9670e038d02b9101}
 
-`{Object}` Une référence à l’instance de visionneuse.
+`{Object}` Référence à l’instance de visionneuse.
 
 ## Exemple {#section-9e9332aa86b74a5fb321375c03fdc5b3}
 

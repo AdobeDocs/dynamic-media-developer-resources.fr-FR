@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 5efae314-5f37-4afc-9b9e-3108a8529e50
-source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
+TQID: 'https://experienceleague.adobe.com/hvevTPkNCriH177VdIZb7z84eCgirL0YthSYlrZFBfU'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: 199
 ht-degree: 0%
 
 ---
@@ -43,15 +51,15 @@ L’aspect de l’heure de la vidéo est contrôlé avec le sélecteur de classe
    <td colname="col2"> <p> Largeur du contrôle temporel vidéo. Cette propriété est requise pour qu'Internet Explorer 8 ou version ultérieure fonctionne correctement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> </span> famille de polices </p> </td> 
+   <td colname="col1"> <p> </span> <span class="codeph"> famille de polices </p> </td> 
    <td colname="col2"> <p>Famille de polices à utiliser pour le texte d’affichage de l’heure. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de taille de police </span> </p> </td> 
+   <td colname="col1"> <p> </span> de taille de police <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Taille de police à utiliser pour le texte d’affichage temporel. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de couleur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de couleur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Couleur de police à utiliser pour le texte d’affichage temporel. </p> </td> 
   </tr> 
  </tbody> 

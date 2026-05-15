@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Inline Zoom
 role: Developer,User
 exl-id: e5ffe8a8-6c25-4fc2-8c25-90bc7e0b416c
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/V1-2H-QPuCMjrirGo8eC-oUE-3KMrmpGSBZZAQuTOXI'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: 175
 ht-degree: 0%
 
 ---
@@ -61,7 +69,7 @@ La visionneuse effectue le suivi des événements utilisateur SDK suivants :
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> DE CHARGEMENT </span> </p> </td> 
+   <td colname="col1"> <p> </span> DE CHARGEMENT <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>la visionneuse est chargée en premier. </p> </td> 
   </tr> 
   <tr> 
@@ -77,7 +85,7 @@ La visionneuse effectue le suivi des événements utilisateur SDK suivants :
    <td colname="col2"> <p> une image est panoramique. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> D’ÉCHANTILLON </span> </p> </td> 
+   <td colname="col1"> <p> </span> D’ÉCHANTILLON <span class="codeph"> </p> </td> 
    <td colname="col2"> <p> une image est modifiée en cliquant ou en appuyant sur un échantillon. </p> </td> 
   </tr> 
  </tbody> 

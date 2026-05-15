@@ -6,9 +6,19 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 81a74026-fb15-4f57-a4c7-1ab005950245
-source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
+TQID: 'https://experienceleague.adobe.com/L-Dy2JpWs29wOU5v-sAqS2DO9uAtbo93hNLDWThMAmk'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '2278'
+source-wordcount: 2337
 ht-degree: 0%
 
 ---
@@ -65,7 +75,7 @@ La visionneuse Zoom prend en charge les gestes tactiles suivants, courants dans 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Balayage horizontal ou clic </p> </td> 
-   <td colname="col2"> <p> Fait défiler la liste des échantillons dans la barre d’échantillons. </p> <p> Si l’image est à l’état réinitialisé et que le paramètre de <span class="codeph"> de transition d’image </span> est défini sur diapositive, la ressource est modifiée lors de l’animation de la diapositive. Pour d’autres modes de <span class="codeph"> de transition de structure </span>, le mouvement effectue un défilement natif de la page. </p> <p> Si l’image fait l’objet d’un zoom avant, elle se déplace horizontalement. Si l’image est déplacée vers le bord de la vue et qu’un balayage est effectué dans la même direction, le mouvement effectue un défilement natif de la page. </p> </td> 
+   <td colname="col2"> <p> Fait défiler la liste des échantillons dans la barre d’échantillons. </p> <p> Si l’image est à l’état réinitialisé et que le paramètre de </span> de transition d’image <span class="codeph"> est défini sur diapositive, la ressource est modifiée lors de l’animation de la diapositive. Pour d’autres modes de </span> de transition de structure <span class="codeph">, le mouvement effectue un défilement natif de la page. </p> <p> Si l’image fait l’objet d’un zoom avant, elle se déplace horizontalement. Si l’image est déplacée vers le bord de la vue et qu’un balayage est effectué dans la même direction, le mouvement effectue un défilement natif de la page. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Balayage vertical </p> </td> 
@@ -184,7 +194,7 @@ Le chemin d’accès relatif ressemble à ce qui suit :
 
 -->
 
-Pour rendre les dimensions de la vue principale statiques, définissez la taille de la visionneuse en unités absolues pour le composant SDK `Container` interne à l’aide du sélecteur CSS `.s7zoomviewer` `.s7container` ou à l’aide du modificateur `stagesize`.
+Pour rendre les dimensions de la vue principale statiques, définissez la taille de la visionneuse en unités absolues pour le composant SDK `Container` interne à l’aide du sélecteur CSS `.s7container` `.s7zoomviewer` ou à l’aide du modificateur `stagesize`.
 
 Voici un exemple de définition de la taille de la visionneuse pour le composant SDK `Container` interne afin que la zone d’affichage principale ne modifie pas sa taille lors du changement de ressource :
 

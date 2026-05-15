@@ -1,20 +1,28 @@
 ---
-description: Décrit les types de données nouveaux et modifiés de l’API IPS version 3.8.
+description: Décrit les types de données nouveaux et modifiés pour l’API IPS version 3.8.
 solution: Experience Manager
 title: Types de données nouveaux et modifiés
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 6121c7a9-aebc-4aa5-970f-8b115f14c71e
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+TQID: 'https://experienceleague.adobe.com/5ziV7m7okFG9VS8zrqusDN2PZ-vepcsHU3YJ0vpJadM'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '42'
+source-wordcount: 42
 ht-degree: 2%
 
 ---
 
 # Types de données : nouveaux et modifiés{#data-types-new-and-modified}
 
-Décrit les types de données nouveaux et modifiés de l’API IPS version 3.8.
+Décrit les types de données nouveaux et modifiés pour l’API IPS version 3.8.
 
 Syntaxe
 
@@ -27,7 +35,7 @@ Syntaxe
 
 ## Types modifiés {#section-f0fa71a3c1e84998b33ed75703429f81}
 
-**Cible de zoom**
+**ZoomTarget**
 
 Champs ajoutés :
 

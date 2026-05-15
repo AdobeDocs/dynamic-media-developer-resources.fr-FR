@@ -1,20 +1,28 @@
 ---
 title: VideoPlayer.loop
-description: Attribut Configuration pour la visionneuse de vidéos de supports variés.
+description: Attribut de configuration pour la visionneuse de vidéos de médias mixtes.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 4945291d-0906-4f2d-b8d9-0bf542dc6804
-source-git-commit: 6f838470a7bdea8e8c0219e59746ec82ecd802a8
+TQID: 'https://experienceleague.adobe.com/TzNstA1asLoSMYuJRllO4lNRAHJBL3W1JtD3Hqtn9zQ'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '32'
-ht-degree: 9%
+source-wordcount: 32
+ht-degree: 15%
 
 ---
 
 # VideoPlayer.loop{#videoplayer-loop}
 
-Attribut Configuration pour la visionneuse de vidéos de supports variés.
+Attribut de configuration pour la visionneuse de vidéos de médias mixtes.
 
 `[VideoPlayer.|<containerId>_videoPlayer.]loop=0|1`
 
@@ -22,7 +30,7 @@ Attribut Configuration pour la visionneuse de vidéos de supports variés.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0|1</span> </p> </td> 
-   <td colname="col2"> <p>Indique si la lecture du média recommence une fois terminée. </p> </td> 
+   <td colname="col2"> <p>Indique si le média est relu une fois la lecture terminée. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: d2939f86-5dab-471d-ba59-70d91ae1e4fd
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/qCi-M0u1lJZ2SSc3bnezs1jjpXhcqsv-pKCvQ60XSo8'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: 488
 ht-degree: 1%
 
 ---
@@ -44,11 +52,11 @@ Dans la description suivante des options de mode, on suppose que *`xScale`* est 
    <td colname="col2"> <p>Met à l’échelle l’image composite afin qu’elle s’adapte à l’espace alloué avec <span class="codeph"> wid= </span> et <span class="codeph"> hei= </span>, avec un espace blanc minimal et aucun recadrage. L’image de réponse a la taille exacte spécifiée avec <span class="codeph"> wid= </span> et <span class="codeph"> hei= </span>. La plus petite des valeurs suivantes est appliquée : <span class="varname"> xScale </span> et <span class="varname"> yScale </span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> de contrainte </span> </p> </td> 
+   <td colname="col1"> <p> </span> de contrainte <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Met à l’échelle l’image composite de la même manière que <span class="codeph"> adapte </span> afin qu’elle s’adapte à l’espace alloué avec <span class="codeph"> wid= </span> et <span class="codeph"> hei= </span>, mais l’image de réponse réelle peut être plus petite que celle spécifiée avec <span class="codeph"> wid= </span> et <span class="codeph"> hei= </span> pour éviter les espaces. La plus petite des valeurs suivantes est appliquée : <span class="varname"> xScale </span> et <span class="varname"> yScale </span>. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> de recadrage </span> </p> </td> 
+   <td colname="col1"> <p> </span> de recadrage <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Met à l’échelle l’image composite de sorte qu’elle remplisse l’ensemble de l’image de réponse, avec un recadrage minimal et aucun espace blanc. La plus grande des valeurs <span class="varname"> xScale </span> et <span class="varname"> yScale </span> est appliquée. </p> </td> 
   </tr> 
   <tr valign="top"> 
@@ -56,7 +64,7 @@ Dans la description suivante des options de mode, on suppose que *`xScale`* est 
    <td colname="col2"> <p>Met à l’échelle l’image composite comme <span class="codeph"> </span>’image de recadrage de sorte qu’elle couvre l’ensemble de l’image de réponse, mais l’image de réponse réelle peut être plus grande que celle spécifiée avec <span class="codeph"> wid= </span> et <span class="codeph"> hei= </span> pour éviter le recadrage. La plus grande des valeurs <span class="varname"> xScale </span> et <span class="varname"> yScale </span>est appliquée. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col1"> <p> <span class="codeph"> d’étirement </span> </p> </td> 
+   <td colname="col1"> <p> </span> d’étirement <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Met à l’échelle l’image composite indépendamment dans x et y pour remplir l’image de réponse entière, sans recadrage ni espace blanc. Cela modifie généralement les proportions de l’image. <span class="varname"> xScale </span> est utilisé pour la mise à l’échelle horizontale et <span class="varname"> yScale </span> pour la mise à l’échelle verticale. </p> </td> 
   </tr> 
   <tr valign="top"> 

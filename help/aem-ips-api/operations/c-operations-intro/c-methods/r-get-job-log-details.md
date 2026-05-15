@@ -1,22 +1,30 @@
 ---
-description: Obtient les détails d’un journal de tâche de l’entreprise.
+description: Obtient les détails d'un log de traitement d'entreprise.
 solution: Experience Manager
 title: getJobLogDetails
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d2e4eea6-041b-4a80-beda-cbb8d74cd50b
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/iq-EUtUB4T8m7-t6qPy8PaF4An1Oc1fIaLK--hANPtE'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 11%
+source-wordcount: 208
+ht-degree: 9%
 
 ---
 
 # getJobLogDetails{#getjoblogdetails}
 
-Obtient les détails d’un journal de tâche de l’entreprise.
+Obtient les détails d&#39;un log de traitement d&#39;entreprise.
 
-Le `logMessage` champ de réponse est localisé en fonction du `authHeader` `locale` champ.
+Le champ de réponse `logMessage` est localisé en fonction du champ de `locale` `authHeader`.
 
 ## Types d’utilisateurs autorisés {#section-6f720a7baad64eb3805868c88af9a960}
 
@@ -44,10 +52,10 @@ Le `logMessage` champ de réponse est localisé en fonction du `authHeader` `loc
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> CompanyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Poignée de l’entreprise à laquelle le journal de tâche appartient. </td> 
+   <td colname="col4"> Identifiant de la société à laquelle appartient le log de traitement. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> jobHandle </span> </span> </td> 
@@ -59,11 +67,11 @@ Le `logMessage` champ de réponse est localisé en fonction du `authHeader` `loc
    <td colname="col1"> <span class="codeph"> <span class="varname"> originalName</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> Nom original du journal de travail. </td> 
+   <td colname="col4"> Nom d’origine du log de traitement. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> Tableau logTypeArray</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> types :StringArray</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> logTypeArray</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> types:StringArray</span> </td> 
    <td colname="col3"> Non </td> 
    <td colname="col4"> Une ou plusieurs constantes de type log. Si présent, seuls les types de journaux spécifiés sont renvoyés. Par défaut, tous les types de journaux sont renvoyés. </td> 
   </tr> 
@@ -71,13 +79,13 @@ Le `logMessage` champ de réponse est localisé en fonction du `authHeader` `loc
    <td colname="col1"> <span class="codeph"> <span class="varname"> recordsPerPage</span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4">Nombre maximal d’éléments detailArray <span class="codeph"></span> à renvoyer. La valeur maximale et la valeur par défaut sont 1 000. </td> 
+   <td colname="col4">Nombre maximal d’éléments <span class="codeph"> detailArray</span> à renvoyer. La valeur maximale et la valeur par défaut sont 1 000. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> Page</span> de résultats </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :int</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> resultsPage </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:int</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4">Numéro de page des <span class="codeph"> enregistrements PerPage-results</span> à renvoyer. La valeur par défaut est 1. </td> 
+   <td colname="col4">Numéro de page des <span class="codeph"> recordsPerPage</span>-results à retourner. La valeur par défaut est 1. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortBy</span> </span> </td> 
@@ -89,7 +97,7 @@ Le `logMessage` champ de réponse est localisé en fonction du `authHeader` `loc
    <td colname="col1"> <span class="codeph"> <span class="varname"> sortDirection </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> <p>Une des constantes de chaîne Direction du tri. La valeur par défaut est croissante. </p> </td> 
+   <td colname="col4"> <p>Une des constantes de chaîne Sens du tri. La valeur par défaut est ascendante. </p> </td> 
   </tr> 
  </tbody> 
 </table>

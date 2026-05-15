@@ -1,20 +1,28 @@
 ---
-description: Remplace les données image d’un fichier image.
+description: Remplace les données d’image d’une ressource image.
 solution: Experience Manager
 title: replaceImage
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: bf8c1f5c-7829-4750-b5b7-b8b20d115d17
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/11bWPLId2s4gOVhiIFr93Ca4D-7SJ0PYHFmiSKtStjk'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: 101
 ht-degree: 14%
 
 ---
 
 # replaceImage{#replaceimage}
 
-Remplace les données image d’un fichier image.
+Remplace les données d’image d’une ressource image.
 
 Syntaxe
 
@@ -29,25 +37,25 @@ Syntaxe
 
 ## Paramètres {#section-0d0ab668fa6d4310a93fb7ef8d8dd1e0}
 
-**Entrée (replaceImageParam)**
+**Input (replaceImageParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| Nom de la société | `xsd:string` | Oui | Poignée de l’entreprise avec l’image que vous souhaitez remplacer. |
-| AssetHandle | `xsd:string` | Oui | Poignée de la ressource à remplacer. |
-| Modificateur d’url | `xsd:string` | Oui | Commandes Image Server qui génèrent de nouvelles données image. |
+| companyName | `xsd:string` | Oui | Poignée de la société contenant l’image à remplacer. |
+| assetHandle | `xsd:string` | Oui | Poignée de la ressource à remplacer. |
+| urlModifier | `xsd:string` | Oui | Commandes du serveur d’images qui génèrent de nouvelles données d’image. |
 
 **Output (replaceImageReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| AssetHandle | `xsd:string` | Oui | Gérez la nouvelle ressource. |
+| assetHandle | `xsd:string` | Oui | Gérer vers la nouvelle ressource. |
 
 ## Exemples {#section-cebb93576bde4cb98cb27356ca66783b}
 
-Cet exemple de code remplace une image et applique une `urlModifier` avec une commande qui spécifie que le serveur d’images n’entreprend aucune action lors du remplacement.
+Cet exemple de code remplace une image et applique une `urlModifier` avec une commande qui spécifie que le serveur d’images ne doit rien faire lors du remplacement.
 
-**Demander**
+**Requête**
 
 ```java
 <replaceImageParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

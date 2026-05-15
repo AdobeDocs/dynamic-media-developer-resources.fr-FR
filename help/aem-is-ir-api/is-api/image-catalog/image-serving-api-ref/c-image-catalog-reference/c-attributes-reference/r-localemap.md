@@ -5,9 +5,17 @@ title: LocaleMap
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c1d74154-721b-46cc-9f0b-8dae5647b179
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/LqHo03WC7EWKP7jt4l1X6kJffXcOQSd8unCxbdjOig4'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: 213
 ht-degree: 0%
 
 ---
@@ -45,7 +53,7 @@ La traduction des identifiants, lorsqu’elle est activée, est appliquée à to
 
 ## Propriétés {#section-f4c6f058bc5348ee9a3fb19e394b37e3}
 
-Un ou plusieurs éléments, séparés par |, où chaque élément se compose de plusieurs valeurs de chaîne séparées par des virgules. *`locId`* et `locale=` sont comparés. Non sensible à la casse.
+Un ou plusieurs éléments, séparés par |, où chaque élément est constitué de deux valeurs de chaîne séparées par des virgules ou plus. *`locId`* et `locale=` sont comparés. Non sensible à la casse.
 
 ## Voir aussi {#section-19fba6d5be59439c8bf8ec7513c1a6da}
 

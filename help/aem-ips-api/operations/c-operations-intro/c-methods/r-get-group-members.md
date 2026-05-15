@@ -1,20 +1,28 @@
 ---
-description: Obtient les utilisateurs qui appartiennent à une société et à un groupe spécifiques.
+description: Obtient les utilisateurs qui appartiennent à une entreprise et à un groupe spécifiques.
 solution: Experience Manager
 title: getGroupMembers
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 81af79ee-be82-439f-9f42-a1ec09cd8ea0
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/30uti0zOBWTPoFORCa3fTaGznpYjTcSO7oV7M3E-A1c'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: 81
 ht-degree: 16%
 
 ---
 
 # getGroupMembers{#getgroupmembers}
 
-Obtient les utilisateurs qui appartiennent à une société et à un groupe spécifiques.
+Obtient les utilisateurs qui appartiennent à une entreprise et à un groupe spécifiques.
 
 Syntaxe
 
@@ -30,20 +38,20 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| CompanyHandle | `xsd:string` | Oui | La poignée de l’entreprise. |
-| Poignée de groupe | `xsd:string` |  | Poignée du groupe. |
+| companyHandle | `xsd:string` | Oui | La poignée de la société. |
+| groupHandle | `xsd:string` |  | La poignée du groupe. |
 
 **Output (getGroupMembersReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| userHandleArray | `type:HandleArray` | Oui | Tableau de pseudos utilisateur. |
+| userHandleArray | `type:HandleArray` | Oui | Tableau de handles d’utilisateur. |
 
 ## Exemples {#section-aaa340dba6b64cce9bcd8303cf999166}
 
-Cet exemple de code renvoie un tableau de descripteurs d’utilisateur contenant tous les utilisateurs appartenant à un groupe spécifique.
+Cet exemple de code renvoie un tableau d’identifiants d’utilisateur contenant tous les utilisateurs appartenant à un groupe spécifique.
 
-**Demander**
+**Requête**
 
 ```java
 <ns1:getGroupMembersParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

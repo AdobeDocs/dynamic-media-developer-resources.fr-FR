@@ -5,10 +5,18 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: cc34087a-8a19-4ead-b510-f2466efc44a9
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+TQID: 'https://experienceleague.adobe.com/Aglu-ZeC1g0LLlAwLDK5RZcgqBRyEE2NbmPodlRiJZE'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 3%
+source-wordcount: 89
+ht-degree: 4%
 
 ---
 
@@ -22,7 +30,7 @@ Valeur de chaîne de texte. Peut inclure tout caractère valide dans les chemins
 
 ## Par défaut {#section-e0ed902557684345850b86672b5dbe5b}
 
-Aucune. Chaque catalogue doit avoir une valeur de `catalog::RootId` unique. default.ini a généralement un `catalog::RootId` vide.
+Aucune Chaque catalogue doit avoir une valeur de `catalog::RootId` unique. default.ini a généralement un `catalog::RootId` vide.
 
 ## Voir aussi {#section-4670832574f54f9080bb485b047efd5b}
 

@@ -1,20 +1,28 @@
 ---
-description: Affectation ou mise à jour de fichiers dans un projet.
+description: Affectez ou mettez à jour des ressources dans un projet.
 solution: Experience Manager
-title: Définir les ressources du projet
+title: setProjectAssets
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: b6e6e9bd-5ee2-4750-9182-49e7a3e3486c
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/J5X6PS7L7YCH6J9ClzAUo24O44fMWxNqPnILckRBbUI'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: 83
 ht-degree: 18%
 
 ---
 
-# Définir les ressources du projet{#setprojectassets}
+# setProjectAssets{#setprojectassets}
 
-Affectation ou mise à jour de fichiers dans un projet.
+Affectez ou mettez à jour des ressources dans un projet.
 
 Syntaxe
 
@@ -29,25 +37,25 @@ Syntaxe
 
 ## Paramètres {#section-bd51ef23deaf434ba2efb8cef2a8b4a5}
 
-**Entrée (setProjectAssetsParam)**
+**Input (setProjectAssetsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| Nom de la société | `xsd:string` | Oui | Pseudo de l’entreprise. |
-| Poignée de projet | `xsd:string` | Oui | Pseudo de projet. |
-| assetHandleArray | `types:HandleArray` | Oui | Tableau de descripteurs de ressources que vous souhaitez associer au projet. |
+| companyName | `xsd:string` | Oui | Identifiant de la société. |
+| projectHandle | `xsd:string` | Oui | Descripteur de projet. |
+| assetHandleArray | `types:HandleArray` | Oui | Tableau des descripteurs de ressources à associer au projet. |
 
 **Output (setProjectAssetsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| Compte de succès | `xsd:int` | Oui | Nombre de ressources ajoutées avec succès. |
+| successCount | `xsd:int` | Oui | Nombre de ressources ajoutées avec succès. |
 
 ## Exemples {#section-33c1a909c3dc4aa98da474c23a036596}
 
-Cet exemple de code affecte une ressource à un projet. La requête renvoie un nombre de réussite de un.
+Cet exemple de code affecte une ressource à un projet. La requête renvoie un succès de un.
 
-**Demander**
+**Requête**
 
 ```java
 <setProjectAssetsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

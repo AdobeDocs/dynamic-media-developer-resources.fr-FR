@@ -1,20 +1,28 @@
 ---
-description: Options des fichiers PDF.
+description: Options du fichier PDF.
 solution: Experience Manager
-title: Opérations PDF
+title: PDFOptions
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 140c9261-e590-4889-9be4-29afd19ffa86
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/gjd-g7jhWVbLRL3kYnkX96ihjkiK34oCp7Ns1iC89GM'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: 68
 ht-degree: 10%
 
 ---
 
 # [!DNL PDFOptions]{#pdfoptions}
 
-Options des fichiers PDF.
+Options du fichier PDF.
 
 Syntaxe
 
@@ -22,9 +30,9 @@ Syntaxe
 
 | Nom | Type | Description |
 |---|---|---|
-| processus | `xsd:string` | Choix de « Processus PDF ». |
-| résolution | `xsd:double` | Résolution de fichiers. |
-| Espace colorimétrique | `xsd:string` | Choix du mode Espace colorimétrique Post-script. |
-| Catalogue PDF | `xsd:boolean` | S’il convient de combiner un PDF de plusieurs pages dans un catalogue électronique après le rendu (la valeur par défaut est true). |
-| Extraire les mots de recherche | `xsd:boolean` | S’il convient d’extraire des mots de recherche du fichier PDF. |
-| Extraire les liens | `xsd:boolean` | S’il faut extraire des liens PDF dans des zones cliquables affectées aux pages pixelisées dans IPS. |
+| processus | `xsd:string` | Choix des « processus PDF ». |
+| résolution | `xsd:double` | Résolution du fichier. |
+| colorspace | `xsd:string` | Choix du mode Colorspace post-script. |
+| pdfCatalog | `xsd:boolean` | Permet de combiner un PDF de plusieurs pages dans un catalogue électronique après le rendu (la valeur par défaut est true). |
+| extractSearchWords | `xsd:boolean` | Extraction de mots de recherche à partir du fichier PDF |
+| extractLinks | `xsd:boolean` | Extraction de liens PDF dans des zones cliquables affectées aux pages pixellisées dans IPS. |

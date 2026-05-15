@@ -1,20 +1,30 @@
 ---
-description: Supprime le champ de métadonnées d’une société.
+description: Supprime le champ de métadonnées d’une entreprise.
 solution: Experience Manager
-title: Supprimer le champ de métadonnées
+title: deleteMetadataField
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1922fc1b-2abc-4d31-985a-65c788af4d46
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/GnKkb-vTCdD5PwU111sxefzxR7FN74hk3i66c3gcH9I'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: 99
 ht-degree: 9%
 
 ---
 
-# Supprimer le champ de métadonnées{#deletemetadatafield}
+# deleteMetadataField{#deletemetadatafield}
 
-Supprime le champ de métadonnées d’une société.
+Supprime le champ de métadonnées d’une entreprise.
 
 Syntaxe
 
@@ -26,12 +36,12 @@ Syntaxe
 
 ## Paramètres {#section-73f12a30cc4340b6b32dd11effd5195e}
 
-**Entrée (deleteMetadataFieldParam)**
+**Input (deleteMetadataFieldParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| CompanyHandle | `xsd:string` | Oui | Poignée de l’entreprise qui contient le champ de métadonnées à supprimer. |
-| Poignée de champ | `xsd:string` | Oui | Poignée du champ de métadonnées à supprimer. |
+| companyHandle | `xsd:string` | Oui | Identifiant de la société qui contient le champ de métadonnées à supprimer. |
+| fieldHandle | `xsd:string` | Oui | Identifiant du champ de métadonnées à supprimer. |
 
 **Output (deleteMetadataFieldParam)**
 
@@ -39,9 +49,9 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-e1c474ea91a040609ecd7c2400f4fa3c}
 
-Cet exemple de code supprime le champ de métadonnées d’une société. Il utilise le descripteur de société et le descripteur de métadonnées en tant que champs dans le `deleteMetadataFieldParam` transmis au serveur de services Web IPS pour effectuer cette action.
+Cet exemple de code supprime le champ de métadonnées d’une entreprise. Elle utilise le handle de l’entreprise et le handle des métadonnées comme champs dans le `deleteMetadataFieldParam` transmis au serveur de services Web IPS pour effectuer cette action.
 
-**Demander**
+**Requête**
 
 ```java
 <deleteMetadataFieldParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">
@@ -52,4 +62,4 @@ Cet exemple de code supprime le champ de métadonnées d’une société. Il uti
 
 **Réponse**
 
-Aucune.0
+Aucun.0

@@ -5,10 +5,18 @@ title: RootId
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9224f06d-28a9-4a23-9a3a-735b2b9f87ff
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/AwSn0nnKXkfY6W3noNWJGIgrg7pnZeKZEHI0-dDyPHs'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 4%
+source-wordcount: 68
+ht-degree: 5%
 
 ---
 
@@ -22,7 +30,7 @@ Valeur de chaîne de texte. Ne peut inclure que des caractères valides dans les
 
 ## Par défaut {#section-c5296f4e52394984bf1c0d265ecde940}
 
-Aucune. Chaque catalogue doit avoir une valeur de `attribute::RootId` unique. [!DNL default.ini] comporte généralement un `attribute::RootId` vide.
+Aucune Chaque catalogue doit avoir une valeur de `attribute::RootId` unique. [!DNL default.ini] comporte généralement un `attribute::RootId` vide.
 
 ## Voir aussi {#section-5297eaaf736b4db5901e0b37e7cb8bbe}
 

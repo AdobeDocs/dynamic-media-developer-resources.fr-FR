@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Zoom
 role: Developer,User
 exl-id: 286b9df4-88db-4e5d-aab4-9cbe01195e57
-source-git-commit: 7eddc50fb9803eacdd1f513c6132380793b6f88d
+TQID: 'https://experienceleague.adobe.com/ub5sNABbFHA-V5yaiNmUAHZ1NwTGIlzNecIL5KlJPg4'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: 165
 ht-degree: 1%
 
 ---
@@ -39,7 +47,7 @@ L’aspect de la zone d’affichage est contrôlé par le sélecteur de classe C
    <td colname="col2"> <p> Couleur d’arrière-plan au format hexadécimal de la vue principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> du curseur </span> </p> </td> 
+   <td colname="col1"> <p> </span> du curseur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Le curseur s’affiche sur la vue principale. </p> </td> 
   </tr> 
  </tbody> 

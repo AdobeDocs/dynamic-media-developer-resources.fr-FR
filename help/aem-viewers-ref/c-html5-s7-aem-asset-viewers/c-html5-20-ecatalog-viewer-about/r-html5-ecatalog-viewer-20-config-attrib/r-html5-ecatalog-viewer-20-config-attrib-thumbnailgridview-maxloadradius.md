@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: e93de3b5-b42d-4db8-90b9-9e2aa53af775
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+TQID: 'https://experienceleague.adobe.com/dbcZzhrzwZU5T307jcD6H6kx5RNeYWRBe21nD-2deXU'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: 58
 ht-degree: 5%
 
 ---
@@ -20,7 +28,7 @@ ht-degree: 5%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>Spécifie le comportement de préchargement du composant. </p> <p>Lorsqu’elle est définie sur <span class="codeph"> -1</span> , les vignettes sont chargées simultanément lorsque le composant est initialisé ou que la ressource change. </p> <p>Lorsque la valeur est <span class="codeph"></span> 0, seules les vignettes visibles sont chargées. </p> <p>Set <span class="codeph"><span class="varname"> preloadnbr</span></span> définit combien de lignes/colonnes invisibles autour de la zone visible sont préchargées. </p> </td> 
+   <td colname="col2"> <p>Indique le comportement de préchargement du composant. </p> <p>Lorsque la valeur est définie sur <span class="codeph"> -1</span> les miniatures sont chargées simultanément lors de l’initialisation du composant ou de la modification de la ressource. </p> <p>Lorsque la valeur est définie sur <span class="codeph"> 0</span> seules les miniatures visibles sont chargées. </p> <p>Définir <span class="codeph"><span class="varname"> preloadnbr </span></span> définit le nombre de lignes/colonnes invisibles autour de la zone visible qui sont préchargées. </p> </td> 
   </tr> 
  </tbody> 
 </table>

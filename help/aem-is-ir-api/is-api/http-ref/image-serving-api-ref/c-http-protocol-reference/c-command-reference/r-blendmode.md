@@ -1,20 +1,28 @@
 ---
-title: Mode de fusion
-description: Mode de fusion. Spécifie le type de fusion utilisé lorsque le calque est composite. Simule les modes de fusion couramment utilisés dans Photoshop. Pour plus d’informations, consultez Photoshop documentation.
+title: brownMode
+description: Mode de fusion. Spécifie le type de fusion utilisé lors de la composition du calque. Simule les modes de fusion couramment utilisés disponibles dans Photoshop. Pour plus d’informations, consultez la documentation de Photoshop .
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 8f0b8b0a-a8ac-4932-986c-5d14d3311f1b
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+TQID: 'https://experienceleague.adobe.com/cH4BuvInJjio0siCV6GD8rx8nAI-pPkmgqiQN-xZ47I'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: 67
 ht-degree: 5%
 
 ---
 
-# Mode de fusion{#blendmode}
+# brownMode{#blendmode}
 
-Mode de fusion. Spécifie le type de fusion utilisé lorsque le calque est composite. Simule les modes de fusion couramment utilisés dans Photoshop. Pour plus d’informations, consultez Photoshop documentation.
+Mode de fusion. Spécifie le type de fusion utilisé lors de la composition du calque. Simule les modes de fusion couramment utilisés disponibles dans Photoshop. Pour plus d’informations, consultez la documentation de Photoshop .
 
 `blendMode=norm|dissolve|lighten|darken|mult|screen`
 

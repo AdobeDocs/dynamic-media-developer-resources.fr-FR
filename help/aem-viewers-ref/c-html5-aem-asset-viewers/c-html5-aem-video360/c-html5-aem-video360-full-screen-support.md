@@ -1,23 +1,31 @@
 ---
-title: prise en charge plein écran
+title: prise en charge du mode plein écran
 description: La visionneuse prend en charge le mode de fonctionnement plein écran.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: 56951eb7-1e65-4c9d-8978-6c1fc22bb066
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/oSTbyejOct5s4CKi2MmrJlj9vqqV860apqCHLEg7ouM'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: 142
 ht-degree: 0%
 
 ---
 
-# prise en charge plein écran{#full-screen-support}
+# prise en charge du mode plein écran{#full-screen-support}
 
 La visionneuse prend en charge le mode de fonctionnement plein écran.
 
-Sur les navigateurs de bureau modernes, à l’exception d’Internet Explorer 10 et versions antérieures, et sur certains appareils tactiles, la visionneuse utilise le mode plein écran « natif ». Ce mode signifie que tout l’écran du périphérique est occupé par le contenu de la visionneuse.
+Sur les navigateurs de bureau modernes, à l’exception d’Internet Explorer 10 et versions antérieures, et sur certains appareils tactiles, la visionneuse utilise le mode plein écran « natif ». Ce mode signifie que tout l’écran de l’appareil est occupé par le contenu de la visionneuse.
 
-Sur les appareils iOS et sur les navigateurs Internet Explorer plus anciens, la visionneuse utilise le mode plein écran « simulé ». Dans ce mode, le spectateur se redimensionne pour occuper toute la surface de la fenêtre du navigateur Web. En outre, l’interface utilisateur du navigateur Web et d’autres fenêtres sont toujours visibles à l’écran.
+Sur les appareils iOS et les anciens navigateurs Internet Explorer, la visionneuse utilise plutôt le mode plein écran « simulé ». Dans ce mode, la visionneuse se redimensionne de manière à occuper toute la zone de la fenêtre du navigateur web. En outre, l’interface utilisateur du navigateur web et d’autres fenêtres sont toujours visibles à l’écran.
 
-Un utilisateur passe en mode plein écran et le quitte en appuyant sur le bouton plein écran de l’interface utilisateur de la visionneuse. Lorsque le mode plein écran « natif » est utilisé sur le bureau, il est également possible de le quitter en appuyant sur **Échap**.
+Un utilisateur passe en mode plein écran et le quitte en appuyant sur le bouton plein écran dans l’interface utilisateur de la visionneuse. Lorsque le mode plein écran « natif » est utilisé sur le bureau, il est également possible de le quitter en appuyant sur **Échap**.

@@ -5,9 +5,19 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: adc3d972-b02d-40db-992e-acaa06b848ff
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/bC4s5gEY2HaVRGv37BToYmWINn7ZG1JMVp1wSIF60l4'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: 475
 ht-degree: 0%
 
 ---
@@ -30,7 +40,7 @@ La diffusion d’images prend en charge les commandes suivantes à l’[!DNL /is
   <td class="stentry"> <p> <span class="codeph"> req=userdata </span>, <span class="codeph"> req=props </span> et <span class="codeph"> req=exists </span> uniquement. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-cache.md#reference-168189bee4ce4d1189d427891f22be2e" format="dita" scope="local"> du cache </a> </p> </td> 
+  <td class="stentry"> <p> </a> du cache <a href="../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-cache.md#reference-168189bee4ce4d1189d427891f22be2e" format="dita" scope="local"> </p> </td> 
   <td class="stentry"> <p>Permet de désactiver le cache côté client. </p> </td> 
  </tr> 
 </table>
@@ -106,7 +116,7 @@ Les catalogues de contenu statique sont similaires aux catalogues d’images, ma
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> catalog::UserType </span> </p> </td> 
-   <td colname="col2"> <p>Type de données facultatif. Peut être utilisé pour filtrer les requêtes de contenu statique avec la <span class="codeph"> de commande </span> type= . </p> </td> 
+   <td colname="col2"> <p>Type de données facultatif. Peut être utilisé pour filtrer les requêtes de contenu statique avec la </span> de commande <span class="codeph"> type= . </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -125,9 +135,9 @@ Vous pouvez encapsuler des fichiers de sous-titres vidéo (WebVTT), CSS ou tout 
 
 Vous pouvez également utiliser des pistes pour d’autres types de métadonnées horodatées. Les données sources de chaque élément de suivi sont un fichier texte composé d’une liste de repères horodatés. Les indices peuvent inclure des données dans des formats tels que JSON ou CSV.
 
-Voir [https://en.wikipedia.org/wiki/JSONP](https://en.wikipedia.org/wiki/JSONP) pour plus d’informations sur le format JSONP.
+Voir [&#128279;](https://en.wikipedia.org/wiki/JSONP) pour plus d’informations sur le format JSONP.
 
-Voir [www.json.org](https://www.json.org/json-en.html) pour plus d’informations sur le format JSON.
+Voir [&#128279;](https://www.json.org/json-en.html) pour plus d’informations sur le format JSON.
 
 ## Voir aussi {#section-7b28631016044a22a3a6762fd64771e9}
 

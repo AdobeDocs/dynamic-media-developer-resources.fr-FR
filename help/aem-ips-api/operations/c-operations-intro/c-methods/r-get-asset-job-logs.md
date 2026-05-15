@@ -1,20 +1,28 @@
 ---
-description: Obtient les rapports des tâches d’une ressource. Les éléments renvoyés dans le tableau contiennent des informations détaillées sur chaque entrée dans le journal de travail de cette ressource. Le champ de réponse logMessage est localisé en fonction du champ authEn-tête.
+description: Obtient les logs de traitement d’une ressource. Les éléments renvoyés dans le tableau contiennent des informations détaillées sur chaque entrée du journal de tâches pour cette ressource. Le champ de réponse logMessage est localisé en fonction du champ authHeader .
 solution: Experience Manager
 title: getAssetJobLogs
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 88ec5cab-7eb4-48aa-914f-21311593e463
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/P8JrN-sCYIQmvFBJrNxiPdmp1Au8-8Tjdpd7DwpRS2I'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: 156
 ht-degree: 8%
 
 ---
 
 # getAssetJobLogs{#getassetjoblogs}
 
-Obtient les rapports des tâches d’une ressource. Les éléments renvoyés dans le tableau contiennent des informations détaillées sur chaque entrée dans le journal de travail de cette ressource. Le champ de réponse logMessage est localisé en fonction du champ authEn-tête.
+Obtient les logs de traitement d’une ressource. Les éléments renvoyés dans le tableau contiennent des informations détaillées sur chaque entrée du journal de tâches pour cette ressource. Le champ de réponse logMessage est localisé en fonction du champ authHeader .
 
 Syntaxe
 
@@ -32,24 +40,24 @@ Syntaxe
 
 ## Paramètres {#section-9586617e124b4da4acb6b66b2a9adad8}
 
-**Entrée (getAssetJobLogsParam)**
+**Input (getAssetJobLogsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| CompanyHandle | `xsd:string` | Oui | Identifiant de l’entreprise à laquelle la ressource appartient. |
-| AssetHandle | `xsd:string` | Oui | Poignée de la ressource contenant les journaux de tâche à récupérer. |
+| companyHandle | `xsd:string` | Oui | Identifiant de la société à laquelle appartient la ressource. |
+| assetHandle | `xsd:string` | Oui | Identifiant de la ressource avec les logs de traitement à récupérer. |
 
 **Output (getAssetJobLogsReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| jobLogArray | `types:AssetJobLogArray` | Oui | Tableau du journal des tâches. |
+| jobLogArray | `types:AssetJobLogArray` | Oui | Tableau de logs de traitement. |
 
 ## Exemples {#section-f03d7f3ec5d043d38227f926fb7609f6}
 
-Cet exemple de code récupère les journaux de tâches d’une ressource spécifique. La réponse renvoie un tableau de journal de tâche avec des informations détaillées sur toutes les tâches dans lesquelles la ressource a été utilisée.
+Cet exemple de code récupère les journaux de tâches d’une ressource spécifique. La réponse renvoie un tableau de logs de traitement avec des informations détaillées sur toutes les tâches dans lesquelles la ressource a été utilisée.
 
-**Demander**
+**Requête**
 
 ```java
 <getAssetJobLogsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

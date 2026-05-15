@@ -1,20 +1,28 @@
 ---
-description: Définit les attributs de l’utilisateur (par exemple, nom, adresse électronique, rôle, etc.)
+description: Définit des attributs utilisateur (par exemple, nom, e-mail, rôle, etc.).
 solution: Experience Manager
 title: setUserInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d8f8fe53-a874-4b77-9084-9a369862a672
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/JzJv4nEeWfbY-Wp-qkEq883dlTqaRm9Fc-UvDa70dOg'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: 114
 ht-degree: 18%
 
 ---
 
 # setUserInfo{#setuserinfo}
 
-Définit les attributs de l’utilisateur (par exemple, nom, adresse électronique, rôle, etc.)
+Définit des attributs utilisateur (par exemple, nom, e-mail, rôle, etc.).
 
 Syntaxe
 
@@ -31,14 +39,14 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| Poignée utilisateur | `xsd:string` | Non | Pseudo utilisateur. |
-| prénom | `xsd:string` | Oui | Prénom. |
-| Nom de famille | `xsd:string` | Oui | Nom. |
-| e-mail | `xsd:string` | Oui | Adresse électronique de l’utilisateur. |
-| Rôle par défaut | `xsd:string` | Oui | Définit le rôle d’un utilisateur dans chaque entreprise à laquelle il appartient. Notez toutefois que le rôle remplace les `IpsAdmin` autres paramètres par société. |
-| expirations du mot de passe | `xsd:dateTime` | Non | Date d’expiration du mot de passe de l’éditeur. |
-| est valide | `xsd:boolean` | Oui | Détermine si l’utilisateur est un utilisateur IPS valide. |
-| Tableau d’adhérents | `types:CompanyMembershipUpdateArray` | Oui | Tableau de poignées d’entreprise. |
+| userHandle | `xsd:string` | Non | Handle utilisateur. |
+| firstName | `xsd:string` | Oui | Prénom. |
+| lastName | `xsd:string` | Oui | Nom. |
+| e-mail | `xsd:string` | Oui | Adresse e-mail de l’utilisateur. |
+| defaultRole | `xsd:string` | Oui | Définit le rôle d’un utilisateur dans chaque société à laquelle il appartient. Notez toutefois que le rôle `IpsAdmin` remplace d’autres paramètres par société. |
+| passwordExpires | `xsd:dateTime` | Non | Définissez la date d’expiration du mot de passe de . |
+| isValid | `xsd:boolean` | Oui | Détermine si l’utilisateur est un utilisateur IPS valide. |
+| membershipArray | `types:CompanyMembershipUpdateArray` | Oui | Tableau d’identifiants d’entreprise. |
 
 **Output (setUserInfoReturn)**
 
@@ -46,7 +54,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-272c103076fb4de0a53729e2f6bfb895}
 
-**Demander**
+**Requête**
 
 ```java
 <setUserInfoParam xmlns="http://www.scene7.com/IpsApi/xsd">

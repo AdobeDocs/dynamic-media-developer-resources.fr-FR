@@ -1,18 +1,26 @@
 ---
-description: Bouton Fermer
+description: Closebutton
 solution: Experience Manager
-title: Bouton Fermer
+title: Closebutton
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 4f5f84d0-1b5a-4fb3-91ab-44b4542c6ef1
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/F3tJX6H7AWn87RyNM9-fV6H1RsXxhcGbXSH0Uegt9P8'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '44'
-ht-degree: 6%
+source-wordcount: 44
+ht-degree: 11%
 
 ---
 
-# Bouton Fermer{#closebutton}
+# Closebutton{#closebutton}
 
 [!DNL `closebutton=0|1`]
 
@@ -20,7 +28,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> 0-1 </span> </p> </td> 
-   <td colname="col2"> <p>Définissez ce paramètre sur <span class="codeph"> 1 </span> pour activer l’affichage du bouton Fermer. Ou, définissez <span class="codeph"> sur 0 </span> pour masquer le bouton Fermer. </p> <p>Le bouton de fermeture n’est pris en charge que sur les appareils tactiles ; Il ne peut pas s’afficher sur les systèmes de bureau. </p> </td> 
+   <td colname="col2"> <p>Définissez sur <span class="codeph"> 1 </span> pour activer l’affichage du bouton de fermeture. Vous pouvez également définir sur <span class="codeph"> 0 </span> pour masquer le bouton Fermer. </p> <p>Le bouton Fermer est pris en charge uniquement sur les appareils tactiles ; il ne peut pas être affiché sur les ordinateurs de bureau. </p> </td> 
   </tr> 
  </tbody> 
 </table>

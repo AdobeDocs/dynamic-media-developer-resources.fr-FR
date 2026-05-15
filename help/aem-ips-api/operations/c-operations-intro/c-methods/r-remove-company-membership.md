@@ -1,20 +1,28 @@
 ---
-description: Supprime un utilisateur d’une ou de plusieurs entreprises.
+description: Supprime un utilisateur d’une ou de plusieurs sociétés.
 solution: Experience Manager
 title: removeCompanyMembership
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1cb9a286-48a0-4542-a80a-c97fd973474e
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/5jjL8MnUtL046oSej3HErZB9hrD-ueEBC5-h9vD92HM'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: 100
 ht-degree: 10%
 
 ---
 
 # removeCompanyMembership{#removecompanymembership}
 
-Supprime un utilisateur d’une ou de plusieurs entreprises.
+Supprime un utilisateur d’une ou de plusieurs sociétés.
 
 Syntaxe
 
@@ -27,12 +35,12 @@ Syntaxe
 
 ## Paramètres {#section-6dfce5e44d8a4799afd0c231a0b10463}
 
-**Entrée (removeCompanyMembershipParam)**
+**Input (removeCompanyMembershipParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| Poignée utilisateur | `xsd:string` | Non | Poignée adressée à l’utilisateur avec l’appartenance à supprimer. |
-| companyHandleArray | `types:HandleArray` | Oui | Identifiant de l’entreprise dont vous supprimez l’utilisateur. |
+| userHandle | `xsd:string` | Non | La poignée de l’utilisateur avec l’abonnement que vous souhaitez supprimer. |
+| companyHandleArray | `types:HandleArray` | Oui | Poignée de la société dont vous supprimez l’utilisateur. |
 
 **Output (removeCompanyMembershipReturn)**
 
@@ -40,9 +48,9 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-6b7903195e8647a1bd0502f87387ca62}
 
-Cet exemple de code supprime un utilisateur d’une société. Omettez le handle utilisateur facultatif pour supprimer tous les utilisateurs des sociétés spécifiées dans le tableau de handle company.
+Cet exemple de code supprime un utilisateur d’une entreprise. Omettez le handle d’utilisateur facultatif pour supprimer tous les utilisateurs des sociétés spécifiées dans le tableau handle d’entreprise .
 
-**Demander**
+**Requête**
 
 ```java
 <ns1:removeCompanyMembershipParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

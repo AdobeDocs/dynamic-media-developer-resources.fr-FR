@@ -5,9 +5,17 @@ title: Gestion des catalogues
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: c29858a7-6695-4c40-a818-4161a2e97ff5
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/cEhMTiVm3OsXcg695CogW4OC1PHz4pzL-oK2FBm7jTE'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: 148
 ht-degree: 0%
 
 ---
@@ -18,7 +26,7 @@ Les fichiers d’attributs de catalogue reconnaissent ces attributs de gestion d
 
 <table id="simpletable_010A9494BFEB45F0A46FE9709E0404CA"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-catalogfile.md#reference-16498bb4cb33458697c1ab002ea8db79" type="reference" format="dita" scope="local"> Fichier</a> catalogue </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-catalogfile.md#reference-16498bb4cb33458697c1ab002ea8db79" type="reference" format="dita" scope="local"> CatalogFile </a> </span> </p></td> 
   <td class="stentry"> <p>Noms des fichiers de données image associés. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -38,7 +46,7 @@ Les fichiers d’attributs de catalogue reconnaissent ces attributs de gestion d
   <td class="stentry"> <p>Nom du fichier de définition de macro associé. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilemapfile.md#reference-0ebacea00a9644f58810b30422cb8087" type="reference" format="dita" scope="local"> IccProfileMapFichier</a> </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-iccprofilemapfile.md#reference-0ebacea00a9644f58810b30422cb8087" type="reference" format="dita" scope="local"> IccProfileMapFile </a> </span> </p></td> 
   <td class="stentry"> <p>Nom du fichier de mappage de profils ICC associé. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -58,11 +66,11 @@ Les fichiers d’attributs de catalogue reconnaissent ces attributs de gestion d
   <td class="stentry"> <p>Chemin d’accès racine aux fichiers de données sources de contenu statique. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-savepath.md#reference-9c4686dc153b41d8a0751cde83615432" type="reference" format="dita" scope="local"> Chemin d’enregistrement</a> </span> </p></td> 
-  <td class="stentry"> <p>Chemin racine pour les images écrites dans un fichier sur le serveur. </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-savepath.md#reference-9c4686dc153b41d8a0751cde83615432" type="reference" format="dita" scope="local"> SavePath </a> </span> </p></td> 
+  <td class="stentry"> <p>Chemin racine des images écrites dans un fichier sur le serveur. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-fullmatch.md#reference-c3a72f31672a48b386943d6781cf50d7" type="reference" format="dita" scope="local"> Correspondance</a> complète </span> </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-fullmatch.md#reference-c3a72f31672a48b386943d6781cf50d7" type="reference" format="dita" scope="local"> FullMatch </a> </span> </p></td> 
   <td class="stentry"> <p>Option de correspondance de catalogue. </p></td> 
  </tr> 
  <tr class="strow"> 
@@ -78,11 +86,11 @@ Les fichiers d’attributs de catalogue reconnaissent ces attributs de gestion d
   <td class="stentry"> <p>Politique de validation du cache du serveur. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-uselastmodified.md#reference-73ecc421e6864a38aec5a4775f06b8e8" type="reference" format="dita" scope="local"> UseLastModified</a> </span> </p></td> 
-  <td class="stentry"> <p>Activer les en-têtes de réponse HTTP modifiés en raison de la dernière modification. </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-uselastmodified.md#reference-73ecc421e6864a38aec5a4775f06b8e8" type="reference" format="dita" scope="local"> UseLastModified</a> </span> </p></td> 
+  <td class="stentry"> <p>Activez les en-têtes de réponse HTTP Dernière modification. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15" type="reference" format="dita" scope="local"> SynthesizeFontStyles</a> </span> </p></td> 
-  <td class="stentry"> <p>Activez les styles gras synthétiques/italiques. </p></td> 
+  <td class="stentry"> <p><span class="codeph"> <a href="../../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-attributes-reference/r-synthesizefontstyles.md#reference-1b12ba881b9146c793bcb07407cacb15" type="reference" format="dita" scope="local"> SynthesizeFontStyles </a> </span> </p></td> 
+  <td class="stentry"> <p>Activez les styles synthétiques gras/italiques. </p></td> 
  </tr> 
 </table>

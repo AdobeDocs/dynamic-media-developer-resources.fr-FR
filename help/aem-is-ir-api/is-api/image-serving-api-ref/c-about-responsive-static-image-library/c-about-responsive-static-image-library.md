@@ -5,9 +5,20 @@ title: À propos de la bibliothèque d’images réactive
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f853b9b4-917c-4744-b2a5-25fde2532356
-source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
+autotag-review: '2026-05-13T20:34:09.471Z'
+TQID: 'https://experienceleague.adobe.com/JywTlBUHeKoE0YCexVkpvuMA1hcBS8HngaxyhzEAFZk'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: 258
 ht-degree: 0%
 
 ---
@@ -69,9 +80,9 @@ Le cas d’utilisation le plus simple de la bibliothèque d’images réactive c
 
 **Configuration minimale requise pour le navigateur client**
 
-* Microsoft® Windows® 7 ou ultérieur ; macOS X 10.8 ou ultérieur.
+* ® Windows® 7 ou ultérieur ; macOS X 10.8 ou ultérieur.
 * Firefox 23, Safari 6, Chrome 29, IE 9 ou version ultérieure.
 * iOS 6 ou version ultérieure.
 * Certifié sur iPhone3GS ou version ultérieure et iPad2 ou version ultérieure (navigateurs natifs uniquement).
-* Android™ OS 2.3 ou version ultérieure.
+* ™ OS 2.3 ou version ultérieure.
 * Internet Explorer sur les appareils mobiles n’est actuellement pas pris en charge.

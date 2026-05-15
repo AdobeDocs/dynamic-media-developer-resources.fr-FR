@@ -5,10 +5,18 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 333b8954-e256-4ba1-8055-c4d625470673
-source-git-commit: 3be1d948ac22f907169ef09b509f1cebceaec5c4
+TQID: 'https://experienceleague.adobe.com/EZCinSS9WxfirZkAEF7SDwBZrYlQNZDqszRTND63p7w'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 17%
+source-wordcount: 153
+ht-degree: 16%
 
 ---
 
@@ -20,7 +28,7 @@ Type de surface de matériau. Spécifie le type de surface du matériau.
 
 <table id="simpletable_482728CD58144E7BBB2912B2F105FDCA"> 
  <tr class="strow"> 
-  <td class="stentry"> <p>01 </p></td> 
+  <td class="stentry"> <p>0 </p></td> 
   <td class="stentry"> <p>Inconnu, le serveur utilise la valeur par défaut </p></td> 
  </tr> 
  <tr class="strow"> 

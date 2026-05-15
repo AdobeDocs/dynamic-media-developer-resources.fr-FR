@@ -1,18 +1,28 @@
 ---
 description: Met à jour les autorisations des ressources.
 solution: Experience Manager
-title: Mettre à jour les permissons des ressources
+title: updateAssetPermissions
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 12972a52-7b70-405c-9c73-e5ce6ab7dd9b
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/JXEADalEOeFlcIdwQF14ug1BvUIYGimwNI8wYDgO1yU'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: 54
 ht-degree: 20%
 
 ---
 
-# Mettre à jour les permissons des ressources{#updateassetpermissons}
+# updateAssetPermissions{#updateassetpermissons}
 
 Met à jour les autorisations des ressources.
 
@@ -26,13 +36,13 @@ Syntaxe
 
 ## Paramètres {#section-392cb3076cf84790a32fd913f2b111a3}
 
-**Entrée (updateAssetPermissionsParam)**
+**Input (updateAssetPermissionsParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| CompanyHandle | `xsd:string` | Oui | Pseudo de l’entreprise. |
-| AssetHandle | `xsd:string` | Oui | Gestion des ressources. |
-| Mettre à jour le tableau | `types:PermissionUpdateArray` | Oui | Autorisations que vous souhaitez appliquer à la ressource. |
+| companyHandle | `xsd:string` | Oui | Identifiant de la société. |
+| assetHandle | `xsd:string` | Oui | Identifiant de ressource. |
+| updateArray | `types:PermissionUpdateArray` | Oui | Autorisations à appliquer à la ressource. |
 
 **Output (updateAssetPermissionsReturn)**
 
@@ -40,7 +50,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-1b7b7dbfdab34c819a53f3d33004e1f9}
 
-**Demander**
+**Requête**
 
 ```java
 <ns1:updateAssetPermissionsParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

@@ -1,31 +1,39 @@
 ---
-description: Affilage. Attribut d’accentuation qui détermine le moment où le matériau est accentué pendant le rendu.
+description: 'Accentuation. Attribut Accentuation : détermine à quel moment la matière est accentuée lors du rendu.'
 solution: Experience Manager
 title: Sharp
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: ce08ed97-33b7-4d28-8f7f-3f3ef8598ad6
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/e9pUY-R7wpieviEUxzGeuyGduEKTLGf4cZz57Kc2Qhs'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: 111
 ht-degree: 8%
 
 ---
 
 # Sharp{#sharp}
 
-Affilage. Attribut d’accentuation qui détermine le moment où le matériau est accentué pendant le rendu.
+Accentuation. Attribut Accentuation : détermine à quel moment la matière est accentuée lors du rendu.
 
-Le type et la quantité d’accentuation sont contrôlés par la vignette au moyen d’un modèle de matériau par défaut ou avec `catalog::RenderSettings`.
+Le type et l’intensité de l’accentuation sont contrôlés par la vignette au moyen d’un modèle de matériau par défaut ou avec des `catalog::RenderSettings`.
 
 ## Propriétés {#section-aac81b1a611b4bca90b8544eae7896df}
 
-Enum.
+Énumération.
 
 <table id="simpletable_D52B41A39E4E4E54A06821B9D689DB30"> 
  <tr class="strow"> 
-  <td class="stentry"> <p>01 </p></td> 
-  <td class="stentry"> <p>Pas d’accentuation. </p></td> 
+  <td class="stentry"> <p>0 </p></td> 
+  <td class="stentry"> <p>Aucun accentuation. </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>1 </p></td> 
@@ -33,11 +41,11 @@ Enum.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>2 </p></td> 
-  <td class="stentry"> <p>Accentuation alternée (avant la transformation). </p></td> 
+  <td class="stentry"> <p>Accentuation alternative (avant la transformation). </p></td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p>3 </p></td> 
-  <td class="stentry"> <p>Plus d’accentuation (avant et après la transformation). </p></td> 
+  <td class="stentry"> <p>Accentuation supplémentaire (avant et après la transformation). </p></td> 
  </tr> 
 </table>
 
@@ -49,4 +57,4 @@ Ignoré par les matériaux de couleur unie, facultatif pour tous les autres mat�
 
 ## Voir aussi {#section-b462f9ad9ae347e1a1993abf2f2daa8e}
 
-[attribute ::Sharpening](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharp.md#reference-c706450cf95347f98f86c696f9167297) , [catalog ::RenderSettings](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rendersettings.md#reference-f3ae5e18095d40b2a8edef957dd82fbd), [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)
+[attribute::Sharpening](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-cat-sharp.md#reference-c706450cf95347f98f86c696f9167297) , [catalog::RenderSettings](../../../../../ir-api/material-cat/image-rendering-api-ref/c-ir-material-catalog/c-ir-attributes-reference/r-ir-rendersettings.md#reference-f3ae5e18095d40b2a8edef957dd82fbd), [sharp=](../../../../../ir-api/http-protocol/image-rendering-api-ref/c-ir-http-protocol-ref/c-ir-http-protocol-command-reference/r-ir-http-sharp.md#reference-acdd87f6b5de4e3a85e5d3c03022a35a)

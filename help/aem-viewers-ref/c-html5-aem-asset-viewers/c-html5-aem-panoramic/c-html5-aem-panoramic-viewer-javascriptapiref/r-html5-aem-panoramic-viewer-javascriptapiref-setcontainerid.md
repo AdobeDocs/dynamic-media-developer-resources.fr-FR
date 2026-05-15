@@ -6,9 +6,15 @@ feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API
 role: Developer,User
 exl-id: b0145fb0-2b0d-40ce-ac18-029f54bc4050
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+autotag-review: '2026-05-13T22:10:33.187Z'
+TQID: 'https://experienceleague.adobe.com/4Ndg-s-4Re6hMADDbkBDvKWdGFH8bzHGGooU-rNCraU'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+source-git-commit: e76d4c499daf8c8a7a0be31e56d84f917c643095
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: 88
 ht-degree: 3%
 
 ---
@@ -29,7 +35,7 @@ Cette méthode est facultative si les informations de configuration de la vision
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> containerId </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {string} </span> ID du conteneur. </p> </td> 
+   <td colname="col2"> <p> <span class="codeph"> {string} ID </span> conteneur. </p> </td> 
   </tr> 
  </tbody> 
 </table>

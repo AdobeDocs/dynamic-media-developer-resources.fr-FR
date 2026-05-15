@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: 3ad78de9-17a6-40c9-b389-a1f7eed11635
-source-git-commit: cdc85af782ebc492ae2303469a7f4f54b5bc09c8
+TQID: 'https://experienceleague.adobe.com/Z1AZf1odRYmyN5r7KqKsuOHniQ7inwPAWl-kF7ycItU'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: 218
 ht-degree: 1%
 
 ---
@@ -45,7 +53,7 @@ S’il n’est pas spécifié, le bouton de légende n’est pas visible dans l�
    <td colname="col2"> <p>Image à afficher sur la première image avant que la vidéo ne commence à être lue. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/r-html5-mixedmedia-viewer-config-attrib/r-html5-mixedmedia-viewer-config-attrib-videoplayer-posterimage.md#reference-f424ad0f278b4d14b86ea55e3a73c52b" format="dita" scope="local">’</a> VideoPlayer.posterimage. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de légende </span> </p> </td> 
+   <td colname="col1"> <p> </span> de légende <span class="codeph"> </p> </td> 
    <td colname="col2"> <p> Emplacement du nouveau fichier de sous-titres. </p> <p>S’il n’est pas spécifié, le bouton de légende n’est pas visible dans l’interface utilisateur. Les légendes spécifiées avec ce paramètre s’appliquent à la vidéo qui apparaît en premier dans la visionneuse de médias. Les vidéos suivantes s’affichent sans sous-titres. </p> </td> 
   </tr> 
  </tbody> 

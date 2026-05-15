@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 2ed2db55-824c-40b6-8747-6b9b8792f5db
-source-git-commit: 97fbf820590b53de5a1e6ce904e44d6b0ef9a214
+TQID: 'https://experienceleague.adobe.com/J8-NqGxmRQWQhCdUOaKK4uDU4iU7b02nBPz-Fsbyk-g'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '2640'
+source-wordcount: 2687
 ht-degree: 0%
 
 ---
@@ -29,20 +37,20 @@ L’aspect du bouton de partage intégré est contrôlé par le sélecteur de cl
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Largeur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
    <td colname="col2"> <p>Largeur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de hauteur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de hauteur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan </span> </p> </td> 
-   <td colname="col2"> <p> Image affichée pour un état donné du bouton. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> le </span> image d’arrière-plan </p> </td> 
+   <td colname="col2"> <p> Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> position de l’arrière-plan </span> </p> </td> 
-   <td colname="col2"> <p> Position à l’intérieur du sprite de l’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites </a>CSS. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> la position de l’arrière-plan </span> </p> </td> 
+   <td colname="col2"> <p> Positionnez à l’intérieur d’un sprite d’illustration si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> des </a> Sprites CSS. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,7 +84,7 @@ background-image:url(images/v2/EmbedShare_dark_disabled.png);
 }
 ```
 
-Le recouvrement d’arrière-plan qui recouvre la page Web lorsque la boîte de dialogue est active est contrôlé par le sélecteur de classe CSS suivant :
+Le recouvrement d’arrière-plan qui couvre la page web lorsque la boîte de dialogue est active est contrôlé par le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7backoverlay
@@ -87,7 +95,7 @@ Le recouvrement d’arrière-plan qui recouvre la page Web lorsque la boîte de 
 <table id="table_DB4183CE8061425084D495A355A941F8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d’opacité </span> </p> </td> 
+   <td colname="col1"> <p> </span> d’opacité <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Opacité de la superposition en arrière-plan. </p> </td> 
   </tr> 
   <tr> 
@@ -117,19 +125,19 @@ Par défaut, la boîte de dialogue modale s’affiche centrée sur l’écran su
 <table id="table_E31711ADF4C7446182549244362199A3"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de rayon de bordure </span> </p> </td> 
+   <td colname="col1"> <p> </span> de rayon de bordure <span class="codeph"> </p> </td> 
    <td colname="col2"> <p> Rayon de la bordure de la boîte de dialogue, au cas où la boîte de dialogue ne prendrait pas le navigateur entier. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> couleur d’arrière-plan </span> </p> </td> 
-   <td colname="col2"> <p>Couleur d’arrière-plan de la boîte de dialogue. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> des </span> de couleur d’arrière-plan </p> </td> 
+   <td colname="col2"> <p>Couleur d'arrière-plan de la boîte de dialogue. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Largeur </span> </p> </td> 
-   <td colname="col2"> <p>Doit être décevante ou définie sur 100 %, auquel cas la boîte de dialogue occupe toute la fenêtre du navigateur (ce mode est préférable sur les appareils tactiles). </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
+   <td colname="col2"> <p>Doit être désactivé ou défini sur 100 %, auquel cas la boîte de dialogue occupe toute la fenêtre du navigateur (ce mode est préférable sur les appareils tactiles). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> hauteur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de hauteur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Doit être désactivé ou défini sur 100 %, auquel cas la boîte de dialogue occupe toute la fenêtre du navigateur (ce mode est préférable sur les appareils tactiles). </p> </td> 
   </tr> 
  </tbody> 
@@ -145,7 +153,7 @@ background-color: #ffffff;
 }
 ```
 
-L’en-tête de boîte de dialogue se compose d’une icône, d’un texte de titre et d’un bouton Fermer. Le conteneur d’en-tête est contrôlé par
+L’en-tête de boîte de dialogue se compose d’une icône, d’un texte de titre et d’un bouton Fermer. Le conteneur d’en-tête est contrôlé avec .
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7dialogheader
@@ -156,30 +164,30 @@ L’en-tête de boîte de dialogue se compose d’une icône, d’un texte de ti
 <table id="table_E407E844C9BD4B5DA8B5BBDE0554F9CA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rembourrage </span> </p> </td> 
-   <td colname="col2"> <p> Marge intérieure du contenu d’en-tête. </p> </td> 
+   <td colname="col1"> <p> </span> de marge intérieure <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p> Marge intérieure pour le contenu de l’en-tête. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-L’icône et le texte du titre sont placés dans un conteneur supplémentaire contrôlé par
+L’icône et le texte du titre sont enveloppés dans un conteneur supplémentaire contrôlé par .
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7dialogheader .s7dialogline
 ```
 
-**Propriétés CSS de la boîte de dialogue**
+**Propriétés CSS de la ligne de boîte de dialogue**
 
 <table id="table_5B03CF843F0D4B1295A3FC1EB50C56F1"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rembourrage </span> </p> </td> 
-   <td colname="col2"> <p> Marge intérieure de l’icône d’en-tête et du titre </p> </td> 
+   <td colname="col1"> <p> </span> de marge intérieure <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p> Marge intérieure de l’icône et du titre de l’en-tête </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-L’icône d’en-tête est contrôlée par le sélecteur de classe CSS suivant :
+L’icône d’en-tête est contrôlée avec le sélecteur de classe CSS suivant
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7dialogheadericon
@@ -190,25 +198,25 @@ L’icône d’en-tête est contrôlée par le sélecteur de classe CSS suivant 
 <table id="table_DD4B0413721B49CE8E21B4A55BDE8F7D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Largeur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
    <td colname="col2"> <p>Largeur de l’icône. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> hauteur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de hauteur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Hauteur de l’icône. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> le </span> image d’arrière-plan </p> </td> 
    <td colname="col2"> <p>Image de l’icône. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> position de l’arrière-plan </span> </p> </td> 
-   <td colname="col2"> <p> Position à l’intérieur du sprite de l’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites </a>CSS. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> la position de l’arrière-plan </span> </p> </td> 
+   <td colname="col2"> <p> Positionnez à l’intérieur d’un sprite d’illustration si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> des </a> Sprites CSS. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Le titre de l’en-tête est contrôlé par le sélecteur de classe CSS suivant :
+Le titre de l’en-tête est contrôlé avec le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7dialogheadertext
@@ -219,25 +227,25 @@ Le titre de l’en-tête est contrôlé par le sélecteur de classe CSS suivant 
 <table id="table_207B4B13153E425EAB38FC61F382A05F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d’épaisseur de police </span> </p> </td> 
+   <td colname="col1"> <p> </span> d’épaisseur de police <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Épaisseur de la police. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de taille de police </span> </p> </td> 
+   <td colname="col1"> <p> </span> de taille de police <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Hauteur de la police. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> famille de police </span> </p> </td> 
+   <td colname="col1"> <p> </span> <span class="codeph"> famille de polices </p> </td> 
    <td colname="col2"> <p>Famille de polices. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rembourrage </span> </p> </td> 
-   <td colname="col2"> <p>Remplissage de texte interne. </p> </td> 
+   <td colname="col1"> <p> </span> de marge intérieure <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p>Marge intérieure de texte interne. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Le bouton Fermer est contrôlé par le sélecteur de classe CSS suivant :
+Le bouton Fermer est contrôlé avec le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7closebutton
@@ -248,27 +256,27 @@ Propriétés **CSS de l’** du bouton Fermer
 <table id="table_FAECBC489FC442588E50E3DA0AC16DD7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Retour au début </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> Position verticale du bouton par rapport au conteneur d’en-tête. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Droite </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> droit </span> </p> </td> 
    <td colname="col2"> <p> Position horizontale du bouton par rapport au conteneur d’en-tête. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Largeur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
    <td colname="col2"> <p>Largeur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de hauteur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de hauteur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de marge intérieure </span> </p> </td> 
+   <td colname="col1"> <p> </span> de marge intérieure <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Marge intérieure du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> le </span> image d’arrière-plan </p> </td> 
    <td colname="col2"> <p>Image du bouton pour chaque état. </p> </td> 
   </tr> 
   <tr> 
@@ -335,55 +343,55 @@ Le pied de boîte de dialogue se compose du bouton « Annuler ». Le conteneur d
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> frontière </span> </p> </td> 
-   <td colname="col2"> <p> Bordure que vous pouvez utiliser pour séparer visuellement le pied de page du reste de la boîte de dialogue. </p> </td> 
+   <td colname="col1"> <p> </span> de bordure <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p> Bordure permettant de séparer visuellement le pied de page du reste de la boîte de dialogue. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Le pied de page a un conteneur intérieur qui conserve le bouton. Elle est contrôlée par le sélecteur de classe CSS suivant :
+Le pied de page comporte un conteneur interne qui conserve le bouton. Il est contrôlé avec le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7dialogbuttoncontainer
 ```
 
-**Propriétés CSS du conteneur de boutons de la boîte de dialogue**
+**Propriétés CSS du conteneur de boutons de boîte de dialogue**
 
 <table id="table_C34906888A8145C7A61E503DFC6B08A9"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rembourrage </span> </p> </td> 
+   <td colname="col1"> <p> </span> de marge intérieure <span class="codeph"> </p> </td> 
    <td colname="col2"> <p> Marge intérieure entre le pied de page et le bouton. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Le bouton Sélectionner tout est contrôlé par le sélecteur de classe CSS suivant :
+Le bouton Tout sélectionner est contrôlé avec le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7dialogactionbutton
 ```
 
-Ce bouton n’est disponible que sur les systèmes de bureau.
+Ce bouton n&#39;est disponible que sur les ordinateurs de bureau.
 
-**Propriétés CSS du bouton Sélectionner tout**
+**Propriétés CSS du bouton Tout sélectionner**
 
 <table id="table_021D0467632F49FEBFDF4CF96D2D67C7"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Largeur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
    <td colname="col2"> <p>Largeur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> hauteur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de hauteur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Couleur </span> </p> </td> 
-   <td colname="col2"> <p> Couleur du texte du bouton pour chaque état. </p> </td> 
+   <td colname="col1"> <p> </span> de couleur <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p> Couleur du texte des boutons pour chaque état. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> couleur d’arrière-plan </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> des </span> de couleur d’arrière-plan </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan des boutons pour chaque état. </p> </td> 
   </tr> 
  </tbody> 
@@ -391,9 +399,9 @@ Ce bouton n’est disponible que sur les systèmes de bureau.
 
 >[!NOTE]
 >
->Le bouton Sélectionner tout prend en charge le sélecteur d’attributs `state` , qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Le bouton Tout sélectionner prend en charge le sélecteur d&#39;attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
-Le bouton Annuler est contrôlé par le sélecteur de classe CSS suivant :
+Le bouton Annuler est contrôlé avec le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7dialogcancelbutton
@@ -404,19 +412,19 @@ Le bouton Annuler est contrôlé par le sélecteur de classe CSS suivant :
 <table id="table_3DFA90B012F345A3A2A123D6856BE08A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Largeur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
    <td colname="col2"> <p>Largeur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> hauteur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de hauteur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Couleur </span> </p> </td> 
-   <td colname="col2"> <p> Couleur du texte du bouton pour chaque état. </p> </td> 
+   <td colname="col1"> <p> </span> de couleur <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p> Couleur du texte des boutons pour chaque état. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> couleur d’arrière-plan </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> des </span> de couleur d’arrière-plan </p> </td> 
    <td colname="col2"> <p> Couleur d’arrière-plan des boutons pour chaque état. </p> </td> 
   </tr> 
  </tbody> 
@@ -437,27 +445,27 @@ En outre, les deux boutons partagent une classe CSS commune qui peut contenir de
 <table id="table_E735E5EDFC1E4F8A962CEA533A88DD4E"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> d’épaisseur de police </span> </p> </td> 
+   <td colname="col1"> <p> </span> d’épaisseur de police <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Épaisseur de police du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> taille de police </span> </p> </td> 
-   <td colname="col2"> <p>Taille de police des boutons. </p> </td> 
+   <td colname="col1"> <p> </span> de taille de police <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p>Taille de police du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> famille de police </span> </p> </td> 
+   <td colname="col1"> <p> </span> <span class="codeph"> famille de polices </p> </td> 
    <td colname="col2"> <p>Famille de polices des boutons. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de hauteur de ligne </span> </p> </td> 
-   <td colname="col2"> <p> Hauteur de texte dans le bouton. Affecte l’alignement vertical. </p> </td> 
+   <td colname="col1"> <p> </span> de hauteur de ligne <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p> Hauteur du texte dans le bouton. Affecte l’alignement vertical. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ombre-boîte </span> </p> </td> 
+   <td colname="col1"> <p> </span> d'ombre <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Ombre portée. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge droite </span> </p> </td> 
+   <td colname="col1"> <p> </span> <span class="codeph"> de la marge droite </p> </td> 
    <td colname="col2"> <p>Marge du bouton droit. </p> </td> 
   </tr> 
  </tbody> 
@@ -525,18 +533,18 @@ Exemple - Pour configurer un pied de boîte de dialogue avec un bouton Annuler d
 }
 ```
 
-La zone de dialogue principale, entre l’en-tête et le pied de page, contient du contenu de boîte de dialogue défilable et un panneau de défilement à droite. Dans tous les cas, le composant gère la largeur de cette zone. Il n’est pas possible de la définir dans CSS. La zone de dialogue principale est contrôlée par le sélecteur de classe CSS suivant :
+La zone de dialogue principale, entre l’en-tête et le pied de page, contient du contenu de boîte de dialogue défilable et un panneau de défilement à droite. Dans tous les cas, le composant gère la largeur de cette zone. Il n’est pas possible de la définir dans CSS. La zone de dialogue principale est contrôlée avec le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7dialogviewarea
 ```
 
-**Propriétés CSS de la zone d’affichage de la boîte de dialogue &#x200B;**
+**Propriétés CSS de la zone d’affichage de la boîte de dialogue**
 
 <table id="table_3FF4691D848A4C4D8EF060B7E79DEEDE"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de hauteur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de hauteur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p> Hauteur de la zone de la boîte de dialogue principale. Elle ne doit être spécifiée que lorsque la boîte de dialogue fonctionne en mode bureau. Elle ne s’applique pas lorsque la boîte de dialogue est dimensionnée pour occuper toute la fenêtre du navigateur. </p> </td> 
   </tr> 
   <tr> 
@@ -544,13 +552,13 @@ La zone de dialogue principale, entre l’en-tête et le pied de page, contient 
    <td colname="col2"> <p>Couleur d’arrière-plan de la zone de la boîte de dialogue principale. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de la marge </span> </p> </td> 
+   <td colname="col1"> <p> </span> de la marge <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Marge extérieure. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple - Pour définir une zone de boîte de dialogue principale de 300 pixels de hauteur, avoir une marge de dix pixels et utiliser un fond blanc :
+Exemple - Pour configurer une zone de boîte de dialogue principale pour qu’elle ait une hauteur de 300 pixels, ayez une marge de dix pixels et utilisez un arrière-plan blanc :
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7dialogviewarea { 
@@ -566,20 +574,20 @@ Tout le contenu du formulaire (comme les libellés et les champs de saisie) rés
 .s7ecatalogviewer .s7embeddialog .s7dialogbody
 ```
 
-Si la hauteur de ce conteneur semble supérieure à la zone de boîte de dialogue principale, un défilement vertical est activé automatiquement par le composant.
+Si la hauteur de ce conteneur semble supérieure à celle de la zone de boîte de dialogue principale, un défilement vertical est automatiquement activé par le composant.
 
-**Propriétés CSS du corps de la boîte de dialogue &#x200B;**
+Propriétés **CSS du corps de la boîte de dialogue**
 
 <table id="table_5D77F3D5B8CD4B798AA85F722B277F56"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rembourrage </span> </p> </td> 
-   <td colname="col2"> <p>Rembourrage intérieur. </p> </td> 
+   <td colname="col1"> <p> </span> de marge intérieure <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p>Marge intérieure. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple – Pour configurer le contenu d’un formulaire avec un remplissage de dix pixels :
+Exemple - Pour configurer le contenu d’un formulaire avec une marge intérieure de dix pixels :
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7dialogbody { 
@@ -593,34 +601,34 @@ Tous les libellés statiques du formulaire de boîte de dialogue sont contrôlé
 .s7ecatalogviewer .s7embeddialog .s7dialoglabel
 ```
 
-Cette classe n’est pas adaptée au contrôle de la taille ou de la position de l’étiquette car vous pouvez l’appliquer à des textes situés à différents endroits de l’interface utilisateur du formulaire.
+Cette classe ne convient pas pour contrôler la taille ou la position des libellés, car vous pouvez l’appliquer à des textes à différents endroits de l’interface utilisateur du formulaire.
 
 **Propriétés CSS du libellé de la boîte de dialogue. &#x200B;**
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> épaisseur de police </span> </p> </td> 
-   <td colname="col2"> <p>Épaisseur de police de l’étiquette. </p> </td> 
+   <td colname="col1"> <p> </span> d’épaisseur de police <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p>Épaisseur de police des libellés. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> taille de police </span> </p> </td> 
-   <td colname="col2"> <p>Taille de police de l’étiquette. </p> </td> 
+   <td colname="col1"> <p> </span> de taille de police <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p>Taille de police des libellés. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> famille de police </span> </p> </td> 
-   <td colname="col2"> <p>Famille de polices d’étiquettes. </p> </td> 
+   <td colname="col1"> <p> </span> <span class="codeph"> famille de polices </p> </td> 
+   <td colname="col2"> <p>Famille de polices des libellés. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Couleur </span> </p> </td> 
-   <td colname="col2"> <p>Couleur du texte de l’étiquette. </p> </td> 
+   <td colname="col1"> <p> </span> de couleur <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p>Couleur du texte du libellé. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Les libellés des boîtes de dialogue peuvent être localisés. Pour plus d’informations, voir [Localisation des éléments](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) de l’interface utilisateur.
+Les libellés des boîtes de dialogue peuvent être localisés. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 
-Exemple - Pour définir toutes les étiquettes de manière à ce qu’elles soient grises, en gras avec une police de neuf pixels :
+Exemple - Pour configurer tous les libellés sur gris, en gras avec une police de neuf pixels :
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7dialoglabel { 
@@ -630,28 +638,28 @@ Exemple - Pour définir toutes les étiquettes de manière à ce qu’elles soie
 }
 ```
 
-La taille de la copie de texte affichée au-dessus du code intégré est contrôlée par le sélecteur de classe CSS suivant :
+La taille de la copie de texte affichée au-dessus du code incorporé est contrôlée avec le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7dialoginputwide
 ```
 
-**Propriétés CSS du champ largeur d’entrée de la boîte de dialogue**
+**Propriétés CSS du champ de saisie de la boîte de dialogue**
 
 <table id="table_7275B4365DFA4C0386FA2BDB7204A517"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Largeur </span> </p> </td> 
-   <td colname="col2"> <p>Largeur du champ d’entrée. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
+   <td colname="col2"> <p>Largeur du champ de saisie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rembourrage </span> </p> </td> 
-   <td colname="col2"> <p>Rembourrage intérieur. </p> </td> 
+   <td colname="col1"> <p> </span> de marge intérieure <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p>Marge intérieure. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple - Pour définir une copie de texte de 430 pixels de large et un remplissage de dix pixels dans la partie inférieure :
+Exemple - Pour définir une copie de texte sur une largeur de 430 pixels et une marge intérieure de dix pixels en bas :
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7dialoginputwide { 
@@ -660,26 +668,26 @@ Exemple - Pour définir une copie de texte de 430 pixels de large et un rempliss
 }
 ```
 
-Le code incorporé est encapsulé dans un conteneur et contrôlé par le sélecteur de classe CSS suivant :
+Le code incorporé est encapsulé dans un conteneur et contrôlé avec le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7dialoginputcontainer
 ```
 
-**Propriétés CSS du conteneur d’entrée de la boîte de dialogue**
+**Propriétés CSS du conteneur d’entrée de boîte de dialogue**
 
 <table id="table_7BC1C5919A54483F8121D928DC63233A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Largeur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
    <td colname="col2"> <p>Largeur du conteneur de code incorporé. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de bordure </span> </p> </td> 
+   <td colname="col1"> <p> </span> de bordure <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Bordure autour du conteneur de code incorporé. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de marge intérieure </span> </p> </td> 
+   <td colname="col1"> <p> </span> de marge intérieure <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Marge intérieure. </p> </td> 
   </tr> 
  </tbody> 
@@ -695,19 +703,19 @@ Exemple - Pour définir une bordure grise d’un pixel autour du texte du code i
 }
 ```
 
-Le texte du code intégré est contrôlé par le sélecteur de classe CSS suivant :
+Le texte du code incorporé est contrôlé par le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7dialoginputcontainer
 ```
 
-**Propriétés CSS du conteneur d’entrée de la boîte de dialogue**
+**Propriétés CSS du conteneur d’entrée de boîte de dialogue**
 
 <table id="table_FEEF66150C69489BB42A2408EBFCE928"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> retour à la ligne automatique </span> </p> </td> 
-   <td colname="col2"> <p>Style de renvoi à la ligne du mot. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> un </span> de retour à la ligne </p> </td> 
+   <td colname="col2"> <p>Style d'habillage Word. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -726,18 +734,18 @@ Le libellé et la liste déroulante Taille d’incorporation sont positionnés a
 .s7ecatalogviewer .s7embeddialog .s7dialogembedsizepanel
 ```
 
-**Propriétés CSS du panneau Taille intégrée de la boîte de dialogue**
+**Propriétés CSS du panneau Taille d’incorporation de la boîte de dialogue**
 
 <table id="table_6BA2769361BA4EC4AB7D250EC9486CB2"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rembourrage </span> </p> </td> 
-   <td colname="col2"> <p>Rembourrage intérieur. </p> </td> 
+   <td colname="col1"> <p> </span> de marge intérieure <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p>Marge intérieure. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple – Pour configurer un panneau de taille incorporée de manière à ce qu’il ait dix pixels de remplissage :
+Exemple - Pour configurer un panneau de taille incorporée avec une marge intérieure de dix pixels :
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7dialogembedsizepanel { 
@@ -745,7 +753,7 @@ Exemple – Pour configurer un panneau de taille incorporée de manière à ce q
 }
 ```
 
-La taille et l’alignement du libellé de taille incorporée sont contrôlés par le sélecteur de classe CSS suivant :
+La taille et l’alignement de l’étiquette de taille d’incorporation sont contrôlés avec le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7dialogembedsizepanel
@@ -757,16 +765,16 @@ La taille et l’alignement du libellé de taille incorporée sont contrôlés p
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> un </span> d’alignement vertical </p> </td> 
-   <td colname="col2"> <p>Alignement vertical des étiquettes. </p> </td> 
+   <td colname="col2"> <p>Alignement vertical des libellés. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Largeur </span> </p> </td> 
-   <td colname="col2"> <p>Largeur de l’étiquette. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
+   <td colname="col2"> <p>Largeur du libellé. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : pour définir l’étiquette de taille intégrée de manière à ce qu’elle soit alignée en haut et large de 80 pixels :
+Exemple - pour définir le libellé de la taille d’incorporation sur aligné en haut et sur une largeur de 80 pixels :
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7dialogembedsizelabel { 
@@ -775,28 +783,28 @@ Exemple : pour définir l’étiquette de taille intégrée de manière à ce qu
 }
 ```
 
-La largeur de la zone de liste déroulante Taille intégrée est contrôlée par le sélecteur de classe CSS suivant :
+La largeur de la zone de liste déroulante de taille d’incorporation est contrôlée avec le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7combobox
 ```
 
-**Propriétés CSS de la zone de liste déroulante**
+**Propriétés CSS de la zone de liste modifiable**
 
 <table id="table_C0FEA0C7353F40039204641BB3F1AE14"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Largeur </span> </p> </td> 
-   <td colname="col2"> <p>Largeur de zone de liste modifiable. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
+   <td colname="col2"> <p>Largeur de la zone de liste déroulante. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->La zone de liste déroulante prend en charge le `expanded` sélecteur d’attributs avec les valeurs possibles de `true` et `false`. La valeur est utilisée lorsque la `true` zone de liste déroulante affiche l’une des tailles d’intégration prédéfinies et doit donc prendre toute la largeur disponible. La `false` valeur est utilisée lorsque l’option de taille personnalisée est sélectionnée dans la zone de liste déroulante, de sorte qu’elle doit diminuer pour laisser de l’espace pour les champs de saisie de largeur et de hauteur personnalisés.
+>La zone de liste modifiable prend en charge le sélecteur d’attributs `expanded` avec les valeurs possibles de `true` et `false`. La valeur `true` est utilisée lorsque la zone de liste modifiable affiche l’une des tailles d’incorporation prédéfinies ; elle doit donc prendre toute la largeur disponible. La valeur `false` est utilisée lorsque l’option Taille personnalisée est sélectionnée dans la zone de liste. Elle doit donc rétrécir pour laisser de l’espace aux champs de saisie de largeur et de hauteur personnalisés.
 
-Exemple - Pour définir la zone de liste déroulante de taille intégrée de manière à 300 pixels de large lors de l’affichage d’un élément prédéfini et à 110 pixels lors de l’affichage d’une taille personnalisée :
+Exemple - Pour définir la zone de liste déroulante Taille d’incorporation sur une largeur de 300 pixels lors de l’affichage d’un élément prédéfini et sur une largeur de 110 pixels lors de l’affichage d’une taille personnalisée :
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7combobox[expanded="true"] { 
@@ -807,7 +815,7 @@ Exemple - Pour définir la zone de liste déroulante de taille intégrée de man
 }
 ```
 
-La hauteur du texte de la zone de liste déroulante est définie par un élément interne spécial et est contrôlée par le sélecteur de classe CSS suivant :
+La hauteur du texte de la zone de liste modifiable est définie par un élément interne spécial et est contrôlée par le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7combobox .s7comboboxtext
@@ -818,13 +826,13 @@ La hauteur du texte de la zone de liste déroulante est définie par un élémen
 <table id="table_AB60032BF337433F8455DE20AFBA29AB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> hauteur </span> </p> </td> 
-   <td colname="col2"> <p>Hauteur du texte de la zone de liste modifiable. </p> </td> 
+   <td colname="col1"> <p> </span> de hauteur <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p>Hauteur du texte de la zone de liste déroulante. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple - Pour définir la hauteur du texte de la zone de liste déroulante de taille intégrée sur 40 pixels :
+Exemple - Pour définir la hauteur du texte de la zone de liste déroulante Taille d’incorporation sur 40 pixels :
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7combobox .s7comboboxtext { 
@@ -832,48 +840,48 @@ Exemple - Pour définir la hauteur du texte de la zone de liste déroulante de t
 }
 ```
 
-La boîte de liste déroulante a un bouton « liste déroulante » sur la droite et elle est contrôlée avec le sélecteur de classe CSS suivant :
+La zone de liste modifiable comporte un bouton « déroulant » à droite et elle est contrôlée avec le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7combobox .s7comboboxbutton
 ```
 
-**Propriétés CSS du bouton Zone de liste déroulante**
+**Propriétés CSS du bouton de zone de liste modifiable**
 
 <table id="table_70E127FA21264366AD5DBBD7DF40EBAA"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Retour au début </span> </p> </td> 
-   <td colname="col2"> <p>Position verticale du bouton dans la liste déroulante. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col2"> <p>Position verticale du bouton dans la zone de liste déroulante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Droite </span> </p> </td> 
-   <td colname="col2"> <p>Position horizontale du bouton à l’intérieur de la liste déroulante. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> droit </span> </p> </td> 
+   <td colname="col2"> <p>Position horizontale du bouton dans la zone de liste déroulante. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Largeur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
    <td colname="col2"> <p>Largeur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> hauteur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de hauteur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan </span> </p> </td> 
-   <td colname="col2"> <p>Image de bouton pour chaque état. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> le </span> image d’arrière-plan </p> </td> 
+   <td colname="col2"> <p>Image du bouton pour chaque état. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> position de l’arrière-plan </span> </p> </td> 
-   <td colname="col2"> <p> Position à l’intérieur du sprite de l’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites </a>CSS. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> la position de l’arrière-plan </span> </p> </td> 
+   <td colname="col2"> <p> Positionnez à l’intérieur d’un sprite d’illustration si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> des </a> Sprites CSS. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ce bouton prend en charge le sélecteur d’attributs `state` , qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge le sélecteur d&#39;attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
-Exemple : pour définir un bouton déroulant sur 28 x 28 pixels et avoir une image distincte pour chaque état :
+Exemple : pour définir un bouton déroulant sur 28 x 28 pixels et disposer d’une image distincte pour chaque état :
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7combobox .s7comboboxbutton { 
@@ -894,26 +902,26 @@ Exemple : pour définir un bouton déroulant sur 28 x 28 pixels et avoir une ima
 }
 ```
 
-Le panneau avec la liste des tailles intégrées affichées lorsque la zone de liste déroulante est ouverte est contrôlé par le sélecteur de classe CSS suivant :
+Le panneau avec la liste des tailles d’incorporation affichée lorsque la zone de liste est ouverte est contrôlé par le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7comboboxdropdown
 ```
 
-La taille et la position du panneau sont contrôlées par le composant. Il n’est pas possible de le modifier via CSS.
+La taille et la position du panneau sont contrôlées par le composant . Il n’est pas possible de le modifier via CSS.
 
-**Propriétés CSS de la liste déroulante de liste déroulante**
+**Propriétés CSS de la liste déroulante de zone de liste déroulante**
 
 <table id="table_FA7345321C6A4E63B4B78ECF81CE18DB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> frontière </span> </p> </td> 
+   <td colname="col1"> <p> </span> de bordure <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Bordure du panneau. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple - Pour définir le panneau de liste déroulante de sorte qu’il ait une bordure grise d’un pixel :
+Exemple - Pour définir le panneau de la zone de liste modifiable sur une bordure grise d’un pixel :
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7comboboxdropdown { 
@@ -921,18 +929,18 @@ Exemple - Pour définir le panneau de liste déroulante de sorte qu’il ait une
 }
 ```
 
-Un seul élément dans un menu déroulant contrôlé par le sélecteur de classe CSS suivant :
+Un seul élément dans un panneau déroulant contrôlé par le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7dropdownitemanchor
 ```
 
-**Propriétés CSS de l’ancre d’élément de liste déroulante**
+**Propriétés CSS de l’ancre d’élément de la liste déroulante**
 
 <table id="table_FD42FDD56F89463A97FD292FAA04DA5A"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> couleur d’arrière-plan </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> des </span> de couleur d’arrière-plan </p> </td> 
    <td colname="col2"> <p>Arrière-plan de l’élément. </p> </td> 
   </tr> 
  </tbody> 
@@ -961,16 +969,16 @@ Une coche affichée à gauche de l’élément sélectionné dans le panneau de 
    <td colname="col2"> <p>Largeur de l’icône. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> hauteur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de hauteur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Hauteur de l’icône. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> le </span> image d’arrière-plan </p> </td> 
    <td colname="col2"> <p>Image de l’élément. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> position de l’arrière-plan </span> </p> </td> 
-   <td colname="col2"> <p> Position à l’intérieur du sprite de l’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites </a>CSS. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> la position de l’arrière-plan </span> </p> </td> 
+   <td colname="col2"> <p> Positionnez à l’intérieur d’un sprite d’illustration si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> des </a> Sprites CSS. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -985,7 +993,7 @@ Exemple - Pour définir l’icône de coche sur 25 x 25 pixels :
 }
 ```
 
-Lorsque l’option « Taille personnalisée » est sélectionnée dans la zone de liste taille d’incorporation, la boîte de dialogue affiche deux champs de saisie supplémentaires à droite pour permettre à l’utilisateur de saisir une taille d’incorporation personnalisée. Ces champs sont encapsulés dans un conteneur contrôlé par le sélecteur de classe CSS suivant :
+Lorsque l’option « Taille personnalisée » est sélectionnée dans la zone de liste taille d’incorporation, la boîte de dialogue affiche deux champs de saisie supplémentaires à droite pour permettre à l’utilisateur de saisir une taille d’incorporation personnalisée. Ces champs sont placés dans un conteneur contrôlé par le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7dialogcustomsizepanel
@@ -996,13 +1004,13 @@ Lorsque l’option « Taille personnalisée » est sélectionnée dans la zone d
 <table id="table_B00829EA550F4E5E8F51B1C6ADACCD34"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Gauche </span> </p> </td> 
-   <td colname="col2"> <p> Distance par rapport à la zone de liste déroulante Taille incorporée. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> gauche </span> </p> </td> 
+   <td colname="col2"> <p> Distance par rapport à la zone de liste de taille incorporée. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple - Pour définir la taille personnalisée du panneau des champs d’entrée de 20 pixels à droite de la zone de liste déroulante :
+Exemple - Pour définir la taille personnalisée du panneau Champs de saisie sur 20 pixels à droite de la zone de liste modifiable :
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7dialogcustomsizepanel { 
@@ -1010,36 +1018,36 @@ Exemple - Pour définir la taille personnalisée du panneau des champs d’entr�
 }
 ```
 
-Chaque champ d’entrée de taille personnalisée est enveloppé dans un conteneur qui effectue le rendu d’une bordure et définit la marge entre les champs. Elle est contrôlée par le sélecteur de classe CSS suivant :
+Chaque champ d’entrée de taille personnalisée est encapsulé dans un conteneur qui effectue le rendu d’une bordure et définit la marge entre les champs. Il est contrôlé avec le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7dialogcustomsize
 ```
 
-**Propriétés CSS de la boîte de dialogue taille personnalisée**
+**Propriétés CSS de la taille personnalisée de la boîte de dialogue**
 
 <table id="table_A8A04BE1988641618D0A412B8AEEE1C5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> frontière </span> </p> </td> 
+   <td colname="col1"> <p> </span> de bordure <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Bordure autour du champ de saisie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Largeur </span> </p> </td> 
-   <td colname="col2"> <p> Largeur du champ d’entrée. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
+   <td colname="col2"> <p> Largeur du champ de saisie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge </span> </p> </td> 
-   <td colname="col2"> <p> Marge du champ d’entrée. </p> </td> 
+   <td colname="col1"> <p> </span> de la marge <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p> Marge du champ de saisie. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rembourrage </span> </p> </td> 
-   <td colname="col2"> <p> Remplissage du champ de saisie. </p> </td> 
+   <td colname="col1"> <p> </span> de marge intérieure <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p> Marge intérieure du champ de saisie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple - Pour définir la taille personnalisée des champs de saisie de manière à ce qu’ils comportent une bordure grise d’un pixel, une marge, une marge intérieure et une largeur de 70 pixels :
+Exemple - Pour définir les champs de saisie de taille personnalisée sur une bordure grise d’un pixel, une marge, un remplissage et une largeur de 70 pixels :
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7dialogcustomsize { 
@@ -1051,7 +1059,7 @@ Exemple - Pour définir la taille personnalisée des champs de saisie de manièr
 }
 ```
 
-Si un défilement vertical est nécessaire, la barre de défilement est rendue dans le panneau situé près du bord droit de la boîte de dialogue, qui est contrôlée par le sélecteur de classe CSS suivant :
+Si un défilement vertical est nécessaire, la barre de défilement est rendue dans le panneau près du bord droit de la boîte de dialogue, qui est contrôlée avec le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7dialogscrollpanel
@@ -1062,13 +1070,13 @@ Si un défilement vertical est nécessaire, la barre de défilement est rendue d
 <table id="table_BA37E577E0884C919383F84080E2DD28"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Largeur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
    <td colname="col2"> <p>Largeur du panneau de défilement. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple - Pour configurer un panneau de défilement de 44 pixels de large :
+Exemple - Pour configurer un panneau de défilement sur une largeur de 44 pixels :
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7dialogscrollpanel { 
@@ -1087,25 +1095,25 @@ L’aspect de la zone de la barre de défilement est contrôlé par le sélecteu
 <table id="table_066492417FCA43929017993D7326CDB8"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Largeur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
    <td colname="col2"> <p>Largeur de la barre de défilement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Retour au début </span> </p> </td> 
-   <td colname="col2"> <p> La barre de défilement verticale est décalée par rapport au haut du panneau de défilement. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col2"> <p> Décalage de la barre de défilement verticale par rapport au haut du panneau de défilement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> fond </span> </p> </td> 
+   <td colname="col1"> <p> </span> inférieur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p> La barre de défilement verticale est décalée par rapport au bas du panneau de défilement. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Droite </span> </p> </td> 
-   <td colname="col2"> <p> La barre de défilement horizontale est décalée par rapport au bord droit du panneau de défilement. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> droit </span> </p> </td> 
+   <td colname="col2"> <p> Décalage de la barre de défilement horizontale par rapport au bord droit du panneau de défilement. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple - Pour configurer une barre de défilement de 28 pixels de large et avec une marge de huit pixels à partir du haut, de la droite et du bas du panneau de défilement :
+Exemple - Pour configurer une barre de défilement de 28 pixels de large avec une marge de huit pixels en haut, à droite et en bas du panneau de défilement :
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7scrollbar { 
@@ -1116,28 +1124,28 @@ Exemple - Pour configurer une barre de défilement de 28 pixels de large et avec
 }
 ```
 
-La piste de la barre de défilement correspond à la zone située entre les boutons de défilement supérieur et inférieur. Le composant définit automatiquement la position et la hauteur de la piste. La piste est contrôlée par le sélecteur de classe CSS suivant :
+La piste de la barre de défilement est la zone située entre les boutons de défilement supérieur et inférieur. Le composant définit automatiquement la position et la hauteur de la piste. La piste est contrôlée avec le sélecteur de classe CSS suivant
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7scrollbar .s7scrolltrack
 ```
 
-**Propriétés CSS de la piste de la barre de défilement**
+**Propriétés CSS de la barre de défilement**
 
 <table id="table_19CF5503C1D34ED9998D4F4A6DA7D5D5"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Largeur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
    <td colname="col2"> <p>Largeur de la piste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> couleur d’arrière-plan </span> </p> </td> 
-   <td colname="col2"> <p> Couleur d’arrière-plan du suivi. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> des </span> de couleur d’arrière-plan </p> </td> 
+   <td colname="col2"> <p> Suivre la couleur d’arrière-plan. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple - Pour configurer une piste de barre de défilement de 28 pixels de large avec un arrière-plan gris :
+Exemple - Pour configurer une piste de barre de défilement de 28 pixels de large sur un arrière-plan gris :
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7scrollbar .s7scrolltrack { 
@@ -1146,7 +1154,7 @@ background-color: #B2B2B2;
 }
 ```
 
-Le pouce de la barre de défilement se déplace verticalement dans une zone de piste de défilement. Sa position verticale est entièrement contrôlée par la logique du composant. Toutefois, la hauteur de miniature ne change pas dynamiquement en fonction de la quantité de contenu. La hauteur du pouce et d’autres aspects peuvent être configurés avec le sélecteur de classe CSS suivant :
+Le curseur de la barre de défilement se déplace verticalement dans une zone de piste de défilement. Sa position verticale est entièrement contrôlée par la logique du composant. Cependant, la hauteur du pouce ne change pas dynamiquement en fonction de la quantité de contenu. La hauteur du pouce et d’autres aspects peuvent être configurés avec le sélecteur de classe CSS suivant :
 
 ```
 .s7ecatalogviewer .s7embeddialog .s7scrollbar .s7scrollthumb
@@ -1161,31 +1169,31 @@ Le pouce de la barre de défilement se déplace verticalement dans une zone de p
    <td colname="col2"> <p>Largeur du pouce. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de hauteur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de hauteur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Hauteur du pouce. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de remplissage supérieur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de remplissage supérieur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Marge intérieure verticale entre le haut de la piste. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de marge intérieure </span> </p> </td> 
+   <td colname="col1"> <p> </span> de marge intérieure <span class="codeph"> </p> </td> 
    <td colname="col2"> <p> Marge intérieure verticale entre le bas de la piste. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> le </span> image d’arrière-plan </p> </td> 
-   <td colname="col2"> <p> Image affichée pour un état numérique donné. </p> </td> 
+   <td colname="col2"> <p> Image affichée pour un état de pouce donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> position de l’arrière-plan </span> </p> </td> 
-   <td colname="col2"> <p> Position à l’intérieur du sprite de l’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites </a>CSS. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> la position de l’arrière-plan </span> </p> </td> 
+   <td colname="col2"> <p> Positionnez à l’intérieur d’un sprite d’illustration si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> des </a> Sprites CSS. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->La miniature prend en charge le sélecteur d’attributs`state`, qui peut être utilisé pour appliquer différents habillages à différents états du pouce : `up`, , `down` `over`et `disabled`.
+>Thumb prend en charge le sélecteur d&#39;attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de pouce : `up`, `down`, `over` et `disabled`.
 
 Exemple - Pour configurer une barre de défilement de 28 x 45 pixels avec une marge de dix pixels en haut et en bas et des illustrations différentes pour chaque état :
 
@@ -1220,36 +1228,36 @@ L’aspect des boutons de défilement supérieur et inférieur est contrôlé av
 .s7ecatalogviewer .s7embeddialog .s7scrollbar .s7scrolldownbutton
 ```
 
-Il n’est pas possible de positionner des boutons de défilement à l’aide des propriétés CSS `top`, `left`, `bottom` et `right`. Au lieu de cela, la logique de la visionneuse les positionne automatiquement.
+Il n’est pas possible de positionner des boutons de défilement à l’aide des propriétés CSS `top`, `left`, `bottom` et `right`. À la place, la logique de la visionneuse les positionne automatiquement.
 
 **Propriétés CSS des boutons de défilement supérieur et inférieur**
 
 <table id="table_554BFCFEAF4F43A9AE5F741DC126F833"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Largeur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
    <td colname="col2"> <p>Largeur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> hauteur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de hauteur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> le </span> image d’arrière-plan </p> </td> 
    <td colname="col2"> <p> Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> position de l’arrière-plan </span> </p> </td> 
-   <td colname="col2"> <p> Position à l’intérieur du sprite de l’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites </a>CSS. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> la position de l’arrière-plan </span> </p> </td> 
+   <td colname="col2"> <p> Positionnez à l’intérieur d’un sprite d’illustration si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-customizingviewer/c-html5-20-ecatalog-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> des </a> Sprites CSS. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ces boutons prennent en charge le sélecteur d’attributs`state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton : `up`, , `down` `over`et `disabled`.
+>Ces boutons prennent en charge le sélecteur d’attributs de `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton : `up`, `down`, `over` et `disabled`.
 
-Les info-bulles des boutons peuvent être localisées. Pour plus d’informations, voir [Localisation des éléments](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) de l’interface utilisateur.
+Les info-bulles des boutons peuvent être localisées. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 
 Exemple - Pour configurer des boutons de défilement de 28 x 32 pixels avec des illustrations différentes pour chaque état :
 

@@ -1,20 +1,28 @@
 ---
-description: Permet de renommer un dossier.
+description: Renomme un dossier.
 solution: Experience Manager
-title: renommer le dossier
+title: renameFolder
 feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: 2d4f1059-8018-4efb-a1ec-8eb560b1a58f
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/8joB9mgnIpAn2IuXk97bztqa-IbskzuDcWUoMtJ5Sjk'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: 75
 ht-degree: 20%
 
 ---
 
-# renommer le dossier{#renamefolder}
+# renameFolder{#renamefolder}
 
-Permet de renommer un dossier.
+Renomme un dossier.
 
 Syntaxe
 
@@ -29,29 +37,29 @@ Syntaxe
 
 >[!NOTE]
 >
->L’utilisateur doit disposer d’un accès en lecture et en écriture à l’actif.
+>L’utilisateur doit disposer d’un accès en lecture et écriture à la ressource.
 
 ## Paramètres {#section-6fcee63dc3f74a5b90e1d71e59eb255c}
 
-**Entrée (renameFolderParam)**
+**Input (renameFolderParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| CompanyHandle | `xsd:string` | Oui | Gérez le nom de l’entreprise avec les dossiers que vous souhaitez renommer. |
-| poignée de dossier | `xsd:string` | Oui | Poignée dans le dossier. |
-| Nom de dossier | `xsd:string` | Oui | Nouveau nom du dossier. |
+| companyHandle | `xsd:string` | Oui | Gérer vers la société avec les dossiers à renommer. |
+| folderHandle | `xsd:string` | Oui | Gérer vers le dossier . |
+| folderName | `xsd:string` | Oui | Nom du nouveau dossier. |
 
 **Output (renameFolderReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| poignée de dossier | `xsd:string` | Oui | Poignée dans le dossier renommé. |
+| folderHandle | `xsd:string` | Oui | Gérer vers le dossier renommé. |
 
 ## Exemples {#section-98bdd2f88d164f488676e90aba1dc864}
 
 Cet exemple de code renomme un dossier.
 
-**Demander**
+**Requête**
 
 ```java
 <ns1:renameFolderParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

@@ -1,19 +1,27 @@
 ---
-title: SmartCropVideoPlayer.mutevolume
+title: SmartCropVideoPlayer.mutevolution
 description: Attribut de configuration de la visionneuse de vidéos avec recadrage intelligent.
 solution: Experience Manager, Experience Manager Assets
 feature-set: Experience Manager, Experience Manager Assets
 feature: Dynamic Media Classic,Viewers,SDK/API,Smart Crop,Video
 role: Developer,User
 exl-id: 821b9edb-c91f-4ae3-a4ff-9c6c65769d6a
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/Km4jqmfEQyd6kvGfK3mgwwLrIqKDMKdX-yh-ITgzK90'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 5%
+source-wordcount: 60
+ht-degree: 8%
 
 ---
 
-# SmartCropVideoPlayer.mutevolume{#smartcropvideoplayer-mutevolume}
+# SmartCropVideoPlayer.mutevolution{#smartcropvideoplayer-mutevolume}
 
 Attribut de configuration de la visionneuse de vidéos avec recadrage intelligent.
 

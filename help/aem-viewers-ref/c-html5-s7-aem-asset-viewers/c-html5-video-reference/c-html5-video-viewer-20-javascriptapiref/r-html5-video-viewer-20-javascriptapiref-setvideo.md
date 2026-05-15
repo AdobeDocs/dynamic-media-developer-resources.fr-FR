@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: c89099f6-09f7-4d81-939e-90ffa2764c8c
-source-git-commit: baf8015dc93cfa6be0a841243a7e3524f06f1639
+TQID: 'https://experienceleague.adobe.com/WORlnQXgJ5mDij0ZpNKfpETqHcbKkgLI0N4bJN-T4cw'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: 125
 ht-degree: 1%
 
 ---
@@ -31,12 +39,12 @@ Voir aussi [init](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/
    <td colname="col2"> <p>{ <span class="codeph"> String </span>} URL absolue de la nouvelle vidéo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de données </span> </p> </td> 
+   <td colname="col1"> <p> </span> de données <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>{ <span class="codeph"> JSON </span>} Objet JSON avec les champs facultatifs suivants (sensibles à la casse) : </p> <p> 
      <ul id="ul_26121393BC7145FF8A43C05ACCBEFF36"> 
       <li id="li_DA50E073F3D4460CBC34243A2CBCC895"> <span class="codeph"> posterimage </span> - Image à afficher sur la première image avant que la vidéo ne commence à être lue. Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-cmdref/r-html5-video-viewer-conf-attrib-videoplayer-posterimage.md#reference-9739abeeb9f64c02b5d2f7a0d1706103" format="dita" scope="local">’</a> VideoPlayer.posterimage. </li> 
-      <li id="li_4659E82D38EB4438AAA04FDEAF21B087"> <span class="codeph"> de sous-titres </span> - Emplacement du nouveau fichier de sous-titres. Si aucun fichier de sous-titres n’est spécifié, le bouton de sous-titres n’est pas affiché dans l’interface utilisateur. </li> 
-      <li id="li_A43A1BAB6B0F4A7981F71408F08F07D1"> <span class="codeph"> de navigation </span> - URL ou chemin d’accès au contenu de navigation WebVTT. Le fichier WebVTT doit être diffusé par le service d’images. </li> 
+      <li id="li_4659E82D38EB4438AAA04FDEAF21B087"> </span> de sous-titres <span class="codeph"> - Emplacement du nouveau fichier de sous-titres. Si aucun fichier de sous-titres n’est spécifié, le bouton de sous-titres n’est pas affiché dans l’interface utilisateur. </li> 
+      <li id="li_A43A1BAB6B0F4A7981F71408F08F07D1"> </span> de navigation <span class="codeph"> - URL ou chemin d’accès au contenu de navigation WebVTT. Le fichier WebVTT doit être diffusé par le service d’images. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

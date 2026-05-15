@@ -5,10 +5,18 @@ title: Traduction de l’ID d’objet
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7a3bd6a1-2ad4-4da2-944c-489b7d18fdc1
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/jeFY6jJ5HJ4mPK6ng93G9PZ6ENSlk7Wtj8S-GTdMJbM'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 2%
+source-wordcount: 715
+ht-degree: 5%
 
 ---
 
@@ -58,7 +66,7 @@ Si une carte de traduction ne spécifie pas de règle de traduction par défaut,
 
 Il est souvent souhaitable de regrouper les paramètres régionaux (par exemple, européens, moyen-orientaux, nord-américains) pour répondre aux normes régionales. Cela peut être réalisé à l’aide d’une recherche à plusieurs niveaux.
 
-Pour cet exemple, nous voulons prendre en charge les collections destinées à une utilisation en Occident et au Moyen-Orient. Les deux collections reposent sur la collection d’images génériques, et ajoutent ou modifient toutes deux certaines images. Les deux collections sont ensuite affinées pour des paramètres régionaux spécifiques ( `m1`, `m2` pour deux variantes du Moyen-Orient et `w1`, `w2` et `w3` pour trois paramètres régionaux occidentaux), mais les images sont partagées pour `w1` et `w3`. Les paramètres régionaux inconnus sont mappés uniquement à la collection générique et n’ont pas accès aux images spécifiques aux paramètres régionaux.
+Pour cet exemple, nous voulons prendre en charge les collections destinées à une utilisation en Occident et au Moyen-Orient. Les deux collections reposent sur la collection d’images génériques, et ajoutent ou modifient toutes deux certaines images. Les deux collections sont ensuite affinées pour des paramètres régionaux spécifiques ( `m1`, `m2` pour deux variantes du Moyen-Orient et `w1`, `w2` et `w3` pour trois paramètres régionaux occidentaux), mais les images sont partagées pour `w1` et `w3`. Les paramètres régionaux inconnus sont mappés uniquement à la collection générique et n’ont pas accès aux images spécifiques à un paramètre régional.
 
 `attribute::LocaleMap: w1,-W,|w2,-W2,-W,|w3,-W,|m1,-M1,-M,|m2,-M2,-M,|,`
 

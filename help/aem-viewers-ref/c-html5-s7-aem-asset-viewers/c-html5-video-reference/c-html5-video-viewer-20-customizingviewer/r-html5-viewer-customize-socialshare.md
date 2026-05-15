@@ -1,20 +1,28 @@
 ---
-title: Social partager
-description: L’outil Partage sur les réseaux sociaux s’affiche par défaut dans le coin supérieur droit. Il se compose d’un bouton et d’un panneau qui se développe lorsque l’utilisateur clique ou appuie sur un bouton et contient des outils de partage individuels.
+title: Partage social
+description: Par défaut, l’outil Partage sur les réseaux sociaux s’affiche dans le coin supérieur droit. Il se compose d’un bouton et d’un panneau qui se développe lorsque l’utilisateur clique ou appuie sur un bouton et contient des outils de partage individuels.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 82b482f9-b117-4529-a422-cdb0eead0031
-source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
+TQID: 'https://experienceleague.adobe.com/BwKxqhXctuML2ShAHRlai3Wm-1LxT7uKk-GEOy12nbk'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: 321
 ht-degree: 0%
 
 ---
 
-# Social partager{#social-share}
+# Partage social{#social-share}
 
-L’outil Partage sur les réseaux sociaux s’affiche par défaut dans le coin supérieur droit. Il se compose d’un bouton et d’un panneau qui se développe lorsque l’utilisateur clique ou appuie sur un bouton et contient des outils de partage individuels.
+Par défaut, l’outil Partage sur les réseaux sociaux s’affiche dans le coin supérieur droit. Il se compose d’un bouton et d’un panneau qui se développe lorsque l’utilisateur clique ou appuie sur un bouton et contient des outils de partage individuels.
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
@@ -29,25 +37,25 @@ La position et la taille de l’outil de partage sur les réseaux sociaux dans l
 <table id="table_C48C56E696304C9BAFEE71BA9EA9A174"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Retour au début </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
    <td colname="col2"> <p> Position verticale de l’outil de partage sur les réseaux sociaux par rapport au conteneur de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Gauche </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> gauche </span> </p> </td> 
    <td colname="col2"> <p> Position horizontale de l’outil de partage sur les réseaux sociaux par rapport au conteneur de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Largeur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
    <td colname="col2"> <p> Largeur de l’outil de partage sur les réseaux sociaux. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> hauteur </span> </p> </td> 
-   <td colname="col2"> <p>Hauteur de l’outil de partage social. </p> </td> 
+   <td colname="col1"> <p> </span> de hauteur <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p>Hauteur de l’outil de partage sur les réseaux sociaux. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : configurez un outil de partage social positionné à quatre pixels du haut et à cinq pixels de la droite du conteneur de la visionneuse et dont la taille est de 28 x 28 pixels.
+Exemple - configurez un outil de partage sur les réseaux sociaux qui se situe à quatre pixels du haut et à cinq pixels de la droite du conteneur de la visionneuse et est dimensionné de manière à avoir une taille de 28 x 28 pixels.
 
 ```
 .s7videoviewer .s7socialshare { 
@@ -58,7 +66,7 @@ Exemple : configurez un outil de partage social positionné à quatre pixels du 
 }
 ```
 
-L’aspect du bouton de l’outil Partage sur les réseaux sociaux est contrôlé par le sélecteur de classe CSS suivant :
+L’aspect du bouton de l’outil de partage sur les réseaux sociaux est contrôlé par le sélecteur de classe CSS suivant :
 
 ```
 .s7videoviewer .s7socialshare .s7socialbutton
@@ -69,23 +77,23 @@ L’aspect du bouton de l’outil Partage sur les réseaux sociaux est contrôl�
 <table id="table_A18B6978EC304C378F5FE92DD44D138D"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan </span> </p> </td> 
-   <td colname="col2"> <p> Image affichée pour un état donné du bouton. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> le </span> image d’arrière-plan </p> </td> 
+   <td colname="col2"> <p> Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> position de l’arrière-plan </span> </p> </td> 
-   <td colname="col2"> <p> Position à l’intérieur du sprite de l’illustration, si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> Sprites </a>CSS. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> la position de l’arrière-plan </span> </p> </td> 
+   <td colname="col2"> <p> Positionnez à l’intérieur d’un sprite d’illustration si des sprites CSS sont utilisés. </p> <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/c-html5-video-viewer-20-customizingviewer/c-html5-video-viewer-20-customizingviewer.md#section-9b6d8d601cb441d08214dada7bb4eddc" format="dita" scope="local"> des </a> Sprites CSS. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ce bouton prend en charge le sélecteur d’attributs `state` , qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge le sélecteur d&#39;attributs `state`, qui peut être utilisé pour appliquer différents habillages à différents états de bouton.
 
-L’info-bulle du bouton peut être localisée. Pour plus d’informations, voir [Localisation des éléments](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) de l’interface utilisateur.
+L’info-bulle du bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) pour plus d’informations.
 
-Exemple - configurez un bouton d’outil de partage social qui affiche une image différente pour chacun des quatre états de bouton différents.
+Exemple - Configurez un bouton d’outil de partage sur les réseaux sociaux qui affiche une image différente pour chacun des quatre états de bouton différents.
 
 ```
 .s7videoviewer .s7socialshare .s7socialbutton[state='up'] { 
@@ -102,24 +110,24 @@ background-image:url(images/v2/SocialShare_dark_disabled.png);
 }
 ```
 
-L’apparence du panneau qui contient les différentes icônes de partage sur les réseaux sociaux est contrôlée par le sélecteur de classe CSS suivant :
+L’aspect du panneau qui contient les icônes de partage sur les réseaux sociaux est contrôlé par le sélecteur de classe CSS suivant :
 
 ```
 .s7videoviewer .s7socialshare .s7socialsharepanel
 ```
 
-**Propriétés CSS du panneau Partage social**
+**Propriétés CSS du panneau Partage sur les réseaux sociaux**
 
 <table id="table_86E777A5851F47D6A49D966E24A9A6CD"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> couleur d’arrière-plan </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> des </span> de couleur d’arrière-plan </p> </td> 
    <td colname="col2"> <p>Couleur d’arrière-plan du panneau. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple - configuration d’un panneau pour avoir une couleur transparente :
+Exemple - Configurez un panneau pour qu’il ait une couleur transparente :
 
 ```
 .s7videoviewer .s7socialshare .s7socialsharepanel { 

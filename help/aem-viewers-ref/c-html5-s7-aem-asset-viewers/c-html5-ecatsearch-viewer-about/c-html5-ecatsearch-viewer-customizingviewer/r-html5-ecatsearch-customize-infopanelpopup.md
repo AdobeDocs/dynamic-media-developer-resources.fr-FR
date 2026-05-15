@@ -1,22 +1,30 @@
 ---
-title: Fenêtre contextuelle du panneau d’informations
-description: La fenêtre contextuelle du panneau d’informations s’affiche au milieu de la zone de visionneuse lorsqu’un utilisateur active une zone cliquable dont la propriété rollover_key est définie dans Dynamic Media Classic et si la fonctionnalité de panneau d’informations est correctement configurée pour la visionneuse.
+title: Fenêtre contextuelle du panneau Informations
+description: La fenêtre contextuelle du panneau Informations s’affiche au milieu de la zone de la visionneuse lorsqu’un utilisateur active une zone cliquable dont la propriété rollover_key est définie dans Dynamic Media Classic et si la fonction du panneau Informations est correctement configurée pour la visionneuse.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog Search
 role: Developer,User
 exl-id: 907b7bd5-3f87-4918-ad62-8a28249ea023
-source-git-commit: ec2a15e2e76bae5da4fbabc9b6912b12dc080f66
+TQID: 'https://experienceleague.adobe.com/OQlkxHUznAXEsYXJS6XQZSJdJ1nu-PO-Db4v6MN0GJs'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: 474
 ht-degree: 0%
 
 ---
 
-# Fenêtre contextuelle du panneau d’informations{#info-panel-popup}
+# Fenêtre contextuelle du panneau Informations{#info-panel-popup}
 
-La fenêtre contextuelle du panneau d’informations s’affiche au milieu de la zone de visionneuse lorsqu’un utilisateur active une zone cliquable dont la propriété rollover_key est définie dans Dynamic Media Classic et si la fonctionnalité de panneau d’informations est correctement configurée pour la visionneuse.
+La fenêtre contextuelle du panneau Informations s’affiche au milieu de la zone de la visionneuse lorsqu’un utilisateur active une zone cliquable dont la propriété rollover_key est définie dans Dynamic Media Classic et si la fonction du panneau Informations est correctement configurée pour la visionneuse.
 
-L’arrière-plan du panneau d’informations couvre toute la zone de la visionneuse et est contrôlé par le sélecteur de classe CSS suivant :
+L’arrière-plan du panneau Informations couvre toute la zone de la visionneuse et est contrôlé avec le sélecteur de classe CSS suivant :
 
 `.s7ecatalogsearchviewer .s7infopanelpopup .s7backoverlay`
 
@@ -29,12 +37,12 @@ L’arrière-plan du panneau d’informations couvre toute la zone de la visionn
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan </span> </p> </td> 
-   <td colname="col2"> <p>Remplissage de l’arrière-plan du panneau d’informations. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> le </span> image d’arrière-plan </p> </td> 
+   <td colname="col2"> <p>Remplissage de l’arrière-plan du panneau Informations. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> position de l’arrière-plan </span> </p> </td> 
-   <td colname="col2"> <p> Position à l’intérieur du sprite de l’illustration, si des sprites CSS sont utilisés.</p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites </a>CSS. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> la position de l’arrière-plan </span> </p> </td> 
+   <td colname="col2"> <p> Positionnez à l’intérieur d’un sprite d’illustration si des sprites CSS sont utilisés.</p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> des </a> Sprites CSS. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,7 +55,7 @@ Exemple - Configurez la fenêtre contextuelle du panneau d’informations pour u
 }
 ```
 
-La boîte de dialogue du panneau d’informations s’affiche par défaut au milieu de la zone de visualisation. Cependant, il est possible de contrôler sa taille, son alignement, son arrière-plan et sa bordure avec le sélecteur de classe CSS.
+La boîte de dialogue du panneau d’informations s’affiche par défaut au milieu de la zone de la visionneuse. Cependant, il est possible de contrôler sa taille, son alignement, son arrière-plan et sa bordure avec le sélecteur de classe CSS.
 
 `.s7ecatalogsearchviewer .s7infopanelpopup .s7overlay`
 
@@ -60,49 +68,49 @@ La boîte de dialogue du panneau d’informations s’affiche par défaut au mil
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Gauche </span> </p> </td> 
-   <td colname="col2"> <p>Position horizontale de la boîte de dialogue du panneau d’informations dans l’arrière-plan du panneau de la visionneuse. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> gauche </span> </p> </td> 
+   <td colname="col2"> <p>Position horizontale de la boîte de dialogue du panneau d’informations dans le remplissage du panneau de la zone de visionneuse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Retour au début </span> </p> </td> 
-   <td colname="col2"> <p>Position verticale de la boîte de dialogue du panneau d’informations dans la zone de visionneuse. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col2"> <p>Position verticale de la boîte de dialogue du panneau Informations dans la zone de la visionneuse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Largeur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
    <td colname="col2"> <p>Largeur de la boîte de dialogue. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> hauteur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de hauteur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Hauteur de la boîte de dialogue. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge gauche </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> la marge de gauche </span> </p> </td> 
    <td colname="col2"> <p>La marge gauche de la boîte de dialogue du panneau d’informations peut être utilisée à des fins de centrage. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> marge haut </span> </p> </td> 
+   <td colname="col1"> <p> </span> de la marge supérieure <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>La marge supérieure de la boîte de dialogue du panneau d’informations peut être utilisée à des fins de centrage. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rembourrage </span> </p> </td> 
-   <td colname="col2"> <p>Remplissage de la boîte de dialogue interne. </p> </td> 
+   <td colname="col1"> <p> </span> de marge intérieure <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p>Marge intérieure de la boîte de dialogue interne. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> couleur d’arrière-plan </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> des </span> de couleur d’arrière-plan </p> </td> 
    <td colname="col2"> <p>Couleur d’arrière-plan de la boîte de dialogue. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> rayon de bordure </span> </p> </td> 
-   <td colname="col2"> <p>Rayon de bordure de la boîte de dialogue. </p> </td> 
+   <td colname="col1"> <p> </span> de rayon de bordure <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p>Rayon de la bordure de la boîte de dialogue. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> ombre-boîte </span> </p> </td> 
-   <td colname="col2"> <p>Ombre de dialogue. </p> </td> 
+   <td colname="col1"> <p> </span> d'ombre <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p>Ombre de la boîte de dialogue. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Exemple : configurez une boîte de dialogue de panneau d’informations de 300 x 200 pixels centrée sur la zone de la visionneuse ; A un remplissage de 40 pixels en haut et un remplissage de 10 pixels sur tous les autres côtés, un arrière-plan gris clair et un rayon de bordure et une ombre portée de 10 pixels.
+Exemple - Configurez une boîte de dialogue de panneau d’informations de 300 x 200 pixels centrée sur la zone de la visionneuse ; avec une marge intérieure de 40 pixels en haut et une marge intérieure de 10 pixels sur tous les autres côtés, un arrière-plan gris clair, un rayon de bordure de 10 pixels et une ombre portée.
 
 ```
 .s7ecatalogsearchviewer .s7infopanelpopup .s7overlay { 
@@ -122,7 +130,7 @@ box-shadow: 0 0 5px rgba(0,0,0,0.25);
 }
 ```
 
-La boîte de dialogue Panneau d’informations a un bouton Fermer, et cliquez ou appuyez sur le bouton ferme la boîte de dialogue.
+La boîte de dialogue Panneau d’informations comporte un bouton Fermer et le fait de cliquer ou d’appuyer sur le bouton ferme la boîte de dialogue.
 
 L’aspect de ce bouton est contrôlé par le sélecteur de classe CSS suivant :
 
@@ -137,47 +145,47 @@ L’aspect de ce bouton est contrôlé par le sélecteur de classe CSS suivant :
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Retour au début </span> </p> </td> 
-   <td colname="col2"> <p>Position à partir de la bordure supérieure de la boîte de dialogue. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> top </span> </p> </td> 
+   <td colname="col2"> <p>Position depuis la bordure supérieure de la boîte de dialogue. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Droite </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> droit </span> </p> </td> 
    <td colname="col2"> <p>Position à partir du bord droit de la boîte de dialogue. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Gauche </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> gauche </span> </p> </td> 
    <td colname="col2"> <p>Position à partir du bord gauche de la boîte de dialogue. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> fond </span> </p> </td> 
+   <td colname="col1"> <p> </span> inférieur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Position à partir de la bordure inférieure de la boîte de dialogue. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Largeur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
    <td colname="col2"> <p>Largeur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> hauteur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de hauteur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> image d’arrière-plan </span> </p> </td> 
-   <td colname="col2"> <p>Image affichée pour un état donné du bouton. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> le </span> image d’arrière-plan </p> </td> 
+   <td colname="col2"> <p>Image affichée pour un état de bouton donné. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> position de l’arrière-plan </span> </p> </td> 
-   <td colname="col2"> <p> Position à l’intérieur du sprite de l’illustration, si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> Sprites </a>CSS. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> la position de l’arrière-plan </span> </p> </td> 
+   <td colname="col2"> <p> Positionnez à l’intérieur d’un sprite d’illustration si des sprites CSS sont utilisés. </p> <p>Voir aussi <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-customizingviewer/c-html5-ecatsearch-viewer-customizingviewer.md#section-9d570f95eb2443aca74c1b02f6e89aff" format="dita" scope="local"> des </a> Sprites CSS. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Ce bouton prend en charge le sélecteur d’attributs `state` , que vous pouvez utiliser pour appliquer différents habillages à différents états de bouton.
+>Ce bouton prend en charge le sélecteur d&#39;attributs `state`, que vous pouvez utiliser pour appliquer différents habillages à différents états de bouton.
 
-L’info-bulle du bouton peut être localisée. Pour plus d’informations, voir [Localisation des éléments](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) de l’interface utilisateur.
+L’info-bulle du bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) pour plus d’informations.
 
-Exemple - pour configurer un bouton de fermeture de boîte de dialogue de 28 x 28 pixels, positionné à 5 pixels du bord supérieur et droit de la boîte de dialogue du panneau d’informations, et affiche une image différente pour chacun des quatre états de bouton différents.
+Exemple : pour configurer un bouton de fermeture de boîte de dialogue de 28 x 28 pixels, positionné à 5 pixels du bord supérieur et droit de la boîte de dialogue du panneau d’informations, et qui affiche une image différente pour chacun des quatre états de bouton différents.
 
 ```
 .s7ecatalogsearchviewer .s7infopanelpopup .s7closebutton { 

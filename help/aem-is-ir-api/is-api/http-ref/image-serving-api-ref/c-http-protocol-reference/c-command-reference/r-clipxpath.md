@@ -1,41 +1,49 @@
 ---
 title: clipXPath
-description: Inversion du chemin Clip calque. Spécifie un chemin d’exclusion pour le calque actuel. Toutes les parties du calque qui se trouvent dans la zone définie par clipXPath= sont rendues transparentes.
+description: Chemin d’accès inversé du clip de calque. Spécifie un chemin d’élément d’exclusion pour le calque actif. Toute partie du calque se trouvant dans la zone définie par clipXPath= est rendue transparente.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 7d7e92f5-856f-4d62-a5d3-4726d7b43792
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+TQID: 'https://experienceleague.adobe.com/G8pumLDbSj2TX80gqSTw-Bu4HxlRn92gyFpETIImBWw'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: 116
 ht-degree: 3%
 
 ---
 
 # clipXPath{#clipxpath}
 
-Inversion du chemin Clip calque. Spécifie un chemin d’exclusion pour le calque actuel. Toutes les parties du calque qui se trouvent dans la zone définie par clipXPath= sont rendues transparentes.
+Chemin d’accès inversé du clip de calque. Spécifie un chemin d’élément d’exclusion pour le calque actif. Toute partie du calque se trouvant dans la zone définie par clipXPath= est rendue transparente.
 
-`clipXPath= *`Définition du chemin`*`
+`clipXPath= *`pathDefinition`*`
 
-`clipXPathE= *`Nom du chemin`*&#42;[, *`Nom du chemin`*]`
+`clipXPathE= *`pathName`*&#42;[, *`pathName`*]`
 
 <table id="simpletable_27AFC3A694874CF8B673460820EFD90D"> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> Définition du</span> chemin </span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> pathDefinition </span> </span> </p> </td> 
   <td class="stentry"> <p>Données de chemin. </p></td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p><span class="codeph"><span class="varname"> Chemin</span> </span> </p> </td> 
+  <td class="stentry"> <p><span class="codeph"> <span class="varname"> pathName </span> </span> </p> </td> 
   <td class="stentry"> <p>Nom du chemin incorporé dans l’image source du calque (ASCII uniquement). </p></td> 
  </tr> 
 </table>
 
-Voir [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) pour plus d’informations, y compris une description de pathName`*` et `*`pathDefinition`*` `*`.
+Voir [clipPath=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-clippath.md#reference-8139b1b52dc54749b51b109521ddf83d) pour plus d’informations, notamment une description de `*`pathName`*` et `*`pathDefinition`*`.
 
 ## Propriétés {#section-acf7272ba93a4bbba818b8e6aa4dcea5}
 
-Attribut de calque. S’applique au calque actif ou à l’image composite si `layer=comp`. Ignoré si `clipPath=` n’est pas spécifié. Ignoré par les calques d’effets.
+Attribut de calque. S’applique au calque actif ou à l’image composite, le cas `layer=comp`. Ignoré si `clipPath=` n’est pas spécifié. Ignoré par les calques d’effet.
 
 ## Par défaut {#section-d1986aa31af14767aeb1b4a57add67f4}
 

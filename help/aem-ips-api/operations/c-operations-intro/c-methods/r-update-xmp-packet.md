@@ -1,18 +1,28 @@
 ---
 description: Définit ou met à jour un paquet de métadonnées XMP pour une ressource.
 solution: Experience Manager
-title: Mettre à jour XMPPacket
+title: updateXMPPacket
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 04d85dba-cc86-4069-ab5d-9a5b3fe542c9
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/Jx-cYNkufeqFxvnBryzh7kVJbvtt5yzXy8H0Von4pmM'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '68'
+source-wordcount: 68
 ht-degree: 23%
 
 ---
 
-# Mettre à jour XMPPacket{#updatexmppacket}
+# updateXMPPacket{#updatexmppacket}
 
 Définit ou met à jour un paquet de métadonnées XMP pour une ressource.
 
@@ -30,13 +40,13 @@ Syntaxe
 
 ## Paramètres {#section-7a89621d441840faba639746b410a489}
 
-**Entrée (updateXMPPacketParam)**
+**Input (updateXMPPacketParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| CompanyHandle | `xsd:string` | Oui | Pseudo de l’entreprise. |
-| AssetHandle | `xsd:string` | Oui | Gestion des ressources. |
-| Paquet compressé | `xsd:Base 64 binary` | Oui | [!DNL zlib-compressed] XMP paquet que vous souhaitez définir ou mettre à jour. |
+| companyHandle | `xsd:string` | Oui | Identifiant de la société. |
+| assetHandle | `xsd:string` | Oui | Identifiant de ressource. |
+| packageCompressé | `xsd:Base 64 binary` | Oui | [!DNL zlib-compressed] paquet XMP à définir ou mettre à jour. |
 
 **Output (updateXMPPacketReturn)**
 
@@ -46,7 +56,7 @@ Syntaxe
 
 ## Exemples {#section-38b556b94e5044bf97a954519ff6c212}
 
-**Demander**
+**Requête**
 
 ```java
 <ns:updateXMPPacketParam>

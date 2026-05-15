@@ -1,22 +1,30 @@
 ---
-title: Présentation des commandes du protocole HTTP Image Rendering
-description: Les commandes prises en charge par Image Rendering sont regroupées par catégorie ci-dessous.
+title: Présentation de la commande de protocole HTTP de rendu d’image
+description: Les commandes prises en charge par le rendu d’image sont répertoriées ci-dessous, regroupées par catégorie.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 082fc1b6-f571-4613-b03a-318f0c80e924
-source-git-commit: 790ce3aa4e9aadc019d17e663fc93d7c69772b23
+TQID: 'https://experienceleague.adobe.com/MTeO9YqoFlAtN9JLhRa37-mSANkBi6ugS5gfchQMW28'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '44'
+source-wordcount: 44
 ht-degree: 0%
 
 ---
 
-# Présentation des commandes du protocole HTTP Image Rendering{#image-rendering-http-protocol-command-overview}
+# Présentation de la commande de protocole HTTP de rendu d’image{#image-rendering-http-protocol-command-overview}
 
-Les commandes prises en charge par Image Rendering sont regroupées par catégorie ci-dessous.
+Les commandes prises en charge par le rendu d’image sont répertoriées ci-dessous, regroupées par catégorie.
 
-* [Attributs d’affichage](r-ir-view-attributes.md)
+* [Afficher les attributs](r-ir-view-attributes.md)
 * [Commandes de sélection](r-ir-selection-commands.md)
-* [Attributs matériels](r-ir-material-attributes.md)
+* [Attributs de matière](r-ir-material-attributes.md)
 * [Commandes diverses](r-ir-miscellaneous-commands.md)

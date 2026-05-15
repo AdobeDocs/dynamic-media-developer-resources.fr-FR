@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 02925e09-f1ab-4afb-a900-d216efd323fe
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+TQID: 'https://experienceleague.adobe.com/BTz86cHc382RcPQ---RcZqenmf5Dm5zKsbtJizSE6-U'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '69'
+source-wordcount: 69
 ht-degree: 4%
 
 ---
@@ -20,7 +28,7 @@ ht-degree: 4%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="codeph">-1|0|<span class="varname"> preloadnbr</span></span> </p> </td> 
-   <td colname="col2"> <p>Spécifie le comportement de préchargement du composant. </p> <p>Lorsqu’il est défini sur <span class="codeph"> -1</span> , le composant précharge tous les cadres de catalogue lorsqu’il est à l’état inactif. </p> <p> Lorsqu’il est défini sur <span class="codeph"> 0</span> , le composant charge uniquement l’image actuellement visible, l’image précédente et l’image suivante. </p> <p>Définissez <span class="codeph"><span class="varname"> preloadnbr</span></span> pour définir combien d’images invisibles autour de l’image actuellement affichée sont préchargées dans un état inactif. </p> </td> 
+   <td colname="col2"> <p>Indique le comportement de préchargement du composant. </p> <p>Lorsque la valeur <span class="codeph"> -1 est définie</span> le composant précharge toutes les images du catalogue lorsqu’il est inactif. </p> <p> Lorsque cette valeur est définie sur <span class="codeph"> 0</span> le composant charge uniquement l’image actuellement visible, l’image précédente et l’image suivante. </p> <p>Définissez <span class="codeph"><span class="varname"> preloadnbr</span></span> pour définir le nombre d’images invisibles autour de l’image actuellement affichée qui sont préchargées en mode inactif. </p> </td> 
   </tr> 
  </tbody> 
 </table>

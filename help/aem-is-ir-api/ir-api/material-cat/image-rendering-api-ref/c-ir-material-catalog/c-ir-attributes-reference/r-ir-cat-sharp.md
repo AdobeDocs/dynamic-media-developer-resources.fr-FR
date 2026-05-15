@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: fe8f7662-bfa1-43bf-ab66-5de5598edcd4
-source-git-commit: 8454991568374ecd1c4babdd3210250ea7988c4c
+TQID: 'https://experienceleague.adobe.com/BUhpguI3knVzevI-ymAt4Xz-faYKbXgHMXW0O9Mf8oo'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: 88
 ht-degree: 10%
 
 ---
@@ -22,7 +30,7 @@ Accentuation par défaut du matériau. Définit le mode d’accentuation de mat�
 
 <table id="simpletable_2D94A380BC2D4FD1A7EDD45E6EAFD1FB"> 
  <tr class="strow"> 
-  <td class="stentry"> <p>01 </p></td> 
+  <td class="stentry"> <p>0 </p></td> 
   <td class="stentry"> <p>Aucun accentuation. </p></td> 
  </tr> 
  <tr class="strow"> 

@@ -1,20 +1,28 @@
 ---
-description: Renvoie des informations sur la société spécifiée, notamment le descripteur de société, le nom de la société, le chemin racine et la date d’expiration. Vous devez spécifier companyHandle ou companyName dont vous souhaitez récupérer les informations.
+description: Renvoie des informations sur la société spécifiée, y compris le nom, le chemin d’accès et la date d’expiration de la société. Vous devez spécifier companyHandle ou companyName dont vous souhaitez récupérer les informations.
 solution: Experience Manager
 title: getCompanyInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 72bd223b-c99a-48a3-9c0a-d1af392d904c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+TQID: 'https://experienceleague.adobe.com/ZYQi2NmYCRoi6KNnnLvtYiTL8RimLs28MJYwP1ndIp8'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: 165
 ht-degree: 7%
 
 ---
 
 # getCompanyInfo{#getcompanyinfo}
 
-Renvoie des informations sur la société spécifiée, notamment le descripteur de société, le nom de la société, le chemin racine et la date d’expiration. Vous devez spécifier companyHandle ou companyName dont vous souhaitez récupérer les informations.
+Renvoie des informations sur la société spécifiée, y compris le nom, le chemin d’accès et la date d’expiration de la société. Vous devez spécifier companyHandle ou companyName dont vous souhaitez récupérer les informations.
 
 Syntaxe
 
@@ -44,16 +52,16 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> CompanyHandle</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd :chaîne</span> </p> </td> 
-   <td colname="col3"> <p>companyHandle <span class="codeph"><span class="varname"> </span> </span> ou <span class="codeph"> <span class="varname"> companyName</span> </span> est requis. </p> </td> 
-   <td colname="col4"> <p>Pseudo de l’entreprise dont vous souhaitez obtenir les informations. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyHandle </span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col3"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> ou <span class="codeph"> <span class="varname"> companyName</span> </span> est requis. </p> </td> 
+   <td colname="col4"> <p>Identifiant de la société dont vous souhaitez obtenir les informations. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> Nom de</span> la société </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> xsd :chaîne</span> </p> </td> 
-   <td colname="col3"> <p>companyHandle <span class="codeph"><span class="varname"> </span> </span> ou <span class="codeph"> <span class="varname"> companyName</span> </span> est requis. </p> </td> 
-   <td colname="col4"> <p>Le nom de l’entreprise dont vous souhaitez obtenir les informations. </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyName </span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> xsd:string</span> </p> </td> 
+   <td colname="col3"> <p><span class="codeph"> <span class="varname"> companyHandle</span> </span> ou <span class="codeph"> <span class="varname"> companyName</span> </span> est requis. </p> </td> 
+   <td colname="col4"> <p>Nom de la société dont vous souhaitez obtenir les informations. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,19 +79,19 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="codeph"><span class="varname"> Infos sur l’entreprise</span> </span> </p> </td> 
-   <td colname="col2"> <p><span class="codeph"> types :Société</span> </p> </td> 
+   <td colname="col1"> <p><span class="codeph"> <span class="varname"> companyInfo</span> </span> </p> </td> 
+   <td colname="col2"> <p><span class="codeph"> types:Company</span> </p> </td> 
    <td colname="col3"> <p>Oui </p> </td> 
-   <td colname="col4"> <p>Poignée et autres informations descriptives sur l’entreprise. </p> </td> 
+   <td colname="col4"> <p>Gérer et autres informations descriptives sur la société. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Exemples {#section-3d5342aa7cb34b1fa84d7dea6e16e4aa}
 
-Cet exemple de code renvoie toutes les informations sur une société à l’aide d’un nom et d’un pseudonyme de société. Elle renvoie des données similaires à la réponse reçue lors de la création d’une société.
+Cet exemple de code renvoie toutes les informations sur une société à l’aide d’un nom et d’une poignée de société. Elle renvoie des données similaires à la réponse reçue lors de la création d’une entreprise.
 
-**Demander**
+**Requête**
 
 ```java
 <ns1:getCompanyInfoParam xmlns:ns1="http://www.scene7.com/IpsApi/xsd">

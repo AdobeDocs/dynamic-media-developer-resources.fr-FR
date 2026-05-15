@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Mixed Media Sets
 role: Developer,User
 exl-id: b7f09f51-409e-4dfa-9041-b82767d4e35f
-source-git-commit: b89ca96947f751b750623e1f18d2a5d86f0cd759
+TQID: 'https://experienceleague.adobe.com/zx961wTmheZ-NzzOhRlMwCi5k56qMNkGBUeJTzR9MkE'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: 208
 ht-degree: 3%
 
 ---
@@ -26,11 +34,11 @@ Créez une instance de visionneuse de médias mixtes.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> config </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {Object} </span> objet de configuration JSON facultatif, permet à tous les paramètres de la visionneuse d’être transmis au constructeur et d’éviter d’appeler des méthodes de définition individuelles. Contient les propriétés suivantes : </p> <p> 
+   <td colname="col2"> <p> <span class="codeph"> {Object} </span> objet de configuration JSON facultatif, permet à tous les paramètres de la visionneuse de passer au constructeur et d’éviter d’appeler des méthodes de définisseur individuelles. Contient les propriétés suivantes : </p> <p> 
      <ul id="ul_266C711E8E75471E90C15F39A96A142F"> 
-      <li id="li_71857BBD652243A094E936C2C8EA9702"> <span class="codeph"> containerId </span> - <span class="codeph"> {String} ID </span> conteneur DOM (normalement un <span class="codeph"> DIV </span>) dans lequel la visionneuse est insérée. Il n’est pas nécessaire que l’élément de conteneur soit créé au moment où cette méthode est appelée. Cependant, le conteneur doit exister lors de <span class="codeph">’exécution de la </span> init(). Obligatoire. </li> 
-      <li id="li_3D28979F04274AC9B507B33D4275FC3A"> <span class="codeph"> params </span> - <span class="codeph"> {Object} </span> objet JSON avec des paramètres de configuration de la visionneuse où le nom de la propriété est une option de configuration spécifique à la visionneuse ou un modificateur SDK et la valeur de cette propriété est une valeur de paramètres correspondante. Obligatoire. </li> 
-      <li id="li_A40AC2167575415FB3383D070E27B9AB"> <span class="codeph"> des gestionnaires </span> - <span class="codeph"> {Object} </span> objet JSON avec des rappels d’événement de visionneuse, où le nom de la propriété est le nom de l’événement de visionneuse pris en charge et la valeur de la propriété est une référence de fonction JavaScript à un rappel approprié. Facultatif. <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-event-callbacks.md#concept-273d2cddbb7144e284b618ffaf3deabc" format="dita" scope="local"> des rappels d’événement </a> pour plus d’informations sur les événements de visionneuse. </p> </li> 
+      <li id="li_71857BBD652243A094E936C2C8EA9702"> <span class="codeph"> containerId </span> - <span class="codeph"> {String} ID </span> conteneur DOM (normalement un </span> DIV <span class="codeph">) dans lequel la visionneuse est insérée. Il n’est pas nécessaire que l’élément de conteneur soit créé au moment où cette méthode est appelée. Cependant, le conteneur doit exister lors de <span class="codeph">’exécution de la </span> init(). Obligatoire. </li> 
+      <li id="li_3D28979F04274AC9B507B33D4275FC3A"> <span class="codeph"> params </span> - <span class="codeph"> objet {Object} </span> objet JSON avec des paramètres de configuration de visionneuse où le nom de la propriété est une option de configuration spécifique à la visionneuse ou un modificateur SDK et la valeur de cette propriété est une valeur de paramètres correspondante. Obligatoire. </li> 
+      <li id="li_A40AC2167575415FB3383D070E27B9AB"> <span class="codeph"> gestionnaires </span> - <span class="codeph"> {Object} </span> objet JSON avec des rappels d’événement de visionneuse, où le nom de la propriété est le nom de l’événement de visionneuse pris en charge et la valeur de la propriété est une référence de fonction JavaScript à un rappel approprié. Facultatif. <p>Voir <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-event-callbacks.md#concept-273d2cddbb7144e284b618ffaf3deabc" format="dita" scope="local"> des rappels d’événement </a> pour plus d’informations sur les événements de visionneuse. </p> </li> 
       <li id="li_C592026403804A4FAE12863944A10EE4"> <p> <span class="codeph"> localizedTexts </span> - { <span class="codeph"> Object </span>} objet JSON avec des données de localisation. Facultatif. </p> <p>Pour plus d’informations, consultez <a href="../../../c-html5-s7-aem-asset-viewers/c-html5-mixedmedia-viewer-about/c-html5-mixedmedia-viewer-localization.md#concept-16262b8096474d6c9c018c3e99110dd1" format="dita" scope="local"> section Localisation des éléments de l’interface utilisateur </a> . </p> <p>Consultez également le <i>Guide d’utilisation de la visionneuse SDK</i> et l’exemple pour plus d’informations sur le contenu de l’objet . </p> </li> 
      </ul> </p> </td> 
   </tr> 

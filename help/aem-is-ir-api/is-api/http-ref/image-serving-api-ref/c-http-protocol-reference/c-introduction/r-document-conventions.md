@@ -5,9 +5,17 @@ title: Conventions de document
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: e93de3fa-dde1-4d79-93aa-9ad800840cfc
-source-git-commit: 206e4643e3926cb85b4be2189743578f88180be7
+TQID: 'https://experienceleague.adobe.com/NuClwLkfN7-tuVMYcn610qL7-bQOQbVz940uTPAxk-g'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: 283
 ht-degree: 0%
 
 ---
@@ -26,7 +34,7 @@ Ce document utilise les conventions suivantes.
   <td class="stentry"> <p>Dans les sections descriptives, le texte non italique entre guillemets simples est littéral. </p> </td> 
  </tr> 
  <tr class="strow"> 
-  <td class="stentry"> <p> <span class="varname"> du paramètre </span> </p> </td> 
+  <td class="stentry"> <p> </span> du paramètre <span class="varname"> </p> </td> 
   <td class="stentry"> <p>L’italique indique une variable ou un paramètre à remplacer par une valeur réelle. </p> </td> 
  </tr> 
  <tr class="strow"> 
@@ -67,7 +75,7 @@ Ce document utilise les conventions suivantes.
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> *[ <span class="varname"> facultatif </span>] </span> </p> </td> 
-  <td class="stentry"> <p>L’élément de syntaxe <span class="varname"> facultatif </span> peut être répété une ou plusieurs fois. </p> </td> 
+  <td class="stentry"> <p>L’élément de syntaxe </span> facultatif <span class="varname"> peut être répété une ou plusieurs fois. </p> </td> 
  </tr> 
  <tr class="strow"> 
   <td class="stentry"> <p> <span class="codeph"> <span class="varname"> item1 </span>| <span class="varname"> item2 </span> </span> </p> </td> 

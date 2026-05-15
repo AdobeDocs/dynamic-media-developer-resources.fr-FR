@@ -1,37 +1,47 @@
 ---
-description: Paramètres de l’opération
+description: Paramètres de l'opération
 solution: Experience Manager
-title: Paramètres de l’opération
+title: Paramètres de l'opération
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 70ea84ce-10ec-4a89-bd0a-ab81b4e88f5c
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+TQID: 'https://experienceleague.adobe.com/60a3N3B3ZWMdGxLgtalfgG6mi6Ma5fSc1lwojqpF04E'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: 162
 ht-degree: 0%
 
 ---
 
-# Paramètres de l’opération{#operation-parameters}
+# Paramètres de l&#39;opération{#operation-parameters}
 
-* [Ajouter une société](r-add-company.md)
+* [addCompany](r-add-company.md)
 * [addCompanyMembership](r-add-company-membership.md)
 * [addGroupMembers](r-add-group-members.md)
-* [Ajouter un groupeAppartenance](r-add-group-membership.md)
-* [Ajouter des ressources de projet](r-add-project-assets.md)
-* [AddTagFieldValues](r-add-tag-field-values.md)
-* [ajouter un utilisateur](r-add-user.md)
+* [addGroupMembership](r-add-group-membership.md)
+* [addProjectAssets](r-add-project-assets.md)
+* [addTagFieldValues](r-add-tag-field-values.md)
+* [addUser](r-add-user.md)
 * [batchGetAssetPublishContexts](r-batch-get-asset-publish-contexts.md)
-* [Métadonnées de lot](r-batch-set-asset-metadata.md)
-* [Champs de police de jeu](r-batch-set-font-fields.md)
-* [Champs batchSetIccProfile](r-batch-set-icc-profile-fields.md)
-* [Champs d’image en forme de lot](r-batch-set-image-fields.md)
-* [BatchSetThumbAsset](r-batch-set-thumb-asset.md)
-* [Invalidation cdnCacheInvalidation](r-cdn-cache-invalidation.md)
+* [batchSetAssetMetadata](r-batch-set-asset-metadata.md)
+* [batchSetFontFields](r-batch-set-font-fields.md)
+* [batchSetIccProfileFields](r-batch-set-icc-profile-fields.md)
+* [batchSetImageFields](r-batch-set-image-fields.md)
+* [batchSetThumbAsset](r-batch-set-thumb-asset.md)
+* [cdnCacheInvalidation](r-cdn-cache-invalidation.md)
 * [checkAssetNames](r-check-asset-names.md)
 * [checkLogin](r-check-login.md)
-* [Copier l’image](r-copy-image.md)
-* [Créer un jeu de ressources](r-create-asset-set.md)
+* [copyImage](r-copy-image.md)
+* [createAssetSet](r-create-asset-set.md)
 * [createDerivedAsset](r-create-derived-asset.md)
 * [createFolder](r-create-folder.md)
 * [createImageSet](r-create-image-set.md)
@@ -48,7 +58,7 @@ ht-degree: 0%
 * [deleteFolder](r-delete-folder.md)
 * [deleteGroup](r-delete-group.md)
 * [deleteImageFormat](r-delete-image-format.md)
-* [Supprimer la zone cliquable](r-delete-image-map.md)
+* [deleteImageMap](r-delete-image-map.md)
 * [deleteJob](r-delete-job.md)
 * [deleteMetadataField](r-delete-metadata-field.md)
 * [deleteProject](r-delete-project.md)
@@ -56,10 +66,10 @@ ht-degree: 0%
 * [deletePropertySetType](r-delete-property-set-type.md)
 * [deleteTagFieldValues](r-delete-tag-field-values.md)
 * [deleteVignettePublishFormat](r-delete-vignette-publish-format.md)
-* [supprimer la cible de zoom](r-delete-zoom-target.md)
-* [Vider les ressources de la corbeille](r-empty-assets-from-trash.md)
-* [Tâche d’exécution](r-execute-job.md)
-* [forcer la republication des ressources](r-force-republish-assets.md)
+* [deleteZoomTarget](r-delete-zoom-target.md)
+* [emptyAssetsFromTrash](r-empty-assets-from-trash.md)
+* [executeJob](r-execute-job.md)
+* [forceRepublishAssets](r-force-republish-assets.md)
 * [generatePassword](r-generate-password.md)
 * [getActiveJobs](r-get-active-jobs.md)
 * [getActivePublishContext](r-get-active-publish-contexts.md)
@@ -125,34 +135,34 @@ ht-degree: 0%
 * [removeProjectAssets](r-remove-project-assets.md)
 * [renameAsset](r-rename-asset.md)
 * [renameFolder](r-rename-folder.md)
-* [renommer le projet](r-rename-project.md)
+* [renameProject](r-rename-project.md)
 * [replaceImage](r-replace-image.md)
 * [restoreAssetsFromTrash](r-restore-assets-from-trash.md)
 * [resumeJob](r-resume-job.md)
 * [saveGroup](r-save-group.md)
 * [saveImageFormat](r-save-image-format.md)
-* [Enregistrer la zone cliquable](r-save-image-map.md)
+* [saveImageMap](r-save-image-map.md)
 * [saveMetadataField](r-save-metadata-field.md)
-* [Enregistrer la cible de zoom](r-save-zoom-target.md)
-* [Ressources de recherche](r-search-assets.md)
+* [saveZoomTarget](r-save-zoom-target.md)
+* [searchAssets](r-search-assets.md)
 * [searchAssetsByMetadata](r-search-assets-by-metadata.md)
 * [setAssetsContextState](r-set-asset-context-state.md)
 * [setAssetMetadata](r-set-asset-metadata.md)
-* [Définir les autorisations des ressources](r-set-asset-permissions.md)
+* [setAssetPermissions](r-set-asset-permissions.md)
 * [setAssetPublishState](r-set-asset-publish-state.md)
 * [setAssetsPublishState](r-set-assets-publish-state.md)
 * [setAssetSetDefinition](r-set-asset-set-definition.md)
 * [setCompanyMembership](r-set-company-membership.md)
 * [setCompanySettings](r-set-company-settings.md)
-* [Définir les autorisations de dossier](r-set-folder-permissions.md)
+* [setFolderPermissions](r-set-folder-permissions.md)
 * [setGroupMembers](r-set-group-members.md)
 * [setGroupMembership](r-set-group-membership.md)
-* [ZoneCartes](r-set-image-maps.md)
+* [setImageMaps](r-set-image-maps.md)
 * [setImageSetMembers](r-set-image-set-members.md)
 * [setImageRenderingPublishSettings](r-set-image-rendering-publish-settings.md)
 * [setImageServingPublishSettings](r-set-image-serving-publish-settings.md)
 * [setPassword](r-set-password.md)
-* [Définir les ressources du projet](r-set-project-assets.md)
+* [setProjectAssets](r-set-project-assets.md)
 * [setTagFieldValues](r-set-tag-field-values.md)
 * [setUrlModifier](r-set-url-modifier.md)
 * [setUserInfo](r-set-user-info.md)
@@ -160,13 +170,13 @@ ht-degree: 0%
 * [setZoomTargets](r-set-zoom-targets.md)
 * [stopJob](r-stop-job.md)
 * [submitJob](r-submit-job.md)
-* [Mettre à jour les permissons des ressources](r-update-asset-permissions.md)
-* [Mettre à jour la visionneuse de ressources](r-update-asset-set.md)
-* [Mettre à jour le dossierPermissions](r-update-folder-permissions.md)
-* [Mettre à jour Visionneuse d’images](r-update-image-set.md)
-* [Mettre à jour Champ métadonnées](r-update-metadata-field.md)
-* [Mettre à jour PropertySet](r-update-property-set.md)
+* [updateAssetPermissions](r-update-asset-permissions.md)
+* [updateAssetSet](r-update-asset-set.md)
+* [updateFolderPermissions](r-update-folder-permissions.md)
+* [updateImageSet](r-update-image-set.md)
+* [updateMetadataField](r-update-metadata-field.md)
+* [updatePropertySet](r-update-property-set.md)
 * [updateTagFieldValues](r-update-tag-field-values.md)
-* [Mettre à jour les paramètres de configuration de la visionneuse](r-update-viewer-config-settings.md)
+* [updateViewerConfigSettings](r-update-viewer-config-settings.md)
 * [updateVignettePublishFormat](r-update-vignette-publish-format.md)
-* [Mettre à jour XMPPacket](r-update-xmp-packet.md)
+* [updateXMPPacket](r-update-xmp-packet.md)

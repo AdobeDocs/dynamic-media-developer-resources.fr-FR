@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 1fb91795-f699-40b4-a6bc-6eab3e1ecd1d
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/L4j9Svu1H5DOc55iImhT1g6hRQT6svB0V2kuRsU37GE'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: 301
 ht-degree: 0%
 
 ---
@@ -16,7 +24,7 @@ ht-degree: 0%
 
 Les fichiers de données de catalogue peuvent avoir n’importe quel nom et suffixe de fichier (sauf `.ini`).
 
-Les fichiers de données de catalogue peuvent être facilement conservés à l’aide d’applications qui prennent en charge les fichiers de données texte délimités par des tabulations, telles que Microsoft® Excel et Access.
+Les fichiers de données de catalogue peuvent être facilement conservés à l’aide d’applications qui prennent en charge les fichiers de données texte délimités par des tabulations, telles que ® Excel et Access.
 
 Essentiellement une table bidimensionnelle, un fichier de données de catalogue se compose d’un enregistrement d’en-tête qui identifie les colonnes de données et un nombre illimité d’enregistrements de données (lignes). Les champs des enregistrements d’en-tête et de données sont séparés par des caractères `<TAB>` uniques. Les enregistrements sont séparés par une seule `<CR>` (`0xD` de code ASCII), une seule `<LF>` (`0xA` de code ASCII) ou une paire de `<CR><LF>`.
 
@@ -30,7 +38,7 @@ Les champs de données ne doivent pas contenir de caractères `<CR>`, `<LF>` ou 
 
 Sauf indication contraire, plusieurs valeurs de données d’un même champ sont séparées par des virgules (’,’).
 
-Colonnes dont le nom commence par « . » sont ignorées ; cela permet de stocker des données dans des catalogues de matériaux qui n’ont aucun intérêt pour le rendu d’images. Les colonnes dont les noms d’en-tête sont inconnus sont ignorées et un avertissement est consigné dans le fichier journal.
+Les colonnes dont le nom commence par &#39;.&#39; sont ignorées ; cela permet de stocker des données dans des catalogues de matériaux qui n&#39;intéressent pas le rendu d&#39;images. Les colonnes dont les noms d’en-tête sont inconnus sont ignorées et un avertissement est consigné dans le fichier journal.
 
 Les noms de champ peuvent être constitués de n’importe quelle combinaison de lettres ASCII, de chiffres et de caractères « - » et « _ ».
 

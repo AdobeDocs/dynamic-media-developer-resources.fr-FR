@@ -5,9 +5,17 @@ title: PropertySetType
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f0c51e67-6927-4b9f-9935-222e6a194c13
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/yZz7rkrq0rzrrmSH-Wmza-LFExg23GcBp9MKc25wcrE'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: 75
 ht-degree: 5%
 
 ---
@@ -16,7 +24,7 @@ ht-degree: 5%
 
 Valeurs valides pour les champs PropertySetType et createPropertySetTypeParam.
 
-Les valeurs possibles sont :
+Les valeurs sont les suivantes :
 
 * `UserProperty`
 * `CompanyProperty`
@@ -34,29 +42,29 @@ Les valeurs possibles sont :
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> Poignée</span> de type </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> typeHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Saisissez handle. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> CompanyHandle</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
-   <td colname="col3">Pseudo de l’entreprise. <p>Remarque : Le type est global si le pseudo de société n’est pas présent. </p></td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyHandle </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3">Identifiant de la société. <p>Remarque : le type est global si le handle de la société n'est pas présent. </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> nom</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
-   <td colname="col3"> Tapez le nom. </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> nom </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3"> Saisissez le nom. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> Type</span> de propriété </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
-   <td colname="col3">Un des types de jeux de propriétés. Voir Entrée (<span class="codeph"> createPropertySetTypeParam</span>). </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> propertyType </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
+   <td colname="col3">L’un des types de jeux de propriétés. Voir Entrée (<span class="codeph"> createPropertySetTypeParam</span>). </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> allowMultiple</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :booléen</span> </td> 
-   <td colname="col3"> S’il convient d’autoriser l’attachement de plusieurs instances de jeux de propriétés à un objet pour ce type. </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> allowMultiple</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
+   <td colname="col3"> Permet d’autoriser ou non l’association de plusieurs instances de jeux de propriétés à un objet pour ce type. </td> 
   </tr> 
  </tbody> 
 </table>

@@ -1,26 +1,34 @@
 ---
-title: Image initiale
-description: Image initiale
+title: InitialFrame
+description: InitialFrame
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: 28b6b981-94f6-4136-b322-992e18d154db
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+TQID: 'https://experienceleague.adobe.com/Uq-vi7AoYcIB2CC6Ea7joRj46NioAZV4X5mZ5kvmVkA'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: 59
 ht-degree: 5%
 
 ---
 
-# Image initiale{#initialframe}
+# InitialFrame{#initialframe}
 
-` initialFrame= *`cadre`*`
+` initialFrame= *`frame`*`
 
 <table id="table_06B5F795889E402FB6BCEA4D882E1422"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"><span class="varname"> cadre</span></span> </p> </td> 
-   <td colname="col2"> <p> Spécifie un index de propagation à base zéro à afficher lors de la charge de la visionneuse. L’index correspond à l’index de la planche en mode paysage. Si la visionneuse est pivotée en mode portrait, elle affiche la page la plus à gauche de la planche pointée par <span class="codeph"> frameIdx</span>. </p> </td> 
+   <td colname="col2"> <p> Indique un index de dispersion de base zéro à afficher au chargement de la visionneuse. L’index correspond à l’index de la propagation en mode paysage. Si la visionneuse est tournée en mode portrait, elle affiche la page la plus à gauche de la planche vers laquelle pointe <span class="codeph"> frameIdx</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -35,7 +43,7 @@ Facultatif.
 
 ## Exemple {#section-cbc6684eb22e4d0883edc4b3d5742336}
 
-Lorsque cela est spécifié dans l’URL de la visionneuse.
+Si spécifié dans l’URL de la visionneuse.
 
 ```
 initialFrame=2

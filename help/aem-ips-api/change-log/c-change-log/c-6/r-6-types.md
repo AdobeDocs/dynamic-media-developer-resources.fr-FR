@@ -1,20 +1,30 @@
 ---
-description: Décrit les types nouveaux et modifiés de l’API IPS version 6.
+description: Décrit les types nouveaux et modifiés pour l’API IPS version 6.
 solution: Experience Manager
 title: Types de données nouveaux et modifiés
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: d3bcd718-cf27-4d31-850f-a3205564be60
-source-git-commit: fcda99340a18d5037157723bb3bdca5fa9df3277
+TQID: 'https://experienceleague.adobe.com/LI8xzlS2eACzYqcV3krzThLm77-z6imYLohPRCTHIYs'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: 71
 ht-degree: 1%
 
 ---
 
 # Types de données : nouveaux et modifiés{#data-types-new-and-modified}
 
-Décrit les types nouveaux et modifiés de l’API IPS version 6.
+Décrit les types nouveaux et modifiés pour l’API IPS version 6.
 
 Syntaxe
 
@@ -38,36 +48,36 @@ Syntaxe
 
 ## Types modifiés {#section-56b834b1a3b843279d8715b4a4f3890b}
 
-**Supplémentaire**
+**Ajouté**
 
-* Ajouté `numUrls` à `UploadUrlsJob`.
+* Ajout de `numUrls` à `UploadUrlsJob`.
 
-* Ajouté `fileName` à `Asset.`
+* `fileName` ajoutée à `Asset.`
 
-* Ajouté `isHidden` à `MetadataField`.
+* Ajout de `isHidden` à `MetadataField`.
 
-* Ajouté `taskState` à `TaskProgress`.
+* Ajout de `taskState` à `TaskProgress`.
 
-* Ajouté `exportJob` à `ActiveJob` et `ScheduledJob`.
+* Ajout de `exportJob` à `ActiveJob` et `ScheduledJob`.
 
-* Ajouté `optmizedPath` et `optimizedFile` à `PsdInfo`.
+* Ajout de `optmizedPath` et `optimizedFile` à `PsdInfo`.
 
-* Ajouté `contextHandle` à :
+* `contextHandle` ajoutée à :
 
    * `ImageRenderingPublishJob`
    * `VideoPublishJob`
 
-* Ajout des paramètres suivants à `Asset`:
+* Ajout des paramètres suivants à `Asset` :
 
    * `animatedGifInfo`
    * `swcInfo`
    * `cssInfo`
    * `javascriptInfo`
 
-**Changé**
+**Modifié**
 
-* Dans `User`, remplacé `role` par `defaultRole`.
+* En `User`, a remplacé `role` par `defaultRole`.
 
-* Dans `Folder`, remplacé `permissions` par `permissionsSetHandle`.
+* En `Folder`, a remplacé `permissions` par `permissionsSetHandle`.
 
-* Dans `AssetSummary`, `type` et `name` sont désormais facultatifs.
+* En `AssetSummary`, `type` et `name` sont désormais facultatifs.

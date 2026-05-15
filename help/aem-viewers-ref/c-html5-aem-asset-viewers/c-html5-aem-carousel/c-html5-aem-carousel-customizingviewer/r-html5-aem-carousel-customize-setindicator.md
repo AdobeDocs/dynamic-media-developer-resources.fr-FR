@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Carousel Banners
 role: Developer,User
 exl-id: 7d0827c5-f420-4804-983c-5298ee92b276
-source-git-commit: c99aac44711852d8ac661878e11ce0b19d3dbf60
+TQID: 'https://experienceleague.adobe.com/VF5K2OQes7ej6M1YGwefbZ4LLnsHVuXed0MKXoX79u0'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: 354
 ht-degree: 0%
 
 ---
@@ -70,7 +78,7 @@ L’aspect d’un point indicateur défini individuel est contrôlé par le sél
    <td colname="col2"> <p>Largeur du point indicateur défini. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de hauteur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de hauteur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Hauteur du point indicateur défini. </p> </td> 
   </tr> 
   <tr> 
@@ -78,19 +86,19 @@ L’aspect d’un point indicateur défini individuel est contrôlé par le sél
    <td colname="col2"> <p>Marge de gauche en pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de la marge supérieure </span> </p> </td> 
+   <td colname="col1"> <p> </span> de la marge supérieure <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Marge supérieure en pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> </span> de la marge droite </p> </td> 
+   <td colname="col1"> <p> </span> <span class="codeph"> de la marge droite </p> </td> 
    <td colname="col2"> <p>Marge de droite en pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de la marge inférieure </span> </p> </td> 
+   <td colname="col1"> <p> </span> de la marge inférieure <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Marge inférieure en pixels. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de rayon de bordure </span> </p> </td> 
+   <td colname="col1"> <p> </span> de rayon de bordure <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Rayon de la bordure en pixels. </p> </td> 
   </tr> 
   <tr> 
@@ -98,15 +106,15 @@ L’aspect d’un point indicateur défini individuel est contrôlé par le sél
    <td colname="col2"> <p>Couleur d’arrière-plan au format hexadécimal </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> </span> famille de polices </p> </td> 
+   <td colname="col1"> <p> </span> <span class="codeph"> famille de polices </p> </td> 
    <td colname="col2"> <p>Nom de la police. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de taille de police </span> </p> </td> 
+   <td colname="col1"> <p> </span> de taille de police <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Taille de la police. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de couleur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de couleur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Couleur de la police. </p> </td> 
   </tr> 
   <tr> 
@@ -114,7 +122,7 @@ L’aspect d’un point indicateur défini individuel est contrôlé par le sél
    <td colname="col2"> <p>Alignement vertical de l’index de bannière. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de hauteur de ligne </span> </p> </td> 
+   <td colname="col1"> <p> </span> de hauteur de ligne <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Hauteur du texte de l’index de bannière. </p> </td> 
   </tr> 
  </tbody> 

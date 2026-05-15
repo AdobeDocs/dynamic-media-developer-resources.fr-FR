@@ -1,20 +1,30 @@
 ---
-title: Créer un champ de métadonnées
-description: Il permet aux administrateurs de créer des champs de métadonnées pour coordonner avec les systèmes de gestion de contenu ou pour les opérations de modèle. Des exemples de champs de métadonnées créés incluent des mots-clés, des informations sur l’auteur de l’image ou des informations sur le détenteur des droits d’auteur.
+title: createMetadataField
+description: Il permet aux administrateurs de créer des champs de métadonnées pour se coordonner avec les systèmes de gestion de contenu ou pour les opérations sur les modèles. Parmi les exemples de champs de métadonnées créés, citons les mots-clés, les informations sur l’auteur de l’image ou les informations sur le titulaire du droit d’auteur.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API,Metadata
 role: Developer,Admin
 exl-id: eac7fa54-ebe2-4f42-a478-d9a6fb54d1b6
-source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
+TQID: 'https://experienceleague.adobe.com/ktUyxtUtzmL7lHqtepLiu9qhFdk1r6FOgP2af1fUogM'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: 279
 ht-degree: 6%
 
 ---
 
-# Créer un champ de métadonnées{#createmetadatafield}
+# createMetadataField{#createmetadatafield}
 
-Il permet aux administrateurs de créer des champs de métadonnées pour coordonner avec les systèmes de gestion de contenu ou pour les opérations de modèle. Des exemples de champs de métadonnées créés incluent des mots-clés, des informations sur l’auteur de l’image ou des informations sur le détenteur des droits d’auteur.
+Il permet aux administrateurs de créer des champs de métadonnées pour se coordonner avec les systèmes de gestion de contenu ou pour les opérations sur les modèles. Parmi les exemples de champs de métadonnées créés, citons les mots-clés, les informations sur l’auteur de l’image ou les informations sur le titulaire du droit d’auteur.
 
 Syntaxe
 
@@ -37,52 +47,52 @@ Syntaxe
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> Nom de</span> la société </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> companyName </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4"> Nom de l’entreprise à laquelle le champ de métadonnées appartient. </td> 
+   <td colname="col4"> Nom de la société à laquelle appartient le champ de métadonnées. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> Type de</span> ressource </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> assetType </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"> Type de ressource. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> nom</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> nom </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Oui </td> 
    <td colname="col4"> Nom du champ de métadonnées que vous créez. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> Type de</span> champ </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> fieldType </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Oui </td> 
-   <td colname="col4">Type de champ de métadonnées. <p>La constante Types de champs de métadonnées définit les types disponibles. </p> </td> 
+   <td colname="col4">Type de champ de métadonnées. <p>La constante des types de champs de métadonnées définit les types disponibles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> Valeur</span> par défaut </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> defaultValue</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> <p>Valeur par défaut du champ de métadonnées à créer (Scene7<span class="codeph">, </span> par exemple). </p> <p>Les valeurs par défaut ne sont pas prises en charge pour les types de champ de balise et doivent être omises. Si une valeur non vide par défaut est spécifiée pour un type de champ de balise, une erreur est renvoyée. </p> </td> 
+   <td colname="col4"> <p>Valeur par défaut du champ de métadonnées à créer (par exemple, <span class="codeph"> Scene 7</span>). </p> <p>Les valeurs par défaut ne sont pas prises en charge pour les types de champ de balise et doivent être omises. Si une valeur par défaut non vide est spécifiée pour un type de champ de balise, une erreur est renvoyée. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> est masqué</span> </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :booléen</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> isHidden </span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> Masquer ou exposer les métadonnées spécifiques au système IPS. </td> 
+   <td colname="col4"> Masquez ou exposez les métadonnées spécifiques au système IPS. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="codeph"><span class="varname"> est appliquée</span></span> </td> 
-   <td colname="col2"><span class="codeph"> xsd :booléen</span> </td> 
+   <td colname="col1"><span class="codeph"><span class="varname"> isEnforced</span></span> </td> 
+   <td colname="col2"><span class="codeph"> xsd:boolean</span> </td> 
    <td colname="col3"> <p>Non </p> </td> 
-   <td colname="col4"> <p>Un indicateur booléen qui indique si le champ de métadonnées est appliqué (validé) lorsque la valeur est définie. </p> <p>Si la valeur est true, une erreur est générée si une valeur illégale est définie dans <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
+   <td colname="col4"> <p>Indicateur booléen qui indique si le champ de métadonnées est appliqué (validé) lorsque la valeur est définie. </p> <p>Si la valeur est définie sur true, une erreur est générée si une valeur non autorisée est définie dans <span class="codeph"> setAssetMetadata</span> /<span class="codeph"> batchSetAssetMetadata</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="codeph"><span class="varname"> Valeur de balise</span> initiale </span> </td> 
-   <td colname="col2"> <span class="codeph"> xsd :chaîne</span> </td> 
+   <td colname="col1"> <span class="codeph"> <span class="varname"> initialTagValue</span> </span> </td> 
+   <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
    <td colname="col3"> Non </td> 
-   <td colname="col4"> Il vous permet de créer un ensemble de valeurs spécifiques partagées vers lesquelles peuvent pointer les balises sélectionnées. </td> 
+   <td colname="col4"> Il vous permet de créer un ensemble de valeurs spécifiques partagées vers lesquelles les balises sélectionnées peuvent pointer. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,13 +101,13 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| Poignée de champ | `xsd:string` | Oui | Poignée du nouveau champ de métadonnées. |
+| fieldHandle | `xsd:string` | Oui | La poignée du nouveau champ de métadonnées. |
 
 ## Exemples {#section-ba66be30f36b4aeba1bc721b0b92fdfc}
 
-Cet exemple de code crée un champ de métadonnées de type chaîne appelé `createMetadataField`. La réponse renvoie le handle au nouveau champ de métadonnées.
+Cet exemple de code crée un champ de métadonnées de type chaîne appelé `createMetadataField`. La réponse renvoie la poignée au nouveau champ de métadonnées.
 
-**Demander**
+**Requête**
 
 ```java
 <createMetadataFieldParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

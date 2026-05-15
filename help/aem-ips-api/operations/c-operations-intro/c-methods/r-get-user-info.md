@@ -1,20 +1,28 @@
 ---
-description: Obtient des informations sur un utilisateur. Utilisez l’adresse e-mail et le mot de passe d’un utilisateur système comme informations d’identification pour autoriser la demande. Dans le cas contraire, l’opération obtient des informations sur l’utilisateur par défaut.
+description: Obtient des informations sur un utilisateur. Utilisez l’adresse e-mail et le mot de passe d’un utilisateur système comme informations d’identification pour autoriser la requête. Sinon, l’opération obtient des informations sur l’utilisateur ou l’utilisatrice par défaut.
 solution: Experience Manager
 title: getUserInfo
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 1981f25f-779e-4434-ab6b-0debb40521fe
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/4FEwXXgelDJ5CDf4FhaE11GS3vsnZi6wjY7HproyCIw'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: 139
 ht-degree: 10%
 
 ---
 
 # getUserInfo{#getuserinfo}
 
-Obtient des informations sur un utilisateur. Utilisez l’adresse e-mail et le mot de passe d’un utilisateur système comme informations d’identification pour autoriser la demande. Dans le cas contraire, l’opération obtient des informations sur l’utilisateur par défaut.
+Obtient des informations sur un utilisateur. Utilisez l’adresse e-mail et le mot de passe d’un utilisateur système comme informations d’identification pour autoriser la requête. Sinon, l’opération obtient des informations sur l’utilisateur ou l’utilisatrice par défaut.
 
 Syntaxe
 
@@ -32,24 +40,24 @@ Syntaxe
 
 ## Paramètres {#section-e87b3cb743494719925c9458eed433b6}
 
-**Entrée (getUserInfoParam)**
+**Input (getUserInfoParam)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| Poignée utilisateur | `xsd:string` | Non | Handle à l’utilisateur dont vous souhaitez renvoyer les informations. |
+| userHandle | `xsd:string` | Non | Gérez vers l’utilisateur dont vous souhaitez renvoyer les informations. |
 | e-mail | `xsd:string` | Non | Adresse e-mail de l’utilisateur. |
 
 **Output (getUserInfoReturn)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| Informations sur l’utilisateur | `types:User` | Oui | Le prénom, le nom, l’adresse e-mail et le rôle d’un utilisateur, ainsi que si l’utilisateur est valide et la date d’expiration du mot de passe de l’utilisateur. |
+| userInfo | `types:User` | Oui | Prénom, nom, adresse e-mail et rôle d’un utilisateur, ainsi que la validité de l’utilisateur et l’expiration de son mot de passe. |
 
 ## Exemples {#section-98d77a2e360a438dbe240099bea26a65}
 
 Cet exemple de code renvoie des informations pour l’utilisateur IPS par défaut.
 
-**Demander**
+**Requête**
 
 ```java
 <getUserInfoParam xmlns="http://www.scene7.com/IpsApi/xsd" /></getUserInfoParam>

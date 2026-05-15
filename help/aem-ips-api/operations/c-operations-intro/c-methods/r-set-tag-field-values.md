@@ -5,9 +5,17 @@ title: setTagFieldValues
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 50f437d6-fec5-4961-884e-fdb75d201ab7
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/--ArL0CPejqbpJX-G7Z8zdU97WVXXjGfWc74UmOWSV0'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: 81
 ht-degree: 13%
 
 ---
@@ -30,9 +38,9 @@ Syntaxe
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| CompanyHandle | `xsd:string` | Oui | Pseudo de l’entreprise. |
-| Poignée de champ | `xsd:string` | Oui | Poignée de champ de balise. |
-| Tableau de valeurs | `types:StringArray` | Oui | Matrice de valeurs de balises qui remplace le dictionnaire existant du champ. Les associations d’actifs sont conservées lorsqu’une nouvelle valeur correspond à une valeur existante. |
+| companyHandle | `xsd:string` | Oui | Identifiant de la société. |
+| fieldHandle | `xsd:string` | Oui | Identifiant du champ de balise. |
+| valueArray | `types:StringArray` | Oui | Tableau de valeurs de balise qui remplacent le dictionnaire existant du champ. Les associations de ressources sont conservées lorsqu’une nouvelle valeur correspond à une valeur existante. |
 
 **Output (setTagFieldValuesReturn)**
 
@@ -40,7 +48,7 @@ L’API IPS ne renvoie pas de réponse pour cette opération.
 
 ## Exemples {#section-b11cafd9bed54ab5836c737cc075c918}
 
-**Demander**
+**Requête**
 
 ```java
 <setTagFieldValuesParam xmlns="http://www.scene7.com/IpsApi/xsd/2010-01-31">

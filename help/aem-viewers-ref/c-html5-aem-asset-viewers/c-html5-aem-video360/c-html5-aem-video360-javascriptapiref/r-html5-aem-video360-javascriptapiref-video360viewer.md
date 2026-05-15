@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,360 VR Video
 role: Developer,User
 exl-id: ab22ff22-45a7-490e-932d-7c885ff5c3a9
-source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
+TQID: 'https://experienceleague.adobe.com/4TwGcymG-2310opsiuAZWO7fBMGwtqIa0Hgp7MnMUnY'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: 203
 ht-degree: 3%
 
 ---
@@ -26,11 +34,11 @@ Constructeur, crée une instance Visionneuse HTML5 Video360.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> config </span> </span> </p> </td> 
-   <td colname="col2"> <p> <span class="codeph"> {object} </span> objet de configuration JSON facultatif, permet à tous les paramètres de la visionneuse d’être transmis au constructeur pour éviter d’appeler des méthodes setter individuelles. Contient les propriétés suivantes : </p> <p> 
+   <td colname="col2"> <p> <span class="codeph"> {object} </span> objet de configuration JSON facultatif permet à tous les paramètres de la visionneuse de passer au constructeur pour éviter d’appeler des méthodes setter individuelles. Contient les propriétés suivantes : </p> <p> 
      <ul id="ul_789DBD5B72ED4C80B685455B0D59494D"> 
-      <li id="li_28FDCB53E4AD4097A51F21B876C18FB1"> <p> <span class="codeph"> containerId </span> - <span class="codeph"> {String} ID </span> conteneur DOM (normalement un <span class="codeph"> DIV </span>) dans lequel la visionneuse est insérée. Lorsque cette méthode est appelée, il n’est pas nécessaire de créer l’élément de conteneur . Cependant, le conteneur doit exister lors de <span class="codeph">’exécution de la </span> init(). </p> <p>Obligatoire. </p> </li> 
-      <li id="li_FDE00392DC1544ABBDD75F81EF814EF2"> <p> <span class="codeph"> params </span> - <span class="codeph"> {Object} </span> objet JSON avec des paramètres de configuration de la visionneuse où le nom de la propriété est une option de configuration spécifique à la visionneuse ou un modificateur SDK et la valeur de cette propriété est une valeur de paramètres correspondante. </p> <p>Obligatoire. </p> </li> 
-      <li id="li_C534D5091CDA4717BCC48E3EBBF09AB8"> <p> <span class="codeph"> des gestionnaires </span> - <span class="codeph"> {Object} </span> objet JSON avec des rappels d’événement de visionneuse, où le nom de la propriété est le nom de l’événement de visionneuse pris en charge et la valeur de la propriété est une référence de fonction JavaScript au rappel approprié. </p> <p>Facultatif. </p> <p>Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> des rappels d’événement </a> pour plus d’informations sur les événements de visionneuse. </p> </li> 
+      <li id="li_28FDCB53E4AD4097A51F21B876C18FB1"> <p> <span class="codeph"> containerId </span> - <span class="codeph"> {String} ID </span> conteneur DOM (normalement un </span> DIV <span class="codeph">) dans lequel la visionneuse est insérée. Lorsque cette méthode est appelée, il n’est pas nécessaire de créer l’élément de conteneur . Cependant, le conteneur doit exister lors de <span class="codeph">’exécution de la </span> init(). </p> <p>Obligatoire. </p> </li> 
+      <li id="li_FDE00392DC1544ABBDD75F81EF814EF2"> <p> <span class="codeph"> params </span> - <span class="codeph"> {Object} </span> objet JSON avec des paramètres de configuration de visionneuse où le nom de la propriété est une option de configuration spécifique à la visionneuse ou un modificateur SDK et la valeur de cette propriété est une valeur de paramètres correspondante. </p> <p>Obligatoire. </p> </li> 
+      <li id="li_C534D5091CDA4717BCC48E3EBBF09AB8"> <p> <span class="codeph"> gestionnaires </span> - <span class="codeph"> {Object} </span> objet JSON avec des rappels d’événement de visionneuse, où le nom de la propriété est le nom de l’événement de visionneuse pris en charge et la valeur de la propriété est une référence de fonction JavaScript au rappel approprié. </p> <p>Facultatif. </p> <p>Voir <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-event-callbacks.md#concept-66d5996f2b1b44cab3d5264cda5c50cd" format="dita" scope="local"> des rappels d’événement </a> pour plus d’informations sur les événements de visionneuse. </p> </li> 
       <li id="li_42A3F3BEF1004E069F0FB2AE0A30B093"> <p> <span class="codeph"> localizedTexts </span> - <span class="codeph"> {Object} </span> objet JSON avec des données de localisation. Facultatif. </p> <p>Pour plus d’informations, consultez <a href="../../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-localization.md#concept-16262b8096474d6c9c018c3e99110dd1" format="dita" scope="local"> section Localisation des éléments de l’interface utilisateur </a> . </p> <p>Consultez également le <i>Guide d’utilisation de la visionneuse SDK</i> et l’exemple pour plus d’informations sur le contenu de l’objet . </p> </li> 
      </ul> </p> </td> 
   </tr> 

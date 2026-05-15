@@ -1,28 +1,36 @@
 ---
 title: videoServerUrl
-description: URL de la visionneuse vidéo.
+description: Commande d’URL de la visionneuse de vidéos.
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Interactive Videos
 role: Developer,User
 exl-id: 2bcbe117-14a3-42c8-bdd3-790b32bb757c
-source-git-commit: 6aaf4eccf51a05d200c6cc780e342be646d104d8
+TQID: 'https://experienceleague.adobe.com/AlpSniFxWEsogWQdw-nqdoGk6NPhq6O6rFhhANGRuDA'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '44'
+source-wordcount: 44
 ht-degree: 6%
 
 ---
 
 # videoServerUrl{#videoserverurl}
 
-URL de la visionneuse vidéo.
+Commande d’URL de la visionneuse de vidéos.
 
-` videoServerUrl= *`Chemin racine vidéo`*`
+` videoServerUrl= *`videoRootPath`*`
 
 <table id="table_C616483932C2482CA9794DDD7313FD7C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"><span class="varname"> Chemin</span> racine vidéo </span> </p> </td> 
-   <td colname="col2"> <p> Chemin racine du serveur vidéo. Si aucun domaine n’est spécifié, c’est le domaine à partir duquel la page est hébergée qui est appliqué. La résolution standard du chemin d’URI s’applique. </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> <span class="varname"> videoRootPath</span> </span> </p> </td> 
+   <td colname="col2"> <p> Chemin d’accès racine du serveur vidéo. Si aucun domaine n’est spécifié, le domaine à partir duquel la page est diffusée est appliqué à la place. La résolution de chemin d’URI standard s’applique. </p> </td> 
   </tr> 
  </tbody> 
 </table>

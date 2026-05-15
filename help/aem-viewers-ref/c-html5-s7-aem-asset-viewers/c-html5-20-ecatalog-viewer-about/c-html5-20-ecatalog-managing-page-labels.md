@@ -5,29 +5,39 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,eCatalog
 role: Developer,User
 exl-id: b62b5cb8-6100-4d0f-afd8-e6daa6ce6539
-source-git-commit: a919130f0940d81a221b79563b6b3e41533ba788
+TQID: 'https://experienceleague.adobe.com/4obpyT4BrqGz9n8KXh5DRM6J7Cp-Zji7z6-zyDHpXMc'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: 269
 ht-degree: 0%
 
 ---
 
 # Gestion des libellés de page{#managing-page-labels}
 
-Il y a deux endroits dans l’interface utilisateur de la visionneuse où les étiquettes de page sont affichées : le mode miniatures et la liste déroulante de la table des matières.
+Les libellés de page s’affichent à deux endroits de l’interface utilisateur de la visionneuse : en mode miniatures et dans la liste déroulante de la table des matières.
 
-Trois types d’étiquettes peuvent être définis :
+Trois types de libellés peuvent être définis :
 
-* Étiquettes définies par l’auteur à l’aide du mécanisme de localisation SYMBOL.
+* Libellés définis par l’auteur à l’aide du mécanisme de localisation SYMBOL.
 * Libellés définis par l’auteur sur le serveur principal, dans Dynamic Media Classic.
-* Étiquettes générées automatiquement par la visionneuse.
+* Libellés générés automatiquement par la visionneuse.
 
-Les étiquettes basées sur des symboles sont définies à l’aide `MediaSet.LABEL_XX[_YY]` de SYMBOLs `MediaSet.LABEL_DELIM` comme décrit dans [Localisation des éléments](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74) de l’interface utilisateur. Vous pouvez définir de telles étiquettes soit pour l’ensemble de la planche du catalogue électronique, auquel cas vous devez utiliser une syntaxe SYMBOL courte ( `MediaSet.LABEL_XX`). Vous pouvez également le spécifier pour chaque page individuellement en utilisant la syntaxe SYMBOL complète ( `MediaSet.LABEL_XX_YY`).
+Les libellés basés sur des symboles sont définis à l’aide des symboles `MediaSet.LABEL_XX[_YY]` et `MediaSet.LABEL_DELIM` comme décrit dans [Localisation des éléments de l’interface utilisateur](../../c-html5-s7-aem-asset-viewers/c-html5-20-ecatalog-viewer-about/c-html5-20-ecatalog-viewer-localization.md#concept-cbfc39344c494eb7b9f6a272cff0cc74). Vous pouvez définir ces libellés pour l’ensemble de la planche de catalogue électronique, auquel cas vous devez utiliser une syntaxe SYMBOLE courte (`MediaSet.LABEL_XX`). Vous pouvez également la spécifier pour chaque page individuellement en utilisant la syntaxe SYMBOL complète (`MediaSet.LABEL_XX_YY`).
 
-Lorsque vous définissez des étiquettes pour les deux pages de la planche du catalogue électronique, la visionneuse concatène ces étiquettes en une seule chaîne à l’aide `MediaSet.LABEL_DELIM` de SYMBOL. Les étiquettes basées sur des symboles ont priorité sur les étiquettes définies sur le serveur principal ou générées automatiquement par la visionneuse.
+Lorsque vous définissez des libellés pour les deux pages dans la planche de catalogue électronique, la visionneuse concatène ces libellés en une seule chaîne à l’aide `MediaSet.LABEL_DELIM` SYMBOLE . Les libellés basés sur des symboles sont prioritaires sur les libellés définis sur le serveur principal ou générés automatiquement par la visionneuse.
 
-Les étiquettes définies dans Dynamic Media Classic sont stockées dans l’enregistrement UserData des images de page individuelles. Identique aux étiquettes à base de SYMBOLES. Autrement dit, si les deux pages de la planche du catalogue électronique ont des étiquettes définies, elles sont concaténées à l’aide de `MediaSet.LABEL_DELIM` SYMBOL en mode paysage. Dynamic Media étiquettes classiques ont priorité sur les étiquettes générées automatiquement, mais sont remplacées par des étiquettes basées sur des symboles.
+Les libellés définis dans Dynamic Media Classic sont stockés dans l’enregistrement UserData des images de page individuelles. Comme pour les libellés basés sur des symboles. En d’autres termes, si des libellés sont définis pour les deux pages de la planche de catalogue électronique, elles sont concaténées à l’aide du SYMBOLE `MediaSet.LABEL_DELIM` en mode paysage. Les libellés Dynamic Media Classic sont prioritaires sur les libellés générés automatiquement, mais sont remplacés par des libellés basés sur des symboles.
 
-Les étiquettes générées automatiquement sont des numéros séquentiels attribués à toutes les pages du catalogue électronique. Les étiquettes générées automatiquement sont ignorées pour la planche donnée si des étiquettes basées sur des symboles sont définies ou si des étiquettes classiques Dynamic Media sont définies.
+Les libellés générés automatiquement sont des numéros séquentiels affectés à toutes les pages du catalogue électronique. Les libellés générés automatiquement sont ignorés pour la planche donnée si des libellés basés sur des symboles ou des libellés Dynamic Media Classic sont définis.
 
-Dans la table des matières, il est possible de désactiver l’affichage des étiquettes générées automatiquement à l’aide d’un `showdefault` paramètre.
+Dans la table des matières, il est possible de désactiver l’affichage des libellés générés automatiquement à l’aide du paramètre `showdefault`.

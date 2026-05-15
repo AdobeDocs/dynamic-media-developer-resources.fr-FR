@@ -5,10 +5,18 @@ solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 0ad8f4b4-dd9c-43f5-aacc-67a564e34d92
-source-git-commit: 07380e01e4eed6a65ba8821eee3db6fd9bb19639
+TQID: 'https://experienceleague.adobe.com/POraKuGs8WvYCqf-9FHrFj6FUjsE-TE9pKcRb9a2o7o'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 18%
+source-wordcount: 594
+ht-degree: 15%
 
 ---
 
@@ -38,14 +46,14 @@ Ces paramètres sont contrôlés de manière interactive dans la création d’i
   <tr> 
    <td colname="col1"> <p>A </p> </td> 
    <td colname="col2"> <p>L'ombrage alternatif/Effets de rendu remplace le paramètre de la vignette. </p> </td> 
-   <td colname="col3"> <p>01 </p> </td> 
+   <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>1 </p> </td> 
    <td colname="col5"> <p>A0=Effets de rendu </p> <p>A1=Alternate Shader </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>U </p> </td> 
    <td colname="col2"> <p>USM (UnSharp Mask). </p> </td> 
-   <td colname="col3"> <p>01 </p> </td> 
+   <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>2 </p> </td> 
    <td colname="col5"> <p>Pour utiliser USM, U doit être &gt; 0 </p> </td> 
   </tr> 
@@ -66,7 +74,7 @@ Ces paramètres sont contrôlés de manière interactive dans la création d’i
   <tr> 
    <td colname="col1"> <p>X </p> </td> 
    <td colname="col2"> <p>Seuil USM (niveaux). </p> </td> 
-   <td colname="col3"> <p>01 </p> </td> 
+   <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -87,7 +95,7 @@ Ces paramètres sont contrôlés de manière interactive dans la création d’i
   <tr> 
    <td colname="col1"> <p>R </p> </td> 
    <td colname="col2"> <p>Mode de rééchantillonnage. </p> </td> 
-   <td colname="col3"> <p>01 </p> </td> 
+   <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>5 </p> </td> 
    <td colname="col5"> <p> 
      <ul id="ul_FD4A9D73C32F47C3BF13776BB4D2818D"> 
@@ -102,16 +110,16 @@ Ces paramètres sont contrôlés de manière interactive dans la création d’i
   <tr> 
    <td colname="col1"> <p>T </p> </td> 
    <td colname="col2"> <p>Suréchantillonnage : aléatoire. </p> </td> 
-   <td colname="col3"> <p>01 </p> </td> 
+   <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>200 </p> </td> 
-   <td colname="col5"> <p>Par défaut : 0. </p> </td> 
+   <td colname="col5"> <p>Valeur par défaut : 0. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>S </p> </td> 
    <td colname="col2"> <p>Sur-échantillonnage : taux aléatoire. </p> </td> 
    <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>20 </p> </td> 
-   <td colname="col5"> <p>Par défaut : 5. </p> </td> 
+   <td colname="col5"> <p>La valeur par défaut est 5. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>M </p> </td> 
@@ -132,14 +140,14 @@ Ces paramètres sont contrôlés de manière interactive dans la création d’i
    <td colname="col2"> <p>Poisson : Exemples/Pixel. </p> </td> 
    <td colname="col3"> <p>1 </p> </td> 
    <td colname="col4"> <p>4 </p> </td> 
-   <td colname="col5"> <p>Par défaut : 1. </p> </td> 
+   <td colname="col5"> <p>La valeur par défaut est 1. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>O </p> </td> 
    <td colname="col2"> <p>Poisson : utilisez le bouton (bascule). </p> </td> 
-   <td colname="col3"> <p>01 </p> </td> 
+   <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>1 </p> </td> 
-   <td colname="col5"> <p>Par défaut : 1. </p> </td> 
+   <td colname="col5"> <p>La valeur par défaut est 1. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
@@ -158,14 +166,14 @@ Ces paramètres sont contrôlés de manière interactive dans la création d’i
   <tr> 
    <td colname="col1"> <p>I </p> </td> 
    <td colname="col2"> <p>Points forts. </p> </td> 
-   <td colname="col3"> <p>01 </p> </td> 
+   <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>100 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>J </p> </td> 
    <td colname="col2"> <p>Met en surbrillance la saturation. </p> </td> 
-   <td colname="col3"> <p>01 </p> </td> 
+   <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>50 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -179,7 +187,7 @@ Ces paramètres sont contrôlés de manière interactive dans la création d’i
   <tr> 
    <td colname="col1"> <p>K </p> </td> 
    <td colname="col2"> <p>Saturation des ombres. </p> </td> 
-   <td colname="col3"> <p>01 </p> </td> 
+   <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>400 </p> </td> 
    <td colname="col5"> <p> </p> </td> 
   </tr> 
@@ -214,42 +222,42 @@ Ces paramètres sont contrôlés de manière interactive dans la création d’i
   <tr> 
    <td colname="col1"> <p>Z </p> </td> 
    <td colname="col2"> <p>Contraste de base. </p> </td> 
-   <td colname="col3"> <p>01 </p> </td> 
+   <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>100 </p> </td> 
-   <td colname="col5"> <p>Par défaut : 50. </p> </td> 
+   <td colname="col5"> <p>La valeur par défaut est 50. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>a </p> </td> 
    <td colname="col2"> <p>Compensation de luminosité. </p> </td> 
-   <td colname="col3"> <p>01 </p> </td> 
+   <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
    <td colname="col5"> <p>Format différent : a36.207.136.177.xx </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>b </p> </td> 
    <td colname="col2"> <p>Réglage de la saturation. </p> </td> 
-   <td colname="col3"> <p>01 </p> </td> 
+   <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
    <td colname="col5"> <p>Format différent : b36.207.136.177.xx </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>c </p> </td> 
    <td colname="col2"> <p>Ajustement des ombres. </p> </td> 
-   <td colname="col3"> <p>01 </p> </td> 
+   <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
    <td colname="col5"> <p>Format différent : c36.207.136.177.xx </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>d </p> </td> 
    <td colname="col2"> <p>Met en surbrillance l’ajustement. </p> </td> 
-   <td colname="col3"> <p>01 </p> </td> 
+   <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
    <td colname="col5"> <p>Format différent : d36.207.136.177.xx </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>e </p> </td> 
    <td colname="col2"> <p>Faits saillants spéculaires. </p> </td> 
-   <td colname="col3"> <p>01 </p> </td> 
+   <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
    <td colname="col5"> <p>Format différent : 36.207.136.177.xx </p> </td> 
   </tr> 
@@ -263,21 +271,21 @@ Ces paramètres sont contrôlés de manière interactive dans la création d’i
   <tr> 
    <td colname="col1"> <p>k </p> </td> 
    <td colname="col2"> <p>Réglage de l'éclairage. </p> </td> 
-   <td colname="col3"> <p>01 </p> </td> 
+   <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
    <td colname="col5"> <p>Format différent : k64.138.175.60.xx.133.242 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>u &amp; s </p> </td> 
    <td colname="col2"> <p>Décalage de la teinte de l'ombre. </p> </td> 
-   <td colname="col3"> <p>01 </p> </td> 
+   <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
    <td colname="col5"> <p>Format différent : u8.1.2.3.4.5.6.7.8.s8.1.2.3.4.5.6.7.8. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>v &amp; t </p> </td> 
    <td colname="col2"> <p>Mettre en surbrillance le décalage de teinte. </p> </td> 
-   <td colname="col3"> <p>01 </p> </td> 
+   <td colname="col3"> <p>0 </p> </td> 
    <td colname="col4"> <p>255 </p> </td> 
    <td colname="col5"> <p>Format différent : v8.1.2.3.4.5.6.7.8.t8.1.2.3.4.5.6.7.8. </p> </td> 
   </tr> 

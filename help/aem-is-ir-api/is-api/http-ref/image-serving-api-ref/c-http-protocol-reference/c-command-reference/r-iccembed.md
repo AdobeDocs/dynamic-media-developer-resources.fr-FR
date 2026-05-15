@@ -1,20 +1,28 @@
 ---
-title: Intégrer l’ICC
-description: Incorporer le profil de couleurs. Spécifie si le profil de couleur ICC fonctionnel ou le profil spécifié avec icc= doit être incorporé dans l’image de réponse.
+title: iccEmbed
+description: Incorporer le profil de couleurs. Indique si le profil de couleurs ICC de travail ou le profil spécifié avec icc= doit être incorporé dans l’image de réponse.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: bc5637f6-5452-4bfb-bf30-def6f153f4ad
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+TQID: 'https://experienceleague.adobe.com/gIV48JpwNqevp2gw-E-tegSHco2R-f1IE3V1OLPPVvk'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: 92
 ht-degree: 3%
 
 ---
 
-# Intégrer l’ICC{#iccembed}
+# iccEmbed{#iccembed}
 
-Incorporer le profil de couleurs. Spécifie si le profil de couleur ICC fonctionnel ou le profil spécifié avec icc= doit être incorporé dans l’image de réponse.
+Incorporer le profil de couleurs. Indique si le profil de couleurs ICC de travail ou le profil spécifié avec icc= doit être incorporé dans l’image de réponse.
 
 `iccEmbed=0|1`
 
@@ -24,10 +32,10 @@ Attribut de requête. Ignoré si aucun profil n’est disponible pour l’incorp
 
 ## Par défaut {#section-01948f6cd7a2415091004cd7526436c7}
 
-`iccEmbed=0`, sans incorporation de profils ICC dans les images de sortie. Ignoré si le format d’image de sortie ne prend pas en charge l’incorporation de profils ICC.
+`iccEmbed=0`, pour l’absence d’incorporation de profils ICC dans les images de sortie. Ignoré si le format d’image de sortie ne prend pas en charge l’incorporation de profils ICC.
 
 Voir [fmt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a) pour plus d’informations.
 
 ## Voir aussi {#section-2105c6441d2b42edb15c7abc4e20d7fc}
 
-[attribute ::IccProfile*](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c) , [icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517), [fmt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a)
+[attribute::IccProfile*](../../../../../is-api/image-catalog/image-serving-api-ref/c-image-catalog-reference/c-icc-profile-map-reference/c-icc-profile-map-reference.md#concept-57b9148ce55249cd825cb7ee19ed057c) , [icc=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-icc.md#reference-182b5679e21e4df3b4d330535a5a7517), [fmt=](../../../../../is-api/http-ref/image-serving-api-ref/c-http-protocol-reference/c-command-reference/r-is-http-fmt.md#reference-cdf10043423b45ba9fe15157fb3ae37a)

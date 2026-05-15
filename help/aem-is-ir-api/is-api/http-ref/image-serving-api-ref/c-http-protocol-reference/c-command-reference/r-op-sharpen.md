@@ -1,36 +1,44 @@
 ---
 title: op_sharpen
-description: Accentuer l’image. Applique un filtre d’accentuation de base au calque ou à l’image de la vue finale, après toute mise à l’échelle, si layer=comp.
+description: Accentuer l’image. Applique un filtre d’accentuation de base au calque ou à l’image d’affichage final, après mise à l’échelle, si calque=terminé.
 solution: Experience Manager
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 62e7d91c-935f-410f-a971-ffb3cfff31d6
-source-git-commit: 7a07ec9550c0685c908191dd6806d5b84678820d
+TQID: 'https://experienceleague.adobe.com/CLyNZKJir4mYZ2L04ZKpnkNk6LX9xs8VUwnwwPrs-Zc'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: 112
 ht-degree: 3%
 
 ---
 
 # op_sharpen{#op-sharpen}
 
-Accentuer l’image. Applique un filtre d’accentuation de base au calque ou à l’image de la vue finale, après toute mise à l’échelle, si layer=comp.
+Accentuer l’image. Applique un filtre d’accentuation de base au calque ou à l’image d’affichage final, après mise à l’échelle, si calque=terminé.
 
 `op_sharpen=0|1`
 
-Le masque de calque ou le masque composite est également accentué.
+Le masque de calque ou composite est également accentué.
 
 ## Propriétés {#section-b27f3f6a27c34233b3f76805e18b2aa7}
 
-Attribut de couche ou attribut de vue. S’applique au calque actif ou à l’image vue finale si `layer=comp`. Ignoré par les calques d’effets.
+Attribut de calque ou attribut de vue. S’applique au calque actif ou à l’image d’affichage final, le cas `layer=comp`. Ignoré par les calques d’effet.
 
 ## Par défaut {#section-665709700fff458e9dbbf8a78e8ecf71}
 
-`op_sharpen=0`, sans effet d’accentuation.
+`op_sharpen=0`, pour aucun effet d’accentuation.
 
 ## Exemple {#section-3202122df5db4e14b358ecabfb6d8b85}
 
-Compensez le léger flou causé par le rééchantillonnage de l’image. Nous augmentons également la qualité JPEG pour éviter des artefacts JPEG supplémentaires le long des bords accentués.
+Compenser le léger flou causé par le rééchantillonnage de l&#39;image. Nous augmentons également la qualité du JPEG pour éviter d’autres artefacts JPEG le long des bords accentués.
 
 `http://server/myRootId/myImageId?qlt=90,1&op_sharpen=1&wid=500`
 

@@ -1,20 +1,28 @@
 ---
-description: Définit des champs spécifiques à une image pour un ou plusieurs fichiers image.
+description: Définit des champs spécifiques à une image pour une ou plusieurs ressources d’image.
 solution: Experience Manager
-title: Champs d’image en forme de lot
+title: batchSetImageFields
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: 8ea6dbb8-4d32-43e5-961f-31110f983663
-source-git-commit: 77c88d5fe20e048f6fad2bb23cb1abe090793acf
+TQID: 'https://experienceleague.adobe.com/J3mCGBUY4Ws5Wq18tHWrHQJNElW5gYvwSQ2yKF-NhsM'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: 195
 ht-degree: 9%
 
 ---
 
-# Champs d’image en forme de lot{#batchsetimagefields}
+# batchSetImageFields{#batchsetimagefields}
 
-Définit des champs spécifiques à une image pour un ou plusieurs fichiers image.
+Définit des champs spécifiques à une image pour une ou plusieurs ressources d’image.
 
 Syntaxe
 
@@ -29,28 +37,28 @@ Syntaxe
 
 ## Paramètres {#section-4969815cf67c4d11b13bb2017b3604e8}
 
-**Entrée (batchSetImageFields)**
+**Input (batchSetImageFields)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| CompanyHandle | `xsd:string` | Oui | Poignée de l’entreprise qui contient les ressources image. |
-| Mettre à jour le tableau | `types:ImageFieldUpdateArray` | Oui | Tableau des mises à jour des champs d’image. |
+| companyHandle | `xsd:string` | Oui | Identifiant de la société qui contient les ressources d’image. |
+| updateArray | `types:ImageFieldUpdateArray` | Oui | Tableau de mises à jour des champs d’image. |
 
 **Output (batchSetImageFields)**
 
 | Nom | Type | Obligatoire | Description |
 |---|---|---|---|
-| Compte de succès | `xsd:int` | Oui | Nombre de champs d’image correctement définis. |
-| Nombre d’avertissements | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération a tenté de définir les champs d’image. |
-| Nombre d’erreurs | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération a tenté de définir les champs d’image. |
-| Tableau des détails de l’avertissement | `types:AssetOperationFaultArray` | Non | Tableau de détails associé aux ressources qui ont généré des avertissements lorsque l’opération a tenté d’appliquer les mises à jour. |
-| Tableau errorDetailArray | `types:AssetOperationFaultArray` | Non | Tableau de détails associé aux ressources qui ont généré des erreurs lorsque l’opération a tenté d’appliquer les mises à jour. |
+| successCount | `xsd:int` | Oui | Nombre de champs d’image définis avec succès. |
+| warningCount | `xsd:int` | Oui | Nombre d’avertissements générés lorsque l’opération a tenté de définir les champs d’image. |
+| errorCount | `xsd:int` | Oui | Nombre d’erreurs générées lorsque l’opération a tenté de définir les champs d’image. |
+| warningDetailArray | `types:AssetOperationFaultArray` | Non | Tableau de détails associés aux ressources qui ont généré des avertissements lorsque l’opération a tenté d’appliquer les mises à jour. |
+| errorDetailArray | `types:AssetOperationFaultArray` | Non | Tableau de détails associés aux ressources qui ont généré des erreurs lorsque l’opération a tenté d’appliquer les mises à jour. |
 
 ## Exemples {#section-0476e3d6516a4f8bbaac9de983bc6d1e}
 
-Cet exemple définit les données dans les champs de deux images d’un tableau de mises à jour. Dans le tableau, les images sont spécifiées par leurs descripteurs de ressources et contiennent une résolution en pixels, les coordonnées d’ancrage des positions x et y et les données utilisateur. La réponse indique que les champs des deux images ont été correctement définis.
+Cet exemple montre comment définir des données dans les champs de deux images d’un tableau de mise à jour. Dans le tableau , les images sont spécifiées par leurs poignées de ressource et contiennent la résolution en pixels, les coordonnées d’ancrage des positions x et y et les données utilisateur. La réponse indique que les champs des deux images ont été définis avec succès.
 
-**Demander**
+**Requête**
 
 ```java
 <batchSetImageFieldsParam xmlns="http://www.scene7.com/IpsApi/xsd/2008-01-15">

@@ -5,9 +5,17 @@ solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: 174ddf15-e6be-4a65-8c82-5c9edf061a6c
-source-git-commit: ceb9483f67a19d969ecbbd01cede11f3dae86467
+TQID: 'https://experienceleague.adobe.com/TL9pV-76AgBGVaoP6Jj9YLE0r4sqAwxrUOn4eYjsubE'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: 267
 ht-degree: 0%
 
 ---
@@ -18,7 +26,7 @@ Le bouton de lecture/pause entraîne la lecture ou la mise en pause du contenu v
 
 <!--<a id="section_061E550C1C1D4DB2BD663A898895B38C"></a>-->
 
-Vous pouvez dimensionner, envelopper et positionner le bouton, par rapport à la barre de contrôle qui le contient, par CSS.
+Vous pouvez dimensionner, appliquer une enveloppe et positionner le bouton, par rapport à la barre de contrôle qui le contient, par CSS.
 
 Le sélecteur de classe CSS suivant contrôle l’aspect du bouton :
 
@@ -43,15 +51,15 @@ Le sélecteur de classe CSS suivant contrôle l’aspect du bouton :
    <td colname="col2"> <p>Position à partir de la bordure gauche, marge intérieure incluse. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> inférieur </span> </p> </td> 
-   <td colname="col2"> <p> Position à partir de la bordure inférieure, remplissage compris. </p> </td> 
+   <td colname="col1"> <p> </span> inférieur <span class="codeph"> </p> </td> 
+   <td colname="col2"> <p> Position à partir de la bordure inférieure, y compris la marge intérieure. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> Largeur </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> largeur </span> </p> </td> 
    <td colname="col2"> <p>Largeur du bouton. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="codeph"> de hauteur </span> </p> </td> 
+   <td colname="col1"> <p> </span> de hauteur <span class="codeph"> </p> </td> 
    <td colname="col2"> <p>Hauteur du bouton. </p> </td> 
   </tr> 
   <tr> 
@@ -67,9 +75,9 @@ Le sélecteur de classe CSS suivant contrôle l’aspect du bouton :
 
 >[!NOTE]
 >
->Ce bouton prend en charge les sélecteurs d’attributs et `state` `selected` d’attributs`replay`, qui peuvent être utilisés pour appliquer différents habillages à différents états de bouton. En particulier, `selected='true'` correspond à l’état « lecture » et `selected='false'` correspond à l’état « pause » ;
+>Ce bouton prend en charge les sélecteurs d&#39;attributs `state`, `selected` et `replay`, qui peuvent être utilisés pour appliquer différents habillages à différents états de bouton. En particulier, `selected='true'` correspond à l&#39;état « play » et `selected='false'` correspond à l&#39;état « pause »;
 >
->Le sélecteur `replay='true'` d’attributs est défini lorsque la vidéo a atteint la fin et que la sélection du bouton redémarre la lecture depuis le début.
+>Le sélecteur d’attributs `replay='true'` est défini lorsque la vidéo a atteint sa fin et que la sélection du bouton redémarre la lecture depuis le début.
 
 L’info-bulle du bouton peut être localisée. Voir [Localisation des éléments de l’interface utilisateur](../../../c-html5-s7-aem-asset-viewers/c-html5-video-reference/r-html5-video-viewer-20-localization.md#concept-1d5ca2d8480f4064a51eddba13940aad) pour plus d’informations.
 

@@ -5,10 +5,20 @@ title: XmpKeywords
 feature: Dynamic Media Classic,SDK/API
 role: Developer,Admin
 exl-id: f1ad16c8-cba2-4ef0-9558-6a4086c71393
-source-git-commit: f42378a20b58e4c5ebc961c6526d7cecabc2ae38
+TQID: 'https://experienceleague.adobe.com/AuwtfcH1-ttamanNAIG0FaNqp-edryeuw-XsYnPfpps'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 18%
+source-wordcount: 66
+ht-degree: 19%
 
 ---
 
@@ -32,7 +42,7 @@ Syntaxe
   <tr> 
    <td colname="col1"> <span class="codeph"> <span class="varname"> éléments </span> </span> </td> 
    <td colname="col2"> <span class="codeph"> xsd:string</span> </td> 
-   <td colname="col3"> <p>Liste de mots-clés séparés par des virgules qui sont fusionnés dans le nœud de propriété XMP dc:subject=<span class="codeph"> </span>. Si une virgule apparaît dans l’une des valeurs individuelles, elle doit être précédée d’une barre oblique inverse (\). Une barre oblique inverse littérale est l’habituelle double-barre oblique inverse (\\). </p> </td> 
+   <td colname="col3"> <p>Liste de mots-clés séparés par des virgules qui sont fusionnés dans le nœud de propriété XMP dc:subject=</span> <span class="codeph">. Si une virgule apparaît dans l’une des valeurs individuelles, elle doit être précédée d’une barre oblique inverse (\). Une barre oblique inverse littérale est l’habituelle double-barre oblique inverse (\\). </p> </td> 
   </tr> 
  </tbody> 
 </table>

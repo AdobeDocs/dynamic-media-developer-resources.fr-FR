@@ -5,9 +5,17 @@ title: Variables de substitution
 feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: 9fd73d16-e8bd-4fdb-a4e6-e86e5d219114
-source-git-commit: 4f81f755789613222a66bed2961117604ae19e62
+TQID: 'https://experienceleague.adobe.com/ZjLvcRUPDVBv8QsWoQGz2j6X0sjxnUL-MTTJNyDDRUs'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: 740
 ht-degree: 0%
 
 ---
@@ -57,7 +65,7 @@ est résolu sur :
 
 ## Traitement des variables dans les requêtes imbriquées {#section-26d63adc446c4fa0808e11e8082abdfa}
 
-Les références ` $ *`var`*$` peuvent se produire n’importe où dans les accolades d’une requête de diffusion d’images ou de rendu d’image imbriquée, y compris à gauche de « ? » en séparant le chemin d’accès de la requête. Le serveur remplace ces références par des valeurs (provenant de l’URL ou de l’`catalog::Modifier` du catalogue d’images principal) avant d’analyser et de traiter plus en détail la requête imbriquée.
+Les références ` $ *`var`*$` peuvent se produire n’importe où dans les accolades d’une requête de diffusion d’images ou de rendu d’image imbriquée, y compris à gauche du caractère « ? » séparant le chemin d’accès de la requête. Le serveur remplace ces références par des valeurs (provenant de l’URL ou de l’`catalog::Modifier` du catalogue d’images principal) avant d’analyser et de traiter plus en détail la requête imbriquée.
 
 En outre, toutes les définitions ` $ *`var`*=` de l’URL ou du `catalog::Modifier` sont transférées à toutes les requêtes de diffusion d’images et de rendu d’images imbriquées. Cela permet de s’assurer que toutes les définitions de variable sont disponibles pour tous les modèles, quel que soit le niveau d’imbrication.
 
@@ -95,7 +103,7 @@ La variable de chemin prédéfinie est généralement utilisée conjointement av
 
 ## Par défaut {#section-b02483d15529444586a2e9504805b155}
 
-Aucune. Seules les variables qui ont été définies sont remplacées par le serveur (à l’exception de la variable de chemin prédéfinie $object, qui est toujours remplacée). Les occurrences de ` $ *`var`*$` restent littérales si `*`var`*`ne peut pas être mise en correspondance avec une définition de variable existante.
+Aucune Seules les variables qui ont été définies sont remplacées par le serveur (à l’exception de la variable de chemin prédéfinie $object, qui est toujours remplacée). Les occurrences de ` $ *`var`*$` restent littérales si `*`var`*`ne peut pas être mise en correspondance avec une définition de variable existante.
 
 ## Exemples {#section-fba9393df6984247b7e30b3f93992e86}
 

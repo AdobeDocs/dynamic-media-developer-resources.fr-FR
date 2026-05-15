@@ -1,14 +1,25 @@
 ---
-title: Vidéo
+title: Visionneuse de vidéos
 description: La visionneuse de vidéos est un lecteur vidéo qui lit des vidéos en flux continu et progressives codées au format H.264. Elle est diffusée à partir de Dynamic Media Classic ou Adobe Experience Manager avec Dynamic Media.
 keywords: réactif
 solution: Experience Manager
 feature: Dynamic Media Classic,Viewers,SDK/API,Video
 role: Developer,User
 exl-id: fa9727dc-f9e2-4d91-b500-445693dfb6aa
-source-git-commit: ce1ac4938c7baf482c6c55a9ad13379153a3ec5b
+TQID: 'https://experienceleague.adobe.com/o6TOWddNUVnEMZS8D2dHUS6UZ1n8JiEM0DzUSYAUaok'
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
-source-wordcount: '2329'
+source-wordcount: 2390
 ht-degree: 0%
 
 ---
