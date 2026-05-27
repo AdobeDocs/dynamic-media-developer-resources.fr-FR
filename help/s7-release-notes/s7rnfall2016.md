@@ -6,10 +6,17 @@ feature: Dynamic Media Classic
 role: Developer,User
 exl-id: 23091ef7-750a-4ec2-9d03-1d713f436991
 TQID: 'https://experienceleague.adobe.com/7dGuE-LQMFsuKbGCEDMxHE9KE2rU5ptUSn3v0VDIAw0'
-product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
 workflow-type: tm+mt
 source-wordcount: 2295
@@ -41,7 +48,7 @@ Voir la [HTTP2 FAQ sur la diffusion de contenu](https://experienceleague.adobe.c
 
 ## Scene7 Publishing System {#section-24487cb493444d808fb7193f0a00cdd4}
 
-Pour consulter la documentation complète, voir [](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
+Pour consulter la documentation complète, voir [&#128279;](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html)
 
 **Nouvelles fonctionnalités, améliorations et correctifs de bugs**
 
@@ -63,7 +70,7 @@ Pour consulter la documentation complète, voir [](https://experienceleague.adob
 
 ## Visionneuses (Diffusion D’Images 5.5.3) {#section-1d59bcd5825d487b80b59a6d1a08ed30}
 
-Pour consulter la documentation complète, voir [ Guide de référence des visionneuses ](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Pour consulter la documentation complète, voir [&#x200B; Guide de référence des visionneuses &#x200B;](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Correctifs de bugs pour la diffusion d’images 5.5.3**
 
@@ -73,7 +80,7 @@ Pour consulter la documentation complète, voir [ Guide de référence des visio
 
 ## Visionneuses (Diffusion D’Images 5.5.2) {#section-9932c988cfee45749594af481dfc6476}
 
-Pour consulter la documentation complète, voir [ Guide de référence des visionneuses ](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Pour consulter la documentation complète, voir [&#x200B; Guide de référence des visionneuses &#x200B;](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Correctifs de bugs pour la diffusion d’images 5.5.2**
 
@@ -82,7 +89,7 @@ Pour consulter la documentation complète, voir [ Guide de référence des visio
 
 ## Visionneuses (Diffusion D’Images 5.5.1) {#section-833ab92c91c941d2bfdc27f233f582ad}
 
-Pour consulter la documentation complète, voir [ Guide de référence des visionneuses ](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
+Pour consulter la documentation complète, voir [&#x200B; Guide de référence des visionneuses &#x200B;](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html?lang=en).
 
 **Nouvelles fonctionnalités, améliorations et correctifs pour la diffusion d’images 5.5.1**
 
