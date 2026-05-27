@@ -297,7 +297,7 @@ La page d’exemples suivante illustre une utilisation plus concrète de l’inc
 
 <!--
 
-[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html)
+[Alternate demo location](https://experienceleague.adobe.com/tools/dynamic-media-demo/vlist/vlist.html?lang=fr)
 
 -->
 
