@@ -6,14 +6,10 @@ feature: Dynamic Media Classic,SDK/API,Asset Management
 role: Developer,Admin
 exl-id: e40293be-d00f-44c1-8ae7-521ce3312ca8
 TQID: 'https://experienceleague.adobe.com/-sHJjbnmxKSlU8TiOx96f1fgRUVWElHZ6KAqhy0HW0c'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 4185012f22b173b569d11ea4d350763a82f98710
 workflow-type: tm+mt
 source-wordcount: 716
 ht-degree: 2%
@@ -78,12 +74,12 @@ La tâche de chargement se compose d’une ou de plusieurs requêtes HTTP POST q
 
 |  Partie de formulaire HTTP POST   |  Nom de l’élément uploadPostParams   |  Type   |  Description   |
 |---|---|---|---|
-| `uploadParams` (obligatoire). Un document `uploadParams` XML spécifiant les paramètres de chargement)   |   `companyHandle`  |  `xsd:string`  | Obligatoire. Gérer vers la société vers laquelle le fichier est en cours de chargement.  |
-| `uploadParams` (obligatoire). Un document `uploadParams` XML spécifiant les paramètres de chargement) | `jobName`  |  `xsd:string`  | Vous devez indiquer `jobName` ou `jobHandle`. Nom de la tâche de chargement.  |
-| `uploadParams` (obligatoire). Un document `uploadParams` XML spécifiant les paramètres de chargement) | `jobHandle`  |  `xsd:string`  | Vous devez indiquer `jobName` ou `jobHandle`. Gérer vers une tâche de chargement démarrée dans une requête précédente.  |
-| `uploadParams` (obligatoire). Un document `uploadParams` XML spécifiant les paramètres de chargement) | `locale`  |  `xsd:string`  | Facultatif. Code de langue et de pays pour la localisation.  |
-| `uploadParams` (obligatoire). Un document `uploadParams` XML spécifiant les paramètres de chargement) | `description`  |  `xsd:string`  | Facultatif. Description du traitement.  |
-| `uploadParams` (obligatoire). Un document `uploadParams` XML spécifiant les paramètres de chargement) | `destFolder`  |  `xsd:string`  | Facultatif. Chemin du dossier cible à ajouter à une propriété de nom de fichier, en particulier pour les navigateurs et autres clients qui ne prennent pas en charge les chemins complets dans un nom de fichier.  |
+| `uploadParams` (obligatoire). Un document `uploadParams` XML spécifiant les paramètres de chargement)   |   `companyHandle`  |  `xsd:string`  | Obligatoire. Gérer vers la société vers laquelle le fichier est en cours de chargement. |
+| `uploadParams` (obligatoire). Un document `uploadParams` XML spécifiant les paramètres de chargement) | `jobName`  |  `xsd:string`  | Vous devez indiquer `jobName` ou `jobHandle`. Nom de la tâche de chargement. |
+| `uploadParams` (obligatoire). Un document `uploadParams` XML spécifiant les paramètres de chargement) | `jobHandle`  |  `xsd:string`  | Vous devez indiquer `jobName` ou `jobHandle`. Gérer vers une tâche de chargement démarrée dans une requête précédente. |
+| `uploadParams` (obligatoire). Un document `uploadParams` XML spécifiant les paramètres de chargement) | `locale`  |  `xsd:string`  | Facultatif. Code de langue et de pays pour la localisation. |
+| `uploadParams` (obligatoire). Un document `uploadParams` XML spécifiant les paramètres de chargement) | `description`  |  `xsd:string`  | Facultatif. Description du traitement. |
+| `uploadParams` (obligatoire). Un document `uploadParams` XML spécifiant les paramètres de chargement) | `destFolder`  |  `xsd:string`  | Facultatif. Chemin du dossier cible à ajouter à une propriété de nom de fichier, en particulier pour les navigateurs et autres clients qui ne prennent pas en charge les chemins complets dans un nom de fichier. |
 | `uploadParams` (obligatoire). Un document `uploadParams` XML spécifiant les paramètres de chargement) | `fileName`  |  `xsd:string`  | Facultatif. Nom du fichier cible. Il remplace la propriété filename. |
 | `uploadParams` (obligatoire). Un document `uploadParams` XML spécifiant les paramètres de chargement) | `endJob`  |  `xsd:boolean`  | Facultatif. Faux par défaut. |
 | `uploadParams` (obligatoire). Un document `uploadParams` XML spécifiant les paramètres de chargement) | `uploadParams`  |  `types:UploadPostJob`  | Facultatif s’il s’agit d’une demande ultérieure pour un traitement actif existant. S’il existe une tâche, `uploadParams` est ignoré et les paramètres de chargement de tâche existants sont utilisés. Voir [UploadPostJob](types/c-data-types/r-upload-post-job.md#reference-bca2339b593f4637a687c33937215ef4) |
@@ -212,3 +208,4 @@ Server: Unknown
 <?xml version='1.0' encoding='UTF-8'?><tns:authenticationFault xmlns:tns="http://www.scene7.com/IpsApi/xsd"><tns:code>10001</tns:code><tns:reason>Invalid username/password</tns:reason></tns:authenticationFault> 
  
 ```
+
