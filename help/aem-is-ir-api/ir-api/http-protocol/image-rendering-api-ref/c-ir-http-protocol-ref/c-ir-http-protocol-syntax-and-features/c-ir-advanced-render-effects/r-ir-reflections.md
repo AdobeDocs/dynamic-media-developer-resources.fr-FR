@@ -6,14 +6,10 @@ feature: Dynamic Media Classic,SDK/API
 role: Developer,User
 exl-id: f67ede68-03c0-461f-a16d-a308f76fd24c
 TQID: 'https://experienceleague.adobe.com/IzqnNnq7aFgXgEYQ6MJwxqnajYSJlULdEKxaa0OtGWI'
-product_v2:
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+product_v2: id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 140
 ht-degree: 3%
@@ -61,3 +57,4 @@ Si tel est le cas, les attributs de matériau suivants sont utilisés pour défi
 Le moteur de rendu ajuste la plage de l’attribut `gloss=` et `rough=` en fonction des `type=`. Certains types de matériaux, comme le tissu, sont moins réfléchissants que d&#39;autres, comme la pierre ou le métal. De plus, une même quantité de brillance spécifiée pour l&#39;un entraîne souvent un effet de réflexion différent de l&#39;autre. La `gloss=` et la rugosité des attributs ont une gamme assez large si `type=` n’est pas spécifié ou est défini sur `0`.
 
 `glossmap=` Permet de contrôler la brillance d’un matériau pixel par pixel.
+
