@@ -61,7 +61,7 @@ ExportJob ne prend pas en charge les types de ressources suivants :
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL is_modifier]</span> </span> </p> </td> 
    <td colname="col2"> <p> <span class="codeph"> xsd:string </span> </p> </td> 
-   <td colname="col3"> <p>Indique la chaîne d’URL de rendu <span class="codeph"> ImageServer</span> ajoutée à la requête ExportJob <span class="codeph"> convert</span>. </p> <p>Pour plus d’informations sur l’envoi des modificateurs IS</a> consultez la documentation des services Internet <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html" scope="external" format="html"> . </p> </td> 
+   <td colname="col3"> <p>Indique la chaîne d’URL de rendu <span class="codeph"> ImageServer</span> ajoutée à la requête ExportJob <span class="codeph"> convert</span>. </p> <p>Pour plus d’informations sur l’envoi des modificateurs IS</a> consultez la documentation des services Internet <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html?lang=fr" scope="external" format="html"> . </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p> <span class="codeph"> <span class="varname"> [!DNL macro]</span> </span> </p> </td> 
