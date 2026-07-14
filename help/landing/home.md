@@ -6,9 +6,14 @@ role: Developer,User
 exl-id: be0763ba-f343-4dd0-8146-1facb4cd5b0b
 autotag-review: '2026-05-13T22:12:49.882Z'
 TQID: 'https://experienceleague.adobe.com/9Bnz7h6NsdXLne1R2SOIoQqexAmqFk28-MWSwNR23fY'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: c2bf256617b8e883aec5700325b0cfef3b284f1d
 workflow-type: tm+mt
 source-wordcount: 132
@@ -18,7 +23,7 @@ ht-degree: 0%
 
 # Ressources pour les développeurs [!DNL Dynamic Media]{#dynamic-media-developer-resource}
 
-* Guide de référence des visionneuses [](/help/aem-viewers-ref/homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html) -->
+* Guide de référence des visionneuses [&#128279;](/help/aem-viewers-ref/homeviewers.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html) -->
 Personnalisez les visionneuses [!DNL Dynamic Media] à utiliser sur les ordinateurs de bureau et les écrans tactiles. Parmi les types de médias utilisables, vous pouvez citer les images et vidéos interactives, les vidéos à 360 degrés, les carrousels, le zoom d’image, les vidéos, les catalogues électroniques, les vidéos, les vidéos, les supports variés et les visionneuses à 360°.
 * [API de diffusion d’images/rendu d’images](/help/aem-is-ir-api/homeisir.md)<!-- (https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html) -->
 Documentation sur les API IS (Image Serving) et IR (Image Rendering), et les technologies associées. Si vous travaillez sur une intégration [!DNL Dynamic Media] Classic avec Adobe Experience Manager, vous devez vous reporter à la partie IS de l’API.
