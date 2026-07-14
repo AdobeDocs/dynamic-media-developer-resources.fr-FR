@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 125
 ht-degree: 1%
@@ -29,3 +29,4 @@ Le type MIME de la réponse HTTP est déterminé par `fmt=` ou, si `fmt=` n’es
 Le statut de la réponse HTTP est « 200 OK » si la méthode de requête était une `GET` ou une `HEAD` inconditionnelle.
 
 Le serveur peut répondre avec le statut &#39;304&#39; (non modifié) et ne pas renvoyer de données d’image en réponse à une demande de `GET` conditionnelle (avec le champ [!DNL If-Modified-Since] présent dans le `request-header`).
+

@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 81
 ht-degree: 0%
@@ -27,3 +27,4 @@ Le rendu des images est configuré avec `fileinstall_folder/conf/ImageRendering.
 Reportez-vous à la section Configuration de la documentation pour plus d’informations. Sous Windows uniquement, ce fichier est également accessible à partir du menu Démarrer : **[!UICONTROL menu Démarrer]** > **[!UICONTROL Programmes]** > **[!UICONTROL Scene7]** > **[!UICONTROL Modifier le fichier de configuration du rendu d’image]**.
 
 Pour arrêter et démarrer le rendu des images, reportez-vous à la documentation du service d’images. Le rendu d’image ne peut pas être arrêté ou démarré séparément du service d’images.
+

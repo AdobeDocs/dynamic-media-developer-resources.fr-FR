@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 98
 ht-degree: 0%
@@ -27,3 +27,4 @@ Toutes les références `$var$` qui se produisent n&#39;importe où dans les acc
 Permet de placer les requêtes étrangères incorporées dans un modèle de catalogue d’images.
 
 Les valeurs de variable qui doivent être remplacées dans des requêtes étrangères doivent généralement être codées deux fois, car aucun recodage n’est appliqué avant que le serveur ne tente de transmettre l’url étrangère finale.
+

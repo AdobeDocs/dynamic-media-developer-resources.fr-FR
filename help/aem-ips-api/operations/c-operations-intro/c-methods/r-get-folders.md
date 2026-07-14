@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: ba0745708154402d9b6c7ebf0554deb366dde11b
 workflow-type: tm+mt
 source-wordcount: 240
 ht-degree: 7%
@@ -26,8 +26,7 @@ Renvoie tous les dossiers et sous-dossiers, en commençant par le chemin du doss
 
 ## Objectif des dossiers {#section-66e344d5333f42f1b060a0cba25935c3}
 
-Un dossier vous permet d’organiser les sous-dossiers et les ressources. Tous les noms de dossier et de ressource doivent être uniques. Les dossiers et les ressources qui partagent le même nom provoquent un conflit d’espace de noms, même s’ils se trouvent dans des hiérarchies de dossiers différentes.
-Syntaxe
+Un dossier vous permet d’organiser les sous-dossiers et les ressources. Tous les noms de dossier et de ressource doivent être uniques. Les dossiers et les ressources qui partagent le même nom provoquent un conflit d’espace de noms, même s’ils se trouvent dans des hiérarchies de dossiers différentes.Syntaxe
 
 ## Types d’utilisateurs autorisés {#section-0dc7e17cb60f4cf7bcdb76648e5d2f8e}
 
@@ -101,3 +100,4 @@ Cet exemple de code renvoie un tableau qui contient tous les dossiers d’une en
    </folderArray>
 </getFoldersReturn>
 ```
+

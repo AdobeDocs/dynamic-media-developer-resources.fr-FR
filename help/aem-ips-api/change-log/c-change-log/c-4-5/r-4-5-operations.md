@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4185012f22b173b569d11ea4d350763a82f98710
 workflow-type: tm+mt
 source-wordcount: 100
 ht-degree: 1%
@@ -52,3 +52,4 @@ Syntaxe
 * `saveMetadataField` comprend un paramètre de `isHidden` facultatif.
 * `searchAssets`
 * Le paramètre `renameFiles` a été abandonné pour les versions antérieures et supprimé de l’opération `renameAsset`. Le chemin d’accès au fichier virtuel est modifié pour correspondre au nouveau nom de ressource (en préservant l’extension de fichier), tandis que les chemins d’accès aux fichiers physiques ne sont pas affectés. Les clients d’API doivent supprimer les références à ce paramètre lors de la mise à jour vers la nouvelle version de l’API.
+

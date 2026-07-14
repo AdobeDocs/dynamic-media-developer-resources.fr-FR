@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4185012f22b173b569d11ea4d350763a82f98710
 workflow-type: tm+mt
 source-wordcount: 148
 ht-degree: 0%
@@ -37,3 +37,4 @@ L’API IPS utilise les protocoles SOAP et HTTP standard et est compatible avec 
 >* [Types de données](types/c-data-types/c-data-types.md#concept-dcf2ce73ff334e22bc4c634e3a0a50a6)
 >* [Constantes de chaîne](string-constants/c-string-constants/c-string-constants.md)
 >* [Erreurs](faults/c-faults/c-faults.md#concept-28c5e495f39443ecab05384d8cf8ab6b)
+

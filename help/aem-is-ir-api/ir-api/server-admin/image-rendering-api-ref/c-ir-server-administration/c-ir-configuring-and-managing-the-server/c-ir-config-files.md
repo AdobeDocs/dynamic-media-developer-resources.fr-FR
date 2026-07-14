@@ -16,7 +16,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 122
 ht-degree: 0%
@@ -30,3 +30,4 @@ Les paramètres de configuration du rendu d’image sont stockés dans le fichie
 Le fichier de configuration du serveur Platform se trouve à l’emplacement suivant : [!DNL *[!DNL install_root]*/ImageServing/conf/PlatformServer.conf]. Ce fichier est un fichier de propriétés JAVA. Veillez à respecter les conventions appropriées, sinon le [!DNL Platform Server] risque de ne pas démarrer. Une double barre oblique inverse (`\\`) ou une simple barre oblique inverse (/) doit être utilisée au lieu d’une simple barre oblique inverse (\) dans les chemins d’accès aux fichiers Windows, car la barre oblique inverse est utilisée comme caractère d’échappement dans ce type de fichier. Le fichier contient des propriétés non documentées, qui sont destinées à une utilisation interne au serveur et ne doivent pas être modifiées.
 
 Pour obtenir la liste de tous les paramètres de configuration de rendu d’image[&#128279;](../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-configuration-settings-reference.md#concept-6947a512d4c94e9fb8a71b80243fee81) reportez-vous à la  Référence des paramètres de configuration .
+

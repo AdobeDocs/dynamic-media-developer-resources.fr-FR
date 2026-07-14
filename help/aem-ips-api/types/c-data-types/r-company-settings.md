@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: b658a9f9067d2313c1c838c7e157f4070ebc2b50
 workflow-type: tm+mt
 source-wordcount: 244
 ht-degree: 2%
@@ -41,3 +41,4 @@ Syntaxe
 | diskSpaceWarningMin | `xsd:int` | Quantité minimale d’espace disque disponible dans le répertoire d’images avant l’envoi d’un avertissement. |
 | emailTrashCleanupWarning | `xsd:boolean` | Détermine s&#39;il faut envoyer des e-mails avant que les éléments de corbeille ne soient automatiquement supprimés. |
 | javascriptUploadEnabled | `types:Asset` | Détermine s’il faut charger les fichiers JavaScript. Cette option présente un risque potentiel pour la sécurité. Utilisez-la avec précaution. |
+

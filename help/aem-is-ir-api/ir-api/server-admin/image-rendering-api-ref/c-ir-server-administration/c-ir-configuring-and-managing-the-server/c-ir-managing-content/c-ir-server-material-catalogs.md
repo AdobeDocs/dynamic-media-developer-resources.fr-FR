@@ -17,7 +17,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 108
 ht-degree: 0%
@@ -31,3 +31,4 @@ Les catalogues de matériaux fournissent de nombreux paramètres de configuratio
 Les catalogues de matériaux mappent la vignette et les ID de matériaux utilisés dans les demandes aux chemins d&#39;accès aux fichiers réels, peuvent stocker toutes les métadonnées associées aux matériaux et fournir des conteneurs pour les modèles. Ils effectuent le suivi des profils ICC et des macros de commande.
 
 Les catalogues de matériaux sont accessibles uniquement par le composant Java du rendu d’image (co-situé avec le [!DNL Platform Server]). Les fichiers d’attributs de catalogue doivent comporter un suffixe [!DNL .ini] et être placés dans le dossier de catalogue enregistré ([ir.catalogRootPath](../../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-catalog-folder.md#concept-1c1d308112054bb99e3895c3fb8ca5f7)). Le catalogue de matériaux par défaut ( [!DNL default.ini]) doit toujours être présent et doit être renseigné avec tous les attributs pour le bon fonctionnement de la diffusion d’images.
+

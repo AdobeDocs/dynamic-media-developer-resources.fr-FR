@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 83717f155466c1b33cab6f1f8830a9fea68c88c5
 workflow-type: tm+mt
 source-wordcount: 187
 ht-degree: 2%
@@ -52,3 +52,4 @@ Syntaxe
 | fatalError | `xsd:boolean` | Indique si le traitement a généré une erreur irrécupérable. |
 | detailTotalRows | `xsd:int` | Nombre total de lignes correspondant à la requête, qui peut être supérieur à la taille de `detailArray` en raison des limites de taille de page. |
 | detailArray | `types:JobLogDetailArray` | Tableau de détails sur la tâche consignée. |
+

@@ -16,7 +16,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 78
 ht-degree: 0%
@@ -28,3 +28,4 @@ ht-degree: 0%
 Le rendu d’image tire parti des fonctionnalités de mise en cache de la diffusion d’images pour enregistrer les données d’image de réponse, les données intermédiaires pour les requêtes imbriquées/intégrées et les données d’image source (telles que les textures) obtenues à partir d’une source externe.
 
 Reportez-vous à la section Documentation du service d’images pour une description des mécanismes de mise en cache.
+

@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: ba0745708154402d9b6c7ebf0554deb366dde11b
 workflow-type: tm+mt
 source-wordcount: 90
 ht-degree: 11%
@@ -68,3 +68,4 @@ Cet exemple de code supprime une tâche en cours d’exécution ou planifiée da
 **Réponse**
 
 Aucune
+

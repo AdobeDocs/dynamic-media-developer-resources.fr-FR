@@ -17,7 +17,7 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 70c478ebbe0b38d9e35c1bb26074a458c0197b2b
 workflow-type: tm+mt
 source-wordcount: 89
 ht-degree: 0%
@@ -32,3 +32,4 @@ Après l’installation, configurez les services à exécuter sous l’autre com
 1. Sélectionnez **[!UICONTROL Paramètres de sécurité]** > **[!UICONTROL Politiques locales]** > **[!UICONTROL Attribution des droits utilisateur]**.
 1. Double-cliquez sur la stratégie **[!UICONTROL Ouvrir une session en tant que service]**.
 1. Sélectionnez **[!UICONTROL Ajouter...]** et sélectionnez l’utilisateur ou le groupe, puis sélectionnez **[!UICONTROL Ok]** pour confirmer.
+

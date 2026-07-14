@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 162
 ht-degree: 0%
@@ -29,3 +29,4 @@ Le serveur remplace ces références par des valeurs (provenant de l’URL ou de
 En outre, toutes les définitions de `$ *[!DNL var]*=` de l’URL et du `catalog::Modifier` sont transférées à toutes les requêtes de diffusion d’images et de rendu d’images imbriquées. Cela permet de s’assurer que toutes les définitions de variable sont disponibles pour tous les modèles, quel que soit le niveau d’imbrication.
 
 Quel que soit le niveau d’imbrication, seul le codage HTTP à une seule passe doit être appliqué aux valeurs de variable qui doivent être remplacées n’importe où dans les requêtes de rendu d’image ou de diffusion d’image imbriquées.
+

@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: b658a9f9067d2313c1c838c7e157f4070ebc2b50
 workflow-type: tm+mt
 source-wordcount: 29
 ht-degree: 17%
@@ -36,3 +36,4 @@ Syntaxe
 | [!DNL name] | `xsd:string` | Nom de la société. |
 | rootPath | `xsd:string` | Chemin racine de la société. |
 | [!DNL expires] | `xsd:dateTime` | Date et heure d’expiration de l’entreprise. |
+

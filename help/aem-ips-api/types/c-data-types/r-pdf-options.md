@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 83717f155466c1b33cab6f1f8830a9fea68c88c5
 workflow-type: tm+mt
 source-wordcount: 68
 ht-degree: 10%
@@ -36,3 +36,4 @@ Syntaxe
 | pdfCatalog | `xsd:boolean` | Permet de combiner un PDF de plusieurs pages dans un catalogue électronique après le rendu (la valeur par défaut est true). |
 | extractSearchWords | `xsd:boolean` | Extraction de mots de recherche à partir du fichier PDF |
 | extractLinks | `xsd:boolean` | Extraction de liens PDF dans des zones cliquables affectées aux pages pixellisées dans IPS. |
+

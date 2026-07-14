@@ -15,10 +15,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4185012f22b173b569d11ea4d350763a82f98710
 workflow-type: tm+mt
-source-wordcount: 83
-ht-degree: 1%
+source-wordcount: 85
+ht-degree: 3%
 
 ---
 
@@ -95,3 +95,4 @@ Syntaxe
 
 * A Supprimé `getXMPPanelViewDefinition`.
 * Suppression de `searchAssetsByFulltext` et `searchAssetsBySimilarity`.
+

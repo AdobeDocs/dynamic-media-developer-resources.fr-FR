@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 83717f155466c1b33cab6f1f8830a9fea68c88c5
 workflow-type: tm+mt
 source-wordcount: 64
 ht-degree: 14%
@@ -52,8 +52,7 @@ Assets conserve un marqueur distinct pour chaque état et contexte de publicatio
   <tr>
    <td colname="col1"><span class="codeph"><span class="varname"> contextType</span></span></td>
    <td colname="col2"><span class="codeph"> xsd:string</span></td>
-   <td colname="col3">Type de contexte de publication. Inclut : 
-    <ul id="ul_04CA7C755E5441AA8ABBD0BA3F245A78">
+   <td colname="col3">Type de contexte de publication. Inclut : <ul id="ul_04CA7C755E5441AA8ABBD0BA3F245A78">
      <li id="li_7F578422D38E40D1A590AB21ADD84E90"><span class="codeph"> Diffusion d’images</span></li>
      <li id="li_C112E12028E44ED7914ED0D3D6B3A45E"><span class="codeph"> ImageRendering</span></li>
      <li id="li_9430D600FA4343F6951F9AE8EA7F9530"><span class="codeph"> Vidéo</span></li>
@@ -66,3 +65,4 @@ Assets conserve un marqueur distinct pour chaque état et contexte de publicatio
 >[!MORELIKETHIS]
 >
 >* [Contexte de publication](../../string-constants/c-string-constants/r-publish-context.md#reference-3ade116df0df40deb86154eb0ac7c12a)
+

@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 161
 ht-degree: 1%
@@ -35,3 +35,4 @@ Cette rubrique décrit la syntaxe d&#39;utilisation de vntc.
 Obligatoire.
 
 *[!DNL destFile]* est le chemin d’accès et le nom du fichier de vignette de sortie. S’il n’est pas spécifié, le fichier de sortie est placé dans le dossier spécifié avec `-destpath`. Dans ce scénario, le nom du fichier est automatiquement généré à partir du nom du fichier d’entrée et d’un suffixe de taille, séparés par la chaîne spécifiée par `-separator`. Pour les vignettes, le suffixe de taille est la largeur en pixels de la vignette de sortie à résolution unique, la largeur de la première vue d&#39;une vignette de sortie à résolution multiple ou « 0 » s&#39;il existe une vignette pyramidale. Pour les fichiers de style CAB, la résolution de sortie est utilisée comme suffixe de fichier. *[!DNL destFile]* est ignoré lorsque `-info` est spécifié.
+

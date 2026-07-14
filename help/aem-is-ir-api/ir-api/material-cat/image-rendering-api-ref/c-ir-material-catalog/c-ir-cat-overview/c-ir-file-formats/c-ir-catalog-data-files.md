@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 301
 ht-degree: 0%
@@ -43,3 +43,4 @@ Les colonnes dont le nom commence par &#39;.&#39; sont ignorées ; cela permet d
 Les noms de champ peuvent être constitués de n’importe quelle combinaison de lettres ASCII, de chiffres et de caractères « - » et « _ ».
 
 Une ou plusieurs colonnes peuvent être utilisées comme clés d’index. Si la même clé apparaît plusieurs fois dans le même fichier de données, l’instance la plus récente prévaut.
+

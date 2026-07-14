@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: f6432244ef9faba7a81488e9de8e438154ae6123
 workflow-type: tm+mt
 source-wordcount: 269
 ht-degree: 0%
@@ -39,3 +39,4 @@ Les libellés définis dans Dynamic Media Classic sont stockés dans l’enregis
 Les libellés générés automatiquement sont des numéros séquentiels affectés à toutes les pages du catalogue électronique. Les libellés générés automatiquement sont ignorés pour la planche donnée si des libellés basés sur des symboles ou des libellés Dynamic Media Classic sont définis.
 
 Dans la table des matières, il est possible de désactiver l’affichage des libellés générés automatiquement à l’aide du paramètre `showdefault`.
+

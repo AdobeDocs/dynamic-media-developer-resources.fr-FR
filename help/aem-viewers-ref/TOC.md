@@ -4,7 +4,7 @@ user-guide-title: Guide de référence des visionneuses Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: Personnalisez les visionneuses Dynamic Media à utiliser sur les ordinateurs de bureau et les appareils à écran tactile. Incluez des images et des vidéos interactives, des carrousels, des visionneuses à 360°, etc.
 nudge: true
-source-git-commit: 5e773e1a1bc410e7df7a560e00c1ae12dbfb16d2
+source-git-commit: b40d8ed938698a776b4ca6eb8f456b40ad6060f6
 workflow-type: tm+mt
 source-wordcount: '2082'
 ht-degree: 1%
@@ -199,7 +199,7 @@ ht-degree: 1%
    + Recherche catalogue électronique {#ecatalog-search}
       + [Recherche catalogue électronique](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/c-html5-ecatsearch-viewer-about.md)
       + Référence des commandes - Attributs de configuration {#command-reference-configuration-attributes-ecatalog-search}
-         + [Référence des commandes - Attributs de configuration](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib.md)
+         + [Référence de commande C - Attributs de configuration](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib.md)
          + [Closebutton](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-closebutton.md)
          + [ControlBar.transition](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-controlbar-transition.md)
          + [direction](c-html5-s7-aem-asset-viewers/c-html5-ecatsearch-viewer-about/r-html5-ecatsearch-config-attrib/r-html5-ecatsearch-config-attrib-direction.md)

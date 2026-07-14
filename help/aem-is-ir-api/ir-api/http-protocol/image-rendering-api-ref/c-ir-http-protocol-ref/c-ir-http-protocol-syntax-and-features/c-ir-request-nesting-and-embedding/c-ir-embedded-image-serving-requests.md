@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 183
 ht-degree: 0%
@@ -48,3 +48,4 @@ Les `attribute::MaxPix` et `attribute::DefaultPix` du catalogue d’images qui s
 Si l’image de résultat de la requête imbriquée inclut des données de masque (alpha), elle est toujours transmise au matériau. Utilisez un calque d’image d’arrière-plan en couleur unie pour éviter les caractères alpha indésirables.
 
 Le résultat de l’image d’une requête IS incorporée peut être mis en cache en incluant éventuellement `cache=on`. Par défaut, la mise en cache des données intermédiaires est désactivée. La mise en cache ne doit être activée que lorsque l’image intermédiaire est réutilisée dans une autre requête dans un délai raisonnable. La gestion standard du cache côté serveur s’applique. Les données sont mises en cache dans un format sans perte.
+

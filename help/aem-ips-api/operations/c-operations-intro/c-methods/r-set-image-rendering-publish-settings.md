@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 6762cee83f1b7c970ed6353450c2ae6c602e7f3a
 workflow-type: tm+mt
 source-wordcount: 60
 ht-degree: 15%
@@ -35,3 +35,4 @@ Syntaxe
 | companyHandle | `xsd:string` | Oui | Identifiant de la société. |
 | publishSettingsArray | `types:ConfigSettingArray` | Oui | Pour les développeurs Scene 7 uniquement. |
 | contextHandle | `xsd:string` | Non | Gérer vers le contexte de publication. |
+

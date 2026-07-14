@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: b658a9f9067d2313c1c838c7e157f4070ebc2b50
 workflow-type: tm+mt
 source-wordcount: 78
 ht-degree: 6%
@@ -32,3 +32,4 @@ Syntaxe
 |---|---|---|
 | ccOriginator | `xsd:boolean` | Si la valeur est true, inclut le compte d’utilisateur du service web de l’utilisateur, qui est une liste d’e-mails désignés pour recevoir une confirmation par e-mail du réseau CDN Dynamic Media. |
 | ccOtherArray | `types:EmailArray` | Tableau d’adresses e-mail (5 au maximum) désignées pour recevoir la notification de confirmation du réseau CDN Dynamic Media. |
+

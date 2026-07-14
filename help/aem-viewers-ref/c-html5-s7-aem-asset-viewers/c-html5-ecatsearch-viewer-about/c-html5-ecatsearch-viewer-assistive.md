@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: f6432244ef9faba7a81488e9de8e438154ae6123
 workflow-type: tm+mt
 source-wordcount: 398
 ht-degree: 0%
@@ -43,3 +43,4 @@ Les listes déroulantes sont activées par des boutons avec un attribut `aria-ha
 L’interface utilisateur de recherche est regroupée dans l’élément avec le rôle `search`. Le champ de saisie de recherche comporte le `searchbox` de rôle et fait référence au libellé informatif contrôlé par `SearchPanel.INFO_PROMPT` symbole de localisation avec l’attribut `aria-describedby`.
 
 Les boîtes de dialogue modales ont le rôle `dialog`. L’élément d’en-tête de la boîte de dialogue est référencé par l’attribut `aria-labelledby` .
+

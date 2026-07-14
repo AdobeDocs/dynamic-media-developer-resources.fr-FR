@@ -16,7 +16,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 49c3ac586f6fb17608838f8dcf2c637822314fc7
 workflow-type: tm+mt
 source-wordcount: 258
 ht-degree: 0%
@@ -42,3 +42,4 @@ Si aucun catalogue d’images n’est impliqué, le chemin d’accès est combin
 L’emplacement physique des fichiers de données sources est généralement spécifié avec [ir.resourceRootPaths](../../../../../../ir-api/server-admin/image-rendering-api-ref/c-ir-server-administration/c-ir-configuration-settings-reference/c-ir-resource-root-folders.md#concept-39a34d2239934079bb396e1bf568a9c2). Plusieurs valeurs peuvent être spécifiées pour permettre la distribution des fichiers de données sources sur plusieurs systèmes de fichiers. Le serveur de rendu tente d’accéder à chaque chemin dans l’ordre spécifié jusqu’à ce que le fichier de données soit trouvé.
 
 Il est possible d’ajouter de nouveaux fichiers de données de n’importe quel type à tout moment sans arrêter le serveur.
+

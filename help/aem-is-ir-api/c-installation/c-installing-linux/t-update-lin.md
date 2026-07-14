@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 70c478ebbe0b38d9e35c1bb26074a458c0197b2b
 workflow-type: tm+mt
 source-wordcount: 204
 ht-degree: 0%
@@ -44,3 +44,4 @@ Le dossier [!DNL webapps] peut être supprimé lors de la mise à niveau. Sauveg
 Lors d’une mise à jour, le fichier [!DNL ImageServing/conf/server.xml] est mis à jour aux derniers paramètres. Si vous avez modifié ou ajouté des valeurs, enregistrez vos [!DNL server.xml] existantes et implémentez à nouveau vos modifications après la mise à niveau.
 
 Après une installation de mise à jour, envisagez de préchauffer le cache de réponse HTTP avant de mettre le serveur en ligne. Reportez-vous à la description de l’utilitaire [!DNL playlog] pour plus d’informations.
+

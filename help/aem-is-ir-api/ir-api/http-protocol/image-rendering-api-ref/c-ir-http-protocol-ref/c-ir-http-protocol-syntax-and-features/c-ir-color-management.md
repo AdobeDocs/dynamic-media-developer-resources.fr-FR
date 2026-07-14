@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+source-git-commit: 4339f336345d7d7f3c05c7f5a18fbd28bcfd382b
 workflow-type: tm+mt
 source-wordcount: 741
 ht-degree: 0%
@@ -83,3 +83,4 @@ Tous les profils de couleurs utilisés par le serveur doivent être conformes à
 Bien que les profils de sortie puissent être spécifiés par chemin/nom de fichier dans la commande `icc=`, il est recommandé d&#39;enregistrer tous les fichiers de profil dans la carte de profil ICC du catalogue par défaut ou d&#39;un catalogue de matériaux spécifique et d&#39;utiliser des identifiants de raccourci ( `icc::Name`) au lieu des chemins de fichier.
 
 Les profils de travail doivent être enregistrés dans la carte de profil ICC du catalogue de matériaux ou du catalogue par défaut.
+

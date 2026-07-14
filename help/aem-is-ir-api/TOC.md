@@ -4,7 +4,8 @@ user-guide-title: API de diffusion et de rendu d’images Dynamic Media
 breadcrumb-title: API de diffusion et de rendu d’images Dynamic Media
 feature-set: Experience Manager Assets
 user-guide-description: Consultez la documentation sur les API IS (Image Serving) et IR (Image Rendering) et les technologies associées.
-source-git-commit: 6c2c23327affd02708d05bff3859cf8da746eabf
+nudge: true
+source-git-commit: f2f81d61572ac294b836be02e46797b83f4f21cf
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 7%
