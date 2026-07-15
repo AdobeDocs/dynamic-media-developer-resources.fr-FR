@@ -15,7 +15,7 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 939895a2a379b02e733e48932434433bfa9663e1
+source-git-commit: 9cbaa81231198414806938d25961167788e93789
 workflow-type: tm+mt
 source-wordcount: 291
 ht-degree: 0%
@@ -158,3 +158,4 @@ Exemple : pour configurer des libellés avec une police Helvetica® de 14 pixels
  font-size: 14px; 
 }
 ```
+

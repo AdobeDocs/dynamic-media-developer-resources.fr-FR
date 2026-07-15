@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 939895a2a379b02e733e48932434433bfa9663e1
+source-git-commit: 9cbaa81231198414806938d25961167788e93789
 workflow-type: tm+mt
 source-wordcount: 103
 ht-degree: 0%
@@ -36,3 +36,4 @@ Dans tous les exemples suivants, `<instance>` signifie le nom réel de l’objet
 * [setLocalizedTexts](r-html5-ecatsearch-javascriptapiref-setlocalizedtexts.md)
 * [setParam](r-html5-ecatsearch-javascriptapiref-setparam.md)
 * [setParams](r-html5-ecatsearch-javascriptapiref-setparams.md)
+

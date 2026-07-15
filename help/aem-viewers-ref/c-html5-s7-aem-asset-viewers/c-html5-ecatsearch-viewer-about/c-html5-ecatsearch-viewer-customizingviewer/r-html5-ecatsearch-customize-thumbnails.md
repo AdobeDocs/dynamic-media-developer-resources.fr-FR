@@ -13,7 +13,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 939895a2a379b02e733e48932434433bfa9663e1
+source-git-commit: 9cbaa81231198414806938d25961167788e93789
 workflow-type: tm+mt
 source-wordcount: 920
 ht-degree: 0%
@@ -406,3 +406,4 @@ Exemple : pour configurer des boutons de défilement de 28 x 32 pixels avec des 
  background-image:url(images/v2/ThumbnailScrollDownButton_dark_up.png); 
 }
 ```
+
