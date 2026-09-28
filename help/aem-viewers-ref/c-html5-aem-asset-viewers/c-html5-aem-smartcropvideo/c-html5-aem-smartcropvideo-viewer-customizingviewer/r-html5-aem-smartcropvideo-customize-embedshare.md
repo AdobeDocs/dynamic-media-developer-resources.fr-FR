@@ -9,18 +9,37 @@ exl-id: d5f8db82-f1f9-45be-990d-ebfef97507b6
 TQID: 'https://experienceleague.adobe.com/tcVFYRTmobtTJo01ub86IgjoYzHvfIpbl9YN1-azHjE'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+  - id: fe490c45-63fa-5b99-b5b4-d8cfeda8aa7d
+    internal-label: SDK/API
+  - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+    internal-label: Dynamic Media
+  - id: d4b6216b-4a89-4ff0-8ac0-5a699ba23100
+    internal-label: Images and videos
+subfeature_v2:
+  - id: c12bda38-aa1a-4647-b62e-42cd4537dac6
+    internal-label: Dynamic Media Classic
+  - id: d17d085a-e808-49dd-b9a6-85a996b999bd
+    internal-label: Viewers
+  - id: a0cde32c-c339-4649-bd06-f1111bc952fc
+    internal-label: Smart Crop
+  - id: cb04d42d-1b70-43b0-9951-45998eb6e842
+    internal-label: Video
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+    internal-label: Developer
+source-git-commit: 0e24e07f8c91d3e7fda5510ed4252f9953e27467
 workflow-type: tm+mt
-source-wordcount: 2667
+source-wordcount: '2667'
 ht-degree: 0%
-
 ---
-
 # Incorporer le partage{#embed-share}
 
 L’outil Incorporer le partage se compose d’un bouton ajouté au panneau Partage sur les réseaux sociaux et à la boîte de dialogue modale qui s’affiche lorsque l’outil est activé. La position du bouton est entièrement gérée par l’outil de partage sur les réseaux sociaux.
@@ -339,7 +358,7 @@ Le pied de boîte de dialogue se compose du bouton « Annuler ». Le conteneur d
 .s7smartcropvideoviewer .s7embeddialog .s7dialogfooter
 ```
 
-**Propriétés CSS du &#x200B;** de pied de boîte de dialogue
+**Propriétés CSS du ** de pied de boîte de dialogue
 
 <table id="table_0AF7AAAB846A46D690896AFD68575669"> 
  <tbody> 
@@ -604,7 +623,7 @@ Tous les libellés statiques du formulaire de boîte de dialogue sont contrôlé
 
 Cette classe ne convient pas pour contrôler la taille ou la position des libellés, car vous pouvez l’appliquer à des textes à différents endroits de l’interface utilisateur du formulaire.
 
-**Propriétés CSS du libellé de la boîte de dialogue. &#x200B;**
+**Propriétés CSS du libellé de la boîte de dialogue. **
 
 <table id="table_13C7874807314ADD83A23075ABB4C340"> 
  <tbody> 
