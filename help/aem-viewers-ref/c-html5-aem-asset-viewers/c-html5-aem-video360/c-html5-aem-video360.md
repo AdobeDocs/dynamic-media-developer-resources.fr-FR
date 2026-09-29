@@ -8,28 +8,32 @@ exl-id: 74dca3f6-ce89-4c5b-8459-c2c4ca8ed27c
 TQID: 'https://experienceleague.adobe.com/exFQtdLDWST-H5pFv3m-q7eGCgtjrYe-TgxQal6VA48'
 product_v2:
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 2ff64206b7448a1a122696facd2669be68b6b9ff
+    internal-label: Security
+source-git-commit: dd9621ba856ee23cfaab63ba430118bccdf0b515
 workflow-type: tm+mt
-source-wordcount: 2620
+source-wordcount: '2621'
 ht-degree: 0%
-
 ---
-
 # Video360{#video}
 
 La visionneuse HTML5 Video360 est un lecteur vidéo à 360 degrés qui lit de la vidéo en flux continu et en vidéo progressive 360 codée au format H.264, diffusée à partir de Dynamic Media Classic ou de Adobe Experience Manager, Dynamic Media.
 
 Les vidéos à 360 degrés, également appelées vidéos immersives ou vidéos sphériques, sont des enregistrements vidéo où une vue dans toutes les directions est enregistrée en même temps, filmée à l’aide d’une caméra omnidirectionnelle ou d’une collection de caméras. Les visionneuses de vidéos adaptatives et uniques sont prises en charge. La visionneuse prend également en charge l’utilisation de vidéos progressives et de flux HLS hébergés sur un emplacement externe.
 
-Le rapport d’aspect recommandé pour la vidéo 360 est de 2 :1. Le son spatial n’est pas pris en charge. La visionneuse est conçue pour fonctionner uniquement avec une vidéo 360. Toute tentative de lecture d’une vidéo autre que la vidéo 360 entraîne une distorsion de la lecture vidéo.
+Le rapport d’aspect recommandé pour la vidéo 360 est de 2:1. Le son spatial n’est pas pris en charge. La visionneuse est conçue pour fonctionner uniquement avec une vidéo 360. Toute tentative de lecture d’une vidéo autre que la vidéo 360 entraîne une distorsion de la lecture vidéo.
 
 La visionneuse est conçue pour fonctionner sur les navigateurs web de bureau et mobiles qui prennent en charge la vidéo HTML5. La visionneuse prend en charge les outils facultatifs de partage sur les réseaux sociaux.
 
@@ -54,7 +58,7 @@ La visionneuse HTML5 Video360 peut être utilisée en mode pop-up à l’aide d�
 
 La configuration et l’habillage sont similaires à ceux des autres visionneuses décrites dans ce guide. Toute application de la peau est réalisée au moyen de feuilles de style en cascade (CSS) personnalisées.
 
-Voir [&#x200B; Référence des commandes commune à toutes les visionneuses - Attributs de configuration &#x200B;](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) et [&#x200B; Référence des commandes commune à toutes les visionneuses - URL](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/c-html5-aem-video360-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
+Voir [ Référence des commandes commune à toutes les visionneuses - Attributs de configuration ](../../r-html5-viewer-20-cmdref-configattrib/r-html5-viewer-20-cmdref-configattrib.md#concept-850e0f2c49b949deb7cfbfd330d329bd) et [ Référence des commandes commune à toutes les visionneuses - URL](../../c-html5-aem-asset-viewers/c-html5-aem-video360/c-html5-aem-video360-cmdref-url/c-html5-aem-video360-cmdref-url.md#concept-9b337f349b7b406b8c33c7ee96b3e226)
 
 Le contenu vidéo 360 nécessite des paramètres de codage plus élevés que la vidéo standard non 360. En d’autres termes, le contenu 360 doit être de résolution supérieure à la vidéo 360 pour obtenir la même qualité perceptible. Il est recommandé de prendre en compte les paramètres prédéfinis de vidéo adaptative suivants pour la vidéo 360 :
 
@@ -144,22 +148,22 @@ Ajoutez la visionneuse à une page web en procédant comme suit :
 
    La création d’une visionneuse nécessite l’ajout d’une balise de script dans l’en-tête HTML. Avant de pouvoir utiliser l’API de visionneuse, veillez à inclure [!DNL Video360Viewer.js]. Le fichier [!DNL Video360Viewer.js] se trouve sous le sous-dossier [!DNL html5/js/] de votre déploiement d’observateurs IS standard :
 
-[!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/Video360Viewer.js]
+   [!DNL <s7viewers_root>/etc/dam/viewers/s7viewers/html5/js/Video360Viewer.js]
 
-Vous pouvez utiliser un chemin relatif si la visionneuse est déployée sur l’un des serveurs d’Adobe Dynamic Media Classic et qu’elle est diffusée à partir du même domaine. Sinon, vous spécifiez un chemin d’accès complet à l’un des serveurs Adobe Dynamic Media Classic sur lesquels les visionneuses IS sont installées.
+   Vous pouvez utiliser un chemin relatif si la visionneuse est déployée sur l’un des serveurs d’Adobe Dynamic Media Classic et qu’elle est diffusée à partir du même domaine. Sinon, vous spécifiez un chemin d’accès complet à l’un des serveurs Adobe Dynamic Media Classic sur lesquels les visionneuses IS sont installées.
 
-Le chemin d’accès relatif ressemble à ce qui suit :
+   Le chemin d’accès relatif ressemble à ce qui suit :
 
-```html {.line-numbers}
-<script language="javascript" type="text/javascript" src="/etc/dam/viewers/s7viewers/html5/js/InteractiveVideoViewer.js"></script>
-```
+   ```html {.line-numbers}
+   <script language="javascript" type="text/javascript" src="/etc/dam/viewers/s7viewers/html5/js/InteractiveVideoViewer.js"></script>
+   ```
 
->[!NOTE]
->
->Référencez uniquement le fichier de `include` JavaScript de la visionneuse principale sur votre page. Ne référencez aucun fichier JavaScript supplémentaire dans le code de page web qui pourrait être téléchargé par la logique de la visionneuse au moment de l’exécution. En particulier, ne référencez pas directement la bibliothèque de `Utils.js` SDK HTML5 chargée par la visionneuse à partir `/s7viewers` chemin de contexte (appelé `include` consolidée de SDK). En effet, l’emplacement des bibliothèques de visionneuse d’exécution `Utils.js` ou similaires est entièrement géré par la logique de la visionneuse et l’emplacement change entre les versions de la visionneuse. Adobe ne conserve pas les anciennes versions des `includes` secondaires de la visionneuse sur le serveur.
->
->
->Par conséquent, le fait de placer une référence directe à toute `include` JavaScript secondaire utilisée par la visionneuse sur la page interrompt la fonctionnalité de la visionneuse à l’avenir lorsqu’une nouvelle version du produit est déployée.
+   >[!NOTE]
+   >
+   >Référencez uniquement le fichier de `include` JavaScript de la visionneuse principale sur votre page. Ne référencez aucun fichier JavaScript supplémentaire dans le code de page web qui pourrait être téléchargé par la logique de la visionneuse au moment de l’exécution. En particulier, ne référencez pas directement la bibliothèque de `Utils.js` SDK HTML5 chargée par la visionneuse à partir `/s7viewers` chemin de contexte (appelé `include` consolidée de SDK). En effet, l’emplacement des bibliothèques de visionneuse d’exécution `Utils.js` ou similaires est entièrement géré par la logique de la visionneuse et l’emplacement change entre les versions de la visionneuse. Adobe ne conserve pas les anciennes versions des `includes` secondaires de la visionneuse sur le serveur.
+   >
+   >
+   >Par conséquent, le fait de placer une référence directe à toute `include` JavaScript secondaire utilisée par la visionneuse sur la page interrompt la fonctionnalité de la visionneuse à l’avenir lorsqu’une nouvelle version du produit est déployée.
 
 1. La définition du `DIV` de conteneur.
 
