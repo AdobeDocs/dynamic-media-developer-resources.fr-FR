@@ -1,61 +1,60 @@
 ---
 source-git-commit: 38f3e425be0ce3e241fc18b477e3f68b7b763b51
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '514'
 ht-degree: 0%
-
 ---
-# Contribution à la documentation d’Adobe Dynamic Media Developer Resources
+# Contribution à la documentation des ressources du développeur de Dynamic Media Adobe
 
-Merci d’avoir choisi de contribuer à la documentation des ressources pour les développeurs Dynamic Media Adobe. Nous nous félicitons des contributions au contenu de toute notre communauté de lecteurs et de nos collègues Adobes.
+Merci d’avoir choisi de contribuer à la documentation des ressources pour les développeurs de Dynamic Media d’Adobe ! Nous accueillons favorablement les contributions de l’ensemble de notre communauté de lecteurs et de nos collègues employés par Adobe.
 
-Ce fichier décrit comment contribuer et indique les instructions à suivre lors de l’apport de vos contributions.
+Ce fichier décrit comment apporter votre contribution et indique les directives à suivre pour le faire.
 
-## Adobe de code de conduite Open Source
+## Code de conduite d’Adobe Open Source
 
-Ce projet a adopté la méthode [Adobe de code de conduite Open Source](code-of-conduct.md). En contribuant à la documentation, vous acceptez de respecter ce code de conduite. Signaler un comportement inacceptable à [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
+Ce projet a adopté le [code de conduite d’Adobe Open Source](code-of-conduct.md). En contribuant à la documentation, vous acceptez de respecter ce code de conduite. Signalez tout comportement inacceptable à [&#128279;](mailto:Grp-opensourceoffice@adobe.com).
 
 ## Instructions relatives à la contribution
 
-Bien que toute contribution visant à améliorer la documentation soit la bienvenue, nous vous demandons, si possible, de bien vouloir respecter certaines instructions et normes. Consultez la section [Instructions relatives à la contribution à la documentation Adobe Dynamic Media Classic](guidelines.md) pour plus d’informations.
+Bien que nous soyons ouverts à toute contribution visant à améliorer la documentation, nous demandons que les contributions respectent, dans la mesure du possible, certaines lignes directrices et normes. Pour plus d’informations, consultez la [documentation relative à la contribution à Adobe Dynamic Media Classic](guidelines.md).
 
 ## Comment contribuer
 
-Nous souhaitons faciliter au maximum la soumission de vos contributions. Vous pouvez contribuer de deux manières :
+Nous voulons faciliter autant que possible la soumission de vos contributions. Vous pouvez contribuer de deux façons :
 
-* [Création d’un problème](#create-an-issue)
-* [Création d’une requête d’extraction](#create-a-pull-request)
+* [Créer un événement](#create-an-issue)
+* [Création d’une demande d’extraction](#create-a-pull-request)
 
-La méthode choisie dépend de votre aisance pour modifier vous-même la documentation dans GitHub.
+La méthode choisie dépend de votre niveau de confort dans la modification de la documentation dans GitHub.
 
 >[!NOTE]
 >
->Les contributions que vous soumettez sont couvertes par la variable [Conditions d’utilisation des Adobes.](https://www.adobe.com/legal/terms.html)
+>Les contributions que vous envoyez sont couvertes par les [conditions d’utilisation d’Adobe.](https://www.adobe.com/legal/terms.html)
 
-### Création d’un problème {#create-an-issue}
+### Créer un événement {#create-an-issue}
 
-Avez-vous une suggestion, une observation sur la documentation actuelle ou une question sur la manière dont quelque chose est décrit ? Si tel est le cas, créez un problème. Les propositions relatives aux problèmes sont également excellentes si vous avez quelque chose à apporter, mais que vous n’êtes pas habitué à modifier les documents ou à effectuer vous-même une demande d’extraction.
+Avez-vous une suggestion, une observation au sujet des documents actuels, ou une question sur la façon dont quelque chose est décrit ? Si tel est le cas, créez un problème. Les problèmes sont également excellents si vous avez quelque chose à apporter, mais que vous n’êtes pas à l’aise pour modifier les documents ou effectuer vous-même une demande d’extraction.
 
-Les problèmes vous permettent de décrire facilement vos idées d’amélioration des documents, avant examen par un membre de l’équipe de documentation. Pour créer un problème, sélectionnez **Enregistrer un problème** lien situé en haut du panneau de navigation de droite d’une page.
+Les problèmes vous permettent de décrire facilement vos idées d’amélioration de documents et un membre de l’équipe de documentation peut les examiner. Pour créer un problème, cliquez sur le lien **Enregistrer un problème** en haut du panneau de navigation de droite, sur n’importe quelle page.
 
-### Créer une requête d’extraction {#create-a-pull-request}
+### Création d’une demande d’extraction {#create-a-pull-request}
 
-Si vous rencontrez un problème et savez exactement comment le résoudre, envisagez de créer une requête d’extraction. Les demandes d’extraction vous permettent d’apporter vos propres modifications à la documentation, avant examen pour inclusion par un membre de l’équipe de documentation. Pour apporter les modifications suggérées et créer la requête d’extraction, sélectionnez **Modifier cette page** en haut du panneau de navigation de droite d’une page.
+Si vous rencontrez un problème et savez exactement comment le résoudre, pensez à créer une requête d’extraction. Les demandes d’extraction permettent d’apporter vos propres modifications à la documentation, avant examen par un membre de l’équipe de documentation en vue de leur inclusion. Pour apporter les modifications suggérées et créer la demande d’extraction, sélectionnez **Modifier cette page** en haut du panneau de navigation de droite d’une page.
 
-Toutes les demandes d’extraction doivent être accompagnées d’un [contrat de licence du contributeur ou CLA](https://opensource.adobe.com/cla.html). Ce processus autorise l’Adobe à redistribuer vos contributions dans le cadre du projet. Envoyez un CLA d’Adobe une seule fois. Si vous en avez déjà soumis un, vous pouvez y aller !
+Toutes les demandes d’extraction doivent être accompagnées d’un contrat de licence de contributeur ou d’un contrat de licence du contributeur signé [CLA]&#x200B;(https://opensource.adobe.com/cla.html). Ce processus donne à Adobe l’autorisation de redistribuer vos contributions dans le cadre du projet. Envoyez un contrat de licence du contributeur Adobe une seule fois. Si vous en avez déjà soumis un, tout est déjà en ordre !
 
-### Présentation vidéo rapide
+### Présentation rapide des vidéos
 
-Regardez la vidéo suivante pour un aperçu rapide de la création de problèmes et des demandes d’extraction.
+Regardez la vidéo suivante pour un aperçu rapide de la création de problèmes et de l’extraction de requêtes.
 
 >[!VIDEO](https://video.tv.adobe.com/v/27069)
 
-### Contributions des employés de l&#39;Adobe
+### Contributions des employés d’Adobe
 
-Si vous êtes un employé d’Adobe et avez une contribution, utilisez la variable `AdobeDocs` org dans le git d’entreprise.
+Si vous êtes un employé d’Adobe et que vous avez une contribution, utilisez l’organisation `AdobeDocs` dans le Git de l’entreprise.
 
-Nous sommes heureux de toute contribution et nous la vérifions si elle est effectuée sur le référentiel public. Toutefois, les demandes d’extraction des employés d’Adobe sont plus faciles à traiter et sont approuvées plus rapidement dans le référentiel de l’entreprise. Assurez-vous que toute information de propriété exclusive n’est discutée que sur le référentiel de l’entreprise.
+Nous sommes heureux pour toute contribution et examinons-la si elle est faite sur le dépôt public. Toutefois, les demandes d’extraction des employés d’Adobe sont plus faciles à traiter et sont approuvées plus rapidement dans le référentiel d’entreprise. Assurez-vous que toutes les informations propriétaires ne sont abordées que dans le référentiel d’entreprise.
 
 ## Informations supplémentaires
 
-Voir [Guide du contributeur de documents d’Adobe](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=fr) pour plus d’informations sur l’utilisation de la plateforme de création GitHub.
+Consultez le [Guide du contributeur aux documents &#x200B;](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=fr) pour plus d’informations sur l’utilisation de la plateforme de création GitHub.
