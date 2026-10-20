@@ -34,11 +34,11 @@ L’attribut `href` de la zone cliquable possède une URL vers la ressource exte
 
 Voici un exemple de redirection d’URL simple :
 
-`href=http://www.adobe.com`
+`href=http://www.adobe.com/fr`
 
 Dans cet exemple, la même URL est encapsulée avec la fonction `loadProduct()` :
 
-`href=javascript:loadProduct("http://www.adobe.com");void(0);`
+`href=javascript:loadProduct("http://www.adobe.com/fr");void(0);`
 
 Gardez à l’esprit que lorsque vous ajoutez le code JavaScript dans l’attribut `HREF` de votre zone cliquable, le code est exécuté sur l’ordinateur du client. Par conséquent, assurez-vous que le code JavaScript est sécurisé.
 

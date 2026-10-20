@@ -29,7 +29,7 @@ La méthode choisie dépend de votre niveau de confort dans la modification de l
 
 >[!NOTE]
 >
->Les contributions que vous envoyez sont couvertes par les [conditions d’utilisation d’Adobe.](https://www.adobe.com/legal/terms.html)
+>Les contributions que vous envoyez sont couvertes par les [conditions d’utilisation d’Adobe.](https://www.adobe.com/fr/legal/terms.html)
 
 ### Créer un événement {#create-an-issue}
 
